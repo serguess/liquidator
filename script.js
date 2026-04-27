@@ -566,7 +566,7 @@ if (lion) {
   function buildSeeAllCard() {
     const el = document.createElement('a');
     el.className = 'k-card k-card--all';
-    el.href = 'category/all.html';
+    el.href = '/category/all';
     el.innerHTML = `
       <div class="k-card__content k-card--all__content">
         <span class="k-card__tag">Все материалы</span>

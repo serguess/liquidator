@@ -12,7 +12,7 @@
       "read": "6 мин.",
       "tone": "a",
       "img": "assets/a1.webp",
-      "url": "articles/fiz/kak-spisat-dolgi-cherez-bankrotstvo-fizicheskogo-lica.html"
+      "url": "articles/fiz/kak-spisat-dolgi-cherez-bankrotstvo-fizicheskogo-lica"
     },
     {
       "slug": "bankrotstvo-yuridicheskih-lic-poshagovaya-instrukciya",
@@ -25,7 +25,7 @@
       "read": "8 мин.",
       "tone": "b",
       "img": "assets/a2.webp",
-      "url": "articles/yur/bankrotstvo-yuridicheskih-lic-poshagovaya-instrukciya.html"
+      "url": "articles/yur/bankrotstvo-yuridicheskih-lic-poshagovaya-instrukciya"
     },
     {
       "slug": "kak-vernut-dolg-s-kontragenta-bez-suda",
@@ -38,7 +38,7 @@
       "read": "5 мин.",
       "tone": "c",
       "img": "assets/a3.webp",
-      "url": "articles/vzysk/kak-vernut-dolg-s-kontragenta-bez-suda.html"
+      "url": "articles/vzysk/kak-vernut-dolg-s-kontragenta-bez-suda"
     },
     {
       "slug": "chem-grozit-neuplata-kreditov-i-zajmov",
@@ -51,7 +51,7 @@
       "read": "4 мин.",
       "tone": "d",
       "img": "assets/a4.webp",
-      "url": "articles/news/chem-grozit-neuplata-kreditov-i-zajmov.html"
+      "url": "articles/news/chem-grozit-neuplata-kreditov-i-zajmov"
     },
     {
       "slug": "kakoe-imushchestvo-ne-mogut-zabrat-pri-bankrotstve",
@@ -64,7 +64,7 @@
       "read": "5 мин.",
       "tone": "e",
       "img": "assets/a5.webp",
-      "url": "articles/fiz/kakoe-imushchestvo-ne-mogut-zabrat-pri-bankrotstve.html"
+      "url": "articles/fiz/kakoe-imushchestvo-ne-mogut-zabrat-pri-bankrotstve"
     },
     {
       "slug": "subsidiarnaya-otvetstvennost-rukovoditelya",
@@ -77,7 +77,7 @@
       "read": "7 мин.",
       "tone": "f",
       "img": "assets/a6.webp",
-      "url": "articles/yur/subsidiarnaya-otvetstvennost-rukovoditelya.html"
+      "url": "articles/yur/subsidiarnaya-otvetstvennost-rukovoditelya"
     },
     {
       "slug": "ispolnitelnoe-proizvodstvo-chto-delat-dolzhniku",
@@ -90,7 +90,7 @@
       "read": "6 мин.",
       "tone": "g",
       "img": "assets/a1.webp",
-      "url": "articles/vzysk/ispolnitelnoe-proizvodstvo-chto-delat-dolzhniku.html"
+      "url": "articles/vzysk/ispolnitelnoe-proizvodstvo-chto-delat-dolzhniku"
     },
     {
       "slug": "izmeneniya-v-zakone-o-bankrotstve-2024",
@@ -103,7 +103,7 @@
       "read": "5 мин.",
       "tone": "h",
       "img": "assets/a2.webp",
-      "url": "articles/news/izmeneniya-v-zakone-o-bankrotstve-2024.html"
+      "url": "articles/news/izmeneniya-v-zakone-o-bankrotstve-2024"
     }
   ]
 }

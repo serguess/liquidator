@@ -27,7 +27,7 @@ from pathlib import Path
 from typing import Optional
 
 from fastapi import FastAPI, Request, HTTPException, Depends
-from fastapi.responses import Response, HTMLResponse
+from fastapi.responses import Response, HTMLResponse, RedirectResponse
 from fastapi.staticfiles import StaticFiles
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.middleware.gzip import GZipMiddleware
@@ -261,6 +261,56 @@ async def _block_sources(request: Request, call_next):
     p = request.url.path
     if p in _BLOCKED_PATHS or any(p.startswith(pref) for pref in _BLOCKED_PREFIXES):
         return Response(status_code=404)
+    return await call_next(request)
+
+
+# ============ CLEAN URLS (без .html в адресной строке) ============
+# /payment.html        → 301 → /payment
+# /index.html          → 301 → /
+# /category/all.html   → 301 → /category/all
+# /articles/fiz/x.html → 301 → /articles/fiz/x
+# /payment             → внутри отдаёт payment.html (rewrite, без редиректа)
+_NO_REWRITE_PREFIXES = ("/api", "/preview", "/assets", "/favicon")
+
+
+@app.middleware("http")
+async def _clean_urls(request: Request, call_next):
+    p = request.url.path
+    method = request.method
+
+    # Не трогаем API, превью, статику-ассеты
+    if any(p.startswith(pref) for pref in _NO_REWRITE_PREFIXES):
+        return await call_next(request)
+
+    if method in ("GET", "HEAD"):
+        # 1. /xxx/index.html → /xxx/
+        if p.endswith("/index.html"):
+            target = p[: -len("index.html")] or "/"
+            qs = request.url.query
+            if qs:
+                target = f"{target}?{qs}"
+            return RedirectResponse(url=target, status_code=301)
+
+        # 2. /xxx.html → /xxx
+        if p.endswith(".html"):
+            target = p[: -len(".html")]
+            qs = request.url.query
+            if qs:
+                target = f"{target}?{qs}"
+            return RedirectResponse(url=target, status_code=301)
+
+        # 3. /xxx без расширения → перепиши на /xxx.html, если такой файл есть
+        last_seg = p.rsplit("/", 1)[-1]
+        if p != "/" and last_seg and "." not in last_seg and not p.endswith("/"):
+            fs_path = ROOT / p.lstrip("/")
+            if not fs_path.is_file():
+                html_path = ROOT / (p.lstrip("/") + ".html")
+                if html_path.is_file():
+                    new_path = p + ".html"
+                    request.scope["path"] = new_path
+                    raw_qs = request.scope.get("query_string", b"")
+                    request.scope["raw_path"] = new_path.encode() + (b"?" + raw_qs if raw_qs else b"")
+
     return await call_next(request)
 
 

@@ -7,25 +7,25 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>/category/all.html</loc>
+    <loc>/category/all</loc>
     <lastmod>2026-04-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>/articles/fiz/kak-spisat-dolgi-cherez-bankrotstvo-fizicheskogo-lica.html</loc>
+    <loc>/articles/fiz/kak-spisat-dolgi-cherez-bankrotstvo-fizicheskogo-lica</loc>
     <lastmod>2024-05-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>/privacy.html</loc>
+    <loc>/privacy</loc>
     <lastmod>2026-04-23</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>/terms.html</loc>
+    <loc>/terms</loc>
     <lastmod>2026-04-23</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
