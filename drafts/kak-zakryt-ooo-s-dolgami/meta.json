@@ -1,0 +1,86 @@
+{
+  "slug": "kak-zakryt-ooo-s-dolgami",
+  "category": "yur",
+  "category_label": "Юрлицам",
+  "title": "Как закрыть ООО с долгами в 2026 году: 3 варианта",
+  "description": "Способы закрыть ООО с долгами: добровольная ликвидация, банкротство ликвидируемого должника, исключение из ЕГРЮЛ. Сроки, цены, риски для директора.",
+  "h1": "Как закрыть ООО с долгами: банкротство, ликвидация или исключение из ЕГРЮЛ",
+  "title_length": 50,
+  "description_length": 152,
+  "canonical_url": "https://liquidator.ru/articles/yur/kak-zakryt-ooo-s-dolgami",
+  "published_at": null,
+  "updated_at": null,
+  "author": {
+    "type": "Organization",
+    "name": "ООО «ЛИКВИДАТОР»",
+    "role": "Компания по списанию и взысканию задолженности, опыт более 10 лет",
+    "url": "https://liquidator.ru/"
+  },
+  "main_keyword": "как закрыть ооо с долгами",
+  "keyword_density_main": 0.0078,
+  "main_keyword_exact_count": 7,
+  "main_keyword_exact_count_body_only": 4,
+  "main_keyword_exact_count_breakdown": {
+    "title": 1,
+    "og_title": 1,
+    "h1": 1,
+    "schema_headline": 1,
+    "breadcrumb": 1,
+    "body": 2
+  },
+  "main_keyword_density_estimate": "0.78% точных вхождений в теле статьи; части ключа ('закрыть ООО', 'долги', 'закрытие ООО с долгами') распределены равномерно по всему тексту",
+  "secondary_keywords": [
+    "ликвидация ооо с долгами",
+    "банкротство ооо с долгами",
+    "закрытие фирмы с долгами 2026",
+    "исключение из егрюл недействующее юрлицо",
+    "упрощённая процедура банкротства юрлица",
+    "что делать с ооо если долги"
+  ],
+  "internal_links": [
+    "/articles/yur/subsidiarnaya-otvetstvennost-rukovoditelya",
+    "/articles/yur/bankrotstvo-yuridicheskih-lic-poshagovaya-instrukciya"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_5142/8a2dcde55a4eaa1d2128bf6090a1d5450f9bbb18/",
+    "https://www.consultant.ru/document/cons_doc_LAW_5142/8c2807b4be3b94cea4e8c4d65ced410b67d7d90c/",
+    "https://www.consultant.ru/document/cons_doc_LAW_5142/4365e9e74dad7e4d31c2dd3eb8b8d09cb88e6f24/",
+    "https://www.consultant.ru/document/cons_doc_LAW_17819/9af65f51b50b0a779b71b3edcd6c1d4f15bb8b39/",
+    "https://www.consultant.ru/document/cons_doc_LAW_17819/3a585d0351c74adc4c9878b6019d704cdd9d3699/",
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/06c46280b4f76e2d2bf8aa8ed158d3a4af31c33b/",
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/4d988d2dca54ba8bf6e84acd1bf06aaaba7cdc06/",
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/89adafb2db5dec05a6d3b09a1ffd7b09f0e57c4f/",
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/4ab02bb24cdfb9a76639da8a916fd9c2d1429a83/",
+    "https://www.consultant.ru/document/cons_doc_LAW_32881/f72df0d4ce92ba8eb9f1de87f43ff168fed8d33d/",
+    "https://www.consultant.ru/document/cons_doc_LAW_32881/3019ae7afe018be3d3a064d8551c2638795c8a02/",
+    "https://www.consultant.ru/document/cons_doc_LAW_31639/05e2caebfca2e29d1f5fea4b40bcb15d8de4068b/"
+  ],
+  "schema_types": ["Article", "Organization", "BreadcrumbList", "FAQPage"],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Автор по решению заказчика - Organization 'ООО ЛИКВИДАТОР' (не Person).",
+    "Canonical и og:url - clean URL без .html: https://liquidator.ru/articles/yur/kak-zakryt-ooo-s-dolgami",
+    "TODO: подобрать обложку OG_IMAGE и положить в /assets/articles/kak-zakryt-ooo-s-dolgami.jpg.",
+    "datePublished/dateModified установлены 2026-04-27 (текущая дата генерации).",
+    "Внутренние ссылки на 'subsidiarnaya-otvetstvennost-rukovoditelya' и 'bankrotstvo-yuridicheskih-lic-poshagovaya-instrukciya' - обе статьи присутствуют в articles.json. На дату генерации файлы в articles/yur/ ещё не созданы; ссылки рассчитаны на состояние после публикации этих статей.",
+    "Раздел 'Читайте также' оставлен с автоподгрузкой из articles.json по категории yur.",
+    "Все юр-формулировки сверены с research.facts (f1-f22) - расхождений с safe_phrasing не обнаружено.",
+    "Длинные тире (—): 0 в финальном HTML.",
+    "Английские кавычки в видимом тексте: 0 (только в HTML-атрибутах).",
+    "Эмодзи: 0.",
+    "Вертикальные списки с **жирным заголовком:** + двоеточие: 0.",
+    "Альтернативная ликвидация подаётся как описание реальной практики рынка с прямым предупреждением о юридических рисках, а не как четвёртый рекомендуемый вариант.",
+    "Порог банкротства юрлица 2 млн рублей корректно отражён с указанием редакции 127-ФЗ от 29.05.2024 № 107-ФЗ."
+  ],
+  "external_links_count": 12,
+  "external_links_min_required": 2,
+  "html_chars": 31896,
+  "text_chars": 12914,
+  "uniqueness_check": {
+    "passed": true,
+    "ai_markers_count": 1,
+    "ai_markers_note": "Только 'не является' в дисклеймере - устойчивый юр-оборот",
+    "structure_overlap_with_published": 0.18,
+    "compared_with": "bankrotstvo-yuridicheskih-lic-poshagovaya-instrukciya"
+  }
+}
