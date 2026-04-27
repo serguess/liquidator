@@ -570,7 +570,55 @@ _TOPICS_TPL = """<!doctype html>
 <body>
 <h1>🗺️ Карта тем для статей</h1>
 <p class="lead">Это <b>предложения тем</b> от агента-семантика. Перед тем как запускать конвейер на 30+ статей, посмотрите глазами: попадает ли агент в вашу тематику, правильно ли видит интент клиентов и стадию воронки.</p>
-<p class="lead">Чтобы одобрить тему: откройте файл темы на GitHub (кнопка «✏️ Править»), измените <code>"status": "proposed"</code> на <code>"approved"</code>, добавьте комментарий в <code>"client_notes"</code>. Или создайте issue на GitHub с пометкой темы.</p>
+<p class="lead">Чтобы одобрить тему: откройте файл темы на GitHub (кнопка «✏️ Редактировать»), измените <code>"status": "proposed"</code> на <code>"approved"</code>, добавьте комментарий в <code>"client_notes"</code>. Или создайте issue на GitHub с пометкой темы.</p>
+
+<details style="margin:0 0 24px;background:#fff;border:1px solid #e6e3da;border-radius:8px;padding:14px 18px">
+  <summary style="cursor:pointer;font-weight:600;color:#3a4118;font-size:15px;list-style:none">📖 Что означают теги у каждой темы (нажмите, чтобы развернуть)</summary>
+  <div style="margin-top:14px;font-size:13px;line-height:1.55;color:#444;display:grid;grid-template-columns:1fr 1fr;gap:18px 28px">
+    <div>
+      <div style="font-weight:600;color:#3a4118;margin-bottom:6px">🎯 Интент (что в голове у читателя)</div>
+      <div><span class="tag i-problem">problem-aware</span> — человек в проблеме («приставы списали зарплату»). Самая горячая аудитория, нужна эмпатия.</div>
+      <div style="margin-top:4px"><span class="tag i-solution">solution-aware</span> — знает что есть решение, выбирает между вариантами.</div>
+      <div style="margin-top:4px"><span class="tag i-commercial">commercial</span> — готов покупать услугу («сколько стоит банкротство»). Самый ценный трафик.</div>
+      <div style="margin-top:4px"><span class="tag i-informational">informational</span> — просто хочет понять как работает. Прогрев на будущее.</div>
+    </div>
+    <div>
+      <div style="font-weight:600;color:#3a4118;margin-bottom:6px">🪜 Стадия воронки (как близко к покупке)</div>
+      <div><span class="tag">awareness</span> — только узнал о проблеме, гуглит общее.</div>
+      <div style="margin-top:4px"><span class="tag">consideration</span> — сравнивает варианты, выбирает подход.</div>
+      <div style="margin-top:4px"><span class="tag">decision</span> — готов действовать, ищет исполнителя. Сюда конверсия в лиды.</div>
+    </div>
+    <div>
+      <div style="font-weight:600;color:#3a4118;margin-bottom:6px">📑 Формат статьи</div>
+      <div><span class="tag">step-by-step</span> — пошаговая инструкция</div>
+      <div style="margin-top:4px"><span class="tag">comparison</span> — сравнение вариантов («МФЦ vs суд»)</div>
+      <div style="margin-top:4px"><span class="tag">case-study</span> — разбор конкретного случая</div>
+      <div style="margin-top:4px"><span class="tag">law-explanation</span> — объяснение закона</div>
+      <div style="margin-top:4px"><span class="tag">faq</span> — вопрос-ответ</div>
+      <div style="margin-top:4px"><span class="tag">myths</span> — мифы и правда</div>
+    </div>
+    <div>
+      <div style="font-weight:600;color:#3a4118;margin-bottom:6px">📊 Частотность (примерная оценка агента)</div>
+      <div><span class="tag f-high">high</span> — тысячи запросов в месяц, приоритет</div>
+      <div style="margin-top:4px"><span class="tag f-medium">medium</span> — сотни, можно делать</div>
+      <div style="margin-top:4px"><span class="tag f-low">low</span> — десятки, только если стратегически важно</div>
+      <div style="margin-top:8px;font-size:12px;color:#888">Примечание: грубая оценка без Wordstat. Точную частотность смотрите в Яндекс.Wordstat.</div>
+    </div>
+    <div style="grid-column:1 / -1">
+      <div style="font-weight:600;color:#3a4118;margin-bottom:6px">🎁 Оффер (CTA в конце статьи)</div>
+      <div style="display:grid;grid-template-columns:repeat(2,1fr);gap:6px 18px">
+        <div><code>proverka-spisaniya</code> — бесплатная проверка, спишутся ли долги</div>
+        <div><code>otmena-prikaza</code> — помощь с отменой судебного приказа</div>
+        <div><code>snyatie-aresta</code> — снятие ареста со счёта</div>
+        <div><code>raschet-stoimosti</code> — расчёт стоимости банкротства</div>
+      </div>
+    </div>
+    <div style="grid-column:1 / -1;padding-top:10px;border-top:1px solid #eef0e0">
+      <div style="font-weight:600;color:#3a4118;margin-bottom:6px">Зачем эти теги?</div>
+      <div>Они показывают, что агент думает <b>стратегически</b>, а не пишет что попало. Если, например, все 32 темы в стадии <code>awareness</code> и ни одной <code>decision</code> — это перекос, не будет лидов. Если тема для <code>problem-aware</code> читателя, а агент пишет её в стиле сухого закона — что-то не так с тоном. Это инструмент быстрого аудита.</div>
+    </div>
+  </div>
+</details>
 
 <div class="top-actions">
   <a href="/preview/" class="primary">← К черновикам</a>
