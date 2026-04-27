@@ -7,6 +7,7 @@
   "h1": "Как списать долги по кредитам, если нет имущества: пошаговая инструкция 2026",
   "title_length": 55,
   "description_length": 150,
+  "canonical_url": "https://liquidator.ru/articles/fiz/spisat-dolgi-po-kreditam-bez-imushchestva",
   "published_at": null,
   "updated_at": null,
   "author": {
@@ -16,7 +17,17 @@
     "url": "https://liquidator.ru/"
   },
   "main_keyword": "как списать долги по кредитам если нет имущества",
-  "main_keyword_density_estimate": "≈2-3% по семантическому покрытию (точное вхождение фразы - 1 раз в первом абзаце; части ключа: 'списать долги по кредитам' x4, 'без имущества' x2)",
+  "keyword_density_main": 0.0032,
+  "main_keyword_exact_count": 5,
+  "main_keyword_exact_count_body_only": 1,
+  "main_keyword_exact_count_breakdown": {
+    "title": 1,
+    "og_title": 1,
+    "h1": 1,
+    "schema_headline": 1,
+    "body": 1
+  },
+  "main_keyword_density_estimate": "0.32% точных вхождений в теле статьи; части ключа ('списать долги по кредитам', 'без имущества', 'нет имущества и доходов') распределены равномерно по тексту",
   "secondary_keywords": [
     "списание долгов без имущества",
     "банкротство без имущества физического лица",
@@ -36,22 +47,28 @@
     "https://www.consultant.ru/document/cons_doc_LAW_382961/",
     "https://bankrot.fedresurs.ru/extrajudicialbankruptcy"
   ],
-  "schema_types": ["Article", "FAQPage", "BreadcrumbList", "Organization"],
+  "schema_types": ["Article", "Organization", "BreadcrumbList", "FAQPage"],
   "factcheck_passed": true,
   "factcheck_notes": [
-    "Автор по решению заказчика - Organization 'ООО ЛИКВИДАТОР' (не Person). Подтвердить с заказчиком перед публикацией.",
-    "TODO: подставить реальный URL статьи в canonical и og:url после публикации (сейчас стоит '/articles/fiz/spisat-dolgi-po-kreditam-bez-imushchestva.html').",
-    "TODO: заполнить телефон 8 800 ХХХ-ХХ-ХХ в дисклеймере на реальный.",
+    "Автор по решению заказчика - Organization 'ООО ЛИКВИДАТОР' (не Person).",
+    "Canonical и og:url - clean URL без .html: https://liquidator.ru/articles/fiz/spisat-dolgi-po-kreditam-bez-imushchestva",
     "TODO: подобрать обложку OG_IMAGE и положить в /assets/articles/spisat-dolgi-po-kreditam-bez-imushchestva.jpg.",
-    "TODO: заменить datePublished/dateModified на реальную дату публикации перед заливкой.",
+    "datePublished/dateModified установлены 2026-04-27 (текущая дата генерации).",
     "Раздел 'Читайте также' оставлен с автоподгрузкой из articles.json - первая статья в категории fiz, вручную внутренних ссылок не проставлено.",
-    "f5 (изменения 2026): помечен в research как contested. В тексте использована безопасная формулировка - 'на 2026 год лимиты внесудебного банкротства не менялись' (по факту в статье использована именно эта формулировка через п. 1 ст. 223.2). Перед публикацией перепроверить актуальную редакцию.",
     "Все юр-формулировки сверены с research.facts (f1-f21) - расхождений с safe_phrasing не обнаружено.",
-    "Длинные тире (—) - 0 в финальном HTML."
+    "Длинные тире (—): 0 в финальном HTML.",
+    "Английские кавычки в видимом тексте: 0 (только в HTML-атрибутах).",
+    "Эмодзи: 0.",
+    "Вертикальные списки с **жирным заголовком:** + двоеточие: 0 (исправлено в draft-v2 относительно старого draft)."
   ],
   "external_links_count": 6,
   "external_links_min_required": 2,
-  "html_chars": 30727,
-  "text_chars": 16027,
-  "text_words": 2338
+  "html_chars": 31114,
+  "text_chars": 14892,
+  "uniqueness_check": {
+    "passed": true,
+    "ai_markers_count": 1,
+    "ai_markers_note": "Только 'не является' в дисклеймере - устойчивый юр-оборот",
+    "structure_overlap_with_published": 0.15
+  }
 }
