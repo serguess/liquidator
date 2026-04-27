@@ -447,11 +447,13 @@ _PREVIEW_INDEX_TPL = """<!doctype html>
 <h1>Черновики SEO-конвейера</h1>
 <p class="lead">Это превью неопубликованных статей. Видно только вам по логину. <b>Не индексируется</b> поисковиками.</p>
 <div style="margin:0 0 20px;display:flex;gap:8px;flex-wrap:wrap;font-size:13px">
+  <a href="/preview/topics" style="background:#0969da;border:1px solid #0969da;color:#fff;padding:6px 12px;border-radius:6px;text-decoration:none">🗺️ Карта тем (32)</a>
   <a href="{repo_url}" target="_blank" rel="noopener" style="background:#fff;border:1px solid #d0d7de;color:#24292f;padding:6px 12px;border-radius:6px;text-decoration:none">📁 Репо на GitHub</a>
-  <a href="{prompts_url}" target="_blank" rel="noopener" style="background:#fff;border:1px solid #d0d7de;color:#24292f;padding:6px 12px;border-radius:6px;text-decoration:none">🤖 Промпты агентов (.claude/agents)</a>
-  <a href="{readme_url}" target="_blank" rel="noopener" style="background:#fff;border:1px solid #d0d7de;color:#24292f;padding:6px 12px;border-radius:6px;text-decoration:none">📖 Инструкция (README)</a>
-  <a href="{issues_url}" target="_blank" rel="noopener" style="background:#fff;border:1px solid #d0d7de;color:#24292f;padding:6px 12px;border-radius:6px;text-decoration:none">💬 Комментарии и задачи</a>
+  <a href="{prompts_url}" target="_blank" rel="noopener" style="background:#fff;border:1px solid #d0d7de;color:#24292f;padding:6px 12px;border-radius:6px;text-decoration:none">🤖 Промпты агентов</a>
+  <a href="{readme_url}" target="_blank" rel="noopener" style="background:#fff;border:1px solid #d0d7de;color:#24292f;padding:6px 12px;border-radius:6px;text-decoration:none">📖 Инструкция</a>
+  <a href="{issues_url}" target="_blank" rel="noopener" style="background:#fff;border:1px solid #d0d7de;color:#24292f;padding:6px 12px;border-radius:6px;text-decoration:none">💬 Комментарии</a>
 </div>
+<h2 style="margin:24px 0 12px;font-size:18px;color:#3a4118">Готовые черновики статей</h2>
 {table}
 </body></html>"""
 
@@ -498,6 +500,205 @@ def preview_index(_user: str = Depends(_check_preview_auth)):
         table=body, repo_url=repo_url, prompts_url=prompts_url,
         readme_url=readme_url, issues_url=issues_url,
     ))
+    response.headers["X-Robots-Tag"] = "noindex, nofollow"
+    response.headers["Cache-Control"] = "no-store"
+    return response
+
+
+_TOPIC_MAP_DIR = DRAFTS_DIR / "_topic-map"
+
+
+def _load_topic_map() -> dict:
+    """Читает все JSON из drafts/_topic-map/, возвращает {category: {label, topics}}."""
+    out = {}
+    if not _TOPIC_MAP_DIR.exists():
+        return out
+    for f in sorted(_TOPIC_MAP_DIR.glob("*.json")):
+        try:
+            data = json.loads(f.read_text(encoding="utf-8"))
+            out[data["category"]] = data
+        except Exception:
+            continue
+    return out
+
+
+_TOPICS_TPL = """<!doctype html>
+<html lang="ru"><head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<meta name="robots" content="noindex,nofollow"/>
+<title>Карта тем - ЛИКВИДАТОР</title>
+<style>
+  body{{font-family:-apple-system,Segoe UI,Roboto,Arial,sans-serif;max-width:1200px;margin:0 auto;padding:32px 24px;color:#222;background:#fafaf7}}
+  h1{{margin:0 0 8px;font-size:28px;color:#3a4118}}
+  .lead{{color:#666;margin:0 0 24px;font-size:14px;max-width:780px}}
+  .lead b{{color:#b85c00}}
+  .top-actions{{margin:0 0 24px;display:flex;gap:8px;flex-wrap:wrap;font-size:13px}}
+  .top-actions a{{padding:6px 12px;border-radius:6px;text-decoration:none;border:1px solid #d0d7de;background:#fff;color:#24292f}}
+  .top-actions a.primary{{background:#0969da;border-color:#0969da;color:#fff}}
+  .filters{{display:flex;gap:6px;flex-wrap:wrap;margin:0 0 16px}}
+  .filters button{{padding:6px 14px;border-radius:18px;border:1px solid #d0d7de;background:#fff;color:#24292f;cursor:pointer;font-size:13px;font-weight:500}}
+  .filters button.active{{background:#5b6236;border-color:#5b6236;color:#fff}}
+  .cat-section{{margin:0 0 32px}}
+  .cat-section h2{{margin:0 0 8px;font-size:20px;color:#3a4118;border-bottom:2px solid #eef0e0;padding-bottom:8px}}
+  .cat-section .sub{{color:#888;font-size:13px;margin:0 0 16px}}
+  .topic{{background:#fff;border:1px solid #e6e3da;border-radius:8px;padding:14px 16px;margin:0 0 10px;display:grid;grid-template-columns:1fr auto;gap:12px;align-items:start}}
+  .topic.s-approved{{border-left:4px solid #3a8a2a}}
+  .topic.s-rejected{{border-left:4px solid #b00;opacity:.55}}
+  .topic.s-rewrite{{border-left:4px solid #b85c00}}
+  .topic.s-proposed{{border-left:4px solid #d0d7de}}
+  .topic h3{{margin:0 0 4px;font-size:15px;color:#222;font-weight:600}}
+  .topic .id{{display:inline-block;padding:1px 7px;border-radius:4px;background:#f3f0e7;color:#5b6236;font-size:11px;font-family:ui-monospace,Menlo,Consolas,monospace;margin-right:6px}}
+  .topic .desc{{color:#666;font-size:13px;margin:4px 0 8px;line-height:1.4}}
+  .topic .tags{{display:flex;gap:5px;flex-wrap:wrap;font-size:11px}}
+  .tag{{padding:2px 8px;border-radius:10px;background:#eef0e0;color:#5b6236;font-weight:600}}
+  .tag.f-high{{background:#fee2c7;color:#a64a00}}
+  .tag.f-medium{{background:#fff3d6;color:#7a5400}}
+  .tag.f-low{{background:#e8e8e8;color:#666}}
+  .tag.i-problem{{background:#fde4e4;color:#a30000}}
+  .tag.i-solution{{background:#e2eafd;color:#0a3d9c}}
+  .tag.i-commercial{{background:#d4f5dd;color:#1c6624}}
+  .tag.i-informational{{background:#f0f0f0;color:#444}}
+  .topic .actions{{display:flex;gap:6px;align-items:center}}
+  .topic .actions a{{font-size:12px;text-decoration:none;color:#0969da;padding:4px 8px;border-radius:5px;border:1px solid #d0d7de;background:#fff;white-space:nowrap}}
+  .topic .actions a:hover{{background:#f3f0e7}}
+  .notes{{margin-top:8px;padding:8px 10px;background:#fffbe5;border:1px solid #f0e6a3;border-radius:5px;font-size:12px;color:#7a5400}}
+  .empty{{padding:48px 24px;text-align:center;color:#888;background:#fff;border-radius:8px;border:1px dashed #d0d7de}}
+  .stats{{display:flex;gap:14px;margin:0 0 20px;font-size:13px;color:#666}}
+  .stats span b{{color:#3a4118;font-size:15px}}
+</style></head>
+<body>
+<h1>🗺️ Карта тем для статей</h1>
+<p class="lead">Это <b>предложения тем</b> от агента-семантика. Перед тем как запускать конвейер на 30+ статей, посмотрите глазами: попадает ли агент в вашу тематику, правильно ли видит интент клиентов и стадию воронки.</p>
+<p class="lead">Чтобы одобрить тему: откройте файл темы на GitHub (кнопка «✏️ Править»), измените <code>"status": "proposed"</code> на <code>"approved"</code>, добавьте комментарий в <code>"client_notes"</code>. Или создайте issue на GitHub с пометкой темы.</p>
+
+<div class="top-actions">
+  <a href="/preview/" class="primary">← К черновикам</a>
+  <a href="{topics_folder_url}" target="_blank" rel="noopener">📁 Открыть папку тем на GitHub</a>
+  <a href="{issues_url}" target="_blank" rel="noopener">💬 Создать issue с обратной связью</a>
+</div>
+
+<div class="stats">
+  <span>Всего тем: <b>{total}</b></span>
+  <span>Одобрено: <b>{approved}</b></span>
+  <span>На переработку: <b>{rewrite}</b></span>
+  <span>Отклонено: <b>{rejected}</b></span>
+  <span>Ждут решения: <b>{proposed}</b></span>
+</div>
+
+<div class="filters">
+  <button class="active" data-filter="all">Все категории</button>
+  {filter_buttons}
+</div>
+
+{sections}
+
+<script>
+  const buttons = document.querySelectorAll('.filters button');
+  const sections = document.querySelectorAll('.cat-section');
+  buttons.forEach(b => b.addEventListener('click', () => {{
+    buttons.forEach(x => x.classList.remove('active'));
+    b.classList.add('active');
+    const f = b.dataset.filter;
+    sections.forEach(s => {{
+      s.style.display = (f === 'all' || s.dataset.cat === f) ? '' : 'none';
+    }});
+  }}));
+</script>
+</body></html>"""
+
+
+@app.get("/preview/topics", include_in_schema=False)
+def preview_topics(_user: str = Depends(_check_preview_auth)):
+    tm = _load_topic_map()
+    if not tm:
+        body = '<div class="empty">Карта тем пока не сгенерирована.<br/>Запустите агента 1 в режиме генерации тем.</div>'
+        repo_url = f"https://github.com/{GITHUB_REPO}" if GITHUB_REPO else "#"
+        response = HTMLResponse(_TOPICS_TPL.format(
+            sections=body, filter_buttons="", topics_folder_url=repo_url,
+            issues_url=f"{repo_url}/issues/new", total=0, approved=0,
+            rewrite=0, rejected=0, proposed=0,
+        ))
+    else:
+        e = html.escape
+        sections_html = []
+        filter_buttons = []
+        total = approved = rewrite = rejected = proposed = 0
+
+        cat_order = ["fiz", "yur", "vzysk", "news"]
+        for cat in cat_order:
+            if cat not in tm:
+                continue
+            data = tm[cat]
+            label = data.get("category_label", cat)
+            topics = data.get("topics", [])
+            filter_buttons.append(
+                f'<button data-filter="{e(cat)}">{e(label)} ({len(topics)})</button>'
+            )
+
+            topic_blocks = []
+            for t in topics:
+                total += 1
+                status = (t.get("status") or "proposed").lower()
+                if status == "approved": approved += 1
+                elif status == "rewrite": rewrite += 1
+                elif status == "rejected": rejected += 1
+                else: proposed += 1
+
+                edit_url = (
+                    f"https://github.com/{GITHUB_REPO}/edit/{GITHUB_BRANCH}/drafts/_topic-map/{cat}.json"
+                    if GITHUB_REPO else "#"
+                )
+                intent = t.get("intent", "")
+                intent_short = intent.split("-")[0] if "-" in intent else intent[:4]
+                freq = t.get("frequency_estimate", "")
+                offer = t.get("offer", "")
+                notes = t.get("client_notes", "")
+                notes_html = f'<div class="notes">📝 {e(notes)}</div>' if notes else ""
+
+                topic_blocks.append(f'''
+<div class="topic s-{e(status)}" data-cat="{e(cat)}">
+  <div>
+    <h3><span class="id">{e(t.get("id",""))}</span>{e(t.get("title",""))}</h3>
+    <div class="desc">{e(t.get("description",""))}</div>
+    <div class="tags">
+      <span class="tag i-{e(intent_short)}">{e(intent)}</span>
+      <span class="tag">{e(t.get("funnel_stage",""))}</span>
+      <span class="tag">{e(t.get("article_type",""))}</span>
+      <span class="tag f-{e(freq)}">частотность: {e(freq)}</span>
+      <span class="tag">оффер: {e(offer)}</span>
+      <span class="tag">~{e(str(t.get("expected_length_chars","")))} зн.</span>
+    </div>
+    <div style="margin-top:6px;font-size:12px;color:#888"><b>Главный ключ:</b> {e(t.get("main_keyword",""))}</div>
+    <div style="margin-top:4px;font-size:12px;color:#888"><b>Зачем:</b> {e(t.get("rationale",""))}</div>
+    {notes_html}
+  </div>
+  <div class="actions">
+    <a href="{edit_url}" target="_blank" rel="noopener">✏️ Редактировать</a>
+  </div>
+</div>''')
+
+            sections_html.append(
+                f'<section class="cat-section" data-cat="{e(cat)}">'
+                f'<h2>{e(label)} <span style="color:#888;font-size:14px;font-weight:400">({len(topics)} тем)</span></h2>'
+                f'<p class="sub">Категория: <code>{e(cat)}</code> · файл: <code>drafts/_topic-map/{e(cat)}.json</code></p>'
+                f'{"".join(topic_blocks)}'
+                '</section>'
+            )
+
+        repo_url = f"https://github.com/{GITHUB_REPO}" if GITHUB_REPO else "#"
+        topics_folder_url = f"{repo_url}/tree/{GITHUB_BRANCH}/drafts/_topic-map" if GITHUB_REPO else "#"
+        issues_url = f"{repo_url}/issues/new" if GITHUB_REPO else "#"
+
+        response = HTMLResponse(_TOPICS_TPL.format(
+            sections="".join(sections_html),
+            filter_buttons="".join(filter_buttons),
+            topics_folder_url=topics_folder_url,
+            issues_url=issues_url,
+            total=total, approved=approved, rewrite=rewrite,
+            rejected=rejected, proposed=proposed,
+        ))
+
     response.headers["X-Robots-Tag"] = "noindex, nofollow"
     response.headers["Cache-Control"] = "no-store"
     return response
