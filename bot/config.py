@@ -32,6 +32,13 @@ import os
 import secrets
 from pathlib import Path
 
+from dotenv import load_dotenv
+
+# Загружаем .env из корня проекта (bankrotstvo/.env) ДО чтения os.getenv ниже.
+# Иначе при импорте config из bot/main.py переменные окажутся пустыми.
+_PROJECT_ROOT = Path(__file__).resolve().parent.parent
+load_dotenv(_PROJECT_ROOT / ".env")
+
 # Корень проекта (bankrotstvo/).
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 DRAFTS_DIR = PROJECT_ROOT / "drafts"

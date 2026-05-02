@@ -15,6 +15,7 @@ import asyncio
 import logging
 import sys
 
+from dotenv import load_dotenv
 from aiogram import Bot, Dispatcher
 from aiogram.client.default import DefaultBotProperties
 from aiogram.enums import ParseMode
@@ -94,6 +95,7 @@ async def _watch_iteration(bot: Bot):
 
 
 async def main_async():
+    load_dotenv()
     setup_logging()
 
     errors = validate_config()
