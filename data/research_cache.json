@@ -205,17 +205,29 @@
       "added_at": "2026-05-01"
     },
     {
-      "key": "efrsb_tarif_publikacii_2025",
-      "claim": "С 1 июля 2025 года тариф оператора ЕФРСБ за одно сообщение - 1061,76 руб. с НДС (ранее - 902,51 руб.).",
-      "source_url": "https://www.klerk.ru/blogs/fedresurs/687546/",
-      "source_type": "Тариф оператора ЕФРСБ (Федресурс)",
+      "key": "efrsb_tarif_publikacii_fizlitso_2025",
+      "claim": "С 1 июля 2025 года тариф оператора ЕФРСБ за одно сообщение по банкротству ФИЗИЧЕСКОГО лица - 530,88 руб. с НДС 20%. Это в два раза меньше, чем тариф для юрлица.",
+      "source_url": "https://fedresurs.info/category/voprosy-otvety-kak-opublikovat-v-fedresurs-soobshheniya/stoimost-razmeshheniya-soobshheniya-na-fedresurse/",
+      "source_type": "Тариф оператора ЕФРСБ (Федресурс) для физлица",
       "source_date": "2025-07-01",
-      "last_verified": "2026-05-01",
+      "last_verified": "2026-05-02",
       "legislation_status": "active",
-      "amendment_note": "Тариф повышен с 01.07.2025. Старая цена 902,51 руб. устарела.",
+      "amendment_note": "ВАЖНО: тариф зависит от типа должника. Для физлица 530,88 руб., для юрлица 969,48 руб. - НЕ ПУТАТЬ. Прежняя запись 1061,76 руб. была некорректной (она применима, видимо, к среднему/абонементу, а не к разовому сообщению).",
       "added_by_agent": "2-legal-research",
       "added_for_slug": "skolko-stoit-bankrotstvo-fizicheskogo-lica",
-      "added_at": "2026-05-01"
+      "added_at": "2026-05-02"
+    },
+    {
+      "key": "efrsb_tarif_publikacii_yurlitso_2024",
+      "claim": "С 1 апреля 2024 года тариф оператора ЕФРСБ за одно сообщение по банкротству ЮРИДИЧЕСКОГО лица - 969,48 руб. с НДС 20%.",
+      "source_url": "https://fedresurs.info/category/voprosy-otvety-kak-opublikovat-v-fedresurs-soobshheniya/stoimost-razmeshheniya-soobshheniya-na-fedresurse/",
+      "source_type": "Тариф оператора ЕФРСБ (Федресурс) для юрлица",
+      "source_date": "2024-04-01",
+      "last_verified": "2026-05-02",
+      "legislation_status": "active",
+      "added_by_agent": "2-legal-research",
+      "added_for_slug": "kak-zakryt-ooo-s-dolgami",
+      "added_at": "2026-05-02"
     },
     {
       "key": "porog_bankrotstva_yurlitsa_2mln_2024",
