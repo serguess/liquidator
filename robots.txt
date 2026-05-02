@@ -1,6 +1,5 @@
-# ВАЖНО: после привязки домена (например liquidator.ru) замените
-# строку Sitemap: ниже на абсолютный URL вашего домена, например:
-# Sitemap: https://liquidator.ru/sitemap.xml
+# Основной домен: pravo.shop
+# Sitemap указан с абсолютным URL ниже.
 
 User-agent: *
 Allow: /

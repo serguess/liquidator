@@ -54,7 +54,7 @@ MAIL_FROM      = os.getenv("MAIL_FROM", SMTP_USER or "lead@pravo.shop")
 MAIL_FROM_NAME = os.getenv("MAIL_FROM_NAME", "Сайт ЛИКВИДАТОР")
 
 # CORS: если сайт и API на одном домене (рекомендуется) - оставь "same-origin".
-# Если API будет на поддомене api.liquidator.ru - поставь "https://liquidator.ru".
+# Если API будет на поддомене api.pravo.shop - поставь "https://pravo.shop".
 ALLOWED_ORIGIN = os.getenv("ALLOWED_ORIGIN", "same-origin")
 
 RATE_LIMIT_PER_HOUR = int(os.getenv("RATE_LIMIT_PER_HOUR", "3"))

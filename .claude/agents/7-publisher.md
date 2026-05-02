@@ -62,7 +62,7 @@ model: sonnet
   "category": "...",
   "mode": "draft|live",
   "timestamp": "2026-04-25T15:00:00Z",
-  "url": "https://liquidator.ru/articles/{cat}/{slug}.html",
+  "url": "https://pravo.shop/articles/{cat}/{slug}.html",
   "images_generated": 3,
   "indexnow_status": "ok|skipped|failed",
   "git_commit": "abc123"

@@ -2976,6 +2976,11 @@ a {
 .article__cta:hover { transform: translateY(-2px); box-shadow: 0 12px 30px rgba(75,83,32,0.4); }
 .article__cta svg { width: 18px; height: 18px; flex-shrink: 0; }
 .article__cta span { white-space: nowrap; }
+.article__cta--primary { margin: 28px 0 32px; }
+
+.article__cta-inline { display: inline-block; padding: 14px 22px; margin: 8px 0; border-radius: 12px; background: linear-gradient(135deg, rgba(75,83,32,0.18) 0%, rgba(75,83,32,0.08) 100%); border: 1px solid rgba(138,152,72,0.32); color: var(--khaki-light); text-decoration: none; font-family: var(--font-display); font-weight: 600; font-size: 14px; letter-spacing: 0.04em; transition: background 0.2s, border-color 0.2s, color 0.2s; }
+.article__cta-inline:hover { background: linear-gradient(135deg, rgba(75,83,32,0.28) 0%, rgba(75,83,32,0.14) 100%); border-color: rgba(138,152,72,0.55); color: #fff; }
+.article__cta-inline strong { font-weight: 600; }
 
 .article__related { margin-top: 64px; padding-top: 48px; border-top: 1px solid rgba(255,255,255,0.08); }
 .article__related-title { font-family: var(--font-display); font-weight: 700; font-size: clamp(22px, 2.4vw, 30px); color: #fff; margin: 0 0 24px; }

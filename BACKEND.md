@@ -38,7 +38,7 @@ curl -X POST http://localhost:8000/api/lead ^
    - `MAIL_FROM_NAME=Сайт ЛИКВИДАТОР`
    - `ALLOWED_ORIGIN=same-origin`
    - `RATE_LIMIT_PER_HOUR=3`
-6. **Домен:** привязать `liquidator.ru` + `www.liquidator.ru`, включить Let's Encrypt SSL.
+6. **Домен:** привязать `pravo.shop` + `www.pravo.shop`, включить Let's Encrypt SSL.
 7. Deploy.
 
 ## Почта: настройка отправителя
