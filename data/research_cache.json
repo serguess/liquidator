@@ -1,0 +1,247 @@
+{
+  "_comment": "Кэш юр-фактов и источников. Заполняется агентом 2. Append-only - не перезаписывать.",
+  "facts": [
+    {
+      "key": "vnesudebnoe_summa_dolga",
+      "claim": "Внесудебное банкротство через МФЦ: сумма долга от 25 000 до 1 000 000 руб.",
+      "source_url": "https://www.consultant.ru/document/cons_doc_LAW_39331/c48290d39215783e73f0899bb1026b14cb221eff/",
+      "source_type": "127-ФЗ ст. 223.2 п.1",
+      "source_date": "2025",
+      "added_by_agent": "2-legal-research",
+      "added_for_slug": "spisat-dolgi-po-kreditam-bez-imushchestva",
+      "added_at": "2026-04-25"
+    },
+    {
+      "key": "vnesudebnoe_4_osnovaniya",
+      "claim": "4 основания для внесудебного банкротства: окончание ИП по ст.46 ч.1 п.4 ФЗ-229; пенсионер/СВО + ИП старше 1 года; получатель детских пособий + ИП старше 1 года; ИП старше 7 лет не исполнен.",
+      "source_url": "https://www.consultant.ru/document/cons_doc_LAW_39331/c48290d39215783e73f0899bb1026b14cb221eff/",
+      "source_type": "127-ФЗ ст. 223.2",
+      "source_date": "2025",
+      "added_by_agent": "2-legal-research",
+      "added_for_slug": "spisat-dolgi-po-kreditam-bez-imushchestva",
+      "added_at": "2026-04-25"
+    },
+    {
+      "key": "vnesudebnoe_srok_6_mes",
+      "claim": "Срок процедуры внесудебного банкротства - 6 месяцев.",
+      "source_url": "https://bankrot.fedresurs.ru/extrajudicialbankruptcy",
+      "source_type": "127-ФЗ / ЕФРСБ",
+      "source_date": "2025",
+      "added_by_agent": "2-legal-research",
+      "added_for_slug": "spisat-dolgi-po-kreditam-bez-imushchestva",
+      "added_at": "2026-04-25"
+    },
+    {
+      "key": "popravki_noyabr_2023",
+      "claim": "С 03.11.2023 расширены условия внесудебного банкротства: новые лимиты 25 тыс - 1 млн (ранее 50 тыс - 500 тыс), доступ для пенсионеров, получателей детских пособий и должников с ИП старше 7 лет.",
+      "source_url": "https://www.garant.ru/afb-info/guide/zakon-o-bankrostve-fizlic/",
+      "source_type": "127-ФЗ ред. от 04.08.2023 N 474-ФЗ",
+      "source_date": "2023-11-03",
+      "added_by_agent": "2-legal-research",
+      "added_for_slug": "spisat-dolgi-po-kreditam-bez-imushchestva",
+      "added_at": "2026-04-25"
+    },
+    {
+      "key": "ip_st46_p4_ne_spisanie",
+      "claim": "Окончание ИП по ст. 46 ч. 1 п. 4 ФЗ-229 не равно списанию долга; кредитор может повторно предъявить ИЛ.",
+      "source_url": "https://www.consultant.ru/document/cons_doc_LAW_71450/105782f48579348026e763beef098430090826b6/",
+      "source_type": "ФЗ-229 ст. 46 ч. 1 п. 4",
+      "source_date": "2025",
+      "added_by_agent": "2-legal-research",
+      "added_for_slug": "spisat-dolgi-po-kreditam-bez-imushchestva",
+      "added_at": "2026-04-25"
+    },
+    {
+      "key": "ip_st46_povtorno_6_mes",
+      "claim": "Повторное предъявление ИЛ после окончания по ст. 46 - не ранее 6 месяцев (или раньше при изменении имущественного положения).",
+      "source_url": "https://www.consultant.ru/document/cons_doc_LAW_71450/105782f48579348026e763beef098430090826b6/",
+      "source_type": "ФЗ-229 ст. 46 ч. 4-5",
+      "source_date": "2025",
+      "added_by_agent": "2-legal-research",
+      "added_for_slug": "spisat-dolgi-po-kreditam-bez-imushchestva",
+      "added_at": "2026-04-25"
+    },
+    {
+      "key": "osvobozhdenie_213_28_p3",
+      "claim": "Освобождение от обязательств: после реализации имущества гражданин освобождается от долгов, в т.ч. незаявленных.",
+      "source_url": "https://www.consultant.ru/document/cons_doc_LAW_39331/b919efeffaee7c5a42d9c3d755951599d9b55288/",
+      "source_type": "127-ФЗ ст. 213.28 п.3",
+      "source_date": "2025",
+      "added_by_agent": "2-legal-research",
+      "added_for_slug": "spisat-dolgi-po-kreditam-bez-imushchestva",
+      "added_at": "2026-04-25"
+    },
+    {
+      "key": "osvobozhdenie_213_28_p4_isklyucheniya",
+      "claim": "Освобождение не применяется при недобросовестном поведении: уголовка/админка за неправомерные действия при банкротстве, ложные сведения, мошенничество, сокрытие имущества, уклонение от налогов.",
+      "source_url": "https://www.consultant.ru/document/cons_doc_LAW_39331/b919efeffaee7c5a42d9c3d755951599d9b55288/",
+      "source_type": "127-ФЗ ст. 213.28 п.4",
+      "source_date": "2025",
+      "added_by_agent": "2-legal-research",
+      "added_for_slug": "spisat-dolgi-po-kreditam-bez-imushchestva",
+      "added_at": "2026-04-25"
+    },
+    {
+      "key": "osvobozhdenie_213_28_p5_ne_spisyvaetsya",
+      "claim": "Не списываются: алименты, вред жизни/здоровью, моральный вред, текущие платежи, зарплата работникам, обязательства, неразрывно связанные с личностью кредитора.",
+      "source_url": "https://www.consultant.ru/document/cons_doc_LAW_39331/b919efeffaee7c5a42d9c3d755951599d9b55288/",
+      "source_type": "127-ФЗ ст. 213.28 п.5",
+      "source_date": "2025",
+      "added_by_agent": "2-legal-research",
+      "added_for_slug": "spisat-dolgi-po-kreditam-bez-imushchestva",
+      "added_at": "2026-04-25"
+    },
+    {
+      "key": "osvobozhdenie_213_28_p6_subsidiarka",
+      "claim": "Не списываются: субсидиарная ответственность, убытки юрлицу, ущерб имуществу умыслом или грубой неосторожностью.",
+      "source_url": "https://www.consultant.ru/document/cons_doc_LAW_39331/b919efeffaee7c5a42d9c3d755951599d9b55288/",
+      "source_type": "127-ФЗ ст. 213.28 п.6",
+      "source_date": "2025",
+      "added_by_agent": "2-legal-research",
+      "added_for_slug": "spisat-dolgi-po-kreditam-bez-imushchestva",
+      "added_at": "2026-04-25"
+    },
+    {
+      "key": "edinstvennoe_zhilye_446_gpk",
+      "claim": "Единственное жильё (не ипотека) обладает исполнительским иммунитетом по абз. 2 ч. 1 ст. 446 ГПК.",
+      "source_url": "https://www.consultant.ru/document/cons_doc_LAW_39570/",
+      "source_type": "ГПК РФ ст. 446",
+      "source_date": "2025",
+      "added_by_agent": "2-legal-research",
+      "added_for_slug": "spisat-dolgi-po-kreditam-bez-imushchestva",
+      "added_at": "2026-04-25"
+    },
+    {
+      "key": "ks_15p_2021_zhilye",
+      "claim": "Постановление КС РФ № 15-П от 26.04.2021: иммунитет единственного жилья не безусловный; роскошное/недобросовестно приобретённое жильё может быть включено в конкурсную массу с предоставлением замещающего жилья в том же населённом пункте.",
+      "source_url": "https://www.consultant.ru/document/cons_doc_LAW_382961/",
+      "source_type": "Постановление КС РФ № 15-П от 26.04.2021",
+      "source_date": "2021-04-26",
+      "added_by_agent": "2-legal-research",
+      "added_for_slug": "spisat-dolgi-po-kreditam-bez-imushchestva",
+      "added_at": "2026-04-25"
+    },
+    {
+      "key": "posledstviya_213_30_5_kredit",
+      "claim": "5 лет: при оформлении кредита/займа обязан сообщать о банкротстве.",
+      "source_url": "https://www.consultant.ru/document/cons_doc_LAW_39331/15bac90772e695baab0ffa86106dfd11c02e7802/",
+      "source_type": "127-ФЗ ст. 213.30 п.1",
+      "source_date": "2025",
+      "added_by_agent": "2-legal-research",
+      "added_for_slug": "spisat-dolgi-po-kreditam-bez-imushchestva",
+      "added_at": "2026-04-25"
+    },
+    {
+      "key": "posledstviya_213_30_5_povtor",
+      "claim": "5 лет: нельзя повторно подать заявление о собственном банкротстве; при банкротстве по заявлению кредитора правило об освобождении от долгов не применяется.",
+      "source_url": "https://www.consultant.ru/document/cons_doc_LAW_39331/15bac90772e695baab0ffa86106dfd11c02e7802/",
+      "source_type": "127-ФЗ ст. 213.30 п.2",
+      "source_date": "2025",
+      "added_by_agent": "2-legal-research",
+      "added_for_slug": "spisat-dolgi-po-kreditam-bez-imushchestva",
+      "added_at": "2026-04-25"
+    },
+    {
+      "key": "posledstviya_213_30_3_yurlico",
+      "claim": "3 года: запрет занимать должности в органах управления любого юрлица.",
+      "source_url": "https://www.consultant.ru/document/cons_doc_LAW_39331/15bac90772e695baab0ffa86106dfd11c02e7802/",
+      "source_type": "127-ФЗ ст. 213.30 п.3",
+      "source_date": "2025",
+      "added_by_agent": "2-legal-research",
+      "added_for_slug": "spisat-dolgi-po-kreditam-bez-imushchestva",
+      "added_at": "2026-04-25"
+    },
+    {
+      "key": "posledstviya_213_30_5_finorg",
+      "claim": "5 лет: запрет занимать руководящие должности в страховой, НПФ, УК ПИФ, микрофинансовой компании.",
+      "source_url": "https://www.consultant.ru/document/cons_doc_LAW_39331/15bac90772e695baab0ffa86106dfd11c02e7802/",
+      "source_type": "127-ФЗ ст. 213.30 п.3",
+      "source_date": "2025",
+      "added_by_agent": "2-legal-research",
+      "added_for_slug": "spisat-dolgi-po-kreditam-bez-imushchestva",
+      "added_at": "2026-04-25"
+    },
+    {
+      "key": "posledstviya_213_30_10_bank",
+      "claim": "10 лет: запрет занимать руководящие должности в кредитной организации (банке).",
+      "source_url": "https://www.consultant.ru/document/cons_doc_LAW_39331/15bac90772e695baab0ffa86106dfd11c02e7802/",
+      "source_type": "127-ФЗ ст. 213.30 п.3",
+      "source_date": "2025",
+      "added_by_agent": "2-legal-research",
+      "added_for_slug": "spisat-dolgi-po-kreditam-bez-imushchestva",
+      "added_at": "2026-04-25"
+    },
+    {
+      "key": "finupr_voznagrazhdenie",
+      "claim": "Вознаграждение финуправляющего в судебном банкротстве физлица: 25 000 руб. фиксированно за процедуру + 7% от реализации.",
+      "source_url": "https://www.consultant.ru/document/cons_doc_LAW_39331/",
+      "source_type": "127-ФЗ ст. 20.6, 213.9",
+      "source_date": "2025",
+      "added_by_agent": "2-legal-research",
+      "added_for_slug": "spisat-dolgi-po-kreditam-bez-imushchestva",
+      "added_at": "2026-04-25"
+    },
+    {
+      "key": "vnesudebnoe_povtor_5_let",
+      "claim": "Повторное внесудебное банкротство - не ранее 5 лет после завершения предыдущего.",
+      "source_url": "https://www.consultant.ru/document/cons_doc_LAW_39331/c48290d39215783e73f0899bb1026b14cb221eff/",
+      "source_type": "127-ФЗ ст. 223.2",
+      "source_date": "2025",
+      "added_by_agent": "2-legal-research",
+      "added_for_slug": "spisat-dolgi-po-kreditam-bez-imushchestva",
+      "added_at": "2026-04-25"
+    },
+    {
+      "key": "gosposhlina_bankrotstvo_fizlitso_2024",
+      "claim": "С 8 сентября 2024 года ФЗ-259-ФЗ от 08.08.2024 изменил пп. 5 п. 1 ст. 333.21 НК РФ: при подаче заявления о банкротстве самим должником-гражданином госпошлина не взимается. Если процедуру инициирует кредитор-физлицо - 10 000 руб., кредитор-юрлицо - 100 000 руб. Старая ставка 300 руб. для должника устарела.",
+      "source_url": "https://www.pgplaw.ru/analytics-and-brochures/alerts/novye-pravila-oplaty-gosudarstvennykh-poshlin-v-bankrotstve/",
+      "source_type": "НК РФ ст. 333.21 пп. 5 п. 1 (ред. ФЗ-259-ФЗ от 08.08.2024)",
+      "source_date": "2024-09-08",
+      "last_verified": "2026-05-01",
+      "legislation_status": "active",
+      "amendment_note": "Внесено ФЗ-259-ФЗ от 08.08.2024, действует с 08.09.2024. Все упоминания старой ставки 300 руб. для должника-физлица в текстах статей считать устаревшими.",
+      "added_by_agent": "2-legal-research",
+      "added_for_slug": "skolko-stoit-bankrotstvo-fizicheskogo-lica",
+      "added_at": "2026-05-01"
+    },
+    {
+      "key": "efrsb_tarif_publikacii_2025",
+      "claim": "С 1 июля 2025 года тариф оператора ЕФРСБ за одно сообщение - 1061,76 руб. с НДС (ранее - 902,51 руб.).",
+      "source_url": "https://www.klerk.ru/blogs/fedresurs/687546/",
+      "source_type": "Тариф оператора ЕФРСБ (Федресурс)",
+      "source_date": "2025-07-01",
+      "last_verified": "2026-05-01",
+      "legislation_status": "active",
+      "amendment_note": "Тариф повышен с 01.07.2025. Старая цена 902,51 руб. устарела.",
+      "added_by_agent": "2-legal-research",
+      "added_for_slug": "skolko-stoit-bankrotstvo-fizicheskogo-lica",
+      "added_at": "2026-05-01"
+    },
+    {
+      "key": "porog_bankrotstva_yurlitsa_2mln_2024",
+      "claim": "С 29 мая 2024 года ФЗ-107 от 29.05.2024 повысил порог для возбуждения дела о банкротстве юрлица с 300 тыс. до 2 млн руб. (ст. 6, 33 127-ФЗ). Для сельхозпредприятий, естественных монополий и стратегических организаций - 3 млн руб. Норма действует на 2026 год.",
+      "source_url": "https://www.garant.ru/products/ipo/prime/doc/408996348/",
+      "source_type": "127-ФЗ ст. 6 п. 2, ст. 33 (ред. ФЗ-107 от 29.05.2024)",
+      "source_date": "2024-05-29",
+      "last_verified": "2026-05-01",
+      "legislation_status": "active",
+      "amendment_note": "Внесено ФЗ-107 от 29.05.2024. До этой даты порог был 300 тыс. руб.",
+      "added_by_agent": "2-legal-research",
+      "added_for_slug": "kak-zakryt-ooo-s-dolgami",
+      "added_at": "2026-05-01"
+    },
+    {
+      "key": "voznagrazhdenie_finupr_p17_st20_6_kontekst",
+      "claim": "В п. 17 ст. 20.6 127-ФЗ обе ставки 7% применяются к РАЗНЫМ процедурам: при реализации имущества - 7% от выручки от реализации (плюс взыскание дебиторки и применение последствий недействительных сделок); при исполнении плана реструктуризации - 7% от размера удовлетворённых требований кредиторов. В одной процедуре обе ставки не суммируются.",
+      "source_url": "https://www.consultant.ru/document/cons_doc_LAW_39331/c8ec6bf405a2188b82fd140eeb53aa465745c8bd/",
+      "source_type": "127-ФЗ ст. 20.6 п. 17",
+      "source_date": "2025",
+      "last_verified": "2026-05-01",
+      "legislation_status": "active",
+      "amendment_note": "Внимание контексту: писатель не должен путать процедуры. Если статья про реализацию (без имущества) - упоминать только 7% от выручки реализации. Реструктуризация для должника без дохода нерелевантна.",
+      "added_by_agent": "2-legal-research",
+      "added_for_slug": "skolko-stoit-bankrotstvo-fizicheskogo-lica",
+      "added_at": "2026-05-01"
+    }
+  ]
+}

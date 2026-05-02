@@ -8,8 +8,15 @@ __pycache__/
 .DS_Store
 Thumbs.db
 
-# локальная БД эмбеддингов и кэши
-data/
+# локальная БД эмбеддингов и кэши:
+# - SQLite БД эмбеддингов НЕ коммитим (большой бинарник, генерируется локально)
+# - JSON-кэши фактов и ключевиков коммитим: нужны на сервере для агентов и актуализации
+data/*
+!data/README.md
+!data/research_cache.json
+!data/clusters.json
+!data/keywords.json
+!data/queue.json
 *.sqlite
 *.sqlite-journal
 
