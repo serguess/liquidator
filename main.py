@@ -393,9 +393,10 @@ def _list_drafts() -> list[dict]:
     for sub in sorted(DRAFTS_DIR.iterdir()):
         if not sub.is_dir() or sub.name.startswith("_"):
             continue
-        article_html = sub / "article.html"
+        article_v1 = sub / "article.html"
+        article_v2 = sub / "article-v2.html"
         meta_path = sub / "meta.json"
-        if not article_html.exists():
+        if not article_v1.exists() and not article_v2.exists():
             continue
         meta = {}
         if meta_path.exists():
@@ -403,6 +404,8 @@ def _list_drafts() -> list[dict]:
                 meta = json.loads(meta_path.read_text(encoding="utf-8"))
             except Exception:
                 meta = {}
+        # Берём mtime последней актуальной версии для сортировки.
+        latest_file = article_v2 if article_v2.exists() else article_v1
         items.append({
             "slug": sub.name,
             "category": meta.get("category", "?"),
@@ -412,7 +415,9 @@ def _list_drafts() -> list[dict]:
             "factcheck_passed": meta.get("factcheck_passed"),
             "text_chars": meta.get("text_chars"),
             "text_words": meta.get("text_words"),
-            "updated_at": time.strftime("%Y-%m-%d %H:%M", time.localtime(article_html.stat().st_mtime)),
+            "has_v1": article_v1.exists(),
+            "has_v2": article_v2.exists(),
+            "updated_at": time.strftime("%Y-%m-%d %H:%M", time.localtime(latest_file.stat().st_mtime)),
         })
     items.sort(key=lambda x: x["updated_at"], reverse=True)
     return items
@@ -475,11 +480,31 @@ def preview_index(_user: str = Depends(_check_preview_auth)):
             words = it["text_words"]
             size_html = f'{chars} зн. / {words} сл.' if chars and words else '-'
             e = html.escape
+            slug_e = e(it["slug"])
+            # Кнопки версий: v2 (актуальная) и v1 (исходная), если присутствуют.
+            version_links = []
+            if it["has_v2"]:
+                version_links.append(
+                    f'<a href="/preview/{slug_e}?v=2" '
+                    'style="display:inline-block;padding:4px 10px;border-radius:6px;'
+                    'background:#3a8a2a;color:#fff;text-decoration:none;font-size:12px;'
+                    'font-weight:600;margin-right:6px">v2 (актуальная)</a>'
+                )
+            if it["has_v1"]:
+                version_links.append(
+                    f'<a href="/preview/{slug_e}?v=1" '
+                    'style="display:inline-block;padding:4px 10px;border-radius:6px;'
+                    'background:#888;color:#fff;text-decoration:none;font-size:12px">v1 (как было)</a>'
+                )
+            versions_html = "".join(version_links) if version_links else "-"
+            # Главная ссылка ведёт на v2 (если есть), иначе на v1.
+            default_v = "2" if it["has_v2"] else "1"
             rows.append(
                 f'<tr>'
                 f'<td><span class="cat">{e(str(it["category"]))}</span></td>'
-                f'<td><a class="title" href="/preview/{e(it["slug"])}">{e(it["title"])}</a>'
-                f'<div class="meta slug">{e(it["slug"])}</div></td>'
+                f'<td><a class="title" href="/preview/{slug_e}?v={default_v}">{e(it["title"])}</a>'
+                f'<div class="meta slug">{slug_e}</div></td>'
+                f'<td>{versions_html}</td>'
                 f'<td>{size_html}</td>'
                 f'<td>{fc_html}</td>'
                 f'<td>{e(it["updated_at"])}</td>'
@@ -487,7 +512,7 @@ def preview_index(_user: str = Depends(_check_preview_auth)):
             )
         table = (
             '<table>'
-            '<thead><tr><th>Категория</th><th>Заголовок / slug</th><th>Объём</th><th>Фактчек</th><th>Обновлено</th></tr></thead>'
+            '<thead><tr><th>Категория</th><th>Заголовок / slug</th><th>Версии</th><th>Объём</th><th>Фактчек</th><th>Обновлено</th></tr></thead>'
             f'<tbody>{"".join(rows)}</tbody>'
             '</table>'
         )
@@ -753,37 +778,101 @@ def preview_topics(_user: str = Depends(_check_preview_auth)):
 
 
 @app.get("/preview/{slug}", include_in_schema=False)
-def preview_slug(slug: str, _user: str = Depends(_check_preview_auth)):
+def preview_slug(slug: str, v: str = "", _user: str = Depends(_check_preview_auth)):
     slug = _safe_slug(slug)
-    article = DRAFTS_DIR / slug / "article.html"
-    if not article.exists():
+    folder = DRAFTS_DIR / slug
+    article_v1 = folder / "article.html"
+    article_v2 = folder / "article-v2.html"
+    has_v1 = article_v1.exists()
+    has_v2 = article_v2.exists()
+
+    # Выбор версии: по умолчанию v2 (актуальная), если есть. Иначе - v1.
+    requested = v.strip()
+    if requested == "1" and has_v1:
+        article = article_v1
+        current_version = "1"
+        article_filename = "article.html"
+    elif requested == "2" and has_v2:
+        article = article_v2
+        current_version = "2"
+        article_filename = "article-v2.html"
+    elif has_v2:
+        article = article_v2
+        current_version = "2"
+        article_filename = "article-v2.html"
+    elif has_v1:
+        article = article_v1
+        current_version = "1"
+        article_filename = "article.html"
+    else:
         raise HTTPException(status_code=404, detail="Черновик не найден")
+
     raw = article.read_text(encoding="utf-8")
     # Принудительный noindex в самом HTML (на случай если кто-то скопирует исходник)
     if '<meta name="robots"' not in raw.lower():
         raw = raw.replace("<head>", '<head>\n  <meta name="robots" content="noindex,nofollow"/>', 1)
-    # Плавающая панель: ссылки на GitHub для правок (статья + meta.json)
+
+    # Плавающая панель: переключатель версий, ссылки на GitHub, кнопка назад.
+    bar_buttons = []
+
+    # Переключатель v1 / v2.
+    if has_v1 and has_v2:
+        if current_version == "2":
+            bar_buttons.append(
+                '<span style="background:#3a8a2a;color:#fff;padding:8px 14px;border-radius:6px;'
+                'box-shadow:0 2px 8px rgba(0,0,0,.15);font-weight:600">'
+                'Сейчас: v2 (актуальная)</span>'
+            )
+            bar_buttons.append(
+                f'<a href="/preview/{slug}?v=1" '
+                'style="background:#fff;color:#24292f;padding:8px 14px;border-radius:6px;'
+                'text-decoration:none;border:1px solid #d0d7de">→ показать v1 (как было)</a>'
+            )
+        else:
+            bar_buttons.append(
+                '<span style="background:#888;color:#fff;padding:8px 14px;border-radius:6px;'
+                'box-shadow:0 2px 8px rgba(0,0,0,.15);font-weight:600">'
+                'Сейчас: v1 (как было)</span>'
+            )
+            bar_buttons.append(
+                f'<a href="/preview/{slug}?v=2" '
+                'style="background:#3a8a2a;color:#fff;padding:8px 14px;border-radius:6px;'
+                'text-decoration:none;border:1px solid #2a6d1c;font-weight:600">→ показать v2 (актуальная)</a>'
+            )
+
+    # Ссылки на GitHub: править актуальную версию.
     if GITHUB_REPO:
-        edit_article = f"https://github.com/{GITHUB_REPO}/edit/{GITHUB_BRANCH}/drafts/{slug}/article.html"
+        edit_article = f"https://github.com/{GITHUB_REPO}/edit/{GITHUB_BRANCH}/drafts/{slug}/{article_filename}"
         edit_meta = f"https://github.com/{GITHUB_REPO}/edit/{GITHUB_BRANCH}/drafts/{slug}/meta.json"
-        bar = (
-            '<div style="position:fixed;top:12px;right:12px;z-index:99999;display:flex;gap:8px;'
-            'font:14px system-ui,-apple-system,Segoe UI,Roboto,sans-serif">'
+        bar_buttons.append(
             f'<a href="{edit_article}" target="_blank" rel="noopener" '
             'style="background:#0969da;color:#fff;padding:8px 14px;border-radius:6px;'
             'text-decoration:none;box-shadow:0 2px 8px rgba(0,0,0,.15)">✏️ Править текст на GitHub</a>'
+        )
+        bar_buttons.append(
             f'<a href="{edit_meta}" target="_blank" rel="noopener" '
             'style="background:#6e7781;color:#fff;padding:8px 14px;border-radius:6px;'
             'text-decoration:none;box-shadow:0 2px 8px rgba(0,0,0,.15)">⚙️ Правки meta</a>'
-            '<a href="/preview/" '
-            'style="background:#fff;color:#24292f;padding:8px 14px;border-radius:6px;'
-            'text-decoration:none;border:1px solid #d0d7de">← К списку</a>'
-            '</div>'
         )
-        if "</body>" in raw:
-            raw = raw.replace("</body>", bar + "</body>", 1)
-        else:
-            raw = raw + bar
+
+    bar_buttons.append(
+        '<a href="/preview/" '
+        'style="background:#fff;color:#24292f;padding:8px 14px;border-radius:6px;'
+        'text-decoration:none;border:1px solid #d0d7de">← К списку</a>'
+    )
+
+    bar = (
+        '<div style="position:fixed;top:12px;right:12px;z-index:99999;display:flex;gap:8px;flex-wrap:wrap;'
+        'max-width:calc(100% - 24px);'
+        'font:14px system-ui,-apple-system,Segoe UI,Roboto,sans-serif">'
+        + "".join(bar_buttons) +
+        '</div>'
+    )
+    if "</body>" in raw:
+        raw = raw.replace("</body>", bar + "</body>", 1)
+    else:
+        raw = raw + bar
+
     response = HTMLResponse(raw)
     response.headers["X-Robots-Tag"] = "noindex, nofollow"
     response.headers["Cache-Control"] = "no-store"
