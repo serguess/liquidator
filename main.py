@@ -16,6 +16,7 @@ import re
 import time
 import json
 import html
+import asyncio
 import secrets
 import smtplib
 import logging
@@ -948,6 +949,91 @@ def public_preview_by_token(slug: str, t: str = "", v: str = ""):
     response.headers["X-Robots-Tag"] = "noindex, nofollow"
     response.headers["Cache-Control"] = "no-store"
     return response
+
+
+# ============ TELEGRAM BOT (фоном вместе с FastAPI) ============
+# На Timeweb Cloud Apps preset "FastAPI" запускает только uvicorn и не читает
+# Procfile. Поэтому worker-процесс из Procfile там не поднимается. Чтобы не
+# плодить отдельное приложение/инстанс, поднимаем aiogram прямо в lifecycle
+# FastAPI: при старте сервера запускаем polling и watcher как фоновые таски.
+# Если бот падает на старте (нет TG_BOT_TOKEN, конфликт сессий, что угодно) -
+# сайт продолжает работать как ни в чём не бывало, в логе остаётся диагностика.
+
+_bot_tasks: dict = {}
+
+
+@app.on_event("startup")
+async def _start_telegram_bot():
+    try:
+        from aiogram import Bot, Dispatcher
+        from aiogram.client.default import DefaultBotProperties
+        from aiogram.enums import ParseMode
+        from aiogram.fsm.storage.memory import MemoryStorage
+
+        from bot import handlers
+        from bot.main import watch_loop
+        from bot.config import (
+            TG_ALLOWED_CHAT_IDS,
+            TG_BOT_TOKEN,
+            BOT_WATCH_INTERVAL_SEC,
+            validate_config,
+        )
+    except Exception:
+        log.exception("Telegram-бот: не смог импортировать модули, сайт работает без него")
+        return
+
+    errors = validate_config()
+    if errors:
+        for e in errors:
+            log.error("Telegram-бот: %s", e)
+        log.error("Telegram-бот не запущен (см. ошибки выше). Сайт продолжает работу.")
+        return
+
+    try:
+        bot_obj = Bot(
+            token=TG_BOT_TOKEN,
+            default=DefaultBotProperties(parse_mode=ParseMode.HTML),
+        )
+        dp = Dispatcher(storage=MemoryStorage())
+        dp.include_router(handlers.router)
+
+        log.info(
+            "Telegram-бот стартует. Whitelist chat_id: %s. Watcher: %d сек",
+            TG_ALLOWED_CHAT_IDS or "ПУСТО (все)",
+            BOT_WATCH_INTERVAL_SEC,
+        )
+
+        _bot_tasks["bot"] = bot_obj
+        _bot_tasks["dp"] = dp
+        _bot_tasks["polling"] = asyncio.create_task(
+            dp.start_polling(bot_obj, allowed_updates=dp.resolve_used_update_types()),
+            name="tg-polling",
+        )
+        _bot_tasks["watcher"] = asyncio.create_task(
+            watch_loop(bot_obj),
+            name="tg-watcher",
+        )
+        log.info("Telegram-бот запущен в фоне FastAPI")
+    except Exception:
+        log.exception("Telegram-бот: не смог запуститься, сайт работает без него")
+
+
+@app.on_event("shutdown")
+async def _stop_telegram_bot():
+    for key in ("polling", "watcher"):
+        task = _bot_tasks.get(key)
+        if task and not task.done():
+            task.cancel()
+            try:
+                await task
+            except (asyncio.CancelledError, Exception):
+                pass
+    bot_obj = _bot_tasks.get("bot")
+    if bot_obj:
+        try:
+            await bot_obj.session.close()
+        except Exception:
+            log.exception("Telegram-бот: ошибка закрытия сессии")
 
 
 # ============ STATIC ============
