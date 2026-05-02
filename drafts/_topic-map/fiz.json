@@ -27,7 +27,7 @@
       "offer": "proverka-spisaniya",
       "frequency_estimate": "high",
       "rationale": "После расширения лимитов 127-ФЗ в 2024-2025 годах внесудебка стала массовым запросом. Высокая частотность, низкая конкуренция за свежие материалы 2026 года, прямой матч с услугой проверки списания.",
-      "expected_length_chars": 10000,
+      "expected_length_chars": 7000,
       "status": "proposed",
       "client_notes": ""
     },
@@ -55,7 +55,7 @@
       "offer": "raschet-stoimosti",
       "frequency_estimate": "high",
       "rationale": "Запрос с явным коммерческим интентом, человек уже выбирает исполнителя. Прямой путь к лиду через калькулятор стоимости.",
-      "expected_length_chars": 9000,
+      "expected_length_chars": 7000,
       "status": "proposed",
       "client_notes": ""
     },
@@ -83,7 +83,7 @@
       "offer": "proverka-spisaniya",
       "frequency_estimate": "high",
       "rationale": "Главный страх должника, останавливающий от подачи заявления. Развенчание мифов снимает возражения и ведёт к консультации.",
-      "expected_length_chars": 9000,
+      "expected_length_chars": 7000,
       "status": "proposed",
       "client_notes": ""
     },
@@ -111,7 +111,7 @@
       "offer": "proverka-spisaniya",
       "frequency_estimate": "medium",
       "rationale": "Острая боль: должник готов списать долги, но боится за квартиру. Свежая судебная практика 2024-2025 (Постановление КС РФ от 26.04.2021) даёт нам экспертный материал.",
-      "expected_length_chars": 10000,
+      "expected_length_chars": 7000,
       "status": "proposed",
       "client_notes": ""
     },
@@ -139,7 +139,7 @@
       "offer": "proverka-spisaniya",
       "frequency_estimate": "medium",
       "rationale": "Растущий тренд: с 2021 года ВС допускает совместное банкротство. Тема плохо покрыта в выдаче, можно занять нишу экспертным материалом.",
-      "expected_length_chars": 9000,
+      "expected_length_chars": 7000,
       "status": "proposed",
       "client_notes": ""
     },
@@ -167,7 +167,7 @@
       "offer": "proverka-spisaniya",
       "frequency_estimate": "medium",
       "rationale": "Уязвимая аудитория с регулярным интентом: коллекторы давят на пенсионеров активнее всего. Социальный материал, повышает E-E-A-T.",
-      "expected_length_chars": 8500,
+      "expected_length_chars": 7000,
       "status": "proposed",
       "client_notes": ""
     },
@@ -195,7 +195,7 @@
       "offer": "proverka-spisaniya",
       "frequency_estimate": "high",
       "rationale": "Высокочастотный запрос. Через подробную инструкцию показываем сложность и подводные камни, тем самым приводим к решению взять юриста.",
-      "expected_length_chars": 11000,
+      "expected_length_chars": 7000,
       "status": "proposed",
       "client_notes": ""
     },
@@ -223,7 +223,7 @@
       "offer": "proverka-spisaniya",
       "frequency_estimate": "medium",
       "rationale": "Закрывает важное возражение и фильтрует нерелевантных лидов. Помогает суду доверять сайту: показываем, что не обещаем чуда.",
-      "expected_length_chars": 8500,
+      "expected_length_chars": 7000,
       "status": "proposed",
       "client_notes": ""
     }

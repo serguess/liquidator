@@ -27,7 +27,7 @@
       "offer": "raschet-stoimosti",
       "frequency_estimate": "high",
       "rationale": "Топ-запрос среди собственников малого и среднего бизнеса. Сравнительный формат сразу подводит к выбору услуги Ликвидатора.",
-      "expected_length_chars": 11000,
+      "expected_length_chars": 7000,
       "status": "proposed",
       "client_notes": ""
     },
@@ -55,7 +55,7 @@
       "offer": "raschet-stoimosti",
       "frequency_estimate": "high",
       "rationale": "Высокочастотный запрос. Существующая статья 'Банкротство юрлиц: пошаговая инструкция' (2024) устарела, нужна замена/обновление с учётом изменений 2025-2026.",
-      "expected_length_chars": 12000,
+      "expected_length_chars": 7000,
       "status": "proposed",
       "client_notes": "Возможно частичное пересечение с опубликованной статьёй 2024 года. Заказчику решить: обновлять старую или публиковать новую с редиректом."
     },
@@ -83,7 +83,7 @@
       "offer": "raschet-stoimosti",
       "frequency_estimate": "medium",
       "rationale": "Дополняет существующую обзорную статью 'Субсидиарная ответственность руководителя' (2024) с фокусом на защиту, а не описание. Дорогой клиент, готовый платить.",
-      "expected_length_chars": 11000,
+      "expected_length_chars": 7000,
       "status": "proposed",
       "client_notes": ""
     },
@@ -111,7 +111,7 @@
       "offer": "raschet-stoimosti",
       "frequency_estimate": "medium",
       "rationale": "Узкая, но прибыльная ниша. Малый бизнес ищет именно ускоренный вариант, чтобы быстро закрыться. Нет конкуренции в выдаче по экспертным материалам.",
-      "expected_length_chars": 9000,
+      "expected_length_chars": 7000,
       "status": "proposed",
       "client_notes": ""
     },
@@ -139,7 +139,7 @@
       "offer": "raschet-stoimosti",
       "frequency_estimate": "medium",
       "rationale": "Связь с услугами взыскания. Кредитор-юрлицо это дорогой клиент, готовый платить за сопровождение. Закрывает воронку B2B.",
-      "expected_length_chars": 10000,
+      "expected_length_chars": 7000,
       "status": "proposed",
       "client_notes": ""
     },
@@ -167,7 +167,7 @@
       "offer": "raschet-stoimosti",
       "frequency_estimate": "medium",
       "rationale": "Сложная экспертная тема, повышает доверие к сайту в B2B-сегменте. Привлекает контрагентов банкротов и самих руководителей.",
-      "expected_length_chars": 11000,
+      "expected_length_chars": 7000,
       "status": "proposed",
       "client_notes": ""
     },
@@ -195,7 +195,7 @@
       "offer": "raschet-stoimosti",
       "frequency_estimate": "medium",
       "rationale": "Чистая процедурная тема. Низкая боль, но регулярный поток собственников, закрывающих неактивные компании.",
-      "expected_length_chars": 8500,
+      "expected_length_chars": 7000,
       "status": "proposed",
       "client_notes": ""
     },
@@ -223,7 +223,7 @@
       "offer": "raschet-stoimosti",
       "frequency_estimate": "medium",
       "rationale": "Просветительская тема для собственников, пугает обязанностью и подводит к консультации. Часто связана с темой субсидиарки.",
-      "expected_length_chars": 9000,
+      "expected_length_chars": 7000,
       "status": "proposed",
       "client_notes": ""
     }

@@ -270,7 +270,7 @@ async def _block_sources(request: Request, call_next):
 # /category/all.html   → 301 → /category/all
 # /articles/fiz/x.html → 301 → /articles/fiz/x
 # /payment             → внутри отдаёт payment.html (rewrite, без редиректа)
-_NO_REWRITE_PREFIXES = ("/api", "/preview", "/assets", "/favicon")
+_NO_REWRITE_PREFIXES = ("/api", "/preview", "/p/", "/assets", "/favicon")
 
 
 @app.middleware("http")
@@ -873,6 +873,77 @@ def preview_slug(slug: str, v: str = "", _user: str = Depends(_check_preview_aut
     else:
         raw = raw + bar
 
+    response = HTMLResponse(raw)
+    response.headers["X-Robots-Tag"] = "noindex, nofollow"
+    response.headers["Cache-Control"] = "no-store"
+    return response
+
+
+# ============ PUBLIC PREVIEW (для Telegram-бота) ============
+# Этот роут отдаёт черновик статьи без Basic Auth, по подписанной ссылке вида
+# /p/{slug}?t=token[&v=2.1]. Токен хранится в data/bot_state.json и подставляется
+# ботом в ссылках. Это удобно для заказчика с мобильного, без логина-пароля.
+
+_BOT_STATE_PATH = ROOT / "data" / "bot_state.json"
+
+
+def _bot_preview_token() -> str | None:
+    """Читает токен превью из bot_state.json. Если файла нет - роут отключён."""
+    if not _BOT_STATE_PATH.exists():
+        return None
+    try:
+        data = json.loads(_BOT_STATE_PATH.read_text(encoding="utf-8"))
+        token = (data or {}).get("preview_token")
+        return token if isinstance(token, str) and token else None
+    except (json.JSONDecodeError, OSError):
+        return None
+
+
+@app.get("/p/{slug}", include_in_schema=False)
+def public_preview_by_token(slug: str, t: str = "", v: str = ""):
+    """
+    Публичный preview статьи для бота. Доступ - по совпадению токена с тем,
+    что хранится в bot_state.json. Версия (v) - например "2.1"; берёт файл из
+    drafts/{slug}/versions/v{v}.html. Если v не указан - подбирает
+    article-v2.html → article.html.
+    """
+    expected = _bot_preview_token()
+    if not expected:
+        raise HTTPException(status_code=404, detail="Preview-роут отключён")
+
+    # secrets.compare_digest защищает от timing-атаки.
+    if not t or not secrets.compare_digest(t, expected):
+        raise HTTPException(status_code=403, detail="Недействительная ссылка")
+
+    slug = _safe_slug(slug)
+    folder = DRAFTS_DIR / slug
+    if not folder.exists():
+        raise HTTPException(status_code=404, detail="Статья не найдена")
+
+    # Выбор файла.
+    candidate: Path | None = None
+    if v:
+        # ожидаем формат "2.0" / "2.1" и т.д. - простая sanity-проверка.
+        if not re.fullmatch(r"\d+\.\d+", v):
+            raise HTTPException(status_code=400, detail="Некорректная версия")
+        cand = folder / "versions" / f"v{v}.html"
+        if cand.exists():
+            candidate = cand
+    if candidate is None:
+        v2 = folder / "article-v2.html"
+        v1 = folder / "article.html"
+        candidate = v2 if v2.exists() else (v1 if v1.exists() else None)
+
+    if candidate is None:
+        raise HTTPException(status_code=404, detail="Файл статьи не найден")
+
+    raw = candidate.read_text(encoding="utf-8")
+    if '<meta name="robots"' not in raw.lower():
+        raw = raw.replace(
+            "<head>",
+            '<head>\n  <meta name="robots" content="noindex,nofollow"/>',
+            1,
+        )
     response = HTMLResponse(raw)
     response.headers["X-Robots-Tag"] = "noindex, nofollow"
     response.headers["Cache-Control"] = "no-store"

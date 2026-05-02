@@ -2924,18 +2924,18 @@ a {
 
 .article__head { margin-bottom: 36px; }
 .article__tag { display: inline-block; font-family: var(--font-display); font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; padding: 6px 14px; border-radius: 999px; background: rgba(75,83,32,0.25); color: var(--khaki-light); border: 1px solid rgba(138,152,72,0.3); margin-bottom: 20px; }
-.article__title { font-family: var(--font-display); font-weight: 700; font-size: clamp(30px, 4.2vw, 52px); line-height: 1.12; color: #fff; margin: 0 0 20px; letter-spacing: -0.01em; }
-.article__lead { font-family: var(--font-body); font-size: clamp(17px, 1.4vw, 20px); line-height: 1.55; color: rgba(255,255,255,0.72); margin: 0 0 24px; }
+.article__title { font-family: var(--font-display); font-weight: 700; font-size: clamp(24px, 3vw, 36px); line-height: 1.18; color: #fff; margin: 0 0 18px; letter-spacing: -0.005em; }
+.article__lead { font-family: var(--font-body); font-size: clamp(15px, 1.15vw, 17px); line-height: 1.55; color: rgba(255,255,255,0.72); margin: 0 0 22px; }
 .article__meta { display: flex; gap: 24px; color: rgba(255,255,255,0.5); font-size: 14px; font-family: var(--font-body); }
 .article__meta-item { display: inline-flex; align-items: center; gap: 8px; }
 .article__meta-item svg { width: 16px; height: 16px; }
 
 .article__cover { height: clamp(240px, 38vw, 440px); border-radius: 20px; background-size: cover; background-position: center; background-color: var(--dark-2); margin-bottom: 44px; box-shadow: 0 20px 60px rgba(0,0,0,0.4); }
 
-.article__body { font-family: var(--font-body); font-size: 17px; line-height: 1.72; color: rgba(255,255,255,0.82); }
-.article__body h2 { font-family: var(--font-display); font-weight: 700; font-size: clamp(22px, 2.4vw, 30px); color: #fff; margin: 48px 0 18px; line-height: 1.25; }
-.article__body h3 { font-family: var(--font-display); font-weight: 600; font-size: clamp(18px, 1.8vw, 22px); color: #fff; margin: 36px 0 14px; }
-.article__body p { margin: 0 0 18px; }
+.article__body { font-family: var(--font-body); font-size: 16px; line-height: 1.7; color: rgba(255,255,255,0.82); text-align: justify; hyphens: auto; -webkit-hyphens: auto; }
+.article__body h2 { font-family: var(--font-display); font-weight: 700; font-size: clamp(19px, 1.9vw, 24px); color: #fff; margin: 40px 0 16px; line-height: 1.28; text-align: left; }
+.article__body h3 { font-family: var(--font-display); font-weight: 600; font-size: clamp(16px, 1.5vw, 19px); color: #fff; margin: 32px 0 12px; text-align: left; }
+.article__body p { margin: 0 0 16px; }
 .article__body ul, .article__body ol { margin: 0 0 20px; padding-left: 22px; }
 .article__body li { margin-bottom: 10px; }
 .article__body li::marker { color: var(--khaki-light); }
@@ -2978,24 +2978,25 @@ a {
 .article__cta span { white-space: nowrap; }
 
 /* Hero-style CTA для статей: 1:1 копия .hero__cta с главной (без стрелки, текст КАПСОМ).
-   Используется в начале (после первого экрана) и в конце (перед FAQ). */
+   Используется в начале (после первого экрана) и в конце (перед FAQ).
+   Размер уменьшен по ОС заказчика - не такой массивный как hero на главной. */
 .article__cta--hero {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  margin: 32px 0 36px;
-  padding: 20px 44px;
+  margin: 24px 0 28px;
+  padding: 14px 32px;
   border-radius: 999px;
   font-family: var(--font-display);
   font-weight: 600;
-  font-size: 14px;
-  letter-spacing: 0.1em;
+  font-size: 13px;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
   color: #f0ede6 !important;
   text-decoration: none !important;
   background: linear-gradient(135deg, var(--khaki) 0%, var(--khaki-deep) 100%);
   box-shadow:
-    0 14px 34px rgba(75, 83, 32, 0.55),
+    0 8px 22px rgba(75, 83, 32, 0.5),
     0 1px 0 rgba(255, 255, 255, 0.12) inset,
     0 -2px 0 rgba(0, 0, 0, 0.25) inset;
   border: 1px solid rgba(138, 152, 72, 0.4);
@@ -3030,18 +3031,18 @@ a {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  margin: 12px 0;
-  padding: 14px 28px;
+  margin: 10px 0;
+  padding: 11px 24px;
   border-radius: 999px;
   font-family: var(--font-display);
   font-weight: 600;
-  font-size: 13px;
-  letter-spacing: 0.08em;
+  font-size: 12px;
+  letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #f0ede6 !important;
   text-decoration: none !important;
   background: linear-gradient(135deg, var(--khaki) 0%, var(--khaki-deep) 100%);
-  box-shadow: 0 8px 20px rgba(75,83,32,0.45);
+  box-shadow: 0 6px 16px rgba(75,83,32,0.4);
   border: 1px solid rgba(138,152,72,0.35);
   transition: transform 0.2s, box-shadow 0.2s, background 0.2s;
 }
