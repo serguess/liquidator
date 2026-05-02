@@ -27,7 +27,7 @@
       "offer": "proverka-spisaniya",
       "frequency_estimate": "high",
       "rationale": "Свежий материал заменяет устаревшую статью 'Изменения в законе о банкротстве 2024'. Сезонный пик трафика в начале года.",
-      "expected_length_chars": 9000,
+      "expected_length_chars": 7000,
       "status": "proposed",
       "client_notes": "Возможен редирект со старой статьи 2024 года на новую 2026."
     },
@@ -55,7 +55,7 @@
       "offer": "proverka-spisaniya",
       "frequency_estimate": "medium",
       "rationale": "Утилитарный гид с навигационным интентом. Привлекает и должников, и кредиторов, и просто проверяющих контрагентов.",
-      "expected_length_chars": 8000,
+      "expected_length_chars": 7000,
       "status": "proposed",
       "client_notes": ""
     },
@@ -83,7 +83,7 @@
       "offer": "raschet-stoimosti",
       "frequency_estimate": "medium",
       "rationale": "Многие предприниматели до сих пор путаются, действует ли мораторий. Закрывает популярное заблуждение и приводит к консультации.",
-      "expected_length_chars": 7500,
+      "expected_length_chars": 7000,
       "status": "proposed",
       "client_notes": ""
     },
@@ -111,7 +111,7 @@
       "offer": "proverka-spisaniya",
       "frequency_estimate": "medium",
       "rationale": "Дополняет fiz-01: новости-формат для тех, кто слышал о поправках, но не знает деталей. Сильная перелинковка с pillar-темой.",
-      "expected_length_chars": 7500,
+      "expected_length_chars": 7000,
       "status": "proposed",
       "client_notes": ""
     },
@@ -139,7 +139,7 @@
       "offer": "proverka-spisaniya",
       "frequency_estimate": "medium",
       "rationale": "Тема с реальными кейсами ВС РФ. Высокий E-E-A-T, повышает экспертность сайта, дополняет fiz-04 (банкротство при ипотеке).",
-      "expected_length_chars": 9500,
+      "expected_length_chars": 7000,
       "status": "proposed",
       "client_notes": ""
     },
@@ -167,7 +167,7 @@
       "offer": "snyatie-aresta",
       "frequency_estimate": "low",
       "rationale": "Низкая частотность сейчас, но тема растёт. Захватываем нишу до пика конкуренции, плюс показываем актуальность сайта.",
-      "expected_length_chars": 7500,
+      "expected_length_chars": 7000,
       "status": "proposed",
       "client_notes": "Спорная тема: частотность пока низкая, оправдана если заказчик хочет долгосрочную ставку."
     },
@@ -195,7 +195,7 @@
       "offer": "proverka-spisaniya",
       "frequency_estimate": "low",
       "rationale": "Свежий тренд цифровизации. Дополнительный трафик из low-частотных длиннохвостых запросов.",
-      "expected_length_chars": 7500,
+      "expected_length_chars": 7000,
       "status": "proposed",
       "client_notes": ""
     },
@@ -223,6 +223,34 @@
       "offer": "proverka-spisaniya",
       "frequency_estimate": "low",
       "rationale": "Информационная статья на медиа-аудиторию и ссылочный донор: журналисты и блогеры цитируют статистику, дают обратные ссылки.",
+      "expected_length_chars": 7000,
+      "status": "proposed",
+      "client_notes": ""
+    },
+    {
+      "id": "news-09",
+      "slug": "gosposhlina-bankrotstvo-otmenena-2024",
+      "title": "Госпошлина при банкротстве для должника отменена: разбор",
+      "title_length": 56,
+      "description": "С 8 сентября 2024 года должник при подаче заявления о банкротстве госпошлину не платит. Что изменилось по ФЗ-259-ФЗ от 08.08.2024 и кто теперь платит.",
+      "description_length": 150,
+      "h1": "Госпошлина 300 рублей за банкротство физлица отменена: разбираем ФЗ-259",
+      "main_keyword": "госпошлина за банкротство физлица 2024",
+      "main_keyword_density_target": "≤2.5%",
+      "secondary_keywords": [
+        "отмена госпошлины при банкротстве",
+        "сколько стоит подать на банкротство 2026",
+        "фз 259 от 08.08.2024",
+        "бесплатное банкротство гражданина",
+        "300 рублей госпошлина банкротство",
+        "кто платит госпошлину в банкротстве"
+      ],
+      "intent": "informational",
+      "funnel_stage": "awareness",
+      "article_type": "law-explanation",
+      "offer": "proverka-spisaniya",
+      "frequency_estimate": "medium",
+      "rationale": "Свежее изменение НК с прямой выгодой для должника. Один факт, одна норма, понятные последствия. Идеально для категории Новости. Перелинковка со skolko-stoit-bankrotstvo-fizicheskogo-lica - там этот факт уже отражён.",
       "expected_length_chars": 7000,
       "status": "proposed",
       "client_notes": ""
