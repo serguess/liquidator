@@ -2976,10 +2976,81 @@ a {
 .article__cta:hover { transform: translateY(-2px); box-shadow: 0 12px 30px rgba(75,83,32,0.4); }
 .article__cta svg { width: 18px; height: 18px; flex-shrink: 0; }
 .article__cta span { white-space: nowrap; }
-.article__cta--primary { margin: 28px 0 32px; }
 
-.article__cta-inline { display: inline-block; padding: 14px 22px; margin: 8px 0; border-radius: 12px; background: linear-gradient(135deg, rgba(75,83,32,0.18) 0%, rgba(75,83,32,0.08) 100%); border: 1px solid rgba(138,152,72,0.32); color: var(--khaki-light); text-decoration: none; font-family: var(--font-display); font-weight: 600; font-size: 14px; letter-spacing: 0.04em; transition: background 0.2s, border-color 0.2s, color 0.2s; }
-.article__cta-inline:hover { background: linear-gradient(135deg, rgba(75,83,32,0.28) 0%, rgba(75,83,32,0.14) 100%); border-color: rgba(138,152,72,0.55); color: #fff; }
+/* Hero-style CTA для статей: 1:1 копия .hero__cta с главной (без стрелки, текст КАПСОМ).
+   Используется в начале (после первого экрана) и в конце (перед FAQ). */
+.article__cta--hero {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin: 32px 0 36px;
+  padding: 20px 44px;
+  border-radius: 999px;
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #f0ede6 !important;
+  text-decoration: none !important;
+  background: linear-gradient(135deg, var(--khaki) 0%, var(--khaki-deep) 100%);
+  box-shadow:
+    0 14px 34px rgba(75, 83, 32, 0.55),
+    0 1px 0 rgba(255, 255, 255, 0.12) inset,
+    0 -2px 0 rgba(0, 0, 0, 0.25) inset;
+  border: 1px solid rgba(138, 152, 72, 0.4);
+  transition: transform 0.25s ease, box-shadow 0.25s ease, filter 0.25s ease;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+.article__cta--hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(120deg, transparent 30%, rgba(255,255,255,0.35) 50%, transparent 70%);
+  transform: translateX(-100%);
+  transition: transform 0.6s ease;
+  pointer-events: none;
+}
+.article__cta--hero:hover {
+  transform: translateY(-2px);
+  background: linear-gradient(135deg, #5a6429 0%, var(--khaki) 100%);
+  box-shadow:
+    0 20px 44px rgba(75, 83, 32, 0.7),
+    0 1px 0 rgba(255, 255, 255, 0.18) inset,
+    0 -2px 0 rgba(0, 0, 0, 0.25) inset;
+  color: #fff !important;
+}
+.article__cta--hero:hover::before { transform: translateX(100%); }
+.article__cta--hero span { white-space: normal; text-align: center; }
+
+/* Inline-CTA в середине абзаца: компактнее, тот же hero-стиль */
+.article__cta-inline {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin: 12px 0;
+  padding: 14px 28px;
+  border-radius: 999px;
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 13px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #f0ede6 !important;
+  text-decoration: none !important;
+  background: linear-gradient(135deg, var(--khaki) 0%, var(--khaki-deep) 100%);
+  box-shadow: 0 8px 20px rgba(75,83,32,0.45);
+  border: 1px solid rgba(138,152,72,0.35);
+  transition: transform 0.2s, box-shadow 0.2s, background 0.2s;
+}
+.article__cta-inline:hover {
+  transform: translateY(-1px);
+  background: linear-gradient(135deg, #5a6429 0%, var(--khaki) 100%);
+  box-shadow: 0 12px 28px rgba(75,83,32,0.6);
+  color: #fff !important;
+}
 .article__cta-inline strong { font-weight: 600; }
 
 .article__related { margin-top: 64px; padding-top: 48px; border-top: 1px solid rgba(255,255,255,0.08); }

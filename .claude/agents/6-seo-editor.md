@@ -39,24 +39,26 @@ model: sonnet
 
 ## Шаблон CTA в article.html
 
-CTA-1 (после первого экрана) и CTA-3 (перед FAQ) - кнопка-овал в стиле основной страницы:
+CTA-1 (после первого экрана) и CTA-3 (перед FAQ) - кнопка-овал `.article__cta--hero` (1:1 копия `.hero__cta` с главной: тёмно-зелёный градиент, текст белым КАПСОМ через CSS, без SVG-стрелок, с анимацией блика):
 
 ```html
-<a href="/index.html#contacts" class="article__cta article__cta--primary" data-source="article-{slug}">
+<a href="/index.html#contacts" class="article__cta--hero" data-source="article-{slug}-top">
   <span>Оставить заявку на {topic_action}</span>
-  <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-    <path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-  </svg>
 </a>
 ```
 
-CTA-2 (середина статьи) - inline в абзаце:
+CTA-2 (середина статьи) - компактная кнопка того же стиля `.article__cta-inline`:
 
 ```html
-<p><a href="/index.html#contacts" class="article__cta-inline" data-source="article-{slug}-mid"><strong>Оставить заявку на {topic_action} →</strong></a></p>
+<p><a href="/index.html#contacts" class="article__cta-inline" data-source="article-{slug}-mid">Оставить заявку на {topic_action}</a></p>
 ```
 
+Текст в HTML - обычным регистром. Капс CSS добавит сам через `text-transform: uppercase`.
+SVG-стрелки в CTA не использовать.
+
 Формулировка финального CTA-3 отличается от первого: «Узнать свой вариант: оставить заявку на {topic_action}» или «Получить разбор ситуации: оставить заявку на {topic_action}».
+
+В `<link rel="stylesheet">` использовать `?v={N}` cache-bust версию из существующего шаблона - так браузер подтянет свежий CSS после деплоя.
 
 ## Шаблон дисклеймера (всегда перед финальным CTA)
 
