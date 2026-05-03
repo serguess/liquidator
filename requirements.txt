@@ -12,3 +12,12 @@ lxml>=5.3.0              # быстрый парсер для bs4
 
 # Telegram-бот для ревью статей перед публикацией
 aiogram>=3.13.0          # async Telegram Bot framework
+
+# Articles scheduler (Этап 2): таймер, который запускает /write-article через Claude Code
+apscheduler>=3.10.0      # asyncio-планировщик задач, IntervalTrigger для шага 144 мин
+
+# Bot publisher (Этап 3): генерация обложки + публикация по кнопке «Опубликовать»
+cloudinary>=1.40.0       # хранение обложек статей (бесплатно до 25 GB)
+fal-client>=0.5.0        # text-to-image через fal.ai (Seedream v4)
+Pillow>=10.4.0           # наложение логотипа-водяного знака на обложку
+numpy>=1.26.0            # построение круглой радиальной градиентной подложки
