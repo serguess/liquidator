@@ -37,20 +37,27 @@ RUN npm install -g @anthropic-ai/claude-code \
     && npm cache clean --force \
     && claude --version || echo "claude CLI installed (version check may need auth)"
 
+# Создаём non-root пользователя.
+# Claude Code отказывается работать с --dangerously-skip-permissions от root
+# (security feature), поэтому весь runtime запускаем под обычным пользователем.
+RUN useradd -m -u 1000 -s /bin/bash appuser
+
 WORKDIR /app
 
 # Сначала зависимости Python (лучше кэшируется в Docker layer)
 COPY requirements.txt ./
 RUN pip install -r requirements.txt
 
-# Затем код проекта
-COPY . .
+# Затем код проекта (с правильным владельцем)
+COPY --chown=appuser:appuser . .
 
-# Делаем entrypoint исполняемым (на Windows-разработке chmod может слететь)
-RUN chmod +x /app/docker-entrypoint.sh
+# Делаем entrypoint исполняемым
+RUN chmod +x /app/docker-entrypoint.sh \
+    && chown -R appuser:appuser /app
 
-# Базовая git-конфигурация (фактические значения подставит scheduler/runner.py
-# через GIT_AUTHOR_NAME/GIT_AUTHOR_EMAIL переменные окружения)
+# Базовая git-конфигурация для appuser (фактические значения подставит
+# scheduler/runner.py через GIT_AUTHOR_NAME/GIT_AUTHOR_EMAIL).
+USER appuser
 RUN git config --global user.email "scheduler@pravo.shop" \
     && git config --global user.name "Liquidator Scheduler" \
     && git config --global --add safe.directory /app \
@@ -58,8 +65,7 @@ RUN git config --global user.email "scheduler@pravo.shop" \
 
 EXPOSE 8000
 
-# entrypoint настраивает SSH-ключ из ENV и перенаправляет origin на SSH-URL,
-# затем exec'ает CMD ниже.
+# entrypoint настраивает SSH-ключ (если есть) и запускает uvicorn от appuser.
 ENTRYPOINT ["/app/docker-entrypoint.sh"]
 
 CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
