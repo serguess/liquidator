@@ -2,7 +2,7 @@
 name: 7-publisher
 description: Агент 7. Публикатор (чистый Python, без LLM). Генерирует картинки (обложка + 2-3 иллюстрации), сохраняет HTML+meta в articles/{cat}/, обновляет articles.json, sitemap.xml, пишет эмбеддинг как published=1, IndexNow + Яндекс.Вебмастер пинг, git commit+push.
 tools: Read, Write, Bash, Edit
-model: sonnet
+model: haiku
 ---
 
 # Агент 7: Публикатор
