@@ -28,19 +28,32 @@ def new_draft_notification(
     char_count: int,
     token: str,
     uniqueness_pct: float | None = None,
+    wordstat_main: int | None = None,
+    wordstat_total: int | None = None,
 ) -> str:
     cat = category_label(category)
     url = preview_url(slug, token, version)
-    uniq_line = ""
+
+    extra_lines = []
     if uniqueness_pct is not None:
-        uniq_line = f"\n<b>Уникальность:</b> {uniqueness_pct:.0f}% (text.ru)"
+        extra_lines.append(f"<b>Уникальность:</b> {uniqueness_pct:.0f}% (text.ru)")
+    if wordstat_main is not None:
+        # «1 240/мес» с разбиением через неразрывный пробел для красоты в TG
+        formatted_main = f"{wordstat_main:,}".replace(",", " ")
+        line = f"📊 <b>Wordstat (главный ключ):</b> {formatted_main}/мес"
+        if wordstat_total is not None and wordstat_total > wordstat_main:
+            formatted_total = f"{wordstat_total:,}".replace(",", " ")
+            line += f" (с вторичными: {formatted_total}/мес)"
+        extra_lines.append(line)
+
+    extra_block = ("\n" + "\n".join(extra_lines)) if extra_lines else ""
 
     return (
         "📰 <b>Новая статья на ревью</b>\n\n"
         f"<b>Тема:</b> {html.escape(title)}\n"
         f"<b>Категория:</b> {html.escape(cat)}\n"
         f"<b>Длина:</b> {char_count:,} знаков".replace(",", " ")
-        + uniq_line
+        + extra_block
         + f"\n\n🔗 <a href=\"{url}\">Прочитать статью</a>"
     )
 

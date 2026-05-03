@@ -120,6 +120,11 @@ def scan_for_new_drafts() -> list[dict]:
         title = meta.get("title") or meta.get("h1") or _extract_title_from_html(current_html)
         char_count = _count_text_chars(current_html)
 
+        # Wordstat-частоты (агент 1 уже их посчитал и положил в meta.json).
+        # Если их нет (API недоступен / старая статья) - просто None, бот не покажет.
+        wordstat_main = meta.get("frequency_main")
+        wordstat_total = meta.get("frequency_total")
+
         # Создаём v2.0 в versions/.
         _, version = _ensure_versions_dir(sub, current_html)
 
@@ -130,6 +135,8 @@ def scan_for_new_drafts() -> list[dict]:
             "version": version,
             "char_count": char_count,
             "current_html": current_html,
+            "wordstat_main": wordstat_main,
+            "wordstat_total": wordstat_total,
         })
 
     return new_drafts

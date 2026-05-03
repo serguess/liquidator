@@ -1,0 +1,55 @@
+# VCS
+# .git НЕ игнорим: scheduler изнутри контейнера делает git commit/push,
+# для этого нужна .git папка в образе.
+.gitignore
+
+# Python
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info
+.pytest_cache
+.mypy_cache
+.ruff_cache
+.coverage
+
+# Виртуальные окружения
+.venv
+venv
+env
+
+# IDE
+.vscode
+.idea
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Локальные конфиги (на сервере подставляются через ENV в Cloud Apps)
+.env
+*.env.local
+
+# Node (Claude Code ставится в образ глобально, локальные node_modules не нужны)
+node_modules
+
+# Логи
+*.log
+data/scheduler_log.json
+
+# Сессии Claude (локальные)
+.claude/projects
+.claude/local
+.claude/settings.local.json
+
+# Старые/служебные артефакты
+drafts/_review
+*.bak
+
+# Docker мета (рекурсия)
+Dockerfile.swp
+.dockerignore

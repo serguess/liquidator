@@ -64,6 +64,13 @@ async def _watch_iteration(bot: Bot):
     for draft in new_drafts:
         # Регистрируем в state.
         watcher.register_draft(draft)
+        # Wordstat-числа сохраняем в state, чтобы потом publish-сообщение могло
+        # их прочитать без повторного парсинга meta.json.
+        if draft.get("wordstat_main") is not None or draft.get("wordstat_total") is not None:
+            state.upsert_review(draft["slug"], {
+                "wordstat_main": draft.get("wordstat_main"),
+                "wordstat_total": draft.get("wordstat_total"),
+            })
 
         # Шлём уведомление каждому в whitelist.
         text = messages.new_draft_notification(
@@ -74,6 +81,8 @@ async def _watch_iteration(bot: Bot):
             char_count=draft["char_count"],
             token=token,
             uniqueness_pct=None,  # text.ru добавим позже
+            wordstat_main=draft.get("wordstat_main"),
+            wordstat_total=draft.get("wordstat_total"),
         )
 
         for chat_id in TG_ALLOWED_CHAT_IDS:

@@ -19,7 +19,7 @@ from aiogram.types import (
     Message,
 )
 
-from . import editor, messages, state, transcribe
+from . import editor, messages, publisher, state, transcribe
 from .config import TG_ALLOWED_CHAT_IDS, category_label
 
 log = logging.getLogger(__name__)
@@ -227,12 +227,60 @@ async def on_publish_pressed(query: CallbackQuery):
         await query.answer("Статья не найдена", show_alert=True)
         return
 
-    # Публикация подключается во втором этапе. Пока заглушка.
+    if review.get("status") == "published":
+        await query.answer("Уже опубликовано", show_alert=True)
+        return
+
     await query.answer()
+    progress_msg = await query.message.answer(
+        "📤 Публикую: генерирую обложку, переношу файлы, обновляю индексы и пушу в репо…\n"
+        "Это займёт 30-60 секунд."
+    )
+
+    title = review.get("title", slug)
+    current_version = review.get("current_version", "2.0")
+
+    # Тяжёлая операция (вызовы fal.ai + Cloudinary + git push) - в отдельном потоке,
+    # чтобы не блокировать polling.
+    result = await asyncio.to_thread(
+        publisher.publish, slug=slug, version=current_version,
+    )
+
+    try:
+        await progress_msg.delete()
+    except Exception:
+        pass
+
+    if not result.success:
+        await query.message.answer(
+            f"❌ <b>Не удалось опубликовать «{title}»</b>\n\n"
+            f"Ошибка: <code>{(result.error or 'неизвестная')[:500]}</code>\n\n"
+            "Статья осталась в drafts/, можно повторить попытку.",
+            parse_mode="HTML",
+        )
+        return
+
+    cover_line = ""
+    if result.cover_url:
+        cover_line = f"\n🖼 <a href=\"{result.cover_url}\">Обложка</a>"
+
+    # Wordstat-частоту достаём из bot_state (она там запоминалась когда watcher
+    # увидел драфт - см. bot/main.py). Если нет - просто не показываем.
+    wordstat_line = ""
+    review_after = state.get_review(slug) or {}
+    wordstat_main = review_after.get("wordstat_main")
+    if wordstat_main is not None:
+        formatted = f"{int(wordstat_main):,}".replace(",", " ")
+        wordstat_line = f"\n📊 Wordstat: {formatted}/мес"
+
     await query.message.answer(
-        "🚧 Публикация ещё в разработке.\n\n"
-        "Скоро статья будет автоматически переноситься из drafts/ в articles/, "
-        "обновлять articles.json и sitemap.xml, и пинговать IndexNow."
+        f"✅ <b>Опубликовано: «{title}»</b>\n\n"
+        f"🔗 <a href=\"{result.public_url}\">{result.public_url}</a>"
+        f"{cover_line}{wordstat_line}\n\n"
+        "Статья перенесена в articles/, drafts/ заархивирован, "
+        "articles.json и sitemap.xml обновлены, изменения запушены в main.",
+        parse_mode="HTML",
+        disable_web_page_preview=False,
     )
 
 

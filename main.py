@@ -254,6 +254,7 @@ _BLOCKED_PATHS = {
 _BLOCKED_PREFIXES = (
     "/.git", "/.venv", "/venv", "/__pycache__", "/agent-plan",
     "/.claude", "/data", "/drafts", "/tools",  # SEO-конвейер: только через /preview
+    "/articles_scheduler", "/bot",  # фоновые модули, наружу не светим
 )
 
 
@@ -1034,6 +1035,28 @@ async def _stop_telegram_bot():
             await bot_obj.session.close()
         except Exception:
             log.exception("Telegram-бот: ошибка закрытия сессии")
+
+
+# ============ ARTICLES SCHEDULER (фоном вместе с FastAPI) ============
+# APScheduler-таймер, который раз в N минут запускает /write-article через
+# Claude Code, складывает результат в drafts/ и пушит в git. Безопасный
+# дефолт: если SCHEDULER_ENABLED != true в env, scheduler не стартует.
+@app.on_event("startup")
+async def _start_articles_scheduler():
+    try:
+        from articles_scheduler.lifespan import start_articles_scheduler
+        start_articles_scheduler()
+    except Exception:
+        log.exception("Articles scheduler: не смог стартовать, сайт работает без него")
+
+
+@app.on_event("shutdown")
+async def _stop_articles_scheduler():
+    try:
+        from articles_scheduler.lifespan import stop_articles_scheduler
+        await stop_articles_scheduler()
+    except Exception:
+        log.exception("Articles scheduler: ошибка остановки")
 
 
 # ============ STATIC ============
