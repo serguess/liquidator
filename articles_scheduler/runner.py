@@ -232,6 +232,41 @@ def _git_commit_and_push(slug: str, category: str, metrics: str = "") -> dict:
     return {"committed": True, "pushed": True}
 
 
+def _git_commit_log_only() -> dict:
+    """
+    Коммитит и пушит только scheduler_log.json и bot_state.json - чтобы
+    история работы сохранялась даже при failed слотах (без них при следующем
+    редеплое Cloud Apps лог пропадёт).
+    """
+    cwd = str(ROOT)
+    env = _git_env()
+    subprocess.run(
+        ["git", "add", "--", "data/scheduler_log.json", "data/bot_state.json"],
+        cwd=cwd, env=env, check=False, capture_output=True,
+    )
+    commit_res = subprocess.run(
+        ["git", "commit", "-m", "log: scheduler state update"],
+        cwd=cwd, env=env, capture_output=True, text=True,
+    )
+    if "nothing to commit" in (commit_res.stdout or "") + (commit_res.stderr or ""):
+        return {"committed": False}
+    if commit_res.returncode != 0:
+        return {"committed": False, "stderr": ((commit_res.stderr or "")[-200:])}
+
+    remote_url = _git_remote_url()
+    if not remote_url:
+        return {"committed": True, "pushed": False, "reason": "no_token"}
+
+    push_res = subprocess.run(
+        ["git", "push", remote_url, GITHUB_BRANCH],
+        cwd=cwd, env=env, capture_output=True, text=True, timeout=60,
+    )
+    if push_res.returncode != 0:
+        return {"committed": True, "pushed": False,
+                "stderr": _mask_token((push_res.stderr or "")[-200:])}
+    return {"committed": True, "pushed": True}
+
+
 # ============ ОСНОВНОЙ ЦИКЛ ============
 
 def run_one_article() -> dict:
@@ -333,11 +368,19 @@ def run_one_article() -> dict:
             )
         else:
             log.error(
-                "Слот завершён: status=%s rc=%s stderr_tail=%r",
-                entry["status"], result.returncode, entry["stderr_tail"],
+                "Слот завершён: status=%s rc=%s stderr_tail=%r stdout_tail=%r",
+                entry["status"], result.returncode,
+                entry["stderr_tail"], entry["stdout_tail"],
             )
 
         _append_log(entry)
+
+        # Сохраняем scheduler_log.json в git даже при failed-слотах,
+        # чтобы история не пропадала при следующем редеплое Cloud Apps.
+        # При success git_commit_and_push выше уже включил его в коммит.
+        if entry["status"] != "ok":
+            _git_commit_log_only()
+
         return entry
 
     except subprocess.TimeoutExpired:
