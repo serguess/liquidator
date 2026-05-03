@@ -34,6 +34,15 @@ from datetime import datetime, timedelta
 from pathlib import Path
 from typing import Optional
 
+# Загружаем .env из корня проекта - иначе при запуске как `python -m tools.wordstat`
+# переменные окружения окажутся пустыми. На сервере ENV подставляет Cloud Apps,
+# load_dotenv() просто ничего не найдёт и тихо пропустит.
+try:
+    from dotenv import load_dotenv
+    load_dotenv(Path(__file__).resolve().parent.parent / ".env")
+except ImportError:
+    pass
+
 log = logging.getLogger("wordstat")
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent

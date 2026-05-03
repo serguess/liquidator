@@ -58,7 +58,11 @@ model: sonnet
 2. Расширить тему через WebSearch (поисковые подсказки, "люди ищут также", связанные запросы).
 3. Подобрать главный ключ.
 4. Подобрать 5-10 вторичных ключей и LSI-окружение.
-4a. **Проверить частотность через Yandex Wordstat API** (Bash):
+<!--
+4a. ВРЕМЕННО ОТКЛЮЧЕНО (май 2026, до настройки прав в Yandex Cloud).
+    Когда заработает Wordstat API - раскомментировать этот блок, и вернуть проверку.
+
+    **Проверить частотность через Yandex Wordstat API** (Bash):
     ```
     python -m tools.wordstat --summary "<главный ключ>" "<вторичный 1>" "<вторичный 2>" ...
     ```
@@ -66,6 +70,10 @@ model: sonnet
     - Если `is_low_frequency: true` (главный <100/мес И сумма <200/мес) - помечаем тему в `drafts/_topic-map/{cat}.json` через статус `low_frequency` и **НЕ создаём brief**, возвращаем `{"error": "low_frequency", "frequency_main": N, "checked_keywords": [...]}`.
     - Если ОК - сохраняем числа в brief.json (см. ниже поля `frequency_main`, `frequency_secondary`).
     - Если API недоступен (нет `YANDEX_CLOUD_API_KEY` / упало) - продолжаем без фильтра, в brief записываем `frequency_main: null` (как раньше). Ошибку логируем, но не блокируем конвейер.
+
+ПОКА ПРОПУСКАЕМ этот шаг. В brief.json поля frequency_* НЕ записываем.
+-->
+4a. **Wordstat-проверка ВРЕМЕННО ОТКЛЮЧЕНА** (см. комментарий выше). Не вызывать `tools/wordstat.py`. В brief.json поля `frequency_main`, `frequency_secondary`, `frequency_total`, `frequency_checked_at`, `frequency_region` НЕ записывать (или ставить `null`). Конвейер продолжается без фильтра по частотности.
 5. Определить интент по таблице ниже.
 6. Определить стадию воронки по таблице ниже.
 7. Определить тип статьи по таблице ниже.
