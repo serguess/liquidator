@@ -335,11 +335,14 @@ GITHUB_REPO = os.getenv("GITHUB_REPO", "triyul22/liquidator")
 
 
 def _git_remote_url() -> Optional[str]:
-    """HTTPS URL с PAT для push. None если GIT_PUSH_TOKEN не задан."""
+    """
+    HTTPS URL с PAT для push. None если GIT_PUSH_TOKEN не задан.
+    Формат `oauth2:TOKEN` работает и с Classic, и с Fine-grained PAT.
+    """
     token = os.getenv("GIT_PUSH_TOKEN", "").strip()
     if not token:
         return None
-    return f"https://x-access-token:{token}@github.com/{GITHUB_REPO}.git"
+    return f"https://oauth2:{token}@github.com/{GITHUB_REPO}.git"
 
 
 def _mask_token(text: str) -> str:

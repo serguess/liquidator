@@ -137,13 +137,16 @@ def _git_env() -> dict:
 def _git_remote_url() -> Optional[str]:
     """
     Собирает URL для push/pull через HTTPS+PAT.
-    Если GIT_PUSH_TOKEN задан - возвращает https://x-access-token:TOKEN@github.com/OWNER/REPO.git
-    Если нет - None (push/pull не получится, но commit локально пройдёт).
+    Формат: https://oauth2:TOKEN@github.com/OWNER/REPO.git
+
+    `oauth2` как username работает и с Classic PAT, и с Fine-grained PAT.
+    Раньше был `x-access-token` - он только для GitHub App installation tokens,
+    Classic PAT с ним падает с Permission denied.
     """
     token = os.getenv("GIT_PUSH_TOKEN", "").strip()
     if not token:
         return None
-    return f"https://x-access-token:{token}@github.com/{GITHUB_REPO}.git"
+    return f"https://oauth2:{token}@github.com/{GITHUB_REPO}.git"
 
 
 def _mask_token(text: str) -> str:
