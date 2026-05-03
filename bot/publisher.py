@@ -331,6 +331,24 @@ def _git_env() -> dict:
     }
 
 
+GITHUB_REPO = os.getenv("GITHUB_REPO", "triyul22/liquidator")
+
+
+def _git_remote_url() -> Optional[str]:
+    """HTTPS URL с PAT для push. None если GIT_PUSH_TOKEN не задан."""
+    token = os.getenv("GIT_PUSH_TOKEN", "").strip()
+    if not token:
+        return None
+    return f"https://x-access-token:{token}@github.com/{GITHUB_REPO}.git"
+
+
+def _mask_token(text: str) -> str:
+    token = os.getenv("GIT_PUSH_TOKEN", "").strip()
+    if token and token in text:
+        return text.replace(token, "***")
+    return text
+
+
 def _git_commit_and_push(slug: str, category: str) -> dict:
     cwd = str(PROJECT_ROOT)
     env = _git_env()
@@ -357,14 +375,18 @@ def _git_commit_and_push(slug: str, category: str) -> dict:
         return {"committed": False, "pushed": False,
                 "reason": "commit_failed", "stderr": combined[-300:]}
 
+    remote_url = _git_remote_url()
+    if not remote_url:
+        return {"committed": True, "pushed": False, "reason": "no_token"}
+
     push_res = subprocess.run(
-        ["git", "push", "origin", GITHUB_BRANCH],
+        ["git", "push", remote_url, GITHUB_BRANCH],
         cwd=cwd, env=env, capture_output=True, text=True, timeout=60,
     )
     if push_res.returncode != 0:
         return {"committed": True, "pushed": False,
                 "reason": "push_failed",
-                "stderr": (push_res.stderr or "")[-300:]}
+                "stderr": _mask_token((push_res.stderr or "")[-300:])}
     return {"committed": True, "pushed": True}
 
 

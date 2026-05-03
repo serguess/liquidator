@@ -134,41 +134,57 @@ def _git_env() -> dict:
     }
 
 
+def _git_remote_url() -> Optional[str]:
+    """
+    Собирает URL для push/pull через HTTPS+PAT.
+    Если GIT_PUSH_TOKEN задан - возвращает https://x-access-token:TOKEN@github.com/OWNER/REPO.git
+    Если нет - None (push/pull не получится, но commit локально пройдёт).
+    """
+    token = os.getenv("GIT_PUSH_TOKEN", "").strip()
+    if not token:
+        return None
+    return f"https://x-access-token:{token}@github.com/{GITHUB_REPO}.git"
+
+
+def _mask_token(text: str) -> str:
+    """Прячем токен из stderr перед логированием."""
+    token = os.getenv("GIT_PUSH_TOKEN", "").strip()
+    if token and token in text:
+        return text.replace(token, "***")
+    return text
+
+
 def _git_pull_before_slot() -> dict:
     """
-    Подтягивает свежие изменения с GitHub перед началом слота. Это нужно,
-    чтобы локальная копия repo внутри контейнера не отставала от main:
-    заказчик может править meta.json/topic-map в GitHub web между слотами.
+    Подтягивает свежие изменения с GitHub перед началом слота.
 
-    Используем --ff-only: если есть локальные конфликты - не пытаемся
-    разруливать автоматом, просто пропускаем pull. runner.py всё равно
-    отработает локально, push потом упадёт с понятной ошибкой.
-
-    Pull идёт через тот же origin (SSH), что и push - см. docker-entrypoint.sh.
+    Pull идёт через явный URL с PAT (не через `git pull origin`), чтобы
+    не зависеть от настроек origin в репо (Cloud Apps клонирует по HTTPS,
+    мы не переписываем origin).
     """
     cwd = str(ROOT)
     env = _git_env()
+    remote_url = _git_remote_url()
+    if not remote_url:
+        return {"ok": False, "stdout_tail": "", "stderr_tail": "GIT_PUSH_TOKEN не задан"}
+
     res = subprocess.run(
-        ["git", "pull", "--ff-only", "origin", GITHUB_BRANCH],
+        ["git", "pull", "--ff-only", remote_url, GITHUB_BRANCH],
         cwd=cwd, env=env, capture_output=True, text=True, timeout=60,
     )
     return {
         "ok": res.returncode == 0,
-        "stdout_tail": (res.stdout or "")[-200:],
-        "stderr_tail": (res.stderr or "")[-200:],
+        "stdout_tail": _mask_token((res.stdout or "")[-200:]),
+        "stderr_tail": _mask_token((res.stderr or "")[-200:]),
     }
 
 
 def _git_commit_and_push(slug: str, category: str, metrics: str = "") -> dict:
     """
-    Коммитит drafts/{slug} и data/scheduler_log.json, пушит в origin.
+    Коммитит drafts/{slug} и data/scheduler_log.json, пушит в GitHub.
 
-    Push идёт через SSH (origin URL переключён в docker-entrypoint.sh
-    на git@github.com:OWNER/REPO.git, ключ - в /root/.ssh/id_ed25519
-    из переменной SSH_PRIVATE_KEY).
-
-    Если SSH не настроен (например, локальная отладка без ключа), git push
-    упадёт - возвращаем reason="push_failed", но локальный commit остаётся.
+    Push идёт через HTTPS+PAT (GIT_PUSH_TOKEN). Без токена - только
+    локальный commit, push возвращает reason="no_token".
     """
     cwd = str(ROOT)
     env = _git_env()
@@ -197,15 +213,19 @@ def _git_commit_and_push(slug: str, category: str, metrics: str = "") -> dict:
         return {"committed": False, "pushed": False,
                 "reason": "commit_failed", "stderr": combined[-300:]}
 
-    # Push через SSH (origin URL уже git@github.com из entrypoint)
+    # Push через HTTPS+PAT (явный URL, чтобы не зависеть от настроек origin)
+    remote_url = _git_remote_url()
+    if not remote_url:
+        return {"committed": True, "pushed": False, "reason": "no_token"}
+
     push_res = subprocess.run(
-        ["git", "push", "origin", GITHUB_BRANCH],
+        ["git", "push", remote_url, GITHUB_BRANCH],
         cwd=cwd, env=env, capture_output=True, text=True, timeout=60,
     )
     if push_res.returncode != 0:
         return {"committed": True, "pushed": False,
                 "reason": "push_failed",
-                "stderr": (push_res.stderr or "")[-300:]}
+                "stderr": _mask_token((push_res.stderr or "")[-300:])}
     return {"committed": True, "pushed": True}
 
 
