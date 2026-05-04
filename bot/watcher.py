@@ -41,11 +41,22 @@ def _extract_title_from_html(html_path: Path) -> str:
 
 
 def _count_text_chars(html_path: Path) -> int:
-    """Грубо: вырезаем теги, считаем символы. Для оценки в TG."""
+    """
+    Считает символы авторского текста ТАКЖЕ как quality_gate (tools/quality_checks):
+    только содержимое <article>...</article>, без header/footer/sidebar/CTA/JSON-LD/FAQ-вопросов.
+    Раньше считали весь body — цифра была на 2-3 тысячи больше реальной.
+    """
+    try:
+        from tools.quality_checks import extract_author_text_from_html
+    except ImportError:
+        extract_author_text_from_html = None
     try:
         text = html_path.read_text(encoding="utf-8")
     except OSError:
         return 0
+    if extract_author_text_from_html:
+        return len(extract_author_text_from_html(text))
+    # Fallback: тот же алгоритм но без выреза footer-а — лучше чем ничего.
     text = re.sub(r"<script\b[^>]*>.*?</script>", " ", text, flags=re.DOTALL | re.IGNORECASE)
     text = re.sub(r"<style\b[^>]*>.*?</style>", " ", text, flags=re.DOTALL | re.IGNORECASE)
     text = re.sub(r"<head\b[^>]*>.*?</head>", " ", text, flags=re.DOTALL | re.IGNORECASE)
@@ -118,7 +129,11 @@ def scan_for_new_drafts() -> list[dict]:
         meta = _read_meta(sub)
         category = meta.get("category", "fiz")
         title = meta.get("title") or meta.get("h1") or _extract_title_from_html(current_html)
-        char_count = _count_text_chars(current_html)
+        # Приоритет: text_chars из meta.json (его пишет quality_gate точно).
+        # Fallback на _count_text_chars если meta нет.
+        meta_chars = meta.get("text_chars")
+        char_count = int(meta_chars) if isinstance(meta_chars, (int, float)) and meta_chars > 0 \
+            else _count_text_chars(current_html)
 
         # Wordstat-частоты (агент 1 уже их посчитал и положил в meta.json).
         # Если их нет (API недоступен / старая статья) - просто None, бот не покажет.

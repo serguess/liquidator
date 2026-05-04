@@ -137,11 +137,21 @@ def _parse_summary(claude_output: str) -> str:
 
 
 def _count_html_chars(html_path: Path) -> int:
-    """Считает примерное количество знаков видимого текста в HTML."""
+    """
+    Считает символы авторского текста ТАКЖЕ как quality_gate (tools/quality_checks):
+    только содержимое <article>...</article>, без header/footer/CTA/JSON-LD/FAQ-вопросов.
+    Раньше считали весь body — цифра была на 2-3 тысячи больше реальной.
+    """
+    try:
+        from tools.quality_checks import extract_author_text_from_html
+    except ImportError:
+        extract_author_text_from_html = None
     try:
         text = html_path.read_text(encoding="utf-8")
     except OSError:
         return 0
+    if extract_author_text_from_html:
+        return len(extract_author_text_from_html(text))
     text = re.sub(r"<script\b[^>]*>.*?</script>", " ", text, flags=re.DOTALL | re.IGNORECASE)
     text = re.sub(r"<style\b[^>]*>.*?</style>", " ", text, flags=re.DOTALL | re.IGNORECASE)
     text = re.sub(r"<head\b[^>]*>.*?</head>", " ", text, flags=re.DOTALL | re.IGNORECASE)
