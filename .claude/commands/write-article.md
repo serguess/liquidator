@@ -11,41 +11,49 @@ argument-hint: <category> <topic>
 
 ## Конвейер (строго последовательно)
 
-### Pipeline-логирование (обязательно)
+### Heartbeat (обязательно перед каждым агентом)
 
-После завершения работы каждого агента — записать событие в timeline-лог:
+Перед запуском каждого агента (1, 2, 3, 4, 5, 6, 7) и перед длинными скриптами (quality_gate, inject_boilerplate) обнови heartbeat-файл одной командой:
 
-```
-python -m tools.pipeline_log {slug} {agent-name} completed \
-  --output-file "{что положил}" \
-  --summary "{ключевые цифры/решения, ≤200 знаков}" \
-  --duration-sec {длительность}
+```bash
+date -u +"%Y-%m-%dT%H:%M:%S | агент-N" > data/.scheduler_heartbeat
 ```
 
-При возврате на агента 4 (из 5/6/quality_gate):
+Где `агент-N` — имя текущего шага (например `1-semantics`, `quality_gate`, `7-publisher`). Scheduler следит за mtime этого файла: если он не обновляется 5 минут — subprocess убивается раньше общего 40-минутного таймаута. Без heartbeat зависший слот съест всю квоту.
 
+### Pipeline-логирование (только при проблемах)
+
+В норме НЕ вызывай `python -m tools.pipeline_log` после успешного завершения каждого агента. Scheduler сам пишет timeline-события (slot_started, slot_finished, статусы, метрики) после твоего завершения. Каждый твой вызов `python -m tools.pipeline_log` — это subprocess-запуск, который тратит сообщение Pro-лимита Claude. На статью мы экономим 7-8 messages.
+
+Логируй ТОЛЬКО эти случаи:
+
+**1. Возврат на агента 4** (из 5/6/quality_gate с `passed: false`):
 ```
 python -m tools.pipeline_log {slug} 4-writer iteration_returned \
   --reason "{почему вернули}" \
   --recommendation "{что переделать}"
 ```
 
-При падении агента:
-
+**2. Падение агента** (исключение / отсутствие нужного файла / несовместимый JSON):
 ```
 python -m tools.pipeline_log {slug} {agent-name} failed --error "{короткий текст}"
 ```
 
-slug ещё неизвестен на агенте 1 — начинай логировать после того как brief.json создан (там slug уже есть).
+**3. Каннибализация на агенте 1** — если cannibalization_check вернул conflict, логируй и останавливайся:
+```
+python -m tools.pipeline_log {slug} 1-semantics failed --error "cannibalization:{conflict_slug}"
+```
+
+slug ещё неизвестен на агенте 1 до создания brief.json — если он упал ДО brief.json, просто остановись с понятным stdout-сообщением, scheduler разберётся по rc.
 
 ### Шаги
 
-1. Запусти агента `1-semantics` с category и topic. Агент сам прогоняет preflight через `tools/cannibalization_check.py` (preflight + full режимы) — отдельно его звать не надо. Дождись `drafts/{slug}/brief.json`. Если вернул `error: cannibalization` (любая стадия) — сообщи slug-и конфликтов и остановись, не запускай агентов 2-7. **Лог:** `pipeline_log {slug} 1-semantics completed --output-file brief.json --summary "main_keyword=..., intent=..., writer_route=A|B, cannibalization=ok|warn"`.
-2. Запусти агента `2-legal-research` с slug. Дождись `drafts/{slug}/research.json`. **Лог:** `summary "facts=N, web_searches=M, cache_hits=K, review_changes=L"`.
-3. Запусти агента `3-architect`. **Перед запуском найди `prev_article_outline`**: возьми последний по mtime файл `drafts/*/outline.json` или `articles/{category}/*` той же категории, что текущая (если есть) — извлеки структуру блоков (имена H2, порядок, `cta_final.text`) и передай архитектору в prompt как `prev_article_outline`. Архитектор обязан отстроиться по структуре от этой статьи. Дождись `drafts/{slug}/outline.json`. **Лог:** `summary "blocks=N, target_chars=X, prev_outline_overlap=Y"`.
-4. Запусти агента `4-writer`. Дождись `drafts/{slug}/draft.md`. **Лог:** `summary "chars=X, route=A|B, anti_ai_techniques=N"`.
-5. Запусти агента `5-uniqueness`. Если `passed: false` - возврат на агента 4 с указанием `recommendation` (одна или несколько меток). Максимум 3 итерации, после - в `drafts/_review/`. **Лог при возврате:** `pipeline_log {slug} 4-writer iteration_returned --reason "uniqueness:{score}" --recommendation "rewrite_with_angle:{X}"`.
-6. Запусти агента `6-seo-editor`. Дождись `drafts/{slug}/body.html` + `meta.json`. Агент 6 САМ пишет body.html (только содержание с placeholder-комментариями BP:CTA-*, BP:DISCLAIMER) и заполняет meta.json (title, description, h1, lead, topic_action, faq и т.д.). HTML-каркас не пишет. Если `factcheck_passed: false` - возврат на агента 4. **Лог:** `summary "factcheck=ok|fail, internal_links=N, external_links=M"`.
+1. Запусти агента `1-semantics` с category и topic. Агент сам прогоняет preflight через `tools/cannibalization_check.py` (preflight + full режимы) — отдельно его звать не надо. Дождись `drafts/{slug}/brief.json`. Если вернул `error: cannibalization` (любая стадия) — сообщи slug-и конфликтов и остановись (см. блок «Pipeline-логирование» как залогировать), не запускай агентов 2-7.
+2. Запусти агента `2-legal-research` с slug. Дождись `drafts/{slug}/research.json`.
+3. Запусти агента `3-architect`. **Перед запуском найди `prev_article_outline`**: возьми последний по mtime файл `drafts/*/outline.json` или `articles/{category}/*` той же категории, что текущая (если есть) — извлеки структуру блоков (имена H2, порядок, `cta_final.text`) и передай архитектору в prompt как `prev_article_outline`. Архитектор обязан отстроиться по структуре от этой статьи. Дождись `drafts/{slug}/outline.json`.
+4. Запусти агента `4-writer`. Дождись `drafts/{slug}/draft.md`.
+5. Запусти агента `5-uniqueness`. Если `passed: false` - возврат на агента 4 с указанием `recommendation` (одна или несколько меток). Максимум 3 итерации, после - в `drafts/_review/`. **При возврате обязательно** залогируй `iteration_returned` (см. блок «Pipeline-логирование»), чтобы scheduler видел причину.
+6. Запусти агента `6-seo-editor`. Дождись `drafts/{slug}/body.html` + `meta.json`. Агент 6 САМ пишет body.html (только содержание с placeholder-комментариями BP:CTA-*, BP:DISCLAIMER) и заполняет meta.json (title, description, h1, lead, topic_action, faq и т.д.). HTML-каркас не пишет. Если `factcheck_passed: false` - возврат на агента 4 (логируй `iteration_returned`).
 6a. **Сборка финального article.html (детерминированно):**
     ```
     python -m tools.inject_boilerplate drafts/{slug}/ --body body.html --out article.html
@@ -55,7 +63,7 @@ slug ещё неизвестен на агенте 1 — начинай логи
     - 2 — нет body.html — возврат на агента 6, что-то пошло не так.
     Идеально агент 6 сам зовёт этот скрипт в финале своей работы — тогда мы экономим один re-invocation.
 7. **Обязательный шаг: quality_gate.** Запусти `python -m tools.quality_gate drafts/{slug}/article.html --json --save-report`. Если exit ≠ 0 - читай `drafts/{slug}/quality_gate.json`, поле `recommendations`, и возвращай на агента 4 с конкретной пометкой. Максимум 3 итерации возврата. После третьей - в `drafts/_review/`. **quality_gate сам пишет своё событие в pipeline_log через scheduler — отдельно логировать не нужно**.
-8. Запусти агента `7-publisher`. По умолчанию режим `draft` (не публикуем на сайт первые 2 недели). **Лог:** `summary "mode=draft|live, images=N"`.
+8. Запусти агента `7-publisher`. По умолчанию режим `draft` (не публикуем на сайт первые 2 недели).
 
 **Важно:** даже если ты пропустишь шаг 7 (quality_gate) - scheduler всё равно его запустит после твоего завершения. Если gate упадёт, scheduler пометит слот как `failed_qa` и заблокирует публикацию. Лучше прогнать самому, чтобы успеть зациклить итерации с агентом 4.
 

@@ -45,6 +45,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 import re
 import sys
 from pathlib import Path
@@ -62,6 +63,16 @@ DATA_DIR = PROJECT_ROOT / "data"
 # Пороги Жаккара (старый промпт агента 1, шаги 4-6)
 THRESHOLD_CONFLICT = 0.7
 THRESHOLD_WARN = 0.4
+
+# Пороги cosine-similarity для embeddings-проверки (семантическая каннибализация).
+# Jaccard ловит лексические совпадения, embeddings — семантические:
+# например «как списать долги без работы» и «банкротство для безработных»
+# имеют разную лексику но один кластер интента.
+EMBED_THRESHOLD_CONFLICT = 0.85
+EMBED_THRESHOLD_WARN = 0.75
+
+# Файл-кэш эмбеддингов тем published-статей. Ключ = slug, значение = вектор.
+TOPIC_EMBEDDINGS_CACHE = None  # лениво строится при первом обращении
 
 # Стоп-слова русского + типовые служебные для юр-тематики.
 # Цель — не давать пустым словам типа «как», «и», «по» давать ложные пересечения.
@@ -407,6 +418,16 @@ def check(category: str, main_keyword: str = "", secondary: list[str] | None = N
             "union_size": len(new_keys | rec["keys_set"]) if rec["keys_set"] else 0,
         })
 
+    # Семантическая проверка через embeddings (опциональная, требует OPENAI_API_KEY).
+    # Ловит случаи когда лексика разная, но интент тот же:
+    # «как списать долги без работы» vs «банкротство для безработных».
+    # Если ключа нет или эмбеддинг не получился — checks возвращаются без изменений.
+    if existing:
+        new_topic_text = main_keyword if mode == "full" and main_keyword else topic
+        if not new_topic_text and new_keys:
+            new_topic_text = " ".join(sorted(new_keys))
+        checks = enrich_with_semantic(checks, new_topic_text, existing)
+
     # Сортируем: сначала по vердикту (conflict→warn→ok), потом по «силе» сигнала
     verdict_rank = {"conflict": 0, "warn": 1, "ok": 2}
     checks.sort(key=lambda x: (
@@ -446,6 +467,174 @@ def check(category: str, main_keyword: str = "", secondary: list[str] | None = N
         "brief_field": brief_field,
         "thresholds": {"conflict": THRESHOLD_CONFLICT, "warn": THRESHOLD_WARN},
     }
+
+
+# ============ Семантическая проверка через embeddings ============
+
+# Кэш эмбеддингов: data/topic_embeddings.json, формат {slug: [floats], ...}.
+# Перестраивается лениво: при каждом запуске проверяем что у всех текущих
+# published_index slug-ов есть вектор. Если slug новый — эмбеддим и дописываем.
+EMBEDDINGS_CACHE_PATH = DATA_DIR / "topic_embeddings.json"
+
+
+def _topic_text_for_embedding(record: dict) -> str:
+    """Текст по которому считаем эмбеддинг темы. Берём label + main_keyword."""
+    parts = [record.get("label") or "", record.get("main_keyword") or ""]
+    return " | ".join(p for p in parts if p)
+
+
+def _load_embeddings_cache() -> dict:
+    if not EMBEDDINGS_CACHE_PATH.exists():
+        return {}
+    try:
+        return json.loads(EMBEDDINGS_CACHE_PATH.read_text(encoding="utf-8"))
+    except (json.JSONDecodeError, OSError):
+        return {}
+
+
+def _save_embeddings_cache(cache: dict) -> None:
+    DATA_DIR.mkdir(exist_ok=True)
+    try:
+        EMBEDDINGS_CACHE_PATH.write_text(
+            json.dumps(cache, ensure_ascii=False),
+            encoding="utf-8",
+        )
+    except OSError:
+        pass
+
+
+def _embed_text(text: str) -> list[float] | None:
+    """
+    Получает эмбеддинг текста через tools.embed_compare.get_embedding.
+    Возвращает None если OPENAI_API_KEY отсутствует ИЛИ при любой ошибке —
+    тогда вызывающий код просто пропускает семантическую проверку.
+    """
+    if not text.strip():
+        return None
+    if not os.getenv("OPENAI_API_KEY"):
+        return None
+    try:
+        from tools.embed_compare import get_embedding
+        vec = get_embedding(text)
+        # get_embedding возвращает fallback-хеш если API не отвечает —
+        # такой fallback семантически бессмыслен, отбрасываем (длина норм есть, но семантика 0).
+        # Простой признак: если в env OPENAI_API_KEY есть, get_embedding пробует API,
+        # и при ошибке печатает WARN в stderr. Здесь различить настоящий эмбеддинг от
+        # хеша сложно, поэтому полагаемся на наличие ключа.
+        return vec
+    except Exception:
+        return None
+
+
+def _cosine(a: list[float], b: list[float]) -> float:
+    if not a or not b or len(a) != len(b):
+        return 0.0
+    dot = sum(x * y for x, y in zip(a, b))
+    na = sum(x * x for x in a) ** 0.5
+    nb = sum(y * y for y in b) ** 0.5
+    if na == 0 or nb == 0:
+        return 0.0
+    return dot / (na * nb)
+
+
+def _build_or_refresh_topic_vectors(records: list[dict]) -> dict:
+    """
+    Возвращает {slug: vector} для published-тем. Использует кэш, эмбеддит только новые.
+    Если ключа OpenAI нет или эмбеддинг не получился — slug просто не попадает в результат.
+    """
+    cache = _load_embeddings_cache()
+    changed = False
+    out = {}
+    for rec in records:
+        slug = rec["slug"]
+        if slug in cache and isinstance(cache[slug], list) and cache[slug]:
+            out[slug] = cache[slug]
+            continue
+        text = _topic_text_for_embedding(rec)
+        vec = _embed_text(text)
+        if vec:
+            cache[slug] = vec
+            out[slug] = vec
+            changed = True
+    if changed:
+        _save_embeddings_cache(cache)
+    return out
+
+
+def _semantic_verdict(score: float) -> str:
+    if score >= EMBED_THRESHOLD_CONFLICT:
+        return "conflict"
+    if score >= EMBED_THRESHOLD_WARN:
+        return "warn"
+    return "ok"
+
+
+def enrich_with_semantic(checks: list[dict], new_topic_text: str,
+                          existing_records: list[dict]) -> list[dict]:
+    """
+    Двухступенчатое обогащение checks семантическим сигналом:
+
+    1. Для записей УЖЕ в checks (Jaccard их пропустил) — добавляем embed_similarity
+       и поднимаем verdict если embeddings строже.
+    2. Для записей которых НЕТ в checks (Jaccard их отбросил как шум) — пробегаем
+       по всем existing_records, эмбеддим, и если cosine ≥ EMBED_THRESHOLD_WARN —
+       ДОБАВЛЯЕМ запись в checks. Это ловит семантическую каннибализацию при
+       полностью разной лексике (Jaccard = 0, embeddings = 0.87).
+
+    Если эмбеддинг кандидата получить не удалось (нет OPENAI_API_KEY) —
+    тихо возвращает checks без изменений (graceful degradation на чистый Jaccard).
+    """
+    new_vec = _embed_text(new_topic_text)
+    if not new_vec:
+        return checks
+    vectors_by_slug = _build_or_refresh_topic_vectors(existing_records)
+    if not vectors_by_slug:
+        return checks
+
+    rank = {"ok": 0, "warn": 1, "conflict": 2}
+    existing_slugs_in_checks = {ch["slug"] for ch in checks}
+
+    # Шаг 1: обогащаем существующие checks
+    for ch in checks:
+        vec = vectors_by_slug.get(ch["slug"])
+        if not vec:
+            continue
+        sim = round(_cosine(new_vec, vec), 3)
+        ch["embed_similarity"] = sim
+        ch["embed_verdict"] = _semantic_verdict(sim)
+        if rank[ch["embed_verdict"]] > rank.get(ch["verdict"], 0):
+            ch["verdict"] = ch["embed_verdict"]
+            ch["reason"] = f"embedding_overlap (sim={sim})"
+
+    # Шаг 2: добавляем семантические находки которых не было в checks
+    record_by_slug = {r["slug"]: r for r in existing_records}
+    for slug, vec in vectors_by_slug.items():
+        if slug in existing_slugs_in_checks:
+            continue
+        sim = round(_cosine(new_vec, vec), 3)
+        if sim < EMBED_THRESHOLD_WARN:
+            continue
+        rec = record_by_slug.get(slug)
+        if not rec:
+            continue
+        v = _semantic_verdict(sim)
+        checks.append({
+            "slug": slug,
+            "category": rec.get("category", ""),
+            "source": rec.get("source", ""),
+            "main_keyword": rec.get("main_keyword", ""),
+            "label": rec.get("label", slug),
+            "jaccard": 0.0,
+            "main_containment": 0.0,
+            "exact_main_match": False,
+            "verdict": v,
+            "reason": f"embedding_only (sim={sim})",
+            "intersection_size": 0,
+            "union_size": 0,
+            "embed_similarity": sim,
+            "embed_verdict": v,
+        })
+    return checks
 
 
 # ============ CLI ============

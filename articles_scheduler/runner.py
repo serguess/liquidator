@@ -29,12 +29,14 @@ PUBLISHED_INDEX_PATH = DATA_DIR / "published_index.json"
 LOCK_FILE = DATA_DIR / ".scheduler.lock"
 PAUSE_FLAG = DATA_DIR / ".scheduler_paused"
 FAILURE_STREAK_PATH = DATA_DIR / ".scheduler_failure_streak"
+HEARTBEAT_PATH = DATA_DIR / ".scheduler_heartbeat"
 
 ROTATION = [c.strip() for c in os.getenv("ROTATION_ORDER", "fiz,yur,vzysk,news").split(",") if c.strip()]
 ARTICLES_PER_DAY = int(os.getenv("ARTICLES_PER_DAY", "1"))
 ARTICLE_TIMEOUT_SEC = int(os.getenv("ARTICLE_TIMEOUT_SEC", "2400"))  # 40 минут
 LOCK_STALE_SEC = int(os.getenv("LOCK_STALE_SEC", "3600"))  # 1 час
 FAILURE_STREAK_LIMIT = int(os.getenv("FAILURE_STREAK_LIMIT", "3"))
+HEARTBEAT_TIMEOUT_SEC = int(os.getenv("HEARTBEAT_TIMEOUT_SEC", "300"))  # 5 минут тишины = kill
 GITHUB_REPO = os.getenv("GITHUB_REPO", "serguess/liquidator")
 GITHUB_BRANCH = os.getenv("GITHUB_BRANCH", "main")
 GIT_AUTHOR_NAME = os.getenv("GIT_AUTHOR_NAME", "Liquidator Scheduler")
@@ -656,6 +658,72 @@ def _git_commit_log_only() -> dict:
     return {"committed": True, "pushed": True}
 
 
+# ============ HEARTBEAT-RUNNER ============
+
+class _HeartbeatTimeout(Exception):
+    """Subprocess убит из-за тишины heartbeat дольше HEARTBEAT_TIMEOUT_SEC."""
+
+
+def _run_claude_with_heartbeat(cmd: list[str]):
+    """
+    Запускает claude-subprocess в режиме Popen и параллельно следит за
+    HEARTBEAT_PATH. Если файл не обновлялся HEARTBEAT_TIMEOUT_SEC секунд —
+    убивает процесс раньше общего таймаута (ARTICLE_TIMEOUT_SEC).
+
+    Возвращает объект с returncode/stdout/stderr (как у subprocess.run).
+    Если случился heartbeat-timeout — returncode = -1, в stderr пометка.
+    """
+    proc = subprocess.Popen(
+        cmd,
+        cwd=str(ROOT),
+        stdout=subprocess.PIPE,
+        stderr=subprocess.PIPE,
+        text=True,
+        encoding="utf-8",
+        errors="replace",
+    )
+    hard_deadline = time.time() + ARTICLE_TIMEOUT_SEC
+    heartbeat_killed = False
+    hard_killed = False
+
+    # poll каждые 5 сек: проверяем закончился ли процесс, общий таймаут, heartbeat
+    while proc.poll() is None:
+        time.sleep(5)
+        now = time.time()
+        if now >= hard_deadline:
+            proc.kill()
+            hard_killed = True
+            break
+        if HEARTBEAT_PATH.exists():
+            age = now - HEARTBEAT_PATH.stat().st_mtime
+            if age > HEARTBEAT_TIMEOUT_SEC:
+                log.error(
+                    "Heartbeat молчит %.0f сек (>%ds), убиваю claude-subprocess",
+                    age, HEARTBEAT_TIMEOUT_SEC,
+                )
+                proc.kill()
+                heartbeat_killed = True
+                break
+
+    # process либо завершился сам, либо был убит — communicate безопасен
+    stdout, stderr = proc.communicate()
+
+    if hard_killed:
+        raise subprocess.TimeoutExpired(cmd, ARTICLE_TIMEOUT_SEC, stdout, stderr)
+
+    class _Result:
+        pass
+    r = _Result()
+    r.stdout = stdout or ""
+    r.stderr = stderr or ""
+    if heartbeat_killed:
+        r.returncode = -1
+        r.stderr += f"\n[scheduler] killed by heartbeat timeout (>{HEARTBEAT_TIMEOUT_SEC}s of silence)"
+    else:
+        r.returncode = proc.returncode
+    return r
+
+
 # ============ ОСНОВНОЙ ЦИКЛ ============
 
 def run_one_article() -> dict:
@@ -776,15 +844,15 @@ def run_one_article() -> dict:
             "--dangerously-skip-permissions",
             claude_command,
         ]
-        result = subprocess.run(
-            cmd,
-            cwd=str(ROOT),
-            capture_output=True,
-            text=True,
-            timeout=ARTICLE_TIMEOUT_SEC,
+        # Сбрасываем heartbeat перед стартом — Claude должен сам обновлять файл
+        # через Bash из агентов (echo "$(date) | агент-N" > data/.scheduler_heartbeat).
+        # Если он не обновлялся HEARTBEAT_TIMEOUT_SEC — kill subprocess раньше
+        # чем сработает общий ARTICLE_TIMEOUT_SEC (40 минут).
+        HEARTBEAT_PATH.write_text(
+            f"{datetime.now().isoformat(timespec='seconds')} | started",
             encoding="utf-8",
-            errors="replace",
         )
+        result = _run_claude_with_heartbeat(cmd)
 
         duration = round(time.time() - started, 1)
         ok = result.returncode == 0

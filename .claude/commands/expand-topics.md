@@ -13,6 +13,16 @@ argument-hint: <category>
 - Дублировать slug-и, которые есть в подпапках `drafts/{slug}/` (это статьи в работе).
 - Писать саму статью. Только бриф темы.
 
+## Heartbeat (обязательно)
+
+В начале работы и перед каждым WebSearch обнови heartbeat-файл:
+
+```bash
+date -u +"%Y-%m-%dT%H:%M:%S | expand-topics" > data/.scheduler_heartbeat
+```
+
+Без этого scheduler убьёт subprocess через 5 минут «тишины».
+
 ## Алгоритм
 
 ### 1. Прочитай текущее состояние
