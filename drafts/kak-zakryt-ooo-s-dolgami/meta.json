@@ -55,7 +55,12 @@
     "https://www.consultant.ru/document/cons_doc_LAW_32881/3019ae7afe018be3d3a064d8551c2638795c8a02/",
     "https://www.consultant.ru/document/cons_doc_LAW_31639/05e2caebfca2e29d1f5fea4b40bcb15d8de4068b/"
   ],
-  "schema_types": ["Article", "Organization", "BreadcrumbList", "FAQPage"],
+  "schema_types": [
+    "Article",
+    "Organization",
+    "BreadcrumbList",
+    "FAQPage"
+  ],
   "factcheck_passed": true,
   "factcheck_notes": [
     "Автор по решению заказчика - Organization 'ООО ЛИКВИДАТОР' (не Person).",
@@ -75,12 +80,32 @@
   "external_links_count": 12,
   "external_links_min_required": 2,
   "html_chars": 31896,
-  "text_chars": 12914,
+  "text_chars": 23020,
   "uniqueness_check": {
     "passed": true,
     "ai_markers_count": 1,
     "ai_markers_note": "Только 'не является' в дисклеймере - устойчивый юр-оборот",
     "structure_overlap_with_published": 0.18,
     "compared_with": "bankrotstvo-yuridicheskih-lic-poshagovaya-instrukciya"
-  }
+  },
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "length_status": "too_long",
+  "length_kind": "default",
+  "local_spam_top10_share": 0.149,
+  "local_spam_ngram3_repeat": 0.102,
+  "local_lexical_diversity": 0.409,
+  "local_ai_markers_density": 0.16,
+  "local_ai_markers_total": 4,
+  "local_ai_markers_critical": 0,
+  "local_ai_markers_high": 3,
+  "local_own_voice_hits": 2,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": false,
+  "quality_gate_blockers": [
+    "length_too_long: 23020 > 7500 (kind=default)",
+    "spam_risk: 2 флагов, top-5: ['банкротств', 'закон', 'кредитор', 'месяц', 'ликвидац']"
+  ]
 }
