@@ -45,11 +45,25 @@ PROJECT_ROOT = Path(__file__).resolve().parent.parent
 # === 1. Сокращения юр-терминов (запрещены в авторском тексте) ===
 # Паттерны учитывают только формы внутри слова, не задевая FAQ-вопросы (там форма
 # поискового запроса допустима). FAQ-вопросы вырезаются перед проверкой.
+# Покрытие падежей: ед.ч. (юрлицо/юрлица/юрлицу/юрлицом/юрлице) +
+# мн.ч. (юрлица/юрлиц/юрлицам/юрлицами/юрлицах). Аналогично физлица.
 ABBREVIATIONS = {
-    "юрлиц/юрлица/юрлицо": re.compile(r"\bюрлиц[ауыео]?\b", re.IGNORECASE | re.UNICODE),
-    "физлиц/физлица/физлицо": re.compile(r"\bфизлиц[ауыео]?\b", re.IGNORECASE | re.UNICODE),
-    "дебиторка/дебиторки/дебиторку": re.compile(r"\bдебиторк[ауие]?\b", re.IGNORECASE | re.UNICODE),
-    "финуправляющий/финупр": re.compile(r"\bфинуправл\w*|\bфинупр\b", re.IGNORECASE | re.UNICODE),
+    "юрлицо/юрлица/юрлицам/юрлицами": re.compile(
+        r"\bюрлиц(?:а|у|ы|е|о|ом|ами|ам|ах)?\b",
+        re.IGNORECASE | re.UNICODE,
+    ),
+    "физлицо/физлица/физлицам/физлицами": re.compile(
+        r"\bфизлиц(?:а|у|ы|е|о|ом|ами|ам|ах)?\b",
+        re.IGNORECASE | re.UNICODE,
+    ),
+    "дебиторка/дебиторки/дебиторкой": re.compile(
+        r"\bдебиторк(?:а|и|у|е|ой|ою|ам|ами|ах)?\b",
+        re.IGNORECASE | re.UNICODE,
+    ),
+    "финуправляющий/финупр": re.compile(
+        r"\bфинуправл\w*|\bфинупр\b",
+        re.IGNORECASE | re.UNICODE,
+    ),
     "кредорг": re.compile(r"\bкредорг\w*", re.IGNORECASE | re.UNICODE),
     "исполлист": re.compile(r"\bисполлист\w*", re.IGNORECASE | re.UNICODE),
     "банкротн (как сокращение)": re.compile(r"\bбанкротн\b", re.IGNORECASE | re.UNICODE),
@@ -88,16 +102,40 @@ class SpamHeuristics:
     risk_flags: list[str]
 
 
+# === 4. Длина статьи (hard-блокер) ===
+# Заказчик зафиксировал: 6000-7000 знаков. Допуск 5500-7500 (для news 4500-6500).
+# Жёсткий потолок 7500: больше — публикация блокируется автоматически.
+LENGTH_LIMITS = {
+    "default": {"min": 5500, "target_min": 6000, "target_max": 7000, "max": 7500},
+    "news": {"min": 4500, "target_min": 4500, "target_max": 6500, "max": 6800},
+}
+
+
+def length_status(text_chars: int, kind: str = "default") -> str:
+    limits = LENGTH_LIMITS.get(kind, LENGTH_LIMITS["default"])
+    if text_chars > limits["max"]:
+        return "too_long"
+    if text_chars < limits["min"]:
+        return "too_short"
+    if text_chars > limits["target_max"] or text_chars < limits["target_min"]:
+        return "warn"
+    return "ok"
+
+
 @dataclass
 class Report:
     file: str
     text_chars: int
+    length_status: str = "ok"  # ok | warn | too_short | too_long
+    length_kind: str = "default"  # default | news
     abbreviation_hits: list[AbbreviationHit] = field(default_factory=list)
     punctuation_hits: list[PunctuationHit] = field(default_factory=list)
     spam: SpamHeuristics | None = None
 
     @property
     def passed(self) -> bool:
+        if self.length_status in ("too_short", "too_long"):
+            return False
         if self.abbreviation_hits or self.punctuation_hits:
             return False
         if self.spam and len(self.spam.risk_flags) >= 2:
@@ -232,13 +270,15 @@ def compute_spam_heuristics(text: str) -> SpamHeuristics:
     total_ngrams = len(ngrams) if ngrams else 1
     ngram3_repeat_share = round(repeats / total_ngrams, 3)
 
+    # Пороги ужесточены под целевую заспамленность text.ru ≤50%
+    # (заказчик зафиксировал; раньше было 18%/4%/0.45 — давало 55-58% по text.ru).
     risk_flags = []
-    if top10_share > 0.18:
-        risk_flags.append(f"top10_share>{0.18} (={top10_share})")
-    if ngram3_repeat_share > 0.04:
-        risk_flags.append(f"ngram3_repeat_share>{0.04} (={ngram3_repeat_share})")
-    if lexical_diversity < 0.45:
-        risk_flags.append(f"lexical_diversity<{0.45} (={lexical_diversity})")
+    if top10_share > 0.16:
+        risk_flags.append(f"top10_share>{0.16} (={top10_share})")
+    if ngram3_repeat_share > 0.03:
+        risk_flags.append(f"ngram3_repeat_share>{0.03} (={ngram3_repeat_share})")
+    if lexical_diversity < 0.50:
+        risk_flags.append(f"lexical_diversity<{0.50} (={lexical_diversity})")
 
     return SpamHeuristics(
         total_words=total_words,
@@ -251,6 +291,23 @@ def compute_spam_heuristics(text: str) -> SpamHeuristics:
         ngram3_repeat_share=ngram3_repeat_share,
         risk_flags=risk_flags,
     )
+
+
+def _detect_kind(file_path: Path, raw: str) -> str:
+    """News-категория - другие лимиты длины. Определяем по пути drafts/{slug} или meta.json."""
+    parts = {p.lower() for p in file_path.parts}
+    if "news" in parts:
+        return "news"
+    # Попробовать meta.json рядом
+    meta_path = file_path.parent / "meta.json"
+    if meta_path.exists():
+        try:
+            meta = json.loads(meta_path.read_text(encoding="utf-8"))
+            if (meta.get("category") or "").lower() == "news":
+                return "news"
+        except (json.JSONDecodeError, OSError):
+            pass
+    return "default"
 
 
 def analyze(file_path: Path) -> Report:
@@ -268,9 +325,14 @@ def analyze(file_path: Path) -> Report:
         else file_path
     )
 
+    kind = _detect_kind(file_path, raw)
+    chars = len(text)
+
     return Report(
         file=str(rel_path),
-        text_chars=len(text),
+        text_chars=chars,
+        length_kind=kind,
+        length_status=length_status(chars, kind),
         abbreviation_hits=check_abbreviations(text),
         punctuation_hits=check_punctuation(text),
         spam=compute_spam_heuristics(text),
@@ -281,6 +343,8 @@ def to_dict(rep: Report) -> dict:
     return {
         "file": rep.file,
         "text_chars": rep.text_chars,
+        "length_status": rep.length_status,
+        "length_kind": rep.length_kind,
         "passed": rep.passed,
         "abbreviation_hits": [asdict(h) for h in rep.abbreviation_hits],
         "punctuation_hits": [asdict(h) for h in rep.punctuation_hits],
@@ -289,9 +353,16 @@ def to_dict(rep: Report) -> dict:
 
 
 def print_report(rep: Report) -> None:
+    limits = LENGTH_LIMITS.get(rep.length_kind, LENGTH_LIMITS["default"])
     print(f"\n=== {rep.file} ===")
-    print(f"Авторский текст: {rep.text_chars:,} знаков")
+    print(f"Авторский текст: {rep.text_chars:,} знаков (kind={rep.length_kind}, "
+          f"target {limits['target_min']}-{limits['target_max']}, max {limits['max']})")
+    print(f"Длина: {rep.length_status.upper()}")
     print(f"Итог: {'PASSED' if rep.passed else 'FAILED'}")
+    if rep.length_status == "too_long":
+        print(f"\n[FAIL] Длина {rep.text_chars} > потолка {limits['max']} — статья требует сокращения.")
+    elif rep.length_status == "too_short":
+        print(f"\n[FAIL] Длина {rep.text_chars} < минимума {limits['min']} — статья требует расширения.")
 
     if rep.abbreviation_hits:
         print(f"\n[FAIL] Сокращения юр-терминов в авторском тексте: {len(rep.abbreviation_hits)}")
@@ -321,9 +392,9 @@ def print_report(rep: Report) -> None:
         print(f"\nЭвристика заспамленности:")
         print(f"  Всего слов (без стоп-слов): {s.total_words}")
         print(f"  Уникальных лемм: {s.unique_lemmas}")
-        print(f"  Лексическое разнообразие: {s.lexical_diversity} (цель ≥0.45)")
-        print(f"  Топ-10 слов суммарно: {s.top10_share * 100:.1f}% (цель ≤18%)")
-        print(f"  Повторы 3-граммов: {s.ngram3_repeat_share * 100:.1f}% (цель ≤4%)")
+        print(f"  Лексическое разнообразие: {s.lexical_diversity} (цель ≥0.50)")
+        print(f"  Топ-10 слов суммарно: {s.top10_share * 100:.1f}% (цель ≤16%)")
+        print(f"  Повторы 3-граммов: {s.ngram3_repeat_share * 100:.1f}% (цель ≤3%)")
         print(f"  Топ-5 частотных лемм: {s.top10_words[:5]}")
         if s.risk_flags:
             print(f"  [RISK] Превышены пороги: {s.risk_flags}")

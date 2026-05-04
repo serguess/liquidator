@@ -11,13 +11,53 @@ argument-hint: <category> <topic>
 
 ## Конвейер (строго последовательно)
 
-1. Запусти агента `1-semantics` с category и topic. Дождись `drafts/{slug}/brief.json`. Если вернул `error: cannibalization` - сообщи и остановись.
-2. Запусти агента `2-legal-research` с slug. Дождись `drafts/{slug}/research.json`.
-3. Запусти агента `3-architect`. Дождись `drafts/{slug}/outline.json`.
-4. Запусти агента `4-writer`. Дождись `drafts/{slug}/draft.md`.
-5. Запусти агента `5-uniqueness`. Если `passed: false` - возврат на агента 4 с указанием `recommendation` (одна или несколько меток). Максимум 3 итерации, после - в `drafts/_review/`.
-6. Запусти агента `6-seo-editor`. Дождись `drafts/{slug}/article.html` + `meta.json`. Если `factcheck_passed: false` - возврат на агента 4.
-7. Запусти агента `7-publisher`. По умолчанию режим `draft` (не публикуем на сайт первые 2 недели).
+### Pipeline-логирование (обязательно)
+
+После завершения работы каждого агента — записать событие в timeline-лог:
+
+```
+python -m tools.pipeline_log {slug} {agent-name} completed \
+  --output-file "{что положил}" \
+  --summary "{ключевые цифры/решения, ≤200 знаков}" \
+  --duration-sec {длительность}
+```
+
+При возврате на агента 4 (из 5/6/quality_gate):
+
+```
+python -m tools.pipeline_log {slug} 4-writer iteration_returned \
+  --reason "{почему вернули}" \
+  --recommendation "{что переделать}"
+```
+
+При падении агента:
+
+```
+python -m tools.pipeline_log {slug} {agent-name} failed --error "{короткий текст}"
+```
+
+slug ещё неизвестен на агенте 1 — начинай логировать после того как brief.json создан (там slug уже есть).
+
+### Шаги
+
+1. Запусти агента `1-semantics` с category и topic. Агент сам прогоняет preflight через `tools/cannibalization_check.py` (preflight + full режимы) — отдельно его звать не надо. Дождись `drafts/{slug}/brief.json`. Если вернул `error: cannibalization` (любая стадия) — сообщи slug-и конфликтов и остановись, не запускай агентов 2-7. **Лог:** `pipeline_log {slug} 1-semantics completed --output-file brief.json --summary "main_keyword=..., intent=..., writer_route=A|B, cannibalization=ok|warn"`.
+2. Запусти агента `2-legal-research` с slug. Дождись `drafts/{slug}/research.json`. **Лог:** `summary "facts=N, web_searches=M, cache_hits=K, review_changes=L"`.
+3. Запусти агента `3-architect`. **Перед запуском найди `prev_article_outline`**: возьми последний по mtime файл `drafts/*/outline.json` или `articles/{category}/*` той же категории, что текущая (если есть) — извлеки структуру блоков (имена H2, порядок, `cta_final.text`) и передай архитектору в prompt как `prev_article_outline`. Архитектор обязан отстроиться по структуре от этой статьи. Дождись `drafts/{slug}/outline.json`. **Лог:** `summary "blocks=N, target_chars=X, prev_outline_overlap=Y"`.
+4. Запусти агента `4-writer`. Дождись `drafts/{slug}/draft.md`. **Лог:** `summary "chars=X, route=A|B, anti_ai_techniques=N"`.
+5. Запусти агента `5-uniqueness`. Если `passed: false` - возврат на агента 4 с указанием `recommendation` (одна или несколько меток). Максимум 3 итерации, после - в `drafts/_review/`. **Лог при возврате:** `pipeline_log {slug} 4-writer iteration_returned --reason "uniqueness:{score}" --recommendation "rewrite_with_angle:{X}"`.
+6. Запусти агента `6-seo-editor`. Дождись `drafts/{slug}/body.html` + `meta.json`. Агент 6 САМ пишет body.html (только содержание с placeholder-комментариями BP:CTA-*, BP:DISCLAIMER) и заполняет meta.json (title, description, h1, lead, topic_action, faq и т.д.). HTML-каркас не пишет. Если `factcheck_passed: false` - возврат на агента 4. **Лог:** `summary "factcheck=ok|fail, internal_links=N, external_links=M"`.
+6a. **Сборка финального article.html (детерминированно):**
+    ```
+    python -m tools.inject_boilerplate drafts/{slug}/ --body body.html --out article.html
+    ```
+    Скрипт подставляет CTA, дисклеймер, JSON-LD, header/footer/aside из шаблонов. Exit ≠ 0:
+    - 1 — отсутствуют обязательные поля meta.json (slug, category, title, description, h1, topic_action) — возврат на агента 6 с пометкой какие поля дозаполнить.
+    - 2 — нет body.html — возврат на агента 6, что-то пошло не так.
+    Идеально агент 6 сам зовёт этот скрипт в финале своей работы — тогда мы экономим один re-invocation.
+7. **Обязательный шаг: quality_gate.** Запусти `python -m tools.quality_gate drafts/{slug}/article.html --json --save-report`. Если exit ≠ 0 - читай `drafts/{slug}/quality_gate.json`, поле `recommendations`, и возвращай на агента 4 с конкретной пометкой. Максимум 3 итерации возврата. После третьей - в `drafts/_review/`. **quality_gate сам пишет своё событие в pipeline_log через scheduler — отдельно логировать не нужно**.
+8. Запусти агента `7-publisher`. По умолчанию режим `draft` (не публикуем на сайт первые 2 недели). **Лог:** `summary "mode=draft|live, images=N"`.
+
+**Важно:** даже если ты пропустишь шаг 7 (quality_gate) - scheduler всё равно его запустит после твоего завершения. Если gate упадёт, scheduler пометит слот как `failed_qa` и заблокирует публикацию. Лучше прогнать самому, чтобы успеть зациклить итерации с агентом 4.
 
 ## Параметры из батча (если /write-article запускается из /batch-run)
 
@@ -36,16 +76,21 @@ argument-hint: <category> <topic>
 
 Когда агент 5 или 6 возвращает с `passed: false`, в prompt итерации агента 4 кроме исходных JSON-входов передаётся:
 
-- `previous_iteration_issues` - список конкретных проблем из `recommendation` агента 5/6:
-  - `fix_ai_markers` + список найденных маркеров с цитатами
+- `previous_iteration_issues` - список конкретных проблем из `recommendation` агента 5/6 / `tools/quality_gate.py`:
+  - `fix_ai_markers` + список найденных маркеров с цитатами (critical)
+  - `reduce_ai_markers` + топ-3 категории high-маркеров (раздувание/реклама/параллелизмы)
   - `reduce_density` + текущая density и какое слово/фраза переоптимизированы
-  - `reduce_repetition` + топ-5 самых частотных слов
-  - `fix_abbreviations` + список конкретных вхождений с контекстом
+  - `reduce_repetition` + **топ-5 самых частотных лемм с количеством вхождений** (обязательно перечислить)
+  - `fix_abbreviations` + список конкретных вхождений с контекстом (если автофикс не справился)
   - `fix_punctuation` + примеры мест без пробела после точки
   - `reduce_ai_score` + значение AI-detector text.ru и список самых сильных маркеров
+  - `reduce_length` / `expand_length` + конкретное число знаков и целевой коридор
+  - `fix_voice` + цитаты с «я», «мой опыт», «в моей практике» (заменить на «мы»)
   - `rewrite_with_angle:<angle>` + конкретный угол подачи
 
 Писатель в итерации правит точечно по списку, не переписывает всё заново.
+
+При `reduce_repetition` обязательно использовать recipe из `writer-cheatsheet.md` («Контроль заспамленности»): по каждой лемме из топ-5 уменьшить вхождения минимум на 30%, замены первой очереди (должник→он/заёмщик/гражданин, процедура→дело/порядок и т.д.).
 
 ## Отчёт по завершении
 

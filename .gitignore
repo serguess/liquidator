@@ -21,6 +21,10 @@ data/*
 !data/scheduler_log.json
 !data/bot_state.json
 !data/wordstat_cache.json
+!data/git_errors.log
+!data/published_index.json
+# Pipeline-логи в drafts/{slug}/_pipeline.log.json — попадают в репо
+# автоматически вместе с папкой drafts/{slug}/.
 *.sqlite
 *.sqlite-journal
 

@@ -29,7 +29,8 @@
       "rationale": "Топ-запрос с горячим интентом: должник в стрессе, действует немедленно. Прямой матч с услугой 'отмена приказа'.",
       "expected_length_chars": 7000,
       "status": "proposed",
-      "client_notes": ""
+      "client_notes": "",
+      "topic_action": "отмену судебного приказа"
     },
     {
       "id": "vzysk-02",
@@ -57,7 +58,8 @@
       "rationale": "Острая боль и hot-интент. Прямой матч с услугой 'snyatie-aresta'. Один из самых конверсионных запросов в нише.",
       "expected_length_chars": 7000,
       "status": "proposed",
-      "client_notes": ""
+      "client_notes": "",
+      "topic_action": "снятие ареста со счёта"
     },
     {
       "id": "vzysk-03",
@@ -85,7 +87,8 @@
       "rationale": "Высокочастотный B2B-запрос. Образец-скачивание плюс CTA на сопровождение взыскания. Дополняет статью 'Как вернуть долг с контрагента без суда'.",
       "expected_length_chars": 7000,
       "status": "proposed",
-      "client_notes": ""
+      "client_notes": "",
+      "topic_action": "досудебную претензию"
     },
     {
       "id": "vzysk-04",
@@ -113,7 +116,8 @@
       "rationale": "Массовый запрос между физлицами. Простой кейс для входа в воронку взыскания.",
       "expected_length_chars": 7000,
       "status": "proposed",
-      "client_notes": ""
+      "client_notes": "",
+      "topic_action": "взыскание долга по расписке"
     },
     {
       "id": "vzysk-05",
@@ -141,7 +145,8 @@
       "rationale": "B2B-аудитория с большим средним чеком. Финдиры и юристы компаний приходят за абонентским сопровождением.",
       "expected_length_chars": 7000,
       "status": "proposed",
-      "client_notes": ""
+      "client_notes": "",
+      "topic_action": "взыскание дебиторской задолженности"
     },
     {
       "id": "vzysk-06",
@@ -169,7 +174,8 @@
       "rationale": "Связующая тема между взысканием и банкротством. Окончание ИП по 46-й даёт право на МФЦ-банкротство, поэтому хорошо линкуется с fiz-01.",
       "expected_length_chars": 7000,
       "status": "proposed",
-      "client_notes": ""
+      "client_notes": "",
+      "topic_action": "окончание исполнительного производства"
     },
     {
       "id": "vzysk-07",
@@ -197,7 +203,8 @@
       "rationale": "Высокая частотность плюс острая боль. Связывает категорию vzysk с банкротством физлиц через CTA на проверку списания.",
       "expected_length_chars": 7000,
       "status": "proposed",
-      "client_notes": ""
+      "client_notes": "",
+      "topic_action": "защиту от коллекторов"
     },
     {
       "id": "vzysk-08",
@@ -225,7 +232,8 @@
       "rationale": "Очень частый запрос работающих должников. Закон с 2022 года защищает прожиточный минимум, актуальный материал на 2026 даст преимущество в выдаче.",
       "expected_length_chars": 7000,
       "status": "proposed",
-      "client_notes": ""
+      "client_notes": "",
+      "topic_action": "защиту от удержаний из зарплаты"
     }
   ]
 }

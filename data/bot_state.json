@@ -1,0 +1,85 @@
+{
+  "preview_token": "tbC391gt9v3SBSSubLKa6GX730mzXTE6",
+  "reviews": {
+    "gosposhlina-bankrotstvo-otmenena-2024": {
+      "category": "news",
+      "title": "Госпошлина за банкротство для должника отменена: разбираем ФЗ-259",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 6,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-05-02T14:00:02",
+      "last_action_at": "2026-05-02T14:00:02",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null
+    },
+    "kak-otmenit-sudebnyj-prikaz": {
+      "category": "vzysk",
+      "title": "Как отменить судебный приказ о взыскании долга за 10 дней",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 7,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-05-02T14:00:03",
+      "last_action_at": "2026-05-02T14:00:03",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null
+    },
+    "kak-zakryt-ooo-s-dolgami": {
+      "category": "yur",
+      "title": "Как закрыть ООО с долгами в 2026 году: 3 варианта",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 8,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-05-02T14:00:03",
+      "last_action_at": "2026-05-02T14:00:03",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null
+    },
+    "skolko-stoit-bankrotstvo-fizicheskogo-lica": {
+      "category": "fiz",
+      "title": "Сколько стоит банкротство физического лица в 2026 году",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 9,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-05-02T14:00:04",
+      "last_action_at": "2026-05-02T14:00:04",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null
+    },
+    "spisat-dolgi-po-kreditam-bez-imushchestva": {
+      "category": "fiz",
+      "title": "Списать долги по кредитам без имущества: 3 способа 2026",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 10,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-05-02T14:00:04",
+      "last_action_at": "2026-05-02T14:00:04",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null
+    }
+  }
+}
