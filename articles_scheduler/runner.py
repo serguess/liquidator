@@ -22,15 +22,19 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = ROOT / "data"
 DRAFTS_DIR = ROOT / "drafts"
+TOPIC_MAP_DIR = DRAFTS_DIR / "_topic-map"
 SCHEDULER_LOG_PATH = DATA_DIR / "scheduler_log.json"
 GIT_ERRORS_LOG_PATH = DATA_DIR / "git_errors.log"
+PUBLISHED_INDEX_PATH = DATA_DIR / "published_index.json"
 LOCK_FILE = DATA_DIR / ".scheduler.lock"
 PAUSE_FLAG = DATA_DIR / ".scheduler_paused"
+FAILURE_STREAK_PATH = DATA_DIR / ".scheduler_failure_streak"
 
 ROTATION = [c.strip() for c in os.getenv("ROTATION_ORDER", "fiz,yur,vzysk,news").split(",") if c.strip()]
 ARTICLES_PER_DAY = int(os.getenv("ARTICLES_PER_DAY", "1"))
 ARTICLE_TIMEOUT_SEC = int(os.getenv("ARTICLE_TIMEOUT_SEC", "2400"))  # 40 минут
 LOCK_STALE_SEC = int(os.getenv("LOCK_STALE_SEC", "3600"))  # 1 час
+FAILURE_STREAK_LIMIT = int(os.getenv("FAILURE_STREAK_LIMIT", "3"))
 GITHUB_REPO = os.getenv("GITHUB_REPO", "serguess/liquidator")
 GITHUB_BRANCH = os.getenv("GITHUB_BRANCH", "main")
 GIT_AUTHOR_NAME = os.getenv("GIT_AUTHOR_NAME", "Liquidator Scheduler")
@@ -77,6 +81,143 @@ def _next_category() -> str:
     ]
     idx = len(today_entries) % len(ROTATION) if ROTATION else 0
     return ROTATION[idx] if ROTATION else "fiz"
+
+
+# ============ TOPIC SELECTION ============
+
+def _collect_used_slugs() -> set[str]:
+    """
+    Slug-и тем, которые уже взяты в работу.
+    Источники: drafts/{slug}/ (черновик) и data/published_index.json (опубликованные).
+    """
+    used: set[str] = set()
+    if DRAFTS_DIR.exists():
+        for d in DRAFTS_DIR.iterdir():
+            if d.is_dir() and not d.name.startswith("_"):
+                used.add(d.name)
+    if PUBLISHED_INDEX_PATH.exists():
+        try:
+            pi = json.loads(PUBLISHED_INDEX_PATH.read_text(encoding="utf-8"))
+            for entry in pi.get("articles", []) or []:
+                slug = entry.get("slug")
+                if slug:
+                    used.add(slug)
+        except (json.JSONDecodeError, OSError):
+            pass
+    return used
+
+
+def _pick_topic(category: str) -> dict | None:
+    """
+    Возвращает первую неиспользованную тему из drafts/_topic-map/{category}.json.
+
+    Тема считается «использованной» если её slug есть в drafts/{slug}/ или
+    в data/published_index.json. Темы с явным status='rejected' пропускаются:
+    остальные статусы (proposed/approved/rewrite/без статуса) не блокируют.
+
+    Возвращает None если в файле topic-map свободных тем не осталось — тогда
+    scheduler должен запустить /expand-topics для пополнения.
+    """
+    map_path = TOPIC_MAP_DIR / f"{category}.json"
+    if not map_path.exists():
+        return None
+    try:
+        data = json.loads(map_path.read_text(encoding="utf-8"))
+    except (json.JSONDecodeError, OSError):
+        return None
+
+    topics = data.get("topics") or []
+    if not topics:
+        return None
+
+    used_slugs = _collect_used_slugs()
+    for t in topics:
+        if t.get("status") == "rejected":
+            continue
+        slug = t.get("slug")
+        if not slug or slug in used_slugs:
+            continue
+        return t
+    return None
+
+
+# ============ CIRCUIT BREAKER ============
+
+def _get_failure_streak() -> int:
+    """Текущее число подряд идущих сбоев."""
+    if not FAILURE_STREAK_PATH.exists():
+        return 0
+    try:
+        return int((FAILURE_STREAK_PATH.read_text(encoding="utf-8") or "0").strip() or "0")
+    except (ValueError, OSError):
+        return 0
+
+
+def _set_failure_streak(n: int) -> None:
+    DATA_DIR.mkdir(exist_ok=True)
+    try:
+        FAILURE_STREAK_PATH.write_text(str(max(0, n)), encoding="utf-8")
+    except OSError:
+        pass
+
+
+def _is_quota_failure(stdout_tail: str | None, stderr_tail: str | None) -> bool:
+    """
+    Сбой из-за лимита Claude Pro / API rate limit. Такие падения НЕ считаются
+    streak-сбоями: лимит сам сбросится через несколько часов, нет смысла
+    автоматически ставить scheduler на паузу.
+    """
+    blob = ((stdout_tail or "") + " " + (stderr_tail or "")).lower()
+    return any(m in blob for m in (
+        "hit your limit",
+        "rate limit",
+        "quota exceeded",
+        "you have exceeded",
+    ))
+
+
+def _update_failure_streak(entry: dict, timestamp: str) -> None:
+    """
+    После каждого слота решает: сбрасывать счётчик, инкрементить, или сработал
+    circuit breaker и пора ставить scheduler на паузу.
+
+    Логика:
+    - status=ok / topics_expanded → сброс в 0.
+    - status=paused / locked / limit_reached → не считаем (нет реальной попытки).
+    - сбой из-за квоты Claude → не считаем (ждём сброса лимита).
+    - иначе (failed / failed_qa / timeout / exception) → +1.
+      При >= FAILURE_STREAK_LIMIT создаётся PAUSE_FLAG и scheduler замолкает
+      до ручного снятия (rm data/.scheduler_paused).
+    """
+    status = entry.get("status")
+    if status in ("ok", "topics_expanded"):
+        _set_failure_streak(0)
+        return
+    if status in ("paused", "locked", "limit_reached"):
+        return
+    if _is_quota_failure(entry.get("stdout_tail"), entry.get("stderr_tail")):
+        return
+
+    streak = _get_failure_streak() + 1
+    _set_failure_streak(streak)
+    entry["failure_streak"] = streak
+    if streak >= FAILURE_STREAK_LIMIT:
+        try:
+            PAUSE_FLAG.write_text(
+                f"auto-paused at {timestamp}\n"
+                f"reason: {streak} consecutive failed slots\n"
+                f"last_status: {status}\n"
+                f"снимите паузу: rm {PAUSE_FLAG.relative_to(ROOT)}\n",
+                encoding="utf-8",
+            )
+            log.error(
+                "Circuit breaker: %d слотов подряд упали, scheduler приостановлен. "
+                "Удалите %s после фикса.",
+                streak, PAUSE_FLAG.relative_to(ROOT),
+            )
+            entry["circuit_breaker_triggered"] = True
+        except OSError as exc:
+            log.warning("Не удалось создать PAUSE_FLAG: %s", exc)
 
 
 # ============ DRAFTS ============
@@ -478,15 +619,18 @@ def _git_commit_qa_only(slug: str) -> dict:
 
 def _git_commit_log_only() -> dict:
     """
-    Коммитит и пушит только scheduler_log.json и bot_state.json - чтобы
-    история работы сохранялась даже при failed слотах (без них при следующем
-    редеплое Cloud Apps лог пропадёт).
+    Коммитит и пушит логи (scheduler_log.json, bot_state.json, git_errors.log)
+    плюс drafts/_topic-map/*.json - чтобы при expand_topics режиме
+    сгенерированные новые темы попадали в репо и не терялись при редеплое
+    Cloud Apps. Если ничего из этого не менялось - git сам выдаст
+    "nothing to commit" и функция вернёт committed=False.
     """
     cwd = str(ROOT)
     env = _git_env()
     subprocess.run(
         ["git", "add", "--", "data/scheduler_log.json",
-         "data/bot_state.json", "data/git_errors.log"],
+         "data/bot_state.json", "data/git_errors.log",
+         "drafts/_topic-map/"],
         cwd=cwd, env=env, check=False, capture_output=True,
     )
     commit_res = subprocess.run(
@@ -599,14 +743,32 @@ def run_one_article() -> dict:
         _exclude = retry_slug if slot_mode == "rewrite" else None
         _refresh_prev_summary(category, exclude_slug=_exclude)
 
-        # Выбираем команду: новая статья или доработка зависшей failed_qa
+        # Выбираем команду: новая статья, доработка failed_qa, или
+        # пополнение topic-map если темы для категории кончились.
         if slot_mode == "rewrite" and retry_slug:
             claude_command = f"/rewrite-article {retry_slug}"
             entry["mode"] = "rewrite"
             entry["retry_slug"] = retry_slug
         else:
-            claude_command = f"/write-article {category}"
-            entry["mode"] = "new"
+            topic = _pick_topic(category)
+            if topic is None:
+                # Темы кончились → Claude генерит 10 новых в topic-map.
+                # Сам слот не пишет статью (статус будет "topics_expanded"),
+                # следующий слот возьмёт первую из новых.
+                claude_command = f"/expand-topics {category}"
+                entry["mode"] = "expand_topics"
+                log.info("Темы для %s исчерпаны, запускаю /expand-topics", category)
+            else:
+                topic_title = (topic.get("title") or topic.get("topic_action") or "").strip()
+                claude_command = f"/write-article {category} {topic_title}"
+                entry["mode"] = "new"
+                entry["topic_id"] = topic.get("id")
+                entry["topic_slug"] = topic.get("slug")
+                log.info(
+                    "Тема выбрана: cat=%s id=%s slug=%s title=%s",
+                    category, topic.get("id"), topic.get("slug"),
+                    topic_title[:80],
+                )
 
         cmd = [
             "claude",
@@ -626,6 +788,32 @@ def run_one_article() -> dict:
 
         duration = round(time.time() - started, 1)
         ok = result.returncode == 0
+
+        # Режим expand_topics: статью не пишем, только пополняем topic-map.
+        # Slug отсутствует, quality_gate пропускаем, отдельный статус.
+        if entry.get("mode") == "expand_topics":
+            entry.update({
+                "status": "topics_expanded" if ok else "failed",
+                "duration_sec": duration,
+                "returncode": result.returncode,
+                "stdout_tail": (result.stdout or "")[-500:],
+                "stderr_tail": (result.stderr or "")[-500:],
+            })
+            if ok:
+                log.info(
+                    "Слот завершён: status=topics_expanded category=%s duration=%.1fs",
+                    category, duration,
+                )
+            else:
+                log.error(
+                    "Слот завершён (expand): status=failed rc=%s stdout=%r",
+                    result.returncode, entry["stdout_tail"],
+                )
+            _append_log(entry)
+            _git_commit_log_only()
+            _update_failure_streak(entry, timestamp)
+            return entry
+
         # При rewrite slug известен заранее (берём из retry_slug),
         # при new — обнаруживаем по mtime новых драфтов.
         if slot_mode == "rewrite" and retry_slug:
@@ -737,6 +925,7 @@ def run_one_article() -> dict:
         elif entry["status"] != "ok":
             _git_commit_log_only()
 
+        _update_failure_streak(entry, timestamp)
         return entry
 
     except subprocess.TimeoutExpired:
@@ -746,6 +935,7 @@ def run_one_article() -> dict:
         })
         _append_log(entry)
         log.error("Слот завершён по таймауту %s сек: category=%s", ARTICLE_TIMEOUT_SEC, category)
+        _update_failure_streak(entry, timestamp)
         return entry
 
     except Exception as exc:
@@ -756,6 +946,7 @@ def run_one_article() -> dict:
         })
         _append_log(entry)
         log.exception("Слот завершён с исключением: category=%s", category)
+        _update_failure_streak(entry, timestamp)
         return entry
 
     finally:
