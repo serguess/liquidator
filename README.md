@@ -64,7 +64,7 @@ python -m uvicorn main:app --host 127.0.0.1 --port 8765
 ### На сервере (Timeweb Cloud Apps)
 
 1. Подключить репо к Cloud Apps, ветка `main`.
-2. ENV переменные: `SMTP_HOST`, `SMTP_PORT`, `SMTP_USER`, `SMTP_PASS`, `MAIL_TO`, `MAIL_FROM`, `MAIL_FROM_NAME`, `PREVIEW_USER`, `PREVIEW_PASSWORD`, `GITHUB_REPO=triyul22/liquidator`, `GITHUB_BRANCH=main`.
+2. ENV переменные: `SMTP_HOST`, `SMTP_PORT`, `SMTP_USER`, `SMTP_PASS`, `MAIL_TO`, `MAIL_FROM`, `MAIL_FROM_NAME`, `PREVIEW_USER`, `PREVIEW_PASSWORD`, `GITHUB_REPO=serguess/liquidator`, `GITHUB_BRANCH=main`.
 3. Команда запуска: `uvicorn main:app --host 0.0.0.0 --port $PORT`.
 4. Cron на сервере (для автоподтяжки правок заказчика):
    ```cron

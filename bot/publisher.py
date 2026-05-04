@@ -331,7 +331,7 @@ def _git_env() -> dict:
     }
 
 
-GITHUB_REPO = os.getenv("GITHUB_REPO", "triyul22/liquidator")
+GITHUB_REPO = os.getenv("GITHUB_REPO", "serguess/liquidator")
 
 
 def _git_remote_url() -> Optional[str]:

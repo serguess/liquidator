@@ -28,7 +28,7 @@ curl -X POST http://localhost:8000/api/lead ^
 ## Деплой на Timeweb Cloud Apps
 
 1. **Cloud Apps → Создать → Backend → Python 3.11**
-2. Источник: GitHub, репозиторий `triyul22/liquidator`, ветка `main`, корень репозитория `/`.
+2. Источник: GitHub, репозиторий `serguess/liquidator`, ветка `main`, корень репозитория `/`.
 3. **Build command:** `pip install -r requirements.txt`
 4. **Run command:** `uvicorn main:app --host 0.0.0.0 --port $PORT`
 5. **Переменные окружения** (Environment → Variables) - скопировать из `.env.example`:

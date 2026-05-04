@@ -65,8 +65,8 @@ PREVIEW_USER = os.getenv("PREVIEW_USER", "")
 PREVIEW_PASSWORD = os.getenv("PREVIEW_PASSWORD", "")
 DRAFTS_DIR = ROOT / "drafts"
 # Репо на GitHub: используется для кнопки "Править на GitHub" в /preview/.
-# Формат: "owner/repo" (например, "triyul22/liquidator"). Ветка - GITHUB_BRANCH (по умолчанию main).
-GITHUB_REPO = os.getenv("GITHUB_REPO", "triyul22/liquidator")
+# Формат: "owner/repo" (например, "serguess/liquidator"). Ветка - GITHUB_BRANCH (по умолчанию main).
+GITHUB_REPO = os.getenv("GITHUB_REPO", "serguess/liquidator")
 GITHUB_BRANCH = os.getenv("GITHUB_BRANCH", "main")
 
 logging.basicConfig(
