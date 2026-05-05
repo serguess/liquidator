@@ -517,6 +517,50 @@ def _git_pull_before_slot() -> dict:
     }
 
 
+def _push_pending_local_commits() -> dict:
+    """
+    Pre-flight в начале слота: если в локальном репо есть коммиты которые
+    ещё не на origin/main (например, прошлый слот написал статью, но push
+    упал из-за отвала сети) — пушим их сейчас.
+
+    Это страховка от потери коммитов при следующем редеплое контейнера:
+    если коммит не доехал до GitHub, при пересоздании контейнера он
+    исчезнет вместе со всем drafts/{slug}/ который ещё не в репо.
+    """
+    cwd = str(ROOT)
+    env = _git_env()
+    remote_url = _git_remote_url()
+    if not remote_url:
+        return {"checked": False, "reason": "no_token"}
+
+    # Сначала fetch чтобы понять что на origin сейчас
+    subprocess.run(
+        ["git", "fetch", remote_url, GITHUB_BRANCH],
+        cwd=cwd, env=env, capture_output=True, text=True, timeout=60,
+    )
+    res = subprocess.run(
+        ["git", "rev-list", f"origin/{GITHUB_BRANCH}..HEAD"],
+        cwd=cwd, env=env, capture_output=True, text=True,
+    )
+    pending = [c for c in (res.stdout or "").strip().splitlines() if c]
+    if not pending:
+        return {"checked": True, "pending": 0}
+
+    log.warning(
+        "Найдено %d недопушенных коммитов с прошлых слотов, пушу сейчас",
+        len(pending),
+    )
+    push_res = _git_run_with_retry(
+        ["git", "push", remote_url, GITHUB_BRANCH],
+        env=env, cwd=cwd, timeout=60,
+    )
+    if push_res.returncode == 0:
+        log.info("Догнали %d коммитов на origin/%s", len(pending), GITHUB_BRANCH)
+        return {"checked": True, "pending": len(pending), "pushed": True}
+    return {"checked": True, "pending": len(pending), "pushed": False,
+            "stderr": _mask_token((push_res.stderr or "")[-200:])}
+
+
 def _git_run_with_retry(args: list[str], env: dict, cwd: str, timeout: int | None = None,
                           retries: int = 3) -> subprocess.CompletedProcess:
     """
@@ -596,6 +640,38 @@ def _git_commit_and_push(slug: str, category: str, metrics: str = "") -> dict:
         ["git", "push", remote_url, GITHUB_BRANCH],
         env=env, cwd=cwd, timeout=60,
     )
+
+    # Если push отклонён из-за non-fast-forward (кто-то запушил параллельно за
+    # время слота — например, бот публикатор), делаем pull --rebase и пробуем
+    # ещё раз. Это закрывает гонку «scheduler vs bot vs ручные правки».
+    if push_res.returncode != 0:
+        stderr_lower = (push_res.stderr or "").lower()
+        non_ff_markers = ("non-fast-forward", "fetch first", "updates were rejected",
+                          "tip of your current branch is behind")
+        if any(m in stderr_lower for m in non_ff_markers):
+            log.warning(
+                "Push отклонён (non-fast-forward), делаю pull --rebase и повторяю"
+            )
+            rebase_res = subprocess.run(
+                ["git", "pull", "--rebase", remote_url, GITHUB_BRANCH],
+                cwd=cwd, env=env, capture_output=True, text=True, timeout=60,
+            )
+            if rebase_res.returncode == 0:
+                push_res = _git_run_with_retry(
+                    ["git", "push", remote_url, GITHUB_BRANCH],
+                    env=env, cwd=cwd, timeout=60,
+                )
+            else:
+                # Rebase с конфликтом — откатываемся и помечаем push_failed
+                subprocess.run(
+                    ["git", "rebase", "--abort"],
+                    cwd=cwd, env=env, capture_output=True,
+                )
+                log.error(
+                    "pull --rebase упал с конфликтом, abort: %s",
+                    _mask_token((rebase_res.stderr or "")[-200:]),
+                )
+
     if push_res.returncode != 0:
         _append_git_error(
             slot_ts=datetime.now().isoformat(timespec="seconds"),
@@ -833,6 +909,12 @@ def run_one_article() -> dict:
         if not pull_result["ok"]:
             log.warning("git pull --ff-only не прошёл: %s", pull_result.get("stderr_tail"))
         entry["git_pull"] = pull_result
+
+        # Pre-flight: догоняем коммиты которые не доехали до origin в прошлых слотах
+        # (например, push упал из-за отвала сети). Без этого редеплой их потеряет.
+        catchup = _push_pending_local_commits()
+        if catchup.get("pending", 0) > 0:
+            entry["catchup_pending"] = catchup
 
         # Обновляем индекс опубликованных статей: архитектор и критик его читают.
         # Без актуального индекса — галлюцинации slug-ов и 404-ссылки.
