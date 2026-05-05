@@ -172,6 +172,11 @@ ENG_QUOTES_RX = re.compile(r'(?<![=:\(\[\{])"([^"\n<>]{1,200}?)"', re.UNICODE)
 
 # === Защищаемые блоки HTML (не правим) ===
 # Вырезаем перед автозаменой, потом возвращаем на место.
+# Порядок важен: сначала крупные блоки (head, script, style, pre, code,
+# blockquote, FAQ-вопросы, title), потом - универсальный паттерн "любой
+# одиночный HTML-тег". Иначе ENG_QUOTES_RX и другие регексы цепляли
+# атрибуты тегов в body (class="x" id="y" → class="x« id=»y").
+# Этот баг ломал HTML-вёрстку готовой статьи (см. инцидент 5 мая 2026).
 PROTECT_PATTERNS = [
     re.compile(r"<head\b[^>]*>.*?</head>", re.DOTALL | re.IGNORECASE),
     re.compile(r"<script\b[^>]*>.*?</script>", re.DOTALL | re.IGNORECASE),
@@ -183,6 +188,11 @@ PROTECT_PATTERNS = [
     re.compile(r"<h3\b[^>]*>[^<]*\?\s*</h3>", re.IGNORECASE),
     # <title> на всякий
     re.compile(r"<title\b[^>]*>.*?</title>", re.DOTALL | re.IGNORECASE),
+    # Универсальный паттерн: любой одиночный HTML-тег целиком (с атрибутами).
+    # Применяется ПОСЛЕ всех блочных паттернов, чтобы поймать <header>,
+    # <nav>, <a>, <div>, <span>, <img>, <svg>, <button> и любые другие
+    # контейнеры. Защищает атрибуты от ENG_QUOTES_RX / PUNCT_RX / EM_DASH_RX.
+    re.compile(r"<[^<>]+>", re.DOTALL),
 ]
 
 
