@@ -138,7 +138,7 @@ class Report:
             return False
         if self.abbreviation_hits or self.punctuation_hits:
             return False
-        if self.spam and len(self.spam.risk_flags) >= 2:
+        if self.spam and len(self.spam.risk_flags) >= 1:
             return False
         return True
 
@@ -270,15 +270,19 @@ def compute_spam_heuristics(text: str) -> SpamHeuristics:
     total_ngrams = len(ngrams) if ngrams else 1
     ngram3_repeat_share = round(repeats / total_ngrams, 3)
 
-    # Пороги ужесточены под целевую заспамленность text.ru ≤50%
-    # (заказчик зафиксировал; раньше было 18%/4%/0.45 — давало 55-58% по text.ru).
+    # Пороги ужесточены под целевую заспамленность text.ru < 40% и уникальность ≥ 85%
+    # (заказчик зафиксировал, май 2026).
+    # Калибровка по реальным замерам:
+    #   - 0.164 top10 + 2.9% ngram3 → text.ru spam 58
+    #   - 0.151 top10 + 8.2% ngram3 → text.ru spam 58
+    #   - цель < 40% спама ≈ top10 ≤ 0.11, ngram3 ≤ 0.02, lex.div ≥ 0.62
     risk_flags = []
-    if top10_share > 0.16:
-        risk_flags.append(f"top10_share>{0.16} (={top10_share})")
-    if ngram3_repeat_share > 0.03:
-        risk_flags.append(f"ngram3_repeat_share>{0.03} (={ngram3_repeat_share})")
-    if lexical_diversity < 0.50:
-        risk_flags.append(f"lexical_diversity<{0.50} (={lexical_diversity})")
+    if top10_share > 0.11:
+        risk_flags.append(f"top10_share>{0.11} (={top10_share})")
+    if ngram3_repeat_share > 0.02:
+        risk_flags.append(f"ngram3_repeat_share>{0.02} (={ngram3_repeat_share})")
+    if lexical_diversity < 0.62:
+        risk_flags.append(f"lexical_diversity<{0.62} (={lexical_diversity})")
 
     return SpamHeuristics(
         total_words=total_words,
@@ -392,14 +396,13 @@ def print_report(rep: Report) -> None:
         print(f"\nЭвристика заспамленности:")
         print(f"  Всего слов (без стоп-слов): {s.total_words}")
         print(f"  Уникальных лемм: {s.unique_lemmas}")
-        print(f"  Лексическое разнообразие: {s.lexical_diversity} (цель ≥0.50)")
-        print(f"  Топ-10 слов суммарно: {s.top10_share * 100:.1f}% (цель ≤16%)")
-        print(f"  Повторы 3-граммов: {s.ngram3_repeat_share * 100:.1f}% (цель ≤3%)")
+        print(f"  Лексическое разнообразие: {s.lexical_diversity} (цель ≥0.62)")
+        print(f"  Топ-10 слов суммарно: {s.top10_share * 100:.1f}% (цель ≤11%)")
+        print(f"  Повторы 3-граммов: {s.ngram3_repeat_share * 100:.1f}% (цель ≤2%)")
         print(f"  Топ-5 частотных лемм: {s.top10_words[:5]}")
         if s.risk_flags:
             print(f"  [RISK] Превышены пороги: {s.risk_flags}")
-            if len(s.risk_flags) >= 2:
-                print(f"  [FAIL] Возврат на писателя: снизить плотность повторов.")
+            print(f"  [FAIL] Возврат на писателя: снизить плотность повторов.")
 
 
 def collect_targets(path: Path) -> list[Path]:

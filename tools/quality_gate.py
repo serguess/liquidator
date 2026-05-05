@@ -155,11 +155,12 @@ def _run(path: Path) -> GateResult:
         )
         result.recommendations.append("fix_punctuation: пробелы после точки — править вручную")
 
-    # Заспамленность — hard, если 2+ риск-флага
-    if qc_rep.spam and len(qc_rep.spam.risk_flags) >= 2:
+    # Заспамленность — hard при ЛЮБОМ риск-флаге (заказчик зафиксировал
+    # цель < 40% спама и ≥ 85% уникальности на text.ru, май 2026).
+    if qc_rep.spam and len(qc_rep.spam.risk_flags) >= 1:
         top5 = [w for w, _ in qc_rep.spam.top10_words[:5]]
         result.blockers.append(
-            f"spam_risk: {len(qc_rep.spam.risk_flags)} флагов, top-5: {top5}"
+            f"spam_risk: {len(qc_rep.spam.risk_flags)} флагов ({', '.join(qc_rep.spam.risk_flags)}), top-5: {top5}"
         )
         result.recommendations.append(
             f"reduce_repetition: разбавить топ-5 частотных лемм местоимениями/перифразом — {top5}"
