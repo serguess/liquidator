@@ -484,6 +484,112 @@ def _refresh_prev_summary(category: str, exclude_slug: str | None = None) -> Non
         log.warning("Не удалось собрать prev_summary для %s: %s", category, exc)
 
 
+def _ensure_on_branch() -> dict:
+    """
+    Гарантирует что HEAD указывает на ветку GITHUB_BRANCH, а не висит
+    в detached state. Cloud Apps при деплое может делать `git checkout {sha}`
+    вместо `git checkout main` — тогда HEAD detached, последующие коммиты
+    создаются "в воздухе" и push origin main отвечает Everything up-to-date,
+    хотя локальный коммит никуда не уходит.
+
+    Если HEAD detached:
+    1. Запоминаем текущий HEAD SHA (там могут быть локальные коммиты).
+    2. `git checkout GITHUB_BRANCH` (создаст ветку если её нет, или переключится).
+    3. Если SHA отличается от main — `git merge {sha}` подтягиваем висящие коммиты.
+
+    Возвращает {"ok": bool, "was_detached": bool, "details": ...}
+    """
+    cwd = str(ROOT)
+    env = _git_env()
+    res = subprocess.run(
+        ["git", "symbolic-ref", "--short", "-q", "HEAD"],
+        cwd=cwd, env=env, capture_output=True, text=True,
+    )
+    if res.returncode == 0:
+        current_branch = (res.stdout or "").strip()
+        if current_branch == GITHUB_BRANCH:
+            return {"ok": True, "was_detached": False, "branch": current_branch}
+        log.warning(
+            "HEAD на ветке %s, ожидалась %s — переключаюсь",
+            current_branch, GITHUB_BRANCH,
+        )
+        sw = subprocess.run(
+            ["git", "checkout", GITHUB_BRANCH],
+            cwd=cwd, env=env, capture_output=True, text=True,
+        )
+        return {
+            "ok": sw.returncode == 0,
+            "was_detached": False,
+            "switched_from": current_branch,
+            "stderr_tail": (sw.stderr or "")[-200:],
+        }
+
+    # symbolic-ref упал — HEAD detached
+    sha_res = subprocess.run(
+        ["git", "rev-parse", "HEAD"],
+        cwd=cwd, env=env, capture_output=True, text=True,
+    )
+    detached_sha = (sha_res.stdout or "").strip()
+    log.error(
+        "HEAD detached (sha=%s) — переключаюсь на %s и сливаю висящие коммиты",
+        detached_sha[:8], GITHUB_BRANCH,
+    )
+
+    sw = subprocess.run(
+        ["git", "checkout", GITHUB_BRANCH],
+        cwd=cwd, env=env, capture_output=True, text=True,
+    )
+    if sw.returncode != 0:
+        _append_git_error(
+            slot_ts=datetime.now().isoformat(timespec="seconds"),
+            slug=None, category="-", action="git_checkout_branch_after_detached",
+            returncode=sw.returncode,
+            stderr=sw.stderr or "", stdout=sw.stdout or "",
+        )
+        return {
+            "ok": False, "was_detached": True, "detached_sha": detached_sha,
+            "stderr_tail": (sw.stderr or "")[-200:],
+        }
+
+    # Если detached SHA не совпадает с тем, на что теперь указывает branch —
+    # это значит на detached HEAD были локальные коммиты, надо их merge'ить.
+    branch_sha_res = subprocess.run(
+        ["git", "rev-parse", GITHUB_BRANCH],
+        cwd=cwd, env=env, capture_output=True, text=True,
+    )
+    branch_sha = (branch_sha_res.stdout or "").strip()
+    merged = False
+    if detached_sha and branch_sha and detached_sha != branch_sha:
+        # Проверяем — detached_sha это потомок branch_sha (наши коммиты впереди)
+        # или предок (мы были на старом коммите, значит ничего сливать не надо).
+        ancestor_check = subprocess.run(
+            ["git", "merge-base", "--is-ancestor", branch_sha, detached_sha],
+            cwd=cwd, env=env, capture_output=True, text=True,
+        )
+        if ancestor_check.returncode == 0:
+            log.warning(
+                "На detached HEAD были коммиты впереди %s — merge'у их",
+                GITHUB_BRANCH,
+            )
+            merge_res = subprocess.run(
+                ["git", "merge", "--ff-only", detached_sha],
+                cwd=cwd, env=env, capture_output=True, text=True,
+            )
+            merged = merge_res.returncode == 0
+            if not merged:
+                _append_git_error(
+                    slot_ts=datetime.now().isoformat(timespec="seconds"),
+                    slug=None, category="-", action="git_merge_detached_commits",
+                    returncode=merge_res.returncode,
+                    stderr=merge_res.stderr or "", stdout=merge_res.stdout or "",
+                )
+
+    return {
+        "ok": True, "was_detached": True, "detached_sha": detached_sha,
+        "merged_orphan_commits": merged,
+    }
+
+
 def _git_pull_before_slot() -> dict:
     """
     Подтягивает свежие изменения с GitHub перед началом слота.
@@ -517,6 +623,157 @@ def _git_pull_before_slot() -> dict:
     }
 
 
+def _find_orphan_drafts() -> list[str]:
+    """
+    Ищет drafts/{slug}/article.html которые есть на диске, но не закоммичены
+    в git (untracked) или закоммичены частично (modified/добавлены, но не
+    в HEAD). Это сценарий «прошлый слот написал статью, но коммит не прошёл»
+    (commit_failed / OOM kill / контейнер прибили посреди commit).
+
+    Без этого rescue работа теряется при следующем редеплое: drafts/ это
+    ephemeral working tree, при пересоздании контейнера остаются только
+    закоммиченные файлы.
+
+    Возвращает список slug-ов, у которых article.html есть на диске, но
+    git status видит drafts/{slug}/ как untracked или modified.
+    """
+    if not DRAFTS_DIR.exists():
+        return []
+    cwd = str(ROOT)
+    env = _git_env()
+    res = subprocess.run(
+        ["git", "status", "--porcelain", "--", "drafts/"],
+        cwd=cwd, env=env, capture_output=True, text=True,
+    )
+    if res.returncode != 0:
+        return []
+
+    # git status --porcelain выводит строки вида:
+    #   ?? drafts/abc-foo/         (untracked dir — целая папка не в репо)
+    #   ?? drafts/abc-foo/article.html  (untracked file)
+    #    M drafts/abc-foo/article.html  (modified)
+    #   A  drafts/abc-foo/article.html  (added but not committed)
+    candidate_slugs: set[str] = set()
+    for line in (res.stdout or "").splitlines():
+        if not line or len(line) < 4:
+            continue
+        path = line[3:].strip().strip('"')  # снимаем кавычки если git их добавил
+        if not path.startswith("drafts/"):
+            continue
+        parts = path[len("drafts/"):].split("/", 1)
+        slug = parts[0]
+        if not slug or slug.startswith("_"):
+            continue
+        candidate_slugs.add(slug)
+
+    orphans: list[str] = []
+    for slug in candidate_slugs:
+        article_path = DRAFTS_DIR / slug / "article.html"
+        if article_path.exists():
+            orphans.append(slug)
+    return sorted(orphans)
+
+
+def _rescue_orphan_drafts(orphans: list[str]) -> dict:
+    """
+    Коммитит и пушит orphan-драфты которые остались с прошлых слотов.
+    Один общий коммит — чтобы не плодить N редеплоев Cloud Apps.
+    """
+    if not orphans:
+        return {"rescued": 0}
+
+    cwd = str(ROOT)
+    env = _git_env()
+    remote_url = _git_remote_url()
+    if not remote_url:
+        return {"rescued": 0, "reason": "no_token", "found": orphans}
+
+    log.warning(
+        "Orphan rescue: найдено %d драфтов без коммита (%s) — спасаю",
+        len(orphans), ", ".join(orphans),
+    )
+    paths = [f"drafts/{s}/" for s in orphans] + [
+        "data/keywords.json", "data/clusters.json",
+        "data/scheduler_log.json", "data/git_errors.log",
+        "data/published_index.json", "drafts/_topic-map/",
+    ]
+    add_res = _git_run_with_retry(
+        ["git", "add", "--", *paths],
+        env=env, cwd=cwd,
+    )
+    if add_res.returncode != 0:
+        _append_git_error(
+            slot_ts=datetime.now().isoformat(timespec="seconds"),
+            slug=None, category="-", action="orphan_rescue_add",
+            returncode=add_res.returncode,
+            stderr=add_res.stderr or "", stdout=add_res.stdout or "",
+        )
+
+    commit_msg = (
+        f"rescue: {len(orphans)} orphan draft(s) from prior slot — "
+        f"{', '.join(orphans[:3])}"
+        + (f" +{len(orphans)-3}" if len(orphans) > 3 else "")
+    )
+    commit_res = _git_run_with_retry(
+        ["git", "commit", "-m", commit_msg],
+        env=env, cwd=cwd,
+    )
+    if commit_res.returncode != 0:
+        combined = (commit_res.stdout or "") + (commit_res.stderr or "")
+        if "nothing to commit" in combined:
+            return {"rescued": 0, "found": orphans, "reason": "nothing_to_commit"}
+        _append_git_error(
+            slot_ts=datetime.now().isoformat(timespec="seconds"),
+            slug=None, category="-", action="orphan_rescue_commit",
+            returncode=commit_res.returncode,
+            stderr=commit_res.stderr or "", stdout=commit_res.stdout or "",
+        )
+        return {"rescued": 0, "found": orphans, "reason": "commit_failed",
+                "stderr": combined[-200:]}
+
+    push_res = _git_run_with_retry(
+        ["git", "push", remote_url, GITHUB_BRANCH],
+        env=env, cwd=cwd, timeout=60,
+    )
+    # При non-fast-forward — pull --rebase + retry (как в основной commit_and_push)
+    if push_res.returncode != 0:
+        stderr_lower = (push_res.stderr or "").lower()
+        non_ff_markers = ("non-fast-forward", "fetch first", "updates were rejected",
+                           "tip of your current branch is behind")
+        if any(m in stderr_lower for m in non_ff_markers):
+            log.warning("Orphan rescue: non-fast-forward, делаю pull --rebase")
+            rebase_res = subprocess.run(
+                ["git", "pull", "--rebase", remote_url, GITHUB_BRANCH],
+                cwd=cwd, env=env, capture_output=True, text=True, timeout=60,
+            )
+            if rebase_res.returncode == 0:
+                push_res = _git_run_with_retry(
+                    ["git", "push", remote_url, GITHUB_BRANCH],
+                    env=env, cwd=cwd, timeout=60,
+                )
+            else:
+                subprocess.run(
+                    ["git", "rebase", "--abort"],
+                    cwd=cwd, env=env, capture_output=True,
+                )
+
+    if push_res.returncode != 0:
+        _append_git_error(
+            slot_ts=datetime.now().isoformat(timespec="seconds"),
+            slug=None, category="-", action="orphan_rescue_push",
+            returncode=push_res.returncode,
+            stderr=push_res.stderr or "", stdout=push_res.stdout or "",
+        )
+        # Коммит создан, но push не прошёл. Следующий вызов
+        # _push_pending_local_commits подхватит его как pending commit.
+        return {"rescued": len(orphans), "found": orphans,
+                "pushed": False,
+                "stderr": _mask_token((push_res.stderr or "")[-200:])}
+
+    log.info("Orphan rescue: запушено %d драфтов", len(orphans))
+    return {"rescued": len(orphans), "found": orphans, "pushed": True}
+
+
 def _push_pending_local_commits() -> dict:
     """
     Pre-flight в начале слота: если в локальном репо есть коммиты которые
@@ -526,6 +783,10 @@ def _push_pending_local_commits() -> dict:
     Это страховка от потери коммитов при следующем редеплое контейнера:
     если коммит не доехал до GitHub, при пересоздании контейнера он
     исчезнет вместе со всем drafts/{slug}/ который ещё не в репо.
+
+    Также вызывает orphan rescue: если есть drafts/{slug}/article.html
+    в working tree без коммита (commit_failed / OOM kill прошлого слота),
+    спасаем их одним общим коммитом перед основной работой слота.
     """
     cwd = str(ROOT)
     env = _git_env()
@@ -533,7 +794,12 @@ def _push_pending_local_commits() -> dict:
     if not remote_url:
         return {"checked": False, "reason": "no_token"}
 
-    # Сначала fetch чтобы понять что на origin сейчас
+    # Шаг 1: orphan rescue. Делаем ДО проверки pending — orphan rescue сам
+    # создаёт коммиты, которые потом попадают в pending.
+    orphans = _find_orphan_drafts()
+    rescue_result = _rescue_orphan_drafts(orphans) if orphans else {"rescued": 0}
+
+    # Шаг 2: fetch + проверяем что осталось не на origin
     subprocess.run(
         ["git", "fetch", remote_url, GITHUB_BRANCH],
         cwd=cwd, env=env, capture_output=True, text=True, timeout=60,
@@ -544,7 +810,7 @@ def _push_pending_local_commits() -> dict:
     )
     pending = [c for c in (res.stdout or "").strip().splitlines() if c]
     if not pending:
-        return {"checked": True, "pending": 0}
+        return {"checked": True, "pending": 0, "orphan_rescue": rescue_result}
 
     log.warning(
         "Найдено %d недопушенных коммитов с прошлых слотов, пушу сейчас",
@@ -556,9 +822,11 @@ def _push_pending_local_commits() -> dict:
     )
     if push_res.returncode == 0:
         log.info("Догнали %d коммитов на origin/%s", len(pending), GITHUB_BRANCH)
-        return {"checked": True, "pending": len(pending), "pushed": True}
+        return {"checked": True, "pending": len(pending), "pushed": True,
+                "orphan_rescue": rescue_result}
     return {"checked": True, "pending": len(pending), "pushed": False,
-            "stderr": _mask_token((push_res.stderr or "")[-200:])}
+            "stderr": _mask_token((push_res.stderr or "")[-200:]),
+            "orphan_rescue": rescue_result}
 
 
 def _git_run_with_retry(args: list[str], env: dict, cwd: str, timeout: int | None = None,
@@ -614,9 +882,22 @@ def _git_commit_and_push(slug: str, category: str, metrics: str = "") -> dict:
         "data/published_index.json",
         "drafts/_topic-map/",
     ]
-    # add может ругаться на несуществующие файлы - используем check=False
-    subprocess.run(["git", "add", "--", *paths_to_add], cwd=cwd, env=env,
-                   check=False, capture_output=True)
+    # add тоже идёт через retry: если бот в этот момент держит .git/index.lock,
+    # add может молча упасть → следующий commit вернёт "nothing to commit",
+    # хотя файлы есть в working tree. retriable_markers ловят это.
+    add_res = _git_run_with_retry(
+        ["git", "add", "--", *paths_to_add],
+        env=env, cwd=cwd,
+    )
+    if add_res.returncode != 0:
+        # Не фатально для несуществующих путей (часть из них опциональные),
+        # но если упало из-за index.lock после всех retry — логируем.
+        _append_git_error(
+            slot_ts=datetime.now().isoformat(timespec="seconds"),
+            slug=slug, category=category, action="git_add",
+            returncode=add_res.returncode,
+            stderr=add_res.stderr or "", stdout=add_res.stdout or "",
+        )
 
     msg_tail = f", {metrics}" if metrics else ""
     commit_msg = f"drafts: {slug} ({category}{msg_tail})"
@@ -626,8 +907,40 @@ def _git_commit_and_push(slug: str, category: str, metrics: str = "") -> dict:
     )
     combined = (commit_res.stdout or "") + (commit_res.stderr or "")
     if "nothing to commit" in combined:
-        return {"committed": False, "pushed": False, "reason": "nothing_to_commit"}
+        # Может быть две причины: (a) git add действительно не нашёл новых
+        # файлов (нормально если drafts/{slug}/ уже был в репо), (b) git add
+        # упал из-за index.lock и индекс пустой. Различаем по наличию папки.
+        article_path = DRAFTS_DIR / slug / "article.html"
+        if article_path.exists():
+            log.warning(
+                "nothing to commit, но drafts/%s/article.html существует — "
+                "возможно git add упал. Делаем повторную попытку add+commit.",
+                slug,
+            )
+            # Финальная попытка: add ещё раз и commit. Если снова nothing —
+            # значит файлы уже в репо (например, остались с прошлого слота
+            # после rescue), не блокируем слот.
+            _git_run_with_retry(
+                ["git", "add", "--", *paths_to_add],
+                env=env, cwd=cwd,
+            )
+            commit_res = _git_run_with_retry(
+                ["git", "commit", "-m", commit_msg],
+                env=env, cwd=cwd,
+            )
+            combined = (commit_res.stdout or "") + (commit_res.stderr or "")
+            if "nothing to commit" in combined:
+                return {"committed": False, "pushed": False,
+                        "reason": "nothing_to_commit"}
+        else:
+            return {"committed": False, "pushed": False, "reason": "nothing_to_commit"}
     if commit_res.returncode != 0:
+        _append_git_error(
+            slot_ts=datetime.now().isoformat(timespec="seconds"),
+            slug=slug, category=category, action="git_commit",
+            returncode=commit_res.returncode,
+            stderr=commit_res.stderr or "", stdout=commit_res.stdout or "",
+        )
         return {"committed": False, "pushed": False,
                 "reason": "commit_failed", "stderr": combined[-300:]}
 
@@ -702,13 +1015,13 @@ def _git_commit_qa_only(slug: str) -> dict:
         "data/git_errors.log",
         "data/bot_state.json",
     ]
-    subprocess.run(
+    _git_run_with_retry(
         ["git", "add", "--", *paths_to_add],
-        cwd=cwd, env=env, check=False, capture_output=True,
+        env=env, cwd=cwd,
     )
-    commit_res = subprocess.run(
+    commit_res = _git_run_with_retry(
         ["git", "commit", "-m", f"failed_qa: {slug} (quality_gate blocked)"],
-        cwd=cwd, env=env, capture_output=True, text=True,
+        env=env, cwd=cwd,
     )
     if "nothing to commit" in (commit_res.stdout or "") + (commit_res.stderr or ""):
         return {"committed": False}
@@ -719,9 +1032,9 @@ def _git_commit_qa_only(slug: str) -> dict:
     if not remote_url:
         return {"committed": True, "pushed": False, "reason": "no_token"}
 
-    push_res = subprocess.run(
+    push_res = _git_run_with_retry(
         ["git", "push", remote_url, GITHUB_BRANCH],
-        cwd=cwd, env=env, capture_output=True, text=True, timeout=60,
+        env=env, cwd=cwd, timeout=60,
     )
     if push_res.returncode != 0:
         return {"committed": True, "pushed": False,
@@ -739,15 +1052,15 @@ def _git_commit_log_only() -> dict:
     """
     cwd = str(ROOT)
     env = _git_env()
-    subprocess.run(
+    _git_run_with_retry(
         ["git", "add", "--", "data/scheduler_log.json",
          "data/bot_state.json", "data/git_errors.log",
          "drafts/_topic-map/"],
-        cwd=cwd, env=env, check=False, capture_output=True,
+        env=env, cwd=cwd,
     )
-    commit_res = subprocess.run(
+    commit_res = _git_run_with_retry(
         ["git", "commit", "-m", "log: scheduler state update"],
-        cwd=cwd, env=env, capture_output=True, text=True,
+        env=env, cwd=cwd,
     )
     if "nothing to commit" in (commit_res.stdout or "") + (commit_res.stderr or ""):
         return {"committed": False}
@@ -758,9 +1071,9 @@ def _git_commit_log_only() -> dict:
     if not remote_url:
         return {"committed": True, "pushed": False, "reason": "no_token"}
 
-    push_res = subprocess.run(
+    push_res = _git_run_with_retry(
         ["git", "push", remote_url, GITHUB_BRANCH],
-        cwd=cwd, env=env, capture_output=True, text=True, timeout=60,
+        env=env, cwd=cwd, timeout=60,
     )
     if push_res.returncode != 0:
         return {"committed": True, "pushed": False,
@@ -904,6 +1217,17 @@ def run_one_article() -> dict:
              timestamp, category, today_count, ARTICLES_PER_DAY)
 
     try:
+        # Сначала гарантируем что HEAD на ветке (а не detached). Cloud Apps при
+        # деплое мог сделать `git checkout {sha}` — тогда последующие коммиты
+        # не попадут на main, push скажет Everything up-to-date.
+        branch_result = _ensure_on_branch()
+        entry["git_branch_check"] = branch_result
+        if not branch_result.get("ok"):
+            log.error(
+                "Не удалось переключиться на %s: %s",
+                GITHUB_BRANCH, branch_result.get("stderr_tail"),
+            )
+
         # Подтягиваем свежий main перед стартом - на случай ручных правок в GitHub
         pull_result = _git_pull_before_slot()
         if not pull_result["ok"]:

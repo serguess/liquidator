@@ -191,3 +191,101 @@ def list_pending() -> list[tuple[str, dict]]:
         (slug, r) for slug, r in state["reviews"].items()
         if r.get("status") == "pending_review"
     ]
+
+
+# === Pending actions queue ===
+# Очередь отложенных действий (сейчас только publish). Хранится В bot_state.json
+# чтобы переживать редеплои Cloud Apps: bot_state.json коммитится scheduler'ом
+# и publisher'ом → попадает в каждый push → новый контейнер после редеплоя
+# видит очередь.
+#
+# Структура:
+#   "pending_actions": [
+#     {"action": "publish", "slug": "...", "version": "2.1",
+#      "chat_id": 123, "reply_to_message_id": 456, "queued_at": "..."}
+#   ]
+
+
+def _ensure_pending_actions(state: dict) -> list:
+    """Гарантирует наличие списка pending_actions, возвращает его."""
+    if "pending_actions" not in state or not isinstance(state.get("pending_actions"), list):
+        state["pending_actions"] = []
+    return state["pending_actions"]
+
+
+def list_pending_actions() -> list[dict]:
+    """Текущая очередь (read-only копия)."""
+    state = load()
+    return list(_ensure_pending_actions(state))
+
+
+def add_pending_action(action: dict) -> dict:
+    """
+    Добавляет действие в очередь. Если действие с таким же slug+action уже
+    есть — обновляет его поля (дедупликация), не дублирует.
+    """
+    with _lock:
+        state = load()
+        actions = _ensure_pending_actions(state)
+        slug = action.get("slug")
+        action_type = action.get("action")
+        for existing in actions:
+            if existing.get("slug") == slug and existing.get("action") == action_type:
+                existing.update(action)
+                existing["updated_at"] = _now_iso()
+                _save_unsafe(state)
+                return existing
+        action.setdefault("queued_at", _now_iso())
+        actions.append(action)
+        _save_unsafe(state)
+        return action
+
+
+def remove_pending_action(slug: str, action_type: str = "publish") -> dict | None:
+    """Удаляет одно действие по slug+action. Возвращает удалённое или None."""
+    with _lock:
+        state = load()
+        actions = _ensure_pending_actions(state)
+        kept = []
+        removed = None
+        for existing in actions:
+            if existing.get("slug") == slug and existing.get("action") == action_type:
+                removed = existing
+                continue
+            kept.append(existing)
+        if removed is not None:
+            state["pending_actions"] = kept
+            _save_unsafe(state)
+        return removed
+
+
+def pop_pending_action() -> dict | None:
+    """
+    Атомарно достаёт первое действие из очереди и сохраняет на диск.
+
+    КРИТИЧНО: bot_state.json после этого вызова содержит очередь БЕЗ pop'нутого
+    элемента. Когда последующий publisher.publish() сделает git commit+push,
+    в коммит уйдёт уже уменьшенная очередь. После редеплоя новый контейнер
+    видит правильное состояние и не будет повторно публиковать тот же slug.
+    """
+    with _lock:
+        state = load()
+        actions = _ensure_pending_actions(state)
+        if not actions:
+            return None
+        head = actions[0]
+        state["pending_actions"] = actions[1:]
+        _save_unsafe(state)
+        return head
+
+
+def clear_pending_actions() -> int:
+    """Удаляет все pending_actions. Возвращает сколько было."""
+    with _lock:
+        state = load()
+        actions = _ensure_pending_actions(state)
+        n = len(actions)
+        if n:
+            state["pending_actions"] = []
+            _save_unsafe(state)
+        return n

@@ -112,21 +112,37 @@ def rejected(*, title: str, reason: str | None) -> str:
     return f"🗑 <b>Статья отклонена</b>\n\n{html.escape(title)}{reason_part}"
 
 
-def asking_for_edit(*, title: str) -> str:
+# Маркеры в конце prompt-сообщений: позволяют восстановить slug из
+# message.reply_to_message.text если FSM-state потерян (например, контейнер
+# был редеплоен между нажатием кнопки и отправкой ответа). Видимы в чате
+# как тонкий моноспейс — UX это не ломает, а надёжность даёт.
+
+def edit_marker(slug: str) -> str:
+    return f"\n\n<code>↩️ edit:{html.escape(slug)}</code>"
+
+
+def reject_marker(slug: str) -> str:
+    return f"\n\n<code>↩️ reject:{html.escape(slug)}</code>"
+
+
+def asking_for_edit(*, title: str, slug: str) -> str:
     return (
         f"✏️ <b>Правки для статьи «{html.escape(title)}»</b>\n\n"
         "Опишите что изменить - текстом или голосовым. "
         "Например: <i>«убери блок про ИП», «перепиши абзац про сроки мягче», "
         "«замени слово X на Y во втором разделе»</i>.\n\n"
-        "Когда готово — отправьте сообщение."
+        "Когда готово — <b>ответьте reply'ем на это сообщение</b>."
+        + edit_marker(slug)
     )
 
 
-def asking_for_rejection_reason(*, title: str) -> str:
+def asking_for_rejection_reason(*, title: str, slug: str) -> str:
     return (
         f"🗑 <b>Отклонение статьи «{html.escape(title)}»</b>\n\n"
         "Напишите коротко почему отклоняете - чтобы команда могла учесть на будущее. "
-        "Если без причины - отправьте «-»."
+        "Если без причины - отправьте «-».\n\n"
+        "<b>Ответьте reply'ем на это сообщение.</b>"
+        + reject_marker(slug)
     )
 
 

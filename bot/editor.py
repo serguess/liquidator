@@ -162,7 +162,7 @@ def _count_html_chars(html_path: Path) -> int:
 
 
 def apply_edit(*, slug: str, current_version: str, versions: list[str],
-               edit_text: str, timeout_sec: int = 180) -> EditResult:
+               edit_text: str, timeout_sec: int = 360) -> EditResult:
     """
     Применяет правку. Создаёт новую версию в drafts/{slug}/versions/v{next}.html.
 
