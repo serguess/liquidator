@@ -1,0 +1,32 @@
+[2026-05-05T14:10:02] slot=- category=- action=orphan_rescue_add returncode=128
+--- stderr ---
+fatal: pathspec 'data/git_errors.log' did not match any files
+====
+
+[2026-05-05T14:10:02] slot=- category=- action=orphan_rescue_commit returncode=1
+--- stderr ---
+
+--- stdout ---
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	deleted:    .dockerignore
+	deleted:    .gitignore
+	modified:   data/bot_state.json
+	deleted:    data/scheduler_log.json
+	modified:   docker-entrypoint.sh
+	deleted:    payment.html.bak
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.dockerfile_path
+	data/.scheduler.lock
+	data/git_errors.log
+	drafts/vnesudebnoe-bankrotstvo-mfc-kto-mozhet-podat/versions/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+====
+
