@@ -517,6 +517,40 @@ def _git_pull_before_slot() -> dict:
     }
 
 
+def _git_run_with_retry(args: list[str], env: dict, cwd: str, timeout: int | None = None,
+                          retries: int = 3) -> subprocess.CompletedProcess:
+    """
+    Запускает git-команду с retry при известных временных проблемах:
+    - index.lock держится другим процессом (race condition)
+    - проблемы сети при push (timed out, connection reset, early EOF)
+    Не-ретраимые ошибки (auth, конфликты, плохой commit message) возвращаем
+    с первой попытки.
+    """
+    retriable_markers = (
+        "index.lock", "another git process",
+        "could not resolve", "timed out", "connection reset",
+        "remote end hung up", "early eof", "operation too slow",
+    )
+    last_result = None
+    for attempt in range(retries):
+        last_result = subprocess.run(
+            args, cwd=cwd, env=env, capture_output=True, text=True, timeout=timeout,
+        )
+        if last_result.returncode == 0:
+            return last_result
+        stderr_lower = (last_result.stderr or "").lower()
+        if not any(m in stderr_lower for m in retriable_markers):
+            return last_result
+        if attempt < retries - 1:
+            sleep_sec = 2 * (attempt + 1)
+            log.warning(
+                "git %s упал (rc=%s, временная ошибка), ретрай через %ds",
+                args[1] if len(args) > 1 else "?", last_result.returncode, sleep_sec,
+            )
+            time.sleep(sleep_sec)
+    return last_result
+
+
 def _git_commit_and_push(slug: str, category: str, metrics: str = "") -> dict:
     """
     Коммитит drafts/{slug} и data/scheduler_log.json, пушит в GitHub.
@@ -542,9 +576,9 @@ def _git_commit_and_push(slug: str, category: str, metrics: str = "") -> dict:
 
     msg_tail = f", {metrics}" if metrics else ""
     commit_msg = f"drafts: {slug} ({category}{msg_tail})"
-    commit_res = subprocess.run(
+    commit_res = _git_run_with_retry(
         ["git", "commit", "-m", commit_msg],
-        cwd=cwd, env=env, capture_output=True, text=True,
+        env=env, cwd=cwd,
     )
     combined = (commit_res.stdout or "") + (commit_res.stderr or "")
     if "nothing to commit" in combined:
@@ -558,9 +592,9 @@ def _git_commit_and_push(slug: str, category: str, metrics: str = "") -> dict:
     if not remote_url:
         return {"committed": True, "pushed": False, "reason": "no_token"}
 
-    push_res = subprocess.run(
+    push_res = _git_run_with_retry(
         ["git", "push", remote_url, GITHUB_BRANCH],
-        cwd=cwd, env=env, capture_output=True, text=True, timeout=60,
+        env=env, cwd=cwd, timeout=60,
     )
     if push_res.returncode != 0:
         _append_git_error(
@@ -882,12 +916,30 @@ def run_one_article() -> dict:
             _update_failure_streak(entry, timestamp)
             return entry
 
-        # При rewrite slug известен заранее (берём из retry_slug),
-        # при new — обнаруживаем по mtime новых драфтов.
+        # При rewrite slug известен заранее (берём из retry_slug).
+        # При new — обнаруживаем по mtime новых драфтов.
+        # Важно: ищем slug ДАЖЕ при rc != 0. Claude мог написать статью,
+        # но вылететь на финале (например, hit limit на агенте 7 publisher).
+        # Если папка готова и article.html существует — спасаем её, иначе
+        # вся проделанная работа теряется при следующем редеплое.
         if slot_mode == "rewrite" and retry_slug:
-            slug = retry_slug if ok else None
+            slug = retry_slug
         else:
-            slug = _detect_new_slug(started) if ok else None
+            slug = _detect_new_slug(started)
+
+        # Если Claude упал, но статья на диске готова — переопределяем ok=True.
+        rescued_after_failure = False
+        if not ok and slug:
+            article_path = DRAFTS_DIR / slug / "article.html"
+            if article_path.exists():
+                rescued_after_failure = True
+                ok = True
+                log.warning(
+                    "Claude rc=%s но drafts/%s/article.html готов — спасаем статью "
+                    "(stdout_tail=%r)",
+                    result.returncode, slug, (result.stdout or "")[-200:],
+                )
+
         meta = _read_meta(slug) if slug else {}
         metrics = _metrics_summary(meta)
 
@@ -925,6 +977,7 @@ def run_one_article() -> dict:
                 "slug": slug,
                 "duration_sec": duration,
                 "returncode": result.returncode,
+                "rescued_after_failure": rescued_after_failure,
                 "stdout_tail": (result.stdout or "")[-500:],
                 "stderr_tail": (result.stderr or "")[-500:],
                 "metrics": {
@@ -940,6 +993,7 @@ def run_one_article() -> dict:
                 "slug": slug,
                 "duration_sec": duration,
                 "returncode": result.returncode,
+                "rescued_after_failure": rescued_after_failure,
                 "stdout_tail": (result.stdout or "")[-500:],
                 "stderr_tail": (result.stderr or "")[-500:],
                 "metrics": {
