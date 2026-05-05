@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="600" height="400" viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .bg { fill: #f5f7fa; }
+      .title { font-family: Arial, sans-serif; font-size: 20px; font-weight: bold; fill: #0a0d12; }
+      .side-label { font-family: Arial, sans-serif; font-size: 14px; font-weight: bold; text-anchor: middle; }
+      .left-label { fill: #16a34a; }
+      .right-label { fill: #dc2626; }
+      .divider { stroke: #d1d5db; stroke-width: 2; }
+      .item { font-family: Arial, sans-serif; font-size: 12px; }
+    </style>
+  </defs>
+  <!-- Background -->
+  <rect class="bg" width="600" height="400"/>
+
+  <!-- Title -->
+  <text x="300" y="30" class="title" text-anchor="middle">
+    Что спишется и что не спишется
+  </text>
+
+  <!-- Divider -->
+  <line class="divider" x1="300" y1="60" x2="300" y2="380"/>
+
+  <!-- LEFT SIDE: Forgiven debts -->
+  <text x="150" y="80" class="side-label left-label">Спишется</text>
+
+  <rect x="40" y="110" width="220" height="50" fill="#dcfce7" opacity="0.5" rx="4"/>
+  <text x="55" y="130" class="item" style="fill: #16a34a; font-weight: bold;">✓ Кредиты и займы</text>
+  <text x="55" y="150" class="item" style="fill: #16a34a;">включённые в список</text>
+
+  <rect x="40" y="170" width="220" height="50" fill="#dcfce7" opacity="0.5" rx="4"/>
+  <text x="55" y="190" class="item" style="fill: #16a34a; font-weight: bold;">✓ Задолженность ЖКХ</text>
+  <text x="55" y="210" class="item" style="fill: #16a34a;">Коммунальные платежи</text>
+
+  <rect x="40" y="230" width="220" height="50" fill="#dcfce7" opacity="0.5" rx="4"/>
+  <text x="55" y="250" class="item" style="fill: #16a34a; font-weight: bold;">✓ Штрафы и пени</text>
+  <text x="55" y="270" class="item" style="fill: #16a34a;">Начисленные до процедуры</text>
+
+  <rect x="40" y="290" width="220" height="50" fill="#dcfce7" opacity="0.5" rx="4"/>
+  <text x="55" y="310" class="item" style="fill: #16a34a; font-weight: bold;">✓ Микрозаймы</text>
+  <text x="55" y="330" class="item" style="fill: #16a34a;">При включении в список</text>
+
+  <!-- RIGHT SIDE: Non-forgiven debts -->
+  <text x="450" y="80" class="side-label right-label">НЕ спишется</text>
+
+  <rect x="340" y="110" width="220" height="50" fill="#fee2e2" opacity="0.5" rx="4"/>
+  <text x="355" y="130" class="item" style="fill: #dc2626; font-weight: bold;">✗ Алименты</text>
+  <text x="355" y="150" class="item" style="fill: #dc2626;">На детей и родителей</text>
+
+  <rect x="340" y="170" width="220" height="50" fill="#fee2e2" opacity="0.5" rx="4"/>
+  <text x="355" y="190" class="item" style="fill: #dc2626; font-weight: bold;">✗ Вред здоровью</text>
+  <text x="355" y="210" class="item" style="fill: #dc2626;">Моральный и физический</text>
+
+  <rect x="340" y="230" width="220" height="50" fill="#fee2e2" opacity="0.5" rx="4"/>
+  <text x="355" y="250" class="item" style="fill: #dc2626; font-weight: bold;">✗ Зарплата</text>
+  <text x="355" y="270" class="item" style="fill: #dc2626;">Работникам и авторам</text>
+
+  <rect x="340" y="290" width="220" height="50" fill="#fee2e2" opacity="0.5" rx="4"/>
+  <text x="355" y="310" class="item" style="fill: #dc2626; font-weight: bold;">✗ Не включённые</text>
+  <text x="355" y="330" class="item" style="fill: #dc2626;">кредиторы в заявлении</text>
+</svg>

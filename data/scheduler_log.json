@@ -1,0 +1,60 @@
+[
+  {
+    "timestamp": "2026-05-05T00:24:01",
+    "category": "fiz",
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Updating 527d288..1c7ce28\nFast-forward\n bot/editor.py  | 12 +++++++++++-\n bot/watcher.py | 19 +++++++++++++++++--\n 2 files changed, 28 insertions(+), 3 deletions(-)\n",
+      "stderr_tail": "From https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n"
+    },
+    "mode": "new",
+    "topic_id": "fiz-01",
+    "topic_slug": "vnesudebnoe-bankrotstvo-cherez-mfc-2026",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "vnesudebnoe-bankrotstvo-cherez-mfc-usloviya",
+    "duration_sec": 1670.9,
+    "returncode": 0,
+    "stdout_tail": "** 6 732 знака (в норме: 6000-7000)\n\n**Проверки:**\n- Uniqueness (эмбеддинги): passed (сходство 0.023 с ближайшей статьёй)\n- Factcheck: passed\n- Quality gate: passed — 0 blockers, 0 warnings, 0 AI-маркеров\n\n**Режим публикации:** draft\n**Путь к файлу:** `drafts/vnesudebnoe-bankrotstvo-cherez-mfc-usloviya/article.html`\n**Готов к ревью:** `drafts/_review_queue.json`\n\n**Метрики text.ru:** не заполнены (API не вызывался в этом прогоне — `textru_ai_detector`, `textru_uniqueness`, `textru_spam` = null)\n",
+    "stderr_tail": "",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 6732
+    },
+    "git": {
+      "committed": false,
+      "pushed": false,
+      "reason": "commit_failed",
+      "stderr": "tted)\n\t.dockerfile_path\n\tdata/.scheduler.lock\n\tdata/.scheduler_heartbeat\n\tdata/_prev_summary_fiz.json\n\tdata/embeddings.sqlite\n\tdata/publication_log.json\n\tdrafts/_review_queue.json\n\tdrafts/vnesudebnoe-bankrotstvo-cherez-mfc-usloviya/\n\nno changes added to commit (use \"git add\" and/or \"git commit -a\")\n"
+    }
+  },
+  {
+    "timestamp": "2026-05-05T04:24:01",
+    "category": "yur",
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "From https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n"
+    },
+    "mode": "new",
+    "topic_id": "yur-02",
+    "topic_slug": "bankrotstvo-ooo-poshagovo-2026",
+    "status": "failed",
+    "slug": null,
+    "duration_sec": 430.6,
+    "returncode": 1,
+    "stdout_tail": "You've hit your limit · resets 5:20am (UTC)\n",
+    "stderr_tail": "",
+    "metrics": null
+  }
+]

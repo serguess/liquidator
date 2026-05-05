@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="600" height="400" viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .bg { fill: #f5f7fa; }
+      .timeline-line { stroke: #0ea5e9; stroke-width: 4; }
+      .stage-dot { fill: #0ea5e9; }
+      .stage-label { font-family: Arial, sans-serif; font-size: 12px; fill: #1f2937; text-anchor: middle; }
+      .title { font-family: Arial, sans-serif; font-size: 20px; font-weight: bold; fill: #0a0d12; }
+    </style>
+  </defs>
+  <!-- Background -->
+  <rect class="bg" width="600" height="400"/>
+
+  <!-- Title -->
+  <text x="300" y="30" class="title" text-anchor="middle">
+    Процедура: 6 месяцев + мораторий
+  </text>
+
+  <!-- Timeline -->
+  <line class="timeline-line" x1="60" y1="150" x2="540" y2="150"/>
+
+  <!-- Stage 1: Submission -->
+  <circle class="stage-dot" cx="80" cy="150" r="8"/>
+  <text class="stage-label" x="80" y="190">Подача</text>
+  <text class="stage-label" x="80" y="210" style="font-size: 10px; fill: #6b7280;">в МФЦ</text>
+
+  <!-- Stage 2: Publication -->
+  <circle class="stage-dot" cx="200" cy="150" r="8"/>
+  <text class="stage-label" x="200" y="190">Публикация</text>
+  <text class="stage-label" x="200" y="210" style="font-size: 10px; fill: #6b7280;">в ЕФРСБ</text>
+
+  <!-- Stage 3: Moratorium -->
+  <circle class="stage-dot" cx="320" cy="150" r="8"/>
+  <text class="stage-label" x="320" y="190">Мораторий</text>
+  <text class="stage-label" x="320" y="210" style="font-size: 10px; fill: #6b7280;">6 месяцев</text>
+
+  <!-- Stage 4: Completion -->
+  <circle class="stage-dot" cx="520" cy="150" r="8"/>
+  <text class="stage-label" x="520" y="190">Завершение</text>
+  <text class="stage-label" x="520" y="210" style="font-size: 10px; fill: #6b7280;">Списание</text>
+
+  <!-- Info boxes -->
+  <rect x="60" y="270" width="480" height="80" fill="#dbeafe" opacity="0.3" rx="6"/>
+  <text x="80" y="295" style="font-family: Arial; font-size: 14px; fill: #0a0d12; font-weight: bold;">
+    Мораторий включает:
+  </text>
+  <text x="80" y="320" style="font-family: Arial; font-size: 12px; fill: #1f2937;">
+    • Прекращение начисления процентов, штрафов и пеней
+  </text>
+  <text x="80" y="345" style="font-family: Arial; font-size: 12px; fill: #1f2937;">
+    • Приостановка взысканий по включённым долгам
+  </text>
+</svg>

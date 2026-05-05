@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="600" height="400" viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .bg { fill: #f5f7fa; }
+      .block { fill: #e0e7ff; stroke: #6366f1; stroke-width: 2; }
+      .icon-text { font-family: Arial, sans-serif; font-size: 14px; fill: #0a0d12; font-weight: bold; }
+      .label { font-family: Arial, sans-serif; font-size: 16px; fill: #1f2937; }
+    </style>
+  </defs>
+  <!-- Background -->
+  <rect class="bg" width="600" height="400"/>
+
+  <!-- Title -->
+  <text x="300" y="30" style="font-family: Arial; font-size: 20px; font-weight: bold; fill: #0a0d12; text-anchor: middle;">
+    4 основания для обращения
+  </text>
+
+  <!-- Block 1 -->
+  <rect class="block" x="80" y="60" width="440" height="70" rx="6"/>
+  <circle cx="120" cy="95" r="20" fill="#6366f1" opacity="0.2"/>
+  <text x="160" y="100" class="label">Основание 1: ИП закончено по п.4 ст.46 ФЗ-229</text>
+
+  <!-- Block 2 -->
+  <rect class="block" x="80" y="150" width="440" height="70" rx="6"/>
+  <circle cx="120" cy="185" r="20" fill="#6366f1" opacity="0.2"/>
+  <text x="160" y="190" class="label">Основание 2: Пенсионер, ИЛ не старше 1 года</text>
+
+  <!-- Block 3 -->
+  <rect class="block" x="80" y="240" width="440" height="70" rx="6"/>
+  <circle cx="120" cy="275" r="20" fill="#6366f1" opacity="0.2"/>
+  <text x="160" y="280" class="label">Основание 3: Получатель детского пособия</text>
+
+  <!-- Block 4 -->
+  <rect class="block" x="80" y="330" width="440" height="50" rx="6"/>
+  <circle cx="120" cy="357" r="20" fill="#6366f1" opacity="0.2"/>
+  <text x="160" y="362" class="label">Основание 4: ИЛ выдан 1-7 лет назад</text>
+</svg>
