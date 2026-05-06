@@ -1,0 +1,28 @@
+[
+  {
+    "timestamp": "2026-05-06T09:45:53",
+    "category": "fiz",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": true,
+      "detached_sha": "7460873701f0dc169cf55ee7656cfd1420f02df7",
+      "merged_orphan_commits": false
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "From https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n"
+    },
+    "mode": "new",
+    "topic_id": "fiz-04",
+    "topic_slug": "bankrotstvo-pri-ipoteke-edinstvennoe-zhilye",
+    "status": "failed",
+    "slug": "bankrotstvo-pri-ipoteke-edinstvennoe-zhilye",
+    "duration_sec": 1506.3,
+    "returncode": -1,
+    "rescued_after_failure": false,
+    "stdout_tail": "",
+    "stderr_tail": "\n[scheduler] killed by heartbeat timeout (>900s of silence)",
+    "metrics": null
+  }
+]
