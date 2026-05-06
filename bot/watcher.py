@@ -11,7 +11,7 @@ import json
 import re
 from pathlib import Path
 
-from . import state
+from . import notified_sentinel, state
 from .config import DRAFTS_DIR
 
 
@@ -119,7 +119,16 @@ def scan_for_new_drafts() -> list[dict]:
             continue
 
         slug = sub.name
+
+        # Двойная проверка: пропускаем если ХОТЯ БЫ ОДИН источник правды
+        # говорит что этот draft уже был отправлен. Если bot_state.json
+        # сбросился — нас спасёт sentinel-файл в папке драфта (он
+        # коммитится в git вместе с папкой). Если sentinel удалён руками —
+        # нас спасёт bot_state. Чтобы повторное уведомление пришло,
+        # должны исчезнуть ОБА маркера одновременно.
         if slug in known:
+            continue
+        if notified_sentinel.is_notified(sub):
             continue
 
         current_html = _resolve_current_html(sub)

@@ -20,10 +20,16 @@ from aiogram import Bot, Dispatcher
 from aiogram.client.default import DefaultBotProperties
 from aiogram.enums import ParseMode
 
-from . import handlers, messages, publisher, queue as action_queue, state, watcher
+from pathlib import Path
+
+from . import (
+    handlers, messages, notified_sentinel, publisher,
+    queue as action_queue, state, watcher,
+)
 from .config import (
     BOT_WATCH_INTERVAL_SEC,
     DATA_DIR,
+    DRAFTS_DIR,
     TG_ALLOWED_CHAT_IDS,
     TG_BOT_TOKEN,
     validate_config,
@@ -248,6 +254,7 @@ async def _watch_iteration(bot: Bot):
             wordstat_total=draft.get("wordstat_total"),
         )
 
+        sent_to: list[int] = []
         for chat_id in TG_ALLOWED_CHAT_IDS:
             try:
                 msg = await bot.send_message(
@@ -262,8 +269,71 @@ async def _watch_iteration(bot: Bot):
                     chat_id=chat_id,
                     message_id=msg.message_id,
                 )
+                sent_to.append(chat_id)
             except Exception as e:
                 log.error("Не смог отправить уведомление %s: %s", chat_id, e)
+
+        # Создаём sentinel-файл в папке драфта ПОСЛЕ успешной отправки хотя
+        # бы одному получателю. Это гарантия что повторное уведомление
+        # никогда не уйдёт после редеплоя. Файл попадёт в следующий git
+        # commit вместе с папкой драфта (через scheduler или publisher).
+        if sent_to:
+            draft_dir = DRAFTS_DIR / draft["slug"]
+            notified_sentinel.mark_notified(
+                draft_dir,
+                chat_ids=sent_to,
+                version=draft.get("version", ""),
+                title=draft.get("title", ""),
+            )
+
+
+def _bootstrap_sync_drafts() -> int:
+    """
+    Идемпотентно проходит по всем drafts/{slug}/ и для каждой папки которая
+    1) НЕ имеет .notified sentinel
+    2) НЕ зарегистрирована в bot_state.json:reviews
+    создаёт sentinel в bootstrap-режиме (без отправки уведомления).
+
+    Возвращает число созданных sentinel'ов. Эта функция должна вызываться
+    при старте бота — после неё watcher не будет считать эти папки «новыми».
+
+    Вызывается синхронно (без asyncio) — обычные file ops.
+    """
+    if not DRAFTS_DIR.exists():
+        return 0
+    known = state.known_slugs()
+    created = 0
+    for sub in DRAFTS_DIR.iterdir():
+        if not sub.is_dir() or sub.name.startswith("_") or sub.name.startswith("."):
+            continue
+        slug = sub.name
+        if slug in known:
+            continue  # bot_state.json уже знает — sentinel не нужен
+        if notified_sentinel.is_notified(sub):
+            continue  # sentinel уже есть — bot_state восстановится при первом
+                       # реальном уведомлении
+
+        # Папка есть, но ни в одном из источников не отмечена. Создаём
+        # sentinel в bootstrap-режиме чтобы watcher не считал её «новой»
+        # и не отправлял уведомление.
+        try:
+            meta_path = sub / "meta.json"
+            title = ""
+            if meta_path.exists():
+                import json as _json
+                try:
+                    title = (_json.loads(meta_path.read_text(encoding="utf-8"))
+                             .get("title") or "")[:120]
+                except Exception:
+                    pass
+        except Exception:
+            title = ""
+
+        if notified_sentinel.mark_notified(sub, chat_ids=(), title=title,
+                                              bootstrap=True):
+            created += 1
+            log.debug("Bootstrap sentinel for %s (title=%r)", slug, title[:60])
+    return created
 
 
 async def main_async():
@@ -302,6 +372,24 @@ async def main_async():
     if pending:
         log.info("При старте обнаружено %d отложенных действий — обработаю в queue_loop",
                  len(pending))
+
+    # Bootstrap-sync: для каждой папки drafts/{slug}/ которая уже существует,
+    # но НЕ имеет sentinel-файла И НЕ зарегистрирована в bot_state.json —
+    # создаём sentinel в bootstrap-режиме. Это значит "заказчик про эту
+    # статью уже знает (или мы потеряли state), повторное уведомление
+    # отправлять не нужно".
+    #
+    # Этот bootstrap безопасен: если по какой-то причине запись в state
+    # ЕСТЬ, sentinel не нужен (watcher всё равно пропустит). Если sentinel
+    # ЕСТЬ, watcher тоже пропустит. Bootstrap нужен только для папок где
+    # ОБА маркера потеряны — в обычной работе таких нет.
+    bootstrap_synced = _bootstrap_sync_drafts()
+    if bootstrap_synced:
+        log.info(
+            "Bootstrap-sync: создано %d sentinel-файлов для существующих "
+            "папок без записи в state. Повторных уведомлений не будет.",
+            bootstrap_synced,
+        )
 
     # Запускаем watcher и queue processor параллельно с polling.
     watcher_task = asyncio.create_task(watch_loop(bot))
