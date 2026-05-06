@@ -1,11 +1,11 @@
 [
   {
-    "timestamp": "2026-05-06T11:32:19",
+    "timestamp": "2026-05-06T12:08:11",
     "category": "fiz",
     "git_branch_check": {
       "ok": true,
       "was_detached": true,
-      "detached_sha": "5d609f5485134a3a6cd81da04b21f75b6a36d5ef",
+      "detached_sha": "1eccae446e25b21e50d93bec5887ee2ea075dd3b",
       "merged_orphan_commits": false
     },
     "git_pull": {
@@ -16,9 +16,11 @@
     "mode": "new",
     "topic_id": "fiz-04",
     "topic_slug": "bankrotstvo-pri-ipoteke-edinstvennoe-zhilye",
+    "slug_mismatch": true,
+    "expected_slug": "bankrotstvo-pri-ipoteke-edinstvennoe-zhilye",
     "status": "failed",
-    "slug": "bankrotstvo-pri-ipoteke-edinstvennoe-zhilye",
-    "duration_sec": 461.3,
+    "slug": null,
+    "duration_sec": 6.1,
     "returncode": 1,
     "rescued_after_failure": false,
     "stdout_tail": "You've hit your limit · resets 3:30pm (UTC)\n",
