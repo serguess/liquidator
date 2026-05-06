@@ -189,24 +189,19 @@ def _strip_outer_html(body: str) -> str:
 # ============ Рендереры блоков ============
 
 def render_cta_hero(text: str, slug: str, position: str) -> str:
-    """Большой CTA-овал. position: 'top' | 'bottom'."""
+    """Большой CTA-овал со стрелкой. position: 'top' | 'bottom'."""
     src = f"article-{slug}-{position}"
     return (
         f'<a href="/index.html#contacts" class="article__cta--hero" '
         f'data-source="{_esc_attr(src)}">\n'
-        f'  <span>{_esc(text)}</span>\n'
+        f'  <span>{_esc(text)} →</span>\n'
         f'</a>'
     )
 
 
 def render_cta_inline(text: str, slug: str) -> str:
-    """Inline-CTA в середине статьи."""
-    src = f"article-{slug}-mid"
-    return (
-        f'<p><a href="/index.html#contacts" class="article__cta-inline" '
-        f'data-source="{_esc_attr(src)}">'
-        f'<strong>{_esc(text)} →</strong></a></p>'
-    )
+    """Средний CTA — тот же hero-овал, что top/bottom (единообразный стиль и размер)."""
+    return render_cta_hero(text, slug, "mid")
 
 
 def render_disclaimer(text: str) -> str:
@@ -502,10 +497,10 @@ def assemble_article(meta: dict, body_html: str, disclaimer_text: str) -> str:
     h1 = meta["h1"]
     lead = meta.get("lead") or meta.get("description") or ""
     topic_action = meta["topic_action"]
-    topic_action_alt = meta.get("topic_action_alt") or f"Узнать свой вариант: оставить заявку на {topic_action}"
-    cta_top_text = meta.get("cta_top_text") or f"Оставить заявку на {topic_action}"
-    cta_mid_text = meta.get("cta_mid_text") or f"Оставить заявку на {topic_action}"
-    cta_bottom_text = meta.get("cta_bottom_text") or topic_action_alt
+    cta_default_text = f"Оставить заявку на {topic_action}"
+    cta_top_text = meta.get("cta_top_text") or cta_default_text
+    cta_mid_text = meta.get("cta_mid_text") or cta_default_text
+    cta_bottom_text = meta.get("cta_bottom_text") or cta_default_text
 
     breadcrumb_current = meta.get("breadcrumb_current") or _short_bc(meta["title"])
     date_human = _human_date_ru(meta.get("date_published") or meta.get("published_at"))
