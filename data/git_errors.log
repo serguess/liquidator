@@ -30,3 +30,75 @@ Untracked files:
 no changes added to commit (use "git add" and/or "git commit -a")
 ====
 
+[2026-05-06T00:38:30] slot=- category=- action=orphan_rescue_add returncode=128
+--- stderr ---
+fatal: pathspec 'data/scheduler_log.json' did not match any files
+====
+
+[2026-05-06T00:38:30] slot=- category=- action=orphan_rescue_commit returncode=1
+--- stderr ---
+
+--- stdout ---
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	deleted:    .dockerignore
+	deleted:    .gitignore
+	modified:   data/bot_state.json
+	modified:   data/git_errors.log
+	modified:   docker-entrypoint.sh
+	deleted:    payment.html.bak
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.dockerfile_path
+	data/.scheduler.lock
+	drafts/vnesudebnoe-bankrotstvo-mfc-kto-mozhet-podat/versions/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+====
+
+[2026-05-06T01:14:06] slot=posledstviya-bankrotstva-fizicheskogo-lica category=fiz action=git_add returncode=128
+--- stderr ---
+fatal: pathspec 'data/scheduler_log.json' did not match any files
+====
+
+[2026-05-06T01:14:06] slot=posledstviya-bankrotstva-fizicheskogo-lica category=fiz action=git_commit returncode=1
+--- stderr ---
+
+--- stdout ---
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	deleted:    .dockerignore
+	deleted:    .gitignore
+	modified:   data/bot_state.json
+	modified:   data/clusters.json
+	modified:   data/git_errors.log
+	modified:   data/published_index.json
+	modified:   data/research_cache.json
+	modified:   docker-entrypoint.sh
+	deleted:    payment.html.bak
+	modified:   tools/embed_compare.py
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.dockerfile_path
+	data/.scheduler.lock
+	data/.scheduler_heartbeat
+	data/_prev_summary_fiz.json
+	data/embeddings.sqlite
+	drafts/_review_queue.json
+	drafts/posledstviya-bankrotstva-fizicheskogo-lica/
+	drafts/vnesudebnoe-bankrotstvo-mfc-kto-mozhet-podat/versions/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+====
+

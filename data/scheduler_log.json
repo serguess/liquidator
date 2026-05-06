@@ -1,0 +1,48 @@
+[
+  {
+    "timestamp": "2026-05-06T00:38:30",
+    "category": "fiz",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": true,
+      "detached_sha": "fb1d466d0c5cc98d906963be279b050bbaec3ead",
+      "merged_orphan_commits": false
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "From https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n"
+    },
+    "mode": "new",
+    "topic_id": "fiz-03",
+    "topic_slug": "posledstviya-bankrotstva-fizicheskogo-lica",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "posledstviya-bankrotstva-fizicheskogo-lica",
+    "duration_sec": 2136.3,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "Категория | fiz |\n| Длина статьи | 7430 знаков |\n| Uniqueness (эмбеддинги) | passed (0.7% пересечение) |\n| Factcheck | passed |\n| AI-маркеры | 0 |\n| Режим публикации | draft |\n| Файл | `articles/fiz/posledstviya-bankrotstva-fizicheskogo-lica.html` |\n\n**Метрики text.ru:** не заполнены — проверка text.ru выполняется асинхронно после публикации.\n\nGit push не прошёл из-за проблемы с OAuth-токеном — коммит создан локально (`8507171`), потребуется ручной push после решения проблемы с аутентификацией.\n",
+    "stderr_tail": "",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7430
+    },
+    "git": {
+      "committed": false,
+      "pushed": false,
+      "reason": "commit_failed",
+      "stderr": "duler.lock\n\tdata/.scheduler_heartbeat\n\tdata/_prev_summary_fiz.json\n\tdata/embeddings.sqlite\n\tdrafts/_review_queue.json\n\tdrafts/posledstviya-bankrotstva-fizicheskogo-lica/\n\tdrafts/vnesudebnoe-bankrotstvo-mfc-kto-mozhet-podat/versions/\n\nno changes added to commit (use \"git add\" and/or \"git commit -a\")\n"
+    }
+  }
+]

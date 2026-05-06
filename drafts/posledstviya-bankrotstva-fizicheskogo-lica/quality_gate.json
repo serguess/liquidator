@@ -1,0 +1,117 @@
+{
+  "file": "/app/drafts/posledstviya-bankrotstva-fizicheskogo-lica/article.html",
+  "passed": true,
+  "blockers": [],
+  "warnings": [],
+  "autofix": {
+    "file": "/app/drafts/posledstviya-bankrotstva-fizicheskogo-lica/article.html",
+    "abbreviation_fixes": {},
+    "punctuation_fixes": 0,
+    "em_dash_fixes": 0,
+    "eng_quotes_fixes": 0,
+    "changed": false,
+    "bytes_before": 30195,
+    "bytes_after": 30195
+  },
+  "quality_checks": {
+    "file": "drafts/posledstviya-bankrotstva-fizicheskogo-lica/article.html",
+    "text_chars": 7430,
+    "length_status": "warn",
+    "length_kind": "default",
+    "passed": true,
+    "abbreviation_hits": [],
+    "punctuation_hits": [],
+    "spam": {
+      "total_words": 649,
+      "unique_lemmas": 406,
+      "lexical_diversity": 0.626,
+      "top10_words": [
+        [
+          "долг",
+          10
+        ],
+        [
+          "банкротств",
+          7
+        ],
+        [
+          "можн",
+          6
+        ],
+        [
+          "срок",
+          6
+        ],
+        [
+          "года",
+          6
+        ],
+        [
+          "запр",
+          6
+        ],
+        [
+          "жильё",
+          6
+        ],
+        [
+          "гражданин",
+          5
+        ],
+        [
+          "кредитор",
+          5
+        ],
+        [
+          "дела",
+          5
+        ]
+      ],
+      "top10_share": 0.096,
+      "ngram3_repeat_count": 13,
+      "ngram3_total": 647,
+      "ngram3_repeat_share": 0.02,
+      "risk_flags": []
+    }
+  },
+  "ai_markers": {
+    "file": "drafts/posledstviya-bankrotstva-fizicheskogo-lica/article.html",
+    "text_chars": 8626,
+    "hits_total": 0,
+    "density_per_1000": 0.0,
+    "by_severity": {
+      "critical": 0,
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "own_voice_hits": 2,
+    "first_person_singular_hits": 0,
+    "hits": []
+  },
+  "anti_template": {
+    "file": "drafts/posledstviya-bankrotstva-fizicheskogo-lica/article.html",
+    "text_chars": 7786,
+    "phrases_loaded": 93,
+    "passed": true,
+    "hits": []
+  },
+  "law_quotes": {
+    "total_chars": 0,
+    "limit": 600,
+    "samples": []
+  },
+  "rhythm": {
+    "file": "drafts/posledstviya-bankrotstva-fizicheskogo-lica/article.html",
+    "text_chars": 7786,
+    "sentences_total": 81,
+    "avg_sentence_len": 8.73,
+    "short_sentences_count": 23,
+    "short_sentences_share": 0.284,
+    "long_sentences_count": 0,
+    "parasite_count": 1,
+    "parasite_per_1000": 0.13,
+    "flags": []
+  },
+  "recommendations": []
+}
