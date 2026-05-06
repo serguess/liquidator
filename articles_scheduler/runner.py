@@ -774,9 +774,12 @@ def _rescue_orphan_drafts(orphans: list[str]) -> dict:
         non_ff_markers = ("non-fast-forward", "fetch first", "updates were rejected",
                            "tip of your current branch is behind")
         if any(m in stderr_lower for m in non_ff_markers):
-            log.warning("Orphan rescue: non-fast-forward, делаю pull --rebase")
+            log.warning("Orphan rescue: non-fast-forward, делаю pull --rebase -X theirs")
+            # -X theirs автоматически разрешает конфликты в журнальных JSON
+            # (data/*.json) в пользу origin — это безопасно, журналы append-only.
             rebase_res = subprocess.run(
-                ["git", "pull", "--rebase", remote_url, GITHUB_BRANCH],
+                ["git", "pull", "--rebase", "-X", "theirs",
+                 remote_url, GITHUB_BRANCH],
                 cwd=cwd, env=env, capture_output=True, text=True, timeout=60,
             )
             if rebase_res.returncode == 0:
@@ -788,6 +791,9 @@ def _rescue_orphan_drafts(orphans: list[str]) -> dict:
                 subprocess.run(
                     ["git", "rebase", "--abort"],
                     cwd=cwd, env=env, capture_output=True,
+                )
+                log.error(
+                    "Orphan rescue: rebase -X theirs всё равно упал, abort"
                 )
 
     if push_res.returncode != 0:
@@ -996,10 +1002,18 @@ def _git_commit_and_push(slug: str, category: str, metrics: str = "") -> dict:
                           "tip of your current branch is behind")
         if any(m in stderr_lower for m in non_ff_markers):
             log.warning(
-                "Push отклонён (non-fast-forward), делаю pull --rebase и повторяю"
+                "Push отклонён (non-fast-forward), делаю pull --rebase -X theirs и повторяю"
             )
+            # -X theirs автоматически разрешает конфликты в журнальных JSON
+            # (data/scheduler_log.json, data/bot_state.json, data/git_errors.log,
+            # data/published_index.json) в пользу версии с origin. Эти файлы
+            # — append-only журналы, и в случае конфликта версия из origin
+            # обычно более актуальная (другой инстанс уже её обновил).
+            # Без этого rebase падал, --abort оставлял локальный коммит,
+            # следующий редеплой его терял вместе с working tree.
             rebase_res = subprocess.run(
-                ["git", "pull", "--rebase", remote_url, GITHUB_BRANCH],
+                ["git", "pull", "--rebase", "-X", "theirs",
+                 remote_url, GITHUB_BRANCH],
                 cwd=cwd, env=env, capture_output=True, text=True, timeout=60,
             )
             if rebase_res.returncode == 0:
@@ -1008,13 +1022,16 @@ def _git_commit_and_push(slug: str, category: str, metrics: str = "") -> dict:
                     env=env, cwd=cwd, timeout=60,
                 )
             else:
-                # Rebase с конфликтом — откатываемся и помечаем push_failed
+                # Rebase с конфликтом который не разрулился даже с -X theirs
+                # (это значит конфликт в КОДЕ, не в журналах). Безопасный
+                # вариант — abort. Локальный коммит остаётся, следующий слот
+                # подхватит через _push_pending_local_commits в pre-flight.
                 subprocess.run(
                     ["git", "rebase", "--abort"],
                     cwd=cwd, env=env, capture_output=True,
                 )
                 log.error(
-                    "pull --rebase упал с конфликтом, abort: %s",
+                    "pull --rebase -X theirs упал с конфликтом в коде, abort: %s",
                     _mask_token((rebase_res.stderr or "")[-200:]),
                 )
 
