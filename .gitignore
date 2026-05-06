@@ -23,6 +23,10 @@ data/*
 !data/wordstat_cache.json
 !data/git_errors.log
 !data/published_index.json
+# Флаг что одноразовая миграция bootstrap-sentinel выполнена.
+# Коммитится чтобы не повторяться при каждом редеплое и не глушить
+# уведомления о новых статьях от scheduler'а.
+!data/.bootstrap_sentinel_done
 # Pipeline-логи в drafts/{slug}/_pipeline.log.json — попадают в репо
 # автоматически вместе с папкой drafts/{slug}/.
 *.sqlite

@@ -1,0 +1,15 @@
+bootstrap completed at 2026-05-06T13:00:00 (manual flag in commit)
+
+Этот файл означает что одноразовая миграция bootstrap-sentinel уже выполнена.
+Bot/main.py при старте видит этот файл и НЕ запускает _bootstrap_sync_drafts —
+это критично, иначе bootstrap будет глушить уведомления о новых статьях,
+которые scheduler пишет в drafts/ между деплоями (drafts/{slug}/ коммитится
+без записи в bot_state, и bootstrap бы создал sentinel молча → watcher
+никогда бы не отправил уведомление).
+
+Файл коммитится в git (см. .gitignore whitelist) чтобы переживать редеплои.
+
+Создан вручную в коммите cleanup-posledstviya: статья posledstviya-bankrotstva-
+fizicheskogo-lica откатывается с сайта и должна заново пройти через ревью бота.
+Без флага bootstrap при следующем старте создал бы sentinel для этой папки и
+заглушил бы уведомление.

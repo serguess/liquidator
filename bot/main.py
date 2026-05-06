@@ -287,20 +287,34 @@ async def _watch_iteration(bot: Bot):
             )
 
 
+BOOTSTRAP_DONE_FLAG = DATA_DIR / ".bootstrap_sentinel_done"
+
+
 def _bootstrap_sync_drafts() -> int:
     """
-    Идемпотентно проходит по всем drafts/{slug}/ и для каждой папки которая
+    ОДНОРАЗОВАЯ миграция: при первом запуске после внедрения механизма
+    sentinel'ов проходит по всем drafts/{slug}/ и для каждой папки которая
     1) НЕ имеет .notified sentinel
     2) НЕ зарегистрирована в bot_state.json:reviews
     создаёт sentinel в bootstrap-режиме (без отправки уведомления).
 
-    Возвращает число созданных sentinel'ов. Эта функция должна вызываться
-    при старте бота — после неё watcher не будет считать эти папки «новыми».
+    После успешного запуска создаёт файл-флаг data/.bootstrap_sentinel_done,
+    который коммитится в git. Все последующие старты бота bootstrap НЕ
+    запускают — иначе он будет гасить уведомления о новых статьях,
+    которые scheduler пишет в drafts/ между деплоями.
 
-    Вызывается синхронно (без asyncio) — обычные file ops.
+    Возвращает число созданных sentinel'ов. 0 если bootstrap уже выполнен.
     """
-    if not DRAFTS_DIR.exists():
+    if BOOTSTRAP_DONE_FLAG.exists():
+        log.debug("Bootstrap-sentinel уже выполнен ранее (flag %s exists), пропускаю",
+                  BOOTSTRAP_DONE_FLAG.name)
         return 0
+
+    if not DRAFTS_DIR.exists():
+        # Всё равно ставим флаг — миграция не нужна, и не должна повторяться
+        _mark_bootstrap_done()
+        return 0
+
     known = state.known_slugs()
     created = 0
     for sub in DRAFTS_DIR.iterdir():
@@ -313,9 +327,9 @@ def _bootstrap_sync_drafts() -> int:
             continue  # sentinel уже есть — bot_state восстановится при первом
                        # реальном уведомлении
 
-        # Папка есть, но ни в одном из источников не отмечена. Создаём
-        # sentinel в bootstrap-режиме чтобы watcher не считал её «новой»
-        # и не отправлял уведомление.
+        # Папка есть, но ни в одном из источников не отмечена. Это значит
+        # она существовала ДО внедрения sentinel-механизма — заказчик про
+        # неё уже знает, повторное уведомление не нужно.
         try:
             meta_path = sub / "meta.json"
             title = ""
@@ -333,7 +347,24 @@ def _bootstrap_sync_drafts() -> int:
                                               bootstrap=True):
             created += 1
             log.debug("Bootstrap sentinel for %s (title=%r)", slug, title[:60])
+
+    _mark_bootstrap_done()
     return created
+
+
+def _mark_bootstrap_done() -> None:
+    """Создаёт файл-флаг что bootstrap выполнен. Файл коммитится."""
+    DATA_DIR.mkdir(parents=True, exist_ok=True)
+    try:
+        from datetime import datetime
+        BOOTSTRAP_DONE_FLAG.write_text(
+            f"bootstrap completed at {datetime.now().isoformat(timespec='seconds')}\n"
+            "После этого момента bot/main.py не запускает bootstrap-sync.\n"
+            "Новые статьи от scheduler'а проходят через watcher как обычные.\n",
+            encoding="utf-8",
+        )
+    except OSError as exc:
+        log.warning("Не смог создать %s: %s", BOOTSTRAP_DONE_FLAG.name, exc)
 
 
 async def main_async():
