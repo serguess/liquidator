@@ -272,17 +272,20 @@ def compute_spam_heuristics(text: str) -> SpamHeuristics:
 
     # Пороги ужесточены под целевую заспамленность text.ru < 40% и уникальность ≥ 85%
     # (заказчик зафиксировал, май 2026).
-    # Калибровка по реальным замерам:
-    #   - 0.164 top10 + 2.9% ngram3 → text.ru spam 58
-    #   - 0.151 top10 + 8.2% ngram3 → text.ru spam 58
-    #   - цель < 40% спама ≈ top10 ≤ 0.11, ngram3 ≤ 0.02, lex.div ≥ 0.62
+    # Калибровка по реальным замерам text.ru (май 2026):
+    #   - 0.164 top10 + 2.9% ngram3 → text.ru spam 58 (старая статья)
+    #   - 0.110 top10 + 1.8% ngram3 + 0.62 div → text.ru spam 52 (под целью <45)
+    #   - цель < 40% спама ≈ top10 ≤ 0.085, ngram3 ≤ 0.015, lex.div ≥ 0.65
+    # Старые пороги (top10≤0.11, lex.div≥0.62) давали spam 50-52% — целью
+    # было <45%, по факту с запасом не хватало. Новая калибровка строже на
+    # ~20-25%, под цель < 40%.
     risk_flags = []
-    if top10_share > 0.11:
-        risk_flags.append(f"top10_share>{0.11} (={top10_share})")
-    if ngram3_repeat_share > 0.02:
-        risk_flags.append(f"ngram3_repeat_share>{0.02} (={ngram3_repeat_share})")
-    if lexical_diversity < 0.62:
-        risk_flags.append(f"lexical_diversity<{0.62} (={lexical_diversity})")
+    if top10_share > 0.085:
+        risk_flags.append(f"top10_share>{0.085} (={top10_share})")
+    if ngram3_repeat_share > 0.015:
+        risk_flags.append(f"ngram3_repeat_share>{0.015} (={ngram3_repeat_share})")
+    if lexical_diversity < 0.65:
+        risk_flags.append(f"lexical_diversity<{0.65} (={lexical_diversity})")
 
     return SpamHeuristics(
         total_words=total_words,
