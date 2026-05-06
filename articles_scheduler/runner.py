@@ -658,17 +658,19 @@ def _git_pull_before_slot() -> dict:
 
 def _find_orphan_drafts() -> list[str]:
     """
-    Ищет drafts/{slug}/article.html которые есть на диске, но не закоммичены
-    в git (untracked) или закоммичены частично (modified/добавлены, но не
-    в HEAD). Это сценарий «прошлый слот написал статью, но коммит не прошёл»
-    (commit_failed / OOM kill / контейнер прибили посреди commit).
+    Ищет ИСТИННЫЕ orphans: drafts/{slug}/article.html которые сами не
+    закоммичены в git (untracked / added / modified). Это сценарий
+    «прошлый слот написал статью, но коммит не прошёл» (commit_failed /
+    OOM kill / контейнер прибили посреди commit).
 
-    Без этого rescue работа теряется при следующем редеплое: drafts/ это
-    ephemeral working tree, при пересоздании контейнера остаются только
-    закоммиченные файлы.
+    КРИТИЧНО: orphan НЕ значит «в папке что-то изменилось». Orphan значит
+    «сам article.html не в актуальной версии в git». Если article.html
+    уже tracked и не modified, а в папке появился новый файл (например,
+    бот создал .notified sentinel, или watcher что-то записал) — это
+    НЕ orphan. Иначе rescue провоцирует push → redeploy Cloud Apps →
+    кладёт текущий слот scheduler'а.
 
-    Возвращает список slug-ов, у которых article.html есть на диске, но
-    git status видит drafts/{slug}/ как untracked или modified.
+    Возвращает только реально нуждающиеся в спасении папки.
     """
     if not DRAFTS_DIR.exists():
         return []
@@ -681,30 +683,54 @@ def _find_orphan_drafts() -> list[str]:
     if res.returncode != 0:
         return []
 
-    # git status --porcelain выводит строки вида:
-    #   ?? drafts/abc-foo/         (untracked dir — целая папка не в репо)
-    #   ?? drafts/abc-foo/article.html  (untracked file)
-    #    M drafts/abc-foo/article.html  (modified)
-    #   A  drafts/abc-foo/article.html  (added but not committed)
-    candidate_slugs: set[str] = set()
+    # git status --porcelain формат: XY <space> path
+    #   X = staged status (' ', 'M', 'A', 'D', 'R', 'C', '?')
+    #   Y = unstaged status (то же)
+    #   '??' = untracked
+    # Нам интересно только когда сам article.html (или вся папка как untracked)
+    # имеет статус не «всё в порядке».
+    orphan_slugs: set[str] = set()
     for line in (res.stdout or "").splitlines():
         if not line or len(line) < 4:
             continue
-        path = line[3:].strip().strip('"')  # снимаем кавычки если git их добавил
+        status_x = line[0]
+        status_y = line[1]
+        path = line[3:].strip().strip('"')
         if not path.startswith("drafts/"):
             continue
-        parts = path[len("drafts/"):].split("/", 1)
+        rest = path[len("drafts/"):]
+        # rest может быть либо "{slug}/" (untracked папка целиком), либо
+        # "{slug}/some/file.ext"
+        parts = rest.split("/", 1)
         slug = parts[0]
         if not slug or slug.startswith("_"):
             continue
-        candidate_slugs.add(slug)
 
-    orphans: list[str] = []
-    for slug in candidate_slugs:
-        article_path = DRAFTS_DIR / slug / "article.html"
-        if article_path.exists():
-            orphans.append(slug)
-    return sorted(orphans)
+        # Случай 1: ВСЯ папка drafts/{slug}/ untracked. Git выводит как
+        # "?? drafts/{slug}/" (rest = "{slug}/", без дальнейшего пути).
+        # ВАЖНО: rest должен быть строго "{slug}/", а не "{slug}/versions/"
+        # (это уже подпапка существующего drafts/{slug}/).
+        if status_x == "?" and status_y == "?" and rest == f"{slug}/":
+            article_path = DRAFTS_DIR / slug / "article.html"
+            if article_path.exists():
+                orphan_slugs.add(slug)
+            continue
+
+        # Случай 2: конкретный файл в drafts/{slug}/. Orphan ТОЛЬКО если
+        # это сам article.html и он untracked / added / modified. Любые
+        # другие файлы (.notified от бота, _pipeline.log.json от логгера,
+        # versions/v2.X.html от editor'а, любые подпапки) НЕ должны
+        # триггерить rescue: это нормальная работа бота/логгера с уже
+        # опубликованным draft'ом, и rescue→push→редеплой убил бы текущий
+        # слот scheduler'а.
+        sub_path = parts[1] if len(parts) > 1 else ""
+        if sub_path != "article.html":
+            continue
+        # article.html в неоптимальном статусе → orphan
+        if status_x in ("?", "A", "M") or status_y in ("?", "M"):
+            orphan_slugs.add(slug)
+
+    return sorted(orphan_slugs)
 
 
 def _rescue_orphan_drafts(orphans: list[str]) -> dict:
