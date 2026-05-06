@@ -224,20 +224,53 @@ def _update_failure_streak(entry: dict, timestamp: str) -> None:
 
 # ============ DRAFTS ============
 
-def _detect_new_slug(started_ts: float) -> str | None:
+def _detect_new_slug(started_ts: float, expected_slug: str | None = None) -> str | None:
     """
     Находит slug, чей каталог создан в течение текущего пайплайна.
-    Берём подкаталоги drafts/, у которых mtime > started_ts - 30 (запас на округление).
+
+    Если передан `expected_slug` (slug из topic-map, который мы ожидаем) —
+    проверяем, что папка `drafts/{expected_slug}/` существует и имеет
+    свежий mtime. Это защита от случая, когда Claude игнорирует slug из
+    brief'а и пишет в существующую похожую папку (бесконечная петля по
+    одной теме).
+
+    Если `expected_slug` не задан — поведение как раньше: самый свежий
+    подкаталог по mtime (для rewrite-режима, где slug известен иначе).
     """
     if not DRAFTS_DIR.exists():
         return None
+
+    # Жёсткий путь: ожидаем конкретный slug
+    if expected_slug:
+        expected_dir = DRAFTS_DIR / expected_slug
+        if expected_dir.is_dir() and expected_dir.stat().st_mtime > started_ts - 30:
+            return expected_slug
+        # Папка не создалась или не обновилась — это ошибка пайплайна.
+        # Пробуем найти что Claude создал вместо этого, для лога.
+        candidates = sorted(
+            [d for d in DRAFTS_DIR.iterdir()
+             if d.is_dir() and not d.name.startswith("_")
+             and d.stat().st_mtime > started_ts - 30],
+            key=lambda d: d.stat().st_mtime, reverse=True,
+        )
+        if candidates:
+            log.error(
+                "Slug mismatch: ожидали drafts/%s/, но Claude создал/обновил %s. "
+                "Это нарушение инструкции — slug должен браться из brief'а.",
+                expected_slug, [c.name for c in candidates[:3]],
+            )
+        else:
+            log.error("Slug mismatch: drafts/%s/ не создан и других свежих папок нет",
+                      expected_slug)
+        return None
+
+    # Старое поведение для rewrite-режима
     candidates = [
         d for d in DRAFTS_DIR.iterdir()
         if d.is_dir() and not d.name.startswith("_") and d.stat().st_mtime > started_ts - 30
     ]
     if not candidates:
         return None
-    # Самый свежий
     candidates.sort(key=lambda d: d.stat().st_mtime, reverse=True)
     return candidates[0].name
 
@@ -1268,14 +1301,19 @@ def run_one_article() -> dict:
                 log.info("Темы для %s исчерпаны, запускаю /expand-topics", category)
             else:
                 topic_title = (topic.get("title") or topic.get("topic_action") or "").strip()
-                claude_command = f"/write-article {category} {topic_title}"
+                topic_slug = topic.get("slug") or ""
+                # Slug передаём явно как часть аргумента — это тот SLUG который
+                # Claude обязан использовать. Без этого Claude часто игнорировал
+                # slug из brief'а и генерил свой → бесконечный цикл по теме.
+                claude_command = (
+                    f"/write-article {category} slug={topic_slug} {topic_title}"
+                )
                 entry["mode"] = "new"
                 entry["topic_id"] = topic.get("id")
-                entry["topic_slug"] = topic.get("slug")
+                entry["topic_slug"] = topic_slug
                 log.info(
                     "Тема выбрана: cat=%s id=%s slug=%s title=%s",
-                    category, topic.get("id"), topic.get("slug"),
-                    topic_title[:80],
+                    category, topic.get("id"), topic_slug, topic_title[:80],
                 )
 
         cmd = [
@@ -1331,7 +1369,17 @@ def run_one_article() -> dict:
         if slot_mode == "rewrite" and retry_slug:
             slug = retry_slug
         else:
-            slug = _detect_new_slug(started)
+            # Передаём expected_slug из topic-map чтобы поймать случай когда
+            # Claude не использовал slug из brief'а (а пишет в чужую папку).
+            # Если slot_mode == "expand_topics" — мы не дойдём сюда (там early
+            # return выше). Так что entry["topic_slug"] всегда задан в new-режиме.
+            expected_slug = entry.get("topic_slug")
+            slug = _detect_new_slug(started, expected_slug=expected_slug)
+            if expected_slug and slug != expected_slug:
+                # Slug mismatch уже залогирован в _detect_new_slug.
+                # Помечаем флагом в entry для scheduler_log
+                entry["slug_mismatch"] = True
+                entry["expected_slug"] = expected_slug
 
         # Если Claude упал, но статья на диске готова — переопределяем ok=True.
         rescued_after_failure = False

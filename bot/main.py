@@ -89,9 +89,9 @@ async def _queue_iteration(bot: Bot):
     # новый контейнер прочитает bot_state.json и НЕ будет повторно
     # публиковать тот же slug.
     #
-    # Если publisher упадёт — элемент уже удалён из очереди. Это ок: проще
-    # попросить заказчика нажать кнопку ещё раз чем рисковать дублирующимися
-    # публикациями после редеплоя.
+    # Если publisher упадёт по флакающей причине (network, fal.ai, OOM на
+    # генерации картинки) — возвращаем item обратно в очередь с инкрементом
+    # счётчика attempts. После 3 попыток отказываемся и сообщаем заказчику.
     item = action_queue.pop_next()
     if item is None:
         return
@@ -137,21 +137,66 @@ async def _queue_iteration(bot: Bot):
         publisher.publish, slug=slug, version=version,
     )
 
+    # Лимит автоматических retry для одной задачи. Сетевые/OOM-сбои —
+    # верни в очередь, заказчик не должен жать кнопку из-за них. После
+    # MAX_PUBLISH_ATTEMPTS отдаём заказчику решение (нажать ещё раз / разобрать).
+    MAX_PUBLISH_ATTEMPTS = 3
+
+    if not result.success:
+        attempts = int(item.get("attempts", 0)) + 1
+        if attempts < MAX_PUBLISH_ATTEMPTS:
+            log.warning(
+                "publish %s упал на attempt=%d/%d (error=%r) — возвращаю в очередь",
+                slug, attempts, MAX_PUBLISH_ATTEMPTS,
+                (result.error or "")[:200],
+            )
+            requeued = dict(item)
+            requeued["attempts"] = attempts
+            requeued["last_error"] = (result.error or "")[:300]
+            # Не используем enqueue_publish (он дедупит) — пишем напрямую
+            # как retry с сохранением chat_id и версии.
+            state.add_pending_action(requeued)
+            if chat_id:
+                try:
+                    await bot.send_message(
+                        chat_id=chat_id,
+                        text=(
+                            f"⚠️ <b>«{title}»</b>: попытка {attempts}/{MAX_PUBLISH_ATTEMPTS} "
+                            f"не удалась.\n\nПовторю автоматически через ~30 сек.\n\n"
+                            f"<code>{(result.error or 'неизвестная')[:300]}</code>"
+                        ),
+                        parse_mode="HTML",
+                    )
+                except Exception as exc:
+                    log.warning("Не смог отправить retry-уведомление: %s", exc)
+            return
+
+        # Исчерпали лимит попыток — оставляем заказчику ручное решение
+        log.error(
+            "publish %s провалился после %d попыток, бросаю",
+            slug, MAX_PUBLISH_ATTEMPTS,
+        )
+        if chat_id:
+            try:
+                await bot.send_message(
+                    chat_id=chat_id,
+                    text=(
+                        f"❌ <b>Не удалось опубликовать «{title}»</b>\n\n"
+                        f"После {MAX_PUBLISH_ATTEMPTS} попыток. "
+                        f"Последняя ошибка: <code>{(result.error or 'неизвестная')[:500]}</code>\n\n"
+                        "Статья осталась в drafts/. Нажмите ✅ Опубликовать ещё раз "
+                        "если хотите попробовать снова."
+                    ),
+                    parse_mode="HTML",
+                )
+            except Exception as exc:
+                log.warning("Не смог отправить final-failure уведомление: %s", exc)
+        return
+
     if not chat_id:
         return
 
     try:
-        if not result.success:
-            await bot.send_message(
-                chat_id=chat_id,
-                text=(
-                    f"❌ <b>Не удалось опубликовать «{title}»</b> (из очереди)\n\n"
-                    f"Ошибка: <code>{(result.error or 'неизвестная')[:500]}</code>\n\n"
-                    "Статья осталась в drafts/, можно повторить попытку нажатием ✅."
-                ),
-                parse_mode="HTML",
-            )
-            return
 
         cover_line = ""
         if result.cover_url:
