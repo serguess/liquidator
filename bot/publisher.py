@@ -114,18 +114,32 @@ def _cover_image_for(
     title: str,
     category: str,
     image_prompt: Optional[str] = None,
+    existing_cover_url: Optional[str] = None,
 ) -> Optional[str]:
     """
-    Генерирует обложку через fal.ai → Cloudinary. None при ошибке.
+    Возвращает URL обложки для статьи.
 
-    image_prompt - заранее подготовленный промпт под конкретную статью
-    (генерирует агент 6 при написании, кладёт в meta.json как поле
-    `image_prompt`). Если None или пусто - image_gen падает на шаблонный
-    промпт по категории.
+    Стратегия (по приоритету):
+      1. existing_cover_url - готовый cover_url из meta.json (записан агентом 7
+         через tools/image_gen.py при финализации драфта). Если есть - используем
+         как есть, ничего не генерим. Это путь по умолчанию для статей,
+         прошедших новый pipeline.
+
+      2. Если existing_cover_url нет (старый драфт без cover_url, либо у агента 7
+         генерация упала с soft fallback) - генерим заново через
+         tools.image_gen.generate_and_upload_cover. None при ошибке.
+
+    image_prompt - готовый промпт под конкретную статью (если есть в meta.json).
+                   Если None - image_gen построит из category.
 
     Импорт внутри функции, чтобы publisher.py загружался без cloudinary/fal-client
     в окружениях, где их нет (локальная отладка некоторых сценариев).
     """
+    if existing_cover_url and existing_cover_url.strip():
+        log.info("Используем готовый cover_url из meta.json для %s", slug)
+        return existing_cover_url.strip()
+
+    log.info("cover_url отсутствует в meta.json, запускаем генерацию для %s", slug)
     try:
         from tools.image_gen import generate_and_upload_cover
     except ImportError:
@@ -421,6 +435,9 @@ def publish(slug: str, version: Optional[str] = None) -> PublishResult:
     title = meta.get("title") or meta.get("h1") or slug
     description = meta.get("description") or ""
     image_prompt = meta.get("image_prompt") or None
+    # cover_url - заранее сгенерированная обложка от агента 7. Если есть -
+    # используем как есть и не вызываем fal.ai повторно.
+    existing_cover_url = meta.get("cover_url") or None
     text_chars = meta.get("text_chars")
     tone = (meta.get("tone") or "b").lower()
     if tone not in ("a", "b", "c", "d"):
@@ -441,9 +458,12 @@ def publish(slug: str, version: Optional[str] = None) -> PublishResult:
     drafts_archive_path: Optional[Path] = None
 
     try:
-        # 1. Сгенерировать обложку
+        # 1. Получить URL обложки. Сначала пробуем готовый cover_url из meta.json
+        # (записан агентом 7 при финализации драфта). Если нет - fallback на
+        # генерацию здесь (старые драфты или soft fallback при ошибке у агента 7).
         cover_url = _cover_image_for(
-            slug=slug, title=title, category=category, image_prompt=image_prompt,
+            slug=slug, title=title, category=category,
+            image_prompt=image_prompt, existing_cover_url=existing_cover_url,
         )
 
         # 2. Прочитать HTML, подставить обложку

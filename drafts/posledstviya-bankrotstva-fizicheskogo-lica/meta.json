@@ -8,7 +8,7 @@
   "topic_action": "разбор последствий банкротства",
   "breadcrumb_current": "Последствия банкротства физлица",
   "date_modified": "2026-05-06",
-  "og_image": "/assets/articles/posledstviya-bankrotstva-fizicheskogo-lica.jpg",
+  "og_image": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1778100296/articles/posledstviya-bankrotstva-fizicheskogo-lica-cover.jpg",
   "main_keyword": "последствия банкротства физического лица",
   "secondary_keywords": [
     "ограничения после банкротства физлица",
@@ -81,5 +81,8 @@
   "local_own_voice_hits": 2,
   "local_first_person_singular_hits": 0,
   "quality_gate_passed": true,
-  "quality_gate_blockers": []
+  "quality_gate_blockers": [],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1778100296/articles/posledstviya-bankrotstva-fizicheskogo-lica-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1778100296/articles/posledstviya-bankrotstva-fizicheskogo-lica-cover.jpg",
+  "cover_uploaded_at": "2026-05-06T20:44:58Z"
 }
