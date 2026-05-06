@@ -1,28 +1,36 @@
 [
   {
-    "timestamp": "2026-05-06T19:45:26",
+    "timestamp": "2026-05-06T20:35:31",
     "category": "fiz",
     "git_branch_check": {
       "ok": true,
       "was_detached": true,
-      "detached_sha": "260764cc373a41130b428346d247fb1c4b789d02",
+      "detached_sha": "397e84c5f113e1bc5cff3b35e118f6df40a1f186",
       "merged_orphan_commits": false
     },
     "git_pull": {
       "ok": true,
-      "stdout_tail": "Already up to date.\n",
+      "stdout_tail": "Updating 397e84c..aba2e6b\nFast-forward\n articles_scheduler/runner.py | 2 +-\n 1 file changed, 1 insertion(+), 1 deletion(-)\n",
       "stderr_tail": "From https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 1,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
     },
     "mode": "new",
     "topic_id": "fiz-04",
     "topic_slug": "bankrotstvo-pri-ipoteke-edinstvennoe-zhilye",
     "status": "failed",
     "slug": "bankrotstvo-pri-ipoteke-edinstvennoe-zhilye",
-    "duration_sec": 1626.6,
-    "returncode": -1,
+    "duration_sec": 667.0,
+    "returncode": 1,
     "rescued_after_failure": false,
-    "stdout_tail": "",
-    "stderr_tail": "\n[scheduler] killed by heartbeat timeout (>900s of silence)",
+    "stdout_tail": "You've hit your limit · resets 12:40am (UTC)\n",
+    "stderr_tail": "",
     "metrics": null
   }
 ]
