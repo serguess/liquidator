@@ -33,10 +33,10 @@ HEARTBEAT_PATH = DATA_DIR / ".scheduler_heartbeat"
 
 ROTATION = [c.strip() for c in os.getenv("ROTATION_ORDER", "fiz,yur,vzysk,news").split(",") if c.strip()]
 ARTICLES_PER_DAY = int(os.getenv("ARTICLES_PER_DAY", "1"))
-ARTICLE_TIMEOUT_SEC = int(os.getenv("ARTICLE_TIMEOUT_SEC", "2400"))  # 40 минут
+ARTICLE_TIMEOUT_SEC = int(os.getenv("ARTICLE_TIMEOUT_SEC", "3600"))  # 60 минут. Раньше было 2400 (40 мин), но на сложных темах с плотной терминологией (банкротство ООО, ипотека) writer крутил 5+ внутренних итераций самокоррекции и не дотягивал до агентов 6-7. Увеличено в мае 2026.
 LOCK_STALE_SEC = int(os.getenv("LOCK_STALE_SEC", "3600"))  # 1 час
 FAILURE_STREAK_LIMIT = int(os.getenv("FAILURE_STREAK_LIMIT", "3"))
-HEARTBEAT_TIMEOUT_SEC = int(os.getenv("HEARTBEAT_TIMEOUT_SEC", "1800"))  # 30 минут тишины = kill. Раньше было 15 мин, но сложные темы (fiz-04 ипотека: 5+ WebSearch'ей по КС/ВС/446 ГПК) не успевали обновлять heartbeat — слот падал на агенте 2. ARTICLE_TIMEOUT_SEC=2400 (40 мин) остаётся как hard-cap.
+HEARTBEAT_TIMEOUT_SEC = int(os.getenv("HEARTBEAT_TIMEOUT_SEC", "1800"))  # 30 минут тишины = kill. Если subprocess реально завис — heartbeat-таймаут добьёт раньше общего ARTICLE_TIMEOUT_SEC.
 GITHUB_REPO = os.getenv("GITHUB_REPO", "serguess/liquidator")
 GITHUB_BRANCH = os.getenv("GITHUB_BRANCH", "main")
 GIT_AUTHOR_NAME = os.getenv("GIT_AUTHOR_NAME", "Liquidator Scheduler")
