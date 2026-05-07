@@ -90,7 +90,7 @@
 
 ### Quality_gate `tools/quality_gate.py` проверит за тебя (НЕ делай руками)
 
-- Длина (hard 5500-7500, news 4500-6800)
+- Длина (hard 6000-8000, news 4500-6800)
 - Заспамленность (top10/ngram3/lex.diversity)
 - AI-маркеры (60+ regex, density ≤ 2/1000, 0 critical, ≤ 8 high)
 - Сокращения юр-терминов (юрлиц/физлиц/дебиторк/финупр) — autofix
