@@ -74,8 +74,18 @@ def _today_ok_count() -> int:
     )
 
 
+VALID_CATEGORIES = {"fiz", "yur", "vzysk", "news"}
+
+
 def _next_category() -> str:
-    """Простая ротация: берём индекс по числу попыток сегодня (включая упавшие)."""
+    """Простая ротация: берём индекс по числу попыток сегодня (включая упавшие).
+
+    Override через ENV FORCE_CATEGORY (например, FORCE_CATEGORY=news для разовой
+    публикации новости). Применяется и в SDK-вызове, и в CLI-режиме.
+    """
+    forced = (os.getenv("FORCE_CATEGORY") or "").strip().lower()
+    if forced in VALID_CATEGORIES:
+        return forced
     today = date.today().isoformat()
     today_entries = [
         e for e in _read_log()
@@ -1582,6 +1592,23 @@ def run_one_article() -> dict:
 
 
 if __name__ == "__main__":
+    import argparse
+
+    parser = argparse.ArgumentParser(
+        description="Один слот scheduler-а: запустить /write-article или /rewrite-article"
+    )
+    parser.add_argument(
+        "--category",
+        choices=sorted(VALID_CATEGORIES),
+        help="Принудительно задать категорию (fiz, yur, vzysk, news). "
+             "Переопределяет ротацию ROTATION_ORDER. Эквивалент ENV FORCE_CATEGORY.",
+    )
+    args = parser.parse_args()
+
+    # Если задан --category — выставляем FORCE_CATEGORY на время процесса.
+    if args.category:
+        os.environ["FORCE_CATEGORY"] = args.category
+
     logging.basicConfig(
         level=logging.INFO,
         format="%(asctime)s %(levelname)s %(name)s %(message)s",

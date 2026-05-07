@@ -13,6 +13,7 @@ from __future__ import annotations
 
 import os
 import re
+import sys
 import time
 import json
 import html
@@ -20,6 +21,8 @@ import asyncio
 import secrets
 import smtplib
 import logging
+import subprocess
+from datetime import datetime as _dt
 from collections import defaultdict, deque
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
@@ -950,6 +953,72 @@ def public_preview_by_token(slug: str, t: str = "", v: str = ""):
     response.headers["X-Robots-Tag"] = "noindex, nofollow"
     response.headers["Cache-Control"] = "no-store"
     return response
+
+
+# ============ ADMIN: одной командой запустить слот scheduler-а ============
+# POST/GET /admin/run/{category} — запускает articles_scheduler.runner с
+# FORCE_CATEGORY={category} в фоне (subprocess). Возвращает PID и путь к логу.
+# Защита: Basic Auth (PREVIEW_USER/PREVIEW_PASSWORD).
+#
+# Использование:
+#   curl -u admin:admin -X POST https://pravo.shop/admin/run/news
+#   или просто открыть в браузере https://pravo.shop/admin/run/news
+#
+# Прогресс — через тот же /preview/ или Telegram-уведомление от bot/watcher.
+
+_VALID_RUNNER_CATEGORIES = {"fiz", "yur", "vzysk", "news"}
+_RUNNER_LOG_DIR = ROOT / "data" / "local_runs"
+
+
+def _start_runner_slot(category: str) -> dict:
+    """Запускает один слот scheduler-а в фоне через subprocess. Возвращает
+    {pid, log_path, started_at, category}. Не блокирует HTTP-ответ."""
+    if category not in _VALID_RUNNER_CATEGORIES:
+        raise HTTPException(
+            status_code=400,
+            detail=f"category must be one of: {sorted(_VALID_RUNNER_CATEGORIES)}",
+        )
+
+    _RUNNER_LOG_DIR.mkdir(parents=True, exist_ok=True)
+    ts = _dt.now().strftime("%Y%m%d_%H%M%S")
+    log_path = _RUNNER_LOG_DIR / f"manual_{category}_{ts}.log"
+
+    env = os.environ.copy()
+    env["FORCE_CATEGORY"] = category
+
+    log_fh = open(log_path, "wb", buffering=0)
+    log_fh.write(f"=== MANUAL RUN category={category} started_at={ts} ===\n".encode("utf-8"))
+    proc = subprocess.Popen(
+        [sys.executable, "-m", "articles_scheduler.runner", "--category", category],
+        cwd=str(ROOT),
+        env=env,
+        stdout=log_fh,
+        stderr=subprocess.STDOUT,
+        # На POSIX отвязываем процесс от парента, чтобы он жил после перезапуска uvicorn.
+        start_new_session=(os.name != "nt"),
+    )
+    log.info("Запущен ручной слот: category=%s pid=%d log=%s", category, proc.pid, log_path)
+    return {
+        "ok": True,
+        "category": category,
+        "pid": proc.pid,
+        "log_path": str(log_path.relative_to(ROOT)),
+        "started_at": ts,
+        "hint": "Слот запущен в фоне. Прогресс смотри в /preview/ или жди уведомление в Telegram.",
+    }
+
+
+@app.post("/admin/run/{category}", include_in_schema=False)
+def admin_run_slot(category: str, _user: str = Depends(_check_preview_auth)):
+    """Запустить slot scheduler-а с указанной категорией. POST для строгости."""
+    return _start_runner_slot(category)
+
+
+@app.get("/admin/run/{category}", include_in_schema=False)
+def admin_run_slot_get(category: str, _user: str = Depends(_check_preview_auth)):
+    """Удобный GET-вариант: можно открыть в браузере и сразу запустить.
+    HTML с подтверждением + автоматический POST через JS."""
+    return _start_runner_slot(category)
 
 
 # ============ TELEGRAM BOT (фоном вместе с FastAPI) ============
