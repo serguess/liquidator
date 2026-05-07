@@ -145,6 +145,28 @@ def _og_image_path(slug: str) -> str:
     return f"/assets/articles/{slug}.jpg"
 
 
+def _resolve_cover_url(meta: dict, slug: str) -> str:
+    """
+    URL обложки для og:image + article__cover.
+
+    Приоритет:
+      1. meta["cover_url"] - Cloudinary URL, записанный агентом 7 (image_gen.py).
+         Это РЕАЛЬНЫЙ URL обложки - и он должен использоваться сразу, чтобы
+         заказчик видел картинку в превью драфта ДО нажатия "Опубликовать".
+      2. meta["og_image"] - устаревший шаблонный хардкод от агента 6 (он пишет
+         "/assets/articles/{slug}.jpg" по умолчанию). Используется как fallback
+         для старых драфтов без cover_url.
+      3. Fallback /assets/articles/{slug}.jpg - на случай если оба поля пусты.
+         Этот путь физически появляется только после публикации (bot/publisher.py
+         копирует туда обложку из Cloudinary).
+    """
+    return (
+        (meta.get("cover_url") or "").strip()
+        or (meta.get("og_image") or "").strip()
+        or _og_image_path(slug)
+    )
+
+
 def _short_bc(title: str, max_len: int = 60) -> str:
     """Короткая последняя крошка из title. Берём до первого ':' или режем по длине."""
     if not title:
@@ -262,8 +284,8 @@ def render_article_head(h1: str, lead: str, date_human: str, read_minutes: int,
     )
 
 
-def render_cover(slug: str) -> str:
-    img = _og_image_path(slug)
+def render_cover(slug: str, meta: dict) -> str:
+    img = _resolve_cover_url(meta, slug)
     return f'<div class="article__cover" style="background-image:url(\'{img}\')"></div>'
 
 
@@ -352,7 +374,7 @@ def render_article_jsonld(meta: dict) -> str:
     category = meta["category"]
     cat_label = CATEGORY_LABELS.get(category, category)
     canonical = meta.get("canonical_url") or _canonical_url(category, slug)
-    img = meta.get("og_image") or _og_image_path(slug)
+    img = _resolve_cover_url(meta, slug)
     date_pub = (meta.get("date_published") or meta.get("published_at") or _today_iso())[:10]
     date_mod = (meta.get("date_modified") or meta.get("updated_at") or date_pub)[:10]
 
@@ -443,7 +465,7 @@ def render_head(meta: dict, jsonld_blocks: list[str]) -> str:
     title = meta["title"]
     description = meta["description"]
     canonical = meta.get("canonical_url") or _canonical_url(category, slug)
-    og_img = meta.get("og_image") or _og_image_path(slug)
+    og_img = _resolve_cover_url(meta, slug)
     og_title = meta.get("og_title") or title
     og_desc = meta.get("og_description") or description
     robots = meta.get("robots") or "index, follow"
@@ -538,7 +560,7 @@ def assemble_article(meta: dict, body_html: str, disclaimer_text: str) -> str:
     header = render_header()
     breadcrumbs = render_breadcrumbs(category, breadcrumb_current)
     article_head = render_article_head(h1, lead, date_human, read_minutes, category)
-    cover = render_cover(slug)
+    cover = render_cover(slug, meta)
     author_aside = render_author_aside()
     related_section = render_related_section(category, slug)
     footer = render_footer()
