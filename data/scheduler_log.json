@@ -43,5 +43,32 @@
     "stdout_tail": "You've hit your limit · resets 6am (UTC)\n",
     "stderr_tail": "",
     "metrics": null
+  },
+  {
+    "timestamp": "2026-05-07T09:52:00",
+    "category": "fiz",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": false,
+      "stdout_tail": "",
+      "stderr_tail": "GIT_PUSH_TOKEN не задан"
+    },
+    "mode": "new",
+    "topic_id": "fiz-04",
+    "topic_slug": "bankrotstvo-pri-ipoteke-edinstvennoe-zhilye",
+    "slug_mismatch": true,
+    "expected_slug": "bankrotstvo-pri-ipoteke-edinstvennoe-zhilye",
+    "status": "failed",
+    "slug": null,
+    "duration_sec": 10.3,
+    "returncode": 1,
+    "rescued_after_failure": false,
+    "stdout_tail": "Failed to authenticate. API Error: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"Invalid authentication credentials\"},\"request_id\":\"req_011CanmQP2majPTMfnRXwjUd\"}\n",
+    "stderr_tail": "Warning: no stdin data received in 3s, proceeding without it. If piping from a slow command, redirect stdin explicitly: < /dev/null to skip, or wait longer.\n",
+    "metrics": null
   }
 ]
