@@ -1283,15 +1283,31 @@ def run_one_article() -> dict:
     # Перед тем как брать новую тему — проверяем, есть ли failed_qa-статья
     # которую можно дорабатывать через /rewrite-article. Это экономит токены
     # (не запускаем агентов 1-2-3 заново) и чистит хвост из «зависших» статей.
+    # ВАЖНО: при явном FORCE_CATEGORY (CLI --category или ENV) retry применяется
+    # только если он той же категории. Иначе пользователь явно попросил новую
+    # статью X, а получил бы ремонт чужой Y — это противоречит запросу.
+    forced_cat = (os.getenv("FORCE_CATEGORY") or "").strip().lower()
+    forced_cat = forced_cat if forced_cat in VALID_CATEGORIES else ""
+
     retry_slug = _find_failed_qa_for_retry(max_iterations=5)
     if retry_slug:
-        log.info("Найдена failed_qa статья для доработки: %s", retry_slug)
-        # Категория берётся из meta.json статьи, а не из ротации
         retry_meta = _read_meta(retry_slug)
+        retry_cat = retry_meta.get("category")
+        if forced_cat and retry_cat != forced_cat:
+            log.info(
+                "failed_qa-статья %s (cat=%s) пропущена: FORCE_CATEGORY=%s — берём новую тему",
+                retry_slug, retry_cat, forced_cat,
+            )
+            retry_slug = None
+        else:
+            log.info("Найдена failed_qa статья для доработки: %s", retry_slug)
+
+    if retry_slug:
+        # Категория берётся из meta.json статьи, а не из ротации
         category = retry_meta.get("category") or _next_category()
         slot_mode = "rewrite"
     else:
-        category = _next_category()
+        category = _next_category()  # _next_category уважает FORCE_CATEGORY
         slot_mode = "new"
 
     log.info("Старт слота: mode=%s category=%s today_count=%d/%d",
