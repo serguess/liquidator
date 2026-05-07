@@ -1,11 +1,11 @@
 [
   {
-    "timestamp": "2026-05-07T01:03:57",
-    "category": "fiz",
+    "timestamp": "2026-05-07T19:16:55",
+    "category": "news",
     "git_branch_check": {
       "ok": true,
       "was_detached": true,
-      "detached_sha": "943ce4965a92a06af3ca4184247b5db5f1f24f69",
+      "detached_sha": "8d6dd0c0bd897881a593cf8f3069f11b49a380f3",
       "merged_orphan_commits": false
     },
     "git_pull": {
@@ -14,130 +14,33 @@
       "stderr_tail": "From https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n"
     },
     "mode": "new",
-    "topic_id": "fiz-04",
-    "topic_slug": "bankrotstvo-pri-ipoteke-edinstvennoe-zhilye",
-    "status": "timeout",
-    "duration_sec": 2401.5
-  },
-  {
-    "timestamp": "2026-05-07T05:03:57",
-    "category": "yur",
-    "git_branch_check": {
-      "ok": true,
-      "was_detached": false,
-      "branch": "main"
+    "topic_id": "news-01",
+    "topic_slug": "izmeneniya-127-fz-2026",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 1,
+      "passed": false,
+      "blockers": [
+        "spam_risk: 2 флагов (top10_share>0.085 (=0.091), ngram3_repeat_share>0.025 (=0.071)), top-5: ['года', 'долг', 'действу', 'сумм', 'процедур']"
+      ],
+      "warnings": [],
+      "recommendations": [
+        "reduce_repetition: разбавить топ-5 частотных лемм местоимениями/перифразом — ['года', 'долг', 'действу', 'сумм', 'процедур']"
+      ],
+      "stderr_tail": ""
     },
-    "git_pull": {
-      "ok": true,
-      "stdout_tail": "Already up to date.\n",
-      "stderr_tail": "From https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n"
-    },
-    "mode": "new",
-    "topic_id": "yur-02",
-    "topic_slug": "bankrotstvo-ooo-poshagovo-2026",
-    "status": "failed",
-    "slug": "bankrotstvo-ooo-poshagovo-2026",
-    "duration_sec": 106.1,
+    "status": "failed_qa",
+    "slug": "izmeneniya-127-fz-2026",
+    "duration_sec": 1896.4,
     "returncode": 1,
-    "rescued_after_failure": false,
-    "stdout_tail": "You've hit your limit · resets 6am (UTC)\n",
+    "rescued_after_failure": true,
+    "stdout_tail": "You've hit your limit · resets 11:50pm (UTC)\n",
     "stderr_tail": "",
-    "metrics": null
-  },
-  {
-    "timestamp": "2026-05-07T09:52:00",
-    "category": "fiz",
-    "git_branch_check": {
-      "ok": true,
-      "was_detached": false,
-      "branch": "main"
-    },
-    "git_pull": {
-      "ok": false,
-      "stdout_tail": "",
-      "stderr_tail": "GIT_PUSH_TOKEN не задан"
-    },
-    "mode": "new",
-    "topic_id": "fiz-04",
-    "topic_slug": "bankrotstvo-pri-ipoteke-edinstvennoe-zhilye",
-    "slug_mismatch": true,
-    "expected_slug": "bankrotstvo-pri-ipoteke-edinstvennoe-zhilye",
-    "status": "failed",
-    "slug": null,
-    "duration_sec": 10.3,
-    "returncode": 1,
-    "rescued_after_failure": false,
-    "stdout_tail": "Failed to authenticate. API Error: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"Invalid authentication credentials\"},\"request_id\":\"req_011CanmQP2majPTMfnRXwjUd\"}\n",
-    "stderr_tail": "Warning: no stdin data received in 3s, proceeding without it. If piping from a slow command, redirect stdin explicitly: < /dev/null to skip, or wait longer.\n",
-    "metrics": null
-  },
-  {
-    "timestamp": "2026-05-07T10:14:18",
-    "category": "yur",
-    "git_branch_check": {
-      "ok": true,
-      "was_detached": false,
-      "branch": "main"
-    },
-    "git_pull": {
-      "ok": false,
-      "stdout_tail": "",
-      "stderr_tail": "GIT_PUSH_TOKEN не задан"
-    },
-    "mode": "new",
-    "topic_id": "yur-02",
-    "topic_slug": "bankrotstvo-ooo-poshagovo-2026",
-    "status": "timeout",
-    "duration_sec": 2404.2
-  },
-  {
-    "timestamp": "2026-05-07T13:03:42",
-    "category": "fiz",
-    "git_branch_check": {
-      "ok": true,
-      "was_detached": false,
-      "branch": "main"
-    },
-    "git_pull": {
-      "ok": false,
-      "stdout_tail": "",
-      "stderr_tail": "GIT_PUSH_TOKEN не задан"
-    },
-    "mode": "new",
-    "topic_id": "fiz-04",
-    "topic_slug": "bankrotstvo-pri-ipoteke-edinstvennoe-zhilye",
-    "status": "failed",
-    "slug": "bankrotstvo-pri-ipoteke-edinstvennoe-zhilye",
-    "duration_sec": 351.8,
-    "returncode": 1,
-    "rescued_after_failure": false,
-    "stdout_tail": "Failed to authenticate. API Error: 403 {\"error\":{\"type\":\"forbidden\",\"message\":\"Request not allowed\"}}\n",
-    "stderr_tail": "",
-    "metrics": null
-  },
-  {
-    "timestamp": "2026-05-07T13:21:22",
-    "category": "yur",
-    "git_branch_check": {
-      "ok": true,
-      "was_detached": false,
-      "branch": "main"
-    },
-    "git_pull": {
-      "ok": false,
-      "stdout_tail": "",
-      "stderr_tail": "GIT_PUSH_TOKEN не задан"
-    },
-    "mode": "new",
-    "topic_id": "yur-03",
-    "topic_slug": "subsidiarka-direktora-kak-zashchititsya",
-    "status": "failed",
-    "slug": "subsidiarka-direktora-kak-zashchititsya",
-    "duration_sec": 936.7,
-    "returncode": 1,
-    "rescued_after_failure": false,
-    "stdout_tail": "Failed to authenticate. API Error: 403 {\"error\":{\"type\":\"forbidden\",\"message\":\"Request not allowed\"}}\n",
-    "stderr_tail": "",
-    "metrics": null
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 5946
+    }
   }
 ]

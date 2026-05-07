@@ -81,6 +81,38 @@
       "rejection_reason": null,
       "published_url": null
     },
-    "vzyskanie-debitorskoj-zadolzhennosti": null
+    "vzyskanie-debitorskoj-zadolzhennosti": null,
+    "posledstviya-bankrotstva-fizicheskogo-lica": {
+      "category": "fiz",
+      "title": "Последствия банкротства физического лица в 2026 году",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 162,
+      "tg_chat_id": 144472991,
+      "first_seen_at": "2026-05-07T19:01:50",
+      "last_action_at": "2026-05-07T19:01:50",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null
+    },
+    "izmeneniya-127-fz-2026": {
+      "category": "news",
+      "title": "Изменения в законе о банкротстве 2026",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 166,
+      "tg_chat_id": 144472991,
+      "first_seen_at": "2026-05-07T19:40:50",
+      "last_action_at": "2026-05-07T19:40:50",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null
+    }
   }
 }
