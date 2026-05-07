@@ -47,7 +47,12 @@
     "https://www.consultant.ru/document/cons_doc_LAW_176147/c44eda6e51d54d6e7c2dca64946d0f5d0b1d2cab/",
     "https://ej.sudrf.ru/"
   ],
-  "schema_types": ["Article", "Organization", "BreadcrumbList", "FAQPage"],
+  "schema_types": [
+    "Article",
+    "Organization",
+    "BreadcrumbList",
+    "FAQPage"
+  ],
   "factcheck_passed": true,
   "factcheck_notes": [
     "Автор по решению заказчика - Organization 'ООО «ЛИКВИДАТОР»' (не Person).",
@@ -65,11 +70,32 @@
   "external_links_count": 6,
   "external_links_min_required": 2,
   "html_chars": 26450,
-  "text_chars": 11890,
+  "text_chars": 14457,
   "uniqueness_check": {
     "passed": true,
     "ai_markers_count": 1,
     "ai_markers_note": "Только 'не является' в дисклеймере - устойчивый юр-оборот",
     "structure_overlap_with_published": 0.18
-  }
+  },
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "length_status": "too_long",
+  "length_kind": "default",
+  "local_spam_top10_share": 0.163,
+  "local_spam_ngram3_repeat": 0.089,
+  "local_lexical_diversity": 0.432,
+  "local_ai_markers_density": 0.0,
+  "local_ai_markers_total": 0,
+  "local_ai_markers_critical": 0,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 0,
+  "local_first_person_singular_hits": 1,
+  "quality_gate_passed": false,
+  "quality_gate_blockers": [
+    "length_too_long: 14457 > 8000 (kind=default)",
+    "spam_risk: 3 флагов (top10_share>0.085 (=0.163), ngram3_repeat_share>0.025 (=0.089), lexical_diversity<0.65 (=0.432)), top-5: ['приказ', 'срок', 'отмен', 'возражен', 'копи']",
+    "first_person_singular: 1 (должно быть 0)"
+  ]
 }

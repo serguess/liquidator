@@ -1,0 +1,143 @@
+{
+  "file": "C:\\Users\\Asus\\Documents\\personal_ai\\projects\\bankrotstvo\\drafts\\vzyskanie-debitorskoj-zadolzhennosti\\article.html",
+  "passed": false,
+  "blockers": [
+    "spam_risk: 3 флагов (top10_share>0.085 (=0.086), ngram3_repeat_share>0.025 (=0.03), lexical_diversity<0.65 (=0.611)), top-5: ['взыскан', 'дней', 'претенз', 'долг', 'день']"
+  ],
+  "warnings": [],
+  "autofix": {
+    "file": "C:\\Users\\Asus\\Documents\\personal_ai\\projects\\bankrotstvo\\drafts\\vzyskanie-debitorskoj-zadolzhennosti\\article.html",
+    "abbreviation_fixes": {},
+    "punctuation_fixes": 0,
+    "em_dash_fixes": 0,
+    "eng_quotes_fixes": 0,
+    "changed": false,
+    "bytes_before": 39662,
+    "bytes_after": 39662
+  },
+  "quality_checks": {
+    "file": "drafts\\vzyskanie-debitorskoj-zadolzhennosti\\article.html",
+    "text_chars": 7884,
+    "length_status": "warn",
+    "length_kind": "default",
+    "passed": false,
+    "abbreviation_hits": [],
+    "punctuation_hits": [],
+    "spam": {
+      "total_words": 673,
+      "unique_lemmas": 411,
+      "lexical_diversity": 0.611,
+      "top10_words": [
+        [
+          "взыскан",
+          8
+        ],
+        [
+          "дней",
+          8
+        ],
+        [
+          "претенз",
+          6
+        ],
+        [
+          "долг",
+          6
+        ],
+        [
+          "день",
+          5
+        ],
+        [
+          "судебный",
+          5
+        ],
+        [
+          "приказ",
+          5
+        ],
+        [
+          "лист",
+          5
+        ],
+        [
+          "дебиторск",
+          5
+        ],
+        [
+          "задолженност",
+          5
+        ]
+      ],
+      "top10_share": 0.086,
+      "ngram3_repeat_count": 20,
+      "ngram3_total": 671,
+      "ngram3_repeat_share": 0.03,
+      "risk_flags": [
+        "top10_share>0.085 (=0.086)",
+        "ngram3_repeat_share>0.025 (=0.03)",
+        "lexical_diversity<0.65 (=0.611)"
+      ]
+    }
+  },
+  "ai_markers": {
+    "file": "drafts\\vzyskanie-debitorskoj-zadolzhennosti\\article.html",
+    "text_chars": 9361,
+    "hits_total": 2,
+    "density_per_1000": 0.21,
+    "by_severity": {
+      "critical": 0,
+      "high": 0,
+      "medium": 0,
+      "low": 2
+    },
+    "own_voice_hits": 0,
+    "first_person_singular_hits": 0,
+    "hits": [
+      {
+        "name": "ИИ-лексика: «взаимодействие/тонкости/нюансы (абстрактно)»",
+        "category": "ai-lexis",
+        "severity": "low",
+        "match": "Взаимодействие",
+        "position": 9168,
+        "context": "...ение law@pravo.shop Коммерческие предложения biz@pravo.shop Взаимодействие со СМИ pr@pravo.shop © 2018-2026 ООО «ЛИКВИДАТОР». Все прав..."
+      },
+      {
+        "name": "Канцелярит: «в рамках» (без нужды)",
+        "category": "clerical",
+        "severity": "low",
+        "match": "в рамках",
+        "position": 8780,
+        "context": "...ровождение на всех этапах. Надёжность и законность Работаем в рамках ФЗ и действующего законодательства РФ. РЕКВИЗИТЫ ООО «ЛИКВИ..."
+      }
+    ]
+  },
+  "anti_template": {
+    "file": "drafts\\vzyskanie-debitorskoj-zadolzhennosti\\article.html",
+    "text_chars": 7884,
+    "phrases_loaded": 138,
+    "passed": true,
+    "hits": []
+  },
+  "law_quotes": {
+    "total_chars": 0,
+    "limit": 600,
+    "samples": []
+  },
+  "rhythm": {
+    "file": "drafts\\vzyskanie-debitorskoj-zadolzhennosti\\article.html",
+    "text_chars": 7884,
+    "sentences_total": 86,
+    "avg_sentence_len": 8.2,
+    "short_sentences_count": 19,
+    "short_sentences_share": 0.221,
+    "long_sentences_count": 0,
+    "parasite_count": 2,
+    "parasite_per_1000": 0.25,
+    "flags": []
+  },
+  "recommendations": [
+    "reduce_repetition: разбавить топ-5 частотных лемм местоимениями/перифразом — ['взыскан', 'дней', 'претенз', 'долг', 'день']"
+  ],
+  "retry_count": 2
+}

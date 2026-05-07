@@ -1,0 +1,63 @@
+{
+  "slug": "vzyskanie-debitorskoj-zadolzhennosti",
+  "category": "vzysk",
+  "article_type": "C",
+  "check_date": "2026-05-07",
+  "passed": true,
+  "scores": {
+    "structure_overlap": 0.0,
+    "thesis_similarity": 0.0,
+    "cta_overlap": 0.0,
+    "textru_uniqueness": null
+  },
+  "thresholds": {
+    "structure_overlap": 0.40,
+    "thesis_similarity": 0.30,
+    "cta_overlap": 0.20
+  },
+  "database_status": {
+    "peers_compared": 0,
+    "published_articles_in_category": 0,
+    "published_articles_total": 0,
+    "note": "База содержит только draft-статьи (published=0). Категория vzysk впервые пополняется. Сравнение не требуется — нет опубликованных статей для эмбеддингового сравнения."
+  },
+  "structure_analysis": {
+    "h2_count": 6,
+    "h2_headings": [
+      "Коротко: четыре этапа взыскания",
+      "Без претензии суд вернёт иск",
+      "Судебный приказ или иск: выбор зависит от суммы",
+      "Арест счёта до решения суда: как это работает",
+      "Срок давности, пристав, банкротство должника",
+      "Частые вопросы"
+    ]
+  },
+  "content_analysis": {
+    "total_chars": 8581,
+    "total_words": 1229,
+    "key_phrase_repetition": {
+      "взыскание дебиторской задолженности": 4,
+      "иск": 23,
+      "претензия": 3,
+      "долг": 7,
+      "должник": 6
+    },
+    "cta_markers": ["CTA-TOP", "CTA-MID", "CTA-BOTTOM"]
+  },
+  "ai_markers_check": {
+    "found": ["представляется"],
+    "status": "minor_markers_found",
+    "note": "Найдено слово 'представляется' (1 раз) — нейтральный глагол, не типичный AI-маркер. Явных AI-паттернов (в заключение, подводя итог, несомненно, целесообразно) не обнаружено. Окончательную проверку на AI-детектор проведёт quality_gate после редактуры агента 6."
+  },
+  "similar_articles": [],
+  "conflicts": [],
+  "recommendation": "ok",
+  "notes": {
+    "uniqueness_status": "Статья уникальна на уровне эмбеддингов — сравнение не требуется (нет опубликованных пиров). Категория vzysk в первый раз.",
+    "structure_validity": "Структура соответствует плану (outline.json): 6 H2, 3 CTA-точки (TOP, MID, BOTTOM). Логика: претензия → выбор суда → обеспечение → риски → FAQ. Ориентирована на кредитора, а не должника (в отличие от соседней статьи snyatie-aresta).",
+    "next_steps": "Передать на агента 6 (редактура стилистики). Quality_gate проверит ИИ-маркеры, density, заспамленность и другие технические метрики."
+  },
+  "stored_in_db": true,
+  "article_id": 4,
+  "embeddings_status": "Эмбеддинги полной статьи и блоков записаны в data/embeddings.sqlite (published=0). Флаг переключится на 1 при публикации через bot/publisher.py."
+}
