@@ -611,7 +611,12 @@ if (lion) {
     return el;
   }
 
-  let activeCards = articles.slice();
+  // Initial filter — respect active chip from HTML (default: 'all')
+  const initialChip = chips.find(c => c.classList.contains('is-active'));
+  const initialFilter = (initialChip && initialChip.dataset.filter) || 'all';
+  let activeCards = initialFilter === 'all'
+    ? articles.slice()
+    : articles.filter(a => a.cat === initialFilter);
   let index = 0;
   let isTransitioning = false;
 
