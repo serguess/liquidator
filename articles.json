@@ -1,109 +1,18 @@
 {
-  "generated": "2026-05-06",
+  "generated": "2026-05-07",
   "articles": [
     {
-      "slug": "kak-spisat-dolgi-cherez-bankrotstvo-fizicheskogo-lica",
-      "cat": "fiz",
-      "catLabel": "Банкротство физических лиц",
-      "title": "Как списать долги через банкротство физического лица",
-      "desc": "Пошаговый процесс банкротства физического лица, условия, документы и последствия процедуры.",
-      "date": "12 мая 2024",
-      "dateIso": "2024-05-12",
-      "read": "6 мин.",
-      "tone": "a",
-      "img": "assets/a1.webp",
-      "url": "articles/fiz/kak-spisat-dolgi-cherez-bankrotstvo-fizicheskogo-lica"
-    },
-    {
-      "slug": "bankrotstvo-yuridicheskih-lic-poshagovaya-instrukciya",
+      "slug": "bankrotstvo-ooo-poshagovo-2026",
       "cat": "yur",
       "catLabel": "Банкротство юридических лиц",
-      "title": "Банкротство юридических лиц: пошаговая инструкция",
-      "desc": "Разбираем этапы банкротства компании, риски для руководителя и возможные варианты развития событий.",
-      "date": "8 мая 2024",
-      "dateIso": "2024-05-08",
-      "read": "8 мин.",
+      "title": "Банкротство ООО: пошаговая процедура от заявления до ликвидации",
+      "desc": "Как проходит банкротство ООО: этапы, сроки, документы, роль арбитражного управляющего и риск субсидиарной ответственности директора.",
+      "date": "7 мая 2026",
+      "dateIso": "2026-05-07",
+      "read": "5 мин.",
       "tone": "b",
-      "img": "assets/a2.webp",
-      "url": "articles/yur/bankrotstvo-yuridicheskih-lic-poshagovaya-instrukciya"
-    },
-    {
-      "slug": "kak-vernut-dolg-s-kontragenta-bez-suda",
-      "cat": "vzysk",
-      "catLabel": "Взыскание задолженности",
-      "title": "Как вернуть долг с контрагента без суда",
-      "desc": "Эффективные досудебные методы взыскания задолженности и как избежать длительных судебных тяжб.",
-      "date": "5 мая 2024",
-      "dateIso": "2024-05-05",
-      "read": "5 мин.",
-      "tone": "c",
-      "img": "assets/a3.webp",
-      "url": "articles/vzysk/kak-vernut-dolg-s-kontragenta-bez-suda"
-    },
-    {
-      "slug": "chem-grozit-neuplata-kreditov-i-zajmov",
-      "cat": "news",
-      "catLabel": "Новости",
-      "title": "Чем грозит неуплата кредитов и займов",
-      "desc": "Последствия просрочек по кредитам и займам: штрафы, пени, ухудшение кредитной истории и арест имущества.",
-      "date": "1 мая 2024",
-      "dateIso": "2024-05-01",
-      "read": "4 мин.",
-      "tone": "d",
-      "img": "assets/a4.webp",
-      "url": "articles/news/chem-grozit-neuplata-kreditov-i-zajmov"
-    },
-    {
-      "slug": "kakoe-imushchestvo-ne-mogut-zabrat-pri-bankrotstve",
-      "cat": "fiz",
-      "catLabel": "Банкротство физических лиц",
-      "title": "Какое имущество не могут забрать при банкротстве",
-      "desc": "Полный перечень имущества, которое остаётся у должника после завершения процедуры.",
-      "date": "28 апреля 2024",
-      "dateIso": "2024-04-28",
-      "read": "5 мин.",
-      "tone": "e",
-      "img": "assets/a5.webp",
-      "url": "articles/fiz/kakoe-imushchestvo-ne-mogut-zabrat-pri-bankrotstve"
-    },
-    {
-      "slug": "subsidiarnaya-otvetstvennost-rukovoditelya",
-      "cat": "yur",
-      "catLabel": "Банкротство юридических лиц",
-      "title": "Субсидиарная ответственность руководителя",
-      "desc": "В каких случаях руководитель может быть привлечён к ответственности по долгам компании.",
-      "date": "20 апреля 2024",
-      "dateIso": "2024-04-20",
-      "read": "7 мин.",
-      "tone": "f",
-      "img": "assets/a6.webp",
-      "url": "articles/yur/subsidiarnaya-otvetstvennost-rukovoditelya"
-    },
-    {
-      "slug": "ispolnitelnoe-proizvodstvo-chto-delat-dolzhniku",
-      "cat": "vzysk",
-      "catLabel": "Взыскание задолженности",
-      "title": "Исполнительное производство: что делать должнику",
-      "desc": "Права и обязанности сторон при принудительном взыскании долга и способы законной защиты.",
-      "date": "15 апреля 2024",
-      "dateIso": "2024-04-15",
-      "read": "6 мин.",
-      "tone": "g",
-      "img": "assets/a1.webp",
-      "url": "articles/vzysk/ispolnitelnoe-proizvodstvo-chto-delat-dolzhniku"
-    },
-    {
-      "slug": "izmeneniya-v-zakone-o-bankrotstve-2024",
-      "cat": "news",
-      "catLabel": "Новости",
-      "title": "Изменения в законе о банкротстве 2024",
-      "desc": "Ключевые поправки в законодательстве и как они влияют на должников и кредиторов в текущем году.",
-      "date": "10 апреля 2024",
-      "dateIso": "2024-04-10",
-      "read": "5 мин.",
-      "tone": "h",
-      "img": "assets/a2.webp",
-      "url": "articles/news/izmeneniya-v-zakone-o-bankrotstve-2024"
+      "img": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1778157914/articles/bankrotstvo-ooo-poshagovo-2026-cover.jpg",
+      "url": "articles/yur/bankrotstvo-ooo-poshagovo-2026"
     }
   ]
 }

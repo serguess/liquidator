@@ -61,13 +61,16 @@
     const p = Math.min(q ? 1 : page, pages);
     const slice = list.slice((p - 1) * PAGE_SIZE, p * PAGE_SIZE);
 
-    grid.innerHTML = slice.map(a => `
-      <a class="category-card" href="../${a.url}" style="background-image:linear-gradient(180deg, rgba(10,13,18,0.1) 0%, rgba(10,13,18,0.88) 100%), url('../${a.img}')">
+    const isAbsoluteUrl = (s) => /^(https?:)?\/\//i.test(s || '');
+    grid.innerHTML = slice.map(a => {
+      const imgUrl = isAbsoluteUrl(a.img) ? a.img : ('../' + a.img);
+      return `
+      <a class="category-card" href="../${a.url}" style="background-image:linear-gradient(180deg, rgba(10,13,18,0.1) 0%, rgba(10,13,18,0.88) 100%), url('${imgUrl}')">
         <span class="category-card__tag">${a.catLabel}</span>
         <h2 class="category-card__title">${a.title}</h2>
         <div class="category-card__meta">${a.date} - ${a.read}</div>
-      </a>
-    `).join('');
+      </a>`;
+    }).join('');
 
     if (pages > 1 && !q) {
       const items = [];
