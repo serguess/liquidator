@@ -55,6 +55,17 @@ AI_MARKERS_HIGH_MAX = 8       # high-маркеры — допустимо до 
 # которые есть везде одинаково. Сокращаем до 600 знаков суммарно.
 LAW_QUOTE_CHARS_MAX = 600
 
+# Soft-потолок длины: после первой итерации правок length_too_long перестаёт
+# быть hard-блоком (становится warning), пока text_chars не превышает SOFT_LENGTH_MAX.
+# Логика: главный приоритет — заспамленность/уникальность/AI. Если на 2+ итерации
+# писатель пофиксил спам, но не уложился в 8000 — пропускаем, иначе бесконечный цикл.
+# Цель: < 9000 default, < 8000 news (длиннее всё равно блок).
+SOFT_LENGTH_MAX = {"default": 9000, "news": 8000}
+
+# Hard-cap итераций writer-цикла. После 5-го failed-gate статья уходит в _review/
+# для ручного разбора (см. runner.py:_find_failed_qa_for_retry).
+MAX_RETRY_COUNT = 5
+
 
 @dataclass
 class GateResult:
@@ -69,6 +80,7 @@ class GateResult:
     law_quotes: dict | None = None
     rhythm: dict | None = None
     recommendations: list[str] = field(default_factory=list)
+    retry_count: int = 1  # сколько раз gate был запущен по этой статье (1 = первый раз)
 
 
 def _measure_law_quotes(html_path: Path) -> tuple[int, list[str]]:
@@ -106,8 +118,28 @@ def _measure_law_quotes(html_path: Path) -> tuple[int, list[str]]:
     return total, samples
 
 
-def _run(path: Path) -> GateResult:
+def _resolve_retry_count(article_path: Path, override: int | None) -> int:
+    """
+    Определяет номер текущей итерации gate'а для этой статьи.
+    Если override передан — используем его. Иначе читаем prev retry_count из
+    quality_gate.json и инкрементируем (или 1 если файла ещё нет).
+    """
+    if override is not None and override >= 1:
+        return override
+    qg_path = article_path.parent / "quality_gate.json"
+    if not qg_path.exists():
+        return 1
+    try:
+        prev = json.loads(qg_path.read_text(encoding="utf-8"))
+        prev_count = int(prev.get("retry_count") or 0)
+    except (json.JSONDecodeError, OSError, ValueError, TypeError):
+        return 1
+    return max(1, prev_count + 1)
+
+
+def _run(path: Path, iteration_override: int | None = None) -> GateResult:
     result = GateResult(file=str(path))
+    result.retry_count = _resolve_retry_count(path, iteration_override)
 
     # 1. Автофикс
     fix_rep = autofix.process_file(path, dry_run=False)
@@ -248,16 +280,40 @@ def _run(path: Path) -> GateResult:
             "запрет связок-паразитов, цифры вместо обобщений"
         )
 
+    # 7. Soft-length после первой итерации правок.
+    # Заказчик (май 2026): главный приоритет — spam/uniqueness/ai_markers (hard).
+    # Длина — soft после iteration ≥ 2, пока текст не выше SOFT_LENGTH_MAX.
+    # Логика: если writer уже один раз правил и попал в спам/уник, тратить циклы
+    # на дополнительное сокращение длины не нужно — это раздувает цикл.
+    if result.retry_count >= 2:
+        soft_max = SOFT_LENGTH_MAX.get(qc_rep.length_kind, SOFT_LENGTH_MAX["default"])
+        if (qc_rep.length_status == "too_long"
+                and qc_rep.text_chars is not None
+                and qc_rep.text_chars <= soft_max):
+            limits = quality_checks.LENGTH_LIMITS.get(qc_rep.length_kind, quality_checks.LENGTH_LIMITS["default"])
+            length_blocker_marker = f"length_too_long: {qc_rep.text_chars} > {limits['max']}"
+            kept_blockers = [b for b in result.blockers if not b.startswith("length_too_long")]
+            if len(kept_blockers) < len(result.blockers):
+                result.blockers = kept_blockers
+                result.warnings.append(
+                    f"length_soft_passed: {qc_rep.text_chars} > {limits['max']} "
+                    f"но ≤ {soft_max} и iteration={result.retry_count} — пропускаем "
+                    f"(приоритет spam/uniqueness/ai)"
+                )
+                # Чистим reduce_length из recommendations — не отправляем писателя
+                # править длину если других блокеров нет.
+                result.recommendations = [r for r in result.recommendations if not r.startswith("reduce_length")]
+
     result.passed = not result.blockers
 
     # 6. Записываем локальные метрики и textru_status в meta.json
     # Заказчик зафиксировал (май 2026): text.ru API не подключаем, режим local_only.
-    _update_meta(path, qc_rep, am_rep, result.passed, result.blockers)
+    _update_meta(path, qc_rep, am_rep, result.passed, result.blockers, result.retry_count)
 
     return result
 
 
-def _update_meta(article_path: Path, qc_rep, am_rep, passed: bool, blockers: list[str]) -> None:
+def _update_meta(article_path: Path, qc_rep, am_rep, passed: bool, blockers: list[str], retry_count: int = 1) -> None:
     """
     Дописывает в meta.json локальные метрики качества и textru_status.
 
@@ -303,6 +359,7 @@ def _update_meta(article_path: Path, qc_rep, am_rep, passed: bool, blockers: lis
     # Результат gate
     meta["quality_gate_passed"] = passed
     meta["quality_gate_blockers"] = blockers
+    meta["quality_gate_retry_count"] = retry_count
 
     meta_path.write_text(json.dumps(meta, ensure_ascii=False, indent=2), encoding="utf-8")
 
@@ -313,6 +370,9 @@ def main() -> int:
     parser.add_argument("--json", action="store_true", help="Вывод отчёта в JSON")
     parser.add_argument("--save-report", action="store_true",
                         help="Сохранить quality_gate.json рядом с файлом")
+    parser.add_argument("--iteration", type=int, default=None,
+                        help="Принудительно задать номер итерации writer-цикла (1=первый прогон). "
+                             "Если не задан, gate сам инкрементирует retry_count из quality_gate.json.")
     args = parser.parse_args()
 
     path = Path(args.path).resolve()
@@ -320,7 +380,7 @@ def main() -> int:
         print(f"Файл не найден: {path}", file=sys.stderr)
         return 2
 
-    result = _run(path)
+    result = _run(path, iteration_override=args.iteration)
 
     if args.save_report:
         report_path = path.parent / "quality_gate.json"

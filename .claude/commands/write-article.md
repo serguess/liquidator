@@ -63,7 +63,7 @@ slug ещё неизвестен на агенте 1 до создания brief
 2. Запусти агента `2-legal-research` с slug. Дождись `drafts/{slug}/research.json`.
 3. Запусти агента `3-architect`. **Перед запуском найди `prev_article_outline`**: возьми последний по mtime файл `drafts/*/outline.json` или `articles/{category}/*` той же категории, что текущая (если есть) — извлеки структуру блоков (имена H2, порядок, `cta_final.text`) и передай архитектору в prompt как `prev_article_outline`. Архитектор обязан отстроиться по структуре от этой статьи. Дождись `drafts/{slug}/outline.json`.
 4. Запусти агента `4-writer`. Дождись `drafts/{slug}/draft.md`.
-5. Запусти агента `5-uniqueness`. Если `passed: false` - возврат на агента 4 с указанием `recommendation` (одна или несколько меток). Максимум 3 итерации, после - в `drafts/_review/`. **При возврате обязательно** залогируй `iteration_returned` (см. блок «Pipeline-логирование»), чтобы scheduler видел причину.
+5. Запусти агента `5-uniqueness`. Если `passed: false` - возврат на агента 4 с указанием `recommendation` (одна или несколько меток). Максимум 5 итераций, после - в `drafts/_review/`. **При возврате обязательно** залогируй `iteration_returned` (см. блок «Pipeline-логирование»), чтобы scheduler видел причину.
 6. Запусти агента `6-seo-editor`. Дождись `drafts/{slug}/body.html` + `meta.json`. Агент 6 САМ пишет body.html (только содержание с placeholder-комментариями BP:CTA-*, BP:DISCLAIMER) и заполняет meta.json (title, description, h1, lead, topic_action, faq и т.д.). HTML-каркас не пишет. Если `factcheck_passed: false` - возврат на агента 4 (логируй `iteration_returned`).
 6a. **Сборка финального article.html (детерминированно):**
     ```
@@ -73,7 +73,13 @@ slug ещё неизвестен на агенте 1 до создания brief
     - 1 — отсутствуют обязательные поля meta.json (slug, category, title, description, h1, topic_action) — возврат на агента 6 с пометкой какие поля дозаполнить.
     - 2 — нет body.html — возврат на агента 6, что-то пошло не так.
     Идеально агент 6 сам зовёт этот скрипт в финале своей работы — тогда мы экономим один re-invocation.
-7. **Обязательный шаг: quality_gate.** Запусти `python -m tools.quality_gate drafts/{slug}/article.html --json --save-report`. Если exit ≠ 0 - читай `drafts/{slug}/quality_gate.json`, поле `recommendations`, и возвращай на агента 4 с конкретной пометкой. Максимум 3 итерации возврата. После третьей - в `drafts/_review/`. **quality_gate сам пишет своё событие в pipeline_log через scheduler — отдельно логировать не нужно**.
+7. **Обязательный шаг: quality_gate.** Запусти `python -m tools.quality_gate drafts/{slug}/article.html --json --save-report`. Если exit ≠ 0 - читай `drafts/{slug}/quality_gate.json`, поле `recommendations`, и возвращай на агента 4 с конкретной пометкой. Максимум **5 итераций** возврата. После пятой - в `drafts/_review/`. **quality_gate сам пишет своё событие в pipeline_log через scheduler — отдельно логировать не нужно**.
+
+   **Приоритет блокеров (зафиксировано в `quality_gate.py`, май 2026):**
+   - **Hard на любой итерации:** `spam_risk`, `anti_template_phrases`, `ai_markers_critical`, `ai_markers_density`, `ai_markers_high`, `first_person_singular`, `law_quotes_too_long`, `abbreviations_after_autofix`, `punctuation_after_autofix`. Эти блокеры всегда возвращают на агента 4.
+   - **Soft с iteration ≥ 2:** `length_too_long` автоматически конвертируется в warning, **если text_chars ≤ 9000 (default) / 8000 (news) и других блокеров нет**. Это значит: если writer уже один раз правил и пофиксил спам/уник/AI, длину сверх 8000 (но ≤ 9000) пропускаем без новой итерации. Логика в самом gate (`SOFT_LENGTH_MAX`), отдельно делать ничего не нужно.
+
+   **Счётчик итераций** хранится в `quality_gate.json:retry_count` — gate инкрементирует его при каждом запуске. Можно принудительно задать через `--iteration N`.
 8. Запусти агента `7-publisher`. Он только финализирует drafts/{slug}/ (записывает поля ready_for_review=true в meta.json и добавляет запись в drafts/_review_queue.json). На сайт НЕ публикует — публикация только через нажатие заказчиком "Опубликовать" в Telegram-боте, который вызывает bot/publisher.py. Никаких git push, articles/, картинок здесь не происходит.
 
 **Важно:** даже если ты пропустишь шаг 7 (quality_gate) - scheduler всё равно его запустит после твоего завершения. Если gate упадёт, scheduler пометит слот как `failed_qa` и заблокирует публикацию. Лучше прогнать самому, чтобы успеть зациклить итерации с агентом 4.

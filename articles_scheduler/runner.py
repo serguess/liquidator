@@ -423,15 +423,20 @@ def _safe_pipeline_log(slug: str | None, agent: str, event: str, **fields) -> No
         log.debug("pipeline_log failed: %s", exc)
 
 
-def _find_failed_qa_for_retry(max_iterations: int = 3) -> str | None:
+def _find_failed_qa_for_retry(max_iterations: int = 5) -> str | None:
     """
     Ищет статью failed_qa, которую можно дорабатывать (а не брать новую тему).
 
     Условия:
     1. В drafts/{slug}/quality_gate.json есть `passed: false`.
-    2. Текущее число итераций (current_iteration в _pipeline.log.json)
-       ещё не достигло max_iterations (по умолчанию 3).
+    2. Текущее число итераций ещё не достигло max_iterations (по умолчанию 5).
+       Источник счётчика — `quality_gate.json:retry_count` (надёжно: gate сам
+       инкрементирует при каждом прогоне). Fallback — `_pipeline.log.json:current_iteration`
+       для старых драфтов, где новый счётчик ещё не записан.
     3. В drafts/_review/ её нет (значит ручной разбор не запрошен).
+
+    После max_iterations провалов статья принудительно перемещается в drafts/_review/
+    для ручного разбора (это делает _archive_dead_drafts ниже, не здесь).
 
     Возвращает slug самой старой такой статьи (приоритет очистке хвоста).
     Если кандидатов нет — None.
@@ -450,15 +455,19 @@ def _find_failed_qa_for_retry(max_iterations: int = 3) -> str | None:
         except (json.JSONDecodeError, OSError):
             continue
 
-        # Проверяем лимит итераций
-        pipe_path = slug_dir / "_pipeline.log.json"
-        iterations = 1
-        if pipe_path.exists():
-            try:
-                pipe = json.loads(pipe_path.read_text(encoding="utf-8"))
-                iterations = pipe.get("current_iteration", 1)
-            except (json.JSONDecodeError, OSError):
-                pass
+        # Проверяем лимит итераций — сначала из quality_gate.json (надёжно),
+        # затем fallback на _pipeline.log.json для совместимости со старыми драфтами.
+        iterations = int(qg.get("retry_count") or 0)
+        if iterations <= 0:
+            pipe_path = slug_dir / "_pipeline.log.json"
+            if pipe_path.exists():
+                try:
+                    pipe = json.loads(pipe_path.read_text(encoding="utf-8"))
+                    iterations = pipe.get("current_iteration", 1)
+                except (json.JSONDecodeError, OSError):
+                    iterations = 1
+            else:
+                iterations = 1
         if iterations >= max_iterations:
             continue
 
@@ -1264,7 +1273,7 @@ def run_one_article() -> dict:
     # Перед тем как брать новую тему — проверяем, есть ли failed_qa-статья
     # которую можно дорабатывать через /rewrite-article. Это экономит токены
     # (не запускаем агентов 1-2-3 заново) и чистит хвост из «зависших» статей.
-    retry_slug = _find_failed_qa_for_retry(max_iterations=3)
+    retry_slug = _find_failed_qa_for_retry(max_iterations=5)
     if retry_slug:
         log.info("Найдена failed_qa статья для доработки: %s", retry_slug)
         # Категория берётся из meta.json статьи, а не из ротации
