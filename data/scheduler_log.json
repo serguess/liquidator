@@ -89,5 +89,30 @@
     "topic_slug": "bankrotstvo-ooo-poshagovo-2026",
     "status": "timeout",
     "duration_sec": 2404.2
+  },
+  {
+    "timestamp": "2026-05-07T13:03:42",
+    "category": "fiz",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": false,
+      "stdout_tail": "",
+      "stderr_tail": "GIT_PUSH_TOKEN не задан"
+    },
+    "mode": "new",
+    "topic_id": "fiz-04",
+    "topic_slug": "bankrotstvo-pri-ipoteke-edinstvennoe-zhilye",
+    "status": "failed",
+    "slug": "bankrotstvo-pri-ipoteke-edinstvennoe-zhilye",
+    "duration_sec": 351.8,
+    "returncode": 1,
+    "rescued_after_failure": false,
+    "stdout_tail": "Failed to authenticate. API Error: 403 {\"error\":{\"type\":\"forbidden\",\"message\":\"Request not allowed\"}}\n",
+    "stderr_tail": "",
+    "metrics": null
   }
 ]
