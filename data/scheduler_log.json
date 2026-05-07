@@ -1,35 +1,46 @@
 [
   {
-    "timestamp": "2026-05-06T20:35:31",
+    "timestamp": "2026-05-07T01:03:57",
     "category": "fiz",
     "git_branch_check": {
       "ok": true,
       "was_detached": true,
-      "detached_sha": "397e84c5f113e1bc5cff3b35e118f6df40a1f186",
+      "detached_sha": "943ce4965a92a06af3ca4184247b5db5f1f24f69",
       "merged_orphan_commits": false
     },
     "git_pull": {
       "ok": true,
-      "stdout_tail": "Updating 397e84c..aba2e6b\nFast-forward\n articles_scheduler/runner.py | 2 +-\n 1 file changed, 1 insertion(+), 1 deletion(-)\n",
+      "stdout_tail": "Already up to date.\n",
       "stderr_tail": "From https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n"
-    },
-    "catchup_pending": {
-      "checked": true,
-      "pending": 1,
-      "pushed": true,
-      "orphan_rescue": {
-        "rescued": 0
-      }
     },
     "mode": "new",
     "topic_id": "fiz-04",
     "topic_slug": "bankrotstvo-pri-ipoteke-edinstvennoe-zhilye",
+    "status": "timeout",
+    "duration_sec": 2401.5
+  },
+  {
+    "timestamp": "2026-05-07T05:03:57",
+    "category": "yur",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "From https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n"
+    },
+    "mode": "new",
+    "topic_id": "yur-02",
+    "topic_slug": "bankrotstvo-ooo-poshagovo-2026",
     "status": "failed",
-    "slug": "bankrotstvo-pri-ipoteke-edinstvennoe-zhilye",
-    "duration_sec": 667.0,
+    "slug": "bankrotstvo-ooo-poshagovo-2026",
+    "duration_sec": 106.1,
     "returncode": 1,
     "rescued_after_failure": false,
-    "stdout_tail": "You've hit your limit · resets 12:40am (UTC)\n",
+    "stdout_tail": "You've hit your limit · resets 6am (UTC)\n",
     "stderr_tail": "",
     "metrics": null
   }
