@@ -3026,6 +3026,18 @@ a {
 .article__cta--hero:hover::before { transform: translateX(100%); }
 .article__cta--hero span { white-space: normal; text-align: center; }
 
+/* Мобильная версия hero-CTA: длинные тексты лучше укладываются в 2 строки
+   с компактным шрифтом и меньшими отступами - кнопка не выглядит массивной. */
+@media (max-width: 600px) {
+  .article__cta--hero {
+    font-size: 11px;
+    letter-spacing: 0.04em;
+    padding: 12px 22px;
+    line-height: 1.35;
+    margin: 18px 0 22px;
+  }
+}
+
 /* Inline-CTA в середине абзаца: компактнее, тот же hero-стиль */
 .article__cta-inline {
   display: inline-flex;
