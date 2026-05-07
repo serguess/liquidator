@@ -2917,6 +2917,15 @@ a {
 .article__container { max-width: 820px; margin: 0 auto; padding: 0 24px; }
 
 .article__breadcrumbs { font-size: 13px; color: rgba(255,255,255,0.5); margin-bottom: 28px; display: flex; flex-wrap: wrap; gap: 8px; font-family: var(--font-body); letter-spacing: 0.02em; }
+
+/* На мобилке - всегда одна строка. Длинный заголовок текущей страницы
+   обрезается многоточием, статические звенья (Главная / категория) не
+   сжимаются. Контейнер скрывает overflow - ничего не торчит. */
+@media (max-width: 600px) {
+  .article__breadcrumbs { flex-wrap: nowrap; overflow: hidden; font-size: 12px; gap: 6px; }
+  .article__breadcrumbs a, .article__bc-sep { flex-shrink: 0; white-space: nowrap; }
+  .article__bc-current { flex-shrink: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+}
 .article__breadcrumbs a { color: rgba(255,255,255,0.7); text-decoration: none; transition: color 0.2s; }
 .article__breadcrumbs a:hover { color: var(--khaki-light); }
 .article__bc-sep { color: rgba(255,255,255,0.3); }

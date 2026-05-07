@@ -53,7 +53,7 @@ if hasattr(sys.stdout, "reconfigure"):
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 SITE_ORIGIN = "https://pravo.shop"
-CSS_VERSION = "24"
+CSS_VERSION = "25"
 
 CATEGORY_LABELS = {
     "fiz": "Физические лица",
