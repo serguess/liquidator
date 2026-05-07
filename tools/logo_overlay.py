@@ -1,34 +1,43 @@
 """
-Наложение логотипа-водяного знака на сгенерированную обложку статьи.
+Наложение брендового водяного знака на сгенерированную обложку.
+
+Композиция: тёмная градиентная подложка со скруглёнными углами →
+белый лев (из assets/logo-watermark.png) → «ЛИКВИДАТОР» (Manrope) →
+«pravo.shop» меньшим шрифтом под названием.
 
 Используется в tools/image_gen.py между fal.ai (генерация) и Cloudinary
-(загрузка): получаем bytes картинки от fal.ai, накладываем лого, отдаём
-готовые bytes на загрузку.
-
-Поведение:
-- Лого темнее и контрастнее оригинала (брендовый оливковый #5B5632 на тёмном дереве
-  иначе плохо читался).
-- Под лого - круглая радиальная градиентная подложка кремового цвета (#FCF8EE),
-  плавно затухающая к нулю задолго до границ холста (никаких квадратных краёв).
-- Размер: 20% высоты фото, отступ 4% от края.
-- Угол: правый нижний.
-
-Параметры берутся из ENV (с разумными дефолтами) - можно переопределить
-без правок кода.
+(загрузка): получаем bytes картинки, накладываем знак, отдаём готовые
+bytes на загрузку.
 
 ENV переменные:
     LOGO_OVERLAY_ENABLED       - "true"/"false", по умолчанию "true"
-    LOGO_PATH                  - путь к PNG лого (с прозрачностью).
-                                 По умолчанию assets/logo-watermark.png
-                                 относительно корня проекта.
-    LOGO_SIZE_RATIO            - доля высоты фото, по умолчанию 0.20
-    LOGO_PADDING_RATIO         - отступ от края, доля ширины/высоты, по умолчанию 0.04
-    LOGO_HALO_COLOR            - hex или "r,g,b" подложки, по умолчанию "252,248,238"
-    LOGO_OUTPUT_QUALITY        - JPEG quality 1..100, по умолчанию 92
+    LOGO_PATH                  - путь к PNG лева (с прозрачностью, без текста).
+                                 По умолчанию assets/logo-watermark-lion.png.
+    LOGO_FONT_PATH             - путь к TTF шрифту.
+                                 По умолчанию assets/fonts/cormorant-garamond-700.ttf.
+    LOGO_SIZE_RATIO            - доля высоты фото для высоты «знака»
+                                 (лев + текст), по умолчанию 0.1235.
+    LOGO_PADDING_RATIO         - отступ подложки от края фото (общий x/y),
+                                 по умолчанию 0.04.
+    LOGO_PADDING_X_RATIO       - отдельный отступ справа (если задан,
+                                 переопределяет горизонтальный).
+                                 По умолчанию 0.02.
+    LOGO_PADDING_Y_RATIO       - отдельный отступ снизу (если задан,
+                                 переопределяет вертикальный).
+    LOGO_BACKDROP_TOP          - hex/«r,g,b» верхней границы градиента,
+                                 по умолчанию "#0a0d12".
+    LOGO_BACKDROP_BOTTOM       - hex/«r,g,b» нижней границы градиента,
+                                 по умолчанию "#1a1f28".
+    LOGO_BACKDROP_ALPHA        - 0..255, плотность плотного ядра подложки
+                                 (по умолчанию 230).
+    LOGO_BACKDROP_FADE_RATIO   - доля радиуса размытия от высоты подложки;
+                                 чем больше, тем плавнее переход в прозрачность
+                                 (по умолчанию 0.50).
+    LOGO_OUTPUT_QUALITY        - JPEG quality 1..100, по умолчанию 92.
 
 Поведение при ошибках:
-- Если PIL/numpy не установлены или лого не найден - возвращаем оригинальные
-  bytes без изменений (warning в лог). Пайплайн не падает.
+- Если PIL/numpy не установлены или лого/шрифт не найдены - возвращаем
+  оригинальные bytes без изменений (warning в лог). Пайплайн не падает.
 - Если LOGO_OVERLAY_ENABLED=false - возвращаем оригинальные bytes сразу.
 """
 from __future__ import annotations
@@ -40,6 +49,10 @@ from pathlib import Path
 from typing import Optional
 
 log = logging.getLogger("logo_overlay")
+
+
+TITLE_TEXT = "ЛИКВИДАТОР"
+SUBTITLE_TEXT = "pravo.shop"
 
 
 # ============ КОНФИГ ============
@@ -77,65 +90,86 @@ def _parse_color(s: str, default: tuple[int, int, int]) -> tuple[int, int, int]:
     s = s.strip()
     if not s:
         return default
-    # hex (#FCF8EE или FCF8EE)
     if s.startswith("#"):
         s = s[1:]
     if len(s) == 6 and all(c in "0123456789abcdefABCDEF" for c in s):
         return (int(s[0:2], 16), int(s[2:4], 16), int(s[4:6], 16))
-    # "r,g,b"
     parts = [p.strip() for p in s.split(",")]
     if len(parts) == 3 and all(p.isdigit() for p in parts):
         return (int(parts[0]), int(parts[1]), int(parts[2]))
-    log.warning("LOGO_HALO_COLOR=%r не распознан, использую дефолт %s", s, default)
+    log.warning("Цвет %r не распознан, использую дефолт %s", s, default)
     return default
 
 
-def _resolve_logo_path() -> Optional[Path]:
-    """
-    Возвращает абсолютный путь к лого. Ищем относительно корня проекта
-    (двух уровней вверх от этого файла), либо абсолютный путь из ENV.
-    """
-    raw = os.getenv("LOGO_PATH", "assets/logo-watermark.png").strip()
+def _resolve_path(env_name: str, default_rel: str) -> Optional[Path]:
+    raw = os.getenv(env_name, default_rel).strip()
     p = Path(raw)
     if p.is_absolute() and p.exists():
         return p
-    # Относительно корня проекта (tools/logo_overlay.py → корень)
     project_root = Path(__file__).resolve().parent.parent
     candidate = project_root / raw
     if candidate.exists():
         return candidate
-    log.warning("LOGO_PATH=%r не найден ни как абсолютный, ни относительно %s", raw, project_root)
+    log.warning("%s=%r не найден ни как абсолютный, ни относительно %s", env_name, raw, project_root)
     return None
 
 
-# ============ ЛОГИКА НАЛОЖЕНИЯ ============
+# ============ ХЕЛПЕРЫ ============
+
+def _white_silhouette(logo_rgba):
+    """RGBA → белая силуэт-копия с сохранённой альфой."""
+    from PIL import Image  # type: ignore
+    _, _, _, a = logo_rgba.split()
+    white = Image.new("L", logo_rgba.size, 255)
+    return Image.merge("RGBA", (white, white, white, a))
+
+
+def _measure_tracked(text: str, font, tracking_px: int):
+    """Длина строки c letter-spacing (учитывает пробелы между литерами)."""
+    if not text:
+        return 0, 0
+    widths = []
+    max_h = 0
+    for ch in text:
+        bbox = font.getbbox(ch)
+        widths.append(bbox[2] - bbox[0])
+        max_h = max(max_h, bbox[3] - bbox[1])
+    total = sum(widths) + tracking_px * (len(text) - 1)
+    return total, max_h
+
+
+def _draw_tracked(draw, xy, text: str, font, fill, tracking_px: int):
+    """Рисует текст с явным letter-spacing символ за символом."""
+    x, y = xy
+    for ch in text:
+        bbox = font.getbbox(ch)
+        draw.text((x - bbox[0], y), ch, font=font, fill=fill)
+        x += (bbox[2] - bbox[0]) + tracking_px
+
+
+# ============ ОСНОВНАЯ ЛОГИКА ============
 
 def add_logo(image_bytes: bytes) -> bytes:
     """
-    Накладывает лого-водяной знак на картинку и возвращает JPEG bytes.
+    Накладывает брендовый водяной знак и возвращает JPEG bytes.
 
-    При любой ошибке (нет PIL, нет лого, битая картинка) возвращает исходные
-    bytes без изменений - чтобы пайплайн генерации обложек не упал.
-
-    Args:
-        image_bytes: bytes исходной картинки (любой формат, который читает PIL).
-
-    Returns:
-        JPEG bytes с наложенным лого, либо исходные bytes при ошибке.
+    При любой ошибке возвращает исходные bytes без изменений - пайплайн
+    генерации обложек не должен падать из-за визуального оверлея.
     """
     if not _env_bool("LOGO_OVERLAY_ENABLED", default=True):
-        log.info("LOGO_OVERLAY_ENABLED=false, возвращаю картинку без лого")
+        log.info("LOGO_OVERLAY_ENABLED=false, возвращаю картинку без знака")
         return image_bytes
 
     try:
-        from PIL import Image, ImageEnhance, ImageFilter  # type: ignore
+        from PIL import Image, ImageDraw, ImageFilter, ImageFont  # type: ignore
         import numpy as np  # type: ignore
     except ImportError:
-        log.exception("Pillow или numpy не установлены, пропускаю наложение лого")
+        log.exception("Pillow или numpy не установлены, пропускаю наложение знака")
         return image_bytes
 
-    logo_path = _resolve_logo_path()
-    if logo_path is None:
+    logo_path = _resolve_path("LOGO_PATH", "assets/logo-watermark-lion.png")
+    font_path = _resolve_path("LOGO_FONT_PATH", "assets/fonts/cormorant-garamond-700.ttf")
+    if logo_path is None or font_path is None:
         return image_bytes
 
     try:
@@ -145,63 +179,135 @@ def add_logo(image_bytes: bytes) -> bytes:
         log.exception("Не удалось открыть photo/logo, возвращаю исходные bytes")
         return image_bytes
 
-    size_ratio = _env_float("LOGO_SIZE_RATIO", 0.20)
+    size_ratio = _env_float("LOGO_SIZE_RATIO", 0.1235)
     padding_ratio = _env_float("LOGO_PADDING_RATIO", 0.04)
-    halo_color = _parse_color(os.getenv("LOGO_HALO_COLOR", ""), default=(252, 248, 238))
+    padding_x_ratio = _env_float("LOGO_PADDING_X_RATIO", 0.005)
+    padding_y_ratio = _env_float("LOGO_PADDING_Y_RATIO", padding_ratio)
+    backdrop_top = _parse_color(os.getenv("LOGO_BACKDROP_TOP", ""), default=(10, 13, 18))
+    backdrop_bot = _parse_color(os.getenv("LOGO_BACKDROP_BOTTOM", ""), default=(26, 31, 40))
+    backdrop_alpha = max(0, min(255, _env_int("LOGO_BACKDROP_ALPHA", 230)))
+    fade_ratio = _env_float("LOGO_BACKDROP_FADE_RATIO", 0.50)
     quality = _env_int("LOGO_OUTPUT_QUALITY", 92)
 
     try:
-        # --- 1. Контраст лого: темнее + плотнее ---
-        r, g, b, a = logo.split()
-        rgb = Image.merge("RGB", (r, g, b))
-        rgb = ImageEnhance.Brightness(rgb).enhance(0.45)
-        rgb = ImageEnhance.Contrast(rgb).enhance(1.7)
-        r2, g2, b2 = rgb.split()
-        a = a.point(lambda x: min(255, int(x * 1.9)))
-        logo_boosted = Image.merge("RGBA", (r2, g2, b2, a))
+        # --- 1. Базовая «дизайн-высота» (для отступов и подзаголовка) ---
+        wm_h = max(48, int(photo.height * size_ratio))
 
-        # --- 2. Размер лого ---
-        target_h = int(photo.height * size_ratio)
-        ratio = target_h / logo_boosted.height
-        target_w = int(logo_boosted.width * ratio)
-        logo_resized = logo_boosted.resize((target_w, target_h), Image.LANCZOS)
+        # --- 2. Белый лев ---
+        white_logo = _white_silhouette(logo)
+        lion_h = max(24, int(wm_h * 0.55))
+        lion_w = int(white_logo.width * (lion_h / white_logo.height))
+        lion = white_logo.resize((lion_w, lion_h), Image.LANCZOS)
 
-        # --- 3. Круглая радиальная подложка (квадратный холст, альфа в 0 у краёв) ---
-        side = int(max(target_w, target_h) * 2.2)
-        cx = cy = side / 2
-        y_idx, x_idx = np.indices((side, side))
-        dist = np.sqrt((x_idx - cx) ** 2 + (y_idx - cy) ** 2)
-        max_r = side / 2
-        norm = np.clip(dist / max_r, 0, 1)
-        # easing 2.5: яркий центр, длинный мягкий хвост, точный 0 на границе
-        alpha_map = (np.clip(1 - norm, 0, 1) ** 2.5) * 210
-        alpha_map = alpha_map.astype(np.uint8)
-        cream = np.full((side, side, 3), list(halo_color), dtype=np.uint8)
-        halo_arr = np.dstack([cream, alpha_map])
-        halo = Image.fromarray(halo_arr)
-        # Доп. blur для отсутствия banding
-        halo = halo.filter(ImageFilter.GaussianBlur(radius=side // 30))
+        # --- 3. Текст: ЛИКВИДАТОР (компактный) + pravo.shop (без изменений) ---
+        title_size = max(12, int(wm_h * 0.46 * 0.4))
+        sub_size = max(8, int(wm_h * 0.20))
+        title_font = ImageFont.truetype(str(font_path), title_size)
+        sub_font = ImageFont.truetype(str(font_path), sub_size)
 
-        # --- 4. Координаты: правый низ ---
-        pad_x = int(photo.width * padding_ratio)
-        pad_y = int(photo.height * padding_ratio)
-        logo_pos = (photo.width - target_w - pad_x, photo.height - target_h - pad_y)
-        logo_cx = logo_pos[0] + target_w // 2
-        logo_cy = logo_pos[1] + target_h // 2
-        halo_pos = (logo_cx - side // 2, logo_cy - side // 2)
+        title_tracking = max(1, int(title_size * 0.06))
+        sub_tracking = max(1, int(sub_size * 0.10))
 
-        # --- 5. Композ: фото → подложка → лого ---
+        title_w, _ = _measure_tracked(TITLE_TEXT, title_font, title_tracking)
+        sub_w, _ = _measure_tracked(SUBTITLE_TEXT, sub_font, sub_tracking)
+        text_w = max(title_w, sub_w)
+
+        # Реальные bbox видимой части глифов (через временный draw для точных метрик)
+        _probe = ImageDraw.Draw(Image.new("RGBA", (1, 1)))
+        title_bbox = _probe.textbbox((0, 0), TITLE_TEXT, font=title_font)
+        sub_bbox = _probe.textbbox((0, 0), SUBTITLE_TEXT, font=sub_font)
+        title_h = title_bbox[3] - title_bbox[1]
+        sub_h = sub_bbox[3] - sub_bbox[1]
+        # сдвиги, чтобы при рисовании от точки (x, y) верх глифа оказался ровно на y
+        title_yo = -title_bbox[1]
+        sub_yo = -sub_bbox[1]
+
+        gap_text = max(1, int(wm_h * 0.03))
+        text_block_h = title_h + gap_text + sub_h
+
+        # --- 4. Размер подложки ---
+        # core - плотная зона за контентом; fade - радиус мягкого затухания вокруг.
+        gap_lion_text = max(4, int(wm_h * 0.08))
+        core_pad_x = max(12, int(wm_h * 0.32))
+        core_pad_y = max(10, int(wm_h * 0.24))
+        content_w = lion_w + gap_lion_text + text_w
+        content_h = max(lion_h, text_block_h)
+        core_w = content_w + 2 * core_pad_x
+        core_h = content_h + 2 * core_pad_y
+
+        fade_px = max(8, int(core_h * fade_ratio))
+        bg_w = core_w + 2 * fade_px
+        bg_h = core_h + 2 * fade_px
+        radius = max(8, int(core_h * 0.22))
+
+        # --- 5. Градиентная RGBA-подложка с плавным фейдом в прозрачность ---
+        # Цвет: вертикальный линейный градиент по всей подложке.
+        yy = np.linspace(0.0, 1.0, bg_h, dtype=np.float32).reshape(bg_h, 1, 1)
+        top_arr = np.array(backdrop_top, dtype=np.float32).reshape(1, 1, 3)
+        bot_arr = np.array(backdrop_bot, dtype=np.float32).reshape(1, 1, 3)
+        grad_rgb = (top_arr * (1 - yy) + bot_arr * yy)
+        grad_rgb = np.broadcast_to(grad_rgb, (bg_h, bg_w, 3)).astype(np.uint8).copy()
+
+        # Альфа: ядро = solid rounded-rect, затем сильное Gaussian размытие,
+        # которое уносит края в полную прозрачность.
+        mask = Image.new("L", (bg_w, bg_h), 0)
+        ImageDraw.Draw(mask).rounded_rectangle(
+            (fade_px, fade_px, bg_w - 1 - fade_px, bg_h - 1 - fade_px),
+            radius=radius,
+            fill=backdrop_alpha,
+        )
+        mask = mask.filter(ImageFilter.GaussianBlur(radius=fade_px * 0.55))
+
+        backdrop = Image.fromarray(
+            np.dstack([grad_rgb, np.array(mask, dtype=np.uint8)])
+        )
+
+        # --- 6. Композ контента поверх подложки ---
+        wm = backdrop.copy()
+        # Лев (по центру вертикали подложки), координаты от внешнего края bg.
+        lion_x = fade_px + core_pad_x
+        lion_y = (bg_h - lion_h) // 2
+        wm.paste(lion, (lion_x, lion_y), lion)
+
+        # Текстовый блок справа от льва, по центру вертикали.
+        # У «pravo.shop» есть выносной элемент 'p', который тянет геометрический
+        # центр bbox вниз, а визуальный — наоборот. Компенсируем сдвигом вниз
+        # на половину descent подзаголовка.
+        draw = ImageDraw.Draw(wm)
+        text_x = lion_x + lion_w + gap_lion_text
+        _, sub_descent = sub_font.getmetrics()
+        visual_offset = sub_descent // 2
+        text_block_y = (bg_h - text_block_h) // 2 + visual_offset
+
+        # title_yo / sub_yo выравнивают точку рисования по верху видимого глифа
+        _draw_tracked(
+            draw, (text_x, text_block_y + title_yo),
+            TITLE_TEXT, title_font, (255, 255, 255, 255), title_tracking,
+        )
+        sub_y = text_block_y + title_h + gap_text + sub_yo
+        _draw_tracked(
+            draw, (text_x, sub_y),
+            SUBTITLE_TEXT, sub_font, (255, 255, 255, 240), sub_tracking,
+        )
+
+        # --- 7. Размещение знака в правом нижнем углу фото ---
+        # margin отсчитывается от ВИДИМОГО края ядра, halo с фейдом может «уходить»
+        # ближе к самому краю фото - и это норм, он там и так прозрачный.
+        margin_x = int(photo.width * padding_x_ratio)
+        margin_y = int(photo.height * padding_y_ratio)
+        wm_x = photo.width - margin_x - bg_w + fade_px
+        wm_y = photo.height - margin_y - bg_h + fade_px
+
         result = photo.copy()
-        result.paste(halo, halo_pos, halo)
-        result.paste(logo_resized, logo_pos, logo_resized)
+        result.paste(wm, (wm_x, wm_y), wm)
 
-        # --- 6. JPEG bytes ---
+        # --- 8. JPEG bytes ---
         out = io.BytesIO()
         result.convert("RGB").save(out, "JPEG", quality=quality)
         out.seek(0)
         return out.getvalue()
     except Exception:
-        log.exception("Ошибка при наложении лого, возвращаю исходные bytes")
+        log.exception("Ошибка при наложении знака, возвращаю исходные bytes")
         return image_bytes
 
 
