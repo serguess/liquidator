@@ -311,10 +311,6 @@ async def on_publish_pressed(query: CallbackQuery):
         )
         return
 
-    cover_line = ""
-    if result.cover_url:
-        cover_line = f"\n🖼 <a href=\"{result.cover_url}\">Обложка</a>"
-
     # Wordstat-частоту достаём из bot_state (она там запоминалась когда watcher
     # увидел драфт - см. bot/main.py). Если нет - просто не показываем.
     wordstat_line = ""
@@ -327,7 +323,7 @@ async def on_publish_pressed(query: CallbackQuery):
     await query.message.answer(
         f"✅ <b>Опубликовано: «{title}»</b>\n\n"
         f"🔗 <a href=\"{result.public_url}\">{result.public_url}</a>"
-        f"{cover_line}{wordstat_line}\n\n"
+        f"{wordstat_line}\n\n"
         "Статья перенесена в articles/, drafts/ заархивирован, "
         "articles.json и sitemap.xml обновлены, изменения запушены в main.",
         parse_mode="HTML",

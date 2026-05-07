@@ -204,16 +204,11 @@ async def _queue_iteration(bot: Bot):
 
     try:
 
-        cover_line = ""
-        if result.cover_url:
-            cover_line = f"\n🖼 <a href=\"{result.cover_url}\">Обложка</a>"
-
         await bot.send_message(
             chat_id=chat_id,
             text=(
                 f"✅ <b>Опубликовано из очереди: «{title}»</b>\n\n"
                 f"🔗 <a href=\"{result.public_url}\">{result.public_url}</a>"
-                f"{cover_line}"
             ),
             parse_mode="HTML",
             disable_web_page_preview=False,
