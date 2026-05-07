@@ -510,9 +510,47 @@ def generate_and_upload_cover(
         })
         if ok:
             log.info("meta.json обновлён cover_url для slug=%s", slug)
+            # 7. Пересобираем article.html чтобы подставить свежий cover_url.
+            # Без этого draft остаётся с дефолтным /assets/articles/{slug}.jpg
+            # (который физически появится только при публикации) и в /preview/
+            # картинка не видна. inject_boilerplate тихо пропускается если
+            # body.html ещё не готов (агент 6 не отработал) — это нормально.
+            _rebuild_article_with_cover(slug)
 
     log.info("Обложка готова: master=%s web=%s", master_url, web_url)
     return web_url
+
+
+def _rebuild_article_with_cover(slug: str) -> None:
+    """
+    Пересобирает drafts/{slug}/article.html через tools.inject_boilerplate
+    после того как cover_url записан в meta.json. Гарантирует что обложка
+    отображается в превью драфта (Cloudinary URL подставляется в article__cover
+    и og:image), а не fallback /assets/articles/{slug}.jpg.
+
+    Тихо пропускается если:
+    - body.html отсутствует (агент 6 ещё не сделал черновик);
+    - meta.json неполный для сборки;
+    - сам inject_boilerplate упал.
+    """
+    try:
+        from pathlib import Path as _P
+        slug_dir = _P(__file__).resolve().parent.parent / "drafts" / slug
+        if not (slug_dir / "body.html").exists():
+            log.info("body.html нет — пропускаю пересборку article.html для %s", slug)
+            return
+        from tools import inject_boilerplate
+        result = inject_boilerplate.process(slug_dir, body_filename="body.html",
+                                             out_filename="article.html",
+                                             check_only=False)
+        if result.get("ok"):
+            log.info("article.html пересобран с cover_url для %s (%d символов)",
+                     slug, result.get("html_chars", 0))
+        else:
+            log.warning("inject_boilerplate не пересобрал article.html для %s: %s",
+                        slug, result.get("error"))
+    except Exception:
+        log.exception("Ошибка автопересборки article.html для %s", slug)
 
 
 def upload_existing_cover(
@@ -553,7 +591,8 @@ def upload_existing_cover(
         }
         if image_prompt:
             fields["image_prompt"] = image_prompt
-        _update_meta_with_cover(slug, fields)
+        if _update_meta_with_cover(slug, fields):
+            _rebuild_article_with_cover(slug)
     log.info("Existing cover uploaded: master=%s web=%s", master_url, web_url)
     return web_url
 
