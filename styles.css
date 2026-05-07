@@ -3035,6 +3035,17 @@ a {
 .article__cta--hero:hover::before { transform: translateX(100%); }
 .article__cta--hero span { white-space: normal; text-align: center; }
 
+/* Кнопки CTA: запрещаем гифенацию (auto-перенос «АР-БИТРАЖНЫМ»).
+   Перенос строки идёт ТОЛЬКО по пробелу между словами. */
+.article__cta, .article__cta--hero, .article__cta-inline,
+.article__cta span, .article__cta--hero span, .article__cta-inline span {
+  hyphens: none !important;
+  -webkit-hyphens: none !important;
+  -ms-hyphens: none !important;
+  word-break: normal;
+  overflow-wrap: normal;
+}
+
 /* Мобильная версия hero-CTA: длинные тексты лучше укладываются в 2 строки
    с компактным шрифтом и меньшими отступами - кнопка не выглядит массивной. */
 @media (max-width: 600px) {

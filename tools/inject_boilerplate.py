@@ -53,7 +53,7 @@ if hasattr(sys.stdout, "reconfigure"):
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 SITE_ORIGIN = "https://pravo.shop"
-CSS_VERSION = "25"
+CSS_VERSION = "26"
 
 CATEGORY_LABELS = {
     "fiz": "Физические лица",
@@ -70,11 +70,9 @@ CATEGORY_TAGS = {
 }
 
 DEFAULT_DISCLAIMER = (
-    "Материал носит информационный характер и не является юридической консультацией. "
-    "Каждое дело индивидуально: применимость процедуры и её результат зависят от "
-    "конкретных обстоятельств. Перед обращением за процедурой рекомендуется "
-    "консультация с практикующим юристом или арбитражным управляющим. "
-    "Использование материалов сайта возможно только с активной ссылкой на pravo.shop как на источник."
+    'Материал носит информационный характер и не является юридической консультацией. '
+    'Использование возможно только со ссылкой на источник '
+    '<a href="https://pravo.shop">pravo.shop</a>.'
 )
 
 AUTHOR_ORG_NAME = "ООО «ЛИКВИДАТОР»"
@@ -167,15 +165,25 @@ def _resolve_cover_url(meta: dict, slug: str) -> str:
     )
 
 
-def _short_bc(title: str, max_len: int = 60) -> str:
-    """Короткая последняя крошка из title. Берём до первого ':' или режем по длине."""
-    if not title:
+_BC_SEPARATORS = (": ", ", ", " - ", " — ", " – ")
+
+
+def _short_bc(text: str, max_len: int = 80) -> str:
+    """Короткая крошка из H1/title. Режем строго до первого знака
+    препинания: ':', ',', '-', '—', '–'. Без многоточия.
+    Если знаков нет - возвращаем весь заголовок (на мобилке CSS обрежет
+    с ellipsis через text-overflow). max_len - аварийный кап на случай
+    очень длинного заголовка без знаков."""
+    if not text:
         return ""
-    if ":" in title:
-        return title.split(":", 1)[0].strip()
-    if len(title) <= max_len:
-        return title
-    return title[:max_len].rsplit(" ", 1)[0] + "…"
+    s = text.strip()
+    for sep in _BC_SEPARATORS:
+        if sep in s:
+            s = s.split(sep, 1)[0].strip()
+            break
+    if len(s) > max_len:
+        s = s[:max_len].rsplit(" ", 1)[0]
+    return s
 
 
 def _extract_first_h1(body: str) -> str | None:
@@ -226,8 +234,10 @@ def render_cta_inline(text: str, slug: str) -> str:
     return render_cta_hero(text, slug, "mid")
 
 
-def render_disclaimer(text: str) -> str:
-    return f'<div class="article__disclaimer">\n  {_esc(text)}\n</div>'
+def render_disclaimer(_text: str = "") -> str:
+    """Дисклеймер - всегда статичный, с активной ссылкой на pravo.shop.
+    Аргумент игнорируется (раньше брался из research.json)."""
+    return f'<div class="article__disclaimer">\n  {DEFAULT_DISCLAIMER}\n</div>'
 
 
 def render_author_aside() -> str:
@@ -417,7 +427,7 @@ def render_article_jsonld(meta: dict) -> str:
 def render_breadcrumb_jsonld(meta: dict) -> str:
     category = meta["category"]
     cat_label = CATEGORY_LABELS.get(category, category)
-    bc_current = meta.get("breadcrumb_current") or _short_bc(meta["title"])
+    bc_current = _short_bc(meta.get("h1") or meta.get("title", ""))
     payload = {
         "@context": "https://schema.org",
         "@type": "BreadcrumbList",
@@ -524,7 +534,7 @@ def assemble_article(meta: dict, body_html: str, disclaimer_text: str) -> str:
     cta_mid_text = meta.get("cta_mid_text") or cta_default_text
     cta_bottom_text = meta.get("cta_bottom_text") or cta_default_text
 
-    breadcrumb_current = meta.get("breadcrumb_current") or _short_bc(meta["title"])
+    breadcrumb_current = _short_bc(meta.get("h1") or meta.get("title", ""))
     date_human = _human_date_ru(meta.get("date_published") or meta.get("published_at"))
     read_minutes = _read_minutes(meta.get("text_chars"))
 
