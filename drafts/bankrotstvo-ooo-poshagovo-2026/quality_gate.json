@@ -1,0 +1,117 @@
+{
+  "file": "C:\\Users\\Asus\\Documents\\personal_ai\\projects\\bankrotstvo\\drafts\\bankrotstvo-ooo-poshagovo-2026\\article.html",
+  "passed": true,
+  "blockers": [],
+  "warnings": [],
+  "autofix": {
+    "file": "C:\\Users\\Asus\\Documents\\personal_ai\\projects\\bankrotstvo\\drafts\\bankrotstvo-ooo-poshagovo-2026\\article.html",
+    "abbreviation_fixes": {},
+    "punctuation_fixes": 0,
+    "em_dash_fixes": 0,
+    "eng_quotes_fixes": 0,
+    "changed": false,
+    "bytes_before": 28227,
+    "bytes_after": 28227
+  },
+  "quality_checks": {
+    "file": "drafts\\bankrotstvo-ooo-poshagovo-2026\\article.html",
+    "text_chars": 7176,
+    "length_status": "warn",
+    "length_kind": "default",
+    "passed": true,
+    "abbreviation_hits": [],
+    "punctuation_hits": [],
+    "spam": {
+      "total_words": 559,
+      "unique_lemmas": 395,
+      "lexical_diversity": 0.707,
+      "top10_words": [
+        [
+          "года",
+          5
+        ],
+        [
+          "дней",
+          5
+        ],
+        [
+          "месяц",
+          5
+        ],
+        [
+          "реестр",
+          5
+        ],
+        [
+          "процедур",
+          4
+        ],
+        [
+          "обязательств",
+          4
+        ],
+        [
+          "компан",
+          4
+        ],
+        [
+          "срок",
+          4
+        ],
+        [
+          "большинств",
+          4
+        ],
+        [
+          "актив",
+          4
+        ]
+      ],
+      "top10_share": 0.079,
+      "ngram3_repeat_count": 0,
+      "ngram3_total": 557,
+      "ngram3_repeat_share": 0.0,
+      "risk_flags": []
+    }
+  },
+  "ai_markers": {
+    "file": "drafts\\bankrotstvo-ooo-poshagovo-2026\\article.html",
+    "text_chars": 8420,
+    "hits_total": 0,
+    "density_per_1000": 0.0,
+    "by_severity": {
+      "critical": 0,
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "own_voice_hits": 2,
+    "first_person_singular_hits": 0,
+    "hits": []
+  },
+  "anti_template": {
+    "file": "drafts\\bankrotstvo-ooo-poshagovo-2026\\article.html",
+    "text_chars": 7517,
+    "phrases_loaded": 138,
+    "passed": true,
+    "hits": []
+  },
+  "law_quotes": {
+    "total_chars": 0,
+    "limit": 600,
+    "samples": []
+  },
+  "rhythm": {
+    "file": "drafts\\bankrotstvo-ooo-poshagovo-2026\\article.html",
+    "text_chars": 7517,
+    "sentences_total": 89,
+    "avg_sentence_len": 6.87,
+    "short_sentences_count": 38,
+    "short_sentences_share": 0.427,
+    "long_sentences_count": 1,
+    "parasite_count": 1,
+    "parasite_per_1000": 0.13,
+    "flags": []
+  },
+  "recommendations": []
+}

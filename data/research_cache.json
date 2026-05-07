@@ -235,12 +235,12 @@
       "source_url": "https://www.garant.ru/products/ipo/prime/doc/408996348/",
       "source_type": "127-ФЗ ст. 6 п. 2, ст. 33 (ред. ФЗ-107 от 29.05.2024)",
       "source_date": "2024-05-29",
-      "last_verified": "2026-05-01",
+      "last_verified": "2026-05-07",
       "legislation_status": "active",
       "amendment_note": "Внесено ФЗ-107 от 29.05.2024. До этой даты порог был 300 тыс. руб.",
       "added_by_agent": "2-legal-research",
-      "added_for_slug": "kak-zakryt-ooo-s-dolgami",
-      "added_at": "2026-05-01"
+      "added_for_slug": "bankrotstvo-ooo-poshagovo-2026",
+      "added_at": "2026-05-07"
     },
     {
       "key": "voznagrazhdenie_finupr_p17_st20_6_kontekst",
@@ -254,6 +254,128 @@
       "added_by_agent": "2-legal-research",
       "added_for_slug": "skolko-stoit-bankrotstvo-fizicheskogo-lica",
       "added_at": "2026-05-01"
+    },
+    {
+      "key": "obryazannost_rukovoditelya_podat_zayavlenie",
+      "claim": "Руководитель должника-юрлица обязан подать заявление о банкротстве в арбитражный суд не позднее 1 месяца с момента возникновения признаков неплатежеспособности или недостаточности имущества (ст. 9 п. 2 127-ФЗ). Нарушение влечет субсидиарную ответственность по ст. 61.12 127-ФЗ по долгам, возникшим после истечения срока.",
+      "source_url": "https://www.consultant.ru/document/cons_doc_LAW_39331/",
+      "source_type": "127-ФЗ ст. 9 п. 2, ст. 61.12",
+      "source_date": "2025",
+      "last_verified": "2026-05-07",
+      "legislation_status": "active",
+      "added_by_agent": "2-legal-research",
+      "added_for_slug": "bankrotstvo-ooo-poshagovo-2026",
+      "added_at": "2026-05-07"
+    },
+    {
+      "key": "gosposhlina_bankrotstvo_yurlitso_100k",
+      "claim": "Госпошлина при подаче заявления о банкротстве юридического лица - 100 000 руб. (пп. 5 п. 1 ст. 333.21 НК РФ, ред. ФЗ-259-ФЗ от 08.08.2024, действует с 08.09.2024). Применяется как к кредиторам, так и к должнику-юрлицу.",
+      "source_url": "https://www.consultant.ru/document/cons_doc_LAW_146436/",
+      "source_type": "НК РФ ст. 333.21 пп. 5 п. 1 (ред. ФЗ-259-ФЗ от 08.08.2024)",
+      "source_date": "2024-09-08",
+      "last_verified": "2026-05-07",
+      "legislation_status": "active",
+      "amendment_note": "В отличие от должника-физлица (освобождён от пошлины), должник-юрлицо уплачивает 100 000 руб.",
+      "added_by_agent": "2-legal-research",
+      "added_for_slug": "bankrotstvo-ooo-poshagovo-2026",
+      "added_at": "2026-05-07"
+    },
+    {
+      "key": "nablyudenie_srok_7_mes",
+      "claim": "Дело о банкротстве юрлица рассматривается на стадии наблюдения в срок не более 7 месяцев с даты поступления заявления (ст. 51 127-ФЗ).",
+      "source_url": "https://www.consultant.ru/document/cons_doc_LAW_39331/",
+      "source_type": "127-ФЗ ст. 51",
+      "source_date": "2025",
+      "last_verified": "2026-05-07",
+      "legislation_status": "active",
+      "added_by_agent": "2-legal-research",
+      "added_for_slug": "bankrotstvo-ooo-poshagovo-2026",
+      "added_at": "2026-05-07"
+    },
+    {
+      "key": "konkursnoe_proizvodstvo_srok_6_mes",
+      "claim": "Конкурсное производство вводится на 6 месяцев и может продлеваться не более чем на 6 месяцев по ходатайству участника дела (ст. 124 п. 1-2 127-ФЗ).",
+      "source_url": "https://base.garant.ru/185181/1a3794674ba91fb6f13d1885dca9f9e1/",
+      "source_type": "127-ФЗ ст. 124 п. 1-2",
+      "source_date": "2025",
+      "last_verified": "2026-05-07",
+      "legislation_status": "active",
+      "added_by_agent": "2-legal-research",
+      "added_for_slug": "bankrotstvo-ooo-poshagovo-2026",
+      "added_at": "2026-05-07"
+    },
+    {
+      "key": "voznagrazhdenie_au_yurlitso_st20_6",
+      "claim": "Фиксированное вознаграждение АУ (ст. 20.6 п. 3 127-ФЗ): временный управляющий - 30 000 руб./мес; административный управляющий - 15 000 руб./мес; внешний управляющий - 45 000 руб./мес; конкурсный управляющий - 30 000 руб./мес. Проценты конкурсному управляющему по п. 13: свыше 75% удовлетворения - 7%; свыше 50% - 6%; от 25% - 4,5%; менее 25% - 3% от суммы удовлетворённых требований.",
+      "source_url": "https://www.consultant.ru/document/cons_doc_LAW_39331/c8ec6bf405a2188b82fd140eeb53aa465745c8bd/",
+      "source_type": "127-ФЗ ст. 20.6 п. 3, п. 13",
+      "source_date": "2025",
+      "last_verified": "2026-05-07",
+      "legislation_status": "active",
+      "amendment_note": "ФЗ-107 от 29.05.2024 добавил п. 18 ст. 20.6 - снижение вознаграждения возможно только в исключительных случаях по мотивированному ходатайству.",
+      "added_by_agent": "2-legal-research",
+      "added_for_slug": "bankrotstvo-ooo-poshagovo-2026",
+      "added_at": "2026-05-07"
+    },
+    {
+      "key": "subsidiarnaya_otv_kdl_st61_10_10_let",
+      "claim": "КДЛ - лицо, контролировавшее должника не более чем за 10 лет до возбуждения дела о банкротстве (ст. 61.10 п. 1 127-ФЗ). Субсидиарная ответственность за невозможность полного погашения требований кредиторов - ст. 61.11 п. 1 127-ФЗ.",
+      "source_url": "https://www.consultant.ru/document/cons_doc_LAW_39331/",
+      "source_type": "127-ФЗ ст. 61.10 п. 1, ст. 61.11 п. 1",
+      "source_date": "2025",
+      "last_verified": "2026-05-07",
+      "legislation_status": "active",
+      "added_by_agent": "2-legal-research",
+      "added_for_slug": "bankrotstvo-ooo-poshagovo-2026",
+      "added_at": "2026-05-07"
+    },
+    {
+      "key": "subsidiarnaya_iskovaya_davnost_st61_14",
+      "claim": "Срок исковой давности по субсидиарной ответственности: 3 года с момента, когда заявитель узнал об основаниях, но не позднее 10 лет со дня нарушения (ст. 61.14 п. 5 127-ФЗ).",
+      "source_url": "https://www.consultant.ru/document/cons_doc_LAW_39331/",
+      "source_type": "127-ФЗ ст. 61.14 п. 5",
+      "source_date": "2025",
+      "last_verified": "2026-05-07",
+      "legislation_status": "active",
+      "added_by_agent": "2-legal-research",
+      "added_for_slug": "bankrotstvo-ooo-poshagovo-2026",
+      "added_at": "2026-05-07"
+    },
+    {
+      "key": "osparivanie_sdelok_st61_2_sroki",
+      "claim": "Оспаривание подозрительных сделок (ст. 61.2 127-ФЗ): неравноценные - 1 год до возбуждения дела; причинение вреда кредиторам (осведомлённая другая сторона) - 3 года до возбуждения дела.",
+      "source_url": "https://www.consultant.ru/document/cons_doc_LAW_39331/",
+      "source_type": "127-ФЗ ст. 61.2 п. 1-2",
+      "source_date": "2025",
+      "last_verified": "2026-05-07",
+      "legislation_status": "active",
+      "added_by_agent": "2-legal-research",
+      "added_for_slug": "bankrotstvo-ooo-poshagovo-2026",
+      "added_at": "2026-05-07"
+    },
+    {
+      "key": "plenum_vs_41_42_2025_subsidiarka",
+      "claim": "Постановление Пленума ВС РФ №41 от 23.12.2025 - о субординации требований аффилированных кредиторов. Постановление Пленума ВС РФ №42 от 23.12.2025 - поправки к Постановлению №53 от 21.12.2017 о субсидиарной ответственности КДЛ: обычный предпринимательский риск не влечёт субсидиарки; вина каждого КДЛ оценивается индивидуально; прокурор вправе заявлять о привлечении КДЛ в публичных интересах.",
+      "source_url": "https://www.consultant.ru/document/cons_doc_LAW_522786/",
+      "source_type": "Постановление Пленума ВС РФ №41 и №42 от 23.12.2025",
+      "source_date": "2025-12-23",
+      "last_verified": "2026-05-07",
+      "legislation_status": "active",
+      "added_by_agent": "2-legal-research",
+      "added_for_slug": "bankrotstvo-ooo-poshagovo-2026",
+      "added_at": "2026-05-07"
+    },
+    {
+      "key": "fz107_2024_izmeneniya_procedury",
+      "claim": "ФЗ-107 от 29.05.2024: порог банкротства юрлица вырос до 2 млн руб.; требования кредиторов - только в электронном виде; суд рассматривает отдельные обособленные споры без заседания; единый 1-месячный срок апелляции определений; 3-месячный срок на исключение необоснованных требований из реестра.",
+      "source_url": "https://www.consultant.ru/legalnews/25423/",
+      "source_type": "127-ФЗ (ред. ФЗ-107 от 29.05.2024)",
+      "source_date": "2024-05-29",
+      "last_verified": "2026-05-07",
+      "legislation_status": "active",
+      "added_by_agent": "2-legal-research",
+      "added_for_slug": "bankrotstvo-ooo-poshagovo-2026",
+      "added_at": "2026-05-07"
     }
   ]
 }

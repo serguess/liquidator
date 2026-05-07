@@ -1,0 +1,41 @@
+{
+  "slug": "bankrotstvo-ooo-poshagovo-2026",
+  "category": null,
+  "started_at": "2026-05-07T11:21:05",
+  "finished_at": null,
+  "total_duration_sec": null,
+  "current_iteration": 3,
+  "events": [
+    {
+      "ts": "2026-05-07T11:21:05",
+      "agent": "scheduler",
+      "event": "rewrite_started",
+      "iteration": 1,
+      "reason": "quality_gate failed: length_too_long (7886>7500), spam_risk (3 flags)",
+      "recommendation": "reduce_length + reduce_repetition via agent 4"
+    },
+    {
+      "ts": "2026-05-07T11:27:44",
+      "agent": "4-writer",
+      "event": "iteration_returned",
+      "iteration": 2,
+      "reason": "rewrite-article",
+      "recommendation": "reduce_length + reduce_repetition"
+    },
+    {
+      "ts": "2026-05-07T11:32:32",
+      "agent": "4-writer",
+      "event": "iteration_returned",
+      "iteration": 3,
+      "reason": "rewrite-article",
+      "recommendation": "reduce_length + reduce_repetition + vary CTA texts"
+    },
+    {
+      "ts": "2026-05-07T11:32:32",
+      "agent": "scheduler",
+      "event": "rewrite_finished",
+      "iteration": 3,
+      "reason": "passed: true"
+    }
+  ]
+}

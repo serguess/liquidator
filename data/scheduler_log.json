@@ -70,5 +70,24 @@
     "stdout_tail": "Failed to authenticate. API Error: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"Invalid authentication credentials\"},\"request_id\":\"req_011CanmQP2majPTMfnRXwjUd\"}\n",
     "stderr_tail": "Warning: no stdin data received in 3s, proceeding without it. If piping from a slow command, redirect stdin explicitly: < /dev/null to skip, or wait longer.\n",
     "metrics": null
+  },
+  {
+    "timestamp": "2026-05-07T10:14:18",
+    "category": "yur",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": false,
+      "stdout_tail": "",
+      "stderr_tail": "GIT_PUSH_TOKEN не задан"
+    },
+    "mode": "new",
+    "topic_id": "yur-02",
+    "topic_slug": "bankrotstvo-ooo-poshagovo-2026",
+    "status": "timeout",
+    "duration_sec": 2404.2
   }
 ]

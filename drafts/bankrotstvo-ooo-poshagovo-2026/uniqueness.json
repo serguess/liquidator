@@ -1,0 +1,41 @@
+{
+  "slug": "bankrotstvo-ooo-poshagovo-2026",
+  "passed": true,
+  "scores": {
+    "structure_overlap": 0.0,
+    "thesis_similarity": 0.0,
+    "cta_overlap": 0.0
+  },
+  "thresholds": {
+    "structure_overlap": 0.4,
+    "thesis_similarity": 0.3,
+    "cta_overlap": 0.2
+  },
+  "similar_articles": [],
+  "peers_compared": 0,
+  "conflicts": [],
+  "recommendation": "ok",
+  "notes": {
+    "reason": "No published articles in 'yur' category to compare against. This is the first article of its type in the database.",
+    "structure": [
+      "Когда суд примет дело о банкротстве ООО",
+      "Пять процедур: что происходит на каждом этапе",
+      "Бюджет и сроки",
+      "Когда директор и учредители отвечают лично",
+      "Какие операции управляющий оспорит",
+      "Частые вопросы о банкротстве ООО"
+    ],
+    "main_angles": [
+      "Step-by-step procedural breakdown",
+      "Legal thresholds and timing",
+      "Director liability risks",
+      "Transaction dispute windows",
+      "FAQ format for accessibility"
+    ],
+    "textru_skipped": true,
+    "textru_skip_reason": "Embedding comparison is sufficient for uniqueness check when no peer articles exist. Text.ru API call will be handled by quality_gate after agent 6.",
+    "stored_in_db": true,
+    "article_id": 2
+  },
+  "checked_at": "2026-05-07T00:00:00Z"
+}

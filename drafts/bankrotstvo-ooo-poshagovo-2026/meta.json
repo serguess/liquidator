@@ -1,0 +1,106 @@
+{
+  "slug": "bankrotstvo-ooo-poshagovo-2026",
+  "category": "yur",
+  "title": "Банкротство ООО пошагово в 2026 году",
+  "description": "Как проходит банкротство ООО: этапы, сроки, документы, роль арбитражного управляющего и риск субсидиарной ответственности директора.",
+  "h1": "Банкротство ООО: пошаговая процедура от заявления до ликвидации",
+  "lead": "Порог задолженности с мая 2024 года - 2 000 000 руб., просрочка не менее трёх месяцев. От правильного входа в процедуру зависит, станет ли банкротство ООО управляемой ликвидацией или основанием для субсидиарной ответственности директора.",
+  "topic_action": "анализ ситуации по банкротству ООО",
+  "cta_top_text": "Оставить заявку на анализ ситуации по банкротству ООО",
+  "cta_mid_text": "Запросить разбор вашей ситуации с арбитражным юристом",
+  "cta_bottom_text": "Получить оценку рисков и стоимости процедуры",
+  "breadcrumb_current": "Банкротство ООО пошагово",
+  "date_published": "2026-05-07",
+  "date_modified": "2026-05-07",
+  "og_image": "/assets/articles/bankrotstvo-ooo-poshagovo-2026.jpg",
+  "main_keyword": "банкротство ООО пошагово",
+  "secondary_keywords": [
+    "процедура банкротства ООО",
+    "этапы банкротства юридического лица",
+    "банкротство юрлица 2026",
+    "наблюдение при банкротстве ООО",
+    "конкурсное производство ООО",
+    "как подать на банкротство ООО",
+    "арбитражный управляющий банкротство ООО",
+    "сроки банкротства юридического лица",
+    "субсидиарная ответственность директора при банкротстве ООО"
+  ],
+  "internal_links": [
+    "/articles/fiz/kak-spisat-dolgi-cherez-bankrotstvo-fizicheskogo-lica.html"
+  ],
+  "external_links": [
+    "https://www.garant.ru/products/ipo/prime/doc/408996348/",
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/"
+  ],
+  "faq": [
+    {
+      "question": "Можно ли начать банкротство ООО, если задолженность меньше 2 миллионов?",
+      "answer": "По общему правилу - нет. С 29 мая 2024 года минимальный порог - 2 000 000 руб. (ст. 6, 33 127-ФЗ). Суд откажет. Для сельскохозяйственных организаций и стратегических предприятий порог выше - 3 000 000 руб."
+    },
+    {
+      "question": "Сколько длится дело от подачи заявления до ликвидации ООО?",
+      "answer": "Наблюдение занимает до семи месяцев, конкурсная стадия - от полугода с продлениями. Большинство дел идут от полутора до трёх лет. Всё зависит от числа кредиторов, наличия имущества и обособленных споров."
+    },
+    {
+      "question": "Директор лично отвечает по долгам ООО при банкротстве?",
+      "answer": "По общему правилу - нет. Но если доказано недобросовестное поведение конкретного КДЛ, суд привлекает к субсидиарной ответственности по ст. 61.11 или 61.12 127-ФЗ. Одного факта руководства для этого недостаточно."
+    },
+    {
+      "question": "Можно ли остановить банкротство на стадии наблюдения?",
+      "answer": "Да, через мировое соглашение. Суд утверждает его и прекращает рассмотрение. Компания продолжает работать на условиях, прописанных в документе."
+    },
+    {
+      "question": "Что происходит с работниками ООО при банкротстве?",
+      "answer": "Требования работников по заработной плате и выходным пособиям относятся ко второй очереди реестра кредиторов и удовлетворяются раньше большинства коммерческих долгов. Увольнения в связи с банкротством происходят после открытия конкурсного производства."
+    },
+    {
+      "question": "Какие операции точно оспорит конкурсный управляющий?",
+      "answer": "С наибольшей вероятностью: продажа имущества аффилированным лицам по нерыночной цене за три года до несостоятельности, погашение задолженности «своему» займодавцу за месяц до открытия производства, нерыночные займы совладельцам. Каждый случай рассматривается судом отдельно."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "f1: порог 2 млн руб. с 29.05.2024 - подтверждён, last_verified 2026-05-07, legislation_status active",
+    "f2: ЕФРСБ 15 дней до подачи - подтверждён",
+    "f3: 1 месяц (30 дней) для руководителя - подтверждён, формулировка '30 дней' в исходном черновике скорректирована на '1 месяц' для точного соответствия норме",
+    "f4: госпошлина 100 000 руб. с 08.09.2024 - подтверждена, применяется и к кредитору, и к должнику-юрлицу (не путать с физлицом)",
+    "f6: вознаграждение временного управляющего 30 000 руб./мес. ст. 20.6 п. 3 - подтверждено",
+    "f8: проценты конкурсного управляющего по ст. 20.6 п. 13 - подтверждено, контекст корректен (юрлицо, не физлицо/п. 17)",
+    "f9: вознаграждение внешнего управляющего 45 000 руб./мес. - подтверждено",
+    "f10: КДЛ 10 лет - подтверждено",
+    "f11: Пленум №53 в ред. №42 от 23.12.2025 - подтверждено, вина КДЛ индивидуальна",
+    "f14: Пленум №41 от 23.12.2025, субординация аффилированных кредиторов - подтверждено",
+    "f15: ЕФРСБ 969,48 руб. с НДС с 01.04.2024 - подтверждено",
+    "f16: финансовое оздоровление до 2 лет - подтверждено",
+    "f17: внешнее управление до 18+6 мес., совокупный срок с финоздоровлением не более 2 лет - подтверждено",
+    "f20: исковая давность 3/10 лет по ст. 61.14 п. 5 - подтверждено",
+    "Нарушений контекста не обнаружено. Forbidden claims в тексте отсутствуют."
+  ],
+  "keyword_density_main": null,
+  "main_keyword_exact_count": null,
+  "text_chars": 7176,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.079,
+  "local_spam_ngram3_repeat": 0.0,
+  "local_lexical_diversity": 0.707,
+  "local_ai_markers_density": 0.0,
+  "local_ai_markers_critical": 0,
+  "length_status": "warn",
+  "length_kind": "default",
+  "local_ai_markers_total": 0,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 2,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1778143066/articles/bankrotstvo-ooo-poshagovo-2026-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1778143066/articles/bankrotstvo-ooo-poshagovo-2026-cover.jpg",
+  "image_prompt": "Photorealistic top-down flat-lay editorial photograph on a polished dark wooden desk, soft golden morning light from a window on the left casting a long warm diagonal across the desk, premium legal magazine aesthetic, shallow depth of field, neutral beige and graphite palette with warm gold accents, cinematic photorealistic detail. Scene: a closed dark leather portfolio with a brass round arbitration seal resting on top, a stack of closed corporate folders with a fountain pen, a wooden judges gavel, a vintage brass desk lamp, a closed leather-bound legal reference book with embossed spine, and a small white porcelain coffee cup on a saucer. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands. Lower right area of the desk kept smooth, softly sunlit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-05-07T08:37:47Z",
+  "ready_for_review": true,
+  "ready_at": "2026-05-07T11:37:51Z",
+  "publication_target": "telegram_review"
+}
