@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>/</loc>
+    <loc>https://pravo.shop/</loc>
     <lastmod>2026-05-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>/category/all</loc>
+    <loc>https://pravo.shop/category/all</loc>
     <lastmod>2026-05-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>/articles/yur/bankrotstvo-ooo-poshagovo-2026</loc>
+    <loc>https://pravo.shop/articles/yur/bankrotstvo-ooo-poshagovo-2026</loc>
     <lastmod>2026-05-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>/privacy</loc>
+    <loc>https://pravo.shop/privacy</loc>
     <lastmod>2026-04-23</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>/terms</loc>
+    <loc>https://pravo.shop/terms</loc>
     <lastmod>2026-04-23</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>

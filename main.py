@@ -319,6 +319,55 @@ async def _clean_urls(request: Request, call_next):
     return await call_next(request)
 
 
+@app.middleware("http")
+async def _canonical_redirect(request: Request, call_next):
+    """
+    Канонические 301-редиректы для устранения дублей в Яндекс.Вебмастере.
+
+    Без них одна главная индексируется как N разных страниц - Яндекс
+    размазывает SEO-вес и портит ранжирование:
+    - https://www.pravo.shop/   ┐
+    - https://pravo.shop//      ├─ один контент, разные URL
+    - https://pravo.shop///     │
+    - https://pravo.shop/index  ┘
+
+    Приводим всё к https://pravo.shop/<path> (без www, один слэш, без /index).
+    """
+    if request.method not in ("GET", "HEAD"):
+        return await call_next(request)
+
+    host = (request.url.hostname or "").lower()
+    path = request.url.path
+    query = request.url.query
+
+    new_host = host
+    new_path = path
+    needs_redirect = False
+
+    # 1. www.* → без www
+    if host.startswith("www."):
+        new_host = host[4:]
+        needs_redirect = True
+
+    # 2. Множественные слэши → один (/////// → /)
+    if "//" in path:
+        new_path = re.sub(r"/+", "/", path)
+        needs_redirect = True
+
+    # 3. /index или /index/ → /
+    if path == "/index" or path == "/index/":
+        new_path = "/"
+        needs_redirect = True
+
+    if needs_redirect:
+        target = f"https://{new_host}{new_path}"
+        if query:
+            target += f"?{query}"
+        return RedirectResponse(url=target, status_code=301)
+
+    return await call_next(request)
+
+
 # ============ ROUTES ============
 @app.get("/api/health")
 def health():

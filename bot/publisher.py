@@ -279,8 +279,12 @@ def _update_sitemap(slug: str, category: str) -> None:
     """
     Добавляет новую <url> запись в sitemap.xml перед </urlset>.
     Если запись уже есть для этого URL - обновляет lastmod.
+
+    Важно: <loc> должен содержать ПОЛНЫЙ URL со схемой и доменом
+    по требованию протокола sitemaps.org. Относительный путь /articles/...
+    парсеры Яндекса/Google не принимают.
     """
-    loc = f"/articles/{category}/{slug}"
+    loc = f"https://pravo.shop/articles/{category}/{slug}"
     today_iso = date.today().isoformat()
 
     if not SITEMAP_PATH.exists():
