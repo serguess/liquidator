@@ -74,7 +74,7 @@
     "kak-zakryt-ooo-s-dolgami": {
       "category": "yur",
       "title": "Как закрыть ООО с долгами в 2026 году: 3 варианта",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -82,10 +82,12 @@
       "tg_message_id": 202,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-08T18:29:09",
-      "last_action_at": "2026-05-08T18:29:09",
+      "last_action_at": "2026-05-08T18:39:21",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null
+      "published_url": "https://pravo.shop/articles/yur/kak-zakryt-ooo-s-dolgami",
+      "published_at": "2026-05-08T18:39:21",
+      "articles_path": "articles/yur/kak-zakryt-ooo-s-dolgami.html"
     }
   }
 }
