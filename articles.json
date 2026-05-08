@@ -1,6 +1,19 @@
 {
-  "generated": "2026-05-07",
+  "generated": "2026-05-08",
   "articles": [
+    {
+      "slug": "kak-otmenit-sudebnyj-prikaz",
+      "cat": "vzysk",
+      "catLabel": "Взыскание задолженности",
+      "title": "Как отменить судебный приказ о взыскании долга",
+      "desc": "Как должнику отменить судебный приказ за 10 дней или восстановить срок на возражения. Сроки, порядок действий, что будет после отмены приказа.",
+      "date": "8 мая 2026",
+      "dateIso": "2026-05-08",
+      "read": "5 мин.",
+      "tone": "b",
+      "img": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1778238747/articles/kak-otmenit-sudebnyj-prikaz-cover.jpg",
+      "url": "articles/vzysk/kak-otmenit-sudebnyj-prikaz"
+    },
     {
       "slug": "bankrotstvo-ooo-poshagovo-2026",
       "cat": "yur",
