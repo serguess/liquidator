@@ -52,6 +52,40 @@
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null
+    },
+    "skolko-stoit-bankrotstvo-fizicheskogo-lica": {
+      "category": "fiz",
+      "title": "Стоимость банкротства физлица в 2026 году",
+      "status": "published",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 199,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-05-08T17:40:08",
+      "last_action_at": "2026-05-08T18:31:20",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": "https://pravo.shop/articles/fiz/skolko-stoit-bankrotstvo-fizicheskogo-lica",
+      "published_at": "2026-05-08T18:31:20",
+      "articles_path": "articles/fiz/skolko-stoit-bankrotstvo-fizicheskogo-lica.html"
+    },
+    "kak-zakryt-ooo-s-dolgami": {
+      "category": "yur",
+      "title": "Как закрыть ООО с долгами в 2026 году: 3 варианта",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 202,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-05-08T18:29:09",
+      "last_action_at": "2026-05-08T18:29:09",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null
     }
   }
 }
