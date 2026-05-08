@@ -1,0 +1,102 @@
+{
+  "slug": "snyatie-aresta-so-scheta-pristavami",
+  "category": "vzysk",
+  "title": "Снять арест со счёта приставами: пошаговая инструкция",
+  "description": "Что делать, если пристав арестовал счёт: как подать заявление, когда арест снимут сами, как защитить зарплату и прожиточный минимум.",
+  "h1": "Как снять арест со счёта, наложенный судебными приставами",
+  "lead": "Арест счёта -- это блокировка строго в пределах суммы долга: деньги сверх арестованной суммы доступны сразу, а путь к полной разблокировке зависит от того, погашен ли долг, законен ли арест и поданы ли нужные заявления.",
+  "breadcrumb_current": "Снятие ареста со счёта",
+  "topic_action": "снятие ареста со счёта",
+  "offer": "snyatie-aresta",
+  "date_published": "2026-05-08",
+  "date_modified": "2026-05-08",
+  "og_image": "/assets/articles/snyatie-aresta-so-scheta-pristavami.jpg",
+  "main_keyword": "снять арест со счёта приставами",
+  "secondary_keywords": [
+    "как снять арест с банковского счёта",
+    "арест счёта судебными приставами",
+    "постановление пристава об аресте счёта",
+    "заявление о снятии ареста со счёта",
+    "арест зарплатной карты приставами",
+    "обжалование ареста счёта",
+    "снятие ареста после погашения долга",
+    "прожиточный минимум при аресте счёта"
+  ],
+  "internal_links": [
+    "/articles/vzysk/kak-otmenit-sudebnyj-prikaz.html",
+    "/articles/fiz/vnesudebnoe-bankrotstvo-cherez-mfc-2026.html"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_71450/",
+    "https://www.consultant.ru/document/cons_doc_LAW_71450/fa662e376adf88e398a4a49b58feff57fb577cc3/",
+    "https://www.consultant.ru/document/cons_doc_LAW_71450/ca5c8fd26859264950ef2c9883bc79f8e03dc823/"
+  ],
+  "faq": [
+    {
+      "question": "Сколько времени занимает снятие ареста после погашения долга?",
+      "answer": "Законодательство не устанавливает точный срок. Пристав обязан вынести постановление об окончании одновременно со снятием ограничений (ст. 47 ч. 4 ФЗ-229), банк разблокирует средства после получения. На практике -- от нескольких часов до нескольких рабочих дней. При затяжке -- жалоба через Госуслуги."
+    },
+    {
+      "question": "Могут ли приставы арестовать весь счёт, если там больше суммы долга?",
+      "answer": "Нет. По ст. 81 ФЗ-229 банк блокирует средства строго в пределах суммы из постановления. Деньги сверх арестованной суммы доступны. Если заблокировано больше -- подайте обращение об устранении излишней блокировки."
+    },
+    {
+      "question": "Как защитить зарплатную карту от полного списания?",
+      "answer": "Работодатель обязан проставлять код вида дохода: код 1 -- зарплата, код 2 -- защищённые выплаты (Указание ЦБ РФ № 5286-У). Дополнительно подайте заявление о сохранении прожиточного минимума -- 20 644 руб. в 2026 году (ст. 99 ч. 1.1 ФЗ-229). Без него защита не действует."
+    },
+    {
+      "question": "Можно ли открыть счёт в другом банке, чтобы обойти арест?",
+      "answer": "Нет. Сведения о счетах ФССП запрашивает через ФНС и Банк России. Новый счёт будет обнаружен -- постановление придёт и туда."
+    },
+    {
+      "question": "Что делать, если арест не снят после погашения?",
+      "answer": "Подайте жалобу старшему инспектору в течение 10 суток с момента, когда узнали о нарушении (ст. 122 ФЗ-229) -- через Госуслуги или fssp.gov.ru. Рассматривается 10 суток. Параллельно можно обратиться в суд."
+    },
+    {
+      "question": "Защищена ли пенсия от ареста приставами?",
+      "answer": "Зависит от вида. Пенсия по потере кормильца входит в перечень ст. 101 ФЗ-229 -- взыскание на неё не обращается. Пенсия по старости в этот список не включена и взыскивается в общем порядке. Сохранить часть -- только через заявление о прожиточном минимуме."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Исполнительский сбор: 12% (с 09.01.2026, ФЗ-563), не 7% -- подтверждён research f5, last_verified 2026-05-08.",
+    "ПМ 20 644 руб. -- подтверждён research f7, last_verified 2026-05-08.",
+    "Защита ПМ не автоматическая -- подтверждён research f7, формулировка 'не включается сама по себе' корректна.",
+    "Ограничение 50% не применяется к средствам на счёте -- подтверждён research f6/f14, корректно указано в тексте.",
+    "Срок уведомления банка 3 дня (не '1 рабочий день') -- подтверждён research f3, убрана ненормативная формулировка.",
+    "Пенсия по старости не защищена по ст. 101 ФЗ-229 -- подтверждён research f8, явно указано в тексте.",
+    "Перечень ст. 101 соответствует редакции ФЗ-112 от 25.04.2026 -- last_verified 2026-05-08, legislation_status active."
+  ],
+  "keyword_density_main": 0.018,
+  "main_keyword_exact_count": 2,
+  "text_chars": 7559,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.093,
+  "local_spam_ngram3_repeat": 0.017,
+  "local_lexical_diversity": 0.632,
+  "local_ai_markers_density": 0.21,
+  "local_ai_markers_critical": 0,
+  "length_status": "warn",
+  "length_kind": "default",
+  "local_ai_markers_total": 2,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 2,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 13,
+  "predicted_spam_pct": 50,
+  "predicted_ai_pct": 5,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/c_fill,ar_191:100,g_center,f_auto,q_auto,w_1920/v1778269319/articles/snyatie-aresta-so-scheta-pristavami-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1778269319/articles/snyatie-aresta-so-scheta-pristavami-cover.jpg",
+  "image_prompt": "Photorealistic top-down flat-lay editorial photograph on a polished dark wooden desk, soft golden morning light from a window on the left casting a long warm diagonal across the desk, premium legal magazine aesthetic, shallow depth of field, neutral beige and graphite palette with warm gold accents, cinematic photorealistic detail. Scene: a closed dark leather portfolio resting slightly left of center, a small brass padlock with an open shackle placed on top of the portfolio, a bank payment card with no visible text face-down beside the portfolio, a brass balance scale with one pan slightly lower, a round brass official seal stamp resting near the scale, a black fountain pen diagonally across the portfolio, a sealed envelope with a red wax seal in the lower right corner. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands. Lower right area of the desk kept smooth, softly sunlit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-05-08T19:42:01Z",
+  "ready_for_review": true,
+  "ready_at": "2026-05-08T19:42:01Z",
+  "publication_target": "telegram_review"
+}
