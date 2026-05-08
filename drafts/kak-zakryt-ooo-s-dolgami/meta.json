@@ -1,0 +1,96 @@
+{
+  "slug": "kak-zakryt-ooo-s-dolgami",
+  "category": "yur",
+  "title": "Как закрыть ООО с долгами в 2026 году: 3 варианта",
+  "description": "Три способа закрыть ООО с долгами: добровольная ликвидация, банкротство и альтернативные варианты. Когда что выбрать, чем рискует директор.",
+  "h1": "Как закрыть ООО с долгами: три пути и чем каждый заканчивается",
+  "lead": "Добровольная ликвидация при непогашенных долгах незаконна — но есть три реальных сценария, у каждого своя цена для директора и совладельцев.",
+  "topic_action": "закрытие ООО с долгами",
+  "breadcrumb_current": "Закрыть ООО с долгами",
+  "date_published": "2026-05-09",
+  "date_modified": "2026-05-09",
+  "og_image": "/assets/articles/kak-zakryt-ooo-s-dolgami.jpg",
+  "main_keyword": "как закрыть ООО с долгами",
+  "secondary_keywords": [
+    "ликвидация ООО с долгами",
+    "закрыть ООО с задолженностью",
+    "банкротство ООО вместо ликвидации",
+    "принудительная ликвидация ООО налоговой",
+    "альтернативная ликвидация ООО",
+    "как избежать субсидиарной ответственности при ликвидации ООО",
+    "очерёдность кредиторов при ликвидации ООО",
+    "закрыть ООО с долгами перед налоговой",
+    "упрощённая ликвидация ООО 2026"
+  ],
+  "internal_links": [
+    "/articles/yur/bankrotstvo-ooo-poshagovo-2026.html"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/",
+    "https://www.consultant.ru/document/cons_doc_LAW_5142/06a8e01f9df1874a0df040fdcae8c0b463b834bc/"
+  ],
+  "faq": [
+    {
+      "question": "Можно ли ликвидировать ООО с долгами без банкротства?",
+      "answer": "Да, если компания способна полностью погасить все обязательства при добровольном закрытии. Если активов недостаточно, ликвидационная комиссия обязана подать заявление о несостоятельности (ст. 63 п. 4 ГК РФ). Законных способов обойти это требование нет."
+    },
+    {
+      "question": "Какой минимальный долг нужен для возбуждения банкротства ООО в 2026 году?",
+      "answer": "С 29.05.2024 — 2 000 000 руб. при просрочке не менее 3 месяцев (ст. 6, 33 127-ФЗ в ред. ФЗ-107). Для сельскохозяйственных и стратегических организаций — 3 000 000 руб. При задолженности ниже 2 млн арбитраж вернёт заявление. Исключение — упрощённое банкротство отсутствующего должника (ст. 227 127-ФЗ): порог суммы там не применяется."
+    },
+    {
+      "question": "Что будет, если просто бросить ООО и не сдавать отчётность?",
+      "answer": "ФНС исключит компанию из реестра примерно через год. Обязательства после этого не исчезают: пострадавшие стороны три года вправе взыскать убытки с директора и участников при доказанной недобросовестности (ст. 3 п. 3.1 ФЗ-14 «Об ООО»). Плюс — трёхлетний запрет на руководство другими компаниями."
+    },
+    {
+      "question": "Может ли директор избежать субсидиарной ответственности при банкротстве ООО?",
+      "answer": "Может. По разъяснениям Пленума ВС РФ №53 (ред. от 23.12.2025) предпринимательский риск сам по себе не является основанием для личной ответственности. Нужно своевременно подать заявление — не позднее 1 месяца с признаков неплатёжеспособности (ст. 9 п. 2 127-ФЗ) — и не совершать сделок, наносящих вред займодавцам."
+    },
+    {
+      "question": "Сколько стоит банкротство ООО в 2026 году?",
+      "answer": "Госпошлина — 100 000 руб. Вознаграждение управляющих по 30 000 руб. в месяц на каждого. Публикации в ЕФРСБ по 969,48 руб. за сообщение. При наблюдении 5-6 месяцев только фиксированная часть превысит 400 тыс. — без учёта процентов конкурсного арбитражного управляющего и расходов на торги."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все факты сверены с research.json (f1-f15). last_verified не старше 6 месяцев, legislation_status: active.",
+    "п. 13 ст. 20.6 127-ФЗ — проценты конкурсного управляющего при банкротстве юрлица (не п. 17 — финуправляющий физлица). Контекст корректен.",
+    "Очерёдность ст. 64 ГК РФ (ликвидация) и ст. 134 127-ФЗ (банкротство) разграничены явно.",
+    "Пленум №53 ред. от 23.12.2025 — ссылка на постановление Пленума №42 от 23.12.2025, вносящего правки в №53. Формулировка соответствует safe_phrasing из f10.",
+    "Порог банкротства ООО — 2 млн руб. (старый 300 тыс. не упомянут)."
+  ],
+  "keyword_density_main": 0.018,
+  "main_keyword_exact_count": 2,
+  "text_chars": 8394,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.101,
+  "local_spam_ngram3_repeat": 0.022,
+  "local_lexical_diversity": 0.651,
+  "local_ai_markers_density": 0.2,
+  "local_ai_markers_critical": 0,
+  "length_status": "too_long",
+  "length_kind": "default",
+  "local_ai_markers_total": 2,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 1,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 7,
+  "predicted_spam_pct": 47,
+  "predicted_ai_pct": 5,
+  "predicted_uniqueness_pct": 90,
+  "customer_risks": [
+    "длина больше лимита 8000 (8 394 знаков)"
+  ],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/c_fill,ar_191:100,g_center,f_auto,q_auto,w_1920/v1778264937/articles/kak-zakryt-ooo-s-dolgami-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1778264937/articles/kak-zakryt-ooo-s-dolgami-cover.jpg",
+  "image_prompt": "Photorealistic top-down flat-lay editorial photograph on a polished dark wooden desk, soft golden morning light from a window on the left casting a long warm diagonal across the desk, premium legal magazine aesthetic, shallow depth of field, neutral beige and graphite palette with warm gold accents, cinematic photorealistic detail. Scene: a closed dark leather portfolio with a brass round company seal resting on top, a stack of three closed corporate folders tied with a dark ribbon, a fountain pen placed diagonally across the portfolio, a small brass desk calculator with a blank screen, a vintage glass inkwell, a wax seal stamp with a handle resting beside a folded envelope. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands. Lower right area of the desk kept smooth, softly sunlit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-05-08T18:28:58Z",
+  "ready_for_review": true,
+  "ready_at": "2026-05-08T18:28:58Z",
+  "publication_target": "telegram_review"
+}

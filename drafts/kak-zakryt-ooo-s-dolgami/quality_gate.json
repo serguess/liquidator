@@ -1,0 +1,147 @@
+{
+  "file": "/app/drafts/kak-zakryt-ooo-s-dolgami/article.html",
+  "passed": true,
+  "hard_failed": false,
+  "blockers": [],
+  "warnings": [
+    "Автофикс применил правки: сокращения=0, пунктуация=0",
+    "length_soft_passed: 8394 > 8000 но ≤ 9000 и iteration=7 — пропускаем (приоритет spam/uniqueness/ai)"
+  ],
+  "autofix": {
+    "file": "/app/drafts/kak-zakryt-ooo-s-dolgami/article.html",
+    "abbreviation_fixes": {},
+    "punctuation_fixes": 0,
+    "em_dash_fixes": 40,
+    "eng_quotes_fixes": 0,
+    "changed": true,
+    "bytes_before": 42056,
+    "bytes_after": 41976
+  },
+  "quality_checks": {
+    "file": "drafts/kak-zakryt-ooo-s-dolgami/article.html",
+    "text_chars": 8394,
+    "length_status": "too_long",
+    "length_kind": "default",
+    "passed": false,
+    "abbreviation_hits": [],
+    "punctuation_hits": [],
+    "spam": {
+      "total_words": 651,
+      "unique_lemmas": 424,
+      "lexical_diversity": 0.651,
+      "top10_words": [
+        [
+          "долг",
+          9
+        ],
+        [
+          "закрыт",
+          8
+        ],
+        [
+          "месяц",
+          8
+        ],
+        [
+          "руководител",
+          7
+        ],
+        [
+          "процедур",
+          7
+        ],
+        [
+          "имуществ",
+          6
+        ],
+        [
+          "года",
+          6
+        ],
+        [
+          "ликвидац",
+          5
+        ],
+        [
+          "баланс",
+          5
+        ],
+        [
+          "кредитор",
+          5
+        ]
+      ],
+      "top10_share": 0.101,
+      "ngram3_repeat_count": 14,
+      "ngram3_total": 649,
+      "ngram3_repeat_share": 0.022,
+      "risk_flags": []
+    }
+  },
+  "ai_markers": {
+    "file": "drafts/kak-zakryt-ooo-s-dolgami/article.html",
+    "text_chars": 10192,
+    "hits_total": 2,
+    "density_per_1000": 0.2,
+    "by_severity": {
+      "critical": 0,
+      "high": 0,
+      "medium": 0,
+      "low": 2
+    },
+    "own_voice_hits": 1,
+    "first_person_singular_hits": 0,
+    "hits": [
+      {
+        "name": "ИИ-лексика: «взаимодействие/тонкости/нюансы (абстрактно)»",
+        "category": "ai-lexis",
+        "severity": "low",
+        "match": "Взаимодействие",
+        "position": 9999,
+        "context": "...ение law@pravo.shop Коммерческие предложения biz@pravo.shop Взаимодействие со СМИ pr@pravo.shop © 2018-2026 ООО «ЛИКВИДАТОР». Все прав..."
+      },
+      {
+        "name": "Канцелярит: «в рамках» (без нужды)",
+        "category": "clerical",
+        "severity": "low",
+        "match": "в рамках",
+        "position": 9611,
+        "context": "...ровождение на всех этапах. Надёжность и законность Работаем в рамках ФЗ и действующего законодательства РФ. РЕКВИЗИТЫ ООО «ЛИКВИ..."
+      }
+    ]
+  },
+  "anti_template": {
+    "file": "drafts/kak-zakryt-ooo-s-dolgami/article.html",
+    "text_chars": 8694,
+    "phrases_loaded": 138,
+    "passed": true,
+    "hits": []
+  },
+  "law_quotes": {
+    "total_chars": 0,
+    "limit": 600,
+    "samples": []
+  },
+  "rhythm": {
+    "file": "drafts/kak-zakryt-ooo-s-dolgami/article.html",
+    "text_chars": 8694,
+    "sentences_total": 80,
+    "avg_sentence_len": 8.81,
+    "short_sentences_count": 18,
+    "short_sentences_share": 0.225,
+    "long_sentences_count": 0,
+    "parasite_count": 1,
+    "parasite_per_1000": 0.12,
+    "flags": []
+  },
+  "recommendations": [],
+  "retry_count": 7,
+  "predicted_metrics": {
+    "spam_pct": 47,
+    "ai_pct": 5,
+    "uniqueness_pct": 90
+  },
+  "customer_risks": [
+    "длина больше лимита 8000 (8 394 знаков)"
+  ]
+}
