@@ -1118,6 +1118,20 @@ async def _start_telegram_bot():
         # «Правки»/«Отклонить» терялся каждый раз когда scheduler пушил
         # bot_state.json между нажатием кнопки и ответом юзера.
         dp = Dispatcher(storage=JsonFileStorage(DATA_DIR / ".fsm_state.json"))
+
+        # FSM-alias middleware: handlers объявляют параметр `fsm: FSMContext`,
+        # но aiogram 3.x по умолчанию инжектит ключом `state`. Без алиаса каждое
+        # нажатие кнопок «Правки» / «Отклонить» крашится с
+        # `TypeError: missing 1 required positional argument: 'fsm'`.
+        # Сразу копируем data['state'] → data['fsm'] чтобы handler'ы работали
+        # с тем же FSMContext под привычным именем.
+        @dp.update.outer_middleware()
+        async def _alias_fsm_to_state(handler, event, data):
+            state_obj = data.get("state")
+            if state_obj is not None and "fsm" not in data:
+                data["fsm"] = state_obj
+            return await handler(event, data)
+
         dp.include_router(handlers.router)
 
         log.info(
