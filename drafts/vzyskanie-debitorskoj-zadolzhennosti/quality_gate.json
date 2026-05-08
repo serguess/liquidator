@@ -2,7 +2,7 @@
   "file": "C:\\Users\\Asus\\Documents\\personal_ai\\projects\\bankrotstvo\\drafts\\vzyskanie-debitorskoj-zadolzhennosti\\article.html",
   "passed": false,
   "blockers": [
-    "spam_risk: 3 флагов (top10_share>0.085 (=0.086), ngram3_repeat_share>0.025 (=0.03), lexical_diversity<0.65 (=0.611)), top-5: ['взыскан', 'дней', 'претенз', 'долг', 'день']"
+    "spam_risk: 1 флагов (lexical_diversity<0.62 (=0.619)), top-5: ['требован', 'сумм', 'задолженност', 'дней', 'судебный']"
   ],
   "warnings": [],
   "autofix": {
@@ -12,41 +12,37 @@
     "em_dash_fixes": 0,
     "eng_quotes_fixes": 0,
     "changed": false,
-    "bytes_before": 39662,
-    "bytes_after": 39662
+    "bytes_before": 40068,
+    "bytes_after": 40068
   },
   "quality_checks": {
     "file": "drafts\\vzyskanie-debitorskoj-zadolzhennosti\\article.html",
-    "text_chars": 7884,
+    "text_chars": 7955,
     "length_status": "warn",
     "length_kind": "default",
     "passed": false,
     "abbreviation_hits": [],
     "punctuation_hits": [],
     "spam": {
-      "total_words": 673,
-      "unique_lemmas": 411,
-      "lexical_diversity": 0.611,
+      "total_words": 682,
+      "unique_lemmas": 422,
+      "lexical_diversity": 0.619,
       "top10_words": [
         [
-          "взыскан",
-          8
+          "требован",
+          7
+        ],
+        [
+          "сумм",
+          7
+        ],
+        [
+          "задолженност",
+          6
         ],
         [
           "дней",
-          8
-        ],
-        [
-          "претенз",
           6
-        ],
-        [
-          "долг",
-          6
-        ],
-        [
-          "день",
-          5
         ],
         [
           "судебный",
@@ -65,24 +61,26 @@
           5
         ],
         [
-          "задолженност",
+          "ответчик",
+          5
+        ],
+        [
+          "срок",
           5
         ]
       ],
-      "top10_share": 0.086,
-      "ngram3_repeat_count": 20,
-      "ngram3_total": 671,
-      "ngram3_repeat_share": 0.03,
+      "top10_share": 0.082,
+      "ngram3_repeat_count": 14,
+      "ngram3_total": 680,
+      "ngram3_repeat_share": 0.021,
       "risk_flags": [
-        "top10_share>0.085 (=0.086)",
-        "ngram3_repeat_share>0.025 (=0.03)",
-        "lexical_diversity<0.65 (=0.611)"
+        "lexical_diversity<0.62 (=0.619)"
       ]
     }
   },
   "ai_markers": {
     "file": "drafts\\vzyskanie-debitorskoj-zadolzhennosti\\article.html",
-    "text_chars": 9361,
+    "text_chars": 9432,
     "hits_total": 2,
     "density_per_1000": 0.21,
     "by_severity": {
@@ -99,7 +97,7 @@
         "category": "ai-lexis",
         "severity": "low",
         "match": "Взаимодействие",
-        "position": 9168,
+        "position": 9239,
         "context": "...ение law@pravo.shop Коммерческие предложения biz@pravo.shop Взаимодействие со СМИ pr@pravo.shop © 2018-2026 ООО «ЛИКВИДАТОР». Все прав..."
       },
       {
@@ -107,14 +105,14 @@
         "category": "clerical",
         "severity": "low",
         "match": "в рамках",
-        "position": 8780,
+        "position": 8851,
         "context": "...ровождение на всех этапах. Надёжность и законность Работаем в рамках ФЗ и действующего законодательства РФ. РЕКВИЗИТЫ ООО «ЛИКВИ..."
       }
     ]
   },
   "anti_template": {
     "file": "drafts\\vzyskanie-debitorskoj-zadolzhennosti\\article.html",
-    "text_chars": 7884,
+    "text_chars": 7955,
     "phrases_loaded": 138,
     "passed": true,
     "hits": []
@@ -126,9 +124,9 @@
   },
   "rhythm": {
     "file": "drafts\\vzyskanie-debitorskoj-zadolzhennosti\\article.html",
-    "text_chars": 7884,
+    "text_chars": 7955,
     "sentences_total": 86,
-    "avg_sentence_len": 8.2,
+    "avg_sentence_len": 8.3,
     "short_sentences_count": 19,
     "short_sentences_share": 0.221,
     "long_sentences_count": 0,
@@ -137,7 +135,7 @@
     "flags": []
   },
   "recommendations": [
-    "reduce_repetition: разбавить топ-5 частотных лемм местоимениями/перифразом — ['взыскан', 'дней', 'претенз', 'долг', 'день']"
+    "reduce_repetition: разбавить топ-5 частотных лемм местоимениями/перифразом — ['требован', 'сумм', 'задолженност', 'дней', 'судебный']"
   ],
-  "retry_count": 2
+  "retry_count": 4
 }

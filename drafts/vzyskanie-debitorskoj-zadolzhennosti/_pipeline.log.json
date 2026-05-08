@@ -1,0 +1,70 @@
+{
+  "slug": "vzyskanie-debitorskoj-zadolzhennosti",
+  "category": null,
+  "started_at": "2026-05-08T10:00:55",
+  "finished_at": "2026-05-08T10:03:40",
+  "total_duration_sec": 165.0,
+  "current_iteration": 2,
+  "events": [
+    {
+      "ts": "2026-05-08T10:00:55",
+      "agent": "scheduler",
+      "event": "rewrite_started",
+      "iteration": 1,
+      "reason": "quality_gate failed: spam_risk (top10_share 0.086, ngram3 0.03, lex_div 0.611)",
+      "recommendation": "writer perifraz top-5 lemms: vzyskan/dney/pretenz/dolg/den"
+    },
+    {
+      "ts": "2026-05-08T10:00:56",
+      "agent": "4-writer",
+      "event": "iteration_returned",
+      "iteration": 2,
+      "reason": "rewrite-article",
+      "recommendation": "reduce_repetition top-5 lemms"
+    },
+    {
+      "ts": "2026-05-08T10:03:27",
+      "agent": "scheduler",
+      "event": "rewrite_finished",
+      "iteration": 2,
+      "reason": "passed: false (lex_div 0.619 vs threshold 0.62, недобор 0.001, остальные флаги fix-ed)"
+    },
+    {
+      "ts": "2026-05-08T10:03:40",
+      "agent": "scheduler",
+      "event": "slot_started",
+      "iteration": 2,
+      "category": "vzysk",
+      "today_count": 0,
+      "limit": 1,
+      "write_article_duration_sec": 220.7
+    },
+    {
+      "ts": "2026-05-08T10:03:40",
+      "agent": "quality_gate",
+      "event": "failed",
+      "iteration": 2,
+      "blockers": [
+        "spam_risk: 1 флагов (lexical_diversity<0.62 (=0.619)), top-5: ['требован', 'сумм', 'задолженност', 'дней', 'судебный']"
+      ],
+      "warnings": [],
+      "recommendations": [
+        "reduce_repetition: разбавить топ-5 частотных лемм местоимениями/перифразом — ['требован', 'сумм', 'задолженност', 'дней', 'судебный']"
+      ]
+    },
+    {
+      "ts": "2026-05-08T10:03:40",
+      "agent": "scheduler",
+      "event": "slot_finished",
+      "status": "failed_qa",
+      "iteration": 2
+    }
+  ],
+  "final_status": "failed_qa",
+  "metrics": {
+    "ai_detector": null,
+    "uniqueness": null,
+    "spam": null,
+    "text_chars": 7955
+  }
+}
