@@ -104,32 +104,60 @@ async def on_chatid(message: Message):
 # ============ Callback: ✏️ Правки ============
 @router.callback_query(F.data.startswith("edit:"))
 async def on_edit_pressed(query: CallbackQuery, fsm: FSMContext):
+    # Сразу гасим спиннер на кнопке. Если что-то ниже упадёт, юзер хотя бы
+    # не будет смотреть в бесконечную загрузку до 30-секундного таймаута.
+    try:
+        await query.answer()
+    except Exception:
+        log.exception("Edit flow: не смог ответить на callback")
+
     if not _is_allowed(query):
-        await query.answer("⛔ Доступ запрещён", show_alert=True)
+        try:
+            await query.answer("⛔ Доступ запрещён", show_alert=True)
+        except Exception:
+            pass
         return
 
     slug = query.data.removeprefix("edit:")
     review = state.get_review(slug)
     if not review:
-        await query.answer("Статья не найдена", show_alert=True)
+        await query.message.answer(
+            "❓ Статья не найдена в базе бота. Возможно, бот её ещё не "
+            "регистрировал (state мог сброситься при редеплое). "
+            "Попроси команду переотправить уведомление."
+        )
+        log.warning(
+            "Edit flow: review для slug=%s не найден (callback от user=%s)",
+            slug, query.from_user.id if query.from_user else "?",
+        )
         return
 
-    await fsm.set_state(EditFlow.waiting_for_edit_text)
-    await fsm.update_data(slug=slug)
-    log.info(
-        "Edit flow started: user=%s slug=%s title=%r",
-        query.from_user.id if query.from_user else "?", slug,
-        review.get("title", slug)[:60],
-    )
-    # ForceReply гарантирует что юзер ответит reply'ем на это сообщение.
-    # Если FSM-state потеряется при редеплое, мы восстановим slug из
-    # reply_to_message.text по маркеру [edit:slug] в конце.
-    await query.message.answer(
-        messages.asking_for_edit(title=review.get("title", slug), slug=slug),
-        parse_mode="HTML",
-        reply_markup=ForceReply(selective=True),
-    )
-    await query.answer()
+    try:
+        await fsm.set_state(EditFlow.waiting_for_edit_text)
+        await fsm.update_data(slug=slug)
+        log.info(
+            "Edit flow started: user=%s slug=%s title=%r",
+            query.from_user.id if query.from_user else "?", slug,
+            review.get("title", slug)[:60],
+        )
+        # ForceReply гарантирует что юзер ответит reply'ем на это сообщение.
+        # Если FSM-state потеряется при редеплое, мы восстановим slug из
+        # reply_to_message.text по маркеру [edit:slug] в конце.
+        await query.message.answer(
+            messages.asking_for_edit(title=review.get("title", slug), slug=slug),
+            parse_mode="HTML",
+            reply_markup=ForceReply(selective=True),
+        )
+    except Exception as exc:
+        log.exception("Edit flow: ошибка при отправке prompt slug=%s", slug)
+        try:
+            await query.message.answer(
+                f"❌ Не удалось открыть форму правок: <code>{type(exc).__name__}</code>. "
+                "Команда уже видит ошибку в логе.",
+                parse_mode="HTML",
+            )
+        except Exception:
+            pass
 
 
 @router.message(EditFlow.waiting_for_edit_text, F.voice)
@@ -334,28 +362,54 @@ async def on_publish_pressed(query: CallbackQuery):
 # ============ Callback: 🗑 Отклонить ============
 @router.callback_query(F.data.startswith("reject:"))
 async def on_reject_pressed(query: CallbackQuery, fsm: FSMContext):
+    try:
+        await query.answer()
+    except Exception:
+        log.exception("Reject flow: не смог ответить на callback")
+
     if not _is_allowed(query):
-        await query.answer("⛔ Доступ запрещён", show_alert=True)
+        try:
+            await query.answer("⛔ Доступ запрещён", show_alert=True)
+        except Exception:
+            pass
         return
 
     slug = query.data.removeprefix("reject:")
     review = state.get_review(slug)
     if not review:
-        await query.answer("Статья не найдена", show_alert=True)
+        await query.message.answer(
+            "❓ Статья не найдена в базе бота. Возможно, бот её ещё не "
+            "регистрировал (state мог сброситься при редеплое). "
+            "Попроси команду переотправить уведомление."
+        )
+        log.warning(
+            "Reject flow: review для slug=%s не найден (callback от user=%s)",
+            slug, query.from_user.id if query.from_user else "?",
+        )
         return
 
-    await fsm.set_state(EditFlow.waiting_for_rejection_reason)
-    await fsm.update_data(slug=slug)
-    log.info(
-        "Reject flow started: user=%s slug=%s",
-        query.from_user.id if query.from_user else "?", slug,
-    )
-    await query.message.answer(
-        messages.asking_for_rejection_reason(title=review.get("title", slug), slug=slug),
-        parse_mode="HTML",
-        reply_markup=ForceReply(selective=True),
-    )
-    await query.answer()
+    try:
+        await fsm.set_state(EditFlow.waiting_for_rejection_reason)
+        await fsm.update_data(slug=slug)
+        log.info(
+            "Reject flow started: user=%s slug=%s",
+            query.from_user.id if query.from_user else "?", slug,
+        )
+        await query.message.answer(
+            messages.asking_for_rejection_reason(title=review.get("title", slug), slug=slug),
+            parse_mode="HTML",
+            reply_markup=ForceReply(selective=True),
+        )
+    except Exception as exc:
+        log.exception("Reject flow: ошибка при отправке prompt slug=%s", slug)
+        try:
+            await query.message.answer(
+                f"❌ Не удалось открыть форму отклонения: <code>{type(exc).__name__}</code>. "
+                "Команда уже видит ошибку в логе.",
+                parse_mode="HTML",
+            )
+        except Exception:
+            pass
 
 
 @router.message(EditFlow.waiting_for_rejection_reason, F.text)

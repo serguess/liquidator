@@ -1087,16 +1087,17 @@ async def _start_telegram_bot():
         from aiogram import Bot, Dispatcher
         from aiogram.client.default import DefaultBotProperties
         from aiogram.enums import ParseMode
-        from aiogram.fsm.storage.memory import MemoryStorage
 
         from bot import handlers
         from bot.main import watch_loop
         from bot.config import (
+            DATA_DIR,
             TG_ALLOWED_CHAT_IDS,
             TG_BOT_TOKEN,
             BOT_WATCH_INTERVAL_SEC,
             validate_config,
         )
+        from bot.fsm_storage import JsonFileStorage
     except Exception:
         log.exception("Telegram-бот: не смог импортировать модули, сайт работает без него")
         return
@@ -1113,7 +1114,10 @@ async def _start_telegram_bot():
             token=TG_BOT_TOKEN,
             default=DefaultBotProperties(parse_mode=ParseMode.HTML),
         )
-        dp = Dispatcher(storage=MemoryStorage())
+        # JsonFileStorage переживает редеплой Cloud Apps. С MemoryStorage flow
+        # «Правки»/«Отклонить» терялся каждый раз когда scheduler пушил
+        # bot_state.json между нажатием кнопки и ответом юзера.
+        dp = Dispatcher(storage=JsonFileStorage(DATA_DIR / ".fsm_state.json"))
         dp.include_router(handlers.router)
 
         log.info(
