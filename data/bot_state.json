@@ -18,6 +18,40 @@
       "published_url": "https://pravo.shop/articles/vzysk/kak-otmenit-sudebnyj-prikaz",
       "published_at": "2026-05-08T13:41:16",
       "articles_path": "articles/vzysk/kak-otmenit-sudebnyj-prikaz.html"
+    },
+    "vnesudebnoe-bankrotstvo-cherez-mfc-2026": {
+      "category": "fiz",
+      "title": "Внесудебное банкротство через МФЦ в 2026 году",
+      "status": "published",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-05-08T15:51:57",
+      "last_action_at": "2026-05-08T16:22:51",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": "https://pravo.shop/articles/fiz/vnesudebnoe-bankrotstvo-cherez-mfc-2026",
+      "published_at": "2026-05-08T16:22:51",
+      "articles_path": "articles/fiz/vnesudebnoe-bankrotstvo-cherez-mfc-2026.html"
+    },
+    "edinyj-portal-bankrotstva-fedresurs": {
+      "category": "news",
+      "title": "ЕФРСБ и Федресурс 2026: как должнику пользоваться",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 188,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-05-08T16:20:57",
+      "last_action_at": "2026-05-08T16:20:57",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null
     }
   }
 }
