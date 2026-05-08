@@ -1,21 +1,3 @@
 {
-  "items": [
-    {
-      "slug": "bankrotstvo-ooo-poshagovo-2026",
-      "category": "yur",
-      "title": "Банкротство ООО пошагово в 2026 году",
-      "added_at": "2026-05-07T11:37:51Z",
-      "char_count": 7176,
-      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1778143066/articles/bankrotstvo-ooo-poshagovo-2026-cover.jpg"
-    },
-    {
-      "slug": "vzyskanie-debitorskoj-zadolzhennosti",
-      "category": "vzysk",
-      "title": "Взыскание дебиторской задолженности: алгоритм 2026",
-      "added_at": "2026-05-07T21:30:00Z",
-      "char_count": 7884,
-      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1778178803/articles/vzyskanie-debitorskoj-zadolzhennosti-cover.jpg",
-      "review_override": "manual_approval_by_owner"
-    }
-  ]
+  "items": []
 }
