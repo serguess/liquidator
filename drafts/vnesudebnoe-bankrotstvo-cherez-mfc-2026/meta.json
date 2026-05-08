@@ -1,0 +1,100 @@
+{
+  "slug": "vnesudebnoe-bankrotstvo-cherez-mfc-2026",
+  "category": "fiz",
+  "title": "Внесудебное банкротство через МФЦ в 2026 году",
+  "description": "Кто может подать заявление в МФЦ, какой должен быть долг, какие документы нужны и сколько длится процедура. Разбираем условия внесудебного банкротства.",
+  "h1": "Внесудебное банкротство через МФЦ: условия и порядок в 2026 году",
+  "lead": "Условия, лимиты долга и последствия внесудебного банкротства через МФЦ в 2026 году.",
+  "topic_action": "проверку условий банкротства через МФЦ",
+  "breadcrumb_current": "Банкротство через МФЦ",
+  "offer": "proverka-spisaniya",
+  "date_published": "2026-05-08",
+  "date_modified": "2026-05-08",
+  "og_image": "/assets/articles/vnesudebnoe-bankrotstvo-cherez-mfc-2026.jpg",
+  "main_keyword": "внесудебное банкротство через МФЦ",
+  "secondary_keywords": [
+    "банкротство МФЦ условия 2026",
+    "внесудебное банкротство физического лица",
+    "списание долгов через МФЦ",
+    "банкротство без суда условия",
+    "как подать на банкротство через МФЦ",
+    "упрощённое банкротство через МФЦ",
+    "банкротство МФЦ сумма долга",
+    "внесудебное банкротство 2026 изменения"
+  ],
+  "internal_links": [
+    "/articles/vzysk/kak-otmenit-sudebnyj-prikaz.html",
+    "/articles/yur/bankrotstvo-ooo-poshagovo-2026.html"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/c48290d39215783e73f0899bb1026b14cb221eff/",
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/15bac90772e695baab0ffa86106dfd11c02e7802/",
+    "https://www.garant.ru/afb-info/guide/zakon-o-bankrostve-fizlic/"
+  ],
+  "faq": [
+    {
+      "question": "Сколько стоит банкротство через МФЦ?",
+      "answer": "Процедура бесплатна. Госпошлина не взимается, арбитражный управляющий не назначается, расходы на публикации несёт государство. Для сравнения: в судебном варианте только вознаграждение управляющего составляет от 25 000 руб."
+    },
+    {
+      "question": "Сколько длится процедура внесудебного банкротства?",
+      "answer": "Ровно 6 месяцев с даты публикации в ЕФРСБ. Продление не предусмотрено. Если взыскатель переведёт дело в арбитражный суд раньше - внесудебная процедура прекращается досрочно."
+    },
+    {
+      "question": "Что делать, если МФЦ отказал в приёме заявления?",
+      "answer": "Повторно подать можно не ранее чем через 1 месяц. Сначала разобраться с причиной: чаще всего это несоответствие одному из оснований или ошибки в перечне кредиторов. Ошибки устраняются, нужное основание иногда приходится ждать."
+    },
+    {
+      "question": "Спишутся ли долги перед кредиторами, которых я не включил в список?",
+      "answer": "Нет. Задолженность перед теми, кого не указали в заявлении, остаётся в полном объёме. Поэтому в перечень включают всех без исключения."
+    },
+    {
+      "question": "Когда можно повторно обратиться на банкротство через МФЦ?",
+      "answer": "Не ранее чем через 5 лет после завершения предыдущей внесудебной процедуры. Если в промежутке было судебное банкротство - те же 5 лет с его завершения."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все факты соответствуют research.json. last_verified=2026-05-08, legislation_status=active для всех источников.",
+    "Исправлено: запрещённые жирные заголовки-дескрипторы (Первое/Второе/Третье/Четвёртое с двоеточием) переработаны в связные абзацы.",
+    "Исправлено: FAQ-секция приведена к структуре h3+p вместо **жирных вопросов**.",
+    "Добавлена вторая внутренняя ссылка на bankrotstvo-ooo-poshagovo-2026 (существует в published_index).",
+    "Добавлена третья внешняя ссылка (garant.ru) по ст. 213.30.",
+    "Ссылок на закон в теле статьи: 3 (consultant.ru дважды + garant.ru) - в пределах лимита.",
+    "Density главного ключа: текст ~5200 зн., ключ встречается в h1 (1), подзаголовке (1), теле (2-3) - в норме.",
+    "Запрещённых блоков (Шаги, Процесс, Шаблоны) - не обнаружено.",
+    "Запрещённых CTA-формулировок - не обнаружено."
+  ],
+  "keyword_density_main": 0.018,
+  "main_keyword_exact_count": 4,
+  "text_chars": 8000,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.091,
+  "local_spam_ngram3_repeat": 0.022,
+  "local_lexical_diversity": 0.626,
+  "local_ai_markers_density": 0.21,
+  "local_ai_markers_critical": 0,
+  "length_status": "warn",
+  "length_kind": "default",
+  "local_ai_markers_total": 2,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 1,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 7,
+  "predicted_spam_pct": 50,
+  "predicted_ai_pct": 5,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/c_fill,ar_191:100,g_center,f_auto,q_auto,w_1920/v1778250976/articles/vnesudebnoe-bankrotstvo-cherez-mfc-2026-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1778250976/articles/vnesudebnoe-bankrotstvo-cherez-mfc-2026-cover.jpg",
+  "image_prompt": "Photorealistic top-down flat-lay editorial photograph on a polished dark wooden desk, soft golden morning light from a window on the left casting a long warm diagonal across the desk, premium legal magazine aesthetic, shallow depth of field, neutral beige and graphite palette with warm gold accents, cinematic photorealistic detail. Scene: a closed brown leather folder with a round government rubber stamp resting on top, a blank application form folded in half, a small brass padlock lying open beside a stack of closed manila envelopes sealed with a red wax seal, a wooden judges gavel placed diagonally, a simple black ballpoint pen. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands. Lower right area of the desk kept smooth, softly sunlit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-05-08T14:36:17Z",
+  "ready_for_review": true,
+  "ready_at": "2026-05-08T14:36:17Z",
+  "publication_target": "telegram_review"
+}

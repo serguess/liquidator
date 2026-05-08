@@ -1,0 +1,48 @@
+{
+  "slug": "vnesudebnoe-bankrotstvo-cherez-mfc-2026",
+  "category": "fiz",
+  "started_at": "2026-05-08T14:36:35",
+  "finished_at": "2026-05-08T14:36:35",
+  "total_duration_sec": 0.0,
+  "current_iteration": 1,
+  "events": [
+    {
+      "ts": "2026-05-08T14:36:35",
+      "agent": "scheduler",
+      "event": "slot_started",
+      "iteration": 1,
+      "today_count": 0,
+      "limit": 10,
+      "write_article_duration_sec": 2416.3
+    },
+    {
+      "ts": "2026-05-08T14:36:35",
+      "agent": "quality_gate",
+      "event": "passed",
+      "iteration": 1,
+      "blockers": [],
+      "warnings": [],
+      "recommendations": []
+    },
+    {
+      "ts": "2026-05-08T14:36:35",
+      "agent": "scheduler",
+      "event": "slot_finished",
+      "status": "ok",
+      "iteration": 1
+    }
+  ],
+  "final_status": "ok",
+  "metrics": {
+    "ai_detector": null,
+    "uniqueness": null,
+    "spam": null,
+    "text_chars": 8000
+  },
+  "git": {
+    "committed": false,
+    "pushed": false,
+    "reason": "commit_failed",
+    "stderr": "nclude in what will be committed)\n\t.dockerfile_path\n\tdata/.scheduler.lock\n\tdata/.scheduler_heartbeat\n\tdata/_prev_summary_fiz.json\n\tdata/embeddings.sqlite\n\tdata/qc_calls/\n\tdrafts/vnesudebnoe-bankrotstvo-cherez-mfc-2026/\n\tslot-fiz.log\n\nno changes added to commit (use \"git add\" and/or \"git commit -a\")\n"
+  }
+}
