@@ -1,0 +1,142 @@
+{
+  "file": "/app/drafts/kak-otmenit-sudebnyj-prikaz/article.html",
+  "passed": true,
+  "hard_failed": false,
+  "blockers": [],
+  "warnings": [],
+  "autofix": {
+    "file": "/app/drafts/kak-otmenit-sudebnyj-prikaz/article.html",
+    "abbreviation_fixes": {},
+    "punctuation_fixes": 0,
+    "em_dash_fixes": 0,
+    "eng_quotes_fixes": 0,
+    "changed": false,
+    "bytes_before": 39047,
+    "bytes_after": 39047
+  },
+  "quality_checks": {
+    "file": "drafts/kak-otmenit-sudebnyj-prikaz/article.html",
+    "text_chars": 7579,
+    "length_status": "warn",
+    "length_kind": "default",
+    "passed": true,
+    "abbreviation_hits": [],
+    "punctuation_hits": [],
+    "spam": {
+      "total_words": 685,
+      "unique_lemmas": 444,
+      "lexical_diversity": 0.648,
+      "top10_words": [
+        [
+          "приказ",
+          12
+        ],
+        [
+          "возражен",
+          9
+        ],
+        [
+          "отмен",
+          8
+        ],
+        [
+          "срок",
+          8
+        ],
+        [
+          "ходатайств",
+          7
+        ],
+        [
+          "судь",
+          6
+        ],
+        [
+          "копи",
+          6
+        ],
+        [
+          "конверт",
+          5
+        ],
+        [
+          "производств",
+          5
+        ],
+        [
+          "дней",
+          5
+        ]
+      ],
+      "top10_share": 0.104,
+      "ngram3_repeat_count": 11,
+      "ngram3_total": 683,
+      "ngram3_repeat_share": 0.016,
+      "risk_flags": []
+    }
+  },
+  "ai_markers": {
+    "file": "drafts/kak-otmenit-sudebnyj-prikaz/article.html",
+    "text_chars": 9131,
+    "hits_total": 2,
+    "density_per_1000": 0.22,
+    "by_severity": {
+      "critical": 0,
+      "high": 0,
+      "medium": 0,
+      "low": 2
+    },
+    "own_voice_hits": 0,
+    "first_person_singular_hits": 0,
+    "hits": [
+      {
+        "name": "ИИ-лексика: «взаимодействие/тонкости/нюансы (абстрактно)»",
+        "category": "ai-lexis",
+        "severity": "low",
+        "match": "Взаимодействие",
+        "position": 8938,
+        "context": "...ение law@pravo.shop Коммерческие предложения biz@pravo.shop Взаимодействие со СМИ pr@pravo.shop © 2018-2026 ООО «ЛИКВИДАТОР». Все прав..."
+      },
+      {
+        "name": "Канцелярит: «в рамках» (без нужды)",
+        "category": "clerical",
+        "severity": "low",
+        "match": "в рамках",
+        "position": 8550,
+        "context": "...ровождение на всех этапах. Надёжность и законность Работаем в рамках ФЗ и действующего законодательства РФ. РЕКВИЗИТЫ ООО «ЛИКВИ..."
+      }
+    ]
+  },
+  "anti_template": {
+    "file": "drafts/kak-otmenit-sudebnyj-prikaz/article.html",
+    "text_chars": 7579,
+    "phrases_loaded": 138,
+    "passed": true,
+    "hits": []
+  },
+  "law_quotes": {
+    "total_chars": 0,
+    "limit": 600,
+    "samples": []
+  },
+  "rhythm": {
+    "file": "drafts/kak-otmenit-sudebnyj-prikaz/article.html",
+    "text_chars": 7579,
+    "sentences_total": 96,
+    "avg_sentence_len": 7.45,
+    "short_sentences_count": 36,
+    "short_sentences_share": 0.375,
+    "long_sentences_count": 0,
+    "parasite_count": 2,
+    "parasite_per_1000": 0.26,
+    "flags": []
+  },
+  "recommendations": [],
+  "retry_count": 9,
+  "predicted_metrics": {
+    "spam_pct": 50,
+    "ai_pct": 5,
+    "uniqueness_pct": 87
+  },
+  "customer_risks": []
+}
