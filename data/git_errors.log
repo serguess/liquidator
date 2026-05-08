@@ -107,3 +107,8 @@ no changes added to commit (use "git add" and/or "git commit -a")
 fatal: pathspec 'data/scheduler_log.json' did not match any files
 ====
 
+[2026-05-08T17:33:52] slot=skolko-stoit-bankrotstvo-fizicheskogo-lica category=fiz action=git_add (data/scheduler_log.json) returncode=128
+--- stderr ---
+fatal: pathspec 'data/scheduler_log.json' did not match any files
+====
+

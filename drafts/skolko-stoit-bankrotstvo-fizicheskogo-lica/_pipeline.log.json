@@ -1,0 +1,37 @@
+{
+  "slug": "skolko-stoit-bankrotstvo-fizicheskogo-lica",
+  "category": null,
+  "started_at": "2026-05-08T17:18:18",
+  "finished_at": null,
+  "total_duration_sec": null,
+  "current_iteration": 2,
+  "events": [
+    {
+      "ts": "2026-05-08T17:18:18",
+      "agent": "4-writer",
+      "event": "iteration_returned",
+      "iteration": 2,
+      "reason": "quality_gate blocker: reduce_repetition",
+      "recommendation": "reduce repetition: рубл(22), банкротств(11), сумм(8), кредитор(8), имуществ(7) — замены: рублей→сумма/средства/затраты, банкротство→процедура/несостоятельность/дело, кредиторов→заимодавцев/обязательства, имущество→активы/конкурсная масса"
+    },
+    {
+      "ts": "2026-05-08T17:33:52",
+      "agent": "scheduler",
+      "event": "slot_started",
+      "iteration": 2,
+      "category": "fiz",
+      "today_count": 0,
+      "limit": 10,
+      "write_article_duration_sec": 2481.4
+    },
+    {
+      "ts": "2026-05-08T17:33:52",
+      "agent": "quality_gate",
+      "event": "passed",
+      "iteration": 2,
+      "blockers": [],
+      "warnings": [],
+      "recommendations": []
+    }
+  ]
+}
