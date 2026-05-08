@@ -1,0 +1,103 @@
+{
+  "slug": "edinyj-portal-bankrotstva-fedresurs",
+  "category": "news",
+  "title": "ЕФРСБ и Федресурс 2026: как должнику пользоваться",
+  "description": "Что такое ЕФРСБ, как проверить себя и контрагента в Федресурс, что публикуется и что изменилось с 2026 года — инструкция для должника.",
+  "h1": "ЕФРСБ и Федресурс: как пользоваться единым реестром банкротств в 2026",
+  "lead": "С 1 января 2026 года все обязательные публикации о банкротстве переехали в ЕФРСБ — разбираем, что там искать и как читать реестр.",
+  "topic_action": "проверку статуса банкротства в ЕФРСБ",
+  "breadcrumb_current": "ЕФРСБ и Федресурс 2026",
+  "date_published": "2026-05-08",
+  "date_modified": "2026-05-08",
+  "og_image": "/assets/articles/edinyj-portal-bankrotstva-fedresurs.jpg",
+  "main_keyword": "ефрсб федресурс",
+  "secondary_keywords": [
+    "единый федеральный реестр сведений о банкротстве",
+    "проверка на банкротство федресурс",
+    "как пользоваться ефрсб должнику",
+    "обязательные публикации в ефрсб",
+    "fedresurs.ru как проверить",
+    "отмена коммерсантъ публикации банкротство"
+  ],
+  "intent": "informational",
+  "funnel_stage": "cold",
+  "article_type": "C",
+  "offer": "proverka-spisaniya",
+  "event_date": "2026-01-01",
+  "news_zone": "legislation",
+  "internal_links": [
+    "/articles/fiz/vnesudebnoe-bankrotstvo-cherez-mfc-2026.html",
+    "/articles/yur/bankrotstvo-ooo-poshagovo-2026.html",
+    "/articles/vzysk/kak-otmenit-sudebnyj-prikaz.html"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/fd14c76c4acfb0e1432a08abb7caa9e2e72db09f/",
+    "https://bankrot.fedresurs.ru/",
+    "https://bankrot.fedresurs.ru/extrajudicialbankruptcy"
+  ],
+  "faq": [
+    {
+      "question": "Можно ли проверить чужое банкротство в ЕФРСБ?",
+      "answer": "Да. Портал открытый — данные о любом должнике доступны по ФИО или ИНН без регистрации. Этим пользуются банки, работодатели, контрагенты при проверке перед заключением сделки."
+    },
+    {
+      "question": "Нужна ли регистрация, чтобы найти сведения в Федресурсе?",
+      "answer": "Не нужна. Просмотр на bankrot.fedresurs.ru полностью бесплатный и не требует создания учётной записи."
+    },
+    {
+      "question": "Почему моё дело ещё не появилось в ЕФРСБ?",
+      "answer": "После подачи заявления данные появляются на портале только после официального события: принятия судом к производству или публикации уведомления от МФЦ. Срок — 3 рабочих дня. Если прошло больше недели — уточните у управляющего или в отделении МФЦ."
+    },
+    {
+      "question": "Что значит запись «реализация имущества введена»?",
+      "answer": "Суд перешёл ко второй фазе: управляющий описывает и реализует активы для погашения требований кредиторов. После завершения этой фазы суд решает вопрос о снятии оставшейся задолженности."
+    },
+    {
+      "question": "Как долго сведения хранятся в реестре?",
+      "answer": "Конкретный срок хранения в 127-ФЗ не установлен. На практике карточки завершённых дел остаются в открытом доступе годами. При получении кредитов обязанность сообщать о пройденной процедуре действует 5 лет (ст. 213.30 п. 1 127-ФЗ)."
+    },
+    {
+      "question": "Кто оплачивает публикации в ЕФРСБ — гражданин или управляющий?",
+      "answer": "Управляющий. Каждое сообщение обходится порядка 500 рублей с НДС. Эти расходы относятся к текущим платежам и влияют на общую стоимость процедуры для заявителя."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "f11 (ВС РФ как источник lex specialis) имеет legislation_status: needs_verification — в тексте формулировка убрана до нейтральной ('специальная норма для граждан'); само содержание ст. 213.7 (f4) верифицировано",
+    "f6 (тариф ~500 руб) помечен contested — использована safe_phrasing 'порядка 500 рублей с НДС'",
+    "Запрещённые утверждения из forbidden_claims отсутствуют в тексте",
+    "Внутренняя ссылка на vnesudebnoe-bankrotstvo-cherez-mfc-2026 включена как draft_pending — статья уже в индексе"
+  ],
+  "keyword_density_main": null,
+  "main_keyword_exact_count": null,
+  "text_chars": 6296,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.088,
+  "local_spam_ngram3_repeat": 0.021,
+  "local_lexical_diversity": 0.661,
+  "local_ai_markers_density": 0.25,
+  "local_ai_markers_critical": 0,
+  "length_status": "ok",
+  "length_kind": "news",
+  "local_ai_markers_total": 2,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 0,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 5,
+  "predicted_spam_pct": 47,
+  "predicted_ai_pct": 5,
+  "predicted_uniqueness_pct": 90,
+  "customer_risks": [],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/c_fill,ar_191:100,g_center,f_auto,q_auto,w_1920/v1778257202/articles/edinyj-portal-bankrotstva-fedresurs-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1778257202/articles/edinyj-portal-bankrotstva-fedresurs-cover.jpg",
+  "image_prompt": "Photorealistic top-down flat-lay editorial photograph on a polished dark wooden desk, soft golden morning light from a window on the left casting a long warm diagonal across the desk, premium legal magazine aesthetic, shallow depth of field, neutral beige and graphite palette with warm gold accents, cinematic photorealistic detail. Scene: a closed laptop with brushed aluminum lid placed slightly left of center, a stack of three closed law books with embossed gilt spines and a small national emblem, a round brass official government seal resting on a closed dark leather portfolio, a fountain pen, a small white porcelain coffee cup on a saucer, a magnifying glass lying diagonally across the portfolio. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands. Lower right area of the desk kept smooth, softly sunlit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-05-08T16:20:03Z",
+  "ready_for_review": true,
+  "ready_at": "2026-05-08T16:20:03Z",
+  "publication_target": "telegram_review"
+}

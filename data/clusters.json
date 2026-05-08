@@ -170,6 +170,28 @@
       "articles": [
         "kak-otmenit-sudebnyj-prikaz"
       ]
+    },
+    {
+      "id": "news-efrsb-fedresurs-guide",
+      "category": "news",
+      "subtopic": "ЕФРСБ и Федресурс как инструмент должника: проверка, публикации, изменения 2026",
+      "intent": "informational",
+      "funnel_stage": "cold",
+      "main_keyword": "ефрсб федресурс",
+      "related_keywords": [
+        "единый федеральный реестр сведений о банкротстве",
+        "проверка на банкротство федресурс",
+        "как пользоваться ефрсб должнику",
+        "обязательные публикации в ефрсб",
+        "fedresurs.ru как проверить",
+        "отмена коммерсантъ публикации банкротство",
+        "bankrot.fedresurs.ru",
+        "сведения о банкроте в реестре",
+        "ФЗ-227 отмена публикаций коммерсантъ"
+      ],
+      "articles": [
+        "edinyj-portal-bankrotstva-fedresurs"
+      ]
     }
   ]
 }

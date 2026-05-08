@@ -102,3 +102,8 @@ Untracked files:
 no changes added to commit (use "git add" and/or "git commit -a")
 ====
 
+[2026-05-08T16:20:13] slot=edinyj-portal-bankrotstva-fedresurs category=news action=git_add (data/scheduler_log.json) returncode=128
+--- stderr ---
+fatal: pathspec 'data/scheduler_log.json' did not match any files
+====
+
