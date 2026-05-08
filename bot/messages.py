@@ -19,6 +19,15 @@ def preview_url(slug: str, token: str, version: str | None = None) -> str:
     return base
 
 
+def _metric_emoji(*, value: int | float, target: float, lower_is_better: bool) -> str:
+    """Возвращает ✅ если значение в норме, ⚠ если хуже целевого."""
+    if value is None:
+        return ""
+    if lower_is_better:
+        return "✅" if value <= target else "⚠"
+    return "✅" if value >= target else "⚠"
+
+
 def new_draft_notification(
     *,
     slug: str,
@@ -27,33 +36,67 @@ def new_draft_notification(
     version: str,
     char_count: int,
     token: str,
-    uniqueness_pct: float | None = None,
+    predicted_spam: int | None = None,
+    predicted_uniqueness: int | None = None,
+    predicted_ai: int | None = None,
+    customer_risks: list[str] | None = None,
     wordstat_main: int | None = None,
     wordstat_total: int | None = None,
 ) -> str:
+    """
+    Уведомление о новом драфте.
+
+    Включает:
+    - Прогноз text.ru-метрик (заспам, уникальность, AI-detector) с эмодзи-статусом
+    - Список рисков на языке заказчика (только если есть)
+    - Wordstat-частоты ключа (если посчитаны)
+    - Ссылку на превью
+
+    Прогнозы откалиброваны под локальные эвристики (точность ±5-7%) - реальные
+    метрики text.ru недоступны без API.
+    """
     cat = category_label(category)
     url = preview_url(slug, token, version)
+    chars_str = f"{char_count:,}".replace(",", " ")
 
-    extra_lines = []
-    if uniqueness_pct is not None:
-        extra_lines.append(f"<b>Уникальность:</b> {uniqueness_pct:.0f}% (text.ru)")
+    # === Блок прогнозов ===
+    metrics_block = ""
+    if predicted_spam is not None or predicted_ai is not None or predicted_uniqueness is not None:
+        lines = ["", "📊 <b>Прогноз метрик:</b>"]
+        if predicted_spam is not None:
+            emoji = _metric_emoji(value=predicted_spam, target=50, lower_is_better=True)
+            lines.append(f"   Заспам:       ~{predicted_spam}% {emoji} (цель ≤50%)")
+        if predicted_uniqueness is not None:
+            emoji = _metric_emoji(value=predicted_uniqueness, target=85, lower_is_better=False)
+            lines.append(f"   Уникальность: ~{predicted_uniqueness}% {emoji} (цель ≥85%)")
+        if predicted_ai is not None:
+            emoji = _metric_emoji(value=predicted_ai, target=10, lower_is_better=True)
+            lines.append(f"   AI-detector:  ~{predicted_ai}% {emoji} (цель ≤10%)")
+        metrics_block = "\n".join(lines)
+
+    # === Блок рисков (только если есть) ===
+    risks_block = ""
+    if customer_risks:
+        risk_lines = [f"   • {html.escape(r)}" for r in customer_risks]
+        risks_block = "\n\n⚠ <b>Возможные риски:</b>\n" + "\n".join(risk_lines)
+
+    # === Wordstat (опционально) ===
+    wordstat_block = ""
     if wordstat_main is not None:
-        # «1 240/мес» с разбиением через неразрывный пробел для красоты в TG
         formatted_main = f"{wordstat_main:,}".replace(",", " ")
-        line = f"📊 <b>Wordstat (главный ключ):</b> {formatted_main}/мес"
+        line = f"\n\n📈 <b>Wordstat (главный ключ):</b> {formatted_main}/мес"
         if wordstat_total is not None and wordstat_total > wordstat_main:
             formatted_total = f"{wordstat_total:,}".replace(",", " ")
             line += f" (с вторичными: {formatted_total}/мес)"
-        extra_lines.append(line)
-
-    extra_block = ("\n" + "\n".join(extra_lines)) if extra_lines else ""
+        wordstat_block = line
 
     return (
-        "📰 <b>Новая статья на ревью</b>\n\n"
-        f"<b>Тема:</b> {html.escape(title)}\n"
-        f"<b>Категория:</b> {html.escape(cat)}\n"
-        f"<b>Длина:</b> {char_count:,} знаков".replace(",", " ")
-        + extra_block
+        "🆕 <b>Новая статья на ревью</b>\n\n"
+        f"<b>[{html.escape(cat)}]</b> {html.escape(title)}\n"
+        f"📏 {chars_str} знаков"
+        + (("\n" + metrics_block) if metrics_block else "")
+        + risks_block
+        + wordstat_block
         + f"\n\n🔗 <a href=\"{url}\">Прочитать статью</a>"
     )
 

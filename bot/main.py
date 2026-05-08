@@ -244,7 +244,10 @@ async def _watch_iteration(bot: Bot):
             version=draft["version"],
             char_count=draft["char_count"],
             token=token,
-            uniqueness_pct=None,  # text.ru добавим позже
+            predicted_spam=draft.get("predicted_spam"),
+            predicted_uniqueness=draft.get("predicted_uniqueness"),
+            predicted_ai=draft.get("predicted_ai"),
+            customer_risks=draft.get("customer_risks") or [],
             wordstat_main=draft.get("wordstat_main"),
             wordstat_total=draft.get("wordstat_total"),
         )

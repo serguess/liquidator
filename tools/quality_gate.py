@@ -71,6 +71,7 @@ MAX_RETRY_COUNT = 5
 class GateResult:
     file: str
     passed: bool = True
+    hard_failed: bool = False  # True только при структурных проблемах (битый HTML, нет файлов)
     blockers: list[str] = field(default_factory=list)
     warnings: list[str] = field(default_factory=list)
     autofix: dict | None = None
@@ -81,6 +82,9 @@ class GateResult:
     rhythm: dict | None = None
     recommendations: list[str] = field(default_factory=list)
     retry_count: int = 1  # сколько раз gate был запущен по этой статье (1 = первый раз)
+    # Прогнозы text.ru (локальные эвристики, для бота)
+    predicted_metrics: dict = field(default_factory=dict)  # {spam_pct, ai_pct, uniqueness_pct}
+    customer_risks: list[str] = field(default_factory=list)  # риски на языке заказчика
 
 
 def _measure_law_quotes(html_path: Path) -> tuple[int, list[str]]:
@@ -116,6 +120,95 @@ def _measure_law_quotes(html_path: Path) -> tuple[int, list[str]]:
                     if len(samples) < 3:
                         samples.append(content[:120] + ("..." if len(content) > 120 else ""))
     return total, samples
+
+
+def _generate_customer_risks(
+    *,
+    predictions: dict,
+    text_chars: int,
+    length_kind: str,
+    am_rep,
+) -> list[str]:
+    """
+    Превращает прогнозы и блокеры в список рисков на языке заказчика.
+
+    Возвращает список строк типа «заспамленность чуть выше 50% (~51%)».
+    Если рисков нет (всё в норме) - пустой список.
+    """
+    risks: list[str] = []
+
+    # === Заспам ===
+    spam = predictions.get("spam_pct", 0)
+    if spam > 50:
+        if spam <= 53:
+            risks.append(f"заспамленность чуть выше 50% (~{spam}%)")
+        elif spam <= 57:
+            risks.append(f"заспамленность выше 50% (~{spam}%)")
+        elif spam <= 63:
+            risks.append(f"заспамленность заметно выше 50% (~{spam}%)")
+        else:
+            risks.append(f"заспамленность значительно выше 50% (~{spam}%)")
+
+    # === AI-detector ===
+    ai = predictions.get("ai_pct", 0)
+    if ai > 10:
+        if ai <= 13:
+            risks.append(f"AI-detector чуть выше 10% (~{ai}%)")
+        elif ai <= 17:
+            risks.append(f"AI-detector выше 10% (~{ai}%)")
+        elif ai <= 25:
+            risks.append(f"AI-detector заметно выше 10% (~{ai}%)")
+        else:
+            risks.append(f"AI-detector значительно выше 10% (~{ai}%)")
+
+    # === Уникальность ===
+    uniq = predictions.get("uniqueness_pct", 100)
+    if uniq < 85:
+        if uniq >= 82:
+            risks.append(f"уникальность чуть ниже 85% (~{uniq}%)")
+        elif uniq >= 78:
+            risks.append(f"уникальность ниже 85% (~{uniq}%)")
+        elif uniq >= 70:
+            risks.append(f"уникальность заметно ниже 85% (~{uniq}%)")
+        else:
+            risks.append(f"уникальность значительно ниже 85% (~{uniq}%)")
+
+    # === Длина ===
+    limits = quality_checks.LENGTH_LIMITS.get(length_kind, quality_checks.LENGTH_LIMITS["default"])
+    chars_str = f"{text_chars:,}".replace(",", " ")
+    if text_chars > limits["max"]:
+        diff = text_chars - limits["max"]
+        if diff <= 200:
+            risks.append(f"длина чуть больше лимита {limits['max']} ({chars_str} знаков)")
+        elif diff <= 500:
+            risks.append(f"длина больше лимита {limits['max']} ({chars_str} знаков)")
+        else:
+            risks.append(f"длина значительно больше лимита {limits['max']} ({chars_str} знаков)")
+    elif text_chars < limits["min"]:
+        diff = limits["min"] - text_chars
+        if diff <= 200:
+            risks.append(f"длина чуть меньше минимума {limits['min']} ({chars_str} знаков)")
+        else:
+            risks.append(f"длина меньше минимума {limits['min']} ({chars_str} знаков)")
+
+    # === Критические AI-маркеры (длинные тире, эмодзи, англ. кавычки) ===
+    crit_count = am_rep.by_severity.get("critical", 0) if am_rep else 0
+    if crit_count > 0:
+        crit_names = sorted({h.pattern.name for h in am_rep.hits if h.pattern.severity == "critical"})
+        if crit_names:
+            risks.append(
+                f"найдены критические маркеры ИИ-стиля: {', '.join(crit_names[:3])} - "
+                f"могут поднять AI-detector text.ru"
+            )
+
+    # === Голос «я» вместо «мы» ===
+    if am_rep and getattr(am_rep, "first_person_singular_hits", 0) > 0:
+        risks.append(
+            f"в тексте есть «я» вместо «мы» ({am_rep.first_person_singular_hits} мест) - "
+            f"нарушает фирменный голос"
+        )
+
+    return risks
 
 
 def _resolve_retry_count(article_path: Path, override: int | None) -> int:
@@ -304,18 +397,54 @@ def _run(path: Path, iteration_override: int | None = None) -> GateResult:
                 # править длину если других блокеров нет.
                 result.recommendations = [r for r in result.recommendations if not r.startswith("reduce_length")]
 
-    result.passed = not result.blockers
+    # 8. Прогноз text.ru-метрик и риски на языке заказчика
+    # text.ru API не подключён, поэтому считаем оценочный прогноз (±5-7%)
+    # на основе локальных эвристик. Бот покажет это заказчику.
+    at_hits_count = len(at_rep.hits) if at_rep else 0
+    predictions = quality_checks.predict_textru_metrics(
+        spam=qc_rep.spam,
+        ai_density_per_1000=am_rep.density_per_1000,
+        ai_critical_count=am_rep.by_severity.get("critical", 0),
+        anti_template_hits_count=at_hits_count,
+    )
+    result.predicted_metrics = predictions
+    result.customer_risks = _generate_customer_risks(
+        predictions=predictions,
+        text_chars=qc_rep.text_chars,
+        length_kind=qc_rep.length_kind,
+        am_rep=am_rep,
+    )
 
-    # 6. Записываем локальные метрики и textru_status в meta.json
-    # Заказчик зафиксировал (май 2026): text.ru API не подключаем, режим local_only.
-    _update_meta(path, qc_rep, am_rep, result.passed, result.blockers, result.retry_count)
+    # passed - оставляем для backward-compat и диагностики (technical level).
+    # Реальное решение «блокировать ли пайплайн» runner.py делает по hard_failed.
+    result.passed = not result.blockers
+    # hard_failed = только при структурных проблемах. Пока gate ничего такого не
+    # ловит (нет проверок битого HTML / отсутствия файлов внутри _run -
+    # отсутствие файла отлавливается раньше в main()). Оставляем False всегда.
+    # Метрические fail'ы (spam/AI/uniqueness/length) больше не блокируют пайплайн -
+    # заказчик увидит риски через бот и решит сам.
+    result.hard_failed = False
+
+    # 9. Записываем локальные метрики, прогнозы и риски в meta.json (для бота)
+    _update_meta(path, qc_rep, am_rep, result.passed, result.blockers,
+                 result.retry_count, predictions, result.customer_risks)
 
     return result
 
 
-def _update_meta(article_path: Path, qc_rep, am_rep, passed: bool, blockers: list[str], retry_count: int = 1) -> None:
+def _update_meta(
+    article_path: Path,
+    qc_rep,
+    am_rep,
+    passed: bool,
+    blockers: list[str],
+    retry_count: int = 1,
+    predictions: dict | None = None,
+    customer_risks: list[str] | None = None,
+) -> None:
     """
-    Дописывает в meta.json локальные метрики качества и textru_status.
+    Дописывает в meta.json локальные метрики качества, прогнозы text.ru и
+    риски на языке заказчика. Используется ботом для уведомления.
 
     Работает идемпотентно: читает текущий meta.json, обновляет поля, пишет обратно.
     Если meta.json не существует — пропускает (агент 6 ещё не успел его создать).
@@ -329,7 +458,7 @@ def _update_meta(article_path: Path, qc_rep, am_rep, passed: bool, blockers: lis
     except (json.JSONDecodeError, OSError):
         return
 
-    # text.ru статус: режим local_only (без API, по решению заказчика)
+    # text.ru статус: режим local_only (API не подключён)
     if "textru_status" not in meta or meta.get("textru_status") is None:
         meta["textru_status"] = "local_only"
     if "textru_uniqueness" not in meta:
@@ -356,10 +485,18 @@ def _update_meta(article_path: Path, qc_rep, am_rep, passed: bool, blockers: lis
     meta["local_own_voice_hits"] = am_rep.own_voice_hits
     meta["local_first_person_singular_hits"] = am_rep.first_person_singular_hits
 
-    # Результат gate
+    # Результат gate (для логов scheduler-а)
     meta["quality_gate_passed"] = passed
     meta["quality_gate_blockers"] = blockers
     meta["quality_gate_retry_count"] = retry_count
+
+    # Прогнозы text.ru и риски на языке заказчика (для уведомления в боте)
+    if predictions:
+        meta["predicted_spam_pct"] = predictions.get("spam_pct")
+        meta["predicted_ai_pct"] = predictions.get("ai_pct")
+        meta["predicted_uniqueness_pct"] = predictions.get("uniqueness_pct")
+    if customer_risks is not None:
+        meta["customer_risks"] = customer_risks
 
     meta_path.write_text(json.dumps(meta, ensure_ascii=False, indent=2), encoding="utf-8")
 

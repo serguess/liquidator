@@ -1497,11 +1497,15 @@ def run_one_article() -> dict:
                                warnings=gate.get("warnings") or [],
                                recommendations=gate.get("recommendations") or [])
 
-        gate_passed = gate is None or gate.get("passed", False) or not gate.get("ran", False)
-        # Если gate не запустился из-за отсутствия article.html — это уже сигнал
-        # что pipeline не дошёл до публикатора, помечаем как failed_qa.
-        if gate is not None and not gate.get("passed", False):
-            gate_passed = False
+        # С 8 мая 2026: метрические fail'ы (spam/AI/uniqueness/length) больше
+        # не блокируют публикацию. Заказчик увидит риски через бот и решит сам.
+        # Блокируем только структурные проблемы (gate не запустился = нет article.html
+        # = нечего показывать) или явный hard_failed (пока всегда False, зарезервировано).
+        gate_ran = gate is not None and gate.get("ran", False)
+        gate_hard_failed = gate is not None and gate.get("hard_failed", False)
+        # gate_passed теперь = «пайплайн доехал до конца, статью можно показать».
+        # Не означает что все метрики ок - значит просто что заказчик может ревьюить.
+        gate_passed = gate is None or (gate_ran and not gate_hard_failed)
 
         if ok and slug and not gate_passed:
             entry.update({

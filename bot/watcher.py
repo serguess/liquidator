@@ -149,6 +149,13 @@ def scan_for_new_drafts() -> list[dict]:
         wordstat_main = meta.get("frequency_main")
         wordstat_total = meta.get("frequency_total")
 
+        # Прогнозы text.ru-метрик и риски (заполнены quality_gate'ом).
+        # Если их нет (старая статья до внедрения прогнозов) - бот покажет статью без них.
+        predicted_spam = meta.get("predicted_spam_pct")
+        predicted_ai = meta.get("predicted_ai_pct")
+        predicted_uniqueness = meta.get("predicted_uniqueness_pct")
+        customer_risks = meta.get("customer_risks") or []
+
         # Создаём v2.0 в versions/.
         _, version = _ensure_versions_dir(sub, current_html)
 
@@ -161,6 +168,10 @@ def scan_for_new_drafts() -> list[dict]:
             "current_html": current_html,
             "wordstat_main": wordstat_main,
             "wordstat_total": wordstat_total,
+            "predicted_spam": predicted_spam,
+            "predicted_ai": predicted_ai,
+            "predicted_uniqueness": predicted_uniqueness,
+            "customer_risks": customer_risks,
         })
 
     return new_drafts
