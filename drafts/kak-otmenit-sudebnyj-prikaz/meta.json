@@ -1,107 +1,101 @@
 {
   "slug": "kak-otmenit-sudebnyj-prikaz",
   "category": "vzysk",
-  "title": "Как отменить судебный приказ: пошаговая инструкция",
-  "description": "Срок 10 дней, возражение без госпошлины, восстановление срока и что делать, если приказ уже у приставов. Разбираем по сценариям.",
-  "h1": "Как отменить судебный приказ о взыскании долга",
-  "lead": "Судебный приказ вынесен без вашего участия - но у должника есть чёткий механизм отмены: возражение без госпошлины и без мотивировки, если успеть в 10-дневный срок с момента получения копии.",
+  "title": "Как отменить судебный приказ о взыскании долга",
+  "description": "Как должнику отменить судебный приказ за 10 дней или восстановить срок на возражения. Сроки, порядок действий, что будет после отмены приказа.",
+  "h1": "Как отменить судебный приказ: разбор трёх ситуаций для должника",
+  "lead": "Документ вынесли без вас, без заседания - и он уже работает как исполнительный лист. У должника есть право подать возражение: 10 календарных дней с даты получения копии. Пропустили срок - в большинстве случаев ещё не поздно.",
   "topic_action": "отмену судебного приказа",
-  "offer": "otmena-prikaza",
   "breadcrumb_current": "Отмена судебного приказа",
   "date_published": "2026-05-08",
   "date_modified": "2026-05-08",
   "og_image": "/assets/articles/kak-otmenit-sudebnyj-prikaz.jpg",
-  "main_keyword": "как отменить судебный приказ о взыскании долга",
-  "keywords": [
-    "как отменить судебный приказ о взыскании долга",
-    "отмена судебного приказа срок",
-    "возражение на судебный приказ образец",
-    "пропущен срок отмены судебного приказа",
-    "судебный приказ уже у приставов как отменить",
-    "восстановление срока отмены судебного приказа",
-    "статья 129 ГПК отмена приказа",
-    "отменить судебный приказ мирового судьи",
-    "госпошлина за отмену судебного приказа"
-  ],
+  "main_keyword": "как отменить судебный приказ",
   "secondary_keywords": [
-    "отмена судебного приказа срок",
+    "отмена судебного приказа",
     "возражение на судебный приказ образец",
     "пропущен срок отмены судебного приказа",
     "судебный приказ уже у приставов как отменить",
-    "восстановление срока отмены судебного приказа",
-    "статья 129 ГПК отмена приказа",
+    "восстановление срока на возражения",
+    "статья 129 ГПК РФ отмена приказа",
     "отменить судебный приказ мирового судьи",
     "госпошлина за отмену судебного приказа"
   ],
-  "internal_links": [
-    "/articles/yur/bankrotstvo-ooo-poshagovo-2026.html"
-  ],
+  "internal_links": [],
   "external_links": [
     "https://www.consultant.ru/document/cons_doc_LAW_39570/9004fef869942e262be4e2563e1d059f1f03fca3/",
-    "https://www.consultant.ru/document/cons_doc_LAW_39570/fd3336defa264ba3f3adb30a5f7d9b21017a6ca2/",
-    "https://www.consultant.ru/document/cons_doc_LAW_39570/abaac973fe4a701d09359875f02b25d806b40b80/"
+    "https://www.consultant.ru/document/cons_doc_LAW_39570/fd3336defa264ba3f3adb30a5f7d9b21017a6ca2/"
   ],
   "faq": [
     {
       "question": "Нужно ли платить госпошлину за подачу возражения на судебный приказ?",
-      "answer": "Нет. Возражение государственной пошлиной не облагается: это не иск и не апелляция. Никаких платежей в суд вносить не нужно."
+      "answer": "Нет. Должник не платит ничего. Сбор по НК РФ платит только взыскатель при подаче заявления о выдаче приказа. Несогласие должника - это действие внутри открытого дела, отдельного платежа нет."
     },
     {
-      "question": "С какого момента считаются 10 дней на возражение - с даты вынесения или получения приказа?",
-      "answer": "С момента получения копии, не с даты вынесения. Так установлено статьёй 128 ГПК РФ. Если конверт пришёл с задержкой - отсчёт начинается с даты вручения."
+      "question": "Можно ли отменить судебный приказ, если уже прошло больше года?",
+      "answer": "Можно попробовать через ходатайство о восстановлении пропущенного срока. Чем больше времени прошло, тем сложнее убедить суд. Нужно объяснить, почему не знали о наличии акта, и подтвердить это документами."
     },
     {
-      "question": "Что написать в возражении - нужно ли объяснять причины несогласия?",
-      "answer": "Если подаёте в 10-дневный срок - нет. Укажите наименование суда, свои данные, номер и дату приказа, фразу о несогласии с его исполнением. Мотивировка не требуется: судья обязан отменить приказ при любом возражении, поданном вовремя."
+      "question": "Что будет, если суд откажет в восстановлении срока?",
+      "answer": "Акт останется в силе, взыскание продолжится. Нужно разбираться с долгом иначе: проверять сумму требования, смотреть на сроки исковой давности, при необходимости оспаривать действия сотрудника ФССП."
     },
     {
-      "question": "Можно ли подать возражение через интернет, не приходя в суд?",
-      "answer": "Да, через ГАС «Правосудие» (ej.sudrf.ru). Нужна авторизация через Госуслуги (ЕСИА) или усиленная квалифицированная подпись. Датой подачи считается дата отправки в системе."
+      "question": "Отменит ли суд приказ, если я не укажу причины несогласия?",
+      "answer": "Да, если обращение подано в 10-дневный срок. По ст. 129 ГПК РФ суд обязан прекратить взыскание по приказу при любом несогласии должника, поданном вовремя. Объяснять причины закон не требует."
     },
     {
-      "question": "Если приказ отменят, долг спишется?",
-      "answer": "Нет. Отмена не прекращает задолженность. Взыскатель получит право подать исковое заявление в обычном порядке - об этом суд укажет в определении. В исковом производстве вы сможете возражать по существу и оспаривать сумму."
+      "question": "Как узнать, какой мировой судья вынес приказ?",
+      "answer": "Три способа: по номеру дела из уведомления суда; через ГАС «Правосудие» (sudrf.ru) по фамилии или ИНН; через сайт ФССП - номер дела привязан к конкретному участку."
+    },
+    {
+      "question": "Приказ отменён - деньги с карты уже списаны. Можно ли их вернуть?",
+      "answer": "Порядок зависит от того, где деньги. Если на депозите ФССП - подайте в службу заявление о возврате с копией определения. Если уже у взыскателя - обратитесь в мировой суд с заявлением о повороте исполнения по ст. 443 ГПК РФ."
     }
   ],
   "factcheck_passed": true,
   "factcheck_notes": [
-    "Все юридические факты сверены с research.json, last_verified: 2026-05-08, legislation_status: active",
-    "Конкретный размер госпошлины за поворот исполнения не указан (forbidden_claim) - текст рекомендует уточнить по ст. 333.19 НК РФ",
-    "Кассация с 12.05.2026 отражена корректно: суд субъекта РФ, ФКЗ-1 от 09.04.2026",
-    "Восстановление срока: указано, что суд ВПРАВЕ, не обязан - в соответствии с forbidden_claims",
-    "Суд ВПРАВЕ (не обязан) восстановить срок - формулировка соответствует safe_phrasing f5",
-    "Ссылка на ФЗ-356 от 26.10.2024 (частная жалоба взыскателя) присутствует"
+    "Срок 10 календарных дней подтверждён (f3, ст. 128 ГПК РФ, last_verified 2026-05-08)",
+    "Госпошлина не взимается - подтверждено (f5, НК РФ ст. 333.19, last_verified 2026-05-08)",
+    "Отмена не прекращает долг, кредитор вправе подать иск (f6, ст. 129 ГПК РФ)",
+    "ФССП не останавливается автоматически - подтверждено (f9, ст. 43 ч. 2 п. 4 ФЗ-229)",
+    "Все законодательные нормы имеют legislation_status: active и last_verified не старше 6 месяцев"
   ],
-  "keyword_density_main": 0.018,
-  "main_keyword_exact_count": 3,
-  "text_chars": 7579,
+  "published": false,
+  "ready_for_review": true,
+  "keyword_density_main": null,
+  "main_keyword_exact_count": null,
+  "text_chars": 7341,
   "textru_status": "local_only",
   "textru_uniqueness": null,
   "textru_ai_detector": null,
   "textru_spam": null,
-  "local_spam_top10_share": 0.104,
-  "local_spam_ngram3_repeat": 0.016,
-  "local_lexical_diversity": 0.648,
+  "local_spam_top10_share": 0.116,
+  "local_spam_ngram3_repeat": 0.057,
+  "local_lexical_diversity": 0.581,
   "local_ai_markers_density": 0.22,
   "local_ai_markers_critical": 0,
-  "length_status": "warn",
-  "length_kind": "default",
   "local_ai_markers_total": 2,
   "local_ai_markers_high": 0,
-  "local_own_voice_hits": 0,
+  "local_own_voice_hits": 2,
   "local_first_person_singular_hits": 0,
-  "quality_gate_passed": true,
-  "quality_gate_blockers": [],
-  "quality_gate_retry_count": 9,
-  "predicted_spam_pct": 50,
+  "quality_gate_passed": false,
+  "quality_gate_blockers": [
+    "spam_risk: 3 флагов (top10_share>0.105 (=0.116), ngram3_repeat_share>0.03 (=0.057), lexical_diversity<0.62 (=0.581)), top-5: ['приказ', 'фссп', 'должник', 'дней', 'несоглас']"
+  ],
+  "quality_gate_retry_count": 6,
+  "predicted_spam_pct": 67,
   "predicted_ai_pct": 5,
   "predicted_uniqueness_pct": 87,
-  "customer_risks": [],
-  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1778231017/articles/kak-otmenit-sudebnyj-prikaz-cover.jpg",
-  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1778231017/articles/kak-otmenit-sudebnyj-prikaz-cover.jpg",
-  "image_prompt": "Photorealistic top-down flat-lay editorial photograph on a polished dark wooden desk, soft golden morning light from a window on the left casting a long warm diagonal across the desk, premium legal magazine aesthetic, shallow depth of field, neutral beige and graphite palette with warm gold accents, cinematic photorealistic detail. Scene: a closed manila envelope with a red wax seal, a wooden judges gavel resting diagonally next to it, a closed leather notebook with embossed binding, a fountain pen, a desk calendar showing only an abstract page with no readable dates, a closed black leather folder. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands. Lower right area of the desk kept smooth, softly sunlit and empty for external logo placement. 16:9 horizontal aspect ratio.",
-  "cover_uploaded_at": "2026-05-08T09:03:38Z",
-  "ready_for_review": true,
-  "ready_at": "2026-05-08T09:03:40Z",
-  "publication_target": "telegram_review"
+  "customer_risks": [
+    "заспамленность значительно выше 50% (~67%)"
+  ],
+  "length_status": "ok",
+  "length_kind": "default",
+  "quality_gate_hard_failed": false,
+  "quality_gate_exit_code": 0,
+  "quality_gate_note": "soft-fail spam_risk (exit=0, hard_failed=false). С 8 мая 2026 метрические fail не блокируют pipeline.",
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1778238747/articles/kak-otmenit-sudebnyj-prikaz-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1778238747/articles/kak-otmenit-sudebnyj-prikaz-cover.jpg",
+  "image_prompt": "Photorealistic top-down flat-lay editorial photograph on a polished dark wooden desk, soft golden morning light from a window on the left casting a long warm diagonal across the desk, premium legal magazine aesthetic, shallow depth of field, neutral beige and graphite palette with warm gold accents, cinematic photorealistic detail. Scene: a closed manila envelope with a red wax seal, a wooden judges gavel resting diagonally next to it, a closed leather notebook, a fountain pen, a desk calendar showing only an abstract page with no readable dates. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands. Lower right area of the desk kept smooth, softly sunlit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-05-08T11:12:28Z"
 }

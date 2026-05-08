@@ -623,6 +623,102 @@
       "added_by_agent": "2-legal-research",
       "added_for_slug": "vzyskanie-debitorskoj-zadolzhennosti",
       "added_at": "2026-05-07"
+    },
+    {
+      "key": "sudebny_prikaz_gpk_opredelenie_st121",
+      "claim": "Судебный приказ - постановление судьи, вынесенное единолично без судебного разбирательства и вызова сторон по бесспорным требованиям о взыскании денежных сумм или движимого имущества (ст. 121 ГПК РФ). Является одновременно исполнительным документом.",
+      "source_url": "https://www.consultant.ru/document/cons_doc_LAW_39570/",
+      "source_type": "ГПК РФ ст. 121",
+      "source_date": "2025",
+      "last_verified": "2026-05-08",
+      "legislation_status": "active",
+      "added_by_agent": "2-legal-research",
+      "added_for_slug": "kak-otmenit-sudebnyj-prikaz",
+      "added_at": "2026-05-08"
+    },
+    {
+      "key": "sudebny_prikaz_srok_napravleniya_5_dney_st128",
+      "claim": "Судья в течение 5 дней со дня вынесения судебного приказа направляет его копию должнику (ст. 128 ГПК РФ).",
+      "source_url": "https://www.consultant.ru/document/cons_doc_LAW_39570/9004fef869942e262be4e2563e1d059f1f03fca3/",
+      "source_type": "ГПК РФ ст. 128",
+      "source_date": "2025",
+      "last_verified": "2026-05-08",
+      "legislation_status": "active",
+      "added_by_agent": "2-legal-research",
+      "added_for_slug": "kak-otmenit-sudebnyj-prikaz",
+      "added_at": "2026-05-08"
+    },
+    {
+      "key": "sudebny_prikaz_srok_vozvrazheniya_10_kalend_st128",
+      "claim": "Должник вправе подать возражения против исполнения судебного приказа в течение 10 КАЛЕНДАРНЫХ дней со дня получения копии (ст. 128 ГПК РФ). Срок - не рабочих, а календарных дней. Отсчёт - с момента получения копии должником, а не с даты вынесения приказа. Если последний день - выходной или нерабочий праздничный, срок переносится на следующий рабочий день (ст. 108 ГПК РФ).",
+      "source_url": "https://www.consultant.ru/document/cons_doc_LAW_39570/9004fef869942e262be4e2563e1d059f1f03fca3/",
+      "source_type": "ГПК РФ ст. 128, ст. 108",
+      "source_date": "2025",
+      "last_verified": "2026-05-08",
+      "legislation_status": "active",
+      "added_by_agent": "2-legal-research",
+      "added_for_slug": "kak-otmenit-sudebnyj-prikaz",
+      "added_at": "2026-05-08"
+    },
+    {
+      "key": "sudebny_prikaz_otmena_lyubye_vozvrazheniya_st129",
+      "claim": "Судья обязан отменить судебный приказ при получении любых возражений должника в установленный срок. Мотивировать несогласие не требуется. После отмены взыскатель вправе предъявить требование в исковом производстве. Копии определения об отмене направляются сторонам в течение 3 дней (ст. 129 ГПК РФ).",
+      "source_url": "https://www.consultant.ru/document/cons_doc_LAW_39570/fd3336defa264ba3f3adb30a5f7d9b21017a6ca2/",
+      "source_type": "ГПК РФ ст. 129",
+      "source_date": "2025",
+      "last_verified": "2026-05-08",
+      "legislation_status": "active",
+      "added_by_agent": "2-legal-research",
+      "added_for_slug": "kak-otmenit-sudebnyj-prikaz",
+      "added_at": "2026-05-08"
+    },
+    {
+      "key": "sudebny_prikaz_gosposhlina_ne_plateetsya_za_vozvrazhenie",
+      "claim": "Подача возражения на судебный приказ государственной пошлиной не облагается. НК РФ (ст. 333.19 пп. 2 п. 1) устанавливает пошлину только для взыскателя при подаче заявления о выдаче приказа (50% от пошлины иска). За подачу возражений должником отдельная пошлина не предусмотрена.",
+      "source_url": "https://www.consultant.ru/document/cons_doc_LAW_28165/1cfcdcc5936cbfc3ea52f964201a1bb6002be313/",
+      "source_type": "НК РФ ст. 333.19 пп. 2 п. 1",
+      "source_date": "2025",
+      "last_verified": "2026-05-08",
+      "legislation_status": "active",
+      "added_by_agent": "2-legal-research",
+      "added_for_slug": "kak-otmenit-sudebnyj-prikaz",
+      "added_at": "2026-05-08"
+    },
+    {
+      "key": "vosstanovlenie_sroka_st112_odnovrem_vozvrazhenie",
+      "claim": "При пропуске 10-дневного срока на возражение против приказа - ходатайство о восстановлении срока (ст. 112 ГПК РФ) подаётся одновременно с самим возражением. Суд рассматривает ходатайство в течение 5 дней без заседания. Уважительные причины - оценочная категория (болезнь, ненадлежащее уведомление, нахождение в другом регионе и т.п.).",
+      "source_url": "https://www.consultant.ru/document/cons_doc_LAW_39570/abaac973fe4a701d09359875f02b25d806b40b80/",
+      "source_type": "ГПК РФ ст. 112",
+      "source_date": "2025",
+      "last_verified": "2026-05-08",
+      "legislation_status": "active",
+      "added_by_agent": "2-legal-research",
+      "added_for_slug": "kak-otmenit-sudebnyj-prikaz",
+      "added_at": "2026-05-08"
+    },
+    {
+      "key": "sudebny_prikaz_pristav_prekrashenie_ip_st43_fz229",
+      "claim": "После отмены судебного приказа исполнительное производство у пристава не прекращается автоматически. Должник обязан предъявить приставу копию определения суда об отмене приказа. Пристав прекращает производство на основании ст. 43 ч. 2 п. 4 ФЗ-229 (отмена судебного акта).",
+      "source_url": "https://www.consultant.ru/document/cons_doc_LAW_71450/",
+      "source_type": "ФЗ-229 ст. 43 ч. 2 п. 4",
+      "source_date": "2025",
+      "last_verified": "2026-05-08",
+      "legislation_status": "active",
+      "added_by_agent": "2-legal-research",
+      "added_for_slug": "kak-otmenit-sudebnyj-prikaz",
+      "added_at": "2026-05-08"
+    },
+    {
+      "key": "sudebny_prikaz_povorot_ispolneniya_st443_gpk",
+      "claim": "Если деньги взысканы по приказу, который впоследствии отменён: (1) если средства на депозите ФССП - возврат по заявлению должника приставу; (2) если переданы взыскателю - поворот исполнения по ст. 443-445 ГПК РФ через суд, вынесший приказ.",
+      "source_url": "https://www.consultant.ru/document/cons_doc_LAW_39570/",
+      "source_type": "ГПК РФ ст. 443-445",
+      "source_date": "2025",
+      "last_verified": "2026-05-08",
+      "legislation_status": "active",
+      "added_by_agent": "2-legal-research",
+      "added_for_slug": "kak-otmenit-sudebnyj-prikaz",
+      "added_at": "2026-05-08"
     }
   ]
 }

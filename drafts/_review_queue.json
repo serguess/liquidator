@@ -1,3 +1,17 @@
 {
-  "items": []
+  "items": [
+    {
+      "slug": "kak-otmenit-sudebnyj-prikaz",
+      "category": "vzysk",
+      "title": "Как отменить судебный приказ о взыскании долга",
+      "added_at": "2026-05-08T10:42:54.866994",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": false,
+        "hard_failed": false,
+        "exit_code": 0,
+        "note": "soft-fail spam_risk (exit=0). Метрические fail не блокируют pipeline с 08.05.2026."
+      }
+    }
+  ]
 }
