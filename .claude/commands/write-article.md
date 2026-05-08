@@ -24,7 +24,7 @@ argument-hint: <category> slug=<slug> <topic>
 
 ### Heartbeat (обязательно перед каждым агентом)
 
-Перед запуском каждого агента (1, 2, 3, 4, 5, 6, 7) и перед длинными скриптами (quality_gate, inject_boilerplate) обнови heartbeat-файл одной командой:
+Перед запуском каждого агента (1, 2, 3, 4, 5, 6, 7) и перед длинными скриптами (quality_gate, inject_boilerplate, finalize_draft) обнови heartbeat-файл одной командой:
 
 ```bash
 date -u +"%Y-%m-%dT%H:%M:%S | агент-N" > data/.scheduler_heartbeat
@@ -80,7 +80,24 @@ slug ещё неизвестен на агенте 1 до создания brief
    - **Soft с iteration ≥ 2:** `length_too_long` автоматически конвертируется в warning, **если text_chars ≤ 9000 (default) / 8000 (news) и других блокеров нет**. Это значит: если writer уже один раз правил и пофиксил спам/уник/AI, длину сверх 8000 (но ≤ 9000) пропускаем без новой итерации. Логика в самом gate (`SOFT_LENGTH_MAX`), отдельно делать ничего не нужно.
 
    **Счётчик итераций** хранится в `quality_gate.json:retry_count` — gate инкрементирует его при каждом запуске. Можно принудительно задать через `--iteration N`.
-8. Запусти агента `7-publisher`. Он только финализирует drafts/{slug}/ (записывает поля ready_for_review=true в meta.json и добавляет запись в drafts/_review_queue.json). На сайт НЕ публикует — публикация только через нажатие заказчиком "Опубликовать" в Telegram-боте, который вызывает bot/publisher.py. Никаких git push, articles/, картинок здесь не происходит.
+8. Запусти агента `7-publisher`. С 8 мая 2026 он делает только одно: подбирает английскую scene-строку под смысл статьи и пишет её в `drafts/{slug}/scene.txt`. Всё. Ни meta.json, ни картинок, ни очереди ревью он не трогает.
+
+9. **Финализация драфта (детерминированно):**
+   ```bash
+   python -m articles_scheduler.finalize_draft {slug}
+   ```
+   Скрипт сам:
+   - валидирует article.html (≥5000 байт), meta.json (обязательные поля), quality_gate.json;
+   - читает scene.txt от агента 7 (если файла нет/пуст — fallback на CATEGORY_SCENE_DEFAULT по category);
+   - вызывает `tools.image_gen.generate_and_upload_cover` напрямую через import (с одним retry при провале) → fal.ai → лого → Cloudinary → запись `cover_url`/`cover_url_master`/`image_prompt`/`cover_uploaded_at` в meta.json;
+   - дописывает в meta.json: `ready_for_review=true`, `ready_at`, `publication_target=telegram_review`;
+   - добавляет запись в `drafts/_review_queue.json` (slug, category, title, added_at, char_count, cover_url, status, quality_gate). Идемпотентно: при повторном запуске запись с тем же slug обновляется на месте.
+
+   Exit codes:
+   - 0 — драфт финализирован (даже если обложка не сгенерилась — тогда `cover_generation_failed=true` в meta, статья всё равно идёт в очередь без обложки);
+   - 1 — структурная проблема (нет article.html / нет обязательных полей meta / quality_gate.hard_failed). Slot уйдёт в failed_qa.
+
+   На сайт НЕ публикуется — публикация только через нажатие заказчиком "Опубликовать" в Telegram-боте, который вызывает bot/publisher.py. Никаких git push, articles/, изменения articles.json/sitemap.xml здесь не происходит.
 
 **Важно:** даже если ты пропустишь шаг 7 (quality_gate) - scheduler всё равно его запустит после твоего завершения. Если gate упадёт, scheduler пометит слот как `failed_qa` и заблокирует публикацию. Лучше прогнать самому, чтобы успеть зациклить итерации с агентом 4.
 

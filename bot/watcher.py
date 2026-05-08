@@ -129,6 +129,26 @@ def scan_for_new_drafts() -> list[dict]:
         if slug in known:
             continue
         if notified_sentinel.is_notified(sub):
+            # Sentinel есть, но slug не в state.reviews (иначе сработал бы
+            # `slug in known` выше). Это значит bot_state был сброшен после
+            # уведомления — например, ручной чисткой при пересоздании драфтов.
+            # В таком состоянии старое Telegram-сообщение с кнопкой
+            # «Опубликовать» отвечает «Статья не найдена», потому что
+            # handlers.on_publish_pressed читает state.get_review(slug) → None.
+            #
+            # Восстанавливаем запись в state ТИХО (без повторного уведомления),
+            # чтобы кнопки в существующих сообщениях снова работали.
+            # Делаем только если draft реально готов (ready_for_review=true).
+            meta = _read_meta(sub)
+            if meta.get("ready_for_review"):
+                category = meta.get("category", "fiz")
+                title = meta.get("title") or meta.get("h1") or sub.name
+                try:
+                    state.add_review(slug, category=category, title=title, version="2.0")
+                    print(f"watcher: восстановлена запись state для {slug} "
+                          f"(sentinel был, state пустой - повторного уведомления нет)")
+                except Exception as exc:
+                    print(f"watcher: не удалось восстановить state для {slug}: {exc}")
             continue
 
         current_html = _resolve_current_html(sub)

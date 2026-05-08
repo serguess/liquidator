@@ -1507,6 +1507,39 @@ def run_one_article() -> dict:
         # Не означает что все метрики ок - значит просто что заказчик может ревьюить.
         gate_passed = gate is None or (gate_ran and not gate_hard_failed)
 
+        # Safety net: финализация драфта (обложка + ready_for_review + review_queue).
+        # Орхестратор /write-article должен сам это сделать на шаге 9 через
+        # `python -m articles_scheduler.finalize_draft {slug}`. Но если LLM
+        # отвлёкся, вылетел по таймауту/токенам или скипнул шаг — финализируем
+        # сами. finalize_draft идемпотентен: при повторном запуске cover_url
+        # уже в meta, image_gen пропускается; запись в _review_queue.json
+        # обновляется на месте. Запускаем только при gate_passed - иначе
+        # драфт всё равно failed_qa и не пойдёт на публикацию.
+        if ok and slug and gate_passed:
+            try:
+                fresh_meta = _read_meta(slug) or {}
+            except Exception:
+                fresh_meta = {}
+            if not fresh_meta.get("ready_for_review"):
+                log.warning(
+                    "finalize_draft не отработал в /write-article для slug=%s — "
+                    "запускаем как safety net из scheduler",
+                    slug,
+                )
+                try:
+                    from articles_scheduler.finalize_draft import finalize as _finalize_draft
+                    rc = _finalize_draft(slug)
+                    entry["finalize_safety_net"] = {"ran": True, "rc": rc}
+                    if rc != 0:
+                        log.error(
+                            "finalize_draft (safety net) вернул rc=%d для slug=%s — "
+                            "драфт без ready_for_review, не попадёт в очередь бота",
+                            rc, slug,
+                        )
+                except Exception:
+                    log.exception("finalize_draft (safety net) упал для slug=%s", slug)
+                    entry["finalize_safety_net"] = {"ran": True, "error": True}
+
         if ok and slug and not gate_passed:
             entry.update({
                 "status": "failed_qa",

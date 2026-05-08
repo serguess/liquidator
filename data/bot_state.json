@@ -1,4 +1,21 @@
 {
   "preview_token": "tbC391gt9v3SBSSubLKa6GX730mzXTE6",
-  "reviews": {}
+  "reviews": {
+    "kak-otmenit-sudebnyj-prikaz": {
+      "category": "vzysk",
+      "title": "Как отменить судебный приказ о взыскании долга",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-05-08T16:31:54",
+      "last_action_at": "2026-05-08T16:31:54",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null
+    }
+  }
 }
