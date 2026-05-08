@@ -234,6 +234,27 @@ text.ru-метрики (text.ru API не подключён):
   с placeholder-комментариями `<!--BP:CTA-TOP-->`, `<!--BP:CTA-MID-->`,
   `<!--BP:CTA-BOTTOM-->`, `<!--BP:DISCLAIMER-->`. Без `<!DOCTYPE>`,
   `<head>`, `<header>`, `<footer>`, `<aside>`, JSON-LD, breadcrumbs.
+
+  **FAQ-секция - строго эта структура (без классов и обёрток):**
+  ```html
+  <h2>Частые вопросы о ...</h2>
+
+  <h3>Вопрос?</h3>
+
+  <p>Ответ на вопрос.</p>
+
+  <h3>Следующий вопрос?</h3>
+
+  <p>Следующий ответ.</p>
+  ```
+
+  ❌ НЕЛЬЗЯ: `<dl class="article__faq"><dt>...</dt><dd>...</dd></dl>` -
+  для этой разметки нет CSS, FAQ будет валиться в plain text.
+  ❌ НЕЛЬЗЯ: `<details><summary>...</summary></details>` - класс
+  `article__faq-item` существует в CSS, но не используется в текущих
+  статьях, не вводи новую разметку без согласования.
+  ✅ Только `<h2>` + повторяющиеся пары `<h3>?</h3><p>...</p>` -
+  такая структура работает в опубликованной статье `bankrotstvo-ooo-poshagovo-2026.html`.
 - `drafts/{slug}/article.html` — собран автоматически из body.html через
   `tools/inject_boilerplate.py`. Сам ты его не правишь.
 - `drafts/{slug}/meta.json`:

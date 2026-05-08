@@ -544,7 +544,11 @@ def main() -> int:
             for r in result.recommendations:
                 print(f"  → {r}")
 
-    return 0 if result.passed else 1
+    # С 8 мая 2026: exit 0 на soft-fail (метрики), exit 1 только на hard_failed.
+    # Это нужно чтобы Claude в /write-article не уходил в retry-цикл с агентом 4
+    # на спам/AI/length, а доходил до агента 7 (финализация + обложка).
+    # Метрики и риски всё равно записываются в meta.json - бот покажет их заказчику.
+    return 1 if result.hard_failed else 0
 
 
 if __name__ == "__main__":

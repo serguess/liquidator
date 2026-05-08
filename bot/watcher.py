@@ -136,6 +136,15 @@ def scan_for_new_drafts() -> list[dict]:
             continue
 
         meta = _read_meta(sub)
+
+        # Race-condition guard: ждём пока агент 7 поставит ready_for_review=true.
+        # Иначе watcher шлёт уведомление до того как агент 7 сгенерил обложку
+        # и финализировал meta.json. Заказчик получает статью без cover.
+        # Агент 7 пишет ready_for_review=true в самом конце своей работы.
+        # Если флаг отсутствует/false - draft ещё не готов, ждём следующий тик watcher'а.
+        if not meta.get("ready_for_review"):
+            continue
+
         category = meta.get("category", "fiz")
         title = meta.get("title") or meta.get("h1") or _extract_title_from_html(current_html)
         # Приоритет: text_chars из meta.json (его пишет quality_gate точно).
