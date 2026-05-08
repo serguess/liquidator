@@ -695,7 +695,20 @@ def render_head(meta: dict, jsonld_blocks: list[str]) -> str:
         "onload=\"this.onload=null;this.rel='stylesheet'\">\n"
         f'  <noscript><link href="{fonts_url}" rel="stylesheet"></noscript>\n\n'
         f'  <link rel="stylesheet" href="/styles.css?v={CSS_VERSION}" />\n\n'
-        f'  {jsonld_combined}\n'
+        f'  {jsonld_combined}\n\n'
+        '  <!-- Yandex.Metrika counter -->\n'
+        '  <script type="text/javascript">\n'
+        '      (function(m,e,t,r,i,k,a){\n'
+        '          m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};\n'
+        '          m[i].l=1*new Date();\n'
+        '          for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}\n'
+        '          k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)\n'
+        '      })(window, document,\'script\',\'https://mc.yandex.ru/metrika/tag.js?id=109116085\', \'ym\');\n'
+        '\n'
+        '      ym(109116085, \'init\', {ssr:true, webvisor:false, clickmap:true, ecommerce:"dataLayer", referrer: document.referrer, url: location.href, accurateTrackBounce:true, trackLinks:true});\n'
+        '  </script>\n'
+        '  <noscript><div><img src="https://mc.yandex.ru/watch/109116085" style="position:absolute; left:-9999px;" alt="" /></div></noscript>\n'
+        '  <!-- /Yandex.Metrika counter -->\n'
         '</head>'
     )
 
