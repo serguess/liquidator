@@ -966,21 +966,34 @@ def _git_commit_and_push(slug: str, category: str, metrics: str = "") -> dict:
         "data/published_index.json",
         "drafts/_topic-map/",
     ]
-    # add тоже идёт через retry: если бот в этот момент держит .git/index.lock,
-    # add может молча упасть → следующий commit вернёт "nothing to commit",
-    # хотя файлы есть в working tree. retriable_markers ловят это.
-    add_res = _git_run_with_retry(
-        ["git", "add", "--", *paths_to_add],
-        env=env, cwd=cwd,
-    )
-    if add_res.returncode != 0:
-        # Не фатально для несуществующих путей (часть из них опциональные),
-        # но если упало из-за index.lock после всех retry — логируем.
-        _append_git_error(
-            slot_ts=datetime.now().isoformat(timespec="seconds"),
-            slug=slug, category=category, action="git_add",
-            returncode=add_res.returncode,
-            stderr=add_res.stderr or "", stdout=add_res.stdout or "",
+    # Добавляем пути ПО ОДНОМУ с флагом -A (handles add/modify/delete).
+    # Раньше делали единым batch'ем `git add -- path1 path2 ...`, но если хоть
+    # один путь в списке не существует (например, опциональные data/keywords.json
+    # или data/git_errors.log на свежем контейнере) - git выдаёт fatal и НИЧЕГО
+    # не стейджит атомарно. drafts/{slug}/ оставался untracked, commit пустой,
+    # commit_failed → слот не пушит draft в git → потеря статьи при редеплое.
+    # Зафиксировано в scheduler_log.json от 8 мая 2026 13:56:18.
+    add_errors_count = 0
+    for path in paths_to_add:
+        single_res = _git_run_with_retry(
+            ["git", "add", "-A", "--", path],
+            env=env, cwd=cwd,
+        )
+        if single_res.returncode != 0:
+            add_errors_count += 1
+            # Логируем только первую ошибку (чтобы не спамить git_errors.log),
+            # детали остальных - в общий счётчик.
+            if add_errors_count == 1:
+                _append_git_error(
+                    slot_ts=datetime.now().isoformat(timespec="seconds"),
+                    slug=slug, category=category, action=f"git_add ({path})",
+                    returncode=single_res.returncode,
+                    stderr=single_res.stderr or "", stdout=single_res.stdout or "",
+                )
+    if add_errors_count:
+        log.info(
+            "git add: %d путей не добавились (вероятно опциональные файлы отсутствуют) - не фатально",
+            add_errors_count,
         )
 
     msg_tail = f", {metrics}" if metrics else ""
@@ -1004,10 +1017,11 @@ def _git_commit_and_push(slug: str, category: str, metrics: str = "") -> dict:
             # Финальная попытка: add ещё раз и commit. Если снова nothing —
             # значит файлы уже в репо (например, остались с прошлого слота
             # после rescue), не блокируем слот.
-            _git_run_with_retry(
-                ["git", "add", "--", *paths_to_add],
-                env=env, cwd=cwd,
-            )
+            for path in paths_to_add:
+                _git_run_with_retry(
+                    ["git", "add", "-A", "--", path],
+                    env=env, cwd=cwd,
+                )
             commit_res = _git_run_with_retry(
                 ["git", "commit", "-m", commit_msg],
                 env=env, cwd=cwd,

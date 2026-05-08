@@ -379,10 +379,22 @@ def _git_commit_and_push(slug: str, category: str) -> dict:
         "articles.json",
         "sitemap.xml",
         "data/bot_state.json",
-        f"drafts/{slug}/",  # удалённый каталог тоже надо закоммитить
+        f"drafts/{slug}/",  # был перемещён в drafts/_archive/, надо застейджить удаление
     ]
-    subprocess.run(["git", "add", "--", *paths_to_add], cwd=cwd, env=env,
-                   check=False, capture_output=True)
+    # Добавляем по одному пути с флагом -A. Раньше делали единым batch'ем
+    # `git add -- path1 path2 ...`, но если хоть один путь в списке отсутствует
+    # в working tree (например, drafts/{slug}/ - его перенесли в _archive/
+    # шагом раньше), git выдаёт fatal и НИЧЕГО не стейджит атомарно. Тогда
+    # commit падает с "nothing to commit", customer видит ошибку публикации.
+    # С -A флагом и индивидуальным вызовом каждый путь обрабатывается отдельно:
+    # удалённый drafts/{slug}/ стейджится как deletion, новый articles/...html
+    # как addition, изменённые files как modification. Зафиксировано 8 мая 2026.
+    for path in paths_to_add:
+        subprocess.run(
+            ["git", "add", "-A", "--", path],
+            cwd=cwd, env=env,
+            check=False, capture_output=True,
+        )
 
     commit_msg = f"publish: {slug} ({category})"
     commit_res = subprocess.run(
