@@ -187,8 +187,8 @@ def _run(path: Path, iteration_override: int | None = None) -> GateResult:
         )
         result.recommendations.append("fix_punctuation: пробелы после точки — править вручную")
 
-    # Заспамленность — hard при ЛЮБОМ риск-флаге (заказчик зафиксировал
-    # цель < 40% спама и ≥ 85% уникальности на text.ru, май 2026).
+    # Заспамленность - hard при ЛЮБОМ риск-флаге (заказчик зафиксировала
+    # цель ≤ 50% спама и ≥ 85% уникальности на text.ru, 8 мая 2026).
     if qc_rep.spam and len(qc_rep.spam.risk_flags) >= 1:
         top5 = [w for w, _ in qc_rep.spam.top10_words[:5]]
         result.blockers.append(

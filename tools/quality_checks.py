@@ -110,12 +110,13 @@ class SpamHeuristics:
 # Длина расширена 7 мая 2026 (раньше было target 6000-7000 / max 7500).
 # Причина: на темах с плотной терминологией (банкротство ООО, аресты, приставы,
 # субсидиарка) 7000 знаков физически не хватало для удержания одновременно
-# top10_share≤0.085, ngram3≤0.025, lex_diversity≥0.65 — повторяющиеся ключевые
-# термины «тонут» только при добавлении разнообразного текста (примеры, кейсы,
-# цифры). При 7000 writer крутил 4-5 итераций без улучшения метрик. При 8000
-# те же метрики проходят с 1-2 итераций, и статья получает +1000 знаков
-# полезной конкретики (а не «воды»). Подтверждено замером на статье
-# snyatie-aresta-so-scheta-pristavami (vzysk-02).
+# top10_share, ngram3, lex_diversity — повторяющиеся ключевые термины «тонут»
+# только при добавлении разнообразного текста (примеры, кейсы, цифры).
+# При 7000 writer крутил 4-5 итераций без улучшения метрик. При 8000 те же
+# метрики проходят с 1-2 итераций, и статья получает +1000 знаков полезной
+# конкретики. Подтверждено замером на статье snyatie-aresta-so-scheta-pristavami.
+# Текущие пороги (8 мая 2026, под KPI ≤50% спама):
+# top10_share≤0.105, ngram3≤0.030, lex_diversity≥0.62.
 LENGTH_LIMITS = {
     "default": {"min": 6000, "target_min": 6500, "target_max": 7500, "max": 8000},
     "news": {"min": 4500, "target_min": 4500, "target_max": 6500, "max": 6800},
@@ -281,26 +282,26 @@ def compute_spam_heuristics(text: str) -> SpamHeuristics:
     total_ngrams = len(ngrams) if ngrams else 1
     ngram3_repeat_share = round(repeats / total_ngrams, 3)
 
-    # Пороги под целевую заспамленность text.ru 40-45% и уникальность ≥ 85%
-    # (фактический KPI заказчика, май 2026).
+    # Пороги под целевую заспамленность text.ru ≤ 50% и уникальность ≥ 85%
+    # (фактический KPI заказчика, 8 мая 2026 - изменён с <40% на ≤50%, чтобы
+    # пайплайн сходился за 2-3 итерации, а не 10+).
     # Калибровка по реальным замерам text.ru:
     #   - 0.164 top10 + 2.9% ngram3 → text.ru spam 58 (старая статья)
     #   - 0.110 top10 + 1.8% ngram3 + 0.62 div → text.ru spam 52
-    #   - цель 40-45% спама ≈ top10 ≤ 0.085, ngram3 ≤ 0.025, lex.div ≥ 0.65
+    #   - 0.105 top10 + 3.0% ngram3 + 0.62 div → text.ru spam ≈50 (новый коридор)
+    #   - цель ≤50% спама ≈ top10 ≤ 0.105, ngram3 ≤ 0.030, lex.div ≥ 0.62
     #
-    # Порог ngram3 ослаблен с 0.015 → 0.025 (май 2026): на узкоспециализированных
-    # темах (банкротство ООО, ипотека, субсидиарка) терминология плотная и
-    # триграммы повторяются естественно. Прежний 0.015 заставлял writer крутить
-    # 5+ итераций самокоррекции на одной статье без улучшения text.ru-метрики.
-    # Замер: ngram3=0.020 при KPI 40-45% — это <2% повторов триграмм при
-    # допустимых 40-45%. Запас огромный, поднимаем порог до 0.025.
+    # 8 мая 2026: пороги ослаблены с (0.085 / 0.025 / 0.65) до (0.105 / 0.030 / 0.62)
+    # после изменения KPI с <40% на ≤50%. Старая калибровка под <40% заставляла
+    # writer крутить 5-10 итераций - метрики физически не сходились на 7-8к знаков
+    # с плотной legal-терминологией.
     risk_flags = []
-    if top10_share > 0.085:
-        risk_flags.append(f"top10_share>{0.085} (={top10_share})")
-    if ngram3_repeat_share > 0.025:
-        risk_flags.append(f"ngram3_repeat_share>{0.025} (={ngram3_repeat_share})")
-    if lexical_diversity < 0.65:
-        risk_flags.append(f"lexical_diversity<{0.65} (={lexical_diversity})")
+    if top10_share > 0.105:
+        risk_flags.append(f"top10_share>{0.105} (={top10_share})")
+    if ngram3_repeat_share > 0.030:
+        risk_flags.append(f"ngram3_repeat_share>{0.030} (={ngram3_repeat_share})")
+    if lexical_diversity < 0.62:
+        risk_flags.append(f"lexical_diversity<{0.62} (={lexical_diversity})")
 
     return SpamHeuristics(
         total_words=total_words,
@@ -487,8 +488,8 @@ def print_report(rep: Report) -> None:
         print(f"  Всего слов (без стоп-слов): {s.total_words}")
         print(f"  Уникальных лемм: {s.unique_lemmas}")
         print(f"  Лексическое разнообразие: {s.lexical_diversity} (цель ≥0.62)")
-        print(f"  Топ-10 слов суммарно: {s.top10_share * 100:.1f}% (цель ≤11%)")
-        print(f"  Повторы 3-граммов: {s.ngram3_repeat_share * 100:.1f}% (цель ≤2.5%)")
+        print(f"  Топ-10 слов суммарно: {s.top10_share * 100:.1f}% (цель ≤10.5%)")
+        print(f"  Повторы 3-граммов: {s.ngram3_repeat_share * 100:.1f}% (цель ≤3.0%)")
         print(f"  Топ-5 частотных лемм: {s.top10_words[:5]}")
         if s.risk_flags:
             print(f"  [RISK] Превышены пороги: {s.risk_flags}")

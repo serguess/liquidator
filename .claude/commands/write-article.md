@@ -16,7 +16,7 @@ argument-hint: <category> slug=<slug> <topic>
 - В brief.json `"slug": "foo-bar-2026"` (буквально, без изменений)
 - Все артефакты pipeline'а пишутся в эту папку
 
-НЕ генерируй свой slug, даже если кажется красивее. Slug связан с записью в `drafts/_topic-map/{category}.json`. Если ты используешь другой slug — тема в topic-map останется «свободной», и следующий слот scheduler'а её снова выберет → бесконечный цикл по одной теме (этот баг уже стрелял).
+НЕ генерируй свой slug, даже если кажется красивее. Slug связан с записью в `drafts/_topic-map/{category}.json`. Если ты используешь другой slug — тема в topic-map останется «свободной», и следующий слот scheduler'а её снова выберет → бесконечный цикл по одной теме.
 
 Если `slug=...` нет в аргументах (старый формат вызова) — запусти `python -m tools.slugify "{title}"` для детерминированной генерации.
 
@@ -75,7 +75,7 @@ slug ещё неизвестен на агенте 1 до создания brief
     Идеально агент 6 сам зовёт этот скрипт в финале своей работы — тогда мы экономим один re-invocation.
 7. **Обязательный шаг: quality_gate.** Запусти `python -m tools.quality_gate drafts/{slug}/article.html --json --save-report`. Если exit ≠ 0 - читай `drafts/{slug}/quality_gate.json`, поле `recommendations`, и возвращай на агента 4 с конкретной пометкой. Максимум **5 итераций** возврата. После пятой - в `drafts/_review/`. **quality_gate сам пишет своё событие в pipeline_log через scheduler — отдельно логировать не нужно**.
 
-   **Приоритет блокеров (зафиксировано в `quality_gate.py`, май 2026):**
+   **Приоритет блокеров (зафиксировано в `quality_gate.py`):**
    - **Hard на любой итерации:** `spam_risk`, `anti_template_phrases`, `ai_markers_critical`, `ai_markers_density`, `ai_markers_high`, `first_person_singular`, `law_quotes_too_long`, `abbreviations_after_autofix`, `punctuation_after_autofix`. Эти блокеры всегда возвращают на агента 4.
    - **Soft с iteration ≥ 2:** `length_too_long` автоматически конвертируется в warning, **если text_chars ≤ 9000 (default) / 8000 (news) и других блокеров нет**. Это значит: если writer уже один раз правил и пофиксил спам/уник/AI, длину сверх 8000 (но ≤ 9000) пропускаем без новой итерации. Логика в самом gate (`SOFT_LENGTH_MAX`), отдельно делать ничего не нужно.
 

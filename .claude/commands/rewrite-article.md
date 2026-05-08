@@ -104,7 +104,7 @@ python -m tools.quality_gate drafts/{slug}/article.html --json --save-report
 
 Если опять failed → можно повторить /rewrite-article ещё раз, но **максимум 5 итераций** (считается из `quality_gate.json -> retry_count`, fallback на `_pipeline.log.json -> current_iteration`). После пятой — статья уходит в `drafts/_review/` и требует ручного разбора.
 
-**Приоритет блокеров** (`tools/quality_gate.py`, май 2026):
+**Приоритет блокеров** (`tools/quality_gate.py`):
 - **Hard на любой итерации:** `spam_risk`, `anti_template_phrases`, `ai_markers_critical/density/high`, `first_person_singular`, `law_quotes_too_long`. Любой из этих блокеров — возврат писателя.
 - **Soft с iteration ≥ 2:** `length_too_long` становится warning, если text_chars ≤ 9000 default / 8000 news и других блокеров нет. Не отправляй писателя на новую итерацию только из-за длины после первого ретрая.
 
