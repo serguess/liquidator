@@ -21,7 +21,10 @@ ENV переменные:
                                  по умолчанию 0.04.
     LOGO_PADDING_X_RATIO       - отдельный отступ справа (если задан,
                                  переопределяет горизонтальный).
-                                 По умолчанию 0.02.
+                                 По умолчанию 0.025 (2.5% — гарантия что
+                                 лого не обрежется при Cloudinary-кропе
+                                 c_fill,ar_191:100 даже если fal.ai вернул
+                                 пропорции отличные от 1.91:1).
     LOGO_PADDING_Y_RATIO       - отдельный отступ снизу (если задан,
                                  переопределяет вертикальный).
     LOGO_BACKDROP_TOP          - hex/«r,g,b» верхней границы градиента,
@@ -181,7 +184,7 @@ def add_logo(image_bytes: bytes) -> bytes:
 
     size_ratio = _env_float("LOGO_SIZE_RATIO", 0.1235)
     padding_ratio = _env_float("LOGO_PADDING_RATIO", 0.04)
-    padding_x_ratio = _env_float("LOGO_PADDING_X_RATIO", 0.005)
+    padding_x_ratio = _env_float("LOGO_PADDING_X_RATIO", 0.025)
     padding_y_ratio = _env_float("LOGO_PADDING_Y_RATIO", padding_ratio)
     backdrop_top = _parse_color(os.getenv("LOGO_BACKDROP_TOP", ""), default=(10, 13, 18))
     backdrop_bot = _parse_color(os.getenv("LOGO_BACKDROP_BOTTOM", ""), default=(26, 31, 40))
