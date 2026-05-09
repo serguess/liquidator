@@ -44,6 +44,12 @@ import sys
 from datetime import datetime, date
 from pathlib import Path
 
+try:
+    from zoneinfo import ZoneInfo  # py 3.9+
+    _MSK_TZ = ZoneInfo("Europe/Moscow")
+except Exception:
+    _MSK_TZ = None  # fallback на локальное время сервера
+
 if hasattr(sys.stdout, "reconfigure"):
     try:
         sys.stdout.reconfigure(encoding="utf-8")
@@ -53,7 +59,7 @@ if hasattr(sys.stdout, "reconfigure"):
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 SITE_ORIGIN = "https://pravo.shop"
-CSS_VERSION = "27"
+CSS_VERSION = "28"
 
 CATEGORY_LABELS = {
     "fiz": "Физические лица",
@@ -111,6 +117,12 @@ def _esc_attr(text: str) -> str:
 
 
 def _today_iso() -> str:
+    """Сегодняшняя дата в Москве. Зафиксировано 9 мая 2026: контейнеры
+    Cloud Apps Timeweb могут быть в TZ, отличном от МСК (UTC, +6 и т.д.) —
+    из-за этого `date.today()` иногда давал «следующий день» при ночном
+    пересчёте. Привязываемся явно к Europe/Moscow."""
+    if _MSK_TZ is not None:
+        return datetime.now(_MSK_TZ).date().isoformat()
     return date.today().isoformat()
 
 

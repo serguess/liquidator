@@ -73,7 +73,7 @@ JSON-LD блоки (`Article`, `FAQPage`, `BreadcrumbList`) рендерятся
 
 - `title`, `description`, `h1`, `slug`, `category`
 - `breadcrumb_current` — короткий текст последней крошки (если не задан, шаблонизатор возьмёт из title до двоеточия)
-- `date_published`, `date_modified` (если не заданы — сегодня)
+- **НЕ заполняй** поля `date_published` и `date_modified` — их детерминированно ставит `articles_scheduler/finalize_draft.py` на момент финализации драфта (по часовому поясу Москвы). Если ты их пропишешь — они всё равно будут перезаписаны. Это сделано чтобы дата в HTML не уезжала на день вперёд из-за TZ контейнера.
 - `og_image` (если не задан — `/assets/articles/{slug}.jpg`)
 - `faq` — массив `[{question, answer}]` (FAQPage соберётся из этого)
 
@@ -265,7 +265,7 @@ text.ru-метрики (text.ru API не подключён):
     "lead": "одно предложение для article-head под H1",
     "topic_action": "списание долгов через банкротство",
     "breadcrumb_current": "Короткий текст последней крошки (опц., иначе из title)",
-    "date_published": "2026-05-04", "date_modified": "2026-05-04",
+    /* date_published / date_modified НЕ пишем — finalize_draft проставит сам */
     "og_image": "/assets/articles/{slug}.jpg",
     "main_keyword": "...", "secondary_keywords": ["..."],
     "internal_links": ["..."], "external_links": ["..."],

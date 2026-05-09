@@ -44,6 +44,12 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Optional
 
+try:
+    from zoneinfo import ZoneInfo  # py 3.9+
+    _MSK_TZ = ZoneInfo("Europe/Moscow")
+except Exception:
+    _MSK_TZ = None
+
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 DRAFTS_DIR = PROJECT_ROOT / "drafts"
 REVIEW_QUEUE = DRAFTS_DIR / "_review_queue.json"
@@ -214,16 +220,53 @@ def _now_iso_z() -> str:
             .replace(microsecond=0).isoformat().replace("+00:00", "Z"))
 
 
+def _today_msk_iso() -> str:
+    """Сегодняшняя дата в Москве (YYYY-MM-DD). Решает проблему когда
+    Claude (агент 6) писал в meta.json date_published на день вперёд из-за
+    TZ контейнера или injected currentDate. Зафиксировано 9 мая 2026."""
+    if _MSK_TZ is not None:
+        return datetime.now(_MSK_TZ).date().isoformat()
+    return datetime.now().date().isoformat()
+
+
 def _stamp_ready_for_review(slug: str, meta: dict) -> dict:
     """
     Дописывает в meta.json публикационные поля.
     cover_url / cover_url_master / image_prompt / cover_uploaded_at
     уже записаны самим image_gen.py - их не трогаем.
+
+    Дату публикации перезаписываем на сегодняшнюю по МСК — даже если
+    агент 6 что-то записал в date_published, мы её принудительно меняем
+    на детерминированное значение. Это решает проблему «писалась 8 мая,
+    в HTML стоит 9 мая» (зафиксировано 9 мая 2026 для статьи
+    kak-zakryt-ooo-s-dolgami).
     """
+    today_msk = _today_msk_iso()
+    meta["date_published"] = today_msk
+    meta["date_modified"] = today_msk
     meta["ready_for_review"] = True
     meta["ready_at"] = _now_iso_z()
     meta["publication_target"] = "telegram_review"
     _write_meta(slug, meta)
+
+    # После записи правильной даты — пересобираем article.html, чтобы
+    # дата попала в видимый блок и в JSON-LD. Если inject_boilerplate
+    # упадёт — оставляем уже сгенерированный HTML, не блокируем pipeline.
+    try:
+        from tools import inject_boilerplate
+        result = inject_boilerplate.process(
+            DRAFTS_DIR / slug,
+            body_filename="body.html",
+            out_filename="article.html",
+        )
+        if not result.get("ok"):
+            log.warning("inject_boilerplate не пересобрал article.html "
+                        "после правки даты для %s: %s", slug, result)
+        else:
+            log.info("article.html пересобран с date_published=%s", today_msk)
+    except Exception as exc:
+        log.exception("inject_boilerplate упал при пересборке после правки даты: %s", exc)
+
     return meta
 
 

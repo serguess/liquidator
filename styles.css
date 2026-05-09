@@ -2943,7 +2943,19 @@ a {
 
 .article__cover { aspect-ratio: 1.908; width: 100%; border-radius: 20px; background-size: cover; background-position: center; background-color: var(--dark-2); margin-bottom: 44px; box-shadow: 0 20px 60px rgba(0,0,0,0.4); }
 
-.article__body { font-family: var(--font-body); font-size: 16px; line-height: 1.7; color: rgba(255,255,255,0.82); text-align: justify; hyphens: auto; -webkit-hyphens: auto; }
+.article__body { font-family: var(--font-body); font-size: 16px; line-height: 1.7; color: rgba(255,255,255,0.82); text-align: justify; hyphens: none; -webkit-hyphens: none; -ms-hyphens: none; }
+/* Запрещаем авто-перенос слов (гифенацию) во всём теле статьи и в заголовках.
+   Решение заказчика 9 мая 2026: браузерная гифенация русского давала кривые
+   разрывы вроде «АР-БИТРАЖНЫМ». Justify оставляем — на 820px и >16px шрифте
+   «реки» терпимые, на мобиле текст переносится по словам без проблем. */
+.article__title,
+.article__body h1, .article__body h2, .article__body h3, .article__body h4 {
+  hyphens: none;
+  -webkit-hyphens: none;
+  -ms-hyphens: none;
+  word-break: normal;
+  overflow-wrap: normal;
+}
 .article__body h2 { font-family: var(--font-display); font-weight: 700; font-size: clamp(19px, 1.9vw, 24px); color: #fff; margin: 40px 0 16px; line-height: 1.28; text-align: left; }
 .article__body h3 { font-family: var(--font-display); font-weight: 600; font-size: clamp(16px, 1.5vw, 19px); color: #fff; margin: 32px 0 12px; text-align: left; }
 .article__body p { margin: 0 0 16px; }

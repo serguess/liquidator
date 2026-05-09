@@ -313,8 +313,14 @@ async def _clean_urls(request: Request, call_next):
                 if html_path.is_file():
                     new_path = p + ".html"
                     request.scope["path"] = new_path
-                    raw_qs = request.scope.get("query_string", b"")
-                    request.scope["raw_path"] = new_path.encode() + (b"?" + raw_qs if raw_qs else b"")
+                    # ВАЖНО: raw_path в ASGI — это байты пути БЕЗ query string
+                    # (query_string лежит отдельным ключом в scope). Раньше мы
+                    # дописывали `?...` к raw_path, и при определённых связках
+                    # uvicorn/starlette StaticFiles распознавал это как часть
+                    # имени файла → 404. Из-за этого у заказчика ломались
+                    # хлебные крошки `/category/all?cat=yur` (зафиксировано
+                    # 9 мая 2026). Query string не трогаем — он уже на месте.
+                    request.scope["raw_path"] = new_path.encode()
 
     return await call_next(request)
 
