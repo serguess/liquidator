@@ -77,26 +77,29 @@ DRAFTS_DIR = PROJECT_ROOT / "drafts"
 
 # ============ ПРОМПТ ============
 #
-# Архитектура: BASE_STYLE + SCENE_OBJECTS + STRICT_RULES
+# Архитектура: BASE_STYLE + SCENE + STRICT_RULES
 #
-# - BASE_STYLE   — фотореалистичный editorial top-down flat-lay, palette,
-#                  свет, премиум legal magazine. Фикс в коде.
-# - SCENE        — конкретные предметы под тему статьи (3-7 элементов).
-#                  Формирует агент 7 при финализации драфта. Если не передан -
-#                  fallback на CATEGORY_SCENE_DEFAULT.
-# - STRICT_RULES — запрет текста, людей, чистый правый нижний угол под лого.
-#                  Фикс в коде.
+# - BASE_STYLE   — общий «настроечный» прелюд: фотореализм, премиум legal-magazine
+#                  эстетика, нейтральная палитра, 16:9. Без привязки к конкретной
+#                  композиции (top-down, экстерьер, библиотека и т.д.) — это теперь
+#                  определяет SCENE.
+# - SCENE        — полная композиция кадра: тип сцены (фасад/стол/коридор...),
+#                  ракурс камеры, освещение, материалы, 3-7 предметов под тему
+#                  статьи. Подбирает агент 7 из 30 шаблонов в
+#                  `.claude/style/cover-scenes.md`. Если scene.txt отсутствует -
+#                  fallback на CATEGORY_SCENE_DEFAULT (категорийный шаблон).
+# - STRICT_RULES — общие запреты: текст, люди, лого, чистый правый нижний угол
+#                  под наш логотип. Применяется ко всем 30 сценам без вариаций.
 #
 # Промпты по-английски: модели генерации картинок сильно лучше понимают
 # английский. Кириллица в стиль-инструкциях провоцирует псевдо-русские
-# вывески в кадре.
+# вывески в кадре. С 9 мая 2026: фиксированный flat-lay убран из BASE_STYLE
+# и переехал в шаблон №10 каталога (один из 30 типов кадра).
 
 BASE_STYLE = (
-    "Photorealistic top-down flat-lay editorial photograph on a polished "
-    "dark wooden desk, soft golden morning light from a window on the left "
-    "casting a long warm diagonal across the desk, premium legal magazine "
-    "aesthetic, shallow depth of field, neutral beige and graphite palette "
-    "with warm gold accents, cinematic photorealistic detail"
+    "Photorealistic editorial magazine photograph, premium legal and "
+    "business aesthetic, neutral palette with restrained warm accents, "
+    "cinematic detail, shallow depth of field"
 )
 
 STRICT_RULES = (
@@ -104,9 +107,11 @@ STRICT_RULES = (
     "no text, no inscriptions, no readable letters anywhere in the frame, "
     "no titles on books (only embossed decorative gilt patterns and emblems "
     "are allowed), no labels, no logos, no watermarks, no street signs, "
-    "no banners. No people, no faces, no hands. "
-    "Lower right area of the desk kept smooth, softly sunlit and empty "
-    "for external logo placement. 16:9 horizontal aspect ratio."
+    "no banners. No people, no faces, no hands (distant blurred silhouettes "
+    "with umbrellas in rainy outdoor scenes are acceptable only when the "
+    "scene description explicitly mentions them). Lower right area of the "
+    "frame kept smooth, softly lit and empty for external logo placement. "
+    "16:9 horizontal aspect ratio."
 )
 
 NEGATIVE_PROMPT = (
@@ -118,35 +123,66 @@ NEGATIVE_PROMPT = (
     "people, faces, hands, human figures"
 )
 
-# Дефолтные сцены по категориям - если агент не передал свой scene_objects.
-# Каждая сцена = список из 3-7 предметов в одном кадре, без текстонесущих
-# поверхностей (или с закрытыми обложками, гербами без надписей).
+# Дефолтные сцены по категориям — fallback если агент 7 не записал scene.txt.
+# Каждый дефолт = ПОЛНАЯ композиция (тип кадра + камера + свет + материалы +
+# 4-6 предметов), один из 30 шаблонов каталога `.claude/style/cover-scenes.md`.
+# Маппинг категория → шаблон:
+#   fiz   → 10 (top-down flat-lay) — универсальный визуал.
+#   yur   → 25 (executive office) — корпоративная атмосфера.
+#   vzysk → 3  (legal attributes mid-process) — весы, печать, ключи.
+#   news  → 12 (modern building rain/fog) — современная новостная подача.
 CATEGORY_SCENE_DEFAULT = {
     "fiz": (
-        "a closed brown leather case folder placed slightly left of center "
-        "with a wooden judges gavel resting diagonally on top, a stack of "
-        "three closed law books with embossed gilt spines and a small "
-        "national emblem, an elegant black fountain pen, a small white "
-        "porcelain coffee cup on a saucer, a pair of reading glasses"
+        # Шаблон 10: top-down flat-lay
+        "Top-down flat-lay editorial photograph on a polished dark walnut "
+        "desk with soft golden morning light casting a long warm diagonal "
+        "across the surface. On the desktop: a closed brown leather case "
+        "folder placed slightly left of center with a wooden judges gavel "
+        "resting diagonally on top, a stack of three closed law books with "
+        "embossed gilt spines and a small national emblem, an elegant black "
+        "fountain pen, a small white porcelain coffee cup on a saucer, a "
+        "pair of reading glasses. Premium legal-magazine aesthetic, neutral "
+        "beige and graphite palette with warm gold accents."
     ),
     "yur": (
-        "a closed dark leather portfolio with a brass round company seal "
-        "resting on top, a stack of corporate folders, a fountain pen, "
-        "a vintage brass desk lamp, a closed laptop with brushed aluminum "
-        "lid, a small white porcelain coffee cup"
+        # Шаблон 25: executive office
+        "Wide editorial photograph of a private executive office with high "
+        "ceilings, tall windows with heavy drapes, walnut bookshelves "
+        "lining the walls, an oxblood leather chesterfield in the corner. "
+        "Large mahogany desk in the foreground holds a closed dark leather "
+        "portfolio with a brass round company seal resting on top, a stack "
+        "of corporate folders, a fountain pen on a brass stand, an antique "
+        "pocket watch, a closed laptop with brushed aluminum lid, a small "
+        "white porcelain coffee cup. Background through windows: blurred "
+        "city skyline at golden hour. Camera: three-quarter angle, slight "
+        "low-angle to emphasize ceiling height. Lighting: cool window light "
+        "blended with warm tungsten desk lamp. Mood: senior decision-maker."
     ),
     "vzysk": (
-        "polished brass scales of justice with smooth blank pans on the "
-        "left, a wooden judges gavel on a round sound block, a closed "
-        "leather case folder, a fountain pen, a small white porcelain "
-        "coffee cup, deep contemplative shadows on the right"
+        # Шаблон 3: legal attributes mid-process
+        "Close-up cinematic photograph of legal implements arranged as if "
+        "mid-process. On the dark walnut tabletop: polished brass scales of "
+        "justice with smooth blank pans on the left, a wooden judges gavel "
+        "on a round sound block, a closed leather case folder, a vintage "
+        "brass padlock with chain, a bunch of brass keys on a ring, a "
+        "fountain pen, a small white porcelain coffee cup. Camera: tabletop "
+        "level, three-quarter angle. Lighting: soft directional sidelight "
+        "casting elegant shadows, deep contemplative shadows on the right. "
+        "Materials: brass, dark walnut, weathered leather. Atmosphere of "
+        "due process underway."
     ),
     "news": (
-        "a closed newspaper folded in half with no visible headlines, "
-        "a wooden judges gavel resting on a closed leather folder, "
-        "a desk calendar showing only an abstract page with no readable "
-        "dates, a fountain pen, a small white porcelain coffee cup, "
-        "a pair of reading glasses"
+        # Шаблон 12: modern building rain/fog
+        "Exterior photograph of a contemporary administrative or financial "
+        "building in adverse weather — heavy rain or dense evening fog. "
+        "Glass façade reflects the wet street, soft amber lampposts glow "
+        "through the haze (no readable signage). Camera: street-level, "
+        "slight low-angle, across a puddle reflecting the building upside-"
+        "down. Foreground: distant blurred silhouettes of pedestrians with "
+        "black umbrellas (faceless, far away, no detail), wet stone steps, "
+        "oxidized brass plaque on the entry pillar (no readable text). "
+        "Palette: cool blue-grey with warm amber pin-points. Mood: "
+        "contemporary urban legal-financial drama."
     ),
 }
 
