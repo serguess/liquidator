@@ -1,19 +1,45 @@
 {
-  "generated_at": "2026-05-09T19:42:47",
-  "total": 9,
+  "generated_at": "2026-05-09T22:54:50",
+  "total": 10,
   "by_source": {
-    "published": 8,
+    "published": 9,
     "draft_approved": 0,
     "draft_pending": 1,
     "draft_local": 0
   },
   "by_category": {
+    "vzysk": 2,
     "news": 3,
     "yur": 2,
-    "fiz": 2,
-    "vzysk": 2
+    "fiz": 3
   },
   "articles": [
+    {
+      "slug": "bankrotstvo-pri-ipoteke-edinstvennoe-zhilye",
+      "category": "fiz",
+      "source": "published",
+      "url": "/articles/fiz/bankrotstvo-pri-ipoteke-edinstvennoe-zhilye.html",
+      "title": "",
+      "h1": "",
+      "main_keyword": "",
+      "secondary_keywords": [],
+      "intent": "",
+      "writer_route": "",
+      "h2_topics": [
+        "Коротко: да, могут забрать - но есть два выхода",
+        "Почему иммунитет единственного жилья здесь не защищает",
+        "Два способа сохранить жильё по 298-ФЗ",
+        "Когда жильё всё-таки уйдёт на торги",
+        "Если ипотека оформлена на двух человек",
+        "Что важно знать до подачи заявления",
+        "Частые вопросы о банкротстве с ипотекой",
+        "Читайте также",
+        "ЗАПОЛНИТЬ ФОРМУ"
+      ],
+      "char_count": 10103,
+      "published_at": null,
+      "tags": []
+    },
     {
       "slug": "skolko-stoit-bankrotstvo-fizicheskogo-lica",
       "category": "fiz",

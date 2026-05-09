@@ -1,0 +1,100 @@
+{
+  "slug": "bankrotstvo-suprugov-sovmestnoe",
+  "category": "fiz",
+  "title": "Совместное банкротство супругов: имущество и долги",
+  "description": "Как супруги могут обанкротиться вместе, что происходит с общим имуществом и совместными долгами - разбор процедуры, рисков и судебной практики.",
+  "h1": "Совместное банкротство супругов: что будет с имуществом и долгами семьи",
+  "lead": "127-ФЗ не предусматривает единой процедуры для мужа и жены - каждый самостоятельный должник, но общее имущество и долги создают особые риски для обоих.",
+  "topic_action": "разбор банкротства супругов",
+  "breadcrumb_current": "Банкротство супругов",
+  "og_image": "/assets/articles/bankrotstvo-suprugov-sovmestnoe.jpg",
+  "main_keyword": "совместное банкротство супругов",
+  "secondary_keywords": [
+    "банкротство мужа и жены",
+    "общие долги супругов при банкротстве",
+    "реализация общего имущества при банкротстве",
+    "объединение дел о банкротстве супругов",
+    "ст. 213.26 127-ФЗ супруги"
+  ],
+  "internal_links": [
+    "/articles/fiz/bankrotstvo-pri-ipoteke-edinstvennoe-zhilye.html",
+    "/articles/fiz/skolko-stoit-bankrotstvo-fizicheskogo-lica.html"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_507941/",
+    "https://www.consultant.ru/document/cons_doc_LAW_8982/0ea368c128d5b1aa6845901bacaf6810137469a6/",
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/39824eca9ca1c85daa969b102de5d1fdbd8a9f06/"
+  ],
+  "faq": [
+    {
+      "question": "Если банкротится один супруг, второй тоже станет банкротом?",
+      "answer": "Нет. Статус банкрота и запреты из ст. 213.30 127-ФЗ касаются только того, кто прошёл эту процедуру. Партнёр сохраняет гражданские права - но совместная собственность уходит с торгов, а непогашенные долги кредиторы вправе предъявить отдельным иском."
+    },
+    {
+      "question": "Можно ли подать одно заявление сразу на двоих?",
+      "answer": "127-ФЗ такой нормы не содержит. Одни суды принимают совместное заявление и объединяют дела, другие настаивают на раздельных. Конкретный арбитраж решает это с учётом состава кредиторов и имущества."
+    },
+    {
+      "question": "Что будет с квартирой в ипотеке, если банкротятся оба?",
+      "answer": "Жильё входит в конкурсную массу как предмет залога - иммунитет единственного жилья не распространяется на ипотечную недвижимость. С 8 сентября 2024 года (ст. 213.10-1 127-ФЗ) появилась возможность договориться с банком о мировом соглашении и продолжать выплаты. Залогодержатель вправе не согласиться."
+    },
+    {
+      "question": "Кредит оформлен на мужа, но деньги тратились на семью - это общий долг?",
+      "answer": "Не автоматически. Задолженность признаётся общей только по судебному акту - если доказано, что средства пошли на нужды семьи (п. 2 ст. 45 СК РФ). Кто ссылается на это обстоятельство - тот и представляет доказательства."
+    },
+    {
+      "question": "Защитит ли брачный договор имущество при банкротстве?",
+      "answer": "Лишь при условии, что он заключён задолго до начала дела и не направлен на вывод активов. Соглашение, оформленное в течение 3 лет до несостоятельности и причинившее ущерб кредиторам, управляющий может оспорить по ст. 61.2 127-ФЗ."
+    },
+    {
+      "question": "Выгодно ли банкротиться обоим супругам одновременно?",
+      "answer": "Зависит от состава задолженностей. Если займы у каждого личные - партнёру нет смысла вступать в эту процедуру. При наличии общих кредиторов и совместных обязательств параллельные или объединённые разбирательства снижают издержки за счёт единого управляющего и одного аукциона."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "f1: п.7 ст.213.26 127-ФЗ (ред. ФЗ-107 от 29.05.2024) - актуально, last_verified 2026-05-09",
+    "f3: ст.45 СК РФ (ред. 23.03.2026) - актуально, last_verified 2026-05-09",
+    "f6: 25 000 руб. + 7% вознаграждение - контекст корректный (выручка реализации, не удовлетворённые требования по ст. 20.6)",
+    "f7: ст.213.10-1 127-ФЗ (ФЗ-298 от 08.08.2024) - актуально, last_verified 2026-05-09",
+    "f9: Обзор ВС РФ от 18.06.2025 - last_verified 2026-05-09, конкретные пункты не цитируются",
+    "f12: ст.61.2 127-ФЗ - 1 год/3 года - актуально",
+    "f4, f5, f11: contested - использованы safe_phrasing с осторожными формулировками ('нередко', 'часть судов', 'практика неоднородна')"
+  ],
+  "keyword_density_main": 0.017,
+  "main_keyword_exact_count": 2,
+  "text_chars": 8133,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.074,
+  "local_spam_ngram3_repeat": 0.026,
+  "local_lexical_diversity": 0.62,
+  "local_ai_markers_density": 0.2,
+  "local_ai_markers_critical": 0,
+  "local_ai_markers_total": 2,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 3,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 15,
+  "predicted_spam_pct": 50,
+  "predicted_ai_pct": 5,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "длина чуть больше лимита 8000 (8 133 знаков)"
+  ],
+  "length_status": "too_long",
+  "length_kind": "default",
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/c_fill,ar_191:100,g_center,f_auto,q_auto,w_1920/v1778370323/articles/bankrotstvo-suprugov-sovmestnoe-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1778370323/articles/bankrotstvo-suprugov-sovmestnoe-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Photograph of a private office interior with low-key lighting suggesting late-evening deliberation. Materials: deep walnut paneling, oxblood leather chair, warm brass library lamp. Desk in foreground holds five carefully arranged items: a closed dark leather portfolio with cord binding representing joint case documents, a polished brass round company seal resting beside it, a fountain pen laid across a blank-spine notebook, an antique brass pocket watch on a chain indicating the passage of time, and a closed slim laptop with brushed metal lid. Background: blurred bookshelves receding into deep shadow with a faint warm glow. Camera: three-quarter angle, eye-level. Lighting: single warm tungsten desk lamp creating a warm pool, deep ambient shadow in periphery, cool secondary fill from background. Palette: oxblood, walnut, brass on near-black. Mood: grave shared decision, weight of consequence, the quiet moment before a life-changing legal step.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-05-09T23:45:24Z",
+  "date_published": "2026-05-10",
+  "date_modified": "2026-05-10",
+  "ready_for_review": true,
+  "ready_at": "2026-05-09T23:45:24Z",
+  "publication_target": "telegram_review"
+}
