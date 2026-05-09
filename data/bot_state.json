@@ -128,7 +128,7 @@
     "stavka-cb-14-5-procent-aprel-2026-dolzhniki": {
       "category": "news",
       "title": "Ключевая ставка ЦБ 14,5%: что изменится для должников",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -136,10 +136,12 @@
       "tg_message_id": 228,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-09T09:23:45",
-      "last_action_at": "2026-05-09T09:23:45",
+      "last_action_at": "2026-05-09T09:40:58",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null
+      "published_url": "https://pravo.shop/articles/news/stavka-cb-14-5-procent-aprel-2026-dolzhniki",
+      "published_at": "2026-05-09T09:40:58",
+      "articles_path": "articles/news/stavka-cb-14-5-procent-aprel-2026-dolzhniki.html"
     }
   }
 }
