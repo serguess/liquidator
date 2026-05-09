@@ -127,3 +127,8 @@ fatal: pathspec 'data/scheduler_log.json' did not match any files
 fatal: pathspec 'data/scheduler_log.json' did not match any files
 ====
 
+[2026-05-09T20:29:18] slot=bankrotstvo-pri-ipoteke-edinstvennoe-zhilye category=fiz action=git_add (data/scheduler_log.json) returncode=128
+--- stderr ---
+fatal: pathspec 'data/scheduler_log.json' did not match any files
+====
+
