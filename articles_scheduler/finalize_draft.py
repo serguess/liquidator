@@ -38,6 +38,7 @@ from __future__ import annotations
 import argparse
 import json
 import logging
+import re
 import sys
 import time
 from datetime import datetime, timezone
@@ -56,6 +57,14 @@ REVIEW_QUEUE = DRAFTS_DIR / "_review_queue.json"
 
 REQUIRED_META_FIELDS = ("slug", "category", "title", "description", "h1", "topic_action")
 MIN_ARTICLE_BYTES = 5000
+
+# Регекс 4-значного года 19xx-20xx как отдельного слова. Используется
+# хард-валидатором ниже: для category=news в title и h1 год запрещён
+# (зафиксировано заказчиком 9 мая 2026 — статья с годом мгновенно
+# выглядит «старой» в поиске и через год). Документы можно упоминать
+# только без года: «обзор Верховного суда», «ФЗ-259», «постановление
+# Пленума №40» — без «от 17.12.2024» и без «№5/2026».
+_YEAR_IN_HEADLINE_RE = re.compile(r"\b(19|20)\d{2}\b")
 
 log = logging.getLogger("finalize_draft")
 
@@ -93,6 +102,28 @@ def _validate_draft(slug: str) -> tuple[bool, str, dict]:
 
     if meta.get("factcheck_passed") is False:
         return False, "factcheck_passed=false - драфт не финализируется", {}
+
+    # Хард-проверка: для category=news запрещён 4-значный год в title и h1.
+    # Заказчик зафиксировала правило 9 мая 2026 после кейса
+    # «Обзор ВС РФ №5/2026 по банкротству» — статья с годом сразу
+    # выглядит устаревшей. Если правило нарушено — слот падает,
+    # scheduler возьмёт следующую тему. Это страховка от ошибок
+    # агента 1 / 6, которые формируют title и h1.
+    if (meta.get("category") or "").lower() == "news":
+        offenders = []
+        for field_name in ("title", "h1"):
+            value = meta.get(field_name) or ""
+            match = _YEAR_IN_HEADLINE_RE.search(value)
+            if match:
+                offenders.append(f"{field_name}={value!r} содержит год {match.group()!r}")
+        if offenders:
+            return False, (
+                "category=news запрещает 4-значный год в title/h1; найдено: "
+                + "; ".join(offenders)
+                + ". Правило: см. .claude/agents/6-seo-editor.md §2.1, "
+                ".claude/agents/1-semantics.md шаг 10, "
+                ".claude/commands/expand-topics.md."
+            ), {}
 
     qg_path = draft_dir / "quality_gate.json"
     if qg_path.exists():
