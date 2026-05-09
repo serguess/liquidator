@@ -1,0 +1,103 @@
+{
+  "slug": "obzor-vs-rf-5-2026-bankrotstvo-glavnoe",
+  "category": "news",
+  "title": "Обзор ВС РФ №5/2026 по банкротству: главное для должника",
+  "description": "Президиум ВС утвердил обзор практики по банкротству 29 апреля 2026. Разбираем 26 позиций: единственное жильё, оспаривание сделок, конкурсная масса.",
+  "h1": "Обзор ВС РФ №5/2026 по банкротству: что изменилось для должника",
+  "lead": "29 апреля 2026 года Президиум ВС РФ утвердил 26 правовых позиций по банкротству - разбираем, что изменилось для должника.",
+  "topic_action": "проверку вашего дела по позициям обзора ВС",
+  "cta_top_text": "Проверить ваше дело по позициям обзора ВС",
+  "cta_mid_text": "Оставить заявку на разбор дела",
+  "cta_bottom_text": "Записаться на консультацию по итогам обзора",
+  "breadcrumb_current": "Обзор ВС №5/2026 по банкротству",
+  "og_image": "/assets/articles/obzor-vs-rf-5-2026-bankrotstvo-glavnoe.jpg",
+  "main_keyword": "обзор ВС РФ по банкротству 5/2026",
+  "secondary_keywords": [
+    "обзор судебной практики верховного суда банкротство",
+    "позиции ВС по банкротству физических лиц",
+    "единственное жильё конкурсная масса банкротство",
+    "оспаривание сделок должника верховный суд",
+    "обзор практики банкротство 2026",
+    "что изменилось в банкротстве физлица 2026",
+    "позиции верховного суда по банкротству граждан",
+    "защита должника при банкротстве верховный суд"
+  ],
+  "internal_links": [
+    "/articles/yur/bankrotstvo-ooo-poshagovo-2026.html",
+    "/articles/fiz/vnesudebnoe-bankrotstvo-cherez-mfc-2026.html",
+    "/articles/fiz/skolko-stoit-bankrotstvo-fizicheskogo-lica.html"
+  ],
+  "external_links": [
+    "https://www.vsrf.ru/documents/all/34516/",
+    "https://www.consultant.ru/document/cons_doc_LAW_533400/",
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/b919efeffaee7c5a42d9c3d755951599d9b55288/"
+  ],
+  "faq": [
+    {
+      "question": "Обзор ВС РФ №5/2026 - это закон? Судьи обязаны его выполнять?",
+      "answer": "Нет. Тематический обзор - разъяснение практики, не нормативный акт. Судья вправе отступить от него, но обязан обосновать это в решении. На практике арбитражные суды учитывают взгляды ВС в большинстве дел."
+    },
+    {
+      "question": "Продали квартиру в ипотеке на торгах - куда денется остаток после выплаты банку?",
+      "answer": "Деньги, оставшиеся после погашения ипотечного займа, исключаются из конкурсной массы и возвращаются гражданину. Другим взыскателям эта сумма не достаётся (п. 4)."
+    },
+    {
+      "question": "Я брал кредит и не говорил о других долгах. Мне откажут в списании?",
+      "answer": "Риск есть. Суд квалифицирует умолчание о существенных обязательствах как возможную недобросовестность (п. 5). Отказ грозит именно по этому договору. Итог зависит от размера скрытых сумм и общей картины."
+    },
+    {
+      "question": "Управляющий хочет оспорить мой платёж трёхлетней давности - это законно?",
+      "answer": "Зависит от ситуации. Ст. 61.2 127-ФЗ даёт срок до 3 лет, но только для подозрительных сделок. Если речь о платеже одному из займодавцев - это оспаривается по ст. 61.3 с периодом 1-6 месяцев. Подменять одну норму другой нельзя (п. 10)."
+    },
+    {
+      "question": "Займодавец появился уже после завершения банкротства. Может ли он что-то требовать?",
+      "answer": "Нет. Кредитор, не успевший войти в реестр, лишён права добиться пересмотра завершённого дела (п. 26)."
+    }
+  ],
+  "offer": "proverka-spisaniya",
+  "event_date": "2026-04-29",
+  "news_zone": "vs_practice",
+  "primary_source": "https://www.vsrf.ru/documents/all/34516/",
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Позиция 5: формулировка смягчена до «может быть расценено как недобросовестность» согласно safe_phrasing из research.json (f3)",
+    "Разграничение залогового/незалогового жилья (позиция 4) сохранено корректно",
+    "Все last_verified в research.json не старше 6 месяцев (2026-04-25 / 2026-05-09)",
+    "Все ссылки на нормы проверены: ст. 213.28 п. 3-6 127-ФЗ, ст. 61.2, 61.3, 61.4 127-ФЗ, ст. 446 ГПК РФ",
+    "Внутренние ссылки проверены по published_index.json: все три slug со source=published"
+  ],
+  "keyword_density_main": null,
+  "main_keyword_exact_count": null,
+  "text_chars": 6593,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.086,
+  "local_spam_ngram3_repeat": 0.025,
+  "local_lexical_diversity": 0.684,
+  "local_ai_markers_density": 0.24,
+  "local_ai_markers_critical": 0,
+  "length_status": "warn",
+  "length_kind": "news",
+  "local_ai_markers_total": 2,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 0,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 13,
+  "predicted_spam_pct": 47,
+  "predicted_ai_pct": 5,
+  "predicted_uniqueness_pct": 90,
+  "customer_risks": [],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/c_fill,ar_191:100,g_center,f_auto,q_auto,w_1920/v1778313043/articles/obzor-vs-rf-5-2026-bankrotstvo-glavnoe-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1778313043/articles/obzor-vs-rf-5-2026-bankrotstvo-glavnoe-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Wide symmetric photograph down a long marble-floored official corridor with tall colonnaded arches and brass wall sconces. Center of frame holds a single point of interest: a marble pedestal supporting a polished brass scales of justice with empty balanced pans, a closed dark leather portfolio resting at the base of the pedestal, and a stack of three closed law books with embossed gilt spines leaning against it. Camera: dead-center symmetric, eye-level, slight wide-angle pulling the corridor lines into perspective. Lighting: cool natural daylight from high arched windows above, casting long parallel light shafts across the marble floor, with warm brass sconce glow at the edges. Palette: cool cream and grey marble, polished brass, oxblood leather, deep shadow in the arches. Mood: ceremonial, momentous, landmark ruling awaiting implementation.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-05-09T07:50:44Z",
+  "date_published": "2026-05-09",
+  "date_modified": "2026-05-09",
+  "ready_for_review": true,
+  "ready_at": "2026-05-09T07:50:44Z",
+  "publication_target": "telegram_review"
+}

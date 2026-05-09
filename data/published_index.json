@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-05-08T19:01:03",
-  "total": 6,
+  "generated_at": "2026-05-09T07:02:31",
+  "total": 7,
   "by_source": {
-    "published": 5,
+    "published": 6,
     "draft_approved": 0,
     "draft_pending": 1,
     "draft_local": 0
   },
   "by_category": {
     "news": 1,
-    "vzysk": 1,
+    "yur": 2,
     "fiz": 2,
-    "yur": 2
+    "vzysk": 2
   },
   "articles": [
     {
@@ -86,6 +86,31 @@
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
       "char_count": 9283,
+      "published_at": null,
+      "tags": []
+    },
+    {
+      "slug": "snyatie-aresta-so-scheta-pristavami",
+      "category": "vzysk",
+      "source": "published",
+      "url": "/articles/vzysk/snyatie-aresta-so-scheta-pristavami.html",
+      "title": "",
+      "h1": "",
+      "main_keyword": "",
+      "secondary_keywords": [],
+      "intent": "",
+      "writer_route": "",
+      "h2_topics": [
+        "Когда разблокировка происходит без вашего участия",
+        "Незаконная блокировка: как её оспорить",
+        "Как защитить прожиточный минимум при блокировке денег на счёте",
+        "Самостоятельно или с юристом",
+        "Что не поможет: распространённые ошибки",
+        "Частые вопросы об аресте счёта приставами",
+        "Читайте также",
+        "ЗАПОЛНИТЬ ФОРМУ"
+      ],
+      "char_count": 9472,
       "published_at": null,
       "tags": []
     },
