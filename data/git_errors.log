@@ -122,3 +122,8 @@ fatal: pathspec 'data/scheduler_log.json' did not match any files
 fatal: pathspec 'data/scheduler_log.json' did not match any files
 ====
 
+[2026-05-09T09:16:20] slot=stavka-cb-14-5-procent-aprel-2026-dolzhniki category=news action=git_add (data/scheduler_log.json) returncode=128
+--- stderr ---
+fatal: pathspec 'data/scheduler_log.json' did not match any files
+====
+

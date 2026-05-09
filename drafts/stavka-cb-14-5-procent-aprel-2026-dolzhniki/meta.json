@@ -1,0 +1,100 @@
+{
+  "slug": "stavka-cb-14-5-procent-aprel-2026-dolzhniki",
+  "category": "news",
+  "title": "Ключевая ставка ЦБ 14,5%: что изменится для должников",
+  "description": "Банк России 24 апреля снизил ключевую ставку до 14,5%. Разбираем, как это влияет на пени по долгам, мораторные проценты при банкротстве и шансы на реструктуризацию кредита.",
+  "h1": "ЦБ снизил ключевую ставку до 14,5%: что это меняет для должников",
+  "lead": "Разбираем, что изменилось автоматически с 27 апреля, что требует действий, а что не поменяется при любом решении ЦБ.",
+  "topic_action": "анализ долговых санкций",
+  "breadcrumb_current": "Ключевая ставка 14,5%: что изменится для должников",
+  "og_image": "/assets/articles/stavka-cb-14-5-procent-aprel-2026-dolzhniki.jpg",
+  "main_keyword": "ключевая ставка снижена 14.5 процент что для должников",
+  "secondary_keywords": [
+    "ключевая ставка ЦБ апрель снижение",
+    "снижение ключевой ставки кредиты должник",
+    "ключевая ставка мораторные проценты банкротство",
+    "ставка рефинансирования пени должник",
+    "реструктуризация кредита снижение ставки ЦБ",
+    "ключевая ставка и неустойка по кредиту",
+    "что будет с кредитом при снижении ставки",
+    "долг и ключевая ставка ЦБ"
+  ],
+  "internal_links": [
+    "/articles/yur/bankrotstvo-ooo-poshagovo-2026.html",
+    "/articles/fiz/vnesudebnoe-bankrotstvo-cherez-mfc-2026.html",
+    "/articles/fiz/skolko-stoit-bankrotstvo-fizicheskogo-lica.html"
+  ],
+  "external_links": [
+    "https://www.cbr.ru/press/pr/?file=24042026_133000key.htm",
+    "https://www.consultant.ru/document/cons_doc_LAW_19671/10fdf2faa7c30851b7673ac4ca893589c88f24f7/",
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/"
+  ],
+  "faq": [
+    {
+      "question": "Мои налоговые пени уменьшились автоматически с 27 апреля 2026 года?",
+      "answer": "Для граждан и ИП -- да. Новые дни просрочки считаются по 14,5% (1/300 в сутки) автоматически. Уже начисленные суммы за прошлые периоды не пересчитываются."
+    },
+    {
+      "question": "Банк обязан снизить ставку по моему кредиту после решения ЦБ?",
+      "answer": "Нет. По ст. 450 ГК РФ изменить договор можно только по соглашению сторон. Исключение -- если договор содержит условие о плавающем проценте, привязанном к ключевой ставке."
+    },
+    {
+      "question": "Как снижение ключевой ставки влияет на мораторные проценты, если моё банкротство уже идёт?",
+      "answer": "Не влияет. Расчёт зафиксирован на дату открытия процедуры -- наблюдения для юридических лиц (ст. 63 127-ФЗ) или реструктуризации долгов гражданина (ст. 213.19 127-ФЗ)."
+    },
+    {
+      "question": "Договорная неустойка по кредиту привязана к ключевой ставке ЦБ?",
+      "answer": "Нет. Неустойка прописана в договоре и ограничена 20% годовых по ч. 21 ст. 5 ФЗ-353. Снижение ЦБ её автоматически не уменьшает. Снизить через суд -- ходатайство по ст. 333 ГК РФ."
+    },
+    {
+      "question": "Когда ЦБ следующий раз рассмотрит изменение ставки?",
+      "answer": "Следующее заседание Совета директоров Банка России запланировано на 19 июня 2026 года."
+    },
+    {
+      "question": "Если подать на банкротство сейчас, мораторные проценты будут 14,5%?",
+      "answer": "Зависит от даты определения суда о введении процедуры. Если определение вынесено после 27 апреля 2026 года -- расчёт идёт по 14,5%."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все факты верифицированы: last_verified=2026-05-09, legislation_status=active по всем нормам.",
+    "Нормы ст. 63 (юрлица) и ст. 213.19 (физлица) 127-ФЗ разграничены корректно.",
+    "Трёхступенчатая шкала НК РФ указана только для организаций -- для физлиц только 1/300.",
+    "Прогноз ЦБ указан с оговоркой (не обязательство). Запрещённые утверждения не использованы.",
+    "Год в title и h1 отсутствует (категория news, хард-проверка финализатора)."
+  ],
+  "keyword_density_main": 0.018,
+  "main_keyword_exact_count": 2,
+  "text_chars": 6350,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.104,
+  "local_spam_ngram3_repeat": 0.029,
+  "local_lexical_diversity": 0.641,
+  "local_ai_markers_density": 0.24,
+  "local_ai_markers_critical": 0,
+  "length_status": "ok",
+  "length_kind": "news",
+  "local_ai_markers_total": 2,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 1,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 10,
+  "predicted_spam_pct": 50,
+  "predicted_ai_pct": 5,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/c_fill,ar_191:100,g_center,f_auto,q_auto,w_1920/v1778318166/articles/stavka-cb-14-5-procent-aprel-2026-dolzhniki-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1778318166/articles/stavka-cb-14-5-procent-aprel-2026-dolzhniki-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Exterior photograph of a contemporary glass-and-steel financial district building at dusk in heavy rain. Camera at street level, slight low-angle, framing the towering glass façade that reflects amber lampposts and the wet cobblestone plaza below. Foreground: a wide puddle mirrors the building's illuminated lower floors upside-down, with blurred reflections of distant faceless umbrella silhouettes on the far edge of the frame. Near the entry pillar, a polished brass wall plaque (no readable inscription) and broad stone steps glisten with rain. On a low stone ledge at the lower-left of frame: a closed dark leather portfolio weighted shut by a brass round seal, a neatly folded bank statement envelope tied with cord. Palette: cool blue-grey glass and rain-soaked stone, punctuated by warm amber lampposts and a single lit interior window. Mood: contemporary urban financial gravity, a decision already made, its consequences rippling outward.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-05-09T09:16:07Z",
+  "date_published": "2026-05-09",
+  "date_modified": "2026-05-09",
+  "ready_for_review": true,
+  "ready_at": "2026-05-09T09:16:07Z",
+  "publication_target": "telegram_review"
+}
