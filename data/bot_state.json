@@ -142,6 +142,37 @@
       "published_url": "https://pravo.shop/articles/news/stavka-cb-14-5-procent-aprel-2026-dolzhniki",
       "published_at": "2026-05-09T09:40:58",
       "articles_path": "articles/news/stavka-cb-14-5-procent-aprel-2026-dolzhniki.html"
+    },
+    "bankrotstvo-pri-ipoteke-edinstvennoe-zhilye": {
+      "category": "fiz",
+      "title": "Банкротство с ипотекой: заберут ли единственное жильё",
+      "status": "published",
+      "current_version": "2.2",
+      "versions": [
+        "2.0",
+        "2.1",
+        "2.2"
+      ],
+      "tg_message_id": 236,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-05-09T20:31:36",
+      "last_action_at": "2026-05-09T21:05:12",
+      "edits_history": [
+        {
+          "version": "2.1",
+          "edit_text": "поменяя кнопку действия с «Оставить заявку на сохранение ипотечной квартиры при банкротстве» на «Оставить заявку на сохранение квартиры», чтобы это влезло в одну строку.",
+          "applied_at": "2026-05-09T20:55:43"
+        },
+        {
+          "version": "2.2",
+          "edit_text": "значит смотри коротко да могут забрать тире тире но есть два выхода вот эти тире тире замени одним тире та же самая ошибка у тебя в способ 1 договориться залоговым кредитором и тут снова две тире поставь одну тире во втором способе у тебя тоже две тире поэтому поставь только одну тире",
+          "applied_at": "2026-05-09T21:04:26"
+        }
+      ],
+      "rejection_reason": null,
+      "published_url": "https://pravo.shop/articles/fiz/bankrotstvo-pri-ipoteke-edinstvennoe-zhilye",
+      "published_at": "2026-05-09T21:05:12",
+      "articles_path": "articles/fiz/bankrotstvo-pri-ipoteke-edinstvennoe-zhilye.html"
     }
   }
 }
