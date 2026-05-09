@@ -106,6 +106,40 @@
       "published_url": "https://pravo.shop/articles/vzysk/snyatie-aresta-so-scheta-pristavami",
       "published_at": "2026-05-08T21:29:40",
       "articles_path": "articles/vzysk/snyatie-aresta-so-scheta-pristavami.html"
+    },
+    "obzor-vs-rf-5-2026-bankrotstvo-glavnoe": {
+      "category": "news",
+      "title": "Обзор ВС РФ №5/2026 по банкротству: главное для должника",
+      "status": "published",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 226,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-05-09T09:23:45",
+      "last_action_at": "2026-05-09T09:34:22",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": "https://pravo.shop/articles/news/obzor-vs-rf-5-2026-bankrotstvo-glavnoe",
+      "published_at": "2026-05-09T09:34:22",
+      "articles_path": "articles/news/obzor-vs-rf-5-2026-bankrotstvo-glavnoe.html"
+    },
+    "stavka-cb-14-5-procent-aprel-2026-dolzhniki": {
+      "category": "news",
+      "title": "Ключевая ставка ЦБ 14,5%: что изменится для должников",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 228,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-05-09T09:23:45",
+      "last_action_at": "2026-05-09T09:23:45",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null
     }
   }
 }

@@ -1,6 +1,19 @@
 {
-  "generated": "2026-05-08",
+  "generated": "2026-05-09",
   "articles": [
+    {
+      "slug": "obzor-vs-rf-5-2026-bankrotstvo-glavnoe",
+      "cat": "news",
+      "catLabel": "Новости",
+      "title": "Обзор ВС РФ №5/2026 по банкротству: главное для должника",
+      "desc": "Президиум ВС утвердил обзор практики по банкротству 29 апреля 2026. Разбираем 26 позиций: единственное жильё, оспаривание сделок, конкурсная масса.",
+      "date": "9 мая 2026",
+      "dateIso": "2026-05-09",
+      "read": "4 мин.",
+      "tone": "b",
+      "img": "https://res.cloudinary.com/dmsaaiwkm/image/upload/c_fill,ar_191:100,g_center,f_auto,q_auto,w_1920/v1778313043/articles/obzor-vs-rf-5-2026-bankrotstvo-glavnoe-cover.jpg",
+      "url": "articles/news/obzor-vs-rf-5-2026-bankrotstvo-glavnoe"
+    },
     {
       "slug": "snyatie-aresta-so-scheta-pristavami",
       "cat": "vzysk",
