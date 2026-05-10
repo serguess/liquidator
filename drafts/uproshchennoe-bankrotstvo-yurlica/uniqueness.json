@@ -1,0 +1,78 @@
+{
+  "slug": "uproshchennoe-bankrotstvo-yurlica",
+  "passed": true,
+  "scores": {
+    "structure_overlap": 0.0,
+    "thesis_similarity": 0.18,
+    "cta_overlap": 0.05
+  },
+  "thresholds": {
+    "structure_overlap": 0.40,
+    "thesis_similarity": 0.30,
+    "cta_overlap": 0.20
+  },
+  "similar_articles": [
+    {
+      "slug": "bankrotstvo-ooo-poshagovo-2026",
+      "category": "yur",
+      "article_type": "B",
+      "similarity": 0.15,
+      "overlap_type": "general_bankruptcy_theory"
+    },
+    {
+      "slug": "kak-zakryt-ooo-s-dolgami",
+      "category": "yur",
+      "article_type": "B",
+      "similarity": 0.18,
+      "overlap_type": "business_closure_methods"
+    }
+  ],
+  "conflicts": [],
+  "structure_analysis": {
+    "new_h2_count": 7,
+    "new_h2_sequence": [
+      "Два вида и одно отличие от стандарта",
+      "Ликвидируемый должник: когда применяется §1",
+      "Банкротство отсутствующего должника: когда фирма «пропала»",
+      "Стоимость: три статьи расходов",
+      "Что грозит директору и учредителям",
+      "Частые вопросы об упрощённом банкротстве юридического лица",
+      "Когда откладывать уже не стоит"
+    ],
+    "exact_h2_matches": 0,
+    "exact_h2_matches_with_peers": 0,
+    "word_level_overlap_max": 0.102
+  },
+  "thesis_analysis": {
+    "blocks_analyzed": 8,
+    "thesis_per_block": "1-6",
+    "semantic_distance": {
+      "vs_bankrotstvo-ooo-poshagovo-2026": {
+        "focus_difference": "General bankruptcy (5 procedures) vs Simplified bankruptcy (2 types)",
+        "content_overlap": 0.15,
+        "thematic_similarity": "Low - different scope and structure"
+      },
+      "vs_kak-zakryt-ooo-s-dolgami": {
+        "focus_difference": "General business closure (5 methods) vs Simplified bankruptcy (2 types)",
+        "content_overlap": 0.18,
+        "thematic_similarity": "Low - different scope and structure"
+      }
+    }
+  },
+  "cta_analysis": {
+    "new_cta_primary": "Оставить заявку на оценку стоимости упрощённого банкротства",
+    "new_cta_inline": "Оставить заявку на оценку стоимости упрощённого банкротства",
+    "new_cta_final": "Оставить заявку на оценку стоимости упрощённого банкротства",
+    "offer": "raschet-stoimosti",
+    "cta_uniqueness_score": 0.95,
+    "note": "CTA is specific to simplified bankruptcy cost estimation, differs from general bankruptcy/closure CTAs"
+  },
+  "recommendation": "ok",
+  "pass_details": {
+    "structure_pass_reason": "No exact H2 matches with existing articles; unique structural flow focused on two subtypes (§1 and §2)",
+    "thesis_pass_reason": "Maximum semantic similarity 18% vs peers; article focuses narrowly on simplified procedures vs general bankruptcy/closure methods",
+    "cta_pass_reason": "CTA is specific to simplified bankruptcy cost estimation; minimal overlap with general bankruptcy CTAs in category"
+  },
+  "published": false,
+  "note": "Эмбеддинг записан в data/embeddings.sqlite с флагом published=0. Флаг переключится на 1 при публикации через bot/publisher.py"
+}

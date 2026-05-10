@@ -1,0 +1,102 @@
+{
+  "slug": "uproshchennoe-bankrotstvo-yurlica",
+  "category": "yur",
+  "title": "Упрощённое банкротство юрлица: условия и порядок",
+  "description": "Когда компания может пройти банкротство по упрощённой процедуре - без наблюдения и финансового оздоровления. Ликвидируемый и отсутствующий должник: отличия, сроки, риски.",
+  "h1": "Упрощённое банкротство юридического лица: кому подходит и как работает",
+  "lead": "Два сценария упрощённого банкротства по главе XI 127-ФЗ - для ликвидируемого и отсутствующего должника: условия, сроки и ответственность.",
+  "topic_action": "оценку стоимости упрощённого банкротства",
+  "breadcrumb_current": "Упрощённое банкротство юрлица",
+  "og_image": "/assets/articles/uproshchennoe-bankrotstvo-yurlica.jpg",
+  "main_keyword": "упрощённое банкротство юридического лица",
+  "secondary_keywords": [
+    "банкротство ликвидируемого должника",
+    "банкротство отсутствующего должника",
+    "упрощённая процедура банкротства юрлица",
+    "статья 224 закона о банкротстве",
+    "банкротство ООО без наблюдения",
+    "условия упрощённого банкротства",
+    "как ускорить банкротство компании",
+    "упрощённая ликвидация ООО через банкротство"
+  ],
+  "internal_links": [
+    "/articles/yur/bankrotstvo-ooo-poshagovo-2026.html",
+    "/articles/yur/kak-zakryt-ooo-s-dolgami.html"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/a2882e3de9e93ba6e7d9f6341b642a4ff070c79f/",
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/e22df31172f119235e4176258e261f8dd7c9d591/"
+  ],
+  "faq": [
+    {
+      "question": "Можно ли применить §1 без предварительного решения о ликвидации?",
+      "answer": "Нет. §1 главы XI требует, чтобы решение о ликвидации уже было принято до обращения в суд (ст. 224 п. 1 127-ФЗ). §2 предварительного решения не требует - там иные критерии: фактическое прекращение деятельности и недоступность руководства."
+    },
+    {
+      "question": "Что будет, если ликвидационная комиссия задержит подачу заявления?",
+      "answer": "Члены комиссии, учредители и руководитель несут субсидиарную ответственность по всем непогашенным требованиям кредиторов (ст. 226 п. 1 127-ФЗ). ФНС вправе отказать во внесении записи о ликвидации в ЕГРЮЛ. Промедление - нарушение с прямыми финансовыми последствиями."
+    },
+    {
+      "question": "Сколько реально занимает упрощённое банкротство?",
+      "answer": "Конкурсное производство вводится на 6 месяцев (ст. 124 127-ФЗ). По §2 суд выносит решение о признании банкротом в течение 1 месяца с принятия заявления - но это не срок завершения всей процедуры. При отсутствии активов практика показывает 2-4 месяца фактического хода дела."
+    },
+    {
+      "question": "Можно ли сохранить компанию при упрощённом банкротстве?",
+      "answer": "Нет. Оба вида ведут к ликвидации юридического лица. Финансовое оздоровление и внешнее управление здесь не применяются. Если есть перспектива восстановить платёжеспособность - нужна стандартная процедура банкротства."
+    },
+    {
+      "question": "Чем банкротство отсутствующего должника отличается от административного исключения из ЕГРЮЛ?",
+      "answer": "Административное исключение (ст. 21.1 закона о госрегистрации) происходит без торгов, без управляющего и без выплат кредиторам. Банкротство по §2 - судебная процедура с реестром требований, где кредиторы могут заявить свои притязания, а управляющий вправе привлечь контролирующих лиц к ответственности."
+    },
+    {
+      "question": "Вправе ли кредитор сам инициировать упрощённую процедуру без согласия учредителей?",
+      "answer": "При §2 - да. Любой кредитор может обратиться в суд независимо от суммы долга (ст. 227 п. 1 127-ФЗ). При §1 кредитор также вправе подать заявление, если ликвидационная комиссия уклонилась от своей обязанности."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все цифры проверены по research.json: last_verified 2026-05-10, legislation_status active",
+    "Госпошлина 100 000 руб. - f12, ФЗ-259 от 08.08.2024, действует с 08.09.2024",
+    "Вознаграждение управляющего 30 000 руб./мес - f11, ст. 20.6 п. 3 127-ФЗ",
+    "Срок КП 6 мес + 6 мес продление - f13, ст. 124 п. 1-2 127-ФЗ",
+    "ЕФРСБ 969,48 руб. - f14, тариф с 01.04.2024",
+    "Пленум ВС № 42 от 23.12.2025 - f16 amendment_note",
+    "Переходы между процедурами - f9, ст. 228 п. 3-4",
+    "Пример «400 тысяч рублей» заменил «300 тысяч» из черновика - нейтральная иллюстрация долга ниже порога 2 млн, не противоречит research",
+    "Внешние ссылки: КонсультантПлюс на ст. 224-225 и ст. 227 из research.key_sources"
+  ],
+  "keyword_density_main": 0.021,
+  "main_keyword_exact_count": 3,
+  "text_chars": 7736,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.1,
+  "local_spam_ngram3_repeat": 0.022,
+  "local_lexical_diversity": 0.641,
+  "local_ai_markers_density": 0.21,
+  "local_ai_markers_critical": 0,
+  "length_status": "warn",
+  "length_kind": "default",
+  "local_ai_markers_total": 2,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 0,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 7,
+  "predicted_spam_pct": 50,
+  "predicted_ai_pct": 5,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/c_fill,ar_191:100,g_center,f_auto,q_auto,w_1920/v1778399024/articles/uproshchennoe-bankrotstvo-yurlica-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1778399024/articles/uproshchennoe-bankrotstvo-yurlica-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Wide editorial photograph of a private executive office — high ceilings, tall windows with heavy drapes, walnut bookshelves lining the walls, an oxblood leather chesterfield in the corner, a large mahogany desk in the foreground holding a closed dark leather portfolio, a polished round brass corporate seal resting on a stack of three closed dossiers tied with cord, an antique pocket watch on a chain laid open beside a fountain pen on a brass stand, and a closed laptop with a brushed-aluminum lid. Background through tall windows: blurred city skyline under cool overcast light with faint fog diffusing the distant towers. Camera: three-quarter angle, slight low-angle to emphasize ceiling height and the weight of the space. Lighting: cool diffused window light from the left blended with a warm tungsten desk lamp glow. Palette: walnut, oxblood leather, polished brass on neutral cream. Mood: senior business owner at the threshold of a consequential corporate decision.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-05-10T07:43:45Z",
+  "date_published": "2026-05-10",
+  "date_modified": "2026-05-10",
+  "ready_for_review": true,
+  "ready_at": "2026-05-10T07:43:45Z",
+  "publication_target": "telegram_review"
+}

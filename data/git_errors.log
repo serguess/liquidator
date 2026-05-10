@@ -147,3 +147,8 @@ fatal: pathspec 'data/scheduler_log.json' did not match any files
 fatal: pathspec 'data/scheduler_log.json' did not match any files
 ====
 
+[2026-05-10T07:44:07] slot=uproshchennoe-bankrotstvo-yurlica category=yur action=git_add (data/scheduler_log.json) returncode=128
+--- stderr ---
+fatal: pathspec 'data/scheduler_log.json' did not match any files
+====
+
