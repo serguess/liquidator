@@ -531,6 +531,26 @@ def publish(slug: str, version: Optional[str] = None) -> PublishResult:
         # 3. Записать в articles/{category}/{slug}.html
         target_path.write_text(html, encoding="utf-8")
 
+        # 3.5. Идемпотентный фикс CTA-кнопок на ВСЕХ опубликованных статьях.
+        # Контекст (10 мая 2026): после фикса CTA в inject_boilerplate (commit
+        # c883944) три статьи остались со старыми кнопками <a href="#contacts">,
+        # потому что были опубликованы до того как scheduler подтянул новый
+        # шаблон. Чтобы такие race-condition'ы не накапливались, при каждой
+        # публикации прогоняем fix_cta_links по всему articles/. Скрипт
+        # идемпотентный — уже починенные файлы пропускает за миллисекунды.
+        try:
+            from tools.fix_cta_links import fix_file as _fix_cta_one
+            cta_fixed_count = 0
+            for art_html in PROJECT_ROOT.glob("articles/**/*.html"):
+                rep = _fix_cta_one(art_html, dry_run=False)
+                if rep["changed"]:
+                    cta_fixed_count += rep["replacements"]
+            if cta_fixed_count > 0:
+                log.info("fix_cta_links: исправлено %d кнопок в старых статьях",
+                         cta_fixed_count)
+        except Exception:
+            log.exception("fix_cta_links упал (не критично, продолжаем публикацию)")
+
         # 4. articles.json
         _update_articles_json(
             slug=slug, category=category, title=title, description=description,
