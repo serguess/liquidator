@@ -22,7 +22,9 @@ SyslogIdentifier=liquidator-scheduler
 NoNewPrivileges=true
 ProtectSystem=full
 ProtectHome=read-only
-ReadWritePaths=/home/appuser/apps/liquidator /home/appuser/.git-credentials /home/appuser/.claude
+# Claude CLI пишет session state в /home/appuser/.claude.json (файл в HOME).
+# Без него /write-article падает с EROFS read-only file system.
+ReadWritePaths=/home/appuser/apps/liquidator /home/appuser/.git-credentials /home/appuser/.claude /home/appuser/.claude.json
 PrivateTmp=true
 
 # Claude CLI + контекст агентов up to 1.5-1.8 ГБ. Запас.

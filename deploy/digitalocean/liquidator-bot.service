@@ -24,7 +24,11 @@ SyslogIdentifier=liquidator-bot
 NoNewPrivileges=true
 ProtectSystem=full
 ProtectHome=read-only
-ReadWritePaths=/home/appuser/apps/liquidator /home/appuser/.git-credentials /home/appuser/.claude
+# Claude CLI пишет session state в /home/appuser/.claude.json (файл в HOME,
+# не в директории .claude/). Без явного ReadWritePaths падает с EROFS при
+# /write-article. Краткий `claude --print "..."` не пишет туда — баг
+# проявляется только при slash-командах с агентами.
+ReadWritePaths=/home/appuser/apps/liquidator /home/appuser/.git-credentials /home/appuser/.claude /home/appuser/.claude.json
 PrivateTmp=true
 
 # Бот в покое 80-150 МБ, при apply_edit (claude subprocess) до 1 ГБ.
