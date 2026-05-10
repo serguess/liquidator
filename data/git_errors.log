@@ -172,3 +172,8 @@ fatal: pathspec 'data/scheduler_log.json' did not match any files
 fatal: pathspec 'data/scheduler_log.json' did not match any files
 ====
 
+[2026-05-10T15:07:27] slot=kollektory-prava-i-zashchita category=vzysk action=git_add (data/scheduler_log.json) returncode=128
+--- stderr ---
+fatal: pathspec 'data/scheduler_log.json' did not match any files
+====
+

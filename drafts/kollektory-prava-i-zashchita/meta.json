@@ -1,0 +1,99 @@
+{
+  "slug": "kollektory-prava-i-zashchita",
+  "category": "vzysk",
+  "title": "Права коллекторов по 230-ФЗ: что можно и нельзя",
+  "description": "Коллекторы звонят, угрожают или приходят домой? Разбираем по 230-ФЗ: лимиты звонков, запреты, право на отказ от общения и как подать жалобу в ФССП.",
+  "h1": "Что коллекторы могут и не могут: права должника по 230-ФЗ",
+  "lead": "Разбираем, что закон разрешает коллекторам, а что прямо запрещает - и как зафиксировать нарушение, чтобы остановить давление.",
+  "topic_action": "консультацию по защите от коллекторов",
+  "breadcrumb_current": "Права коллекторов и защита должника",
+  "og_image": "/assets/articles/kollektory-prava-i-zashchita.jpg",
+  "main_keyword": "права коллекторов по закону 230-ФЗ",
+  "secondary_keywords": [
+    "что могут делать коллекторы должнику",
+    "как защититься от коллекторов",
+    "отказ от взаимодействия с коллекторами",
+    "жалоба на коллекторов в ФССП",
+    "коллекторы звонят что делать",
+    "230-ФЗ о коллекторской деятельности",
+    "что запрещено коллекторам",
+    "сколько раз коллекторы могут звонить"
+  ],
+  "internal_links": [
+    "/articles/vzysk/kak-otmenit-sudebnyj-prikaz.html",
+    "/articles/vzysk/snyatie-aresta-so-scheta-pristavami.html"
+  ],
+  "external_links": [
+    "https://base.garant.ru/71433918/",
+    "https://www.consultant.ru/document/cons_doc_LAW_34661/dc08ef1d6c51e501c571c436e082d4e0a975e781/",
+    "https://fssp.gov.ru"
+  ],
+  "faq": [
+    {
+      "question": "Коллектор звонит каждый день - это законно?",
+      "answer": "По ст. 7 230-ФЗ звонки допускаются не более 1 раза в сутки и 2 раз в неделю. Если один звонок в сутки, но их больше двух за неделю - это уже нарушение. Детализация от оператора связи покажет точные дату, время и номер каждого вызова."
+    },
+    {
+      "question": "Что делать, если коллектор угрожает расправой или рассказывает о долге соседям?",
+      "answer": "Оба действия прямо запрещены ст. 6 230-ФЗ. Фиксируйте: запись угрозы, скриншот переписки, свидетельские показания. Разглашение сведений о долге третьим лицам нарушает и ФЗ-152 о персональных данных. С доказательствами подавайте жалобу в ФССП через fssp.gov.ru или Госуслуги."
+    },
+    {
+      "question": "Могу ли я запретить коллекторам звонить совсем?",
+      "answer": "Да, по ст. 8 230-ФЗ - но не ранее чем через 4 месяца после первой просрочки. С 1 сентября 2025 года заявление подаётся через Госуслуги без нотариуса. После получения документа организация обязана прекратить контакты в течение 3 рабочих дней. Сама задолженность при этом не исчезает - кредитор вправе обратиться в суд."
+    },
+    {
+      "question": "Банк продал мой долг без моего согласия. Это законно?",
+      "answer": "Законно по ст. 382 ГК РФ: кредитор вправе уступить право требования без согласия должника. При переходе права вас обязаны уведомить. Если уведомления не было - нарушена процедура уступки. Обязательно проверьте купившую сторону в реестре ФССП на fssp.gov.ru."
+    },
+    {
+      "question": "Коллектор позвонил со скрытого номера - это нарушение?",
+      "answer": "С 1 сентября 2025 года - да. По поправкам к 230-ФЗ (законопроект 366704-8) организации обязаны использовать только номера, зарегистрированные на компанию. Звонок со скрытого или чужого номера является нарушением ещё до начала разговора."
+    },
+    {
+      "question": "Как подать жалобу в ФССП и что для этого нужно?",
+      "answer": "Жалобу подают через fssp.gov.ru, портал Госуслуги или лично в территориальное управление. Понадобятся детализация звонков от оператора, скриншоты сообщений с датой и временем, запись разговора. Чем конкретнее задокументирован факт нарушения, тем выше шанс, что ФССП вынесет предписание."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все юридические утверждения сверены с research.json. last_verified: 2026-05-10 для всех фактов. legislation_status: active. Контекст применения норм корректен.",
+    "Штрафы по ч. 1 (50 000-500 000 руб.) и ч. 6 (200 000-2 000 000 руб.) ст. 14.57 КоАП приведены раздельно во избежание смешения.",
+    "Обязательный 4-месячный срок для заявления об отказе выделен явно.",
+    "Законность уступки долга по ст. 382 ГК РФ указана без запрещённых утверждений об обратном.",
+    "Жалоба в ФССП подана без гарантий результата - в соответствии с required_disclaimers."
+  ],
+  "keyword_density_main": 0.018,
+  "main_keyword_exact_count": 2,
+  "text_chars": 7776,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.077,
+  "local_spam_ngram3_repeat": 0.019,
+  "local_lexical_diversity": 0.655,
+  "local_ai_markers_density": 0.42,
+  "local_ai_markers_critical": 0,
+  "length_status": "warn",
+  "length_kind": "default",
+  "local_ai_markers_total": 4,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 0,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 11,
+  "predicted_spam_pct": 47,
+  "predicted_ai_pct": 5,
+  "predicted_uniqueness_pct": 90,
+  "customer_risks": [],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/c_fill,ar_191:100,g_center,f_auto,q_auto,w_1920/v1778425629/articles/kollektory-prava-i-zashchita-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1778425629/articles/kollektory-prava-i-zashchita-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Studio close-up of three tightly grouped objects against a clean dark graphite seamless background — an antique brass padlock with a heavy chain coiled around it, occupying the dominant center of frame; flanking it on the left a small brass scales of justice with empty pans perfectly balanced; and on the right a compact bunch of three brass keys on a ring resting flat. Soft directional studio light from upper left, crisp specular highlights tracing the engraved brass surface of the padlock, a gentle shadow gradient deepening toward the lower right. Hyperrealistic surface detail: oxidized patina in the chain links, polished weight pans of the scales, worn key teeth. Palette: deep charcoal void, warm brass tones, subtle warm rim-light from behind. Mood: measured legal constraint, rights enforced, pressure contained.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-05-10T15:07:10Z",
+  "date_published": "2026-05-10",
+  "date_modified": "2026-05-10",
+  "ready_for_review": true,
+  "ready_at": "2026-05-10T15:07:10Z",
+  "publication_target": "telegram_review"
+}
