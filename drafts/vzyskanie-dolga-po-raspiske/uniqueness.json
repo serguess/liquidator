@@ -1,0 +1,20 @@
+{
+  "slug": "vzyskanie-dolga-po-raspiske",
+  "passed": true,
+  "scores": {
+    "structure_overlap": 0.0,
+    "thesis_similarity": 0.018,
+    "cta_overlap": 0.0
+  },
+  "thresholds": {
+    "structure_overlap": 0.4,
+    "thesis_similarity": 0.3,
+    "cta_overlap": 0.2
+  },
+  "similar_articles": [],
+  "closest_peer": "snyatie-aresta-so-scheta-pristavami",
+  "closest_peer_category": "vzysk",
+  "peers_compared": 2,
+  "conflicts": [],
+  "recommendation": "ok"
+}

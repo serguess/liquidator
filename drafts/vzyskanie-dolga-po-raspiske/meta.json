@@ -1,0 +1,98 @@
+{
+  "slug": "vzyskanie-dolga-po-raspiske",
+  "category": "vzysk",
+  "title": "Взыскание долга по расписке через суд",
+  "description": "Пошаговый порядок взыскания долга по расписке: судебный приказ или иск, подсудность, госпошлина, срок давности. Что делать, если должник не платит.",
+  "h1": "Взыскание долга по расписке: как вернуть деньги через суд",
+  "lead": "Рассказываем, как выбрать между судебным приказом и иском, сколько стоит госпошлина и что происходит после решения суда.",
+  "topic_action": "взыскание долга по расписке",
+  "breadcrumb_current": "Взыскание долга по расписке",
+  "og_image": "/assets/articles/vzyskanie-dolga-po-raspiske.jpg",
+  "main_keyword": "взыскание долга по расписке",
+  "secondary_keywords": [
+    "как вернуть долг по расписке через суд",
+    "исковое заявление о взыскании долга по расписке",
+    "судебный приказ по расписке",
+    "срок исковой давности по расписке",
+    "взыскание долга по расписке с физического лица",
+    "госпошлина взыскание долга по расписке",
+    "мировой суд расписка порядок взыскания"
+  ],
+  "internal_links": [
+    "/articles/vzysk/kak-otmenit-sudebnyj-prikaz.html",
+    "/articles/vzysk/snyatie-aresta-so-scheta-pristavami.html"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_9027/fa5f5f970fda7176d9f2a2ead822aaac53cc7eda/",
+    "https://www.consultant.ru/document/cons_doc_LAW_39570/",
+    "https://www.consultant.ru/document/cons_doc_LAW_71450/"
+  ],
+  "faq": [
+    {
+      "question": "Что делать, если должник подал возражения и судебный приказ отменили?",
+      "answer": "По ст. 129 ГПК РФ судья отменяет постановление при любых возражениях. Займодавец обращается в мировой суд (до 50 000) или районный с исковым заявлением. Ранее уплаченная пошлина засчитывается."
+    },
+    {
+      "question": "Можно ли взыскать проценты, если в расписке они не указаны?",
+      "answer": "Займ на сумму менее ста тысяч рублей между гражданами считается беспроцентным (п. 4 ст. 809 ГК РФ). При просрочке займодавец вправе требовать начислений по ключевой ставке ЦБ РФ за каждый день просрочки (ст. 395 ГК РФ) - независимо от условий расписки."
+    },
+    {
+      "question": "Сколько стоит госпошлина при взыскании по расписке?",
+      "answer": "С 9 сентября 2024 года (ст. 333.19 НК РФ): при сумме до 100 000 рублей иск обходится в 4 000 рублей, заявление на судебный приказ - в 2 000 рублей. Пошлина за приказ всегда вдвое меньше."
+    },
+    {
+      "question": "Что будет, если срок исковой давности по расписке уже прошёл?",
+      "answer": "Суд не откажет автоматически. Трёхлетний период применяется только по заявлению ответчика. Если он заявит - это основание для отказа. При уважительных причинах пропуска можно ходатайствовать о восстановлении."
+    },
+    {
+      "question": "Расписка без паспортных данных - суд примет её?",
+      "answer": "Да. Суды не признают договор займа незаключённым только из-за отсутствия паспортных данных. Оцениваются все доказательства: переписка, выписки, свидетели."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все юридические факты сверены с research.json. Все last_verified не старше 6 месяцев (2026-05-07 - 2026-05-10), legislation_status: active.",
+    "Госпошлина: расчёт 7 000 руб. при долге 200 000 руб. проверен (4 000 + 3% x 100 000 = 7 000) - корректно.",
+    "Контекст применения ст. 809 п. 4 (беспроцентность до 100 000 руб.) и ст. 395 (проценты при просрочке) проверен - нормы привязаны к правильным ситуациям.",
+    "Порог подсудности: приказ до 500 000 руб. (мировой судья), иск до 50 000 руб. (мировой), иск свыше 50 000 руб. (районный) - проверено и не перепутано.",
+    "Три ситуации с жирными заголовками + двоеточие преобразованы в нумерованный список."
+  ],
+  "keyword_density_main": 0.018,
+  "main_keyword_exact_count": 4,
+  "text_chars": 7556,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.11,
+  "local_spam_ngram3_repeat": 0.046,
+  "local_lexical_diversity": 0.594,
+  "local_ai_markers_density": 0.21,
+  "local_ai_markers_critical": 0,
+  "length_status": "warn",
+  "length_kind": "default",
+  "local_ai_markers_total": 2,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 3,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": false,
+  "quality_gate_blockers": [
+    "spam_risk: 3 флагов (top10_share>0.105 (=0.11), ngram3_repeat_share>0.03 (=0.046), lexical_diversity<0.62 (=0.594)), top-5: ['заёмщик', 'расписк', 'рубл', 'приказ', 'долг']"
+  ],
+  "quality_gate_retry_count": 8,
+  "predicted_spam_pct": 60,
+  "predicted_ai_pct": 5,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность заметно выше 50% (~60%)"
+  ],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/c_fill,ar_191:100,g_center,f_auto,q_auto,w_1920/v1778413991/articles/vzyskanie-dolga-po-raspiske-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1778413991/articles/vzyskanie-dolga-po-raspiske-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Editorial composition centering on time and legal process. Hero objects arranged on a dark weathered stone slab: a sand-filled brass hourglass mid-flow positioned slightly left of center, a stack of four closed dossiers tied with dark cord beside it, a pair of brass scales of justice with empty balanced pans behind the hourglass, a folded sealed envelope representing a handwritten debt note resting against the dossiers, a fountain pen aligned diagonally across the foreground, and a polished round brass seal to the right. Background: completely dark void with subtle warm rim-light catching the brass surfaces. Camera: three-quarter angle, tabletop level, shallow depth of field pulling focus to the hourglass and scales. Lighting: focused directional spot from upper left creating deep dramatic shadow, warm gold rim-light on brass. Palette: deep charcoal, burnished brass, oxblood leather cord accents. Mood: passage of time, debt accountability, due process in motion.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-05-10T11:53:12Z",
+  "date_published": "2026-05-10",
+  "date_modified": "2026-05-10",
+  "ready_for_review": true,
+  "ready_at": "2026-05-10T11:53:12Z",
+  "publication_target": "telegram_review"
+}
