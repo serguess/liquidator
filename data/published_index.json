@@ -1,19 +1,44 @@
 {
-  "generated_at": "2026-05-10T02:10:28",
-  "total": 11,
+  "generated_at": "2026-05-10T05:51:23",
+  "total": 12,
   "by_source": {
-    "published": 10,
+    "published": 11,
     "draft_approved": 0,
     "draft_pending": 1,
     "draft_local": 0
   },
   "by_category": {
-    "fiz": 4,
     "vzysk": 2,
     "yur": 2,
-    "news": 3
+    "news": 3,
+    "fiz": 5
   },
   "articles": [
+    {
+      "slug": "bankrotstvo-pensionera",
+      "category": "fiz",
+      "source": "published",
+      "url": "/articles/fiz/bankrotstvo-pensionera.html",
+      "title": "",
+      "h1": "",
+      "main_keyword": "",
+      "secondary_keywords": [],
+      "intent": "",
+      "writer_route": "",
+      "h2_topics": [
+        "МФЦ или арбитражный суд: какой путь подходит пенсионеру",
+        "Три условия для внесудебного списания через МФЦ",
+        "Судебное списание: когда без арбитража не обойтись",
+        "Пенсия и единственное жильё: что защищено законом",
+        "Что не спишут при банкротстве пенсионера - и какие ограничения останутся",
+        "Частые вопросы о списании долгов пенсионера",
+        "Читайте также",
+        "ЗАПОЛНИТЬ ФОРМУ"
+      ],
+      "char_count": 9807,
+      "published_at": null,
+      "tags": []
+    },
     {
       "slug": "bankrotstvo-pri-ipoteke-edinstvennoe-zhilye",
       "category": "fiz",
