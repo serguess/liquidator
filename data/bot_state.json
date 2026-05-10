@@ -328,6 +328,22 @@
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null
+    },
+    "sudebnaya-praktika-edinstvennoe-zhilye-2026": {
+      "category": "news",
+      "title": "Единственное жильё в банкротстве: судебная практика",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-05-11T00:06:54",
+      "last_action_at": "2026-05-11T00:06:54",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null
     }
   }
 }
