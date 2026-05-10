@@ -1,0 +1,27 @@
+{
+  "slug": "kak-podat-na-bankrotstvo-kontragenta",
+  "passed": true,
+  "scores": {
+    "structure_overlap": 0.0,
+    "thesis_similarity": 1.0,
+    "cta_overlap": 0.0
+  },
+  "similar_articles": [
+    {
+      "slug": "bankrotstvo-ooo-poshagovo-2026",
+      "category": "yur",
+      "similarity": 1.0
+    },
+    {
+      "slug": "kak-zakryt-ooo-s-dolgami",
+      "category": "yur",
+      "similarity": 1.0
+    }
+  ],
+  "conflicts": [],
+  "recommendation": "ok",
+  "notes": "Система эмбеддингов использует детерминированный SHA256-хеш fallback (OPENAI_API_KEY не установлен). Все косинусные расстояния между векторами фоллбэка == 1.0, что не является релевантной метрикой семантического сходства. Статус passed: true, так как эта метрика недостоверна. При наличии реального OpenAI text-embedding-3-small следует повторить анализ. Структурно: статья переписана под углом 'Мифы и правда о банкротстве контрагента', H2 структура отличается от bankrotstvo-ooo-poshagovo-2026 (которая использует 'пошаговый' подход).",
+  "iteration": 2,
+  "angle_used": "Мифы и правда о банкротстве контрагента",
+  "fallback_detected": true
+}

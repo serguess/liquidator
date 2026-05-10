@@ -1,0 +1,146 @@
+{
+  "file": "/app/drafts/kak-podat-na-bankrotstvo-kontragenta/article.html",
+  "passed": true,
+  "hard_failed": false,
+  "blockers": [],
+  "warnings": [
+    "Автофикс применил правки: сокращения=1, пунктуация=0"
+  ],
+  "autofix": {
+    "file": "/app/drafts/kak-podat-na-bankrotstvo-kontragenta/article.html",
+    "abbreviation_fixes": {
+      "\\bюрлиц(а|у|ом|ами|ам|ах|ы|е|о)?\\b": 1
+    },
+    "punctuation_fixes": 0,
+    "em_dash_fixes": 0,
+    "eng_quotes_fixes": 0,
+    "changed": true,
+    "bytes_before": 40514,
+    "bytes_after": 40535
+  },
+  "quality_checks": {
+    "file": "drafts/kak-podat-na-bankrotstvo-kontragenta/article.html",
+    "text_chars": 7611,
+    "length_status": "warn",
+    "length_kind": "default",
+    "passed": true,
+    "abbreviation_hits": [],
+    "punctuation_hits": [],
+    "spam": {
+      "total_words": 624,
+      "unique_lemmas": 396,
+      "lexical_diversity": 0.635,
+      "top10_words": [
+        [
+          "месяц",
+          8
+        ],
+        [
+          "взыскател",
+          7
+        ],
+        [
+          "года",
+          7
+        ],
+        [
+          "публикац",
+          7
+        ],
+        [
+          "расход",
+          7
+        ],
+        [
+          "управляющег",
+          7
+        ],
+        [
+          "актив",
+          6
+        ],
+        [
+          "сумм",
+          6
+        ],
+        [
+          "процедур",
+          5
+        ],
+        [
+          "взыскан",
+          5
+        ]
+      ],
+      "top10_share": 0.104,
+      "ngram3_repeat_count": 17,
+      "ngram3_total": 622,
+      "ngram3_repeat_share": 0.027,
+      "risk_flags": []
+    }
+  },
+  "ai_markers": {
+    "file": "drafts/kak-podat-na-bankrotstvo-kontragenta/article.html",
+    "text_chars": 9397,
+    "hits_total": 2,
+    "density_per_1000": 0.21,
+    "by_severity": {
+      "critical": 0,
+      "high": 0,
+      "medium": 0,
+      "low": 2
+    },
+    "own_voice_hits": 3,
+    "first_person_singular_hits": 0,
+    "hits": [
+      {
+        "name": "ИИ-лексика: «взаимодействие/тонкости/нюансы (абстрактно)»",
+        "category": "ai-lexis",
+        "severity": "low",
+        "match": "Взаимодействие",
+        "position": 9204,
+        "context": "...ение law@pravo.shop Коммерческие предложения biz@pravo.shop Взаимодействие со СМИ pr@pravo.shop © 2018-2026 ООО «ЛИКВИДАТОР». Все прав..."
+      },
+      {
+        "name": "Канцелярит: «в рамках» (без нужды)",
+        "category": "clerical",
+        "severity": "low",
+        "match": "в рамках",
+        "position": 8816,
+        "context": "...ровождение на всех этапах. Надёжность и законность Работаем в рамках ФЗ и действующего законодательства РФ. РЕКВИЗИТЫ ООО «ЛИКВИ..."
+      }
+    ]
+  },
+  "anti_template": {
+    "file": "drafts/kak-podat-na-bankrotstvo-kontragenta/article.html",
+    "text_chars": 7899,
+    "phrases_loaded": 138,
+    "passed": true,
+    "hits": []
+  },
+  "law_quotes": {
+    "total_chars": 0,
+    "limit": 600,
+    "samples": []
+  },
+  "rhythm": {
+    "file": "drafts/kak-podat-na-bankrotstvo-kontragenta/article.html",
+    "text_chars": 7899,
+    "sentences_total": 105,
+    "avg_sentence_len": 6.43,
+    "short_sentences_count": 47,
+    "short_sentences_share": 0.448,
+    "long_sentences_count": 0,
+    "parasite_count": 1,
+    "parasite_per_1000": 0.13,
+    "flags": []
+  },
+  "recommendations": [],
+  "retry_count": 3,
+  "predicted_metrics": {
+    "spam_pct": 50,
+    "ai_pct": 5,
+    "uniqueness_pct": 87
+  },
+  "customer_risks": []
+}

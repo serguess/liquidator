@@ -1,0 +1,39 @@
+{
+  "slug": "kak-podat-na-bankrotstvo-kontragenta",
+  "category": null,
+  "started_at": "2026-05-10T09:08:10",
+  "finished_at": null,
+  "total_duration_sec": null,
+  "current_iteration": 2,
+  "events": [
+    {
+      "ts": "2026-05-10T09:08:10",
+      "agent": "4-writer",
+      "event": "iteration_returned",
+      "iteration": 2,
+      "reason": "uniqueness: thesis_similarity=1.0 (fallback embeddings), recommended rewrite_with_angle:mythi_i_pravda",
+      "recommendation": "rewrite_with_angle:mythi_i_pravda — сменить угол на разоблачение мифов кредиторов"
+    },
+    {
+      "ts": "2026-05-10T09:24:15",
+      "agent": "scheduler",
+      "event": "slot_started",
+      "iteration": 2,
+      "category": "yur",
+      "today_count": 0,
+      "limit": 10,
+      "write_article_duration_sec": 2986.4
+    },
+    {
+      "ts": "2026-05-10T09:24:15",
+      "agent": "quality_gate",
+      "event": "passed",
+      "iteration": 2,
+      "blockers": [],
+      "warnings": [
+        "Автофикс применил правки: сокращения=1, пунктуация=0"
+      ],
+      "recommendations": []
+    }
+  ]
+}
