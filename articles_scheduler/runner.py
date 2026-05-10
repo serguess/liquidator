@@ -119,6 +119,72 @@ def _collect_used_slugs() -> set[str]:
     return used
 
 
+# ============ AUTO-SKIP по каннибализации (с 10 мая 2026) ============
+#
+# Если агент 1 отказался писать статью потому что тема дублирует уже
+# опубликованную (или news-тема устарела/evergreen) — автоматически
+# помечаем её status="rejected" в topic-map и берём следующую в том же
+# слоте. Без этого scheduler стабильно тратит 7 минут на reject темы и
+# отдаёт failed_qa, заказчик не получает статью когда запускает пайплайн.
+
+TOPIC_REJECT_PATTERNS = (
+    "cannibalization:", "evergreen", "not-news-fresh",
+    "outside-30-day-window", "not_news", "topic_outdated",
+)
+MAX_TOPIC_RETRIES_PER_SLOT = int(os.getenv("MAX_TOPIC_RETRIES_PER_SLOT", "3"))
+
+
+def _detect_topic_rejection(slug: str) -> str | None:
+    """Читает _pipeline.log.json. Если агент 1 упал с ошибкой из
+    TOPIC_REJECT_PATTERNS - возвращает текст. Иначе None."""
+    if not slug:
+        return None
+    log_path = DRAFTS_DIR / slug / "_pipeline.log.json"
+    if not log_path.exists():
+        return None
+    try:
+        d = json.loads(log_path.read_text(encoding="utf-8"))
+    except (json.JSONDecodeError, OSError):
+        return None
+    for ev in d.get("events") or []:
+        if ev.get("agent") == "1-semantics" and ev.get("event") == "failed":
+            err = ev.get("error") or ""
+            if any(p in err for p in TOPIC_REJECT_PATTERNS):
+                return err
+    return None
+
+
+def _mark_topic_rejected(category: str, slug: str, reason: str) -> bool:
+    """Помечает тему status='rejected' в topic-map. _pick_topic skip-ит rejected."""
+    if not category or not slug:
+        return False
+    map_path = TOPIC_MAP_DIR / f"{category}.json"
+    if not map_path.exists():
+        return False
+    try:
+        d = json.loads(map_path.read_text(encoding="utf-8"))
+    except (json.JSONDecodeError, OSError):
+        return False
+    for t in d.get("topics") or []:
+        if t.get("slug") == slug:
+            t["status"] = "rejected"
+            t["rejected_at"] = datetime.now().isoformat(timespec="seconds")
+            t["rejected_reason"] = reason
+            t["rejected_by"] = "auto_skip_in_slot"
+            try:
+                map_path.write_text(
+                    json.dumps(d, ensure_ascii=False, indent=2) + "\n",
+                    encoding="utf-8",
+                )
+                log.warning("Auto-skip: %s/%s rejected (reason=%s)",
+                            category, slug, reason)
+                return True
+            except OSError:
+                log.exception("_mark_topic_rejected: запись не удалась")
+                return False
+    return False
+
+
 def _pick_topic(category: str) -> dict | None:
     """
     Возвращает первую неиспользованную тему из drafts/_topic-map/{category}.json.
@@ -1378,51 +1444,89 @@ def run_one_article() -> dict:
 
         # Выбираем команду: новая статья, доработка failed_qa, или
         # пополнение topic-map если темы для категории кончились.
+        # Для mode="new": если агент 1 откажется писать тему (каннибализация
+        # с уже опубликованной, evergreen в news, событие старше 30 дней) —
+        # автоматически помечаем тему rejected и берём следующую, до
+        # MAX_TOPIC_RETRIES_PER_SLOT попыток. Так заказчик при ручном
+        # запуске пайплайна гарантированно получает статью, а не failed_qa.
         if slot_mode == "rewrite" and retry_slug:
             claude_command = f"/rewrite-article {retry_slug}"
             entry["mode"] = "rewrite"
             entry["retry_slug"] = retry_slug
+            cmd = ["claude", "--print", "--dangerously-skip-permissions", claude_command]
+            HEARTBEAT_PATH.write_text(
+                f"{datetime.now().isoformat(timespec='seconds')} | started",
+                encoding="utf-8",
+            )
+            result = _run_claude_with_heartbeat(cmd)
         else:
-            topic = _pick_topic(category)
-            if topic is None:
-                # Темы кончились → Claude генерит 10 новых в topic-map.
-                # Сам слот не пишет статью (статус будет "topics_expanded"),
-                # следующий слот возьмёт первую из новых.
-                claude_command = f"/expand-topics {category}"
-                entry["mode"] = "expand_topics"
-                log.info("Темы для %s исчерпаны, запускаю /expand-topics", category)
-            else:
+            auto_skipped: list[dict] = []
+            result = None
+            for attempt_num in range(MAX_TOPIC_RETRIES_PER_SLOT):
+                topic = _pick_topic(category)
+                if topic is None:
+                    # Темы кончились → /expand-topics. Сам слот не пишет статью,
+                    # статус будет "topics_expanded", следующий слот возьмёт первую из новых.
+                    claude_command = f"/expand-topics {category}"
+                    entry["mode"] = "expand_topics"
+                    log.info("Темы для %s исчерпаны, запускаю /expand-topics", category)
+                    cmd = ["claude", "--print", "--dangerously-skip-permissions", claude_command]
+                    HEARTBEAT_PATH.write_text(
+                        f"{datetime.now().isoformat(timespec='seconds')} | started",
+                        encoding="utf-8",
+                    )
+                    result = _run_claude_with_heartbeat(cmd)
+                    break
+
                 topic_title = (topic.get("title") or topic.get("topic_action") or "").strip()
                 topic_slug = topic.get("slug") or ""
-                # Slug передаём явно как часть аргумента — это тот SLUG который
-                # Claude обязан использовать. Без этого Claude часто игнорировал
-                # slug из brief'а и генерил свой → бесконечный цикл по теме.
-                claude_command = (
-                    f"/write-article {category} slug={topic_slug} {topic_title}"
-                )
+                # Slug передаём явно — иначе Claude игнорировал brief и генерил свой
+                # → бесконечный цикл по теме.
+                claude_command = f"/write-article {category} slug={topic_slug} {topic_title}"
                 entry["mode"] = "new"
                 entry["topic_id"] = topic.get("id")
                 entry["topic_slug"] = topic_slug
                 log.info(
-                    "Тема выбрана: cat=%s id=%s slug=%s title=%s",
+                    "Тема выбрана (попытка %d/%d): cat=%s id=%s slug=%s title=%s",
+                    attempt_num + 1, MAX_TOPIC_RETRIES_PER_SLOT,
                     category, topic.get("id"), topic_slug, topic_title[:80],
                 )
 
-        cmd = [
-            "claude",
-            "--print",
-            "--dangerously-skip-permissions",
-            claude_command,
-        ]
-        # Сбрасываем heartbeat перед стартом — Claude должен сам обновлять файл
-        # через Bash из агентов (echo "$(date) | агент-N" > data/.scheduler_heartbeat).
-        # Если он не обновлялся HEARTBEAT_TIMEOUT_SEC — kill subprocess раньше
-        # чем сработает общий ARTICLE_TIMEOUT_SEC (40 минут).
-        HEARTBEAT_PATH.write_text(
-            f"{datetime.now().isoformat(timespec='seconds')} | started",
-            encoding="utf-8",
-        )
-        result = _run_claude_with_heartbeat(cmd)
+                cmd = ["claude", "--print", "--dangerously-skip-permissions", claude_command]
+                HEARTBEAT_PATH.write_text(
+                    f"{datetime.now().isoformat(timespec='seconds')} | started",
+                    encoding="utf-8",
+                )
+                attempt_started = time.time()
+                result = _run_claude_with_heartbeat(cmd)
+                attempt_duration = round(time.time() - attempt_started, 1)
+
+                # Детектим: агент 1 отверг тему (каннибализация / не-news / evergreen)?
+                rejection = _detect_topic_rejection(topic_slug)
+                if rejection:
+                    _mark_topic_rejected(category, topic_slug, rejection)
+                    auto_skipped.append({
+                        "slug": topic_slug,
+                        "reason": rejection,
+                        "duration_sec": attempt_duration,
+                    })
+                    if attempt_num + 1 < MAX_TOPIC_RETRIES_PER_SLOT:
+                        log.warning(
+                            "Auto-skip %d/%d: %s/%s — %s. Беру следующую тему.",
+                            attempt_num + 1, MAX_TOPIC_RETRIES_PER_SLOT,
+                            category, topic_slug, rejection,
+                        )
+                        continue
+                    log.error(
+                        "Auto-skip исчерпан (%d попыток подряд rejected). Слот завершится failed.",
+                        MAX_TOPIC_RETRIES_PER_SLOT,
+                    )
+                # Не rejection (либо успех, либо иная причина — slug_mismatch,
+                # timeout, rate_limit, quality_gate). Auto-skip не помогает — break.
+                break
+
+            if auto_skipped:
+                entry["auto_skipped"] = auto_skipped
 
         duration = round(time.time() - started, 1)
         ok = result.returncode == 0
