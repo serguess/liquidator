@@ -177,3 +177,15 @@ fatal: pathspec 'data/scheduler_log.json' did not match any files
 fatal: pathspec 'data/scheduler_log.json' did not match any files
 ====
 
+[2026-05-11T00:12:58] slot=- category=- action=git_pull returncode=128
+--- stderr ---
+error: cannot pull with rebase: You have unstaged changes.
+error: please commit or stash them.
+====
+
+[2026-05-11T00:47:58] slot=- category=- action=git_pull returncode=128
+--- stderr ---
+error: cannot pull with rebase: You have unstaged changes.
+error: please commit or stash them.
+====
+

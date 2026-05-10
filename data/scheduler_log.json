@@ -1,0 +1,29 @@
+[
+  {
+    "timestamp": "2026-05-11T00:47:58",
+    "category": "fiz",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": false,
+      "stdout_tail": "",
+      "stderr_tail": "error: cannot pull with rebase: You have unstaged changes.\nerror: please commit or stash them.\n"
+    },
+    "mode": "new",
+    "topic_id": "fiz-07",
+    "topic_slug": "kak-podat-na-bankrotstvo-samostoyatelno",
+    "slug_mismatch": true,
+    "expected_slug": "kak-podat-na-bankrotstvo-samostoyatelno",
+    "status": "failed",
+    "slug": null,
+    "duration_sec": 5.4,
+    "returncode": 1,
+    "rescued_after_failure": false,
+    "stdout_tail": "d\":0,\"usage\":{\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard\",\"cache_creation\":{\"ephemeral_1h_input_tokens\":0,\"ephemeral_5m_input_tokens\":0},\"inference_geo\":\"\",\"iterations\":[],\"speed\":\"standard\"},\"modelUsage\":{},\"permission_denials\":[],\"uuid\":\"1f6d9adf-4fd0-4d70-b6b1-f3e50c5e8788\",\"errors\":[\"EROFS: read-only file system, open '/home/appuser/.claude.json'\"]}\n",
+    "stderr_tail": "",
+    "metrics": null
+  }
+]
