@@ -1040,7 +1040,12 @@ def public_preview_by_token(slug: str, t: str = "", v: str = ""):
         )
     response = HTMLResponse(raw)
     response.headers["X-Robots-Tag"] = "noindex, nofollow"
-    response.headers["Cache-Control"] = "no-store"
+    # Усиленный no-cache: предотвращает закэшированные старые версии после редеплоев.
+    # Случай 10 мая 2026: после фикса CTA-кнопок заказчик видел старую версию из
+    # Caddy/браузера, хотя сервер отдавал свежий HTML. Тройная защита совместимости.
+    response.headers["Cache-Control"] = "no-store, no-cache, must-revalidate, max-age=0"
+    response.headers["Pragma"] = "no-cache"
+    response.headers["Expires"] = "0"
     return response
 
 
