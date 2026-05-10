@@ -203,25 +203,59 @@ def _send_mail(subject: str, html_body: str, text_body: str) -> None:
             s.sendmail(MAIL_FROM, [MAIL_TO], msg.as_string())
 
 
+_ARTICLE_SOURCE_RX = re.compile(r"^article-(.+)-(\d+)$")
+
+
+def _humanize_source(label: str, page_title: str) -> str:
+    """
+    Если source приехал в формате article-{slug}-{N} (кнопка из статьи),
+    возвращаем читаемую строку «Статья «{полное название статьи}», кнопка №N из 3».
+    Полное название берём из page_title (document.title статьи). Если page_title
+    пуст — fallback на slug. Если source не от статьи — возвращаем label как есть.
+
+    Согласовано с заказчиком 9 мая 2026: всегда показывать полное название статьи
+    из <title>, не slug; нумерация 1/2/3 = сверху вниз (1 — primary над лидом,
+    2 — inline в середине, 3 — final перед FAQ).
+    """
+    m = _ARTICLE_SOURCE_RX.match(label or "")
+    if not m:
+        return label or "Не указан"
+    slug, num = m.group(1), m.group(2)
+    title = (page_title or "").strip() or slug
+    return f"Статья «{title}», кнопка №{num} из 3"
+
+
 def _render_mail(payload: LeadIn, ip: str, ua: str, ts: str) -> tuple[str, str]:
     e = html.escape
 
-    # Источник: метка кнопки ("1 блок (главный экран)", "Статья") + ссылка на страницу.
-    # Если title страницы выглядит как "Статья: ...", показываем полное название статьи.
-    label = payload.source or "Не указан"
+    # Источник: метка кнопки ("1 блок (главный экран)", "article-{slug}-{N}", ...) +
+    # ссылка на страницу. Для кнопок из статей превращаем article-{slug}-{N} в
+    # «Статья «{title}», кнопка №N из 3» через _humanize_source.
+    raw_label = payload.source or "Не указан"
     page_title = (payload.page_title or "").strip()
     page_url = (payload.page_url or "").strip()
+    label = _humanize_source(raw_label, page_title)
 
     # собираем HTML-источник
     if page_url:
-        anchor_text = page_title or page_url
-        source_html = f'{e(label)} - <a href="{e(page_url)}">{e(anchor_text)}</a>'
+        # Для article-source label уже содержит page_title, ссылку показываем
+        # как «Открыть» отдельно, чтобы не дублировать заголовок.
+        is_article = _ARTICLE_SOURCE_RX.match(raw_label) is not None
+        if is_article:
+            source_html = f'{e(label)} - <a href="{e(page_url)}">открыть страницу</a>'
+        else:
+            anchor_text = page_title or page_url
+            source_html = f'{e(label)} - <a href="{e(page_url)}">{e(anchor_text)}</a>'
     else:
         source_html = e(label)
 
     # собираем plain-text источник
     if page_url:
-        source_text = f"{label} - {page_title or page_url} ({page_url})"
+        is_article = _ARTICLE_SOURCE_RX.match(raw_label) is not None
+        if is_article:
+            source_text = f"{label}\nURL: {page_url}"
+        else:
+            source_text = f"{label} - {page_title or page_url} ({page_url})"
     else:
         source_text = label
 

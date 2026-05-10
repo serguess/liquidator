@@ -230,20 +230,27 @@ def _strip_outer_html(body: str) -> str:
 
 # ============ Рендереры блоков ============
 
-def render_cta_hero(text: str, slug: str, position: str) -> str:
-    """Большой CTA-овал со стрелкой. position: 'top' | 'bottom'."""
-    src = f"article-{slug}-{position}"
+def render_cta_hero(text: str, slug: str, position_num: int) -> str:
+    """Большой CTA-овал со стрелкой. position_num: 1 (верхний primary), 2 (inline mid),
+    3 (финальный bottom). Открывает модалку #contactsModal через JS-обработчик
+    data-open-modal (см. script.js блок «МОДАЛКА»). Модалка вставлена в каждую
+    статью функцией render_lead_modal(), script.js подключён в конце body.
+
+    data-source = 'article-{slug}-{N}'. Backend в main.py:_render_mail парсит этот
+    формат и подставляет в письмо «Статья «{page_title}», кнопка №N из 3»."""
+    src = f"article-{slug}-{position_num}"
     return (
-        f'<a href="/index.html#contacts" class="article__cta--hero" '
-        f'data-source="{_esc_attr(src)}">\n'
+        f'<button type="button" class="article__cta--hero" '
+        f'data-open-modal="contactsModal" data-source="{_esc_attr(src)}">\n'
         f'  <span>{_esc(text)} →</span>\n'
-        f'</a>'
+        f'</button>'
     )
 
 
 def render_cta_inline(text: str, slug: str) -> str:
-    """Средний CTA — тот же hero-овал, что top/bottom (единообразный стиль и размер)."""
-    return render_cta_hero(text, slug, "mid")
+    """Средний CTA — тот же hero-овал, что 1 и 3 (единообразный стиль и размер).
+    Position #2 в нумерации сверху-вниз."""
+    return render_cta_hero(text, slug, 2)
 
 
 def render_disclaimer(_text: str = "") -> str:
@@ -751,9 +758,11 @@ def assemble_article(meta: dict, body_html: str, disclaimer_text: str) -> str:
     # 1. Подставляем CTA и дисклеймер в body
     body = _strip_outer_html(body_html)
 
-    cta_top = render_cta_hero(cta_top_text, slug, "top")
+    # Позиции 1/2/3 = сверху-вниз (1 — primary над лидом, 2 — inline в середине,
+    # 3 — final перед FAQ). Используется в data-source для письма заказчику.
+    cta_top = render_cta_hero(cta_top_text, slug, 1)
     cta_mid = render_cta_inline(cta_mid_text, slug)
-    cta_bottom = render_cta_hero(cta_bottom_text, slug, "bottom")
+    cta_bottom = render_cta_hero(cta_bottom_text, slug, 3)
     disclaimer = render_disclaimer(disclaimer_text)
 
     body = body.replace(PLACEHOLDER_RX["cta_top"], cta_top)
