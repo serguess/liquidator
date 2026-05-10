@@ -1,0 +1,19 @@
+{
+  "slug": "bankrotstvo-pensionera",
+  "passed": true,
+  "scores": {
+    "structure_overlap": 0.0,
+    "thesis_similarity": 0.044,
+    "cta_overlap": 0.0
+  },
+  "similar_articles": [
+    {
+      "slug": "bankrotstvo-suprugov-sovmestnoe",
+      "category": "fiz",
+      "similarity": 0.044
+    }
+  ],
+  "conflicts": [],
+  "recommendation": "ok",
+  "notes": "Статья уникальна по смыслу относительно опубликованного кластера fiz. Максимальное сходство 0.044 (с 'bankrotstvo-suprugov-sovmestnoe') значительно ниже порога 0.30. Структура H2 и тезисы не дублируют существующие материалы."
+}

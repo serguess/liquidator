@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-05-09T22:54:50",
-  "total": 10,
+  "generated_at": "2026-05-10T02:10:28",
+  "total": 11,
   "by_source": {
-    "published": 9,
+    "published": 10,
     "draft_approved": 0,
     "draft_pending": 1,
     "draft_local": 0
   },
   "by_category": {
+    "fiz": 4,
     "vzysk": 2,
-    "news": 3,
     "yur": 2,
-    "fiz": 3
+    "news": 3
   },
   "articles": [
     {
@@ -37,6 +37,31 @@
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
       "char_count": 10103,
+      "published_at": null,
+      "tags": []
+    },
+    {
+      "slug": "bankrotstvo-suprugov-sovmestnoe",
+      "category": "fiz",
+      "source": "published",
+      "url": "/articles/fiz/bankrotstvo-suprugov-sovmestnoe.html",
+      "title": "",
+      "h1": "",
+      "main_keyword": "",
+      "secondary_keywords": [],
+      "intent": "",
+      "writer_route": "",
+      "h2_topics": [
+        "Можно ли банкротиться супругам вместе - коротко",
+        "По каким критериям суд объединяет дела",
+        "Общее имущество: что продадут и что получит второй супруг",
+        "Личный долг или общий: от этого зависит всё",
+        "На что обратить внимание до начала дела",
+        "Частые вопросы о банкротстве супругов",
+        "Читайте также",
+        "ЗАПОЛНИТЬ ФОРМУ"
+      ],
+      "char_count": 9988,
       "published_at": null,
       "tags": []
     },

@@ -1,0 +1,100 @@
+{
+  "slug": "bankrotstvo-pensionera",
+  "category": "fiz",
+  "title": "Банкротство пенсионера: как списать долги",
+  "description": "Два способа списать долги для пенсионера: через МФЦ (бесплатно, от 25 тыс. до 1 млн) и через суд. Условия, порядок действий, защита пенсии и единственного жилья.",
+  "h1": "Банкротство пенсионера: как списать долги, если пенсия - единственный доход",
+  "lead": "Два законных пути избавиться от долгов: бесплатная внесудебная процедура через МФЦ или арбитражный суд - выбор зависит от суммы долга и наличия имущества.",
+  "topic_action": "проверку вариантов списания долгов для пенсионера",
+  "breadcrumb_current": "Банкротство пенсионера",
+  "og_image": "/assets/articles/bankrotstvo-pensionera.jpg",
+  "main_keyword": "банкротство пенсионера",
+  "secondary_keywords": [
+    "банкротство пенсионера через МФЦ",
+    "внесудебное банкротство пенсионера",
+    "списать долги пенсионеру",
+    "как списать долги пенсионеру по кредитам",
+    "банкротство пенсионера условия",
+    "пенсия при банкротстве физического лица",
+    "списание долгов пенсионерам условия",
+    "судебное банкротство пенсионера"
+  ],
+  "internal_links": [
+    "/articles/fiz/vnesudebnoe-bankrotstvo-cherez-mfc-2026.html",
+    "/articles/vzysk/snyatie-aresta-so-scheta-pristavami.html",
+    "/articles/fiz/bankrotstvo-pri-ipoteke-edinstvennoe-zhilye.html",
+    "/articles/vzysk/kak-otmenit-sudebnyj-prikaz.html"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/c48290d39215783e73f0899bb1026b14cb221eff/",
+    "https://www.consultant.ru/document/cons_doc_LAW_71450/ca5c8fd26859264950ef2c9883bc79f8e03dc823/"
+  ],
+  "faq": [
+    {
+      "question": "Заберут ли у пенсионера пенсию при банкротстве?",
+      "answer": "При судебном банкротстве страховая пенсия по старости учитывается в расчётах, но ежемесячно гарантируется прожиточный минимум - 16 288 руб. в 2026 году. При внесудебном варианте расчётного счёта нет - выплаты остаются целиком. Пенсия по потере кормильца защищена в обоих случаях (ст. 101 ФЗ-229)."
+    },
+    {
+      "question": "Можно ли подать на банкротство через МФЦ, если приставы ещё не закрыли дело?",
+      "answer": "Да. По специальному пенсионному основанию (подп. 2 п. 1 ст. 223.2 127-ФЗ) открытые исполнительные производства не мешают. Главное - исполнительный документ предъявлен в ФССП за год или ранее, задолженность не погашена."
+    },
+    {
+      "question": "Спишутся ли долги по кредитам и микрозаймам?",
+      "answer": "При добросовестном поведении - да, в обоих вариантах. Не спишутся алименты, возмещение вреда здоровью, компенсация морального вреда (ст. 213.28 п. 5 127-ФЗ)."
+    },
+    {
+      "question": "Что будет с единственной квартирой пенсионера?",
+      "answer": "Единственное жильё (не ипотека) защищено исполнительским иммунитетом. Замена на более скромное возможна только по судебному акту и лишь для явно избыточного жилья - на практике крайне редко."
+    },
+    {
+      "question": "Сколько длится внесудебное банкротство для пенсионера?",
+      "answer": "6 месяцев с даты публикации в ЕФРСБ. Без обоснованных возражений кредиторов обязательства из списка погашаются (ст. 223.5 127-ФЗ)."
+    },
+    {
+      "question": "Можно ли подать на банкротство, если долг меньше 500 000 рублей?",
+      "answer": "Да. Через МФЦ - при задолженности от 25 000 до 1 000 000 руб. при выполнении трёх условий. Через суд - при любой сумме с признаками неплатёжеспособности (ст. 213.4 п. 2 127-ФЗ). Порог 500 000 руб. - граница обязательной подачи, а не минимальный порог для права."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "f15 contested - номера определений ВС РФ не верифицированы; в тексте использован только обобщённый принцип без ссылки на конкретные дела - соответствует safe_phrasing",
+    "7% вознаграждение ФУ упомянуто корректно: только при наличии имущества - fact f11 подтверждает",
+    "Разграничение страховой пенсии по старости и пенсии по потере кормильца соблюдено во всех местах - f4/f5"
+  ],
+  "keyword_density_main": 0.018,
+  "main_keyword_exact_count": 2,
+  "text_chars": 8051,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.093,
+  "local_spam_ngram3_repeat": 0.028,
+  "local_lexical_diversity": 0.632,
+  "local_ai_markers_density": 0.2,
+  "local_ai_markers_critical": 0,
+  "length_status": "too_long",
+  "length_kind": "default",
+  "local_ai_markers_total": 2,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 1,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 10,
+  "predicted_spam_pct": 50,
+  "predicted_ai_pct": 5,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "длина чуть больше лимита 8000 (8 051 знаков)"
+  ],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/c_fill,ar_191:100,g_center,f_auto,q_auto,w_1920/v1778381787/articles/bankrotstvo-pensionera-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1778381787/articles/bankrotstvo-pensionera-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Editorial photograph of a quiet home-office workspace adjacent to a tall window overlooking a blurred overcast cityscape. Foreground on a walnut desk: reading glasses resting open on top of a closed leather portfolio tied with a thin cord, a fountain pen aligned across a blank-spine notebook, a white porcelain coffee cup on a saucer, a smartphone placed face-down, and a small brass key ring with two keys lying near the portfolio edge. Camera: three-quarter angle, eye-level, shallow depth of field. Lighting: soft cool daylight from the window diffused through sheer curtains, with a gentle warm fill from a brass desk lamp on the left. Materials: walnut surface, aged leather, polished brass. Palette: warm cream and walnut with cool grey window light, restrained brass accents. Mood: quiet personal deliberation, a considered life decision, calm and contemplative.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-05-10T02:56:28Z",
+  "date_published": "2026-05-10",
+  "date_modified": "2026-05-10",
+  "ready_for_review": true,
+  "ready_at": "2026-05-10T02:56:28Z",
+  "publication_target": "telegram_review"
+}
