@@ -44,9 +44,15 @@
   <meta name="twitter:description" content="Банкротство физических и юридических лиц, взыскание задолженности. 800+ завершённых дел." />
   <meta name="twitter:image" content="/assets/a1.webp" />
 
-  <!-- Favicon -->
+  <!-- Favicon: фиксы 10 мая 2026 — Yandex.Webmaster жаловался «favicon не найден»,
+       т.к. был только SVG. Добавлены ICO в корне (стандартный путь для всех ботов)
+       и PNG-варианты разных размеров для современных браузеров и iOS. -->
+  <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16.png" />
   <link rel="icon" type="image/svg+xml" href="/assets/logo.svg" />
-  <link rel="apple-touch-icon" href="/assets/logo.svg" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon-180.png" />
+  <link rel="manifest" href="/site.webmanifest" />
 
   <!-- Schema.org: Organization + LegalService + WebSite -->
   <script type="application/ld+json">

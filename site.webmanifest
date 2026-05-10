@@ -1,0 +1,31 @@
+{
+  "name": "Ликвидатор - юридическая помощь",
+  "short_name": "Ликвидатор",
+  "description": "Списание долгов, банкротство физических и юридических лиц, взыскание задолженности",
+  "icons": [
+    {
+      "src": "/assets/favicon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/assets/favicon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/assets/favicon-180.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "theme_color": "#5b6236",
+  "background_color": "#ffffff",
+  "display": "browser",
+  "start_url": "/",
+  "scope": "/",
+  "lang": "ru"
+}

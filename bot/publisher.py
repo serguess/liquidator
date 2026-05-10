@@ -337,6 +337,48 @@ def _indexnow_ping(public_url: str) -> bool:
         return False
 
 
+def _yandex_sitemap_ping(sitemap_url: str = "https://pravo.shop/sitemap.xml") -> bool:
+    """
+    Уведомляет Яндекс что sitemap.xml обновился. Дополнение к ручной регистрации
+    sitemap в Яндекс.Вебмастере (раздел «Файлы Sitemap»). Без ручной регистрации
+    Яндекс вообще не использует sitemap (что отлавливается рекомендацией
+    «Нет используемых роботом файлов Sitemap» в кабинете Webmaster).
+
+    После того как Юлия добавит sitemap в Webmaster один раз, ping ускоряет
+    переобход. Эндпойнт публичный, ключи не нужны.
+
+    Также пингуем Google для симметрии (всё равно используют sitemap.xml).
+    """
+    try:
+        import httpx
+        ok_yandex = False
+        ok_google = False
+        try:
+            r = httpx.get(
+                "https://webmaster.yandex.ru/ping",
+                params={"sitemap": sitemap_url},
+                timeout=10,
+            )
+            ok_yandex = r.status_code in (200, 202)
+            log.info("Yandex sitemap ping: status=%d", r.status_code)
+        except Exception as e:
+            log.warning("Yandex sitemap ping упал: %s", e)
+        try:
+            r = httpx.get(
+                "https://www.google.com/ping",
+                params={"sitemap": sitemap_url},
+                timeout=10,
+            )
+            ok_google = r.status_code in (200, 202)
+            log.info("Google sitemap ping: status=%d", r.status_code)
+        except Exception as e:
+            log.warning("Google sitemap ping упал: %s", e)
+        return ok_yandex or ok_google
+    except Exception:
+        log.exception("sitemap ping общая ошибка")
+        return False
+
+
 # ============ GIT ============
 
 def _git_env() -> dict:
@@ -541,8 +583,9 @@ def publish(slug: str, version: Optional[str] = None) -> PublishResult:
                 cover_url=cover_url,
             )
 
-        # 9. IndexNow ping (не критично, ошибка не отменяет публикацию)
+        # 9. IndexNow ping и sitemap ping (не критично, ошибка не отменяет публикацию)
         _indexnow_ping(public_url)
+        _yandex_sitemap_ping()
 
         log.info("Опубликовано: %s → %s", slug, public_url)
         return PublishResult(
