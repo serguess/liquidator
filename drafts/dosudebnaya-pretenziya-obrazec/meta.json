@@ -1,0 +1,99 @@
+{
+  "slug": "dosudebnaya-pretenziya-obrazec",
+  "category": "vzysk",
+  "title": "Досудебная претензия должнику: образец и порядок",
+  "description": "Как правильно написать досудебную претензию должнику: обязательные реквизиты, сроки ответа, способы отправки и что делать, если должник молчит.",
+  "h1": "Досудебная претензия должнику: как составить и отправить",
+  "lead": "Разбираем обязательные элементы письма-требования, три надёжных способа доставки и порядок действий, если контрагент не отвечает.",
+  "topic_action": "взыскание долга",
+  "breadcrumb_current": "Досудебная претензия должнику",
+  "og_image": "/assets/articles/dosudebnaya-pretenziya-obrazec.jpg",
+  "main_keyword": "досудебная претензия должнику образец",
+  "secondary_keywords": [
+    "досудебная претензия о взыскании задолженности",
+    "как написать претензию должнику",
+    "претензионное письмо должнику",
+    "срок ответа на претензию",
+    "обязательный досудебный порядок взыскания",
+    "претензия перед подачей иска",
+    "реквизиты досудебной претензии",
+    "что делать если должник не ответил на претензию"
+  ],
+  "internal_links": [
+    "/articles/vzysk/kak-otmenit-sudebnyj-prikaz.html",
+    "/articles/vzysk/snyatie-aresta-so-scheta-pristavami.html"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_37800/4d77fceae32b76a1cc26db3a1c64857d59045fdc/",
+    "https://www.consultant.ru/document/cons_doc_LAW_186662/"
+  ],
+  "faq": [
+    {
+      "question": "Нужна ли претензия, если долг взыскивается через суд общей юрисдикции (не арбитраж)?",
+      "answer": "По общему правилу — нет. Обязательный досудебный порядок требуется только если закон или договор прямо это предусматривают (ч. 3 ст. 132 ГПК РФ). Для большинства гражданских дел предварительное обращение — не условие принятия иска."
+    },
+    {
+      "question": "Что будет, если арбитражный суд выяснит, что претензии не было?",
+      "answer": "До принятия иска — вернёт заявление (п. 5 ч. 1 ст. 129 АПК РФ). После принятия — оставит без рассмотрения (п. 2 ч. 1 ст. 148 АПК РФ). Пошлина возвращается, но время потеряно."
+    },
+    {
+      "question": "Можно ли отправить претензию по WhatsApp или Telegram?",
+      "answer": "Нет. Мессенджеры не признаются надлежащим способом без прямого условия в договоре. Даже email подтверждает порядок только когда соглашение явно предусматривает такой обмен документами (ч. 3 ст. 75 АПК РФ). Надёжный выбор — заказное письмо с описью."
+    },
+    {
+      "question": "Претензия прерывает срок исковой давности?",
+      "answer": "Нет. Она его приостанавливает на время ожидания ответа (п. 16 Постановления Пленума ВС РФ №43). После этого давность возобновляется с того же места."
+    },
+    {
+      "question": "Обязан ли должник отвечать на претензию письменно?",
+      "answer": "Нет. Такой обязанности у него нет. Молчание в течение установленного времени — это отказ, после которого кредитор вправе идти в суд."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Проход 1: все юр-утверждения сверены с research.json — расхождений нет",
+    "Проход 2: last_verified 2026-05-07 / 2026-05-10, legislation_status: active по всем нормам (АПК, ГПК, ГК, ЗоЗПП, Пленум ВС №43)",
+    "Формулировка исковой давности: приостанавливает, а не прерывает (п. 16 Пленума ВС №43) — соблюдена",
+    "Конкретный размер ключевой ставки не указан — ссылка на сайт Банка России",
+    "Запрещённые утверждения из research.forbidden_claims не использованы",
+    "Итерация 2: снижена лексическая монотонность — «претензия» заменена синонимами «письмо-требование», «обращение», «документ» в теле статьи"
+  ],
+  "keyword_density_main": 0.016,
+  "main_keyword_exact_count": 2,
+  "text_chars": 7560,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.1,
+  "local_spam_ngram3_repeat": 0.037,
+  "local_lexical_diversity": 0.603,
+  "local_ai_markers_density": 0.21,
+  "local_ai_markers_total": 2,
+  "local_ai_markers_critical": 0,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 2,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": false,
+  "quality_gate_blockers": [
+    "spam_risk: 2 флагов (ngram3_repeat_share>0.03 (=0.037), lexical_diversity<0.62 (=0.603)), top-5: ['срок', 'долг', 'письм', 'дней', 'взыскан']"
+  ],
+  "quality_gate_retry_count": 13,
+  "length_status": "warn",
+  "length_kind": "default",
+  "predicted_spam_pct": 57,
+  "predicted_ai_pct": 5,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность выше 50% (~57%)"
+  ],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/c_fill,ar_191:100,g_center,f_auto,q_auto,w_1920/v1778409627/articles/dosudebnaya-pretenziya-obrazec-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1778409627/articles/dosudebnaya-pretenziya-obrazec-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Close-up cinematic photograph of legal implements arranged as if mid-process on a dark walnut surface. Hero objects: brass scales of justice with empty pans centered slightly left, a wooden judge's gavel resting on its round sound block, a sand-filled brass hourglass mid-flow standing at the right edge, a stack of three closed dossiers tied with dark cord in the mid-ground, a polished round company seal resting on the topmost dossier, a fountain pen laid diagonally across an unopened wax-sealed envelope. Camera: tabletop level, three-quarter angle from upper left, shallow depth of field pulling focus to the scales and hourglass. Lighting: soft directional sidelight from the left casting long elegant shadows across walnut grain, warm brass rim-light on metallic surfaces. Palette: deep walnut, burnished brass, oxblood leather cord, cream envelope. Mood: formal demand in motion, time already running.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-05-10T10:40:27Z",
+  "date_published": "2026-05-10",
+  "date_modified": "2026-05-10",
+  "ready_for_review": true,
+  "ready_at": "2026-05-10T10:40:27Z",
+  "publication_target": "telegram_review"
+}
