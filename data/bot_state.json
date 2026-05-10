@@ -191,6 +191,31 @@
       "published_url": "https://pravo.shop/articles/fiz/bankrotstvo-suprugov-sovmestnoe",
       "published_at": "2026-05-09T23:51:58",
       "articles_path": "articles/fiz/bankrotstvo-suprugov-sovmestnoe.html"
+    },
+    "bankrotstvo-pensionera": {
+      "category": "fiz",
+      "title": "Банкротство пенсионера: как списать долги",
+      "status": "published",
+      "current_version": "2.1",
+      "versions": [
+        "2.0",
+        "2.1"
+      ],
+      "tg_message_id": 258,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-05-10T02:58:57",
+      "last_action_at": "2026-05-10T04:03:13",
+      "edits_history": [
+        {
+          "version": "2.1",
+          "edit_text": "Измени в статье кнопки все. Сделай кнопки оставить заявку на списание долгов.",
+          "applied_at": "2026-05-10T04:02:44"
+        }
+      ],
+      "rejection_reason": null,
+      "published_url": "https://pravo.shop/articles/fiz/bankrotstvo-pensionera",
+      "published_at": "2026-05-10T04:03:13",
+      "articles_path": "articles/fiz/bankrotstvo-pensionera.html"
     }
   }
 }

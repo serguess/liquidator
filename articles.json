@@ -1,6 +1,19 @@
 {
-  "generated": "2026-05-09",
+  "generated": "2026-05-10",
   "articles": [
+    {
+      "slug": "bankrotstvo-pensionera",
+      "cat": "fiz",
+      "catLabel": "Банкротство физических лиц",
+      "title": "Банкротство пенсионера: как списать долги",
+      "desc": "Два способа списать долги для пенсионера: через МФЦ (бесплатно, от 25 тыс. до 1 млн) и через суд. Условия, порядок действий, защита пенсии и единственного жилья.",
+      "date": "10 мая 2026",
+      "dateIso": "2026-05-10",
+      "read": "5 мин.",
+      "tone": "b",
+      "img": "https://res.cloudinary.com/dmsaaiwkm/image/upload/c_fill,ar_191:100,g_center,f_auto,q_auto,w_1920/v1778381787/articles/bankrotstvo-pensionera-cover.jpg",
+      "url": "articles/fiz/bankrotstvo-pensionera"
+    },
     {
       "slug": "bankrotstvo-suprugov-sovmestnoe",
       "cat": "fiz",
