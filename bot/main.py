@@ -386,6 +386,22 @@ async def main_async():
     # если юзер начал диалог до редеплоя, а закончил после.
     fsm_storage = JsonFileStorage(DATA_DIR / ".fsm_state.json")
     dp = Dispatcher(storage=fsm_storage)
+
+    # FSM-alias middleware: handlers объявляют параметр `fsm: FSMContext`,
+    # но aiogram 3.x по умолчанию инжектит ключом `state`. Без алиаса каждое
+    # нажатие кнопок «Правки» / «Отклонить» крашится с
+    # `TypeError: missing 1 required positional argument: 'fsm'`, callback.answer()
+    # не успевает выполниться → TG показывает вечный спиннер на кнопке.
+    # Сразу копируем data['state'] → data['fsm'] чтобы handler'ы работали
+    # с тем же FSMContext под привычным именем.
+    # На Cloud Apps этот middleware был зарегистрирован в main.py FastAPI-варианте.
+    @dp.update.outer_middleware()
+    async def _alias_fsm_to_state(handler, event, data):
+        state_obj = data.get("state")
+        if state_obj is not None and "fsm" not in data:
+            data["fsm"] = state_obj
+        return await handler(event, data)
+
     dp.include_router(handlers.router)
 
     log.info("Бот стартует. Whitelist chat_id: %s", TG_ALLOWED_CHAT_IDS or "ПУСТО (все)")
