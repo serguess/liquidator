@@ -189,3 +189,9 @@ error: cannot pull with rebase: You have unstaged changes.
 error: please commit or stash them.
 ====
 
+[2026-05-11T00:49:36] slot=- category=- action=git_pull returncode=128
+--- stderr ---
+error: cannot pull with rebase: You have unstaged changes.
+error: please commit or stash them.
+====
+
