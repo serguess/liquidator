@@ -216,6 +216,118 @@
       "published_url": "https://pravo.shop/articles/fiz/bankrotstvo-pensionera",
       "published_at": "2026-05-10T04:03:13",
       "articles_path": "articles/fiz/bankrotstvo-pensionera.html"
+    },
+    "dosudebnaya-pretenziya-obrazec": {
+      "category": "vzysk",
+      "title": "Досудебная претензия должнику: образец и порядок",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-05-10T15:10:41",
+      "last_action_at": "2026-05-10T15:10:41",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null
+    },
+    "kollektory-prava-i-zashchita": {
+      "category": "vzysk",
+      "title": "Права коллекторов по 230-ФЗ: что можно и нельзя",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-05-10T15:10:41",
+      "last_action_at": "2026-05-10T15:10:41",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null
+    },
+    "uproshchennoe-bankrotstvo-yurlica": {
+      "category": "yur",
+      "title": "Упрощённое банкротство юрлица: условия и порядок",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-05-10T15:10:41",
+      "last_action_at": "2026-05-10T15:10:41",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null
+    },
+    "kak-podat-na-bankrotstvo-kontragenta": {
+      "category": "yur",
+      "title": "Как подать на банкротство контрагента-должника",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 310,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-05-10T15:10:41",
+      "last_action_at": "2026-05-10T15:10:41",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null
+    },
+    "okonchanie-ip-po-state-46": {
+      "category": "vzysk",
+      "title": "Ст. 46 ФЗ-229: что значит окончание производства",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 312,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-05-10T15:10:41",
+      "last_action_at": "2026-05-10T15:10:41",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null
+    },
+    "subsidiarka-direktora-kak-zashchititsya": {
+      "category": "yur",
+      "title": "Субсидиарная ответственность директора: как защититься",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 314,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-05-10T15:10:41",
+      "last_action_at": "2026-05-10T15:10:41",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null
+    },
+    "vzyskanie-dolga-po-raspiske": {
+      "category": "vzysk",
+      "title": "Взыскание долга по расписке через суд",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 316,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-05-10T15:10:41",
+      "last_action_at": "2026-05-10T15:10:41",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null
     }
   }
 }
