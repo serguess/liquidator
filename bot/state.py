@@ -38,7 +38,14 @@ from typing import Any
 
 from .config import STATE_FILE, get_preview_token
 
-_lock = threading.Lock()
+# RLock (а не Lock!) обязателен: многие функции захватывают _lock и внутри
+# вызывают load(), которая тоже хочет _lock. С обычным threading.Lock это
+# self-deadlock одного потока — Python зависает навсегда при попытке
+# повторного acquire тем же потоком. С RLock тот же поток может захватить
+# лок повторно, отпускает после соответствующего количества releases.
+# Баг проявлялся на VPS при первом тике queue_loop (pop_pending_action),
+# на Cloud Apps queue_loop не использовался — лок ни разу не реентерировался.
+_lock = threading.RLock()
 
 
 def _now_iso() -> str:
