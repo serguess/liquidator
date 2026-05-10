@@ -1,0 +1,35 @@
+[Unit]
+Description=Liquidator Telegram Bot (review queue)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=appuser
+Group=appuser
+WorkingDirectory=/home/appuser/apps/liquidator
+EnvironmentFile=/home/appuser/apps/liquidator/.env
+# PATH явно: claude CLI npm ставит в /usr/bin/claude, git в /usr/bin/git.
+Environment=PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+ExecStart=/home/appuser/apps/liquidator/.venv/bin/python -m bot.main
+
+Restart=always
+RestartSec=10
+TimeoutStopSec=30
+
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=liquidator-bot
+
+NoNewPrivileges=true
+ProtectSystem=full
+ProtectHome=read-only
+ReadWritePaths=/home/appuser/apps/liquidator /home/appuser/.git-credentials /home/appuser/.claude
+PrivateTmp=true
+
+# Бот в покое 80-150 МБ, при apply_edit (claude subprocess) до 1 ГБ.
+MemoryMax=1200M
+LimitNOFILE=8192
+
+[Install]
+WantedBy=multi-user.target

@@ -1116,18 +1116,34 @@ def admin_run_slot_get(category: str, _user: str = Depends(_check_preview_auth))
 
 
 # ============ TELEGRAM BOT (фоном вместе с FastAPI) ============
-# На Timeweb Cloud Apps preset "FastAPI" запускает только uvicorn и не читает
-# Procfile. Поэтому worker-процесс из Procfile там не поднимается. Чтобы не
-# плодить отдельное приложение/инстанс, поднимаем aiogram прямо в lifecycle
-# FastAPI: при старте сервера запускаем polling и watcher как фоновые таски.
-# Если бот падает на старте (нет TG_BOT_TOKEN, конфликт сессий, что угодно) -
-# сайт продолжает работать как ни в чём не бывало, в логе остаётся диагностика.
+# Раньше: на Timeweb Cloud Apps preset "FastAPI" запускает только uvicorn,
+# поэтому бот поднимался прямо в lifecycle FastAPI.
+#
+# С мая 2026: бот и scheduler переехали на DigitalOcean VPS (systemd).
+# Чтобы Cloud Apps не запускал второго бота с тем же TG_BOT_TOKEN (Telegram
+# отдаёт update только последнему вызвавшему getUpdates - сообщения теряются),
+# Cloud Apps теперь стартует ТОЛЬКО сайт.
+#
+# Управляется флагом BOT_AND_SCHEDULER_IN_FASTAPI:
+#   - не задан / false → Cloud Apps только сайт (миграция выполнена)
+#   - true → старое поведение (rollback на Cloud Apps, аварийный режим)
+#
+# Подробнее: deploy/digitalocean/README.md и DEPLOY_DIGITALOCEAN.md
+_BOT_AND_SCHEDULER_IN_FASTAPI = os.getenv(
+    "BOT_AND_SCHEDULER_IN_FASTAPI", ""
+).strip().lower() in ("1", "true", "yes", "on")
 
 _bot_tasks: dict = {}
 
 
 @app.on_event("startup")
 async def _start_telegram_bot():
+    if not _BOT_AND_SCHEDULER_IN_FASTAPI:
+        log.info(
+            "Telegram-бот в FastAPI отключён (BOT_AND_SCHEDULER_IN_FASTAPI != true). "
+            "Бот работает на VPS (DigitalOcean). См. deploy/digitalocean/README.md"
+        )
+        return
     try:
         from aiogram import Bot, Dispatcher
         from aiogram.client.default import DefaultBotProperties
@@ -1219,11 +1235,19 @@ async def _stop_telegram_bot():
 
 
 # ============ ARTICLES SCHEDULER (фоном вместе с FastAPI) ============
-# APScheduler-таймер, который раз в N минут запускает /write-article через
-# Claude Code, складывает результат в drafts/ и пушит в git. Безопасный
-# дефолт: если SCHEDULER_ENABLED != true в env, scheduler не стартует.
+# С мая 2026: scheduler работает на VPS через systemd timer. Cloud Apps его
+# больше не запускает — иначе два scheduler-а в разных процессах будут
+# конкурировать за git lock + bot_state.json + scheduler.lock.
+#
+# Управляется тем же флагом BOT_AND_SCHEDULER_IN_FASTAPI (см. выше).
 @app.on_event("startup")
 async def _start_articles_scheduler():
+    if not _BOT_AND_SCHEDULER_IN_FASTAPI:
+        log.info(
+            "Articles scheduler в FastAPI отключён. Scheduler работает на VPS "
+            "(systemd timer, 144 мин интервал). См. deploy/digitalocean/README.md"
+        )
+        return
     try:
         from articles_scheduler.lifespan import start_articles_scheduler
         start_articles_scheduler()
@@ -1233,6 +1257,8 @@ async def _start_articles_scheduler():
 
 @app.on_event("shutdown")
 async def _stop_articles_scheduler():
+    if not _BOT_AND_SCHEDULER_IN_FASTAPI:
+        return
     try:
         from articles_scheduler.lifespan import stop_articles_scheduler
         await stop_articles_scheduler()

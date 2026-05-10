@@ -1,0 +1,16 @@
+[Unit]
+Description=Run Liquidator scheduler every 144 minutes (10 articles/day)
+
+[Timer]
+# Первый слот через 5 минут после загрузки.
+OnBootSec=5min
+# Следующий слот через 144 мин ПОСЛЕ завершения предыдущего (не старта).
+# 1440 / 144 = ровно 10 слотов/сутки.
+OnUnitInactiveSec=144min
+# При reboot выполнить один пропущенный запуск (если был downtime).
+Persistent=true
+AccuracySec=30s
+Unit=liquidator-scheduler.service
+
+[Install]
+WantedBy=timers.target

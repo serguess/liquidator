@@ -1,0 +1,29 @@
+[Unit]
+Description=Liquidator Articles Scheduler (one slot)
+After=network-online.target liquidator-bot.service
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+User=appuser
+Group=appuser
+WorkingDirectory=/home/appuser/apps/liquidator
+EnvironmentFile=/home/appuser/apps/liquidator/.env
+Environment=PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+ExecStart=/home/appuser/apps/liquidator/.venv/bin/python -m articles_scheduler.runner
+
+Nice=10
+# TimeoutStartSec > ARTICLE_TIMEOUT_SEC (3600) + запас на git push/finalize.
+TimeoutStartSec=4500
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=liquidator-scheduler
+
+NoNewPrivileges=true
+ProtectSystem=full
+ProtectHome=read-only
+ReadWritePaths=/home/appuser/apps/liquidator /home/appuser/.git-credentials /home/appuser/.claude
+PrivateTmp=true
+
+# Claude CLI + контекст агентов up to 1.5-1.8 ГБ. Запас.
+MemoryMax=2000M

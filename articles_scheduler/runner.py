@@ -20,6 +20,17 @@ from datetime import datetime, date
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
+
+# Загружаем .env из корня проекта ДО чтения os.getenv ниже.
+# Без этого при прямом запуске `python -m articles_scheduler.runner` (на VPS
+# через systemd) module-level константы ARTICLES_PER_DAY, ARTICLE_TIMEOUT_SEC,
+# ROTATION, GITHUB_REPO и т.д. ушли бы в дефолты. На Cloud Apps это работало
+# благодаря FastAPI-lifespan, который инициализировал env заранее.
+# python-dotenv по умолчанию override=False — повторный вызов из других
+# модулей (bot/config.py делает load_dotenv тоже) безопасен.
+from dotenv import load_dotenv
+load_dotenv(ROOT / ".env")
+
 DATA_DIR = ROOT / "data"
 DRAFTS_DIR = ROOT / "drafts"
 TOPIC_MAP_DIR = DRAFTS_DIR / "_topic-map"
@@ -1174,6 +1185,24 @@ def _git_commit_and_push(slug: str, category: str, metrics: str = "") -> dict:
                 "reason": "push_failed",
                 "stderr": _mask_token((push_res.stderr or "")[-300:])}
     _safe_pipeline_log(slug, "scheduler", "git_pushed", branch=GITHUB_BRANCH)
+
+    # Sentinel `.pushed` — маркер для bot/watcher.py что push реально прошёл и
+    # Cloud Apps теперь подтягивает статью. Watcher НЕ шлёт уведомление пока
+    # маркера нет — иначе заказчик кликнет на /preview ссылку из свежего
+    # уведомления и увидит 404 (Cloud Apps ещё в процессе redeploy).
+    # Без этого маркера было окно ~30-60 сек между finalize_draft и push.
+    try:
+        slug_dir = DRAFTS_DIR / slug
+        if slug_dir.exists():
+            (slug_dir / ".pushed").write_text(
+                datetime.now().isoformat(timespec="seconds") + "\n",
+                encoding="utf-8",
+            )
+    except OSError:
+        # Не критично: в худшем случае уведомление чуть запоздает или вообще
+        # не уйдёт до следующего слота — это лучше чем 404 у заказчика.
+        log.warning("Не смог записать .pushed sentinel для slug=%s", slug)
+
     return {"committed": True, "pushed": True}
 
 
