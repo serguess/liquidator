@@ -350,7 +350,7 @@
     "osparivanie-sdelok-pri-bankrotstve": {
       "category": "yur",
       "title": "Какие сделки оспорят при банкротстве юрлица",
-      "status": "published",
+      "status": "pending_review",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -358,12 +358,12 @@
       "tg_message_id": 358,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-11T04:49:41",
-      "last_action_at": "2026-05-11T14:11:41",
+      "last_action_at": "2026-05-11T14:11:42",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": "https://pravo.shop/articles/yur/osparivanie-sdelok-pri-bankrotstve",
-      "published_at": "2026-05-11T14:11:41",
-      "articles_path": "articles/yur/osparivanie-sdelok-pri-bankrotstve.html"
+      "published_url": null,
+      "published_at": null,
+      "articles_path": null
     },
     "udershanie-iz-zarplaty-pristavami": {
       "category": "vzysk",

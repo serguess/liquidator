@@ -53,6 +53,20 @@
         "passed": false,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "kogda-dolgi-ne-spishut-pri-bankrotstve",
+      "category": "fiz",
+      "title": "Какие долги не спишут при банкротстве физлица",
+      "added_at": "2026-05-11T13:07:03.003546",
+      "char_count": 7939,
+      "cover_url": null,
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      },
+      "cover_generation_failed": true
     }
   ]
 }

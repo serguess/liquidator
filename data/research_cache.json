@@ -878,6 +878,71 @@
       "added_by_agent": "2-legal-research",
       "added_for_slug": "udershanie-iz-zarplaty-pristavami",
       "added_at": "2026-05-11"
+    },
+    {
+      "key": "bankrotstvo_fizlitso_213_4_obyazannost_pravo",
+      "claim": "Ст. 213.4 п. 1 127-ФЗ: гражданин ОБЯЗАН подать в арбитражный суд при долге от 500 000 руб. и невозможности расплатиться со всеми кредиторами - в течение 30 РАБОЧИХ дней. П. 2: вправе подать при меньшей сумме при признаках неплатёжеспособности/недостаточности имущества. П. 2.1: ИП обязан за 15 дней до подачи опубликовать уведомление в ЕФРСБ.",
+      "source_url": "https://www.consultant.ru/document/cons_doc_LAW_39331/c2c8c81ee8e4bd843286b08b10607f00ec6ae073/",
+      "source_type": "127-ФЗ ст. 213.4 п. 1, 2, 2.1",
+      "source_date": "2025",
+      "last_verified": "2026-05-11",
+      "legislation_status": "active",
+      "amendment_note": "Срок - РАБОЧИЕ дни (не календарные). Право и обязанность различаются по сумме долга.",
+      "added_by_agent": "2-legal-research",
+      "added_for_slug": "kak-podat-na-bankrotstvo-samostoyatelno",
+      "added_at": "2026-05-11"
+    },
+    {
+      "key": "bankrotstvo_fizlitso_213_3_porog_500k",
+      "claim": "Ст. 213.3 п. 2 127-ФЗ: арбитражный суд возбуждает дело о банкротстве гражданина при долге не менее 500 000 руб. и просрочке более 3 месяцев. Порог для кредиторов и уполномоченных органов. Должник вправе подать при меньшей сумме (ст. 213.4 п. 2).",
+      "source_url": "https://www.consultant.ru/document/cons_doc_LAW_39331/e3c4626012c2307fb67dad8ebe12c8b41573e713/",
+      "source_type": "127-ФЗ ст. 213.3 п. 2",
+      "source_date": "2025",
+      "last_verified": "2026-05-11",
+      "legislation_status": "active",
+      "amendment_note": null,
+      "added_by_agent": "2-legal-research",
+      "added_for_slug": "kak-podat-na-bankrotstvo-samostoyatelno",
+      "added_at": "2026-05-11"
+    },
+    {
+      "key": "bankrotstvo_fizlitso_213_13_restrukturizatsiya_usloviya",
+      "claim": "Ст. 213.13 п. 1 127-ФЗ: план реструктуризации возможен при 4 условиях: (1) есть источник дохода; (2) нет экономической судимости; (3) не признавался банкротом 5 лет; (4) план не утверждался 8 лет. Ст. 213.14 п. 2: срок плана - не более 5 лет (кредиторами) или не более 3 лет (судом без кредиторов).",
+      "source_url": "https://www.consultant.ru/document/cons_doc_LAW_39331/07305843250c57acd92d661a5f83e29056b56615/",
+      "source_type": "127-ФЗ ст. 213.13 п. 1; ст. 213.14 п. 2",
+      "source_date": "2025",
+      "last_verified": "2026-05-11",
+      "legislation_status": "active",
+      "amendment_note": null,
+      "added_by_agent": "2-legal-research",
+      "added_for_slug": "kak-podat-na-bankrotstvo-samostoyatelno",
+      "added_at": "2026-05-11"
+    },
+    {
+      "key": "bankrotstvo_fizlitso_213_25_konkursnaya_massa",
+      "claim": "Ст. 213.25 п. 1 127-ФЗ: в конкурсную массу входит всё имущество на дату решения суда и выявленное/приобретённое после. П. 3: исключается имущество, на которое нельзя обратить взыскание по ст. 446 ГПК (единственное жильё не в ипотеке, предметы быта, одежда и др.). П. 2: суд вправе по ходатайству исключить иное имущество, реализация которого не повлияет на требования кредиторов. Из доходов ежемесячно исключается ПМ на должника и иждивенцев.",
+      "source_url": "https://www.consultant.ru/document/cons_doc_LAW_39331/",
+      "source_type": "127-ФЗ ст. 213.25 п. 1, 2, 3",
+      "source_date": "2025",
+      "last_verified": "2026-05-11",
+      "legislation_status": "active",
+      "amendment_note": null,
+      "added_by_agent": "2-legal-research",
+      "added_for_slug": "kak-podat-na-bankrotstvo-samostoyatelno",
+      "added_at": "2026-05-11"
+    },
+    {
+      "key": "bankrotstvo_fizlitso_depozit_25k",
+      "claim": "При подаче заявления о банкротстве физлица в арбитражный суд гражданин вносит на депозит арбитражного суда фиксированное вознаграждение финансового управляющего за одну процедуру - 25 000 руб. (ст. 213.4 п. 4, ст. 213.9 127-ФЗ). По ходатайству суд вправе предоставить отсрочку до судебного заседания.",
+      "source_url": "https://www.consultant.ru/document/cons_doc_LAW_39331/c2c8c81ee8e4bd843286b08b10607f00ec6ae073/",
+      "source_type": "127-ФЗ ст. 213.4 п. 4, ст. 213.9",
+      "source_date": "2025",
+      "last_verified": "2026-05-11",
+      "legislation_status": "active",
+      "amendment_note": "Если проводятся и реструктуризация, и реализация - 25 000 руб. за каждую процедуру отдельно.",
+      "added_by_agent": "2-legal-research",
+      "added_for_slug": "kak-podat-na-bankrotstvo-samostoyatelno",
+      "added_at": "2026-05-11"
     }
   ]
 }

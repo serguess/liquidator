@@ -218,5 +218,57 @@
     "returncode": 0,
     "stdout_tail": "| solution-aware / consideration |\n| vzysk-15 | арест имущества приставами | solution-aware / consideration |\n| vzysk-16 | исполнительный лист как получить | solution-aware / consideration |\n| vzysk-17 | проверить долги у приставов | informational / awareness |\n| vzysk-18 | как приставы ищут имущество должника | informational / awareness |\n\nРаспределение по воронке: 4 decision + 4 consideration + 2 awareness. Все slug-и уникальны в рамках проекта. Файл записан с UTF-8, indent=2, финальным `\\n`.\n",
     "stderr_tail": ""
+  },
+  {
+    "timestamp": "2026-05-11T11:47:22",
+    "category": "fiz",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 2,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "fiz-08",
+    "topic_slug": "kogda-dolgi-ne-spishut-pri-bankrotstve",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "kogda-dolgi-ne-spishut-pri-bankrotstve",
+    "duration_sec": 4801.5,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "ctcheck:** passed (factcheck_passed: true)\n\n**Итерации:** 1 возврат на агента 4 — правка заспамленности (снижена повторяемость лемм банкротств/дела/кредитор/долг/ущерб)\n\n**Метрики text.ru:** не получены (запускаются отдельно планировщиком)\n- `textru_ai_detector`: —\n- `textru_uniqueness`: —\n- `textru_spam`: —\n\n**Статус:** `ready_for_review: true`, добавлена в очередь ревью\n**Обложка:** `cover_generation_failed: true` (fal_client не установлен в среде — обложка будет сгенерирована при публикации)\n",
+    "stderr_tail": "",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7939
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]

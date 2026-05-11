@@ -1,0 +1,23 @@
+{
+  "slug": "subsidiarka-direktora-kak-zashchititsya",
+  "passed": true,
+  "scores": {
+    "structure_overlap": 0.0,
+    "thesis_similarity": 0.026,
+    "cta_overlap": 0.0
+  },
+  "similar_articles": [
+    {
+      "slug": "bankrotstvo-ooo-poshagovo-2026",
+      "category": "yur",
+      "similarity": 0.026
+    },
+    {
+      "slug": "kak-zakryt-ooo-s-dolgami",
+      "category": "yur",
+      "similarity": -0.045
+    }
+  ],
+  "conflicts": [],
+  "recommendation": "ok"
+}
