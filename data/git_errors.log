@@ -195,3 +195,22 @@ error: cannot pull with rebase: You have unstaged changes.
 error: please commit or stash them.
 ====
 
+[2026-05-11T01:31:58] slot=osparivanie-sdelok-pri-bankrotstve category=yur action=git_push returncode=1
+--- stderr ---
+fatal: unable to get credential storage lock in 1000 ms: Read-only file system
+To https://github.com/serguess/liquidator.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/serguess/liquidator.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+====
+
+[2026-05-11T03:56:24] slot=- category=- action=git_pull returncode=128
+--- stderr ---
+error: cannot pull with rebase: You have unstaged changes.
+error: please commit or stash them.
+====
+

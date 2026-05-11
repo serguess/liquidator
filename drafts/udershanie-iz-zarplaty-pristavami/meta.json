@@ -1,0 +1,91 @@
+{
+  "slug": "udershanie-iz-zarplaty-pristavami",
+  "category": "vzysk",
+  "title": "Удержание из зарплаты приставами: сколько и как снизить",
+  "description": "Лимиты удержания по ст. 99 ФЗ-229: 50% — стандарт, 70% — по алиментам. Как сохранить прожиточный минимум и законно снизить процент удержания.",
+  "h1": "Сколько приставы могут удерживать из зарплаты: лимиты и защита",
+  "lead": "Лимиты 50% и 70% по ст. 99 229-ФЗ, защита прожиточного минимума 20 644 рублей и реальные механизмы снижения взыскания через суд и ФССП.",
+  "topic_action": "снижение удержания из зарплаты",
+  "breadcrumb_current": "Удержание из зарплаты приставами",
+  "og_image": "/assets/articles/udershanie-iz-zarplaty-pristavami.jpg",
+  "main_keyword": "удержание из зарплаты приставами",
+  "secondary_keywords": [
+    "удержание из зарплаты по исполнительному листу",
+    "максимальный процент удержания из зарплаты",
+    "прожиточный минимум при удержании приставами",
+    "как уменьшить удержание из зарплаты приставами",
+    "ст 99 229-ФЗ удержание зарплаты",
+    "50 процентов удержание зарплата пристав",
+    "70 процентов удержание алименты пристав",
+    "сохранение прожиточного минимума у пристава"
+  ],
+  "internal_links": [
+    "/articles/vzysk/snyatie-aresta-so-scheta-pristavami.html",
+    "/articles/vzysk/kak-otmenit-sudebnyj-prikaz.html"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_71450/ca5c8fd26859264950ef2c9883bc79f8e03dc823/",
+    "https://www.garant.ru/news/1919895/",
+    "https://www.consultant.ru/document/cons_doc_LAW_39570/c2b6f6265ffd7a70c9eb2effaa2a33ce46389ee3/"
+  ],
+  "faq": [
+    {
+      "question": "Можно ли снимать 50% при заработке ниже прожиточного минимума?",
+      "answer": "Порог 50% не привязан к прожиточному минимуму автоматически. ФССП удержит половину, даже если остаток окажется ниже минимума. Выход — заявление по ч. 1.1 ст. 99 229-ФЗ: тогда 20 644 рублей ежемесячно остаются у гражданина."
+    },
+    {
+      "question": "Работаю на двух работах — с каждой удержат отдельно?",
+      "answer": "Постановление уходит каждому работодателю. Но суммарное взыскание из доходов по всем местам не превышает 50% по ч. 2 ст. 99 229-ФЗ. Координацию ведёт исполнитель, ведущий производство."
+    },
+    {
+      "question": "Исполнитель снял деньги с дохода, защищённого ст. 101. Что делать?",
+      "answer": "Документы о природе поступления и жалоба — в порядке подчинённости или в суд. Срок по ст. 122 229-ФЗ — 10 дней с момента нарушения."
+    },
+    {
+      "question": "Суд вынес решение по кредиту. Как долго продолжится взыскание из зарплаты?",
+      "answer": "До полного погашения суммы по исполнительному листу. Снизить ежемесячную нагрузку можно через рассрочку по ст. 203 ГПК РФ."
+    },
+    {
+      "question": "Можно ли договориться с исполнителем об удержании 10% вместо 50%?",
+      "answer": "Нет. Он не вправе менять размер по своему усмотрению. ФССП снижает взыскание только по судебному решению — ст. 203 ГПК. Ходатайство приставу полезно как документальный след."
+    },
+    {
+      "question": "С карты списали всю зарплату в день поступления. Законно?",
+      "answer": "По ч. 4 ст. 99 229-ФЗ — в ряде случаев да. Когда деньги уже на счёте, порог 50% к ним не применяется (кроме суммы последнего периодического платежа). Защита: заявление о сохранении прожиточного минимума или обжалование конкретного производства."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [],
+  "keyword_density_main": null,
+  "main_keyword_exact_count": null,
+  "text_chars": 7476,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.092,
+  "local_spam_ngram3_repeat": 0.023,
+  "local_lexical_diversity": 0.62,
+  "local_ai_markers_density": 0.21,
+  "local_ai_markers_critical": 0,
+  "length_status": "ok",
+  "length_kind": "default",
+  "local_ai_markers_total": 2,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 0,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 13,
+  "predicted_spam_pct": 50,
+  "predicted_ai_pct": 5,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [],
+  "cover_generation_failed": true,
+  "cover_generation_error": "image_gen returned None on both attempts",
+  "date_published": "2026-05-11",
+  "date_modified": "2026-05-11",
+  "ready_for_review": true,
+  "ready_at": "2026-05-11T01:40:23Z",
+  "publication_target": "telegram_review"
+}

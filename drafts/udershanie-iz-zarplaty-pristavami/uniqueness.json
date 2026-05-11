@@ -1,0 +1,23 @@
+{
+  "slug": "udershanie-iz-zarplaty-pristavami",
+  "passed": true,
+  "scores": {
+    "structure_overlap": 0.333,
+    "thesis_similarity": 0.15,
+    "cta_overlap": 0.05
+  },
+  "similar_articles": [
+    {
+      "slug": "snyatie-aresta-so-scheta-pristavami",
+      "category": "vzysk",
+      "similarity": 0.18
+    },
+    {
+      "slug": "kak-otmenit-sudebnyj-prikaz",
+      "category": "vzysk",
+      "similarity": 0.08
+    }
+  ],
+  "conflicts": [],
+  "recommendation": "ok"
+}

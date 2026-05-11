@@ -25,5 +25,62 @@
     "stdout_tail": "d\":0,\"usage\":{\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard\",\"cache_creation\":{\"ephemeral_1h_input_tokens\":0,\"ephemeral_5m_input_tokens\":0},\"inference_geo\":\"\",\"iterations\":[],\"speed\":\"standard\"},\"modelUsage\":{},\"permission_denials\":[],\"uuid\":\"1f6d9adf-4fd0-4d70-b6b1-f3e50c5e8788\",\"errors\":[\"EROFS: read-only file system, open '/home/appuser/.claude.json'\"]}\n",
     "stderr_tail": "",
     "metrics": null
+  },
+  {
+    "timestamp": "2026-05-11T00:49:36",
+    "category": "yur",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": false,
+      "stdout_tail": "",
+      "stderr_tail": "error: cannot pull with rebase: You have unstaged changes.\nerror: please commit or stash them.\n"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 1,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "yur-06",
+    "topic_slug": "osparivanie-sdelok-pri-bankrotstve",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [
+        "spam_risk: 2 флагов (ngram3_repeat_share>0.03 (=0.051), lexical_diversity<0.62 (=0.608)), top-5: ['долг', 'актив', 'подач', 'управляющий', 'заявлен']"
+      ],
+      "warnings": [],
+      "recommendations": [
+        "reduce_repetition: разбавить топ-5 частотных лемм местоимениями/перифразом — ['долг', 'актив', 'подач', 'управляющий', 'заявлен']"
+      ],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "osparivanie-sdelok-pri-bankrotstve",
+    "duration_sec": 2540.9,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "itical / 0 high / 4 low (все из шаблона сайта, не из контента)\n- Обложка: `cover_generation_failed: true` (fal-client не установлен, scheduler знает)\n\n**Text.ru метрики:** не заполнены (внешняя проверка, выполняется вручную)\n- `textru_ai_detector`: null\n- `textru_uniqueness`: null\n- `textru_spam`: null\n\n**Файл:** `drafts/osparivanie-sdelok-pri-bankrotstve/article.html`\nСтатья добавлена в `drafts/_review_queue.json` со статусом `ready_for_review: true`. Публикация — через кнопку в Telegram-боте.\n",
+    "stderr_tail": "",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7538
+    },
+    "git": {
+      "committed": true,
+      "pushed": false,
+      "reason": "push_failed",
+      "stderr": "tains work that you do\nhint: not have locally. This is usually caused by another repository pushing\nhint: to the same ref. You may want to first integrate the remote changes\nhint: (e.g., 'git pull ...') before pushing again.\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\n"
+    }
   }
 ]
