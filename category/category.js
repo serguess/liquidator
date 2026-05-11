@@ -86,7 +86,7 @@
     }
   };
 
-  fetch('../articles.json', { cache: 'no-cache' })
+  fetch('../articles.json')
     .then(r => r.json())
     .then(data => {
       all = (data.articles || []).sort((a, b) => (b.dateIso || '').localeCompare(a.dateIso || ''));

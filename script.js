@@ -2,8 +2,6 @@
   const loader = document.getElementById('siteLoader');
   if (!loader) return;
 
-  document.body.style.overflow = 'hidden';
-
   function kickHeroVideo() {
     const heroVideo = document.getElementById('heroLion');
     if (!heroVideo || typeof heroVideo.play !== 'function') return;
@@ -47,12 +45,11 @@
 
   function hideLoader() {
     loader.classList.add('is-hidden');
-    document.body.style.overflow = '';
     kickHeroVideo();
     setTimeout(() => loader.remove(), 600);
   }
 
-  const MIN_LOADER_MS = 1600;
+  const MIN_LOADER_MS = 600;
   const startedAt = performance.now();
   function hideWithDelay() {
     const elapsed = performance.now() - startedAt;
@@ -525,7 +522,7 @@ if (lion) {
   if (!track) return;
 
   function loadArticles() {
-    return fetch('articles.json', { cache: 'no-cache' })
+    return fetch('articles.json')
       .then(r => r.ok ? r.json() : null)
       .then(data => (data && data.articles) ? data.articles : null)
       .catch(() => null)

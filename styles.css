@@ -3300,10 +3300,11 @@ a {
 .category-bg__blob {
   position: absolute;
   border-radius: 50%;
-  filter: blur(70px);
+  filter: blur(40px);
   opacity: 0.9;
-  will-change: transform;
-  /* GPU-ускорение для smooth анимаций */
+  /* GPU-ускорение для smooth анимаций. will-change убран намеренно:
+     постоянный hint создавал large GPU texture для каждого blob × 4,
+     перегружал компоновщик во время холодной загрузки и тормозил скролл. */
   transform: translateZ(0);
   backface-visibility: hidden;
 }
@@ -3346,10 +3347,9 @@ a {
   opacity: 0.95;
   mix-blend-mode: screen;
   animation: catBokehDrift 28s linear infinite;
-  /* GPU-ускорение для плавной анимации */
+  /* GPU-ускорение для плавной анимации (will-change убран — см. .category-bg__blob) */
   transform: translateZ(0);
   backface-visibility: hidden;
-  will-change: transform;
 }
 .category-bg__bokeh::after {
   content: '';
@@ -3381,8 +3381,8 @@ a {
   transform: translateZ(0);
   backface-visibility: hidden;
 }
-.category-bg__wave--1 { animation: catWaveFlow1 16s ease-in-out infinite alternate; transform-origin: center; will-change: transform; }
-.category-bg__wave--2 { animation: catWaveFlow2 20s ease-in-out infinite alternate; transform-origin: center; will-change: transform; }
+.category-bg__wave--1 { animation: catWaveFlow1 16s ease-in-out infinite alternate; transform-origin: center; }
+.category-bg__wave--2 { animation: catWaveFlow2 20s ease-in-out infinite alternate; transform-origin: center; }
 .category-bg__grain {
   position: absolute; inset: 0;
   background-image: radial-gradient(rgba(0,0,0,0.04) 1px, transparent 1px);

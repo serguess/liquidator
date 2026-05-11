@@ -112,9 +112,15 @@ async def _cache_headers(request: Request, call_next):
     elif path.endswith(_CACHE_MEDIUM_EXT):
         response.headers["Cache-Control"] = "public, max-age=2592000"
     elif path.endswith(".html") or path == "/" or path.endswith("/"):
-        response.headers["Cache-Control"] = "public, max-age=3600, must-revalidate"
+        # Без must-revalidate: при reload во время редеплоя браузер не виснет
+        # на conditional GET к 502, а сразу отдаёт страницу из кэша. SWR
+        # обновит фоном.
+        response.headers["Cache-Control"] = "public, max-age=300, stale-while-revalidate=86400"
     elif path.endswith(".json"):
-        response.headers["Cache-Control"] = "public, max-age=3600"
+        # SWR: articles.json/sitemap отдаются мгновенно из кэша, валидация
+        # летит в фон. Если сервер не отвечает - юзер видит старую версию,
+        # никакого зависания.
+        response.headers["Cache-Control"] = "public, max-age=60, stale-while-revalidate=86400"
     return response
 
 
