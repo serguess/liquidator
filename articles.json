@@ -2,6 +2,19 @@
   "generated": "2026-05-11",
   "articles": [
     {
+      "slug": "uproshchennoe-bankrotstvo-yurlica",
+      "cat": "yur",
+      "catLabel": "Банкротство юридических лиц",
+      "title": "Упрощённое банкротство юрлица: условия и порядок",
+      "desc": "Когда компания может пройти банкротство по упрощённой процедуре - без наблюдения и финансового оздоровления. Ликвидируемый и отсутствующий должник: отличия, сроки, риски.",
+      "date": "11 мая 2026",
+      "dateIso": "2026-05-11",
+      "read": "5 мин.",
+      "tone": "b",
+      "img": "https://res.cloudinary.com/dmsaaiwkm/image/upload/c_fill,ar_191:100,g_center,f_auto,q_auto,w_1920/v1778399024/articles/uproshchennoe-bankrotstvo-yurlica-cover.jpg",
+      "url": "articles/yur/uproshchennoe-bankrotstvo-yurlica"
+    },
+    {
       "slug": "dosudebnaya-pretenziya-obrazec",
       "cat": "vzysk",
       "catLabel": "Взыскание задолженности",

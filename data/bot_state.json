@@ -261,7 +261,7 @@
     "uproshchennoe-bankrotstvo-yurlica": {
       "category": "yur",
       "title": "Упрощённое банкротство юрлица: условия и порядок",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -269,10 +269,12 @@
       "tg_message_id": null,
       "tg_chat_id": null,
       "first_seen_at": "2026-05-10T15:10:41",
-      "last_action_at": "2026-05-10T15:10:41",
+      "last_action_at": "2026-05-11T17:36:41",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null
+      "published_url": "https://pravo.shop/articles/yur/uproshchennoe-bankrotstvo-yurlica",
+      "published_at": "2026-05-11T17:36:41",
+      "articles_path": "articles/yur/uproshchennoe-bankrotstvo-yurlica.html"
     },
     "kak-podat-na-bankrotstvo-kontragenta": {
       "category": "yur",
