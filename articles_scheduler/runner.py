@@ -1101,6 +1101,7 @@ def _git_commit_and_push(slug: str, category: str, metrics: str = "") -> dict:
         "data/git_errors.log",
         "data/published_index.json",
         "drafts/_topic-map/",
+        "drafts/_review_queue.json",
     ]
     # Добавляем пути ПО ОДНОМУ с флагом -A (handles add/modify/delete).
     # Раньше делали единым batch'ем `git add -- path1 path2 ...`, но если хоть
@@ -1355,6 +1356,7 @@ def _git_commit_qa_only(slug: str) -> dict:
         "data/scheduler_log.json",
         "data/git_errors.log",
         "data/bot_state.json",
+        "drafts/_review_queue.json",
     ]
     _git_run_with_retry(
         ["git", "add", "--", *paths_to_add],
@@ -1396,7 +1398,7 @@ def _git_commit_log_only() -> dict:
     _git_run_with_retry(
         ["git", "add", "--", "data/scheduler_log.json",
          "data/bot_state.json", "data/git_errors.log",
-         "drafts/_topic-map/"],
+         "drafts/_topic-map/", "drafts/_review_queue.json"],
         env=env, cwd=cwd,
     )
     commit_res = _git_run_with_retry(
