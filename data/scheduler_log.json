@@ -82,5 +82,59 @@
       "reason": "push_failed",
       "stderr": "tains work that you do\nhint: not have locally. This is usually caused by another repository pushing\nhint: to the same ref. You may want to first integrate the remote changes\nhint: (e.g., 'git pull ...') before pushing again.\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\n"
     }
+  },
+  {
+    "timestamp": "2026-05-11T03:56:24",
+    "category": "vzysk",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": false,
+      "stdout_tail": "",
+      "stderr_tail": "error: cannot pull with rebase: You have unstaged changes.\nerror: please commit or stash them.\n"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 2,
+      "pushed": false,
+      "stderr": "ranch is behind\nhint: its remote counterpart. Integrate the remote changes (e.g.\nhint: 'git pull ...') before pushing again.\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\n",
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "vzysk-08",
+    "topic_slug": "udershanie-iz-zarplaty-pristavami",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "udershanie-iz-zarplaty-pristavami",
+    "duration_sec": 2661.1,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "eck | passed |\n| Quality gate | passed, blockers: 0 |\n| Готов к ревью | да (`ready_for_review: true`) |\n| Файл | `drafts/udershanie-iz-zarplaty-pristavami/article.html` |\n\n**Предиктивные метрики (text.ru proxy):**\n- `textru_spam`: 50%\n- `textru_ai_detector`: 5%\n- `textru_uniqueness`: 87%\n\n> Обложка не сгенерирована (`fal_client` не установлен) — статья идёт в очередь ревью с флагом `cover_generation_failed=true`. Обложку сгенерирует scheduler при следующем запуске или при публикации через бота.\n",
+    "stderr_tail": "",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7476
+    },
+    "git": {
+      "committed": true,
+      "pushed": false,
+      "reason": "push_failed",
+      "stderr": "://github.com/serguess/liquidator.git'\nhint: Updates were rejected because the tip of your current branch is behind\nhint: its remote counterpart. Integrate the remote changes (e.g.\nhint: 'git pull ...') before pushing again.\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\n"
+    }
   }
 ]

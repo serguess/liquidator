@@ -214,3 +214,15 @@ error: cannot pull with rebase: You have unstaged changes.
 error: please commit or stash them.
 ====
 
+[2026-05-11T04:40:46] slot=udershanie-iz-zarplaty-pristavami category=vzysk action=git_push returncode=1
+--- stderr ---
+fatal: unable to get credential storage lock in 1000 ms: Read-only file system
+To https://github.com/serguess/liquidator.git
+ ! [rejected]        main -> main (non-fast-forward)
+error: failed to push some refs to 'https://github.com/serguess/liquidator.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+====
+

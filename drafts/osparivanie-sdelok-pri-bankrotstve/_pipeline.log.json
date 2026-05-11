@@ -2,8 +2,8 @@
   "slug": "osparivanie-sdelok-pri-bankrotstve",
   "category": null,
   "started_at": "2026-05-11T01:24:21",
-  "finished_at": null,
-  "total_duration_sec": null,
+  "finished_at": "2026-05-11T01:31:58",
+  "total_duration_sec": 457.0,
   "current_iteration": 2,
   "events": [
     {
@@ -36,6 +36,34 @@
       "recommendations": [
         "reduce_repetition: разбавить топ-5 частотных лемм местоимениями/перифразом — ['долг', 'актив', 'подач', 'управляющий', 'заявлен']"
       ]
+    },
+    {
+      "ts": "2026-05-11T01:31:58",
+      "agent": "scheduler",
+      "event": "git_push_failed",
+      "iteration": 2,
+      "reason": "push_failed",
+      "stderr_tail": "hint: to the same ref. You may want to first integrate the remote changes\nhint: (e.g., 'git pull ...') before pushing again.\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\n"
+    },
+    {
+      "ts": "2026-05-11T01:31:58",
+      "agent": "scheduler",
+      "event": "slot_finished",
+      "status": "ok",
+      "iteration": 2
     }
-  ]
+  ],
+  "final_status": "ok",
+  "metrics": {
+    "ai_detector": null,
+    "uniqueness": null,
+    "spam": null,
+    "text_chars": 7538
+  },
+  "git": {
+    "committed": true,
+    "pushed": false,
+    "reason": "push_failed",
+    "stderr": "tains work that you do\nhint: not have locally. This is usually caused by another repository pushing\nhint: to the same ref. You may want to first integrate the remote changes\nhint: (e.g., 'git pull ...') before pushing again.\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\n"
+  }
 }

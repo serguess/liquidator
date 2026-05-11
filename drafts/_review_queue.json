@@ -12,6 +12,34 @@
         "exit_code": 0,
         "note": "soft-fail spam_risk (exit=0). Метрические fail не блокируют pipeline с 08.05.2026."
       }
+    },
+    {
+      "slug": "osparivanie-sdelok-pri-bankrotstve",
+      "category": "yur",
+      "title": "Какие сделки оспорят при банкротстве юрлица",
+      "added_at": "2026-05-11T01:31:38.302712",
+      "char_count": 7538,
+      "cover_url": null,
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": false,
+        "hard_failed": false
+      },
+      "cover_generation_failed": true
+    },
+    {
+      "slug": "udershanie-iz-zarplaty-pristavami",
+      "category": "vzysk",
+      "title": "Удержание из зарплаты приставами: сколько и как снизить",
+      "added_at": "2026-05-11T04:40:23.126562",
+      "char_count": 7476,
+      "cover_url": null,
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      },
+      "cover_generation_failed": true
     }
   ]
 }
