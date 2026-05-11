@@ -220,18 +220,27 @@
     "dosudebnaya-pretenziya-obrazec": {
       "category": "vzysk",
       "title": "Досудебная претензия должнику: образец и порядок",
-      "status": "pending_review",
-      "current_version": "2.0",
+      "status": "published",
+      "current_version": "2.1",
       "versions": [
-        "2.0"
+        "2.0",
+        "2.1"
       ],
       "tg_message_id": null,
       "tg_chat_id": null,
       "first_seen_at": "2026-05-10T15:10:41",
-      "last_action_at": "2026-05-10T15:10:41",
-      "edits_history": [],
+      "last_action_at": "2026-05-11T17:03:48",
+      "edits_history": [
+        {
+          "version": "2.1",
+          "edit_text": "К этой статье добавь информацию, ты не очень широко раскрыл, где нужно досудебный порядок соблюдать, где не нужно, соответственно добавь прямо списком где-нибудь в самой статье, чтобы это лаконично все выглядело. или дело, обязательно предназначенный досудебный порядок урегулирования спором, предусмотренным федеральными законами. Найди его, он есть ссылкой в пункте 3 статьи 132 ГПК РФ, там как раз таки перечислены основания, при которых требуется обязательный досудебный порядок. Добавь это в статью и пришли мне готовые варианты.",
+          "applied_at": "2026-05-11T16:53:27"
+        }
+      ],
       "rejection_reason": null,
-      "published_url": null
+      "published_url": "https://pravo.shop/articles/vzysk/dosudebnaya-pretenziya-obrazec",
+      "published_at": "2026-05-11T17:03:48",
+      "articles_path": "articles/vzysk/dosudebnaya-pretenziya-obrazec.html"
     },
     "kollektory-prava-i-zashchita": {
       "category": "vzysk",
