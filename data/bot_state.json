@@ -284,7 +284,7 @@
     "okonchanie-ip-po-state-46": {
       "category": "vzysk",
       "title": "Ст. 46 ФЗ-229: что значит окончание производства",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -292,10 +292,12 @@
       "tg_message_id": 312,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-10T15:10:41",
-      "last_action_at": "2026-05-10T15:10:41",
+      "last_action_at": "2026-05-11T16:29:22",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null
+      "published_url": "https://pravo.shop/articles/vzysk/okonchanie-ip-po-state-46",
+      "published_at": "2026-05-11T16:29:22",
+      "articles_path": "articles/vzysk/okonchanie-ip-po-state-46.html"
     },
     "subsidiarka-direktora-kak-zashchititsya": {
       "category": "yur",
