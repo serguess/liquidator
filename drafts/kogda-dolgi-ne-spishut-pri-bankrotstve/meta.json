@@ -1,0 +1,105 @@
+{
+  "slug": "kogda-dolgi-ne-spishut-pri-bankrotstve",
+  "category": "fiz",
+  "title": "Какие долги не спишут при банкротстве физлица",
+  "description": "Разбираем долги по ст. 213.28 ФЗ-127: алименты, текущие платежи, вред жизни и здоровью, субсидиарная ответственность, долги из недобросовестных действий - что останется после банкротства.",
+  "h1": "Какие долги не спишут при банкротстве физического лица",
+  "lead": "Ст. 213.28 127-ФЗ закрепляет три группы долгов, которые сохраняются после завершения процедуры банкротства гражданина - независимо от суммы и добросовестности.",
+  "topic_action": "проверку долгов перед банкротством",
+  "breadcrumb_current": "Какие долги не спишут при банкротстве",
+  "og_image": "/assets/articles/kogda-dolgi-ne-spishut-pri-bankrotstve.jpg",
+  "main_keyword": "какие долги не списываются при банкротстве физического лица",
+  "secondary_keywords": [
+    "долги которые не списывают при банкротстве",
+    "что не спишут при банкротстве физлица",
+    "алименты при банкротстве не списываются",
+    "текущие платежи при банкротстве",
+    "субсидиарная ответственность при банкротстве физлица",
+    "статья 213.28 ФЗ-127 освобождение от долгов",
+    "долги из-за недобросовестности должника",
+    "вред жизни и здоровью при банкротстве не спишут",
+    "что останется после банкротства физлица"
+  ],
+  "internal_links": [
+    "/articles/fiz/vnesudebnoe-bankrotstvo-cherez-mfc-2026.html",
+    "/articles/fiz/bankrotstvo-pensionera.html",
+    "/articles/fiz/skolko-stoit-bankrotstvo-fizicheskogo-lica.html",
+    "/articles/fiz/bankrotstvo-suprugov-sovmestnoe.html"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/b919efeffaee7c5a42d9c3d755951599d9b55288/",
+    "https://www.vsrf.ru/documents/own/29159/"
+  ],
+  "faq": [
+    {
+      "question": "Спишут ли долг по алиментам, если он накопился до банкротства?",
+      "answer": "Нет. Алиментная задолженность не аннулируется ни при каком итоге производства. Взыскатель вправе предъявить исполнительный лист на всю непогашенную часть даже спустя годы."
+    },
+    {
+      "question": "Текущие платежи - это только ЖКХ? Что ещё попадает в эту категорию?",
+      "answer": "Нет, перечень шире. К текущим относятся любые обязанности, возникшие после того, как суд принял заявление: съём жилья, новые займы, налоговые начисления в ходе дела. Всё это остаётся на гражданине."
+    },
+    {
+      "question": "Если я был директором и меня привлекли к субсидиарной ответственности - это спишется при моём банкротстве?",
+      "answer": "Нет. Корпоративная субсидиарная ответственность не аннулируется даже после признания физического лица несостоятельным. Займодавцы организации вправе взыскивать её и дальше."
+    },
+    {
+      "question": "Мошенничество или ложные сведения кредитору: как суд это узнает?",
+      "answer": "Финансовый управляющий анализирует историю каждой задолженности. Поддельные справки при получении займа - повод для займодавца обратиться в суд. Факт мошенничества устанавливается отдельным судебным актом."
+    },
+    {
+      "question": "Если долг не попал в список заявления, его точно не спишут?",
+      "answer": "Нет, это заблуждение. П. 3 ст. 213.28 прямо распространяет освобождение на незаявленные позиции. Кредитор может отсутствовать в реестре, и его претензия всё равно погасится."
+    },
+    {
+      "question": "Уголовный штраф остаётся после банкротства физлица?",
+      "answer": "Да. Это публично-правовое обязательство, неразрывно связанное с личностью осуждённого. Суд оставит его в силе вне зависимости от итогов производства."
+    },
+    {
+      "question": "Вред чужой машине по ДТП по неосторожности - спишут или нет?",
+      "answer": "Зависит от квалификации. Простая неосторожность - основание для погашения. Если вина признана грубой или доказан умысел - претензия не аннулируется согласно п. 6 ст. 213.28."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "f1-f20 verified against research.json, all last_verified 2026-05-11, legislation_status active",
+    "Iteration 2: rebuilt body.html from updated draft.md, fixed structure and placeholders",
+    "Вред жизни/здоровью (п.5, любая вина) vs вред имуществу (п.6, умысел/грубая неосторожность) - разграничение корректно",
+    "Ссылка на subsidiarka-direktora-kak-zashchititsya не поставлена - статья draft_pending",
+    "Административный штраф - правильно разграничены два случая (обычный долг vs ответственность за банкротство по п.4)",
+    "anti_template: все шаблонные фразы категории 11 перефразированы",
+    "quality_gate passed: lexical_diversity=0.62, ngram3=0.019, no blockers"
+  ],
+  "keyword_density_main": 0.015,
+  "main_keyword_exact_count": 1,
+  "text_chars": 7939,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.084,
+  "local_spam_ngram3_repeat": 0.019,
+  "local_lexical_diversity": 0.62,
+  "local_ai_markers_density": 0.2,
+  "local_ai_markers_critical": 0,
+  "local_ai_markers_total": 2,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 0,
+  "local_first_person_singular_hits": 0,
+  "length_status": "warn",
+  "length_kind": "default",
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 21,
+  "predicted_spam_pct": 50,
+  "predicted_ai_pct": 5,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [],
+  "cover_generation_failed": true,
+  "cover_generation_error": "image_gen returned None on both attempts",
+  "date_published": "2026-05-11",
+  "date_modified": "2026-05-11",
+  "ready_for_review": true,
+  "ready_at": "2026-05-11T10:07:02Z",
+  "publication_target": "telegram_review"
+}

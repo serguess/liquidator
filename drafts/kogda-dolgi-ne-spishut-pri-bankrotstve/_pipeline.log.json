@@ -1,0 +1,37 @@
+{
+  "slug": "kogda-dolgi-ne-spishut-pri-bankrotstve",
+  "category": null,
+  "started_at": "2026-05-11T12:37:42",
+  "finished_at": null,
+  "total_duration_sec": null,
+  "current_iteration": 2,
+  "events": [
+    {
+      "ts": "2026-05-11T12:37:42",
+      "agent": "4-writer",
+      "event": "iteration_returned",
+      "iteration": 2,
+      "reason": "spam_risk: ngram3_repeat_share=0.056 (>0.03), lexical_diversity=0.599 (<0.62)",
+      "recommendation": "reduce_repetition: банкротств(9x)→процедура/дело, дела(8x)→процесса/разбирательства, кредитор(8x)→займодавец/заявитель, долг(7x)→обязательство/задолженность, ущерб(7x)→вред/убытки — снизить каждую лемму минимум на 30%"
+    },
+    {
+      "ts": "2026-05-11T13:07:23",
+      "agent": "scheduler",
+      "event": "slot_started",
+      "iteration": 2,
+      "category": "fiz",
+      "today_count": 2,
+      "limit": 10,
+      "write_article_duration_sec": 4801.5
+    },
+    {
+      "ts": "2026-05-11T13:07:24",
+      "agent": "quality_gate",
+      "event": "passed",
+      "iteration": 2,
+      "blockers": [],
+      "warnings": [],
+      "recommendations": []
+    }
+  ]
+}
