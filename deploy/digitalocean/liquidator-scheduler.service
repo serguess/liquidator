@@ -10,11 +10,18 @@ Group=appuser
 WorkingDirectory=/home/appuser/apps/liquidator
 EnvironmentFile=/home/appuser/apps/liquidator/.env
 Environment=PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+# Гарантируем что критичные python-зависимости в venv до старта слота.
+# Если хоть один импорт упал — автоматически переустанавливаем requirements.
+# Защита от ситуации когда venv пересоздан без полной переустановки
+# (10 мая 2026 fal-client пропал → статьи сутки выходили без обложек).
+# Накладные ~200мс при нормальной ситуации; ~30-90с при self-heal.
+ExecStartPre=/bin/bash -c '/home/appuser/apps/liquidator/.venv/bin/python -c "import fal_client, cloudinary, httpx, dotenv" || /home/appuser/apps/liquidator/.venv/bin/pip install -r /home/appuser/apps/liquidator/requirements.txt'
 ExecStart=/home/appuser/apps/liquidator/.venv/bin/python -m articles_scheduler.runner
 
 Nice=10
-# TimeoutStartSec > ARTICLE_TIMEOUT_SEC (3600) + запас на git push/finalize.
-TimeoutStartSec=4500
+# TimeoutStartSec = SLOT_BUDGET_SEC (5100) + запас на git push/finalize/self-heal
+# pip install. На VPS уже стояло 6000 — синхронизируем шаблон с реальностью.
+TimeoutStartSec=6000
 StandardOutput=journal
 StandardError=journal
 SyslogIdentifier=liquidator-scheduler
