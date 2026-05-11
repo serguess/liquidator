@@ -304,5 +304,49 @@
     "stdout_tail": "",
     "stderr_tail": "\n[scheduler] killed by heartbeat timeout (>1800s of silence)",
     "metrics": null
+  },
+  {
+    "timestamp": "2026-05-11T17:39:22",
+    "category": "vzysk",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "mode": "new",
+    "topic_id": "vzysk-09",
+    "topic_slug": "zapret-vyezda-za-rubezh-za-dolgi",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "zapret-vyezda-za-rubezh-za-dolgi",
+    "duration_sec": 3941.0,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "Д→ФСБ)\n- Фактчек (агент 6): PASSED (исправлена ссылка ч.11→ч.10 ст.67 ФЗ-229)\n- Quality gate: PASSED, 0 блокеров, 0 предупреждений\n- ready_for_review: true\n\n**Метрики text.ru (предикторные):**\n- `textru_ai_detector`: ~5%\n- `textru_uniqueness`: ~87%\n- `textru_spam`: ~50%\n\n*Метрики text.ru — предикторные (реальные появятся после публикации через бота)*\n\n**Примечание:** обложка не сгенерирована (`cover_generation_failed: true`) — нет модуля `fal_client`. Статья всё равно добавлена в очередь ревью.\n",
+    "stderr_tail": "",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 6600
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]
