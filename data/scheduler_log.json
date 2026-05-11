@@ -270,5 +270,39 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-05-11T15:07:20",
+    "category": "yur",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Updating 6d76296..c97bb3d\nFast-forward\n deploy/digitalocean/liquidator-scheduler.timer | 25 ++++++++++++++++++++-----\n 1 file changed, 20 insertions(+), 5 deletions(-)\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 1,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "yur-07",
+    "topic_slug": "likvidaciya-ooo-bez-dolgov",
+    "status": "failed",
+    "slug": "likvidaciya-ooo-bez-dolgov",
+    "duration_sec": 1911.5,
+    "returncode": -1,
+    "rescued_after_failure": false,
+    "stdout_tail": "",
+    "stderr_tail": "\n[scheduler] killed by heartbeat timeout (>1800s of silence)",
+    "metrics": null
   }
 ]

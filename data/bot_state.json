@@ -419,5 +419,15 @@
       "published_at": "2026-05-11T13:47:28",
       "articles_path": "articles/fiz/kogda-dolgi-ne-spishut-pri-bankrotstve.html"
     }
-  }
+  },
+  "pending_actions": [
+    {
+      "action": "publish",
+      "slug": "sudebnaya-praktika-edinstvennoe-zhilye-2026",
+      "version": "2.0",
+      "chat_id": 144472991,
+      "reply_to_message_id": 317,
+      "queued_at": "2026-05-11T15:23:22"
+    }
+  ]
 }
