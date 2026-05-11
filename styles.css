@@ -1,3 +1,24 @@
+/* Локальные шрифты в /assets/fonts/. Самые ходовые веса (Manrope 500,
+   Cormorant Garamond 700) загружаются с того же домена → нет блокирующего
+   запроса к Google CDN, нет CLS, кэш 30 дней. Остальные веса всё ещё
+   подтягиваются через Google Fonts <link> в HTML. */
+@font-face {
+  font-family: 'Manrope';
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+  src: url('/assets/fonts/manrope-500.woff2') format('woff2'),
+       url('/assets/fonts/manrope-500.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  src: url('/assets/fonts/cormorant-garamond-700.woff2') format('woff2'),
+       url('/assets/fonts/cormorant-garamond-700.ttf') format('truetype');
+}
+
 /* Fallback шрифты с подогнанными метриками - подменяются на Google Fonts без видимого скачка */
 @font-face {
   font-family: 'Manrope Fallback';
