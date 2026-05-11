@@ -350,7 +350,7 @@
     "osparivanie-sdelok-pri-bankrotstve": {
       "category": "yur",
       "title": "Какие сделки оспорят при банкротстве юрлица",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -361,14 +361,14 @@
       "last_action_at": "2026-05-11T14:11:42",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
-      "published_at": null,
+      "published_url": "https://pravo.shop/articles/yur/osparivanie-sdelok-pri-bankrotstve",
+      "published_at": "2026-05-11T14:57:29",
       "articles_path": null
     },
     "udershanie-iz-zarplaty-pristavami": {
       "category": "vzysk",
       "title": "Удержание из зарплаты приставами: сколько и как снизить",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -379,8 +379,8 @@
       "last_action_at": "2026-05-11T14:11:22",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
-      "published_at": null,
+      "published_url": "https://pravo.shop/articles/vzysk/udershanie-iz-zarplaty-pristavami",
+      "published_at": "2026-05-11T14:57:29",
       "articles_path": null
     },
     "kak-podat-na-bankrotstvo-samostoyatelno": {
