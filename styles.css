@@ -3304,12 +3304,36 @@ a {
   background: rgba(20, 25, 34, 0.88);
   transition: background-color 0.35s ease;
 }
+/* Анимации фона остановлены - блобы статичны. */
 .category-page .category-bg__blob,
 .category-page .category-bg__bokeh,
 .category-page .category-bg__bokeh::after,
 .category-page .category-bg__wave--1,
 .category-page .category-bg__wave--2 {
   animation: none !important;
+}
+/* КРИТИЧНО: убрать GPU-promotion с фоновых элементов. translateZ(0)+
+   backface-visibility создавали отдельный compositor layer на каждый
+   blob/bokeh/wave (нужно было только для smooth animation, которой
+   больше нет). 8 ненужных GPU layers пинились в памяти и заставляли
+   шапку дёргаться при transition max-width. */
+.category-page .category-bg__blob,
+.category-page .category-bg__bokeh,
+.category-page .category-bg__wave {
+  transform: none !important;
+  backface-visibility: visible !important;
+}
+/* will-change: contents на .category-bg держал full-viewport buffer
+   в GPU постоянно - забирал ресурсы у анимации шапки. */
+.category-page .category-bg {
+  will-change: auto !important;
+}
+/* max-width transition на шапке - layout-bound, не может быть smooth.
+   На category-page коллапс мгновенный: без рывка, без layout reflow
+   per-frame. */
+.category-page .header,
+.category-page .header__nav {
+  transition: none !important;
 }
 
 .category-bg {
