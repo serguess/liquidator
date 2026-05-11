@@ -36,3 +36,4 @@ data/*
 agent-plan/
 
 # .claude/ - НЕ игнорируем: промпты агентов в репо, заказчик их правит
+data/research_cache.json

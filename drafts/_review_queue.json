@@ -67,6 +67,34 @@
         "hard_failed": false
       },
       "cover_generation_failed": true
+    },
+    {
+      "slug": "cifrovoj-rubl-i-bankrotstvo",
+      "category": "news",
+      "title": "Цифровой рубль и взыскание долгов: что меняется",
+      "added_at": "2026-05-11T20:31:36.332380",
+      "char_count": 6201,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1778520695/articles/cifrovoj-rubl-i-bankrotstvo-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      },
+      "cover_generation_failed": true
+    },
+    {
+      "slug": "zapret-vyezda-za-rubezh-za-dolgi",
+      "category": "vzysk",
+      "title": "Запрет выезда за рубеж за долги: как снять",
+      "added_at": "2026-05-11T20:31:53.382738",
+      "char_count": 6600,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1778520712/articles/zapret-vyezda-za-rubezh-za-dolgi-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      },
+      "cover_generation_failed": true
     }
   ]
 }
