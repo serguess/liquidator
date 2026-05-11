@@ -3328,13 +3328,11 @@ a {
 .category-page .category-bg {
   will-change: auto !important;
 }
-/* max-width transition на шапке - layout-bound, не может быть smooth.
-   На category-page коллапс мгновенный: без рывка, без layout reflow
-   per-frame. */
-.category-page .header,
-.category-page .header__nav {
-  transition: none !important;
-}
+/* Шапка анимируется как на главной. Раньше тут стоял transition: none
+   из-за того что композитор был перегружен (12+ layers) и layout-bound
+   анимация max-width дёргалась. После того как убрали will-change:
+   contents и translateZ promotion с фоновых слоёв - layers стало 3-4,
+   композитор справляется со smooth max-width transition. */
 
 .category-bg {
   position: fixed; inset: 0;
