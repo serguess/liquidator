@@ -398,7 +398,7 @@
     "kogda-dolgi-ne-spishut-pri-bankrotstve": {
       "category": "fiz",
       "title": "Какие долги не спишут при банкротстве физлица",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -406,10 +406,12 @@
       "tg_message_id": 365,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-11T13:12:44",
-      "last_action_at": "2026-05-11T13:12:44",
+      "last_action_at": "2026-05-11T13:47:28",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null
+      "published_url": "https://pravo.shop/articles/fiz/kogda-dolgi-ne-spishut-pri-bankrotstve",
+      "published_at": "2026-05-11T13:47:28",
+      "articles_path": "articles/fiz/kogda-dolgi-ne-spishut-pri-bankrotstve.html"
     }
   }
 }
