@@ -1186,11 +1186,18 @@ def _git_commit_and_push(slug: str, category: str, metrics: str = "") -> dict:
                 "stderr": _mask_token((push_res.stderr or "")[-300:])}
     _safe_pipeline_log(slug, "scheduler", "git_pushed", branch=GITHUB_BRANCH)
 
-    # Sentinel `.pushed` — маркер для bot/watcher.py что push реально прошёл и
-    # Cloud Apps теперь подтягивает статью. Watcher НЕ шлёт уведомление пока
-    # маркера нет — иначе заказчик кликнет на /preview ссылку из свежего
-    # уведомления и увидит 404 (Cloud Apps ещё в процессе redeploy).
-    # Без этого маркера было окно ~30-60 сек между finalize_draft и push.
+    # Health-check Cloud Apps перед созданием .pushed sentinel.
+    # После git push GitHub Actions/Cloud Apps webhook триггерит redeploy
+    # сайта, который занимает 30-120 сек. Если watcher отправит уведомление
+    # СРАЗУ после push, заказчик кликнет на /preview ссылку и получит 401/404
+    # потому что Cloud Apps ещё доделывает redeploy.
+    #
+    # Делаем GET на /preview/{slug}?t=TOKEN и ждём 200. Только после этого
+    # пишем .pushed, который и триггерит отправку уведомления через watcher.
+    # Таймаут 3 минуты — если Cloud Apps дольше, всё равно отдаём уведомление
+    # (лучше уведомить чем потерять).
+    _wait_cloud_apps_ready(slug)
+
     try:
         slug_dir = DRAFTS_DIR / slug
         if slug_dir.exists():
@@ -1204,6 +1211,70 @@ def _git_commit_and_push(slug: str, category: str, metrics: str = "") -> dict:
         log.warning("Не смог записать .pushed sentinel для slug=%s", slug)
 
     return {"committed": True, "pushed": True}
+
+
+def _wait_cloud_apps_ready(slug: str, timeout_sec: int = 180) -> bool:
+    """
+    Ждёт пока Cloud Apps подтянет статью после git push.
+    Делает GET на /preview/{slug}?t=TOKEN каждые 5 сек, до получения 200.
+    Возвращает True если дождались, False если timeout (но всё равно
+    продолжаем pipeline — лучше уведомить с задержкой чем потерять статью).
+    """
+    public_base = os.getenv("PUBLIC_BASE_URL", "https://pravo.shop").rstrip("/")
+
+    # Берём preview_token из bot_state.json — тот же что в TG-ссылке у заказчика
+    token = ""
+    try:
+        bs_path = DATA_DIR / "bot_state.json"
+        if bs_path.exists():
+            bs = json.loads(bs_path.read_text(encoding="utf-8"))
+            token = (bs.get("preview_token") or "").strip()
+    except Exception:
+        log.warning("Не смог прочитать preview_token из bot_state.json для health-check")
+
+    if not token:
+        # Без токена /preview всё равно вернёт 401, health-check бессмысленен.
+        # Просто подождём 60 сек чтобы Cloud Apps успел редеплоить.
+        log.info("preview_token не найден, ждём 60 сек безусловно перед .pushed sentinel")
+        time.sleep(60)
+        return False
+
+    url = f"{public_base}/preview/{slug}?t={token}"
+    deadline = time.time() + timeout_sec
+    log.info("Cloud Apps health-check: %s", url)
+
+    try:
+        import urllib.request
+        import urllib.error
+    except ImportError:
+        log.warning("urllib недоступен, пропускаю health-check")
+        return False
+
+    attempt = 0
+    while time.time() < deadline:
+        attempt += 1
+        try:
+            req = urllib.request.Request(url, method="GET")
+            with urllib.request.urlopen(req, timeout=10) as resp:
+                if resp.status == 200:
+                    log.info("Cloud Apps готов (attempt=%d): %d", attempt, resp.status)
+                    return True
+                else:
+                    log.debug("Cloud Apps attempt=%d status=%d, retry через 5с", attempt, resp.status)
+        except urllib.error.HTTPError as e:
+            log.debug("Cloud Apps attempt=%d HTTPError=%d, retry через 5с", attempt, e.code)
+        except urllib.error.URLError as e:
+            log.debug("Cloud Apps attempt=%d URLError=%s, retry через 5с", attempt, e)
+        except Exception as e:
+            log.debug("Cloud Apps attempt=%d exception=%s, retry через 5с", attempt, e)
+        time.sleep(5)
+
+    log.warning(
+        "Cloud Apps health-check timeout (%ds, %d попыток) — продолжаем без подтверждения. "
+        "Заказчик может увидеть 404 при клике в первые минуту-две.",
+        timeout_sec, attempt,
+    )
+    return False
 
 
 def _git_commit_qa_only(slug: str) -> dict:
