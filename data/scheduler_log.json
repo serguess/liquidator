@@ -189,5 +189,34 @@
     "stdout_tail": "",
     "stderr_tail": "\n[scheduler] killed by heartbeat timeout (>1800s of silence)",
     "metrics": null
+  },
+  {
+    "timestamp": "2026-05-11T11:33:10",
+    "category": "vzysk",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 1,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "expand_topics",
+    "status": "topics_expanded",
+    "duration_sec": 356.3,
+    "returncode": 0,
+    "stdout_tail": "| solution-aware / consideration |\n| vzysk-15 | арест имущества приставами | solution-aware / consideration |\n| vzysk-16 | исполнительный лист как получить | solution-aware / consideration |\n| vzysk-17 | проверить долги у приставов | informational / awareness |\n| vzysk-18 | как приставы ищут имущество должника | informational / awareness |\n\nРаспределение по воронке: 4 decision + 4 consideration + 2 awareness. Все slug-и уникальны в рамках проекта. Файл записан с UTF-8, indent=2, финальным `\\n`.\n",
+    "stderr_tail": ""
   }
 ]
