@@ -540,7 +540,10 @@ if (lion) {
 
   loadArticles().then(articles => {
     if (!articles || !articles.length) return;
-    initSlider(articles);
+    // ОПТИМИЗАЦИЯ: Показываем только последние 20 статей на главной
+    // Это предотвращает создание 200+ DOM элементов при публикации
+    const displayedArticles = articles.slice(0, 20);
+    initSlider(displayedArticles);
   });
 
   function initSlider(articles) {
@@ -632,17 +635,22 @@ if (lion) {
       track.innerHTML = '<div style="padding:40px;color:rgba(255,255,255,0.5);text-align:center;width:100%">Нет статей в этой категории</div>';
       return;
     }
-    track.innerHTML = '';
+
     const N = activeCards.length;
     const isMobile = window.matchMedia('(max-width: 900px)').matches;
     const visible = Math.min(getVisibleCount(), N);
-    // Render 3 copies for infinite loop on desktop; single copy on mobile (native scroll)
-    const copies = (!isMobile && N >= visible) ? 3 : 1;
-    for (let c = 0; c < copies; c++) {
-      activeCards.forEach(a => track.appendChild(buildCard(a)));
-    }
-    index = (!isMobile && N >= visible) ? N : 0;
-    if (!isMobile) applyTransform(false);
+
+    // ОПТИМИЗАЦИЯ: Используем DocumentFragment для быстрого добавления всех элементов сразу
+    // вместо множественного innerHTML. Создаём только 1 копию вместо 3.
+    const fragment = document.createDocumentFragment();
+    activeCards.forEach(a => fragment.appendChild(buildCard(a)));
+
+    // Очищаем и добавляем всё за одну операцию
+    track.innerHTML = '';
+    track.appendChild(fragment);
+
+    index = 0;
+    if (!isMobile && N > visible) applyTransform(false);
   }
 
   function getCardStep() {
@@ -657,7 +665,6 @@ if (lion) {
     track.classList.toggle('no-anim', !animate);
     track.style.transform = `translate3d(${-index * step}px, 0, 0)`;
     if (!animate) {
-      // force reflow so next frame transitions apply
       void track.offsetWidth;
       track.classList.remove('no-anim');
     }
@@ -667,9 +674,11 @@ if (lion) {
     if (isTransitioning || !activeCards.length) return;
     const N = activeCards.length;
     const visible = Math.min(getVisibleCount(), N);
-    if (N <= visible) return; // nothing to scroll
+    if (N <= visible) return;
     isTransitioning = true;
     index += delta;
+    // Wrap-around логика: циклируем индекс в пределах [0, N)
+    index = ((index % N) + N) % N;
     applyTransform(true);
   }
 
@@ -677,17 +686,6 @@ if (lion) {
     if (e.target !== track || e.propertyName !== 'transform') return;
     if (!isTransitioning) return;
     isTransitioning = false;
-    const N = activeCards.length;
-    const visible = Math.min(getVisibleCount(), N);
-    if (N <= visible) return;
-    // Snap back into middle copy when approaching edges
-    if (index >= 2 * N) {
-      index -= N;
-      applyTransform(false);
-    } else if (index < N) {
-      index += N;
-      applyTransform(false);
-    }
   });
 
   nextBtn.addEventListener('click', () => move(+1));
