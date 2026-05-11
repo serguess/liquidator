@@ -495,5 +495,56 @@
       "reason": "commit_failed",
       "stderr": "U\tdata/research_cache.json\nerror: Committing is not possible because you have unmerged files.\nhint: Fix them up in the work tree, and then use 'git add/rm <file>'\nhint: as appropriate to mark resolution and make a commit.\nfatal: Exiting because of an unresolved conflict.\n"
     }
+  },
+  {
+    "timestamp": "2026-05-12T00:00:21",
+    "category": "fiz",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 1,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "fiz-12",
+    "topic_slug": "posledstviya-bankrotstva-fizlica",
+    "auto_skipped": [
+      {
+        "slug": "bankrotstvo-ip-fizicheskogo-lica",
+        "reason": "hang_heartbeat_timeout",
+        "duration_sec": 1060.1
+      },
+      {
+        "slug": "realizaciya-imushchestva-pri-bankrotstve",
+        "reason": "hang_heartbeat_timeout",
+        "duration_sec": 1000.1
+      },
+      {
+        "slug": "posledstviya-bankrotstva-fizlica",
+        "reason": "hang_heartbeat_timeout",
+        "duration_sec": 1820.2
+      }
+    ],
+    "status": "failed",
+    "slug": "posledstviya-bankrotstva-fizlica",
+    "duration_sec": 3888.3,
+    "returncode": -1,
+    "rescued_after_failure": false,
+    "stdout_tail": "",
+    "stderr_tail": "\n[scheduler] killed by heartbeat timeout (>900s of silence)",
+    "metrics": null
   }
 ]
