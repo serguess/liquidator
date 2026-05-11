@@ -724,8 +724,20 @@ def _git_pull_before_slot() -> dict:
     Подтягивает свежие изменения с GitHub перед началом слота.
 
     Pull идёт через явный URL с PAT (не через `git pull origin`), чтобы
-    не зависеть от настроек origin в репо (Cloud Apps клонирует по HTTPS,
-    мы не переписываем origin).
+    не зависеть от настроек origin в репо.
+
+    Стратегия:
+    1. Пробуем `git pull --rebase --autostash` — это auto-stash локальных
+       runtime-файлов (scheduler_log.json, git_errors.log, _pipeline.log.json
+       и т.п.), rebase, потом auto-restore. Закрывает баг «cannot pull with
+       rebase: You have unstaged changes», который ловит scheduler на VPS
+       (на Cloud Apps его не было — там working tree обнулялся каждым
+        redeploy, всегда был чист).
+    2. Если autostash-pull не помог (например конфликт между нашим
+       коммитом и origin) — пробуем `--rebase -X theirs` для разрешения
+       в пользу удалённой версии журналов.
+    3. Если и это упало — возвращаем ok=False, runner продолжит работу
+       (статья всё равно напишется, push попробуем в финале).
     """
     cwd = str(ROOT)
     env = _git_env()
@@ -733,22 +745,50 @@ def _git_pull_before_slot() -> dict:
     if not remote_url:
         return {"ok": False, "stdout_tail": "", "stderr_tail": "GIT_PUSH_TOKEN не задан"}
 
+    # Попытка 1: --rebase --autostash
     res = subprocess.run(
-        ["git", "pull", "--ff-only", remote_url, GITHUB_BRANCH],
-        cwd=cwd, env=env, capture_output=True, text=True, timeout=60,
+        ["git", "pull", "--rebase", "--autostash", remote_url, GITHUB_BRANCH],
+        cwd=cwd, env=env, capture_output=True, text=True, timeout=90,
     )
-    ok = res.returncode == 0
-    if not ok:
-        _append_git_error(
-            slot_ts=datetime.now().isoformat(timespec="seconds"),
-            slug=None, category="-", action="git_pull",
-            returncode=res.returncode,
-            stderr=res.stderr or "", stdout=res.stdout or "",
-        )
+    if res.returncode == 0:
+        return {
+            "ok": True,
+            "stdout_tail": _mask_token((res.stdout or "")[-200:]),
+            "stderr_tail": _mask_token((res.stderr or "")[-200:]),
+            "strategy": "rebase+autostash",
+        }
+
+    # Попытка 2: --rebase -X theirs (на случай конфликта в журналах)
+    log.warning("Pull rebase+autostash упал, пробую -X theirs: %s",
+                _mask_token((res.stderr or "")[-200:]))
+    # Если предыдущий rebase оставил незавершённое состояние — abort.
+    subprocess.run(["git", "rebase", "--abort"], cwd=cwd, env=env, capture_output=True)
+    res2 = subprocess.run(
+        ["git", "pull", "--rebase", "-X", "theirs", "--autostash",
+         remote_url, GITHUB_BRANCH],
+        cwd=cwd, env=env, capture_output=True, text=True, timeout=90,
+    )
+    if res2.returncode == 0:
+        return {
+            "ok": True,
+            "stdout_tail": _mask_token((res2.stdout or "")[-200:]),
+            "stderr_tail": _mask_token((res2.stderr or "")[-200:]),
+            "strategy": "rebase+theirs+autostash",
+        }
+
+    # Обе попытки упали — abort и продолжаем без pull.
+    subprocess.run(["git", "rebase", "--abort"], cwd=cwd, env=env, capture_output=True)
+    _append_git_error(
+        slot_ts=datetime.now().isoformat(timespec="seconds"),
+        slug=None, category="-", action="git_pull",
+        returncode=res2.returncode,
+        stderr=res2.stderr or "", stdout=res2.stdout or "",
+    )
     return {
-        "ok": ok,
-        "stdout_tail": _mask_token((res.stdout or "")[-200:]),
-        "stderr_tail": _mask_token((res.stderr or "")[-200:]),
+        "ok": False,
+        "stdout_tail": _mask_token((res2.stdout or "")[-200:]),
+        "stderr_tail": _mask_token((res2.stderr or "")[-200:]),
+        "strategy": "all_failed",
     }
 
 
@@ -900,9 +940,9 @@ def _rescue_orphan_drafts(orphans: list[str]) -> dict:
             # -X theirs автоматически разрешает конфликты в журнальных JSON
             # (data/*.json) в пользу origin — это безопасно, журналы append-only.
             rebase_res = subprocess.run(
-                ["git", "pull", "--rebase", "-X", "theirs",
+                ["git", "pull", "--rebase", "-X", "theirs", "--autostash",
                  remote_url, GITHUB_BRANCH],
-                cwd=cwd, env=env, capture_output=True, text=True, timeout=60,
+                cwd=cwd, env=env, capture_output=True, text=True, timeout=90,
             )
             if rebase_res.returncode == 0:
                 push_res = _git_run_with_retry(
@@ -1148,9 +1188,9 @@ def _git_commit_and_push(slug: str, category: str, metrics: str = "") -> dict:
             # Без этого rebase падал, --abort оставлял локальный коммит,
             # следующий редеплой его терял вместе с working tree.
             rebase_res = subprocess.run(
-                ["git", "pull", "--rebase", "-X", "theirs",
+                ["git", "pull", "--rebase", "-X", "theirs", "--autostash",
                  remote_url, GITHUB_BRANCH],
-                cwd=cwd, env=env, capture_output=True, text=True, timeout=60,
+                cwd=cwd, env=env, capture_output=True, text=True, timeout=90,
             )
             if rebase_res.returncode == 0:
                 push_res = _git_run_with_retry(
