@@ -344,6 +344,38 @@
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null
+    },
+    "osparivanie-sdelok-pri-bankrotstve": {
+      "category": "yur",
+      "title": "Какие сделки оспорят при банкротстве юрлица",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 358,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-05-11T04:49:41",
+      "last_action_at": "2026-05-11T04:49:41",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null
+    },
+    "udershanie-iz-zarplaty-pristavami": {
+      "category": "vzysk",
+      "title": "Удержание из зарплаты приставами: сколько и как снизить",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 360,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-05-11T04:49:41",
+      "last_action_at": "2026-05-11T04:49:41",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null
     }
   }
 }
