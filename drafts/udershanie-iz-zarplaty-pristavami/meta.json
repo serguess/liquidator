@@ -87,5 +87,9 @@
   "date_modified": "2026-05-11",
   "ready_for_review": true,
   "ready_at": "2026-05-11T01:40:23Z",
-  "publication_target": "telegram_review"
+  "publication_target": "telegram_review",
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/c_fill,ar_191:100,g_center,f_auto,q_auto,w_1920/v1778464719/articles/udershanie-iz-zarplaty-pristavami-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1778464719/articles/udershanie-iz-zarplaty-pristavami-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Close-up cinematic photograph of legal implements arranged as if mid-process. On the dark walnut tabletop: polished brass scales of justice with smooth blank pans on the left, a wooden judges gavel on a round sound block, a closed leather case folder, a vintage brass padlock with chain, a bunch of brass keys on a ring, a fountain pen, a small white porcelain coffee cup. Camera: tabletop level, three-quarter angle. Lighting: soft directional sidelight casting elegant shadows, deep contemplative shadows on the right. Materials: brass, dark walnut, weathered leather. Atmosphere of due process underway.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-05-11T01:58:41Z"
 }
