@@ -47,7 +47,20 @@ ARTICLES_PER_DAY = int(os.getenv("ARTICLES_PER_DAY", "1"))
 ARTICLE_TIMEOUT_SEC = int(os.getenv("ARTICLE_TIMEOUT_SEC", "3600"))  # 60 минут. Раньше было 2400 (40 мин), но на сложных темах с плотной терминологией (банкротство ООО, ипотека) writer крутил 5+ внутренних итераций самокоррекции и не дотягивал до агентов 6-7. Увеличено в мае 2026.
 LOCK_STALE_SEC = int(os.getenv("LOCK_STALE_SEC", "3600"))  # 1 час
 FAILURE_STREAK_LIMIT = int(os.getenv("FAILURE_STREAK_LIMIT", "3"))
-HEARTBEAT_TIMEOUT_SEC = int(os.getenv("HEARTBEAT_TIMEOUT_SEC", "1800"))  # 30 минут тишины = kill. Если subprocess реально завис — heartbeat-таймаут добьёт раньше общего ARTICLE_TIMEOUT_SEC.
+HEARTBEAT_TIMEOUT_SEC = int(os.getenv("HEARTBEAT_TIMEOUT_SEC", "900"))  # 15 минут тишины = kill (раньше 30). При зависании writer-а / rate-limit Anthropic detection в 2× быстрее → остаётся время на следующую тему в том же слоте.
+# Slot-бюджет: общее окно на ВЕСЬ слот включая все retry-попытки. Должен быть
+# меньше systemd TimeoutStartSec (6000s) с запасом. Внутри бюджета крутятся
+# до MAX_TOPIC_RETRIES_PER_SLOT попыток на разных темах.
+SLOT_BUDGET_SEC = int(os.getenv("SLOT_BUDGET_SEC", "5100"))  # 85 мин
+SLOT_MIN_REMAINING_SEC = int(os.getenv("SLOT_MIN_REMAINING_SEC", "900"))  # 15 мин минимум для новой попытки
+# Авто-снятие циркуит-брейкера. Если PAUSE_FLAG старше N секунд — снимаем сами.
+# 0 = выключено (только ручной rm). По умолчанию 1800s (30 мин) — этого хватает
+# чтобы rate-limit Anthropic Pro отпустил, и мы не торчали часами без статей.
+AUTO_UNPAUSE_SEC = int(os.getenv("AUTO_UNPAUSE_SEC", "1800"))
+# Pre-flight ping claude перед стартом слота. Защищает от «сожжённого» слота
+# когда Anthropic API лежит / rate-limit.
+PREFLIGHT_PING_TIMEOUT_SEC = int(os.getenv("PREFLIGHT_PING_TIMEOUT_SEC", "45"))
+PREFLIGHT_ENABLED = os.getenv("PREFLIGHT_ENABLED", "true").lower() in ("1", "true", "yes")
 GITHUB_REPO = os.getenv("GITHUB_REPO", "serguess/liquidator")
 GITHUB_BRANCH = os.getenv("GITHUB_BRANCH", "main")
 GIT_AUTHOR_NAME = os.getenv("GIT_AUTHOR_NAME", "Liquidator Scheduler")
@@ -89,7 +102,12 @@ VALID_CATEGORIES = {"fiz", "yur", "vzysk", "news"}
 
 
 def _next_category() -> str:
-    """Простая ротация: берём индекс по числу попыток сегодня (включая упавшие).
+    """Простая ротация: индекс по числу УСПЕШНЫХ слотов сегодня.
+
+    Раньше считали все попытки подряд, и failed-слоты «съедали» позицию в
+    ROTATION_ORDER → распределение 3:3:3:1 за день не выдерживалось при сбоях.
+    Теперь упавший слот не сдвигает ротацию: при retry со следующей темы
+    категория остаётся той же, пока статья не уйдёт в "ok" / "topics_expanded".
 
     Override через ENV FORCE_CATEGORY (например, FORCE_CATEGORY=news для разовой
     публикации новости). Применяется и в SDK-вызове, и в CLI-режиме.
@@ -98,11 +116,12 @@ def _next_category() -> str:
     if forced in VALID_CATEGORIES:
         return forced
     today = date.today().isoformat()
-    today_entries = [
+    today_ok = [
         e for e in _read_log()
-        if (e.get("timestamp") or "").startswith(today) and e.get("status") not in ("paused", "locked")
+        if (e.get("timestamp") or "").startswith(today)
+        and e.get("status") in ("ok", "topics_expanded")
     ]
-    idx = len(today_entries) % len(ROTATION) if ROTATION else 0
+    idx = len(today_ok) % len(ROTATION) if ROTATION else 0
     return ROTATION[idx] if ROTATION else "fiz"
 
 
@@ -282,7 +301,7 @@ def _update_failure_streak(entry: dict, timestamp: str) -> None:
     if status in ("ok", "topics_expanded"):
         _set_failure_streak(0)
         return
-    if status in ("paused", "locked", "limit_reached"):
+    if status in ("paused", "locked", "limit_reached", "preflight_failed"):
         return
     if _is_quota_failure(entry.get("stdout_tail"), entry.get("stderr_tail")):
         return
@@ -1403,21 +1422,68 @@ def _git_commit_log_only() -> dict:
     return {"committed": True, "pushed": True}
 
 
+# ============ PRE-FLIGHT PING ============
+
+def _preflight_claude_ping() -> tuple[bool, str]:
+    """
+    Быстрая проверка что claude отвечает (< PREFLIGHT_PING_TIMEOUT_SEC).
+    Возвращает (ok, reason). Если фейлится из-за rate-limit или сети —
+    слот лучше отложить (return preflight_failed), чем сжигать 80 минут
+    впустую. Срабатывает каждый тик scheduler-а, дёшево.
+
+    Не считается failure для streak: rate-limit временный, восстанавливается
+    сам через несколько часов; следующий тик timer-а (через 144 мин) попробует
+    снова.
+    """
+    cmd = ["claude", "--print", "--dangerously-skip-permissions", "ok?"]
+    try:
+        res = subprocess.run(
+            cmd,
+            cwd=str(ROOT),
+            capture_output=True,
+            text=True,
+            timeout=PREFLIGHT_PING_TIMEOUT_SEC,
+            encoding="utf-8",
+            errors="replace",
+        )
+    except subprocess.TimeoutExpired:
+        return False, f"timeout {PREFLIGHT_PING_TIMEOUT_SEC}s"
+    except FileNotFoundError:
+        return False, "claude binary not found in PATH"
+    except Exception as exc:
+        return False, f"ping error: {exc}"
+
+    if res.returncode != 0:
+        tail = ((res.stdout or "") + " " + (res.stderr or ""))[-300:].strip()
+        if _is_quota_failure(res.stdout, res.stderr):
+            return False, f"rate_limit: {tail[-200:]}"
+        return False, f"rc={res.returncode}: {tail[-200:]}"
+    return True, ""
+
+
 # ============ HEARTBEAT-RUNNER ============
 
 class _HeartbeatTimeout(Exception):
     """Subprocess убит из-за тишины heartbeat дольше HEARTBEAT_TIMEOUT_SEC."""
 
 
-def _run_claude_with_heartbeat(cmd: list[str]):
+def _run_claude_with_heartbeat(cmd: list[str], timeout_sec: int | None = None):
     """
     Запускает claude-subprocess в режиме Popen и параллельно следит за
     HEARTBEAT_PATH. Если файл не обновлялся HEARTBEAT_TIMEOUT_SEC секунд —
-    убивает процесс раньше общего таймаута (ARTICLE_TIMEOUT_SEC).
+    убивает процесс раньше общего таймаута.
+
+    timeout_sec: общий таймаут попытки. Если None — используется глобальный
+    ARTICLE_TIMEOUT_SEC. В retry-loop передаём остаток slot-бюджета (чтобы
+    вторая попытка не вылезла за общее окно слота).
 
     Возвращает объект с returncode/stdout/stderr (как у subprocess.run).
     Если случился heartbeat-timeout — returncode = -1, в stderr пометка.
     """
+    effective_timeout = timeout_sec if timeout_sec is not None else ARTICLE_TIMEOUT_SEC
+    if effective_timeout <= 0:
+        # Защита от вызова с уже истёкшим бюджетом.
+        raise subprocess.TimeoutExpired(cmd, 0, "", "[scheduler] timeout_sec <= 0 at start")
     proc = subprocess.Popen(
         cmd,
         cwd=str(ROOT),
@@ -1427,7 +1493,7 @@ def _run_claude_with_heartbeat(cmd: list[str]):
         encoding="utf-8",
         errors="replace",
     )
-    hard_deadline = time.time() + ARTICLE_TIMEOUT_SEC
+    hard_deadline = time.time() + effective_timeout
     heartbeat_killed = False
     hard_killed = False
 
@@ -1454,7 +1520,7 @@ def _run_claude_with_heartbeat(cmd: list[str]):
     stdout, stderr = proc.communicate()
 
     if hard_killed:
-        raise subprocess.TimeoutExpired(cmd, ARTICLE_TIMEOUT_SEC, stdout, stderr)
+        raise subprocess.TimeoutExpired(cmd, effective_timeout, stdout, stderr)
 
     class _Result:
         pass
@@ -1478,6 +1544,23 @@ def run_one_article() -> dict:
     """
     started = time.time()
     timestamp = datetime.now().isoformat(timespec="seconds")
+    slot_deadline = started + SLOT_BUDGET_SEC
+
+    # Auto-unpause: если флаг паузы старше AUTO_UNPAUSE_SEC — снимаем сами.
+    # Помогает когда circuit-breaker сработал от транзиентной ошибки (rate-limit,
+    # сеть). Без auto-unpause Юлия должна была вручную делать rm — теряли часы.
+    if PAUSE_FLAG.exists() and AUTO_UNPAUSE_SEC > 0:
+        try:
+            age = time.time() - PAUSE_FLAG.stat().st_mtime
+        except OSError:
+            age = 0
+        if age > AUTO_UNPAUSE_SEC:
+            log.warning(
+                "Auto-unpause: PAUSE_FLAG старше %.0f сек (> %d), снимаю пауза и сбрасываю streak",
+                age, AUTO_UNPAUSE_SEC,
+            )
+            PAUSE_FLAG.unlink(missing_ok=True)
+            _set_failure_streak(0)
 
     # Пауза
     if PAUSE_FLAG.exists():
@@ -1506,6 +1589,21 @@ def run_one_article() -> dict:
             "today_count": today_count,
             "limit": ARTICLES_PER_DAY,
         }
+
+    # Pre-flight: проверяем что claude реально отвечает. Если rate-limit/сеть —
+    # откладываем слот, чтобы не сжечь 80 минут впустую на дохлом API.
+    # НЕ инкрементит failure_streak (см. _update_failure_streak.skip-list).
+    if PREFLIGHT_ENABLED:
+        pf_ok, pf_reason = _preflight_claude_ping()
+        if not pf_ok:
+            log.warning("Pre-flight ping упал: %s — откладываю слот", pf_reason)
+            entry = {
+                "timestamp": timestamp,
+                "status": "preflight_failed",
+                "reason": pf_reason[:300],
+            }
+            _append_log(entry)
+            return entry
 
     # Перед тем как брать новую тему — проверяем, есть ли failed_qa-статья
     # которую можно дорабатывать через /rewrite-article. Это экономит токены
@@ -1596,6 +1694,18 @@ def run_one_article() -> dict:
         # автоматически помечаем тему rejected и берём следующую, до
         # MAX_TOPIC_RETRIES_PER_SLOT попыток. Так заказчик при ручном
         # запуске пайплайна гарантированно получает статью, а не failed_qa.
+        # Helper: синтетический result-объект на случай TimeoutExpired
+        # (нужен чтобы downstream-код (rescue / quality_gate) видел returncode).
+        def _synth_timeout_result(exc: subprocess.TimeoutExpired, elapsed: float):
+            class _R:
+                pass
+            r = _R()
+            r.returncode = -2
+            r.stdout = (exc.output or "") if getattr(exc, "output", None) else ""
+            r.stderr = (exc.stderr or "") if getattr(exc, "stderr", None) else ""
+            r.stderr += f"\n[scheduler] hit slot/article timeout after {int(elapsed)}s"
+            return r
+
         if slot_mode == "rewrite" and retry_slug:
             claude_command = f"/rewrite-article {retry_slug}"
             entry["mode"] = "rewrite"
@@ -1605,11 +1715,38 @@ def run_one_article() -> dict:
                 f"{datetime.now().isoformat(timespec='seconds')} | started",
                 encoding="utf-8",
             )
-            result = _run_claude_with_heartbeat(cmd)
+            attempt_started = time.time()
+            try:
+                result = _run_claude_with_heartbeat(
+                    cmd, timeout_sec=int(slot_deadline - time.time()),
+                )
+            except subprocess.TimeoutExpired as exc:
+                result = _synth_timeout_result(exc, time.time() - attempt_started)
         else:
             auto_skipped: list[dict] = []
             result = None
             for attempt_num in range(MAX_TOPIC_RETRIES_PER_SLOT):
+                # Гарантия: на новую попытку нужен запас > SLOT_MIN_REMAINING_SEC,
+                # иначе только сожжём время впустую и упрёмся в systemd-timeout.
+                remaining = slot_deadline - time.time()
+                if remaining < SLOT_MIN_REMAINING_SEC:
+                    log.warning(
+                        "Slot budget на исходе (осталось %.0f сек < %d), "
+                        "прерываю retry-цикл на попытке %d/%d",
+                        remaining, SLOT_MIN_REMAINING_SEC,
+                        attempt_num + 1, MAX_TOPIC_RETRIES_PER_SLOT,
+                    )
+                    if result is None:
+                        # Ни одной попытки не успели стартануть — синтезируем
+                        # «пустой» result чтобы downstream увидел failed.
+                        class _R:
+                            pass
+                        result = _R()
+                        result.returncode = -3
+                        result.stdout = ""
+                        result.stderr = f"[scheduler] slot budget exhausted before any attempt"
+                    break
+
                 topic = _pick_topic(category)
                 if topic is None:
                     # Темы кончились → /expand-topics. Сам слот не пишет статью,
@@ -1622,7 +1759,13 @@ def run_one_article() -> dict:
                         f"{datetime.now().isoformat(timespec='seconds')} | started",
                         encoding="utf-8",
                     )
-                    result = _run_claude_with_heartbeat(cmd)
+                    attempt_started = time.time()
+                    try:
+                        result = _run_claude_with_heartbeat(
+                            cmd, timeout_sec=int(slot_deadline - time.time()),
+                        )
+                    except subprocess.TimeoutExpired as exc:
+                        result = _synth_timeout_result(exc, time.time() - attempt_started)
                     break
 
                 topic_title = (topic.get("title") or topic.get("topic_action") or "").strip()
@@ -1634,9 +1777,9 @@ def run_one_article() -> dict:
                 entry["topic_id"] = topic.get("id")
                 entry["topic_slug"] = topic_slug
                 log.info(
-                    "Тема выбрана (попытка %d/%d): cat=%s id=%s slug=%s title=%s",
+                    "Тема выбрана (попытка %d/%d, budget %.0fс): cat=%s id=%s slug=%s title=%s",
                     attempt_num + 1, MAX_TOPIC_RETRIES_PER_SLOT,
-                    category, topic.get("id"), topic_slug, topic_title[:80],
+                    remaining, category, topic.get("id"), topic_slug, topic_title[:80],
                 )
 
                 cmd = ["claude", "--print", "--dangerously-skip-permissions", claude_command]
@@ -1645,8 +1788,63 @@ def run_one_article() -> dict:
                     encoding="utf-8",
                 )
                 attempt_started = time.time()
-                result = _run_claude_with_heartbeat(cmd)
+                timed_out_total = False
+                try:
+                    result = _run_claude_with_heartbeat(
+                        cmd, timeout_sec=int(remaining),
+                    )
+                except subprocess.TimeoutExpired as exc:
+                    timed_out_total = True
+                    result = _synth_timeout_result(exc, time.time() - attempt_started)
                 attempt_duration = round(time.time() - attempt_started, 1)
+
+                # Hang-детекция: либо total-timeout (TimeoutExpired), либо
+                # heartbeat-kill (returncode == -1). Если при этом article.html
+                # НЕ появился — тема считается зависшей: помечаем rejected,
+                # берём следующую. Если article.html на диске — пайплайн
+                # успел дописать статью до зависания на финальном агенте,
+                # дальше rescue-ветка её спасёт.
+                hang = timed_out_total or result.returncode == -1
+                article_ready = (DRAFTS_DIR / topic_slug / "article.html").exists() if topic_slug else False
+
+                if hang and not article_ready:
+                    reason = "hang_total_timeout" if timed_out_total else "hang_heartbeat_timeout"
+                    _mark_topic_rejected(category, topic_slug, reason)
+                    auto_skipped.append({
+                        "slug": topic_slug,
+                        "reason": reason,
+                        "duration_sec": attempt_duration,
+                    })
+                    next_remaining = slot_deadline - time.time()
+                    if (attempt_num + 1 < MAX_TOPIC_RETRIES_PER_SLOT
+                            and next_remaining >= SLOT_MIN_REMAINING_SEC):
+                        log.warning(
+                            "Hang-skip %d/%d: %s/%s (%s, %.0fс). Беру следующую тему "
+                            "(осталось %.0fс).",
+                            attempt_num + 1, MAX_TOPIC_RETRIES_PER_SLOT,
+                            category, topic_slug, reason, attempt_duration,
+                            next_remaining,
+                        )
+                        # Сброс heartbeat: следующая попытка пишет своё значение
+                        # заново, чтобы старый mtime не убил новый subprocess
+                        # сразу же.
+                        HEARTBEAT_PATH.unlink(missing_ok=True)
+                        continue
+                    log.error(
+                        "Hang-skip исчерпан/бюджет на исходе (осталось %.0fс), "
+                        "слот завершится failed.",
+                        next_remaining,
+                    )
+                    break
+
+                if hang and article_ready:
+                    log.warning(
+                        "Topic %s hung (%s), но article.html уже готова — "
+                        "идём по rescue-ветке.",
+                        topic_slug,
+                        "total_timeout" if timed_out_total else "heartbeat",
+                    )
+                    break
 
                 # Детектим: агент 1 отверг тему (каннибализация / не-news / evergreen)?
                 rejection = _detect_topic_rejection(topic_slug)
@@ -1657,19 +1855,22 @@ def run_one_article() -> dict:
                         "reason": rejection,
                         "duration_sec": attempt_duration,
                     })
-                    if attempt_num + 1 < MAX_TOPIC_RETRIES_PER_SLOT:
+                    next_remaining = slot_deadline - time.time()
+                    if (attempt_num + 1 < MAX_TOPIC_RETRIES_PER_SLOT
+                            and next_remaining >= SLOT_MIN_REMAINING_SEC):
                         log.warning(
-                            "Auto-skip %d/%d: %s/%s — %s. Беру следующую тему.",
+                            "Auto-skip %d/%d: %s/%s — %s. Беру следующую тему "
+                            "(осталось %.0fс).",
                             attempt_num + 1, MAX_TOPIC_RETRIES_PER_SLOT,
-                            category, topic_slug, rejection,
+                            category, topic_slug, rejection, next_remaining,
                         )
                         continue
                     log.error(
-                        "Auto-skip исчерпан (%d попыток подряд rejected). Слот завершится failed.",
-                        MAX_TOPIC_RETRIES_PER_SLOT,
+                        "Auto-skip исчерпан/бюджет на исходе (осталось %.0fс). Слот завершится failed.",
+                        next_remaining,
                     )
-                # Не rejection (либо успех, либо иная причина — slug_mismatch,
-                # timeout, rate_limit, quality_gate). Auto-skip не помогает — break.
+                # Не rejection и не hang (либо успех, либо иная причина — slug_mismatch,
+                # quality_gate). Auto-skip не помогает — break.
                 break
 
             if auto_skipped:
