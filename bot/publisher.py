@@ -458,6 +458,39 @@ def _git_commit_and_push(slug: str, category: str) -> dict:
         ["git", "push", remote_url, GITHUB_BRANCH],
         cwd=cwd, env=env, capture_output=True, text=True, timeout=60,
     )
+
+    # Retry на non-fast-forward (origin ушёл вперёд от scheduler'а или
+    # ручного коммита). Делаем pull --rebase -X theirs --autostash:
+    # - autostash отстёгивает локальные runtime-файлы (журналы)
+    # - -X theirs разрешает конфликты в журналах в пользу удалённой версии
+    # - после rebase повторяем push
+    # Без этого retry заказчик видел ошибку публикации при любом race с
+    # scheduler-овским коммитом (наблюдалось 11 мая 2026 на статье
+    # udershanie-iz-zarplaty-pristavami).
+    if push_res.returncode != 0:
+        stderr_lower = (push_res.stderr or "").lower()
+        non_ff_markers = ("non-fast-forward", "fetch first", "updates were rejected",
+                          "tip of your current branch is behind")
+        if any(m in stderr_lower for m in non_ff_markers):
+            rebase_res = subprocess.run(
+                ["git", "pull", "--rebase", "-X", "theirs", "--autostash",
+                 remote_url, GITHUB_BRANCH],
+                cwd=cwd, env=env, capture_output=True, text=True, timeout=90,
+            )
+            if rebase_res.returncode == 0:
+                push_res = subprocess.run(
+                    ["git", "push", remote_url, GITHUB_BRANCH],
+                    cwd=cwd, env=env, capture_output=True, text=True, timeout=60,
+                )
+            else:
+                # Rebase упал даже с -X theirs — конфликт в коде. Abort,
+                # возвращаем push_failed чтобы наверху откатили локальные
+                # изменения и заказчик увидел ошибку.
+                subprocess.run(
+                    ["git", "rebase", "--abort"],
+                    cwd=cwd, env=env, capture_output=True,
+                )
+
     if push_res.returncode != 0:
         return {"committed": True, "pushed": False,
                 "reason": "push_failed",
