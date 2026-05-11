@@ -334,7 +334,7 @@
     "sudebnaya-praktika-edinstvennoe-zhilye-2026": {
       "category": "news",
       "title": "Единственное жильё в банкротстве: судебная практика",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -342,10 +342,12 @@
       "tg_message_id": null,
       "tg_chat_id": null,
       "first_seen_at": "2026-05-11T00:06:54",
-      "last_action_at": "2026-05-11T00:06:54",
+      "last_action_at": "2026-05-11T15:39:16",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null
+      "published_url": "https://pravo.shop/articles/news/sudebnaya-praktika-edinstvennoe-zhilye-2026",
+      "published_at": "2026-05-11T15:39:16",
+      "articles_path": "articles/news/sudebnaya-praktika-edinstvennoe-zhilye-2026.html"
     },
     "osparivanie-sdelok-pri-bankrotstve": {
       "category": "yur",
@@ -420,14 +422,5 @@
       "articles_path": "articles/fiz/kogda-dolgi-ne-spishut-pri-bankrotstve.html"
     }
   },
-  "pending_actions": [
-    {
-      "action": "publish",
-      "slug": "sudebnaya-praktika-edinstvennoe-zhilye-2026",
-      "version": "2.0",
-      "chat_id": 144472991,
-      "reply_to_message_id": 317,
-      "queued_at": "2026-05-11T15:23:22"
-    }
-  ]
+  "pending_actions": []
 }
