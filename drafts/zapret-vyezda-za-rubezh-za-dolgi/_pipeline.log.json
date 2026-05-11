@@ -2,8 +2,8 @@
   "slug": "zapret-vyezda-za-rubezh-za-dolgi",
   "category": null,
   "started_at": "2026-05-11T18:04:26",
-  "finished_at": null,
-  "total_duration_sec": null,
+  "finished_at": "2026-05-11T18:53:07",
+  "total_duration_sec": 2921.0,
   "current_iteration": 3,
   "events": [
     {
@@ -40,6 +40,31 @@
       "blockers": [],
       "warnings": [],
       "recommendations": []
+    },
+    {
+      "ts": "2026-05-11T18:45:05",
+      "agent": "scheduler",
+      "event": "git_pushed",
+      "iteration": 3,
+      "branch": "main"
+    },
+    {
+      "ts": "2026-05-11T18:53:07",
+      "agent": "scheduler",
+      "event": "slot_finished",
+      "status": "ok",
+      "iteration": 3
     }
-  ]
+  ],
+  "final_status": "ok",
+  "metrics": {
+    "ai_detector": null,
+    "uniqueness": null,
+    "spam": null,
+    "text_chars": 6600
+  },
+  "git": {
+    "committed": true,
+    "pushed": true
+  }
 }

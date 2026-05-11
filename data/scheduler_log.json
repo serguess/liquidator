@@ -348,5 +348,59 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-05-11T19:12:07",
+    "category": "news",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "e7f0\nCreated autostash: d8a88c4\nFast-forward\n category/all.html |  2 +-\n index.html        |  4 ++--\n styles.css        | 23 +++++++++++++++++++++++\n 3 files changed, 26 insertions(+), 3 deletions(-)\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\nApplied autostash.\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 5,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "news-06",
+    "topic_slug": "cifrovoj-rubl-i-bankrotstvo",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "Автофикс применил правки: сокращения=1, пунктуация=0"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "cifrovoj-rubl-i-bankrotstvo",
+    "duration_sec": 1956.4,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "категории news в базе)\n- Factcheck: PASSED\n\n**Прогнозные метрики (text.ru):**\n- AI-детектор: ~5%\n- Уникальность: ~87%\n- Спам: ~50%\n\n**Статус публикации:** `ready_for_review: true`, добавлена в `_review_queue.json`\n\n**Обложка:** не сгенерирована (`fal_client` не установлен) — `cover_generation_failed: true`. Статья ушла в очередь без обложки, публикация возможна после ручной генерации.\n\n**textru_ai_detector / textru_uniqueness / textru_spam:** не заполнены (text.ru не запускался в этом прогоне).\n",
+    "stderr_tail": "",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 6201
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]
