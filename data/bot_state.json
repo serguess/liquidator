@@ -300,7 +300,7 @@
     "subsidiarka-direktora-kak-zashchititsya": {
       "category": "yur",
       "title": "Субсидиарная ответственность директора: как защититься",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -308,10 +308,12 @@
       "tg_message_id": 314,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-10T15:10:41",
-      "last_action_at": "2026-05-10T15:10:41",
+      "last_action_at": "2026-05-11T13:45:05",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null
+      "published_url": "https://pravo.shop/articles/yur/subsidiarka-direktora-kak-zashchititsya",
+      "published_at": "2026-05-11T13:45:05",
+      "articles_path": "articles/yur/subsidiarka-direktora-kak-zashchititsya.html"
     },
     "vzyskanie-dolga-po-raspiske": {
       "category": "vzysk",
@@ -389,6 +391,22 @@
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-11T09:10:42",
       "last_action_at": "2026-05-11T09:10:42",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null
+    },
+    "kogda-dolgi-ne-spishut-pri-bankrotstve": {
+      "category": "fiz",
+      "title": "Какие долги не спишут при банкротстве физлица",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 365,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-05-11T13:12:44",
+      "last_action_at": "2026-05-11T13:12:44",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null

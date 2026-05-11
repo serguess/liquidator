@@ -1,6 +1,19 @@
 {
-  "generated": "2026-05-10",
+  "generated": "2026-05-11",
   "articles": [
+    {
+      "slug": "subsidiarka-direktora-kak-zashchititsya",
+      "cat": "yur",
+      "catLabel": "Банкротство юридических лиц",
+      "title": "Субсидиарная ответственность директора: как защититься",
+      "desc": "Когда директора привлекают к субсидиарной ответственности при банкротстве ООО, какие основания использует суд и что реально помогает защититься от требований кредиторов.",
+      "date": "11 мая 2026",
+      "dateIso": "2026-05-11",
+      "read": "5 мин.",
+      "tone": "b",
+      "img": "https://res.cloudinary.com/dmsaaiwkm/image/upload/c_fill,ar_191:100,g_center,f_auto,q_auto,w_1920/v1778394985/articles/subsidiarka-direktora-kak-zashchititsya-cover.jpg",
+      "url": "articles/yur/subsidiarka-direktora-kak-zashchititsya"
+    },
     {
       "slug": "bankrotstvo-pensionera",
       "cat": "fiz",
