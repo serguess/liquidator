@@ -382,7 +382,7 @@
     "kak-podat-na-bankrotstvo-samostoyatelno": {
       "category": "fiz",
       "title": "Как подать на банкротство физлица самостоятельно",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -390,10 +390,12 @@
       "tg_message_id": 362,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-11T09:10:42",
-      "last_action_at": "2026-05-11T09:10:42",
+      "last_action_at": "2026-05-11T13:48:16",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null
+      "published_url": "https://pravo.shop/articles/fiz/kak-podat-na-bankrotstvo-samostoyatelno",
+      "published_at": "2026-05-11T13:48:16",
+      "articles_path": "articles/fiz/kak-podat-na-bankrotstvo-samostoyatelno.html"
     },
     "kogda-dolgi-ne-spishut-pri-bankrotstve": {
       "category": "fiz",
