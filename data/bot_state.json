@@ -435,6 +435,38 @@
       "published_url": "https://pravo.shop/articles/fiz/kogda-dolgi-ne-spishut-pri-bankrotstve",
       "published_at": "2026-05-11T13:47:28",
       "articles_path": "articles/fiz/kogda-dolgi-ne-spishut-pri-bankrotstve.html"
+    },
+    "zapret-vyezda-za-rubezh-za-dolgi": {
+      "category": "vzysk",
+      "title": "Запрет выезда за рубеж за долги: как снять",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 400,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-05-11T18:53:36",
+      "last_action_at": "2026-05-11T18:53:36",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null
+    },
+    "cifrovoj-rubl-i-bankrotstvo": {
+      "category": "news",
+      "title": "Цифровой рубль и взыскание долгов: что меняется",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 402,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-05-11T19:51:37",
+      "last_action_at": "2026-05-11T19:51:37",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null
     }
   },
   "pending_actions": []

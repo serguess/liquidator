@@ -402,5 +402,48 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-05-11T21:36:22",
+    "category": "fiz",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 1,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 2,
+        "found": [
+          "cifrovoj-rubl-i-bankrotstvo",
+          "zapret-vyezda-za-rubezh-za-dolgi"
+        ],
+        "pushed": true
+      }
+    },
+    "mode": "expand_topics",
+    "topic_id": "fiz-09",
+    "topic_slug": "spisat-dolgi-po-kreditam-bez-imushchestva",
+    "auto_skipped": [
+      {
+        "slug": "spisat-dolgi-po-kreditam-bez-imushchestva",
+        "reason": "hang_heartbeat_timeout",
+        "duration_sec": 1055.1
+      }
+    ],
+    "status": "topics_expanded",
+    "duration_sec": 1271.3,
+    "returncode": 0,
+    "stdout_tail": "14 | реструктуризация долгов физлица |\n| fiz-15 | финансовый управляющий при банкротстве физлица |\n| fiz-16 | банкротство самозанятого |\n| fiz-17 | банкротство с долгами по жкх |\n| fiz-18 | сколько длится банкротство физлица |\n| fiz-19 | жизнь после банкротства физлица |\n\n**Распределение по воронке:** 4 темы decision (fiz-10, 11, 12, 13), 4 темы consideration (fiz-14, 15, 16, 17), 2 темы awareness (fiz-18, 19). Все slug-и уникальны в проекте, дублей с published_index и текущими черновиками нет.\n",
+    "stderr_tail": ""
   }
 ]
