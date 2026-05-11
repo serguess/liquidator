@@ -268,7 +268,7 @@
     "kak-podat-na-bankrotstvo-kontragenta": {
       "category": "yur",
       "title": "Как подать на банкротство контрагента-должника",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -276,10 +276,12 @@
       "tg_message_id": 310,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-10T15:10:41",
-      "last_action_at": "2026-05-10T15:10:41",
+      "last_action_at": "2026-05-11T16:32:48",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null
+      "published_url": "https://pravo.shop/articles/yur/kak-podat-na-bankrotstvo-kontragenta",
+      "published_at": "2026-05-11T16:32:48",
+      "articles_path": "articles/yur/kak-podat-na-bankrotstvo-kontragenta.html"
     },
     "okonchanie-ip-po-state-46": {
       "category": "vzysk",
