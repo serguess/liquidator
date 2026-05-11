@@ -689,7 +689,10 @@ if (lion) {
   prevBtn.addEventListener('click', () => move(-1));
 
   // Wheel: horizontal trackpad swipes or shift+wheel move the carousel.
-  // Pure vertical wheel is left alone so the page scrolls normally.
+  // passive: true - даже над slider браузер не блокирует вертикальный
+  // скролл страницы на этот handler. preventDefault убран намеренно:
+  // viewport имеет overflow hidden, горизонтальный pan и так не скроллит
+  // ничего, а вертикальный должен скроллить страницу свободно.
   let wheelCooldown = 0;
   viewport.addEventListener('wheel', (e) => {
     if (window.matchMedia('(max-width: 900px)').matches) return;
@@ -697,14 +700,13 @@ if (lion) {
     const absY = Math.abs(e.deltaY);
     const horizontalIntent = absX > absY || e.shiftKey;
     if (!horizontalIntent) return;
-    e.preventDefault();
     const now = performance.now();
     if (now - wheelCooldown < 350) return;
     const delta = e.shiftKey ? e.deltaY : e.deltaX;
     if (Math.abs(delta) < 4) return;
     wheelCooldown = now;
     move(delta > 0 ? +1 : -1);
-  }, { passive: false });
+  }, { passive: true });
 
   // Keyboard
   slider.tabIndex = 0;

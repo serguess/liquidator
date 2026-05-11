@@ -212,7 +212,9 @@ a {
   z-index: 100;
   width: calc(100% - 48px);
   max-width: 1440px;
-  transition: all 0.45s cubic-bezier(.4,.0,.2,1);
+  /* Только max-width анимируется при коллапсе. transition: all триггерил
+     layout reflow на каждом кадре 450 мс - была неплавная анимация. */
+  transition: max-width 0.35s cubic-bezier(.4,.0,.2,1);
 }
 
 .header__inner {
@@ -226,7 +228,8 @@ a {
   backdrop-filter: blur(18px) saturate(140%);
   -webkit-backdrop-filter: blur(18px) saturate(140%);
   border: 1px solid rgba(255, 255, 255, 0.08);
-  transition: all 0.45s cubic-bezier(.4,.0,.2,1);
+  /* Точечные transitions вместо all: композитор не пересчитывает layout. */
+  transition: background-color 0.35s ease, padding 0.35s cubic-bezier(.4,.0,.2,1);
 }
 
 .header__nav {
@@ -1956,7 +1959,9 @@ a {
 .knowledge__bokeh {
   position: absolute; inset: -15%;
   pointer-events: none;
-  mix-blend-mode: screen;
+  /* mix-blend-mode: screen убран - 6 одновременных blend-слоёв на этой
+     секции (3 bokeh + glow + 3 waves + grain) перегружали композитор
+     и давали jank скролла на десктопе. */
 }
 .knowledge__bokeh--small {
   background-image:
@@ -1999,8 +2004,7 @@ a {
   transform: translate(-50%, -50%);
   background: radial-gradient(ellipse, rgba(240,195,90,0.32) 0%, rgba(200,140,50,0.12) 35%, transparent 65%);
   filter: blur(40px);
-  mix-blend-mode: screen;
-  opacity: 0.9;
+  opacity: 0.7;
   animation: knowGlowPulse 9s ease-in-out infinite alternate;
   pointer-events: none;
 }
@@ -2009,8 +2013,7 @@ a {
   left: 0; right: 0; bottom: 0;
   width: 100%; height: 55%;
   pointer-events: none;
-  mix-blend-mode: screen;
-  opacity: 0.85;
+  opacity: 0.55;
 }
 .knowledge__wave {
   stroke-linecap: round;
@@ -2033,8 +2036,7 @@ a {
   position: absolute; inset: 0;
   background-image: radial-gradient(rgba(255,255,255,0.05) 1px, transparent 1px);
   background-size: 3px 3px;
-  mix-blend-mode: overlay;
-  opacity: 0.35;
+  opacity: 0.25;
   pointer-events: none;
 }
 @keyframes knowBokehDriftSmall {
@@ -3344,8 +3346,10 @@ a {
     radial-gradient(circle 18px at 500px 360px, rgba(255,245,210,0.6), rgba(255,232,180,0.25) 45%, transparent 75%);
   background-size: 580px 420px;
   filter: blur(0.8px);
-  opacity: 0.95;
-  mix-blend-mode: screen;
+  opacity: 0.6;
+  /* mix-blend-mode: screen убран - full-viewport composite каждый кадр
+     перегружал GPU на /category/all (position: fixed background всегда
+     в viewport). */
   animation: catBokehDrift 28s linear infinite;
   /* GPU-ускорение для плавной анимации (will-change убран — см. .category-bg__blob) */
   transform: translateZ(0);
@@ -3387,8 +3391,7 @@ a {
   position: absolute; inset: 0;
   background-image: radial-gradient(rgba(0,0,0,0.04) 1px, transparent 1px);
   background-size: 3px 3px;
-  mix-blend-mode: multiply;
-  opacity: 0.4;
+  opacity: 0.3;
 }
 @keyframes catBlobFloat1 {
   0%   { transform: translate(0,0) scale(1); }
