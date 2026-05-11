@@ -1,12 +1,27 @@
 [Unit]
-Description=Run Liquidator scheduler every 144 minutes (10 articles/day)
+Description=Run Liquidator scheduler 10 times/day at fixed times (every 144 min from midnight)
 
 [Timer]
-# Первый слот через 5 минут после загрузки.
+# Первый слот через 5 минут после загрузки (на случай если развернули
+# в середине окна между OnCalendar-триггерами).
 OnBootSec=5min
-# Следующий слот через 144 мин ПОСЛЕ завершения предыдущего (не старта).
-# 1440 / 144 = ровно 10 слотов/сутки.
-OnUnitInactiveSec=144min
+
+# 10 фиксированных точек запуска в сутки, каждые 144 мин от полуночи (МСК).
+# 0:00, 2:24, 4:48, 7:12, 9:36, 12:00, 14:24, 16:48, 19:12, 21:36 МСК.
+# Если slot ещё пишется при триггере — systemd НЕ запустит дубликат
+# (service oneshot, уже active → пропуск). Когда slot уложится в 144 мин,
+# выйдет ровно 10/сутки.
+OnCalendar=*-*-* 00:00:00
+OnCalendar=*-*-* 02:24:00
+OnCalendar=*-*-* 04:48:00
+OnCalendar=*-*-* 07:12:00
+OnCalendar=*-*-* 09:36:00
+OnCalendar=*-*-* 12:00:00
+OnCalendar=*-*-* 14:24:00
+OnCalendar=*-*-* 16:48:00
+OnCalendar=*-*-* 19:12:00
+OnCalendar=*-*-* 21:36:00
+
 # При reboot выполнить один пропущенный запуск (если был downtime).
 Persistent=true
 AccuracySec=30s
