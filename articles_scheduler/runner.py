@@ -1424,6 +1424,37 @@ def _git_commit_log_only() -> dict:
 
 # ============ PRE-FLIGHT PING ============
 
+# Критичные импорты, которые ДОЛЖНЫ быть в venv до старта слота.
+# Если хотя бы один падает — слот не стартует (статус preflight_failed).
+# Защищает от ситуации «venv пересоздали, забыли pip install -r requirements» —
+# раньше такая поломка пряталась за молчаливым `cover_generation_failed=true`
+# и статьи выходили без обложек сутками. Теперь видно сразу.
+PREFLIGHT_REQUIRED_IMPORTS = (
+    "fal_client",   # обложки fal.ai
+    "cloudinary",   # хранение обложек
+    "httpx",        # download bytes из fal.ai + сетевые проверки
+    "dotenv",       # без него ENV вообще не подцепится корректно
+)
+
+
+def _preflight_critical_imports() -> tuple[bool, str]:
+    """
+    Проверяет что критичные python-зависимости импортируются. Один упавший
+    импорт — фейлим preflight. Без этого `image_gen` молча возвращает None
+    и статья едет в _review_queue без обложки.
+    """
+    import importlib
+    broken: list[str] = []
+    for mod in PREFLIGHT_REQUIRED_IMPORTS:
+        try:
+            importlib.import_module(mod)
+        except Exception as exc:
+            broken.append(f"{mod}: {type(exc).__name__}: {exc}")
+    if broken:
+        return False, "missing_or_broken_imports: " + " | ".join(broken)
+    return True, ""
+
+
 def _preflight_claude_ping() -> tuple[bool, str]:
     """
     Быстрая проверка что claude отвечает (< PREFLIGHT_PING_TIMEOUT_SEC).
@@ -1589,6 +1620,27 @@ def run_one_article() -> dict:
             "today_count": today_count,
             "limit": ARTICLES_PER_DAY,
         }
+
+    # Pre-flight: проверяем что критичные импорты живы. venv мог быть
+    # пересоздан без полной переустановки requirements (как 10-11 мая
+    # пропал fal-client → статьи выходили без обложек сутками). Слот
+    # с битым venv лучше не стартовать.
+    if PREFLIGHT_ENABLED:
+        imp_ok, imp_reason = _preflight_critical_imports()
+        if not imp_ok:
+            log.error(
+                "Pre-flight imports упал: %s — откладываю слот. "
+                "Скорее всего нужно: cd ~/apps/liquidator && "
+                ".venv/bin/pip install -r requirements.txt",
+                imp_reason,
+            )
+            entry = {
+                "timestamp": timestamp,
+                "status": "preflight_failed",
+                "reason": imp_reason[:300],
+            }
+            _append_log(entry)
+            return entry
 
     # Pre-flight: проверяем что claude реально отвечает. Если rate-limit/сеть —
     # откладываем слот, чтобы не сжечь 80 минут впустую на дохлом API.
