@@ -943,6 +943,196 @@
       "added_by_agent": "2-legal-research",
       "added_for_slug": "kak-podat-na-bankrotstvo-samostoyatelno",
       "added_at": "2026-05-11"
+    },
+    {
+      "key": "likvid_ooo_reshenie_uchastnikov_st33_37",
+      "claim": "Решение о добровольной ликвидации ООО принимается общим собранием участников единогласно (пп. 11 п. 2 ст. 33 и п. 8 ст. 37 закона 14-ФЗ).",
+      "source_url": "https://www.consultant.ru/document/cons_doc_LAW_17819/",
+      "source_type": "ФЗ-14 ст. 33 п. 2 пп. 11, ст. 37 п. 8",
+      "source_date": "2025-12-28",
+      "added_by_agent": "2-legal-research",
+      "added_for_slug": "likvidaciya-ooo-bez-dolgov",
+      "added_at": "2026-05-11"
+    },
+    {
+      "key": "likvid_ooo_komissiya_st62_gk",
+      "claim": "Решением о ликвидации назначается ликвидационная комиссия или ликвидатор, к ним переходят полномочия по управлению (ст. 62 ГК РФ).",
+      "source_url": "https://www.consultant.ru/document/cons_doc_LAW_5142/",
+      "source_type": "ГК РФ ст. 62 п. 3",
+      "source_date": "2025-07-31",
+      "added_by_agent": "2-legal-research",
+      "added_for_slug": "likvidaciya-ooo-bez-dolgov",
+      "added_at": "2026-05-11"
+    },
+    {
+      "key": "likvid_ooo_uvedomlenie_fns_3_dnya_r15016",
+      "claim": "В течение 3 рабочих дней с даты решения участники уведомляют ФНС по форме Р15016 (п. 1 ст. 20 закона 129-ФЗ).",
+      "source_url": "https://www.consultant.ru/document/cons_doc_LAW_32881/",
+      "source_type": "ФЗ-129 ст. 20 п. 1, форма Р15016 (Приказ ФНС от 31.08.2020 N ЕД-7-14/617@)",
+      "source_date": "2024-12-28",
+      "added_by_agent": "2-legal-research",
+      "added_for_slug": "likvidaciya-ooo-bez-dolgov",
+      "added_at": "2026-05-11"
+    },
+    {
+      "key": "likvid_efrsfdul_3_dnya_st7_1",
+      "claim": "В течение 3 рабочих дней с даты решения о ликвидации сведения вносятся в ЕФРСФДЮЛ (Федресурс) - п. 7 ст. 7.1 закона 129-ФЗ.",
+      "source_url": "https://www.consultant.ru/document/cons_doc_LAW_32881/",
+      "source_type": "ФЗ-129 ст. 7.1 п. 7",
+      "source_date": "2024-12-28",
+      "added_by_agent": "2-legal-research",
+      "added_for_slug": "likvidaciya-ooo-bez-dolgov",
+      "added_at": "2026-05-11"
+    },
+    {
+      "key": "likvid_vestnik_2_mes_st63_gk",
+      "claim": "Публикация в Вестнике государственной регистрации с указанием срока требований кредиторов не менее 2 месяцев (п. 1 ст. 63 ГК РФ).",
+      "source_url": "https://www.consultant.ru/document/cons_doc_LAW_5142/",
+      "source_type": "ГК РФ ст. 63 п. 1",
+      "source_date": "2025-07-31",
+      "added_by_agent": "2-legal-research",
+      "added_for_slug": "likvidaciya-ooo-bez-dolgov",
+      "added_at": "2026-05-11"
+    },
+    {
+      "key": "likvid_promezhutochny_balans_st63_p2",
+      "claim": "Промежуточный ликвидационный баланс составляется после окончания срока на требования кредиторов (п. 2 ст. 63 ГК РФ).",
+      "source_url": "https://www.consultant.ru/document/cons_doc_LAW_5142/",
+      "source_type": "ГК РФ ст. 63 п. 2",
+      "source_date": "2025-07-31",
+      "added_by_agent": "2-legal-research",
+      "added_for_slug": "likvidaciya-ooo-bez-dolgov",
+      "added_at": "2026-05-11"
+    },
+    {
+      "key": "likvid_balans_zapret_pri_vyezdnoy_st20_p4",
+      "claim": "Промежуточный ликвидационный баланс не может быть подан в ФНС до окончания выездной налоговой проверки (п. 4 ст. 20 закона 129-ФЗ).",
+      "source_url": "https://www.consultant.ru/document/cons_doc_LAW_32881/",
+      "source_type": "ФЗ-129 ст. 20 п. 4",
+      "source_date": "2024-12-28",
+      "added_by_agent": "2-legal-research",
+      "added_for_slug": "likvidaciya-ooo-bez-dolgov",
+      "added_at": "2026-05-11"
+    },
+    {
+      "key": "vyezdnaya_proverka_likvidacii_st89_p11_nk",
+      "claim": "ФНС вправе назначить выездную налоговую проверку при ликвидации независимо от предыдущих проверок, период не более 3 лет (п. 11 ст. 89 НК РФ).",
+      "source_url": "https://www.consultant.ru/document/cons_doc_LAW_19671/",
+      "source_type": "НК РФ ст. 89 п. 11",
+      "source_date": "2025-12-28",
+      "added_by_agent": "2-legal-research",
+      "added_for_slug": "likvidaciya-ooo-bez-dolgov",
+      "added_at": "2026-05-11"
+    },
+    {
+      "key": "likvid_ocheryodnost_st64_gk",
+      "claim": "Очерёдность удовлетворения требований кредиторов при ликвидации: 1) вред жизни/здоровью + алименты, 2) зарплата + интеллектуалка, 3) бюджет, 4) прочие (ст. 64 п. 1 ГК РФ).",
+      "source_url": "https://www.consultant.ru/document/cons_doc_LAW_5142/",
+      "source_type": "ГК РФ ст. 64 п. 1",
+      "source_date": "2025-07-31",
+      "added_by_agent": "2-legal-research",
+      "added_for_slug": "likvidaciya-ooo-bez-dolgov",
+      "added_at": "2026-05-11"
+    },
+    {
+      "key": "likvid_okonchatelny_balans_raspr_st58_fz14",
+      "claim": "Оставшееся после расчётов имущество распределяется между участниками: сначала распределённая прибыль, затем пропорционально долям (ст. 58 закона 14-ФЗ, п. 8 ст. 63 ГК РФ).",
+      "source_url": "https://www.consultant.ru/document/cons_doc_LAW_17819/",
+      "source_type": "ФЗ-14 ст. 58, ГК РФ ст. 63 п. 8",
+      "source_date": "2025-12-28",
+      "added_by_agent": "2-legal-research",
+      "added_for_slug": "likvidaciya-ooo-bez-dolgov",
+      "added_at": "2026-05-11"
+    },
+    {
+      "key": "likvid_fns_5_dney_st8_fz129",
+      "claim": "Регистрация прекращения деятельности юрлица - срок не более 5 рабочих дней со дня подачи документов (п. 1 ст. 8 закона 129-ФЗ).",
+      "source_url": "https://www.consultant.ru/document/cons_doc_LAW_32881/",
+      "source_type": "ФЗ-129 ст. 8 п. 1",
+      "source_date": "2024-12-28",
+      "added_by_agent": "2-legal-research",
+      "added_for_slug": "likvidaciya-ooo-bez-dolgov",
+      "added_at": "2026-05-11"
+    },
+    {
+      "key": "likvid_gosposhlina_800_st333_33_nk",
+      "claim": "Госпошлина за регистрацию ликвидации юрлица - 800 руб. (пп. 3 п. 1 ст. 333.33 НК РФ); при электронной подаче - 0 руб. (пп. 32 п. 3 ст. 333.35 НК РФ).",
+      "source_url": "https://www.consultant.ru/document/cons_doc_LAW_28165/",
+      "source_type": "НК РФ ст. 333.33 п. 1 пп. 3, ст. 333.35 п. 3 пп. 32",
+      "source_date": "2025-12-28",
+      "added_by_agent": "2-legal-research",
+      "added_for_slug": "likvidaciya-ooo-bez-dolgov",
+      "added_at": "2026-05-11"
+    },
+    {
+      "key": "likvid_srok_1_god_st57_fz14",
+      "claim": "Срок добровольной ликвидации ООО не может превышать 1 год; продление в судебном порядке не более чем на 6 месяцев (п. 6 ст. 57 закона 14-ФЗ).",
+      "source_url": "https://www.consultant.ru/document/cons_doc_LAW_17819/",
+      "source_type": "ФЗ-14 ст. 57 п. 6",
+      "source_date": "2025-12-28",
+      "added_by_agent": "2-legal-research",
+      "added_for_slug": "likvidaciya-ooo-bez-dolgov",
+      "added_at": "2026-05-11"
+    },
+    {
+      "key": "likvid_uproshchyonnaya_msp_st21_3_fz129",
+      "claim": "Упрощённая ликвидация для МСП - ст. 21.3 закона 129-ФЗ (введена ФЗ-249 от 13.06.2023): одно заявление Р19001, без публикаций и балансов. Условия: МСП, нет долгов по налогам/взносам, не НДС-плательщик, нет имущества, нет недостоверных сведений в ЕГРЮЛ.",
+      "source_url": "https://www.consultant.ru/document/cons_doc_LAW_32881/",
+      "source_type": "ФЗ-129 ст. 21.3",
+      "source_date": "2024-12-28",
+      "added_by_agent": "2-legal-research",
+      "added_for_slug": "likvidaciya-ooo-bez-dolgov",
+      "added_at": "2026-05-11"
+    },
+    {
+      "key": "likvid_st21_1_administrativnoe_isklyuchenie",
+      "claim": "Исключение недействующего юрлица из ЕГРЮЛ по ст. 21.1 закона 129-ФЗ - административная мера ФНС: 12 мес. без отчётности и операций по счёту. Последствие: дисквалификация на 3 года для бывших директоров и участников 50%+ (пп. ф п. 1 ст. 23 закона 129-ФЗ).",
+      "source_url": "https://www.consultant.ru/document/cons_doc_LAW_32881/",
+      "source_type": "ФЗ-129 ст. 21.1, ст. 23 п. 1 пп. ф",
+      "source_date": "2024-12-28",
+      "added_by_agent": "2-legal-research",
+      "added_for_slug": "likvidaciya-ooo-bez-dolgov",
+      "added_at": "2026-05-11"
+    },
+    {
+      "key": "likvid_obyazat_bankrotstvo_st63_p4_st224_127",
+      "claim": "При недостаточности активов ликвидатор обязан подать в арбитражный суд заявление о банкротстве (п. 4 ст. 63 ГК РФ, ст. 224 закона 127-ФЗ).",
+      "source_url": "https://www.consultant.ru/document/cons_doc_LAW_5142/",
+      "source_type": "ГК РФ ст. 63 п. 4, ФЗ-127 ст. 224",
+      "source_date": "2025-07-31",
+      "added_by_agent": "2-legal-research",
+      "added_for_slug": "likvidaciya-ooo-bez-dolgov",
+      "added_at": "2026-05-11"
+    },
+    {
+      "key": "likvid_arkhiv_50_let_st22_1_fz125",
+      "claim": "Документы по личному составу хранятся 50 лет (после 2003 г.) или 75 лет (до 2003 г.) - ст. 22.1 закона 125-ФЗ.",
+      "source_url": "https://www.consultant.ru/document/cons_doc_LAW_43947/",
+      "source_type": "ФЗ-125 ст. 22.1",
+      "source_date": "2025-07-31",
+      "added_by_agent": "2-legal-research",
+      "added_for_slug": "likvidaciya-ooo-bez-dolgov",
+      "added_at": "2026-05-11"
+    },
+    {
+      "key": "likvid_uvedomlenie_rabotnikov_2_mes_st180_tk",
+      "claim": "Работников предупреждают о предстоящем увольнении в связи с ликвидацией не менее чем за 2 месяца под роспись (ст. 180 ТК РФ).",
+      "source_url": "https://www.consultant.ru/document/cons_doc_LAW_34683/",
+      "source_type": "ТК РФ ст. 180",
+      "source_date": "2025-07-31",
+      "added_by_agent": "2-legal-research",
+      "added_for_slug": "likvidaciya-ooo-bez-dolgov",
+      "added_at": "2026-05-11"
+    },
+    {
+      "key": "likvid_notarial_r15016_st9_p1_2_fz129",
+      "claim": "Подпись на форме Р15016 удостоверяется нотариально, кроме подачи с УКЭП заявителя или через нотариуса (п. 1.2 ст. 9 закона 129-ФЗ).",
+      "source_url": "https://www.consultant.ru/document/cons_doc_LAW_32881/",
+      "source_type": "ФЗ-129 ст. 9 п. 1.2",
+      "source_date": "2024-12-28",
+      "added_by_agent": "2-legal-research",
+      "added_for_slug": "likvidaciya-ooo-bez-dolgov",
+      "added_at": "2026-05-11"
     }
   ]
 }
