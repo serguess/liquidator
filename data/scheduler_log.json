@@ -445,5 +445,55 @@
     "returncode": 0,
     "stdout_tail": "14 | реструктуризация долгов физлица |\n| fiz-15 | финансовый управляющий при банкротстве физлица |\n| fiz-16 | банкротство самозанятого |\n| fiz-17 | банкротство с долгами по жкх |\n| fiz-18 | сколько длится банкротство физлица |\n| fiz-19 | жизнь после банкротства физлица |\n\n**Распределение по воронке:** 4 темы decision (fiz-10, 11, 12, 13), 4 темы consideration (fiz-14, 15, 16, 17), 2 темы awareness (fiz-18, 19). Все slug-и уникальны в проекте, дублей с published_index и текущими черновиками нет.\n",
     "stderr_tail": ""
+  },
+  {
+    "timestamp": "2026-05-11T22:08:16",
+    "category": "yur",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": false,
+      "stdout_tail": "",
+      "stderr_tail": " have unmerged files.\nhint: Fix them up in the work tree, and then use 'git add/rm <file>'\nhint: as appropriate to mark resolution and make a commit.\nfatal: Exiting because of an unresolved conflict.\n",
+      "strategy": "all_failed"
+    },
+    "mode": "new",
+    "topic_id": "yur-08",
+    "topic_slug": "priznaki-bankrotstva-yurlica",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [
+        "spam_risk: 1 флагов (ngram3_repeat_share>0.03 (=0.045)), top-5: ['период', 'месяц', 'банкротств', 'обстоятельств', 'рубл']"
+      ],
+      "warnings": [],
+      "recommendations": [
+        "reduce_repetition: разбавить топ-5 частотных лемм местоимениями/перифразом — ['период', 'месяц', 'банкротств', 'обстоятельств', 'рубл']"
+      ],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "priznaki-bankrotstva-yurlica",
+    "duration_sec": 2112.7,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "ерку на text.ru, значения будут заполнены scheduler-ом после публикации).\n\n**Примечания:**\n- Обложка не сгенерирована (`cover_generation_failed: true`) — модуль `fal-client` не установлен в окружении, это инфраструктурная проблема.\n- quality_gate: `passed: false` / `hard_failed: false` / exit 0 — маргинальное превышение ngram3_repeat_share (0.045 vs порог 0.03) по леммам «период», «месяц», «банкротств», «обстоятельств», «рубл». Статья добавлена в review-очередь для финального решения редактора.\n",
+    "stderr_tail": "",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7586
+    },
+    "git": {
+      "committed": false,
+      "pushed": false,
+      "reason": "commit_failed",
+      "stderr": "U\tdata/research_cache.json\nerror: Committing is not possible because you have unmerged files.\nhint: Fix them up in the work tree, and then use 'git add/rm <file>'\nhint: as appropriate to mark resolution and make a commit.\nfatal: Exiting because of an unresolved conflict.\n"
+    }
   }
 ]

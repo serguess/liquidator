@@ -234,3 +234,13 @@ hint: as appropriate to mark resolution and make a commit.
 fatal: Exiting because of an unresolved conflict.
 ====
 
+[2026-05-11T22:43:29] slot=priznaki-bankrotstva-yurlica category=yur action=git_commit returncode=128
+--- stderr ---
+error: Committing is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: Exiting because of an unresolved conflict.
+--- stdout ---
+U	data/research_cache.json
+====
+

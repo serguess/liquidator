@@ -95,6 +95,20 @@
         "hard_failed": false
       },
       "cover_generation_failed": true
+    },
+    {
+      "slug": "priznaki-bankrotstva-yurlica",
+      "category": "yur",
+      "title": "Признаки банкротства юрлица и обязанность директора подать",
+      "added_at": "2026-05-11T23:43:23.142957",
+      "char_count": 7586,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1778532201/articles/priznaki-bankrotstva-yurlica-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": false,
+        "hard_failed": false
+      },
+      "cover_generation_failed": true
     }
   ]
 }
