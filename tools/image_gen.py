@@ -582,6 +582,24 @@ def _rebuild_article_with_cover(slug: str) -> None:
         if result.get("ok"):
             log.info("article.html пересобран с cover_url для %s (%d символов)",
                      slug, result.get("html_chars", 0))
+            # Sync versions/v2.0.html — без этого при ссылке `?v=2.0` (которую
+            # шлёт бот в TG) endpoint /p/ отдаёт устаревший снимок без обложки.
+            # Bot.watcher._ensure_versions_dir создаёт v2.0.html копированием
+            # article.html при первом тике watcher-а. Если image_gen генерит
+            # обложку ПОЗЖЕ (например при ручной публикации старого draft),
+            # v2.0.html уже создан и не обновится сам.
+            try:
+                versions_dir = slug_dir / "versions"
+                v20 = versions_dir / "v2.0.html"
+                article_html = slug_dir / "article.html"
+                if v20.exists() and article_html.exists():
+                    v20.write_text(
+                        article_html.read_text(encoding="utf-8"),
+                        encoding="utf-8",
+                    )
+                    log.info("versions/v2.0.html обновлён обложкой для %s", slug)
+            except OSError:
+                log.exception("Не смог обновить versions/v2.0.html для %s", slug)
         else:
             log.warning("inject_boilerplate не пересобрал article.html для %s: %s",
                         slug, result.get("error"))
