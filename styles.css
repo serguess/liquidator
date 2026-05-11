@@ -3292,6 +3292,9 @@ a {
   pointer-events: none;
   z-index: 0;
   overflow: hidden;
+  /* Оптимизация скроллинга: изолируем рендеринг фона */
+  will-change: contents;
+  contain: layout paint;
 }
 .category-bg--section { position: absolute; }
 .category-bg__blob {
@@ -3300,6 +3303,9 @@ a {
   filter: blur(70px);
   opacity: 0.9;
   will-change: transform;
+  /* GPU-ускорение для smooth анимаций */
+  transform: translateZ(0);
+  backface-visibility: hidden;
 }
 .category-bg__blob--1 {
   width: 520px; height: 520px;
@@ -3340,6 +3346,10 @@ a {
   opacity: 0.95;
   mix-blend-mode: screen;
   animation: catBokehDrift 28s linear infinite;
+  /* GPU-ускорение для плавной анимации */
+  transform: translateZ(0);
+  backface-visibility: hidden;
+  will-change: transform;
 }
 .category-bg__bokeh::after {
   content: '';
@@ -3367,9 +3377,12 @@ a {
 .category-bg__wave {
   stroke-linecap: round;
   filter: drop-shadow(0 0 4px rgba(75,83,32,0.2));
+  /* GPU-ускорение волн */
+  transform: translateZ(0);
+  backface-visibility: hidden;
 }
-.category-bg__wave--1 { animation: catWaveFlow1 16s ease-in-out infinite alternate; transform-origin: center; }
-.category-bg__wave--2 { animation: catWaveFlow2 20s ease-in-out infinite alternate; transform-origin: center; }
+.category-bg__wave--1 { animation: catWaveFlow1 16s ease-in-out infinite alternate; transform-origin: center; will-change: transform; }
+.category-bg__wave--2 { animation: catWaveFlow2 20s ease-in-out infinite alternate; transform-origin: center; will-change: transform; }
 .category-bg__grain {
   position: absolute; inset: 0;
   background-image: radial-gradient(rgba(0,0,0,0.04) 1px, transparent 1px);
@@ -4148,5 +4161,21 @@ body.is-modal-open { overflow: hidden; }
     height: auto !important;
     padding: 0 !important;
     margin: 0 !important;
+  }
+
+  /* Категория: отключить анимации фона на мобильных для плавного скроллинга */
+  .category-bg__blob--1,
+  .category-bg__blob--2,
+  .category-bg__blob--3,
+  .category-bg__blob--4 {
+    animation: none !important;
+  }
+  .category-bg__bokeh,
+  .category-bg__bokeh::after {
+    animation: none !important;
+  }
+  .category-bg__wave--1,
+  .category-bg__wave--2 {
+    animation: none !important;
   }
 }
