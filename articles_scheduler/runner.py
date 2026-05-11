@@ -1232,7 +1232,7 @@ def _git_commit_and_push(slug: str, category: str, metrics: str = "") -> dict:
     # СРАЗУ после push, заказчик кликнет на /preview ссылку и получит 401/404
     # потому что Cloud Apps ещё доделывает redeploy.
     #
-    # Делаем GET на /preview/{slug}?t=TOKEN и ждём 200. Только после этого
+    # Делаем GET на /p/{slug}?t=TOKEN и ждём 200. Только после этого
     # пишем .pushed, который и триггерит отправку уведомления через watcher.
     # Таймаут 3 минуты — если Cloud Apps дольше, всё равно отдаём уведомление
     # (лучше уведомить чем потерять).
@@ -1253,10 +1253,15 @@ def _git_commit_and_push(slug: str, category: str, metrics: str = "") -> dict:
     return {"committed": True, "pushed": True}
 
 
-def _wait_cloud_apps_ready(slug: str, timeout_sec: int = 180) -> bool:
+def _wait_cloud_apps_ready(slug: str, timeout_sec: int = 480) -> bool:
     """
     Ждёт пока Cloud Apps подтянет статью после git push.
-    Делает GET на /preview/{slug}?t=TOKEN каждые 5 сек, до получения 200.
+
+    Timeout=480 сек (8 мин) — у Timeweb Cloud Apps deploy занимает ~5 мин
+    (наблюдалось в проде). Делаем запас в 3 минуты на сетевые лаги, рестарт
+    uvicorn, прогрев Caddy.
+
+    Делает GET на /p/{slug}?t=TOKEN каждые 5 сек, до получения 200.
     Возвращает True если дождались, False если timeout (но всё равно
     продолжаем pipeline — лучше уведомить с задержкой чем потерять статью).
     """
@@ -1273,13 +1278,15 @@ def _wait_cloud_apps_ready(slug: str, timeout_sec: int = 180) -> bool:
         log.warning("Не смог прочитать preview_token из bot_state.json для health-check")
 
     if not token:
-        # Без токена /preview всё равно вернёт 401, health-check бессмысленен.
-        # Просто подождём 60 сек чтобы Cloud Apps успел редеплоить.
-        log.info("preview_token не найден, ждём 60 сек безусловно перед .pushed sentinel")
-        time.sleep(60)
+        # Без токена /p/ вернёт 403, health-check бессмысленен.
+        # Просто подождём 5 минут безусловно — Cloud Apps deploy ~5 мин.
+        log.info("preview_token не найден, ждём 300 сек безусловно перед .pushed sentinel")
+        time.sleep(300)
         return False
 
-    url = f"{public_base}/preview/{slug}?t={token}"
+    # /p/ — публичный endpoint с проверкой токена (заказчику в TG шлётся этот URL).
+    # /preview/ требует Basic Auth и для health-check не подходит.
+    url = f"{public_base}/p/{slug}?t={token}"
     deadline = time.time() + timeout_sec
     log.info("Cloud Apps health-check: %s", url)
 
