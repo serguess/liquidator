@@ -366,7 +366,7 @@
     "udershanie-iz-zarplaty-pristavami": {
       "category": "vzysk",
       "title": "Удержание из зарплаты приставами: сколько и как снизить",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -374,10 +374,12 @@
       "tg_message_id": 360,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-11T04:49:41",
-      "last_action_at": "2026-05-11T04:49:41",
+      "last_action_at": "2026-05-11T14:09:22",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null
+      "published_url": "https://pravo.shop/articles/vzysk/udershanie-iz-zarplaty-pristavami",
+      "published_at": "2026-05-11T14:09:22",
+      "articles_path": "articles/vzysk/udershanie-iz-zarplaty-pristavami.html"
     },
     "kak-podat-na-bankrotstvo-samostoyatelno": {
       "category": "fiz",
