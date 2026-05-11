@@ -467,6 +467,24 @@
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null
+    },
+    "priznaki-bankrotstva-yurlica": {
+      "category": "yur",
+      "title": "Признаки банкротства юрлица и обязанность директора подать",
+      "status": "published",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 404,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-05-11T23:45:38",
+      "last_action_at": "2026-05-11T23:46:17",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": "https://pravo.shop/articles/yur/priznaki-bankrotstva-yurlica",
+      "published_at": "2026-05-11T23:46:17",
+      "articles_path": "articles/yur/priznaki-bankrotstva-yurlica.html"
     }
   },
   "pending_actions": []
