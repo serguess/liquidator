@@ -3289,6 +3289,29 @@ a {
 .category-page--light .category { position: relative; z-index: 1; }
 .category-page--light .footer { position: relative; z-index: 2; }
 
+/* ====================================================================
+   /category/all: на странице со статьями шапка с backdrop-filter blur
+   накладывалась на ПОСТОЯННО анимированный category-bg → браузер каждый
+   кадр пересчитывал blur движущихся блобов под шапкой. Решение:
+   1. Убрать backdrop-filter, дать шапке solid background.
+   2. Остановить анимации фона - blur(40px) на 4 блобах + bokeh + grain
+      достаточно декоративны и без движения.
+   3. transition только background-color, без padding (no layout reflow).
+   ==================================================================== */
+.category-page .header__inner {
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
+  background: rgba(20, 25, 34, 0.88);
+  transition: background-color 0.35s ease;
+}
+.category-page .category-bg__blob,
+.category-page .category-bg__bokeh,
+.category-page .category-bg__bokeh::after,
+.category-page .category-bg__wave--1,
+.category-page .category-bg__wave--2 {
+  animation: none !important;
+}
+
 .category-bg {
   position: fixed; inset: 0;
   pointer-events: none;
