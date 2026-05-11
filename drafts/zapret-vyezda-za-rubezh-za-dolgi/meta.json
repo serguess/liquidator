@@ -1,0 +1,99 @@
+{
+  "slug": "zapret-vyezda-za-rubezh-za-dolgi",
+  "category": "vzysk",
+  "title": "Запрет выезда за рубеж за долги: как снять",
+  "description": "Когда пристав вправе закрыть выезд, какая сумма долга нужна, как проверить запрет через Госуслуги и ФССП, и что сделать, чтобы пересечь границу.",
+  "h1": "Запрет выезда за рубеж за долги: как снять ограничение",
+  "lead": "Когда пристав вправе ввести запрет, как проверить статус через Госуслуги и ФССП и что делать, чтобы снять ограничение до вылета.",
+  "topic_action": "снятие запрета на выезд",
+  "cta_top_text": "Проверить мою ситуацию бесплатно",
+  "cta_mid_text": "Задать вопрос юристу",
+  "cta_bottom_text": "Оставить заявку на консультацию",
+  "breadcrumb_current": "Запрет выезда за долги",
+  "og_image": "/assets/articles/zapret-vyezda-za-rubezh-za-dolgi.jpg",
+  "main_keyword": "запрет выезда за рубеж за долги",
+  "secondary_keywords": [
+    "как снять запрет на выезд за границу",
+    "временное ограничение выезда должника",
+    "проверить запрет на выезд ФССП",
+    "запрет выезда за границу сумма долга",
+    "снятие запрета на выезд после оплаты",
+    "запрет выезда приставы статья 67 229-ФЗ",
+    "как узнать есть ли запрет на выезд за границу",
+    "запрет выезда алименты долг",
+    "сколько нужно заплатить чтобы снять запрет на выезд"
+  ],
+  "internal_links": [
+    "/articles/vzysk/kak-otmenit-sudebnyj-prikaz.html",
+    "/articles/vzysk/snyatie-aresta-so-scheta-pristavami.html",
+    "/articles/vzysk/okonchanie-ip-po-state-46.html"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_71450/d55c99ef04178dea050040276efd26d516424136/",
+    "https://www.consultant.ru/document/cons_doc_LAW_189010/57df3d10f88be849e031062328fbc7645562e495/"
+  ],
+  "faq": [
+    {
+      "question": "Долг оплачен вчера - сегодня могу лететь?",
+      "answer": "Лететь пока рано. По ч. 7 ст. 67 ФЗ-229 ФССП выносит постановление об отмене автоматически, но пограничная база обновляется в течение 7-14 дней. Минимальный запас - две недели с момента уплаты."
+    },
+    {
+      "question": "Что будет, если попробовать пересечь границу при действующем запрете?",
+      "answer": "Пограничный контроль не пропустит: данные поступают автоматически. Специальной уголовной статьи за такую попытку закон прямо не предусматривает, однако она расценивается как уклонение от исполнения судебного акта."
+    },
+    {
+      "question": "Пристав не уведомил о постановлении - это основание для отмены?",
+      "answer": "Само по себе нет. Нарушение ч. 10 ст. 67 ФЗ-229 суд учтёт при оценке законности меры, но автоматически её не отменит."
+    },
+    {
+      "question": "Исполнительное производство приостановлено - ограничение тоже снято?",
+      "answer": "Приостановление производства не влечёт отмены меры. Верховный Суд в определении по делу № 91-КАД22-4-КЗ (2022 г.) пояснил: это исполнительное действие по ст. 64 ФЗ-229, а не мера принудительного исполнения."
+    },
+    {
+      "question": "Частичная оплата долга снимает ограничение на выезд?",
+      "answer": "Частичной уплаты недостаточно. Требуется полная сумма: основная задолженность плюс исполнительский сбор. При нескольких делах уплата по одному не затрагивает остальные."
+    },
+    {
+      "question": "Можно ли получить разовое разрешение на выезд при наличии запрета?",
+      "answer": "ФЗ-229 такого механизма не предусматривает. Единственный путь - полностью снять меру через погашение либо отмену постановления. Жалоба при наличии подтверждающих документов рассматривается в течение 10 дней."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Draft contained ч.11 ст.67 for notification requirement - corrected to ч.10 ст.67 per research f5.",
+    "f12 (нарушение запрета выезда) имеет legislation_status: needs_verification - в тексте использована осторожная формулировка safe_phrasing без указания конкретной статьи КоАП.",
+    "Все остальные факты верифицированы: last_verified 2026-05-11, legislation_status active."
+  ],
+  "keyword_density_main": null,
+  "main_keyword_exact_count": null,
+  "text_chars": 6600,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.103,
+  "local_spam_ngram3_repeat": 0.016,
+  "local_lexical_diversity": 0.643,
+  "local_ai_markers_density": 0.24,
+  "local_ai_markers_critical": 0,
+  "length_status": "ok",
+  "length_kind": "default",
+  "local_ai_markers_total": 2,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 0,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 12,
+  "predicted_spam_pct": 50,
+  "predicted_ai_pct": 5,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [],
+  "cover_generation_failed": true,
+  "cover_generation_error": "image_gen returned None on both attempts",
+  "date_published": "2026-05-11",
+  "date_modified": "2026-05-11",
+  "ready_for_review": true,
+  "ready_at": "2026-05-11T15:44:40Z",
+  "publication_target": "telegram_review"
+}

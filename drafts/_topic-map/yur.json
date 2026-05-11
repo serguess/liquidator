@@ -173,9 +173,10 @@
       "frequency_estimate": "medium",
       "rationale": "Чистая процедурная тема. Низкая боль, но регулярный поток собственников, закрывающих неактивные компании.",
       "expected_length_chars": 7000,
-      "status": "proposed",
+      "status": "rejected",
       "client_notes": "",
-      "topic_action": "ликвидацию ООО"
+      "topic_action": "ликвидацию ООО",
+      "rejection_reason": "heartbeat-timeout 2 раза подряд (10:29, 15:07)"
     },
     {
       "id": "yur-08",
