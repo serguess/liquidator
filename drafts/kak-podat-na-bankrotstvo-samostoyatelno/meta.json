@@ -1,0 +1,105 @@
+{
+  "slug": "kak-podat-na-bankrotstvo-samostoyatelno",
+  "category": "fiz",
+  "title": "Как подать на банкротство физлица самостоятельно",
+  "description": "Физлицу подать на банкротство самостоятельно - законно. МФЦ или арбитражный суд: условия, документы, расходы и три ошибки при подаче.",
+  "h1": "Как подать на банкротство самостоятельно: инструкция для гражданина-должника",
+  "lead": "Разбираем, какой маршрут открыт в вашей ситуации, что реально стоит денег и какие три ошибки чаще всего срывают самостоятельную подачу.",
+  "topic_action": "проверку возможности списания долгов",
+  "breadcrumb_current": "Самостоятельное банкротство физлица",
+  "og_image": "/assets/articles/kak-podat-na-bankrotstvo-samostoyatelno.jpg",
+  "main_keyword": "как подать на банкротство самостоятельно",
+  "secondary_keywords": [
+    "самостоятельное банкротство физлица",
+    "подать заявление о банкротстве в арбитражный суд",
+    "банкротство физлица пошагово",
+    "как объявить себя банкротом самому",
+    "документы для банкротства физлица",
+    "условия банкротства физического лица",
+    "банкротство без юриста",
+    "финансовый управляющий для банкротства физлица",
+    "внесудебное или судебное банкротство что выбрать"
+  ],
+  "internal_links": [
+    "/articles/fiz/vnesudebnoe-bankrotstvo-cherez-mfc-2026.html",
+    "/articles/fiz/skolko-stoit-bankrotstvo-fizicheskogo-lica.html",
+    "/articles/fiz/bankrotstvo-pri-ipoteke-edinstvennoe-zhilye.html"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/c48290d39215783e73f0899bb1026b14cb221eff/",
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/c2c8c81ee8e4bd843286b08b10607f00ec6ae073/"
+  ],
+  "faq": [
+    {
+      "question": "Можно ли подать на банкротство, если долг меньше 500 000 рублей?",
+      "answer": "Да. При признаках неплатёжеспособности гражданин вправе обратиться в арбитраж при любой сумме долга (ст. 213.4 п. 2 127-ФЗ). При обязательствах от 25 000 до 1 000 000 руб. и выполнении одного из четырёх условий доступен МФЦ-маршрут."
+    },
+    {
+      "question": "Что будет, если СРО не предоставит кандидата финансового управляющего?",
+      "answer": "Суд прекратит производство по ст. 57 127-ФЗ. Депозит возвращают, но дело закрыто. Реестр СРО доступен на сайте Росреестра - rosreestr.gov.ru."
+    },
+    {
+      "question": "Сколько раз можно воспользоваться банкротством через МФЦ?",
+      "answer": "Повторно - не раньше чем через 5 лет после завершения процедуры. После отказа - через 1 месяц."
+    },
+    {
+      "question": "Нужно ли платить госпошлину при подаче заявления о банкротстве?",
+      "answer": "Нет, если подаёт сам должник. Госпошлина равна 0 руб. с 8 сентября 2024 года (НК РФ ст. 333.21 пп. 5, ред. ФЗ-259 от 08.08.2024). Обязательный расход - депозит 25 000 руб. на вознаграждение финансового управляющего."
+    },
+    {
+      "question": "Могут ли забрать единственную квартиру при банкротстве?",
+      "answer": "Единственное жильё, не находящееся в ипотеке, защищено по ст. 446 ГПК. Однако по постановлению КС РФ № 15-П от 26.04.2021 исполнительский иммунитет не абсолютный: при явно избыточной площади суд вправе продать квартиру и купить замещающее жильё в том же городе."
+    },
+    {
+      "question": "Какие долги не списываются даже после завершения процедуры?",
+      "answer": "Алименты, компенсации за вред жизни и здоровью, текущие расходы процедуры, субсидиарная ответственность (ст. 213.28 п. 5-6 127-ФЗ). Откажут в освобождении и при недобросовестном поведении: сокрытие активов, ложные сведения, судимость за мошенничество (п. 4)."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все факты сверены с research.json. Статусы: active. last_verified в пределах 6 месяцев для всех ключевых утверждений.",
+    "Лимит МФЦ: 25 000 - 1 000 000 руб. - актуален (ред. 09.04.2026). Устаревший лимит 500 000 руб. в тексте отсутствует.",
+    "Госпошлина: 0 руб. с 08.09.2024. Устаревшее значение 300 руб. в тексте отсутствует.",
+    "7% от выручки при реализации (ст. 20.6 п. 17) - контекст применения корректен, привязан к процедуре реализации.",
+    "ПМ 2026: 20 644 руб. (ФЗ-426 от 28.11.2025) - верифицирован.",
+    "Постановление КС РФ № 15-П: оговорка о неабсолютности иммунитета присутствует - запрет из forbidden_claims соблюдён."
+  ],
+  "keyword_density_main": 0.018,
+  "main_keyword_exact_count": 2,
+  "text_chars": 7773,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.091,
+  "local_spam_ngram3_repeat": 0.065,
+  "local_lexical_diversity": 0.611,
+  "local_ai_markers_density": 0.21,
+  "local_ai_markers_critical": 0,
+  "length_status": "warn",
+  "length_kind": "default",
+  "local_ai_markers_total": 2,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 0,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": false,
+  "quality_gate_blockers": [
+    "spam_risk: 2 флагов (ngram3_repeat_share>0.03 (=0.065), lexical_diversity<0.62 (=0.611)), top-5: ['года', 'банкротств', 'долг', 'вправ', 'стать']"
+  ],
+  "quality_gate_retry_count": 5,
+  "predicted_spam_pct": 57,
+  "predicted_ai_pct": 5,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность выше 50% (~57%)"
+  ],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1778479693/articles/kak-podat-na-bankrotstvo-samostoyatelno-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1778479693/articles/kak-podat-na-bankrotstvo-samostoyatelno-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Top-down flat-lay editorial photograph on a polished dark walnut desk with soft golden morning light casting a long warm diagonal across the surface. On the desktop: a closed brown leather case folder placed slightly left of center with a wooden judges gavel resting diagonally on top, a stack of three closed law books with embossed gilt spines and a small national emblem, an elegant black fountain pen, a small white porcelain coffee cup on a saucer, a pair of reading glasses. Premium legal-magazine aesthetic, neutral beige and graphite palette with warm gold accents.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-05-11T06:08:14Z",
+  "date_published": "2026-05-11",
+  "date_modified": "2026-05-11",
+  "ready_for_review": true,
+  "ready_at": "2026-05-11T06:08:14Z",
+  "publication_target": "telegram_review"
+}

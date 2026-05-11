@@ -40,6 +40,19 @@
         "hard_failed": false
       },
       "cover_generation_failed": true
+    },
+    {
+      "slug": "kak-podat-na-bankrotstvo-samostoyatelno",
+      "category": "fiz",
+      "title": "Как подать на банкротство физлица самостоятельно",
+      "added_at": "2026-05-11T09:08:14.285650",
+      "char_count": 7773,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1778479693/articles/kak-podat-na-bankrotstvo-samostoyatelno-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": false,
+        "hard_failed": false
+      }
     }
   ]
 }

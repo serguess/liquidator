@@ -1,0 +1,37 @@
+{
+  "slug": "kak-podat-na-bankrotstvo-samostoyatelno",
+  "passed": true,
+  "scores": {
+    "structure_overlap": 0.167,
+    "thesis_similarity": 0.154,
+    "cta_overlap": 0.0
+  },
+  "thresholds": {
+    "structure_overlap": 0.4,
+    "thesis_similarity": 0.3,
+    "cta_overlap": 0.2
+  },
+  "similar_articles": [
+    {
+      "slug": "bankrotstvo-suprugov-sovmestnoe",
+      "category": "fiz",
+      "similarity": 0.167,
+      "h2_count": 6
+    },
+    {
+      "slug": "vnesudebnoe-bankrotstvo-cherez-mfc-2026",
+      "category": "fiz",
+      "similarity": 0.167,
+      "h2_count": 6
+    },
+    {
+      "slug": "bankrotstvo-pri-ipoteke-edinstvennoe-zhilye",
+      "category": "fiz",
+      "similarity": 0.143,
+      "h2_count": 7
+    }
+  ],
+  "conflicts": [],
+  "closest_peer": "bankrotstvo-suprugov-sovmestnoe",
+  "recommendation": "ok"
+}
