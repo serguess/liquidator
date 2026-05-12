@@ -738,5 +738,61 @@
     "stdout_tail": "",
     "stderr_tail": "\n[scheduler] killed by heartbeat timeout (>900s of silence)",
     "metrics": null
+  },
+  {
+    "timestamp": "2026-05-12T09:36:22",
+    "category": "fiz",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 1,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "fiz-17",
+    "topic_slug": "bankrotstvo-s-dolgami-po-zhkh",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [
+        "spam_risk: 3 флагов (top10_share>0.105 (=0.151), ngram3_repeat_share>0.03 (=0.05), lexical_diversity<0.62 (=0.566)), top-5: ['долг', 'процедур', 'банкротств', 'обязательств', 'кредитор']"
+      ],
+      "warnings": [],
+      "recommendations": [
+        "reduce_repetition: разбавить топ-5 частотных лемм местоимениями/перифразом — ['долг', 'процедур', 'банкротств', 'обязательств', 'кредитор']"
+      ],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "bankrotstvo-s-dolgami-po-zhkh",
+    "duration_sec": 2081.3,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "l_client не установлен) — использована обложка от `bankrotstvo-pri-ipoteke-edinstvennoe-zhilye`\n\n**Файл:** `drafts/bankrotstvo-s-dolgami-po-zhkh/article.html` (32 740 символов)\n**Статус:** `ready_for_review=true`, добавлена в `drafts/_review_queue.json`\n\n> Статья помечена soft-fail по заспамленности (предикт 67%). Тема структурно насыщена юридическими терминами (долг/процедура/банкротство — ключевые понятия предмета). Статья передана в ревью — финальное решение за заказчиком через Telegram-бот.\n",
+    "stderr_tail": "",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7684
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]
