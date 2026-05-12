@@ -1,6 +1,19 @@
 {
-  "generated": "2026-05-11",
+  "generated": "2026-05-12",
   "articles": [
+    {
+      "slug": "zapret-vyezda-za-rubezh-za-dolgi",
+      "cat": "vzysk",
+      "catLabel": "Взыскание задолженности",
+      "title": "Запрет выезда за рубеж за долги: как снять",
+      "desc": "Когда пристав вправе закрыть выезд, какая сумма долга нужна, как проверить запрет через Госуслуги и ФССП, и что сделать, чтобы пересечь границу.",
+      "date": "12 мая 2026",
+      "dateIso": "2026-05-12",
+      "read": "4 мин.",
+      "tone": "b",
+      "img": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1778520712/articles/zapret-vyezda-za-rubezh-za-dolgi-cover.jpg",
+      "url": "articles/vzysk/zapret-vyezda-za-rubezh-za-dolgi"
+    },
     {
       "slug": "priznaki-bankrotstva-yurlica",
       "cat": "yur",

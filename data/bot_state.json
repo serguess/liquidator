@@ -439,7 +439,7 @@
     "zapret-vyezda-za-rubezh-za-dolgi": {
       "category": "vzysk",
       "title": "Запрет выезда за рубеж за долги: как снять",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -447,10 +447,12 @@
       "tg_message_id": 400,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-11T18:53:36",
-      "last_action_at": "2026-05-11T18:53:36",
+      "last_action_at": "2026-05-12T14:01:37",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null
+      "published_url": "https://pravo.shop/articles/vzysk/zapret-vyezda-za-rubezh-za-dolgi",
+      "published_at": "2026-05-12T14:01:37",
+      "articles_path": "articles/vzysk/zapret-vyezda-za-rubezh-za-dolgi.html"
     },
     "cifrovoj-rubl-i-bankrotstvo": {
       "category": "news",
@@ -567,14 +569,5 @@
       "published_url": null
     }
   },
-  "pending_actions": [
-    {
-      "action": "publish",
-      "slug": "zapret-vyezda-za-rubezh-za-dolgi",
-      "version": "2.0",
-      "chat_id": 144472991,
-      "reply_to_message_id": 399,
-      "queued_at": "2026-05-12T13:54:04"
-    }
-  ]
+  "pending_actions": []
 }
