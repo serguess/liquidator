@@ -2,6 +2,19 @@
   "generated": "2026-05-12",
   "articles": [
     {
+      "slug": "cifrovoj-rubl-i-bankrotstvo",
+      "cat": "news",
+      "catLabel": "Новости",
+      "title": "Цифровой рубль и взыскание долгов: что меняется",
+      "desc": "С сентября 2026 приставы получат право арестовывать цифровой кошелёк должника и списывать средства без обычных банковских реквизитов. Разбираем, как работает новый механизм.",
+      "date": "12 мая 2026",
+      "dateIso": "2026-05-12",
+      "read": "4 мин.",
+      "tone": "b",
+      "img": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1778520695/articles/cifrovoj-rubl-i-bankrotstvo-cover.jpg",
+      "url": "articles/news/cifrovoj-rubl-i-bankrotstvo"
+    },
+    {
       "slug": "zapret-vyezda-za-rubezh-za-dolgi",
       "cat": "vzysk",
       "catLabel": "Взыскание задолженности",

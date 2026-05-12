@@ -457,7 +457,7 @@
     "cifrovoj-rubl-i-bankrotstvo": {
       "category": "news",
       "title": "Цифровой рубль и взыскание долгов: что меняется",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -465,10 +465,12 @@
       "tg_message_id": 402,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-11T19:51:37",
-      "last_action_at": "2026-05-11T19:51:37",
+      "last_action_at": "2026-05-12T15:35:00",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null
+      "published_url": "https://pravo.shop/articles/news/cifrovoj-rubl-i-bankrotstvo",
+      "published_at": "2026-05-12T15:35:00",
+      "articles_path": "articles/news/cifrovoj-rubl-i-bankrotstvo.html"
     },
     "priznaki-bankrotstva-yurlica": {
       "category": "yur",
@@ -564,6 +566,22 @@
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-12T12:20:43",
       "last_action_at": "2026-05-12T12:20:43",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null
+    },
+    "bankrotstvo-po-mikrozajmam": {
+      "category": "fiz",
+      "title": "Банкротство по микрозаймам: спишут ли долги МФО",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 422,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-05-12T15:34:45",
+      "last_action_at": "2026-05-12T15:34:45",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null
