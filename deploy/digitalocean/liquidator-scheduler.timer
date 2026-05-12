@@ -1,26 +1,32 @@
 [Unit]
-Description=Run Liquidator scheduler 10 times/day at fixed times (every 144 min from midnight)
+Description=Run Liquidator scheduler every 100 min from midnight (14 triggers/day)
 
 [Timer]
 # Первый слот через 5 минут после загрузки (на случай если развернули
 # в середине окна между OnCalendar-триггерами).
 OnBootSec=5min
 
-# 10 фиксированных точек запуска в сутки, каждые 144 мин от полуночи (МСК).
-# 0:00, 2:24, 4:48, 7:12, 9:36, 12:00, 14:24, 16:48, 19:12, 21:36 МСК.
+# 14 фиксированных точек запуска в сутки, шаг 100 мин от полуночи (МСК).
+# 00:00, 01:40, 03:20, 05:00, 06:40, 08:20, 10:00, 11:40, 13:20, 15:00,
+# 16:40, 18:20, 20:00, 21:40. Ночной разрыв 21:40 → 00:00 = 140 мин.
 # Если slot ещё пишется при триггере — systemd НЕ запустит дубликат
-# (service oneshot, уже active → пропуск). Когда slot уложится в 144 мин,
-# выйдет ровно 10/сутки.
+# (service oneshot, уже active → пропуск). ARTICLES_PER_DAY=10 ограничит
+# реальное количество написанных статей; лишние триггеры просто скипнутся —
+# зато failed/timeout-слоты получают больше шансов догнать.
 OnCalendar=*-*-* 00:00:00
-OnCalendar=*-*-* 02:24:00
-OnCalendar=*-*-* 04:48:00
-OnCalendar=*-*-* 07:12:00
-OnCalendar=*-*-* 09:36:00
-OnCalendar=*-*-* 12:00:00
-OnCalendar=*-*-* 14:24:00
-OnCalendar=*-*-* 16:48:00
-OnCalendar=*-*-* 19:12:00
-OnCalendar=*-*-* 21:36:00
+OnCalendar=*-*-* 01:40:00
+OnCalendar=*-*-* 03:20:00
+OnCalendar=*-*-* 05:00:00
+OnCalendar=*-*-* 06:40:00
+OnCalendar=*-*-* 08:20:00
+OnCalendar=*-*-* 10:00:00
+OnCalendar=*-*-* 11:40:00
+OnCalendar=*-*-* 13:20:00
+OnCalendar=*-*-* 15:00:00
+OnCalendar=*-*-* 16:40:00
+OnCalendar=*-*-* 18:20:00
+OnCalendar=*-*-* 20:00:00
+OnCalendar=*-*-* 21:40:00
 
 # При reboot выполнить один пропущенный запуск (если был downtime).
 Persistent=true
