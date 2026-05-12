@@ -307,6 +307,89 @@ def _persist_topic_map_change(category: str, slug: str, reason: str) -> None:
         log.exception("persist_topic_map: непредвиденная ошибка — пропускаю")
 
 
+NEWS_FRESHNESS_DAYS = int(os.getenv("NEWS_FRESHNESS_DAYS", "30"))
+_STALE_YEAR_PATTERN = re.compile(r"-(19|20)(\d{2})(?:-|$)")
+
+
+def _is_news_topic_valid(topic: dict) -> tuple[bool, str]:
+    """Проверка news-темы: должен быть event_date в окне 30 дней + news_zone + primary_source.
+
+    Возвращает (ok, reason_if_not_ok). Если поля отсутствуют — тема считается
+    мусорной (нагенерил /expand-topics с нарушением спеки 1-semantics.md).
+    Если event_date старше окна или в slug сидит старый год (`-2024-`) — тоже мусор.
+
+    Без этого фильтра _pick_topic брал темы вроде `gosposhlina-2024` и
+    `statistika-bankrotstv-2026` (без event_date) → агент 1 тратил 30 мин на
+    WebSearch и возвращал topic_too_old → слот закрывался без статьи.
+    """
+    slug = topic.get("slug") or ""
+    # 1. Старый год в slug — однозначный мусор (`gosposhlina-2024`).
+    m = _STALE_YEAR_PATTERN.search(slug)
+    if m:
+        year = int(m.group(1) + m.group(2))
+        current_year = datetime.now().year
+        if year < current_year:
+            return False, f"stale_year_in_slug:{year}"
+    # 2. Обязательные поля для news (по 1-semantics.md строки 49-53, 222).
+    if not topic.get("event_date"):
+        return False, "missing_event_date"
+    if not topic.get("news_zone"):
+        return False, "missing_news_zone"
+    if not topic.get("primary_source"):
+        return False, "missing_primary_source"
+    # 3. Окно свежести 30 дней.
+    try:
+        ev = datetime.fromisoformat(topic["event_date"])
+    except (ValueError, TypeError):
+        return False, "invalid_event_date_format"
+    age_days = (datetime.now() - ev).days
+    if age_days > NEWS_FRESHNESS_DAYS:
+        return False, f"event_too_old:{age_days}d"
+    if age_days < -1:  # дата из будущего > 1 дня — точно ошибка модели
+        return False, f"event_in_future:{-age_days}d"
+    return True, "ok"
+
+
+def _sanitize_news_topics() -> int:
+    """Помечает мусорные news-темы status='rejected' прямо в news.json.
+
+    Запускается после /expand-topics news, чтобы невалидные генерации
+    (без event_date / со старым годом / устаревшие) не попадали в работу
+    и не съедали слоты. Возвращает число зачищенных тем. Best-effort:
+    git commit/push делается _persist_topic_map_change-ом.
+    """
+    map_path = TOPIC_MAP_DIR / "news.json"
+    if not map_path.exists():
+        return 0
+    try:
+        data = json.loads(map_path.read_text(encoding="utf-8"))
+    except (json.JSONDecodeError, OSError):
+        return 0
+    cleaned = 0
+    for t in data.get("topics") or []:
+        if t.get("status") == "rejected":
+            continue
+        ok, reason = _is_news_topic_valid(t)
+        if not ok:
+            t["status"] = "rejected"
+            t["rejected_at"] = datetime.now().isoformat(timespec="seconds")
+            t["rejected_reason"] = reason
+            t["rejected_by"] = "news_sanitizer"
+            cleaned += 1
+            log.warning("News-sanitize: %s rejected (%s)", t.get("slug"), reason)
+    if cleaned:
+        try:
+            map_path.write_text(
+                json.dumps(data, ensure_ascii=False, indent=2) + "\n",
+                encoding="utf-8",
+            )
+        except OSError:
+            log.exception("_sanitize_news_topics: запись не удалась")
+            return 0
+        _persist_topic_map_change("news", "_sanitize", f"cleaned={cleaned}")
+    return cleaned
+
+
 def _pick_topic(category: str) -> dict | None:
     """
     Возвращает первую неиспользованную тему из drafts/_topic-map/{category}.json.
@@ -314,6 +397,12 @@ def _pick_topic(category: str) -> dict | None:
     Тема считается «использованной» если её slug есть в drafts/{slug}/ или
     в data/published_index.json. Темы с явным status='rejected' пропускаются:
     остальные статусы (proposed/approved/rewrite/без статуса) не блокируют.
+
+    Для category=news применяется строгий фильтр через _is_news_topic_valid:
+    обязательны event_date + news_zone + primary_source, окно свежести 30 дней,
+    запрет на старый год в slug. Без этого фильтра scheduler брал мусорные темы
+    от /expand-topics news (без обязательных полей) и тратил 30 мин слота на
+    WebSearch агента 1, который всё равно отвергал тему topic_too_old.
 
     Возвращает None если в файле topic-map свободных тем не осталось — тогда
     scheduler должен запустить /expand-topics для пополнения.
@@ -337,6 +426,11 @@ def _pick_topic(category: str) -> dict | None:
         slug = t.get("slug")
         if not slug or slug in used_slugs:
             continue
+        if category == "news":
+            ok, reason = _is_news_topic_valid(t)
+            if not ok:
+                log.debug("_pick_topic skip news/%s: %s", slug, reason)
+                continue
         return t
     return None
 
@@ -1968,6 +2062,17 @@ def run_one_article() -> dict:
                         )
                     except subprocess.TimeoutExpired as exc:
                         result = _synth_timeout_result(exc, time.time() - attempt_started)
+
+                    # После /expand-topics news — sanitize: модель регулярно генерит
+                    # темы без event_date/news_zone/primary_source (нарушает спеку
+                    # 1-semantics.md), и они потом съедают слот через topic_too_old.
+                    # Здесь сразу помечаем такие темы rejected, чтобы _pick_topic
+                    # их не выбрал на следующем шаге.
+                    if category == "news" and result.returncode == 0:
+                        cleaned = _sanitize_news_topics()
+                        if cleaned:
+                            log.info("News-sanitize после /expand-topics: %d тем зачищены", cleaned)
+                            entry["news_sanitized"] = cleaned
 
                     # Если expand прошёл и в слоте осталось >= SLOT_MIN_REMAINING_SEC —
                     # пробуем взять свежую тему и написать статью прямо сейчас.

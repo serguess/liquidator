@@ -92,9 +92,12 @@
       "frequency_estimate": "medium",
       "rationale": "Утилитарный гид с навигационным интентом. Привлекает и должников, и кредиторов, и просто проверяющих контрагентов.",
       "expected_length_chars": 7000,
-      "status": "proposed",
+      "status": "rejected",
       "client_notes": "В работе: drafts/edinyj-portal-bankrotstva-fedresurs/ — scheduler пропустит через _collect_used_slugs.",
-      "topic_action": "проверку через ЕФРСБ"
+      "topic_action": "проверку через ЕФРСБ",
+      "rejected_at": "2026-05-12T22:46:13",
+      "rejected_reason": "missing_event_date",
+      "rejected_by": "news_sanitizer_manual"
     },
     {
       "id": "news-05",
@@ -121,9 +124,12 @@
       "frequency_estimate": "medium",
       "rationale": "Тема с реальными кейсами ВС РФ. Высокий E-E-A-T, повышает экспертность сайта, дополняет fiz-04 (банкротство при ипотеке). Можно опереться на новый обзор ВС №5/2026 (есть позиция про остаток от продажи заложенного единственного жилья).",
       "expected_length_chars": 7000,
-      "status": "proposed",
+      "status": "rejected",
       "client_notes": "",
-      "topic_action": "защиту единственного жилья"
+      "topic_action": "защиту единственного жилья",
+      "rejected_at": "2026-05-12T22:46:13",
+      "rejected_reason": "missing_event_date",
+      "rejected_by": "news_sanitizer_manual"
     },
     {
       "id": "news-06",
@@ -150,9 +156,12 @@
       "frequency_estimate": "low",
       "rationale": "Низкая частотность сейчас, но тема растёт. Захватываем нишу до пика конкуренции, плюс показываем актуальность сайта.",
       "expected_length_chars": 7000,
-      "status": "proposed",
+      "status": "rejected",
       "client_notes": "Спорная тема: частотность пока низкая, оправдана если заказчик хочет долгосрочную ставку.",
-      "topic_action": "консультацию по цифровому рублю"
+      "topic_action": "консультацию по цифровому рублю",
+      "rejected_at": "2026-05-12T22:46:13",
+      "rejected_reason": "missing_event_date",
+      "rejected_by": "news_sanitizer_manual"
     },
     {
       "id": "news-07",
@@ -211,9 +220,12 @@
       "frequency_estimate": "low",
       "rationale": "Информационная статья на медиа-аудиторию и ссылочный донор: журналисты и блогеры цитируют статистику, дают обратные ссылки.",
       "expected_length_chars": 7000,
-      "status": "proposed",
+      "status": "rejected",
       "client_notes": "",
-      "topic_action": "консультацию по банкротству"
+      "topic_action": "консультацию по банкротству",
+      "rejected_at": "2026-05-12T22:46:13",
+      "rejected_reason": "missing_event_date",
+      "rejected_by": "news_sanitizer_manual"
     },
     {
       "id": "news-09",
@@ -240,9 +252,12 @@
       "frequency_estimate": "medium",
       "rationale": "Свежее изменение НК с прямой выгодой для должника. Один факт, одна норма, понятные последствия. Идеально для категории Новости. Перелинковка со skolko-stoit-bankrotstvo-fizicheskogo-lica - там этот факт уже отражён.",
       "expected_length_chars": 7000,
-      "status": "proposed",
+      "status": "rejected",
       "client_notes": "",
-      "topic_action": "консультацию по госпошлине банкротства"
+      "topic_action": "консультацию по госпошлине банкротства",
+      "rejected_at": "2026-05-12T22:46:13",
+      "rejected_reason": "stale_year_in_slug:2024",
+      "rejected_by": "news_sanitizer_manual"
     }
   ]
 }
