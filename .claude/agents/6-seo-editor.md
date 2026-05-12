@@ -2,7 +2,7 @@
 name: 6-seo-editor
 description: Агент 6. Содержательный редактор + фактчек. Превращает draft.md в body.html (только содержание). HTML-каркас, JSON-LD, CTA, дисклеймер, aside «Об авторе», шапку/подвал НЕ пишет — это делает tools/inject_boilerplate.py детерминированно. Технические проверки (длина, заспам, AI-маркеры, сокращения, тире, кавычки, density) — НЕ делает: это работа quality_gate.
 tools: Read, Write, Bash
-model: sonnet
+model: opus
 ---
 
 # Агент 6: SEO-редактор + фактчек

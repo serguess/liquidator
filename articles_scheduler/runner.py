@@ -161,6 +161,8 @@ def _collect_used_slugs() -> set[str]:
 TOPIC_REJECT_PATTERNS = (
     "cannibalization:", "evergreen", "not-news-fresh",
     "outside-30-day-window", "not_news", "topic_outdated",
+    "topic_too_old:", "non-news:", "non_news:",
+    "evergreen_required:", "news_required:", "category_mismatch:",
 )
 MAX_TOPIC_RETRIES_PER_SLOT = int(os.getenv("MAX_TOPIC_RETRIES_PER_SLOT", "3"))
 
@@ -2091,8 +2093,45 @@ def run_one_article() -> dict:
                         "Auto-skip исчерпан/бюджет на исходе (осталось %.0fс). Слот завершится failed.",
                         next_remaining,
                     )
-                # Не rejection и не hang (либо успех, либо иная причина — slug_mismatch,
-                # quality_gate). Auto-skip не помогает — break.
+                    break
+
+                # Bug C (12 мая 2026): claude мог вернуть rc=0 и текстом отказать
+                # ("эта тема не news, предлагаю переформулировать"), не создав
+                # brief.json/draft.md. В _pipeline.log.json такого события нет
+                # (агент 1 не запускался) → _detect_topic_rejection вернёт None.
+                # Признак: drafts/{topic_slug}/brief.json отсутствует при rc=0.
+                # Помечаем тему rejected и берём следующую — иначе слот закроется
+                # за минуту без статьи, как 21:40 12 мая на gosposhlina-bankrotstvo-otmenena.
+                brief_path = DRAFTS_DIR / topic_slug / "brief.json" if topic_slug else None
+                if (result.returncode == 0
+                        and topic_slug
+                        and brief_path
+                        and not brief_path.exists()):
+                    reason = "no_files_created"
+                    _mark_topic_rejected(category, topic_slug, reason)
+                    auto_skipped.append({
+                        "slug": topic_slug,
+                        "reason": reason,
+                        "duration_sec": attempt_duration,
+                    })
+                    next_remaining = slot_deadline - time.time()
+                    if (attempt_num + 1 < MAX_TOPIC_RETRIES_PER_SLOT
+                            and next_remaining >= SLOT_MIN_REMAINING_SEC):
+                        log.warning(
+                            "Auto-skip %d/%d: %s/%s — claude rc=0 но brief.json не создан, "
+                            "тема молча проигнорирована. Беру следующую (осталось %.0fс).",
+                            attempt_num + 1, MAX_TOPIC_RETRIES_PER_SLOT,
+                            category, topic_slug, next_remaining,
+                        )
+                        continue
+                    log.error(
+                        "Auto-skip исчерпан/бюджет на исходе (осталось %.0fс). Слот завершится failed.",
+                        next_remaining,
+                    )
+                    break
+
+                # Не rejection и не hang и не silent-skip (либо успех, либо иная
+                # причина — quality_gate fail и др.). Auto-skip не помогает — break.
                 break
 
             if auto_skipped:
