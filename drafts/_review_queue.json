@@ -122,6 +122,19 @@
         "passed": false,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "ispolnitelskij-sbor-kak-osporit",
+      "category": "vzysk",
+      "title": "Исполнительский сбор: как оспорить или снизить",
+      "added_at": "2026-05-12T08:00:31.601441",
+      "char_count": 7791,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1778562030/articles/ispolnitelskij-sbor-kak-osporit-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": false,
+        "hard_failed": false
+      }
     }
   ]
 }
