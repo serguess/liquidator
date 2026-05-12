@@ -53,6 +53,7 @@ from __future__ import annotations
 import json
 import logging
 import os
+import random
 import sys
 from dataclasses import dataclass
 from datetime import datetime, timezone
@@ -450,6 +451,80 @@ def delete_cover(slug: str) -> bool:
         return False
 
 
+# ============ FALLBACK НА СУЩЕСТВУЮЩУЮ ОБЛОЖКУ ============
+#
+# Если fal.ai или Cloudinary не сработали, статья всё равно должна выйти
+# с КАКОЙ-ТО картинкой - иначе на сайте пустое место и заказчик видит
+# дефект публикации. Берём случайный cover_url из articles.json (пул
+# уже опубликованных статей), записываем в meta.json - дальше pipeline
+# идёт как при успешной генерации (article.html, versions/v2.0.html).
+#
+# Перегенерировать настоящую обложку потом можно вручную:
+#     python -m tools.image_gen <slug>
+# (cover_fallback=true в meta помечает что обложка не родная).
+
+# Hardcoded safety-net на случай если articles.json пуст / сломан.
+# Это последняя успешно загруженная обложка - проверена, работает.
+_HARDCODED_FALLBACK_COVER = (
+    "https://res.cloudinary.com/dmsaaiwkm/image/upload/"
+    "c_fill,ar_191:100,g_center,f_auto,q_auto,w_1920/v1778496446/"
+    "articles/kogda-dolgi-ne-spishut-pri-bankrotstve-cover.jpg"
+)
+
+
+def _pick_random_article_cover() -> Optional[str]:
+    """Берёт случайный непустой `img` из articles.json. None если пул пуст."""
+    articles_path = PROJECT_ROOT / "articles.json"
+    if not articles_path.exists():
+        return None
+    try:
+        data = json.loads(articles_path.read_text(encoding="utf-8"))
+    except (json.JSONDecodeError, OSError):
+        log.warning("articles.json не парсится — fallback на hardcoded обложку")
+        return None
+    items = data if isinstance(data, list) else (data.get("articles") or [])
+    pool = []
+    for a in items:
+        if not isinstance(a, dict):
+            continue
+        url = (a.get("img") or a.get("cover_url") or "").strip()
+        if url and url.startswith("http"):
+            pool.append(url)
+    if not pool:
+        return None
+    return random.choice(pool)
+
+
+def _use_fallback_cover(slug: str, write_meta: bool, reason: str) -> str:
+    """Подставляет рандомную обложку из пула опубликованных статей.
+
+    Гарантированно возвращает рабочий URL (рандом из articles.json или
+    hardcoded safety-net). При write_meta=True пишет в meta.json те же
+    поля что и нормальный happy-path, плюс cover_fallback=true и причину.
+    После этого пересобирает article.html и versions/v2.0.html — чтобы
+    в превью драфта картинка была видна.
+    """
+    cover_url = _pick_random_article_cover() or _HARDCODED_FALLBACK_COVER
+    log.warning("Fallback-обложка для %s: %s (reason=%s)", slug, cover_url, reason)
+    if write_meta and slug:
+        try:
+            now_iso = datetime.now(timezone.utc).replace(microsecond=0) \
+                .isoformat().replace("+00:00", "Z")
+            ok = _update_meta_with_cover(slug, {
+                "cover_url": cover_url,
+                "cover_url_master": cover_url,  # для fallback master == web
+                "cover_uploaded_at": now_iso,
+                "cover_fallback": True,
+                "cover_fallback_reason": reason,
+            })
+            if ok:
+                log.info("meta.json обновлён fallback-обложкой для %s", slug)
+                _rebuild_article_with_cover(slug)
+        except Exception:
+            log.exception("Не смог записать fallback-обложку в meta для %s", slug)
+    return cover_url
+
+
 # ============ ОСНОВНАЯ ФУНКЦИЯ ============
 
 def generate_and_upload_cover(
@@ -509,8 +584,8 @@ def generate_and_upload_cover(
 
     fal_result = _fal_generate(prompt)
     if not fal_result:
-        log.warning("fal.ai не вернул картинку, fallback на дефолтную обложку")
-        return DEFAULT_COVER_URL
+        log.warning("fal.ai не вернул картинку, fallback на рандом из articles.json")
+        return _use_fallback_cover(slug, write_meta, reason="fal_generate_failed")
 
     # 2. Скачиваем bytes с fal.ai - чтобы наложить лого перед загрузкой в Cloudinary.
     image_bytes = _download_image_bytes(fal_result.image_url)
@@ -529,8 +604,8 @@ def generate_and_upload_cover(
     # 4. Cloudinary upload - получаем secure_url мастер-файла.
     master_url = _cloudinary_upload(upload_source, slug=slug)
     if not master_url:
-        log.warning("Cloudinary upload не сработал, fallback")
-        return DEFAULT_COVER_URL
+        log.warning("Cloudinary upload не сработал, fallback на рандом из articles.json")
+        return _use_fallback_cover(slug, write_meta, reason="cloudinary_upload_failed")
 
     # 5. Web URL с трансформацией (q_auto,f_auto,w_1920) - для og:image и сайта.
     web_url = _build_web_url(master_url, DEFAULT_WEB_TRANSFORMATION)

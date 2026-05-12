@@ -185,7 +185,16 @@ def _detect_topic_rejection(slug: str) -> str | None:
 
 
 def _mark_topic_rejected(category: str, slug: str, reason: str) -> bool:
-    """Помечает тему status='rejected' в topic-map. _pick_topic skip-ит rejected."""
+    """Помечает тему status='rejected' в topic-map. _pick_topic skip-ит rejected.
+
+    После записи делает best-effort `git commit + push` ТОЛЬКО для этого файла,
+    чтобы rejected-флаг переживал autostash и git pull между слотами. Без этого
+    failed-слот не коммитил topic-map (commit идёт только в ветке успеха),
+    autostash на следующем слоте мог тихо потерять unstaged изменения, и
+    та же тема бралась повторно — реальный кейс 11 мая
+    (`likvidaciya-ooo-bez-dolgov` упала heartbeat-timeout-ом в 10:29 и 15:07).
+    Ошибки git не пробрасываем — слот не должен падать из-за неудачного push.
+    """
     if not category or not slug:
         return False
     map_path = TOPIC_MAP_DIR / f"{category}.json"
@@ -208,11 +217,91 @@ def _mark_topic_rejected(category: str, slug: str, reason: str) -> bool:
                 )
                 log.warning("Auto-skip: %s/%s rejected (reason=%s)",
                             category, slug, reason)
-                return True
             except OSError:
                 log.exception("_mark_topic_rejected: запись не удалась")
                 return False
+            _persist_topic_map_change(category, slug, reason)
+            return True
     return False
+
+
+def _persist_topic_map_change(category: str, slug: str, reason: str) -> None:
+    """Best-effort коммит + push изменения drafts/_topic-map/{category}.json.
+
+    Используется в _mark_topic_rejected, чтобы пометка дожила до следующего
+    слота даже если текущий слот не дойдёт до основного commit-and-push
+    (failed / heartbeat-timeout / hang). Изолировано по pathspec — другие
+    unstaged изменения в working tree не затрагиваются.
+
+    Все ошибки логируются и проглатываются: задача — НЕ уронить активный слот.
+    """
+    rel_path = f"drafts/_topic-map/{category}.json"
+    cwd = str(ROOT)
+    try:
+        env = _git_env()
+    except Exception:
+        log.exception("persist_topic_map: _git_env упал, пропускаю")
+        return
+    try:
+        # add
+        add_res = subprocess.run(
+            ["git", "add", "--", rel_path],
+            cwd=cwd, env=env, capture_output=True, text=True, timeout=30,
+        )
+        if add_res.returncode != 0:
+            log.warning("persist_topic_map: git add упал (%s) — пропускаю",
+                        (add_res.stderr or "").strip()[:200])
+            return
+        # commit — пустой если нет изменений в индексе; в этом случае выходим тихо
+        commit_msg = f"topic: reject {category}/{slug} ({reason})"
+        commit_res = subprocess.run(
+            ["git", "commit", "-m", commit_msg, "--", rel_path],
+            cwd=cwd, env=env, capture_output=True, text=True, timeout=30,
+        )
+        if commit_res.returncode != 0:
+            # "nothing to commit" — нормальная ситуация (rejected уже был);
+            # любая другая — warning без фатала.
+            stderr_low = (commit_res.stderr or commit_res.stdout or "").lower()
+            if "nothing to commit" not in stderr_low and "no changes added" not in stderr_low:
+                log.warning("persist_topic_map: git commit rc=%s: %s",
+                            commit_res.returncode,
+                            (commit_res.stderr or commit_res.stdout or "").strip()[:200])
+            return
+        # push — best effort с одним retry на non-fast-forward (pull --rebase + push)
+        push_res = _git_run_with_retry(
+            ["git", "push", "origin", GITHUB_BRANCH],
+            env=env, cwd=cwd, timeout=60, retries=2,
+        )
+        if push_res.returncode != 0:
+            stderr_low = (push_res.stderr or "").lower()
+            non_ff = any(m in stderr_low for m in (
+                "non-fast-forward", "fetch first", "updates were rejected",
+                "tip of your current branch is behind",
+            ))
+            if non_ff:
+                log.warning("persist_topic_map: push отклонён (non-ff), "
+                            "делаю pull --rebase -X theirs и retry")
+                subprocess.run(
+                    ["git", "pull", "--rebase", "-X", "theirs", "--autostash",
+                     "origin", GITHUB_BRANCH],
+                    cwd=cwd, env=env, capture_output=True, text=True, timeout=120,
+                )
+                push_res = _git_run_with_retry(
+                    ["git", "push", "origin", GITHUB_BRANCH],
+                    env=env, cwd=cwd, timeout=60, retries=1,
+                )
+            if push_res.returncode != 0:
+                log.warning("persist_topic_map: push не прошёл (%s) — флаг "
+                            "сохранён локально, может потеряться при autostash",
+                            (push_res.stderr or "").strip()[:200])
+            else:
+                log.info("persist_topic_map: rejected-флаг %s/%s запушен", category, slug)
+        else:
+            log.info("persist_topic_map: rejected-флаг %s/%s запушен", category, slug)
+    except subprocess.TimeoutExpired:
+        log.warning("persist_topic_map: git операция упала по timeout — пропускаю")
+    except Exception:
+        log.exception("persist_topic_map: непредвиденная ошибка — пропускаю")
 
 
 def _pick_topic(category: str) -> dict | None:
@@ -1779,6 +1868,7 @@ def run_one_article() -> dict:
         else:
             auto_skipped: list[dict] = []
             result = None
+            expanded_once = False  # /expand-topics в этом слоте запускали? Защита от цикла.
             for attempt_num in range(MAX_TOPIC_RETRIES_PER_SLOT):
                 # Гарантия: на новую попытку нужен запас > SLOT_MIN_REMAINING_SEC,
                 # иначе только сожжём время впустую и упрёмся в systemd-timeout.
@@ -1803,8 +1893,19 @@ def run_one_article() -> dict:
 
                 topic = _pick_topic(category)
                 if topic is None:
-                    # Темы кончились → /expand-topics. Сам слот не пишет статью,
-                    # статус будет "topics_expanded", следующий слот возьмёт первую из новых.
+                    # Темы кончились → /expand-topics, потом В ТОМ ЖЕ СЛОТЕ
+                    # попытка написать статью на свежей теме (если бюджет
+                    # остался). Раньше слот завершался статусом topics_expanded
+                    # и до следующего тика категория простаивала — 1-2 слота
+                    # в день уходили вхолостую (vzysk 11:33, fiz 21:36 11 мая).
+                    if expanded_once:
+                        log.error(
+                            "Темы для %s исчерпаны повторно — /expand-topics в "
+                            "этом слоте уже запускали. Прерываю чтобы не зациклить.",
+                            category,
+                        )
+                        break
+                    expanded_once = True
                     claude_command = f"/expand-topics {category}"
                     entry["mode"] = "expand_topics"
                     log.info("Темы для %s исчерпаны, запускаю /expand-topics", category)
@@ -1820,6 +1921,28 @@ def run_one_article() -> dict:
                         )
                     except subprocess.TimeoutExpired as exc:
                         result = _synth_timeout_result(exc, time.time() - attempt_started)
+
+                    # Если expand прошёл и в слоте осталось >= SLOT_MIN_REMAINING_SEC —
+                    # пробуем взять свежую тему и написать статью прямо сейчас.
+                    # Mode сбрасываем обратно на "new", чтобы downstream-логика
+                    # (quality_gate, status="ok") отработала как для обычной статьи.
+                    next_remaining = slot_deadline - time.time()
+                    if (result.returncode == 0
+                            and next_remaining >= SLOT_MIN_REMAINING_SEC):
+                        log.info(
+                            "/expand-topics %s прошёл (осталось %.0fс), "
+                            "беру свежую тему в этом же слоте",
+                            category, next_remaining,
+                        )
+                        entry["mode"] = "new"
+                        entry["expanded_in_slot"] = True
+                        HEARTBEAT_PATH.unlink(missing_ok=True)
+                        continue
+                    log.warning(
+                        "/expand-topics завершился (rc=%s, осталось %.0fс) — "
+                        "слот закроется со статусом topics_expanded",
+                        result.returncode, next_remaining,
+                    )
                     break
 
                 topic_title = (topic.get("title") or topic.get("topic_action") or "").strip()
