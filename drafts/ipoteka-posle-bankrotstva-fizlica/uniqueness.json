@@ -1,0 +1,68 @@
+{
+  "slug": "ipoteka-posle-bankrotstva-fizlica",
+  "category": "fiz",
+  "check_date": "2026-05-13",
+  "passed": true,
+  "scores": {
+    "structure_overlap": 0.0,
+    "thesis_similarity": 0.15,
+    "cta_overlap": 0.05
+  },
+  "thresholds": {
+    "structure_overlap": 0.40,
+    "thesis_similarity": 0.30,
+    "cta_overlap": 0.20
+  },
+  "similar_articles": [
+    {
+      "slug": "bankrotstvo-pri-ipoteke-edinstvennoe-zhilye",
+      "category": "fiz",
+      "article_type": "B",
+      "similarity": 0.18,
+      "conflict_type": "none",
+      "reason": "Разные углы: в той статье — что происходит с ипотекой ПРИ банкротстве (сохранение жилья), в новой — как получить ипотеку ПОСЛЕ банкротства (восстановление кредитной истории)"
+    }
+  ],
+  "conflicts": [],
+  "detailed_analysis": {
+    "h2_structure": {
+      "h2_list": [
+        "Можно ли взять ипотеку после банкротства: прямой ответ",
+        "Почему банки отказывают: что они видят в досье заёмщика-банкрота",
+        "Через сколько лет и при каких условиях банки реально рассматривают заявку",
+        "Как восстановить кредитную историю после банкротства",
+        "Частые вопросы об ипотеке после банкротства физлица"
+      ],
+      "overlap_count": 0,
+      "overlap_percent": 0.0
+    },
+    "semantic_angle": {
+      "new_article_angle": "ПОЛУЧЕНИЕ ипотеки ПОСЛЕ банкротства (восстановление, кредитная история, банковская практика)",
+      "key_topics": [
+        "одобрение кредита",
+        "кредитная история",
+        "первоначальный взнос",
+        "созаёмщик",
+        "госпрограммы",
+        "банковский скоринг",
+        "сроки рассмотрения заявки"
+      ],
+      "unique_coverage": true,
+      "reason": "Ни в одной из 10 опубликованных статей категории fiz нет рекомендаций по получению кредитов после банкротства. Все статьи фокусируются на процедуре самого банкротства, его ограничениях и специфических случаях (пенсионер, МФО, супруги, ипотека)."
+    },
+    "published_articles_inventory": [
+      "bankrotstvo-pensionera (процедура для пенсионера)",
+      "bankrotstvo-po-mikrozajmam (долги перед МФО)",
+      "bankrotstvo-pri-ipoteke-edinstvennoe-zhilye (сохранение ипотечного жилья)",
+      "bankrotstvo-pri-poruchitelstve (ответственность поручителя)",
+      "bankrotstvo-s-dolgami-po-zhkh (долги ЖКХ)",
+      "bankrotstvo-suprugov-sovmestnoe (совместное банкротство супругов)",
+      "kak-podat-na-bankrotstvo-samostoyatelno (подача заявления)",
+      "kogda-dolgi-ne-spishut-pri-bankrotstve (несписываемые долги)",
+      "skolko-stoit-bankrotstvo-fizicheskogo-lica (стоимость процедуры)",
+      "vnesudebnoe-bankrotstvo-cherez-mfc-2026 (внесудебное банкротство через МФЦ)"
+    ]
+  },
+  "recommendation": "ok",
+  "note": "Статья прошла проверку эмбеддинговой антишаблонности. Пороги не превышены: структурное совпадение 0% (< 40%), семантическое сходство 15% (< 30%), CTA-форм. 5% (< 20%). Контент совершенно новый — заполняет пробел в покрытии темы 'жизнь после банкротства' в категории fiz. Можно передать на агент 6 (quality_gate) для технических и стилистических проверок."
+}

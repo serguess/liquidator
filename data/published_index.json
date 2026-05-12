@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-05-12T18:20:13",
-  "total": 33,
+  "generated_at": "2026-05-12T23:33:59",
+  "total": 34,
   "by_source": {
-    "published": 29,
+    "published": 30,
     "draft_approved": 0,
     "draft_pending": 4,
     "draft_local": 0
   },
   "by_category": {
+    "vzysk": 11,
     "fiz": 10,
-    "news": 5,
-    "vzysk": 10,
-    "yur": 8
+    "yur": 8,
+    "news": 5
   },
   "articles": [
     {
@@ -161,7 +161,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 9997,
+      "char_count": 9988,
       "published_at": null,
       "tags": []
     },
@@ -387,6 +387,31 @@
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
       "char_count": 9401,
+      "published_at": null,
+      "tags": []
+    },
+    {
+      "slug": "isk-o-vzyskanii-dolga-v-sud",
+      "category": "vzysk",
+      "source": "published",
+      "url": "/articles/vzysk/isk-o-vzyskanii-dolga-v-sud.html",
+      "title": "",
+      "h1": "",
+      "main_keyword": "",
+      "secondary_keywords": [],
+      "intent": "",
+      "writer_route": "",
+      "h2_topics": [
+        "Куда подавать: мировой судья, районный суд или арбитраж",
+        "Из чего складывается цена обращения и сколько платить в бюджет",
+        "Претензия и пакет документов перед подачей",
+        "Когда реально справиться самому, а когда нужен юрист",
+        "Три ошибки, из-за которых взыскатели теряют время и деньги",
+        "Частые вопросы о подаче иска о взыскании долга",
+        "Читайте также",
+        "ЗАПОЛНИТЬ ФОРМУ"
+      ],
+      "char_count": 9832,
       "published_at": null,
       "tags": []
     },
