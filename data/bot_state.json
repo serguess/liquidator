@@ -563,7 +563,7 @@
     "vzyskanie-neustoyki-s-zastrojshchika": {
       "category": "vzysk",
       "title": "Неустойка с застройщика: мораторий снят, как взыскать",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -571,10 +571,12 @@
       "tg_message_id": 416,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-12T12:20:43",
-      "last_action_at": "2026-05-12T12:20:43",
+      "last_action_at": "2026-05-12T17:30:04",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null
+      "published_url": "https://pravo.shop/articles/vzysk/vzyskanie-neustoyki-s-zastrojshchika",
+      "published_at": "2026-05-12T17:30:04",
+      "articles_path": "articles/vzysk/vzyskanie-neustoyki-s-zastrojshchika.html"
     },
     "bankrotstvo-po-mikrozajmam": {
       "category": "fiz",
