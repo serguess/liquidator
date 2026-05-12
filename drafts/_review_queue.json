@@ -109,6 +109,19 @@
         "hard_failed": false
       },
       "cover_generation_failed": true
+    },
+    {
+      "slug": "bankrotstvo-pri-poruchitelstve",
+      "category": "fiz",
+      "title": "Банкротство с поручителем: что будет с гарантом",
+      "added_at": "2026-05-12T03:32:20.315495",
+      "char_count": 7554,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1778545939/articles/bankrotstvo-pri-poruchitelstve-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": false,
+        "hard_failed": false
+      }
     }
   ]
 }

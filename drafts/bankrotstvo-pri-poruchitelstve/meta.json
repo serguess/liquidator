@@ -1,0 +1,104 @@
+{
+  "slug": "bankrotstvo-pri-poruchitelstve",
+  "category": "fiz",
+  "title": "Банкротство с поручителем: что будет с гарантом",
+  "description": "Что происходит с поручителем, когда должник банкротится: сохраняется ли обязательство, когда кредитор предъявит требования и как гаранту защитить себя.",
+  "h1": "Банкротство с поручителем: что происходит с тем, кто за вас поручился",
+  "lead": "Банкротство заёмщика не освобождает гаранта: кредитор вправе предъявить требование к поручителю с момента введения первой процедуры.",
+  "topic_action": "оценку рисков поручителя при банкротстве",
+  "breadcrumb_current": "Банкротство с поручителем",
+  "og_image": "/assets/articles/bankrotstvo-pri-poruchitelstve.jpg",
+  "main_keyword": "что будет с поручителем при банкротстве должника",
+  "secondary_keywords": [
+    "банкротство физического лица с поручителем",
+    "ответственность поручителя при банкротстве",
+    "прекращение поручительства при банкротстве",
+    "поручитель и банкротство заёмщика",
+    "когда поручительство прекращается",
+    "банкротство поручителя физического лица",
+    "статья 367 ГК РФ прекращение поручительства"
+  ],
+  "internal_links": [
+    "/kak-otmenit-sudebnyj-prikaz",
+    "/bankrotstvo-pri-ipoteke-edinstvennoe-zhilye",
+    "/kogda-dolgi-ne-spishut-pri-bankrotstve"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_451254/",
+    "https://www.consultant.ru/document/cons_doc_LAW_5142/68333544ad06caea9c0aead116d729e8cfa3c8a8/",
+    "https://www.consultant.ru/document/cons_doc_LAW_504014/"
+  ],
+  "faq": [
+    {
+      "question": "Обязан ли кредитор сначала попробовать взыскать с должника - и только потом идти к поручителю?",
+      "answer": "Нет. При солидарной ответственности взыскатель сам выбирает, с кого начинать. Субсидиарный порядок - когда начинают с основного должника - применяется лишь если это прямо записано в тексте соглашения (ст. 363 ГК РФ)."
+    },
+    {
+      "question": "Что произойдёт с поручительством, если в деле о банкротстве утверждено мировое соглашение?",
+      "answer": "Гарантия сохранится - если кредитор не голосовал «за» мировое соглашение. Оно не распространяется автоматически на третьих лиц (п. 13 Постановления Пленума ВС РФ от 29.06.2023 N 26)."
+    },
+    {
+      "question": "Сколько времени есть у кредитора, чтобы предъявить требование к поручителю, если срок в договоре не указан?",
+      "answer": "Один год с даты наступления срока исполнения обязательства (п. 6 ст. 367 ГК РФ). В контексте банкротства отсчёт идёт с даты введения первой процедуры. Не подал иска за год - обязательство прекращается."
+    },
+    {
+      "question": "Вправе ли поручитель подать в суд на должника и вернуть уплаченное, если тот уже прошёл процедуру?",
+      "answer": "Практически нет. По завершении дела взыскать с освобождённого гражданина уплаченное невозможно. Единственный способ - подать своё будущее требование в реестр в ходе производства (п. 11 Пленума N 26). Пропустил реестр - деньги не вернуть."
+    },
+    {
+      "question": "Может ли поручитель - физическое лицо обанкротиться сам, чтобы списать долг по гарантии?",
+      "answer": "Да. Долг по такому соглашению списывается по итогам реализации имущества наравне с обычными кредитами. Порог для подачи заявления кредитором - 500 000 руб. и просрочка свыше 3 месяцев. Результат не гарантирован: суд откажет при недобросовестном поведении."
+    },
+    {
+      "question": "Зачем поручителю подавать требование в реестр кредиторов должника, если он ещё ничего не платил?",
+      "answer": "Чтобы не потерять право на регресс. Закон разрешает заявить его до фактической уплаты. По завершении дела и освобождения гражданина от обязательств сделать это уже нельзя."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все юр-утверждения сверены с research.json (двухпроходный фактчек).",
+    "Все факты: last_verified 2026-05-12, legislation_status active.",
+    "Пленум ВС РФ от 29.06.2023 N 26 пп. 3, 9, 11, 13, 18 - контекст применения корректен.",
+    "Обзор ВС РФ по банкротству за 2024 год, утв. 25.04.2025 - использован корректно (f9, запрет двойного взыскания).",
+    "Ст. 213.3 п. 2, 213.4 п. 2, 213.28 127-ФЗ - пороги и списание поручителя проверены (f10, f12).",
+    "Оценка «300 тысяч - 2 миллиона рублей» - авторская экспертная оценка, не нормативная."
+  ],
+  "keyword_density_main": 0.016,
+  "main_keyword_exact_count": 0,
+  "text_chars": 7554,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.11,
+  "local_spam_ngram3_repeat": 0.025,
+  "local_lexical_diversity": 0.571,
+  "local_ai_markers_density": 0.21,
+  "local_ai_markers_critical": 0,
+  "length_status": "warn",
+  "length_kind": "default",
+  "local_ai_markers_total": 2,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 0,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": false,
+  "quality_gate_blockers": [
+    "spam_risk: 2 флагов (top10_share>0.105 (=0.11), lexical_diversity<0.62 (=0.571)), top-5: ['банк', 'подписант', 'заёмщик', 'поручител', 'банкротств']"
+  ],
+  "quality_gate_retry_count": 15,
+  "predicted_spam_pct": 65,
+  "predicted_ai_pct": 5,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность значительно выше 50% (~65%)"
+  ],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1778545939/articles/bankrotstvo-pri-poruchitelstve-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1778545939/articles/bankrotstvo-pri-poruchitelstve-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Top-down flat-lay editorial photograph on a polished dark walnut desk with soft golden morning light casting a long warm diagonal across the surface. On the desktop: a closed brown leather case folder placed slightly left of center with a wooden judges gavel resting diagonally on top, a stack of three closed law books with embossed gilt spines and a small national emblem, an elegant black fountain pen, a small white porcelain coffee cup on a saucer, a pair of reading glasses. Premium legal-magazine aesthetic, neutral beige and graphite palette with warm gold accents.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-05-12T00:32:20Z",
+  "date_published": "2026-05-12",
+  "date_modified": "2026-05-12",
+  "ready_for_review": true,
+  "ready_at": "2026-05-12T00:32:20Z",
+  "publication_target": "telegram_review"
+}

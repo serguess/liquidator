@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-05-11T22:08:23",
-  "total": 26,
+  "generated_at": "2026-05-12T02:24:30",
+  "total": 27,
   "by_source": {
-    "published": 21,
+    "published": 22,
     "draft_approved": 0,
     "draft_pending": 5,
     "draft_local": 0
   },
   "by_category": {
+    "yur": 7,
     "fiz": 7,
-    "yur": 6,
-    "vzysk": 8,
-    "news": 5
+    "news": 5,
+    "vzysk": 8
   },
   "articles": [
     {
@@ -489,6 +489,32 @@
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
       "char_count": 9459,
+      "published_at": null,
+      "tags": []
+    },
+    {
+      "slug": "priznaki-bankrotstva-yurlica",
+      "category": "yur",
+      "source": "published",
+      "url": "/articles/yur/priznaki-bankrotstva-yurlica.html",
+      "title": "",
+      "h1": "",
+      "main_keyword": "",
+      "secondary_keywords": [],
+      "intent": "",
+      "writer_route": "",
+      "h2_topics": [
+        "Коротко: два критерия и месяц на реакцию",
+        "Пять условий ст. 9: как проверить финансовое состояние фирмы",
+        "Кто обязан подать: директор, учредитель, «теневой» руководитель",
+        "Когда руководитель избежит ответственности: стандарт разумного менеджера",
+        "Как считается размер ответственности по ст. 61.12",
+        "Промедление накапливает личный долг",
+        "Частые вопросы о признаках банкротства юридического лица",
+        "Читайте также",
+        "ЗАПОЛНИТЬ ФОРМУ"
+      ],
+      "char_count": 9619,
       "published_at": null,
       "tags": []
     },
