@@ -529,7 +529,7 @@
     "bankrotstvo-s-dolgami-po-zhkh": {
       "category": "fiz",
       "title": "Банкротство с долгами по ЖКХ: списать коммуналку",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -537,10 +537,12 @@
       "tg_message_id": 412,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-12T10:14:43",
-      "last_action_at": "2026-05-12T10:14:43",
+      "last_action_at": "2026-05-12T17:23:04",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null
+      "published_url": "https://pravo.shop/articles/fiz/bankrotstvo-s-dolgami-po-zhkh",
+      "published_at": "2026-05-12T17:23:04",
+      "articles_path": "articles/fiz/bankrotstvo-s-dolgami-po-zhkh.html"
     },
     "porog-bankrotstva-yurlica-2-mln-rubley": {
       "category": "yur",
