@@ -505,7 +505,11 @@
       "frequency_estimate": "high",
       "rationale": "Высокочастотный информационный запрос. Прогревает аудиторию на старте воронки: человек только изучает банкротство и хочет понять реальные сроки перед тем, как принять решение.",
       "expected_length_chars": 7000,
-      "topic_action": "банкротство физлица"
+      "topic_action": "банкротство физлица",
+      "status": "rejected",
+      "rejected_at": "2026-05-12T13:52:50",
+      "rejected_reason": "hang_heartbeat_timeout",
+      "rejected_by": "auto_skip_in_slot"
     },
     {
       "id": "fiz-19",
