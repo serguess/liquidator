@@ -953,5 +953,63 @@
     "stdout_tail": "те | solution-aware / consideration |\n| fiz-28 | долги по наследству банкротство | informational / awareness |\n| fiz-29 | кредитная история после банкротства | informational / awareness |\n\n**Распределение:** 4 decision (commercial/problem-aware) + 4 consideration (solution-aware) + 2 awareness (informational).\n\n**Источники для тем** — Обзор ВС РФ по банкротству граждан от 18.06.2025, Обзор судебной практики за 2024 год (25.04.2025), текущие поисковые запросы. Все 10 slug-ов уникальны в проекте.\n",
     "stderr_tail": "",
     "metrics": null
+  },
+  {
+    "timestamp": "2026-05-12T15:00:22",
+    "category": "fiz",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 2,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "fiz-20",
+    "topic_slug": "bankrotstvo-po-mikrozajmam",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [
+        "spam_risk: 2 флагов (top10_share>0.105 (=0.119), ngram3_repeat_share>0.03 (=0.042)), top-5: ['банкротств', 'процедур', 'заявлен', 'долг', 'обязательств']"
+      ],
+      "warnings": [
+        "Автофикс применил правки: сокращения=1, пунктуация=0"
+      ],
+      "recommendations": [
+        "reduce_repetition: разбавить топ-5 частотных лемм местоимениями/перифразом — ['банкротств', 'процедур', 'заявлен', 'долг', 'обязательств']"
+      ],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "bankrotstvo-po-mikrozajmam",
+    "duration_sec": 1782.8,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": " порог 0.30)\n- **Factcheck:** passed (16 фактов верифицированы)\n- **Quality gate:** exit 0, hard_failed: false (minor spam_risk — top-5 юр-термины чуть выше порога, но не критично)\n- **Обложка:** fallback (fal_client не установлен), cover_url добавлен\n- **ready_for_review:** true, добавлена в `_review_queue.json`\n\n**textru_ai_detector / textru_uniqueness / textru_spam:** не заполнены (text.ru API не запускался в этом прогоне).\n\n**Путь к статье:** `drafts/bankrotstvo-po-mikrozajmam/article.html`\n",
+    "stderr_tail": "",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7275
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]

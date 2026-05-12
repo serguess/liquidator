@@ -3,19 +3,15 @@
   "passed": true,
   "hard_failed": false,
   "blockers": [],
-  "warnings": [
-    "Автофикс применил правки: сокращения=1, пунктуация=0"
-  ],
+  "warnings": [],
   "autofix": {
     "file": "/home/appuser/apps/liquidator/drafts/bankrotstvo-po-mikrozajmam/article.html",
-    "abbreviation_fixes": {
-      "\\bфизлиц(а|у|ом|ами|ам|ах|ы|е|о)?\\b": 1
-    },
+    "abbreviation_fixes": {},
     "punctuation_fixes": 0,
-    "em_dash_fixes": 3,
+    "em_dash_fixes": 0,
     "eng_quotes_fixes": 0,
-    "changed": true,
-    "bytes_before": 40372,
+    "changed": false,
+    "bytes_before": 40383,
     "bytes_after": 40383
   },
   "quality_checks": {
@@ -136,7 +132,7 @@
     "flags": []
   },
   "recommendations": [],
-  "retry_count": 7,
+  "retry_count": 8,
   "predicted_metrics": {
     "spam_pct": 47,
     "ai_pct": 5,

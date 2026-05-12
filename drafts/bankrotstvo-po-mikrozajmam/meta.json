@@ -81,7 +81,7 @@
   "local_first_person_singular_hits": 0,
   "quality_gate_passed": true,
   "quality_gate_blockers": [],
-  "quality_gate_retry_count": 7,
+  "quality_gate_retry_count": 8,
   "predicted_spam_pct": 47,
   "predicted_ai_pct": 5,
   "predicted_uniqueness_pct": 90,
