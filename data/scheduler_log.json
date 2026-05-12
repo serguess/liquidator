@@ -849,5 +849,109 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-05-12T11:40:11",
+    "category": "vzysk",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 2,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "vzysk-11",
+    "topic_slug": "vzyskanie-neustoyki-s-zastrojshchika",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "vzyskanie-neustoyki-s-zastrojshchika",
+    "duration_sec": 2184.1,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "ики 0.0, значительно ниже порогов) |\n| Factcheck | passed (все 11 фактов из research.json подтверждены) |\n| Quality gate | passed — 0 блокеров, 0 предупреждений |\n| AI-маркеры | 2 low (в футере шаблона, не в тексте) |\n| Обложка | fallback (fal_client не установлен) |\n| ready_for_review | true |\n\n**text.ru метрики** — `textru_ai_detector`, `textru_uniqueness`, `textru_spam` не заполнены (text.ru не вызывался в этом пайплайне).\n\n**Файл:** `drafts/vzyskanie-neustoyki-s-zastrojshchika/article.html`\n",
+    "stderr_tail": "",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7243
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
+  },
+  {
+    "timestamp": "2026-05-12T13:20:22",
+    "category": "fiz",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 3,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "fiz-19",
+    "topic_slug": "zhizn-posle-bankrotstva-fizlica",
+    "expanded_in_slot": true,
+    "auto_skipped": [
+      {
+        "slug": "sroki-procedury-bankrotstva-fizlica",
+        "reason": "hang_heartbeat_timeout",
+        "duration_sec": 1930.2
+      },
+      {
+        "slug": "zhizn-posle-bankrotstva-fizlica",
+        "reason": "cannibalization:posledstviya-bankrotstva-fizlica",
+        "duration_sec": 100.0
+      }
+    ],
+    "quality_gate": {
+      "ran": false,
+      "reason": "no_article_html",
+      "passed": false
+    },
+    "status": "failed_qa",
+    "slug": "zhizn-posle-bankrotstva-fizlica",
+    "duration_sec": 2464.6,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "те | solution-aware / consideration |\n| fiz-28 | долги по наследству банкротство | informational / awareness |\n| fiz-29 | кредитная история после банкротства | informational / awareness |\n\n**Распределение:** 4 decision (commercial/problem-aware) + 4 consideration (solution-aware) + 2 awareness (informational).\n\n**Источники для тем** — Обзор ВС РФ по банкротству граждан от 18.06.2025, Обзор судебной практики за 2024 год (25.04.2025), текущие поисковые запросы. Все 10 slug-ов уникальны в проекте.\n",
+    "stderr_tail": "",
+    "metrics": null
   }
 ]

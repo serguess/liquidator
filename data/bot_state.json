@@ -517,7 +517,64 @@
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null
+    },
+    "bankrotstvo-s-dolgami-po-zhkh": {
+      "category": "fiz",
+      "title": "Банкротство с долгами по ЖКХ: списать коммуналку",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 412,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-05-12T10:14:43",
+      "last_action_at": "2026-05-12T10:14:43",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null
+    },
+    "porog-bankrotstva-yurlica-2-mln-rubley": {
+      "category": "yur",
+      "title": "Порог банкротства юрлица: долг от 2 млн рублей",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 414,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-05-12T11:35:43",
+      "last_action_at": "2026-05-12T11:35:43",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null
+    },
+    "vzyskanie-neustoyki-s-zastrojshchika": {
+      "category": "vzysk",
+      "title": "Неустойка с застройщика: мораторий снят, как взыскать",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 416,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-05-12T12:20:43",
+      "last_action_at": "2026-05-12T12:20:43",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null
     }
   },
-  "pending_actions": []
+  "pending_actions": [
+    {
+      "action": "publish",
+      "slug": "zapret-vyezda-za-rubezh-za-dolgi",
+      "version": "2.0",
+      "chat_id": 144472991,
+      "reply_to_message_id": 399,
+      "queued_at": "2026-05-12T13:54:04"
+    }
+  ]
 }
