@@ -581,7 +581,7 @@
     "bankrotstvo-po-mikrozajmam": {
       "category": "fiz",
       "title": "Банкротство по микрозаймам: спишут ли долги МФО",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -589,10 +589,12 @@
       "tg_message_id": 422,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-12T15:34:45",
-      "last_action_at": "2026-05-12T15:34:45",
+      "last_action_at": "2026-05-12T17:34:35",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null
+      "published_url": "https://pravo.shop/articles/fiz/bankrotstvo-po-mikrozajmam",
+      "published_at": "2026-05-12T17:34:35",
+      "articles_path": "articles/fiz/bankrotstvo-po-mikrozajmam.html"
     }
   },
   "pending_actions": []

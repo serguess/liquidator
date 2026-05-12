@@ -2,6 +2,19 @@
   "generated": "2026-05-12",
   "articles": [
     {
+      "slug": "bankrotstvo-po-mikrozajmam",
+      "cat": "fiz",
+      "catLabel": "Банкротство физических лиц",
+      "title": "Банкротство по микрозаймам: спишут ли долги МФО",
+      "desc": "Можно ли списать долги по микрозаймам через банкротство: условия, МФЦ и суд, что спишется, а что нет. Разбор для должников МФО.",
+      "date": "12 мая 2026",
+      "dateIso": "2026-05-12",
+      "read": "5 мин.",
+      "tone": "b",
+      "img": "https://res.cloudinary.com/dmsaaiwkm/image/upload/c_fill,ar_191:100,g_center,f_auto,q_auto,w_1920/v1778313043/articles/obzor-vs-rf-5-2026-bankrotstvo-glavnoe-cover.jpg",
+      "url": "articles/fiz/bankrotstvo-po-mikrozajmam"
+    },
+    {
       "slug": "vzyskanie-neustoyki-s-zastrojshchika",
       "cat": "vzysk",
       "catLabel": "Взыскание задолженности",
