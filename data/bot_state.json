@@ -595,6 +595,22 @@
       "published_url": "https://pravo.shop/articles/fiz/bankrotstvo-po-mikrozajmam",
       "published_at": "2026-05-12T17:34:35",
       "articles_path": "articles/fiz/bankrotstvo-po-mikrozajmam.html"
+    },
+    "isk-o-vzyskanii-dolga-v-sud": {
+      "category": "vzysk",
+      "title": "Иск о взыскании долга: как правильно подать в суд",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 447,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-05-12T19:01:46",
+      "last_action_at": "2026-05-12T19:01:46",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null
     }
   },
   "pending_actions": []

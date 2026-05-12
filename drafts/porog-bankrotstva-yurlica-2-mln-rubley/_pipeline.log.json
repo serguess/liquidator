@@ -2,8 +2,8 @@
   "slug": "porog-bankrotstva-yurlica-2-mln-rubley",
   "category": null,
   "started_at": "2026-05-12T11:16:42",
-  "finished_at": null,
-  "total_duration_sec": null,
+  "finished_at": "2026-05-12T11:35:31",
+  "total_duration_sec": 1129.0,
   "current_iteration": 2,
   "events": [
     {
@@ -35,6 +35,31 @@
         "length_soft_passed: 8148 > 8000 но ≤ 9000 и iteration=16 — пропускаем (приоритет spam/uniqueness/ai)"
       ],
       "recommendations": []
+    },
+    {
+      "ts": "2026-05-12T11:31:06",
+      "agent": "scheduler",
+      "event": "git_pushed",
+      "iteration": 2,
+      "branch": "main"
+    },
+    {
+      "ts": "2026-05-12T11:35:31",
+      "agent": "scheduler",
+      "event": "slot_finished",
+      "status": "ok",
+      "iteration": 2
     }
-  ]
+  ],
+  "final_status": "ok",
+  "metrics": {
+    "ai_detector": null,
+    "uniqueness": null,
+    "spam": null,
+    "text_chars": 8148
+  },
+  "git": {
+    "committed": true,
+    "pushed": true
+  }
 }

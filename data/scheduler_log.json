@@ -1062,5 +1062,95 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-05-12T18:20:05",
+    "category": "vzysk",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 11,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "vzysk-12",
+    "topic_slug": "isk-o-vzyskanii-dolga-v-sud",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "isk-o-vzyskanii-dolga-v-sud",
+    "duration_sec": 2238.4,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "ров, 0 warnings) |\n| **Uniqueness** | passed (structure overlap 0.125, thesis 0.0) |\n| **Factcheck** | passed |\n| **Готово к ревью** | `true` |\n| **Файл** | `drafts/isk-o-vzyskanii-dolga-v-sud/article.html` |\n\n**Метрики text.ru** (замер после публикации): `textru_ai_detector`, `textru_uniqueness`, `textru_spam` — не заполнены, значения появятся после проверки на text.ru.\n\nОбложка: использован fallback (fal-client не установлен), статья всё равно добавлена в очередь ревью (`_review_queue.json`).\n",
+    "stderr_tail": "",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7873
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
+  },
+  {
+    "timestamp": "2026-05-12T20:00:22",
+    "category": "news",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "mode": "new",
+    "topic_id": "news-08",
+    "topic_slug": "statistika-bankrotstv-2026",
+    "auto_skipped": [
+      {
+        "slug": "elektronnoe-zayavlenie-o-bankrotstve",
+        "reason": "hang_heartbeat_timeout",
+        "duration_sec": 1810.1
+      }
+    ],
+    "quality_gate": {
+      "ran": false,
+      "reason": "no_article_html",
+      "passed": false
+    },
+    "status": "failed_qa",
+    "slug": "statistika-bankrotstv-2026",
+    "duration_sec": 2147.6,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "ий официальный статотчёт — итоги 2025 года, вышел в январе 2026 (> 30 дней)\n- Публикации апреля-мая 2026 — только вторичные материалы без новых цифр\n\n**Рекомендация агента:**\n- Перевести тему в категорию `fiz` как evergreen-обзор «Сколько россиян обанкротились: данные Федресурса»\n- Вернуть в очередь `news` когда Федресурс выпустит бюллетень за Q1 2026 (обычно апрель-май, но по состоянию на 12.05.2026 ещё не вышел)\n\n`brief.json` не создан. Папка `drafts/statistika-bankrotstv-2026/` не затронута.\n",
+    "stderr_tail": "",
+    "metrics": null
   }
 ]

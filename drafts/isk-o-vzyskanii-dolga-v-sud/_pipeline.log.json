@@ -2,8 +2,8 @@
   "slug": "isk-o-vzyskanii-dolga-v-sud",
   "category": "vzysk",
   "started_at": "2026-05-12T18:57:23",
-  "finished_at": null,
-  "total_duration_sec": null,
+  "finished_at": "2026-05-12T19:01:14",
+  "total_duration_sec": 231.0,
   "current_iteration": 1,
   "events": [
     {
@@ -23,6 +23,31 @@
       "blockers": [],
       "warnings": [],
       "recommendations": []
+    },
+    {
+      "ts": "2026-05-12T18:57:26",
+      "agent": "scheduler",
+      "event": "git_pushed",
+      "iteration": 1,
+      "branch": "main"
+    },
+    {
+      "ts": "2026-05-12T19:01:14",
+      "agent": "scheduler",
+      "event": "slot_finished",
+      "status": "ok",
+      "iteration": 1
     }
-  ]
+  ],
+  "final_status": "ok",
+  "metrics": {
+    "ai_detector": null,
+    "uniqueness": null,
+    "spam": null,
+    "text_chars": 7873
+  },
+  "git": {
+    "committed": true,
+    "pushed": true
+  }
 }
