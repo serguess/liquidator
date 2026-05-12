@@ -1,0 +1,100 @@
+{
+  "slug": "vzyskanie-neustoyki-s-zastrojshchika",
+  "category": "vzysk",
+  "title": "Неустойка с застройщика: мораторий снят, как взыскать",
+  "description": "Мораторий для застройщиков отменён с 1 января 2026 года. За какие дни начисляется неустойка по ДДУ, как рассчитать сумму и что делать с отсрочкой до конца 2026.",
+  "h1": "Взыскание неустойки с застройщика после отмены моратория",
+  "lead": "Мораторий снят, застройщик снова платит за каждый день просрочки - разбираем, как правильно считать дни, что взыскать сверх пеней и почему подавать иск стоит уже в 2026 году.",
+  "topic_action": "взыскание неустойки с застройщика по ДДУ",
+  "offer": "взыскание неустойки с застройщика по ДДУ",
+  "breadcrumb_current": "Взыскание неустойки с застройщика",
+  "og_image": "/assets/articles/vzyskanie-neustoyki-s-zastrojshchika.jpg",
+  "main_keyword": "взыскание неустойки с застройщика",
+  "secondary_keywords": [
+    "неустойка по ДДУ мораторий снят",
+    "расчёт неустойки по ДДУ",
+    "претензия застройщику неустойка",
+    "неустойка застройщик просрочка сдачи",
+    "как взыскать неустойку с застройщика",
+    "отсрочка исполнения неустойка застройщик",
+    "мораторий застройщики отменён",
+    "штраф с застройщика по ЗоЗПП"
+  ],
+  "internal_links": [
+    "/articles/vzysk/dosudebnaya-pretenziya-obrazec.html",
+    "/articles/vzysk/okonchanie-ip-po-state-46.html"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_51038/817620cd3c49f19912fc1ac0f98b10d17f65b75b/",
+    "https://www.consultant.ru/document/cons_doc_LAW_472727/"
+  ],
+  "faq": [
+    {
+      "question": "Мораторий снят - значит, за весь 2024-2025 год теперь тоже насчитают пени?",
+      "answer": "Нет. ПП РФ №326 закрыло промежуток с 22.03.2024 по 31.12.2025 - эти дни не входят в расчёт даже после отмены. С 01.01.2026 пени снова идут."
+    },
+    {
+      "question": "Застройщик предлагает подписать соглашение о переносе срока сдачи - стоит ли соглашаться?",
+      "answer": "Нет, если нет веской причины. Подписав его, тот, кто заключил договор, фактически аннулирует просрочку за предыдущий период - пени до нового срока станут спорными. Рекомендуется сначала оценить накопленную сумму."
+    },
+    {
+      "question": "Сколько стоит подать иск к застройщику и надо ли платить госпошлину?",
+      "answer": "При цене требования до 1 000 000 рублей - пошлина нулевая (ст. 333.36 НК РФ). При цене свыше 1 млн пошлина считается только с суммы превышения."
+    },
+    {
+      "question": "Можно ли взыскать пени, если квартиру уже передали, но с опозданием?",
+      "answer": "Да. Передача прекращает начисление санкций, но не лишает права на пени за период фактической задержки. Такие дела, как правило, проходят проще - срок зафиксирован актом."
+    },
+    {
+      "question": "Что произойдёт с решением суда, если застройщик воспользуется отсрочкой до 31 декабря 2026 года?",
+      "answer": "Решение вступит в законную силу, лист будет выдан. Ответчик вправе ссылаться на ПП №2227 и откладывать фактическую выплату до конца 2026-го. С 01.01.2027 льготный режим заканчивается."
+    },
+    {
+      "question": "Обязательно ли нанимать юриста или можно подать иск самостоятельно?",
+      "answer": "Технически - можно самостоятельно. Но строительная компания, как правило, заявляет ходатайство о снижении по ст. 333 ГК. Без грамотного возражения суд нередко уменьшает итог. При иске от 300 000 рублей юрист окупается за счёт сохранения взысканной цифры."
+    }
+  ],
+  "published": false,
+  "ready_for_review": true,
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "f7 (позиция ВС РФ по снижению неустойки): legislation_status=needs_verification, конкретный акт ВС не верифицирован. Применена safe_phrasing с формулировкой 'как правило' без ссылки на конкретное определение/обзор.",
+    "Пример расчёта со ставкой 21% сохранён как иллюстративный с оговоркой об уточнении ставки на сайте ЦБ РФ - соответствует safe_phrasing из f2.",
+    "Внешние ссылки: 2 ссылки на consultant.ru (ст. 6 214-ФЗ и ПП РФ №326/2227). Третья key_source (ГК ст. 333) не вставлена гиперссылкой - упоминание нормы текстом, лимит 2-3 ссылок соблюдён.",
+    "Внутренние ссылки: dosudebnaya-pretenziya-obrazec и okonchanie-ip-po-state-46 - оба присутствуют в published_index со source=published."
+  ],
+  "keyword_density_main": null,
+  "main_keyword_exact_count": null,
+  "text_chars": 7243,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.097,
+  "local_spam_ngram3_repeat": 0.018,
+  "local_lexical_diversity": 0.62,
+  "local_ai_markers_density": 0.22,
+  "local_ai_markers_critical": 0,
+  "length_status": "ok",
+  "length_kind": "default",
+  "local_ai_markers_total": 2,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 0,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 8,
+  "predicted_spam_pct": 50,
+  "predicted_ai_pct": 5,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/c_fill,ar_191:100,g_center,f_auto,q_auto,w_1920/v1778264937/articles/kak-zakryt-ooo-s-dolgami-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/c_fill,ar_191:100,g_center,f_auto,q_auto,w_1920/v1778264937/articles/kak-zakryt-ooo-s-dolgami-cover.jpg",
+  "cover_uploaded_at": "2026-05-12T09:16:24Z",
+  "cover_fallback": true,
+  "cover_fallback_reason": "fal_generate_failed",
+  "date_published": "2026-05-12",
+  "date_modified": "2026-05-12",
+  "ready_at": "2026-05-12T09:16:24Z",
+  "publication_target": "telegram_review"
+}
