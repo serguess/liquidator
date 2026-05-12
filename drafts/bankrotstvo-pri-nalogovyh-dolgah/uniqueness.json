@@ -1,0 +1,33 @@
+{
+  "slug": "bankrotstvo-pri-nalogovyh-dolgah",
+  "category": "fiz",
+  "passed": true,
+  "scores": {
+    "structure_overlap": 0.0,
+    "thesis_similarity": 0.0,
+    "cta_overlap": 0.0
+  },
+  "thresholds": {
+    "structure_overlap": 0.4,
+    "thesis_similarity": 0.3,
+    "cta_overlap": 0.2
+  },
+  "similar_articles": [],
+  "conflicts": [],
+  "analysis_details": {
+    "structure_analysis": {
+      "new_article_headings": 6,
+      "published_peers_in_fiz": 10,
+      "heading_overlap_count": 0,
+      "heading_overlap_percent": 0.0
+    },
+    "semantic_analysis": {
+      "method": "keyword_phrase_matching",
+      "max_similarity_found": 0.0,
+      "notes": "Все 10 опубликованных статей категории fiz показывают 0% семантического совпадения по ключевым фразам"
+    },
+    "embedding_note": "Векторные эмбеддинги в БД содержат NaN (отсутствует OPENAI_API_KEY при создании). Анализ проведен методом структурного и текстового сравнения."
+  },
+  "recommendation": "ok",
+  "decision": "PASSED - Статья уникальна и не требует переработки"
+}

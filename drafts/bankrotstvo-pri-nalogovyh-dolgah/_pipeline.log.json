@@ -1,0 +1,48 @@
+{
+  "slug": "bankrotstvo-pri-nalogovyh-dolgah",
+  "category": null,
+  "started_at": "2026-05-13T02:12:17",
+  "finished_at": null,
+  "total_duration_sec": null,
+  "current_iteration": 3,
+  "events": [
+    {
+      "ts": "2026-05-13T02:12:17",
+      "agent": "4-writer",
+      "event": "iteration_returned",
+      "iteration": 2,
+      "reason": "spam_risk: top10_share=0.107, ngram3=0.039, diversity=0.612",
+      "recommendation": "reduce_repetition: недоимк(9), ндфл(8), долг(8), налогов(7), налог(7) — разбавить перифразами минимум на 30%"
+    },
+    {
+      "ts": "2026-05-13T02:20:38",
+      "agent": "4-writer",
+      "event": "iteration_returned",
+      "iteration": 3,
+      "reason": "spam_risk: ngram3_repeat_share=0.039 (топ лемм: долг/платёж/списан/реестров/текучка)",
+      "recommendation": "reduce_repetition: найти и разбавить повторяющиеся 3-граммы — долг/платёж/списан/реестровых/текущих"
+    },
+    {
+      "ts": "2026-05-13T02:33:29",
+      "agent": "scheduler",
+      "event": "slot_started",
+      "iteration": 3,
+      "category": "fiz",
+      "today_count": 0,
+      "limit": 10,
+      "write_article_duration_sec": 3186.8
+    },
+    {
+      "ts": "2026-05-13T02:33:29",
+      "agent": "quality_gate",
+      "event": "passed",
+      "iteration": 3,
+      "blockers": [],
+      "warnings": [
+        "Автофикс применил правки: сокращения=0, пунктуация=0",
+        "internal_links_autofixed: 2 ссылок (например /articles/fiz/kogda-dolgi-ne-spishut-pri-bankrotstve.html→/articles/fiz/kogda-dolgi-ne-spishut-pri-bankrotstve; /articles/fiz/vnesudebnoe-bankrotstvo-cherez-mfc-2026.html→/articles/fiz/vnesudebnoe-bankrotstvo-cherez-mfc-2026)"
+      ],
+      "recommendations": []
+    }
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "file": "/home/appuser/apps/liquidator/drafts/bankrotstvo-pri-nalogovyh-dolgah/article.html",
+  "passed": true,
+  "hard_failed": false,
+  "blockers": [],
+  "warnings": [
+    "Автофикс применил правки: сокращения=0, пунктуация=0",
+    "internal_links_autofixed: 2 ссылок (например /articles/fiz/kogda-dolgi-ne-spishut-pri-bankrotstve.html→/articles/fiz/kogda-dolgi-ne-spishut-pri-bankrotstve; /articles/fiz/vnesudebnoe-bankrotstvo-cherez-mfc-2026.html→/articles/fiz/vnesudebnoe-bankrotstvo-cherez-mfc-2026)"
+  ],
+  "autofix": {
+    "file": "/home/appuser/apps/liquidator/drafts/bankrotstvo-pri-nalogovyh-dolgah/article.html",
+    "abbreviation_fixes": {},
+    "punctuation_fixes": 0,
+    "em_dash_fixes": 1,
+    "eng_quotes_fixes": 0,
+    "changed": true,
+    "bytes_before": 41586,
+    "bytes_after": 41584
+  },
+  "quality_checks": {
+    "file": "drafts/bankrotstvo-pri-nalogovyh-dolgah/article.html",
+    "text_chars": 7630,
+    "length_status": "warn",
+    "length_kind": "default",
+    "passed": true,
+    "abbreviation_hits": [],
+    "punctuation_hits": [],
+    "spam": {
+      "total_words": 674,
+      "unique_lemmas": 428,
+      "lexical_diversity": 0.635,
+      "top10_words": [
+        [
+          "долг",
+          9
+        ],
+        [
+          "платеж",
+          7
+        ],
+        [
+          "процедур",
+          6
+        ],
+        [
+          "списан",
+          6
+        ],
+        [
+          "реестров",
+          6
+        ],
+        [
+          "текучк",
+          6
+        ],
+        [
+          "уход",
+          6
+        ],
+        [
+          "цифр",
+          5
+        ],
+        [
+          "очеред",
+          5
+        ],
+        [
+          "имуществ",
+          5
+        ]
+      ],
+      "top10_share": 0.091,
+      "ngram3_repeat_count": 14,
+      "ngram3_total": 672,
+      "ngram3_repeat_share": 0.021,
+      "risk_flags": []
+    }
+  },
+  "ai_markers": {
+    "file": "drafts/bankrotstvo-pri-nalogovyh-dolgah/article.html",
+    "text_chars": 9587,
+    "hits_total": 2,
+    "density_per_1000": 0.21,
+    "by_severity": {
+      "critical": 0,
+      "high": 0,
+      "medium": 0,
+      "low": 2
+    },
+    "own_voice_hits": 2,
+    "first_person_singular_hits": 0,
+    "hits": [
+      {
+        "name": "ИИ-лексика: «взаимодействие/тонкости/нюансы (абстрактно)»",
+        "category": "ai-lexis",
+        "severity": "low",
+        "match": "Взаимодействие",
+        "position": 9394,
+        "context": "...ение law@pravo.shop Коммерческие предложения biz@pravo.shop Взаимодействие со СМИ pr@pravo.shop © 2018-2026 ООО «ЛИКВИДАТОР». Все прав..."
+      },
+      {
+        "name": "Канцелярит: «в рамках» (без нужды)",
+        "category": "clerical",
+        "severity": "low",
+        "match": "в рамках",
+        "position": 9006,
+        "context": "...ровождение на всех этапах. Надёжность и законность Работаем в рамках ФЗ и действующего законодательства РФ. РЕКВИЗИТЫ ООО «ЛИКВИ..."
+      }
+    ]
+  },
+  "anti_template": {
+    "file": "drafts/bankrotstvo-pri-nalogovyh-dolgah/article.html",
+    "text_chars": 8013,
+    "phrases_loaded": 138,
+    "passed": true,
+    "hits": []
+  },
+  "law_quotes": {
+    "total_chars": 0,
+    "limit": 600,
+    "samples": []
+  },
+  "rhythm": {
+    "file": "drafts/bankrotstvo-pri-nalogovyh-dolgah/article.html",
+    "text_chars": 8013,
+    "sentences_total": 91,
+    "avg_sentence_len": 8.15,
+    "short_sentences_count": 32,
+    "short_sentences_share": 0.352,
+    "long_sentences_count": 2,
+    "parasite_count": 1,
+    "parasite_per_1000": 0.12,
+    "flags": []
+  },
+  "internal_links": {
+    "total_hrefs": 41,
+    "ok": 0,
+    "whitelisted": 21,
+    "external": 15,
+    "fixed": 2,
+    "errors": 0,
+    "changed": true,
+    "fix_details": [
+      {
+        "href": "/articles/fiz/kogda-dolgi-ne-spishut-pri-bankrotstve.html",
+        "verdict": "fix_html",
+        "fixed_href": "/articles/fiz/kogda-dolgi-ne-spishut-pri-bankrotstve",
+        "reason": "трейлинг .html → 301-редирект"
+      },
+      {
+        "href": "/articles/fiz/vnesudebnoe-bankrotstvo-cherez-mfc-2026.html",
+        "verdict": "fix_html",
+        "fixed_href": "/articles/fiz/vnesudebnoe-bankrotstvo-cherez-mfc-2026",
+        "reason": "трейлинг .html → 301-редирект"
+      }
+    ],
+    "error_details": []
+  },
+  "recommendations": [],
+  "retry_count": 5,
+  "predicted_metrics": {
+    "spam_pct": 50,
+    "ai_pct": 5,
+    "uniqueness_pct": 87
+  },
+  "customer_risks": []
+}

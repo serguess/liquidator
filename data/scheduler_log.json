@@ -1188,5 +1188,59 @@
     "stdout_tail": "- `brief.json` **не создан**\n\n**Рекомендация агента 1:** переоформить как evergreen-статью в категории `fiz`:\n- Новый slug: `gosposhlina-pri-bankrotstve-fizlica`\n- Тема: «Госпошлина при банкротстве физлица: кто платит и сколько»\n\nКак поступить?\n\n1. **Переделать в `fiz` (evergreen)** — запустить заново с новым slug и категорией\n2. **Оставить как `news`** с текущим slug — написать как «разбор действующих правил» без упора на свежесть события\n3. **Пропустить** — тема остаётся свободной в topic-map\n",
     "stderr_tail": "",
     "metrics": null
+  },
+  {
+    "timestamp": "2026-05-12T23:33:52",
+    "category": "fiz",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "mode": "new",
+    "topic_id": "fiz-22",
+    "topic_slug": "ipoteka-posle-bankrotstva-fizlica",
+    "auto_skipped": [
+      {
+        "slug": "bankrotstvo-s-detmi-nesovershennoletnimi",
+        "reason": "hang_heartbeat_timeout",
+        "duration_sec": 1950.1
+      }
+    ],
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "Автофикс применил правки: сокращения=0, пунктуация=0",
+        "internal_links_autofixed: 2 ссылок (например /articles/fiz/bankrotstvo-pri-ipoteke-edinstvennoe-zhilye.html→/articles/fiz/bankrotstvo-pri-ipoteke-edinstvennoe-zhilye; /articles/fiz/vnesudebnoe-bankrotstvo-cherez-mfc-2026.html→/articles/fiz/vnesudebnoe-bankrotstvo-cherez-mfc-2026)"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "ipoteka-posle-bankrotstva-fizlica",
+    "duration_sec": 4124.0,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "larity 0.15) |\n| Factcheck | passed |\n| Quality gate | **passed** (итерация 3) |\n| lex_diversity | 0.640 |\n| ngram3_repeat_share | 2.6% |\n| AI-маркеры | 2 low (в шаблонном футере, не в тексте) |\n| Обложка | fallback (fal-client не установлен) |\n| Файл | `drafts/ipoteka-posle-bankrotstva-fizlica/article.html` |\n\n**text.ru метрики** — не заполнены (проверяются вручную через text.ru после публикации).\n\nСтатья добавлена в `drafts/_review_queue.json` и ожидает нажатия «Опубликовать» в Telegram-боте.\n",
+    "stderr_tail": "",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7324
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]
