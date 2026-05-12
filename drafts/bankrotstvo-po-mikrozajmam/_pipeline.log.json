@@ -1,0 +1,34 @@
+{
+  "slug": "bankrotstvo-po-mikrozajmam",
+  "category": "fiz",
+  "started_at": "2026-05-12T15:30:05",
+  "finished_at": null,
+  "total_duration_sec": null,
+  "current_iteration": 1,
+  "events": [
+    {
+      "ts": "2026-05-12T15:30:05",
+      "agent": "scheduler",
+      "event": "slot_started",
+      "iteration": 1,
+      "today_count": 5,
+      "limit": 10,
+      "write_article_duration_sec": 1782.8
+    },
+    {
+      "ts": "2026-05-12T15:30:05",
+      "agent": "quality_gate",
+      "event": "passed",
+      "iteration": 1,
+      "blockers": [
+        "spam_risk: 2 флагов (top10_share>0.105 (=0.119), ngram3_repeat_share>0.03 (=0.042)), top-5: ['банкротств', 'процедур', 'заявлен', 'долг', 'обязательств']"
+      ],
+      "warnings": [
+        "Автофикс применил правки: сокращения=1, пунктуация=0"
+      ],
+      "recommendations": [
+        "reduce_repetition: разбавить топ-5 частотных лемм местоимениями/перифразом — ['банкротств', 'процедур', 'заявлен', 'долг', 'обязательств']"
+      ]
+    }
+  ]
+}
