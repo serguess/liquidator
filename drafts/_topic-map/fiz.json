@@ -536,7 +536,11 @@
       "frequency_estimate": "medium",
       "rationale": "Противовес теме fiz-12 (последствия). Где та статья закрывает возражения через строгий разбор, эта снижает страх через живые реалии. Две вместе формируют полную картину.",
       "expected_length_chars": 7000,
-      "topic_action": "банкротство физлица"
+      "topic_action": "банкротство физлица",
+      "status": "rejected",
+      "rejected_at": "2026-05-12T13:54:31",
+      "rejected_reason": "cannibalization:posledstviya-bankrotstva-fizlica",
+      "rejected_by": "auto_skip_in_slot"
     }
   ]
 }
