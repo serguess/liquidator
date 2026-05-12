@@ -18,6 +18,8 @@ Claude Code должен быть установлен и авторизован
 from __future__ import annotations
 
 import json
+import logging
+import os
 import re
 import shutil
 import subprocess
@@ -25,6 +27,21 @@ from pathlib import Path
 from typing import NamedTuple
 
 from .config import DRAFTS_DIR, PROJECT_ROOT
+
+log = logging.getLogger(__name__)
+
+# Изолированный HOME для edit-claude. Без этого edit-claude и scheduler-claude
+# делят /home/appuser/.claude.json и /home/appuser/.claude/ — при параллельных
+# запусках второй процесс висит на чтении lockfile, упирается в 360-сек
+# timeout subprocess.run и заказчик видит "❌ Не удалось применить правку".
+# Реальный кейс 12 мая 2026: пока scheduler писал статью, заказчик два раза
+# подряд не смог отредактировать другую.
+#
+# /tmp выбран намеренно: при PrivateTmp=true в systemd unit это приватный
+# tmpfs для bot-сервиса, scheduler в свой /tmp не достанет. Содержимое
+# теряется при рестарте бота, но это OK — claude перерегистрируется по
+# CLAUDE_CODE_OAUTH_TOKEN из env.
+EDITOR_HOME = Path("/tmp/claude-editor-home")
 
 
 class EditResult(NamedTuple):
@@ -212,6 +229,16 @@ def apply_edit(*, slug: str, current_version: str, versions: list[str],
         "--add-dir", str(PROJECT_ROOT),
     ]
 
+    # Готовим изолированный env с собственным HOME — иначе edit-claude конфликтует
+    # с активным scheduler-claude через ~/.claude.json и висит на 360-сек timeout.
+    try:
+        EDITOR_HOME.mkdir(parents=True, exist_ok=True)
+    except OSError as exc:
+        log.warning("Не смог создать %s: %s — fallback на общий HOME",
+                    EDITOR_HOME, exc)
+    edit_env = os.environ.copy()
+    edit_env["HOME"] = str(EDITOR_HOME)
+
     try:
         proc = subprocess.run(
             cmd,
@@ -220,6 +247,7 @@ def apply_edit(*, slug: str, current_version: str, versions: list[str],
             timeout=timeout_sec,
             cwd=str(PROJECT_ROOT),
             encoding="utf-8",
+            env=edit_env,
         )
     except subprocess.TimeoutExpired:
         return EditResult(

@@ -515,6 +515,13 @@ async def _run_edit(message: Message, *, slug: str, review: dict, edit_text: str
     """
     Общая часть для запуска edit-pipeline. Используется и FSM-handler'ами
     (через _process_edit), и fallback по reply_to_message.
+
+    Если apply_edit упал с timeout И scheduler активен — это известный
+    конфликт двух claude процессов через shared ~/.claude.json
+    (несмотря на изоляцию HOME в editor.py). В этом случае запускаем
+    background-task которая дождётся освобождения lock-а и повторит
+    правку автоматически. Заказчику сразу отвечаем «применю когда слот
+    закроется».
     """
     progress_msg = await message.answer(messages.edit_in_progress(), parse_mode="HTML")
     result = await asyncio.to_thread(
@@ -530,6 +537,33 @@ async def _run_edit(message: Message, *, slug: str, review: dict, edit_text: str
         pass
 
     if not result.success or result.new_version is None:
+        # Спецслучай: timeout + активный scheduler → правка в очередь
+        is_timeout = "не ответил за" in (result.error or "")
+        scheduler_active, lock_age = action_queue.is_scheduler_active()
+        if is_timeout and scheduler_active:
+            eta_sec = action_queue.estimate_eta_sec()
+            eta_min = max(1, (eta_sec + 59) // 60)
+            log.warning(
+                "Edit timeout + scheduler active → ставлю в фоновую очередь "
+                "slug=%s lock_age=%ds eta=%dmin",
+                slug, int(lock_age), eta_min,
+            )
+            await message.answer(
+                f"📋 Сейчас scheduler пишет другую статью (идёт {int(lock_age)//60} мин).\n"
+                f"Правку применю автоматически как только он закончит — "
+                f"примерно через {eta_min} мин.\n\n"
+                f"Можешь не следить — пришлю результат сюда.",
+                parse_mode="HTML",
+            )
+            # Background task — живёт пока бот работает. Если бот рестартнётся
+            # за это время, правка потеряется (заказчику надо повторить).
+            # В норме рестарт бота редкий, так что приемлемо.
+            asyncio.create_task(_run_edit_when_scheduler_free(
+                chat_id=message.chat.id,
+                slug=slug, review=review, edit_text=edit_text,
+            ))
+            return
+
         log.error(
             "Edit run: claude вернул ошибку slug=%s error=%r",
             slug, (result.error or "")[:200],
@@ -559,6 +593,95 @@ async def _run_edit(message: Message, *, slug: str, review: dict, edit_text: str
         reply_markup=review_keyboard(slug),
         disable_web_page_preview=False,
     )
+
+
+async def _run_edit_when_scheduler_free(
+    *, chat_id: int, slug: str, review: dict, edit_text: str,
+) -> None:
+    """
+    Ждёт пока scheduler освободит lock, потом применяет правку и шлёт
+    результат в чат. Запускается из _run_edit когда обычный apply_edit
+    упал по timeout во время активного слота.
+
+    Поллим каждые 30 сек, максимум 2 часа (защита от вечного зависания
+    lock-а — если scheduler залип >2 ч, лучше отдать ошибку заказчику).
+    """
+    from aiogram import Bot
+    from .config import TG_BOT_TOKEN
+
+    deadline = asyncio.get_event_loop().time() + 7200  # 2 часа
+    waited = 0
+    while True:
+        active, _ = action_queue.is_scheduler_active()
+        if not active:
+            break
+        if asyncio.get_event_loop().time() > deadline:
+            log.error(
+                "Edit-queue: scheduler не освободил lock за 2 часа, "
+                "отменяю отложенную правку slug=%s", slug,
+            )
+            try:
+                bot = Bot(token=TG_BOT_TOKEN)
+                await bot.send_message(
+                    chat_id,
+                    f"❌ Отложенная правка для «{review.get('title', slug)}» "
+                    f"отменена: scheduler не освободил блокировку за 2 часа.\n"
+                    f"Попробуй применить правку заново.",
+                )
+                await bot.session.close()
+            except Exception:
+                log.exception("Edit-queue: не смог отправить timeout-уведомление")
+            return
+        await asyncio.sleep(30)
+        waited += 30
+
+    log.info("Edit-queue: scheduler освободил lock (ждали %dс), применяю правку slug=%s",
+             waited, slug)
+
+    # Повторно применяем (теперь conflict-а нет)
+    result = await asyncio.to_thread(
+        editor.apply_edit,
+        slug=slug,
+        current_version=review.get("current_version", "2.0"),
+        versions=review.get("versions", ["2.0"]),
+        edit_text=edit_text,
+    )
+
+    bot = Bot(token=TG_BOT_TOKEN)
+    try:
+        if not result.success or result.new_version is None:
+            log.error("Edit-queue: повторное применение упало slug=%s err=%r",
+                      slug, (result.error or "")[:200])
+            await bot.send_message(
+                chat_id,
+                f"❌ Отложенная правка для «{review.get('title', slug)}» не применилась.\n"
+                f"Ошибка: <code>{(result.error or 'неизвестная')[:300]}</code>",
+                parse_mode="HTML",
+            )
+            return
+
+        log.info("Edit-queue: правка применена slug=%s new_version=%s",
+                 slug, result.new_version)
+        state.add_edit(slug, new_version=result.new_version, edit_text=edit_text)
+        token = state.get_preview_token_from_state()
+        await bot.send_message(
+            chat_id,
+            messages.edit_applied(
+                slug=slug,
+                new_version=result.new_version,
+                summary=result.summary,
+                char_count=result.char_count or 0,
+                prev_char_count=None,
+                token=token,
+                uniqueness_pct=None,
+                fact_warnings=None,
+            ),
+            parse_mode="HTML",
+            reply_markup=review_keyboard(slug),
+            disable_web_page_preview=False,
+        )
+    finally:
+        await bot.session.close()
 
 
 @router.message(F.text, F.reply_to_message)
