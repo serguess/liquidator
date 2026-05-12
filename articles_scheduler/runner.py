@@ -15,6 +15,7 @@ import os
 import re
 import subprocess
 import sys
+import threading
 import time
 from datetime import datetime, date
 from pathlib import Path
@@ -47,7 +48,7 @@ ARTICLES_PER_DAY = int(os.getenv("ARTICLES_PER_DAY", "1"))
 ARTICLE_TIMEOUT_SEC = int(os.getenv("ARTICLE_TIMEOUT_SEC", "3600"))  # 60 минут. Раньше было 2400 (40 мин), но на сложных темах с плотной терминологией (банкротство ООО, ипотека) writer крутил 5+ внутренних итераций самокоррекции и не дотягивал до агентов 6-7. Увеличено в мае 2026.
 LOCK_STALE_SEC = int(os.getenv("LOCK_STALE_SEC", "3600"))  # 1 час
 FAILURE_STREAK_LIMIT = int(os.getenv("FAILURE_STREAK_LIMIT", "3"))
-HEARTBEAT_TIMEOUT_SEC = int(os.getenv("HEARTBEAT_TIMEOUT_SEC", "900"))  # 15 минут тишины = kill (раньше 30). При зависании writer-а / rate-limit Anthropic detection в 2× быстрее → остаётся время на следующую тему в том же слоте.
+HEARTBEAT_TIMEOUT_SEC = int(os.getenv("HEARTBEAT_TIMEOUT_SEC", "1800"))  # 30 мин (как было на Cloud Apps до миграции). Был временно 900 для быстрых retry, но это убивало живых под-агентов которые молчат в stdout 16-25 мин в норме. Streaming-heartbeat (см. _run_claude_with_heartbeat) теперь обновляет mtime сам на любой stdout-line, так что 1800 — это страховка для долгих WebSearch (~30 мин без stdout).
 # Slot-бюджет: общее окно на ВЕСЬ слот включая все retry-попытки. Должен быть
 # меньше systemd TimeoutStartSec (6000s) с запасом. Внутри бюджета крутятся
 # до MAX_TOPIC_RETRIES_PER_SLOT попыток на разных темах.
@@ -1595,6 +1596,16 @@ def _run_claude_with_heartbeat(cmd: list[str], timeout_sec: int | None = None):
     HEARTBEAT_PATH. Если файл не обновлялся HEARTBEAT_TIMEOUT_SEC секунд —
     убивает процесс раньше общего таймаута.
 
+    **Streaming-heartbeat (май 2026):** scheduler сам обновляет mtime
+    HEARTBEAT_PATH на каждую строку stdout/stderr claude. Это снимает
+    зависимость от того, что claude помнит выполнять `date > heartbeat`
+    между агентами (по факту он часто забывает после агента 1-2). На каждый
+    tool_use / tool_result / text-event от любого подагента приходит хотя
+    бы одна строка → heartbeat живой. Kill срабатывает только когда claude
+    реально молчит >HEARTBEAT_TIMEOUT_SEC секунд (rate-limit, network drop,
+    deadlock). WebSearch до ~30 мин без stdout переживёт благодаря timeout
+    1800с дефолту.
+
     timeout_sec: общий таймаут попытки. Если None — используется глобальный
     ARTICLE_TIMEOUT_SEC. В retry-loop передаём остаток slot-бюджета (чтобы
     вторая попытка не вылезла за общее окно слота).
@@ -1614,10 +1625,41 @@ def _run_claude_with_heartbeat(cmd: list[str], timeout_sec: int | None = None):
         text=True,
         encoding="utf-8",
         errors="replace",
+        bufsize=1,  # line-buffered: чтобы streaming-heartbeat видел строки в реальном времени
     )
     hard_deadline = time.time() + effective_timeout
     heartbeat_killed = False
     hard_killed = False
+
+    # Фоновые треды читают stdout/stderr построчно, накапливают в буфер
+    # и на каждой строке делают touch heartbeat. Без этого Popen PIPE
+    # буферизует на уровне ядра до communicate() в конце — и stdout
+    # claude недоступен пока он не завершится. С тредами получаем live stream.
+    stdout_buf: list[str] = []
+    stderr_buf: list[str] = []
+
+    def _drain(stream, buf: list[str]):
+        try:
+            for line in iter(stream.readline, ''):
+                if not line:
+                    break
+                buf.append(line)
+                # touch вместо write_text — атомарно обновляет mtime без
+                # перезаписи содержимого (само значение нам неважно, важен mtime)
+                try:
+                    HEARTBEAT_PATH.touch()
+                except OSError:
+                    pass
+        finally:
+            try:
+                stream.close()
+            except Exception:
+                pass
+
+    t_out = threading.Thread(target=_drain, args=(proc.stdout, stdout_buf), daemon=True)
+    t_err = threading.Thread(target=_drain, args=(proc.stderr, stderr_buf), daemon=True)
+    t_out.start()
+    t_err.start()
 
     # poll каждые 5 сек: проверяем закончился ли процесс, общий таймаут, heartbeat
     while proc.poll() is None:
@@ -1638,8 +1680,11 @@ def _run_claude_with_heartbeat(cmd: list[str], timeout_sec: int | None = None):
                 heartbeat_killed = True
                 break
 
-    # process либо завершился сам, либо был убит — communicate безопасен
-    stdout, stderr = proc.communicate()
+    # Дожидаемся drain-тредов (не больше 10 сек — после kill PIPE закрываются)
+    t_out.join(timeout=10)
+    t_err.join(timeout=10)
+    stdout = "".join(stdout_buf)
+    stderr = "".join(stderr_buf)
 
     if hard_killed:
         raise subprocess.TimeoutExpired(cmd, effective_timeout, stdout, stderr)
@@ -1647,8 +1692,8 @@ def _run_claude_with_heartbeat(cmd: list[str], timeout_sec: int | None = None):
     class _Result:
         pass
     r = _Result()
-    r.stdout = stdout or ""
-    r.stderr = stderr or ""
+    r.stdout = stdout
+    r.stderr = stderr
     if heartbeat_killed:
         r.returncode = -1
         r.stderr += f"\n[scheduler] killed by heartbeat timeout (>{HEARTBEAT_TIMEOUT_SEC}s of silence)"
