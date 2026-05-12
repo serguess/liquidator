@@ -385,7 +385,11 @@
       "frequency_estimate": "medium",
       "rationale": "Реструктуризация — недооценённый инструмент. Статья привлекает тех, кто ещё не готов к ликвидации имущества, но ищет выход. Перелинковка с темой стоимости банкротства.",
       "expected_length_chars": 7000,
-      "topic_action": "реструктуризацию долгов"
+      "topic_action": "реструктуризацию долгов",
+      "status": "rejected",
+      "rejected_at": "2026-05-12T08:25:54",
+      "rejected_reason": "hang_heartbeat_timeout",
+      "rejected_by": "auto_skip_in_slot"
     },
     {
       "id": "fiz-15",
