@@ -635,5 +635,108 @@
     "returncode": 0,
     "stdout_tail": "а на арбитражного управляющего |\n| yur-15 | финансовое оздоровление юридического лица |\n| yur-16 | преднамеренное банкротство ответственность директора |\n| yur-17 | мировое соглашение при банкротстве юридического лица |\n| yur-18 | налоговые долги при банкротстве юридического лица |\n\nРаспределение по воронке: 4 commercial/problem-aware (decision) — yur-11, 13, 14, 18; 3 solution-aware (consideration) — yur-12, 15, 17; 3 informational (awareness/consideration) — yur-09, 10, 16. Коллизий slug нет.\n",
     "stderr_tail": ""
+  },
+  {
+    "timestamp": "2026-05-12T07:12:07",
+    "category": "vzysk",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 3,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "vzysk-10",
+    "topic_slug": "ispolnitelskij-sbor-kak-osporit",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [
+        "spam_risk: 1 флагов (ngram3_repeat_share>0.03 (=0.031)), top-5: ['сбор', 'ставк', 'должник', 'отмен', 'пристав']"
+      ],
+      "warnings": [],
+      "recommendations": [
+        "reduce_repetition: разбавить топ-5 частотных лемм местоимениями/перифразом — ['сбор', 'ставк', 'должник', 'отмен', 'пристав']"
+      ],
+      "stderr_tail": ""
+    },
+    "finalize_safety_net": {
+      "ran": true,
+      "rc": 0
+    },
+    "status": "ok",
+    "slug": "ispolnitelskij-sbor-kak-osporit",
+    "duration_sec": 2887.9,
+    "returncode": -1,
+    "rescued_after_failure": true,
+    "stdout_tail": "",
+    "stderr_tail": "\n[scheduler] killed by heartbeat timeout (>900s of silence)",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7791
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
+  },
+  {
+    "timestamp": "2026-05-12T08:08:51",
+    "category": "fiz",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "mode": "new",
+    "topic_id": "fiz-16",
+    "topic_slug": "bankrotstvo-samozanyatogo-grazhdanina",
+    "auto_skipped": [
+      {
+        "slug": "restrukturizaciya-dolgov-fizlica",
+        "reason": "hang_heartbeat_timeout",
+        "duration_sec": 1015.1
+      },
+      {
+        "slug": "finansovyj-upravlyayushchij-bankrotstvo-fizlica",
+        "reason": "hang_heartbeat_timeout",
+        "duration_sec": 1020.1
+      },
+      {
+        "slug": "bankrotstvo-samozanyatogo-grazhdanina",
+        "reason": "hang_heartbeat_timeout",
+        "duration_sec": 1030.1
+      }
+    ],
+    "status": "failed",
+    "slug": "bankrotstvo-samozanyatogo-grazhdanina",
+    "duration_sec": 3077.0,
+    "returncode": -1,
+    "rescued_after_failure": false,
+    "stdout_tail": "",
+    "stderr_tail": "\n[scheduler] killed by heartbeat timeout (>900s of silence)",
+    "metrics": null
   }
 ]
