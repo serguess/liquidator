@@ -1152,5 +1152,41 @@
     "stdout_tail": "ий официальный статотчёт — итоги 2025 года, вышел в январе 2026 (> 30 дней)\n- Публикации апреля-мая 2026 — только вторичные материалы без новых цифр\n\n**Рекомендация агента:**\n- Перевести тему в категорию `fiz` как evergreen-обзор «Сколько россиян обанкротились: данные Федресурса»\n- Вернуть в очередь `news` когда Федресурс выпустит бюллетень за Q1 2026 (обычно апрель-май, но по состоянию на 12.05.2026 ещё не вышел)\n\n`brief.json` не создан. Папка `drafts/statistika-bankrotstv-2026/` не затронута.\n",
     "stderr_tail": "",
     "metrics": null
+  },
+  {
+    "timestamp": "2026-05-12T21:40:22",
+    "category": "news",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 2,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "news-09",
+    "topic_slug": "gosposhlina-bankrotstvo-otmenena-2024",
+    "slug_mismatch": true,
+    "expected_slug": "gosposhlina-bankrotstvo-otmenena-2024",
+    "status": "failed",
+    "slug": null,
+    "duration_sec": 105.1,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "- `brief.json` **не создан**\n\n**Рекомендация агента 1:** переоформить как evergreen-статью в категории `fiz`:\n- Новый slug: `gosposhlina-pri-bankrotstve-fizlica`\n- Тема: «Госпошлина при банкротстве физлица: кто платит и сколько»\n\nКак поступить?\n\n1. **Переделать в `fiz` (evergreen)** — запустить заново с новым slug и категорией\n2. **Оставить как `news`** с текущим slug — написать как «разбор действующих правил» без упора на свежесть события\n3. **Пропустить** — тема остаётся свободной в topic-map\n",
+    "stderr_tail": "",
+    "metrics": null
   }
 ]
