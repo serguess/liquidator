@@ -2,9 +2,9 @@
   "slug": "bankrotstvo-po-mikrozajmam",
   "category": "fiz",
   "started_at": "2026-05-12T15:30:05",
-  "finished_at": null,
-  "total_duration_sec": null,
-  "current_iteration": 1,
+  "finished_at": "2026-05-12T15:34:41",
+  "total_duration_sec": 276.0,
+  "current_iteration": 2,
   "events": [
     {
       "ts": "2026-05-12T15:30:05",
@@ -29,6 +29,62 @@
       "recommendations": [
         "reduce_repetition: разбавить топ-5 частотных лемм местоимениями/перифразом — ['банкротств', 'процедур', 'заявлен', 'долг', 'обязательств']"
       ]
+    },
+    {
+      "ts": "2026-05-12T15:30:07",
+      "agent": "scheduler",
+      "event": "git_pushed",
+      "iteration": 1,
+      "branch": "main"
+    },
+    {
+      "ts": "2026-05-12T15:34:41",
+      "agent": "scheduler",
+      "event": "slot_finished",
+      "status": "ok",
+      "iteration": 1
+    },
+    {
+      "ts": "2026-05-12T16:41:52",
+      "agent": "scheduler",
+      "event": "rewrite_started",
+      "iteration": 1,
+      "reason": "quality_gate failed: spam_risk (top10_share=0.119, ngram3_repeat_share=0.042)",
+      "recommendation": "reduce_repetition: заменить местоимениями/перифразом леммы банкротств/процедур/заявлен/долг/обязательств"
+    },
+    {
+      "ts": "2026-05-12T16:41:55",
+      "agent": "4-writer",
+      "event": "iteration_returned",
+      "iteration": 2,
+      "reason": "rewrite-article",
+      "recommendation": "reduce_repetition: разбавить леммы банкротств(9)/процедур(8)/заявлен(8)/долг(7)/обязательств(7) через синонимы и перифраз"
+    },
+    {
+      "ts": "2026-05-12T17:00:39",
+      "agent": "4-writer",
+      "event": "completed",
+      "iteration": 2,
+      "reason": "rewrite-article: spam_risk resolved",
+      "recommendation": "ok"
+    },
+    {
+      "ts": "2026-05-12T17:00:41",
+      "agent": "scheduler",
+      "event": "rewrite_finished",
+      "iteration": 2,
+      "reason": "passed: true"
     }
-  ]
+  ],
+  "final_status": "ok",
+  "metrics": {
+    "ai_detector": null,
+    "uniqueness": null,
+    "spam": null,
+    "text_chars": 7275
+  },
+  "git": {
+    "committed": true,
+    "pushed": true
+  }
 }

@@ -1,10 +1,8 @@
 {
   "file": "/home/appuser/apps/liquidator/drafts/bankrotstvo-po-mikrozajmam/article.html",
-  "passed": false,
+  "passed": true,
   "hard_failed": false,
-  "blockers": [
-    "spam_risk: 2 флагов (top10_share>0.105 (=0.119), ngram3_repeat_share>0.03 (=0.042)), top-5: ['банкротств', 'процедур', 'заявлен', 'долг', 'обязательств']"
-  ],
+  "blockers": [],
   "warnings": [
     "Автофикс применил правки: сокращения=1, пунктуация=0"
   ],
@@ -17,48 +15,32 @@
     "em_dash_fixes": 3,
     "eng_quotes_fixes": 0,
     "changed": true,
-    "bytes_before": 40894,
-    "bytes_after": 40905
+    "bytes_before": 40372,
+    "bytes_after": 40383
   },
   "quality_checks": {
     "file": "drafts/bankrotstvo-po-mikrozajmam/article.html",
-    "text_chars": 7275,
+    "text_chars": 7002,
     "length_status": "ok",
     "length_kind": "default",
-    "passed": false,
+    "passed": true,
     "abbreviation_hits": [],
     "punctuation_hits": [],
     "spam": {
-      "total_words": 599,
-      "unique_lemmas": 381,
-      "lexical_diversity": 0.636,
+      "total_words": 574,
+      "unique_lemmas": 386,
+      "lexical_diversity": 0.672,
       "top10_words": [
         [
-          "банкротств",
-          9
-        ],
-        [
-          "процедур",
-          8
-        ],
-        [
-          "заявлен",
-          8
-        ],
-        [
-          "долг",
-          7
-        ],
-        [
-          "обязательств",
-          7
-        ],
-        [
           "займ",
+          8
+        ],
+        [
+          "банкротств",
           7
         ],
         [
-          "вправ",
+          "имуществ",
           7
         ],
         [
@@ -66,27 +48,40 @@
           6
         ],
         [
-          "введен",
+          "вправ",
           6
         ],
         [
-          "имуществ",
-          6
+          "микрозайм",
+          5
+        ],
+        [
+          "требован",
+          5
+        ],
+        [
+          "момент",
+          5
+        ],
+        [
+          "долг",
+          5
+        ],
+        [
+          "сумм",
+          5
         ]
       ],
-      "top10_share": 0.119,
-      "ngram3_repeat_count": 25,
-      "ngram3_total": 597,
-      "ngram3_repeat_share": 0.042,
-      "risk_flags": [
-        "top10_share>0.105 (=0.119)",
-        "ngram3_repeat_share>0.03 (=0.042)"
-      ]
+      "top10_share": 0.103,
+      "ngram3_repeat_count": 13,
+      "ngram3_total": 572,
+      "ngram3_repeat_share": 0.023,
+      "risk_flags": []
     }
   },
   "ai_markers": {
     "file": "drafts/bankrotstvo-po-mikrozajmam/article.html",
-    "text_chars": 9195,
+    "text_chars": 8919,
     "hits_total": 2,
     "density_per_1000": 0.22,
     "by_severity": {
@@ -103,7 +98,7 @@
         "category": "ai-lexis",
         "severity": "low",
         "match": "Взаимодействие",
-        "position": 9002,
+        "position": 8726,
         "context": "...ение law@pravo.shop Коммерческие предложения biz@pravo.shop Взаимодействие со СМИ pr@pravo.shop © 2018-2026 ООО «ЛИКВИДАТОР». Все прав..."
       },
       {
@@ -111,14 +106,14 @@
         "category": "clerical",
         "severity": "low",
         "match": "в рамках",
-        "position": 8614,
+        "position": 8338,
         "context": "...ровождение на всех этапах. Надёжность и законность Работаем в рамках ФЗ и действующего законодательства РФ. РЕКВИЗИТЫ ООО «ЛИКВИ..."
       }
     ]
   },
   "anti_template": {
     "file": "drafts/bankrotstvo-po-mikrozajmam/article.html",
-    "text_chars": 7661,
+    "text_chars": 7385,
     "phrases_loaded": 138,
     "passed": true,
     "hits": []
@@ -130,26 +125,22 @@
   },
   "rhythm": {
     "file": "drafts/bankrotstvo-po-mikrozajmam/article.html",
-    "text_chars": 7661,
+    "text_chars": 7385,
     "sentences_total": 84,
-    "avg_sentence_len": 7.96,
-    "short_sentences_count": 23,
-    "short_sentences_share": 0.274,
+    "avg_sentence_len": 7.64,
+    "short_sentences_count": 24,
+    "short_sentences_share": 0.286,
     "long_sentences_count": 1,
     "parasite_count": 1,
-    "parasite_per_1000": 0.13,
+    "parasite_per_1000": 0.14,
     "flags": []
   },
-  "recommendations": [
-    "reduce_repetition: разбавить топ-5 частотных лемм местоимениями/перифразом — ['банкротств', 'процедур', 'заявлен', 'долг', 'обязательств']"
-  ],
-  "retry_count": 4,
+  "recommendations": [],
+  "retry_count": 7,
   "predicted_metrics": {
-    "spam_pct": 55,
+    "spam_pct": 47,
     "ai_pct": 5,
-    "uniqueness_pct": 87
+    "uniqueness_pct": 90
   },
-  "customer_risks": [
-    "заспамленность выше 50% (~55%)"
-  ]
+  "customer_risks": []
 }
