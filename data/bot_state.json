@@ -493,7 +493,7 @@
     "bankrotstvo-pri-poruchitelstve": {
       "category": "fiz",
       "title": "Банкротство с поручителем: что будет с гарантом",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -501,10 +501,12 @@
       "tg_message_id": 408,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-12T03:35:40",
-      "last_action_at": "2026-05-12T03:35:40",
+      "last_action_at": "2026-05-12T17:12:39",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null
+      "published_url": "https://pravo.shop/articles/fiz/bankrotstvo-pri-poruchitelstve",
+      "published_at": "2026-05-12T17:12:39",
+      "articles_path": "articles/fiz/bankrotstvo-pri-poruchitelstve.html"
     },
     "ispolnitelskij-sbor-kak-osporit": {
       "category": "vzysk",

@@ -2,6 +2,19 @@
   "generated": "2026-05-12",
   "articles": [
     {
+      "slug": "bankrotstvo-pri-poruchitelstve",
+      "cat": "fiz",
+      "catLabel": "Банкротство физических лиц",
+      "title": "Банкротство с поручителем: что будет с гарантом",
+      "desc": "Что происходит с поручителем, когда должник банкротится: сохраняется ли обязательство, когда кредитор предъявит требования и как гаранту защитить себя.",
+      "date": "12 мая 2026",
+      "dateIso": "2026-05-12",
+      "read": "5 мин.",
+      "tone": "b",
+      "img": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1778545939/articles/bankrotstvo-pri-poruchitelstve-cover.jpg",
+      "url": "articles/fiz/bankrotstvo-pri-poruchitelstve"
+    },
+    {
       "slug": "cifrovoj-rubl-i-bankrotstvo",
       "cat": "news",
       "catLabel": "Новости",
