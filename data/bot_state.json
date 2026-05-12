@@ -599,7 +599,7 @@
     "isk-o-vzyskanii-dolga-v-sud": {
       "category": "vzysk",
       "title": "Иск о взыскании долга: как правильно подать в суд",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -607,10 +607,12 @@
       "tg_message_id": 447,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-12T19:01:46",
-      "last_action_at": "2026-05-12T19:01:46",
+      "last_action_at": "2026-05-12T21:33:29",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null
+      "published_url": "https://pravo.shop/articles/vzysk/isk-o-vzyskanii-dolga-v-sud",
+      "published_at": "2026-05-12T21:33:29",
+      "articles_path": "articles/vzysk/isk-o-vzyskanii-dolga-v-sud.html"
     }
   },
   "pending_actions": []

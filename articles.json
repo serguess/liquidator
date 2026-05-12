@@ -2,6 +2,19 @@
   "generated": "2026-05-12",
   "articles": [
     {
+      "slug": "isk-o-vzyskanii-dolga-v-sud",
+      "cat": "vzysk",
+      "catLabel": "Взыскание задолженности",
+      "title": "Иск о взыскании долга: как правильно подать в суд",
+      "desc": "Пошаговая инструкция по подаче иска о взыскании долга: выбор суда, расчёт госпошлины, составление заявления, срок давности, претензионный порядок.",
+      "date": "12 мая 2026",
+      "dateIso": "2026-05-12",
+      "read": "5 мин.",
+      "tone": "b",
+      "img": "https://res.cloudinary.com/dmsaaiwkm/image/upload/c_fill,ar_191:100,g_center,f_auto,q_auto,w_1920/v1778261613/articles/skolko-stoit-bankrotstvo-fizicheskogo-lica-cover.jpg",
+      "url": "articles/vzysk/isk-o-vzyskanii-dolga-v-sud"
+    },
+    {
       "slug": "bankrotstvo-po-mikrozajmam",
       "cat": "fiz",
       "catLabel": "Банкротство физических лиц",
