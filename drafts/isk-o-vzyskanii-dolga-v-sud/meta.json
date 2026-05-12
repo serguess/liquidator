@@ -1,0 +1,102 @@
+{
+  "slug": "isk-o-vzyskanii-dolga-v-sud",
+  "category": "vzysk",
+  "title": "Иск о взыскании долга: как правильно подать в суд",
+  "description": "Пошаговая инструкция по подаче иска о взыскании долга: выбор суда, расчёт госпошлины, составление заявления, срок давности, претензионный порядок.",
+  "h1": "Иск о взыскании долга: как подать в суд и не проиграть из-за ошибок",
+  "lead": "Разбираем, как выбрать нужную инстанцию, правильно рассчитать госпошлину и собрать документы - чтобы заявление приняли с первого раза.",
+  "topic_action": "взыскание долга через суд",
+  "breadcrumb_current": "Иск о взыскании долга",
+  "og_image": "/assets/articles/isk-o-vzyskanii-dolga-v-sud.jpg",
+  "main_keyword": "иск о взыскании долга",
+  "secondary_keywords": [
+    "как подать иск о взыскании долга",
+    "исковое заявление о взыскании задолженности",
+    "взыскание долга через суд",
+    "образец иска о взыскании долга",
+    "госпошлина иск о взыскании долга",
+    "подсудность иска о взыскании долга",
+    "срок исковой давности взыскание долга"
+  ],
+  "internal_links": [
+    "/articles/vzysk/kak-otmenit-sudebnyj-prikaz.html",
+    "/articles/vzysk/dosudebnaya-pretenziya-obrazec.html",
+    "/articles/vzysk/okonchanie-ip-po-state-46.html",
+    "/articles/vzysk/ispolnitelskij-sbor-kak-osporit.html"
+  ],
+  "external_links": [
+    "https://base.garant.ru/10900200/6960013a0e7c5c8690975fc0ec0c7eaa/",
+    "https://www.consultant.ru/document/cons_doc_LAW_39570/c04bddd90fe8dd05299705ec675c65ecd0f668dc/"
+  ],
+  "faq": [
+    {
+      "question": "Обязательно ли направлять претензию перед обращением в суд общей юрисдикции?",
+      "answer": "Нет. По ГПК РФ досудебный порядок нужен только если прямо предусмотрен законом или договором. Но письменная претензия приостанавливает срок исковой давности и показывает добросовестность - поэтому отправить стоит."
+    },
+    {
+      "question": "Сколько стоит госпошлина по иску на 250 000 рублей?",
+      "answer": "По ставкам с сентября 2024 года: 4 000 руб. плюс 3% от суммы свыше 100 000 руб. Считаем: 150 000 x 3% = 4 500 руб. Итого 8 500 руб. За приказное производство - вдвое меньше: 4 250 руб."
+    },
+    {
+      "question": "До какого момента можно предъявить требование о возврате долга, если должник ничего не платил?",
+      "answer": "Три года с момента, когда кредитор узнал о нарушении (ст. 196 ГК РФ). Переписка с признанием суммы или обещания «отдам на следующей неделе» прерывают давность, и отсчёт начинается заново (ст. 203 ГК РФ)."
+    },
+    {
+      "question": "Можно ли взыскать проценты по ст. 395 ГК, если в договоре уже прописана неустойка за просрочку?",
+      "answer": "Нет. Пени по договору и проценты по ст. 395 ГК РФ - одновременно нельзя, п. 4 той же статьи запрещает. Считайте оба варианта и включайте тот, что даёт большую сумму."
+    },
+    {
+      "question": "Что делать, если мировой судья вынес приказ, а ответчик его отменил?",
+      "answer": "Подавать иск о взыскании долга. После отмены (ст. 129 ГПК РФ) право на суд сохраняется, судебный сбор засчитывается. С подачей затягивать не стоит."
+    },
+    {
+      "question": "Через какую систему подать документы в арбитражный суд в электронном виде?",
+      "answer": "Через «Мой Арбитр» (my.arbitr.ru). Нужна подтверждённая учётная запись Госуслуг или усиленная электронная подпись. Дата подачи - дата поступления файла. В суды общей юрисдикции - через ГАС «Правосудие» (ej.sudrf.ru), та же авторизация."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все юр-утверждения сверены с research.json. Все факты имеют last_verified не старше 6 месяцев (2026-05-07 - 2026-05-12), legislation_status: active.",
+    "Госпошлина: таблица соответствует f5 (ФЗ-259, НК ст. 333.19, с 08.09.2024).",
+    "Судебный приказ: порог 500 000 руб., 10 дней на возражения - соответствует f4.",
+    "Упрощённое производство: 800 000 юрлица / 400 000 ИП - соответствует f14.",
+    "Претензия приостанавливает (не прерывает) давность - формулировка исправлена в соответствии с f7.",
+    "Удалён дублирующий BP:CTA-BOTTOM из конца черновика (финальный абзац ниже FAQ убран, оставлен один в правильном месте).",
+    "Запрещённые формулировки из forbidden_claims не обнаружены."
+  ],
+  "keyword_density_main": 0.018,
+  "main_keyword_exact_count": 4,
+  "text_chars": 7873,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.083,
+  "local_spam_ngram3_repeat": 0.024,
+  "local_lexical_diversity": 0.633,
+  "local_ai_markers_density": 0.2,
+  "local_ai_markers_critical": 0,
+  "length_status": "warn",
+  "length_kind": "default",
+  "local_ai_markers_total": 2,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 1,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 8,
+  "predicted_spam_pct": 50,
+  "predicted_ai_pct": 5,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/c_fill,ar_191:100,g_center,f_auto,q_auto,w_1920/v1778261613/articles/skolko-stoit-bankrotstvo-fizicheskogo-lica-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/c_fill,ar_191:100,g_center,f_auto,q_auto,w_1920/v1778261613/articles/skolko-stoit-bankrotstvo-fizicheskogo-lica-cover.jpg",
+  "cover_uploaded_at": "2026-05-12T15:57:09Z",
+  "cover_fallback": true,
+  "cover_fallback_reason": "fal_generate_failed",
+  "date_published": "2026-05-12",
+  "date_modified": "2026-05-12",
+  "ready_for_review": true,
+  "ready_at": "2026-05-12T15:57:09Z",
+  "publication_target": "telegram_review"
+}

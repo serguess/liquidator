@@ -187,6 +187,19 @@
         "passed": false,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "isk-o-vzyskanii-dolga-v-sud",
+      "category": "vzysk",
+      "title": "Иск о взыскании долга: как правильно подать в суд",
+      "added_at": "2026-05-12T18:57:09.751633",
+      "char_count": 7873,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/c_fill,ar_191:100,g_center,f_auto,q_auto,w_1920/v1778261613/articles/skolko-stoit-bankrotstvo-fizicheskogo-lica-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

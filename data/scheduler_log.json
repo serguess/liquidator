@@ -1011,5 +1011,56 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-05-12T16:40:22",
+    "category": "fiz",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 4,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "rewrite",
+    "retry_slug": "bankrotstvo-po-mikrozajmam",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "bankrotstvo-po-mikrozajmam",
+    "duration_sec": 1298.1,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "кая плотность 3-грамм, плюс em-dash в заголовке\n- Два прохода правок в body.html (27 точечных замен): заменены высокочастотные слова синонимами, разбиты повторяющиеся 3-граммы (особенно в списке МФЦ-оснований, lines 31–32)\n- Ключевой прорыв: обнаружены 6 идентичных 3-грамм в двух соседних list-items — после их устранения ngram3 упал с 0.039 до 0.023\n\n**Финальные метрики:** `top10_share: 0.103` ✓, `ngram3_repeat_share: 0.023` ✓, `ai_markers_critical: 0` ✓, `spam_pct: ~47%`, `customer_risks: []`.\n",
+    "stderr_tail": "",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7002
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]
