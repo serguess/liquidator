@@ -45,6 +45,7 @@
 - Минимум 2 внешних на КонсультантПлюс/Гарант из `research.key_sources`.
 - Anchor — ключевая фраза статьи-цели, не «здесь» / «по ссылке».
 - **Формат внутренних ссылок (строго):** `href="/articles/{category}/{slug}"` — c полным префиксом `/articles/{cat}/`, БЕЗ `.html` и БЕЗ trailing slash. Примеры: `/articles/fiz/bankrotstvo-pensionera` ✅, `/bankrotstvo-pensionera` ❌ (404), `/articles/fiz/bankrotstvo-pensionera.html` ❌ (301-редирект), `/articles/yur/kak-zakryt-ooo-s-dolgami/` ❌ (404). Канонический URL статьи виден в её `<link rel="canonical">` — внутренняя ссылка должна совпадать.
+- Контроль: `tools/internal_links_check.py` встроен в `quality_gate` (шаг 5.5). Автофиксит `.html`, trailing slash и короткие ссылки `/{slug}`. Если slug отсутствует в `published_index.json` — hard-блок `broken_internal_links`.
 
 ### 7. Антипереоптимизация (Баден-Баден)
 

@@ -40,7 +40,7 @@ if hasattr(sys.stdout, "reconfigure"):
     except Exception:
         pass
 
-from tools import ai_markers_check, anti_template_check, autofix, quality_checks, rhythm_check
+from tools import ai_markers_check, anti_template_check, autofix, internal_links_check, quality_checks, rhythm_check
 
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
@@ -80,6 +80,7 @@ class GateResult:
     anti_template: dict | None = None
     law_quotes: dict | None = None
     rhythm: dict | None = None
+    internal_links: dict | None = None
     recommendations: list[str] = field(default_factory=list)
     retry_count: int = 1  # сколько раз gate был запущен по этой статье (1 = первый раз)
     # Прогнозы text.ru (локальные эвристики, для бота)
@@ -354,6 +355,39 @@ def _run(path: Path, iteration_override: int | None = None) -> GateResult:
         result.recommendations.append(
             f"reduce_law_quotes: суммарно цитат закона ≤ {LAW_QUOTE_CHARS_MAX} знаков. "
             "Заменить избыточные цитаты на пересказ ('по 127-ФЗ', 'согласно ст. X')."
+        )
+
+    # 5.5. Внутренние ссылки: автофикс .html / trailing slash / коротких ссылок,
+    # затем hard-блок если остались error_* (slug не найден ни в одной категории).
+    # Решает баг 12 мая 2026: Я.Вебмастер показал 404 и 301 из-за ссылок типа
+    # /bankrotstvo-pensionera (без префикса), /articles/yur/foo.html, /articles/yur/foo/.
+    il_slug_to_cat = internal_links_check._load_valid_slugs()
+    il_rep = internal_links_check.analyze_file(path, il_slug_to_cat, apply_fix=True)
+    result.internal_links = {
+        "total_hrefs": il_rep.total_hrefs,
+        "ok": il_rep.ok,
+        "whitelisted": il_rep.whitelisted,
+        "external": il_rep.external,
+        "fixed": il_rep.fixed,
+        "errors": il_rep.errors,
+        "changed": il_rep.changed,
+        "fix_details": [asdict(x) for x in il_rep.fix_details],
+        "error_details": [asdict(x) for x in il_rep.error_details],
+    }
+    if il_rep.fixed > 0:
+        examples = [f"{x.href}→{x.fixed_href}" for x in il_rep.fix_details[:3]]
+        result.warnings.append(
+            f"internal_links_autofixed: {il_rep.fixed} ссылок (например {'; '.join(examples)})"
+        )
+    if il_rep.errors > 0:
+        bad = [f"{x.href}: {x.reason}" for x in il_rep.error_details[:3]]
+        result.blockers.append(
+            f"broken_internal_links: {il_rep.errors} ссылок без соответствия в published_index "
+            f"({'; '.join(bad)})"
+        )
+        result.recommendations.append(
+            "fix_internal_links: заменить href на канонический /articles/{cat}/{slug} "
+            "из published_index.json (см. .claude/style/editor-cheatsheet.md секция 6)"
         )
 
     # 6. Ритмический анализ (warning, не блок — без ML-модели мы не воспроизведём
