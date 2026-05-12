@@ -594,7 +594,11 @@
       "frequency_estimate": "medium",
       "rationale": "Родители с детьми боятся банкротства из-за рисков для семьи. Статья закрывает страх, объясняет дополнительные льготы и ведёт к лиду через «оценить ситуацию бесплатно».",
       "expected_length_chars": 7000,
-      "topic_action": "банкротство при наличии детей"
+      "topic_action": "банкротство при наличии детей",
+      "status": "rejected",
+      "rejected_at": "2026-05-13T00:06:30",
+      "rejected_reason": "hang_heartbeat_timeout",
+      "rejected_by": "auto_skip_in_slot"
     },
     {
       "id": "fiz-22",
