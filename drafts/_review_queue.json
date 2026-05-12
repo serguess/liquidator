@@ -135,6 +135,19 @@
         "passed": false,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "bankrotstvo-s-dolgami-po-zhkh",
+      "category": "fiz",
+      "title": "Банкротство с долгами по ЖКХ: списать коммуналку",
+      "added_at": "2026-05-12T10:10:37.307909",
+      "char_count": 7684,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/c_fill,ar_191:100,g_center,f_auto,q_auto,w_1920/v1778358541/articles/bankrotstvo-pri-ipoteke-edinstvennoe-zhilye-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": false,
+        "hard_failed": false
+      }
     }
   ]
 }
