@@ -179,9 +179,12 @@
       "frequency_estimate": "low",
       "rationale": "Свежий тренд цифровизации. Дополнительный трафик из low-частотных длиннохвостых запросов.",
       "expected_length_chars": 7000,
-      "status": "proposed",
+      "status": "rejected",
       "client_notes": "",
-      "topic_action": "подачу электронного заявления о банкротстве"
+      "topic_action": "подачу электронного заявления о банкротстве",
+      "rejected_at": "2026-05-12T20:30:44",
+      "rejected_reason": "hang_heartbeat_timeout",
+      "rejected_by": "auto_skip_in_slot"
     },
     {
       "id": "news-08",
