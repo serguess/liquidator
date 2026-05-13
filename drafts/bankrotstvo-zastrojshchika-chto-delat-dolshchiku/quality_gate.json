@@ -1,0 +1,188 @@
+{
+  "file": "/home/appuser/apps/liquidator/drafts/bankrotstvo-zastrojshchika-chto-delat-dolshchiku/article.html",
+  "passed": true,
+  "hard_failed": false,
+  "blockers": [],
+  "warnings": [
+    "internal_links_autofixed: 4 ссылок (например /articles/yur/priznaki-bankrotstva-yurlica.html→/articles/yur/priznaki-bankrotstva-yurlica; /articles/vzysk/vzyskanie-neustoyki-s-zastrojshchika.html→/articles/vzysk/vzyskanie-neustoyki-s-zastrojshchika; /articles/yur/osparivanie-sdelok-pri-bankrotstve.html→/articles/yur/osparivanie-sdelok-pri-bankrotstve)"
+  ],
+  "autofix": {
+    "file": "/home/appuser/apps/liquidator/drafts/bankrotstvo-zastrojshchika-chto-delat-dolshchiku/article.html",
+    "abbreviation_fixes": {},
+    "punctuation_fixes": 0,
+    "em_dash_fixes": 0,
+    "eng_quotes_fixes": 0,
+    "changed": false,
+    "bytes_before": 41941,
+    "bytes_after": 41941
+  },
+  "quality_checks": {
+    "file": "drafts/bankrotstvo-zastrojshchika-chto-delat-dolshchiku/article.html",
+    "text_chars": 7979,
+    "length_status": "warn",
+    "length_kind": "default",
+    "passed": true,
+    "abbreviation_hits": [],
+    "punctuation_hits": [],
+    "spam": {
+      "total_words": 734,
+      "unique_lemmas": 475,
+      "lexical_diversity": 0.647,
+      "top10_words": [
+        [
+          "эскро",
+          9
+        ],
+        [
+          "момент",
+          8
+        ],
+        [
+          "фонд",
+          7
+        ],
+        [
+          "срок",
+          7
+        ],
+        [
+          "граждан",
+          6
+        ],
+        [
+          "объект",
+          6
+        ],
+        [
+          "банкротств",
+          6
+        ],
+        [
+          "сумм",
+          6
+        ],
+        [
+          "достройк",
+          6
+        ],
+        [
+          "деньг",
+          5
+        ]
+      ],
+      "top10_share": 0.09,
+      "ngram3_repeat_count": 12,
+      "ngram3_total": 732,
+      "ngram3_repeat_share": 0.016,
+      "risk_flags": []
+    }
+  },
+  "ai_markers": {
+    "file": "drafts/bankrotstvo-zastrojshchika-chto-delat-dolshchiku/article.html",
+    "text_chars": 9817,
+    "hits_total": 3,
+    "density_per_1000": 0.31,
+    "by_severity": {
+      "critical": 0,
+      "high": 0,
+      "medium": 0,
+      "low": 3
+    },
+    "own_voice_hits": 1,
+    "first_person_singular_hits": 0,
+    "hits": [
+      {
+        "name": "ИИ-лексика: «взаимодействие/тонкости/нюансы (абстрактно)»",
+        "category": "ai-lexis",
+        "severity": "low",
+        "match": "нюанса",
+        "position": 4853,
+        "context": "...чная цена квадратного метра в регионе × площадь по ДДУ. Два нюанса. Первый. Площадь для расчёта - не более 120 кв.м. на одно л..."
+      },
+      {
+        "name": "ИИ-лексика: «взаимодействие/тонкости/нюансы (абстрактно)»",
+        "category": "ai-lexis",
+        "severity": "low",
+        "match": "Взаимодействие",
+        "position": 9624,
+        "context": "...ение law@pravo.shop Коммерческие предложения biz@pravo.shop Взаимодействие со СМИ pr@pravo.shop © 2018-2026 ООО «ЛИКВИДАТОР». Все прав..."
+      },
+      {
+        "name": "Канцелярит: «в рамках» (без нужды)",
+        "category": "clerical",
+        "severity": "low",
+        "match": "в рамках",
+        "position": 9236,
+        "context": "...ровождение на всех этапах. Надёжность и законность Работаем в рамках ФЗ и действующего законодательства РФ. РЕКВИЗИТЫ ООО «ЛИКВИ..."
+      }
+    ]
+  },
+  "anti_template": {
+    "file": "drafts/bankrotstvo-zastrojshchika-chto-delat-dolshchiku/article.html",
+    "text_chars": 8324,
+    "phrases_loaded": 138,
+    "passed": true,
+    "hits": []
+  },
+  "law_quotes": {
+    "total_chars": 0,
+    "limit": 600,
+    "samples": []
+  },
+  "rhythm": {
+    "file": "drafts/bankrotstvo-zastrojshchika-chto-delat-dolshchiku/article.html",
+    "text_chars": 8324,
+    "sentences_total": 128,
+    "avg_sentence_len": 6.21,
+    "short_sentences_count": 66,
+    "short_sentences_share": 0.516,
+    "long_sentences_count": 0,
+    "parasite_count": 1,
+    "parasite_per_1000": 0.12,
+    "flags": []
+  },
+  "internal_links": {
+    "total_hrefs": 46,
+    "ok": 0,
+    "whitelisted": 21,
+    "external": 18,
+    "fixed": 4,
+    "errors": 0,
+    "changed": true,
+    "fix_details": [
+      {
+        "href": "/articles/yur/priznaki-bankrotstva-yurlica.html",
+        "verdict": "fix_html",
+        "fixed_href": "/articles/yur/priznaki-bankrotstva-yurlica",
+        "reason": "трейлинг .html → 301-редирект"
+      },
+      {
+        "href": "/articles/vzysk/vzyskanie-neustoyki-s-zastrojshchika.html",
+        "verdict": "fix_html",
+        "fixed_href": "/articles/vzysk/vzyskanie-neustoyki-s-zastrojshchika",
+        "reason": "трейлинг .html → 301-редирект"
+      },
+      {
+        "href": "/articles/yur/osparivanie-sdelok-pri-bankrotstve.html",
+        "verdict": "fix_html",
+        "fixed_href": "/articles/yur/osparivanie-sdelok-pri-bankrotstve",
+        "reason": "трейлинг .html → 301-редирект"
+      },
+      {
+        "href": "/articles/yur/bankrotstvo-ooo-poshagovo-2026.html",
+        "verdict": "fix_html",
+        "fixed_href": "/articles/yur/bankrotstvo-ooo-poshagovo-2026",
+        "reason": "трейлинг .html → 301-редирект"
+      }
+    ],
+    "error_details": []
+  },
+  "recommendations": [],
+  "retry_count": 3,
+  "predicted_metrics": {
+    "spam_pct": 50,
+    "ai_pct": 5,
+    "uniqueness_pct": 87
+  },
+  "customer_risks": []
+}

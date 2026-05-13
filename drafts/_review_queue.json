@@ -226,6 +226,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "bankrotstvo-zastrojshchika-chto-delat-dolshchiku",
+      "category": "yur",
+      "title": "Банкротство застройщика: действия дольщика",
+      "added_at": "2026-05-13T05:35:06.985947",
+      "char_count": 7979,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/c_fill,ar_191:100,g_center,f_auto,q_auto,w_1920/v1778419736/articles/okonchanie-ip-po-state-46-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
