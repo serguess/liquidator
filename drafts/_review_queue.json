@@ -317,6 +317,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "osparivanie-sdelok-fizlica-bankrotstvo",
+      "category": "fiz",
+      "title": "Оспаривание сделок физлица в банкротстве: что аннулируют",
+      "added_at": "2026-05-13T17:21:47.711229",
+      "char_count": 7987,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/c_fill,ar_191:100,g_center,f_auto,q_auto,w_1920/v1778261613/articles/skolko-stoit-bankrotstvo-fizicheskogo-lica-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

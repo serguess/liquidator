@@ -1,0 +1,15 @@
+{
+  "slug": "osparivanie-sdelok-fizlica-bankrotstvo",
+  "passed": true,
+  "scores": {
+    "structure_overlap": 0.0,
+    "thesis_similarity": 0.0,
+    "cta_overlap": 0.0
+  },
+  "similar_articles": [],
+  "conflicts": [],
+  "recommendation": "ok",
+  "note": "Статья первая в категории fiz по теме оспаривания сделок. Опубликованные статьи в категории отсутствуют (все 4 статьи категории находятся в черновиках). Структура статьи уникальна, не пересекается с другими. Семантические конфликты не выявлены. Рекомендация: статья готова к следующему этапу (агент 6 - редактура).",
+  "check_timestamp": "2026-05-13T00:00:00Z",
+  "checker_version": "agent-5-uniqueness-v1"
+}
