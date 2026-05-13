@@ -617,7 +617,7 @@
     "ipoteka-posle-bankrotstva-fizlica": {
       "category": "fiz",
       "title": "Ипотека после банкротства физлица: когда одобрят",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -625,10 +625,12 @@
       "tg_message_id": 451,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-13T00:46:08",
-      "last_action_at": "2026-05-13T00:46:08",
+      "last_action_at": "2026-05-13T20:35:56",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null
+      "published_url": "https://pravo.shop/articles/fiz/ipoteka-posle-bankrotstva-fizlica",
+      "published_at": "2026-05-13T20:35:56",
+      "articles_path": "articles/fiz/ipoteka-posle-bankrotstva-fizlica.html"
     },
     "bankrotstvo-pri-nalogovyh-dolgah": {
       "category": "fiz",
@@ -773,7 +775,48 @@
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null
+    },
+    "prednamerennoe-bankrotstvo-ugolovnaya-otvetstvennost": {
+      "category": "yur",
+      "title": "Преднамеренное банкротство директора: ответственность",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 476,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-05-13T20:35:54",
+      "last_action_at": "2026-05-13T20:35:54",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null
     }
   },
-  "pending_actions": []
+  "pending_actions": [
+    {
+      "action": "publish",
+      "slug": "bankrotstvo-pri-nalogovyh-dolgah",
+      "version": "2.0",
+      "chat_id": 144472991,
+      "reply_to_message_id": 452,
+      "queued_at": "2026-05-13T20:22:01"
+    },
+    {
+      "action": "publish",
+      "slug": "bankrotstvo-zastrojshchika-chto-delat-dolshchiku",
+      "version": "2.0",
+      "chat_id": 144472991,
+      "reply_to_message_id": 454,
+      "queued_at": "2026-05-13T20:30:43"
+    },
+    {
+      "action": "publish",
+      "slug": "srok-iskovoj-davnosti-po-kreditu",
+      "version": "2.0",
+      "chat_id": 144472991,
+      "reply_to_message_id": 456,
+      "queued_at": "2026-05-13T20:33:50"
+    }
+  ]
 }

@@ -1,6 +1,19 @@
 {
-  "generated": "2026-05-12",
+  "generated": "2026-05-13",
   "articles": [
+    {
+      "slug": "ipoteka-posle-bankrotstva-fizlica",
+      "cat": "fiz",
+      "catLabel": "Банкротство физических лиц",
+      "title": "Ипотека после банкротства физлица: когда одобрят",
+      "desc": "Через сколько лет после банкротства дают ипотеку, как восстановить кредитную историю и что банк потребует по ст. 213.30 ФЗ-127.",
+      "date": "13 мая 2026",
+      "dateIso": "2026-05-13",
+      "read": "5 мин.",
+      "tone": "b",
+      "img": "https://res.cloudinary.com/dmsaaiwkm/image/upload/c_fill,ar_191:100,g_center,f_auto,q_auto,w_1920/v1778399024/articles/uproshchennoe-bankrotstvo-yurlica-cover.jpg",
+      "url": "articles/fiz/ipoteka-posle-bankrotstva-fizlica"
+    },
     {
       "slug": "isk-o-vzyskanii-dolga-v-sud",
       "cat": "vzysk",
