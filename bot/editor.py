@@ -286,6 +286,12 @@ def apply_edit(*, slug: str, current_version: str, versions: list[str],
     summary = _parse_summary(result_text)
     char_count = _count_html_chars(next_path)
 
+    # Коммитим новую версию в git, чтобы Cloud Apps (сайт pravo.shop)
+    # подхватила её при redeploy. До этого fix-а 13.05.2026 versions/v*.html
+    # оставались untracked на VPS, и превью-роут показывал устаревший v2.0
+    # (кейс: правка про отмену госпошлины 300 руб не доходила до заказчика).
+    _git_publish_new_version(slug, new_version, next_path)
+
     return EditResult(
         success=True,
         new_version=new_version,
@@ -294,3 +300,58 @@ def apply_edit(*, slug: str, current_version: str, versions: list[str],
         char_count=char_count,
         error=None,
     )
+
+
+def _git_publish_new_version(slug: str, version: str, file_path: Path) -> None:
+    """
+    Коммитит новую версию HTML и пушит на origin/main.
+
+    Если git операции падают (auth, network, конфликт со scheduler) —
+    логируем и идём дальше. Правка для заказчицы уже применена локально
+    в drafts/, она увидит «применено» в TG. На следующем scheduler-тике
+    в любом случае пройдёт git pull/rebase и наш необкоммиченный/
+    необпушенный файл подхватится с retry.
+
+    pull --rebase перед push защищает от гонки со scheduler.
+    """
+    rel_path = file_path.relative_to(PROJECT_ROOT).as_posix()
+    msg = f"edit({slug}): apply v{version}"
+
+    def _git(*args: str, timeout: int = 30) -> subprocess.CompletedProcess:
+        return subprocess.run(
+            ["git", *args],
+            cwd=str(PROJECT_ROOT),
+            capture_output=True,
+            text=True,
+            timeout=timeout,
+            check=True,
+        )
+
+    try:
+        _git("add", rel_path)
+        _git("commit", "-m", msg)
+        try:
+            _git("pull", "--rebase", "origin", "main", timeout=60)
+        except subprocess.CalledProcessError as e:
+            log.warning(
+                "Edit git: pull --rebase failed, aborting rebase. stderr=%s",
+                (e.stderr or "")[:300],
+            )
+            subprocess.run(
+                ["git", "rebase", "--abort"],
+                cwd=str(PROJECT_ROOT),
+                capture_output=True,
+                timeout=15,
+            )
+            return
+        _git("push", "origin", "main", timeout=60)
+        log.info("Edit pushed: slug=%s version=%s commit=%r", slug, version, msg)
+    except subprocess.CalledProcessError as e:
+        log.error(
+            "Edit git publish failed (slug=%s v=%s): %s | stderr=%s",
+            slug, version, e, (e.stderr or "")[:500],
+        )
+    except subprocess.TimeoutExpired as e:
+        log.error("Edit git publish timeout (slug=%s v=%s): %s", slug, version, e)
+    except OSError as e:
+        log.error("Edit git publish OS error: %s", e)
