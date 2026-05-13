@@ -13,15 +13,11 @@ argument-hint: <category>
 - Дублировать slug-и, которые есть в подпапках `drafts/{slug}/` (это статьи в работе).
 - Писать саму статью. Только бриф темы.
 
-## Heartbeat (обязательно)
+## Heartbeat (необязательно — scheduler сам следит)
 
-В начале работы и перед каждым WebSearch обнови heartbeat-файл:
+Scheduler (`articles_scheduler/runner.py`, `_run_claude_with_heartbeat`) с 13 мая 2026 запускает claude в режиме `--output-format stream-json --verbose` и обновляет `data/.scheduler_heartbeat` на каждое stream-событие (tool_use / tool_result / assistant). Поэтому ручной `date > heartbeat` между шагами больше не нужен — он не вреден, но и не критичен.
 
-```bash
-date -u +"%Y-%m-%dT%H:%M:%S | expand-topics" > data/.scheduler_heartbeat
-```
-
-Без этого scheduler убьёт subprocess через 5 минут «тишины».
+Текущий порог тишины — `HEARTBEAT_TIMEOUT_SEC` (по умолчанию 3600 сек = 60 мин). Если ты делаешь много WebSearch / WebFetch подряд — каждый из них даёт событие, и heartbeat живой.
 
 ## Алгоритм
 

@@ -1686,21 +1686,110 @@ class _HeartbeatTimeout(Exception):
     """Subprocess убит из-за тишины heartbeat дольше HEARTBEAT_TIMEOUT_SEC."""
 
 
+def _inject_stream_json_flags(cmd: list[str]) -> list[str]:
+    """
+    Принудительно переводит `claude --print ...` в режим stream-json.
+
+    Bug A фикс (13 мая 2026): в обычном `--print` claude буферизует stdout —
+    ни одной строки до завершения процесса. _drain-треды висят впустую,
+    streaming-heartbeat не работает, scheduler убивает живые слоты по
+    HEARTBEAT_TIMEOUT_SEC. С `--output-format stream-json --verbose` claude
+    пишет каждое событие (system/assistant/user/result) отдельной JSON-строкой
+    в stdout — heartbeat получает событие каждые 2-30 сек.
+
+    --verbose обязателен для stream-json при --print (требование claude-cli).
+    Если cmd не содержит `--print` или уже есть `--output-format` — не трогаем.
+    """
+    if not cmd or "claude" not in cmd[0]:
+        return cmd
+    if "--print" not in cmd:
+        return cmd
+    if "--output-format" in cmd:
+        return cmd
+    out = list(cmd)
+    idx = out.index("--print")
+    # Вставляем сразу после --print, чтобы не нарушить положение последнего
+    # позиционного аргумента (промпт).
+    out[idx + 1:idx + 1] = ["--output-format", "stream-json", "--verbose"]
+    return out
+
+
+def _parse_stream_json_line(line: str) -> tuple[str, str]:
+    """
+    Разбирает одну строку stream-json от claude --print.
+
+    Возвращает (kind, text):
+    - kind ∈ {"result", "assistant_text", "tool_use", "tool_result", "system", "other", "raw"}
+    - text — человеко-читаемая выжимка (для финального stdout / логов).
+
+    Незнакомые/невалидные JSON-строки возвращаются как ("raw", line).
+    """
+    stripped = line.strip()
+    if not stripped:
+        return ("other", "")
+    if not (stripped.startswith("{") or stripped.startswith("[")):
+        return ("raw", line)
+    try:
+        ev = json.loads(stripped)
+    except (json.JSONDecodeError, ValueError):
+        return ("raw", line)
+    if not isinstance(ev, dict):
+        return ("other", "")
+    et = ev.get("type")
+    if et == "result":
+        # Финальный текст всего запуска — самое важное для stdout_tail.
+        final = ev.get("result")
+        return ("result", str(final or ""))
+    if et == "assistant":
+        msg = ev.get("message") or {}
+        parts: list[str] = []
+        for c in (msg.get("content") or []):
+            if isinstance(c, dict):
+                if c.get("type") == "text":
+                    t = c.get("text") or ""
+                    if t:
+                        parts.append(t)
+                elif c.get("type") == "tool_use":
+                    name = c.get("name") or "?"
+                    parts.append(f"[tool_use:{name}]")
+        return ("assistant_text", "\n".join(parts))
+    if et == "user":
+        msg = ev.get("message") or {}
+        for c in (msg.get("content") or []):
+            if isinstance(c, dict) and c.get("type") == "tool_result":
+                # Текст результата может быть большим — берём короткое превью.
+                content = c.get("content")
+                if isinstance(content, list):
+                    for cc in content:
+                        if isinstance(cc, dict) and cc.get("type") == "text":
+                            t = cc.get("text") or ""
+                            if t:
+                                return ("tool_result", t[:200])
+                elif isinstance(content, str):
+                    return ("tool_result", content[:200])
+        return ("tool_result", "")
+    if et == "system":
+        return ("system", ev.get("subtype") or "")
+    return ("other", "")
+
+
 def _run_claude_with_heartbeat(cmd: list[str], timeout_sec: int | None = None):
     """
     Запускает claude-subprocess в режиме Popen и параллельно следит за
     HEARTBEAT_PATH. Если файл не обновлялся HEARTBEAT_TIMEOUT_SEC секунд —
     убивает процесс раньше общего таймаута.
 
-    **Streaming-heartbeat (май 2026):** scheduler сам обновляет mtime
-    HEARTBEAT_PATH на каждую строку stdout/stderr claude. Это снимает
-    зависимость от того, что claude помнит выполнять `date > heartbeat`
-    между агентами (по факту он часто забывает после агента 1-2). На каждый
-    tool_use / tool_result / text-event от любого подагента приходит хотя
-    бы одна строка → heartbeat живой. Kill срабатывает только когда claude
-    реально молчит >HEARTBEAT_TIMEOUT_SEC секунд (rate-limit, network drop,
-    deadlock). WebSearch до ~30 мин без stdout переживёт благодаря timeout
-    1800с дефолту.
+    **Streaming-heartbeat через stream-json (Bug A фикс, 13 мая 2026):**
+    cmd принудительно дополняется `--output-format stream-json --verbose`.
+    В этом режиме claude построчно пишет JSON-события (system / assistant /
+    user / result) в stdout — каждое событие обновляет heartbeat. Без
+    stream-json (обычный --print) stdout буферизуется до завершения процесса
+    и heartbeat не обновляется → scheduler ошибочно убивает живые слоты.
+
+    Финальный `result.stdout` собирается из текстовых частей: финальный
+    `result`-event + все assistant-text сообщения (для обратной совместимости
+    с downstream-логикой — `_is_quota_failure`, stdout_tail в логе). Метрика
+    числа событий и тулов кладётся в `result.stream_stats` для диагностики.
 
     timeout_sec: общий таймаут попытки. Если None — используется глобальный
     ARTICLE_TIMEOUT_SEC. В retry-loop передаём остаток slot-бюджета (чтобы
@@ -1713,6 +1802,9 @@ def _run_claude_with_heartbeat(cmd: list[str], timeout_sec: int | None = None):
     if effective_timeout <= 0:
         # Защита от вызова с уже истёкшим бюджетом.
         raise subprocess.TimeoutExpired(cmd, 0, "", "[scheduler] timeout_sec <= 0 at start")
+
+    cmd = _inject_stream_json_flags(cmd)
+
     proc = subprocess.Popen(
         cmd,
         cwd=str(ROOT),
@@ -1728,20 +1820,51 @@ def _run_claude_with_heartbeat(cmd: list[str], timeout_sec: int | None = None):
     hard_killed = False
 
     # Фоновые треды читают stdout/stderr построчно, накапливают в буфер
-    # и на каждой строке делают touch heartbeat. Без этого Popen PIPE
-    # буферизует на уровне ядра до communicate() в конце — и stdout
-    # claude недоступен пока он не завершится. С тредами получаем live stream.
-    stdout_buf: list[str] = []
+    # и на каждой строке делают touch heartbeat. С stream-json каждый
+    # tool_use / tool_result / assistant-text приходит отдельной JSON-строкой
+    # → heartbeat живой.
+    text_buf: list[str] = []  # человеко-читаемая выжимка для result.stdout
+    final_result_text = [""]  # из последнего "result"-event (берём именно его как stdout)
     stderr_buf: list[str] = []
+    stream_stats = {"events": 0, "assistant": 0, "tool_use": 0, "tool_result": 0, "raw": 0}
 
-    def _drain(stream, buf: list[str]):
+    def _drain_stdout(stream):
         try:
             for line in iter(stream.readline, ''):
                 if not line:
                     break
-                buf.append(line)
-                # touch вместо write_text — атомарно обновляет mtime без
-                # перезаписи содержимого (само значение нам неважно, важен mtime)
+                try:
+                    HEARTBEAT_PATH.touch()
+                except OSError:
+                    pass
+                stream_stats["events"] += 1
+                kind, text = _parse_stream_json_line(line)
+                if kind == "result":
+                    final_result_text[0] = text
+                elif kind == "assistant_text":
+                    stream_stats["assistant"] += 1
+                    if text:
+                        text_buf.append(text)
+                elif kind == "tool_use":
+                    stream_stats["tool_use"] += 1
+                elif kind == "tool_result":
+                    stream_stats["tool_result"] += 1
+                elif kind == "raw":
+                    # Не JSON — кладём как есть (вдруг flag не сработал).
+                    stream_stats["raw"] += 1
+                    text_buf.append(line.rstrip("\n"))
+        finally:
+            try:
+                stream.close()
+            except Exception:
+                pass
+
+    def _drain_stderr(stream):
+        try:
+            for line in iter(stream.readline, ''):
+                if not line:
+                    break
+                stderr_buf.append(line)
                 try:
                     HEARTBEAT_PATH.touch()
                 except OSError:
@@ -1752,8 +1875,8 @@ def _run_claude_with_heartbeat(cmd: list[str], timeout_sec: int | None = None):
             except Exception:
                 pass
 
-    t_out = threading.Thread(target=_drain, args=(proc.stdout, stdout_buf), daemon=True)
-    t_err = threading.Thread(target=_drain, args=(proc.stderr, stderr_buf), daemon=True)
+    t_out = threading.Thread(target=_drain_stdout, args=(proc.stdout,), daemon=True)
+    t_err = threading.Thread(target=_drain_stderr, args=(proc.stderr,), daemon=True)
     t_out.start()
     t_err.start()
 
@@ -1769,8 +1892,11 @@ def _run_claude_with_heartbeat(cmd: list[str], timeout_sec: int | None = None):
             age = now - HEARTBEAT_PATH.stat().st_mtime
             if age > HEARTBEAT_TIMEOUT_SEC:
                 log.error(
-                    "Heartbeat молчит %.0f сек (>%ds), убиваю claude-subprocess",
+                    "Heartbeat молчит %.0f сек (>%ds), убиваю claude-subprocess "
+                    "(stream events=%d assistant=%d tool_use=%d tool_result=%d raw=%d)",
                     age, HEARTBEAT_TIMEOUT_SEC,
+                    stream_stats["events"], stream_stats["assistant"],
+                    stream_stats["tool_use"], stream_stats["tool_result"], stream_stats["raw"],
                 )
                 proc.kill()
                 heartbeat_killed = True
@@ -1779,7 +1905,15 @@ def _run_claude_with_heartbeat(cmd: list[str], timeout_sec: int | None = None):
     # Дожидаемся drain-тредов (не больше 10 сек — после kill PIPE закрываются)
     t_out.join(timeout=10)
     t_err.join(timeout=10)
-    stdout = "".join(stdout_buf)
+
+    # Финальный stdout: предпочитаем result-event (это финальный текст всего
+    # запуска), иначе склейка всех assistant-text. Это сохраняет совместимость
+    # с downstream — _is_quota_failure ищет "rate limit" и т.п. в финальном
+    # тексте, который в обоих режимах будет содержать соответствующую фразу.
+    if final_result_text[0]:
+        stdout = final_result_text[0]
+    else:
+        stdout = "\n".join(text_buf)
     stderr = "".join(stderr_buf)
 
     if hard_killed:
@@ -1790,11 +1924,20 @@ def _run_claude_with_heartbeat(cmd: list[str], timeout_sec: int | None = None):
     r = _Result()
     r.stdout = stdout
     r.stderr = stderr
+    r.stream_stats = dict(stream_stats)
     if heartbeat_killed:
         r.returncode = -1
-        r.stderr += f"\n[scheduler] killed by heartbeat timeout (>{HEARTBEAT_TIMEOUT_SEC}s of silence)"
+        r.stderr += (
+            f"\n[scheduler] killed by heartbeat timeout (>{HEARTBEAT_TIMEOUT_SEC}s of silence) "
+            f"stream_stats={stream_stats}"
+        )
     else:
         r.returncode = proc.returncode
+    log.info(
+        "claude finished rc=%s events=%d assistant=%d tool_use=%d tool_result=%d raw=%d",
+        r.returncode, stream_stats["events"], stream_stats["assistant"],
+        stream_stats["tool_use"], stream_stats["tool_result"], stream_stats["raw"],
+    )
     return r
 
 
