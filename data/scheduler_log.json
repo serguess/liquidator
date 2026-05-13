@@ -1348,5 +1348,59 @@
     "stdout_tail": "",
     "stderr_tail": "\n[scheduler] hit slot/article timeout after 1255s",
     "metrics": null
+  },
+  {
+    "timestamp": "2026-05-13T05:00:10",
+    "category": "yur",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 1,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "yur-13",
+    "topic_slug": "bankrotstvo-zastrojshchika-chto-delat-dolshchiku",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "internal_links_autofixed: 4 ссылок (например /articles/yur/priznaki-bankrotstva-yurlica.html→/articles/yur/priznaki-bankrotstva-yurlica; /articles/vzysk/vzyskanie-neustoyki-s-zastrojshchika.html→/articles/vzysk/vzyskanie-neustoyki-s-zastrojshchika; /articles/yur/osparivanie-sdelok-pri-bankrotstve.html→/articles/yur/osparivanie-sdelok-pri-bankrotstve)"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "bankrotstvo-zastrojshchika-chto-delat-dolshchiku",
+    "duration_sec": 2109.5,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "|\n| Длина | 7979 знаков |\n| Уникальность (embeddings) | passed (thesis similarity 0.05) |\n| Factcheck | passed |\n| Quality gate | passed, 0 блокеров |\n| Файл | `drafts/bankrotstvo-zastrojshchika-chto-delat-dolshchiku/article.html` |\n| Статус | `ready_for_review=true`, добавлен в очередь ревью |\n\n**Прогнозные метрики (text.ru):**\n- `predicted_spam`: 50%\n- `predicted_ai`: 5%\n- `predicted_uniqueness`: 87%\n\nОбложка: fallback (fal_client не установлен), использована существующая обложка из каталога.\n",
+    "stderr_tail": "",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7979
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]
