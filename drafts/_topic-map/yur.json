@@ -321,7 +321,11 @@
       "expected_length_chars": 7000,
       "topic_action": "взыскание долга через банкротство",
       "title_length": 56,
-      "description_length": 158
+      "description_length": 158,
+      "status": "rejected",
+      "rejected_at": "2026-05-13T04:45:24",
+      "rejected_reason": "hang_total_timeout",
+      "rejected_by": "auto_skip_in_slot"
     },
     {
       "id": "yur-13",
