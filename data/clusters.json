@@ -1306,6 +1306,27 @@
       "articles": [
         "prednamerennoe-bankrotstvo-ugolovnaya-otvetstvennost"
       ]
+    },
+    {
+      "id": "news-vs-currency-debt-bankruptcy",
+      "category": "news",
+      "subtopic": "валютный долг в банкротстве: курс на дату введения процедуры",
+      "intent": "informational",
+      "funnel_stage": "warm",
+      "main_keyword": "валютный долг в банкротстве курс на какую дату",
+      "related_keywords": [
+        "пересчёт валютного требования в банкротстве",
+        "валютный долг реестр кредиторов",
+        "курс ЦБ на дату введения процедуры банкротства",
+        "включение валютного долга в реестр",
+        "иностранная валюта банкротство рубли",
+        "дата конвертации валюты банкротство",
+        "валютная оговорка банкротство",
+        "требование в валюте арбитражный суд"
+      ],
+      "articles": [
+        "valyutnyj-dolg-v-bankrotstve-na-kakuyu-datu"
+      ]
     }
   ]
 }

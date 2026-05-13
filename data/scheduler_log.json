@@ -1819,5 +1819,61 @@
     "stdout_tail": "You've hit your limit · resets 8pm (Europe/Moscow)",
     "stderr_tail": "",
     "metrics": null
+  },
+  {
+    "timestamp": "2026-05-13T20:00:22",
+    "category": "yur",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 3,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "yur-16",
+    "topic_slug": "prednamerennoe-bankrotstvo-ugolovnaya-otvetstvennost",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "Автофикс применил правки: сокращения=0, пунктуация=0",
+        "length_soft_passed: 8118 > 8000 но ≤ 8500 и iteration=5 — пропускаем (приоритет spam/uniqueness/ai)",
+        "spam_soft_passed: ratio-флаги мягкие при iter=5, targeted_tokens чистые → пропускаем (spam ≈48-52% по прогнозу)"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "prednamerennoe-bankrotstvo-ugolovnaya-otvetstvennost",
+    "duration_sec": 1924.2,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": " vs чего не делать» директору\n- **Factcheck:** passed\n- **Quality gate:** passed (exit 0), 0 hard-блокеров\n- **Обложка:** fallback (fal_client не установлен), взята из опубликованных статей\n- **Статус:** `ready_for_review: true`, добавлена в очередь ревью (26 items)\n- **Файл:** `drafts/prednamerennoe-bankrotstvo-ugolovnaya-otvetstvennost/article.html`\n\nМетрики text.ru (`textru_ai_detector`, `textru_uniqueness`, `textru_spam`) — `null`, анализ не запускался (внешний сервис, запускается отдельно).",
+    "stderr_tail": "",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 8118
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]

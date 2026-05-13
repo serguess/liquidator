@@ -1,0 +1,25 @@
+{
+  "slug": "valyutnyj-dolg-v-bankrotstve-na-kakuyu-datu",
+  "passed": true,
+  "scores": {
+    "structure_overlap": 0.0,
+    "thesis_similarity": 0.038,
+    "cta_overlap": 0.0
+  },
+  "thresholds": {
+    "structure_overlap": 0.40,
+    "thesis_similarity": 0.30,
+    "cta_overlap": 0.20
+  },
+  "similar_articles": [
+    {
+      "slug": "sudebnaya-praktika-edinstvennoe-zhilye-2026",
+      "category": "news",
+      "similarity": 0.038
+    }
+  ],
+  "conflicts": [],
+  "recommendation": "ok",
+  "comparable_articles": 4,
+  "note": "Структура полностью уникальна. Тезисы имеют минимальное пересечение (3.8%) только с одной статьей (судебная практика 2026). CTA-формулировки уникальны. Статья прошла все пороги антишаблонности и готова к редактуре агентом 6."
+}
