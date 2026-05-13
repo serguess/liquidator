@@ -97,10 +97,24 @@ class SpamHeuristics:
     lexical_diversity: float
     top10_words: list[tuple[str, int]]
     top10_share: float
+    top1_count: int  # абсолютное число вхождений самой частой леммы (cap 12)
+    top3_sum: int    # сумма топ-3 лемм (cap 30)
+    top10_sum: int   # сумма топ-10 лемм (cap 80)
     ngram3_repeat_count: int
     ngram3_total: int
     ngram3_repeat_share: float
     risk_flags: list[str]
+
+
+@dataclass
+class TargetedTokenHit:
+    """Конкретные токены, которые text.ru стабильно подсвечивает как заспам:
+    «ст», «РФ», «руб», «ООО», «000 руб». Лимиты эмпирические из реальных
+    скринов text.ru (13 мая 2026, статьи с spam 56-60%)."""
+    token: str
+    count: int
+    limit: int
+    over_limit: bool
 
 
 # === 4. Длина статьи (hard-блокер) ===
@@ -143,6 +157,9 @@ class Report:
     abbreviation_hits: list[AbbreviationHit] = field(default_factory=list)
     punctuation_hits: list[PunctuationHit] = field(default_factory=list)
     spam: SpamHeuristics | None = None
+    targeted_tokens: list[TargetedTokenHit] = field(default_factory=list)
+    author_markers_count: int = 0
+    author_markers_min: int = 2  # минимум 2 авторские вставки на статью
 
     @property
     def passed(self) -> bool:
@@ -151,6 +168,10 @@ class Report:
         if self.abbreviation_hits or self.punctuation_hits:
             return False
         if self.spam and len(self.spam.risk_flags) >= 1:
+            return False
+        if any(h.over_limit for h in self.targeted_tokens):
+            return False
+        if self.author_markers_count < self.author_markers_min:
             return False
         return True
 
@@ -272,7 +293,10 @@ def compute_spam_heuristics(text: str) -> SpamHeuristics:
     lexical_diversity = round(unique_lemmas / total_words, 3)
 
     top10 = counter.most_common(10)
-    top10_share = round(sum(c for _, c in top10) / total_words, 3)
+    top10_sum = sum(c for _, c in top10)
+    top10_share = round(top10_sum / total_words, 3)
+    top1_count = top10[0][1] if top10 else 0
+    top3_sum = sum(c for _, c in top10[:3])
 
     # 3-граммы строим из исходных слов (не лемм), чтобы повтор был именно повтором.
     lower_words = [w.lower() for w in words]
@@ -282,26 +306,36 @@ def compute_spam_heuristics(text: str) -> SpamHeuristics:
     total_ngrams = len(ngrams) if ngrams else 1
     ngram3_repeat_share = round(repeats / total_ngrams, 3)
 
-    # Пороги под целевую заспамленность text.ru ≤ 50% и уникальность ≥ 85%
-    # (фактический KPI заказчика, 8 мая 2026 - изменён с <40% на ≤50%, чтобы
-    # пайплайн сходился за 2-3 итерации, а не 10+).
-    # Калибровка по реальным замерам text.ru:
-    #   - 0.164 top10 + 2.9% ngram3 → text.ru spam 58 (старая статья)
-    #   - 0.110 top10 + 1.8% ngram3 + 0.62 div → text.ru spam 52
-    #   - 0.105 top10 + 3.0% ngram3 + 0.62 div → text.ru spam ≈50 (новый коридор)
-    #   - цель ≤50% спама ≈ top10 ≤ 0.105, ngram3 ≤ 0.030, lex.div ≥ 0.62
+    # Пороги под целевую заспамленность text.ru ≤ 50% (KPI заказчика).
     #
-    # 8 мая 2026: пороги ослаблены с (0.085 / 0.025 / 0.65) до (0.105 / 0.030 / 0.62)
-    # после изменения KPI с <40% на ≤50%. Старая калибровка под <40% заставляла
-    # writer крутить 5-10 итераций - метрики физически не сходились на 7-8к знаков
-    # с плотной legal-терминологией.
+    # Калибровка (13 мая 2026, после анализа реальных скринов text.ru):
+    # ratio-метрики (top10/ngram3/lex_div) — ОСЛАБЛЕНЫ до коридора 48-50% spam.
+    # Жёсткий контроль перенесён на АБСОЛЮТНЫЕ счётчики и целевые токены —
+    # они стабильнее в окрестности target и не зависят от длины статьи.
+    #
+    # Старые пороги (top10≤0.105 / ngram3≤0.030 / lex_div≥0.62) калибровались
+    # под <40% spam и заставляли writer крутить 5-16 итераций - метрики
+    # физически не сходились на 7-8к знаков с плотной legal-терминологией.
+    #
+    # Новый подход: смотрим в первую очередь на абсолютные cap'ы и токены.
+    # Ratio-флаги работают как мягкий бэкап.
     risk_flags = []
-    if top10_share > 0.105:
-        risk_flags.append(f"top10_share>{0.105} (={top10_share})")
-    if ngram3_repeat_share > 0.030:
-        risk_flags.append(f"ngram3_repeat_share>{0.030} (={ngram3_repeat_share})")
-    if lexical_diversity < 0.62:
-        risk_flags.append(f"lexical_diversity<{0.62} (={lexical_diversity})")
+
+    # Абсолютные cap'ы (не зависят от длины — урезание filler'а их не двигает)
+    if top1_count > 12:
+        risk_flags.append(f"top1_count>{12} (={top1_count}, лемма «{top10[0][0]}»)")
+    if top3_sum > 30:
+        risk_flags.append(f"top3_sum>{30} (={top3_sum})")
+    if top10_sum > 80:
+        risk_flags.append(f"top10_sum>{80} (={top10_sum})")
+
+    # Ratio-флаги — мягкий бэкап под коридор 48-50% spam
+    if top10_share > 0.115:
+        risk_flags.append(f"top10_share>{0.115} (={top10_share})")
+    if ngram3_repeat_share > 0.035:
+        risk_flags.append(f"ngram3_repeat_share>{0.035} (={ngram3_repeat_share})")
+    if lexical_diversity < 0.58:
+        risk_flags.append(f"lexical_diversity<{0.58} (={lexical_diversity})")
 
     return SpamHeuristics(
         total_words=total_words,
@@ -309,6 +343,9 @@ def compute_spam_heuristics(text: str) -> SpamHeuristics:
         lexical_diversity=lexical_diversity,
         top10_words=top10,
         top10_share=top10_share,
+        top1_count=top1_count,
+        top3_sum=top3_sum,
+        top10_sum=top10_sum,
         ngram3_repeat_count=repeats,
         ngram3_total=total_ngrams,
         ngram3_repeat_share=ngram3_repeat_share,
@@ -316,11 +353,83 @@ def compute_spam_heuristics(text: str) -> SpamHeuristics:
     )
 
 
+# === Целевые токены — главные виновники text.ru spam (из анализа 13 мая 2026) ===
+# Лимиты эмпирические из реальных скринов text.ru:
+# - «ст» × 26 (плохая статья 56%) vs 0 (эталон 49%)
+# - «РФ» × 27 vs 0
+# - «руб» × 23 vs 0 (эталон использует полное «рублей»)
+# - «ООО» × 24 vs 0
+# Каждое снижение этих токенов на 5-7 даёт ~2% text.ru-spam.
+TARGETED_TOKENS = {
+    "ст_сокращение": {  # «ст. X», «ст N» - короткая форма «статья»
+        "rx": re.compile(r"\bст\.?\s*\d", re.IGNORECASE | re.UNICODE),
+        "limit": 5,
+        "rationale": "сокращение «ст.» накапливается в юр-цитатах. Писать «статья» полным словом, либо описательно через смысл нормы. Cap ≤5 на статью.",
+    },
+    "РФ_рудимент": {  # «РФ» в «ГК РФ», «ГПК РФ», «закон РФ»
+        "rx": re.compile(r"\bРФ\b", re.UNICODE),
+        "limit": 2,
+        "rationale": "«РФ» в «ГК РФ»/«ГПК РФ» — рудимент, дроп без потери смысла. Cap ≤2 на статью.",
+    },
+    "руб_сокращение": {  # «руб.», «руб» как отдельный токен
+        "rx": re.compile(r"\bруб\.?\b", re.IGNORECASE | re.UNICODE),
+        "limit": 0,
+        "rationale": "«руб» — другой токен чем «рублей». Писать только полным словом «рублей»/«рубля». Cap = 0.",
+    },
+    "ООО_бренд": {  # «ООО» в авторском тексте (не в footer/aside)
+        "rx": re.compile(r"\bООО\b", re.UNICODE),
+        "limit": 3,
+        "rationale": "«ООО» накапливается из бренд-боилерплейта и упоминаний категории. В авторском тексте писать «юридическое лицо» или «компания». Cap ≤3.",
+    },
+    "000руб_паттерн": {  # «X 000 руб» — главный n-gram повторов сумм
+        "rx": re.compile(r"\b\d+\s*000\s*руб", re.IGNORECASE | re.UNICODE),
+        "limit": 2,
+        "rationale": "Шаблон «X 000 руб» (100 000 руб / 300 000 руб) — повторяющийся n-gram. Использовать полное «рублей» + некруглые суммы (82 400, 147 500). Cap ≤2 (для статутных порогов).",
+    },
+}
+
+
+def check_targeted_tokens(text: str) -> list[TargetedTokenHit]:
+    """Считает целевые токены, которые text.ru стабильно ловит как заспам."""
+    hits = []
+    for name, cfg in TARGETED_TOKENS.items():
+        count = len(cfg["rx"].findall(text))
+        hits.append(TargetedTokenHit(
+            token=name,
+            count=count,
+            limit=cfg["limit"],
+            over_limit=count > cfg["limit"],
+        ))
+    return hits
+
+
+# === Авторские вставки бренда (обязательны для AI-detector ≤ 5%) ===
+# Эмпирика: статьи с 0% AI имеют 2× «по нашему опыту»/«в нашей практике».
+# Статьи с 7-19% AI — 0 раз. Это сильнейший человеческий маркер.
+AUTHOR_MARKER_RX = re.compile(
+    r"\b(?:"
+    r"по\s+нашему\s+опыту|"
+    r"в\s+нашей\s+практике|"
+    r"мы\s+(?:считаем|видим|понимаем|думаем|знаем|сталкивались|наблюдаем)|"
+    r"на\s+нашей\s+практике|"
+    r"наши\s+клиенты"
+    r")\b",
+    re.IGNORECASE | re.UNICODE,
+)
+
+
+def count_author_markers(text: str) -> int:
+    """Считает упоминания «мы»/«наш опыт» — обязательно ≥2 для бренд-голоса."""
+    return len(AUTHOR_MARKER_RX.findall(text))
+
+
 def predict_textru_metrics(
     spam: SpamHeuristics | None,
     ai_density_per_1000: float,
     ai_critical_count: int,
     anti_template_hits_count: int,
+    targeted_token_hits: list[TargetedTokenHit] | None = None,
+    author_markers_count: int = 0,
 ) -> dict:
     """
     Прогноз метрик text.ru на основе локальных эвристик.
@@ -338,7 +447,12 @@ def predict_textru_metrics(
     if spam is None:
         return {"spam_pct": 50, "ai_pct": 10, "uniqueness_pct": 85}
 
-    # === Заспам (главный предиктор: lex_div) ===
+    # === Заспам (главный предиктор: lex_div + targeted tokens) ===
+    # Калибровка по реальным данным:
+    #   - 0.633 lex_div + 25 «ст» + 27 «РФ» + 23 «руб» → spam 56% (isk, скрин 13 мая)
+    #   - 0.62 lex_div, чистые токены → spam ~49% (эталон)
+    #   - 0.70 lex_div, чистые токены → spam ~42%
+    # Логика: ratio-метрики дают «базу», targeted-токены добавляют сверху.
     lex_div = spam.lexical_diversity
     if lex_div >= 0.73:
         spam_pct = 38
@@ -347,32 +461,48 @@ def predict_textru_metrics(
     elif lex_div >= 0.65:
         spam_pct = 47
     elif lex_div >= 0.62:
-        spam_pct = 50
+        spam_pct = 49
     elif lex_div >= 0.59:
-        spam_pct = 55
+        spam_pct = 53
     else:
-        spam_pct = 62
-    # Доп-корректировка если top10/ngram3 тоже над порогом
-    if spam.top10_share > 0.105:
-        spam_pct += 3
-    if spam.ngram3_repeat_share > 0.030:
+        spam_pct = 58
+    # Добавки от ratio-метрик за пределами коридора 48-50%
+    if spam.top10_share > 0.115:
+        spam_pct += 2
+    if spam.ngram3_repeat_share > 0.035:
         spam_pct += 2
 
-    # === AI-detector (density семантических маркеров) ===
+    # Targeted-tokens — эмпирическая калибровка по скрину 13 мая:
+    # plохая статья 56% spam имела ст=25 (over 5 на 20), РФ=27 (over 2 на 25),
+    # руб=23 (over 0 на 23), X000руб=20 (over 2 на 18). Суммарно ~86 «лишних».
+    # Эталон 49% spam: все 0. Разница 7 п.п. = 86 лишних / 12 = ~7.
+    # Формула: +1% за каждые 12 «лишних» токенов.
+    if targeted_token_hits:
+        over = sum(max(0, h.count - h.limit) for h in targeted_token_hits)
+        spam_pct += min(15, over // 12)  # cap +15% максимум
+
+    # === AI-detector (density маркеров + author_markers) ===
+    # Эмпирика 13 мая 2026: главный anti-AI маркер — author_markers («мы», «по нашему опыту»).
+    # 0 author_markers → AI 10-19%; 2+ author_markers → AI 0-3%.
     if ai_critical_count > 0:
         ai_pct = 35  # критические маркеры (длинные тире, эмодзи, «я») = ChatGPT-стиль
     elif ai_density_per_1000 >= 2.5:
-        ai_pct = 25
+        ai_pct = 22
     elif ai_density_per_1000 >= 2.0:
-        ai_pct = 18
+        ai_pct = 16
     elif ai_density_per_1000 >= 1.5:
-        ai_pct = 14
+        ai_pct = 12
     elif ai_density_per_1000 >= 1.0:
-        ai_pct = 10
+        ai_pct = 8
     elif ai_density_per_1000 >= 0.5:
-        ai_pct = 7
-    else:
         ai_pct = 5
+    else:
+        ai_pct = 3
+    # Без author_markers AI растёт на 5-10%
+    if author_markers_count == 0:
+        ai_pct += 8
+    elif author_markers_count == 1:
+        ai_pct += 3
 
     # === Уникальность (anti-template hits + lex_div) ===
     if anti_template_hits_count == 0 and lex_div >= 0.65:
@@ -508,6 +638,8 @@ def analyze(file_path: Path) -> Report:
         abbreviation_hits=check_abbreviations(text),
         punctuation_hits=check_punctuation(text),
         spam=spam,
+        targeted_tokens=check_targeted_tokens(text),
+        author_markers_count=count_author_markers(text),
     )
 
 
@@ -521,6 +653,9 @@ def to_dict(rep: Report) -> dict:
         "abbreviation_hits": [asdict(h) for h in rep.abbreviation_hits],
         "punctuation_hits": [asdict(h) for h in rep.punctuation_hits],
         "spam": asdict(rep.spam) if rep.spam else None,
+        "targeted_tokens": [asdict(h) for h in rep.targeted_tokens],
+        "author_markers_count": rep.author_markers_count,
+        "author_markers_min": rep.author_markers_min,
     }
 
 
@@ -561,16 +696,34 @@ def print_report(rep: Report) -> None:
 
     if rep.spam:
         s = rep.spam
-        print(f"\nЭвристика заспамленности:")
+        print(f"\nЭвристика заспамленности (под KPI text.ru ≤50%):")
         print(f"  Всего слов (без стоп-слов): {s.total_words}")
         print(f"  Уникальных лемм: {s.unique_lemmas}")
-        print(f"  Лексическое разнообразие: {s.lexical_diversity} (цель ≥0.62)")
-        print(f"  Топ-10 слов суммарно: {s.top10_share * 100:.1f}% (цель ≤10.5%)")
-        print(f"  Повторы 3-граммов: {s.ngram3_repeat_share * 100:.1f}% (цель ≤3.0%)")
+        print(f"  Лексическое разнообразие: {s.lexical_diversity} (цель ≥0.58)")
+        print(f"  Топ-1 лемма: {s.top1_count} вхождений (cap ≤12)")
+        print(f"  Топ-3 в сумме: {s.top3_sum} (cap ≤30)")
+        print(f"  Топ-10 в сумме: {s.top10_sum} (cap ≤80)")
+        print(f"  Топ-10 доля: {s.top10_share * 100:.1f}% (цель ≤11.5%)")
+        print(f"  Повторы 3-граммов: {s.ngram3_repeat_share * 100:.1f}% (цель ≤3.5%)")
         print(f"  Топ-5 частотных лемм: {s.top10_words[:5]}")
         if s.risk_flags:
             print(f"  [RISK] Превышены пороги: {s.risk_flags}")
             print(f"  [FAIL] Возврат на писателя: снизить плотность повторов.")
+
+    if rep.targeted_tokens:
+        print(f"\nЦелевые токены (главные виновники text.ru spam):")
+        for h in rep.targeted_tokens:
+            status = "[FAIL]" if h.over_limit else "[OK]"
+            print(f"  {status} {h.token}: {h.count} (cap ≤{h.limit})")
+        problem = [h for h in rep.targeted_tokens if h.over_limit]
+        if problem:
+            print(f"  → Снизить: {', '.join(h.token for h in problem)}")
+
+    print(f"\nАвторские вставки (мы считаем / по нашему опыту):")
+    if rep.author_markers_count >= rep.author_markers_min:
+        print(f"  [OK] {rep.author_markers_count} ≥ {rep.author_markers_min}")
+    else:
+        print(f"  [FAIL] {rep.author_markers_count} < {rep.author_markers_min} — добавить хотя бы 2 «мы считаем/по нашему опыту/в нашей практике»")
 
 
 def collect_targets(path: Path) -> list[Path]:

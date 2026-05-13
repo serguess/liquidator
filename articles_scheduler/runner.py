@@ -715,7 +715,7 @@ def _safe_pipeline_log(slug: str | None, agent: str, event: str, **fields) -> No
         log.debug("pipeline_log failed: %s", exc)
 
 
-def _find_failed_qa_for_retry(max_iterations: int = 5) -> str | None:
+def _find_failed_qa_for_retry(max_iterations: int = 3) -> str | None:
     """
     Ищет статью failed_qa, которую можно дорабатывать (а не брать новую тему).
 
@@ -1898,7 +1898,7 @@ def run_one_article() -> dict:
     forced_cat = (os.getenv("FORCE_CATEGORY") or "").strip().lower()
     forced_cat = forced_cat if forced_cat in VALID_CATEGORIES else ""
 
-    retry_slug = _find_failed_qa_for_retry(max_iterations=5)
+    retry_slug = _find_failed_qa_for_retry(max_iterations=3)
     if retry_slug:
         retry_meta = _read_meta(retry_slug)
         retry_cat = retry_meta.get("category")

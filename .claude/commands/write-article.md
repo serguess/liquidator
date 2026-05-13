@@ -63,8 +63,8 @@ slug ещё неизвестен на агенте 1 до создания brief
 2. Запусти агента `2-legal-research` с slug. Дождись `drafts/{slug}/research.json`.
 3. Запусти агента `3-architect`. **Перед запуском найди `prev_article_outline`**: возьми последний по mtime файл `drafts/*/outline.json` или `articles/{category}/*` той же категории, что текущая (если есть) — извлеки структуру блоков (имена H2, порядок, `cta_final.text`) и передай архитектору в prompt как `prev_article_outline`. Архитектор обязан отстроиться по структуре от этой статьи. Дождись `drafts/{slug}/outline.json`.
 4. Запусти агента `4-writer`. Дождись `drafts/{slug}/draft.md`.
-5. Запусти агента `5-uniqueness`. Если `passed: false` - возврат на агента 4 с указанием `recommendation` (одна или несколько меток). Максимум 5 итераций, после - в `drafts/_review/`. **При возврате обязательно** залогируй `iteration_returned` (см. блок «Pipeline-логирование»), чтобы scheduler видел причину.
-6. Запусти агента `6-seo-editor`. Дождись `drafts/{slug}/body.html` + `meta.json`. Агент 6 САМ пишет body.html (только содержание с placeholder-комментариями BP:CTA-*, BP:DISCLAIMER) и заполняет meta.json (title, description, h1, lead, topic_action, faq и т.д.). HTML-каркас не пишет. Если `factcheck_passed: false` - возврат на агента 4 (логируй `iteration_returned`).
+5. Запусти агента `5-uniqueness`. Если `passed: false` - возврат на агента 4 с указанием `recommendation`. **Максимум 1 итерация возврата здесь** (раньше было 5). После — продолжай к агенту 6, gate финально решит. **При возврате обязательно** залогируй `iteration_returned`.
+6. Запусти агента `6-seo-editor`. Дождись `drafts/{slug}/body.html` + `meta.json`. Агент 6 САМ пишет body.html и заполняет meta.json. Если `factcheck_passed: false` - возврат на агента 4 (**максимум 1 итерация здесь**, логируй `iteration_returned`).
 6a. **Сборка финального article.html (детерминированно):**
     ```
     python -m tools.inject_boilerplate drafts/{slug}/ --body body.html --out article.html
@@ -73,13 +73,18 @@ slug ещё неизвестен на агенте 1 до создания brief
     - 1 — отсутствуют обязательные поля meta.json (slug, category, title, description, h1, topic_action) — возврат на агента 6 с пометкой какие поля дозаполнить.
     - 2 — нет body.html — возврат на агента 6, что-то пошло не так.
     Идеально агент 6 сам зовёт этот скрипт в финале своей работы — тогда мы экономим один re-invocation.
-7. **Обязательный шаг: quality_gate.** Запусти `python -m tools.quality_gate drafts/{slug}/article.html --json --save-report`. Если exit ≠ 0 - читай `drafts/{slug}/quality_gate.json`, поле `recommendations`, и возвращай на агента 4 с конкретной пометкой. Максимум **5 итераций** возврата. После пятой - в `drafts/_review/`. **quality_gate сам пишет своё событие в pipeline_log через scheduler — отдельно логировать не нужно**.
+7. **Обязательный шаг: quality_gate.** Запусти `python -m tools.quality_gate drafts/{slug}/article.html --json --save-report`. Если exit ≠ 0 — читай `drafts/{slug}/quality_gate.json`, поле `recommendations`, и возвращай на агента 4 с конкретной пометкой. **Максимум 1 итерация возврата** (раньше было 5). На 3-й итерации writer'а (учитывая возвраты от 5/6) gate сам делает **forced_pass с `metrics_warning=true`** — статья всё равно идёт в TG-очередь.
 
-   **Приоритет блокеров (зафиксировано в `quality_gate.py`):**
-   - **Hard на любой итерации:** `spam_risk`, `anti_template_phrases`, `ai_markers_critical`, `ai_markers_density`, `ai_markers_high`, `first_person_singular`, `law_quotes_too_long`, `abbreviations_after_autofix`, `punctuation_after_autofix`. Эти блокеры всегда возвращают на агента 4.
-   - **Soft с iteration ≥ 2:** `length_too_long` автоматически конвертируется в warning, **если text_chars ≤ 9000 (default) / 8000 (news) и других блокеров нет**. Это значит: если writer уже один раз правил и пофиксил спам/уник/AI, длину сверх 8000 (но ≤ 9000) пропускаем без новой итерации. Логика в самом gate (`SOFT_LENGTH_MAX`), отдельно делать ничего не нужно.
+   **Глобальный cap итераций writer'а = 3** (изменено 13 мая 2026 с 5). Это сумма всех возвратов: от агента 5 + от агента 6 + от quality_gate.
 
-   **Счётчик итераций** хранится в `quality_gate.json:retry_count` — gate инкрементирует его при каждом запуске. Можно принудительно задать через `--iteration N`.
+   **Приоритет блокеров (после 13 мая 2026):**
+   - **Hard на любой итерации:** `targeted_tokens_over_limit` (ст/РФ/руб/ООО/X000руб), `author_markers_missing`, `too_few_short_sentences`, `too_many_long_sentences`, `anti_template_phrases`, `ai_markers_critical`, `ai_markers_density`, `ai_markers_high`, `first_person_singular`, `law_quotes_too_long`, `abbreviations_after_autofix`, `punctuation_after_autofix`.
+   - **Soft с iteration ≥ 2:**
+     - `length_too_long` → warning, если text_chars ≤ 8500 (default) / 7500 (news).
+     - `spam_risk` → warning, если все 3 ratio-метрики в коридоре (top1≤14, top10≤0.120, ngram3≤0.040, lex_div≥0.55) И targeted_tokens чистые.
+   - **Force-pass на iter=3:** все оставшиеся блокеры пропускаются, в meta.json пишется `metrics_warning=true` + `metrics_warning_blockers`. Статья идёт в очередь.
+
+   **Счётчик итераций** хранится в `quality_gate.json:retry_count` — gate инкрементирует его при каждом запуске.
 8. Запусти агента `7-publisher`. С 8 мая 2026 он делает только одно: подбирает английскую scene-строку под смысл статьи и пишет её в `drafts/{slug}/scene.txt`. Всё. Ни meta.json, ни картинок, ни очереди ревью он не трогает.
 
 9. **Финализация драфта (детерминированно):**

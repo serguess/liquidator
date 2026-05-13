@@ -46,9 +46,12 @@ from tools import ai_markers_check, anti_template_check, autofix, internal_links
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 
 # Пороги, при превышении которых блокируем коммит.
-AI_MARKERS_DENSITY_MAX = 2.0  # маркеров на 1000 знаков
+# 13 мая 2026: ужесточены под KPI AI-detector ≤7% (раньше ≤10%):
+# - density 2.0 → 1.2 (за 0% AI у эталона density ~0.4)
+# - high 8 → 6
+AI_MARKERS_DENSITY_MAX = 1.2  # маркеров на 1000 знаков
 AI_MARKERS_CRITICAL_MAX = 0   # critical-маркеры запрещены полностью
-AI_MARKERS_HIGH_MAX = 8       # high-маркеры — допустимо до 8 на статью
+AI_MARKERS_HIGH_MAX = 6       # high-маркеры — допустимо до 6 на статью
 
 # Лимит на длину прямых цитат закона (в blockquote).
 # Заказчик: одна из причин уникальности 48% — большие цитаты норм,
@@ -57,14 +60,34 @@ LAW_QUOTE_CHARS_MAX = 600
 
 # Soft-потолок длины: после первой итерации правок length_too_long перестаёт
 # быть hard-блоком (становится warning), пока text_chars не превышает SOFT_LENGTH_MAX.
-# Логика: главный приоритет — заспамленность/уникальность/AI. Если на 2+ итерации
-# писатель пофиксил спам, но не уложился в 8000 — пропускаем, иначе бесконечный цикл.
-# Цель: < 9000 default, < 8000 news (длиннее всё равно блок).
-SOFT_LENGTH_MAX = {"default": 9000, "news": 8000}
+# 13 мая 2026: 9000→8500, 8000→7500 — анализ скринов text.ru показал, что
+# статьи > 8000 знаков стабильно дают AI score 7-19%. Hard cap 8500
+# означает «никогда не публикуем длиннее».
+SOFT_LENGTH_MAX = {"default": 8500, "news": 7500}
 
-# Hard-cap итераций writer-цикла. После 5-го failed-gate статья уходит в _review/
-# для ручного разбора (см. runner.py:_find_failed_qa_for_retry).
-MAX_RETRY_COUNT = 5
+# Hard-cap итераций writer-цикла.
+# 13 мая 2026: 5→3. Анализ retry_count показал что статьи делали 11-16 итераций
+# (агенты 5/6/7 каждый имели свой лимит 5, итого до 15). Глобальный cap 3.
+# На 3-й итерации — форсированный pass с metrics_warning=true, статья
+# уходит в TG-очередь без блокировки слота.
+MAX_RETRY_COUNT = 3
+
+# Минимум авторских вставок («мы считаем», «по нашему опыту», «в нашей практике»)
+# на статью. Эмпирика 13 мая: статьи с 0% AI имели по 2 вставки,
+# статьи с 7-19% AI имели 0 вставок. Это сильнейший anti-AI маркер.
+AUTHOR_MARKERS_MIN = 2
+
+# Минимум коротких предложений ≤5 слов. Эмпирика 13 мая 2026:
+# - GOOD 0% AI: 10-21 коротких предложений
+# - BAD 7-19% AI: 4-17 коротких предложений
+# Cap ≥12 ставится с запасом — гарантирует «рваный ритм» которого нет у ChatGPT.
+SHORT_SENTENCES_MIN_ABSOLUTE = 12
+
+# Максимум длинных предложений >20 слов. Эмпирика:
+# - GOOD 0% AI: 5-8 длинных
+# - BAD 10.7% AI: 12 длинных
+# Cap ≤9 ловит «гладкий ChatGPT-стиль».
+LONG_SENTENCES_MAX_ABSOLUTE = 9
 
 
 @dataclass
@@ -292,6 +315,58 @@ def _run(path: Path, iteration_override: int | None = None) -> GateResult:
             f"reduce_repetition: разбавить топ-5 частотных лемм местоимениями/перифразом — {top5}"
         )
 
+    # Целевые токены (главные виновники text.ru spam из анализа 13 мая 2026):
+    # «ст», «РФ», «руб», «ООО», «X 000 руб». Совпадение с подсветками text.ru
+    # 1-в-1 (ст×25, РФ×27, руб×23 в плохой статье 56%).
+    over_token_hits = [h for h in qc_rep.targeted_tokens if h.over_limit]
+    if over_token_hits:
+        details = ", ".join(f"{h.token}={h.count}(>≤{h.limit})" for h in over_token_hits)
+        result.blockers.append(f"targeted_tokens_over_limit: {details}")
+        # Конкретные recommendation per token
+        for h in over_token_hits:
+            if h.token == "ст_сокращение":
+                result.recommendations.append(
+                    f"reduce_ст: «ст. X» × {h.count} → cap {h.limit}. Писать «статья X» полным словом, "
+                    "либо описательно («по правилу о процентах», «норма об исковой давности»). "
+                    "Cap 3 юр-цитаты на статью, остальное — пересказом."
+                )
+            elif h.token == "РФ_рудимент":
+                result.recommendations.append(
+                    f"reduce_РФ: «РФ» × {h.count} → cap {h.limit}. Удалить из «ГК РФ»/«ГПК РФ» — "
+                    "просто «ГК»/«ГПК» (контекст однозначный). Один раз в первом упоминании можно полное название."
+                )
+            elif h.token == "руб_сокращение":
+                result.recommendations.append(
+                    f"reduce_руб: «руб» × {h.count} → cap {h.limit}. Только полное «рублей»/«рубля». "
+                    "В контексте суммы единица иногда опускается: «долг 82 400» вместо «долг 82 400 рублей»."
+                )
+            elif h.token == "ООО_бренд":
+                result.recommendations.append(
+                    f"reduce_ООО: «ООО» × {h.count} → cap {h.limit}. В авторском тексте «юридическое лицо» / "
+                    "«компания» / «организация». «ООО» только в конкретных кейсах из research.json."
+                )
+            elif h.token == "000руб_паттерн":
+                result.recommendations.append(
+                    f"reduce_round_sums: «X 000 руб» × {h.count} → cap {h.limit}. "
+                    "Иллюстративные суммы — некруглые (82 400, 147 500). Статутные пороги (300 000, 500 000) — "
+                    "1 раз в точной форме + дальше через дескриптор («эта планка», «новый минимум»)."
+                )
+
+    # Авторские вставки бренда (минимум 2 для AI-detector ≤7%).
+    # Эмпирика 13 мая 2026: 0% AI статьи fiz/yur/vzysk имеют по 2 вставки,
+    # 7-19% AI — 0. Для news достаточно ≥1 (фактический жанр, меньше «мы»).
+    required_markers = 1 if qc_rep.length_kind == "news" else AUTHOR_MARKERS_MIN
+    if qc_rep.author_markers_count < required_markers:
+        result.blockers.append(
+            f"author_markers_missing: {qc_rep.author_markers_count} < {required_markers}"
+            + (" (news)" if qc_rep.length_kind == "news" else "")
+        )
+        result.recommendations.append(
+            f"add_author_markers: добавить минимум {required_markers - qc_rep.author_markers_count} "
+            "вставок «по нашему опыту» / «в нашей практике» / «мы считаем» / «мы видим». "
+            "Это главный anti-AI маркер — без него text.ru показывает AI 7-19%."
+        )
+
     # 3. AI-маркеры
     am_rep = ai_markers_check.analyze(path)
     result.ai_markers = ai_markers_check.to_dict(am_rep)
@@ -390,11 +465,37 @@ def _run(path: Path, iteration_override: int | None = None) -> GateResult:
             "из published_index.json (см. .claude/style/editor-cheatsheet.md секция 6)"
         )
 
-    # 6. Ритмический анализ (warning, не блок — без ML-модели мы не воспроизведём
-    # text.ru AI-detector точно, но грубые случаи «гладкого ChatGPT-ритма» ловим).
-    # При warnings — рекомендация anti-AI rewrite pass.
+    # 6. Ритмический анализ + абсолютные cap'ы коротких/длинных (hard).
+    # 13 мая 2026: эмпирика показала прямую корреляцию длинных/коротких с AI score:
+    # - 0% AI: 10-21 коротких, 5-8 длинных
+    # - 7-19% AI: 4-17 коротких, 6-12 длинных
     rh_rep = rhythm_check.analyze(path)
     result.rhythm = rhythm_check.to_dict(rh_rep)
+
+    # Абсолютные cap'ы — hard блокеры
+    short_n = getattr(rh_rep, "short_sentences_count", 0) or 0
+    long_n = getattr(rh_rep, "long_sentences_count", 0) or 0
+
+    if short_n < SHORT_SENTENCES_MIN_ABSOLUTE:
+        result.blockers.append(
+            f"too_few_short_sentences: {short_n} < {SHORT_SENTENCES_MIN_ABSOLUTE}"
+        )
+        result.recommendations.append(
+            f"add_short_sentences: добавить минимум {SHORT_SENTENCES_MIN_ABSOLUTE - short_n} "
+            "коротких предложений (≤5 слов). Главный anti-AI маркер: «Главное.», «Защита не включается.», "
+            "«6 месяцев, иногда 8.». Разбивать длинные предложения на 2-3 коротких."
+        )
+    if long_n > LONG_SENTENCES_MAX_ABSOLUTE:
+        result.blockers.append(
+            f"too_many_long_sentences: {long_n} > {LONG_SENTENCES_MAX_ABSOLUTE}"
+        )
+        result.recommendations.append(
+            f"reduce_long_sentences: предложений >20 слов = {long_n}, cap {LONG_SENTENCES_MAX_ABSOLUTE}. "
+            "Разбить {long_n - LONG_SENTENCES_MAX_ABSOLUTE}+ длинных на 2-3 коротких. "
+            "ChatGPT любит длинные — text.ru это ловит как AI."
+        )
+
+    # Старое soft-предупреждение про ритм оставляем как warning (не hard)
     if not rh_rep.passed:
         result.warnings.append(
             f"rhythm_too_smooth: {len(rh_rep.flags)} флагов гладкости — "
@@ -410,8 +511,6 @@ def _run(path: Path, iteration_override: int | None = None) -> GateResult:
     # 7. Soft-length после первой итерации правок.
     # Заказчик (май 2026): главный приоритет — spam/uniqueness/ai_markers (hard).
     # Длина — soft после iteration ≥ 2, пока текст не выше SOFT_LENGTH_MAX.
-    # Логика: если writer уже один раз правил и попал в спам/уник, тратить циклы
-    # на дополнительное сокращение длины не нужно — это раздувает цикл.
     if result.retry_count >= 2:
         soft_max = SOFT_LENGTH_MAX.get(qc_rep.length_kind, SOFT_LENGTH_MAX["default"])
         if (qc_rep.length_status == "too_long"
@@ -427,9 +526,53 @@ def _run(path: Path, iteration_override: int | None = None) -> GateResult:
                     f"но ≤ {soft_max} и iteration={result.retry_count} — пропускаем "
                     f"(приоритет spam/uniqueness/ai)"
                 )
-                # Чистим reduce_length из recommendations — не отправляем писателя
-                # править длину если других блокеров нет.
                 result.recommendations = [r for r in result.recommendations if not r.startswith("reduce_length")]
+
+    # 7.5. Soft-pass на spam_risk при iter≥2 если все метрики в коридоре
+    # (top1≤14, top10_share≤0.12, ngram3≤0.04, lex_div≥0.55) и нет targeted_tokens.
+    # Логика: на 2-й итерации не возвращать writer'а ради ratio-метрик, если
+    # абсолютные cap'ы и токены в порядке. Иначе цикл стремится к перфекционизму.
+    if result.retry_count >= 2 and qc_rep.spam:
+        in_corridor = (
+            qc_rep.spam.top1_count <= 14
+            and qc_rep.spam.top10_share <= 0.120
+            and qc_rep.spam.ngram3_repeat_share <= 0.040
+            and qc_rep.spam.lexical_diversity >= 0.55
+        )
+        no_targeted = not any(h.over_limit for h in qc_rep.targeted_tokens)
+        if in_corridor and no_targeted:
+            spam_blockers = [b for b in result.blockers if b.startswith("spam_risk")]
+            if spam_blockers:
+                result.blockers = [b for b in result.blockers if not b.startswith("spam_risk")]
+                result.warnings.append(
+                    f"spam_soft_passed: ratio-флаги мягкие при iter={result.retry_count}, "
+                    f"targeted_tokens чистые → пропускаем (spam ≈48-52% по прогнозу)"
+                )
+                result.recommendations = [r for r in result.recommendations if not r.startswith("reduce_repetition")]
+
+    # 7.7. Force-pass на iter=MAX_RETRY_COUNT.
+    # Логика: если на 3-й итерации writer всё ещё провалил блокеры — статья
+    # отправляется в TG-очередь заказчику с пометкой metrics_warning=true.
+    # Слот не теряется, заказчик решает (опубликовать / отклонить / правки).
+    # Старое поведение «уходит в _review/» отменено по запросу 13 мая 2026.
+    if result.retry_count >= MAX_RETRY_COUNT and result.blockers:
+        forced_blockers = list(result.blockers)
+        result.blockers = []
+        result.warnings.append(
+            f"forced_pass_at_iter{MAX_RETRY_COUNT}: блокеры пропущены, "
+            f"статья идёт в TG-очередь с metrics_warning=true. "
+            f"Было: {len(forced_blockers)} блокеров — {'; '.join(b.split(':')[0] for b in forced_blockers)}"
+        )
+        # Записываем флаг в meta.json (читается ботом)
+        try:
+            meta_path = path.parent / "meta.json"
+            if meta_path.exists():
+                meta = json.loads(meta_path.read_text(encoding="utf-8"))
+                meta["metrics_warning"] = True
+                meta["metrics_warning_blockers"] = forced_blockers
+                meta_path.write_text(json.dumps(meta, ensure_ascii=False, indent=2), encoding="utf-8")
+        except Exception:
+            pass
 
     # 8. Прогноз text.ru-метрик и риски на языке заказчика
     # text.ru API не подключён, поэтому считаем оценочный прогноз (±5-7%)
@@ -440,6 +583,8 @@ def _run(path: Path, iteration_override: int | None = None) -> GateResult:
         ai_density_per_1000=am_rep.density_per_1000,
         ai_critical_count=am_rep.by_severity.get("critical", 0),
         anti_template_hits_count=at_hits_count,
+        targeted_token_hits=qc_rep.targeted_tokens,
+        author_markers_count=qc_rep.author_markers_count,
     )
     result.predicted_metrics = predictions
     result.customer_risks = _generate_customer_risks(
