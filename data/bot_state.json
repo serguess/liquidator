@@ -690,22 +690,29 @@
       "category": "fiz",
       "title": "Банкротство безработного — можно ли без работы",
       "status": "pending_review",
-      "current_version": "2.0",
+      "current_version": "2.1",
       "versions": [
-        "2.0"
+        "2.0",
+        "2.1"
       ],
       "tg_message_id": 459,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-13T08:53:11",
-      "last_action_at": "2026-05-13T08:53:11",
-      "edits_history": [],
+      "last_action_at": "2026-05-13T20:40:56",
+      "edits_history": [
+        {
+          "version": "2.1",
+          "edit_text": "В данной статье нужно поменять информацию о госпошлине 300 рублей, найти изменения, внесенные в законодательство при подаче заявления от должника госпошлина не оплачивается. Внеси изменения на этот счет и пришли измененную статью.",
+          "applied_at": "2026-05-13T20:40:56"
+        }
+      ],
       "rejection_reason": null,
       "published_url": null
     },
     "zhaloba-na-arbitrazhnogo-upravljayushchego": {
       "category": "yur",
       "title": "Жалоба на арбитражного управляющего: основания и порядок",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -713,10 +720,12 @@
       "tg_message_id": 461,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-13T10:34:12",
-      "last_action_at": "2026-05-13T10:34:12",
+      "last_action_at": "2026-05-13T21:45:05",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null
+      "published_url": "https://pravo.shop/articles/yur/zhaloba-na-arbitrazhnogo-upravljayushchego",
+      "published_at": "2026-05-13T21:45:05",
+      "articles_path": "articles/yur/zhaloba-na-arbitrazhnogo-upravljayushchego.html"
     },
     "kassacionnaya-zhaloba-na-sudebnyj-prikaz": {
       "category": "vzysk",
@@ -799,5 +808,46 @@
       "published_url": null
     }
   },
-  "pending_actions": []
+  "pending_actions": [
+    {
+      "action": "publish",
+      "slug": "kassacionnaya-zhaloba-na-sudebnyj-prikaz",
+      "version": "2.0",
+      "chat_id": 144472991,
+      "reply_to_message_id": 462,
+      "queued_at": "2026-05-13T20:52:02"
+    },
+    {
+      "action": "publish",
+      "slug": "alimenty-pri-bankrotstve-fizlica",
+      "version": "2.0",
+      "chat_id": 144472991,
+      "reply_to_message_id": 464,
+      "queued_at": "2026-05-13T20:57:11"
+    },
+    {
+      "action": "publish",
+      "slug": "ispolnitelnyj-list-poluchenie-predyavlenie",
+      "version": "2.0",
+      "chat_id": 144472991,
+      "reply_to_message_id": 466,
+      "queued_at": "2026-05-13T20:59:42"
+    },
+    {
+      "action": "publish",
+      "slug": "osparivanie-sdelok-fizlica-bankrotstvo",
+      "version": "2.0",
+      "chat_id": 144472991,
+      "reply_to_message_id": 468,
+      "queued_at": "2026-05-13T21:02:00"
+    },
+    {
+      "action": "publish",
+      "slug": "prednamerennoe-bankrotstvo-ugolovnaya-otvetstvennost",
+      "version": "2.0",
+      "chat_id": 144472991,
+      "reply_to_message_id": 475,
+      "queued_at": "2026-05-13T21:10:33"
+    }
+  ]
 }
