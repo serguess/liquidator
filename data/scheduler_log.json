@@ -1457,5 +1457,60 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-05-13T08:20:18",
+    "category": "fiz",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 3,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "fiz-24",
+    "topic_slug": "bankrotstvo-bezrabotnogo-fizlica",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "Автофикс применил правки: сокращения=0, пунктуация=0",
+        "internal_links_autofixed: 4 ссылок (например /articles/fiz/vnesudebnoe-bankrotstvo-cherez-mfc-2026.html→/articles/fiz/vnesudebnoe-bankrotstvo-cherez-mfc-2026; /articles/vzysk/okonchanie-ip-po-state-46.html→/articles/vzysk/okonchanie-ip-po-state-46; /articles/fiz/skolko-stoit-bankrotstvo-fizicheskogo-lica.html→/articles/fiz/skolko-stoit-bankrotstvo-fizicheskogo-lica)"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "bankrotstvo-bezrabotnogo-fizlica",
+    "duration_sec": 1778.1,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "е 10 фактов из research.json использованы)\n- **Quality gate:** passed, блокеров нет (2 low AI-маркера — в шаблонном футере, не в тексте)\n- **Обложка:** fallback (fal-client не установлен), взята от vnesudebnoe-bankrotstvo-cherez-mfc-2026\n- **Готовность:** `ready_for_review = true`, статья добавлена в очередь ревью\n\n**Метрики из meta.json (text.ru прогноз из quality_gate):**\n- `spam_pct`: 47%\n- `ai_pct`: 5%\n- `uniqueness_pct`: 90%\n\n**Файл:** `drafts/bankrotstvo-bezrabotnogo-fizlica/article.html`\n",
+    "stderr_tail": "",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7785
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]

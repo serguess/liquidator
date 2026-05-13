@@ -265,6 +265,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "zhaloba-na-arbitrazhnogo-upravljayushchego",
+      "category": "yur",
+      "title": "Жалоба на арбитражного управляющего: основания и порядок",
+      "added_at": "2026-05-13T10:30:05.894862",
+      "char_count": 7812,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/c_fill,ar_191:100,g_center,f_auto,q_auto,w_1920/v1778358541/articles/bankrotstvo-pri-ipoteke-edinstvennoe-zhilye-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
