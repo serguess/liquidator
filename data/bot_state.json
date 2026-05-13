@@ -613,6 +613,38 @@
       "published_url": "https://pravo.shop/articles/vzysk/isk-o-vzyskanii-dolga-v-sud",
       "published_at": "2026-05-12T21:33:29",
       "articles_path": "articles/vzysk/isk-o-vzyskanii-dolga-v-sud.html"
+    },
+    "ipoteka-posle-bankrotstva-fizlica": {
+      "category": "fiz",
+      "title": "Ипотека после банкротства физлица: когда одобрят",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 451,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-05-13T00:46:08",
+      "last_action_at": "2026-05-13T00:46:08",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null
+    },
+    "bankrotstvo-pri-nalogovyh-dolgah": {
+      "category": "fiz",
+      "title": "Банкротство при налоговых долгах: спишет ли ФНС",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 453,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-05-13T02:37:09",
+      "last_action_at": "2026-05-13T02:37:09",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null
     }
   },
   "pending_actions": []

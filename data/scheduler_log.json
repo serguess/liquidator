@@ -1242,5 +1242,111 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-05-13T01:40:22",
+    "category": "fiz",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 1,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "fiz-23",
+    "topic_slug": "bankrotstvo-pri-nalogovyh-dolgah",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "Автофикс применил правки: сокращения=0, пунктуация=0",
+        "internal_links_autofixed: 2 ссылок (например /articles/fiz/kogda-dolgi-ne-spishut-pri-bankrotstve.html→/articles/fiz/kogda-dolgi-ne-spishut-pri-bankrotstve; /articles/fiz/vnesudebnoe-bankrotstvo-cherez-mfc-2026.html→/articles/fiz/vnesudebnoe-bankrotstvo-cherez-mfc-2026)"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "bankrotstvo-pri-nalogovyh-dolgah",
+    "duration_sec": 3186.8,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": ")\n- AI-маркеры: только 2 low (в боilerplate, не в тексте) ✓\n- anti_template: passed ✓\n\n**Итерации:** 4 (3 возврата по spam_risk: снижали частотные леммы, 3-граммы повторов в тексте и FAQ)\n\n**Text.ru метрики:** не замерены (замер только через внешний сервис)\n\n**Uniqueness:** passed\n**Factcheck:** passed (все 12 фактов из research.json верифицированы)\n**Режим:** ready_for_review = true, в очереди Telegram-бота\n**Обложка:** fallback (fal-client не установлен), использована обложка из articles.json\n",
+    "stderr_tail": "",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7630
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
+  },
+  {
+    "timestamp": "2026-05-13T03:20:22",
+    "category": "yur",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 2,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "yur-12",
+    "topic_slug": "ocherednost-trebovanij-kreditorov-bankrotstvo",
+    "auto_skipped": [
+      {
+        "slug": "konkursnoe-proizvodstvo-yurlica-poryadok",
+        "reason": "hang_heartbeat_timeout",
+        "duration_sec": 1910.1
+      },
+      {
+        "slug": "vklyuchenie-trebovanij-v-reestr-kreditorov",
+        "reason": "hang_heartbeat_timeout",
+        "duration_sec": 1905.1
+      },
+      {
+        "slug": "ocherednost-trebovanij-kreditorov-bankrotstvo",
+        "reason": "hang_total_timeout",
+        "duration_sec": 1255.1
+      }
+    ],
+    "status": "failed",
+    "slug": "ocherednost-trebovanij-kreditorov-bankrotstvo",
+    "duration_sec": 5102.6,
+    "returncode": -2,
+    "rescued_after_failure": false,
+    "stdout_tail": "",
+    "stderr_tail": "\n[scheduler] hit slot/article timeout after 1255s",
+    "metrics": null
   }
 ]
