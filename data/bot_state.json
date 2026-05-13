@@ -802,7 +802,7 @@
     "prednamerennoe-bankrotstvo-ugolovnaya-otvetstvennost": {
       "category": "yur",
       "title": "Преднамеренное банкротство директора: ответственность",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -810,20 +810,13 @@
       "tg_message_id": 476,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-13T20:35:54",
-      "last_action_at": "2026-05-13T20:35:54",
+      "last_action_at": "2026-05-13T21:46:54",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null
+      "published_url": "https://pravo.shop/articles/yur/prednamerennoe-bankrotstvo-ugolovnaya-otvetstvennost",
+      "published_at": "2026-05-13T21:46:54",
+      "articles_path": "articles/yur/prednamerennoe-bankrotstvo-ugolovnaya-otvetstvennost.html"
     }
   },
-  "pending_actions": [
-    {
-      "action": "publish",
-      "slug": "prednamerennoe-bankrotstvo-ugolovnaya-otvetstvennost",
-      "version": "2.0",
-      "chat_id": 144472991,
-      "reply_to_message_id": 475,
-      "queued_at": "2026-05-13T21:10:33"
-    }
-  ]
+  "pending_actions": []
 }
