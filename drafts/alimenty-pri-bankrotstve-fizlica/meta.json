@@ -1,0 +1,101 @@
+{
+  "slug": "alimenty-pri-bankrotstve-fizlica",
+  "category": "fiz",
+  "title": "Алименты при банкротстве физлица: что будет с долгом",
+  "description": "Долг по алиментам не списывается при банкротстве - он остаётся в первой очереди реестра. Разбираем механику и что делать с хвостом после процедуры.",
+  "h1": "Алименты при банкротстве гражданина: что происходит с долгом",
+  "lead": "Алиментный долг не списывается ни в арбитраже, ни через МФЦ - но банкротство всё равно может снять давление коммерческих кредиторов.",
+  "topic_action": "консультацию по алиментному долгу при банкротстве",
+  "breadcrumb_current": "Алименты при банкротстве физлица",
+  "og_image": "/assets/articles/alimenty-pri-bankrotstve-fizlica.jpg",
+  "main_keyword": "алименты при банкротстве физлица",
+  "secondary_keywords": [
+    "долг по алиментам при банкротстве",
+    "списываются ли алименты при банкротстве",
+    "алименты первая очередь кредиторов",
+    "алименты после банкротства",
+    "что будет с алиментами если муж банкрот",
+    "внесудебное банкротство с долгами по алиментам",
+    "неустойка по алиментам при банкротстве",
+    "взыскание алиментов при банкротстве гражданина"
+  ],
+  "internal_links": [
+    "/kogda-dolgi-ne-spishut-pri-bankrotstve/",
+    "/okonchanie-ip-po-state-46/",
+    "/vnesudebnoe-bankrotstvo-cherez-mfc-2026/",
+    "/udershanie-iz-zarplaty-pristavami/"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/b919efeffaee7c5a42d9c3d755951599d9b55288/",
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/b5c6e730972377ccf31786bc11866c5595ab3528/",
+    "https://www.vsrf.ru/documents/own/27034/"
+  ],
+  "faq": [
+    {
+      "question": "Могут ли приставы продолжать удержания из зарплаты в ходе процедуры?",
+      "answer": "Да. 69.1-я норма закона о приставах: производство по алиментам не приостанавливается при реструктуризации или реализации. Удержания идут параллельно с делом."
+    },
+    {
+      "question": "Сколько от дохода управляющий оставит на детей?",
+      "answer": "Из массы исключается прожиточный минимум на плательщика и каждого иждивенца (213.25 п. 3). Это отдельная защита, а не алименты. Текущие суммы сверх порога управляющий направляет взыскателю первой очередью."
+    },
+    {
+      "question": "Что произойдёт с реестровой частью, если суд откажет в освобождении от обязательств?",
+      "answer": "Сохранится. При отказе по п. 4 статьи 213.28 (недобросовестное поведение) не спишутся и остальные позиции. Алиментный хвост остался бы в любом случае."
+    },
+    {
+      "question": "Чем нотариальное соглашение отличается от судебного приказа?",
+      "answer": "Оба документа дают первоочерёдное место в реестре. Но соглашение с завышенной суммой управляющий вправе оспорить (Пленум ВС № 48). Приказ судьи общей юрисдикции оспорить сложнее: сумма уже прошла судебную оценку."
+    },
+    {
+      "question": "Обязательно ли уведомлять получателя при подаче заявления?",
+      "answer": "Да. Взыскатель - кредитор первой очереди. Управляющий направляет уведомление, либо получатель сам заявляет позицию в установленный срок. Пропуск срока обязанности по содержанию не прекращает."
+    },
+    {
+      "question": "Можно ли снизить размер выплат через банкротство?",
+      "answer": "Нет. Банкротство не служит основанием для пересмотра суммы. Изменить её можно только через суд общей юрисдикции при существенном изменении материального либо семейного положения плательщика (119-я Семейного кодекса)."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все юр-утверждения сверены с research.json: п. 5 ст. 213.28 (ред. 09.04.2026), п. 2 и п. 3 ст. 213.27 (ред. 23.03.2026 ФЗ-62), ст. 213.25 п. 3 (ред. 08.08.2024 ФЗ-298), ст. 69.1 ФЗ-229, ст. 223.2 127-ФЗ, ст. 46 п. 4 ч. 1 и ст. 43 ФЗ-229, ст. 115 СК РФ, ст. 119 СК РФ, ст. 157 УК РФ, п. 11 Пленума ВС № 48 от 25.12.2018. last_verified=2026-05-13, legislation_status=active по всем фактам.",
+    "Числовой пример пени: 200 000 × 0,001 × 365 ≈ 73 000 - корректно.",
+    "Прямые цитаты норм закона в теле отсутствуют (только пересказ), лимит ≤600 знаков соблюдён.",
+    "Внутренние ссылки откорректированы под существующие slug'и published_index: kogda-dolgi-ne-spishut-pri-bankrotstve, okonchanie-ip-po-state-46, vnesudebnoe-bankrotstvo-cherez-mfc-2026, udershanie-iz-zarplaty-pristavami."
+  ],
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "text_chars": 7618,
+  "length_status": "warn",
+  "length_kind": "default",
+  "local_spam_top10_share": 0.107,
+  "local_spam_ngram3_repeat": 0.023,
+  "local_lexical_diversity": 0.603,
+  "local_ai_markers_density": 0.42,
+  "local_ai_markers_total": 4,
+  "local_ai_markers_critical": 0,
+  "local_ai_markers_high": 1,
+  "local_own_voice_hits": 6,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 3,
+  "predicted_spam_pct": 53,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность чуть выше 50% (~53%)"
+  ],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1778520695/articles/cifrovoj-rubl-i-bankrotstvo-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1778520695/articles/cifrovoj-rubl-i-bankrotstvo-cover.jpg",
+  "cover_uploaded_at": "2026-05-13T10:49:21Z",
+  "cover_fallback": true,
+  "cover_fallback_reason": "fal_generate_failed",
+  "date_published": "2026-05-13",
+  "date_modified": "2026-05-13",
+  "ready_for_review": true,
+  "ready_at": "2026-05-13T10:49:21Z",
+  "publication_target": "telegram_review"
+}

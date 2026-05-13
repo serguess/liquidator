@@ -1,0 +1,235 @@
+{
+  "file": "/home/appuser/apps/liquidator/drafts/alimenty-pri-bankrotstve-fizlica/article.html",
+  "passed": true,
+  "hard_failed": false,
+  "blockers": [],
+  "warnings": [
+    "internal_links_autofixed: 4 ссылок (например /kogda-dolgi-ne-spishut-pri-bankrotstve/→/articles/fiz/kogda-dolgi-ne-spishut-pri-bankrotstve; /okonchanie-ip-po-state-46/→/articles/vzysk/okonchanie-ip-po-state-46; /vnesudebnoe-bankrotstvo-cherez-mfc-2026/→/articles/fiz/vnesudebnoe-bankrotstvo-cherez-mfc-2026)"
+  ],
+  "autofix": {
+    "file": "/home/appuser/apps/liquidator/drafts/alimenty-pri-bankrotstve-fizlica/article.html",
+    "abbreviation_fixes": {},
+    "punctuation_fixes": 0,
+    "em_dash_fixes": 0,
+    "eng_quotes_fixes": 0,
+    "changed": false,
+    "bytes_before": 41318,
+    "bytes_after": 41318
+  },
+  "quality_checks": {
+    "file": "drafts/alimenty-pri-bankrotstve-fizlica/article.html",
+    "text_chars": 7618,
+    "length_status": "warn",
+    "length_kind": "default",
+    "passed": true,
+    "abbreviation_hits": [],
+    "punctuation_hits": [],
+    "spam": {
+      "total_words": 698,
+      "unique_lemmas": 421,
+      "lexical_diversity": 0.603,
+      "top10_words": [
+        [
+          "сумм",
+          10
+        ],
+        [
+          "банкротств",
+          9
+        ],
+        [
+          "процедур",
+          8
+        ],
+        [
+          "хвост",
+          8
+        ],
+        [
+          "пристав",
+          7
+        ],
+        [
+          "управляющий",
+          7
+        ],
+        [
+          "плательщик",
+          7
+        ],
+        [
+          "производств",
+          7
+        ],
+        [
+          "закон",
+          6
+        ],
+        [
+          "част",
+          6
+        ]
+      ],
+      "top10_share": 0.107,
+      "top1_count": 10,
+      "top3_sum": 27,
+      "top10_sum": 75,
+      "ngram3_repeat_count": 16,
+      "ngram3_total": 696,
+      "ngram3_repeat_share": 0.023,
+      "risk_flags": []
+    },
+    "targeted_tokens": [
+      {
+        "token": "ст_сокращение",
+        "count": 0,
+        "limit": 5,
+        "over_limit": false
+      },
+      {
+        "token": "РФ_рудимент",
+        "count": 0,
+        "limit": 2,
+        "over_limit": false
+      },
+      {
+        "token": "руб_сокращение",
+        "count": 0,
+        "limit": 0,
+        "over_limit": false
+      },
+      {
+        "token": "ООО_бренд",
+        "count": 0,
+        "limit": 3,
+        "over_limit": false
+      },
+      {
+        "token": "000руб_паттерн",
+        "count": 1,
+        "limit": 2,
+        "over_limit": false
+      }
+    ],
+    "author_markers_count": 6,
+    "author_markers_min": 2
+  },
+  "ai_markers": {
+    "file": "drafts/alimenty-pri-bankrotstve-fizlica/article.html",
+    "text_chars": 9487,
+    "hits_total": 4,
+    "density_per_1000": 0.42,
+    "by_severity": {
+      "critical": 0,
+      "high": 1,
+      "medium": 1,
+      "low": 2
+    },
+    "own_voice_hits": 6,
+    "first_person_singular_hits": 0,
+    "hits": [
+      {
+        "name": "ИИ-лексика: «кроме того»",
+        "category": "ai-lexis",
+        "severity": "medium",
+        "match": " кроме того,",
+        "position": 4079,
+        "context": "...ы, расписки, коммунальную просрочку, недоимки в бюджет. Всё, кроме того, что прямо названо в закрытом перечне. После завершения дела..."
+      },
+      {
+        "name": "ИИ-лексика: «взаимодействие/тонкости/нюансы (абстрактно)»",
+        "category": "ai-lexis",
+        "severity": "low",
+        "match": "Взаимодействие",
+        "position": 9294,
+        "context": "...ение law@pravo.shop Коммерческие предложения biz@pravo.shop Взаимодействие со СМИ pr@pravo.shop © 2018-2026 ООО «ЛИКВИДАТОР». Все прав..."
+      },
+      {
+        "name": "Обёртка: «служит/выступает в роли»",
+        "category": "wrap",
+        "severity": "high",
+        "match": "служит основ",
+        "position": 7637,
+        "context": "...низить размер выплат через банкротство? Нет. Банкротство не служит основанием для пересмотра суммы. Изменить её можно только через с..."
+      },
+      {
+        "name": "Канцелярит: «в рамках» (без нужды)",
+        "category": "clerical",
+        "severity": "low",
+        "match": "в рамках",
+        "position": 8906,
+        "context": "...ровождение на всех этапах. Надёжность и законность Работаем в рамках ФЗ и действующего законодательства РФ. РЕКВИЗИТЫ ООО «ЛИКВИ..."
+      }
+    ]
+  },
+  "anti_template": {
+    "file": "drafts/alimenty-pri-bankrotstve-fizlica/article.html",
+    "text_chars": 7990,
+    "phrases_loaded": 138,
+    "passed": true,
+    "hits": []
+  },
+  "law_quotes": {
+    "total_chars": 0,
+    "limit": 600,
+    "samples": []
+  },
+  "rhythm": {
+    "file": "drafts/alimenty-pri-bankrotstve-fizlica/article.html",
+    "text_chars": 7990,
+    "sentences_total": 110,
+    "avg_sentence_len": 6.97,
+    "short_sentences_count": 48,
+    "short_sentences_share": 0.436,
+    "long_sentences_count": 0,
+    "parasite_count": 1,
+    "parasite_per_1000": 0.13,
+    "flags": []
+  },
+  "internal_links": {
+    "total_hrefs": 41,
+    "ok": 0,
+    "whitelisted": 21,
+    "external": 13,
+    "fixed": 4,
+    "errors": 0,
+    "changed": true,
+    "fix_details": [
+      {
+        "href": "/kogda-dolgi-ne-spishut-pri-bankrotstve/",
+        "verdict": "fix_short",
+        "fixed_href": "/articles/fiz/kogda-dolgi-ne-spishut-pri-bankrotstve",
+        "reason": "короткая ссылка → /articles/fiz/kogda-dolgi-ne-spishut-pri-bankrotstve"
+      },
+      {
+        "href": "/okonchanie-ip-po-state-46/",
+        "verdict": "fix_short",
+        "fixed_href": "/articles/vzysk/okonchanie-ip-po-state-46",
+        "reason": "короткая ссылка → /articles/vzysk/okonchanie-ip-po-state-46"
+      },
+      {
+        "href": "/vnesudebnoe-bankrotstvo-cherez-mfc-2026/",
+        "verdict": "fix_short",
+        "fixed_href": "/articles/fiz/vnesudebnoe-bankrotstvo-cherez-mfc-2026",
+        "reason": "короткая ссылка → /articles/fiz/vnesudebnoe-bankrotstvo-cherez-mfc-2026"
+      },
+      {
+        "href": "/udershanie-iz-zarplaty-pristavami/",
+        "verdict": "fix_short",
+        "fixed_href": "/articles/vzysk/udershanie-iz-zarplaty-pristavami",
+        "reason": "короткая ссылка → /articles/vzysk/udershanie-iz-zarplaty-pristavami"
+      }
+    ],
+    "error_details": []
+  },
+  "recommendations": [],
+  "retry_count": 3,
+  "predicted_metrics": {
+    "spam_pct": 53,
+    "ai_pct": 3,
+    "uniqueness_pct": 87
+  },
+  "customer_risks": [
+    "заспамленность чуть выше 50% (~53%)"
+  ]
+}

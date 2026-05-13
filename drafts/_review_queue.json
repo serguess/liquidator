@@ -291,6 +291,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "alimenty-pri-bankrotstve-fizlica",
+      "category": "fiz",
+      "title": "Алименты при банкротстве физлица: что будет с долгом",
+      "added_at": "2026-05-13T13:49:21.624766",
+      "char_count": 7618,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1778520695/articles/cifrovoj-rubl-i-bankrotstvo-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

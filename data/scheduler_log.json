@@ -1566,5 +1566,60 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-05-13T11:40:22",
+    "category": "vzysk",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": ": 0be4931\nFast-forward\n .claude/commands/expand-topics.md |  10 +-\n articles_scheduler/runner.py      | 240 +++++++++++++++++++++++++++++++-------\n 2 files changed, 204 insertions(+), 46 deletions(-)\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\nApplied autostash.\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 8,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "vzysk-14",
+    "topic_slug": "kassacionnaya-zhaloba-na-sudebnyj-prikaz",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "Автофикс применил правки: сокращения=1, пунктуация=0",
+        "internal_links_autofixed: 2 ссылок (например /articles/vzysk/kak-otmenit-sudebnyj-prikaz.html→/articles/vzysk/kak-otmenit-sudebnyj-prikaz; /articles/vzysk/ispolnitelskij-sbor-kak-osporit.html→/articles/vzysk/ispolnitelskij-sbor-kak-osporit)"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "kassacionnaya-zhaloba-na-sudebnyj-prikaz",
+    "duration_sec": 2380.9,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "влен) |\n| Готов к ревью | yes — добавлен в `_review_queue.json` |\n| Файл | `drafts/kassacionnaya-zhaloba-na-sudebnyj-prikaz/article.html` |\n\n**Метрики text.ru:** не заполнены (запускаются отдельно планировщиком).\n\n**Predicted:** spam ~49%, AI ~3%, uniqueness ~87%.\n\n**Ключевые факты в статье:** госпошлина 5 000 руб. (исправлено с 3 000 в brief), закон от 09.04.2026 (без точного номера — расхождение в источниках), срок 3 месяца (ст. 376.1 ГПК), новый маршрут — президиум суда субъекта вместо КСОЮ.\n",
+    "stderr_tail": "",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7689
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]
