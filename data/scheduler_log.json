@@ -1402,5 +1402,60 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-05-13T06:40:22",
+    "category": "vzysk",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 2,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "vzysk-13",
+    "topic_slug": "srok-iskovoj-davnosti-po-kreditu",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "Автофикс применил правки: сокращения=0, пунктуация=0",
+        "internal_links_autofixed: 2 ссылок (например /articles/vzysk/kak-otmenit-sudebnyj-prikaz.html→/articles/vzysk/kak-otmenit-sudebnyj-prikaz; /articles/vzysk/snyatie-aresta-so-scheta-pristavami.html→/articles/vzysk/snyatie-aresta-so-scheta-pristavami)"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "srok-iskovoj-davnosti-po-kreditu",
+    "duration_sec": 1979.4,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "Quality gate (итог) | passed: true, 0 блокеров |\n| Режим публикации | ready_for_review (Telegram-бот) |\n| Файл | `drafts/srok-iskovoj-davnosti-po-kreditu/article.html` |\n\n**Метрики text.ru:** `textru_ai_detector: n/a`, `textru_uniqueness: n/a`, `textru_spam: n/a` — проверка через text.ru не проводилась (local_only). Предсказанные quality_gate: spam ~50%, AI ~5%, uniqueness ~87%.\n\n**Обложка:** сгенерирована через fallback (fal_client не установлен), использована существующая обложка из каталога.\n",
+    "stderr_tail": "",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7208
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]

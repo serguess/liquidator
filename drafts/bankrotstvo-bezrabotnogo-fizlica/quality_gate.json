@@ -1,0 +1,181 @@
+{
+  "file": "/home/appuser/apps/liquidator/drafts/bankrotstvo-bezrabotnogo-fizlica/article.html",
+  "passed": true,
+  "hard_failed": false,
+  "blockers": [],
+  "warnings": [
+    "Автофикс применил правки: сокращения=0, пунктуация=0",
+    "internal_links_autofixed: 4 ссылок (например /articles/fiz/vnesudebnoe-bankrotstvo-cherez-mfc-2026.html→/articles/fiz/vnesudebnoe-bankrotstvo-cherez-mfc-2026; /articles/vzysk/okonchanie-ip-po-state-46.html→/articles/vzysk/okonchanie-ip-po-state-46; /articles/fiz/skolko-stoit-bankrotstvo-fizicheskogo-lica.html→/articles/fiz/skolko-stoit-bankrotstvo-fizicheskogo-lica)"
+  ],
+  "autofix": {
+    "file": "/home/appuser/apps/liquidator/drafts/bankrotstvo-bezrabotnogo-fizlica/article.html",
+    "abbreviation_fixes": {},
+    "punctuation_fixes": 0,
+    "em_dash_fixes": 28,
+    "eng_quotes_fixes": 0,
+    "changed": true,
+    "bytes_before": 40989,
+    "bytes_after": 40933
+  },
+  "quality_checks": {
+    "file": "drafts/bankrotstvo-bezrabotnogo-fizlica/article.html",
+    "text_chars": 7785,
+    "length_status": "warn",
+    "length_kind": "default",
+    "passed": true,
+    "abbreviation_hits": [],
+    "punctuation_hits": [],
+    "spam": {
+      "total_words": 641,
+      "unique_lemmas": 421,
+      "lexical_diversity": 0.657,
+      "top10_words": [
+        [
+          "долг",
+          10
+        ],
+        [
+          "банкротств",
+          7
+        ],
+        [
+          "закон",
+          7
+        ],
+        [
+          "статус",
+          7
+        ],
+        [
+          "безработн",
+          6
+        ],
+        [
+          "процедур",
+          6
+        ],
+        [
+          "месяц",
+          6
+        ],
+        [
+          "актив",
+          6
+        ],
+        [
+          "официальн",
+          5
+        ],
+        [
+          "работ",
+          5
+        ]
+      ],
+      "top10_share": 0.101,
+      "ngram3_repeat_count": 18,
+      "ngram3_total": 639,
+      "ngram3_repeat_share": 0.028,
+      "risk_flags": []
+    }
+  },
+  "ai_markers": {
+    "file": "drafts/bankrotstvo-bezrabotnogo-fizlica/article.html",
+    "text_chars": 9574,
+    "hits_total": 2,
+    "density_per_1000": 0.21,
+    "by_severity": {
+      "critical": 0,
+      "high": 0,
+      "medium": 0,
+      "low": 2
+    },
+    "own_voice_hits": 2,
+    "first_person_singular_hits": 0,
+    "hits": [
+      {
+        "name": "ИИ-лексика: «взаимодействие/тонкости/нюансы (абстрактно)»",
+        "category": "ai-lexis",
+        "severity": "low",
+        "match": "Взаимодействие",
+        "position": 9381,
+        "context": "...ение law@pravo.shop Коммерческие предложения biz@pravo.shop Взаимодействие со СМИ pr@pravo.shop © 2018-2026 ООО «ЛИКВИДАТОР». Все прав..."
+      },
+      {
+        "name": "Канцелярит: «в рамках» (без нужды)",
+        "category": "clerical",
+        "severity": "low",
+        "match": "в рамках",
+        "position": 8993,
+        "context": "...ровождение на всех этапах. Надёжность и законность Работаем в рамках ФЗ и действующего законодательства РФ. РЕКВИЗИТЫ ООО «ЛИКВИ..."
+      }
+    ]
+  },
+  "anti_template": {
+    "file": "drafts/bankrotstvo-bezrabotnogo-fizlica/article.html",
+    "text_chars": 8052,
+    "phrases_loaded": 138,
+    "passed": true,
+    "hits": []
+  },
+  "law_quotes": {
+    "total_chars": 0,
+    "limit": 600,
+    "samples": []
+  },
+  "rhythm": {
+    "file": "drafts/bankrotstvo-bezrabotnogo-fizlica/article.html",
+    "text_chars": 8052,
+    "sentences_total": 98,
+    "avg_sentence_len": 7.14,
+    "short_sentences_count": 34,
+    "short_sentences_share": 0.347,
+    "long_sentences_count": 0,
+    "parasite_count": 2,
+    "parasite_per_1000": 0.25,
+    "flags": []
+  },
+  "internal_links": {
+    "total_hrefs": 44,
+    "ok": 0,
+    "whitelisted": 21,
+    "external": 16,
+    "fixed": 4,
+    "errors": 0,
+    "changed": true,
+    "fix_details": [
+      {
+        "href": "/articles/fiz/vnesudebnoe-bankrotstvo-cherez-mfc-2026.html",
+        "verdict": "fix_html",
+        "fixed_href": "/articles/fiz/vnesudebnoe-bankrotstvo-cherez-mfc-2026",
+        "reason": "трейлинг .html → 301-редирект"
+      },
+      {
+        "href": "/articles/vzysk/okonchanie-ip-po-state-46.html",
+        "verdict": "fix_html",
+        "fixed_href": "/articles/vzysk/okonchanie-ip-po-state-46",
+        "reason": "трейлинг .html → 301-редирект"
+      },
+      {
+        "href": "/articles/fiz/skolko-stoit-bankrotstvo-fizicheskogo-lica.html",
+        "verdict": "fix_html",
+        "fixed_href": "/articles/fiz/skolko-stoit-bankrotstvo-fizicheskogo-lica",
+        "reason": "трейлинг .html → 301-редирект"
+      },
+      {
+        "href": "/articles/fiz/kogda-dolgi-ne-spishut-pri-bankrotstve.html",
+        "verdict": "fix_html",
+        "fixed_href": "/articles/fiz/kogda-dolgi-ne-spishut-pri-bankrotstve",
+        "reason": "трейлинг .html → 301-редирект"
+      }
+    ],
+    "error_details": []
+  },
+  "recommendations": [],
+  "retry_count": 2,
+  "predicted_metrics": {
+    "spam_pct": 47,
+    "ai_pct": 5,
+    "uniqueness_pct": 90
+  },
+  "customer_risks": []
+}
