@@ -653,7 +653,7 @@
     "bankrotstvo-zastrojshchika-chto-delat-dolshchiku": {
       "category": "yur",
       "title": "Банкротство застройщика: действия дольщика",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -661,10 +661,12 @@
       "tg_message_id": 455,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-13T05:38:10",
-      "last_action_at": "2026-05-13T05:38:10",
+      "last_action_at": "2026-05-13T20:36:41",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null
+      "published_url": "https://pravo.shop/articles/yur/bankrotstvo-zastrojshchika-chto-delat-dolshchiku",
+      "published_at": "2026-05-13T20:36:41",
+      "articles_path": "articles/yur/bankrotstvo-zastrojshchika-chto-delat-dolshchiku.html"
     },
     "srok-iskovoj-davnosti-po-kreditu": {
       "category": "vzysk",
@@ -796,14 +798,6 @@
     }
   },
   "pending_actions": [
-    {
-      "action": "publish",
-      "slug": "bankrotstvo-zastrojshchika-chto-delat-dolshchiku",
-      "version": "2.0",
-      "chat_id": 144472991,
-      "reply_to_message_id": 454,
-      "queued_at": "2026-05-13T20:30:43"
-    },
     {
       "action": "publish",
       "slug": "srok-iskovoj-davnosti-po-kreditu",
