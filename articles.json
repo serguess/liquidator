@@ -2,6 +2,19 @@
   "generated": "2026-05-13",
   "articles": [
     {
+      "slug": "osparivanie-sdelok-fizlica-bankrotstvo",
+      "cat": "fiz",
+      "catLabel": "Банкротство физических лиц",
+      "title": "Оспаривание сделок физлица в банкротстве: что аннулируют",
+      "desc": "Какие сделки оспаривает финансовый управляющий при банкротстве физлица: дарение, продажа ниже рынка, возврат долга родственнику. Сроки, основания.",
+      "date": "13 мая 2026",
+      "dateIso": "2026-05-13",
+      "read": "5 мин.",
+      "tone": "b",
+      "img": "https://res.cloudinary.com/dmsaaiwkm/image/upload/c_fill,ar_191:100,g_center,f_auto,q_auto,w_1920/v1778261613/articles/skolko-stoit-bankrotstvo-fizicheskogo-lica-cover.jpg",
+      "url": "articles/fiz/osparivanie-sdelok-fizlica-bankrotstvo"
+    },
+    {
       "slug": "ispolnitelnyj-list-poluchenie-predyavlenie",
       "cat": "vzysk",
       "catLabel": "Взыскание задолженности",
