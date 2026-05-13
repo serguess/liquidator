@@ -816,6 +816,22 @@
       "published_url": "https://pravo.shop/articles/yur/prednamerennoe-bankrotstvo-ugolovnaya-otvetstvennost",
       "published_at": "2026-05-13T21:46:54",
       "articles_path": "articles/yur/prednamerennoe-bankrotstvo-ugolovnaya-otvetstvennost.html"
+    },
+    "valyutnyj-dolg-v-bankrotstve-na-kakuyu-datu": {
+      "category": "news",
+      "title": "Валютный долг в банкротстве: на какую дату курс ЦБ",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 509,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-05-13T21:49:55",
+      "last_action_at": "2026-05-13T21:49:55",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null
     }
   },
   "pending_actions": []
