@@ -1731,5 +1731,93 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-05-13T16:40:08",
+    "category": "fiz",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 1,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "fiz-26",
+    "topic_slug": "osparivanie-sdelok-fizlica-bankrotstvo",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "Автофикс применил правки: сокращения=1, пунктуация=0"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "osparivanie-sdelok-fizlica-bankrotstvo",
+    "duration_sec": 2512.5,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "ctcheck | passed (13 фактов по 127-ФЗ ст. 61.2, 61.3, 213.32) |\n| Quality gate | passed, 0 блокеров |\n| AI-маркеры | 2 low (оба в подвале шаблона, не в тексте) |\n| Обложка | fallback (fal-client не установлен), взята из пула |\n| Статус | `ready_for_review: true`, добавлена в review_queue |\n\n**text.ru метрики** — не заполнены (проверка text.ru не запускалась в этом прогоне).\n\n**Predicted:** spam ~53%, AI ~3%, uniqueness ~87%.\n\n**Файл:** `drafts/osparivanie-sdelok-fizlica-bankrotstvo/article.html`",
+    "stderr_tail": "",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7987
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
+  },
+  {
+    "timestamp": "2026-05-13T18:20:22",
+    "category": "yur",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 2,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "yur-15",
+    "topic_slug": "finansovoe-ozdorovlenie-yuridicheskogo-lica",
+    "status": "failed",
+    "slug": "finansovoe-ozdorovlenie-yuridicheskogo-lica",
+    "duration_sec": 1253.0,
+    "returncode": 1,
+    "rescued_after_failure": false,
+    "stdout_tail": "You've hit your limit · resets 8pm (Europe/Moscow)",
+    "stderr_tail": "",
+    "metrics": null
   }
 ]
