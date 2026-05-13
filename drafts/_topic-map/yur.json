@@ -290,7 +290,11 @@
       "expected_length_chars": 7000,
       "topic_action": "включение в реестр кредиторов",
       "title_length": 56,
-      "description_length": 144
+      "description_length": 144,
+      "status": "rejected",
+      "rejected_at": "2026-05-13T04:24:28",
+      "rejected_reason": "hang_heartbeat_timeout",
+      "rejected_by": "auto_skip_in_slot"
     },
     {
       "id": "yur-12",
