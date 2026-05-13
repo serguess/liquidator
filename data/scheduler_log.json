@@ -1512,5 +1512,59 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-05-13T10:00:20",
+    "category": "yur",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "ality_checks.py                         | 229 ++++++++++++++++++++----\n tools/quality_gate.py                           | 179 ++++++++++++++++--\n 12 files changed, 683 insertions(+), 201 deletions(-)\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\nApplied autostash.\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 5,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "yur-14",
+    "topic_slug": "zhaloba-na-arbitrazhnogo-upravljayushchego",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "internal_links_autofixed: 3 ссылок (например /articles/yur/osparivanie-sdelok-pri-bankrotstve.html→/articles/yur/osparivanie-sdelok-pri-bankrotstve; /articles/yur/kak-podat-na-bankrotstvo-kontragenta.html→/articles/yur/kak-podat-na-bankrotstvo-kontragenta; /articles/yur/subsidiarka-direktora-kak-zashchititsya.html→/articles/yur/subsidiarka-direktora-kak-zashchititsya)"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "zhaloba-na-arbitrazhnogo-upravljayushchego",
+    "duration_sec": 1798.1,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": " | passed ✓ |\n| Factcheck | passed ✓ |\n| Quality gate | passed (0 блокеров, 0 hard-fail) |\n| text.ru AI | — (замер не проводился) |\n| text.ru уникальность | — |\n| text.ru заспам | predicted ~53% |\n| Обложка | fallback (fal-client не установлен) |\n| Статус | `ready_for_review: true`, добавлена в TG-очередь |\n\n**Файл:** `drafts/zhaloba-na-arbitrazhnogo-upravljayushchego/article.html`\n\nОбложка взята из fallback-пула (fal-client не установлен в окружении). Статья ждёт публикации через Telegram-бот.\n",
+    "stderr_tail": "",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7812
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]
