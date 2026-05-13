@@ -18,7 +18,7 @@ argument-hint: <category> slug=<slug> <topic>
 
 НЕ генерируй свой slug, даже если кажется красивее. Slug связан с записью в `drafts/_topic-map/{category}.json`. Если ты используешь другой slug — тема в topic-map останется «свободной», и следующий слот scheduler'а её снова выберет → бесконечный цикл по одной теме.
 
-Если `slug=...` нет в аргументах (старый формат вызова) — запусти `python -m tools.slugify "{title}"` для детерминированной генерации.
+Если `slug=...` нет в аргументах (старый формат вызова) — запусти `.venv/bin/python -m tools.slugify "{title}"` для детерминированной генерации.
 
 ## Конвейер (строго последовательно)
 
@@ -34,25 +34,25 @@ date -u +"%Y-%m-%dT%H:%M:%S | агент-N" > data/.scheduler_heartbeat
 
 ### Pipeline-логирование (только при проблемах)
 
-В норме НЕ вызывай `python -m tools.pipeline_log` после успешного завершения каждого агента. Scheduler сам пишет timeline-события (slot_started, slot_finished, статусы, метрики) после твоего завершения. Каждый твой вызов `python -m tools.pipeline_log` — это subprocess-запуск, который тратит сообщение Pro-лимита Claude. На статью мы экономим 7-8 messages.
+В норме НЕ вызывай `.venv/bin/python -m tools.pipeline_log` после успешного завершения каждого агента. Scheduler сам пишет timeline-события (slot_started, slot_finished, статусы, метрики) после твоего завершения. Каждый твой вызов `.venv/bin/python -m tools.pipeline_log` — это subprocess-запуск, который тратит сообщение Pro-лимита Claude. На статью мы экономим 7-8 messages.
 
 Логируй ТОЛЬКО эти случаи:
 
 **1. Возврат на агента 4** (из 5/6/quality_gate с `passed: false`):
 ```
-python -m tools.pipeline_log {slug} 4-writer iteration_returned \
+.venv/bin/python -m tools.pipeline_log {slug} 4-writer iteration_returned \
   --reason "{почему вернули}" \
   --recommendation "{что переделать}"
 ```
 
 **2. Падение агента** (исключение / отсутствие нужного файла / несовместимый JSON):
 ```
-python -m tools.pipeline_log {slug} {agent-name} failed --error "{короткий текст}"
+.venv/bin/python -m tools.pipeline_log {slug} {agent-name} failed --error "{короткий текст}"
 ```
 
 **3. Каннибализация на агенте 1** — если cannibalization_check вернул conflict, логируй и останавливайся:
 ```
-python -m tools.pipeline_log {slug} 1-semantics failed --error "cannibalization:{conflict_slug}"
+.venv/bin/python -m tools.pipeline_log {slug} 1-semantics failed --error "cannibalization:{conflict_slug}"
 ```
 
 slug ещё неизвестен на агенте 1 до создания brief.json — если он упал ДО brief.json, просто остановись с понятным stdout-сообщением, scheduler разберётся по rc.
@@ -67,13 +67,13 @@ slug ещё неизвестен на агенте 1 до создания brief
 6. Запусти агента `6-seo-editor`. Дождись `drafts/{slug}/body.html` + `meta.json`. Агент 6 САМ пишет body.html и заполняет meta.json. Если `factcheck_passed: false` - возврат на агента 4 (**максимум 1 итерация здесь**, логируй `iteration_returned`).
 6a. **Сборка финального article.html (детерминированно):**
     ```
-    python -m tools.inject_boilerplate drafts/{slug}/ --body body.html --out article.html
+    .venv/bin/python -m tools.inject_boilerplate drafts/{slug}/ --body body.html --out article.html
     ```
     Скрипт подставляет CTA, дисклеймер, JSON-LD, header/footer/aside из шаблонов. Exit ≠ 0:
     - 1 — отсутствуют обязательные поля meta.json (slug, category, title, description, h1, topic_action) — возврат на агента 6 с пометкой какие поля дозаполнить.
     - 2 — нет body.html — возврат на агента 6, что-то пошло не так.
     Идеально агент 6 сам зовёт этот скрипт в финале своей работы — тогда мы экономим один re-invocation.
-7. **Обязательный шаг: quality_gate.** Запусти `python -m tools.quality_gate drafts/{slug}/article.html --json --save-report`. Если exit ≠ 0 — читай `drafts/{slug}/quality_gate.json`, поле `recommendations`, и возвращай на агента 4 с конкретной пометкой. **Максимум 1 итерация возврата** (раньше было 5). На 3-й итерации writer'а (учитывая возвраты от 5/6) gate сам делает **forced_pass с `metrics_warning=true`** — статья всё равно идёт в TG-очередь.
+7. **Обязательный шаг: quality_gate.** Запусти `.venv/bin/python -m tools.quality_gate drafts/{slug}/article.html --json --save-report`. Если exit ≠ 0 — читай `drafts/{slug}/quality_gate.json`, поле `recommendations`, и возвращай на агента 4 с конкретной пометкой. **Максимум 1 итерация возврата** (раньше было 5). На 3-й итерации writer'а (учитывая возвраты от 5/6) gate сам делает **forced_pass с `metrics_warning=true`** — статья всё равно идёт в TG-очередь.
 
    **Глобальный cap итераций writer'а = 3** (изменено 13 мая 2026 с 5). Это сумма всех возвратов: от агента 5 + от агента 6 + от quality_gate.
 
@@ -89,7 +89,7 @@ slug ещё неизвестен на агенте 1 до создания brief
 
 9. **Финализация драфта (детерминированно):**
    ```bash
-   python -m articles_scheduler.finalize_draft {slug}
+   .venv/bin/python -m articles_scheduler.finalize_draft {slug}
    ```
    Скрипт сам:
    - валидирует article.html (≥5000 байт), meta.json (обязательные поля), quality_gate.json;
