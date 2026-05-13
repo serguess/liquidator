@@ -2,6 +2,19 @@
   "generated": "2026-05-13",
   "articles": [
     {
+      "slug": "ispolnitelnyj-list-poluchenie-predyavlenie",
+      "cat": "vzysk",
+      "catLabel": "Взыскание задолженности",
+      "title": "Исполнительный лист: как получить и куда подать",
+      "desc": "Пошаговая инструкция: когда суд выдаёт исполнительный лист, как его забрать, куда предъявить: приставам, в банк или работодателю, что делать если утерян.",
+      "date": "13 мая 2026",
+      "dateIso": "2026-05-13",
+      "read": "5 мин.",
+      "tone": "b",
+      "img": "https://res.cloudinary.com/dmsaaiwkm/image/upload/c_fill,ar_191:100,g_center,f_auto,q_auto,w_1920/v1778313043/articles/obzor-vs-rf-5-2026-bankrotstvo-glavnoe-cover.jpg",
+      "url": "articles/vzysk/ispolnitelnyj-list-poluchenie-predyavlenie"
+    },
+    {
       "slug": "alimenty-pri-bankrotstve-fizlica",
       "cat": "fiz",
       "catLabel": "Банкротство физических лиц",

@@ -766,7 +766,7 @@
     "ispolnitelnyj-list-poluchenie-predyavlenie": {
       "category": "vzysk",
       "title": "Исполнительный лист: как получить и куда подать",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -774,10 +774,12 @@
       "tg_message_id": 467,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-13T16:15:52",
-      "last_action_at": "2026-05-13T16:15:52",
+      "last_action_at": "2026-05-13T21:46:10",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null
+      "published_url": "https://pravo.shop/articles/vzysk/ispolnitelnyj-list-poluchenie-predyavlenie",
+      "published_at": "2026-05-13T21:46:10",
+      "articles_path": "articles/vzysk/ispolnitelnyj-list-poluchenie-predyavlenie.html"
     },
     "osparivanie-sdelok-fizlica-bankrotstvo": {
       "category": "fiz",
@@ -813,14 +815,6 @@
     }
   },
   "pending_actions": [
-    {
-      "action": "publish",
-      "slug": "ispolnitelnyj-list-poluchenie-predyavlenie",
-      "version": "2.0",
-      "chat_id": 144472991,
-      "reply_to_message_id": 466,
-      "queued_at": "2026-05-13T20:59:42"
-    },
     {
       "action": "publish",
       "slug": "osparivanie-sdelok-fizlica-bankrotstvo",
