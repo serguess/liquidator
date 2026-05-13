@@ -2,6 +2,19 @@
   "generated": "2026-05-13",
   "articles": [
     {
+      "slug": "bankrotstvo-pri-nalogovyh-dolgah",
+      "cat": "fiz",
+      "catLabel": "Банкротство физических лиц",
+      "title": "Банкротство при налоговых долгах: спишет ли ФНС",
+      "desc": "Разбираем, когда ФНС встаёт в реестр кредиторов, какие налоги спишут по итогам процедуры банкротства, а какие останутся — текущие платежи и НДФЛ.",
+      "date": "13 мая 2026",
+      "dateIso": "2026-05-13",
+      "read": "5 мин.",
+      "tone": "b",
+      "img": "https://res.cloudinary.com/dmsaaiwkm/image/upload/c_fill,ar_191:100,g_center,f_auto,q_auto,w_1920/v1778261613/articles/skolko-stoit-bankrotstvo-fizicheskogo-lica-cover.jpg",
+      "url": "articles/fiz/bankrotstvo-pri-nalogovyh-dolgah"
+    },
+    {
       "slug": "ipoteka-posle-bankrotstva-fizlica",
       "cat": "fiz",
       "catLabel": "Банкротство физических лиц",
