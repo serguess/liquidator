@@ -1621,5 +1621,59 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-05-13T13:20:22",
+    "category": "fiz",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 10,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "fiz-25",
+    "topic_slug": "alimenty-pri-bankrotstve-fizlica",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "internal_links_autofixed: 4 ссылок (например /kogda-dolgi-ne-spishut-pri-bankrotstve/→/articles/fiz/kogda-dolgi-ne-spishut-pri-bankrotstve; /okonchanie-ip-po-state-46/→/articles/vzysk/okonchanie-ip-po-state-46; /vnesudebnoe-bankrotstvo-cherez-mfc-2026/→/articles/fiz/vnesudebnoe-bankrotstvo-cherez-mfc-2026)"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "alimenty-pri-bankrotstve-fizlica",
+    "duration_sec": 1758.1,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "ck | passed |\n| Ритм | 48% коротких предложений, 0 длинных |\n| AI-маркеры | density 0.42/1000, 0 critical, 1 high |\n| Ready for review | true |\n| Обложка | fallback (fal_client не установлен) |\n\n**Прогнозные метрики text.ru:**\n- ИИ-детектор: ~3%\n- Уникальность: ~87%\n- Заспамленность: ~53% *(чуть выше 50% — customer risk, не блокер)*\n\n**Путь к файлу:** `drafts/alimenty-pri-bankrotstve-fizlica/article.html`\n\nСтатья добавлена в очередь ревью (`_review_queue.json`). Публикация — через бот заказчика.",
+    "stderr_tail": "",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7618
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]
