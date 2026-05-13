@@ -2,6 +2,19 @@
   "generated": "2026-05-13",
   "articles": [
     {
+      "slug": "kassacionnaya-zhaloba-na-sudebnyj-prikaz",
+      "cat": "vzysk",
+      "catLabel": "Взыскание задолженности",
+      "title": "Кассационная жалоба на судебный приказ: новый порядок",
+      "desc": "С мая 2026 приказы мирового судьи обжалуются не в КСОЮ, а в президиум суда субъекта. Срок 3 месяца, пошлина 5 000 рублей.",
+      "date": "13 мая 2026",
+      "dateIso": "2026-05-13",
+      "read": "5 мин.",
+      "tone": "b",
+      "img": "https://res.cloudinary.com/dmsaaiwkm/image/upload/c_fill,ar_191:100,g_center,f_auto,q_auto,w_1920/v1778409627/articles/dosudebnaya-pretenziya-obrazec-cover.jpg",
+      "url": "articles/vzysk/kassacionnaya-zhaloba-na-sudebnyj-prikaz"
+    },
+    {
       "slug": "zhaloba-na-arbitrazhnogo-upravljayushchego",
       "cat": "yur",
       "catLabel": "Банкротство юридических лиц",

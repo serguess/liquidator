@@ -730,7 +730,7 @@
     "kassacionnaya-zhaloba-na-sudebnyj-prikaz": {
       "category": "vzysk",
       "title": "Кассационная жалоба на судебный приказ: новый порядок",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -738,10 +738,12 @@
       "tg_message_id": 463,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-13T12:24:13",
-      "last_action_at": "2026-05-13T12:24:13",
+      "last_action_at": "2026-05-13T21:45:27",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null
+      "published_url": "https://pravo.shop/articles/vzysk/kassacionnaya-zhaloba-na-sudebnyj-prikaz",
+      "published_at": "2026-05-13T21:45:27",
+      "articles_path": "articles/vzysk/kassacionnaya-zhaloba-na-sudebnyj-prikaz.html"
     },
     "alimenty-pri-bankrotstve-fizlica": {
       "category": "fiz",
@@ -809,14 +811,6 @@
     }
   },
   "pending_actions": [
-    {
-      "action": "publish",
-      "slug": "kassacionnaya-zhaloba-na-sudebnyj-prikaz",
-      "version": "2.0",
-      "chat_id": 144472991,
-      "reply_to_message_id": 462,
-      "queued_at": "2026-05-13T20:52:02"
-    },
     {
       "action": "publish",
       "slug": "alimenty-pri-bankrotstve-fizlica",
