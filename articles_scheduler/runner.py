@@ -103,27 +103,46 @@ VALID_CATEGORIES = {"fiz", "yur", "vzysk", "news"}
 
 
 def _next_category() -> str:
-    """Простая ротация: индекс по числу УСПЕШНЫХ слотов сегодня.
+    """Ротация без midnight-reset: индекс по кумулятивному числу ok-слотов
+    в истории (`scheduler_log.json`).
 
-    Раньше считали все попытки подряд, и failed-слоты «съедали» позицию в
-    ROTATION_ORDER → распределение 3:3:3:1 за день не выдерживалось при сбоях.
-    Теперь упавший слот не сдвигает ротацию: при retry со следующей темы
-    категория остаётся той же, пока статья не уйдёт в "ok" / "topics_expanded".
+    Раньше считали `today_ok` по календарному дню (`date.today()`). Это давало
+    «сброс счётчика в 00:00» — первый слот нового дня всегда `ROTATION[0]`,
+    даже если 10-минутами ранее ok-слот уже был. При переходе через полночь
+    последовательность ломалась (повторы одной категории, нарушенное
+    распределение 3:3:3:1 за сутки).
 
-    Override через ENV FORCE_CATEGORY (например, FORCE_CATEGORY=news для разовой
-    публикации новости). Применяется и в SDK-вызове, и в CLI-режиме.
+    С 13 мая 2026 (после Bug A фикса): считаем все ok-слоты в логе,
+    `idx = total_ok % len(ROTATION)`. При `len(ROTATION) == ARTICLES_PER_DAY`
+    один полный круг ротации = ровно `ARTICLES_PER_DAY` ok-слотов, поэтому
+    распределение 3:3:3:1 сходится за каждый цикл независимо от того, в
+    какое время суток он завершился. Это критично для готовящейся
+    batch-доставки в TG (10 статей разом в 10 утра — доставка не должна
+    влиять на счётчик ротации).
+
+    Failed/failed_qa/hang_heartbeat не сдвигают ротацию (статья не дошла в
+    TG-очередь — категория получает retry со следующей темой). Это
+    подтверждено заказчиком 13 мая: «если failed прислал статью — сдвигает,
+    если не прислал — не сдвигает». `status=ok` означает
+    `ready_for_review: true, добавлена в TG-очередь` (видно в stdout_tail
+    каждого ok-слота). `topics_expanded` тоже сдвигает — иначе застрянем
+    на одной категории при пустом topic-map.
+
+    Override через ENV FORCE_CATEGORY (например, `FORCE_CATEGORY=news` для
+    разовой публикации новости). Заказчик с 13 мая ручные FORCE-запуски
+    больше не использует, но override остаётся для аварийных случаев.
     """
     forced = (os.getenv("FORCE_CATEGORY") or "").strip().lower()
     if forced in VALID_CATEGORIES:
         return forced
-    today = date.today().isoformat()
-    today_ok = [
-        e for e in _read_log()
-        if (e.get("timestamp") or "").startswith(today)
-        and e.get("status") in ("ok", "topics_expanded")
-    ]
-    idx = len(today_ok) % len(ROTATION) if ROTATION else 0
-    return ROTATION[idx] if ROTATION else "fiz"
+    if not ROTATION:
+        return "fiz"
+    total_ok = sum(
+        1 for e in _read_log()
+        if e.get("status") in ("ok", "topics_expanded")
+    )
+    idx = total_ok % len(ROTATION)
+    return ROTATION[idx]
 
 
 # ============ TOPIC SELECTION ============
