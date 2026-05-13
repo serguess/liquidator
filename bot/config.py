@@ -92,6 +92,19 @@ PUBLIC_BASE_URL = _env_str("PUBLIC_BASE_URL", "https://pravo.shop").rstrip("/")
 # === Watcher ===
 BOT_WATCH_INTERVAL_SEC = _env_int("BOT_WATCH_INTERVAL", 60)
 
+# === Batch-доставка (с 14 мая 2026) ===
+# До BATCH_DELIVERY_START_AT — старая логика (каждая статья отдельным сообщением
+# сразу после готовности). После — статьи копятся, доставка batch'ем каждый день
+# в BATCH_DELIVERY_HOUR МСК. Первый batch = все накопленные с момента старта.
+#
+# Пример: BATCH_DELIVERY_START_AT=2026-05-14T10:00 → до 14 мая 10:00 как сейчас,
+# с 14 мая 10:00 копится → пт 15 мая 10:00 первый batch (10 статей за 24 часа).
+BATCH_DELIVERY_START_AT = _env_str("BATCH_DELIVERY_START_AT")  # пусто = batch выключен
+BATCH_DELIVERY_HOUR = _env_int("BATCH_DELIVERY_HOUR", 10)
+BATCH_DELIVERY_INTERVAL_SEC = _env_int("BATCH_DELIVERY_INTERVAL_SEC", 2)
+# Часовой пояс для расчёта «день» в batch-доставке (МСК = Europe/Moscow = UTC+3).
+BATCH_DELIVERY_TZ = _env_str("BATCH_DELIVERY_TZ", "Europe/Moscow")
+
 # === Preview-токен ===
 # Если не задан в env - генерим один раз и кладём в state. Так после рестарта
 # ссылки остаются валидными.

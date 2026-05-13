@@ -200,6 +200,62 @@ def list_pending() -> list[tuple[str, dict]]:
     ]
 
 
+# === Batch-доставка (с 14 мая 2026) ===
+# До BATCH_DELIVERY_START_AT watcher шлёт уведомления сразу. После — ставит
+# `pending_batch: true` на review, и отдельный async-loop в bot/main.py
+# раз в сутки в BATCH_DELIVERY_HOUR МСК выгребает их пачкой.
+
+
+def mark_pending_batch(slug: str) -> None:
+    """Помечает review как ожидающий batch-доставки (вместо моментальной)."""
+    state = load()
+    review = state["reviews"].get(slug)
+    if not review:
+        return
+    review["pending_batch"] = True
+    review["pending_batch_at"] = _now_iso()
+    save(state)
+
+
+def pending_batch_slugs() -> list[str]:
+    """Slugs reviews, ожидающих batch-доставки. Сортировка: по first_seen_at."""
+    state = load()
+    items = [
+        (slug, r) for slug, r in state["reviews"].items()
+        if r.get("pending_batch") is True
+    ]
+    items.sort(key=lambda kv: kv[1].get("first_seen_at") or "")
+    return [slug for slug, _ in items]
+
+
+def mark_batch_sent(slug: str) -> None:
+    """Снимает флаг pending_batch после успешной отправки."""
+    state = load()
+    review = state["reviews"].get(slug)
+    if not review:
+        return
+    review["pending_batch"] = False
+    review["batch_sent_at"] = _now_iso()
+    save(state)
+
+
+def get_last_batch_date() -> str | None:
+    """Возвращает дату (YYYY-MM-DD в локальной TZ) последнего успешного batch.
+    None если ни одного batch ещё не было."""
+    state = load()
+    return state.get("last_batch_date")
+
+
+def set_last_batch_date(date_str: str, count: int) -> None:
+    """Фиксирует факт что batch успешно отправлен в этот день. count — сколько
+    статей было в batch'е (для диагностики/логов)."""
+    state = load()
+    state["last_batch_date"] = date_str
+    state["last_batch_count"] = count
+    state["last_batch_at"] = _now_iso()
+    save(state)
+
+
 # === Pending actions queue ===
 # Очередь отложенных действий (сейчас только publish). Хранится В bot_state.json
 # чтобы переживать редеплои Cloud Apps: bot_state.json коммитится scheduler'ом

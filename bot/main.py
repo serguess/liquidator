@@ -27,6 +27,10 @@ from . import (
     queue as action_queue, state, watcher,
 )
 from .config import (
+    BATCH_DELIVERY_HOUR,
+    BATCH_DELIVERY_INTERVAL_SEC,
+    BATCH_DELIVERY_START_AT,
+    BATCH_DELIVERY_TZ,
     BOT_WATCH_INTERVAL_SEC,
     DATA_DIR,
     DRAFTS_DIR,
@@ -217,12 +221,94 @@ async def _queue_iteration(bot: Bot):
         log.warning("Не смог отправить итоговое сообщение очереди: %s", exc)
 
 
+def _batch_delivery_started() -> bool:
+    """Проверяет: наступил ли BATCH_DELIVERY_START_AT.
+
+    До этого момента — старая логика (статья → моментальное уведомление).
+    После — статьи копятся в pending_batch и доставляются batch'ем каждый
+    день в BATCH_DELIVERY_HOUR МСК.
+    """
+    if not BATCH_DELIVERY_START_AT:
+        return False
+    try:
+        from datetime import datetime
+        start = datetime.fromisoformat(BATCH_DELIVERY_START_AT)
+    except ValueError:
+        log.error("BATCH_DELIVERY_START_AT %r невалиден (нужен ISO-формат, "
+                  "напр. 2026-05-14T10:00). Batch-режим выключен.",
+                  BATCH_DELIVERY_START_AT)
+        return False
+    from datetime import datetime
+    return datetime.now() >= start
+
+
+async def _send_review_notification(bot: Bot, draft: dict, token: str) -> list[int]:
+    """Шлёт уведомление о готовом review-draft'е во все chat_id из whitelist.
+
+    Используется и при моментальной отправке (до BATCH_DELIVERY_START_AT),
+    и в batch-цикле (по одной статье за раз с интервалом).
+
+    Возвращает список chat_id, куда сообщение реально ушло. Если пусто —
+    sentinel создавать НЕ надо (повторим попытку на следующем тике).
+    """
+    text = messages.new_draft_notification(
+        slug=draft["slug"],
+        category=draft["category"],
+        title=draft["title"],
+        version=draft["version"],
+        char_count=draft["char_count"],
+        token=token,
+        predicted_spam=draft.get("predicted_spam"),
+        predicted_uniqueness=draft.get("predicted_uniqueness"),
+        predicted_ai=draft.get("predicted_ai"),
+        customer_risks=draft.get("customer_risks") or [],
+        wordstat_main=draft.get("wordstat_main"),
+        wordstat_total=draft.get("wordstat_total"),
+    )
+
+    sent_to: list[int] = []
+    for chat_id in TG_ALLOWED_CHAT_IDS:
+        try:
+            msg = await bot.send_message(
+                chat_id=chat_id,
+                text=text,
+                reply_markup=handlers.review_keyboard(draft["slug"]),
+                disable_web_page_preview=False,
+            )
+            # Запоминаем id сообщения для последующего edit'а.
+            state.set_tg_message(
+                draft["slug"],
+                chat_id=chat_id,
+                message_id=msg.message_id,
+            )
+            sent_to.append(chat_id)
+        except Exception as e:
+            log.error("Не смог отправить уведомление %s: %s", chat_id, e)
+    return sent_to
+
+
+def _mark_sentinel_after_send(draft: dict, sent_to: list[int]) -> None:
+    """Создаёт `.notified` sentinel в папке драфта после успешной отправки.
+    Без этого после редеплоя контейнера watcher повторно увидит draft как
+    «новый» и пошлёт второе уведомление."""
+    if not sent_to:
+        return
+    draft_dir = DRAFTS_DIR / draft["slug"]
+    notified_sentinel.mark_notified(
+        draft_dir,
+        chat_ids=sent_to,
+        version=draft.get("version", ""),
+        title=draft.get("title", ""),
+    )
+
+
 async def _watch_iteration(bot: Bot):
     new_drafts = watcher.scan_for_new_drafts()
     if not new_drafts:
         return
 
-    log.info("Найдено новых драфтов: %d", len(new_drafts))
+    batch_mode = _batch_delivery_started()
+    log.info("Найдено новых драфтов: %d (batch_mode=%s)", len(new_drafts), batch_mode)
     token = state.get_preview_token_from_state()
 
     for draft in new_drafts:
@@ -236,53 +322,178 @@ async def _watch_iteration(bot: Bot):
                 "wordstat_total": draft.get("wordstat_total"),
             })
 
-        # Шлём уведомление каждому в whitelist.
-        text = messages.new_draft_notification(
-            slug=draft["slug"],
-            category=draft["category"],
-            title=draft["title"],
-            version=draft["version"],
-            char_count=draft["char_count"],
-            token=token,
-            predicted_spam=draft.get("predicted_spam"),
-            predicted_uniqueness=draft.get("predicted_uniqueness"),
-            predicted_ai=draft.get("predicted_ai"),
-            customer_risks=draft.get("customer_risks") or [],
-            wordstat_main=draft.get("wordstat_main"),
-            wordstat_total=draft.get("wordstat_total"),
-        )
+        if batch_mode:
+            # BATCH-режим: статья КОПИТСЯ до ближайшего 10:00 МСК. Тогда
+            # _batch_delivery_iteration выгребет её вместе с остальными
+            # pending_batch и отправит подряд (с интервалом). Sentinel НЕ
+            # создаём пока не отправлено: при рестарте бота watcher всё равно
+            # пропустит draft потому что он уже в state.reviews (см.
+            # state.known_slugs в watcher.scan_for_new_drafts).
+            state.mark_pending_batch(draft["slug"])
+            log.info("Draft %s помечен pending_batch (отправится в ближайшем %02d:00 МСК)",
+                     draft["slug"], BATCH_DELIVERY_HOUR)
+            continue
 
-        sent_to: list[int] = []
-        for chat_id in TG_ALLOWED_CHAT_IDS:
-            try:
-                msg = await bot.send_message(
-                    chat_id=chat_id,
-                    text=text,
-                    reply_markup=handlers.review_keyboard(draft["slug"]),
-                    disable_web_page_preview=False,
-                )
-                # Запоминаем id сообщения для последующего edit'а.
-                state.set_tg_message(
-                    draft["slug"],
-                    chat_id=chat_id,
-                    message_id=msg.message_id,
-                )
-                sent_to.append(chat_id)
-            except Exception as e:
-                log.error("Не смог отправить уведомление %s: %s", chat_id, e)
+        # INSTANT-режим (до BATCH_DELIVERY_START_AT) — старое поведение.
+        sent_to = await _send_review_notification(bot, draft, token)
+        _mark_sentinel_after_send(draft, sent_to)
 
-        # Создаём sentinel-файл в папке драфта ПОСЛЕ успешной отправки хотя
-        # бы одному получателю. Это гарантия что повторное уведомление
-        # никогда не уйдёт после редеплоя. Файл попадёт в следующий git
-        # commit вместе с папкой драфта (через scheduler или publisher).
+
+# ============ BATCH DELIVERY (с 14 мая 2026) ============
+# Раз в час проверяем: «сейчас BATCH_DELIVERY_HOUR МСК И сегодня batch ещё не
+# отправлялся» → выгребаем все pending_batch reviews и шлём подряд с интервалом
+# BATCH_DELIVERY_INTERVAL_SEC (защита от TG flood-limit).
+#
+# Идемпотентность: last_batch_date в bot_state.json гарантирует «один batch в
+# сутки». Если бот рестартует в 10:05 — увидит что сегодня batch уже был, не
+# повторит. Если бот был выключен в 10:00 (например, упал в обновлении) и
+# поднялся в 11:00 — увидит что сегодня batch НЕ был, и отправит на ближайшем
+# тике (catch-up: лучше отправить с задержкой, чем потерять).
+
+BATCH_CHECK_INTERVAL_SEC = 300  # 5 мин — достаточно частая проверка
+
+
+def _moscow_now():
+    """Текущее время в TZ из BATCH_DELIVERY_TZ (по умолчанию Europe/Moscow).
+    Если zoneinfo недоступна или TZ-имя кривое — fallback на naive local time."""
+    from datetime import datetime
+    try:
+        from zoneinfo import ZoneInfo  # Python 3.9+
+        return datetime.now(ZoneInfo(BATCH_DELIVERY_TZ))
+    except (ImportError, Exception) as e:
+        log.warning("ZoneInfo(%r) недоступна (%s), fallback на naive datetime.now()",
+                    BATCH_DELIVERY_TZ, e)
+        return datetime.now()
+
+
+async def _batch_delivery_iteration(bot: Bot) -> None:
+    """Один тик batch-loop'а. Решает: пора ли слать batch?
+
+    Условия для отправки:
+    1. BATCH_DELIVERY_START_AT уже наступил.
+    2. Текущий час в МСК == BATCH_DELIVERY_HOUR (10 по умолчанию).
+    3. Сегодня batch ещё не отправлялся (state.last_batch_date != сегодня).
+    4. Есть статьи с pending_batch=true.
+
+    Все четыре условия выполнены → шлём все pending_batch по очереди.
+    """
+    if not _batch_delivery_started():
+        return
+
+    now = _moscow_now()
+    today_str = now.strftime("%Y-%m-%d")
+
+    # Защита от двойной отправки за сутки.
+    if state.get_last_batch_date() == today_str:
+        return
+
+    # Час отправки: ровно BATCH_DELIVERY_HOUR (или позже, на случай catch-up
+    # после простоя бота). До BATCH_DELIVERY_HOUR — ждём.
+    if now.hour < BATCH_DELIVERY_HOUR:
+        return
+
+    slugs = state.pending_batch_slugs()
+    if not slugs:
+        log.info("Batch: нет pending_batch reviews — отметим день %s как пустой",
+                 today_str)
+        # Помечаем день закрытым даже если статей не было — иначе на каждом тике
+        # будем логировать «нет статей».
+        state.set_last_batch_date(today_str, count=0)
+        return
+
+    log.info("Batch-доставка %s: %d статей в очереди, начинаю рассылку",
+             today_str, len(slugs))
+
+    token = state.get_preview_token_from_state()
+    sent_count = 0
+    failed_count = 0
+
+    for i, slug in enumerate(slugs):
+        # Каждую статью собираем заново из meta.json + state, чтобы взять
+        # актуальные данные (за время копления могла быть редактура от агента).
+        draft = _draft_from_state_and_meta(slug)
+        if draft is None:
+            log.warning("Batch: draft %s не найден (state или meta пропал) — пропускаю",
+                        slug)
+            failed_count += 1
+            # Снимаем флаг, иначе будет висеть навечно.
+            state.mark_batch_sent(slug)
+            continue
+
+        sent_to = await _send_review_notification(bot, draft, token)
         if sent_to:
-            draft_dir = DRAFTS_DIR / draft["slug"]
-            notified_sentinel.mark_notified(
-                draft_dir,
-                chat_ids=sent_to,
-                version=draft.get("version", ""),
-                title=draft.get("title", ""),
-            )
+            _mark_sentinel_after_send(draft, sent_to)
+            state.mark_batch_sent(slug)
+            sent_count += 1
+            log.info("Batch [%d/%d]: отправлено slug=%s в %s",
+                     i + 1, len(slugs), slug, sent_to)
+        else:
+            # Не смогли отправить ни одному — оставим pending_batch=true,
+            # попробуем на следующих сутках (или вручную).
+            failed_count += 1
+            log.error("Batch [%d/%d]: НЕ смог отправить slug=%s — оставляю pending",
+                      i + 1, len(slugs), slug)
+
+        # Пауза между сообщениями: защита от TG flood-limit (30 msg/sec лимит,
+        # но bots с медиа-вложениями ловят лимиты быстрее).
+        if i < len(slugs) - 1:
+            await asyncio.sleep(BATCH_DELIVERY_INTERVAL_SEC)
+
+    # Фиксируем факт отправки. Даже если часть провалилась, день считаем
+    # закрытым (иначе повторим всё что было отправлено успешно).
+    state.set_last_batch_date(today_str, count=sent_count)
+    log.info("Batch %s завершён: %d отправлено, %d ошибок",
+             today_str, sent_count, failed_count)
+
+
+def _draft_from_state_and_meta(slug: str) -> dict | None:
+    """Восстанавливает draft-dict (формат как у watcher.scan_for_new_drafts())
+    из state + meta.json. Нужно для batch-отправки: при сканировании watcher'ом
+    статья уже в state, второй раз через scan_for_new_drafts() не пройдёт.
+    """
+    import json
+    review = state.get_review(slug)
+    if not review:
+        return None
+    folder = DRAFTS_DIR / slug
+    if not folder.exists():
+        return None
+    meta_path = folder / "meta.json"
+    meta = {}
+    if meta_path.exists():
+        try:
+            meta = json.loads(meta_path.read_text(encoding="utf-8"))
+        except (json.JSONDecodeError, OSError):
+            meta = {}
+
+    # char_count: из meta или из state (если уже считали).
+    char_count = meta.get("text_chars") or review.get("char_count") or 0
+
+    return {
+        "slug": slug,
+        "category": review.get("category") or meta.get("category", "fiz"),
+        "title": review.get("title") or meta.get("title") or slug,
+        "version": review.get("current_version", "2.0"),
+        "char_count": int(char_count) if isinstance(char_count, (int, float)) else 0,
+        "wordstat_main": review.get("wordstat_main") or meta.get("frequency_main"),
+        "wordstat_total": review.get("wordstat_total") or meta.get("frequency_total"),
+        "predicted_spam": meta.get("predicted_spam_pct"),
+        "predicted_ai": meta.get("predicted_ai_pct"),
+        "predicted_uniqueness": meta.get("predicted_uniqueness_pct"),
+        "customer_risks": meta.get("customer_risks") or [],
+    }
+
+
+async def batch_loop(bot: Bot):
+    """Фоновая задача: раз в BATCH_CHECK_INTERVAL_SEC проверяет, не пора ли
+    слать batch. Защищена от двойной отправки через state.last_batch_date.
+    """
+    while True:
+        try:
+            await _batch_delivery_iteration(bot)
+        except Exception as e:
+            log.exception("batch_loop error: %s", e)
+        await asyncio.sleep(BATCH_CHECK_INTERVAL_SEC)
 
 
 BOOTSTRAP_DONE_FLAG = DATA_DIR / ".bootstrap_sentinel_done"
@@ -436,15 +647,25 @@ async def main_async():
             bootstrap_synced,
         )
 
-    # Запускаем watcher и queue processor параллельно с polling.
+    # Запускаем watcher, queue processor и batch-delivery параллельно с polling.
     watcher_task = asyncio.create_task(watch_loop(bot))
     queue_task = asyncio.create_task(queue_loop(bot))
+    batch_task = asyncio.create_task(batch_loop(bot))
+
+    if BATCH_DELIVERY_START_AT:
+        log.info("Batch-доставка включена: start=%s, hour=%02d МСК, interval=%ds",
+                 BATCH_DELIVERY_START_AT, BATCH_DELIVERY_HOUR,
+                 BATCH_DELIVERY_INTERVAL_SEC)
+    else:
+        log.info("Batch-доставка ВЫКЛЮЧЕНА (BATCH_DELIVERY_START_AT пуст) — "
+                 "статьи доставляются по мере готовности")
 
     try:
         await dp.start_polling(bot, allowed_updates=dp.resolve_used_update_types())
     finally:
         watcher_task.cancel()
         queue_task.cancel()
+        batch_task.cancel()
         await bot.session.close()
 
 
