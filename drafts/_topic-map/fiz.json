@@ -822,7 +822,11 @@
       "frequency_estimate": "medium",
       "rationale": "Прогревающий материал: люди гуглят эту тему ещё до банкротства, боясь долгосрочных последствий. Честный разбор снижает барьер и ведёт на страницу услуги.",
       "expected_length_chars": 7000,
-      "topic_action": "восстановление кредитной истории"
+      "topic_action": "восстановление кредитной истории",
+      "status": "rejected",
+      "rejected_at": "2026-05-14T13:49:27",
+      "rejected_reason": "hang_total_timeout",
+      "rejected_by": "auto_skip_in_slot"
     }
   ]
 }
