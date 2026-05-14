@@ -1,0 +1,24 @@
+{
+  "slug": "bankrotstvo-pri-voennoy-ipoteke",
+  "passed": true,
+  "scores": {
+    "structure_overlap": 0.0,
+    "thesis_similarity": 0.0,
+    "cta_overlap": 0.0
+  },
+  "thresholds": {
+    "structure_overlap": 0.4,
+    "thesis_similarity": 0.3,
+    "cta_overlap": 0.2
+  },
+  "similar_articles": [],
+  "conflicts": [],
+  "recommendation": "ok",
+  "article_id": 22,
+  "notes": {
+    "db_status": "Векторы записаны в data/embeddings.sqlite (published=0)",
+    "peers_compared": 0,
+    "reason_zero_peers": "В БД нет опубликованных статей категории 'fiz' с article_type 'B'. Инструмент сравнивает только с опубликованными (published=1), а база содержит 5 статей только категории 'vzysk'. Опубликованные статьи на диске (articles/fiz/) ещё не индексированы в embeddings.sqlite.",
+    "assessment": "Статья уникальна в системе эмбеддингов. Вручную проверены ссылки на похожие темы в draft.md — они находятся: bankrotstvo-pri-ipoteke-edinstvennoe-zhilye, ipoteka-posle-bankrotstva-fizlica. Угол подачи (военная ипотека + два залогодержателя + сценарии по статусу) отличается от стандартных статей про ипотеку."
+  }
+}

@@ -1,0 +1,217 @@
+{
+  "file": "/home/appuser/apps/liquidator/drafts/bankrotstvo-pri-voennoy-ipoteke/article.html",
+  "passed": true,
+  "hard_failed": false,
+  "blockers": [],
+  "warnings": [
+    "internal_links_autofixed: 3 ссылок (например /bankrotstvo-pri-ipoteke-edinstvennoe-zhilye.html→/articles/fiz/bankrotstvo-pri-ipoteke-edinstvennoe-zhilye; /kogda-dolgi-ne-spishut-pri-bankrotstve.html→/articles/fiz/kogda-dolgi-ne-spishut-pri-bankrotstve; /ipoteka-posle-bankrotstva-fizlica.html→/articles/fiz/ipoteka-posle-bankrotstva-fizlica)",
+    "spam_soft_passed: ratio-флаги мягкие при iter=4, targeted_tokens чистые → пропускаем (spam ≈48-52% по прогнозу)"
+  ],
+  "autofix": {
+    "file": "/home/appuser/apps/liquidator/drafts/bankrotstvo-pri-voennoy-ipoteke/article.html",
+    "abbreviation_fixes": {},
+    "punctuation_fixes": 0,
+    "em_dash_fixes": 0,
+    "eng_quotes_fixes": 0,
+    "changed": false,
+    "bytes_before": 41505,
+    "bytes_after": 41505
+  },
+  "quality_checks": {
+    "file": "drafts/bankrotstvo-pri-voennoy-ipoteke/article.html",
+    "text_chars": 7895,
+    "length_status": "warn",
+    "length_kind": "default",
+    "passed": false,
+    "abbreviation_hits": [],
+    "punctuation_hits": [],
+    "spam": {
+      "total_words": 756,
+      "unique_lemmas": 427,
+      "lexical_diversity": 0.565,
+      "top10_words": [
+        [
+          "банк",
+          11
+        ],
+        [
+          "ипотек",
+          10
+        ],
+        [
+          "военн",
+          8
+        ],
+        [
+          "займ",
+          8
+        ],
+        [
+          "прав",
+          8
+        ],
+        [
+          "должник",
+          7
+        ],
+        [
+          "банкротств",
+          6
+        ],
+        [
+          "жильё",
+          6
+        ],
+        [
+          "росвоенипотек",
+          6
+        ],
+        [
+          "залогов",
+          6
+        ]
+      ],
+      "top10_share": 0.101,
+      "top1_count": 11,
+      "top3_sum": 29,
+      "top10_sum": 76,
+      "ngram3_repeat_count": 30,
+      "ngram3_total": 754,
+      "ngram3_repeat_share": 0.04,
+      "risk_flags": [
+        "ngram3_repeat_share>0.035 (=0.04)",
+        "lexical_diversity<0.58 (=0.565)"
+      ]
+    },
+    "targeted_tokens": [
+      {
+        "token": "ст_сокращение",
+        "count": 0,
+        "limit": 5,
+        "over_limit": false
+      },
+      {
+        "token": "РФ_рудимент",
+        "count": 0,
+        "limit": 2,
+        "over_limit": false
+      },
+      {
+        "token": "руб_сокращение",
+        "count": 0,
+        "limit": 0,
+        "over_limit": false
+      },
+      {
+        "token": "ООО_бренд",
+        "count": 0,
+        "limit": 3,
+        "over_limit": false
+      },
+      {
+        "token": "000руб_паттерн",
+        "count": 0,
+        "limit": 2,
+        "over_limit": false
+      }
+    ],
+    "author_markers_count": 4,
+    "author_markers_min": 2
+  },
+  "ai_markers": {
+    "file": "drafts/bankrotstvo-pri-voennoy-ipoteke/article.html",
+    "text_chars": 9827,
+    "hits_total": 2,
+    "density_per_1000": 0.2,
+    "by_severity": {
+      "critical": 0,
+      "high": 0,
+      "medium": 0,
+      "low": 2
+    },
+    "own_voice_hits": 4,
+    "first_person_singular_hits": 0,
+    "hits": [
+      {
+        "name": "ИИ-лексика: «взаимодействие/тонкости/нюансы (абстрактно)»",
+        "category": "ai-lexis",
+        "severity": "low",
+        "match": "Взаимодействие",
+        "position": 9634,
+        "context": "...ение law@pravo.shop Коммерческие предложения biz@pravo.shop Взаимодействие со СМИ pr@pravo.shop © 2018-2026 ООО «ЛИКВИДАТОР». Все прав..."
+      },
+      {
+        "name": "Канцелярит: «в рамках» (без нужды)",
+        "category": "clerical",
+        "severity": "low",
+        "match": "в рамках",
+        "position": 9246,
+        "context": "...ровождение на всех этапах. Надёжность и законность Работаем в рамках ФЗ и действующего законодательства РФ. РЕКВИЗИТЫ ООО «ЛИКВИ..."
+      }
+    ]
+  },
+  "anti_template": {
+    "file": "drafts/bankrotstvo-pri-voennoy-ipoteke/article.html",
+    "text_chars": 8273,
+    "phrases_loaded": 138,
+    "passed": true,
+    "hits": []
+  },
+  "law_quotes": {
+    "total_chars": 0,
+    "limit": 600,
+    "samples": []
+  },
+  "rhythm": {
+    "file": "drafts/bankrotstvo-pri-voennoy-ipoteke/article.html",
+    "text_chars": 8273,
+    "sentences_total": 112,
+    "avg_sentence_len": 7.22,
+    "short_sentences_count": 42,
+    "short_sentences_share": 0.375,
+    "long_sentences_count": 0,
+    "parasite_count": 1,
+    "parasite_per_1000": 0.12,
+    "flags": []
+  },
+  "internal_links": {
+    "total_hrefs": 40,
+    "ok": 0,
+    "whitelisted": 21,
+    "external": 13,
+    "fixed": 3,
+    "errors": 0,
+    "changed": true,
+    "fix_details": [
+      {
+        "href": "/bankrotstvo-pri-ipoteke-edinstvennoe-zhilye.html",
+        "verdict": "fix_short",
+        "fixed_href": "/articles/fiz/bankrotstvo-pri-ipoteke-edinstvennoe-zhilye",
+        "reason": "короткая ссылка → /articles/fiz/bankrotstvo-pri-ipoteke-edinstvennoe-zhilye"
+      },
+      {
+        "href": "/kogda-dolgi-ne-spishut-pri-bankrotstve.html",
+        "verdict": "fix_short",
+        "fixed_href": "/articles/fiz/kogda-dolgi-ne-spishut-pri-bankrotstve",
+        "reason": "короткая ссылка → /articles/fiz/kogda-dolgi-ne-spishut-pri-bankrotstve"
+      },
+      {
+        "href": "/ipoteka-posle-bankrotstva-fizlica.html",
+        "verdict": "fix_short",
+        "fixed_href": "/articles/fiz/ipoteka-posle-bankrotstva-fizlica",
+        "reason": "короткая ссылка → /articles/fiz/ipoteka-posle-bankrotstva-fizlica"
+      }
+    ],
+    "error_details": []
+  },
+  "recommendations": [],
+  "retry_count": 4,
+  "predicted_metrics": {
+    "spam_pct": 60,
+    "ai_pct": 3,
+    "uniqueness_pct": 87
+  },
+  "customer_risks": [
+    "заспамленность заметно выше 50% (~60%)"
+  ]
+}

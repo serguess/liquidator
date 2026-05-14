@@ -1,0 +1,94 @@
+{
+  "slug": "bankrotstvo-pri-voennoy-ipoteke",
+  "category": "fiz",
+  "title": "Банкротство при военной ипотеке: жильё и долг по ЦЖЗ",
+  "description": "Что происходит с квартирой по военной ипотеке при банкротстве физлица: долг перед Росвоенипотекой, судьба ЦЖЗ, позиция Верховного суда, сценарии при службе и после увольнения.",
+  "h1": "Банкротство при военной ипотеке: что будет с квартирой и долгом по ЦЖЗ",
+  "lead": "Жильё по военной ипотеке заложено двум кредиторам - банку и Росвоенипотеке. Иммунитет единственного жилья тут не спасает: исход зависит от того, в строю военнослужащий или уже уволен.",
+  "topic_action": "оценку ситуации по военной ипотеке",
+  "breadcrumb_current": "Банкротство при военной ипотеке",
+  "og_image": "/assets/articles/bankrotstvo-pri-voennoy-ipoteke.jpg",
+  "main_keyword": "банкротство при военной ипотеке",
+  "secondary_keywords": [
+    "долг по ЦЖЗ при банкротстве",
+    "что будет с квартирой при банкротстве военнослужащего",
+    "Росвоенипотека банкротство",
+    "военная ипотека конкурсная масса",
+    "банкротство военнослужащего долги",
+    "НИС банкротство физлица",
+    "военная ипотека при увольнении со службы банкротство"
+  ],
+  "internal_links": [
+    "/bankrotstvo-pri-ipoteke-edinstvennoe-zhilye.html",
+    "/ipoteka-posle-bankrotstva-fizlica.html",
+    "/kogda-dolgi-ne-spishut-pri-bankrotstve.html"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/",
+    "https://www.consultant.ru/document/cons_doc_LAW_48718/",
+    "https://www.consultant.ru/document/cons_doc_LAW_39570/"
+  ],
+  "faq": [
+    {
+      "question": "Включают ли накопления НИС в имущество для расчётов с кредиторами?",
+      "answer": "Нет. Средства на именном накопительном счёте до перечисления участнику остаются собственностью Российской Федерации в ведении учреждения. В конкурсную массу они не попадают."
+    },
+    {
+      "question": "Что будет с жильём, если военный продолжает службу, а денег на платежи нет?",
+      "answer": "Пока служба идёт, государственных взносов хватает на платежи по займу и кредиту. Заявление обычно подают при других долгах - потребительские кредиты, карты, микрозаймы. И тогда банк-залогодержатель вправе требовать торгов, даже если по самой военной ипотеке просрочки нет."
+    },
+    {
+      "question": "Сколько времени есть у уволенного на возврат целевого займа?",
+      "answer": "Десять лет с даты увольнения. После просрочки начисляются пени по ключевой ставке. Подавать на банкротство можно в любой момент."
+    },
+    {
+      "question": "Можно ли участнику СВО взять кредитные каникулы и одновременно подать на банкротство?",
+      "answer": "Формально - да. Каникулы приостанавливают исполнение по конкретным договорам. Банкротство - отдельная судебная процедура. На практике это редкая комбинация."
+    },
+    {
+      "question": "Какова госпошлина при подаче военнослужащим заявления о собственном банкротстве?",
+      "answer": "Госпошлины нет. С 8 сентября 2024 года должник-гражданин освобождён от её уплаты. Остаётся обязательный депозит двадцать пять тысяч рублей на вознаграждение управляющего."
+    }
+  ],
+  "keyword_density_main": 0.0036,
+  "main_keyword_exact_count": 1,
+  "text_chars": 7895,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все юр-факты сверены с research.json. Госпошлина: должник-гражданин освобождён (ст. 333.37 НК, с 08.09.2024), depозит 25 000 руб - не пошлина. ст. 446 ГПК абз. 2 ч. 1 - иммунитет не на ипотечное жильё. ст. 213.25 п. 1, ст. 213.28 п. 3 и п. 5, ст. 213.10-1 127-ФЗ (введена 569-ФЗ от 29.12.2022, в силу с 09.01.2023). ФЗ-117 ст. 9, 10, 14, 15. ФЗ-111 от 06.04.2024 - кредитные каникулы для участников СВО. Распределение между банком и Росвоенипотекой - оставлено обтекаемо (контест по research.f4). Дело Демина (ВС, июль 2025) - без номера определения (research.f8 contested:true).",
+    "Запрещённых формулировок (гарантия списания, иммунитет на ипотечную квартиру, освобождение участников СВО от долгов автоматически, пошлина 300 руб.) в тексте нет."
+  ],
+  "length_status": "warn",
+  "length_kind": "default",
+  "local_spam_top10_share": 0.101,
+  "local_spam_ngram3_repeat": 0.04,
+  "local_lexical_diversity": 0.565,
+  "local_ai_markers_density": 0.2,
+  "local_ai_markers_total": 2,
+  "local_ai_markers_critical": 0,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 4,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 4,
+  "predicted_spam_pct": 60,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность заметно выше 50% (~60%)"
+  ],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1778786946/articles/bankrotstvo-pri-voennoy-ipoteke-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1778786946/articles/bankrotstvo-pri-voennoy-ipoteke-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Photograph of a private office interior with low-key, contemplative lighting. Materials: deep walnut paneling, oxblood leather chair, warm brass library lamp. Desk in the foreground holds five items: a closed dark leather portfolio stamped with a generic embossed emblem, an antique brass padlock with a short length of chain coiled beside it, an antique pocket watch on a chain lying open with a blank face, a fountain pen resting across a closed leather-bound notebook, and a polished round brass seal on a small stand. Background: blurred dark bookshelves with rows of gilt-spined volumes, a single narrow window showing cool blue-grey city lights in soft bokeh. Camera: three-quarter angle, eye-level, shallow depth of field pulling focus to the padlock and portfolio. Lighting: single warm tungsten desk lamp casting a tight pool of amber light, deep contemplative shadows at the edges. Palette: oxblood, walnut, aged brass on near-black. Mood: solitary deliberation before a consequential decision.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-05-14T19:29:07Z",
+  "date_published": "2026-05-14",
+  "date_modified": "2026-05-14",
+  "ready_for_review": true,
+  "ready_at": "2026-05-14T19:29:07Z",
+  "publication_target": "telegram_review"
+}
