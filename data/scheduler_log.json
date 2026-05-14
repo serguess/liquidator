@@ -1930,5 +1930,100 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-05-14T10:00:29",
+    "category": "news",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "mode": "new",
+    "topic_id": "news-13",
+    "topic_slug": "ogranichenie-kreditov-vysokaya-dolgovaya-nagruzka-mpl",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "ogranichenie-kreditov-vysokaya-dolgovaya-nagruzka-mpl",
+    "duration_sec": 1903.5,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "ality gate | passed (iter 2, blockers: 0) |\n| Готовность | `ready_for_review: true`, добавлена в очередь ревью |\n| Файл | `drafts/ogranichenie-kreditov-vysokaya-dolgovaya-nagruzka-mpl/article.html` |\n| Обложка | сгенерирована и загружена на Cloudinary |\n\n**Прогнозные метрики text.ru** (замер после публикации):\n- `textru_spam`: ~47%\n- `textru_ai_detector`: ~3%\n- `textru_uniqueness`: ~90%\n\nИтерация: 1 возврат на агента 4 (quality_gate поймал `author_markers_missing` + длину). После правки — чисто.",
+    "stderr_tail": "",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 6520
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
+  },
+  {
+    "timestamp": "2026-05-14T12:24:26",
+    "category": "fiz",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 1,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "fiz-29",
+    "topic_slug": "kreditnaya-istoriya-posle-bankrotstva",
+    "auto_skipped": [
+      {
+        "slug": "bankrotstvo-pri-avtokredite",
+        "reason": "hang_heartbeat_timeout",
+        "duration_sec": 2020.2
+      },
+      {
+        "slug": "dolgi-po-nasledstvu-bankrotstvo",
+        "reason": "hang_heartbeat_timeout",
+        "duration_sec": 1980.2
+      },
+      {
+        "slug": "kreditnaya-istoriya-posle-bankrotstva",
+        "reason": "hang_total_timeout",
+        "duration_sec": 1075.1
+      }
+    ],
+    "status": "failed",
+    "slug": "kreditnaya-istoriya-posle-bankrotstva",
+    "duration_sec": 5102.3,
+    "returncode": -2,
+    "rescued_after_failure": false,
+    "stdout_tail": "ю heartbeat и запускаю агента 3.\n[tool_use:Bash]\n[tool_use:Agent]\n[tool_use:Read]\n[tool_use:Read]\n[tool_use:Read]\n[tool_use:Read]\n[tool_use:Write]\nOutline создан (7130 знаков, хронологическая архитектура). Запускаю агента 4.\n[tool_use:Bash]\n[tool_use:Agent]\n[tool_use:Read]\n[tool_use:Read]\n[tool_use:Read]\n[tool_use:Read]\n[tool_use:Read]\n[tool_use:Read]\n[tool_use:Bash]\n[tool_use:Write]\n[tool_use:Bash]\n[tool_use:Bash]\n[tool_use:Bash]\n[tool_use:Write]\n[tool_use:Bash]\n[tool_use:Write]\n[tool_use:Bash]",
+    "stderr_tail": "\n[scheduler] hit slot/article timeout after 1075s",
+    "metrics": null
   }
 ]

@@ -832,7 +832,28 @@
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null
+    },
+    "ogranichenie-kreditov-vysokaya-dolgovaya-nagruzka-mpl": {
+      "category": "news",
+      "title": "ЦБ ограничил кредиты с высокой долговой нагрузкой: МПЛ",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-05-14T10:34:53",
+      "last_action_at": "2026-05-14T10:34:53",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-05-14T10:34:53"
     }
   },
-  "pending_actions": []
+  "pending_actions": [],
+  "last_batch_date": "2026-05-14",
+  "last_batch_count": 0,
+  "last_batch_at": "2026-05-14T10:00:50"
 }
