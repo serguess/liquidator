@@ -1,0 +1,97 @@
+{
+  "slug": "ogranichenie-kreditov-vysokaya-dolgovaya-nagruzka-mpl",
+  "category": "news",
+  "title": "ЦБ ограничил кредиты с высокой долговой нагрузкой: МПЛ",
+  "description": "29 апреля 2026 ЦБ снизил долю выдач по ипотеке на новостройки с ПДН выше 80% до 5%, по готовому жилью - до 15%. Что изменится для заёмщиков.",
+  "h1": "ЦБ ужесточил МПЛ: меньше кредитов заёмщикам с высокой долговой нагрузкой",
+  "lead": "29 апреля 2026 года Совет директоров Банка России снизил предельную долю рискованных выдач. Новые цифры заработают с 1 июля 2026 года.",
+  "topic_action": "проверку долговой нагрузки",
+  "breadcrumb_current": "ЦБ ужесточил МПЛ",
+  "og_image": "/assets/articles/ogranichenie-kreditov-vysokaya-dolgovaya-nagruzka-mpl.jpg",
+  "main_keyword": "ограничение кредитов заёмщикам с высокой долговой нагрузкой МПЛ",
+  "keywords": [
+    "макропруденциальные лимиты МПЛ",
+    "ПДН высокая долговая нагрузка",
+    "ограничение кредитов ЦБ",
+    "показатель долговой нагрузки кредит",
+    "МПЛ ипотека ПДН 80 процентов",
+    "ограничение выдачи кредитов банки",
+    "ЦБ МПЛ потребкредиты автокредиты",
+    "долговая нагрузка заёмщика банк",
+    "ипотека ПДН ограничение ЦБ"
+  ],
+  "secondary_keywords": [
+    "макропруденциальные лимиты МПЛ",
+    "ПДН высокая долговая нагрузка",
+    "ограничение кредитов ЦБ",
+    "показатель долговой нагрузки кредит",
+    "МПЛ ипотека ПДН 80 процентов",
+    "ограничение выдачи кредитов банки",
+    "ЦБ МПЛ потребкредиты автокредиты",
+    "долговая нагрузка заёмщика банк",
+    "ипотека ПДН ограничение ЦБ"
+  ],
+  "internal_links": [
+    "/articles/news/stavka-cb-14-5-procent-aprel-2026-dolzhniki",
+    "/articles/fiz/bankrotstvo-pri-ipoteke-edinstvennoe-zhilye",
+    "/articles/fiz/vnesudebnoe-bankrotstvo-cherez-mfc-2026"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_155986/",
+    "https://www.cbr.ru/press/pr/?file=638975243891812657macroprudential_limits.htm",
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/"
+  ],
+  "faq": [
+    {
+      "question": "Могут ли выдать жилищную ссуду при ПДН выше 80% после 1 июля?",
+      "answer": "Да, пока пятипроцентная доля по новостройкам и пятнадцатипроцентная по готовому жилью не выбрана. МПЛ ограничивает объём таких сделок в портфеле. Шансы выше в начале квартала."
+    },
+    {
+      "question": "Что такое LTV и почему он важен при покупке готового жилья?",
+      "answer": "LTV - отношение суммы ссуды к стоимости приобретаемой недвижимости. При значении выше 80% сделка попадает в категорию повышенного риска. Снизить его помогает бо́льший первоначальный взнос."
+    },
+    {
+      "question": "Какими способами можно снизить ПДН до обращения за кредитом?",
+      "answer": "Закрыть мелкие долги досрочно, оформить каникулы по действующим обязательствам, легализовать дополнительный доход (например, самозанятость). Каждый шаг уменьшает числитель формулы или увеличивает знаменатель."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все ключевые юр-факты сверены с research.json: f3 (29.04.2026 / с 01.07.2026), f4 (ДДУ 5%/1%), f5 (готовое жильё 15%/5%), f6 (ИЖС 28%/3%, просрочка 4,4%), f7 (нецелевые автокредиты 18%/3% против 20%/5%), f10 (просрочка квартиры 1%, ИЖС 4,4%, потребкредиты под залог 6,1%), f12 (ст. 213.3 127-ФЗ, порог 500 000 руб.), f13 (МФЦ 25 000-1 000 000 руб., 6 месяцев), f14 (должник-гражданин освобождён от госпошлины с 08.09.2024, депозит 25 000 руб., норма 300 руб. явно отменена).",
+    "Точные числа по нецелевым потребкредитам под залог недвижимости (f9 needs_verification) НЕ приведены, оставлена общая формулировка с отсылкой к cbr.ru.",
+    "Категория news: год в title/h1 отсутствует; даты используются только в lead, description и теле.",
+    "Итерация 2: длина сокращена до целевой (kind=news ≤ 6800), удалены повторы по топ-леммам (нагрузк, ипотек, займ, показател, кредитор), сохранены авторские маркеры «по нашему опыту», «Мы видим», «Мы считаем важным сказать вслух» (3 шт., для news ≥ 1)."
+  ],
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "text_chars": 6520,
+  "length_status": "warn",
+  "length_kind": "news",
+  "local_spam_top10_share": 0.093,
+  "local_spam_ngram3_repeat": 0.022,
+  "local_lexical_diversity": 0.677,
+  "local_ai_markers_density": 0.24,
+  "local_ai_markers_total": 2,
+  "local_ai_markers_critical": 0,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 3,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 3,
+  "predicted_spam_pct": 47,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 90,
+  "customer_risks": [],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1778743917/articles/ogranichenie-kreditov-vysokaya-dolgovaya-nagruzka-mpl-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1778743917/articles/ogranichenie-kreditov-vysokaya-dolgovaya-nagruzka-mpl-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Photograph through wet glass — the camera views a contemporary administrative financial-sector building through a window beaded with heavy raindrops, its glass façade reflecting the grey overcast sky and blurred amber streetlights below. Foreground objects on the windowsill and adjacent desk surface, sharp focus: a closed slim laptop with brushed aluminium lid, a white porcelain coffee cup on a saucer, a closed leather-bound notebook with a fountain pen laid across it, reading glasses resting on a folded credit-risk dossier tied with cord, a small brass desktop calculator with a blank display. Background: cool blue-grey tones of the rain-soaked façade dissolving into soft bokeh through the droplets, distant amber pin-points of city lights. Camera: tight crop, eye-level. Lighting: cool overcast daylight filtering through the wet glass, balanced by a warm desk lamp glow from inside. Palette: cool blue-grey exterior, warm brass and cream interior accents. Mood: measured regulatory scrutiny, financial discipline, contemporary banking policy.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-05-14T07:31:58Z",
+  "date_published": "2026-05-14",
+  "date_modified": "2026-05-14",
+  "ready_for_review": true,
+  "ready_at": "2026-05-14T07:31:58Z",
+  "publication_target": "telegram_review"
+}

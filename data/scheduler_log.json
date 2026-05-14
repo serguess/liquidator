@@ -1875,5 +1875,60 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-05-13T20:44:37",
+    "category": "news",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 8,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "expanded_in_slot": true,
+    "topic_id": "news-12",
+    "topic_slug": "valyutnyj-dolg-v-bankrotstve-na-kakuyu-datu",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "Автофикс применил правки: сокращения=0, пунктуация=0"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "valyutnyj-dolg-v-bankrotstve-na-kakuyu-datu",
+    "duration_sec": 3433.5,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "зврат из-за spam_risk + ai_markers_critical + broken_internal_links)\n- **Файл:** `drafts/valyutnyj-dolg-v-bankrotstve-na-kakuyu-datu/article.html`\n- **Статус:** `ready_for_review: true`, добавлен в очередь ревью\n\n**Метрики text.ru** (predicted по quality_gate):\n- `textru_ai_detector`: ~3% (прогноз)\n- `textru_uniqueness`: ~87% (прогноз)\n- `textru_spam`: ~53% (прогноз, чуть выше 50% — незначительно)\n\n**Обложка:** fallback (fal_client не установлен), использована существующая обложка из Cloudinary.",
+    "stderr_tail": "",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 6567
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]

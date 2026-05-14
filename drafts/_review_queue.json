@@ -356,6 +356,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "ogranichenie-kreditov-vysokaya-dolgovaya-nagruzka-mpl",
+      "category": "news",
+      "title": "ЦБ ограничил кредиты с высокой долговой нагрузкой: МПЛ",
+      "added_at": "2026-05-14T10:31:58.747671",
+      "char_count": 6520,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1778743917/articles/ogranichenie-kreditov-vysokaya-dolgovaya-nagruzka-mpl-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
