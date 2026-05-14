@@ -491,7 +491,11 @@
       "expected_length_chars": 7000,
       "topic_action": "банкротство с налоговыми долгами",
       "title_length": 51,
-      "description_length": 153
+      "description_length": 153,
+      "status": "rejected",
+      "rejected_at": "2026-05-14T18:17:52",
+      "rejected_reason": "hang_heartbeat_timeout",
+      "rejected_by": "auto_skip_in_slot"
     }
   ]
 }
