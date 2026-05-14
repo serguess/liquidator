@@ -460,7 +460,11 @@
       "expected_length_chars": 7000,
       "topic_action": "мировое соглашение при банкротстве",
       "title_length": 56,
-      "description_length": 151
+      "description_length": 151,
+      "status": "rejected",
+      "rejected_at": "2026-05-14T17:45:20",
+      "rejected_reason": "hang_heartbeat_timeout",
+      "rejected_by": "auto_skip_in_slot"
     },
     {
       "id": "yur-18",
