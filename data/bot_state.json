@@ -850,6 +850,24 @@
       "published_url": null,
       "pending_batch": true,
       "pending_batch_at": "2026-05-14T10:34:53"
+    },
+    "bankrotstvo-pri-dolgah-pered-fizicheskimi-licami": {
+      "category": "fiz",
+      "title": "Банкротство при долгах перед физлицами и по распискам",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-05-14T16:08:55",
+      "last_action_at": "2026-05-14T16:08:55",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-05-14T16:08:55"
     }
   },
   "pending_actions": [],

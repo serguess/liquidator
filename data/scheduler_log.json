@@ -2025,5 +2025,114 @@
     "stdout_tail": "ю heartbeat и запускаю агента 3.\n[tool_use:Bash]\n[tool_use:Agent]\n[tool_use:Read]\n[tool_use:Read]\n[tool_use:Read]\n[tool_use:Read]\n[tool_use:Write]\nOutline создан (7130 знаков, хронологическая архитектура). Запускаю агента 4.\n[tool_use:Bash]\n[tool_use:Agent]\n[tool_use:Read]\n[tool_use:Read]\n[tool_use:Read]\n[tool_use:Read]\n[tool_use:Read]\n[tool_use:Read]\n[tool_use:Bash]\n[tool_use:Write]\n[tool_use:Bash]\n[tool_use:Bash]\n[tool_use:Bash]\n[tool_use:Write]\n[tool_use:Bash]\n[tool_use:Write]\n[tool_use:Bash]",
     "stderr_tail": "\n[scheduler] hit slot/article timeout after 1075s",
     "metrics": null
+  },
+  {
+    "timestamp": "2026-05-14T14:48:20",
+    "category": "fiz",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 1,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "expanded_in_slot": true,
+    "topic_id": "fiz-31",
+    "topic_slug": "bankrotstvo-pri-dolgah-pered-fizicheskimi-licami",
+    "auto_skipped": [
+      {
+        "slug": "subsidiarnaya-otvetstvennost-i-bankrotstvo-fizlica",
+        "reason": "hang_heartbeat_timeout",
+        "duration_sec": 2035.2
+      }
+    ],
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "Автофикс применил правки: сокращения=4, пунктуация=0",
+        "internal_links_autofixed: 3 ссылок (например /articles/fiz/vnesudebnoe-bankrotstvo-cherez-mfc-2026.html→/articles/fiz/vnesudebnoe-bankrotstvo-cherez-mfc-2026; /articles/fiz/osparivanie-sdelok-fizlica-bankrotstvo.html→/articles/fiz/osparivanie-sdelok-fizlica-bankrotstvo; /articles/fiz/kogda-dolgi-ne-spishut-pri-bankrotstve.html→/articles/fiz/kogda-dolgi-ne-spishut-pri-bankrotstve)",
+        "forced_pass_at_iter3: блокеры пропущены, статья идёт в TG-очередь с metrics_warning=true. Было: 1 блокеров — spam_risk"
+      ],
+      "recommendations": [
+        "reduce_repetition: разбавить топ-5 частотных лемм местоимениями/перифразом — ['сумм', 'должник', 'друг', 'бумаг', 'документ']"
+      ],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "bankrotstvo-pri-dolgah-pered-fizicheskimi-licami",
+    "duration_sec": 4569.7,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "**Метрики text.ru:** `textru_ai_detector: null`, `textru_uniqueness: null`, `textru_spam: null` — статья в режиме `local_only`, проверка text.ru не запускалась.\n\n**Предиктивные метрики (quality_gate):** spam ~51%, AI ~3%, uniqueness ~87%.\n\n**Флаг:** `metrics_warning=true` — единственная причина: `ngram3_repeat_share=0.049` (порог 0.040), что соответствует повышенной тематической насыщенности статьи про долговые бумаги. Все hard-блокеры чистые. Статья добавлена в TG-очередь ревью (#29 в очереди).",
+    "stderr_tail": "",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7204
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
+  },
+  {
+    "timestamp": "2026-05-14T17:12:07",
+    "category": "yur",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 1,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "expand_topics",
+    "topic_id": "yur-18",
+    "topic_slug": "nalogovye-dolgi-bankrotstvo-yurlica-fns",
+    "auto_skipped": [
+      {
+        "slug": "mirovoe-soglashenie-pri-bankrotstve-yurlica",
+        "reason": "hang_heartbeat_timeout",
+        "duration_sec": 1985.2
+      },
+      {
+        "slug": "nalogovye-dolgi-bankrotstvo-yurlica-fns",
+        "reason": "hang_heartbeat_timeout",
+        "duration_sec": 1950.2
+      }
+    ],
+    "status": "topics_expanded",
+    "duration_sec": 4221.2,
+    "returncode": 0,
+    "stdout_tail": "стве имущество |\n| yur-24 | арбитражный управляющий как выбрать |\n| yur-25 | залоговый кредитор при банкротстве |\n| yur-26 | субсидиарная ответственность срок исковой давности |\n| yur-27 | банкротство группы компаний |\n| yur-28 | прекращение дела о банкротстве юридического лица |\n\nРаспределение по воронке: 3 commercial/problem-aware (decision) + 4 solution-aware (consideration/decision) + 3 informational (awareness). Все slug-и уникальны в проекте. Файл записан с UTF-8, indent=2, финальный `\\n`.",
+    "stderr_tail": ""
   }
 ]
