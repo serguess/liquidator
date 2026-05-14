@@ -760,7 +760,11 @@
       "frequency_estimate": "medium",
       "rationale": "Автокредит — второй по распространённости залоговый долг после ипотеки. Люди боятся потерять машину при банкротстве. Статья-компаньон к fiz-04 (ипотека).",
       "expected_length_chars": 7000,
-      "topic_action": "банкротство с автокредитом"
+      "topic_action": "банкротство с автокредитом",
+      "status": "rejected",
+      "rejected_at": "2026-05-14T12:58:29",
+      "rejected_reason": "hang_heartbeat_timeout",
+      "rejected_by": "auto_skip_in_slot"
     },
     {
       "id": "fiz-28",
