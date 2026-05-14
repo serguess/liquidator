@@ -395,6 +395,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "mirovoe-soglashenie-bankrotstvo-fizlica",
+      "category": "fiz",
+      "title": "Мировое соглашение при банкротстве физлица",
+      "added_at": "2026-05-14T21:06:19.049243",
+      "char_count": 7623,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1778781977/articles/mirovoe-soglashenie-bankrotstvo-fizlica-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

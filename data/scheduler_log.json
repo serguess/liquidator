@@ -2134,5 +2134,60 @@
     "returncode": 0,
     "stdout_tail": "стве имущество |\n| yur-24 | арбитражный управляющий как выбрать |\n| yur-25 | залоговый кредитор при банкротстве |\n| yur-26 | субсидиарная ответственность срок исковой давности |\n| yur-27 | банкротство группы компаний |\n| yur-28 | прекращение дела о банкротстве юридического лица |\n\nРаспределение по воронке: 3 commercial/problem-aware (decision) + 4 solution-aware (consideration/decision) + 3 informational (awareness). Все slug-и уникальны в проекте. Файл записан с UTF-8, indent=2, финальный `\\n`.",
     "stderr_tail": ""
+  },
+  {
+    "timestamp": "2026-05-14T19:36:27",
+    "category": "vzysk",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 1,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "vzysk-17",
+    "topic_slug": "proverka-dolgov-gosuslugi-fssp",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "Автофикс применил правки: сокращения=0, пунктуация=0",
+        "internal_links_autofixed: 4 ссылок (например /articles/vzysk/zapret-vyezda-za-rubezh-za-dolgi.html→/articles/vzysk/zapret-vyezda-za-rubezh-za-dolgi; /articles/vzysk/ispolnitelskij-sbor-kak-osporit.html→/articles/vzysk/ispolnitelskij-sbor-kak-osporit; /articles/vzysk/udershanie-iz-zarplaty-pristavami.html→/articles/vzysk/udershanie-iz-zarplaty-pristavami)"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "proverka-dolgov-gosuslugi-fssp",
+    "duration_sec": 2636.8,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "ус | `ready_for_review: true` |\n\n**Прогноз text.ru** (из quality_gate):\n- `textru_ai_detector`: ~3%\n- `textru_uniqueness`: ~87%\n- `textru_spam`: ~53%\n\nРеальные метрики text.ru появятся после публикации. Статья добавлена в очередь ревью (`_review_queue.json`, позиция 30). Готовый файл: `drafts/proverka-dolgov-gosuslugi-fssp/article.html`.\n\n**Ключевой факт статьи:** исполнительский сбор с 09.01.2026 вырос до 12% (ФЗ-563 от 29.12.2025) — актуальная информация, которой нет у большинства конкурентов.",
+    "stderr_tail": "",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7109
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]
