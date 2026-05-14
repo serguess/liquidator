@@ -369,6 +369,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "bankrotstvo-pri-dolgah-pered-fizicheskimi-licami",
+      "category": "fiz",
+      "title": "Банкротство при долгах перед физлицами и по распискам",
+      "added_at": "2026-05-14T16:04:12.328383",
+      "char_count": 7204,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1778763851/articles/bankrotstvo-pri-dolgah-pered-fizicheskimi-licami-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

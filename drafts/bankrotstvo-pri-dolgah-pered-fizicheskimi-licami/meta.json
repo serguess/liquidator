@@ -1,0 +1,104 @@
+{
+  "slug": "bankrotstvo-pri-dolgah-pered-fizicheskimi-licami",
+  "category": "fiz",
+  "title": "Банкротство при долгах перед физлицами и по распискам",
+  "description": "Спишут ли долг по расписке при банкротстве физлица, как кредитор-физлицо включается в реестр требований и что происходит с задолженностью после завершения процедуры.",
+  "h1": "Банкротство при долгах перед физическими лицами: что будет с распиской",
+  "lead": "Заём по расписке от соседа или родственника при банкротстве спишется так же, как банковский кредит, — но долговой документ суд проверяет строже, чем кредитный договор.",
+  "topic_action": "проверку списания долга перед физлицом",
+  "breadcrumb_current": "Банкротство при долгах перед физлицами",
+  "og_image": "/assets/articles/bankrotstvo-pri-dolgah-pered-fizicheskimi-licami.jpg",
+  "main_keyword": "банкротство при долгах перед физическими лицами",
+  "secondary_keywords": [
+    "долг по расписке банкротство",
+    "включение в реестр кредиторов физлицо",
+    "спишут ли долг по расписке при банкротстве",
+    "банкротство физлица долги перед частными лицами",
+    "как физлицу включиться в реестр кредиторов",
+    "долговая расписка банкротство физического лица",
+    "кредитор физическое лицо банкротство",
+    "очерёдность требований физлица при банкротстве"
+  ],
+  "internal_links": [
+    "/articles/fiz/vnesudebnoe-bankrotstvo-cherez-mfc-2026.html",
+    "/articles/fiz/osparivanie-sdelok-fizlica-bankrotstvo.html",
+    "/articles/fiz/kogda-dolgi-ne-spishut-pri-bankrotstve.html"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/b919efeffaee7c5a42d9c3d755951599d9b55288/",
+    "https://www.consultant.ru/document/cons_doc_LAW_131952/"
+  ],
+  "faq": [
+    {
+      "question": "Стоит ли человек по расписке в третьей очереди или после банков?",
+      "answer": "Наравне с банками. Закон знает три очереди удовлетворения, и заём от знакомого попадает в третью — туда же, где Сбер, ВТБ и микрофинансовые компании."
+    },
+    {
+      "question": "Что будет, если займодавец не подаст заявление в арбитражный суд?",
+      "answer": "При судебном банкротстве сумма спишется. Гражданин освобождается от неё, даже если получатель денег о деле не знал. При внесудебной процедуре через МФЦ наоборот: не указан в списке — задолженность остаётся."
+    },
+    {
+      "question": "Сколько времени есть у знакомого, чтобы включиться в реестр?",
+      "answer": "Два месяца с даты публикации сообщения о признании заявления должника обоснованным."
+    },
+    {
+      "question": "Обязательно ли указывать займодавца в списке при подаче через МФЦ?",
+      "answer": "Обязательно. Гражданин сам составляет перечень. Не вписали — требование живёт дальше."
+    },
+    {
+      "question": "Может ли управляющий оспорить возврат займа другу за год до банкротства?",
+      "answer": "Может. Глубина оспаривания — до трёх лет. Если возврат выглядел как «обход» других кредиторов, управляющий идёт в суд с заявлением о признании сделки недействительной."
+    },
+    {
+      "question": "При каких обстоятельствах деньги от родственника точно не спишут?",
+      "answer": "Если суд установит обман при получении средств, злостное уклонение от возврата или заведомо ложные сведения управляющему. Сам факт «это родственник» при добросовестном поведении на освобождение не влияет."
+    }
+  ],
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все юр-утверждения сверены с research.json: п. 3 ст. 213.28 (списание), п. 4-5 ст. 213.28 (отказ/несписываемые), п. 2 ст. 213.8 (срок 2 месяца), ст. 142 (пропорция), п. 26 Пленума ВАС № 35 (расписка), ст. 223.2/223.6 (МФЦ).",
+    "Госпошлина: должник-гражданин освобождён с 08.09.2024 (ФЗ-176), '300 руб.' нигде не упоминается — соответствует legal-facts.md.",
+    "Депозит 25 000 руб. на вознаграждение управляющего указан корректно, не сложен с госпошлиной.",
+    "Лимит МФЦ 25 000 — 1 000 000 руб. с ноября 2023 (ФЗ-474) — корректно.",
+    "Обзор практики ВС за 2024 год (утв. Президиумом 25.04.2025) использован без приписки конкретного пункта — согласовано с research review_notes по f11.",
+    "Итерация 2: writer переписал черновик для снижения заспамленности — top10_share упал с 10.4% до 9.7%, ngram3_repeat с 5.2% до 2.6%, топ-5 темообразующих лексем разнесены (сумм=9, друг=8, должник=8, банкротств=7, деньг=6)."
+  ],
+  "text_chars": 7204,
+  "length_status": "ok",
+  "length_kind": "default",
+  "local_spam_top10_share": 0.09,
+  "local_spam_ngram3_repeat": 0.049,
+  "local_lexical_diversity": 0.645,
+  "local_ai_markers_density": 0.22,
+  "local_ai_markers_total": 2,
+  "local_ai_markers_critical": 0,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 4,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 4,
+  "predicted_spam_pct": 51,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность чуть выше 50% (~51%)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "spam_risk: 1 флагов (ngram3_repeat_share>0.035 (=0.049)), top-5: ['сумм', 'должник', 'друг', 'бумаг', 'документ']"
+  ],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1778763851/articles/bankrotstvo-pri-dolgah-pered-fizicheskimi-licami-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1778763851/articles/bankrotstvo-pri-dolgah-pered-fizicheskimi-licami-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Macro close-up photograph emphasizing surface materials and tactile documentary detail. Hero subjects arranged on a weathered dark stone slab: a polished brass round seal pressed onto a closed heavy-paper envelope sealed with deep burgundy wax, a black fountain pen resting diagonally across a closed leather portfolio with cord ties, a brass key ring with two vintage keys lying beside a folded square of pale parchment, a small brass padlock with weathered patina resting at the edge. Camera: macro, very shallow depth of field isolating the seal and envelope in sharp focus while the padlock fades softly. Lighting: directional contrast from upper left — sharp specular highlights on the brass seal and wax surface, deep warm fill on the stone grain. Palette: aged brass, deep burgundy wax, charcoal stone, cognac leather. Mood: personal debt memorialized in writing, now under rigorous legal scrutiny.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-05-14T13:04:12Z",
+  "date_published": "2026-05-14",
+  "date_modified": "2026-05-14",
+  "ready_for_review": true,
+  "ready_at": "2026-05-14T13:04:12Z",
+  "publication_target": "telegram_review"
+}

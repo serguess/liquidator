@@ -1,0 +1,18 @@
+{
+  "slug": "bankrotstvo-pri-dolgah-pered-fizicheskimi-licami",
+  "passed": true,
+  "scores": {
+    "structure_overlap": 0.0,
+    "thesis_similarity": 0.0,
+    "cta_overlap": 0.0
+  },
+  "thresholds": {
+    "structure_overlap": 0.4,
+    "thesis_similarity": 0.3,
+    "cta_overlap": 0.2
+  },
+  "similar_articles": [],
+  "conflicts": [],
+  "recommendation": "ok",
+  "note": "Статья записана в data/embeddings.sqlite с published=0. В категории 'fiz' нет опубликованных статей для сравнения, поэтому все метрики = 0.0 (максимально уникально по отношению к текущей выборке)."
+}
