@@ -522,7 +522,11 @@
       "frequency_estimate": "medium",
       "rationale": "Первая и обязательная стадия любого банкротства юрлица. Директора вызывают в суд — они не понимают, что происходит. Страх и незнание триггерят запрос консультации.",
       "expected_length_chars": 7000,
-      "topic_action": "банкротство юридического лица"
+      "topic_action": "банкротство юридического лица",
+      "status": "rejected",
+      "rejected_at": "2026-05-15T00:57:04",
+      "rejected_reason": "hang_heartbeat_timeout",
+      "rejected_by": "auto_skip_in_slot"
     },
     {
       "id": "yur-20",
