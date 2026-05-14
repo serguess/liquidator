@@ -382,6 +382,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "proverka-dolgov-gosuslugi-fssp",
+      "category": "vzysk",
+      "title": "Как проверить долги у приставов через Госуслуги",
+      "added_at": "2026-05-14T20:20:05.863531",
+      "char_count": 7109,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1778779204/articles/proverka-dolgov-gosuslugi-fssp-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
