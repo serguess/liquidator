@@ -2189,5 +2189,52 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-05-14T22:00:15",
+    "category": "fiz",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "mode": "new",
+    "topic_id": "fiz-33",
+    "topic_slug": "bankrotstvo-pri-voennoy-ipoteke",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "internal_links_autofixed: 3 ссылок (например /bankrotstvo-pri-ipoteke-edinstvennoe-zhilye.html→/articles/fiz/bankrotstvo-pri-ipoteke-edinstvennoe-zhilye; /kogda-dolgi-ne-spishut-pri-bankrotstve.html→/articles/fiz/kogda-dolgi-ne-spishut-pri-bankrotstve; /ipoteka-posle-bankrotstva-fizlica.html→/articles/fiz/ipoteka-posle-bankrotstva-fizlica)",
+        "spam_soft_passed: ratio-флаги мягкие при iter=4, targeted_tokens чистые → пропускаем (spam ≈48-52% по прогнозу)"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "bankrotstvo-pri-voennoy-ipoteke",
+    "duration_sec": 1747.9,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "| passed |\n| Quality gate | passed (soft, iter=3) |\n| Режим | ready_for_review |\n| Файл | `drafts/bankrotstvo-pri-voennoy-ipoteke/article.html` |\n| Обложка | Cloudinary (cover готов, шаблон #16) |\n\n**Метрики text.ru:** не проверялись (значения появятся после публикации в TG-боте).\n\n**Статья добавлена в очередь ревью** (`_review_queue.json`, item #32). Предупреждение: spam ~60% по прогнозу — тема неизбежно содержит «банк», «ипотека», «Росвоенипотека» как ядро, targeted tokens чистые, блокера нет.",
+    "stderr_tail": "",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7895
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]

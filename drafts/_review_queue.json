@@ -421,6 +421,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "vneshnee-upravlenie-pri-bankrotstve-yurlica",
+      "category": "yur",
+      "title": "Внешнее управление при банкротстве юрлица: условия",
+      "added_at": "2026-05-15T01:37:23.034234",
+      "char_count": 8076,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1778798242/articles/vneshnee-upravlenie-pri-bankrotstve-yurlica-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

@@ -1,0 +1,229 @@
+{
+  "file": "/home/appuser/apps/liquidator/drafts/vneshnee-upravlenie-pri-bankrotstve-yurlica/article.html",
+  "passed": true,
+  "hard_failed": false,
+  "blockers": [],
+  "warnings": [
+    "Автофикс применил правки: сокращения=1, пунктуация=0",
+    "internal_links_autofixed: 5 ссылок (например /articles/yur/subsidiarka-direktora-kak-zashchititsya.html→/articles/yur/subsidiarka-direktora-kak-zashchititsya; /articles/yur/osparivanie-sdelok-pri-bankrotstve.html→/articles/yur/osparivanie-sdelok-pri-bankrotstve; /articles/yur/priznaki-bankrotstva-yurlica.html→/articles/yur/priznaki-bankrotstva-yurlica)",
+    "length_soft_passed: 8076 > 8000 но ≤ 8500 и iteration=5 — пропускаем (приоритет spam/uniqueness/ai)"
+  ],
+  "autofix": {
+    "file": "/home/appuser/apps/liquidator/drafts/vneshnee-upravlenie-pri-bankrotstve-yurlica/article.html",
+    "abbreviation_fixes": {
+      "\\bюрлиц(а|у|ом|ами|ам|ах|ы|е|о)?\\b": 1
+    },
+    "punctuation_fixes": 0,
+    "em_dash_fixes": 36,
+    "eng_quotes_fixes": 0,
+    "changed": true,
+    "bytes_before": 43634,
+    "bytes_after": 43591
+  },
+  "quality_checks": {
+    "file": "drafts/vneshnee-upravlenie-pri-bankrotstve-yurlica/article.html",
+    "text_chars": 8076,
+    "length_status": "too_long",
+    "length_kind": "default",
+    "passed": false,
+    "abbreviation_hits": [],
+    "punctuation_hits": [],
+    "spam": {
+      "total_words": 759,
+      "unique_lemmas": 507,
+      "lexical_diversity": 0.668,
+      "top10_words": [
+        [
+          "фирм",
+          9
+        ],
+        [
+          "актив",
+          7
+        ],
+        [
+          "месяц",
+          7
+        ],
+        [
+          "директор",
+          6
+        ],
+        [
+          "руководител",
+          6
+        ],
+        [
+          "управлен",
+          6
+        ],
+        [
+          "кредитор",
+          6
+        ],
+        [
+          "долг",
+          6
+        ],
+        [
+          "производств",
+          5
+        ],
+        [
+          "банкротств",
+          5
+        ]
+      ],
+      "top10_share": 0.083,
+      "top1_count": 9,
+      "top3_sum": 23,
+      "top10_sum": 63,
+      "ngram3_repeat_count": 16,
+      "ngram3_total": 757,
+      "ngram3_repeat_share": 0.021,
+      "risk_flags": []
+    },
+    "targeted_tokens": [
+      {
+        "token": "ст_сокращение",
+        "count": 2,
+        "limit": 5,
+        "over_limit": false
+      },
+      {
+        "token": "РФ_рудимент",
+        "count": 0,
+        "limit": 2,
+        "over_limit": false
+      },
+      {
+        "token": "руб_сокращение",
+        "count": 0,
+        "limit": 0,
+        "over_limit": false
+      },
+      {
+        "token": "ООО_бренд",
+        "count": 1,
+        "limit": 3,
+        "over_limit": false
+      },
+      {
+        "token": "000руб_паттерн",
+        "count": 1,
+        "limit": 2,
+        "over_limit": false
+      }
+    ],
+    "author_markers_count": 2,
+    "author_markers_min": 2
+  },
+  "ai_markers": {
+    "file": "drafts/vneshnee-upravlenie-pri-bankrotstve-yurlica/article.html",
+    "text_chars": 9971,
+    "hits_total": 2,
+    "density_per_1000": 0.2,
+    "by_severity": {
+      "critical": 0,
+      "high": 0,
+      "medium": 0,
+      "low": 2
+    },
+    "own_voice_hits": 4,
+    "first_person_singular_hits": 0,
+    "hits": [
+      {
+        "name": "ИИ-лексика: «взаимодействие/тонкости/нюансы (абстрактно)»",
+        "category": "ai-lexis",
+        "severity": "low",
+        "match": "Взаимодействие",
+        "position": 9778,
+        "context": "...ение law@pravo.shop Коммерческие предложения biz@pravo.shop Взаимодействие со СМИ pr@pravo.shop © 2018-2026 ООО «ЛИКВИДАТОР». Все прав..."
+      },
+      {
+        "name": "Канцелярит: «в рамках» (без нужды)",
+        "category": "clerical",
+        "severity": "low",
+        "match": "в рамках",
+        "position": 9390,
+        "context": "...ровождение на всех этапах. Надёжность и законность Работаем в рамках ФЗ и действующего законодательства РФ. РЕКВИЗИТЫ ООО «ЛИКВИ..."
+      }
+    ]
+  },
+  "anti_template": {
+    "file": "drafts/vneshnee-upravlenie-pri-bankrotstve-yurlica/article.html",
+    "text_chars": 8393,
+    "phrases_loaded": 138,
+    "passed": true,
+    "hits": []
+  },
+  "law_quotes": {
+    "total_chars": 0,
+    "limit": 600,
+    "samples": []
+  },
+  "rhythm": {
+    "file": "drafts/vneshnee-upravlenie-pri-bankrotstve-yurlica/article.html",
+    "text_chars": 8393,
+    "sentences_total": 102,
+    "avg_sentence_len": 7.97,
+    "short_sentences_count": 38,
+    "short_sentences_share": 0.373,
+    "long_sentences_count": 1,
+    "parasite_count": 1,
+    "parasite_per_1000": 0.12,
+    "flags": []
+  },
+  "internal_links": {
+    "total_hrefs": 44,
+    "ok": 0,
+    "whitelisted": 21,
+    "external": 15,
+    "fixed": 5,
+    "errors": 0,
+    "changed": true,
+    "fix_details": [
+      {
+        "href": "/articles/yur/subsidiarka-direktora-kak-zashchititsya.html",
+        "verdict": "fix_html",
+        "fixed_href": "/articles/yur/subsidiarka-direktora-kak-zashchititsya",
+        "reason": "трейлинг .html → 301-редирект"
+      },
+      {
+        "href": "/articles/yur/osparivanie-sdelok-pri-bankrotstve.html",
+        "verdict": "fix_html",
+        "fixed_href": "/articles/yur/osparivanie-sdelok-pri-bankrotstve",
+        "reason": "трейлинг .html → 301-редирект"
+      },
+      {
+        "href": "/articles/yur/priznaki-bankrotstva-yurlica.html",
+        "verdict": "fix_html",
+        "fixed_href": "/articles/yur/priznaki-bankrotstva-yurlica",
+        "reason": "трейлинг .html → 301-редирект"
+      },
+      {
+        "href": "/articles/yur/bankrotstvo-ooo-poshagovo-2026.html",
+        "verdict": "fix_html",
+        "fixed_href": "/articles/yur/bankrotstvo-ooo-poshagovo-2026",
+        "reason": "трейлинг .html → 301-редирект"
+      },
+      {
+        "href": "/articles/yur/zhaloba-na-arbitrazhnogo-upravljayushchego.html",
+        "verdict": "fix_html",
+        "fixed_href": "/articles/yur/zhaloba-na-arbitrazhnogo-upravljayushchego",
+        "reason": "трейлинг .html → 301-редирект"
+      }
+    ],
+    "error_details": []
+  },
+  "recommendations": [],
+  "retry_count": 5,
+  "predicted_metrics": {
+    "spam_pct": 47,
+    "ai_pct": 3,
+    "uniqueness_pct": 90
+  },
+  "customer_risks": [
+    "длина чуть больше лимита 8000 (8 076 знаков)"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "slug": "vneshnee-upravlenie-pri-bankrotstve-yurlica",
+  "passed": true,
+  "scores": {
+    "structure_overlap": 0.0,
+    "thesis_similarity": 0.0,
+    "cta_overlap": 0.0
+  },
+  "similar_articles": [],
+  "conflicts": [],
+  "recommendation": "ok",
+  "note": "Для категории 'yur' в базе нет опубликованных статей. Эмбеддинговые конфликты не выявлены. Статья готова к следующему этапу (агент 6 — редактура).",
+  "peers_compared": 0,
+  "article_id": 23,
+  "stored_in_db": true
+}
