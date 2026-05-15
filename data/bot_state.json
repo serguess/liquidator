@@ -983,7 +983,7 @@
     "chto-nelzya-delat-pered-bankrotstvom-fizlica": {
       "category": "fiz",
       "title": "Что нельзя делать перед банкротством физлица",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -991,13 +991,15 @@
       "tg_message_id": 525,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-15T08:42:02",
-      "last_action_at": "2026-05-15T08:42:02",
+      "last_action_at": "2026-05-16T00:02:58",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/fiz/chto-nelzya-delat-pered-bankrotstvom-fizlica",
       "pending_batch": false,
       "pending_batch_at": "2026-05-15T08:42:02",
-      "batch_sent_at": "2026-05-15T10:02:30"
+      "batch_sent_at": "2026-05-15T10:02:30",
+      "published_at": "2026-05-16T00:02:58",
+      "articles_path": "articles/fiz/chto-nelzya-delat-pered-bankrotstvom-fizlica.html"
     },
     "kak-pristavy-ishhut-dolzhnikov-imushchestvo": {
       "category": "vzysk",
@@ -1092,14 +1094,6 @@
     }
   },
   "pending_actions": [
-    {
-      "action": "publish",
-      "slug": "chto-nelzya-delat-pered-bankrotstvom-fizlica",
-      "version": "2.0",
-      "chat_id": 144472991,
-      "reply_to_message_id": 524,
-      "queued_at": "2026-05-15T23:50:00"
-    },
     {
       "action": "publish",
       "slug": "kak-pristavy-ishhut-dolzhnikov-imushchestvo",
