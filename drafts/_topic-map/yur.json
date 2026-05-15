@@ -731,7 +731,11 @@
       "frequency_estimate": "medium",
       "rationale": "Бывшие директора и учредители не знают, когда истекает угроза. Эта тема снимает страх и при этом даёт повод для консультации — а вдруг срок ещё не истёк?",
       "expected_length_chars": 7000,
-      "topic_action": "защиту от субсидиарной ответственности"
+      "topic_action": "защиту от субсидиарной ответственности",
+      "status": "rejected",
+      "rejected_at": "2026-05-15T12:50:26",
+      "rejected_reason": "hang_heartbeat_timeout",
+      "rejected_by": "auto_skip_in_slot"
     },
     {
       "id": "yur-27",
