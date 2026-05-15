@@ -899,7 +899,7 @@
     "proverka-dolgov-gosuslugi-fssp": {
       "category": "vzysk",
       "title": "Как проверить долги у приставов через Госуслуги",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -907,13 +907,15 @@
       "tg_message_id": 517,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-14T21:20:57",
-      "last_action_at": "2026-05-14T21:20:57",
+      "last_action_at": "2026-05-16T00:01:31",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/vzysk/proverka-dolgov-gosuslugi-fssp",
       "pending_batch": false,
       "pending_batch_at": "2026-05-14T21:20:57",
-      "batch_sent_at": "2026-05-15T10:02:22"
+      "batch_sent_at": "2026-05-15T10:02:22",
+      "published_at": "2026-05-16T00:01:31",
+      "articles_path": "articles/vzysk/proverka-dolgov-gosuslugi-fssp.html"
     },
     "bankrotstvo-pri-voennoy-ipoteke": {
       "category": "fiz",
@@ -1084,14 +1086,6 @@
     }
   },
   "pending_actions": [
-    {
-      "action": "publish",
-      "slug": "proverka-dolgov-gosuslugi-fssp",
-      "version": "2.0",
-      "chat_id": 144472991,
-      "reply_to_message_id": 516,
-      "queued_at": "2026-05-15T23:37:05"
-    },
     {
       "action": "publish",
       "slug": "bankrotstvo-pri-voennoy-ipoteke",

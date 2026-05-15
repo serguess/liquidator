@@ -2,6 +2,19 @@
   "generated": "2026-05-16",
   "articles": [
     {
+      "slug": "proverka-dolgov-gosuslugi-fssp",
+      "cat": "vzysk",
+      "catLabel": "Взыскание задолженности",
+      "title": "Как проверить долги у приставов через Госуслуги",
+      "desc": "Как проверить наличие исполнительного производства через сайт ФССП, Госуслуги и банк данных взысканий. Что делать, если нашли долг или производство.",
+      "date": "16 мая 2026",
+      "dateIso": "2026-05-16",
+      "read": "5 мин.",
+      "tone": "b",
+      "img": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1778779204/articles/proverka-dolgov-gosuslugi-fssp-cover.jpg",
+      "url": "articles/vzysk/proverka-dolgov-gosuslugi-fssp"
+    },
+    {
       "slug": "mirovoe-soglashenie-bankrotstvo-fizlica",
       "cat": "fiz",
       "catLabel": "Банкротство физических лиц",
