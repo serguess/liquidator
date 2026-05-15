@@ -2,6 +2,19 @@
   "generated": "2026-05-16",
   "articles": [
     {
+      "slug": "bankrotstvo-pri-voennoy-ipoteke",
+      "cat": "fiz",
+      "catLabel": "Банкротство физических лиц",
+      "title": "Банкротство при военной ипотеке: жильё и долг по ЦЖЗ",
+      "desc": "Что происходит с квартирой по военной ипотеке при банкротстве физлица: долг перед Росвоенипотекой, судьба ЦЖЗ, позиция Верховного суда, сценарии при службе и после увольнения.",
+      "date": "16 мая 2026",
+      "dateIso": "2026-05-16",
+      "read": "5 мин.",
+      "tone": "b",
+      "img": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1778786946/articles/bankrotstvo-pri-voennoy-ipoteke-cover.jpg",
+      "url": "articles/fiz/bankrotstvo-pri-voennoy-ipoteke"
+    },
+    {
       "slug": "proverka-dolgov-gosuslugi-fssp",
       "cat": "vzysk",
       "catLabel": "Взыскание задолженности",

@@ -920,7 +920,7 @@
     "bankrotstvo-pri-voennoy-ipoteke": {
       "category": "fiz",
       "title": "Банкротство при военной ипотеке: жильё и долг по ЦЖЗ",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -928,13 +928,15 @@
       "tg_message_id": 519,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-14T22:37:58",
-      "last_action_at": "2026-05-14T22:37:58",
+      "last_action_at": "2026-05-16T00:01:53",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/fiz/bankrotstvo-pri-voennoy-ipoteke",
       "pending_batch": false,
       "pending_batch_at": "2026-05-14T22:37:58",
-      "batch_sent_at": "2026-05-15T10:02:24"
+      "batch_sent_at": "2026-05-15T10:02:24",
+      "published_at": "2026-05-16T00:01:53",
+      "articles_path": "articles/fiz/bankrotstvo-pri-voennoy-ipoteke.html"
     },
     "vneshnee-upravlenie-pri-bankrotstve-yurlica": {
       "category": "yur",
@@ -1086,14 +1088,6 @@
     }
   },
   "pending_actions": [
-    {
-      "action": "publish",
-      "slug": "bankrotstvo-pri-voennoy-ipoteke",
-      "version": "2.0",
-      "chat_id": 144472991,
-      "reply_to_message_id": 518,
-      "queued_at": "2026-05-15T23:40:48"
-    },
     {
       "action": "publish",
       "slug": "vneshnee-upravlenie-pri-bankrotstve-yurlica",
