@@ -762,7 +762,11 @@
       "frequency_estimate": "low",
       "rationale": "Тема актуальна для среднего бизнеса с несколькими юрлицами. ВС РФ в 2024-2025 сформировал практику по консолидации дел — экспертная статья закрывает пробел в выдаче.",
       "expected_length_chars": 7000,
-      "topic_action": "банкротство группы компаний"
+      "topic_action": "банкротство группы компаний",
+      "status": "rejected",
+      "rejected_at": "2026-05-15T13:10:13",
+      "rejected_reason": "hang_total_timeout",
+      "rejected_by": "auto_skip_in_slot"
     },
     {
       "id": "yur-28",
