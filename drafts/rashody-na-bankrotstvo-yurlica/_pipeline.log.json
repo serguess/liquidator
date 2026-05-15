@@ -1,0 +1,31 @@
+{
+  "slug": "rashody-na-bankrotstvo-yurlica",
+  "category": "yur",
+  "started_at": "2026-05-16T00:04:36",
+  "finished_at": null,
+  "total_duration_sec": null,
+  "current_iteration": 1,
+  "events": [
+    {
+      "ts": "2026-05-16T00:04:36",
+      "agent": "scheduler",
+      "event": "slot_started",
+      "iteration": 1,
+      "today_count": 7,
+      "limit": 10,
+      "write_article_duration_sec": 3875.3
+    },
+    {
+      "ts": "2026-05-16T00:04:36",
+      "agent": "quality_gate",
+      "event": "passed",
+      "iteration": 1,
+      "blockers": [],
+      "warnings": [
+        "length_soft_passed: 8283 > 8000 но ≤ 8500 и iteration=5 — пропускаем (приоритет spam/uniqueness/ai)",
+        "spam_soft_passed: ratio-флаги мягкие при iter=5, targeted_tokens чистые → пропускаем (spam ≈48-52% по прогнозу)"
+      ],
+      "recommendations": []
+    }
+  ]
+}

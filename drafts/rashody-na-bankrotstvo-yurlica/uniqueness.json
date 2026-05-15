@@ -1,0 +1,23 @@
+{
+  "slug": "rashody-na-bankrotstvo-yurlica",
+  "passed": true,
+  "scores": {
+    "structure_overlap": 0.071,
+    "thesis_similarity": 0.016,
+    "cta_overlap": 0.0
+  },
+  "thresholds": {
+    "structure_overlap": 0.4,
+    "thesis_similarity": 0.3,
+    "cta_overlap": 0.2
+  },
+  "similar_articles": [
+    {
+      "slug": "snyatie-aresta-so-scheta-pristavami",
+      "category": "vzysk",
+      "similarity": 0.016
+    }
+  ],
+  "conflicts": [],
+  "recommendation": "ok"
+}

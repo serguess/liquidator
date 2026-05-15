@@ -1,0 +1,101 @@
+{
+  "slug": "rashody-na-bankrotstvo-yurlica",
+  "category": "yur",
+  "title": "Расходы на банкротство юрлица: из чего складывается",
+  "description": "Вознаграждение управляющего, публикации, госпошлина, оценка имущества - разбираем все статьи расходов при банкротстве организации и кто их несёт.",
+  "h1": "Расходы на банкротство юридического лица: что входит и кто платит",
+  "lead": "Шесть статей сметы, закреплённых 127-ФЗ и Налоговым кодексом: от госпошлины кредитора до оплаты управляющему и публикаций - кто платит и когда счёт переходит на заявителя.",
+  "topic_action": "расчёт стоимости банкротства",
+  "offer": "raschet-stoimosti",
+  "breadcrumb_current": "Расходы на банкротство юрлица",
+  "og_image": "/assets/articles/rashody-na-bankrotstvo-yurlica.jpg",
+  "main_keyword": "расходы на банкротство юридического лица",
+  "secondary_keywords": [
+    "что входит в расходы по банкротству юрлица",
+    "вознаграждение арбитражного управляющего при банкротстве",
+    "публикации в ЕФРСБ при банкротстве юрлица",
+    "стоимость процедуры банкротства организации",
+    "кто оплачивает банкротство юрлица",
+    "расходы на оценщика при банкротстве юрлица",
+    "текущие платежи при банкротстве юридического лица"
+  ],
+  "internal_links": [
+    "/articles/yur/bankrotstvo-ooo-poshagovo-2026",
+    "/articles/yur/kak-podat-na-bankrotstvo-kontragenta",
+    "/articles/yur/subsidiarka-direktora-kak-zashchititsya",
+    "/articles/yur/osparivanie-sdelok-pri-bankrotstve"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/",
+    "https://www.consultant.ru/document/cons_doc_LAW_19671/",
+    "https://bankrot.fedresurs.ru/"
+  ],
+  "faq": [
+    {
+      "question": "Можно ли начать процедуру, если у фирмы нет ни счетов, ни имущества?",
+      "answer": "Подать заявление - да. Запустить процесс - только при готовности заявителя финансировать. Арбитраж потребует депозит на оплату первого назначенца. Без депозита суд откажет в принятии или прекратит производство."
+    },
+    {
+      "question": "Какие публикации оплачиваются отдельно: ЕФРСБ или «Коммерсантъ»?",
+      "answer": "Оба источника. ЕФРСБ - по тарифу оператора за каждое сообщение, «Коммерсантъ» - по площади объявления. Это две независимые статьи сметы, дублирующие друг друга по ключевым событиям дела (введение наблюдения, признание банкротом)."
+    },
+    {
+      "question": "Сколько стоит вознаграждение управляющего, если дело длится два года?",
+      "answer": "Только фиксированная часть конкурсного: 30 тысяч × 24 = 720. Плюс наблюдение - ещё 180-210. Плюс проценты по итогам реализации. Итог обычно выше миллиона, без переменных позиций."
+    },
+    {
+      "question": "Обязательно ли платить за оценку имущества, если оно явно стоит меньше долга?",
+      "answer": "Да. По 130-й статье оценка независимым специалистом - обязательный шаг конкурсного производства, а не право управляющего. Отказ от неё не допускается, экономия за этот счёт невозможна."
+    },
+    {
+      "question": "Что произойдёт с расходами, если суд прекратит дело из-за отсутствия финансирования?",
+      "answer": "Понесённые на момент прекращения суммы обязан возместить заявитель: это касается уже выплаченной оплаты, опубликованных объявлений, выполненных работ юристов."
+    },
+    {
+      "question": "Чем отличается лимит оплаты специалистов для малой и крупной фирмы?",
+      "answer": "Чем больше балансовая стоимость активов, тем больше абсолютная сумма допустимых выплат, но тем ниже процентная доля. Шкала градуированная: маленькая компания получает узкий коридор расходов на юристов и бухгалтеров, крупная - широкий, но в относительных величинах процент всегда падает."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все юр-факты соответствуют research.json (last_verified 2026-05-15).",
+    "Точные ставки процентного вознаграждения и числовые пороги ст. 20.7 не воспроизводятся (needs_verification в research) - даны описательно.",
+    "Тариф ЕФРСБ и «Коммерсанта» - без конкретных сумм, со ссылкой на bankrot.fedresurs.ru.",
+    "Госпошлина для должника-юрлица при самостоятельной подаче - обтекаемо, без конкретной суммы (legal-facts: отдельный вопрос)."
+  ],
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "text_chars": 8283,
+  "length_status": "too_long",
+  "length_kind": "default",
+  "local_spam_top10_share": 0.106,
+  "local_spam_ngram3_repeat": 0.03,
+  "local_lexical_diversity": 0.597,
+  "local_ai_markers_density": 0.19,
+  "local_ai_markers_total": 2,
+  "local_ai_markers_critical": 0,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 4,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 5,
+  "predicted_spam_pct": 53,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность чуть выше 50% (~53%)",
+    "длина больше лимита 8000 (8 283 знаков)"
+  ],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1778879061/articles/rashody-na-bankrotstvo-yurlica-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1778879061/articles/rashody-na-bankrotstvo-yurlica-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Editorial photograph of a corner of a desk in a high-floor executive office. Foreground: a scientific calculator with a blank screen positioned left of center, a closed dark leather portfolio with a fountain pen resting across it, a polished brass round company seal, a slim leather-bound notebook, a white porcelain coffee cup on a saucer, a small stack of closed dossiers tied with cord. Background through floor-to-ceiling windows: blurred urban skyline at dusk, distant city lights fading into low fog. Camera: shallow depth of field, three-quarter angle, eye-level. Lighting: cool ambient daylight blended with warm interior tungsten from a brass desk lamp. Materials: walnut desktop, dark glass, polished brass. Mood: senior business owner weighing the full financial cost of a complex legal procedure.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-05-15T21:04:22Z",
+  "date_published": "2026-05-16",
+  "date_modified": "2026-05-16",
+  "ready_for_review": true,
+  "ready_at": "2026-05-15T21:04:22Z",
+  "publication_target": "telegram_review"
+}
