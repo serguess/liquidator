@@ -2595,5 +2595,49 @@
     "stdout_tail": "инаю с heartbeat и агента 1.\n[tool_use:Bash]\n[tool_use:Agent]\n[tool_use:Read]\n[tool_use:Bash]\n[tool_use:WebSearch]\n[tool_use:WebSearch]\n[tool_use:Read]\n[tool_use:WebSearch]\n[tool_use:Grep]\n[tool_use:Bash]\n[tool_use:Bash]\n[tool_use:Read]\n[tool_use:Bash]\n[tool_use:Write]\n[tool_use:Read]\n[tool_use:Bash]\nАгент 1 завершён, каннибализации нет. Запускаю агента 2.\n[tool_use:Bash]\n[tool_use:Agent]\n[tool_use:Read]\n[tool_use:Read]\n[tool_use:Read]\n[tool_use:WebSearch]\n[tool_use:WebFetch]\n[tool_use:WebFetch]",
     "stderr_tail": "\n[scheduler] killed by heartbeat timeout (>1800s of silence) stream_stats={'events': 77, 'assistant': 28, 'tool_use': 0, 'tool_result': 24, 'raw': 0}",
     "metrics": null
+  },
+  {
+    "timestamp": "2026-05-15T15:18:05",
+    "category": "vzysk",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "mode": "new",
+    "topic_id": "vzysk-20",
+    "topic_slug": "rassrochka-ispolneniya-resheniya-suda",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "rassrochka-ispolneniya-resheniya-suda",
+    "duration_sec": 1822.3,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "ерки):**\n- `textru_ai_detector`: None (живые данные не запрашивались)\n- `textru_spam`: None\n- `textru_uniqueness`: None\n- Predicted по модели: spam 49%, AI 3%, uniqueness 87%\n\n**Uniqueness (эмбеддинги):** passed — сходство с published 2.8%, H2-структура 0% пересечений\n**Factcheck:** passed — все 16 фактов research.json актуальны, запрещённых формулировок нет\n**Обложка:** сгенерирована, загружена на Cloudinary (template 19)\n**Статус:** `ready_for_review: true`, добавлена в TG-очередь (37 позиций)",
+    "stderr_tail": "",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7996
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]
