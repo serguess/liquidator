@@ -1,0 +1,103 @@
+{
+  "slug": "zhaloba-na-pristava-nezakonnye-dejstviya",
+  "category": "vzysk",
+  "title": "Жалоба на пристава: куда и как подать",
+  "description": "Куда жаловаться на незаконные действия или бездействие пристава: старшему приставу, в прокуратуру или суд. Сроки, форма по ст. 124 ФЗ-229, образец.",
+  "h1": "Жалоба на судебного пристава: куда подать и как добиться результата",
+  "lead": "Право обжаловать постановления, действия и бездействие сотрудника ФССП есть и у должника, и у взыскателя. Каналов три, срок на подачу — 10 дней.",
+  "topic_action": "обжалование действий пристава",
+  "breadcrumb_current": "Жалоба на пристава",
+  "og_image": "/assets/articles/zhaloba-na-pristava-nezakonnye-dejstviya.jpg",
+  "main_keyword": "жалоба на судебного пристава",
+  "secondary_keywords": [
+    "куда подать жалобу на пристава",
+    "обжаловать действия пристава",
+    "жалоба на бездействие пристава",
+    "незаконные действия пристава",
+    "жалоба на пристава в прокуратуру",
+    "жалоба на пристава в суд",
+    "срок подачи жалобы на пристава 10 дней",
+    "жалоба старшему приставу",
+    "обжалование постановления пристава"
+  ],
+  "internal_links": [
+    "/articles/vzysk/udershanie-iz-zarplaty-pristavami.html",
+    "/articles/vzysk/snyatie-aresta-so-scheta-pristavami.html",
+    "/articles/vzysk/ispolnitelskij-sbor-kak-osporit.html",
+    "/articles/vzysk/zapret-vyezda-za-rubezh-za-dolgi.html"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_71450/",
+    "https://www.consultant.ru/document/cons_doc_LAW_176147/"
+  ],
+  "faq": [
+    {
+      "question": "Можно ли подать обращение, если 10 дней уже прошло?",
+      "answer": "Да, но придётся восстанавливать пропущенный отрезок. К документу прикладывается ходатайство с уважительной причиной и подтверждающими бумагами: больничный лист, командировочное удостоверение, доказательство неполучения копии постановления."
+    },
+    {
+      "question": "Что происходит с производством, пока ФССП рассматривает обращение?",
+      "answer": "Дело идёт своим чередом. Удержания продолжаются, арест с имущества не снимается. Приостанавливает взыскание только определение суда."
+    },
+    {
+      "question": "Обязательно ли сначала идти в ФССП перед обращением в суд?",
+      "answer": "Нет. Закон предусматривает право выбора. Можно сразу подавать административный иск по главе 22 КАС, минуя внутреннюю иерархию."
+    },
+    {
+      "question": "Защита прожиточного минимума на счетах работает автоматически?",
+      "answer": "Нет. Включается только после того, как гражданин подал в подразделение ФССП заявление о сохранении этой суммы на конкретном счёте."
+    },
+    {
+      "question": "Сколько стоит подать административный иск в суд?",
+      "answer": "Как правило, 300 рублей для физического лица (пп. 7 п. 1 ст. 333.19 НК РФ). Перед подачей лучше уточнить актуальный размер в канцелярии или на сайте суда — ставки периодически индексируются."
+    },
+    {
+      "question": "Какой суд выбрать, если долг взыскан по решению арбитража?",
+      "answer": "Арбитражный суд — тот же, что выдавал исполнительный документ (статья 128 ФЗ-229). В районный суд такое дело подавать нельзя."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все юридические утверждения сверены с research.json (21 факт, last_verified 2026-05-15).",
+    "Госпошлина 300 руб. подана с обтекаемой формулировкой (research.legislation_status: needs_verification после ФЗ-176/2024); рекомендация уточнить в суде включена в текст.",
+    "Ставка исполнительского сбора 12% с 09.01.2026 (ФЗ-563 от 29.12.2025) — соответствует research.f16.",
+    "ФЗ-112 от 25.04.2026 (расширение перечня ст. 101) — соответствует research.f13.",
+    "Лимиты удержаний 50%/70% и список четырёх категорий — соответствуют legal-facts.md (источник правды).",
+    "Защита прожиточного минимума — не автоматически, только по заявлению (legal-facts.md, research.f15).",
+    "Все 4 внутренних URL проверены по published_index.json (категория /articles/vzysk/)."
+  ],
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "text_chars": 7970,
+  "length_status": "warn",
+  "length_kind": "default",
+  "local_spam_top10_share": 0.104,
+  "local_spam_ngram3_repeat": 0.012,
+  "local_lexical_diversity": 0.596,
+  "local_ai_markers_density": 0.2,
+  "local_ai_markers_total": 2,
+  "local_ai_markers_critical": 0,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 3,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 4,
+  "predicted_spam_pct": 53,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность чуть выше 50% (~53%)"
+  ],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1778865440/articles/zhaloba-na-pristava-nezakonnye-dejstviya-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1778865440/articles/zhaloba-na-pristava-nezakonnye-dejstviya-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Photograph of a wide stone or marble staircase inside a grand official building, camera at low-angle from the base of the stairs looking upward along the ascending steps, with a symmetric colonnade framing both sides. At the base of the staircase, arranged on the nearest marble step: a sealed formal envelope lying flat, a closed dark leather portfolio leaning against a stone column, a small antique brass padlock with a heavy chain coiled beside it, and a compact stack of three dossiers tied with cord. Background: upper landings fade into soft shadow, tall arched windows high above casting shafts of cool diffused daylight diagonally across the worn marble treads. Materials: polished grey-white marble with visible veining, oxidized brass railings, deep red carpet runner on the stairs. Palette: cool stone grey, deep oxblood, tarnished brass. Mood: deliberate procedural ascent, escalation through official channels, formal institutional weight.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-05-15T17:17:21Z",
+  "date_published": "2026-05-15",
+  "date_modified": "2026-05-15",
+  "ready_for_review": true,
+  "ready_at": "2026-05-15T17:17:21Z",
+  "publication_target": "telegram_review"
+}

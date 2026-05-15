@@ -2639,5 +2639,61 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-05-15T17:12:07",
+    "category": "fiz",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 1,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "fiz-36",
+    "topic_slug": "bankrotstvo-pri-dolge-po-kreditnoj-karte",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "forced_pass_at_iter3: блокеры пропущены, статья идёт в TG-очередь с metrics_warning=true. Было: 1 блокеров — spam_risk"
+      ],
+      "recommendations": [
+        "reduce_repetition: разбавить топ-5 частотных лемм местоимениями/перифразом — ['карт', 'заёмщик', 'банк', 'долг', 'сумм']"
+      ],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "bankrotstvo-pri-dolge-po-kreditnoj-karte",
+    "duration_sec": 2507.1,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": " НК РФ)\n- Quality gate: force-pass на iter=3 (`metrics_warning=true`, блокер: spam ngram3=0.052)\n- AI-маркеры: 4 хита, density=0.44/1000 (ни одного critical/high)\n- `textru_ai_detector`: ~3% (predicted)\n- `textru_uniqueness`: ~87% (predicted)\n- `textru_spam`: ~51% (predicted, чуть выше 50% — помечено как warning)\n\n**Публикация:** статья добавлена в TG-очередь ревью (`ready_for_review=true`), обложка сгенерирована и загружена на Cloudinary. На сайт не публикуется до нажатия «Опубликовать» в боте.",
+    "stderr_tail": "",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7141
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]

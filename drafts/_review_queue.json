@@ -499,6 +499,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "zhaloba-na-pristava-nezakonnye-dejstviya",
+      "category": "vzysk",
+      "title": "Жалоба на пристава: куда и как подать",
+      "added_at": "2026-05-15T20:17:21.890202",
+      "char_count": 7970,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1778865440/articles/zhaloba-na-pristava-nezakonnye-dejstviya-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
