@@ -638,7 +638,11 @@
       "frequency_estimate": "medium",
       "rationale": "Кредиторы и инвесторы хотят понять, как получить деньги или купить актив. Тема привлекает B2B-аудиторию, которая ищет возможности в банкротстве контрагентов.",
       "expected_length_chars": 7000,
-      "topic_action": "участие в торгах при банкротстве"
+      "topic_action": "участие в торгах при банкротстве",
+      "status": "rejected",
+      "rejected_at": "2026-05-15T11:24:14",
+      "rejected_reason": "hang_heartbeat_timeout",
+      "rejected_by": "auto_skip_in_slot"
     },
     {
       "id": "yur-24",
