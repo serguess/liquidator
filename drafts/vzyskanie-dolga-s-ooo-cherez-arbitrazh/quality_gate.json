@@ -1,0 +1,235 @@
+{
+  "file": "/home/appuser/apps/liquidator/drafts/vzyskanie-dolga-s-ooo-cherez-arbitrazh/article.html",
+  "passed": true,
+  "hard_failed": false,
+  "blockers": [],
+  "warnings": [
+    "internal_links_autofixed: 3 ссылок (например /dosudebnaya-pretenziya-obrazec.html→/articles/vzysk/dosudebnaya-pretenziya-obrazec; /kak-otmenit-sudebnyj-prikaz.html→/articles/vzysk/kak-otmenit-sudebnyj-prikaz; /ispolnitelnyj-list-poluchenie-predyavlenie.html→/articles/vzysk/ispolnitelnyj-list-poluchenie-predyavlenie)"
+  ],
+  "autofix": {
+    "file": "/home/appuser/apps/liquidator/drafts/vzyskanie-dolga-s-ooo-cherez-arbitrazh/article.html",
+    "abbreviation_fixes": {},
+    "punctuation_fixes": 0,
+    "em_dash_fixes": 0,
+    "eng_quotes_fixes": 0,
+    "changed": false,
+    "bytes_before": 40612,
+    "bytes_after": 40612
+  },
+  "quality_checks": {
+    "file": "drafts/vzyskanie-dolga-s-ooo-cherez-arbitrazh/article.html",
+    "text_chars": 7406,
+    "length_status": "ok",
+    "length_kind": "default",
+    "passed": true,
+    "abbreviation_hits": [],
+    "punctuation_hits": [],
+    "spam": {
+      "total_words": 707,
+      "unique_lemmas": 449,
+      "lexical_diversity": 0.635,
+      "top10_words": [
+        [
+          "тысяч",
+          12
+        ],
+        [
+          "арбитраж",
+          9
+        ],
+        [
+          "сумм",
+          9
+        ],
+        [
+          "приказ",
+          8
+        ],
+        [
+          "дней",
+          7
+        ],
+        [
+          "миллион",
+          7
+        ],
+        [
+          "контрагент",
+          6
+        ],
+        [
+          "ответчик",
+          6
+        ],
+        [
+          "претенз",
+          6
+        ],
+        [
+          "взыскан",
+          6
+        ]
+      ],
+      "top10_share": 0.107,
+      "top1_count": 12,
+      "top3_sum": 30,
+      "top10_sum": 76,
+      "ngram3_repeat_count": 16,
+      "ngram3_total": 705,
+      "ngram3_repeat_share": 0.023,
+      "risk_flags": []
+    },
+    "targeted_tokens": [
+      {
+        "token": "ст_сокращение",
+        "count": 1,
+        "limit": 5,
+        "over_limit": false
+      },
+      {
+        "token": "РФ_рудимент",
+        "count": 0,
+        "limit": 2,
+        "over_limit": false
+      },
+      {
+        "token": "руб_сокращение",
+        "count": 0,
+        "limit": 0,
+        "over_limit": false
+      },
+      {
+        "token": "ООО_бренд",
+        "count": 3,
+        "limit": 3,
+        "over_limit": false
+      },
+      {
+        "token": "000руб_паттерн",
+        "count": 0,
+        "limit": 2,
+        "over_limit": false
+      }
+    ],
+    "author_markers_count": 3,
+    "author_markers_min": 2
+  },
+  "ai_markers": {
+    "file": "drafts/vzyskanie-dolga-s-ooo-cherez-arbitrazh/article.html",
+    "text_chars": 9231,
+    "hits_total": 5,
+    "density_per_1000": 0.54,
+    "by_severity": {
+      "critical": 0,
+      "high": 2,
+      "medium": 0,
+      "low": 3
+    },
+    "own_voice_hits": 3,
+    "first_person_singular_hits": 0,
+    "hits": [
+      {
+        "name": "Реклама: «самый дешёвый/самый быстрый» (без обоснования)",
+        "category": "ad",
+        "severity": "high",
+        "match": "самый быстрый",
+        "position": 4612,
+        "context": "...ст . На предъявление к исполнению три года. Маршрут первый, самый быстрый. Если известен расчётный счёт ответчика, лист уходит напрям..."
+      },
+      {
+        "name": "ИИ-лексика: «взаимодействие/тонкости/нюансы (абстрактно)»",
+        "category": "ai-lexis",
+        "severity": "low",
+        "match": "Взаимодействие",
+        "position": 9038,
+        "context": "...ение law@pravo.shop Коммерческие предложения biz@pravo.shop Взаимодействие со СМИ pr@pravo.shop © 2018-2026 ООО «ЛИКВИДАТОР». Все прав..."
+      },
+      {
+        "name": "Канцелярит: «в рамках» (без нужды)",
+        "category": "clerical",
+        "severity": "low",
+        "match": "В рамках",
+        "position": 7761,
+        "context": "...ть с руководителя убытки. Доказывать придётся прямую связь. В рамках банкротного дела это проще. Оставить заявку на расчёт стоим..."
+      },
+      {
+        "name": "Канцелярит: «в рамках» (без нужды)",
+        "category": "clerical",
+        "severity": "low",
+        "match": "в рамках",
+        "position": 8650,
+        "context": "...ровождение на всех этапах. Надёжность и законность Работаем в рамках ФЗ и действующего законодательства РФ. РЕКВИЗИТЫ ООО «ЛИКВИ..."
+      },
+      {
+        "name": "Канцелярит: «надлежащий/имеет место быть»",
+        "category": "clerical",
+        "severity": "high",
+        "match": "надлежаще",
+        "position": 1105,
+        "context": "...к. Правовая опора простая: обязательство должно исполняться надлежаще, односторонний отказ от оплаты запрещён (нормы 309-310 ГК)...."
+      }
+    ]
+  },
+  "anti_template": {
+    "file": "drafts/vzyskanie-dolga-s-ooo-cherez-arbitrazh/article.html",
+    "text_chars": 7712,
+    "phrases_loaded": 138,
+    "passed": true,
+    "hits": []
+  },
+  "law_quotes": {
+    "total_chars": 0,
+    "limit": 600,
+    "samples": []
+  },
+  "rhythm": {
+    "file": "drafts/vzyskanie-dolga-s-ooo-cherez-arbitrazh/article.html",
+    "text_chars": 7712,
+    "sentences_total": 108,
+    "avg_sentence_len": 7.04,
+    "short_sentences_count": 49,
+    "short_sentences_share": 0.454,
+    "long_sentences_count": 1,
+    "parasite_count": 2,
+    "parasite_per_1000": 0.26,
+    "flags": []
+  },
+  "internal_links": {
+    "total_hrefs": 40,
+    "ok": 0,
+    "whitelisted": 21,
+    "external": 13,
+    "fixed": 3,
+    "errors": 0,
+    "changed": true,
+    "fix_details": [
+      {
+        "href": "/dosudebnaya-pretenziya-obrazec.html",
+        "verdict": "fix_short",
+        "fixed_href": "/articles/vzysk/dosudebnaya-pretenziya-obrazec",
+        "reason": "короткая ссылка → /articles/vzysk/dosudebnaya-pretenziya-obrazec"
+      },
+      {
+        "href": "/kak-otmenit-sudebnyj-prikaz.html",
+        "verdict": "fix_short",
+        "fixed_href": "/articles/vzysk/kak-otmenit-sudebnyj-prikaz",
+        "reason": "короткая ссылка → /articles/vzysk/kak-otmenit-sudebnyj-prikaz"
+      },
+      {
+        "href": "/ispolnitelnyj-list-poluchenie-predyavlenie.html",
+        "verdict": "fix_short",
+        "fixed_href": "/articles/vzysk/ispolnitelnyj-list-poluchenie-predyavlenie",
+        "reason": "короткая ссылка → /articles/vzysk/ispolnitelnyj-list-poluchenie-predyavlenie"
+      }
+    ],
+    "error_details": []
+  },
+  "recommendations": [],
+  "retry_count": 3,
+  "predicted_metrics": {
+    "spam_pct": 49,
+    "ai_pct": 5,
+    "uniqueness_pct": 87
+  },
+  "customer_risks": []
+}

@@ -1,0 +1,39 @@
+{
+  "slug": "vzyskanie-dolga-s-ooo-cherez-arbitrazh",
+  "category": null,
+  "started_at": "2026-05-15T05:58:02",
+  "finished_at": null,
+  "total_duration_sec": null,
+  "current_iteration": 2,
+  "events": [
+    {
+      "ts": "2026-05-15T05:58:02",
+      "agent": "4-writer",
+      "event": "iteration_returned",
+      "iteration": 2,
+      "reason": "quality_gate: targeted_tokens_over_limit (ООО×6>3, 000руб×13>2), ai_markers_critical (тире), length_too_long 8131>8000",
+      "recommendation": "Сократить до 7000-7500 знаков. Заменить ООО→юрлицо/компания/организация (cap 3). Числовые суммы: X000руб нельзя (кроме 2 статутных). Длинные тире — заменить на дефис или переписать предложение."
+    },
+    {
+      "ts": "2026-05-15T06:07:02",
+      "agent": "scheduler",
+      "event": "slot_started",
+      "iteration": 2,
+      "category": "vzysk",
+      "today_count": 1,
+      "limit": 10,
+      "write_article_duration_sec": 3295.1
+    },
+    {
+      "ts": "2026-05-15T06:07:02",
+      "agent": "quality_gate",
+      "event": "passed",
+      "iteration": 2,
+      "blockers": [],
+      "warnings": [
+        "internal_links_autofixed: 3 ссылок (например /dosudebnaya-pretenziya-obrazec.html→/articles/vzysk/dosudebnaya-pretenziya-obrazec; /kak-otmenit-sudebnyj-prikaz.html→/articles/vzysk/kak-otmenit-sudebnyj-prikaz; /ispolnitelnyj-list-poluchenie-predyavlenie.html→/articles/vzysk/ispolnitelnyj-list-poluchenie-predyavlenie)"
+      ],
+      "recommendations": []
+    }
+  ]
+}
