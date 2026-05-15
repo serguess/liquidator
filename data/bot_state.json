@@ -1093,6 +1093,42 @@
       "published_url": null,
       "pending_batch": true,
       "pending_batch_at": "2026-05-15T22:42:21"
+    },
+    "rashody-na-bankrotstvo-yurlica": {
+      "category": "yur",
+      "title": "Расходы на банкротство юрлица: из чего складывается",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-05-16T00:07:21",
+      "last_action_at": "2026-05-16T00:07:21",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-05-16T00:07:21"
+    },
+    "vzyskanie-dolga-s-naslednikov-dolzhnika": {
+      "category": "vzysk",
+      "title": "Взыскать долг с наследников должника: пошаговый порядок",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-05-16T01:32:22",
+      "last_action_at": "2026-05-16T01:32:22",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-05-16T01:32:22"
     }
   },
   "pending_actions": [],
