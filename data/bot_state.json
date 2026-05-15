@@ -857,7 +857,7 @@
     "bankrotstvo-pri-dolgah-pered-fizicheskimi-licami": {
       "category": "fiz",
       "title": "Банкротство при долгах перед физлицами и по распискам",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -865,13 +865,15 @@
       "tg_message_id": 513,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-14T16:08:55",
-      "last_action_at": "2026-05-14T16:08:55",
+      "last_action_at": "2026-05-16T00:00:48",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/fiz/bankrotstvo-pri-dolgah-pered-fizicheskimi-licami",
       "pending_batch": false,
       "pending_batch_at": "2026-05-14T16:08:55",
-      "batch_sent_at": "2026-05-15T10:02:17"
+      "batch_sent_at": "2026-05-15T10:02:17",
+      "published_at": "2026-05-16T00:00:48",
+      "articles_path": "articles/fiz/bankrotstvo-pri-dolgah-pered-fizicheskimi-licami.html"
     },
     "mirovoe-soglashenie-bankrotstvo-fizlica": {
       "category": "fiz",
@@ -1080,14 +1082,6 @@
     }
   },
   "pending_actions": [
-    {
-      "action": "publish",
-      "slug": "bankrotstvo-pri-dolgah-pered-fizicheskimi-licami",
-      "version": "2.0",
-      "chat_id": 144472991,
-      "reply_to_message_id": 512,
-      "queued_at": "2026-05-15T23:31:58"
-    },
     {
       "action": "publish",
       "slug": "mirovoe-soglashenie-bankrotstvo-fizlica",
