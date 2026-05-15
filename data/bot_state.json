@@ -962,7 +962,7 @@
     "vzyskanie-dolga-s-ooo-cherez-arbitrazh": {
       "category": "vzysk",
       "title": "Как взыскать долг с ООО через арбитражный суд",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -970,13 +970,15 @@
       "tg_message_id": 523,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-15T06:10:01",
-      "last_action_at": "2026-05-15T06:10:01",
+      "last_action_at": "2026-05-16T00:02:36",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/vzysk/vzyskanie-dolga-s-ooo-cherez-arbitrazh",
       "pending_batch": false,
       "pending_batch_at": "2026-05-15T06:10:01",
-      "batch_sent_at": "2026-05-15T10:02:28"
+      "batch_sent_at": "2026-05-15T10:02:28",
+      "published_at": "2026-05-16T00:02:36",
+      "articles_path": "articles/vzysk/vzyskanie-dolga-s-ooo-cherez-arbitrazh.html"
     },
     "chto-nelzya-delat-pered-bankrotstvom-fizlica": {
       "category": "fiz",
@@ -1090,14 +1092,6 @@
     }
   },
   "pending_actions": [
-    {
-      "action": "publish",
-      "slug": "vzyskanie-dolga-s-ooo-cherez-arbitrazh",
-      "version": "2.0",
-      "chat_id": 144472991,
-      "reply_to_message_id": 522,
-      "queued_at": "2026-05-15T23:47:10"
-    },
     {
       "action": "publish",
       "slug": "chto-nelzya-delat-pered-bankrotstvom-fizlica",
