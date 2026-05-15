@@ -2,6 +2,19 @@
   "generated": "2026-05-16",
   "articles": [
     {
+      "slug": "vneshnee-upravlenie-pri-bankrotstve-yurlica",
+      "cat": "yur",
+      "catLabel": "Банкротство юридических лиц",
+      "title": "Внешнее управление при банкротстве юрлица: условия",
+      "desc": "Когда суд вводит внешнее управление вместо ликвидации, кто такой внешний управляющий, какой мораторий действует и чем процедура заканчивается.",
+      "date": "16 мая 2026",
+      "dateIso": "2026-05-16",
+      "read": "5 мин.",
+      "tone": "b",
+      "img": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1778798242/articles/vneshnee-upravlenie-pri-bankrotstve-yurlica-cover.jpg",
+      "url": "articles/yur/vneshnee-upravlenie-pri-bankrotstve-yurlica"
+    },
+    {
       "slug": "bankrotstvo-pri-voennoy-ipoteke",
       "cat": "fiz",
       "catLabel": "Банкротство физических лиц",

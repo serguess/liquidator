@@ -941,7 +941,7 @@
     "vneshnee-upravlenie-pri-bankrotstve-yurlica": {
       "category": "yur",
       "title": "Внешнее управление при банкротстве юрлица: условия",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -949,13 +949,15 @@
       "tg_message_id": 521,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-15T01:40:59",
-      "last_action_at": "2026-05-15T01:40:59",
+      "last_action_at": "2026-05-16T00:02:14",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/yur/vneshnee-upravlenie-pri-bankrotstve-yurlica",
       "pending_batch": false,
       "pending_batch_at": "2026-05-15T01:40:59",
-      "batch_sent_at": "2026-05-15T10:02:26"
+      "batch_sent_at": "2026-05-15T10:02:26",
+      "published_at": "2026-05-16T00:02:14",
+      "articles_path": "articles/yur/vneshnee-upravlenie-pri-bankrotstve-yurlica.html"
     },
     "vzyskanie-dolga-s-ooo-cherez-arbitrazh": {
       "category": "vzysk",
@@ -1088,14 +1090,6 @@
     }
   },
   "pending_actions": [
-    {
-      "action": "publish",
-      "slug": "vneshnee-upravlenie-pri-bankrotstve-yurlica",
-      "version": "2.0",
-      "chat_id": 144472991,
-      "reply_to_message_id": 520,
-      "queued_at": "2026-05-15T23:43:57"
-    },
     {
       "action": "publish",
       "slug": "vzyskanie-dolga-s-ooo-cherez-arbitrazh",
