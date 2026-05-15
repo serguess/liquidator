@@ -2695,5 +2695,61 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-05-15T19:36:06",
+    "category": "vzysk",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 2,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "vzysk-21",
+    "topic_slug": "zhaloba-na-pristava-nezakonnye-dejstviya",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "Автофикс применил правки: сокращения=0, пунктуация=0",
+        "internal_links_autofixed: 4 ссылок (например /articles/vzysk/udershanie-iz-zarplaty-pristavami.html→/articles/vzysk/udershanie-iz-zarplaty-pristavami; /articles/vzysk/snyatie-aresta-so-scheta-pristavami.html→/articles/vzysk/snyatie-aresta-so-scheta-pristavami; /articles/vzysk/ispolnitelskij-sbor-kak-osporit.html→/articles/vzysk/ispolnitelskij-sbor-kak-osporit)",
+        "spam_soft_passed: ratio-флаги мягкие при iter=4, targeted_tokens чистые → пропускаем (spam ≈48-52% по прогнозу)"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "zhaloba-na-pristava-nezakonnye-dejstviya",
+    "duration_sec": 2498.3,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "| сгенерирована, шаблон #26 |\n| Статус | `ready_for_review: true` → в очереди TG-бота |\n| Готовый файл | `drafts/zhaloba-na-pristava-nezakonnye-dejstviya/article.html` |\n\n**text.ru метрики:** не проверялись в этом прогоне (textru_ai_detector / textru_uniqueness / textru_spam = null).\n\n**Предупреждения:** spam-флаги мягкие (~53%) — топ-1 лемма «стать» = 14 вхождений (лимит 12), это за счёт формулировок типа «статья 124», которые размываются при лемматизации. Targeted_tokens чисты, gate пропустил.",
+    "stderr_tail": "",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7970
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]
