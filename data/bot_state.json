@@ -868,6 +868,78 @@
       "published_url": null,
       "pending_batch": true,
       "pending_batch_at": "2026-05-14T16:08:55"
+    },
+    "mirovoe-soglashenie-bankrotstvo-fizlica": {
+      "category": "fiz",
+      "title": "Мировое соглашение при банкротстве физлица",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-05-14T21:20:57",
+      "last_action_at": "2026-05-14T21:20:57",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-05-14T21:20:57"
+    },
+    "proverka-dolgov-gosuslugi-fssp": {
+      "category": "vzysk",
+      "title": "Как проверить долги у приставов через Госуслуги",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-05-14T21:20:57",
+      "last_action_at": "2026-05-14T21:20:57",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-05-14T21:20:57"
+    },
+    "bankrotstvo-pri-voennoy-ipoteke": {
+      "category": "fiz",
+      "title": "Банкротство при военной ипотеке: жильё и долг по ЦЖЗ",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-05-14T22:37:58",
+      "last_action_at": "2026-05-14T22:37:58",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-05-14T22:37:58"
+    },
+    "vneshnee-upravlenie-pri-bankrotstve-yurlica": {
+      "category": "yur",
+      "title": "Внешнее управление при банкротстве юрлица: условия",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-05-15T01:40:59",
+      "last_action_at": "2026-05-15T01:40:59",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-05-15T01:40:59"
     }
   },
   "pending_actions": [],

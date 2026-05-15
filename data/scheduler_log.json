@@ -2236,5 +2236,107 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-05-15T00:24:17",
+    "category": "yur",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 1,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "yur-20",
+    "topic_slug": "vneshnee-upravlenie-pri-bankrotstve-yurlica",
+    "auto_skipped": [
+      {
+        "slug": "nablyudenie-pri-bankrotstve-yurlica",
+        "reason": "hang_heartbeat_timeout",
+        "duration_sec": 1950.1
+      }
+    ],
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "Автофикс применил правки: сокращения=1, пунктуация=0",
+        "internal_links_autofixed: 5 ссылок (например /articles/yur/subsidiarka-direktora-kak-zashchititsya.html→/articles/yur/subsidiarka-direktora-kak-zashchititsya; /articles/yur/osparivanie-sdelok-pri-bankrotstve.html→/articles/yur/osparivanie-sdelok-pri-bankrotstve; /articles/yur/priznaki-bankrotstva-yurlica.html→/articles/yur/priznaki-bankrotstva-yurlica)",
+        "length_soft_passed: 8076 > 8000 но ≤ 8500 и iteration=5 — пропускаем (приоритет spam/uniqueness/ai)"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "vneshnee-upravlenie-pri-bankrotstve-yurlica",
+    "duration_sec": 4399.0,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "-pri-bankrotstve-yurlica` |\n| Категория | yur |\n| Длина | 8 076 знаков |\n| Uniqueness (эмбеддинги) | passed |\n| Factcheck | passed |\n| Quality gate | passed (blockers: 0) |\n| Обложка | сгенерирована (fal.ai → Cloudinary) |\n| Статус | `ready_for_review: true` — в TG-очереди |\n| Файл | `drafts/vneshnee-upravlenie-pri-bankrotstve-yurlica/article.html` |\n\n**Метрики text.ru:** не запускались (локальный прогон). Predicted: spam ~47%, AI ~3%, uniqueness ~90%.\n\nСтатья ждёт публикации через Telegram-бот.",
+    "stderr_tail": "",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 8076
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
+  },
+  {
+    "timestamp": "2026-05-15T02:48:25",
+    "category": "vzysk",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 1,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "vzysk-18",
+    "topic_slug": "kak-pristavy-ishhut-dolzhnikov-imushchestvo",
+    "quality_gate": {
+      "ran": false,
+      "reason": "no_article_html",
+      "passed": false
+    },
+    "status": "failed_qa",
+    "slug": "kak-pristavy-ishhut-dolzhnikov-imushchestvo",
+    "duration_sec": 2442.2,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "iqueness.json` | ✓ passed |\n| 6-seo-editor | `body.html / meta.json / article.html` | ✗ не создано |\n\n**Что делать:** когда API восстановится, запусти `/write-article vzysk slug=kak-pristavy-ishhut-dolzhnikov-imushchestvo Как приставы ищут должника, его работу и имущество` повторно. Агент 1 найдёт существующий `brief.json` и пройдёт быстро; агенты 2-5 тоже могут переиспользовать уже созданные файлы, а агент 6 наконец запишет `body.html`.\n\nЛибо можно подождать несколько минут и попробовать снова.",
+    "stderr_tail": "",
+    "metrics": null
   }
 ]
