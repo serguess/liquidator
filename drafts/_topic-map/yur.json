@@ -700,7 +700,11 @@
       "frequency_estimate": "medium",
       "rationale": "Банки и лизинговые компании — основные залоговые кредиторы. Они хотят знать, как максимально вернуть деньги через процедуру. Экспертная тема с низкой конкуренцией.",
       "expected_length_chars": 7000,
-      "topic_action": "защиту прав залогового кредитора"
+      "topic_action": "защиту прав залогового кредитора",
+      "status": "rejected",
+      "rejected_at": "2026-05-15T12:17:45",
+      "rejected_reason": "hang_heartbeat_timeout",
+      "rejected_by": "auto_skip_in_slot"
     },
     {
       "id": "yur-26",
