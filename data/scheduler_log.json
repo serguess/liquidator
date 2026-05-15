@@ -2393,5 +2393,109 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-05-15T07:36:24",
+    "category": "fiz",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 3,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "fiz-35",
+    "topic_slug": "chto-nelzya-delat-pered-bankrotstvom-fizlica",
+    "auto_skipped": [
+      {
+        "slug": "prozhitochnyj-minimum-pri-bankrotstve-fizlica",
+        "reason": "hang_heartbeat_timeout",
+        "duration_sec": 1925.2
+      }
+    ],
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "Автофикс применил правки: сокращения=1, пунктуация=0"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "chto-nelzya-delat-pered-bankrotstvom-fizlica",
+    "duration_sec": 3757.0,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "мика: 38% коротких предложений, avg 7 слов\n- Spam top10_share: 10.9% (лимит 11.5%)\n- Внутренние ссылки: 2 рабочих\n\n**Uniqueness:** passed: true (нет fiz-статей в базе для сравнения)\n**Factcheck:** passed (все факты из research.json верифицированы)\n\n**Обложка:** сгенерирована (шаблон #17), загружена на Cloudinary\n**Режим публикации:** `ready_for_review: true` — статья добавлена в TG-очередь\n\n**textru_ai_detector:** n/a (не прогонялось через text.ru)\n**textru_uniqueness:** n/a\n**textru_spam:** n/a",
+    "stderr_tail": "",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7265
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
+  },
+  {
+    "timestamp": "2026-05-15T10:17:05",
+    "category": "yur",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "mode": "new",
+    "topic_id": "yur-24",
+    "topic_slug": "arbitrazhnyj-upravljayushchij-kak-vybrat",
+    "auto_skipped": [
+      {
+        "slug": "otvetstvennost-uchreditelya-ooo-za-dolgi",
+        "reason": "hang_heartbeat_timeout",
+        "duration_sec": 2000.2
+      },
+      {
+        "slug": "torgi-pri-bankrotstve-imushchestvo-dolzhnika",
+        "reason": "hang_heartbeat_timeout",
+        "duration_sec": 2015.2
+      },
+      {
+        "slug": "arbitrazhnyj-upravljayushchij-kak-vybrat",
+        "reason": "hang_total_timeout",
+        "duration_sec": 1070.1
+      }
+    ],
+    "status": "failed",
+    "slug": "arbitrazhnyj-upravljayushchij-kak-vybrat",
+    "duration_sec": 5101.1,
+    "returncode": -2,
+    "rescued_after_failure": false,
+    "stdout_tail": "ol_use:Bash]\n[tool_use:Agent]\n[tool_use:Read]\n[tool_use:Read]\n[tool_use:Read]\n[tool_use:Grep]\n[tool_use:WebSearch]\n[tool_use:WebFetch]\n[tool_use:WebFetch]\n[tool_use:WebFetch]\n[tool_use:Write]\n[tool_use:Read]\n[tool_use:Write]\nАгент 2 завершён. Ищу предыдущий outline для категории yur.\n[tool_use:Bash]\n[tool_use:Bash]\n[tool_use:Read]\n[tool_use:Bash]\n[tool_use:Agent]\n[tool_use:Read]\n[tool_use:Read]\n[tool_use:Read]\n[tool_use:Read]\n[tool_use:Write]\nАрхитектура готова. Запускаю агент 4.\n[tool_use:Bash]",
+    "stderr_tail": "\n[scheduler] hit slot/article timeout after 1070s",
+    "metrics": null
   }
 ]

@@ -460,6 +460,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "kak-pristavy-ishhut-dolzhnikov-imushchestvo",
+      "category": "vzysk",
+      "title": "Как приставы ищут должника и его имущество",
+      "added_at": "2026-05-15T09:40:22.108698",
+      "char_count": 7627,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1778827221/articles/kak-pristavy-ishhut-dolzhnikov-imushchestvo-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
