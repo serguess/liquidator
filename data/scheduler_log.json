@@ -2548,5 +2548,52 @@
     "stdout_tail": "_use:Bash]\n[tool_use:Bash]\nНашёл предыдущий outline для `yur`. Запускаю агента 3 (архитектор).\n[tool_use:Agent]\n[tool_use:Read]\n[tool_use:Read]\n[tool_use:Read]\n[tool_use:Read]\n[tool_use:Write]\nАгент 3 завершён. Запускаю агента 4 (писатель).\n[tool_use:Bash]\n[tool_use:Agent]\n[tool_use:Read]\n[tool_use:Read]\n[tool_use:Read]\n[tool_use:Read]\n[tool_use:Read]\n[tool_use:Read]\n[tool_use:Bash]\n[tool_use:Write]\n[tool_use:Bash]\n[tool_use:Read]\n[tool_use:Write]\n[tool_use:Bash]\n[tool_use:Write]\n[tool_use:Bash]",
     "stderr_tail": "\n[scheduler] hit slot/article timeout after 1185s",
     "metrics": null
+  },
+  {
+    "timestamp": "2026-05-15T13:14:46",
+    "category": "yur",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 1,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "yur-29",
+    "topic_slug": "zarplatnye-dolgi-pri-bankrotstve-yurlica",
+    "expanded_in_slot": true,
+    "auto_skipped": [
+      {
+        "slug": "prekrashchenie-dela-o-bankrotstve-yurlica",
+        "reason": "hang_heartbeat_timeout",
+        "duration_sec": 1930.2
+      },
+      {
+        "slug": "zarplatnye-dolgi-pri-bankrotstve-yurlica",
+        "reason": "hang_heartbeat_timeout",
+        "duration_sec": 1955.2
+      }
+    ],
+    "status": "failed",
+    "slug": "zarplatnye-dolgi-pri-bankrotstve-yurlica",
+    "duration_sec": 4286.1,
+    "returncode": -1,
+    "rescued_after_failure": false,
+    "stdout_tail": "инаю с heartbeat и агента 1.\n[tool_use:Bash]\n[tool_use:Agent]\n[tool_use:Read]\n[tool_use:Bash]\n[tool_use:WebSearch]\n[tool_use:WebSearch]\n[tool_use:Read]\n[tool_use:WebSearch]\n[tool_use:Grep]\n[tool_use:Bash]\n[tool_use:Bash]\n[tool_use:Read]\n[tool_use:Bash]\n[tool_use:Write]\n[tool_use:Read]\n[tool_use:Bash]\nАгент 1 завершён, каннибализации нет. Запускаю агента 2.\n[tool_use:Bash]\n[tool_use:Agent]\n[tool_use:Read]\n[tool_use:Read]\n[tool_use:Read]\n[tool_use:WebSearch]\n[tool_use:WebFetch]\n[tool_use:WebFetch]",
+    "stderr_tail": "\n[scheduler] killed by heartbeat timeout (>1800s of silence) stream_stats={'events': 77, 'assistant': 28, 'tool_use': 0, 'tool_result': 24, 'raw': 0}",
+    "metrics": null
   }
 ]
