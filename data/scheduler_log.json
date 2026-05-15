@@ -2803,5 +2803,60 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-05-15T23:00:01",
+    "category": "yur",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 4,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "yur-30",
+    "topic_slug": "rashody-na-bankrotstvo-yurlica",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "length_soft_passed: 8283 > 8000 но ≤ 8500 и iteration=5 — пропускаем (приоритет spam/uniqueness/ai)",
+        "spam_soft_passed: ratio-флаги мягкие при iter=5, targeted_tokens чистые → пропускаем (spam ≈48-52% по прогнозу)"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "rashody-na-bankrotstvo-yurlica",
+    "duration_sec": 3875.3,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "rue (structure_overlap 7.1%, thesis_similarity 0.016) |\n| Factcheck | passed (14 фактов из research.json) |\n| Quality gate | passed (warnings мягкие: длина soft-pass, spam soft-pass на iter=4) |\n| Обложка | сгенерирована (fal.ai → Cloudinary, шаблон #6) |\n| Режим | ready_for_review = true, очередь TG |\n| Файл | `drafts/rashody-na-bankrotstvo-yurlica/article.html` |\n\n**Метрики text.ru:** не заполнены (проверка на text.ru не запускалась в конвейере — predicted: spam ≈53%, AI ≈3%, uniqueness ≈87%).",
+    "stderr_tail": "",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 8283
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]
