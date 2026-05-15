@@ -836,7 +836,7 @@
     "ogranichenie-kreditov-vysokaya-dolgovaya-nagruzka-mpl": {
       "category": "news",
       "title": "ЦБ ограничил кредиты с высокой долговой нагрузкой: МПЛ",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -844,13 +844,15 @@
       "tg_message_id": 511,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-14T10:34:53",
-      "last_action_at": "2026-05-14T10:34:53",
+      "last_action_at": "2026-05-16T00:00:26",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/news/ogranichenie-kreditov-vysokaya-dolgovaya-nagruzka-mpl",
       "pending_batch": false,
       "pending_batch_at": "2026-05-14T10:34:53",
-      "batch_sent_at": "2026-05-15T10:02:15"
+      "batch_sent_at": "2026-05-15T10:02:15",
+      "published_at": "2026-05-16T00:00:26",
+      "articles_path": "articles/news/ogranichenie-kreditov-vysokaya-dolgovaya-nagruzka-mpl.html"
     },
     "bankrotstvo-pri-dolgah-pered-fizicheskimi-licami": {
       "category": "fiz",
@@ -1003,9 +1005,146 @@
       "pending_batch": false,
       "pending_batch_at": "2026-05-15T09:47:05",
       "batch_sent_at": "2026-05-15T10:02:32"
+    },
+    "rassrochka-ispolneniya-resheniya-suda": {
+      "category": "vzysk",
+      "title": "Рассрочка исполнения решения суда: как получить",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-05-15T15:53:18",
+      "last_action_at": "2026-05-15T15:53:18",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-05-15T15:53:18"
+    },
+    "bankrotstvo-pri-dolge-po-kreditnoj-karte": {
+      "category": "fiz",
+      "title": "Банкротство при долге по кредитной карте",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-05-15T17:57:19",
+      "last_action_at": "2026-05-15T17:57:19",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-05-15T17:57:19"
+    },
+    "zhaloba-na-pristava-nezakonnye-dejstviya": {
+      "category": "vzysk",
+      "title": "Жалоба на пристава: куда и как подать",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-05-15T20:22:19",
+      "last_action_at": "2026-05-15T20:22:19",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-05-15T20:22:19"
+    },
+    "bankrotstvo-fizlica-dolya-v-ooo": {
+      "category": "fiz",
+      "title": "Банкротство физлица с долей в ООО: судьба бизнеса",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-05-15T22:42:21",
+      "last_action_at": "2026-05-15T22:42:21",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-05-15T22:42:21"
     }
   },
-  "pending_actions": [],
+  "pending_actions": [
+    {
+      "action": "publish",
+      "slug": "bankrotstvo-pri-dolgah-pered-fizicheskimi-licami",
+      "version": "2.0",
+      "chat_id": 144472991,
+      "reply_to_message_id": 512,
+      "queued_at": "2026-05-15T23:31:58"
+    },
+    {
+      "action": "publish",
+      "slug": "mirovoe-soglashenie-bankrotstvo-fizlica",
+      "version": "2.0",
+      "chat_id": 144472991,
+      "reply_to_message_id": 514,
+      "queued_at": "2026-05-15T23:33:53"
+    },
+    {
+      "action": "publish",
+      "slug": "proverka-dolgov-gosuslugi-fssp",
+      "version": "2.0",
+      "chat_id": 144472991,
+      "reply_to_message_id": 516,
+      "queued_at": "2026-05-15T23:37:05"
+    },
+    {
+      "action": "publish",
+      "slug": "bankrotstvo-pri-voennoy-ipoteke",
+      "version": "2.0",
+      "chat_id": 144472991,
+      "reply_to_message_id": 518,
+      "queued_at": "2026-05-15T23:40:48"
+    },
+    {
+      "action": "publish",
+      "slug": "vneshnee-upravlenie-pri-bankrotstve-yurlica",
+      "version": "2.0",
+      "chat_id": 144472991,
+      "reply_to_message_id": 520,
+      "queued_at": "2026-05-15T23:43:57"
+    },
+    {
+      "action": "publish",
+      "slug": "vzyskanie-dolga-s-ooo-cherez-arbitrazh",
+      "version": "2.0",
+      "chat_id": 144472991,
+      "reply_to_message_id": 522,
+      "queued_at": "2026-05-15T23:47:10"
+    },
+    {
+      "action": "publish",
+      "slug": "chto-nelzya-delat-pered-bankrotstvom-fizlica",
+      "version": "2.0",
+      "chat_id": 144472991,
+      "reply_to_message_id": 524,
+      "queued_at": "2026-05-15T23:50:00"
+    },
+    {
+      "action": "publish",
+      "slug": "kak-pristavy-ishhut-dolzhnikov-imushchestvo",
+      "version": "2.0",
+      "chat_id": 144472991,
+      "reply_to_message_id": 526,
+      "queued_at": "2026-05-15T23:51:34"
+    }
+  ],
   "last_batch_date": "2026-05-15",
   "last_batch_count": 9,
   "last_batch_at": "2026-05-15T10:02:32"

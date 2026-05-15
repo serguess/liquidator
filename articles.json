@@ -1,6 +1,19 @@
 {
-  "generated": "2026-05-13",
+  "generated": "2026-05-16",
   "articles": [
+    {
+      "slug": "ogranichenie-kreditov-vysokaya-dolgovaya-nagruzka-mpl",
+      "cat": "news",
+      "catLabel": "Новости",
+      "title": "ЦБ ограничил кредиты с высокой долговой нагрузкой: МПЛ",
+      "desc": "29 апреля 2026 ЦБ снизил долю выдач по ипотеке на новостройки с ПДН выше 80% до 5%, по готовому жилью - до 15%. Что изменится для заёмщиков.",
+      "date": "16 мая 2026",
+      "dateIso": "2026-05-16",
+      "read": "4 мин.",
+      "tone": "b",
+      "img": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1778743917/articles/ogranichenie-kreditov-vysokaya-dolgovaya-nagruzka-mpl-cover.jpg",
+      "url": "articles/news/ogranichenie-kreditov-vysokaya-dolgovaya-nagruzka-mpl"
+    },
     {
       "slug": "prednamerennoe-bankrotstvo-ugolovnaya-otvetstvennost",
       "cat": "yur",
