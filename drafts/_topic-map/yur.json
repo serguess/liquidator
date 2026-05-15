@@ -793,7 +793,11 @@
       "frequency_estimate": "low",
       "rationale": "Директора, попавшие в банкротство, ищут выход. Статья объясняет законные способы прекратить процедуру и подводит к консультации о реалистичности каждого пути.",
       "expected_length_chars": 7000,
-      "topic_action": "прекращение банкротства юрлица"
+      "topic_action": "прекращение банкротства юрлица",
+      "status": "rejected",
+      "rejected_at": "2026-05-15T13:47:04",
+      "rejected_reason": "hang_heartbeat_timeout",
+      "rejected_by": "auto_skip_in_slot"
     }
   ]
 }
