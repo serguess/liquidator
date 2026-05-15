@@ -2497,5 +2497,56 @@
     "stdout_tail": "ol_use:Bash]\n[tool_use:Agent]\n[tool_use:Read]\n[tool_use:Read]\n[tool_use:Read]\n[tool_use:Grep]\n[tool_use:WebSearch]\n[tool_use:WebFetch]\n[tool_use:WebFetch]\n[tool_use:WebFetch]\n[tool_use:Write]\n[tool_use:Read]\n[tool_use:Write]\nАгент 2 завершён. Ищу предыдущий outline для категории yur.\n[tool_use:Bash]\n[tool_use:Bash]\n[tool_use:Read]\n[tool_use:Bash]\n[tool_use:Agent]\n[tool_use:Read]\n[tool_use:Read]\n[tool_use:Read]\n[tool_use:Read]\n[tool_use:Write]\nАрхитектура готова. Запускаю агент 4.\n[tool_use:Bash]",
     "stderr_tail": "\n[scheduler] hit slot/article timeout after 1070s",
     "metrics": null
+  },
+  {
+    "timestamp": "2026-05-15T11:45:11",
+    "category": "yur",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 1,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "yur-27",
+    "topic_slug": "bankrotstvo-gruppy-kompanij-holding",
+    "auto_skipped": [
+      {
+        "slug": "zalog-i-bankrotstvo-yurlica-prava-kreditorov",
+        "reason": "hang_heartbeat_timeout",
+        "duration_sec": 1945.2
+      },
+      {
+        "slug": "subsidiarnaya-otvetstvennost-srok-davnosti",
+        "reason": "hang_heartbeat_timeout",
+        "duration_sec": 1960.2
+      },
+      {
+        "slug": "bankrotstvo-gruppy-kompanij-holding",
+        "reason": "hang_total_timeout",
+        "duration_sec": 1185.1
+      }
+    ],
+    "status": "failed",
+    "slug": "bankrotstvo-gruppy-kompanij-holding",
+    "duration_sec": 5103.1,
+    "returncode": -2,
+    "rescued_after_failure": false,
+    "stdout_tail": "_use:Bash]\n[tool_use:Bash]\nНашёл предыдущий outline для `yur`. Запускаю агента 3 (архитектор).\n[tool_use:Agent]\n[tool_use:Read]\n[tool_use:Read]\n[tool_use:Read]\n[tool_use:Read]\n[tool_use:Write]\nАгент 3 завершён. Запускаю агента 4 (писатель).\n[tool_use:Bash]\n[tool_use:Agent]\n[tool_use:Read]\n[tool_use:Read]\n[tool_use:Read]\n[tool_use:Read]\n[tool_use:Read]\n[tool_use:Read]\n[tool_use:Bash]\n[tool_use:Write]\n[tool_use:Bash]\n[tool_use:Read]\n[tool_use:Write]\n[tool_use:Bash]\n[tool_use:Write]\n[tool_use:Bash]",
+    "stderr_tail": "\n[scheduler] hit slot/article timeout after 1185s",
+    "metrics": null
   }
 ]
