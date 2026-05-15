@@ -878,7 +878,7 @@
     "mirovoe-soglashenie-bankrotstvo-fizlica": {
       "category": "fiz",
       "title": "Мировое соглашение при банкротстве физлица",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -886,13 +886,15 @@
       "tg_message_id": 515,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-14T21:20:57",
-      "last_action_at": "2026-05-14T21:20:57",
+      "last_action_at": "2026-05-16T00:01:09",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/fiz/mirovoe-soglashenie-bankrotstvo-fizlica",
       "pending_batch": false,
       "pending_batch_at": "2026-05-14T21:20:57",
-      "batch_sent_at": "2026-05-15T10:02:19"
+      "batch_sent_at": "2026-05-15T10:02:19",
+      "published_at": "2026-05-16T00:01:09",
+      "articles_path": "articles/fiz/mirovoe-soglashenie-bankrotstvo-fizlica.html"
     },
     "proverka-dolgov-gosuslugi-fssp": {
       "category": "vzysk",
@@ -1082,14 +1084,6 @@
     }
   },
   "pending_actions": [
-    {
-      "action": "publish",
-      "slug": "mirovoe-soglashenie-bankrotstvo-fizlica",
-      "version": "2.0",
-      "chat_id": 144472991,
-      "reply_to_message_id": 514,
-      "queued_at": "2026-05-15T23:33:53"
-    },
     {
       "action": "publish",
       "slug": "proverka-dolgov-gosuslugi-fssp",
