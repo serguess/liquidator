@@ -447,6 +447,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "chto-nelzya-delat-pered-bankrotstvom-fizlica",
+      "category": "fiz",
+      "title": "Что нельзя делать перед банкротством физлица",
+      "added_at": "2026-05-15T08:38:46.350046",
+      "char_count": 7265,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1778823525/articles/chto-nelzya-delat-pered-bankrotstvom-fizlica-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

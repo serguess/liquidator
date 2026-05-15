@@ -1,0 +1,100 @@
+{
+  "slug": "chto-nelzya-delat-pered-bankrotstvom-fizlica",
+  "category": "fiz",
+  "title": "Что нельзя делать перед банкротством физлица",
+  "description": "Какие действия до и во время банкротства физлица обернутся отказом в списании долгов: сделки с имуществом, скрытые активы, выплаты одному кредитору.",
+  "h1": "Что нельзя делать перед банкротством и во время процедуры",
+  "lead": "Сделки с имуществом за три года до подачи, выплаты одному кредитору и сокрытие активов рушат банкротство чаще всего — рассказываем, что точно оспорит финансовый управляющий и за что суд откажет в списании.",
+  "topic_action": "проверку действий до банкротства",
+  "breadcrumb_current": "Что нельзя делать перед банкротством",
+  "og_image": "/assets/articles/chto-nelzya-delat-pered-bankrotstvom-fizlica.jpg",
+  "main_keyword": "что нельзя делать перед банкротством физлица",
+  "secondary_keywords": [
+    "запреты при банкротстве физического лица",
+    "неправомерные действия при банкротстве",
+    "сокрытие имущества при банкротстве",
+    "оспаривание сделок при банкротстве",
+    "ограничения во время банкротства физлица",
+    "что нельзя делать должнику при банкротстве",
+    "преднамеренное банкротство физлица",
+    "отказ от наследства при банкротстве",
+    "выплата одному кредитору при банкротстве"
+  ],
+  "offer": "proverka-spisaniya",
+  "internal_links": [
+    "osparivanie-sdelok-fizlica-bankrotstvo",
+    "kogda-dolgi-ne-spishut-pri-bankrotstve"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_10699/",
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/0959475640585f590f703e040ccf8f9e7d958156/"
+  ],
+  "faq": [
+    {
+      "question": "Продал машину три года назад, всё равно оспорит?",
+      "answer": "Зависит от основания. Трёхлетний срок применяется только к сделкам против взыскателей. Если продажа была по рыночной цене, оснований нет. По неравноценности период всего год."
+    },
+    {
+      "question": "Можно погасить долг банку, который давит сильнее?",
+      "answer": "Если до подачи заявления остался месяц, операция отменяется безусловно. До шести месяцев отменяется, если банк знал о неплатёжеспособности."
+    },
+    {
+      "question": "Что будет с тем, кому подарили квартиру?",
+      "answer": "Скорее всего, потеряет. Жильё возвращается в массу и идёт на торги. Одаряемый встанет в реестр последним."
+    },
+    {
+      "question": "Обязательно сообщать о наследстве, открывшемся в ходе дела?",
+      "answer": "Да, в течение 15 дней с момента запроса. Молчание - основание для отказа в списании. Отказ от наследства в этот период тоже под угрозой."
+    },
+    {
+      "question": "До какого момента арбитраж может отказать в списании?",
+      "answer": "Вопрос решается при вынесении определения о завершении реализации. Арбитраж смотрит на поведение должника за весь период дела."
+    },
+    {
+      "question": "Чем фиктивное банкротство отличается от преднамеренного?",
+      "answer": "Преднамеренное - это умышленное ухудшение собственного финансового положения. Фиктивное - заявление о несостоятельности при наличии скрытых средств, достаточных для расчётов. Санкция одинакова: до шести лет лишения свободы. Состав преступления разный."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все юр-утверждения сверены с research.json: ст. 213.11 п. 5, 213.25 п. 5-7, 213.28 п. 4-5, 61.2 п. 1-2, 61.3, 213.32, 213.9 п. 9, 213.24 п. 3, 61.6 127-ФЗ, ст. 195/196/197 УК РФ.",
+    "Порог крупного ущерба 2 250 000 руб. подтверждён research.f10 (примечание к ст. 170.2 УК РФ).",
+    "Лимит 50 000 руб. в реструктуризации — research.f1 (ст. 213.11 п. 5).",
+    "Период подозрительности 3 года применяется только к п. 2 ст. 61.2 — формулировка в тексте корректна (research.f16).",
+    "Госпошлина (legal-facts.md) — в тексте не упоминается, отдельная тема.",
+    "AI-маркер «это не финал, а начало» удалён, переписан в нейтральную форму.",
+    "Топ-1 лемма снижена с 11 («имущество») до 9 («подач»/«актив»)."
+  ],
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "text_chars": 7265,
+  "length_status": "ok",
+  "length_kind": "default",
+  "local_spam_top10_share": 0.109,
+  "local_spam_ngram3_repeat": 0.019,
+  "local_lexical_diversity": 0.644,
+  "local_ai_markers_density": 0.22,
+  "local_ai_markers_total": 2,
+  "local_ai_markers_critical": 0,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 4,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 3,
+  "predicted_spam_pct": 49,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1778823525/articles/chto-nelzya-delat-pered-bankrotstvom-fizlica-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1778823525/articles/chto-nelzya-delat-pered-bankrotstvom-fizlica-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Macro close-up photograph of legal enforcement objects arranged on a dark walnut surface, emphasizing tactile detail and surface texture. Hero objects in sharp focus: a heavy antique brass padlock with a thick chain coiled around a closed leather portfolio, the padlock's weathered patina catching a single warm sidelight; alongside it a polished brass scales-of-justice pan tilted slightly as if weighted, casting a long shadow; a fountain pen lying uncapped across a sealed envelope with a dark wax seal imprint; and a small stack of closed dossiers tied with cord compressed beneath the chain. Background: rich dark walnut grain fading into deep shadow. Camera: macro lens, very shallow depth of field, three-quarter tabletop angle isolating the cluster. Lighting: sharp directional sidelight from upper left, strong specular highlights on brass and leather, deep shadow on the right side. Palette: antique brass, oxblood leather, deep charcoal walnut. Mood: consequence, locked assets, weight of legal prohibition.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-05-15T05:38:46Z",
+  "date_published": "2026-05-15",
+  "date_modified": "2026-05-15",
+  "ready_for_review": true,
+  "ready_at": "2026-05-15T05:38:46Z",
+  "publication_target": "telegram_review"
+}

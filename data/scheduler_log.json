@@ -2338,5 +2338,60 @@
     "stdout_tail": "iqueness.json` | ✓ passed |\n| 6-seo-editor | `body.html / meta.json / article.html` | ✗ не создано |\n\n**Что делать:** когда API восстановится, запусти `/write-article vzysk slug=kak-pristavy-ishhut-dolzhnikov-imushchestvo Как приставы ищут должника, его работу и имущество` повторно. Агент 1 найдёт существующий `brief.json` и пройдёт быстро; агенты 2-5 тоже могут переиспользовать уже созданные файлы, а агент 6 наконец запишет `body.html`.\n\nЛибо можно подождать несколько минут и попробовать снова.",
     "stderr_tail": "",
     "metrics": null
+  },
+  {
+    "timestamp": "2026-05-15T05:12:07",
+    "category": "vzysk",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 2,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "expanded_in_slot": true,
+    "topic_id": "vzysk-19",
+    "topic_slug": "vzyskanie-dolga-s-ooo-cherez-arbitrazh",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "internal_links_autofixed: 3 ссылок (например /dosudebnaya-pretenziya-obrazec.html→/articles/vzysk/dosudebnaya-pretenziya-obrazec; /kak-otmenit-sudebnyj-prikaz.html→/articles/vzysk/kak-otmenit-sudebnyj-prikaz; /ispolnitelnyj-list-poluchenie-predyavlenie.html→/articles/vzysk/ispolnitelnyj-list-poluchenie-predyavlenie)"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "vzyskanie-dolga-s-ooo-cherez-arbitrazh",
+    "duration_sec": 3295.1,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "tector | ~5% |\n| Predicted uniqueness | ~87% |\n| metrics_warning | нет |\n| ready_for_review | true |\n| Обложка | сгенерирована (Cloudinary, шаблон #3) |\n| Файл | `drafts/vzyskanie-dolga-s-ooo-cherez-arbitrazh/article.html` |\n\n**textru_ai_detector / textru_uniqueness / textru_spam**: значения ещё не заполнены — text.ru проверяется отдельно после публикации в ревью-боте.\n\nСтатья добавлена в очередь ревью (`_review_queue.json`, позиция 34). Публикация — через Telegram-бот после одобрения заказчика.",
+    "stderr_tail": "",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7406
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]
