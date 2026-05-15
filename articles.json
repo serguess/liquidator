@@ -2,6 +2,19 @@
   "generated": "2026-05-16",
   "articles": [
     {
+      "slug": "kak-pristavy-ishhut-dolzhnikov-imushchestvo",
+      "cat": "vzysk",
+      "catLabel": "Взыскание задолженности",
+      "title": "Как приставы ищут должника и его имущество",
+      "desc": "Какие базы данных и запросы использует ФССП, чтобы найти должника, установить место работы, счета и имущество. Порядок розыска по ст. 65 ФЗ-229.",
+      "date": "16 мая 2026",
+      "dateIso": "2026-05-16",
+      "read": "5 мин.",
+      "tone": "b",
+      "img": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1778827221/articles/kak-pristavy-ishhut-dolzhnikov-imushchestvo-cover.jpg",
+      "url": "articles/vzysk/kak-pristavy-ishhut-dolzhnikov-imushchestvo"
+    },
+    {
       "slug": "chto-nelzya-delat-pered-bankrotstvom-fizlica",
       "cat": "fiz",
       "catLabel": "Банкротство физических лиц",

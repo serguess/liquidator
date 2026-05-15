@@ -1004,7 +1004,7 @@
     "kak-pristavy-ishhut-dolzhnikov-imushchestvo": {
       "category": "vzysk",
       "title": "Как приставы ищут должника и его имущество",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -1012,13 +1012,15 @@
       "tg_message_id": 527,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-15T09:47:05",
-      "last_action_at": "2026-05-15T09:47:05",
+      "last_action_at": "2026-05-16T00:03:19",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/vzysk/kak-pristavy-ishhut-dolzhnikov-imushchestvo",
       "pending_batch": false,
       "pending_batch_at": "2026-05-15T09:47:05",
-      "batch_sent_at": "2026-05-15T10:02:32"
+      "batch_sent_at": "2026-05-15T10:02:32",
+      "published_at": "2026-05-16T00:03:19",
+      "articles_path": "articles/vzysk/kak-pristavy-ishhut-dolzhnikov-imushchestvo.html"
     },
     "rassrochka-ispolneniya-resheniya-suda": {
       "category": "vzysk",
@@ -1093,16 +1095,7 @@
       "pending_batch_at": "2026-05-15T22:42:21"
     }
   },
-  "pending_actions": [
-    {
-      "action": "publish",
-      "slug": "kak-pristavy-ishhut-dolzhnikov-imushchestvo",
-      "version": "2.0",
-      "chat_id": 144472991,
-      "reply_to_message_id": 526,
-      "queued_at": "2026-05-15T23:51:34"
-    }
-  ],
+  "pending_actions": [],
   "last_batch_date": "2026-05-15",
   "last_batch_count": 9,
   "last_batch_at": "2026-05-15T10:02:32"
