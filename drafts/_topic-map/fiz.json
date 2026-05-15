@@ -965,7 +965,11 @@
       "frequency_estimate": "medium",
       "rationale": "Практический вопрос: должник не знает, сколько ему оставят на жизнь во время процедуры. Статья даёт чёткие цифры и порядок заявления в суд — прямой переход к консультации.",
       "expected_length_chars": 7000,
-      "topic_action": "защиту дохода при банкротстве"
+      "topic_action": "защиту дохода при банкротстве",
+      "status": "rejected",
+      "rejected_at": "2026-05-15T08:08:39",
+      "rejected_reason": "hang_heartbeat_timeout",
+      "rejected_by": "auto_skip_in_slot"
     },
     {
       "id": "fiz-35",
