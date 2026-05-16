@@ -548,7 +548,7 @@
       "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1778884132/articles/vzyskanie-dolga-s-naslednikov-dolzhnika-cover.jpg",
       "status": "ready_for_review",
       "quality_gate": {
-        "passed": false,
+        "passed": true,
         "hard_failed": false
       }
     },
@@ -585,6 +585,19 @@
       "added_at": "2026-05-16T07:54:29.381986",
       "char_count": 8082,
       "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1778907268/articles/zashchita-ot-bankrotstva-po-zayavleniyu-kreditora-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
+    },
+    {
+      "slug": "minimalnaya-summa-dlya-bankrotstva-fizlica",
+      "category": "fiz",
+      "title": "Минимальная сумма долга для банкротства физлица",
+      "added_at": "2026-05-16T09:40:07.572451",
+      "char_count": 7984,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1778913606/articles/minimalnaya-summa-dlya-bankrotstva-fizlica-cover.jpg",
       "status": "ready_for_review",
       "quality_gate": {
         "passed": true,
