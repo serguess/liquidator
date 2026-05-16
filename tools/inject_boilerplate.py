@@ -752,10 +752,17 @@ def assemble_article(meta: dict, body_html: str, disclaimer_text: str) -> str:
     h1 = meta["h1"]
     lead = meta.get("lead") or meta.get("description") or ""
     topic_action = meta["topic_action"]
-    cta_default_text = f"Оставить заявку на {topic_action}"
-    cta_top_text = meta.get("cta_top_text") or cta_default_text
-    cta_mid_text = meta.get("cta_mid_text") or cta_default_text
-    cta_bottom_text = meta.get("cta_bottom_text") or cta_default_text
+    # Три РАЗНЫХ CTA-формулировки (16 мая 2026): одинаковая фраза × 3 даёт
+    # повторяющуюся триграмму («оставить заявку на») в топ-10 text.ru и
+    # суммарно +2-3 п.п. spam. Разные глаголы убирают совпадение n-grams,
+    # при этом каждый CTA остаётся осмысленным под свой контекст
+    # (TOP = верхний баннер, MID = inline-абзац, BOTTOM = финальный дожим).
+    cta_top_default = f"Получить бесплатную оценку: {topic_action}"
+    cta_mid_default = f"Узнать подробности и обсудить ситуацию"
+    cta_bottom_default = f"Оставить заявку на {topic_action}"
+    cta_top_text = meta.get("cta_top_text") or cta_top_default
+    cta_mid_text = meta.get("cta_mid_text") or cta_mid_default
+    cta_bottom_text = meta.get("cta_bottom_text") or cta_bottom_default
 
     breadcrumb_current = _short_bc(meta.get("h1") or meta.get("title", ""))
     date_human = _human_date_ru(meta.get("date_published") or meta.get("published_at"))

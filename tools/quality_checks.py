@@ -110,11 +110,19 @@ class SpamHeuristics:
 class TargetedTokenHit:
     """Конкретные токены, которые text.ru стабильно подсвечивает как заспам:
     «ст», «РФ», «руб», «ООО», «000 руб». Лимиты эмпирические из реальных
-    скринов text.ru (13 мая 2026, статьи с spam 56-60%)."""
+    скринов text.ru (13 мая 2026, статьи с spam 56-60%).
+
+    `severity`:
+        'hard' — блокирует gate (старые токены, 13 мая)
+        'soft' — попадает в отчёт writer'у, но НЕ блокирует gate
+                  (новые токены 16 мая: 127-фз, 213, 000, ГПК, ГК, cta_формула).
+                  Цель — дать writer'у точную обратную связь без срыва слотов.
+    """
     token: str
     count: int
     limit: int
     over_limit: bool
+    severity: str = "hard"
 
 
 # === 4. Длина статьи (hard-блокер) ===
@@ -169,7 +177,10 @@ class Report:
             return False
         if self.spam and len(self.spam.risk_flags) >= 1:
             return False
-        if any(h.over_limit for h in self.targeted_tokens):
+        # Только HARD-severity targeted-токены блокируют (старые: ст/РФ/руб/ООО/000руб).
+        # SOFT-severity (новые 16 мая: 127-фз, 213, 000, ГПК, ГК, cta) попадают
+        # в отчёт writer'у как feedback, но не срывают слот.
+        if any(h.over_limit and h.severity == "hard" for h in self.targeted_tokens):
             return False
         if self.author_markers_count < self.author_markers_min:
             return False
@@ -361,30 +372,76 @@ def compute_spam_heuristics(text: str) -> SpamHeuristics:
 # - «ООО» × 24 vs 0
 # Каждое снижение этих токенов на 5-7 даёт ~2% text.ru-spam.
 TARGETED_TOKENS = {
+    # === HARD-cap'ы (блокируют gate, существуют с 13 мая 2026) ===
     "ст_сокращение": {  # «ст. X», «ст N» - короткая форма «статья»
         "rx": re.compile(r"\bст\.?\s*\d", re.IGNORECASE | re.UNICODE),
         "limit": 5,
+        "severity": "hard",
         "rationale": "сокращение «ст.» накапливается в юр-цитатах. Писать «статья» полным словом, либо описательно через смысл нормы. Cap ≤5 на статью.",
     },
     "РФ_рудимент": {  # «РФ» в «ГК РФ», «ГПК РФ», «закон РФ»
         "rx": re.compile(r"\bРФ\b", re.UNICODE),
         "limit": 2,
+        "severity": "hard",
         "rationale": "«РФ» в «ГК РФ»/«ГПК РФ» — рудимент, дроп без потери смысла. Cap ≤2 на статью.",
     },
     "руб_сокращение": {  # «руб.», «руб» как отдельный токен
         "rx": re.compile(r"\bруб\.?\b", re.IGNORECASE | re.UNICODE),
         "limit": 0,
+        "severity": "hard",
         "rationale": "«руб» — другой токен чем «рублей». Писать только полным словом «рублей»/«рубля». Cap = 0.",
     },
     "ООО_бренд": {  # «ООО» в авторском тексте (не в footer/aside)
         "rx": re.compile(r"\bООО\b", re.UNICODE),
         "limit": 3,
+        "severity": "hard",
         "rationale": "«ООО» накапливается из бренд-боилерплейта и упоминаний категории. В авторском тексте писать «юридическое лицо» или «компания». Cap ≤3.",
     },
     "000руб_паттерн": {  # «X 000 руб» — главный n-gram повторов сумм
         "rx": re.compile(r"\b\d+\s*000\s*руб", re.IGNORECASE | re.UNICODE),
         "limit": 2,
+        "severity": "hard",
         "rationale": "Шаблон «X 000 руб» (100 000 руб / 300 000 руб) — повторяющийся n-gram. Использовать полное «рублей» + некруглые суммы (82 400, 147 500). Cap ≤2 (для статутных порогов).",
+    },
+    # === SOFT-cap'ы (16 мая 2026, выводятся в отчёт writer'у, НЕ блокируют gate) ===
+    # Эмпирика из анализа 16 мая (статьи 56-60% spam): эти токены забивают топ-10
+    # text.ru, но HARD-cap здесь нельзя — слоты сорвутся. Soft-cap даёт writer'у
+    # точную обратную связь «снизить X с 14 до 2», работает через playbook §9.
+    "127фз_закон": {  # «127-ФЗ», «ФЗ-127», «N 127-ФЗ»
+        "rx": re.compile(r"\b127[-\s]?ФЗ\b|\bФЗ[-\s]?127\b|\bN[°№]?\s*127[-\s]?ФЗ\b", re.IGNORECASE | re.UNICODE),
+        "limit": 2,
+        "severity": "soft",
+        "rationale": "«127-ФЗ» как номер закона стабильно × 12-14 раз в плохих fiz/yur-статьях. Заменять на «закон о банкротстве» / «федеральный закон» / «закон». Soft-cap ≤2.",
+    },
+    "213_артикул": {  # «213.28», «213.30», «ст. 213»
+        "rx": re.compile(r"\b213\.\d+\b|\bст\.?\s*213\b", re.IGNORECASE | re.UNICODE),
+        "limit": 3,
+        "severity": "soft",
+        "rationale": "Номера статей 213.28 / 213.30 закона о банкротстве × 11-15 в плохих кейсах. Заменять описательно: «правило о добросовестности», «норма о завершении процедуры». Soft-cap ≤3.",
+    },
+    "ГПК_кодекс": {  # «ГПК» (любая форма, кроме «ГПК РФ» — это уже в РФ_рудимент)
+        "rx": re.compile(r"\bГПК\b", re.UNICODE),
+        "limit": 3,
+        "severity": "soft",
+        "rationale": "«ГПК» × 12 в плохих взыск-статьях. Заменять на «процессуальный кодекс», «кодекс», описательно. Soft-cap ≤3.",
+    },
+    "ГК_кодекс": {  # «ГК» (любая форма)
+        "rx": re.compile(r"\bГК\b", re.UNICODE),
+        "limit": 3,
+        "severity": "soft",
+        "rationale": "«ГК» × 10 в плохих взыск-статьях. Заменять на «гражданский кодекс», «кодекс». Soft-cap ≤3.",
+    },
+    "000_число": {  # «000» как часть числа («1 000 000», «300 000»)
+        "rx": re.compile(r"(?<!\d)0{3}(?!\d)", re.UNICODE),
+        "limit": 8,
+        "severity": "soft",
+        "rationale": "Тройной ноль в круглых суммах × 11-24 раз. Использовать некруглые числа (82 400, 326 900) или словесную форму («триста тысяч», «полмиллиона»). Soft-cap ≤8.",
+    },
+    "cta_формула_повтор": {  # «оставить заявку» — повторяющаяся CTA-триграмма
+        "rx": re.compile(r"оставить\s+заявку", re.IGNORECASE | re.UNICODE),
+        "limit": 1,
+        "severity": "soft",
+        "rationale": "Если фраза «оставить заявку» встречается × 3 — три CTA-блока используют одинаковый текст. inject_boilerplate.py теперь по дефолту даёт три РАЗНЫЕ формулировки (TOP/MID/BOTTOM). Если cap превышен — заданы кастомные cta_*_text в meta.json, надо их разнести. Soft-cap ≤1 (одна на финальный CTA-BOTTOM).",
     },
 }
 
@@ -399,6 +456,7 @@ def check_targeted_tokens(text: str) -> list[TargetedTokenHit]:
             count=count,
             limit=cfg["limit"],
             over_limit=count > cfg["limit"],
+            severity=cfg.get("severity", "hard"),
         ))
     return hits
 
@@ -473,13 +531,24 @@ def predict_textru_metrics(
         spam_pct += 2
 
     # Targeted-tokens — эмпирическая калибровка по скрину 13 мая:
-    # plохая статья 56% spam имела ст=25 (over 5 на 20), РФ=27 (over 2 на 25),
+    # плохая статья 56% spam имела ст=25 (over 5 на 20), РФ=27 (over 2 на 25),
     # руб=23 (over 0 на 23), X000руб=20 (over 2 на 18). Суммарно ~86 «лишних».
     # Эталон 49% spam: все 0. Разница 7 п.п. = 86 лишних / 12 = ~7.
-    # Формула: +1% за каждые 12 «лишних» токенов.
+    # Формула: +1% за каждые 12 «лишних» HARD-токенов.
+    # Калибровка 16 мая: soft-токены (127-фз, 213, 000, ГПК, ГК, cta) тоже
+    # дают вклад в spam, но меньший — +1% за каждые 20 лишних. Без этого
+    # МФО-статья с soft-cap превышенным × 19 даёт прогноз «49%» при реальных 57%.
     if targeted_token_hits:
-        over = sum(max(0, h.count - h.limit) for h in targeted_token_hits)
-        spam_pct += min(15, over // 12)  # cap +15% максимум
+        over_hard = sum(
+            max(0, h.count - h.limit) for h in targeted_token_hits
+            if getattr(h, "severity", "hard") == "hard"
+        )
+        over_soft = sum(
+            max(0, h.count - h.limit) for h in targeted_token_hits
+            if getattr(h, "severity", "hard") == "soft"
+        )
+        spam_pct += min(15, over_hard // 12)  # hard: +1% за каждые 12 лишних, cap +15%
+        spam_pct += min(8, over_soft // 20)   # soft: +1% за каждые 20 лишних, cap +8%
 
     # === AI-detector (density маркеров + author_markers) ===
     # Эмпирика 13 мая 2026: главный anti-AI маркер — author_markers («мы», «по нашему опыту»).
@@ -713,11 +782,19 @@ def print_report(rep: Report) -> None:
     if rep.targeted_tokens:
         print(f"\nЦелевые токены (главные виновники text.ru spam):")
         for h in rep.targeted_tokens:
-            status = "[FAIL]" if h.over_limit else "[OK]"
-            print(f"  {status} {h.token}: {h.count} (cap ≤{h.limit})")
-        problem = [h for h in rep.targeted_tokens if h.over_limit]
-        if problem:
-            print(f"  → Снизить: {', '.join(h.token for h in problem)}")
+            if h.over_limit:
+                status = "[FAIL]" if h.severity == "hard" else "[WARN]"
+            else:
+                status = "[OK]"
+            tag = "" if h.severity == "hard" else " (soft)"
+            print(f"  {status} {h.token}{tag}: {h.count} (cap ≤{h.limit})")
+        problem_hard = [h for h in rep.targeted_tokens if h.over_limit and h.severity == "hard"]
+        problem_soft = [h for h in rep.targeted_tokens if h.over_limit and h.severity == "soft"]
+        if problem_hard:
+            print(f"  → [HARD] Снизить (блокирует gate): {', '.join(h.token for h in problem_hard)}")
+        if problem_soft:
+            print(f"  → [SOFT] Снизить для коридора 47-50% spam (не блокирует, но даёт +п.п.): "
+                  f"{', '.join(h.token for h in problem_soft)}")
 
     print(f"\nАвторские вставки (мы считаем / по нашему опыту):")
     if rep.author_markers_count >= rep.author_markers_min:
