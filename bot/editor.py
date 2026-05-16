@@ -227,6 +227,13 @@ def apply_edit(*, slug: str, current_version: str, versions: list[str],
         "--output-format", "json",
         "--dangerously-skip-permissions",
         "--add-dir", str(PROJECT_ROOT),
+        # Sonnet вместо дефолтного opus: правки одного блока не требуют opus-качества,
+        # sonnet в 3-5 раз быстрее. Снижает время правки с 8-12 мин до 2-3 мин.
+        # Фикс 16.05.2026.
+        "--model", "sonnet",
+        # Ограничение iteration'ов чтобы claude не уходил в долгие циклы анализа.
+        # Правка обычно укладывается в 15-25 turns (read + edit + save).
+        "--max-turns", "40",
     ]
 
     # Готовим изолированный env с собственным HOME — иначе edit-claude конфликтует
