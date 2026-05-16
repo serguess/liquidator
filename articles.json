@@ -2,6 +2,19 @@
   "generated": "2026-05-17",
   "articles": [
     {
+      "slug": "minimalnaya-summa-dlya-bankrotstva-fizlica",
+      "cat": "fiz",
+      "catLabel": "Банкротство физических лиц",
+      "title": "Минимальная сумма долга для банкротства физлица",
+      "desc": "Какой долг нужен для банкротства физлица: 25 тыс. через МФЦ, 500 тыс. — обязанность идти в суд. Объясняем разницу и когда можно подать при любой сумме.",
+      "date": "17 мая 2026",
+      "dateIso": "2026-05-17",
+      "read": "5 мин.",
+      "tone": "b",
+      "img": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1778913606/articles/minimalnaya-summa-dlya-bankrotstva-fizlica-cover.jpg",
+      "url": "articles/fiz/minimalnaya-summa-dlya-bankrotstva-fizlica"
+    },
+    {
       "slug": "zashchita-ot-bankrotstva-po-zayavleniyu-kreditora",
       "cat": "yur",
       "catLabel": "Банкротство юридических лиц",

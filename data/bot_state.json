@@ -1152,15 +1152,22 @@
       "category": "yur",
       "title": "Продажа бизнеса при банкротстве юрлица: торги и ст. 110",
       "status": "pending_review",
-      "current_version": "2.0",
+      "current_version": "2.1",
       "versions": [
-        "2.0"
+        "2.0",
+        "2.1"
       ],
       "tg_message_id": 568,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-16T05:12:23",
-      "last_action_at": "2026-05-16T05:12:23",
-      "edits_history": [],
+      "last_action_at": "2026-05-17T00:01:32",
+      "edits_history": [
+        {
+          "version": "2.1",
+          "edit_text": "В данной статье ты говоришь, что порог сейчас 2 миллиона рублей, а до этого был 300 тысяч рублей. Где ты говоришь, что до этой даты порог был втрое скромнее. Не втрое, замени фразу, потому что 300 тысяч примерно в 6,5 раз меньше, чем 2 миллиона рублей. Поправь это и пришли готовую статью.",
+          "applied_at": "2026-05-17T00:01:32"
+        }
+      ],
       "rejection_reason": null,
       "published_url": null,
       "pending_batch": false,
@@ -1212,7 +1219,7 @@
     "minimalnaya-summa-dlya-bankrotstva-fizlica": {
       "category": "fiz",
       "title": "Минимальная сумма долга для банкротства физлица",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -1220,13 +1227,15 @@
       "tg_message_id": 574,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-16T09:40:31",
-      "last_action_at": "2026-05-16T09:40:31",
+      "last_action_at": "2026-05-17T00:03:01",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/fiz/minimalnaya-summa-dlya-bankrotstva-fizlica",
       "pending_batch": false,
       "pending_batch_at": "2026-05-16T09:40:31",
-      "batch_sent_at": "2026-05-16T10:02:02"
+      "batch_sent_at": "2026-05-16T10:02:02",
+      "published_at": "2026-05-17T00:03:01",
+      "articles_path": "articles/fiz/minimalnaya-summa-dlya-bankrotstva-fizlica.html"
     },
     "refinansirovanie-ili-bankrotstvo-fizlica": {
       "category": "fiz",
