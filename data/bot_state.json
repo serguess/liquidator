@@ -1088,7 +1088,7 @@
     "bankrotstvo-fizlica-dolya-v-ooo": {
       "category": "fiz",
       "title": "Банкротство физлица с долей в ООО: судьба бизнеса",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -1096,13 +1096,15 @@
       "tg_message_id": 562,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-15T22:42:21",
-      "last_action_at": "2026-05-15T22:42:21",
+      "last_action_at": "2026-05-16T23:51:28",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/fiz/bankrotstvo-fizlica-dolya-v-ooo",
       "pending_batch": false,
       "pending_batch_at": "2026-05-15T22:42:21",
-      "batch_sent_at": "2026-05-16T10:01:49"
+      "batch_sent_at": "2026-05-16T10:01:49",
+      "published_at": "2026-05-16T23:51:28",
+      "articles_path": "articles/fiz/bankrotstvo-fizlica-dolya-v-ooo.html"
     },
     "rashody-na-bankrotstvo-yurlica": {
       "category": "yur",
