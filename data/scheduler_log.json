@@ -3189,5 +3189,49 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-05-16T14:48:10",
+    "category": "yur",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "mode": "new",
+    "topic_id": "yur-33",
+    "topic_slug": "leasing-pri-bankrotstve-dolzhnika",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "leasing-pri-bankrotstve-dolzhnika",
+    "duration_sec": 2197.6,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "океров, 0 предупреждений) |\n| AI маркеры | 3 low (все в шаблоне footer, не в тексте) |\n| Режим публикации | telegram_review |\n| Обложка | template_id=11, сгенерирована на fal.ai → Cloudinary |\n| Файл | `drafts/leasing-pri-bankrotstve-dolzhnika/article.html` |\n\n**textru_ai_detector / textru_uniqueness / textru_spam:** метрики text.ru будут доступны после прохождения через бота (проверка делается на этапе публикации, а не при генерации). Предсказанные quality_gate: spam≈49%, ai≈3%, uniqueness≈87%.",
+    "stderr_tail": "",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7572
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]

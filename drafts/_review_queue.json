@@ -629,6 +629,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "viplaty-zashchishchennye-ot-vzyskaniya",
+      "category": "vzysk",
+      "title": "Выплаты, которые приставы не вправе удержать по закону",
+      "added_at": "2026-05-16T17:55:44.222646",
+      "char_count": 7807,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1778943342/articles/viplaty-zashchishchennye-ot-vzyskaniya-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
