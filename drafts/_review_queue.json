@@ -577,6 +577,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "zashchita-ot-bankrotstva-po-zayavleniyu-kreditora",
+      "category": "yur",
+      "title": "Защита от банкротства по заявлению кредитора",
+      "added_at": "2026-05-16T07:54:29.381986",
+      "char_count": 8082,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1778907268/articles/zashchita-ot-bankrotstva-po-zayavleniyu-kreditora-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

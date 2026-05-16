@@ -3011,5 +3011,87 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-05-16T06:20:01",
+    "category": "news",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 17,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "news_sanitized": 1,
+    "expanded_in_slot": true,
+    "topic_id": "news-15",
+    "topic_slug": "zapret-vzyskaniya-kompensacij-invalidam",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "Автофикс применил правки: сокращения=0, пунктуация=0"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "zapret-vzyskaniya-kompensacij-invalidam",
+    "duration_sec": 3131.2,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": " на Cloudinary |\n| Готовность | `ready_for_review: true`, добавлен в очередь TG |\n| Файл | `drafts/zapret-vzyskaniya-kompensacij-invalidam/article.html` |\n\n**Метрики text.ru:** не проверялись автоматически (textru_ai_detector / textru_uniqueness / textru_spam = None — требует ручной проверки на text.ru).\n\nСтатья о ФЗ-112 от 25.04.2026: защита компенсаций инвалидам (ТСР, собака-проводник, санаторный проезд) от взыскания приставами по обновлённой ст. 101 ФЗ-229. Ждёт публикации через Telegram-бот.",
+    "stderr_tail": "",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 6757
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
+  },
+  {
+    "timestamp": "2026-05-16T08:10:00",
+    "category": "fiz",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "mode": "new",
+    "topic_id": "fiz-38",
+    "topic_slug": "minimalnaya-summa-dlya-bankrotstva-fizlica",
+    "status": "failed",
+    "slug": "minimalnaya-summa-dlya-bankrotstva-fizlica",
+    "duration_sec": 2290.3,
+    "returncode": 1,
+    "rescued_after_failure": false,
+    "stdout_tail": "You've hit your limit · resets 9:30am (Europe/Moscow)",
+    "stderr_tail": "",
+    "metrics": null
   }
 ]

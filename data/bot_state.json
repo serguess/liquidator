@@ -1129,6 +1129,60 @@
       "published_url": null,
       "pending_batch": true,
       "pending_batch_at": "2026-05-16T01:32:22"
+    },
+    "prodazha-biznesa-pri-bankrotstve-yurlica": {
+      "category": "yur",
+      "title": "Продажа бизнеса при банкротстве юрлица: торги и ст. 110",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-05-16T05:12:23",
+      "last_action_at": "2026-05-16T05:12:23",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-05-16T05:12:23"
+    },
+    "zapret-vzyskaniya-kompensacij-invalidam": {
+      "category": "news",
+      "title": "Компенсации инвалидам защитили от взыскания приставами",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-05-16T07:15:24",
+      "last_action_at": "2026-05-16T07:15:24",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-05-16T07:15:24"
+    },
+    "zashchita-ot-bankrotstva-po-zayavleniyu-kreditora": {
+      "category": "yur",
+      "title": "Защита от банкротства по заявлению кредитора",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-05-16T08:02:44",
+      "last_action_at": "2026-05-16T08:02:44",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-05-16T08:02:44"
     }
   },
   "pending_actions": [],
