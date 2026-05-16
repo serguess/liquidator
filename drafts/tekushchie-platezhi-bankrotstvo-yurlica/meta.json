@@ -1,0 +1,114 @@
+{
+  "slug": "tekushchie-platezhi-bankrotstvo-yurlica",
+  "category": "yur",
+  "title": "Текущие платежи при банкротстве юрлица: приоритет",
+  "description": "Что такое текущие платежи при банкротстве юридического лица, какова их очередность по ст. 134 ФЗ-127 и как кредитору их взыскать вне реестра.",
+  "h1": "Текущие платежи при банкротстве компании: кто получает деньги первым",
+  "lead": "Обязательства, возникшие после принятия арбитражом заявления о несостоятельности, гасят вне реестра — но внутри текучки действует своя пятиступенчатая лестница. Кто получает деньги первым и как кредитору взыскать оплату, минуя ожидание распродажи имущества.",
+  "topic_action": "анализ текущих платежей при банкротстве",
+  "breadcrumb_current": "Текущие платежи при банкротстве юрлица",
+  "og_image": "/assets/articles/tekushchie-platezhi-bankrotstvo-yurlica.jpg",
+  "main_keyword": "текущие платежи при банкротстве юридического лица",
+  "secondary_keywords": [
+    "текущие платежи банкротство",
+    "очередность текущих платежей при банкротстве",
+    "что относится к текущим платежам при банкротстве",
+    "взыскание текущих платежей при банкротстве",
+    "текущие и реестровые требования отличие",
+    "ст 134 ФЗ-127 текущие платежи"
+  ],
+  "keywords": [
+    "текущие платежи при банкротстве юридического лица",
+    "текущие платежи банкротство",
+    "очередность текущих платежей при банкротстве",
+    "что относится к текущим платежам при банкротстве",
+    "взыскание текущих платежей при банкротстве",
+    "текущие и реестровые требования отличие",
+    "ст 134 ФЗ-127 текущие платежи",
+    "арбитражный управляющий вознаграждение",
+    "реестр требований кредиторов",
+    "конкурсная масса"
+  ],
+  "author": "ООО ЛИКВИДАТОР",
+  "internal_links": [
+    "/articles/yur/zashchita-ot-bankrotstva-po-zayavleniyu-kreditora.html",
+    "/articles/yur/rashody-na-bankrotstvo-yurlica.html",
+    "/articles/yur/zhaloba-na-arbitrazhnogo-upravljayushchego.html"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_90425/"
+  ],
+  "faq": [
+    {
+      "question": "Можно ли обойти мораторий и потребовать оплату до завершения процедуры?",
+      "answer": "Да, если требование текущее по дате возникновения. Мораторий касается только реестровых обязательств. Внеочередной кредитор получает оплату через исполнительный лист."
+    },
+    {
+      "question": "Какое место занимают налоговые долги, начисленные в ходе процедуры?",
+      "answer": "Пятая позиция — последняя среди внеочередных. Платятся после расчётов с работниками, коммуналкой и привлечёнными специалистами."
+    },
+    {
+      "question": "Что с зарплатой, начисленной до принятия судом заявления?",
+      "answer": "Реестровое требование второй очереди реестра по ст. 136. Подаётся в общем порядке через арбитраж."
+    },
+    {
+      "question": "Согласовывает ли временный управляющий оплату текучки в наблюдении?",
+      "answer": "Нет, её проводит сам руководитель компании. Согласие нужно только на крупные сделки — свыше 5% балансовой стоимости активов (ст. 64)."
+    },
+    {
+      "question": "Чем грозит включение в реестр вместо текущего требования?",
+      "answer": "Потерей очерёдности и времени. Если ошиблись — подавайте отзыв и иск. Уйдёт 3–4 месяца."
+    },
+    {
+      "question": "Как доказать, что требование возникло после даты принятия заявления?",
+      "answer": "Договором, актами, накладными, счетами-фактурами с датами после принятия. Для налогов — выпиской из лицевого счёта."
+    },
+    {
+      "question": "Что делать, если конкурсный управляющий нарушил очерёдность?",
+      "answer": "Жалоба в арбитраж по ст. 60 с требованием возместить убытки, параллельно — в Росреестр и СРО."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все юр-факты сверены с research.json (facts f1-f16), legislation_status=active, last_verified=2026-05-17.",
+    "Конкретные суммы штрафа по ч. 3 ст. 14.13 КоАП не указаны (fact_gap отмечен в research) — использована обтекаемая формулировка «штраф либо дисквалификация».",
+    "Конкретные лимиты по ст. 20.7 не указаны (fact_gap) — использована формулировка «ограничено лимитами ст. 20.7».",
+    "Из draft удалена неподтверждённая статистика «20–40% от заявленных сумм» — заменена на «нередко получает лишь часть от заявленных сумм».",
+    "Из draft удалён неподтверждённый срок «месяц с момента, когда стало известно о нарушении» для жалобы по ст. 60 — формулировка переработана.",
+    "Постановление Пленума ВАС № 63 от 23.07.2009 применяется в части, не противоречащей действующей редакции 127-ФЗ."
+  ],
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "text_chars": 7436,
+  "length_status": "ok",
+  "length_kind": "default",
+  "local_spam_top10_share": 0.1,
+  "local_spam_ngram3_repeat": 0.034,
+  "local_lexical_diversity": 0.593,
+  "local_ai_markers_density": 0.21,
+  "local_ai_markers_total": 2,
+  "local_ai_markers_critical": 0,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 4,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 4,
+  "predicted_spam_pct": 53,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность чуть выше 50% (~53%)"
+  ],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1778968652/articles/tekushchie-platezhi-bankrotstvo-yurlica-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1778968652/articles/tekushchie-platezhi-bankrotstvo-yurlica-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Close-to-medium architectural photograph of a massive stone government building, camera positioned at extreme low-angle looking straight up a row of monolithic limestone columns, their repetitive vertical geometry implying ordered hierarchy and strict sequence. Hard directional side-light from the right rakes across every chisel mark and ashlar joint, throwing deep geometrically precise shadow bands between each column — five distinct bands visible, echoing the five-tier payment priority structure. Palette: warm sandstone in full light, cool blue-grey in shadow, faint trace of moss at the base suggesting the weight of accumulated time. Mood: immutable authority, structural order, procedural permanence. No architectural ornament readable, decorative relief only. Wide cinematic framing, lower-right area soft shadow gradient.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-05-16T21:57:33Z",
+  "date_published": "2026-05-17",
+  "date_modified": "2026-05-17",
+  "ready_for_review": true,
+  "ready_at": "2026-05-16T21:57:33Z",
+  "publication_target": "telegram_review"
+}

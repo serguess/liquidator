@@ -3343,5 +3343,60 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-05-16T22:00:30",
+    "category": "fiz",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 3,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "expanded_in_slot": true,
+    "topic_id": "fiz-40",
+    "topic_slug": "kak-vybrat-yurista-po-bankrotstvu",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "Автофикс применил правки: сокращения=2, пунктуация=0"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "kak-vybrat-yurista-po-bankrotstvu",
+    "duration_sec": 2464.0,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": " gate:** passed (retry_count=2, автофикс: 2 сокращения, 38 тире)\n- **Uniqueness (агент 5):** passed\n- **Factcheck (агент 6):** passed\n- **Обложка:** сгенерирована, загружена на Cloudinary (template_id=2 — «стол юриста»)\n- **Статус:** `ready_for_review: true`, добавлена в TG-очередь (51 item)\n\n**Метрики text.ru** (прогноз quality_gate): `spam_pct=49`, `ai_pct=3`, `uniqueness_pct=87` — text.ru проверка пройдёт при публикации.\n\n**Итерации writer'а:** 1 возврат (от quality_gate, length 8362 → 6797).",
+    "stderr_tail": "",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 6797
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]

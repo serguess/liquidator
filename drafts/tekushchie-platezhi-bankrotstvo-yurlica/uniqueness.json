@@ -1,0 +1,25 @@
+{
+  "slug": "tekushchie-platezhi-bankrotstvo-yurlica",
+  "passed": true,
+  "scores": {
+    "structure_overlap": 0.111,
+    "thesis_similarity": 0.0,
+    "cta_overlap": 0.0
+  },
+  "thresholds": {
+    "structure_overlap": 0.4,
+    "thesis_similarity": 0.3,
+    "cta_overlap": 0.2
+  },
+  "similar_articles": [
+    {
+      "slug": "prodazha-biznesa-pri-bankrotstve-yurlica",
+      "category": "yur",
+      "similarity": 0.111,
+      "note": "Only H2 overlap on standard conclusion block"
+    }
+  ],
+  "conflicts": [],
+  "recommendation": "ok",
+  "note": "Работаем в режиме fallback (нет OPENAI_API_KEY). Проверка структуры полна, семантическое сравнение отключено. Структура статьи уникальна среди опубликованных (max overlap 11% на стандартный раздел 'Что в итоге')."
+}

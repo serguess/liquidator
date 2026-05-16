@@ -668,6 +668,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "tekushchie-platezhi-bankrotstvo-yurlica",
+      "category": "yur",
+      "title": "Текущие платежи при банкротстве юрлица: приоритет",
+      "added_at": "2026-05-17T00:57:33.416315",
+      "char_count": 7436,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1778968652/articles/tekushchie-platezhi-bankrotstvo-yurlica-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
