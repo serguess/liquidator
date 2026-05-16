@@ -1,6 +1,19 @@
 {
-  "generated": "2026-05-16",
+  "generated": "2026-05-17",
   "articles": [
+    {
+      "slug": "zashchita-ot-bankrotstva-po-zayavleniyu-kreditora",
+      "cat": "yur",
+      "catLabel": "Банкротство юридических лиц",
+      "title": "Защита от банкротства по заявлению кредитора",
+      "desc": "Кредитор подал заявление о банкротстве вашей компании - что делать прямо сейчас. Как погасить долг, оспорить заявление и не допустить введения наблюдения.",
+      "date": "17 мая 2026",
+      "dateIso": "2026-05-17",
+      "read": "5 мин.",
+      "tone": "b",
+      "img": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1778907268/articles/zashchita-ot-bankrotstva-po-zayavleniyu-kreditora-cover.jpg",
+      "url": "articles/yur/zashchita-ot-bankrotstva-po-zayavleniyu-kreditora"
+    },
     {
       "slug": "zapret-vzyskaniya-kompensacij-invalidam",
       "cat": "news",

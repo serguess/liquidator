@@ -1191,7 +1191,7 @@
     "zashchita-ot-bankrotstva-po-zayavleniyu-kreditora": {
       "category": "yur",
       "title": "Защита от банкротства по заявлению кредитора",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -1199,13 +1199,15 @@
       "tg_message_id": 572,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-16T08:02:44",
-      "last_action_at": "2026-05-16T08:02:44",
+      "last_action_at": "2026-05-17T00:01:18",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/yur/zashchita-ot-bankrotstva-po-zayavleniyu-kreditora",
       "pending_batch": false,
       "pending_batch_at": "2026-05-16T08:02:44",
-      "batch_sent_at": "2026-05-16T10:01:59"
+      "batch_sent_at": "2026-05-16T10:01:59",
+      "published_at": "2026-05-17T00:01:18",
+      "articles_path": "articles/yur/zashchita-ot-bankrotstva-po-zayavleniyu-kreditora.html"
     },
     "minimalnaya-summa-dlya-bankrotstva-fizlica": {
       "category": "fiz",
