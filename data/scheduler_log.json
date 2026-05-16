@@ -2952,5 +2952,10 @@
     "stdout_tail": "You've hit your limit · resets 3am (Europe/Moscow)",
     "stderr_tail": "",
     "metrics": null
+  },
+  {
+    "timestamp": "2026-05-16T02:50:17",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets 3am (Europe/Moscow)"
   }
 ]
