@@ -1151,7 +1151,7 @@
     "prodazha-biznesa-pri-bankrotstve-yurlica": {
       "category": "yur",
       "title": "Продажа бизнеса при банкротстве юрлица: торги и ст. 110",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.1",
       "versions": [
         "2.0",
@@ -1160,7 +1160,7 @@
       "tg_message_id": 568,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-16T05:12:23",
-      "last_action_at": "2026-05-17T00:01:32",
+      "last_action_at": "2026-05-17T00:05:31",
       "edits_history": [
         {
           "version": "2.1",
@@ -1169,10 +1169,12 @@
         }
       ],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/yur/prodazha-biznesa-pri-bankrotstve-yurlica",
       "pending_batch": false,
       "pending_batch_at": "2026-05-16T05:12:23",
-      "batch_sent_at": "2026-05-16T10:01:55"
+      "batch_sent_at": "2026-05-16T10:01:55",
+      "published_at": "2026-05-17T00:05:31",
+      "articles_path": "articles/yur/prodazha-biznesa-pri-bankrotstve-yurlica.html"
     },
     "zapret-vzyskaniya-kompensacij-invalidam": {
       "category": "news",
