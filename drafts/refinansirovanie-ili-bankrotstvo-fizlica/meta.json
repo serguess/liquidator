@@ -1,0 +1,107 @@
+{
+  "slug": "refinansirovanie-ili-bankrotstvo-fizlica",
+  "category": "fiz",
+  "title": "Рефинансирование или банкротство: что выбрать должнику",
+  "description": "Рефинансирование снижает платёж, банкротство списывает долг полностью. Разбираем, когда одно бесполезно без другого и по каким критериям принять решение.",
+  "h1": "Рефинансирование или банкротство: как должнику выбрать выход из долговой ямы",
+  "lead": "Рефинансирование переоформляет задолженность на новых условиях, банкротство снимает её через арбитраж: разбираем, когда работает первое, а когда без второго не обойтись.",
+  "topic_action": "разбор ситуации по долгам",
+  "breadcrumb_current": "Рефинансирование или банкротство",
+  "og_image": "/assets/articles/refinansirovanie-ili-bankrotstvo-fizlica.jpg",
+  "main_keyword": "рефинансирование или банкротство физического лица",
+  "secondary_keywords": [
+    "что лучше рефинансирование или банкротство",
+    "рефинансирование при большом долге",
+    "когда рефинансирование не поможет",
+    "отличие рефинансирования от банкротства",
+    "банкротство или реструктуризация долга",
+    "рефинансирование с просрочками невозможно",
+    "банкротство вместо рефинансирования",
+    "стоит ли рефинансировать кредит перед банкротством"
+  ],
+  "internal_links": [
+    "/articles/fiz/kogda-dolgi-ne-spishut-pri-bankrotstve",
+    "/articles/fiz/chto-nelzya-delat-pered-bankrotstvom-fizlica",
+    "/articles/fiz/ipoteka-posle-bankrotstva-fizlica"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_9027/",
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/"
+  ],
+  "faq": [
+    {
+      "question": "Можно ли попробовать рефинансирование, а затем подать на списание?",
+      "answer": "Создаёт риск. Если переоформление прошло за один-шесть месяцев до арбитража, управляющий вправе оспорить сделку как предпочтение одному взыскателю."
+    },
+    {
+      "question": "Что происходит с долгами перед МФО, если рефинансировали только банковский кредит?",
+      "answer": "Они остаются в прежнем виде. Переоформление работает только с тем, кто согласился. Микрофинансовые организации продолжают начислять проценты, ЖКХ – пени."
+    },
+    {
+      "question": "Сколько реально стоит судебное списание?",
+      "answer": "Госпошлина – ноль рублей с 8 сентября 2024 года. Обязательный платёж – депозит управляющему 25 тысяч рублей. Дальше публикации в реестре и юридическое сопровождение."
+    },
+    {
+      "question": "Распространяется ли мораторий на проценты сразу при подаче?",
+      "answer": "Нет. С момента, когда арбитраж признал заявление обоснованным."
+    },
+    {
+      "question": "Через сколько лет банки реально рассматривают ипотеку?",
+      "answer": "Формально ограничений нет. На практике – через два-три года стабильного дохода и аккуратной истории."
+    },
+    {
+      "question": "Чем реструктуризация в банкротстве отличается от реструктуризации у своего кредитора?",
+      "answer": "Принципиально. Судебная – план до трёх лет, обязательный для всех держателей требований сразу. У своего банка – добровольная сделка с одним кредитором, остальные обязательства остаются."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все юр-утверждения сверены с research.json (двухпроходный фактчек).",
+    "Все факты last_verified=2026-05-16, legislation_status=active (кроме f3 - needs_verification, использована обтекаемая safe_phrasing про требования ЦБ к резервам).",
+    "Госпошлина 0 руб. с 08.09.2024 (ФЗ-176, ст. 333.37 НК РФ) - формулировка из legal-facts.md, никаких '300 руб.' (f13).",
+    "Депозит управляющему 25 тыс. руб. (п. 3 ст. 20.6 127-ФЗ) - указан в FAQ и блоке 4 (f13).",
+    "Порог судебного банкротства 500 тыс. руб. + 3 месяца просрочки - формулировка обтекаемая через 'полмиллиона' и 'трёх месяцев' (f5).",
+    "Внесудебный путь через МФЦ: коридор 25 тыс. - 1 млн руб., бесплатно, 6 месяцев (f14).",
+    "План реструктуризации - до 3 лет, 4 условия по ст. 213.13 (источник дохода, нет экономической судимости, 5 лет без признания несостоятельным, 8 лет без плана) (f7, f16).",
+    "Мораторий по ст. 213.11 п. 2 127-ФЗ с даты признания заявления обоснованным (f8).",
+    "Оспаривание сделок: ст. 61.3 - 1 месяц предполагается / 1-6 месяцев нужно доказать (f9); ст. 61.2 - 1-3 года для подозрительных сделок (f10). Применяется через ст. 213.32.",
+    "Несписываемые долги по ст. 213.28 п. 5: алименты, вред жизни/здоровью, зарплата, субсидиарка, умышленный ущерб (f11).",
+    "Последствия 5/5/3 года по ст. 213.30 (f12).",
+    "Кредитная история 7 лет по ст. 7 ФЗ-218 (f15).",
+    "Единственное жильё защищено по ст. 446 ГПК, кроме ипотеки (f17)."
+  ],
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "text_chars": 7730,
+  "length_status": "warn",
+  "length_kind": "default",
+  "local_spam_top10_share": 0.098,
+  "local_spam_ngram3_repeat": 0.024,
+  "local_lexical_diversity": 0.607,
+  "local_ai_markers_density": 0.31,
+  "local_ai_markers_total": 3,
+  "local_ai_markers_critical": 0,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 3,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 3,
+  "predicted_spam_pct": 53,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность чуть выше 50% (~53%)"
+  ],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1778925888/articles/refinansirovanie-ili-bankrotstvo-fizlica-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1778925888/articles/refinansirovanie-ili-bankrotstvo-fizlica-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Photograph of a private office interior with low-key lighting conveying solitary deliberation. Deep walnut paneling, oxblood leather chair, a brass library lamp casting a single warm pool of light. On the leather-topped desk in the foreground: a closed laptop with brushed aluminum lid, a leather-bound notebook open to a blank page with a fountain pen resting across it, a polished brass round seal, an antique pocket watch on a chain, a small stack of closed dossiers tied with cord suggesting unpaid credit files, and an empty whisky tumbler. Background: blurred dark bookshelves merging into shadow with a faint city-lights bokeh through a distant window. Camera: three-quarter angle, eye-level. Lighting: dominant warm tungsten from the brass lamp, deep ambient shadow elsewhere. Palette: oxblood, walnut, brass on near-black. Mood: a borrower weighing a consequential financial choice late at night, heavy with deliberation.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-05-16T10:04:49Z",
+  "date_published": "2026-05-16",
+  "date_modified": "2026-05-16",
+  "ready_for_review": true,
+  "ready_at": "2026-05-16T10:04:49Z",
+  "publication_target": "telegram_review"
+}

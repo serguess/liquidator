@@ -603,6 +603,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "refinansirovanie-ili-bankrotstvo-fizlica",
+      "category": "fiz",
+      "title": "Рефинансирование или банкротство: что выбрать должнику",
+      "added_at": "2026-05-16T13:04:49.518773",
+      "char_count": 7730,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1778925888/articles/refinansirovanie-ili-bankrotstvo-fizlica-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
