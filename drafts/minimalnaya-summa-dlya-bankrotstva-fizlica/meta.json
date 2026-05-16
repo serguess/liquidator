@@ -1,0 +1,98 @@
+{
+  "slug": "minimalnaya-summa-dlya-bankrotstva-fizlica",
+  "category": "fiz",
+  "title": "Минимальная сумма долга для банкротства физлица",
+  "description": "Какой долг нужен для банкротства физлица: 25 тыс. через МФЦ, 500 тыс. — обязанность идти в суд. Объясняем разницу и когда можно подать при любой сумме.",
+  "h1": "С какого долга можно подать на банкротство гражданина",
+  "lead": "Минимальной планки нет. Три режима входа: МФЦ от 25 тыс., обязанность с полумиллиона, право — при любой сумме при признаках неплатёжеспособности.",
+  "breadcrumb_current": "Минимальная сумма долга для банкротства физлица",
+  "topic_action": "проверку возможности списания долгов",
+  "og_image": "/assets/articles/minimalnaya-summa-dlya-bankrotstva-fizlica.jpg",
+  "main_keyword": "минимальная сумма долга для банкротства физлица",
+  "secondary_keywords": [
+    "от какой суммы можно подать на банкротство",
+    "банкротство при долге менее 500 тысяч",
+    "внесудебное банкротство МФЦ сумма долга",
+    "банкротство физлица условия сумма",
+    "сколько нужно долга для банкротства",
+    "можно ли подать на банкротство при любом долге",
+    "когда обязан подать на банкротство",
+    "банкротство через МФЦ 25000 1000000"
+  ],
+  "internal_links": [
+    "/articles/vzysk/okonchanie-ip-po-state-46",
+    "/articles/fiz/vnesudebnoe-bankrotstvo-cherez-mfc-2026",
+    "/articles/fiz/skolko-stoit-bankrotstvo-fizicheskogo-lica"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/",
+    "https://www.consultant.ru/document/cons_doc_LAW_19671/"
+  ],
+  "faq": [
+    {
+      "question": "Можно ли подать на банкротство при долге 200 тысяч рублей?",
+      "answer": "Да, если подаёт сам заёмщик. По пункту 2 статьи 213.4 нижней планки закон не устанавливает. Условие — один из признаков неплатёжеспособности. Через МФЦ тоже да, если задолженность в коридоре от 25 тыс. до миллиона."
+    },
+    {
+      "question": "Что изменилось в условиях МФЦ после ноября 2023 года?",
+      "answer": "Денежный коридор: было от 50 тыс. до полумиллиона, стало от 25 тыс. до миллиона. Добавили четыре новые категории: пенсионеры с длительными производствами, получатели пособия по уходу за ребёнком, граждане с давними неисполненными листами."
+    },
+    {
+      "question": "Какие признаки суд проверяет, чтобы принять заявление при небольшой сумме?",
+      "answer": "Самый частый — оконченное исполнительное производство постановлением об отсутствии имущества. Также превышение бремени над стоимостью активов, остановка расчётов, просрочка свыше 10% обязательств больше месяца."
+    },
+    {
+      "question": "Чем рискует тот, кто не подал при долге выше 500 тысяч рублей?",
+      "answer": "Штрафом по части 5 нормы 14.13 КоАП. И серьёзнее — арбитраж может квалифицировать пропуск тридцатидневного окна как недобросовестность. Тогда дело завершат, но без освобождения."
+    },
+    {
+      "question": "Обязательно ли оконченное исполнительное производство для МФЦ-пути?",
+      "answer": "Нет, оно лишь самое распространённое из пяти оснований. С ноября 2023 добавили альтернативы: пенсионный возраст с длительными ИП, получатели детского пособия с тянущимся производством, давние исполнительные листы свыше семи лет."
+    },
+    {
+      "question": "Сколько реально стоит судебная процедура для должника-гражданина?",
+      "answer": "Из обязательных — депозит 25 тыс. на вознаграждение управляющего. Госпошлина ноль с 8 сентября 2024. Дополнительно: публикации в ЕФРСБ, газета «Коммерсантъ», почтовые отправления, обычно 15-25 тыс."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Сверка с research.json пройдена: ст. 213.4 п.1 (обязанность 500 тыс.), п.2 (право при любой сумме), ст. 213.6 п.3 (признаки неплатёжеспособности), ст. 223.2 в ред. ФЗ-474 (диапазон 25 тыс. — 1 млн), ст. 213.11 п.2 (мораторий), ст. 213.28 п.5 (несписываемые), ст. 213.30 (последствия 5/3/10 лет).",
+    "Госпошлина = 0 для должника-гражданина с 08.09.2024 (ст. 333.37 НК РФ) — соответствует legal-facts.md. Депозит 25 тыс. отдельно от пошлины, не складываются.",
+    "Внутренних ссылок 3 (все из outline.internal_links_targets, проверено по data/published_index.json). Внешних 2 на КонсультантПлюс из research.key_sources.",
+    "Год в title и h1 отсутствует (категория fiz, ограничение не обязательное, но соблюдено по умолчанию)."
+  ],
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "text_chars": 7984,
+  "length_status": "warn",
+  "length_kind": "default",
+  "local_spam_top10_share": 0.099,
+  "local_spam_ngram3_repeat": 0.024,
+  "local_lexical_diversity": 0.593,
+  "local_ai_markers_density": 0.2,
+  "local_ai_markers_total": 2,
+  "local_ai_markers_critical": 0,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 2,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 53,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность чуть выше 50% (~53%)"
+  ],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1778913606/articles/minimalnaya-summa-dlya-bankrotstva-fizlica-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1778913606/articles/minimalnaya-summa-dlya-bankrotstva-fizlica-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Top-down flat-lay editorial photograph on a polished dark walnut desk. Soft golden morning light from a window casting a long warm diagonal across the surface. Arranged with deliberate editorial composition: a precision scientific calculator with a blank screen positioned left of center, a small brass piggy bank, a neat stack of polished brass coins beside it, a sand-filled hourglass mid-flow placed at the upper right, a closed leather case folder with a fountain pen resting diagonally across it, and reading glasses set on top of a closed law book with embossed gilt spine. Premium legal-magazine aesthetic, neutral beige and graphite palette with warm gold accents. Mood: methodical assessment of financial thresholds, a private citizen weighing their options with care.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-05-16T06:40:07Z",
+  "date_published": "2026-05-16",
+  "date_modified": "2026-05-16",
+  "ready_for_review": true,
+  "ready_at": "2026-05-16T06:40:07Z",
+  "publication_target": "telegram_review"
+}
