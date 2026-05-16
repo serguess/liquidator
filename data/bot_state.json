@@ -1170,7 +1170,7 @@
     "zapret-vzyskaniya-kompensacij-invalidam": {
       "category": "news",
       "title": "Компенсации инвалидам защитили от взыскания приставами",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -1178,13 +1178,15 @@
       "tg_message_id": 570,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-16T07:15:24",
-      "last_action_at": "2026-05-16T07:15:24",
+      "last_action_at": "2026-05-16T23:59:28",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/news/zapret-vzyskaniya-kompensacij-invalidam",
       "pending_batch": false,
       "pending_batch_at": "2026-05-16T07:15:24",
-      "batch_sent_at": "2026-05-16T10:01:57"
+      "batch_sent_at": "2026-05-16T10:01:57",
+      "published_at": "2026-05-16T23:59:28",
+      "articles_path": "articles/news/zapret-vzyskaniya-kompensacij-invalidam.html"
     },
     "zashchita-ot-bankrotstva-po-zayavleniyu-kreditora": {
       "category": "yur",
