@@ -3143,5 +3143,51 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-05-16T12:24:25",
+    "category": "fiz",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "mode": "new",
+    "topic_id": "fiz-39",
+    "topic_slug": "refinansirovanie-ili-bankrotstvo-fizlica",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "Автофикс применил правки: сокращения=0, пунктуация=0"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "refinansirovanie-ili-bankrotstvo-fizlica",
+    "duration_sec": 2442.6,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "itical / 0 high / 3 low (два — в шаблоне футера, один — «в рамках» в тексте)\n- **Spam:** ~53% (чуть выше 50%, customer risk, gate пропустил — метрики в норме)\n- **metrics_warning:** false\n- **Обложка:** сгенерирована и загружена на Cloudinary\n- **Статус:** `ready_for_review: true`, добавлена в очередь ревью (47 items)\n\n**text.ru метрики** — будут заполнены после автоматической проверки scheduler'ом (сейчас `null`).\n\n**Готовый файл:** `drafts/refinansirovanie-ili-bankrotstvo-fizlica/article.html`",
+    "stderr_tail": "",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7730
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]

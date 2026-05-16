@@ -616,6 +616,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "leasing-pri-bankrotstve-dolzhnika",
+      "category": "yur",
+      "title": "Лизинг при банкротстве должника: судьба имущества",
+      "added_at": "2026-05-16T15:24:32.699190",
+      "char_count": 7572,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1778934271/articles/leasing-pri-bankrotstve-dolzhnika-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
