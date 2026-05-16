@@ -734,6 +734,37 @@ def _safe_pipeline_log(slug: str | None, agent: str, event: str, **fields) -> No
         log.debug("pipeline_log failed: %s", exc)
 
 
+def _is_slug_in_pending_or_sent(slug: str) -> bool:
+    """
+    Проверяет: статья уже в pending_batch ИЛИ отправлена Юле в TG.
+
+    Источник правды — data/bot_state.json:reviews[slug]. Если у записи
+    pending_batch=true ИЛИ batch_sent_at!=null — статья уже ушла в обработку
+    к заказчику, retry/rewrite её ломает (TG-preview расходится с финальным
+    article.html, заказчик правит руками — наш rewrite затирает её правки).
+
+    Возвращает True если статью НЕЛЬЗЯ трогать.
+    Возвращает False если запись отсутствует или статья ещё в работе.
+    """
+    bot_state_path = DATA_DIR / "bot_state.json"
+    if not bot_state_path.exists():
+        return False
+    try:
+        bot_state = json.loads(bot_state_path.read_text(encoding="utf-8"))
+    except (json.JSONDecodeError, OSError):
+        return False
+    review = (bot_state.get("reviews") or {}).get(slug)
+    if not review:
+        return False
+    if review.get("pending_batch"):
+        return True
+    if review.get("batch_sent_at"):
+        return True
+    if review.get("published_at"):
+        return True
+    return False
+
+
 def _find_failed_qa_for_retry(max_iterations: int = 3) -> str | None:
     """
     Ищет статью failed_qa, которую можно дорабатывать (а не брать новую тему).
@@ -745,6 +776,9 @@ def _find_failed_qa_for_retry(max_iterations: int = 3) -> str | None:
        инкрементирует при каждом прогоне). Fallback — `_pipeline.log.json:current_iteration`
        для старых драфтов, где новый счётчик ещё не записан.
     3. В drafts/_review/ её нет (значит ручной разбор не запрошен).
+    4. **Статья НЕ в pending_batch и НЕ отправлена Юле в TG** (фикс 16.05.2026:
+       runner запускал rewrite на статьях, которые уже в TG-batch, тратил
+       тик впустую и расходил TG-preview с финальным article.html).
 
     После max_iterations провалов статья принудительно перемещается в drafts/_review/
     для ручного разбора (это делает _archive_dead_drafts ниже, не здесь).
@@ -764,6 +798,15 @@ def _find_failed_qa_for_retry(max_iterations: int = 3) -> str | None:
             if qg.get("passed", True):
                 continue  # уже прошёл, не нужен retry
         except (json.JSONDecodeError, OSError):
+            continue
+
+        # Фикс 16.05.2026: пропускаем статьи которые уже в pending_batch / отправлены / опубликованы.
+        # Иначе scheduler запускает rewrite на статье, которая уже у Юли в TG.
+        if _is_slug_in_pending_or_sent(slug_dir.name):
+            log.info(
+                "skip rewrite for %s: уже в pending_batch / отправлена Юле — не трогаем",
+                slug_dir.name,
+            )
             continue
 
         # Проверяем лимит итераций — сначала из quality_gate.json (надёжно),
