@@ -1,0 +1,92 @@
+{
+  "slug": "snizhenie-voznagrazdeniya-upravlyayushchego-bankrotstvo-vs",
+  "category": "news",
+  "title": "Суд вправе снизить вознаграждение управляющего - позиция ВС",
+  "description": "Обзор ВС N 5/2026 (Президиум, 29 апреля 2026): арбитраж снижает вознаграждение управляющего без отдельного акта о незаконности действий.",
+  "h1": "Верховный суд: суд вправе снизить вознаграждение управляющего",
+  "lead": "Президиум ВС утвердил Обзор N 5/2026: арбитраж вправе уменьшить оплату назначенному управленцу без предварительного признания его действий незаконными.",
+  "topic_action": "снижение вознаграждения управляющего",
+  "breadcrumb_current": "Верховный суд о снижении вознаграждения управляющего",
+  "og_image": "/assets/articles/snizhenie-voznagrazdeniya-upravlyayushchego-bankrotstvo-vs.jpg",
+  "main_keyword": "снижение вознаграждения арбитражного управляющего",
+  "secondary_keywords": [
+    "как снизить вознаграждение управляющего",
+    "вознаграждение арбитражного управляющего основания снижения",
+    "суд вправе снизить вознаграждение управляющего",
+    "снижение вознаграждения управляющего без признания незаконными действий",
+    "обзор ВС банкротство вознаграждение управляющего",
+    "ненадлежащее исполнение обязанностей управляющего вознаграждение",
+    "бездействие арбитражного управляющего снижение выплаты"
+  ],
+  "internal_links": [
+    "/articles/news/obzor-vs-rf-5-2026-bankrotstvo-glavnoe"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/"
+  ],
+  "faq": [
+    {
+      "question": "Сколько получает арбитражный управляющий в разных делах о банкротстве?",
+      "answer": "Помесячная ставка зависит от вида производства и варьируется от пятнадцати до сорока пяти тысяч рублей. Финансовый управляющий в делах граждан получает 25 000 рублей единовременно за каждую процедуру. Плюс проценты от погашенных требований - они считаются отдельно по результатам."
+    },
+    {
+      "question": "Нужно ли сначала жаловаться, чтобы добиться меньшей оплаты?",
+      "answer": "Нет. Пункт 19 Обзора N 5/2026 прямо снимает это требование. Запрос рассматривается самостоятельно, независимо от жалобы по 60-й норме. Это и есть главная новация позиции Президиума."
+    },
+    {
+      "question": "Можно ли вернуть уже выплаченные деньги через суд?",
+      "answer": "По общему правилу нет: уже состоявшийся транш задним числом не отзовут. Пересчёт применяется к будущим траншам. Если выплата ещё не подкреплена вступившим в силу определением - есть шанс заблокировать её до рассмотрения заявки об уменьшении."
+    },
+    {
+      "question": "Распространяется ли позиция Президиума на проценты?",
+      "answer": "Да. Высшая инстанция подтверждает право судьи уменьшить и базовую часть, и процентную. Кредитор вправе оспорить любую из них либо обе сразу - в одном заявлении."
+    },
+    {
+      "question": "Вправе ли ФНС самостоятельно требовать пересчёта?",
+      "answer": "Да. Уполномоченный орган - такой же участник дела, как и обычный кредитор. Если налоговая видит, что управляющий не взыскал дебиторку или не оспорил подозрительные сделки в пользу бюджета, она вправе подать собственное мотивированное обращение."
+    },
+    {
+      "question": "Что делать, если арбитраж снизил оплату, а назначенец уже завершил дело?",
+      "answer": "Определение о снижении вступает в силу как обычный судебный акт - его можно обжаловать в апелляции и кассации. Если решение устоит, разница между выплаченной и итоговой суммой возвращается в массу или у должника возникает право требования к управленцу - в зависимости от мотивировки определения."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все юр-утверждения сверены с research.json (10 фактов, все last_verified=2026-05-16, legislation_status=active).",
+    "Обзор ВС N 5/2026 п. 19 - источник позиции (f4); основные ставки 15/25/30/45 тыс.руб (f2); разграничение ст. 60 и ст. 20.6 (f5); круг заявителей кредиторы/должник/ФНС (f6); критерии добросовестности по п. 4 ст. 20.3 (f8); расходы по ст. 20.7 - отдельный порядок (f9).",
+    "Год '2026' в title и h1 отсутствует (требование news-категории).",
+    "Internal link на /articles/news/obzor-vs-rf-5-2026-bankrotstvo-glavnoe проверен в published_index.json (source=published)."
+  ],
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "text_chars": 5945,
+  "length_status": "ok",
+  "length_kind": "news",
+  "local_spam_top10_share": 0.097,
+  "local_spam_ngram3_repeat": 0.007,
+  "local_lexical_diversity": 0.668,
+  "local_ai_markers_density": 0.26,
+  "local_ai_markers_total": 2,
+  "local_ai_markers_critical": 0,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 2,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 5,
+  "predicted_spam_pct": 47,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 90,
+  "customer_risks": [],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1778951296/articles/snizhenie-voznagrazdeniya-upravlyayushchego-bankrotstvo-vs-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1778951296/articles/snizhenie-voznagrazdeniya-upravlyayushchego-bankrotstvo-vs-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Editorial photograph of a corner of a desk in a high-floor executive office or conference room, looking out through floor-to-ceiling windows onto a blurred urban skyline at dusk with distant city lights. Foreground on a walnut desktop: a closed dark leather portfolio at center, a polished brass round seal resting beside it, a fountain pen on a brushed brass stand aligned with the portfolio edge, a small brass scales of justice with empty balanced pans, a blank-spine closed notebook in dark leather, a clear water glass catching the window light. Camera: three-quarter angle, eye-level, shallow depth of field. Lighting: cool ambient daylight from the city-facing windows blended with warm interior tungsten from a low desk lamp to the left. Materials: walnut, dark glass, polished brass, oxblood leather. Mood: institutional gravity, a senior judicial decision weighing accountability and consequence, restrained and authoritative.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-05-16T17:08:17Z",
+  "date_published": "2026-05-16",
+  "date_modified": "2026-05-16",
+  "ready_for_review": true,
+  "ready_at": "2026-05-16T17:08:17Z",
+  "publication_target": "telegram_review"
+}

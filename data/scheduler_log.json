@@ -3233,5 +3233,63 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-05-16T17:12:02",
+    "category": "vzysk",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 1,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "vzysk-23",
+    "topic_slug": "viplaty-zashchishchennye-ot-vzyskaniya",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "Автофикс применил правки: сокращения=0, пунктуация=0",
+        "internal_links_autofixed: 3 ссылок (например /articles/vzysk/udershanie-iz-zarplaty-pristavami.html→/articles/vzysk/udershanie-iz-zarplaty-pristavami; /articles/vzysk/snyatie-aresta-so-scheta-pristavami.html→/articles/vzysk/snyatie-aresta-so-scheta-pristavami; /articles/vzysk/kak-otmenit-sudebnyj-prikaz.html→/articles/vzysk/kak-otmenit-sudebnyj-prikaz)",
+        "forced_pass_at_iter3: блокеры пропущены, статья идёт в TG-очередь с metrics_warning=true. Было: 1 блокеров — spam_risk"
+      ],
+      "recommendations": [
+        "reduce_repetition: разбавить топ-5 частотных лемм местоимениями/перифразом — ['пристав', 'деньг', 'пособ', 'пенс', 'защищённ']"
+      ],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "viplaty-zashchishchennye-ot-vzyskaniya",
+    "duration_sec": 2640.5,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "K — template #10 |\n| ready_for_review | true |\n| Файл | `drafts/viplaty-zashchishchennye-ot-vzyskaniya/article.html` |\n\n**Метрики text.ru:** не запрашивались автоматически (n/a — проверка manual).\n\n**⚠ metrics_warning=true:** `spam_risk` — ngram3_repeat_share = 0.052 (порог 0.040). Тема с закрытым перечнем юртерминов (пенсия по потере кормильца, пособие, пристав) структурно даёт повторяющиеся 3-граммы — оба прохода правки снизили показатель, но не до порога. Статья в TG-очереди (#49) с пометкой.",
+    "stderr_tail": "",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7807
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]
