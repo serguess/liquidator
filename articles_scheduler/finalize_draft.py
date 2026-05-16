@@ -54,6 +54,7 @@ except Exception:
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 DRAFTS_DIR = PROJECT_ROOT / "drafts"
 REVIEW_QUEUE = DRAFTS_DIR / "_review_queue.json"
+COVER_SCENES_MD = PROJECT_ROOT / ".claude" / "style" / "cover-scenes.md"
 
 REQUIRED_META_FIELDS = ("slug", "category", "title", "description", "h1", "topic_action")
 MIN_ARTICLE_BYTES = 5000
@@ -141,28 +142,145 @@ def _validate_draft(slug: str) -> tuple[bool, str, dict]:
 
 # ============ SCENE ============
 
-def _read_scene(slug: str) -> Optional[str]:
+def _read_scene_template_id(slug: str) -> Optional[int]:
     """
-    Читает drafts/{slug}/scene.txt. None если файла нет / пуст.
-    Лог уровня WARNING если файла нет (агент 7 не отработал) -
-    дальше image_gen возьмёт CATEGORY_SCENE_DEFAULT.
+    Читает drafts/{slug}/scene_template.txt (формат `template_id=N`).
+    None если файла нет / парсится плохо.
     """
-    scene_path = DRAFTS_DIR / slug / "scene.txt"
-    if not scene_path.exists():
-        log.warning("scene.txt отсутствует для slug=%s - агент 7 не записал scene. "
-                    "Используем CATEGORY_SCENE_DEFAULT по category.", slug)
+    path = DRAFTS_DIR / slug / "scene_template.txt"
+    if not path.exists():
         return None
     try:
-        scene = scene_path.read_text(encoding="utf-8").strip()
+        raw = path.read_text(encoding="utf-8").strip()
+    except OSError:
+        return None
+    m = re.search(r"template_id\s*=\s*(\d+)", raw)
+    if not m:
+        return None
+    try:
+        tid = int(m.group(1))
+    except ValueError:
+        return None
+    if 1 <= tid <= 30:
+        return tid
+    return None
+
+
+def _pick_scene_template_fallback(slug: str, category: Optional[str]) -> Optional[int]:
+    """
+    Если scene_template.txt отсутствует (например, /finish-article запустился
+    после ручного восстановления), зовём pick_scene_template как страховку.
+    Возвращает выбранный template_id или None при сбое.
+    """
+    import subprocess
+    try:
+        res = subprocess.run(
+            [sys.executable, "-m", "articles_scheduler.pick_scene_template",
+             slug, category or ""],
+            cwd=str(PROJECT_ROOT),
+            capture_output=True,
+            text=True,
+            timeout=15,
+        )
+    except (OSError, subprocess.SubprocessError) as exc:
+        log.warning("pick_scene_template fallback упал для slug=%s: %s", slug, exc)
+        return None
+    if res.returncode != 0:
+        log.warning("pick_scene_template fallback rc=%d для slug=%s: %s",
+                    res.returncode, slug, res.stderr.strip())
+        return None
+    return _read_scene_template_id(slug)
+
+
+_TEMPLATE_HEADER_RX = re.compile(r"^###\s+(\d+)\.\s+(.+?)\s*$", re.MULTILINE)
+
+
+def _read_template_scene_from_catalog(template_id: int) -> Optional[str]:
+    """
+    Извлекает блок `**Template:** ...` из `.claude/style/cover-scenes.md`
+    для указанного template_id. Возвращает английскую строку scene.
+    None если каталог не читается или нет такого ID.
+    """
+    if not COVER_SCENES_MD.exists():
+        log.warning("cover-scenes.md не найден: %s", COVER_SCENES_MD)
+        return None
+    try:
+        text = COVER_SCENES_MD.read_text(encoding="utf-8")
     except OSError as exc:
-        log.warning("scene.txt не читается для slug=%s: %s", slug, exc)
+        log.warning("cover-scenes.md не читается: %s", exc)
         return None
-    if not scene:
-        log.warning("scene.txt пустой для slug=%s - fallback на CATEGORY_SCENE_DEFAULT", slug)
+
+    headers = list(_TEMPLATE_HEADER_RX.finditer(text))
+    target_idx = None
+    for i, m in enumerate(headers):
+        if int(m.group(1)) == template_id:
+            target_idx = i
+            break
+    if target_idx is None:
         return None
-    # Нормализуем многострочный файл в одну строку (если агент случайно вписал перевод строки)
-    scene = " ".join(scene.split())
-    return scene
+
+    start = headers[target_idx].end()
+    end = headers[target_idx + 1].start() if target_idx + 1 < len(headers) else len(text)
+    section = text[start:end]
+
+    # Ищем строку `**Template:** ...` и захватываем её до следующего `**Best for:**`
+    # или пустой строки за абзацем.
+    m = re.search(r"\*\*Template:\*\*\s*(.+?)(?:\n\n|\n\s*\*\*Best for:)", section, re.DOTALL)
+    if not m:
+        return None
+    scene = " ".join(m.group(1).split())
+    return scene or None
+
+
+def _read_scene(slug: str, category: Optional[str] = None) -> Optional[str]:
+    """
+    Возвращает английскую scene-строку для image_gen.
+
+    Приоритет источников (с 16 мая 2026):
+      1. drafts/{slug}/scene.txt - адаптированная LLM-агентом 7 сцена
+         (объекты из allowed pool подогнаны под смысл статьи).
+      2. drafts/{slug}/scene_template.txt - детерминированно выбранный
+         pick_scene_template.py template_id (1-30). Достаём `**Template:**`
+         из .claude/style/cover-scenes.md.
+      3. Если scene_template.txt тоже нет — на лету зовём
+         pick_scene_template.py и берём результат.
+      4. None — image_gen возьмёт CATEGORY_SCENE_DEFAULT (последний рубеж).
+
+    Раньше шагов 2-3 не было: при отсутствии scene.txt сразу падали в
+    4 категорийных дефолта (fiz=10, yur=25, vzysk=3, news=12), что
+    превращало 30 сцен каталога в 4 повторяющихся. Зафиксировано
+    16 мая 2026 на свежих fiz-статьях, у всех был flat-lay шаблон 10.
+    """
+    scene_path = DRAFTS_DIR / slug / "scene.txt"
+    if scene_path.exists():
+        try:
+            scene = scene_path.read_text(encoding="utf-8").strip()
+        except OSError as exc:
+            log.warning("scene.txt не читается для slug=%s: %s", slug, exc)
+            scene = ""
+        if scene:
+            return " ".join(scene.split())
+        log.warning("scene.txt пустой для slug=%s - падаем на template-каталог", slug)
+    else:
+        log.warning("scene.txt отсутствует для slug=%s - агент 7 не записал. "
+                    "Падаем на template-каталог.", slug)
+
+    template_id = _read_scene_template_id(slug)
+    if template_id is None:
+        log.warning("scene_template.txt отсутствует для slug=%s - зовём pick_scene_template",
+                    slug)
+        template_id = _pick_scene_template_fallback(slug, category)
+
+    if template_id is not None:
+        scene = _read_template_scene_from_catalog(template_id)
+        if scene:
+            log.info("scene из cover-scenes.md template_id=%d для slug=%s",
+                     template_id, slug)
+            return scene
+        log.warning("Template #%d не извлёкся из cover-scenes.md - fallback "
+                    "на CATEGORY_SCENE_DEFAULT", template_id)
+
+    return None
 
 
 # ============ ОБЛОЖКА ============
@@ -187,7 +305,7 @@ def _ensure_cover(slug: str, meta: dict) -> tuple[bool, dict]:
 
     title = meta.get("title") or meta.get("h1") or slug
     category = meta.get("category") or "fiz"
-    scene = _read_scene(slug)
+    scene = _read_scene(slug, category=category)
 
     # Импорт здесь, чтобы скрипт можно было импортировать без fal/cloudinary
     # установленных (для тестов валидации).
