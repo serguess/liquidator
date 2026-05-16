@@ -1109,7 +1109,7 @@
     "rashody-na-bankrotstvo-yurlica": {
       "category": "yur",
       "title": "Расходы на банкротство юрлица: из чего складывается",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -1117,13 +1117,15 @@
       "tg_message_id": 564,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-16T00:07:21",
-      "last_action_at": "2026-05-16T00:07:21",
+      "last_action_at": "2026-05-16T23:54:13",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/yur/rashody-na-bankrotstvo-yurlica",
       "pending_batch": false,
       "pending_batch_at": "2026-05-16T00:07:21",
-      "batch_sent_at": "2026-05-16T10:01:51"
+      "batch_sent_at": "2026-05-16T10:01:51",
+      "published_at": "2026-05-16T23:54:13",
+      "articles_path": "articles/yur/rashody-na-bankrotstvo-yurlica.html"
     },
     "vzyskanie-dolga-s-naslednikov-dolzhnika": {
       "category": "vzysk",
