@@ -655,6 +655,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "kak-vybrat-yurista-po-bankrotstvu",
+      "category": "fiz",
+      "title": "Как выбрать компанию по банкротству физлица",
+      "added_at": "2026-05-16T22:41:13.822744",
+      "char_count": 6797,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1778960472/articles/kak-vybrat-yurista-po-bankrotstvu-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

@@ -1,0 +1,22 @@
+{
+  "slug": "kak-vybrat-yurista-po-bankrotstvu",
+  "passed": true,
+  "scores": {
+    "structure_overlap": 0.0,
+    "thesis_similarity": 0.0,
+    "cta_overlap": 0.0
+  },
+  "thresholds": {
+    "structure_overlap": 0.4,
+    "thesis_similarity": 0.3,
+    "cta_overlap": 0.2
+  },
+  "similar_articles": [],
+  "conflicts": [],
+  "recommendation": "ok",
+  "notes": {
+    "embedding_check": "Статья проверена через эмбеддинги. Опубликованных статей в категории 'fiz' с аналогичным типом нет в БД.",
+    "structure_uniqueness": "7 H2 с уникальными корневыми существительными (сигнал, фирма, соглашение, признак, стоимость, услуга, ответ). Структура оригинальна.",
+    "content_angle": "Практический чек-лист для выбора юриста: критерии компетентности, проверка через реестры, разоблачение мошенников, договор, права клиента. Угол отличается от типовых 'как подать', 'процедура', 'стоимость банкротства'."
+  }
+}

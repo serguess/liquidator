@@ -3291,5 +3291,57 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-05-16T19:36:09",
+    "category": "news",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 2,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "news-16",
+    "topic_slug": "snizhenie-voznagrazdeniya-upravlyayushchego-bankrotstvo-vs",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "snizhenie-voznagrazdeniya-upravlyayushchego-bankrotstvo-vs",
+    "duration_sec": 1959.9,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "дия)\n**Статус:** `ready_for_review=true`, добавлен в очередь TG-ревью (50 items)\n\n---\n\n**Примечание:** Агенты 2/3/6 стабильно писали файлы в папку с опечаткой `snizhenie-voznagrazheniya` (zh) вместо правильной `snizhenie-voznagrazdeniya` (zd) — каждый раз исправлял вручную. Также agent 2 случайно перезаписал `data/research_cache.json` через `Write` (файл не в git, восстановить невозможно). Кэш является оптимизацией, не блокером — но скорость следующих агентов 2 будет чуть ниже до его накопления.",
+    "stderr_tail": "",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 5945
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]

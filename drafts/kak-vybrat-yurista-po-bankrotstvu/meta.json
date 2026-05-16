@@ -1,0 +1,103 @@
+{
+  "slug": "kak-vybrat-yurista-po-bankrotstvu",
+  "category": "fiz",
+  "title": "Как выбрать компанию по банкротству физлица",
+  "description": "Чек-лист: на что смотреть при выборе юриста, как проверить договор, распознать мошенников и не потерять деньги до начала процедуры.",
+  "h1": "Как выбрать компанию по банкротству физлица: чек-лист",
+  "lead": "Юридическая помощь по долгам не лицензируется: распознать добросовестного подрядчика и отсеять пустышку реально по трём открытым реестрам и тексту соглашения — без отраслевых знаний.",
+  "topic_action": "проверку компании по банкротству",
+  "breadcrumb_current": "Как выбрать компанию по банкротству",
+  "og_image": "/assets/articles/kak-vybrat-yurista-po-bankrotstvu.jpg",
+  "main_keyword": "как выбрать компанию по банкротству физлица",
+  "secondary_keywords": [
+    "как выбрать юриста по банкротству",
+    "признаки мошенников при банкротстве",
+    "чек-лист для выбора юриста по банкротству",
+    "финансовый управляющий как выбрать",
+    "договор с юристом по банкротству",
+    "стоимость услуг по банкротству физлица",
+    "как проверить юриста по банкротству",
+    "на что обращать внимание при банкротстве"
+  ],
+  "internal_links": [
+    "/articles/fiz/skolko-stoit-bankrotstvo-fizicheskogo-lica",
+    "/articles/fiz/chto-nelzya-delat-pered-bankrotstvom-fizlica"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/",
+    "https://www.consultant.ru/document/cons_doc_LAW_9027/"
+  ],
+  "faq": [
+    {
+      "question": "Обязательно ли нанимать юриста или можно подать на несостоятельность самому?",
+      "answer": "Закон не требует представителя. Без сопровождения проходят дела с одним-двумя кредиторами без имущества. При сложной структуре долга помощь окупается."
+    },
+    {
+      "question": "Что произойдёт, если управляющий окажется без действующего членства в СРО?",
+      "answer": "Арбитраж не утвердит кандидатуру. Дело остановится до выбора нового специалиста или суд вернёт заявление."
+    },
+    {
+      "question": "Можно ли сменить управляющего в ходе уже открытого дела?",
+      "answer": "Да. Меняется через ходатайство в арбитраж. Чаще всего так делают, если выявляется конфликт интересов или бездействие."
+    },
+    {
+      "question": "Какой размер страховки обязан иметь арбитражный управляющий?",
+      "answer": "Не менее 10 миллионов рублей в год. Полис покрывает ущерб от ошибок специалиста."
+    },
+    {
+      "question": "До какого момента можно расторгнуть договор с юридической компанией без штрафа?",
+      "answer": "В любой момент. Штраф за отказ от услуг по инициативе заказчика — ничтожное условие. Возмещаются только фактически понесённые расходы исполнителя."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все юр-утверждения сверены с research.json (двухпроходный фактчек).",
+    "Все факты last_verified=2026-05-16, legislation_status=active. Факт f18 (судебная практика) - needs_verification, использована обтекаемая формулировка.",
+    "Госпошлина = 0 руб. с 08.09.2024 (ст. 333.37 НК РФ, ФЗ-176) - формулировка из legal-facts.md, никаких '300 руб'.",
+    "Депозит управляющему 25 000 руб. (п. 3 ст. 20.6 закона о банкротстве) - не складывается с госпошлиной (f5).",
+    "Лицензии на сопровождение банкротных дел не существует - лицензируется только сам арбитражный управляющий через СРО (п. 1 ст. 20, f1, f16).",
+    "Минимальная страховка управляющего 10 млн руб. в год (ст. 24.1, f2).",
+    "Несписываемые долги по ст. 213.28: алименты, вред здоровью, текущие платежи (f13).",
+    "Публикации ЕФРСБ - около 450-500 руб., обтекаемо без точной цифры (f7, fact_gap).",
+    "7% от выручки управляющему - п. 17 ст. 20.6, контекст реализации имущества (f6).",
+    "ЗоЗПП ст. 28 (неустойка 3%), ст. 29 (возврат), ст. 16 (ничтожный пункт), ст. 32 (расторжение) - использовано через парафразы 'закон о защите прав потребителей' и '16-я часть' (f15, f17).",
+    "Ст. 779 ГК и ст. 1005 ГК - возмездное оказание услуг и агентский договор (f8).",
+    "Ст. 159 УК - крупный размер свыше 250 тыс., до 6 лет (f11).",
+    "Ст. 196, 197 УК - фиктивное/преднамеренное банкротство, не путать с законной процедурой (f12).",
+    "Проверка через egrul.nalog.ru, kad.arbitr.ru, fedresurs.ru (f14).",
+    "Итерация 2: draft сокращён до ~7233 знаков (в пределах 6000-8000). FAQ ужат до 5 вопросов (удалён про агентский договор как наименее ценный для пользователя).",
+    "Все внутренние ссылки проверены в published_index.json (source=published, category=fiz)."
+  ],
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "text_chars": 6797,
+  "length_status": "ok",
+  "length_kind": "default",
+  "local_spam_top10_share": 0.108,
+  "local_spam_ngram3_repeat": 0.025,
+  "local_lexical_diversity": 0.644,
+  "local_ai_markers_density": 0.23,
+  "local_ai_markers_total": 2,
+  "local_ai_markers_critical": 0,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 3,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 3,
+  "predicted_spam_pct": 49,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1778960472/articles/kak-vybrat-yurista-po-bankrotstvu-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1778960472/articles/kak-vybrat-yurista-po-bankrotstvu-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Editorial photograph of a lawyer's desk beside a tall window, camera at table-eye level, slight three-quarter angle. On the walnut desktop: a closed dark leather portfolio at center, a polished brass round company seal resting beside it, a pair of reading glasses folded open on top of a blank-spine notebook, a fountain pen aligned parallel to the portfolio's edge, and a brass desk lamp casting a focused pool of warm light onto the arrangement. Background through the tall window: blurred overcast urban panorama, soft cool diffused daylight. Lighting: cool window light from the left balanced by the warm glow of the desk lamp, creating restrained contrast. Materials: walnut, dark leather, polished brass. Palette: neutral beige-graphite with brass accents. Mood: careful due-diligence, methodical review before a decision.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-05-16T19:41:13Z",
+  "date_published": "2026-05-16",
+  "date_modified": "2026-05-16",
+  "ready_for_review": true,
+  "ready_at": "2026-05-16T19:41:13Z",
+  "publication_target": "telegram_review"
+}

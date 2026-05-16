@@ -1,0 +1,30 @@
+{
+  "slug": "kak-vybrat-yurista-po-bankrotstvu",
+  "category": "fiz",
+  "started_at": "2026-05-16T22:41:34",
+  "finished_at": null,
+  "total_duration_sec": null,
+  "current_iteration": 1,
+  "events": [
+    {
+      "ts": "2026-05-16T22:41:34",
+      "agent": "scheduler",
+      "event": "slot_started",
+      "iteration": 1,
+      "today_count": 8,
+      "limit": 10,
+      "write_article_duration_sec": 2464.0
+    },
+    {
+      "ts": "2026-05-16T22:41:34",
+      "agent": "quality_gate",
+      "event": "passed",
+      "iteration": 1,
+      "blockers": [],
+      "warnings": [
+        "Автофикс применил правки: сокращения=2, пунктуация=0"
+      ],
+      "recommendations": []
+    }
+  ]
+}
