@@ -564,6 +564,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "zapret-vzyskaniya-kompensacij-invalidam",
+      "category": "news",
+      "title": "Компенсации инвалидам защитили от взыскания приставами",
+      "added_at": "2026-05-16T07:11:54.307087",
+      "char_count": 6757,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1778904713/articles/zapret-vzyskaniya-kompensacij-invalidam-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
