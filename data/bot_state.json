@@ -1130,7 +1130,7 @@
     "vzyskanie-dolga-s-naslednikov-dolzhnika": {
       "category": "vzysk",
       "title": "Взыскать долг с наследников должника: пошаговый порядок",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -1138,13 +1138,15 @@
       "tg_message_id": 566,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-16T01:32:22",
-      "last_action_at": "2026-05-16T01:32:22",
+      "last_action_at": "2026-05-16T23:55:42",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/vzysk/vzyskanie-dolga-s-naslednikov-dolzhnika",
       "pending_batch": false,
       "pending_batch_at": "2026-05-16T01:32:22",
-      "batch_sent_at": "2026-05-16T10:01:53"
+      "batch_sent_at": "2026-05-16T10:01:53",
+      "published_at": "2026-05-16T23:55:42",
+      "articles_path": "articles/vzysk/vzyskanie-dolga-s-naslednikov-dolzhnika.html"
     },
     "prodazha-biznesa-pri-bankrotstve-yurlica": {
       "category": "yur",
