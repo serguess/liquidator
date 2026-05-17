@@ -1,0 +1,93 @@
+{
+  "slug": "nepravomernye-dejstviya-bankrotstvo-statya-195",
+  "category": "yur",
+  "title": "Статья 195 УК РФ: неправомерные действия при банкротстве",
+  "description": "Когда директор или должник рискует получить уголовное дело по ст. 195 УК РФ: состав, порог крупного ущерба, наказание до 3 лет и как не допустить обвинения.",
+  "h1": "Неправомерные действия при банкротстве: чем грозит статья 195 УК РФ",
+  "lead": "Сокрытие активов, выплаты «своему» поставщику в обход очереди, отказ передать первичку конкурсному управляющему. Три запрета внутри одной нормы УК — каждый со своей санкцией до 3 лет колонии.",
+  "topic_action": "оценку рисков по статье 195 УК РФ",
+  "breadcrumb_current": "Статья 195 УК РФ",
+  "og_image": "/assets/articles/nepravomernye-dejstviya-bankrotstvo-statya-195.jpg",
+  "main_keyword": "неправомерные действия при банкротстве статья 195 УК РФ",
+  "secondary_keywords": [
+    "статья 195 УК РФ банкротство",
+    "уголовная ответственность при банкротстве",
+    "сокрытие имущества при банкротстве",
+    "ответственность директора при банкротстве",
+    "фальсификация документов при банкротстве",
+    "крупный ущерб при банкротстве",
+    "воспрепятствование арбитражному управляющему",
+    "признаки банкротства уголовная ответственность"
+  ],
+  "internal_links": [
+    "/articles/yur/subsidiarka-direktora-kak-zashchititsya.html",
+    "/articles/yur/osparivanie-sdelok-pri-bankrotstve.html",
+    "/articles/yur/prednamerennoe-bankrotstvo-ugolovnaya-otvetstvennost.html"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_10699/",
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/"
+  ],
+  "faq": [
+    {
+      "question": "Правда ли, что по 195-й норме почти не выносят приговоров?",
+      "answer": "Да. По данным Судебного департамента при Верховном Суде — единицы в год по всей стране. Причина в сложности одновременного доказывания умысла и потерь свыше планки."
+    },
+    {
+      "question": "Может ли бывший директор, уволившийся до начала банкротства, попасть под уголовку за помехи управляющему?",
+      "answer": "Может. Норма охватывает любое лицо, удерживающее у себя документацию или ценности банкрота. Не передал первичку — это уже воспрепятствование."
+    },
+    {
+      "question": "Чем отличается случайная утрата документов от уголовно наказуемого сокрытия?",
+      "answer": "Умыслом. Пропажа при переезде офиса, повреждение архива в пожаре, ошибочное удаление файлов IT-службой деяния не образуют. Следствие обязано доказать, что лицо осознанно уничтожило бумаги."
+    },
+    {
+      "question": "Вправе ли арбитражный управляющий сам возбудить уголовное дело?",
+      "answer": "Нет. Дела расследуют следователи Следственного комитета (ст. 151 УПК). Управляющий направляет в Следственный комитет заявление с актом инвентаризации и финансовым анализом."
+    },
+    {
+      "question": "Обязательно ли фирме быть официально банкротом, чтобы применялась 195-я?",
+      "answer": "Нет. Достаточно признаков несостоятельности на момент действия — неспособности удовлетворить требования в течение 3 месяцев с даты исполнения."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все цифры (порог 2 250 000 руб., 3 года, 200 000 руб. штраф, 480 часов, 18 месяцев, 3 дня, 3 месяца, ФЗ-421 от 27.12.2018) сверены с research.json, legislation_status=active, last_verified=2026-05-17.",
+    "Соотношение ст. 195/196/197 проверено: 196 — доведение до банкротства (до 6 лет), 197 — фиктивное банкротство (до 6 лет), 195 — действия при наступивших признаках банкротства (до 3 лет).",
+    "Подследственность СКР по ст. 151 УПК подтверждена. Отсутствие отдельного Пленума ВС по ст. 195 — отмечено, опора на Постановление № 48 от 15.11.2016.",
+    "3-дневный срок передачи документации управляющему (п. 2 ст. 126 закона о банкротстве) сверен.",
+    "Безопасные формулировки соблюдены: нет гарантий невозбуждения дела, нет утверждения о массовости применения, не смешаны составы 195/196/197."
+  ],
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "text_chars": 7792,
+  "length_status": "warn",
+  "length_kind": "default",
+  "local_spam_top10_share": 0.086,
+  "local_spam_ngram3_repeat": 0.011,
+  "local_lexical_diversity": 0.665,
+  "local_ai_markers_density": 0.31,
+  "local_ai_markers_total": 3,
+  "local_ai_markers_critical": 0,
+  "local_ai_markers_high": 1,
+  "local_own_voice_hits": 3,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 4,
+  "predicted_spam_pct": 47,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 90,
+  "customer_risks": [],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779020834/articles/nepravomernye-dejstviya-bankrotstvo-statya-195-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1779020834/articles/nepravomernye-dejstviya-bankrotstvo-statya-195-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Editorial photograph of a polished dark marble slab in the foreground holding a tight cluster of legal objects: a closed oxblood leather portfolio with a brass clasp, a polished round corporate seal resting on its side, an antique brass padlock with a heavy chain coiled beside it, a bound stack of three closed dossiers tied with dark cord, and a fountain pen aligned across the portfolio's edge. Soft architectural background: blurred pale limestone columns and a distant marble arch rendered completely out of focus. Camera: tabletop level, slight three-quarter angle. Lighting: cool natural daylight grazing the marble from the upper left, revealing deep veining and surface texture, with restrained warm fill from the right softening shadow depth. Palette: cool grey-white marble, oxblood leather, oxidized brass, deep shadow. Mood: weight of criminal statute, formal accountability, timeless legal gravity.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-05-17T12:27:14Z",
+  "date_published": "2026-05-17",
+  "date_modified": "2026-05-17",
+  "ready_for_review": true,
+  "ready_at": "2026-05-17T12:27:14Z",
+  "publication_target": "telegram_review"
+}

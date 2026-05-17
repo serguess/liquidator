@@ -746,6 +746,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "nepravomernye-dejstviya-bankrotstvo-statya-195",
+      "category": "yur",
+      "title": "Статья 195 УК РФ: неправомерные действия при банкротстве",
+      "added_at": "2026-05-17T15:27:14.966466",
+      "char_count": 7792,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779020834/articles/nepravomernye-dejstviya-bankrotstvo-statya-195-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

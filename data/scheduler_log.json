@@ -3678,5 +3678,63 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-05-17T12:24:26",
+    "category": "fiz",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 1,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 1,
+        "found": [
+          "snizhenie-voznagrazdeniya-au-pozitsiya-vs"
+        ],
+        "pushed": true
+      }
+    },
+    "mode": "new",
+    "topic_id": "fiz-42",
+    "topic_slug": "bankrotstvo-fizlica-pri-razvode",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "internal_links_autofixed: 3 ссылок (например /articles/fiz/osparivanie-sdelok-fizlica-bankrotstvo.html→/articles/fiz/osparivanie-sdelok-fizlica-bankrotstvo; /articles/fiz/alimenty-pri-bankrotstve-fizlica.html→/articles/fiz/alimenty-pri-bankrotstve-fizlica; /articles/fiz/bankrotstvo-pri-ipoteke-edinstvennoe-zhilye.html→/articles/fiz/bankrotstvo-pri-ipoteke-edinstvennoe-zhilye)"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "bankrotstvo-fizlica-pri-razvode",
+    "duration_sec": 2339.7,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "на, загружена на Cloudinary |\n| Публикация | `ready_for_review=true`, ждёт TG-очередь |\n| Файл | `drafts/bankrotstvo-fizlica-pri-razvode/article.html` |\n\n**Метрики text.ru** — не проставлены (проверка выполняется отдельно через text.ru API после публикации в очередь).\n\n**Что было исправлено в процессе:** агент 6 расставил внутренние ссылки без категории в пути (`/articles/slug.html`), quality_gate их не распознал — исправил пути вручную до `/articles/fiz/slug.html`, gate перезапустился и прошёл.",
+    "stderr_tail": "",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7617
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]
