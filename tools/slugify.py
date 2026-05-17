@@ -50,7 +50,7 @@ _STOPWORDS = {
 }
 
 
-def slugify(text: str, max_len: int = 60) -> str:
+def slugify(text: str, max_len: int = 50) -> str:
     """
     Превращает русский title в slug.
 
@@ -65,6 +65,12 @@ def slugify(text: str, max_len: int = 60) -> str:
     - Длина ≤ max_len (если выходит за лимит, режем по последнему дефису
       перед лимитом — слова не обрезаем).
     - Один и тот же text всегда даёт один и тот же slug (детерминирован).
+
+    Дефолт max_len=50 (понижен с 60 17 мая 2026): TG callback_data имеет
+    жёсткий лимит 64 байта, а кнопки бота используют формат
+    `publish:{slug}` (8 байт префикс). Slug > 56 → BUTTON_DATA_INVALID и
+    статья не доставляется. Запас 14 байт = безопасно для любого префикса
+    (`publish:`, `reject:`, `edit:`).
     """
     if not text:
         return ""
@@ -137,7 +143,7 @@ def is_slug_unique(slug: str) -> bool:
     return slug not in _collect_used_slugs()
 
 
-def slugify_unique(text: str, max_len: int = 60) -> str:
+def slugify_unique(text: str, max_len: int = 50) -> str:
     """
     Генерит slug и гарантирует уникальность через суффикс -2, -3, ...
     Если базовый slug свободен — возвращает его.
