@@ -1267,15 +1267,22 @@
       "category": "yur",
       "title": "Лизинг при банкротстве должника: судьба имущества",
       "status": "pending_review",
-      "current_version": "2.0",
+      "current_version": "2.1",
       "versions": [
-        "2.0"
+        "2.0",
+        "2.1"
       ],
       "tg_message_id": 604,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-16T15:28:33",
-      "last_action_at": "2026-05-16T15:28:33",
-      "edits_history": [],
+      "last_action_at": "2026-05-17T23:11:21",
+      "edits_history": [
+        {
+          "version": "2.1",
+          "edit_text": "В данной статье у тебя неверная ссылка на постановление пленума ВАЗ номер 17 от 14 марта 2014 года. Найди в консультанте этот пленум и поменяй ссылку, чтобы она открывалась. Сейчас у тебя ссылка не найдена.",
+          "applied_at": "2026-05-17T23:11:21"
+        }
+      ],
       "rejection_reason": null,
       "published_url": null,
       "pending_batch": false,
@@ -1306,7 +1313,7 @@
     "kak-vybrat-yurista-po-bankrotstvu": {
       "category": "fiz",
       "title": "Как выбрать компанию по банкротству физлица",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -1314,13 +1321,15 @@
       "tg_message_id": 608,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-16T22:49:36",
-      "last_action_at": "2026-05-16T22:49:36",
+      "last_action_at": "2026-05-17T23:13:37",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/fiz/kak-vybrat-yurista-po-bankrotstvu",
       "pending_batch": false,
       "pending_batch_at": "2026-05-16T22:49:36",
-      "batch_sent_at": "2026-05-17T10:00:42"
+      "batch_sent_at": "2026-05-17T10:00:42",
+      "published_at": "2026-05-17T23:13:37",
+      "articles_path": "articles/fiz/kak-vybrat-yurista-po-bankrotstvu.html"
     },
     "tekushchie-platezhi-bankrotstvo-yurlica": {
       "category": "yur",
