@@ -3783,5 +3783,60 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-05-17T17:12:07",
+    "category": "vzysk",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 1,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "vzysk-26",
+    "topic_slug": "neispolnenie-resheniya-suda-posledstviya",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "Автофикс применил правки: сокращения=0, пунктуация=0",
+        "internal_links_autofixed: 4 ссылок (например /articles/vzysk/ispolnitelskij-sbor-kak-osporit.html→/articles/vzysk/ispolnitelskij-sbor-kak-osporit; /articles/vzysk/snyatie-aresta-so-scheta-pristavami.html→/articles/vzysk/snyatie-aresta-so-scheta-pristavami; /articles/vzysk/udershanie-iz-zarplaty-pristavami.html→/articles/vzysk/udershanie-iz-zarplaty-pristavami)"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "neispolnenie-resheniya-suda-posledstviya",
+    "duration_sec": 1946.0,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": ":** `drafts/neispolnenie-resheniya-suda-posledstviya/article.html`\n- **Уникальность (5-uniqueness):** passed (thesis similarity 4.8%)\n- **Фактчек (6-seo-editor):** passed (18 фактов из research.json)\n- **Quality gate:** passed, 0 блокеров, 0 варнингов\n- **Обложка:** сгенерирована (template_id=16), загружена на Cloudinary\n- **Статус:** `ready_for_review=true`, добавлена в review queue (#59)\n\n**Прогнозные метрики text.ru:**\n- `textru_ai_detector`: 3%\n- `textru_uniqueness`: 87%\n- `textru_spam`: 49%",
+    "stderr_tail": "",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7762
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]

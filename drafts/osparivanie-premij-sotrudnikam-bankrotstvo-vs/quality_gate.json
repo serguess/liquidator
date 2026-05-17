@@ -1,0 +1,253 @@
+{
+  "file": "/home/appuser/apps/liquidator/drafts/osparivanie-premij-sotrudnikam-bankrotstvo-vs/article.html",
+  "passed": true,
+  "hard_failed": false,
+  "blockers": [],
+  "warnings": [
+    "Автофикс применил правки: сокращения=0, пунктуация=0",
+    "internal_links_autofixed: 2 ссылок (например /articles/fiz/osparivanie-sdelok-fizlica-bankrotstvo.html→/articles/fiz/osparivanie-sdelok-fizlica-bankrotstvo; /articles/news/obzor-vs-rf-5-2026-bankrotstvo-glavnoe.html→/articles/news/obzor-vs-rf-5-2026-bankrotstvo-glavnoe)"
+  ],
+  "autofix": {
+    "file": "/home/appuser/apps/liquidator/drafts/osparivanie-premij-sotrudnikam-bankrotstvo-vs/article.html",
+    "abbreviation_fixes": {},
+    "punctuation_fixes": 0,
+    "em_dash_fixes": 26,
+    "eng_quotes_fixes": 0,
+    "changed": true,
+    "bytes_before": 39362,
+    "bytes_after": 39310
+  },
+  "quality_checks": {
+    "file": "drafts/osparivanie-premij-sotrudnikam-bankrotstvo-vs/article.html",
+    "text_chars": 6660,
+    "length_status": "warn",
+    "length_kind": "news",
+    "passed": true,
+    "abbreviation_hits": [],
+    "punctuation_hits": [],
+    "spam": {
+      "total_words": 621,
+      "unique_lemmas": 410,
+      "lexical_diversity": 0.66,
+      "top10_words": [
+        [
+          "пункт",
+          8
+        ],
+        [
+          "года",
+          6
+        ],
+        [
+          "прем",
+          6
+        ],
+        [
+          "заявител",
+          6
+        ],
+        [
+          "оспариван",
+          6
+        ],
+        [
+          "превышен",
+          5
+        ],
+        [
+          "бонус",
+          5
+        ],
+        [
+          "заявлен",
+          5
+        ],
+        [
+          "срок",
+          5
+        ],
+        [
+          "надбавк",
+          4
+        ]
+      ],
+      "top10_share": 0.09,
+      "top1_count": 8,
+      "top3_sum": 20,
+      "top10_sum": 56,
+      "ngram3_repeat_count": 8,
+      "ngram3_total": 619,
+      "ngram3_repeat_share": 0.013,
+      "risk_flags": []
+    },
+    "targeted_tokens": [
+      {
+        "token": "ст_сокращение",
+        "count": 0,
+        "limit": 5,
+        "over_limit": false,
+        "severity": "hard"
+      },
+      {
+        "token": "РФ_рудимент",
+        "count": 0,
+        "limit": 2,
+        "over_limit": false,
+        "severity": "hard"
+      },
+      {
+        "token": "руб_сокращение",
+        "count": 0,
+        "limit": 0,
+        "over_limit": false,
+        "severity": "hard"
+      },
+      {
+        "token": "ООО_бренд",
+        "count": 0,
+        "limit": 3,
+        "over_limit": false,
+        "severity": "hard"
+      },
+      {
+        "token": "000руб_паттерн",
+        "count": 0,
+        "limit": 2,
+        "over_limit": false,
+        "severity": "hard"
+      },
+      {
+        "token": "127фз_закон",
+        "count": 0,
+        "limit": 2,
+        "over_limit": false,
+        "severity": "soft"
+      },
+      {
+        "token": "213_артикул",
+        "count": 0,
+        "limit": 3,
+        "over_limit": false,
+        "severity": "soft"
+      },
+      {
+        "token": "ГПК_кодекс",
+        "count": 0,
+        "limit": 3,
+        "over_limit": false,
+        "severity": "soft"
+      },
+      {
+        "token": "ГК_кодекс",
+        "count": 0,
+        "limit": 3,
+        "over_limit": false,
+        "severity": "soft"
+      },
+      {
+        "token": "000_число",
+        "count": 0,
+        "limit": 8,
+        "over_limit": false,
+        "severity": "soft"
+      },
+      {
+        "token": "cta_формула_повтор",
+        "count": 1,
+        "limit": 1,
+        "over_limit": false,
+        "severity": "soft"
+      }
+    ],
+    "author_markers_count": 2,
+    "author_markers_min": 2
+  },
+  "ai_markers": {
+    "file": "drafts/osparivanie-premij-sotrudnikam-bankrotstvo-vs/article.html",
+    "text_chars": 8572,
+    "hits_total": 2,
+    "density_per_1000": 0.23,
+    "by_severity": {
+      "critical": 0,
+      "high": 0,
+      "medium": 0,
+      "low": 2
+    },
+    "own_voice_hits": 2,
+    "first_person_singular_hits": 0,
+    "hits": [
+      {
+        "name": "ИИ-лексика: «взаимодействие/тонкости/нюансы (абстрактно)»",
+        "category": "ai-lexis",
+        "severity": "low",
+        "match": "Взаимодействие",
+        "position": 8379,
+        "context": "...ение law@pravo.shop Коммерческие предложения biz@pravo.shop Взаимодействие со СМИ pr@pravo.shop © 2018-2026 ООО «ЛИКВИДАТОР». Все прав..."
+      },
+      {
+        "name": "Канцелярит: «в рамках» (без нужды)",
+        "category": "clerical",
+        "severity": "low",
+        "match": "в рамках",
+        "position": 7991,
+        "context": "...ровождение на всех этапах. Надёжность и законность Работаем в рамках ФЗ и действующего законодательства РФ. РЕКВИЗИТЫ ООО «ЛИКВИ..."
+      }
+    ]
+  },
+  "anti_template": {
+    "file": "drafts/osparivanie-premij-sotrudnikam-bankrotstvo-vs/article.html",
+    "text_chars": 6983,
+    "phrases_loaded": 138,
+    "passed": true,
+    "hits": []
+  },
+  "law_quotes": {
+    "total_chars": 0,
+    "limit": 600,
+    "samples": []
+  },
+  "rhythm": {
+    "file": "drafts/osparivanie-premij-sotrudnikam-bankrotstvo-vs/article.html",
+    "text_chars": 6983,
+    "sentences_total": 82,
+    "avg_sentence_len": 8.23,
+    "short_sentences_count": 26,
+    "short_sentences_share": 0.317,
+    "long_sentences_count": 1,
+    "parasite_count": 1,
+    "parasite_per_1000": 0.14,
+    "flags": []
+  },
+  "internal_links": {
+    "total_hrefs": 41,
+    "ok": 0,
+    "whitelisted": 21,
+    "external": 15,
+    "fixed": 2,
+    "errors": 0,
+    "changed": true,
+    "fix_details": [
+      {
+        "href": "/articles/fiz/osparivanie-sdelok-fizlica-bankrotstvo.html",
+        "verdict": "fix_html",
+        "fixed_href": "/articles/fiz/osparivanie-sdelok-fizlica-bankrotstvo",
+        "reason": "трейлинг .html → 301-редирект"
+      },
+      {
+        "href": "/articles/news/obzor-vs-rf-5-2026-bankrotstvo-glavnoe.html",
+        "verdict": "fix_html",
+        "fixed_href": "/articles/news/obzor-vs-rf-5-2026-bankrotstvo-glavnoe",
+        "reason": "трейлинг .html → 301-редирект"
+      }
+    ],
+    "error_details": []
+  },
+  "recommendations": [],
+  "retry_count": 2,
+  "predicted_metrics": {
+    "spam_pct": 47,
+    "ai_pct": 3,
+    "uniqueness_pct": 90
+  },
+  "customer_risks": []
+}

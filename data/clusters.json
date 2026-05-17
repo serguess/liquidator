@@ -2320,6 +2320,28 @@
       "articles": [
         "neispolnenie-resheniya-suda-posledstviya"
       ]
+    },
+    {
+      "id": "news-osparivanie-premij-sotrudnikam-bankrotstvo-vs",
+      "category": "news",
+      "subtopic": "оспаривание выплат и премий сотрудникам при банкротстве работодателя - позиция ВС",
+      "intent": "informational",
+      "funnel_stage": "warm",
+      "main_keyword": "оспаривание выплат сотрудникам при банкротстве",
+      "related_keywords": [
+        "оспаривание премий при банкротстве",
+        "выплаты работникам банкротство оспорить",
+        "признание недействительными выплат работникам банкротство",
+        "кратное расхождение зарплаты банкротство",
+        "статья 61.2 банкротство выплаты сотрудникам",
+        "неравноценность встречного предоставления выплаты",
+        "рыночный уровень вознаграждения банкротство"
+      ],
+      "articles": [
+        "osparivanie-premij-sotrudnikam-bankrotstvo-vs"
+      ],
+      "news_zone": "vs_practice",
+      "event_date": "2026-04-29"
     }
   ]
 }

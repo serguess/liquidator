@@ -1,0 +1,31 @@
+{
+  "slug": "osparivanie-premij-sotrudnikam-bankrotstvo-vs",
+  "category": "news",
+  "started_at": "2026-05-17T20:06:26",
+  "finished_at": null,
+  "total_duration_sec": null,
+  "current_iteration": 1,
+  "events": [
+    {
+      "ts": "2026-05-17T20:06:26",
+      "agent": "scheduler",
+      "event": "slot_started",
+      "iteration": 1,
+      "today_count": 8,
+      "limit": 10,
+      "write_article_duration_sec": 1820.6
+    },
+    {
+      "ts": "2026-05-17T20:06:26",
+      "agent": "quality_gate",
+      "event": "passed",
+      "iteration": 1,
+      "blockers": [],
+      "warnings": [
+        "Автофикс применил правки: сокращения=0, пунктуация=0",
+        "internal_links_autofixed: 2 ссылок (например /articles/fiz/osparivanie-sdelok-fizlica-bankrotstvo.html→/articles/fiz/osparivanie-sdelok-fizlica-bankrotstvo; /articles/news/obzor-vs-rf-5-2026-bankrotstvo-glavnoe.html→/articles/news/obzor-vs-rf-5-2026-bankrotstvo-glavnoe)"
+      ],
+      "recommendations": []
+    }
+  ]
+}
