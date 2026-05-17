@@ -3838,5 +3838,67 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-05-17T19:36:05",
+    "category": "news",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 2,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "news-17",
+    "topic_slug": "osparivanie-premij-sotrudnikam-bankrotstvo-vs",
+    "auto_skipped": [
+      {
+        "slug": "snizhenie-voznagrazdeniya-upravlyayushchego-bankrotstvo-vs",
+        "reason": "cannibalization:snizhenie-voznagrazdeniya-au-pozitsiya-vs",
+        "duration_sec": 275.0
+      }
+    ],
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "Автофикс применил правки: сокращения=0, пунктуация=0",
+        "internal_links_autofixed: 2 ссылок (например /articles/fiz/osparivanie-sdelok-fizlica-bankrotstvo.html→/articles/fiz/osparivanie-sdelok-fizlica-bankrotstvo; /articles/news/obzor-vs-rf-5-2026-bankrotstvo-glavnoe.html→/articles/news/obzor-vs-rf-5-2026-bankrotstvo-glavnoe)"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "osparivanie-premij-sotrudnikam-bankrotstvo-vs",
+    "duration_sec": 1820.6,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "te:** passed, блокеров нет (авто-правка: 26 em-dash + 2 внутренние ссылки без `.html`)\n- **Обложка:** сгенерирована (template_id=23), загружена на Cloudinary\n- **Режим публикации:** `ready_for_review=true`, ожидает нажатия «Опубликовать» в Telegram-боте\n- **Файл:** `drafts/osparivanie-premij-sotrudnikam-bankrotstvo-vs/article.html`\n\n**Text.ru метрики:** не заполнены (локальный прогон, проверка на text.ru не выполнялась).\n\n**Предсказанные метрики (quality_gate):** spam≈47%, ai≈3%, uniqueness≈90%.",
+    "stderr_tail": "",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 6660
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]

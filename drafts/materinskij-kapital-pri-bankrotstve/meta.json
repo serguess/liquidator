@@ -1,0 +1,98 @@
+{
+  "slug": "materinskij-kapital-pri-bankrotstve",
+  "category": "fiz",
+  "title": "Материнский капитал при банкротстве физлица",
+  "description": "Заберут ли маткапитал при банкротстве? Сертификат СФР не идёт в массу. Но если вложен в ипотеку - жильё уходит на торги. Разбираем три сценария.",
+  "h1": "Материнский капитал при банкротстве: что защищено, а что нет",
+  "lead": "Двое детей. Сертификат СФР на руках, ещё не использован. Или уже вложен в недвижимость. Страх один: заберут или нет. Ответ зависит от того, как именно государственная выплата дошла до жилья.",
+  "topic_action": "проверку защиты маткапитала при банкротстве",
+  "breadcrumb_current": "Материнский капитал при банкротстве",
+  "og_image": "/assets/articles/materinskij-kapital-pri-bankrotstve.jpg",
+  "main_keyword": "материнский капитал при банкротстве физлица",
+  "secondary_keywords": [
+    "заберут ли материнский капитал при банкротстве",
+    "маткапитал в конкурсной массе",
+    "сертификат материнского капитала банкротство",
+    "материнский капитал ипотека банкротство",
+    "защита маткапитала при банкротстве"
+  ],
+  "internal_links": [
+    "/articles/fiz/bankrotstvo-pri-ipoteke-edinstvennoe-zhilye",
+    "/articles/fiz/alimenty-pri-bankrotstve-fizlica"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_71450/",
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/"
+  ],
+  "faq": [
+    {
+      "question": "Заберут ли сертификат МСК, если он ещё на счёте СФР?",
+      "answer": "Нет. Деньги на лицевом счёте фонда защищены пунктом 17 части 1 статьи 101 закона об исполнительном производстве. Управляющий не вправе их трогать."
+    },
+    {
+      "question": "Что происходит с ипотечным жильём, когда МСК частично погасил кредит?",
+      "answer": "Объект остаётся в залоге и при списании долгов уходит на торги. Иммунитет на заложенную недвижимость не действует. Из выручки 80 процентов получает банк."
+    },
+    {
+      "question": "Обязательно ли выделять доли детям до подачи заявления?",
+      "answer": "Закон обязывает оформить их в течение полугода после снятия обременения. Если срок прошёл, а регистрации нет, риск включения всего объекта в пул резко возрастает."
+    },
+    {
+      "question": "Может ли суд обратить взыскание на единственную квартиру, купленную на МСК без ипотеки?",
+      "answer": "По общему правилу - нет. Иммунитет работает. Исключение - позиция КС 2021 года про «роскошное жильё», и даже там обязательна замена жилья."
+    },
+    {
+      "question": "Сколько стоит подать заявление о несостоятельности физического лица в 2026 году?",
+      "answer": "Госпошлину с гражданина-заявителя не берут с 8 сентября 2024 года. Обязательный платёж - депозит на вознаграждение управляющего, 25 000 рублей."
+    },
+    {
+      "question": "Распространяется ли защита маткапитала на проценты, начисленные на счёт?",
+      "answer": "Да. Инвестиционный доход и приращения средств МСК наследуют правовой режим самого капитала."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все юр-утверждения сверены с research.json и safe_phrasings.",
+    "Госпошлина: правильная формулировка по legal-facts.md - должник-гражданин освобождён с 8 сентября 2024.",
+    "Депозит управляющего 25 000 рублей - по п. 3 ст. 20.6 закона о банкротстве.",
+    "Иммунитет единственного жилья + оговорка КС-2021 - по f5 и f8.",
+    "Схема 80/10/10 - по п. 4 ст. 213.27 закона о банкротстве (f4).",
+    "Ст. 101 ФЗ-229 п. 17 ч. 1 - прямой запрет взыскания на МСК (f1).",
+    "Дискуссионные определения ВС 2024-2026 не упоминаются (см. fact_gaps в research.json) - используется обтекаемая формулировка про органы опеки.",
+    "Запрещённые тезисы исключены: нет утверждений про «маткапитал защищён в любом случае», нет «ипотеку с МСК нельзя забрать», нет «300 рублей пошлины», нет «доли = всё жильё защищено»."
+  ],
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "text_chars": 7971,
+  "length_status": "warn",
+  "length_kind": "default",
+  "local_spam_top10_share": 0.092,
+  "local_spam_ngram3_repeat": 0.024,
+  "local_lexical_diversity": 0.602,
+  "local_ai_markers_density": 0.2,
+  "local_ai_markers_total": 2,
+  "local_ai_markers_critical": 0,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 4,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 4,
+  "predicted_spam_pct": 53,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность чуть выше 50% (~53%)"
+  ],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779046357/articles/materinskij-kapital-pri-bankrotstve-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1779046357/articles/materinskij-kapital-pri-bankrotstve-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Wide cinematic photograph of a large official room — a notary's grand office or courthouse antechamber — with soaring ceilings, tall arched windows, and paneled stone walls. Architecture dominates the frame. Center of the composition: a single tall-backed dark leather chair facing a long polished walnut table; beside the chair rests a neat stack of closed dossiers tied with cord, a sealed cream-colored envelope on top, and a polished brass round seal placed beside a fountain pen. Late-afternoon golden light streams through the tall windows, casting long parallel shadows across the marble floor. Camera: symmetric, eye-level with a slight low-angle to emphasize ceiling height and architectural weight. Lighting: warm golden window light, cool ambient shadow filling the corners. Palette: walnut, cream, aged brass on pale stone. Mood: hushed ceremony, a consequential decision held in suspension.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-05-17T19:32:38Z",
+  "date_published": "2026-05-17",
+  "date_modified": "2026-05-17",
+  "ready_for_review": true,
+  "ready_at": "2026-05-17T19:32:38Z",
+  "publication_target": "telegram_review"
+}

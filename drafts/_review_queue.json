@@ -785,6 +785,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "materinskij-kapital-pri-bankrotstve",
+      "category": "fiz",
+      "title": "Материнский капитал при банкротстве физлица",
+      "added_at": "2026-05-17T22:32:38.966030",
+      "char_count": 7971,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779046357/articles/materinskij-kapital-pri-bankrotstve-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
