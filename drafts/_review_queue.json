@@ -759,6 +759,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "neispolnenie-resheniya-suda-posledstviya",
+      "category": "vzysk",
+      "title": "Неисполнение решения суда: последствия для должника",
+      "added_at": "2026-05-17T17:44:19.460903",
+      "char_count": 7762,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779029058/articles/neispolnenie-resheniya-suda-posledstviya-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

@@ -3736,5 +3736,52 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-05-17T14:48:19",
+    "category": "yur",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "mode": "new",
+    "topic_id": "yur-36",
+    "topic_slug": "nepravomernye-dejstviya-bankrotstvo-statya-195",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "Автофикс применил правки: сокращения=0, пунктуация=0",
+        "internal_links_autofixed: 3 ссылок (например /articles/yur/subsidiarka-direktora-kak-zashchititsya.html→/articles/yur/subsidiarka-direktora-kak-zashchititsya; /articles/yur/osparivanie-sdelok-pri-bankrotstve.html→/articles/yur/osparivanie-sdelok-pri-bankrotstve; /articles/yur/prednamerennoe-bankrotstvo-ugolovnaya-otvetstvennost.html→/articles/yur/prednamerennoe-bankrotstvo-ugolovnaya-otvetstvennost)"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "nepravomernye-dejstviya-bankrotstvo-statya-195",
+    "duration_sec": 2347.5,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "792 знака |\n| Uniqueness | passed (первая в категории) |\n| Factcheck | passed |\n| Quality gate | **passed** — 0 блокеров |\n| Обложка | сгенерирована (шаблон #28, marble/stone), загружена на Cloudinary |\n| Статус | `ready_for_review: true`, добавлена в TG-очередь (58 items) |\n\n**Метрики text.ru** — ещё не проверялись (проверка происходит при публикации через бот). Прогноз quality gate: spam 47%, AI 3%, uniqueness 90%.\n\n**Файл:** `drafts/nepravomernye-dejstviya-bankrotstvo-statya-195/article.html`",
+    "stderr_tail": "",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7792
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]
