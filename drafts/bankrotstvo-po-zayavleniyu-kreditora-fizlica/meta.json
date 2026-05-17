@@ -1,0 +1,105 @@
+{
+  "slug": "bankrotstvo-po-zayavleniyu-kreditora-fizlica",
+  "category": "fiz",
+  "title": "Банкротство физлица по заявлению кредитора: права должника",
+  "description": "Банк или МФО подали на ваше банкротство. Разбираем: условия подачи заявления кредитором, ваши права в процедуре, как выбирают управляющего и что делать с отзывом.",
+  "h1": "Кредитор подал на банкротство: что это значит для должника",
+  "lead": "Банк или МФО уже подали в арбитраж заявление о вашем банкротстве. Закон оставляет за вами статус полноправного участника дела - с правом возражать, предлагать план и защищать активы.",
+  "topic_action": "защиту прав при банкротстве по заявлению кредитора",
+  "breadcrumb_current": "Банкротство по заявлению кредитора",
+  "og_image": "/assets/articles/bankrotstvo-po-zayavleniyu-kreditora-fizlica.jpg",
+  "main_keyword": "банкротство физлица по заявлению кредитора",
+  "secondary_keywords": [
+    "кредитор подал на банкротство физического лица",
+    "банк подал на банкротство должника",
+    "права должника при банкротстве по инициативе кредитора",
+    "отзыв должника на заявление о банкротстве",
+    "что делать если кредитор подал на банкротство",
+    "условия подачи заявления о банкротстве кредитором",
+    "выбор финансового управляющего кредитором",
+    "кто платит за банкротство если подал кредитор"
+  ],
+  "internal_links": [
+    "/articles/mirovoe-soglashenie-bankrotstvo-fizlica.html",
+    "/articles/kogda-dolgi-ne-spishut-pri-bankrotstve.html",
+    "/articles/osparivanie-sdelok-fizlica-bankrotstvo.html"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/",
+    "https://www.consultant.ru/document/cons_doc_LAW_19671/"
+  ],
+  "faq": [
+    {
+      "question": "Может ли банк подать на моё банкротство без решения суда?",
+      "answer": "Да. Кредитная организация - единственный заявитель, кто вправе обратиться в арбитраж без предварительного судебного акта. МФО, налоговая и другие сначала получают вступившее в силу решение о взыскании."
+    },
+    {
+      "question": "Какой долг нужен взыскателю, чтобы суд возбудил дело?",
+      "answer": "Не менее полумиллиона рублей. И просрочка от трёх месяцев. Условия выполняются одновременно. Меньше этой планки - дело не возбудят."
+    },
+    {
+      "question": "Прекратятся ли звонки коллекторов и исполнительные производства?",
+      "answer": "С даты введения реструктуризации долгов приостанавливается исполнение большинства исполнительных документов. Прекращается начисление пеней и санкций по реестровым требованиям. Работает автоматически."
+    },
+    {
+      "question": "Обязан ли я платить госпошлину и депозит, если заявление подал банк?",
+      "answer": "Нет. При кредиторском деле эти расходы несёт заявитель. Гражданин-должник от них освобождён."
+    },
+    {
+      "question": "Что произойдёт с моим единственным жильём при реализации имущества?",
+      "answer": "Единственное пригодное для проживания жильё, не обременённое ипотекой, не включается в конкурсную массу. Но исключение не происходит автоматически: нужно подать ходатайство."
+    },
+    {
+      "question": "Вправе ли суд отказать в списании долгов, если инициатором был взыскатель?",
+      "answer": "Да. Если арбитраж установит недобросовестность - ложные сведения при получении кредита, сокрытие активов, препятствие работе специалиста - откажет независимо от того, кто подал."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Госпошлина 100 000 руб. для кредитора-юрлица (подп. 4.1 п. 1 ст. 333.21 НК РФ) и депозит 25 000 руб. - подтверждены legal-facts.md и research f3/f4.",
+    "Условия подачи: долг от 500 000 руб. и просрочка 3 мес. (п. 2 ст. 213.3 127-ФЗ) - research f1.",
+    "7% от выручки при реализации - п. 17 ст. 20.6 127-ФЗ, контекст подтверждён (review-проход f18).",
+    "Право банка подавать без судебного акта - п. 2 ст. 213.5 127-ФЗ - research f2.",
+    "Цифры словами или периферийно для снижения шаблонности «X 000 руб.».",
+    "Гражданин-должник от госпошлины освобождён (ст. 333.37 НК РФ) - legal-facts.md."
+  ],
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "text_chars": 8045,
+  "length_status": "too_long",
+  "length_kind": "default",
+  "local_spam_top10_share": 0.106,
+  "local_spam_ngram3_repeat": 0.052,
+  "local_lexical_diversity": 0.623,
+  "local_ai_markers_density": 0.4,
+  "local_ai_markers_total": 4,
+  "local_ai_markers_critical": 0,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 5,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 3,
+  "predicted_spam_pct": 51,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность чуть выше 50% (~51%)",
+    "длина чуть больше лимита 8000 (8 045 знаков)"
+  ],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1778985846/articles/bankrotstvo-po-zayavleniyu-kreditora-fizlica-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1778985846/articles/bankrotstvo-po-zayavleniyu-kreditora-fizlica-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Exterior photograph of a contemporary glass-and-concrete administrative building on a heavy-rain evening, viewed from street level across a wide wet pavement. The camera is positioned low, capturing the building's entire illuminated facade reflected upside-down in a long puddle that fills the lower half of the frame — the reflected image slightly distorted by rippling rain. Foreground elements along the near edge of the puddle: broad worn stone steps glistening with water, an oxidized brass entry plaque mounted on the pillar (no readable inscription), and a single closed dark-leather briefcase resting on the lowest step, water-beaded on its surface. Two distant faceless silhouettes with black umbrellas stand far left near the entrance, partially dissolved in fog. Amber lampposts glow through the haze, casting warm pin-points against the dominant cool blue-grey palette. Mood: an unwanted legal process arriving from outside — weighty and contemporary — yet the closed briefcase anchors a quiet sense of readiness and agency.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-05-17T02:44:07Z",
+  "date_published": "2026-05-17",
+  "date_modified": "2026-05-17",
+  "ready_for_review": true,
+  "ready_at": "2026-05-17T02:44:07Z",
+  "publication_target": "telegram_review",
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "spam_risk: 1 флагов (ngram3_repeat_share>0.035 (=0.052)), top-5: ['долг', 'актив', 'гражданин', 'банк', 'план']"
+  ]
+}

@@ -694,6 +694,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "bankrotstvo-po-zayavleniyu-kreditora-fizlica",
+      "category": "fiz",
+      "title": "Банкротство физлица по заявлению кредитора: права должника",
+      "added_at": "2026-05-17T05:44:07.718555",
+      "char_count": 8045,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1778985846/articles/bankrotstvo-po-zayavleniyu-kreditora-fizlica-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": false,
+        "hard_failed": false
+      }
     }
   ]
 }
