@@ -250,13 +250,16 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 618,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-16T15:47:49",
       "last_action_at": "2026-05-16T15:47:49",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-05-17T11:25:55",
+      "batch_sent_at": "2026-05-17T11:25:55"
     },
     "uproshchennoe-bankrotstvo-yurlica": {
       "category": "yur",
@@ -1242,20 +1245,23 @@
     "refinansirovanie-ili-bankrotstvo-fizlica": {
       "category": "fiz",
       "title": "Рефинансирование или банкротство: что выбрать должнику",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 602,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-16T13:09:32",
-      "last_action_at": "2026-05-16T13:09:32",
+      "last_action_at": "2026-05-17T23:04:22",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-05-16T13:09:32"
+      "published_url": "https://pravo.shop/articles/fiz/refinansirovanie-ili-bankrotstvo-fizlica",
+      "pending_batch": false,
+      "pending_batch_at": "2026-05-16T13:09:32",
+      "batch_sent_at": "2026-05-17T10:00:33",
+      "published_at": "2026-05-17T23:04:22",
+      "articles_path": "articles/fiz/refinansirovanie-ili-bankrotstvo-fizlica.html"
     },
     "leasing-pri-bankrotstve-dolzhnika": {
       "category": "yur",
@@ -1265,15 +1271,16 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 604,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-16T15:28:33",
       "last_action_at": "2026-05-16T15:28:33",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-05-16T15:28:33"
+      "pending_batch": false,
+      "pending_batch_at": "2026-05-16T15:28:33",
+      "batch_sent_at": "2026-05-17T10:00:36"
     },
     "viplaty-zashchishchennye-ot-vzyskaniya": {
       "category": "vzysk",
@@ -1283,33 +1290,16 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 606,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-16T17:59:34",
       "last_action_at": "2026-05-16T17:59:34",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-05-16T17:59:34"
-    },
-    "snizhenie-voznagrazdeniya-upravlyayushchego-bankrotstvo-vs": {
-      "category": "news",
-      "title": "Суд вправе снизить вознаграждение управляющего - позиция ВС",
-      "status": "pending_review",
-      "current_version": "2.0",
-      "versions": [
-        "2.0"
-      ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
-      "first_seen_at": "2026-05-16T20:12:35",
-      "last_action_at": "2026-05-16T20:12:35",
-      "edits_history": [],
-      "rejection_reason": null,
-      "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-05-16T20:12:35"
+      "pending_batch": false,
+      "pending_batch_at": "2026-05-16T17:59:34",
+      "batch_sent_at": "2026-05-17T10:00:38"
     },
     "kak-vybrat-yurista-po-bankrotstvu": {
       "category": "fiz",
@@ -1319,19 +1309,223 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 608,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-16T22:49:36",
       "last_action_at": "2026-05-16T22:49:36",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-05-16T22:49:36",
+      "batch_sent_at": "2026-05-17T10:00:42"
+    },
+    "tekushchie-platezhi-bankrotstvo-yurlica": {
+      "category": "yur",
+      "title": "Текущие платежи при банкротстве юрлица: приоритет",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 610,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-05-17T01:01:37",
+      "last_action_at": "2026-05-17T01:01:37",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-05-17T01:01:37",
+      "batch_sent_at": "2026-05-17T10:00:44"
+    },
+    "mirovoe-soglashenie-v-ispolnitelnom-proizvodstve": {
+      "category": "vzysk",
+      "title": "Мировое соглашение в исполнительном производстве",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 612,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-05-17T03:22:38",
+      "last_action_at": "2026-05-17T03:22:38",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-05-17T03:22:38",
+      "batch_sent_at": "2026-05-17T10:00:47"
+    },
+    "bankrotstvo-po-zayavleniyu-kreditora-fizlica": {
+      "category": "fiz",
+      "title": "Банкротство физлица по заявлению кредитора: права должника",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 614,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-05-17T05:47:39",
+      "last_action_at": "2026-05-17T05:47:39",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-05-17T05:47:39",
+      "batch_sent_at": "2026-05-17T10:00:49"
+    },
+    "sobranie-kreditorov-bankrotstvo-yurlica": {
+      "category": "yur",
+      "title": "Собрание кредиторов при банкротстве юрлица: права",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 616,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-05-17T08:12:40",
+      "last_action_at": "2026-05-17T08:12:40",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-05-17T08:12:40",
+      "batch_sent_at": "2026-05-17T10:00:51"
+    },
+    "vzyskanie-ubytkov-upushchennaya-vygoda": {
+      "category": "vzysk",
+      "title": "Взыскание убытков: реальный ущерб и упущенная выгода",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-05-17T10:32:41",
+      "last_action_at": "2026-05-17T10:32:41",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
       "pending_batch": true,
-      "pending_batch_at": "2026-05-16T22:49:36"
+      "pending_batch_at": "2026-05-17T10:32:41"
+    },
+    "snizhenie-voznagrazdeniya-au-pozitsiya-vs": {
+      "category": "news",
+      "title": "Суд вправе снизить вознаграждение управляющего - позиция ВС",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 620,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-05-16T20:12:35",
+      "last_action_at": "2026-05-16T20:12:35",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-05-16T20:12:35",
+      "batch_sent_at": "2026-05-17T11:25:57"
+    },
+    "bankrotstvo-fizlica-pri-razvode": {
+      "category": "fiz",
+      "title": "Банкротство при разводе: долги и имущество супругов",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-05-17T13:10:42",
+      "last_action_at": "2026-05-17T13:10:42",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-05-17T13:10:42"
+    },
+    "nepravomernye-dejstviya-bankrotstvo-statya-195": {
+      "category": "yur",
+      "title": "Статья 195 УК РФ: неправомерные действия при банкротстве",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-05-17T15:31:30",
+      "last_action_at": "2026-05-17T15:31:30",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-05-17T15:31:30"
+    },
+    "neispolnenie-resheniya-suda-posledstviya": {
+      "category": "vzysk",
+      "title": "Неисполнение решения суда: последствия для должника",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-05-17T17:48:31",
+      "last_action_at": "2026-05-17T17:48:31",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-05-17T17:48:31"
+    },
+    "osparivanie-premij-sotrudnikam-bankrotstvo-vs": {
+      "category": "news",
+      "title": "Оспаривание выплат сотрудникам при банкротстве: позиция ВС",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-05-17T20:14:32",
+      "last_action_at": "2026-05-17T20:14:32",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-05-17T20:14:32"
+    },
+    "materinskij-kapital-pri-bankrotstve": {
+      "category": "fiz",
+      "title": "Материнский капитал при банкротстве физлица",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-05-17T22:39:33",
+      "last_action_at": "2026-05-17T22:39:33",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-05-17T22:39:33"
     }
   },
   "pending_actions": [],
-  "last_batch_date": "2026-05-16",
-  "last_batch_count": 10,
-  "last_batch_at": "2026-05-16T10:02:02"
+  "last_batch_date": "2026-05-17",
+  "last_batch_count": 8,
+  "last_batch_at": "2026-05-17T10:00:51"
 }

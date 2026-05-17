@@ -2,6 +2,19 @@
   "generated": "2026-05-17",
   "articles": [
     {
+      "slug": "refinansirovanie-ili-bankrotstvo-fizlica",
+      "cat": "fiz",
+      "catLabel": "Банкротство физических лиц",
+      "title": "Рефинансирование или банкротство: что выбрать должнику",
+      "desc": "Рефинансирование снижает платёж, банкротство списывает долг полностью. Разбираем, когда одно бесполезно без другого и по каким критериям принять решение.",
+      "date": "17 мая 2026",
+      "dateIso": "2026-05-17",
+      "read": "5 мин.",
+      "tone": "b",
+      "img": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1778925888/articles/refinansirovanie-ili-bankrotstvo-fizlica-cover.jpg",
+      "url": "articles/fiz/refinansirovanie-ili-bankrotstvo-fizlica"
+    },
+    {
       "slug": "prodazha-biznesa-pri-bankrotstve-yurlica",
       "cat": "yur",
       "catLabel": "Банкротство юридических лиц",
