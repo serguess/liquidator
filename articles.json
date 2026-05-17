@@ -2,6 +2,19 @@
   "generated": "2026-05-17",
   "articles": [
     {
+      "slug": "kollektory-prava-i-zashchita",
+      "cat": "vzysk",
+      "catLabel": "Взыскание задолженности",
+      "title": "Права коллекторов по 230-ФЗ: что можно и нельзя",
+      "desc": "Коллекторы звонят, угрожают или приходят домой? Разбираем по 230-ФЗ: лимиты звонков, запреты, право на отказ от общения и как подать жалобу в ФССП.",
+      "date": "17 мая 2026",
+      "dateIso": "2026-05-17",
+      "read": "5 мин.",
+      "tone": "b",
+      "img": "https://res.cloudinary.com/dmsaaiwkm/image/upload/c_fill,ar_191:100,g_center,f_auto,q_auto,w_1920/v1778425629/articles/kollektory-prava-i-zashchita-cover.jpg",
+      "url": "articles/vzysk/kollektory-prava-i-zashchita"
+    },
+    {
       "slug": "bankrotstvo-po-zayavleniyu-kreditora-fizlica",
       "cat": "fiz",
       "catLabel": "Банкротство физических лиц",

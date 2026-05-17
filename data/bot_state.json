@@ -245,7 +245,7 @@
     "kollektory-prava-i-zashchita": {
       "category": "vzysk",
       "title": "Права коллекторов по 230-ФЗ: что можно и нельзя",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -253,13 +253,15 @@
       "tg_message_id": 618,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-16T15:47:49",
-      "last_action_at": "2026-05-16T15:47:49",
+      "last_action_at": "2026-05-17T23:29:19",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/vzysk/kollektory-prava-i-zashchita",
       "pending_batch": false,
       "pending_batch_at": "2026-05-17T11:25:55",
-      "batch_sent_at": "2026-05-17T11:25:55"
+      "batch_sent_at": "2026-05-17T11:25:55",
+      "published_at": "2026-05-17T23:29:19",
+      "articles_path": "articles/vzysk/kollektory-prava-i-zashchita.html"
     },
     "uproshchennoe-bankrotstvo-yurlica": {
       "category": "yur",
