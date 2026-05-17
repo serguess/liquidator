@@ -1,0 +1,92 @@
+{
+  "slug": "mirovoe-soglashenie-v-ispolnitelnom-proizvodstve",
+  "category": "vzysk",
+  "title": "Мировое соглашение в исполнительном производстве",
+  "description": "Как заключить мировое соглашение на стадии исполнительного производства: условия, заявление в суд, последствия для должника и снятие арестов.",
+  "h1": "Мировое соглашение в исполнительном производстве: как договориться с взыскателем после суда",
+  "lead": "На стадии исполнения должник и взыскатель вправе договориться - суд утвердит, пристав закроет дело и снимет аресты. Разбираем условия, заявление и сроки.",
+  "topic_action": "мировое соглашение с взыскателем",
+  "breadcrumb_current": "Мировое соглашение в исполнительном производстве",
+  "og_image": "/assets/articles/mirovoe-soglashenie-v-ispolnitelnom-proizvodstve.jpg",
+  "main_keyword": "мировое соглашение в исполнительном производстве",
+  "secondary_keywords": [
+    "как заключить мировое соглашение с приставами",
+    "прекращение исполнительного производства мировое соглашение",
+    "условия мирового соглашения с должником",
+    "заявление об утверждении мирового соглашения суд",
+    "мировое соглашение после решения суда",
+    "рассрочка долга через мировое соглашение",
+    "последствия мирового соглашения для должника"
+  ],
+  "internal_links": [
+    "/articles/vzysk/rassrochka-ispolneniya-resheniya-suda",
+    "/articles/vzysk/snyatie-aresta-so-scheta-pristavami",
+    "/articles/vzysk/ispolnitelnyj-list-poluchenie-predyavlenie"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_71450/",
+    "https://www.consultant.ru/document/cons_doc_LAW_166267/"
+  ],
+  "faq": [
+    {
+      "question": "Можно ли заключить мировое соглашение, если пристав уже списал деньги со счёта?",
+      "answer": "Да. Право на договорённость существует на любой стадии - вплоть до полного фактического исполнения. Уже списанные суммы возврату через мировую не подлежат, но дальнейшие удержания можно остановить."
+    },
+    {
+      "question": "Что будет с запретом на выезд за рубеж после утверждения судом?",
+      "answer": "После определения выносится постановление о прекращении. Одновременно отменяются принудительные меры, включая запрет выезда. В базу ФССП обновление поступает в течение нескольких дней."
+    },
+    {
+      "question": "Нужно ли присутствовать в заседании и должнику, и взыскателю?",
+      "answer": "Желательно. Судья может задать вопросы об условиях. Можно прислать представителя с доверенностью. Полное отсутствие допустимо при письменном ходатайстве."
+    },
+    {
+      "question": "Сколько времени проходит от подачи заявления до фактической разблокировки счёта в банке?",
+      "answer": "Рассмотрение - десять дней. Передача и постановление - 3-7 дней. Банк снимает блокировку - 2-5 рабочих дней. Суммарно обычно проходит 3-4 недели."
+    },
+    {
+      "question": "Если должник нарушит условия, взыскатель получит тот же лист или новый?",
+      "answer": "Новый. Прекращённое дело не возобновляется автоматически. Кредитор получает новый лист на принудительное исполнение договорённости и запускает новое производство."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все юр-утверждения сверены с research.json: ст. 50 ч. 2 ФЗ-229 (право), ст. 439 ГПК/ст. 141 АПК (утверждение), п. 3 ч. 2 ст. 43 ФЗ-229 (прекращение), ч. 1 ст. 44 ФЗ-229 (снятие арестов), ст. 153.9 ГПК/ст. 140 АПК (условия), ст. 142 ч. 2 АПК/ст. 428 ГПК (новый лист), ст. 99 ч. 2-3 ФЗ-229 (50%/70%), ст. 59 НК (налоги), п. 2 ст. 80 СК (алименты), Пленум ВАС № 50 от 18.07.2014.",
+    "Госпошлина (подп. 3 п. 1 ст. 333.40 НК) - статус needs_verification в research, в тексте даётся в обтекаемой формулировке per safe_phrasing.",
+    "Разграничение обжалования в АПК (только кассация, 1 месяц) и в ГПК (частная жалоба в апелляцию) сохранено."
+  ],
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "text_chars": 7470,
+  "length_status": "ok",
+  "length_kind": "default",
+  "local_spam_top10_share": 0.096,
+  "local_spam_ngram3_repeat": 0.027,
+  "local_lexical_diversity": 0.587,
+  "local_ai_markers_density": 0.21,
+  "local_ai_markers_total": 2,
+  "local_ai_markers_critical": 0,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 4,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 6,
+  "predicted_spam_pct": 58,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность заметно выше 50% (~58%)"
+  ],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1778977109/articles/mirovoe-soglashenie-v-ispolnitelnom-proizvodstve-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1778977109/articles/mirovoe-soglashenie-v-ispolnitelnom-proizvodstve-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Photograph of a grand marble staircase inside an official building, camera at low-angle from the base of the stairs looking upward, symmetric composition with the flight of steps receding into soft light. Foreground at the base of the frame: a sealed cream envelope resting on the lowest step beside a closed dark leather portfolio, and a fountain pen lying across the envelope's edge. To one side, a folded black umbrella leans against the carved stone balustrade. Lighting: cool shafts of natural daylight streaming from tall arched windows high above, casting long pale rectangles across the weathered marble treads. Materials: warm cream marble with grey veining, oxidized brass stair rods holding a deep burgundy carpet runner, polished brass railings catching the light. Palette: cool ivory and grey stone with warm brass and burgundy accents. Mood: formal resolution, the moment a contested process finds its peaceful conclusion through agreement.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-05-17T00:18:30Z",
+  "date_published": "2026-05-17",
+  "date_modified": "2026-05-17",
+  "ready_for_review": true,
+  "ready_at": "2026-05-17T00:18:30Z",
+  "publication_target": "telegram_review"
+}

@@ -3398,5 +3398,60 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-05-17T00:24:13",
+    "category": "yur",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 15,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "yur-34",
+    "topic_slug": "tekushchie-platezhi-bankrotstvo-yurlica",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "Автофикс применил правки: сокращения=0, пунктуация=0",
+        "internal_links_autofixed: 3 ссылок (например /articles/yur/zashchita-ot-bankrotstva-po-zayavleniyu-kreditora.html→/articles/yur/zashchita-ot-bankrotstva-po-zayavleniyu-kreditora; /articles/yur/rashody-na-bankrotstvo-yurlica.html→/articles/yur/rashody-na-bankrotstvo-yurlica; /articles/yur/zhaloba-na-arbitrazhnogo-upravljayushchego.html→/articles/yur/zhaloba-na-arbitrazhnogo-upravljayushchego)"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "tekushchie-platezhi-bankrotstvo-yurlica",
+    "duration_sec": 2012.2,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": " |\n| Категория | yur |\n| Длина | 7 436 знаков |\n| Quality gate | passed, без блокеров |\n| Uniqueness | passed (structure overlap 11%) |\n| Factcheck | passed |\n| Итераций writer | 1 (без возвратов) |\n| Обложка | сгенерирована, Cloudinary |\n| Статус | `ready_for_review: true` |\n\n**text.ru метрики** (предсказанные quality_gate): AI ~3%, spam ~53%, uniqueness ~87%. Реальные значения появятся после проверки на text.ru.\n\nСтатья в очереди ревью (52 позиция), ждёт нажатия «Опубликовать» в Telegram-боте.",
+    "stderr_tail": "",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7436
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]

@@ -681,6 +681,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "mirovoe-soglashenie-v-ispolnitelnom-proizvodstve",
+      "category": "vzysk",
+      "title": "Мировое соглашение в исполнительном производстве",
+      "added_at": "2026-05-17T03:18:30.654368",
+      "char_count": 7470,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1778977109/articles/mirovoe-soglashenie-v-ispolnitelnom-proizvodstve-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
