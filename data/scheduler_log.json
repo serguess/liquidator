@@ -3507,5 +3507,63 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-05-17T05:12:07",
+    "category": "fiz",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 17,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "fiz-41",
+    "topic_slug": "bankrotstvo-po-zayavleniyu-kreditora-fizlica",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "internal_links_autofixed: 3 ссылок (например /articles/fiz/mirovoe-soglashenie-bankrotstvo-fizlica.html→/articles/fiz/mirovoe-soglashenie-bankrotstvo-fizlica; /articles/fiz/kogda-dolgi-ne-spishut-pri-bankrotstve.html→/articles/fiz/kogda-dolgi-ne-spishut-pri-bankrotstve; /articles/fiz/osparivanie-sdelok-fizlica-bankrotstvo.html→/articles/fiz/osparivanie-sdelok-fizlica-bankrotstvo)",
+        "length_soft_passed: 8045 > 8000 но ≤ 8500 и iteration=3 — пропускаем (приоритет spam/uniqueness/ai)",
+        "forced_pass_at_iter3: блокеры пропущены, статья идёт в TG-очередь с metrics_warning=true. Было: 1 блокеров — spam_risk"
+      ],
+      "recommendations": [
+        "reduce_repetition: разбавить топ-5 частотных лемм местоимениями/перифразом — ['долг', 'актив', 'гражданин', 'банк', 'план']"
+      ],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "bankrotstvo-po-zayavleniyu-kreditora-fizlica",
+    "duration_sec": 1941.3,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "енние ссылки** | 3 исправлены (путь `/articles/fiz/…`) |\n| **Обложка** | сгенерирована, загружена на Cloudinary |\n| **Статус** | `ready_for_review: true`, добавлена в очередь ревью |\n| **Файл** | `drafts/bankrotstvo-po-zayavleniyu-kreditora-fizlica/article.html` |\n\n**textru_ai_detector / uniqueness / spam** — значения `null` в meta.json (text.ru не проверялся в рамках пайплайна, проверяется отдельно через бота). Предсказанные качеством метрики по quality_gate: spam ~51%, AI ~3%, uniqueness ~87%.",
+    "stderr_tail": "",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 8045
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]

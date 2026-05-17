@@ -1,0 +1,100 @@
+{
+  "slug": "sobranie-kreditorov-bankrotstvo-yurlica",
+  "category": "yur",
+  "title": "Собрание кредиторов при банкротстве юрлица: права",
+  "description": "Кто входит в собрание кредиторов, как голосуют, что можно оспорить и чем отличается комитет кредиторов — разбираем по 127-ФЗ.",
+  "h1": "Собрание кредиторов при банкротстве юридического лица: кто решает и как",
+  "lead": "Голосуют только те, чьи требования включены в перечень, и вес каждого участника равен сумме долга в рублях. Крупнейший игрок может в одиночку определить судьбу компании — если миноритарии не пришли и не объединились.",
+  "topic_action": "защиту интересов на собрании кредиторов",
+  "breadcrumb_current": "Собрание кредиторов при банкротстве юрлица",
+  "og_image": "/assets/articles/sobranie-kreditorov-bankrotstvo-yurlica.jpg",
+  "main_keyword": "собрание кредиторов при банкротстве",
+  "secondary_keywords": [
+    "права кредиторов на собрании банкротство",
+    "комитет кредиторов банкротство юрлица",
+    "голосование на собрании кредиторов",
+    "полномочия собрания кредиторов",
+    "оспаривание решений собрания кредиторов",
+    "кворум собрания кредиторов",
+    "заочное собрание кредиторов",
+    "реестр требований кредиторов",
+    "первое собрание кредиторов"
+  ],
+  "internal_links": [
+    "/articles/yur/vneshnee-upravlenie-pri-bankrotstve-yurlica.html",
+    "/articles/yur/bankrotstvo-ooo-poshagovo-2026.html",
+    "/articles/yur/zhaloba-na-arbitrazhnogo-upravljayushchego.html"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/",
+    "https://www.consultant.ru/document/cons_doc_LAW_132671/"
+  ],
+  "faq": [
+    {
+      "question": "Может ли участник с небольшим долгом повлиять на решение собрания?",
+      "answer": "Через подсчёт почти нет: вес считается рублями требований. Через объединение — да: одна треть реестровых по головам вправе требовать созыва."
+    },
+    {
+      "question": "Обязательно ли присутствовать лично или можно проголосовать заочно?",
+      "answer": "Зависит от вопроса повестки. Часть тем решается заочно — бюллетенями со сроком возврата от 20 дней. Стратегические темы обычно требуют очного обсуждения."
+    },
+    {
+      "question": "Что произойдёт, если собрание провели без уведомления?",
+      "answer": "Решения можно признать недействительными в арбитраже — срок 20 дней. Дополнительно подаётся жалоба на действия управляющего."
+    },
+    {
+      "question": "Чем комитет отличается от собрания и когда его создание обязательно?",
+      "answer": "Собрание — стратегический орган всех в перечне. Комитет — группа из 3-11 человек, контролирующая управляющего между заседаниями. Если участников больше 50, создание обязательно."
+    },
+    {
+      "question": "До какого момента можно включиться в реестр?",
+      "answer": "В конкурсном производстве — два месяца с даты публикации в «Коммерсанте». После закрытия требования принимаются, но погашаются из остатка."
+    },
+    {
+      "question": "Почему залоговый кредитор не голосует наравне?",
+      "answer": "Деньги защищены залогом, интерес расходится с интересом рядовых. Взамен он получает приоритет: 70% от продажи предмета залога, для банковского кредита — 80%."
+    }
+  ],
+  "keyword_density_main": 0.001,
+  "main_keyword_exact_count": 1,
+  "text_chars": 7572,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все юридические утверждения сверены с research.json (facts f1-f19): состав участников собрания (f1), исключительная компетенция (f2), правила голосования (f3-f4), кумулятивное голосование (f5), право созыва (f6), уведомление за 14 дней (f7), заочное голосование с возвратом за 20 дней (f8), оспаривание в 20-дневный срок (f9), комитет от 3 до 11 при >50 кредиторов (f10), статус залогодержателя (f12), доли 70/80% по 138-й норме (f13), закрытие реестра через 2 месяца (f14), первое собрание за 10 дней до окончания наблюдения (f15), ответственность АУ по ст. 60 127-ФЗ и ч. 3 ст. 14.13 КоАП (f18), ПП ВАС № 35 от 22.06.2012 (f19).",
+    "Запрещённые утверждения из forbidden_claims не встречаются.",
+    "Категория yur, год в title/h1 не используется (правило не для news, но соблюдается)."
+  ],
+  "length_status": "warn",
+  "length_kind": "default",
+  "local_spam_top10_share": 0.107,
+  "local_spam_ngram3_repeat": 0.014,
+  "local_lexical_diversity": 0.612,
+  "local_ai_markers_density": 0.42,
+  "local_ai_markers_total": 4,
+  "local_ai_markers_critical": 0,
+  "local_ai_markers_high": 2,
+  "local_own_voice_hits": 6,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 53,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность чуть выше 50% (~53%)"
+  ],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1778994527/articles/sobranie-kreditorov-bankrotstvo-yurlica-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1778994527/articles/sobranie-kreditorov-bankrotstvo-yurlica-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Wide-angle photograph of a grand symmetric interior — a courthouse central hall with a marble-tiled floor and tall arched windows flooding the space with cool natural daylight from above. Strong architectural lines converge toward a long polished walnut conference table positioned at the center of the frame. On the table's near end: a closed dark leather portfolio tied with a thin cord, a stack of three bound dossiers sealed with a polished brass round seal resting on top, a wooden gavel block with a small brass gavel, a fountain pen aligned parallel to the portfolio's spine, and an antique pocket watch on a chain lying flat beside the stack. Camera: dead-center symmetric, eye-level, slight wide-angle to pull the architectural lines deep into perspective. Lighting: cool diffused daylight from skylights and tall arched windows, subtle warm brass reflection on the tabletop. Palette: cool cream and marble white, deep walnut, polished brass. Mood: institutional, deliberative, civic assembly awaiting formal vote.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-05-17T05:08:48Z",
+  "date_published": "2026-05-17",
+  "date_modified": "2026-05-17",
+  "ready_for_review": true,
+  "ready_at": "2026-05-17T05:08:49Z",
+  "publication_target": "telegram_review"
+}

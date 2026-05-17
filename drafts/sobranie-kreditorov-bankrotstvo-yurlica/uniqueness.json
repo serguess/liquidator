@@ -1,0 +1,22 @@
+{
+  "slug": "sobranie-kreditorov-bankrotstvo-yurlica",
+  "passed": true,
+  "scores": {
+    "structure_overlap": 0.0,
+    "thesis_similarity": 0.0,
+    "cta_overlap": 0.0
+  },
+  "thresholds": {
+    "structure_overlap": 0.4,
+    "thesis_similarity": 0.3,
+    "cta_overlap": 0.2
+  },
+  "similar_articles": [],
+  "conflicts": [],
+  "recommendation": "ok",
+  "notes": {
+    "structure": "Все 8 H2-заголовков уникальны. Нет совпадений с 14 опубликованными yur статьями.",
+    "thesis": "Каждый блок раскрывает отдельный аспект собрания кредиторов (компетенция, право голоса, арифметика, созыв, залоговый кредитор, обжалование). Тематических дублей не найдено.",
+    "cta": "CTA формулировка: 'защиту интересов на собрании кредиторов' — уникальна для этого сегмента."
+  }
+}
