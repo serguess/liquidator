@@ -3900,5 +3900,59 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-05-17T22:00:12",
+    "category": "fiz",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 1,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "fiz-43",
+    "topic_slug": "materinskij-kapital-pri-bankrotstve",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "Автофикс применил правки: сокращения=1, пунктуация=0"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "materinskij-kapital-pri-bankrotstve",
+    "duration_sec": 1963.9,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "знак |\n| **Uniqueness** | passed: true (эмбеддинговых конфликтов нет) |\n| **Factcheck** | passed |\n| **Quality gate** | passed (0 блокеров) |\n| **Режим публикации** | `ready_for_review: true` → TG-очередь ревью |\n| **Артефакт** | `drafts/materinskij-kapital-pri-bankrotstve/article.html` |\n| **Обложка** | Сгенерирована и загружена на Cloudinary (шаблон №11) |\n\n**Прогнозные метрики text.ru** (фактического скана не было):\n- `textru_ai_detector`: ~3%\n- `textru_uniqueness`: ~87%\n- `textru_spam`: ~53%",
+    "stderr_tail": "",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7971
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]

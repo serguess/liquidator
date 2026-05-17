@@ -1,0 +1,41 @@
+{
+  "slug": "bankrotstvo-ooo-s-inostrannymi-dolgami",
+  "category": null,
+  "started_at": "2026-05-18T00:56:47",
+  "finished_at": null,
+  "total_duration_sec": null,
+  "current_iteration": 2,
+  "events": [
+    {
+      "ts": "2026-05-18T00:56:47",
+      "agent": "4-writer",
+      "event": "iteration_returned",
+      "iteration": 2,
+      "reason": "quality_gate: length_too_long(8513>8000), spam_risk(долг×13,top3=32), targeted_tokens(ст.×7>5), broken_internal_link(porog-bankrotstva-yurlica)",
+      "recommendation": "сократить до 6500-7000 знаков; заменить «ст. X» на полное слово (cap 5 → снизить до ≤4); снизить лемму «долг» с 13 до ≤11 (он→заёмщик→задолженность), «реестр»→«список требований»/«очередь»; удалить ссылку на porog-bankrotstva-yurlica-2-mln-rubley (slug не существует)"
+    },
+    {
+      "ts": "2026-05-18T01:08:10",
+      "agent": "scheduler",
+      "event": "slot_started",
+      "iteration": 2,
+      "category": "yur",
+      "today_count": 0,
+      "limit": 10,
+      "write_article_duration_sec": 2644.8
+    },
+    {
+      "ts": "2026-05-18T01:08:11",
+      "agent": "quality_gate",
+      "event": "passed",
+      "iteration": 2,
+      "blockers": [],
+      "warnings": [
+        "Автофикс применил правки: сокращения=0, пунктуация=0",
+        "internal_links_autofixed: 3 ссылок (например /articles/yur/bankrotstvo-ooo-poshagovo-2026.html→/articles/yur/bankrotstvo-ooo-poshagovo-2026; /articles/yur/osparivanie-sdelok-pri-bankrotstve.html→/articles/yur/osparivanie-sdelok-pri-bankrotstve; /articles/yur/rashody-na-bankrotstvo-yurlica.html→/articles/yur/rashody-na-bankrotstvo-yurlica)",
+        "length_soft_passed: 8047 > 8000 но ≤ 8500 и iteration=3 — пропускаем (приоритет spam/uniqueness/ai)"
+      ],
+      "recommendations": []
+    }
+  ]
+}
