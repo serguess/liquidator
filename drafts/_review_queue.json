@@ -733,6 +733,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "bankrotstvo-fizlica-pri-razvode",
+      "category": "fiz",
+      "title": "Банкротство при разводе: долги и имущество супругов",
+      "added_at": "2026-05-17T13:03:06.278150",
+      "char_count": 7617,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779012185/articles/bankrotstvo-fizlica-pri-razvode-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
