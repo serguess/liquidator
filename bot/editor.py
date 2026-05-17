@@ -320,6 +320,14 @@ def _git_publish_new_version(slug: str, version: str, file_path: Path) -> None:
     необпушенный файл подхватится с retry.
 
     pull --rebase перед push защищает от гонки со scheduler.
+
+    --autostash обязателен: scheduler оставляет в рабочем дереве unstaged
+    изменения (writer/seo-editor пишут в drafts/), и без autostash
+    `pull --rebase` падает с «cannot pull with rebase: You have unstaged
+    changes», edit-коммит остаётся локальным → Cloud Apps файла v2.X не
+    видит → заказчик кликает ссылку из «✏️ Версия готова» и получает
+    старую v2.0 через fallback на article-v2.html. Реальный кейс
+    17.05.2026: правка про порог 2 млн руб не дошла до сайта.
     """
     rel_path = file_path.relative_to(PROJECT_ROOT).as_posix()
     msg = f"edit({slug}): apply v{version}"
@@ -338,7 +346,7 @@ def _git_publish_new_version(slug: str, version: str, file_path: Path) -> None:
         _git("add", rel_path)
         _git("commit", "-m", msg)
         try:
-            _git("pull", "--rebase", "origin", "main", timeout=60)
+            _git("pull", "--rebase", "--autostash", "origin", "main", timeout=60)
         except subprocess.CalledProcessError as e:
             log.warning(
                 "Edit git: pull --rebase failed, aborting rebase. stderr=%s",
