@@ -1,0 +1,124 @@
+{
+  "slug": "vzyskanie-ubytkov-upushchennaya-vygoda",
+  "category": "vzysk",
+  "title": "Взыскание убытков: реальный ущерб и упущенная выгода",
+  "description": "Чем отличается реальный ущерб от упущенной выгоды, что нужно доказать в суде и как правильно рассчитать убытки по ст. 15 ГК РФ.",
+  "h1": "Взыскание убытков: реальный ущерб и упущенная выгода",
+  "lead": "Реальный ущерб подтверждается чеками, упущенная выгода — контрактами и расчётом. Полное возмещение по статье 15 закон даёт, но суды отказывают на доказательной базе, а не на праве.",
+  "topic_action": "взыскание убытков с контрагента",
+  "breadcrumb_current": "Взыскание убытков: реальный ущерб и упущенная выгода",
+  "og_image": "/assets/articles/vzyskanie-ubytkov-upushchennaya-vygoda.jpg",
+  "main_keyword": "взыскание убытков реальный ущерб и упущенная выгода",
+  "keywords": [
+    "взыскание убытков",
+    "реальный ущерб",
+    "упущенная выгода",
+    "ст. 15 ГК РФ",
+    "ст. 393 ГК РФ",
+    "взыскание убытков с контрагента",
+    "упущенная выгода как доказать",
+    "как доказать убытки в суде",
+    "расчёт упущенной выгоды",
+    "убытки по договору",
+    "причинно-следственная связь",
+    "стандарт разумной достоверности",
+    "Постановление Пленума ВС № 7"
+  ],
+  "secondary_keywords": [
+    "взыскание убытков с контрагента",
+    "упущенная выгода как доказать",
+    "реальный ущерб статья 15 ГК РФ",
+    "как доказать убытки в суде",
+    "упущенная выгода расчет",
+    "убытки по договору взыскание",
+    "упущенная выгода судебная практика",
+    "взыскание убытков с поставщика"
+  ],
+  "offer": "snyatie-aresta",
+  "internal_links": [
+    "/articles/vzysk/dosudebnaya-pretenziya-obrazec.html",
+    "/articles/vzysk/isk-o-vzyskanii-dolga-v-sud.html",
+    "/articles/vzysk/vzyskanie-neustoyki-s-zastrojshchika.html"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_5142/",
+    "https://www.consultant.ru/document/cons_doc_LAW_197354/"
+  ],
+  "faq": [
+    {
+      "question": "Чем реальный ущерб отличается от упущенной выгоды на практике?",
+      "answer": "Реальный ущерб — деньги, которые уже ушли или неизбежно уйдут. Упущенная выгода — доходы, которые должны были прийти, но не пришли. Первое подтверждается чеками, второе — контрактами и заключениями специалистов."
+    },
+    {
+      "question": "Обязательно ли направлять претензию перед подачей иска?",
+      "answer": "В арбитражных спорах из контракта — да, обязательный претензионный порядок 30 дней (если иной срок не указан в соглашении). Без этого иск не примут."
+    },
+    {
+      "question": "Можно ли взыскать ущерб, если контракт не предусматривал ответственности?",
+      "answer": "Можно. Право на возмещение возникает из закона. Если в соглашении нет ни слова про санкции — 393-я норма всё равно работает."
+    },
+    {
+      "question": "Что даёт стандарт «разумной степени достоверности»?",
+      "answer": "Расчёт представляет истец. Стандарт означает: разбирательство не отклонит требование из-за того, что точная цифра неизвестна. Без расчёта истца механизм не запустится."
+    },
+    {
+      "question": "До какого предела отвечает перевозчик при утрате груза?",
+      "answer": "В пределах объявленной стоимости или фактической, если объявленная не указана (статья 796). Упущенную выгоду от срыва поставки перевозчик не возмещает."
+    },
+    {
+      "question": "Должник ссылается на форс-мажор — как это опровергнуть?",
+      "answer": "Проверить три признака: чрезвычайность, непредотвратимость, причинную связь. По обычным экономическим причинам (рост курса, дефицит сырья) сертификат торгово-промышленной палаты не выдают."
+    },
+    {
+      "question": "Какой порядок выбрать, если требование не превышает пятисот тысяч?",
+      "answer": "В арбитраже доступен судебный приказ — быстрый порядок без заседания. За 10 дней выносится приказ. Если ответчик возразит — приказ отменяется, но доказательная база уже собрана."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все 15 фактов research.json (f1-f15) сверены: legislation_status=active, last_verified=2026-05-17.",
+    "Лимит судебного приказа 500 000 руб. согласован с legal-facts.md (ст. 229.2 АПК РФ, арбитраж).",
+    "Запрещённые из forbidden_claims не использованы: нет 'гарантируем взыскание', нет 'суд сам посчитает без расчёта', нет смешения договорных и деликтных оснований.",
+    "Упомянуты три обязательных элемента (Пленум № 7), презумпция вины (п. 2 ст. 401), безвиновная ответственность B2B (п. 3 ст. 401).",
+    "Сумма '500 000' заменена на 'пятисот тысяч' и 'эта планка' (требование статьи antispam)."
+  ],
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "text_chars": 7852,
+  "length_status": "warn",
+  "length_kind": "default",
+  "local_spam_top10_share": 0.099,
+  "local_spam_ngram3_repeat": 0.003,
+  "local_lexical_diversity": 0.661,
+  "local_ai_markers_density": 0.41,
+  "local_ai_markers_total": 4,
+  "local_ai_markers_critical": 1,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 2,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 3,
+  "predicted_spam_pct": 47,
+  "predicted_ai_pct": 35,
+  "predicted_uniqueness_pct": 90,
+  "customer_risks": [
+    "AI-detector значительно выше 10% (~35%)",
+    "найдены критические маркеры ИИ-стиля: Длинное тире (—) - могут поднять AI-detector text.ru"
+  ],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779002942/articles/vzyskanie-ubytkov-upushchennaya-vygoda-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1779002942/articles/vzyskanie-ubytkov-upushchennaya-vygoda-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Photograph of a massive bronze-bound oak door set in a carved stone surround, the entrance to an official courthouse or administrative building. Camera: dead-on symmetric, slight low-angle emphasizing the imposing height of the door and the deep relief of brass studs and iron hinges. Wide marble steps lead up to the threshold. Foreground on the steps: a closed dark leather briefcase resting upright beside a neatly stacked bundle of three closed dossiers tied with burgundy cord, a fountain pen laid across the topmost folder. Lighting: cool late-morning side-light casting long crisp shadows across the stone treads, revealing every grain of worn marble and the patina of aged brass fittings. Palette: deep walnut, weathered limestone, oxblood leather, aged brass on cool grey stone. Mood: purposeful, deliberate threshold — a claimant arriving with a fully prepared case, ready to enter formal proceedings.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-05-17T07:29:03Z",
+  "date_published": "2026-05-17",
+  "date_modified": "2026-05-17",
+  "ready_for_review": true,
+  "ready_at": "2026-05-17T07:29:03Z",
+  "publication_target": "telegram_review",
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "ai_markers_critical: 1 (Длинное тире (—))"
+  ]
+}

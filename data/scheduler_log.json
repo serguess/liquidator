@@ -3565,5 +3565,60 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-05-17T07:36:28",
+    "category": "yur",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 18,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "yur-35",
+    "topic_slug": "sobranie-kreditorov-bankrotstvo-yurlica",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "Автофикс применил правки: сокращения=0, пунктуация=0",
+        "internal_links_autofixed: 3 ссылок (например /articles/yur/vneshnee-upravlenie-pri-bankrotstve-yurlica.html→/articles/yur/vneshnee-upravlenie-pri-bankrotstve-yurlica; /articles/yur/bankrotstvo-ooo-poshagovo-2026.html→/articles/yur/bankrotstvo-ooo-poshagovo-2026; /articles/yur/zhaloba-na-arbitrazhnogo-upravljayushchego.html→/articles/yur/zhaloba-na-arbitrazhnogo-upravljayushchego)"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "sobranie-kreditorov-bankrotstvo-yurlica",
+    "duration_sec": 1957.7,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "вала, не в контенте)\n- **Uniqueness:** passed (structure_overlap 0%, thesis_similarity 0%)\n- **Factcheck:** passed (19 фактов из research.json верифицированы)\n- **Обложка:** сгенерирована, шаблон #18\n- **ready_for_review:** true → статья в TG-очереди\n\n**Метрики text.ru:** `textru_ai_detector`: N/A · `textru_uniqueness`: N/A · `textru_spam`: N/A *(проверка text.ru не запускалась в этом конвейере — запустится при публикации)*\n\n**Файл:** `drafts/sobranie-kreditorov-bankrotstvo-yurlica/article.html`",
+    "stderr_tail": "",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7572
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]

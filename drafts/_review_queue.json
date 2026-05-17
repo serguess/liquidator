@@ -720,6 +720,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "vzyskanie-ubytkov-upushchennaya-vygoda",
+      "category": "vzysk",
+      "title": "Взыскание убытков: реальный ущерб и упущенная выгода",
+      "added_at": "2026-05-17T10:29:03.435790",
+      "char_count": 7852,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779002942/articles/vzyskanie-ubytkov-upushchennaya-vygoda-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

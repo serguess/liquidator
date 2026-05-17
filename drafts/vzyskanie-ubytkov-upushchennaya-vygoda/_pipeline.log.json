@@ -1,0 +1,34 @@
+{
+  "slug": "vzyskanie-ubytkov-upushchennaya-vygoda",
+  "category": "vzysk",
+  "started_at": "2026-05-17T10:29:31",
+  "finished_at": null,
+  "total_duration_sec": null,
+  "current_iteration": 1,
+  "events": [
+    {
+      "ts": "2026-05-17T10:29:31",
+      "agent": "scheduler",
+      "event": "slot_started",
+      "iteration": 1,
+      "today_count": 4,
+      "limit": 10,
+      "write_article_duration_sec": 1769.3
+    },
+    {
+      "ts": "2026-05-17T10:29:31",
+      "agent": "quality_gate",
+      "event": "passed",
+      "iteration": 1,
+      "blockers": [],
+      "warnings": [
+        "Автофикс применил правки: сокращения=0, пунктуация=0",
+        "internal_links_autofixed: 3 ссылок (например /articles/vzysk/dosudebnaya-pretenziya-obrazec.html→/articles/vzysk/dosudebnaya-pretenziya-obrazec; /articles/vzysk/isk-o-vzyskanii-dolga-v-sud.html→/articles/vzysk/isk-o-vzyskanii-dolga-v-sud; /articles/vzysk/vzyskanie-neustoyki-s-zastrojshchika.html→/articles/vzysk/vzyskanie-neustoyki-s-zastrojshchika)",
+        "forced_pass_at_iter3: блокеры пропущены, статья идёт в TG-очередь с metrics_warning=true. Было: 1 блокеров — ai_markers_critical"
+      ],
+      "recommendations": [
+        "fix_ai_markers: убрать критичные маркеры (длинные тире, эмодзи, англ. кавычки, чатбот-фразы)"
+      ]
+    }
+  ]
+}

@@ -2235,6 +2235,27 @@
       "articles": [
         "sobranie-kreditorov-bankrotstvo-yurlica"
       ]
+    },
+    {
+      "id": "vzysk-ubytki-ushcherb-vygoda",
+      "category": "vzysk",
+      "subtopic": "взыскание убытков: реальный ущерб и упущенная выгода",
+      "intent": "informational",
+      "funnel_stage": "warm",
+      "main_keyword": "взыскание убытков реальный ущерб и упущенная выгода",
+      "related_keywords": [
+        "взыскание убытков с контрагента",
+        "упущенная выгода как доказать",
+        "реальный ущерб статья 15 ГК РФ",
+        "как доказать убытки в суде",
+        "упущенная выгода расчет",
+        "убытки по договору взыскание",
+        "упущенная выгода судебная практика",
+        "взыскание убытков с поставщика"
+      ],
+      "articles": [
+        "vzyskanie-ubytkov-upushchennaya-vygoda"
+      ]
     }
   ]
 }
