@@ -411,7 +411,11 @@
       "topic_action": "жалобу на арбитражного управляющего",
       "event_date": "2026-04-29",
       "news_zone": "vs_practice",
-      "primary_source": "https://www.consultant.ru/document/cons_doc_LAW_533400/"
+      "primary_source": "https://www.consultant.ru/document/cons_doc_LAW_533400/",
+      "status": "rejected",
+      "rejected_at": "2026-05-17T19:40:50",
+      "rejected_reason": "cannibalization:snizhenie-voznagrazdeniya-au-pozitsiya-vs",
+      "rejected_by": "auto_skip_in_slot"
     },
     {
       "id": "news-17",
