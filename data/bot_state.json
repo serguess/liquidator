@@ -1285,7 +1285,7 @@
     "viplaty-zashchishchennye-ot-vzyskaniya": {
       "category": "vzysk",
       "title": "Выплаты, которые приставы не вправе удержать по закону",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -1293,13 +1293,15 @@
       "tg_message_id": 606,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-16T17:59:34",
-      "last_action_at": "2026-05-16T17:59:34",
+      "last_action_at": "2026-05-17T23:09:58",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/vzysk/viplaty-zashchishchennye-ot-vzyskaniya",
       "pending_batch": false,
       "pending_batch_at": "2026-05-16T17:59:34",
-      "batch_sent_at": "2026-05-17T10:00:38"
+      "batch_sent_at": "2026-05-17T10:00:38",
+      "published_at": "2026-05-17T23:09:58",
+      "articles_path": "articles/vzysk/viplaty-zashchishchennye-ot-vzyskaniya.html"
     },
     "kak-vybrat-yurista-po-bankrotstvu": {
       "category": "fiz",
