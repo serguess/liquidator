@@ -4448,5 +4448,61 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-05-18T22:00:37",
+    "category": "fiz",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 3,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "fiz-46",
+    "topic_slug": "bankovskie-scheta-pri-bankrotstve",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "Автофикс применил правки: сокращения=4, пунктуация=0",
+        "internal_links_autofixed: 3 ссылок (например /articles/fiz/alimenty-pri-bankrotstve-fizlica.html→/articles/fiz/alimenty-pri-bankrotstve-fizlica; /articles/fiz/kogda-dolgi-ne-spishut-pri-bankrotstve.html→/articles/fiz/kogda-dolgi-ne-spishut-pri-bankrotstve; /articles/fiz/chto-nelzya-delat-pered-bankrotstvom-fizlica.html→/articles/fiz/chto-nelzya-delat-pered-bankrotstvom-fizlica)",
+        "length_soft_passed: 8051 > 8000 но ≤ 8500 и iteration=4 — пропускаем (приоритет spam/uniqueness/ai)"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "bankovskie-scheta-pri-bankrotstve",
+    "duration_sec": 2480.0,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "eta-pri-bankrotstve` |\n| Категория | fiz |\n| Длина | 8 051 знак (soft-passed) |\n| Uniqueness | passed (0% overlap) |\n| Factcheck | passed |\n| Quality gate | passed (blockers: 0) |\n| Режим публикации | `telegram_review` |\n| Файл | `drafts/bankovskie-scheta-pri-bankrotstve/article.html` |\n\n**Метрики text.ru (predicted):**\n- `textru_ai_detector`: 3%\n- `textru_uniqueness`: 87%\n- `textru_spam`: 49%\n\nОбложка сгенерирована (шаблон #6, fal.ai → Cloudinary). Статья добавлена в очередь ревью (позиция 71).",
+    "stderr_tail": "",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 8051
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]
