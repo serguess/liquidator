@@ -1,0 +1,18 @@
+{
+  "slug": "vzyskanie-alimentov-cherez-pristavov",
+  "passed": true,
+  "scores": {
+    "structure_overlap": 0.0,
+    "thesis_similarity": 0.0,
+    "cta_overlap": 0.0
+  },
+  "thresholds": {
+    "structure_overlap": 0.4,
+    "thesis_similarity": 0.3,
+    "cta_overlap": 0.2
+  },
+  "similar_articles": [],
+  "conflicts": [],
+  "recommendation": "ok",
+  "note": "Работаем в режиме fallback (нет OPENAI_API_KEY). Проверка структуры полна, семантическое сравнение отключено. Статья прошла проверку структурного пересечения с опубликованными статьями в категории vzysk. Статья добавлена в базу эмбеддингов с флагом published=0."
+}

@@ -850,6 +850,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "vzyskanie-alimentov-cherez-pristavov",
+      "category": "vzysk",
+      "title": "Взыскание алиментов через приставов: пошаговая инструкция",
+      "added_at": "2026-05-18T11:08:34.286421",
+      "char_count": 7507,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779091713/articles/vzyskanie-alimentov-cherez-pristavov-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

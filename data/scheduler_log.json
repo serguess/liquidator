@@ -4116,5 +4116,60 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-05-18T07:36:00",
+    "category": "yur",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 7,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "yur-38",
+    "topic_slug": "prava-direktora-v-processe-bankrotstva",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "internal_links_autofixed: 4 ссылок (например /articles/yur/vneshnee-upravlenie-pri-bankrotstve-yurlica.html→/articles/yur/vneshnee-upravlenie-pri-bankrotstve-yurlica; /articles/yur/osparivanie-sdelok-pri-bankrotstve.html→/articles/yur/osparivanie-sdelok-pri-bankrotstve; /articles/yur/subsidiarka-direktora-kak-zashchititsya.html→/articles/yur/subsidiarka-direktora-kak-zashchititsya)",
+        "length_soft_passed: 8217 > 8000 но ≤ 8500 и iteration=4 — пропускаем (приоритет spam/uniqueness/ai)"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "prava-direktora-v-processe-bankrotstva",
+    "duration_sec": 3338.7,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": " в тексте статьи)\n- **Обложка:** сгенерирована (шаблон 4 — студийный объект на тёмном фоне: печать, папка, карманные часы)\n- **Статус:** `ready_for_review: true`, добавлена в очередь TG-ревью\n\n**text.ru метрики:** не заполнены (сервис проверяет асинхронно после публикации — `textru_ai_detector`, `textru_uniqueness`, `textru_spam` обновятся позже).\n\n**Предсказанные метрики (quality_gate):** spam ~53%, AI ~3%, uniqueness ~87%.\n\n**Файл:** `drafts/prava-direktora-v-processe-bankrotstva/article.html`",
+    "stderr_tail": "",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 8217
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]

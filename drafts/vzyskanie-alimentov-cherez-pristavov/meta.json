@@ -1,0 +1,101 @@
+{
+  "slug": "vzyskanie-alimentov-cherez-pristavov",
+  "category": "vzysk",
+  "title": "Взыскание алиментов через приставов: пошаговая инструкция",
+  "description": "Как подать исполнительный лист в ФССП, возбудить производство, рассчитать задолженность и что делать при бездействии пристава. Практическое руководство.",
+  "h1": "Взыскание алиментов через судебных приставов: что делать, если деньги не поступают",
+  "lead": "Исполнительный документ на руках, а деньги месяцами не приходят. Закон обязывает пристава действовать немедленно - разбираем четыре рычага давления на должника и порядок обжалования бездействия ФССП.",
+  "topic_action": "взыскание алиментов через приставов",
+  "breadcrumb_current": "Взыскание алиментов через приставов",
+  "og_image": "/assets/articles/vzyskanie-alimentov-cherez-pristavov.jpg",
+  "main_keyword": "взыскание алиментов через судебных приставов",
+  "secondary_keywords": [
+    "как подать исполнительный лист приставам на алименты",
+    "заявление в ФССП о взыскании алиментов",
+    "возбуждение исполнительного производства по алиментам",
+    "задолженность по алиментам как взыскать",
+    "бездействие пристава по алиментам",
+    "что делать если приставы не взыскивают алименты",
+    "неустойка по алиментам взыскание",
+    "жалоба на пристава по алиментам куда подать"
+  ],
+  "internal_links": [
+    "/articles/vzysk/ispolnitelnyj-list-poluchenie-predyavlenie",
+    "/articles/vzysk/udershanie-iz-zarplaty-pristavami",
+    "/articles/vzysk/zapret-vyezda-za-rubezh-za-dolgi",
+    "/articles/vzysk/zhaloba-na-pristava-nezakonnye-dejstviya"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_71450/",
+    "https://www.consultant.ru/document/cons_doc_LAW_8982/"
+  ],
+  "faq": [
+    {
+      "question": "Можно ли подать исполнительный лист по месту жительства получателя?",
+      "answer": "Да, для алиментных дел это разрешено. Получатель вправе обратиться в подразделение по своему адресу."
+    },
+    {
+      "question": "Что произойдёт с удержанием, если плательщик сменит работу?",
+      "answer": "Работодатель возвращает документ в отдел. Исполнитель ищет новое место работы через запросы в ПФР и ФНС. Чтобы сократить паузу - пишите письменное заявление."
+    },
+    {
+      "question": "Обязательно ли ждать двух месяцев неуплаты для возбуждения административного дела?",
+      "answer": "Да, срок прописан в статье 5.35.1 КоАП. Раньше нельзя. За этот период можно требовать применения всех мер принуждения."
+    },
+    {
+      "question": "До какого возраста ребёнка действует исполнительный лист?",
+      "answer": "Документ работает весь срок присуждения плюс 3 года после окончания. По общему правилу до 18-летия плюс трёхлетний хвост, фактически до 21 года."
+    },
+    {
+      "question": "Индексируются ли алименты в фиксированной сумме автоматически?",
+      "answer": "Да, индексацию производит работодатель или исполнитель пропорционально росту прожиточного минимума в регионе (статья 117 СК, редакция 2020 года)."
+    },
+    {
+      "question": "Спишутся ли долги по алиментам при банкротстве плательщика?",
+      "answer": "Нет. Алиментный долг прямо назван в перечне несписываемых обязательств."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все юр-утверждения сверены с research.json (f1-f22), last_verified=2026-05-18, legislation_status=active",
+    "Удержание 70% корректно ограничено четырьмя категориями (алименты на детей, вред здоровью, смерть кормильца, ущерб от преступления) - соответствует legal-facts.md",
+    "Порог 10 000 руб. для ограничения выезда и лишения прав по алиментам vs 30 000 руб. для прочих требований - корректно (ФЗ-190 от 03.07.2016)",
+    "Неустойка 0,1% в день взыскивается судом по отдельному иску, не приставом (п. 2 ст. 115 СК РФ в ред. ФЗ-224 от 29.07.2018)",
+    "Алиментный долг не списывается при банкротстве (п. 5 ст. 213.28 127-ФЗ) - подтверждено f22",
+    "Обязанность пристава объявить розыск по своей инициативе по алиментным делам (ч. 3 ст. 65 ФЗ-229) - подтверждено f10"
+  ],
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "text_chars": 7507,
+  "length_status": "warn",
+  "length_kind": "default",
+  "local_spam_top10_share": 0.098,
+  "local_spam_ngram3_repeat": 0.031,
+  "local_lexical_diversity": 0.615,
+  "local_ai_markers_density": 0.21,
+  "local_ai_markers_total": 2,
+  "local_ai_markers_critical": 0,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 4,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 4,
+  "predicted_spam_pct": 53,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность чуть выше 50% (~53%)"
+  ],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779091713/articles/vzyskanie-alimentov-cherez-pristavov-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1779091713/articles/vzyskanie-alimentov-cherez-pristavov-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Editorial photograph of a working desk in a modern business interior. Camera: slight overhead three-quarter angle. On the walnut desktop: a closed dark leather enforcement folder positioned left of center, a polished brass round seal resting beside it with its face turned down, a fountain pen uncapped and laid diagonally across a blank-spine notebook open to a ruled page with no text, a pair of reading glasses folded on top of a stack of three closed dossiers tied with dark cord, a smartphone placed face-down in the upper corner. Background: stone-and-wood feature wall softly blurred, tall window to the right letting in cool overcast daylight. Lighting: directional warm light from upper left casting long precise shadows across the walnut surface, balanced by cool window fill. Materials: walnut desktop, brushed brass, dark leather with cord binding. Mood: methodical procedural action, quiet insistence, formal pressure applied through proper channels.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-05-18T08:08:34Z",
+  "date_published": "2026-05-18",
+  "date_modified": "2026-05-18",
+  "ready_for_review": true,
+  "ready_at": "2026-05-18T08:08:34Z",
+  "publication_target": "telegram_review"
+}
