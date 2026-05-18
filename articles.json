@@ -1,6 +1,19 @@
 {
-  "generated": "2026-05-17",
+  "generated": "2026-05-19",
   "articles": [
+    {
+      "slug": "leasing-pri-bankrotstve-dolzhnika",
+      "cat": "yur",
+      "catLabel": "Банкротство юридических лиц",
+      "title": "Лизинг при банкротстве должника: судьба имущества",
+      "desc": "Что происходит с предметом лизинга при банкротстве лизингополучателя: возврат имущества, расчёт сальдо по ПП ВАС № 17, права лизингодателя, текущие платежи.",
+      "date": "19 мая 2026",
+      "dateIso": "2026-05-19",
+      "read": "5 мин.",
+      "tone": "b",
+      "img": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1778934271/articles/leasing-pri-bankrotstve-dolzhnika-cover.jpg",
+      "url": "articles/yur/leasing-pri-bankrotstve-dolzhnika"
+    },
     {
       "slug": "snizhenie-voznagrazdeniya-au-pozitsiya-vs",
       "cat": "news",
