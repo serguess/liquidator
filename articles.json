@@ -2,6 +2,19 @@
   "generated": "2026-05-19",
   "articles": [
     {
+      "slug": "neispolnenie-resheniya-suda-posledstviya",
+      "cat": "vzysk",
+      "catLabel": "Взыскание задолженности",
+      "title": "Неисполнение решения суда: последствия для должника",
+      "desc": "Исполнительский сбор, арест счетов и имущества, запрет выезда, уголовная ответственность по 315-й статье УК — последствия неисполнения решения суда.",
+      "date": "19 мая 2026",
+      "dateIso": "2026-05-19",
+      "read": "5 мин.",
+      "tone": "b",
+      "img": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779029058/articles/neispolnenie-resheniya-suda-posledstviya-cover.jpg",
+      "url": "articles/vzysk/neispolnenie-resheniya-suda-posledstviya"
+    },
+    {
       "slug": "prava-direktora-v-processe-bankrotstva",
       "cat": "yur",
       "catLabel": "Банкротство юридических лиц",

@@ -1500,7 +1500,7 @@
     "neispolnenie-resheniya-suda-posledstviya": {
       "category": "vzysk",
       "title": "Неисполнение решения суда: последствия для должника",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.3",
       "versions": [
         "2.0",
@@ -1511,7 +1511,7 @@
       "tg_message_id": 646,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-17T17:48:31",
-      "last_action_at": "2026-05-19T00:36:39",
+      "last_action_at": "2026-05-19T01:05:13",
       "edits_history": [
         {
           "version": "2.1",
@@ -1530,10 +1530,12 @@
         }
       ],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://test.pravo.shop/articles/vzysk/neispolnenie-resheniya-suda-posledstviya",
       "pending_batch": false,
       "pending_batch_at": "2026-05-17T17:48:31",
-      "batch_sent_at": "2026-05-18T10:02:37"
+      "batch_sent_at": "2026-05-18T10:02:37",
+      "published_at": "2026-05-19T01:05:13",
+      "articles_path": "articles/vzysk/neispolnenie-resheniya-suda-posledstviya.html"
     },
     "osparivanie-premij-sotrudnikam-bankrotstvo-vs": {
       "category": "news",
@@ -1788,16 +1790,7 @@
       "pending_batch_at": "2026-05-19T01:03:22"
     }
   },
-  "pending_actions": [
-    {
-      "action": "publish",
-      "slug": "neispolnenie-resheniya-suda-posledstviya",
-      "version": "2.3",
-      "chat_id": 144472991,
-      "reply_to_message_id": 687,
-      "queued_at": "2026-05-19T00:37:19"
-    }
-  ],
+  "pending_actions": [],
   "last_batch_date": "2026-05-18",
   "last_batch_count": 10,
   "last_batch_at": "2026-05-18T10:02:50"
