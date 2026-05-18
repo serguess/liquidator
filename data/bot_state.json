@@ -1519,7 +1519,7 @@
     "osparivanie-premij-sotrudnikam-bankrotstvo-vs": {
       "category": "news",
       "title": "Оспаривание выплат сотрудникам при банкротстве: позиция ВС",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -1527,13 +1527,15 @@
       "tg_message_id": 648,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-17T20:14:32",
-      "last_action_at": "2026-05-17T20:14:32",
+      "last_action_at": "2026-05-19T00:21:09",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://test.pravo.shop/articles/news/osparivanie-premij-sotrudnikam-bankrotstvo-vs",
       "pending_batch": false,
       "pending_batch_at": "2026-05-17T20:14:32",
-      "batch_sent_at": "2026-05-18T10:02:39"
+      "batch_sent_at": "2026-05-18T10:02:39",
+      "published_at": "2026-05-19T00:21:09",
+      "articles_path": "articles/news/osparivanie-premij-sotrudnikam-bankrotstvo-vs.html"
     },
     "materinskij-kapital-pri-bankrotstve": {
       "category": "fiz",
