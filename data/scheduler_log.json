@@ -3954,5 +3954,61 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-05-18T00:24:06",
+    "category": "yur",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 4,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "yur-37",
+    "topic_slug": "bankrotstvo-ooo-s-inostrannymi-dolgami",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "Автофикс применил правки: сокращения=0, пунктуация=0",
+        "internal_links_autofixed: 3 ссылок (например /articles/yur/bankrotstvo-ooo-poshagovo-2026.html→/articles/yur/bankrotstvo-ooo-poshagovo-2026; /articles/yur/osparivanie-sdelok-pri-bankrotstve.html→/articles/yur/osparivanie-sdelok-pri-bankrotstve; /articles/yur/rashody-na-bankrotstvo-yurlica.html→/articles/yur/rashody-na-bankrotstvo-yurlica)",
+        "length_soft_passed: 8047 > 8000 но ≤ 8500 и iteration=3 — пропускаем (приоритет spam/uniqueness/ai)"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "bankrotstvo-ooo-s-inostrannymi-dolgami",
+    "duration_sec": 2644.8,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "йден) |\n| Factcheck | passed (20 фактов верифицировано) |\n| Quality gate | passed (iter 2; iter 1 — ст.×7, length, spam) |\n| Обложка | сгенерирована (template_id=3, Cloudinary OK) |\n| ready_for_review | `true` |\n| Файл | `drafts/bankrotstvo-ooo-s-inostrannymi-dolgami/article.html` |\n\n**text.ru метрики:** не доступны (асинхронная проверка выполняется позже).\n\nИтерация возврата к писателю: 1 (quality_gate убрал ст.×7→0, length 8513→8047, spam долг×13→10). Публикация — через Telegram-бот заказчика.",
+    "stderr_tail": "",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 8047
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]

@@ -1,0 +1,104 @@
+{
+  "slug": "povorot-ispolneniya-otmena-resheniya",
+  "category": "vzysk",
+  "title": "Поворот исполнения решения суда: как вернуть деньги",
+  "description": "Деньги взысканы, но решение суда отменили - узнайте, как применить поворот исполнения по ст. 443 ГПК и ст. 325 АПК, чтобы вернуть всё взысканное.",
+  "h1": "Поворот исполнения: как вернуть деньги после отмены решения суда",
+  "lead": "Деньги уже списали приставы, а потом апелляция отменила решение первой инстанции. Закон даёт инструмент возврата - поворот исполнения по ст. 443 ГПК и ст. 325 АПК.",
+  "topic_action": "поворот исполнения и возврат взысканных денег",
+  "breadcrumb_current": "Поворот исполнения",
+  "og_image": "/assets/articles/povorot-ispolneniya-otmena-resheniya.jpg",
+  "main_keyword": "поворот исполнения решения суда",
+  "secondary_keywords": [
+    "как вернуть деньги после отмены решения суда",
+    "заявление о повороте исполнения",
+    "поворот исполнения судебного приказа",
+    "поворот исполнения статья 443 ГПК",
+    "поворот исполнения статья 325 АПК",
+    "возврат взысканных денег после отмены решения суда",
+    "срок подачи заявления о повороте исполнения"
+  ],
+  "keywords": [
+    "поворот исполнения решения суда",
+    "как вернуть деньги после отмены решения суда",
+    "заявление о повороте исполнения",
+    "ст. 443 ГПК",
+    "ст. 325 АПК",
+    "возврат взысканных денег"
+  ],
+  "internal_links": [
+    "/articles/vzysk/kak-otmenit-sudebnyj-prikaz.html",
+    "/articles/vzysk/ispolnitelnyj-list-poluchenie-predyavlenie.html",
+    "/articles/vzysk/snyatie-aresta-so-scheta-pristavami.html"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39570/",
+    "https://www.consultant.ru/document/cons_doc_LAW_37800/",
+    "https://www.consultant.ru/document/cons_doc_LAW_71450/"
+  ],
+  "faq": [
+    {
+      "question": "Можно ли требовать возврат, если деньги взыскали по судебному приказу, а потом его отменили?",
+      "answer": "Да. Правило 443-й статьи распространяется на все исполненные судебные акты, включая приказное производство. Мировой судья отменил приказ, банк уже списал сумму - механизм работает."
+    },
+    {
+      "question": "Сколько времени занимает рассмотрение заявления?",
+      "answer": "В арбитраже - не более месяца со дня поступления, это прямое указание 326-й нормы. По общей юрисдикции прямого срока нет. На практике заседание назначают через две-четыре недели."
+    },
+    {
+      "question": "Что будет, если апелляция частично снизила сумму, а не отменила акт целиком?",
+      "answer": "Возвращается разница. Например, изначально удержали 320 000 рублей, апелляция оставила только 180 000. Поворот применяется к разнице - 140 тысячам. Полный отказ необязателен."
+    },
+    {
+      "question": "Обязательно ли платить государственную пошлину при подаче заявления?",
+      "answer": "По общей практике - нет, сбор не взимается. Прямой нормы об освобождении в налоговом кодексе нет, есть устоявшаяся практика. Рекомендуем уточнить порядок в канцелярии конкретного суда."
+    },
+    {
+      "question": "Поворот применяется только к деньгам или также к изъятому имуществу?",
+      "answer": "К любому реально исполненному взысканию. Если по первоначальному вердикту изъяли автомобиль или арестовали и продали недвижимость, после отмены вещь или её стоимость возвращаются на тех же основаниях."
+    }
+  ],
+  "text_chars": 7679,
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все факты сверены с research.json (last_verified: 2026-05-18, legislation_status: active).",
+    "Госпошлина: использована безопасная формулировка 'по общей практике не взимается' с оговоркой об отсутствии прямой нормы НК.",
+    "Срок подачи: применён общий срок исковой давности 3 года (ст. 196 ГК) с указанием, что специального процессуального срока нет.",
+    "Исключения по ст. 445 ч. 3 ГПК: упомянута оговорка про ложные сведения/подложные документы истца (избегнут forbidden_claim 'по алиментам поворот невозможен').",
+    "Позиция КС: использована общая формулировка без ссылки на конкретный номер определения (fact_gap).",
+    "Позиция ВС: общая процессуальная позиция (суд устанавливает два факта), без ссылки на конкретное дело (fact_gap)."
+  ],
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "length_status": "warn",
+  "length_kind": "default",
+  "local_spam_top10_share": 0.103,
+  "local_spam_ngram3_repeat": 0.027,
+  "local_lexical_diversity": 0.592,
+  "local_ai_markers_density": 0.31,
+  "local_ai_markers_total": 3,
+  "local_ai_markers_critical": 0,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 5,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 53,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность чуть выше 50% (~53%)"
+  ],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779063447/articles/povorot-ispolneniya-otmena-resheniya-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1779063447/articles/povorot-ispolneniya-otmena-resheniya-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Wide editorial photograph of a private executive office — high ceilings, tall windows with heavy drapes, walnut bookshelves lining the walls, an oxblood leather chesterfield visible in the corner, a large mahogany desk in the foreground holding a closed dark leather portfolio with a fountain pen resting on a brass stand beside it, a polished brass round company seal placed on top of a stack of three closed dossiers tied with cord, a brass desk lamp casting a warm focused pool of light, and an antique pocket watch on a chain laid open near the lamp. Background through the tall windows: blurred city skyline in cool blue evening haze. Camera: three-quarter angle, slight low-angle to emphasize the ceiling height and gravitas of the space. Lighting: cool ambient window light blended with warm tungsten from the desk lamp, deep shadow in the far corners. Palette: walnut, oxblood, brass on neutral cream. Mood: weighty legal reversal, a senior decision pending its final resolution.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-05-18T00:17:28Z",
+  "date_published": "2026-05-18",
+  "date_modified": "2026-05-18",
+  "ready_for_review": true,
+  "ready_at": "2026-05-18T00:17:28Z",
+  "publication_target": "telegram_review"
+}
