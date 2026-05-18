@@ -4389,5 +4389,64 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-05-18T18:30:05",
+    "category": "news",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": false,
+      "stdout_tail": "Updating 9a31c2d..8614247\nCreated autostash: ad6c56a\n",
+      "stderr_tail": "ts/vzyskanie-dolga-s-ip/scene.txt\n\tdrafts/vzyskanie-dolga-s-ip/scene_template.txt\n\tdrafts/vzyskanie-dolga-s-ip/uniqueness.json\nPlease move or remove them before you merge.\nAborting\nApplied autostash.\n",
+      "strategy": "all_failed"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 2,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 1,
+        "found": [
+          "vzyskanie-dolga-s-ip"
+        ],
+        "pushed": true
+      }
+    },
+    "mode": "new",
+    "topic_id": "news-18",
+    "topic_slug": "nedostovernyye-svedeniya-kreditoru-otkaz-dolga",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "internal_links_autofixed: 3 ссылок (например /articles/fiz/kogda-dolgi-ne-spishut-pri-bankrotstve.html→/articles/fiz/kogda-dolgi-ne-spishut-pri-bankrotstve; /articles/fiz/chto-nelzya-delat-pered-bankrotstvom-fizlica.html→/articles/fiz/chto-nelzya-delat-pered-bankrotstvom-fizlica; /articles/news/obzor-vs-rf-5-2026-bankrotstvo-glavnoe.html→/articles/news/obzor-vs-rf-5-2026-bankrotstvo-glavnoe)",
+        "length_soft_passed: 7107 > 6800 но ≤ 7500 и iteration=4 — пропускаем (приоритет spam/uniqueness/ai)"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "nedostovernyye-svedeniya-kreditoru-otkaz-dolga",
+    "duration_sec": 1680.4,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "я | news |\n| Длина | 7107 знаков |\n| Uniqueness | passed (первая статья типа A в категории news) |\n| Factcheck | passed |\n| Quality gate | passed (exit 0, блокеров нет) |\n| Обложка | сгенерирована, шаблон #8 |\n| Файл | `drafts/nedostovernyye-svedeniya-kreditoru-otkaz-dolga/article.html` |\n\n**Метрики text.ru (предсказанные):**\n- `textru_spam`: 49%\n- `textru_ai_pct`: 3%\n- `textru_uniqueness`: 87%\n\nСтатья добавлена в очередь ревью (`_review_queue.json`, позиция 70). Публикация — через Telegram-бот.",
+    "stderr_tail": "",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7107
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]

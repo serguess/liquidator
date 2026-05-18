@@ -915,6 +915,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "bankovskie-scheta-pri-bankrotstve",
+      "category": "fiz",
+      "title": "Счета при банкротстве физлица: что блокируют",
+      "added_at": "2026-05-18T22:41:45.865589",
+      "char_count": 8051,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779133304/articles/bankovskie-scheta-pri-bankrotstve-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
