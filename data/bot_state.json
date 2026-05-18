@@ -1601,7 +1601,7 @@
     "povorot-ispolneniya-otmena-resheniya": {
       "category": "vzysk",
       "title": "Поворот исполнения решения суда: как вернуть деньги",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -1609,13 +1609,15 @@
       "tg_message_id": 654,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-18T03:21:35",
-      "last_action_at": "2026-05-18T03:21:35",
+      "last_action_at": "2026-05-19T01:04:08",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://test.pravo.shop/articles/vzysk/povorot-ispolneniya-otmena-resheniya",
       "pending_batch": false,
       "pending_batch_at": "2026-05-18T03:21:35",
-      "batch_sent_at": "2026-05-18T10:02:46"
+      "batch_sent_at": "2026-05-18T10:02:46",
+      "published_at": "2026-05-19T01:04:08",
+      "articles_path": "articles/vzysk/povorot-ispolneniya-otmena-resheniya.html"
     },
     "bankrotstvo-sozaemshchika-po-kreditu": {
       "category": "fiz",
@@ -1783,14 +1785,6 @@
     }
   },
   "pending_actions": [
-    {
-      "action": "publish",
-      "slug": "povorot-ispolneniya-otmena-resheniya",
-      "version": "2.0",
-      "chat_id": 144472991,
-      "reply_to_message_id": 653,
-      "queued_at": "2026-05-19T00:31:25"
-    },
     {
       "action": "publish",
       "slug": "bankrotstvo-sozaemshchika-po-kreditu",
