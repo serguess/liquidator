@@ -2,6 +2,19 @@
   "generated": "2026-05-19",
   "articles": [
     {
+      "slug": "bankrotstvo-sozaemshchika-po-kreditu",
+      "cat": "fiz",
+      "catLabel": "Банкротство физических лиц",
+      "title": "Банкротство созаёмщика: что будет с кредитом",
+      "desc": "Созаёмщик подал на банкротство - что будет с основным долгом, ипотекой и залогом. Солидарная ответственность, риски для второго заёмщика, судебная практика.",
+      "date": "19 мая 2026",
+      "dateIso": "2026-05-19",
+      "read": "5 мин.",
+      "tone": "b",
+      "img": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779072177/articles/bankrotstvo-sozaemshchika-po-kreditu-cover.jpg",
+      "url": "articles/fiz/bankrotstvo-sozaemshchika-po-kreditu"
+    },
+    {
       "slug": "povorot-ispolneniya-otmena-resheniya",
       "cat": "vzysk",
       "catLabel": "Взыскание задолженности",

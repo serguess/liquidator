@@ -1622,7 +1622,7 @@
     "bankrotstvo-sozaemshchika-po-kreditu": {
       "category": "fiz",
       "title": "Банкротство созаёмщика: что будет с кредитом",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -1630,13 +1630,15 @@
       "tg_message_id": 656,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-18T05:46:36",
-      "last_action_at": "2026-05-18T05:46:36",
+      "last_action_at": "2026-05-19T01:04:30",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://test.pravo.shop/articles/fiz/bankrotstvo-sozaemshchika-po-kreditu",
       "pending_batch": false,
       "pending_batch_at": "2026-05-18T05:46:36",
-      "batch_sent_at": "2026-05-18T10:02:48"
+      "batch_sent_at": "2026-05-18T10:02:48",
+      "published_at": "2026-05-19T01:04:30",
+      "articles_path": "articles/fiz/bankrotstvo-sozaemshchika-po-kreditu.html"
     },
     "prava-direktora-v-processe-bankrotstva": {
       "category": "yur",
@@ -1785,14 +1787,6 @@
     }
   },
   "pending_actions": [
-    {
-      "action": "publish",
-      "slug": "bankrotstvo-sozaemshchika-po-kreditu",
-      "version": "2.0",
-      "chat_id": 144472991,
-      "reply_to_message_id": 655,
-      "queued_at": "2026-05-19T00:33:47"
-    },
     {
       "action": "publish",
       "slug": "prava-direktora-v-processe-bankrotstva",
