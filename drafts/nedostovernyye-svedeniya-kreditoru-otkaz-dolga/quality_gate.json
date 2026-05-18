@@ -1,0 +1,262 @@
+{
+  "file": "/home/appuser/apps/liquidator/drafts/nedostovernyye-svedeniya-kreditoru-otkaz-dolga/article.html",
+  "passed": true,
+  "hard_failed": false,
+  "blockers": [],
+  "warnings": [
+    "internal_links_autofixed: 3 ссылок (например /articles/fiz/kogda-dolgi-ne-spishut-pri-bankrotstve.html→/articles/fiz/kogda-dolgi-ne-spishut-pri-bankrotstve; /articles/fiz/chto-nelzya-delat-pered-bankrotstvom-fizlica.html→/articles/fiz/chto-nelzya-delat-pered-bankrotstvom-fizlica; /articles/news/obzor-vs-rf-5-2026-bankrotstvo-glavnoe.html→/articles/news/obzor-vs-rf-5-2026-bankrotstvo-glavnoe)",
+    "length_soft_passed: 7107 > 6800 но ≤ 7500 и iteration=4 — пропускаем (приоритет spam/uniqueness/ai)"
+  ],
+  "autofix": {
+    "file": "/home/appuser/apps/liquidator/drafts/nedostovernyye-svedeniya-kreditoru-otkaz-dolga/article.html",
+    "abbreviation_fixes": {},
+    "punctuation_fixes": 0,
+    "em_dash_fixes": 0,
+    "eng_quotes_fixes": 0,
+    "changed": false,
+    "bytes_before": 40666,
+    "bytes_after": 40666
+  },
+  "quality_checks": {
+    "file": "drafts/nedostovernyye-svedeniya-kreditoru-otkaz-dolga/article.html",
+    "text_chars": 7107,
+    "length_status": "too_long",
+    "length_kind": "news",
+    "passed": false,
+    "abbreviation_hits": [],
+    "punctuation_hits": [],
+    "spam": {
+      "total_words": 661,
+      "unique_lemmas": 412,
+      "lexical_diversity": 0.623,
+      "top10_words": [
+        [
+          "обязательств",
+          11
+        ],
+        [
+          "займ",
+          9
+        ],
+        [
+          "анкет",
+          8
+        ],
+        [
+          "котор",
+          7
+        ],
+        [
+          "долг",
+          7
+        ],
+        [
+          "заявлен",
+          7
+        ],
+        [
+          "списан",
+          6
+        ],
+        [
+          "друг",
+          6
+        ],
+        [
+          "заёмщик",
+          6
+        ],
+        [
+          "банкротств",
+          6
+        ]
+      ],
+      "top10_share": 0.11,
+      "top1_count": 11,
+      "top3_sum": 28,
+      "top10_sum": 73,
+      "ngram3_repeat_count": 10,
+      "ngram3_total": 659,
+      "ngram3_repeat_share": 0.015,
+      "risk_flags": []
+    },
+    "targeted_tokens": [
+      {
+        "token": "ст_сокращение",
+        "count": 0,
+        "limit": 5,
+        "over_limit": false,
+        "severity": "hard"
+      },
+      {
+        "token": "РФ_рудимент",
+        "count": 1,
+        "limit": 2,
+        "over_limit": false,
+        "severity": "hard"
+      },
+      {
+        "token": "руб_сокращение",
+        "count": 0,
+        "limit": 0,
+        "over_limit": false,
+        "severity": "hard"
+      },
+      {
+        "token": "ООО_бренд",
+        "count": 0,
+        "limit": 3,
+        "over_limit": false,
+        "severity": "hard"
+      },
+      {
+        "token": "000руб_паттерн",
+        "count": 0,
+        "limit": 2,
+        "over_limit": false,
+        "severity": "hard"
+      },
+      {
+        "token": "127фз_закон",
+        "count": 0,
+        "limit": 2,
+        "over_limit": false,
+        "severity": "soft"
+      },
+      {
+        "token": "213_артикул",
+        "count": 3,
+        "limit": 3,
+        "over_limit": false,
+        "severity": "soft"
+      },
+      {
+        "token": "ГПК_кодекс",
+        "count": 0,
+        "limit": 3,
+        "over_limit": false,
+        "severity": "soft"
+      },
+      {
+        "token": "ГК_кодекс",
+        "count": 0,
+        "limit": 3,
+        "over_limit": false,
+        "severity": "soft"
+      },
+      {
+        "token": "000_число",
+        "count": 0,
+        "limit": 8,
+        "over_limit": false,
+        "severity": "soft"
+      },
+      {
+        "token": "cta_формула_повтор",
+        "count": 1,
+        "limit": 1,
+        "over_limit": false,
+        "severity": "soft"
+      }
+    ],
+    "url_whitelist_hits": [],
+    "author_markers_count": 2,
+    "author_markers_min": 2
+  },
+  "ai_markers": {
+    "file": "drafts/nedostovernyye-svedeniya-kreditoru-otkaz-dolga/article.html",
+    "text_chars": 9022,
+    "hits_total": 2,
+    "density_per_1000": 0.22,
+    "by_severity": {
+      "critical": 0,
+      "high": 0,
+      "medium": 0,
+      "low": 2
+    },
+    "own_voice_hits": 2,
+    "first_person_singular_hits": 0,
+    "hits": [
+      {
+        "name": "ИИ-лексика: «взаимодействие/тонкости/нюансы (абстрактно)»",
+        "category": "ai-lexis",
+        "severity": "low",
+        "match": "Взаимодействие",
+        "position": 8829,
+        "context": "...ение law@pravo.shop Коммерческие предложения biz@pravo.shop Взаимодействие со СМИ pr@pravo.shop © 2018-2026 ООО «ЛИКВИДАТОР». Все прав..."
+      },
+      {
+        "name": "Канцелярит: «в рамках» (без нужды)",
+        "category": "clerical",
+        "severity": "low",
+        "match": "в рамках",
+        "position": 8441,
+        "context": "...ровождение на всех этапах. Надёжность и законность Работаем в рамках ФЗ и действующего законодательства РФ. РЕКВИЗИТЫ ООО «ЛИКВИ..."
+      }
+    ]
+  },
+  "anti_template": {
+    "file": "drafts/nedostovernyye-svedeniya-kreditoru-otkaz-dolga/article.html",
+    "text_chars": 7480,
+    "phrases_loaded": 138,
+    "passed": true,
+    "hits": []
+  },
+  "law_quotes": {
+    "total_chars": 0,
+    "limit": 600,
+    "samples": []
+  },
+  "rhythm": {
+    "file": "drafts/nedostovernyye-svedeniya-kreditoru-otkaz-dolga/article.html",
+    "text_chars": 7480,
+    "sentences_total": 87,
+    "avg_sentence_len": 8.31,
+    "short_sentences_count": 28,
+    "short_sentences_share": 0.322,
+    "long_sentences_count": 1,
+    "parasite_count": 1,
+    "parasite_per_1000": 0.13,
+    "flags": []
+  },
+  "internal_links": {
+    "total_hrefs": 40,
+    "ok": 0,
+    "whitelisted": 21,
+    "external": 13,
+    "fixed": 3,
+    "errors": 0,
+    "changed": true,
+    "fix_details": [
+      {
+        "href": "/articles/fiz/kogda-dolgi-ne-spishut-pri-bankrotstve.html",
+        "verdict": "fix_html",
+        "fixed_href": "/articles/fiz/kogda-dolgi-ne-spishut-pri-bankrotstve",
+        "reason": "трейлинг .html → 301-редирект"
+      },
+      {
+        "href": "/articles/fiz/chto-nelzya-delat-pered-bankrotstvom-fizlica.html",
+        "verdict": "fix_html",
+        "fixed_href": "/articles/fiz/chto-nelzya-delat-pered-bankrotstvom-fizlica",
+        "reason": "трейлинг .html → 301-редирект"
+      },
+      {
+        "href": "/articles/news/obzor-vs-rf-5-2026-bankrotstvo-glavnoe.html",
+        "verdict": "fix_html",
+        "fixed_href": "/articles/news/obzor-vs-rf-5-2026-bankrotstvo-glavnoe",
+        "reason": "трейлинг .html → 301-редирект"
+      }
+    ],
+    "error_details": []
+  },
+  "recommendations": [],
+  "retry_count": 4,
+  "predicted_metrics": {
+    "spam_pct": 49,
+    "ai_pct": 3,
+    "uniqueness_pct": 87
+  },
+  "customer_risks": [
+    "длина больше лимита 6800 (7 107 знаков)"
+  ]
+}

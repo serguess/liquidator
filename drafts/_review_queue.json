@@ -902,6 +902,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "nedostovernyye-svedeniya-kreditoru-otkaz-dolga",
+      "category": "news",
+      "title": "Скрыл долги от банка - не списали при банкротстве",
+      "added_at": "2026-05-18T18:57:54.676119",
+      "char_count": 7107,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779119873/articles/nedostovernyye-svedeniya-kreditoru-otkaz-dolga-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

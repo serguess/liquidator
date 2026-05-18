@@ -1,0 +1,94 @@
+{
+  "slug": "nedostovernyye-svedeniya-kreditoru-otkaz-dolga",
+  "category": "news",
+  "title": "Скрыл долги от банка - не списали при банкротстве",
+  "description": "Верховный суд в апрельском обзоре закрепил: скрыл от банка другие кредиты или дал недостоверные сведения - долг перед этим займодавцем останется.",
+  "h1": "Ложь кредитору при банкротстве: когда долги не спишут",
+  "lead": "Молчание о действующих кредитах при оформлении нового займа Верховный суд приравнял к недостоверным сведениям. Долг перед обманутым кредитором не спишут - остальные обязательства уйдут по обычным правилам.",
+  "topic_action": "проверку списания долгов",
+  "breadcrumb_current": "Ложь кредитору при банкротстве",
+  "og_image": "/assets/articles/nedostovernyye-svedeniya-kreditoru-otkaz-dolga.jpg",
+  "author": "Редакция Ликвидатора",
+  "created_at": "2026-05-18",
+  "offer": "proverka-spisaniya",
+  "main_keyword": "недостоверные сведения кредитору банкротство",
+  "secondary_keywords": [
+    "долги не спишут при банкротстве",
+    "отказ в списании долгов банкротство",
+    "недобросовестность должника банкротство",
+    "скрыть долги при банкротстве",
+    "ст 213.28 банкротство физлица",
+    "обзор ВС банкротство недобросовестность",
+    "частичное списание долгов банкротство"
+  ],
+  "internal_links": [
+    "/articles/fiz/kogda-dolgi-ne-spishut-pri-bankrotstve.html",
+    "/articles/fiz/chto-nelzya-delat-pered-bankrotstvom-fizlica.html",
+    "/articles/news/obzor-vs-rf-5-2026-bankrotstvo-glavnoe.html"
+  ],
+  "external_links": [],
+  "faq": [
+    {
+      "question": "Можно ли избавиться от обязательства, если кредит оформлен три года назад?",
+      "answer": "Срок давности самого договора на возможность отказа в списании не влияет. Суд оценивает поведение должника на момент оформления займа - неважно, год назад это было или пять лет назад. Если факт сокрытия доказан, обязательство сохранится."
+    },
+    {
+      "question": "Чем умолчание о других займах отличается от заведомой лжи?",
+      "answer": "Президиум Верховного суда в позиции 5 апрельского обзора снял этот спор: умолчание о существующих займах при заполнении анкеты приравнивается к предоставлению недостоверных сведений. Молчание теперь работает так же, как и прямая ложь в графе «доходы»."
+    },
+    {
+      "question": "Что должен доказать займодавец в суде, чтобы обязательство не списали?",
+      "answer": "Два обстоятельства. Первое - факт расхождения между анкетой и реальностью (выписка из бюро кредитных историй, данные налоговой). Второе - заведомость: заёмщик знал о расхождении в момент подписания. Косвенно это подтверждается, если в графе «другие кредиты» стоит «нет», а в бюро кредитных историй на ту же дату числятся два-три действующих займа."
+    },
+    {
+      "question": "Распространяется ли запрет на освобождение на всех созаёмщиков по одному договору?",
+      "answer": "Нет. Отказ в освобождении - персональная санкция за личную недобросовестность. Если созаёмщик подписывал анкету в её правильном варианте и не знал о подделке - его это не касается. Каждое банкротство рассматривается отдельно."
+    },
+    {
+      "question": "Сколько лет нельзя обанкротиться повторно, если по одному долгу отказали в списании?",
+      "answer": "Пять лет с даты завершения предыдущей процедуры реализации имущества - это правило 213.30-й нормы закона о несостоятельности. Раньше этого срока арбитраж не примет заявление, даже если у заёмщика появились новые займодавцы."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все юр-утверждения сверены с research.json: п. 4 ст. 213.28 127-ФЗ (ред. ФЗ-298 от 08.08.2024, last_verified 2026-05-18, active); п. 5 ст. 213.28 127-ФЗ; ст. 213.30 127-ФЗ; п. 1 ст. 1 ГК РФ; п. 45 Постановления Пленума ВС РФ от 13.10.2015 N 45; Тематический обзор ВС РФ N 5/2026 от 29.04.2026, позиция 5.",
+    "Позиция 6 обзора - не раскрыта в research.json (fact_gap, needs_verification), упомянута в тексте только общим оборотом «шестая позиция дополняет тему смежным сюжетом» без конкретных формулировок.",
+    "Прямые цитаты норм закона в теле отсутствуют (только пересказ), лимит ≤ 600 знаков соблюдён.",
+    "Внешние ссылки на consultant.ru не проставлены: обзор ВС N 5/2026 (LAW_533400) и Постановление Пленума ВС N 45/2015 не в whitelist; документы упоминаются текстом.",
+    "Внутренние ссылки выверены по published_index: kogda-dolgi-ne-spishut-pri-bankrotstve (fiz), chto-nelzya-delat-pered-bankrotstvom-fizlica (fiz), obzor-vs-rf-5-2026-bankrotstvo-glavnoe (news)."
+  ],
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "text_chars": 7107,
+  "length_status": "too_long",
+  "length_kind": "news",
+  "local_spam_top10_share": 0.11,
+  "local_spam_ngram3_repeat": 0.015,
+  "local_lexical_diversity": 0.623,
+  "local_ai_markers_density": 0.22,
+  "local_ai_markers_total": 2,
+  "local_ai_markers_critical": 0,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 2,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 4,
+  "predicted_spam_pct": 49,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "длина больше лимита 6800 (7 107 знаков)"
+  ],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779119873/articles/nedostovernyye-svedeniya-kreditoru-otkaz-dolga-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1779119873/articles/nedostovernyye-svedeniya-kreditoru-otkaz-dolga-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Cinematic photograph of a private legal library or archive, camera at low angle looking up towering walls lined with closed dark leather-bound books with gilt embossing on spines. Foreground: a wooden reading desk with a brass green-glass library lamp casting a warm concentrated pool of light, a closed dark leather portfolio lying flat in the center, a fountain pen resting diagonally across it as if just set down, an antique pocket watch on a chain coiled beside the portfolio, reading glasses folded on top of a stack of unmarked cord-tied dossiers at the desk edge. Deep warm tungsten light pools on the desk surface, heavy shadows recede into the book stacks behind, a soft haze from a high window grazes the upper shelves. Materials: aged dark leather, walnut, oxidized brass. Palette: oxblood, walnut, brass on deep charcoal. Mood: scholarly authority, archival weight, the permanence of a recorded verdict.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-05-18T15:57:54Z",
+  "date_published": "2026-05-18",
+  "date_modified": "2026-05-18",
+  "ready_for_review": true,
+  "ready_at": "2026-05-18T15:57:54Z",
+  "publication_target": "telegram_review"
+}
