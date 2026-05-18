@@ -2,6 +2,19 @@
   "generated": "2026-05-19",
   "articles": [
     {
+      "slug": "bankrotstvo-fizlica-pri-razvode",
+      "cat": "fiz",
+      "catLabel": "Банкротство физических лиц",
+      "title": "Банкротство при разводе: долги и имущество супругов",
+      "desc": "Как делят общие долги и совместное имущество, если один из супругов банкротится при разводе. Оспаривание брачного договора, признание долга общим, роль финансового управляющего.",
+      "date": "19 мая 2026",
+      "dateIso": "2026-05-19",
+      "read": "5 мин.",
+      "tone": "b",
+      "img": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779012185/articles/bankrotstvo-fizlica-pri-razvode-cover.jpg",
+      "url": "articles/fiz/bankrotstvo-fizlica-pri-razvode"
+    },
+    {
       "slug": "vzyskanie-ubytkov-upushchennaya-vygoda",
       "cat": "vzysk",
       "catLabel": "Взыскание задолженности",

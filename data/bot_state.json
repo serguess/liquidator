@@ -1458,7 +1458,7 @@
     "bankrotstvo-fizlica-pri-razvode": {
       "category": "fiz",
       "title": "Банкротство при разводе: долги и имущество супругов",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -1466,13 +1466,15 @@
       "tg_message_id": 642,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-17T13:10:42",
-      "last_action_at": "2026-05-17T13:10:42",
+      "last_action_at": "2026-05-19T00:09:03",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://test.pravo.shop/articles/fiz/bankrotstvo-fizlica-pri-razvode",
       "pending_batch": false,
       "pending_batch_at": "2026-05-17T13:10:42",
-      "batch_sent_at": "2026-05-18T10:02:33"
+      "batch_sent_at": "2026-05-18T10:02:33",
+      "published_at": "2026-05-19T00:09:03",
+      "articles_path": "articles/fiz/bankrotstvo-fizlica-pri-razvode.html"
     },
     "nepravomernye-dejstviya-bankrotstvo-statya-195": {
       "category": "yur",
