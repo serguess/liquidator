@@ -1,0 +1,6 @@
+{
+  "_comment": "Автоматически обновляемый whitelist. Заполняется scripts/refresh_legal_whitelist.py раз в неделю (вс 03:30 МСК). Парсит pravo.gov.ru (RSS свежих ФЗ) и vsrf.ru (Постановления Пленума ВС), валидирует URL через consultant.ru. НЕ редактировать вручную — изменения будут перетёрты. Для ручных правок используй data/legal_whitelist.json.",
+  "_last_run": null,
+  "_last_status": null,
+  "documents": []
+}

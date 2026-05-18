@@ -1,0 +1,34 @@
+[Unit]
+Description=Liquidator Legal Whitelist Refresh (consultant.ru URL health-check + fresh laws discovery)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+User=appuser
+Group=appuser
+WorkingDirectory=/home/appuser/apps/liquidator
+EnvironmentFile=/home/appuser/apps/liquidator/.env
+Environment=PATH=/home/appuser/apps/liquidator/.venv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+
+# Запуск скрипта. Внутри он сам контролирует MAX_RUNTIME=600 сек (10 мин)
+# и не зависает на отдельных URL благодаря urllib timeout=10.
+ExecStart=/home/appuser/apps/liquidator/.venv/bin/python -m scripts.refresh_legal_whitelist
+
+Nice=15
+# Hard kill через 15 минут (с запасом над внутренним MAX_RUNTIME=10 мин).
+TimeoutStartSec=900
+
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=liquidator-refresh-whitelist
+
+NoNewPrivileges=true
+ProtectSystem=full
+ProtectHome=read-only
+# Скрипт пишет только в data/legal_whitelist_auto.json.
+ReadWritePaths=/home/appuser/apps/liquidator/data
+PrivateTmp=true
+
+# Скрипт работает с urllib, минимум памяти.
+MemoryMax=300M

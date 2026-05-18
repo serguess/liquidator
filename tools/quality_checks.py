@@ -107,6 +107,79 @@ class SpamHeuristics:
 
 
 @dataclass
+class UrlWhitelistHit:
+    """consultant.ru URL в HTML, которого нет в whitelist (legal_whitelist.json
+    или legal_whitelist_auto.json). Случай 17.05.2026: agent 2 поставил
+    `LAW_90425` как «ПП Пленума ВАС № 63», но это таможенный приказ ФТС.
+    С этой даты любой `cons_doc_LAW_XXXXX` вне whitelist блокирует gate."""
+    cons_doc_id: str  # например "LAW_90425"
+    context: str       # 80 символов вокруг ссылки в HTML
+    occurrence_count: int  # сколько раз встречается в файле
+
+
+CONS_DOC_LAW_RX = re.compile(
+    r"consultant\.ru/document/(cons_doc_LAW_\d+)",
+    re.IGNORECASE,
+)
+
+
+def load_url_whitelist() -> set[str]:
+    """Читает оба whitelist-файла (ручной + автоматический) и возвращает
+    множество cons_doc_id ("LAW_39331", "LAW_5142", ...). При отсутствии
+    файлов или ошибке парсинга возвращает пустое множество и пишет warning
+    в stderr — статья тогда не будет иметь ссылок на consultant.ru."""
+    whitelist: set[str] = set()
+    for name in ("legal_whitelist.json", "legal_whitelist_auto.json"):
+        path = PROJECT_ROOT / "data" / name
+        if not path.exists():
+            continue
+        try:
+            data = json.loads(path.read_text(encoding="utf-8"))
+        except (OSError, json.JSONDecodeError) as exc:
+            print(
+                f"[url-whitelist] не удалось прочитать {path}: {exc}",
+                file=sys.stderr,
+            )
+            continue
+        for doc in (data or {}).get("documents", []):
+            cid = (doc or {}).get("cons_doc_id")
+            if isinstance(cid, str) and cid:
+                # Нормализуем: всегда верхним регистром, без префикса.
+                whitelist.add(cid.upper().strip())
+    return whitelist
+
+
+def check_url_whitelist(html_text: str) -> list[UrlWhitelistHit]:
+    """Парсит все `consultant.ru/document/cons_doc_LAW_XXXXX` в HTML и
+    возвращает те, которых нет в whitelist. Работает на RAW HTML
+    (не на extracted plain text) — нужны теги `<a href>`."""
+    found: dict[str, list[int]] = {}
+    for m in CONS_DOC_LAW_RX.finditer(html_text):
+        cid = m.group(1).upper()
+        found.setdefault(cid, []).append(m.start())
+
+    if not found:
+        return []
+
+    whitelist = load_url_whitelist()
+    hits: list[UrlWhitelistHit] = []
+    for cid, positions in found.items():
+        if cid in whitelist:
+            continue
+        # Контекст вокруг первой встречи (80 символов до и после).
+        pos = positions[0]
+        start = max(0, pos - 80)
+        end = min(len(html_text), pos + 80)
+        ctx = html_text[start:end].replace("\n", " ").strip()
+        hits.append(UrlWhitelistHit(
+            cons_doc_id=cid,
+            context=ctx,
+            occurrence_count=len(positions),
+        ))
+    return hits
+
+
+@dataclass
 class TargetedTokenHit:
     """Конкретные токены, которые text.ru стабильно подсвечивает как заспам:
     «ст», «РФ», «руб», «ООО», «000 руб». Лимиты эмпирические из реальных
@@ -166,6 +239,7 @@ class Report:
     punctuation_hits: list[PunctuationHit] = field(default_factory=list)
     spam: SpamHeuristics | None = None
     targeted_tokens: list[TargetedTokenHit] = field(default_factory=list)
+    url_whitelist_hits: list[UrlWhitelistHit] = field(default_factory=list)
     author_markers_count: int = 0
     author_markers_min: int = 2  # минимум 2 авторские вставки на статью
 
@@ -181,6 +255,11 @@ class Report:
         # SOFT-severity (новые 16 мая: 127-фз, 213, 000, ГПК, ГК, cta) попадают
         # в отчёт writer'у как feedback, но не срывают слот.
         if any(h.over_limit and h.severity == "hard" for h in self.targeted_tokens):
+            return False
+        # consultant.ru URL вне whitelist (legal_whitelist.json/_auto.json) =
+        # блокер. Защита от случая 17.05.2026 (LAW_90425 как ПП ВАС № 63,
+        # реально таможенный приказ). Применяется только к HTML (где есть <a>).
+        if self.url_whitelist_hits:
             return False
         if self.author_markers_count < self.author_markers_min:
             return False
@@ -699,6 +778,16 @@ def analyze(file_path: Path) -> Report:
         )
         spam.risk_flags = []
 
+    # URL whitelist проверка только на HTML — там есть теги <a href>.
+    # Для .md источника проверять смысла нет (writer пишет markdown ссылки,
+    # которые потом seo-editor превращает в HTML). Финальный gate работает
+    # на article.html / body.html — там и ловим левые URL.
+    url_hits = (
+        check_url_whitelist(raw)
+        if file_path.suffix.lower() in {".html", ".htm"}
+        else []
+    )
+
     return Report(
         file=str(rel_path),
         text_chars=chars,
@@ -708,6 +797,7 @@ def analyze(file_path: Path) -> Report:
         punctuation_hits=check_punctuation(text),
         spam=spam,
         targeted_tokens=check_targeted_tokens(text),
+        url_whitelist_hits=url_hits,
         author_markers_count=count_author_markers(text),
     )
 
@@ -723,6 +813,7 @@ def to_dict(rep: Report) -> dict:
         "punctuation_hits": [asdict(h) for h in rep.punctuation_hits],
         "spam": asdict(rep.spam) if rep.spam else None,
         "targeted_tokens": [asdict(h) for h in rep.targeted_tokens],
+        "url_whitelist_hits": [asdict(h) for h in rep.url_whitelist_hits],
         "author_markers_count": rep.author_markers_count,
         "author_markers_min": rep.author_markers_min,
     }
@@ -801,6 +892,18 @@ def print_report(rep: Report) -> None:
         print(f"  [OK] {rep.author_markers_count} ≥ {rep.author_markers_min}")
     else:
         print(f"  [FAIL] {rep.author_markers_count} < {rep.author_markers_min} — добавить хотя бы 2 «мы считаем/по нашему опыту/в нашей практике»")
+
+    # URL whitelist — итог по ссылкам на consultant.ru.
+    if rep.url_whitelist_hits:
+        print(f"\n[FAIL] consultant.ru URL вне whitelist: {len(rep.url_whitelist_hits)}")
+        print(f"  Допустимы только URL из data/legal_whitelist.json + legal_whitelist_auto.json.")
+        for h in rep.url_whitelist_hits[:5]:
+            print(f"  • {h.cons_doc_id} ({h.occurrence_count}× в файле)")
+            print(f"    контекст: ...{h.context}...")
+        if len(rep.url_whitelist_hits) > 5:
+            print(f"  ... ещё {len(rep.url_whitelist_hits) - 5}")
+        print(f"  → Исправление: убрать <a href> у этих ссылок, оставить текст.")
+        print(f"    Или добавить документ в data/legal_whitelist.json если URL точно правильный.")
 
 
 def collect_targets(path: Path) -> list[Path]:

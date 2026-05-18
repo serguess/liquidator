@@ -27,6 +27,11 @@ data/*
 # Коммитится чтобы не повторяться при каждом редеплое и не глушить
 # уведомления о новых статьях от scheduler'а.
 !data/.bootstrap_sentinel_done
+# Whitelist URL consultant.ru — ручной (правит автор) и автоматический
+# (обновляется scripts/refresh_legal_whitelist.py раз в неделю).
+# Оба читаются агентами 2/4/6 и quality_gate для блокировки битых ссылок.
+!data/legal_whitelist.json
+!data/legal_whitelist_auto.json
 # Pipeline-логи в drafts/{slug}/_pipeline.log.json — попадают в репо
 # автоматически вместе с папкой drafts/{slug}/.
 *.sqlite

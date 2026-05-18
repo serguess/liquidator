@@ -218,6 +218,7 @@ model: opus
 3. Для каждого блока outline:
    - Текст в указанной длине.
    - Факты только из research.json (формулировки safe_phrasing).
+   - **Гиперссылки на consultant.ru — ТОЛЬКО из research.json с непустым `source_url`.** Если в research.json `source_url: null` — пиши название документа текстом, БЕЗ `<a href>`. Не выдумывай `cons_doc_LAW_XXXXX` номера, даже если уверен. Случай 17.05.2026: writer ошибся, ссылка `LAW_90425` оказалась таможенным приказом. См. правило в `.claude/style/legal-facts.md`, раздел «Whitelist consultant.ru URL».
    - Ключи естественно, не более 2 раз на блок.
    - **Доминанта раздела согласно lexical map** (§1 playbook), не уходить в чужие доминанты.
    - Применять periphrasis ladder из §2 playbook для топ-3 ожидаемых лемм.

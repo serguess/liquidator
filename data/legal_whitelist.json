@@ -1,0 +1,47 @@
+{
+  "_comment": "Ручной whitelist consultant.ru URL. Источник правды для агентов 2/4/6 и quality_gate. Расширяется по мере появления новых документов. Автоматически дополняется scripts/refresh_legal_whitelist.py через файл legal_whitelist_auto.json.",
+  "_format": "Каждый документ: id (стабильный machine-readable), name (полное название), cons_doc_id (без префикса URL), url (полный), categories (где применим), verified (кем подтверждено).",
+  "_rules": [
+    "URL ставится в статье ТОЛЬКО если документ есть здесь или в legal_whitelist_auto.json.",
+    "Если нужного документа нет — агент пишет название текстом без <a href>.",
+    "Любой cons_doc_LAW_XXXXX в финальном HTML, которого нет в whitelist, блокируется quality_gate."
+  ],
+  "documents": [
+    {
+      "id": "127-fz",
+      "name": "Федеральный закон от 26.10.2002 № 127-ФЗ «О несостоятельности (банкротстве)»",
+      "cons_doc_id": "LAW_39331",
+      "url": "https://www.consultant.ru/document/cons_doc_LAW_39331/",
+      "categories": ["fiz", "yur", "vzysk", "news"],
+      "added": "2026-05-18",
+      "verified": "manual: высокая частота использования в проекте (167 упоминаний без жалоб от заказчика)"
+    },
+    {
+      "id": "gk-rf-ch1",
+      "name": "Гражданский кодекс РФ. Часть первая от 30.11.1994 № 51-ФЗ",
+      "cons_doc_id": "LAW_5142",
+      "url": "https://www.consultant.ru/document/cons_doc_LAW_5142/",
+      "categories": ["fiz", "yur", "vzysk", "news"],
+      "added": "2026-05-18",
+      "verified": "manual: базовый кодекс, проверен"
+    },
+    {
+      "id": "pp-vas-35-2012",
+      "name": "Постановление Пленума ВАС РФ от 22.06.2012 № 35 «О некоторых процессуальных вопросах, связанных с рассмотрением дел о банкротстве»",
+      "cons_doc_id": "LAW_132671",
+      "url": "https://www.consultant.ru/document/cons_doc_LAW_132671/",
+      "categories": ["yur", "fiz", "news"],
+      "added": "2026-05-18",
+      "verified": "manual: ключевое ПП ВАС по банкротству, действует"
+    },
+    {
+      "id": "pp-vas-17-2014-leasing",
+      "name": "Постановление Пленума ВАС РФ от 14.03.2014 № 17 «Об отдельных вопросах, связанных с договором выкупного лизинга»",
+      "cons_doc_id": "LAW_161313",
+      "url": "https://www.consultant.ru/document/cons_doc_LAW_161313/",
+      "categories": ["yur", "news"],
+      "added": "2026-05-18",
+      "verified": "manual: проверено заказчиком 18.05.2026 при правке статьи leasing-pri-bankrotstve-dolzhnika"
+    }
+  ]
+}

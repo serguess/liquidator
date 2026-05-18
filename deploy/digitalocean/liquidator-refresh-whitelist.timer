@@ -1,0 +1,18 @@
+[Unit]
+Description=Weekly run of Liquidator Legal Whitelist Refresh
+# Не блокирует ничего другого. Скрипт изолирован от scheduler/bot — может
+# работать параллельно слотам и не влияет на статьи.
+
+[Timer]
+# Раз в неделю по воскресеньям в 03:30 МСК. Между слотами scheduler:
+# 02:48 МСК завершится к ~03:30, следующий — 05:12 МСК. Окно свободно.
+OnCalendar=Sun *-*-* 00:30:00 UTC
+# RandomizedDelaySec до 10 минут — защита от одновременных запросов с
+# других серверов на consultant.ru (если когда-то размножим).
+RandomizedDelaySec=600
+# Если сервер был выключен в момент запуска — запустится при старте.
+Persistent=true
+Unit=liquidator-refresh-whitelist.service
+
+[Install]
+WantedBy=timers.target
