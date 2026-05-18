@@ -824,6 +824,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "bankrotstvo-sozaemshchika-po-kreditu",
+      "category": "fiz",
+      "title": "Банкротство созаёмщика: что будет с кредитом",
+      "added_at": "2026-05-18T05:42:58.535069",
+      "char_count": 7590,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779072177/articles/bankrotstvo-sozaemshchika-po-kreditu-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

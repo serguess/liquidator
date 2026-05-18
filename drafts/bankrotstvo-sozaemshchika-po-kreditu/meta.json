@@ -1,0 +1,107 @@
+{
+  "slug": "bankrotstvo-sozaemshchika-po-kreditu",
+  "category": "fiz",
+  "title": "Банкротство созаёмщика: что будет с кредитом",
+  "description": "Созаёмщик подал на банкротство - что будет с основным долгом, ипотекой и залогом. Солидарная ответственность, риски для второго заёмщика, судебная практика.",
+  "h1": "Банкротство созаёмщика: что будет с долгом и основным заёмщиком",
+  "lead": "Несостоятельность одного из двух подписантов кредитного договора не прекращает обязательство второго. Банк выставит требование тому, с кого проще получить, - а с ипотекой расклад ещё жёстче.",
+  "breadcrumb_current": "Банкротство созаёмщика",
+  "topic_action": "оценку рисков созаёмщика при банкротстве",
+  "og_image": "/assets/articles/bankrotstvo-sozaemshchika-po-kreditu.jpg",
+  "main_keyword": "банкротство созаёмщика по кредиту",
+  "secondary_keywords": [
+    "что будет с основным заёмщиком при банкротстве созаёмщика",
+    "банкротство созаёмщика по ипотеке",
+    "солидарная ответственность созаёмщика",
+    "что будет с долгом при банкротстве созаёмщика",
+    "созаёмщик банкротство последствия",
+    "банкротство и кредит с созаёмщиком",
+    "созаёмщик по ипотеке банкрот риски"
+  ],
+  "internal_links": [
+    "/articles/fiz/bankrotstvo-pri-poruchitelstve",
+    "/articles/fiz/bankrotstvo-pri-ipoteke-edinstvennoe-zhilye",
+    "/articles/fiz/bankrotstvo-suprugov-sovmestnoe",
+    "/articles/fiz/kogda-dolgi-ne-spishut-pri-bankrotstve"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_5142/",
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/"
+  ],
+  "faq": [
+    {
+      "question": "Обязан ли банк сначала попытаться взыскать долг с основного заёмщика, прежде чем обратиться к созаёмщику?",
+      "answer": "Нет. Кредитор вправе предъявить требование любому из двоих с первого дня просрочки. «Сначала к основному» - правило про поручителя."
+    },
+    {
+      "question": "Что происходит с ипотечным кредитом, если созаёмщик прошёл процедуру несостоятельности и получил освобождение?",
+      "answer": "Освобождение работает только для банкрота. Основной клиент продолжает платить на оставшуюся сумму. Если выручки от продажи квартиры не хватило, непокрытый остаток за ним."
+    },
+    {
+      "question": "Можно ли взыскать с основного заёмщика деньги, которые созаёмщик уже заплатил банку вместо него?",
+      "answer": "Да. Второй подписант, погасивший общее обязательство, получает право регресса. Если первый клиент в процедуре, регресс надо заявить в реестр кредиторов до закрытия дела."
+    },
+    {
+      "question": "Сколько стоит подать заявление о несостоятельности гражданину-созаёмщику?",
+      "answer": "Госпошлина - ноль рублей с 8 сентября 2024 года. Депозит на вознаграждение арбитражного управляющего - 25 тысяч рублей. Дополнительно публикации в ЕФРСБ и почта - ещё 15-20 тысяч."
+    },
+    {
+      "question": "Потеряет ли созаёмщик квартиру, купленную в совместную собственность с основным заёмщиком?",
+      "answer": "Если жильё в ипотеке и один из совладельцев банкротится, залог уйдёт с торгов. Долю получит каждый, кто вписан в ЕГРН, но только после того, как залоговый кредитор заберёт свои 80%."
+    },
+    {
+      "question": "Распространяется ли мораторий на основного заёмщика, если банкротится только созаёмщик?",
+      "answer": "Нет. Мораторий защищает только того, кто на процедуре. Первый клиент продолжает получать звонки, претензии и повестки в суд."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "f1 (ст. 322, 323 ГК РФ) - проверено: солидарная ответственность подписантов отражена корректно",
+    "f2 (ст. 363 ГК РФ) - проверено: разница поручителя и созаёмщика передана через safe_phrasing",
+    "f4 (ст. 308 п. 3 ГК РФ, ст. 213.28 127-ФЗ) - проверено: освобождение одного не освобождает второго",
+    "f6 (ст. 213.11 п. 1 127-ФЗ) - проверено: мораторий только на банкрота",
+    "f7 (ст. 323 ГК РФ) - проверено: при банкротстве основного кредит переходит на второго",
+    "f8 (п. 4 ст. 213.27 127-ФЗ, ст. 446 ГПК РФ) - проверено: 80/10/10, иммунитет на залог не распространяется",
+    "f9 (ст. 323 ГК РФ) - проверено: недопокрытие после торгов взыскивают с созаёмщика",
+    "f10 (ст. 34 СК РФ, п. 7 ст. 213.26, Пленум ВС № 48) - проверено: супруг-созаёмщик, общий долг",
+    "f11 (ст. 325 п. 2 ГК РФ) - проверено: право регресса",
+    "f12 (ст. 213.14 п. 2 127-ФЗ, ФЗ-289 от 08.08.2024) - проверено: реструктуризация до 5 лет",
+    "f13 (ст. 333.37 НК РФ, п. 3 ст. 20.6 127-ФЗ) - проверено: госпошлина 0, депозит 25 000 рублей",
+    "f14 (п. 4, 5, 6 ст. 213.28 127-ФЗ) - проверено: недобросовестность, несписываемые категории",
+    "Все факты с последней верификацией 2026-05-18, legislation_status: active"
+  ],
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "text_chars": 7590,
+  "length_status": "warn",
+  "length_kind": "default",
+  "local_spam_top10_share": 0.101,
+  "local_spam_ngram3_repeat": 0.023,
+  "local_lexical_diversity": 0.61,
+  "local_ai_markers_density": 0.21,
+  "local_ai_markers_total": 2,
+  "local_ai_markers_critical": 0,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 2,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 53,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность чуть выше 50% (~53%)"
+  ],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779072177/articles/bankrotstvo-sozaemshchika-po-kreditu-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1779072177/articles/bankrotstvo-sozaemshchika-po-kreditu-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Minimalist top-down flat-lay on a clean light-grey stone surface. Sparse editorial arrangement with deliberate negative space: a small brass scales of justice centered slightly left, pans empty and level, casting a fine twin shadow; a single brass key on a plain ring placed at upper right; a closed dark leather portfolio angled slightly below center-left; a fountain pen aligned diagonally across the portfolio's lower edge. Camera: directly overhead, neutral studio position. Lighting: soft even cool daylight from above with a very subtle directional shadow tracing each object's contour. Palette: pale cool grey, warm brass, deep charcoal leather. Mood: clean contemporary legal magazine — precise, restrained, the quiet weight of two parties bound to one obligation.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-05-18T02:42:58Z",
+  "date_published": "2026-05-18",
+  "date_modified": "2026-05-18",
+  "ready_for_review": true,
+  "ready_at": "2026-05-18T02:42:58Z",
+  "publication_target": "telegram_review"
+}

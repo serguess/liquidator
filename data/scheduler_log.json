@@ -4010,5 +4010,59 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-05-18T02:48:28",
+    "category": "vzysk",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 5,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "vzysk-27",
+    "topic_slug": "povorot-ispolneniya-otmena-resheniya",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "internal_links_autofixed: 3 ссылок (например /articles/vzysk/kak-otmenit-sudebnyj-prikaz.html→/articles/vzysk/kak-otmenit-sudebnyj-prikaz; /articles/vzysk/ispolnitelnyj-list-poluchenie-predyavlenie.html→/articles/vzysk/ispolnitelnyj-list-poluchenie-predyavlenie; /articles/vzysk/snyatie-aresta-so-scheta-pristavami.html→/articles/vzysk/snyatie-aresta-so-scheta-pristavami)"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "povorot-ispolneniya-otmena-resheniya",
+    "duration_sec": 1758.8,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": " | ✅ passed (без блокеров) |\n| **Uniqueness** | ✅ passed |\n| **Factcheck** | ✅ passed |\n| **AI-маркеры** | 3 low (все в шаблоне сайта, не в тексте) |\n| **Обложка** | ✅ сгенерирована, загружена в Cloudinary |\n| **Режим** | `ready_for_review=true` → TG-бот |\n| **Файл** | `drafts/povorot-ispolneniya-otmena-resheniya/article.html` |\n\n**Метрики text.ru** — проверка не проводилась (local_only), предиктивная оценка качества: spam ~53%, AI ~3%, uniqueness ~87%.\n\n**Итерации writer'а:** 1 (без возвратов).",
+    "stderr_tail": "",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7679
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]
