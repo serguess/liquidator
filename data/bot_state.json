@@ -1479,7 +1479,7 @@
     "nepravomernye-dejstviya-bankrotstvo-statya-195": {
       "category": "yur",
       "title": "Статья 195 УК РФ: неправомерные действия при банкротстве",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -1487,13 +1487,15 @@
       "tg_message_id": 644,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-17T15:31:30",
-      "last_action_at": "2026-05-17T15:31:30",
+      "last_action_at": "2026-05-19T00:14:52",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://test.pravo.shop/articles/yur/nepravomernye-dejstviya-bankrotstvo-statya-195",
       "pending_batch": false,
       "pending_batch_at": "2026-05-17T15:31:30",
-      "batch_sent_at": "2026-05-18T10:02:35"
+      "batch_sent_at": "2026-05-18T10:02:35",
+      "published_at": "2026-05-19T00:14:52",
+      "articles_path": "articles/yur/nepravomernye-dejstviya-bankrotstvo-statya-195.html"
     },
     "neispolnenie-resheniya-suda-posledstviya": {
       "category": "vzysk",
