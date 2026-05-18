@@ -876,6 +876,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "kontroliruyushchee-dolzhnika-lico-kdl",
+      "category": "yur",
+      "title": "Контролирующее должника лицо (КДЛ): кто несёт субсидиарку",
+      "added_at": "2026-05-18T15:32:17.471868",
+      "char_count": 7935,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779107536/articles/kontroliruyushchee-dolzhnika-lico-kdl-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

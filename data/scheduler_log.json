@@ -4223,5 +4223,60 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-05-18T12:24:31",
+    "category": "fiz",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 9,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "fiz-45",
+    "topic_slug": "dolevaya-sobstvennost-pri-bankrotstve",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "Автофикс применил правки: сокращения=2, пунктуация=0",
+        "internal_links_autofixed: 4 ссылок (например /articles/fiz/bankrotstvo-suprugov-sovmestnoe.html→/articles/fiz/bankrotstvo-suprugov-sovmestnoe; /articles/fiz/bankrotstvo-pri-ipoteke-edinstvennoe-zhilye.html→/articles/fiz/bankrotstvo-pri-ipoteke-edinstvennoe-zhilye; /articles/fiz/osparivanie-sdelok-fizlica-bankrotstvo.html→/articles/fiz/osparivanie-sdelok-fizlica-bankrotstvo)"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "dolevaya-sobstvennost-pri-bankrotstve",
+    "duration_sec": 2166.3,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "similarity=0) |\n| Factcheck | passed |\n| Quality gate | passed (iter 2, spam_risk устранён: ngram3 0.044→0.023) |\n| Predicted spam | ~47% |\n| Predicted AI | ~3% |\n| Predicted uniqueness | ~90% |\n| Обложка | сгенерирована, template_id=19 |\n| Статус | `ready_for_review: true`, в TG-очереди |\n| Файл | `drafts/dolevaya-sobstvennost-pri-bankrotstve/article.html` |\n\n`textru_ai_detector` / `textru_uniqueness` / `textru_spam` — данных из text.ru пока нет (проверка выполняется отдельно после публикации).",
+    "stderr_tail": "",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7576
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]
