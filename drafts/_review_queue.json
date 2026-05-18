@@ -889,6 +889,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "vzyskanie-dolga-s-ip",
+      "category": "vzysk",
+      "title": "Взыскание долга с ИП: судебный и внесудебный порядок",
+      "added_at": "2026-05-18T17:56:56.700532",
+      "char_count": 7927,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779116215/articles/vzyskanie-dolga-s-ip-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

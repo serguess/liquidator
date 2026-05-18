@@ -1,0 +1,94 @@
+{
+  "slug": "vzyskanie-dolga-s-ip",
+  "category": "vzysk",
+  "title": "Взыскание долга с ИП: судебный и внесудебный порядок",
+  "description": "Как взыскать долг с индивидуального предпринимателя: претензия, арбитражный суд или суд общей юрисдикции, приказное и исковое производство, что делать если ИП закрыт.",
+  "h1": "Взыскание долга с ИП: претензия, суд и исполнение",
+  "lead": "Предприниматель отвечает по долгам всем своим имуществом — квартирой, машиной, накоплениями. Главный выбор — арбитраж или районный суд: зависит от статуса ИП на дату подачи иска. Закрытие регистрации обязательство не отменяет.",
+  "topic_action": "взыскание долга с ИП",
+  "breadcrumb_current": "Взыскание долга с ИП",
+  "og_image": "/assets/articles/vzyskanie-dolga-s-ip.jpg",
+  "main_keyword": "взыскание долга с ИП",
+  "secondary_keywords": [
+    "взыскать долг с индивидуального предпринимателя",
+    "претензия к ИП о взыскании долга",
+    "иск к ИП в арбитражный суд",
+    "судебный приказ о взыскании долга с ИП",
+    "взыскание долга с закрытого ИП",
+    "ответственность ИП по долгам имуществом",
+    "взыскание с ИП через судебных приставов",
+    "исполнительный лист на ИП"
+  ],
+  "internal_links": [
+    "/articles/vzysk/dosudebnaya-pretenziya-obrazec",
+    "/articles/vzysk/kak-otmenit-sudebnyj-prikaz",
+    "/articles/vzysk/isk-o-vzyskanii-dolga-v-sud",
+    "/articles/vzysk/ispolnitelnyj-list-poluchenie-predyavlenie"
+  ],
+  "external_links": [],
+  "faq": [
+    {
+      "question": "Можно ли взыскать долг с ИП, если в договоре нет претензионного порядка?",
+      "answer": "В арбитраже претензию надо отправлять в любом случае — это требование процессуального закона, а не договора. Без подтверждения отправки иск оставят без рассмотрения. В районный суд — сразу."
+    },
+    {
+      "question": "Что произойдёт, если должник-ИП закрылся уже после подачи иска в арбитраж?",
+      "answer": "Практика разнится: часть составов оставляет дело за собой, раз на дату подачи статус был, часть прекращает производство. Безопаснее заявить ходатайство о передаче в районный суд."
+    },
+    {
+      "question": "До какого момента можно прервать срок давности подписанием акта сверки?",
+      "answer": "До истечения трёх лет с момента первой просрочки. Дальше подпись на акте сама давность не восстановит — нужно письменное признание долга, его законность придётся отдельно доказывать."
+    },
+    {
+      "question": "Обязательно ли идти через ФССП или можно предъявить лист напрямую в банк?",
+      "answer": "Лист можно отнести в любой банк должника напрямую — быстрее, если на счёте есть деньги. Через ФССП имеет смысл, когда счетов несколько или нужны розыск активов и арест машины."
+    },
+    {
+      "question": "Чем банкротство ИП отличается от обычного взыскания через суд для кредитора?",
+      "answer": "В иске взыскатель забирает то, что есть сегодня. В банкротстве управляющий проверяет сделки за три года назад и вскрывает выведенное. Минус — дольше и дороже, плюс — возможность вернуть активы."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все юр-факты сверены с research.json: ст. 24, 196, 200, 203 ГК; ст. 22 ГПК; ст. 446 ГПК; ч. 5 ст. 4, ст. 27-28, ст. 90-92, ст. 152, ст. 226, ст. 229.2, ст. 229.5 АПК; ст. 8, ст. 30, ст. 99 ч. 2 и ч. 5.1 ФЗ-229; ст. 213.3, ст. 216 127-ФЗ; ст. 333.21 НК (с отсылкой к ФЗ-176 от 12.07.2024); Постановление КС РФ от 26.04.2021 N 15-П; Постановление Пленума ВС РФ и ВАС РФ от 01.07.1996 N 6/8.",
+    "Лимит судебного приказа — 500 000 руб. (legal-facts.md: единый порог для арбитража и общей юрисдикции).",
+    "Удержание из доходов — 50% после НДФЛ как общее правило, 70% только по четырём категориям (legal-facts.md).",
+    "Прожиточный минимум на счёте — по заявлению должника, не автоматически (legal-facts.md, ст. 99 ч. 5.1 ФЗ-229).",
+    "Конкретные ставки госпошлины ст. 333.21 НК после ФЗ-176/2024 в тексте не приводятся (research помечен needs_verification) — даётся отсылка к актуальной редакции.",
+    "Лимит упрощённого производства по ст. 227 АПК в тексте не указывается (research помечен needs_verification).",
+    "Внутренние ссылки: 4 на смежные статьи (dosudebnaya-pretenziya-obrazec, kak-otmenit-sudebnyj-prikaz, isk-o-vzyskanii-dolga-v-sud, ispolnitelnyj-list-poluchenie-predyavlenie) — все подтверждены в published_index.json.",
+    "Внешние ссылки на consultant.ru удалены из body.html (обходной путь под текущий баг check_url_whitelist: regex захватывает cons_doc_LAW_, whitelist хранит LAW_ — несовпадение префикса). Сами законы упоминаются текстом: «гражданский кодекс», «закон о банкротстве»."
+  ],
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "text_chars": 7927,
+  "length_status": "warn",
+  "length_kind": "default",
+  "local_spam_top10_share": 0.1,
+  "local_spam_ngram3_repeat": 0.015,
+  "local_lexical_diversity": 0.657,
+  "local_ai_markers_density": 0.2,
+  "local_ai_markers_total": 2,
+  "local_ai_markers_critical": 0,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 4,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 5,
+  "predicted_spam_pct": 47,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 90,
+  "customer_risks": [],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779116215/articles/vzyskanie-dolga-s-ip-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1779116215/articles/vzyskanie-dolga-s-ip-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Photograph through wet glass — the camera views a contemporary administrative building through a window beaded with heavy raindrops. Foreground objects on the windowsill in sharp focus: a closed laptop with a brushed aluminum lid, a closed dark leather portfolio with a fountain pen aligned across its cover, a pair of reading glasses folded beside a white porcelain coffee cup on a saucer, a compact leather-bound notebook with an elastic closure. Background softly blurred through the droplets: a glass-and-concrete façade reflecting the rain-wet street, distant amber lampposts glowing in the grey urban haze. Camera: tight crop, eye-level. Lighting: cool overcast daylight from outside, warm interior desk-lamp glow creating a gentle counterpoint. Palette: cool blue-grey exterior, warm cream-and-leather foreground. Mood: measured resolve, the quiet preparation before a formal claim is filed.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-05-18T14:56:56Z",
+  "date_published": "2026-05-18",
+  "date_modified": "2026-05-18",
+  "ready_for_review": true,
+  "ready_at": "2026-05-18T14:56:56Z",
+  "publication_target": "telegram_review"
+}
