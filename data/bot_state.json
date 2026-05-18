@@ -1643,7 +1643,7 @@
     "prava-direktora-v-processe-bankrotstva": {
       "category": "yur",
       "title": "Права директора при банкротстве: что можно, что нельзя",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -1651,13 +1651,15 @@
       "tg_message_id": 658,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-18T08:34:37",
-      "last_action_at": "2026-05-18T08:34:37",
+      "last_action_at": "2026-05-19T01:04:52",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://test.pravo.shop/articles/yur/prava-direktora-v-processe-bankrotstva",
       "pending_batch": false,
       "pending_batch_at": "2026-05-18T08:34:37",
-      "batch_sent_at": "2026-05-18T10:02:50"
+      "batch_sent_at": "2026-05-18T10:02:50",
+      "published_at": "2026-05-19T01:04:52",
+      "articles_path": "articles/yur/prava-direktora-v-processe-bankrotstva.html"
     },
     "vzyskanie-alimentov-cherez-pristavov": {
       "category": "vzysk",
@@ -1787,14 +1789,6 @@
     }
   },
   "pending_actions": [
-    {
-      "action": "publish",
-      "slug": "prava-direktora-v-processe-bankrotstva",
-      "version": "2.0",
-      "chat_id": 144472991,
-      "reply_to_message_id": 657,
-      "queued_at": "2026-05-19T00:35:37"
-    },
     {
       "action": "publish",
       "slug": "neispolnenie-resheniya-suda-posledstviya",
