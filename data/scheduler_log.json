@@ -4064,5 +4064,57 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-05-18T05:12:07",
+    "category": "fiz",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 6,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "fiz-44",
+    "topic_slug": "bankrotstvo-sozaemshchika-po-kreditu",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "bankrotstvo-sozaemshchika-po-kreditu",
+    "duration_sec": 1867.9,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "\n- **Обложка:** сгенерирована (template_id=24, flat-lay с весами правосудия и ключом)\n- **Режим:** ready_for_review=true, добавлено в TG-очередь (64 статьи)\n- **Файл:** `drafts/bankrotstvo-sozaemshchika-po-kreditu/article.html`\n\n**Метрики text.ru:** значения появятся после обработки на стороне text.ru (в meta.json пока None — заполняются отдельным процессом).\n\n**Прогнозируемые метрики (quality_gate):** ИИ ~3%, уникальность ~87%, заспамленность ~53% (чуть выше 50% — предупреждение, но не блокер).",
+    "stderr_tail": "",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7590
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]

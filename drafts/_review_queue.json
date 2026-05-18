@@ -837,6 +837,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "prava-direktora-v-processe-bankrotstva",
+      "category": "yur",
+      "title": "Права директора при банкротстве: что можно, что нельзя",
+      "added_at": "2026-05-18T08:31:19.150022",
+      "char_count": 8217,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779082278/articles/prava-direktora-v-processe-bankrotstva-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
