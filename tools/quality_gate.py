@@ -352,6 +352,21 @@ def _run(path: Path, iteration_override: int | None = None) -> GateResult:
                     "1 раз в точной форме + дальше через дескриптор («эта планка», «новый минимум»)."
                 )
 
+    # consultant.ru URL вне whitelist — hard блокер. Защита от случая 17.05.2026
+    # (LAW_90425 как «ПП ВАС № 63», реально таможенный приказ ФТС).
+    # whitelist = data/legal_whitelist.json + data/legal_whitelist_auto.json.
+    if qc_rep.url_whitelist_hits:
+        ids = ", ".join(f"{h.cons_doc_id}×{h.occurrence_count}" for h in qc_rep.url_whitelist_hits[:5])
+        result.blockers.append(
+            f"url_whitelist_violation: {len(qc_rep.url_whitelist_hits)} URL вне whitelist ({ids})"
+        )
+        result.recommendations.append(
+            f"fix_urls: убрать <a href> у consultant.ru URL не из data/legal_whitelist.json, "
+            f"оставить только текстовое название документа. Список нарушений: "
+            f"{', '.join(h.cons_doc_id for h in qc_rep.url_whitelist_hits)}. "
+            f"Если URL точно правильный — добавить в data/legal_whitelist.json вручную."
+        )
+
     # Авторские вставки бренда (минимум 2 для AI-detector ≤7%).
     # Эмпирика 13 мая 2026: 0% AI статьи fiz/yur/vzysk имеют по 2 вставки,
     # 7-19% AI — 0. Для news достаточно ≥1 (фактический жанр, меньше «мы»).
