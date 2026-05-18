@@ -1501,15 +1501,34 @@
       "category": "vzysk",
       "title": "Неисполнение решения суда: последствия для должника",
       "status": "pending_review",
-      "current_version": "2.0",
+      "current_version": "2.3",
       "versions": [
-        "2.0"
+        "2.0",
+        "2.1",
+        "2.2",
+        "2.3"
       ],
       "tg_message_id": 646,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-17T17:48:31",
-      "last_action_at": "2026-05-17T17:48:31",
-      "edits_history": [],
+      "last_action_at": "2026-05-19T00:36:39",
+      "edits_history": [
+        {
+          "version": "2.1",
+          "edit_text": "Теперь исполнительский сбр не 7 процентов, а 13, то же самое и про минимальные значения взыскания с физических и юрдиических лиц. поправь это в статье.",
+          "applied_at": "2026-05-19T00:22:34"
+        },
+        {
+          "version": "2.2",
+          "edit_text": "После шестого дня выносится постановление о взыскании тринадцатипроцентного сбора от суммы долга. Минимальная планка для гражданина - тысяча рублей, для фирмы - десять тысяч. По неимущественным требованиям (выселить, снести, восстановить) пять и пятьдесят тысяч соответственно. В нашей практике клиенты часто узнают про начисление, только когда видят его отдельной строкой в банке.\n\nэто неверно. проверь по статье об исполнительском сборе",
+          "applied_at": "2026-05-19T00:27:56"
+        },
+        {
+          "version": "2.3",
+          "edit_text": "Неверно. Приведи свою статью в соответствие с Федеральный закон от 02.10.2007 N 229-ФЗ (ред. от 25.04.2026) \"Об исполнительном производстве\" Статья 112. Исполнительский сбор",
+          "applied_at": "2026-05-19T00:36:39"
+        }
+      ],
       "rejection_reason": null,
       "published_url": null,
       "pending_batch": false,
@@ -1540,7 +1559,7 @@
     "materinskij-kapital-pri-bankrotstve": {
       "category": "fiz",
       "title": "Материнский капитал при банкротстве физлица",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -1548,13 +1567,15 @@
       "tg_message_id": 650,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-17T22:39:33",
-      "last_action_at": "2026-05-17T22:39:33",
+      "last_action_at": "2026-05-19T01:03:24",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://test.pravo.shop/articles/fiz/materinskij-kapital-pri-bankrotstve",
       "pending_batch": false,
       "pending_batch_at": "2026-05-17T22:39:33",
-      "batch_sent_at": "2026-05-18T10:02:41"
+      "batch_sent_at": "2026-05-18T10:02:41",
+      "published_at": "2026-05-19T01:03:24",
+      "articles_path": "articles/fiz/materinskij-kapital-pri-bankrotstve.html"
     },
     "bankrotstvo-ooo-s-inostrannymi-dolgami": {
       "category": "yur",
@@ -1739,9 +1760,68 @@
       "published_url": null,
       "pending_batch": true,
       "pending_batch_at": "2026-05-18T22:42:21"
+    },
+    "vzyskanie-ubytkov-s-direktora-bankrotstvo": {
+      "category": "yur",
+      "title": "Взыскание убытков с директора при банкротстве",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-05-19T01:03:22",
+      "last_action_at": "2026-05-19T01:03:22",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-05-19T01:03:22"
     }
   },
-  "pending_actions": [],
+  "pending_actions": [
+    {
+      "action": "publish",
+      "slug": "bankrotstvo-ooo-s-inostrannymi-dolgami",
+      "version": "2.0",
+      "chat_id": 144472991,
+      "reply_to_message_id": 651,
+      "queued_at": "2026-05-19T00:29:01"
+    },
+    {
+      "action": "publish",
+      "slug": "povorot-ispolneniya-otmena-resheniya",
+      "version": "2.0",
+      "chat_id": 144472991,
+      "reply_to_message_id": 653,
+      "queued_at": "2026-05-19T00:31:25"
+    },
+    {
+      "action": "publish",
+      "slug": "bankrotstvo-sozaemshchika-po-kreditu",
+      "version": "2.0",
+      "chat_id": 144472991,
+      "reply_to_message_id": 655,
+      "queued_at": "2026-05-19T00:33:47"
+    },
+    {
+      "action": "publish",
+      "slug": "prava-direktora-v-processe-bankrotstva",
+      "version": "2.0",
+      "chat_id": 144472991,
+      "reply_to_message_id": 657,
+      "queued_at": "2026-05-19T00:35:37"
+    },
+    {
+      "action": "publish",
+      "slug": "neispolnenie-resheniya-suda-posledstviya",
+      "version": "2.3",
+      "chat_id": 144472991,
+      "reply_to_message_id": 687,
+      "queued_at": "2026-05-19T00:37:19"
+    }
+  ],
   "last_batch_date": "2026-05-18",
   "last_batch_count": 10,
   "last_batch_at": "2026-05-18T10:02:50"
