@@ -244,3 +244,30 @@ fatal: Exiting because of an unresolved conflict.
 U	data/research_cache.json
 ====
 
+[2026-05-18T18:30:16] slot=- category=- action=git_pull returncode=1
+--- stderr ---
+fatal: unable to get credential storage lock in 1000 ms: Read-only file system
+From https://github.com/serguess/liquidator
+ * branch            main       -> FETCH_HEAD
+error: The following untracked working tree files would be overwritten by merge:
+	drafts/vzyskanie-dolga-s-ip/_pipeline.log.json
+	drafts/vzyskanie-dolga-s-ip/article.html
+	drafts/vzyskanie-dolga-s-ip/body.html
+	drafts/vzyskanie-dolga-s-ip/brief.json
+	drafts/vzyskanie-dolga-s-ip/draft.md
+	drafts/vzyskanie-dolga-s-ip/meta.json
+	drafts/vzyskanie-dolga-s-ip/outline.json
+	drafts/vzyskanie-dolga-s-ip/quality_gate.json
+	drafts/vzyskanie-dolga-s-ip/research.json
+	drafts/vzyskanie-dolga-s-ip/research_draft.json
+	drafts/vzyskanie-dolga-s-ip/scene.txt
+	drafts/vzyskanie-dolga-s-ip/scene_template.txt
+	drafts/vzyskanie-dolga-s-ip/uniqueness.json
+Please move or remove them before you merge.
+Aborting
+Applied autostash.
+--- stdout ---
+Updating 9a31c2d..8614247
+Created autostash: ad6c56a
+====
+

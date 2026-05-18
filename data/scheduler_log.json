@@ -4334,5 +4334,60 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-05-18T17:12:07",
+    "category": "vzysk",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": " mode 100644 deploy/digitalocean/liquidator-refresh-whitelist.service\n create mode 100644 deploy/digitalocean/liquidator-refresh-whitelist.timer\n create mode 100644 scripts/refresh_legal_whitelist.py\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\nApplied autostash.\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 13,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "expanded_in_slot": true,
+    "topic_id": "vzysk-29",
+    "topic_slug": "vzyskanie-dolga-s-ip",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "Автофикс применил правки: сокращения=0, пунктуация=0"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "vzyskanie-dolga-s-ip",
+    "duration_sec": 2704.4,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "s:** passed (structure overlap 0.0, thesis similarity 0.037)\n**Factcheck:** passed (ст. 24 ГК, 500 000 руб. судебный приказ, 3 года давность, 50% удержание — всё по research.json)\n\n**Text.ru метрики:** `textru_ai_detector`, `textru_uniqueness`, `textru_spam` — не заполнены (text.ru API не вызывался в этом прогоне, значения появятся после реальной проверки).\n\n**Обложка:** сгенерирована (template_id=29), загружена на Cloudinary.\n**Статья добавлена в очередь ревью** (`_review_queue.json`, item 69).",
+    "stderr_tail": "",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7927
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]
