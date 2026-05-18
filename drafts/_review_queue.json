@@ -863,6 +863,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "dolevaya-sobstvennost-pri-bankrotstve",
+      "category": "fiz",
+      "title": "Долевая собственность при банкротстве физлица",
+      "added_at": "2026-05-18T13:00:22.294355",
+      "char_count": 7576,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779098421/articles/dolevaya-sobstvennost-pri-bankrotstve-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
