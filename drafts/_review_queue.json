@@ -1045,6 +1045,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "bankrotstvo-pri-potrebitelskom-kredite",
+      "category": "fiz",
+      "title": "Банкротство при потребительском кредите: спишут ли долг",
+      "added_at": "2026-05-19T22:30:23.226863",
+      "char_count": 7918,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779219021/articles/bankrotstvo-pri-potrebitelskom-kredite-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

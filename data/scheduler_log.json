@@ -4956,5 +4956,53 @@
     "stdout_tail": "You've hit your limit · resets 7:40pm (Europe/Moscow)",
     "stderr_tail": "",
     "metrics": null
+  },
+  {
+    "timestamp": "2026-05-19T20:44:02",
+    "category": "news",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "From https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "mode": "new",
+    "topic_id": "news-20",
+    "topic_slug": "fns-spisanie-beznadezhnogo-nalogovogo-dolga",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "Автофикс применил правки: сокращения=1, пунктуация=0",
+        "internal_links_autofixed: 2 ссылок (например /articles/vzysk/okonchanie-ip-po-state-46.html→/articles/vzysk/okonchanie-ip-po-state-46; /articles/fiz/bankrotstvo-pri-nalogovyh-dolgah.html→/articles/fiz/bankrotstvo-pri-nalogovyh-dolgah)",
+        "length_soft_passed: 6985 > 6800 но ≤ 7500 и iteration=4 — пропускаем (приоритет spam/uniqueness/ai)"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "fns-spisanie-beznadezhnogo-nalogovogo-dolga",
+    "duration_sec": 2074.1,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "` |\n| Очередь | добавлена (item #80) |\n\n**textru метрики** (text.ru не вызывался, проверка внешняя):\n- `textru_ai_detector`: не проверялось\n- `textru_uniqueness`: не проверялось\n- `textru_spam`: не проверялось\n\n**Что было:** два прохода на агента 4 — первый убрал «норм» (8→3), но подтянул «недоимк» (11). На итерации 3 quality_gate сделал forced_pass (все ratio-метрики в мягком коридоре: top1=11≤14, top10=0.107≤0.120, ngram3=0.015, lex_div=0.655). Обложка загружена на Cloudinary с первой попытки.",
+    "stderr_tail": "",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 6985
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]
