@@ -1771,21 +1771,30 @@
     "bankovskie-scheta-pri-bankrotstve": {
       "category": "fiz",
       "title": "Счета при банкротстве физлица: что блокируют",
-      "status": "pending_review",
-      "current_version": "2.0",
+      "status": "published",
+      "current_version": "2.1",
       "versions": [
-        "2.0"
+        "2.0",
+        "2.1"
       ],
       "tg_message_id": 712,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-18T22:42:21",
-      "last_action_at": "2026-05-18T22:42:21",
-      "edits_history": [],
+      "last_action_at": "2026-05-19T10:37:17",
+      "edits_history": [
+        {
+          "version": "2.1",
+          "edit_text": "В данной статье у тебя на утро написано слитно. Это неверно, сделали раздельно везде, где есть слово на утро и пришли мне.",
+          "applied_at": "2026-05-19T10:35:57"
+        }
+      ],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://test.pravo.shop/articles/fiz/bankovskie-scheta-pri-bankrotstve",
       "pending_batch": false,
       "pending_batch_at": "2026-05-18T22:42:21",
-      "batch_sent_at": "2026-05-19T10:01:17"
+      "batch_sent_at": "2026-05-19T10:01:17",
+      "published_at": "2026-05-19T10:37:17",
+      "articles_path": "articles/fiz/bankovskie-scheta-pri-bankrotstve.html"
     },
     "vzyskanie-ubytkov-s-direktora-bankrotstvo": {
       "category": "yur",
