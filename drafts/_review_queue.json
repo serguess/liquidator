@@ -993,6 +993,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "dohody-vo-vremya-bankrotstva-fizlica",
+      "category": "fiz",
+      "title": "Доходы при банкротстве физлица: что остаётся должнику",
+      "added_at": "2026-05-19T12:58:32.564719",
+      "char_count": 7725,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779184711/articles/dohody-vo-vremya-bankrotstva-fizlica-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
