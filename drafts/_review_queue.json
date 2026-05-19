@@ -1032,6 +1032,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "fns-spisanie-beznadezhnogo-nalogovogo-dolga",
+      "category": "news",
+      "title": "ФНС списывает безнадёжный налоговый долг: новый порядок",
+      "added_at": "2026-05-19T21:18:14.187470",
+      "char_count": 6985,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779214693/articles/fns-spisanie-beznadezhnogo-nalogovogo-dolga-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

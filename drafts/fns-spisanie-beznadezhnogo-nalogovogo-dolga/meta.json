@@ -1,0 +1,91 @@
+{
+  "slug": "fns-spisanie-beznadezhnogo-nalogovogo-dolga",
+  "category": "news",
+  "title": "ФНС списывает безнадёжный налоговый долг: новый порядок",
+  "description": "С 1 мая 2026 года действует новый порядок: ФНС списывает безнадёжные налоговые долги физлиц без суда. Разбираем основания, кого касается и что делать должнику.",
+  "h1": "ФНС теперь списывает безнадёжный налоговый долг без суда",
+  "lead": "С 1 мая действует новый порядок: налоговая признаёт долг безнадёжным быстрее и по части оснований - вне суда. Разберём, какие триггеры из 59-й нормы НК реально работают для физлица и что увидеть в личном кабинете.",
+  "topic_action": "проверку возможности списания налогового долга",
+  "breadcrumb_current": "ФНС списывает безнадёжный налоговый долг",
+  "og_image": "/assets/articles/fns-spisanie-beznadezhnogo-nalogovogo-dolga.jpg",
+  "main_keyword": "списание безнадёжного налогового долга ФНС",
+  "secondary_keywords": [
+    "безнадёжная задолженность по налогам",
+    "списание долга ФНС без суда",
+    "ст 59 НК РФ безнадёжный долг",
+    "порядок списания налоговой задолженности",
+    "ЕНС безнадёжный долг списание",
+    "когда ФНС списывает налоговый долг",
+    "признание долга безнадёжным ФНС",
+    "налоговый долг физлица списание"
+  ],
+  "internal_links": [
+    "/articles/vzysk/okonchanie-ip-po-state-46.html",
+    "/articles/fiz/bankrotstvo-pri-nalogovyh-dolgah.html"
+  ],
+  "external_links": [],
+  "faq": [
+    {
+      "question": "Нужно ли подавать заявление в ФНС, чтобы долг признали безнадёжным?",
+      "answer": "Нет. Орган принимает акт по собственной инициативе при наступлении оснований из 59-й нормы НК. Вы можете направить обращение с просьбой проверить ситуацию, но это не обязательное условие."
+    },
+    {
+      "question": "Почему пристав закрыл дело, а задолженность в кабинете всё ещё висит?",
+      "answer": "Закрытие исполнительного производства - лишь предпосылка для последующего акта ФНС. До этого момента минус по ЕНС сохраняется."
+    },
+    {
+      "question": "Спишут ли пени и штрафы вместе с основной суммой?",
+      "answer": "Да. Если основная недоимка признана безнадёжной, начисленные пени и штрафы списываются в той же логике."
+    },
+    {
+      "question": "До какого размера применяется упрощённый порядок для физических лиц?",
+      "answer": "По имеющимся данным - до 10 000 рублей при соблюдении условий приказа ЕД-1-8/126@. Этот лимит касается ускоренного принятия решения, а не самого факта списания."
+    },
+    {
+      "question": "Что происходит, если плательщик умер, а наследства нет?",
+      "answer": "Недоимка признаётся безнадёжной в части, превышающей стоимость наследственной массы. Если наследство отсутствует полностью, остаток списывается целиком."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "f3 (приказ ФНС ЕД-1-8/126@ от 27.02.2026) - содержание не верифицировано, в тексте использовано обтекаемо ('по имеющимся данным', 'сверяйте с разъяснениями ФНС')",
+    "f4 (срок 5 рабочих дней) - норма-источник не верифицирована, формулировка 'по имеющимся данным, не более пяти рабочих дней'",
+    "f5 (порог 10 000 руб.) - норма-источник не верифицирована, формулировка 'в частности, при размере недоимки до 10 000 рублей и соблюдении условий приказа'",
+    "f6 (ФЗ-425 и ФЗ-287) - конкретные нормы не раскрываются, только упоминание как источников поправок",
+    "Внешние ссылки на consultant.ru не используются: НК РФ ч.1 отсутствует в whitelist, угадывать cons_doc_LAW_XXXXX запрещено правилом проекта"
+  ],
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "text_chars": 6985,
+  "length_status": "too_long",
+  "length_kind": "news",
+  "local_spam_top10_share": 0.107,
+  "local_spam_ngram3_repeat": 0.015,
+  "local_lexical_diversity": 0.655,
+  "local_ai_markers_density": 0.34,
+  "local_ai_markers_total": 3,
+  "local_ai_markers_critical": 0,
+  "local_ai_markers_high": 1,
+  "local_own_voice_hits": 3,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 4,
+  "predicted_spam_pct": 47,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 90,
+  "customer_risks": [
+    "длина чуть больше лимита 6800 (6 985 знаков)"
+  ],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779214693/articles/fns-spisanie-beznadezhnogo-nalogovogo-dolga-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1779214693/articles/fns-spisanie-beznadezhnogo-nalogovogo-dolga-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Wide editorial photograph of a private executive office — high ceilings, tall windows with heavy drapes, walnut bookshelves lining the walls, an oxblood leather chesterfield in the background. Large mahogany desk in the foreground holds a closed dark leather portfolio centered on the surface, a fountain pen resting on a brass stand beside it, a stack of three closed dossiers tied with aged cord to the left, an antique brass pocket watch on a chain draped over the corner of the stack, and a white porcelain coffee cup on a saucer near the edge. A brass desk lamp casts warm tungsten light across the desk surface. Background through tall windows: blurred city skyline in cool blue morning fog. Camera: three-quarter angle, slight low-angle emphasizing ceiling height. Lighting: cool diffused window light blended with warm desk-lamp glow. Palette: walnut, oxblood, brass on neutral cream. Mood: senior official weighing a consequential administrative decision, weight of unresolved obligations.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-05-19T18:18:14Z",
+  "date_published": "2026-05-19",
+  "date_modified": "2026-05-19",
+  "ready_for_review": true,
+  "ready_at": "2026-05-19T18:18:14Z",
+  "publication_target": "telegram_review"
+}
