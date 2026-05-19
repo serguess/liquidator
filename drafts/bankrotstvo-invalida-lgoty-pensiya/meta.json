@@ -1,0 +1,97 @@
+{
+  "slug": "bankrotstvo-invalida-lgoty-pensiya",
+  "category": "fiz",
+  "title": "Банкротство инвалида: защита пенсии и льгот",
+  "description": "Как инвалиду 1, 2 и 3 группы списать долги через суд или МФЦ и сохранить пенсию, ЕДВ, спецтранспорт и другие социальные гарантии.",
+  "h1": "Банкротство инвалида: что защищено, а что войдёт в конкурсную массу",
+  "lead": "Пенсия по инвалидности, коляска и льготы на коммуналку защищены законом - но не автоматически. Прожиточный минимум возвращают по заявлению судье, технические средства и автомобиль - по ходатайству об исключении из массы.",
+  "topic_action": "проверку списания долгов инвалида",
+  "breadcrumb_current": "Банкротство инвалида",
+  "og_image": "/assets/articles/bankrotstvo-invalida-lgoty-pensiya.jpg",
+  "main_keyword": "банкротство инвалида",
+  "secondary_keywords": [
+    "банкротство инвалида 1 группы",
+    "банкротство инвалида 2 группы",
+    "банкротство инвалида 3 группы",
+    "пенсия по инвалидности при банкротстве",
+    "льготы инвалида при банкротстве",
+    "внесудебное банкротство инвалида через МФЦ",
+    "исключение пенсии из конкурсной массы",
+    "транспорт инвалида конкурсная масса",
+    "госпошлина банкротство инвалид"
+  ],
+  "offer": "proverka-spisaniya",
+  "internal_links": [
+    "/articles/fiz/bankrotstvo-pensionera",
+    "/articles/fiz/kogda-dolgi-ne-spishut-pri-bankrotstve",
+    "/articles/fiz/chto-nelzya-delat-pered-bankrotstvom-fizlica"
+  ],
+  "external_links": [],
+  "faq": [
+    {
+      "question": "Заберут ли мой автомобиль, если я езжу на нём из-за ограничения здоровья?",
+      "answer": "Только если в ИПРА не прописана потребность в транспорте, машина дорогая или у вас несколько ТС. При действующей программе и подтверждённом диагнозе автомобиль выводят из массы."
+    },
+    {
+      "question": "Сколько от пенсии останется на руках во время процедуры?",
+      "answer": "Прожиточный минимум на гражданина и на каждого иждивенца - по определению судьи. До его удовлетворения деньги уходят на счёт под управляющего полностью."
+    },
+    {
+      "question": "Что будет с льготами на коммунальные услуги после завершения дела?",
+      "answer": "Никуда не денутся. Скидка не менее 50% - это публично-правовое право обладателя группы, оно не имущество."
+    },
+    {
+      "question": "Можно ли обанкротиться через МФЦ при единственном доходе - пенсии по инвалидности?",
+      "answer": "Да, при сумме обязательств от 25 000 до миллиона. Срок - полгода, бесплатно."
+    },
+    {
+      "question": "Обязательно ли платить 25 000 рублей за управляющего, если их нет?",
+      "answer": "Депозитный взнос обязателен, но допускается отсрочка до первого заседания."
+    },
+    {
+      "question": "Спишется ли накопленный долг за коммунальные услуги вместе с кредитами?",
+      "answer": "Да, такие обязательства относятся к списываемым при добросовестном поведении."
+    },
+    {
+      "question": "Протез или инвалидная коляска - их включат в опись?",
+      "answer": "Нет, если изделие предусмотрено программой реабилитации."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все юр-факты сверены с research.json и legal-facts.md. Пенсия по инвалидности (страховая ФЗ-400 / социальная ФЗ-166) - доход, прожиточный минимум исключается только по ходатайству (п. 3 ст. 213.25 127-ФЗ, f4/f14). ЕДВ - contested (f5), формулировка обтекаемая. ТСР и автотранспорт инвалида - иммунитет по абз. 4 ч. 1 ст. 446 ГПК через ходатайство, ИПРА (ФЗ-181 ст. 10, f2/f3/f13). Льготы ЖКХ - ст. 17 ФЗ-181, публичное право (f15). Госпошлина 0 для должника-гражданина с 08.09.2024 (ст. 333.37 НК, ФЗ-176 от 12.07.2024, f6 + legal-facts.md), упоминание прежней ставки 300 руб только в форме отрицания. Депозит управляющего 25 000 руб - не пошлина (п. 3 ст. 20.6 127-ФЗ, f8). МФЦ: 25k-1M, 6 месяцев, ФЗ-474 от 04.11.2023 (f9). Льгота инв I-II группы по ст. 333.36 НК - до 1 млн, к арбитражу не применяется (f7). Несписываемые долги - п. 5 ст. 213.28 127-ФЗ (f11), без раскрытия номера статьи в авторском тексте (обтекаемая 'норма о добросовестности'). Компенсация вреда здоровью по гл. 59 ГК ≠ пенсия по инвалидности (f16).",
+    "Запрещённых формулировок (гарантия списания, ЕДВ гарантированно защищена, автомобиль автоматически защищён, госпошлина 300 руб действует, инвалид не может обанкротиться) в тексте нет."
+  ],
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "text_chars": 7498,
+  "length_status": "ok",
+  "length_kind": "default",
+  "local_spam_top10_share": 0.096,
+  "local_spam_ngram3_repeat": 0.009,
+  "local_lexical_diversity": 0.632,
+  "local_ai_markers_density": 0.21,
+  "local_ai_markers_total": 2,
+  "local_ai_markers_critical": 0,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 2,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 4,
+  "predicted_spam_pct": 49,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779159123/articles/bankrotstvo-invalida-lgoty-pensiya-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1779159123/articles/bankrotstvo-invalida-lgoty-pensiya-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Wide symmetric photograph down a long colonnaded corridor in a grand official building — marble floors receding into perspective, tall paneled walls flanked by brass wall sconces casting a warm even glow, cool natural daylight filtering in from high arched windows above. Center of frame: a low marble pedestal holding a pair of brass scales of justice with empty balanced pans, its surface catching a soft highlight. In the immediate foreground on the marble floor: a small dark walnut side table bearing a closed oxblood leather portfolio and a polished round brass seal resting beside a folded formal document tied with cord. Camera: dead-center symmetric, eye-level, slight wide-angle drawing architectural lines into vanishing point. Lighting: restrained cool daylight from above blended with warm amber brass-sconce fill. Palette: cool whites and pale grey marble, warm brass, deep oxblood accents. Mood: ceremonial protection, rights upheld, formal process with quiet dignity.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-05-19T02:52:04Z",
+  "date_published": "2026-05-19",
+  "date_modified": "2026-05-19",
+  "ready_for_review": true,
+  "ready_at": "2026-05-19T02:52:04Z",
+  "publication_target": "telegram_review"
+}

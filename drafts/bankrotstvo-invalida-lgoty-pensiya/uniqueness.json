@@ -1,0 +1,53 @@
+{
+  "slug": "bankrotstvo-invalida-lgoty-pensiya",
+  "passed": true,
+  "scores": {
+    "structure_overlap": 0.0,
+    "thesis_similarity": 0.05,
+    "cta_overlap": 0.08
+  },
+  "similar_articles": [
+    {
+      "slug": "bankrotstvo-pensionera",
+      "category": "fiz",
+      "similarity": 0.12,
+      "note": "Общий контекст (банкротство гражданина, защита дохода), но разные углы: пенсионер vs инвалид. Нет совпадений по H2, концепциям, CTA."
+    }
+  ],
+  "conflicts": [],
+  "thresholds": {
+    "structure_overlap": 0.4,
+    "thesis_similarity": 0.3,
+    "cta_overlap": 0.2
+  },
+  "analysis_details": {
+    "h2_analysis": {
+      "new_article_h2_count": 6,
+      "compared_articles_h2_avg": 8.4,
+      "exact_matches": 0,
+      "h2_overlap_percent": 0.0,
+      "passed": true
+    },
+    "thesis_analysis": {
+      "key_concepts_unique_to_new": [
+        "программа реабилитации (ИПРА)",
+        "технические средства реабилитации",
+        "инвалидность (группы 1, 2, 3)",
+        "транспортный иммунитет",
+        "ежемесячная денежная выплата (ЕДВ)"
+      ],
+      "trigram_overlap_with_peers": "0-5%",
+      "passed": true
+    },
+    "cta_analysis": {
+      "new_article_cta": "Оставить заявку на проверку списания долгов инвалида",
+      "exact_match_in_published": false,
+      "similar_cta_count": 0,
+      "passed": true
+    },
+    "semantic_angle": "защита для инвалидов конкретно (группы, ИПРА, спецтранспорт, льготы ЖКХ при инвалидности)",
+    "comparison_method": "структурный анализ H2 + концептуальный анализ триграмм + проверка уникальных фраз. OpenAI API отсутствует, использован детерминированный анализ текста."
+  },
+  "recommendation": "ok",
+  "note": "Статья полностью уникальна на уровне смысла. Несмотря на принадлежность к fiz категории, не совпадает с опубликованными статьями ни по структуре, ни по концепциям, ни по CTA. Угол подачи (инвалид конкретно, с акцентом на группы и ИПРА) отличается от других статей о банкротстве граждан. Вектор записан в embeddings.sqlite (published=0)."
+}
