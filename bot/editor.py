@@ -83,30 +83,29 @@ def _check_claude_available() -> str | None:
     return None
 
 
-def _build_prompt(*, slug: str, current_version_path: Path, next_version_path: Path,
-                  edit_text: str) -> str:
+def _build_prompt(*, slug: str, target_path: Path, edit_text: str) -> str:
     """
     Формирует промпт для Claude Code.
 
-    Используем относительные пути от PROJECT_ROOT - так модель легче ориентируется.
+    Файл уже скопирован Python-кодом в target_path. Claude только Edit-ит diff,
+    не переписывая весь файл (экономия ~4 мин на 41 КБ HTML).
     """
-    rel_current = current_version_path.relative_to(PROJECT_ROOT).as_posix()
-    rel_next = next_version_path.relative_to(PROJECT_ROOT).as_posix()
+    rel_target = target_path.relative_to(PROJECT_ROOT).as_posix()
 
     return f"""Прими правку заказчика к статье. Работай быстро и минимально.
 
 ВХОД:
-1. Текущая статья: `{rel_current}` (стиль и структура УЖЕ ОК, не трогай)
+1. Файл статьи: `{rel_target}` (уже скопирован, редактируй его на месте)
 2. Правка от заказчика: «{edit_text}»
 
 ЗАДАЧА (СТРОГО в этом порядке):
-1. Прочитай `{rel_current}` (один Read).
-2. Скопируй её целиком, измени ТОЛЬКО то, что просит заказчик. Сохрани как `{rel_next}` (один Write).
+1. Прочитай `{rel_target}` (один Read).
+2. Примени ТОЛЬКО то, что просит заказчик, через Edit (точечная замена фрагментов). НЕ используй Write - файл уже готов, меняй только нужные куски.
 3. Напиши CHANGES_SUMMARY (1-3 пункта).
 
-НЕ читай никаких стайл-гайдов, .claude/agents/ или других файлов — стиль уже соблюдён в исходнике, твоя задача только применить точечную правку.
+НЕ читай никаких стайл-гайдов, .claude/agents/ или других файлов.
 
-СОХРАНИ нетронутыми (если правка их не касается):
+НЕ ТРОГАЙ (если правка их не касается):
 - HTML-структуру (header, footer, breadcrumbs, schema.org JSON-LD)
 - CTA-блоки (article__cta--hero, article__cta-inline)
 - Дисклеймер с копирайтом
@@ -205,10 +204,19 @@ def apply_edit(*, slug: str, current_version: str, versions: list[str],
     new_version = _next_version(versions)
     next_path = versions_dir / f"v{new_version}.html"
 
+    # Pre-copy: Python копирует файл, Claude только Edit-ит diff.
+    # Экономит ~4 мин: модель не переписывает 41 КБ HTML через Write.
+    try:
+        shutil.copy2(current_path, next_path)
+    except OSError as e:
+        return EditResult(
+            False, None, None, "", None,
+            f"Не удалось скопировать {current_path.name} → {next_path.name}: {e}",
+        )
+
     prompt = _build_prompt(
         slug=slug,
-        current_version_path=current_path,
-        next_version_path=next_path,
+        target_path=next_path,
         edit_text=edit_text,
     )
 
@@ -223,9 +231,8 @@ def apply_edit(*, slug: str, current_version: str, versions: list[str],
         # sonnet в 3-5 раз быстрее. Снижает время правки с 8-12 мин до 2-3 мин.
         # Фикс 16.05.2026.
         "--model", "sonnet",
-        # Ограничение turns снижено 19.05.2026: правка без чтения стайл-гайдов
-        # укладывается в 3-8 turns (Read + Write + summary). 15 — запас.
-        "--max-turns", "15",
+        # Pre-copy + Edit: 3-4 turns (Read + 1-2 Edit + summary). 8 — запас.
+        "--max-turns", "8",
     ]
 
     # Готовим изолированный env с собственным HOME — иначе edit-claude конфликтует
@@ -249,14 +256,17 @@ def apply_edit(*, slug: str, current_version: str, versions: list[str],
             env=edit_env,
         )
     except subprocess.TimeoutExpired:
+        next_path.unlink(missing_ok=True)
         return EditResult(
             False, None, None, "", None,
             f"Claude Code не ответил за {timeout_sec} сек.",
         )
     except OSError as e:
+        next_path.unlink(missing_ok=True)
         return EditResult(False, None, None, "", None, f"Не удалось запустить claude: {e}")
 
     if proc.returncode != 0:
+        next_path.unlink(missing_ok=True)
         stderr_short = (proc.stderr or "").strip().splitlines()[-5:]
         return EditResult(
             False, None, None, "", None,
@@ -273,13 +283,19 @@ def apply_edit(*, slug: str, current_version: str, versions: list[str],
     else:
         result_text = data.get("result") or data.get("content") or proc.stdout.strip()
 
-    # Проверяем что новый файл реально создан.
+    # Проверяем что файл был изменён (pre-copy гарантирует его существование,
+    # но Claude мог не применить Edit - тогда файл идентичен исходнику).
     if not next_path.exists():
-        # Возможно Claude сохранил по другому пути или забыл сохранить.
         return EditResult(
             False, None, None, "", None,
-            f"Claude не создал файл {next_path.name}. "
+            f"Файл {next_path.name} пропал после вызова Claude. "
             f"Ответ: {result_text[:200]}",
+        )
+    if next_path.read_bytes() == current_path.read_bytes():
+        next_path.unlink(missing_ok=True)
+        return EditResult(
+            False, None, None, "", None,
+            f"Claude не внёс изменений в файл. Ответ: {result_text[:200]}",
         )
 
     summary = _parse_summary(result_text)
