@@ -1,0 +1,39 @@
+{
+  "slug": "dokazatelstva-dobrosovestnosti-direktora-subsidiarka",
+  "category": null,
+  "started_at": "2026-05-19T15:22:13",
+  "finished_at": null,
+  "total_duration_sec": null,
+  "current_iteration": 2,
+  "events": [
+    {
+      "ts": "2026-05-19T15:22:13",
+      "agent": "4-writer",
+      "event": "iteration_returned",
+      "iteration": 2,
+      "reason": "quality_gate: length_too_long (8864 > 8000), url_whitelist_violation (CONS_DOC_LAW_39331, CONS_DOC_LAW_5142)",
+      "recommendation": "reduce_length: сократить с 8864 до 6500-7500 знаков; fix_urls: убрать <a href> у consultant.ru URL не из whitelist (оставить только текст)"
+    },
+    {
+      "ts": "2026-05-19T15:28:28",
+      "agent": "scheduler",
+      "event": "slot_started",
+      "iteration": 2,
+      "category": "yur",
+      "today_count": 6,
+      "limit": 10,
+      "write_article_duration_sec": 2395.1
+    },
+    {
+      "ts": "2026-05-19T15:28:28",
+      "agent": "quality_gate",
+      "event": "passed",
+      "iteration": 2,
+      "blockers": [],
+      "warnings": [
+        "Автофикс применил правки: сокращения=0, пунктуация=0"
+      ],
+      "recommendations": []
+    }
+  ]
+}

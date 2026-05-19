@@ -1,0 +1,97 @@
+{
+  "slug": "dokazatelstva-dobrosovestnosti-direktora-subsidiarka",
+  "category": "yur",
+  "title": "Доказательства добросовестности директора при субсидиарке",
+  "description": "Какие документы и аргументы помогут директору опровергнуть презумпции по ст. 61.11 закона о банкротстве и избежать субсидиарной ответственности.",
+  "h1": "Как директору доказать добросовестность при субсидиарной ответственности",
+  "lead": "Заявление о субсидиарке приходит через два года после ликвидации фирмы — и руководитель оказывается ответчиком по умолчанию. Разбираем, какие пять презумпций по п. 2 ст. 61.11 включают вину автоматически и чем каждую опровергнуть.",
+  "topic_action": "защиту директора от субсидиарной ответственности",
+  "offer": "raschet-stoimosti",
+  "article_type": "C",
+  "funnel_stage": "warm",
+  "breadcrumb_current": "Доказательства добросовестности директора",
+  "og_image": "/assets/articles/dokazatelstva-dobrosovestnosti-direktora-subsidiarka.jpg",
+  "main_keyword": "опровержение презумпций субсидиарной ответственности директором",
+  "secondary_keywords": [
+    "как опровергнуть презумпцию субсидиарной ответственности",
+    "доказательства добросовестности при субсидиарке",
+    "антикризисный план директора для суда",
+    "документы для защиты от субсидиарной ответственности",
+    "пункт 10 статьи 61.11 закона о банкротстве",
+    "бремя доказывания субсидиарная ответственность КДЛ",
+    "добросовестность разумность директора банкротство",
+    "непередача документов управляющему субсидиарная ответственность"
+  ],
+  "internal_links": [
+    "/articles/yur/kontroliruyushchee-dolzhnika-lico-kdl",
+    "/articles/yur/osparivanie-sdelok-pri-bankrotstve",
+    "/articles/yur/subsidiarka-direktora-kak-zashchititsya",
+    "/articles/yur/prava-direktora-v-processe-bankrotstva"
+  ],
+  "external_links": [],
+  "faq": [
+    {
+      "question": "Достаточно ли антикризисного плана, чтобы суд отказал в иске?",
+      "answer": "Сам по себе нет. По положению 61.12 план освобождает напрямую. По 61.11 — усиливает позицию, но единственным доказательством не является."
+    },
+    {
+      "question": "Что произойдёт, если документы утрачены из-за пожара или кражи?",
+      "answer": "Автоматически вины не снимает. Нужны справка МЧС, талон МВД или заключение о стихийном бедствии."
+    },
+    {
+      "question": "Можно ли оспорить субсидиарку, если крах наступил из-за санкций?",
+      "answer": "Да. Внешние факторы разрывают причинно-следственную связь. Понадобятся экспертные заключения, переписка, аналитика."
+    },
+    {
+      "question": "Отвечает ли новый директор за нарушения предшественника?",
+      "answer": "Только если не предпринял мер по их устранению. Если предпринял — суд распределит ответственность пропорционально вкладу."
+    },
+    {
+      "question": "Спишется ли долг, если контролёр сам обанкротится?",
+      "answer": "Нет. По п. 5 правила 213.28 это несписываемое обязательство."
+    },
+    {
+      "question": "До какого срока кредиторы вправе подать заявление?",
+      "answer": "Три года с момента, когда заявитель узнал. Предел — десять лет."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все юр-факты сверены с research.json (f1-f15), legislation_status=active, last_verified=2026-05-19",
+    "ПП ВС № 42 от 23.12.2025 и Обзор ВС ноября 2025 не воспроизведены — вне cutoff модели",
+    "Внешние гиперссылки на consultant.ru исключены из body.html по требованию задачи (итерация 2)",
+    "ПП ВС № 53 от 21.12.2017 упомянут текстом без URL — cons_doc-номер не верифицирован в whitelist"
+  ],
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "text_chars": 6609,
+  "length_status": "ok",
+  "length_kind": "default",
+  "local_spam_top10_share": 0.094,
+  "local_spam_ngram3_repeat": 0.017,
+  "local_lexical_diversity": 0.714,
+  "local_ai_markers_density": 0.58,
+  "local_ai_markers_total": 5,
+  "local_ai_markers_critical": 0,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 2,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 3,
+  "predicted_spam_pct": 42,
+  "predicted_ai_pct": 5,
+  "predicted_uniqueness_pct": 90,
+  "customer_risks": [],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779193686/articles/dokazatelstva-dobrosovestnosti-direktora-subsidiarka-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1779193686/articles/dokazatelstva-dobrosovestnosti-direktora-subsidiarka-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Macro close-up photograph emphasizing surface materials and tactile legal detail. Hero subject: a polished brass scales-of-justice pan tilted slightly, caught in sharp specular highlight, resting on a weathered dark walnut surface. Immediately beside it: a fountain pen laid diagonally across a closed oxblood leather portfolio, a polished round corporate seal pressed onto a closed envelope sealed with dark burgundy wax, and an antique brass padlock with weathered green patina resting on a stack of three compact closed dossiers tied with dark cord. Background: deep walnut grain receding into soft shadow, faint backlit haze on the far edge. Camera: macro lens, very shallow depth of field isolating the brass scales pan in crisp focus with the dossiers and padlock softly blurred behind. Lighting: hard directional contrast — sharp specular highlights on polished brass, soft warm fill on shadow side of the leather. Palette: brass, deep oxblood, charcoal walnut. Mood: defence under scrutiny, documented accountability, weight of evidentiary proof.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-05-19T12:28:07Z",
+  "date_published": "2026-05-19",
+  "date_modified": "2026-05-19",
+  "ready_for_review": true,
+  "ready_at": "2026-05-19T12:28:07Z",
+  "publication_target": "telegram_review"
+}

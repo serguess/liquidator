@@ -1006,6 +1006,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "dokazatelstva-dobrosovestnosti-direktora-subsidiarka",
+      "category": "yur",
+      "title": "Доказательства добросовестности директора при субсидиарке",
+      "added_at": "2026-05-19T15:28:07.824165",
+      "char_count": 6609,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779193686/articles/dokazatelstva-dobrosovestnosti-direktora-subsidiarka-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

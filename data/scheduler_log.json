@@ -4759,5 +4759,59 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-05-19T12:24:37",
+    "category": "fiz",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 2,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "fiz-48",
+    "topic_slug": "dohody-vo-vremya-bankrotstva-fizlica",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "Автофикс применил правки: сокращения=0, пунктуация=0"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "dohody-vo-vremya-bankrotstva-fizlica",
+    "duration_sec": 2060.7,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": " | passed (0 блокеров) |\n| Uniqueness (агент 5) | passed |\n| Factcheck (агент 6) | passed |\n| Итераций writer | 1 (без возвратов) |\n| Обложка | сгенерирована, загружена на Cloudinary |\n| Статус | `ready_for_review: true`, в TG-очереди |\n| Файл | `drafts/dohody-vo-vremya-bankrotstva-fizlica/article.html` |\n\n**Метрики text.ru** (textru_ai_detector / uniqueness / spam) — значения ещё не получены, проставятся после ручной проверки на сайте. Предсказания quality_gate: spam 49%, AI 3%, uniqueness 87%.",
+    "stderr_tail": "",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7725
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]
