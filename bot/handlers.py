@@ -283,35 +283,9 @@ async def on_publish_pressed(query: CallbackQuery):
     title = review.get("title", slug)
     current_version = review.get("current_version", "2.0")
 
-    # Если scheduler сейчас пишет статью — публикация немедленно сделала бы
-    # git push, что триггерит redeploy Cloud Apps и убьёт работающий
-    # контейнер вместе с ещё-не-закоммиченным draft'ом текущего слота.
-    # Поэтому ставим в очередь, queue_processor исполнит после снятия lock.
-    scheduler_active, lock_age = action_queue.is_scheduler_active()
-    if scheduler_active:
-        eta_sec = action_queue.estimate_eta_sec()
-        eta_min = max(1, (eta_sec + 59) // 60)
-        action_queue.enqueue_publish(
-            slug=slug, version=current_version,
-            chat_id=query.message.chat.id,
-            reply_to_message_id=query.message.message_id,
-        )
-        queue_pos = sum(
-            1 for item in action_queue.peek()
-            if item.get("action") == "publish"
-        )
-        await query.answer(
-            f"📋 В очереди (#{queue_pos}). Опубликую через ~{eta_min} мин.",
-            show_alert=True,
-        )
-        await query.message.answer(
-            f"📋 <b>«{title}»</b> поставлено в очередь на публикацию.\n\n"
-            f"Сейчас scheduler пишет другую статью (идёт уже {int(lock_age)//60} мин). "
-            f"Опубликую как только он закончит — примерно через {eta_min} мин.\n\n"
-            f"Позиция в очереди: #{queue_pos}",
-            parse_mode="HTML",
-        )
-        return
+    # Очередь по scheduler_active убрана 19 мая 2026 (миграция на Timeweb):
+    # scheduler в отдельном systemd-юните, git push его не убивает.
+    # Публикуем сразу — мгновенный отклик через test.pravo.shop (локальные файлы).
 
     await query.answer()
     progress_msg = await query.message.answer(
