@@ -941,6 +941,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "obespechitelnye-mery-arest-scheta",
+      "category": "vzysk",
+      "title": "Арест счёта ответчика: как подать ходатайство об обеспечении иска",
+      "added_at": "2026-05-19T03:23:51.641662",
+      "char_count": 7983,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779150230/articles/obespechitelnye-mery-arest-scheta-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

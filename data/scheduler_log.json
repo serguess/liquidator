@@ -4504,5 +4504,52 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-05-19T00:24:02",
+    "category": "yur",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "mode": "new",
+    "topic_id": "yur-40",
+    "topic_slug": "vzyskanie-ubytkov-s-direktora-bankrotstvo",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "Автофикс применил правки: сокращения=0, пунктуация=0",
+        "internal_links_autofixed: 3 ссылок (например /articles/yur/subsidiarka-direktora-kak-zashchititsya.html→/articles/yur/subsidiarka-direktora-kak-zashchititsya; /articles/yur/osparivanie-sdelok-pri-bankrotstve.html→/articles/yur/osparivanie-sdelok-pri-bankrotstve; /articles/vzysk/vzyskanie-ubytkov-upushchennaya-vygoda.html→/articles/vzysk/vzyskanie-ubytkov-upushchennaya-vygoda)"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "vzyskanie-ubytkov-s-direktora-bankrotstvo",
+    "duration_sec": 2353.5,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": ", но под hard cap 8 000)\n- **Quality gate:** `passed: true`, нет блокеров\n- **Uniqueness (агент 5):** passed\n- **Factcheck (агент 6):** passed\n- **Режим:** `ready_for_review: true` — статья в TG-очереди на ревью заказчика\n- **Файл:** `drafts/vzyskanie-ubytkov-s-direktora-bankrotstvo/article.html`\n- **Обложка:** сгенерирована, template_id=28\n\n**Метрики text.ru:** `textru_ai_detector`, `textru_uniqueness`, `textru_spam` — не заполнены (проверка text.ru выполняется отдельно через бота после ревью).",
+    "stderr_tail": "",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7909
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]
