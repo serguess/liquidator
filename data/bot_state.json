@@ -1750,7 +1750,7 @@
     "nedostovernyye-svedeniya-kreditoru-otkaz-dolga": {
       "category": "news",
       "title": "Скрыл долги от банка - не списали при банкротстве",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -1758,13 +1758,15 @@
       "tg_message_id": 710,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-18T18:58:19",
-      "last_action_at": "2026-05-18T18:58:19",
+      "last_action_at": "2026-05-19T10:30:29",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://test.pravo.shop/articles/news/nedostovernyye-svedeniya-kreditoru-otkaz-dolga",
       "pending_batch": false,
       "pending_batch_at": "2026-05-18T18:58:19",
-      "batch_sent_at": "2026-05-19T10:01:15"
+      "batch_sent_at": "2026-05-19T10:01:15",
+      "published_at": "2026-05-19T10:30:29",
+      "articles_path": "articles/news/nedostovernyye-svedeniya-kreditoru-otkaz-dolga.html"
     },
     "bankovskie-scheta-pri-bankrotstve": {
       "category": "fiz",
