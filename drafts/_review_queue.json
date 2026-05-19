@@ -980,6 +980,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "alimenty-v-tverdoj-summe",
+      "category": "vzysk",
+      "title": "Алименты в твёрдой денежной сумме: как установить",
+      "added_at": "2026-05-19T10:59:30.928951",
+      "char_count": 7768,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779177569/articles/alimenty-v-tverdoj-summe-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

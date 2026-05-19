@@ -4657,5 +4657,61 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-05-19T07:36:37",
+    "category": "yur",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 9,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "yur-41",
+    "topic_slug": "dogovor-arendy-pri-bankrotstve-arendatora",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "forced_pass_at_iter3: блокеры пропущены, статья идёт в TG-очередь с metrics_warning=true. Было: 1 блокеров — spam_risk"
+      ],
+      "recommendations": [
+        "reduce_repetition: разбавить топ-5 частотных лемм местоимениями/перифразом — ['норм', 'месяц', 'соглашен', 'долг', 'банкротств']"
+      ],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "dogovor-arendy-pri-bankrotstve-arendatora",
+    "duration_sec": 2823.2,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "research.json)\n- **Quality gate:** passed (forced_pass_at_iter3, metrics_warning=true — spam_risk мягкий, все HARD-токены чистые)\n- **Обложка:** шаблон #20 (массивные двери/официальные входы) — сгенерирована и загружена на Cloudinary\n- **Статус:** `ready_for_review=true`, добавлена в TG-очередь (позиция 75)\n- **Файл:** `drafts/dogovor-arendy-pri-bankrotstve-arendatora/article.html`\n\n**Метрики text.ru (предсказанные):**\n- `textru_spam`: ~60%\n- `textru_ai_detector`: ~3%\n- `textru_uniqueness`: ~87%",
+    "stderr_tail": "",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7964
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]
