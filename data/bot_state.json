@@ -1729,7 +1729,7 @@
     "vzyskanie-dolga-s-ip": {
       "category": "vzysk",
       "title": "Взыскание долга с ИП: судебный и внесудебный порядок",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -1737,13 +1737,15 @@
       "tg_message_id": 708,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-18T18:03:42",
-      "last_action_at": "2026-05-18T18:03:42",
+      "last_action_at": "2026-05-19T10:29:06",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://test.pravo.shop/articles/vzysk/vzyskanie-dolga-s-ip",
       "pending_batch": false,
       "pending_batch_at": "2026-05-18T18:03:42",
-      "batch_sent_at": "2026-05-19T10:01:13"
+      "batch_sent_at": "2026-05-19T10:01:13",
+      "published_at": "2026-05-19T10:29:06",
+      "articles_path": "articles/vzysk/vzyskanie-dolga-s-ip.html"
     },
     "nedostovernyye-svedeniya-kreditoru-otkaz-dolga": {
       "category": "news",

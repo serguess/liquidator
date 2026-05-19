@@ -2,6 +2,19 @@
   "generated": "2026-05-19",
   "articles": [
     {
+      "slug": "vzyskanie-dolga-s-ip",
+      "cat": "vzysk",
+      "catLabel": "Взыскание задолженности",
+      "title": "Взыскание долга с ИП: судебный и внесудебный порядок",
+      "desc": "Как взыскать долг с индивидуального предпринимателя: претензия, арбитражный суд или суд общей юрисдикции, приказное и исковое производство, что делать если ИП закрыт.",
+      "date": "19 мая 2026",
+      "dateIso": "2026-05-19",
+      "read": "5 мин.",
+      "tone": "b",
+      "img": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779116215/articles/vzyskanie-dolga-s-ip-cover.jpg",
+      "url": "articles/vzysk/vzyskanie-dolga-s-ip"
+    },
+    {
       "slug": "kontroliruyushchee-dolzhnika-lico-kdl",
       "cat": "yur",
       "catLabel": "Банкротство юридических лиц",
