@@ -4867,5 +4867,94 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-05-19T17:12:37",
+    "category": "vzysk",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 4,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "vzysk-32",
+    "topic_slug": "vzyskanie-neosnovatelnogo-obogashcheniya",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "Автофикс применил правки: сокращения=0, пунктуация=0",
+        "internal_links_autofixed: 3 ссылок (например /articles/vzysk/dosudebnaya-pretenziya-obrazec.html→/articles/vzysk/dosudebnaya-pretenziya-obrazec; /articles/vzysk/isk-o-vzyskanii-dolga-v-sud.html→/articles/vzysk/isk-o-vzyskanii-dolga-v-sud; /articles/vzysk/srok-iskovoj-davnosti-po-kreditu.html→/articles/vzysk/srok-iskovoj-davnosti-po-kreditu)"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "vzyskanie-neosnovatelnogo-obogashcheniya",
+    "duration_sec": 2570.4,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "трики text.ru:**\n- `textru_spam`: 49%\n- `textru_ai_pct`: 3%\n- `textru_uniqueness`: 87%\n\n**Пайплайн:**\n- Уникальность (агент 5): passed\n- Фактчек (агент 6): passed, все 13 фактов верифицированы по research.json\n- Итераций возврата: 0\n\n**Обложка:** сгенерирована (шаблон #16 — кабинет с латунной лампой), загружена на Cloudinary\n**Файл:** `drafts/vzyskanie-neosnovatelnogo-obogashcheniya/article.html`\n**Статус:** `ready_for_review=true`, добавлена в очередь Telegram-ревью (всего в очереди: 79 статей)",
+    "stderr_tail": "",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7513
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
+  },
+  {
+    "timestamp": "2026-05-19T19:19:43",
+    "category": "news",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 4,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "news-19",
+    "topic_slug": "subsidiarnaya-otvetstvennost-konkursnogo-kreditora-vs",
+    "status": "failed",
+    "slug": "subsidiarnaya-otvetstvennost-konkursnogo-kreditora-vs",
+    "duration_sec": 1212.4,
+    "returncode": 1,
+    "rescued_after_failure": false,
+    "stdout_tail": "You've hit your limit · resets 7:40pm (Europe/Moscow)",
+    "stderr_tail": "",
+    "metrics": null
   }
 ]
