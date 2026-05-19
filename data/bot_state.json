@@ -1862,7 +1862,7 @@
     "dogovor-arendy-pri-bankrotstve-arendatora": {
       "category": "yur",
       "title": "Договор аренды при банкротстве арендатора",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -1870,13 +1870,15 @@
       "tg_message_id": 720,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-19T08:24:22",
-      "last_action_at": "2026-05-19T08:24:22",
+      "last_action_at": "2026-05-19T18:43:52",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://test.pravo.shop/articles/yur/dogovor-arendy-pri-bankrotstve-arendatora",
       "pending_batch": false,
       "pending_batch_at": "2026-05-19T08:24:23",
-      "batch_sent_at": "2026-05-19T10:01:26"
+      "batch_sent_at": "2026-05-19T10:01:26",
+      "published_at": "2026-05-19T18:43:52",
+      "articles_path": "articles/yur/dogovor-arendy-pri-bankrotstve-arendatora.html"
     },
     "alimenty-v-tverdoj-summe": {
       "category": "vzysk",
