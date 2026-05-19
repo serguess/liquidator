@@ -42,7 +42,7 @@ from .fsm_storage import JsonFileStorage
 
 # Как часто проверять очередь на готовность к выполнению.
 # 20s = быстро отреагировать когда scheduler закончил, но не сжигать CPU.
-QUEUE_CHECK_INTERVAL_SEC = 20
+QUEUE_CHECK_INTERVAL_SEC = 2
 
 
 def setup_logging():
@@ -194,8 +194,7 @@ async def _queue_iteration(bot: Bot):
                         f"❌ <b>Не удалось опубликовать «{title}»</b>\n\n"
                         f"После {MAX_PUBLISH_ATTEMPTS} попыток. "
                         f"Последняя ошибка: <code>{(result.error or 'неизвестная')[:500]}</code>\n\n"
-                        "Статья осталась в drafts/. Нажмите ✅ Опубликовать ещё раз "
-                        "если хотите попробовать снова."
+                        "Можно попробовать ещё раз — нажмите ✅ Опубликовать."
                     ),
                     parse_mode="HTML",
                 )

@@ -288,10 +288,7 @@ async def on_publish_pressed(query: CallbackQuery):
     # Публикуем сразу — мгновенный отклик через test.pravo.shop (локальные файлы).
 
     await query.answer()
-    progress_msg = await query.message.answer(
-        "📤 Публикую: генерирую обложку, переношу файлы, обновляю индексы и пушу в репо…\n"
-        "Это займёт 30-60 секунд."
-    )
+    progress_msg = await query.message.answer("⏳ Публикую…")
 
     # Тяжёлая операция (вызовы fal.ai + Cloudinary + git push) - в отдельном потоке,
     # чтобы не блокировать polling.
@@ -325,9 +322,7 @@ async def on_publish_pressed(query: CallbackQuery):
     await query.message.answer(
         f"✅ <b>Опубликовано: «{title}»</b>\n\n"
         f"🔗 <a href=\"{result.public_url}\">{result.public_url}</a>"
-        f"{wordstat_line}\n\n"
-        "Статья перенесена в articles/, drafts/ заархивирован, "
-        "articles.json и sitemap.xml обновлены, изменения запушены в main.",
+        f"{wordstat_line}",
         parse_mode="HTML",
         disable_web_page_preview=False,
     )

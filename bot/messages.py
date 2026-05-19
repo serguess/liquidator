@@ -145,8 +145,7 @@ def published(*, title: str, public_url: str) -> str:
     return (
         f"✅ <b>Опубликовано</b>\n\n"
         f"{html.escape(title)}\n"
-        f"🔗 <a href=\"{html.escape(public_url)}\">{html.escape(public_url)}</a>\n\n"
-        "Запросы на индексацию отправлены в Яндекс."
+        f"🔗 <a href=\"{html.escape(public_url)}\">{html.escape(public_url)}</a>"
     )
 
 
