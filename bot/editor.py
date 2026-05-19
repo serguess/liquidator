@@ -23,6 +23,7 @@ import os
 import re
 import shutil
 import subprocess
+import threading
 from pathlib import Path
 from typing import NamedTuple
 
@@ -92,41 +93,32 @@ def _build_prompt(*, slug: str, current_version_path: Path, next_version_path: P
     rel_current = current_version_path.relative_to(PROJECT_ROOT).as_posix()
     rel_next = next_version_path.relative_to(PROJECT_ROOT).as_posix()
 
-    return f"""Тебе нужно применить правку заказчика к статье и сохранить новую версию.
+    return f"""Прими правку заказчика к статье. Работай быстро и минимально.
 
 ВХОД:
-1. Текущая статья (HTML с шапкой/футером): `{rel_current}`
-2. Стайл-гайды: `.claude/style/anti-ai-style.md`, `.claude/style/yandex-quality.md`
-3. Правка от заказчика (буквально, как написал):
+1. Текущая статья: `{rel_current}` (стиль и структура УЖЕ ОК, не трогай)
+2. Правка от заказчика: «{edit_text}»
 
-«{edit_text}»
+ЗАДАЧА (СТРОГО в этом порядке):
+1. Прочитай `{rel_current}` (один Read).
+2. Скопируй её целиком, измени ТОЛЬКО то, что просит заказчик. Сохрани как `{rel_next}` (один Write).
+3. Напиши CHANGES_SUMMARY (1-3 пункта).
 
-ЗАДАЧА:
-1. Прочитай текущую статью.
-2. Прочитай стайл-гайды (anti-ai-style.md, yandex-quality.md) - чтобы новая версия соответствовала им.
-3. Прочитай `.claude/agents/4-writer.md` для понимания правил голоса, длины, CTA.
-4. Примени правку. Меняй только то, что просит заказчик. Сохраняй:
-   - HTML-структуру (header, footer, breadcrumbs, schema.org JSON-LD)
-   - CTA-блоки (классы article__cta--hero и article__cta-inline) с тем же topic_action
-   - Дисклеймер с копирайтом «Использование материалов сайта возможно только с активной ссылкой на pravo.shop»
-   - Голос «мы» (не «я»)
-   - 2-3 ссылки на закон максимум
-   - Длину тела 6000-7000 знаков (если правка не противоречит)
-5. Сохрани результат как `{rel_next}`. Используй Write tool.
-6. В конце ответа КРАТКО (1-3 пункта, по одной строке каждый) опиши что именно изменено.
-   Этот summary будет показан заказчику в Telegram, поэтому пиши по-человечески, без жаргона.
-   Формат строго:
+НЕ читай никаких стайл-гайдов, .claude/agents/ или других файлов — стиль уже соблюдён в исходнике, твоя задача только применить точечную правку.
+
+СОХРАНИ нетронутыми (если правка их не касается):
+- HTML-структуру (header, footer, breadcrumbs, schema.org JSON-LD)
+- CTA-блоки (article__cta--hero, article__cta-inline)
+- Дисклеймер с копирайтом
+- URL, slug, @id
+
+Формат summary:
 
 CHANGES_SUMMARY:
 - пункт 1
 - пункт 2
 
-ВАЖНО:
-- Не меняй URL, slug, schema.org @id, breadcrumbs - только если заказчик прямо просит.
-- Не выдумывай факты. Если правка противоречит фактам в статье - примени как есть, но в summary пометь это «⚠ потеря факта: ...».
-- Не используй длинные тире (—). Только дефис (-) или двоеточие.
-- Кавычки только «ёлочки», внутри „лапки".
-- Никакого Markdown в summary - просто текст с дефисами в начале строк.
+ПИШИ: дефис (-) вместо длинного тире (—). Кавычки «ёлочки». Без Markdown в summary.
 """
 
 
@@ -231,9 +223,9 @@ def apply_edit(*, slug: str, current_version: str, versions: list[str],
         # sonnet в 3-5 раз быстрее. Снижает время правки с 8-12 мин до 2-3 мин.
         # Фикс 16.05.2026.
         "--model", "sonnet",
-        # Ограничение iteration'ов чтобы claude не уходил в долгие циклы анализа.
-        # Правка обычно укладывается в 15-25 turns (read + edit + save).
-        "--max-turns", "40",
+        # Ограничение turns снижено 19.05.2026: правка без чтения стайл-гайдов
+        # укладывается в 3-8 turns (Read + Write + summary). 15 — запас.
+        "--max-turns", "15",
     ]
 
     # Готовим изолированный env с собственным HOME — иначе edit-claude конфликтует
@@ -293,11 +285,18 @@ def apply_edit(*, slug: str, current_version: str, versions: list[str],
     summary = _parse_summary(result_text)
     char_count = _count_html_chars(next_path)
 
-    # Коммитим новую версию в git, чтобы Cloud Apps (сайт pravo.shop)
-    # подхватила её при redeploy. До этого fix-а 13.05.2026 versions/v*.html
-    # оставались untracked на VPS, и превью-роут показывал устаревший v2.0
-    # (кейс: правка про отмену госпошлины 300 руб не доходила до заказчика).
-    _git_publish_new_version(slug, new_version, next_path)
+    # Git push в ФОНЕ (с 19.05.2026): заказчик получает сообщение «версия готова»
+    # сразу после claude, не ждёт сетевых git-операций (экономия 1-3 сек).
+    # На Timeweb test.pravo.shop отдаёт versions/v*.html сразу из local FS — git
+    # нужен только для бэкапа + sync с Cloud Apps (всё фоном).
+    # daemon=True: если бот рестартнётся, thread прерывается; в этом случае
+    # untracked файл подхватится следующим pull --rebase --autostash от scheduler.
+    threading.Thread(
+        target=_git_publish_new_version,
+        args=(slug, new_version, next_path),
+        daemon=True,
+        name=f"git-push-edit-{slug}-v{new_version}",
+    ).start()
 
     return EditResult(
         success=True,

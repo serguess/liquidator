@@ -28,6 +28,7 @@ import os
 import re
 import shutil
 import subprocess
+import threading
 import time
 from dataclasses import dataclass
 from datetime import date, datetime
@@ -612,35 +613,41 @@ def publish(slug: str, version: Optional[str] = None) -> PublishResult:
             articles_path=f"articles/{category}/{slug}.html",
         )
 
-        # 8. git commit + push
-        git_result = _git_commit_and_push(slug=slug, category=category)
-        git_pushed = git_result.get("pushed", False)
+        # 8. Git push + индексация в ФОНЕ (с 19.05.2026): на Timeweb test.pravo.shop
+        # отдаёт файлы из local FS сразу, заказчику не надо ждать сетевых git/Yandex
+        # операций (экономия 2-4 сек). На pravo.shop через Cloud Apps попадёт чуть
+        # позже после redeploy webhook — это backup, не критично.
+        # При фейле git push: файл остаётся как untracked на Timeweb, в логе ERROR.
+        # state.published уже выставлен — заказчик видит «опубликовано», файл на
+        # test.pravo.shop работает. Pravo.shop догонит на следующем git pull.
+        def _git_and_indexing_background():
+            try:
+                git_result = _git_commit_and_push(slug=slug, category=category)
+                if not git_result.get("pushed", False):
+                    log.error(
+                        "publisher background git push FAILED for %s: %s",
+                        slug, git_result,
+                    )
+                else:
+                    log.info("publisher background git push OK for %s", slug)
+            except Exception:
+                log.exception("publisher background git push exception for %s", slug)
+            try:
+                _indexnow_ping(public_url)
+            except Exception:
+                log.exception("publisher background IndexNow ping exception for %s", slug)
+            try:
+                _yandex_sitemap_ping()
+            except Exception:
+                log.exception("publisher background Yandex sitemap ping exception for %s", slug)
 
-        if not git_pushed:
-            # Откат локальных изменений (атомарность):
-            # вернуть articles/, articles.json, sitemap.xml, восстановить drafts/.
-            log.warning("git push не удался: %s. Откатываю локальные изменения.", git_result)
-            _rollback(
-                target_path=target_path, target_existed=target_existed, target_backup=target_backup,
-                articles_json_backup=articles_json_backup, sitemap_backup=sitemap_backup,
-                drafts_path=drafts_path, drafts_archive_path=drafts_archive_path,
-            )
-            # state бота тоже откатываем на pending_review
-            state.set_status(
-                slug, "pending_review",
-                published_url=None, published_at=None, articles_path=None,
-            )
-            return PublishResult(
-                success=False, slug=slug,
-                error=f"git push не удался: {git_result.get('reason')} {git_result.get('stderr', '')}",
-                cover_url=cover_url,
-            )
+        threading.Thread(
+            target=_git_and_indexing_background,
+            daemon=True,
+            name=f"git-push-publish-{slug}",
+        ).start()
 
-        # 9. IndexNow ping и sitemap ping (не критично, ошибка не отменяет публикацию)
-        _indexnow_ping(public_url)
-        _yandex_sitemap_ping()
-
-        log.info("Опубликовано: %s → %s", slug, public_url)
+        log.info("Опубликовано: %s → %s (git/ping в фоне)", slug, public_url)
         return PublishResult(
             success=True, slug=slug,
             public_url=public_url, cover_url=cover_url, git_pushed=True,
