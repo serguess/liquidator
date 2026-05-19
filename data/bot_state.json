@@ -1708,7 +1708,7 @@
     "kontroliruyushchee-dolzhnika-lico-kdl": {
       "category": "yur",
       "title": "Контролирующее должника лицо (КДЛ): кто несёт субсидиарку",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -1716,13 +1716,15 @@
       "tg_message_id": 706,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-18T15:36:40",
-      "last_action_at": "2026-05-18T15:36:40",
+      "last_action_at": "2026-05-19T10:25:07",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://test.pravo.shop/articles/yur/kontroliruyushchee-dolzhnika-lico-kdl",
       "pending_batch": false,
       "pending_batch_at": "2026-05-18T15:36:40",
-      "batch_sent_at": "2026-05-19T10:01:11"
+      "batch_sent_at": "2026-05-19T10:01:11",
+      "published_at": "2026-05-19T10:25:07",
+      "articles_path": "articles/yur/kontroliruyushchee-dolzhnika-lico-kdl.html"
     },
     "vzyskanie-dolga-s-ip": {
       "category": "vzysk",
