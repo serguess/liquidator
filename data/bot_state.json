@@ -1799,7 +1799,7 @@
     "vzyskanie-ubytkov-s-direktora-bankrotstvo": {
       "category": "yur",
       "title": "Взыскание убытков с директора при банкротстве",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -1807,13 +1807,15 @@
       "tg_message_id": 714,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-19T01:03:22",
-      "last_action_at": "2026-05-19T01:03:22",
+      "last_action_at": "2026-05-19T18:37:50",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://test.pravo.shop/articles/yur/vzyskanie-ubytkov-s-direktora-bankrotstvo",
       "pending_batch": false,
       "pending_batch_at": "2026-05-19T01:03:22",
-      "batch_sent_at": "2026-05-19T10:01:19"
+      "batch_sent_at": "2026-05-19T10:01:19",
+      "published_at": "2026-05-19T18:37:50",
+      "articles_path": "articles/yur/vzyskanie-ubytkov-s-direktora-bankrotstvo.html"
     },
     "obespechitelnye-mery-arest-scheta": {
       "category": "vzysk",
@@ -1871,6 +1873,78 @@
       "pending_batch": false,
       "pending_batch_at": "2026-05-19T08:24:23",
       "batch_sent_at": "2026-05-19T10:01:26"
+    },
+    "alimenty-v-tverdoj-summe": {
+      "category": "vzysk",
+      "title": "Алименты в твёрдой денежной сумме: как установить",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-05-19T11:00:07",
+      "last_action_at": "2026-05-19T11:00:07",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-05-19T11:00:07"
+    },
+    "dohody-vo-vremya-bankrotstva-fizlica": {
+      "category": "fiz",
+      "title": "Доходы при банкротстве физлица: что остаётся должнику",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-05-19T12:59:07",
+      "last_action_at": "2026-05-19T12:59:07",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-05-19T12:59:07"
+    },
+    "dokazatelstva-dobrosovestnosti-direktora-subsidiarka": {
+      "category": "yur",
+      "title": "Доказательства добросовестности директора при субсидиарке",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-05-19T15:29:08",
+      "last_action_at": "2026-05-19T15:29:08",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-05-19T15:29:08"
+    },
+    "vzyskanie-neosnovatelnogo-obogashcheniya": {
+      "category": "vzysk",
+      "title": "Взыскание неосновательного обогащения: иск, доказательства, суд",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-05-19T17:56:09",
+      "last_action_at": "2026-05-19T17:56:09",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-05-19T17:56:09"
     }
   },
   "pending_actions": [],
