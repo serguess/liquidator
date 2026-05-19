@@ -89,6 +89,19 @@ SHORT_SENTENCES_MIN_ABSOLUTE = 12
 # Cap ≤9 ловит «гладкий ChatGPT-стиль».
 LONG_SENTENCES_MAX_ABSOLUTE = 9
 
+# Hard-блок top10_share (главный драйвер text.ru spam). Калибровка 19 мая 2026
+# по 17 свежим статьям: top10_share=0.097 в среднем → spam 52%, ни одна не в
+# целевом коридоре ≤50%. Корреляция top10_share↔spam: 0.075→48%, 0.085→50%,
+# 0.090→52%, 0.100→54%. Чтобы стабильно ≤50%, нужен writer-loop до ≤0.085 (с
+# буфером под inject_boilerplate). Без жёсткого блокера Опус пишет «spam 49%»
+# в собственном логе и сохраняет 0.099 как passed — Pass C игнорируется.
+# На iter=1 порог 0.090 (даёт writer'у точечный возврат), на iter=2 — 0.095
+# (даём ещё одну попытку), на iter=3 — forced_pass через MAX_RETRY_COUNT.
+TOP10_SHARE_BLOCK_ITER1 = 0.090
+TOP10_SHARE_BLOCK_ITER2 = 0.095
+TOP1_COUNT_BLOCK_ITER1 = 10   # эталон 8, целевой ≤9, ≥10 → spam ≥51%
+TOP1_COUNT_BLOCK_ITER2 = 11
+
 
 @dataclass
 class GateResult:
@@ -543,10 +556,66 @@ def _run(path: Path, iteration_override: int | None = None) -> GateResult:
                 )
                 result.recommendations = [r for r in result.recommendations if not r.startswith("reduce_length")]
 
+    # 7.4. Hard-блок top10_share на iter=1 и iter=2 (новое, 19 мая 2026).
+    # Опус систематически сохраняет статьи с top10_share=0.094-0.108 как
+    # passed=True, прогнозируя в логе «spam 49%» и игнорируя Pass C. Без
+    # явного возврата writer'а на rewrite Pass C-loop не выполняется.
+    # На iter=3 logically не срабатывает: дальше форсированный pass (блок 7.7).
+    if qc_rep.spam and result.retry_count < MAX_RETRY_COUNT:
+        top10 = qc_rep.spam.top10_share
+        top1 = qc_rep.spam.top1_count
+        top1_lemma = qc_rep.spam.top10_words[0][0] if qc_rep.spam.top10_words else "—"
+
+        # Порог зависит от номера итерации: iter1 строже, iter2 мягче (но всё ещё блок)
+        share_cap = TOP10_SHARE_BLOCK_ITER1 if result.retry_count <= 1 else TOP10_SHARE_BLOCK_ITER2
+        top1_cap = TOP1_COUNT_BLOCK_ITER1 if result.retry_count <= 1 else TOP1_COUNT_BLOCK_ITER2
+
+        # Имя блокера такое же как у risk_flags ("spam_risk"), чтобы попасть под
+        # soft_pass логику 7.5 на iter≥2 если каким-то чудом подравняется к
+        # абсолютам. На iter=1 soft_pass не работает (retry_count<2) — это нам и нужно.
+        if top10 > share_cap:
+            # Имя "spam_top10_block" (не "spam_risk") — чтобы soft_pass из 7.5
+            # его НЕ убирал на iter≥2. Это hard-возврат writer'у.
+            result.blockers.append(
+                f"spam_top10_block: top10_share={top10:.3f} > {share_cap:.3f} "
+                f"на iter={result.retry_count} (цель ≤0.085 для spam ≤50%)"
+            )
+            # Конкретный diff-task (заменить N вхождений top-1 леммы) — лучше
+            # чем «перепиши с нуля». Subagent prompt-эксперт: writer iter2 не
+            # плодит новые проблемы, фиксит ровно одну.
+            replacements_needed = max(3, top1 - 6)  # из 10 убрать до ~6 → 4 замены
+            result.recommendations.append(
+                f"reduce_top1_lemma: лемма «{top1_lemma}» = {top1} вхождений. "
+                f"Замени МИНИМУМ {replacements_needed} вхождений на варианты из "
+                f".claude/style/category-periph.md (блок текущей категории), "
+                f"либо на синонимы из «Запретные тематические повторы» в "
+                f".claude/agents/4-writer.md. ВАЖНО: правь только эту лемму, "
+                f"не переписывай остальной текст. После правки прогони "
+                f"quality_checks ещё раз — цель top10_share ≤ 0.085."
+            )
+
+        if top1 > top1_cap:
+            # top1 cap может срабатывать ОТДЕЛЬНО от top10_share (бывает редко,
+            # но возможно: top1=12, остальные топы маленькие → top10_share ниже).
+            # Добавляем отдельный блокер если ещё не добавили spam_top10_block выше.
+            already_blocked = any(b.startswith("spam_top10_block") for b in result.blockers)
+            if not already_blocked:
+                result.blockers.append(
+                    f"spam_top10_block: top1_count={top1} > {top1_cap} "
+                    f"(лемма «{top1_lemma}»), цель ≤9"
+                )
+                result.recommendations.append(
+                    f"reduce_top1_lemma: лемма «{top1_lemma}» = {top1} вхождений > cap {top1_cap}. "
+                    f"Замени {top1 - 7} вхождений на ladder из category-periph.md."
+                )
+
     # 7.5. Soft-pass на spam_risk при iter≥2 если все метрики в коридоре
     # (top1≤14, top10_share≤0.12, ngram3≤0.04, lex_div≥0.55) и нет targeted_tokens.
     # Логика: на 2-й итерации не возвращать writer'а ради ratio-метрик, если
     # абсолютные cap'ы и токены в порядке. Иначе цикл стремится к перфекционизму.
+    # ВАЖНО (19 мая): этот soft_pass НЕ срабатывает для нового блока 7.4
+    # (top10_share > 0.090 / top1 > 10), т.к. условие in_corridor требует
+    # top10_share ≤ 0.12 (cap 7.4 на iter2 уже 0.095, гораздо строже).
     if result.retry_count >= 2 and qc_rep.spam:
         in_corridor = (
             qc_rep.spam.top1_count <= 14
