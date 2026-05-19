@@ -5004,5 +5004,59 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-05-19T22:00:04",
+    "category": "fiz",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 1,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "fiz-49",
+    "topic_slug": "bankrotstvo-pri-potrebitelskom-kredite",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "Автофикс применил правки: сокращения=0, пунктуация=0"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "bankrotstvo-pri-potrebitelskom-kredite",
+    "duration_sec": 1846.3,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "otrebitelskom-kredite/article.html` |\n\n**Метрики text.ru:** не заполнены автоматически (textru_ai / textru_uniqueness / textru_spam = null — проверяются вручную через text.ru после публикации).\n\n**Предсказанные метрики (quality_gate):** spam 47%, AI 3%, uniqueness 90%.\n\n**Замечание по конвейеру:** агент 4 (`claude-opus-4-6-20250514`) недоступен — пришлось использовать override `model: sonnet`. Рекомендую обновить модель в `.claude/agents/4-writer.md` на актуальную (например `claude-sonnet-4-6`).",
+    "stderr_tail": "",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7918
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]
