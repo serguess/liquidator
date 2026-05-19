@@ -1841,7 +1841,7 @@
     "bankrotstvo-invalida-lgoty-pensiya": {
       "category": "fiz",
       "title": "Банкротство инвалида: защита пенсии и льгот",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -1849,13 +1849,15 @@
       "tg_message_id": 718,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-19T05:53:24",
-      "last_action_at": "2026-05-19T05:53:24",
+      "last_action_at": "2026-05-19T18:40:53",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://test.pravo.shop/articles/fiz/bankrotstvo-invalida-lgoty-pensiya",
       "pending_batch": false,
       "pending_batch_at": "2026-05-19T05:53:24",
-      "batch_sent_at": "2026-05-19T10:01:24"
+      "batch_sent_at": "2026-05-19T10:01:24",
+      "published_at": "2026-05-19T18:40:53",
+      "articles_path": "articles/fiz/bankrotstvo-invalida-lgoty-pensiya.html"
     },
     "dogovor-arendy-pri-bankrotstve-arendatora": {
       "category": "yur",
