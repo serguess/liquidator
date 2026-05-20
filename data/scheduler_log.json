@@ -5275,5 +5275,59 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-05-20T10:00:08",
+    "category": "vzysk",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 6,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "vzysk-34",
+    "topic_slug": "vzyskanie-sudebnyh-rashodov",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "internal_links_autofixed: 2 ссылок (например /articles/vzysk/isk-o-vzyskanii-dolga-v-sud.html→/articles/vzysk/isk-o-vzyskanii-dolga-v-sud; /articles/vzysk/ispolnitelnyj-list-poluchenie-predyavlenie.html→/articles/vzysk/ispolnitelnyj-list-poluchenie-predyavlenie)"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "vzyskanie-sudebnyh-rashodov",
+    "duration_sec": 1951.2,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "s | ✅ passed (H2-overlap 0.0, similarity 0.0) |\n| Factcheck | ✅ passed |\n| Quality gate | ✅ passed (iter 2, spam снижен с 9.3% до 9.1%) |\n| Обложка | ✅ сгенерирована (template #24, шаблон «весы правосудия») |\n| Файл | `drafts/vzyskanie-sudebnyh-rashodov/article.html` |\n\n**textru_ai_detector / textru_uniqueness / textru_spam:** не проверялись через text.ru (метрики проставляются при публикации).\n\nСтатья добавлена в очередь ревью (`_review_queue.json`, позиция 86). Публикация — через Telegram-бот.",
+    "stderr_tail": "",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7701
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]

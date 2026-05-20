@@ -1,0 +1,90 @@
+{
+  "slug": "zhaloba-na-finansovogo-upravlyayushchego",
+  "category": "fiz",
+  "title": "Жалоба на финансового управляющего: куда подать",
+  "description": "Куда жаловаться на финансового управляющего при банкротстве физлица: суд, Росреестр, СРО. Основания для замены, порядок подачи, реальные шансы на отстранение.",
+  "h1": "Жалоба на финансового управляющего: куда подать и как добиться замены",
+  "lead": "Три канала защиты: арбитражный суд, Росреестр, саморегулируемая организация. Только один из них способен снять специалиста с конкретного дела — суд. Остальные дают штрафы и дисциплинарные санкции.",
+  "topic_action": "проверку действий финансового управляющего",
+  "breadcrumb_current": "Жалоба на финансового управляющего",
+  "og_image": "/assets/articles/zhaloba-na-finansovogo-upravlyayushchego.jpg",
+  "main_keyword": "жалоба на финансового управляющего при банкротстве",
+  "secondary_keywords": [
+    "жалоба на финансового управляющего в Росреестр",
+    "замена финансового управляющего при банкротстве",
+    "как снять финансового управляющего",
+    "отстранение финансового управляющего",
+    "жалоба в СРО на управляющего",
+    "куда жаловаться на финансового управляющего",
+    "основания для замены финансового управляющего"
+  ],
+  "internal_links": [
+    "/articles/fiz/osparivanie-sdelok-fizlica-bankrotstvo.html",
+    "/articles/fiz/kak-vybrat-yurista-po-bankrotstvu.html",
+    "/articles/fiz/chto-nelzya-delat-pered-bankrotstvom-fizlica.html"
+  ],
+  "external_links": [],
+  "faq": [
+    {
+      "question": "Можно ли подать жалобу в суд и в Росреестр одновременно?",
+      "answer": "Да, каналы не конкурируют. Один путь не блокирует другой. Параллельная подача создаёт давление с двух сторон."
+    },
+    {
+      "question": "Что происходит с делом о несостоятельности при смене управляющего?",
+      "answer": "Дело не останавливается. После вывода из производства СРО обязана представить нового кандидата — 7 рабочих дней на это отводит федеральный закон."
+    },
+    {
+      "question": "Обязательно ли нанимать юриста для подачи заявления?",
+      "answer": "Формально нет. Но без профессиональной помощи легко ошибиться в доказательной базе. По нашему опыту, самостоятельные обращения удовлетворяются вдвое реже."
+    },
+    {
+      "question": "Каким образом возмещаются убытки, причинённые управляющим?",
+      "answer": "Через его страховую компанию — обязательное покрытие не менее 10 миллионов рублей в год. Если не хватает — из компенсационного фонда СРО. Нужно судебное решение с подтверждением факта нарушения."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все юр-факты сверены с research.json: сроки, страховка, основания отстранения, разграничение отстранение/освобождение.",
+    "Госпошлина 300 руб для должника-гражданина не используется — соблюдён forbidden_claims из research.",
+    "Штраф 25 000-50 000 руб по ч. 3 ст. 14.13 КоАП и дисквалификация до 3 лет (ч. 3.1) подтверждены research f7.",
+    "Страховка от 10 млн руб/год — ст. 24.1 127-ФЗ, research f12.",
+    "Срок 7 рабочих дней на представление кандидатуры СРО — п. 4 ст. 45 127-ФЗ, research f11.",
+    "Все упоминания норм закона даны без гиперссылок на consultant.ru — только текстовое название документа (по требованию итерации 2)."
+  ],
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "text_chars": 7144,
+  "length_status": "ok",
+  "length_kind": "default",
+  "local_spam_top10_share": 0.092,
+  "local_spam_ngram3_repeat": 0.062,
+  "local_lexical_diversity": 0.658,
+  "local_ai_markers_density": 0.34,
+  "local_ai_markers_total": 3,
+  "local_ai_markers_critical": 0,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 3,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 4,
+  "predicted_spam_pct": 49,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 90,
+  "customer_risks": [],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "spam_risk: 1 флагов (ngram3_repeat_share>0.035 (=0.062)), top-5: ['управляющег', 'дела', 'росреестр', 'производств', 'нарушен']"
+  ],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779271976/articles/zhaloba-na-finansovogo-upravlyayushchego-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1779271976/articles/zhaloba-na-finansovogo-upravlyayushchego-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Photograph of a grand marble staircase inside an official government building, camera positioned low at the base of the stairs looking upward along the ascending stone steps. Weathered white marble treads, oxidized brass handrail catching a cool shaft of daylight from a tall arched window above. At the base of the stairs in the near foreground: a sealed envelope resting flat on the bottom step, and a closed dark leather portfolio leaning upright against the brass newel post. A folded black umbrella lies diagonally on the marble floor beside the first step. Lighting: cool diffused daylight streaming from upper-left windows, long pale shadows crossing the stone treads, subtle warm ambient from wall sconces in the receding background. Materials: weathered white marble, oxidized brass, dark leather. Palette: cool grey-white stone, deep charcoal leather, muted brass, with faint warm undertones in the background shadow. Mood: formal escalation, institutional ascent, weight of procedural stages.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-05-20T10:12:57Z",
+  "date_published": "2026-05-20",
+  "date_modified": "2026-05-20",
+  "ready_for_review": true,
+  "ready_at": "2026-05-20T10:12:57Z",
+  "publication_target": "telegram_review"
+}
