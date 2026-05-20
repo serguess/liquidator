@@ -1110,6 +1110,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "vzyskanie-sudebnyh-rashodov",
+      "category": "vzysk",
+      "title": "Взыскание судебных расходов с проигравшей стороны",
+      "added_at": "2026-05-20T10:32:21.071716",
+      "char_count": 7701,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779262340/articles/vzyskanie-sudebnyh-rashodov-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

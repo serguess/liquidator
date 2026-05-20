@@ -1,0 +1,91 @@
+{
+  "slug": "vzyskanie-sudebnyh-rashodov",
+  "category": "vzysk",
+  "title": "Взыскание судебных расходов с проигравшей стороны",
+  "description": "Как взыскать госпошлину и расходы на представителя с ответчика. Срок подачи заявления - 3 месяца, порядок по ГПК и АПК, критерии разумных пределов.",
+  "h1": "Как взыскать судебные расходы с проигравшей стороны",
+  "lead": "Решение получено, но деньги за юриста и госпошлину пока ваши. Возврат не происходит автоматически - нужно отдельное заявление в строгий срок и с полным пакетом документов.",
+  "topic_action": "взыскание судебных расходов",
+  "breadcrumb_current": "Взыскание судебных расходов",
+  "og_image": "/assets/articles/vzyskanie-sudebnyh-rashodov.jpg",
+  "main_keyword": "взыскание судебных расходов с проигравшей стороны",
+  "secondary_keywords": [
+    "как взыскать судебные расходы",
+    "судебные расходы на представителя",
+    "возмещение судебных издержек",
+    "заявление о взыскании судебных расходов",
+    "срок подачи заявления о взыскании судебных расходов",
+    "разумные пределы расходов на представителя",
+    "госпошлина взыскание с ответчика",
+    "судебные издержки ГПК АПК"
+  ],
+  "internal_links": [
+    "/articles/vzysk/isk-o-vzyskanii-dolga-v-sud.html",
+    "/articles/vzysk/ispolnitelnyj-list-poluchenie-predyavlenie.html"
+  ],
+  "external_links": [],
+  "faq": [
+    {
+      "question": "Уплаченную госпошлину тоже возмещает проигравший - или её можно только вернуть из бюджета?",
+      "answer": "Госпошлина взыскивается с проигравшего в пользу истца - не возвращается из бюджета. При полном удовлетворении - полностью, при частичном - пропорционально. Если истец был освобождён от пошлины, инстанция взыскивает её с ответчика в доход государства."
+    },
+    {
+      "question": "Что будет, если пропустить трёхмесячный срок?",
+      "answer": "Суд вернёт заявление без рассмотрения. Получить компенсацию нельзя - если только не восстановят срок по уважительной причине. Болезнь, госпитализация, форс-мажор - подходят. «Не знал о сроке» - нет."
+    },
+    {
+      "question": "Почему суд снизил мою сумму, хотя ответчик не возражал?",
+      "answer": "Это нарушение. При отсутствии возражений снижение должно быть мотивированным. Немотивированное уменьшение - основание для обжалования. Подавайте частную жалобу (суд общей юрисдикции) или апелляционную (арбитраж) в установленный срок."
+    },
+    {
+      "question": "Можно ли получить компенсацию, если ответчик заплатил добровольно после подачи иска?",
+      "answer": "Да. Право на компенсацию процессуальных трат сохраняется, даже когда производство прекращается. Это прямо разъяснено Пленумом Верховного Суда."
+    },
+    {
+      "question": "Распространяется ли правило о пропорции на компенсацию морального вреда?",
+      "answer": "Нет. По неимущественным требованиям правило пропорционального распределения не действует. Победитель получает возмещение полностью."
+    },
+    {
+      "question": "Сколько времени занимает рассмотрение заявления?",
+      "answer": "Обычно 1-2 месяца. Если сумма не оспаривается и документы в порядке - быстрее. Если ответчик возражает - дольше: будут заседания и дополнительные запросы."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все юр-факты сверены с research.json: ст. 88, 94, 98, 100, 103, 103.1, 104 ГПК РФ; ст. 106, 110, 112 АПК РФ; ПП ВС РФ от 21.01.2016 № 1. Срок ГПК 3 мес (legislation_status: active, last_verified 2026-05-20), срок АПК 6 мес. Исключения из пропорционального распределения по п. 21 ПП ВС.",
+    "Прямые цитаты норм закона не использованы - все формулировки переписаны от safe_phrasing. Конкретные номера статей закона в тексте опущены сознательно, чтобы избежать перегруза токенами ст./ГПК/АПК - использованы устные обозначения («норма действует с октября 2019 года», «Пленум Верховного Суда»).",
+    "Внешние ссылки на consultant.ru не добавлены: research.json source_url=null для всех фактов (документы вне whitelist - не угадываем номера LAW)."
+  ],
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "text_chars": 7701,
+  "length_status": "warn",
+  "length_kind": "default",
+  "local_spam_top10_share": 0.091,
+  "local_spam_ngram3_repeat": 0.026,
+  "local_lexical_diversity": 0.633,
+  "local_ai_markers_density": 0.21,
+  "local_ai_markers_total": 2,
+  "local_ai_markers_critical": 0,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 2,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 3,
+  "predicted_spam_pct": 49,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779262340/articles/vzyskanie-sudebnyh-rashodov-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1779262340/articles/vzyskanie-sudebnyh-rashodov-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Minimalist top-down flat-lay on a clean polished walnut surface with deliberate negative space. Four well-spaced objects arranged with editorial precision: a small brass scales of justice at upper center with empty balanced pans, a closed dark oxblood leather portfolio slightly left of center, a slender fountain pen laid diagonally across the lower right of the portfolio, and a polished round brass seal resting to the right with its face down. Camera: directly overhead, perfectly plumb. Lighting: soft even cool daylight from a high window, casting very subtle directional shadows to the lower right. Palette: warm walnut grain, oxblood leather, polished brass on a neutral cream-tinted background. Mood: clean contemporary legal magazine — precision, procedure, resolution.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-05-20T07:32:21Z",
+  "date_published": "2026-05-20",
+  "date_modified": "2026-05-20",
+  "ready_for_review": true,
+  "ready_at": "2026-05-20T07:32:21Z",
+  "publication_target": "telegram_review"
+}
