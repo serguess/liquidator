@@ -1946,7 +1946,7 @@
     "vzyskanie-neosnovatelnogo-obogashcheniya": {
       "category": "vzysk",
       "title": "Взыскание неосновательного обогащения: иск, доказательства, суд",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -1954,13 +1954,15 @@
       "tg_message_id": 754,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-19T17:56:09",
-      "last_action_at": "2026-05-19T17:56:09",
+      "last_action_at": "2026-05-20T11:16:27",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/vzysk/vzyskanie-neosnovatelnogo-obogashcheniya",
       "pending_batch": false,
       "pending_batch_at": "2026-05-19T17:56:09",
-      "batch_sent_at": "2026-05-20T10:04:54"
+      "batch_sent_at": "2026-05-20T10:04:54",
+      "published_at": "2026-05-20T11:16:27",
+      "articles_path": "articles/vzysk/vzyskanie-neosnovatelnogo-obogashcheniya.html"
     },
     "fns-spisanie-beznadezhnogo-nalogovogo-dolga": {
       "category": "news",
