@@ -1071,6 +1071,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "indeksaciya-prisuzhdyonnyh-summ",
+      "category": "vzysk",
+      "title": "Индексация присуждённых сумм: ст. 208 ГПК и 183 АПК",
+      "added_at": "2026-05-20T03:19:02.710713",
+      "char_count": 7739,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779236341/articles/indeksaciya-prisuzhdyonnyh-summ-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": false,
+        "hard_failed": false
+      }
     }
   ]
 }

@@ -5058,5 +5058,57 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-05-20T00:24:36",
+    "category": "yur",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 2,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "yur-43",
+    "topic_slug": "bankrotstvo-selskohozajstvennoj-organizacii",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "bankrotstvo-selskohozajstvennoj-organizacii",
+    "duration_sec": 2318.2,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "ed факт (3 млн руб.) удалён\n- **Quality gate:** passed, exit 0, blockers: 0\n- **Режим публикации:** ready_for_review=true → ждёт нажатия «Опубликовать» в Telegram-боте\n- **Файл:** `drafts/bankrotstvo-selskohozajstvennoj-organizacii/article.html`\n- **Обложка:** сгенерирована, template_id=7, загружена на Cloudinary\n\n**Метрики text.ru:** textru_ai_detector: n/a (не проверялось через API), textru_uniqueness: n/a, textru_spam: n/a\n\n**Predicted metrics (quality gate):** spam 49%, AI 3%, uniqueness 87%",
+    "stderr_tail": "",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 6967
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]
