@@ -2,6 +2,19 @@
   "generated": "2026-05-20",
   "articles": [
     {
+      "slug": "osparivanie-trebovanij-v-reestre-kreditorov",
+      "cat": "yur",
+      "catLabel": "Банкротство юридических лиц",
+      "title": "Оспаривание требований в реестре кредиторов",
+      "desc": "Кто и в какой срок вправе подать возражения, как исключить фиктивное требование из реестра или изменить его очерёдность - порядок по нормам 71 и 100 закона о банкротстве.",
+      "date": "20 мая 2026",
+      "dateIso": "2026-05-20",
+      "read": "5 мин.",
+      "tone": "b",
+      "img": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779254010/articles/osparivanie-trebovanij-v-reestre-kreditorov-cover.jpg",
+      "url": "articles/yur/osparivanie-trebovanij-v-reestre-kreditorov"
+    },
+    {
       "slug": "zapret-vyezda-za-rubezh-v-bankrotstve",
       "cat": "fiz",
       "catLabel": "Банкротство физических лиц",

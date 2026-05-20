@@ -2072,7 +2072,7 @@
     "osparivanie-trebovanij-v-reestre-kreditorov": {
       "category": "yur",
       "title": "Оспаривание требований в реестре кредиторов",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -2080,13 +2080,15 @@
       "tg_message_id": 766,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-20T08:14:51",
-      "last_action_at": "2026-05-20T08:14:51",
+      "last_action_at": "2026-05-20T11:55:26",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/yur/osparivanie-trebovanij-v-reestre-kreditorov",
       "pending_batch": false,
       "pending_batch_at": "2026-05-20T08:14:51",
-      "batch_sent_at": "2026-05-20T10:05:07"
+      "batch_sent_at": "2026-05-20T10:05:07",
+      "published_at": "2026-05-20T11:55:26",
+      "articles_path": "articles/yur/osparivanie-trebovanij-v-reestre-kreditorov.html"
     },
     "vzyskanie-sudebnyh-rashodov": {
       "category": "vzysk",
