@@ -1,0 +1,31 @@
+{
+  "slug": "konkursnaya-massa-pri-bankrotstve-fizlica",
+  "category": "fiz",
+  "started_at": "2026-05-20T22:36:34",
+  "finished_at": null,
+  "total_duration_sec": null,
+  "current_iteration": 1,
+  "events": [
+    {
+      "ts": "2026-05-20T22:36:34",
+      "agent": "scheduler",
+      "event": "slot_started",
+      "iteration": 1,
+      "today_count": 9,
+      "limit": 10,
+      "write_article_duration_sec": 2171.5
+    },
+    {
+      "ts": "2026-05-20T22:36:34",
+      "agent": "quality_gate",
+      "event": "passed",
+      "iteration": 1,
+      "blockers": [],
+      "warnings": [
+        "Автофикс применил правки: сокращения=2, пунктуация=0",
+        "internal_links_autofixed: 3 ссылок (например /bankrotstvo-fizlica-pri-razvode/→/articles/fiz/bankrotstvo-fizlica-pri-razvode; /bankrotstvo-pri-ipoteke-edinstvennoe-zhilye/→/articles/fiz/bankrotstvo-pri-ipoteke-edinstvennoe-zhilye; /osparivanie-sdelok-fizlica-bankrotstvo/→/articles/fiz/osparivanie-sdelok-fizlica-bankrotstvo)"
+      ],
+      "recommendations": []
+    }
+  ]
+}
