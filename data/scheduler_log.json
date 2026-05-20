@@ -5550,5 +5550,60 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-05-20T22:00:22",
+    "category": "fiz",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 21,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "fiz-52",
+    "topic_slug": "konkursnaya-massa-pri-bankrotstve-fizlica",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "Автофикс применил правки: сокращения=2, пунктуация=0",
+        "internal_links_autofixed: 3 ссылок (например /bankrotstvo-fizlica-pri-razvode/→/articles/fiz/bankrotstvo-fizlica-pri-razvode; /bankrotstvo-pri-ipoteke-edinstvennoe-zhilye/→/articles/fiz/bankrotstvo-pri-ipoteke-edinstvennoe-zhilye; /osparivanie-sdelok-fizlica-bankrotstvo/→/articles/fiz/osparivanie-sdelok-fizlica-bankrotstvo)"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "konkursnaya-massa-pri-bankrotstve-fizlica",
+    "duration_sec": 2171.5,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "ия:** fiz\n- **Длина:** 7375 знаков\n- **Файл:** `drafts/konkursnaya-massa-pri-bankrotstve-fizlica/article.html`\n\n**Метрики quality gate:**\n- `textru_ai_detector`: 3% (отлично)\n- `textru_uniqueness`: 90% (отлично)\n- `textru_spam`: 47% (норма ≤50%)\n- Blockers: 0, Warnings: 0\n\n**Прохождение этапов:** uniqueness ✓, factcheck ✓, quality gate ✓ (exit 0), итераций возврата на писателя: 0.\n\n**Обложка:** сгенерирована, шаблон #1, загружена на Cloudinary. Статья добавлена в очередь ревью (всего 91 статья).",
+    "stderr_tail": "",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7375
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]

@@ -1,0 +1,31 @@
+{
+  "slug": "bankrotstvo-malogo-biznesa-msp",
+  "category": "yur",
+  "started_at": "2026-05-21T01:06:19",
+  "finished_at": null,
+  "total_duration_sec": null,
+  "current_iteration": 1,
+  "events": [
+    {
+      "ts": "2026-05-21T01:06:19",
+      "agent": "scheduler",
+      "event": "slot_started",
+      "iteration": 1,
+      "today_count": 0,
+      "limit": 10,
+      "write_article_duration_sec": 2538.1
+    },
+    {
+      "ts": "2026-05-21T01:06:19",
+      "agent": "quality_gate",
+      "event": "passed",
+      "iteration": 1,
+      "blockers": [],
+      "warnings": [
+        "internal_links_autofixed: 4 ссылок (например /uproshchennoe-bankrotstvo-yurlica.html→/articles/yur/uproshchennoe-bankrotstvo-yurlica; /rashody-na-bankrotstvo-yurlica.html→/articles/yur/rashody-na-bankrotstvo-yurlica; /subsidiarka-direktora-kak-zashchititsya.html→/articles/yur/subsidiarka-direktora-kak-zashchititsya)",
+        "length_soft_passed: 8146 > 8000 но ≤ 8500 и iteration=4 — пропускаем (приоритет spam/uniqueness/ai)"
+      ],
+      "recommendations": []
+    }
+  ]
+}
