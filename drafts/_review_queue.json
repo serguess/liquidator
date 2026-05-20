@@ -1149,6 +1149,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "zaochnoe-reshenie-suda-otmena",
+      "category": "vzysk",
+      "title": "Заочное решение суда - как отменить и что делать",
+      "added_at": "2026-05-20T17:48:16.889262",
+      "char_count": 7673,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779288495/articles/zaochnoe-reshenie-suda-otmena-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

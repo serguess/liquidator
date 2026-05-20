@@ -5387,5 +5387,60 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-05-20T14:48:37",
+    "category": "yur",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 18,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "yur-45",
+    "topic_slug": "ustupka-prava-trebovaniya-pered-bankrotstvom",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "Автофикс применил правки: сокращения=0, пунктуация=0",
+        "internal_links_autofixed: 4 ссылок (например /subsidiarka-direktora-kak-zashchititsya→/articles/yur/subsidiarka-direktora-kak-zashchititsya; /vzyskanie-ubytkov-s-direktora-bankrotstvo→/articles/yur/vzyskanie-ubytkov-s-direktora-bankrotstvo; /kontroliruyushchee-dolzhnika-lico-kdl→/articles/yur/kontroliruyushchee-dolzhnika-lico-kdl)"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "ustupka-prava-trebovaniya-pered-bankrotstvom",
+    "duration_sec": 2325.2,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "om`**\n\n| Параметр | Значение |\n|---|---|\n| Категория | yur |\n| Длина статьи | 7843 знаков |\n| Uniqueness | passed (нет конфликтов) |\n| Factcheck | passed |\n| Quality gate | passed (0 blockers) |\n| Режим публикации | ready_for_review (ожидает одобрения в TG-боте) |\n| Файл | `drafts/ustupka-prava-trebovaniya-pered-bankrotstvom/article.html` |\n| Обложка | сгенерирована (шаблон #10, Cloudinary) |\n\n**Прогнозные метрики text.ru:**\n- ИИ-детектор: **3%**\n- Уникальность: **87%**\n- Заспамленность: **49%**",
+    "stderr_tail": "",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7843
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]

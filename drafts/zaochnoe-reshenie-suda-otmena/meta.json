@@ -1,0 +1,92 @@
+{
+  "slug": "zaochnoe-reshenie-suda-otmena",
+  "category": "vzysk",
+  "title": "Заочное решение суда - как отменить и что делать",
+  "description": "Заочное решение суда - порядок отмены по ст. 237 ГПК: 7 дней с момента вручения, два условия, восстановление пропущенного срока. Что происходит с приставами.",
+  "h1": "Заочное решение суда: что делать и как его отменить",
+  "lead": "Конверт из суда. Внутри - акт, вынесенный без вашего участия. У ответчика есть отдельный инструмент, который работает иначе, чем апелляция: 7 дней с момента получения копии решают, какой маршрут будет доступен.",
+  "topic_action": "отмену заочного решения суда",
+  "breadcrumb_current": "Заочное решение суда",
+  "og_image": "/assets/articles/zaochnoe-reshenie-suda-otmena.jpg",
+  "main_keyword": "заочное решение суда как отменить",
+  "secondary_keywords": [
+    "отмена заочного решения суда",
+    "заявление об отмене заочного решения",
+    "заочное решение суда что делать",
+    "срок отмены заочного решения",
+    "заочное решение суда ГПК",
+    "восстановление срока заочного решения",
+    "заочное решение суда по кредиту"
+  ],
+  "internal_links": [
+    "/articles/vzysk/ispolnitelnyj-list-poluchenie-predyavlenie",
+    "/articles/vzysk/kak-otmenit-sudebnyj-prikaz",
+    "/articles/vzysk/povorot-ispolneniya-otmena-resheniya",
+    "/articles/vzysk/neispolnenie-resheniya-suda-posledstviya"
+  ],
+  "external_links": [],
+  "faq": [
+    {
+      "question": "Можно ли оспорить заочное решение, если я не получал никаких повесток?",
+      "answer": "Да. Если доказать ненадлежащее уведомление - повестка не вручалась лично, бумага направлена по неверному адресу - апелляционная инстанция аннулирует акт без требования доказывать что-то по существу."
+    },
+    {
+      "question": "Что произойдёт с делом после отмены заочного решения?",
+      "answer": "Разбирательство начнётся заново. Итог не предрешён: суд может вынести тот же вывод, снизить сумму или отказать в иске. Если та же сторона снова не явится, выносится обычное решение - специальный механизм к нему уже неприменим."
+    },
+    {
+      "question": "Обязательно ли платить госпошлину при подаче заявления об отмене?",
+      "answer": "За само обращение пошлина, как правило, не взимается - это ходатайство в рамках уже рассматриваемого дела, а не новый иск. Уточните в конкретном суде. Апелляционная жалоба оплачивается отдельно: 150 рублей для физических лиц при неимущественном споре."
+    },
+    {
+      "question": "Сколько времени займёт рассмотрение заявления об отмене?",
+      "answer": "По процессуальному кодексу - 10 суток с момента поступления. Неявка кого-либо из участников не препятствует рассмотрению."
+    },
+    {
+      "question": "Пристав уже списал деньги - можно ли их вернуть, если решение потом отменят?",
+      "answer": "Если акт аннулирован и по итогам нового рассмотрения в требовании отказано или сумма уменьшена - закон позволяет потребовать возврата взысканного через поворот исполнения. Заявление подаётся в суд, который вёл повторное разбирательство."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все юр-факты сверены с research.json по ID f1-f16",
+    "Госпошлина за заявление об отмене подана обтекаемо без суммы '1500 руб' (см. fact_gaps и forbidden_claims) - оставлена формулировка 'как правило, не взимается'",
+    "Электронное извещение через Госуслуги (f15, contested) изложено через safe_phrasing без URL",
+    "Ненадлежащее извещение как безусловное основание - корректно отделено от ст. 242 ГПК (нужны оба условия)",
+    "Цитаты норм только в виде кратких упоминаний номеров статей текстом (без блок-цитат), общий объём прямых цитирований минимален"
+  ],
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "text_chars": 7673,
+  "length_status": "warn",
+  "length_kind": "default",
+  "local_spam_top10_share": 0.092,
+  "local_spam_ngram3_repeat": 0.014,
+  "local_lexical_diversity": 0.603,
+  "local_ai_markers_density": 0.53,
+  "local_ai_markers_total": 5,
+  "local_ai_markers_critical": 0,
+  "local_ai_markers_high": 3,
+  "local_own_voice_hits": 3,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 5,
+  "predicted_spam_pct": 53,
+  "predicted_ai_pct": 5,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность чуть выше 50% (~53%)"
+  ],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779288495/articles/zaochnoe-reshenie-suda-otmena-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1779288495/articles/zaochnoe-reshenie-suda-otmena-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Close-up architectural photograph of a courthouse staircase — worn marble treads receding upward, a cast-iron balustrade with oxidized brass newel cap, tall fluted stone columns rising out of frame. Camera: low-angle diagonal across the steps, emphasizing depth and the weight of the stone. Lighting: cool morning daylight raking across the marble veining, crisp shadows pooling in the carved details. Materials: weathered limestone, polished marble, oxidized brass. Minimal foreground: a closed dark leather portfolio resting on the lowest step, spine facing forward, a fountain pen laid across its cover — suggesting a filing awaiting formal submission. Palette: cool grey-white marble, deep charcoal shadow, restrained brass accent. Mood: institutional authority, a formal threshold that must be crossed within a strict deadline.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-05-20T14:48:16Z",
+  "date_published": "2026-05-20",
+  "date_modified": "2026-05-20",
+  "ready_for_review": true,
+  "ready_at": "2026-05-20T14:48:16Z",
+  "publication_target": "telegram_review"
+}
