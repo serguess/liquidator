@@ -1883,20 +1883,23 @@
     "alimenty-v-tverdoj-summe": {
       "category": "vzysk",
       "title": "Алименты в твёрдой денежной сумме: как установить",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 748,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-19T11:00:07",
-      "last_action_at": "2026-05-19T11:00:07",
+      "last_action_at": "2026-05-20T11:09:50",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-05-19T11:00:07"
+      "published_url": "https://pravo.shop/articles/vzysk/alimenty-v-tverdoj-summe",
+      "pending_batch": false,
+      "pending_batch_at": "2026-05-19T11:00:07",
+      "batch_sent_at": "2026-05-20T10:04:48",
+      "published_at": "2026-05-20T11:09:50",
+      "articles_path": "articles/vzysk/alimenty-v-tverdoj-summe.html"
     },
     "dohody-vo-vremya-bankrotstva-fizlica": {
       "category": "fiz",
@@ -1906,15 +1909,16 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 750,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-19T12:59:07",
       "last_action_at": "2026-05-19T12:59:07",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-05-19T12:59:07"
+      "pending_batch": false,
+      "pending_batch_at": "2026-05-19T12:59:07",
+      "batch_sent_at": "2026-05-20T10:04:50"
     },
     "dokazatelstva-dobrosovestnosti-direktora-subsidiarka": {
       "category": "yur",
@@ -1924,15 +1928,16 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 752,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-19T15:29:08",
       "last_action_at": "2026-05-19T15:29:08",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-05-19T15:29:08"
+      "pending_batch": false,
+      "pending_batch_at": "2026-05-19T15:29:08",
+      "batch_sent_at": "2026-05-20T10:04:52"
     },
     "vzyskanie-neosnovatelnogo-obogashcheniya": {
       "category": "vzysk",
@@ -1942,19 +1947,152 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 754,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-19T17:56:09",
       "last_action_at": "2026-05-19T17:56:09",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-05-19T17:56:09",
+      "batch_sent_at": "2026-05-20T10:04:54"
+    },
+    "fns-spisanie-beznadezhnogo-nalogovogo-dolga": {
+      "category": "news",
+      "title": "ФНС списывает безнадёжный налоговый долг: новый порядок",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 756,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-05-19T21:18:47",
+      "last_action_at": "2026-05-19T21:18:47",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-05-19T21:18:47",
+      "batch_sent_at": "2026-05-20T10:04:56"
+    },
+    "bankrotstvo-pri-potrebitelskom-kredite": {
+      "category": "fiz",
+      "title": "Банкротство при потребительском кредите: спишут ли долг",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 758,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-05-19T22:31:48",
+      "last_action_at": "2026-05-19T22:31:48",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-05-19T22:31:48",
+      "batch_sent_at": "2026-05-20T10:04:58"
+    },
+    "bankrotstvo-selskohozajstvennoj-organizacii": {
+      "category": "yur",
+      "title": "Банкротство сельхозорганизации: особенности и нюансы",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 760,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-05-20T01:03:49",
+      "last_action_at": "2026-05-20T01:03:49",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-05-20T01:03:49",
+      "batch_sent_at": "2026-05-20T10:05:00"
+    },
+    "indeksaciya-prisuzhdyonnyh-summ": {
+      "category": "vzysk",
+      "title": "Индексация присуждённых сумм: ст. 208 ГПК и 183 АПК",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 762,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-05-20T03:19:49",
+      "last_action_at": "2026-05-20T03:19:49",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-05-20T03:19:49",
+      "batch_sent_at": "2026-05-20T10:05:02"
+    },
+    "zapret-vyezda-za-rubezh-v-bankrotstve": {
+      "category": "fiz",
+      "title": "Запрет выезда за рубеж при банкротстве физлица",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 764,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-05-20T06:08:50",
+      "last_action_at": "2026-05-20T06:08:50",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-05-20T06:08:50",
+      "batch_sent_at": "2026-05-20T10:05:04"
+    },
+    "osparivanie-trebovanij-v-reestre-kreditorov": {
+      "category": "yur",
+      "title": "Оспаривание требований в реестре кредиторов",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 766,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-05-20T08:14:51",
+      "last_action_at": "2026-05-20T08:14:51",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-05-20T08:14:51",
+      "batch_sent_at": "2026-05-20T10:05:07"
+    },
+    "vzyskanie-sudebnyh-rashodov": {
+      "category": "vzysk",
+      "title": "Взыскание судебных расходов с проигравшей стороны",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-05-20T10:32:52",
+      "last_action_at": "2026-05-20T10:32:52",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
       "pending_batch": true,
-      "pending_batch_at": "2026-05-19T17:56:09"
+      "pending_batch_at": "2026-05-20T10:32:52"
     }
   },
   "pending_actions": [],
-  "last_batch_date": "2026-05-19",
+  "last_batch_date": "2026-05-20",
   "last_batch_count": 10,
-  "last_batch_at": "2026-05-19T10:01:26"
+  "last_batch_at": "2026-05-20T10:05:07"
 }

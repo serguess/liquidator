@@ -1,6 +1,19 @@
 {
-  "generated": "2026-05-19",
+  "generated": "2026-05-20",
   "articles": [
+    {
+      "slug": "alimenty-v-tverdoj-summe",
+      "cat": "vzysk",
+      "catLabel": "Взыскание задолженности",
+      "title": "Алименты в твёрдой денежной сумме: как установить",
+      "desc": "Когда суд назначает алименты в твёрдой сумме, а не в долях: условия по ст. 83 СК РФ, расчёт от прожиточного минимума, исковое заявление и индексация.",
+      "date": "20 мая 2026",
+      "dateIso": "2026-05-20",
+      "read": "5 мин.",
+      "tone": "b",
+      "img": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779177569/articles/alimenty-v-tverdoj-summe-cover.jpg",
+      "url": "articles/vzysk/alimenty-v-tverdoj-summe"
+    },
     {
       "slug": "dogovor-arendy-pri-bankrotstve-arendatora",
       "cat": "yur",
