@@ -2030,7 +2030,7 @@
     "indeksaciya-prisuzhdyonnyh-summ": {
       "category": "vzysk",
       "title": "Индексация присуждённых сумм: ст. 208 ГПК и 183 АПК",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -2038,13 +2038,15 @@
       "tg_message_id": 762,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-20T03:19:49",
-      "last_action_at": "2026-05-20T03:19:49",
+      "last_action_at": "2026-05-20T11:44:28",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/vzysk/indeksaciya-prisuzhdyonnyh-summ",
       "pending_batch": false,
       "pending_batch_at": "2026-05-20T03:19:49",
-      "batch_sent_at": "2026-05-20T10:05:02"
+      "batch_sent_at": "2026-05-20T10:05:02",
+      "published_at": "2026-05-20T11:44:28",
+      "articles_path": "articles/vzysk/indeksaciya-prisuzhdyonnyh-summ.html"
     },
     "zapret-vyezda-za-rubezh-v-bankrotstve": {
       "category": "fiz",

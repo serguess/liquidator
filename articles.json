@@ -2,6 +2,19 @@
   "generated": "2026-05-20",
   "articles": [
     {
+      "slug": "indeksaciya-prisuzhdyonnyh-summ",
+      "cat": "vzysk",
+      "catLabel": "Взыскание задолженности",
+      "title": "Индексация присуждённых сумм: ст. 208 ГПК и 183 АПК",
+      "desc": "Как подать заявление об индексации по ст. 208 ГПК или 183 АПК, рассчитать сумму по ИПЦ Росстата и вернуть инфляционные потери, если должник тянул с выплатой.",
+      "date": "20 мая 2026",
+      "dateIso": "2026-05-20",
+      "read": "5 мин.",
+      "tone": "b",
+      "img": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779236341/articles/indeksaciya-prisuzhdyonnyh-summ-cover.jpg",
+      "url": "articles/vzysk/indeksaciya-prisuzhdyonnyh-summ"
+    },
+    {
       "slug": "bankrotstvo-selskohozajstvennoj-organizacii",
       "cat": "yur",
       "catLabel": "Банкротство юридических лиц",
