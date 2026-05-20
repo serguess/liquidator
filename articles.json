@@ -2,6 +2,19 @@
   "generated": "2026-05-20",
   "articles": [
     {
+      "slug": "bankrotstvo-pri-potrebitelskom-kredite",
+      "cat": "fiz",
+      "catLabel": "Банкротство физических лиц",
+      "title": "Банкротство при потребительском кредите: спишут ли долг",
+      "desc": "Когда потребительский кредит спишут через банкротство, а когда нет. Условия для суда и МФЦ, роль добросовестности, что грозит за кредит перед процедурой.",
+      "date": "20 мая 2026",
+      "dateIso": "2026-05-20",
+      "read": "5 мин.",
+      "tone": "b",
+      "img": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779219021/articles/bankrotstvo-pri-potrebitelskom-kredite-cover.jpg",
+      "url": "articles/fiz/bankrotstvo-pri-potrebitelskom-kredite"
+    },
+    {
       "slug": "fns-spisanie-beznadezhnogo-nalogovogo-dolga",
       "cat": "news",
       "catLabel": "Новости",
