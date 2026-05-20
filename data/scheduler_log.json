@@ -5110,5 +5110,60 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-05-20T02:48:21",
+    "category": "vzysk",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 3,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "vzysk-33",
+    "topic_slug": "indeksaciya-prisuzhdyonnyh-summ",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "Автофикс применил правки: сокращения=0, пунктуация=0",
+        "internal_links_autofixed: 3 ссылок (например /articles/vzysk/ispolnitelnyj-list-poluchenie-predyavlenie.html→/articles/vzysk/ispolnitelnyj-list-poluchenie-predyavlenie; /articles/vzysk/neispolnenie-resheniya-suda-posledstviya.html→/articles/vzysk/neispolnenie-resheniya-suda-posledstviya; /articles/vzysk/rassrochka-ispolneniya-resheniya-suda.html→/articles/vzysk/rassrochka-ispolneniya-resheniya-suda)"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "indeksaciya-prisuzhdyonnyh-summ",
+    "duration_sec": 1855.7,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": ":** vzysk\n- **Длина:** 7739 знаков\n- **Uniqueness:** passed (structure_overlap=0.0, thesis_similarity=0.0)\n- **Factcheck:** passed\n- **Quality gate:** exit 0 (мягкий варнинг spam_top10=0.092, не блокирующий)\n- **Обложка:** сгенерирована, загружена на Cloudinary (template_id=12)\n- **Статус:** `ready_for_review=true`, добавлена в TG-очередь (item #83)\n- **Файл:** `drafts/indeksaciya-prisuzhdyonnyh-summ/article.html`\n\n**Метрики text.ru:** не заполнены (проверка выполняется отдельно при публикации).",
+    "stderr_tail": "",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7739
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]

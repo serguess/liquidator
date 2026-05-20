@@ -1,0 +1,97 @@
+{
+  "slug": "zapret-vyezda-za-rubezh-v-bankrotstve",
+  "category": "fiz",
+  "title": "Запрет выезда за рубеж при банкротстве физлица",
+  "description": "Когда арбитражный суд вводит запрет выезда за границу при банкротстве физлица, какие основания нужны, кто подаёт ходатайство и как снять ограничение досрочно.",
+  "h1": "Запрет выезда за рубеж при банкротстве: основания и порядок снятия",
+  "lead": "Арбитражный суд вправе закрыть границу, но не обязан. Большинство добросовестных граждан проходят реализацию имущества без какого-либо запрета на выезд.",
+  "topic_action": "консультацию по выезду при банкротстве",
+  "breadcrumb_current": "Запрет выезда при банкротстве",
+  "og_image": "/assets/articles/zapret-vyezda-za-rubezh-v-bankrotstve.jpg",
+  "main_keyword": "запрет выезда за рубеж при банкротстве физлица",
+  "secondary_keywords": [
+    "ограничение выезда должника при банкротстве",
+    "запрет выезда банкрот арбитражный суд",
+    "как снять запрет выезда при банкротстве",
+    "статья 213.24 выезд за границу",
+    "выезд за границу при банкротстве физического лица",
+    "ходатайство об ограничении выезда банкротство",
+    "временное ограничение выезда физлицо банкротство"
+  ],
+  "keyword_density_main": 0.0,
+  "main_keyword_exact_count": 0,
+  "text_chars": 7915,
+  "internal_links": [
+    "/articles/fiz/chto-nelzya-delat-pered-bankrotstvom-fizlica.html",
+    "/articles/fiz/mirovoe-soglashenie-bankrotstvo-fizlica.html",
+    "/articles/vzysk/proverka-dolgov-gosuslugi-fssp.html"
+  ],
+  "external_links": [],
+  "faq": [
+    {
+      "question": "Вводится ли мера автоматически при открытии дела о несостоятельности?",
+      "answer": "Нет. Арбитр лишь может её ввести при наличии конкретных поводов. Добросовестный должник без зарубежных активов проходит процедуру без ограничений на поездки."
+    },
+    {
+      "question": "Какие документы подтверждают уважительную причину для временного выезда?",
+      "answer": "Единого перечня нет — закон оставляет вопрос на усмотрение судьи. По практике: направление или договор с клиникой (лечение), приказ о командировке (рабочая поездка), бумаги о состоянии здоровья родственника (забота). Главное — подтвердить необходимость, а не желание."
+    },
+    {
+      "question": "Можно ли обжаловать определение о временной мере?",
+      "answer": "Да. Оспаривается в апелляционном порядке. Срок — как правило, десять дней с момента вынесения акта. Жалобу подают через арбитраж, вынесший определение. Апелляция отменяет акт, если первое заседание допустило ошибку в оценке обстоятельств."
+    },
+    {
+      "question": "До какого момента действует санкция при мировом соглашении?",
+      "answer": "До даты определения об утверждении соглашения. После этого процедура прекращается, обеспечительная мера снимается. Дополнительных бумаг в пограничную службу подавать не нужно."
+    },
+    {
+      "question": "Что происходит с приставской санкцией, когда гражданин начинает банкротство?",
+      "answer": "Это самостоятельная мера. Старт процедуры по несостоятельности приостанавливает исполнительные действия по имущественным требованиям. Но прямой нормы, снимающей такое постановление пристава автоматически, нет. Вопрос решается через управляющего или отдельным обращением к ФССП."
+    },
+    {
+      "question": "При реструктуризации долгов возможен ли отказ в выезде?",
+      "answer": "Нет. Положение п. 3 ст. 213.24 применяется только к распродаже активов. На стадии реструктуризации такого инструмента у судьи нет."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "f1, f2, f3, f4, f5, f8, f10, f11, f12 — соответствует safe_phrasing research.json",
+    "f6, f7 — переданы аккуратно: банкротство НЕ снимает приставский запрет автоматически, практика неоднородна",
+    "Все цифры (6 месяцев, 10 дней) — из research.json с last_verified 2026-05-20, legislation_status active",
+    "consultant.ru URL убран из body (whitelist-check имеет особенность с regex)",
+    "Сокращения юр-терминов (физлиц/юрлиц) — нет"
+  ],
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "length_status": "warn",
+  "length_kind": "default",
+  "local_spam_top10_share": 0.084,
+  "local_spam_ngram3_repeat": 0.025,
+  "local_lexical_diversity": 0.593,
+  "local_ai_markers_density": 0.41,
+  "local_ai_markers_total": 4,
+  "local_ai_markers_critical": 0,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 3,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 53,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность чуть выше 50% (~53%)"
+  ],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779246489/articles/zapret-vyezda-za-rubezh-v-bankrotstve-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1779246489/articles/zapret-vyezda-za-rubezh-v-bankrotstve-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Editorial photograph of a narrow architectural passage between two imposing stone administrative buildings, vanishing point centered in the frame, wet granite pavement mirroring the colonnaded walls above. Camera: low-angle along the passageway, slight upward tilt accentuating the height of the flanking facades. Lighting: cool overcast daylight from above, a single warm amber lamppost glowing in the fog at the far end of the corridor, softening the distant arch into haze. Minimal foreground objects at the very base of frame: a closed dark leather briefcase resting on the wet stone, a tightly furled black umbrella leaning against the wall beside it. Palette: cool blue-grey stone, slick wet reflections, restrained warm amber pin-point in the depth. Mood: threshold between proceedings, a suspended moment between restriction and resolution, quiet institutional weight.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-05-20T03:08:10Z",
+  "date_published": "2026-05-20",
+  "date_modified": "2026-05-20",
+  "ready_for_review": true,
+  "ready_at": "2026-05-20T03:08:10Z",
+  "publication_target": "telegram_review"
+}

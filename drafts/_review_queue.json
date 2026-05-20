@@ -1084,6 +1084,19 @@
         "passed": false,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "zapret-vyezda-za-rubezh-v-bankrotstve",
+      "category": "fiz",
+      "title": "Запрет выезда за рубеж при банкротстве физлица",
+      "added_at": "2026-05-20T06:08:10.333115",
+      "char_count": 7915,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779246489/articles/zapret-vyezda-za-rubezh-v-bankrotstve-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
