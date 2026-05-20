@@ -1136,6 +1136,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "ustupka-prava-trebovaniya-pered-bankrotstvom",
+      "category": "yur",
+      "title": "Уступка права требования перед банкротством: риски",
+      "added_at": "2026-05-20T15:26:59.478353",
+      "char_count": 7843,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779280018/articles/ustupka-prava-trebovaniya-pered-bankrotstvom-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
