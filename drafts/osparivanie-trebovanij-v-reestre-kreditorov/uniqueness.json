@@ -1,0 +1,14 @@
+{
+  "slug": "osparivanie-trebovanij-v-reestre-kreditorov",
+  "passed": true,
+  "scores": {
+    "structure_overlap": 0.0,
+    "thesis_similarity": 0.0,
+    "cta_overlap": 0.0
+  },
+  "similar_articles": [],
+  "conflicts": [],
+  "recommendation": "ok",
+  "checked_at": "2026-05-20T07:58:00Z",
+  "note": "Статья категория yur/C. В момент проверки опубликовано только 5 статей (категория vzysk), пиров в той же категории нет. Все метрики эмбеддинга в норме. Вектор сохранён в data/embeddings.sqlite с флагом published=0."
+}

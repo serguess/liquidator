@@ -5165,5 +5165,61 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-05-20T05:12:37",
+    "category": "fiz",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 4,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "expanded_in_slot": true,
+    "topic_id": "fiz-50",
+    "topic_slug": "zapret-vyezda-za-rubezh-v-bankrotstve",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "Автофикс применил правки: сокращения=0, пунктуация=0",
+        "internal_links_autofixed: 3 ссылок (например /articles/fiz/chto-nelzya-delat-pered-bankrotstvom-fizlica.html→/articles/fiz/chto-nelzya-delat-pered-bankrotstvom-fizlica; /articles/vzysk/proverka-dolgov-gosuslugi-fssp.html→/articles/vzysk/proverka-dolgov-gosuslugi-fssp; /articles/fiz/mirovoe-soglashenie-bankrotstvo-fizlica.html→/articles/fiz/mirovoe-soglashenie-bankrotstvo-fizlica)"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "zapret-vyezda-za-rubezh-v-bankrotstve",
+    "duration_sec": 3351.8,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "Метрика | Значение |\n|---|---|\n| `textru_ai_detector` | ~3% (предсказание) |\n| `textru_uniqueness` | ~87% (предсказание) |\n| `textru_spam` | ~53% (чуть выше 50%, предупреждение) |\n\n**Uniqueness:** passed (структура полностью уникальна)\n**Factcheck:** passed (все факты соответствуют research.json)\n**Обложка:** сгенерирована, загружена на Cloudinary (template_id=23)\n\nСтатья добавлена в очередь ревью (`_review_queue.json`, позиция 84). Публикация — через Telegram-бот после подтверждения заказчиком.",
+    "stderr_tail": "",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7915
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]
