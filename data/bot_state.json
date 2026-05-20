@@ -2009,7 +2009,7 @@
     "bankrotstvo-selskohozajstvennoj-organizacii": {
       "category": "yur",
       "title": "Банкротство сельхозорганизации: особенности и нюансы",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -2017,13 +2017,15 @@
       "tg_message_id": 760,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-20T01:03:49",
-      "last_action_at": "2026-05-20T01:03:49",
+      "last_action_at": "2026-05-20T11:40:29",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/yur/bankrotstvo-selskohozajstvennoj-organizacii",
       "pending_batch": false,
       "pending_batch_at": "2026-05-20T01:03:49",
-      "batch_sent_at": "2026-05-20T10:05:00"
+      "batch_sent_at": "2026-05-20T10:05:00",
+      "published_at": "2026-05-20T11:40:29",
+      "articles_path": "articles/yur/bankrotstvo-selskohozajstvennoj-organizacii.html"
     },
     "indeksaciya-prisuzhdyonnyh-summ": {
       "category": "vzysk",
