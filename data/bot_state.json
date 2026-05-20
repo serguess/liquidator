@@ -1904,7 +1904,7 @@
     "dohody-vo-vremya-bankrotstva-fizlica": {
       "category": "fiz",
       "title": "Доходы при банкротстве физлица: что остаётся должнику",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -1912,13 +1912,15 @@
       "tg_message_id": 750,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-19T12:59:07",
-      "last_action_at": "2026-05-19T12:59:07",
+      "last_action_at": "2026-05-20T11:11:47",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/fiz/dohody-vo-vremya-bankrotstva-fizlica",
       "pending_batch": false,
       "pending_batch_at": "2026-05-19T12:59:07",
-      "batch_sent_at": "2026-05-20T10:04:50"
+      "batch_sent_at": "2026-05-20T10:04:50",
+      "published_at": "2026-05-20T11:11:47",
+      "articles_path": "articles/fiz/dohody-vo-vremya-bankrotstva-fizlica.html"
     },
     "dokazatelstva-dobrosovestnosti-direktora-subsidiarka": {
       "category": "yur",
