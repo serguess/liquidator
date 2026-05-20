@@ -1967,7 +1967,7 @@
     "fns-spisanie-beznadezhnogo-nalogovogo-dolga": {
       "category": "news",
       "title": "ФНС списывает безнадёжный налоговый долг: новый порядок",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -1975,13 +1975,15 @@
       "tg_message_id": 756,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-19T21:18:47",
-      "last_action_at": "2026-05-19T21:18:47",
+      "last_action_at": "2026-05-20T11:20:06",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/news/fns-spisanie-beznadezhnogo-nalogovogo-dolga",
       "pending_batch": false,
       "pending_batch_at": "2026-05-19T21:18:47",
-      "batch_sent_at": "2026-05-20T10:04:56"
+      "batch_sent_at": "2026-05-20T10:04:56",
+      "published_at": "2026-05-20T11:20:06",
+      "articles_path": "articles/news/fns-spisanie-beznadezhnogo-nalogovogo-dolga.html"
     },
     "bankrotstvo-pri-potrebitelskom-kredite": {
       "category": "fiz",

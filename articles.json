@@ -2,6 +2,19 @@
   "generated": "2026-05-20",
   "articles": [
     {
+      "slug": "fns-spisanie-beznadezhnogo-nalogovogo-dolga",
+      "cat": "news",
+      "catLabel": "Новости",
+      "title": "ФНС списывает безнадёжный налоговый долг: новый порядок",
+      "desc": "С 1 мая 2026 года действует новый порядок: ФНС списывает безнадёжные налоговые долги физлиц без суда. Разбираем основания, кого касается и что делать должнику.",
+      "date": "20 мая 2026",
+      "dateIso": "2026-05-20",
+      "read": "5 мин.",
+      "tone": "b",
+      "img": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779214693/articles/fns-spisanie-beznadezhnogo-nalogovogo-dolga-cover.jpg",
+      "url": "articles/news/fns-spisanie-beznadezhnogo-nalogovogo-dolga"
+    },
+    {
       "slug": "vzyskanie-neosnovatelnogo-obogashcheniya",
       "cat": "vzysk",
       "catLabel": "Взыскание задолженности",
