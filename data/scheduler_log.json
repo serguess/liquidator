@@ -5769,5 +5769,65 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-05-21T07:36:37",
+    "category": "yur",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 25,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "yur-47",
+    "topic_slug": "subsidiarka-za-neperedachu-dokumentov-bankrotstvo",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [
+        "ai_markers_critical: 2 (Длинное тире (—))"
+      ],
+      "warnings": [
+        "Автофикс применил правки: сокращения=0, пунктуация=0",
+        "internal_links_autofixed: 4 ссылок (например /prava-direktora-v-processe-bankrotstva.html→/articles/yur/prava-direktora-v-processe-bankrotstva; /dokazatelstva-dobrosovestnosti-direktora-subsidiarka.html→/articles/yur/dokazatelstva-dobrosovestnosti-direktora-subsidiarka; /kontroliruyushchee-dolzhnika-lico-kdl.html→/articles/yur/kontroliruyushchee-dolzhnika-lico-kdl)",
+        "length_soft_passed: 8328 > 8000 но ≤ 8500 и iteration=2 — пропускаем (приоритет spam/uniqueness/ai)"
+      ],
+      "recommendations": [
+        "fix_ai_markers: убрать критичные маркеры (длинные тире, эмодзи, англ. кавычки, чатбот-фразы)"
+      ],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "subsidiarka-za-neperedachu-dokumentov-bankrotstvo",
+    "duration_sec": 2466.7,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "ирована (template 18 — зал суда с опечатанными досье), загружена на Cloudinary\n- **Статус:** `ready_for_review=true`, добавлена в TG-очередь (позиция 95)\n\n**Метрики quality_gate:**\n- Длина: 8328 знаков (незначительное превышение cap 8000, autofix применил 36 правок em-dash)\n- Spam: lex_div 0.625, top10_share 8.7% — в норме\n- AI-маркеры: 2 критических (длинные тире в FAQ-вопросах — после autofix остались 2)\n- Anti-template: passed\n\n**text.ru метрики:** не заполнены (проверяются после публикации).",
+    "stderr_tail": "",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 8328
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]
