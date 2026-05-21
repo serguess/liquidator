@@ -1253,6 +1253,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "ocherednost-trebovanij-kreditorov-pri-bankrotstve-fizlica",
+      "category": "fiz",
+      "title": "Очерёдность кредиторов при банкротстве физлица",
+      "added_at": "2026-05-21T13:05:42.429324",
+      "char_count": 7497,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779357941/articles/ocherednost-trebovanij-kreditorov-pri-bankrotstve-fizlica-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

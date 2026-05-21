@@ -1,0 +1,95 @@
+{
+  "slug": "ocherednost-trebovanij-kreditorov-pri-bankrotstve-fizlica",
+  "category": "fiz",
+  "title": "Очерёдность кредиторов при банкротстве физлица",
+  "description": "Кто первым получает деньги при банкротстве физлица: три очереди реестра, текущие платежи и залоговые кредиторы по ст. 213.27 ФЗ-127. Разбор с примерами.",
+  "h1": "Очерёдность требований кредиторов при банкротстве физлица: кто получает деньги первым",
+  "lead": "Порядок выплат из конкурсной массы задаёт специальная норма 213.27 закона о банкротстве: текущие платежи, три уровня реестра, отдельный режим для залогодержателя.",
+  "topic_action": "разбор очерёдности кредиторов при банкротстве",
+  "breadcrumb_current": "Очерёдность кредиторов при банкротстве физлица",
+  "og_image": "/assets/articles/ocherednost-trebovanij-kreditorov-pri-bankrotstve-fizlica.jpg",
+  "main_keyword": "очерёдность требований кредиторов при банкротстве физлица",
+  "secondary_keywords": [
+    "реестр требований кредиторов физлица",
+    "первая очередь кредиторов банкротство",
+    "третья очередь банкротство физлица",
+    "текущие платежи при банкротстве физлица",
+    "залоговые кредиторы при банкротстве физлица",
+    "статья 213.27 банкротство",
+    "как включиться в реестр кредиторов"
+  ],
+  "internal_links": [
+    "/articles/fiz/alimenty-pri-bankrotstve-fizlica.html",
+    "/articles/fiz/bankrotstvo-pri-ipoteke-edinstvennoe-zhilye.html",
+    "/articles/fiz/bankrotstvo-po-mikrozajmam.html",
+    "/articles/fiz/kogda-dolgi-ne-spishut-pri-bankrotstve.html"
+  ],
+  "external_links": [],
+  "faq": [
+    {
+      "question": "Может ли банк по ипотеке получить меньше 80%, если квартира продана дёшево?",
+      "answer": "Нет. Раздел 80/10/10 фиксирован законом. Если жильё продано за 3 млн при задолженности 5 млн, держатель залога берёт 2 млн 400. Непокрытый остаток переходит в нижнюю часть. Размер выручки долю не меняет."
+    },
+    {
+      "question": "Обязан ли арбитражный управляющий уведомить все кредитные организации о начале реализации?",
+      "answer": "Да, обязан. Но пропустить двухмесячный срок - не основание для восстановления в учётном перечне. Ответственность за обращение лежит на каждом."
+    },
+    {
+      "question": "Что происходит с задолженностью перед ФНС по налогам?",
+      "answer": "Требования налоговой, возникшие до принятия заявления, - нижний уровень. При своевременном обращении делит деньги по доле в общей сумме вместе с остальными."
+    },
+    {
+      "question": "Чем отличается «заявление в реестр» от требования «за реестром»?",
+      "answer": "В учётном перечне - тот, кто успел подать в суд в двухмесячный период и участвует в разделе. «За реестром» - срок пропущен, деньги только из остатка. На практике - ноль."
+    },
+    {
+      "question": "Останутся ли у меня долги перед бывшим супругом по алиментам после завершения дела?",
+      "answer": "Да. Алиментные обязательства не отменяются ни при каком исходе, они продолжают существовать после закрытия производства. Это ключевое ограничение данной процедуры."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все юр-утверждения сверены с research.json: ст. 213.27 п. 1-4 (структура трёх очередей, пропорция залога 80/10/10), п. 5 ст. 213.28 (несписываемые долги), п. 2 ст. 213.8 (двухмесячный срок), ст. 213.7 (публикация в ЕФРСБ и «Коммерсанте»), ст. 5 и п. 2 ст. 134 (текущие платежи), п. 3, 17 ст. 20.6 (вознаграждение ФУ 25 000 + 7%), ст. 333.37 НК (госпошлина 0 руб с 08.09.2024), Обзор ВС от 29.01.2020 (субординация аффилированных). Все last_verified=2026-05-21, legislation_status=active.",
+    "Госпошлина: формулировка по legal-facts.md - «плательщик при подаче заявления государственную пошлину не платит». Сумма 300 руб не упоминается.",
+    "Числовой пример раздела 80/10/10 при продаже квартиры за 4 млн / долг 5 млн: 3.2 + 0.4 + 0.4 = 4 млн (корректно).",
+    "Прямые цитаты норм закона в теле не используются - только пересказ. Лимит ≤600 знаков соблюдён.",
+    "Внутренние ссылки сверены с published_index: alimenty-pri-bankrotstve-fizlica, bankrotstvo-pri-ipoteke-edinstvennoe-zhilye, bankrotstvo-po-mikrozajmam, kogda-dolgi-ne-spishut-pri-bankrotstve - все опубликованы.",
+    "Внешних ссылок нет: writer не вставлял a-теги на consultant.ru, оставлены только текстовые ссылки на нормы закона."
+  ],
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "text_chars": 7497,
+  "keyword_density_main": 0.006,
+  "main_keyword_exact_count": 2,
+  "length_status": "ok",
+  "length_kind": "default",
+  "local_spam_top10_share": 0.087,
+  "local_spam_ngram3_repeat": 0.019,
+  "local_lexical_diversity": 0.599,
+  "local_ai_markers_density": 0.21,
+  "local_ai_markers_total": 2,
+  "local_ai_markers_critical": 0,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 3,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 53,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность чуть выше 50% (~53%)"
+  ],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779357941/articles/ocherednost-trebovanij-kreditorov-pri-bankrotstve-fizlica-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1779357941/articles/ocherednost-trebovanij-kreditorov-pri-bankrotstve-fizlica-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Close-up cinematic photograph of legal implements arranged as if mid-process on a dark walnut surface. Foreground center: a brass scales of justice with empty balanced pans, flanked on the left by a sand-filled hourglass mid-flow and on the right by a stack of three closed dossiers tied with cord. Behind the scales: two closed law books with embossed gilt spines resting at an angle, a polished round seal pressed against the lower dossier, and a bunch of brass keys on a heavy ring draped across the stack. Camera: tabletop level, three-quarter angle, slight low-angle to give the scales prominence. Lighting: soft directional sidelight from upper left casting long elegant shadows across the walnut grain, warm specular highlights on brass surfaces. Materials: brass, dark walnut, weathered leather cord. Atmosphere: structured due process underway, layered priority, formal allocation.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-05-21T10:05:42Z",
+  "date_published": "2026-05-21",
+  "date_modified": "2026-05-21",
+  "ready_for_review": true,
+  "ready_at": "2026-05-21T10:05:42Z",
+  "publication_target": "telegram_review"
+}

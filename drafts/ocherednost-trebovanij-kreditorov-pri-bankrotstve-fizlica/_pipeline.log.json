@@ -1,0 +1,31 @@
+{
+  "slug": "ocherednost-trebovanij-kreditorov-pri-bankrotstve-fizlica",
+  "category": "fiz",
+  "started_at": "2026-05-21T13:05:58",
+  "finished_at": null,
+  "total_duration_sec": null,
+  "current_iteration": 1,
+  "events": [
+    {
+      "ts": "2026-05-21T13:05:58",
+      "agent": "scheduler",
+      "event": "slot_started",
+      "iteration": 1,
+      "today_count": 5,
+      "limit": 10,
+      "write_article_duration_sec": 2480.7
+    },
+    {
+      "ts": "2026-05-21T13:05:58",
+      "agent": "quality_gate",
+      "event": "passed",
+      "iteration": 1,
+      "blockers": [],
+      "warnings": [
+        "Автофикс применил правки: сокращения=2, пунктуация=0",
+        "internal_links_autofixed: 4 ссылок (например /articles/fiz/alimenty-pri-bankrotstve-fizlica.html→/articles/fiz/alimenty-pri-bankrotstve-fizlica; /articles/fiz/bankrotstvo-pri-ipoteke-edinstvennoe-zhilye.html→/articles/fiz/bankrotstvo-pri-ipoteke-edinstvennoe-zhilye; /articles/fiz/bankrotstvo-po-mikrozajmam.html→/articles/fiz/bankrotstvo-po-mikrozajmam)"
+      ],
+      "recommendations": []
+    }
+  ]
+}
