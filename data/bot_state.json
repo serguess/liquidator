@@ -2190,7 +2190,7 @@
     "ostatok-prodazhi-ipotechnogo-zhilya-bankrotstvo-vs": {
       "category": "news",
       "title": "Остаток от продажи ипотечного жилья - должнику: позиция ВС",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -2198,13 +2198,15 @@
       "tg_message_id": 797,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-20T20:10:55",
-      "last_action_at": "2026-05-20T20:10:55",
+      "last_action_at": "2026-05-21T12:58:28",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/news/ostatok-prodazhi-ipotechnogo-zhilya-bankrotstvo-vs",
       "pending_batch": false,
       "pending_batch_at": "2026-05-20T20:10:55",
-      "batch_sent_at": "2026-05-21T10:00:17"
+      "batch_sent_at": "2026-05-21T10:00:17",
+      "published_at": "2026-05-21T12:58:28",
+      "articles_path": "articles/news/ostatok-prodazhi-ipotechnogo-zhilya-bankrotstvo-vs.html"
     },
     "konkursnaya-massa-pri-bankrotstve-fizlica": {
       "category": "fiz",
