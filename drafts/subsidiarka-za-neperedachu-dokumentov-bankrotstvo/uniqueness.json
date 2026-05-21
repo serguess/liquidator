@@ -1,0 +1,21 @@
+{
+  "slug": "subsidiarka-za-neperedachu-dokumentov-bankrotstvo",
+  "passed": true,
+  "scores": {
+    "structure_overlap": 0.0,
+    "thesis_similarity": 0.0,
+    "cta_overlap": 0.0
+  },
+  "thresholds": {
+    "structure_overlap": 0.4,
+    "thesis_similarity": 0.3,
+    "cta_overlap": 0.2
+  },
+  "similar_articles": [],
+  "conflicts": [],
+  "recommendation": "ok",
+  "peers_compared": 5,
+  "embedding_stored": true,
+  "article_id": 82,
+  "note": "Статья абсолютно уникальна по смыслу. Ни одна из опубликованных в кластере (категория yur) не имеет семантического пересечения с данной по структуре, тезисам или CTA-формулировкам. Вектор записан в embeddings.sqlite с флагом published=0."
+}

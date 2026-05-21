@@ -1227,6 +1227,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "subsidiarka-za-neperedachu-dokumentov-bankrotstvo",
+      "category": "yur",
+      "title": "Субсидиарка за непередачу документов при банкротстве",
+      "added_at": "2026-05-21T08:17:28.831403",
+      "char_count": 8328,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779340647/articles/subsidiarka-za-neperedachu-dokumentov-bankrotstvo-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": false,
+        "hard_failed": false
+      }
     }
   ]
 }
