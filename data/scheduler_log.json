@@ -5992,5 +5992,61 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-05-21T17:12:01",
+    "category": "vzysk",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 12,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "vzysk-38",
+    "topic_slug": "vzyskanie-dolga-s-poruchitelya",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "Автофикс применил правки: сокращения=0, пунктуация=0",
+        "internal_links_autofixed: 3 ссылок (например /articles/vzysk/obespechitelnye-mery-arest-scheta.html→/articles/vzysk/obespechitelnye-mery-arest-scheta; /articles/vzysk/srok-iskovoj-davnosti-po-kreditu.html→/articles/vzysk/srok-iskovoj-davnosti-po-kreditu; /articles/fiz/bankrotstvo-pri-poruchitelstve.html→/articles/fiz/bankrotstvo-pri-poruchitelstve)",
+        "spam_soft_passed: ratio-флаги мягкие при iter=6, targeted_tokens чистые → пропускаем (spam ≈48-52% по прогнозу)"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "vzyskanie-dolga-s-poruchitelya",
+    "duration_sec": 2186.9,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": " |\n| Статус | `ready_for_review=true`, добавлена в очередь TG-ревью |\n| Файл | `drafts/vzyskanie-dolga-s-poruchitelya/article.html` |\n\n**Прогнозные метрики text.ru** (реальные появятся после проверки вручную):\n- `textru_ai_detector`: —\n- `textru_uniqueness`: —\n- `textru_spam`: —\n- Прогноз quality_gate: spam ~58%, AI ~3%, uniqueness ~87%\n\nРиск-флаг: заспамленность чуть выше 50% (~58%) — quality_gate пропустил как soft при iter=5 и чистых targeted_tokens. Статья в очереди на ревью в Telegram-боте.",
+    "stderr_tail": "",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7757
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]
