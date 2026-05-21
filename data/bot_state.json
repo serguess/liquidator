@@ -2093,6 +2093,211 @@
     "vzyskanie-sudebnyh-rashodov": {
       "category": "vzysk",
       "title": "Взыскание судебных расходов с проигравшей стороны",
+      "status": "published",
+      "current_version": "2.2",
+      "versions": [
+        "2.0",
+        "2.1",
+        "2.2"
+      ],
+      "tg_message_id": 789,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-05-20T10:32:52",
+      "last_action_at": "2026-05-21T12:49:50",
+      "edits_history": [
+        {
+          "version": "2.1",
+          "edit_text": "Я не знаю, откуда ты взял норму, что 6 месяцев срок на предъявление судебных расходов в арбитраже, но это неправда. Ты пропиши правильно, что в арбитражном суде другие сроки на взыскание судебных расходов.",
+          "applied_at": "2026-05-21T12:46:06"
+        },
+        {
+          "version": "2.2",
+          "edit_text": "Ты прочитай статью 112 ПК РФ и приведи в соответствии с ней. Там срок тоже трехмесячный. Почему ты пишешь, что сначала полгода, потом отличается от ГПК? Он не отличается, там три месяца тоже.",
+          "applied_at": "2026-05-21T12:48:53"
+        }
+      ],
+      "rejection_reason": null,
+      "published_url": "https://pravo.shop/articles/vzysk/vzyskanie-sudebnyh-rashodov",
+      "pending_batch": false,
+      "pending_batch_at": "2026-05-20T10:32:52",
+      "batch_sent_at": "2026-05-21T10:00:08",
+      "published_at": "2026-05-21T12:49:50",
+      "articles_path": "articles/vzysk/vzyskanie-sudebnyh-rashodov.html"
+    },
+    "zhaloba-na-finansovogo-upravlyayushchego": {
+      "category": "fiz",
+      "title": "Жалоба на финансового управляющего: куда подать",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 791,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-05-20T13:13:52",
+      "last_action_at": "2026-05-20T13:13:52",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-05-20T13:13:52",
+      "batch_sent_at": "2026-05-21T10:00:10"
+    },
+    "ustupka-prava-trebovaniya-pered-bankrotstvom": {
+      "category": "yur",
+      "title": "Уступка права требования перед банкротством: риски",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 793,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-05-20T15:27:53",
+      "last_action_at": "2026-05-20T15:27:53",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-05-20T15:27:53",
+      "batch_sent_at": "2026-05-21T10:00:12"
+    },
+    "zaochnoe-reshenie-suda-otmena": {
+      "category": "vzysk",
+      "title": "Заочное решение суда - как отменить и что делать",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 795,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-05-20T17:48:54",
+      "last_action_at": "2026-05-20T17:48:54",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-05-20T17:48:54",
+      "batch_sent_at": "2026-05-21T10:00:14"
+    },
+    "ostatok-prodazhi-ipotechnogo-zhilya-bankrotstvo-vs": {
+      "category": "news",
+      "title": "Остаток от продажи ипотечного жилья - должнику: позиция ВС",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 797,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-05-20T20:10:55",
+      "last_action_at": "2026-05-20T20:10:55",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-05-20T20:10:55",
+      "batch_sent_at": "2026-05-21T10:00:17"
+    },
+    "konkursnaya-massa-pri-bankrotstve-fizlica": {
+      "category": "fiz",
+      "title": "Конкурсная масса при банкротстве физлица: что входит",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 799,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-05-20T22:36:55",
+      "last_action_at": "2026-05-20T22:36:55",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-05-20T22:36:55",
+      "batch_sent_at": "2026-05-21T10:00:19"
+    },
+    "bankrotstvo-malogo-biznesa-msp": {
+      "category": "yur",
+      "title": "Банкротство МСП: порядок процедуры для малого бизнеса",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 801,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-05-21T01:06:56",
+      "last_action_at": "2026-05-21T01:06:56",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-05-21T01:06:56",
+      "batch_sent_at": "2026-05-21T10:00:21"
+    },
+    "vzyskanie-zarplaty-s-rabotodatelya": {
+      "category": "vzysk",
+      "title": "Взыскание задолженности по зарплате с работодателя",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 803,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-05-21T03:26:57",
+      "last_action_at": "2026-05-21T03:26:57",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-05-21T03:26:57",
+      "batch_sent_at": "2026-05-21T10:00:23"
+    },
+    "pristavy-i-bankrotstvo-fizlica": {
+      "category": "fiz",
+      "title": "Приставы и банкротство физлица: что меняется",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 805,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-05-21T05:43:58",
+      "last_action_at": "2026-05-21T05:43:58",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-05-21T05:43:58",
+      "batch_sent_at": "2026-05-21T10:00:25"
+    },
+    "subsidiarka-za-neperedachu-dokumentov-bankrotstvo": {
+      "category": "yur",
+      "title": "Субсидиарка за непередачу документов при банкротстве",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 807,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-05-21T08:17:58",
+      "last_action_at": "2026-05-21T08:17:58",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-05-21T08:17:58",
+      "batch_sent_at": "2026-05-21T10:00:27"
+    },
+    "chto-takoe-ispolnitelnoe-proizvodstvo": {
+      "category": "vzysk",
+      "title": "Исполнительное производство: что это и как работает",
       "status": "pending_review",
       "current_version": "2.0",
       "versions": [
@@ -2100,17 +2305,17 @@
       ],
       "tg_message_id": null,
       "tg_chat_id": null,
-      "first_seen_at": "2026-05-20T10:32:52",
-      "last_action_at": "2026-05-20T10:32:52",
+      "first_seen_at": "2026-05-21T10:41:59",
+      "last_action_at": "2026-05-21T10:41:59",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
       "pending_batch": true,
-      "pending_batch_at": "2026-05-20T10:32:52"
+      "pending_batch_at": "2026-05-21T10:41:59"
     }
   },
   "pending_actions": [],
-  "last_batch_date": "2026-05-20",
+  "last_batch_date": "2026-05-21",
   "last_batch_count": 10,
-  "last_batch_at": "2026-05-20T10:05:07"
+  "last_batch_at": "2026-05-21T10:00:27"
 }

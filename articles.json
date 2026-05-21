@@ -1,6 +1,19 @@
 {
-  "generated": "2026-05-20",
+  "generated": "2026-05-21",
   "articles": [
+    {
+      "slug": "vzyskanie-sudebnyh-rashodov",
+      "cat": "vzysk",
+      "catLabel": "Взыскание задолженности",
+      "title": "Взыскание судебных расходов с проигравшей стороны",
+      "desc": "Как взыскать госпошлину и расходы на представителя с ответчика. Срок подачи заявления - 3 месяца, порядок по ГПК и АПК, критерии разумных пределов.",
+      "date": "21 мая 2026",
+      "dateIso": "2026-05-21",
+      "read": "5 мин.",
+      "tone": "b",
+      "img": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779262340/articles/vzyskanie-sudebnyh-rashodov-cover.jpg",
+      "url": "articles/vzysk/vzyskanie-sudebnyh-rashodov"
+    },
     {
       "slug": "osparivanie-trebovanij-v-reestre-kreditorov",
       "cat": "yur",
