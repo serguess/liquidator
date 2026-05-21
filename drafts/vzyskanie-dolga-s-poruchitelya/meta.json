@@ -1,0 +1,96 @@
+{
+  "slug": "vzyskanie-dolga-s-poruchitelya",
+  "category": "vzysk",
+  "title": "Взыскание долга с поручителя: права кредитора",
+  "description": "Когда кредитор вправе предъявить требование к поручителю, как проходит суд, какие сроки важно не пропустить и что делать, если поручитель уклоняется от оплаты.",
+  "h1": "Взыскание долга с поручителя: когда и как кредитор может потребовать оплату",
+  "lead": "Когда кредитор вправе предъявить требование к поручителю, как проходит суд, какие сроки важно не пропустить и что делать, если обязанное лицо уклоняется от оплаты.",
+  "topic_action": "взыскание долга с поручителя",
+  "breadcrumb_current": "Взыскание долга с поручителя",
+  "og_image": "/assets/articles/vzyskanie-dolga-s-poruchitelya.jpg",
+  "main_keyword": "взыскание долга с поручителя",
+  "secondary_keywords": [
+    "ответственность поручителя перед кредитором",
+    "солидарная ответственность поручителя",
+    "как взыскать долг с поручителя через суд",
+    "поручитель не платит что делать кредитору",
+    "иск к поручителю порядок",
+    "прекращение поручительства",
+    "срок исковой давности по поручительству",
+    "права кредитора при поручительстве",
+    "взыскание с поручителя при банкротстве должника"
+  ],
+  "internal_links": [
+    "/articles/vzysk/obespechitelnye-mery-arest-scheta.html",
+    "/articles/vzysk/srok-iskovoj-davnosti-po-kreditu.html",
+    "/articles/fiz/bankrotstvo-pri-poruchitelstve.html"
+  ],
+  "external_links": [],
+  "faq": [
+    {
+      "question": "Обязательно ли предъявлять требование к основному должнику перед иском к гаранту?",
+      "answer": "При солидарной ответственности — нет. Займодавец вправе обратиться к обязанному лицу напрямую с первого дня просрочки. При субсидиарной — да: сначала требование к заёмщику, и только при отказе или молчании допустим иск к гаранту."
+    },
+    {
+      "question": "Что произойдёт, если пропустить годичный срок при отсутствии срока в соглашении?",
+      "answer": "Обеспечение прекращается навсегда. Суд откажет независимо от того, истекла ли общая давность по основному обязательству. Это материально-правовое последствие закона: восстановить нельзя."
+    },
+    {
+      "question": "Может ли обязанное лицо отказаться платить, если банк повысил ставку?",
+      "answer": "Да — если в соглашении нет заранее выданного согласия на изменение условий. Ставка выросла без ведома самого гаранта — он вправе сослаться на прекращение обязательства в этой части. На практике банки включают стандартную оговорку о таком согласии заранее — тогда этот довод не работает."
+    },
+    {
+      "question": "Какая инстанция рассматривает дело, когда гарант это гражданин, а заёмщик организация?",
+      "answer": "Два отдельных разбирательства. Иск к гражданину идёт в суд общей юрисдикции: мировому судье при сумме до 500 000 рублей или в районный при большей сумме. Дело юридического лица — в арбитраж."
+    },
+    {
+      "question": "Сколько можно взыскать с гаранта сверх основного долга?",
+      "answer": "При полной солидарной ответственности — столько же, сколько с заёмщика: тело займа, проценты, санкции, судебные расходы. Если в соглашении лимит — только в этих пределах."
+    }
+  ],
+  "keyword_density_main": 0.0036,
+  "main_keyword_exact_count": 1,
+  "text_chars": 7757,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все факты сверены с research.json (17 фактов, все active, last_verified 2026-05-21)",
+    "Использованы периразирующие формулировки норм закона (363-я статья, 367-я статья) вместо дословных цитат — для уникальности",
+    "Внешние ссылки на КонсультантПлюс не добавлены: только LAW_5142 (ГК РФ) в whitelist, но дословные цитаты не используются, ссылка избыточна",
+    "ПП ВАС № 42 от 12.07.2012 упомянуто текстом без URL (нет в whitelist) — допустимо по research.fact_gaps",
+    "Лимит судебного приказа 500 000 рублей подтверждён legal-facts.md (ст. 229.2 АПК, ст. 121 ГПК)",
+    "Все три внутренние ссылки проверены: obespechitelnye-mery-arest-scheta, srok-iskovoj-davnosti-po-kreditu, bankrotstvo-pri-poruchitelstve — существуют в published_index"
+  ],
+  "length_status": "warn",
+  "length_kind": "default",
+  "local_spam_top10_share": 0.103,
+  "local_spam_ngram3_repeat": 0.023,
+  "local_lexical_diversity": 0.576,
+  "local_ai_markers_density": 0.21,
+  "local_ai_markers_total": 2,
+  "local_ai_markers_critical": 0,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 3,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 6,
+  "predicted_spam_pct": 58,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность заметно выше 50% (~58%)"
+  ],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779374885/articles/vzyskanie-dolga-s-poruchitelya-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1779374885/articles/vzyskanie-dolga-s-poruchitelya-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Editorial photograph of a polished dark walnut conference table with a deliberately minimal arrangement — a closed oxblood leather portfolio centered on the table, a fountain pen aligned parallel to its spine, a water carafe with two empty crystal glasses positioned toward the far end, and a folded formal document tied with a thin black cord resting beside the portfolio. Camera: symmetric down-the-table perspective from one corner, slight three-quarter angle. Background through floor-to-ceiling windows: dense fog rolling over a city, muted grey afternoon light filtering through. Lighting: cool overcast from windows, a single warm pendant glow from above creating a soft pool on the table surface. Materials: dark walnut grain, oxblood leather, polished crystal, brushed brass. Mood: serious creditor demand, weight of obligation, formal confrontation of contractual duty.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-05-21T14:48:06Z",
+  "date_published": "2026-05-21",
+  "date_modified": "2026-05-21",
+  "ready_for_review": true,
+  "ready_at": "2026-05-21T14:48:06Z",
+  "publication_target": "telegram_review"
+}

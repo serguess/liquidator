@@ -1279,6 +1279,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "vzyskanie-dolga-s-poruchitelya",
+      "category": "vzysk",
+      "title": "Взыскание долга с поручителя: права кредитора",
+      "added_at": "2026-05-21T17:48:06.273152",
+      "char_count": 7757,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779374885/articles/vzyskanie-dolga-s-poruchitelya-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

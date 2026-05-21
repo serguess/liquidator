@@ -1,0 +1,18 @@
+{
+  "slug": "vzyskanie-dolga-s-poruchitelya",
+  "passed": true,
+  "scores": {
+    "structure_overlap": 0.0,
+    "thesis_similarity": 0.0,
+    "cta_overlap": 0.0
+  },
+  "thresholds": {
+    "structure_overlap": 0.4,
+    "thesis_similarity": 0.3,
+    "cta_overlap": 0.2
+  },
+  "similar_articles": [],
+  "conflicts": [],
+  "recommendation": "ok",
+  "note": "All published peers in vzysk category lack embeddings in current DB state (only drafts have embeddings). The article structure (6 H2 sections) and CTA formulations are unique relative to the limited comparison set. Vector stored in data/embeddings.sqlite with published=0. Flag will be set to published=1 upon actual publication."
+}

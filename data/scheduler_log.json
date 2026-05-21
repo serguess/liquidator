@@ -5938,5 +5938,59 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-05-21T14:48:37",
+    "category": "yur",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 11,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "yur-48",
+    "topic_slug": "obespechitelnye-mery-bankrotstvo-yurlica",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "Автофикс применил правки: сокращения=2, пунктуация=0"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "obespechitelnye-mery-bankrotstvo-yurlica",
+    "duration_sec": 2471.8,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "te:** passed (exit 0), blockers: нет  \n**Uniqueness:** passed (семантическое сходство 0% с опубликованными)  \n**Factcheck:** passed (17 фактов из research.json верифицированы)\n\n**Метрики (predicted из quality_gate):**\n- `textru_spam`: 49% (под порогом 50%)\n- `textru_ai_detector`: 3%\n- `textru_uniqueness`: 87%\n\n**Обложка:** сгенерирована (template 7), загружена на Cloudinary  \n**Статус:** `ready_for_review: true`, добавлена в очередь ревью (item 98)\n\nСтатья ожидает публикации через Telegram-бота.",
+    "stderr_tail": "",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7975
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]
