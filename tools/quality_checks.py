@@ -104,6 +104,7 @@ class SpamHeuristics:
     ngram3_total: int
     ngram3_repeat_share: float
     risk_flags: list[str]
+    word_warnings: list[str] = field(default_factory=list)  # слова топ-10 с count > 9
 
 
 @dataclass
@@ -427,6 +428,20 @@ def compute_spam_heuristics(text: str) -> SpamHeuristics:
     if lexical_diversity < 0.58:
         risk_flags.append(f"lexical_diversity<{0.58} (={lexical_diversity})")
 
+    # Per-word feedback: слова из топ-10 с count > 9 (порог writer'а).
+    # НЕ блокируют gate, но дают writer'у точный вектор правки в Pass C.
+    # Добавлено 21 мая 2026: без этого writer видит только top10_share и
+    # не знает КАКИЕ конкретно слова снижать. С feedback Pass C сходится
+    # за 1 цикл вместо 2.
+    word_warnings = []
+    for lemma, count in top10:
+        if count > 9:
+            word_warnings.append(
+                f"⚠ «{lemma}»: {count} → снизить до ≤9. "
+                f"Заменить {count - 9} вхождений "
+                f"перифразами из topic_terms/category-periph.md"
+            )
+
     return SpamHeuristics(
         total_words=total_words,
         unique_lemmas=unique_lemmas,
@@ -440,6 +455,7 @@ def compute_spam_heuristics(text: str) -> SpamHeuristics:
         ngram3_total=total_ngrams,
         ngram3_repeat_share=ngram3_repeat_share,
         risk_flags=risk_flags,
+        word_warnings=word_warnings,
     )
 
 
@@ -866,6 +882,10 @@ def print_report(rep: Report) -> None:
         print(f"  Топ-10 доля: {s.top10_share * 100:.1f}% (цель ≤11.5%)")
         print(f"  Повторы 3-граммов: {s.ngram3_repeat_share * 100:.1f}% (цель ≤3.5%)")
         print(f"  Топ-5 частотных лемм: {s.top10_words[:5]}")
+        if s.word_warnings:
+            print(f"\n  [FEEDBACK] Слова в топ-10 с count > 9 (заменить перифразами):")
+            for w in s.word_warnings:
+                print(f"    {w}")
         if s.risk_flags:
             print(f"  [RISK] Превышены пороги: {s.risk_flags}")
             print(f"  [FAIL] Возврат на писателя: снизить плотность повторов.")
