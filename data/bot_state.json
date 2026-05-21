@@ -2169,7 +2169,7 @@
     "zaochnoe-reshenie-suda-otmena": {
       "category": "vzysk",
       "title": "Заочное решение суда - как отменить и что делать",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -2177,13 +2177,15 @@
       "tg_message_id": 795,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-20T17:48:54",
-      "last_action_at": "2026-05-20T17:48:54",
+      "last_action_at": "2026-05-21T12:56:43",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/vzysk/zaochnoe-reshenie-suda-otmena",
       "pending_batch": false,
       "pending_batch_at": "2026-05-20T17:48:54",
-      "batch_sent_at": "2026-05-21T10:00:14"
+      "batch_sent_at": "2026-05-21T10:00:14",
+      "published_at": "2026-05-21T12:56:43",
+      "articles_path": "articles/vzysk/zaochnoe-reshenie-suda-otmena.html"
     },
     "ostatok-prodazhi-ipotechnogo-zhilya-bankrotstvo-vs": {
       "category": "news",
