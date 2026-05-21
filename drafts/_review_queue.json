@@ -1266,6 +1266,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "obespechitelnye-mery-bankrotstvo-yurlica",
+      "category": "yur",
+      "title": "Обеспечительные меры при банкротстве юрлица",
+      "added_at": "2026-05-21T15:29:36.074100",
+      "char_count": 7975,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779366574/articles/obespechitelnye-mery-bankrotstvo-yurlica-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

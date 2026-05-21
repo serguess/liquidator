@@ -3091,6 +3091,25 @@
       "articles": [
         "ocherednost-trebovanij-kreditorov-pri-bankrotstve-fizlica"
       ]
+    },
+    {
+      "id": "yur-obespechitelnye-mery-bankrotstvo",
+      "category": "yur",
+      "subtopic": "обеспечительные меры при банкротстве юрлица: арест активов должника и КДЛ",
+      "intent": "informational",
+      "funnel_stage": "warm",
+      "main_keyword": "обеспечительные меры при банкротстве юрлица",
+      "related_keywords": [
+        "арест активов при банкротстве",
+        "обеспечительные меры ст 46 закона о банкротстве",
+        "ходатайство об обеспечительных мерах в банкротстве",
+        "арест имущества контролирующих лиц при банкротстве",
+        "обеспечительные меры в отношении третьих лиц при банкротстве",
+        "отмена обеспечительных мер при банкротстве юрлица"
+      ],
+      "articles": [
+        "obespechitelnye-mery-bankrotstvo-yurlica"
+      ]
     }
   ]
 }

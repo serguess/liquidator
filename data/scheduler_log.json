@@ -5883,5 +5883,60 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-05-21T12:24:37",
+    "category": "fiz",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 27,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "fiz-54",
+    "topic_slug": "ocherednost-trebovanij-kreditorov-pri-bankrotstve-fizlica",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "Автофикс применил правки: сокращения=2, пунктуация=0",
+        "internal_links_autofixed: 4 ссылок (например /articles/fiz/alimenty-pri-bankrotstve-fizlica.html→/articles/fiz/alimenty-pri-bankrotstve-fizlica; /articles/fiz/bankrotstvo-pri-ipoteke-edinstvennoe-zhilye.html→/articles/fiz/bankrotstvo-pri-ipoteke-edinstvennoe-zhilye; /articles/fiz/bankrotstvo-po-mikrozajmam.html→/articles/fiz/bankrotstvo-po-mikrozajmam)"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "ocherednost-trebovanij-kreditorov-pri-bankrotstve-fizlica",
+    "duration_sec": 2480.7,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "-|---|\n| Категория | fiz |\n| Длина статьи | 7 497 знаков |\n| Uniqueness | passed (все метрики 0.0, база мала) |\n| Factcheck | passed |\n| Quality gate | **passed** (exit 0, блокеров нет) |\n| Обложка | сгенерирована (template_id=3), загружена в Cloudinary |\n| Готовность | `ready_for_review: true`, в очереди ревью (97 статей) |\n\n**Прогноз text.ru:**\n- Заспамленность: ~53% (чуть выше 50%, предупреждение — не блокер)\n- ИИ-детектор: ~3%\n- Уникальность: ~87%\n\nСтатья ждёт публикации через Telegram-бота.",
+    "stderr_tail": "",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7497
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]
