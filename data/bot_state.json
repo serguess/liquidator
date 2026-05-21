@@ -2211,7 +2211,7 @@
     "konkursnaya-massa-pri-bankrotstve-fizlica": {
       "category": "fiz",
       "title": "Конкурсная масса при банкротстве физлица: что входит",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -2219,13 +2219,15 @@
       "tg_message_id": 799,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-20T22:36:55",
-      "last_action_at": "2026-05-20T22:36:55",
+      "last_action_at": "2026-05-21T13:00:07",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/fiz/konkursnaya-massa-pri-bankrotstve-fizlica",
       "pending_batch": false,
       "pending_batch_at": "2026-05-20T22:36:55",
-      "batch_sent_at": "2026-05-21T10:00:19"
+      "batch_sent_at": "2026-05-21T10:00:19",
+      "published_at": "2026-05-21T13:00:07",
+      "articles_path": "articles/fiz/konkursnaya-massa-pri-bankrotstve-fizlica.html"
     },
     "bankrotstvo-malogo-biznesa-msp": {
       "category": "yur",
