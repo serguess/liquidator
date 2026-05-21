@@ -1318,6 +1318,19 @@
         "passed": false,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "subordinaciya-affilirovannyh-kreditorov-bankrotstvo",
+      "category": "yur",
+      "title": "Субординация аффилированных кредиторов при банкротстве",
+      "added_at": "2026-05-22T01:18:04.519370",
+      "char_count": 7996,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779401883/articles/subordinaciya-affilirovannyh-kreditorov-bankrotstvo-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

@@ -1,0 +1,18 @@
+{
+  "slug": "subordinaciya-affilirovannyh-kreditorov-bankrotstvo",
+  "passed": true,
+  "scores": {
+    "structure_overlap": 0.0,
+    "thesis_similarity": 0.0,
+    "cta_overlap": 0.0
+  },
+  "thresholds": {
+    "structure_overlap": 0.4,
+    "thesis_similarity": 0.3,
+    "cta_overlap": 0.2
+  },
+  "similar_articles": [],
+  "conflicts": [],
+  "recommendation": "ok",
+  "note": "Новая категория 'yur' — опубликованных статей в этой категории нет. Сравнение проведено с 5 статьями из других категорий (vzysk). Никаких структурных или семантических дублей не выявлено. Вектор статьи записан в data/embeddings.sqlite (article_id=89, published=0)."
+}

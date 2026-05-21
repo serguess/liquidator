@@ -6100,5 +6100,61 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-05-21T22:00:27",
+    "category": "fiz",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 16,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "fiz-55",
+    "topic_slug": "pervoe-zasedanie-suda-bankrotstvo-fizlica",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "Автофикс применил правки: сокращения=2, пунктуация=0",
+        "internal_links_autofixed: 4 ссылок (например /articles/fiz/kak-podat-na-bankrotstvo-samostoyatelno.html→/articles/fiz/kak-podat-na-bankrotstvo-samostoyatelno; /articles/fiz/konkursnaya-massa-pri-bankrotstve-fizlica.html→/articles/fiz/konkursnaya-massa-pri-bankrotstve-fizlica; /articles/fiz/pristavy-i-bankrotstvo-fizlica.html→/articles/fiz/pristavy-i-bankrotstvo-fizlica)",
+        "length_soft_passed: 8046 > 8000 но ≤ 8500 и iteration=2 — пропускаем (приоритет spam/uniqueness/ai)"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "pervoe-zasedanie-suda-bankrotstvo-fizlica",
+    "duration_sec": 1847.3,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "_failed: false, soft-блокеры на iter=1)\n**Uniqueness:** passed (similarity 0.0)\n**Factcheck:** passed\n**Обложка:** сгенерирована (template_id=4, весы правосудия + песочные часы + папка с документами)\n**Режим:** ready_for_review, добавлен в очередь TG-ревью (101-й элемент)\n**Файл:** `drafts/pervoe-zasedanie-suda-bankrotstvo-fizlica/article.html`\n\n**text.ru метрики:** ещё не проверялись (textru_ai_detector / textru_uniqueness / textru_spam = null — проверка происходит асинхронно после публикации).",
+    "stderr_tail": "",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 8046
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]
