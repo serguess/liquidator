@@ -5605,5 +5605,60 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-05-21T00:24:01",
+    "category": "yur",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 22,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "yur-46",
+    "topic_slug": "bankrotstvo-malogo-biznesa-msp",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "internal_links_autofixed: 4 ссылок (например /uproshchennoe-bankrotstvo-yurlica.html→/articles/yur/uproshchennoe-bankrotstvo-yurlica; /rashody-na-bankrotstvo-yurlica.html→/articles/yur/rashody-na-bankrotstvo-yurlica; /subsidiarka-direktora-kak-zashchititsya.html→/articles/yur/subsidiarka-direktora-kak-zashchititsya)",
+        "length_soft_passed: 8146 > 8000 но ≤ 8500 и iteration=4 — пропускаем (приоритет spam/uniqueness/ai)"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "bankrotstvo-malogo-biznesa-msp",
+    "duration_sec": 2538.1,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "ь:** `drafts/bankrotstvo-malogo-biznesa-msp/article.html`\n\n**Метрики (предсказание quality_gate):**\n- `textru_spam`: 49%\n- `textru_ai_detector`: 3%\n- `textru_uniqueness`: 87%\n\n**Проверки:**\n- Каннибализация: warn (близкий кластер ИП, конфликта нет)\n- Uniqueness (эмбеддинги): passed\n- Factcheck: passed\n- Quality gate: passed (exit 0, blockers: 0)\n- Обложка: сгенерирована и загружена на Cloudinary (шаблон #19)\n\nСтатья добавлена в очередь ревью Telegram (item #92). Публикация — через бот заказчика.",
+    "stderr_tail": "",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 8146
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]
