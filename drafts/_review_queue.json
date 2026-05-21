@@ -1305,6 +1305,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "pervoe-zasedanie-suda-bankrotstvo-fizlica",
+      "category": "fiz",
+      "title": "Первое заседание по банкротству физлица: как пройдёт",
+      "added_at": "2026-05-21T22:30:57.296380",
+      "char_count": 8046,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779391856/articles/pervoe-zasedanie-suda-bankrotstvo-fizlica-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": false,
+        "hard_failed": false
+      }
     }
   ]
 }

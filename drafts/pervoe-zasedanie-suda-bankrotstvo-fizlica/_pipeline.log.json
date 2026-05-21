@@ -1,0 +1,32 @@
+{
+  "slug": "pervoe-zasedanie-suda-bankrotstvo-fizlica",
+  "category": "fiz",
+  "started_at": "2026-05-21T22:31:14",
+  "finished_at": null,
+  "total_duration_sec": null,
+  "current_iteration": 1,
+  "events": [
+    {
+      "ts": "2026-05-21T22:31:14",
+      "agent": "scheduler",
+      "event": "slot_started",
+      "iteration": 1,
+      "today_count": 9,
+      "limit": 10,
+      "write_article_duration_sec": 1847.3
+    },
+    {
+      "ts": "2026-05-21T22:31:14",
+      "agent": "quality_gate",
+      "event": "passed",
+      "iteration": 1,
+      "blockers": [],
+      "warnings": [
+        "Автофикс применил правки: сокращения=2, пунктуация=0",
+        "internal_links_autofixed: 4 ссылок (например /articles/fiz/kak-podat-na-bankrotstvo-samostoyatelno.html→/articles/fiz/kak-podat-na-bankrotstvo-samostoyatelno; /articles/fiz/konkursnaya-massa-pri-bankrotstve-fizlica.html→/articles/fiz/konkursnaya-massa-pri-bankrotstve-fizlica; /articles/fiz/pristavy-i-bankrotstvo-fizlica.html→/articles/fiz/pristavy-i-bankrotstvo-fizlica)",
+        "length_soft_passed: 8046 > 8000 но ≤ 8500 и iteration=2 — пропускаем (приоритет spam/uniqueness/ai)"
+      ],
+      "recommendations": []
+    }
+  ]
+}

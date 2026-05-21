@@ -1,0 +1,100 @@
+{
+  "slug": "pervoe-zasedanie-suda-bankrotstvo-fizlica",
+  "category": "fiz",
+  "title": "Первое заседание по банкротству физлица: как пройдёт",
+  "description": "Что суд проверяет на первом заседании, какие вопросы задаёт судья, как вводится реструктуризация или реализация имущества и что делать должнику.",
+  "h1": "Первое заседание суда по банкротству физлица: что происходит и как к нему готовиться",
+  "lead": "За 30–40 минут слушания арбитражный суд решает: признать ли поданные документы обоснованными, какую процедуру ввести и кого утвердить финансовым управляющим.",
+  "topic_action": "подготовку к первому заседанию по банкротству",
+  "offer": "proverka-spisaniya",
+  "breadcrumb_current": "Первое заседание по банкротству физлица",
+  "og_image": "/assets/articles/pervoe-zasedanie-suda-bankrotstvo-fizlica.jpg",
+  "main_keyword": "первое заседание суда по банкротству физлица",
+  "secondary_keywords": [
+    "как проходит первое заседание по банкротству",
+    "что спрашивает судья на банкротстве",
+    "обоснованность заявления о банкротстве физлица",
+    "реструктуризация долгов после первого суда",
+    "финансовый управляющий первое заседание",
+    "как подготовиться к суду по банкротству",
+    "определение суда о банкротстве физлица"
+  ],
+  "internal_links": [
+    "/articles/fiz/kak-podat-na-bankrotstvo-samostoyatelno.html",
+    "/articles/fiz/konkursnaya-massa-pri-bankrotstve-fizlica.html",
+    "/articles/fiz/pristavy-i-bankrotstvo-fizlica.html",
+    "/articles/fiz/kogda-dolgi-ne-spishut-pri-bankrotstve.html"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/"
+  ],
+  "faq": [
+    {
+      "question": "Что будет, если не прийти на первое слушание по делу?",
+      "answer": "При надлежащем извещении судья рассмотрит вопрос без заявителя. Неявка сама по себе не блокирует процесс. Поведение в деле оценивается в совокупности: систематическое уклонение вместе с иными обстоятельствами влияет на оценку добросовестности."
+    },
+    {
+      "question": "Можно ли сразу перейти к реализации имущества, минуя этап реструктуризации?",
+      "answer": "Да. Написать об этом можно уже в первичном обращении или непосредственно на слушании. Арбитраж удовлетворит просьбу при отсутствии стабильного дохода, предыдущем признании несостоятельным и в ряде других случаев."
+    },
+    {
+      "question": "Сколько времени пройдёт от подачи до даты в арбитраже?",
+      "answer": "Слушание ставят в диапазоне от 15 дней до трёх месяцев с момента принятия бумаг. В реальности — 1–2 месяца."
+    },
+    {
+      "question": "Какие долги не спишутся даже после завершения всей процедуры?",
+      "answer": "Алименты, компенсация за вред жизни и здоровью, обязательства из умышленного ущерба, субсидиарная ответственность, требования из мошеннических действий при оформлении займа."
+    },
+    {
+      "question": "Обязательно ли вносить 25 тысяч рублей на депозит до начала рассмотрения?",
+      "answer": "Да. Без этого взноса управляющего не утвердят и процедура не запустится. Госпошлина не взимается: с осени 2024 года этот платёж отменён."
+    },
+    {
+      "question": "Чем арбитражный суд отличается от районного при подаче гражданином?",
+      "answer": "Несостоятельность граждан рассматривает только арбитраж по месту жительства. Районная инстанция таких дел не ведёт."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все 17 фактов из research.json сверены: legislation_status=active, last_verified=2026-05-21",
+    "Госпошлина: использована формулировка legal-facts.md — с 8 сентября 2024 льгота по ст. 333.37 НК РФ, депозит 25 000 руб. на вознаграждение ФУ (п. 3 ст. 20.6 закона 127-ФЗ). Сумма 300 руб. нигде не упоминается",
+    "Единственная внешняя ссылка — на LAW_39331 (127-ФЗ), есть в data/legal_whitelist.json",
+    "Все 4 внутренние ссылки проверены через published_index.json: kak-podat-na-bankrotstvo-samostoyatelno, konkursnaya-massa-pri-bankrotstve-fizlica, pristavy-i-bankrotstvo-fizlica, kogda-dolgi-ne-spishut-pri-bankrotstve",
+    "Прямые цитаты норм закона перифразированы (213.6-я норма, 213.4-я норма, перечень из процессуального кодекса) — для снижения дубля с правовыми порталами",
+    "Запрещённые утверждения research.forbidden_claims проверены: ни одно не использовано"
+  ],
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "text_chars": 8046,
+  "length_status": "too_long",
+  "length_kind": "default",
+  "local_spam_top10_share": 0.093,
+  "local_spam_ngram3_repeat": 0.019,
+  "local_lexical_diversity": 0.659,
+  "local_ai_markers_density": 0.5,
+  "local_ai_markers_total": 5,
+  "local_ai_markers_critical": 0,
+  "local_ai_markers_high": 3,
+  "local_own_voice_hits": 2,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 47,
+  "predicted_ai_pct": 5,
+  "predicted_uniqueness_pct": 90,
+  "customer_risks": [
+    "длина чуть больше лимита 8000 (8 046 знаков)"
+  ],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779391856/articles/pervoe-zasedanie-suda-bankrotstvo-fizlica-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1779391856/articles/pervoe-zasedanie-suda-bankrotstvo-fizlica-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Studio close-up of a tight cluster of three objects against a clean dark graphite seamless background: a polished brass scales of justice with empty balanced pans as the central hero, a sand-filled brass hourglass mid-flow placed slightly to its left, and a closed dark leather case folder with a polished round brass seal resting on top positioned to the right. Soft directional studio light from upper left, precise shadow falloff on the graphite surface, warm specular highlights catching every detail of the brass fittings and the worn leather grain. Camera: slight three-quarter angle, tabletop level, shallow depth of field with the scales in sharpest focus. Palette: deep graphite, warm brass, oxblood leather. Hyperrealistic product-photography polish. Mood: the weight of a judicial decision, formal procedure initiated, measured time of a single hearing.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-05-21T19:30:57Z",
+  "date_published": "2026-05-21",
+  "date_modified": "2026-05-21",
+  "ready_for_review": true,
+  "ready_at": "2026-05-21T19:30:57Z",
+  "publication_target": "telegram_review"
+}

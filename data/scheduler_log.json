@@ -6048,5 +6048,57 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-05-21T19:36:06",
+    "category": "news",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "gents/4-writer.md     | 23 ++++++++++++-----\n .claude/agents/6-seo-editor.md | 15 ++++++++---\n tools/quality_checks.py        | 20 +++++++++++++++\n 4 files changed, 106 insertions(+), 10 deletions(-)\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\nApplied autostash.\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 15,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "news-22",
+    "topic_slug": "nalogovyj-zalog-fns-status-kreditora-bankrotstvo",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "nalogovyj-zalog-fns-status-kreditora-bankrotstvo",
+    "duration_sec": 2242.2,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "s:** passed (structure/thesis/CTA overlap = 0.0)  \n**Factcheck:** passed  \n**Обложка:** сгенерирована (template 12, здание под дождём с латунным замком на ступенях — символ обременения)  \n**Статус:** ready_for_review = true, добавлена в TG-очередь\n\n**text.ru метрики:** не проверялись (textru_ai_detector / uniqueness / spam = null — text.ru запускается отдельно заказчиком)\n\nПредупреждение из quality_gate: `заспамленность чуть выше 50% (~53%)` — мягкий риск, блокером не является, статья в очереди.",
+    "stderr_tail": "",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 6670
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]
