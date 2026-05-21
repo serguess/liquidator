@@ -5660,5 +5660,59 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-05-21T02:48:14",
+    "category": "vzysk",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 23,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "vzysk-36",
+    "topic_slug": "vzyskanie-zarplaty-s-rabotodatelya",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "internal_links_autofixed: 3 ссылок (например /udershanie-iz-zarplaty-pristavami.html→/articles/vzysk/udershanie-iz-zarplaty-pristavami; /ispolnitelnyj-list-poluchenie-predyavlenie.html→/articles/vzysk/ispolnitelnyj-list-poluchenie-predyavlenie; /neispolnenie-resheniya-suda-posledstviya.html→/articles/vzysk/neispolnenie-resheniya-suda-posledstviya)"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "vzyskanie-zarplaty-s-rabotodatelya",
+    "duration_sec": 2306.2,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "044 знаков\n- **Уникальность (агент 5):** passed\n- **Фактчек (агент 6):** passed\n- **Quality gate:** passed, блокеров нет\n- **Обложка:** сгенерирована и загружена на Cloudinary (template_id=17)\n- **Статус:** `ready_for_review: true`, добавлена в TG-очередь (item #93)\n\n**Метрики text.ru:** данные появятся после публикации (реальная проверка через text.ru не запускалась — используются predicted: spam ~47%, AI ~3%, uniqueness ~90%).\n\n**Файл:** `drafts/vzyskanie-zarplaty-s-rabotodatelya/article.html`",
+    "stderr_tail": "",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7044
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]

@@ -1,0 +1,101 @@
+{
+  "slug": "pristavy-i-bankrotstvo-fizlica",
+  "category": "fiz",
+  "title": "Приставы и банкротство физлица: что меняется",
+  "description": "Когда суд вводит процедуру, исполнительное производство приостанавливается, аресты снимаются. Разбираем по шагам: что делают приставы, какие долги остаются, что нужно сделать самому.",
+  "h1": "Что происходит с приставами, когда подаёшь на банкротство",
+  "lead": "Подача заявления приставов не останавливает — рубеж проходит позже, в день определения суда о признании заявления обоснованным. С этого момента включаются мораторий и снятие арестов.",
+  "topic_action": "узнать, закроют ли приставы дело при банкротстве",
+  "breadcrumb_current": "Приставы и банкротство физлица",
+  "og_image": "/assets/articles/pristavy-i-bankrotstvo-fizlica.jpg",
+  "main_keyword": "что происходит с приставами при банкротстве физлица",
+  "secondary_keywords": [
+    "приставы при банкротстве физлица",
+    "исполнительное производство при банкротстве",
+    "приостановление исполнительного производства банкротство",
+    "снятие ареста при банкротстве",
+    "ФССП банкротство физлица",
+    "ст 69.1 закон об исполнительном производстве",
+    "закрытие исполнительного производства при банкротстве"
+  ],
+  "intent": "informational",
+  "funnel_stage": "warm",
+  "article_type": "C",
+  "offer": "proverka-spisaniya",
+  "internal_links": [
+    "/articles/fiz/alimenty-pri-bankrotstve-fizlica.html",
+    "/articles/fiz/bankovskie-scheta-pri-bankrotstve.html"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/"
+  ],
+  "faq": [
+    {
+      "question": "Снимут ли блокировку с зарплатной карты сразу после подачи заявления?",
+      "answer": "Нет. Блокировки снимаются только после определения суда о признании заявления обоснованным. До этого момента исполнители работают в прежнем режиме."
+    },
+    {
+      "question": "Сколько времени занимает снятие арестов?",
+      "answer": "По закону ограничения снимаются с даты судебного акта. Фактически документы доходят до подразделения за 3-7 рабочих дней. Ускорить — прийти самому с копией к исполнителю и в банки."
+    },
+    {
+      "question": "Что произойдёт, если по ошибке возобновят удержание по уже списанному долгу?",
+      "answer": "Это незаконно. Судебный акт об освобождении — основание для прекращения дела. Жалоба старшему исполнителю в течение 10 дней, при неустранении — иск. Удержанные суммы возвращаются."
+    },
+    {
+      "question": "Можно ли подать на банкротство, если по алиментам уже идёт производство?",
+      "answer": "Да. Алиментное удержание продолжается на всех стадиях и после финала — этот вид обязательств не списывается."
+    },
+    {
+      "question": "Запрет на выезд снимают вместе с арестами или отдельно?",
+      "answer": "На практике ограничение на выезд по реестровым обязательствам снимается вместе с другими мерами при введении реструктуризации. Ограничения по уголовному делу это не затрагивает."
+    },
+    {
+      "question": "Чем отличается окончание взыскания от прекращения?",
+      "answer": "Окончание — административное завершение: теоретически можно возобновить. Прекращение — полное и окончательное: основания для удержания исчезают. По долгам, списанным в ходе процедуры, дело именно прекращается."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все факты сверены с research.json от 2026-05-21, legislation_status: active.",
+    "Госпошлина: использована актуальная формулировка (отменена с 8 сентября 2024) согласно legal-facts.md и факту f12.",
+    "Депозит 25 000 руб. — п. 3 ст. 20.6 ФЗ-127 (f12).",
+    "Разграничение приостановление (реструктуризация) vs окончание (реализация) — ст. 69.1 ФЗ-229.",
+    "Сохранена единственная ссылка consultant.ru/LAW_39331 (в whitelist) — на ФЗ-127.",
+    "ПП ВС № 45 от 13.10.2015 упомянут текстом без ссылки (нет в whitelist)."
+  ],
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "text_chars": 7605,
+  "length_status": "warn",
+  "length_kind": "default",
+  "local_spam_top10_share": 0.111,
+  "local_spam_ngram3_repeat": 0.026,
+  "local_lexical_diversity": 0.59,
+  "local_ai_markers_density": 0.32,
+  "local_ai_markers_total": 3,
+  "local_ai_markers_critical": 0,
+  "local_ai_markers_high": 1,
+  "local_own_voice_hits": 2,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 5,
+  "predicted_spam_pct": 53,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность чуть выше 50% (~53%)"
+  ],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779331373/articles/pristavy-i-bankrotstvo-fizlica-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1779331373/articles/pristavy-i-bankrotstvo-fizlica-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Low-key photograph of a dark wood-paneled interior — a senior partner's private office at night. A single warm pool of light from a brass library lamp illuminates six items on a leather-topped desk: a closed leather-bound diary, a fountain pen resting across it, an antique brass padlock with a short chain coiled beside it, a polished brass round seal, an antique pocket watch on a chain lying open to show the face with no readable numerals, and a closed law book with embossed gilt spine and no readable title. Camera: three-quarter angle, eye-level. Lighting: dominant warm tungsten pool from the brass lamp, deep ambient shadow engulfing the surrounding room. Palette: oxblood leather, walnut grain, brass on near-black background. Mood: confidential deliberation, the solemn moment when enforcement is brought to a halt.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-05-21T02:42:54Z",
+  "date_published": "2026-05-21",
+  "date_modified": "2026-05-21",
+  "ready_for_review": true,
+  "ready_at": "2026-05-21T02:42:54Z",
+  "publication_target": "telegram_review"
+}
