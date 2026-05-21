@@ -2274,7 +2274,7 @@
     "pristavy-i-bankrotstvo-fizlica": {
       "category": "fiz",
       "title": "Приставы и банкротство физлица: что меняется",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -2282,13 +2282,15 @@
       "tg_message_id": 805,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-21T05:43:58",
-      "last_action_at": "2026-05-21T05:43:58",
+      "last_action_at": "2026-05-21T13:07:04",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/fiz/pristavy-i-bankrotstvo-fizlica",
       "pending_batch": false,
       "pending_batch_at": "2026-05-21T05:43:58",
-      "batch_sent_at": "2026-05-21T10:00:25"
+      "batch_sent_at": "2026-05-21T10:00:25",
+      "published_at": "2026-05-21T13:07:04",
+      "articles_path": "articles/fiz/pristavy-i-bankrotstvo-fizlica.html"
     },
     "subsidiarka-za-neperedachu-dokumentov-bankrotstvo": {
       "category": "yur",
@@ -2326,6 +2328,24 @@
       "published_url": null,
       "pending_batch": true,
       "pending_batch_at": "2026-05-21T10:41:59"
+    },
+    "ocherednost-trebovanij-kreditorov-pri-bankrotstve-fizlica": {
+      "category": "fiz",
+      "title": "Очерёдность кредиторов при банкротстве физлица",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-05-21T13:07:00",
+      "last_action_at": "2026-05-21T13:07:00",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-05-21T13:07:00"
     }
   },
   "pending_actions": [],
