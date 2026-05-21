@@ -2,6 +2,19 @@
   "generated": "2026-05-21",
   "articles": [
     {
+      "slug": "bankrotstvo-malogo-biznesa-msp",
+      "cat": "yur",
+      "catLabel": "Банкротство юридических лиц",
+      "title": "Банкротство МСП: порядок процедуры для малого бизнеса",
+      "desc": "Как малому и среднему бизнесу пройти банкротство: основания, этапы, расходы, субсидиарная ответственность владельца. Разбираем ООО и ИП.",
+      "date": "21 мая 2026",
+      "dateIso": "2026-05-21",
+      "read": "5 мин.",
+      "tone": "b",
+      "img": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779314766/articles/bankrotstvo-malogo-biznesa-msp-cover.jpg",
+      "url": "articles/yur/bankrotstvo-malogo-biznesa-msp"
+    },
+    {
       "slug": "konkursnaya-massa-pri-bankrotstve-fizlica",
       "cat": "fiz",
       "catLabel": "Банкротство физических лиц",
