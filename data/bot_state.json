@@ -2295,7 +2295,7 @@
     "subsidiarka-za-neperedachu-dokumentov-bankrotstvo": {
       "category": "yur",
       "title": "Субсидиарка за непередачу документов при банкротстве",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -2303,13 +2303,15 @@
       "tg_message_id": 807,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-21T08:17:58",
-      "last_action_at": "2026-05-21T08:17:58",
+      "last_action_at": "2026-05-21T13:07:11",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/yur/subsidiarka-za-neperedachu-dokumentov-bankrotstvo",
       "pending_batch": false,
       "pending_batch_at": "2026-05-21T08:17:58",
-      "batch_sent_at": "2026-05-21T10:00:27"
+      "batch_sent_at": "2026-05-21T10:00:27",
+      "published_at": "2026-05-21T13:07:11",
+      "articles_path": "articles/yur/subsidiarka-za-neperedachu-dokumentov-bankrotstvo.html"
     },
     "chto-takoe-ispolnitelnoe-proizvodstvo": {
       "category": "vzysk",
