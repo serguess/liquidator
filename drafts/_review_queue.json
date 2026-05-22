@@ -1357,6 +1357,19 @@
         "passed": false,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "zameshchenie-aktivov-pri-bankrotstve-yurlica",
+      "category": "yur",
+      "title": "Замещение активов при банкротстве юрлица: ст. 115",
+      "added_at": "2026-05-22T08:47:13.765022",
+      "char_count": 6709,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779428832/articles/zameshchenie-aktivov-pri-bankrotstve-yurlica-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

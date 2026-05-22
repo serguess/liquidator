@@ -6273,5 +6273,64 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-05-22T05:12:23",
+    "category": "fiz",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 1,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "fiz-56",
+    "topic_slug": "shtrafy-gibdd-i-sanktsii-pri-bankrotstve",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [
+        "ai_markers_critical: 1 (Длинное тире (—))"
+      ],
+      "warnings": [
+        "Автофикс применил правки: сокращения=1, пунктуация=0",
+        "length_soft_passed: 8215 > 8000 но ≤ 8500 и iteration=2 — пропускаем (приоритет spam/uniqueness/ai)"
+      ],
+      "recommendations": [
+        "fix_ai_markers: убрать критичные маркеры (длинные тире, эмодзи, англ. кавычки, чатбот-фразы)"
+      ],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "shtrafy-gibdd-i-sanktsii-pri-bankrotstve",
+    "duration_sec": 1951.2,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "турный overlap 0.0\n- **Factcheck:** passed\n- **Quality gate:** hard_failed=false, autofix применён (тире, аббревиатуры), exit 0\n- **Обложка:** сгенерирована (template_id=30, symmetric corridor с весами правосудия), загружена на Cloudinary\n- **Готов к ревью:** `ready_for_review=true`, добавлен в review_queue (всего 104 позиции)\n- **Файл:** `drafts/shtrafy-gibdd-i-sanktsii-pri-bankrotstve/article.html`\n\n**Метрики text.ru:** не заполнены (проверка будет выполнена при публикации через Telegram-бот).",
+    "stderr_tail": "",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 8215
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]

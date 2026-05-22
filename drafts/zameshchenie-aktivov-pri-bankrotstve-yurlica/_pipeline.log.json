@@ -1,0 +1,43 @@
+{
+  "slug": "zameshchenie-aktivov-pri-bankrotstve-yurlica",
+  "category": null,
+  "started_at": "2026-05-22T08:33:43",
+  "finished_at": null,
+  "total_duration_sec": null,
+  "current_iteration": 2,
+  "events": [
+    {
+      "ts": "2026-05-22T08:33:43",
+      "agent": "4-writer",
+      "event": "iteration_returned",
+      "iteration": 2,
+      "reason": "spam_risk: ngram3_repeat_share=0.039>0.035; spam_top10_block: top10_share=0.103>0.090",
+      "recommendation": "reduce_repetition: разбавить топ-5 лемм ['актив','бумаг','замещен','банкротств','торг']; актив=9 вхождений — заменить минимум 3; цель top10_share≤0.085, ngram3≤0.035"
+    },
+    {
+      "ts": "2026-05-22T08:47:29",
+      "agent": "scheduler",
+      "event": "slot_started",
+      "iteration": 2,
+      "category": "yur",
+      "today_count": 3,
+      "limit": 10,
+      "write_article_duration_sec": 4284.6
+    },
+    {
+      "ts": "2026-05-22T08:47:29",
+      "agent": "quality_gate",
+      "event": "passed",
+      "iteration": 2,
+      "blockers": [],
+      "warnings": [
+        "Автофикс применил правки: сокращения=1, пунктуация=0",
+        "internal_links_autofixed: 3 ссылок (например /articles/yur/vneshnee-upravlenie-pri-bankrotstve-yurlica.html→/articles/yur/vneshnee-upravlenie-pri-bankrotstve-yurlica; /articles/yur/prodazha-biznesa-pri-bankrotstve-yurlica.html→/articles/yur/prodazha-biznesa-pri-bankrotstve-yurlica; /articles/yur/rashody-na-bankrotstvo-yurlica.html→/articles/yur/rashody-na-bankrotstvo-yurlica)",
+        "forced_pass_at_iter3: блокеры пропущены, статья идёт в TG-очередь с metrics_warning=true. Было: 1 блокеров — spam_risk"
+      ],
+      "recommendations": [
+        "reduce_repetition: разбавить топ-5 частотных лемм местоимениями/перифразом — ['пакет', 'работа', 'обществ', 'должник', 'обязательств']"
+      ]
+    }
+  ]
+}

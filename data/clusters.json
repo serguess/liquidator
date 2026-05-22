@@ -3218,6 +3218,26 @@
       "articles": [
         "shtrafy-gibdd-i-sanktsii-pri-bankrotstve"
       ]
+    },
+    {
+      "id": "yur-zameshchenie-aktivov-bankrotstvo",
+      "category": "yur",
+      "subtopic": "замещение активов при банкротстве юрлица: создание нового общества, сохранение бизнеса",
+      "intent": "informational",
+      "funnel_stage": "warm",
+      "main_keyword": "замещение активов при банкротстве",
+      "related_keywords": [
+        "замещение активов должника",
+        "ст 115 ФЗ-127 банкротство",
+        "сохранить бизнес при банкротстве юрлица",
+        "создание ООО при банкротстве",
+        "план внешнего управления замещение активов",
+        "акции нового общества банкротство кредиторы",
+        "замещение активов голосование кредиторов"
+      ],
+      "articles": [
+        "zameshchenie-aktivov-pri-bankrotstve-yurlica"
+      ]
     }
   ]
 }

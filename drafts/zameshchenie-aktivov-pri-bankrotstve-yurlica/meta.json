@@ -1,0 +1,103 @@
+{
+  "slug": "zameshchenie-aktivov-pri-bankrotstve-yurlica",
+  "category": "yur",
+  "title": "Замещение активов при банкротстве юрлица: ст. 115",
+  "description": "Как работает замещение активов по 115-й норме закона о банкротстве: создание нового АО на базе имущества должника, голосование займодавцев, продажа акций и погашение долгов.",
+  "h1": "Замещение активов при банкротстве: как сохранить работающий бизнес",
+  "lead": "115-я норма закона о несостоятельности позволяет выделить акционерное общество на базе имущества должника - без унаследованных обязательств. Пакет акций АО продаётся на открытом аукционе, вырученные деньги идут взыскателям в законной очерёдности.",
+  "topic_action": "анализ замещения активов при банкротстве",
+  "breadcrumb_current": "Замещение активов при банкротстве юрлица",
+  "og_image": "/assets/articles/zameshchenie-aktivov-pri-bankrotstve-yurlica.jpg",
+  "main_keyword": "замещение активов при банкротстве",
+  "secondary_keywords": [
+    "замещение активов должника",
+    "ст 115 ФЗ-127 банкротство",
+    "сохранить бизнес при банкротстве юрлица",
+    "план внешнего управления замещение активов",
+    "акции нового общества банкротство кредиторы",
+    "замещение активов голосование кредиторов"
+  ],
+  "internal_links": [
+    "/articles/yur/vneshnee-upravlenie-pri-bankrotstve-yurlica.html",
+    "/articles/yur/prodazha-biznesa-pri-bankrotstve-yurlica.html",
+    "/articles/yur/rashody-na-bankrotstvo-yurlica.html"
+  ],
+  "external_links": [],
+  "faq": [
+    {
+      "question": "Можно ли создать ООО вместо АО при этой процедуре?",
+      "answer": "Нет. 115-я норма допускает только акционерное общество. Иная форма юрлица законом не предусмотрена."
+    },
+    {
+      "question": "Что происходит с сотрудниками при передаче производственной базы в созданное АО?",
+      "answer": "Работники переходят автоматически. Трудовые договоры, действовавшие на дату передаточного акта, сохраняются. Смена собственника - не основание для увольнения."
+    },
+    {
+      "question": "Обязан ли каждый залогодержатель проголосовать «за»?",
+      "answer": "Да, единогласно. Воздержание приравнивается к отказу. Один голос «против» - процедура заблокирована."
+    },
+    {
+      "question": "До какого момента должник продолжает существовать как юридическое лицо?",
+      "answer": "До завершения всех расчётов. После этого управляющий направляет документы на исключение фирмы из ЕГРЮЛ."
+    },
+    {
+      "question": "Чем отличается выручка от реализации пакета АО от распродажи имущества по частям?",
+      "answer": "При розничной продаже каждый лот уходит отдельно. Покупатель пакета берёт весь бизнес целиком без чужих обязательств. За работающее предприятие инвестор обычно платит больше."
+    },
+    {
+      "question": "Что будет с лицензией, если деятельность её требует?",
+      "answer": "Лицензия оформлена на компанию-должника. Созданное АО получает разрешение самостоятельно - автоматического перехода нет. Перерыв снижает привлекательность пакета акций на аукционе."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "f1, f6, f7, f9: определение и форма (только АО) - формулировки соответствуют research.json",
+    "f2, f11: две процедуры (внешнее управление и конкурс) - корректно",
+    "f3, f5: большинство голосов от всего реестра - корректно",
+    "f4: единогласие залогодержателей - акцент на главное препятствие",
+    "f8: трудовые договоры сохраняются - корректно",
+    "f15: вознаграждение 45 000/30 000 рублей - корректно (написано прописью без сокращения)",
+    "f16: очерёдность выплат - корректно",
+    "f12: лицензии не переходят автоматически - формулировка обтекаемая (legislation_status: needs_verification)",
+    "iter=2: рерайт под снижение топ-10 (актив/бумаг/замещен/банкротств/торг). 'Бумаги' заменены на 'акции/пакет', 'торги' заменены на 'аукцион', 'замещение активов' заменено на 'этот механизм/эта схема/данная процедура', 'банкротство' заменено на 'дело/несостоятельность/банкрот'.",
+    "FAQ: 6 вопросов (вопрос про порог 2 млн рублей удалён - он не относится напрямую к теме замещения активов)"
+  ],
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "quality_gate_retry_count": 4,
+  "text_chars": 6709,
+  "length_status": "ok",
+  "length_kind": "default",
+  "local_spam_top10_share": 0.096,
+  "local_spam_ngram3_repeat": 0.05,
+  "local_lexical_diversity": 0.609,
+  "local_ai_markers_density": 0.23,
+  "local_ai_markers_total": 2,
+  "local_ai_markers_critical": 0,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 2,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "predicted_spam_pct": 55,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность выше 50% (~55%)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "spam_risk: 1 флагов (ngram3_repeat_share>0.035 (=0.05)), top-5: ['пакет', 'работа', 'обществ', 'должник', 'обязательств']"
+  ],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779428832/articles/zameshchenie-aktivov-pri-bankrotstve-yurlica-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1779428832/articles/zameshchenie-aktivov-pri-bankrotstve-yurlica-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Close-to-medium architectural photograph of a massive stone government building, camera positioned at extreme low-angle looking up along tall limestone columns, emphasizing geometric repetition and sheer vertical scale. The façade fills the frame almost entirely — only a narrow strip of pale sky visible at the very top. Hard raking side-light from the right reveals every chisel mark and mortar line in the sandstone blocks, casting deep diagonal shadows from the columns and carved cornice details. A heavy ornate doorway occupies the center-left: carved stone surround, oxidized brass studs on the oak door, polished brass handle, worn stone threshold. In the lower foreground, resting on the broad stone step: a closed dark leather portfolio tied with cord and a polished brass round company seal beside it, both in sharp focus. Palette: warm sandstone, cool grey shadow, restrained brass. Mood: permanence, institutional weight, a framework that endures.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-05-22T05:47:13Z",
+  "date_published": "2026-05-22",
+  "date_modified": "2026-05-22",
+  "ready_for_review": true,
+  "ready_at": "2026-05-22T05:47:13Z",
+  "publication_target": "telegram_review"
+}
