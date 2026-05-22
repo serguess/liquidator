@@ -184,6 +184,9 @@ TOPIC_REJECT_PATTERNS = (
     "evergreen_required:", "news_required:", "category_mismatch:",
 )
 MAX_TOPIC_RETRIES_PER_SLOT = int(os.getenv("MAX_TOPIC_RETRIES_PER_SLOT", "3"))
+# Preflight-скан каннибализации: сколько тем можно мгновенно пропустить
+# (Python-проверка <1с, без LLM). Не считается в MAX_TOPIC_RETRIES_PER_SLOT.
+MAX_PREFLIGHT_SKIPS = int(os.getenv("MAX_PREFLIGHT_SKIPS", "10"))
 
 
 def _detect_topic_rejection(slug: str) -> str | None:
@@ -452,6 +455,81 @@ def _pick_topic(category: str) -> dict | None:
                 continue
         return t
     return None
+
+
+def _pick_topic_with_preflight(category: str) -> tuple[dict | None, list[dict]]:
+    """Выбирает тему, мгновенно пропуская конфликты каннибализации.
+
+    Вызывает _pick_topic() → cannibalization_check.check(mode='preflight')
+    в цикле до MAX_PREFLIGHT_SKIPS. Каждая проверка занимает <1с (чистый
+    Python, без LLM). Темы-конфликты помечаются rejected и пропускаются.
+
+    Возвращает (topic, preflight_skipped):
+      - topic: первая тема без конфликта, или None если все исчерпаны.
+      - preflight_skipped: список пропущенных для auto_skipped лога.
+    """
+    # Ленивый импорт: tools/ не в пакете articles_scheduler
+    try:
+        from tools.cannibalization_check import check as cannibal_check
+    except ImportError:
+        log.warning("cannibalization_check не импортирован, preflight отключён")
+        return _pick_topic(category), []
+
+    skipped: list[dict] = []
+    for _ in range(MAX_PREFLIGHT_SKIPS):
+        topic = _pick_topic(category)
+        if topic is None:
+            return None, skipped
+
+        topic_title = (topic.get("title") or topic.get("topic_action") or "").strip()
+        topic_slug = topic.get("slug") or ""
+
+        if not topic_title:
+            # Без заголовка preflight невозможен, пусть агент 1 разберётся
+            return topic, skipped
+
+        try:
+            result = cannibal_check(category, topic=topic_title, mode="preflight")
+        except Exception:
+            log.exception(
+                "Preflight cannibalization check упал для %s/%s, "
+                "пропускаю проверку (агент 1 проверит сам)",
+                category, topic_slug,
+            )
+            return topic, skipped
+
+        if result.get("verdict") != "conflict":
+            if result.get("verdict") == "warn":
+                log.info(
+                    "Preflight-warn: %s/%s (близко к %s), продолжаем",
+                    category, topic_slug,
+                    ", ".join(result.get("warnings", [])),
+                )
+            return topic, skipped
+
+        # conflict - пропускаем мгновенно
+        conflicts = result.get("conflicts", [])
+        reason = (
+            f"cannibalization:preflight:{conflicts[0]}"
+            if conflicts
+            else "cannibalization:preflight:unknown"
+        )
+        _mark_topic_rejected(category, topic_slug, reason)
+        skipped.append({
+            "slug": topic_slug,
+            "reason": reason,
+            "duration_sec": 0,
+        })
+        log.warning(
+            "Preflight-skip: %s/%s — %s (<1с, без LLM)",
+            category, topic_slug, reason,
+        )
+
+    log.warning(
+        "Preflight: %d тем подряд в конфликте для %s, все пропущены",
+        MAX_PREFLIGHT_SKIPS, category,
+    )
+    return None, skipped
 
 
 # ============ CIRCUIT BREAKER ============
@@ -2237,7 +2315,8 @@ def run_one_article() -> dict:
                         result.stderr = f"[scheduler] slot budget exhausted before any attempt"
                     break
 
-                topic = _pick_topic(category)
+                topic, preflight_skipped = _pick_topic_with_preflight(category)
+                auto_skipped.extend(preflight_skipped)
                 if topic is None:
                     # Темы кончились → /expand-topics, потом В ТОМ ЖЕ СЛОТЕ
                     # попытка написать статью на свежей теме (если бюджет
