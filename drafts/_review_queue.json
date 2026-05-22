@@ -1409,6 +1409,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "snyatie-zaloga-posle-pogasheniya",
+      "category": "vzysk",
+      "title": "Снятие залога после выплаты: квартира и автомобиль",
+      "added_at": "2026-05-22T17:44:20.570502",
+      "char_count": 8227,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779461059/articles/snyatie-zaloga-posle-pogasheniya-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

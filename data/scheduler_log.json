@@ -6498,5 +6498,60 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-05-22T14:48:02",
+    "category": "yur",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 5,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "yur-51",
+    "topic_slug": "konsolidirovannoe-bankrotstvo-vzaimozavisimyh-kompanij",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "Автофикс применил правки: сокращения=2, пунктуация=0",
+        "internal_links_autofixed: 4 ссылок (например /kontroliruyushchee-dolzhnika-lico-kdl/→/articles/yur/kontroliruyushchee-dolzhnika-lico-kdl; /osparivanie-sdelok-pri-bankrotstve/→/articles/yur/osparivanie-sdelok-pri-bankrotstve; /subsidiarka-direktora-kak-zashchititsya/→/articles/yur/subsidiarka-direktora-kak-zashchititsya)"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "konsolidirovannoe-bankrotstvo-vzaimozavisimyh-kompanij",
+    "duration_sec": 2876.3,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "\n| Slug | `konsolidirovannoe-bankrotstvo-vzaimozavisimyh-kompanij` |\n| Категория | yur |\n| Длина | 8 000 знаков |\n| Uniqueness (эмбеддинги) | passed (0.0 overlap) |\n| Factcheck | passed |\n| Quality gate | passed (exit 0, blockers: 0) |\n| AI-маркеры | 2 low (в boilerplate, не в тексте) |\n| Обложка | сгенерирована, template #6 |\n| Очередь | добавлен (108 items) |\n\n**Предсказанные метрики text.ru:** заспамленность ~53%, ИИ ~3%, уникальность ~87%.\n\nСтатья ждёт нажатия «Опубликовать» в Telegram-боте.",
+    "stderr_tail": "",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 8000
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]
