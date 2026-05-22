@@ -1,0 +1,93 @@
+{
+  "slug": "konsolidirovannoe-bankrotstvo-vzaimozavisimyh-kompanij",
+  "category": "yur",
+  "title": "Консолидированное банкротство взаимозависимых юрлиц",
+  "description": "Когда суд объединяет дела о банкротстве компаний холдинга, назначает одного управляющего и формирует единый реестр. Материальная и процессуальная консолидация - разбор механизмов.",
+  "h1": "Консолидация процедур банкротства взаимозависимых компаний: как это работает",
+  "lead": "Арбитраж вправе объединить дела дочерних организаций холдинга и назначить одного управляющего. Конкурсные массы при этом остаются раздельными — материальная и процессуальная консолидация работают по-разному.",
+  "topic_action": "анализ консолидации банкротства группы компаний",
+  "breadcrumb_current": "Консолидация банкротства холдинга",
+  "og_image": "/assets/articles/konsolidirovannoe-bankrotstvo-vzaimozavisimyh-kompanij.jpg",
+  "main_keyword": "консолидация процедур банкротства юридических лиц",
+  "secondary_keywords": [
+    "объединение дел о банкротстве взаимозависимых компаний",
+    "материальная консолидация при банкротстве",
+    "процессуальная консолидация при банкротстве",
+    "единый арбитражный управляющий для группы компаний",
+    "банкротство предпринимательской группы",
+    "один реестр кредиторов при банкротстве холдинга",
+    "совместное банкротство аффилированных компаний",
+    "признаки предпринимательской группы банкротство"
+  ],
+  "internal_links": [
+    "/kontroliruyushchee-dolzhnika-lico-kdl/",
+    "/osparivanie-sdelok-pri-bankrotstve/",
+    "/subsidiarka-direktora-kak-zashchititsya/",
+    "/osparivanie-trebovanij-v-reestre-kreditorov/"
+  ],
+  "external_links": [],
+  "faq": [
+    {
+      "question": "Вправе ли кредитор потребовать соединить дела нескольких ответчиков из одного холдинга?",
+      "answer": "Нет. Сторона вправе только ходатайствовать по 130-й норме процессуального кодекса. Арбитраж оценивает целесообразность по своему усмотрению и удовлетворять ходатайство не обязан."
+    },
+    {
+      "question": "Сохраняется ли голосование по каждой фирме автономно при процессуальном соединении?",
+      "answer": "Да. Перечень требований ведётся по конкретной несостоятельной организации самостоятельно."
+    },
+    {
+      "question": "Чем отличается компенсационное финансирование от обычного займа между аффилированными фирмами?",
+      "answer": "Обычный заём выдаётся при нормальном финансовом положении на коммерческих условиях. Компенсационное финансирование — займы и отсрочки в период кризиса вместо обращения в суд. Если займодавец знал о кризисе — требование субординируется."
+    },
+    {
+      "question": "Нужно ли платить госпошлину автономно за каждое дело о банкротстве в холдинге?",
+      "answer": "Да. Пошлина 100 000 рублей уплачивается за заявление о признании несостоятельным конкретного юридического лица. Последующее соединение её не возвращает."
+    },
+    {
+      "question": "Возможна ли материальная консолидация, если члены холдинга вели раздельный бухгалтерский учёт?",
+      "answer": "Крайне маловероятна. Отсутствие раздельного учёта — одно из ключевых условий для этой формы."
+    },
+    {
+      "question": "Какой десятилетний срок применяется при проверке действий КДЛ в холдинге?",
+      "answer": "При привлечении к субсидиарной ответственности проверяется период 10 лет до возбуждения дела. При консолидации период применяется к каждому делу самостоятельно."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [],
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "text_chars": 8000,
+  "length_status": "warn",
+  "length_kind": "default",
+  "local_spam_top10_share": 0.094,
+  "local_spam_ngram3_repeat": 0.024,
+  "local_lexical_diversity": 0.601,
+  "local_ai_markers_density": 0.2,
+  "local_ai_markers_total": 2,
+  "local_ai_markers_critical": 0,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 2,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 3,
+  "predicted_spam_pct": 53,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность чуть выше 50% (~53%)"
+  ],
+  "main_keyword_exact_count": 0,
+  "keyword_density_main": 0.0,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779453343/articles/konsolidirovannoe-bankrotstvo-vzaimozavisimyh-kompanij-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1779453343/articles/konsolidirovannoe-bankrotstvo-vzaimozavisimyh-kompanij-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Editorial photograph of a corner of a sleek high-floor executive office or conference room. Foreground on a polished dark walnut desk: a closed thin laptop with a brushed aluminium lid, a dark leather-bound notebook with a fountain pen laid diagonally across it, two polished brass round company seals placed side by side as if representing separate but related entities, a tall water glass with a light condensation ring, and a white ceramic coffee cup on a saucer. Background through expansive floor-to-ceiling windows: a blurred dense urban skyline at dusk — towers and office blocks dissolving into blue-grey haze, warm amber lights beginning to appear across the cityscape. Camera: shallow depth of field, three-quarter angle, eye-level, seals in sharp focus in mid-frame. Lighting: cool ambient dusk light from the windows blended with restrained warm tungsten interior glow. Materials: dark walnut, brushed brass, matte leather. Mood: senior institutional decision converging separate corporate entities into a single formal procedure.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-05-22T12:35:44Z",
+  "date_published": "2026-05-22",
+  "date_modified": "2026-05-22",
+  "ready_for_review": true,
+  "ready_at": "2026-05-22T12:35:44Z",
+  "publication_target": "telegram_review"
+}

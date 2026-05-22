@@ -1396,6 +1396,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "konsolidirovannoe-bankrotstvo-vzaimozavisimyh-kompanij",
+      "category": "yur",
+      "title": "Консолидированное банкротство взаимозависимых юрлиц",
+      "added_at": "2026-05-22T15:35:44.868075",
+      "char_count": 8000,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779453343/articles/konsolidirovannoe-bankrotstvo-vzaimozavisimyh-kompanij-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

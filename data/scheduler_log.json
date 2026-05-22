@@ -6444,5 +6444,59 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-05-22T12:24:37",
+    "category": "fiz",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 4,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "fiz-57",
+    "topic_slug": "brokersky-schet-akcii-pri-bankrotstve-fizlica",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "Автофикс применил правки: сокращения=2, пунктуация=0"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "brokersky-schet-akcii-pri-bankrotstve-fizlica",
+    "duration_sec": 2577.6,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "льность (агент 5) | passed ✓ |\n| Фактчек (агент 6) | passed ✓ |\n| Quality gate | forced_pass на retry=3 (spam_top10 0.098 vs 0.095, разница 0.003) |\n| Обложка | сгенерирована, Cloudinary ✓ |\n| Очередь ревью | добавлена (107 итого) |\n\n**Метрики text.ru** — не заполнены (проверяются вручную после публикации).\n\nQuality gate прошёл через forced_pass из-за пограничного значения заспамленности (top10_share=0.098 при пороге 0.095) — все критические маркеры чисты, anti_template прошёл, длинных тире нет.",
+    "stderr_tail": "",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7555
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]
