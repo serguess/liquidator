@@ -1448,6 +1448,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "bankrotstvo-nko-nekommercheskoj-organizacii",
+      "category": "yur",
+      "title": "Банкротство НКО: процедура, основания, последствия",
+      "added_at": "2026-05-23T00:54:03.180897",
+      "char_count": 6896,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779486842/articles/bankrotstvo-nko-nekommercheskoj-organizacii-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": false,
+        "hard_failed": false
+      }
     }
   ]
 }

@@ -6661,5 +6661,61 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-05-22T22:00:37",
+    "category": "fiz",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 9,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "fiz-58",
+    "topic_slug": "sudebnyj-prikaz-pri-bankrotstve-fizlica",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "Автофикс применил правки: сокращения=2, пунктуация=0",
+        "internal_links_autofixed: 4 ссылок (например /kak-otmenit-sudebnyj-prikaz.html→/articles/vzysk/kak-otmenit-sudebnyj-prikaz; /pristavy-i-bankrotstvo-fizlica.html→/articles/fiz/pristavy-i-bankrotstvo-fizlica; /vnesudebnoe-bankrotstvo-cherez-mfc-2026.html→/articles/fiz/vnesudebnoe-bankrotstvo-cherez-mfc-2026)",
+        "length_soft_passed: 8302 > 8000 но ≤ 8500 и iteration=5 — пропускаем (приоритет spam/uniqueness/ai)"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "sudebnyj-prikaz-pri-bankrotstve-fizlica",
+    "duration_sec": 2261.9,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "_diversity: 0.583\n- AI-маркеры: 3 low (0 critical/high/medium) — чистый результат\n- Targeted tokens: все в пределах норм\n\n**text.ru прогноз:** ai ~3%, spam ~58%, uniqueness ~87%\n*(textru_ai_detector / textru_uniqueness / textru_spam ещё не проверялись через text.ru — проверки делаются при публикации)*\n\n**Uniqueness:** passed ✓\n**Factcheck:** passed ✓\n**Обложка:** сгенерирована, загружена на Cloudinary (template 26)\n**Режим публикации:** `ready_for_review=true` — ожидает одобрения в Telegram-боте",
+    "stderr_tail": "",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 8302
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]

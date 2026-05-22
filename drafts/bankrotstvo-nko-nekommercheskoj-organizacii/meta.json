@@ -1,0 +1,101 @@
+{
+  "slug": "bankrotstvo-nko-nekommercheskoj-organizacii",
+  "category": "yur",
+  "title": "Банкротство НКО: процедура, основания, последствия",
+  "description": "Какие НКО могут быть признаны банкротом, кто вправе подать заявление, как проходят стадии наблюдения и конкурсного производства, ответственность учредителей.",
+  "h1": "Банкротство некоммерческой организации: когда это возможно и как проходит",
+  "lead": "Двухмиллионный порог долга с просрочкой более трёх месяцев - и арбитражный суд возбуждает дело. Фонды, ассоциации, потребкооперативы банкротятся по общим правилам, защищены только партии, церкви и казённые учреждения.",
+  "topic_action": "анализ ситуации с НКО",
+  "breadcrumb_current": "Банкротство НКО",
+  "og_image": "/assets/articles/bankrotstvo-nko-nekommercheskoj-organizacii.jpg",
+  "main_keyword": "банкротство некоммерческой организации",
+  "secondary_keywords": [
+    "банкротство НКО",
+    "несостоятельность некоммерческой организации",
+    "процедура банкротства НКО",
+    "признание НКО банкротом",
+    "ликвидация НКО через банкротство",
+    "банкротство фонда",
+    "банкротство ассоциации",
+    "банкротство потребительского кооператива",
+    "долги НКО кредиторы"
+  ],
+  "internal_links": [
+    "/articles/yur/priznaki-bankrotstva-yurlica.html",
+    "/articles/yur/kontroliruyushchee-dolzhnika-lico-kdl.html"
+  ],
+  "external_links": [],
+  "faq": [
+    {
+      "question": "Можно ли банкротить НКО без собственности?",
+      "answer": "Дело возбудить можно. При отсутствии активов производство прекратят за недостаточностью имущества - заявители остаются ни с чем."
+    },
+    {
+      "question": "Сколько времени занимает дело?",
+      "answer": "Наблюдение - до 7 месяцев, конкурсное производство - от 6 до 12. Минимум год, на практике полтора-два с учётом оспаривания сделок."
+    },
+    {
+      "question": "Чем потребительский кооператив отличается от фонда по рискам для членов?",
+      "answer": "У кооператива участники несут прямую субсидиарную ответственность в пределах невнесённого взноса - без отдельного решения о КДЛ. У фонда основатель по умолчанию не отвечает по долгам - только при доказанном статусе контролирующего лица."
+    },
+    {
+      "question": "Целевой грант войдёт в конкурсную массу или арбитраж его защитит?",
+      "answer": "Зависит от обстоятельств. Если программа не реализована и условия запрещают иное использование - возможно исключение. Если деньги смешались с общими - скорее войдут в массу."
+    },
+    {
+      "question": "Что грозит директору, если он не подал заявление вовремя?",
+      "answer": "Директор лично отвечает по обязательствам, возникшим после истечения месячного дедлайна. Срок давности - три года с момента, когда заявитель узнал об основаниях."
+    },
+    {
+      "question": "Какова госпошлина при подаче заявления в 2024-2026 годах?",
+      "answer": "Кредитор-юридическое лицо платит сто тысяч рублей (с 8 сентября 2024 года). Для физических лиц применяется иной размер."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все юр-факты сверены с research.json (f1-f20), last_verified 2026-05-23, legislation_status active/amended.",
+    "Порог 2 000 000 руб. подтверждён ФЗ-107 от 29.05.2024 (f4).",
+    "Госпошлина кредитора-юрлица 100 000 руб. подтверждена ФЗ-176 от 12.07.2024, ст. 333.21 НК (f14), соответствует legal-facts.md.",
+    "Вознаграждение управляющего 30 000 руб./мес - ст. 20.6 п. 3 127-ФЗ (f20).",
+    "Целевые средства - формулировка с пометкой 'практика неоднородна' соответствует contested:true в f9.",
+    "Субсидиарка фонда (ст. 123.19 ГК) и кооператива (ст. 123.3 ГК) - f17, f18.",
+    "Срок давности 3/10 лет - ст. 61.14 п. 5 127-ФЗ (f13)."
+  ],
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "text_chars": 6896,
+  "length_status": "ok",
+  "length_kind": "default",
+  "local_spam_top10_share": 0.098,
+  "local_spam_ngram3_repeat": 0.042,
+  "local_lexical_diversity": 0.625,
+  "local_ai_markers_density": 0.23,
+  "local_ai_markers_total": 2,
+  "local_ai_markers_critical": 0,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 3,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": false,
+  "quality_gate_blockers": [
+    "spam_risk: 1 флагов (ngram3_repeat_share>0.035 (=0.042)), top-5: ['месяц', 'года', 'фонд', 'статус', 'отвеча']",
+    "spam_top10_block: top10_share=0.098 > 0.095 на iter=2 (цель ≤0.085 для spam ≤50%)"
+  ],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 51,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность чуть выше 50% (~51%)"
+  ],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779486842/articles/bankrotstvo-nko-nekommercheskoj-organizacii-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1779486842/articles/bankrotstvo-nko-nekommercheskoj-organizacii-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Editorial photograph of a polished weathered marble slab in the foreground holding five business objects: a closed dark leather portfolio with cord ties, a polished brass round company seal resting on its side, a brass key ring with two antique skeleton keys, a fountain pen laid diagonally across the portfolio, and an antique pocket watch on a short chain — all arranged with deliberate spacing. Soft architectural background: blurred limestone columns and a distant marble arch out of focus, suggesting an official institutional interior. Camera: tabletop level, slight three-quarter angle. Lighting: natural soft daylight grazing the stone surface from the left, revealing veins and cool grey texture, with restrained warm brass accents catching the light. Palette: warm cream marble, cool grey shadow, aged brass. Mood: timeless procedural gravity, classical legal framework, formal dissolution of a civic institution.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-05-22T21:54:03Z",
+  "date_published": "2026-05-23",
+  "date_modified": "2026-05-23",
+  "ready_for_review": true,
+  "ready_at": "2026-05-22T21:54:03Z",
+  "publication_target": "telegram_review"
+}
