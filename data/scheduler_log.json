@@ -6156,5 +6156,60 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-05-22T00:24:37",
+    "category": "yur",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 17,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "expanded_in_slot": true,
+    "topic_id": "yur-49",
+    "topic_slug": "subordinaciya-affilirovannyh-kreditorov-bankrotstvo",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "Автофикс применил правки: сокращения=0, пунктуация=0"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "subordinaciya-affilirovannyh-kreditorov-bankrotstvo",
+    "duration_sec": 3221.4,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "**Категория:** yur\n- **Длина:** 7996 знаков\n- **Quality gate:** passed, 0 блокеров (автофикс: 22 em-dash)\n- **Uniqueness:** passed (0.0 по всем метрикам)\n- **Factcheck (агент 6):** passed\n- **Обложка:** сгенерирована, загружена на Cloudinary (шаблон #24 — весы/досье/печать/книга закона)\n- **Очередь:** добавлен в `_review_queue.json` (позиция 102), `ready_for_review=true`\n\n**Метрики text.ru:** не проверялись (textru_ai_detector / uniqueness / spam = null — проверяются отдельно через планировщик).",
+    "stderr_tail": "",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7996
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]

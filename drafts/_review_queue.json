@@ -1331,6 +1331,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "ispolnitelnaya-nadpis-notariusa",
+      "category": "vzysk",
+      "title": "Исполнительная надпись нотариуса: взыскать долг без суда",
+      "added_at": "2026-05-22T03:32:21.971634",
+      "char_count": 7914,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779409940/articles/ispolnitelnaya-nadpis-notariusa-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
