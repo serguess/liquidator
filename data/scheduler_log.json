@@ -6609,5 +6609,57 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-05-22T19:36:10",
+    "category": "news",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Updating 21afef6..91675b8\nCreated autostash: 6da3ecb\nFast-forward\n articles_scheduler/runner.py | 81 +++++++++++++++++++++++++++++++++++++++++++-\n 1 file changed, 80 insertions(+), 1 deletion(-)\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\nApplied autostash.\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 8,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "news-23",
+    "topic_slug": "rezyume-obsuzhdeniya-stavki-cb-prognoz",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "rezyume-obsuzhdeniya-stavki-cb-prognoz",
+    "duration_sec": 1536.4,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "id=23, fal.ai → Cloudinary)\n- **Файл:** `drafts/rezyume-obsuzhdeniya-stavki-cb-prognoz/article.html`\n- **Статус:** `ready_for_review: true`, добавлено в очередь ревью (item #110)\n\n**Метрики text.ru:** не заполнены (требуется ручная проверка на text.ru). Прогноз quality_gate: spam ~53%, AI ~3%, uniqueness ~87%.\n\n**Примечание:** в research.json зафиксирован `needs_verification` для f1a — предыдущий уровень ставки (16%) и размер снижения (150 б.п.) рекомендуется сверить на cbr.ru перед публикацией.",
+    "stderr_tail": "",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 6800
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]

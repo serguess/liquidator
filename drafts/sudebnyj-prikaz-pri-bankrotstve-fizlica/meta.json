@@ -1,0 +1,106 @@
+{
+  "slug": "sudebnyj-prikaz-pri-bankrotstve-fizlica",
+  "category": "fiz",
+  "title": "Судебный приказ при банкротстве физлица",
+  "description": "Что происходит с судебным приказом при банкротстве: мораторий по ст. 213.11, как остановить взыскание и что делать если приказ пришёл после списания.",
+  "h1": "Судебный приказ при банкротстве физлица: что с ним происходит и как прекратить взыскание",
+  "lead": "Судебный приказ при банкротстве не отменяется автоматически. Но его принудительное исполнение приостанавливается с первого же определения арбитражного суда - и продолжать списания пристав не вправе.",
+  "topic_action": "проверку долгов и судебных приказов при банкротстве",
+  "breadcrumb_current": "Судебный приказ при банкротстве",
+  "og_image": "/assets/articles/sudebnyj-prikaz-pri-bankrotstve-fizlica.jpg",
+  "main_keyword": "судебный приказ при банкротстве физлица",
+  "secondary_keywords": [
+    "что происходит с судебным приказом при банкротстве",
+    "судебный приказ мораторий банкротство физлица",
+    "как отменить судебный приказ в банкротстве",
+    "судебный приказ пришёл после банкротства что делать",
+    "ст 213.11 приостановление исполнения судебного приказа",
+    "возражение на судебный приказ при банкротстве",
+    "приостановление исполнительного производства при банкротстве физлица",
+    "судебный приказ после списания долгов"
+  ],
+  "internal_links": [
+    "/kak-otmenit-sudebnyj-prikaz.html",
+    "/pristavy-i-bankrotstvo-fizlica.html",
+    "/vnesudebnoe-bankrotstvo-cherez-mfc-2026.html",
+    "/kogda-dolgi-ne-spishut-pri-bankrotstve.html"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/"
+  ],
+  "faq": [
+    {
+      "question": "Можно ли подать возражение на приказ, если процедура уже началась?",
+      "answer": "Да. Право на возражение сохраняется независимо от стадии. По 129-й норме процессуального кодекса заявитель может направить его в течение 10 дней с момента получения копии. Судья обязан отменить акт мирового суда без разбирательства по существу. Мотивировать несогласие закон не требует. Если срок пропущен, можно просить суд его восстановить: ходатайство о восстановлении подаётся вместе с самими возражениями."
+    },
+    {
+      "question": "Что будет с задолженностью по бумаге, если кредитор не включился в реестр?",
+      "answer": "По общему правилу она считается погашенной при завершении банкротного процесса - если заявитель действовал добросовестно. Опоздавший с подачей требований утрачивает право добиваться их позже. Правило не работает для несписываемых категорий - алиментов, вреда здоровью."
+    },
+    {
+      "question": "Сколько стоит подать заявление о собственной несостоятельности?",
+      "answer": "Госпошлина при подаче заявления о собственной несостоятельности не взимается - льгота действует с 8 сентября 2024 года. Единственный обязательный платёж - депозит 25 000 рублей на вознаграждение финансового управляющего."
+    },
+    {
+      "question": "Чем приостановление производства отличается от его прекращения?",
+      "answer": "Приостановление - временная мера: списание остановлено, но производство не закрыто. Прекращение - окончательное: оно закрывается, исполнительный документ возвращается отправителю. Прекращение наступает после завершения банкротного процесса."
+    },
+    {
+      "question": "Распространяется ли запрет удержаний на алименты?",
+      "answer": "Нет. Алименты прямо исключены из категорий, на которые распространяется мораторий. Списание по ним продолжается в обычном режиме - и при реструктуризации, и при реализации. После завершения процесса алиментные обязательства тоже сохраняются."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "f1: лимит судебного приказа 500 000 руб. (ч. 1 ст. 121 ГПК РФ) - подтверждён legal-facts.md, использован безопасно",
+    "f4: мораторий по п. 2 ст. 213.11 127-ФЗ - использован с явным указанием исключений (алименты/вред/зарплата)",
+    "f5: запрет нового приказа в ходе процедуры по п. 1 ст. 213.11 - использован",
+    "f7-f8: прекращение ИП после завершения банкротства по ст. 213.28 - использован",
+    "f9: несписываемые долги по п. 4-5 ст. 213.28 - использован полный перечень",
+    "f11: госпошлина 0 руб. с 08.09.2024 - использован в FAQ (НЕ 300 руб., как блокирует legal-facts.md)",
+    "f12: Пленум ВАС РФ № 35 от 22.06.2012 - использован с указанием даты, URL в whitelist",
+    "f13: 2-месячный срок включения в реестр - использован",
+    "f14: МФЦ-банкротство и незаявленный долг - использован",
+    "URL consultant.ru/document/cons_doc_LAW_39331/ - в whitelist, добавлен 1 раз",
+    "Категория fiz - год в title/h1 отсутствует (требование к news неактуально, но и тут года нет)"
+  ],
+  "keyword_density_main": 0.0031,
+  "main_keyword_exact_count": 0,
+  "text_chars": 8302,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "main_keyword_partial_count": 2,
+  "main_keyword_h1_title": 2,
+  "length_status": "too_long",
+  "length_kind": "default",
+  "local_spam_top10_share": 0.101,
+  "local_spam_ngram3_repeat": 0.019,
+  "local_lexical_diversity": 0.583,
+  "local_ai_markers_density": 0.29,
+  "local_ai_markers_total": 3,
+  "local_ai_markers_critical": 0,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 3,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 5,
+  "predicted_spam_pct": 58,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность заметно выше 50% (~58%)",
+    "длина больше лимита 8000 (8 302 знаков)"
+  ],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779478672/articles/sudebnyj-prikaz-pri-bankrotstve-fizlica-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1779478672/articles/sudebnyj-prikaz-pri-bankrotstve-fizlica-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Photograph of a stone marble staircase inside a grand official building, camera at low angle from the base of the steps looking upward, symmetric composition with a vanishing point at the top landing. At the base of the stairs on the lowest step: a sealed envelope resting face-down beside a closed dark leather portfolio leaning against the marble balustrade, a compact brass padlock with a short chain lying open on the cool stone, a sand-filled brass hourglass standing upright with the upper chamber nearly empty. Weathered marble treads, oxidized brass stair rods, a deep burgundy carpet runner ascending the center. Lighting: shafts of cool daylight from high arched windows raking across the stone at a sharp angle, casting long parallel shadows down the steps, warm amber undertone from distant brass sconces in the upper landing. Palette: cool grey marble, oxblood, tarnished brass on deep shadow. Mood: procedural threshold — enforcement paused at the moment the bankruptcy machinery begins.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-05-22T19:37:53Z",
+  "date_published": "2026-05-22",
+  "date_modified": "2026-05-22",
+  "ready_for_review": true,
+  "ready_at": "2026-05-22T19:37:53Z",
+  "publication_target": "telegram_review"
+}

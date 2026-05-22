@@ -1435,6 +1435,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "sudebnyj-prikaz-pri-bankrotstve-fizlica",
+      "category": "fiz",
+      "title": "Судебный приказ при банкротстве физлица",
+      "added_at": "2026-05-22T22:37:54.000107",
+      "char_count": 8302,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779478672/articles/sudebnyj-prikaz-pri-bankrotstve-fizlica-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

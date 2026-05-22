@@ -1,0 +1,281 @@
+{
+  "file": "/home/appuser/apps/liquidator/drafts/sudebnyj-prikaz-pri-bankrotstve-fizlica/article.html",
+  "passed": true,
+  "hard_failed": false,
+  "blockers": [],
+  "warnings": [
+    "Автофикс применил правки: сокращения=2, пунктуация=0",
+    "internal_links_autofixed: 4 ссылок (например /kak-otmenit-sudebnyj-prikaz.html→/articles/vzysk/kak-otmenit-sudebnyj-prikaz; /pristavy-i-bankrotstvo-fizlica.html→/articles/fiz/pristavy-i-bankrotstvo-fizlica; /vnesudebnoe-bankrotstvo-cherez-mfc-2026.html→/articles/fiz/vnesudebnoe-bankrotstvo-cherez-mfc-2026)",
+    "length_soft_passed: 8302 > 8000 но ≤ 8500 и iteration=5 — пропускаем (приоритет spam/uniqueness/ai)"
+  ],
+  "autofix": {
+    "file": "/home/appuser/apps/liquidator/drafts/sudebnyj-prikaz-pri-bankrotstve-fizlica/article.html",
+    "abbreviation_fixes": {
+      "\\bфизлиц(а|у|ом|ами|ам|ах|ы|е|о)?\\b": 2
+    },
+    "punctuation_fixes": 0,
+    "em_dash_fixes": 0,
+    "eng_quotes_fixes": 0,
+    "changed": true,
+    "bytes_before": 43302,
+    "bytes_after": 43336
+  },
+  "quality_checks": {
+    "file": "drafts/sudebnyj-prikaz-pri-bankrotstve-fizlica/article.html",
+    "text_chars": 8302,
+    "length_status": "too_long",
+    "length_kind": "default",
+    "passed": false,
+    "abbreviation_hits": [],
+    "punctuation_hits": [],
+    "spam": {
+      "total_words": 736,
+      "unique_lemmas": 429,
+      "lexical_diversity": 0.583,
+      "top10_words": [
+        [
+          "банкротств",
+          9
+        ],
+        [
+          "приказ",
+          8
+        ],
+        [
+          "обязательств",
+          8
+        ],
+        [
+          "дела",
+          8
+        ],
+        [
+          "производств",
+          8
+        ],
+        [
+          "списан",
+          7
+        ],
+        [
+          "кредитор",
+          7
+        ],
+        [
+          "несостоятельност",
+          7
+        ],
+        [
+          "пристав",
+          6
+        ],
+        [
+          "гражданин",
+          6
+        ]
+      ],
+      "top10_share": 0.101,
+      "top1_count": 9,
+      "top3_sum": 25,
+      "top10_sum": 74,
+      "ngram3_repeat_count": 14,
+      "ngram3_total": 734,
+      "ngram3_repeat_share": 0.019,
+      "risk_flags": [],
+      "word_warnings": []
+    },
+    "targeted_tokens": [
+      {
+        "token": "ст_сокращение",
+        "count": 1,
+        "limit": 5,
+        "over_limit": false,
+        "severity": "hard"
+      },
+      {
+        "token": "РФ_рудимент",
+        "count": 1,
+        "limit": 2,
+        "over_limit": false,
+        "severity": "hard"
+      },
+      {
+        "token": "руб_сокращение",
+        "count": 0,
+        "limit": 0,
+        "over_limit": false,
+        "severity": "hard"
+      },
+      {
+        "token": "ООО_бренд",
+        "count": 0,
+        "limit": 3,
+        "over_limit": false,
+        "severity": "hard"
+      },
+      {
+        "token": "000руб_паттерн",
+        "count": 2,
+        "limit": 2,
+        "over_limit": false,
+        "severity": "hard"
+      },
+      {
+        "token": "127фз_закон",
+        "count": 0,
+        "limit": 2,
+        "over_limit": false,
+        "severity": "soft"
+      },
+      {
+        "token": "213_артикул",
+        "count": 1,
+        "limit": 3,
+        "over_limit": false,
+        "severity": "soft"
+      },
+      {
+        "token": "ГПК_кодекс",
+        "count": 0,
+        "limit": 3,
+        "over_limit": false,
+        "severity": "soft"
+      },
+      {
+        "token": "ГК_кодекс",
+        "count": 0,
+        "limit": 3,
+        "over_limit": false,
+        "severity": "soft"
+      },
+      {
+        "token": "000_число",
+        "count": 2,
+        "limit": 8,
+        "over_limit": false,
+        "severity": "soft"
+      },
+      {
+        "token": "cta_формула_повтор",
+        "count": 1,
+        "limit": 1,
+        "over_limit": false,
+        "severity": "soft"
+      }
+    ],
+    "url_whitelist_hits": [],
+    "author_markers_count": 3,
+    "author_markers_min": 2
+  },
+  "ai_markers": {
+    "file": "drafts/sudebnyj-prikaz-pri-bankrotstve-fizlica/article.html",
+    "text_chars": 10235,
+    "hits_total": 3,
+    "density_per_1000": 0.29,
+    "by_severity": {
+      "critical": 0,
+      "high": 0,
+      "medium": 0,
+      "low": 3
+    },
+    "own_voice_hits": 3,
+    "first_person_singular_hits": 0,
+    "hits": [
+      {
+        "name": "ИИ-лексика: «взаимодействие/тонкости/нюансы (абстрактно)»",
+        "category": "ai-lexis",
+        "severity": "low",
+        "match": "взаимодействии",
+        "position": 3250,
+        "context": "...через арбитражный суд - иначе теряет приоритет. Подробнее о взаимодействии с ФССП - в материале о приставах и банкротстве гражданина ...."
+      },
+      {
+        "name": "ИИ-лексика: «взаимодействие/тонкости/нюансы (абстрактно)»",
+        "category": "ai-lexis",
+        "severity": "low",
+        "match": "Взаимодействие",
+        "position": 10042,
+        "context": "...ение law@pravo.shop Коммерческие предложения biz@pravo.shop Взаимодействие со СМИ pr@pravo.shop © 2018-2026 ООО «ЛИКВИДАТОР». Все прав..."
+      },
+      {
+        "name": "Канцелярит: «в рамках» (без нужды)",
+        "category": "clerical",
+        "severity": "low",
+        "match": "в рамках",
+        "position": 9654,
+        "context": "...ровождение на всех этапах. Надёжность и законность Работаем в рамках ФЗ и действующего законодательства РФ. РЕКВИЗИТЫ ООО «ЛИКВИ..."
+      }
+    ]
+  },
+  "anti_template": {
+    "file": "drafts/sudebnyj-prikaz-pri-bankrotstve-fizlica/article.html",
+    "text_chars": 8622,
+    "phrases_loaded": 138,
+    "passed": true,
+    "hits": []
+  },
+  "law_quotes": {
+    "total_chars": 0,
+    "limit": 600,
+    "samples": []
+  },
+  "rhythm": {
+    "file": "drafts/sudebnyj-prikaz-pri-bankrotstve-fizlica/article.html",
+    "text_chars": 8622,
+    "sentences_total": 99,
+    "avg_sentence_len": 8.14,
+    "short_sentences_count": 25,
+    "short_sentences_share": 0.253,
+    "long_sentences_count": 2,
+    "parasite_count": 1,
+    "parasite_per_1000": 0.12,
+    "flags": []
+  },
+  "internal_links": {
+    "total_hrefs": 42,
+    "ok": 0,
+    "whitelisted": 21,
+    "external": 14,
+    "fixed": 4,
+    "errors": 0,
+    "changed": true,
+    "fix_details": [
+      {
+        "href": "/kak-otmenit-sudebnyj-prikaz.html",
+        "verdict": "fix_short",
+        "fixed_href": "/articles/vzysk/kak-otmenit-sudebnyj-prikaz",
+        "reason": "короткая ссылка → /articles/vzysk/kak-otmenit-sudebnyj-prikaz"
+      },
+      {
+        "href": "/pristavy-i-bankrotstvo-fizlica.html",
+        "verdict": "fix_short",
+        "fixed_href": "/articles/fiz/pristavy-i-bankrotstvo-fizlica",
+        "reason": "короткая ссылка → /articles/fiz/pristavy-i-bankrotstvo-fizlica"
+      },
+      {
+        "href": "/vnesudebnoe-bankrotstvo-cherez-mfc-2026.html",
+        "verdict": "fix_short",
+        "fixed_href": "/articles/fiz/vnesudebnoe-bankrotstvo-cherez-mfc-2026",
+        "reason": "короткая ссылка → /articles/fiz/vnesudebnoe-bankrotstvo-cherez-mfc-2026"
+      },
+      {
+        "href": "/kogda-dolgi-ne-spishut-pri-bankrotstve.html",
+        "verdict": "fix_short",
+        "fixed_href": "/articles/fiz/kogda-dolgi-ne-spishut-pri-bankrotstve",
+        "reason": "короткая ссылка → /articles/fiz/kogda-dolgi-ne-spishut-pri-bankrotstve"
+      }
+    ],
+    "error_details": []
+  },
+  "recommendations": [],
+  "retry_count": 5,
+  "predicted_metrics": {
+    "spam_pct": 58,
+    "ai_pct": 3,
+    "uniqueness_pct": 87
+  },
+  "customer_risks": [
+    "заспамленность заметно выше 50% (~58%)",
+    "длина больше лимита 8000 (8 302 знаков)"
+  ]
+}
