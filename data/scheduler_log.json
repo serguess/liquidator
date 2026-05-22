@@ -6211,5 +6211,67 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-05-22T02:48:37",
+    "category": "vzysk",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 18,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "expanded_in_slot": true,
+    "topic_id": "vzysk-40",
+    "topic_slug": "ispolnitelnaya-nadpis-notariusa",
+    "auto_skipped": [
+      {
+        "slug": "vzyskanie-dolga-po-dogovoru-podryada",
+        "reason": "cannibalization:cluster:vzysk-isk-o-vzyskanii-dolga",
+        "duration_sec": 205.0
+      }
+    ],
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "Автофикс применил правки: сокращения=0, пунктуация=0"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "ispolnitelnaya-nadpis-notariusa",
+    "duration_sec": 2637.4,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "ed |\n| **Quality gate** | passed: true, blockers: 0 |\n| **AI-маркеры** | 2 low (в футере сайта, не в теле) |\n| **textru_ai_detector** | — (local only) |\n| **textru_uniqueness** | — (local only) |\n| **textru_spam** | — (local only) |\n| **Обложка** | сгенерирована (шаблон #29, сцена через дождевое стекло с нотариальной печатью и пером) |\n| **Файл** | `drafts/ispolnitelnaya-nadpis-notariusa/article.html` |\n\nСтатья добавлена в очередь ревью (103-й элемент). Публикация — через Telegram-бот заказчика.",
+    "stderr_tail": "",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7914
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]
