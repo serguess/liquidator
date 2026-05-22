@@ -1,0 +1,96 @@
+{
+  "slug": "vzyskanie-moralnogo-vreda-cherez-sud",
+  "category": "vzysk",
+  "title": "Взыскание морального вреда: размер и доказательства в суде",
+  "description": "Как доказать моральный вред в суде, какие документы собрать, сколько реально присуждают и как рассчитать госпошлину — разбираем по шагам.",
+  "h1": "Взыскание морального вреда: как доказать и на какую сумму рассчитывать",
+  "lead": "Право на компенсацию есть только у физических лиц. Размер определяет судья — фиксированных ставок нет, заявленную сумму часто снижают в разы.",
+  "topic_action": "взыскание морального вреда через суд",
+  "breadcrumb_current": "Взыскание морального вреда через суд",
+  "og_image": "/assets/articles/vzyskanie-moralnogo-vreda-cherez-sud.jpg",
+  "main_keyword": "взыскание морального вреда через суд",
+  "secondary_keywords": [
+    "компенсация морального вреда размер",
+    "как доказать моральный вред",
+    "исковое заявление о компенсации морального вреда",
+    "моральный вред без имущественного ущерба",
+    "сколько взыскивают за моральный вред",
+    "моральный вред ст 151 ГК РФ",
+    "госпошлина за иск о моральном вреде",
+    "постановление Пленума ВС о моральном вреде"
+  ],
+  "internal_links": [
+    "isk-o-vzyskanii-dolga-v-sud",
+    "vzyskanie-neustoyki-s-zastrojshchika",
+    "vzyskanie-zarplaty-s-rabotodatelya",
+    "vzyskanie-sudebnyh-rashodov"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_5142/"
+  ],
+  "faq": [
+    {
+      "question": "Куда подавать заявление: к мировому судье или в районный суд?",
+      "answer": "Только в районный суд. Иск о компенсации за страдания — неимущественный. Мировой судья рассматривает имущественные дела до ста тысяч рублей. Если одновременно заявлено имущественное требование — оба требования идут в районный суд."
+    },
+    {
+      "question": "Сколько стоит подать заявление о компенсации нравственного ущерба?",
+      "answer": "Для физического лица — 300 рублей (пп. 3 п. 1 положения 333.19-й нормы налогового кодекса). Потребители освобождены полностью при цене до миллиона рублей. Работники по трудовым делам также не платят."
+    },
+    {
+      "question": "Можно ли получить деньги за страдания, если прошло несколько лет?",
+      "answer": "При посягательстве на неимущественные интересы (здоровье, честь, достоинство) срок давности не действует — по 208-й норме гражданского кодекса. При имущественных конфликтах — три года."
+    },
+    {
+      "question": "Обязательно ли прикладывать справку от психолога?",
+      "answer": "Не обязательно — переживания при нарушении неимущественных интересов предполагаются автоматически. Но без документов итоговая цифра будет минимальной. Справка от психолога или больничный лист существенно увеличивают присуждённое."
+    },
+    {
+      "question": "Чем требование о компенсации отличается от иска о возмещении убытков?",
+      "answer": "Убытки — конкретные денежные потери: расходы на лечение, утраченный заработок. Деньги за страдания — оценка нематериального урона, который нельзя выразить в чеках. Оба требования заявляются одновременно и рассматриваются независимо."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "ст. 151 ГК РФ (f1) — формулировка соответствует safe_phrasing, URL LAW_5142 в whitelist.",
+    "ст. 208 ГК РФ (f11) — срок давности не применяется, формулировка точная, URL LAW_5142 в whitelist.",
+    "ст. 1100/1101 ГК РФ — часть вторая, без URL по research.json, упомянуты текстом.",
+    "Пленум ВС № 33 от 15.11.2022 — упомянут текстом без href (нет в whitelist, по research.fact_gaps).",
+    "Госпошлина 300 рублей за неимущественный иск физлица (f10, пп. 3 п. 1 ст. 333.19 НК РФ) — это иск о моральном вреде, не банкротство. Льгота ст. 333.37 НК РФ здесь не применяется.",
+    "Штраф 50% по п. 6 ст. 13 Закона о ЗПП (f12) — формулировка корректна.",
+    "Освобождение потребителей при цене иска до 1 000 000 руб. (пп. 4 п. 2 ст. 333.36 НК РФ, f12) — формулировка корректна.",
+    "Конкретные диапазоны сумм (f8, contested:true) — формулировки обтекаемые («как правило», «нередко»), без гарантий."
+  ],
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "text_chars": 7391,
+  "length_status": "ok",
+  "length_kind": "default",
+  "local_spam_top10_share": 0.095,
+  "local_spam_ngram3_repeat": 0.026,
+  "local_lexical_diversity": 0.633,
+  "local_ai_markers_density": 0.33,
+  "local_ai_markers_total": 3,
+  "local_ai_markers_critical": 0,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 3,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 4,
+  "predicted_spam_pct": 49,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779435337/articles/vzyskanie-moralnogo-vreda-cherez-sud-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1779435337/articles/vzyskanie-moralnogo-vreda-cherez-sud-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Photograph of a private office interior with low-key lighting — deep walnut paneling, a brass library lamp casting a single warm pool over the desk surface, a vintage oxblood leather chesterfield blurred in the corner. Desk in the foreground holds six carefully placed items: a closed dark leather portfolio with a ribbon marker, a leather-bound notebook with blank cover, a fountain pen resting on a brass stand, a polished brass round seal, an antique pocket watch on a short chain, and a small empty whisky tumbler catching the lamp's warm reflection. Background: softly blurred bookshelves fading into deep shadow, a dark window with distant city-light bokeh. Camera: three-quarter angle, eye-level. Lighting: single warm tungsten desk lamp, deep ambient shadow on all sides. Palette: oxblood, walnut, brass on near-black. Mood: solitary deliberation, the weight of an unresolved personal grievance, late-night contemplation before filing.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-05-22T07:35:38Z",
+  "date_published": "2026-05-22",
+  "date_modified": "2026-05-22",
+  "ready_for_review": true,
+  "ready_at": "2026-05-22T07:35:38Z",
+  "publication_target": "telegram_review"
+}
