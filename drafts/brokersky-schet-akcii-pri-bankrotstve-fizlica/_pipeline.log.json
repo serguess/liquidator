@@ -1,0 +1,39 @@
+{
+  "slug": "brokersky-schet-akcii-pri-bankrotstve-fizlica",
+  "category": null,
+  "started_at": "2026-05-22T12:56:17",
+  "finished_at": null,
+  "total_duration_sec": null,
+  "current_iteration": 2,
+  "events": [
+    {
+      "ts": "2026-05-22T12:56:17",
+      "agent": "4-writer",
+      "event": "iteration_returned",
+      "iteration": 2,
+      "reason": "quality_gate iter=1: ai_markers_critical (em-dash в тексте), spam_risk (ngram3=0.037), top10_share=0.112",
+      "recommendation": "1) убрать — в тексте (FAQ вопрос 'Прибыль от ИИС за прошлые годы — попадает ли в опись?'); 2) снизить топ-5 лемм: банкротств(10→≤6), актив(9→≤7), долг(8→≤6), управляющий(8→≤6), имуществ(8→≤6)"
+    },
+    {
+      "ts": "2026-05-22T13:07:35",
+      "agent": "scheduler",
+      "event": "slot_started",
+      "iteration": 2,
+      "category": "fiz",
+      "today_count": 5,
+      "limit": 10,
+      "write_article_duration_sec": 2577.6
+    },
+    {
+      "ts": "2026-05-22T13:07:35",
+      "agent": "quality_gate",
+      "event": "passed",
+      "iteration": 2,
+      "blockers": [],
+      "warnings": [
+        "Автофикс применил правки: сокращения=2, пунктуация=0"
+      ],
+      "recommendations": []
+    }
+  ]
+}

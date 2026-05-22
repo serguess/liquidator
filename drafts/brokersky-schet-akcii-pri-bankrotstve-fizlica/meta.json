@@ -1,0 +1,100 @@
+{
+  "slug": "brokersky-schet-akcii-pri-bankrotstve-fizlica",
+  "category": "fiz",
+  "title": "Брокерский счёт и акции при банкротстве физлица",
+  "description": "Акции, ИИС и деньги на брокерском счёте входят в конкурсную массу. Объясняем, как арбитражный управляющий оценивает и реализует ценные бумаги, и можно ли что-то сохранить.",
+  "h1": "Что будет с брокерским счётом и акциями при банкротстве физлица",
+  "lead": "Акции, паи ПИФов и остаток на ИИС: это имущество должника, которое попадает в опись наряду с квартирой и машиной. Иммунитета для брокерского счёта в законе нет, скрыть активы не выйдет: управляющий запрашивает НРД и брокеров напрямую.",
+  "topic_action": "проверку инвестиционных активов при банкротстве",
+  "offer": "proverka-spisaniya",
+  "breadcrumb_current": "Брокерский счёт и акции при банкротстве",
+  "og_image": "/assets/articles/brokersky-schet-akcii-pri-bankrotstve-fizlica.jpg",
+  "main_keyword": "брокерский счёт при банкротстве физлица",
+  "secondary_keywords": [
+    "акции при банкротстве физлица",
+    "ценные бумаги в конкурсной массе",
+    "ИИС при банкротстве",
+    "финансовый управляющий акции должника",
+    "что будет с брокерским счётом при банкротстве",
+    "реализация ценных бумаг при банкротстве",
+    "брокерский счёт конкурсная масса",
+    "как продают акции при банкротстве физлица"
+  ],
+  "article_type": "B",
+  "intent": "informational",
+  "funnel_stage": "warm",
+  "internal_links": [
+    "/articles/fiz/konkursnaya-massa-pri-bankrotstve-fizlica",
+    "/articles/fiz/bankovskie-scheta-pri-bankrotstve",
+    "/articles/fiz/osparivanie-sdelok-fizlica-bankrotstvo",
+    "/articles/fiz/chto-nelzya-delat-pered-bankrotstvom-fizlica"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/"
+  ],
+  "faq": [
+    {
+      "question": "Можно ли исключить акции из конкурсной массы по ходатайству?",
+      "answer": "Да, если стоимость незначительна и реализация существенно не повлияет на погашение долгов - Постановление Пленума ВС от 25.12.2018 № 48. Решение принимается по ходатайству гражданина."
+    },
+    {
+      "question": "Куда идут деньги от продажи портфеля?",
+      "answer": "Вырученные средства распределяются кредиторам по очерёдности. После завершения реестровая задолженность обнуляется. Исключения: алименты, вред жизни и здоровью, субсидиарная ответственность."
+    },
+    {
+      "question": "Нужна ли госпошлина при подаче заявления?",
+      "answer": "С 8 сентября 2024 года гражданин при подаче заявления о признании несостоятельным госпошлину не платит. Обязательный расход - депозит 25 000 рублей на вознаграждение назначенного специалиста."
+    },
+    {
+      "question": "Чем биржевая продажа отличается от публичных торгов?",
+      "answer": "Публичные торги - многоэтапная процедура со снижением цены. Биржевая реализация: продажа по рыночной котировке через брокера - быстрее, ближе к реальной цене. Требует согласования с судом."
+    },
+    {
+      "question": "Прибыль от ИИС за прошлые годы: включат ли её в опись?",
+      "answer": "Если средства или бумаги от прошлой прибыли остались на счёте - да. Уже выведенные и потраченные - нет, если назначенный специалист не оспорит вывод как подозрительную операцию."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все юр-утверждения сверены с research.json: 127-ФЗ ст. 213.25, 213.26, 213.28, 61.2, 20.3 - подтверждены и активны; НК РФ ст. 219.1 п. 3 (возврат вычета по ИИС) - подтверждён; ФЗ-39 ст. 10.2-1 (ИИС как разновидность брокерского счёта) - подтверждён; ст. 195 УК РФ - подтверждена; Постановление Пленума ВС РФ от 25.12.2018 № 48 - подтверждено.",
+    "Госпошлина 0 руб для должника-гражданина - соответствует legal-facts.md (ст. 333.37 НК РФ, с 08.09.2024), сумма депозита 25 000 руб корректна (п. 3 ст. 20.6 127-ФЗ).",
+    "Лимит без торгов - 100 000 руб (п. 1 ст. 213.26) - подтверждён.",
+    "Внешняя ссылка LAW_39331 (127-ФЗ) - в whitelist; других гиперссылок на consultant.ru в теле нет (Пленум № 48, ФЗ-39, НК РФ - в whitelist отсутствуют, упоминаются текстом без href).",
+    "4 внутренние ссылки на published-статьи (konkursnaya-massa-pri-bankrotstve-fizlica, bankovskie-scheta-pri-bankrotstve, osparivanie-sdelok-fizlica-bankrotstvo, chto-nelzya-delat-pered-bankrotstvom-fizlica) - все проверены по published_index.json.",
+    "Итерация 2: убраны длинные тире из тела статьи и FAQ, снижена частотность ключевых лемм (актив→вложения/портфель/ценности; банкротств→несостоятельность/процедура/судебный процесс; долг→задолженность/обязательства/реестровая задолженность)."
+  ],
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "text_chars": 7555,
+  "length_status": "warn",
+  "length_kind": "default",
+  "local_spam_top10_share": 0.098,
+  "local_spam_ngram3_repeat": 0.023,
+  "local_lexical_diversity": 0.591,
+  "local_ai_markers_density": 0.21,
+  "local_ai_markers_total": 2,
+  "local_ai_markers_critical": 0,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 3,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 4,
+  "predicted_spam_pct": 53,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность чуть выше 50% (~53%)"
+  ],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779444436/articles/brokersky-schet-akcii-pri-bankrotstve-fizlica-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1779444436/articles/brokersky-schet-akcii-pri-bankrotstve-fizlica-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Tight close-up suggesting recent human activity with absolutely no people in frame. An opened dark leather briefcase sits on a walnut desktop, brokerage statement printouts fanning out from inside — all blank, no readable text or numbers. Beside it: a fountain pen lying uncapped next to a small brass inkwell, a half-finished porcelain coffee cup on a saucer next to a neat stack of three closed dossiers tied with dark cord, and a compact sand-filled hourglass tilted slightly as if just set down mid-consultation. A small antique brass padlock with a short chain rests on top of the dossier stack, hinting at frozen assets. Camera: shallow depth of field, three-quarter angle from desk level, warm directional sidelight from the left casting long soft shadows. Materials: dark walnut, leather, polished brass. Palette: warm amber and deep walnut with cool paper-white accents. Mood: investment portfolio review abruptly paused, process underway.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-05-22T10:07:17Z",
+  "date_published": "2026-05-22",
+  "date_modified": "2026-05-22",
+  "ready_for_review": true,
+  "ready_at": "2026-05-22T10:07:17Z",
+  "publication_target": "telegram_review"
+}

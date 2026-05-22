@@ -1,0 +1,245 @@
+{
+  "file": "/home/appuser/apps/liquidator/drafts/brokersky-schet-akcii-pri-bankrotstve-fizlica/article.html",
+  "passed": true,
+  "hard_failed": false,
+  "blockers": [],
+  "warnings": [
+    "Автофикс применил правки: сокращения=2, пунктуация=0"
+  ],
+  "autofix": {
+    "file": "/home/appuser/apps/liquidator/drafts/brokersky-schet-akcii-pri-bankrotstve-fizlica/article.html",
+    "abbreviation_fixes": {
+      "\\bфизлиц(а|у|ом|ами|ам|ах|ы|е|о)?\\b": 2
+    },
+    "punctuation_fixes": 0,
+    "em_dash_fixes": 0,
+    "eng_quotes_fixes": 0,
+    "changed": true,
+    "bytes_before": 41204,
+    "bytes_after": 41238
+  },
+  "quality_checks": {
+    "file": "drafts/brokersky-schet-akcii-pri-bankrotstve-fizlica/article.html",
+    "text_chars": 7555,
+    "length_status": "warn",
+    "length_kind": "default",
+    "passed": true,
+    "abbreviation_hits": [],
+    "punctuation_hits": [],
+    "spam": {
+      "total_words": 696,
+      "unique_lemmas": 411,
+      "lexical_diversity": 0.591,
+      "top10_words": [
+        [
+          "бумаг",
+          9
+        ],
+        [
+          "норм",
+          8
+        ],
+        [
+          "ценн",
+          7
+        ],
+        [
+          "года",
+          7
+        ],
+        [
+          "продаж",
+          7
+        ],
+        [
+          "гражданин",
+          6
+        ],
+        [
+          "несостоятельност",
+          6
+        ],
+        [
+          "опис",
+          6
+        ],
+        [
+          "брокер",
+          6
+        ],
+        [
+          "счёт",
+          6
+        ]
+      ],
+      "top10_share": 0.098,
+      "top1_count": 9,
+      "top3_sum": 24,
+      "top10_sum": 68,
+      "ngram3_repeat_count": 16,
+      "ngram3_total": 694,
+      "ngram3_repeat_share": 0.023,
+      "risk_flags": [],
+      "word_warnings": []
+    },
+    "targeted_tokens": [
+      {
+        "token": "ст_сокращение",
+        "count": 0,
+        "limit": 5,
+        "over_limit": false,
+        "severity": "hard"
+      },
+      {
+        "token": "РФ_рудимент",
+        "count": 0,
+        "limit": 2,
+        "over_limit": false,
+        "severity": "hard"
+      },
+      {
+        "token": "руб_сокращение",
+        "count": 0,
+        "limit": 0,
+        "over_limit": false,
+        "severity": "hard"
+      },
+      {
+        "token": "ООО_бренд",
+        "count": 0,
+        "limit": 3,
+        "over_limit": false,
+        "severity": "hard"
+      },
+      {
+        "token": "000руб_паттерн",
+        "count": 1,
+        "limit": 2,
+        "over_limit": false,
+        "severity": "hard"
+      },
+      {
+        "token": "127фз_закон",
+        "count": 0,
+        "limit": 2,
+        "over_limit": false,
+        "severity": "soft"
+      },
+      {
+        "token": "213_артикул",
+        "count": 3,
+        "limit": 3,
+        "over_limit": false,
+        "severity": "soft"
+      },
+      {
+        "token": "ГПК_кодекс",
+        "count": 0,
+        "limit": 3,
+        "over_limit": false,
+        "severity": "soft"
+      },
+      {
+        "token": "ГК_кодекс",
+        "count": 0,
+        "limit": 3,
+        "over_limit": false,
+        "severity": "soft"
+      },
+      {
+        "token": "000_число",
+        "count": 1,
+        "limit": 8,
+        "over_limit": false,
+        "severity": "soft"
+      },
+      {
+        "token": "cta_формула_повтор",
+        "count": 1,
+        "limit": 1,
+        "over_limit": false,
+        "severity": "soft"
+      }
+    ],
+    "url_whitelist_hits": [],
+    "author_markers_count": 3,
+    "author_markers_min": 2
+  },
+  "ai_markers": {
+    "file": "drafts/brokersky-schet-akcii-pri-bankrotstve-fizlica/article.html",
+    "text_chars": 9452,
+    "hits_total": 2,
+    "density_per_1000": 0.21,
+    "by_severity": {
+      "critical": 0,
+      "high": 0,
+      "medium": 0,
+      "low": 2
+    },
+    "own_voice_hits": 3,
+    "first_person_singular_hits": 0,
+    "hits": [
+      {
+        "name": "ИИ-лексика: «взаимодействие/тонкости/нюансы (абстрактно)»",
+        "category": "ai-lexis",
+        "severity": "low",
+        "match": "Взаимодействие",
+        "position": 9259,
+        "context": "...ение law@pravo.shop Коммерческие предложения biz@pravo.shop Взаимодействие со СМИ pr@pravo.shop © 2018-2026 ООО «ЛИКВИДАТОР». Все прав..."
+      },
+      {
+        "name": "Канцелярит: «в рамках» (без нужды)",
+        "category": "clerical",
+        "severity": "low",
+        "match": "в рамках",
+        "position": 8871,
+        "context": "...ровождение на всех этапах. Надёжность и законность Работаем в рамках ФЗ и действующего законодательства РФ. РЕКВИЗИТЫ ООО «ЛИКВИ..."
+      }
+    ]
+  },
+  "anti_template": {
+    "file": "drafts/brokersky-schet-akcii-pri-bankrotstve-fizlica/article.html",
+    "text_chars": 7804,
+    "phrases_loaded": 138,
+    "passed": true,
+    "hits": []
+  },
+  "law_quotes": {
+    "total_chars": 0,
+    "limit": 600,
+    "samples": []
+  },
+  "rhythm": {
+    "file": "drafts/brokersky-schet-akcii-pri-bankrotstve-fizlica/article.html",
+    "text_chars": 7804,
+    "sentences_total": 109,
+    "avg_sentence_len": 6.81,
+    "short_sentences_count": 49,
+    "short_sentences_share": 0.45,
+    "long_sentences_count": 0,
+    "parasite_count": 1,
+    "parasite_per_1000": 0.13,
+    "flags": []
+  },
+  "internal_links": {
+    "total_hrefs": 42,
+    "ok": 4,
+    "whitelisted": 21,
+    "external": 14,
+    "fixed": 0,
+    "errors": 0,
+    "changed": false,
+    "fix_details": [],
+    "error_details": []
+  },
+  "recommendations": [],
+  "retry_count": 4,
+  "predicted_metrics": {
+    "spam_pct": 53,
+    "ai_pct": 3,
+    "uniqueness_pct": 87
+  },
+  "customer_risks": [
+    "заспамленность чуть выше 50% (~53%)"
+  ]
+}

@@ -1383,6 +1383,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "brokersky-schet-akcii-pri-bankrotstve-fizlica",
+      "category": "fiz",
+      "title": "Брокерский счёт и акции при банкротстве физлица",
+      "added_at": "2026-05-22T13:07:17.581278",
+      "char_count": 7555,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779444436/articles/brokersky-schet-akcii-pri-bankrotstve-fizlica-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
