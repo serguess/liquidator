@@ -6553,5 +6553,61 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-05-22T17:12:25",
+    "category": "vzysk",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 6,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "vzysk-42",
+    "topic_slug": "snyatie-zaloga-posle-pogasheniya",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "Автофикс применил правки: сокращения=0, пунктуация=0",
+        "length_soft_passed: 8227 > 8000 но ≤ 8500 и iteration=4 — пропускаем (приоритет spam/uniqueness/ai)",
+        "spam_soft_passed: ratio-флаги мягкие при iter=4, targeted_tokens чистые → пропускаем (spam ≈48-52% по прогнозу)"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "snyatie-zaloga-posle-pogasheniya",
+    "duration_sec": 1931.3,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "| **Режим** | ready_for_review = true |\n| **Файл** | `drafts/snyatie-zaloga-posle-pogasheniya/article.html` |\n\n**textru_ai_detector / textru_uniqueness / textru_spam:** значения появятся после публикации через text.ru — прогон ещё не запускался.\n\nПредупреждения quality_gate (не блокеры):\n- Длина 8 227 зн. (лимит 8 000) — soft-pass при iter=3\n- Заспамленность ~58% (прогноз) — soft-pass при чистых targeted_tokens\n\nОбложка загружена на Cloudinary, статья добавлена в review_queue (всего 109 статей).",
+    "stderr_tail": "",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 8227
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]

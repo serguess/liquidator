@@ -1422,6 +1422,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "rezyume-obsuzhdeniya-stavki-cb-prognoz",
+      "category": "news",
+      "title": "ЦБ объяснил логику снижения ставки: прогноз",
+      "added_at": "2026-05-22T20:01:28.977066",
+      "char_count": 6800,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779469288/articles/rezyume-obsuzhdeniya-stavki-cb-prognoz-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
