@@ -1,0 +1,13 @@
+{
+  "slug": "spisanie-kreditov-svo-do-10-mln-zakon",
+  "passed": true,
+  "scores": {
+    "structure_overlap": 0.0,
+    "thesis_similarity": 0.0,
+    "cta_overlap": 0.0
+  },
+  "similar_articles": [],
+  "conflicts": [],
+  "recommendation": "ok",
+  "note": "Эмбеддинговая проверка пройдена. Статья полностью уникальна по смыслу. Вектор записан в БД с флагом published=0. Управление передаётся агенту 6 (редактура) и далее к качественному контролю через quality_gate.py."
+}

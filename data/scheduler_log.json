@@ -7103,5 +7103,60 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-05-23T17:12:36",
+    "category": "vzysk",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 1,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "vzysk-45",
+    "topic_slug": "solidarnoe-vzyskanie-dolga-s-dolzhnikov",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "Автофикс применил правки: сокращения=0, пунктуация=0",
+        "internal_links_autofixed: 4 ссылок (например /articles/vzysk/vzyskanie-dolga-s-poruchitelya.html→/articles/vzysk/vzyskanie-dolga-s-poruchitelya; /articles/vzysk/vzyskanie-dolga-s-naslednikov-dolzhnika.html→/articles/vzysk/vzyskanie-dolga-s-naslednikov-dolzhnika; /articles/vzysk/chto-takoe-ispolnitelnoe-proizvodstvo.html→/articles/vzysk/chto-takoe-ispolnitelnoe-proizvodstvo)"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "solidarnoe-vzyskanie-dolga-s-dolzhnikov",
+    "duration_sec": 2602.0,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "_warning | нет |\n| Обложка | сгенерирована (template #9, мраморная поверхность с юридическими атрибутами) |\n| Статус | `ready_for_review: true` → ждёт в TG-боте |\n\n**Метрики text.ru** (заполнятся при первой проверке через TG-бот):\n- `textru_ai_detector`: не проверялось\n- `textru_uniqueness`: не проверялось  \n- `textru_spam`: не проверялось\n\n**Predicted metrics** (из quality_gate): spam ~49%, AI ~3%, uniqueness ~87%\n\n**Путь к статье:** `drafts/solidarnoe-vzyskanie-dolga-s-dolzhnikov/article.html`",
+    "stderr_tail": "",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7486
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]

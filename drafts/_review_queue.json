@@ -1552,6 +1552,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "spisanie-kreditov-svo-do-10-mln-zakon",
+      "category": "news",
+      "title": "Списание кредитов участникам СВО до 10 млн: новый закон",
+      "added_at": "2026-05-23T20:34:02.328271",
+      "char_count": 6162,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779557641/articles/spisanie-kreditov-svo-do-10-mln-zakon-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

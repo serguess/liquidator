@@ -3473,6 +3473,28 @@
       "articles": [
         "solidarnoe-vzyskanie-dolga-s-dolzhnikov"
       ]
+    },
+    {
+      "id": "news-svo-spisanie-kreditov-10-mln",
+      "category": "news",
+      "subtopic": "закон о списании просроченных кредитов участникам СВО до 10 млн рублей",
+      "intent": "informational",
+      "funnel_stage": "warm",
+      "main_keyword": "списание кредитов участникам СВО",
+      "related_keywords": [
+        "списание долгов контрактникам СВО",
+        "кредиты участникам СВО до 10 млн",
+        "закон о списании долгов военнослужащим",
+        "списание просроченных кредитов СВО",
+        "законопроект 1212266-8 СВО кредиты",
+        "как списать кредит контрактнику",
+        "ФССП списание долга СВО",
+        "377-ФЗ поправки списание долгов"
+      ],
+      "news_zone": "legislation",
+      "articles": [
+        "spisanie-kreditov-svo-do-10-mln-zakon"
+      ]
     }
   ]
 }
