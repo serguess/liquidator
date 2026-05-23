@@ -6946,5 +6946,61 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-05-23T10:00:29",
+    "category": "vzysk",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 1,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "vzysk-44",
+    "topic_slug": "vzyskanie-neustojki-po-dogovoru",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "Автофикс применил правки: сокращения=0, пунктуация=0",
+        "internal_links_autofixed: 3 ссылок (например /articles/vzysk/vzyskanie-ubytkov-upushchennaya-vygoda.html→/articles/vzysk/vzyskanie-ubytkov-upushchennaya-vygoda; /articles/vzysk/vzyskanie-neustoyki-s-zastrojshchika.html→/articles/vzysk/vzyskanie-neustoyki-s-zastrojshchika; /articles/vzysk/dosudebnaya-pretenziya-obrazec.html→/articles/vzysk/dosudebnaya-pretenziya-obrazec)",
+        "spam_soft_passed: ratio-флаги мягкие при iter=5, targeted_tokens чистые → пропускаем (spam ≈48-52% по прогнозу)"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "vzyskanie-neustojki-po-dogovoru",
+    "duration_sec": 2346.3,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "sed (0.0 по всем метрикам) |\n| Factcheck | passed |\n| Quality gate | passed (warnings: spam_soft ~58%, lex_div=0.57) |\n| Обложка | сгенерирована, загружена на Cloudinary |\n| Статус | `ready_for_review: true`, в очереди TG-бота |\n\n**Прогнозные метрики text.ru** (из quality_gate):\n- `textru_ai_detector`: ~3%\n- `textru_uniqueness`: ~87%\n- `textru_spam`: ~58% (мягкое предупреждение, не блокер)\n\nСтатья добавлена в очередь ревью (116 позиция). Публикация — через нажатие «Опубликовать» в Telegram-боте.",
+    "stderr_tail": "",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7749
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]

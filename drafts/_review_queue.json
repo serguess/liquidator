@@ -1513,6 +1513,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "nedobrosovestnost-dolzhnika-otkaz-v-spisanii",
+      "category": "fiz",
+      "title": "Недобросовестность должника: когда долги не спишут",
+      "added_at": "2026-05-23T13:05:34.641254",
+      "char_count": 7798,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779530733/articles/nedobrosovestnost-dolzhnika-otkaz-v-spisanii-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
