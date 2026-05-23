@@ -2670,7 +2670,7 @@
     "bankrotstvo-nko-nekommercheskoj-organizacii": {
       "category": "yur",
       "title": "Банкротство НКО: процедура, основания, последствия",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -2678,13 +2678,15 @@
       "tg_message_id": 897,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-23T00:55:12",
-      "last_action_at": "2026-05-23T00:55:12",
+      "last_action_at": "2026-05-23T11:39:25",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/yur/bankrotstvo-nko-nekommercheskoj-organizacii",
       "pending_batch": false,
       "pending_batch_at": "2026-05-23T00:55:12",
-      "batch_sent_at": "2026-05-23T10:01:03"
+      "batch_sent_at": "2026-05-23T10:01:03",
+      "published_at": "2026-05-23T11:39:25",
+      "articles_path": "articles/yur/bankrotstvo-nko-nekommercheskoj-organizacii.html"
     },
     "vzyskanie-avansa-pri-rastorzhenii-dogovora": {
       "category": "vzysk",

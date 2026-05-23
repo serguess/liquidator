@@ -2,6 +2,19 @@
   "generated": "2026-05-23",
   "articles": [
     {
+      "slug": "bankrotstvo-nko-nekommercheskoj-organizacii",
+      "cat": "yur",
+      "catLabel": "Банкротство юридических лиц",
+      "title": "Банкротство НКО: процедура, основания, последствия",
+      "desc": "Какие НКО могут быть признаны банкротом, кто вправе подать заявление, как проходят стадии наблюдения и конкурсного производства, ответственность учредителей.",
+      "date": "23 мая 2026",
+      "dateIso": "2026-05-23",
+      "read": "5 мин.",
+      "tone": "b",
+      "img": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779486842/articles/bankrotstvo-nko-nekommercheskoj-organizacii-cover.jpg",
+      "url": "articles/yur/bankrotstvo-nko-nekommercheskoj-organizacii"
+    },
+    {
       "slug": "sudebnyj-prikaz-pri-bankrotstve-fizlica",
       "cat": "fiz",
       "catLabel": "Банкротство физических лиц",
