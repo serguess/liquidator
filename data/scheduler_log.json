@@ -7055,5 +7055,53 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-05-23T14:48:36",
+    "category": "yur",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "mode": "new",
+    "topic_id": "yur-54",
+    "topic_slug": "restrukturizaciya-dolgov-yurlica-do-bankrotstva",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "Автофикс применил правки: сокращения=1, пунктуация=0",
+        "internal_links_autofixed: 3 ссылок (например /dokazatelstva-dobrosovestnosti-direktora-subsidiarka.html→/articles/yur/dokazatelstva-dobrosovestnosti-direktora-subsidiarka; /priznaki-bankrotstva-yurlica.html→/articles/yur/priznaki-bankrotstva-yurlica; /osparivanie-sdelok-pri-bankrotstve.html→/articles/yur/osparivanie-sdelok-pri-bankrotstve)",
+        "length_soft_passed: 8246 > 8000 но ≤ 8500 и iteration=5 — пропускаем (приоритет spam/uniqueness/ai)"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "restrukturizaciya-dolgov-yurlica-do-bankrotstva",
+    "duration_sec": 3016.1,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "ing, пройден на iter 4)\n- **Уникальность:** passed (агент 5)\n- **Фактчек:** passed (агент 6)\n- **Quality gate:** passed (exit 0, blockers пусты)\n- **Обложка:** сгенерирована, шаблон #19 (стратегическое совещание), загружена в Cloudinary\n- **Файл:** `drafts/restrukturizaciya-dolgov-yurlica-do-bankrotstva/article.html`\n- **Статус:** `ready_for_review: true`, добавлена в TG-очередь (118 items)\n\n**Прогнозные метрики (text.ru):**\n- AI-детектор: **3%**\n- Заспамленность: **49%**\n- Уникальность: **87%**",
+    "stderr_tail": "",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 8246
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]

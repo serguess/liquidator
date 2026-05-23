@@ -1,0 +1,98 @@
+{
+  "slug": "solidarnoe-vzyskanie-dolga-s-dolzhnikov",
+  "category": "vzysk",
+  "title": "Солидарное взыскание долга с нескольких должников",
+  "description": "Как взыскать долг солидарно: составить иск, выбрать ответчика, запустить исполнительное производство через приставов и добиться регресса.",
+  "h1": "Солидарное взыскание долга: как получить деньги сразу с нескольких должников",
+  "lead": "Несколько лиц обязаны по одному долгу — поручитель и заёмщик, созаёмщики, наследники или партнёры по бизнесу. Закон даёт взыскателю право выбрать, к кому идти: ко всем сразу или к тому, у кого есть активы.",
+  "topic_action": "солидарное взыскание долга",
+  "breadcrumb_current": "Солидарное взыскание долга",
+  "og_image": "/assets/articles/solidarnoe-vzyskanie-dolga-s-dolzhnikov.jpg",
+  "main_keyword": "солидарное взыскание долга с нескольких должников",
+  "secondary_keywords": [
+    "солидарная ответственность должников",
+    "как взыскать долг с солидарных ответчиков",
+    "сводное исполнительное производство солидарное взыскание",
+    "взыскание долга с созаемщика",
+    "регрессное требование к солидарному должнику",
+    "иск к солидарным должникам",
+    "статья 322 ГК РФ солидарные обязательства",
+    "солидарная ответственность поручителя и заемщика"
+  ],
+  "internal_links": [
+    "/articles/vzysk/vzyskanie-dolga-s-poruchitelya.html",
+    "/articles/vzysk/vzyskanie-dolga-s-naslednikov-dolzhnika.html",
+    "/articles/vzysk/chto-takoe-ispolnitelnoe-proizvodstvo.html",
+    "/articles/vzysk/ispolnitelskij-sbor-kak-osporit.html"
+  ],
+  "external_links": [],
+  "faq": [
+    {
+      "question": "Можно ли взыскать весь долг только с поручителя, не трогая заёмщика?",
+      "answer": "Да. Поручитель тянет полную сумму без предварительного обращения к основному должнику. Исключение: договор прямо переводит его на субсидиарную ответственность."
+    },
+    {
+      "question": "Сколько исполнительных листов выдаётся при взыскании с трёх лиц?",
+      "answer": "Три отдельных. Единый документ на всех не оформляется. Листы предъявляются приставу, производства потом объединяют в сводное."
+    },
+    {
+      "question": "Что происходит с остальными делами, если кто-то погасил всё?",
+      "answer": "Служба прекращает все производства по данному взысканию. Повторно требовать деньги нельзя. Тот, кто заплатил за других, подаёт иск о возмещении к ним."
+    },
+    {
+      "question": "Чем солидарная обязанность отличается от субсидиарной?",
+      "answer": "При совместной взыскатель идёт к любому из обязанных лиц без очерёдности. При субсидиарной — сначала к основному, при его несостоятельности — к запасному."
+    },
+    {
+      "question": "Вправе ли удерживать 70% зарплаты по обычному долгу?",
+      "answer": "Нет. Повышенный лимит работает в четырёх специальных случаях из закона — обычное денежное взыскание под них не подпадает. Потолок — 50% после налога."
+    },
+    {
+      "question": "До какого момента течёт 3-летний срок по обратному требованию?",
+      "answer": "Отсчёт идёт от даты, когда заплативший фактически перевёл деньги. С этого дня у него есть 3 года на подачу иска к содолжникам."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все юр-утверждения сверены с research.json: ст. 322 ГК (основания солидарности) — f1; ст. 323 ГК (право выбора кредитора, обязанность до полного погашения) — f2; ст. 324 ГК (личные возражения) — f3; ст. 325 ГК (регресс, равные доли) — f4, f14; ст. 363 ГК (солидарность поручителя по умолчанию) — f5; ст. 1175 ГК (наследники в пределах имущества) — f6; ст. 1080 ГК (совместное причинение вреда) — f7; ст. 322-323 ГК (созаёмщики) — f8; ст. 40, 429 ГПК и ст. 46, 229.2, 319 АПК (процессуальный порядок, отдельный лист на каждого, лимит 500 000 руб для судебного приказа в арбитраже) — f9, f10; ст. 34 ФЗ-229 (сводное ИП) — f11; ст. 112 ч. 3 ФЗ-229 (исполнительский сбор 7%, не менее 1 000 руб с гражданина) и ст. 30 ч. 12 ФЗ-229 (5 рабочих дней на добровольное исполнение) — f12; ст. 47 ч. 1 п. 1 ФЗ-229 (прекращение ИП при фактическом исполнении) — f13; п. 8 ст. 61.11 127-ФЗ (КДЛ солидарно) — f15; ст. 1047 ГК (товарищество) — f16; ст. 99 ч. 2-3 ФЗ-229 (50% общий лимит, 70% только для алиментов/вреда здоровью/смерти кормильца/ущерба от преступления) — f17.",
+    "Запрещённые утверждения исключены: нет гарантии взыскания (оговорка о возможном отсутствии активов сохранена в блоке про регресс и в дисклеймере), не утверждается что регрессный иск всегда успешен, не приписывается удержание 70% по обычным долгам, не утверждается что лист один на всех — везде указано «отдельный на каждого», не утверждается что сбор оспаривается через пристава — только через суд.",
+    "Внутренние ссылки проверены по published_index.json: vzyskanie-dolga-s-poruchitelya, vzyskanie-dolga-s-naslednikov-dolzhnika, chto-takoe-ispolnitelnoe-proizvodstvo, ispolnitelskij-sbor-kak-osporit — все опубликованы в категории vzysk.",
+    "Внешние URL: в research есть source_url на LAW_5142 (ГК РФ) и LAW_39331 (127-ФЗ), оба в whitelist. По правилу 18.05.2026 (минимизация внешних ссылок при отсутствии прямой необходимости) в теле статьи URL не используются — нормы упоминаются текстовым описанием. ФЗ-229, ГПК, АПК — без URL (нет в whitelist), упоминаются по правилу через текст.",
+    "Главный ключ «солидарное взыскание долга с нескольких должников» употреблён 1 раз в title, 1 раз в h1; в теле — частями (солидарное взыскание / солидарный долг / солидарная обязанность) для антипереоптимизации.",
+    "Лимит цитирования закона соблюдён: прямых блок-цитат нет, нормы пересказаны своими словами."
+  ],
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "text_chars": 7486,
+  "keyword_density_main": 0.005,
+  "main_keyword_exact_count": 2,
+  "length_status": "ok",
+  "length_kind": "default",
+  "local_spam_top10_share": 0.099,
+  "local_spam_ngram3_repeat": 0.007,
+  "local_lexical_diversity": 0.622,
+  "local_ai_markers_density": 0.21,
+  "local_ai_markers_total": 2,
+  "local_ai_markers_critical": 0,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 3,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 4,
+  "predicted_spam_pct": 49,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779548134/articles/solidarnoe-vzyskanie-dolga-s-dolzhnikov-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1779548134/articles/solidarnoe-vzyskanie-dolga-s-dolzhnikov-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Close-up architectural photograph emphasizing the texture of polished white-and-grey veined marble, with a small cluster of formal business accessories arranged in the foreground on the stone surface. Camera: tight crop, eye-level, slight low-angle to let the marble veining sweep diagonally into depth. Foreground objects: a closed dark oxblood leather portfolio resting flat, a polished brass round seal placed upright against the portfolio's spine, a fountain pen laid diagonally across the portfolio's lower edge, an antique brass pocket watch on a short chain coiled beside the seal, a small brushed-silver tray underneath the seal and watch as a refined base. Lighting: soft diffused cool daylight grazing the marble surface, revealing deep veining and grain, with a narrow warm brass rim-light catching the seal and watch. Palette: cool ivory and grey marble, warm brass accents, oxblood leather on neutral stone. Mood: refined institutional authority, the formal weight of multiple binding obligations formalised in a single proceeding.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-05-23T14:55:35Z",
+  "date_published": "2026-05-23",
+  "date_modified": "2026-05-23",
+  "ready_for_review": true,
+  "ready_at": "2026-05-23T14:55:35Z",
+  "publication_target": "telegram_review"
+}
