@@ -1487,6 +1487,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "apartamenty-pri-bankrotstve-zastrojshchika",
+      "category": "yur",
+      "title": "Апартаменты при банкротстве застройщика: почему нет защиты",
+      "added_at": "2026-05-23T08:15:06.104581",
+      "char_count": 7452,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779513305/articles/apartamenty-pri-bankrotstve-zastrojshchika-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": false,
+        "hard_failed": false
+      }
     }
   ]
 }

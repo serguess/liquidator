@@ -6834,5 +6834,59 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-05-23T05:12:36",
+    "category": "fiz",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 12,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "fiz-59",
+    "topic_slug": "bankrotstvo-s-kreditami-neskolkikh-bankov",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "Автофикс применил правки: сокращения=0, пунктуация=0"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "bankrotstvo-s-kreditami-neskolkikh-bankov",
+    "duration_sec": 2276.1,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "актчек (6)** | passed ✓ |\n| **Обложка** | сгенерирована (template #12) |\n| **Статус** | `ready_for_review: true` — в очереди ТГ-бота |\n\n**Предсказанные метрики text.ru** (реальные появятся после публикации):\n- AI-детектор: ~3%\n- Уникальность: ~87%\n- Заспамленность: ~53% (чуть выше 50% — в рамках допустимого)\n\nТекущие метрики text.ru (`None`) — реальные значения появятся после того, как статья будет проверена вручную на text.ru или опубликована. Статья ждёт нажатия «Опубликовать» в Telegram-боте.",
+    "stderr_tail": "",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7746
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]
