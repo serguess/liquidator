@@ -428,17 +428,20 @@ def compute_spam_heuristics(text: str) -> SpamHeuristics:
     if lexical_diversity < 0.58:
         risk_flags.append(f"lexical_diversity<{0.58} (={lexical_diversity})")
 
-    # Per-word feedback: слова из топ-10 с count > 9 (порог writer'а).
+    # Per-word feedback: слова из топ-10 с count > 7 (ужесточено 23 мая).
     # НЕ блокируют gate, но дают writer'у точный вектор правки в Pass C.
-    # Добавлено 21 мая 2026: без этого writer видит только top10_share и
-    # не знает КАКИЕ конкретно слова снижать. С feedback Pass C сходится
-    # за 1 цикл вместо 2.
+    # Добавлено 21 мая (порог 9), ужесточено 23 мая (порог 7).
+    # Причина: batch 22-23 мая показал что проблема не в одном слове с count>9,
+    # а в РАВНОМЕРНОЙ концентрации 8-10 слов по 6-9 каждое (итого top10_sum=70+).
+    # Пример: sudebnyj-prikaz top10=[9,8,8,8,8,7,7,7,6,6]=74, word_warnings
+    # при пороге 9 было ПУСТО, writer не знал что снижать.
+    # Порог 7: ловит 4-6 слов из топ-10, даёт writer'у конкретный план.
     word_warnings = []
     for lemma, count in top10:
-        if count > 9:
+        if count > 7:
             word_warnings.append(
-                f"⚠ «{lemma}»: {count} → снизить до ≤9. "
-                f"Заменить {count - 9} вхождений "
+                f"⚠ «{lemma}»: {count} → снизить до ≤7. "
+                f"Заменить {count - 7} вхождений "
                 f"перифразами из topic_terms/category-periph.md"
             )
 
@@ -709,7 +712,7 @@ def _detect_kind(file_path: Path, raw: str) -> str:
 # Bash-самопроверку 5+ раз → залипали слоты по таймауту 40 мин.
 # После N-го вызова risk_flags принудительно очищаются — статья идёт
 # дальше к агентам 5/6/quality_gate, которые поймают реальные проблемы.
-WRITER_QC_HARDCAP_N = 3
+WRITER_QC_HARDCAP_N = 4  # cap=3 в промпте writer'а + 1 запас (23 мая: было 3, увеличено)
 WRITER_QC_WINDOW_SEC = 1800  # 30 минут — окно одного слота
 
 

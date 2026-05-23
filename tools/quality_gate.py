@@ -89,18 +89,17 @@ SHORT_SENTENCES_MIN_ABSOLUTE = 12
 # Cap ≤9 ловит «гладкий ChatGPT-стиль».
 LONG_SENTENCES_MAX_ABSOLUTE = 9
 
-# Hard-блок top10_share (главный драйвер text.ru spam). Калибровка 19 мая 2026
-# по 17 свежим статьям: top10_share=0.097 в среднем → spam 52%, ни одна не в
-# целевом коридоре ≤50%. Корреляция top10_share↔spam: 0.075→48%, 0.085→50%,
-# 0.090→52%, 0.100→54%. Чтобы стабильно ≤50%, нужен writer-loop до ≤0.085 (с
-# буфером под inject_boilerplate). Без жёсткого блокера Опус пишет «spam 49%»
-# в собственном логе и сохраняет 0.099 как passed — Pass C игнорируется.
-# На iter=1 порог 0.090 (даёт writer'у точечный возврат), на iter=2 — 0.095
-# (даём ещё одну попытку), на iter=3 — forced_pass через MAX_RETRY_COUNT.
+# Hard-блок top10_share (главный драйвер text.ru spam). Калибровка 23 мая 2026.
+# Batch 22-23 мая: все 9 статей прошли gate, но 8/9 имеют top10_share 0.091-0.101
+# → predicted spam 53-60%. Gate iter2=0.095 пропускал статьи с реальным spam 54-58%.
+# Корреляция: 0.075→48%, 0.085→50%, 0.090→52%, 0.095→54%, 0.100→56%.
+# Ужесточение: iter1 0.090 (без изменений), iter2 0.095→0.090 (главный фикс).
+# Iter2 теперь требует то же что iter1: writer должен попасть в 0.090 или ниже.
+# Если не попадает за 2 итерации, iter=3 = forced_pass (MAX_RETRY_COUNT).
 TOP10_SHARE_BLOCK_ITER1 = 0.090
-TOP10_SHARE_BLOCK_ITER2 = 0.095
+TOP10_SHARE_BLOCK_ITER2 = 0.090
 TOP1_COUNT_BLOCK_ITER1 = 10   # эталон 8, целевой ≤9, ≥10 → spam ≥51%
-TOP1_COUNT_BLOCK_ITER2 = 11
+TOP1_COUNT_BLOCK_ITER2 = 10   # ужесточено 23 мая: было 11, теперь как iter1
 
 
 @dataclass
