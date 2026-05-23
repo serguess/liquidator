@@ -2628,7 +2628,7 @@
     "rezyume-obsuzhdeniya-stavki-cb-prognoz": {
       "category": "news",
       "title": "ЦБ объяснил логику снижения ставки: прогноз",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -2636,13 +2636,15 @@
       "tg_message_id": 893,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-22T20:02:10",
-      "last_action_at": "2026-05-22T20:02:10",
+      "last_action_at": "2026-05-23T11:29:15",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/news/rezyume-obsuzhdeniya-stavki-cb-prognoz",
       "pending_batch": false,
       "pending_batch_at": "2026-05-22T20:02:10",
-      "batch_sent_at": "2026-05-23T10:00:59"
+      "batch_sent_at": "2026-05-23T10:00:59",
+      "published_at": "2026-05-23T11:29:15",
+      "articles_path": "articles/news/rezyume-obsuzhdeniya-stavki-cb-prognoz.html"
     },
     "sudebnyj-prikaz-pri-bankrotstve-fizlica": {
       "category": "fiz",

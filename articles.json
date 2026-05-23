@@ -2,6 +2,19 @@
   "generated": "2026-05-23",
   "articles": [
     {
+      "slug": "rezyume-obsuzhdeniya-stavki-cb-prognoz",
+      "cat": "news",
+      "catLabel": "Новости",
+      "title": "ЦБ объяснил логику снижения ставки: прогноз",
+      "desc": "7 мая ЦБ опубликовал резюме обсуждения решения о снижении ставки до 14,5%. Почему снизили, кто возражал и когда ждать следующего шага - разбираем для должников.",
+      "date": "23 мая 2026",
+      "dateIso": "2026-05-23",
+      "read": "5 мин.",
+      "tone": "b",
+      "img": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779469288/articles/rezyume-obsuzhdeniya-stavki-cb-prognoz-cover.jpg",
+      "url": "articles/news/rezyume-obsuzhdeniya-stavki-cb-prognoz"
+    },
+    {
       "slug": "snyatie-zaloga-posle-pogasheniya",
       "cat": "vzysk",
       "catLabel": "Взыскание задолженности",
