@@ -2316,20 +2316,30 @@
     "chto-takoe-ispolnitelnoe-proizvodstvo": {
       "category": "vzysk",
       "title": "Исполнительное производство: что это и как работает",
-      "status": "pending_review",
-      "current_version": "2.0",
+      "status": "published",
+      "current_version": "2.1",
       "versions": [
-        "2.0"
+        "2.0",
+        "2.1"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 841,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-21T10:41:59",
-      "last_action_at": "2026-05-21T10:41:59",
-      "edits_history": [],
+      "last_action_at": "2026-05-23T09:42:46",
+      "edits_history": [
+        {
+          "version": "2.1",
+          "edit_text": "В этой статье нужно скорректировать проценты и минимальную сумму взыскания. Посмотри 112-ю статью об исполнительном производстве, пункт 3. И напиши про 12% и про не менее 2000 рублей с гражданина и 20000 с организации. Надо скорректировать.",
+          "applied_at": "2026-05-23T09:41:06"
+        }
+      ],
       "rejection_reason": null,
-      "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-05-21T10:41:59"
+      "published_url": "https://pravo.shop/articles/vzysk/chto-takoe-ispolnitelnoe-proizvodstvo",
+      "pending_batch": false,
+      "pending_batch_at": "2026-05-21T10:41:59",
+      "batch_sent_at": "2026-05-22T10:00:28",
+      "published_at": "2026-05-23T09:42:46",
+      "articles_path": "articles/vzysk/chto-takoe-ispolnitelnoe-proizvodstvo.html"
     },
     "ocherednost-trebovanij-kreditorov-pri-bankrotstve-fizlica": {
       "category": "fiz",
@@ -2348,10 +2358,342 @@
       "published_url": null,
       "pending_batch": true,
       "pending_batch_at": "2026-05-21T13:07:00"
+    },
+    "obespechitelnye-mery-bankrotstvo-yurlica": {
+      "category": "yur",
+      "title": "Обеспечительные меры при банкротстве юрлица",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 843,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-05-21T15:30:01",
+      "last_action_at": "2026-05-21T15:30:01",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-05-21T15:30:01",
+      "batch_sent_at": "2026-05-22T10:00:33"
+    },
+    "vzyskanie-dolga-s-poruchitelya": {
+      "category": "vzysk",
+      "title": "Взыскание долга с поручителя: права кредитора",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 845,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-05-21T17:49:01",
+      "last_action_at": "2026-05-21T17:49:01",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-05-21T17:49:01",
+      "batch_sent_at": "2026-05-22T10:00:35"
+    },
+    "nalogovyj-zalog-fns-status-kreditora-bankrotstvo": {
+      "category": "news",
+      "title": "ФНС как залоговый кредитор в банкротстве: позиция ВС",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 847,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-05-21T20:14:02",
+      "last_action_at": "2026-05-21T20:14:02",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-05-21T20:14:02",
+      "batch_sent_at": "2026-05-22T10:00:37"
+    },
+    "pervoe-zasedanie-suda-bankrotstvo-fizlica": {
+      "category": "fiz",
+      "title": "Первое заседание по банкротству физлица: как пройдёт",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 849,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-05-21T22:32:03",
+      "last_action_at": "2026-05-21T22:32:03",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-05-21T22:32:03",
+      "batch_sent_at": "2026-05-22T10:00:39"
+    },
+    "subordinaciya-affilirovannyh-kreditorov-bankrotstvo": {
+      "category": "yur",
+      "title": "Субординация аффилированных кредиторов при банкротстве",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 851,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-05-22T01:19:04",
+      "last_action_at": "2026-05-22T01:19:04",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-05-22T01:19:04",
+      "batch_sent_at": "2026-05-22T10:00:41"
+    },
+    "ispolnitelnaya-nadpis-notariusa": {
+      "category": "vzysk",
+      "title": "Исполнительная надпись нотариуса: взыскать долг без суда",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 853,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-05-22T03:33:05",
+      "last_action_at": "2026-05-22T03:33:05",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-05-22T03:33:05",
+      "batch_sent_at": "2026-05-22T10:00:43"
+    },
+    "shtrafy-gibdd-i-sanktsii-pri-bankrotstve": {
+      "category": "fiz",
+      "title": "Штрафы ГИБДД при банкротстве физлица",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 855,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-05-22T05:45:05",
+      "last_action_at": "2026-05-22T05:45:05",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-05-22T05:45:05",
+      "batch_sent_at": "2026-05-22T10:00:45"
+    },
+    "zameshchenie-aktivov-pri-bankrotstve-yurlica": {
+      "category": "yur",
+      "title": "Замещение активов при банкротстве юрлица: ст. 115",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 857,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-05-22T08:48:06",
+      "last_action_at": "2026-05-22T08:48:06",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-05-22T08:48:06",
+      "batch_sent_at": "2026-05-22T10:00:47"
+    },
+    "vzyskanie-moralnogo-vreda-cherez-sud": {
+      "category": "vzysk",
+      "title": "Взыскание морального вреда: размер и доказательства в суде",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-05-22T10:36:07",
+      "last_action_at": "2026-05-22T10:36:07",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-05-22T10:36:07"
+    },
+    "brokersky-schet-akcii-pri-bankrotstve-fizlica": {
+      "category": "fiz",
+      "title": "Брокерский счёт и акции при банкротстве физлица",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-05-22T13:08:08",
+      "last_action_at": "2026-05-22T13:08:08",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-05-22T13:08:08"
+    },
+    "konsolidirovannoe-bankrotstvo-vzaimozavisimyh-kompanij": {
+      "category": "yur",
+      "title": "Консолидированное банкротство взаимозависимых юрлиц",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-05-22T15:36:09",
+      "last_action_at": "2026-05-22T15:36:09",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-05-22T15:36:09"
+    },
+    "snyatie-zaloga-posle-pogasheniya": {
+      "category": "vzysk",
+      "title": "Снятие залога после выплаты: квартира и автомобиль",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-05-22T17:45:09",
+      "last_action_at": "2026-05-22T17:45:09",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-05-22T17:45:09"
+    },
+    "rezyume-obsuzhdeniya-stavki-cb-prognoz": {
+      "category": "news",
+      "title": "ЦБ объяснил логику снижения ставки: прогноз",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-05-22T20:02:10",
+      "last_action_at": "2026-05-22T20:02:10",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-05-22T20:02:10"
+    },
+    "sudebnyj-prikaz-pri-bankrotstve-fizlica": {
+      "category": "fiz",
+      "title": "Судебный приказ при банкротстве физлица",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-05-22T22:39:11",
+      "last_action_at": "2026-05-22T22:39:11",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-05-22T22:39:11"
+    },
+    "bankrotstvo-nko-nekommercheskoj-organizacii": {
+      "category": "yur",
+      "title": "Банкротство НКО: процедура, основания, последствия",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-05-23T00:55:12",
+      "last_action_at": "2026-05-23T00:55:12",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-05-23T00:55:12"
+    },
+    "vzyskanie-avansa-pri-rastorzhenii-dogovora": {
+      "category": "vzysk",
+      "title": "Возврат аванса при расторжении договора через суд",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-05-23T03:22:13",
+      "last_action_at": "2026-05-23T03:22:13",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-05-23T03:22:13"
+    },
+    "bankrotstvo-s-kreditami-neskolkikh-bankov": {
+      "category": "fiz",
+      "title": "Банкротство при долгах в нескольких банках",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-05-23T05:51:14",
+      "last_action_at": "2026-05-23T05:51:14",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-05-23T05:51:14"
+    },
+    "apartamenty-pri-bankrotstve-zastrojshchika": {
+      "category": "yur",
+      "title": "Апартаменты при банкротстве застройщика: почему нет защиты",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-05-23T08:16:14",
+      "last_action_at": "2026-05-23T08:16:14",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-05-23T08:16:14"
     }
   },
   "pending_actions": [],
-  "last_batch_date": "2026-05-21",
-  "last_batch_count": 10,
-  "last_batch_at": "2026-05-21T10:00:27"
+  "last_batch_date": "2026-05-22",
+  "last_batch_count": 9,
+  "last_batch_at": "2026-05-22T10:00:47"
 }

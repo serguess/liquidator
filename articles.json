@@ -1,6 +1,19 @@
 {
-  "generated": "2026-05-21",
+  "generated": "2026-05-23",
   "articles": [
+    {
+      "slug": "chto-takoe-ispolnitelnoe-proizvodstvo",
+      "cat": "vzysk",
+      "catLabel": "Взыскание задолженности",
+      "title": "Исполнительное производство: что это и как работает",
+      "desc": "Что такое исполнительное производство, как его возбуждают, какие меры применяют приставы и что может сделать должник. Сроки, порядок, основания прекращения.",
+      "date": "23 мая 2026",
+      "dateIso": "2026-05-23",
+      "read": "5 мин.",
+      "tone": "b",
+      "img": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779349268/articles/chto-takoe-ispolnitelnoe-proizvodstvo-cover.jpg",
+      "url": "articles/vzysk/chto-takoe-ispolnitelnoe-proizvodstvo"
+    },
     {
       "slug": "subsidiarka-za-neperedachu-dokumentov-bankrotstvo",
       "cat": "yur",
