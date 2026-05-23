@@ -2649,7 +2649,7 @@
     "sudebnyj-prikaz-pri-bankrotstve-fizlica": {
       "category": "fiz",
       "title": "Судебный приказ при банкротстве физлица",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -2657,13 +2657,15 @@
       "tg_message_id": 895,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-22T22:39:11",
-      "last_action_at": "2026-05-22T22:39:11",
+      "last_action_at": "2026-05-23T11:32:49",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/fiz/sudebnyj-prikaz-pri-bankrotstve-fizlica",
       "pending_batch": false,
       "pending_batch_at": "2026-05-22T22:39:11",
-      "batch_sent_at": "2026-05-23T10:01:01"
+      "batch_sent_at": "2026-05-23T10:01:01",
+      "published_at": "2026-05-23T11:32:49",
+      "articles_path": "articles/fiz/sudebnyj-prikaz-pri-bankrotstve-fizlica.html"
     },
     "bankrotstvo-nko-nekommercheskoj-organizacii": {
       "category": "yur",
