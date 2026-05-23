@@ -2586,7 +2586,7 @@
     "konsolidirovannoe-bankrotstvo-vzaimozavisimyh-kompanij": {
       "category": "yur",
       "title": "Консолидированное банкротство взаимозависимых юрлиц",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -2594,13 +2594,15 @@
       "tg_message_id": 889,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-22T15:36:09",
-      "last_action_at": "2026-05-22T15:36:09",
+      "last_action_at": "2026-05-23T11:24:39",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/yur/konsolidirovannoe-bankrotstvo-vzaimozavisimyh-kompanij",
       "pending_batch": false,
       "pending_batch_at": "2026-05-22T15:36:09",
-      "batch_sent_at": "2026-05-23T10:00:55"
+      "batch_sent_at": "2026-05-23T10:00:55",
+      "published_at": "2026-05-23T11:24:39",
+      "articles_path": "articles/yur/konsolidirovannoe-bankrotstvo-vzaimozavisimyh-kompanij.html"
     },
     "snyatie-zaloga-posle-pogasheniya": {
       "category": "vzysk",

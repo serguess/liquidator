@@ -2,6 +2,19 @@
   "generated": "2026-05-23",
   "articles": [
     {
+      "slug": "konsolidirovannoe-bankrotstvo-vzaimozavisimyh-kompanij",
+      "cat": "yur",
+      "catLabel": "Банкротство юридических лиц",
+      "title": "Консолидированное банкротство взаимозависимых юрлиц",
+      "desc": "Когда суд объединяет дела о банкротстве компаний холдинга, назначает одного управляющего и формирует единый реестр. Материальная и процессуальная консолидация - разбор механизмов.",
+      "date": "23 мая 2026",
+      "dateIso": "2026-05-23",
+      "read": "5 мин.",
+      "tone": "b",
+      "img": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779453343/articles/konsolidirovannoe-bankrotstvo-vzaimozavisimyh-kompanij-cover.jpg",
+      "url": "articles/yur/konsolidirovannoe-bankrotstvo-vzaimozavisimyh-kompanij"
+    },
+    {
       "slug": "brokersky-schet-akcii-pri-bankrotstve-fizlica",
       "cat": "fiz",
       "catLabel": "Банкротство физических лиц",
