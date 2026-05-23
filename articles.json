@@ -2,6 +2,19 @@
   "generated": "2026-05-23",
   "articles": [
     {
+      "slug": "nalogovyj-zalog-fns-status-kreditora-bankrotstvo",
+      "cat": "news",
+      "catLabel": "Новости",
+      "title": "ФНС как залоговый кредитор в банкротстве: позиция ВС",
+      "desc": "Верховный суд закрепил: залог по п. 2.1 ст. 73 НК даёт ФНС статус залогового кредитора в деле о банкротстве. Что это значит для должников и других кредиторов.",
+      "date": "23 мая 2026",
+      "dateIso": "2026-05-23",
+      "read": "4 мин.",
+      "tone": "b",
+      "img": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779383591/articles/nalogovyj-zalog-fns-status-kreditora-bankrotstvo-cover.jpg",
+      "url": "articles/news/nalogovyj-zalog-fns-status-kreditora-bankrotstvo"
+    },
+    {
       "slug": "vzyskanie-dolga-s-poruchitelya",
       "cat": "vzysk",
       "catLabel": "Взыскание задолженности",

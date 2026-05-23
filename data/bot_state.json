@@ -2404,7 +2404,7 @@
     "nalogovyj-zalog-fns-status-kreditora-bankrotstvo": {
       "category": "news",
       "title": "ФНС как залоговый кредитор в банкротстве: позиция ВС",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -2412,13 +2412,15 @@
       "tg_message_id": 847,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-21T20:14:02",
-      "last_action_at": "2026-05-21T20:14:02",
+      "last_action_at": "2026-05-23T09:50:31",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/news/nalogovyj-zalog-fns-status-kreditora-bankrotstvo",
       "pending_batch": false,
       "pending_batch_at": "2026-05-21T20:14:02",
-      "batch_sent_at": "2026-05-22T10:00:37"
+      "batch_sent_at": "2026-05-22T10:00:37",
+      "published_at": "2026-05-23T09:50:31",
+      "articles_path": "articles/news/nalogovyj-zalog-fns-status-kreditora-bankrotstvo.html"
     },
     "pervoe-zasedanie-suda-bankrotstvo-fizlica": {
       "category": "fiz",
