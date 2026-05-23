@@ -2474,7 +2474,7 @@
     "ispolnitelnaya-nadpis-notariusa": {
       "category": "vzysk",
       "title": "Исполнительная надпись нотариуса: взыскать долг без суда",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -2482,13 +2482,15 @@
       "tg_message_id": 853,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-22T03:33:05",
-      "last_action_at": "2026-05-22T03:33:05",
+      "last_action_at": "2026-05-23T10:00:51",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/vzysk/ispolnitelnaya-nadpis-notariusa",
       "pending_batch": false,
       "pending_batch_at": "2026-05-22T03:33:05",
-      "batch_sent_at": "2026-05-22T10:00:43"
+      "batch_sent_at": "2026-05-22T10:00:43",
+      "published_at": "2026-05-23T10:00:51",
+      "articles_path": "articles/vzysk/ispolnitelnaya-nadpis-notariusa.html"
     },
     "shtrafy-gibdd-i-sanktsii-pri-bankrotstve": {
       "category": "fiz",
@@ -2536,15 +2538,16 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 883,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-22T10:36:07",
       "last_action_at": "2026-05-22T10:36:07",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-05-22T10:36:07"
+      "pending_batch": false,
+      "pending_batch_at": "2026-05-22T10:36:07",
+      "batch_sent_at": "2026-05-23T10:00:51"
     },
     "brokersky-schet-akcii-pri-bankrotstve-fizlica": {
       "category": "fiz",

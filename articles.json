@@ -2,6 +2,19 @@
   "generated": "2026-05-23",
   "articles": [
     {
+      "slug": "ispolnitelnaya-nadpis-notariusa",
+      "cat": "vzysk",
+      "catLabel": "Взыскание задолженности",
+      "title": "Исполнительная надпись нотариуса: взыскать долг без суда",
+      "desc": "Что такое исполнительная надпись нотариуса, при каких договорах применяется, как кредитору её получить и что делать должнику, если она уже проставлена.",
+      "date": "23 мая 2026",
+      "dateIso": "2026-05-23",
+      "read": "5 мин.",
+      "tone": "b",
+      "img": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779409940/articles/ispolnitelnaya-nadpis-notariusa-cover.jpg",
+      "url": "articles/vzysk/ispolnitelnaya-nadpis-notariusa"
+    },
+    {
       "slug": "subordinaciya-affilirovannyh-kreditorov-bankrotstvo",
       "cat": "yur",
       "catLabel": "Банкротство юридических лиц",
