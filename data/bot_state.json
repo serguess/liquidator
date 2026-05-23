@@ -2446,21 +2446,30 @@
     "subordinaciya-affilirovannyh-kreditorov-bankrotstvo": {
       "category": "yur",
       "title": "Субординация аффилированных кредиторов при банкротстве",
-      "status": "pending_review",
-      "current_version": "2.0",
+      "status": "published",
+      "current_version": "2.1",
       "versions": [
-        "2.0"
+        "2.0",
+        "2.1"
       ],
       "tg_message_id": 851,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-22T01:19:04",
-      "last_action_at": "2026-05-22T01:19:04",
-      "edits_history": [],
+      "last_action_at": "2026-05-23T09:58:07",
+      "edits_history": [
+        {
+          "version": "2.1",
+          "edit_text": "Ссылка на несуществующее постановление пленума номер 41, 23 декабря 2025 года, нужно, чтобы она работала, чтобы ссылка была актуальной.",
+          "applied_at": "2026-05-23T09:56:32"
+        }
+      ],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/yur/subordinaciya-affilirovannyh-kreditorov-bankrotstvo",
       "pending_batch": false,
       "pending_batch_at": "2026-05-22T01:19:04",
-      "batch_sent_at": "2026-05-22T10:00:41"
+      "batch_sent_at": "2026-05-22T10:00:41",
+      "published_at": "2026-05-23T09:58:07",
+      "articles_path": "articles/yur/subordinaciya-affilirovannyh-kreditorov-bankrotstvo.html"
     },
     "ispolnitelnaya-nadpis-notariusa": {
       "category": "vzysk",
