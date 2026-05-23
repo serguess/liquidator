@@ -2,6 +2,19 @@
   "generated": "2026-05-23",
   "articles": [
     {
+      "slug": "pervoe-zasedanie-suda-bankrotstvo-fizlica",
+      "cat": "fiz",
+      "catLabel": "Банкротство физических лиц",
+      "title": "Первое заседание по банкротству физлица: как пройдёт",
+      "desc": "Что суд проверяет на первом заседании, какие вопросы задаёт судья, как вводится реструктуризация или реализация имущества и что делать должнику.",
+      "date": "23 мая 2026",
+      "dateIso": "2026-05-23",
+      "read": "5 мин.",
+      "tone": "b",
+      "img": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779391856/articles/pervoe-zasedanie-suda-bankrotstvo-fizlica-cover.jpg",
+      "url": "articles/fiz/pervoe-zasedanie-suda-bankrotstvo-fizlica"
+    },
+    {
       "slug": "nalogovyj-zalog-fns-status-kreditora-bankrotstvo",
       "cat": "news",
       "catLabel": "Новости",
