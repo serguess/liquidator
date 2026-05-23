@@ -1474,6 +1474,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "bankrotstvo-s-kreditami-neskolkikh-bankov",
+      "category": "fiz",
+      "title": "Банкротство при долгах в нескольких банках",
+      "added_at": "2026-05-23T05:50:11.511321",
+      "char_count": 7746,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779504610/articles/bankrotstvo-s-kreditami-neskolkikh-bankov-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

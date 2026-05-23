@@ -1,0 +1,82 @@
+{
+  "_note": "Новые записи кэша от агента 2 для slug bankrotstvo-s-kreditami-neskolkikh-bankov (2026-05-23). Добавить вручную в data/research_cache.json перед закрывающей скобкой ] если автоматическое добавление не выполнено.",
+  "new_facts": [
+    {
+      "key": "multi_bank_213_4_p3_spisok_kreditorov",
+      "claim": "При подаче заявления о банкротстве гражданин обязан приложить список всех известных ему кредиторов и должников с указанием наименования (имени), адреса и суммы обязательства (п. 3 ст. 213.4 127-ФЗ). Сокрытие кредитора является недобросовестным поведением.",
+      "source_url": "https://www.consultant.ru/document/cons_doc_LAW_39331/",
+      "source_type": "127-ФЗ ст. 213.4 п. 3",
+      "source_date": "2015",
+      "last_verified": "2026-05-23",
+      "added_by_agent": "2-legal-research",
+      "added_for_slug": "bankrotstvo-s-kreditami-neskolkikh-bankov",
+      "added_at": "2026-05-23"
+    },
+    {
+      "key": "multi_bank_213_28_p4_sokrytiye_kreditor",
+      "claim": "Если должник скрыл кредитора или предоставил заведомо недостоверные сведения суду или финансовому управляющему, суд вправе не применить правила об освобождении от обязательств (п. 4 ст. 213.28 127-ФЗ). Долг перед скрытым кредитором не списывается.",
+      "source_url": "https://www.consultant.ru/document/cons_doc_LAW_39331/",
+      "source_type": "127-ФЗ ст. 213.28 п. 4",
+      "source_date": "2015",
+      "last_verified": "2026-05-23",
+      "added_by_agent": "2-legal-research",
+      "added_for_slug": "bankrotstvo-s-kreditami-neskolkikh-bankov",
+      "added_at": "2026-05-23"
+    },
+    {
+      "key": "multi_bank_213_7_uvedomlenie_efrsb",
+      "claim": "Финансовый управляющий обязан в течение 15 дней с даты вынесения определения опубликовать сведения о введении процедуры банкротства гражданина в ЕФРСБ и газете «Коммерсантъ» (п. 1 ст. 213.7 127-ФЗ). Публикация является официальным уведомлением всех кредиторов, в том числе не указанных должником (п. 2 ст. 213.7 127-ФЗ).",
+      "source_url": "https://www.consultant.ru/document/cons_doc_LAW_39331/",
+      "source_type": "127-ФЗ ст. 213.7 п. 1, п. 2",
+      "source_date": "2015",
+      "last_verified": "2026-05-23",
+      "added_by_agent": "2-legal-research",
+      "added_for_slug": "bankrotstvo-s-kreditami-neskolkikh-bankov",
+      "added_at": "2026-05-23"
+    },
+    {
+      "key": "multi_bank_61_3_predpochtenie_1_6_mes",
+      "claim": "Сделка, влекущая предпочтительное удовлетворение требований одного кредитора, может быть признана недействительной (ст. 61.3 127-ФЗ): за 1 месяц до принятия заявления - безусловно; за 6 месяцев - если кредитор знал или должен был знать о признаках неплатёжеспособности должника. Касается в том числе досрочного погашения кредита одному из банков.",
+      "source_url": "https://www.consultant.ru/document/cons_doc_LAW_39331/",
+      "source_type": "127-ФЗ ст. 61.3 п. 1, п. 2, п. 3",
+      "source_date": "2015",
+      "last_verified": "2026-05-23",
+      "added_by_agent": "2-legal-research",
+      "added_for_slug": "bankrotstvo-s-kreditami-neskolkikh-bankov",
+      "added_at": "2026-05-23"
+    },
+    {
+      "key": "multi_bank_213_27_ocherednost_fizlico",
+      "claim": "При банкротстве гражданина банки по потребительским кредитам - кредиторы третьей очереди (ст. 213.27 127-ФЗ). Ипотечные банки-залогодержатели удовлетворяются в особом порядке из средств от реализации предмета залога по ст. 213.27 п. 4 127-ФЗ: 80% - залоговому кредитору, 10% - кредиторам первой и второй очереди, 10% - расходы на процедуру. Это отличается от нормы ст. 138 п. 1 для юрлиц (70%/20%/10%).",
+      "source_url": "https://www.consultant.ru/document/cons_doc_LAW_39331/",
+      "source_type": "127-ФЗ ст. 213.27 п. 4; ст. 213.27 п. 5",
+      "source_date": "2015",
+      "last_verified": "2026-05-23",
+      "added_by_agent": "2-legal-research",
+      "added_for_slug": "bankrotstvo-s-kreditami-neskolkikh-bankov",
+      "added_at": "2026-05-23"
+    },
+    {
+      "key": "multi_bank_142_p2_proporsionalnoe_pogashenie",
+      "claim": "Требования кредиторов одной очереди удовлетворяются пропорционально суммам требований, включённых в реестр (п. 2 ст. 142 127-ФЗ). Ни один банк не имеет преимущества перед другим банком той же очереди по факту более раннего включения в реестр.",
+      "source_url": "https://www.consultant.ru/document/cons_doc_LAW_39331/",
+      "source_type": "127-ФЗ ст. 142 п. 2; ст. 213.27",
+      "source_date": "2015",
+      "last_verified": "2026-05-23",
+      "added_by_agent": "2-legal-research",
+      "added_for_slug": "bankrotstvo-s-kreditami-neskolkikh-bankov",
+      "added_at": "2026-05-23"
+    },
+    {
+      "key": "multi_bank_213_11_p5_zapret_kreditov_bez_fu",
+      "claim": "В ходе реструктуризации долгов гражданин не вправе без письменного согласия финансового управляющего совершать сделки по получению кредитов, выдаче займов, уступке прав требования, переводу долга (п. 5 ст. 213.11 127-ФЗ). В ходе реализации имущества счетами и расчётами распоряжается финансовый управляющий (п. 6 ст. 213.25 127-ФЗ).",
+      "source_url": "https://www.consultant.ru/document/cons_doc_LAW_39331/",
+      "source_type": "127-ФЗ ст. 213.11 п. 5; ст. 213.25 п. 6",
+      "source_date": "2015",
+      "last_verified": "2026-05-23",
+      "added_by_agent": "2-legal-research",
+      "added_for_slug": "bankrotstvo-s-kreditami-neskolkikh-bankov",
+      "added_at": "2026-05-23"
+    }
+  ]
+}

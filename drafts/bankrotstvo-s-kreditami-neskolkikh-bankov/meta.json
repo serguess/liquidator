@@ -1,0 +1,103 @@
+{
+  "slug": "bankrotstvo-s-kreditami-neskolkikh-bankov",
+  "category": "fiz",
+  "title": "Банкротство при долгах в нескольких банках",
+  "description": "Как провести банкротство физлица, если кредиты взяты в разных банках: нужно ли уведомлять каждый, что будет с долгами и как не потерять кредиторов.",
+  "h1": "Банкротство с кредитами в нескольких банках: что нужно знать",
+  "lead": "Одно дело в арбитраже покрывает все банки сразу — отдельных исков подавать не нужно. Главное — правильно собрать список кредиторов, чтобы списались долги перед каждым.",
+  "topic_action": "банкротство при кредитах в нескольких банках",
+  "breadcrumb_current": "Банкротство при долгах в нескольких банках",
+  "og_image": "/assets/articles/bankrotstvo-s-kreditami-neskolkikh-bankov.jpg",
+  "main_keyword": "банкротство с кредитами в нескольких банках",
+  "secondary_keywords": [
+    "как списать долги в нескольких банках",
+    "банкротство при долгах в разных банках",
+    "несколько кредиторов при банкротстве физлица",
+    "банкротство с долгами перед разными банками",
+    "можно ли обанкротиться если несколько банков",
+    "очередность кредиторов при банкротстве физлица"
+  ],
+  "internal_links": [
+    "/articles/fiz/kogda-dolgi-ne-spishut-pri-bankrotstve",
+    "/articles/fiz/konkursnaya-massa-pri-bankrotstve-fizlica",
+    "/articles/fiz/osparivanie-sdelok-fizlica-bankrotstvo",
+    "/articles/fiz/vnesudebnoe-bankrotstvo-cherez-mfc-2026"
+  ],
+  "external_links": [],
+  "faq": [
+    {
+      "question": "Нужно ли уведомлять каждый банк отдельно перед подачей заявления?",
+      "answer": "Нет. После введения процедуры арбитражный управляющий публикует сведения в ЕФРСБ — это официальное уведомление для всех. Ваша задача — составить полный список при подаче."
+    },
+    {
+      "question": "Что будет с задолженностью перед банком, которого не вписали в заявление?",
+      "answer": "При судебном варианте такое учреждение может узнать о деле через публикацию и войти в перечень требований. Если пропустит 2-месячный срок — попадёт за реестровую очередь. При МФЦ-варианте требование к не указанному взыскателю не спишется в любом случае."
+    },
+    {
+      "question": "Может ли одна сторона заблокировать списание долгов перед остальными?",
+      "answer": "Нет. Один участник реестра вправе возражать и подавать жалобы. Но заблокировать обнуление расчётов перед другими — не может. Если заявитель добросовестен, задолженность спишется."
+    },
+    {
+      "question": "Чем судебное дело отличается от МФЦ-варианта, если кредиторов несколько?",
+      "answer": "При судебном пути управляющий сам уведомляет, проводит собрания и оспаривает сделки. При МФЦ-варианте этого нет: вы сами вписываете всех и несёте ответственность за полноту списка."
+    },
+    {
+      "question": "Как давно сделанный платёж одному учреждению может оспорить управляющий?",
+      "answer": "Платёж за 1 месяц до принятия обращения — безусловно. За 6 месяцев — если получатель знал о вашей неплатёжеспособности. Имущественные сделки по заниженной цене — за 1 год, с намерением причинить вред — за 3 года."
+    },
+    {
+      "question": "Обязательно ли вносить депозит 25 000 рублей, если кредиторов несколько?",
+      "answer": "Да, при судебном пути. Это фиксированное вознаграждение арбитражного управляющего. Число участников на размер взноса не влияет. При МФЦ-варианте депозит не нужен."
+    },
+    {
+      "question": "Получит ли ипотечный залогодержатель деньги раньше остальных?",
+      "answer": "Не раньше, но больше с продажи заложенной квартиры. 80% выручки идёт залогодержателю. Остаток суммы сверх стоимости залога переходит в третью очередь наравне с другими."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все 17 фактов сверены с research.json: ст. 33 п. 1, 213.4, 213.7, 213.8, 213.11, 213.27, 213.28, 61.2, 61.3, 223.2, 223.6 — все active, last_verified 2026-05-23.",
+    "Госпошлина (f9): использована корректная норма ст. 333.37 НК РФ (с 08.09.2024), формулировка 'государственная пошлина не взимается' соответствует safe_phrasing.",
+    "Депозит 25 000 руб (f10): соответствует п. 3 ст. 20.6 127-ФЗ.",
+    "МФЦ-условия (f11): порог 25 000 — 1 000 000 руб., три основания указаны точно по ст. 223.2 ред. ФЗ-474 от 04.11.2023.",
+    "Распределение 80/10/10 при залоге (f14): корректно по п. 4 ст. 213.27 127-ФЗ (специальная норма для граждан, не ст. 138).",
+    "Сроки оспаривания платежей (f5): 1 мес безусловно / 6 мес при осведомлённости — точно по ст. 61.3.",
+    "Никаких внешних URL на КонсультантПлюс в теле не размещено — нормы упомянуты текстово без href, что снижает риск выпадения из whitelist."
+  ],
+  "main_keyword_exact_count": 1,
+  "category_display": "Физические лица",
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "text_chars": 7746,
+  "length_status": "warn",
+  "length_kind": "default",
+  "local_spam_top10_share": 0.091,
+  "local_spam_ngram3_repeat": 0.028,
+  "local_lexical_diversity": 0.615,
+  "local_ai_markers_density": 0.2,
+  "local_ai_markers_total": 2,
+  "local_ai_markers_critical": 0,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 2,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 4,
+  "predicted_spam_pct": 53,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность чуть выше 50% (~53%)"
+  ],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779504610/articles/bankrotstvo-s-kreditami-neskolkikh-bankov-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1779504610/articles/bankrotstvo-s-kreditami-neskolkikh-bankov-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Exterior photograph of a contemporary glass-and-concrete administrative building shot at street level in heavy evening rain. The wet glass façade reflects amber lamppost halos and the dark sky above, creating deep blue-grey tones punctuated by warm pin-points of light. Camera: low angle across a wide flooded pavement puddle that mirrors the building upside-down, slight three-quarter view. In the near foreground on wet stone steps: a stack of three closed dark leather dossiers tied with cord resting beside a closed metal-frame briefcase, a ring of brass keys with five keys fanned out on the wet stone, and an antique brass padlock with chain draped across the stack. Distant faceless silhouettes holding black umbrellas are barely visible through the rain haze near the entrance. An oxidized brass plaque with no readable text is mounted on the entry pillar. Palette: deep blue-grey, cool slate, warm amber lamppost glow reflected in water. Mood: contemporary urban financial-legal weight, multiple obligations converging toward a single formal resolution.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-05-23T02:50:11Z",
+  "date_published": "2026-05-23",
+  "date_modified": "2026-05-23",
+  "ready_for_review": true,
+  "ready_at": "2026-05-23T02:50:11Z",
+  "publication_target": "telegram_review"
+}
