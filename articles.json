@@ -2,6 +2,19 @@
   "generated": "2026-05-23",
   "articles": [
     {
+      "slug": "obespechitelnye-mery-bankrotstvo-yurlica",
+      "cat": "yur",
+      "catLabel": "Банкротство юридических лиц",
+      "title": "Обеспечительные меры при банкротстве юрлица",
+      "desc": "Когда и как суд арестует активы должника и контролирующих лиц в деле о банкротстве. Основания, порядок подачи ходатайства, отмена мер.",
+      "date": "23 мая 2026",
+      "dateIso": "2026-05-23",
+      "read": "5 мин.",
+      "tone": "b",
+      "img": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779366574/articles/obespechitelnye-mery-bankrotstvo-yurlica-cover.jpg",
+      "url": "articles/yur/obespechitelnye-mery-bankrotstvo-yurlica"
+    },
+    {
       "slug": "chto-takoe-ispolnitelnoe-proizvodstvo",
       "cat": "vzysk",
       "catLabel": "Взыскание задолженности",

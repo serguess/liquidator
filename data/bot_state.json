@@ -2362,7 +2362,7 @@
     "obespechitelnye-mery-bankrotstvo-yurlica": {
       "category": "yur",
       "title": "Обеспечительные меры при банкротстве юрлица",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -2370,13 +2370,15 @@
       "tg_message_id": 843,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-21T15:30:01",
-      "last_action_at": "2026-05-21T15:30:01",
+      "last_action_at": "2026-05-23T09:44:45",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/yur/obespechitelnye-mery-bankrotstvo-yurlica",
       "pending_batch": false,
       "pending_batch_at": "2026-05-21T15:30:01",
-      "batch_sent_at": "2026-05-22T10:00:33"
+      "batch_sent_at": "2026-05-22T10:00:33",
+      "published_at": "2026-05-23T09:44:45",
+      "articles_path": "articles/yur/obespechitelnye-mery-bankrotstvo-yurlica.html"
     },
     "vzyskanie-dolga-s-poruchitelya": {
       "category": "vzysk",
