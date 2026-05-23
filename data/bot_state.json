@@ -2607,7 +2607,7 @@
     "snyatie-zaloga-posle-pogasheniya": {
       "category": "vzysk",
       "title": "Снятие залога после выплаты: квартира и автомобиль",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -2615,13 +2615,15 @@
       "tg_message_id": 891,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-22T17:45:09",
-      "last_action_at": "2026-05-22T17:45:09",
+      "last_action_at": "2026-05-23T11:26:13",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/vzysk/snyatie-zaloga-posle-pogasheniya",
       "pending_batch": false,
       "pending_batch_at": "2026-05-22T17:45:09",
-      "batch_sent_at": "2026-05-23T10:00:57"
+      "batch_sent_at": "2026-05-23T10:00:57",
+      "published_at": "2026-05-23T11:26:13",
+      "articles_path": "articles/vzysk/snyatie-zaloga-posle-pogasheniya.html"
     },
     "rezyume-obsuzhdeniya-stavki-cb-prognoz": {
       "category": "news",
