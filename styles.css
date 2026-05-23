@@ -441,8 +441,7 @@ a {
 /* ============ HERO ============ */
 .hero {
   position: relative;
-  height: 100vh;
-  min-height: 640px;
+  min-height: 100vh;
   overflow: hidden;
   isolation: isolate;
   display: flex;
@@ -500,7 +499,7 @@ a {
   z-index: 3;
   max-width: 1440px;
   margin: 0 auto;
-  padding: 130px 48px 120px;
+  padding: 130px 48px 40px;
   display: flex;
   flex-direction: column;
   gap: 24px;
@@ -617,13 +616,22 @@ a {
   color: rgba(255, 255, 255, 0.45);
 }
 
+.hero__yandex-badge {
+  margin-top: -20px;
+  margin-bottom: -20px;
+}
+.hero__yandex-badge iframe {
+  border: none;
+  border-radius: 8px;
+  display: block;
+}
+
 /* ============ MARQUEE ============ */
 .hero__marquee {
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
+  position: relative;
   z-index: 4;
+  flex-shrink: 0;
+  margin-top: auto;
   background: var(--khaki);
   padding: 14px 0;
   overflow: hidden;
@@ -1379,7 +1387,7 @@ a {
 @media (max-width: 960px) {
   .hero__lion { height: 60%; right: -10%; opacity: 0.8; }
   .hero__title { max-width: 100%; }
-  .hero__content { padding: 140px 24px 160px; }
+  .hero__content { padding: 140px 24px 40px; }
   .header__nav { gap: 18px; font-size: 11px; }
   .header__inner { padding: 12px 20px; gap: 16px; }
   .header__brand { font-size: 15px; }
@@ -1417,7 +1425,6 @@ a {
 
   /* HERO: full-width content, lion as ambient background */
   .hero {
-    height: auto;
     min-height: 100vh;
   }
   .hero__lion {
