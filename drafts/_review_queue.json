@@ -1578,6 +1578,19 @@
         "passed": false,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "kompensacionnoe-finansirovanie-bankrotstvo-zajmy",
+      "category": "yur",
+      "title": "Займы учредителя при банкротстве: субординация и риски",
+      "added_at": "2026-05-24T01:02:29.201058",
+      "char_count": 8073,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779573748/articles/kompensacionnoe-finansirovanie-bankrotstvo-zajmy-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

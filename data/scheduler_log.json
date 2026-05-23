@@ -7214,5 +7214,62 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-05-23T22:00:00",
+    "category": "fiz",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 1,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "fiz-61",
+    "topic_slug": "kak-vybrat-sro-dlya-bankrotstva-fizlica",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "Автофикс применил правки: сокращения=4, пунктуация=0",
+        "internal_links_autofixed: 3 ссылок (например /kak-podat-na-bankrotstvo-samostoyatelno.html→/articles/fiz/kak-podat-na-bankrotstvo-samostoyatelno; /bankrotstvo-po-zayavleniyu-kreditora-fizlica.html→/articles/fiz/bankrotstvo-po-zayavleniyu-kreditora-fizlica; /pervoe-zasedanie-suda-bankrotstvo-fizlica.html→/articles/fiz/pervoe-zasedanie-suda-bankrotstvo-fizlica)",
+        "length_soft_passed: 8024 > 8000 но ≤ 8500 и iteration=3 — пропускаем (приоритет spam/uniqueness/ai)",
+        "spam_soft_passed: ratio-флаги мягкие при iter=3, targeted_tokens чистые → пропускаем (spam ≈48-52% по прогнозу)"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "kak-vybrat-sro-dlya-bankrotstva-fizlica",
+    "duration_sec": 2242.0,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": " из 127-ФЗ верифицированы)\n- **metrics_warning:** false (хард-блокеров нет)\n- **ready_for_review:** true → добавлена в TG-очередь\n\n**text.ru метрики:** ещё не проверены (проверка идёт после публикации через API text.ru).\n\n**Итоги QA:** качество улучшалось за 2 итерации — убраны все «ст.» сокращения (15→0), длинные тире (—) заменены, снижена заспамленность (top10_share 0.102→0.094). Единственный мягкий флаг `spam_top10_block` незначительно превышал порог при iter=2 — статья прошла без force-pass.",
+    "stderr_tail": "",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 8024
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]
