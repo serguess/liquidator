@@ -2495,7 +2495,7 @@
     "shtrafy-gibdd-i-sanktsii-pri-bankrotstve": {
       "category": "fiz",
       "title": "Штрафы ГИБДД при банкротстве физлица",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -2503,13 +2503,15 @@
       "tg_message_id": 855,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-22T05:45:05",
-      "last_action_at": "2026-05-22T05:45:05",
+      "last_action_at": "2026-05-23T10:03:13",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/fiz/shtrafy-gibdd-i-sanktsii-pri-bankrotstve",
       "pending_batch": false,
       "pending_batch_at": "2026-05-22T05:45:05",
-      "batch_sent_at": "2026-05-22T10:00:45"
+      "batch_sent_at": "2026-05-22T10:00:45",
+      "published_at": "2026-05-23T10:03:13",
+      "articles_path": "articles/fiz/shtrafy-gibdd-i-sanktsii-pri-bankrotstve.html"
     },
     "zameshchenie-aktivov-pri-bankrotstve-yurlica": {
       "category": "yur",
@@ -2557,15 +2559,16 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 887,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-22T13:08:08",
       "last_action_at": "2026-05-22T13:08:08",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-05-22T13:08:08"
+      "pending_batch": false,
+      "pending_batch_at": "2026-05-22T13:08:08",
+      "batch_sent_at": "2026-05-23T10:00:53"
     },
     "konsolidirovannoe-bankrotstvo-vzaimozavisimyh-kompanij": {
       "category": "yur",
@@ -2575,15 +2578,16 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 889,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-22T15:36:09",
       "last_action_at": "2026-05-22T15:36:09",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-05-22T15:36:09"
+      "pending_batch": false,
+      "pending_batch_at": "2026-05-22T15:36:09",
+      "batch_sent_at": "2026-05-23T10:00:55"
     },
     "snyatie-zaloga-posle-pogasheniya": {
       "category": "vzysk",
@@ -2593,15 +2597,16 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 891,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-22T17:45:09",
       "last_action_at": "2026-05-22T17:45:09",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-05-22T17:45:09"
+      "pending_batch": false,
+      "pending_batch_at": "2026-05-22T17:45:09",
+      "batch_sent_at": "2026-05-23T10:00:57"
     },
     "rezyume-obsuzhdeniya-stavki-cb-prognoz": {
       "category": "news",
@@ -2611,15 +2616,16 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 893,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-22T20:02:10",
       "last_action_at": "2026-05-22T20:02:10",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-05-22T20:02:10"
+      "pending_batch": false,
+      "pending_batch_at": "2026-05-22T20:02:10",
+      "batch_sent_at": "2026-05-23T10:00:59"
     },
     "sudebnyj-prikaz-pri-bankrotstve-fizlica": {
       "category": "fiz",
@@ -2629,15 +2635,16 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 895,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-22T22:39:11",
       "last_action_at": "2026-05-22T22:39:11",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-05-22T22:39:11"
+      "pending_batch": false,
+      "pending_batch_at": "2026-05-22T22:39:11",
+      "batch_sent_at": "2026-05-23T10:01:01"
     },
     "bankrotstvo-nko-nekommercheskoj-organizacii": {
       "category": "yur",
@@ -2647,15 +2654,16 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 897,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-23T00:55:12",
       "last_action_at": "2026-05-23T00:55:12",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-05-23T00:55:12"
+      "pending_batch": false,
+      "pending_batch_at": "2026-05-23T00:55:12",
+      "batch_sent_at": "2026-05-23T10:01:03"
     },
     "vzyskanie-avansa-pri-rastorzhenii-dogovora": {
       "category": "vzysk",
@@ -2665,15 +2673,16 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 899,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-23T03:22:13",
       "last_action_at": "2026-05-23T03:22:13",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-05-23T03:22:13"
+      "pending_batch": false,
+      "pending_batch_at": "2026-05-23T03:22:13",
+      "batch_sent_at": "2026-05-23T10:01:05"
     },
     "bankrotstvo-s-kreditami-neskolkikh-bankov": {
       "category": "fiz",
@@ -2683,15 +2692,16 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 901,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-23T05:51:14",
       "last_action_at": "2026-05-23T05:51:14",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-05-23T05:51:14"
+      "pending_batch": false,
+      "pending_batch_at": "2026-05-23T05:51:14",
+      "batch_sent_at": "2026-05-23T10:01:08"
     },
     "apartamenty-pri-bankrotstve-zastrojshchika": {
       "category": "yur",
@@ -2701,19 +2711,20 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 903,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-23T08:16:14",
       "last_action_at": "2026-05-23T08:16:14",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-05-23T08:16:14"
+      "pending_batch": false,
+      "pending_batch_at": "2026-05-23T08:16:14",
+      "batch_sent_at": "2026-05-23T10:01:10"
     }
   },
   "pending_actions": [],
-  "last_batch_date": "2026-05-22",
-  "last_batch_count": 9,
-  "last_batch_at": "2026-05-22T10:00:47"
+  "last_batch_date": "2026-05-23",
+  "last_batch_count": 10,
+  "last_batch_at": "2026-05-23T10:01:10"
 }
