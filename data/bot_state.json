@@ -2544,7 +2544,7 @@
     "vzyskanie-moralnogo-vreda-cherez-sud": {
       "category": "vzysk",
       "title": "Взыскание морального вреда: размер и доказательства в суде",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -2552,13 +2552,15 @@
       "tg_message_id": 883,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-22T10:36:07",
-      "last_action_at": "2026-05-22T10:36:07",
+      "last_action_at": "2026-05-23T11:17:55",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/vzysk/vzyskanie-moralnogo-vreda-cherez-sud",
       "pending_batch": false,
       "pending_batch_at": "2026-05-22T10:36:07",
-      "batch_sent_at": "2026-05-23T10:00:51"
+      "batch_sent_at": "2026-05-23T10:00:51",
+      "published_at": "2026-05-23T11:17:55",
+      "articles_path": "articles/vzysk/vzyskanie-moralnogo-vreda-cherez-sud.html"
     },
     "brokersky-schet-akcii-pri-bankrotstve-fizlica": {
       "category": "fiz",
@@ -2730,6 +2732,24 @@
       "pending_batch": false,
       "pending_batch_at": "2026-05-23T08:16:14",
       "batch_sent_at": "2026-05-23T10:01:10"
+    },
+    "vzyskanie-neustojki-po-dogovoru": {
+      "category": "vzysk",
+      "title": "Взыскание неустойки по договору: ст. 333 ГК",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-05-23T10:40:15",
+      "last_action_at": "2026-05-23T10:40:15",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-05-23T10:40:15"
     }
   },
   "pending_actions": [],
