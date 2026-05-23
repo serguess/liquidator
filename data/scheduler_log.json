@@ -6888,5 +6888,63 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-05-23T07:36:10",
+    "category": "yur",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 13,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "yur-53",
+    "topic_slug": "apartamenty-pri-bankrotstve-zastrojshchika",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [
+        "spam_top10_block: top10_share=0.096 > 0.095 на iter=2 (цель ≤0.085 для spam ≤50%)"
+      ],
+      "warnings": [
+        "spam_soft_passed: ratio-флаги мягкие при iter=2, targeted_tokens чистые → пропускаем (spam ≈48-52% по прогнозу)"
+      ],
+      "recommendations": [
+        "reduce_top1_lemma: лемма «прав» = 9 вхождений. Замени МИНИМУМ 3 вхождений на варианты из .claude/style/category-periph.md (блок текущей категории), либо на синонимы из «Запретные тематические повторы» в .claude/agents/4-writer.md. ВАЖНО: правь только эту лемму, не переписывай остальной текст. После правки прогони quality_checks ещё раз — цель top10_share ≤ 0.085."
+      ],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "apartamenty-pri-bankrotstve-zastrojshchika",
+    "duration_sec": 2356.3,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "ыми статьями\n- Factcheck (6): **passed** — ст. 15.4 ФЗ-214 исправлена агентом 6\n- Quality gate: exit 0, `hard_failed: false`. Мягкие предупреждения: `ngram3_repeat_share=0.038` (порог 0.035) и `top10_share=0.096` (порог 0.090) — оба в зоне soft-блокеров\n- Обложка: **сгенерирована** (template_id=24, fal.ai → Cloudinary)\n- Статус: `ready_for_review=true`, добавлена в очередь Telegram-ревью (115 статей в очереди)\n\n**text.ru:** метрики не заполнены (требует отдельной проверки через text.ru вручную).",
+    "stderr_tail": "",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7452
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]
