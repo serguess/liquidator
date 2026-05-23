@@ -2516,21 +2516,30 @@
     "zameshchenie-aktivov-pri-bankrotstve-yurlica": {
       "category": "yur",
       "title": "Замещение активов при банкротстве юрлица: ст. 115",
-      "status": "pending_review",
-      "current_version": "2.0",
+      "status": "published",
+      "current_version": "2.1",
       "versions": [
-        "2.0"
+        "2.0",
+        "2.1"
       ],
       "tg_message_id": 857,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-22T08:48:06",
-      "last_action_at": "2026-05-22T08:48:06",
-      "edits_history": [],
+      "last_action_at": "2026-05-23T10:07:23",
+      "edits_history": [
+        {
+          "version": "2.1",
+          "edit_text": "у тебя в самом начале два повторяющихся абзаца, которые начинаются с \"115-я норма закона о несостоятельности\" - убери один из абзацев",
+          "applied_at": "2026-05-23T10:06:12"
+        }
+      ],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/yur/zameshchenie-aktivov-pri-bankrotstve-yurlica",
       "pending_batch": false,
       "pending_batch_at": "2026-05-22T08:48:06",
-      "batch_sent_at": "2026-05-22T10:00:47"
+      "batch_sent_at": "2026-05-22T10:00:47",
+      "published_at": "2026-05-23T10:07:23",
+      "articles_path": "articles/yur/zameshchenie-aktivov-pri-bankrotstve-yurlica.html"
     },
     "vzyskanie-moralnogo-vreda-cherez-sud": {
       "category": "vzysk",

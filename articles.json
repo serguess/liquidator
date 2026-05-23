@@ -2,6 +2,19 @@
   "generated": "2026-05-23",
   "articles": [
     {
+      "slug": "zameshchenie-aktivov-pri-bankrotstve-yurlica",
+      "cat": "yur",
+      "catLabel": "Банкротство юридических лиц",
+      "title": "Замещение активов при банкротстве юрлица: ст. 115",
+      "desc": "Как работает замещение активов по 115-й норме закона о банкротстве: создание нового АО на базе имущества должника, голосование займодавцев, продажа акций и погашение долгов.",
+      "date": "23 мая 2026",
+      "dateIso": "2026-05-23",
+      "read": "4 мин.",
+      "tone": "b",
+      "img": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779428832/articles/zameshchenie-aktivov-pri-bankrotstve-yurlica-cover.jpg",
+      "url": "articles/yur/zameshchenie-aktivov-pri-bankrotstve-yurlica"
+    },
+    {
       "slug": "shtrafy-gibdd-i-sanktsii-pri-bankrotstve",
       "cat": "fiz",
       "catLabel": "Банкротство физических лиц",
