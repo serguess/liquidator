@@ -1461,6 +1461,19 @@
         "passed": false,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "vzyskanie-avansa-pri-rastorzhenii-dogovora",
+      "category": "vzysk",
+      "title": "Возврат аванса при расторжении договора через суд",
+      "added_at": "2026-05-23T03:21:04.143958",
+      "char_count": 7903,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779495663/articles/vzyskanie-avansa-pri-rastorzhenii-dogovora-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

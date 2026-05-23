@@ -6717,5 +6717,65 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-05-23T00:24:37",
+    "category": "yur",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 10,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "yur-52",
+    "topic_slug": "bankrotstvo-nko-nekommercheskoj-organizacii",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [
+        "spam_risk: 1 флагов (ngram3_repeat_share>0.035 (=0.042)), top-5: ['месяц', 'года', 'фонд', 'статус', 'отвеча']",
+        "spam_top10_block: top10_share=0.098 > 0.095 на iter=2 (цель ≤0.085 для spam ≤50%)"
+      ],
+      "warnings": [
+        "internal_links_autofixed: 2 ссылок (например /articles/yur/priznaki-bankrotstva-yurlica.html→/articles/yur/priznaki-bankrotstva-yurlica; /articles/yur/kontroliruyushchee-dolzhnika-lico-kdl.html→/articles/yur/kontroliruyushchee-dolzhnika-lico-kdl)"
+      ],
+      "recommendations": [
+        "reduce_repetition: разбавить топ-5 частотных лемм местоимениями/перифразом — ['месяц', 'года', 'фонд', 'статус', 'отвеча']",
+        "reduce_top1_lemma: лемма «месяц» = 9 вхождений. Замени МИНИМУМ 3 вхождений на варианты из .claude/style/category-periph.md (блок текущей категории), либо на синонимы из «Запретные тематические повторы» в .claude/agents/4-writer.md. ВАЖНО: правь только эту лемму, не переписывай остальной текст. После правки прогони quality_checks ещё раз — цель top10_share ≤ 0.085."
+      ],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "bankrotstvo-nko-nekommercheskoj-organizacii",
+    "duration_sec": 1781.1,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "s_warning** | false |\n| **Обложка** | сгенерирована, загружена в Cloudinary |\n| **Режим публикации** | `ready_for_review=true` → ожидает подтверждения в TG-боте |\n| **Файл** | `drafts/bankrotstvo-nko-nekommercheskoj-organizacii/article.html` |\n\n**Метрики text.ru:** не проверялись (textru_ai_detector / textru_uniqueness / textru_spam = н/д — проверка запускается отдельно через text.ru API).\n\nСтатья добавлена в очередь ревью (`_review_queue.json`, позиция 112). Публикация — через TG-бот заказчика.",
+    "stderr_tail": "",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 6896
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]
