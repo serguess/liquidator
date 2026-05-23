@@ -1526,6 +1526,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "restrukturizaciya-dolgov-yurlica-do-bankrotstva",
+      "category": "yur",
+      "title": "Реструктуризация долгов юрлица до банкротства",
+      "added_at": "2026-05-23T15:38:12.737010",
+      "char_count": 8246,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779539891/articles/restrukturizaciya-dolgov-yurlica-do-bankrotstva-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

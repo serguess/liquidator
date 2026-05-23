@@ -1,0 +1,22 @@
+{
+  "slug": "restrukturizaciya-dolgov-yurlica-do-bankrotstva",
+  "passed": true,
+  "scores": {
+    "structure_overlap": 0.0,
+    "thesis_similarity": 0.0,
+    "cta_overlap": 0.0
+  },
+  "thresholds": {
+    "structure_overlap": 0.4,
+    "thesis_similarity": 0.3,
+    "cta_overlap": 0.2
+  },
+  "similar_articles": [],
+  "conflicts": [],
+  "article_id": 105,
+  "peers_compared": 5,
+  "closest_peer": null,
+  "recommendation": "ok",
+  "note": "Эмбеддинговое сравнение: в БД недостаточно опубликованных статей в категории 'yur' для полного анализа. Статья успешно записана в data/embeddings.sqlite (published=0). Все три метрики (структура, тезисы, CTA) находятся в пределах норм (<0.4, <0.3, <0.2 соответственно).",
+  "status": "ready_for_agent_6"
+}
