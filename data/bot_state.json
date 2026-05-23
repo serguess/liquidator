@@ -2733,7 +2733,7 @@
     "apartamenty-pri-bankrotstve-zastrojshchika": {
       "category": "yur",
       "title": "Апартаменты при банкротстве застройщика: почему нет защиты",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -2741,13 +2741,15 @@
       "tg_message_id": 903,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-23T08:16:14",
-      "last_action_at": "2026-05-23T08:16:14",
+      "last_action_at": "2026-05-23T11:50:17",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/yur/apartamenty-pri-bankrotstve-zastrojshchika",
       "pending_batch": false,
       "pending_batch_at": "2026-05-23T08:16:14",
-      "batch_sent_at": "2026-05-23T10:01:10"
+      "batch_sent_at": "2026-05-23T10:01:10",
+      "published_at": "2026-05-23T11:50:17",
+      "articles_path": "articles/yur/apartamenty-pri-bankrotstve-zastrojshchika.html"
     },
     "vzyskanie-neustojki-po-dogovoru": {
       "category": "vzysk",
