@@ -1565,6 +1565,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "kak-vybrat-sro-dlya-bankrotstva-fizlica",
+      "category": "fiz",
+      "title": "Как выбрать СРО для банкротства физлица",
+      "added_at": "2026-05-23T22:37:01.487953",
+      "char_count": 8024,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779565020/articles/kak-vybrat-sro-dlya-bankrotstva-fizlica-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": false,
+        "hard_failed": false
+      }
     }
   ]
 }

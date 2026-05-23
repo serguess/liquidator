@@ -1,0 +1,42 @@
+{
+  "slug": "kak-vybrat-sro-dlya-bankrotstva-fizlica",
+  "category": null,
+  "started_at": "2026-05-23T22:23:02",
+  "finished_at": null,
+  "total_duration_sec": null,
+  "current_iteration": 2,
+  "events": [
+    {
+      "ts": "2026-05-23T22:23:02",
+      "agent": "4-writer",
+      "event": "iteration_returned",
+      "iteration": 2,
+      "reason": "quality_gate iter=1: targeted_tokens_over_limit (ст.×15>5), ai_markers_critical (тире—), length_too_long (8669>8000), spam_top10 (0.102>0.090)",
+      "recommendation": "1) Заменить все ст. → статья X (cap≤5); 2) убрать длинное тире —; 3) сократить до 7000-7500 зн.; 4) снизить: организаци/структур≤7"
+    },
+    {
+      "ts": "2026-05-23T22:37:22",
+      "agent": "scheduler",
+      "event": "slot_started",
+      "iteration": 2,
+      "category": "fiz",
+      "today_count": 9,
+      "limit": 10,
+      "write_article_duration_sec": 2242.0
+    },
+    {
+      "ts": "2026-05-23T22:37:22",
+      "agent": "quality_gate",
+      "event": "passed",
+      "iteration": 2,
+      "blockers": [],
+      "warnings": [
+        "Автофикс применил правки: сокращения=4, пунктуация=0",
+        "internal_links_autofixed: 3 ссылок (например /kak-podat-na-bankrotstvo-samostoyatelno.html→/articles/fiz/kak-podat-na-bankrotstvo-samostoyatelno; /bankrotstvo-po-zayavleniyu-kreditora-fizlica.html→/articles/fiz/bankrotstvo-po-zayavleniyu-kreditora-fizlica; /pervoe-zasedanie-suda-bankrotstvo-fizlica.html→/articles/fiz/pervoe-zasedanie-suda-bankrotstvo-fizlica)",
+        "length_soft_passed: 8024 > 8000 но ≤ 8500 и iteration=3 — пропускаем (приоритет spam/uniqueness/ai)",
+        "spam_soft_passed: ratio-флаги мягкие при iter=3, targeted_tokens чистые → пропускаем (spam ≈48-52% по прогнозу)"
+      ],
+      "recommendations": []
+    }
+  ]
+}
