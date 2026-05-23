@@ -2565,7 +2565,7 @@
     "brokersky-schet-akcii-pri-bankrotstve-fizlica": {
       "category": "fiz",
       "title": "Брокерский счёт и акции при банкротстве физлица",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -2573,13 +2573,15 @@
       "tg_message_id": 887,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-22T13:08:08",
-      "last_action_at": "2026-05-22T13:08:08",
+      "last_action_at": "2026-05-23T11:21:02",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/fiz/brokersky-schet-akcii-pri-bankrotstve-fizlica",
       "pending_batch": false,
       "pending_batch_at": "2026-05-22T13:08:08",
-      "batch_sent_at": "2026-05-23T10:00:53"
+      "batch_sent_at": "2026-05-23T10:00:53",
+      "published_at": "2026-05-23T11:21:02",
+      "articles_path": "articles/fiz/brokersky-schet-akcii-pri-bankrotstve-fizlica.html"
     },
     "konsolidirovannoe-bankrotstvo-vzaimozavisimyh-kompanij": {
       "category": "yur",

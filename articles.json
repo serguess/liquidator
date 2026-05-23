@@ -2,6 +2,19 @@
   "generated": "2026-05-23",
   "articles": [
     {
+      "slug": "brokersky-schet-akcii-pri-bankrotstve-fizlica",
+      "cat": "fiz",
+      "catLabel": "Банкротство физических лиц",
+      "title": "Брокерский счёт и акции при банкротстве физлица",
+      "desc": "Акции, ИИС и деньги на брокерском счёте входят в конкурсную массу. Объясняем, как арбитражный управляющий оценивает и реализует ценные бумаги, и можно ли что-то сохранить.",
+      "date": "23 мая 2026",
+      "dateIso": "2026-05-23",
+      "read": "5 мин.",
+      "tone": "b",
+      "img": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779444436/articles/brokersky-schet-akcii-pri-bankrotstve-fizlica-cover.jpg",
+      "url": "articles/fiz/brokersky-schet-akcii-pri-bankrotstve-fizlica"
+    },
+    {
       "slug": "vzyskanie-moralnogo-vreda-cherez-sud",
       "cat": "vzysk",
       "catLabel": "Взыскание задолженности",
