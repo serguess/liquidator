@@ -52,11 +52,44 @@ def _is_allowed(message_or_query) -> bool:
 
 
 # ============ Keyboards ============
+# TG callback_data лимит: 64 байта. Самый длинный префикс "publish:" = 8 байт.
+# Безопасный slug = 64 - 8 - 1(запас) = 55 символов.
+# Если slug длиннее - обрезаем. _resolve_slug() на приёме найдёт полный slug
+# по префиксу в bot_state.
+_CB_SLUG_MAX = 55
+
+
+def _safe_cb_slug(slug: str) -> str:
+    """Обрезает slug до безопасной длины для TG callback_data."""
+    return slug[:_CB_SLUG_MAX] if len(slug) > _CB_SLUG_MAX else slug
+
+
+def _resolve_slug(raw: str) -> str:
+    """Восстанавливает полный slug из (возможно обрезанного) callback_data.
+
+    Если raw найден точно в state.reviews - возвращает как есть.
+    Иначе ищет единственный slug, начинающийся с raw. Если нашли ровно один -
+    возвращаем его. Иначе возвращаем raw (пусть downstream покажет «не найдено»).
+    """
+    reviews = state.load().get("reviews", {})
+    if raw in reviews:
+        return raw
+    candidates = [s for s in reviews if s.startswith(raw)]
+    if len(candidates) == 1:
+        return candidates[0]
+    if len(candidates) > 1:
+        log.warning("_resolve_slug: %d кандидатов для prefix=%r, беру первый: %s",
+                     len(candidates), raw, candidates[0])
+        return candidates[0]
+    return raw
+
+
 def review_keyboard(slug: str) -> InlineKeyboardMarkup:
+    cb = _safe_cb_slug(slug)
     return InlineKeyboardMarkup(inline_keyboard=[
-        [InlineKeyboardButton(text="✅ Опубликовать", callback_data=f"publish:{slug}")],
-        [InlineKeyboardButton(text="✏️ Правки", callback_data=f"edit:{slug}")],
-        [InlineKeyboardButton(text="🗑 Отклонить", callback_data=f"reject:{slug}")],
+        [InlineKeyboardButton(text="✅ Опубликовать", callback_data=f"publish:{cb}")],
+        [InlineKeyboardButton(text="✏️ Правки", callback_data=f"edit:{cb}")],
+        [InlineKeyboardButton(text="🗑 Отклонить", callback_data=f"reject:{cb}")],
     ])
 
 
@@ -118,7 +151,7 @@ async def on_edit_pressed(query: CallbackQuery, fsm: FSMContext):
             pass
         return
 
-    slug = query.data.removeprefix("edit:")
+    slug = _resolve_slug(query.data.removeprefix("edit:"))
     review = state.get_review(slug)
     if not review:
         await query.message.answer(
@@ -270,7 +303,7 @@ async def on_publish_pressed(query: CallbackQuery):
         await query.answer("⛔ Доступ запрещён", show_alert=True)
         return
 
-    slug = query.data.removeprefix("publish:")
+    slug = _resolve_slug(query.data.removeprefix("publish:"))
     review = state.get_review(slug)
     if not review:
         await query.answer("Статья не найдена", show_alert=True)
@@ -343,7 +376,7 @@ async def on_reject_pressed(query: CallbackQuery, fsm: FSMContext):
             pass
         return
 
-    slug = query.data.removeprefix("reject:")
+    slug = _resolve_slug(query.data.removeprefix("reject:"))
     review = state.get_review(slug)
     if not review:
         await query.message.answer(

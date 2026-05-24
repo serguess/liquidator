@@ -423,15 +423,32 @@ async def _batch_delivery_iteration(bot: Bot) -> None:
         if sent_to:
             _mark_sentinel_after_send(draft, sent_to)
             state.mark_batch_sent(slug)
+            state.upsert_review(slug, {"batch_fail_count": 0})
             sent_count += 1
             log.info("Batch [%d/%d]: отправлено slug=%s в %s",
                      i + 1, len(slugs), slug, sent_to)
         else:
-            # Не смогли отправить ни одному — оставим pending_batch=true,
-            # попробуем на следующих сутках (или вручную).
+            # Не смогли отправить ни одному. Считаем неудачи: если 3+ batch'а
+            # подряд не смогли доставить эту статью - снимаем pending_batch,
+            # чтобы не зависала навечно (bug 17-22 мая: slug > 55 символов →
+            # BUTTON_DATA_INVALID → pending навсегда). Ручной retry через
+            # scripts/send_now.py.
+            review = state.get_review(slug) or {}
+            fail_streak = review.get("batch_fail_count", 0) + 1
+            state.upsert_review(slug, {"batch_fail_count": fail_streak})
+            if fail_streak >= 3:
+                state.mark_batch_sent(slug)  # снимает pending_batch
+                log.error(
+                    "Batch [%d/%d]: slug=%s провалился %d batch'ей подряд — "
+                    "СНИМАЮ pending_batch (используй scripts/send_now.py для ручной отправки)",
+                    i + 1, len(slugs), slug, fail_streak,
+                )
+            else:
+                log.error(
+                    "Batch [%d/%d]: НЕ смог отправить slug=%s (попытка %d/3) — оставляю pending",
+                    i + 1, len(slugs), slug, fail_streak,
+                )
             failed_count += 1
-            log.error("Batch [%d/%d]: НЕ смог отправить slug=%s — оставляю pending",
-                      i + 1, len(slugs), slug)
 
         # Пауза между сообщениями: защита от TG flood-limit (30 msg/sec лимит,
         # но bots с медиа-вложениями ловят лимиты быстрее).
