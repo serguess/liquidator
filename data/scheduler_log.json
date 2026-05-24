@@ -7271,5 +7271,94 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-05-24T00:24:04",
+    "category": "yur",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 2,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "yur-55",
+    "topic_slug": "kompensacionnoe-finansirovanie-bankrotstvo-zajmy",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "Автофикс применил правки: сокращения=0, пунктуация=0",
+        "length_soft_passed: 8073 > 8000 но ≤ 8500 и iteration=5 — пропускаем (приоритет spam/uniqueness/ai)"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "kompensacionnoe-finansirovanie-bankrotstvo-zajmy",
+    "duration_sec": 2321.5,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": " passed (все ссылки на законы из research.json)\n- **Обложка:** сгенерирована (template #30, весы правосудия на мраморном постаменте)\n- **Статус:** `ready_for_review=true`, добавлена в TG-очередь\n\n**Метрики text.ru:** `textru_ai_detector` / `textru_uniqueness` / `textru_spam` — ещё не проверялись (проверка происходит вручную или через отдельный скрипт). Предсказанные quality_gate: spam ~53%, AI ~3%, uniqueness ~87%.\n\n**Файл:** `drafts/kompensacionnoe-finansirovanie-bankrotstvo-zajmy/article.html`",
+    "stderr_tail": "",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 8073
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
+  },
+  {
+    "timestamp": "2026-05-24T02:48:25",
+    "category": "vzysk",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 3,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "vzysk-46",
+    "topic_slug": "vzyskanie-dolga-po-dogovoru-zajma",
+    "status": "failed",
+    "slug": "vzyskanie-dolga-po-dogovoru-zajma",
+    "duration_sec": 1376.4,
+    "returncode": 1,
+    "rescued_after_failure": false,
+    "stdout_tail": "You've hit your limit · resets May 25, 9pm (Europe/Moscow)",
+    "stderr_tail": "",
+    "metrics": null
   }
 ]
