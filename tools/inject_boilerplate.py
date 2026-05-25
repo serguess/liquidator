@@ -771,25 +771,6 @@ def assemble_article(meta: dict, body_html: str, disclaimer_text: str) -> str:
     # 1. Подставляем CTA и дисклеймер в body
     body = _strip_outer_html(body_html)
 
-    # 1a. Класс article__lead зарезервирован для лида в <article__head> (рендерится
-    # render_article_head из meta.lead/description). LLM seo-editor иногда ставит
-    # его на первый <p> body, имитируя «второй лид» — визуально получается дубль
-    # заголовка под обложкой, по смыслу повторяет lead из head (зафиксировано
-    # 16 мая 2026 на bankrotstvo-pri-voennoy-ipoteke и vzyskanie-dolga-s-ooo).
-    # Снимаем класс, абзац остаётся как обычный <p>.
-    body = re.sub(
-        r'(<p\b[^>]*?)\s+class="article__lead"',
-        r'\1',
-        body,
-        flags=re.IGNORECASE,
-    )
-    body = re.sub(
-        r"(<p\b[^>]*?)\s+class='article__lead'",
-        r'\1',
-        body,
-        flags=re.IGNORECASE,
-    )
-
     # Позиции 1/2/3 = сверху-вниз (1 — primary над лидом, 2 — inline в середине,
     # 3 — final перед FAQ). Используется в data-source для письма заказчику.
     cta_top = render_cta_hero(cta_top_text, slug, 1)
