@@ -1591,6 +1591,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "mediaciya-pri-vzyskanii-dolga",
+      "category": "vzysk",
+      "title": "Медиация при взыскании долга: когда быстрее суда",
+      "added_at": "2026-05-25T22:51:27.246258",
+      "char_count": 8281,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779738686/articles/mediaciya-pri-vzyskanii-dolga-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

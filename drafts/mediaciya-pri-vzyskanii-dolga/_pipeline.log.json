@@ -1,0 +1,41 @@
+{
+  "slug": "mediaciya-pri-vzyskanii-dolga",
+  "category": null,
+  "started_at": "2026-05-25T22:32:17",
+  "finished_at": null,
+  "total_duration_sec": null,
+  "current_iteration": 2,
+  "events": [
+    {
+      "ts": "2026-05-25T22:32:17",
+      "agent": "4-writer",
+      "event": "iteration_returned",
+      "iteration": 2,
+      "reason": "Семантическое дублирование с mirovoe-soglashenie-v-ispolnitelnom-proizvodstve: блок 4 (Путь Б) описывает утверждение мирового соглашения судом — это тема соседней статьи",
+      "recommendation": "rewrite_with_angle:emphasize-dosudebnyy-put — убрать детали Пути Б, расширить досудебный нотариальный путь (Путь А), переориентировать блок 5 на внесудебное урегулирование"
+    },
+    {
+      "ts": "2026-05-25T22:51:46",
+      "agent": "scheduler",
+      "event": "slot_started",
+      "iteration": 2,
+      "category": "vzysk",
+      "today_count": 0,
+      "limit": 10,
+      "write_article_duration_sec": 3096.3
+    },
+    {
+      "ts": "2026-05-25T22:51:46",
+      "agent": "quality_gate",
+      "event": "passed",
+      "iteration": 2,
+      "blockers": [],
+      "warnings": [
+        "Автофикс применил правки: сокращения=0, пунктуация=0",
+        "internal_links_autofixed: 4 ссылок (например /articles/vzysk/srok-iskovoj-davnosti-po-kreditu.html→/articles/vzysk/srok-iskovoj-davnosti-po-kreditu; /articles/vzysk/ispolnitelnaya-nadpis-notariusa.html→/articles/vzysk/ispolnitelnaya-nadpis-notariusa; /articles/vzysk/ispolnitelnyj-list-poluchenie-predyavlenie.html→/articles/vzysk/ispolnitelnyj-list-poluchenie-predyavlenie)",
+        "length_soft_passed: 8281 > 8000 но ≤ 8500 и iteration=4 — пропускаем (приоритет spam/uniqueness/ai)"
+      ],
+      "recommendations": []
+    }
+  ]
+}
