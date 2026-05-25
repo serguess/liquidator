@@ -104,99 +104,17 @@ class SpamHeuristics:
     ngram3_total: int
     ngram3_repeat_share: float
     risk_flags: list[str]
-    word_warnings: list[str] = field(default_factory=list)  # слова топ-10 с count > 9
-
-
-@dataclass
-class UrlWhitelistHit:
-    """consultant.ru URL в HTML, которого нет в whitelist (legal_whitelist.json
-    или legal_whitelist_auto.json). Случай 17.05.2026: agent 2 поставил
-    `LAW_90425` как «ПП Пленума ВАС № 63», но это таможенный приказ ФТС.
-    С этой даты любой `cons_doc_LAW_XXXXX` вне whitelist блокирует gate."""
-    cons_doc_id: str  # например "LAW_90425"
-    context: str       # 80 символов вокруг ссылки в HTML
-    occurrence_count: int  # сколько раз встречается в файле
-
-
-CONS_DOC_LAW_RX = re.compile(
-    r"consultant\.ru/document/(cons_doc_LAW_\d+)",
-    re.IGNORECASE,
-)
-
-
-def load_url_whitelist() -> set[str]:
-    """Читает оба whitelist-файла (ручной + автоматический) и возвращает
-    множество cons_doc_id ("LAW_39331", "LAW_5142", ...). При отсутствии
-    файлов или ошибке парсинга возвращает пустое множество и пишет warning
-    в stderr — статья тогда не будет иметь ссылок на consultant.ru."""
-    whitelist: set[str] = set()
-    for name in ("legal_whitelist.json", "legal_whitelist_auto.json"):
-        path = PROJECT_ROOT / "data" / name
-        if not path.exists():
-            continue
-        try:
-            data = json.loads(path.read_text(encoding="utf-8"))
-        except (OSError, json.JSONDecodeError) as exc:
-            print(
-                f"[url-whitelist] не удалось прочитать {path}: {exc}",
-                file=sys.stderr,
-            )
-            continue
-        for doc in (data or {}).get("documents", []):
-            cid = (doc or {}).get("cons_doc_id")
-            if isinstance(cid, str) and cid:
-                # Нормализуем: всегда верхним регистром, без префикса.
-                whitelist.add(cid.upper().strip())
-    return whitelist
-
-
-def check_url_whitelist(html_text: str) -> list[UrlWhitelistHit]:
-    """Парсит все `consultant.ru/document/cons_doc_LAW_XXXXX` в HTML и
-    возвращает те, которых нет в whitelist. Работает на RAW HTML
-    (не на extracted plain text) — нужны теги `<a href>`."""
-    found: dict[str, list[int]] = {}
-    for m in CONS_DOC_LAW_RX.finditer(html_text):
-        cid = m.group(1).upper()
-        found.setdefault(cid, []).append(m.start())
-
-    if not found:
-        return []
-
-    whitelist = load_url_whitelist()
-    hits: list[UrlWhitelistHit] = []
-    for cid, positions in found.items():
-        if cid in whitelist:
-            continue
-        # Контекст вокруг первой встречи (80 символов до и после).
-        pos = positions[0]
-        start = max(0, pos - 80)
-        end = min(len(html_text), pos + 80)
-        ctx = html_text[start:end].replace("\n", " ").strip()
-        hits.append(UrlWhitelistHit(
-            cons_doc_id=cid,
-            context=ctx,
-            occurrence_count=len(positions),
-        ))
-    return hits
 
 
 @dataclass
 class TargetedTokenHit:
     """Конкретные токены, которые text.ru стабильно подсвечивает как заспам:
     «ст», «РФ», «руб», «ООО», «000 руб». Лимиты эмпирические из реальных
-    скринов text.ru (13 мая 2026, статьи с spam 56-60%).
-
-    `severity`:
-        'hard' — блокирует gate (старые токены, 13 мая)
-        'soft' — попадает в отчёт writer'у, но НЕ блокирует gate
-                  (новые токены 16 мая: 127-фз, 213, 000, ГПК, ГК, cta_формула).
-                  Цель — дать writer'у точную обратную связь без срыва слотов.
-    """
+    скринов text.ru (13 мая 2026, статьи с spam 56-60%)."""
     token: str
     count: int
     limit: int
     over_limit: bool
-    severity: str = "hard"
 
 
 # === 4. Длина статьи (hard-блокер) ===
@@ -240,7 +158,6 @@ class Report:
     punctuation_hits: list[PunctuationHit] = field(default_factory=list)
     spam: SpamHeuristics | None = None
     targeted_tokens: list[TargetedTokenHit] = field(default_factory=list)
-    url_whitelist_hits: list[UrlWhitelistHit] = field(default_factory=list)
     author_markers_count: int = 0
     author_markers_min: int = 2  # минимум 2 авторские вставки на статью
 
@@ -252,15 +169,7 @@ class Report:
             return False
         if self.spam and len(self.spam.risk_flags) >= 1:
             return False
-        # Только HARD-severity targeted-токены блокируют (старые: ст/РФ/руб/ООО/000руб).
-        # SOFT-severity (новые 16 мая: 127-фз, 213, 000, ГПК, ГК, cta) попадают
-        # в отчёт writer'у как feedback, но не срывают слот.
-        if any(h.over_limit and h.severity == "hard" for h in self.targeted_tokens):
-            return False
-        # consultant.ru URL вне whitelist (legal_whitelist.json/_auto.json) =
-        # блокер. Защита от случая 17.05.2026 (LAW_90425 как ПП ВАС № 63,
-        # реально таможенный приказ). Применяется только к HTML (где есть <a>).
-        if self.url_whitelist_hits:
+        if any(h.over_limit for h in self.targeted_tokens):
             return False
         if self.author_markers_count < self.author_markers_min:
             return False
@@ -428,23 +337,6 @@ def compute_spam_heuristics(text: str) -> SpamHeuristics:
     if lexical_diversity < 0.58:
         risk_flags.append(f"lexical_diversity<{0.58} (={lexical_diversity})")
 
-    # Per-word feedback: слова из топ-10 с count > 7 (ужесточено 23 мая).
-    # НЕ блокируют gate, но дают writer'у точный вектор правки в Pass C.
-    # Добавлено 21 мая (порог 9), ужесточено 23 мая (порог 7).
-    # Причина: batch 22-23 мая показал что проблема не в одном слове с count>9,
-    # а в РАВНОМЕРНОЙ концентрации 8-10 слов по 6-9 каждое (итого top10_sum=70+).
-    # Пример: sudebnyj-prikaz top10=[9,8,8,8,8,7,7,7,6,6]=74, word_warnings
-    # при пороге 9 было ПУСТО, writer не знал что снижать.
-    # Порог 7: ловит 4-6 слов из топ-10, даёт writer'у конкретный план.
-    word_warnings = []
-    for lemma, count in top10:
-        if count > 7:
-            word_warnings.append(
-                f"⚠ «{lemma}»: {count} → снизить до ≤7. "
-                f"Заменить {count - 7} вхождений "
-                f"перифразами из topic_terms/category-periph.md"
-            )
-
     return SpamHeuristics(
         total_words=total_words,
         unique_lemmas=unique_lemmas,
@@ -458,7 +350,6 @@ def compute_spam_heuristics(text: str) -> SpamHeuristics:
         ngram3_total=total_ngrams,
         ngram3_repeat_share=ngram3_repeat_share,
         risk_flags=risk_flags,
-        word_warnings=word_warnings,
     )
 
 
@@ -470,76 +361,30 @@ def compute_spam_heuristics(text: str) -> SpamHeuristics:
 # - «ООО» × 24 vs 0
 # Каждое снижение этих токенов на 5-7 даёт ~2% text.ru-spam.
 TARGETED_TOKENS = {
-    # === HARD-cap'ы (блокируют gate, существуют с 13 мая 2026) ===
     "ст_сокращение": {  # «ст. X», «ст N» - короткая форма «статья»
         "rx": re.compile(r"\bст\.?\s*\d", re.IGNORECASE | re.UNICODE),
         "limit": 5,
-        "severity": "hard",
         "rationale": "сокращение «ст.» накапливается в юр-цитатах. Писать «статья» полным словом, либо описательно через смысл нормы. Cap ≤5 на статью.",
     },
     "РФ_рудимент": {  # «РФ» в «ГК РФ», «ГПК РФ», «закон РФ»
         "rx": re.compile(r"\bРФ\b", re.UNICODE),
         "limit": 2,
-        "severity": "hard",
         "rationale": "«РФ» в «ГК РФ»/«ГПК РФ» — рудимент, дроп без потери смысла. Cap ≤2 на статью.",
     },
     "руб_сокращение": {  # «руб.», «руб» как отдельный токен
         "rx": re.compile(r"\bруб\.?\b", re.IGNORECASE | re.UNICODE),
         "limit": 0,
-        "severity": "hard",
         "rationale": "«руб» — другой токен чем «рублей». Писать только полным словом «рублей»/«рубля». Cap = 0.",
     },
     "ООО_бренд": {  # «ООО» в авторском тексте (не в footer/aside)
         "rx": re.compile(r"\bООО\b", re.UNICODE),
         "limit": 3,
-        "severity": "hard",
         "rationale": "«ООО» накапливается из бренд-боилерплейта и упоминаний категории. В авторском тексте писать «юридическое лицо» или «компания». Cap ≤3.",
     },
     "000руб_паттерн": {  # «X 000 руб» — главный n-gram повторов сумм
         "rx": re.compile(r"\b\d+\s*000\s*руб", re.IGNORECASE | re.UNICODE),
         "limit": 2,
-        "severity": "hard",
         "rationale": "Шаблон «X 000 руб» (100 000 руб / 300 000 руб) — повторяющийся n-gram. Использовать полное «рублей» + некруглые суммы (82 400, 147 500). Cap ≤2 (для статутных порогов).",
-    },
-    # === SOFT-cap'ы (16 мая 2026, выводятся в отчёт writer'у, НЕ блокируют gate) ===
-    # Эмпирика из анализа 16 мая (статьи 56-60% spam): эти токены забивают топ-10
-    # text.ru, но HARD-cap здесь нельзя — слоты сорвутся. Soft-cap даёт writer'у
-    # точную обратную связь «снизить X с 14 до 2», работает через playbook §9.
-    "127фз_закон": {  # «127-ФЗ», «ФЗ-127», «N 127-ФЗ»
-        "rx": re.compile(r"\b127[-\s]?ФЗ\b|\bФЗ[-\s]?127\b|\bN[°№]?\s*127[-\s]?ФЗ\b", re.IGNORECASE | re.UNICODE),
-        "limit": 2,
-        "severity": "soft",
-        "rationale": "«127-ФЗ» как номер закона стабильно × 12-14 раз в плохих fiz/yur-статьях. Заменять на «закон о банкротстве» / «федеральный закон» / «закон». Soft-cap ≤2.",
-    },
-    "213_артикул": {  # «213.28», «213.30», «ст. 213»
-        "rx": re.compile(r"\b213\.\d+\b|\bст\.?\s*213\b", re.IGNORECASE | re.UNICODE),
-        "limit": 3,
-        "severity": "soft",
-        "rationale": "Номера статей 213.28 / 213.30 закона о банкротстве × 11-15 в плохих кейсах. Заменять описательно: «правило о добросовестности», «норма о завершении процедуры». Soft-cap ≤3.",
-    },
-    "ГПК_кодекс": {  # «ГПК» (любая форма, кроме «ГПК РФ» — это уже в РФ_рудимент)
-        "rx": re.compile(r"\bГПК\b", re.UNICODE),
-        "limit": 3,
-        "severity": "soft",
-        "rationale": "«ГПК» × 12 в плохих взыск-статьях. Заменять на «процессуальный кодекс», «кодекс», описательно. Soft-cap ≤3.",
-    },
-    "ГК_кодекс": {  # «ГК» (любая форма)
-        "rx": re.compile(r"\bГК\b", re.UNICODE),
-        "limit": 3,
-        "severity": "soft",
-        "rationale": "«ГК» × 10 в плохих взыск-статьях. Заменять на «гражданский кодекс», «кодекс». Soft-cap ≤3.",
-    },
-    "000_число": {  # «000» как часть числа («1 000 000», «300 000»)
-        "rx": re.compile(r"(?<!\d)0{3}(?!\d)", re.UNICODE),
-        "limit": 8,
-        "severity": "soft",
-        "rationale": "Тройной ноль в круглых суммах × 11-24 раз. Использовать некруглые числа (82 400, 326 900) или словесную форму («триста тысяч», «полмиллиона»). Soft-cap ≤8.",
-    },
-    "cta_формула_повтор": {  # «оставить заявку» — повторяющаяся CTA-триграмма
-        "rx": re.compile(r"оставить\s+заявку", re.IGNORECASE | re.UNICODE),
-        "limit": 1,
-        "severity": "soft",
-        "rationale": "Если фраза «оставить заявку» встречается × 3 — три CTA-блока используют одинаковый текст. inject_boilerplate.py теперь по дефолту даёт три РАЗНЫЕ формулировки (TOP/MID/BOTTOM). Если cap превышен — заданы кастомные cta_*_text в meta.json, надо их разнести. Soft-cap ≤1 (одна на финальный CTA-BOTTOM).",
     },
 }
 
@@ -554,7 +399,6 @@ def check_targeted_tokens(text: str) -> list[TargetedTokenHit]:
             count=count,
             limit=cfg["limit"],
             over_limit=count > cfg["limit"],
-            severity=cfg.get("severity", "hard"),
         ))
     return hits
 
@@ -629,24 +473,13 @@ def predict_textru_metrics(
         spam_pct += 2
 
     # Targeted-tokens — эмпирическая калибровка по скрину 13 мая:
-    # плохая статья 56% spam имела ст=25 (over 5 на 20), РФ=27 (over 2 на 25),
+    # plохая статья 56% spam имела ст=25 (over 5 на 20), РФ=27 (over 2 на 25),
     # руб=23 (over 0 на 23), X000руб=20 (over 2 на 18). Суммарно ~86 «лишних».
     # Эталон 49% spam: все 0. Разница 7 п.п. = 86 лишних / 12 = ~7.
-    # Формула: +1% за каждые 12 «лишних» HARD-токенов.
-    # Калибровка 16 мая: soft-токены (127-фз, 213, 000, ГПК, ГК, cta) тоже
-    # дают вклад в spam, но меньший — +1% за каждые 20 лишних. Без этого
-    # МФО-статья с soft-cap превышенным × 19 даёт прогноз «49%» при реальных 57%.
+    # Формула: +1% за каждые 12 «лишних» токенов.
     if targeted_token_hits:
-        over_hard = sum(
-            max(0, h.count - h.limit) for h in targeted_token_hits
-            if getattr(h, "severity", "hard") == "hard"
-        )
-        over_soft = sum(
-            max(0, h.count - h.limit) for h in targeted_token_hits
-            if getattr(h, "severity", "hard") == "soft"
-        )
-        spam_pct += min(15, over_hard // 12)  # hard: +1% за каждые 12 лишних, cap +15%
-        spam_pct += min(8, over_soft // 20)   # soft: +1% за каждые 20 лишних, cap +8%
+        over = sum(max(0, h.count - h.limit) for h in targeted_token_hits)
+        spam_pct += min(15, over // 12)  # cap +15% максимум
 
     # === AI-detector (density маркеров + author_markers) ===
     # Эмпирика 13 мая 2026: главный anti-AI маркер — author_markers («мы», «по нашему опыту»).
@@ -712,7 +545,7 @@ def _detect_kind(file_path: Path, raw: str) -> str:
 # Bash-самопроверку 5+ раз → залипали слоты по таймауту 40 мин.
 # После N-го вызова risk_flags принудительно очищаются — статья идёт
 # дальше к агентам 5/6/quality_gate, которые поймают реальные проблемы.
-WRITER_QC_HARDCAP_N = 4  # cap=3 в промпте writer'а + 1 запас (23 мая: было 3, увеличено)
+WRITER_QC_HARDCAP_N = 3
 WRITER_QC_WINDOW_SEC = 1800  # 30 минут — окно одного слота
 
 
@@ -797,16 +630,6 @@ def analyze(file_path: Path) -> Report:
         )
         spam.risk_flags = []
 
-    # URL whitelist проверка только на HTML — там есть теги <a href>.
-    # Для .md источника проверять смысла нет (writer пишет markdown ссылки,
-    # которые потом seo-editor превращает в HTML). Финальный gate работает
-    # на article.html / body.html — там и ловим левые URL.
-    url_hits = (
-        check_url_whitelist(raw)
-        if file_path.suffix.lower() in {".html", ".htm"}
-        else []
-    )
-
     return Report(
         file=str(rel_path),
         text_chars=chars,
@@ -816,7 +639,6 @@ def analyze(file_path: Path) -> Report:
         punctuation_hits=check_punctuation(text),
         spam=spam,
         targeted_tokens=check_targeted_tokens(text),
-        url_whitelist_hits=url_hits,
         author_markers_count=count_author_markers(text),
     )
 
@@ -832,7 +654,6 @@ def to_dict(rep: Report) -> dict:
         "punctuation_hits": [asdict(h) for h in rep.punctuation_hits],
         "spam": asdict(rep.spam) if rep.spam else None,
         "targeted_tokens": [asdict(h) for h in rep.targeted_tokens],
-        "url_whitelist_hits": [asdict(h) for h in rep.url_whitelist_hits],
         "author_markers_count": rep.author_markers_count,
         "author_markers_min": rep.author_markers_min,
     }
@@ -885,10 +706,6 @@ def print_report(rep: Report) -> None:
         print(f"  Топ-10 доля: {s.top10_share * 100:.1f}% (цель ≤11.5%)")
         print(f"  Повторы 3-граммов: {s.ngram3_repeat_share * 100:.1f}% (цель ≤3.5%)")
         print(f"  Топ-5 частотных лемм: {s.top10_words[:5]}")
-        if s.word_warnings:
-            print(f"\n  [FEEDBACK] Слова в топ-10 с count > 9 (заменить перифразами):")
-            for w in s.word_warnings:
-                print(f"    {w}")
         if s.risk_flags:
             print(f"  [RISK] Превышены пороги: {s.risk_flags}")
             print(f"  [FAIL] Возврат на писателя: снизить плотность повторов.")
@@ -896,37 +713,17 @@ def print_report(rep: Report) -> None:
     if rep.targeted_tokens:
         print(f"\nЦелевые токены (главные виновники text.ru spam):")
         for h in rep.targeted_tokens:
-            if h.over_limit:
-                status = "[FAIL]" if h.severity == "hard" else "[WARN]"
-            else:
-                status = "[OK]"
-            tag = "" if h.severity == "hard" else " (soft)"
-            print(f"  {status} {h.token}{tag}: {h.count} (cap ≤{h.limit})")
-        problem_hard = [h for h in rep.targeted_tokens if h.over_limit and h.severity == "hard"]
-        problem_soft = [h for h in rep.targeted_tokens if h.over_limit and h.severity == "soft"]
-        if problem_hard:
-            print(f"  → [HARD] Снизить (блокирует gate): {', '.join(h.token for h in problem_hard)}")
-        if problem_soft:
-            print(f"  → [SOFT] Снизить для коридора 47-50% spam (не блокирует, но даёт +п.п.): "
-                  f"{', '.join(h.token for h in problem_soft)}")
+            status = "[FAIL]" if h.over_limit else "[OK]"
+            print(f"  {status} {h.token}: {h.count} (cap ≤{h.limit})")
+        problem = [h for h in rep.targeted_tokens if h.over_limit]
+        if problem:
+            print(f"  → Снизить: {', '.join(h.token for h in problem)}")
 
     print(f"\nАвторские вставки (мы считаем / по нашему опыту):")
     if rep.author_markers_count >= rep.author_markers_min:
         print(f"  [OK] {rep.author_markers_count} ≥ {rep.author_markers_min}")
     else:
         print(f"  [FAIL] {rep.author_markers_count} < {rep.author_markers_min} — добавить хотя бы 2 «мы считаем/по нашему опыту/в нашей практике»")
-
-    # URL whitelist — итог по ссылкам на consultant.ru.
-    if rep.url_whitelist_hits:
-        print(f"\n[FAIL] consultant.ru URL вне whitelist: {len(rep.url_whitelist_hits)}")
-        print(f"  Допустимы только URL из data/legal_whitelist.json + legal_whitelist_auto.json.")
-        for h in rep.url_whitelist_hits[:5]:
-            print(f"  • {h.cons_doc_id} ({h.occurrence_count}× в файле)")
-            print(f"    контекст: ...{h.context}...")
-        if len(rep.url_whitelist_hits) > 5:
-            print(f"  ... ещё {len(rep.url_whitelist_hits) - 5}")
-        print(f"  → Исправление: убрать <a href> у этих ссылок, оставить текст.")
-        print(f"    Или добавить документ в data/legal_whitelist.json если URL точно правильный.")
 
 
 def collect_targets(path: Path) -> list[Path]:
