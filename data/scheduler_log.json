@@ -7445,5 +7445,53 @@
     "timestamp": "2026-05-25T19:36:20",
     "status": "preflight_failed",
     "reason": "rate_limit: You've hit your limit · resets 9pm (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-05-25T22:00:09",
+    "category": "vzysk",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "mode": "new",
+    "topic_id": "vzysk-47",
+    "topic_slug": "mediaciya-pri-vzyskanii-dolga",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "Автофикс применил правки: сокращения=0, пунктуация=0",
+        "internal_links_autofixed: 4 ссылок (например /articles/vzysk/srok-iskovoj-davnosti-po-kreditu.html→/articles/vzysk/srok-iskovoj-davnosti-po-kreditu; /articles/vzysk/ispolnitelnaya-nadpis-notariusa.html→/articles/vzysk/ispolnitelnaya-nadpis-notariusa; /articles/vzysk/ispolnitelnyj-list-poluchenie-predyavlenie.html→/articles/vzysk/ispolnitelnyj-list-poluchenie-predyavlenie)",
+        "length_soft_passed: 8281 > 8000 но ≤ 8500 и iteration=4 — пропускаем (приоритет spam/uniqueness/ai)"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "mediaciya-pri-vzyskanii-dolga",
+    "duration_sec": 3096.3,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "ediaciya-pri-vzyskanii-dolga/article.html` |\n\n**Метрики text.ru:** не проверялись локально (проверка происходит при публикации).\n\n**Особенности прохода:**\n- Агент 5 вернул `passed: false` — конфликт с соседней статьёй `mirovoe-soglashenie-v-ispolnitelnom-proizvodstve`. Статья была переориентирована на досудебный нотариальный путь (Путь А по ФЗ-193), детали утверждения мирового соглашения судом убраны.\n- Итого итераций writer'а: 2 из 3 допустимых.\n- Статья добавлена в очередь ревью (позиция 123).",
+    "stderr_tail": "",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 8281
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]

@@ -1,0 +1,107 @@
+{
+  "slug": "roskoshnoe-zhilyo-pri-bankrotstve",
+  "category": "fiz",
+  "title": "Роскошное жильё при банкротстве: когда продадут",
+  "description": "Когда единственную квартиру признают роскошной и включат в конкурсную массу. Критерии суда, требования к замещающему жилью и как защитить квартиру при банкротстве.",
+  "h1": "Роскошное жильё при банкротстве: когда суд разрешит продать квартиру",
+  "lead": "Разбираем, когда единственную квартиру признают избыточной, какие условия суд проверяет перед продажей и что требует от замещающего жилья.",
+  "topic_action": "оценку ситуации с жильём при банкротстве",
+  "breadcrumb_current": "Роскошное жильё при банкротстве",
+  "og_image": "/assets/articles/roskoshnoe-zhilyo-pri-bankrotstve.jpg",
+  "main_keyword": "роскошное жильё при банкротстве",
+  "secondary_keywords": [
+    "когда продадут квартиру при банкротстве",
+    "замещающее жильё при банкротстве",
+    "единственное жильё банкротство критерии",
+    "исполнительский иммунитет единственное жильё",
+    "продажа квартиры при банкротстве физлица",
+    "роскошная квартира банкрот",
+    "могут ли забрать единственную квартиру при банкротстве"
+  ],
+  "internal_links": [
+    "/articles/fiz/konkursnaya-massa-pri-bankrotstve-fizlica.html",
+    "/articles/fiz/bankrotstvo-pri-ipoteke-edinstvennoe-zhilye.html",
+    "/articles/fiz/dolevaya-sobstvennost-pri-bankrotstve.html"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/"
+  ],
+  "faq": [
+    {
+      "question": "Может ли суд продать квартиру, если в ней живут несовершеннолетние дети?",
+      "answer": "Дети — весомый аргумент, но не абсолютный запрет. Суд учитывает их интересы при оценке возможности переезда. Если альтернативный кров подобран в том же районе и обеспечивает нормальные условия, инстанция вправе разрешить отчуждение. К рассмотрению привлекается орган опеки."
+    },
+    {
+      "question": "Что происходит с семьёй между продажей и переездом?",
+      "answer": "Положение о реализации предусматривает синхронизацию: новое жильё покупают до или одновременно с освобождением проданного помещения. Разрыв, при котором люди остаются без крова, недопустим по логике Постановления КС №15-П."
+    },
+    {
+      "question": "Сколько квадратных метров считается достаточным при замещении?",
+      "answer": "Размер нового помещения соответствует норме предоставления по соцнайму — 12–18 кв. м на каждого проживающего (Москва — 18 кв. м). Итоговые параметры фиксируются в Положении о реализации."
+    },
+    {
+      "question": "Чем режим ипотечного жилья отличается от незаложенного при несостоятельности?",
+      "answer": "Принципиально. Незаложенная единственная квартира имеет иммунитет — отчуждение возможно только при явной избыточности. Ипотечный кров иммунитета лишён полностью: реализуется в любом случае. Два разных режима, их нельзя путать."
+    },
+    {
+      "question": "Есть ли смысл переоформить квартиру на родственника до подачи заявления?",
+      "answer": "Нет. Управляющий проверяет сделки за три года до обращения в арбитраж. Переоформление на аффилированное лицо по заниженной цене — основание для оспаривания и отказа в списании долгов."
+    },
+    {
+      "question": "Обязательно ли соглашаться на вариант в другом районе города?",
+      "answer": "Суд учитывает реальные обстоятельства: школа, работа, здоровье. Переезд в другой город требует согласия заёмщика. Обоснованные возражения суд принимает во внимание."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все юр-факты сверены с research.json. last_verified=2026-05-26, legislation_status=active.",
+    "Иммунитет единственного жилья: абз. 2 ч. 1 ст. 446 ГПК + п. 3 ст. 213.25 127-ФЗ — формулировка соответствует safe_phrasing f1, f3.",
+    "Постановление КС №15-П от 26.04.2021: иммунитет перестал быть абсолютным для явно избыточного жилья при условии замещающего — факт f2, поправки в ГПК не приняты упомянуто корректно.",
+    "Норма предоставления соцнайма: ч. 2 ст. 50 ЖК, 12–18 кв. м в регионах, 18 в Москве — факт f5.",
+    "Алгоритм продажи с замещением: ст. 213.26 127-ФЗ, замена покупается из выручки до расчётов с кредиторами — факт f7, f8.",
+    "Ипотечное жильё: иммунитет не действует, абз. 2 ч. 1 ст. 446 ГПК + п. 5 ст. 213.25 127-ФЗ — факт f11.",
+    "Госпошлина не взимается + депозит 25 000 руб. — факт f12, формулировка корректна.",
+    "Конкретные номера определений ВС не названы (по forbidden_claims).",
+    "Пороговый метраж как закреплённый в законе критерий не указан (по forbidden_claims).",
+    "Внутренние ссылки проверены через published_index.json: все 3 цели опубликованы (/articles/fiz/...).",
+    "Итерация 2: writer обновил формулировки для повышения lexical_diversity и устранения spam ngram3."
+  ],
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "text_chars": 7635,
+  "length_status": "warn",
+  "length_kind": "default",
+  "local_spam_top10_share": 0.091,
+  "local_spam_ngram3_repeat": 0.046,
+  "local_lexical_diversity": 0.609,
+  "local_ai_markers_density": 0.21,
+  "local_ai_markers_total": 2,
+  "local_ai_markers_critical": 0,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 3,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 4,
+  "predicted_spam_pct": 55,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность выше 50% (~55%)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "spam_risk: 1 флагов (ngram3_repeat_share>0.035 (=0.046)), top-5: ['кров', 'банкротств', 'иммунит', 'стать', 'жильё']"
+  ],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779746857/articles/roskoshnoe-zhilyo-pri-bankrotstve-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1779746857/articles/roskoshnoe-zhilyo-pri-bankrotstve-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Macro close-up photograph emphasizing surface materials and tactile detail on a dark walnut grain background. Hero objects: a cluster of ornate brass keys on a heavy brass ring resting on a burnished leather coaster, an antique brass padlock with weathered green patina lying open beside the keys, a polished round notary seal pressed firmly onto a thick closed envelope sealed with dark wax, a fountain pen aligned diagonally across a closed leather portfolio. Camera: macro lens, very shallow depth of field isolating the keys and padlock in sharp focus, portfolio softly blurred toward the background. Lighting: directional contrast from upper left — sharp specular highlights catching the brass key teeth and padlock shackle, soft warm fill on the leather grain shadow side. Palette: aged brass, deep brown leather, charcoal wax seal, dark walnut. Mood: property immunity revoked, the moment a court decision seals the fate of a luxury asset.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-05-25T22:07:38Z",
+  "date_published": "2026-05-26",
+  "date_modified": "2026-05-26",
+  "ready_for_review": true,
+  "ready_at": "2026-05-25T22:07:38Z",
+  "publication_target": "telegram_review"
+}
