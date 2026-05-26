@@ -1,0 +1,99 @@
+{
+  "slug": "povtornoe-bankrotstvo-fizlica-sroki-usloviya",
+  "category": "fiz",
+  "title": "Повторное банкротство физлица: сроки и условия",
+  "description": "Когда можно подать на повторное банкротство физлица: 5 лет после реализации имущества, 10 лет после МФЦ, что будет если в первый раз долги не списали.",
+  "h1": "Повторное банкротство физлица: через сколько лет можно снова подать",
+  "lead": "Сроки повторной подачи на банкротство зависят от того, как именно завершилось первое производство: судом, МФЦ, реализацией или реструктуризацией.",
+  "topic_action": "проверку возможности повторного банкротства",
+  "breadcrumb_current": "Повторное банкротство физлица",
+  "og_image": "/assets/articles/povtornoe-bankrotstvo-fizlica-sroki-usloviya.jpg",
+  "main_keyword": "повторное банкротство физического лица",
+  "secondary_keywords": [
+    "через сколько лет можно снова обанкротиться",
+    "второе банкротство физлица",
+    "повторное банкротство если долги не списали",
+    "повторное внесудебное банкротство через МФЦ",
+    "сколько раз можно банкротиться",
+    "запрет на повторное банкротство 5 лет",
+    "кредитор инициирует повторное банкротство"
+  ],
+  "internal_links": [
+    "/bankrotstvo-po-zayavleniyu-kreditora-fizlica.html",
+    "/kogda-dolgi-ne-spishut-pri-bankrotstve.html",
+    "/vnesudebnoe-bankrotstvo-cherez-mfc-2026.html",
+    "/bankrotstvo-pri-potrebitelskom-kredite.html"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/"
+  ],
+  "faq": [
+    {
+      "question": "Через сколько лет после реализации имущества можно снова подать на банкротство?",
+      "answer": "Через 5 лет с даты определения арбитражного суда о завершении реализации. Именно с этой даты, а не с момента признания банкротом и не с подачи первого заявления."
+    },
+    {
+      "question": "Можно ли пройти судебное банкротство, если первый этап закончился реструктуризацией?",
+      "answer": "Да, и без пятилетнего ожидания. Ограничение действует только после завершения реализации имущества. Если первый путь закончился реструктуризацией — гражданин вправе подать новое заявление при появлении оснований."
+    },
+    {
+      "question": "Что будет, если кредитор подаст на моё банкротство раньше, чем истекут 5 лет?",
+      "answer": "Суд возбудит новое производство. Пятилетний запрет ограничивает только право самого гражданина — на кредиторов и налоговую он не распространяется. Если реализация завершится в этот период, долги не спишутся."
+    },
+    {
+      "question": "Обязательно ли платить депозит при повторной подаче заявления в арбитраж?",
+      "answer": "Да. Депозит 25 000 рублей на вознаграждение арбитражного управляющего вносится при каждой подаче. Государственная пошлина не взимается: с 8 сентября 2024 года должник-гражданин от неё освобождён."
+    },
+    {
+      "question": "Сколько хранится запись о банкротстве в кредитной истории?",
+      "answer": "10 лет с момента последнего изменения записи. Каждое новое производство добавляет отдельную отметку, отсчёт начинается заново. Обе записи могут находиться в досье одновременно."
+    },
+    {
+      "question": "Распространяется ли 10-летний запрет МФЦ на судебное обращение?",
+      "answer": "Нет. Только на повторное внесудебное обращение в МФЦ. Судебный путь через арбитраж после внесудебной процедуры регулируется общим правилом: 5 лет после реализации имущества, если она была."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все юр-факты сверены с research.json (16 фактов, last_verified 2026-05-26, legislation_status active).",
+    "Госпошлина 0 руб. с 08.09.2024 (ФЗ-176) — соответствует f10.",
+    "5/10 лет сроков, 500 000 руб./3 мес. порог кредитора, перечень несписываемых, кредитная история 10 лет — все формулировки в пределах safe_phrasing.",
+    "Запрет на руководство (3/5/10 лет) и ИП (5 лет) приведены по п. 3 ст. 213.30 и п. 2 ст. 216 — соответствуют f5, f11."
+  ],
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "text_chars": 7523,
+  "length_status": "warn",
+  "length_kind": "default",
+  "local_spam_top10_share": 0.132,
+  "local_spam_ngram3_repeat": 0.048,
+  "local_lexical_diversity": 0.564,
+  "local_ai_markers_density": 0.21,
+  "local_ai_markers_total": 2,
+  "local_ai_markers_critical": 0,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 2,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": false,
+  "quality_gate_blockers": [
+    "spam_risk: 5 флагов (top3_sum>30 (=33), top10_sum>80 (=89), top10_share>0.115 (=0.132), ngram3_repeat_share>0.035 (=0.048), lexical_diversity<0.58 (=0.564)), top-5: ['производств', 'долг', 'гражданин', 'имуществ', 'подач']"
+  ],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 62,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность заметно выше 50% (~62%)"
+  ],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779771890/articles/povtornoe-bankrotstvo-fizlica-sroki-usloviya-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1779771890/articles/povtornoe-bankrotstvo-fizlica-sroki-usloviya-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Editorial photograph of a working desk in a modern business interior. Camera: slight overhead three-quarter angle. On the walnut desktop: a closed leather folder positioned left of center, a blank-spine notebook open to an empty page with a fountain pen resting across it, a scientific calculator with a blank screen, reading glasses folded beside a polished round company seal, a smartphone face-down in the lower foreground. Background: blurred stone-and-wood feature wall with tall windows letting in a cool overcast daylight. Lighting: directional warm light from upper left casting long deliberate shadows, suggesting careful reckoning and the passage of measured time. Materials: walnut, brushed steel, smooth leather. Palette: warm walnut with cool grey accents and restrained brass highlights. Mood: methodical, patient, procedurally exacting — the quiet work of verifying eligibility before taking a consequential next step.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-05-26T05:04:51Z",
+  "date_published": "2026-05-26",
+  "date_modified": "2026-05-26",
+  "ready_for_review": true,
+  "ready_at": "2026-05-26T05:04:51Z",
+  "publication_target": "telegram_review"
+}

@@ -3620,6 +3620,26 @@
       "articles": [
         "vzyskanie-dolga-pri-likvidacii-dolzhnika"
       ]
+    },
+    {
+      "id": "fiz-povtornoe-bankrotstvo-fizlica",
+      "category": "fiz",
+      "subtopic": "повторное банкротство физлица: сроки, условия, ограничения",
+      "intent": "informational",
+      "funnel_stage": "warm",
+      "main_keyword": "повторное банкротство физического лица",
+      "related_keywords": [
+        "через сколько лет можно снова обанкротиться",
+        "второе банкротство физлица",
+        "повторное банкротство если долги не списали",
+        "повторное внесудебное банкротство через МФЦ",
+        "сколько раз можно банкротиться",
+        "запрет на повторное банкротство 5 лет",
+        "кредитор инициирует повторное банкротство"
+      ],
+      "articles": [
+        "povtornoe-bankrotstvo-fizlica-sroki-usloviya"
+      ]
     }
   ]
 }

@@ -1,0 +1,13 @@
+{
+  "slug": "povtornoe-bankrotstvo-fizlica-sroki-usloviya",
+  "passed": true,
+  "scores": {
+    "structure_overlap": 0.0,
+    "thesis_similarity": 0.0,
+    "cta_overlap": 0.0
+  },
+  "similar_articles": [],
+  "conflicts": [],
+  "recommendation": "ok",
+  "note": "Новая категория (fiz) — опубликованных статей в этой категории нет. Сравнение проведено с 5 статьями из категории vzysk. Семантического пересечения не найдено. Вектор статьи записан в embeddings.sqlite с флагом published=0."
+}

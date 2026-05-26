@@ -7605,5 +7605,62 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-05-26T05:12:37",
+    "category": "vzysk",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 3,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "vzysk-48",
+    "topic_slug": "vzyskanie-dolga-pri-likvidacii-dolzhnika",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "Автофикс применил правки: сокращения=1, пунктуация=0",
+        "forced_pass_at_iter3: блокеры пропущены, статья идёт в TG-очередь с metrics_warning=true. Было: 1 блокеров — spam_risk"
+      ],
+      "recommendations": [
+        "reduce_repetition: разбавить топ-5 частотных лемм местоимениями/перифразом — ['стать', 'кодекс', 'гражданск', 'долг', 'комисс']"
+      ],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "vzyskanie-dolga-pri-likvidacii-dolzhnika",
+    "duration_sec": 3400.9,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "я»/«кодекс» как неотъемлемой части правовых ссылок) |\n| Обложка | template_id=29, загружена на Cloudinary |\n| Публикация | ready_for_review=true, ждёт нажатия в TG-боте |\n\n**text.ru метрики:** не заполнены (API text.ru не вызывается в пайплайне автоматически).\n\n**Заметка по spam_risk:** лемматизатор считает «статья» (ссылки на нормы ГК — ст. 63, 64, 64.1, 196) и «кодекс» как повторяющиеся леммы. Это структурная особенность юридических статей с множеством правовых ссылок, не семантический заспам.",
+    "stderr_tail": "",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7631
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]
