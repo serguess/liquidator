@@ -1,0 +1,107 @@
+{
+  "slug": "vzyskanie-dolga-pri-likvidacii-dolzhnika",
+  "category": "vzysk",
+  "title": "Взыскание долга при ликвидации должника",
+  "description": "Должник ликвидируется — что делать кредитору: как заявить требования в срок, что происходит после исключения из ЕГРЮЛ и когда можно взыскать долг с директора или учредителя.",
+  "h1": "Взыскание долга при ликвидации должника: что делать кредитору",
+  "lead": "Что делать кредитору, когда должник объявил о ликвидации: как заявить требования в срок, как заблокировать исключение из ЕГРЮЛ и когда удаётся взыскать долг с директора или учредителя.",
+  "topic_action": "взыскание долга при ликвидации должника",
+  "breadcrumb_current": "Взыскание долга при ликвидации должника",
+  "og_image": "/assets/articles/vzyskanie-dolga-pri-likvidacii-dolzhnika.jpg",
+  "main_keyword": "взыскание долга при ликвидации должника",
+  "secondary_keywords": [
+    "взыскание долга при ликвидации ООО",
+    "права кредитора при ликвидации должника",
+    "что делать кредитору если должник ликвидируется",
+    "заявление требований кредитора при ликвидации",
+    "субсидиарная ответственность после ликвидации ООО",
+    "взыскание долга после исключения из ЕГРЮЛ",
+    "оспорить ликвидацию должника через суд",
+    "распределение имущества ликвидированного ООО"
+  ],
+  "keywords": [
+    "взыскание долга при ликвидации должника",
+    "взыскание долга при ликвидации ООО",
+    "права кредитора при ликвидации должника",
+    "субсидиарная ответственность после ликвидации ООО",
+    "взыскание долга после исключения из ЕГРЮЛ"
+  ],
+  "internal_links": [
+    "/articles/vzysk/obespechitelnye-mery-arest-scheta",
+    "/articles/vzysk/vzyskanie-dolga-s-ooo-cherez-arbitrazh",
+    "/articles/vzysk/isk-o-vzyskanii-dolga-v-sud"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_5142/"
+  ],
+  "faq": [
+    {
+      "question": "Что произойдёт с моим требованием, если я пропустил двухмесячный срок подачи?",
+      "answer": "Требование можно предъявить до составления ликвидационного баланса. Оно попадёт в хвост: выплачивается из того, что осталось после всех заявившихся вовремя (пятый пункт статьи 64 гражданского кодекса). При дефиците активов погашение нулевое."
+    },
+    {
+      "question": "Обязательно ли уведомлять кредитора о начале ликвидации или достаточно публикации в «Вестнике»?",
+      "answer": "Ликвидационная комиссия обязана и публиковать сообщение, и письменно уведомлять каждого известного взыскателя (статья 63 гражданского кодекса). Отсутствие уведомления — нарушение, дающее основание для оспаривания процедуры."
+    },
+    {
+      "question": "Можно ли заблокировать удаление компании из ЕГРЮЛ, если налоговая уже опубликовала решение?",
+      "answer": "Да. Подаётся форма Р38001 в регистрирующий орган в течение 3 месяцев с даты публикации. После поступления заявления решение не исполняется."
+    },
+    {
+      "question": "Директор вывел активы до закрытия — достаточно ли этого факта для субсидиарного иска?",
+      "answer": "Сам по себе — нет. Верховный суд требует доказать конкретные недобросовестные действия и прямую связь с невозможностью погасить долг. Нужна доказательная база: договоры купли-продажи, банковские выписки, переписка."
+    },
+    {
+      "question": "Через сколько лет после закрытия компании можно потребовать распределить обнаруженное имущество?",
+      "answer": "В течение 5 лет с даты закрытия (пункт 5.2 статьи 64 гражданского кодекса). Заявление подаётся в арбитражный суд, который назначает управляющего."
+    },
+    {
+      "question": "Чем добровольная ликвидация отличается от административного удаления: где разница для взыскателя?",
+      "answer": "При добровольной процедуре работает ликвидационная комиссия. Заявитель входит в реестр кредиторов и получает деньги в порядке очерёдности. При административном удалении налоговая вычёркивает недействующую фирму без участия кредиторов. Инструменты после этого — возражение по форме Р38001, оспаривание или субсидиарный иск."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все юр-утверждения сверены с research.json (f1-f19), все last_verified=2026-05-26, legislation_status=active.",
+    "Убран ранее присутствовавший порог '300 000 рублей' для возбуждения банкротства юрлица — в research.json этой цифры нет, актуальный порог изменился в 2024 (ФЗ-107). Заменено на нейтральную формулировку 'порог, установленный законом о несостоятельности'.",
+    "Внутренние ссылки приведены к каноническому формату /articles/vzysk/{slug} без .html, без trailing slash — все три target-slug подтверждены в data/published_index.json."
+  ],
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "text_chars": 7631,
+  "length_status": "warn",
+  "length_kind": "default",
+  "local_spam_top10_share": 0.132,
+  "local_spam_ngram3_repeat": 0.112,
+  "local_lexical_diversity": 0.56,
+  "local_ai_markers_density": 0.21,
+  "local_ai_markers_total": 2,
+  "local_ai_markers_critical": 0,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 2,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 4,
+  "predicted_spam_pct": 62,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность заметно выше 50% (~62%)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "spam_risk: 6 флагов (top1_count>12 (=14, лемма «стать»), top3_sum>30 (=35), top10_sum>80 (=92), top10_share>0.115 (=0.132), ngram3_repeat_share>0.035 (=0.112), lexical_diversity<0.58 (=0.56)), top-5: ['стать', 'кодекс', 'гражданск', 'долг', 'комисс']"
+  ],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779764939/articles/vzyskanie-dolga-pri-likvidacii-dolzhnika-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1779764939/articles/vzyskanie-dolga-pri-likvidacii-dolzhnika-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Photograph through wet glass — the camera views a contemporary administrative glass-façade building through a window heavily beaded with raindrops. Foreground objects on the interior sill (sharp focus): a closed slim laptop, a closed dark leather notebook with a fountain pen resting across it, a pair of reading glasses folded beside it, a white porcelain coffee cup on a saucer. Background (soft, blurred through droplets): the building's reflective glass exterior dissolving into a rain-grey street, distant amber lampposts haloed in the haze. Camera: tight eye-level crop, shallow depth of field. Lighting: cool overcast daylight from outside pressing against warm interior desk-lamp glow, creating a tense contrast between the interior stillness and the dissolving façade beyond. Palette: cool blue-grey exterior, warm cream interior. Mood: a creditor watching and waiting while the debtor entity disappears into the rain.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-05-26T03:09:00Z",
+  "date_published": "2026-05-26",
+  "date_modified": "2026-05-26",
+  "ready_for_review": true,
+  "ready_at": "2026-05-26T03:09:00Z",
+  "publication_target": "telegram_review"
+}

@@ -1630,6 +1630,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "vzyskanie-dolga-pri-likvidacii-dolzhnika",
+      "category": "vzysk",
+      "title": "Взыскание долга при ликвидации должника",
+      "added_at": "2026-05-26T06:09:00.085275",
+      "char_count": 7631,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779764939/articles/vzyskanie-dolga-pri-likvidacii-dolzhnika-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
