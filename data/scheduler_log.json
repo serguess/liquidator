@@ -7990,5 +7990,59 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-05-26T22:00:11",
+    "category": "vzysk",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 1,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "vzysk-50",
+    "topic_slug": "snyatie-aresta-s-imushchestva-cherez-sud",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "spam_soft_passed: ratio-флаги мягкие при iter=3, targeted_tokens чистые → пропускаем (spam ≈48-52% по прогнозу)"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "snyatie-aresta-s-imushchestva-cherez-sud",
+    "duration_sec": 3892.0,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "етр | Значение |\n|---|---|\n| Категория | vzysk |\n| Длина текста | 7 474 знака |\n| Uniqueness | passed (0% пересечений) |\n| Factcheck | passed |\n| Quality gate | passed (spam soft-pass на iter=2) |\n| Итераций writer | 2 (1 возврат от quality_gate из-за spam_risk) |\n| Обложка | загружена на Cloudinary |\n| Статус | `ready_for_review=true`, в TG-очереди |\n\n**text.ru метрики** — ещё не проверялись (статья только что в очереди).\n\n**Файл:** `drafts/snyatie-aresta-s-imushchestva-cherez-sud/article.html`",
+    "stderr_tail": "",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7474
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]

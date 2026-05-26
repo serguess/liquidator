@@ -1,0 +1,108 @@
+{
+  "slug": "dacha-garazh-zemelnyj-uchastok-bankrotstvo",
+  "category": "fiz",
+  "title": "Дача и гараж при банкротстве физлица: заберут или нет",
+  "description": "Когда дача, гараж и земельный участок попадают в конкурсную массу, а когда остаются у должника. Статья 446 ГПК, садовый дом как единственное жильё, практика.",
+  "h1": "Дача, гараж и земельный участок при банкротстве: что заберут, а что останется",
+  "lead": "Гараж уходит на торги почти всегда: статья 446 процессуального кодекса нежилые помещения не защищает. Дача защищена только при статусе «жилой дом» в ЕГРН и при отсутствии другого жилья. Земля под единственным домом следует судьбе постройки.",
+  "topic_action": "проверку имущества при банкротстве",
+  "breadcrumb_current": "Дача, гараж и земля при банкротстве",
+  "og_image": "/assets/articles/dacha-garazh-zemelnyj-uchastok-bankrotstvo.jpg",
+  "main_keyword": "дача и гараж при банкротстве",
+  "secondary_keywords": [
+    "земельный участок при банкротстве физлица",
+    "гараж при банкротстве заберут или нет",
+    "дача конкурсная масса банкротство",
+    "садовый дом единственное жилье банкротство",
+    "земля под дачей банкротство",
+    "статья 446 ГПК банкротство недвижимость",
+    "дача единственное жилье банкротство"
+  ],
+  "internal_links": [
+    "/articles/fiz/konkursnaya-massa-pri-bankrotstve-fizlica",
+    "/articles/fiz/bankrotstvo-pri-ipoteke-edinstvennoe-zhilye",
+    "/articles/fiz/dolevaya-sobstvennost-pri-bankrotstve",
+    "/articles/fiz/osparivanie-sdelok-fizlica-bankrotstvo"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/"
+  ],
+  "faq": [
+    {
+      "question": "Гараж в гаражном кооперативе - его тоже продадут на торгах?",
+      "answer": "Да. Пай в ГСК включается в конкурсную массу как имущественное право. Арбитражный управляющий инициирует оформление права собственности и затем выставляет объект на торги."
+    },
+    {
+      "question": "Можно ли прописаться на даче незадолго до подачи заявления и тем самым её защитить?",
+      "answer": "Нет. Регистрация по адресу дачи - один из факторов, но не решающий. Суд смотрит на официальный статус в ЕГРН, фактическое проживание, пригодность для круглогодичной жизни, отсутствие другого жилья. Если строение числится как садовый дом - никакая прописка не поможет."
+    },
+    {
+      "question": "Что будет с участком в СНТ, если на нём нет никакой постройки?",
+      "answer": "Уйдёт в продажу. Участок без жилого строения не защищён статьёй 446 процессуального кодекса."
+    },
+    {
+      "question": "До какого момента можно самостоятельно распоряжаться дачей?",
+      "answer": "До введения реализации. С даты признания банкротом все права на распоряжение активами переходят к арбитражному управляющему. Любая сделка после этой даты без его согласия ничтожна."
+    },
+    {
+      "question": "Роскошный загородный дом как единственное жильё - суд всё равно заберёт?",
+      "answer": "Может, но не автоматически. Арбитраж вправе включить явно роскошный дом при условии предоставления замещающего жилья. На практике суды оценивают площадь, стоимость, возможность нормально разместиться в замещающем варианте."
+    },
+    {
+      "question": "Сколько стоит подать заявление, если есть загородная недвижимость кроме квартиры?",
+      "answer": "Госпошлина с должника-гражданина не взимается. Обязательный платёж - депозит 25 000 рублей на счёт суда. Расходы на оценку недвижимости и публикации возмещаются из конкурсной массы."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все юр-утверждения сверены с research.json (last_verified 2026-05-27, legislation_status active/amended).",
+    "Ст. 446 ГПК (перечень защищённого имущества, абз. 2-3 ч. 1) - корректное применение для жилого помещения и земли под ним.",
+    "П. 1 ст. 213.25 127-ФЗ (конкурсная масса) и ст. 213.26 (порядок реализации) - проставлены в нужных контекстах.",
+    "Госпошлина: льгота для должника-гражданина с 08.09.2024 (ФЗ-176 от 12.07.2024, ст. 333.37 НК), депозит 25 000 руб (п. 3 ст. 20.6 127-ФЗ). Никаких '300 руб' для должника-гражданина в тексте нет.",
+    "Постановление КС РФ № 15-П от 26.04.2021 о роскошном жилье - применено в правильном контексте (банкротство, замещающее жильё, поправки не приняты, суды применяют КС напрямую).",
+    "Постановление Пленума ВС РФ от 25.12.2018 № 48 - корректно упомянуто по вопросу исключения имущества из конкурсной массы.",
+    "ФЗ-217 от 29.07.2017 о садоводстве и ПП РФ № 47 от 28.01.2006 о признании помещения жилым - корректные реквизиты для статуса садового дома.",
+    "Срок 3 года для оспаривания подозрительных сделок (ст. 61.2 127-ФЗ) - корректный контекст.",
+    "Пай в ГСК как имущественное право в составе конкурсной массы (п. 1 ст. 213.25 127-ФЗ) - подано без обещаний конкретных сценариев.",
+    "Прописка как недостаточный признак иммунитета - совокупность факторов, не один."
+  ],
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "text_chars": 8081,
+  "length_status": "too_long",
+  "length_kind": "default",
+  "local_spam_top10_share": 0.095,
+  "local_spam_ngram3_repeat": 0.049,
+  "local_lexical_diversity": 0.566,
+  "local_ai_markers_density": 0.2,
+  "local_ai_markers_total": 2,
+  "local_ai_markers_critical": 0,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 4,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 5,
+  "predicted_spam_pct": 60,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность заметно выше 50% (~60%)",
+    "длина чуть больше лимита 8000 (8 081 знаков)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "spam_risk: 2 флагов (ngram3_repeat_share>0.035 (=0.049), lexical_diversity<0.58 (=0.566)), top-5: ['управляющий', 'дача', 'постройк', 'гараж', 'банкротств']"
+  ],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779832605/articles/dacha-garazh-zemelnyj-uchastok-bankrotstvo-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1779832605/articles/dacha-garazh-zemelnyj-uchastok-bankrotstvo-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Editorial photograph of a corner of a desk in a high-floor executive office. Foreground contains five carefully arranged objects: a closed thin laptop with brushed aluminum lid, a polished round company seal resting on a folded leather property deed folder, a sleek fountain pen beside a leather-bound notebook open to a blank page, a small framed succulent in a raw clay pot suggesting a garden or dacha, and a clear water glass half-full catching the window light. Background through floor-to-ceiling windows: blurred urban skyline at dusk with scattered warm city lights fading into low fog — evoking property and city ownership simultaneously. Camera: shallow depth of field, three-quarter angle, eye-level. Lighting: cool ambient daylight from the panoramic windows blended with warm tungsten interior fill. Materials: walnut desk surface, dark glass, polished steel. Mood: property owner at a crossroads, weighing the fate of real estate assets.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-05-26T21:56:47Z",
+  "date_published": "2026-05-27",
+  "date_modified": "2026-05-27",
+  "ready_for_review": true,
+  "ready_at": "2026-05-26T21:56:47Z",
+  "publication_target": "telegram_review"
+}

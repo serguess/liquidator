@@ -1734,6 +1734,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "dacha-garazh-zemelnyj-uchastok-bankrotstvo",
+      "category": "fiz",
+      "title": "Дача и гараж при банкротстве физлица: заберут или нет",
+      "added_at": "2026-05-27T00:56:47.107166",
+      "char_count": 8081,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779832605/articles/dacha-garazh-zemelnyj-uchastok-bankrotstvo-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
