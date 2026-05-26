@@ -1,0 +1,93 @@
+{
+  "slug": "bankrotstvo-akcionernogo-obshchestva-prava-akcionerov",
+  "category": "yur",
+  "title": "Права акционеров при банкротстве АО: что нужно знать",
+  "description": "Что теряют и что сохраняют акционеры при банкротстве акционерного общества: очередность выплат, представитель учредителей, субсидиарная ответственность крупных акционеров.",
+  "h1": "Что происходит с акционерами при банкротстве АО",
+  "lead": "Что именно теряет владелец бумаг при банкротстве акционерного общества, как выстроена очередь выплат и зачем нужен представитель учредителей.",
+  "topic_action": "защиту прав акционера при банкротстве АО",
+  "breadcrumb_current": "Права акционеров при банкротстве АО",
+  "og_image": "/assets/articles/bankrotstvo-akcionernogo-obshchestva-prava-akcionerov.jpg",
+  "main_keyword": "банкротство акционерного общества права акционеров",
+  "secondary_keywords": [
+    "что происходит с акциями при банкротстве АО",
+    "представитель учредителей при банкротстве",
+    "очередность выплат акционерам при банкротстве",
+    "субсидиарная ответственность акционера",
+    "права акционеров в конкурсном производстве",
+    "продажа акций при банкротстве АО",
+    "как защитить права акционера при банкротстве"
+  ],
+  "internal_links": [
+    "/articles/yur/zhaloba-na-arbitrazhnogo-upravljayushchego.html",
+    "/articles/yur/kontroliruyushchee-dolzhnika-lico-kdl.html",
+    "/articles/yur/dokazatelstva-dobrosovestnosti-direktora-subsidiarka.html",
+    "/articles/yur/osparivanie-sdelok-pri-bankrotstve.html"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/"
+  ],
+  "faq": [
+    {
+      "question": "Могут ли акционеры проводить собрания после начала банкротства АО?",
+      "answer": "Собрание может состояться - закон не запрещает голосование. Но перечень допустимых вопросов резко сужается: реорганизация, ликвидация, допэмиссия, распределение прибыли вне компетенции собрания в период наблюдения и конкурсного производства."
+    },
+    {
+      "question": "Какой пакет акций считается достаточным для привлечения к ответственности по долгам общества?",
+      "answer": "Более 50% голосующих - формальный критерий контролирующего лица. Миноритарий привлекается только при доказанном фактическом контроле. 10% - иной механизм, заинтересованное лицо."
+    },
+    {
+      "question": "Что происходит с акциями ПАО после того, как биржа проводит делистинг?",
+      "answer": "После делистинга бумаги перестают торговаться, но формально существуют в реестре владельцев. После ликвидации компании регистратор аннулирует все выпущенные акции."
+    },
+    {
+      "question": "Обязан ли акционер возвращать дивиденды, если управляющий оспорил их выплату?",
+      "answer": "Да. Если суд признал выплату недействительной, полученное возвращается в конкурсную массу. Аргумент «дивиденды объявили до банкротства» не работает: закон смотрит на дату возбуждения дела."
+    },
+    {
+      "question": "Чем представитель учредителей отличается от лица, участвующего в деле о банкротстве?",
+      "answer": "Лицо, участвующее в деле, - позиция по статье 34 закона о несостоятельности: максимальный объём прав. Уполномоченный от учредителей - участник арбитражного процесса по статье 35: знакомится с материалами, подаёт ходатайства, обжалует. На практике достаточно для контроля за ходом дела."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все юр-факты сверены с research.json: порог 2 млн руб. (f1), запрет дивидендов в наблюдении (f2, f12), 5% балансовых активов для крупных сделок (f2), прекращение полномочий директора в конкурсном производстве (f3), представитель учредителей по ст. 35 vs лицо в деле по ст. 34 (f4, f16), очерёдность ст. 134 и ликвидационный остаток ст. 148 (f5, f6), 70% выручки залоговому кредитору ст. 138 (f15), КДЛ при пакете >50% и срок 3 года ст. 61.10 (f7), субсидиарка ст. 61.11 и 61.12 (f8), три презумпции ст. 61.11 п. 2 (f9), сроки оспаривания 1/3 года и 6 мес/1 год ст. 61.2, 61.3 (f10), делистинг по регламентам биржи без прямой нормы 127-ФЗ (f11).",
+    "Заменено: 'Залоговые требователи' -> 'Залоговые кредиторы' (стандартный термин).",
+    "Внутренние ссылки проверены против published_index.json: все 4 цели существуют в категории yur.",
+    "Лимит цитирования закона: прямых цитат норм в blockquote нет; ст. 35 и ст. 61.10 даны ссылками с описанием - суммарно < 600 знаков."
+  ],
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "text_chars": 8011,
+  "length_status": "too_long",
+  "length_kind": "default",
+  "local_spam_top10_share": 0.087,
+  "local_spam_ngram3_repeat": 0.011,
+  "local_lexical_diversity": 0.627,
+  "local_ai_markers_density": 0.2,
+  "local_ai_markers_total": 2,
+  "local_ai_markers_critical": 0,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 3,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 4,
+  "predicted_spam_pct": 49,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "длина чуть больше лимита 8000 (8 011 знаков)"
+  ],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779780895/articles/bankrotstvo-akcionernogo-obshchestva-prava-akcionerov-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1779780895/articles/bankrotstvo-akcionernogo-obshchestva-prava-akcionerov-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Exterior photograph of a contemporary glass-and-stone corporate business building in heavy evening rain, shot from street level at a slight low-angle across a wet granite plaza. The glass façade reflects a distorted amber glow from oxidized brass-capped lampposts lining the entrance, streaks of rain catching the light. Foreground: a wide puddle mirrors the building upside-down in cool blue-grey ripples; on the wet stone steps a closed dark oxblood leather portfolio rests beside an antique brass padlock lying on the stone, a folded black umbrella leaning against the entry pillar. An oxidized brass plaque on the entry column bears no readable inscription. Background: distant faceless silhouettes with black umbrellas, far and blurred, beyond the rain curtain. Palette: deep cool blue-grey with restrained amber pin-points. Mood: contemporary corporate-legal drama, weight of institutional consequence.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-05-26T07:34:56Z",
+  "date_published": "2026-05-26",
+  "date_modified": "2026-05-26",
+  "ready_for_review": true,
+  "ready_at": "2026-05-26T07:34:56Z",
+  "publication_target": "telegram_review"
+}

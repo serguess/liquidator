@@ -1,0 +1,21 @@
+{
+  "slug": "bankrotstvo-akcionernogo-obshchestva-prava-akcionerov",
+  "passed": true,
+  "scores": {
+    "structure_overlap": 0.0,
+    "thesis_similarity": 0.0,
+    "cta_overlap": 0.0
+  },
+  "thresholds": {
+    "structure_overlap": 0.4,
+    "thesis_similarity": 0.3,
+    "cta_overlap": 0.2
+  },
+  "similar_articles": [],
+  "conflicts": [],
+  "recommendation": "ok",
+  "embedding_stored": true,
+  "embedding_status": "published=0 (awaiting real publication via bot/publisher.py)",
+  "peers_compared": 5,
+  "note": "No semantic duplicates detected. H2 structure is unique (0% overlap with existing articles in category and across all published articles)."
+}

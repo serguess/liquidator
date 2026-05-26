@@ -1656,6 +1656,19 @@
         "passed": false,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "bankrotstvo-akcionernogo-obshchestva-prava-akcionerov",
+      "category": "yur",
+      "title": "Права акционеров при банкротстве АО: что нужно знать",
+      "added_at": "2026-05-26T10:34:56.631793",
+      "char_count": 8011,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779780895/articles/bankrotstvo-akcionernogo-obshchestva-prava-akcionerov-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

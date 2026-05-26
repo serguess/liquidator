@@ -7662,5 +7662,64 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-05-26T07:36:26",
+    "category": "fiz",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 4,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "fiz-63",
+    "topic_slug": "povtornoe-bankrotstvo-fizlica-sroki-usloviya",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [
+        "spam_risk: 5 флагов (top3_sum>30 (=33), top10_sum>80 (=89), top10_share>0.115 (=0.132), ngram3_repeat_share>0.035 (=0.048), lexical_diversity<0.58 (=0.564)), top-5: ['производств', 'долг', 'гражданин', 'имуществ', 'подач']"
+      ],
+      "warnings": [
+        "Автофикс применил правки: сокращения=3, пунктуация=0",
+        "internal_links_autofixed: 4 ссылок (например /bankrotstvo-po-zayavleniyu-kreditora-fizlica.html→/articles/fiz/bankrotstvo-po-zayavleniyu-kreditora-fizlica; /kogda-dolgi-ne-spishut-pri-bankrotstve.html→/articles/fiz/kogda-dolgi-ne-spishut-pri-bankrotstve; /vnesudebnoe-bankrotstvo-cherez-mfc-2026.html→/articles/fiz/vnesudebnoe-bankrotstvo-cherez-mfc-2026)"
+      ],
+      "recommendations": [
+        "reduce_repetition: разбавить топ-5 частотных лемм местоимениями/перифразом — ['производств', 'долг', 'гражданин', 'имуществ', 'подач']"
+      ],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "povtornoe-bankrotstvo-fizlica-sroki-usloviya",
+    "duration_sec": 1727.0,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "vo-fizlica-sroki-usloviya/article.html`\n\n**Метрики quality_gate:**\n- Уникальность (uniqueness): passed ✓\n- Factcheck: passed ✓\n- AI-маркеры: 2 low-severity (в шаблонном подвале, не в теле статьи)\n- Антишаблонные фразы: 0 хитов ✓\n- Spam: мягкий блокер (top3_sum=33, lex_div=0.564) — автофикс применён, exit 0\n\n**Метрики text.ru:** не заполнены (измеряются при публикации)\n\n**Обложка:** сгенерирована, загружена на Cloudinary ✓\n**Статус:** `ready_for_review=true`, добавлена в очередь ревью (127 items)",
+    "stderr_tail": "",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7523
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]
