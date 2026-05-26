@@ -3705,6 +3705,27 @@
       "articles": [
         "poruchitelstvo-direktora-za-dolgi-kompanii-bankrotstvo"
       ]
+    },
+    {
+      "id": "vzysk-snyatie-aresta-imushchestva-cherez-sud",
+      "category": "vzysk",
+      "subtopic": "снятие и оспаривание ареста имущества через суд",
+      "intent": "informational",
+      "funnel_stage": "warm",
+      "main_keyword": "снятие ареста с имущества через суд",
+      "related_keywords": [
+        "как оспорить арест имущества",
+        "иск об освобождении имущества от ареста",
+        "жалоба на постановление пристава об аресте",
+        "снять арест с имущества должника",
+        "отмена ареста имущества судебными приставами",
+        "административный иск на действия пристава",
+        "ст 442 ГПК освобождение имущества от ареста",
+        "ст 360 КАС оспаривание пристава"
+      ],
+      "articles": [
+        "snyatie-aresta-s-imushchestva-cherez-sud"
+      ]
     }
   ]
 }

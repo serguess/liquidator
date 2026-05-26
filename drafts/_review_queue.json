@@ -1721,6 +1721,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "snyatie-aresta-s-imushchestva-cherez-sud",
+      "category": "vzysk",
+      "title": "Снятие ареста с имущества через суд",
+      "added_at": "2026-05-26T23:04:46.983792",
+      "char_count": 7474,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779825885/articles/snyatie-aresta-s-imushchestva-cherez-sud-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

@@ -7941,5 +7941,54 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-05-26T19:36:30",
+    "category": "yur",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "mode": "new",
+    "topic_id": "yur-58",
+    "topic_slug": "poruchitelstvo-direktora-za-dolgi-kompanii-bankrotstvo",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "Автофикс применил правки: сокращения=0, пунктуация=0",
+        "forced_pass_at_iter2: блокеры пропущены, статья идёт в TG-очередь с metrics_warning=true. Было: 1 блокеров — spam_risk"
+      ],
+      "recommendations": [
+        "reduce_repetition: разбавить топ-5 частотных лемм местоимениями/перифразом — ['фирм', 'поручительств', 'срок', 'директор', 'стать']"
+      ],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "poruchitelstvo-direktora-za-dolgi-kompanii-bankrotstvo",
+    "duration_sec": 2936.6,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "0.059, lex_div=0.56) |\n| **metrics_warning** | `true` — spam_risk (мягкий, порог iter=2) |\n| **Обложка** | сгенерирована, template #26 (лестница + документы) |\n| **Путь** | `drafts/poruchitelstvo-direktora-za-dolgi-kompanii-bankrotstvo/article.html` |\n\n**Метрики text.ru** (`textru_ai_detector`, `textru_uniqueness`, `textru_spam`): не заполнены — text.ru запускается отдельно после ревью заказчиком.\n\nСтатья добавлена в очередь ревью (`_review_queue.json`, item #132). Публикация через Telegram-бот.",
+    "stderr_tail": "",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7379
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]

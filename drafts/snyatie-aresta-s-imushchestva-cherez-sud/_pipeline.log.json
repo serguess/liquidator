@@ -1,0 +1,39 @@
+{
+  "slug": "snyatie-aresta-s-imushchestva-cherez-sud",
+  "category": null,
+  "started_at": "2026-05-26T22:55:51",
+  "finished_at": null,
+  "total_duration_sec": null,
+  "current_iteration": 2,
+  "events": [
+    {
+      "ts": "2026-05-26T22:55:51",
+      "agent": "4-writer",
+      "event": "iteration_returned",
+      "iteration": 2,
+      "reason": "spam_risk: топ-5 лемм (норм=13, пристав=13, обременен=11, снят=9, дней=8), top10_share=0.126>0.120",
+      "recommendation": "reduce_repetition: снизить норм и пристав до ≤9, обременен до ≤8, снят/дней до ≤6"
+    },
+    {
+      "ts": "2026-05-26T23:05:03",
+      "agent": "scheduler",
+      "event": "slot_started",
+      "iteration": 2,
+      "category": "vzysk",
+      "today_count": 9,
+      "limit": 10,
+      "write_article_duration_sec": 3892.0
+    },
+    {
+      "ts": "2026-05-26T23:05:03",
+      "agent": "quality_gate",
+      "event": "passed",
+      "iteration": 2,
+      "blockers": [],
+      "warnings": [
+        "spam_soft_passed: ratio-флаги мягкие при iter=3, targeted_tokens чистые → пропускаем (spam ≈48-52% по прогнозу)"
+      ],
+      "recommendations": []
+    }
+  ]
+}

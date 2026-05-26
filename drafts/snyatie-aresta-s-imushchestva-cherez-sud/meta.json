@@ -1,0 +1,98 @@
+{
+  "slug": "snyatie-aresta-s-imushchestva-cherez-sud",
+  "category": "vzysk",
+  "title": "Снятие ареста с имущества через суд",
+  "description": "Как снять арест с имущества через суд: иск по ст. 442 ГПК, административный иск по КАС, отмена обеспечения. Сроки, госпошлина, порядок.",
+  "h1": "Снятие ареста с имущества: три пути через суд",
+  "lead": "Закон даёт три разных пути отмены ареста: иск собственника, административное оспаривание постановления пристава и заявление об отмене обеспечительных мер. Разбираем сроки, пошлину и порядок.",
+  "topic_action": "снятие ареста с имущества",
+  "breadcrumb_current": "Снятие ареста через суд",
+  "og_image": "/assets/articles/snyatie-aresta-s-imushchestva-cherez-sud.jpg",
+  "main_keyword": "снятие ареста с имущества через суд",
+  "secondary_keywords": [
+    "как оспорить арест имущества",
+    "иск об освобождении имущества от ареста",
+    "жалоба на постановление пристава об аресте",
+    "снять арест с имущества должника",
+    "отмена ареста имущества судебными приставами",
+    "административный иск на действия пристава",
+    "ст 442 ГПК освобождение имущества от ареста"
+  ],
+  "internal_links": [
+    "/articles/vzysk/snyatie-aresta-so-scheta-pristavami",
+    "/articles/vzysk/obespechitelnye-mery-arest-scheta",
+    "/articles/vzysk/zhaloba-na-pristava-nezakonnye-dejstviya",
+    "/articles/vzysk/chto-takoe-ispolnitelnoe-proizvodstvo"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_188975/",
+    "https://www.consultant.ru/document/cons_doc_LAW_176147/"
+  ],
+  "faq": [
+    {
+      "question": "Сколько стоит подать иск об освобождении имущества от ареста?",
+      "answer": "Для физического лица - 300 рублей. Иск неимущественный, пошлина не считается от стоимости объекта."
+    },
+    {
+      "question": "Можно ли одновременно жаловаться старшему приставу и подавать иск в суд?",
+      "answer": "Да. Жалоба по 123-й статье закона об исполнительном производстве и иск в суд - независимые инструменты. Подача жалобы не прерывает 10-дневный срок обращения в суд."
+    },
+    {
+      "question": "Что делать, если ограничение не аннулировано после погашения долга?",
+      "answer": "После полного погашения исполнитель обязан окончить производство в течение 3 рабочих дней. Если этого не произошло - подать заявление об окончании и жалобу вышестоящему."
+    },
+    {
+      "question": "Распространяется ли иммунитет единственного жилья на запрет его продажи?",
+      "answer": "Нет. Иммунитет защищает от реализации в счёт долга. Отметка об ограничении в ЕГРН допустима. Реализация единственного жилья вне ипотеки - незаконна."
+    },
+    {
+      "question": "В какой суд идти, если обеспечение введено арбитражным судом?",
+      "answer": "В тот же арбитражный суд по 97-й статье арбитражного процессуального кодекса. Иск на действия пристава здесь неприменим."
+    },
+    {
+      "question": "Чем отличается административный иск от иска по 442-й статье процессуального кодекса?",
+      "answer": "Субъекты разные. Административный иск подаёт лицо, чьи права нарушены постановлением пристава. Иск по 442-й статье подаёт собственник, чья вещь попала в опись по ошибке. Путать инструменты - значит получить отказ в принятии."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все юр-утверждения сверены с research.json: ч. 1 ст. 80 ФЗ-229 (арест приставом), ч. 1 ст. 119 ФЗ-229 (защита прав третьих лиц), ст. 442 ГПК (иск собственника, ответчики - должник и взыскатель), подп. 3 п. 1 ст. 333.19 НК + п. 51 ПП ВС № 50 (госпошлина 300 руб), ст. 218-219, 360 КАС (административный иск, 10 дней), ст. 122-126 ФЗ-229 (жалоба старшему), ст. 144 ГПК / ст. 97 АПК (отмена обеспечения суда), ст. 446 ГПК (иммунитет единственного жилья), ПП ВС № 50 от 17.11.2015 (пп. 41, 43, 44, 51), ПП КС № 15-П от 26.04.2021 (роскошное жильё - ограничено банкротством), ст. 47 ФЗ-229 (3 рабочих дня на окончание ИП).",
+    "Позиция КС № 15-П по роскошному жилью корректно ограничена контекстом банкротства - в обычном ИП иммунитет полный.",
+    "Три процедуры (ст. 442 ГПК, КАС, ст. 144 ГПК/97 АПК) не смешаны - каждая привязана к своему субъекту и основанию.",
+    "Госпошлина 300 руб подана как неимущественная - per safe_phrasing, без процента от стоимости."
+  ],
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "text_chars": 7474,
+  "length_status": "ok",
+  "length_kind": "default",
+  "local_spam_top10_share": 0.117,
+  "local_spam_ngram3_repeat": 0.016,
+  "local_lexical_diversity": 0.576,
+  "local_ai_markers_density": 0.64,
+  "local_ai_markers_total": 6,
+  "local_ai_markers_critical": 0,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 5,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 3,
+  "predicted_spam_pct": 60,
+  "predicted_ai_pct": 5,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность заметно выше 50% (~60%)"
+  ],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779825885/articles/snyatie-aresta-s-imushchestva-cherez-sud-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1779825885/articles/snyatie-aresta-s-imushchestva-cherez-sud-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Editorial photograph of a polished dark walnut conference table stretching into the frame with a deliberately sparse arrangement — a closed oxblood leather portfolio centered on the near end, a fountain pen aligned parallel to its spine, a slender water carafe with two empty upturned glasses beside it, and a single tall-backed red leather chair visible at the far head of the table. Camera: symmetric down-the-table angle from a slight elevated three-quarter position, emphasizing the long empty expanse between the near objects and the distant chair. Background through floor-to-ceiling windows: cool overcast fog over a blurred city, heavy grey sky. Lighting: flat cool daylight from windows, restrained warm pendant glow from above, deep lateral shadows along the table edge. Palette: deep walnut, oxblood, cool grey. Mood: formal legal confrontation, the weight of a contested proceeding, gravitas before a ruling.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-05-26T20:04:46Z",
+  "date_published": "2026-05-26",
+  "date_modified": "2026-05-26",
+  "ready_for_review": true,
+  "ready_at": "2026-05-26T20:04:46Z",
+  "publication_target": "telegram_review"
+}
