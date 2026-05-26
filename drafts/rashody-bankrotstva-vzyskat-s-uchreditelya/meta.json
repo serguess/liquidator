@@ -1,0 +1,97 @@
+{
+  "slug": "rashody-bankrotstva-vzyskat-s-uchreditelya",
+  "category": "news",
+  "title": "Расходы на банкротство - теперь с учредителя",
+  "description": "Президиум ВС утвердил обзор от 29 апреля 2026: если у должника нет денег на процедуру, арбитражный управляющий взыщет расходы с учредителя по правилу о ликвидации из ГК.",
+  "h1": "Верховный суд разрешил взыскивать расходы на банкротство с учредителей должника",
+  "lead": "Президиум ВС утвердил обзор: при нехватке активов должника управляющий вправе требовать оплату процедуры с учредителей компании по правилу о ликвидации из гражданского кодекса.",
+  "topic_action": "анализ ситуации с расходами банкротства",
+  "breadcrumb_current": "Расходы на банкротство - с учредителя",
+  "og_image": "/assets/articles/rashody-bankrotstva-vzyskat-s-uchreditelya.jpg",
+  "main_keyword": "расходы на банкротство взыскание с учредителя",
+  "secondary_keywords": [
+    "расходы банкротства кто платит",
+    "взыскание с участника должника",
+    "финансирование процедуры банкротства",
+    "расходы арбитражного управляющего",
+    "пункт 2 статьи 62 ГК банкротство",
+    "управляющий взыскал расходы с учредителя",
+    "оплата процедуры банкротства участник ООО"
+  ],
+  "internal_links": [
+    "/rashody-na-bankrotstvo-yurlica.html",
+    "/kontroliruyushchee-dolzhnika-lico-kdl.html",
+    "/kak-podat-na-bankrotstvo-kontragenta.html"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/",
+    "https://www.consultant.ru/document/cons_doc_LAW_5142/"
+  ],
+  "faq": [
+    {
+      "question": "Распространяется ли позиция ВС на всех учредителей или только на инициаторов несостоятельности?",
+      "answer": "Правило о ликвидации говорит об учредителях юридического лица в целом, не только о тех, кто подал заявление. Если участников несколько, солидарная обязанность возлагается на всех. Конкретный круг лиц определяет управляющий."
+    },
+    {
+      "question": "Обязательно ли доказывать, что учредитель выводил активы из компании?",
+      "answer": "Нет. В этом и есть главное отличие от субсидиарной ответственности. Для взыскания затрат по правилу о ликвидации доказывать вывод активов или иные виновные действия не нужно. Достаточно нехватки конкурсной массы."
+    },
+    {
+      "question": "Сколько времени есть у управляющего, чтобы предъявить иск о возмещении издержек?",
+      "answer": "Иск предъявляется в ходе дела, как правило, после того как управляющий установит реальный объём затрат и нехватку средств должника. Точные сроки зависят от стадии и позиции суда. Этот вопрос стоит прорабатывать с юристом применительно к конкретному делу."
+    },
+    {
+      "question": "Что происходит, если у учредителей тоже нет денег и управляющий остаётся без оплаты?",
+      "answer": "Такой сценарий возможен. Обзор ВС создаёт правовую позицию, но не гарантирует взыскиваемость. Именно поэтому перед началом процедуры стоит оценить реальное финансовое положение собственников."
+    },
+    {
+      "question": "Может ли учредитель оспорить размер требования, если считает вознаграждение завышенным?",
+      "answer": "Может. Фиксированная ставка установлена законом: тридцать тысяч рублей в месяц для конкурсного управляющего. Но участник вправе заявить возражения, если считает, что затраты не подтверждены или выходят за разумный предел. Суд рассматривает такие доводы по делу."
+    }
+  ],
+  "keyword_density_main": 0.0029,
+  "main_keyword_exact_count": 1,
+  "text_chars": 7228,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все юр-факты сверены с research.json: f1-f11. legislation_status=active, last_verified=2026-05-26.",
+    "Обзор ВС от 29.04.2026 (п. 23) - упомянут как событие, прямые цитаты не приводятся.",
+    "Внутренние ссылки проверены в data/published_index.json: rashody-na-bankrotstvo-yurlica, kontroliruyushchee-dolzhnika-lico-kdl, kak-podat-na-bankrotstvo-kontragenta - все опубликованы.",
+    "Категория news: год не используется ни в title, ни в h1.",
+    "Формулировка 'правило о ликвидации' = п. 2 ст. 62 ГК (упомянут в полной форме в теле статьи при первом упоминании)."
+  ],
+  "length_status": "too_long",
+  "length_kind": "news",
+  "local_spam_top10_share": 0.108,
+  "local_spam_ngram3_repeat": 0.015,
+  "local_lexical_diversity": 0.604,
+  "local_ai_markers_density": 0.22,
+  "local_ai_markers_total": 2,
+  "local_ai_markers_critical": 0,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 2,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 5,
+  "predicted_spam_pct": 53,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность чуть выше 50% (~53%)",
+    "длина больше лимита 6800 (7 228 знаков)"
+  ],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779798026/articles/rashody-bankrotstva-vzyskat-s-uchreditelya-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1779798026/articles/rashody-bankrotstva-vzyskat-s-uchreditelya-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Editorial composition centering on time, process and accountability. Hero objects: a sand-filled brass hourglass mid-flow positioned slightly left of center, a stack of three closed dossiers tied with cord beneath it, a polished round company seal resting on the topmost dossier, an antique brass padlock with a short chain draped beside the stack, a fountain pen aligned diagonally in the foreground. Background: dark weathered slate surface fading into a near-black void with subtle warm rim-light tracing the edges of the brass objects. Camera: three-quarter angle, tabletop level, slight downward tilt. Lighting: focused directional spot from upper left creating dramatic long shadows, gold rim-light on brass hourglass and seal surfaces. Palette: deep charcoal, warm brass, oxblood leather cord accents on dossiers. Mood: deliberate procedural reckoning, passage of time against formal accountability.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-05-26T12:20:28Z",
+  "date_published": "2026-05-26",
+  "date_modified": "2026-05-26",
+  "ready_for_review": true,
+  "ready_at": "2026-05-26T12:20:28Z",
+  "publication_target": "telegram_review"
+}
