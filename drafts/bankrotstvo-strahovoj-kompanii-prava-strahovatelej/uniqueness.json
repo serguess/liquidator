@@ -1,0 +1,25 @@
+{
+  "slug": "bankrotstvo-strahovoj-kompanii-prava-strahovatelej",
+  "passed": true,
+  "scores": {
+    "structure_overlap": 0.0,
+    "thesis_similarity": 0.0,
+    "cta_overlap": 0.0
+  },
+  "thresholds": {
+    "structure_overlap": 0.4,
+    "thesis_similarity": 0.3,
+    "cta_overlap": 0.2
+  },
+  "similar_articles": [],
+  "conflicts": [],
+  "recommendation": "ok",
+  "metadata": {
+    "peers_compared": 5,
+    "closest_peer": null,
+    "category": "yur",
+    "article_type": "unknown",
+    "article_id": 112,
+    "note": "Статья в категории 'yur', опубликованные статьи в базе только в 'vzysk' - категории не пересекаются. Эмбеддинговые метрики все нулевые (нет похожих статей). Статья пройдена на уникальность, вектор записан в БД с флагом published=0."
+  }
+}

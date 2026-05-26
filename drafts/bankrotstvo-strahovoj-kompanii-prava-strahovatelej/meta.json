@@ -1,0 +1,107 @@
+{
+  "slug": "bankrotstvo-strahovoj-kompanii-prava-strahovatelej",
+  "category": "yur",
+  "title": "Банкротство страховой: права страхователей и выплаты",
+  "description": "Страховая компания признана банкротом - что делать клиенту. Как попасть в реестр кредиторов, получить выплаты по ОСАГО через РСА и вернуть премию.",
+  "h1": "Банкротство страховой компании: что делать страхователю и как получить выплаты",
+  "lead": "Страховая компания признана банкротом, полис оплачен, а получить выплату негде. Разбираем маршрут по ОСАГО через РСА, реестр кредиторов по добровольным видам и роль АСВ.",
+  "topic_action": "разбор ситуации со страховой компанией-банкротом",
+  "breadcrumb_current": "Банкротство страховой компании",
+  "og_image": "/assets/articles/bankrotstvo-strahovoj-kompanii-prava-strahovatelej.jpg",
+  "main_keyword": "банкротство страховой компании",
+  "secondary_keywords": [
+    "что делать если страховая компания обанкротилась",
+    "как попасть в реестр кредиторов при банкротстве страховщика",
+    "выплаты по ОСАГО при банкротстве страховой компании",
+    "РСА компенсационные выплаты банкротство страховщика",
+    "АСВ банкротство страховой организации",
+    "передача страхового портфеля при банкротстве",
+    "очередность требований страхователей при банкротстве"
+  ],
+  "author": "ООО «ЛИКВИДАТОР»",
+  "internal_links": [
+    "/articles/yur/bankrotstvo-zastrojshchika-chto-delat-dolshchiku",
+    "/articles/yur/osparivanie-trebovanij-v-reestre-kreditorov"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/"
+  ],
+  "faq": [
+    {
+      "question": "Действует ли мой полис, пока идёт временная администрация?",
+      "answer": "Временная администрация - ещё не банкротство. Если лицензия действует, соглашение формально в силе. Но ситуация нестабильная: отзыв лицензии может последовать через несколько недель, и именно с этого момента полисы прекращаются."
+    },
+    {
+      "question": "Можно ли получить деньги по ОСАГО, если страховой случай наступил после отзыва лицензии?",
+      "answer": "Страховой случай до отзыва - потерпевший идёт в РСА. Если ДТП произошло после отзыва - соглашение уже прекращено. Виновник несёт ответственность сам, возмещение взыскивается с него в судебном порядке."
+    },
+    {
+      "question": "Что происходит с уже вынесенным судебным решением о взыскании со страховщика-банкрота?",
+      "answer": "Судебный акт сохраняет силу. Принудительное взыскание недоступно. Исполнительный лист нужно предъявить АСВ для включения суммы в перечень требований кредиторов."
+    },
+    {
+      "question": "Обязательно ли нанимать юриста для включения в реестр?",
+      "answer": "Формально нет. По нашей практике, клиенты с ошибками в заявлении теряли позицию в очереди или получали отказ в приобщении требования."
+    },
+    {
+      "question": "Распространяется ли механизм РСА на КАСКО и ДМС?",
+      "answer": "Нет. РСА компенсирует только по ОСАГО и отдельным обязательным видам. КАСКО и ДМС - это реестр кредиторов в деле о несостоятельности."
+    },
+    {
+      "question": "До какого момента можно подать требование в реестр кредиторов?",
+      "answer": "Общее правило - два месяца с даты публикации о признании несостоятельным. После закрытия поздние требования удовлетворяются последними."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Ст. 184.5 127-ФЗ (передача страхового портфеля) - корректно (f9, last_verified 2026-05-26, active)",
+    "Ст. 184.1 127-ФЗ (АСВ как конкурсный управляющий страховщиков) - корректно (f3, active)",
+    "Разграничение ССВ (ФЗ-177, 1,4 млн руб. для банковских вкладов) и роли АСВ как КУ страховщиков - корректно (f4, active)",
+    "Ст. 183.1 127-ФЗ (временная администрация Банком России) - корректно (f14, active)",
+    "Ст. 18 ФЗ-40 от 25.04.2002 (компенсационная выплата РСА при банкротстве страховщика) - корректно (f6, active); URL ФЗ-40 не верифицирован по whitelist, текстовое упоминание",
+    "Лимиты ОСАГО 500 000 / 400 000 рублей (ст. 7 ФЗ-40, ред. с 01.10.2014) - корректно (f7, active)",
+    "Ст. 19 ФЗ-40 (досудебное обращение в РСА, исковая давность 3 года) - корректно (f12, active)",
+    "Ст. 184.4 127-ФЗ (очерёдность страхователей: личное страхование - приоритет) - использована обтекаемая формулировка без точной нумерации очередей (f5, legislation_status: needs_verification, fact_gap зафиксирован)",
+    "Срок 2 месяца (ст. 142 127-ФЗ) с оговоркой «как правило» и «АСВ указывает конкретный срок» - корректно (f8, needs_verification по взаимодействию со ст. 183.26, обтекаемая формулировка применена)",
+    "Ст. 32.8 Закона 4015-1 (прекращение договоров при отзыве лицензии, возврат премии) - корректно (f15, active)",
+    "Ст. 126 127-ФЗ (после открытия конкурсного производства взыскание только через дело) - корректно (f13, active)",
+    "НССО для ОСГОП (ФЗ-67) - упомянуто концептуально без точных статей (f17, needs_verification)",
+    "Запрещённое утверждение «АСВ выплачивает страхователям из ССВ» - явно опровергнуто в тексте (раздел про АСВ + Ловушка 1)",
+    "По ОСАГО прямо указано: в реестр включаться не нужно (профилактика частой ошибки)",
+    "Итерация 2: перифраз для снижения заспама (договоры→соглашения/полисы, компания→организация/сторона, банкрот→несостоятельный). Юридические термины (страховой портфель, страховщик, конкурсное производство) сохранены."
+  ],
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "text_chars": 7609,
+  "length_status": "warn",
+  "length_kind": "default",
+  "local_spam_top10_share": 0.109,
+  "local_spam_ngram3_repeat": 0.035,
+  "local_lexical_diversity": 0.575,
+  "local_ai_markers_density": 0.21,
+  "local_ai_markers_total": 2,
+  "local_ai_markers_critical": 0,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 3,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 3,
+  "predicted_spam_pct": 58,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность заметно выше 50% (~58%)"
+  ],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779755598/articles/bankrotstvo-strahovoj-kompanii-prava-strahovatelej-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1779755598/articles/bankrotstvo-strahovoj-kompanii-prava-strahovatelej-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Close-to-medium architectural photograph of a massive stone government building, focusing on the geometric repetition of tall limestone columns and the dramatic play of hard side-light revealing every chisel mark and deep cast shadow. Camera: extreme low-angle looking up the colonnade, emphasizing the crushing permanence of the structure. Lighting: raking morning sunlight cutting across the sandstone facade, warm amber stone against cool blue-grey shadow pools in the recesses. Palette: warm sandstone, cool grey shadow, a hint of moss in the carved cornice cracks. At the very base of the frame on the wide stone steps: a closed oxblood leather portfolio resting flat, a neatly bound stack of closed dossiers tied with dark cord, and a small antique brass padlock placed beside them. Mood: weight, permanence, immutable authority — the formal threshold a claimant must cross to reach the creditor registry.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-05-26T00:33:19Z",
+  "date_published": "2026-05-26",
+  "date_modified": "2026-05-26",
+  "ready_for_review": true,
+  "ready_at": "2026-05-26T00:33:19Z",
+  "publication_target": "telegram_review"
+}

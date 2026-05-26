@@ -1,0 +1,39 @@
+{
+  "slug": "bankrotstvo-strahovoj-kompanii-prava-strahovatelej",
+  "category": null,
+  "started_at": "2026-05-26T03:25:10",
+  "finished_at": null,
+  "total_duration_sec": null,
+  "current_iteration": 2,
+  "events": [
+    {
+      "ts": "2026-05-26T03:25:10",
+      "agent": "4-writer",
+      "event": "iteration_returned",
+      "iteration": 2,
+      "reason": "spam_risk: top10=0.119, ngram3=0.038, lex_div=0.566",
+      "recommendation": "reduce_repetition: банкрот(11), страхов(10), осаг(9), компан(8), договор(8) — снизить каждую на 30%+ через перифразы"
+    },
+    {
+      "ts": "2026-05-26T03:33:33",
+      "agent": "scheduler",
+      "event": "slot_started",
+      "iteration": 2,
+      "category": "yur",
+      "today_count": 1,
+      "limit": 10,
+      "write_article_duration_sec": 2695.8
+    },
+    {
+      "ts": "2026-05-26T03:33:33",
+      "agent": "quality_gate",
+      "event": "passed",
+      "iteration": 2,
+      "blockers": [],
+      "warnings": [
+        "spam_soft_passed: ratio-флаги мягкие при iter=3, targeted_tokens чистые → пропускаем (spam ≈48-52% по прогнозу)"
+      ],
+      "recommendations": []
+    }
+  ]
+}
