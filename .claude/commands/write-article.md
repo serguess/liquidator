@@ -73,16 +73,16 @@ slug ещё неизвестен на агенте 1 до создания brief
     - 1 — отсутствуют обязательные поля meta.json (slug, category, title, description, h1, topic_action) — возврат на агента 6 с пометкой какие поля дозаполнить.
     - 2 — нет body.html — возврат на агента 6, что-то пошло не так.
     Идеально агент 6 сам зовёт этот скрипт в финале своей работы — тогда мы экономим один re-invocation.
-7. **Обязательный шаг: quality_gate.** Запусти `.venv/bin/python -m tools.quality_gate drafts/{slug}/article.html --json --save-report`. Если exit ≠ 0 — читай `drafts/{slug}/quality_gate.json`, поле `recommendations`, и возвращай на агента 4 с конкретной пометкой. **Максимум 1 итерация возврата** (раньше было 5). На 3-й итерации writer'а (учитывая возвраты от 5/6) gate сам делает **forced_pass с `metrics_warning=true`** — статья всё равно идёт в TG-очередь.
+7. **Обязательный шаг: quality_gate.** Запусти `.venv/bin/python -m tools.quality_gate drafts/{slug}/article.html --json --save-report`. Если exit ≠ 0 — читай `drafts/{slug}/quality_gate.json`, поле `recommendations`, и возвращай на агента 4 с конкретной пометкой. **Максимум 1 итерация возврата**. На 2-й итерации writer'а (учитывая возвраты от 5/6) gate сам делает **forced_pass с `metrics_warning=true`** — статья всё равно идёт в TG-очередь.
 
-   **Глобальный cap итераций writer'а = 3** (изменено 13 мая 2026 с 5). Это сумма всех возвратов: от агента 5 + от агента 6 + от quality_gate.
+   **Глобальный cap итераций writer'а = 2** (изменено 26 мая 2026 с 3). Это сумма всех возвратов: от агента 5 + от агента 6 + от quality_gate. Анализ показал что 3-я итерация не улучшает метрики, статья всё равно идёт в forced_pass.
 
    **Приоритет блокеров (после 13 мая 2026):**
    - **Hard на любой итерации:** `targeted_tokens_over_limit` (ст/РФ/руб/ООО/X000руб), `author_markers_missing`, `too_few_short_sentences`, `too_many_long_sentences`, `anti_template_phrases`, `ai_markers_critical`, `ai_markers_density`, `ai_markers_high`, `first_person_singular`, `law_quotes_too_long`, `abbreviations_after_autofix`, `punctuation_after_autofix`.
    - **Soft с iteration ≥ 2:**
      - `length_too_long` → warning, если text_chars ≤ 8500 (default) / 7500 (news).
      - `spam_risk` → warning, если все 3 ratio-метрики в коридоре (top1≤14, top10≤0.120, ngram3≤0.040, lex_div≥0.55) И targeted_tokens чистые.
-   - **Force-pass на iter=3:** все оставшиеся блокеры пропускаются, в meta.json пишется `metrics_warning=true` + `metrics_warning_blockers`. Статья идёт в очередь.
+   - **Force-pass на iter=2:** все оставшиеся блокеры пропускаются, в meta.json пишется `metrics_warning=true` + `metrics_warning_blockers`. Статья идёт в очередь.
 
    **Счётчик итераций** хранится в `quality_gate.json:retry_count` — gate инкрементирует его при каждом запуске.
 7b. **Выбор шаблона обложки (детерминированно, ПЕРЕД агентом 7):**
