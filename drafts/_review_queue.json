@@ -1669,6 +1669,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "protsenty-stat-395-gk-vzyskanie",
+      "category": "vzysk",
+      "title": "Взыскание процентов по ст. 395 ГК за просрочку оплаты",
+      "added_at": "2026-05-26T13:02:06.758990",
+      "char_count": 7215,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779789725/articles/protsenty-stat-395-gk-vzyskanie-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

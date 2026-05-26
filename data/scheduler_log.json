@@ -7721,5 +7721,60 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-05-26T10:00:09",
+    "category": "yur",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 5,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "yur-57",
+    "topic_slug": "bankrotstvo-akcionernogo-obshchestva-prava-akcionerov",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "internal_links_autofixed: 4 ссылок (например /articles/yur/zhaloba-na-arbitrazhnogo-upravljayushchego.html→/articles/yur/zhaloba-na-arbitrazhnogo-upravljayushchego; /articles/yur/kontroliruyushchee-dolzhnika-lico-kdl.html→/articles/yur/kontroliruyushchee-dolzhnika-lico-kdl; /articles/yur/dokazatelstva-dobrosovestnosti-direktora-subsidiarka.html→/articles/yur/dokazatelstva-dobrosovestnosti-direktora-subsidiarka)",
+        "length_soft_passed: 8011 > 8000 но ≤ 8500 и iteration=4 — пропускаем (приоритет spam/uniqueness/ai)"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "bankrotstvo-akcionernogo-obshchestva-prava-akcionerov",
+    "duration_sec": 2107.3,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "в) |\n| **Uniqueness (агент 5)** | passed ✓ |\n| **Factcheck** | passed ✓ |\n| **Обложка** | сгенерирована, загружена на Cloudinary |\n| **Режим** | `ready_for_review=true`, ожидает публикации через TG-бот |\n| **Файл** | `drafts/bankrotstvo-akcionernogo-obshchestva-prava-akcionerov/article.html` |\n\n**Метрики text.ru:** `textru_ai_detector`, `textru_uniqueness`, `textru_spam` — не заполнены (проверка на text.ru не запускалась в этом конвейере, агент 6 дал прогноз: spam ≈49%, AI ≈3%, uniqueness ≈87%).",
+    "stderr_tail": "",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 8011
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]

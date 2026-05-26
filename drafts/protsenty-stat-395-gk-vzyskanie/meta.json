@@ -1,0 +1,104 @@
+{
+  "slug": "protsenty-stat-395-gk-vzyskanie",
+  "category": "vzysk",
+  "title": "Взыскание процентов по ст. 395 ГК за просрочку оплаты",
+  "description": "Как взыскать проценты за пользование чужими деньгами по ст. 395 ГК РФ: формула расчёта по ключевой ставке, претензия, исковое заявление, снижение судом.",
+  "h1": "Взыскание процентов по ст. 395 ГК: за сколько дней просрочки и как рассчитать",
+  "lead": "Контрагент задержал оплату — закон даёт право взыскать денежную компенсацию за каждый день удержания чужих денег по ключевой ставке Банка России. Разбираем формулу, претензионный порядок и пределы, которые суд применит без вашей просьбы.",
+  "topic_action": "взыскание процентов за просрочку оплаты",
+  "breadcrumb_current": "Взыскание процентов по ст. 395 ГК",
+  "og_image": "/assets/articles/protsenty-stat-395-gk-vzyskanie.jpg",
+  "main_keyword": "взыскание процентов по статье 395 ГК РФ",
+  "secondary_keywords": [
+    "проценты за пользование чужими денежными средствами",
+    "расчёт процентов по 395 ГК",
+    "395 ГК просрочка оплаты",
+    "проценты по ключевой ставке взыскание",
+    "претензия по статье 395 ГК",
+    "исковое заявление проценты 395 ГК",
+    "снижение процентов по 395 ГК судом",
+    "когда нельзя взыскать проценты по 395 ГК"
+  ],
+  "internal_links": [
+    "/articles/vzysk/dosudebnaya-pretenziya-obrazec",
+    "/articles/vzysk/isk-o-vzyskanii-dolga-v-sud",
+    "/articles/vzysk/indeksaciya-prisuzhdyonnyh-summ"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_5142/"
+  ],
+  "faq": [
+    {
+      "question": "Считается ли просрочка с первого дня неплатежа или со следующего?",
+      "answer": "Со следующего. Если оплата должна была поступить 15-го числа, первый день просрочки — 16-е. День зачисления денег на счёт получателя не включается — пункты 39 и 48 Постановления Пленума ВС от 24 марта 2016 года № 7."
+    },
+    {
+      "question": "Можно ли взыскать и договорную неустойку, и законные начисления по ст. 395 одновременно?",
+      "answer": "По общему правилу нельзя. Четвёртый пункт той же нормы устанавливает: если контракт предусматривает пеню за задержку, законные начисления за пользование чужими средствами не взыскиваются. Исключение — соглашение или закон явно разрешают оба инструмента."
+    },
+    {
+      "question": "Вправе ли суд снизить сумму по ст. 395 так же, как снижает неустойку по ст. 333?",
+      "answer": "Нет. Пункт 48 Постановления Пленума ВС от 24 марта 2016 года № 7 прямо это запрещает. Это законодательный минимум ответственности. Ходатайство о снижении суд отклонит."
+    },
+    {
+      "question": "Сколько лет назад начавшуюся просрочку ещё можно предъявить?",
+      "answer": "Три года — общий срок давности. По каждому дню начислений он течёт отдельно. Взыскатель получит только то, что попало в трёхлетнее окно до подачи иска. Пропущен срок по основному долгу — он пропущен и по дополнительным требованиям."
+    },
+    {
+      "question": "Обязательно ли сначала направлять претензию, если должник — физическое лицо?",
+      "answer": "Закон обязательный досудебный порядок для граждан в данной категории споров не устанавливает. Если в соглашении нет такого условия — можно сразу в разбирательство. Но претензия фиксирует дату требования."
+    },
+    {
+      "question": "Что выгоднее взыскать, если в контракте прописана пеня 0,05% в день?",
+      "answer": "Пеня 0,05% в день — это 18,25% годовых. Если ключевая ставка выше, истребование по 395-й норме принесёт больше. Если ниже — берите договорную пеню. Выбрать одно основание нужно до претензии. Актуальная ставка — на cbr.ru."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все юр-утверждения сверены с research.json (f1-f14). Пункт 1 ст. 395 (законные проценты по ключевой ставке ЦБ) — ред. ФЗ-315 от 03.07.2016. Пункт 2 ст. 395 (убытки сверх процентов). Пункт 4 ст. 395 (запрет одновременного взыскания неустойки и процентов). Пункт 5 ст. 395 (запрет сложных процентов, ред. ФЗ-42 от 08.03.2015). Постановление Пленума ВС от 24.03.2016 № 7 (п. 39, 48 — день поступления денег не включается; запрет снижения по ст. 333). Ст. 196, 207 ГК (давность 3 года, отдельно по каждому периоду). Ч. 5 ст. 4 АПК (30 дней претензии). Ст. 229.2 АПК и ст. 122 ГПК (приказное производство до 500 тыс. руб.).",
+    "Конкретное значение ключевой ставки ЦБ не указано — обтекаемо «актуальное значение на cbr.ru» (research f3, fact_gap по ставке). Шкала госпошлины — обтекаемо «по шкале нормы 333.21 НК с учётом скорректировки 08.09.2024» (research f13).",
+    "URL consultant.ru/cons_doc_LAW_5142 (ГК РФ) есть в whitelist — даны 2 гиперссылки (в lead и в FAQ). Постановления Пленума ВС № 7 и № 43 — текстовые упоминания без гиперссылок (URL не в whitelist, см. fact_gaps в research.json).",
+    "Лимит цитирования закона: прямых цитат нет, везде пересказ."
+  ],
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "text_chars": 7215,
+  "length_status": "ok",
+  "length_kind": "default",
+  "local_spam_top10_share": 0.129,
+  "local_spam_ngram3_repeat": 0.091,
+  "local_lexical_diversity": 0.576,
+  "local_ai_markers_density": 0.32,
+  "local_ai_markers_total": 3,
+  "local_ai_markers_critical": 1,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 3,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 5,
+  "predicted_spam_pct": 62,
+  "predicted_ai_pct": 35,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность заметно выше 50% (~62%)",
+    "AI-detector значительно выше 10% (~35%)",
+    "найдены критические маркеры ИИ-стиля: Длинное тире (—) - могут поднять AI-detector text.ru"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "spam_risk: 6 флагов (top1_count>12 (=15, лемма «норм»), top3_sum>30 (=36), top10_sum>80 (=88), top10_share>0.115 (=0.129), ngram3_repeat_share>0.035 (=0.091), lexical_diversity<0.58 (=0.576)), top-5: ['норм', 'день', 'ставк', 'пункт', 'начислен']",
+    "ai_markers_critical: 1 (Длинное тире (—))"
+  ],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779789725/articles/protsenty-stat-395-gk-vzyskanie-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1779789725/articles/protsenty-stat-395-gk-vzyskanie-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Minimalist top-down flat-lay on a clean polished walnut surface with deliberate negative space. Four well-spaced objects: a small brass scales of justice with empty balanced pans placed slightly left of center, a closed dark leather portfolio with a fountain pen laid diagonally across its cover, a polished round brass seal resting to the right, and a single antique brass key on a small ring at the far edge. Camera: directly overhead. Lighting: soft even cool daylight from a high window, very subtle directional shadow falling to the lower right. Palette: pale warm neutrals, deep walnut grain, warm brass accents. Mood: clean contemporary legal magazine, precise and authoritative.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-05-26T10:02:06Z",
+  "date_published": "2026-05-26",
+  "date_modified": "2026-05-26",
+  "ready_for_review": true,
+  "ready_at": "2026-05-26T10:02:06Z",
+  "publication_target": "telegram_review"
+}

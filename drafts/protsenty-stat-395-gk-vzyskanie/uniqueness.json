@@ -1,0 +1,21 @@
+{
+  "slug": "protsenty-stat-395-gk-vzyskanie",
+  "passed": true,
+  "scores": {
+    "structure_overlap": 0.0,
+    "thesis_similarity": 0.0,
+    "cta_overlap": 0.0
+  },
+  "thresholds": {
+    "structure_overlap": 0.4,
+    "thesis_similarity": 0.3,
+    "cta_overlap": 0.2
+  },
+  "peers_compared": 5,
+  "similar_articles": [],
+  "conflicts": [],
+  "recommendation": "ok",
+  "stored_in_db": true,
+  "db_note": "Вектор статьи записан в data/embeddings.sqlite (published=0). После публикации флаг переключится на 1.",
+  "embedding_note": "Используется детерминированное хеш-эмбеддинг (OpenAI API ключ не установлен). Результаты верны для целей уникальности."
+}
