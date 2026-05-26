@@ -7835,5 +7835,60 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-05-26T14:48:16",
+    "category": "news",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 7,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "news-25",
+    "topic_slug": "rashody-bankrotstva-vzyskat-s-uchreditelya",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "internal_links_autofixed: 3 ссылок (например /rashody-na-bankrotstvo-yurlica.html→/articles/yur/rashody-na-bankrotstvo-yurlica; /kontroliruyushchee-dolzhnika-lico-kdl.html→/articles/yur/kontroliruyushchee-dolzhnika-lico-kdl; /kak-podat-na-bankrotstvo-kontragenta.html→/articles/yur/kak-podat-na-bankrotstvo-kontragenta)",
+        "length_soft_passed: 7228 > 6800 но ≤ 7500 и iteration=5 — пропускаем (приоритет spam/uniqueness/ai)"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "rashody-bankrotstva-vzyskat-s-uchreditelya",
+    "duration_sec": 1951.4,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "к warning)\n- **Quality gate:** passed (exit 0, blockers: 0)\n- **Uniqueness:** passed\n- **Factcheck:** passed\n- **AI-маркеры:** critical=0, high=0, density=0.22/1000\n- **Спам:** ~53% (advisory, не блокер)\n- **Обложка:** сгенерирована (template 22 — hourglass + dossiers + seal, formal accountability)\n- **Готовность:** `ready_for_review=true`, добавлена в TG-очередь\n\n**Метрики text.ru:** не проверялись автоматически (`textru_*: null`) — проверка через text.ru происходит вручную или отдельным шагом.",
+    "stderr_tail": "",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7228
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]

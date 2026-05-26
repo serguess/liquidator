@@ -1,0 +1,18 @@
+{
+  "slug": "pensiya-pri-bankrotstve-fizlica",
+  "passed": true,
+  "scores": {
+    "structure_overlap": 0.0,
+    "thesis_similarity": 0.0,
+    "cta_overlap": 0.0
+  },
+  "similar_articles": [],
+  "conflicts": [],
+  "recommendation": "ok",
+  "note": "На текущем этапе разработки в базе нет опубликованных статей для сравнения. Эмбеддинг новой статьи записан в data/embeddings.sqlite (published=0). При появлении опубликованных статей в категории 'fiz' типа 'article' будут проведены полные проверки уникальности.",
+  "checks_performed": {
+    "structure_overlap": "пересечение H2-заголовков с опубликованными статьями (порог: < 40%)",
+    "thesis_similarity": "семантическое сходство блоков через эмбеддинги (порог: < 30%)",
+    "cta_overlap": "сходство финальных абзацев/CTA-формулировок (порог: < 20%)"
+  }
+}

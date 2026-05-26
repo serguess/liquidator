@@ -1695,6 +1695,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "pensiya-pri-bankrotstve-fizlica",
+      "category": "fiz",
+      "title": "Пенсия при банкротстве: сколько денег оставят",
+      "added_at": "2026-05-26T17:49:37.134409",
+      "char_count": 7366,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779806976/articles/pensiya-pri-bankrotstve-fizlica-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": false,
+        "hard_failed": false
+      }
     }
   ]
 }

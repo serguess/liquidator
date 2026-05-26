@@ -1,0 +1,109 @@
+{
+  "slug": "pensiya-pri-bankrotstve-fizlica",
+  "category": "fiz",
+  "title": "Пенсия при банкротстве: сколько денег оставят",
+  "description": "Пенсия входит в конкурсную массу, но управляющий обязан оставлять прожиточный минимум. Разбираем, сколько удержат, как исключить больше и что защищено законом.",
+  "h1": "Пенсия при банкротстве физлица: сколько остаётся на руках",
+  "lead": "Пенсия попадает на спецсчёт финансового управляющего, но прожиточный минимум можно отвоевать ходатайством — а пенсия по потере кормильца защищена законом и не входит в конкурсную массу.",
+  "topic_action": "проверку пенсии в конкурсной массе",
+  "breadcrumb_current": "Пенсия при банкротстве физлица",
+  "og_image": "/assets/articles/pensiya-pri-bankrotstve-fizlica.jpg",
+  "main_keyword": "пенсия при банкротстве физлица",
+  "secondary_keywords": [
+    "сколько пенсии остается при банкротстве",
+    "пенсия в конкурсной массе",
+    "прожиточный минимум пенсионера при банкротстве",
+    "как получить пенсию при банкротстве",
+    "удержание с пенсии при банкротстве",
+    "исключить пенсию из конкурсной массы",
+    "пенсия по потере кормильца при банкротстве",
+    "прожиточный минимум при банкротстве"
+  ],
+  "internal_links": [
+    "/articles/vzysk/viplaty-zashchishchennye-ot-vzyskaniya.html",
+    "/articles/fiz/bankovskie-scheta-pri-bankrotstve.html",
+    "/articles/fiz/dohody-vo-vremya-bankrotstva-fizlica.html",
+    "/articles/fiz/bankrotstvo-invalida-lgoty-pensiya.html"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/"
+  ],
+  "faq": [
+    {
+      "question": "Выплата по потере кормильца точно не попадёт в конкурсную массу?",
+      "answer": "Не попадёт. Этот вид дохода входит в перечень защищённых выплат по статье 101 закона № 229-ФЗ. Арбитражный управляющий не вправе аккумулировать такие деньги на спецсчёте — они продолжают поступать напрямую."
+    },
+    {
+      "question": "Что происходит с доходом до того, как суд вынесет определение об исключении?",
+      "answer": "Всё поступившее на спецсчёт до вынесения определения формально входит в конкурсную массу. Обращение нужно подавать как можно раньше — в идеале одновременно с первыми процессуальными действиями."
+    },
+    {
+      "question": "Обязательно ли подавать ходатайство или управляющий оставляет прожиточный минимум сам?",
+      "answer": "Подавать обязательно. Автоматического исключения нет. Без определения суда нет основания ежемесячно возвращать часть суммы."
+    },
+    {
+      "question": "Можно ли дополнительно исключить деньги на дорогостоящие лекарства?",
+      "answer": "Можно просить — но не гарантированно получить. Арбитраж вправе удовлетворить такое обращение по норме о нормальном существовании. Нужны рецепты, медицинские заключения, расчёт расходов. Без документов не пройдёт."
+    },
+    {
+      "question": "Накопительная часть в НПФ — её тоже заберут?",
+      "answer": "Вопрос дискуссионный. Часть инстанций включает накопления в конкурсную массу, часть — нет. Специального иммунитета закон не содержит. Перед подачей заявления этот момент стоит проработать отдельно."
+    },
+    {
+      "question": "Если на моём содержании нетрудоспособный супруг — сколько в итоге оставят?",
+      "answer": "Прожиточный минимум исключается на каждого иждивенца. Подтвердите факт иждивения документально. Арбитраж удовлетворит ходатайство — и назначенный специалист будет ежемесячно возвращать двойную сумму."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все 15 фактов research.json сверены, last_verified 2026-05-26, legislation_status active (f4, f9 — needs_verification, в тексте использованы безопасные формулировки).",
+    "Денежный иммунитет ПМ по п. 3 ст. 213.25 + абз. 8 ч. 1 ст. 446 ГПК — соответствует f2 (ред. ФЗ-334 от 29.06.2021).",
+    "Пенсия по потере кормильца — защита по ст. 101 закона № 229-ФЗ соответствует f5 (без номера конкретного пункта, как требует review_note).",
+    "Размер ПМ для пенсионеров не указан конкретной цифрой — используется обтекаемая формулировка (f4 fact_gap, нет надёжного источника).",
+    "Накопительная пенсия описана как contested-вопрос без однозначного вывода (f9, contested=true).",
+    "Приостановление удержаний приставов — с введения реструктуризации, прекращение с реализации (f14, исправление review_note).",
+    "Конкретные определения ВС не указаны (fact_gap по судебным актам, fallback на общие нормы).",
+    "Из запрещённых утверждений в тексте нет: 'гарантированно списываются', '300 руб пошлины', 'пенсия по инвалидности защищена полностью', 'приставы прекращают удержания с подачи заявления'."
+  ],
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "text_chars": 7366,
+  "length_status": "ok",
+  "length_kind": "default",
+  "local_spam_top10_share": 0.122,
+  "local_spam_ngram3_repeat": 0.029,
+  "local_lexical_diversity": 0.589,
+  "local_ai_markers_density": 0.54,
+  "local_ai_markers_total": 5,
+  "local_ai_markers_critical": 2,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 3,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 60,
+  "predicted_ai_pct": 35,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность заметно выше 50% (~60%)",
+    "AI-detector значительно выше 10% (~35%)",
+    "найдены критические маркеры ИИ-стиля: Длинное тире (—) - могут поднять AI-detector text.ru"
+  ],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779806976/articles/pensiya-pri-bankrotstve-fizlica-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1779806976/articles/pensiya-pri-bankrotstve-fizlica-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Photograph of a contemporary shared workspace built with natural materials — light oak table surface, raw concrete wall, linen-upholstered chairs, a small indoor plant in a raw clay pot at the far edge. Foreground on the table: a leather-bound notebook open to a blank page with a fountain pen resting across it, a smartphone placed face-down, a polished brass round seal on a small leather coaster, a white porcelain coffee cup on a saucer, a ceramic water bottle with a matte finish. Background: floor-to-ceiling windows opening onto a softly blurred city skyline in cool morning daylight. Camera: three-quarter angle, eye-level, shallow depth of field. Lighting: bright cool natural daylight from the windows, gentle warm pendant fill from above. Palette: pale oak, raw linen, muted concrete with restrained brass accents. Mood: measured, contemporary professional navigating a careful personal financial review.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-05-26T14:49:37Z",
+  "date_published": "2026-05-26",
+  "date_modified": "2026-05-26",
+  "ready_for_review": true,
+  "ready_at": "2026-05-26T14:49:37Z",
+  "publication_target": "telegram_review",
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "spam_risk: 2 флагов (top10_sum>80 (=85), top10_share>0.115 (=0.122)), top-5: ['част', 'доход', 'долг', 'конкурсн', 'масс']",
+    "ai_markers_critical: 2 (Длинное тире (—))"
+  ]
+}
