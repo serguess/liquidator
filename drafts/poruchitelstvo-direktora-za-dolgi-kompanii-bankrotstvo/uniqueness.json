@@ -1,0 +1,19 @@
+{
+  "slug": "poruchitelstvo-direktora-za-dolgi-kompanii-bankrotstvo",
+  "category": "yur",
+  "passed": true,
+  "scores": {
+    "structure_overlap": 0.0,
+    "thesis_similarity": 0.0,
+    "cta_overlap": 0.0
+  },
+  "thresholds": {
+    "structure_overlap": 0.4,
+    "thesis_similarity": 0.3,
+    "cta_overlap": 0.2
+  },
+  "similar_articles": [],
+  "conflicts": [],
+  "recommendation": "ok",
+  "note": "Опубликованных статей в целевом кластере (yur, scheme=jurisprudence) не найдено. Статья записана в embeddings.sqlite с флагом published=0. При публикации флаг переключится на 1."
+}

@@ -7890,5 +7890,56 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-05-26T17:12:37",
+    "category": "fiz",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "mode": "new",
+    "topic_id": "fiz-64",
+    "topic_slug": "pensiya-pri-bankrotstve-fizlica",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "Автофикс применил правки: сокращения=2, пунктуация=0",
+        "internal_links_autofixed: 4 ссылок (например /articles/vzysk/viplaty-zashchishchennye-ot-vzyskaniya.html→/articles/vzysk/viplaty-zashchishchennye-ot-vzyskaniya; /articles/fiz/bankovskie-scheta-pri-bankrotstve.html→/articles/fiz/bankovskie-scheta-pri-bankrotstve; /articles/fiz/dohody-vo-vremya-bankrotstva-fizlica.html→/articles/fiz/dohody-vo-vremya-bankrotstva-fizlica)",
+        "forced_pass_at_iter2: блокеры пропущены, статья идёт в TG-очередь с metrics_warning=true. Было: 2 блокеров — spam_risk; ai_markers_critical"
+      ],
+      "recommendations": [
+        "reduce_repetition: разбавить топ-5 частотных лемм местоимениями/перифразом — ['част', 'доход', 'долг', 'конкурсн', 'масс']",
+        "fix_ai_markers: убрать критичные маркеры (длинные тире, эмодзи, англ. кавычки, чатбот-фразы)"
+      ],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "pensiya-pri-bankrotstve-fizlica",
+    "duration_sec": 2228.0,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "ость (агент 5):** passed\n- **Фактчек (агент 6):** passed\n- **Quality gate:** passed (exit=0, hard_failed=false) — статья идёт в очередь с `metrics_warning` (spam_risk + 2 em-dash в FAQ-вопросах)\n- **Обложка:** сгенерирована, загружена на Cloudinary\n- **Статус:** `ready_for_review=true`, добавлена в TG-очередь\n\n**Метрики из quality_gate (предсказанные):**\n- `textru_spam`: ~60%\n- `textru_ai_detector`: ~35%\n- `textru_uniqueness`: ~87%\n\n**Файл:** `drafts/pensiya-pri-bankrotstve-fizlica/article.html`",
+    "stderr_tail": "",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7366
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]
