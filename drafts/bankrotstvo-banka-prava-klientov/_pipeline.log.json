@@ -1,0 +1,41 @@
+{
+  "slug": "bankrotstvo-banka-prava-klientov",
+  "category": null,
+  "started_at": "2026-05-27T03:25:00",
+  "finished_at": null,
+  "total_duration_sec": null,
+  "current_iteration": 2,
+  "events": [
+    {
+      "ts": "2026-05-27T03:25:00",
+      "agent": "4-writer",
+      "event": "iteration_returned",
+      "iteration": 2,
+      "reason": "targeted_tokens_over_limit: ст_сокращение=7(>5), 000руб_паттерн=3(>2); spam_risk: лемма позиц=15, банк=12, отзыв=9",
+      "recommendation": "Сократить «ст.» до 5 (заменить на «статья» или описательно). Привести 000руб к 2 (некруглые числа). Разбавить позиц/банк/отзыв перифразом."
+    },
+    {
+      "ts": "2026-05-27T03:33:53",
+      "agent": "scheduler",
+      "event": "slot_started",
+      "iteration": 2,
+      "category": "yur",
+      "today_count": 1,
+      "limit": 10,
+      "write_article_duration_sec": 2716.0
+    },
+    {
+      "ts": "2026-05-27T03:33:54",
+      "agent": "quality_gate",
+      "event": "passed",
+      "iteration": 2,
+      "blockers": [],
+      "warnings": [
+        "forced_pass_at_iter2: блокеры пропущены, статья идёт в TG-очередь с metrics_warning=true. Было: 1 блокеров — spam_risk"
+      ],
+      "recommendations": [
+        "reduce_repetition: разбавить топ-5 частотных лемм местоимениями/перифразом — ['счёт', 'выплат', 'очеред', 'треть', 'ступен']"
+      ]
+    }
+  ]
+}

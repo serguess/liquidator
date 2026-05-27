@@ -1,0 +1,19 @@
+{
+  "slug": "bankrotstvo-banka-prava-klientov",
+  "passed": true,
+  "scores": {
+    "structure_overlap": 0.0,
+    "thesis_similarity": 0.0,
+    "cta_overlap": 0.0
+  },
+  "thresholds": {
+    "structure_overlap": 0.4,
+    "thesis_similarity": 0.3,
+    "cta_overlap": 0.2
+  },
+  "similar_articles": [],
+  "conflicts": [],
+  "recommendation": "ok",
+  "stored_in_db": true,
+  "note": "Вектор статьи записан в data/embeddings.sqlite (published=0). На данный момент в базе нет опубликованных статей в категории yur типа B для сравнения. Стоит отметить cannibalization_check в brief.json: warn:cluster:yur-prava-direktora-pri-bankrotstve — следить за перекрытием при публикации соседних статей в этом кластере."
+}

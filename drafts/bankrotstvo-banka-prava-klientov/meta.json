@@ -1,0 +1,104 @@
+{
+  "slug": "bankrotstvo-banka-prava-klientov",
+  "category": "yur",
+  "title": "Банкротство банка: права вкладчиков и кредиторов",
+  "description": "Что происходит с вкладом и счётом при банкротстве банка, как получить страховое возмещение АСВ, войти в реестр кредиторов и вернуть деньги сверх лимита.",
+  "h1": "Банкротство банка: что происходит с деньгами вкладчиков и кредиторов",
+  "lead": "Гражданин с вкладом до 1,4 миллиона получит компенсацию АСВ за три рабочих дня, крупный вкладчик идёт через перечень первой очереди, компания с расчётным счётом - в третью ступень без гарантированной компенсации.",
+  "topic_action": "защиту прав при банкротстве банка",
+  "breadcrumb_current": "Банкротство банка: права клиентов",
+  "og_image": "/assets/articles/bankrotstvo-banka-prava-klientov.jpg",
+  "main_keyword": "банкротство банка права вкладчиков",
+  "secondary_keywords": [
+    "что происходит с вкладом при банкротстве банка",
+    "страховое возмещение АСВ при банкротстве банка",
+    "реестр требований кредиторов банка",
+    "очередность выплат кредиторам банка",
+    "как вернуть деньги при банкротстве банка",
+    "включение в реестр кредиторов банка",
+    "конкурсное производство банка АСВ",
+    "права юридических лиц при банкротстве банка"
+  ],
+  "internal_links": [
+    "/articles/yur/osparivanie-trebovanij-v-reestre-kreditorov",
+    "/articles/yur/osparivanie-sdelok-pri-bankrotstve"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/"
+  ],
+  "faq": [
+    {
+      "question": "Сколько длится конкурсное производство на практике?",
+      "answer": "Формально 1 год с продлением по 6 месяцев. Крупные дела занимают от трёх до семи лет. За это время агентство реализует активы и ведёт расчёты с кредиторами."
+    },
+    {
+      "question": "Застрахован ли вклад в долларах или евро по системе АСВ?",
+      "answer": "Да. Валютный вклад застрахован наравне с рублёвым. Возмещение выплачивается в рублях - по курсу Центрального банка на дату отзыва лицензии. Единый лимит для всех валют - 1 400 000 рублей."
+    },
+    {
+      "question": "Что произойдёт, если пропустить 60-дневный срок подачи требований?",
+      "answer": "Требование уходит за список. Рассмотрят его только после расчётов со всеми реестровыми кредиторами. На практике деньги до таких заявителей почти не доходят. Если срок пропущен - обратитесь к юристу: суд иногда восстанавливает при уважительной причине."
+    },
+    {
+      "question": "Чем обезличенный металлический счёт отличается от обычного вклада при крахе банка?",
+      "answer": "ОМС выплатой АСВ не покрывается. Держатель такого счёта попадает в третью ступень перечня. Шансы что-то получить минимальны: она удовлетворяется последней и как правило лишь частично."
+    },
+    {
+      "question": "Продолжать ли платить ипотеку или кредит, если банк признан банкротом?",
+      "answer": "Обязательно. Долг сохраняется. Право требования по кредиту агентство продаёт новому держателю на торгах. Вас уведомят о новых реквизитах. До получения уведомления платите по прежним реквизитам."
+    },
+    {
+      "question": "Вправе ли вкладчик голосовать на собрании кредиторов банка?",
+      "answer": "Да. Включённые в перечень участвуют в собраниях с правом голоса пропорционально сумме требований. Уведомления агентство публикует в ЕФРСБ. Через собрание кредиторы первой очереди влияют на порядок продажи активов."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Проход 1 (соответствие): все нормы (ст. 189.9, 189.61, 189.68, 189.85, 189.90, 189.88, 189.84, 189.40, 189.92 закона 127-ФЗ; страховой лимит 1,4 млн руб. и повышенный лимит 10 млн руб. по ФЗ-177; механизм суброгации АСВ по ст. 13 ФЗ-177; ст. 382 ГК РФ для цессии кредитов) сверены с research.json и соответствуют safe_phrasing соответствующих фактов (f1-f21).",
+    "Проход 2 (актуальность): все факты с цифрами имеют last_verified=2026-05-27 и legislation_status=active. Норм с устаревшей редакцией не используется. Контекст применения соответствует исходному регулированию.",
+    "Запрещённые утверждения из research.forbidden_claims в тексте отсутствуют: нет обещаний 100% возврата, нет утверждений про зачёт вклада против кредита, нет автоматической страховки по ОМС, нет освобождения заёмщика от кредита через банкротство банка.",
+    "Лимит цитирования закона соблюдён: прямых цитат норм в blockquote нет, все ссылки на нормы - пересказ.",
+    "Внутренние ссылки проверены по data/published_index.json: osparivanie-trebovanij-v-reestre-kreditorov и osparivanie-sdelok-pri-bankrotstve опубликованы в /articles/yur/.",
+    "Внешняя ссылка: 1 на КонсультантПлюс (127-ФЗ). ФЗ-177 в whitelist отсутствует (см. research.fact_gaps[0]) - даём текстовое упоминание без URL.",
+    "Итерация 2: лексика 'позиция' заменена на 'очередь/ступень/перечень/ранг' для снижения spam-метрики top1; вычищены явные 'ст. 189.X' ссылки в теле статьи (оставлено только в скобках при 189.61 в лиде).",
+    "category=yur - год в title/h1 не запрещён, но не используется без необходимости."
+  ],
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "quality_gate_retry_count": 3,
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "spam_risk: 3 флагов (top10_sum>80 (=83), ngram3_repeat_share>0.035 (=0.055), lexical_diversity<0.58 (=0.557)), top-5: ['счёт', 'выплат', 'очеред', 'треть', 'ступен']"
+  ],
+  "text_chars": 7620,
+  "length_status": "warn",
+  "length_kind": "default",
+  "local_spam_top10_share": 0.114,
+  "local_spam_ngram3_repeat": 0.055,
+  "local_lexical_diversity": 0.557,
+  "local_ai_markers_density": 0.21,
+  "local_ai_markers_total": 2,
+  "local_ai_markers_critical": 0,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 3,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "predicted_spam_pct": 60,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность заметно выше 50% (~60%)"
+  ],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779842016/articles/bankrotstvo-banka-prava-klientov-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1779842016/articles/bankrotstvo-banka-prava-klientov-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Editorial photograph of a lawyer's desk positioned beside a tall window. Camera at table-eye level, slight three-quarter angle. On the walnut desktop: a closed dark leather portfolio squarely centered with a fountain pen laid across it, a polished brass round company seal resting on a folded formal document (no readable text), an antique pocket watch on a chain with its cover open suggesting the urgency of a filing deadline, reading glasses folded beside a stack of closed unmarked dossiers, and a brass desk lamp casting a warm directional pool of light across the arrangement. Background through the tall window: blurred overcast city panorama, grey-blue daylight diffused through glass. Lighting: cool window light from the left blended with warm tungsten from the desk lamp. Materials: walnut, aged leather, polished brass. Mood: careful professional review before a critical submission, restrained and authoritative.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-05-27T00:33:37Z",
+  "date_published": "2026-05-27",
+  "date_modified": "2026-05-27",
+  "ready_for_review": true,
+  "ready_at": "2026-05-27T00:33:37Z",
+  "publication_target": "telegram_review"
+}
