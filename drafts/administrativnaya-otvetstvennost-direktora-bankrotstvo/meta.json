@@ -1,0 +1,106 @@
+{
+  "slug": "administrativnaya-otvetstvennost-direktora-bankrotstvo",
+  "category": "yur",
+  "title": "Административная ответственность директора при банкротстве",
+  "description": "Что грозит директору по ст. 14.12 и 14.13 КоАП: штраф за непередачу документов, дисквалификация, неподача заявления о банкротстве. Срок давности 3 года.",
+  "h1": "Административная ответственность директора при банкротстве компании",
+  "lead": "Кодекс об административных правонарушениях бьёт по первому лицу компании, а не по организации — и срок давности по таким составам три года.",
+  "topic_action": "оценку рисков для директора при банкротстве",
+  "breadcrumb_current": "Административная ответственность директора",
+  "og_image": "/assets/articles/administrativnaya-otvetstvennost-direktora-bankrotstvo.jpg",
+  "main_keyword": "административная ответственность директора при банкротстве",
+  "secondary_keywords": [
+    "статья 14.13 КоАП неправомерные действия при банкротстве",
+    "статья 14.12 КоАП фиктивное банкротство",
+    "штраф за непередачу документов управляющему",
+    "дисквалификация директора при банкротстве",
+    "обязанность подать заявление о банкротстве статья 9",
+    "сокрытие имущества при банкротстве КоАП",
+    "срок давности по статье 14.13 КоАП",
+    "неподача заявления о банкротстве ответственность директора"
+  ],
+  "internal_links": [
+    "priznaki-bankrotstva-yurlica",
+    "nepravomernye-dejstviya-bankrotstvo-statya-195",
+    "prednamerennoe-bankrotstvo-ugolovnaya-otvetstvennost",
+    "prava-direktora-v-processe-bankrotstva"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/"
+  ],
+  "faq": [
+    {
+      "question": "Распространяется ли ответственность на директора, если компания уже ликвидирована?",
+      "answer": "Да. К административной ответственности привлекается физическое лицо — бывший руководитель. Ликвидация организации-должника не прекращает производство против него. Пока трёхлетний срок давности не истёк, дело может быть возбуждено после её исключения из реестра."
+    },
+    {
+      "question": "Сколько лет после завершения дела прокуратура вправе возбудить производство?",
+      "answer": "Три года. При длящихся нарушениях отсчёт идёт с момента обнаружения правонарушения арбитражным управляющим, а не с момента совершения."
+    },
+    {
+      "question": "Что произойдёт при повторном нарушении обязанности подать заявление о банкротстве?",
+      "answer": "Первое нарушение — штраф от пяти до десяти тысяч рублей. Повторное образует отдельный состав: только дисквалификация от шести месяцев до трёх лет без альтернативы."
+    },
+    {
+      "question": "Считается ли уважительной причиной непередачи документов то, что их изъяли правоохранители?",
+      "answer": "Суды признают это уважительной причиной при наличии доказательств — постановления следователя об изъятии. Без таких бумаг ссылка на следствие не освобождает от ответственности."
+    },
+    {
+      "question": "Чем запрет на руководство отличается от запрета на любое предпринимательство?",
+      "answer": "Дисквалификация касается только функций управления юридическим лицом. Нельзя быть генеральным директором или членом совета директоров. Работать наёмным сотрудником или вести ИП можно."
+    },
+    {
+      "question": "Какой орган возбуждает административное дело против руководителя компании-должника?",
+      "answer": "Чаще всего — прокуратура по материалам арбитражного управляющего. Также Росреестр как надзорный орган. Дела о дисквалификации рассматривает районный суд."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все санкции по ст. 14.12 и 14.13 КоАП РФ сверены с research.json (f1-f7), legislation_status: active, last_verified: 2026-05-28.",
+    "Порог 2 млн руб. по ст. 9 127-ФЗ с 29.05.2024 (f8) — указано корректно.",
+    "Порог крупного ущерба 2 250 000 руб. для УК (ст. 195, 196, 197) — сверено с f10, f11, f12.",
+    "Различие санкций ч. 4 ст. 14.13 (дисквалификация до 1 года) и ч. 1/2 (до 3 лет) сохранено.",
+    "Минимальный срок дисквалификации по ч. 2 ст. 14.12 (доведение) — 1 год, отличие от ч. 1 (6 мес.) сохранено.",
+    "Лишение свободы в административных составах не упомянуто — соответствует запрету в research.forbidden_claims.",
+    "Длящийся характер неподачи заявления и отсчёт давности с момента обнаружения — соответствуют f15.",
+    "Запрет дисквалификации на любое предпринимательство — корректно ограничен функциями управления (f14)."
+  ],
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "text_chars": 7591,
+  "length_status": "warn",
+  "length_kind": "default",
+  "local_spam_top10_share": 0.12,
+  "local_spam_ngram3_repeat": 0.06,
+  "local_lexical_diversity": 0.556,
+  "local_ai_markers_density": 0.21,
+  "local_ai_markers_total": 2,
+  "local_ai_markers_critical": 0,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 2,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 3,
+  "predicted_spam_pct": 62,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность заметно выше 50% (~62%)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "spam_risk: 5 флагов (top1_count>12 (=13, лемма «состав»), top10_sum>80 (=83), top10_share>0.115 (=0.12), ngram3_repeat_share>0.035 (=0.06), lexical_diversity<0.58 (=0.556)), top-5: ['состав', 'руководител', 'несостоятельност', 'директор', 'рубл']"
+  ],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779919980/articles/administrativnaya-otvetstvennost-direktora-bankrotstvo-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1779919980/articles/administrativnaya-otvetstvennost-direktora-bankrotstvo-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Tight close-up editorial photograph of a director's desk in the moment after departure, suggesting administrative violation and consequence. Foreground: an opened oxblood leather briefcase with corporate documents fanning out unsecured, an uncapped fountain pen lying abandoned next to a small brass inkwell, a stack of three closed dossiers tied with cord stacked at the briefcase's edge. The chair is pushed back from the desk, seen from behind at three-quarter angle. A half-finished white porcelain coffee cup sits on the dark walnut desktop edge. Camera: shallow depth of field isolating the briefcase and documents, three-quarter tabletop angle. Lighting: warm directional sidelight from upper left casting sharp elegant shadows that emphasize the scattered papers and formal objects. Materials: oxblood leather, weathered brass, dark walnut, cream ceramic. Mood: paused mid-violation, the moment of stepping away from dereliction of duty, administrative consequence imminent.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-05-27T22:13:01Z",
+  "date_published": "2026-05-28",
+  "date_modified": "2026-05-28",
+  "ready_for_review": true,
+  "ready_at": "2026-05-27T22:13:01Z",
+  "publication_target": "telegram_review"
+}
