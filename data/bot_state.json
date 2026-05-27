@@ -2755,7 +2755,7 @@
     "vzyskanie-neustojki-po-dogovoru": {
       "category": "vzysk",
       "title": "Взыскание неустойки по договору: ст. 333 ГК",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -2763,13 +2763,15 @@
       "tg_message_id": 933,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-23T10:40:15",
-      "last_action_at": "2026-05-23T10:40:15",
+      "last_action_at": "2026-05-27T13:46:10",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/vzysk/vzyskanie-neustojki-po-dogovoru",
       "pending_batch": false,
       "pending_batch_at": "2026-05-23T10:40:15",
-      "batch_sent_at": "2026-05-24T10:01:13"
+      "batch_sent_at": "2026-05-24T10:01:13",
+      "published_at": "2026-05-27T13:46:10",
+      "articles_path": "articles/vzysk/vzyskanie-neustojki-po-dogovoru.html"
     },
     "nedobrosovestnost-dolzhnika-otkaz-v-spisanii": {
       "category": "fiz",
@@ -2993,15 +2995,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 959,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-26T10:36:17",
-      "last_action_at": "2026-05-26T10:36:17",
+      "last_action_at": "2026-05-27T10:04:14",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-05-26T10:36:17"
+      "pending_batch": false,
+      "pending_batch_at": "2026-05-26T10:36:17",
+      "batch_sent_at": "2026-05-27T10:04:14",
+      "batch_fail_count": 0
     },
     "protsenty-stat-395-gk-vzyskanie": {
       "category": "vzysk",
@@ -3011,15 +3015,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 961,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-26T13:03:17",
-      "last_action_at": "2026-05-26T13:03:17",
+      "last_action_at": "2026-05-27T10:04:16",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-05-26T13:03:17"
+      "pending_batch": false,
+      "pending_batch_at": "2026-05-26T13:03:17",
+      "batch_sent_at": "2026-05-27T10:04:16",
+      "batch_fail_count": 0
     },
     "rashody-bankrotstva-vzyskat-s-uchreditelya": {
       "category": "news",
@@ -3029,15 +3035,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 963,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-26T15:21:18",
-      "last_action_at": "2026-05-26T15:21:18",
+      "last_action_at": "2026-05-27T10:04:18",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-05-26T15:21:18"
+      "pending_batch": false,
+      "pending_batch_at": "2026-05-26T15:21:18",
+      "batch_sent_at": "2026-05-27T10:04:18",
+      "batch_fail_count": 0
     },
     "pensiya-pri-bankrotstve-fizlica": {
       "category": "fiz",
@@ -3047,15 +3055,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 965,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-26T17:50:19",
-      "last_action_at": "2026-05-26T17:50:19",
+      "last_action_at": "2026-05-27T10:04:20",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-05-26T17:50:19"
+      "pending_batch": false,
+      "pending_batch_at": "2026-05-26T17:50:19",
+      "batch_sent_at": "2026-05-27T10:04:20",
+      "batch_fail_count": 0
     },
     "poruchitelstvo-direktora-za-dolgi-kompanii-bankrotstvo": {
       "category": "yur",
@@ -3065,15 +3075,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 967,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-26T20:26:20",
-      "last_action_at": "2026-05-26T20:26:20",
+      "last_action_at": "2026-05-27T10:04:22",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-05-26T20:26:20"
+      "pending_batch": false,
+      "pending_batch_at": "2026-05-26T20:26:20",
+      "batch_sent_at": "2026-05-27T10:04:22",
+      "batch_fail_count": 0
     },
     "snyatie-aresta-s-imushchestva-cherez-sud": {
       "category": "vzysk",
@@ -3083,15 +3095,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 969,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-26T23:05:21",
-      "last_action_at": "2026-05-26T23:05:21",
+      "last_action_at": "2026-05-27T10:04:24",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-05-26T23:05:21"
+      "pending_batch": false,
+      "pending_batch_at": "2026-05-26T23:05:21",
+      "batch_sent_at": "2026-05-27T10:04:24",
+      "batch_fail_count": 0
     },
     "dacha-garazh-zemelnyj-uchastok-bankrotstvo": {
       "category": "fiz",
@@ -3101,15 +3115,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 971,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-27T00:57:22",
-      "last_action_at": "2026-05-27T00:57:22",
+      "last_action_at": "2026-05-27T10:04:27",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-05-27T00:57:22"
+      "pending_batch": false,
+      "pending_batch_at": "2026-05-27T00:57:22",
+      "batch_sent_at": "2026-05-27T10:04:27",
+      "batch_fail_count": 0
     },
     "bankrotstvo-banka-prava-klientov": {
       "category": "yur",
@@ -3119,15 +3135,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 973,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-27T03:34:22",
-      "last_action_at": "2026-05-27T03:34:22",
+      "last_action_at": "2026-05-27T10:04:29",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-05-27T03:34:23"
+      "pending_batch": false,
+      "pending_batch_at": "2026-05-27T03:34:23",
+      "batch_sent_at": "2026-05-27T10:04:29",
+      "batch_fail_count": 0
     },
     "vzyskanie-dolga-po-dogovoru-arendy": {
       "category": "vzysk",
@@ -3137,19 +3155,58 @@
       "versions": [
         "2.0"
       ],
+      "tg_message_id": 975,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-05-27T06:05:23",
+      "last_action_at": "2026-05-27T10:04:31",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-05-27T06:05:23",
+      "batch_sent_at": "2026-05-27T10:04:31",
+      "batch_fail_count": 0
+    },
+    "avtomobil-pri-bankrotstve-fizlica": {
+      "category": "fiz",
+      "title": "Автомобиль при банкротстве физлица: продадут ли машину",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 977,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-05-27T10:38:25",
+      "last_action_at": "2026-05-27T10:38:25",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-05-27T10:38:25",
+      "batch_sent_at": "2026-05-27T11:34:56"
+    },
+    "otkaz-ot-dogovora-pri-bankrotstve-statya-102": {
+      "category": "yur",
+      "title": "Отказ от договора при банкротстве: права управляющего",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
       "tg_message_id": null,
       "tg_chat_id": null,
-      "first_seen_at": "2026-05-27T06:05:23",
-      "last_action_at": "2026-05-27T06:05:23",
+      "first_seen_at": "2026-05-27T12:52:26",
+      "last_action_at": "2026-05-27T12:52:26",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
       "pending_batch": true,
-      "pending_batch_at": "2026-05-27T06:05:23"
+      "pending_batch_at": "2026-05-27T12:52:26"
     }
   },
   "pending_actions": [],
-  "last_batch_date": "2026-05-26",
-  "last_batch_count": 5,
-  "last_batch_at": "2026-05-26T10:04:12"
+  "last_batch_date": "2026-05-27",
+  "last_batch_count": 9,
+  "last_batch_at": "2026-05-27T10:04:31"
 }
