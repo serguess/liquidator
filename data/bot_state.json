@@ -2860,7 +2860,7 @@
     "kak-vybrat-sro-dlya-bankrotstva-fizlica": {
       "category": "fiz",
       "title": "Как выбрать СРО для банкротства физлица",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -2868,13 +2868,15 @@
       "tg_message_id": 943,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-23T22:38:20",
-      "last_action_at": "2026-05-23T22:38:20",
+      "last_action_at": "2026-05-27T13:55:33",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/fiz/kak-vybrat-sro-dlya-bankrotstva-fizlica",
       "pending_batch": false,
       "pending_batch_at": "2026-05-23T22:38:20",
-      "batch_sent_at": "2026-05-24T10:01:24"
+      "batch_sent_at": "2026-05-24T10:01:24",
+      "published_at": "2026-05-27T13:55:33",
+      "articles_path": "articles/fiz/kak-vybrat-sro-dlya-bankrotstva-fizlica.html"
     },
     "kompensacionnoe-finansirovanie-bankrotstvo-zajmy": {
       "category": "yur",
