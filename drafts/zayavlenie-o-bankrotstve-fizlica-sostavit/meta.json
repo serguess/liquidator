@@ -1,0 +1,110 @@
+{
+  "slug": "zayavlenie-o-bankrotstve-fizlica-sostavit",
+  "category": "fiz",
+  "title": "Заявление о банкротстве физлица: как составить",
+  "description": "Что писать в заявлении о банкротстве в арбитражный суд, какие документы приложить и какие ошибки приводят к отказу. Разбираем судебный и внесудебный порядок.",
+  "h1": "Как составить заявление о банкротстве физического лица",
+  "lead": "Заявление о банкротстве — документ со строгими требованиями: ошибка в форме описи или забытая справка ЕГРИП откатывают процесс на месяц. Разбираем, что писать в тексте, какие бумаги прикладывать и куда нести готовый комплект — в суд или в МФЦ.",
+  "topic_action": "составление заявления о банкротстве",
+  "breadcrumb_current": "Заявление о банкротстве физлица",
+  "og_image": "/assets/articles/zayavlenie-o-bankrotstve-fizlica-sostavit.jpg",
+  "main_keyword": "заявление о банкротстве физического лица",
+  "secondary_keywords": [
+    "как составить заявление на банкротство",
+    "заявление о банкротстве в арбитражный суд",
+    "документы для банкротства физлица",
+    "образец заявления на банкротство",
+    "заявление на банкротство МФЦ",
+    "ошибки в заявлении на банкротство",
+    "требования к заявлению о банкротстве"
+  ],
+  "internal_links": [
+    "/articles/fiz/kak-vybrat-sro-dlya-bankrotstva-fizlica.html",
+    "/articles/fiz/vnesudebnoe-bankrotstvo-cherez-mfc-2026.html",
+    "/articles/fiz/osparivanie-sdelok-fizlica-bankrotstvo.html"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/"
+  ],
+  "faq": [
+    {
+      "question": "Сколько денег нужно внести до подачи заявления в суд?",
+      "answer": "Госпошлину с должника-гражданина не берут с сентября 2024 года. Обязательный расход — депозит двадцать пять тысяч рублей. Это вознаграждение арбитражного управляющего за одну стадию. При затруднениях суд может отсрочить внесение."
+    },
+    {
+      "question": "Что происходит с долгами сразу после принятия заявления?",
+      "answer": "Начисление штрафных санкций по большинству обязательств останавливается. Исполнительные производства приостанавливаются — кроме алиментов и возмещения вреда. Давление взыскателей снижается с первых дней."
+    },
+    {
+      "question": "Можно ли повторно пройти внесудебное банкротство через МФЦ?",
+      "answer": "Нет. После завершения дела через МФЦ повторно обратиться туда нельзя в течение 10 лет."
+    },
+    {
+      "question": "Какие долги не спишутся даже при добросовестно пройденном деле?",
+      "answer": "Алименты, компенсации за вред жизни и здоровью, задолженность по зарплате, требования из субсидиарной ответственности — останутся и после завершения дела. Также не уйдут обязательства при обмане взыскателя или сокрытии имущества."
+    },
+    {
+      "question": "Вправе ли должник продавать имущество после возбуждения дела?",
+      "answer": "В период реализации крупные сделки свыше пятидесяти тысяч рублей совершаются только через арбитражного управляющего. Самостоятельная сделка может быть признана недействительной."
+    },
+    {
+      "question": "Обязательно ли нанимать юриста или можно подать самому?",
+      "answer": "Закон не запрещает самостоятельную подачу. По нашей статистике самостоятельные запросы возвращают примерно в два раза чаще — из-за устаревших выписок и неправильной формы описи."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все юр-утверждения сверены с research.json (25 фактов, last_verified 2026-05-27, legislation_status active).",
+    "Порог 500 000 руб. и срок 30 рабочих дней для обязанности подать (п. 1 ст. 213.4) — соответствует f1.",
+    "Право подать при любой сумме при признаках неплатёжеспособности (п. 2 ст. 213.4) — соответствует f2.",
+    "Четыре признака неплатёжеспособности (п. 3 ст. 213.6) — соответствует f3 safe_phrasing.",
+    "Обязательные реквизиты заявления по п. 3 ст. 213.4 — соответствует f4.",
+    "Минимальный пакет приложений по п. 3 ст. 213.4 — соответствует f5; формы Приказа Минэкономразвития №530 от 05.08.2015 указаны по f15.",
+    "Должник указывает только наименование СРО, не конкретного управляющего (f11) — соответствует safe_phrasing.",
+    "Публикация в ЕФРСБ за 15 дней до подачи (п. 4 ст. 213.4) — соответствует f17; конкретный тариф не назван (fact_gap), указано «платная».",
+    "Депозит 25 000 руб. как вознаграждение управляющего, не госпошлина (п. 4 ст. 213.4, п. 3 ст. 20.6) — соответствует f9; описан перифразом «двадцать пять тысяч».",
+    "Отмена госпошлины с гражданина-должника с 08.09.2024 (ст. 333.37 НК РФ, ред. ФЗ-176 от 12.07.2024) — соответствует f8; прежняя ставка 300 руб. не упоминается.",
+    "Подсудность по месту жительства (п. 1 ст. 33 127-ФЗ) — соответствует f6.",
+    "Три канала подачи: лично, почтой, «Мой Арбитр» — соответствует f7.",
+    "МФЦ-условия: долг 25 000 — 1 000 000 руб. + одно из условий ст. 223.2 (ред. ФЗ-474 от 04.08.2023) — соответствует f18, включая пенсионные категории и порог 7 лет.",
+    "Срок МФЦ-процедуры 6 месяцев и списание только указанных в заявлении долгов — соответствует f19.",
+    "Запрет повторного МФЦ-банкротства 10 лет (п. 3 ст. 223.4) — соответствует f20.",
+    "Оспаривание сделок управляющим за 3 года (ст. 61.2, 61.3, 213.32) — соответствует f24.",
+    "Мораторий и приостановка исполнительных производств после принятия заявления (ст. 213.11 п. 2) — соответствует f16, кроме алиментов и вреда здоровью.",
+    "Долги, не подлежащие списанию (п. 5-6 ст. 213.28): алименты, вред здоровью, зарплата, субсидиарка — соответствует f21.",
+    "Ограничение сделок свыше 50 000 руб. в период реализации (п. 5 ст. 213.25) — соответствует f22; сумма дана перифразом «свыше пятидесяти тысяч рублей».",
+    "Запрещённые утверждения из forbidden_claims отсутствуют: нет упоминания 300 руб. госпошлины, гарантированного списания всех долгов, выбора конкретного управляющего, гарантий по срокам."
+  ],
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "text_chars": 7255,
+  "length_status": "ok",
+  "length_kind": "default",
+  "local_spam_top10_share": 0.092,
+  "local_spam_ngram3_repeat": 0.018,
+  "local_lexical_diversity": 0.647,
+  "local_ai_markers_density": 0.22,
+  "local_ai_markers_total": 2,
+  "local_ai_markers_critical": 0,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 3,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 3,
+  "predicted_spam_pct": 49,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779911164/articles/zayavlenie-o-bankrotstve-fizlica-sostavit-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1779911164/articles/zayavlenie-o-bankrotstve-fizlica-sostavit-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Close-up architectural photograph emphasizing polished marble or carved stone detail in sharp focus, with a meticulously arranged cluster of official legal accessories in the foreground. Allowed items: a closed oxblood leather portfolio positioned left of center, a precision fountain pen lying diagonally across it, a polished brass round company seal resting nearby, an antique brass pocket watch on a delicate silver tray with a folded handkerchief, suggesting careful procedure and time-sensitive documentation. Camera: tight crop at eye-level, shallow depth of field isolating the objects from the architectural background. Lighting: soft diffused natural daylight grazing the stone surface, revealing subtle veining and grain. Materials: cool whites, warm cream marble, oxblood leather, brushed brass accents. Mood: refined procedural attention, meticulous documentation, institutional prestige.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-05-27T19:46:05Z",
+  "date_published": "2026-05-27",
+  "date_modified": "2026-05-27",
+  "ready_for_review": true,
+  "ready_at": "2026-05-27T19:46:05Z",
+  "publication_target": "telegram_review"
+}

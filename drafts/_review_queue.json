@@ -1825,6 +1825,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "zayavlenie-o-bankrotstve-fizlica-sostavit",
+      "category": "fiz",
+      "title": "Заявление о банкротстве физлица: как составить",
+      "added_at": "2026-05-27T22:46:05.352447",
+      "char_count": 7255,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779911164/articles/zayavlenie-o-bankrotstve-fizlica-sostavit-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

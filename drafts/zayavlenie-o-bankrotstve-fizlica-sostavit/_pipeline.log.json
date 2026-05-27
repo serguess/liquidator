@@ -1,0 +1,40 @@
+{
+  "slug": "zayavlenie-o-bankrotstve-fizlica-sostavit",
+  "category": null,
+  "started_at": "2026-05-27T22:38:35",
+  "finished_at": null,
+  "total_duration_sec": null,
+  "current_iteration": 2,
+  "events": [
+    {
+      "ts": "2026-05-27T22:38:35",
+      "agent": "4-writer",
+      "event": "iteration_returned",
+      "iteration": 2,
+      "reason": "quality_gate: length_too_long(8966>8000), spam_risk(top3_sum=33>30, top10_sum=85>80)",
+      "recommendation": "reduce_length to 6500-7200 chars; reduce_repetition: арбитраж(12)→≤8, банкротств(11)→≤7, гражданин(10)→≤7, пакет(8)→≤5, обращен(8)→≤5"
+    },
+    {
+      "ts": "2026-05-27T22:46:20",
+      "agent": "scheduler",
+      "event": "slot_started",
+      "iteration": 2,
+      "category": "fiz",
+      "today_count": 7,
+      "limit": 10,
+      "write_article_duration_sec": 2742.1
+    },
+    {
+      "ts": "2026-05-27T22:46:20",
+      "agent": "quality_gate",
+      "event": "passed",
+      "iteration": 2,
+      "blockers": [],
+      "warnings": [
+        "Автофикс применил правки: сокращения=0, пунктуация=0",
+        "internal_links_autofixed: 3 ссылок (например /articles/fiz/kak-vybrat-sro-dlya-bankrotstva-fizlica.html→/articles/fiz/kak-vybrat-sro-dlya-bankrotstva-fizlica; /articles/fiz/vnesudebnoe-bankrotstvo-cherez-mfc-2026.html→/articles/fiz/vnesudebnoe-bankrotstvo-cherez-mfc-2026; /articles/fiz/osparivanie-sdelok-fizlica-bankrotstvo.html→/articles/fiz/osparivanie-sdelok-fizlica-bankrotstvo)"
+      ],
+      "recommendations": []
+    }
+  ]
+}
