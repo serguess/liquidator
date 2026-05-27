@@ -2839,7 +2839,7 @@
     "spisanie-kreditov-svo-do-10-mln-zakon": {
       "category": "news",
       "title": "Списание кредитов участникам СВО до 10 млн: новый закон",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -2847,13 +2847,15 @@
       "tg_message_id": 941,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-23T20:34:19",
-      "last_action_at": "2026-05-23T20:34:19",
+      "last_action_at": "2026-05-27T13:52:35",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/news/spisanie-kreditov-svo-do-10-mln-zakon",
       "pending_batch": false,
       "pending_batch_at": "2026-05-23T20:34:19",
-      "batch_sent_at": "2026-05-24T10:01:22"
+      "batch_sent_at": "2026-05-24T10:01:22",
+      "published_at": "2026-05-27T13:52:35",
+      "articles_path": "articles/news/spisanie-kreditov-svo-do-10-mln-zakon.html"
     },
     "kak-vybrat-sro-dlya-bankrotstva-fizlica": {
       "category": "fiz",
