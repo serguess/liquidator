@@ -8101,5 +8101,62 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-05-27T02:48:37",
+    "category": "yur",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 3,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "expanded_in_slot": true,
+    "topic_id": "yur-59",
+    "topic_slug": "bankrotstvo-banka-prava-klientov",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "forced_pass_at_iter2: блокеры пропущены, статья идёт в TG-очередь с metrics_warning=true. Было: 1 блокеров — spam_risk"
+      ],
+      "recommendations": [
+        "reduce_repetition: разбавить топ-5 частотных лемм местоимениями/перифразом — ['счёт', 'выплат', 'очеред', 'треть', 'ступен']"
+      ],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "bankrotstvo-banka-prava-klientov",
+    "duration_sec": 2716.0,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "как soft-blocker) |\n| metrics_warning | true |\n| Режим публикации | TG-очередь (ready_for_review=true) |\n| Обложка | шаблон #2, сгенерирована на Cloudinary |\n| Файл | `drafts/bankrotstvo-banka-prava-klientov/article.html` |\n\n**textru_ai_detector / textru_uniqueness / textru_spam** — не заполнены (text.ru проверяется вручную или отдельным процессом).\n\nСтатья прошла с `metrics_warning=true` из-за spam_risk (ngram3 и lexical_diversity чуть выше порога после двух итераций правки). Хард-блокеров нет.",
+    "stderr_tail": "",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7620
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]

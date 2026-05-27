@@ -1760,6 +1760,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "vzyskanie-dolga-po-dogovoru-arendy",
+      "category": "vzysk",
+      "title": "Взыскание долга по договору аренды с арендатора",
+      "added_at": "2026-05-27T06:04:24.627246",
+      "char_count": 7522,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779851063/articles/vzyskanie-dolga-po-dogovoru-arendy-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

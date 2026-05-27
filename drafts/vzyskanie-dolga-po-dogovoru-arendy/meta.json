@@ -1,0 +1,96 @@
+{
+  "slug": "vzyskanie-dolga-po-dogovoru-arendy",
+  "category": "vzysk",
+  "title": "Взыскание долга по договору аренды с арендатора",
+  "description": "Как взыскать задолженность по аренде - досудебная претензия, иск в арбитражный суд, срок исковой давности 3 года. Порядок и нюансы.",
+  "h1": "Взыскание долга по договору аренды: как арендодателю получить деньги",
+  "lead": "Арендатор перестал платить, а соглашение действует. Разбираем, что вправе взыскать арендодатель, куда подавать иск и как успеть в реестр при банкротстве должника.",
+  "topic_action": "взыскание долга по договору аренды",
+  "breadcrumb_current": "Взыскание долга по аренде",
+  "og_image": "/assets/articles/vzyskanie-dolga-po-dogovoru-arendy.jpg",
+  "main_keyword": "взыскание долга по договору аренды",
+  "secondary_keywords": [
+    "взыскание задолженности по аренде",
+    "взыскать арендную плату с арендатора",
+    "иск о взыскании долга по аренде",
+    "претензия арендатору о задолженности",
+    "досудебный порядок взыскания аренды",
+    "срок давности по договору аренды",
+    "взыскание задолженности по аренде через арбитражный суд"
+  ],
+  "internal_links": [
+    "/articles/vzysk/dosudebnaya-pretenziya-obrazec",
+    "/articles/vzysk/vzyskanie-dolga-s-ooo-cherez-arbitrazh",
+    "/articles/vzysk/kak-otmenit-sudebnyj-prikaz",
+    "/articles/vzysk/obespechitelnye-mery-arest-scheta"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_5142/",
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/"
+  ],
+  "faq": [
+    {
+      "question": "Обязательно ли ждать 30 дней после претензии, если арендатор сменил адрес и не отвечает?",
+      "answer": "Да. Тридцатидневный период течёт с даты отправки заказного письма - независимо от того, получил ли должник конверт. Направление по последнему известному адресу считается надлежащим уведомлением. Без этого отсчёта арбитраж оставит заявление без рассмотрения."
+    },
+    {
+      "question": "Можно ли истребовать плату за период после расторжения, если наниматель фактически занимает помещение?",
+      "answer": "Да. Прекращение обязательства не снимает обязанность платить за реальное пользование имуществом. Арбитраж взыскивает плату по ставкам из соглашения до дня фактического освобождения."
+    },
+    {
+      "question": "Что происходит с обеспечительным платёжем, когда в соглашении нет нормы о зачёте?",
+      "answer": "Удержать его нельзя. Зачёт допустим только при наступлении условий, прямо предусмотренных соглашением. Если условия нет - платёж подлежит возврату."
+    },
+    {
+      "question": "Арендатор в банкротстве - сколько времени у арендодателя, чтобы попасть в реестр?",
+      "answer": "В наблюдении - 30 дней с даты публикации об открытии процедуры. В конкурсном производстве - 2 месяца. Отсчёт идёт от официальной публикации на fedresurs.ru."
+    },
+    {
+      "question": "Вправе ли суд снизить договорные пени по своей инициативе?",
+      "answer": "В деловых спорах - нет. Уменьшение несоразмерной неустойки происходит только по заявлению ответчика."
+    },
+    {
+      "question": "Как считается давность, если арендатор платил частично?",
+      "answer": "Частичная оплата прерывает течение срока по тому периоду, в счёт которого зачислена сумма. Три года отсчитываются заново от даты каждого поступления."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все юр-утверждения сверены с research.json: п. 1 ст. 614 ГК РФ (обязанность платить), ст. 619 ГК РФ (расторжение, письменное предупреждение), ч. 5 ст. 4 АПК РФ (30-дневная претензия), ст. 22 ГПК / ст. 27, 28 АПК (подсудность), ст. 229.2 АПК (приказ до 500 000 руб), ст. 90-93 АПК (обеспечительные меры на следующий день), ст. 196, 200 ГК + ПП ВС № 43 от 29.09.2015 (давность 3 года по каждому периодическому платежу), ст. 381.1 ГК (обеспечительный платёж только по условию договора), ст. 330, 333, 395 ГК (неустойка и проценты, снижение только по заявлению ответчика в бизнес-спорах), ст. 310 ГК (односторонний отказ при наличии в договоре), ст. 5, 134, 71, 142 127-ФЗ (текущие vs реестровые, 30 дней наблюдение / 2 месяца конкурс), ст. 63 127-ФЗ (приостановление ФССП при наблюдении), ч. 3 ст. 112 ФЗ-229 (исполнительский сбор 7%, мин. 10 000 руб для юрлиц).",
+    "Конкретное число 500 000 руб не упомянуто - использован перифраз «полмиллиона рублей» (statutory_sums.periphrases).",
+    "Очерёдность аренды внутри текущих платежей по ст. 134 127-ФЗ дана обтекаемо («раньше реестровых кредиторов») без точной нумерации очереди - per fact_gap из research.",
+    "Внешние ссылки на consultant.ru даны только для ч. 1 ГК (LAW_5142) и 127-ФЗ (LAW_39331) - whitelist соблюдён. Нормы АПК и ч. 2 ГК упоминаются текстом без гиперссылки."
+  ],
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "text_chars": 7522,
+  "length_status": "warn",
+  "length_kind": "default",
+  "local_spam_top10_share": 0.1,
+  "local_spam_ngram3_repeat": 0.016,
+  "local_lexical_diversity": 0.62,
+  "local_ai_markers_density": 0.31,
+  "local_ai_markers_total": 3,
+  "local_ai_markers_critical": 0,
+  "local_ai_markers_high": 1,
+  "local_own_voice_hits": 3,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 49,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779851063/articles/vzyskanie-dolga-po-dogovoru-arendy-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1779851063/articles/vzyskanie-dolga-po-dogovoru-arendy-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Wide symmetric photograph down a long colonnaded marble corridor of an official building — tall stone columns receding into perspective on both sides, polished marble floor reflecting cool daylight from above, brass wall sconces casting a restrained warm glow along the passage. Dead center of the frame, on a low marble pedestal: a pair of brass scales of justice with empty pans in precise balance. On the floor at the base of the pedestal, arranged with editorial restraint: a closed oxblood leather portfolio with a brass clasp, a stack of three dossiers tied with dark cord, and an antique brass padlock with a short chain coiled beside it. Camera: dead-center symmetric, eye-level, slight wide-angle drawing all architectural lines toward the pedestal. Lighting: cool natural daylight from a high skylight, soft fill from brass sconces, no harsh shadows. Palette: cool grey marble, warm brass, oxblood accents. Mood: formal legal recovery, the weight of due process, decision-pending.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-05-27T03:04:24Z",
+  "date_published": "2026-05-27",
+  "date_modified": "2026-05-27",
+  "ready_for_review": true,
+  "ready_at": "2026-05-27T03:04:24Z",
+  "publication_target": "telegram_review"
+}

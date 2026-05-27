@@ -1,0 +1,13 @@
+{
+  "slug": "vzyskanie-dolga-po-dogovoru-arendy",
+  "passed": true,
+  "scores": {
+    "structure_overlap": 0.0,
+    "thesis_similarity": 0.0,
+    "cta_overlap": 0.0
+  },
+  "similar_articles": [],
+  "conflicts": [],
+  "recommendation": "ok",
+  "note": "Нет опубликованных статей в кластере (категория vzysk, тип C) для эмбеддингового сравнения. Вектор статьи записан в data/embeddings.sqlite (published=0). Статья готова к проверке качества (агент 6 + quality_gate)."
+}
