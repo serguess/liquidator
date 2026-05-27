@@ -2797,7 +2797,7 @@
     "restrukturizaciya-dolgov-yurlica-do-bankrotstva": {
       "category": "yur",
       "title": "Реструктуризация долгов юрлица до банкротства",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -2805,13 +2805,15 @@
       "tg_message_id": 937,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-23T15:39:17",
-      "last_action_at": "2026-05-23T15:39:17",
+      "last_action_at": "2026-05-27T13:48:31",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/yur/restrukturizaciya-dolgov-yurlica-do-bankrotstva",
       "pending_batch": false,
       "pending_batch_at": "2026-05-23T15:39:17",
-      "batch_sent_at": "2026-05-24T10:01:17"
+      "batch_sent_at": "2026-05-24T10:01:17",
+      "published_at": "2026-05-27T13:48:31",
+      "articles_path": "articles/yur/restrukturizaciya-dolgov-yurlica-do-bankrotstva.html"
     },
     "solidarnoe-vzyskanie-dolga-s-dolzhnikov": {
       "category": "vzysk",
