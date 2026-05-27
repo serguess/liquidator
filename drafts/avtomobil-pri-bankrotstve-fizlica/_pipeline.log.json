@@ -1,0 +1,27 @@
+{
+  "slug": "avtomobil-pri-bankrotstve-fizlica",
+  "agents_completed": {
+    "agent_1_seed": {
+      "status": "completed",
+      "timestamp": null
+    },
+    "agent_2_search": {
+      "status": "completed",
+      "timestamp": null
+    },
+    "agent_3_outline": {
+      "status": "completed",
+      "timestamp": null
+    },
+    "agent_4_write": {
+      "status": "completed",
+      "timestamp": null
+    },
+    "agent_5_uniqueness": {
+      "status": "completed",
+      "timestamp": "2026-05-27T10:00:00Z",
+      "result": "passed"
+    }
+  },
+  "current_stage": "agent_6_redaction"
+}

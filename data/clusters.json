@@ -1415,7 +1415,8 @@
         "долги по наследству списать через банкротство"
       ],
       "articles": [
-        "dolgi-po-nasledstvu-bankrotstvo"
+        "dolgi-po-nasledstvu-bankrotstvo",
+        "bankrotstvo-nasledstvennoj-massy"
       ]
     },
     {
@@ -3790,6 +3791,47 @@
       ],
       "articles": [
         "vzyskanie-dolga-po-dogovoru-arendy"
+      ]
+    },
+    {
+      "id": "fiz-bankrotstvo-distancionno",
+      "category": "fiz",
+      "subtopic": "банкротство физлица дистанционно: из другого города или региона",
+      "intent": "informational",
+      "funnel_stage": "warm",
+      "main_keyword": "банкротство физлица дистанционно",
+      "related_keywords": [
+        "банкротство из другого города",
+        "банкротство без личного присутствия",
+        "дистанционное банкротство физических лиц",
+        "банкротство онлайн физлицо",
+        "банкротство не по месту прописки",
+        "банкротство по временной регистрации",
+        "банкротство если живешь в другом городе"
+      ],
+      "articles": [
+        "bankrotstvo-fizlica-distancionno"
+      ]
+    },
+    {
+      "id": "fiz-avtomobil-bankrotstvo-fizlica",
+      "category": "fiz",
+      "subtopic": "автомобиль при банкротстве физлица: конкурсная масса, исключение, залог",
+      "intent": "informational",
+      "funnel_stage": "warm",
+      "main_keyword": "автомобиль при банкротстве физлица",
+      "related_keywords": [
+        "заберут ли машину при банкротстве",
+        "машина при банкротстве физического лица",
+        "как сохранить автомобиль при банкротстве",
+        "авто в конкурсную массу банкротство",
+        "исключение автомобиля из конкурсной массы",
+        "автокредит банкротство физлица",
+        "продадут ли машину при банкротстве",
+        "залоговый автомобиль банкротство"
+      ],
+      "articles": [
+        "avtomobil-pri-bankrotstve-fizlica"
       ]
     }
   ]

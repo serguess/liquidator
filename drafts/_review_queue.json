@@ -1773,6 +1773,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "avtomobil-pri-bankrotstve-fizlica",
+      "category": "fiz",
+      "title": "Автомобиль при банкротстве физлица: продадут ли машину",
+      "added_at": "2026-05-27T10:37:16.443147",
+      "char_count": 7679,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779867435/articles/avtomobil-pri-bankrotstve-fizlica-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
