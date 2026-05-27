@@ -8158,5 +8158,103 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-05-27T05:12:15",
+    "category": "vzysk",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 4,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "vzysk-51",
+    "topic_slug": "vzyskanie-dolga-po-dogovoru-arendy",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "vzyskanie-dolga-po-dogovoru-arendy",
+    "duration_sec": 3141.7,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "агружена в Cloudinary |\n| Статус | `ready_for_review=true` → TG-очередь |\n| Файл | `drafts/vzyskanie-dolga-po-dogovoru-arendy/article.html` |\n\n**Метрики quality_gate:**\n- `spam`: top1=9, top10_share=10.0%, ngram3=1.6%, lex_div=0.62 — всё в норме\n- `ai_markers`: 3 хита (1 high «надлежащим», 2 low — в футере шаблона), density 0.31/1000\n- Коротких предложений: 27 (27.3%), длинных: 0\n\n**Прогноз text.ru** (из quality_gate):\n- `textru_ai_detector`: ~3%\n- `textru_uniqueness`: ~87%\n- `textru_spam`: ~49%",
+    "stderr_tail": "",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7522
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
+  },
+  {
+    "timestamp": "2026-05-27T07:36:08",
+    "category": "fiz",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 5,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "fiz-67",
+    "topic_slug": "bankrotstvo-fizlica-distancionno",
+    "auto_skipped": [
+      {
+        "slug": "bankrotstvo-nasledstvennoj-massy",
+        "reason": "hang_heartbeat_timeout",
+        "duration_sec": 2225.2
+      },
+      {
+        "slug": "bankrotstvo-fizlica-distancionno",
+        "reason": "hang_total_timeout",
+        "duration_sec": 2870.2
+      }
+    ],
+    "status": "failed",
+    "slug": "bankrotstvo-fizlica-distancionno",
+    "duration_sec": 5104.7,
+    "returncode": -2,
+    "rescued_after_failure": false,
+    "stdout_tail": "ft.md создан (7983 знака). Обновляю heartbeat и запускаю агента 5.\n[tool_use:Bash]\n[tool_use:Agent]\n[tool_use:Read]\n[tool_use:Read]\n[tool_use:Read]\n[tool_use:Bash]\n[tool_use:Bash]\n[tool_use:Bash]\n[tool_use:Write]\nАгент 5: passed: true. Обновляю heartbeat и запускаю агента 6.\n[tool_use:Bash]\n[tool_use:Agent]\n[tool_use:Read]\n[tool_use:Read]\n[tool_use:Read]\n[tool_use:Read]\n[tool_use:Bash]\n[tool_use:Bash]\n[tool_use:Bash]\n[tool_use:Bash]\n[tool_use:Bash]\n[tool_use:Read]\n[tool_use:Read]\n[tool_use:Bash]",
+    "stderr_tail": "\n[scheduler] hit slot/article timeout after 2870s",
+    "metrics": null
   }
 ]

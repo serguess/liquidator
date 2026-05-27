@@ -2349,15 +2349,16 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 947,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-21T13:07:00",
       "last_action_at": "2026-05-21T13:07:00",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-05-21T13:07:00"
+      "pending_batch": false,
+      "pending_batch_at": "2026-05-21T13:07:00",
+      "batch_sent_at": "2026-05-24T12:34:12"
     },
     "obespechitelnye-mery-bankrotstvo-yurlica": {
       "category": "yur",
@@ -2759,15 +2760,16 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 933,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-23T10:40:15",
       "last_action_at": "2026-05-23T10:40:15",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-05-23T10:40:15"
+      "pending_batch": false,
+      "pending_batch_at": "2026-05-23T10:40:15",
+      "batch_sent_at": "2026-05-24T10:01:13"
     },
     "nedobrosovestnost-dolzhnika-otkaz-v-spisanii": {
       "category": "fiz",
@@ -2777,15 +2779,16 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 935,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-23T13:06:16",
       "last_action_at": "2026-05-23T13:06:16",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-05-23T13:06:16"
+      "pending_batch": false,
+      "pending_batch_at": "2026-05-23T13:06:16",
+      "batch_sent_at": "2026-05-24T10:01:15"
     },
     "restrukturizaciya-dolgov-yurlica-do-bankrotstva": {
       "category": "yur",
@@ -2795,15 +2798,16 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 937,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-23T15:39:17",
       "last_action_at": "2026-05-23T15:39:17",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-05-23T15:39:17"
+      "pending_batch": false,
+      "pending_batch_at": "2026-05-23T15:39:17",
+      "batch_sent_at": "2026-05-24T10:01:17"
     },
     "solidarnoe-vzyskanie-dolga-s-dolzhnikov": {
       "category": "vzysk",
@@ -2813,15 +2817,16 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 939,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-23T17:56:18",
       "last_action_at": "2026-05-23T17:56:18",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-05-23T17:56:18"
+      "pending_batch": false,
+      "pending_batch_at": "2026-05-23T17:56:18",
+      "batch_sent_at": "2026-05-24T10:01:19"
     },
     "spisanie-kreditov-svo-do-10-mln-zakon": {
       "category": "news",
@@ -2831,15 +2836,16 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 941,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-23T20:34:19",
       "last_action_at": "2026-05-23T20:34:19",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-05-23T20:34:19"
+      "pending_batch": false,
+      "pending_batch_at": "2026-05-23T20:34:19",
+      "batch_sent_at": "2026-05-24T10:01:22"
     },
     "kak-vybrat-sro-dlya-bankrotstva-fizlica": {
       "category": "fiz",
@@ -2849,15 +2855,16 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 943,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-23T22:38:20",
       "last_action_at": "2026-05-23T22:38:20",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-05-23T22:38:20"
+      "pending_batch": false,
+      "pending_batch_at": "2026-05-23T22:38:20",
+      "batch_sent_at": "2026-05-24T10:01:24"
     },
     "kompensacionnoe-finansirovanie-bankrotstvo-zajmy": {
       "category": "yur",
@@ -2867,19 +2874,282 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 945,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-24T01:03:20",
       "last_action_at": "2026-05-24T01:03:20",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-05-24T01:03:20",
+      "batch_sent_at": "2026-05-24T10:01:26"
+    },
+    "mediaciya-pri-vzyskanii-dolga": {
+      "category": "vzysk",
+      "title": "Медиация при взыскании долга: когда быстрее суда",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 949,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-05-25T22:52:13",
+      "last_action_at": "2026-05-26T10:04:04",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-05-25T22:52:13",
+      "batch_sent_at": "2026-05-26T10:04:04",
+      "batch_fail_count": 0
+    },
+    "roskoshnoe-zhilyo-pri-bankrotstve": {
+      "category": "fiz",
+      "title": "Роскошное жильё при банкротстве: когда продадут",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 951,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-05-26T01:08:13",
+      "last_action_at": "2026-05-26T10:04:06",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-05-26T01:08:13",
+      "batch_sent_at": "2026-05-26T10:04:06",
+      "batch_fail_count": 0
+    },
+    "bankrotstvo-strahovoj-kompanii-prava-strahovatelej": {
+      "category": "yur",
+      "title": "Банкротство страховой: права страхователей и выплаты",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 953,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-05-26T03:34:14",
+      "last_action_at": "2026-05-26T10:04:08",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-05-26T03:34:14",
+      "batch_sent_at": "2026-05-26T10:04:08",
+      "batch_fail_count": 0
+    },
+    "vzyskanie-dolga-pri-likvidacii-dolzhnika": {
+      "category": "vzysk",
+      "title": "Взыскание долга при ликвидации должника",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 955,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-05-26T06:10:15",
+      "last_action_at": "2026-05-26T10:04:10",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-05-26T06:10:15",
+      "batch_sent_at": "2026-05-26T10:04:10",
+      "batch_fail_count": 0
+    },
+    "povtornoe-bankrotstvo-fizlica-sroki-usloviya": {
+      "category": "fiz",
+      "title": "Повторное банкротство физлица: сроки и условия",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 957,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-05-26T08:05:16",
+      "last_action_at": "2026-05-26T10:04:12",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-05-26T08:05:16",
+      "batch_sent_at": "2026-05-26T10:04:12",
+      "batch_fail_count": 0
+    },
+    "bankrotstvo-akcionernogo-obshchestva-prava-akcionerov": {
+      "category": "yur",
+      "title": "Права акционеров при банкротстве АО: что нужно знать",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-05-26T10:36:17",
+      "last_action_at": "2026-05-26T10:36:17",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
       "pending_batch": true,
-      "pending_batch_at": "2026-05-24T01:03:20"
+      "pending_batch_at": "2026-05-26T10:36:17"
+    },
+    "protsenty-stat-395-gk-vzyskanie": {
+      "category": "vzysk",
+      "title": "Взыскание процентов по ст. 395 ГК за просрочку оплаты",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-05-26T13:03:17",
+      "last_action_at": "2026-05-26T13:03:17",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-05-26T13:03:17"
+    },
+    "rashody-bankrotstva-vzyskat-s-uchreditelya": {
+      "category": "news",
+      "title": "Расходы на банкротство - теперь с учредителя",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-05-26T15:21:18",
+      "last_action_at": "2026-05-26T15:21:18",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-05-26T15:21:18"
+    },
+    "pensiya-pri-bankrotstve-fizlica": {
+      "category": "fiz",
+      "title": "Пенсия при банкротстве: сколько денег оставят",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-05-26T17:50:19",
+      "last_action_at": "2026-05-26T17:50:19",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-05-26T17:50:19"
+    },
+    "poruchitelstvo-direktora-za-dolgi-kompanii-bankrotstvo": {
+      "category": "yur",
+      "title": "Поручительство директора при банкротстве компании",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-05-26T20:26:20",
+      "last_action_at": "2026-05-26T20:26:20",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-05-26T20:26:20"
+    },
+    "snyatie-aresta-s-imushchestva-cherez-sud": {
+      "category": "vzysk",
+      "title": "Снятие ареста с имущества через суд",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-05-26T23:05:21",
+      "last_action_at": "2026-05-26T23:05:21",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-05-26T23:05:21"
+    },
+    "dacha-garazh-zemelnyj-uchastok-bankrotstvo": {
+      "category": "fiz",
+      "title": "Дача и гараж при банкротстве физлица: заберут или нет",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-05-27T00:57:22",
+      "last_action_at": "2026-05-27T00:57:22",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-05-27T00:57:22"
+    },
+    "bankrotstvo-banka-prava-klientov": {
+      "category": "yur",
+      "title": "Банкротство банка: права вкладчиков и кредиторов",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-05-27T03:34:22",
+      "last_action_at": "2026-05-27T03:34:22",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-05-27T03:34:23"
+    },
+    "vzyskanie-dolga-po-dogovoru-arendy": {
+      "category": "vzysk",
+      "title": "Взыскание долга по договору аренды с арендатора",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-05-27T06:05:23",
+      "last_action_at": "2026-05-27T06:05:23",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-05-27T06:05:23"
     }
   },
   "pending_actions": [],
-  "last_batch_date": "2026-05-23",
-  "last_batch_count": 10,
-  "last_batch_at": "2026-05-23T10:01:10"
+  "last_batch_date": "2026-05-26",
+  "last_batch_count": 5,
+  "last_batch_at": "2026-05-26T10:04:12"
 }
