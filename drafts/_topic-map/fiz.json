@@ -1864,7 +1864,11 @@
       "expected_length_chars": 7000,
       "topic_action": "дистанционное банкротство",
       "title_length": 51,
-      "description_length": 154
+      "description_length": 154,
+      "status": "rejected",
+      "rejected_at": "2026-05-27T09:01:11",
+      "rejected_reason": "hang_total_timeout",
+      "rejected_by": "auto_skip_in_slot"
     },
     {
       "id": "fiz-68",
