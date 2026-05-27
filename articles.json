@@ -2,6 +2,19 @@
   "generated": "2026-05-27",
   "articles": [
     {
+      "slug": "solidarnoe-vzyskanie-dolga-s-dolzhnikov",
+      "cat": "vzysk",
+      "catLabel": "Взыскание задолженности",
+      "title": "Солидарное взыскание долга с нескольких должников",
+      "desc": "Как взыскать долг солидарно: составить иск, выбрать ответчика, запустить исполнительное производство через приставов и добиться регресса.",
+      "date": "27 мая 2026",
+      "dateIso": "2026-05-27",
+      "read": "5 мин.",
+      "tone": "b",
+      "img": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779548134/articles/solidarnoe-vzyskanie-dolga-s-dolzhnikov-cover.jpg",
+      "url": "articles/vzysk/solidarnoe-vzyskanie-dolga-s-dolzhnikov"
+    },
+    {
       "slug": "restrukturizaciya-dolgov-yurlica-do-bankrotstva",
       "cat": "yur",
       "catLabel": "Банкротство юридических лиц",
