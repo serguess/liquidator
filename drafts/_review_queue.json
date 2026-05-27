@@ -1799,6 +1799,19 @@
         "passed": false,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "cessiya-ustupka-trebovaniya-prava-dolzhnika",
+      "category": "vzysk",
+      "title": "Права должника при продаже долга коллекторам",
+      "added_at": "2026-05-27T17:54:58.085544",
+      "char_count": 7670,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779893696/articles/cessiya-ustupka-trebovaniya-prava-dolzhnika-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

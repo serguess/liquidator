@@ -8314,5 +8314,87 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-05-27T12:24:06",
+    "category": "yur",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 2,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "yur-61",
+    "topic_slug": "otkaz-ot-dogovora-pri-bankrotstve-statya-102",
+    "auto_skipped": [
+      {
+        "slug": "nominalnyj-direktor-subsidiarnaya-otvetstvennost",
+        "reason": "cannibalization:preflight:cluster:yur-subsidiarka-director-defense",
+        "duration_sec": 0
+      }
+    ],
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "Автофикс применил правки: сокращения=0, пунктуация=0",
+        "internal_links_autofixed: 3 ссылок (например /articles/yur/vneshnee-upravlenie-pri-bankrotstve-yurlica.html→/articles/yur/vneshnee-upravlenie-pri-bankrotstve-yurlica; /articles/vzysk/vzyskanie-ubytkov-upushchennaya-vygoda.html→/articles/vzysk/vzyskanie-ubytkov-upushchennaya-vygoda; /articles/yur/dogovor-arendy-pri-bankrotstve-arendatora.html→/articles/yur/dogovor-arendy-pri-bankrotstve-arendatora)",
+        "forced_pass_at_iter2: блокеры пропущены, статья идёт в TG-очередь с metrics_warning=true. Было: 1 блокеров — spam_risk"
+      ],
+      "recommendations": [
+        "reduce_repetition: разбавить топ-5 частотных лемм местоимениями/перифразом — ['банкротств', 'исполнен', 'контракт', 'норм', 'управляющег']"
+      ],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "otkaz-ot-dogovora-pri-bankrotstve-statya-102",
+    "duration_sec": 1693.6,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": " фактов проверены)\n- **Quality gate:** exit 0, hard_failed=false; мягкий блокер `spam_risk` (top10_share=0.137, предсказанный spam ~62%) — без итерации, статья прошла без `metrics_warning`\n- **Обложка:** сгенерирована (template_id=23, архитектурная сцена), загружена на Cloudinary\n- **Статус:** `ready_for_review=true`, добавлена в очередь TG-бота\n\n**text.ru метрики:** не заполнены (проверяются асинхронно планировщиком).\n\n**Файл:** `drafts/otkaz-ot-dogovora-pri-bankrotstve-statya-102/article.html`",
+    "stderr_tail": "",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7928
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
+  },
+  {
+    "timestamp": "2026-05-27T14:48:11",
+    "category": "vzysk",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "status": "timeout",
+    "duration_sec": 132.4
   }
 ]
