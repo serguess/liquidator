@@ -8396,5 +8396,61 @@
     },
     "status": "timeout",
     "duration_sec": 132.4
+  },
+  {
+    "timestamp": "2026-05-27T17:12:11",
+    "category": "vzysk",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 7,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "vzysk-52",
+    "topic_slug": "cessiya-ustupka-trebovaniya-prava-dolzhnika",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "forced_pass_at_iter2: блокеры пропущены, статья идёт в TG-очередь с metrics_warning=true. Было: 1 блокеров — spam_risk"
+      ],
+      "recommendations": [
+        "reduce_repetition: разбавить топ-5 частотных лемм местоимениями/перифразом — ['стать', 'организац', 'долг', 'продаж', 'обязательств']"
+      ],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "cessiya-ustupka-trebovaniya-prava-dolzhnika",
+    "duration_sec": 2582.1,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "ing=true)\n- **Обложка:** сгенерирована, template_id=4, загружена в Cloudinary\n- **Готова к ревью:** да, добавлена в очередь TG-бота (всего 139 позиций в очереди)\n- **Файл:** `drafts/cessiya-ustupka-trebovaniya-prava-dolzhnika/article.html`\n\n**Метрики text.ru:** не заполнены (проверка на text.ru — отдельный процесс после публикации).\n\n**Примечание:** `metrics_warning=true` из-за ngram3-repeat (0.054 при пороге 0.040). Это мягкий показатель; статья прошла все hard-блокеры и уходит в очередь ревью.",
+    "stderr_tail": "",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7670
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]
