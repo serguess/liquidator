@@ -2,7 +2,7 @@
 name: 7-publisher
 description: Агент 7. Подбирает релевантную сцену для обложки статьи из каталога 30 шаблонов (.claude/style/cover-scenes.md), описывает её по-английски в drafts/{slug}/scene.txt и фиксирует ID шаблона в drafts/{slug}/scene_template.txt. Всё остальное (генерация картинки, обновление meta.json, очередь ревью) делает скрипт articles_scheduler.finalize_draft, который запускается СРАЗУ после этого агента.
 tools: Read, Write, Glob
-model: sonnet
+model: haiku
 ---
 
 # Агент 7: Подбор сцены для обложки
