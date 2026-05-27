@@ -2776,7 +2776,7 @@
     "nedobrosovestnost-dolzhnika-otkaz-v-spisanii": {
       "category": "fiz",
       "title": "Недобросовестность должника: когда долги не спишут",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -2784,13 +2784,15 @@
       "tg_message_id": 935,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-23T13:06:16",
-      "last_action_at": "2026-05-23T13:06:16",
+      "last_action_at": "2026-05-27T13:47:01",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/fiz/nedobrosovestnost-dolzhnika-otkaz-v-spisanii",
       "pending_batch": false,
       "pending_batch_at": "2026-05-23T13:06:16",
-      "batch_sent_at": "2026-05-24T10:01:15"
+      "batch_sent_at": "2026-05-24T10:01:15",
+      "published_at": "2026-05-27T13:47:01",
+      "articles_path": "articles/fiz/nedobrosovestnost-dolzhnika-otkaz-v-spisanii.html"
     },
     "restrukturizaciya-dolgov-yurlica-do-bankrotstva": {
       "category": "yur",
