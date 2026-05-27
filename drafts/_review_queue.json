@@ -1786,6 +1786,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "otkaz-ot-dogovora-pri-bankrotstve-statya-102",
+      "category": "yur",
+      "title": "Отказ от договора при банкротстве: права управляющего",
+      "added_at": "2026-05-27T12:52:02.987379",
+      "char_count": 7928,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779875521/articles/otkaz-ot-dogovora-pri-bankrotstve-statya-102-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": false,
+        "hard_failed": false
+      }
     }
   ]
 }

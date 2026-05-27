@@ -8256,5 +8256,63 @@
     "stdout_tail": "ft.md создан (7983 знака). Обновляю heartbeat и запускаю агента 5.\n[tool_use:Bash]\n[tool_use:Agent]\n[tool_use:Read]\n[tool_use:Read]\n[tool_use:Read]\n[tool_use:Bash]\n[tool_use:Bash]\n[tool_use:Bash]\n[tool_use:Write]\nАгент 5: passed: true. Обновляю heartbeat и запускаю агента 6.\n[tool_use:Bash]\n[tool_use:Agent]\n[tool_use:Read]\n[tool_use:Read]\n[tool_use:Read]\n[tool_use:Read]\n[tool_use:Bash]\n[tool_use:Bash]\n[tool_use:Bash]\n[tool_use:Bash]\n[tool_use:Bash]\n[tool_use:Read]\n[tool_use:Read]\n[tool_use:Bash]",
     "stderr_tail": "\n[scheduler] hit slot/article timeout after 2870s",
     "metrics": null
+  },
+  {
+    "timestamp": "2026-05-27T10:00:03",
+    "category": "fiz",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 1,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "fiz-68",
+    "topic_slug": "avtomobil-pri-bankrotstve-fizlica",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "Автофикс применил правки: сокращения=0, пунктуация=0",
+        "internal_links_autofixed: 3 ссылок (например /articles/fiz/bankrotstvo-invalida-lgoty-pensiya.html→/articles/fiz/bankrotstvo-invalida-lgoty-pensiya; /articles/fiz/bankrotstvo-fizlica-pri-razvode.html→/articles/fiz/bankrotstvo-fizlica-pri-razvode; /articles/fiz/chto-nelzya-delat-pered-bankrotstvom-fizlica.html→/articles/fiz/chto-nelzya-delat-pered-bankrotstvom-fizlica)",
+        "forced_pass_at_iter2: блокеры пропущены, статья идёт в TG-очередь с metrics_warning=true. Было: 1 блокеров — spam_risk"
+      ],
+      "recommendations": [
+        "reduce_repetition: разбавить топ-5 частотных лемм местоимениями/перифразом — ['автомобил', 'авто', 'банкротств', 'стать', 'машин']"
+      ],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "avtomobil-pri-bankrotstve-fizlica",
+    "duration_sec": 2248.2,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "нерирована, шаблон #3, загружена на Cloudinary\n- **Режим публикации:** TG-очередь (`ready_for_review=true`)\n- **Файл:** `drafts/avtomobil-pri-bankrotstve-fizlica/article.html`\n\n**Метрики text.ru (predicted):**\n- `textru_spam`: ~57% (metrics_warning)\n- `textru_ai_detector`: ~3%\n- `textru_uniqueness`: ~87%\n\nСтатья ждёт одобрения в Telegram-боте. Основная проблема — высокая плотность темы «автомобиль/машина» неизбежна для этой статьи (сложно уйти от леммы при описании судьбы конкретного имущества).",
+    "stderr_tail": "",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7679
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]
