@@ -1665,7 +1665,11 @@
       "frequency_estimate": "medium",
       "rationale": "Номинальные директора — уязвимая группа: суды привлекают их как КДЛ, но закон допускает снижение ответственности при раскрытии реального владельца. Острая практическая тема с платёжеспособной аудиторией.",
       "expected_length_chars": 7000,
-      "topic_action": "защиту номинального директора от субсидиарной ответственности"
+      "topic_action": "защиту номинального директора от субсидиарной ответственности",
+      "status": "rejected",
+      "rejected_at": "2026-05-27T12:24:12",
+      "rejected_reason": "cannibalization:preflight:cluster:yur-subsidiarka-director-defense",
+      "rejected_by": "auto_skip_in_slot"
     },
     {
       "id": "yur-61",
