@@ -1,0 +1,110 @@
+{
+  "slug": "kak-uskorit-vzyskanie-cherez-pristavov",
+  "category": "vzysk",
+  "title": "Как ускорить взыскание долга через приставов",
+  "description": "Что делать взыскателю, если пристав бездействует: ходатайства, прямое обращение в банк, жалобы и иск по КАС — конкретные инструменты ускорения исполнительного производства.",
+  "h1": "Как ускорить взыскание долга через приставов",
+  "lead": "Три параллельных маршрута для взыскателя: письменные ходатайства приставу, прямое предъявление листа в банк должника и жалоба на бездействие в ФССП и суд.",
+  "topic_action": "ускорение взыскания через приставов",
+  "breadcrumb_current": "Как ускорить взыскание через приставов",
+  "og_image": "/assets/articles/kak-uskorit-vzyskanie-cherez-pristavov.jpg",
+  "main_keyword": "как ускорить взыскание долга через приставов",
+  "secondary_keywords": [
+    "ускорить исполнительное производство",
+    "жалоба на бездействие пристава",
+    "ходатайство приставу о розыске имущества",
+    "права взыскателя в исполнительном производстве",
+    "как заставить пристава работать",
+    "жалоба на пристава старшему приставу",
+    "административный иск на бездействие пристава"
+  ],
+  "keywords": [
+    "как ускорить взыскание долга через приставов",
+    "ускорить исполнительное производство",
+    "жалоба на бездействие пристава",
+    "ходатайство приставу о розыске имущества",
+    "права взыскателя в исполнительном производстве",
+    "как заставить пристава работать",
+    "жалоба на пристава старшему приставу",
+    "административный иск на бездействие пристава"
+  ],
+  "author": "ООО ЛИКВИДАТОР",
+  "internal_links": [
+    "/ispolnitelnyj-list-poluchenie-predyavlenie.html",
+    "/kak-pristavy-ishhut-dolzhnikov-imushchestvo.html",
+    "/chto-takoe-ispolnitelnoe-proizvodstvo.html",
+    "/okonchanie-ip-po-state-46.html"
+  ],
+  "external_links": [],
+  "faq": [
+    {
+      "question": "Через сколько дней пристав обязан возбудить производство?",
+      "answer": "Три рабочих дня с момента поступления документа — прямая норма закона № 229-ФЗ. Нарушение этого срока — отдельное основание для жалобы начальнику подразделения."
+    },
+    {
+      "question": "Можно ли одновременно жаловаться в ФССП и подать иск в суд?",
+      "answer": "Да. Административное обжалование и иск по КАС — параллельные инструменты, они не исключают друг друга. В нашей практике двойное давление быстрее приводит к результату."
+    },
+    {
+      "question": "Какие сведения из дела кредитор вправе просмотреть лично?",
+      "answer": "Все материалы: запросы, ответы из кредитных организаций, Росреестра, ГИБДД, налоговой, Пенсионного фонда, вынесенные постановления. Право прямо закреплено в законе № 229-ФЗ. Нужно назначить время визита и попросить дело для ознакомления."
+    },
+    {
+      "question": "Что происходит с исполнительским сбором, если должник платит добровольно?",
+      "answer": "Если оплата поступила в течение пяти рабочих дней после получения постановления о возбуждении — сбор не взимается. Если срок пропущен, инспектор начисляет 7% от суммы долга, не менее тысячи рублей с физического лица. Эти деньги идут в бюджет, не кредитору."
+    },
+    {
+      "question": "Обязательно ли ждать двух месяцев, прежде чем идти в банк напрямую?",
+      "answer": "Нет. Два месяца — организационный период для должностного лица ФССП, не ограничение для получателя долга. Предъявить лист в кредитную организацию можно в любой момент после его получения."
+    },
+    {
+      "question": "Распространяется ли запрет на выезд при любой сумме долга?",
+      "answer": "Нет. Автоматический запрет при имущественных требованиях — при долге свыше 30 000 рублей и просрочке более двух месяцев. При меньшей сумме — только по заявлению получателя долга. По алиментным требованиям действует отдельный порог — десять тысяч рублей."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все ключевые нормы (ст. 8, 9, 30, 36, 46, 50, 64, 65, 67, 67.1, 80, 81, 99, 112, 123, 126 ФЗ-229; ст. 218, 219 КАС РФ) сверены с research.json — formulations соответствуют safe_phrasing.",
+    "Пороги 10 000 / 30 000 / 100 000 рублей и ставка исполнительского сбора 7% (мин. 1000 руб. для физлица) — подтверждены fact f6, f12, f17, f20.",
+    "Запрещённые утверждения (гарантия результата жалобы, обязанность пристава 'найти' имущество, лично описать имущество взыскателем, исполнительский сбор как 'штраф') — в тексте отсутствуют.",
+    "external_links оставлен пустым: research.key_sources содержит только null, fact_gaps указывает на отсутствие URL для ФЗ-229 и КАС РФ в whitelist. Фальсификация ссылок недопустима."
+  ],
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "text_chars": 7955,
+  "length_status": "warn",
+  "length_kind": "default",
+  "local_spam_top10_share": 0.122,
+  "local_spam_ngram3_repeat": 0.04,
+  "local_lexical_diversity": 0.572,
+  "local_ai_markers_density": 0.41,
+  "local_ai_markers_total": 4,
+  "local_ai_markers_critical": 0,
+  "local_ai_markers_high": 1,
+  "local_own_voice_hits": 3,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 5,
+  "predicted_spam_pct": 62,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность заметно выше 50% (~62%)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "spam_risk: 6 флагов (top1_count>12 (=15, лемма «норм»), top3_sum>30 (=35), top10_sum>80 (=89), top10_share>0.115 (=0.122), ngram3_repeat_share>0.035 (=0.04), lexical_diversity<0.58 (=0.572)), top-5: ['норм', 'обращен', 'ответчик', 'лист', 'месяц']"
+  ],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779928590/articles/kak-uskorit-vzyskanie-cherez-pristavov-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1779928590/articles/kak-uskorit-vzyskanie-cherez-pristavov-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Photograph through rain-streaked glass viewing a contemporary administrative building — the camera positioned at a desk interior looking outward. Foreground objects in sharp focus on a light surface: a closed sleek laptop, a leather-bound notebook with a fountain pen lying across its cover, reading glasses, a white porcelain coffee cup on a saucer. Background beyond the window: glass façade and wet street reflecting rain, distant amber lampposts glowing through water droplets, architectural geometry softened by raindrops. Camera: tight horizontal crop, eye-level framing. Lighting: cool overcast daylight through wet glass contrasted with warm interior lamp glow illuminating the foreground objects. Palette: cool blue-grey rain tones with warm cream and brass accents on the desk items. Mood: determined creditor at work, multiple tools at hand, contemporary urban enforcement action.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-05-28T00:36:32Z",
+  "date_published": "2026-05-28",
+  "date_modified": "2026-05-28",
+  "ready_for_review": true,
+  "ready_at": "2026-05-28T00:36:32Z",
+  "publication_target": "telegram_review"
+}

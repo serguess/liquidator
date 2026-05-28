@@ -1,0 +1,42 @@
+{
+  "slug": "kak-uskorit-vzyskanie-cherez-pristavov",
+  "passed": false,
+  "scores": {
+    "structure_overlap": 0.0,
+    "thesis_similarity": 0.021,
+    "cta_overlap": 0.334
+  },
+  "thresholds": {
+    "structure_overlap": 0.4,
+    "thesis_similarity": 0.3,
+    "cta_overlap": 0.2
+  },
+  "similar_articles": [
+    {
+      "slug": "avtomobil-pri-bankrotstve-fizlica",
+      "category": "fiz",
+      "similarity": 0.3906,
+      "conflict_type": "cta_overlap"
+    },
+    {
+      "slug": "cessiya-ustupka-trebovaniya-prava-dolzhnika",
+      "category": "vzysk",
+      "similarity": 0.3336,
+      "conflict_type": "cta_overlap"
+    },
+    {
+      "slug": "pensiya-pri-bankrotstve-fizlica",
+      "category": "fiz",
+      "similarity": 0.3114,
+      "conflict_type": "cta_overlap"
+    }
+  ],
+  "conflicts": [
+    "cta_overlap: 0.334 (threshold: 0.2) — финальные абзацы содержат стандартную рекомендацию обратиться к юристу, как и в других статьях категории. Требуется изменить угол подачи финального дожима."
+  ],
+  "recommendation": "rewrite_with_angle:chego-ne-delat",
+  "explanation": "Текущая статья построена на схеме 'Что делать' (три маршрута, ходатайства, прямое предъявление). Финальные абзацы повторяют стандартный паттерн юридических статей: '...помогает выстроить последовательность и корректно сформулировать'. Для снижения эмбеддинговой близости CTA-блока рекомендуется переформулировать финал с угла 'Чего не делать' — показать типичные ошибки взыскателей (пропуск 10-дневного срока жалобы, ожидание 2 месяцев вместо немедленного действия, неправильное оформление ходатайства). Это изменит семантику финального блока, снизит cosine similarity с опубликованными статьями и даст новый угол читателю.",
+  "stored_in_db": true,
+  "article_id": 164,
+  "note": "Вектор статьи записан в data/embeddings.sqlite с published=0. Структура и тезисы уникальны, проблема только в семантике CTA-формулировок."
+}

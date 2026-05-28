@@ -3922,6 +3922,26 @@
       "articles": [
         "administrativnaya-otvetstvennost-direktora-bankrotstvo"
       ]
+    },
+    {
+      "id": "vzysk-uskorenie-ip-vzyskatelem",
+      "category": "vzysk",
+      "subtopic": "как взыскателю ускорить исполнительное производство через приставов",
+      "intent": "informational",
+      "funnel_stage": "warm",
+      "main_keyword": "как ускорить взыскание долга через приставов",
+      "related_keywords": [
+        "ускорить исполнительное производство",
+        "жалоба на бездействие пристава",
+        "ходатайство приставу о розыске имущества",
+        "права взыскателя в исполнительном производстве",
+        "как заставить пристава работать",
+        "жалоба на пристава старшему приставу",
+        "административный иск на бездействие пристава"
+      ],
+      "articles": [
+        "kak-uskorit-vzyskanie-cherez-pristavov"
+      ]
     }
   ]
 }

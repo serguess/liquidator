@@ -8568,5 +8568,63 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-05-28T00:24:37",
+    "category": "yur",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 10,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "yur-62",
+    "topic_slug": "administrativnaya-otvetstvennost-direktora-bankrotstvo",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "Автофикс применил правки: сокращения=0, пунктуация=0",
+        "internal_links_autofixed: 4 ссылок (например /articles/yur/priznaki-bankrotstva-yurlica.html→/articles/yur/priznaki-bankrotstva-yurlica; /articles/yur/nepravomernye-dejstviya-bankrotstvo-statya-195.html→/articles/yur/nepravomernye-dejstviya-bankrotstvo-statya-195; /articles/yur/prednamerennoe-bankrotstvo-ugolovnaya-otvetstvennost.html→/articles/yur/prednamerennoe-bankrotstvo-ugolovnaya-otvetstvennost)",
+        "forced_pass_at_iter2: блокеры пропущены, статья идёт в TG-очередь с metrics_warning=true. Было: 1 блокеров — spam_risk"
+      ],
+      "recommendations": [
+        "reduce_repetition: разбавить топ-5 частотных лемм местоимениями/перифразом — ['состав', 'руководител', 'несостоятельност', 'директор', 'рубл']"
+      ],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "administrativnaya-otvetstvennost-direktora-bankrotstvo",
+    "duration_sec": 2921.5,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "тчек (агент 6): passed\n- Quality gate: forced_pass iter=2, `metrics_warning=true` — единственный блокер `spam_risk` (лемма «состав» ×13, lexical_diversity=0.556). Hard-блокеров нет.\n- Внутренние ссылки: 4 ссылки исправлены (добавлен `/yur/` в путь)\n\n**Метрики text.ru:** не получены (анализ ещё не запускался)\n`textru_ai_detector`: —\n`textru_uniqueness`: —\n`textru_spam`: —\n\n**Обложка:** сгенерирована (template_id=13), загружена в Cloudinary, статья добавлена в TG-очередь (`ready_for_review=true`).",
+    "stderr_tail": "",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7591
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]
