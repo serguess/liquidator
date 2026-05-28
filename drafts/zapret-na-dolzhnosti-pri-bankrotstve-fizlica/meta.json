@@ -1,0 +1,103 @@
+{
+  "slug": "zapret-na-dolzhnosti-pri-bankrotstve-fizlica",
+  "category": "fiz",
+  "title": "Запрет на должности после банкротства физлица",
+  "description": "Кому после банкротства нельзя быть директором, учредителем, руководить МФО или банком - сроки 3, 5 и 10 лет по ст. 213.30 ФЗ-127 с разбором исключений.",
+  "h1": "Запрет на должности после банкротства физлица: кому и на сколько лет",
+  "lead": "Управленческие должности после завершения реализации имущества закрыты на 3, 5 или 10 лет - в зависимости от типа организации. Разбираем, кого и где ждёт ограничение.",
+  "topic_action": "проверку ограничений после банкротства",
+  "breadcrumb_current": "Запрет на должности после банкротства физлица",
+  "og_image": "/assets/articles/zapret-na-dolzhnosti-pri-bankrotstve-fizlica.jpg",
+  "main_keyword": "запрет на должности после банкротства физлица",
+  "secondary_keywords": [
+    "запрет на руководящие должности после банкротства",
+    "сроки запрета на должности при банкротстве",
+    "можно ли быть директором после банкротства",
+    "ограничения после банкротства физлица по должностям",
+    "статья 213.30 ФЗ-127 последствия",
+    "запрет ИП после банкротства физлица",
+    "запрет кредитная организация 10 лет банкротство",
+    "МФО страховая запрет 5 лет банкротство"
+  ],
+  "internal_links": [
+    "/articles/fiz/bankrotstvo-fizlica-dolya-v-ooo.html",
+    "/articles/fiz/kogda-dolgi-ne-spishut-pri-bankrotstve.html",
+    "/articles/fiz/chto-nelzya-delat-pered-bankrotstvom-fizlica.html"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/",
+    "https://www.consultant.ru/document/cons_doc_LAW_5142/"
+  ],
+  "faq": [
+    {
+      "question": "Можно ли стать учредителем компании сразу после завершения реализации имущества?",
+      "answer": "Да. Ограничение касается только должностей в органах управления. Владеть долей или акциями закон не запрещает. Условие одно: не руководить организацией ни формально, ни фактически."
+    },
+    {
+      "question": "Какой срок действует, если несостоятельность оформлялась через МФЦ, а не через арбитраж?",
+      "answer": "Те же - 3, 5 или 10 лет в зависимости от типа организации. Отличается только точка отсчёта: для МФЦ - дата публикации в ЕФРСБ, для арбитражного дела - дата определения суда."
+    },
+    {
+      "question": "Распространяется ли ограничение на главного бухгалтера или коммерческого директора?",
+      "answer": "Главный бухгалтер - не орган управления, ограничение не распространяется. Коммерческий директор - аналогично, если он не является единоличным исполнительным органом и не входит в правление или наблюдательный совет."
+    },
+    {
+      "question": "До какого момента нельзя открыть ИП - и отличается ли эта дата от запрета на управление компанией?",
+      "answer": "Это разные сроки. Запрет на ИП - пять лет с даты признания банкротом (статья 216 закона). Запрет на должности в компаниях - три с даты определения о завершении реализации имущества. Пятилетний период на ИП часто заканчивается позже трёхлетнего на руководство."
+    },
+    {
+      "question": "Что произойдёт, если работодатель не знал о завершённом деле и назначил человека руководителем?",
+      "answer": "Добросовестность работодателя не снимает правовых последствий. Решение о назначении может быть оспорено по статье 168 гражданского кодекса. Проверить статус кандидата можно через ЕФРСБ (bankrot.fedresurs.ru) - это бесплатно."
+    },
+    {
+      "question": "Обязательно ли при каждом обращении за кредитом сообщать о прошлом признании несостоятельным?",
+      "answer": "Да, пять лет после завершения реализации имущества. Это требование той же нормы. Речь не о запрете на кредит - об обязанности раскрыть информацию банку или займодавцу."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все юр-утверждения сверены с research.json (f1-f16), last_verified=2026-05-28, legislation_status=active.",
+    "Сроки 3/5/10 лет - п. 3 ст. 213.30 закона 127-ФЗ (ред. ФЗ-517 от 27.12.2018) - сверено по f1, f2, f3.",
+    "Запрет ИП 5 лет с даты признания банкротом - ст. 216 п. 2 закона 127-ФЗ - сверено по f4.",
+    "Внесудебное банкротство через МФЦ - те же последствия (ст. 223.6 п. 5) - сверено по f8.",
+    "Отсутствие специальной уголовной/административной ответственности отражено честно (fact_gap зафиксирован), последствия даны через ст. 168 ГК РФ и п. 4 ст. 213.28."
+  ],
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "text_chars": 7288,
+  "length_status": "ok",
+  "length_kind": "default",
+  "local_spam_top10_share": 0.115,
+  "local_spam_ngram3_repeat": 0.025,
+  "local_lexical_diversity": 0.61,
+  "local_ai_markers_density": 0.43,
+  "local_ai_markers_total": 4,
+  "local_ai_markers_critical": 0,
+  "local_ai_markers_high": 1,
+  "local_own_voice_hits": 3,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 5,
+  "predicted_spam_pct": 53,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность чуть выше 50% (~53%)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "spam_risk: 1 флагов (top1_count>12 (=15, лемма «норм»)), top-5: ['норм', 'фирм', 'период', 'орган', 'правил']"
+  ],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779961788/articles/zapret-na-dolzhnosti-pri-bankrotstve-fizlica-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1779961788/articles/zapret-na-dolzhnosti-pri-bankrotstve-fizlica-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Wide editorial photograph of a polished conference table with a deliberately minimal arrangement on dark walnut. Foreground: a closed oxblood leather portfolio, a fountain pen aligned with the portfolio's edge, an antique brass pocket watch face-down beside it, a polished round company seal, a stack of two closed dossiers tied with cord, a single empty crystal water glass catching light. Background through floor-to-ceiling windows: rain-streaked cityscape or neutral overcast. Camera: symmetric down the table OR slight three-quarter from left corner. Lighting: cool window light blended with warm pendant glow. Mood: grave administrative pause, bureaucratic consequence, career interruption.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-05-28T09:49:49Z",
+  "date_published": "2026-05-28",
+  "date_modified": "2026-05-28",
+  "ready_for_review": true,
+  "ready_at": "2026-05-28T09:49:49Z",
+  "publication_target": "telegram_review"
+}

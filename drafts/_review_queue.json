@@ -1903,6 +1903,19 @@
         "passed": false,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "zapret-na-dolzhnosti-pri-bankrotstve-fizlica",
+      "category": "fiz",
+      "title": "Запрет на должности после банкротства физлица",
+      "added_at": "2026-05-28T12:49:49.153423",
+      "char_count": 7288,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779961788/articles/zapret-na-dolzhnosti-pri-bankrotstve-fizlica-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
