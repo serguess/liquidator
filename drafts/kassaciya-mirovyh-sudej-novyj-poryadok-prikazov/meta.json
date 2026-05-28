@@ -1,0 +1,98 @@
+{
+  "slug": "kassaciya-mirovyh-sudej-novyj-poryadok-prikazov",
+  "category": "news",
+  "title": "Кассация мировых судей: новый порядок обжалования",
+  "description": "С 10 мая 2026 года жалобы на решения и приказы мировых судей подают в президиум областного суда, а не в КСОЮ. Что изменилось для должников и как правильно подать жалобу.",
+  "h1": "Кассация по делам мировых судей: куда теперь идти должнику",
+  "lead": "Маршрут кассационного обжалования по делам мировых судей изменился: жалоба теперь идёт не в окружной КСОЮ, а в президиум регионального суда. Разбираем новый порядок и сроки.",
+  "topic_action": "обжалование решения мирового судьи",
+  "breadcrumb_current": "Кассация мировых судей: новый порядок",
+  "og_image": "/assets/articles/kassaciya-mirovyh-sudej-novyj-poryadok-prikazov.jpg",
+  "main_keyword": "кассация мировых судей новый порядок",
+  "secondary_keywords": [
+    "обжалование решения мирового судьи в кассации",
+    "кассационная жалоба на решение мирового судьи куда подавать",
+    "президиум областного суда кассация",
+    "отмена судебного приказа кассационная жалоба",
+    "выборочная кассация ГПК мировой судья",
+    "ФЗ-79 изменения ГПК кассация",
+    "кассационное обжалование мировых судей президиум"
+  ],
+  "internal_links": [
+    "/articles/vzysk/kak-otmenit-sudebnyj-prikaz.html",
+    "/articles/vzysk/kassacionnaya-zhaloba-na-sudebnyj-prikaz.html",
+    "/articles/vzysk/chto-takoe-ispolnitelnoe-proizvodstvo.html"
+  ],
+  "external_links": [
+    "http://publication.pravo.gov.ru/document/0001202604090016"
+  ],
+  "faq": [
+    {
+      "question": "Обязательно ли проходить апелляцию в районном суде перед этой инстанцией?",
+      "answer": "Да. Кассация следует за апелляцией. Сначала решение мирового судьи обжалуется в районном суде, и только после апелляционного определения открывается путь в высший суд субъекта. Минуя апелляцию, кассационное обращение подать нельзя."
+    },
+    {
+      "question": "Нужно ли платить госпошлину при подаче жалобы?",
+      "answer": "Да, госпошлина уплачивается. Размер зависит от категории дела и статуса заявителя. Точные суммы — по таблице Налогового кодекса или у сотрудников суда при подаче."
+    },
+    {
+      "question": "Можно ли направить обращение напрямую в региональный суд, минуя участок?",
+      "answer": "Нет. Жалоба подаётся через суд, вынесший обжалуемый акт — через мировой участок или районный суд (если обжалуется апелляционное определение). Прямая подача приведёт к возврату без рассмотрения."
+    },
+    {
+      "question": "Что происходит с удержаниями, пока рассматривается кассационная жалоба?",
+      "answer": "Удержания продолжаются. Подача обращения приставов не останавливает. Для паузы нужно отдельное ходатайство о приостановлении исполнения — суд вправе удовлетворить, но не обязан."
+    },
+    {
+      "question": "Распространяется ли новый порядок на приказы, выданные до 10 мая 2026 года?",
+      "answer": "Порядок привязан к дате подачи жалобы. Приказ выдан в 2024 году, но обращение подаётся 15 мая 2026-го — действует новый порядок: жалоба идёт туда. Обращение подано до 10 мая — рассматривает КСОЮ."
+    },
+    {
+      "question": "Чем отличаются последствия решения нового суда от решения КСОЮ?",
+      "answer": "По практическим последствиям ничем: обе инстанции вправе отменить акт, изменить его или направить дело на новое рассмотрение. Разница — в территориальной доступности: президиум областного суда ближе, чем окружной КСОЮ."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все юр-факты сверены с research.json (f1-f14), legislation_status: active, last_verified 2026-05-28",
+    "Цитирование статей ГПК в теле ≤ 600 знаков, в основном пересказ",
+    "ФЗ-79 от 09.04.2026 подтверждён primary_source pravo.gov.ru",
+    "Статьи ГПК 121, 122, 376.1, 379.3, 379.7 упомянуты текстом без кликабельных ссылок (нет в whitelist)",
+    "Год в title и h1 отсутствует (требование для category=news)"
+  ],
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "text_chars": 7368,
+  "length_status": "too_long",
+  "length_kind": "news",
+  "local_spam_top10_share": 0.106,
+  "local_spam_ngram3_repeat": 0.018,
+  "local_lexical_diversity": 0.606,
+  "local_ai_markers_density": 0.22,
+  "local_ai_markers_total": 2,
+  "local_ai_markers_critical": 0,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 3,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 53,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность чуть выше 50% (~53%)",
+    "длина значительно больше лимита 6800 (7 368 знаков)"
+  ],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779987782/articles/kassaciya-mirovyh-sudej-novyj-poryadok-prikazov-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1779987782/articles/kassaciya-mirovyh-sudej-novyj-poryadok-prikazov-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Editorial photograph of a polished marble surface in the foreground holding business objects arranged as if mid-documentation: a closed dark leather portfolio positioned slightly left, a fountain pen aligned diagonally across the portfolio's edge, a polished round seal resting on a small stack of bound dossiers, an antique brass pocket watch on a chain, a brass key ring with weathered patina, a small white porcelain cup on the right. Soft architectural background: blurred columns and arched stone corridor receding into soft focus, suggesting passage through a building's internal hierarchy. Camera: tabletop level, three-quarter angle. Lighting: natural soft daylight grazing the marble surface, revealing subtle veining and texture. Palette: warm cream marble, cool grey shadow, burnished brass accents, oxblood leather. Mood: official procedural authority, timeless legal craftsmanship.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-05-28T17:03:03Z",
+  "date_published": "2026-05-28",
+  "date_modified": "2026-05-28",
+  "ready_for_review": true,
+  "ready_at": "2026-05-28T17:03:03Z",
+  "publication_target": "telegram_review"
+}

@@ -1,0 +1,32 @@
+{
+  "slug": "kassaciya-mirovyh-sudej-novyj-poryadok-prikazov",
+  "category": "news",
+  "started_at": "2026-05-28T20:03:19",
+  "finished_at": null,
+  "total_duration_sec": null,
+  "current_iteration": 1,
+  "events": [
+    {
+      "ts": "2026-05-28T20:03:19",
+      "agent": "scheduler",
+      "event": "slot_started",
+      "iteration": 1,
+      "today_count": 8,
+      "limit": 10,
+      "write_article_duration_sec": 1636.4
+    },
+    {
+      "ts": "2026-05-28T20:03:19",
+      "agent": "quality_gate",
+      "event": "passed",
+      "iteration": 1,
+      "blockers": [],
+      "warnings": [
+        "Автофикс применил правки: сокращения=0, пунктуация=0",
+        "internal_links_autofixed: 4 ссылок (например /articles/vzysk/kak-otmenit-sudebnyj-prikaz.html→/articles/vzysk/kak-otmenit-sudebnyj-prikaz; /articles/vzysk/kassacionnaya-zhaloba-na-sudebnyj-prikaz.html→/articles/vzysk/kassacionnaya-zhaloba-na-sudebnyj-prikaz; /articles/vzysk/kak-otmenit-sudebnyj-prikaz.html→/articles/vzysk/kak-otmenit-sudebnyj-prikaz)",
+        "length_soft_passed: 7368 > 6800 но ≤ 7500 и iteration=2 — пропускаем (приоритет spam/uniqueness/ai)"
+      ],
+      "recommendations": []
+    }
+  ]
+}

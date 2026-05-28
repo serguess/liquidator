@@ -1942,6 +1942,19 @@
         "passed": false,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "kassaciya-mirovyh-sudej-novyj-poryadok-prikazov",
+      "category": "news",
+      "title": "Кассация мировых судей: новый порядок обжалования",
+      "added_at": "2026-05-28T20:03:03.364585",
+      "char_count": 7368,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779987782/articles/kassaciya-mirovyh-sudej-novyj-poryadok-prikazov-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": false,
+        "hard_failed": false
+      }
     }
   ]
 }
