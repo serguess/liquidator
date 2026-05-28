@@ -8856,5 +8856,63 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-05-28T12:24:09",
+    "category": "fiz",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 15,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "fiz-71",
+    "topic_slug": "zapret-na-dolzhnosti-pri-bankrotstve-fizlica",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "Автофикс применил правки: сокращения=2, пунктуация=0",
+        "internal_links_autofixed: 3 ссылок (например /articles/fiz/bankrotstvo-fizlica-dolya-v-ooo.html→/articles/fiz/bankrotstvo-fizlica-dolya-v-ooo; /articles/fiz/kogda-dolgi-ne-spishut-pri-bankrotstve.html→/articles/fiz/kogda-dolgi-ne-spishut-pri-bankrotstve; /articles/fiz/chto-nelzya-delat-pered-bankrotstvom-fizlica.html→/articles/fiz/chto-nelzya-delat-pered-bankrotstvom-fizlica)",
+        "forced_pass_at_iter2: блокеры пропущены, статья идёт в TG-очередь с metrics_warning=true. Было: 1 блокеров — spam_risk"
+      ],
+      "recommendations": [
+        "reduce_repetition: разбавить топ-5 частотных лемм местоимениями/перифразом — ['норм', 'фирм', 'период', 'орган', 'правил']"
+      ],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "zapret-na-dolzhnosti-pri-bankrotstve-fizlica",
+    "duration_sec": 1556.6,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "ожка** | Сгенерирована, template #14 (конференц-стол) |\n| **Ready for review** | true |\n| **Файл** | `drafts/zapret-na-dolzhnosti-pri-bankrotstve-fizlica/article.html` |\n\n**Метрики text.ru:** textru_ai_detector / textru_uniqueness / textru_spam — не заполнены (проверка через text.ru выполняется отдельно после публикации).\n\nСтатья добавлена в TG-очередь ревью (147 items). Предупреждение: лемма «норм» встречается 15 раз (порог 12) — повышенная заспамленность по этой лемме, в остальном всё в норме.",
+    "stderr_tail": "",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7288
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]

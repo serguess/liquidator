@@ -1916,6 +1916,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "subsidiarka-byvshego-direktora-posle-bankrotstva",
+      "category": "yur",
+      "title": "Субсидиарка бывшего директора: когда привлекут",
+      "added_at": "2026-05-28T15:17:23.375041",
+      "char_count": 7758,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779970642/articles/subsidiarka-byvshego-direktora-posle-bankrotstva-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
