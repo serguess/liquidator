@@ -1955,6 +1955,19 @@
         "passed": false,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "bankrotstvo-voennosluzhaschego",
+      "category": "fiz",
+      "title": "Банкротство военнослужащего: особый порядок",
+      "added_at": "2026-05-28T22:30:44.113716",
+      "char_count": 7865,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779996642/articles/bankrotstvo-voennosluzhaschego-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

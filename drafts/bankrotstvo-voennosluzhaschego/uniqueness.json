@@ -1,0 +1,18 @@
+{
+  "slug": "bankrotstvo-voennosluzhaschego",
+  "passed": true,
+  "scores": {
+    "structure_overlap": 0.0,
+    "thesis_similarity": 0.277,
+    "cta_overlap": 0.04
+  },
+  "similar_articles": [
+    {
+      "slug": "avtomobil-pri-bankrotstve-fizlica",
+      "category": "fiz",
+      "similarity": 0.277
+    }
+  ],
+  "conflicts": [],
+  "recommendation": "ok"
+}

@@ -1,0 +1,112 @@
+{
+  "slug": "bankrotstvo-voennosluzhaschego",
+  "category": "fiz",
+  "title": "Банкротство военнослужащего: особый порядок",
+  "description": "Как военнослужащему списать долги через суд или МФЦ, какие выплаты защищены от взыскания, что изменил ФЗ-111 для участников СВО.",
+  "h1": "Банкротство военнослужащего: как списать долги и не потерять выплаты",
+  "lead": "Военнослужащий вправе подать на банкротство как любой гражданин, а с мая 2025 года участники СВО получили упрощённый внесудебный маршрут через МФЦ. Разбираем оба пути, защиту боевых выплат и судьбу военной ипотеки.",
+  "topic_action": "проверку возможности списания долгов военнослужащего",
+  "breadcrumb_current": "Банкротство военнослужащего",
+  "og_image": "/assets/articles/bankrotstvo-voennosluzhaschego.jpg",
+  "main_keyword": "банкротство военнослужащего",
+  "secondary_keywords": [
+    "банкротство военного по контракту",
+    "внесудебное банкротство участника СВО",
+    "списание долгов военнослужащего",
+    "банкротство военнослужащего через МФЦ",
+    "может ли военнослужащий подать на банкротство",
+    "ФЗ-111 банкротство СВО",
+    "денежное довольствие при банкротстве",
+    "военная ипотека при банкротстве"
+  ],
+  "internal_links": [
+    "/articles/fiz/vnesudebnoe-bankrotstvo-cherez-mfc-2026",
+    "/articles/fiz/dohody-vo-vremya-bankrotstva-fizlica",
+    "/articles/fiz/bankrotstvo-pri-voennoy-ipoteke"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/",
+    "https://www.consultant.ru/document/cons_doc_LAW_19671/"
+  ],
+  "faq": [
+    {
+      "question": "Обязательно ли платить депозит при подаче заявления о банкротстве военнослужащему?",
+      "answer": "При судебном пути — да. Государственной пошлины нет, но депозит 25 000 рублей на вознаграждение арбитражного управляющего вносится при подаче. Без него суд не примет заявление. При обращении через МФЦ — ни пошлины, ни депозита."
+    },
+    {
+      "question": "Заберут ли всё денежное довольствие в ходе реализации имущества?",
+      "answer": "Нет. Управляющий направляет довольствие в конкурсную массу, но суд по ходатайству обязан оставить прожиточный минимум. Ходатайство подаётся отдельно — само по себе суд этого не делает. Боевые выплаты за ранение и вред здоровью в конкурсную массу не включаются."
+    },
+    {
+      "question": "Чем льгота по ФЗ-111 отличается от стандартного порядка МФЦ?",
+      "answer": "По стандарту нужно оконченное исполпроизводство. По льготе для участников СВО этого не требуется — достаточно подтвердить статус. Сумма одинакова: от двадцати пяти тысяч до одного миллиона рублей."
+    },
+    {
+      "question": "Можно ли продолжать служить после завершения дела о несостоятельности?",
+      "answer": "Да. Закон о статусе военнослужащих такого запрета не содержит. Возможна проверка допуска к государственной тайне при наличии финансовой зависимости — это административный, не автоматический порядок."
+    },
+    {
+      "question": "Сколько лет нельзя подать на повторное банкротство после МФЦ?",
+      "answer": "Десять лет — для повторного внесудебного пути. После судебного варианта нельзя снова подавать 5 лет."
+    },
+    {
+      "question": "Влияет ли факт несостоятельности на допуск к государственной тайне?",
+      "answer": "Прямого автоматического лишения допуска нет. Основания для проверки возникают при признаках финансовой зависимости. Решение принимает уполномоченный орган по конкретным обстоятельствам — не по факту банкротства как такового."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все юр-утверждения сверены с research.json (f1-f24), last_verified=2026-05-28, legislation_status=active или active+оговорка.",
+    "Право на банкротство и порог 500 000 руб. — ст. 213.1, п. 1 ст. 213.4 127-ФЗ (f1, f2).",
+    "Госпошлины нет с 08.09.2024, депозит 25 000 руб. — ст. 333.37 НК РФ + п. 17 ст. 20.6 127-ФЗ (f4). Запрещённое утверждение про 300 руб. — не использовалось.",
+    "ФЗ-111 от 23.05.2025 — внесудебное банкротство для участников СВО без оконченного исполпроизводства (f8). Безопасная формулировка, без перечисления подзаконных актов (f9 needs_verification — соблюдено).",
+    "Кредитные каникулы по ФЗ-377 от 07.10.2022, срок службы + 30 дней (f10). ФЗ-391 (ноябрь 2024) не назван — research помечает реквизиты как needs_verification (f11).",
+    "Денежное довольствие в конкурсную массу за минусом прожиточного минимума — п. 3 ст. 213.25 127-ФЗ (f13). Боевые выплаты защищены ст. 101 ФЗ-229 (f14).",
+    "Приостановление дела о банкротстве — пп. 3 п. 1 ст. 143 АПК (f5), возобновление — ст. 146 АПК. Не автоматически — нужно ходатайство.",
+    "Приостановление исполпроизводства — ст. 39, 40 ФЗ-229 (f6).",
+    "Военная ипотека и Росвоенипотека — даны с оговоркой о неоднородной практике (f15 contested). Запрещённое утверждение про иммунитет единственного жилья для залоговой квартиры — не использовано.",
+    "Несписываемые долги — п. 5-6 ст. 213.28 127-ФЗ (f20). Сроки 5/3 лет и повторное банкротство — ст. 213.30, ст. 223.4 127-ФЗ (f17, f18, f19).",
+    "Допуск к государственной тайне — формулировка обтекаемая, с оговоркой про административный порядок (f21 contested).",
+    "Прямые цитаты норм закона — отсутствуют. Все ссылки даны через пересказ, лимит цитирования соблюдён.",
+    "Внутренние ссылки: 3 шт. (vnesudebnoe-bankrotstvo-cherez-mfc-2026, dohody-vo-vremya-bankrotstva-fizlica, bankrotstvo-pri-voennoy-ipoteke) — все проверены по published_index.json, source=published.",
+    "Внешние ссылки: 2 шт. на КонсультантПлюс (ст. 213.30 закона 127-ФЗ и ст. 333.37 НК РФ)."
+  ],
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "text_chars": 7865,
+  "length_status": "warn",
+  "length_kind": "default",
+  "local_spam_top10_share": 0.092,
+  "local_spam_ngram3_repeat": 0.055,
+  "local_lexical_diversity": 0.595,
+  "local_ai_markers_density": 0.2,
+  "local_ai_markers_total": 2,
+  "local_ai_markers_critical": 0,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 3,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 4,
+  "predicted_spam_pct": 55,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность выше 50% (~55%)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "spam_risk: 1 флагов (ngram3_repeat_share>0.035 (=0.055)), top-5: ['стать', 'участник', 'банкротств', 'служб', 'дела']"
+  ],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779996642/articles/bankrotstvo-voennosluzhaschego-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1779996642/articles/bankrotstvo-voennosluzhaschego-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Editorial photograph of a serviceman's workspace adjacent to a tall window. Foreground: a desk with a closed dark leather portfolio positioned center-left, reading glasses resting on a blank-spine notebook, a brass desk lamp with warm glow, a fountain pen aligned across the notebook's edge, a smartphone face-down at the right side, a white porcelain coffee cup on a matching saucer. Background through the window: a blurred urban skyline with muted grey-blue tones suggesting morning or overcast conditions, soft bokeh lights. Camera: three-quarter angle at table level. Lighting: cool natural daylight from the window blended with warm tungsten lamp fill, creating contemplative interplay. Materials: walnut desktop, brushed brass, dark leather, ceramic. Mood: focused contemplation of an important personal financial decision, professional yet vulnerable. Premium editorial aesthetic with restrained warm tonality.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-05-28T19:30:44Z",
+  "date_published": "2026-05-28",
+  "date_modified": "2026-05-28",
+  "ready_for_review": true,
+  "ready_at": "2026-05-28T19:30:44Z",
+  "publication_target": "telegram_review"
+}

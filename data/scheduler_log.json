@@ -9022,5 +9022,61 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-05-28T19:36:02",
+    "category": "news",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 18,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "news-27",
+    "topic_slug": "kassaciya-mirovyh-sudej-novyj-poryadok-prikazov",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "Автофикс применил правки: сокращения=0, пунктуация=0",
+        "internal_links_autofixed: 4 ссылок (например /articles/vzysk/kak-otmenit-sudebnyj-prikaz.html→/articles/vzysk/kak-otmenit-sudebnyj-prikaz; /articles/vzysk/kassacionnaya-zhaloba-na-sudebnyj-prikaz.html→/articles/vzysk/kassacionnaya-zhaloba-na-sudebnyj-prikaz; /articles/vzysk/kak-otmenit-sudebnyj-prikaz.html→/articles/vzysk/kak-otmenit-sudebnyj-prikaz)",
+        "length_soft_passed: 7368 > 6800 но ≤ 7500 и iteration=2 — пропускаем (приоритет spam/uniqueness/ai)"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "kassaciya-mirovyh-sudej-novyj-poryadok-prikazov",
+    "duration_sec": 1636.4,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "** passed (structure_overlap 0.0, thesis_similarity 0.03)\n- **Factcheck:** passed (все 11 юр-утверждений сверены с research.json)\n- **AI-маркеры:** 2 low (в футере boilerplate, не в тексте)\n- **Режим публикации:** готов к ревью в Telegram-боте (`ready_for_review: true`)\n- **Обложка:** сгенерирована и загружена на Cloudinary (template_id=28)\n- **Файл:** `drafts/kassaciya-mirovyh-sudej-novyj-poryadok-prikazov/article.html`\n\n**text.ru метрики:** не заполнены (считаются асинхронно после публикации).",
+    "stderr_tail": "",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7368
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]
