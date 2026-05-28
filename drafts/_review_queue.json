@@ -1968,6 +1968,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "nalogovye-posledstviya-bankrotstva-dlya-dolzhnika",
+      "category": "yur",
+      "title": "Налоговые последствия банкротства организации",
+      "added_at": "2026-05-29T01:12:16.442730",
+      "char_count": 7567,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1780006335/articles/nalogovye-posledstviya-bankrotstva-dlya-dolzhnika-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

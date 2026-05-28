@@ -1,0 +1,119 @@
+{
+  "slug": "nalogovye-posledstviya-bankrotstva-dlya-dolzhnika",
+  "category": "yur",
+  "title": "Налоговые последствия банкротства организации",
+  "description": "Что происходит с НДС, налогом на прибыль и другими налоговыми долгами при банкротстве юрлица: очередность, списание, риски для директора.",
+  "h1": "Налоговые последствия банкротства для организации: что происходит с долгами перед ФНС",
+  "lead": "ФНС в деле о несостоятельности - одновременно кредитор и регулятор. Разбираем, какие фискальные претензии попадают в очередь, какие гасятся вне неё, а какие переходят на руководителя лично.",
+  "topic_action": "анализ налоговых последствий банкротства",
+  "offer": "raschet-stoimosti",
+  "breadcrumb_current": "Налоговые последствия банкротства",
+  "og_image": "/assets/articles/nalogovye-posledstviya-bankrotstva-dlya-dolzhnika.jpg",
+  "main_keyword": "налоговые последствия банкротства юридического лица",
+  "secondary_keywords": [
+    "налог на прибыль при банкротстве организации",
+    "НДС при банкротстве юридического лица",
+    "очередность требований ФНС при банкротстве",
+    "налоговая задолженность при банкротстве юрлица",
+    "ФНС в реестре кредиторов при банкротстве",
+    "налог на имущество при банкротстве организации",
+    "текущие налоговые платежи при банкротстве",
+    "списание налоговых долгов после банкротства юрлица"
+  ],
+  "internal_links": [
+    "/articles/yur/kak-zakryt-ooo-s-dolgami",
+    "/articles/yur/rashody-na-bankrotstvo-yurlica",
+    "/articles/yur/subsidiarka-direktora-kak-zashchititsya",
+    "/articles/yur/kontroliruyushchee-dolzhnika-lico-kdl"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/"
+  ],
+  "faq": [
+    {
+      "question": "Может ли ФНС подать на банкротство, если задолженность меньше 2 миллионов рублей?",
+      "answer": "Нет. С мая 2024 года инициировать несостоятельность можно только при задолженности не менее двух миллионов рублей и просрочке свыше трёх месяцев. При меньшей сумме - взыскание через исполнительное производство."
+    },
+    {
+      "question": "Облагается ли НДС продажа имущества должника на торгах после 2021 года?",
+      "answer": "Нет. Операция исключена из объектов обложения. Покупатель не несёт обязанностей агента, вся выручка поступает в конкурсную массу."
+    },
+    {
+      "question": "Что происходит с налогом на прибыль от реализации активов?",
+      "answer": "После Постановления Конституционного суда от 31.05.2023 № 28-П он перемещён в список кредиторов третьего приоритета. Конкурсная масса не уменьшается до расчётов с ними. Поправки в закон пока не приняты, суды применяют позицию напрямую."
+    },
+    {
+      "question": "Вправе ли налоговая проводить выездную проверку в ходе конкурсного производства?",
+      "answer": "Да. Введение процедуры не ограничивает это право. Если выявлены суммы за периоды до возбуждения - они включаются в список кредиторов. Если он закрыт - долг фактически без погашения."
+    },
+    {
+      "question": "Спишется ли субсидиарный долг с директора при его собственном банкротстве?",
+      "answer": "Нет. Пункт 6 статьи 213.28 закона прямо это запрещает. Задолженность сохраняется независимо от итогов личной процедуры."
+    },
+    {
+      "question": "Когда прекращаются фискальные обязательства юридического лица?",
+      "answer": "Только после внесения в ЕГРЮЛ записи об исключении: управляющий направляет сведения регистратору, инспекция вносит запись в течение 5 рабочих дней."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все юр-утверждения сверены с research.json (facts f1-f17), last_verified 2026-05-29, legislation_status active.",
+    "Граница реестр/текущие по дате принятия заявления - корректно по f1 (ст. 5 п. 1, п. 2 127-ФЗ).",
+    "Третья очередь ФНС в реестре + штрафы/пени обособленно - корректно по f3 (ст. 137 п. 1, п. 3 127-ФЗ).",
+    "Пятая очередь текущих налогов, НДФЛ-агент в четвёртой - корректно по f2 (ст. 134 п. 2 127-ФЗ, Пленум ВС от 13.10.2015 № 45).",
+    "Порог 2 млн руб. для инициирования - корректно по f4 (ред. ФЗ-107 от 29.05.2024); прежний порог 300 тыс. указан как отменённый.",
+    "НДС с торгов после 01.01.2021 не облагается - корректно по f5 (пп. 15 п. 2 ст. 146 НК РФ, ФЗ от 29.12.2020 № 470-ФЗ).",
+    "Восстановление НДС - оговорка о расхождении судебной практики (contested per f6 review_notes).",
+    "Налог на прибыль с продажи КМ - в третью очередь реестра по Постановлению КС РФ от 31.05.2023 № 28-П (contested per f7: поправки не приняты, оговорка добавлена).",
+    "Прекращение обязательств - запись в ЕГРЮЛ, 5 рабочих дней по ст. 149 127-ФЗ - корректно по f15.",
+    "Безнадёжная задолженность по пп. 4.1 п. 1 ст. 59 НК РФ - корректно по f9.",
+    "Месячный срок на самоподачу руководителем по ст. 61.12 - корректно по f10.",
+    "Презумпция вины при непередаче документов - корректно по f11 (пп. 2 п. 2 ст. 61.11 127-ФЗ).",
+    "Личное банкротство не списывает субсидиарку - корректно по f16 (п. 6 ст. 213.28 127-ФЗ).",
+    "Взыскание с аффилята по п. 2 ст. 45 НК РФ - корректно по f17.",
+    "Постановление КС РФ № 28-П упомянуто текстом без URL (нет в whitelist, fact_gap).",
+    "НК РФ упомянут текстом без URL (нет в whitelist, fact_gap).",
+    "Пленум ВС от 13.10.2015 № 45 упомянут текстом без URL.",
+    "4 внутренние ссылки на /articles/yur/{slug}: kak-zakryt-ooo-s-dolgami, rashody-na-bankrotstvo-yurlica, subsidiarka-direktora-kak-zashchititsya, kontroliruyushchee-dolzhnika-lico-kdl - все target-slug присутствуют в /articles/yur/.",
+    "1 внешняя ссылка на consultant.ru/LAW_39331 из research.key_sources, использована дважды в теле (ст. 5 и ст. 149 127-ФЗ).",
+    "Повторный прогон после правки заспамленности: содержательные факты не менялись, перифразы 'реестр→очередь/список кредиторов/приоритет', 'налог→платёж/сбор', 'требование→обязательство/претензия' не затрагивают юр-точность."
+  ],
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "spam_risk: 1 флагов (ngram3_repeat_share>0.035 (=0.062)), top-5: ['закон', 'налогов', 'несостоятельност', 'руководител', 'банкротств']"
+  ],
+  "text_chars": 7567,
+  "length_status": "warn",
+  "length_kind": "default",
+  "local_spam_top10_share": 0.09,
+  "local_spam_ngram3_repeat": 0.062,
+  "local_lexical_diversity": 0.598,
+  "local_ai_markers_density": 0.21,
+  "local_ai_markers_total": 2,
+  "local_ai_markers_critical": 0,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 4,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 3,
+  "predicted_spam_pct": 55,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность выше 50% (~55%)"
+  ],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1780006335/articles/nalogovye-posledstviya-bankrotstva-dlya-dolzhnika-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1780006335/articles/nalogovye-posledstviya-bankrotstva-dlya-dolzhnika-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Photograph of a stone or marble staircase inside an official government building, shot from a low-angle perspective looking upward along the ascending steps. Cool daylight filters through high windows, casting geometric shadows across the weathered marble treads and polished brass railings oxidized with age. In the foreground at the base of the stairs: a sealed white envelope with an embossed governmental seal impression, a closed dark leather portfolio resting against a marble column, a brass round official seal positioned on a smooth stone surface, and a fountain pen aligned beside it. The composition emphasizes ascent and escalation through procedural stages. Materials include weathered marble, oxidized brass, deep red carpet runner on stairs. Lighting: shafts of cool daylight creating strong geometric shadows on the stone, emphasizing the architectural geometry and the weight of official process. Palette: cool grey-white marble, warm cream shadows, muted brass accents. Mood: procedural escalation, multi-stage legal complexity, weighty institutional authority.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-05-28T22:12:16Z",
+  "date_published": "2026-05-29",
+  "date_modified": "2026-05-29",
+  "ready_for_review": true,
+  "ready_at": "2026-05-28T22:12:16Z",
+  "publication_target": "telegram_review"
+}
