@@ -1,0 +1,25 @@
+{
+  "slug": "konkursnaya-massa-dolzhnika-chto-vklyuchaetsya",
+  "passed": false,
+  "scores": {
+    "structure_overlap": 0.0,
+    "thesis_similarity": 0.398,
+    "cta_overlap": 0.048
+  },
+  "similar_articles": [
+    {
+      "slug": "otkaz-ot-dogovora-pri-bankrotstve-statya-102",
+      "category": "yur",
+      "similarity": 0.398
+    }
+  ],
+  "conflicts": [
+    "thesis_similarity: 0.398 exceeds threshold 0.30"
+  ],
+  "recommendation": "rewrite_with_angle:comparative-analysis",
+  "analysis": {
+    "issue": "The article's semantic meaning (0.398 similarity) exceeds the uniqueness threshold (0.30). The closest match is 'otkaz-ot-dogovora-pri-bankrotstve-statya-102' which discusses contract rejection under bankruptcy law.",
+    "root_cause": "Current draft uses standard legal exposition format: 'What enters → What excludes → How to calculate → Priorities'. This structure mirrors the analytical approach used in similar yur articles about bankruptcy asset treatment.",
+    "angle_suggestion": "Shift from 'legal analysis of asset composition' to 'competitive dynamics: how bankruptcy mass shrinks or grows during proceedings'. Present the same legal facts but focus on: (1) What reduces actual recovery (bad debts, overvaluation, execution delays), (2) Tactical angles for creditors (when to challenge valuations, dispute contested assets), (3) Common estimation errors in practice. This transforms the article from 'what the law says' to 'what really happens to the numbers'."
+  }
+}

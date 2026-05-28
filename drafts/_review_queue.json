@@ -1877,6 +1877,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "konkursnaya-massa-dolzhnika-chto-vklyuchaetsya",
+      "category": "yur",
+      "title": "Конкурсная масса при банкротстве юрлица: состав",
+      "added_at": "2026-05-28T08:21:45.424905",
+      "char_count": 7847,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779945704/articles/konkursnaya-massa-dolzhnika-chto-vklyuchaetsya-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
