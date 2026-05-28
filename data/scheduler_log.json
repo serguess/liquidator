@@ -8741,5 +8741,60 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-05-28T07:36:37",
+    "category": "yur",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 13,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "yur-63",
+    "topic_slug": "konkursnaya-massa-dolzhnika-chto-vklyuchaetsya",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "Автофикс применил правки: сокращения=1, пунктуация=0",
+        "internal_links_autofixed: 3 ссылок (например /articles/yur/osparivanie-sdelok-pri-bankrotstve.html→/articles/yur/osparivanie-sdelok-pri-bankrotstve; /articles/yur/leasing-pri-bankrotstve-dolzhnika.html→/articles/yur/leasing-pri-bankrotstve-dolzhnika; /articles/yur/prodazha-biznesa-pri-bankrotstve-yurlica.html→/articles/yur/prodazha-biznesa-pri-bankrotstve-yurlica)"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "konkursnaya-massa-dolzhnika-chto-vklyuchaetsya",
+    "duration_sec": 2732.2,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "t.ru):**\n- `textru_ai_detector`: ~3% (отлично)\n- `textru_spam`: ~49%\n- `textru_uniqueness`: ~87%\n\n**Особенности пайплайна:** агент 5 вернул на доработку (thesis_similarity=0.398, превышение порога 0.30 — слишком близко к опубликованным статьям о банкротстве). Итерация 2 сменила угол с «что говорит закон» на «практика кредитора: почему балансовая стоимость расходится с аукционной». После этого quality_gate прошёл без блокеров. Обложка сгенерирована, статья добавлена в очередь ревью (позиция 145).",
+    "stderr_tail": "",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7847
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]

@@ -1890,6 +1890,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "bankrotstvo-ili-vzyskanie-chto-vybrat",
+      "category": "vzysk",
+      "title": "Банкротство или взыскание: что выгоднее должнику",
+      "added_at": "2026-05-28T10:47:49.535850",
+      "char_count": 8454,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779954468/articles/bankrotstvo-ili-vzyskanie-chto-vybrat-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": false,
+        "hard_failed": false
+      }
     }
   ]
 }

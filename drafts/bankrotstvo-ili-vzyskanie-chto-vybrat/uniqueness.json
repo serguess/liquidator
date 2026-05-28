@@ -1,0 +1,30 @@
+{
+  "slug": "bankrotstvo-ili-vzyskanie-chto-vybrat",
+  "passed": false,
+  "scores": {
+    "structure_overlap": 0.0,
+    "thesis_similarity": 0.279,
+    "cta_overlap": 0.316
+  },
+  "thresholds": {
+    "structure_overlap": 0.4,
+    "thesis_similarity": 0.3,
+    "cta_overlap": 0.2
+  },
+  "similar_articles": [
+    {
+      "slug": "kreditor-propustil-srok-bankrotstvo-otkaz-v-peresmotre",
+      "category": "news",
+      "similarity": 0.279
+    }
+  ],
+  "conflicts": [
+    "cta_overlap: 0.316 (threshold: 0.2)"
+  ],
+  "recommendation": "rewrite_with_angle:kejs-chitatelya",
+  "analysis": {
+    "issue": "CTA-формулировка (финальный абзац) пересекается на 31.6% с опубликованной статьёй. Фраза 'Мы разберём ситуацию: что уйдёт, что останется, какой маршрут даёт реальный выход' — типовое закрытие для статей о банкротстве и взыскании.",
+    "recommendation_details": "Замените финальный абзац на конкретный кейс читателя: вместо общего обещания разобрать ситуацию, приведите 2-3 примера реальных выборов (зарплата 60К с долгом 165К vs 820К с двумя кредиторами). Читатель сразу поймёт, какой путь к нему применим.",
+    "closest_peer": "kreditor-propustil-srok-bankrotstvo-otkaz-v-peresmotre"
+  }
+}
