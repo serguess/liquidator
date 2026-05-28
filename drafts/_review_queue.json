@@ -1929,6 +1929,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "vzyskanie-dolga-s-samozanyatogo",
+      "category": "vzysk",
+      "title": "Взыскание долга с самозанятого: порядок и нюансы",
+      "added_at": "2026-05-28T17:44:11.984835",
+      "char_count": 7945,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779979449/articles/vzyskanie-dolga-s-samozanyatogo-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": false,
+        "hard_failed": false
+      }
     }
   ]
 }

@@ -8914,5 +8914,57 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-05-28T14:48:37",
+    "category": "yur",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 16,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "yur-64",
+    "topic_slug": "subsidiarka-byvshego-direktora-posle-bankrotstva",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "subsidiarka-byvshego-direktora-posle-bankrotstva",
+    "duration_sec": 1746.6,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "stva/article.html`\n\n**Метрики quality_gate:**\n- Uniqueness (5-й агент): passed (similarity 0.285, порог 0.30)\n- Factcheck (6-й агент): passed\n- Quality gate: passed (0 блокеров, 0 hard-fail)\n- Итераций writer'а: 1 (без возвратов)\n\n**Предсказанные метрики text.ru:**\n- Заспамленность: 49%\n- ИИ-детектор: 3%\n- Уникальность: 87%\n\n**Обложка:** сгенерирована (template #8, архивная сцена с юридическими файлами), загружена на Cloudinary.\n\nСтатья добавлена в TG-очередь на ревью (`ready_for_review: true`).",
+    "stderr_tail": "",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7758
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]

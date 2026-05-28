@@ -1,0 +1,31 @@
+{
+  "slug": "vzyskanie-dolga-s-samozanyatogo",
+  "passed": false,
+  "scores": {
+    "structure_overlap": 0.0,
+    "thesis_similarity": 0.127,
+    "cta_overlap": 0.319
+  },
+  "thresholds": {
+    "structure_overlap": 0.4,
+    "thesis_similarity": 0.3,
+    "cta_overlap": 0.2
+  },
+  "similar_articles": [
+    {
+      "slug": "otkaz-ot-dogovora-pri-bankrotstve-statya-102",
+      "category": "yur",
+      "similarity": 0.255
+    }
+  ],
+  "conflicts": [
+    "cta_overlap: 0.319 (threshold: 0.2)"
+  ],
+  "recommendation": "rewrite_with_angle:reader-centric-action",
+  "metrics_explanation": {
+    "structure_overlap": "0.0 (OK) — структура заголовков оригинальна, нет совпадений с опубликованными",
+    "thesis_similarity": "0.127 (OK) — семантика по блокам не превышает порог 0.3",
+    "cta_overlap": "0.319 (FAIL) — финальный абзац-дожим слишком похож на закрывающие блоки других статей"
+  },
+  "action_for_agent4": "Переформулировать блок 'Финальный дожим' с обобщающей схемы инструментов на кейс-ориентированный финал. Вместо 'Три рычага кредитора: приказ → исполнение → банкротство' структурировать как: 'Если вам нужно взыскать долг с самозанятого (ситуация A — малая сумма) или (ситуация B — крупный долг), вот конкретный шаг сейчас...' Это создаст уникальный смысловой отпечаток для финального блока."
+}
