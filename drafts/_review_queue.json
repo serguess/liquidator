@@ -2033,6 +2033,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "restrukturizaciya-ili-realizaciya-vybor",
+      "category": "fiz",
+      "title": "Реструктуризация или реализация имущества при банкротстве",
+      "added_at": "2026-05-29T13:09:07.322352",
+      "char_count": 7938,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1780049346/articles/restrukturizaciya-ili-realizaciya-vybor-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

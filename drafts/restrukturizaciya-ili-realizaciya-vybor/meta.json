@@ -1,0 +1,104 @@
+{
+  "slug": "restrukturizaciya-ili-realizaciya-vybor",
+  "category": "fiz",
+  "title": "Реструктуризация или реализация имущества при банкротстве",
+  "description": "Чем отличаются реструктуризация долгов и реализация имущества при банкротстве физлица, когда суд вводит каждую процедуру и как повлиять на выбор.",
+  "h1": "Реструктуризация или реализация имущества: как суд выбирает процедуру и что это значит для вас",
+  "lead": "Поступает заявление, и суд выбирает между двумя путями: утвердить график выплат на три-пять лет либо выставить собственность гражданина на торги. Первый путь не делает человека банкротом. Второй - делает, зато обнуляет прежние займы.",
+  "topic_action": "выбор между реструктуризацией и реализацией имущества",
+  "breadcrumb_current": "Реструктуризация или реализация имущества",
+  "og_image": "/assets/articles/restrukturizaciya-ili-realizaciya-vybor.jpg",
+  "main_keyword": "реструктуризация или реализация имущества при банкротстве",
+  "secondary_keywords": [
+    "чем отличается реструктуризация от реализации имущества при банкротстве",
+    "что выбрать реструктуризацию или реализацию имущества",
+    "когда вводят реализацию имущества без реструктуризации",
+    "план реструктуризации долгов условия для физлица",
+    "минуя реструктуризацию сразу реализация имущества",
+    "реструктуризация долгов плюсы и минусы при банкротстве",
+    "реализация имущества последствия для должника",
+    "как суд выбирает процедуру банкротства физлица",
+    "отличие реструктуризации от реализации при банкротстве"
+  ],
+  "internal_links": [
+    "/articles/fiz/mirovoe-soglashenie-bankrotstvo-fizlica.html",
+    "/articles/fiz/konkursnaya-massa-pri-bankrotstve-fizlica.html",
+    "/articles/fiz/kogda-dolgi-ne-spishut-pri-bankrotstve.html",
+    "/articles/fiz/nedobrosovestnost-dolzhnika-otkaz-v-spisanii.html"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/"
+  ],
+  "faq": [
+    {
+      "question": "Обязан ли суд сначала вводить реструктуризацию или может сразу перейти к торгам?",
+      "answer": "По умолчанию вводится план погашения, если заявитель соответствует четырём условиям закона. Если требования не выполнены или должник ходатайствует о торгах, суд минует этап согласования."
+    },
+    {
+      "question": "Сколько длится план погашения и можно ли его продлить?",
+      "answer": "До трёх лет при одобрении кредиторами. До пяти лет - если суд утверждает документ вопреки их возражениям (поправка августа 2024 года)."
+    },
+    {
+      "question": "Что происходит с единственной квартирой при переходе к торгам?",
+      "answer": "Единственное жильё без ипотеки в перечень не включается при обоих вариантах процедуры (статья 446 процессуального кодекса). Ипотечная квартира, даже единственная, реализуется в пользу банка-залогодержателя."
+    },
+    {
+      "question": "Можно ли самому попросить суд пропустить этап согласования и сразу продать активы?",
+      "answer": "Да, если заявитель не соответствует условиям плана погашения (например, нет дохода) - он вправе ходатайствовать о прямом введении имущественной стадии (статья 213.24 п. 8 закона о банкротстве)."
+    },
+    {
+      "question": "Какие ограничения останутся после торгов и будут ли они при исполненном плане?",
+      "answer": "После торгов: пять лет сообщать о прошлом деле при оформлении кредитов, три года запрет на руководство компаниями (для банков 10 лет, для МФО и страховых - 5 лет). При исполненном документе о погашении эти ограничения не наступают."
+    },
+    {
+      "question": "Сколько придётся заплатить, если суд введёт обе стадии подряд?",
+      "answer": "Депозит - двадцать пять тысяч рублей за каждую процедуру, итого пятьдесят тысяч рублей. Плюс публикации в реестре и газете, почтовые расходы. Государственная пошлина с сентября 2024 года не взимается."
+    }
+  ],
+  "keyword_density_main": 0.0055,
+  "main_keyword_exact_count": 1,
+  "text_chars": 7938,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все юр-утверждения сверены с research.json (20 фактов, last_verified 2026-05-29).",
+    "Срок плана реструктуризации до 5 лет указан с привязкой к поправке ФЗ-289 от 08.08.2024 (f3).",
+    "Освобождение от госпошлины с 8 сентября 2024 года (f15).",
+    "Депозит управляющего 25 000 руб. за каждую процедуру, итого 50 000 руб. при двух стадиях (f15).",
+    "Перечень несписываемых долгов взят из ст. 213.28 п. 5-6 (f12).",
+    "Ходатайство о прямой реализации - ст. 213.24 п. 8 (f10).",
+    "Иммунитет единственного жилья при обеих процедурах - ст. 446 ГПК (f19)."
+  ],
+  "length_status": "warn",
+  "length_kind": "default",
+  "local_spam_top10_share": 0.101,
+  "local_spam_ngram3_repeat": 0.033,
+  "local_lexical_diversity": 0.588,
+  "local_ai_markers_density": 0.2,
+  "local_ai_markers_total": 2,
+  "local_ai_markers_critical": 0,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 4,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 5,
+  "predicted_spam_pct": 58,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность заметно выше 50% (~58%)"
+  ],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1780049346/articles/restrukturizaciya-ili-realizaciya-vybor-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1780049346/articles/restrukturizaciya-ili-realizaciya-vybor-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Wide editorial photograph of a private executive office at dusk — high ceilings, tall windows with heavy drapes overlooking a blurred city skyline, walnut bookshelves lining the walls, an oxblood leather chesterfield in the background. A large mahogany desk in the foreground holds: a closed dark leather portfolio lying open-ready, an antique brass pocket watch on a chain with its face visible showing 3 o'clock, a fountain pen on a polished brass stand positioned above the portfolio, a brass desk lamp casting warm pools of light, a white porcelain coffee cup on a saucer. Soft cool window light blends with warm tungsten lamp glow. Materials: mahogany, oxblood leather, brushed brass, warm cream tones. Camera: three-quarter angle with slight low-angle to emphasize the space and ceiling height. Mood: a moment of deliberate pause before choosing between two paths with different durations and consequences.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-05-29T10:09:07Z",
+  "date_published": "2026-05-29",
+  "date_modified": "2026-05-29",
+  "ready_for_review": true,
+  "ready_at": "2026-05-29T10:09:07Z",
+  "publication_target": "telegram_review"
+}
