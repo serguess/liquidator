@@ -2072,6 +2072,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "mirovoe-soglashenie-bankrotstvo-bez-zalogovyh-vs-reshaet",
+      "category": "news",
+      "title": "Мировое соглашение без залоговых кредиторов: ВС решает",
+      "added_at": "2026-05-29T20:07:25.729717",
+      "char_count": 6306,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1780074444/articles/mirovoe-soglashenie-bankrotstvo-bez-zalogovyh-vs-reshaet-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": false,
+        "hard_failed": false
+      }
     }
   ]
 }

@@ -1,0 +1,41 @@
+{
+  "slug": "mirovoe-soglashenie-bankrotstvo-bez-zalogovyh-vs-reshaet",
+  "category": null,
+  "started_at": "2026-05-29T19:59:08",
+  "finished_at": null,
+  "total_duration_sec": null,
+  "current_iteration": 2,
+  "events": [
+    {
+      "ts": "2026-05-29T19:59:08",
+      "agent": "4-writer",
+      "event": "iteration_returned",
+      "iteration": 2,
+      "reason": "thesis_similarity=0.342 с poruchitelstvo-direktora-za-dolgi-kompanii-bankrotstvo превышает порог 0.3",
+      "recommendation": "rewrite_with_angle: сменить угол с объяснения нормы на 'что будет если СКЭС примет противоположное решение' — от обратного сценария; показать последствия для участников (банк/поставщик/предприятие)"
+    },
+    {
+      "ts": "2026-05-29T20:07:43",
+      "agent": "scheduler",
+      "event": "slot_started",
+      "iteration": 2,
+      "category": "news",
+      "today_count": 8,
+      "limit": 10,
+      "write_article_duration_sec": 1899.2
+    },
+    {
+      "ts": "2026-05-29T20:07:44",
+      "agent": "quality_gate",
+      "event": "passed",
+      "iteration": 2,
+      "blockers": [],
+      "warnings": [
+        "Автофикс применил правки: сокращения=1, пунктуация=0",
+        "internal_links_autofixed: 3 ссылок (например /articles/fiz/mirovoe-soglashenie-bankrotstvo-fizlica.html→/articles/fiz/mirovoe-soglashenie-bankrotstvo-fizlica; /articles/news/nalogovyj-zalog-fns-status-kreditora-bankrotstvo.html→/articles/news/nalogovyj-zalog-fns-status-kreditora-bankrotstvo; /articles/news/obzor-vs-rf-5-2026-bankrotstvo-glavnoe.html→/articles/news/obzor-vs-rf-5-2026-bankrotstvo-glavnoe)",
+        "spam_soft_passed: ratio-флаги мягкие при iter=2, targeted_tokens чистые → пропускаем (spam ≈48-52% по прогнозу)"
+      ],
+      "recommendations": []
+    }
+  ]
+}

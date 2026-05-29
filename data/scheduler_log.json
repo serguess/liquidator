@@ -9544,5 +9544,60 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-05-29T17:12:37",
+    "category": "vzysk",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 2,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "vzysk-58",
+    "topic_slug": "vzyskanie-ushcherba-ot-dtp-s-vinovnika",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "Автофикс применил правки: сокращения=0, пунктуация=0",
+        "internal_links_autofixed: 3 ссылок (например /articles/vzysk/obespechitelnye-mery-arest-scheta.html→/articles/vzysk/obespechitelnye-mery-arest-scheta; /articles/vzysk/ispolnitelnyj-list-poluchenie-predyavlenie.html→/articles/vzysk/ispolnitelnyj-list-poluchenie-predyavlenie; /articles/vzysk/udershanie-iz-zarplaty-pristavami.html→/articles/vzysk/udershanie-iz-zarplaty-pristavami)"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "vzyskanie-ushcherba-ot-dtp-s-vinovnika",
+    "duration_sec": 2696.6,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "), без блокеров |\n| Uniqueness (агент 5) | 1 итерация возврата (CTA-overlap), исправлено |\n| Factcheck (агент 6) | passed |\n| Метрики warning | нет |\n| Файл | `drafts/vzyskanie-ushcherba-ot-dtp-s-vinovnika/article.html` |\n\n**Прогнозируемые метрики (quality_gate):**\n- `textru_spam` ≈ 53%\n- `textru_ai_detector` ≈ 3%\n- `textru_uniqueness` ≈ 87%\n\nСтатья добавлена в очередь ревью (`ready_for_review: true`), обложка загружена на Cloudinary (template_id=22, «процессуальная тяжесть с часами и папками»).",
+    "stderr_tail": "",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7507
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]
