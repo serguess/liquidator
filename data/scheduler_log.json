@@ -9486,5 +9486,63 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-05-29T14:48:03",
+    "category": "yur",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 1,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "yur-67",
+    "topic_slug": "smena-arbitrazhnogo-upravljayushchego-bankrotstvo",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "Автофикс применил правки: сокращения=0, пунктуация=0",
+        "internal_links_autofixed: 3 ссылок (например /articles/yur/zhaloba-na-arbitrazhnogo-upravljayushchego.html→/articles/yur/zhaloba-na-arbitrazhnogo-upravljayushchego; /articles/yur/osparivanie-trebovanij-v-reestre-kreditorov.html→/articles/yur/osparivanie-trebovanij-v-reestre-kreditorov; /articles/yur/prava-direktora-v-processe-bankrotstva.html→/articles/yur/prava-direktora-v-processe-bankrotstva)",
+        "forced_pass_at_iter2: блокеры пропущены, статья идёт в TG-очередь с metrics_warning=true. Было: 1 блокеров — spam_risk"
+      ],
+      "recommendations": [
+        "reduce_repetition: разбавить топ-5 частотных лемм местоимениями/перифразом — ['норм', 'жалоб', 'управляющег', 'собран', 'ходатайств']"
+      ],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "smena-arbitrazhnogo-upravljayushchego-bankrotstvo",
+    "duration_sec": 2291.6,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "*\n- uniqueness (агент 5): passed (similarity 0.207)\n- factcheck (агент 6): passed\n- spam_risk: флаг (top-5 лемм: норм/жалоб/управляющего/собран/ходатайств), forced_pass при retry_count=1\n- ai_markers: 2 low-severity хита (в boilerplate, не в тексте)\n- metrics_warning: false\n\n**text.ru метрики:** не заполнены (проверка выполняется отдельно после публикации)\n\n**Обложка:** сгенерирована, загружена на Cloudinary (template #13)  \n**Статус:** `ready_for_review=true`, добавлена в TG-очередь (158 items)",
+    "stderr_tail": "",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7871
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]

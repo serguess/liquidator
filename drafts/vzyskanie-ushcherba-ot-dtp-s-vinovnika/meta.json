@@ -1,0 +1,101 @@
+{
+  "slug": "vzyskanie-ushcherba-ot-dtp-s-vinovnika",
+  "category": "vzysk",
+  "title": "Взыскание ущерба от ДТП с виновника через суд",
+  "description": "Как взыскать ущерб с виновника ДТП через суд: когда ОСАГО не покрывает, как подать иск, какие документы нужны и каков срок исковой давности.",
+  "h1": "Взыскание ущерба от ДТП с виновника: что делать, если страховки не хватает",
+  "lead": "Страховка заплатила. На ремонт не хватило. Разница взыскивается напрямую с водителя, виновного в столкновении. Разбираем, когда это нужно, что готовить и как действовать.",
+  "topic_action": "взыскание ущерба от ДТП с виновника",
+  "breadcrumb_current": "Взыскание ущерба от ДТП с виновника",
+  "og_image": "/assets/articles/vzyskanie-ushcherba-ot-dtp-s-vinovnika.jpg",
+  "main_keyword": "взыскание ущерба от ДТП с виновника",
+  "secondary_keywords": [
+    "взыскание ущерба с виновника ДТП без ОСАГО",
+    "возмещение ущерба ДТП через суд",
+    "иск к виновнику ДТП",
+    "взыскание разницы ущерба с виновника ДТП",
+    "ДТП виновник не платит что делать",
+    "исковое заявление о возмещении ущерба ДТП",
+    "срок исковой давности по ДТП"
+  ],
+  "keywords": [
+    "взыскание ущерба от ДТП с виновника",
+    "возмещение ущерба ДТП через суд",
+    "иск к виновнику ДТП",
+    "ОСАГО лимит 400000",
+    "независимая экспертиза ДТП",
+    "утрата товарной стоимости",
+    "срок исковой давности по ДТП",
+    "исполнительный лист ДТП"
+  ],
+  "internal_links": [
+    "/articles/vzysk/obespechitelnye-mery-arest-scheta.html",
+    "/articles/vzysk/ispolnitelnyj-list-poluchenie-predyavlenie.html",
+    "/articles/vzysk/udershanie-iz-zarplaty-pristavami.html"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_5142/"
+  ],
+  "faq": [
+    {
+      "question": "Можно ли получить возмещение с виновного водителя, если ДТП оформлено по Европротоколу без ГИБДД?",
+      "answer": "Да. Европротокол не лишает пострадавшего права предъявлять требования. Если страховая выплатила меньше реального урона или у виновника не было полиса — разницу взыскивают через суд на общих основаниях."
+    },
+    {
+      "question": "Что такое утрата товарной стоимости и учитывает ли её суд?",
+      "answer": "УТС — снижение рыночной цены машины после повреждения и ремонта. Верховный Суд признал её частью реального ущерба: присуждают и со страховщика в пределах лимита, и с ответчика сверх него. Размер определяет эксперт-техник из реестра Минюста."
+    },
+    {
+      "question": "Обязательно ли направлять претензию виновнику до подачи иска?",
+      "answer": "Нет. К гражданину-причинителю обязательного претензионного порядка закон не устанавливает. К страховщику по ОСАГО — обязательна."
+    },
+    {
+      "question": "До какого момента можно обратиться в суд по имущественному ущербу?",
+      "answer": "По имущественным потерям — три года с момента аварии. По вреду здоровью давность не применяется, но присуждают только за три года до подачи иска."
+    },
+    {
+      "question": "Сколько зарплаты удержат с ответчика, если откажется платить?",
+      "answer": "Пристав удерживает до 50% ежемесячно, при уголовно наказуемых действиях — до 70%. Дополнительно: блокировка счетов, арест транспортного средства или недвижимости."
+    },
+    {
+      "question": "Спишется ли долг при банкротстве причинителя?",
+      "answer": "Долги по возмещению вреда жизни и здоровью при банкротстве не списываются. Имущественный урон от умышленных действий тоже. В нашей практике случаи с неосторожным имущественным ущербом разбираются индивидуально."
+    }
+  ],
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "factcheck_passed": true,
+  "factcheck_notes": [],
+  "text_chars": 7507,
+  "length_status": "warn",
+  "length_kind": "default",
+  "local_spam_top10_share": 0.112,
+  "local_spam_ngram3_repeat": 0.015,
+  "local_lexical_diversity": 0.59,
+  "local_ai_markers_density": 0.21,
+  "local_ai_markers_total": 2,
+  "local_ai_markers_critical": 0,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 3,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 53,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность чуть выше 50% (~53%)"
+  ],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1780066632/articles/vzyskanie-ushcherba-ot-dtp-s-vinovnika-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1780066632/articles/vzyskanie-ushcherba-ot-dtp-s-vinovnika-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Editorial composition centered on legal recovery and time-bound process. Hero objects arranged on dark charcoal slate: a sand-filled brass hourglass mid-flow positioned left of center, a stack of 3-4 closed manila dossiers tied with cord, a polished round official seal, a fountain pen aligned diagonally, an antique brass padlock with weathered patina suggesting asset security. Camera: three-quarter angle tabletop level. Lighting: focused directional spotlight creating dramatic shadow and gold rim-light on brass surfaces, subtle cool backlight defining the edge of objects. Palette: deep charcoal slate, warm brass accents, oxblood leather binding on dossiers. Mood: procedural gravity, time running out, legal enforcement in progress.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-05-29T14:57:13Z",
+  "date_published": "2026-05-29",
+  "date_modified": "2026-05-29",
+  "ready_for_review": true,
+  "ready_at": "2026-05-29T14:57:13Z",
+  "publication_target": "telegram_review"
+}

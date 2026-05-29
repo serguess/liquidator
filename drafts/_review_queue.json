@@ -2059,6 +2059,19 @@
         "passed": false,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "vzyskanie-ushcherba-ot-dtp-s-vinovnika",
+      "category": "vzysk",
+      "title": "Взыскание ущерба от ДТП с виновника через суд",
+      "added_at": "2026-05-29T17:57:13.879751",
+      "char_count": 7507,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1780066632/articles/vzyskanie-ushcherba-ot-dtp-s-vinovnika-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
