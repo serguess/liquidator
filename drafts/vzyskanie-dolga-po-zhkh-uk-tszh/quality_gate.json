@@ -1,0 +1,285 @@
+{
+  "file": "/home/appuser/apps/liquidator/drafts/vzyskanie-dolga-po-zhkh-uk-tszh/article.html",
+  "passed": true,
+  "hard_failed": false,
+  "blockers": [],
+  "warnings": [
+    "internal_links_autofixed: 4 ссылок (например /articles/vzysk/kak-otmenit-sudebnyj-prikaz.html→/articles/vzysk/kak-otmenit-sudebnyj-prikaz; /articles/vzysk/isk-o-vzyskanii-dolga-v-sud.html→/articles/vzysk/isk-o-vzyskanii-dolga-v-sud; /articles/vzysk/srok-iskovoj-davnosti-po-kreditu.html→/articles/vzysk/srok-iskovoj-davnosti-po-kreditu)",
+    "length_soft_passed: 8318 > 8000 но ≤ 8500 и iteration=3 — пропускаем (приоритет spam/uniqueness/ai)",
+    "forced_pass_at_iter2: блокеры пропущены, статья идёт в TG-очередь с metrics_warning=true. Было: 1 блокеров — spam_risk"
+  ],
+  "autofix": {
+    "file": "/home/appuser/apps/liquidator/drafts/vzyskanie-dolga-po-zhkh-uk-tszh/article.html",
+    "abbreviation_fixes": {},
+    "punctuation_fixes": 0,
+    "em_dash_fixes": 0,
+    "eng_quotes_fixes": 0,
+    "changed": false,
+    "bytes_before": 43643,
+    "bytes_after": 43643
+  },
+  "quality_checks": {
+    "file": "drafts/vzyskanie-dolga-po-zhkh-uk-tszh/article.html",
+    "text_chars": 8318,
+    "length_status": "too_long",
+    "length_kind": "default",
+    "passed": false,
+    "abbreviation_hits": [],
+    "punctuation_hits": [],
+    "spam": {
+      "total_words": 767,
+      "unique_lemmas": 431,
+      "lexical_diversity": 0.562,
+      "top10_words": [
+        [
+          "стать",
+          14
+        ],
+        [
+          "долг",
+          11
+        ],
+        [
+          "част",
+          9
+        ],
+        [
+          "кодекс",
+          8
+        ],
+        [
+          "вправ",
+          7
+        ],
+        [
+          "оплат",
+          7
+        ],
+        [
+          "жилищн",
+          7
+        ],
+        [
+          "сумм",
+          7
+        ],
+        [
+          "дней",
+          7
+        ],
+        [
+          "приказ",
+          7
+        ]
+      ],
+      "top10_share": 0.11,
+      "top1_count": 14,
+      "top3_sum": 34,
+      "top10_sum": 84,
+      "ngram3_repeat_count": 38,
+      "ngram3_total": 765,
+      "ngram3_repeat_share": 0.05,
+      "risk_flags": [
+        "top1_count>12 (=14, лемма «стать»)",
+        "top3_sum>30 (=34)",
+        "top10_sum>80 (=84)",
+        "ngram3_repeat_share>0.035 (=0.05)",
+        "lexical_diversity<0.58 (=0.562)"
+      ]
+    },
+    "targeted_tokens": [
+      {
+        "token": "ст_сокращение",
+        "count": 0,
+        "limit": 5,
+        "over_limit": false,
+        "severity": "hard"
+      },
+      {
+        "token": "РФ_рудимент",
+        "count": 0,
+        "limit": 2,
+        "over_limit": false,
+        "severity": "hard"
+      },
+      {
+        "token": "руб_сокращение",
+        "count": 0,
+        "limit": 0,
+        "over_limit": false,
+        "severity": "hard"
+      },
+      {
+        "token": "ООО_бренд",
+        "count": 0,
+        "limit": 3,
+        "over_limit": false,
+        "severity": "hard"
+      },
+      {
+        "token": "000руб_паттерн",
+        "count": 2,
+        "limit": 2,
+        "over_limit": false,
+        "severity": "hard"
+      },
+      {
+        "token": "127фз_закон",
+        "count": 0,
+        "limit": 2,
+        "over_limit": false,
+        "severity": "soft"
+      },
+      {
+        "token": "213_артикул",
+        "count": 0,
+        "limit": 3,
+        "over_limit": false,
+        "severity": "soft"
+      },
+      {
+        "token": "ГПК_кодекс",
+        "count": 2,
+        "limit": 3,
+        "over_limit": false,
+        "severity": "soft"
+      },
+      {
+        "token": "ГК_кодекс",
+        "count": 0,
+        "limit": 3,
+        "over_limit": false,
+        "severity": "soft"
+      },
+      {
+        "token": "000_число",
+        "count": 2,
+        "limit": 8,
+        "over_limit": false,
+        "severity": "soft"
+      },
+      {
+        "token": "cta_формула_повтор",
+        "count": 1,
+        "limit": 1,
+        "over_limit": false,
+        "severity": "soft"
+      }
+    ],
+    "author_markers_count": 3,
+    "author_markers_min": 2
+  },
+  "ai_markers": {
+    "file": "drafts/vzyskanie-dolga-po-zhkh-uk-tszh/article.html",
+    "text_chars": 10299,
+    "hits_total": 3,
+    "density_per_1000": 0.29,
+    "by_severity": {
+      "critical": 0,
+      "high": 1,
+      "medium": 0,
+      "low": 2
+    },
+    "own_voice_hits": 3,
+    "first_person_singular_hits": 0,
+    "hits": [
+      {
+        "name": "ИИ-лексика: «взаимодействие/тонкости/нюансы (абстрактно)»",
+        "category": "ai-lexis",
+        "severity": "low",
+        "match": "Взаимодействие",
+        "position": 10106,
+        "context": "...ение law@pravo.shop Коммерческие предложения biz@pravo.shop Взаимодействие со СМИ pr@pravo.shop © 2018-2026 ООО «ЛИКВИДАТОР». Все прав..."
+      },
+      {
+        "name": "Канцелярит: «в рамках» (без нужды)",
+        "category": "clerical",
+        "severity": "low",
+        "match": "в рамках",
+        "position": 9718,
+        "context": "...ровождение на всех этапах. Надёжность и законность Работаем в рамках ФЗ и действующего законодательства РФ. РЕКВИЗИТЫ ООО «ЛИКВИ..."
+      },
+      {
+        "name": "Канцелярит: «надлежащий/имеет место быть»",
+        "category": "clerical",
+        "severity": "high",
+        "match": "Надлежащими",
+        "position": 813,
+        "context": "...Кто вправе требовать оплату и когда возникает задолженность Надлежащими взыскателями выступают управляющая компания, ТСЖ, жилищный ..."
+      }
+    ]
+  },
+  "anti_template": {
+    "file": "drafts/vzyskanie-dolga-po-zhkh-uk-tszh/article.html",
+    "text_chars": 8766,
+    "phrases_loaded": 138,
+    "passed": true,
+    "hits": []
+  },
+  "law_quotes": {
+    "total_chars": 0,
+    "limit": 600,
+    "samples": []
+  },
+  "rhythm": {
+    "file": "drafts/vzyskanie-dolga-po-zhkh-uk-tszh/article.html",
+    "text_chars": 8766,
+    "sentences_total": 96,
+    "avg_sentence_len": 8.8,
+    "short_sentences_count": 20,
+    "short_sentences_share": 0.208,
+    "long_sentences_count": 0,
+    "parasite_count": 1,
+    "parasite_per_1000": 0.11,
+    "flags": []
+  },
+  "internal_links": {
+    "total_hrefs": 43,
+    "ok": 0,
+    "whitelisted": 21,
+    "external": 15,
+    "fixed": 4,
+    "errors": 0,
+    "changed": true,
+    "fix_details": [
+      {
+        "href": "/articles/vzysk/kak-otmenit-sudebnyj-prikaz.html",
+        "verdict": "fix_html",
+        "fixed_href": "/articles/vzysk/kak-otmenit-sudebnyj-prikaz",
+        "reason": "трейлинг .html → 301-редирект"
+      },
+      {
+        "href": "/articles/vzysk/isk-o-vzyskanii-dolga-v-sud.html",
+        "verdict": "fix_html",
+        "fixed_href": "/articles/vzysk/isk-o-vzyskanii-dolga-v-sud",
+        "reason": "трейлинг .html → 301-редирект"
+      },
+      {
+        "href": "/articles/vzysk/srok-iskovoj-davnosti-po-kreditu.html",
+        "verdict": "fix_html",
+        "fixed_href": "/articles/vzysk/srok-iskovoj-davnosti-po-kreditu",
+        "reason": "трейлинг .html → 301-редирект"
+      },
+      {
+        "href": "/articles/vzysk/ispolnitelnyj-list-poluchenie-predyavlenie.html",
+        "verdict": "fix_html",
+        "fixed_href": "/articles/vzysk/ispolnitelnyj-list-poluchenie-predyavlenie",
+        "reason": "трейлинг .html → 301-редирект"
+      }
+    ],
+    "error_details": []
+  },
+  "recommendations": [
+    "reduce_repetition: разбавить топ-5 частотных лемм местоимениями/перифразом — ['стать', 'долг', 'част', 'кодекс', 'вправ']"
+  ],
+  "retry_count": 3,
+  "predicted_metrics": {
+    "spam_pct": 60,
+    "ai_pct": 3,
+    "uniqueness_pct": 87
+  },
+  "customer_risks": [
+    "заспамленность заметно выше 50% (~60%)",
+    "длина больше лимита 8000 (8 318 знаков)"
+  ]
+}

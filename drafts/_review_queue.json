@@ -2020,6 +2020,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "vzyskanie-dolga-po-zhkh-uk-tszh",
+      "category": "vzysk",
+      "title": "Взыскание долга по ЖКХ: порядок для УК и ТСЖ",
+      "added_at": "2026-05-29T10:02:33.599464",
+      "char_count": 8318,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1780038151/articles/vzyskanie-dolga-po-zhkh-uk-tszh-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
