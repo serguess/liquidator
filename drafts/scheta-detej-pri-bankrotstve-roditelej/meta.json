@@ -1,0 +1,104 @@
+{
+  "slug": "scheta-detej-pri-bankrotstve-roditelej",
+  "category": "fiz",
+  "title": "Счета детей при банкротстве родителей: защита вкладов",
+  "description": "Разбираем, могут ли финансовый управляющий и кредиторы добраться до счетов и вкладов несовершеннолетних детей, если банкротится один из родителей.",
+  "h1": "Счета и вклады детей при банкротстве родителей: что заберут, что защищено",
+  "lead": "Когда мать или отец уходит в несостоятельность, судьба детских вкладов и карт зависит от одного критерия — чей юридический владелец счёта.",
+  "topic_action": "проверку защиты детских счетов при банкротстве",
+  "breadcrumb_current": "Счета детей при банкротстве родителей",
+  "og_image": "/assets/articles/scheta-detej-pri-bankrotstve-roditelej.jpg",
+  "main_keyword": "счета детей при банкротстве родителей",
+  "secondary_keywords": [
+    "вклад ребенка при банкротстве родителя",
+    "арест счета несовершеннолетнего долги родителей",
+    "деньги детей при банкротстве",
+    "имущество ребенка при банкротстве",
+    "финансовый управляющий счет ребенка",
+    "оспаривание перевода на счет ребенка банкротство",
+    "защита детских вкладов банкротство",
+    "карта ребенка долги родителей"
+  ],
+  "internal_links": [
+    "/bankovskie-scheta-pri-bankrotstve.html",
+    "/chto-nelzya-delat-pered-bankrotstvom-fizlica.html",
+    "/dohody-vo-vremya-bankrotstva-fizlica.html",
+    "/alimenty-pri-bankrotstve-fizlica.html"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/"
+  ],
+  "faq": [
+    {
+      "question": "Может ли арбитражный управляющий заблокировать карту, оформленную на имя несовершеннолетнего?",
+      "answer": "Если карта выпущена по отдельному договору на имя самого подростка — нет. Управляющий получает данные о счетах гражданина-банкрота, а не третьих лиц. Прямые запросы о детских вкладах без судебного определения банк отклоняет. Дополнительная карта к счёту банкрота — другое: там деньги принадлежат заявителю."
+    },
+    {
+      "question": "Что произойдёт с вкладом, который открыт на малолетнего, но пополнял его отец или мать?",
+      "answer": "Сам депозит в конкурсную массу не войдёт — он принадлежит несовершеннолетнему. Но переводы на него могут быть оспорены: за 1 год по неравноценности, за 3 года — при признаках неплатёжеспособности. Если суд признаёт операции недействительными, деньги возвращаются."
+    },
+    {
+      "question": "Распространяется ли защита на маткапитал, если он уже вложен в ипотеку?",
+      "answer": "Нет. Неизрасходованный сертификат на счёте в Социальном фонде защищён. Как только средства направлены на ипотеку, они трансформировались в имущество — ипотечная квартира в конкурсную массу входит."
+    },
+    {
+      "question": "Обязательно ли подавать ходатайство, чтобы суд исключил прожиточный минимум на детей?",
+      "answer": "Да. Минимум на самого заявителя исключается по умолчанию. Для дополнительного исключения на каждого иждивенца нужно мотивированное ходатайство с документами о составе семьи."
+    },
+    {
+      "question": "До какого момента переводы на детский вклад могут признать подозрительной сделкой?",
+      "answer": "Отсчёт от даты принятия судом заявления. Безвозмездный перевод за 1 год — оспаривается по неравноценности. За 3 года — если были признаки неплатёжеспособности и цель причинить вред. Малолетний — заинтересованное лицо, осведомлённость презюмируется."
+    },
+    {
+      "question": "Чем отличается ситуация, когда ребёнку 13 лет, от ситуации, когда ему 15?",
+      "answer": "По существу — ничем. Имущество несовершеннолетнего до 18 лет защищено одинаково. Разница процедурная: до 14 лет отец или мать совершают операции от имени малолетнего, с 14 — подросток действует самостоятельно."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "f1, f2, f3, f4, f5, f6, f7, f10, f11, f13, f14, f16 — active, last_verified 2026-05-29, контекст норм проверен",
+    "f8, f9 (ст. 101 ФЗ-229, маткапитал) — пересказаны без точных цитат, риска дубля нет",
+    "f12 (позиция ВС о праве ФУ запрашивать данные о детях) — contested/needs_verification: использована безопасная формулировка «прямые запросы без судебного определения банк отклоняет» без ссылки на конкретное определение",
+    "f15 (маркировка защищённых выплат с 2022) — needs_verification по реквизитам постановления: дата «с 2022 года» оставлена без номера постановления, факт маркировки опирается на ст. 101 ФЗ-229",
+    "Лимит цитирования закона: прямых цитат норм нет, все нормы пересказаны",
+    "Двойной проход фактчека пройден: цифры (1 год, 3 года, статьи 213.25, 61.2, 60, 64, 28, 26, 101) соответствуют research.json"
+  ],
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "text_chars": 7956,
+  "length_status": "warn",
+  "length_kind": "default",
+  "local_spam_top10_share": 0.11,
+  "local_spam_ngram3_repeat": 0.045,
+  "local_lexical_diversity": 0.564,
+  "local_ai_markers_density": 0.3,
+  "local_ai_markers_total": 3,
+  "local_ai_markers_critical": 0,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 5,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 4,
+  "predicted_spam_pct": 60,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность заметно выше 50% (~60%)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "spam_risk: 2 флагов (ngram3_repeat_share>0.035 (=0.045), lexical_diversity<0.58 (=0.564)), top-5: ['должник', 'банкротств', 'перевод', 'стать', 'средств']"
+  ],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1780022511/articles/scheta-detej-pri-bankrotstve-roditelej-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1780022511/articles/scheta-detej-pri-bankrotstve-roditelej-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Exterior photograph of a stone neoclassical administrative building with tall fluted columns and heavy marble pediment, shot in cool grey-blue tonal palette. Camera positioned at three-quarter angle from the building's cornerstone entrance, framed through soft city fog and overcast morning light that emphasizes the weight and solidity of the classical stonework. In the immediate foreground at the base of wide stone steps: a closed leather briefcase resting on polished grey marble, a folded black umbrella leaning against the column, and a bound stack of dossiers tied with pale cord symbolizing child-protection legal documents. The brass plaque on the stone wall (no readable text) catches subtle light. Tall carved columns create vertical lines of authority and shelter. Palette: cool limestone whites, charcoal shadows, soft brass accents. Atmosphere: institutional protection, legal formality, the shield of official procedure safeguarding vulnerable interests.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-05-29T02:41:52Z",
+  "date_published": "2026-05-29",
+  "date_modified": "2026-05-29",
+  "ready_for_review": true,
+  "ready_at": "2026-05-29T02:41:52Z",
+  "publication_target": "telegram_review"
+}

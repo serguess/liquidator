@@ -1994,6 +1994,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "scheta-detej-pri-bankrotstve-roditelej",
+      "category": "fiz",
+      "title": "Счета детей при банкротстве родителей: защита вкладов",
+      "added_at": "2026-05-29T05:41:52.154917",
+      "char_count": 7956,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1780022511/articles/scheta-detej-pri-bankrotstve-roditelej-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
