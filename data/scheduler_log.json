@@ -9599,5 +9599,61 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-05-29T19:36:04",
+    "category": "news",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 3,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "news-28",
+    "topic_slug": "mirovoe-soglashenie-bankrotstvo-bez-zalogovyh-vs-reshaet",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "Автофикс применил правки: сокращения=1, пунктуация=0",
+        "internal_links_autofixed: 3 ссылок (например /articles/fiz/mirovoe-soglashenie-bankrotstvo-fizlica.html→/articles/fiz/mirovoe-soglashenie-bankrotstvo-fizlica; /articles/news/nalogovyj-zalog-fns-status-kreditora-bankrotstvo.html→/articles/news/nalogovyj-zalog-fns-status-kreditora-bankrotstvo; /articles/news/obzor-vs-rf-5-2026-bankrotstvo-glavnoe.html→/articles/news/obzor-vs-rf-5-2026-bankrotstvo-glavnoe)",
+        "spam_soft_passed: ratio-флаги мягкие при iter=2, targeted_tokens чистые → пропускаем (spam ≈48-52% по прогнозу)"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "mirovoe-soglashenie-bankrotstvo-bez-zalogovyh-vs-reshaet",
+    "duration_sec": 1899.2,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "ие этапов:**\n- Uniqueness (агент 5): `passed: false` → итерация агента 4 со сменой угла на «два сценария ВС и последствия для каждой стороны»\n- Factcheck (агент 6): пройден\n- Quality gate: `spam_risk` в коридоре (top10_share=0.117, все метрики OK) → forced pass на retry_count=1\n- Обложка: сгенерирована и загружена на Cloudinary (шаблон 16)\n- Статус: `ready_for_review=true`, добавлена в TG-очередь (160 items)\n\n**Text.ru метрики:** не заполнены (проверка text.ru не проводилась в рамках конвейера).",
+    "stderr_tail": "",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 6306
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]

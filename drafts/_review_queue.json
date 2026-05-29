@@ -2085,6 +2085,19 @@
         "passed": false,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "strahovka-po-kreditu-pri-bankrotstve",
+      "category": "fiz",
+      "title": "Страховка по кредиту при банкротстве: поможет или нет",
+      "added_at": "2026-05-29T22:59:07.538997",
+      "char_count": 7595,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1780084746/articles/strahovka-po-kreditu-pri-bankrotstve-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
