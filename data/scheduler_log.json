@@ -9424,5 +9424,67 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-05-29T12:24:37",
+    "category": "fiz",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 25,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "fiz-75",
+    "topic_slug": "restrukturizaciya-ili-realizaciya-vybor",
+    "auto_skipped": [
+      {
+        "slug": "poruchitel-pri-bankrotstve-dolzhnika",
+        "reason": "cannibalization:preflight:cluster:fiz-bankruptcy-surety",
+        "duration_sec": 0
+      }
+    ],
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "Автофикс применил правки: сокращения=1, пунктуация=0",
+        "internal_links_autofixed: 4 ссылок (например /articles/fiz/mirovoe-soglashenie-bankrotstvo-fizlica.html→/articles/fiz/mirovoe-soglashenie-bankrotstvo-fizlica; /articles/fiz/konkursnaya-massa-pri-bankrotstve-fizlica.html→/articles/fiz/konkursnaya-massa-pri-bankrotstve-fizlica; /articles/fiz/kogda-dolgi-ne-spishut-pri-bankrotstve.html→/articles/fiz/kogda-dolgi-ne-spishut-pri-bankrotstve)"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "restrukturizaciya-ili-realizaciya-vybor",
+    "duration_sec": 2685.2,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "icle.html` |\n| **Quality gate** | passed (blockers: 0) |\n| **Uniqueness** | passed (после правки CTA-блока) |\n| **Factcheck** | passed |\n| **Обложка** | сгенерирована (шаблон #25, executive office) |\n| **metrics_warning** | false |\n| **textru_ai_detector** | не проверялся (text.ru не вызывался) |\n| **textru_uniqueness** | не проверялся |\n| **textru_spam** | не проверялся |\n\nСтатья добавлена в TG-очередь ревью (`_review_queue.json`, позиция 157). Публикация — через бот после одобрения заказчиком.",
+    "stderr_tail": "",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7938
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]

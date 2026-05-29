@@ -1,0 +1,113 @@
+{
+  "slug": "smena-arbitrazhnogo-upravljayushchego-bankrotstvo",
+  "category": "yur",
+  "title": "Смена арбитражного управляющего: права кредиторов",
+  "description": "Как кредиторы меняют арбитражного управляющего при банкротстве юрлица: отстранение через суд, освобождение на собрании, порядок замены по ст. 145 127-ФЗ.",
+  "h1": "Смена арбитражного управляющего при банкротстве: что могут сделать кредиторы",
+  "lead": "Кредиторы вправе инициировать смену управляющего через ходатайство об отстранении в арбитражный суд. Какие нужны голоса, какие доказательства принимает суд и за сколько дней СРО даст нового кандидата.",
+  "topic_action": "смену арбитражного управляющего",
+  "breadcrumb_current": "Смена арбитражного управляющего",
+  "og_image": "/assets/articles/smena-arbitrazhnogo-upravljayushchego-bankrotstvo.jpg",
+  "main_keyword": "смена арбитражного управляющего при банкротстве",
+  "secondary_keywords": [
+    "как заменить арбитражного управляющего",
+    "отстранение управляющего банкротство",
+    "права кредиторов при смене управляющего",
+    "освобождение конкурсного управляющего",
+    "ходатайство об отстранении управляющего",
+    "собрание кредиторов смена управляющего",
+    "замена управляющего при переходе процедуры",
+    "статья 145 закона о банкротстве"
+  ],
+  "internal_links": [
+    "/articles/yur/zhaloba-na-arbitrazhnogo-upravljayushchego.html",
+    "/articles/yur/osparivanie-trebovanij-v-reestre-kreditorov.html",
+    "/articles/yur/prava-direktora-v-processe-bankrotstva.html"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/"
+  ],
+  "faq": [
+    {
+      "question": "Можно ли отстранить управляющего без 10% голосов в реестре?",
+      "answer": "Да. Порог 10% нужен только для созыва собрания. Любой реестровый участник подаёт жалобу по 60-й норме — без порогового голоса. Арбитраж, признав её обоснованной, прекращает полномочия назначенного лица."
+    },
+    {
+      "question": "Что произойдёт с делом, пока суд рассматривает ходатайство?",
+      "answer": "Дело продолжается. Специалист исполняет обязанности до вступления определения в силу — а оно вступает немедленно."
+    },
+    {
+      "question": "Обязательно ли проводить собрание перед обращением в суд?",
+      "answer": "Для ходатайства через собрание — да. Для жалобы по 60-й норме — нет. Взыскатель подаёт её сам."
+    },
+    {
+      "question": "Какие доказательства суд считает достаточными?",
+      "answer": "Пропуск сроков инвентаризации, бездействие по оспариванию сделок, нарушения при торгах, несоблюдение очерёдности выплат, убытки конкурсной массе. Несогласие с тактикой управляющего — не основание."
+    },
+    {
+      "question": "Применяется ли 145-я норма к временному управляющему в наблюдении?",
+      "answer": "Нет. Эта норма — для конкурсного управляющего. Жалоба по 60-й норме возможна, суд оценит её по общим правилам."
+    },
+    {
+      "question": "Чем жалоба в Росреестр отличается от судебного отстранения?",
+      "answer": "Жалоба в Росреестр — административное производство: итог штраф или дисквалификация, но не прекращение полномочий в данном деле. Судебное отстранение по 145-й норме — именно прекращение полномочий в конкретном деле. Инструменты дополняют друг друга."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все юр-утверждения сверены с research.json (f1-f22), last_verified=2026-05-29, legislation_status=active.",
+    "Освобождение vs отстранение — ст. 144 vs ст. 145 127-ФЗ (f1, f2, f3). Кредиторам доступно именно отстранение.",
+    "Для внешнего управляющего — ст. 98, для административного — ст. 83 (f11, f12). Основания аналогичны.",
+    "Жалоба по ст. 60 как параллельный инструмент (f4): без порога голосов, при удовлетворении суд вправе отстранить.",
+    "Четыре основания отстранения по п. 1 ст. 145: неисполнение/ненадлежащее исполнение, обстоятельства-препятствия (ст. 20.2), удовлетворение жалобы, исключение из СРО (f3).",
+    "Порог 10% голосов для созыва собрания — ст. 14 п. 1 127-ФЗ (f6); 3 недели на ожидание — ст. 14 п. 3.",
+    "Решение об отстранении — исключительная компетенция собрания, п. 2 ст. 12 (f5); большинство голосов реестровых кредиторов — ст. 15 п. 1.",
+    "9 рабочих дней СРО на нового кандидата — п. 8 ст. 45 127-ФЗ (f7). Подтверждено.",
+    "Срок рассмотрения 1 месяц — ст. 60 п. 1, апелляция 10 дней — ст. 61 п. 3 (f20).",
+    "Фиксированное вознаграждение 30 000 руб./мес — п. 3 ст. 20.6 127-ФЗ (f15). Не путаем с процентами по п. 13 ст. 20.6 — в статье не упоминаются.",
+    "Штраф 25 000-50 000 руб., дисквалификация при повторном нарушении — ст. 14.13 КоАП РФ (f18). Ссылка дана текстом без URL (КоАП не в whitelist).",
+    "Аффилированность по ст. 20.2 п. 2 — безвиновное основание отстранения (f10, f14).",
+    "Злоупотребление мажоритарием — обтекаемая формулировка по f17, ВС РФ как крайняя мера — по f21 (без указания номеров определений, чтобы не выдумывать реквизиты).",
+    "Прямые цитаты норм — отсутствуют. Все нормы пересказаны, лимит цитирования (≤600 знаков) соблюдён.",
+    "Внутренние ссылки: 3 шт., все проверены по published_index.json (source=published) — zhaloba-na-arbitrazhnogo-upravljayushchego, osparivanie-trebovanij-v-reestre-kreditorov, prava-direktora-v-processe-bankrotstva.",
+    "Внешние ссылки: 2 гиперссылки на КонсультантПлюс (127-ФЗ) — в блоках 'Что может кредитор' и 'СРО поставляет нового кандидата'."
+  ],
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "text_chars": 7871,
+  "length_status": "warn",
+  "length_kind": "default",
+  "local_spam_top10_share": 0.141,
+  "local_spam_ngram3_repeat": 0.058,
+  "local_lexical_diversity": 0.556,
+  "local_ai_markers_density": 0.2,
+  "local_ai_markers_total": 2,
+  "local_ai_markers_critical": 0,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 3,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 62,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность заметно выше 50% (~62%)"
+  ],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1780057558/articles/smena-arbitrazhnogo-upravljayushchego-bankrotstvo-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1780057558/articles/smena-arbitrazhnogo-upravljayushchego-bankrotstvo-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Tight close-up photograph suggesting recent deliberate legal action, absolutely no people. Foreground: an opened dark leather briefcase with dossier pages fanning out (no readable text), a fountain pen lying uncapped beside a small brass inkwell, a stack of closed sealed dossiers tied with cord positioned behind, a half-finished porcelain coffee cup. The wooden desk chair pushed back from frame's right edge as if just vacated by decision-maker. Camera: shallow depth of field, three-quarter angle emphasizing the layered objects. Lighting: warm directional light from upper left creating refined shadows on leather and paper edges. Materials: walnut desk surface, oxidized brass inkwell, cream dossier covers. Mood: paused moment of formal procedural action just undertaken, the breath after creditors' decisive move.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-05-29T12:25:59Z",
+  "date_published": "2026-05-29",
+  "date_modified": "2026-05-29",
+  "ready_for_review": true,
+  "ready_at": "2026-05-29T12:25:59Z",
+  "publication_target": "telegram_review",
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "spam_risk: 6 флагов (top1_count>12 (=16, лемма «норм»), top3_sum>30 (=39), top10_sum>80 (=98), top10_share>0.115 (=0.141), ngram3_repeat_share>0.035 (=0.058), lexical_diversity<0.58 (=0.556)), top-5: ['норм', 'жалоб', 'управляющег', 'собран', 'ходатайств']"
+  ]
+}
