@@ -9135,5 +9135,62 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-05-29T00:24:00",
+    "category": "yur",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 20,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "yur-65",
+    "topic_slug": "nalogovye-posledstviya-bankrotstva-dlya-dolzhnika",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "Автофикс применил правки: сокращения=0, пунктуация=0",
+        "forced_pass_at_iter2: блокеры пропущены, статья идёт в TG-очередь с metrics_warning=true. Было: 1 блокеров — spam_risk"
+      ],
+      "recommendations": [
+        "reduce_repetition: разбавить топ-5 частотных лемм местоимениями/перифразом — ['закон', 'налогов', 'несостоятельност', 'руководител', 'банкротств']"
+      ],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "nalogovye-posledstviya-bankrotstva-dlya-dolzhnika",
+    "duration_sec": 2906.6,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "| yur |\n| **Длина** | ~7 999 знаков |\n| **Uniqueness** | passed: false → forced-pass iter=2 |\n| **Factcheck** | passed: true |\n| **Режим публикации** | `metrics_warning=true` (spam_risk: ngram3=0.062) |\n| **Файл** | `drafts/nalogovye-posledstviya-bankrotstva-dlya-dolzhnika/article.html` |\n| **Обложка** | шаблон #26, загружена на Cloudinary |\n\n**Метрики text.ru (predicted):** spam ~55%, AI ~3%, uniqueness ~87%.\n\nСтатья добавлена в `_review_queue.json` (#152) и ждёт публикации через Telegram-бота.",
+    "stderr_tail": "",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7567
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]
