@@ -9249,5 +9249,63 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-05-29T05:12:01",
+    "category": "fiz",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 22,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "fiz-73",
+    "topic_slug": "scheta-detej-pri-bankrotstve-roditelej",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "Автофикс применил правки: сокращения=2, пунктуация=0",
+        "internal_links_autofixed: 4 ссылок (например /bankovskie-scheta-pri-bankrotstve.html→/articles/fiz/bankovskie-scheta-pri-bankrotstve; /chto-nelzya-delat-pered-bankrotstvom-fizlica.html→/articles/fiz/chto-nelzya-delat-pered-bankrotstvom-fizlica; /dohody-vo-vremya-bankrotstva-fizlica.html→/articles/fiz/dohody-vo-vremya-bankrotstva-fizlica)",
+        "forced_pass_at_iter2: блокеры пропущены, статья идёт в TG-очередь с metrics_warning=true. Было: 1 блокеров — spam_risk"
+      ],
+      "recommendations": [
+        "reduce_repetition: разбавить топ-5 частотных лемм местоимениями/перифразом — ['должник', 'банкротств', 'перевод', 'стать', 'средств']"
+      ],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "scheta-detej-pri-bankrotstve-roditelej",
+    "duration_sec": 1808.3,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "ed ✓\n- Quality gate: forced_pass_at_iter2 (спам-риск по ngram3/lexical_diversity, hard-блокеров нет)\n- Обложка: сгенерирована, загружена на Cloudinary ✓\n- ready_for_review: true ✓\n\n**Метрики text.ru:** пока не заполнены (`null`) — проверяются при публикации через бот.\n\n**Примечание по quality gate:** `metrics_warning=true` из-за лёгкого спама (топ-5 лемм: должник/банкротств/перевод/стать/средств — предметный домен с неизбежными повторами). Hard-блокеров нет, статья добавлена в TG-очередь (#154).",
+    "stderr_tail": "",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7956
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]

@@ -1,0 +1,116 @@
+{
+  "slug": "kriptovalyuta-cifrovye-aktivy-pri-bankrotstve",
+  "category": "yur",
+  "title": "Криптовалюта при банкротстве юридического лица",
+  "description": "Как конкурсный управляющий находит криптовалюту и ЦФА компании. Обязанности директора, конкурсная масса, оспаривание сделок и риск субсидиарки.",
+  "h1": "Криптовалюта и цифровые активы при банкротстве компании: что происходит с ними",
+  "lead": "Биткоин не спрятать: управляющий видит переводы на биржи через банковскую выписку. Что точно найдут, что законно сохранить и когда у директора начинается личная ответственность.",
+  "topic_action": "анализ рисков по цифровым активам при банкротстве",
+  "breadcrumb_current": "Криптовалюта при банкротстве компании",
+  "og_image": "/assets/articles/kriptovalyuta-cifrovye-aktivy-pri-bankrotstve.jpg",
+  "main_keyword": "криптовалюта при банкротстве юридического лица",
+  "secondary_keywords": [
+    "цифровые активы при банкротстве компании",
+    "ЦФА при банкротстве организации",
+    "конкурсная масса криптовалюта юрлицо",
+    "цифровые финансовые активы банкротство",
+    "поиск криптовалюты конкурсный управляющий",
+    "реализация цифровых активов при банкротстве",
+    "цифровые права должника банкротство"
+  ],
+  "internal_links": [
+    "/articles/yur/kontroliruyushchee-dolzhnika-lico-kdl.html",
+    "/articles/yur/sobranie-kreditorov-bankrotstvo-yurlica.html",
+    "/articles/yur/subsidiarka-za-neperedachu-dokumentov-bankrotstvo.html",
+    "/articles/yur/dokazatelstva-dobrosovestnosti-direktora-subsidiarka.html",
+    "/articles/yur/osparivanie-sdelok-pri-bankrotstve.html",
+    "/articles/yur/porog-bankrotstva-yurlica-2-mln-rubley.html"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/",
+    "https://www.consultant.ru/document/cons_doc_LAW_5142/"
+  ],
+  "faq": [
+    {
+      "question": "Чем ЦФА отличается от криптовалюты в банкротном деле?",
+      "answer": "ЦФА выпущены российским оператором, у них есть эмитент и реестр держателей. При несостоятельности эмитента держатели встают в реестр требований. Биткоин и аналоги — без эмитента: специалист ищет их через транзакции, отчётность и переписку."
+    },
+    {
+      "question": "Обязательно ли отражать монеты в бухучёте компании?",
+      "answer": "Специального ПБУ нет, но это не снимает обязанности учитывать ценности. Без отражения управляющий усомнится в достоверности отчётности и запросит объяснения."
+    },
+    {
+      "question": "Может ли управляющий продать биткоин на бирже без согласования с кредиторами?",
+      "answer": "Нет. Прямая продажа возможна только с одобрения собрания взыскателей с учётом ликвидности монеты."
+    },
+    {
+      "question": "Что происходит с держателями ЦФА при банкротстве эмитента?",
+      "answer": "Держатели предъявляют требования как обычные кредиторы. Оператор передаёт управляющему реестр. Погашение идёт по очерёдности — как правило в третьей группе. Привилегий нет."
+    },
+    {
+      "question": "Сколько времени займёт реализация в конкурсном производстве?",
+      "answer": "Инвентаризация — три месяца с даты открытия производства. Оценка и торги — ещё два-пять месяцев. Полный цикл: четыре-восемь месяцев. Волатильность толкает взыскателей требовать ускорения."
+    },
+    {
+      "question": "Распространяется ли запрет на вывод на NFT компании?",
+      "answer": "Да. Если суд квалифицирует NFT как имущественные права, их вывод накануне несостоятельности оспаривается как подозрительная сделка. Правовых оснований считать их защищёнными нет."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все юр-утверждения сверены с research.json (f1-f16), last_verified=2026-05-29, legislation_status=active либо needs_verification с обтекаемой формулировкой.",
+    "Разграничение ЦФА и цифровой валюты — ст. 1, 2 ФЗ-259 от 31.07.2020 (f2). Запрет расчётов в крипте — ст. 14 ФЗ-259 (f3), не запрет владения.",
+    "Цифровые права как объект гражданских прав с 01.10.2019 — ст. 128, 141.1 ГК РФ в ред. ФЗ-34 (f1).",
+    "Конкурсная масса — п. 1 ст. 131 127-ФЗ (f4): цифровые права входят как иное имущество. Запрещённое утверждение «крипта не входит в массу» — не использовано.",
+    "Полномочия управляющего на запросы — ст. 20.3 п. 1 подп. 1 127-ФЗ (f6). Инвентаризация в 3 месяца — п. 2 ст. 129 (f16).",
+    "Обязанность директора передать ценности в 3 дня — п. 2 ст. 126 127-ФЗ (f5). Презумпция вины КДЛ — ст. 61.11 п. 2 подп. 2 (f12).",
+    "Оценка по ст. 130, торги по ст. 139 127-ФЗ (f7, f14). Реализация крипты согласовывается с собранием кредиторов — формулировка обтекаемая, конкретные площадки не названы.",
+    "ЦФА при банкротстве эмитента — ст. 5, 17 ФЗ-259 (f8). Оператор информсистемы передаёт реестр держателей управляющему.",
+    "Оспаривание сделок — ст. 61.2 (1/3 года) и ст. 61.3 127-ФЗ (f9). Глава III.1.",
+    "Порог банкротства юрлица 2 млн руб. + 3 мес просрочки — ст. 6, 33 127-ФЗ в ред. ФЗ-107 от 29.05.2024 (f10). Дата редакции упомянута в теле без вынесения в title.",
+    "NFT — обтекаемая формулировка по f15 (contested): квалификация через ст. 128, 141.1 ГК, практика только формируется, запрещённое утверждение «NFT освобождены от массы» — не использовано.",
+    "ПБУ для крипты нет — формулировка по f13 (needs_verification): отражают как прочие финвложения или НМА, рекомендация БМЦ Р-133/2021 в тексте не названа реквизитами.",
+    "Прямые цитаты норм — отсутствуют. Все нормы пересказаны, лимит цитирования (≤600 знаков) соблюдён.",
+    "Внутренние ссылки: 6 шт., все проверены по published_index.json, source=published. konkursnaya-massa-dolzhnika-chto-vklyuchaetsya исключён (draft_pending).",
+    "Внешние ссылки: 2 шт. на КонсультантПлюс — 127-ФЗ (ст. 20.3 и глава III.1) и ГК РФ (для отсылки в head meta). В теле — две гиперссылки на 127-ФЗ."
+  ],
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "text_chars": 8609,
+  "length_status": "too_long",
+  "length_kind": "default",
+  "local_spam_top10_share": 0.108,
+  "local_spam_ngram3_repeat": 0.029,
+  "local_lexical_diversity": 0.58,
+  "local_ai_markers_density": 0.19,
+  "local_ai_markers_total": 2,
+  "local_ai_markers_critical": 0,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 2,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 3,
+  "predicted_spam_pct": 58,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность заметно выше 50% (~58%)",
+    "длина значительно больше лимита 8000 (8 609 знаков)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "length_too_long: 8609 > 8000 (kind=default)"
+  ],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1780032090/articles/kriptovalyuta-cifrovye-aktivy-pri-bankrotstve-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1780032090/articles/kriptovalyuta-cifrovye-aktivy-pri-bankrotstve-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Exterior photograph of a contemporary glass-and-steel administrative building at night or dusk, during heavy rain. The façade reflects the wet street and sparse traffic lights in sharp focus. Wet stone pavement in foreground shows puddles mirroring the building's grid of illuminated windows — suggesting transparency and the digital transactions visible to scrutiny. Camera positioned at street level, slight low-angle, capturing the building's imposing geometrical lines. Foreground: oxidized brass information plaque on the entry pillar (no readable text). Distant silhouettes of pedestrians with black umbrellas blur in the rain (faceless, far background). Lighting: cool blue-grey ambient rain-light blended with warm amber from interior office lights and occasional street lamps glowing through the haze. Palette: charcoal and cool blue with brass and amber accents. Mood: contemporary urban financial scrutiny, assets laid bare by procedure.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-05-29T05:21:31Z",
+  "date_published": "2026-05-29",
+  "date_modified": "2026-05-29",
+  "ready_for_review": true,
+  "ready_at": "2026-05-29T05:21:31Z",
+  "publication_target": "telegram_review"
+}

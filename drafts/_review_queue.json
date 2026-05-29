@@ -2007,6 +2007,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "kriptovalyuta-cifrovye-aktivy-pri-bankrotstve",
+      "category": "yur",
+      "title": "Криптовалюта при банкротстве юридического лица",
+      "added_at": "2026-05-29T08:21:31.104849",
+      "char_count": 8609,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1780032090/articles/kriptovalyuta-cifrovye-aktivy-pri-bankrotstve-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
