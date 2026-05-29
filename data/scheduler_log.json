@@ -9655,5 +9655,59 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-05-29T22:00:37",
+    "category": "fiz",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 4,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "fiz-76",
+    "topic_slug": "strahovka-po-kreditu-pri-bankrotstve",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "internal_links_autofixed: 4 ссылок (например /articles/fiz/konkursnaya-massa-pri-bankrotstve-fizlica.html→/articles/fiz/konkursnaya-massa-pri-bankrotstve-fizlica; /articles/fiz/bankrotstvo-pri-potrebitelskom-kredite.html→/articles/fiz/bankrotstvo-pri-potrebitelskom-kredite; /articles/fiz/bankrotstvo-s-kreditami-neskolkikh-bankov.html→/articles/fiz/bankrotstvo-s-kreditami-neskolkikh-bankov)"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "strahovka-po-kreditu-pri-bankrotstve",
+    "duration_sec": 3527.1,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "в boilerplate-части, не в контенте), density 0.21/1000 — зелёная зона\n- **Spam:** top10_share=9.7%, ngram3=1.7%, lexical_diversity=0.584 — всё зелёное\n- **Обложка:** сгенерирована (template_id=5), загружена на Cloudinary\n- **Режим публикации:** `ready_for_review=true` — ждёт одобрения в Telegram-боте\n- **Файл:** `drafts/strahovka-po-kreditu-pri-bankrotstve/article.html`\n\n`textru_ai_detector`, `textru_uniqueness`, `textru_spam` — значения появятся после проверки на text.ru (запускается отдельно).",
+    "stderr_tail": "",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7595
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]

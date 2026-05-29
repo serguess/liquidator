@@ -2098,6 +2098,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "bankrotstvo-instrument-korporativnogo-konflikta",
+      "category": "yur",
+      "title": "Банкротство как оружие в корпоративном конфликте",
+      "added_at": "2026-05-30T01:30:15.243875",
+      "char_count": 9493,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1780093814/articles/bankrotstvo-instrument-korporativnogo-konflikta-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
