@@ -2057,7 +2057,11 @@
       "frequency_estimate": "medium",
       "rationale": "Поручители по кредитам часто не знают о своих рисках при банкротстве должника. Банк вправе обратиться к поручителю после завершения банкротства — острая проблема, ведущая к прямому лиду на консультацию.",
       "expected_length_chars": 7000,
-      "topic_action": "защита поручителя при банкротстве должника"
+      "topic_action": "защита поручителя при банкротстве должника",
+      "status": "rejected",
+      "rejected_at": "2026-05-29T12:24:46",
+      "rejected_reason": "cannibalization:preflight:cluster:fiz-bankruptcy-surety",
+      "rejected_by": "auto_skip_in_slot"
     },
     {
       "id": "fiz-75",
