@@ -3626,7 +3626,7 @@
     "restrukturizaciya-ili-realizaciya-vybor": {
       "category": "fiz",
       "title": "Реструктуризация или реализация имущества при банкротстве",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -3634,14 +3634,16 @@
       "tg_message_id": 1033,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-29T13:09:44",
-      "last_action_at": "2026-05-30T10:00:03",
+      "last_action_at": "2026-05-30T23:41:30",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/fiz/restrukturizaciya-ili-realizaciya-vybor",
       "pending_batch": false,
       "pending_batch_at": "2026-05-29T13:09:44",
       "batch_sent_at": "2026-05-30T10:00:03",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-05-30T23:41:30",
+      "articles_path": "articles/fiz/restrukturizaciya-ili-realizaciya-vybor.html"
     },
     "smena-arbitrazhnogo-upravljayushchego-bankrotstvo": {
       "category": "yur",
