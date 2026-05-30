@@ -3802,7 +3802,7 @@
     "bankrotstvo-podryadchika-stroitelnyj-kontrakt": {
       "category": "yur",
       "title": "Банкротство подрядчика: права заказчика по договору",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -3810,14 +3810,16 @@
       "tg_message_id": 1049,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-30T08:19:04",
-      "last_action_at": "2026-05-30T10:00:20",
+      "last_action_at": "2026-05-30T23:54:11",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/yur/bankrotstvo-podryadchika-stroitelnyj-kontrakt",
       "pending_batch": false,
       "pending_batch_at": "2026-05-30T08:19:04",
       "batch_sent_at": "2026-05-30T10:00:20",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-05-30T23:54:11",
+      "articles_path": "articles/yur/bankrotstvo-podryadchika-stroitelnyj-kontrakt.html"
     },
     "vzyskanie-alimentov-za-proshedshij-period": {
       "category": "vzysk",
