@@ -3209,7 +3209,7 @@
     "otkaz-ot-dogovora-pri-bankrotstve-statya-102": {
       "category": "yur",
       "title": "Отказ от договора при банкротстве: права управляющего",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -3217,14 +3217,16 @@
       "tg_message_id": 995,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-27T12:52:26",
-      "last_action_at": "2026-05-28T10:00:28",
+      "last_action_at": "2026-05-30T18:57:11",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/yur/otkaz-ot-dogovora-pri-bankrotstve-statya-102",
       "pending_batch": false,
       "pending_batch_at": "2026-05-27T12:52:26",
       "batch_sent_at": "2026-05-28T10:00:28",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-05-30T18:57:11",
+      "articles_path": "articles/yur/otkaz-ot-dogovora-pri-bankrotstve-statya-102.html"
     },
     "cessiya-ustupka-trebovaniya-prava-dolzhnika": {
       "category": "vzysk",
