@@ -3348,7 +3348,7 @@
     "kriptovalyuta-pri-bankrotstve-fizlica": {
       "category": "fiz",
       "title": "Криптовалюта при банкротстве физлица: что возьмут",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -3356,14 +3356,16 @@
       "tg_message_id": 1007,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-28T06:06:26",
-      "last_action_at": "2026-05-28T10:00:41",
+      "last_action_at": "2026-05-30T19:15:23",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/fiz/kriptovalyuta-pri-bankrotstve-fizlica",
       "pending_batch": false,
       "pending_batch_at": "2026-05-28T06:06:26",
       "batch_sent_at": "2026-05-28T10:00:41",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-05-30T19:15:23",
+      "articles_path": "articles/fiz/kriptovalyuta-pri-bankrotstve-fizlica.html"
     },
     "konkursnaya-massa-dolzhnika-chto-vklyuchaetsya": {
       "category": "yur",

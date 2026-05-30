@@ -2,6 +2,19 @@
   "generated": "2026-05-30",
   "articles": [
     {
+      "slug": "kriptovalyuta-pri-bankrotstve-fizlica",
+      "cat": "fiz",
+      "catLabel": "Банкротство физических лиц",
+      "title": "Криптовалюта при банкротстве физлица: что возьмут",
+      "desc": "Биткоин, эфир, NFT - всё это имущество при банкротстве. Объясняем, как управляющий ищет крипту, что попадает в конкурсную массу и чем грозит сокрытие.",
+      "date": "30 мая 2026",
+      "dateIso": "2026-05-30",
+      "read": "5 мин.",
+      "tone": "b",
+      "img": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779937554/articles/kriptovalyuta-pri-bankrotstve-fizlica-cover.jpg",
+      "url": "articles/fiz/kriptovalyuta-pri-bankrotstve-fizlica"
+    },
+    {
       "slug": "kak-uskorit-vzyskanie-cherez-pristavov",
       "cat": "vzysk",
       "catLabel": "Взыскание задолженности",
