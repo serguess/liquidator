@@ -2,6 +2,19 @@
   "generated": "2026-05-30",
   "articles": [
     {
+      "slug": "nalogovye-posledstviya-bankrotstva-dlya-dolzhnika",
+      "cat": "yur",
+      "catLabel": "Банкротство юридических лиц",
+      "title": "Налоговые последствия банкротства организации",
+      "desc": "Что происходит с НДС, налогом на прибыль и другими налоговыми долгами при банкротстве юрлица: очередность, списание, риски для директора.",
+      "date": "30 мая 2026",
+      "dateIso": "2026-05-30",
+      "read": "5 мин.",
+      "tone": "b",
+      "img": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1780006335/articles/nalogovye-posledstviya-bankrotstva-dlya-dolzhnika-cover.jpg",
+      "url": "articles/yur/nalogovye-posledstviya-bankrotstva-dlya-dolzhnika"
+    },
+    {
       "slug": "vzyskanie-dolga-s-samozanyatogo",
       "cat": "vzysk",
       "catLabel": "Взыскание задолженности",
