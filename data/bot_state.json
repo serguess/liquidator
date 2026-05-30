@@ -3413,7 +3413,7 @@
     "zapret-na-dolzhnosti-pri-bankrotstve-fizlica": {
       "category": "fiz",
       "title": "Запрет на должности после банкротства физлица",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -3421,14 +3421,16 @@
       "tg_message_id": 1013,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-28T12:50:28",
-      "last_action_at": "2026-05-29T10:00:41",
+      "last_action_at": "2026-05-30T23:31:49",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/fiz/zapret-na-dolzhnosti-pri-bankrotstve-fizlica",
       "pending_batch": false,
       "pending_batch_at": "2026-05-28T12:50:28",
       "batch_sent_at": "2026-05-29T10:00:41",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-05-30T23:31:49",
+      "articles_path": "articles/fiz/zapret-na-dolzhnosti-pri-bankrotstve-fizlica.html"
     },
     "subsidiarka-byvshego-direktora-posle-bankrotstva": {
       "category": "yur",
@@ -3879,6 +3881,24 @@
       "published_url": null,
       "pending_batch": true,
       "pending_batch_at": "2026-05-30T17:42:08"
+    },
+    "zarubezhnaya-nedvizhimost-pri-bankrotstve": {
+      "category": "fiz",
+      "title": "Зарубежная недвижимость при банкротстве физлица",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-05-30T20:33:09",
+      "last_action_at": "2026-05-30T20:33:09",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-05-30T20:33:09"
     }
   },
   "pending_actions": [],
