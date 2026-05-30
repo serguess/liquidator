@@ -2111,6 +2111,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "vzyskanie-dolga-po-dogovoru-postavki",
+      "category": "vzysk",
+      "title": "Взыскание долга по договору поставки через арбитраж",
+      "added_at": "2026-05-30T03:25:19.897988",
+      "char_count": 7508,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1780100718/articles/vzyskanie-dolga-po-dogovoru-postavki-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

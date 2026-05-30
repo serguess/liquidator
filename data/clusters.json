@@ -4304,6 +4304,26 @@
       "articles": [
         "bankrotstvo-instrument-korporativnogo-konflikta"
       ]
+    },
+    {
+      "id": "vzysk-vzyskanie-dolga-po-dogovoru-postavki",
+      "category": "vzysk",
+      "subtopic": "взыскание долга по договору поставки через арбитражный суд",
+      "intent": "informational",
+      "funnel_stage": "warm",
+      "main_keyword": "взыскание долга по договору поставки",
+      "related_keywords": [
+        "взыскание задолженности по договору поставки",
+        "иск о взыскании по договору поставки",
+        "претензия по договору поставки",
+        "неустойка по договору поставки",
+        "приказное производство арбитражный суд поставка",
+        "взыскание долга с покупателя по поставке",
+        "госпошлина арбитражный суд поставка"
+      ],
+      "articles": [
+        "vzyskanie-dolga-po-dogovoru-postavki"
+      ]
     }
   ]
 }
