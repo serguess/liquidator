@@ -3275,7 +3275,7 @@
     "zayavlenie-o-bankrotstve-fizlica-sostavit": {
       "category": "fiz",
       "title": "Заявление о банкротстве физлица: как составить",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -3283,14 +3283,16 @@
       "tg_message_id": 1001,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-27T22:47:11",
-      "last_action_at": "2026-05-28T10:00:34",
+      "last_action_at": "2026-05-30T19:07:23",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/fiz/zayavlenie-o-bankrotstve-fizlica-sostavit",
       "pending_batch": false,
       "pending_batch_at": "2026-05-27T22:47:11",
       "batch_sent_at": "2026-05-28T10:00:34",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-05-30T19:07:23",
+      "articles_path": "articles/fiz/zayavlenie-o-bankrotstve-fizlica-sostavit.html"
     },
     "administrativnaya-otvetstvennost-direktora-bankrotstvo": {
       "category": "yur",
