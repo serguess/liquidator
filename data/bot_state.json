@@ -3231,7 +3231,7 @@
     "cessiya-ustupka-trebovaniya-prava-dolzhnika": {
       "category": "vzysk",
       "title": "Права должника при продаже долга коллекторам",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -3239,14 +3239,16 @@
       "tg_message_id": 997,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-27T17:56:09",
-      "last_action_at": "2026-05-28T10:00:30",
+      "last_action_at": "2026-05-30T18:58:46",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/vzysk/cessiya-ustupka-trebovaniya-prava-dolzhnika",
       "pending_batch": false,
       "pending_batch_at": "2026-05-27T17:56:09",
       "batch_sent_at": "2026-05-28T10:00:30",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-05-30T18:58:46",
+      "articles_path": "articles/vzysk/cessiya-ustupka-trebovaniya-prava-dolzhnika.html"
     },
     "kreditor-propustil-srok-bankrotstvo-otkaz-v-peresmotre": {
       "category": "news",
