@@ -10167,5 +10167,60 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-05-30T17:12:02",
+    "category": "news",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 13,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "news-30",
+    "topic_slug": "cb-monitoring-operacij-fizlic-115-fz-uzhestochenie",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "Автофикс применил правки: сокращения=3, пунктуация=0",
+        "internal_links_autofixed: 4 ссылок (например /articles/fiz/osparivanie-sdelok-fizlica-bankrotstvo.html→/articles/fiz/osparivanie-sdelok-fizlica-bankrotstvo; /articles/fiz/bankovskie-scheta-pri-bankrotstve.html→/articles/fiz/bankovskie-scheta-pri-bankrotstve; /articles/vzysk/chto-takoe-ispolnitelnoe-proizvodstvo.html→/articles/vzysk/chto-takoe-ispolnitelnoe-proizvodstvo)"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "cb-monitoring-operacij-fizlic-115-fz-uzhestochenie",
+    "duration_sec": 1787.5,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": " `metrics_warning: false`\n\n**Метрики text.ru:** не проверялись (local_only — статья не отправлялась на text.ru)\n- `textru_ai_detector: n/a`\n- `textru_uniqueness: n/a`\n- `textru_spam: n/a`\n\n**Этапы пройдены:**\n- Агент 5 вернул на writer (CTA overlap) → CTA переформулированы\n- Quality gate: 1 тире + 4 битые ссылки починены вручную, прошло со 2-й попытки\n- Обложка сгенерирована: Cloudinary `cb-monitoring-operacij-fizlic-115-fz-uzhestochenie-cover.jpg`\n- Статья добавлена в review_queue (170 позиций)",
+    "stderr_tail": "",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 6698
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]

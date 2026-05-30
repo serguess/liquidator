@@ -2215,6 +2215,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "zarubezhnaya-nedvizhimost-pri-bankrotstve",
+      "category": "fiz",
+      "title": "Зарубежная недвижимость при банкротстве физлица",
+      "added_at": "2026-05-30T20:31:56.106008",
+      "char_count": 7236,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1780162315/articles/zarubezhnaya-nedvizhimost-pri-bankrotstve-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

@@ -1,0 +1,48 @@
+{
+  "slug": "zarubezhnaya-nedvizhimost-pri-bankrotstve",
+  "category": null,
+  "started_at": "2026-05-30T20:07:09",
+  "finished_at": null,
+  "total_duration_sec": null,
+  "current_iteration": 3,
+  "events": [
+    {
+      "ts": "2026-05-30T20:07:09",
+      "agent": "4-writer",
+      "event": "iteration_returned",
+      "iteration": 2,
+      "reason": "CTA overlap 0.232 > 0.2 с avtomobil-pri-bankrotstve-fizlica",
+      "recommendation": "Сменить формулировку всех CTA: убрать «оценку зарубежных активов», взять другой угол — например «Получить схему действий с зарубежной недвижимостью»"
+    },
+    {
+      "ts": "2026-05-30T20:25:10",
+      "agent": "4-writer",
+      "event": "iteration_returned",
+      "iteration": 3,
+      "reason": "quality_gate: spam_risk (банкротств=16>12, top10_share=0.125>0.115), targeted_tokens 213_артикул=6>3, ai_markers_critical (тире)",
+      "recommendation": "1) Уменьшить банкротств* ≥30% (≤11): заменить через несостоятельность/эта процедура/дело о списании. 2) Уменьшить 213.X ссылки с 6 до ≤3: оставить только 213.25 и 213.28, остальные убрать или заменить на описательный текст. 3) Убрать длинное тире в FAQ-вопросе про КИК — заменить на двоеточие или перефразировать."
+    },
+    {
+      "ts": "2026-05-30T20:32:17",
+      "agent": "scheduler",
+      "event": "slot_started",
+      "iteration": 3,
+      "category": "fiz",
+      "today_count": 9,
+      "limit": 10,
+      "write_article_duration_sec": 3346.3
+    },
+    {
+      "ts": "2026-05-30T20:32:17",
+      "agent": "quality_gate",
+      "event": "passed",
+      "iteration": 3,
+      "blockers": [],
+      "warnings": [
+        "Автофикс применил правки: сокращения=2, пунктуация=0",
+        "internal_links_autofixed: 3 ссылок (например /articles/fiz/konkursnaya-massa-pri-bankrotstve-fizlica.html→/articles/fiz/konkursnaya-massa-pri-bankrotstve-fizlica; /articles/fiz/osparivanie-sdelok-fizlica-bankrotstvo.html→/articles/fiz/osparivanie-sdelok-fizlica-bankrotstvo; /articles/fiz/nedobrosovestnost-dolzhnika-otkaz-v-spisanii.html→/articles/fiz/nedobrosovestnost-dolzhnika-otkaz-v-spisanii)"
+      ],
+      "recommendations": []
+    }
+  ]
+}

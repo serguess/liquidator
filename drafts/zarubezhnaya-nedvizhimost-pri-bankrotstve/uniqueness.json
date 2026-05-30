@@ -1,0 +1,31 @@
+{
+  "slug": "zarubezhnaya-nedvizhimost-pri-bankrotstve",
+  "passed": false,
+  "scores": {
+    "structure_overlap": 0.0,
+    "thesis_similarity": 0.248,
+    "cta_overlap": 0.232
+  },
+  "thresholds": {
+    "structure_overlap": 0.4,
+    "thesis_similarity": 0.3,
+    "cta_overlap": 0.2
+  },
+  "similar_articles": [
+    {
+      "slug": "bankrotstvo-banka-prava-klientov",
+      "category": "fiz",
+      "similarity": 0.248
+    }
+  ],
+  "conflicts": [
+    "cta_overlap: 0.232 (threshold: 0.2)"
+  ],
+  "recommendation": "rewrite_with_angle:specificity-improvement",
+  "checked_at": "2026-05-30",
+  "notes": {
+    "issue": "CTA-формулировки в финальном блоке использует универсальную фразу 'Получите конкретный разбор своей ситуации', которая семантически пересекается на 23.2% с CTA других статей категории",
+    "solution": "Заменить финальный CTA на специфичную для этой статьи формулировку из outline: 'Получить схему действий с зарубежной недвижимостью при банкротстве' вместо обобщённой версии",
+    "metrics_explanation": "Структура (H2): 0.0 — нет пересечений, угол подачи уникален. Тезисы (блоки): 0.248 — в пределах нормы (< 0.3). CTA: 0.232 — превышает порог 0.2 из-за универсальной финальной формулировки"
+  }
+}

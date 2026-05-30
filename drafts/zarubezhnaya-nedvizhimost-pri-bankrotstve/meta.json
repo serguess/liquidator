@@ -1,0 +1,109 @@
+{
+  "slug": "zarubezhnaya-nedvizhimost-pri-bankrotstve",
+  "category": "fiz",
+  "title": "Зарубежная недвижимость при банкротстве физлица",
+  "description": "Квартира или дом за границей входит в конкурсную массу при банкротстве физлица. Объясняем, как управляющий её ищет, когда реально заберут и чем грозит сокрытие.",
+  "h1": "Недвижимость за рубежом при банкротстве физлица: заберут или нет",
+  "lead": "Квартира на Кипре, дом в Черногории, апартаменты в Барселоне — всё это часть конкурсной массы при банкротстве. Закон не разграничивает имущество должника по географии.",
+  "topic_action": "схему действий с зарубежной недвижимостью при банкротстве",
+  "breadcrumb_current": "Недвижимость за рубежом при банкротстве",
+  "og_image": "/assets/articles/zarubezhnaya-nedvizhimost-pri-bankrotstve.jpg",
+  "main_keyword": "недвижимость за рубежом при банкротстве",
+  "main_keyword_exact_count": 2,
+  "keyword_density_main": 0.01,
+  "secondary_keywords": [
+    "квартира за границей при банкротстве",
+    "имущество за рубежом при банкротстве физлица",
+    "зарубежная недвижимость конкурсная масса",
+    "продажа имущества за границей банкротство",
+    "как финансовый управляющий ищет имущество за рубежом",
+    "сокрытие имущества за рубежом банкротство",
+    "иностранные активы должника банкротство",
+    "международное поручение банкротство физлица"
+  ],
+  "internal_links": [
+    "/articles/fiz/konkursnaya-massa-pri-bankrotstve-fizlica.html",
+    "/articles/fiz/osparivanie-sdelok-fizlica-bankrotstvo.html",
+    "/articles/fiz/nedobrosovestnost-dolzhnika-otkaz-v-spisanii.html",
+    "/articles/news/sudebnaya-praktika-edinstvennoe-zhilye-2026.html",
+    "/articles/yur/prednamerennoe-bankrotstvo-ugolovnaya-otvetstvennost.html"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/"
+  ],
+  "faq": [
+    {
+      "question": "Войдёт ли квартира в Турции в конкурсную массу, если россиянин официально там не живёт?",
+      "answer": "Войдёт. Норма закона о банкротстве не требует проживания за рубежом: имущество, принадлежащее гражданину на дату признания банкротом, входит в опись."
+    },
+    {
+      "question": "Может ли арбитражный управляющий сам продать жильё в Испании без участия должника?",
+      "answer": "Практически нет. Российские полномочия управляющего испанский реестр не признаёт. Нужна доверенность по испанскому праву или признание полномочий местным судом."
+    },
+    {
+      "question": "Защищает ли статья 446 процессуального кодекса зарубежную квартиру, если в России другого жилья нет?",
+      "answer": "По сложившейся практике иммунитет единственного жилья применяется к объектам в России. К иностранной квартире он, как правило, не распространяется."
+    },
+    {
+      "question": "Что будет, если недвижимость оформлена на иностранную компанию — КИК?",
+      "answer": "Доля участия в иностранной компании входит в конкурсную массу как имущественное право. Управляющий включает в опись долю гражданина в этой структуре. Сокрытие КИК влечёт отказ в освобождении от обязательств."
+    },
+    {
+      "question": "Как давно нужно было продать имущество за рубежом, чтобы управляющий не оспорил сделку?",
+      "answer": "Трёхлетний период отсчитывается от даты подачи заявления о банкротстве. Более трёх лет назад — оснований оспорить как подозрительную сделку нет. При заниженной цене или дарении срок один год."
+    },
+    {
+      "question": "Обязательно ли уведомлять налоговую о зарубежной недвижимости?",
+      "answer": "Отдельной обязанности уведомлять ФНС о наличии зарубежного жилья нет. Резиденты обязаны декларировать иностранные счета и доходы от имущества за рубежом через НДФЛ."
+    },
+    {
+      "question": "Чем грозит отказ передать управляющему сведения о зарубежном активе?",
+      "answer": "Отказ или искажение данных — основание для отказа в списании долгов по пункту 4 статьи 213.28 закона о банкротстве. При крупном ущербе кредиторам возможна уголовная ответственность по части 1 статьи 195 УК — до трёх лет лишения свободы."
+    }
+  ],
+  "text_chars": 7236,
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все юр-факты сверены с research.json: п. 1 ст. 213.25 (f1) — конкурсная масса без географических ограничений; п. 9 ст. 213.9 — обязанность раскрыть имущество (f4); п. 4 ст. 213.28 — отказ в списании за сокрытие (f5); ч. 1 ст. 195 УК с порогом по примечанию к ст. 169 УК — без указания конкретной суммы (f6, f7); ст. 61.2 — оспаривание подозрительных сделок 3 года / 1 год (f8); ст. 19 — аффилированность и презумпция осведомлённости (f18); ст. 1205 ГК — lex situs (f10); ст. 446 ГПК — иммунитет, не применяется к зарубежу (f13); ст. 256 АПК — судебные поручения (f3); ст. 25.14 НК — уведомление о КИК (f17); ст. 213.25 — доля в иностранной компании в массе (f17). Все факты с last_verified=2026-05-30, legislation_status=active (кроме contested f3, f9, f13, f15 — в тексте используются safe_phrasing с оговорками 'как правило', 'дискуссионный', 'не применяет').",
+    "Не указана конкретная сумма крупного ущерба по примечанию к ст. 169 УК (f7 needs_verification) — формулировка обтекаемая 'порог установлен примечанием'.",
+    "Внутренние ссылки проверены против published_index.json: 5 целей существуют (konkursnaya-massa-pri-bankrotstve-fizlica — fiz, osparivanie-sdelok-fizlica-bankrotstvo — fiz, nedobrosovestnost-dolzhnika-otkaz-v-spisanii — fiz, sudebnaya-praktika-edinstvennoe-zhilye-2026 — news, prednamerennoe-bankrotstvo-ugolovnaya-otvetstvennost — yur).",
+    "Внешние ссылки: 2 ссылки на consultant.ru (ст. 213.25 и ст. 61.2) — в рамках лимита.",
+    "Прямых цитат норм закона в blockquote нет; нормы упоминаются текстом — суммарно цитирование < 600 знаков.",
+    "Главный ключ 'недвижимость за рубежом при банкротстве': 2 точных вхождения в теле + 1 в H1, density ~1% (под лимитом 2.5%).",
+    "Запрещённые блоки 'Шаги/Процесс/Шаблоны заявлений' отсутствуют — структура повествовательная.",
+    "Дисклеймер и CTA-блоки оставлены placeholder-комментариями для inject_boilerplate (3 CTA + дисклеймер)."
+  ],
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "length_status": "ok",
+  "length_kind": "default",
+  "local_spam_top10_share": 0.111,
+  "local_spam_ngram3_repeat": 0.025,
+  "local_lexical_diversity": 0.606,
+  "local_ai_markers_density": 0.21,
+  "local_ai_markers_total": 2,
+  "local_ai_markers_critical": 0,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 3,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 3,
+  "predicted_spam_pct": 53,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность чуть выше 50% (~53%)"
+  ],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1780162315/articles/zarubezhnaya-nedvizhimost-pri-bankrotstve-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1780162315/articles/zarubezhnaya-nedvizhimost-pri-bankrotstve-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Editorial photograph of a polished conference table with a deliberately minimal arrangement of international property disclosure — at most 4-5 objects on a wide expanse of dark walnut. Allowed objects: closed leather portfolio holding property deeds, fountain pen aligned parallel to the portfolio's edge, a small brass key ring with antique brass keys, a water carafe with two empty glasses positioned asymmetrically. Camera: symmetric down-the-table or slight three-quarter from one corner. Background through floor-to-ceiling windows: a city skyline at dusk with blurred architectural features suggesting multiple European or international landmark silhouettes, rain-streaked glass or cool evening fog softening the distant horizon. Lighting: cool overcast daylight from the windows, subtle warm pendant glow from above casting gentle shadows across the walnut surface. Mood: formal cross-border negotiation, the weight of international asset discovery and proceeding.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-05-30T17:31:56Z",
+  "date_published": "2026-05-30",
+  "date_modified": "2026-05-30",
+  "ready_for_review": true,
+  "ready_at": "2026-05-30T17:31:56Z",
+  "publication_target": "telegram_review"
+}
