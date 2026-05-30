@@ -3297,22 +3297,31 @@
     "administrativnaya-otvetstvennost-direktora-bankrotstvo": {
       "category": "yur",
       "title": "Административная ответственность директора при банкротстве",
-      "status": "pending_review",
-      "current_version": "2.0",
+      "status": "published",
+      "current_version": "2.1",
       "versions": [
-        "2.0"
+        "2.0",
+        "2.1"
       ],
       "tg_message_id": 1003,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-28T01:14:12",
-      "last_action_at": "2026-05-28T10:00:36",
-      "edits_history": [],
+      "last_action_at": "2026-05-30T19:11:10",
+      "edits_history": [
+        {
+          "version": "2.1",
+          "edit_text": "Ты неверно определил размер, который переходит в уголовную ответственность. Не 2,25 миллиона рублей, а 3,5 миллиона рублей. Измени это по всему тексту и отправь исправленный вариант.",
+          "applied_at": "2026-05-30T19:10:53"
+        }
+      ],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/yur/administrativnaya-otvetstvennost-direktora-bankrotstvo",
       "pending_batch": false,
       "pending_batch_at": "2026-05-28T01:14:12",
       "batch_sent_at": "2026-05-28T10:00:36",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-05-30T19:11:10",
+      "articles_path": "articles/yur/administrativnaya-otvetstvennost-direktora-bankrotstvo.html"
     },
     "kak-uskorit-vzyskanie-cherez-pristavov": {
       "category": "vzysk",

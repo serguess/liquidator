@@ -2,6 +2,19 @@
   "generated": "2026-05-30",
   "articles": [
     {
+      "slug": "administrativnaya-otvetstvennost-direktora-bankrotstvo",
+      "cat": "yur",
+      "catLabel": "Банкротство юридических лиц",
+      "title": "Административная ответственность директора при банкротстве",
+      "desc": "Что грозит директору по ст. 14.12 и 14.13 КоАП: штраф за непередачу документов, дисквалификация, неподача заявления о банкротстве. Срок давности 3 года.",
+      "date": "30 мая 2026",
+      "dateIso": "2026-05-30",
+      "read": "5 мин.",
+      "tone": "b",
+      "img": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779919980/articles/administrativnaya-otvetstvennost-direktora-bankrotstvo-cover.jpg",
+      "url": "articles/yur/administrativnaya-otvetstvennost-direktora-bankrotstvo"
+    },
+    {
       "slug": "zayavlenie-o-bankrotstve-fizlica-sostavit",
       "cat": "fiz",
       "catLabel": "Банкротство физических лиц",
