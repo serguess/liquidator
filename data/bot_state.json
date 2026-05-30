@@ -3736,7 +3736,7 @@
     "bankrotstvo-instrument-korporativnogo-konflikta": {
       "category": "yur",
       "title": "Банкротство как оружие в корпоративном конфликте",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -3744,14 +3744,16 @@
       "tg_message_id": 1043,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-30T01:30:48",
-      "last_action_at": "2026-05-30T10:00:14",
+      "last_action_at": "2026-05-30T23:50:03",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/yur/bankrotstvo-instrument-korporativnogo-konflikta",
       "pending_batch": false,
       "pending_batch_at": "2026-05-30T01:30:48",
       "batch_sent_at": "2026-05-30T10:00:14",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-05-30T23:50:03",
+      "articles_path": "articles/yur/bankrotstvo-instrument-korporativnogo-konflikta.html"
     },
     "vzyskanie-dolga-po-dogovoru-postavki": {
       "category": "vzysk",
