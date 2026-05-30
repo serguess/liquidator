@@ -9768,5 +9768,61 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-05-30T02:48:37",
+    "category": "vzysk",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 6,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "expanded_in_slot": true,
+    "topic_id": "vzysk-59",
+    "topic_slug": "vzyskanie-dolga-po-dogovoru-postavki",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "Автофикс применил правки: сокращения=0, пунктуация=0",
+        "internal_links_autofixed: 4 ссылок (например /articles/vzysk/dosudebnaya-pretenziya-obrazec.html→/articles/vzysk/dosudebnaya-pretenziya-obrazec; /articles/vzysk/vzyskanie-neustojki-po-dogovoru.html→/articles/vzysk/vzyskanie-neustojki-po-dogovoru; /articles/vzysk/obespechitelnye-mery-arest-scheta.html→/articles/vzysk/obespechitelnye-mery-arest-scheta)"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "vzyskanie-dolga-po-dogovoru-postavki",
+    "duration_sec": 2220.6,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "чение |\n|---|---|\n| Категория | vzysk |\n| Длина | 7508 знаков |\n| Uniqueness | passed (thesis_similarity 0.293 < порога 0.30) |\n| Factcheck | passed |\n| Quality gate | passed (нет блокеров, нет возвратов) |\n| Режим публикации | ready_for_review = true, очередь Telegram-бота |\n| Файл | `drafts/vzyskanie-dolga-po-dogovoru-postavki/article.html` |\n| Обложка | шаблон №15, загружена на Cloudinary |\n\n**Предсказанные метрики text.ru** (quality_gate):\n- AI-детектор: ~3%\n- Спам: ~49%\n- Уникальность: ~87%",
+    "stderr_tail": "",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7508
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]

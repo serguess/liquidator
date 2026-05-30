@@ -2124,6 +2124,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "direktor-uchreditel-posle-bankrotstva-fizlica",
+      "category": "fiz",
+      "title": "Директор и учредитель после банкротства физлица",
+      "added_at": "2026-05-30T05:46:30.061420",
+      "char_count": 7837,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1780109189/articles/direktor-uchreditel-posle-bankrotstva-fizlica-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
