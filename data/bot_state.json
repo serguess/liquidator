@@ -3563,7 +3563,7 @@
     "scheta-detej-pri-bankrotstve-roditelej": {
       "category": "fiz",
       "title": "Счета детей при банкротстве родителей: защита вкладов",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -3571,14 +3571,16 @@
       "tg_message_id": 1027,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-29T05:42:41",
-      "last_action_at": "2026-05-29T10:00:56",
+      "last_action_at": "2026-05-30T23:37:27",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/fiz/scheta-detej-pri-bankrotstve-roditelej",
       "pending_batch": false,
       "pending_batch_at": "2026-05-29T05:42:41",
       "batch_sent_at": "2026-05-29T10:00:56",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-05-30T23:37:27",
+      "articles_path": "articles/fiz/scheta-detej-pri-bankrotstve-roditelej.html"
     },
     "kriptovalyuta-cifrovye-aktivy-pri-bankrotstve": {
       "category": "yur",
