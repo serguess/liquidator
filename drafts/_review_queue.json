@@ -2189,6 +2189,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "obrashchenie-vzyskaniya-na-zalog",
+      "category": "vzysk",
+      "title": "Обращение взыскания на залог: суд и внесудебный порядок",
+      "added_at": "2026-05-30T15:37:22.978988",
+      "char_count": 8497,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1780144641/articles/obrashchenie-vzyskaniya-na-zalog-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

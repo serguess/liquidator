@@ -10050,5 +10050,63 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-05-30T12:24:35",
+    "category": "yur",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 11,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "yur-70",
+    "topic_slug": "debitorskaya-zadolzhennost-bankrotstvo-dolzhnika-yurlica",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "Автофикс применил правки: сокращения=1, пунктуация=0",
+        "internal_links_autofixed: 3 ссылок (например /articles/yur/osparivanie-sdelok-pri-bankrotstve.html→/articles/yur/osparivanie-sdelok-pri-bankrotstve; /articles/yur/osparivanie-trebovanij-v-reestre-kreditorov.html→/articles/yur/osparivanie-trebovanij-v-reestre-kreditorov; /articles/yur/prodazha-biznesa-pri-bankrotstve-yurlica.html→/articles/yur/prodazha-biznesa-pri-bankrotstve-yurlica)",
+        "forced_pass_at_iter2: блокеры пропущены, статья идёт в TG-очередь с metrics_warning=true. Было: 1 блокеров — spam_risk"
+      ],
+      "recommendations": [
+        "reduce_repetition: разбавить топ-5 частотных лемм местоимениями/перифразом — ['стать', 'актив', 'закон', 'продаж', 'специалист']"
+      ],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "debitorskaya-zadolzhennost-bankrotstvo-dolzhnika-yurlica",
+    "duration_sec": 2683.4,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "lica/article.html`\n- **Обложка:** сгенерирована (template_id=6), загружена в Cloudinary\n\n**Quality gate:** passed (forced_pass iter=2, `metrics_warning=true`)\n- ai_markers: 0 critical, 0 high (остаток только в boilerplate)\n- spam_risk: ngram3=0.06 — мягко выше порога, остальные метрики в норме (lex_div=0.606)\n- Uniqueness: passed\n\n**Text.ru метрики:** не проверялись локально (textru_ai_detector / uniqueness / spam = null — будут после публикации)\n\nСтатья добавлена в TG-очередь ревью (168 items).",
+    "stderr_tail": "",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7018
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]
