@@ -3780,7 +3780,7 @@
     "direktor-uchreditel-posle-bankrotstva-fizlica": {
       "category": "fiz",
       "title": "Директор и учредитель после банкротства физлица",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -3788,14 +3788,16 @@
       "tg_message_id": 1047,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-30T05:47:03",
-      "last_action_at": "2026-05-30T10:00:18",
+      "last_action_at": "2026-05-30T23:52:58",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/fiz/direktor-uchreditel-posle-bankrotstva-fizlica",
       "pending_batch": false,
       "pending_batch_at": "2026-05-30T05:47:03",
       "batch_sent_at": "2026-05-30T10:00:18",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-05-30T23:52:58",
+      "articles_path": "articles/fiz/direktor-uchreditel-posle-bankrotstva-fizlica.html"
     },
     "bankrotstvo-podryadchika-stroitelnyj-kontrakt": {
       "category": "yur",
