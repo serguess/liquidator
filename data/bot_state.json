@@ -3392,7 +3392,7 @@
     "bankrotstvo-ili-vzyskanie-chto-vybrat": {
       "category": "vzysk",
       "title": "Банкротство или взыскание: что выгоднее должнику",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -3400,13 +3400,15 @@
       "tg_message_id": 1011,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-28T10:48:28",
-      "last_action_at": "2026-05-28T10:48:28",
+      "last_action_at": "2026-05-30T19:18:14",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/vzysk/bankrotstvo-ili-vzyskanie-chto-vybrat",
       "pending_batch": false,
       "pending_batch_at": "2026-05-28T10:48:28",
-      "batch_sent_at": "2026-05-28T10:59:25"
+      "batch_sent_at": "2026-05-28T10:59:25",
+      "published_at": "2026-05-30T19:18:14",
+      "articles_path": "articles/vzysk/bankrotstvo-ili-vzyskanie-chto-vybrat.html"
     },
     "zapret-na-dolzhnosti-pri-bankrotstve-fizlica": {
       "category": "fiz",

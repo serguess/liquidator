@@ -2,6 +2,19 @@
   "generated": "2026-05-30",
   "articles": [
     {
+      "slug": "bankrotstvo-ili-vzyskanie-chto-vybrat",
+      "cat": "vzysk",
+      "catLabel": "Взыскание задолженности",
+      "title": "Банкротство или взыскание: что выгоднее должнику",
+      "desc": "Сравниваем два пути для должника: банкротство и взыскание через приставов. Плюсы, минусы, последствия для имущества и кредитной истории - разбираем конкретные ситуации.",
+      "date": "30 мая 2026",
+      "dateIso": "2026-05-30",
+      "read": "6 мин.",
+      "tone": "b",
+      "img": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779954468/articles/bankrotstvo-ili-vzyskanie-chto-vybrat-cover.jpg",
+      "url": "articles/vzysk/bankrotstvo-ili-vzyskanie-chto-vybrat"
+    },
+    {
       "slug": "konkursnaya-massa-dolzhnika-chto-vklyuchaetsya",
       "cat": "yur",
       "catLabel": "Банкротство юридических лиц",
