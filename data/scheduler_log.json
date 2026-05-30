@@ -10222,5 +10222,60 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-05-30T19:36:31",
+    "category": "fiz",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 5,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "fiz-78",
+    "topic_slug": "zarubezhnaya-nedvizhimost-pri-bankrotstve",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "Автофикс применил правки: сокращения=2, пунктуация=0",
+        "internal_links_autofixed: 3 ссылок (например /articles/fiz/konkursnaya-massa-pri-bankrotstve-fizlica.html→/articles/fiz/konkursnaya-massa-pri-bankrotstve-fizlica; /articles/fiz/osparivanie-sdelok-fizlica-bankrotstvo.html→/articles/fiz/osparivanie-sdelok-fizlica-bankrotstvo; /articles/fiz/nedobrosovestnost-dolzhnika-otkaz-v-spisanii.html→/articles/fiz/nedobrosovestnost-dolzhnika-otkaz-v-spisanii)"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "zarubezhnaya-nedvizhimost-pri-bankrotstve",
+    "duration_sec": 3346.3,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "t=2, без блокеров)\n- **Uniqueness (агент 5):** структурное сходство 0%, тезисы 24.8% — уникально по контенту\n- **Factcheck:** passed (агент 6)\n- **Обложка:** сгенерирована и загружена на Cloudinary\n\n**Прогнозные метрики (quality_gate):**\n- `textru_ai_detector`: ~3% (отлично)\n- `textru_spam`: ~53%\n- `textru_uniqueness`: ~87%\n\n**Файл:** `drafts/zarubezhnaya-nedvizhimost-pri-bankrotstve/article.html`  \nСтатья добавлена в очередь ревью (`_review_queue.json`). Публикация через Telegram-бот заказчика.",
+    "stderr_tail": "",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7236
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]

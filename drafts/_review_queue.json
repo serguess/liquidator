@@ -2228,6 +2228,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "fns-kreditor-bankrotstvo-yurlica-taktika",
+      "category": "yur",
+      "title": "ФНС-кредитор в банкротстве юрлица: тактика должника",
+      "added_at": "2026-05-31T01:16:04.342883",
+      "char_count": 7198,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1780179363/articles/fns-kreditor-bankrotstvo-yurlica-taktika-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
