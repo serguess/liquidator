@@ -3605,7 +3605,7 @@
     "vzyskanie-dolga-po-zhkh-uk-tszh": {
       "category": "vzysk",
       "title": "Взыскание долга по ЖКХ: порядок для УК и ТСЖ",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -3613,13 +3613,15 @@
       "tg_message_id": 1031,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-29T10:03:42",
-      "last_action_at": "2026-05-29T10:03:42",
+      "last_action_at": "2026-05-30T23:40:19",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/vzysk/vzyskanie-dolga-po-zhkh-uk-tszh",
       "pending_batch": false,
       "pending_batch_at": "2026-05-29T10:03:42",
-      "batch_sent_at": "2026-05-29T10:13:32"
+      "batch_sent_at": "2026-05-29T10:13:32",
+      "published_at": "2026-05-30T23:40:19",
+      "articles_path": "articles/vzysk/vzyskanie-dolga-po-zhkh-uk-tszh.html"
     },
     "restrukturizaciya-ili-realizaciya-vybor": {
       "category": "fiz",
