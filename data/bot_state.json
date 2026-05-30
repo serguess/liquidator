@@ -3326,7 +3326,7 @@
     "kak-uskorit-vzyskanie-cherez-pristavov": {
       "category": "vzysk",
       "title": "Как ускорить взыскание долга через приставов",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -3334,14 +3334,16 @@
       "tg_message_id": 1005,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-28T03:37:13",
-      "last_action_at": "2026-05-28T10:00:39",
+      "last_action_at": "2026-05-30T19:13:24",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/vzysk/kak-uskorit-vzyskanie-cherez-pristavov",
       "pending_batch": false,
       "pending_batch_at": "2026-05-28T03:37:13",
       "batch_sent_at": "2026-05-28T10:00:39",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-05-30T19:13:24",
+      "articles_path": "articles/vzysk/kak-uskorit-vzyskanie-cherez-pristavov.html"
     },
     "kriptovalyuta-pri-bankrotstve-fizlica": {
       "category": "fiz",
