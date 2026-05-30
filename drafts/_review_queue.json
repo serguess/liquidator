@@ -2202,6 +2202,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "cb-monitoring-operacij-fizlic-115-fz-uzhestochenie",
+      "category": "news",
+      "title": "ЦБ ужесточил контроль за наличными физлиц по 115-ФЗ",
+      "added_at": "2026-05-30T17:41:17.475826",
+      "char_count": 6698,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1780152076/articles/cb-monitoring-operacij-fizlic-115-fz-uzhestochenie-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

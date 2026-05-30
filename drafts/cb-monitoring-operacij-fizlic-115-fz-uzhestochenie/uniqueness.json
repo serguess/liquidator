@@ -1,0 +1,22 @@
+{
+  "slug": "cb-monitoring-operacij-fizlic-115-fz-uzhestochenie",
+  "passed": false,
+  "scores": {
+    "structure_overlap": 0.0,
+    "thesis_similarity": 0.063,
+    "cta_overlap": 0.248
+  },
+  "similar_articles": [],
+  "conflicts": [
+    "cta_overlap: 0.248 (threshold: 0.2) — CTA-формулировки слишком близки к опубликованным"
+  ],
+  "recommendation": "rewrite_with_angle:differentiate_cta",
+  "details": {
+    "structure_analysis": "Структура уникальна (0% пересечения с опубликованными) — конфликта нет",
+    "thesis_analysis": "Основные тезисы достаточно отличаются (6.3% похожести) — конфликта нет",
+    "cta_analysis": "CTA-формулировки превышают порог на 24.8% — конфликт найден. Текущая формулировка 'Оставить заявку на консультацию по блокировке счёта по 115-ФЗ' повторяется в outline во всех CTA-местах и кластеризуется как дубль с близкими статьями.",
+    "closest_peer": "poruchitelstvo-direktora-za-dolgi-kompanii-bankrotstvo",
+    "recommendation_explanation": "Нужно переформулировать CTA: избежать шаблонного 'Оставить заявку на консультацию' и 'блокировке счёта' — заменить на более конкретный/эмоциональный/деятельностный call-to-action. Варианты: 'Восстановить доступ к счёту', 'Защитить счёт от блокировки', 'Спросить юриста о защите', 'Узнать сроки восстановления'."
+  },
+  "note": "После переформулировки CTA агент 4 должен переправить текст в draft.md и outline.json. Вектор статьи уже записан в БД (published=0) — при переправке агент может перезапустить embed_compare для переверки."
+}
