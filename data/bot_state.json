@@ -3457,7 +3457,7 @@
     "vzyskanie-dolga-s-samozanyatogo": {
       "category": "vzysk",
       "title": "Взыскание долга с самозанятого: порядок и нюансы",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -3465,14 +3465,16 @@
       "tg_message_id": 1017,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-28T17:44:30",
-      "last_action_at": "2026-05-29T10:00:45",
+      "last_action_at": "2026-05-30T23:33:19",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/vzysk/vzyskanie-dolga-s-samozanyatogo",
       "pending_batch": false,
       "pending_batch_at": "2026-05-28T17:44:30",
       "batch_sent_at": "2026-05-29T10:00:45",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-05-30T23:33:19",
+      "articles_path": "articles/vzysk/vzyskanie-dolga-s-samozanyatogo.html"
     },
     "kassaciya-mirovyh-sudej-novyj-poryadok-prikazov": {
       "category": "news",
