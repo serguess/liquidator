@@ -1,0 +1,31 @@
+{
+  "slug": "vzyskanie-s-prodavca-po-zakonu-potrebitelej",
+  "passed": true,
+  "scores": {
+    "structure_overlap": 0.0,
+    "thesis_similarity": 0.0,
+    "cta_overlap": 0.0
+  },
+  "thresholds": {
+    "structure_overlap": 0.4,
+    "thesis_similarity": 0.3,
+    "cta_overlap": 0.2
+  },
+  "similar_articles": [],
+  "conflicts": [],
+  "notes": {
+    "embedding_coverage": "Limited embedding coverage in vzysk category (3 of 48 published articles have embeddings). Zero scores reflect insufficient comparable vectors, not confirmed uniqueness. Structural analysis shows 7 H2 headings with distinct angles (financial benefits → legal rights → requirements → calculation → audience segmentation → risks → FAQ → conclusion) - distinct from typical procedural structures.",
+    "structure_headings": [
+      "Что покупатель вправе требовать: прямой ответ",
+      "Четыре требования к продавцу: что даёт 18-я норма Закона о защите прав потребителей",
+      "Из чего складывается итоговая сумма иска: неустойка, штраф и моральный вред",
+      "Кому обращение в суд даст деньги, а кому - только время",
+      "Технически сложный товар, истёкшая гарантия и другие ситуации без возврата",
+      "Частые вопросы о взыскании с продавца",
+      "Итог: что решает исход дела"
+    ],
+    "angle": "financial-benefit-first (what you can get) rather than procedure-first approach"
+  },
+  "recommendation": "ok",
+  "stored_in_db": true
+}

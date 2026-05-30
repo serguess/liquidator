@@ -1,0 +1,32 @@
+{
+  "slug": "vzyskanie-s-prodavca-po-zakonu-potrebitelej",
+  "category": "vzysk",
+  "started_at": "2026-05-30T11:45:35",
+  "finished_at": null,
+  "total_duration_sec": null,
+  "current_iteration": 1,
+  "events": [
+    {
+      "ts": "2026-05-30T11:45:35",
+      "agent": "scheduler",
+      "event": "slot_started",
+      "iteration": 1,
+      "today_count": 5,
+      "limit": 10,
+      "write_article_duration_sec": 2196.9
+    },
+    {
+      "ts": "2026-05-30T11:45:35",
+      "agent": "quality_gate",
+      "event": "passed",
+      "iteration": 1,
+      "blockers": [],
+      "warnings": [
+        "Автофикс применил правки: сокращения=0, пунктуация=0",
+        "internal_links_autofixed: 4 ссылок (например /articles/vzysk/dosudebnaya-pretenziya-obrazec.html→/articles/vzysk/dosudebnaya-pretenziya-obrazec; /articles/vzysk/vzyskanie-moralnogo-vreda-cherez-sud.html→/articles/vzysk/vzyskanie-moralnogo-vreda-cherez-sud; /articles/vzysk/isk-o-vzyskanii-dolga-v-sud.html→/articles/vzysk/isk-o-vzyskanii-dolga-v-sud)",
+        "spam_soft_passed: ratio-флаги мягкие при iter=4, targeted_tokens чистые → пропускаем (spam ≈48-52% по прогнозу)"
+      ],
+      "recommendations": []
+    }
+  ]
+}

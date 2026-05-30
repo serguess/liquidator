@@ -2163,6 +2163,19 @@
         "passed": false,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "vzyskanie-s-prodavca-po-zakonu-potrebitelej",
+      "category": "vzysk",
+      "title": "Взыскание с продавца: права потребителя и порядок действий",
+      "added_at": "2026-05-30T11:45:14.757144",
+      "char_count": 7750,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1780130713/articles/vzyskanie-s-prodavca-po-zakonu-potrebitelej-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

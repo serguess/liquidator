@@ -9939,5 +9939,60 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-05-30T10:00:08",
+    "category": "vzysk",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 9,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "vzysk-60",
+    "topic_slug": "vzyskanie-alimentov-za-proshedshij-period",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "internal_links_autofixed: 4 ссылок (например /articles/vzysk/srok-iskovoj-davnosti-po-kreditu.html→/articles/vzysk/srok-iskovoj-davnosti-po-kreditu; /articles/vzysk/alimenty-v-tverdoj-summe.html→/articles/vzysk/alimenty-v-tverdoj-summe; /articles/vzysk/udershanie-iz-zarplaty-pristavami.html→/articles/vzysk/udershanie-iz-zarplaty-pristavami)",
+        "length_soft_passed: 8162 > 8000 но ≤ 8500 и iteration=2 — пропускаем (приоритет spam/uniqueness/ai)"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "vzyskanie-alimentov-za-proshedshij-period",
+    "duration_sec": 1843.2,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "son совпали |\n| Quality gate | soft pass (length_too_long 8162 ≤ 8500 — предупреждение) |\n| Обложка | ✓ сгенерирована (template_id=27, Cloudinary) |\n| Режим публикации | `ready_for_review=true` → TG-очередь |\n| Файл | `drafts/vzyskanie-alimentov-za-proshedshij-period/article.html` |\n\n**text.ru метрики** (textru_ai_detector / uniqueness / spam): будут получены при публикации через бота, сейчас `null` — проверка не запускалась в процессе пайплайна.\n\nСтатья ждёт одобрения заказчика в Telegram-боте.",
+    "stderr_tail": "",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 8162
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]
