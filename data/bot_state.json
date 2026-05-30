@@ -3541,7 +3541,7 @@
     "zakonnaya-zashchita-ot-vzyskaniya": {
       "category": "vzysk",
       "title": "Защита от взыскания долга приставами: права должника",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -3549,14 +3549,16 @@
       "tg_message_id": 1025,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-29T03:26:34",
-      "last_action_at": "2026-05-29T10:00:53",
+      "last_action_at": "2026-05-30T23:37:06",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/vzysk/zakonnaya-zashchita-ot-vzyskaniya",
       "pending_batch": false,
       "pending_batch_at": "2026-05-29T03:26:34",
       "batch_sent_at": "2026-05-29T10:00:53",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-05-30T23:37:06",
+      "articles_path": "articles/vzysk/zakonnaya-zashchita-ot-vzyskaniya.html"
     },
     "scheta-detej-pri-bankrotstve-roditelej": {
       "category": "fiz",
