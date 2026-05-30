@@ -3370,7 +3370,7 @@
     "konkursnaya-massa-dolzhnika-chto-vklyuchaetsya": {
       "category": "yur",
       "title": "Конкурсная масса при банкротстве юрлица: состав",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -3378,14 +3378,16 @@
       "tg_message_id": 1009,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-28T08:22:27",
-      "last_action_at": "2026-05-28T10:00:43",
+      "last_action_at": "2026-05-30T19:16:43",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/yur/konkursnaya-massa-dolzhnika-chto-vklyuchaetsya",
       "pending_batch": false,
       "pending_batch_at": "2026-05-28T08:22:27",
       "batch_sent_at": "2026-05-28T10:00:43",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-05-30T19:16:43",
+      "articles_path": "articles/yur/konkursnaya-massa-dolzhnika-chto-vklyuchaetsya.html"
     },
     "bankrotstvo-ili-vzyskanie-chto-vybrat": {
       "category": "vzysk",
