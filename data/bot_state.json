@@ -3692,7 +3692,7 @@
     "mirovoe-soglashenie-bankrotstvo-bez-zalogovyh-vs-reshaet": {
       "category": "news",
       "title": "Мировое соглашение без залоговых кредиторов: ВС решает",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -3700,14 +3700,16 @@
       "tg_message_id": 1039,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-29T20:07:46",
-      "last_action_at": "2026-05-30T10:00:10",
+      "last_action_at": "2026-05-30T23:46:43",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/news/mirovoe-soglashenie-bankrotstvo-bez-zalogovyh-vs-reshaet",
       "pending_batch": false,
       "pending_batch_at": "2026-05-29T20:07:46",
       "batch_sent_at": "2026-05-30T10:00:10",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-05-30T23:46:43",
+      "articles_path": "articles/news/mirovoe-soglashenie-bankrotstvo-bez-zalogovyh-vs-reshaet.html"
     },
     "strahovka-po-kreditu-pri-bankrotstve": {
       "category": "fiz",
