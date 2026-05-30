@@ -2176,6 +2176,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "debitorskaya-zadolzhennost-bankrotstvo-dolzhnika-yurlica",
+      "category": "yur",
+      "title": "Дебиторка при банкротстве юрлица: взыскание или продажа",
+      "added_at": "2026-05-30T13:09:02.751941",
+      "char_count": 7018,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1780135741/articles/debitorskaya-zadolzhennost-bankrotstvo-dolzhnika-yurlica-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

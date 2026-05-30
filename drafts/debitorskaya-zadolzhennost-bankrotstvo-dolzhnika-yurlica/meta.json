@@ -1,0 +1,107 @@
+{
+  "slug": "debitorskaya-zadolzhennost-bankrotstvo-dolzhnika-yurlica",
+  "category": "yur",
+  "title": "Дебиторка при банкротстве юрлица: взыскание или продажа",
+  "description": "Что происходит с дебиторской задолженностью компании-банкрота: инвентаризация, взыскание через суд или продажа на торгах, списание безнадёжных долгов. Роль конкурсного управляющего.",
+  "h1": "Дебиторская задолженность при банкротстве юридического лица: что с ней делает управляющий",
+  "lead": "Дебиторская задолженность входит в конкурсную массу должника-юрлица: конкурсный управляющий выбирает между взысканием через суд и продажей прав требования на торгах. От стратегии зависит, сколько реально получат кредиторы.",
+  "topic_action": "анализ дебиторской задолженности при банкротстве",
+  "breadcrumb_current": "Дебиторка при банкротстве юрлица",
+  "og_image": "/assets/articles/debitorskaya-zadolzhennost-bankrotstvo-dolzhnika-yurlica.jpg",
+  "main_keyword": "дебиторская задолженность при банкротстве юридического лица",
+  "secondary_keywords": [
+    "что происходит с дебиторской задолженностью при банкротстве",
+    "взыскание дебиторской задолженности конкурсным управляющим",
+    "продажа дебиторской задолженности на торгах банкротство",
+    "инвентаризация дебиторской задолженности при банкротстве",
+    "дебиторская задолженность в конкурсном производстве",
+    "нереальная к взысканию дебиторская задолженность банкротство",
+    "уступка прав требования при банкротстве",
+    "дебиторская задолженность конкурсная масса юрлица",
+    "как взыскать дебиторку если контрагент банкрот"
+  ],
+  "internal_links": [
+    "/articles/yur/osparivanie-sdelok-pri-bankrotstve.html",
+    "/articles/yur/osparivanie-trebovanij-v-reestre-kreditorov.html",
+    "/articles/yur/prodazha-biznesa-pri-bankrotstve-yurlica.html"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/",
+    "https://www.consultant.ru/document/cons_doc_LAW_5142/"
+  ],
+  "faq": [
+    {
+      "question": "Сколько времени у конкурсного управляющего на инвентаризацию долгов перед компанией?",
+      "answer": "Три месяца с даты открытия конкурсного производства (пункт 2 статьи 129 того же закона). Результаты публикуются в ЕФРСБ."
+    },
+    {
+      "question": "Обязательно ли продавать права требования через торги или можно взыскать самостоятельно?",
+      "answer": "Выбор за назначенным специалистом с учётом мнения собрания. По статье 140 возможны оба варианта. Критерий — целесообразность по каждой позиции."
+    },
+    {
+      "question": "Что получает покупатель дебиторской задолженности на торгах помимо суммы требования?",
+      "answer": "Полный объём прав прежнего кредитора: основная сумма, накопленные проценты, неустойки, залоговое обеспечение. Это положение кодекса (статья 384) устанавливает: объём не уменьшается при переходе."
+    },
+    {
+      "question": "До какого момента должник вправе платить прежнему кредитору: компании, признанной несостоятельной?",
+      "answer": "До получения письменного уведомления об уступке. Без него исполнение в пользу прежней стороны засчитывается как исполненное (382-я норма гражданского кодекса). Уведомить нужно сразу после сделки."
+    },
+    {
+      "question": "Что происходит, если должник сам проходит через несостоятельность?",
+      "answer": "Он включает требование в реестр этой организации или продаёт данный актив на торгах. Продажа с дисконтом часто предпочтительнее: чужое дело может тянуться годами."
+    },
+    {
+      "question": "Может ли управляющий списать безнадёжный актив без одобрения собрания кредиторов?",
+      "answer": "Спорная зона. По ряду оснований (истёкший период давности, ликвидация) он фиксирует нереальность поступления средств. Но любое списание должно быть задокументировано. Без обоснования кредиторы вправе обжаловать это как ненадлежащее исполнение."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все факты (f1-f12, f14) сверены с research.json: last_verified 2026-05-30, legislation_status active.",
+    "Факт f13 (госпошлина при иске КУ) помечен needs_verification в research — в теле не использован, согласно fact_gaps.fallback_used.",
+    "Срок инвентаризации 3 месяца — статья 129 п. 2 (f2). Передача документов 3 дня — статья 126 п. 2 (f3). Срок исковой давности 3 года — статья 196 ГК (f7). Подозрительные сделки — статья 61.2 п. 1 (1 год) и п. 2 (3 года) (f11). Все привязки проверены.",
+    "Порог 100 тысяч рублей для независимой оценки (п. 1 ст. 130) — f8.",
+    "ЕФРСБ 15 рабочих дней — f9. Очерёдность ст. 134 — f10. Полный объём прав по ст. 384 ГК — f14. Уведомление дебитора по ст. 382 ГК — f6.",
+    "Цитаты норм закона: ≤ 600 знаков (только пересказ через safe_phrasing, без blockquote).",
+    "Внутренние ссылки (3 шт.) проверены против published_index.json — все целевые статьи опубликованы в категории yur.",
+    "Итерация 2: переработаны повторяющиеся леммы (управляющий → специалист/он, взыскание → истребование/иск/возврат, банкротство → несостоятельность/конкурсное производство) для снижения spam-метрик."
+  ],
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "spam_risk: 1 флагов (ngram3_repeat_share>0.035 (=0.06)), top-5: ['стать', 'актив', 'закон', 'продаж', 'специалист']"
+  ],
+  "text_chars": 7018,
+  "length_status": "ok",
+  "length_kind": "default",
+  "local_spam_top10_share": 0.115,
+  "local_spam_ngram3_repeat": 0.06,
+  "local_lexical_diversity": 0.606,
+  "local_ai_markers_density": 0.22,
+  "local_ai_markers_total": 2,
+  "local_ai_markers_critical": 0,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 2,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 3,
+  "predicted_spam_pct": 55,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность выше 50% (~55%)"
+  ],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1780135741/articles/debitorskaya-zadolzhennost-bankrotstvo-dolzhnika-yurlica-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1780135741/articles/debitorskaya-zadolzhennost-bankrotstvo-dolzhnika-yurlica-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Editorial photograph of a corner of a desk in a high-floor executive office overlooking the city. Foreground: closed thin laptop, sleek pen, leather notebook with blank pages, polished round company seal on an official document folder, stack of closed dossiers tied with cord representing inventory of debtor claims, white porcelain coffee cup on saucer. Background through floor-to-ceiling windows: blurred urban skyline at dusk with distant lights, suggesting corporate decision-making at senior level. Camera: shallow depth of field, three-quarter angle, eye-level focus on the documents and seal. Lighting: cool ambient daylight blended with warm interior tungsten from desk lamp. Materials: walnut, dark glass, polished steel, brass accents. Mood: strategic assessment of corporate assets during insolvency proceedings.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-05-30T10:09:02Z",
+  "date_published": "2026-05-30",
+  "date_modified": "2026-05-30",
+  "ready_for_review": true,
+  "ready_at": "2026-05-30T10:09:02Z",
+  "publication_target": "telegram_review"
+}

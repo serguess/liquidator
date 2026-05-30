@@ -9994,5 +9994,61 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-05-30T11:08:58",
+    "category": "vzysk",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "From https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 10,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "vzysk-61",
+    "topic_slug": "vzyskanie-s-prodavca-po-zakonu-potrebitelej",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "Автофикс применил правки: сокращения=0, пунктуация=0",
+        "internal_links_autofixed: 4 ссылок (например /articles/vzysk/dosudebnaya-pretenziya-obrazec.html→/articles/vzysk/dosudebnaya-pretenziya-obrazec; /articles/vzysk/vzyskanie-moralnogo-vreda-cherez-sud.html→/articles/vzysk/vzyskanie-moralnogo-vreda-cherez-sud; /articles/vzysk/isk-o-vzyskanii-dolga-v-sud.html→/articles/vzysk/isk-o-vzyskanii-dolga-v-sud)",
+        "spam_soft_passed: ratio-флаги мягкие при iter=4, targeted_tokens чистые → пропускаем (spam ≈48-52% по прогнозу)"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "vzyskanie-s-prodavca-po-zakonu-potrebitelej",
+    "duration_sec": 2196.9,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "ed |\n| Quality gate | passed (exit 0, no blockers) |\n| metrics_warning | нет |\n| Публикация | ready_for_review = true → TG-очередь |\n| Обложка | сгенерирована (template 3) |\n\n**text.ru метрики:** `textru_ai_detector`, `textru_uniqueness`, `textru_spam` — null (внешняя проверка не запускалась автоматически, доступна через text.ru вручную).\n\n**Предупреждения (не блокеры):** заспамленность ~58% прогнозная (soft, при iter=3 пропущено — targeted tokens чисты). Статья добавлена в очередь ревью (#167).",
+    "stderr_tail": "",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7750
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]
