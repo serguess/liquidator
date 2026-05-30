@@ -9824,5 +9824,60 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-05-30T05:12:37",
+    "category": "fiz",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 7,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "fiz-77",
+    "topic_slug": "direktor-uchreditel-posle-bankrotstva-fizlica",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "Автофикс применил правки: сокращения=2, пунктуация=0",
+        "internal_links_autofixed: 3 ссылок (например /articles/fiz/bankrotstvo-fizlica-dolya-v-ooo.html→/articles/fiz/bankrotstvo-fizlica-dolya-v-ooo; /articles/fiz/kogda-dolgi-ne-spishut-pri-bankrotstve.html→/articles/fiz/kogda-dolgi-ne-spishut-pri-bankrotstve; /articles/fiz/ipoteka-posle-bankrotstva-fizlica.html→/articles/fiz/ipoteka-posle-bankrotstva-fizlica)"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "direktor-uchreditel-posle-bankrotstva-fizlica",
+    "duration_sec": 2046.4,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "з блокеров, без forced_pass)\n\n**Метрики (предиктивные из quality_gate):**\n- `textru_ai_detector`: ~3%\n- `textru_uniqueness`: ~87%\n- `textru_spam`: ~53%\n\n**Итерации писателя:** 2 (возврат от агента 5 из-за CTA-overlap, переписан финальный дожим с углом personal-benefits)\n\n**Обложка:** сгенерирована — шаблон #24 (минималистичный flat-lay с весами правосудия, ключом, кожаным портфелем)\n\nСтатья добавлена в очередь ревью (`_review_queue.json`, позиция #164). Публикация — через кнопку в Telegram-боте.",
+    "stderr_tail": "",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7837
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]

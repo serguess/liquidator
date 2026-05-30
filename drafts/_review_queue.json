@@ -2137,6 +2137,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "bankrotstvo-podryadchika-stroitelnyj-kontrakt",
+      "category": "yur",
+      "title": "Банкротство подрядчика: права заказчика по договору",
+      "added_at": "2026-05-30T08:17:48.930347",
+      "char_count": 8130,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1780118267/articles/bankrotstvo-podryadchika-stroitelnyj-kontrakt-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
