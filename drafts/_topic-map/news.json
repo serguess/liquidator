@@ -28,12 +28,15 @@
       "frequency_estimate": "high",
       "rationale": "Свежее событие 29 апреля 2026: Постановлением Президиума ВС РФ №7А/2026 утверждён тематический обзор №5/2026 о практике по банкротству за 2025 год. Прямо в нашей тематике. Ключевые позиции, которые волнуют должников: налоговый залог по ст.73 НК, исключение остатка от продажи заложенного единственного жилья из конкурсной массы, оспаривание сделок, субсидиарная ответственность КДЛ. Окно свежести идеальное (10 дней с даты события).",
       "expected_length_chars": 6500,
-      "status": "proposed",
+      "status": "rejected",
       "client_notes": "Свежая news-тема, добавлена 9 мая 2026 после удаления news-03 (мораторий, evergreen).",
       "topic_action": "разбор позиций ВС РФ по банкротству",
       "event_date": "2026-04-29",
       "news_zone": "vs_practice",
-      "primary_source": "https://www.consultant.ru/document/cons_doc_LAW_533400/"
+      "primary_source": "https://www.consultant.ru/document/cons_doc_LAW_533400/",
+      "rejected_at": "2026-05-31T18:21:09",
+      "rejected_reason": "event_too_old:32d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-11",
@@ -60,12 +63,15 @@
       "frequency_estimate": "high",
       "rationale": "Свежее событие 24 апреля 2026: Совет директоров Банка России снизил ключевую ставку с 15% до 14,5% (действует с 27 апреля 2026). Прямо влияет на расчёт процентов и неустойки по ст.395 ГК РФ, на стоимость кредитов и условия рефинансирования. Высокий поисковый интерес сразу после решения. Окно свежести идеальное (15 дней с даты решения). Следующее заседание ЦБ — 19 июня 2026.",
       "expected_length_chars": 6000,
-      "status": "proposed",
+      "status": "rejected",
       "client_notes": "Свежая news-тема, добавлена 9 мая 2026.",
       "topic_action": "консультацию по влиянию ставки на ваш долг",
       "event_date": "2026-04-24",
       "news_zone": "finance",
-      "primary_source": "https://www.cbr.ru/press/keypr/"
+      "primary_source": "https://www.cbr.ru/press/keypr/",
+      "rejected_at": "2026-05-31T18:21:09",
+      "rejected_reason": "event_too_old:37d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-02",
@@ -317,7 +323,11 @@
       "topic_action": "консультацию по рефинансированию с высокой нагрузкой",
       "event_date": "2026-04-29",
       "news_zone": "finance",
-      "primary_source": "https://www.cbr.ru/rbr/dir_decisions/rsd_2026-04-29_35_01/"
+      "primary_source": "https://www.cbr.ru/rbr/dir_decisions/rsd_2026-04-29_35_01/",
+      "status": "rejected",
+      "rejected_at": "2026-05-31T18:21:09",
+      "rejected_reason": "event_too_old:32d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-14",
@@ -381,7 +391,11 @@
       "topic_action": "снятие ареста с компенсации инвалида",
       "event_date": "2026-04-25",
       "news_zone": "legislation",
-      "primary_source": "https://www.garant.ru/hotlaw/federal/2069674/"
+      "primary_source": "https://www.garant.ru/hotlaw/federal/2069674/",
+      "status": "rejected",
+      "rejected_at": "2026-05-31T18:21:09",
+      "rejected_reason": "event_too_old:36d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-16",
@@ -445,7 +459,11 @@
       "topic_action": "консультацию по оспариванию сделок банкротства",
       "event_date": "2026-04-29",
       "news_zone": "vs_practice",
-      "primary_source": "https://www.consultant.ru/document/cons_doc_LAW_533400/"
+      "primary_source": "https://www.consultant.ru/document/cons_doc_LAW_533400/",
+      "status": "rejected",
+      "rejected_at": "2026-05-31T18:21:09",
+      "rejected_reason": "event_too_old:32d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-18",
@@ -475,7 +493,11 @@
       "topic_action": "проверить шансы на списание долгов",
       "event_date": "2026-04-29",
       "news_zone": "vs_practice",
-      "primary_source": "https://www.consultant.ru/document/cons_doc_LAW_507941/"
+      "primary_source": "https://www.consultant.ru/document/cons_doc_LAW_507941/",
+      "status": "rejected",
+      "rejected_at": "2026-05-31T18:21:09",
+      "rejected_reason": "event_too_old:32d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-19",
@@ -505,7 +527,11 @@
       "topic_action": "консультацию по субсидиарной ответственности",
       "event_date": "2026-04-30",
       "news_zone": "vs_practice",
-      "primary_source": "https://rapsinews.ru/judicial_news/20260430/311817447.html"
+      "primary_source": "https://rapsinews.ru/judicial_news/20260430/311817447.html",
+      "status": "rejected",
+      "rejected_at": "2026-05-31T18:21:09",
+      "rejected_reason": "event_too_old:31d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-20",
@@ -565,7 +591,11 @@
       "topic_action": "консультацию по банкротству с ипотечным жильём",
       "event_date": "2026-04-29",
       "news_zone": "vs_practice",
-      "primary_source": "https://www.consultant.ru/document/cons_doc_LAW_533400/"
+      "primary_source": "https://www.consultant.ru/document/cons_doc_LAW_533400/",
+      "status": "rejected",
+      "rejected_at": "2026-05-31T18:21:09",
+      "rejected_reason": "event_too_old:32d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-22",
@@ -595,7 +625,11 @@
       "topic_action": "консультацию по налоговым долгам при банкротстве",
       "event_date": "2026-04-29",
       "news_zone": "vs_practice",
-      "primary_source": "https://www.consultant.ru/document/cons_doc_LAW_533400/"
+      "primary_source": "https://www.consultant.ru/document/cons_doc_LAW_533400/",
+      "status": "rejected",
+      "rejected_at": "2026-05-31T18:21:09",
+      "rejected_reason": "event_too_old:32d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-23",
@@ -685,7 +719,11 @@
       "topic_action": "консультацию по банкротству компании и рискам для учредителей",
       "event_date": "2026-04-30",
       "news_zone": "vs_practice",
-      "primary_source": "https://www.rapsinews.ru/judicial_news/20260430/311817826.html"
+      "primary_source": "https://www.rapsinews.ru/judicial_news/20260430/311817826.html",
+      "status": "rejected",
+      "rejected_at": "2026-05-31T18:21:09",
+      "rejected_reason": "event_too_old:31d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-26",
@@ -715,7 +753,11 @@
       "topic_action": "защиту в банкротстве от требований опоздавшего кредитора",
       "event_date": "2026-04-29",
       "news_zone": "vs_practice",
-      "primary_source": "https://rapsinews.ru/judicial_news/20260430/311818173.html"
+      "primary_source": "https://rapsinews.ru/judicial_news/20260430/311818173.html",
+      "status": "rejected",
+      "rejected_at": "2026-05-31T18:21:09",
+      "rejected_reason": "event_too_old:32d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-27",
@@ -775,7 +817,11 @@
       "topic_action": "консультацию по мировому соглашению в банкротстве",
       "event_date": "2026-04-30",
       "news_zone": "vs_practice",
-      "primary_source": "https://pravo.ru/news/263582/"
+      "primary_source": "https://pravo.ru/news/263582/",
+      "status": "rejected",
+      "rejected_at": "2026-05-31T18:21:09",
+      "rejected_reason": "event_too_old:31d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-29",
@@ -805,7 +851,11 @@
       "topic_action": "жалобу на управляющего или оспаривание неправомерного платежа",
       "event_date": "2026-04-29",
       "news_zone": "vs_practice",
-      "primary_source": "https://www.consultant.ru/document/cons_doc_LAW_533400/"
+      "primary_source": "https://www.consultant.ru/document/cons_doc_LAW_533400/",
+      "status": "rejected",
+      "rejected_at": "2026-05-31T18:21:09",
+      "rejected_reason": "event_too_old:32d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-30",
@@ -865,7 +915,11 @@
       "topic_action": "проверить шансы на списание долгов",
       "event_date": "2026-04-30",
       "news_zone": "vs_practice",
-      "primary_source": "https://rapsinews.ru/judicial_analyst/20260430/311818543.html"
+      "primary_source": "https://rapsinews.ru/judicial_analyst/20260430/311818543.html",
+      "status": "rejected",
+      "rejected_at": "2026-05-31T18:21:09",
+      "rejected_reason": "event_too_old:31d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-32",
@@ -929,7 +983,161 @@
       "topic_action": "консультацию по субсидиарной ответственности",
       "event_date": "2026-04-24",
       "news_zone": "vs_practice",
-      "primary_source": "https://bankruptcyclub.ru/2026/05/05/digest_04_26/"
+      "primary_source": "https://bankruptcyclub.ru/2026/05/05/digest_04_26/",
+      "status": "rejected",
+      "rejected_at": "2026-05-31T18:21:09",
+      "rejected_reason": "event_too_old:37d",
+      "rejected_by": "news_sanitizer"
+    },
+    {
+      "id": "news-34",
+      "slug": "arest-akcij-bankrota-subsidiarka-obespechenie",
+      "title": "ВС: арест акций банкрота не обеспечит субсидиарную ответственность",
+      "title_length": 66,
+      "description": "Верховный суд снял арест с акций банкротящегося госпредприятия: неликвидный актив не обеспечивает субсидиарку и блокирует антикризисные меры.",
+      "description_length": 142,
+      "h1": "Арест акций должника при банкротстве: когда обеспечительная мера не работает",
+      "main_keyword": "арест акций должника при банкротстве",
+      "main_keyword_density_target": "≤2.5%",
+      "secondary_keywords": [
+        "обеспечительные меры при банкротстве практика",
+        "ценные бумаги должника арест в банкротстве",
+        "субсидиарная ответственность обеспечение иска",
+        "отмена обеспечительных мер в банкротстве",
+        "акции банкрота неликвидный актив",
+        "СКЭС ВС обеспечительные меры определение"
+      ],
+      "intent": "informational",
+      "funnel_stage": "consideration",
+      "article_type": "law-explanation",
+      "offer": "proverka-spisaniya",
+      "frequency_estimate": "low",
+      "rationale": "Определение СКЭС ВС РФ от 25.05.2026 по делу №309-ЭС25-8869 (Башкиравтодор): суд отменил арест акций банкротящегося госпредприятия как неликвидного актива, который не обеспечивает исполнение решения о субсидиарной ответственности и блокирует антикризисные мероприятия. Прецедент важен для кредиторов, заявляющих обеспечительные меры в делах о субсидиарке.",
+      "expected_length_chars": 6000,
+      "topic_action": "консультацию по обеспечительным мерам в банкротстве",
+      "event_date": "2026-05-25",
+      "news_zone": "vs_practice",
+      "primary_source": "https://rapsinews.ru/judicial_analyst/20260525/311869205.html"
+    },
+    {
+      "id": "news-35",
+      "slug": "shtraf-banku-narusheniye-prav-zaemshchika-cb-ukazanie",
+      "title": "Банку грозит штраф до 250 млн рублей за нарушение прав заёмщика",
+      "title_length": 63,
+      "description": "С 25 мая вступило в силу Указание Банка России: банки могут получить штраф до 250 млн рублей за нарушение прав потребителей при кредитовании.",
+      "description_length": 143,
+      "h1": "Новый штраф банкам до 250 млн рублей: что изменилось для заёмщиков",
+      "main_keyword": "штраф банку за нарушение прав заёмщика",
+      "main_keyword_density_target": "≤2.5%",
+      "secondary_keywords": [
+        "Банк России меры к банкам потребители кредиты",
+        "банк нарушил права заёмщика ответственность ЦБ",
+        "жалоба в Банк России на банк 2026",
+        "защита прав заёмщика новые нормы",
+        "Указание ЦБ 7329-У банки нарушения",
+        "штраф банку за незаконные действия с кредитом"
+      ],
+      "intent": "problem-aware",
+      "funnel_stage": "decision",
+      "article_type": "law-explanation",
+      "offer": "snyatie-aresta",
+      "frequency_estimate": "medium",
+      "rationale": "С 25 мая 2026 вступило в силу Указание Банка России №7329-У о новом порядке применения мер к банкам за нарушение прав потребителей при кредитовании. Максимальный штраф — 250 млн рублей. Меняет переговорную позицию заёмщика: жалоба в ЦБ теперь несёт реальный финансовый риск для банка. Прямой лид на помощь в споре с банком.",
+      "expected_length_chars": 6000,
+      "topic_action": "подать жалобу на банк в Центробанк",
+      "event_date": "2026-05-25",
+      "news_zone": "finance",
+      "primary_source": "https://www.consultant.ru/legalnews/31577/"
+    },
+    {
+      "id": "news-36",
+      "slug": "bankrotstvo-grazhdan-rost-rekord-kvartalnye-dannye",
+      "title": "Банкротств граждан 153 тысячи за квартал: рекордный рост",
+      "title_length": 57,
+      "description": "По данным Федресурса — 153,9 тыс. граждан признаны банкротами за квартал, рост 13,7%. Банки инициируют больше половины дел. Кто банкротится и почему.",
+      "description_length": 152,
+      "h1": "Банкротств граждан 153 тысячи за квартал: кто банкротится и что влияет",
+      "main_keyword": "статистика банкротства граждан рост",
+      "main_keyword_density_target": "≤2.5%",
+      "secondary_keywords": [
+        "сколько банкротств граждан за квартал Федресурс",
+        "динамика банкротств физлиц прирост",
+        "рост числа банкротств в России причины",
+        "кредиторы инициируют банкротство граждан",
+        "банкротство по инициативе банка статистика",
+        "план реструктуризации долгов граждан рост"
+      ],
+      "intent": "informational",
+      "funnel_stage": "awareness",
+      "article_type": "law-explanation",
+      "offer": "proverka-spisaniya",
+      "frequency_estimate": "medium",
+      "rationale": "Федресурс 21 мая 2026 опубликовал данные: 153,9 тыс. банкротств граждан за I квартал (+13,7%), из них 137 466 судебных. Планы реструктуризации долгов выросли в 2,4 раза. Банки инициируют 55% дел. Статья привлекает людей, думающих о банкротстве, и ведёт к лиду «проверь свои шансы».",
+      "expected_length_chars": 6000,
+      "topic_action": "проверить шансы на списание долгов",
+      "event_date": "2026-05-21",
+      "news_zone": "finance",
+      "primary_source": "https://abnews.ru/news/2026/5/21/stalo-izvestno-kto-chashhe-vsego-v-rossii-stanovitsya-bankrotom"
+    },
+    {
+      "id": "news-37",
+      "slug": "vosstanovlenie-poruchitelstva-osparivanie-platezha-bankrotstvo",
+      "title": "ВС решит: восстанавливается ли поручительство после банкротства",
+      "title_length": 62,
+      "description": "ВС принял дело Сбербанка на 232 млн рублей: восстанавливается ли обязательство поручителя, если платёж оспорен в банкротстве основного должника.",
+      "description_length": 150,
+      "h1": "Восстановление поручительства после оспаривания платежа: ВС даст ответ",
+      "main_keyword": "восстановление поручительства при банкротстве основного должника",
+      "main_keyword_density_target": "≤2.5%",
+      "secondary_keywords": [
+        "поручитель банкротство основного должника последствия",
+        "оспаривание платежа банкротство и поручительство",
+        "прекращение поручительства при банкротстве",
+        "включение требований поручителя в реестр",
+        "реституция оспоренной сделки поручитель",
+        "СКЭС ВС поручительство 2026"
+      ],
+      "intent": "problem-aware",
+      "funnel_stage": "decision",
+      "article_type": "case-study",
+      "offer": "proverka-spisaniya",
+      "frequency_estimate": "low",
+      "rationale": "В первую неделю мая 2026 СКЭС ВС РФ приняла к рассмотрению дело А40-281660/2023 (Сбербанк, 232 млн руб.): ВС решит, восстанавливается ли обязательство поручителя, если платёж основного должника впоследствии оспорен в банкротстве. Нижестоящие суды отказали в восстановлении. Важно для всех поручителей по кредитам обанкротившихся заёмщиков.",
+      "expected_length_chars": 6000,
+      "topic_action": "консультацию по поручительству при банкротстве",
+      "event_date": "2026-05-04",
+      "news_zone": "vs_practice",
+      "primary_source": "https://pravo.ru/story/263454/"
+    },
+    {
+      "id": "news-38",
+      "slug": "transgranichnoye-bankrotstvo-inostrannye-sudy-subsidiarka",
+      "title": "Иностранные суды не признают российские решения по субсидиарке",
+      "title_length": 63,
+      "description": "Суды США и Великобритании отказывают в признании российских решений о субсидиарной ответственности. Как это влияет на взыскание с должников с зарубежными активами.",
+      "description_length": 162,
+      "h1": "Трансграничное банкротство: иностранный суд не признал российскую субсидиарку",
+      "main_keyword": "трансграничное банкротство иностранные активы субсидиарная ответственность",
+      "main_keyword_density_target": "≤2.5%",
+      "secondary_keywords": [
+        "признание российского решения за рубежом банкротство",
+        "взыскание долга с должника за рубежом",
+        "принцип взаимности международное банкротство",
+        "суд США отказал в субсидиарной ответственности",
+        "зарубежные активы должника банкротство взыскание",
+        "трансграничная несостоятельность Россия 2026"
+      ],
+      "intent": "commercial",
+      "funnel_stage": "consideration",
+      "article_type": "law-explanation",
+      "offer": "proverka-spisaniya",
+      "frequency_estimate": "low",
+      "rationale": "РАПСИ 26.05.2026 опубликовало аналитический материал: суды США (дело 2023-027148-CA-01 в Флориде) и Великобритании отказывают в признании российских судебных решений о субсидиарной ответственности. Эксперты призвали закрепить принцип взаимности в законе. Актуально для кредиторов, взыскивающих субсидиарку с КДЛ, переехавших за рубеж.",
+      "expected_length_chars": 6000,
+      "topic_action": "консультацию по субсидиарной ответственности с зарубежными активами",
+      "event_date": "2026-05-26",
+      "news_zone": "vs_practice",
+      "primary_source": "https://www.rapsinews.ru/incident_news/20260526/311875930.html"
     }
   ]
 }
