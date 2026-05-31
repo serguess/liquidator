@@ -2358,6 +2358,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "bankrotstvo-turoperatora-prava-agentov",
+      "category": "yur",
+      "title": "Банкротство туроператора: права агентств и туристов",
+      "added_at": "2026-06-01T01:14:27.781918",
+      "char_count": 7872,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1780265666/articles/bankrotstvo-turoperatora-prava-agentov-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

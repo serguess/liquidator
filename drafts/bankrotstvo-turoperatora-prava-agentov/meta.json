@@ -1,0 +1,101 @@
+{
+  "slug": "bankrotstvo-turoperatora-prava-agentov",
+  "category": "yur",
+  "title": "Банкротство туроператора: права агентств и туристов",
+  "description": "Туроператор банкрот: что делать агентству и туристам — реестр кредиторов, фонд персональной ответственности и сроки требований по ФЗ-132.",
+  "h1": "Банкротство туроператора: что делать турагентству и как вернуть деньги туристам",
+  "lead": "Краткий разбор: где грань ответственности агентства и туроператора, какие сроки нельзя пропустить и как реально получить выплаты при крахе турфирмы.",
+  "topic_action": "защиту прав при банкротстве туроператора",
+  "breadcrumb_current": "Банкротство туроператора",
+  "og_image": "/assets/articles/bankrotstvo-turoperatora-prava-agentov.jpg",
+  "main_keyword": "банкротство туроператора права агентств",
+  "secondary_keywords": [
+    "банкротство туроператора что делать туристам",
+    "туроператор банкрот возврат денег",
+    "реестр кредиторов туроператора",
+    "фонд персональной ответственности туроператора",
+    "турагентство долг при банкротстве туроператора",
+    "включение в реестр требований кредиторов туроператора",
+    "страховая компания туроператор банкротство выплата",
+    "турпомощь банкротство туроператора"
+  ],
+  "internal_links": [
+    "/articles/yur/osparivanie-trebovanij-v-reestre-kreditorov",
+    "/articles/yur/kontroliruyushchee-dolzhnika-lico-kdl",
+    "/articles/yur/otkaz-ot-dogovora-pri-bankrotstve-statya-102"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/"
+  ],
+  "faq": [
+    {
+      "question": "Обязано ли агентство возвращать туристу деньги, если туроператор обанкротился?",
+      "answer": "По 9-й норме ФЗ-132 ответственность перед покупателем несёт туроператор, а не посредник. Агентство не является должником туриста. Исключение — если посредник сам формировал продукт или поручился за оператора по договору."
+    },
+    {
+      "question": "Сколько времени есть, чтобы успеть подать требование в реестр?",
+      "answer": "30 дней в наблюдении или 2 месяца после открытия конкурсного производства — с даты публикации в «Коммерсантъ». Следить нужно через fedresurs.ru. Пропуск срока — фактически нулевое возмещение."
+    },
+    {
+      "question": "Что выплатит «Турпомощь», если компания остановила работу прямо в разгар сезона?",
+      "answer": "Эвакуацию застрявших за рубежом «Турпомощь» организует за счёт резервного фонда — логистика, не деньги. Денежное возмещение выплачивается отдельно из ФПО — пропорционально накопленным средствам."
+    },
+    {
+      "question": "Можно ли одновременно обратиться к страховщику и включиться в реестр кредиторов?",
+      "answer": "Да. Покупатель получает выплату по страховке или ФПО, непокрытую часть включает в банкротное дело. Выплата по ФЗ-132 зачитывается в счёт претензии — двойного возмещения нет."
+    },
+    {
+      "question": "Распространяется ли защита по ФЗ-132 на туры по России, а не только на выездной туризм?",
+      "answer": "ФПО и обязательное финансовое обеспечение направлены прежде всего на выездной туризм. По внутренним направлениям основной путь — включение требований по закону о банкротстве."
+    },
+    {
+      "question": "Что произойдёт с туром, купленным после того, как суд принял заявление о банкротстве?",
+      "answer": "Такой договор может порождать текущее требование (5-я норма закона о банкротстве). Текущие погашаются вне реестра и раньше реестровых — конкретику стоит разбирать с юристом."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все юр-утверждения сверены с research.json по двум проходам.",
+    "Конкретные суммы порогов финансового обеспечения и процент ежегодных взносов в ФПО не приводятся (legislation_status: needs_verification по f2, f3) — использованы обтекаемые формулировки из safe_phrasing.",
+    "Ростуризм упомянут только как ликвидированное ведомство; функции переданы Минэкономразвития (f15).",
+    "Сроки 30 дней / 2 месяца сверены с ст. 71 и ст. 142 ФЗ-127 (f6, f18).",
+    "Третья очередь и пропорциональное покрытие — ст. 134 ФЗ-127 (f8), неустойка п. 3 ст. 137 (f16).",
+    "Субсидиарная ответственность — ст. 61.10, 61.11 ФЗ-127 (f17); отказ управляющего по ст. 102 (f20).",
+    "Госпошлина за включение в реестр обозначена обтекаемо ('как правило, не уплачивается') в соответствии с fallback по f19.",
+    "Запрещённые утверждения из research.forbidden_claims не используются."
+  ],
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "text_chars": 7872,
+  "length_status": "warn",
+  "length_kind": "default",
+  "local_spam_top10_share": 0.112,
+  "local_spam_ngram3_repeat": 0.037,
+  "local_lexical_diversity": 0.593,
+  "local_ai_markers_density": 0.2,
+  "local_ai_markers_total": 2,
+  "local_ai_markers_critical": 0,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 3,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 4,
+  "predicted_spam_pct": 55,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность выше 50% (~55%)"
+  ],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1780265666/articles/bankrotstvo-turoperatora-prava-agentov-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1780265666/articles/bankrotstvo-turoperatora-prava-agentov-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Macro close-up photograph emphasizing surface materials and tactile detail on a travel-and-legal theme. Subject focus: brass keys on a weathered leather coaster, a polished round seal impressed into cooling wax on a closed travel-agency envelope, a fountain pen positioned across a closed dark leather portfolio stamped with subtle embossing, a small antique brass padlock with patina resting nearby. Background: weathered stone slab or dark walnut grain surface. Camera: macro setup with very shallow depth of field isolating the key objects. Lighting: directional contrast with sharp specular highlights on brass and sealed wax, soft fill light on leather shadow side. Palette: brass accents, deep brown leather, warm cream wax, charcoal stone. Mood: securing proof of claim, unlocking compensation rights, protection of buyer's interests.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-05-31T22:14:27Z",
+  "date_published": "2026-06-01",
+  "date_modified": "2026-06-01",
+  "ready_for_review": true,
+  "ready_at": "2026-05-31T22:14:27Z",
+  "publication_target": "telegram_review"
+}
