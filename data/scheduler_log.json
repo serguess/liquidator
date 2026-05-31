@@ -10277,5 +10277,57 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-05-31T00:24:37",
+    "category": "yur",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 23,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "yur-71",
+    "topic_slug": "fns-kreditor-bankrotstvo-yurlica-taktika",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "fns-kreditor-bankrotstvo-yurlica-taktika",
+    "duration_sec": 3102.1,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "*Quality gate:** passed (retry_count=2, без metrics_warning)\n- **Uniqueness:** passed (структура 0.0, тезисы 0.013)\n- **Factcheck:** passed\n- **Обложка:** сгенерирована, загружена на Cloudinary (шаблон #13)\n- **Статус:** `ready_for_review=true`, добавлена в очередь ревью (172 items)\n\n**Предсказанные метрики text.ru:**\n- `textru_spam`: ~53%\n- `textru_ai_detector`: ~3%\n- `textru_uniqueness`: ~87%\n\n*(Фактические метрики появятся после прогона через text.ru — они не были получены в ходе пайплайна.)*",
+    "stderr_tail": "",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7198
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]

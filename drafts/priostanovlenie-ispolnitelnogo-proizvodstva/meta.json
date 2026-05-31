@@ -1,0 +1,105 @@
+{
+  "slug": "priostanovlenie-ispolnitelnogo-proizvodstva",
+  "category": "vzysk",
+  "title": "Приостановление исполнительного производства",
+  "description": "Кто и при каких условиях может приостановить исполнительное производство - суд или пристав, как подать заявление, сколько длится и как возобновляется.",
+  "h1": "Приостановление исполнительного производства: основания и порядок",
+  "lead": "Закон даёт инструмент поставить принудительное исполнение на паузу: разбираем, когда это делает суд, а когда пристав, и почему долг при этом не списывается.",
+  "topic_action": "приостановление исполнительного производства",
+  "breadcrumb_current": "Приостановление исполнительного производства",
+  "og_image": "/assets/articles/priostanovlenie-ispolnitelnogo-proizvodstva.jpg",
+  "main_keyword": "приостановление исполнительного производства",
+  "secondary_keywords": [
+    "основания приостановления исполнительного производства",
+    "как приостановить исполнительное производство",
+    "приостановление исполнительного производства судом",
+    "приостановление исполнительного производства приставом",
+    "статья 39 ФЗ-229 приостановление",
+    "статья 40 ФЗ-229 приостановление",
+    "заявление о приостановлении исполнительного производства",
+    "сроки приостановления исполнительного производства",
+    "возобновление исполнительного производства"
+  ],
+  "internal_links": [
+    "/articles/vzysk/chto-takoe-ispolnitelnoe-proizvodstvo",
+    "/articles/vzysk/kak-otmenit-sudebnyj-prikaz",
+    "/articles/vzysk/ispolnitelskij-sbor-kak-osporit",
+    "/articles/vzysk/rassrochka-ispolneniya-resheniya-suda"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_71450/",
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/"
+  ],
+  "faq": [
+    {
+      "question": "До какого момента длится пауза: есть ли максимальный срок?",
+      "answer": "Максимального срока нет. Закон привязывает окончание к событию. При лечении - до выписки. При оспаривании акта - до вступления нового решения в силу."
+    },
+    {
+      "question": "Кто возобновляет дело после устранения основания?",
+      "answer": "Если приостанавливал исполнитель - он же возобновляет или по заявлению взыскателя. Если приостанавливал суд - возобновление только через разбирательство."
+    },
+    {
+      "question": "Что происходит с уже начисленным исполнительским сбором в период паузы?",
+      "answer": "Пауза его не отменяет. Если сбор начислен до паузы - он взыскивается после возобновления. Новый в период паузы не начисляется."
+    },
+    {
+      "question": "Можно ли остановить взыскание, пока рассматривается заявление об отмене судебного приказа?",
+      "answer": "Само по себе заявление взыскание не останавливает. Нужно одновременно ходатайствовать об обеспечительных мерах. Пропустил 10-дневный срок отмены - сначала восстановить его."
+    },
+    {
+      "question": "Как банкротство гражданина влияет на открытые производства?",
+      "answer": "С даты введения реструктуризации долгов - приостанавливаются (положение 213.11 закона о банкротстве). При реализации имущества - прекращаются. Алименты и выплаты за вред здоровью продолжают взыскиваться в любом случае."
+    },
+    {
+      "question": "Вправе ли пристав в период паузы разыскивать имущество и слать запросы в банки?",
+      "answer": "Да. Розыск, запросы в Росреестр, ГИБДД, банки, налоговую - это исполнительные действия по норме 64. Они не запрещены. Запрещены меры принуждения по норме 68: арест нового имущества, удержания, торги."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все юр-факты сверены с research.json (facts f1-f21), last_verified 2026-05-31, legislation_status active.",
+    "Цифры (30 000 руб порог оценки, 7% сбор, 1000/10000 руб минимумы, 5 дней добровольного срока, 10 дней рассмотрения заявления) соответствуют ст. 85, 112, 30, 45 ФЗ-229.",
+    "Разграничение приостановления и прекращения ИП (ст. 42 vs ст. 43) выдержано.",
+    "Норма 213.11 127-ФЗ привязана корректно к реструктуризации, ст. 213.25 - к реализации; алименты и вред здоровью указаны как исключения.",
+    "Запрет автоматического приостановления при жалобе на пристава отражён согласно forbidden_claims."
+  ],
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "spam_risk: 4 флагов (top3_sum>30 (=32), top10_sum>80 (=86), top10_share>0.115 (=0.127), lexical_diversity<0.58 (=0.563)), top-5: ['норм', 'пауз', 'закон', 'жалоб', 'производств']"
+  ],
+  "text_chars": 7500,
+  "length_status": "ok",
+  "length_kind": "default",
+  "local_spam_top10_share": 0.127,
+  "local_spam_ngram3_repeat": 0.015,
+  "local_lexical_diversity": 0.563,
+  "local_ai_markers_density": 0.21,
+  "local_ai_markers_total": 2,
+  "local_ai_markers_critical": 0,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 2,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 3,
+  "predicted_spam_pct": 60,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность заметно выше 50% (~60%)"
+  ],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1780187785/articles/priostanovlenie-ispolnitelnogo-proizvodstva-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1780187785/articles/priostanovlenie-ispolnitelnogo-proizvodstva-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Wide editorial photograph of a private executive office — high ceilings, tall windows with heavy drapes, walnut bookshelves lining the walls, an oxblood leather chesterfield, a large mahogany desk in the foreground holding a closed dark leather portfolio positioned left of center, a precision antique brass pocket watch on a chain, a fountain pen aligned on a brass stand, a brass desk lamp casting warm light across the surface, a white porcelain coffee cup on a saucer. Background through windows: city skyline in overcast grey tones or golden evening light. Camera: three-quarter angle, slight low-angle to emphasize ceiling height and formal weight. Lighting: cool window light blended with warm tungsten desk-lamp glow creating deliberate contrast. Palette: walnut, oxblood, warm brass on cream background. Mood: solemn pause, moment of judicial deliberation, gravity of a decision to suspend.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-05-31T00:36:26Z",
+  "date_published": "2026-05-31",
+  "date_modified": "2026-05-31",
+  "ready_for_review": true,
+  "ready_at": "2026-05-31T00:36:26Z",
+  "publication_target": "telegram_review"
+}

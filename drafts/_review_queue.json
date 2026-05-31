@@ -2241,6 +2241,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "priostanovlenie-ispolnitelnogo-proizvodstva",
+      "category": "vzysk",
+      "title": "Приостановление исполнительного производства",
+      "added_at": "2026-05-31T03:36:26.927758",
+      "char_count": 7500,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1780187785/articles/priostanovlenie-ispolnitelnogo-proizvodstva-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

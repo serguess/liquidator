@@ -1,0 +1,35 @@
+{
+  "slug": "priostanovlenie-ispolnitelnogo-proizvodstva",
+  "passed": false,
+  "scores": {
+    "structure_overlap": 0.0,
+    "thesis_similarity": 0.214,
+    "cta_overlap": 0.243
+  },
+  "thresholds": {
+    "structure_overlap": 0.4,
+    "thesis_similarity": 0.3,
+    "cta_overlap": 0.2
+  },
+  "similar_articles": [
+    {
+      "slug": "snyatie-aresta-s-imushchestva-cherez-sud",
+      "category": "vzysk",
+      "similarity": 0.238
+    }
+  ],
+  "conflicts": [
+    "cta_overlap: 0.243 exceeds threshold 0.2 (closest peer: snyatie-aresta-s-imushchestva-cherez-sud)"
+  ],
+  "recommendation": "rewrite_with_angle:preventive-approach",
+  "analysis": {
+    "structure_overlap": "PASS - 0.0% (no H2 sequence overlap with vzysk articles)",
+    "thesis_similarity": "PASS - 21.4% (well below 30% threshold)",
+    "cta_overlap": "FAIL - 24.3% vs 20% threshold - final CTA messaging uses similar enforcement-stopping language as related articles",
+    "issue_detail": "The closing section (\"Пауза даёт время - но долг сохраняется\") emphasizes procedural mechanics of stopping enforcement. This overlaps semantically with enforcement-removal articles. Suggest rephrasing final CTA to focus on prevention/earlier intervention rather than \"how to stop it once enforcement begins\"."
+  },
+  "suggested_changes": {
+    "focus": "Shift from 'how to stop enforcement' (procedural mechanics) to 'when to intervene before enforcement escalates' (preventive approach)",
+    "final_block": "Replace the closing block's focus on obtaining and maintaining the pause with emphasis on recognizing when to file the right preventive motion at the right time"
+  }
+}
