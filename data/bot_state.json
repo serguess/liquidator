@@ -4021,7 +4021,7 @@
     "bankrotstvo-upravlyayushchej-kompanii-zhkh": {
       "category": "yur",
       "title": "Банкротство управляющей компании ЖКХ: что будет с домом",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -4029,14 +4029,16 @@
       "tg_message_id": 1139,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-31T08:34:09",
-      "last_action_at": "2026-05-31T10:00:25",
+      "last_action_at": "2026-05-31T11:47:06",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/yur/bankrotstvo-upravlyayushchej-kompanii-zhkh",
       "pending_batch": false,
       "pending_batch_at": "2026-05-31T08:34:09",
       "batch_sent_at": "2026-05-31T10:00:25",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-05-31T11:47:06",
+      "articles_path": "articles/yur/bankrotstvo-upravlyayushchej-kompanii-zhkh.html"
     },
     "neustoyka-po-alimentam-vzyskat": {
       "category": "vzysk",
