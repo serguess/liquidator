@@ -60,7 +60,27 @@ BOT_STATE_PATH = DATA_DIR / "bot_state.json"
 # === Извлечение H2 из HTML/MD ===
 
 H2_HTML_RX = re.compile(r"<h2\b[^>]*>(.*?)</h2>", re.DOTALL | re.IGNORECASE)
+H1_HTML_RX = re.compile(r"<h1\b[^>]*>(.*?)</h1>", re.DOTALL | re.IGNORECASE)
+TITLE_HTML_RX = re.compile(r"<title\b[^>]*>(.*?)</title>", re.DOTALL | re.IGNORECASE)
 TAG_RX = re.compile(r"<[^>]+>")
+
+
+def _extract_text(rx: re.Pattern, html: str) -> str:
+    """Достаёт текст первого совпадения regex, убирает теги и схлопывает пробелы."""
+    m = rx.search(html)
+    if not m:
+        return ""
+    text = TAG_RX.sub(" ", m.group(1)).strip()
+    return re.sub(r"\s+", " ", text)
+
+
+def _keyword_from_title(text: str) -> str:
+    """Главный ключ из заголовка: часть до первого двоеточия (H1 у нас вида
+    «Ключ: уточнение»). Нормализацию в слова делает сам cannibalization_check."""
+    if not text:
+        return ""
+    head = re.split(r"[:|]", text, maxsplit=1)[0].strip()
+    return head or text.strip()
 
 
 def _extract_h2_from_html(html: str, limit: int = 12) -> list[str]:
@@ -139,6 +159,20 @@ def _build_entry(slug: str, category: str, html_path: Path,
     h2_topics = _extract_h2_from_html(html)
     char_count = meta.get("text_chars") or _count_chars_html(html)
 
+    # У опубликованных статей рядом нет meta.json/brief.json (drafts подчищаются),
+    # поэтому title/h1/ключи в meta пустые → cannibalization_check их не видит
+    # (запись с пустым main_keyword отбрасывается). Достаём из самого HTML.
+    html_title = _extract_text(TITLE_HTML_RX, html)
+    html_h1 = _extract_text(H1_HTML_RX, html)
+    title = meta.get("title") or brief.get("title") or html_title or ""
+    h1 = meta.get("h1") or brief.get("h1") or html_h1 or ""
+    main_keyword = (meta.get("main_keyword") or brief.get("main_keyword")
+                    or _keyword_from_title(h1 or title) or "")
+    # secondary НЕ заполняем из h2_topics: длинные H2-фразы раздувают keys_set
+    # и занижают индекс Жаккара в cannibalization_check. H2 остаётся отдельным полем.
+    secondary_keywords = (meta.get("secondary_keywords")
+                          or brief.get("secondary_keywords") or [])
+
     if source == "published":
         url = f"/articles/{category}/{slug}.html"
     else:
@@ -149,10 +183,10 @@ def _build_entry(slug: str, category: str, html_path: Path,
         "category": category,
         "source": source,  # 'published' | 'draft_approved' | 'draft_pending'
         "url": url,
-        "title": meta.get("title") or "",
-        "h1": meta.get("h1") or "",
-        "main_keyword": meta.get("main_keyword") or brief.get("main_keyword") or "",
-        "secondary_keywords": meta.get("secondary_keywords") or brief.get("secondary_keywords") or [],
+        "title": title,
+        "h1": h1,
+        "main_keyword": main_keyword,
+        "secondary_keywords": secondary_keywords,
         "intent": brief.get("intent") or meta.get("intent") or "",
         "writer_route": brief.get("writer_route") or meta.get("writer_route") or "",
         "h2_topics": h2_topics,
