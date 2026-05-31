@@ -2,6 +2,19 @@
   "generated": "2026-05-31",
   "articles": [
     {
+      "slug": "priostanovlenie-ispolnitelnogo-proizvodstva",
+      "cat": "vzysk",
+      "catLabel": "Взыскание задолженности",
+      "title": "Приостановление исполнительного производства",
+      "desc": "Кто и при каких условиях может приостановить исполнительное производство - суд или пристав, как подать заявление, сколько длится и как возобновляется.",
+      "date": "31 мая 2026",
+      "dateIso": "2026-05-31",
+      "read": "5 мин.",
+      "tone": "b",
+      "img": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1780187785/articles/priostanovlenie-ispolnitelnogo-proizvodstva-cover.jpg",
+      "url": "articles/vzysk/priostanovlenie-ispolnitelnogo-proizvodstva"
+    },
+    {
       "slug": "fns-kreditor-bankrotstvo-yurlica-taktika",
       "cat": "yur",
       "catLabel": "Банкротство юридических лиц",

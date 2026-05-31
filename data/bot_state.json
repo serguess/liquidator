@@ -3977,7 +3977,7 @@
     "priostanovlenie-ispolnitelnogo-proizvodstva": {
       "category": "vzysk",
       "title": "Приостановление исполнительного производства",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -3985,14 +3985,16 @@
       "tg_message_id": 1135,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-31T03:37:12",
-      "last_action_at": "2026-05-31T10:00:21",
+      "last_action_at": "2026-05-31T11:45:27",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/vzysk/priostanovlenie-ispolnitelnogo-proizvodstva",
       "pending_batch": false,
       "pending_batch_at": "2026-05-31T03:37:12",
       "batch_sent_at": "2026-05-31T10:00:21",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-05-31T11:45:27",
+      "articles_path": "articles/vzysk/priostanovlenie-ispolnitelnogo-proizvodstva.html"
     },
     "bankrotstvo-v-dekretnom-otpuske": {
       "category": "fiz",
@@ -4051,6 +4053,24 @@
       "published_url": null,
       "pending_batch": true,
       "pending_batch_at": "2026-05-31T10:32:10"
+    },
+    "ipotechnye-kanikuly-bankrotstvo-fizlica": {
+      "category": "fiz",
+      "title": "Ипотечные каникулы или банкротство: что выбрать",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-05-31T11:45:10",
+      "last_action_at": "2026-05-31T11:45:10",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-05-31T11:45:10"
     }
   },
   "pending_actions": [],
