@@ -4066,15 +4066,52 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 1159,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-31T11:45:10",
       "last_action_at": "2026-05-31T11:45:10",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-05-31T11:45:10",
+      "batch_sent_at": "2026-05-31T12:15:29"
+    },
+    "moratornyye-protsenty-bankrotstvo-yurlica": {
+      "category": "yur",
+      "title": "Мораторные проценты при банкротстве юрлица",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-05-31T12:56:10",
+      "last_action_at": "2026-05-31T12:56:10",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
       "pending_batch": true,
-      "pending_batch_at": "2026-05-31T11:45:10"
+      "pending_batch_at": "2026-05-31T12:56:10"
+    },
+    "vzyskanie-ushcherba-pri-zatoplenii-kvartiry": {
+      "category": "vzysk",
+      "title": "Взыскание ущерба при затоплении квартиры",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-05-31T15:20:11",
+      "last_action_at": "2026-05-31T15:20:11",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-05-31T15:20:11"
     }
   },
   "pending_actions": [],

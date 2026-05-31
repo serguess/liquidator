@@ -10665,5 +10665,102 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-05-31T14:48:28",
+    "category": "vzysk",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 8,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "vzysk-66",
+    "topic_slug": "vzyskanie-ushcherba-pri-zatoplenii-kvartiry",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "internal_links_autofixed: 5 ссылок (например /articles/vzysk/obespechitelnye-mery-arest-scheta.html→/articles/vzysk/obespechitelnye-mery-arest-scheta; /articles/vzysk/dosudebnaya-pretenziya-obrazec.html→/articles/vzysk/dosudebnaya-pretenziya-obrazec; /articles/vzysk/isk-o-vzyskanii-dolga-v-sud.html→/articles/vzysk/isk-o-vzyskanii-dolga-v-sud)"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "vzyskanie-ushcherba-pri-zatoplenii-kvartiry",
+    "duration_sec": 1876.4,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "ml`\n\n**Проверки:**\n- Uniqueness: passed (thesis_similarity 0.272, порог 0.30)\n- Factcheck: passed\n- Quality gate: passed, нет блокеров (1 итерация)\n- Метрики_warning: нет\n\n**Прогнозные метрики (text.ru):** спам ~49%, ИИ ~3%, уникальность ~87%\n*(textru_ai_detector / textru_uniqueness / textru_spam будут заполнены после реальной проверки на text.ru)*\n\n**Обложка:** сгенерирована, шаблон #28, загружена в Cloudinary.\nСтатья добавлена в очередь ревью (item #179), ожидает публикации через Telegram-бот.",
+    "stderr_tail": "",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7999
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
+  },
+  {
+    "timestamp": "2026-05-31T17:12:28",
+    "category": "news",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 9,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "news_sanitized": 15,
+    "expanded_in_slot": true,
+    "topic_id": "news-34",
+    "topic_slug": "arest-akcij-bankrota-subsidiarka-obespechenie",
+    "auto_skipped": [
+      {
+        "slug": "arest-akcij-bankrota-subsidiarka-obespechenie",
+        "reason": "hang_total_timeout",
+        "duration_sec": 980.1
+      }
+    ],
+    "status": "failed",
+    "slug": "arest-akcij-bankrota-subsidiarka-obespechenie",
+    "duration_sec": 5103.8,
+    "returncode": -2,
+    "rescued_after_failure": false,
+    "stdout_tail": "агента 5 (uniqueness).\n[tool_use:Bash]\n[tool_use:Agent]\n[tool_use:Read]\n[tool_use:Read]\n[tool_use:Read]\n[tool_use:Bash]\n[tool_use:Write]\nУникальность подтверждена. Запускаю агента 6 (seo-editor).\n[tool_use:Bash]\n[tool_use:Agent]\n[tool_use:Read]\n[tool_use:Read]\n[tool_use:Read]\n[tool_use:Read]\n[tool_use:Bash]\n[tool_use:Bash]\n[tool_use:Bash]\n[tool_use:Bash]\n[tool_use:Bash]\n[tool_use:Bash]\n[tool_use:Bash]\n[tool_use:Bash]\n[tool_use:Bash]\n[tool_use:Bash]\n[tool_use:Bash]\n[tool_use:Bash]\n[tool_use:Bash]",
+    "stderr_tail": "\n[scheduler] hit slot/article timeout after 980s",
+    "metrics": null
   }
 ]
