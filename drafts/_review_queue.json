@@ -2254,6 +2254,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "bankrotstvo-v-dekretnom-otpuske",
+      "category": "fiz",
+      "title": "Банкротство в декрете: списать долги без работы",
+      "added_at": "2026-05-31T05:48:10.802783",
+      "char_count": 7504,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1780195689/articles/bankrotstvo-v-dekretnom-otpuske-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

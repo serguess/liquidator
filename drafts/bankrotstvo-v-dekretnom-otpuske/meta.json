@@ -1,0 +1,98 @@
+{
+  "slug": "bankrotstvo-v-dekretnom-otpuske",
+  "category": "fiz",
+  "title": "Банкротство в декрете: списать долги без работы",
+  "description": "Можно ли оформить банкротство в декретном отпуске - через суд или МФЦ, что происходит с декретными выплатами и пособиями, как защитить деньги на ребёнка.",
+  "h1": "Банкротство в декрете: как списать долги, если нет работы",
+  "lead": "Закон не требует зарплаты — только признаков неплатёжеспособности. Пособие и маткапитал кредиторам не достанутся.",
+  "topic_action": "проверку возможности списания долгов в декрете",
+  "breadcrumb_current": "Банкротство в декрете",
+  "og_image": "/assets/articles/bankrotstvo-v-dekretnom-otpuske.jpg",
+  "main_keyword": "банкротство в декретном отпуске",
+  "secondary_keywords": [
+    "списать долги в декрете",
+    "банкротство декретницы",
+    "внесудебное банкротство в декрете",
+    "МФЦ банкротство в декретном отпуске",
+    "пособие при банкротстве физлица",
+    "декретные выплаты конкурсная масса",
+    "можно ли обанкротиться в декрете",
+    "банкротство мамы с ребёнком долги"
+  ],
+  "internal_links": [
+    "/dohody-vo-vremya-bankrotstva-fizlica.html",
+    "/bankrotstvo-pri-ipoteke-edinstvennoe-zhilye.html",
+    "/chto-nelzya-delat-pered-bankrotstvom-fizlica.html"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_71450/",
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/"
+  ],
+  "faq": [
+    {
+      "question": "Арестуют ли счёт, на который приходит пособие по уходу за ребёнком?",
+      "answer": "Взыскивать пособие запрещено. Если пристав всё же наложил арест — направить в ФССП заявление об исключении защищённых выплат. С момента введения банкротного дела аресты снимаются."
+    },
+    {
+      "question": "Можно ли подать через МФЦ, если исполнительное производство ещё не окончено?",
+      "answer": "Да — если единственный доход это выплата по уходу и производство длится более 12 месяцев без результата. Постановление об окончании не нужно."
+    },
+    {
+      "question": "Что произойдёт с детскими вещами и счётом, открытым на имя ребёнка?",
+      "answer": "Ничего. Это собственность ребёнка, не матери. Арбитражный управляющий не вправе включить её в конкурсную массу."
+    },
+    {
+      "question": "Обязательно ли подавать ходатайство об исключении прожиточного минимума?",
+      "answer": "Обязательно. Суд сам не исключает. Без ходатайства сумма уйдёт в массу."
+    },
+    {
+      "question": "Сколько времени займёт дело, если нет имущества кроме личных вещей?",
+      "answer": "Через МФЦ — шесть месяцев. Через арбитраж — девять-двенадцать. Нет активов, нет спорных сделок — дело закрывается в этих рамках."
+    },
+    {
+      "question": "Влияет ли банкротство на возможность устроиться на работу после выхода из декрета?",
+      "answer": "Нет. Обычная работа доступна без ограничений. Запрет только на руководящие должности в организациях — три года, и на кредиты без упоминания о прошлом деле — пять лет."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все юр-факты проверены против research.json (last_verified 2026-05-31, legislation_status active).",
+    "Госпошлина: используется актуальная норма (льгота ст. 333.37 НК РФ с 8 сентября 2024) — устаревшие 300 руб. в тексте отсутствуют.",
+    "Депозит 25 000 руб. на финансового управляющего корректно отнесён к судебному пути.",
+    "Расширенный критерий ст. 223.2 ФЗ-474 для получателей социальных выплат (ИП >12 мес.) описан обтекаемо, без точной цитаты.",
+    "Маткапитал в ипотеке — формулировка соответствует contested-факту f15 (обтекаемое «как правило»).",
+    "Точная сумма прожиточного минимума на 2026 год не приведена — в соответствии с fact_gaps."
+  ],
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "text_chars": 7504,
+  "length_status": "warn",
+  "length_kind": "default",
+  "local_spam_top10_share": 0.097,
+  "local_spam_ngram3_repeat": 0.02,
+  "local_lexical_diversity": 0.635,
+  "local_ai_markers_density": 0.21,
+  "local_ai_markers_total": 2,
+  "local_ai_markers_critical": 0,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 3,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 49,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1780195689/articles/bankrotstvo-v-dekretnom-otpuske-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1780195689/articles/bankrotstvo-v-dekretnom-otpuske-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Photograph of a contemporary shared workspace built with natural materials — light oak desktop, raw concrete wall detail, linen-upholstered chair visible in soft bokeh. Foreground: sleek closed leather-bound notebook positioned left of center, a polished brass round seal resting on the notebook's edge, a ceramic water bottle in cool neutral tone, a white porcelain coffee cup on a walnut coaster, a smartphone face-down slightly right, a fountain pen aligned with notebook spine. Background: floor-to-ceiling windows opening onto soft daylight, a potted indoor plant in raw clay pot slightly out of focus on the windowsill. Camera: three-quarter angle, eye-level, shallow depth of field. Lighting: bright cool daylight from windows, warm ambient fill from natural materials. Materials: oak, concrete, ceramic, leather, brass. Mood: modern accessibility, hopeful protection, compassionate professional guidance. Palette: warm naturals with brass accents on neutral cream and grey.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-05-31T02:48:10Z",
+  "date_published": "2026-05-31",
+  "date_modified": "2026-05-31",
+  "ready_for_review": true,
+  "ready_at": "2026-05-31T02:48:10Z",
+  "publication_target": "telegram_review"
+}

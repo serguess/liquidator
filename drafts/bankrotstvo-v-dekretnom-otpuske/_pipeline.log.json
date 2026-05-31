@@ -1,0 +1,40 @@
+{
+  "slug": "bankrotstvo-v-dekretnom-otpuske",
+  "category": null,
+  "started_at": "2026-05-31T05:37:07",
+  "finished_at": null,
+  "total_duration_sec": null,
+  "current_iteration": 2,
+  "events": [
+    {
+      "ts": "2026-05-31T05:37:07",
+      "agent": "4-writer",
+      "event": "iteration_returned",
+      "iteration": 2,
+      "reason": "thesis_similarity=0.404 с dacha-garazh-zemelnyj-uchastok-bankrotstvo: статья звучит как обычное банкротство физлица, не как история мамы в декрете",
+      "recommendation": "rewrite_with_angle:reader-case — переработать с фокусом на конкретный кейс читателя-мамы"
+    },
+    {
+      "ts": "2026-05-31T05:48:27",
+      "agent": "scheduler",
+      "event": "slot_started",
+      "iteration": 2,
+      "category": "fiz",
+      "today_count": 2,
+      "limit": 10,
+      "write_article_duration_sec": 2176.2
+    },
+    {
+      "ts": "2026-05-31T05:48:27",
+      "agent": "quality_gate",
+      "event": "passed",
+      "iteration": 2,
+      "blockers": [],
+      "warnings": [
+        "Автофикс применил правки: сокращения=0, пунктуация=0",
+        "internal_links_autofixed: 3 ссылок (например /dohody-vo-vremya-bankrotstva-fizlica.html→/articles/fiz/dohody-vo-vremya-bankrotstva-fizlica; /bankrotstvo-pri-ipoteke-edinstvennoe-zhilye.html→/articles/fiz/bankrotstvo-pri-ipoteke-edinstvennoe-zhilye; /chto-nelzya-delat-pered-bankrotstvom-fizlica.html→/articles/fiz/chto-nelzya-delat-pered-bankrotstvom-fizlica)"
+      ],
+      "recommendations": []
+    }
+  ]
+}
