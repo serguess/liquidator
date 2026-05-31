@@ -3911,7 +3911,7 @@
     "cb-monitoring-operacij-fizlic-115-fz-uzhestochenie": {
       "category": "news",
       "title": "ЦБ ужесточил контроль за наличными физлиц по 115-ФЗ",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -3919,14 +3919,16 @@
       "tg_message_id": 1129,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-30T17:42:08",
-      "last_action_at": "2026-05-31T10:00:14",
+      "last_action_at": "2026-05-31T11:26:45",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/news/cb-monitoring-operacij-fizlic-115-fz-uzhestochenie",
       "pending_batch": false,
       "pending_batch_at": "2026-05-30T17:42:08",
       "batch_sent_at": "2026-05-31T10:00:14",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-05-31T11:26:45",
+      "articles_path": "articles/news/cb-monitoring-operacij-fizlic-115-fz-uzhestochenie.html"
     },
     "zarubezhnaya-nedvizhimost-pri-bankrotstve": {
       "category": "fiz",

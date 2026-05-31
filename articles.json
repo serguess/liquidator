@@ -2,6 +2,19 @@
   "generated": "2026-05-31",
   "articles": [
     {
+      "slug": "cb-monitoring-operacij-fizlic-115-fz-uzhestochenie",
+      "cat": "news",
+      "catLabel": "Новости",
+      "title": "ЦБ ужесточил контроль за наличными физлиц по 115-ФЗ",
+      "desc": "Банк России выпустил рекомендации № 1-МР: банки обязаны проверять источник крупных наличных вкладов. Что считается подозрительным и как ответить на запрос.",
+      "date": "31 мая 2026",
+      "dateIso": "2026-05-31",
+      "read": "4 мин.",
+      "tone": "b",
+      "img": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1780152076/articles/cb-monitoring-operacij-fizlic-115-fz-uzhestochenie-cover.jpg",
+      "url": "articles/news/cb-monitoring-operacij-fizlic-115-fz-uzhestochenie"
+    },
+    {
       "slug": "obrashchenie-vzyskaniya-na-zalog",
       "cat": "vzysk",
       "catLabel": "Взыскание задолженности",
