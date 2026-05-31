@@ -1017,7 +1017,11 @@
       "topic_action": "консультацию по обеспечительным мерам в банкротстве",
       "event_date": "2026-05-25",
       "news_zone": "vs_practice",
-      "primary_source": "https://rapsinews.ru/judicial_analyst/20260525/311869205.html"
+      "primary_source": "https://rapsinews.ru/judicial_analyst/20260525/311869205.html",
+      "status": "rejected",
+      "rejected_at": "2026-05-31T18:37:30",
+      "rejected_reason": "hang_total_timeout",
+      "rejected_by": "auto_skip_in_slot"
     },
     {
       "id": "news-35",
