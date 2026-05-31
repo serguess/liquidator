@@ -2,6 +2,19 @@
   "generated": "2026-05-31",
   "articles": [
     {
+      "slug": "obrashchenie-vzyskaniya-na-zalog",
+      "cat": "vzysk",
+      "catLabel": "Взыскание задолженности",
+      "title": "Обращение взыскания на залог: суд и внесудебный порядок",
+      "desc": "Как кредитор обращает взыскание на заложенное имущество по ст. 349 ГК РФ: судебный иск, соглашение, исполнительная надпись нотариуса. Права должника.",
+      "date": "31 мая 2026",
+      "dateIso": "2026-05-31",
+      "read": "6 мин.",
+      "tone": "b",
+      "img": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1780144641/articles/obrashchenie-vzyskaniya-na-zalog-cover.jpg",
+      "url": "articles/vzysk/obrashchenie-vzyskaniya-na-zalog"
+    },
+    {
       "slug": "debitorskaya-zadolzhennost-bankrotstvo-dolzhnika-yurlica",
       "cat": "yur",
       "catLabel": "Банкротство юридических лиц",
