@@ -1,0 +1,101 @@
+{
+  "slug": "kreditnye-kanikuly-pered-bankrotstvom-fizlica",
+  "category": "fiz",
+  "title": "Кредитные каникулы перед банкротством физлица: стоит ли",
+  "description": "Разбираем, когда кредитные каникулы помогают выиграть время, а когда только увеличивают долг и затягивают путь к банкротству физлица.",
+  "h1": "Кредитные каникулы перед банкротством: что нужно знать до принятия решения",
+  "lead": "Льготный период по кредиту даёт паузу на полгода, но проценты продолжают начисляться, а обязанность подать на банкротство при долге свыше полумиллиона рублей не останавливается. Разбираем, когда отсрочка работает, а когда только увеличивает долг.",
+  "topic_action": "проверку ситуации с долгами",
+  "offer": "proverka-spisaniya",
+  "breadcrumb_current": "Кредитные каникулы перед банкротством",
+  "og_image": "/assets/articles/kreditnye-kanikuly-pered-bankrotstvom-fizlica.jpg",
+  "main_keyword": "кредитные каникулы перед банкротством физлица",
+  "secondary_keywords": [
+    "кредитные каникулы и банкротство",
+    "стоит ли брать кредитные каникулы перед банкротством",
+    "кредитные каникулы или банкротство что выбрать",
+    "влияние кредитных каникул на банкротство",
+    "кредитные каникулы добросовестность должника",
+    "кредитные каникулы увеличивают долг",
+    "кредитные каникулы условия получения физлицо",
+    "кредитные каникулы риски для должника"
+  ],
+  "internal_links": [
+    "/articles/fiz/bankrotstvo-pri-potrebitelskom-kredite",
+    "/articles/fiz/refinansirovanie-ili-bankrotstvo-fizlica",
+    "/articles/fiz/nedobrosovestnost-dolzhnika-otkaz-v-spisanii",
+    "/articles/fiz/chto-nelzya-delat-pered-bankrotstvom-fizlica"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/"
+  ],
+  "faq": [
+    {
+      "question": "Сдвигаются ли сроки оспаривания сделок, если до банкротства я брал передышку?",
+      "answer": "Нет. Это изменение условий исполнения, не новое обязательство. Дата возникновения долга остаётся прежней, это день кредитного договора. Сроки оспаривания (один год и три года) отсчитываются от неё же."
+    },
+    {
+      "question": "Можно ли взять льготный период повторно по тому же договору?",
+      "answer": "Нет. Норма о потребительском кредите предусматривает однократную выдачу по каждому договору. Воспользовались - следующего не будет."
+    },
+    {
+      "question": "Что произойдёт с поручителем, пока основной заёмщик пользуется отсрочкой?",
+      "answer": "Поручительство сохраняется. Поручитель отвечает за обязательство в том же объёме, включая начисления за время передышки. Не возобновил заёмщик платежи - кредитор вправе предъявить требования поручителю."
+    },
+    {
+      "question": "Сколько реально стоит подать на несостоятельность в суд?",
+      "answer": "С 8 сентября 2024 года госпошлина с должника-гражданина не взимается, льгота по статье 333.37 Налогового кодекса. Обязательный расход - депозит на вознаграждение арбитражного управляющего: двадцать пять тысяч рублей. Плюс публикации в реестре и текущие расходы по ходу дела."
+    },
+    {
+      "question": "Ипотечная и потребительская отсрочка - это одно и то же?",
+      "answer": "Нет. Ипотечная работает по закону об ипотеке, только для жилищного кредита на единственное жильё. Потребительская пауза регулируется отдельной нормой. Разные основания, разный порядок."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все юр-факты проверены против research.json (last_verified 2026-05-31, legislation_status active).",
+    "Ст. 6.1-1 ФЗ-353 - основа кредитных каникул, 6 месяцев, снижение дохода на 30% (f1).",
+    "Условия по лимиту суммы кредита поданы обтекаемо - 'лимит, установленный Правительством', без конкретной цифры (соответствует fact_gap по ПП РФ № 545).",
+    "Проценты во время каникул продолжают начисляться, неустойки не начисляются (f3).",
+    "Каникулы не сдвигают сроки оспаривания сделок по ст. 61.2 127-ФЗ (f5).",
+    "Обязанность подать заявление при долге свыше 500 000 руб. в течение 30 рабочих дней (п. 1 ст. 213.4 127-ФЗ) - каникулы срок не прерывают (f8).",
+    "МФЦ-банкротство (ст. 223.2 127-ФЗ в ред. ФЗ-474 от 04.08.2023) от 25 000 до 1 000 000 рублей - даты приведены корректно (f10).",
+    "Поручительство при каникулах сохраняется (f15, ст. 367 ГК РФ).",
+    "Госпошлина 0 руб. с 8 сентября 2024 (ст. 333.37 НК РФ); депозит на управляющего 25 000 руб. отдельно - не смешиваются (f18). Устаревшие 300 руб. не упоминаются.",
+    "Добросовестность: использование законных каникул само по себе не недобросовестность (f6); риск отказа только при заведомо ложных сведениях или умысле не платить (f7, п. 4 ст. 213.28).",
+    "Неосвобождение от долгов, возникших после истечения 30-дневного срока - корректная отсылка к п. 6 ст. 213.28 (f14).",
+    "Прямые цитаты закона отсутствуют - пересказ; лимит цитирования соблюдён (<600 знаков)."
+  ],
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "text_chars": 7438,
+  "length_status": "ok",
+  "length_kind": "default",
+  "local_spam_top10_share": 0.108,
+  "local_spam_ngram3_repeat": 0.026,
+  "local_lexical_diversity": 0.626,
+  "local_ai_markers_density": 0.32,
+  "local_ai_markers_total": 3,
+  "local_ai_markers_critical": 0,
+  "local_ai_markers_high": 1,
+  "local_own_voice_hits": 3,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 3,
+  "predicted_spam_pct": 49,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1780256050/articles/kreditnye-kanikuly-pered-bankrotstvom-fizlica-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1780256050/articles/kreditnye-kanikuly-pered-bankrotstvom-fizlica-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Exterior photograph of a contemporary administrative building façade in heavy rain and evening dusk. Glass windows reflect the wet street, soft amber lampposts glow through the haze. Camera: street-level, slight low-angle. Foreground on wet stone steps: a closed dark leather portfolio, a sand-filled brass hourglass mid-flow, a blank-spine closed notebook, a fountain pen resting nearby. Distant silhouettes of pedestrians with black umbrellas (faceless, far away). Palette: cool blue-grey with warm amber pin-points. Lighting: diffused overcast from above blended with tungsten glow from distant streetlights. Mood: pause, decision, contemplation before choice — the weight of time still passing despite the pause.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-05-31T19:34:11Z",
+  "date_published": "2026-05-31",
+  "date_modified": "2026-05-31",
+  "ready_for_review": true,
+  "ready_at": "2026-05-31T19:34:11Z",
+  "publication_target": "telegram_review"
+}

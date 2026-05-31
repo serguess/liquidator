@@ -10762,5 +10762,57 @@
     "stdout_tail": "агента 5 (uniqueness).\n[tool_use:Bash]\n[tool_use:Agent]\n[tool_use:Read]\n[tool_use:Read]\n[tool_use:Read]\n[tool_use:Bash]\n[tool_use:Write]\nУникальность подтверждена. Запускаю агента 6 (seo-editor).\n[tool_use:Bash]\n[tool_use:Agent]\n[tool_use:Read]\n[tool_use:Read]\n[tool_use:Read]\n[tool_use:Read]\n[tool_use:Bash]\n[tool_use:Bash]\n[tool_use:Bash]\n[tool_use:Bash]\n[tool_use:Bash]\n[tool_use:Bash]\n[tool_use:Bash]\n[tool_use:Bash]\n[tool_use:Bash]\n[tool_use:Bash]\n[tool_use:Bash]\n[tool_use:Bash]\n[tool_use:Bash]",
     "stderr_tail": "\n[scheduler] hit slot/article timeout after 980s",
     "metrics": null
+  },
+  {
+    "timestamp": "2026-05-31T19:36:37",
+    "category": "news",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 1,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "news-35",
+    "topic_slug": "shtraf-banku-narusheniye-prav-zaemshchika-cb-ukazanie",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "shtraf-banku-narusheniye-prav-zaemshchika-cb-ukazanie",
+    "duration_sec": 1666.2,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "(thesis similarity 0.243, порог 0.30)\n- **Factcheck:** passed (все факты сверены с research.json)\n- **Quality gate:** passed, 0 блокеров, 0 предупреждений\n- **Обложка:** сгенерирована, загружена на Cloudinary (template_id=18)\n- **Режим публикации:** ожидает одобрения в TG-боте (`ready_for_review=true`, позиция №180 в очереди)\n- **Файл:** `drafts/shtraf-banku-narusheniye-prav-zaemshchika-cb-ukazanie/article.html`\n\n**Метрики text.ru:** не заполнены (проверка запускается отдельно после публикации).",
+    "stderr_tail": "",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 6697
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]
