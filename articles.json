@@ -1,6 +1,19 @@
 {
-  "generated": "2026-05-30",
+  "generated": "2026-05-31",
   "articles": [
+    {
+      "slug": "vzyskanie-s-prodavca-po-zakonu-potrebitelej",
+      "cat": "vzysk",
+      "catLabel": "Взыскание задолженности",
+      "title": "Взыскание с продавца: права потребителя и порядок действий",
+      "desc": "Пошаговый разбор: претензия продавцу, сроки ответа, расчёт неустойки 1% в день и штрафа 50%, иск в суд — с учётом изменений ФЗ-500 с 1 февраля 2026 года.",
+      "date": "31 мая 2026",
+      "dateIso": "2026-05-31",
+      "read": "5 мин.",
+      "tone": "b",
+      "img": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1780130713/articles/vzyskanie-s-prodavca-po-zakonu-potrebitelej-cover.jpg",
+      "url": "articles/vzysk/vzyskanie-s-prodavca-po-zakonu-potrebitelej"
+    },
     {
       "slug": "vzyskanie-alimentov-za-proshedshij-period",
       "cat": "vzysk",

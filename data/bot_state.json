@@ -3845,20 +3845,24 @@
     "vzyskanie-s-prodavca-po-zakonu-potrebitelej": {
       "category": "vzysk",
       "title": "Взыскание с продавца: права потребителя и порядок действий",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 1123,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-30T11:46:06",
-      "last_action_at": "2026-05-30T11:46:06",
+      "last_action_at": "2026-05-31T11:19:06",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-05-30T11:46:06"
+      "published_url": "https://pravo.shop/articles/vzysk/vzyskanie-s-prodavca-po-zakonu-potrebitelej",
+      "pending_batch": false,
+      "pending_batch_at": "2026-05-30T11:46:06",
+      "batch_sent_at": "2026-05-31T10:00:08",
+      "batch_fail_count": 0,
+      "published_at": "2026-05-31T11:19:06",
+      "articles_path": "articles/vzysk/vzyskanie-s-prodavca-po-zakonu-potrebitelej.html"
     },
     "debitorskaya-zadolzhennost-bankrotstvo-dolzhnika-yurlica": {
       "category": "yur",
@@ -3868,15 +3872,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 1125,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-30T13:10:06",
-      "last_action_at": "2026-05-30T13:10:06",
+      "last_action_at": "2026-05-31T10:00:10",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-05-30T13:10:06"
+      "pending_batch": false,
+      "pending_batch_at": "2026-05-30T13:10:06",
+      "batch_sent_at": "2026-05-31T10:00:10",
+      "batch_fail_count": 0
     },
     "obrashchenie-vzyskaniya-na-zalog": {
       "category": "vzysk",
@@ -3886,15 +3892,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 1127,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-30T15:38:07",
-      "last_action_at": "2026-05-30T15:38:07",
+      "last_action_at": "2026-05-31T10:00:12",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-05-30T15:38:07"
+      "pending_batch": false,
+      "pending_batch_at": "2026-05-30T15:38:07",
+      "batch_sent_at": "2026-05-31T10:00:12",
+      "batch_fail_count": 0
     },
     "cb-monitoring-operacij-fizlic-115-fz-uzhestochenie": {
       "category": "news",
@@ -3904,15 +3912,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 1129,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-30T17:42:08",
-      "last_action_at": "2026-05-30T17:42:08",
+      "last_action_at": "2026-05-31T10:00:14",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-05-30T17:42:08"
+      "pending_batch": false,
+      "pending_batch_at": "2026-05-30T17:42:08",
+      "batch_sent_at": "2026-05-31T10:00:14",
+      "batch_fail_count": 0
     },
     "zarubezhnaya-nedvizhimost-pri-bankrotstve": {
       "category": "fiz",
@@ -3922,19 +3932,119 @@
       "versions": [
         "2.0"
       ],
+      "tg_message_id": 1131,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-05-30T20:33:09",
+      "last_action_at": "2026-05-31T10:00:16",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-05-30T20:33:09",
+      "batch_sent_at": "2026-05-31T10:00:16",
+      "batch_fail_count": 0
+    },
+    "fns-kreditor-bankrotstvo-yurlica-taktika": {
+      "category": "yur",
+      "title": "ФНС-кредитор в банкротстве юрлица: тактика должника",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 1133,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-05-31T01:17:11",
+      "last_action_at": "2026-05-31T10:00:18",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-05-31T01:17:11",
+      "batch_sent_at": "2026-05-31T10:00:18",
+      "batch_fail_count": 0
+    },
+    "priostanovlenie-ispolnitelnogo-proizvodstva": {
+      "category": "vzysk",
+      "title": "Приостановление исполнительного производства",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 1135,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-05-31T03:37:12",
+      "last_action_at": "2026-05-31T10:00:21",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-05-31T03:37:12",
+      "batch_sent_at": "2026-05-31T10:00:21",
+      "batch_fail_count": 0
+    },
+    "bankrotstvo-v-dekretnom-otpuske": {
+      "category": "fiz",
+      "title": "Банкротство в декрете: списать долги без работы",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 1137,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-05-31T05:49:08",
+      "last_action_at": "2026-05-31T10:00:23",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-05-31T05:49:08",
+      "batch_sent_at": "2026-05-31T10:00:23",
+      "batch_fail_count": 0
+    },
+    "bankrotstvo-upravlyayushchej-kompanii-zhkh": {
+      "category": "yur",
+      "title": "Банкротство управляющей компании ЖКХ: что будет с домом",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 1139,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-05-31T08:34:09",
+      "last_action_at": "2026-05-31T10:00:25",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-05-31T08:34:09",
+      "batch_sent_at": "2026-05-31T10:00:25",
+      "batch_fail_count": 0
+    },
+    "neustoyka-po-alimentam-vzyskat": {
+      "category": "vzysk",
+      "title": "Неустойка по алиментам 0,1%: взыскание через суд",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
       "tg_message_id": null,
       "tg_chat_id": null,
-      "first_seen_at": "2026-05-30T20:33:09",
-      "last_action_at": "2026-05-30T20:33:09",
+      "first_seen_at": "2026-05-31T10:32:09",
+      "last_action_at": "2026-05-31T10:32:09",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
       "pending_batch": true,
-      "pending_batch_at": "2026-05-30T20:33:09"
+      "pending_batch_at": "2026-05-31T10:32:10"
     }
   },
   "pending_actions": [],
-  "last_batch_date": "2026-05-30",
+  "last_batch_date": "2026-05-31",
   "last_batch_count": 9,
-  "last_batch_at": "2026-05-30T10:00:20"
+  "last_batch_at": "2026-05-31T10:00:25"
 }
