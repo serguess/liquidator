@@ -1724,7 +1724,11 @@
       "frequency_estimate": "high",
       "rationale": "Должники в суде — огромная аудитория, которая не знает как защититься. Статья покрывает сторону ответчика, которой нет в категории vzysk. Прямой матч с услугой защиты в суде, конвертит в лид на юридическое сопровождение.",
       "expected_length_chars": 7000,
-      "topic_action": "защиту от иска о взыскании долга"
+      "topic_action": "защиту от иска о взыскании долга",
+      "status": "rejected",
+      "rejected_at": "2026-05-31T10:00:44",
+      "rejected_reason": "cannibalization:preflight:cluster:vzysk-isk-o-vzyskanii-dolga",
+      "rejected_by": "auto_skip_in_slot"
     },
     {
       "id": "vzysk-65",
