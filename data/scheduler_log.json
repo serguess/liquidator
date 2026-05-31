@@ -10440,5 +10440,59 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-05-31T07:36:08",
+    "category": "yur",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 26,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "yur-72",
+    "topic_slug": "bankrotstvo-upravlyayushchej-kompanii-zhkh",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "Автофикс применил правки: сокращения=0, пунктуация=0"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "bankrotstvo-upravlyayushchej-kompanii-zhkh",
+    "duration_sec": 3446.9,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "место юридических фаз)\n- **Factcheck (агент 6):** passed\n- **Quality gate:** passed (retry_count=3), blockers: []\n- **metrics_warning:** false\n- **Обложка:** сгенерирована, шаблон 19, загружена в Cloudinary\n- **Статус:** `ready_for_review=true`, добавлена в TG-очередь (позиция 175)\n- **Файл:** `drafts/bankrotstvo-upravlyayushchej-kompanii-zhkh/article.html`\n\n**Метрики text.ru** (проверка на сайте): `textru_ai_detector`, `textru_uniqueness`, `textru_spam` — пока не проверялись (local_only режим).",
+    "stderr_tail": "",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7179
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]

@@ -1,0 +1,107 @@
+{
+  "slug": "neustoyka-po-alimentam-vzyskat",
+  "category": "vzysk",
+  "title": "Неустойка по алиментам 0,1%: взыскание через суд",
+  "description": "Как взыскать неустойку за просрочку алиментов по ст. 115 СК РФ: расчёт долга, иск в суд, срок исковой давности 3 года, снижение судом.",
+  "h1": "Неустойка по алиментам: как взыскать 0,1% за каждый день долга",
+  "lead": "За каждый день просрочки алиментов по решению суда закон начисляет 0,1% сверх основного долга. Взыскивается отдельным иском у мирового судьи без госпошлины.",
+  "topic_action": "взыскание неустойки по алиментам",
+  "breadcrumb_current": "Неустойка по алиментам",
+  "og_image": "/assets/articles/neustoyka-po-alimentam-vzyskat.jpg",
+  "main_keyword": "взыскание неустойки по алиментам",
+  "secondary_keywords": [
+    "неустойка по алиментам статья 115 СК РФ",
+    "расчёт неустойки по алиментам",
+    "как взыскать неустойку по алиментам",
+    "иск о взыскании неустойки по алиментам",
+    "неустойка алименты 0,1 процент за каждый день",
+    "долг по алиментам неустойка",
+    "снижение неустойки по алиментам",
+    "неустойка по алиментам срок исковой давности",
+    "постановление о расчёте задолженности по алиментам"
+  ],
+  "internal_links": [
+    "/articles/vzysk/alimenty-v-tverdoj-summe",
+    "/articles/vzysk/kak-uskorit-vzyskanie-cherez-pristavov",
+    "/articles/vzysk/udershanie-iz-zarplaty-pristavami"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_8982/",
+    "https://www.consultant.ru/document/cons_doc_LAW_5142/"
+  ],
+  "faq": [
+    {
+      "question": "Можно ли взыскать пеню, если суд ещё не признал плательщика виновным?",
+      "answer": "Отдельного «признания» не нужно. Вина устанавливается в самом процессе. Доказывать её отсутствие обязан ответчик."
+    },
+    {
+      "question": "Что произойдёт с накопленной суммой, если плательщик начнёт банкротиться?",
+      "answer": "Основной алиментный остаток при банкротстве не подлежит списанию. По финансовой надбавке практика расходится: часть судов признаёт её несписываемой как личный долг кредитора, другие рассматривают иначе. Стоит включить требование в реестр."
+    },
+    {
+      "question": "Обязательно ли брать постановление пристава, или достаточно собственного расчёта?",
+      "answer": "Постановление обязательно — оно официально подтверждает размер алиментной недоплаты за каждый период. Собственный расчёт пени прилагается дополнительно."
+    },
+    {
+      "question": "До какого момента начисляется 0,1% — до подачи иска или до фактической уплаты?",
+      "answer": "До даты фактической уплаты. Если плательщик погасил накопленный остаток через год после подачи заявления — пеня считается за весь этот период."
+    },
+    {
+      "question": "Распространяется ли норма статьи 115 СК на выплаты по нотариальному соглашению?",
+      "answer": "Нет. Ставка 0,1% работает только по выплатам, взысканным судом или судебным приказом. При нотариальном соглашении ответственность определяет сам документ."
+    },
+    {
+      "question": "Чем исковое производство о пене отличается от судебного приказа о взыскании алиментов?",
+      "answer": "Приказ выдаётся при бесспорных требованиях без вызова сторон. Взыскание пени — спорное дело: ответчик вправе оспаривать вину и размер. Только иск. Через приказ пеню не получить."
+    }
+  ],
+  "keyword_density_main": 0.0077,
+  "main_keyword_exact_count": 2,
+  "text_chars": 7504,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все юридические утверждения сверены с research.json (f1-f15), last_verified: 2026-05-31, legislation_status: active",
+    "Ставка 0,1% — п. 2 ст. 115 СК РФ (f1), действует с 2016 года",
+    "3-летний срок давности по каждому платежу — п. 65 Постановления Пленума ВС РФ № 56 (f6)",
+    "Бремя доказывания невиновности на плательщике — п. 63 ПП ВС РФ № 56 (f3)",
+    "Снижение по ст. 333 ГК РФ в исключительных случаях — п. 64 ПП ВС РФ № 56 (f4)",
+    "70% удержания по алиментам — ч. 3 ст. 99 ФЗ-229 (f10)",
+    "Госпошлина 0 для взыскателя — пп. 2 п. 1 ст. 333.36 НК РФ (f8)",
+    "Подсудность мирового судьи — ст. 23, 29 ГПК РФ (f7)",
+    "Уголовная ответственность за злостное уклонение до 1 года — ст. 157 УК РФ (f12)",
+    "По неустойке при банкротстве позиция contested — формулировка обтекаемая (f11)"
+  ],
+  "length_status": "warn",
+  "length_kind": "default",
+  "local_spam_top10_share": 0.106,
+  "local_spam_ngram3_repeat": 0.02,
+  "local_lexical_diversity": 0.594,
+  "local_ai_markers_density": 0.21,
+  "local_ai_markers_total": 2,
+  "local_ai_markers_critical": 0,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 2,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 53,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность чуть выше 50% (~53%)"
+  ],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1780212676/articles/neustoyka-po-alimentam-vzyskat-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1780212676/articles/neustoyka-po-alimentam-vzyskat-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Studio close-up of a sand-filled brass hourglass mid-flow positioned center-left, with brass scales of justice partially visible to the right, a closed dark leather case folder lying flat beneath them, soft directional studio light from upper left creating elegant shadow falloff against a clean neutral matte graphite seamless backdrop. Hyperrealistic detail: the sand grain and brass patina rendered in premium product-photography polish, the weight and texture of each object emphasizing obligation accumulating daily. No environmental context, pure studio isolation.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-05-31T07:31:17Z",
+  "date_published": "2026-05-31",
+  "date_modified": "2026-05-31",
+  "ready_for_review": true,
+  "ready_at": "2026-05-31T07:31:17Z",
+  "publication_target": "telegram_review"
+}

@@ -2280,6 +2280,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "neustoyka-po-alimentam-vzyskat",
+      "category": "vzysk",
+      "title": "Неустойка по алиментам 0,1%: взыскание через суд",
+      "added_at": "2026-05-31T10:31:17.533530",
+      "char_count": 7504,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1780212676/articles/neustoyka-po-alimentam-vzyskat-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
