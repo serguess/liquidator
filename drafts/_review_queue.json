@@ -2332,6 +2332,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "shtraf-banku-narusheniye-prav-zaemshchika-cb-ukazanie",
+      "category": "news",
+      "title": "Штраф банку за нарушение прав заёмщика: до 250 млн",
+      "added_at": "2026-05-31T20:04:10.332865",
+      "char_count": 6697,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1780247048/articles/shtraf-banku-narusheniye-prav-zaemshchika-cb-ukazanie-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

@@ -1,0 +1,96 @@
+{
+  "slug": "shtraf-banku-narusheniye-prav-zaemshchika-cb-ukazanie",
+  "category": "news",
+  "title": "Штраф банку за нарушение прав заёмщика: до 250 млн",
+  "description": "С 25 мая 2026 года ЦБ вправе взыскать с банка штраф до 250 млн рублей за нарушение прав потребителей финансовых услуг. Что изменилось и как это защищает заёмщика.",
+  "h1": "Банку грозит штраф до 250 млн рублей за нарушение прав заёмщика",
+  "lead": "С 25 мая 2026 года максимальная санкция Банка России за нарушение прав заёмщика выросла до 250 миллионов рублей. Разбираем, за что штрафуют и как это защищает клиента.",
+  "topic_action": "защиту своих прав при нарушении условий кредита",
+  "offer": "proverka-spisaniya",
+  "breadcrumb_current": "Штраф банку за нарушение прав заёмщика",
+  "og_image": "/assets/articles/shtraf-banku-narusheniye-prav-zaemshchika-cb-ukazanie.jpg",
+  "main_keyword": "штраф банку за нарушение прав заёмщика",
+  "secondary_keywords": [
+    "ЦБ штраф банк нарушение прав потребителя",
+    "ответственность банка перед заёмщиком",
+    "штраф ЦБ кредитная организация 250 млн",
+    "указание Банка России защита прав заёмщика",
+    "нарушение прав потребителей финансовых услуг",
+    "ЦБ взыщет штраф с банка",
+    "защита заёмщика от банка закон",
+    "навязывание услуг при выдаче кредита штраф",
+    "отказ в кредитных каникулах штраф банку"
+  ],
+  "internal_links": [
+    "/articles/vzysk/cessiya-ustupka-trebovaniya-prava-dolzhnika",
+    "/articles/news/ogranichenie-kreditov-vysokaya-dolgovaya-nagruzka-mpl"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_155986/",
+    "https://www.consultant.ru/document/cons_doc_LAW_37570/"
+  ],
+  "faq": [
+    {
+      "question": "Попадёт ли штраф с банка на мой счёт или уйдёт в бюджет?",
+      "answer": "Взыскание, которое Банк России налагает на кредитную организацию, поступает в государственный бюджет, а не заёмщику. Это надзорная санкция публично-правового характера. Для личной компенсации или возврата незаконно удержанных денег нужно обращаться отдельно — к финансовому уполномоченному или в суд."
+    },
+    {
+      "question": "Обязан ли ЦБ оштрафовать банк, если я пожалуюсь?",
+      "answer": "Нет. Подача сведений запускает надзорную проверку, но решение принимает ЦБ по её итогам. Наложение взыскания — это полномочие ведомства, а не его обязанность по каждому факту."
+    },
+    {
+      "question": "Можно ли вернуть навязанную страховку после подписания договора?",
+      "answer": "Да. Действует период охлаждения — в течение определённого срока после оформления клиент вправе отказаться от страховки и получить премию обратно. При немотивированном отказе кредитора можно обращаться в Банк России и к финансовому омбудсмену."
+    },
+    {
+      "question": "До какого момента банк обязан рассмотреть требование о кредитных каникулах?",
+      "answer": "Гражданин может потребовать льготный период в любой момент действия договора — при условии снижения дохода на 30% и более. Каникулы предоставляются один раз, до 6 месяцев (Федеральный закон № 273-ФЗ). Необоснованный отказ — основание для обращения в Банк России."
+    },
+    {
+      "question": "Чем финансовый уполномоченный отличается от подачи сведений в Банк России?",
+      "answer": "Банк России — это надзорный инструмент: ведомство проверяет кредитную организацию и при подтверждённом факте может выдать предписание или взыскать денежную меру в пользу бюджета. Финансовый уполномоченный — это инструмент денежный: рассматривает конкретный имущественный спор и обязывает кредитора вернуть деньги клиенту. По спорам до 500 000 рублей обращение к омбудсмену обязательно до суда. Оба канала можно использовать параллельно."
+    }
+  ],
+  "keyword_density_main": 0.008,
+  "main_keyword_exact_count": 2,
+  "text_chars": 6697,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все юр-утверждения сверены с research.json (f1-f15), legislation_status: active/amended, last_verified 2026-05-31",
+    "Период охлаждения по навязанной страховке в FAQ — формулировка обтекаемая (без конкретного количества дней), т.к. срок мог меняться поправками; в research.json точный срок не зафиксирован",
+    "Указание ЦБ № 7329-У и ФЗ-543 упомянуты без гиперссылок (fact_gaps: документы не во whitelist consultant.ru)",
+    "Цитирование закона <600 знаков: только пересказ норм, прямых цитат в blockquote нет",
+    "Год в title и h1 отсутствует (требование category=news)"
+  ],
+  "length_status": "warn",
+  "length_kind": "news",
+  "local_spam_top10_share": 0.109,
+  "local_spam_ngram3_repeat": 0.035,
+  "local_lexical_diversity": 0.62,
+  "local_ai_markers_density": 0.23,
+  "local_ai_markers_total": 2,
+  "local_ai_markers_critical": 0,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 2,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 4,
+  "predicted_spam_pct": 49,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1780247048/articles/shtraf-banku-narusheniye-prav-zaemshchika-cb-ukazanie-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1780247048/articles/shtraf-banku-narusheniye-prav-zaemshchika-cb-ukazanie-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Wide-angle photograph of a grand symmetric interior — a central bank main hall or financial regulatory chamber with soaring ceilings and strong architectural lines. Polished marble floor leads symmetrically toward the frame center where a single understated composition sits: a long polished table holding a sealed bound document stamped with a formal emblem, brass scales of justice resting on one side of the table, a polished round government seal slightly in foreground, and a closed dark leather portfolio on the marble surface. Camera positioned dead-center symmetric, eye-level, slight wide-angle perspective emphasizing depth. Lighting: cool natural daylight from tall skylights or clerestory windows above, casting soft diffused light across polished marble and brass surfaces. Palette: cool whites, polished cream marble, brass accents, deep walnut table edge. Mood: institutional authority, official sanction, civic oversight.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-05-31T17:04:10Z",
+  "date_published": "2026-05-31",
+  "date_modified": "2026-05-31",
+  "ready_for_review": true,
+  "ready_at": "2026-05-31T17:04:10Z",
+  "publication_target": "telegram_review"
+}
