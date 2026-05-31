@@ -2306,6 +2306,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "moratornyye-protsenty-bankrotstvo-yurlica",
+      "category": "yur",
+      "title": "Мораторные проценты при банкротстве юрлица",
+      "added_at": "2026-05-31T12:55:03.349876",
+      "char_count": 7430,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1780221302/articles/moratornyye-protsenty-bankrotstvo-yurlica-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

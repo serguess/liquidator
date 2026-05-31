@@ -1,0 +1,99 @@
+{
+  "slug": "moratornyye-protsenty-bankrotstvo-yurlica",
+  "category": "yur",
+  "title": "Мораторные проценты при банкротстве юрлица",
+  "description": "Как начисляются и рассчитываются мораторные проценты в процедурах банкротства юридического лица: ставка ЦБ, формула, очерёдность погашения и взыскание с КДЛ.",
+  "h1": "Мораторные проценты при банкротстве юридического лица",
+  "lead": "Когда компания входит в банкротство, договорные неустойки замораживаются - вместо них кредитор получает мораторные проценты по ключевой ставке ЦБ. Разбираем формулу расчёта, очерёдность погашения и риски для контролирующих лиц.",
+  "topic_action": "расчёт мораторных процентов по вашему делу",
+  "breadcrumb_current": "Мораторные проценты при банкротстве юрлица",
+  "og_image": "/assets/articles/moratornyye-protsenty-bankrotstvo-yurlica.jpg",
+  "main_keyword": "мораторные проценты при банкротстве юридического лица",
+  "secondary_keywords": [
+    "мораторные проценты расчёт формула",
+    "мораторные проценты ключевая ставка ЦБ",
+    "статья 137 закона о банкротстве проценты",
+    "мораторные проценты субсидиарная ответственность КДЛ",
+    "мораторные проценты наблюдение конкурсное производство",
+    "мораторные проценты после прекращения банкротства",
+    "на что не начисляются мораторные проценты",
+    "очерёдность погашения мораторных процентов"
+  ],
+  "internal_links": [
+    "/articles/yur/vneshnee-upravlenie-pri-bankrotstve-yurlica.html",
+    "/articles/yur/konkursnaya-massa-dolzhnika-chto-vklyuchaetsya.html",
+    "/articles/yur/kontroliruyushchee-dolzhnika-lico-kdl.html"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/"
+  ],
+  "faq": [
+    {
+      "question": "Начисляются ли суммы, если взыскатель включился в реестр позже введения наблюдения?",
+      "answer": "Да, но с даты включения в перечень займодавцев. Право на компенсацию возникает с момента, когда требование появилось в реестре. Период до включения не охватывается."
+    },
+    {
+      "question": "Какой показатель применяется, если ЦБ изменил ключевую ставку уже в ходе дела?",
+      "answer": "Никакой новый. Значение рефинансирования фиксируется однократно - на дату введения конкретного этапа. Последующие решения регулятора для уже текущей стадии значения не имеют. Если первый этап открыт при 21%, потом снизилось до 18% - расчёт всё равно по 21%."
+    },
+    {
+      "question": "Обязан ли управляющий уведомлять кредитора о накопленных цифрах?",
+      "answer": "Такой обязанности нет. Арбитражный управляющий рассчитывает и вносит данные в реестр самостоятельно. Взыскатель вправе в любое время запросить реестр и проверить суммы - особенно при длительных делах это разумно делать регулярно."
+    },
+    {
+      "question": "Можно ли включить эти суммы в реестр как самостоятельное требование?",
+      "answer": "Нет. Они учитываются отдельной строкой третьей очереди (пункт 3 статьи 137 закона о несостоятельности). Управляющий отражает их при ведении реестра без дополнительных заявлений."
+    },
+    {
+      "question": "Что происходит с начислениями при переходе из наблюдения сразу в конкурсное производство?",
+      "answer": "Переходят в перечень требований как отдельная строка третьей очереди. Новые суммы на финальном этапе не начисляются. Накопленное за первую стадию сохраняется и гасится при расчётах с кредиторами."
+    },
+    {
+      "question": "Распространяется ли механизм на ФНС как уполномоченный орган?",
+      "answer": "Да. Положения 81 и 95 закона о несостоятельности охватывают конкурсных взыскателей и уполномоченный орган одинаково. ФНС получает компенсацию за период дела наравне с коммерческими участниками реестра."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все ключевые юр-утверждения сверены с research.json: ст. 63 п. 1 пп. 2, ст. 81, ст. 95, ст. 126, ст. 137 п. 3, ст. 61.11 п. 11 127-ФЗ - active.",
+    "Постановление Пленума ВАС РФ от 06.12.2013 № 88 упоминается только текстом, без гиперссылки (не в whitelist consultant.ru).",
+    "Ставка ЦБ корректно описана как ключевая ставка, приравненная к ставке рефинансирования с 01.01.2016, фиксируется на дату введения процедуры.",
+    "Формула расчёта соответствует f8: долг × ставка ÷ 365 (366) × дни.",
+    "База расчёта - только основной долг и договорные проценты (без санкций) - f16.",
+    "Итерация 2: писатель синонимизировал ~60% упоминаний 'мораторные проценты' (надбавка, эти суммы, начисления, компенсация) для снижения top10_share и top3_sum по quality_gate."
+  ],
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "text_chars": 7430,
+  "length_status": "ok",
+  "length_kind": "default",
+  "local_spam_top10_share": 0.112,
+  "local_spam_ngram3_repeat": 0.022,
+  "local_lexical_diversity": 0.593,
+  "local_ai_markers_density": 0.21,
+  "local_ai_markers_total": 2,
+  "local_ai_markers_critical": 0,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 3,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 3,
+  "predicted_spam_pct": 53,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность чуть выше 50% (~53%)"
+  ],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1780221302/articles/moratornyye-protsenty-bankrotstvo-yurlica-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1780221302/articles/moratornyye-protsenty-bankrotstvo-yurlica-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Editorial photograph of a lawyer's desk by a tall window. Camera at table-eye level, slight three-quarter angle. On the walnut desktop: a closed dark leather portfolio, a precision scientific calculator with blank screen positioned left of center, an antique brass pocket watch on a chain, a fountain pen on a brass stand, reading glasses resting on an open blank notebook, a white porcelain coffee cup on a saucer. Background through the tall window: blurred urban panorama of office towers, soft bokeh, golden hour light. Lighting: warm golden window light streaming across the desk surface, casting gentle shadows of the objects. Materials: walnut, leather, brushed brass. Premium legal-advisory aesthetic, neutral beige-grey palette with warm brass and leather accents. Mood: focused calculation and careful due diligence.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-05-31T09:55:03Z",
+  "date_published": "2026-05-31",
+  "date_modified": "2026-05-31",
+  "ready_for_review": true,
+  "ready_at": "2026-05-31T09:55:03Z",
+  "publication_target": "telegram_review"
+}

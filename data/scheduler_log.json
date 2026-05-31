@@ -10553,5 +10553,63 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-05-31T11:07:13",
+    "category": "fiz",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "From https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 1,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "expanded_in_slot": true,
+    "topic_id": "fiz-80",
+    "topic_slug": "ipotechnye-kanikuly-bankrotstvo-fizlica",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "Автофикс применил правки: сокращения=2, пунктуация=0",
+        "internal_links_autofixed: 3 ссылок (например /articles/fiz/bankrotstvo-pri-ipoteke-edinstvennoe-zhilye.html→/articles/fiz/bankrotstvo-pri-ipoteke-edinstvennoe-zhilye; /articles/fiz/mirovoe-soglashenie-bankrotstvo-fizlica.html→/articles/fiz/mirovoe-soglashenie-bankrotstvo-fizlica; /articles/fiz/ipoteka-posle-bankrotstva-fizlica.html→/articles/fiz/ipoteka-posle-bankrotstva-fizlica)",
+        "length_soft_passed: 8103 > 8000 но ≤ 8500 и iteration=3 — пропускаем (приоритет spam/uniqueness/ai)",
+        "spam_soft_passed: ratio-флаги мягкие при iter=3, targeted_tokens чистые → пропускаем (spam ≈48-52% по прогнозу)"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "ipotechnye-kanikuly-bankrotstvo-fizlica",
+    "duration_sec": 2255.9,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "* 8103 знака\n- **Uniqueness:** passed (max similarity 0.14)\n- **Factcheck:** passed, все 18 фактов проверены\n- **Quality gate:** passed (retry_count: 2, soft-pass по длине ≤ 8500)\n- **Обложка:** сгенерирована, шаблон #16 (офис, кожа и дерево, тема совещательного выбора)\n- **Файл:** `drafts/ipotechnye-kanikuly-bankrotstvo-fizlica/article.html`\n- **Очередь:** добавлена в `_review_queue.json` (всего 177 записей)\n\n**Метрики text.ru:** не заполнены (проверка через внешний сервис выполняется отдельно)",
+    "stderr_tail": "",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 8103
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]
