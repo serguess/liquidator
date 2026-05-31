@@ -10494,5 +10494,64 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-05-31T10:00:37",
+    "category": "vzysk",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 27,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "vzysk-65",
+    "topic_slug": "neustoyka-po-alimentam-vzyskat",
+    "auto_skipped": [
+      {
+        "slug": "kak-osporit-isk-o-vzyskanii-dolga",
+        "reason": "cannibalization:preflight:cluster:vzysk-isk-o-vzyskanii-dolga",
+        "duration_sec": 0
+      }
+    ],
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "neustoyka-po-alimentam-vzyskat",
+    "duration_sec": 1847.8,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "генерирована, template_id=4, загружена на Cloudinary\n- **Файл:** `drafts/neustoyka-po-alimentam-vzyskat/article.html`\n\n**Качество:**\n- Quality gate: **passed**, блокеров нет\n- Uniqueness (эмбеддинги): **passed** (closest peer 0.122, порог 0.30)\n- Factcheck: **passed** (все 12 утверждений подтверждены research.json)\n- AI-маркеры: 2 low (в футере шаблона — не в тексте)\n- Антишаблонные фразы: 0 хитов\n\n**Прогноз text.ru:**\n- `textru_spam`: ~53%\n- `textru_ai_detector`: ~3%\n- `textru_uniqueness`: ~87%",
+    "stderr_tail": "",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7504
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]

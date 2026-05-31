@@ -2293,6 +2293,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "ipotechnye-kanikuly-bankrotstvo-fizlica",
+      "category": "fiz",
+      "title": "Ипотечные каникулы или банкротство: что выбрать",
+      "added_at": "2026-05-31T11:44:35.025502",
+      "char_count": 8103,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1780217074/articles/ipotechnye-kanikuly-bankrotstvo-fizlica-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

@@ -1,0 +1,22 @@
+{
+  "slug": "ipotechnye-kanikuly-bankrotstvo-fizlica",
+  "passed": true,
+  "scores": {
+    "structure_overlap": 0.0,
+    "thesis_similarity": 0.14,
+    "cta_overlap": 0.059
+  },
+  "similar_articles": [],
+  "conflicts": [],
+  "recommendation": "ok",
+  "details": {
+    "structure_overlap_threshold": 0.4,
+    "thesis_similarity_threshold": 0.3,
+    "cta_overlap_threshold": 0.2,
+    "peers_compared": 50,
+    "closest_peer": "dacha-garazh-zemelnyj-uchastok-bankrotstvo",
+    "stored_in_embeddings_db": true,
+    "article_id": 198,
+    "published_flag": 0
+  }
+}

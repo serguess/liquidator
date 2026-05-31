@@ -1,0 +1,33 @@
+{
+  "slug": "ipotechnye-kanikuly-bankrotstvo-fizlica",
+  "category": "fiz",
+  "started_at": "2026-05-31T11:44:49",
+  "finished_at": null,
+  "total_duration_sec": null,
+  "current_iteration": 1,
+  "events": [
+    {
+      "ts": "2026-05-31T11:44:49",
+      "agent": "scheduler",
+      "event": "slot_started",
+      "iteration": 1,
+      "today_count": 5,
+      "limit": 11,
+      "write_article_duration_sec": 2255.9
+    },
+    {
+      "ts": "2026-05-31T11:44:49",
+      "agent": "quality_gate",
+      "event": "passed",
+      "iteration": 1,
+      "blockers": [],
+      "warnings": [
+        "Автофикс применил правки: сокращения=2, пунктуация=0",
+        "internal_links_autofixed: 3 ссылок (например /articles/fiz/bankrotstvo-pri-ipoteke-edinstvennoe-zhilye.html→/articles/fiz/bankrotstvo-pri-ipoteke-edinstvennoe-zhilye; /articles/fiz/mirovoe-soglashenie-bankrotstvo-fizlica.html→/articles/fiz/mirovoe-soglashenie-bankrotstvo-fizlica; /articles/fiz/ipoteka-posle-bankrotstva-fizlica.html→/articles/fiz/ipoteka-posle-bankrotstva-fizlica)",
+        "length_soft_passed: 8103 > 8000 но ≤ 8500 и iteration=3 — пропускаем (приоритет spam/uniqueness/ai)",
+        "spam_soft_passed: ratio-флаги мягкие при iter=3, targeted_tokens чистые → пропускаем (spam ≈48-52% по прогнозу)"
+      ],
+      "recommendations": []
+    }
+  ]
+}
