@@ -1,0 +1,47 @@
+{
+  "slug": "bankrotstvo-upravlyayushchej-kompanii-zhkh",
+  "category": null,
+  "started_at": "2026-05-31T08:05:49",
+  "finished_at": null,
+  "total_duration_sec": null,
+  "current_iteration": 3,
+  "events": [
+    {
+      "ts": "2026-05-31T08:05:49",
+      "agent": "4-writer",
+      "event": "iteration_returned",
+      "iteration": 2,
+      "reason": "thesis_similarity=0.331 (>0.30), cta_overlap=0.314 (>0.20): тезисы повторяют шаблон юр-процедур, CTA шаблонный",
+      "recommendation": "Переписать с углом кейса жильцов: сценарии вместо фаз (РСО требует повторную оплату, капремонт в опасности, как выбрать новую УК), финал — конкретные действия в первую неделю, CTA: Узнать, как защитить платежи вашего дома"
+    },
+    {
+      "ts": "2026-05-31T08:24:46",
+      "agent": "4-writer",
+      "event": "iteration_returned",
+      "iteration": 3,
+      "reason": "quality_gate: length_too_long=9148 (>8000), targeted_tokens РФ_рудимент=6 (>2)",
+      "recommendation": "Сократить текст с 9148 до 6800-7200 знаков; убрать РФ из кодовых упоминаний кроме первого (ЖК РФ→ЖК, ГК РФ→ГК); заменить «надлежащему лицу» на более простое"
+    },
+    {
+      "ts": "2026-05-31T08:33:35",
+      "agent": "scheduler",
+      "event": "slot_started",
+      "iteration": 3,
+      "category": "yur",
+      "today_count": 3,
+      "limit": 10,
+      "write_article_duration_sec": 3446.9
+    },
+    {
+      "ts": "2026-05-31T08:33:35",
+      "agent": "quality_gate",
+      "event": "passed",
+      "iteration": 3,
+      "blockers": [],
+      "warnings": [
+        "Автофикс применил правки: сокращения=0, пунктуация=0"
+      ],
+      "recommendations": []
+    }
+  ]
+}

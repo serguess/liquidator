@@ -2267,6 +2267,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "bankrotstvo-upravlyayushchej-kompanii-zhkh",
+      "category": "yur",
+      "title": "Банкротство управляющей компании ЖКХ: что будет с домом",
+      "added_at": "2026-05-31T08:33:16.790964",
+      "char_count": 7179,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1780205595/articles/bankrotstvo-upravlyayushchej-kompanii-zhkh-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
