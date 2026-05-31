@@ -2,6 +2,19 @@
   "generated": "2026-05-31",
   "articles": [
     {
+      "slug": "zarubezhnaya-nedvizhimost-pri-bankrotstve",
+      "cat": "fiz",
+      "catLabel": "Банкротство физических лиц",
+      "title": "Зарубежная недвижимость при банкротстве физлица",
+      "desc": "Квартира или дом за границей входит в конкурсную массу при банкротстве физлица. Объясняем, как управляющий её ищет, когда реально заберут и чем грозит сокрытие.",
+      "date": "31 мая 2026",
+      "dateIso": "2026-05-31",
+      "read": "5 мин.",
+      "tone": "b",
+      "img": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1780162315/articles/zarubezhnaya-nedvizhimost-pri-bankrotstve-cover.jpg",
+      "url": "articles/fiz/zarubezhnaya-nedvizhimost-pri-bankrotstve"
+    },
+    {
       "slug": "cb-monitoring-operacij-fizlic-115-fz-uzhestochenie",
       "cat": "news",
       "catLabel": "Новости",
