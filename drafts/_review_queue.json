@@ -2319,6 +2319,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "vzyskanie-ushcherba-pri-zatoplenii-kvartiry",
+      "category": "vzysk",
+      "title": "Взыскание ущерба при затоплении квартиры",
+      "added_at": "2026-05-31T15:19:25.980509",
+      "char_count": 7999,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1780229965/articles/vzyskanie-ushcherba-pri-zatoplenii-kvartiry-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

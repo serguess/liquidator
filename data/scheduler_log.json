@@ -10611,5 +10611,59 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-05-31T12:24:06",
+    "category": "yur",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 7,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "yur-73",
+    "topic_slug": "moratornyye-protsenty-bankrotstvo-yurlica",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "internal_links_autofixed: 3 ссылок (например /articles/yur/vneshnee-upravlenie-pri-bankrotstve-yurlica.html→/articles/yur/vneshnee-upravlenie-pri-bankrotstve-yurlica; /articles/yur/konkursnaya-massa-dolzhnika-chto-vklyuchaetsya.html→/articles/yur/konkursnaya-massa-dolzhnika-chto-vklyuchaetsya; /articles/yur/kontroliruyushchee-dolzhnika-lico-kdl.html→/articles/yur/kontroliruyushchee-dolzhnika-lico-kdl)"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "moratornyye-protsenty-bankrotstvo-yurlica",
+    "duration_sec": 1871.5,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "actcheck:** passed\n**Quality gate:** passed на итерации 2 (после снижения заспамленности)\n**Metrics warning:** нет\n\n**text.ru метрики:** ещё не проверялись (статья в очереди ревью, проверка проходит после публикации)\n\n**Обложка:** сгенерирована, загружена на Cloudinary (template_id=2)\n**Статус:** `ready_for_review=true`, добавлена в `_review_queue.json` (позиция 178)\n\n**Файл:** `drafts/moratornyye-protsenty-bankrotstvo-yurlica/article.html`\n\nСтатья ожидает нажатия «Опубликовать» в Telegram-боте.",
+    "stderr_tail": "",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7430
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]

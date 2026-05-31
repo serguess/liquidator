@@ -4627,6 +4627,27 @@
       "articles": [
         "moratornyye-protsenty-bankrotstvo-yurlica"
       ]
+    },
+    {
+      "id": "vzysk-vzyskanie-ushcherba-zaliv-kvartiry",
+      "category": "vzysk",
+      "subtopic": "взыскание ущерба при затоплении (заливе) квартиры",
+      "intent": "informational",
+      "funnel_stage": "warm",
+      "main_keyword": "взыскание ущерба при затоплении квартиры",
+      "related_keywords": [
+        "залив квартиры соседями как взыскать",
+        "ущерб от залива квартиры куда обращаться",
+        "иск о затоплении квартиры",
+        "акт о заливе квартиры",
+        "независимая экспертиза после залива",
+        "взыскание ущерба с управляющей компании",
+        "компенсация морального вреда за залив квартиры",
+        "срок исковой давности по заливу квартиры"
+      ],
+      "articles": [
+        "vzyskanie-ushcherba-pri-zatoplenii-kvartiry"
+      ]
     }
   ]
 }

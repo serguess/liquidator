@@ -1,0 +1,96 @@
+{
+  "slug": "vzyskanie-ushcherba-pri-zatoplenii-kvartiry",
+  "category": "vzysk",
+  "title": "Взыскание ущерба при затоплении квартиры",
+  "description": "Кто виноват в заливе квартиры - сосед или УК, как зафиксировать ущерб, заказать экспертизу и взыскать деньги через суд. Пошаговая инструкция.",
+  "h1": "Затопили соседи или УК: как взыскать ущерб за залив квартиры",
+  "lead": "Затопили сверху - деньги на восстановление берутся с виновника. Разбираем, как зафиксировать ущерб актом, кто отвечает (сосед или УК), как провести независимую оценку и какой бонус даёт Закон о защите прав потребителей при иске к управляющей компании.",
+  "topic_action": "взыскание ущерба от залива квартиры",
+  "breadcrumb_current": "Взыскание ущерба при затоплении квартиры",
+  "og_image": "/assets/articles/vzyskanie-ushcherba-pri-zatoplenii-kvartiry.jpg",
+  "main_keyword": "взыскание ущерба при затоплении квартиры",
+  "secondary_keywords": [
+    "залив квартиры соседями как взыскать",
+    "ущерб от залива квартиры куда обращаться",
+    "иск о затоплении квартиры",
+    "акт о заливе квартиры",
+    "независимая экспертиза после залива",
+    "взыскание ущерба с управляющей компании",
+    "компенсация морального вреда за залив квартиры",
+    "срок исковой давности по заливу квартиры"
+  ],
+  "internal_links": [
+    "/articles/vzysk/dosudebnaya-pretenziya-obrazec.html",
+    "/articles/vzysk/isk-o-vzyskanii-dolga-v-sud.html",
+    "/articles/vzysk/obespechitelnye-mery-arest-scheta.html"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_5142/"
+  ],
+  "faq": [
+    {
+      "question": "Можно ли взыскать ущерб от залива без акта о потопе?",
+      "answer": "Да, иск примут и без него. Суд оценивает совокупность: фотографии, показания свидетелей, переписку с УК, заключение специалиста. Без акта доказать масштаб событий сложнее - но возможно."
+    },
+    {
+      "question": "Что делать, если жилец сверху отказывается возмещать добровольно?",
+      "answer": "Направьте письменную претензию с расчётом и сроком для ответа. Если виновник игнорирует - подавайте иск о взыскании долга в суд. Досудебный порядок к физическому лицу необязателен, но письмо нередко ускоряет мировое урегулирование."
+    },
+    {
+      "question": "Сколько стоит независимая экспертиза и кто её оплатит?",
+      "answer": "Стоимость зависит от региона, площади и объёма повреждений. При выигрыше дела затраты взыскиваются с ответчика. Если суд назначил экспертизу по ходатайству ответчика - плата при вашем выигрыше тоже переходит на проигравшую сторону."
+    },
+    {
+      "question": "До какого момента можно подать иск?",
+      "answer": "Три года с момента, когда вы узнали о повреждениях и установили виновника. Обычно это день залива. Свидетели забывают детали, фотографии сложнее привязать к конкретному событию - не затягивайте."
+    },
+    {
+      "question": "Обязательна ли досудебная претензия к соседу перед обращением в суд?",
+      "answer": "Нет. Иск можно подать напрямую. Хотя досудебная претензия нередко решает дело без разбирательства: виновник взвешивает судебные издержки и идёт на мировую."
+    },
+    {
+      "question": "Распространяется ли штраф 50% по Закону о ЗПП на иск к соседу?",
+      "answer": "Нет. Потребительский штраф - только против исполнителей услуг: управляющих компаний, подрядчиков, ТСЖ. К соседу этот закон не применяется: с него получают реальный ущерб, издержки на экспертизу и моральный вред."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все юр-утверждения сверены с research.json: ст. 1064, 15, 151, 196, 200 ГК РФ; ст. 67, 161 ЖК РФ; ПП РФ № 491 (граница - первый запорный кран); ПП РФ № 354 п. 152 (12 часов на акт); п. 6 ст. 13, п. 5 ст. 28 Закона о ЗПП - все active.",
+    "Порог подсудности мировой/районный (50 000-100 000 руб.) - в research помечен contested:true, в тексте использована обтекаемая формулировка 'ориентировочно до 50 000-100 000 рублей' (как требует safe_phrasing f18).",
+    "Штраф 50% и неустойка 1%/день в тексте однозначно привязаны к иску к УК; явно указано, что к соседу-физлицу эти санкции неприменимы (f9).",
+    "Износ при расчёте ущерба отражён явно (f17): восстановительный ремонт с учётом износа, а не 'как новый'.",
+    "ПП РФ № 491 и № 354, Закон о ЗПП не в whitelist - упоминаются текстом без гиперссылок. Гиперссылки на consultant.ru только для ГК РФ."
+  ],
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "text_chars": 7999,
+  "length_status": "warn",
+  "length_kind": "default",
+  "local_spam_top10_share": 0.087,
+  "local_spam_ngram3_repeat": 0.024,
+  "local_lexical_diversity": 0.64,
+  "local_ai_markers_density": 0.4,
+  "local_ai_markers_total": 4,
+  "local_ai_markers_critical": 0,
+  "local_ai_markers_high": 2,
+  "local_own_voice_hits": 2,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 49,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1780229965/articles/vzyskanie-ushcherba-pri-zatoplenii-kvartiry-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1780229965/articles/vzyskanie-ushcherba-pri-zatoplenii-kvartiry-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Editorial photograph of a polished marble or weathered stone slab in the foreground holding carefully arranged business objects — a closed leather portfolio with visible stitching, a neat stack of closed white dossiers tied with cord and a small identification tag, a fountain pen aligned across the portfolio's edge, a polished round official seal resting on top, a brass key ring with 3-4 antique keys, a small white porcelain cup. Soft architectural background: blurred marble columns and distant limestone arch out of focus. Camera: tabletop level at slight three-quarter angle emphasizing the arrangement. Lighting: natural soft daylight grazing the stone surface, revealing every vein and texture. Palette: warm cream stone, cool grey shadow, brass highlights. Mood: meticulous documentation of damage and claims.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-05-31T12:19:25Z",
+  "date_published": "2026-05-31",
+  "date_modified": "2026-05-31",
+  "ready_for_review": true,
+  "ready_at": "2026-05-31T12:19:25Z",
+  "publication_target": "telegram_review"
+}
