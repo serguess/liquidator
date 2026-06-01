@@ -1,0 +1,111 @@
+{
+  "slug": "neustoyka-v-reestre-trebovanij-bankrotstvo-fizlica",
+  "category": "fiz",
+  "title": "Неустойка в реестре кредиторов при банкротстве физлица",
+  "description": "Как неустойка учитывается в реестре требований при банкротстве физлица: очерёдность, залоговые санкции, мораторные проценты, что спишут по итогу.",
+  "h1": "Неустойка при банкротстве физлица: попадёт ли в реестр и спишут ли её",
+  "lead": "Пени копятся быстро - через год просрочки штрафная сумма часто превышает само тело займа. Разбираем, попадёт ли неустойка в реестр, когда счётчик останавливается и что в итоге спишет суд.",
+  "topic_action": "проверку списания долгов",
+  "breadcrumb_current": "Неустойка в реестре при банкротстве физлица",
+  "og_image": "/assets/articles/neustoyka-v-reestre-trebovanij-bankrotstvo-fizlica.jpg",
+  "main_keyword": "неустойка в реестре требований кредиторов при банкротстве",
+  "secondary_keywords": [
+    "неустойка при банкротстве физлица",
+    "неустойка за реестром банкротство",
+    "статья 137 закона о банкротстве неустойка",
+    "неустойка по кредиту при банкротстве",
+    "неустойка по ипотеке при банкротстве",
+    "как включить неустойку в реестр кредиторов",
+    "спишут ли неустойку при банкротстве",
+    "мораторные проценты вместо неустойки"
+  ],
+  "internal_links": [
+    "/articles/fiz/restrukturizaciya-ili-realizaciya-vybor",
+    "/articles/fiz/bankrotstvo-pri-ipoteke-edinstvennoe-zhilye",
+    "/articles/fiz/kogda-dolgi-ne-spishut-pri-bankrotstve",
+    "/articles/fiz/nedobrosovestnost-dolzhnika-otkaz-v-spisanii"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/",
+    "https://www.consultant.ru/document/cons_doc_LAW_5142/"
+  ],
+  "faq": [
+    {
+      "question": "Можно ли уменьшить уже включённую в реестр неустойку?",
+      "answer": "Да. Гражданин или арбитражный управляющий вправе ходатайствовать о снижении по статье 333 гражданского кодекса - при явной несоразмерности санкции последствиям нарушения. По потребительским займам суд вправе снизить по своей инициативе. По коммерческим обязательствам - только по ходатайству."
+    },
+    {
+      "question": "Что происходит с санкционным требованием, если взыскатель пропустил двухмесячный срок?",
+      "answer": "Становится зареестровым. Погашается только из остатка после закрытия всех реестровых сумм. При несостоятельности граждан до зареестровых взыскателей деньги практически не доходят. По завершении дела такая пеня списывается вместе с остальными."
+    },
+    {
+      "question": "Чем мораторные проценты отличаются от договорной пени - и выгодны ли они заёмщику?",
+      "answer": "Мораторные проценты начисляются в период реструктуризации вместо договорных санкций - по ставке рефинансирования Центрального банка (статья 213.19 закона о банкротстве). Договорная пеня по банковским продуктам кратно выше. Замена выгодна: нарастает меньше. При переходе к реализации мораторные проценты тоже прекращаются."
+    },
+    {
+      "question": "Получит ли банк деньги по ипотечной пене, если квартира продана ниже суммы займа?",
+      "answer": "Нет. При продаже залога ниже тела кредита банк не покрывает даже основное обязательство. Неустойка переходит в незалоговую часть второго раздела и списывается по итогам дела."
+    },
+    {
+      "question": "Списывается ли неустойка по алиментам вместе с основным обязательством?",
+      "answer": "Нет. Алименты - несписываемая категория. Штраф по ним сохраняется после завершения дела о несостоятельности гражданина."
+    }
+  ],
+  "keyword_density_main": 0.0,
+  "main_keyword_exact_count": 0,
+  "text_chars": 6974,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "All material legal claims verified against research.json facts (f1-f14).",
+    "п. 3 ст. 137 127-ФЗ - санкционный раздел третьей очереди: f1.",
+    "ст. 213.11 - прекращение начисления неустойки при реструктуризации: f2.",
+    "ст. 213.19 - мораторные проценты в реструктуризации: f4.",
+    "ст. 213.27 п. 5 - ипотека 80/15/5: f5.",
+    "ст. 213.27 п. 4 - залог иного имущества 70/20/10: f6.",
+    "Двухмесячный срок включения в реестр: f8.",
+    "ст. 213.28 - освобождение от обязательств: f9.",
+    "Несписываемые категории: f10.",
+    "Недобросовестность и отказ в освобождении: f11.",
+    "ст. 333 ГК РФ - снижение неустойки: f13.",
+    "Практика ВС РФ по ипотечной неустойке упомянута обобщённо (без конкретных реквизитов), что соответствует review_notes из f14.",
+    "Все законодательные нормы last_verified 2026-06-01, legislation_status active.",
+    "Прямых цитат закона в blockquote нет; объём цитирования значительно ниже лимита 600 знаков."
+  ],
+  "length_status": "ok",
+  "length_kind": "default",
+  "local_spam_top10_share": 0.11,
+  "local_spam_ngram3_repeat": 0.03,
+  "local_lexical_diversity": 0.516,
+  "local_ai_markers_density": 0.22,
+  "local_ai_markers_total": 2,
+  "local_ai_markers_critical": 0,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 3,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 4,
+  "predicted_spam_pct": 58,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность заметно выше 50% (~58%)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "spam_risk: 1 флагов (lexical_diversity<0.58 (=0.516)), top-5: ['банк', 'штраф', 'сумм', 'займ', 'надбавк']"
+  ],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1780302007/articles/neustoyka-v-reestre-trebovanij-bankrotstvo-fizlica-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1780302007/articles/neustoyka-v-reestre-trebovanij-bankrotstvo-fizlica-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Photograph of a contemporary conference room with natural materials — light oak table, raw concrete accents, linen chairs, large windows overlooking cityscape. On the walnut-grain table: a sleek closed laptop, a leather-bound notebook with a fountain pen resting across its cover, a polished brass company seal, a smartphone face-down, a white ceramic water bottle. Background: floor-to-ceiling windows framing a modern city panorama in cool daylight. Camera: three-quarter angle, eye-level, shallow depth of field. Lighting: bright cool daylight with warm natural-material texture accents. Mood: contemporary professional calculation, precision in procedure, systematic accounting of requirements.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-06-01T08:20:08Z",
+  "date_published": "2026-06-01",
+  "date_modified": "2026-06-01",
+  "ready_for_review": true,
+  "ready_at": "2026-06-01T08:20:08Z",
+  "publication_target": "telegram_review"
+}

@@ -2423,6 +2423,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "neustoyka-v-reestre-trebovanij-bankrotstvo-fizlica",
+      "category": "fiz",
+      "title": "Неустойка в реестре кредиторов при банкротстве физлица",
+      "added_at": "2026-06-01T11:20:08.184291",
+      "char_count": 6974,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1780302007/articles/neustoyka-v-reestre-trebovanij-bankrotstvo-fizlica-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
