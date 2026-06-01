@@ -4798,6 +4798,26 @@
       "articles": [
         "franshiza-pri-bankrotstve-prava-storon"
       ]
+    },
+    {
+      "id": "vzysk-obrashchenie-vzyskaniya-na-dolyu-ooo",
+      "category": "vzysk",
+      "subtopic": "обращение взыскания на долю участника в уставном капитале ООО",
+      "intent": "informational",
+      "funnel_stage": "warm",
+      "main_keyword": "обращение взыскания на долю в ООО",
+      "related_keywords": [
+        "взыскание на долю участника ООО",
+        "права кредитора на долю в ООО",
+        "взыскание долга через долю в уставном капитале",
+        "продажа доли ООО на торгах",
+        "действительная стоимость доли при взыскании",
+        "статья 25 закон об ООО взыскание",
+        "выкуп доли ООО при взыскании другими участниками"
+      ],
+      "articles": [
+        "vzyskanie-na-dolyu-v-ooo-kreditora"
+      ]
     }
   ]
 }

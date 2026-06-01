@@ -11034,5 +11034,60 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-06-01T07:36:20",
+    "category": "yur",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 6,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "yur-75",
+    "topic_slug": "franshiza-pri-bankrotstve-prava-storon",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "Автофикс применил правки: сокращения=2, пунктуация=0",
+        "length_soft_passed: 8045 > 8000 но ≤ 8500 и iteration=5 — пропускаем (приоритет spam/uniqueness/ai)"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "franshiza-pri-bankrotstve-prava-storon",
+    "duration_sec": 1986.0,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "|\n| **AI-маркеры** | 0 critical, 1 high (\"самая надёжная\" — в boilerplate) |\n| **Spam top10_share** | 0.103 (норма) |\n| **textru_ai_detector** | н/д (local_only режим) |\n| **textru_uniqueness** | н/д |\n| **textru_spam** | н/д |\n| **Обложка** | сгенерирована ✓ (template_id=10) |\n| **Готовность** | ready_for_review=true, в очереди TG (#185) |\n| **Файл** | `drafts/franshiza-pri-bankrotstve-prava-storon/article.html` |\n\nСтатья добавлена в очередь на ревью. Публикация — через Telegram-бот заказчиком.",
+    "stderr_tail": "",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 8045
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]

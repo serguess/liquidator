@@ -2410,6 +2410,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "vzyskanie-na-dolyu-v-ooo-kreditora",
+      "category": "vzysk",
+      "title": "Взыскание на долю в ООО: права кредитора",
+      "added_at": "2026-06-01T10:40:34.727522",
+      "char_count": 7489,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1780299633/articles/vzyskanie-na-dolyu-v-ooo-kreditora-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

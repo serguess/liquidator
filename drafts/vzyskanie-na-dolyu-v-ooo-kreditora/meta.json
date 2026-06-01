@@ -1,0 +1,109 @@
+{
+  "slug": "vzyskanie-na-dolyu-v-ooo-kreditora",
+  "category": "vzysk",
+  "title": "Взыскание на долю в ООО: права кредитора",
+  "description": "Кредитор вправе обратить взыскание на долю участника ООО через суд по ст. 25 ФЗ об ООО. Разбираем порядок, сроки, право общества выкупить долю и продажу на торгах.",
+  "h1": "Как кредитор может обратить взыскание на долю должника в ООО",
+  "lead": "Решение суда есть, денег нет, а у должника - доля в работающем бизнесе. Закон позволяет кредитору обратить на неё взыскание - но только через суд и только при доказанной недостаточности иного имущества.",
+  "topic_action": "защиту прав кредитора при взыскании на долю в ООО",
+  "breadcrumb_current": "Взыскание на долю в ООО",
+  "og_image": "/assets/articles/vzyskanie-na-dolyu-v-ooo-kreditora.jpg",
+  "main_keyword": "обращение взыскания на долю в ООО",
+  "secondary_keywords": [
+    "взыскание на долю участника ООО",
+    "права кредитора на долю в ООО",
+    "взыскание долга через долю в уставном капитале",
+    "продажа доли ООО на торгах",
+    "действительная стоимость доли при взыскании",
+    "статья 25 закон об ООО взыскание",
+    "выкуп доли ООО при взыскании другими участниками"
+  ],
+  "internal_links": [
+    "/obrashchenie-vzyskaniya-na-zalog.html",
+    "/chto-takoe-ispolnitelnoe-proizvodstvo.html",
+    "/obespechitelnye-mery-arest-scheta.html",
+    "/bankrotstvo-fizlica-dolya-v-ooo.html"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_5142/"
+  ],
+  "faq": [
+    {
+      "question": "Можно ли обратить взыскание на долю без судебного решения?",
+      "answer": "Нет. Внесудебный порядок исключён: только через суд, только при доказанной недостаточности иного имущества. Никакой устав или соглашение обойти это не может."
+    },
+    {
+      "question": "Что происходит с бизнесом, когда долю покупает чужой человек на торгах?",
+      "answer": "Покупатель становится новым членом общества в силу закона - без согласия остальных. Преимущественное право покупки на торгах не действует: оно «использовалось» в окне выкупа по действительной стоимости. Отказались - второй шанс нормы не дают."
+    },
+    {
+      "question": "Вправе ли взыскатель сам купить долю на торгах?",
+      "answer": "Да. Кредитор как сторона производства не отстранён от торгов. Он может подать заявку и купить. А при двух несостоявшихся - просто оставить её за собой в счёт долга."
+    },
+    {
+      "question": "Какой документ подтверждает право нового владельца войти в состав общества?",
+      "answer": "Протокол результатов торгов и договор с организатором. ФНС вносит изменения в ЕГРЮЛ. Согласия прежних партнёров не требуется."
+    },
+    {
+      "question": "Обязательно ли устав разрешает самой фирме выкупить долю или достаточно желания совладельцев?",
+      "answer": "Разница принципиальная. Право совладельцев выкупить закреплено в федеральном положении - оно есть всегда. Право самой компании возникает только при прямой оговорке в уставе. Нет оговорки - организация не покупатель."
+    },
+    {
+      "question": "При каком размере долга идти за долей в бизнесе?",
+      "answer": "Жёсткого порога нет. Суд плюс производство занимают 12-18 месяцев, расходы на оценку и торги - порядка пятидесяти-ста тысяч рублей. При долге меньше полумиллиона соотношение затрат и результата часто не в пользу кредитора. При сумме от миллиона и реальном бизнесе инструмент оправдан."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "f1 п. 1 ст. 25 ФЗ-14 (судебный порядок + недостаточность иного имущества) - сверено, last_verified 2026-06-01",
+    "f5/f6 трёхмесячный срок выкупа и право самого ООО только при уставной оговорке - сверено",
+    "f7 продажа с публичных торгов через ФССП - сверено",
+    "f8 действительная стоимость по п. 2 ст. 14 ФЗ-14 - сверено",
+    "f12 двукратные несостоявшиеся торги и снижение цены - сверено",
+    "f13 оставление имущества за взыскателем по п. 12 ст. 87 ФЗ-229 - сверено",
+    "f15 преимущественное право покупки на торгах не действует - сверено",
+    "f16 исполнительский сбор 7% по ч. 3 ст. 112 ФЗ-229, минимум 1 000 руб. для гражданина, 10 000 руб. для организации - сверено"
+  ],
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "spam_risk: 1 флагов (top10_sum>80 (=82)), top-5: ['кредитор', 'прав', 'совладельц', 'есть', 'долю']",
+    "targeted_tokens_over_limit: ООО_бренд=4(>≤3)",
+    "ai_markers_critical: 1 (Длинное тире (—))"
+  ],
+  "text_chars": 7489,
+  "length_status": "ok",
+  "length_kind": "default",
+  "local_spam_top10_share": 0.111,
+  "local_spam_ngram3_repeat": 0.019,
+  "local_lexical_diversity": 0.603,
+  "local_ai_markers_density": 0.42,
+  "local_ai_markers_total": 4,
+  "local_ai_markers_critical": 1,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 3,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 3,
+  "predicted_spam_pct": 53,
+  "predicted_ai_pct": 35,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность чуть выше 50% (~53%)",
+    "AI-detector значительно выше 10% (~35%)",
+    "найдены критические маркеры ИИ-стиля: Длинное тире (—) - могут поднять AI-detector text.ru"
+  ],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1780299633/articles/vzyskanie-na-dolyu-v-ooo-kreditora-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1780299633/articles/vzyskanie-na-dolyu-v-ooo-kreditora-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Photograph through rain-streaked glass observing a contemporary financial administrative building. Foreground on the windowsill in sharp focus: a closed dark leather portfolio with brass corners, reading glasses resting atop, a white porcelain coffee cup half-full on a saucer, a fountain pen lying across a closed leather-bound notebook with blank spine, a single antique brass key on a small leather coaster. Blurred background through rain-beaded glass: glass façade of a modern building reflecting wet urban street, distant amber lampposts softly glowing through the haze. Camera: tight crop, eye-level, shallow depth of field isolating foreground objects. Lighting: cool grey overcast glow from outside window, warm amber interior desk lamp casting gentle shadows on the portfolio. Palette: cool blue-grey rain tones with warm brass and leather accents. Mood: creditor's meticulous review of enforcement documentation, urban legal gravity, contemplation before enforcement action.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-06-01T07:40:34Z",
+  "date_published": "2026-06-01",
+  "date_modified": "2026-06-01",
+  "ready_for_review": true,
+  "ready_at": "2026-06-01T07:40:34Z",
+  "publication_target": "telegram_review"
+}
