@@ -2371,6 +2371,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "reestr-dolzhnikov-fssp-kak-vyjti",
+      "category": "vzysk",
+      "title": "Реестр должников ФССП: как проверить и выйти",
+      "added_at": "2026-06-01T03:18:12.949198",
+      "char_count": 7652,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1780273091/articles/reestr-dolzhnikov-fssp-kak-vyjti-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": false,
+        "hard_failed": false
+      }
     }
   ]
 }

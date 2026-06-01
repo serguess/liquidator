@@ -1,0 +1,101 @@
+{
+  "slug": "reestr-dolzhnikov-fssp-kak-vyjti",
+  "category": "vzysk",
+  "title": "Реестр должников ФССП: как проверить и выйти",
+  "description": "Что такое банк данных исполнительных производств, как бесплатно проверить себя по фамилии и что делать, если оплаченный долг всё ещё висит на сайте приставов.",
+  "h1": "Реестр должников ФССП: как проверить себя и выйти из него",
+  "lead": "Что такое банк данных исполнительных производств, как бесплатно проверить себя по фамилии и что делать, если оплаченный долг всё ещё висит на сайте приставов.",
+  "topic_action": "закрытие исполнительного производства",
+  "offer": "snyatie-aresta",
+  "breadcrumb_current": "Реестр должников ФССП",
+  "og_image": "/assets/articles/reestr-dolzhnikov-fssp-kak-vyjti.jpg",
+  "main_keyword": "как выйти из реестра должников ФССП",
+  "secondary_keywords": [
+    "реестр должников ФССП проверить",
+    "банк данных исполнительных производств",
+    "исключение из реестра должников ФССП",
+    "удалить долг с сайта приставов",
+    "оплаченный долг висит у приставов",
+    "прекращение исполнительного производства",
+    "как убрать себя из базы ФССП",
+    "жалоба на пристава не удаляет долг"
+  ],
+  "internal_links": [
+    "/articles/vzysk/okonchanie-ip-po-state-46.html",
+    "/articles/vzysk/chto-takoe-ispolnitelnoe-proizvodstvo.html",
+    "/articles/vzysk/ispolnitelskij-sbor-kak-osporit.html"
+  ],
+  "external_links": [],
+  "faq": [
+    {
+      "question": "Можно ли удалить себя из реестра ФССП, если долг погашен напрямую взыскателю?",
+      "answer": "Самостоятельно - нет. Запись убирает только исполнитель своим постановлением. Ускорить можно: подать ходатайство о подтверждении факта исполнения с платёжным документом или справкой. Рассмотреть обязаны в течение 10 дней."
+    },
+    {
+      "question": "Через сколько дней запись исчезнет с fssp.gov.ru после оплаты?",
+      "answer": "Закон устанавливает срок для пристава: обновить данные не позднее следующего рабочего дня после постановления (третья часть статьи 6.1 закона № 229-ФЗ). Сам сайт может дополнительно отставать на несколько рабочих дней по техническим причинам. Конкретный срок гарантировать невозможно."
+    },
+    {
+      "question": "Что происходит с запретом на выезд после закрытия дела?",
+      "answer": "Снимается автоматически вместе с постановлением об окончании ИП. Пограничные базы обновятся в течение нескольких дней - с поездкой лучше не торопиться сразу после получения постановления."
+    },
+    {
+      "question": "Обязательно ли платить исполнительский сбор, если долг уже погашен?",
+      "answer": "Да, если сбор был начислен. Нижний порог для граждан - одна тысяча рублей, стандартная ставка 7%. Пока он не уплачен, дело остаётся открытым. Сбор можно оспорить в суде или попросить снизить его размер."
+    },
+    {
+      "question": "Чем окончание производства отличается от его прекращения?",
+      "answer": "Окончание (статья 47 закона № 229-ФЗ) - нормальное завершение: сумма уплачена или взыскание невозможно. Прекращение (статья 43) - аннулирование по исключительным основаниям: смерть взыскателя без правопреемника, отмена судебного акта. При погашении задолженности речь идёт именно об окончании."
+    },
+    {
+      "question": "Что делать, если у меня несколько записей в реестре одновременно?",
+      "answer": "Каждое дело закрывается отдельным постановлением. Уплатите и основную сумму, и сбор по каждому. Начните с того, по которому стоит запрет выезда - его закрытие даст немедленный практический результат."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все юр-факты подтверждены research.json (f1-f15), last_verified 2026-06-01, legislation_status active.",
+    "Цифры: 7% и 1000 руб. (ст. 112), 10 дней на рассмотрение (ст. 64.1), 10 дней на обжалование (ч. 3 ст. 122), 6 месяцев на повторное предъявление ИД (ч. 5 ст. 46) - сверены с research.",
+    "Пороги запрета выезда (10/30 тыс. руб.) сознательно не упомянуты в теле - research указывает в fact_gaps на риск устаревания. Использованы обтекаемые формулировки.",
+    "Срок 3 рабочих дня для вынесения постановления приставом не упомянут - в research fact_gap, заменён на обтекаемое 'может пройти время'.",
+    "Внутренние ссылки сверены с published_index.json: все три slug существуют."
+  ],
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "text_chars": 7652,
+  "length_status": "warn",
+  "length_kind": "default",
+  "local_spam_top10_share": 0.139,
+  "local_spam_ngram3_repeat": 0.047,
+  "local_lexical_diversity": 0.552,
+  "local_ai_markers_density": 0.21,
+  "local_ai_markers_total": 2,
+  "local_ai_markers_critical": 0,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 4,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 62,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность заметно выше 50% (~62%)"
+  ],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1780273091/articles/reestr-dolzhnikov-fssp-kak-vyjti-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1780273091/articles/reestr-dolzhnikov-fssp-kak-vyjti-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Minimalist top-down flat-lay on a pale neutral surface. Sparse editorial arrangement with deliberate negative space: a polished round brass seal representing official authority, a smartphone face-down positioned off-center symbolizing online registry access and verification, a single brass key on a leather-bound ring suggesting unlock from the registry, a fountain pen aligned across a closed leather portfolio representing formal petition documents, one closed law book with embossed spine. Soft even daylight casting subtle directional shadows. Palette: pale neutral background with warm brass accents and dark leather tones. Clean contemporary legal-magazine aesthetic suggesting clarity, procedure, administrative control.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-06-01T00:18:12Z",
+  "date_published": "2026-06-01",
+  "date_modified": "2026-06-01",
+  "ready_for_review": true,
+  "ready_at": "2026-06-01T00:18:12Z",
+  "publication_target": "telegram_review",
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "spam_risk: 6 флагов (top1_count>12 (=16, лемма «стать»), top3_sum>30 (=40), top10_sum>80 (=101), top10_share>0.115 (=0.139), ngram3_repeat_share>0.035 (=0.047), lexical_diversity<0.58 (=0.552)), top-5: ['стать', 'закон', 'запи', 'постановлен', 'окончан']"
+  ]
+}

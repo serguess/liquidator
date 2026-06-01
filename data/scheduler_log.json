@@ -10868,5 +10868,60 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-06-01T00:24:37",
+    "category": "yur",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 3,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "yur-74",
+    "topic_slug": "bankrotstvo-turoperatora-prava-agentov",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "Автофикс применил правки: сокращения=0, пунктуация=0",
+        "spam_soft_passed: ratio-флаги мягкие при iter=4, targeted_tokens чистые → пропускаем (spam ≈48-52% по прогнозу)"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "bankrotstvo-turoperatora-prava-agentov",
+    "duration_sec": 3006.3,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "d=true |\n| Обложка | готова (template_id=17, Cloudinary) |\n| Режим публикации | telegram_review (ready_for_review=true) |\n| Готовый файл | `drafts/bankrotstvo-turoperatora-prava-agentov/article.html` |\n\n**Метрики text.ru:** проверка через text.ru ещё не проходила (textru_ai_detector / textru_uniqueness / textru_spam = null — появятся после ручной проверки).\n\n**Предупреждения quality_gate:** мягкий ngram3 (0.037 при пороге 0.035) — пропущен, т.к. targeted_tokens чистые, iter=3 → spam_soft_passed.",
+    "stderr_tail": "",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7872
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]
