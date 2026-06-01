@@ -2384,6 +2384,19 @@
         "passed": false,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "bankrotstvo-pri-dolge-u-kollektorov",
+      "category": "fiz",
+      "title": "Банкротство при долге у коллекторов: права должника",
+      "added_at": "2026-06-01T06:21:44.233502",
+      "char_count": 7051,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1780284103/articles/bankrotstvo-pri-dolge-u-kollektorov-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

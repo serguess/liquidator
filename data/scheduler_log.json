@@ -10923,5 +10923,62 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-06-01T02:48:15",
+    "category": "vzysk",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 4,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "vzysk-67",
+    "topic_slug": "reestr-dolzhnikov-fssp-kak-vyjti",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "internal_links_autofixed: 3 ссылок (например /articles/vzysk/okonchanie-ip-po-state-46.html→/articles/vzysk/okonchanie-ip-po-state-46; /articles/vzysk/chto-takoe-ispolnitelnoe-proizvodstvo.html→/articles/vzysk/chto-takoe-ispolnitelnoe-proizvodstvo; /articles/vzysk/ispolnitelskij-sbor-kak-osporit.html→/articles/vzysk/ispolnitelskij-sbor-kak-osporit)",
+        "forced_pass_at_iter2: блокеры пропущены, статья идёт в TG-очередь с metrics_warning=true. Было: 1 блокеров — spam_risk"
+      ],
+      "recommendations": [
+        "reduce_repetition: разбавить топ-5 частотных лемм местоимениями/перифразом — ['стать', 'закон', 'запи', 'постановлен', 'окончан']"
+      ],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "reestr-dolzhnikov-fssp-kak-vyjti",
+    "duration_sec": 1816.0,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "очередь (183 items) |\n| Файл | `drafts/reestr-dolzhnikov-fssp-kak-vyjti/article.html` |\n\n**textru_ai_detector / textru_uniqueness / textru_spam** — метрики text.ru появятся после публикации (в meta.json пока `null`).\n\n**Замечание:** quality_gate зафиксировал `spam_risk` (predicted spam ~62%), главным образом из-за леммы «стать» (16 вхождений) и «закон» (13). Тема по природе требует этих слов (законодательство об исполнительном производстве), gate вернул exit=0 (не жёсткий блокер), статья прошла.",
+    "stderr_tail": "",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7652
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]
