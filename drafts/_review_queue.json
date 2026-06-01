@@ -2397,6 +2397,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "franshiza-pri-bankrotstve-prava-storon",
+      "category": "yur",
+      "title": "Франшиза при банкротстве: права сторон",
+      "added_at": "2026-06-01T08:09:09.318173",
+      "char_count": 8045,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1780290548/articles/franshiza-pri-bankrotstve-prava-storon-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

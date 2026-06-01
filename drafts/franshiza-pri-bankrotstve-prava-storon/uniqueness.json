@@ -1,0 +1,21 @@
+{
+  "slug": "franshiza-pri-bankrotstve-prava-storon",
+  "passed": true,
+  "scores": {
+    "structure_overlap": 0.0,
+    "thesis_similarity": 0.085,
+    "cta_overlap": 0.14
+  },
+  "thresholds": {
+    "structure_overlap": 0.4,
+    "thesis_similarity": 0.3,
+    "cta_overlap": 0.2
+  },
+  "similar_articles": [],
+  "conflicts": [],
+  "recommendation": "ok",
+  "peers_compared": 47,
+  "closest_peer": "avtomobil-pri-bankrotstve-fizlica",
+  "stored_in_db": true,
+  "note": "Эмбеддинг статьи записан в data/embeddings.sqlite с флагом published=0. Флаг переключится на 1 при реальной публикации через бот."
+}

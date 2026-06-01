@@ -10980,5 +10980,59 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-06-01T05:12:19",
+    "category": "fiz",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 5,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "fiz-82",
+    "topic_slug": "bankrotstvo-pri-dolge-u-kollektorov",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "internal_links_autofixed: 4 ссылок (например /articles/fiz/pristavy-i-bankrotstvo-fizlica.html→/articles/fiz/pristavy-i-bankrotstvo-fizlica; /articles/fiz/bankrotstvo-po-zayavleniyu-kreditora-fizlica.html→/articles/fiz/bankrotstvo-po-zayavleniyu-kreditora-fizlica; /articles/fiz/bankrotstvo-s-kreditami-neskolkikh-bankov.html→/articles/fiz/bankrotstvo-s-kreditami-neskolkikh-bankov)"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "bankrotstvo-pri-dolge-u-kollektorov",
+    "duration_sec": 4175.7,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "| passed (итерация 2 исправила CTA-overlap) |\n| Factcheck | passed |\n| Обложка | сгенерирована (template 22), загружена на Cloudinary |\n| Статус | `ready_for_review=true`, добавлена в очередь TG-ревью |\n| Файл | `drafts/bankrotstvo-pri-dolge-u-kollektorov/article.html` |\n\n**Метрики text.ru (предсказанные quality_gate):**\n\n| Метрика | Значение |\n|---|---|\n| `textru_ai_detector` | ~3% |\n| `textru_uniqueness` | ~87% |\n| `textru_spam` | ~49% |\n\nСтатья ожидает публикации через Telegram-бот заказчика.",
+    "stderr_tail": "",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7051
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]
