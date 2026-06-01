@@ -2304,7 +2304,11 @@
       "frequency_estimate": "medium",
       "rationale": "Реализация имущества нередко затягивается на 2–3 года вместо 6 месяцев — болевая точка должников. fiz-18 (сроки банкротства) даёт общие цифры, но не объясняет механизм продления и права должника при затяжной процедуре.",
       "expected_length_chars": 7000,
-      "topic_action": "ускорение процедуры банкротства физлица"
+      "topic_action": "ускорение процедуры банкротства физлица",
+      "status": "rejected",
+      "rejected_at": "2026-06-01T10:53:04",
+      "rejected_reason": "cannibalization:preflight:cluster:fiz-realizaciya-imushchestva-bankrotstvo",
+      "rejected_by": "auto_skip_in_slot"
     },
     {
       "id": "fiz-84",
