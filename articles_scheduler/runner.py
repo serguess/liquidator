@@ -1854,32 +1854,35 @@ def _inject_stream_json_flags(cmd: list[str]) -> list[str]:
     return out
 
 
-def _parse_stream_json_line(line: str) -> tuple[str, str]:
+def _parse_stream_json_line(line: str) -> tuple[str, str, dict]:
     """
     Разбирает одну строку stream-json от claude --print.
 
-    Возвращает (kind, text):
+    Возвращает (kind, text, extra):
     - kind ∈ {"result", "assistant_text", "tool_use", "tool_result", "system", "other", "raw"}
     - text — человеко-читаемая выжимка (для финального stdout / логов).
+    - extra — dict с дополнительными данными (model, usage). Пустой для не-assistant
+      событий. Для assistant: {"model": "claude-opus-...", "usage": {"input_tokens": N,
+      "output_tokens": N, "cache_creation_input_tokens": N, "cache_read_input_tokens": N}}.
 
-    Незнакомые/невалидные JSON-строки возвращаются как ("raw", line).
+    Незнакомые/невалидные JSON-строки возвращаются как ("raw", line, {}).
     """
     stripped = line.strip()
     if not stripped:
-        return ("other", "")
+        return ("other", "", {})
     if not (stripped.startswith("{") or stripped.startswith("[")):
-        return ("raw", line)
+        return ("raw", line, {})
     try:
         ev = json.loads(stripped)
     except (json.JSONDecodeError, ValueError):
-        return ("raw", line)
+        return ("raw", line, {})
     if not isinstance(ev, dict):
-        return ("other", "")
+        return ("other", "", {})
     et = ev.get("type")
     if et == "result":
         # Финальный текст всего запуска — самое важное для stdout_tail.
         final = ev.get("result")
-        return ("result", str(final or ""))
+        return ("result", str(final or ""), {})
     if et == "assistant":
         msg = ev.get("message") or {}
         parts: list[str] = []
@@ -1892,7 +1895,15 @@ def _parse_stream_json_line(line: str) -> tuple[str, str]:
                 elif c.get("type") == "tool_use":
                     name = c.get("name") or "?"
                     parts.append(f"[tool_use:{name}]")
-        return ("assistant_text", "\n".join(parts))
+        # Извлекаем usage и model для подсчёта токенов (28 мая 2026)
+        extra = {}
+        model = msg.get("model")
+        usage = msg.get("usage")
+        if model:
+            extra["model"] = model
+        if isinstance(usage, dict):
+            extra["usage"] = usage
+        return ("assistant_text", "\n".join(parts), extra)
     if et == "user":
         msg = ev.get("message") or {}
         for c in (msg.get("content") or []):
@@ -1904,13 +1915,13 @@ def _parse_stream_json_line(line: str) -> tuple[str, str]:
                         if isinstance(cc, dict) and cc.get("type") == "text":
                             t = cc.get("text") or ""
                             if t:
-                                return ("tool_result", t[:200])
+                                return ("tool_result", t[:200], {})
                 elif isinstance(content, str):
-                    return ("tool_result", content[:200])
-        return ("tool_result", "")
+                    return ("tool_result", content[:200], {})
+        return ("tool_result", "", {})
     if et == "system":
-        return ("system", ev.get("subtype") or "")
-    return ("other", "")
+        return ("system", ev.get("subtype") or "", {})
+    return ("other", "", {})
 
 
 def _run_claude_with_heartbeat(cmd: list[str], timeout_sec: int | None = None):
@@ -1967,6 +1978,36 @@ def _run_claude_with_heartbeat(cmd: list[str], timeout_sec: int | None = None):
     final_result_text = [""]  # из последнего "result"-event (берём именно его как stdout)
     stderr_buf: list[str] = []
     stream_stats = {"events": 0, "assistant": 0, "tool_use": 0, "tool_result": 0, "raw": 0}
+    # Token tracking per model (28 мая 2026). claude CLI отдаёт usage в каждом
+    # assistant-event. Аккумулируем по моделям → видим сколько съел opus vs sonnet.
+    tokens_by_model: dict[str, dict[str, int]] = {}
+
+    def _accumulate_usage(model: str, usage: dict) -> None:
+        """Прибавляет usage из одного assistant-event в tokens_by_model[model]."""
+        if not model:
+            model = "unknown"
+        # Нормализуем длинные id моделей в короткие имена: opus, sonnet, haiku
+        m_lower = model.lower()
+        if "opus" in m_lower:
+            short = "opus"
+        elif "sonnet" in m_lower:
+            short = "sonnet"
+        elif "haiku" in m_lower:
+            short = "haiku"
+        else:
+            short = model[:20]  # fallback - полное имя
+        bucket = tokens_by_model.setdefault(short, {
+            "input_tokens": 0,
+            "output_tokens": 0,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "messages": 0,
+        })
+        bucket["input_tokens"] += int(usage.get("input_tokens") or 0)
+        bucket["output_tokens"] += int(usage.get("output_tokens") or 0)
+        bucket["cache_creation_input_tokens"] += int(usage.get("cache_creation_input_tokens") or 0)
+        bucket["cache_read_input_tokens"] += int(usage.get("cache_read_input_tokens") or 0)
+        bucket["messages"] += 1
 
     def _drain_stdout(stream):
         try:
@@ -1978,13 +2019,16 @@ def _run_claude_with_heartbeat(cmd: list[str], timeout_sec: int | None = None):
                 except OSError:
                     pass
                 stream_stats["events"] += 1
-                kind, text = _parse_stream_json_line(line)
+                kind, text, extra = _parse_stream_json_line(line)
                 if kind == "result":
                     final_result_text[0] = text
                 elif kind == "assistant_text":
                     stream_stats["assistant"] += 1
                     if text:
                         text_buf.append(text)
+                    # Аккумулируем токены если есть usage в extra
+                    if extra.get("usage"):
+                        _accumulate_usage(extra.get("model") or "", extra["usage"])
                 elif kind == "tool_use":
                     stream_stats["tool_use"] += 1
                 elif kind == "tool_result":
@@ -2065,6 +2109,7 @@ def _run_claude_with_heartbeat(cmd: list[str], timeout_sec: int | None = None):
     r.stdout = stdout
     r.stderr = stderr
     r.stream_stats = dict(stream_stats)
+    r.tokens_by_model = dict(tokens_by_model)
     if heartbeat_killed:
         r.returncode = -1
         r.stderr += (
@@ -2656,6 +2701,42 @@ def run_one_article() -> dict:
                     log.exception("finalize_draft (safety net) упал для slug=%s", slug)
                     entry["finalize_safety_net"] = {"ran": True, "error": True}
 
+        # Token tracking (28 мая 2026): извлекаем из stream-json claude-subprocess
+        tokens_by_model = getattr(result, "tokens_by_model", {}) or {}
+        # Сохраняем в meta.json если слот успешный и slug известен
+        if ok and slug and tokens_by_model:
+            try:
+                meta_path = DRAFTS_DIR / slug / "meta.json"
+                if meta_path.exists():
+                    meta_data = json.loads(meta_path.read_text(encoding="utf-8"))
+                    meta_data["tokens_by_model"] = tokens_by_model
+                    # Суммарные числа для удобства
+                    total_in = sum(m.get("input_tokens", 0) for m in tokens_by_model.values())
+                    total_out = sum(m.get("output_tokens", 0) for m in tokens_by_model.values())
+                    total_cache_read = sum(m.get("cache_read_input_tokens", 0) for m in tokens_by_model.values())
+                    total_cache_write = sum(m.get("cache_creation_input_tokens", 0) for m in tokens_by_model.values())
+                    meta_data["tokens_total"] = {
+                        "input": total_in,
+                        "output": total_out,
+                        "cache_read": total_cache_read,
+                        "cache_creation": total_cache_write,
+                        "total": total_in + total_out + total_cache_write,  # cache_read не считается в лимит
+                    }
+                    meta_path.write_text(
+                        json.dumps(meta_data, ensure_ascii=False, indent=2),
+                        encoding="utf-8",
+                    )
+                    log.info(
+                        "Tokens slug=%s: opus=%s sonnet=%s haiku=%s total_billable=%d",
+                        slug,
+                        tokens_by_model.get("opus", {}).get("input_tokens", 0),
+                        tokens_by_model.get("sonnet", {}).get("input_tokens", 0),
+                        tokens_by_model.get("haiku", {}).get("input_tokens", 0),
+                        total_in + total_out + total_cache_write,
+                    )
+            except Exception:
+                log.exception("Не смог записать tokens_by_model в meta.json для slug=%s", slug)
+
         if ok and slug and not gate_passed:
             entry.update({
                 "status": "failed_qa",
@@ -2665,6 +2746,7 @@ def run_one_article() -> dict:
                 "rescued_after_failure": rescued_after_failure,
                 "stdout_tail": (result.stdout or "")[-500:],
                 "stderr_tail": (result.stderr or "")[-500:],
+                "tokens_by_model": tokens_by_model,
                 "metrics": {
                     "ai_detector": meta.get("textru_ai_detector"),
                     "uniqueness": meta.get("textru_uniqueness"),
@@ -2681,6 +2763,7 @@ def run_one_article() -> dict:
                 "rescued_after_failure": rescued_after_failure,
                 "stdout_tail": (result.stdout or "")[-500:],
                 "stderr_tail": (result.stderr or "")[-500:],
+                "tokens_by_model": tokens_by_model,
                 "metrics": {
                     "ai_detector": meta.get("textru_ai_detector"),
                     "uniqueness": meta.get("textru_uniqueness"),
