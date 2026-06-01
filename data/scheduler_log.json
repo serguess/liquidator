@@ -11367,5 +11367,82 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-06-01T17:12:05",
+    "category": "news",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 2,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "news-36",
+    "topic_slug": "bankrotstvo-grazhdan-rost-rekord-kvartalnye-dannye",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "length_soft_passed: 7074 > 6800 но ≤ 7500 и iteration=2 — пропускаем (приоритет spam/uniqueness/ai)"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "bankrotstvo-grazhdan-rost-rekord-kvartalnye-dannye",
+    "duration_sec": 1631.0,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "ов верифицированы)\n- **Шаблон обложки:** template_id=6 (офис на верхнем этаже с видом на город)\n- **Обложка:** сгенерирована и загружена на Cloudinary\n- **Статус:** `ready_for_review: true`, добавлена в очередь ревью (всего 190 записей)\n- **Файл:** `drafts/bankrotstvo-grazhdan-rost-rekord-kvartalnye-dannye/article.html`\n- **metrics_warning:** нет\n\n**Метрики text.ru:** `textru_ai_detector`, `textru_uniqueness`, `textru_spam` — не заполнены (проверка text.ru запускается отдельно после публикации).",
+    "stderr_tail": "",
+    "tokens_by_model": {
+      "sonnet": {
+        "input_tokens": 3918,
+        "output_tokens": 1841,
+        "cache_creation_input_tokens": 506412,
+        "cache_read_input_tokens": 3214780,
+        "messages": 100
+      },
+      "haiku": {
+        "input_tokens": 63,
+        "output_tokens": 38,
+        "cache_creation_input_tokens": 71540,
+        "cache_read_input_tokens": 168285,
+        "messages": 15
+      },
+      "opus": {
+        "input_tokens": 23,
+        "output_tokens": 547,
+        "cache_creation_input_tokens": 58806,
+        "cache_read_input_tokens": 612162,
+        "messages": 18
+      }
+    },
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7074
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]
