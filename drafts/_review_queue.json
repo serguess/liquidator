@@ -2501,6 +2501,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "vzyskanie-dolga-s-direktora-posle-likvidacii-ooo",
+      "category": "vzysk",
+      "title": "Иск к директору ООО после исключения из ЕГРЮЛ",
+      "added_at": "2026-06-02T01:09:43.042328",
+      "char_count": 8497,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1780351782/articles/vzyskanie-dolga-s-direktora-posle-likvidacii-ooo-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

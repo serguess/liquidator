@@ -1,0 +1,28 @@
+{
+  "slug": "vzyskanie-dolga-s-direktora-posle-likvidacii-ooo",
+  "passed": false,
+  "scores": {
+    "structure_overlap": 0.0,
+    "thesis_similarity": 0.205,
+    "cta_overlap": 0.298
+  },
+  "similar_articles": [
+    {
+      "slug": "vzyskanie-dolga-po-dogovoru-arendy",
+      "category": "vzysk",
+      "similarity": 0.29
+    }
+  ],
+  "conflicts": [
+    "cta_overlap: 0.298 (threshold: 0.2) — финальный посыл о роли юриста совпадает по смыслу с похожей статьей"
+  ],
+  "recommendation": "rewrite_with_angle:case-reader",
+  "notes": {
+    "reason": "CTA-формулировки превышают допуск на 0.098 пункта. Текущая версия использует 'сухой разбор' в финальном блоке. Рекомендуется переписать раздел 'Когда действовать и что даёт юрист' с переходом на 'кейс читателя' — опишите конкретный сценарий кредитора из реальной жизни вместо технического перечисления действий юриста.",
+    "closest_peer": "vzyskanie-dolga-po-dogovoru-arendy",
+    "peers_compared": 49,
+    "structure_unique": true,
+    "thesis_mostly_unique": true,
+    "cta_needs_rewrite": true
+  }
+}

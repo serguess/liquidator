@@ -1,0 +1,148 @@
+{
+  "slug": "vzyskanie-dolga-s-direktora-posle-likvidacii-ooo",
+  "category": "vzysk",
+  "title": "Иск к директору ООО после исключения из ЕГРЮЛ",
+  "description": "Что делать кредитору, если ООО ликвидировано, а долг остался: иск к директору по ст. 3.1 ФЗ-14, доказательная база, подсудность и сроки.",
+  "h1": "Как взыскать долг с директора, если ООО уже исключено из ЕГРЮЛ",
+  "lead": "Компания исчезла из реестра по решению налоговой, долг остался - закон позволяет переложить ответственность на бывшего руководителя лично, если доказана его недобросовестность.",
+  "topic_action": "взыскание долга с директора закрытого ООО",
+  "offer": "snyatie-aresta",
+  "breadcrumb_current": "Иск к директору после исключения из ЕГРЮЛ",
+  "og_image": "/assets/articles/vzyskanie-dolga-s-direktora-posle-likvidacii-ooo.jpg",
+  "main_keyword": "иск к директору ООО после исключения из ЕГРЮЛ",
+  "secondary_keywords": [
+    "ответственность директора по статье 3.1 закона об ООО",
+    "взыскать долг с руководителя закрытого ООО",
+    "директор отвечает за долги ООО личным имуществом",
+    "недобросовестные действия директора при ликвидации",
+    "привлечь директора к ответственности после закрытия ООО",
+    "иск к бывшему директору ликвидированного ООО",
+    "взыскание с контролирующего лица после ликвидации",
+    "статья 53.1 ГК ответственность директора"
+  ],
+  "internal_links": [
+    "/articles/vzysk/vzyskanie-dolga-s-ooo-cherez-arbitrazh.html",
+    "/articles/vzysk/dosudebnaya-pretenziya-obrazec.html",
+    "/articles/vzysk/solidarnoe-vzyskanie-dolga-s-dolzhnikov.html",
+    "/articles/vzysk/obespechitelnye-mery-arest-scheta.html"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_5142/",
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/"
+  ],
+  "faq": [
+    {
+      "question": "Можно ли привлечь директора, если компания прошла добровольную ликвидацию, а не была исключена налоговой?",
+      "answer": "Нет. Пункт 3.1 статьи 3 закона № 14-ФЗ применяется только при административном исключении. При добровольной ликвидации взыскатель должен был заявить требования в ликвидационную комиссию в установленный срок. После завершения процедуры эта возможность закрыта - предъявить претензию некому, а норма ответственности руководителя по корпоративному закону на этот случай не распространяется."
+    },
+    {
+      "question": "Что изменится, если руководителем в разное время были два разных человека?",
+      "answer": "Оба могут стать ответчиками - каждый за действия в период своих полномочий. Бремя доказывания недобросовестности оценивается отдельно для каждого. Если вина установлена у обоих - они несут солидарную ответственность по пункту 4 статьи 53.1 гражданского кодекса. Взыскатель вправе предъявить требование к любому из них в полной сумме."
+    },
+    {
+      "question": "Обязательно ли получать судебное решение против самой компании до её ухода из реестра?",
+      "answer": "Нет. Но вступивший в силу судебный акт против самой фирмы - сильнейшее подтверждение задолженности, оспорить которое в новом процессе ответчик практически не сможет. Если такого акта нет, долг подтверждается договором, актами приёмки, актом сверки, перепиской."
+    },
+    {
+      "question": "Какие личные активы директора реально забрать, а какие защищены законом?",
+      "answer": "Принудительное исполнение обращается на счета, автомобиль, загородную недвижимость, доли в других компаниях, иное ликвидное имущество. Закон защищает единственное пригодное для проживания жильё (если оно не в ипотеке), предметы обычной домашней обстановки и одежду. Всё остальное - в зоне принудительного исполнения."
+    },
+    {
+      "question": "До какого момента кредитор сохраняет право на иск: когда заканчивается трёхлетний отсчёт?",
+      "answer": "Три года текут с момента, когда взыскатель узнал об уходе фирмы из реестра. Практически - с даты соответствующей записи в ЕГРЮЛ. Прошло больше двух лет - счёт идёт на месяцы. Дату следует проверить через выписку немедленно, как только стало известно об исключении: иногда между фактическим исключением и моментом, когда кредитор об этом узнал, проходит существенное время, и это влияет на отсчёт."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все юридические утверждения сверены с research.json. last_verified=2026-06-02 (актуально), legislation_status=active для всех использованных фактов.",
+    "Основание ответственности - п. 3.1 ст. 3 ФЗ от 08.02.1998 № 14-ФЗ (f1). Норма введена ФЗ от 28.12.2016 № 488-ФЗ, действует с 28.06.2017 - указано в тексте.",
+    "Связка со ст. 53.1 ГК РФ (f2) - стандарты добросовестности и разумности; ссылка с LAW_5142 (whitelisted).",
+    "Постановление КС РФ от 21.05.2021 № 20-П (f3) - текстовое упоминание без гиперссылки (URL не в whitelist), позиция передана через safe_phrasing: не автоматическая ответственность, сдвиг бремени при пассивном поведении.",
+    "Стандарты ПП ВАС РФ от 30.07.2013 № 62 (f4) - текстовое упоминание; недобросовестность (конфликт интересов, сокрытие, сделки в ущерб, уклонение от документации) и неразумность (без анализа, игнорирование угрозы) - переданы корректно.",
+    "Подсудность - районный суд по месту жительства, Определение ВС РФ от 14.01.2020 № 5-КГ19-221 (f5).",
+    "Срок исковой давности 3 года по ст. 196 ГК РФ, с даты записи об исключении (f6).",
+    "Административное исключение по ст. 21.1 ФЗ-129 (12 месяцев без отчётности и операций по счетам) - f7. Текстовое упоминание без гиперссылки (URL не в whitelist).",
+    "Разграничение с банкротной субсидиаркой ст. 61.11 127-ФЗ (f10) - ссылка с LAW_39331 (whitelisted).",
+    "Возражение кредитора в ФНС за 3 месяца после публикации в Вестнике (f12) - корректно.",
+    "Солидарная ответственность нескольких КДЛ по п. 4 ст. 53.1 ГК (f13).",
+    "Лимит ответственности - сумма непогашенного долга (f15).",
+    "Госпошлина по ст. 333.19 НК - по действующей шкале от 0,5% до 4%, конкретных сумм не приводим (изменения шкалы 2024-2025).",
+    "f14 (тенденции 2024-2025) помечен contested - использована safe_phrasing с оборотом 'как правило' и 'суды всё чаще', без конкретных номеров дел.",
+    "Forbidden_claims из research.json соблюдены: нет утверждений об автоматической ответственности, гарантии взыскания, иске в арбитраж, неправильном сроке давности, освобождении участников, тождестве добровольной ликвидации и административного исключения.",
+    "Запрещённые блоки 'Шаги/Процесс/Шаблоны заявлений' отсутствуют.",
+    "Списки с жирным заголовком + двоеточие переписаны в нумерованный список (три условия в блоке 2) и абзацы с inline-bold (три элемента доказывания в блоке 4).",
+    "Внутренние ссылки (4) - все проверены в data/published_index.json: vzyskanie-dolga-s-ooo-cherez-arbitrazh, dosudebnaya-pretenziya-obrazec, solidarnoe-vzyskanie-dolga-s-dolzhnikov, obespechitelnye-mery-arest-scheta - все в /articles/vzysk/.",
+    "Внешние ссылки (2): consultant.ru LAW_5142 (ст. 53.1 ГК) и LAW_39331 (127-ФЗ, ст. 61.11) - оба из research.key_sources.",
+    "CTA-блоки заменены на placeholder-комментарии: BP:CTA-TOP после лида, BP:CTA-MID в середине статьи (перед блоком о круге ответчиков), BP:CTA-BOTTOM перед BP:DISCLAIMER. Шаблонизатор подставит CTA из meta.topic_action.",
+    "Density главного ключа 'иск к директору ООО после исключения из ЕГРЮЛ' - 1 точное вхождение в теле (в лиде), плюс title и h1. Это минимальное значение, остальное - через части ключа и синонимы из secondary_keywords."
+  ],
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "text_chars": 8497,
+  "length_status": "too_long",
+  "length_kind": "default",
+  "local_spam_top10_share": 0.105,
+  "local_spam_ngram3_repeat": 0.047,
+  "local_lexical_diversity": 0.617,
+  "local_ai_markers_density": 0.19,
+  "local_ai_markers_total": 2,
+  "local_ai_markers_critical": 0,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 2,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 4,
+  "predicted_spam_pct": 55,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность выше 50% (~55%)",
+    "длина больше лимита 8000 (8 497 знаков)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "spam_risk: 2 флагов (top10_sum>80 (=81), ngram3_repeat_share>0.035 (=0.047)), top-5: ['ответчик', 'взыскател', 'стать', 'закон', 'реестр']"
+  ],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1780351782/articles/vzyskanie-dolga-s-direktora-posle-likvidacii-ooo-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1780351782/articles/vzyskanie-dolga-s-direktora-posle-likvidacii-ooo-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Wide-angle photograph of a grand symmetric interior—a marble-floored courthouse central hall with strong architectural lines leading inward. Dead-center composition: a long polished walnut table holding a closed dark leather portfolio aligned with a sealed bound dossier tied in cord, a polished brass round seal positioned prominently, a brass scales of justice with empty pans set at slight angle. Background: soaring white marble columns framing tall arched windows with cool natural daylight from skylights casting soft even light across the floor. Materials: polished marble, deep walnut, burnished brass. Camera: dead-center symmetric, eye-level, slight wide-angle emphasizing architectural perspective and ceiling height. Lighting: cool institutional daylight blended with ambient shadows in recesses. Palette: cool whites, grey marble veining, brass warmth on leather. Mood: institutional accountability, formal legal process, director's personal liability before the law.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-06-01T22:09:43Z",
+  "date_published": "2026-06-02",
+  "date_modified": "2026-06-02",
+  "ready_for_review": true,
+  "ready_at": "2026-06-01T22:09:43Z",
+  "publication_target": "telegram_review",
+  "tokens_by_model": {
+    "sonnet": {
+      "input_tokens": 2422,
+      "output_tokens": 2236,
+      "cache_creation_input_tokens": 715684,
+      "cache_read_input_tokens": 6244977,
+      "messages": 153
+    },
+    "haiku": {
+      "input_tokens": 3904,
+      "output_tokens": 162,
+      "cache_creation_input_tokens": 76482,
+      "cache_read_input_tokens": 312493,
+      "messages": 19
+    },
+    "opus": {
+      "input_tokens": 50,
+      "output_tokens": 369,
+      "cache_creation_input_tokens": 183309,
+      "cache_read_input_tokens": 1692044,
+      "messages": 30
+    }
+  },
+  "tokens_total": {
+    "input": 6376,
+    "output": 2767,
+    "cache_read": 8249514,
+    "cache_creation": 975475,
+    "total": 984618
+  }
+}
