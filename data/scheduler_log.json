@@ -11149,5 +11149,69 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-06-01T10:52:58",
+    "category": "fiz",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "From https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 8,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "fiz-84",
+    "topic_slug": "neustoyka-v-reestre-trebovanij-bankrotstvo-fizlica",
+    "auto_skipped": [
+      {
+        "slug": "prodlenie-realizacii-imushchestva-fizlica",
+        "reason": "cannibalization:preflight:cluster:fiz-realizaciya-imushchestva-bankrotstvo",
+        "duration_sec": 0
+      }
+    ],
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "Автофикс применил правки: сокращения=2, пунктуация=0",
+        "forced_pass_at_iter2: блокеры пропущены, статья идёт в TG-очередь с metrics_warning=true. Было: 1 блокеров — spam_risk"
+      ],
+      "recommendations": [
+        "reduce_repetition: разбавить топ-5 частотных лемм местоимениями/перифразом — ['банк', 'штраф', 'сумм', 'займ', 'надбавк']"
+      ],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "neustoyka-v-reestre-trebovanij-bankrotstvo-fizlica",
+    "duration_sec": 1647.5,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "iversity=0.516, что ниже порога 0.58; тематически обусловлено — слова «банкротство», «неустойка», «реестр» неизбежно повторяются)\n- **Обложка:** загружена на Cloudinary\n- **Статус:** `ready_for_review=true`, добавлена в TG-очередь (187 items)\n\n**Метрики text.ru:** `textru_ai_detector` / `textru_uniqueness` / `textru_spam` — ещё не проверялись (проверка через text.ru происходит при публикации).\n\n**metrics_warning=true** — зафиксирован soft-блокер заспамленности (~58%), не критично для публикации.",
+    "stderr_tail": "",
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 6974
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]

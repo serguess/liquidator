@@ -2436,6 +2436,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "transgranichnoe-bankrotstvo-rossijskoj-kompanii",
+      "category": "yur",
+      "title": "Трансграничное банкротство компании: порядок и практика",
+      "added_at": "2026-06-01T12:58:36.889390",
+      "char_count": 7893,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1780307915/articles/transgranichnoe-bankrotstvo-rossijskoj-kompanii-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
