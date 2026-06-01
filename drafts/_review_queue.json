@@ -2462,6 +2462,19 @@
         "passed": false,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "bankrotstvo-grazhdan-rost-rekord-kvartalnye-dannye",
+      "category": "news",
+      "title": "Банкротств граждан 153,9 тыс. за квартал: данные Федресурса",
+      "added_at": "2026-06-01T17:38:56.689032",
+      "char_count": 7074,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1780324735/articles/bankrotstvo-grazhdan-rost-rekord-kvartalnye-dannye-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": false,
+        "hard_failed": false
+      }
     }
   ]
 }

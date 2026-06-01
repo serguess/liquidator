@@ -1,0 +1,26 @@
+{
+  "slug": "bankrotstvo-grazhdan-rost-rekord-kvartalnye-dannye",
+  "category": "news",
+  "passed": true,
+  "scores": {
+    "structure_overlap": 0.0,
+    "thesis_similarity": 0.051,
+    "cta_overlap": 0.067
+  },
+  "thresholds": {
+    "structure_overlap": 0.4,
+    "thesis_similarity": 0.3,
+    "cta_overlap": 0.2
+  },
+  "peers_compared": 23,
+  "closest_peer": "poruchitelstvo-direktora-za-dolgi-kompanii-bankrotstvo",
+  "similar_articles": [],
+  "conflicts": [],
+  "recommendation": "ok",
+  "notes": {
+    "structure": "Структура уникальна — ни одного совпадения заголовков H2 с опубликованными статьями. Новостной формат с цифрами (153,9 тыс., динамика роста) отличается от архивных материалов.",
+    "thesis": "Семантическая близость к ближайшим статьям <5.1% — статья оригинальна по тезисам. Источник данных (ЕФРСБ квартальный отчёт за I квартал 2026) не совпадает с прошлыми публикациями.",
+    "cta": "CTA-формулировка «проверку условий списания долгов» уникальна для этой категории. Keine дублирования финальных абзацев.",
+    "embedding": "Вектор записан в data/embeddings.sqlite с флагом published=0. После публикации флаг переключится на 1 агентом 7."
+  }
+}

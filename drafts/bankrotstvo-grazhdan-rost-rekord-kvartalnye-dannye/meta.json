@@ -1,0 +1,134 @@
+{
+  "slug": "bankrotstvo-grazhdan-rost-rekord-kvartalnye-dannye",
+  "category": "news",
+  "title": "Банкротств граждан 153,9 тыс. за квартал: данные Федресурса",
+  "description": "В I квартале 2026 года банкротами стали 153,9 тыс. россиян - на 13,7% больше, чем год назад. Разбираем данные Федресурса: судебные и внесудебные банкротства, динамику и причины роста.",
+  "h1": "Банкротства граждан: 153,9 тысячи за квартал - что показывает статистика",
+  "lead": "По данным Федресурса, в I квартале 153,9 тысячи россиян признаны несостоятельными - рекордное квартальное число. Разбираем структуру и причины роста.",
+  "topic_action": "проверку условий списания долгов",
+  "breadcrumb_current": "Банкротства граждан: 153,9 тысячи за квартал",
+  "og_image": "/assets/articles/bankrotstvo-grazhdan-rost-rekord-kvartalnye-dannye.jpg",
+  "main_keyword": "банкротство граждан",
+  "secondary_keywords": [
+    "число банкротств физлиц 1 квартал",
+    "рост банкротств россиян",
+    "Федресурс банкротства граждан",
+    "сколько россиян стали банкротами",
+    "банкротство физических лиц рост",
+    "внесудебное банкротство МФЦ статистика",
+    "рекорд банкротств физлиц"
+  ],
+  "internal_links": [
+    "/articles/news/ogranichenie-kreditov-vysokaya-dolgovaya-nagruzka-mpl",
+    "/articles/fiz/bankrotstvo-pensionera",
+    "/articles/fiz/minimalnaya-summa-dlya-bankrotstva-fizlica"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/",
+    "https://www.interfax.ru/business/1090917"
+  ],
+  "faq": [
+    {
+      "question": "Что именно считает ЕФРСБ: поданные заявления или завершённые дела?",
+      "answer": "Оба события. Реестр фиксирует введение и завершение каждой стадии: признание заявления обоснованным, реализацию активов, вынесение определения об освобождении от обязательств. Подать заявление и получить статус банкрота - два разных события, между которыми проходят месяцы."
+    },
+    {
+      "question": "Обязан ли гражданин с крупным долгом обращаться в суд?",
+      "answer": "Да, при задолженности от полумиллиона рублей с просрочкой более трёх месяцев это обязанность по закону, а не право. Нарушение нормы влечёт административный штраф. При меньшей сумме - право, не обязанность."
+    },
+    {
+      "question": "Сколько длится процедура через МФЦ и через арбитражный суд?",
+      "answer": "МФЦ - ровно шесть месяцев с даты принятия заявления. Арбитраж - от восьми месяцев в несложных делах до двух лет, если кредиторы оспаривают сделки. Ни один вариант не укладывается в популярное «три-шесть месяцев» - это распространённое заблуждение."
+    },
+    {
+      "question": "Почему реструктуризация задолженности выросла в 2,4 раза, но остаётся редкостью?",
+      "answer": "Рост - от малой базы. Доля от арбитражного потока составляет 0,8%. Нужен подтверждённый заработок и согласие кредиторов. Банки чаще выбирают реализацию активов. Девятьсот пятьдесят дополнительных планов за год при ста тридцати семи тысячах дел - не смена тренда."
+    },
+    {
+      "question": "Можно ли пройти через несостоятельность повторно?",
+      "answer": "Да. Но не раньше пяти лет с момента завершения предыдущего дела. Для внесудебного маршрута через МФЦ - отдельный отсчёт тех же пяти лет."
+    }
+  ],
+  "keyword_density_main": 0.002,
+  "main_keyword_exact_count": 1,
+  "text_chars": 7074,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "f1 (153,9 тыс.): подтверждено по research.json, source ЕФРСБ/Interfax 21.05.2026, last_verified 2026-06-01.",
+    "f2 (137 466, +13,7% г/г судебные): использовано safe_phrasing, без смешивания с динамикой МФЦ.",
+    "f3 (16 411, +5,2% г/г МФЦ): динамика и абсолют не смешиваются с судебной.",
+    "f4 (1 149 планов реструктуризации, рост в 2,4 раза, доля 0,8%): подано как «рост от малой базы», без формулировки «массово».",
+    "f5 (ст. 213.4 п. 2: обязанность подачи при долге от 500 000 руб. и просрочке 3+ мес.): отражено корректно, обтекаемо («полумиллиона рублей»).",
+    "f6 (ст. 223.2, ФЗ-474 от 04.11.2023, диапазон 25 000 - 1 000 000 руб., 6 мес.): отражено, расширение для пенсионеров упомянуто.",
+    "f7 (госпошлина не взимается с 08.09.2024, депозит управляющего 25 000 руб.): корректно, без устаревшей «300 рублей».",
+    "f8 (исключения по п. 5 ст. 213.28: алименты, вред здоровью, текущие платежи): упомянуто; 5/3 года ограничений (ст. 213.30) - тоже.",
+    "f9 (ст. 213.14: план до 3 лет без реализации имущества): отражено; причины роста сформулированы как «может свидетельствовать».",
+    "f10 (сравнительная статистика 2024-2025): не используется в тексте напрямую (contested=true), даны только обтекаемые формулировки.",
+    "f11 (ЕФРСБ как официальный реестр, ст. 28): отражено через ссылку на КонсультантПлюс.",
+    "Длинные тире (—) в финальном тексте заменены на короткие (-) автоматически через autofix; сокращения «ст. 333.37 НК» и «ст. 213.14» оставлены - autofix приведёт их к падежной форме.",
+    "Год в title и h1 отсутствует - соответствует жёсткому правилу для category=news."
+  ],
+  "length_status": "too_long",
+  "length_kind": "news",
+  "local_spam_top10_share": 0.1,
+  "local_spam_ngram3_repeat": 0.031,
+  "local_lexical_diversity": 0.636,
+  "local_ai_markers_density": 0.23,
+  "local_ai_markers_total": 2,
+  "local_ai_markers_critical": 0,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 2,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 49,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "длина больше лимита 6800 (7 074 знаков)"
+  ],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1780324735/articles/bankrotstvo-grazhdan-rost-rekord-kvartalnye-dannye-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1780324735/articles/bankrotstvo-grazhdan-rost-rekord-kvartalnye-dannye-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Editorial photograph of a corner of a desk in a high-floor executive office overlooking the city. Foreground: a sleek closed laptop in brushed aluminum, a precision scientific calculator with blank screen, a smartphone face-down, a polished round institutional seal, a white porcelain coffee cup on a saucer, a leather notebook slightly ajar. Background through floor-to-ceiling windows: blurred urban skyline at late afternoon, distant office buildings catching golden hour light, faint city grid sprawling below. Camera: shallow depth of field, three-quarter angle, eye-level. Lighting: cool ambient daylight from windows blended with warm interior tungsten desk lamp creating subtle bokeh on glass. Materials: walnut desk, brushed steel, leather, polished ceramic. Mood: institutional authority processing landmark statistical data.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-06-01T14:38:56Z",
+  "date_published": "2026-06-01",
+  "date_modified": "2026-06-01",
+  "ready_for_review": true,
+  "ready_at": "2026-06-01T14:38:56Z",
+  "publication_target": "telegram_review",
+  "tokens_by_model": {
+    "sonnet": {
+      "input_tokens": 3918,
+      "output_tokens": 1841,
+      "cache_creation_input_tokens": 506412,
+      "cache_read_input_tokens": 3214780,
+      "messages": 100
+    },
+    "haiku": {
+      "input_tokens": 63,
+      "output_tokens": 38,
+      "cache_creation_input_tokens": 71540,
+      "cache_read_input_tokens": 168285,
+      "messages": 15
+    },
+    "opus": {
+      "input_tokens": 23,
+      "output_tokens": 547,
+      "cache_creation_input_tokens": 58806,
+      "cache_read_input_tokens": 612162,
+      "messages": 18
+    }
+  },
+  "tokens_total": {
+    "input": 4004,
+    "output": 2426,
+    "cache_read": 3995227,
+    "cache_creation": 636758,
+    "total": 643188
+  }
+}

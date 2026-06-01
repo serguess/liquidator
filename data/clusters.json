@@ -4887,6 +4887,26 @@
       "articles": [
         "apellyacionnaya-zhaloba-na-reshenie-o-vzyskanii"
       ]
+    },
+    {
+      "id": "news-bankruptcy-citizens-statistics",
+      "category": "news",
+      "subtopic": "статистика банкротств граждан - квартальная динамика Федресурса",
+      "intent": "informational",
+      "funnel_stage": "cold",
+      "main_keyword": "банкротство граждан статистика квартал",
+      "related_keywords": [
+        "число банкротств физлиц 1 квартал",
+        "рост банкротств россиян",
+        "Федресурс банкротства граждан",
+        "сколько россиян стали банкротами",
+        "банкротство физических лиц рост",
+        "внесудебное банкротство МФЦ статистика",
+        "рекорд банкротств физлиц"
+      ],
+      "articles": [
+        "bankrotstvo-grazhdan-rost-rekord-kvartalnye-dannye"
+      ]
     }
   ]
 }
