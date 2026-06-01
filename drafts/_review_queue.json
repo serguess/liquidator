@@ -2449,6 +2449,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "apellyacionnaya-zhaloba-na-reshenie-o-vzyskanii",
+      "category": "vzysk",
+      "title": "Апелляция на решение суда о взыскании: как подать",
+      "added_at": "2026-06-01T15:38:42.487714",
+      "char_count": 7792,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1780317521/articles/apellyacionnaya-zhaloba-na-reshenie-o-vzyskanii-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": false,
+        "hard_failed": false
+      }
     }
   ]
 }
