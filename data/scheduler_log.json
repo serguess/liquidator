@@ -11444,5 +11444,83 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-06-01T19:36:29",
+    "category": "fiz",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 3,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "fiz-85",
+    "topic_slug": "bankrotstvo-dolg-kreditnyj-kooperativ-kpk",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "Автофикс применил правки: сокращения=0, пунктуация=0",
+        "internal_links_autofixed: 3 ссылок (например /articles/fiz/bankrotstvo-po-mikrozajmam.html→/articles/fiz/bankrotstvo-po-mikrozajmam; /articles/fiz/konkursnaya-massa-pri-bankrotstve-fizlica.html→/articles/fiz/konkursnaya-massa-pri-bankrotstve-fizlica; /articles/fiz/chto-nelzya-delat-pered-bankrotstvom-fizlica.html→/articles/fiz/chto-nelzya-delat-pered-bankrotstvom-fizlica)"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "bankrotstvo-dolg-kreditnyj-kooperativ-kpk",
+    "duration_sec": 2477.8,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "лге в кредитном кооперативе: спишут ли займ |\n| Длина текста | 7 495 знаков |\n| Quality gate | PASSED (итерация 2) |\n| Uniqueness | PASSED |\n| Factcheck | PASSED |\n| Обложка | сгенерирована (template #4, весы+ключи) |\n| Файл | `drafts/bankrotstvo-dolg-kreditnyj-kooperativ-kpk/article.html` |\n\n**Прогноз метрик (text.ru):**\n- AI-детектор: ~3%\n- Заспамленность: ~53%\n- Уникальность: ~87%\n\nСтатья добавлена в очередь ревью (`_review_queue.json`, позиция 191). Публикация — через кнопку в Telegram-боте.",
+    "stderr_tail": "",
+    "tokens_by_model": {
+      "sonnet": {
+        "input_tokens": 959,
+        "output_tokens": 2763,
+        "cache_creation_input_tokens": 616343,
+        "cache_read_input_tokens": 4497409,
+        "messages": 137
+      },
+      "haiku": {
+        "input_tokens": 1766,
+        "output_tokens": 57,
+        "cache_creation_input_tokens": 73739,
+        "cache_read_input_tokens": 651697,
+        "messages": 28
+      },
+      "opus": {
+        "input_tokens": 64,
+        "output_tokens": 266,
+        "cache_creation_input_tokens": 195798,
+        "cache_read_input_tokens": 690886,
+        "messages": 24
+      }
+    },
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7495
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]

@@ -2488,6 +2488,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "intellektualnaya-sobstvennost-bankrotstvo-yurlica",
+      "category": "yur",
+      "title": "Интеллектуальная собственность при банкротстве юрлица",
+      "added_at": "2026-06-01T22:45:40.584820",
+      "char_count": 7249,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1780343139/articles/intellektualnaya-sobstvennost-bankrotstvo-yurlica-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

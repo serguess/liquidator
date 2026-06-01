@@ -1,0 +1,129 @@
+{
+  "slug": "intellektualnaya-sobstvennost-bankrotstvo-yurlica",
+  "category": "yur",
+  "title": "Интеллектуальная собственность при банкротстве юрлица",
+  "description": "Что происходит с товарными знаками, патентами и авторскими правами при банкротстве компании: включение в конкурсную массу, оценка, продажа на торгах, оспаривание сделок.",
+  "h1": "Интеллектуальная собственность при банкротстве юридического лица: что будет с товарным знаком и патентами",
+  "lead": "Что происходит с товарным знаком, патентами и ПО, когда компанию ведут к ликвидации: от инвентаризации Роспатентом до оспаривания сделок по выводу активов.",
+  "topic_action": "защиту интеллектуальной собственности при банкротстве",
+  "breadcrumb_current": "Интеллектуальная собственность при банкротстве юрлица",
+  "og_image": "/assets/articles/intellektualnaya-sobstvennost-bankrotstvo-yurlica.jpg",
+  "main_keyword": "интеллектуальная собственность при банкротстве юрлица",
+  "secondary_keywords": [
+    "товарный знак при банкротстве",
+    "патент при банкротстве компании",
+    "исключительные права конкурсная масса",
+    "оценка интеллектуальной собственности при банкротстве",
+    "продажа товарного знака с торгов",
+    "авторское право при ликвидации компании",
+    "нематериальные активы банкротство юрлица",
+    "вывод активов товарный знак оспорить"
+  ],
+  "internal_links": [
+    "/konkursnaya-massa-dolzhnika-chto-vklyuchaetsya.html",
+    "/prodazha-biznesa-pri-bankrotstve-yurlica.html",
+    "/otkaz-ot-dogovora-pri-bankrotstve-statya-102.html",
+    "/osparivanie-sdelok-pri-bankrotstve.html"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/"
+  ],
+  "faq": [
+    {
+      "question": "Что не теряет компания при банкротстве из ИС?",
+      "answer": "Два вида объектов неотчуждаемы: фирменное наименование и личные неимущественные права авторов. Имя прекращается с ликвидацией. Авторские личные права остаются у создателя навсегда."
+    },
+    {
+      "question": "Можно ли передать товарный знак партнёру до подачи заявления о банкротстве?",
+      "answer": "Такую сделку оспорят: за год - если цена занижена, за три года - при признаке умысла. Для аффилированного получателя осведомлённость предполагается автоматически."
+    },
+    {
+      "question": "Что произойдёт с охранным документом на технологию, если не платить пошлину в ходе процедуры?",
+      "answer": "Охрана прекратится досрочно. Утрата объекта из конкурсной массы. Арбитражный управляющий обязан следить за датами уплаты."
+    },
+    {
+      "question": "Обязан ли новый владелец товарного знака исполнять лицензионный договор прежней фирмы?",
+      "answer": "Да. Переход имущественного правомочия не прекращает соглашение: новый правообладатель становится лицензиаром на прежних условиях (пункт 7 статьи 1235 гражданского кодекса)."
+    },
+    {
+      "question": "Вправе ли конкуренты требовать аннулирования товарного знака за неиспользование, пока компания в процедуре?",
+      "answer": "Вправе. Три года без использования - достаточное основание. Несостоятельность этот механизм не блокирует."
+    }
+  ],
+  "keyword_density_main": 0.0,
+  "main_keyword_exact_count": 0,
+  "text_chars": 7249,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все юр-факты проверены против research.json: ст. 131, 130, 139, 129, 102, 61.2, 61.3, 61.6 127-ФЗ; ст. 1232, 1234, 1235, 1265, 1399, 1474, 1486 ГК РФ. last_verified=2026-06-01, legislation_status=active.",
+    "Постановление Пленума ВАС от 23.12.2010 № 63 упомянуто текстом без гиперссылки (URL отсутствует в whitelist - см. research.fact_gaps).",
+    "Главный ключ в title и h1 - точное вхождение по 1 разу; в теле статьи используются синонимы из кластера, exact-count в body = 0, чтобы избежать переоптимизации (Баден-Баден)."
+  ],
+  "length_status": "ok",
+  "length_kind": "default",
+  "local_spam_top10_share": 0.095,
+  "local_spam_ngram3_repeat": 0.047,
+  "local_lexical_diversity": 0.592,
+  "local_ai_markers_density": 0.22,
+  "local_ai_markers_total": 2,
+  "local_ai_markers_critical": 0,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 3,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 4,
+  "predicted_spam_pct": 55,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность выше 50% (~55%)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "spam_risk: 1 флагов (ngram3_repeat_share>0.035 (=0.047)), top-5: ['актив', 'банкротств', 'стать', 'торг', 'арбитражный']"
+  ],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1780343139/articles/intellektualnaya-sobstvennost-bankrotstvo-yurlica-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1780343139/articles/intellektualnaya-sobstvennost-bankrotstvo-yurlica-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Wide symmetric photograph down a grand official corridor with tall colonnades and polished marble flooring. Center of frame: a marble pedestal holding polished brass scales of justice in perfect balance, flanked by two closed dark leather portfolios tied with cord. On a low marble plinth beside the scales: a polished round corporate seal, an antique brass pocket watch on a chain, and a brass key ring with three ornate keys. Camera: dead-center symmetric, eye-level, wide-angle pulling the architectural lines into deep perspective. Lighting: cool natural daylight streaming from skylights above, highlighting brass patina and marble veining. Palette: cool whites and greys with warm brass accents. Mood: institutional gravity, asset inventory, momentous corporate decision.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-06-01T19:45:40Z",
+  "date_published": "2026-06-01",
+  "date_modified": "2026-06-01",
+  "ready_for_review": true,
+  "ready_at": "2026-06-01T19:45:40Z",
+  "publication_target": "telegram_review",
+  "tokens_by_model": {
+    "sonnet": {
+      "input_tokens": 13873,
+      "output_tokens": 3744,
+      "cache_creation_input_tokens": 782531,
+      "cache_read_input_tokens": 8949545,
+      "messages": 167
+    },
+    "haiku": {
+      "input_tokens": 427,
+      "output_tokens": 69,
+      "cache_creation_input_tokens": 90778,
+      "cache_read_input_tokens": 125770,
+      "messages": 13
+    },
+    "opus": {
+      "input_tokens": 36,
+      "output_tokens": 89,
+      "cache_creation_input_tokens": 153283,
+      "cache_read_input_tokens": 594403,
+      "messages": 16
+    }
+  },
+  "tokens_total": {
+    "input": 14336,
+    "output": 3902,
+    "cache_read": 9669718,
+    "cache_creation": 1026592,
+    "total": 1044830
+  }
+}
