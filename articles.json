@@ -2,6 +2,19 @@
   "generated": "2026-06-02",
   "articles": [
     {
+      "slug": "reestr-dolzhnikov-fssp-kak-vyjti",
+      "cat": "vzysk",
+      "catLabel": "Взыскание задолженности",
+      "title": "Реестр должников ФССП: как проверить и выйти",
+      "desc": "Что такое банк данных исполнительных производств, как бесплатно проверить себя по фамилии и что делать, если оплаченный долг всё ещё висит на сайте приставов.",
+      "date": "2 июня 2026",
+      "dateIso": "2026-06-02",
+      "read": "5 мин.",
+      "tone": "b",
+      "img": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1780273091/articles/reestr-dolzhnikov-fssp-kak-vyjti-cover.jpg",
+      "url": "articles/vzysk/reestr-dolzhnikov-fssp-kak-vyjti"
+    },
+    {
       "slug": "bankrotstvo-turoperatora-prava-agentov",
       "cat": "yur",
       "catLabel": "Банкротство юридических лиц",
