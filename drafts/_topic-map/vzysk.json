@@ -1971,7 +1971,11 @@
       "frequency_estimate": "medium",
       "rationale": "Взыскатели с листом на руках не знают, что можно обойти ФССП и получить деньги за 3 рабочих дня через банк. Тема дополняет vzysk-16 (как получить лист) и vzysk-53 (ускорение взыскания), закрывая конкретный быстрый инструмент для кредитора.",
       "expected_length_chars": 7000,
-      "topic_action": "предъявление исполнительного листа в банк"
+      "topic_action": "предъявление исполнительного листа в банк",
+      "status": "rejected",
+      "rejected_at": "2026-06-02T22:37:44",
+      "rejected_reason": "hang_heartbeat_timeout",
+      "rejected_by": "auto_skip_in_slot"
     },
     {
       "id": "vzysk-74",
