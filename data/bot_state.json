@@ -4086,7 +4086,7 @@
     "moratornyye-protsenty-bankrotstvo-yurlica": {
       "category": "yur",
       "title": "Мораторные проценты при банкротстве юрлица",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -4094,14 +4094,16 @@
       "tg_message_id": 1163,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-31T12:56:10",
-      "last_action_at": "2026-06-01T10:00:41",
+      "last_action_at": "2026-06-02T22:50:53",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/yur/moratornyye-protsenty-bankrotstvo-yurlica",
       "pending_batch": false,
       "pending_batch_at": "2026-05-31T12:56:10",
       "batch_sent_at": "2026-06-01T10:00:41",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-06-02T22:50:53",
+      "articles_path": "articles/yur/moratornyye-protsenty-bankrotstvo-yurlica.html"
     },
     "vzyskanie-ushcherba-pri-zatoplenii-kvartiry": {
       "category": "vzysk",

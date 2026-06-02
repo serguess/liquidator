@@ -2,6 +2,19 @@
   "generated": "2026-06-02",
   "articles": [
     {
+      "slug": "moratornyye-protsenty-bankrotstvo-yurlica",
+      "cat": "yur",
+      "catLabel": "Банкротство юридических лиц",
+      "title": "Мораторные проценты при банкротстве юрлица",
+      "desc": "Как начисляются и рассчитываются мораторные проценты в процедурах банкротства юридического лица: ставка ЦБ, формула, очерёдность погашения и взыскание с КДЛ.",
+      "date": "2 июня 2026",
+      "dateIso": "2026-06-02",
+      "read": "5 мин.",
+      "tone": "b",
+      "img": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1780221302/articles/moratornyye-protsenty-bankrotstvo-yurlica-cover.jpg",
+      "url": "articles/yur/moratornyye-protsenty-bankrotstvo-yurlica"
+    },
+    {
       "slug": "neustoyka-po-alimentam-vzyskat",
       "cat": "vzysk",
       "catLabel": "Взыскание задолженности",
