@@ -4305,7 +4305,7 @@
     "transgranichnoe-bankrotstvo-rossijskoj-kompanii": {
       "category": "yur",
       "title": "Трансграничное банкротство компании: порядок и практика",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -4313,14 +4313,16 @@
       "tg_message_id": 1183,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-06-01T12:59:42",
-      "last_action_at": "2026-06-02T10:00:42",
+      "last_action_at": "2026-06-02T23:44:32",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/yur/transgranichnoe-bankrotstvo-rossijskoj-kompanii",
       "pending_batch": false,
       "pending_batch_at": "2026-06-01T12:59:42",
       "batch_sent_at": "2026-06-02T10:00:42",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-06-02T23:44:32",
+      "articles_path": "articles/yur/transgranichnoe-bankrotstvo-rossijskoj-kompanii.html"
     },
     "apellyacionnaya-zhaloba-na-reshenie-o-vzyskanii": {
       "category": "vzysk",
