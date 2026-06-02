@@ -4152,7 +4152,7 @@
     "kreditnye-kanikuly-pered-bankrotstvom-fizlica": {
       "category": "fiz",
       "title": "Кредитные каникулы перед банкротством физлица: стоит ли",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -4160,14 +4160,16 @@
       "tg_message_id": 1169,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-31T22:35:14",
-      "last_action_at": "2026-06-01T10:00:48",
+      "last_action_at": "2026-06-02T22:58:26",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/fiz/kreditnye-kanikuly-pered-bankrotstvom-fizlica",
       "pending_batch": false,
       "pending_batch_at": "2026-05-31T22:35:14",
       "batch_sent_at": "2026-06-01T10:00:48",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-06-02T22:58:26",
+      "articles_path": "articles/fiz/kreditnye-kanikuly-pered-bankrotstvom-fizlica.html"
     },
     "bankrotstvo-turoperatora-prava-agentov": {
       "category": "yur",
