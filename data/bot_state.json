@@ -4174,7 +4174,7 @@
     "bankrotstvo-turoperatora-prava-agentov": {
       "category": "yur",
       "title": "Банкротство туроператора: права агентств и туристов",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -4182,14 +4182,16 @@
       "tg_message_id": 1171,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-06-01T01:15:15",
-      "last_action_at": "2026-06-01T10:00:50",
+      "last_action_at": "2026-06-02T23:01:38",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/yur/bankrotstvo-turoperatora-prava-agentov",
       "pending_batch": false,
       "pending_batch_at": "2026-06-01T01:15:15",
       "batch_sent_at": "2026-06-01T10:00:50",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-06-02T23:01:38",
+      "articles_path": "articles/yur/bankrotstvo-turoperatora-prava-agentov.html"
     },
     "reestr-dolzhnikov-fssp-kak-vyjti": {
       "category": "vzysk",
