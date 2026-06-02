@@ -2,6 +2,19 @@
   "generated": "2026-06-02",
   "articles": [
     {
+      "slug": "neustoyka-po-alimentam-vzyskat",
+      "cat": "vzysk",
+      "catLabel": "Взыскание задолженности",
+      "title": "Неустойка по алиментам 0,1%: взыскание через суд",
+      "desc": "Как взыскать неустойку за просрочку алиментов по ст. 115 СК РФ: расчёт долга, иск в суд, срок исковой давности 3 года, снижение судом.",
+      "date": "2 июня 2026",
+      "dateIso": "2026-06-02",
+      "read": "5 мин.",
+      "tone": "b",
+      "img": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1780212676/articles/neustoyka-po-alimentam-vzyskat-cover.jpg",
+      "url": "articles/vzysk/neustoyka-po-alimentam-vzyskat"
+    },
+    {
       "slug": "ipotechnye-kanikuly-bankrotstvo-fizlica",
       "cat": "fiz",
       "catLabel": "Банкротство физических лиц",
