@@ -1,6 +1,19 @@
 {
-  "generated": "2026-05-31",
+  "generated": "2026-06-02",
   "articles": [
+    {
+      "slug": "ipotechnye-kanikuly-bankrotstvo-fizlica",
+      "cat": "fiz",
+      "catLabel": "Банкротство физических лиц",
+      "title": "Ипотечные каникулы или банкротство: что выбрать",
+      "desc": "Ипотечные каникулы дают паузу по платежам, но долг остаётся. Банкротство списывает остальные долги, при этом залоговая квартира уходит на торги. Разбираем, когда что работает.",
+      "date": "2 июня 2026",
+      "dateIso": "2026-06-02",
+      "read": "5 мин.",
+      "tone": "b",
+      "img": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1780217074/articles/ipotechnye-kanikuly-bankrotstvo-fizlica-cover.jpg",
+      "url": "articles/fiz/ipotechnye-kanikuly-bankrotstvo-fizlica"
+    },
     {
       "slug": "bankrotstvo-upravlyayushchej-kompanii-zhkh",
       "cat": "yur",
