@@ -2,6 +2,19 @@
   "generated": "2026-06-03",
   "articles": [
     {
+      "slug": "bankrotstvo-grazhdan-rost-rekord-kvartalnye-dannye",
+      "cat": "news",
+      "catLabel": "Новости",
+      "title": "Банкротств граждан 153,9 тыс. за квартал: данные Федресурса",
+      "desc": "В I квартале 2026 года банкротами стали 153,9 тыс. россиян - на 13,7% больше, чем год назад. Разбираем данные Федресурса: судебные и внесудебные банкротства, динамику и причины роста.",
+      "date": "3 июня 2026",
+      "dateIso": "2026-06-03",
+      "read": "5 мин.",
+      "tone": "b",
+      "img": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1780324735/articles/bankrotstvo-grazhdan-rost-rekord-kvartalnye-dannye-cover.jpg",
+      "url": "articles/news/bankrotstvo-grazhdan-rost-rekord-kvartalnye-dannye"
+    },
+    {
       "slug": "apellyacionnaya-zhaloba-na-reshenie-o-vzyskanii",
       "cat": "vzysk",
       "catLabel": "Взыскание задолженности",
