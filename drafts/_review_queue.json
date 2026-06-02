@@ -2644,6 +2644,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "prekrashchenie-dela-bankrotstvo-fizlica",
+      "category": "fiz",
+      "title": "Прекращение банкротства физлица: основания и последствия",
+      "added_at": "2026-06-03T00:54:23.358971",
+      "char_count": 7912,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1780437262/articles/prekrashchenie-dela-bankrotstvo-fizlica-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

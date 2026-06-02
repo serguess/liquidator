@@ -1,0 +1,133 @@
+{
+  "slug": "prekrashchenie-dela-bankrotstvo-fizlica",
+  "category": "fiz",
+  "title": "Прекращение банкротства физлица: основания и последствия",
+  "description": "По каким основаниям арбитражный суд прекращает дело о банкротстве физлица, что происходит с долгами и исполнительными производствами после прекращения.",
+  "h1": "Прекращение дела о банкротстве физлица: по каким основаниям суд останавливает процедуру",
+  "lead": "Арбитраж может не завершить дело о несостоятельности гражданина, а остановить его. При прекращении по ст. 57 закона задолженность сохраняется, приставы возвращаются, но статуса несостоятельного нет — это пять разных оснований с разными последствиями.",
+  "topic_action": "разбор оснований прекращения дела о банкротстве",
+  "breadcrumb_current": "Прекращение дела о банкротстве физлица",
+  "og_image": "/assets/articles/prekrashchenie-dela-bankrotstvo-fizlica.jpg",
+  "main_keyword": "прекращение дела о банкротстве физлица",
+  "secondary_keywords": [
+    "основания прекращения банкротства физлица",
+    "прекращение производства по делу о банкротстве гражданина",
+    "мировое соглашение при банкротстве физлица",
+    "банкротство прекратили что будет с долгами",
+    "прекращение банкротства за недостаточностью имущества",
+    "статья 57 закона о банкротстве физлицо",
+    "последствия прекращения банкротства физлица",
+    "как прекратить дело о банкротстве",
+    "прекращение реализации имущества физлица"
+  ],
+  "internal_links": [
+    "/articles/fiz/bankrotstvo-po-zayavleniyu-kreditora-fizlica.html",
+    "/articles/fiz/pristavy-i-bankrotstvo-fizlica.html",
+    "/articles/fiz/kogda-dolgi-ne-spishut-pri-bankrotstve.html",
+    "/articles/fiz/mirovoe-soglashenie-bankrotstvo-fizlica.html"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/"
+  ],
+  "faq": [
+    {
+      "question": "Возобновится ли взыскание, если суд остановил дело?",
+      "answer": "Да. С момента вынесения определения мораторий прекращает действие. Исполнительные производства возобновляются. Взыскатели вправе снова обращаться к приставам и накладывать аресты."
+    },
+    {
+      "question": "Можно ли подать на несостоятельность повторно после остановки по ст. 57?",
+      "answer": "Зависит от того, признавали ли заявителя несостоятельным. Если производство закрыто без такого признания — пятилетний запрет не применяется, новое дело подать можно. Если признание уже состоялось до остановки — запрет действует и отсчитывается от даты завершения реализации имущества."
+    },
+    {
+      "question": "Что станет с имуществом из конкурсной массы, которое не успели продать?",
+      "answer": "Нереализованные активы возвращаются заявителю. Но взыскатели вправе немедленно обратить взыскание на то же имущество в новом исполнительном производстве."
+    },
+    {
+      "question": "Сколько есть времени на обжалование определения о прекращении производства?",
+      "answer": "Десять дней с момента вынесения — специальный срок для обжалования определений в делах о несостоятельности (п. 3 ст. 61 закона о банкротстве). При пропуске по уважительной причине срок восстанавливается по ходатайству."
+    },
+    {
+      "question": "Чем мировое соглашение отличается от завершения реализации активов?",
+      "answer": "При мировом соглашении производство закрывается, обязательства реструктурируются, ограничений нет. При завершении заявитель признаётся несостоятельным, задолженность может быть обнулена — но наступают ограничения на срок от 3 до 10 лет. Соглашение подходит тем, у кого есть доход; завершение — тем, кто хочет обнулить всё."
+    },
+    {
+      "question": "Нужно ли платить госпошлину и депозит, если дело закрыли до первого заседания?",
+      "answer": "Госпошлина при подаче заявления о несостоятельности с должника-гражданина не взимается — льгота по ст. 333.37 НК РФ действует с 8 сентября 2024 года. Депозит 25 000 рублей на вознаграждение управляющего расходуется вне зависимости от исхода. Это разные платежи."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все факты сверены с research.json, источники: ст. 57, 213.28, 213.29, 213.30, 213.31, 20.6, 61, 166 закона о банкротстве (last_verified 2026-06-03, legislation_status active)",
+    "Госпошлина 300 руб. исключена; использована актуальная норма ст. 333.37 НК РФ (ФЗ-176 от 12.07.2024, в силе с 08.09.2024)",
+    "f14: депозит 25 000 руб. на вознаграждение управляющего и госпошлина — разные платежи, формулировка соответствует safe_phrasing",
+    "f20: судебная практика по прекращению за нехваткой средств приведена в качественном описании без конкретных номеров дел (есть в fact_gaps)"
+  ],
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "text_chars": 7912,
+  "length_status": "warn",
+  "length_kind": "default",
+  "local_spam_top10_share": 0.13,
+  "local_spam_ngram3_repeat": 0.07,
+  "local_lexical_diversity": 0.534,
+  "local_ai_markers_density": 0.2,
+  "local_ai_markers_total": 2,
+  "local_ai_markers_critical": 0,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 2,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 4,
+  "predicted_spam_pct": 62,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность заметно выше 50% (~62%)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "spam_risk: 5 флагов (top3_sum>30 (=35), top10_sum>80 (=94), top10_share>0.115 (=0.13), ngram3_repeat_share>0.035 (=0.07), lexical_diversity<0.58 (=0.534)), top-5: ['дело', 'банкротств', 'долг', 'должник', 'соглашен']"
+  ],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1780437262/articles/prekrashchenie-dela-bankrotstvo-fizlica-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1780437262/articles/prekrashchenie-dela-bankrotstvo-fizlica-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Editorial photograph of a workspace adjacent to a tall window. Foreground: a desk holding a closed dark leather portfolio lying slightly askew, a blank-spine notebook with a fountain pen resting across it, reading glasses positioned at the notebook's edge, a white porcelain coffee cup half-filled on a saucer, a brass desk lamp casting focused light onto the portfolio. Background through the glass: overcast cityscape with grey evening light, rain-streaked panes softening the urban blur. Camera: three-quarter angle from the left, eye-level. Lighting: cool daylight from the window blended with warm tungsten from the desk lamp, creating contemplative shadows. Materials: walnut desk, dark leather, brass, white porcelain. Mood: a moment of pause in bureaucratic process, unresolved but halted.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-06-02T21:54:23Z",
+  "date_published": "2026-06-03",
+  "date_modified": "2026-06-03",
+  "ready_for_review": true,
+  "ready_at": "2026-06-02T21:54:23Z",
+  "publication_target": "telegram_review",
+  "tokens_by_model": {
+    "sonnet": {
+      "input_tokens": 145,
+      "output_tokens": 2597,
+      "cache_creation_input_tokens": 539782,
+      "cache_read_input_tokens": 4679533,
+      "messages": 118
+    },
+    "haiku": {
+      "input_tokens": 2518,
+      "output_tokens": 36,
+      "cache_creation_input_tokens": 65491,
+      "cache_read_input_tokens": 83525,
+      "messages": 10
+    },
+    "opus": {
+      "input_tokens": 39,
+      "output_tokens": 261,
+      "cache_creation_input_tokens": 162272,
+      "cache_read_input_tokens": 864950,
+      "messages": 19
+    }
+  },
+  "tokens_total": {
+    "input": 2702,
+    "output": 2894,
+    "cache_read": 5628008,
+    "cache_creation": 767545,
+    "total": 773141
+  }
+}
