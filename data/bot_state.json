@@ -4240,7 +4240,7 @@
     "franshiza-pri-bankrotstve-prava-storon": {
       "category": "yur",
       "title": "Франшиза при банкротстве: права сторон",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -4248,14 +4248,16 @@
       "tg_message_id": 1177,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-06-01T08:09:40",
-      "last_action_at": "2026-06-01T10:00:57",
+      "last_action_at": "2026-06-02T23:36:16",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/yur/franshiza-pri-bankrotstve-prava-storon",
       "pending_batch": false,
       "pending_batch_at": "2026-06-01T08:09:40",
       "batch_sent_at": "2026-06-01T10:00:57",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-06-02T23:36:16",
+      "articles_path": "articles/yur/franshiza-pri-bankrotstve-prava-storon.html"
     },
     "vzyskanie-na-dolyu-v-ooo-kreditora": {
       "category": "vzysk",
@@ -4585,6 +4587,24 @@
       "published_url": null,
       "pending_batch": true,
       "pending_batch_at": "2026-06-02T20:14:46"
+    },
+    "soglashenie-ob-alimentah-u-notariusa": {
+      "category": "vzysk",
+      "title": "Соглашение об алиментах у нотариуса: без суда и иска",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-06-02T23:25:47",
+      "last_action_at": "2026-06-02T23:25:47",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-06-02T23:25:47"
     }
   },
   "pending_actions": [],
