@@ -4108,7 +4108,7 @@
     "vzyskanie-ushcherba-pri-zatoplenii-kvartiry": {
       "category": "vzysk",
       "title": "Взыскание ущерба при затоплении квартиры",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -4116,14 +4116,16 @@
       "tg_message_id": 1165,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-31T15:20:11",
-      "last_action_at": "2026-06-01T10:00:44",
+      "last_action_at": "2026-06-02T22:52:35",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/vzysk/vzyskanie-ushcherba-pri-zatoplenii-kvartiry",
       "pending_batch": false,
       "pending_batch_at": "2026-05-31T15:20:11",
       "batch_sent_at": "2026-06-01T10:00:44",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-06-02T22:52:35",
+      "articles_path": "articles/vzysk/vzyskanie-ushcherba-pri-zatoplenii-kvartiry.html"
     },
     "shtraf-banku-narusheniye-prav-zaemshchika-cb-ukazanie": {
       "category": "news",
