@@ -4393,7 +4393,7 @@
     "intellektualnaya-sobstvennost-bankrotstvo-yurlica": {
       "category": "yur",
       "title": "Интеллектуальная собственность при банкротстве юрлица",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -4401,14 +4401,16 @@
       "tg_message_id": 1191,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-06-01T22:46:46",
-      "last_action_at": "2026-06-02T10:00:50",
+      "last_action_at": "2026-06-03T00:05:34",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/yur/intellektualnaya-sobstvennost-bankrotstvo-yurlica",
       "pending_batch": false,
       "pending_batch_at": "2026-06-01T22:46:46",
       "batch_sent_at": "2026-06-02T10:00:50",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-06-03T00:05:34",
+      "articles_path": "articles/yur/intellektualnaya-sobstvennost-bankrotstvo-yurlica.html"
     },
     "vzyskanie-dolga-s-direktora-posle-likvidacii-ooo": {
       "category": "vzysk",
