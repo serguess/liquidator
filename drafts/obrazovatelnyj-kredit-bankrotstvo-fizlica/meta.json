@@ -1,0 +1,135 @@
+{
+  "slug": "obrazovatelnyj-kredit-bankrotstvo-fizlica",
+  "category": "fiz",
+  "title": "Образовательный кредит при банкротстве физлица",
+  "description": "Можно ли списать образовательный кредит при банкротстве физлица: что говорит закон, как обычный и льготный кредит с господдержкой попадает в процедуру, что делать заёмщику.",
+  "h1": "Образовательный кредит при банкротстве: спишут ли долг",
+  "lead": "Учебный заём не выделен законом о банкротстве в особую категорию: при добросовестном поведении заёмщика он снимается наравне с другими денежными требованиями, включая кредит с господдержкой по ставке 3%.",
+  "topic_action": "проверку образовательного кредита на списание",
+  "breadcrumb_current": "Образовательный кредит при банкротстве физлица",
+  "og_image": "/assets/articles/obrazovatelnyj-kredit-bankrotstvo-fizlica.jpg",
+  "main_keyword": "образовательный кредит при банкротстве физлица",
+  "secondary_keywords": [
+    "образовательный кредит банкротство",
+    "списать образовательный кредит",
+    "кредит на обучение банкротство",
+    "образовательный кредит с господдержкой долг",
+    "долг по образовательному кредиту что делать",
+    "образовательный кредит не могу платить",
+    "банкротство студента долг по кредиту",
+    "кредит на образование после банкротства"
+  ],
+  "internal_links": [
+    "/articles/fiz/bankrotstvo-pri-poruchitelstve.html",
+    "/articles/fiz/bankrotstvo-pri-potrebitelskom-kredite.html"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/",
+    "https://www.consultant.ru/document/cons_doc_LAW_5142/"
+  ],
+  "faq": [
+    {
+      "question": "Что происходит с образовательным кредитом, если учащегося отчислили до получения диплома?",
+      "answer": "Отчисление не прекращает кредитный договор. Льготный период заканчивается, банк переводит гражданина на полное погашение. Появляется просрочка - возникают основания для несостоятельности."
+    },
+    {
+      "question": "Можно ли обратиться за списанием долгов, если единственный долг составляет учебный заём на сумму до 300 тысяч рублей?",
+      "answer": "Можно: правило не устанавливает нижнего порога для права на судебную процедуру, достаточно объективно предвидеть невозможность погашения. При задолженности до миллиона рублей стоит также оценить МФЦ-маршрут - бесплатный и занимает те же 6 месяцев."
+    },
+    {
+      "question": "Обязательно ли банк предъявит требование к поручителю при несостоятельности должника?",
+      "answer": "Не обязательно, но вправе. Крупные кредиторы нередко используют оба варианта: и реестр кредиторов заявителя, и иск к поручившемуся лицу. Право возникает с момента введения первой процедуры по делу заёмщика."
+    },
+    {
+      "question": "Чем судебное списание отличается от МФЦ-маршрута применительно к обязательству на обучение?",
+      "answer": "Условиями входа: в суд - при любой сумме, нужен депозит 25 тысяч рублей; МФЦ - бесплатно, но требует оконченного исполнительного производства и задолженности до миллиона рублей. Само освобождение по итогу одинаковое."
+    },
+    {
+      "question": "Что будет, если при получении займа были указаны завышенные доходы?",
+      "answer": "Суд расценит это как обман банка и откажет в освобождении сразу по всем обязательствам. Если такой факт есть - обсудить с юристом до подачи заявления, не после."
+    },
+    {
+      "question": "Вернёт ли государство долг через регресс, если выплатит банку по поручительству?",
+      "answer": "Теоретически может. Государство приобретает регрессное требование к получателю займа, но если оно заявлено в реестр в ходе дела - снимается вместе с остальными. На практике государственные органы нередко пропускают этот срок."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "f1, f7: образовательный кредит - обычное денежное обязательство; закрытый перечень несписываемых долгов по п. 5 ст. 213.28 127-ФЗ не включает учебные займы - отражено в блоке 2 и в финальном дожиме",
+    "f2, f3, f16: кредит с господдержкой по ПП РФ от 22.11.2013 № 1026 (ставка 3%, господдержка, госпоручительство) - отражён в блоке 3; URL ПП № 1026 не в whitelist, упоминается текстом",
+    "f4: государство как субсидиарный поручитель, регрессное требование по ст. 365 ГК РФ - отражено в блоке 3 с гиперссылкой на cons_doc_LAW_5142",
+    "f5, f6: банкротство заёмщика не прекращает поручительство третьего лица (п. 18 ПП ВС РФ от 29.06.2023 № 26); срок созревает с введением первой процедуры (п. 3 того же постановления) - отражено в блоке про поручителя; URL ПП ВС № 26 не в whitelist, упоминается текстом",
+    "f8: основания отказа в освобождении по п. 4 ст. 213.28 127-ФЗ - отражены в блоке про добросовестность",
+    "f9: право подать заявление при любой сумме (п. 2 ст. 213.4), обязанность - от 500 000 руб. (п. 1 ст. 213.4) - отражено в блоке про судебный маршрут и в FAQ",
+    "f10: с 08.09.2024 госпошлина - ноль (ст. 333.37 НК РФ); депозит 25 000 руб. (п. 3 ст. 20.6 127-ФЗ) - отражено корректно, формулировка «300 руб.» отсутствует",
+    "f11: реализация имущества до 6 месяцев (п. 2 ст. 213.24) - отражено в блоке про судебный маршрут",
+    "f12: МФЦ-маршрут, долг до 1 000 000 руб. (ст. 223.2 в ред. ФЗ-474 от 04.11.2023), 6 месяцев - отражено в блоке про маршруты и в FAQ",
+    "f13: отчисление прекращает льготный период - отражено в блоке про господдержку и в FAQ",
+    "f15: позиция ВС РФ о добросовестности (Определение от 03.06.2019 № 305-ЭС18-26429) - отражено в блоке про условие добросовестности с текстовым упоминанием",
+    "Запрещённые утверждения (forbidden_claims) исключены: нет гарантий списания, нет тезиса «государство простит долг», нет формулировки «госпошлина 300 руб», нет утверждения «банкротство занимает 3 месяца», нет тезиса «поручитель освобождается вместе с должником», нет утверждения «при банкротстве всё имущество заберут»"
+  ],
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "text_chars": 7559,
+  "length_status": "warn",
+  "length_kind": "default",
+  "local_spam_top10_share": 0.102,
+  "local_spam_ngram3_repeat": 0.039,
+  "local_lexical_diversity": 0.604,
+  "local_ai_markers_density": 0.21,
+  "local_ai_markers_total": 2,
+  "local_ai_markers_critical": 0,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 3,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 3,
+  "predicted_spam_pct": 55,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность выше 50% (~55%)"
+  ],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1780411762/articles/obrazovatelnyj-kredit-bankrotstvo-fizlica-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1780411762/articles/obrazovatelnyj-kredit-bankrotstvo-fizlica-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Photograph of an architectural passage between two stone administrative buildings, a quiet courtyard with a damp stone colonnade reflecting the cool overcast sky. Camera: low-angle along the passageway with vanishing point centered, architectural lines drawing deeper into the frame. Foreground at the base: a closed leather portfolio resting on wet pavement, a small stack of legal dossiers tied with cord, a fountain pen aligned beside, an antique brass pocket watch on a chain. Materials: weathered stone, polished brass, aged leather. Palette: cool grey-blue reflections with restrained warm tones from distant lampposts. Lighting: soft overcast daylight with subtle fog softening the far end. Mood: quiet moment of transition between educational obligation and legal proceeding, the threshold where insolvency process begins.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-06-02T14:49:23Z",
+  "date_published": "2026-06-02",
+  "date_modified": "2026-06-02",
+  "ready_for_review": true,
+  "ready_at": "2026-06-02T14:49:23Z",
+  "publication_target": "telegram_review",
+  "tokens_by_model": {
+    "sonnet": {
+      "input_tokens": 2094,
+      "output_tokens": 2675,
+      "cache_creation_input_tokens": 815590,
+      "cache_read_input_tokens": 7129723,
+      "messages": 154
+    },
+    "haiku": {
+      "input_tokens": 80,
+      "output_tokens": 251,
+      "cache_creation_input_tokens": 74304,
+      "cache_read_input_tokens": 300902,
+      "messages": 18
+    },
+    "opus": {
+      "input_tokens": 75,
+      "output_tokens": 593,
+      "cache_creation_input_tokens": 274700,
+      "cache_read_input_tokens": 991349,
+      "messages": 30
+    }
+  },
+  "tokens_total": {
+    "input": 2249,
+    "output": 3519,
+    "cache_read": 8421974,
+    "cache_creation": 1164594,
+    "total": 1170362
+  }
+}

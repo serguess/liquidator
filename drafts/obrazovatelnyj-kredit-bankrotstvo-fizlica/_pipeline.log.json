@@ -1,0 +1,40 @@
+{
+  "slug": "obrazovatelnyj-kredit-bankrotstvo-fizlica",
+  "category": null,
+  "started_at": "2026-06-02T17:40:32",
+  "finished_at": null,
+  "total_duration_sec": null,
+  "current_iteration": 2,
+  "events": [
+    {
+      "ts": "2026-06-02T17:40:32",
+      "agent": "4-writer",
+      "event": "iteration_returned",
+      "iteration": 2,
+      "reason": "spam_risk: top10_share=0.123>0.120; ai_markers_critical: длинное тире в FAQ-вопросе",
+      "recommendation": "reduce_repetition топ-5 лемм (займ×12→≤8, закон×9→≤6, банкротств×9→≤6, студент×9→≤6, заёмщик×9→≤6); fix_ai_markers: убрать тире в FAQ"
+    },
+    {
+      "ts": "2026-06-02T17:49:38",
+      "agent": "scheduler",
+      "event": "slot_started",
+      "iteration": 2,
+      "category": "fiz",
+      "today_count": 8,
+      "limit": 11,
+      "write_article_duration_sec": 2236.9
+    },
+    {
+      "ts": "2026-06-02T17:49:38",
+      "agent": "quality_gate",
+      "event": "passed",
+      "iteration": 2,
+      "blockers": [],
+      "warnings": [
+        "internal_links_autofixed: 2 ссылок (например /articles/fiz/bankrotstvo-pri-poruchitelstve.html→/articles/fiz/bankrotstvo-pri-poruchitelstve; /articles/fiz/bankrotstvo-pri-potrebitelskom-kredite.html→/articles/fiz/bankrotstvo-pri-potrebitelskom-kredite)",
+        "spam_soft_passed: ratio-флаги мягкие при iter=3, targeted_tokens чистые → пропускаем (spam ≈48-52% по прогнозу)"
+      ],
+      "recommendations": []
+    }
+  ]
+}

@@ -2605,6 +2605,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "obrazovatelnyj-kredit-bankrotstvo-fizlica",
+      "category": "fiz",
+      "title": "Образовательный кредит при банкротстве физлица",
+      "added_at": "2026-06-02T17:49:23.569121",
+      "char_count": 7559,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1780411762/articles/obrazovatelnyj-kredit-bankrotstvo-fizlica-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
