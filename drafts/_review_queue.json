@@ -2618,6 +2618,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "postavshchik-pri-bankrotstve-pokupatelya",
+      "category": "yur",
+      "title": "Поставщик при банкротстве покупателя: как вернуть долг",
+      "added_at": "2026-06-02T20:13:54.774895",
+      "char_count": 8027,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1780420433/articles/postavshchik-pri-bankrotstve-pokupatelya-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": false,
+        "hard_failed": false
+      }
     }
   ]
 }

@@ -12239,5 +12239,83 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-06-02T17:12:21",
+    "category": "fiz",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 13,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "fiz-88",
+    "topic_slug": "obrazovatelnyj-kredit-bankrotstvo-fizlica",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "internal_links_autofixed: 2 ссылок (например /articles/fiz/bankrotstvo-pri-poruchitelstve.html→/articles/fiz/bankrotstvo-pri-poruchitelstve; /articles/fiz/bankrotstvo-pri-potrebitelskom-kredite.html→/articles/fiz/bankrotstvo-pri-potrebitelskom-kredite)",
+        "spam_soft_passed: ratio-флаги мягкие при iter=3, targeted_tokens чистые → пропускаем (spam ≈48-52% по прогнозу)"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "obrazovatelnyj-kredit-bankrotstvo-fizlica",
+    "duration_sec": 2236.9,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "queness** | passed (эмбеддинговая) |\n| **Factcheck** | passed |\n| **Quality gate** | passed (retry_count=2, spam_soft_pass на iter=2) |\n| **metrics_warning** | нет |\n| **Обложка** | сгенерирована, template_id=23 |\n| **ready_for_review** | true |\n\n**Прогнозные метрики text.ru** (из quality_gate): spam ≈55%, AI-detector ≈3%, uniqueness ≈87%\n\nСтатья добавлена в очередь ревью (позиция 201). Реальные метрики text.ru будут после прохода через text.ru — поле `textru_*` заполнится при обработке очереди.",
+    "stderr_tail": "",
+    "tokens_by_model": {
+      "sonnet": {
+        "input_tokens": 2094,
+        "output_tokens": 2675,
+        "cache_creation_input_tokens": 815590,
+        "cache_read_input_tokens": 7129723,
+        "messages": 154
+      },
+      "haiku": {
+        "input_tokens": 80,
+        "output_tokens": 251,
+        "cache_creation_input_tokens": 74304,
+        "cache_read_input_tokens": 300902,
+        "messages": 18
+      },
+      "opus": {
+        "input_tokens": 75,
+        "output_tokens": 593,
+        "cache_creation_input_tokens": 274700,
+        "cache_read_input_tokens": 991349,
+        "messages": 30
+      }
+    },
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7559
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]
