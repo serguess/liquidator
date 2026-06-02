@@ -12082,5 +12082,80 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-06-02T12:24:12",
+    "category": "vzysk",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 11,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "vzysk-72",
+    "topic_slug": "uproshchennoe-proizvodstvo-arbitrazh-vzyskanie",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "uproshchennoe-proizvodstvo-arbitrazh-vzyskanie",
+    "duration_sec": 3139.9,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": ") |\n| Uniqueness | passed (после 1 итерации — переработан финальный блок) |\n| Factcheck | passed |\n| Обложка | сгенерирована (template 13) |\n| Режим публикации | ready_for_review = true |\n| Файл | `drafts/uproshchennoe-proizvodstvo-arbitrazh-vzykanie/article.html` |\n\n**Прогнозные метрики text.ru** (из quality_gate):\n- `textru_ai_detector`: ~3%\n- `textru_uniqueness`: ~87%\n- `textru_spam`: ~53%\n\nСтатья добавлена в очередь TG-ревью (позиция #199). Публикация — через бота после одобрения заказчиком.",
+    "stderr_tail": "",
+    "tokens_by_model": {
+      "sonnet": {
+        "input_tokens": 187,
+        "output_tokens": 3078,
+        "cache_creation_input_tokens": 674442,
+        "cache_read_input_tokens": 9533423,
+        "messages": 160
+      },
+      "haiku": {
+        "input_tokens": 3940,
+        "output_tokens": 27,
+        "cache_creation_input_tokens": 65791,
+        "cache_read_input_tokens": 170244,
+        "messages": 16
+      },
+      "opus": {
+        "input_tokens": 37,
+        "output_tokens": 171,
+        "cache_creation_input_tokens": 153176,
+        "cache_read_input_tokens": 639529,
+        "messages": 17
+      }
+    },
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7389
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]

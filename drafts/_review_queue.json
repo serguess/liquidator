@@ -2592,6 +2592,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "vosstanovlenie-poruchitelstva-osparivanie-platezha-bankrotstvo",
+      "category": "news",
+      "title": "ВС решит: восстанавливается ли поручительство после оспаривания платежа",
+      "added_at": "2026-06-02T15:26:13.296445",
+      "char_count": 6894,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1780403171/articles/vosstanovlenie-poruchitelstva-osparivanie-platezha-bankrotstvo-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

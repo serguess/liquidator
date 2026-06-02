@@ -5042,6 +5042,27 @@
       "articles": [
         "uproshchennoe-proizvodstvo-arbitrazh-vzyskanie"
       ]
+    },
+    {
+      "id": "news-vs-poruchitelstvo-vosstanovlenie-2026-05",
+      "category": "news",
+      "subtopic": "восстановление поручительства после оспаривания платежа в банкротстве - позиция ВС",
+      "intent": "informational",
+      "funnel_stage": "cold",
+      "main_keyword": "восстановление поручительства при банкротстве",
+      "news_zone": "vs_practice",
+      "event_date": "2026-05-04",
+      "related_keywords": [
+        "поручительство после оспаривания платежа",
+        "прекращение поручительства при банкротстве",
+        "обязательство поручителя после банкротства основного должника",
+        "недействительность сделки и поручительство",
+        "реестр требований кредиторов поручитель",
+        "оспаривание сделки должника поручительство"
+      ],
+      "articles": [
+        "vosstanovlenie-poruchitelstva-osparivanie-platezha-bankrotstvo"
+      ]
     }
   ]
 }
