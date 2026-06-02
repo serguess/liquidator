@@ -11849,5 +11849,84 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-06-02T07:36:37",
+    "category": "vzysk",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 8,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "vzysk-71",
+    "topic_slug": "vzyskanie-ushcherba-s-rabotnika-rabotodatelem",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "forced_pass_at_iter2: блокеры пропущены, статья идёт в TG-очередь с metrics_warning=true. Было: 1 блокеров — spam_risk"
+      ],
+      "recommendations": [
+        "reduce_repetition: разбавить топ-5 частотных лемм местоимениями/перифразом — ['стать', 'работник', 'потер', 'сотрудник', 'ущерб']"
+      ],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "vzyskanie-ushcherba-s-rabotnika-rabotodatelem",
+    "duration_sec": 2378.6,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "знаков |\n| Uniqueness | 1 итерация возврата (CTA overlap 0.245 → исправлен финальный блок на чеклист «5 ошибок работодателя») |\n| Factcheck | passed (18/20 фактов покрыты) |\n| Quality gate | forced_pass (iter 2) — spam_risk warning (ngram3=0.044, top3=32) |\n| `metrics_warning` | true |\n| Обложка | загружена на Cloudinary (template_id=2) |\n| Статус | `ready_for_review=true`, добавлена в TG-очередь (всего 196 статей) |\n\n**text.ru:** метрики будут доступны после проверки на сайте (в очереди ревью).",
+    "stderr_tail": "",
+    "tokens_by_model": {
+      "sonnet": {
+        "input_tokens": 2500,
+        "output_tokens": 2973,
+        "cache_creation_input_tokens": 587303,
+        "cache_read_input_tokens": 5820609,
+        "messages": 147
+      },
+      "haiku": {
+        "input_tokens": 60,
+        "output_tokens": 35,
+        "cache_creation_input_tokens": 74108,
+        "cache_read_input_tokens": 221920,
+        "messages": 15
+      },
+      "opus": {
+        "input_tokens": 44,
+        "output_tokens": 295,
+        "cache_creation_input_tokens": 168246,
+        "cache_read_input_tokens": 1104343,
+        "messages": 24
+      }
+    },
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7710
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]

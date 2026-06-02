@@ -1,0 +1,127 @@
+{
+  "slug": "obzhalovanie-aktov-suda-bankrotstvo-fizlica",
+  "category": "fiz",
+  "title": "Обжалование судебных актов в банкротстве физлица",
+  "description": "Порядок обжалования определений и решений арбитражного суда в деле о банкротстве физлица: апелляция, кассация, сроки, основания, кто вправе подать жалобу.",
+  "h1": "Как обжаловать судебный акт в деле о банкротстве гражданина",
+  "lead": "Определение о завершении дела и отказе в освобождении от долгов — не приговор: его можно обжаловать, но срок для большинства определений всего 10 дней со дня вынесения.",
+  "topic_action": "проверку оснований для обжалования судебного акта",
+  "breadcrumb_current": "Обжалование судебных актов в банкротстве физлица",
+  "og_image": "/assets/articles/obzhalovanie-aktov-suda-bankrotstvo-fizlica.jpg",
+  "main_keyword": "обжалование судебных актов в банкротстве физлица",
+  "secondary_keywords": [
+    "обжалование определения о завершении банкротства",
+    "апелляция по делу о банкротстве физлица",
+    "кассационная жалоба банкротство физлица",
+    "обжалование решения о признании банкротом",
+    "сроки обжалования определений банкротство",
+    "оспаривание судебного акта банкротство физлица"
+  ],
+  "internal_links": [
+    "/articles/fiz/nedobrosovestnost-dolzhnika-otkaz-v-spisanii.html",
+    "/articles/fiz/kogda-dolgi-ne-spishut-pri-bankrotstve.html",
+    "/articles/fiz/zhaloba-na-finansovogo-upravlyayushchego.html",
+    "/articles/fiz/osparivanie-sdelok-fizlica-bankrotstvo.html"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/",
+    "https://www.consultant.ru/document/cons_doc_LAW_37800/"
+  ],
+  "faq": [
+    {
+      "question": "Я получил копию определения через 2 недели после вынесения — 10 дней уже вышли. Можно что-то сделать?",
+      "answer": "Период считается с даты вынесения, а не с момента получения письма. Если прошёл — нужно ходатайство о восстановлении. Суды строги: незнание о публикации в ЕФРСБ уважительной причиной не считается (Пленум ВАС, постановление № 35, пункт 14). Шанс есть при реальной объективной причине — например, госпитализации."
+    },
+    {
+      "question": "Банк не вошёл в реестр — может ли он обжаловать определение об утверждении плана торгов?",
+      "answer": "Да. Третьи лица, чьи права затронуты актом, вправе подавать апелляцию без формального участия в деле. Залогодержатель вправе оспорить решение о реализации предмета залога — это прямо предусматривают процессуальный кодекс и разъяснения Пленума ВАС 2012 года."
+    },
+    {
+      "question": "Суд отказал в освобождении, ссылаясь на то, что я не отвечал управляющему. Это законное основание?",
+      "answer": "Нет. Закрытый перечень оснований не включает «ненадлежащую переписку». Отказ должен быть обоснован одним из четырёх оснований из закона — приговором, сокрытием, ложными сведениями или злостным уклонением. Несоответствие этому перечню становится главным доводом при обжаловании."
+    },
+    {
+      "question": "Чем кассация в суде округа отличается от кассации в Верховный суд?",
+      "answer": "Суд округа принимает обращение в обязательном порядке. Коллегия Верховного суда — только при существенных нарушениях норм, вправе отказать без рассмотрения по существу. Дедлайн у обоих: 2 месяца."
+    },
+    {
+      "question": "Обязательно ли проходить апелляцию перед кассационной жалобой?",
+      "answer": "Да. Кассация принимается только после апелляционного рассмотрения. Без апелляционного акта обращение вернут."
+    },
+    {
+      "question": "Что произойдёт с алиментами, если апелляция отменит определение о завершении?",
+      "answer": "Ничего. Алименты не списываются — это прямое правило закона, не зависящее от итогов разбирательства."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все 18 фактов research.json сверены: f1-f3, f6-f8, f11-f13, f15, f18 — отражены полностью; f9 (ЕФРСБ как надлежащее уведомление по ПП ВАС № 35 п. 14) — отражён в блоке сроков и в FAQ; f4 (закрытый перечень оснований по п. 4 ст. 213.28) и f5 (несписываемые долги по п. 5 ст. 213.28) — корректно разделены; f14 (ПП ВС РФ № 45 от 13.10.2015) — упомянут только текстом без href (fact_gap #2), f10 (третьи лица, чьи права затронуты) — отражён в FAQ и в блоке про пересмотр",
+    "f17 (госпошлина по подп. 12 п. 1 ст. 333.21 НК РФ, статус needs_verification) — использована безопасная формулировка из safe_phrasing: 'Применение льготы для граждан — уточняйте в конкретном деле', без обещаний конкретных сумм или автоматического освобождения",
+    "Запрещённые утверждения (forbidden_claims) исключены: нет обещаний автоматического приостановления исполнения акта (явная оговорка о том, что подача жалобы НЕ приостанавливает исполнение), нет обещаний гарантированной отмены апелляцией, нет тезиса об отмене алиментов после обжалования, нет утверждения, что СРО/Росреестр отменяют судебные акты",
+    "ПП ВС РФ № 45 от 13.10.2015 — упомянут только текстом, без гиперссылки (нет в whitelist, fact_gap #2)"
+  ],
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "text_chars": 7941,
+  "length_status": "warn",
+  "length_kind": "default",
+  "local_spam_top10_share": 0.091,
+  "local_spam_ngram3_repeat": 0.02,
+  "local_lexical_diversity": 0.618,
+  "local_ai_markers_density": 0.2,
+  "local_ai_markers_total": 2,
+  "local_ai_markers_critical": 0,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 2,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 3,
+  "predicted_spam_pct": 53,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность чуть выше 50% (~53%)"
+  ],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1780380493/articles/obzhalovanie-aktov-suda-bankrotstvo-fizlica-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1780380493/articles/obzhalovanie-aktov-suda-bankrotstvo-fizlica-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Editorial photograph of a working desk in a modern business interior focused on appellate review. Camera: slight overhead three-quarter angle. On the walnut desktop: a closed dark leather case folder positioned left of center, a polished round court seal resting on a stack of closed dossiers tied with cord, a fountain pen aligned across the portfolio's spine, reading glasses laid on top of unmarked legal documents, a closed thin laptop with brushed aluminum lid, a white porcelain coffee cup on a saucer slightly right of frame. Materials: walnut top, brushed steel, leather inlay, brass accents. Background: stone-and-wood feature wall with soft city skyline visible through tall windows, blurred. Lighting: directional warm light from upper left casting deliberate shadows across the documents, emphasizing the weight of appellate work. Mood: meticulous legal review, careful examination of court orders, serious procedural deliberation.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-06-02T06:08:14Z",
+  "date_published": "2026-06-02",
+  "date_modified": "2026-06-02",
+  "ready_for_review": true,
+  "ready_at": "2026-06-02T06:08:14Z",
+  "publication_target": "telegram_review",
+  "tokens_by_model": {
+    "sonnet": {
+      "input_tokens": 172,
+      "output_tokens": 2891,
+      "cache_creation_input_tokens": 719367,
+      "cache_read_input_tokens": 5688147,
+      "messages": 134
+    },
+    "haiku": {
+      "input_tokens": 72,
+      "output_tokens": 53,
+      "cache_creation_input_tokens": 71971,
+      "cache_read_input_tokens": 301986,
+      "messages": 18
+    },
+    "opus": {
+      "input_tokens": 32,
+      "output_tokens": 146,
+      "cache_creation_input_tokens": 114319,
+      "cache_read_input_tokens": 374182,
+      "messages": 12
+    }
+  },
+  "tokens_total": {
+    "input": 276,
+    "output": 3090,
+    "cache_read": 6364315,
+    "cache_creation": 905657,
+    "total": 909023
+  }
+}

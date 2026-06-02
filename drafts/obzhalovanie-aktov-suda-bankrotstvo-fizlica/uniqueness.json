@@ -1,0 +1,26 @@
+{
+  "slug": "obzhalovanie-aktov-suda-bankrotstvo-fizlica",
+  "passed": false,
+  "scores": {
+    "structure_overlap": 0.0,
+    "thesis_similarity": 0.393,
+    "cta_overlap": 0.013
+  },
+  "similar_articles": [
+    {
+      "slug": "dacha-garazh-zemelnyj-uchastok-bankrotstvo",
+      "category": "fiz",
+      "similarity": 0.393
+    }
+  ],
+  "conflicts": [
+    "thesis_similarity: 0.393 (threshold: 0.3) — семантическое совпадение блоков на уровне смысла"
+  ],
+  "recommendation": "rewrite_with_angle:case-reader-perspective",
+  "details": {
+    "conflict_type": "semantic_clustering",
+    "issue": "Блоки статьи о процедуре обжалования имеют семантическую близость 39.3% к статье о дачах при банкротстве. Обе статьи движутся через описание судебных актов, определений и решений суда в контексте банкротства физлица. Требуется переиспользование угла подачи.",
+    "suggested_angle": "case-reader-perspective",
+    "description": "Вместо 'сухого разбора трёх инстанций обжалования' переделать на 'Кейсы читателей: как Иван обжаловал отказ в освобождении', 'Когда апелляция спасает, а когда нет' — привязка к конкретным жизненным ситуациям читателей, не ко всей теории сразу."
+  }
+}

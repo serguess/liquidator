@@ -1,0 +1,40 @@
+{
+  "slug": "obzhalovanie-aktov-suda-bankrotstvo-fizlica",
+  "category": null,
+  "started_at": "2026-06-02T08:55:43",
+  "finished_at": null,
+  "total_duration_sec": null,
+  "current_iteration": 2,
+  "events": [
+    {
+      "ts": "2026-06-02T08:55:43",
+      "agent": "4-writer",
+      "event": "iteration_returned",
+      "iteration": 2,
+      "reason": "thesis_similarity 0.393 > 0.3 с dacha-garazh-zemelnyj-uchastok-bankrotstvo",
+      "recommendation": "rewrite_with_angle:case-reader-perspective — открыть с конкретного случая, каждый раздел инстанций привязать к жизненной ситуации читателя, FAQ через реальные вопросы практики"
+    },
+    {
+      "ts": "2026-06-02T09:08:36",
+      "agent": "scheduler",
+      "event": "slot_started",
+      "iteration": 2,
+      "category": "fiz",
+      "today_count": 4,
+      "limit": 14,
+      "write_article_duration_sec": 2296.2
+    },
+    {
+      "ts": "2026-06-02T09:08:37",
+      "agent": "quality_gate",
+      "event": "passed",
+      "iteration": 2,
+      "blockers": [],
+      "warnings": [
+        "Автофикс применил правки: сокращения=0, пунктуация=0",
+        "internal_links_autofixed: 4 ссылок (например /articles/fiz/nedobrosovestnost-dolzhnika-otkaz-v-spisanii.html→/articles/fiz/nedobrosovestnost-dolzhnika-otkaz-v-spisanii; /articles/fiz/kogda-dolgi-ne-spishut-pri-bankrotstve.html→/articles/fiz/kogda-dolgi-ne-spishut-pri-bankrotstve; /articles/fiz/zhaloba-na-finansovogo-upravlyayushchego.html→/articles/fiz/zhaloba-na-finansovogo-upravlyayushchego)"
+      ],
+      "recommendations": []
+    }
+  ]
+}

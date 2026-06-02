@@ -2553,6 +2553,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "obzhalovanie-aktov-suda-bankrotstvo-fizlica",
+      "category": "fiz",
+      "title": "Обжалование судебных актов в банкротстве физлица",
+      "added_at": "2026-06-02T09:08:14.147145",
+      "char_count": 7941,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1780380493/articles/obzhalovanie-aktov-suda-bankrotstvo-fizlica-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
