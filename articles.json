@@ -1,6 +1,19 @@
 {
-  "generated": "2026-06-02",
+  "generated": "2026-06-03",
   "articles": [
+    {
+      "slug": "apellyacionnaya-zhaloba-na-reshenie-o-vzyskanii",
+      "cat": "vzysk",
+      "catLabel": "Взыскание задолженности",
+      "title": "Апелляция на решение суда о взыскании: как подать",
+      "desc": "Как обжаловать решение суда о взыскании долга: сроки 1 месяц, порядок подачи через суд первой инстанции, госпошлина, основания для отмены. Новые правила с января 2026.",
+      "date": "3 июня 2026",
+      "dateIso": "2026-06-03",
+      "read": "5 мин.",
+      "tone": "b",
+      "img": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1780317521/articles/apellyacionnaya-zhaloba-na-reshenie-o-vzyskanii-cover.jpg",
+      "url": "articles/vzysk/apellyacionnaya-zhaloba-na-reshenie-o-vzyskanii"
+    },
     {
       "slug": "transgranichnoe-bankrotstvo-rossijskoj-kompanii",
       "cat": "yur",

@@ -4327,7 +4327,7 @@
     "apellyacionnaya-zhaloba-na-reshenie-o-vzyskanii": {
       "category": "vzysk",
       "title": "Апелляция на решение суда о взыскании: как подать",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -4335,14 +4335,16 @@
       "tg_message_id": 1185,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-06-01T15:39:43",
-      "last_action_at": "2026-06-02T10:00:44",
+      "last_action_at": "2026-06-03T00:02:37",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/vzysk/apellyacionnaya-zhaloba-na-reshenie-o-vzyskanii",
       "pending_batch": false,
       "pending_batch_at": "2026-06-01T15:39:43",
       "batch_sent_at": "2026-06-02T10:00:44",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-06-03T00:02:37",
+      "articles_path": "articles/vzysk/apellyacionnaya-zhaloba-na-reshenie-o-vzyskanii.html"
     },
     "bankrotstvo-grazhdan-rost-rekord-kvartalnye-dannye": {
       "category": "news",
