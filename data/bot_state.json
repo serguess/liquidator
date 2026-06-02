@@ -4371,7 +4371,7 @@
     "bankrotstvo-dolg-kreditnyj-kooperativ-kpk": {
       "category": "fiz",
       "title": "Долг в КПК и банкротство: спишут ли займ кооперативу",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -4379,14 +4379,16 @@
       "tg_message_id": 1189,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-06-01T20:18:45",
-      "last_action_at": "2026-06-02T10:00:48",
+      "last_action_at": "2026-06-03T00:04:34",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/fiz/bankrotstvo-dolg-kreditnyj-kooperativ-kpk",
       "pending_batch": false,
       "pending_batch_at": "2026-06-01T20:18:45",
       "batch_sent_at": "2026-06-02T10:00:48",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-06-03T00:04:34",
+      "articles_path": "articles/fiz/bankrotstvo-dolg-kreditnyj-kooperativ-kpk.html"
     },
     "intellektualnaya-sobstvennost-bankrotstvo-yurlica": {
       "category": "yur",
