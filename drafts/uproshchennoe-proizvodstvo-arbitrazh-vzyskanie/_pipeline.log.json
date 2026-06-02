@@ -1,0 +1,37 @@
+{
+  "slug": "uproshchennoe-proizvodstvo-arbitrazh-vzyskanie",
+  "category": null,
+  "started_at": "2026-06-02T13:07:49",
+  "finished_at": null,
+  "total_duration_sec": null,
+  "current_iteration": 2,
+  "events": [
+    {
+      "ts": "2026-06-02T13:07:49",
+      "agent": "4-writer",
+      "event": "iteration_returned",
+      "iteration": 2,
+      "reason": "CTA overlap 26.9% с опубликованными статьями vzysk",
+      "recommendation": "rewrite_with_angle:change-cta-perspective — финальный абзац переформулировать в стиле 'что дальше после победы' (исполнительный лист → ФССП → исполнительное производство)"
+    },
+    {
+      "ts": "2026-06-02T13:16:32",
+      "agent": "scheduler",
+      "event": "slot_started",
+      "iteration": 2,
+      "category": "vzysk",
+      "today_count": 6,
+      "limit": 11,
+      "write_article_duration_sec": 3139.9
+    },
+    {
+      "ts": "2026-06-02T13:16:32",
+      "agent": "quality_gate",
+      "event": "passed",
+      "iteration": 2,
+      "blockers": [],
+      "warnings": [],
+      "recommendations": []
+    }
+  ]
+}

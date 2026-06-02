@@ -1,0 +1,20 @@
+{
+  "slug": "uproshchennoe-proizvodstvo-arbitrazh-vzyskanie",
+  "passed": false,
+  "scores": {
+    "structure_overlap": 0.0,
+    "thesis_similarity": 0.0,
+    "cta_overlap": 0.269
+  },
+  "thresholds": {
+    "structure_overlap": 0.4,
+    "thesis_similarity": 0.3,
+    "cta_overlap": 0.2
+  },
+  "similar_articles": [],
+  "conflicts": [
+    "cta_overlap: 0.269 (exceeds threshold 0.2)"
+  ],
+  "recommendation": "rewrite_with_angle:change-cta-perspective",
+  "notes": "Structure and thesis content are unique. CTA block (last 3 paragraphs) has 26.9% semantic overlap with published vzysk articles, likely due to standard closing formula about executor list and timelines. Recommend changing final pitch from standard summary-style closing to reader-centric perspective: e.g., instead of 'summary of timeframes and key points', try 'what happens next for you' or 'common mistakes after winning' or action-focused frame."
+}

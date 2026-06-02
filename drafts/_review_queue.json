@@ -2579,6 +2579,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "uproshchennoe-proizvodstvo-arbitrazh-vzyskanie",
+      "category": "vzysk",
+      "title": "Упрощённое производство в арбитраже: взыскание долга",
+      "added_at": "2026-06-02T13:16:15.528420",
+      "char_count": 7389,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1780395374/articles/uproshchennoe-proizvodstvo-arbitrazh-vzyskanie-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

@@ -12006,5 +12006,81 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-06-02T10:00:00",
+    "category": "yur",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 10,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "expanded_in_slot": true,
+    "topic_id": "yur-79",
+    "topic_slug": "saldirovanie-pri-bankrotstve-vs-zachet",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "saldirovanie-pri-bankrotstve-vs-zachet",
+    "duration_sec": 2662.7,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "*Категория:** yur\n- **Длина:** 7 676 знаков\n- **Uniqueness:** passed (семантическое сходство 9.8%)\n- **Factcheck:** passed\n- **Quality gate:** passed (2 итерации: сократили длину 8361→7676 зн, разбавили топ-5 лемм)\n- **Обложка:** сгенерирована, загружена на Cloudinary (template_id=24)\n- **Режим публикации:** `ready_for_review=true` — статья в TG-очереди\n\n**text.ru метрики:** не проверялись (запускаются scheduler-ом отдельно)\n\n**Файл:** `drafts/saldirovanie-pri-bankrotstve-vs-zachet/article.html`",
+    "stderr_tail": "",
+    "tokens_by_model": {
+      "sonnet": {
+        "input_tokens": 136,
+        "output_tokens": 2373,
+        "cache_creation_input_tokens": 550334,
+        "cache_read_input_tokens": 4731301,
+        "messages": 117
+      },
+      "haiku": {
+        "input_tokens": 122,
+        "output_tokens": 33,
+        "cache_creation_input_tokens": 90082,
+        "cache_read_input_tokens": 72916,
+        "messages": 11
+      },
+      "opus": {
+        "input_tokens": 2596,
+        "output_tokens": 92,
+        "cache_creation_input_tokens": 195677,
+        "cache_read_input_tokens": 744795,
+        "messages": 24
+      }
+    },
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7676
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]

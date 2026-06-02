@@ -1,0 +1,147 @@
+{
+  "slug": "uproshchennoe-proizvodstvo-arbitrazh-vzyskanie",
+  "category": "vzysk",
+  "title": "Упрощённое производство в арбитраже: взыскание долга",
+  "description": "Как взыскать долг через арбитраж в упрощённом порядке: лимиты иска (до 800 тыс. для ЮЛ, 400 тыс. для ИП), сроки, документы, решение без заседания.",
+  "h1": "Упрощённое производство в арбитражном суде: как взыскать долг без заседания",
+  "lead": "Арбитраж рассматривает иск без вызова сторон за 2 месяца, если цена требования не превышает 800 тыс. рублей для компаний и 400 тыс. для предпринимателей.",
+  "topic_action": "взыскание долга через арбитраж",
+  "offer": "snyatie-aresta",
+  "breadcrumb_current": "Упрощённое производство в арбитраже",
+  "og_image": "/assets/articles/uproshchennoe-proizvodstvo-arbitrazh-vzyskanie.jpg",
+  "main_keyword": "упрощённое производство в арбитражном суде взыскание долга",
+  "secondary_keywords": [
+    "упрощённое производство арбитраж",
+    "взыскание долга без заседания",
+    "арбитражный суд без вызова сторон",
+    "цена иска упрощённое производство",
+    "ст 227 АПК РФ",
+    "подача иска в арбитраж упрощённый порядок",
+    "решение упрощённое производство арбитраж",
+    "апелляция упрощённое производство",
+    "госпошлина упрощённое производство"
+  ],
+  "internal_links": [
+    "/articles/vzysk/dosudebnaya-pretenziya-obrazec",
+    "/articles/vzysk/vzyskanie-dolga-po-dogovoru-postavki",
+    "/articles/vzysk/ispolnitelnyj-list-poluchenie-predyavlenie",
+    "/articles/vzysk/obespechitelnye-mery-arest-scheta"
+  ],
+  "external_links": [],
+  "faq": [
+    {
+      "question": "Можно ли подать иск без предварительной претензии, если ответчик устно признал долг?",
+      "answer": "Нет. Устное признание не заменяет письменную претензию. По процессуальному кодексу нужно письменное обращение с подтверждением отправки. Без него суд оставит заявление без рассмотрения."
+    },
+    {
+      "question": "Сколько стоит госпошлина за иск на 500 тыс. рублей?",
+      "answer": "По пошлинной шкале НК (ред. с 8 сентября 2024 года): семь тысяч рублей плюс 2% от суммы сверх двухсот. Для иска 500 тыс. рублей это тринадцать тысяч. При удовлетворении пошлину взыскивают с проигравшей стороны."
+    },
+    {
+      "question": "Что произойдёт, если должник не ответит на иск вообще?",
+      "answer": "Молчание не препятствует рассмотрению. По истечении сроков (не менее 15 рабочих дней) суд вынесет акт. Возможность снизить неустойку должник потеряет безвозвратно."
+    },
+    {
+      "question": "До какого момента вправе подать апелляционную жалобу?",
+      "answer": "В течение 15 дней с публикации резолютивной части в Картотеке арбитражных дел. Если сторона запросила мотивированное решение - срок считается с даты его составления. Пропуск означает вступление акта в силу."
+    },
+    {
+      "question": "Применяется ли упрощённый порядок к спорам с иностранной компанией?",
+      "answer": "Да, если дело подведомственно российскому арбитражу и сумма укладывается в установленные пороги. Иностранный участник получает уведомление через КАД. Особый порядок вручения действует только при прямом указании в договоре."
+    },
+    {
+      "question": "Обязательно ли запрашивать мотивированное решение для получения исполнительного листа?",
+      "answer": "Нет. Исполнительный документ выдаётся на основании резолютивной части после вступления акта в силу. Мотивированное решение нужно для апелляции или кассации."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все юр-утверждения сверены с research.json (last_verified=2026-06-02, legislation_status=active для всех использованных норм).",
+    "f1, f2 (п. 1 ч. 1 ст. 227 АПК в ред. ФЗ-451 от 28.11.2018) - пороги 800 тыс. для ЮЛ и 400 тыс. для ИП использованы в лиде и блоке о цене иска. Brief.json содержал ошибочные 1,2 млн / 600 тыс. - откатили на проверяемые значения по research.fact_gaps.",
+    "f3 (ст. 229.2 АПК - судебный приказ до 500 тыс.) - граница приказа описана в блоке о цене иска и в блоке альтернатив.",
+    "f5 (ч. 4 ст. 227 АПК - исключения: корпоративные споры, групповые иски, гостайна) - передано в блоке о цене иска. Долги поставки и подряда явно вынесены за исключения.",
+    "f6, f7 (ч. 2, ч. 5 ст. 228 АПК - срок 2 месяца, без вызова сторон, 15 рабочих дней на отзыв) - в лиде и блоке 'Решение без заседания'.",
+    "f8 (ст. 229 АПК - только резолютивная часть, мотивированное решение по заявлению в 5 дней) - в блоке о решении.",
+    "f9 (ч. 3 ст. 229 АПК - вступление в силу через 15 дней) - в лиде и блоке о работе процедуры.",
+    "f10 (ч. 4 ст. 229 АПК - апелляция 15 дней, не месяц) - явно противопоставлено общему порядку.",
+    "f11 (ч. 5 ст. 227 АПК - перевод в общий порядок при встречном иске) - в блоке об альтернативах и блоке рисков.",
+    "f12 (ст. 333.21 НК ред. ФЗ-176 от 12.07.2024) - расчёт для 800 тыс. = 19 000 руб. (7 000 + 2% от 600 000) приведён в блоке о пошлине; для 500 тыс. = 13 000 руб. в FAQ.",
+    "f13 (ст. 319 АПК - исполнительный лист после вступления в силу), f14 (ч. 5 ст. 4 АПК - 30 дней на претензию), f16 (ст. 103 АПК - неустойка в цену иска) - все корректно отражены.",
+    "f17 (ст. 333 ГК + Пленум ВС № 7 от 24.03.2016 - снижение неустойки через отзыв) - в блоке 'Решение без заседания'.",
+    "Внешняя ссылка ст. 70 229-ФЗ упомянута текстом без гиперссылки (229-ФЗ есть в legal_whitelist, но в данном контексте оставлено как текстовое упоминание).",
+    "Forbidden_claims соблюдены: нет гарантии взыскания, ответчик не назван бесправным, апелляция = 15 дней (не месяц), пошлина по шкале НК (не фиксированная), есть пороги и исключения, нет цифр 1,2 млн / 600 тыс., обязательная претензия по ч. 5 ст. 4 АПК озвучена явно.",
+    "Required_disclaimers будут вставлены шаблонизатором через placeholder BP:DISCLAIMER (первый из research.required_disclaimers - информационный характер).",
+    "Запрещённые блоки 'Шаги/Процесс/Шаблоны заявлений' отсутствуют. Перечень из 4 элементов в блоке о цене иска (документы) описывает требования закона, не учит проходить процедуру самостоятельно.",
+    "Жирные заголовки с двоеточием переписаны как абзацы с inline-bold (в блоках 'Кому упрощёнка выгодна' и 'Что может сорвать взыскание').",
+    "Устойчивые юр-формулировки сохранены: 'досудебный порядок', 'резолютивная часть', 'обеспечительные меры', 'Картотека арбитражных дел', 'встречный иск'.",
+    "Внутренние ссылки (4) проверены в data/published_index.json и приведены к формату /articles/vzysk/{slug}: dosudebnaya-pretenziya-obrazec, vzyskanie-dolga-po-dogovoru-postavki, ispolnitelnyj-list-poluchenie-predyavlenie, obespechitelnye-mery-arest-scheta.",
+    "CTA-блоки заменены на placeholder-комментарии: BP:CTA-TOP после лида, BP:CTA-MID после блока о маршруте, BP:CTA-BOTTOM перед BP:DISCLAIMER. Шаблонизатор подставит CTA из meta.topic_action.",
+    "Density главного ключа: точное вхождение полного ключа 'упрощённое производство в арбитражном суде взыскание долга' в теле = 0 (только в title/h1, ключ длинный и неестественен в потоке). В тексте использованы части ключа и синонимы из synonym_cluster: 'упрощённое производство', 'упрощённый порядок', 'упрощённый режим', 'упрощёнка', 'арбитраж', 'арбитражный суд', 'взыскание', 'возврат', 'истребование'.",
+    "Категория vzysk: 'суд' и производные использованы умеренно (с лестницей: арбитраж, инстанция, судья, разбирательство, дело); 'взыскан' - в пределах cap, через ladder: 'возврат', 'истребование', 'получить с должника'.",
+    "Лимит цитирования закона: прямые цитаты норм отсутствуют, нормы передаются пересказом со ссылками на статьи."
+  ],
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "text_chars": 7389,
+  "length_status": "ok",
+  "length_kind": "default",
+  "local_spam_top10_share": 0.112,
+  "local_spam_ngram3_repeat": 0.02,
+  "local_lexical_diversity": 0.59,
+  "local_ai_markers_density": 0.43,
+  "local_ai_markers_total": 4,
+  "local_ai_markers_critical": 0,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 4,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 53,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность чуть выше 50% (~53%)"
+  ],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1780395374/articles/uproshchennoe-proizvodstvo-arbitrazh-vzyskanie-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1780395374/articles/uproshchennoe-proizvodstvo-arbitrazh-vzyskanie-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Tight close-up photograph suggesting a lawyer's desk mid-review of arbitration documents but with absolutely no people, hands, or faces visible. An opened leather briefcase sits in the center-left with papers fanning out, a polished round seal positioned at its corner. A fountain pen lies uncapped across a closed stack of dossiers tied with red cord, with another sealed portfolio beside it. A white porcelain coffee cup on a saucer sits half-finished slightly out of focus in the background right. A wooden desk chair is pushed slightly back as if the reviewer just stepped away. Camera: shallow depth of field, three-quarter angle. Lighting: warm directional from upper left casting elegant shadows on the leather and paper textures. Atmosphere: paused mid-process, swift arbitration procedure, formal legal documentation at rest. Materials: walnut desk, weathered leather, brass fixtures. Palette: warm brown and oxblood leather with cool paper white accents.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-06-02T10:16:15Z",
+  "date_published": "2026-06-02",
+  "date_modified": "2026-06-02",
+  "ready_for_review": true,
+  "ready_at": "2026-06-02T10:16:15Z",
+  "publication_target": "telegram_review",
+  "tokens_by_model": {
+    "sonnet": {
+      "input_tokens": 187,
+      "output_tokens": 3078,
+      "cache_creation_input_tokens": 674442,
+      "cache_read_input_tokens": 9533423,
+      "messages": 160
+    },
+    "haiku": {
+      "input_tokens": 3940,
+      "output_tokens": 27,
+      "cache_creation_input_tokens": 65791,
+      "cache_read_input_tokens": 170244,
+      "messages": 16
+    },
+    "opus": {
+      "input_tokens": 37,
+      "output_tokens": 171,
+      "cache_creation_input_tokens": 153176,
+      "cache_read_input_tokens": 639529,
+      "messages": 17
+    }
+  },
+  "tokens_total": {
+    "input": 4164,
+    "output": 3276,
+    "cache_read": 10343196,
+    "cache_creation": 893409,
+    "total": 900849
+  }
+}
