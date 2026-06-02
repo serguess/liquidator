@@ -2540,6 +2540,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "vzyskanie-ushcherba-s-rabotnika-rabotodatelem",
+      "category": "vzysk",
+      "title": "Взыскание ущерба с работника: порядок по ТК РФ",
+      "added_at": "2026-06-02T08:15:58.574133",
+      "char_count": 7710,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1780377357/articles/vzyskanie-ushcherba-s-rabotnika-rabotodatelem-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

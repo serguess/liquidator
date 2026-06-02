@@ -11771,5 +11771,83 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-06-02T05:12:08",
+    "category": "yur",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 7,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "yur-78",
+    "topic_slug": "licenziruyemyj-biznes-bankrotstvo-apteka-klinika",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "Автофикс применил правки: сокращения=0, пунктуация=0",
+        "internal_links_autofixed: 3 ссылок (например /articles/yur/bankrotstvo-malogo-biznesa-msp.html→/articles/yur/bankrotstvo-malogo-biznesa-msp; /articles/yur/bankrotstvo-ooo-poshagovo-2026.html→/articles/yur/bankrotstvo-ooo-poshagovo-2026; /articles/yur/osparivanie-sdelok-pri-bankrotstve.html→/articles/yur/osparivanie-sdelok-pri-bankrotstve)"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "licenziruyemyj-biznes-bankrotstvo-apteka-klinika",
+    "duration_sec": 2037.0,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "te | passed (0 блокеров) |\n| Uniqueness | 1 итерация возврата (cta_overlap → исправлено) |\n| Factcheck | passed |\n| Обложка | загружена на Cloudinary |\n| Готово к ревью | `ready_for_review: true` |\n\n**Метрики text.ru** (проставятся после публикации): `textru_ai_detector`, `textru_uniqueness`, `textru_spam` — пока `null`, статья ещё не опубликована.\n\nPredicted metrics из quality_gate: spam ≈47%, AI ≈3%, uniqueness ≈90%.\n\nФайл: `drafts/licenziruyemyj-biznes-bankrotstvo-apteka-klinika/article.html`",
+    "stderr_tail": "",
+    "tokens_by_model": {
+      "sonnet": {
+        "input_tokens": 16312,
+        "output_tokens": 2988,
+        "cache_creation_input_tokens": 642630,
+        "cache_read_input_tokens": 4396718,
+        "messages": 132
+      },
+      "haiku": {
+        "input_tokens": 120,
+        "output_tokens": 84,
+        "cache_creation_input_tokens": 76374,
+        "cache_read_input_tokens": 287846,
+        "messages": 19
+      },
+      "opus": {
+        "input_tokens": 38,
+        "output_tokens": 186,
+        "cache_creation_input_tokens": 112466,
+        "cache_read_input_tokens": 702176,
+        "messages": 18
+      }
+    },
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7695
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]

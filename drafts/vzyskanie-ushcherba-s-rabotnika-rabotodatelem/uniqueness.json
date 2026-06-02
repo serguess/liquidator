@@ -1,0 +1,32 @@
+{
+  "slug": "vzyskanie-ushcherba-s-rabotnika-rabotodatelem",
+  "passed": false,
+  "scores": {
+    "structure_overlap": 0.0,
+    "thesis_similarity": 0.216,
+    "cta_overlap": 0.245
+  },
+  "thresholds": {
+    "structure_overlap": 0.4,
+    "thesis_similarity": 0.3,
+    "cta_overlap": 0.2
+  },
+  "similar_articles": [
+    {
+      "slug": "cessiya-ustupka-trebovaniya-prava-dolzhnika",
+      "category": "vzysk",
+      "similarity": 0.245,
+      "context": "Semantic similarity in CTA block (closing section about legal consultation)"
+    }
+  ],
+  "conflicts": [
+    "cta_overlap: 0.245 (threshold: 0.20) — closing section has similar semantic structure to another article's CTA"
+  ],
+  "recommendation": "rewrite_with_angle:restructure-cta",
+  "analysis": {
+    "status": "FAILED ON CTA UNIQUENESS",
+    "detail": "The draft's closing section (final 2-3 paragraphs about legal help) has 0.245 cosine similarity with the closing section of 'cessiya-ustupka-trebovaniya-prava-dolzhnika'. This exceeds the threshold of 0.20. The similarity stems from parallel structures discussing when to engage a lawyer and what lawyers check (both articles use similar pattern: 'document exists + seems clear BUT process mistakes exist — consult specialist'). Content topics are distinct (employer damages vs. debt assignment), but semantic closing pattern is too similar.",
+    "note": "Structure (H2 sequence) and thesis similarity are well below thresholds (0.0 and 0.216 respectively). Only CTA is problematic."
+  },
+  "action_for_agent_4": "Change CTA angle in the final section (lines 115-120). Instead of the template 'everything looks clear BUT process matters require expertise', use one of these angles: (1) Specific outcome focus: 'You may recover 100%, 50%, or nothing — here's what changes the result' (reframe from consultation need to outcome uncertainty); (2) Risk-first angle: 'Biggest mistake employers make when calculating damages: ...'; (3) Procedural checklist: Convert final section to a verification checklist employees must NOT skip, rather than 'get legal help' message. This will shift the semantic pattern and reduce CTA overlap."
+}
