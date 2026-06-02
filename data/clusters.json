@@ -1266,7 +1266,30 @@
         "три года срок предъявления исполнительного листа"
       ],
       "articles": [
-        "ispolnitelnyj-list-poluchenie-predyavlenie"
+        "ispolnitelnyj-list-poluchenie-predyavlenie",
+        "ispolnitelnyj-list-predyavit-v-bank-dolzhnika"
+      ]
+    },
+    {
+      "id": "vzysk-ispolnitelnyj-list-bank-naprymuju",
+      "category": "vzysk",
+      "subtopic": "предъявление исполнительного листа в банк должника напрямую без приставов",
+      "intent": "informational",
+      "funnel_stage": "warm",
+      "main_keyword": "предъявить исполнительный лист в банк должника",
+      "parent_cluster": "vzysk-ispolnitelnyj-list-poluchenie",
+      "related_keywords": [
+        "исполнительный лист в банк без приставов",
+        "подать исполнительный лист в банк напрямую",
+        "заявление в банк по исполнительному листу образец",
+        "как узнать счет должника для исполнительного листа",
+        "взыскание через банк а не через приставов",
+        "статья 8 229-ФЗ предъявление в банк",
+        "срок исполнения исполнительного листа банком",
+        "что делать если у должника нет денег на счете"
+      ],
+      "articles": [
+        "ispolnitelnyj-list-predyavit-v-bank-dolzhnika"
       ]
     },
     {
@@ -5105,6 +5128,28 @@
       ],
       "articles": [
         "postavshchik-pri-bankrotstve-pokupatelya"
+      ]
+    },
+    {
+      "id": "vzysk-soglashenie-alimenty-notarius",
+      "category": "vzysk",
+      "subtopic": "нотариальное соглашение об уплате алиментов: оформление без суда, минимальный размер, изменение и исполнение",
+      "intent": "informational",
+      "funnel_stage": "warm",
+      "main_keyword": "нотариальное соглашение об уплате алиментов",
+      "related_keywords": [
+        "соглашение об алиментах без суда",
+        "алиментное соглашение нотариус",
+        "как оформить алименты без суда",
+        "алиментное соглашение исполнительный лист",
+        "изменение соглашения об алиментах",
+        "расторжение соглашения об алиментах",
+        "соглашение об алиментах образец",
+        "алименты по соглашению размер минимум",
+        "соглашение об алиментах статья 100 СК РФ"
+      ],
+      "articles": [
+        "soglashenie-ob-alimentah-u-notariusa"
       ]
     }
   ]
