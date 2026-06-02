@@ -11928,5 +11928,83 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-06-02T08:30:20",
+    "category": "fiz",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 9,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "fiz-87",
+    "topic_slug": "obzhalovanie-aktov-suda-bankrotstvo-fizlica",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "Автофикс применил правки: сокращения=0, пунктуация=0",
+        "internal_links_autofixed: 4 ссылок (например /articles/fiz/nedobrosovestnost-dolzhnika-otkaz-v-spisanii.html→/articles/fiz/nedobrosovestnost-dolzhnika-otkaz-v-spisanii; /articles/fiz/kogda-dolgi-ne-spishut-pri-bankrotstve.html→/articles/fiz/kogda-dolgi-ne-spishut-pri-bankrotstve; /articles/fiz/zhaloba-na-finansovogo-upravlyayushchego.html→/articles/fiz/zhaloba-na-finansovogo-upravlyayushchego)"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "obzhalovanie-aktov-suda-bankrotstvo-fizlica",
+    "duration_sec": 2296.2,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "2 em-dash в h3) |\n| Predicted AI-detector | ~3% (было 35% на первом прогоне — исправлен \"надлежащее\" + em-dash) |\n| Predicted spam | ~53% |\n| Predicted uniqueness | ~87% |\n| ready_for_review | true |\n| Файл | `drafts/obzhalovanie-aktov-suda-bankrotstvo-fizlica/article.html` |\n\n**textru_ai_detector / textru_uniqueness / textru_spam:** N/A — реальные метрики text.ru считаются при публикации через бота.\n\nСтатья добавлена в review queue (197 позиций), обложка сгенерирована и загружена на Cloudinary.",
+    "stderr_tail": "",
+    "tokens_by_model": {
+      "sonnet": {
+        "input_tokens": 172,
+        "output_tokens": 2891,
+        "cache_creation_input_tokens": 719367,
+        "cache_read_input_tokens": 5688147,
+        "messages": 134
+      },
+      "haiku": {
+        "input_tokens": 72,
+        "output_tokens": 53,
+        "cache_creation_input_tokens": 71971,
+        "cache_read_input_tokens": 301986,
+        "messages": 18
+      },
+      "opus": {
+        "input_tokens": 32,
+        "output_tokens": 146,
+        "cache_creation_input_tokens": 114319,
+        "cache_read_input_tokens": 374182,
+        "messages": 12
+      }
+    },
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7941
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]
