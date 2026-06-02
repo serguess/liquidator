@@ -4282,7 +4282,7 @@
     "neustoyka-v-reestre-trebovanij-bankrotstvo-fizlica": {
       "category": "fiz",
       "title": "Неустойка в реестре кредиторов при банкротстве физлица",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -4290,13 +4290,15 @@
       "tg_message_id": 1179,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-06-01T11:20:41",
-      "last_action_at": "2026-06-01T11:20:41",
+      "last_action_at": "2026-06-02T23:37:47",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/fiz/neustoyka-v-reestre-trebovanij-bankrotstvo-fizlica",
       "pending_batch": false,
       "pending_batch_at": "2026-06-01T11:20:41",
-      "batch_sent_at": "2026-06-01T11:42:06"
+      "batch_sent_at": "2026-06-01T11:42:06",
+      "published_at": "2026-06-02T23:37:47",
+      "articles_path": "articles/fiz/neustoyka-v-reestre-trebovanij-bankrotstvo-fizlica.html"
     },
     "transgranichnoe-bankrotstvo-rossijskoj-kompanii": {
       "category": "yur",

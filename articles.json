@@ -2,6 +2,19 @@
   "generated": "2026-06-02",
   "articles": [
     {
+      "slug": "neustoyka-v-reestre-trebovanij-bankrotstvo-fizlica",
+      "cat": "fiz",
+      "catLabel": "Банкротство физических лиц",
+      "title": "Неустойка в реестре кредиторов при банкротстве физлица",
+      "desc": "Как неустойка учитывается в реестре требований при банкротстве физлица: очерёдность, залоговые санкции, мораторные проценты, что спишут по итогу.",
+      "date": "2 июня 2026",
+      "dateIso": "2026-06-02",
+      "read": "5 мин.",
+      "tone": "b",
+      "img": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1780302007/articles/neustoyka-v-reestre-trebovanij-bankrotstvo-fizlica-cover.jpg",
+      "url": "articles/fiz/neustoyka-v-reestre-trebovanij-bankrotstvo-fizlica"
+    },
+    {
       "slug": "franshiza-pri-bankrotstve-prava-storon",
       "cat": "yur",
       "catLabel": "Банкротство юридических лиц",
