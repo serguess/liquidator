@@ -2,6 +2,19 @@
   "generated": "2026-06-02",
   "articles": [
     {
+      "slug": "bankrotstvo-pri-dolge-u-kollektorov",
+      "cat": "fiz",
+      "catLabel": "Банкротство физических лиц",
+      "title": "Банкротство при долге у коллекторов: права должника",
+      "desc": "Долг продан коллекторам - это не препятствие для банкротства. Как правильно включить коллектора в реестр, когда прекратятся звонки и что будет с долгом после процедуры.",
+      "date": "2 июня 2026",
+      "dateIso": "2026-06-02",
+      "read": "5 мин.",
+      "tone": "b",
+      "img": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1780284103/articles/bankrotstvo-pri-dolge-u-kollektorov-cover.jpg",
+      "url": "articles/fiz/bankrotstvo-pri-dolge-u-kollektorov"
+    },
+    {
       "slug": "reestr-dolzhnikov-fssp-kak-vyjti",
       "cat": "vzysk",
       "catLabel": "Взыскание задолженности",
