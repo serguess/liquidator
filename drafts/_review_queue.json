@@ -2514,6 +2514,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "otziv-zayavleniya-bankrotstvo-fizlica",
+      "category": "fiz",
+      "title": "Отзыв заявления о банкротстве физлица: когда можно",
+      "added_at": "2026-06-02T03:28:42.054258",
+      "char_count": 10710,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1780360121/articles/otziv-zayavleniya-bankrotstvo-fizlica-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": false,
+        "hard_failed": false
+      }
     }
   ]
 }

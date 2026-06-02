@@ -11602,5 +11602,87 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-06-02T00:24:37",
+    "category": "vzysk",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 5,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "vzysk-70",
+    "topic_slug": "vzyskanie-dolga-s-direktora-posle-likvidacii-ooo",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "Автофикс применил правки: сокращения=2, пунктуация=0",
+        "internal_links_autofixed: 4 ссылок (например /articles/vzysk/vzyskanie-dolga-s-ooo-cherez-arbitrazh.html→/articles/vzysk/vzyskanie-dolga-s-ooo-cherez-arbitrazh; /articles/vzysk/dosudebnaya-pretenziya-obrazec.html→/articles/vzysk/dosudebnaya-pretenziya-obrazec; /articles/vzysk/solidarnoe-vzyskanie-dolga-s-dolzhnikov.html→/articles/vzysk/solidarnoe-vzyskanie-dolga-s-dolzhnikov)",
+        "length_soft_passed: 8497 > 8000 но ≤ 8500 и iteration=4 — пропускаем (приоритет spam/uniqueness/ai)",
+        "forced_pass_at_iter2: блокеры пропущены, статья идёт в TG-очередь с metrics_warning=true. Было: 1 блокеров — spam_risk"
+      ],
+      "recommendations": [
+        "reduce_repetition: разбавить топ-5 частотных лемм местоимениями/перифразом — ['ответчик', 'взыскател', 'стать', 'закон', 'реестр']"
+      ],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "vzyskanie-dolga-s-direktora-posle-likvidacii-ooo",
+    "duration_sec": 2726.3,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "sed: true`\n- Quality gate: `passed: true` (forced_pass iter=2; blockers: spam_risk — в коридоре допустимых значений)\n- `metrics_warning: true` (spam_risk + length_soft)\n\n**Метрики text.ru:** не получены (выполняются отдельно scheduler-ом)\n- `textru_ai_detector`: н/д\n- `textru_uniqueness`: н/д\n- `textru_spam`: н/д\n\n**Обложка:** сгенерирована (template 18, courthouse hall + legal dossier theme), загружена на Cloudinary.\n**Статус:** `ready_for_review: true` — статья добавлена в TG-очередь на ревью.",
+    "stderr_tail": "",
+    "tokens_by_model": {
+      "sonnet": {
+        "input_tokens": 2422,
+        "output_tokens": 2236,
+        "cache_creation_input_tokens": 715684,
+        "cache_read_input_tokens": 6244977,
+        "messages": 153
+      },
+      "haiku": {
+        "input_tokens": 3904,
+        "output_tokens": 162,
+        "cache_creation_input_tokens": 76482,
+        "cache_read_input_tokens": 312493,
+        "messages": 19
+      },
+      "opus": {
+        "input_tokens": 50,
+        "output_tokens": 369,
+        "cache_creation_input_tokens": 183309,
+        "cache_read_input_tokens": 1692044,
+        "messages": 30
+      }
+    },
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 8497
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]
