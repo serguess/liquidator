@@ -4589,7 +4589,7 @@
     "obrazovatelnyj-kredit-bankrotstvo-fizlica": {
       "category": "fiz",
       "title": "Образовательный кредит при банкротстве физлица",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -4597,14 +4597,16 @@
       "tg_message_id": 1245,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-06-02T17:49:45",
-      "last_action_at": "2026-06-03T10:00:46",
+      "last_action_at": "2026-06-03T16:37:45",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/fiz/obrazovatelnyj-kredit-bankrotstvo-fizlica",
       "pending_batch": false,
       "pending_batch_at": "2026-06-02T17:49:45",
       "batch_sent_at": "2026-06-03T10:00:46",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-06-03T16:37:45",
+      "articles_path": "articles/fiz/obrazovatelnyj-kredit-bankrotstvo-fizlica.html"
     },
     "postavshchik-pri-bankrotstve-pokupatelya": {
       "category": "yur",
