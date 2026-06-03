@@ -2683,6 +2683,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "zalog-kvartiry-bankrotstvo-fizlica",
+      "category": "fiz",
+      "title": "Залог квартиры при банкротстве физлица: что будет",
+      "added_at": "2026-06-03T08:16:37.678924",
+      "char_count": 7152,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1780463796/articles/zalog-kvartiry-bankrotstvo-fizlica-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
