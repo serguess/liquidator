@@ -2735,6 +2735,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "otkaz-mfc-vnesudebnoe-bankrotstvo-fizlica",
+      "category": "fiz",
+      "title": "Отказ МФЦ в банкротстве: причины и что делать",
+      "added_at": "2026-06-03T18:00:52.351995",
+      "char_count": 7671,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1780498850/articles/otkaz-mfc-vnesudebnoe-bankrotstvo-fizlica-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

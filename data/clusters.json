@@ -5266,6 +5266,28 @@
       "articles": [
         "reorganizaciya-dolzhnika-prava-kreditora"
       ]
+    },
+    {
+      "id": "fiz-bankruptcy-mfc-rejection",
+      "category": "fiz",
+      "subtopic": "отказ МФЦ во внесудебном банкротстве: причины, исправление ошибок, повторная подача, переход в суд",
+      "intent": "informational",
+      "funnel_stage": "warm",
+      "main_keyword": "отказ МФЦ в банкротстве",
+      "related_keywords": [
+        "МФЦ отказал в банкротстве",
+        "почему МФЦ отказывает в банкротстве",
+        "причины отказа во внесудебном банкротстве",
+        "что делать если МФЦ отказал в банкротстве",
+        "повторная подача заявления на банкротство МФЦ",
+        "обжалование отказа МФЦ банкротство",
+        "не прошёл критерии внесудебного банкротства",
+        "ошибка в заявлении МФЦ банкротство"
+      ],
+      "articles": [
+        "vnesudebnoe-bankrotstvo-cherez-mfc-2026",
+        "otkaz-mfc-vnesudebnoe-bankrotstvo-fizlica"
+      ]
     }
   ]
 }

@@ -12944,5 +12944,75 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-06-03T14:48:36",
+    "category": "news",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 25,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "news-39",
+    "topic_slug": "bankrotstvo-dolg-vinovnika-dtp-ne-spishut",
+    "news_sanitized": 1,
+    "expanded_in_slot": true,
+    "auto_skipped": [
+      {
+        "slug": "transgranichnoye-bankrotstvo-inostrannye-sudy-subsidiarka",
+        "reason": "no_files_created",
+        "duration_sec": 275.0
+      }
+    ],
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "forced_pass_at_iter2: блокеры пропущены, статья идёт в TG-очередь с metrics_warning=true. Было: 1 блокеров — length_too_long"
+      ],
+      "recommendations": [
+        "reduce_length: сократить до 4500-6500 знаков"
+      ],
+      "stderr_tail": ""
+    },
+    "finalize_safety_net": {
+      "ran": true,
+      "rc": 0
+    },
+    "status": "ok",
+    "slug": "bankrotstvo-dolg-vinovnika-dtp-ne-spishut",
+    "duration_sec": 5100.3,
+    "returncode": -2,
+    "rescued_after_failure": true,
+    "stdout_tail": "icle.html собран. Запускаю quality_gate.\n[tool_use:Bash]\nQuality gate: `passed: false`, единственный блокер — `length_too_long: 7590 > 6800 (news)`. Это первая итерация возврата — возвращаю на агента 4 для сокращения длины.\n[tool_use:Bash]\n[tool_use:Bash]\n[tool_use:Agent]\n[tool_use:Read]\n[tool_use:Read]\n[tool_use:Read]\n[tool_use:Write]\n[tool_use:Bash]\n[tool_use:Write]\n[tool_use:Bash]\n[tool_use:Read]\n[tool_use:Read]\n[tool_use:Write]\n[tool_use:Bash]\n[tool_use:Read]\n[tool_use:Read]\n[tool_use:Write]",
+    "stderr_tail": "\n[scheduler] hit slot/article timeout after 1830s",
+    "tokens_by_model": {},
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7590
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]
