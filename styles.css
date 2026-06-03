@@ -617,8 +617,8 @@ a {
 }
 
 .hero__yandex-badge {
-  margin-top: -20px;
-  margin-bottom: -20px;
+  margin-top: 12px;
+  margin-bottom: -10px;
 }
 .hero__yandex-badge iframe {
   border: none;
