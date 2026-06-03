@@ -68,7 +68,20 @@ ABBREVIATIONS = {
     "кредорг": re.compile(r"\bкредорг\w*", re.IGNORECASE | re.UNICODE),
     "исполлист": re.compile(r"\bисполлист\w*", re.IGNORECASE | re.UNICODE),
     "банкротн (как сокращение)": re.compile(r"\bбанкротн\b", re.IGNORECASE | re.UNICODE),
+    "маткапитал/маткап": re.compile(r"\bматкапитал\w*|\bматкап\b", re.IGNORECASE | re.UNICODE),
 }
+
+# === Дефисные сцепки субъектов (кредитор-поставщик, организация-должник) ===
+# text.ru метит их как ошибки правописания. autofix.py расцепляет их
+# детерминированно ПЕРЕД этой проверкой, поэтому в норме остаток = 0.
+# Детектор оставлен как WARNING (не блокирует gate, не плодит итерации) —
+# чтобы ловить экзотические сцепки, которые autofix не покрыл, и видеть их
+# в отчёте. Список ролей синхронизирован с tools/autofix.py.
+try:
+    from tools.autofix import HYPHEN_ROLE_TYPE_RX, HYPHEN_ROLE_ROLE_RX
+    _HYPHEN_RX_AVAILABLE = True
+except Exception:  # pragma: no cover - автономный запуск без пакета
+    _HYPHEN_RX_AVAILABLE = False
 
 # === 2. Пробел после точки перед заглавной буквой ===
 # Регэксп ловит «текст.Текст» (без пробела). Не задевает аббревиатуры в одном слове
@@ -164,6 +177,7 @@ class Report:
     length_kind: str = "default"  # default | news
     abbreviation_hits: list[AbbreviationHit] = field(default_factory=list)
     punctuation_hits: list[PunctuationHit] = field(default_factory=list)
+    hyphen_compound_hits: list[str] = field(default_factory=list)  # WARNING, не блокирует
     spam: SpamHeuristics | None = None
     targeted_tokens: list[TargetedTokenHit] = field(default_factory=list)
     author_markers_count: int = 0
@@ -257,6 +271,17 @@ def check_punctuation(text: str) -> list[PunctuationHit]:
             fragment=context_of(text, m.start(), m.end(), window=20),
             position=m.start(),
         ))
+    return hits
+
+
+def check_hyphen_compounds(text: str) -> list[str]:
+    """WARNING-детектор дефисных сцепок субъектов (кредитор-поставщик и т.п.).
+    autofix их уже расцепляет, поэтому в норме пусто. Не блокирует gate."""
+    if not _HYPHEN_RX_AVAILABLE:
+        return []
+    hits = []
+    for rx in (HYPHEN_ROLE_TYPE_RX, HYPHEN_ROLE_ROLE_RX):
+        hits.extend(m.group(0).strip() for m in rx.finditer(text))
     return hits
 
 
@@ -706,6 +731,7 @@ def analyze(file_path: Path) -> Report:
         length_status=length_status(chars, kind),
         abbreviation_hits=check_abbreviations(text),
         punctuation_hits=check_punctuation(text),
+        hyphen_compound_hits=check_hyphen_compounds(text),
         spam=spam,
         targeted_tokens=check_targeted_tokens(text),
         author_markers_count=count_author_markers(text),
@@ -721,6 +747,7 @@ def to_dict(rep: Report) -> dict:
         "passed": rep.passed,
         "abbreviation_hits": [asdict(h) for h in rep.abbreviation_hits],
         "punctuation_hits": [asdict(h) for h in rep.punctuation_hits],
+        "hyphen_compound_hits": rep.hyphen_compound_hits,
         "spam": asdict(rep.spam) if rep.spam else None,
         "targeted_tokens": [asdict(h) for h in rep.targeted_tokens],
         "author_markers_count": rep.author_markers_count,
@@ -762,6 +789,15 @@ def print_report(rep: Report) -> None:
             print(f"    ... ещё {len(rep.punctuation_hits) - 5}")
     else:
         print("[OK] Пунктуация чистая.")
+
+    if rep.hyphen_compound_hits:
+        uniq = sorted(set(rep.hyphen_compound_hits))
+        print(f"\n[WARN] Дефисные сцепки субъектов (autofix должен был расцепить): "
+              f"{len(rep.hyphen_compound_hits)}")
+        for h in uniq[:8]:
+            print(f"    «{h}»")
+        if len(uniq) > 8:
+            print(f"    ... ещё {len(uniq) - 8} уникальных")
 
     if rep.spam:
         s = rep.spam
