@@ -4611,7 +4611,7 @@
     "postavshchik-pri-bankrotstve-pokupatelya": {
       "category": "yur",
       "title": "Поставщик при банкротстве покупателя: как вернуть долг",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -4619,14 +4619,16 @@
       "tg_message_id": 1247,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-06-02T20:14:46",
-      "last_action_at": "2026-06-03T10:00:48",
+      "last_action_at": "2026-06-03T16:39:03",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/yur/postavshchik-pri-bankrotstve-pokupatelya",
       "pending_batch": false,
       "pending_batch_at": "2026-06-02T20:14:46",
       "batch_sent_at": "2026-06-03T10:00:48",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-06-03T16:39:03",
+      "articles_path": "articles/yur/postavshchik-pri-bankrotstve-pokupatelya.html"
     },
     "soglashenie-ob-alimentah-u-notariusa": {
       "category": "vzysk",
