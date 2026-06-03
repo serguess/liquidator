@@ -12703,5 +12703,85 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-06-03T07:36:18",
+    "category": "fiz",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 22,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "expanded_in_slot": true,
+    "topic_id": "fiz-90",
+    "topic_slug": "zalog-kvartiry-bankrotstvo-fizlica",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "Автофикс применил правки: сокращения=1, пунктуация=0",
+        "internal_links_autofixed: 4 ссылок (например /konkursnaya-massa-pri-bankrotstve-fizlica→/articles/fiz/konkursnaya-massa-pri-bankrotstve-fizlica; /restrukturizaciya-ili-realizaciya-vybor→/articles/fiz/restrukturizaciya-ili-realizaciya-vybor; /mirovoe-soglashenie-bankrotstvo-fizlica→/articles/fiz/mirovoe-soglashenie-bankrotstvo-fizlica)",
+        "spam_soft_passed: ratio-флаги мягкие при iter=4, targeted_tokens чистые → пропускаем (spam ≈48-52% по прогнозу)"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "zalog-kvartiry-bankrotstvo-fizlica",
+    "duration_sec": 2436.0,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "в)  \n**Uniqueness:** passed (схожесть с ближайшей статьёй 0.132 при пороге 0.3)  \n**Factcheck:** passed (19/19 фактов верифицированы)  \n**Обложка:** сгенерирована (template_id=4, brass padlock + scales of justice)  \n**Статус:** `ready_for_review=true`, добавлена в очередь TG-ревью  \n\n**Предсказанные метрики (text.ru):**  \n- AI-детектор: ~3%  \n- Уникальность: ~87%  \n- Заспамленность: ~55% *(soft-warning, не блокер)*  \n\nРеальные метрики text.ru (`textru_*`) появятся после публикации через TG-бота.",
+    "stderr_tail": "",
+    "tokens_by_model": {
+      "sonnet": {
+        "input_tokens": 135,
+        "output_tokens": 2311,
+        "cache_creation_input_tokens": 764636,
+        "cache_read_input_tokens": 4469260,
+        "messages": 112
+      },
+      "haiku": {
+        "input_tokens": 64,
+        "output_tokens": 38,
+        "cache_creation_input_tokens": 70494,
+        "cache_read_input_tokens": 168833,
+        "messages": 13
+      },
+      "opus": {
+        "input_tokens": 46,
+        "output_tokens": 288,
+        "cache_creation_input_tokens": 158432,
+        "cache_read_input_tokens": 1199912,
+        "messages": 26
+      }
+    },
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7152
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]

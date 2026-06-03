@@ -1,0 +1,26 @@
+{
+  "slug": "vozrazheniya-na-trebovaniya-kreditorov-bankrotstvo",
+  "passed": false,
+  "scores": {
+    "structure_overlap": 0.0,
+    "thesis_similarity": 0.249,
+    "cta_overlap": 0.276
+  },
+  "thresholds": {
+    "structure_overlap": 0.4,
+    "thesis_similarity": 0.3,
+    "cta_overlap": 0.2
+  },
+  "similar_articles": [
+    {
+      "slug": "snyatie-aresta-s-imushchestva-cherez-sud",
+      "category": "vzysk",
+      "similarity": 0.276
+    }
+  ],
+  "conflicts": [
+    "cta_overlap: 0.276 (threshold: 0.2) — Финальные абзацы слишком похожи на другие статьи. CTA-блоки используют generic формулировку о консультации."
+  ],
+  "recommendation": "rewrite_with_angle:specify-cta-ending",
+  "detail": "Финальный блок (последние 2-3 абзаца) содержит generic CTA о консультации. Необходимо переформулировать заключение с более специфичным углом подачи: либо конкретные примеры последствий молчания (финансовые потери, потеря голоса с цифрами), либо пошаговая инструкция при конкретных сценариях (если подозреваете аффилированность, если пропущена давность). Структура и тезисы уникальны, конфликт только в CTA-зоне."
+}

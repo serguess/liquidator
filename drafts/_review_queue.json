@@ -2696,6 +2696,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "vozrazheniya-na-trebovaniya-kreditorov-bankrotstvo",
+      "category": "yur",
+      "title": "Возражения на требования кредиторов при банкротстве",
+      "added_at": "2026-06-03T10:43:38.199630",
+      "char_count": 7628,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1780472617/articles/vozrazheniya-na-trebovaniya-kreditorov-bankrotstvo-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
