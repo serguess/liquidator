@@ -2748,6 +2748,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "trudovye-prava-rabotnikov-bankrotstvo-yurlica",
+      "category": "yur",
+      "title": "Права работников при банкротстве работодателя",
+      "added_at": "2026-06-03T22:37:51.195965",
+      "char_count": 8704,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1780515470/articles/trudovye-prava-rabotnikov-bankrotstvo-yurlica-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": false,
+        "hard_failed": false
+      }
     }
   ]
 }

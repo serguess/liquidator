@@ -1904,7 +1904,8 @@
         "выходное пособие при банкротстве работодателя"
       ],
       "articles": [
-        "zarplatnye-dolgi-pri-bankrotstve-yurlica"
+        "zarplatnye-dolgi-pri-bankrotstve-yurlica",
+        "trudovye-prava-rabotnikov-bankrotstvo-yurlica"
       ]
     },
     {
@@ -5287,6 +5288,26 @@
       "articles": [
         "vnesudebnoe-bankrotstvo-cherez-mfc-2026",
         "otkaz-mfc-vnesudebnoe-bankrotstvo-fizlica"
+      ]
+    },
+    {
+      "id": "yur-neustoyka-bankrotstvo-yurlica",
+      "category": "yur",
+      "subtopic": "неустойка и штрафные санкции при банкротстве юридического лица: мораторий, реестр, мораторные проценты",
+      "intent": "informational",
+      "funnel_stage": "warm",
+      "main_keyword": "неустойка при банкротстве юридического лица",
+      "related_keywords": [
+        "штрафные санкции при банкротстве юрлица",
+        "мораторий на неустойку при банкротстве",
+        "неустойка в реестре требований кредиторов",
+        "мораторные проценты вместо неустойки банкротство",
+        "начисление неустойки после введения наблюдения",
+        "неустойка текущие платежи банкротство",
+        "пени штрафы при конкурсном производстве"
+      ],
+      "articles": [
+        "neustoyka-pri-bankrotstve-yurlica"
       ]
     }
   ]
