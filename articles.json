@@ -2,6 +2,19 @@
   "generated": "2026-06-03",
   "articles": [
     {
+      "slug": "vzyskanie-po-vekselyu-sudebnyj-poryadok",
+      "cat": "vzysk",
+      "catLabel": "Взыскание задолженности",
+      "title": "Взыскание по векселю: приказной или исковой порядок",
+      "desc": "Когда векселедержатель может получить судебный приказ, а когда нужен иск. Роль протеста нотариуса, подсудность, сроки давности и обеспечительные меры.",
+      "date": "3 июня 2026",
+      "dateIso": "2026-06-03",
+      "read": "5 мин.",
+      "tone": "b",
+      "img": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1780455769/articles/vzyskanie-po-vekselyu-sudebnyj-poryadok-cover.jpg",
+      "url": "articles/vzysk/vzyskanie-po-vekselyu-sudebnyj-poryadok"
+    },
+    {
       "slug": "komitet-kreditorov-bankrotstvo-yurlica",
       "cat": "yur",
       "catLabel": "Банкротство юридических лиц",
