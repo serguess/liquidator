@@ -1141,7 +1141,11 @@
       "topic_action": "консультацию по субсидиарной ответственности с зарубежными активами",
       "event_date": "2026-05-26",
       "news_zone": "vs_practice",
-      "primary_source": "https://www.rapsinews.ru/incident_news/20260526/311875930.html"
+      "primary_source": "https://www.rapsinews.ru/incident_news/20260526/311875930.html",
+      "status": "rejected",
+      "rejected_at": "2026-06-03T14:53:18",
+      "rejected_reason": "no_files_created",
+      "rejected_by": "auto_skip_in_slot"
     }
   ]
 }
