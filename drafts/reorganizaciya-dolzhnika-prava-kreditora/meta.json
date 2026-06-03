@@ -1,0 +1,127 @@
+{
+  "slug": "reorganizaciya-dolzhnika-prava-kreditora",
+  "category": "vzysk",
+  "title": "Реорганизация должника: права кредитора",
+  "description": "Что делать кредитору, если компания-должник реорганизуется: как потребовать досрочного исполнения, кто несёт солидарную ответственность и в какие сроки действовать по ст. 60 ГК.",
+  "h1": "Реорганизация должника: что делать кредитору, чтобы не остаться без долга",
+  "lead": "Компания-должник объявила о реорганизации - задолженность не исчезла, но при промедлении рычаги давления уйдут безвозвратно.",
+  "topic_action": "защиту прав кредитора при реорганизации должника",
+  "breadcrumb_current": "Реорганизация должника: права кредитора",
+  "og_image": "/assets/articles/reorganizaciya-dolzhnika-prava-kreditora.jpg",
+  "main_keyword": "реорганизация должника права кредитора",
+  "secondary_keywords": [
+    "что делать кредитору при реорганизации должника",
+    "досрочное исполнение обязательства при реорганизации",
+    "солидарная ответственность правопреемников реорганизации",
+    "уведомление кредиторов о реорганизации",
+    "взыскание долга с правопреемника должника",
+    "ст 60 ГК РФ права кредиторов",
+    "разделительный баланс солидарная ответственность",
+    "защита кредитора при слиянии присоединении компании"
+  ],
+  "internal_links": [
+    "/articles/vzysk/chto-takoe-ispolnitelnoe-proizvodstvo.html",
+    "/articles/vzysk/solidarnoe-vzyskanie-dolga-s-dolzhnikov.html",
+    "/articles/vzysk/obespechitelnye-mery-arest-scheta.html"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_5142/"
+  ],
+  "faq": [
+    {
+      "question": "Нужно ли согласие кредитора, чтобы долг перешёл к правопреемнику при реорганизации?",
+      "answer": "Нет. Переход происходит по закону без согласия взыскателя через механизм универсального правопреемства. Именно поэтому закон компенсирует такое положение специальными гарантиями: правом на досрочную выплату или обеспечение."
+    },
+    {
+      "question": "Чем отличаются права кредитора при разделении от прав при слиянии?",
+      "answer": "При разделении можно через суд потребовать досрочного погашения задолженности, а если невозможно - расторжения договора с возмещением убытков. При слиянии - только обеспечения исполнения. Логика: при слиянии появляется более крупная структура, угроза невозврата меньше."
+    },
+    {
+      "question": "Что произойдёт с долгом, если кредитор пропустил 30-дневный срок?",
+      "answer": "Задолженность сохраняется. Обязательство переходит к правопреемнику в полном объёме, взыскать его можно в обычном порядке. Теряется только специальное право требовать досрочного погашения или расторжения именно на основании реорганизации."
+    },
+    {
+      "question": "Распространяется ли солидарная ответственность при выделении?",
+      "answer": "Да, распространяется. Защитная норма применяется при любой форме, если из акта о распределении активов невозможно определить, кому перешло обязательство, или если активы и долги распределены несправедливо."
+    },
+    {
+      "question": "Обязательно ли получать определение суда, если исполнительное производство возбуждено до реорганизации?",
+      "answer": "Обязательно. Пристав не вправе самостоятельно заменить сторону - нужно судебное определение о процессуальном правопреемстве. Без этого документа принудительная процедура зависает."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все нормы (ст. 57, 58, 60, 60.2 ГК РФ; ст. 52 ФЗ-229) сверены с research.json, last_verified=2026-06-03, legislation_status=active.",
+    "Контекст применения проверен: досрочное исполнение - разделение/выделение/преобразование (f4); только обеспечение - слияние/присоединение (f5); солидарная ответственность - п. 5 ст. 60 (f6, f15); срок 3 месяца по ст. 60.2 (f7).",
+    "Конкретные номера дел ВС РФ не приводятся - в research.json f13 помечен contested, fact_gaps указывает на отсутствие свежей практики. Использованы общие формулировки.",
+    "Госпошлина по ст. 333.21 НК РФ (f16 needs_verification) в тексте не упоминается."
+  ],
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "text_chars": 7513,
+  "length_status": "warn",
+  "length_kind": "default",
+  "local_spam_top10_share": 0.102,
+  "local_spam_ngram3_repeat": 0.087,
+  "local_lexical_diversity": 0.571,
+  "local_ai_markers_density": 0.21,
+  "local_ai_markers_total": 2,
+  "local_ai_markers_critical": 0,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 2,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 3,
+  "predicted_spam_pct": 60,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность заметно выше 50% (~60%)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "spam_risk: 2 флагов (ngram3_repeat_share>0.035 (=0.087), lexical_diversity<0.58 (=0.571)), top-5: ['структур', 'актив', 'задолженнос', 'прав', 'обязательств']"
+  ],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1780480532/articles/reorganizaciya-dolzhnika-prava-kreditora-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1780480532/articles/reorganizaciya-dolzhnika-prava-kreditora-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Wide editorial photograph of a private executive office with high ceilings and tall windows framing a blurred city skyline. A large mahogany desk in the foreground holds a closed dark leather portfolio, a precision brass desk lamp, a fountain pen on a polished stand, a sand-filled antique brass hourglass mid-flow, a polished round corporate seal resting on closed dossier, and a white porcelain cup on saucer. Walnut bookshelves line the walls behind. The space evokes quiet tension — a moment of critical decision with limited time to act. Camera: three-quarter angle, slight low-angle emphasizing the ceiling. Lighting: cool window light from above blended with warm tungsten lamp glow. Palette: walnut, oxblood leather, warm brass on neutral cream. Mood: senior counsel weighing options before reorganization restructures creditor protection.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-06-03T09:55:33Z",
+  "date_published": "2026-06-03",
+  "date_modified": "2026-06-03",
+  "ready_for_review": true,
+  "ready_at": "2026-06-03T09:55:33Z",
+  "publication_target": "telegram_review",
+  "tokens_by_model": {
+    "sonnet": {
+      "input_tokens": 2973,
+      "output_tokens": 2161,
+      "cache_creation_input_tokens": 592070,
+      "cache_read_input_tokens": 4247478,
+      "messages": 116
+    },
+    "haiku": {
+      "input_tokens": 111,
+      "output_tokens": 44,
+      "cache_creation_input_tokens": 73818,
+      "cache_read_input_tokens": 123366,
+      "messages": 13
+    },
+    "opus": {
+      "input_tokens": 71,
+      "output_tokens": 181,
+      "cache_creation_input_tokens": 201953,
+      "cache_read_input_tokens": 746762,
+      "messages": 26
+    }
+  },
+  "tokens_total": {
+    "input": 3155,
+    "output": 2386,
+    "cache_read": 5117606,
+    "cache_creation": 867841,
+    "total": 873382
+  }
+}

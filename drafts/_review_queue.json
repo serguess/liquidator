@@ -2709,6 +2709,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "reorganizaciya-dolzhnika-prava-kreditora",
+      "category": "vzysk",
+      "title": "Реорганизация должника: права кредитора",
+      "added_at": "2026-06-03T12:55:33.889868",
+      "char_count": 7513,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1780480532/articles/reorganizaciya-dolzhnika-prava-kreditora-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

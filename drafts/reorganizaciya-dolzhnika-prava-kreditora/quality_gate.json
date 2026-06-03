@@ -1,0 +1,266 @@
+{
+  "file": "/home/appuser/apps/liquidator/drafts/reorganizaciya-dolzhnika-prava-kreditora/article.html",
+  "passed": true,
+  "hard_failed": false,
+  "blockers": [],
+  "warnings": [
+    "internal_links_autofixed: 3 ссылок (например /articles/vzysk/chto-takoe-ispolnitelnoe-proizvodstvo.html→/articles/vzysk/chto-takoe-ispolnitelnoe-proizvodstvo; /articles/vzysk/solidarnoe-vzyskanie-dolga-s-dolzhnikov.html→/articles/vzysk/solidarnoe-vzyskanie-dolga-s-dolzhnikov; /articles/vzysk/obespechitelnye-mery-arest-scheta.html→/articles/vzysk/obespechitelnye-mery-arest-scheta)",
+    "forced_pass_at_iter2: блокеры пропущены, статья идёт в TG-очередь с metrics_warning=true. Было: 1 блокеров — spam_risk"
+  ],
+  "autofix": {
+    "file": "/home/appuser/apps/liquidator/drafts/reorganizaciya-dolzhnika-prava-kreditora/article.html",
+    "abbreviation_fixes": {},
+    "punctuation_fixes": 0,
+    "em_dash_fixes": 0,
+    "eng_quotes_fixes": 0,
+    "changed": false,
+    "bytes_before": 41885,
+    "bytes_after": 41885
+  },
+  "quality_checks": {
+    "file": "drafts/reorganizaciya-dolzhnika-prava-kreditora/article.html",
+    "text_chars": 7513,
+    "length_status": "warn",
+    "length_kind": "default",
+    "passed": false,
+    "abbreviation_hits": [],
+    "punctuation_hits": [],
+    "spam": {
+      "total_words": 688,
+      "unique_lemmas": 393,
+      "lexical_diversity": 0.571,
+      "top10_words": [
+        [
+          "структур",
+          9
+        ],
+        [
+          "актив",
+          8
+        ],
+        [
+          "задолженнос",
+          7
+        ],
+        [
+          "прав",
+          7
+        ],
+        [
+          "обязательств",
+          7
+        ],
+        [
+          "разделен",
+          7
+        ],
+        [
+          "досрочн",
+          7
+        ],
+        [
+          "потребова",
+          6
+        ],
+        [
+          "должник",
+          6
+        ],
+        [
+          "преобразован",
+          6
+        ]
+      ],
+      "top10_share": 0.102,
+      "top1_count": 9,
+      "top3_sum": 24,
+      "top10_sum": 70,
+      "ngram3_repeat_count": 60,
+      "ngram3_total": 686,
+      "ngram3_repeat_share": 0.087,
+      "risk_flags": [
+        "ngram3_repeat_share>0.035 (=0.087)",
+        "lexical_diversity<0.58 (=0.571)"
+      ]
+    },
+    "targeted_tokens": [
+      {
+        "token": "ст_сокращение",
+        "count": 0,
+        "limit": 5,
+        "over_limit": false,
+        "severity": "hard"
+      },
+      {
+        "token": "РФ_рудимент",
+        "count": 0,
+        "limit": 2,
+        "over_limit": false,
+        "severity": "hard"
+      },
+      {
+        "token": "руб_сокращение",
+        "count": 0,
+        "limit": 0,
+        "over_limit": false,
+        "severity": "hard"
+      },
+      {
+        "token": "ООО_бренд",
+        "count": 0,
+        "limit": 3,
+        "over_limit": false,
+        "severity": "hard"
+      },
+      {
+        "token": "000руб_паттерн",
+        "count": 0,
+        "limit": 2,
+        "over_limit": false,
+        "severity": "hard"
+      },
+      {
+        "token": "127фз_закон",
+        "count": 0,
+        "limit": 2,
+        "over_limit": false,
+        "severity": "soft"
+      },
+      {
+        "token": "213_артикул",
+        "count": 0,
+        "limit": 3,
+        "over_limit": false,
+        "severity": "soft"
+      },
+      {
+        "token": "ГПК_кодекс",
+        "count": 0,
+        "limit": 3,
+        "over_limit": false,
+        "severity": "soft"
+      },
+      {
+        "token": "ГК_кодекс",
+        "count": 0,
+        "limit": 3,
+        "over_limit": false,
+        "severity": "soft"
+      },
+      {
+        "token": "000_число",
+        "count": 0,
+        "limit": 8,
+        "over_limit": false,
+        "severity": "soft"
+      },
+      {
+        "token": "cta_формула_повтор",
+        "count": 1,
+        "limit": 1,
+        "over_limit": false,
+        "severity": "soft"
+      }
+    ],
+    "author_markers_count": 2,
+    "author_markers_min": 2
+  },
+  "ai_markers": {
+    "file": "drafts/reorganizaciya-dolzhnika-prava-kreditora/article.html",
+    "text_chars": 9387,
+    "hits_total": 2,
+    "density_per_1000": 0.21,
+    "by_severity": {
+      "critical": 0,
+      "high": 0,
+      "medium": 0,
+      "low": 2
+    },
+    "own_voice_hits": 2,
+    "first_person_singular_hits": 0,
+    "hits": [
+      {
+        "name": "ИИ-лексика: «взаимодействие/тонкости/нюансы (абстрактно)»",
+        "category": "ai-lexis",
+        "severity": "low",
+        "match": "Взаимодействие",
+        "position": 9194,
+        "context": "...ение law@pravo.shop Коммерческие предложения biz@pravo.shop Взаимодействие со СМИ pr@pravo.shop © 2018-2026 ООО «ЛИКВИДАТОР». Все прав..."
+      },
+      {
+        "name": "Канцелярит: «в рамках» (без нужды)",
+        "category": "clerical",
+        "severity": "low",
+        "match": "в рамках",
+        "position": 8806,
+        "context": "...ровождение на всех этапах. Надёжность и законность Работаем в рамках ФЗ и действующего законодательства РФ. РЕКВИЗИТЫ ООО «ЛИКВИ..."
+      }
+    ]
+  },
+  "anti_template": {
+    "file": "drafts/reorganizaciya-dolzhnika-prava-kreditora/article.html",
+    "text_chars": 7896,
+    "phrases_loaded": 138,
+    "passed": true,
+    "hits": []
+  },
+  "law_quotes": {
+    "total_chars": 0,
+    "limit": 600,
+    "samples": []
+  },
+  "rhythm": {
+    "file": "drafts/reorganizaciya-dolzhnika-prava-kreditora/article.html",
+    "text_chars": 7896,
+    "sentences_total": 86,
+    "avg_sentence_len": 8.79,
+    "short_sentences_count": 20,
+    "short_sentences_share": 0.233,
+    "long_sentences_count": 0,
+    "parasite_count": 1,
+    "parasite_per_1000": 0.13,
+    "flags": []
+  },
+  "internal_links": {
+    "total_hrefs": 43,
+    "ok": 0,
+    "whitelisted": 21,
+    "external": 16,
+    "fixed": 3,
+    "errors": 0,
+    "changed": true,
+    "fix_details": [
+      {
+        "href": "/articles/vzysk/chto-takoe-ispolnitelnoe-proizvodstvo.html",
+        "verdict": "fix_html",
+        "fixed_href": "/articles/vzysk/chto-takoe-ispolnitelnoe-proizvodstvo",
+        "reason": "трейлинг .html → 301-редирект"
+      },
+      {
+        "href": "/articles/vzysk/solidarnoe-vzyskanie-dolga-s-dolzhnikov.html",
+        "verdict": "fix_html",
+        "fixed_href": "/articles/vzysk/solidarnoe-vzyskanie-dolga-s-dolzhnikov",
+        "reason": "трейлинг .html → 301-редирект"
+      },
+      {
+        "href": "/articles/vzysk/obespechitelnye-mery-arest-scheta.html",
+        "verdict": "fix_html",
+        "fixed_href": "/articles/vzysk/obespechitelnye-mery-arest-scheta",
+        "reason": "трейлинг .html → 301-редирект"
+      }
+    ],
+    "error_details": []
+  },
+  "recommendations": [
+    "reduce_repetition: разбавить топ-5 частотных лемм местоимениями/перифразом — ['структур', 'актив', 'задолженнос', 'прав', 'обязательств']"
+  ],
+  "retry_count": 3,
+  "predicted_metrics": {
+    "spam_pct": 60,
+    "ai_pct": 3,
+    "uniqueness_pct": 87
+  },
+  "customer_risks": [
+    "заспамленность заметно выше 50% (~60%)"
+  ]
+}

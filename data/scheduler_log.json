@@ -12783,5 +12783,86 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-06-03T10:00:00",
+    "category": "yur",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 23,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "yur-82",
+    "topic_slug": "vozrazheniya-na-trebovaniya-kreditorov-bankrotstvo",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "Автофикс применил правки: сокращения=0, пунктуация=0",
+        "internal_links_autofixed: 3 ссылок (например /articles/yur/osparivanie-sdelok-pri-bankrotstve.html→/articles/yur/osparivanie-sdelok-pri-bankrotstve; /articles/yur/subordinaciya-affilirovannyh-kreditorov-bankrotstvo.html→/articles/yur/subordinaciya-affilirovannyh-kreditorov-bankrotstvo; /articles/yur/osparivanie-trebovanij-v-reestre-kreditorov.html→/articles/yur/osparivanie-trebovanij-v-reestre-kreditorov)",
+        "forced_pass_at_iter2: блокеры пропущены, статья идёт в TG-очередь с metrics_warning=true. Было: 1 блокеров — spam_risk"
+      ],
+      "recommendations": [
+        "reduce_repetition: разбавить топ-5 частотных лемм местоимениями/перифразом — ['стать', 'кредитор', 'арбитраж', 'закон', 'банкротств']"
+      ],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "vozrazheniya-na-trebovaniya-kreditorov-bankrotstvo",
+    "duration_sec": 2642.2,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "ready_for_review: true`\n\n**Метрики quality_gate:**\n- uniqueness: passed (агент 5 — потребовалась 1 итерация по финальному блоку)\n- factcheck: passed\n- quality_gate: `forced_pass` на iter=2 (спам ngram3=0.061 > порог 0.035), `metrics_warning=true`\n- AI-маркеры: 2 low (оба в шаблоне footer, не в тексте), плотность 0.21/1000\n- anti_template: PASSED\n\n**textru:** метрики будут доступны после публикации через text.ru API (на момент финализации не заполнены). Predicted: spam≈49%, AI≈3%, uniqueness≈90%.",
+    "stderr_tail": "",
+    "tokens_by_model": {
+      "sonnet": {
+        "input_tokens": 5028,
+        "output_tokens": 2136,
+        "cache_creation_input_tokens": 648671,
+        "cache_read_input_tokens": 5326499,
+        "messages": 139
+      },
+      "haiku": {
+        "input_tokens": 111,
+        "output_tokens": 65,
+        "cache_creation_input_tokens": 87115,
+        "cache_read_input_tokens": 283628,
+        "messages": 21
+      },
+      "opus": {
+        "input_tokens": 63,
+        "output_tokens": 440,
+        "cache_creation_input_tokens": 168066,
+        "cache_read_input_tokens": 883306,
+        "messages": 28
+      }
+    },
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7628
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]
