@@ -4437,7 +4437,7 @@
     "otziv-zayavleniya-bankrotstvo-fizlica": {
       "category": "fiz",
       "title": "Отзыв заявления о банкротстве физлица: когда можно",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -4445,14 +4445,16 @@
       "tg_message_id": 1195,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-06-02T03:29:48",
-      "last_action_at": "2026-06-02T10:00:55",
+      "last_action_at": "2026-06-03T15:19:03",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/fiz/otziv-zayavleniya-bankrotstvo-fizlica",
       "pending_batch": false,
       "pending_batch_at": "2026-06-02T03:29:48",
       "batch_sent_at": "2026-06-02T10:00:55",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-06-03T15:19:03",
+      "articles_path": "articles/fiz/otziv-zayavleniya-bankrotstvo-fizlica.html"
     },
     "licenziruyemyj-biznes-bankrotstvo-apteka-klinika": {
       "category": "yur",
@@ -4522,15 +4524,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 1239,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-06-02T10:44:42",
-      "last_action_at": "2026-06-02T10:44:42",
+      "last_action_at": "2026-06-03T10:00:40",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-06-02T10:44:42"
+      "pending_batch": false,
+      "pending_batch_at": "2026-06-02T10:44:42",
+      "batch_sent_at": "2026-06-03T10:00:39",
+      "batch_fail_count": 0
     },
     "uproshchennoe-proizvodstvo-arbitrazh-vzyskanie": {
       "category": "vzysk",
@@ -4540,15 +4544,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 1241,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-06-02T13:16:43",
-      "last_action_at": "2026-06-02T13:16:43",
+      "last_action_at": "2026-06-03T10:00:42",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-06-02T13:16:43"
+      "pending_batch": false,
+      "pending_batch_at": "2026-06-02T13:16:43",
+      "batch_sent_at": "2026-06-03T10:00:42",
+      "batch_fail_count": 0
     },
     "vosstanovlenie-poruchitelstva-osparivanie-platezha-bankrotstvo": {
       "category": "news",
@@ -4558,15 +4564,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 1243,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-06-02T15:26:44",
-      "last_action_at": "2026-06-02T15:26:44",
+      "last_action_at": "2026-06-03T10:00:44",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-06-02T15:26:44"
+      "pending_batch": false,
+      "pending_batch_at": "2026-06-02T15:26:44",
+      "batch_sent_at": "2026-06-03T10:00:44",
+      "batch_fail_count": 0
     },
     "obrazovatelnyj-kredit-bankrotstvo-fizlica": {
       "category": "fiz",
@@ -4576,15 +4584,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 1245,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-06-02T17:49:45",
-      "last_action_at": "2026-06-02T17:49:45",
+      "last_action_at": "2026-06-03T10:00:46",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-06-02T17:49:45"
+      "pending_batch": false,
+      "pending_batch_at": "2026-06-02T17:49:45",
+      "batch_sent_at": "2026-06-03T10:00:46",
+      "batch_fail_count": 0
     },
     "postavshchik-pri-bankrotstve-pokupatelya": {
       "category": "yur",
@@ -4594,15 +4604,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 1247,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-06-02T20:14:46",
-      "last_action_at": "2026-06-02T20:14:46",
+      "last_action_at": "2026-06-03T10:00:48",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-06-02T20:14:46"
+      "pending_batch": false,
+      "pending_batch_at": "2026-06-02T20:14:46",
+      "batch_sent_at": "2026-06-03T10:00:48",
+      "batch_fail_count": 0
     },
     "soglashenie-ob-alimentah-u-notariusa": {
       "category": "vzysk",
@@ -4612,19 +4624,137 @@
       "versions": [
         "2.0"
       ],
+      "tg_message_id": 1249,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-06-02T23:25:47",
+      "last_action_at": "2026-06-03T10:00:50",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-06-02T23:25:47",
+      "batch_sent_at": "2026-06-03T10:00:50",
+      "batch_fail_count": 0
+    },
+    "prekrashchenie-dela-bankrotstvo-fizlica": {
+      "category": "fiz",
+      "title": "Прекращение банкротства физлица: основания и последствия",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 1251,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-06-03T00:54:48",
+      "last_action_at": "2026-06-03T10:00:53",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-06-03T00:54:48",
+      "batch_sent_at": "2026-06-03T10:00:53",
+      "batch_fail_count": 0
+    },
+    "komitet-kreditorov-bankrotstvo-yurlica": {
+      "category": "yur",
+      "title": "Комитет кредиторов при банкротстве: права и полномочия",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 1253,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-06-03T03:34:49",
+      "last_action_at": "2026-06-03T10:00:55",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-06-03T03:34:49",
+      "batch_sent_at": "2026-06-03T10:00:55",
+      "batch_fail_count": 0
+    },
+    "vzyskanie-po-vekselyu-sudebnyj-poryadok": {
+      "category": "vzysk",
+      "title": "Взыскание по векселю: приказной или исковой порядок",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 1255,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-06-03T06:03:40",
+      "last_action_at": "2026-06-03T10:00:57",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-06-03T06:03:40",
+      "batch_sent_at": "2026-06-03T10:00:57",
+      "batch_fail_count": 0
+    },
+    "zalog-kvartiry-bankrotstvo-fizlica": {
+      "category": "fiz",
+      "title": "Залог квартиры при банкротстве физлица: что будет",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 1257,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-06-03T08:17:41",
+      "last_action_at": "2026-06-03T10:01:00",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-06-03T08:17:41",
+      "batch_sent_at": "2026-06-03T10:01:00",
+      "batch_fail_count": 0
+    },
+    "vozrazheniya-na-trebovaniya-kreditorov-bankrotstvo": {
+      "category": "yur",
+      "title": "Возражения на требования кредиторов при банкротстве",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
       "tg_message_id": null,
       "tg_chat_id": null,
-      "first_seen_at": "2026-06-02T23:25:47",
-      "last_action_at": "2026-06-02T23:25:47",
+      "first_seen_at": "2026-06-03T10:44:42",
+      "last_action_at": "2026-06-03T10:44:42",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
       "pending_batch": true,
-      "pending_batch_at": "2026-06-02T23:25:47"
+      "pending_batch_at": "2026-06-03T10:44:42"
+    },
+    "reorganizaciya-dolzhnika-prava-kreditora": {
+      "category": "vzysk",
+      "title": "Реорганизация должника: права кредитора",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-06-03T12:56:43",
+      "last_action_at": "2026-06-03T12:56:43",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-06-03T12:56:43"
     }
   },
   "pending_actions": [],
-  "last_batch_date": "2026-06-02",
-  "last_batch_count": 11,
-  "last_batch_at": "2026-06-02T10:01:01"
+  "last_batch_date": "2026-06-03",
+  "last_batch_count": 10,
+  "last_batch_at": "2026-06-03T10:01:00"
 }
