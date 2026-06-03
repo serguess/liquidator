@@ -1,0 +1,147 @@
+{
+  "slug": "kreditnaya-istoriya-i-ispolnitelnoe-proizvodstvo",
+  "category": "vzysk",
+  "title": "Исполнительное производство и кредитная история",
+  "description": "Разбираем, как долг у судебных приставов портит кредитную историю, когда ФССП передаёт данные в бюро и можно ли восстановить репутацию после закрытия производства.",
+  "h1": "Как исполнительное производство влияет на кредитную историю",
+  "lead": "Открытое дело у пристава не попадает в кредитное досье автоматически — но банки находят его через реестр ФССП и судебные решения.",
+  "topic_action": "закрытие исполнительного производства",
+  "offer": "snyatie-aresta",
+  "breadcrumb_current": "Исполнительное производство и кредитная история",
+  "og_image": "/assets/articles/kreditnaya-istoriya-i-ispolnitelnoe-proizvodstvo.jpg",
+  "main_keyword": "исполнительное производство и кредитная история",
+  "secondary_keywords": [
+    "влияние исполнительного производства на кредитную историю",
+    "как исполнительное производство портит кредитную историю",
+    "кредитная история после закрытия исполнительного производства",
+    "ФССП и БКИ передача данных",
+    "открытое исполнительное производство и кредит",
+    "срок хранения исполнительного производства в БКИ"
+  ],
+  "keywords": [
+    "исполнительное производство",
+    "кредитная история",
+    "приставы",
+    "ФССП",
+    "БКИ",
+    "218-ФЗ",
+    "229-ФЗ",
+    "скоринг",
+    "законопроект N1045978-8"
+  ],
+  "internal_links": [
+    "/chto-takoe-ispolnitelnoe-proizvodstvo.html",
+    "/reestr-dolzhnikov-fssp-kak-vyjti.html",
+    "/okonchanie-ip-po-state-46.html",
+    "/snyatie-aresta-so-scheta-pristavami.html"
+  ],
+  "external_links": [
+    "https://fssprus.ru/iss/ip",
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/"
+  ],
+  "faq": [
+    {
+      "question": "Что именно попадает в кредитную историю после судебного решения о взыскании?",
+      "answer": "В основную часть вносится отметка о вступившем в силу решении: размер суммы, дата, сведения о взыскателе. Само исполнительное производство у пристава в отчёте напрямую не отражается — только судебный акт в его основе."
+    },
+    {
+      "question": "Сколько лет данные о взыскании хранятся в бюро?",
+      "answer": "7 лет с момента последнего изменения (статья 7 часть 1 218-ФЗ). Отсчёт идёт не с даты долга, а с последней правки. Если взыскатель перепредъявит лист и дело возбудят повторно — таймер сдвинется."
+    },
+    {
+      "question": "Обязан ли банк выдать кредит, если производство уже закрыто?",
+      "answer": "Нет. Закон не обязывает. Каждый банк решает самостоятельно. Закрытое дело улучшает картину, но строка о судебном взыскании в досье остаётся ещё 7 лет."
+    },
+    {
+      "question": "Можно ли оспорить ошибочную запись о закрытом взыскании?",
+      "answer": "Да. Если производство окончено, а в досье оно числится открытым — это ошибка. Подайте заявление по статье 8 части 4 и статье 11 218-ФЗ. Бюро проверяет в течение 30 рабочих дней. Подтверждена ошибка — запись исправляется. Источник настаивает — жалуйтесь в суд."
+    },
+    {
+      "question": "Чем закрытие по оплате отличается от возврата листа взыскателю?",
+      "answer": "При полной оплате пристав выносит постановление об окончании: долг исполнен. При возврате листа задолженность не исчезает — взыскатель вправе предъявить его повторно в течение 3 лет, и тогда отметка обновится снова."
+    },
+    {
+      "question": "Как бесплатно получить свой кредитный отчёт?",
+      "answer": "Через Госуслуги узнайте, в каких бюро хранится ваша история. По статье 8 части 1 закона 218-ФЗ гражданин вправе дважды в год получить отчёт в каждом бюро бесплатно."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Законопроект N1045978-8 подан как законопроект на первом чтении (октябрь 2025) с явной оговоркой о необходимости проверки статуса — соответствует safe_phrasing f4",
+    "Срок 7 лет привязан к ст. 7 ч. 1 218-ФЗ (f5)",
+    "Срок 3 года предъявления листа повторно — ст. 21 229-ФЗ (f11)",
+    "30 рабочих дней проверки БКИ — ст. 11 218-ФЗ (f15)",
+    "ст. 47 и 46 229-ФЗ — основания окончания ИП (f10, f11)",
+    "ст. 213.11 127-ФЗ — приостановка ИП при банкротстве (f12)",
+    "ст. 4.1 218-ФЗ — ПКР и закрытые методики БКИ (f13)",
+    "Прямой обязанности ФССП передавать данные в БКИ по действующей редакции нет — соответствует f3"
+  ],
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "text_chars": 7768,
+  "length_status": "warn",
+  "length_kind": "default",
+  "local_spam_top10_share": 0.154,
+  "local_spam_ngram3_repeat": 0.041,
+  "local_lexical_diversity": 0.516,
+  "local_ai_markers_density": 0.21,
+  "local_ai_markers_total": 2,
+  "local_ai_markers_critical": 0,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 4,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 4,
+  "predicted_spam_pct": 62,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность заметно выше 50% (~62%)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "spam_risk: 6 флагов (top1_count>12 (=14, лемма «производств»), top3_sum>30 (=41), top10_sum>80 (=117), top10_share>0.115 (=0.154), ngram3_repeat_share>0.035 (=0.041), lexical_diversity<0.58 (=0.516)), top-5: ['производств', 'част', 'стать', 'долг', 'бюро']"
+  ],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1780524036/articles/kreditnaya-istoriya-i-ispolnitelnoe-proizvodstvo-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1780524036/articles/kreditnaya-istoriya-i-ispolnitelnoe-proizvodstvo-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Dark wood-paneled interior with a senior partner's office at night — leather-topped desk under a single warm brass library lamp illuminating a closed leather-bound diary (representing the credit report), an antique pocket watch on a chain resting beside it, reading glasses positioned as if just set down, a polished brass round seal (ФССП official mark), a closed law book with embossed gilt spine, and a fountain pen aligned on the dark walnut surface. Camera: three-quarter angle at eye-level. Lighting: dominant warm tungsten pool casting deep ambient shadows elsewhere. Palette: oxblood, walnut, brass on near-black. Mood: confidential deliberation, the weight of credit history review.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-06-03T22:00:37Z",
+  "date_published": "2026-06-04",
+  "date_modified": "2026-06-04",
+  "ready_for_review": true,
+  "ready_at": "2026-06-03T22:00:37Z",
+  "publication_target": "telegram_review",
+  "tokens_by_model": {
+    "sonnet": {
+      "input_tokens": 2432,
+      "output_tokens": 3152,
+      "cache_creation_input_tokens": 578393,
+      "cache_read_input_tokens": 6465181,
+      "messages": 135
+    },
+    "haiku": {
+      "input_tokens": 68,
+      "output_tokens": 43,
+      "cache_creation_input_tokens": 68947,
+      "cache_read_input_tokens": 188076,
+      "messages": 14
+    },
+    "opus": {
+      "input_tokens": 34,
+      "output_tokens": 100,
+      "cache_creation_input_tokens": 120936,
+      "cache_read_input_tokens": 492717,
+      "messages": 14
+    }
+  },
+  "tokens_total": {
+    "input": 2534,
+    "output": 3295,
+    "cache_read": 7145974,
+    "cache_creation": 768276,
+    "total": 774105
+  }
+}

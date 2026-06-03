@@ -1,0 +1,34 @@
+{
+  "slug": "kreditnaya-istoriya-i-ispolnitelnoe-proizvodstvo",
+  "category": "vzysk",
+  "started_at": "2026-06-04T01:00:56",
+  "finished_at": null,
+  "total_duration_sec": null,
+  "current_iteration": 1,
+  "events": [
+    {
+      "ts": "2026-06-04T01:00:56",
+      "agent": "scheduler",
+      "event": "slot_started",
+      "iteration": 1,
+      "today_count": 0,
+      "limit": 11,
+      "write_article_duration_sec": 2206.3
+    },
+    {
+      "ts": "2026-06-04T01:00:56",
+      "agent": "quality_gate",
+      "event": "passed",
+      "iteration": 1,
+      "blockers": [],
+      "warnings": [
+        "Автофикс применил правки: сокращения=0, пунктуация=0",
+        "internal_links_autofixed: 4 ссылок (например /chto-takoe-ispolnitelnoe-proizvodstvo.html→/articles/vzysk/chto-takoe-ispolnitelnoe-proizvodstvo; /reestr-dolzhnikov-fssp-kak-vyjti.html→/articles/vzysk/reestr-dolzhnikov-fssp-kak-vyjti; /okonchanie-ip-po-state-46.html→/articles/vzysk/okonchanie-ip-po-state-46)",
+        "forced_pass_at_iter2: блокеры пропущены, статья идёт в TG-очередь с metrics_warning=true. Было: 1 блокеров — spam_risk"
+      ],
+      "recommendations": [
+        "reduce_repetition: разбавить топ-5 частотных лемм местоимениями/перифразом — ['производств', 'част', 'стать', 'долг', 'бюро']"
+      ]
+    }
+  ]
+}

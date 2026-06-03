@@ -2761,6 +2761,19 @@
         "passed": false,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "kreditnaya-istoriya-i-ispolnitelnoe-proizvodstvo",
+      "category": "vzysk",
+      "title": "Исполнительное производство и кредитная история",
+      "added_at": "2026-06-04T01:00:37.951372",
+      "char_count": 7768,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1780524036/articles/kreditnaya-istoriya-i-ispolnitelnoe-proizvodstvo-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
