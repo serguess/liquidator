@@ -2722,6 +2722,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "bankrotstvo-dolg-vinovnika-dtp-ne-spishut",
+      "category": "news",
+      "title": "Долг виновника ДТП не спишут через банкротство",
+      "added_at": "2026-06-03T16:13:53.372118",
+      "char_count": 7590,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1780492432/articles/bankrotstvo-dolg-vinovnika-dtp-ne-spishut-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

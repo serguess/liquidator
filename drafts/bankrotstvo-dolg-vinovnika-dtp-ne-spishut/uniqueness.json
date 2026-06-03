@@ -1,0 +1,18 @@
+{
+  "slug": "bankrotstvo-dolg-vinovnika-dtp-ne-spishut",
+  "passed": true,
+  "scores": {
+    "structure_overlap": 0.0,
+    "thesis_similarity": 0.261,
+    "cta_overlap": 0.036
+  },
+  "similar_articles": [
+    {
+      "slug": "kreditor-propustil-srok-bankrotstvo-otkaz-v-peresmotre",
+      "category": "news",
+      "similarity": 0.261
+    }
+  ],
+  "conflicts": [],
+  "recommendation": "ok"
+}

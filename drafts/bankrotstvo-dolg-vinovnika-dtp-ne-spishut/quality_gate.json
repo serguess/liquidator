@@ -1,0 +1,244 @@
+{
+  "file": "/home/appuser/apps/liquidator/drafts/bankrotstvo-dolg-vinovnika-dtp-ne-spishut/article.html",
+  "passed": true,
+  "hard_failed": false,
+  "blockers": [],
+  "warnings": [
+    "forced_pass_at_iter2: блокеры пропущены, статья идёт в TG-очередь с metrics_warning=true. Было: 1 блокеров — length_too_long"
+  ],
+  "autofix": {
+    "file": "/home/appuser/apps/liquidator/drafts/bankrotstvo-dolg-vinovnika-dtp-ne-spishut/article.html",
+    "abbreviation_fixes": {},
+    "punctuation_fixes": 0,
+    "em_dash_fixes": 0,
+    "eng_quotes_fixes": 0,
+    "changed": false,
+    "bytes_before": 42961,
+    "bytes_after": 42961
+  },
+  "quality_checks": {
+    "file": "drafts/bankrotstvo-dolg-vinovnika-dtp-ne-spishut/article.html",
+    "text_chars": 7590,
+    "length_status": "too_long",
+    "length_kind": "news",
+    "passed": false,
+    "abbreviation_hits": [],
+    "punctuation_hits": [],
+    "spam": {
+      "total_words": 670,
+      "unique_lemmas": 413,
+      "lexical_diversity": 0.616,
+      "top10_words": [
+        [
+          "виновник",
+          10
+        ],
+        [
+          "обязательств",
+          7
+        ],
+        [
+          "полис",
+          7
+        ],
+        [
+          "нарушен",
+          7
+        ],
+        [
+          "закон",
+          7
+        ],
+        [
+          "имуществ",
+          7
+        ],
+        [
+          "пункт",
+          7
+        ],
+        [
+          "стать",
+          7
+        ],
+        [
+          "процедур",
+          7
+        ],
+        [
+          "банкротств",
+          6
+        ]
+      ],
+      "top10_share": 0.107,
+      "top1_count": 10,
+      "top3_sum": 24,
+      "top10_sum": 72,
+      "ngram3_repeat_count": 18,
+      "ngram3_total": 668,
+      "ngram3_repeat_share": 0.027,
+      "risk_flags": []
+    },
+    "targeted_tokens": [
+      {
+        "token": "ст_сокращение",
+        "count": 0,
+        "limit": 5,
+        "over_limit": false,
+        "severity": "hard"
+      },
+      {
+        "token": "РФ_рудимент",
+        "count": 0,
+        "limit": 2,
+        "over_limit": false,
+        "severity": "hard"
+      },
+      {
+        "token": "руб_сокращение",
+        "count": 0,
+        "limit": 0,
+        "over_limit": false,
+        "severity": "hard"
+      },
+      {
+        "token": "ООО_бренд",
+        "count": 0,
+        "limit": 3,
+        "over_limit": false,
+        "severity": "hard"
+      },
+      {
+        "token": "000руб_паттерн",
+        "count": 0,
+        "limit": 2,
+        "over_limit": false,
+        "severity": "hard"
+      },
+      {
+        "token": "127фз_закон",
+        "count": 1,
+        "limit": 2,
+        "over_limit": false,
+        "severity": "soft"
+      },
+      {
+        "token": "213_артикул",
+        "count": 3,
+        "limit": 3,
+        "over_limit": false,
+        "severity": "soft"
+      },
+      {
+        "token": "ГПК_кодекс",
+        "count": 0,
+        "limit": 3,
+        "over_limit": false,
+        "severity": "soft"
+      },
+      {
+        "token": "ГК_кодекс",
+        "count": 0,
+        "limit": 3,
+        "over_limit": false,
+        "severity": "soft"
+      },
+      {
+        "token": "000_число",
+        "count": 0,
+        "limit": 8,
+        "over_limit": false,
+        "severity": "soft"
+      },
+      {
+        "token": "cta_формула_повтор",
+        "count": 1,
+        "limit": 1,
+        "over_limit": false,
+        "severity": "soft"
+      }
+    ],
+    "author_markers_count": 3,
+    "author_markers_min": 2
+  },
+  "ai_markers": {
+    "file": "drafts/bankrotstvo-dolg-vinovnika-dtp-ne-spishut/article.html",
+    "text_chars": 9618,
+    "hits_total": 2,
+    "density_per_1000": 0.21,
+    "by_severity": {
+      "critical": 0,
+      "high": 0,
+      "medium": 0,
+      "low": 2
+    },
+    "own_voice_hits": 3,
+    "first_person_singular_hits": 0,
+    "hits": [
+      {
+        "name": "ИИ-лексика: «взаимодействие/тонкости/нюансы (абстрактно)»",
+        "category": "ai-lexis",
+        "severity": "low",
+        "match": "Взаимодействие",
+        "position": 9425,
+        "context": "...ение law@pravo.shop Коммерческие предложения biz@pravo.shop Взаимодействие со СМИ pr@pravo.shop © 2018-2026 ООО «ЛИКВИДАТОР». Все прав..."
+      },
+      {
+        "name": "Канцелярит: «в рамках» (без нужды)",
+        "category": "clerical",
+        "severity": "low",
+        "match": "в рамках",
+        "position": 9037,
+        "context": "...ровождение на всех этапах. Надёжность и законность Работаем в рамках ФЗ и действующего законодательства РФ. РЕКВИЗИТЫ ООО «ЛИКВИ..."
+      }
+    ]
+  },
+  "anti_template": {
+    "file": "drafts/bankrotstvo-dolg-vinovnika-dtp-ne-spishut/article.html",
+    "text_chars": 8083,
+    "phrases_loaded": 138,
+    "passed": true,
+    "hits": []
+  },
+  "law_quotes": {
+    "total_chars": 0,
+    "limit": 600,
+    "samples": []
+  },
+  "rhythm": {
+    "file": "drafts/bankrotstvo-dolg-vinovnika-dtp-ne-spishut/article.html",
+    "text_chars": 8083,
+    "sentences_total": 84,
+    "avg_sentence_len": 8.81,
+    "short_sentences_count": 21,
+    "short_sentences_share": 0.25,
+    "long_sentences_count": 1,
+    "parasite_count": 1,
+    "parasite_per_1000": 0.12,
+    "flags": []
+  },
+  "internal_links": {
+    "total_hrefs": 43,
+    "ok": 3,
+    "whitelisted": 21,
+    "external": 16,
+    "fixed": 0,
+    "errors": 0,
+    "changed": false,
+    "fix_details": [],
+    "error_details": []
+  },
+  "recommendations": [
+    "reduce_length: сократить до 4500-6500 знаков"
+  ],
+  "retry_count": 2,
+  "predicted_metrics": {
+    "spam_pct": 53,
+    "ai_pct": 3,
+    "uniqueness_pct": 87
+  },
+  "customer_risks": [
+    "заспамленность чуть выше 50% (~53%)",
+    "длина значительно больше лимита 6800 (7 590 знаков)"
+  ]
+}
