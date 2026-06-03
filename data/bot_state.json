@@ -4793,6 +4793,24 @@
       "published_url": null,
       "pending_batch": true,
       "pending_batch_at": "2026-06-03T16:14:44"
+    },
+    "otkaz-mfc-vnesudebnoe-bankrotstvo-fizlica": {
+      "category": "fiz",
+      "title": "Отказ МФЦ в банкротстве: причины и что делать",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-06-03T18:01:45",
+      "last_action_at": "2026-06-03T18:01:45",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-06-03T18:01:45"
     }
   },
   "pending_actions": [],

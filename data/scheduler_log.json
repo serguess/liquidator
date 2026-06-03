@@ -13014,5 +13014,131 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-06-03T17:12:18",
+    "category": "fiz",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 12,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "fiz-92",
+    "topic_slug": "otkaz-mfc-vnesudebnoe-bankrotstvo-fizlica",
+    "auto_skipped": [
+      {
+        "slug": "bankrotstvo-dolg-dtp-fizlica",
+        "reason": "cannibalization:bankrotstvo-dolg-vinovnika-dtp-ne-spishut",
+        "duration_sec": 85.0
+      }
+    ],
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "Автофикс применил правки: сокращения=0, пунктуация=0"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "otkaz-mfc-vnesudebnoe-bankrotstvo-fizlica",
+    "duration_sec": 2928.3,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": " 0.018, CTA 0.023)\n- **Factcheck:** passed\n- **Обложка:** сгенерирована (template_id=7, кабинет с документами — тема исправления ошибок и повторной подачи)\n- **Файл:** `drafts/otkaz-mfc-vnesudebnoe-bankrotstvo-fizlica/article.html`\n- **Статус:** `ready_for_review=true`, добавлена в TG-очередь\n\n**Предсказанные метрики text.ru:** spam ~58%, AI ~3%, uniqueness ~87%. Реальные значения `textru_ai_detector / textru_uniqueness / textru_spam` появятся после проверки через text.ru (выполняется отдельно).",
+    "stderr_tail": "",
+    "tokens_by_model": {
+      "sonnet": {
+        "input_tokens": 2390,
+        "output_tokens": 2374,
+        "cache_creation_input_tokens": 627562,
+        "cache_read_input_tokens": 6382838,
+        "messages": 127
+      },
+      "haiku": {
+        "input_tokens": 63,
+        "output_tokens": 42,
+        "cache_creation_input_tokens": 72596,
+        "cache_read_input_tokens": 81360,
+        "messages": 13
+      },
+      "opus": {
+        "input_tokens": 82,
+        "output_tokens": 1244,
+        "cache_creation_input_tokens": 195799,
+        "cache_read_input_tokens": 4364155,
+        "messages": 62
+      }
+    },
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7671
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
+  },
+  {
+    "timestamp": "2026-06-03T19:36:01",
+    "category": "yur",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "mode": "new",
+    "topic_id": "yur-83",
+    "topic_slug": "neustoyka-pri-bankrotstve-yurlica",
+    "status": "failed",
+    "slug": "neustoyka-pri-bankrotstve-yurlica",
+    "duration_sec": 1525.3,
+    "returncode": 1,
+    "rescued_after_failure": false,
+    "stdout_tail": "You've hit your limit · resets 8:30pm (Europe/Moscow)",
+    "stderr_tail": "",
+    "tokens_by_model": {
+      "sonnet": {
+        "input_tokens": 112,
+        "output_tokens": 1362,
+        "cache_creation_input_tokens": 538712,
+        "cache_read_input_tokens": 2884321,
+        "messages": 87
+      },
+      "<synthetic>": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "messages": 1
+      }
+    },
+    "metrics": null
   }
 ]
