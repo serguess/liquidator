@@ -2657,6 +2657,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "komitet-kreditorov-bankrotstvo-yurlica",
+      "category": "yur",
+      "title": "Комитет кредиторов при банкротстве: права и полномочия",
+      "added_at": "2026-06-03T03:34:06.977216",
+      "char_count": 7760,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1780446845/articles/komitet-kreditorov-bankrotstvo-yurlica-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

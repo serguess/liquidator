@@ -12462,5 +12462,85 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-06-03T00:24:18",
+    "category": "fiz",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 19,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "fiz-89",
+    "topic_slug": "prekrashchenie-dela-bankrotstvo-fizlica",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "Автофикс применил правки: сокращения=2, пунктуация=0",
+        "forced_pass_at_iter2: блокеры пропущены, статья идёт в TG-очередь с metrics_warning=true. Было: 1 блокеров — spam_risk"
+      ],
+      "recommendations": [
+        "reduce_repetition: разбавить топ-5 частотных лемм местоимениями/перифразом — ['дело', 'банкротств', 'долг', 'должник', 'соглашен']"
+      ],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "prekrashchenie-dela-bankrotstvo-fizlica",
+    "duration_sec": 1821.8,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "кации | TG-очередь (ready_for_review=true) |\n| Готовый файл | `drafts/prekrashchenie-dela-bankrotstvo-fizlica/article.html` |\n\n**Метрики text.ru:** не запускались (значения заполнятся после проверки на платформе).\n\n**Предупреждение:** `metrics_warning=true` — spam_risk превышает пороги по 5 флагам (топ-5 частотных лемм: дело, банкротств, долг, должник, соглашен). Для юридической статьи про банкротство это ожидаемо — тема не позволяет уйти от этих слов. Статья в TG-очереди, публикация через бота.",
+    "stderr_tail": "",
+    "tokens_by_model": {
+      "sonnet": {
+        "input_tokens": 145,
+        "output_tokens": 2597,
+        "cache_creation_input_tokens": 539782,
+        "cache_read_input_tokens": 4679533,
+        "messages": 118
+      },
+      "haiku": {
+        "input_tokens": 2518,
+        "output_tokens": 36,
+        "cache_creation_input_tokens": 65491,
+        "cache_read_input_tokens": 83525,
+        "messages": 10
+      },
+      "opus": {
+        "input_tokens": 39,
+        "output_tokens": 261,
+        "cache_creation_input_tokens": 162272,
+        "cache_read_input_tokens": 864950,
+        "messages": 19
+      }
+    },
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7912
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]

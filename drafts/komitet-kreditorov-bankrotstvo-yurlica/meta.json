@@ -1,0 +1,133 @@
+{
+  "slug": "komitet-kreditorov-bankrotstvo-yurlica",
+  "category": "yur",
+  "title": "Комитет кредиторов при банкротстве: права и полномочия",
+  "description": "Когда создается комитет кредиторов, как в него войти, какие полномочия есть у членов и как оспорить решения - разбираем по ст. 17-18 ФЗ-127.",
+  "h1": "Комитет кредиторов при банкротстве: права, состав и контроль над управляющим",
+  "lead": "Постоянно действующий орган из физических лиц, который контролирует арбитражного управляющего и представляет интересы конкурсных кредиторов в банкротстве юрлица.",
+  "topic_action": "защиту прав кредитора при банкротстве юрлица",
+  "breadcrumb_current": "Комитет кредиторов при банкротстве",
+  "og_image": "/assets/articles/komitet-kreditorov-bankrotstvo-yurlica.jpg",
+  "main_keyword": "комитет кредиторов при банкротстве",
+  "secondary_keywords": [
+    "права комитета кредиторов",
+    "полномочия комитета кредиторов",
+    "как избирается комитет кредиторов",
+    "комитет кредиторов банкротство юрлица",
+    "оспаривание решений комитета кредиторов",
+    "комитет кредиторов и арбитражный управляющий",
+    "состав комитета кредиторов",
+    "когда создается комитет кредиторов"
+  ],
+  "internal_links": [
+    "/articles/yur/zhaloba-na-arbitrazhnogo-upravljayushchego.html",
+    "/articles/yur/smena-arbitrazhnogo-upravljayushchego-bankrotstvo.html",
+    "/articles/yur/osparivanie-trebovanij-v-reestre-kreditorov.html"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/"
+  ],
+  "faq": [
+    {
+      "question": "Обязательно ли создавать комитет кредиторов, если у компании-должника 30 кредиторов?",
+      "answer": "Нет. При числе держателей долга до 50 включительно создание не обязательно: только по решению общего собрания. Не проголосовали – орган не возникает."
+    },
+    {
+      "question": "Почему в комитете каждый член имеет один голос, хотя долги кредиторов сильно различаются?",
+      "answer": "Осознанный выбор законодателя. Если бы голоса шли по суммам долга, коллегия превратилась бы в копию общего собрания, где всё решает крупнейший взыскатель. Один голос на члена – независимая контрольная площадка."
+    },
+    {
+      "question": "Какие полномочия появляются при внешнем управлении, которых нет в наблюдении?",
+      "answer": "При внешнем управлении – право согласовывать крупные сделки, если это предусмотрено планом (статья 101 закона о банкротстве). В наблюдении: только информационный доступ и право обжалования."
+    },
+    {
+      "question": "Может ли комитет самостоятельно отстранить арбитражного управляющего без обращения в суд?",
+      "answer": "Нет. Коллегия вправе рекомендовать поставить вопрос об отстранении и подать жалобу. Само отстранение – прерогатива суда."
+    },
+    {
+      "question": "Сколько стоит участие в работе комитета, есть ли вознаграждение?",
+      "answer": "По закону – нет. Члены коллегии работают безвозмездно. Общее собрание вправе принять иное решение, но это редкость."
+    },
+    {
+      "question": "До какого момента можно оспорить решение, если кредитор не был уведомлён о заседании?",
+      "answer": "Дедлайн считается с момента, когда он узнал о нарушении интересов. Предельный отсчёт – шесть месяцев. Пропустил – суд откажет."
+    }
+  ],
+  "keyword_density_main": 0.004,
+  "main_keyword_exact_count": 1,
+  "text_chars": 7760,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все цифры (порог 50 кредиторов, 3-7 членов, 20 дней, 3 месяца, 2 000 000 руб., 3 недели) сверены с research.json, last_verified 2026-06-03, legislation_status active.",
+    "Нормы ст. 17, 18, 12, 14, 15, 60, 101, 139, 143, 145 ФЗ-127 указаны в правильном контексте.",
+    "Голосование комитета (один член = один голос) и общего собрания (пропорционально долгу) разграничены корректно по п. 4 ст. 17 ФЗ-127.",
+    "Отстранение управляющего - только через суд (ст. 145), не самим комитетом. Соответствует forbidden_claims."
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "spam_risk: 6 флагов (top1_count>12 (=14, лемма «стать»), top3_sum>30 (=37), top10_sum>80 (=98), top10_share>0.115 (=0.135), ngram3_repeat_share>0.035 (=0.057), lexical_diversity<0.58 (=0.561)), top-5: ['стать', 'коллег', 'долг', 'банкротств', 'кредитор']"
+  ],
+  "length_status": "warn",
+  "length_kind": "default",
+  "local_spam_top10_share": 0.135,
+  "local_spam_ngram3_repeat": 0.057,
+  "local_lexical_diversity": 0.561,
+  "local_ai_markers_density": 0.2,
+  "local_ai_markers_total": 2,
+  "local_ai_markers_critical": 0,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 2,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 5,
+  "predicted_spam_pct": 62,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность заметно выше 50% (~62%)"
+  ],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1780446845/articles/komitet-kreditorov-bankrotstvo-yurlica-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1780446845/articles/komitet-kreditorov-bankrotstvo-yurlica-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Close-to-medium architectural photograph of a massive stone government building, focusing on geometric repetition and dramatic light. Camera: extreme low-angle up weathered limestone columns with deep shadow crevices revealing chisel marks and texture, OR diagonal across a monumental façade framing a carved stone doorway emblem (no readable text). Lighting: hard side-light from one direction creating strong chiaroscuro contrast, emphasizing every grain and surface variation. Palette: warm sandstone tones against cool grey shadow depths, minimal moss-green hints in stone crevices. Optional minimal foreground at frame base: a closed leather portfolio leaning against the stone plinth OR a stack of bound grey dossiers tied with cord resting on the bottom step, adding subtle legal context. Mood: institutional permanence, weight of authority, immutable formal procedure underway. Wide cinematic 16:9 crop.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-06-03T00:34:06Z",
+  "date_published": "2026-06-03",
+  "date_modified": "2026-06-03",
+  "ready_for_review": true,
+  "ready_at": "2026-06-03T00:34:06Z",
+  "publication_target": "telegram_review",
+  "tokens_by_model": {
+    "sonnet": {
+      "input_tokens": 5731,
+      "output_tokens": 2919,
+      "cache_creation_input_tokens": 794587,
+      "cache_read_input_tokens": 6942576,
+      "messages": 146
+    },
+    "haiku": {
+      "input_tokens": 2347,
+      "output_tokens": 100,
+      "cache_creation_input_tokens": 66911,
+      "cache_read_input_tokens": 242469,
+      "messages": 16
+    },
+    "opus": {
+      "input_tokens": 49,
+      "output_tokens": 316,
+      "cache_creation_input_tokens": 138109,
+      "cache_read_input_tokens": 1605449,
+      "messages": 29
+    }
+  },
+  "tokens_total": {
+    "input": 8127,
+    "output": 3335,
+    "cache_read": 8790494,
+    "cache_creation": 999607,
+    "total": 1011069
+  }
+}
