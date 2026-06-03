@@ -265,6 +265,32 @@ def _classify(href: str, slug_to_cat: dict[str, str]) -> LinkHit:
     )
 
 
+# Тег <a> с href — для раскрытия битых ссылок в текст.
+A_TAG_RX = re.compile(r'<a\b[^>]*?href="([^"]*)"[^>]*>(.*?)</a>', re.DOTALL | re.IGNORECASE)
+
+
+def unwrap_broken_internal_links(html: str, slug_to_cat: dict[str, str]) -> tuple[str, int]:
+    """Раскрывает в обычный текст <a href="...">текст</a> для внутренних ссылок
+    на НЕсуществующие (не published) статьи — вердикт error_unknown. Валидные,
+    служебные, внешние и чинимые (fix_*) ссылки не трогает.
+
+    Используется и при публикации (bot/publisher — единая точка контроля, ловит
+    любой путь генерации, включая recovery), и для разовой чистки уже
+    опубликованных статей (--unwrap-broken). Возвращает (html, число раскрытых)."""
+    count = 0
+
+    def repl(m: re.Match) -> str:
+        nonlocal count
+        href = m.group(1)
+        verdict = _classify(href, slug_to_cat)
+        if verdict.verdict == "error_unknown":
+            count += 1
+            return m.group(2)  # внутренний текст без обёртки <a>
+        return m.group(0)
+
+    return A_TAG_RX.sub(repl, html), count
+
+
 def analyze_file(path: Path, slug_to_cat: dict[str, str], apply_fix: bool = False) -> FileReport:
     report = FileReport(file=str(path))
     if not path.exists():
@@ -375,7 +401,9 @@ def main() -> int:
     parser.add_argument("--path", default=None,
                         help="Путь к файлу или папке (default: articles/)")
     parser.add_argument("--fix", action="store_true",
-                        help="Применить автофиксы (без флага — только check)")
+                        help="Применить автофиксы формата (.html/trailing/short) — без флага только check")
+    parser.add_argument("--unwrap-broken", action="store_true",
+                        help="Раскрыть в текст битые ссылки (error_unknown — на не-published статьи)")
     parser.add_argument("--json", action="store_true",
                         help="Вывод в JSON вместо текстового отчёта")
     args = parser.parse_args()
@@ -383,6 +411,23 @@ def main() -> int:
     if not ARTICLES_DIR.exists():
         print(f"Не найдено: {ARTICLES_DIR}", file=sys.stderr)
         return 2
+
+    if args.unwrap_broken:
+        slug_to_cat = _load_valid_slugs()
+        targets = _gather_targets(args.path)
+        total_unwrapped = 0
+        files_changed = 0
+        for f in targets:
+            raw = f.read_text(encoding="utf-8")
+            new, n = unwrap_broken_internal_links(raw, slug_to_cat)
+            if n:
+                f.write_text(new, encoding="utf-8")
+                files_changed += 1
+                total_unwrapped += n
+                rel = f.relative_to(PROJECT_ROOT) if f.is_absolute() else f
+                print(f"  [UNWRAP] {rel}: раскрыто {n}")
+        print(f"[unwrap-broken] раскрыто {total_unwrapped} битых ссылок в {files_changed} файлах")
+        return 0
 
     agg = run(arg_path=args.path, apply_fix=args.fix)
 

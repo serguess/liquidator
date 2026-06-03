@@ -562,6 +562,22 @@ def publish(slug: str, version: Optional[str] = None) -> PublishResult:
         html = source.read_text(encoding="utf-8")
         html = _inject_cover_into_html(html, cover_url)
 
+        # 2.5. Раскрыть битые внутренние ссылки в текст. Публикация — единая
+        # точка контроля: ловит ссылки на ещё не опубликованные статьи
+        # (pending_review) независимо от пути генерации, включая recovery,
+        # которые могли обойти quality_gate. Без этого они дают 404 и Яндекс
+        # исключает статью из поиска как дубль/битую (инцидент 3 июня 2026).
+        try:
+            from tools import internal_links_check as _ilc
+            _slug_cat = _ilc._load_valid_slugs()
+            _slug_cat.setdefault(slug, category)  # сам публикуемый slug валиден
+            html, _unwrapped = _ilc.unwrap_broken_internal_links(html, _slug_cat)
+            if _unwrapped:
+                log.warning("publish %s: раскрыто %d битых внутр. ссылок в текст "
+                            "(цель не published)", slug, _unwrapped)
+        except Exception:
+            log.exception("unwrap_broken_internal_links упал (не критично, публикуем)")
+
         # 3. Записать в articles/{category}/{slug}.html
         target_path.write_text(html, encoding="utf-8")
 
