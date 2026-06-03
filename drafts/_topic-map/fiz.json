@@ -2524,7 +2524,11 @@
       "frequency_estimate": "medium",
       "rationale": "Должники после ДТП не знают, что долги за вред здоровью и жизни не списываются по 127-ФЗ. Статья закрывает высокий страх, объясняет исключения и ведёт к консультации.",
       "expected_length_chars": 7000,
-      "topic_action": "банкротство при долге за ДТП"
+      "topic_action": "банкротство при долге за ДТП",
+      "status": "rejected",
+      "rejected_at": "2026-06-03T17:13:49",
+      "rejected_reason": "cannibalization:bankrotstvo-dolg-vinovnika-dtp-ne-spishut",
+      "rejected_by": "auto_skip_in_slot"
     },
     {
       "id": "fiz-92",
