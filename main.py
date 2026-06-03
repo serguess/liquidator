@@ -317,6 +317,24 @@ async def _block_sources(request: Request, call_next):
 # /payment             → внутри отдаёт payment.html (rewrite, без редиректа)
 _NO_REWRITE_PREFIXES = ("/api", "/preview", "/p/", "/assets", "/favicon")
 
+_ARTICLE_CATEGORIES = ("fiz", "yur", "vzysk", "news")
+_slug_cat_cache: dict[str, str] = {}
+
+
+def _find_article_category(slug: str) -> str | None:
+    """Категория статьи по slug (articles/{cat}/{slug}.html). Кэш в памяти,
+    включая негативный (""), чтобы не сканировать ФС на каждый 404. Сбрасывается
+    при рестарте/redeploy — для новых статей этого достаточно."""
+    cached = _slug_cat_cache.get(slug)
+    if cached is not None:
+        return cached or None
+    for cat in _ARTICLE_CATEGORIES:
+        if (ROOT / "articles" / cat / f"{slug}.html").is_file():
+            _slug_cat_cache[slug] = cat
+            return cat
+    _slug_cat_cache[slug] = ""
+    return None
+
 
 @app.middleware("http")
 async def _clean_urls(request: Request, call_next):
@@ -361,6 +379,18 @@ async def _clean_urls(request: Request, call_next):
                     # хлебные крошки `/category/all?cat=yur` (зафиксировано
                     # 9 мая 2026). Query string не трогаем — он уже на месте.
                     request.scope["raw_path"] = new_path.encode()
+                # 3b. Короткий /{slug} (одна секция, нет файла в корне) →
+                #     ищем статью articles/{cat}/{slug}.html → 301 на каноничный URL.
+                #     Спасает исторические ссылки старого сайта (статьи лежали в
+                #     корне как /{slug}), которые в Я.Вебмастере висят как 404.
+                elif p.count("/") == 1:
+                    cat = _find_article_category(last_seg)
+                    if cat:
+                        target = f"/articles/{cat}/{last_seg}"
+                        qs = request.url.query
+                        if qs:
+                            target = f"{target}?{qs}"
+                        return RedirectResponse(url=target, status_code=301)
 
     return await call_next(request)
 

@@ -278,7 +278,7 @@ def render_breadcrumbs(category: str, breadcrumb_current: str) -> str:
     cat_label = CATEGORY_LABELS.get(category, category)
     return (
         '<nav class="article__breadcrumbs" aria-label="Хлебные крошки">\n'
-        '  <a href="/index.html">Главная</a>\n'
+        '  <a href="/">Главная</a>\n'
         '  <span class="article__bc-sep">/</span>\n'
         f'  <a href="/category/all?cat={category}">{_esc(cat_label)}</a>\n'
         '  <span class="article__bc-sep">/</span>\n'

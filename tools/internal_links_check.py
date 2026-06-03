@@ -68,12 +68,17 @@ VALID_CATEGORIES = {"fiz", "yur", "vzysk", "news"}
 
 # Внутренние URL, которые не являются статьями и не должны валидироваться.
 WHITELIST_EXACT = {
-    "/", "/index.html",
+    "/",
     "/privacy", "/privacy.html",
     "/terms", "/terms.html",
     "/payment", "/payment.html",
     "/category/all",
 }
+
+# Адреса, которые надо ЧИНИТЬ редиректом на главную (а не вайтлистить).
+# /index.html и /index дают 301 на / в проде → лишний .html-сигнал для Яндекса
+# на каждой странице (ссылка «Главная» в хлебных крошках). Канон — «/».
+INDEX_ALIASES = {"/index.html", "/index", "/index/"}
 WHITELIST_PREFIXES = (
     "/category/all?",
     "/category/all#",
@@ -185,6 +190,15 @@ def _classify(href: str, slug_to_cat: dict[str, str]) -> LinkHit:
     if not href.startswith("/"):
         # Относительная ссылка типа "foo.html" — не валидируем, но и не трогаем.
         return LinkHit(href=href, verdict="external", reason="relative link, skipped")
+
+    # /index.html, /index → канон главной «/» (убираем .html-сигнал на каждой странице)
+    base_no_anchor = href.split("#", 1)[0].split("?", 1)[0]
+    if base_no_anchor in INDEX_ALIASES:
+        anchor = href[len(base_no_anchor):] if href != base_no_anchor else ""
+        return LinkHit(
+            href=href, verdict="fix_html", fixed_href="/" + anchor,
+            reason="/index.html → / (убрать .html-зеркало главной)",
+        )
 
     # Whitelist
     base = href.split("#", 1)[0].split("?", 1)[0]
