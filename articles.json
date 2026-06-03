@@ -2,6 +2,19 @@
   "generated": "2026-06-03",
   "articles": [
     {
+      "slug": "uproshchennoe-proizvodstvo-arbitrazh-vzyskanie",
+      "cat": "vzysk",
+      "catLabel": "Взыскание задолженности",
+      "title": "Упрощённое производство в арбитраже: взыскание долга",
+      "desc": "Как взыскать долг через арбитраж в упрощённом порядке: лимиты иска (до 800 тыс. для ЮЛ, 400 тыс. для ИП), сроки, документы, решение без заседания.",
+      "date": "3 июня 2026",
+      "dateIso": "2026-06-03",
+      "read": "5 мин.",
+      "tone": "b",
+      "img": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1780395374/articles/uproshchennoe-proizvodstvo-arbitrazh-vzyskanie-cover.jpg",
+      "url": "articles/vzysk/uproshchennoe-proizvodstvo-arbitrazh-vzyskanie"
+    },
+    {
       "slug": "saldirovanie-pri-bankrotstve-vs-zachet",
       "cat": "yur",
       "catLabel": "Банкротство юридических лиц",
