@@ -539,10 +539,16 @@ async def _run_edit(message: Message, *, slug: str, review: dict, edit_text: str
         pass
 
     if not result.success or result.new_version is None:
-        # Спецслучай: timeout + активный scheduler → правка в очередь
-        is_timeout = "не ответил за" in (result.error or "")
+        # Спецслучай: edit упал + активный scheduler → правка в очередь.
+        # Покрываем И timeout, И exit-ошибку claude (код N) — обе вероятнее
+        # всего вызваны конфликтом двух параллельных claude (overloaded/
+        # rate-limit/RAM при активном слоте). editor.py уже сделал ретраи;
+        # раз не помогло и слот занят — ждём его освобождения и повторяем.
+        err = result.error or ""
+        is_timeout = "не ответил за" in err
+        is_claude_error = "вернул ошибку (код" in err
         scheduler_active, lock_age = action_queue.is_scheduler_active()
-        if is_timeout and scheduler_active:
+        if (is_timeout or is_claude_error) and scheduler_active:
             eta_sec = action_queue.estimate_eta_sec()
             eta_min = max(1, (eta_sec + 59) // 60)
             log.warning(
