@@ -2,6 +2,19 @@
   "generated": "2026-06-03",
   "articles": [
     {
+      "slug": "vosstanovlenie-poruchitelstva-osparivanie-platezha-bankrotstvo",
+      "cat": "news",
+      "catLabel": "Новости",
+      "title": "ВС решит: восстанавливается ли поручительство после оспаривания платежа",
+      "desc": "Верховный суд рассматривает дело А40-281660/2023: Сбербанк требует 232 млн рублей с поручителя, чей долг ранее погасил основной должник — но сделку потом признали недействительной.",
+      "date": "3 июня 2026",
+      "dateIso": "2026-06-03",
+      "read": "5 мин.",
+      "tone": "b",
+      "img": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1780403171/articles/vosstanovlenie-poruchitelstva-osparivanie-platezha-bankrotstvo-cover.jpg",
+      "url": "articles/news/vosstanovlenie-poruchitelstva-osparivanie-platezha-bankrotstvo"
+    },
+    {
       "slug": "uproshchennoe-proizvodstvo-arbitrazh-vzyskanie",
       "cat": "vzysk",
       "catLabel": "Взыскание задолженности",
