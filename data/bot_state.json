@@ -4677,7 +4677,7 @@
     "komitet-kreditorov-bankrotstvo-yurlica": {
       "category": "yur",
       "title": "Комитет кредиторов при банкротстве: права и полномочия",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -4685,14 +4685,16 @@
       "tg_message_id": 1253,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-06-03T03:34:49",
-      "last_action_at": "2026-06-03T10:00:55",
+      "last_action_at": "2026-06-03T16:49:14",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/yur/komitet-kreditorov-bankrotstvo-yurlica",
       "pending_batch": false,
       "pending_batch_at": "2026-06-03T03:34:49",
       "batch_sent_at": "2026-06-03T10:00:55",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-06-03T16:49:14",
+      "articles_path": "articles/yur/komitet-kreditorov-bankrotstvo-yurlica.html"
     },
     "vzyskanie-po-vekselyu-sudebnyj-poryadok": {
       "category": "vzysk",
