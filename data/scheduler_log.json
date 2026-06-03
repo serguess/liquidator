@@ -12542,5 +12542,86 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-06-03T02:48:13",
+    "category": "yur",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 20,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "yur-81",
+    "topic_slug": "komitet-kreditorov-bankrotstvo-yurlica",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "Автофикс применил правки: сокращения=6, пунктуация=0",
+        "internal_links_autofixed: 3 ссылок (например /articles/yur/zhaloba-na-arbitrazhnogo-upravljayushchego.html→/articles/yur/zhaloba-na-arbitrazhnogo-upravljayushchego; /articles/yur/smena-arbitrazhnogo-upravljayushchego-bankrotstvo.html→/articles/yur/smena-arbitrazhnogo-upravljayushchego-bankrotstvo; /articles/yur/osparivanie-trebovanij-v-reestre-kreditorov.html→/articles/yur/osparivanie-trebovanij-v-reestre-kreditorov)",
+        "forced_pass_at_iter2: блокеры пропущены, статья идёт в TG-очередь с metrics_warning=true. Было: 1 блокеров — spam_risk"
+      ],
+      "recommendations": [
+        "reduce_repetition: разбавить топ-5 частотных лемм местоимениями/перифразом — ['стать', 'коллег', 'долг', 'банкротств', 'кредитор']"
+      ],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "komitet-kreditorov-bankrotstvo-yurlica",
+    "duration_sec": 2772.0,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "* passed (21 факт верифицирован, все нормы 127-ФЗ актуальны)\n- **Quality gate:** `passed: true`, `hard_failed: false`, blockers: []\n- **Режим публикации:** `ready_for_review: true` → TG-очередь (205 items)\n- **Обложка:** шаблон 15, сгенерирована fal.ai → Cloudinary\n- **Файл:** `drafts/komitet-kreditorov-bankrotstvo-yurlica/article.html` (32 056 символов)\n\n**Метрики text.ru:** `textru_ai_detector: None`, `textru_uniqueness: None`, `textru_spam: None` — будут заполнены асинхронно после публикации.",
+    "stderr_tail": "",
+    "tokens_by_model": {
+      "sonnet": {
+        "input_tokens": 5731,
+        "output_tokens": 2919,
+        "cache_creation_input_tokens": 794587,
+        "cache_read_input_tokens": 6942576,
+        "messages": 146
+      },
+      "haiku": {
+        "input_tokens": 2347,
+        "output_tokens": 100,
+        "cache_creation_input_tokens": 66911,
+        "cache_read_input_tokens": 242469,
+        "messages": 16
+      },
+      "opus": {
+        "input_tokens": 49,
+        "output_tokens": 316,
+        "cache_creation_input_tokens": 138109,
+        "cache_read_input_tokens": 1605449,
+        "messages": 29
+      }
+    },
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7760
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]

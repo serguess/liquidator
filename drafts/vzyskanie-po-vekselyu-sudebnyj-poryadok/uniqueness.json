@@ -1,0 +1,35 @@
+{
+  "slug": "vzyskanie-po-vekselyu-sudebnyj-poryadok",
+  "passed": false,
+  "scores": {
+    "structure_overlap": 0.0,
+    "thesis_similarity": 0.372,
+    "cta_overlap": 0.097
+  },
+  "thresholds": {
+    "structure_overlap": 0.4,
+    "thesis_similarity": 0.3,
+    "cta_overlap": 0.2
+  },
+  "similar_articles": [
+    {
+      "slug": "vzyskanie-dolga-po-dogovoru-arendy",
+      "category": "vzysk",
+      "similarity": 0.372
+    }
+  ],
+  "conflicts": [
+    "thesis_similarity: 0.372 (threshold: 0.3)"
+  ],
+  "recommendation": "rewrite_with_angle:from-reverse-consequences",
+  "notes": {
+    "conflict_analysis": "Статья о взыскании по векселю имеет семантическое перекрытие 37.2% с статьёй по взысканию по договору аренды. Обе касаются 'взыскания долга', но в разных контекстах. Текущий угол подачи — 'выбор маршрута (приказной vs исковой)' — слишком близок к общему описанию процедуры взыскания, характерному для других категорий долгов.",
+    "suggested_angle": "from-reverse-consequences: переориентировать статью с 'как правильно действовать' на 'что будет, если не совершить протест в срок, если пропустить подсудность, если превысить сумму' — фокусироваться на ошибках и последствиях вместо пошагового выбора маршрута",
+    "alternative_angles": [
+      "myths-and-truth: развенчивание типичных ошибок при вексельном взыскании",
+      "case-study: сравнение переводного и простого векселя через конкретные кейсы",
+      "step-by-step: детальная пошаговая инструкция исполнения вместо выбора маршрута"
+    ]
+  },
+  "stored_in_db": true
+}
