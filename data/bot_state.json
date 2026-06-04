@@ -4831,7 +4831,7 @@
     "trudovye-prava-rabotnikov-bankrotstvo-yurlica": {
       "category": "yur",
       "title": "Права работников при банкротстве работодателя",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -4839,14 +4839,16 @@
       "tg_message_id": 1303,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-06-03T22:38:16",
-      "last_action_at": "2026-06-04T10:00:36",
+      "last_action_at": "2026-06-04T14:53:47",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/yur/trudovye-prava-rabotnikov-bankrotstvo-yurlica",
       "pending_batch": false,
       "pending_batch_at": "2026-06-03T22:38:16",
       "batch_sent_at": "2026-06-04T10:00:36",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-06-04T14:53:47",
+      "articles_path": "articles/yur/trudovye-prava-rabotnikov-bankrotstvo-yurlica.html"
     },
     "kreditnaya-istoriya-i-ispolnitelnoe-proizvodstvo": {
       "category": "vzysk",
