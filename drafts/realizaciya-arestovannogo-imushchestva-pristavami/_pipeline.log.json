@@ -1,0 +1,18 @@
+{
+  "slug": "realizaciya-arestovannogo-imushchestva-pristavami",
+  "category": null,
+  "started_at": "2026-06-04T09:50:25",
+  "finished_at": null,
+  "total_duration_sec": null,
+  "current_iteration": 2,
+  "events": [
+    {
+      "ts": "2026-06-04T09:50:25",
+      "agent": "4-writer",
+      "event": "iteration_returned",
+      "iteration": 2,
+      "reason": "thesis_similarity=0.323 > 0.30 vs vzyskanie-dolga-po-dogovoru-arendy",
+      "recommendation": "rewrite_with_angle:мифы-и-правда — заблуждения должника про реализацию имущества вместо пошагового разбора процедуры"
+    }
+  ]
+}

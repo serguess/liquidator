@@ -1,0 +1,26 @@
+{
+  "slug": "realizaciya-arestovannogo-imushchestva-pristavami",
+  "passed": false,
+  "scores": {
+    "structure_overlap": 0.0,
+    "thesis_similarity": 0.323,
+    "cta_overlap": 0.175
+  },
+  "thresholds": {
+    "structure_overlap": 0.4,
+    "thesis_similarity": 0.3,
+    "cta_overlap": 0.2
+  },
+  "similar_articles": [
+    {
+      "slug": "vzyskanie-dolga-po-dogovoru-arendy",
+      "category": "vzysk",
+      "similarity": 0.323
+    }
+  ],
+  "conflicts": [
+    "thesis_similarity: 0.323 exceeds threshold 0.3 (conflict with vzyskanie-dolga-po-dogovoru-arendy)"
+  ],
+  "recommendation": "rewrite_with_angle:myths-vs-truth",
+  "notes": "Текущая статья написана в жанре 'Пошагово + Сухой разбор' (детальное описание процедуры реализации по порядку). Похожая статья 'vzyskanie-dolga-po-dogovoru-arendy' про взыскание долга (претензия, иск, арбитраж). Несмотря на разные темы, эмбеддинги их связали из-за общего контекста (категория vzysk, лексика про долги). Предлагаемый угол 'Мифы и правда' (какие заблуждения есть у должника про реализацию, оценку, торги) даст существенное семантическое отличие от текущей структуры и от темы взыскания долга. Альтернативные углы: 'От обратного' (что будет если не оспорить оценку, не подать ходатайство о самостоятельной продаже) или 'Кейс читателя' (реальная история вместо сухого разбора)."
+}

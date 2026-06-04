@@ -13501,5 +13501,83 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-06-04T08:30:02",
+    "category": "fiz",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 2,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "fiz-94",
+    "topic_slug": "fiktivnoe-bankrotstvo-fizlica-posledstviya",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "Автофикс применил правки: сокращения=2, пунктуация=0",
+        "spam_soft_passed: ratio-флаги мягкие при iter=5, targeted_tokens чистые → пропускаем (spam ≈48-52% по прогнозу)"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "fiktivnoe-bankrotstvo-fizlica-posledstviya",
+    "duration_sec": 3465.6,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "апрашивались (n/a — статус ожидает публикации) |\n| metrics_warning | false |\n| Обложка | сгенерирована (template_id=5), загружена на Cloudinary |\n| Готовность | `ready_for_review: true`, добавлена в TG-очередь |\n| Файл | `drafts/fiktivnoe-bankrotstvo-fizlica-posledstviya/article.html` |\n\nСтатья ожидает публикации через Telegram-бот. Потребовалось 2 возврата на агента 4: один от агента 5 (смена угла подачи с теоретического на практические сценарии), один от quality_gate (targeted_tokens + длина).",
+    "stderr_tail": "",
+    "tokens_by_model": {
+      "sonnet": {
+        "input_tokens": 1248,
+        "output_tokens": 3687,
+        "cache_creation_input_tokens": 842951,
+        "cache_read_input_tokens": 10060064,
+        "messages": 192
+      },
+      "haiku": {
+        "input_tokens": 84,
+        "output_tokens": 233,
+        "cache_creation_input_tokens": 70304,
+        "cache_read_input_tokens": 347743,
+        "messages": 22
+      },
+      "opus": {
+        "input_tokens": 4279,
+        "output_tokens": 685,
+        "cache_creation_input_tokens": 284031,
+        "cache_read_input_tokens": 2435011,
+        "messages": 46
+      }
+    },
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7724
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]

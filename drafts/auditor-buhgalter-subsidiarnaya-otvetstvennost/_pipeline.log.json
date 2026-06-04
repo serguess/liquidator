@@ -1,0 +1,36 @@
+{
+  "slug": "auditor-buhgalter-subsidiarnaya-otvetstvennost",
+  "category": null,
+  "started_at": "2026-06-04T06:27:47",
+  "finished_at": "2026-06-04T06:37:36",
+  "total_duration_sec": 589.0,
+  "current_iteration": 2,
+  "events": [
+    {
+      "ts": "2026-06-04T06:27:47",
+      "agent": "4-writer",
+      "event": "iteration_returned",
+      "iteration": 2,
+      "reason": "thesis_similarity=0.346 > 0.30 с otkaz-ot-dogovora-pri-bankrotstve-statya-102; матрица КДЛ→последствия→защита повторяет шаблон директорской статьи",
+      "recommendation": "Сменить угол: Сравнительный подход — Бухгалтер vs Директор, кто больше рискует. Строить не на трёх признаках КДЛ, а на различиях в объёме ответственности и механизмах защиты между директором и бухгалтером."
+    },
+    {
+      "ts": "2026-06-04T06:37:36",
+      "agent": "scheduler",
+      "event": "slot_started",
+      "iteration": 2,
+      "category": "yur",
+      "today_count": 2,
+      "limit": 11,
+      "write_article_duration_sec": 5104.7
+    },
+    {
+      "ts": "2026-06-04T06:37:36",
+      "agent": "scheduler",
+      "event": "slot_finished",
+      "status": "failed",
+      "iteration": 2
+    }
+  ],
+  "final_status": "failed"
+}
