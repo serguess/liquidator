@@ -13654,5 +13654,86 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-06-04T14:48:37",
+    "category": "yur",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 3,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "yur-88",
+    "topic_slug": "bankrotstvo-postavshchika-po-goskontraktu",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "Автофикс применил правки: сокращения=0, пунктуация=0",
+        "internal_links_autofixed: 3 ссылок (например /articles/yur/bankrotstvo-podryadchika-stroitelnyj-kontrakt.html→/articles/yur/bankrotstvo-podryadchika-stroitelnyj-kontrakt; /articles/yur/kak-podat-na-bankrotstvo-kontragenta.html→/articles/yur/kak-podat-na-bankrotstvo-kontragenta; /articles/yur/osparivanie-sdelok-pri-bankrotstve.html→/articles/yur/osparivanie-sdelok-pri-bankrotstve)",
+        "forced_pass_at_iter2: блокеры пропущены, статья идёт в TG-очередь с metrics_warning=true. Было: 1 блокеров — spam_risk"
+      ],
+      "recommendations": [
+        "reduce_repetition: разбавить топ-5 частотных лемм местоимениями/перифразом — ['банкротств', 'срок', 'гарант', 'заказчик', 'стать']"
+      ],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "bankrotstvo-postavshchika-po-goskontraktu",
+    "duration_sec": 3756.6,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "* spam_risk soft-blocker (top10_share=0.128, топ-5 лемм: банкротств/срок/гарант/заказчик/стать), exit 0 — статья не заблокирована\n- **Режим публикации:** `ready_for_review=true`, добавлена в TG-очередь (220 items)\n- **Обложка:** сгенерирована, шаблон #20 (массивные двери/официальный вход)\n- **Путь:** `drafts/bankrotstvo-postavshchika-po-goskontraktu/article.html`\n\n**Text.ru метрики:** не замерялись в этом прогоне (textru_ai_detector / textru_uniqueness / textru_spam = n/a — замер идёт отдельно).",
+    "stderr_tail": "",
+    "tokens_by_model": {
+      "sonnet": {
+        "input_tokens": 2115,
+        "output_tokens": 3172,
+        "cache_creation_input_tokens": 700921,
+        "cache_read_input_tokens": 10067975,
+        "messages": 178
+      },
+      "haiku": {
+        "input_tokens": 78,
+        "output_tokens": 36,
+        "cache_creation_input_tokens": 76933,
+        "cache_read_input_tokens": 451299,
+        "messages": 22
+      },
+      "opus": {
+        "input_tokens": 31,
+        "output_tokens": 29,
+        "cache_creation_input_tokens": 134516,
+        "cache_read_input_tokens": 275467,
+        "messages": 11
+      }
+    },
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7354
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]

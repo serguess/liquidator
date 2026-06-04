@@ -2865,6 +2865,19 @@
         "passed": false,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "vzyskanie-dolga-po-dogovoru-uslug",
+      "category": "vzysk",
+      "title": "Взыскание долга по договору оказания услуг",
+      "added_at": "2026-06-04T17:53:19.544900",
+      "char_count": 7662,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1780584798/articles/vzyskanie-dolga-po-dogovoru-uslug-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
