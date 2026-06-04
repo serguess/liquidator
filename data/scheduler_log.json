@@ -13735,5 +13735,83 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-06-04T17:12:37",
+    "category": "vzysk",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 13,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "expanded_in_slot": true,
+    "topic_id": "vzysk-79",
+    "topic_slug": "vzyskanie-dolga-po-dogovoru-uslug",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "Автофикс применил правки: сокращения=0, пунктуация=0"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "vzyskanie-dolga-po-dogovoru-uslug",
+    "duration_sec": 2456.8,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "ug/article.html`\n\n**Метрики quality_gate:**\n- Uniqueness: passed (similarity 12.7% от ближайшего соседа)\n- Factcheck: passed\n- Quality gate: **passed**, блокеров нет\n- AI-маркеры: 2 low (оба в boilerplate-подвале, не в тексте)\n- Заспамленность (predicted): ~53%\n- Обложка: сгенерирована, загружена на Cloudinary (template_id=30)\n\n**text.ru метрики:** не запускались (запускаются отдельно через scheduler).\n\nСтатья добавлена в очередь ревью (`_review_queue.json`), ждёт публикации через Telegram-бота.",
+    "stderr_tail": "",
+    "tokens_by_model": {
+      "sonnet": {
+        "input_tokens": 1718,
+        "output_tokens": 2009,
+        "cache_creation_input_tokens": 620904,
+        "cache_read_input_tokens": 4620581,
+        "messages": 102
+      },
+      "haiku": {
+        "input_tokens": 40,
+        "output_tokens": 23,
+        "cache_creation_input_tokens": 62541,
+        "cache_read_input_tokens": 57805,
+        "messages": 9
+      },
+      "opus": {
+        "input_tokens": 37,
+        "output_tokens": 234,
+        "cache_creation_input_tokens": 148656,
+        "cache_read_input_tokens": 610645,
+        "messages": 17
+      }
+    },
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7662
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]

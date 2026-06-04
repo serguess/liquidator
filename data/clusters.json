@@ -5463,6 +5463,27 @@
       "articles": [
         "vzyskanie-dolga-po-dogovoru-uslug"
       ]
+    },
+    {
+      "id": "news-cb-standart-mfo-zapret-navyazyvaniya-dopuslug",
+      "category": "news",
+      "subtopic": "запрет ЦБ на навязывание МФО дополнительных услуг заемщикам",
+      "intent": "informational",
+      "funnel_stage": "warm",
+      "main_keyword": "МФО запрет навязывания дополнительных услуг",
+      "related_keywords": [
+        "базовый стандарт МФО",
+        "запрет допуслуг МФО",
+        "ЦБ стандарт микрофинансовые организации",
+        "отказ от допуслуг МФО",
+        "навязывание услуг при микрозайме",
+        "права заемщика МФО",
+        "допуслуги при оформлении займа",
+        "автосогласие МФО допуслуги"
+      ],
+      "articles": [
+        "cb-standart-mfo-zapret-navyazyvaniya-dopuslug"
+      ]
     }
   ]
 }

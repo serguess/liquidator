@@ -1,0 +1,50 @@
+{
+  "slug": "cb-standart-mfo-zapret-navyazyvaniya-dopuslug",
+  "category": null,
+  "started_at": "2026-06-04T20:01:54",
+  "finished_at": null,
+  "total_duration_sec": null,
+  "current_iteration": 3,
+  "events": [
+    {
+      "ts": "2026-06-04T20:01:54",
+      "agent": "4-writer",
+      "event": "iteration_returned",
+      "iteration": 2,
+      "reason": "CTA overlap 0.229 > 0.2: все три CTA семантически идентичны между собой и другим статьям news",
+      "recommendation": "Сделать каждую CTA уникальной: CTA-TOP → проверить договор на навязанные услуги, CTA-MID → узнать когда можно вернуть деньги, CTA-BOTTOM → получить помощь в возврате переплат"
+    },
+    {
+      "ts": "2026-06-04T20:13:56",
+      "agent": "4-writer",
+      "event": "iteration_returned",
+      "iteration": 3,
+      "reason": "quality_gate: author_markers_missing (0 маркеров), ai_markers_critical (1 em-dash в FAQ)",
+      "recommendation": "1. Добавить 1+ авторский маркер в body.html: по нашему опыту / в нашей практике / мы считаем. 2. Убрать em-dash в FAQ-вопросе (поз.~6877): «попал в долговую яму — есть ли выход» → заменить тире на двоеточие или перефразировать."
+    },
+    {
+      "ts": "2026-06-04T20:16:12",
+      "agent": "scheduler",
+      "event": "slot_started",
+      "iteration": 3,
+      "category": "news",
+      "today_count": 7,
+      "limit": 11,
+      "write_article_duration_sec": 2391.4
+    },
+    {
+      "ts": "2026-06-04T20:16:12",
+      "agent": "quality_gate",
+      "event": "passed",
+      "iteration": 3,
+      "blockers": [],
+      "warnings": [
+        "Автофикс применил правки: сокращения=0, пунктуация=0",
+        "internal_links_autofixed: 3 ссылок (например /articles/news/shtraf-banku-narusheniye-prav-zaemshchika-cb-ukazanie.html→/articles/news/shtraf-banku-narusheniye-prav-zaemshchika-cb-ukazanie; /articles/news/ogranichenie-kreditov-vysokaya-dolgovaya-nagruzka-mpl.html→/articles/news/ogranichenie-kreditov-vysokaya-dolgovaya-nagruzka-mpl; /articles/fiz/bankrotstvo-po-mikrozajmam.html→/articles/fiz/bankrotstvo-po-mikrozajmam)",
+        "length_soft_passed: 7112 > 6800 но ≤ 7500 и iteration=3 — пропускаем (приоритет spam/uniqueness/ai)",
+        "spam_soft_passed: ratio-флаги мягкие при iter=3, targeted_tokens чистые → пропускаем (spam ≈48-52% по прогнозу)"
+      ],
+      "recommendations": []
+    }
+  ]
+}

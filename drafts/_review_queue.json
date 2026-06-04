@@ -2878,6 +2878,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "cb-standart-mfo-zapret-navyazyvaniya-dopuslug",
+      "category": "news",
+      "title": "МФО запретили навязывать допуслуги: новый стандарт ЦБ",
+      "added_at": "2026-06-04T20:15:54.118255",
+      "char_count": 7112,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1780593353/articles/cb-standart-mfo-zapret-navyazyvaniya-dopuslug-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
