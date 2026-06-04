@@ -4765,7 +4765,7 @@
     "reorganizaciya-dolzhnika-prava-kreditora": {
       "category": "vzysk",
       "title": "Реорганизация должника: права кредитора",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -4773,14 +4773,16 @@
       "tg_message_id": 1297,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-06-03T12:56:43",
-      "last_action_at": "2026-06-04T10:00:29",
+      "last_action_at": "2026-06-04T14:49:09",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/vzysk/reorganizaciya-dolzhnika-prava-kreditora",
       "pending_batch": false,
       "pending_batch_at": "2026-06-03T12:56:43",
       "batch_sent_at": "2026-06-04T10:00:29",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-06-04T14:49:09",
+      "articles_path": "articles/vzysk/reorganizaciya-dolzhnika-prava-kreditora.html"
     },
     "bankrotstvo-dolg-vinovnika-dtp-ne-spishut": {
       "category": "news",
