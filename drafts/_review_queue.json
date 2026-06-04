@@ -2891,6 +2891,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "nasledstvo-vo-vremya-bankrotstva-fizlica",
+      "category": "fiz",
+      "title": "Наследство при банкротстве физлица: что будет с имуществом",
+      "added_at": "2026-06-04T22:42:42.957570",
+      "char_count": 7464,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1780602161/articles/nasledstvo-vo-vremya-bankrotstva-fizlica-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": false,
+        "hard_failed": false
+      }
     }
   ]
 }

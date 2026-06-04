@@ -5484,6 +5484,26 @@
       "articles": [
         "cb-standart-mfo-zapret-navyazyvaniya-dopuslug"
       ]
+    },
+    {
+      "id": "fiz-nasledstvo-vo-vremya-bankrotstva",
+      "category": "fiz",
+      "subtopic": "наследство во время банкротства физлица: конкурсная масса, исключения, отказ",
+      "intent": "informational",
+      "funnel_stage": "warm",
+      "main_keyword": "наследство во время банкротства",
+      "related_keywords": [
+        "получил наследство при банкротстве",
+        "отказ от наследства при банкротстве",
+        "наследство в конкурсную массу банкрота",
+        "наследство банкрота единственное жилье",
+        "что будет с наследством при банкротстве физлица",
+        "вступить в наследство при банкротстве",
+        "финансовый управляющий наследство"
+      ],
+      "articles": [
+        "nasledstvo-vo-vremya-bankrotstva-fizlica"
+      ]
     }
   ]
 }
