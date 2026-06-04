@@ -2800,6 +2800,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "fiktivnoe-bankrotstvo-fizlica-posledstviya",
+      "category": "fiz",
+      "title": "Фиктивное банкротство физлица: признаки и последствия",
+      "added_at": "2026-06-04T09:27:32.607794",
+      "char_count": 7724,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1780554451/articles/fiktivnoe-bankrotstvo-fizlica-posledstviya-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

@@ -13422,5 +13422,84 @@
     "stderr_tail": "\n[scheduler] hit slot/article timeout after 2870s",
     "tokens_by_model": {},
     "metrics": null
+  },
+  {
+    "timestamp": "2026-06-04T07:36:27",
+    "category": "yur",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 1,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "yur-87",
+    "topic_slug": "prodazha-doli-ooo-pered-bankrotstvom",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "Автофикс применил правки: сокращения=0, пунктуация=0",
+        "internal_links_autofixed: 3 ссылок (например /articles/yur/osparivanie-sdelok-pri-bankrotstve.html→/articles/yur/osparivanie-sdelok-pri-bankrotstve; /articles/yur/kontroliruyushchee-dolzhnika-lico-kdl.html→/articles/yur/kontroliruyushchee-dolzhnika-lico-kdl; /articles/yur/bankrotstvo-ooo-poshagovo-2026.html→/articles/yur/bankrotstvo-ooo-poshagovo-2026)",
+        "forced_pass_at_iter2: блокеры пропущены, статья идёт в TG-очередь с metrics_warning=true. Было: 1 блокеров — targeted_tokens_over_limit"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "prodazha-doli-ooo-pered-bankrotstvom",
+    "duration_sec": 1851.3,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": ".0, thesis_similarity=0.067)\n- **Factcheck:** passed\n- **Quality gate:** exit 0, passed (forced_pass с `metrics_warning=true` — мягкое нарушение по частоте «127-ФЗ» ×5, hard-блокеров нет)\n- **Обложка:** сгенерирована, загружена на Cloudinary (шаблон #24)\n- **Статус:** `ready_for_review=true`, добавлена в TG-очередь\n\n**text.ru метрики:** не запускались автоматически (ручная проверка при необходимости).\n\nСтатья в очереди на ревью в Telegram-боте. Публикация — при нажатии «Опубликовать» заказчиком.",
+    "stderr_tail": "",
+    "tokens_by_model": {
+      "sonnet": {
+        "input_tokens": 6079,
+        "output_tokens": 2080,
+        "cache_creation_input_tokens": 549605,
+        "cache_read_input_tokens": 4553622,
+        "messages": 121
+      },
+      "haiku": {
+        "input_tokens": 62,
+        "output_tokens": 70,
+        "cache_creation_input_tokens": 53754,
+        "cache_read_input_tokens": 150881,
+        "messages": 12
+      },
+      "opus": {
+        "input_tokens": 53,
+        "output_tokens": 589,
+        "cache_creation_input_tokens": 163647,
+        "cache_read_input_tokens": 1829475,
+        "messages": 33
+      }
+    },
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7710
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]
