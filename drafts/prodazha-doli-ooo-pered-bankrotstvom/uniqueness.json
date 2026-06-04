@@ -1,0 +1,19 @@
+{
+  "slug": "prodazha-doli-ooo-pered-bankrotstvom",
+  "passed": true,
+  "scores": {
+    "structure_overlap": 0.0,
+    "thesis_similarity": 0.067,
+    "cta_overlap": 0.193
+  },
+  "similar_articles": [],
+  "conflicts": [],
+  "recommendation": "ok",
+  "article_id": 238,
+  "stored_in_db": true,
+  "comparison_details": {
+    "peers_compared": 47,
+    "closest_peer": "avtomobil-pri-bankrotstve-fizlica",
+    "note": "Статья уникальна по всем трём метрикам. Вектор записан в embeddings.sqlite с флагом published=0."
+  }
+}

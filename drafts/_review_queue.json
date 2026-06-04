@@ -2787,6 +2787,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "prodazha-doli-ooo-pered-bankrotstvom",
+      "category": "yur",
+      "title": "Продажа доли ООО перед банкротством: риски",
+      "added_at": "2026-06-04T08:07:04.333129",
+      "char_count": 7710,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1780549623/articles/prodazha-doli-ooo-pered-bankrotstvom-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
