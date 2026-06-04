@@ -117,6 +117,7 @@ class SpamHeuristics:
     ngram3_total: int
     ngram3_repeat_share: float
     risk_flags: list[str]
+    word_warnings: list[str] = field(default_factory=list)  # леммы count>12 для прореживания
 
 
 @dataclass
@@ -329,6 +330,9 @@ def compute_spam_heuristics(text: str) -> SpamHeuristics:
     lexical_diversity = round(unique_lemmas / total_words, 3)
 
     top10 = counter.most_common(10)
+    # Леммы-нарушители для прореживания (агент 6 / writer self-check).
+    # >12 — порог, на котором лемма заметно тянет top10_share и заспам.
+    word_warnings = [f"«{lemma}» ×{cnt}" for lemma, cnt in counter.most_common(12) if cnt > 12]
     top10_sum = sum(c for _, c in top10)
     top10_share = round(top10_sum / total_words, 3)
     top1_count = top10[0][1] if top10 else 0
@@ -386,6 +390,7 @@ def compute_spam_heuristics(text: str) -> SpamHeuristics:
         ngram3_total=total_ngrams,
         ngram3_repeat_share=ngram3_repeat_share,
         risk_flags=risk_flags,
+        word_warnings=word_warnings,
     )
 
 
@@ -811,6 +816,8 @@ def print_report(rep: Report) -> None:
         print(f"  Топ-10 доля: {s.top10_share * 100:.1f}% (цель ≤11.5%)")
         print(f"  Повторы 3-граммов: {s.ngram3_repeat_share * 100:.1f}% (цель ≤3.5%)")
         print(f"  Топ-5 частотных лемм: {s.top10_words[:5]}")
+        if s.word_warnings:
+            print(f"  [WORDS] Леммы для прореживания (count>12, главный драйвер заспама): {', '.join(s.word_warnings)}")
         if s.risk_flags:
             print(f"  [RISK] Превышены пороги: {s.risk_flags}")
             print(f"  [FAIL] Возврат на писателя: снизить плотность повторов.")
