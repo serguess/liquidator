@@ -13579,5 +13579,80 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-06-04T12:24:19",
+    "category": "vzysk",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 1,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 2,
+        "found": [
+          "auditor-buhgalter-subsidiarnaya-otvetstvennost",
+          "realizaciya-arestovannogo-imushchestva-pristavami"
+        ],
+        "pushed": true
+      }
+    },
+    "mode": "rewrite",
+    "retry_slug": "realizaciya-arestovannogo-imushchestva-pristavami",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "Автофикс применил правки: сокращения=0, пунктуация=0",
+        "spam_soft_passed: ratio-флаги мягкие при iter=3, targeted_tokens чистые → пропускаем (spam ≈48-52% по прогнозу)"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "realizaciya-arestovannogo-imushchestva-pristavami",
+    "duration_sec": 468.1,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "Статья успешно доработана и финализирована. Итог:\n\n- **quality_gate: `passed: true`** (retry_count=2)\n- Длина: 9175 → **7197 знаков** (−22%)\n- `ст_сокращение`: 17 → **0** (все заменены на «статья X»)\n- Лексическое разнообразие: 0.577 → **0.603**\n- Топ-1 лемма (аукцион): 14 → «торг»+«продаж» распределены равномерно\n- AI-маркеры: 1 high → **0 high** (только 2 low в boilerplate)\n- Обложка сгенерирована, статья в очереди ревью (219 items)",
+    "stderr_tail": "",
+    "tokens_by_model": {
+      "sonnet": {
+        "input_tokens": 42,
+        "output_tokens": 908,
+        "cache_creation_input_tokens": 173595,
+        "cache_read_input_tokens": 1669321,
+        "messages": 38
+      },
+      "haiku": {
+        "input_tokens": 23,
+        "output_tokens": 10,
+        "cache_creation_input_tokens": 41877,
+        "cache_read_input_tokens": 15386,
+        "messages": 5
+      }
+    },
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7197
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]
