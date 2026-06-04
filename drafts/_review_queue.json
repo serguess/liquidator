@@ -2904,6 +2904,19 @@
         "passed": false,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "bankrotstvo-gup-i-mup",
+      "category": "yur",
+      "title": "Банкротство ГУП и МУП: особенности процедуры",
+      "added_at": "2026-06-05T01:14:06.470585",
+      "char_count": 7259,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1780611245/articles/bankrotstvo-gup-i-mup-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
