@@ -4875,7 +4875,7 @@
     "vzyskanie-posle-bankrotstva-fizlica": {
       "category": "fiz",
       "title": "Взыскание после банкротства физлица: права должника",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -4883,14 +4883,16 @@
       "tg_message_id": 1307,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-06-04T03:29:18",
-      "last_action_at": "2026-06-04T10:00:40",
+      "last_action_at": "2026-06-04T14:56:07",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/fiz/vzyskanie-posle-bankrotstva-fizlica",
       "pending_batch": false,
       "pending_batch_at": "2026-06-04T03:29:18",
       "batch_sent_at": "2026-06-04T10:00:40",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-06-04T14:56:07",
+      "articles_path": "articles/fiz/vzyskanie-posle-bankrotstva-fizlica.html"
     },
     "prodazha-doli-ooo-pered-bankrotstvom": {
       "category": "yur",
