@@ -1,0 +1,143 @@
+{
+  "slug": "vzyskanie-posle-bankrotstva-fizlica",
+  "category": "fiz",
+  "title": "Взыскание после банкротства физлица: права должника",
+  "description": "Банк или коллектор требует долг после завершения банкротства? Разбираем, какие долги списаны навсегда, какие нельзя списать, и что делать, если кредитор не останавливается.",
+  "h1": "Взыскание долга после банкротства: когда кредитор не имеет права требовать",
+  "lead": "Разбираем, по каким долгам кредитор после окончания дела теряет право требовать, а по каким взыскание сохраняется, и что делать, если банк, коллектор или пристав не останавливаются.",
+  "topic_action": "проверку списания долгов после банкротства",
+  "offer": "proverka-spisaniya",
+  "breadcrumb_current": "Взыскание после банкротства физлица",
+  "og_image": "/assets/articles/vzyskanie-posle-bankrotstva-fizlica.jpg",
+  "main_keyword": "взыскание долга после банкротства физического лица",
+  "secondary_keywords": [
+    "что будет с долгами после банкротства",
+    "долги которые не списывают при банкротстве",
+    "банк требует долг после банкротства что делать",
+    "текущие платежи при банкротстве физлица",
+    "долги после банкротства физлица",
+    "как защититься от взыскания после банкротства",
+    "алименты после банкротства физлица"
+  ],
+  "internal_links": [
+    "/articles/fiz/prekrashchenie-dela-bankrotstvo-fizlica",
+    "/articles/fiz/alimenty-pri-bankrotstve-fizlica",
+    "/articles/fiz/kogda-dolgi-ne-spishut-pri-bankrotstve",
+    "/articles/fiz/pristavy-i-bankrotstvo-fizlica"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/"
+  ],
+  "faq": [
+    {
+      "question": "Коллектор угрожает судом по списанной задолженности — что ему ответить?",
+      "answer": "Направьте заверенную копию акта арбитражного суда об итоге реализации имущества. Любое разбирательство по списанному требованию заведомо проигрышно: вступивший в силу акт арбитража обязателен для любой инстанции. Угрозы не прекращаются — жалоба в ФССП или в Банк России."
+    },
+    {
+      "question": "Обязательно ли идти в суд, если пристав не закрывает производство?",
+      "answer": "Нет. Сначала подайте приставу заявление о прекращении с копией акта. Не реагирует — жалоба старшему приставу. Судебное оспаривание — последний шаг."
+    },
+    {
+      "question": "Можно ли вернуть деньги, которые кредитная организация списала со счёта уже после окончания дела?",
+      "answer": "Да. Незаконно списанная сумма возвращается как неосновательное обогащение. Направьте претензию с копией акта. При отказе — иск, срок давности три года."
+    },
+    {
+      "question": "Что произойдёт, если не включил одного кредитора в список при внесудебном банкротстве через МФЦ?",
+      "answer": "Его требование не будет списано. Он сохраняет полное право взыскивать. Выход — договариваться отдельно или рассматривать судебное банкротство, охватывающее все обязательства."
+    },
+    {
+      "question": "Можно ли взыскать задолженность, если дело прекращено, а не завершено?",
+      "answer": "Да. При прекращении человек банкротом не признаётся, все обязательства сохраняются, взыскания возобновляются. Кредитор вправе обращаться к приставам и в суд."
+    },
+    {
+      "question": "Сохраняется ли алиментная задолженность после признания банкротом?",
+      "answer": "Всегда. Алименты — абсолютное исключение из правила об освобождении. Платить нужно продолжать в прежнем размере. Ранее накопленный долг тоже остаётся."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "f1 — п. 3 ст. 213.28 127-ФЗ корректно упомянут как основание освобождения, last_verified 2026-06-04",
+    "f2/f3/f4/f6 — абсолютные исключения (вред жизни/здоровью, алименты, субсидиарка, умысел/грубая неосторожность) приведены без цифр и точных абзацев нормы, в обтекаемой формулировке",
+    "f5 — текущие платежи корректно отграничены от реестровых, без точной нормы ст. 5/213.27",
+    "f7 — недобросовестность изложена через safe_phrasing, без перечисления абз. 1-4 п. 4 ст. 213.28",
+    "f8 — дело А12-28251/2024 ВС РФ, июнь 2026, ОСАГО как заведомо незаконное действие — приведено в полном соответствии с research, source_date 2026-06-01, last_verified 2026-06-04",
+    "f10 — п. 5 ч. 1 ст. 43 ФЗ-229 (исполнение признано невозможным) корректно привязан к прекращению ИП по реестровым долгам",
+    "f12 — ст. 213.30: сроки 5/5/3/10/5 лет приведены в точном соответствии с research, без рекомендаций обхода",
+    "f15 — различие завершения (ст. 213.28) и прекращения (ст. 57) выделено отдельно — ключевой риск темы",
+    "f16 — ст. 223.6 127-ФЗ для МФЦ-процедуры (пропущенный кредитор) корректно квалифицирована",
+    "Лимит цитирования закона соблюдён: прямых цитат норм нет, ссылки на статьи в пересказе",
+    "Внутренние ссылки (4 шт.) проверены против published_index.json — все целевые статьи опубликованы в /articles/fiz/",
+    "Итерация 2: writer заменил повторяющиеся слова синонимами (кредитор/норма/обязательства/взыскания) для снижения заспамленности — фактические утверждения не изменились"
+  ],
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "text_chars": 7438,
+  "length_status": "ok",
+  "length_kind": "default",
+  "local_spam_top10_share": 0.112,
+  "local_spam_ngram3_repeat": 0.056,
+  "local_lexical_diversity": 0.583,
+  "local_ai_markers_density": 0.42,
+  "local_ai_markers_total": 4,
+  "local_ai_markers_critical": 1,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 2,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 3,
+  "predicted_spam_pct": 60,
+  "predicted_ai_pct": 35,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность заметно выше 50% (~60%)",
+    "AI-detector значительно выше 10% (~35%)",
+    "найдены критические маркеры ИИ-стиля: Длинное тире (—) - могут поднять AI-detector text.ru"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "spam_risk: 1 флагов (ngram3_repeat_share>0.035 (=0.056)), top-5: ['долг', 'кредитор', 'дела', 'человек', 'акта']",
+    "ai_markers_critical: 1 (Длинное тире (—))"
+  ],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1780532897/articles/vzyskanie-posle-bankrotstva-fizlica-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1780532897/articles/vzyskanie-posle-bankrotstva-fizlica-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Exterior photograph of a contemporary administrative building in heavy rain and evening fog. Glass façade reflects wet street, soft amber lampposts glow through dense haze with no readable signage. Street-level camera angle with slight low-angle framing. Foreground: wet stone steps, a closed dark leather briefcase resting on damp concrete, a black umbrella leaning against the entry pillar with oxidized brass nameplate. Distant silhouettes of faceless pedestrians with umbrellas fade into the mist. Palette: cool blue-grey with warm amber glows. Mood: contemporary urban financial tension, protection against unwanted enforcement, contemporary regulatory drama.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-06-04T00:28:18Z",
+  "date_published": "2026-06-04",
+  "date_modified": "2026-06-04",
+  "ready_for_review": true,
+  "ready_at": "2026-06-04T00:28:18Z",
+  "publication_target": "telegram_review",
+  "tokens_by_model": {
+    "sonnet": {
+      "input_tokens": 180,
+      "output_tokens": 3652,
+      "cache_creation_input_tokens": 670294,
+      "cache_read_input_tokens": 6610956,
+      "messages": 155
+    },
+    "haiku": {
+      "input_tokens": 48,
+      "output_tokens": 32,
+      "cache_creation_input_tokens": 74127,
+      "cache_read_input_tokens": 64155,
+      "messages": 10
+    },
+    "opus": {
+      "input_tokens": 57,
+      "output_tokens": 276,
+      "cache_creation_input_tokens": 138602,
+      "cache_read_input_tokens": 625848,
+      "messages": 22
+    }
+  },
+  "tokens_total": {
+    "input": 285,
+    "output": 3960,
+    "cache_read": 7300959,
+    "cache_creation": 883023,
+    "total": 887268
+  }
+}
