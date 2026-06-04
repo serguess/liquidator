@@ -4809,7 +4809,7 @@
     "otkaz-mfc-vnesudebnoe-bankrotstvo-fizlica": {
       "category": "fiz",
       "title": "Отказ МФЦ в банкротстве: причины и что делать",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -4817,14 +4817,16 @@
       "tg_message_id": 1301,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-06-03T18:01:45",
-      "last_action_at": "2026-06-04T10:00:34",
+      "last_action_at": "2026-06-04T14:52:31",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/fiz/otkaz-mfc-vnesudebnoe-bankrotstvo-fizlica",
       "pending_batch": false,
       "pending_batch_at": "2026-06-03T18:01:45",
       "batch_sent_at": "2026-06-04T10:00:34",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-06-04T14:52:31",
+      "articles_path": "articles/fiz/otkaz-mfc-vnesudebnoe-bankrotstvo-fizlica.html"
     },
     "trudovye-prava-rabotnikov-bankrotstvo-yurlica": {
       "category": "yur",
