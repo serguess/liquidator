@@ -13294,5 +13294,133 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-06-04T02:48:16",
+    "category": "fiz",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 2,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "fiz-93",
+    "topic_slug": "vzyskanie-posle-bankrotstva-fizlica",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "Автофикс применил правки: сокращения=0, пунктуация=0",
+        "forced_pass_at_iter2: блокеры пропущены, статья идёт в TG-очередь с metrics_warning=true. Было: 2 блокеров — spam_risk; ai_markers_critical"
+      ],
+      "recommendations": [
+        "reduce_repetition: разбавить топ-5 частотных лемм местоимениями/перифразом — ['долг', 'кредитор', 'дела', 'человек', 'акта']",
+        "fix_ai_markers: убрать критичные маркеры (длинные тире, эмодзи, англ. кавычки, чатбот-фразы)"
+      ],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "vzyskanie-posle-bankrotstva-fizlica",
+    "duration_sec": 2421.2,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "educe_repetition\n- Агент 5 (uniqueness): ✓ passed\n- Агент 6 (seo-editor): ✓ factcheck passed\n- Quality gate: forced_pass на итерации 2 (metrics_warning=true, spam_risk ngram3)\n- Агент 7 (publisher): ✓ scene_template=12\n- finalize_draft: ✓ обложка сгенерирована, ready_for_review=true\n\n**Метрики text.ru:** не заполнены (проверка будет при публикации)\n\n**Предсказанные метрики quality_gate:** spam≈60%, AI≈35%, uniqueness≈87%\n\nСтатья добавлена в TG-очередь на ревью (214 записей в _review_queue.json).",
+    "stderr_tail": "",
+    "tokens_by_model": {
+      "sonnet": {
+        "input_tokens": 180,
+        "output_tokens": 3652,
+        "cache_creation_input_tokens": 670294,
+        "cache_read_input_tokens": 6610956,
+        "messages": 155
+      },
+      "haiku": {
+        "input_tokens": 48,
+        "output_tokens": 32,
+        "cache_creation_input_tokens": 74127,
+        "cache_read_input_tokens": 64155,
+        "messages": 10
+      },
+      "opus": {
+        "input_tokens": 57,
+        "output_tokens": 276,
+        "cache_creation_input_tokens": 138602,
+        "cache_read_input_tokens": 625848,
+        "messages": 22
+      }
+    },
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7438
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
+  },
+  {
+    "timestamp": "2026-06-04T05:12:32",
+    "category": "yur",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 3,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "yur-86",
+    "topic_slug": "auditor-buhgalter-subsidiarnaya-otvetstvennost",
+    "auto_skipped": [
+      {
+        "slug": "ispolnitelskij-sbor-pri-bankrotstve-yurlica",
+        "reason": "hang_heartbeat_timeout",
+        "duration_sec": 2225.2
+      },
+      {
+        "slug": "auditor-buhgalter-subsidiarnaya-otvetstvennost",
+        "reason": "hang_total_timeout",
+        "duration_sec": 2870.2
+      }
+    ],
+    "status": "failed",
+    "slug": "auditor-buhgalter-subsidiarnaya-otvetstvennost",
+    "duration_sec": 5104.7,
+    "returncode": -2,
+    "rescued_after_failure": false,
+    "stdout_tail": "ool_use:Write]\nУникальность не прошла — возвращаю на агента 4 со сменой угла (первая и единственная итерация).\n[tool_use:Bash]\n[tool_use:Bash]\n[tool_use:Agent]\n[tool_use:Read]\n[tool_use:Read]\n[tool_use:Read]\n[tool_use:Read]\n[tool_use:Read]\n[tool_use:Read]\n[tool_use:Read]\n[tool_use:Read]\n[tool_use:Write]\n[tool_use:Bash]\n[tool_use:Write]\n[tool_use:Bash]\n[tool_use:Write]\n[tool_use:Bash]\n[tool_use:Write]\n[tool_use:Bash]\n[tool_use:Write]\n[tool_use:Bash]\n[tool_use:Bash]\n[tool_use:Read]\n[tool_use:Read]",
+    "stderr_tail": "\n[scheduler] hit slot/article timeout after 2870s",
+    "tokens_by_model": {},
+    "metrics": null
   }
 ]

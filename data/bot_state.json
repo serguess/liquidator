@@ -4811,6 +4811,60 @@
       "published_url": null,
       "pending_batch": true,
       "pending_batch_at": "2026-06-03T18:01:45"
+    },
+    "trudovye-prava-rabotnikov-bankrotstvo-yurlica": {
+      "category": "yur",
+      "title": "Права работников при банкротстве работодателя",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-06-03T22:38:16",
+      "last_action_at": "2026-06-03T22:38:16",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-06-03T22:38:16"
+    },
+    "kreditnaya-istoriya-i-ispolnitelnoe-proizvodstvo": {
+      "category": "vzysk",
+      "title": "Исполнительное производство и кредитная история",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-06-04T01:01:17",
+      "last_action_at": "2026-06-04T01:01:17",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-06-04T01:01:17"
+    },
+    "vzyskanie-posle-bankrotstva-fizlica": {
+      "category": "fiz",
+      "title": "Взыскание после банкротства физлица: права должника",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-06-04T03:29:18",
+      "last_action_at": "2026-06-04T03:29:18",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-06-04T03:29:18"
     }
   },
   "pending_actions": [],
