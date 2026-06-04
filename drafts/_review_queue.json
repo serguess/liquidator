@@ -2813,6 +2813,45 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "neustoyka-pri-bankrotstve-yurlica",
+      "category": "yur",
+      "title": "Неустойка при банкротстве юрлица: судьба санкций",
+      "added_at": "2026-06-04T11:12:13.182289",
+      "char_count": 8227,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1780560732/articles/neustoyka-pri-bankrotstve-yurlica-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
+    },
+    {
+      "slug": "auditor-buhgalter-subsidiarnaya-otvetstvennost",
+      "category": "yur",
+      "title": "Субсидиарная ответственность бухгалтера при банкротстве",
+      "added_at": "2026-06-04T11:27:06.274156",
+      "char_count": 7904,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1780561625/articles/auditor-buhgalter-subsidiarnaya-otvetstvennost-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
+    },
+    {
+      "slug": "realizaciya-arestovannogo-imushchestva-pristavami",
+      "category": "vzysk",
+      "title": "Как приставы продают арестованное имущество",
+      "added_at": "2026-06-04T12:32:00.275641",
+      "char_count": 7197,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1780565519/articles/realizaciya-arestovannogo-imushchestva-pristavami-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

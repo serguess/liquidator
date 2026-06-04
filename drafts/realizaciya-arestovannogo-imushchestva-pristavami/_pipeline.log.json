@@ -4,7 +4,7 @@
   "started_at": "2026-06-04T09:50:25",
   "finished_at": null,
   "total_duration_sec": null,
-  "current_iteration": 2,
+  "current_iteration": 3,
   "events": [
     {
       "ts": "2026-06-04T09:50:25",
@@ -13,6 +13,65 @@
       "iteration": 2,
       "reason": "thesis_similarity=0.323 > 0.30 vs vzyskanie-dolga-po-dogovoru-arendy",
       "recommendation": "rewrite_with_angle:мифы-и-правда — заблуждения должника про реализацию имущества вместо пошагового разбора процедуры"
+    },
+    {
+      "ts": "2026-06-04T12:25:18",
+      "agent": "scheduler",
+      "event": "rewrite_started",
+      "iteration": 2,
+      "reason": "quality_gate failed: length_too_long(9175>8000), spam_risk(6 флагов), ст_сокращение=17",
+      "recommendation": "agent4: reduce_length + reduce_repetition + reduce_ст"
+    },
+    {
+      "ts": "2026-06-04T12:29:26",
+      "agent": "4-writer",
+      "event": "iteration_returned",
+      "iteration": 3,
+      "reason": "rewrite-article",
+      "recommendation": "reduce_length + reduce_repetition(аукцион/оценк/должник/пристав/продаж) + reduce_ст(17→≤5)"
+    },
+    {
+      "ts": "2026-06-04T12:31:00",
+      "agent": "4-writer",
+      "event": "completed",
+      "iteration": 3,
+      "reason": "rewrite-article: all blockers resolved"
+    },
+    {
+      "ts": "2026-06-04T12:31:00",
+      "agent": "scheduler",
+      "event": "rewrite_finished",
+      "iteration": 3,
+      "reason": "passed: true"
+    },
+    {
+      "ts": "2026-06-04T12:31:33",
+      "agent": "7-publisher",
+      "event": "completed",
+      "iteration": 3,
+      "reason": "scene selected"
+    },
+    {
+      "ts": "2026-06-04T12:32:07",
+      "agent": "scheduler",
+      "event": "slot_started",
+      "iteration": 3,
+      "category": "vzysk",
+      "today_count": 4,
+      "limit": 11,
+      "write_article_duration_sec": 468.1
+    },
+    {
+      "ts": "2026-06-04T12:32:08",
+      "agent": "quality_gate",
+      "event": "passed",
+      "iteration": 3,
+      "blockers": [],
+      "warnings": [
+        "Автофикс применил правки: сокращения=0, пунктуация=0",
+        "spam_soft_passed: ratio-флаги мягкие при iter=3, targeted_tokens чистые → пропускаем (spam ≈48-52% по прогнозу)"
+      ],
+      "recommendations": []
     }
   ]
 }

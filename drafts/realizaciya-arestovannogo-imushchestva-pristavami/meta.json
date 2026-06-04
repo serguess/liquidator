@@ -66,30 +66,57 @@
     "torgi.gov.ru указан как обязательная площадка для публикации, остальные площадки — с уточнением 'аккредитованные Росимуществом' (forbidden_claim про 'всегда ЕЭТП' снят).",
     "Долг при возврате нереализованного имущества не списывается — это прямо проговорено в Мифе 4 (forbidden_claim снят)."
   ],
-  "text_chars": 9175,
-  "length_status": "too_long",
+  "text_chars": 7197,
+  "length_status": "ok",
   "length_kind": "default",
-  "local_spam_top10_share": 0.12,
-  "local_spam_ngram3_repeat": 0.038,
-  "local_lexical_diversity": 0.577,
-  "local_ai_markers_density": 0.27,
-  "local_ai_markers_total": 3,
+  "local_spam_top10_share": 0.114,
+  "local_spam_ngram3_repeat": 0.021,
+  "local_lexical_diversity": 0.603,
+  "local_ai_markers_density": 0.22,
+  "local_ai_markers_total": 2,
   "local_ai_markers_critical": 0,
-  "local_ai_markers_high": 1,
-  "local_own_voice_hits": 3,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 2,
   "local_first_person_singular_hits": 0,
-  "quality_gate_passed": false,
-  "quality_gate_blockers": [
-    "length_too_long: 9175 > 8000 (kind=default)",
-    "spam_risk: 6 флагов (top1_count>12 (=14, лемма «аукцион»), top3_sum>30 (=39), top10_sum>80 (=101), top10_share>0.115 (=0.12), ngram3_repeat_share>0.035 (=0.038), lexical_diversity<0.58 (=0.577)), top-5: ['аукцион', 'оценк', 'должник', 'пристав', 'продаж']",
-    "targeted_tokens_over_limit: ст_сокращение=17(>≤5)"
-  ],
-  "quality_gate_retry_count": 1,
-  "predicted_spam_pct": 63,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 3,
+  "predicted_spam_pct": 53,
   "predicted_ai_pct": 3,
   "predicted_uniqueness_pct": 87,
   "customer_risks": [
-    "заспамленность заметно выше 50% (~63%)",
-    "длина значительно больше лимита 8000 (9 175 знаков)"
-  ]
+    "заспамленность чуть выше 50% (~53%)"
+  ],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1780565519/articles/realizaciya-arestovannogo-imushchestva-pristavami-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1780565519/articles/realizaciya-arestovannogo-imushchestva-pristavami-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Close-up cinematic photograph of enforcement implements arranged mid-process. Hero objects: polished brass scales of justice with empty pans positioned center-left, a wooden judge's gavel resting on its sound block, a stack of closed dossiers tied with burgundy cord, a sand-filled brass hourglass mid-flow, a bunch of weathered brass keys on an iron ring, and an antique brass padlock with heavy chain. Camera: tabletop level, three-quarter angle. Materials and lighting: dark walnut surface, soft directional sidelight from upper left casting elegant shadows across the metal. Palette: deep walnut, oxidized brass, burgundy accents, warm amber light. Atmosphere of due enforcement process, weight of procedural time, assets secured and in motion toward realization.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-06-04T09:32:00Z",
+  "date_published": "2026-06-04",
+  "date_modified": "2026-06-04",
+  "ready_for_review": true,
+  "ready_at": "2026-06-04T09:32:00Z",
+  "publication_target": "telegram_review",
+  "tokens_by_model": {
+    "sonnet": {
+      "input_tokens": 42,
+      "output_tokens": 908,
+      "cache_creation_input_tokens": 173595,
+      "cache_read_input_tokens": 1669321,
+      "messages": 38
+    },
+    "haiku": {
+      "input_tokens": 23,
+      "output_tokens": 10,
+      "cache_creation_input_tokens": 41877,
+      "cache_read_input_tokens": 15386,
+      "messages": 5
+    }
+  },
+  "tokens_total": {
+    "input": 65,
+    "output": 918,
+    "cache_read": 1684707,
+    "cache_creation": 215472,
+    "total": 216455
+  }
 }
