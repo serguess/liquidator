@@ -4941,7 +4941,7 @@
     "neustoyka-pri-bankrotstve-yurlica": {
       "category": "yur",
       "title": "Неустойка при банкротстве юрлица: судьба санкций",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -4949,13 +4949,15 @@
       "tg_message_id": 1313,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-06-04T12:15:30",
-      "last_action_at": "2026-06-04T12:15:30",
+      "last_action_at": "2026-06-04T15:00:31",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/yur/neustoyka-pri-bankrotstve-yurlica",
       "pending_batch": false,
       "pending_batch_at": "2026-06-04T12:15:30",
-      "batch_sent_at": "2026-06-04T12:19:14"
+      "batch_sent_at": "2026-06-04T12:19:14",
+      "published_at": "2026-06-04T15:00:31",
+      "articles_path": "articles/yur/neustoyka-pri-bankrotstve-yurlica.html"
     },
     "realizaciya-arestovannogo-imushchestva-pristavami": {
       "category": "vzysk",
