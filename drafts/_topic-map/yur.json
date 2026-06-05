@@ -2487,7 +2487,11 @@
       "frequency_estimate": "high",
       "rationale": "Один из самых популярных запросов среди собственников малого бизнеса — быстро избавиться от ООО через смену директора. Статья предупреждает о рисках субсидиарки и переводит читателя к законным вариантам ликвидации.",
       "expected_length_chars": 7000,
-      "topic_action": "закрытие ООО с долгами без рисков"
+      "topic_action": "закрытие ООО с долгами без рисков",
+      "status": "rejected",
+      "rejected_at": "2026-06-05T08:13:54",
+      "rejected_reason": "hang_heartbeat_timeout",
+      "rejected_by": "auto_skip_in_slot"
     },
     {
       "id": "yur-91",
