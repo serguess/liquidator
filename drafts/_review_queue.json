@@ -2956,6 +2956,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "bank-podal-isk-po-kreditu-chto-delat",
+      "category": "vzysk",
+      "title": "Банк подал иск по кредиту: тактика должника в суде",
+      "added_at": "2026-06-05T10:45:30.803657",
+      "char_count": 7572,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1780645529/articles/bank-podal-isk-po-kreditu-chto-delat-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
