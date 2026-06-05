@@ -4967,19 +4967,251 @@
       "versions": [
         "2.0"
       ],
+      "tg_message_id": 1335,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-06-04T12:32:38",
+      "last_action_at": "2026-06-05T10:00:06",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-06-04T12:32:38",
+      "batch_sent_at": "2026-06-05T10:00:06",
+      "batch_fail_count": 0
+    },
+    "bankrotstvo-postavshchika-po-goskontraktu": {
+      "category": "yur",
+      "title": "Банкротство поставщика по госконтракту: права заказчика",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 1337,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-06-04T15:51:39",
+      "last_action_at": "2026-06-05T10:00:08",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-06-04T15:51:39",
+      "batch_sent_at": "2026-06-05T10:00:08",
+      "batch_fail_count": 0
+    },
+    "vzyskanie-dolga-po-dogovoru-uslug": {
+      "category": "vzysk",
+      "title": "Взыскание долга по договору оказания услуг",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 1339,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-06-04T17:53:40",
+      "last_action_at": "2026-06-05T10:00:10",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-06-04T17:53:40",
+      "batch_sent_at": "2026-06-05T10:00:10",
+      "batch_fail_count": 0
+    },
+    "cb-standart-mfo-zapret-navyazyvaniya-dopuslug": {
+      "category": "news",
+      "title": "МФО запретили навязывать допуслуги: новый стандарт ЦБ",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 1341,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-06-04T20:16:41",
+      "last_action_at": "2026-06-05T10:00:13",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-06-04T20:16:41",
+      "batch_sent_at": "2026-06-05T10:00:13",
+      "batch_fail_count": 0
+    },
+    "nasledstvo-vo-vremya-bankrotstva-fizlica": {
+      "category": "fiz",
+      "title": "Наследство при банкротстве физлица: что будет с имуществом",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 1343,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-06-04T22:43:42",
+      "last_action_at": "2026-06-05T10:00:15",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-06-04T22:43:42",
+      "batch_sent_at": "2026-06-05T10:00:15",
+      "batch_fail_count": 0
+    },
+    "bankrotstvo-gup-i-mup": {
+      "category": "yur",
+      "title": "Банкротство ГУП и МУП: особенности процедуры",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 1345,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-06-05T01:14:43",
+      "last_action_at": "2026-06-05T10:00:17",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-06-05T01:14:43",
+      "batch_sent_at": "2026-06-05T10:00:17",
+      "batch_fail_count": 0
+    },
+    "vzyskanie-zadatka-v-dvojnom-razmere": {
+      "category": "vzysk",
+      "title": "Взыскание задатка в двойном размере при срыве сделки",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 1347,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-06-05T03:28:44",
+      "last_action_at": "2026-06-05T10:00:19",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-06-05T03:28:44",
+      "batch_sent_at": "2026-06-05T10:00:19",
+      "batch_fail_count": 0
+    },
+    "kreditor-propustil-srok-reestr-bankrotstvo": {
+      "category": "fiz",
+      "title": "Пропуск срока реестра кредиторов при банкротстве физлица",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 1349,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-06-05T05:43:06",
+      "last_action_at": "2026-06-05T10:00:21",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-06-05T05:43:06",
+      "batch_sent_at": "2026-06-05T10:00:21",
+      "batch_fail_count": 0
+    },
+    "zalog-doli-ooo-pri-bankrotstve": {
+      "category": "yur",
+      "title": "Залог доли в ООО при банкротстве: права залогодержателя",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 1351,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-06-05T09:02:08",
+      "last_action_at": "2026-06-05T10:00:24",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-06-05T09:02:08",
+      "batch_sent_at": "2026-06-05T10:00:24",
+      "batch_fail_count": 0
+    },
+    "auditor-buhgalter-subsidiarnaya-otvetstvennost": {
+      "category": "yur",
+      "title": "Субсидиарная ответственность бухгалтера при банкротстве",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
       "tg_message_id": null,
       "tg_chat_id": null,
-      "first_seen_at": "2026-06-04T12:32:38",
-      "last_action_at": "2026-06-04T12:32:38",
+      "first_seen_at": "2026-06-05T10:30:29",
+      "last_action_at": "2026-06-05T10:30:29",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null
+    },
+    "bank-podal-isk-po-kreditu-chto-delat": {
+      "category": "vzysk",
+      "title": "Банк подал иск по кредиту: тактика должника в суде",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-06-05T10:46:31",
+      "last_action_at": "2026-06-05T10:46:31",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
       "pending_batch": true,
-      "pending_batch_at": "2026-06-04T12:32:38"
+      "pending_batch_at": "2026-06-05T10:46:31"
+    },
+    "lgoty-posobiya-posle-bankrotstva-fizlica": {
+      "category": "fiz",
+      "title": "Льготы и пособия после банкротства физлица",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-06-05T13:20:33",
+      "last_action_at": "2026-06-05T13:20:33",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-06-05T13:20:33"
+    },
+    "beneficiarnyj-sobstvennik-subsidiarnaya-otvetstvennost": {
+      "category": "yur",
+      "title": "Субсидиарка бенефициара: как находят скрытого владельца",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-06-05T15:51:34",
+      "last_action_at": "2026-06-05T15:51:34",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-06-05T15:51:34"
     }
   },
   "pending_actions": [],
-  "last_batch_date": "2026-06-04",
+  "last_batch_date": "2026-06-05",
   "last_batch_count": 9,
-  "last_batch_at": "2026-06-04T10:00:45"
+  "last_batch_at": "2026-06-05T10:00:24"
 }
