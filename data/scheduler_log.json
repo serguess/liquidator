@@ -13974,5 +13974,87 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-06-05T00:24:23",
+    "category": "yur",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 1,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "expanded_in_slot": true,
+    "topic_id": "yur-89",
+    "topic_slug": "bankrotstvo-gup-i-mup",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "Автофикс применил правки: сокращения=0, пунктуация=0",
+        "internal_links_autofixed: 3 ссылок (например /articles/yur/konkursnaya-massa-dolzhnika-chto-vklyuchaetsya.html→/articles/yur/konkursnaya-massa-dolzhnika-chto-vklyuchaetsya; /articles/yur/osparivanie-sdelok-pri-bankrotstve.html→/articles/yur/osparivanie-sdelok-pri-bankrotstve; /articles/yur/kontroliruyushchee-dolzhnika-lico-kdl.html→/articles/yur/kontroliruyushchee-dolzhnika-lico-kdl)",
+        "forced_pass_at_iter2: блокеры пропущены, статья идёт в TG-очередь с metrics_warning=true. Было: 1 блокеров — spam_risk"
+      ],
+      "recommendations": [
+        "reduce_repetition: разбавить топ-5 частотных лемм местоимениями/перифразом — ['государств', 'конкурсн', 'банкротств', 'обязательств', 'масс']"
+      ],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "bankrotstvo-gup-i-mup",
+    "duration_sec": 2996.3,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "** (в норме)\n- Uniqueness: passed (structure_overlap=0.0, thesis_similarity=0.033)\n- Factcheck: passed (20 фактов из research.json)\n- Quality gate: **passed** (forced_pass на iter 2; единственный остаток — spam ngram3=0.045, мягко)\n- metrics_warning: `true` (заспамленность ~51%)\n- Обложка: сгенерирована, загружена на Cloudinary\n- Статус: `ready_for_review=true`, добавлена в TG-очередь (позиция 224)\n\n**text.ru метрики:** не проверялись автоматически (predicted: spam ~51%, ai ~3%, uniqueness ~87%)",
+    "stderr_tail": "",
+    "tokens_by_model": {
+      "sonnet": {
+        "input_tokens": 1024,
+        "output_tokens": 2747,
+        "cache_creation_input_tokens": 770659,
+        "cache_read_input_tokens": 7104412,
+        "messages": 150
+      },
+      "haiku": {
+        "input_tokens": 46,
+        "output_tokens": 28,
+        "cache_creation_input_tokens": 69730,
+        "cache_read_input_tokens": 85810,
+        "messages": 10
+      },
+      "opus": {
+        "input_tokens": 60,
+        "output_tokens": 255,
+        "cache_creation_input_tokens": 186498,
+        "cache_read_input_tokens": 838225,
+        "messages": 25
+      }
+    },
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7259
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]

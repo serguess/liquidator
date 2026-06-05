@@ -1,0 +1,132 @@
+{
+  "slug": "vzyskanie-zadatka-v-dvojnom-razmere",
+  "category": "vzysk",
+  "title": "Взыскание задатка в двойном размере при срыве сделки",
+  "description": "Продавец отказался от сделки — возвращайте задаток вдвое по правилу 381-й статьи ГК. Как не дать суду переквалифицировать платёж в аванс и собрать доказательства.",
+  "h1": "Задаток в двойном размере: когда и как взыскать деньги если сделка сорвалась",
+  "lead": "Гражданский кодекс работает на покупателя — при доказанной ответственности продавца обеспечительная сумма возвращается вдвойне. Но одно неверное слово в расписке переводит её в категорию обычной предоплаты.",
+  "topic_action": "взыскание задатка в двойном размере",
+  "breadcrumb_current": "Взыскание задатка в двойном размере",
+  "og_image": "/assets/articles/vzyskanie-zadatka-v-dvojnom-razmere.jpg",
+  "main_keyword": "взыскание задатка в двойном размере",
+  "secondary_keywords": [
+    "задаток двойной размер если продавец отказался",
+    "как вернуть задаток если сделка сорвалась",
+    "задаток или аванс отличие",
+    "ст 381 ГК РФ задаток",
+    "досудебная претензия о возврате задатка",
+    "исковое заявление о взыскании задатка",
+    "переквалификация задатка в аванс суд"
+  ],
+  "internal_links": [
+    "/articles/vzysk/dosudebnaya-pretenziya-obrazec",
+    "/articles/vzysk/isk-o-vzyskanii-dolga-v-sud",
+    "/articles/vzysk/vzyskanie-avansa-pri-rastorzhenii-dogovora"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_5142/"
+  ],
+  "faq": [
+    {
+      "question": "Можно ли взыскать задаток в двойном размере, если в расписке написано «предоплата»?",
+      "answer": "Скорее всего, нет. Без нужного слова инстанция применяет презумпцию аванса. Вернут только то, что заплатили. Доказать обеспечительную цель через переписку теоретически можно, но это слабая позиция."
+    },
+    {
+      "question": "Продавец вернул только половину — что делать с оставшейся суммой?",
+      "answer": "Частичный возврат не прекращает право на остаток. Подавайте иск: удвоенный размер минус уже возвращённое."
+    },
+    {
+      "question": "Обязательно ли направлять претензию перед иском?",
+      "answer": "Для граждан в суде общей юрисдикции — нет. Но претензия фиксирует дату требования и позволяет начислить проценты с этого момента. Для арбитража документ обязателен, срок ожидания ответа — 30 дней."
+    },
+    {
+      "question": "Что произойдёт, если ответчик докажет, что покупатель сам не был готов?",
+      "answer": "Разбирательство откажет в удвоении. Если ответственность на плательщике — переданные деньги остаются у другой стороны."
+    },
+    {
+      "question": "Распространяется ли трёхлетний срок давности на задаток без письменного соглашения?",
+      "answer": "Трёхлетний срок действует в любом случае. Но без письменного соглашения инстанция, вероятно, квалифицирует деньги как предоплату — и вернут только одинарную сумму."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "f1-f6, f8-f13, f15-f18 active по последней проверке 2026-06-05 — соответствуют safe_phrasing",
+    "f14 (госпошлина) needs_verification — конкретные ставки в тексте НЕ называются, дана отсылка к сайту суда",
+    "f7 (ст. 333) contested — формулировка осторожная: «практика неоднородна», без утверждений в любую сторону",
+    "Главный ключ упомянут в title (1×), H1 не содержит точное вхождение полностью (стилизован), в теле — экземпляры частей ключа",
+    "5 внутренних ссылок (3 уникальных target-slug, все есть в published_index.json), 2 внешних на consultant.ru",
+    "Запрещённые блоки «Шаги/Шаблоны/Гарантии» отсутствуют",
+    "Цитат закона дословных нет (≤ 600 символов лимит соблюдён, цитаты пересказаны)"
+  ],
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "text_chars": 8073,
+  "length_status": "too_long",
+  "length_kind": "default",
+  "local_spam_top10_share": 0.105,
+  "local_spam_ngram3_repeat": 0.032,
+  "local_lexical_diversity": 0.562,
+  "local_ai_markers_density": 0.3,
+  "local_ai_markers_total": 3,
+  "local_ai_markers_critical": 1,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 4,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 3,
+  "predicted_spam_pct": 58,
+  "predicted_ai_pct": 35,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность заметно выше 50% (~58%)",
+    "AI-detector значительно выше 10% (~35%)",
+    "длина чуть больше лимита 8000 (8 073 знаков)",
+    "найдены критические маркеры ИИ-стиля: Длинное тире (—) - могут поднять AI-detector text.ru"
+  ],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1780619284/articles/vzyskanie-zadatka-v-dvojnom-razmere-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1780619284/articles/vzyskanie-zadatka-v-dvojnom-razmere-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Photograph through wet glass — the camera views a contemporary administrative or financial building through a window beaded with raindrops. Foreground objects on the windowsill (sharp focus): a closed leather portfolio with a stack of unopened sealed envelopes, a fountain pen resting across the portfolio's edge, a pair of reading glasses, a white porcelain coffee cup on a saucer. Background (soft, blurred through droplets): glass façade reflecting the rainy street, distant amber lampposts, warm interior glow suggesting evening hours of reviewing contractual obligations. Camera: tight crop, eye-level. Lighting: cool blue-grey overcast from outside, warm desk-lamp glow from inside filtering through the condensation. Palette: cool blue-grey with warm amber interior pin-points. Mood: contemporary urban contemplation, meticulous document review, recovery work underway.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-06-05T00:28:05Z",
+  "date_published": "2026-06-05",
+  "date_modified": "2026-06-05",
+  "ready_for_review": true,
+  "ready_at": "2026-06-05T00:28:05Z",
+  "publication_target": "telegram_review",
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "ai_markers_critical: 1 (Длинное тире (—))"
+  ],
+  "tokens_by_model": {
+    "sonnet": {
+      "input_tokens": 1729,
+      "output_tokens": 2583,
+      "cache_creation_input_tokens": 661144,
+      "cache_read_input_tokens": 5143002,
+      "messages": 132
+    },
+    "haiku": {
+      "input_tokens": 138,
+      "output_tokens": 189,
+      "cache_creation_input_tokens": 77486,
+      "cache_read_input_tokens": 353183,
+      "messages": 21
+    },
+    "opus": {
+      "input_tokens": 30,
+      "output_tokens": 29,
+      "cache_creation_input_tokens": 130643,
+      "cache_read_input_tokens": 223491,
+      "messages": 10
+    }
+  },
+  "tokens_total": {
+    "input": 1897,
+    "output": 2801,
+    "cache_read": 5719676,
+    "cache_creation": 869273,
+    "total": 873971
+  }
+}

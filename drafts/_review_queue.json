@@ -2917,6 +2917,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "vzyskanie-zadatka-v-dvojnom-razmere",
+      "category": "vzysk",
+      "title": "Взыскание задатка в двойном размере при срыве сделки",
+      "added_at": "2026-06-05T03:28:05.319679",
+      "char_count": 8073,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1780619284/articles/vzyskanie-zadatka-v-dvojnom-razmere-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
