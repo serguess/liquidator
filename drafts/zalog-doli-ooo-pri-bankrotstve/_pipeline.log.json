@@ -1,0 +1,39 @@
+{
+  "slug": "zalog-doli-ooo-pri-bankrotstve",
+  "category": null,
+  "started_at": "2026-06-05T09:01:06",
+  "finished_at": null,
+  "total_duration_sec": null,
+  "current_iteration": 2,
+  "events": [
+    {
+      "ts": "2026-06-05T09:01:06",
+      "agent": "4-writer",
+      "event": "iteration_returned",
+      "iteration": 2,
+      "reason": "spam_risk: top10_share=0.116 (>0.115), lex_div=0.552 (<0.58)",
+      "recommendation": "reduce_repetition: уменьшить вхождения лемм прав(11)/закон(9)/банкротств(9)/обеспечен(8)/аукцион(8) на 30%+ через местоимения и перифразы"
+    },
+    {
+      "ts": "2026-06-05T09:01:16",
+      "agent": "scheduler",
+      "event": "slot_started",
+      "iteration": 2,
+      "category": "yur",
+      "today_count": 3,
+      "limit": 11,
+      "write_article_duration_sec": 5103.2
+    },
+    {
+      "ts": "2026-06-05T09:01:16",
+      "agent": "quality_gate",
+      "event": "passed",
+      "iteration": 2,
+      "blockers": [],
+      "warnings": [
+        "spam_soft_passed: ratio-флаги мягкие при iter=2, targeted_tokens чистые → пропускаем (spam ≈48-52% по прогнозу)"
+      ],
+      "recommendations": []
+    }
+  ]
+}

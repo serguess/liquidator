@@ -14138,5 +14138,86 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-06-05T05:12:08",
+    "category": "fiz",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 3,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "fiz-96",
+    "topic_slug": "kreditor-propustil-srok-reestr-bankrotstvo",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "Автофикс применил правки: сокращения=1, пунктуация=0",
+        "internal_links_autofixed: 3 ссылок (например /zalog-kvartiry-bankrotstvo-fizlica.html→/articles/fiz/zalog-kvartiry-bankrotstvo-fizlica; /kogda-dolgi-ne-spishut-pri-bankrotstve.html→/articles/fiz/kogda-dolgi-ne-spishut-pri-bankrotstve; /neustoyka-v-reestre-trebovanij-bankrotstvo-fizlica.html→/articles/fiz/neustoyka-v-reestre-trebovanij-bankrotstvo-fizlica)",
+        "forced_pass_at_iter2: блокеры пропущены, статья идёт в TG-очередь с metrics_warning=true. Было: 1 блокеров — ai_markers_critical"
+      ],
+      "recommendations": [
+        "fix_ai_markers: убрать критичные маркеры (длинные тире, эмодзи, англ. кавычки, чатбот-фразы)"
+      ],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "kreditor-propustil-srok-reestr-bankrotstvo",
+    "duration_sec": 1840.5,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "/kreditor-propustil-srok-reestr-bankrotstvo/article.html`\n- **Уникальность:** passed (structure overlap 0.0, thesis similarity 0.21)\n- **Factcheck:** passed\n- **Quality gate:** exit 0, hard_failed: false (автофикс применил 36 замен тире + 1 сокращение)\n- **Обложка:** сгенерирована, загружена на Cloudinary (template 21)\n- **Статус:** `ready_for_review: true`, добавлена в очередь ревью (позиция 226)\n\n**Text.ru метрики:** не доступны (API не подключён — в штатном режиме, проверка после публикации).",
+    "stderr_tail": "",
+    "tokens_by_model": {
+      "sonnet": {
+        "input_tokens": 9028,
+        "output_tokens": 1836,
+        "cache_creation_input_tokens": 547327,
+        "cache_read_input_tokens": 4527517,
+        "messages": 116
+      },
+      "haiku": {
+        "input_tokens": 2210,
+        "output_tokens": 87,
+        "cache_creation_input_tokens": 64564,
+        "cache_read_input_tokens": 125979,
+        "messages": 12
+      },
+      "opus": {
+        "input_tokens": 36,
+        "output_tokens": 105,
+        "cache_creation_input_tokens": 125348,
+        "cache_read_input_tokens": 475474,
+        "messages": 16
+      }
+    },
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7412
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]
