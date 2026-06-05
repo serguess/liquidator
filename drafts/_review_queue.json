@@ -2982,6 +2982,19 @@
         "passed": false,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "beneficiarnyj-sobstvennik-subsidiarnaya-otvetstvennost",
+      "category": "yur",
+      "title": "Субсидиарка бенефициара: как находят скрытого владельца",
+      "added_at": "2026-06-05T15:50:16.575902",
+      "char_count": 8237,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1780663815/articles/beneficiarnyj-sobstvennik-subsidiarnaya-otvetstvennost-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

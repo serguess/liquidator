@@ -1,0 +1,129 @@
+{
+  "slug": "beneficiarnyj-sobstvennik-subsidiarnaya-otvetstvennost",
+  "category": "yur",
+  "title": "Субсидиарка бенефициара: как находят скрытого владельца",
+  "description": "Как кредиторы доказывают фактический контроль конечного бенефициара над компанией-должником. Косвенные доказательства, стандарт доказывания и практика ВС РФ.",
+  "h1": "Субсидиарная ответственность бенефициарного собственника: как суд находит скрытого владельца",
+  "lead": "Когда фирма уходит в несостоятельность, арбитраж ищет не запись в ЕГРЮЛ, а рычаг управления. Без формального статуса теневой владелец отвечает личным имуществом.",
+  "topic_action": "анализ рисков субсидиарной ответственности бенефициара",
+  "breadcrumb_current": "Субсидиарка бенефициара",
+  "og_image": "/assets/articles/beneficiarnyj-sobstvennik-subsidiarnaya-otvetstvennost.jpg",
+  "main_keyword": "субсидиарная ответственность бенефициарного собственника",
+  "secondary_keywords": [
+    "привлечение бенефициара к субсидиарной ответственности",
+    "конечный бенефициар контролирующее должника лицо",
+    "как доказать фактический контроль бенефициара",
+    "косвенные доказательства субсидиарка",
+    "теневой владелец субсидиарная ответственность",
+    "бенефициарный владелец КДЛ банкротство",
+    "субсидиарка скрытого собственника компании",
+    "фактический руководитель должника субсидиарная"
+  ],
+  "internal_links": [
+    "/kontroliruyushchee-dolzhnika-lico-kdl",
+    "/osparivanie-sdelok-pri-bankrotstve",
+    "/obespechitelnye-mery-bankrotstvo-yurlica",
+    "/dokazatelstva-dobrosovestnosti-direktora-subsidiarka"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/"
+  ],
+  "faq": [
+    {
+      "question": "Можно ли привлечь теневого хозяина, если он вышел из бизнеса три года назад?",
+      "answer": "Зависит от того, когда проявились симптомы неплатёжеспособности. Трёхлетний отрезок отсчитывается от их появления, а не от даты подачи. Если фактические указания продолжались после отчуждения — сделка не защитит."
+    },
+    {
+      "question": "Что произойдёт с активами до вынесения решения?",
+      "answer": "Могут арестовать ещё на стадии рассмотрения заявления — счета, недвижимость, доли в других структурах. Снять обеспечение до решения по существу крайне сложно."
+    },
+    {
+      "question": "Спишут ли субсидиарный долг через личное банкротство бенефициара?",
+      "answer": "Нет. Этот долг прямо исключён из списания. После завершения процедуры он остаётся и может предъявляться неограниченно — взыскивать с зарплаты, наследства, нового имущества."
+    },
+    {
+      "question": "Какой объём доказательств нужен, чтобы суд признал лицо контролирующим?",
+      "answer": "Применяется пониженный стандарт: достаточно обоснованных подозрений — дальше ответчик сам доказывает обратное. Совокупность улик (финансовые потоки, единые IP-адреса, общий персонал) образует базу."
+    },
+    {
+      "question": "Чем рискует номинальный директор, если расскажет о реальном хозяине?",
+      "answer": "Раскрытие снижает его долю, но не снимает — он продолжает отвечать солидарно. Показания становятся доказательством того, кто фактически управлял фирмой."
+    },
+    {
+      "question": "Сколько лет взыскатель вправе подавать заявление?",
+      "answer": "Субъективный срок — три года с момента, как стало известно об основаниях. Объективный — десять лет с момента вредоносных действий."
+    }
+  ],
+  "keyword_density_main": 0.0037,
+  "main_keyword_exact_count": 1,
+  "text_chars": 8237,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.073,
+  "local_spam_ngram3_repeat": 0.031,
+  "local_lexical_diversity": 0.626,
+  "local_ai_markers_density": 0.2,
+  "local_ai_markers_critical": 0,
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все нормативные ссылки (п. 1, 4 ст. 61.10; ст. 61.11; ст. 61.14; ст. 213.28; ст. 46 закона о банкротстве; п. 3, 4, 7, 9 Постановления Пленума ВС от 21.12.2017 N 53) сверены с research.json, last_verified 2026-06-05, legislation_status active.",
+    "Конкретные дела ВС РФ 2023-2025 не приводятся — research.fact_gaps подтверждает невозможность верификации без WebSearch; используются обтекаемые формулировки.",
+    "Постановление Пленума ВС от 01.06.2023 N 15 упоминалось в outline, но в финальной редакции убрано из тела для экономии знаков — фактическая суть (обеспечительные меры по риску сокрытия) сохранена со ссылкой на закон о банкротстве и АПК."
+  ],
+  "length_status": "too_long",
+  "length_kind": "default",
+  "local_ai_markers_total": 2,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 2,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 4,
+  "predicted_spam_pct": 49,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "длина больше лимита 8000 (8 237 знаков)"
+  ],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1780663815/articles/beneficiarnyj-sobstvennik-subsidiarnaya-otvetstvennost-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1780663815/articles/beneficiarnyj-sobstvennik-subsidiarnaya-otvetstvennost-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Cinematic photograph of a private legal archive room. Walls lined with closed dark leather-bound books with gilt embossing on spines. In the foreground: a wooden reading desk bearing a brass green-glass library lamp casting a warm focused pool of light. Scattered across the desk: a closed leather portfolio with a fountain pen aligned atop it, a polished brass round seal suggesting judicial authority, antique brass pocket watch on a chain coiled nearby, reading glasses resting on a stack of unmarked dossiers tied with cord. Camera positioned at low-angle looking up the shelves, emphasizing the towering archive of precedent and case law. Lighting: warm tungsten pools illuminate the desk items, deep shadows frame the book stacks, soft window haze from above. Mood: scholarly investigation into hidden ownership chains, meticulous evidence gathering, jurisprudential authority uncovering concealed control.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-06-05T12:50:16Z",
+  "date_published": "2026-06-05",
+  "date_modified": "2026-06-05",
+  "ready_for_review": true,
+  "ready_at": "2026-06-05T12:50:16Z",
+  "publication_target": "telegram_review",
+  "tokens_by_model": {
+    "sonnet": {
+      "input_tokens": 8938,
+      "output_tokens": 3124,
+      "cache_creation_input_tokens": 808614,
+      "cache_read_input_tokens": 7811345,
+      "messages": 171
+    },
+    "haiku": {
+      "input_tokens": 87,
+      "output_tokens": 209,
+      "cache_creation_input_tokens": 79084,
+      "cache_read_input_tokens": 649930,
+      "messages": 29
+    },
+    "opus": {
+      "input_tokens": 76,
+      "output_tokens": 1063,
+      "cache_creation_input_tokens": 178646,
+      "cache_read_input_tokens": 4569007,
+      "messages": 56
+    }
+  },
+  "tokens_total": {
+    "input": 9101,
+    "output": 4396,
+    "cache_read": 13030282,
+    "cache_creation": 1066344,
+    "total": 1079841
+  }
+}

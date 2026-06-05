@@ -1,0 +1,272 @@
+{
+  "file": "/home/appuser/apps/liquidator/drafts/beneficiarnyj-sobstvennik-subsidiarnaya-otvetstvennost/article.html",
+  "passed": true,
+  "hard_failed": false,
+  "blockers": [],
+  "warnings": [
+    "Автофикс применил правки: сокращения=0, пунктуация=0",
+    "internal_links_autofixed: 4 ссылок (например /kontroliruyushchee-dolzhnika-lico-kdl→/articles/yur/kontroliruyushchee-dolzhnika-lico-kdl; /osparivanie-sdelok-pri-bankrotstve→/articles/yur/osparivanie-sdelok-pri-bankrotstve; /obespechitelnye-mery-bankrotstvo-yurlica→/articles/yur/obespechitelnye-mery-bankrotstvo-yurlica)",
+    "length_soft_passed: 8237 > 8000 но ≤ 8500 и iteration=4 — пропускаем (приоритет spam/uniqueness/ai)"
+  ],
+  "autofix": {
+    "file": "/home/appuser/apps/liquidator/drafts/beneficiarnyj-sobstvennik-subsidiarnaya-otvetstvennost/article.html",
+    "abbreviation_fixes": {},
+    "punctuation_fixes": 0,
+    "em_dash_fixes": 41,
+    "eng_quotes_fixes": 0,
+    "yo_fixes": 16,
+    "hyphen_fixes": 0,
+    "changed": true,
+    "bytes_before": 43353,
+    "bytes_after": 43271
+  },
+  "quality_checks": {
+    "file": "drafts/beneficiarnyj-sobstvennik-subsidiarnaya-otvetstvennost/article.html",
+    "text_chars": 8237,
+    "length_status": "too_long",
+    "length_kind": "default",
+    "passed": false,
+    "abbreviation_hits": [],
+    "punctuation_hits": [],
+    "hyphen_compound_hits": [],
+    "spam": {
+      "total_words": 755,
+      "unique_lemmas": 473,
+      "lexical_diversity": 0.626,
+      "top10_words": [
+        [
+          "управлен",
+          7
+        ],
+        [
+          "фирм",
+          6
+        ],
+        [
+          "субсидиарн",
+          6
+        ],
+        [
+          "фактическ",
+          6
+        ],
+        [
+          "арбитраж",
+          5
+        ],
+        [
+          "риск",
+          5
+        ],
+        [
+          "должник",
+          5
+        ],
+        [
+          "банкротств",
+          5
+        ],
+        [
+          "решен",
+          5
+        ],
+        [
+          "собственник",
+          5
+        ]
+      ],
+      "top10_share": 0.073,
+      "top1_count": 7,
+      "top3_sum": 19,
+      "top10_sum": 55,
+      "ngram3_repeat_count": 23,
+      "ngram3_total": 753,
+      "ngram3_repeat_share": 0.031,
+      "risk_flags": [],
+      "word_warnings": []
+    },
+    "targeted_tokens": [
+      {
+        "token": "ст_сокращение",
+        "count": 4,
+        "limit": 5,
+        "over_limit": false,
+        "severity": "hard"
+      },
+      {
+        "token": "РФ_рудимент",
+        "count": 0,
+        "limit": 2,
+        "over_limit": false,
+        "severity": "hard"
+      },
+      {
+        "token": "руб_сокращение",
+        "count": 0,
+        "limit": 0,
+        "over_limit": false,
+        "severity": "hard"
+      },
+      {
+        "token": "ООО_бренд",
+        "count": 0,
+        "limit": 3,
+        "over_limit": false,
+        "severity": "hard"
+      },
+      {
+        "token": "000руб_паттерн",
+        "count": 0,
+        "limit": 2,
+        "over_limit": false,
+        "severity": "hard"
+      },
+      {
+        "token": "127фз_закон",
+        "count": 1,
+        "limit": 2,
+        "over_limit": false,
+        "severity": "soft"
+      },
+      {
+        "token": "213_артикул",
+        "count": 1,
+        "limit": 3,
+        "over_limit": false,
+        "severity": "soft"
+      },
+      {
+        "token": "ГПК_кодекс",
+        "count": 0,
+        "limit": 3,
+        "over_limit": false,
+        "severity": "soft"
+      },
+      {
+        "token": "ГК_кодекс",
+        "count": 0,
+        "limit": 3,
+        "over_limit": false,
+        "severity": "soft"
+      },
+      {
+        "token": "000_число",
+        "count": 0,
+        "limit": 8,
+        "over_limit": false,
+        "severity": "soft"
+      },
+      {
+        "token": "cta_формула_повтор",
+        "count": 1,
+        "limit": 1,
+        "over_limit": false,
+        "severity": "soft"
+      }
+    ],
+    "author_markers_count": 2,
+    "author_markers_min": 2
+  },
+  "ai_markers": {
+    "file": "drafts/beneficiarnyj-sobstvennik-subsidiarnaya-otvetstvennost/article.html",
+    "text_chars": 10200,
+    "hits_total": 2,
+    "density_per_1000": 0.2,
+    "by_severity": {
+      "critical": 0,
+      "high": 0,
+      "medium": 0,
+      "low": 2
+    },
+    "own_voice_hits": 2,
+    "first_person_singular_hits": 0,
+    "hits": [
+      {
+        "name": "ИИ-лексика: «взаимодействие/тонкости/нюансы (абстрактно)»",
+        "category": "ai-lexis",
+        "severity": "low",
+        "match": "Взаимодействие",
+        "position": 10007,
+        "context": "...ение law@pravo.shop Коммерческие предложения biz@pravo.shop Взаимодействие со СМИ pr@pravo.shop © 2018-2026 ООО «ЛИКВИДАТОР». Все прав..."
+      },
+      {
+        "name": "Канцелярит: «в рамках» (без нужды)",
+        "category": "clerical",
+        "severity": "low",
+        "match": "в рамках",
+        "position": 9619,
+        "context": "...ровождение на всех этапах. Надежность и законность Работаем в рамках ФЗ и действующего законодательства РФ. РЕКВИЗИТЫ ООО «ЛИКВИ..."
+      }
+    ]
+  },
+  "anti_template": {
+    "file": "drafts/beneficiarnyj-sobstvennik-subsidiarnaya-otvetstvennost/article.html",
+    "text_chars": 8619,
+    "phrases_loaded": 138,
+    "passed": true,
+    "hits": []
+  },
+  "law_quotes": {
+    "total_chars": 0,
+    "limit": 600,
+    "samples": []
+  },
+  "rhythm": {
+    "file": "drafts/beneficiarnyj-sobstvennik-subsidiarnaya-otvetstvennost/article.html",
+    "text_chars": 8619,
+    "sentences_total": 94,
+    "avg_sentence_len": 8.64,
+    "short_sentences_count": 27,
+    "short_sentences_share": 0.287,
+    "long_sentences_count": 2,
+    "parasite_count": 1,
+    "parasite_per_1000": 0.12,
+    "flags": []
+  },
+  "internal_links": {
+    "total_hrefs": 41,
+    "ok": 0,
+    "whitelisted": 21,
+    "external": 13,
+    "fixed": 4,
+    "errors": 0,
+    "changed": true,
+    "fix_details": [
+      {
+        "href": "/kontroliruyushchee-dolzhnika-lico-kdl",
+        "verdict": "fix_short",
+        "fixed_href": "/articles/yur/kontroliruyushchee-dolzhnika-lico-kdl",
+        "reason": "короткая ссылка → /articles/yur/kontroliruyushchee-dolzhnika-lico-kdl"
+      },
+      {
+        "href": "/osparivanie-sdelok-pri-bankrotstve",
+        "verdict": "fix_short",
+        "fixed_href": "/articles/yur/osparivanie-sdelok-pri-bankrotstve",
+        "reason": "короткая ссылка → /articles/yur/osparivanie-sdelok-pri-bankrotstve"
+      },
+      {
+        "href": "/obespechitelnye-mery-bankrotstvo-yurlica",
+        "verdict": "fix_short",
+        "fixed_href": "/articles/yur/obespechitelnye-mery-bankrotstvo-yurlica",
+        "reason": "короткая ссылка → /articles/yur/obespechitelnye-mery-bankrotstvo-yurlica"
+      },
+      {
+        "href": "/dokazatelstva-dobrosovestnosti-direktora-subsidiarka",
+        "verdict": "fix_short",
+        "fixed_href": "/articles/yur/dokazatelstva-dobrosovestnosti-direktora-subsidiarka",
+        "reason": "короткая ссылка → /articles/yur/dokazatelstva-dobrosovestnosti-direktora-subsidiarka"
+      }
+    ],
+    "error_details": []
+  },
+  "recommendations": [],
+  "retry_count": 4,
+  "predicted_metrics": {
+    "spam_pct": 49,
+    "ai_pct": 3,
+    "uniqueness_pct": 87
+  },
+  "customer_risks": [
+    "длина больше лимита 8000 (8 237 знаков)"
+  ]
+}

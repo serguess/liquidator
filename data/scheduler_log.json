@@ -14366,5 +14366,87 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-06-05T12:24:23",
+    "category": "fiz",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 3,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "fiz-97",
+    "topic_slug": "lgoty-posobiya-posle-bankrotstva-fizlica",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "Автофикс применил правки: сокращения=1, пунктуация=0",
+        "internal_links_autofixed: 4 ссылок (например /articles/fiz/dohody-vo-vremya-bankrotstva-fizlica.html→/articles/fiz/dohody-vo-vremya-bankrotstva-fizlica; /articles/fiz/bankrotstvo-v-dekretnom-otpuske.html→/articles/fiz/bankrotstvo-v-dekretnom-otpuske; /articles/fiz/bankrotstvo-invalida-lgoty-pensiya.html→/articles/fiz/bankrotstvo-invalida-lgoty-pensiya)",
+        "forced_pass_at_iter2: блокеры пропущены, статья идёт в TG-очередь с metrics_warning=true. Было: 2 блокеров — spam_risk; author_markers_missing"
+      ],
+      "recommendations": [
+        "reduce_repetition: разбавить топ-5 частотных лемм местоимениями/перифразом — ['банкротств', 'выплат', 'закон', 'управляющий', 'опис']",
+        "add_author_markers: добавить минимум 1 вставок «по нашему опыту» / «в нашей практике» / «мы считаем» / «мы видим». Это главный anti-AI маркер — без него text.ru показывает AI 7-19%."
+      ],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "lgoty-posobiya-posle-bankrotstva-fizlica",
+    "duration_sec": 3321.8,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "ter с углом «развенчивание мифов»\n- Агент 6 (seo-editor): `factcheck_passed: true`\n- Quality gate: exit 0, hard_failed: false; autofix применён (маткапитал, em-dash, ё, .html-суффиксы в ссылках)\n- Обложка: сгенерирована (template_id=28, fal.ai → Cloudinary)\n- `ready_for_review: true`\n\n**Метрики text.ru:** не заполнены (проверяются после публикации через text.ru API)\n`textru_ai_detector`: — | `textru_uniqueness`: — | `textru_spam`: —\n\n**Predicted quality gate:** spam ~55%, AI ~6%, uniqueness ~87%",
+    "stderr_tail": "",
+    "tokens_by_model": {
+      "sonnet": {
+        "input_tokens": 14731,
+        "output_tokens": 2204,
+        "cache_creation_input_tokens": 911608,
+        "cache_read_input_tokens": 7148914,
+        "messages": 156
+      },
+      "haiku": {
+        "input_tokens": 2178,
+        "output_tokens": 349,
+        "cache_creation_input_tokens": 70846,
+        "cache_read_input_tokens": 412767,
+        "messages": 21
+      },
+      "opus": {
+        "input_tokens": 39,
+        "output_tokens": 499,
+        "cache_creation_input_tokens": 116979,
+        "cache_read_input_tokens": 754760,
+        "messages": 19
+      }
+    },
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7371
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]

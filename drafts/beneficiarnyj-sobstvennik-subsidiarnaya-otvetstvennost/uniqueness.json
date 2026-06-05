@@ -1,0 +1,45 @@
+{
+  "slug": "beneficiarnyj-sobstvennik-subsidiarnaya-otvetstvennost",
+  "passed": false,
+  "scores": {
+    "structure_overlap": 0.0,
+    "thesis_similarity": 0.372,
+    "cta_overlap": 0.079
+  },
+  "thresholds": {
+    "structure_overlap": 0.4,
+    "thesis_similarity": 0.3,
+    "cta_overlap": 0.2
+  },
+  "similar_articles": [
+    {
+      "slug": "bankrotstvo-banka-prava-klientov",
+      "category": "yur",
+      "similarity": 0.372
+    }
+  ],
+  "conflicts": [
+    "thesis_similarity: 0.372 (threshold: 0.3)"
+  ],
+  "angle_recommendation": "myth-busting-what-doesnt-work",
+  "angle_description": "Reframe from 'How courts find hidden owners and what evidence they use' → 'Why common protection schemes fail (dummy directors, asset transfers, subsidiary networks, timing tricks)'. This shifts semantic center by focusing on debunking ineffective strategies rather than explaining detection mechanisms, and creates distinct value positioning.",
+  "implementation_notes": {
+    "current_angle": "Judicial detection mechanism: establishment of control through four criteria, evidence types, creditor search strategies, risks for beneficial owner, nominal director liability",
+    "new_angle": "Failure analysis of protection schemes: why nominee directors don't work, why asset transfers before bankruptcy don't work, why subsidiary networks don't protect, timing-based strategies that fail, what actually exposes the beneficial owner",
+    "h2_restructure": [
+      "Фиктивный директор как защита: почему это не работает",
+      "Переводы активов перед банкротством: миф о чистом листе",
+      "Дочерние компании и группы компаний: почему сетевые структуры не скрывают владельца",
+      "Время до инициирования: трёхлетний период и попытки уйти из-под него",
+      "Почему финансовые потоки все равно остаются (даже если скрыты на бумаге)",
+      "КДЛ распознают по синхронному поведению, а не по документам",
+      "Что действительно запускает поиск бенефициара: роль ФНС, управляющего, взыскателей",
+      "Частые вопросы: мифы и реальность"
+    ],
+    "target_readers": "Beneficial owners at risk, who believe common protection schemes work; those considering defensive strategies",
+    "value_shift": "From 'understand the threat' to 'understand why your protective measures will fail'"
+  },
+  "recommendation": "rewrite_with_angle:myth-busting-what-doesnt-work",
+  "return_to_agent": 4,
+  "confidence": 0.95
+}
