@@ -1,0 +1,129 @@
+{
+  "slug": "lgoty-posobiya-posle-bankrotstva-fizlica",
+  "category": "fiz",
+  "title": "Льготы и пособия после банкротства физлица",
+  "description": "Сохраняются ли детские пособия, маткапитал, субсидия ЖКХ и льготы инвалида после банкротства. Что финансовый управляющий не вправе забрать.",
+  "h1": "Льготы и пособия после банкротства: что остаётся у должника",
+  "lead": "Большинство социальных выплат — детские пособия, маткапитал, компенсации за вред здоровью — закон защищает от управляющего. Разбираем, что остаётся у должника, а с чем придётся разбираться через ходатайство.",
+  "topic_action": "проверку сохранения льгот при банкротстве",
+  "offer": "proverka-spisaniya",
+  "breadcrumb_current": "Льготы и пособия после банкротства",
+  "og_image": "/assets/articles/lgoty-posobiya-posle-bankrotstva-fizlica.jpg",
+  "main_keyword": "льготы и пособия после банкротства физлица",
+  "secondary_keywords": [
+    "сохраняются ли льготы после банкротства",
+    "социальные выплаты при банкротстве физлица",
+    "что будет с пособием при банкротстве",
+    "материнский капитал при банкротстве физлица",
+    "пособие по безработице при банкротстве",
+    "детские пособия при банкротстве",
+    "субсидия ЖКХ при банкротстве",
+    "статья 101 ФЗ-229 выплаты не подлежащие взысканию"
+  ],
+  "internal_links": [
+    "/articles/fiz/dohody-vo-vremya-bankrotstva-fizlica.html",
+    "/articles/fiz/bankrotstvo-v-dekretnom-otpuske.html",
+    "/articles/fiz/bankrotstvo-invalida-lgoty-pensiya.html",
+    "/articles/fiz/bankrotstvo-pensionera.html"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/"
+  ],
+  "faq": [
+    {
+      "question": "Можно ли сохранить детские начисления, если дело о несостоятельности инициировал банк?",
+      "answer": "Да. Детские выплаты и семейный капитал защищены вне зависимости от того, кто подал заявление. Закон выводит их из описи независимо от инициатора процесса — у банка нет приоритета над целевыми выплатами на ребёнка."
+    },
+    {
+      "question": "Что происходит с семейным капиталом, если он уже направлен на погашение ипотеки?",
+      "answer": "Средства перечислены в счёт ипотеки — они стали частью залогового жилья. Ипотечное жильё иммунитета не имеет. Сам капитал как отдельная выплата защищён, пока не вложен в залоговую квартиру."
+    },
+    {
+      "question": "Сколько от пенсии по инвалидности останется в период реализации имущества?",
+      "answer": "Прожиточный минимум — при условии поданного заявления в суд. Без него назначенный специалист аккумулирует всю пенсию. После одобрения остаток идёт кредиторам."
+    },
+    {
+      "question": "Обязательно ли подавать заявление о прожиточном минимуме или суд исключит его самостоятельно?",
+      "answer": "Только по заявлению. Суд не действует по своей инициативе. Обратиться можно в любой момент реализации, но за пропущенные месяцы средства не возвращают."
+    },
+    {
+      "question": "Теряет ли инвалид группу и право на бесплатные лекарства после завершения дела о несостоятельности?",
+      "answer": "Нет. Инвалидная группа, право на лекарства, льготный проезд связаны с состоянием здоровья, а не с финансами. Сохраняются."
+    },
+    {
+      "question": "Какие ограничения остаются после признания несостоятельным?",
+      "answer": "Финансово-управленческие. 5 лет — сообщать банку о прошлом банкротстве при подаче на кредит. 3 года — нельзя занимать руководящие позиции в компаниях. 5 лет — в финансовых организациях. 10 лет — в банках. Льготы и социальный статус в этом перечне не упоминаются."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [],
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "text_chars": 7371,
+  "length_status": "ok",
+  "length_kind": "default",
+  "local_spam_top10_share": 0.109,
+  "local_spam_ngram3_repeat": 0.05,
+  "local_lexical_diversity": 0.596,
+  "local_ai_markers_density": 0.21,
+  "local_ai_markers_total": 2,
+  "local_ai_markers_critical": 0,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 2,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 55,
+  "predicted_ai_pct": 6,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность выше 50% (~55%)"
+  ],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1780654756/articles/lgoty-posobiya-posle-bankrotstva-fizlica-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1780654756/articles/lgoty-posobiya-posle-bankrotstva-fizlica-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Editorial photograph of a polished cream and grey marble surface in soft natural daylight, holding 5 carefully arranged business objects — a closed dark leather portfolio positioned slightly left of center, an antique brass pocket watch with its cover open on a delicate chain, a small white porcelain cup on a matching saucer suggesting domestic comfort, a polished round official seal lying flat, a fountain pen aligned parallel to the portfolio's edge. Soft architectural background slightly out of focus: blurred stone columns and a distant arched alcove suggesting a courthouse or administrative building. Camera: tabletop level, gentle three-quarter angle. Lighting: natural soft daylight grazing the marble, warmly revealing veining and texture. Palette: warm cream stone, cool grey shadows, restrained brass accents. Mood: timeless legal certainty, protective stability, ordered household affairs.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-06-05T10:19:17Z",
+  "date_published": "2026-06-05",
+  "date_modified": "2026-06-05",
+  "ready_for_review": true,
+  "ready_at": "2026-06-05T10:19:17Z",
+  "publication_target": "telegram_review",
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "spam_risk: 1 флагов (ngram3_repeat_share>0.035 (=0.05)), top-5: ['банкротств', 'выплат', 'закон', 'управляющий', 'опис']",
+    "author_markers_missing: 1 < 2"
+  ],
+  "tokens_by_model": {
+    "sonnet": {
+      "input_tokens": 14731,
+      "output_tokens": 2204,
+      "cache_creation_input_tokens": 911608,
+      "cache_read_input_tokens": 7148914,
+      "messages": 156
+    },
+    "haiku": {
+      "input_tokens": 2178,
+      "output_tokens": 349,
+      "cache_creation_input_tokens": 70846,
+      "cache_read_input_tokens": 412767,
+      "messages": 21
+    },
+    "opus": {
+      "input_tokens": 39,
+      "output_tokens": 499,
+      "cache_creation_input_tokens": 116979,
+      "cache_read_input_tokens": 754760,
+      "messages": 19
+    }
+  },
+  "tokens_total": {
+    "input": 16948,
+    "output": 3052,
+    "cache_read": 8316441,
+    "cache_creation": 1099433,
+    "total": 1119433
+  }
+}

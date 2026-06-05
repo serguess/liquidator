@@ -1,0 +1,30 @@
+{
+  "slug": "lgoty-posobiya-posle-bankrotstva-fizlica",
+  "passed": false,
+  "scores": {
+    "structure_overlap": 0.0,
+    "thesis_similarity": 0.46,
+    "cta_overlap": 0.103
+  },
+  "thresholds": {
+    "structure_overlap": 0.4,
+    "thesis_similarity": 0.3,
+    "cta_overlap": 0.2
+  },
+  "similar_articles": [
+    {
+      "slug": "dacha-garazh-zemelnyj-uchastok-bankrotstvo",
+      "category": "fiz",
+      "similarity": 0.46
+    }
+  ],
+  "conflicts": [
+    "thesis_similarity: 0.460 (превышает порог 0.3) — статья слишком близка по смыслу к опубликованным материалам про выплаты и гарантии при банкротстве"
+  ],
+  "recommendation": "rewrite_with_angle:myths-and-truth",
+  "details": {
+    "issue": "Семантическое совпадение (thesis_similarity) составляет 46%, что выше критического порога 30%. Это означает, что новая статья содержит слишком много общего смыслового материала с уже опубликованной статьей в категории.",
+    "angle_change": "Смена с 'Сухого разбора перечня защищённых выплат' на 'Мифы и правда о льготах при банкротстве'",
+    "action_for_agent4": "Переделать статью с фокусом на развенчивание мифов: какие заблуждения люди имеют о потере льгот, пенсий и пособий при банкротстве, и какова правда в реальности. Это даст принципиально другой смысловой профиль и избежит дублирования."
+  }
+}
