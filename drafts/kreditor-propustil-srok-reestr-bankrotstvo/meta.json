@@ -1,0 +1,128 @@
+{
+  "slug": "kreditor-propustil-srok-reestr-bankrotstvo",
+  "category": "fiz",
+  "title": "Пропуск срока реестра кредиторов при банкротстве физлица",
+  "description": "Что грозит кредитору, опоздавшему с включением в реестр требований при банкротстве физлица: зареестровый статус, утрата залога, шансы на восстановление срока.",
+  "h1": "Кредитор пропустил срок реестра: что теряет и можно ли это исправить",
+  "lead": "Опоздавший с включением в реестр кредитор уходит в конец очереди и рискует не получить ничего — но есть два узких выхода.",
+  "topic_action": "оценку шансов на включение в реестр кредиторов",
+  "breadcrumb_current": "Кредитор пропустил срок реестра",
+  "og_image": "/assets/articles/kreditor-propustil-srok-reestr-bankrotstvo.jpg",
+  "main_keyword": "пропуск срока реестра требований кредиторов при банкротстве физлица",
+  "secondary_keywords": [
+    "последствия пропуска срока реестра кредиторов",
+    "зареестровые требования банкротство физического лица",
+    "восстановление срока включения в реестр кредиторов",
+    "залоговый кредитор пропустил срок банкротство",
+    "требования за реестром что делать",
+    "долг не попал в реестр кредиторов банкротство"
+  ],
+  "internal_links": [
+    "/zalog-kvartiry-bankrotstvo-fizlica.html",
+    "/kogda-dolgi-ne-spishut-pri-bankrotstve.html",
+    "/neustoyka-v-reestre-trebovanij-bankrotstvo-fizlica.html"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/",
+    "https://www.consultant.ru/document/cons_doc_LAW_132671/"
+  ],
+  "faq": [
+    {
+      "question": "Чем отличается «зареестровый» кредитор от «опоздавшего реестрового»?",
+      "answer": "Два разных статуса. Опоздавший реестровый подал требование после 30 дней с публикации о наблюдении, но до закрытия реестра — его требование попало в список. Зареестровый пропустил двухмесячный период: его требование в закрытый перечень не включается. При банкротстве гражданина действует единый 2-месячный рубеж — 30-дневное правило для первого собрания не применяется."
+    },
+    {
+      "question": "С какой даты считают двухмесячный срок — с момента судебного решения или с публикации?",
+      "answer": "С даты публикации в «Коммерсанте». Не с решения суда, не с записи в ЕФРСБ. По п. 4 ст. 213.24 отсчёт идёт с официальной публикации в газете. Кредитор, ориентировавшийся на ЕФРСБ, мог неверно рассчитать дедлайн."
+    },
+    {
+      "question": "Обязательно ли арбитражный управляющий должен был уведомить меня лично?",
+      "answer": "Да, если вы были известны управляющему по документам должника. Если упомянуты в договорах, выписках, судебных актах — обязан был уведомить. Отсутствие уведомления при доказанной осведомлённости управляющего — уважительная причина для восстановления пропущенного рубежа в суде."
+    },
+    {
+      "question": "Действует ли тот же двухмесячный срок при реструктуризации долгов гражданина?",
+      "answer": "Да, но это самостоятельный период. По п. 2 ст. 213.8 при реструктуризации взыскатели имеют 2 месяца с публикации. Опоздавший не попадёт на первое собрание и не повлияет на план. Если затем вводится реализация — начинается новый отсчёт с публикации о реализации."
+    },
+    {
+      "question": "Что происходит с неденежным требованием, если не успел его оформить и подать?",
+      "answer": "Неденежные обязательства — о передаче имущества, выполнении работ — трансформируются в денежную оценку для включения в список требований. Дедлайн тот же: 2 месяца с публикации. Кто не успел — получает зареестровый статус."
+    },
+    {
+      "question": "Сохраняется ли право взыскания после завершения банкротства, если задолженность — алименты?",
+      "answer": "Да. Алиментные обязательства входят в перечень несписываемых. Освобождение должника не затрагивает алименты независимо от участия в процедуре. Задолженность сохраняется и взыскивается после завершения дела."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [],
+  "keyword_density_main": 0.0093,
+  "main_keyword_exact_count": 1,
+  "text_chars": 7412,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "length_status": "ok",
+  "length_kind": "default",
+  "local_spam_top10_share": 0.107,
+  "local_spam_ngram3_repeat": 0.024,
+  "local_lexical_diversity": 0.637,
+  "local_ai_markers_density": 0.43,
+  "local_ai_markers_total": 4,
+  "local_ai_markers_critical": 2,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 2,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 49,
+  "predicted_ai_pct": 35,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "AI-detector значительно выше 10% (~35%)",
+    "найдены критические маркеры ИИ-стиля: Длинное тире (—) - могут поднять AI-detector text.ru"
+  ],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1780627348/articles/kreditor-propustil-srok-reestr-bankrotstvo-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1780627348/articles/kreditor-propustil-srok-reestr-bankrotstvo-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Photograph of a contemporary workspace with natural materials — light oak desk, raw concrete wall, linen upholstered chair. Foreground: a leather-bound registry notebook in neutral brown, a polished fountain pen resting diagonal across it, a polished brass round official seal positioned to the right of the notebook, a smartphone face-down with minimal bezel, a white porcelain coffee cup on a ceramic coaster. Background: floor-to-ceiling windows opening onto soft grey cityscape, overcast daylight. Camera: three-quarter angle, eye-level, shallow depth of field. Lighting: cool daylight from windows balanced with warm pendant fill from above. Materials: light oak, leather binding, matte brass. Mood: professional administrative deadline, modern registry procedure, contemplative record-keeping.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-06-05T02:42:29Z",
+  "date_published": "2026-06-05",
+  "date_modified": "2026-06-05",
+  "ready_for_review": true,
+  "ready_at": "2026-06-05T02:42:29Z",
+  "publication_target": "telegram_review",
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "ai_markers_critical: 2 (Длинное тире (—))"
+  ],
+  "tokens_by_model": {
+    "sonnet": {
+      "input_tokens": 9028,
+      "output_tokens": 1836,
+      "cache_creation_input_tokens": 547327,
+      "cache_read_input_tokens": 4527517,
+      "messages": 116
+    },
+    "haiku": {
+      "input_tokens": 2210,
+      "output_tokens": 87,
+      "cache_creation_input_tokens": 64564,
+      "cache_read_input_tokens": 125979,
+      "messages": 12
+    },
+    "opus": {
+      "input_tokens": 36,
+      "output_tokens": 105,
+      "cache_creation_input_tokens": 125348,
+      "cache_read_input_tokens": 475474,
+      "messages": 16
+    }
+  },
+  "tokens_total": {
+    "input": 11274,
+    "output": 2028,
+    "cache_read": 5128970,
+    "cache_creation": 737239,
+    "total": 750541
+  }
+}

@@ -2930,6 +2930,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "kreditor-propustil-srok-reestr-bankrotstvo",
+      "category": "fiz",
+      "title": "Пропуск срока реестра кредиторов при банкротстве физлица",
+      "added_at": "2026-06-05T05:42:29.213277",
+      "char_count": 7412,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1780627348/articles/kreditor-propustil-srok-reestr-bankrotstvo-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": false,
+        "hard_failed": false
+      }
     }
   ]
 }
