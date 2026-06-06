@@ -2,6 +2,19 @@
   "generated": "2026-06-06",
   "articles": [
     {
+      "slug": "zalog-doli-ooo-pri-bankrotstve",
+      "cat": "yur",
+      "catLabel": "Банкротство юридических лиц",
+      "title": "Залог доли в ООО при банкротстве: права залогодержателя",
+      "desc": "Как залоговый кредитор защищает права при банкротстве участника ООО: очерёдность выплат по ст. 138 закона о банкротстве, торги, преимущественное право участников.",
+      "date": "6 июня 2026",
+      "dateIso": "2026-06-06",
+      "read": "5 мин.",
+      "tone": "b",
+      "img": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1780639292/articles/zalog-doli-ooo-pri-bankrotstve-cover.jpg",
+      "url": "articles/yur/zalog-doli-ooo-pri-bankrotstve"
+    },
+    {
       "slug": "kreditor-propustil-srok-reestr-bankrotstvo",
       "cat": "fiz",
       "catLabel": "Банкротство физических лиц",
