@@ -2,6 +2,19 @@
   "generated": "2026-06-06",
   "articles": [
     {
+      "slug": "bankrotstvo-gup-i-mup",
+      "cat": "yur",
+      "catLabel": "Банкротство юридических лиц",
+      "title": "Банкротство ГУП и МУП: особенности процедуры",
+      "desc": "Как проходит банкротство государственного и муниципального унитарного предприятия: кто подаёт заявление, что входит в конкурсную массу и когда муниципалитет отвечает по долгам.",
+      "date": "6 июня 2026",
+      "dateIso": "2026-06-06",
+      "read": "5 мин.",
+      "tone": "b",
+      "img": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1780611245/articles/bankrotstvo-gup-i-mup-cover.jpg",
+      "url": "articles/yur/bankrotstvo-gup-i-mup"
+    },
+    {
       "slug": "nasledstvo-vo-vremya-bankrotstva-fizlica",
       "cat": "fiz",
       "catLabel": "Банкротство физических лиц",
