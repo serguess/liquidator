@@ -81,7 +81,7 @@ slug ещё неизвестен на агенте 1 до создания brief
    - **Hard на любой итерации:** `targeted_tokens_over_limit` (ст/РФ/руб/ООО/X000руб), `author_markers_missing`, `too_few_short_sentences`, `too_many_long_sentences`, `anti_template_phrases`, `ai_markers_critical`, `ai_markers_density`, `ai_markers_high`, `first_person_singular`, `law_quotes_too_long`, `abbreviations_after_autofix`, `punctuation_after_autofix`.
    - **Soft с iteration ≥ 2:**
      - `length_too_long` → warning, если text_chars ≤ 8500 (default) / 7500 (news).
-     - `spam_risk` → warning, если все 3 ratio-метрики в коридоре (top1≤14, top10≤0.120, ngram3≤0.040, lex_div≥0.55) И targeted_tokens чистые.
+     - `spam_risk` → warning, если все 3 ratio-метрики в коридоре (top1≤14, top10≤0.120, ngram3≤0.060, lex_div≥0.55) И targeted_tokens чистые.
    - **Force-pass на iter=2:** все оставшиеся блокеры пропускаются, в meta.json пишется `metrics_warning=true` + `metrics_warning_blockers`. Статья идёт в очередь.
 
    **Счётчик итераций** хранится в `quality_gate.json:retry_count` — gate инкрементирует его при каждом запуске.

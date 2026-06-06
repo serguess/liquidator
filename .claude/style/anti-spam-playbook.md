@@ -181,7 +181,7 @@ python -m tools.quality_checks drafts/{slug}/draft.md
 | Флаг | Текущий порог | Что значит | Куда смотреть в playbook |
 |---|---|---|---|
 | `top10_share>0.115` | 11.5% | Топ-10 лемм слишком толстые | §1 (карта) + §2 (лестница) |
-| `ngram3_repeat_share>0.035` | 3.5% | Повторы триграмм | §3 (blacklist) |
+| `ngram3_repeat_share>0.055` | 5.5% | Повторы триграмм | §3 (blacklist) |
 | `lexical_diversity<0.58` | 58% | Узкий словарь | §4 (декомпозиция) |
 
 ### Алгоритм правки (ОДНА итерация, не больше)
@@ -236,7 +236,7 @@ Playbook вызывается **до начала** работы (§1-8), anti-s
 | risk_flag из quality_checks | Что писать в `recommendation` |
 |---|---|
 | `top10_share>0.115` | `apply_playbook §1 §2: распределение лемм {top5} по H2 неравномерное, применить лестницу для леммы {top1}` |
-| `ngram3_repeat_share>0.035` | `apply_playbook §3: найдены повторяющиеся 3-граммы {top3_3grams}, переписать через blacklist` |
+| `ngram3_repeat_share>0.055` | `apply_playbook §3: найдены повторяющиеся 3-граммы {top3_3grams}, переписать через blacklist` |
 | `lexical_diversity<0.58` | `apply_playbook §4: словарь узкий ({lex_div}), добавить минимум 5 декомпозиций через цифры/кейсы` |
 | `rhythm_too_smooth` | `apply_playbook §6: средняя длина предложения {avg_sent_len} > 17 слов, разбить 5-7 длинных на короткие` |
 

@@ -532,14 +532,14 @@ def _run(path: Path, iteration_override: int | None = None) -> GateResult:
                 result.recommendations = [r for r in result.recommendations if not r.startswith("reduce_length")]
 
     # 7.5. Soft-pass на spam_risk при iter≥2 если все метрики в коридоре
-    # (top1≤14, top10_share≤0.12, ngram3≤0.04, lex_div≥0.55) и нет targeted_tokens.
+    # (top1≤14, top10_share≤0.12, ngram3≤0.06, lex_div≥0.55) и нет targeted_tokens.
     # Логика: на 2-й итерации не возвращать writer'а ради ratio-метрик, если
     # абсолютные cap'ы и токены в порядке. Иначе цикл стремится к перфекционизму.
     if result.retry_count >= 2 and qc_rep.spam:
         in_corridor = (
             qc_rep.spam.top1_count <= 14
             and qc_rep.spam.top10_share <= 0.120
-            and qc_rep.spam.ngram3_repeat_share <= 0.040
+            and qc_rep.spam.ngram3_repeat_share <= 0.060
             and qc_rep.spam.lexical_diversity >= 0.55
         )
         no_targeted = not any(h.over_limit for h in qc_rep.targeted_tokens)

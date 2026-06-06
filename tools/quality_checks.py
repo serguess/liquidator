@@ -372,8 +372,13 @@ def compute_spam_heuristics(text: str) -> SpamHeuristics:
     # Ratio-флаги — мягкий бэкап под коридор 48-50% spam
     if top10_share > 0.115:
         risk_flags.append(f"top10_share>{0.115} (={top10_share})")
-    if ngram3_repeat_share > 0.035:
-        risk_flags.append(f"ngram3_repeat_share>{0.035} (={ngram3_repeat_share})")
+    # ngram3: блокер 0.055 (калибровка 6 июня 2026). Раньше 0.035 давал ложные
+    # возвраты чистых статей: эталон = 0.038, реальные ок-статьи 0.046-0.055
+    # улетали на лишнюю итерацию по одному ngram3. Реально плохие (0.09+)
+    # ловятся top10/top1/lex_div одновременно. Прогноз spam_pct ниже сохраняет
+    # свою калибровку 0.035 — это разные роли (блокер vs оценка).
+    if ngram3_repeat_share > 0.055:
+        risk_flags.append(f"ngram3_repeat_share>{0.055} (={ngram3_repeat_share})")
     if lexical_diversity < 0.58:
         risk_flags.append(f"lexical_diversity<{0.58} (={lexical_diversity})")
 
@@ -557,6 +562,8 @@ def predict_textru_metrics(
     # Добавки от ratio-метрик за пределами коридора 48-50%
     if spam.top10_share > 0.115:
         spam_pct += 2
+    # 0.035 здесь — КАЛИБРОВКА прогноза (эталон 0.038 → +2 → 49%), НЕ блокер.
+    # Блокер ngram3 = 0.055 (см. spam_heuristics выше). Не «выравнивать» это число.
     if spam.ngram3_repeat_share > 0.035:
         spam_pct += 2
 
@@ -814,7 +821,7 @@ def print_report(rep: Report) -> None:
         print(f"  Топ-3 в сумме: {s.top3_sum} (cap ≤30)")
         print(f"  Топ-10 в сумме: {s.top10_sum} (cap ≤80)")
         print(f"  Топ-10 доля: {s.top10_share * 100:.1f}% (цель ≤11.5%)")
-        print(f"  Повторы 3-граммов: {s.ngram3_repeat_share * 100:.1f}% (цель ≤3.5%)")
+        print(f"  Повторы 3-граммов: {s.ngram3_repeat_share * 100:.1f}% (цель ≤5.5%)")
         print(f"  Топ-5 частотных лемм: {s.top10_words[:5]}")
         if s.word_warnings:
             print(f"  [WORDS] Леммы для прореживания (count>12, главный драйвер заспама): {', '.join(s.word_warnings)}")
