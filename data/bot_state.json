@@ -5158,7 +5158,7 @@
     "auditor-buhgalter-subsidiarnaya-otvetstvennost": {
       "category": "yur",
       "title": "Субсидиарная ответственность бухгалтера при банкротстве",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -5166,10 +5166,12 @@
       "tg_message_id": null,
       "tg_chat_id": null,
       "first_seen_at": "2026-06-05T10:30:29",
-      "last_action_at": "2026-06-05T10:30:29",
+      "last_action_at": "2026-06-06T09:46:38",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null
+      "published_url": "https://pravo.shop/articles/yur/auditor-buhgalter-subsidiarnaya-otvetstvennost",
+      "published_at": "2026-06-06T09:46:38",
+      "articles_path": "articles/yur/auditor-buhgalter-subsidiarnaya-otvetstvennost.html"
     },
     "bank-podal-isk-po-kreditu-chto-delat": {
       "category": "vzysk",
