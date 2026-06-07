@@ -663,7 +663,11 @@
       "topic_action": "консультацию по рефинансированию долга",
       "event_date": "2026-05-07",
       "news_zone": "finance",
-      "primary_source": "https://cbr.ru/dkp/mp_dec/decision_key_rate/summary_key_rate_07052026/"
+      "primary_source": "https://cbr.ru/dkp/mp_dec/decision_key_rate/summary_key_rate_07052026/",
+      "status": "rejected",
+      "rejected_at": "2026-06-07T04:00:22",
+      "rejected_reason": "event_too_old:31d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-24",
@@ -1115,7 +1119,11 @@
       "topic_action": "консультацию по поручительству при банкротстве",
       "event_date": "2026-05-04",
       "news_zone": "vs_practice",
-      "primary_source": "https://pravo.ru/story/263454/"
+      "primary_source": "https://pravo.ru/story/263454/",
+      "status": "rejected",
+      "rejected_at": "2026-06-07T04:00:22",
+      "rejected_reason": "event_too_old:34d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-38",
