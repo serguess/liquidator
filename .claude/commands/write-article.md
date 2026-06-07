@@ -61,7 +61,11 @@ slug ещё неизвестен на агенте 1 до создания brief
 
 1. Запусти агента `1-semantics` с category и topic. Агент сам прогоняет preflight через `tools/cannibalization_check.py` (preflight + full режимы) — отдельно его звать не надо. Дождись `drafts/{slug}/brief.json`. Если вернул `error: cannibalization` (любая стадия) — сообщи slug-и конфликтов и остановись (см. блок «Pipeline-логирование» как залогировать), не запускай агентов 2-7.
 2. Запусти агента `2-legal-research` с slug. Дождись `drafts/{slug}/research.json`.
-3. Запусти агента `3-architect`. **Перед запуском найди `prev_article_outline`**: возьми последний по mtime файл `drafts/*/outline.json` или `articles/{category}/*` той же категории, что текущая (если есть) — извлеки структуру блоков (имена H2, порядок, `cta_final.text`) и передай архитектору в prompt как `prev_article_outline`. Архитектор обязан отстроиться по структуре от этой статьи. Дождись `drafts/{slug}/outline.json`.
+3. Запусти агента `3-architect`. Дождись `drafts/{slug}/outline.json`. Затем прогони детерминированную валидацию:
+   ```bash
+   .venv/bin/python -m tools.outline_validate drafts/{slug}/outline.json --fix
+   ```
+   Она авто-подрезает длины блоков и проверяет повтор корней в H2 + похожесть на предыдущую статью категории (соседа находит сама — вручную `prev_article_outline` собирать НЕ нужно). Если `exit != 0` и в выводе есть `[FIXES NEEDED]` — перезапусти агента `3-architect` РОВНО ОДИН раз, передав ему этот список правок, затем сразу к шагу 4 (валидацию повторно НЕ гоняй). Если `exit = 0` — сразу к шагу 4.
 4. Запусти агента `4-writer`. Дождись `drafts/{slug}/draft.md`.
 5. Запусти агента `5-uniqueness`. Если `passed: false` - возврат на агента 4 с указанием `recommendation`. **Максимум 1 итерация возврата здесь** (раньше было 5). После — продолжай к агенту 6, gate финально решит. **При возврате обязательно** залогируй `iteration_returned`.
 6. Запусти агента `6-seo-editor`. Дождись `drafts/{slug}/body.html` + `meta.json`. Агент 6 САМ пишет body.html и заполняет meta.json. Если `factcheck_passed: false` - возврат на агента 4 (**максимум 1 итерация здесь**, логируй `iteration_returned`).
