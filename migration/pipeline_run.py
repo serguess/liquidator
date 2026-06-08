@@ -20,14 +20,36 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 import subprocess
 import sys
 import time
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-sys.path.insert(0, str(Path(__file__).resolve().parent))  # чтобы импортнуть writer_gpt_test
+sys.path.insert(0, str(ROOT))                               # чтобы работал import tools.* (image_gen и пр.)
+sys.path.insert(0, str(Path(__file__).resolve().parent))    # чтобы импортнуть writer_gpt_test
 import writer_gpt_test as W  # noqa: E402
+
+
+def _load_env() -> None:
+    """Грузим .env в os.environ (image_gen читает FAL_KEY/CLOUDINARY_* из окружения).
+    Не перетираем уже заданные переменные. Аналог `set -a && source .env`."""
+    p = ROOT / ".env"
+    if not p.exists():
+        return
+    for line in p.read_text(encoding="utf-8").splitlines():
+        line = line.strip()
+        if not line or line.startswith("#") or "=" not in line:
+            continue
+        k, _, v = line.partition("=")
+        k = k.strip()
+        v = v.strip().strip('"').strip("'")
+        if k and k not in os.environ:
+            os.environ[k] = v
+
+
+_load_env()
 
 DRAFTS = ROOT / "drafts"
 STYLE = ROOT / ".claude" / "style"
