@@ -3,10 +3,10 @@
 Python-оркестратор вместо `claude -p`). Цель — измерить токены по каждому агенту и
 суммарно, чтобы решить, где можно поставить модель помельче (nano).
 
-Что прогоняет (LLM-агенты): 1-semantics → 2-legal-research → 3-architect → 4-writer →
-6-seo-editor → 7-publisher. Между ними — детерминированные Python-шаги (outline_validate,
-inject_boilerplate, quality_gate) с 0 LLM-токенов.
-Пропущено: 5-uniqueness (эмбеддинги, не chat-токены) и image_gen (fal.ai, не LLM).
+ПОЛНЫЙ прод-эквивалент: 1-semantics → 2-legal-research → 3-architect → 4-writer(+self-fix)
+→ 5-uniqueness (embed_compare, OpenAI embeddings) → 6-seo-editor → 7-publisher. Между ними
+детерминированные шаги: outline_validate, inject_boilerplate, quality_gate,
+pick_scene_template, finalize_draft (image_gen: fal.ai + Cloudinary → реальная обложка).
 
 Артефакты пишутся в drafts/_mig-{slug}/ (служебная папка с «_» — прод её игнорирует).
 
@@ -221,6 +221,19 @@ def main() -> int:
             save(workdir, "draft.md", draft)
             print(f"   ok: usage={wusage2['prompt_tokens']}+{wusage2['completion_tokens']}={wusage2['total_tokens']} ток")
 
+    # ---- 5. uniqueness (эмбеддинги OpenAI text-embedding-3-small) ----
+    print("\n=== 5-uniqueness (embed_compare) ===", flush=True)
+    rc5, out5 = run_py(["tools.embed_compare", work_slug])
+    if out5.strip() and "{" in out5:
+        try:
+            uniq = json.loads(out5[out5.find("{"):out5.rfind("}") + 1])
+            save(workdir, "uniqueness.json", json.dumps(uniq, ensure_ascii=False, indent=2))
+            print(f"   passed={uniq.get('passed')} scores={uniq.get('scores')} rec={uniq.get('recommendation')}")
+        except Exception as e:
+            print(f"   [warn] uniqueness parse: {e}; tail: {out5[-200:]}")
+    else:
+        print(f"   [warn] embed_compare без JSON (rc={rc5}); tail: {out5[-200:]}")
+
     # ---- 6. seo-editor → body.html + meta.json ----
     sys6 = (agent_prompt("6-seo-editor")
             + f"\n\n=== editor-cheatsheet.md ===\n{read(STYLE/'editor-cheatsheet.md')}"
@@ -264,17 +277,41 @@ def main() -> int:
     meta["slug"] = real_slug; meta["category"] = cat
     save(workdir, "meta.json", json.dumps(meta, ensure_ascii=False, indent=2))
     save(workdir, "body.html", sd.get("body_html", ""))
-    rc, out = run_py(["tools.inject_boilerplate", f"drafts/{work_slug}/", "--body", "body.html", "--out", "article.html"])
-    print(f"   [inject_boilerplate] exit={rc}")
 
-    # ---- 7. publisher → scene.txt ----
-    sys7 = agent_prompt("7-publisher") + f"\n\n=== cover-scenes.md ===\n{read(STYLE/'cover-scenes.md')[:8000]}"
-    usr7 = (f"Тема статьи: {bd.get('title') or args.topic}, категория {cat}. "
-            "Выбери уместную сцену и верни ТОЛЬКО английскую scene-строку для генерации обложки (без JSON).")
+    # ---- 7b. pick_scene_template (детерминированная ротация обложек) ----
+    rc, _ = run_py(["articles_scheduler.pick_scene_template", work_slug, cat])
+    print(f"   [pick_scene_template] exit={rc}")
+
+    # ---- 7. publisher → scene.txt (адаптирует выбранный шаблон) ----
+    tmpl = read(workdir / "scene_template.txt").strip()
+    sys7 = agent_prompt("7-publisher") + f"\n\n=== cover-scenes.md ===\n{read(STYLE/'cover-scenes.md')}"
+    usr7 = (f"Тема статьи: {bd.get('title') or args.topic}, категория {cat}.\n"
+            f"Выбранный шаблон: {tmpl or '(нет — выбери уместный сам)'}\n"
+            "Найди этот template_id в cover-scenes.md, адаптируй его под смысл статьи "
+            "(подбери 3-7 предметов из allowed pool). Верни ТОЛЬКО английскую scene-строку "
+            "для генерации обложки (без JSON, без пояснений).")
     scene = step("7-publisher", sys7, usr7, json_mode=False)
     save(workdir, "scene.txt", scene)
 
-    # ---- quality_gate (детерминированный, 0 токенов) ----
+    # ---- ОБЛОЖКА: image_gen напрямую (fal.ai + лого + Cloudinary), ДО inject ----
+    # Прямой вызов вместо finalize_draft, чтобы НЕ писать в прод _review_queue.json
+    # (это шаг доставки заказчице — для теста не нужен). write_meta=True кладёт
+    # cover_url в meta.json, дальше inject подставит реальную обложку в article.html.
+    print("\n=== обложка (image_gen: fal.ai + Cloudinary) ===", flush=True)
+    try:
+        from tools.image_gen import generate_and_upload_cover
+        cover = generate_and_upload_cover(
+            slug=work_slug, title=meta.get("title") or args.topic,
+            category=cat, scene=(scene.strip() or None), write_meta=True)
+        print(f"   cover_url: {cover}")
+    except Exception as e:
+        print(f"   [image_gen failed] {type(e).__name__}: {e}")
+
+    # ---- inject_boilerplate (теперь meta.cover_url есть → обложка в article.html) ----
+    rc, out = run_py(["tools.inject_boilerplate", f"drafts/{work_slug}/", "--body", "body.html", "--out", "article.html"])
+    print(f"   [inject_boilerplate] exit={rc}")
+
+    # ---- quality_gate (детерминированный, после сборки article.html) ----
     rc, gate_out = run_py(["tools.quality_gate", f"drafts/{work_slug}/article.html", "--json", "--save-report"])
     print(f"\n[quality_gate] exit={rc} (0=passed)")
 
