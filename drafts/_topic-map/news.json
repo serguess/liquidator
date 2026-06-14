@@ -293,7 +293,11 @@
       "topic_action": "консультацию по валютному долгу в банкротстве",
       "event_date": "2026-05-12",
       "news_zone": "vs_practice",
-      "primary_source": "https://rapsinews.ru/judicial_analyst/20260512/311834003.html"
+      "primary_source": "https://rapsinews.ru/judicial_analyst/20260512/311834003.html",
+      "status": "rejected",
+      "rejected_at": "2026-06-14T04:00:08",
+      "rejected_reason": "event_too_old:33d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-13",
@@ -697,7 +701,11 @@
       "topic_action": "консультацию по списанию кредитов военнослужащего",
       "event_date": "2026-05-13",
       "news_zone": "legislation",
-      "primary_source": "https://www.rapsinews.ru/legislation_news/20260513/311840377.html"
+      "primary_source": "https://www.rapsinews.ru/legislation_news/20260513/311840377.html",
+      "status": "rejected",
+      "rejected_at": "2026-06-14T04:00:08",
+      "rejected_reason": "event_too_old:32d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-25",
@@ -795,7 +803,11 @@
       "topic_action": "отменить судебный приказ",
       "event_date": "2026-05-10",
       "news_zone": "legislation",
-      "primary_source": "https://www.consultant.ru/legalnews/31306/"
+      "primary_source": "https://www.consultant.ru/legalnews/31306/",
+      "status": "rejected",
+      "rejected_at": "2026-06-14T04:00:08",
+      "rejected_reason": "event_too_old:35d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-28",
@@ -1217,7 +1229,11 @@
       "topic_action": "консультацию по защите от навязанных услуг МФО",
       "event_date": "2026-05-13",
       "news_zone": "finance",
-      "primary_source": "https://finance.mail.ru/article/cb-zapretil-mfo-prostavlyat-za-klienta-soglasie-na-poluchenie-dopuslug-69208622/"
+      "primary_source": "https://finance.mail.ru/article/cb-zapretil-mfo-prostavlyat-za-klienta-soglasie-na-poluchenie-dopuslug-69208622/",
+      "status": "rejected",
+      "rejected_at": "2026-06-14T04:00:08",
+      "rejected_reason": "event_too_old:32d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-41",
