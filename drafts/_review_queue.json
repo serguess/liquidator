@@ -3008,6 +3008,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "opredelenie-vs-ob-osporenii-sdelok-bankrotstvo",
+      "category": "news",
+      "title": "Определение ВС: оспаривание сделок должника - ключевые выводы",
+      "added_at": "2026-06-17T19:44:47.118507",
+      "char_count": 6704,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1781714680/articles/opredelenie-vs-ob-osporenii-sdelok-bankrotstvo-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

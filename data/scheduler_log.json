@@ -15757,5 +15757,86 @@
     "timestamp": "2026-06-17T14:48:04",
     "status": "preflight_failed",
     "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-17T17:12:24",
+    "category": "fiz",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 1,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 10,
+        "found": [
+          "alimenty-na-soderzhanie-byvshego-supruga-gpt",
+          "bankrotstvo-emitenta-obligacij-gpt",
+          "bankrotstvo-inostrannogo-grazhdanina-v-rossii-gpt",
+          "bankrotstvo-osuzhdennogo-fns-iski-pri-otbyvanii-nakazaniya-gpt",
+          "bankrotstvo-po-mikrozaymam-fizlica-gpt",
+          "nalogovyj-vychet-posle-bankrotstva-fizlica-gpt",
+          "prodat-dolg-kollektoram-usloviya-i-cena-gpt",
+          "proshchenie-dolga-pri-bankrotstve-yurlica-gpt",
+          "strakhovanie-otvetstvennosti-direktora-do-bankrotstvo-gpt",
+          "vosstanovlenie-sroka-predyavleniya-ispolnlista-gpt"
+        ],
+        "pushed": true
+      }
+    },
+    "mode": "rewrite",
+    "retry_slug": "nalogovyj-vychet-posle-bankrotstva-fizlica-gpt",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "forced_pass_at_iter2: блокеры пропущены, статья идёт в TG-очередь с metrics_warning=true. Было: 1 блокеров — spam_risk"
+      ],
+      "recommendations": [
+        "reduce_repetition: разбавить топ-5 частотных лемм местоимениями/перифразом — ['вычет', 'банкротств', 'доход', 'налогов', 'процедур']"
+      ],
+      "stderr_tail": ""
+    },
+    "finalize_safety_net": {
+      "ran": true,
+      "rc": 0
+    },
+    "status": "ok",
+    "slug": "nalogovyj-vychet-posle-bankrotstva-fizlica-gpt",
+    "duration_sec": 12.9,
+    "returncode": 1,
+    "rescued_after_failure": true,
+    "stdout_tail": "Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access",
+    "stderr_tail": "",
+    "tokens_by_model": {
+      "<synthetic>": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "messages": 1
+      }
+    },
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 6136
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]

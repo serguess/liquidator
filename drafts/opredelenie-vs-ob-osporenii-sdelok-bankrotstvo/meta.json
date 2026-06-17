@@ -1,0 +1,102 @@
+{
+  "slug": "opredelenie-vs-ob-osporenii-sdelok-bankrotstvo",
+  "category": "news",
+  "title": "Определение ВС: оспаривание сделок должника - ключевые выводы",
+  "description": "Разбор выводов Верховного Суда об оспаривании сделок должника: какие ориентиры для судов, как это влияет на кредиторов и арбитражных управляющих и что учесть при сборе доказательств.",
+  "h1": "Определение Верховного Суда об оспаривании сделок должника: новые ориентиры",
+  "lead": "Определение ВС уточняет ориентиры для судов при спорах об оспаривании сделок должника: суды станут сильнее ориентироваться на доказательную базу, связь отчуждения с предбанкротным периодом и добросовестность покупателя.",
+  "topic_action": "разбор определения ВС об оспаривании сделок должника",
+  "breadcrumb_current": "Определение ВС об оспаривании сделок",
+  "og_image": "/assets/articles/opredelenie-vs-ob-osporenii-sdelok-bankrotstvo.jpg",
+  "main_keyword": "определение вс оспаривание сделок должника",
+  "secondary_keywords": [
+    "оспаривание сделок при банкротстве",
+    "определение Верховного Суда по оспорению сделок",
+    "сделки должника признание ничтожной",
+    "критерии оспаривания сделок банкротство",
+    "практика ВС по спорам о сделках банкрота"
+  ],
+  "intent": "informational",
+  "funnel_stage": "warm",
+  "article_type": "B",
+  "offer": "proverka-spisaniya",
+  "news_zone": "legislation",
+  "internal_links": [],
+  "external_links": [
+    "https://bankrot.fedresurs.ru/",
+    "https://www.consultant.ru/"
+  ],
+  "faq": [
+    {
+      "question": "Можно ли оспорить сделку, если она совершена до признания банкротом?",
+      "answer": "Да. Суды сопоставляют дату передачи с моментом появления признаков неплатёжеспособности. Главное - доказать связь сделки с ухудшением имущественного положения."
+    },
+    {
+      "question": "Что учитывает суд при оценке добросовестности приобретателя?",
+      "answer": "Суд проверяет, знала ли сторона о рисках, платил ли адекватную цену и проводились ли проверки по контрагенту. Документы и деловая переписка важны."
+    },
+    {
+      "question": "Какое влияние на реестр кредиторов окажет успешное оспаривание?",
+      "answer": "Если суд вернёт имущество или взыщет его стоимость в пользу конкурсной массы, это увеличит пул средств для распределения и повлияет на удовлетворение требований кредиторов."
+    },
+    {
+      "question": "Есть ли стандартные сроки для оспаривания различных видов сделок?",
+      "answer": "Сроки зависят от вида сделки и норм 127‑ФЗ. Конкретные интервалы нужно уточнять по тексту соответствующих норм и по самому определению ВС."
+    },
+    {
+      "question": "Какую роль играет арбитражный управляющий в инициировании споров?",
+      "answer": "Управляющий собирает доказательства, формирует исковые позиции и действует в интересах конкурсной массы. Оперативность и полнота доказательств критичны для результата."
+    },
+    {
+      "question": "Что делать, если вы - приобретатель и получили уведомление об иске о возвращении имущества?",
+      "answer": "Соберите договоры, платёжные документы и переписку. Докажите добросовестность и экономическую основу сделки. Обсудите с юристом варианты защиты и компромисса."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "В тексте использованы обтекаемые формулировки при описании 'нового определения ВС' в соответствии с safe_phrasing research.json: точная ссылка (номер/дата) на определение ВС в локальном кэше отсутствует, поэтому приведены общие ориентиры и указана необходимость сверки с текстом определения.",
+    "Факты с проверенным статусом использованы в безопасной формулировке: порог для приказного производства (до 500 000 руб.) - по safe_phrasing ст. 229.2 АПК РФ (f1); депозит управляющего - 25 000 руб. (п.3 ст.20.6 127‑ФЗ) (f9); другие положения о критериях и последствиях приведены в обзорной, некатегоричной форме согласно safe_phrasing."
+  ],
+  "keyword_density_main": null,
+  "main_keyword_exact_count": 1,
+  "text_chars": 6704,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.124,
+  "local_spam_ngram3_repeat": 0.024,
+  "local_lexical_diversity": 0.619,
+  "local_ai_markers_density": 0.34,
+  "local_ai_markers_critical": 0,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1781714680/articles/opredelenie-vs-ob-osporenii-sdelok-bankrotstvo-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1781714680/articles/opredelenie-vs-ob-osporenii-sdelok-bankrotstvo-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Close-up cinematic photograph of legal/administrative implements arranged as if mid-process on a dark walnut tabletop, camera at tabletop level three-quarter angle: a pair of polished brass scales of justice slightly off-center with empty pans, a wooden judge's gavel resting on a round sound block to the right, a neat stack of closed dossiers tied with cord to the left, a polished round brass seal placed atop the top dossier, an antique brass padlock with a short chain lying near the seal; lighting: soft directional sidelight from upper left creating elegant shadows and a cool neutral-newsroom tonality, materials: brass, weathered leather, dark walnut, mood: authoritative, deliberative, legal clarity.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-06-17T16:44:41Z",
+  "length_status": "warn",
+  "length_kind": "news",
+  "local_ai_markers_total": 3,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 1,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 55,
+  "predicted_ai_pct": 6,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность выше 50% (~55%)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "spam_risk: 1 флагов (top10_share>0.115 (=0.124)), top-5: ['определен', 'доказательств', 'оспариван', 'масс', 'сделк']",
+    "targeted_tokens_over_limit: руб_сокращение=2(>≤0)",
+    "too_few_short_sentences: 11 < 12"
+  ],
+  "date_published": "2026-06-17",
+  "date_modified": "2026-06-17",
+  "ready_for_review": true,
+  "ready_at": "2026-06-17T16:44:47Z",
+  "publication_target": "telegram_review"
+}
