@@ -154,6 +154,9 @@ def main() -> int:
     ap.add_argument("--primary-source", default="")  # для news: URL официального источника
     ap.add_argument("--event-date", default="")       # для news: YYYY-MM-DD
     ap.add_argument("--news-zone", default="legislation")
+    ap.add_argument("--prod-slug", action="store_true",
+                    help="писать в drafts/{slug}/ (без _mig-) — для автономного scheduler, "
+                         "чтобы runner.py нашёл папку, прогнал quality_gate и закоммитил")
     args = ap.parse_args()
 
     from openai import OpenAI
@@ -161,7 +164,8 @@ def main() -> int:
 
     cat = args.category
     real_slug = args.slug
-    work_slug = f"_mig-{real_slug}"
+    # prod-режим: реальный slug (scheduler ждёт drafts/{slug}/); тест-режим: _mig- префикс.
+    work_slug = real_slug if args.prod_slug else f"_mig-{real_slug}"
     workdir = DRAFTS / work_slug
     workdir.mkdir(parents=True, exist_ok=True)
     usage_log: list[dict] = []
