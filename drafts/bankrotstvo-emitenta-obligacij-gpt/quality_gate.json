@@ -1,0 +1,278 @@
+{
+  "file": "/home/appuser/apps/liquidator/drafts/_mig-bankrotstvo-emitenta-obligacij/article.html",
+  "passed": false,
+  "hard_failed": false,
+  "blockers": [
+    "spam_risk: 5 флагов (top1_count>12 (=13, лемма «держател»), top3_sum>30 (=34), top10_sum>80 (=94), top10_share>0.115 (=0.14), lexical_diversity<0.58 (=0.556)), top-5: ['держател', 'кредитор', 'расчет', 'реестр', 'выпуск']",
+    "author_markers_missing: 0 < 2",
+    "too_few_short_sentences: 7 < 12"
+  ],
+  "warnings": [
+    "Автофикс применил правки: сокращения=0, пунктуация=0"
+  ],
+  "autofix": {
+    "file": "/home/appuser/apps/liquidator/drafts/_mig-bankrotstvo-emitenta-obligacij/article.html",
+    "abbreviation_fixes": {},
+    "punctuation_fixes": 0,
+    "em_dash_fixes": 0,
+    "eng_quotes_fixes": 0,
+    "yo_fixes": 19,
+    "hyphen_fixes": 0,
+    "changed": true,
+    "bytes_before": 42222,
+    "bytes_after": 42222
+  },
+  "quality_checks": {
+    "file": "drafts/_mig-bankrotstvo-emitenta-obligacij/article.html",
+    "text_chars": 7110,
+    "length_status": "ok",
+    "length_kind": "default",
+    "passed": false,
+    "abbreviation_hits": [],
+    "punctuation_hits": [],
+    "hyphen_compound_hits": [],
+    "spam": {
+      "total_words": 673,
+      "unique_lemmas": 374,
+      "lexical_diversity": 0.556,
+      "top10_words": [
+        [
+          "держател",
+          13
+        ],
+        [
+          "кредитор",
+          11
+        ],
+        [
+          "расчет",
+          10
+        ],
+        [
+          "реестр",
+          9
+        ],
+        [
+          "выпуск",
+          9
+        ],
+        [
+          "обеспечен",
+          9
+        ],
+        [
+          "част",
+          9
+        ],
+        [
+          "облигаций",
+          8
+        ],
+        [
+          "требован",
+          8
+        ],
+        [
+          "требований",
+          8
+        ]
+      ],
+      "top10_share": 0.14,
+      "top1_count": 13,
+      "top3_sum": 34,
+      "top10_sum": 94,
+      "ngram3_repeat_count": 22,
+      "ngram3_total": 671,
+      "ngram3_repeat_share": 0.033,
+      "risk_flags": [
+        "top1_count>12 (=13, лемма «держател»)",
+        "top3_sum>30 (=34)",
+        "top10_sum>80 (=94)",
+        "top10_share>0.115 (=0.14)",
+        "lexical_diversity<0.58 (=0.556)"
+      ],
+      "word_warnings": [
+        "«держател» ×13"
+      ]
+    },
+    "targeted_tokens": [
+      {
+        "token": "ст_сокращение",
+        "count": 0,
+        "limit": 5,
+        "over_limit": false,
+        "severity": "hard"
+      },
+      {
+        "token": "РФ_рудимент",
+        "count": 0,
+        "limit": 2,
+        "over_limit": false,
+        "severity": "hard"
+      },
+      {
+        "token": "руб_сокращение",
+        "count": 0,
+        "limit": 0,
+        "over_limit": false,
+        "severity": "hard"
+      },
+      {
+        "token": "ООО_бренд",
+        "count": 0,
+        "limit": 3,
+        "over_limit": false,
+        "severity": "hard"
+      },
+      {
+        "token": "000руб_паттерн",
+        "count": 0,
+        "limit": 2,
+        "over_limit": false,
+        "severity": "hard"
+      },
+      {
+        "token": "127фз_закон",
+        "count": 0,
+        "limit": 2,
+        "over_limit": false,
+        "severity": "soft"
+      },
+      {
+        "token": "213_артикул",
+        "count": 0,
+        "limit": 3,
+        "over_limit": false,
+        "severity": "soft"
+      },
+      {
+        "token": "ГПК_кодекс",
+        "count": 0,
+        "limit": 3,
+        "over_limit": false,
+        "severity": "soft"
+      },
+      {
+        "token": "ГК_кодекс",
+        "count": 0,
+        "limit": 3,
+        "over_limit": false,
+        "severity": "soft"
+      },
+      {
+        "token": "000_число",
+        "count": 0,
+        "limit": 8,
+        "over_limit": false,
+        "severity": "soft"
+      },
+      {
+        "token": "cta_формула_повтор",
+        "count": 1,
+        "limit": 1,
+        "over_limit": false,
+        "severity": "soft"
+      }
+    ],
+    "author_markers_count": 0,
+    "author_markers_min": 2
+  },
+  "ai_markers": {
+    "file": "drafts/_mig-bankrotstvo-emitenta-obligacij/article.html",
+    "text_chars": 9245,
+    "hits_total": 4,
+    "density_per_1000": 0.43,
+    "by_severity": {
+      "critical": 0,
+      "high": 1,
+      "medium": 0,
+      "low": 3
+    },
+    "own_voice_hits": 0,
+    "first_person_singular_hits": 0,
+    "hits": [
+      {
+        "name": "ИИ-лексика: «взаимодействие/тонкости/нюансы (абстрактно)»",
+        "category": "ai-lexis",
+        "severity": "low",
+        "match": "Взаимодействие",
+        "position": 9052,
+        "context": "...ение law@pravo.shop Коммерческие предложения biz@pravo.shop Взаимодействие со СМИ pr@pravo.shop © 2018-2026 ООО «ЛИКВИДАТОР». Все прав..."
+      },
+      {
+        "name": "Канцелярит: «в рамках» (без нужды)",
+        "category": "clerical",
+        "severity": "low",
+        "match": "в рамках",
+        "position": 8664,
+        "context": "...ровождение на всех этапах. Надежность и законность Работаем в рамках ФЗ и действующего законодательства РФ. РЕКВИЗИТЫ ООО «ЛИКВИ..."
+      },
+      {
+        "name": "Канцелярит: «надлежащий/имеет место быть»",
+        "category": "clerical",
+        "severity": "high",
+        "match": "надлежащего",
+        "position": 7399,
+        "context": "... Это зависит от условий выпуска и оформленных мандатов. Без надлежащего мандата реестродержатель не всегда вправе действовать от им..."
+      },
+      {
+        "name": "Канцелярит: «в соответствии с» (вне цитаты закона)",
+        "category": "clerical",
+        "severity": "low",
+        "match": "в соответствии с",
+        "position": 5367,
+        "context": "...аконом; при публичном размещении реестродержатель действует в соответствии с регламентом, и для представления интересов часто требуются ..."
+      }
+    ]
+  },
+  "anti_template": {
+    "file": "drafts/_mig-bankrotstvo-emitenta-obligacij/article.html",
+    "text_chars": 7680,
+    "phrases_loaded": 138,
+    "passed": true,
+    "hits": []
+  },
+  "law_quotes": {
+    "total_chars": 0,
+    "limit": 600,
+    "samples": []
+  },
+  "rhythm": {
+    "file": "drafts/_mig-bankrotstvo-emitenta-obligacij/article.html",
+    "text_chars": 7680,
+    "sentences_total": 63,
+    "avg_sentence_len": 11.71,
+    "short_sentences_count": 7,
+    "short_sentences_share": 0.111,
+    "long_sentences_count": 0,
+    "parasite_count": 1,
+    "parasite_per_1000": 0.13,
+    "flags": []
+  },
+  "internal_links": {
+    "total_hrefs": 37,
+    "ok": 0,
+    "whitelisted": 21,
+    "external": 13,
+    "fixed": 0,
+    "errors": 0,
+    "changed": false,
+    "fix_details": [],
+    "error_details": []
+  },
+  "recommendations": [
+    "reduce_repetition: разбавить топ-5 частотных лемм местоимениями/перифразом — ['держател', 'кредитор', 'расчет', 'реестр', 'выпуск']",
+    "add_author_markers: добавить минимум 2 вставок «по нашему опыту» / «в нашей практике» / «мы считаем» / «мы видим». Это главный anti-AI маркер — без него text.ru показывает AI 7-19%.",
+    "add_short_sentences: добавить минимум 5 коротких предложений (≤5 слов). Главный anti-AI маркер: «Главное.», «Защита не включается.», «6 месяцев, иногда 8.». Разбивать длинные предложения на 2-3 коротких."
+  ],
+  "retry_count": 1,
+  "predicted_metrics": {
+    "spam_pct": 60,
+    "ai_pct": 11,
+    "uniqueness_pct": 87
+  },
+  "customer_risks": [
+    "заспамленность заметно выше 50% (~60%)",
+    "AI-detector чуть выше 10% (~11%)"
+  ]
+}

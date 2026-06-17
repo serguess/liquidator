@@ -1,0 +1,89 @@
+{
+  "slug": "bankrotstvo-osuzhdennogo-fns-iski-pri-otbyvanii-nakazaniya",
+  "category": "news",
+  "title": "ФНС подала иск о банкротстве осуждённого, отбывающего наказание",
+  "description": "ФНС подала иск о признании банкротом должника, отбывающего наказание: что меняется в порядке взыскания и как действовать представителю ответчика. Источник - RIA/Рапсиньюс (28 мая).",
+  "h1": "ФНС подала иск о банкротстве в отношении осуждённого, находящегося в заключении",
+  "lead": "Когда на почте приходит извещение от налоговиков, а адресат - в колонии, первая реакция - паника: право у ФНС подать иск сохраняется, но порядок взыскания и уведомления имеет особенности.",
+  "topic_action": "разбор иска о банкротстве осуждённого",
+  "breadcrumb_current": "Иск ФНС о банкротстве осуждённого",
+  "og_image": "/assets/articles/bankrotstvo-osuzhdennogo-fns-iski-pri-otbyvanii-nakazaniya.jpg",
+  "main_keyword": "банкротство осуждённого иск фнс",
+  "secondary_keywords": [
+    "исковое заявление фнс против осуждённого",
+    "банкротство должника в колонии",
+    "банкротство заключённого практика",
+    "признание банкротом лицо отбывающее наказание",
+    "взыскание долгов с осуждённых",
+    "арбитражная практика банкротство осуждённых"
+  ],
+  "internal_links": [],
+  "external_links": [
+    "https://rapsinews.ru/judicial_news/20260528/311882559.html",
+    "https://bankrot.fedresurs.ru/",
+    "https://www.consultant.ru/document/cons_doc_LAW_39590/",
+    "https://www.consultant.ru/document/cons_doc_LAW_10699/"
+  ],
+  "faq": [
+    {
+      "question": "Можно ли подать иск о банкротстве, если должник находится в колонии?",
+      "answer": "Да. Закон допускает подачу заявления независимо от места пребывания ответчика; нахождение в учреждении исполнения наказания само по себе не лишает кредитора права подать иск."
+    },
+    {
+      "question": "Как введение дела влияет на исполнительные производства?",
+      "answer": "С началом процедуры банкротства действующие исполнительные производства по тем же требованиям приостанавливаются или прекращаются в порядке, установленном законом о банкротстве; дальнейшее взыскание учитывается в реестре требований кредиторов."
+    },
+    {
+      "question": "Кто оплачивает пошлину и депозит при иске от ФНС?",
+      "answer": "Пошлину, как правило, оплачивает организация‑истец. Ориентир по ставке для кредитора‑организации - 100 000 руб.; депозит на вознаграждение управляющего часто называют ориентировочно 25 000 руб. - такие цифры используются как пример и требуют проверки по актуальной редакции НК РФ и 127‑ФЗ."
+    },
+    {
+      "question": "Что делать, если человек в СИЗО не получил уведомление?",
+      "answer": "Нужно выяснить способ и дату вручения через представителя или администрацию учреждения. Уведомление лиц, находящихся в местах лишения свободы, имеет особенности: точные процедуры и сроки следует сверять по процессуальным нормам и регламентам ФСИН."
+    },
+    {
+      "question": "Есть ли смысл подавать иск против лица без ликвидного имущества?",
+      "answer": "Если у должника нет ликвидных активов, иск часто оказывается экономически неэффективным: расходы на процедуру могут превысить возможную сумму взыскания. Перед подачей стоит оценить имущество и экономику дела."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "f1-f4 (право кредитора подать иск; приостановление ИП; госпошлина 100 000 руб.; депозит управляющего ~25 000 руб.) сверены с research.json и представлены в безопасной формулировке.",
+    "f5 (порядок уведомления лиц в местах лишения свободы) в research помечен needs_verification: в тексте использована обтекаемая формулировка и рекомендовано сверять процессуальные нормы и регламенты ФСИН при практической подготовке.",
+    "Прямые утверждения, перечисленные в forbidden_claims research.json, в тексте отсутствуют; числовые значения представлены как ориентиры и сопровождаются рекомендацией проверять актуальную редакцию НК РФ и 127‑ФЗ."
+  ],
+  "keyword_density_main": null,
+  "main_keyword_exact_count": null,
+  "text_chars": 6495,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.099,
+  "local_spam_ngram3_repeat": 0.037,
+  "local_lexical_diversity": 0.623,
+  "local_ai_markers_density": 0.48,
+  "local_ai_markers_critical": 0,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1781703472/articles/_mig-bankrotstvo-osuzhdennogo-fns-iski-pri-otbyvanii-nakazaniya-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1781703472/articles/_mig-bankrotstvo-osuzhdennogo-fns-iski-pri-otbyvanii-nakazaniya-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Editorial photograph of a corner of a top-floor executive office overlooking a blurred city skyline at dusk, three-quarter eye-level camera with shallow depth of field; foreground on a sleek walnut desk: a closed thin laptop with brushed-metal lid, a polished round brass seal placed slightly off-center suggesting official tax authority action, a worn leather notebook closed beside a smartphone face-down, a half-full glass of still water catching the cool window light, a neatly stacked quartet of unmarked closed dossiers subtly blurred behind the seal; lighting: cool ambient daylight from the windows blended with a faint warm tungsten rim light, mood: clinical institutional gravity, contemporary legal news.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-06-17T13:37:53Z",
+  "length_status": "ok",
+  "length_kind": "news",
+  "local_ai_markers_total": 4,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 2,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": false,
+  "quality_gate_blockers": [
+    "targeted_tokens_over_limit: 000руб_паттерн=5(>≤2)",
+    "too_few_short_sentences: 4 < 12"
+  ],
+  "quality_gate_retry_count": 1,
+  "predicted_spam_pct": 51,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность чуть выше 50% (~51%)"
+  ]
+}

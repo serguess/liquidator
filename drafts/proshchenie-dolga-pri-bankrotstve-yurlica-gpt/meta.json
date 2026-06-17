@@ -1,0 +1,96 @@
+{
+  "slug": "proshchenie-dolga-pri-bankrotstve-yurlica",
+  "category": "yur",
+  "title": "Прощение долга при банкротстве юрлица: налоги и риски",
+  "description": "Что происходит с прощенным долгом при банкротстве юридического лица: как это учитывается в учёте и налогах, какие риски для руководства и учредителей и когда стоит проверять последствия.",
+  "h1": "Прощение долга при банкротстве юрлица: налоговые последствия и риски для компании",
+  "lead": "Прощение долга при банкротстве юрлица - не только бухгалтерская запись: это совокупность правовых, учётных и налоговых последствий, которые зависят от процедуры и документального оформления.",
+  "topic_action": "проверку последствий списания долгов",
+  "breadcrumb_current": "Прощение долгов при банкротстве",
+  "og_image": "/assets/articles/proshchenie-dolga-pri_bankrotstve-yurlica.jpg",
+  "main_keyword": "прощение долга при банкротстве юрлица",
+  "secondary_keywords": [
+    "налоги при списании долга юрлица",
+    "налогообложение списанных долгов",
+    "риски директоров при банкротстве фирмы",
+    "учет списанных долгов в бухгалтерии"
+  ],
+  "internal_links": [],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/",
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/c2c8c81ee8e4bd843286b08b10607f00ec6ae073/"
+  ],
+  "faq": [
+    {
+      "question": "Какой минимум задолженности позволяет заявителю требовать банкротство компании?",
+      "answer": "Для юридических лиц минимальный размер просроченных обязательств, при котором кредитор вправе требовать возбуждения дела о банкротстве, увеличен до 2 000 000 руб. (см. ст. 6, ст. 33 127‑ФЗ, ред. 2024). Проверяйте текущую редакцию перед подачей заявления."
+    },
+    {
+      "question": "Влияет ли списание обязательств на налоговую базу по налогу на прибыль?",
+      "answer": "Налоговые последствия списания долгов зависят от конкретных форм операции и норм НК РФ: в ряде случаев списание может повлиять на налоговую базу по налогу на прибыль и иным налогам. Рекомендуется сверять учётные проводки с разъяснениями ФНС и бухгалтером."
+    },
+    {
+      "question": "Что может грозить директору компании после списания обязательств в процедуре?",
+      "answer": "Суд может привлечь к субсидиарной ответственности руководителя или контролирующих лиц, если будут установлены недобросовестные действия - сокрытие имущества, фиктивные сделки и т.п. Конкретные основания и последствия зависят от доказательств и практики судов."
+    },
+    {
+      "question": "Может ли налоговая оспорить операции и наложить доначисления после конкурсного производства?",
+      "answer": "После завершения банкротства кредиторы и налоговые органы могут проводить проверки и оспаривать отдельные операции; при выявлении признаков злоупотреблений возможны доначисления или претензии к бывшему руководству. Итог зависит от материалов дела и выводов проверяющих органов."
+    },
+    {
+      "question": "Насколько безопасно оформлять мировое соглашение о признании части обязательств безвозвратными?",
+      "answer": "Мировое соглашение работает при наличии экономического смысла и корректного документального оформления: фиксируйте уступки, встречные обязательства и расчёты стоимости, чтобы снизить вероятность спора с фискалом."
+    },
+    {
+      "question": "Какие документы особенно важны при подтверждении добросовестного списания долга?",
+      "answer": "Протоколы торгов, акты реализации имущества, правильно оформленные мировые соглашения и расчёты стоимости встречных обязательств - всё это помогает подтвердить добросовестность списания и уменьшить риск оспаривания."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Юридические и налоговые утверждения в тексте согласованы с research.safe_phrasings: порог для возбуждения банкротства юрлица - 2 000 000 руб.; формулировки о конкурсной массе, риске субсидиарной ответственности и необходимости сверки с НК РФ и разъяснениями ФНС приведены по safe_phrasing.",
+    "Факты с конкретными цифрами и ссылками (порог 2 000 000 руб., исполнительский сбор 7%) взяты из research.json и помечены проверенными или оформлены в обтекаемой форме в соответствии с заметками о needs_verification.",
+    "Текст избегает категоричных утверждений, для которых в research указаны факты needs_verification: подробные ссылки на конкретные статьи НК РФ и практику ФНС отмечены как требующие дополнительной верификации при необходимости консультации."
+  ],
+  "keyword_density_main": 0.012,
+  "main_keyword_exact_count": 2,
+  "text_chars": 6260,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.12,
+  "local_spam_ngram3_repeat": 0.049,
+  "local_lexical_diversity": 0.571,
+  "local_ai_markers_density": 0.36,
+  "local_ai_markers_critical": 0,
+  "length_status": "warn",
+  "length_kind": "default",
+  "local_ai_markers_total": 3,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 0,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "ready_for_review": true,
+  "ready_at": null,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1781701778/articles/_mig-proshchenie-dolga-pri-bankrotstve-yurlica-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1781701778/articles/_mig-proshchenie-dolga-pri-bankrotstve-yurlica-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Editorial photograph of a lawyer's desk by a tall window, camera at table-eye level with a slight three-quarter angle; on the walnut surface arranged for a corporate bankruptcy advisory scene: a closed leather portfolio with a tied stack of unmarked corporate papers peeking at its edge, a polished round company seal placed prominently on a leather blotter, a fountain pen poised on a heavy legal folio, a closed laptop with brushed aluminum lid slightly ajar, a pair of reading glasses folded beside them, an antique pocket watch suggesting time-sensitive tax deadlines. Lighting: cool window daylight balanced with a warm brass desk lamp glow. Mood: sober, advisory, weighing tax risks and debt-forgiveness consequences.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-06-17T13:09:39Z",
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "spam_risk: 4 флагов (top1_count>12 (=15, лемма «списан»), top3_sum>30 (=31), top10_share>0.115 (=0.12), lexical_diversity<0.58 (=0.571)), top-5: ['списан', 'долг', 'налогов', 'обязательств', 'может']",
+    "targeted_tokens_over_limit: руб_сокращение=1(>≤0)",
+    "author_markers_missing: 0 < 2",
+    "too_few_short_sentences: 4 < 12"
+  ],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 62,
+  "predicted_ai_pct": 11,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность заметно выше 50% (~62%)",
+    "AI-detector чуть выше 10% (~11%)"
+  ]
+}

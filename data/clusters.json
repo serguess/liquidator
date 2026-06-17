@@ -5658,6 +5658,27 @@
       "articles": [
         "beneficiarnyj-sobstvennik-subsidiarnaya-otvetstvennost"
       ]
+    },
+    {
+      "id": "vzysk-osago-underpayment",
+      "category": "vzysk",
+      "subtopic": "взыскание недоплаты страхового возмещения по ОСАГО со страховщика",
+      "intent": "informational",
+      "funnel_stage": "warm",
+      "main_keyword": "взыскание страховой выплаты по ОСАГО",
+      "related_keywords": [
+        "недоплата по ОСАГО что делать",
+        "страховая занизила выплату ОСАГО",
+        "независимая экспертиза ОСАГО",
+        "претензия в страховую по ОСАГО",
+        "финансовый уполномоченный ОСАГО",
+        "неустойка по ОСАГО",
+        "иск к страховой компании ОСАГО",
+        "разница между выплатой и ущербом ОСАГО"
+      ],
+      "articles": [
+        "vzyskanie-strahovogo-vozmeshcheniya-osago"
+      ]
     }
   ]
 }

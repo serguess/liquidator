@@ -1,0 +1,94 @@
+{
+  "slug": "nalogovyj-vychet-posle-bankrotstva-fizlica",
+  "category": "fiz",
+  "title": "Налоговый вычет после банкротства: можно ли вернуть",
+  "description": "Разбираем, сохраняется ли право на налоговый вычет после завершения процедуры банкротства физлица, какие вычеты можно вернуть, какие документы нужны и в какой срок подавать заявление в налоговую.",
+  "h1": "Налоговый вычет после банкротства: можно ли вернуть и как действовать",
+  "lead": "Право на налоговый вычет после закрытия дела о банкротстве не исчезает само по себе: важно наличие подтверждённых расходов и налогооблагаемой базы, а порядок возврата может потребовать согласования с ФНС и арбитражным управляющим.",
+  "topic_action": "получение налогового вычета после банкротства",
+  "breadcrumb_current": "Налоговый вычет после банкротства",
+  "og_image": "/assets/articles/nalogovyj-vychet-posle-bankrotstva-fizlica.jpg",
+  "main_keyword": "налоговый вычет после банкротства",
+  "secondary_keywords": [
+    "возврат налога после банкротства",
+    "можно ли получить налоговый вычет после банкротства",
+    "налоговый вычет при банкротстве физлица",
+    "подать декларацию после банкротства",
+    "имущественный налоговый вычет после банкротства",
+    "социальный налоговый вычет после банкротства",
+    "сроки возврата налога после банкротства",
+    "документы для вычета после банкротства",
+    "налоговая декларация 3-НДФЛ после банкротства"
+  ],
+  "internal_links": [],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/c2c8c81ee8e4bd843286b08b10607f00ec6ae073/",
+    "https://www.garant.ru/news/1919895/"
+  ],
+  "faq": [
+    {
+      "question": "Можно ли подать декларацию 3‑НДФЛ и получить вычет, если расходы были до начала дела о банкротстве?",
+      "answer": "Да. Сам факт, что расходы имели место до процедуры, не лишает права на вычет. Главное - есть ли сейчас налогооблагаемый доход и подтверждающие бумаги. Если сумма не заявлена в реестре требований, стандартный путь через декларацию возможен."
+    },
+    {
+      "question": "Что делать, если сумма включена в реестр требований кредиторов?",
+      "answer": "Нужно уточнить у арбитражного управляющего и в инспекции, на каких основаниях она признана требованием. В ряде ситуаций выплата идёт через конкурсную процедуру, а не напрямую через возврат по декларации."
+    },
+    {
+      "question": "Какие бумаги нужны для имущественного вычета после завершения банкротства?",
+      "answer": "Обычно это договор купли‑продажи, платёжные поручения или квитанции, акты приёма‑передачи, справки о доходах и документ, подтверждающий завершение процедуры банкротства (решение суда). Точный список зависит от вида вычета и практики вашей инспекции."
+    },
+    {
+      "question": "Можно ли рассчитывать на зачёт в будущие периоды, если сейчас нет дохода?",
+      "answer": "Да. Если налогооблагаемой базы сейчас нет, ФНС может зачесть сумму к будущим обязательствам. Это распространённый вариант при временной безработице."
+    },
+    {
+      "question": "Куда обращаться при отказе ФНС в возврате налога после банкротства?",
+      "answer": "Сначала в территориальную инспекцию с запросом о мотивации отказа и перечнем недостающих бумаг. При неудовлетворительном ответе можно обратиться к налоговому консультанту для оценки дальнейших шагов."
+    },
+    {
+      "question": "Сколько времени занимает проверка заявления на возврат НДФЛ в типичной ситуации?",
+      "answer": "Сроки сильно варьируются. Они зависят от сложности дела и от того, требует ли ситуация взаимодействия с арбитражным управляющим. Уточняйте сроки в вашей инспекции."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Ключевые утверждения сверены с research.json. Для утверждений без прямой привязки к конкретным статьям использовано безопасное обрамление из safe_phrasing.",
+    "Формулировки о сохранении права на вычет и о возможностях возврата переплаты приведены в обтекаемой форме (safe_phrasing f1, f2, f3).",
+    "Указание размера прожиточного минимума (20 644 руб.) оставлено как контекст и основано на верифицированном факте (f7, last_verified 2026-06-17, legislation_status: active).",
+    "Требование: при спорных ситуациях рекомендуем проверять конкретные нормы НК РФ и практику ФНС - это отражено в содержании и в обязательных дисклеймерах."
+  ],
+  "keyword_density_main": 0.015,
+  "main_keyword_exact_count": 2,
+  "text_chars": 6136,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.133,
+  "local_spam_ngram3_repeat": 0.017,
+  "local_lexical_diversity": 0.584,
+  "local_ai_markers_density": 0.61,
+  "local_ai_markers_critical": 0,
+  "length_status": "warn",
+  "length_kind": "default",
+  "local_ai_markers_total": 5,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 2,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": false,
+  "quality_gate_blockers": [
+    "spam_risk: 2 флагов (top3_sum>30 (=32), top10_share>0.115 (=0.133)), top-5: ['вычет', 'банкротств', 'доход', 'налогов', 'процедур']"
+  ],
+  "quality_gate_retry_count": 1,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1781700935/articles/_mig-nalogovyj-vychet-posle-bankrotstva-fizlica-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1781700935/articles/_mig-nalogovyj-vychet-posle-bankrotstva-fizlica-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Wide cinematic photograph of a spacious official room — high ceilings, tall arched windows with soft late-afternoon light, marble floors and paneled walls; center of frame a long polished table with a closed dark leather portfolio and a neat stack of closed dossiers tied with cord, a fountain pen placed diagonally across the portfolio, an antique pocket watch slightly ajar hinting at elapsed time, a polished round seal pushed subtly to the side; camera symmetric three-quarter, eye-level; lighting: warm window glow casting long soft shadows; palette: warm cream, walnut and brass accents; mood: measured, procedural, reassuring guidance about reclaiming tax deductions after bankruptcy.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-06-17T12:55:36Z",
+  "predicted_spam_pct": 60,
+  "predicted_ai_pct": 5,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность заметно выше 50% (~60%)"
+  ]
+}

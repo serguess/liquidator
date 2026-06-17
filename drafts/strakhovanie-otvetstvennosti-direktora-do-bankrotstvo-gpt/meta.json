@@ -1,0 +1,94 @@
+{
+  "slug": "strakhovanie-otvetstvennosti-direktora-do-bankrotstvo",
+  "category": "yur",
+  "title": "Страхование ответственности директора при банкротстве",
+  "description": "Обзор полисов D&O: какие риски покрываются при банкротстве компании, как выбирают лимиты, исключения и порядок оформления страхования ответственности директора.",
+  "h1": "Страхование ответственности директора в случае банкротства: что покрывает и как оформить",
+  "lead": "Рассказываем, какие риски покрывают полисы D&O при банкротстве компании, чего от них ожидать и на какие пункты договора обратить внимание прямо при расчетах.",
+  "topic_action": "расчёт стоимости страхования ответственности директора",
+  "breadcrumb_current": "Страхование директора",
+  "og_image": "/assets/articles/strakhovanie-otvetstvennosti-direktora-do-bankrotstvo.jpg",
+  "main_keyword": "страхование ответственности директора",
+  "secondary_keywords": [
+    "страхование D&O",
+    "полис ответственности директора при банкротстве",
+    "страхование директоров и руководителей",
+    "что покрывает D&O страхование",
+    "исключения в полисе D&O",
+    "лимиты ответственности страхование директора",
+    "как оформить страхование директора",
+    "страхование рисков при банкротстве компании",
+    "страхование против исков кредиторов",
+    "страхование гражданско-правовой ответственности директора"
+  ],
+  "internal_links": [],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/b919efeffaee7c5a42d9c3d755951599d9b55288/",
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/c2c8c81ee8e4bd843286b08b10607f00ec6ae073/"
+  ],
+  "faq": [
+    {
+      "question": "Можно ли рассчитывать, что D&O покроет регрессный иск конкурсного управляющего?",
+      "answer": "Гарантий нет. Покрытие зависит от формулировок договора и предмета иска: если возмещение относится к имуществу должника или компенсирует ущерб, включённый в реестр, управляющий и суд могут претендовать на него. Решение зависит от конкретных фактов и квалификации выплаты."
+    },
+    {
+      "question": "Какие формулировки исключают покрытие умышленных действий?",
+      "answer": "Чаще используются формулировки «умышленные противоправные действия», «мошенничество», «действия с личной выгодой». Ключевой момент - критерии доказывания умысла в конкретном полисе."
+    },
+    {
+      "question": "Сколько обычно выделяют лимита и отдельно на расходы на защиту?",
+      "answer": "Практика варьируется, но отдельный лимит на расходы на защиту часто составляет порядка 10-25% от общего лимита; точные пропорции обсуждаются с брокером и зависят от рисков дела."
+    },
+    {
+      "question": "Что делать, если страховщик оспаривает выплату как часть конкурсной массы?",
+      "answer": "Фиксируйте документы, привлекайте брокера и адвоката, собирайте доказательства и при необходимости обращайтесь в суд. Собранная переписка, сроки уведомлений и подтверждение характера убытка играют важную роль."
+    },
+    {
+      "question": "Нужно ли согласовывать полис с юридической командой до подписания?",
+      "answer": "Да. Правки в формулировках и исключениях - ключ к тому, чтобы покрытие реально работало. Без юридической проверки риски отказа выше."
+    },
+    {
+      "question": "Можно ли застраховать бывшего руководителя от претензий после банкротства компании?",
+      "answer": "Часто да, но это зависит от условий и даты наступления события. Договор может содержать ретроактивные оговорки или положения для бывших руководителей; проверяйте конкретный текст полиса."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Ключевые юридические утверждения сверены с research.json (facts f1-f6). Источники: положения 127‑ФЗ (ст. 213.25; ст. 213.28) и постановление КС РФ №15‑П: last_verified 2026-06-17, legislation_status: active.",
+    "Утверждение о практических исключениях D&O (f7) оформлено безопасно: использовано обтекаемое «как правило» и рекомендация проверять конкретный полис (research.fact_gaps отмечает отсутствие стандартизированного перечня).",
+    "Формулировки о возможности предъявления регрессных требований, включении выплат в конкурсную массу и о ненагрузке полиса на уголовную ответственность соответствуют safe_phrasing из research.json."
+  ],
+  "keyword_density_main": 0.015,
+  "main_keyword_exact_count": 2,
+  "text_chars": 7226,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.116,
+  "local_spam_ngram3_repeat": 0.04,
+  "local_lexical_diversity": 0.553,
+  "local_ai_markers_density": 0.54,
+  "local_ai_markers_critical": 0,
+  "length_status": "ok",
+  "length_kind": "default",
+  "local_ai_markers_total": 5,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 3,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": false,
+  "quality_gate_blockers": [
+    "spam_risk: 2 флагов (top10_share>0.115 (=0.116), lexical_diversity<0.58 (=0.553)), top-5: ['защит', 'может', 'покрыт', 'риск', 'лимит']"
+  ],
+  "quality_gate_retry_count": 1,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1781702068/articles/_mig-strakhovanie-otvetstvennosti-direktora-do-bankrotstvo-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1781702068/articles/_mig-strakhovanie-otvetstvennosti-direktora-do-bankrotstvo-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Low-key photograph of a dark wood-paneled private office nook illuminated by a single warm pool of brass-lamp light on a leather-topped desk; foreground composition includes a polished brass round company seal slightly off-center, a closed oxblood leather-bound diary with a fountain pen on a silver stand laid across it, a closed law book with embossed gilt spine stacked beneath an antique pocket watch on a short chain, reading glasses folded beside them, camera three-quarter angle at eye-level, shallow depth of field isolating the objects, lighting warm tungsten pool with deep ambient shadows, palette oxblood, walnut, aged brass, mood confidential, deliberative, protective.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-06-17T13:14:29Z",
+  "predicted_spam_pct": 62,
+  "predicted_ai_pct": 5,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность заметно выше 50% (~62%)"
+  ]
+}

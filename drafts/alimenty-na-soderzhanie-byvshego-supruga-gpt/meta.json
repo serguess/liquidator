@@ -1,0 +1,93 @@
+{
+  "slug": "alimenty-na-soderzhanie-byvshego-supruga",
+  "category": "vzysk",
+  "title": "Алименты на содержание бывшего супруга: основания и расчет",
+  "description": "Разъясняем, при каких обстоятельствах суд может обязать платить алименты бывшему супругу, кто имеет право на содержание, какие факторы учитываются при расчете и как оспорить требование.",
+  "h1": "Алименты на содержание бывшего супруга: основания, кто имеет право и как определяется размер",
+  "lead": "Разбираем, при каких обстоятельствах суд может назначить алименты бывшему супругу, какие доказательства нужны и какие ограничения действуют при удержаниях из доходов.",
+  "topic_action": "взыскание алиментов на содержание бывшего супруга",
+  "breadcrumb_current": "Алименты на содержание бывшего супруга",
+  "og_image": "/assets/articles/alimenty-na-soderzhanie-byvshego-supruga.jpg",
+  "main_keyword": "алименты на содержание бывшего супруга",
+  "secondary_keywords": [
+    "алименты бывшему супругу",
+    "алименты на содержание супруги после развода",
+    "порядок взыскания алиментов с бывшего супруга",
+    "как рассчитываются алименты на содержание бывшего супруга",
+    "основания для назначения алиментов супругу",
+    "сроки выплаты алиментов бывшему супругу",
+    "алименты и доход плательщика",
+    "как оспорить размер алиментов"
+  ],
+  "internal_links": [],
+  "external_links": [
+    "ФЗ-229 \"Об исполнительном производстве\" (ст. 99, ст. 101)",
+    "Семейный кодекс РФ (положения об алиментах) - см. специализированные правовые базы"
+  ],
+  "faq": [
+    {
+      "question": "Можно ли получить алименты, если у бывшего низкий доход?",
+      "answer": "Да, можно просить суд о содержании, но решение будет зависеть от сравнения нужд истца и возможностей плательщика: при отсутствии средств суд может отказать или назначить минимальную сумму."
+    },
+    {
+      "question": "Какие бумаги обычно требуются суду, чтобы доказать нуждаемость?",
+      "answer": "Обычно суд просит справки о доходах, банковские выписки, медсправки, чеки на лечение и квитанции; набор документов подбирается по конкретике дела."
+    },
+    {
+      "question": "Какие выплаты нельзя удерживать у должника по исполнительному производству?",
+      "answer": "Определённые социальные и компенсационные выплаты не подлежат удержанию (перечень указан в ст. 101 ФЗ-229): среди них - пособия по рождению и уходу за ребёнком до 1,5 лет, материнский капитал, компенсации за вред здоровью и другие."
+    },
+    {
+      "question": "Как действовать, если с вашей зарплаты удержали больше, чем разрешено?",
+      "answer": "Сначала запросите расчёт у работодателя или банка, затем подайте жалобу старшему судебному приставу; при отказе или игнорировании - обжалуйте действия приставов в суде; ошибочно удержанные суммы подлежат возврату."
+    },
+    {
+      "question": "Влияет ли банкротство плательщика на возможность взыскания алиментов?",
+      "answer": "Взаимодействие исполнительного производства и процедуры банкротства влияет на порядок удовлетворения требований; при банкротстве важно проверить статус требования в деле о несостоятельности и скорректировать стратегию взыскания."
+    },
+    {
+      "question": "Нужно ли утверждать соглашение об алиментах в суде, чтобы затем обратиться к приставам?",
+      "answer": "Соглашение об уплате алиментов может служить основанием для исполнительного документа при надлежащем оформлении; точные требования к оформлению и процедуре утверждения требуют проверки в соответствующих нормах."
+    }
+  ],
+  "factcheck_passed": false,
+  "factcheck_notes": [
+    "В research.json выявлены пробелы по конкретным статьям Семейного кодекса и по точным правилам утверждения соглашений об алиментах: требуется верификация номеров и текстов норм (fact_gaps).",
+    "Утверждения о порядке взаимодействия исполнительного производства и банкротства отмечены как needing verification: необходимо сверить конкретные статьи 127-ФЗ и практику включения требований в реестр кредиторов.",
+    "Текст использует безопасные формулировки для разделов, где в research указана необходимость дополнительной проверки (соглашения об алиментах, критерии расчёта и взаимодействие с банкротством)."
+  ],
+  "keyword_density_main": 0.01,
+  "main_keyword_exact_count": 2,
+  "text_chars": 6997,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.124,
+  "local_spam_ngram3_repeat": 0.061,
+  "local_lexical_diversity": 0.6,
+  "local_ai_markers_density": 0.33,
+  "local_ai_markers_critical": 0,
+  "length_status": "ok",
+  "length_kind": "default",
+  "local_ai_markers_total": 3,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 2,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": false,
+  "quality_gate_blockers": [
+    "spam_risk: 2 флагов (top10_share>0.115 (=0.124), ngram3_repeat_share>0.055 (=0.061)), top-5: ['взыскан', 'супруг', 'алимент', 'содержан', 'требований']",
+    "too_few_short_sentences: 7 < 12"
+  ],
+  "quality_gate_retry_count": 1,
+  "predicted_spam_pct": 57,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность выше 50% (~57%)"
+  ],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1781702937/articles/_mig-alimenty-na-soderzhanie-byvshego-supruga-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1781702937/articles/_mig-alimenty-na-soderzhanie-byvshego-supruga-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Exterior close-up photograph of a massive stone government building emphasizing textured limestone façade and dramatic chisel marks, extreme low-angle perspective rising past tall fluted pilasters toward a carved emblem (no readable text), foreground at the base of the steps: a closed dark leather portfolio placed slightly left, a neatly bound stack of dossiers tied with cord centered on a stone step, and a folded black umbrella leaning against the balustrade; camera: diagonal low-angle to emphasize monumentality; lighting: hard side-light creating deep cast shadows across the stone and long parallel lines; palette: warm sandstone and cool grey-blue shadows; mood: weighty, procedural authority and the gravity of enforcement of maintenance obligations.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-06-17T13:28:58Z"
+}

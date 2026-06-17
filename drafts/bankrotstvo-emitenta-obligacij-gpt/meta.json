@@ -1,0 +1,97 @@
+{
+  "slug": "bankrotstvo-emitenta-obligacij",
+  "category": "yur",
+  "title": "Банкротство эмитента облигаций: права держателей и порядок действий",
+  "description": "Что происходит с облигациями при банкротстве эмитента, какие права есть у держателей, как заявлять требования, в каких очередях рассчитывают кредиторов и какие меры защиты доступны.",
+  "h1": "Банкротство эмитента облигаций: права и защита держателей",
+  "lead": "После задержки купонов главное - действовать: держатели облигаций должны заявить требования в реестр кредиторов и оперативно собрать документы, чтобы сохранить шансы на взыскание основного долга и купонов.",
+  "topic_action": "защиту прав держателей облигаций",
+  "breadcrumb_current": "Права держателей облигаций",
+  "og_image": "/assets/articles/bankrotstvo-emitenta-obligacij.jpg",
+  "main_keyword": "банкротство эмитента облигаций права держателей",
+  "secondary_keywords": [
+    "права держателей облигаций при банкротстве",
+    "как заявить требование облигационера",
+    "очередность расчётов по облигациям",
+    "конверсия облигаций в акции при банкротстве",
+    "выкуп облигаций эмитентом при несостоятельности",
+    "кто выплачивает купон при банкротстве эмитента",
+    "порядок включения в реестр требований кредиторов",
+    "коллективный иск держателей облигаций",
+    "обеспеченные и необеспеченные облигации при банкротстве"
+  ],
+  "internal_links": [],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/",
+    "https://www.garant.ru/products/ipo/prime/doc/127_fz/"
+  ],
+  "faq": [
+    {
+      "question": "Что произойдёт с купонными выплатами после возбуждения дела о банкротстве эмитента?",
+      "answer": "Выплата купонов не гарантирована: суммы и очередность выплат зависят от включения требований в реестр, наличия имущества и статуса требований; держателям рекомендуется заявлять как основной долг, так и причитающиеся купонные начисления."
+    },
+    {
+      "question": "Как включить требование по облигациям в реестр требований кредиторов - какие документы нужны?",
+      "answer": "Нужно подать заявление и приложить доказательства: выписку из реестра владельцев облигаций, условия эмиссии, расчёты процентов и иные подтверждения прав. Конкретный набор бумаг варьируется в зависимости от формы выпуска."
+    },
+    {
+      "question": "Имеют ли держатели обеспеченных облигаций преимущество перед необеспеченными при реализации имущества?",
+      "answer": "Если облигации обеспечены залогом или гарантией, такие держатели имеют преимущество: их требования реализуются за счёт предмета обеспечения; необеспеченные держатели участвуют в распределении выручки в порядке общей очереди."
+    },
+    {
+      "question": "Можно ли делегировать полномочия реестродержателю для подачи требований от имени всех держателей?",
+      "answer": "Это зависит от условий выпуска и оформленных мандатов. Без надлежащего мандата реестродержатель не всегда вправе действовать от имени всех; держатели могут назначать уполномоченного представителя или формировать комитет."
+    },
+    {
+      "question": "Какие правовые инструменты есть у держателей для оспаривания расчётов финансового управляющего?",
+      "answer": "Кредиторы вправе запрашивать отчёты управляющего и обжаловать расчёты в арбитражном суде в порядке, установленном процессуальным законодательством; действовать нужно оперативно, чтобы не пропустить процессуальные сроки."
+    },
+    {
+      "question": "Когда имеет смысл согласиться на реструктуризацию или конверсию облигаций?",
+      "answer": "Смысл есть, если у эмитента есть активы и перспективы восстановления, а предложенные условия сохраняют часть стоимости. Решение требует анализа предложенного плана, финансовых прогнозов эмитента и сравнения альтернатив."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Юридические утверждения сверены с research.json. Ключевые факты по природе требований держателей, обеспеченным и необеспеченным облигациям, порядку включения требований, очередности удовлетворения и роли финансового управляющего подтверждены (last_verified: 2026-06-17).",
+    "Утверждения о выплате купонов и механизмах коллективных исков оформлены по safe_phrasing из research.json: статус текущих купонных выплат и способы представительства требуют уточнения в конкретном случае, поэтому в тексте дана обтекаемая формулировка.",
+    "Запрещённые абсолютные гарантии и некорректные утверждения об автоматической конверсии облигаций удалены/избежаны."
+  ],
+  "keyword_density_main": 0.012,
+  "main_keyword_exact_count": 2,
+  "text_chars": 7110,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.14,
+  "local_spam_ngram3_repeat": 0.033,
+  "local_lexical_diversity": 0.556,
+  "local_ai_markers_density": 0.43,
+  "local_ai_markers_critical": 0,
+  "length_status": "ok",
+  "length_kind": "default",
+  "local_ai_markers_total": 4,
+  "local_ai_markers_high": 1,
+  "local_own_voice_hits": 0,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": false,
+  "quality_gate_blockers": [
+    "spam_risk: 5 флагов (top1_count>12 (=13, лемма «держател»), top3_sum>30 (=34), top10_sum>80 (=94), top10_share>0.115 (=0.14), lexical_diversity<0.58 (=0.556)), top-5: ['держател', 'кредитор', 'расчет', 'реестр', 'выпуск']",
+    "author_markers_missing: 0 < 2",
+    "too_few_short_sentences: 7 < 12"
+  ],
+  "ready_for_review": true,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1781702369/articles/_mig-bankrotstvo-emitenta-obligacij-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1781702369/articles/_mig-bankrotstvo-emitenta-obligacij-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Studio close-up of a single iconic cluster on a clean matte graphite background: balanced brass scales of justice slightly left-of-center, a polished round company seal resting on a closed leather case folder stacked to the right, a small neat stack of brass keys placed near the folder, and a sand-filled brass hourglass mid-flow in the foreground; soft directional studio light from upper-left creating gentle rim highlights and subtle shadows, tight three-quarter angle, hyperrealistic product-photography polish, premium neutral palette with warm brass accents, mood: legal authority and procedural urgency for bondholders asserting their rights.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-06-17T13:19:30Z",
+  "quality_gate_retry_count": 1,
+  "predicted_spam_pct": 60,
+  "predicted_ai_pct": 11,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность заметно выше 50% (~60%)",
+    "AI-detector чуть выше 10% (~11%)"
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "slug": "prodat-dolg-kollektoram-usloviya-i-cena",
+  "category": "vzysk",
+  "title": "Когда выгодно продать долг коллекторам: цена и условия",
+  "description": "Разбираем, в каких случаях выгодно продавать долг коллекторам, как формируется цена выкупа, какие риски и документы нужны, чтобы принять правильное решение.",
+  "h1": "Когда выгодно продать долг коллекторам: условия и расчёт цены",
+  "lead": "Продажа долга коллекторам имеет смысл, когда важна ликвидность и самостоятельное взыскание займет больше времени и ресурсов - разберём, как формируется цена выкупа и какие риски учитывать.",
+  "topic_action": "расчёт стоимости выкупа долга",
+  "breadcrumb_current": "Продажа долга коллекторам",
+  "og_image": "/assets/articles/prodat-dolg-kollektoram-usloviya-i-cena.jpg",
+  "main_keyword": "продать долг коллекторам",
+  "secondary_keywords": [
+    "сколько дают за долг коллекторам",
+    "как продать задолженность коллекторам",
+    "выкуп долгов условия",
+    "оценка долга для продажи",
+    "порядок продажи долга коллекторам",
+    "продажа долгов юридическим лицом",
+    "договор продажи долга образец",
+    "риски при продаже долгов коллекторской компании"
+  ],
+  "internal_links": [],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/c2c8c81ee8e4bd843286b08b10607f00ec6ae073/",
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/c48290d39215783e73f0899bb1026b14cb221eff/"
+  ],
+  "faq": [
+    {
+      "question": "Можно ли продать долг без согласия должника?",
+      "answer": "Уступка требования - это договор между продавцом и покупателем; как правило, для перехода права достаточно договора уступки и уведомления должника, а согласие должника обычно не требуется, если иное не предусмотрено исходным договором. Рекомендуем проверить исходные условия контракта перед сделкой."
+    },
+    {
+      "question": "Как наличие исполнительного листа влияет на цену выкупа?",
+      "answer": "Исполнительный лист и возбужденное исполнительное производство обычно повышают шансы на получение средств и делают требование дороже для покупателя, но одновременно добавляют сопутствующие расходы и риски, которые учитываются в дисконте."
+    },
+    {
+      "question": "Какие документы покупатель обычно потребует при сделке?",
+      "answer": "Обычно требуют договор уступки, документы, подтверждающие основание требования (договоры, акты, счета), копии исполнительных документов при их наличии, расчёты задолженности и документы о полномочиях сторон; точный набор зависит от практики покупателя."
+    },
+    {
+      "question": "Что проверять в репутации покупателя долга?",
+      "answer": "Проверяйте практику взыскания, порядок расчётов и выплаты, соблюдение требований по персональным данным и отзывы контрагентов. Репутация покупателя влияет на коммерческие и репутационные риски продавца."
+    },
+    {
+      "question": "Нужно ли учитывать удержания из дохода должника при оценке цены?",
+      "answer": "Да. В модели доходности покупателя важно учитывать пределы удержаний из доходов должника (как правило, до 50% после НДФЛ; повышенный предел применяется по отдельным основаниям), это снижает реальный поток средств и влияет на скидку."
+    },
+    {
+      "question": "Какие налоговые последствия может повлечь продажа долга?",
+      "answer": "Налоговые последствия зависят от статуса сторон и условий отражения операции в бухгалтерии: продажа долга может привести к признанию дохода или убытка у продавца и повлиять на НДС/налог на прибыль. Затронутые детали стоит согласовать с налоговым консультантом."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Юридические выводы о природе уступки требования сформулированы в нейтральной форме согласно safe_phrasing из research.json: указано, что обычно достаточно договора и уведомления должника, и рекомендовано проверить исходный договор и ГК РФ.",
+    "Упоминание лимита приказного (500 000 руб.) и исполнительского сбора (7%) согласовано с фактами в research.json (f5 и f7), которые имеют статус active и были верифицированы.",
+    "Факты о порядке проверки покупателя, наборе документов, формировании дисконта и рисках сведены к безопасным формулировкам из research.safe_phrasings; спорные или налоговые детали отмечены рекомендацией обратиться к юристу/налоговому консультанту.",
+    "Запрещённые утверждения (гарантия взыскания, абсолютная выгода продажи и т.п.) не использованы, текст избегает категоричных гарантий в духе forbidden_claims."
+  ],
+  "keyword_density_main": 0.01,
+  "main_keyword_exact_count": 2,
+  "text_chars": 6974,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.119,
+  "local_spam_ngram3_repeat": 0.036,
+  "local_lexical_diversity": 0.558,
+  "local_ai_markers_density": 0.23,
+  "local_ai_markers_critical": 0,
+  "length_status": "ok",
+  "length_kind": "default",
+  "local_ai_markers_total": 2,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 1,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": false,
+  "quality_gate_blockers": [
+    "spam_risk: 2 флагов (top10_share>0.115 (=0.119), lexical_diversity<0.58 (=0.558)), top-5: ['взыскан', 'покупател', 'риск', 'расход', 'документ']",
+    "targeted_tokens_over_limit: руб_сокращение=1(>≤0)",
+    "author_markers_missing: 1 < 2",
+    "too_few_short_sentences: 6 < 12"
+  ],
+  "quality_gate_retry_count": 1,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1781703237/articles/_mig-prodat-dolg-kollektoram-usloviya-i-cena-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1781703237/articles/_mig-prodat-dolg-kollektoram-usloviya-i-cena-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Photograph of a massive ornate official door and marble steps at the threshold of a government building, partial diagonal low-angle crop emphasizing heavy bronze-bound wood and carved stone surround; foreground on the lower left: a closed weathered leather briefcase placed on the top step, a neat stack of three bound documents tied with cord beside it, and a folded black umbrella leaning against the doorframe. Camera: slight low-angle three-quarter. Lighting: cool morning daylight with long side shadows and warm rim-light on bronze fittings. Mood: transactional, formal, decision-point about selling debt.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-06-17T13:33:58Z",
+  "predicted_spam_pct": 62,
+  "predicted_ai_pct": 6,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность заметно выше 50% (~62%)"
+  ]
+}

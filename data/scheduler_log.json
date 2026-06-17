@@ -14577,5 +14577,1185 @@
       }
     },
     "metrics": null
+  },
+  {
+    "timestamp": "2026-06-05T19:36:16",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets Jun 8, 9pm (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-05T22:00:10",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets Jun 8, 9pm (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-06T00:24:21",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets Jun 8, 9pm (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-06T02:48:10",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets Jun 8, 9pm (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-06T05:12:15",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets Jun 8, 9pm (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-06T07:36:08",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets Jun 8, 9pm (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-06T08:30:23",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets Jun 8, 9pm (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-06T08:30:25",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets Jun 8, 9pm (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-06T08:30:27",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets Jun 8, 9pm (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-06T08:30:29",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets Jun 8, 9pm (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-06T08:30:31",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets Jun 8, 9pm (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-06T08:30:33",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets Jun 8, 9pm (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-06T08:30:35",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets Jun 8, 9pm (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-06T10:00:05",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets Jun 8, 9pm (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-06T12:24:08",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets Jun 8, 9pm (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-06T14:48:20",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets Jun 8, 9pm (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-06T17:12:00",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets Jun 8, 9pm (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-06T19:36:22",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets Jun 8, 9pm (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-06T22:00:01",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets Jun 8, 9pm (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-07T00:24:22",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets Jun 8, 9pm (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-07T02:48:25",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets Jun 8, 9pm (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-07T05:12:09",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets Jun 8, 9pm (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-07T07:36:12",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets Jun 8, 9pm (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-07T08:30:37",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets Jun 8, 9pm (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-07T08:30:41",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets Jun 8, 9pm (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-07T08:30:43",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets Jun 8, 9pm (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-07T08:30:45",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets Jun 8, 9pm (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-07T08:30:47",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets Jun 8, 9pm (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-07T08:30:49",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets Jun 8, 9pm (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-07T08:30:51",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets Jun 8, 9pm (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-07T08:30:53",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets Jun 8, 9pm (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-07T08:30:55",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets Jun 8, 9pm (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-07T08:30:57",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets Jun 8, 9pm (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-07T10:00:01",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets Jun 8, 9pm (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-07T12:24:06",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets Jun 8, 9pm (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-07T14:48:06",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets Jun 8, 9pm (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-07T17:12:22",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets Jun 8, 9pm (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-07T19:36:20",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets Jun 8, 9pm (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-07T22:00:07",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets 9pm (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-08T00:24:01",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets 9pm (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-08T02:48:20",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets 9pm (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-08T05:12:23",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets 9pm (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-08T07:36:25",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets 9pm (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-08T08:30:02",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets 9pm (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-08T08:30:04",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets 9pm (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-08T08:30:06",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets 9pm (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-08T08:30:08",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets 9pm (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-08T08:30:10",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets 9pm (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-08T08:30:12",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets 9pm (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-08T08:30:14",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets 9pm (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-08T08:30:17",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets 9pm (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-08T08:30:19",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets 9pm (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-08T08:30:21",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets 9pm (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-08T10:00:13",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets 9pm (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-08T12:24:04",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets 9pm (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-08T14:48:17",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets 9pm (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-08T17:12:17",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets 9pm (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-08T19:36:37",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-08T22:00:37",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-09T00:24:34",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-09T02:48:37",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-09T05:12:04",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-09T07:36:37",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-09T08:30:15",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-09T08:30:17",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-09T08:30:19",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-09T08:30:22",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-09T08:30:24",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-09T08:30:26",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-09T08:30:28",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-09T08:30:30",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-09T08:30:32",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-09T08:30:34",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-09T10:00:17",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-09T12:24:03",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-09T14:48:37",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-09T17:12:37",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-09T19:36:37",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-09T22:00:11",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-10T00:24:04",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-10T02:48:15",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-10T05:12:37",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-10T07:36:29",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-10T08:30:03",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-10T08:30:06",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-10T08:30:08",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-10T08:30:09",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-10T08:30:11",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-10T08:30:13",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-10T08:30:15",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-10T08:30:17",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-10T08:30:19",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-10T08:30:21",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-10T10:00:02",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-10T12:24:05",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-10T14:48:12",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-10T17:12:17",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-10T19:36:21",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-10T22:00:11",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-11T00:24:29",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-11T02:48:05",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-11T05:12:14",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-11T07:36:07",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-11T08:30:03",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-11T08:30:05",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-11T08:30:07",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-11T08:30:09",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-11T08:30:11",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-11T08:30:13",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-11T08:30:15",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-11T08:30:17",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-11T08:30:18",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-11T08:30:20",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-11T10:00:12",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-11T12:24:37",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-11T14:48:30",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-11T17:12:37",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-11T19:36:08",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-11T22:00:03",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-12T00:24:37",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-12T02:48:36",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-12T05:12:37",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-12T07:36:37",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-12T08:30:37",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-12T08:30:39",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-12T08:30:41",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-12T08:30:43",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-12T08:30:45",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-12T08:30:47",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-12T08:30:49",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-12T08:30:51",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-12T08:30:53",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-12T08:30:56",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-12T10:00:22",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-12T12:24:20",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-12T14:48:18",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-12T17:12:23",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-12T19:36:37",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-12T22:00:13",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-13T00:24:21",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-13T02:48:16",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-13T05:12:37",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-13T07:36:16",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-13T08:30:00",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-13T08:30:02",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-13T08:30:05",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-13T08:30:06",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-13T08:30:08",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-13T08:30:10",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-13T08:30:12",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-13T08:30:14",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-13T08:30:16",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-13T08:30:18",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-13T10:00:05",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-13T12:24:15",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-13T14:48:37",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-13T17:12:31",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-13T19:36:37",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-13T22:00:17",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-14T00:24:01",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-14T02:48:17",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-14T05:12:04",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-14T07:36:26",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-14T08:30:04",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-14T08:30:06",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-14T08:30:08",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-14T08:30:10",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-14T08:30:12",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-14T08:30:14",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-14T08:30:15",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-14T08:30:17",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-14T08:30:20",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-14T08:30:22",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-14T10:00:12",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-14T12:24:37",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-14T14:48:09",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-14T17:12:03",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-14T19:36:37",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-14T22:00:32",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-15T00:24:20",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-15T02:48:16",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-15T05:12:21",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-15T07:36:03",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-15T08:30:37",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-15T08:30:39",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-15T08:30:41",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-15T08:30:43",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-15T08:30:45",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-15T08:30:47",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-15T08:30:49",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-15T08:30:51",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-15T08:30:53",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-15T08:30:55",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-15T10:00:07",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-15T12:24:26",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-15T14:48:05",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-15T17:12:13",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-15T19:36:37",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-15T22:00:37",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-16T00:24:19",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-16T02:48:16",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-16T05:12:35",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-16T07:36:37",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-16T08:30:02",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-16T08:30:04",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-16T08:30:06",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-16T08:30:08",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-16T08:30:10",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-16T08:30:12",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-16T08:30:14",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-16T08:30:16",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-16T08:30:18",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-16T08:30:21",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-16T10:00:36",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-16T12:24:37",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-16T14:48:19",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-16T17:12:10",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-16T19:36:23",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-16T22:00:34",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-17T00:24:17",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-17T02:48:16",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-17T05:12:14",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-17T07:36:37",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-17T08:30:00",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-17T08:30:02",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-17T08:30:04",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-17T08:30:06",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-17T08:30:08",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-17T08:30:10",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-17T08:30:12",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-17T08:30:13",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-17T08:30:15",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-17T08:30:17",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-17T10:00:37",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-17T12:24:30",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
+  },
+  {
+    "timestamp": "2026-06-17T14:48:04",
+    "status": "preflight_failed",
+    "reason": "rc=1: Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access"
   }
 ]
