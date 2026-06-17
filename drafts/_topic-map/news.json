@@ -1,7 +1,7 @@
 {
   "category": "news",
   "category_label": "Новости",
-  "generated_at": "2026-05-09",
+  "generated_at": "2026-06-17",
   "topics": [
     {
       "id": "news-10",
@@ -1328,7 +1328,9 @@
       "topic_action": "оценить риск оспаривания сделки",
       "event_date": "2026-06-10",
       "news_zone": "vs_practice",
-      "primary_source": "https://vsrf.ru/appeals/doc/1234567"
+      "primary_source": "https://vsrf.ru/appeals/doc/1234567",
+      "status": "rejected",
+      "_rejected_reason": "url_unreachable_or_missing"
     },
     {
       "id": "news-44",
@@ -1359,7 +1361,9 @@
       "topic_action": "заказать анализ рисков покупки активов",
       "event_date": "2026-06-12",
       "news_zone": "vs_plenum",
-      "primary_source": "https://vsrf.ru/documents/plenum/7890123"
+      "primary_source": "https://vsrf.ru/documents/plenum/7890123",
+      "status": "rejected",
+      "_rejected_reason": "url_unreachable_or_missing"
     },
     {
       "id": "news-45",
@@ -1421,7 +1425,9 @@
       "topic_action": "защитить единственное жильё в суде",
       "event_date": "2026-06-08",
       "news_zone": "moratorium",
-      "primary_source": "https://www.kremlin.ru/regions/press/2026/06/08/region-moratorium"
+      "primary_source": "https://www.kremlin.ru/regions/press/2026/06/08/region-moratorium",
+      "status": "rejected",
+      "_rejected_reason": "url_unreachable_or_missing"
     },
     {
       "id": "news-47",
@@ -1452,7 +1458,9 @@
       "topic_action": "подать жалобу на коллекторов",
       "event_date": "2026-06-02",
       "news_zone": "initiative",
-      "primary_source": "https://sozd.duma.gov.ru/bill/987654"
+      "primary_source": "https://sozd.duma.gov.ru/bill/987654",
+      "status": "rejected",
+      "_rejected_reason": "url_unreachable_or_missing"
     },
     {
       "id": "news-48",
@@ -1483,7 +1491,9 @@
       "topic_action": "помочь снять блокировку счёта",
       "event_date": "2026-05-28",
       "news_zone": "finance",
-      "primary_source": "https://www.cbr.ru/press/event/2026/05/28/monitoring"
+      "primary_source": "https://www.cbr.ru/press/event/2026/05/28/monitoring",
+      "status": "rejected",
+      "_rejected_reason": "url_unreachable_or_missing"
     },
     {
       "id": "news-49",
@@ -1514,7 +1524,9 @@
       "topic_action": "оценить риск субсидиарной ответственности",
       "event_date": "2026-06-14",
       "news_zone": "vs_practice",
-      "primary_source": "https://vsrf.ru/press/obzor-subsidiarka-2026"
+      "primary_source": "https://vsrf.ru/press/obzor-subsidiarka-2026",
+      "status": "rejected",
+      "_rejected_reason": "url_unreachable_or_missing"
     },
     {
       "id": "news-50",
@@ -1545,7 +1557,9 @@
       "topic_action": "рассчитать госпошлину и подготовить оплату",
       "event_date": "2026-05-26",
       "news_zone": "legislation",
-      "primary_source": "https://pravosudie.gov.ru/news/2026/05/26/minyust-gosposhlina"
+      "primary_source": "https://pravosudie.gov.ru/news/2026/05/26/minyust-gosposhlina",
+      "status": "rejected",
+      "_rejected_reason": "url_unreachable_or_missing"
     },
     {
       "id": "news-51",
@@ -1576,7 +1590,164 @@
       "topic_action": "получить разъяснение по влиянию статистики на долг",
       "event_date": "2026-06-03",
       "news_zone": "finance",
-      "primary_source": "https://www.cbr.ru/statistics/press/2026/06/03/prosrochka"
+      "primary_source": "https://www.cbr.ru/statistics/press/2026/06/03/prosrochka",
+      "status": "rejected",
+      "_rejected_reason": "url_unreachable_or_missing"
+    },
+    {
+      "id": "news-52",
+      "slug": "verhovnyj-sud-razjasnil-peresmotr-bankrotstva",
+      "title": "ВС дал разъяснение о пересмотре дел о банкротстве судом",
+      "title_length": 55,
+      "description": "Коллегия по гражданским делам Верховного Суда разъяснила порядок пересмотра дел о банкротстве по вновь открывшимся обстоятельствам и указала практические критерии оценки доказательств и полномочий управляющего.",
+      "description_length": 210,
+      "h1": "ВС разъяснил порядок пересмотра дел о банкротстве в суде",
+      "main_keyword": "банкротство",
+      "main_keyword_density_target": "≤2.5%",
+      "secondary_keywords": [
+        "вновь открывшиеся обстоятельства",
+        "пересмотр решения",
+        "арбитражный управляющий",
+        "включение в реестр",
+        "оспаривание сделок",
+        "практика ВС"
+      ],
+      "intent": "информационный",
+      "funnel_stage": "осведомленность",
+      "article_type": "новость",
+      "offer": "proverka-spisaniya",
+      "frequency_estimate": 3200,
+      "rationale": "Официальное сообщение Верховного Суда содержит позицию по пересмотру решений в делах о банкротстве; релевантно для судов, управляющих и кредиторов. Источник: пресс-центр ВС, 2026-06-11.",
+      "expected_length_chars": 3400,
+      "client_notes": "",
+      "topic_action": "опубликовать новость и анализ практики",
+      "event_date": "2026-06-11",
+      "news_zone": "vs_practice",
+      "primary_source": "https://vsrf.ru/press_center/news/36000/"
+    },
+    {
+      "id": "news-53",
+      "slug": "rost-chisla-sudebnyh-bankrotstv-ip-v-1-kvartale",
+      "title": "Рост числа судебных банкротств индивидуальных предпринимателей",
+      "title_length": 62,
+      "description": "Федресурс и аналитики фиксируют рост числа судебных банкротств ИП; публикация освещает статистику за первый квартал и изменения в структуре заявителей, причины и последствия для малого бизнеса.",
+      "description_length": 193,
+      "h1": "Число судебных банкротств ИП показало рост в отчетном периоде",
+      "main_keyword": "банкротства ИП",
+      "main_keyword_density_target": "≤2.5%",
+      "secondary_keywords": [
+        "статистика банкротств",
+        "Федресурс",
+        "судебные процедуры",
+        "внесудебное банкротство",
+        "малый бизнес",
+        "кредиторы"
+      ],
+      "intent": "информационный",
+      "funnel_stage": "осведомленность",
+      "article_type": "новость",
+      "offer": "raschet-stoimosti",
+      "frequency_estimate": 2600,
+      "rationale": "Статистическая публикация Клерк.ру с ссылкой на данные Федресурса демонстрирует тренд роста судебных процедур в сегменте ИП; важно для предпринимателей и консультантов. Источник: Клерк, 2026-05-22.",
+      "expected_length_chars": 2800,
+      "client_notes": "",
+      "topic_action": "подготовить аналитический материал с комментариями экспертов",
+      "event_date": "2026-05-22",
+      "news_zone": "finance",
+      "primary_source": "https://www.klerk.ru/buh/news/692566/"
+    },
+    {
+      "id": "news-54",
+      "slug": "opredelenie-vs-otkaz-v-snizenii-neustojki-i-evfekt",
+      "title": "Определение ВС о снижении неустойки и последствия для кредиторов",
+      "title_length": 64,
+      "description": "Судебная коллегия по экономическим спорам разобрала эффект снижения неустойки по обязательствам поручителей и указала, что решение по поручителю не всегда влияет на обязательства основного должника в процедуре банкротства.",
+      "description_length": 222,
+      "h1": "Определение ВС о снижении неустойки не меняет ответственность основного должника",
+      "main_keyword": "неустойка банкротство",
+      "main_keyword_density_target": "≤2.5%",
+      "secondary_keywords": [
+        "поручительство",
+        "солидарная ответственность",
+        "ВС РФ",
+        "определение суда",
+        "взыскание неустойки",
+        "практика рассмотрения"
+      ],
+      "intent": "информационный",
+      "funnel_stage": "осведомленность",
+      "article_type": "новость",
+      "offer": "otmena-prikaza",
+      "frequency_estimate": 1800,
+      "rationale": "Определение СКЭС ВС с датой изготовления 2026-06-01 важно для кредиторов и поручителей; публикация доступна на ресурсе Garant с текстом решения.",
+      "expected_length_chars": 3000,
+      "client_notes": "",
+      "topic_action": "опубликовать разбор решения и практические выводы для кредиторов",
+      "event_date": "2026-06-01",
+      "news_zone": "vs_practice",
+      "primary_source": "https://www.garant.ru/products/ipo/prime/doc/414229679/"
+    },
+    {
+      "id": "news-55",
+      "slug": "opredelenie-vs-o-bankrotstve-kompanii-orakl-komp",
+      "title": "Определение ВС по делу о несостоятельности общества и выводы по реализации",
+      "title_length": 74,
+      "description": "Судебная коллегия по экономическим спорам приняла определение в обособленном споре по делу о несостоятельности общества-держателя активов; в тексте раскрыты позиции по формированию конкурсной массы и правам залоговых кредиторов.",
+      "description_length": 228,
+      "h1": "Определение ВС по делу о несостоятельности общества и особенности реализации активов",
+      "main_keyword": "несостоятельность юрлица",
+      "main_keyword_density_target": "≤2.5%",
+      "secondary_keywords": [
+        "реализация имущества",
+        "залоговые кредиторы",
+        "конкурсная масса",
+        "арбитражный суд",
+        "порядок торгов",
+        "правоприменение"
+      ],
+      "intent": "информационный",
+      "funnel_stage": "осведомленность",
+      "article_type": "новость",
+      "offer": "snyatie-aresta",
+      "frequency_estimate": 1500,
+      "rationale": "Определение СКЭС ВС от 2026-06-04 по делу о несостоятельности раскрывает позицию суда по ряду ключевых вопросов реализации имущества должника; документ опубликован на Garant.",
+      "expected_length_chars": 3600,
+      "client_notes": "",
+      "topic_action": "подготовить новостной обзор с выдержками из решения",
+      "event_date": "2026-06-04",
+      "news_zone": "vs_practice",
+      "primary_source": "https://www.garant.ru/products/ipo/prime/doc/414253359/"
+    },
+    {
+      "id": "news-56",
+      "slug": "postanovlenie-as-zapadno-sibirskogo-okruga-bankrotstvo",
+      "title": "Постановление суда округа по делу о несостоятельности и спорным вопросам",
+      "title_length": 72,
+      "description": "Арбитражный суд округа рассмотрел отчеты управляющего и ходатайства о завершении процедур реализации имущества гражданина-банкрота; документ содержит мотивировку отказов и указания по завершению процедур и включению требований в реестр.",
+      "description_length": 236,
+      "h1": "Постановление арбитражного суда округа по делу о несостоятельности и результаты рассмотрения",
+      "main_keyword": "постановление по банкротству",
+      "main_keyword_density_target": "≤2.5%",
+      "secondary_keywords": [
+        "арбитражный суд округа",
+        "завершение реализации",
+        "отчет управляющего",
+        "реестр требований",
+        "освобождение от обязательств",
+        "процедура банкротства"
+      ],
+      "intent": "информационный",
+      "funnel_stage": "осведомленность",
+      "article_type": "новость",
+      "offer": "snyatie-aresta",
+      "frequency_estimate": 900,
+      "rationale": "Постановление Арбитражного суда Западно-Сибирского округа опубликовано на портале Garant и касается завершения процедур реализации имущества и вопросов освобождения должника от обязательств; актуально для региональной практики.",
+      "expected_length_chars": 2500,
+      "client_notes": "",
+      "topic_action": "опубликовать краткий пересказ и практические выводы для участников процесса",
+      "event_date": "2026-06-10",
+      "news_zone": "vs_practice",
+      "primary_source": "https://base.garant.ru/38367126/"
     }
   ]
 }
