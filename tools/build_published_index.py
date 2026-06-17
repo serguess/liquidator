@@ -232,6 +232,11 @@ def build_index(include_drafts: bool = True) -> dict:
         for slug_dir in DRAFTS_DIR.iterdir():
             if not slug_dir.is_dir() or slug_dir.name.startswith("_"):
                 continue
+            # Превью-копии batch-прогона миграции (drafts/{slug}-gpt) не
+            # индексируем: они не публичны (404), а внутренние ссылки на них
+            # из новых статей вели бы в никуда. См. runner._is_preview_slug.
+            if slug_dir.name.endswith("-gpt"):
+                continue
             slug = slug_dir.name
             # Берём article-v2.html если есть, иначе article.html
             html_path = slug_dir / "article-v2.html"

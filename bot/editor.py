@@ -33,6 +33,11 @@ from .config import DRAFTS_DIR, PROJECT_ROOT
 
 log = logging.getLogger(__name__)
 
+# GPT-режим (миграция с Anthropic): правку применяет OpenAI gpt-5-mini через
+# migration/editor_gpt.py вместо `claude -p`. Включается ENV GPT_PIPELINE=true
+# (тем же флагом, что и scheduler). Откат = GPT_PIPELINE=false → claude-путь ниже.
+GPT_PIPELINE = os.getenv("GPT_PIPELINE", "false").lower() in ("1", "true", "yes")
+
 # Retry при exit!=0 (не timeout). Покрывает transient-ошибки claude CLI:
 # overloaded (529), rate-limit (429), конфликт двух параллельных claude при
 # активном scheduler (Max-план может отклонять вторую сессию). Часто 2-я
@@ -244,6 +249,15 @@ def apply_edit(*, slug: str, current_version: str, versions: list[str],
         versions         - список всех известных версий из state, для расчёта next
         edit_text        - текст правки от заказчика (буквально)
     """
+    # GPT-режим: правку применяет OpenAI (claude на сервере разлогинен).
+    # Полный аналог ниже, но без subprocess/claude — см. migration/editor_gpt.py.
+    if GPT_PIPELINE:
+        from migration.editor_gpt import apply_edit_gpt
+        return apply_edit_gpt(
+            slug=slug, current_version=current_version, versions=versions,
+            edit_text=edit_text, timeout_sec=min(timeout_sec, 200),
+        )
+
     avail_err = _check_claude_available()
     if avail_err:
         return EditResult(False, None, None, "", None, avail_err)
