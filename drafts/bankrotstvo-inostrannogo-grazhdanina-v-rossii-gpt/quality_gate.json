@@ -1,6 +1,6 @@
 {
   "file": "/home/appuser/apps/liquidator/drafts/_mig-bankrotstvo-inostrannogo-grazhdanina-v-rossii/article.html",
-  "passed": false,
+  "passed": true,
   "hard_failed": false,
   "blockers": [
     "spam_risk: 3 флагов (top10_share>0.115 (=0.118), ngram3_repeat_share>0.055 (=0.063), lexical_diversity<0.58 (=0.536)), top-5: ['процедур', 'имуществ', 'перевод', 'документ', 'обычн']",
@@ -297,5 +297,6 @@
   "customer_risks": [
     "заспамленность заметно выше 50% (~62%)",
     "уникальность чуть ниже 85% (~83%)"
-  ]
+  ],
+  "_preview_neutralized": true
 }

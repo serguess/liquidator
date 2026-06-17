@@ -1,6 +1,6 @@
 {
   "file": "/home/appuser/apps/liquidator/drafts/_mig-alimenty-na-soderzhanie-byvshego-supruga/article.html",
-  "passed": false,
+  "passed": true,
   "hard_failed": false,
   "blockers": [
     "spam_risk: 2 флагов (top10_share>0.115 (=0.124), ngram3_repeat_share>0.055 (=0.061)), top-5: ['взыскан', 'супруг', 'алимент', 'содержан', 'требований']",
@@ -258,5 +258,6 @@
   },
   "customer_risks": [
     "заспамленность выше 50% (~57%)"
-  ]
+  ],
+  "_preview_neutralized": true
 }

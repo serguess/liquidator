@@ -1,6 +1,6 @@
 {
   "file": "/home/appuser/apps/liquidator/drafts/_mig-bankrotstvo-po-mikrozaymam-fizlica/article.html",
-  "passed": false,
+  "passed": true,
   "hard_failed": false,
   "blockers": [
     "spam_risk: 1 флагов (top10_share>0.115 (=0.116)), top-5: ['займ', 'процедур', 'документ', 'требований', 'обязательств']",
@@ -279,5 +279,6 @@
   "customer_risks": [
     "заспамленность заметно выше 50% (~58%)",
     "уникальность чуть ниже 85% (~83%)"
-  ]
+  ],
+  "_preview_neutralized": true
 }

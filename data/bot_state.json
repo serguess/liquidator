@@ -5181,15 +5181,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 1379,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-06-05T10:46:31",
-      "last_action_at": "2026-06-05T10:46:31",
+      "last_action_at": "2026-06-06T10:00:21",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-06-05T10:46:31"
+      "pending_batch": false,
+      "pending_batch_at": "2026-06-05T10:46:31",
+      "batch_sent_at": "2026-06-06T10:00:21",
+      "batch_fail_count": 0
     },
     "lgoty-posobiya-posle-bankrotstva-fizlica": {
       "category": "fiz",
@@ -5199,15 +5201,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 1381,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-06-05T13:20:33",
-      "last_action_at": "2026-06-05T13:20:33",
+      "last_action_at": "2026-06-06T10:00:23",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-06-05T13:20:33"
+      "pending_batch": false,
+      "pending_batch_at": "2026-06-05T13:20:33",
+      "batch_sent_at": "2026-06-06T10:00:23",
+      "batch_fail_count": 0
     },
     "beneficiarnyj-sobstvennik-subsidiarnaya-otvetstvennost": {
       "category": "yur",
@@ -5217,19 +5221,50 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 1383,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-06-05T15:51:34",
-      "last_action_at": "2026-06-05T15:51:34",
+      "last_action_at": "2026-06-06T10:00:25",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-06-05T15:51:34"
+      "pending_batch": false,
+      "pending_batch_at": "2026-06-05T15:51:34",
+      "batch_sent_at": "2026-06-06T10:00:25",
+      "batch_fail_count": 0
+    },
+    "proshchenie-dolga-pri-bankrotstve-yurlica-gpt": {
+      "category": "yur",
+      "title": "Прощение долга при банкротстве юрлица: налоги и риски",
+      "current_version": "2.0",
+      "pending_batch": false,
+      "first_seen_at": "2026-06-08T14:00:26",
+      "tg_chat_id": 583558720,
+      "tg_message_id": 1385,
+      "batch_sent_at": "2026-06-08T14:00:28"
+    },
+    "nalogovyj-vychet-posle-bankrotstva-fizlica-gpt": {
+      "category": "fiz",
+      "title": "Налоговый вычет после банкротства: можно ли вернуть",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-06-17T17:12:45",
+      "last_action_at": "2026-06-17T17:12:45",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-06-17T17:12:45",
+      "_preview_dequeued": true
     }
   },
   "pending_actions": [],
-  "last_batch_date": "2026-06-05",
-  "last_batch_count": 9,
-  "last_batch_at": "2026-06-05T10:00:24"
+  "last_batch_date": "2026-06-17",
+  "last_batch_count": 0,
+  "last_batch_at": "2026-06-17T10:00:40"
 }

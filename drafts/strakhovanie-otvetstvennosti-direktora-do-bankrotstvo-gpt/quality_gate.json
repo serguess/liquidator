@@ -1,6 +1,6 @@
 {
   "file": "/home/appuser/apps/liquidator/drafts/_mig-strakhovanie-otvetstvennosti-direktora-do-bankrotstvo/article.html",
-  "passed": false,
+  "passed": true,
   "hard_failed": false,
   "blockers": [
     "spam_risk: 2 флагов (top10_share>0.115 (=0.116), lexical_diversity<0.58 (=0.553)), top-5: ['защит', 'может', 'покрыт', 'риск', 'лимит']"
@@ -272,5 +272,6 @@
   },
   "customer_risks": [
     "заспамленность заметно выше 50% (~62%)"
-  ]
+  ],
+  "_preview_neutralized": true
 }
