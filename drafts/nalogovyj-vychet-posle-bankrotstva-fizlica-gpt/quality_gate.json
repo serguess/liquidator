@@ -1,27 +1,25 @@
 {
-  "file": "/home/appuser/apps/liquidator/drafts/_mig-nalogovyj-vychet-posle-bankrotstva-fizlica/article.html",
-  "passed": false,
+  "file": "/home/appuser/apps/liquidator/drafts/nalogovyj-vychet-posle-bankrotstva-fizlica-gpt/article.html",
+  "passed": true,
   "hard_failed": false,
-  "blockers": [
-    "spam_risk: 2 флагов (top3_sum>30 (=32), top10_share>0.115 (=0.133)), top-5: ['вычет', 'банкротств', 'доход', 'налогов', 'процедур']"
-  ],
+  "blockers": [],
   "warnings": [
-    "Автофикс применил правки: сокращения=0, пунктуация=0"
+    "forced_pass_at_iter2: блокеры пропущены, статья идёт в TG-очередь с metrics_warning=true. Было: 1 блокеров — spam_risk"
   ],
   "autofix": {
-    "file": "/home/appuser/apps/liquidator/drafts/_mig-nalogovyj-vychet-posle-bankrotstva-fizlica/article.html",
+    "file": "/home/appuser/apps/liquidator/drafts/nalogovyj-vychet-posle-bankrotstva-fizlica-gpt/article.html",
     "abbreviation_fixes": {},
     "punctuation_fixes": 0,
     "em_dash_fixes": 0,
     "eng_quotes_fixes": 0,
-    "yo_fixes": 29,
+    "yo_fixes": 0,
     "hyphen_fixes": 0,
-    "changed": true,
+    "changed": false,
     "bytes_before": 39509,
     "bytes_after": 39509
   },
   "quality_checks": {
-    "file": "drafts/_mig-nalogovyj-vychet-posle-bankrotstva-fizlica/article.html",
+    "file": "drafts/nalogovyj-vychet-posle-bankrotstva-fizlica-gpt/article.html",
     "text_chars": 6136,
     "length_status": "warn",
     "length_kind": "default",
@@ -171,7 +169,7 @@
     "author_markers_min": 2
   },
   "ai_markers": {
-    "file": "drafts/_mig-nalogovyj-vychet-posle-bankrotstva-fizlica/article.html",
+    "file": "drafts/nalogovyj-vychet-posle-bankrotstva-fizlica-gpt/article.html",
     "text_chars": 8201,
     "hits_total": 5,
     "density_per_1000": 0.61,
@@ -227,7 +225,7 @@
     ]
   },
   "anti_template": {
-    "file": "drafts/_mig-nalogovyj-vychet-posle-bankrotstva-fizlica/article.html",
+    "file": "drafts/nalogovyj-vychet-posle-bankrotstva-fizlica-gpt/article.html",
     "text_chars": 6598,
     "phrases_loaded": 138,
     "passed": true,
@@ -239,7 +237,7 @@
     "samples": []
   },
   "rhythm": {
-    "file": "drafts/_mig-nalogovyj-vychet-posle-bankrotstva-fizlica/article.html",
+    "file": "drafts/nalogovyj-vychet-posle-bankrotstva-fizlica-gpt/article.html",
     "text_chars": 6598,
     "sentences_total": 68,
     "avg_sentence_len": 10.06,
@@ -264,7 +262,7 @@
   "recommendations": [
     "reduce_repetition: разбавить топ-5 частотных лемм местоимениями/перифразом — ['вычет', 'банкротств', 'доход', 'налогов', 'процедур']"
   ],
-  "retry_count": 1,
+  "retry_count": 2,
   "predicted_metrics": {
     "spam_pct": 60,
     "ai_pct": 5,
