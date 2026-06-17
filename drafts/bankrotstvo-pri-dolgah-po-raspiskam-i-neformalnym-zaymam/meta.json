@@ -1,0 +1,98 @@
+{
+  "slug": "bankrotstvo-pri-dolgah-po-raspiskam-i-neformalnym-zaymam",
+  "category": "fiz",
+  "title": "Банкротство при долгах по распискам и неформальным займам",
+  "description": "Как проходит банкротство при долгах по распискам и неформальным займам: можно ли списать такие обязательства, какие доказательства нужны, порядок подачи заявления и риски.",
+  "h1": "Банкротство при долгах по распискам и неформальным займam: что нужно знать и как действовать",
+  "lead": "Если долг подтверждён только распиской или устным соглашением, реальная возможность его включения в реестр кредиторов зависит от совокупности доказательств: оригинала расписки, платёжных подтверждений, переписки и свидетелей. Разберём, что потребуется, какие риски есть и как действовать, чтобы повысить шансы на учёт требования в деле о банкротстве.",
+  "topic_action": "проверку возможности списания долгов по распискам",
+  "breadcrumb_current": "Долги по распискам и неформальным займам",
+  "og_image": "/assets/articles/bankrotstvo-pri-dolgah-po-raspiskam-i-neformalnym-zaymam.jpg",
+  "main_keyword": "банкротство при долгах по распискам",
+  "secondary_keywords": [
+    "банкротство по расписке",
+    "списание долгов по неформальным займам",
+    "расписка долг доказательства"
+  ],
+  "internal_links": [],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/c2c8c81ee8e4bd843286b08b10607f00ec6ae073/",
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/c8ec6bf405a2188b82fd140eeb53aa465745c8bd/"
+  ],
+  "faq": [
+    {
+      "question": "Можно ли заявить требование по расписке в реестр кредиторов без банковских переводов?",
+      "answer": "Можно, но успех зависит от совокупности подтверждений: переписка, показания свидетелей и иные доказательства повышают шансы. Один документ без сопроводительных данных воспринимается слабее."
+    },
+    {
+      "question": "Что будет с требованием, если оригинал расписки утерян, но есть переписка?",
+      "answer": "Переписка и другие подтверждения могут частично заменить оригинал. Суд оценивает все материалы в совокупности; шанс на включение есть, но он ниже, чем при наличии оригинала и платёжных документов."
+    },
+    {
+      "question": "Как влияет наличие свидетелей сделки по неформальному займу?",
+      "answer": "Независимые свидетели укрепляют позицию кредитора. Показания близких родственников суды обычно оценивают осторожнее, но и они могут иметь значение в совокупности доказательств."
+    },
+    {
+      "question": "Повлияет ли включение требования по расписке на возможность должника получить списание долгов?",
+      "answer": "Да. Включённое в реестр требование учитывается при распределении конкурсной массы и влияет на объём обязательств, от которых должник будет освобождён при завершении процедуры банкротства."
+    },
+    {
+      "question": "Какие долги, связанные с такими займами, точно не подлежат списанию?",
+      "answer": "Алименты, возмещение вреда здоровью, текущие платежи и иные исключения, предусмотренные законом, не списываются. Суд также может отказать в освобождении при признаках недобросовестности должника."
+    },
+    {
+      "question": "Что делать кредитору, если суд отверг требование - стоит ли обжаловать?",
+      "answer": "Обжалование имеет смысл при наличии новых доказательств или явной процессуальной ошибки. Часто эффективнее собрать дополнительные материалы и представить их заново."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Основные утверждения согласованы с research.json и выполнены safe_phrasing для пунктов с пометкой needs_verification (практика приёма расписок).",
+    "Факты, проверенные в research.json: депозит 25 000 руб., отсутствие госпошлины для должника‑физлица, вознаграждение управляющего (фикс. 25 000 руб. + процент в зависимости от процедуры).",
+    "Практика судов по приёму расписок отмечена в research как fact_gap; текст даёт обтекаемую, корректную формулировку без утверждений о гарантии включения требований."
+  ],
+  "keyword_density_main": 0.012,
+  "main_keyword_exact_count": 2,
+  "text_chars": 7022,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.143,
+  "local_spam_ngram3_repeat": 0.03,
+  "local_lexical_diversity": 0.579,
+  "local_ai_markers_density": 0.32,
+  "local_ai_markers_critical": 0,
+  "length_status": "ok",
+  "length_kind": "default",
+  "local_ai_markers_total": 3,
+  "local_ai_markers_high": 1,
+  "local_own_voice_hits": 0,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1781723159/articles/bankrotstvo-pri-dolgah-po-raspiskam-i-neformalnym-zaymam-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1781723159/articles/bankrotstvo-pri-dolgah-po-raspiskam-i-neformalnym-zaymam-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Street-level photograph of the narrow passage between two stone administrative buildings after rain, low-angle vanishing perspective with wet paving reflecting the facades and distant amber lamplight, foreground near the base of frame: a folded black umbrella resting against a low curb, a small worn leather briefcase closed and slightly scuffed, a neat bundle of unmarked handwritten promissory notes tied with coarse twine; camera: low three-quarter along the passage toward a softened vanishing point; lighting: cool overcast with a single warm lamp glow in the distance; palette: slate blue, charcoal, warm amber accents; mood: precarious, between-steps, uncertain transition.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-06-17T19:06:00Z",
+  "predicted_spam_pct": 60,
+  "predicted_ai_pct": 11,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность заметно выше 50% (~60%)",
+    "AI-detector чуть выше 10% (~11%)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "spam_risk: 5 флагов (top1_count>12 (=16, лемма «требован»), top3_sum>30 (=42), top10_sum>80 (=94), top10_share>0.115 (=0.143), lexical_diversity<0.58 (=0.579)), top-5: ['требован', 'доказательств', 'подтвержден', 'кредитор', 'расписк']",
+    "targeted_tokens_over_limit: руб_сокращение=1(>≤0)",
+    "author_markers_missing: 0 < 2",
+    "too_few_short_sentences: 4 < 12"
+  ],
+  "date_published": "2026-06-17",
+  "date_modified": "2026-06-17",
+  "ready_for_review": true,
+  "ready_at": "2026-06-17T19:06:01Z",
+  "publication_target": "telegram_review"
+}
