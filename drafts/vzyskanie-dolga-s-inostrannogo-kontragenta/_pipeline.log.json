@@ -1,0 +1,36 @@
+{
+  "slug": "vzyskanie-dolga-s-inostrannogo-kontragenta",
+  "category": "vzysk",
+  "started_at": "2026-06-18T02:52:34",
+  "finished_at": null,
+  "total_duration_sec": null,
+  "current_iteration": 1,
+  "events": [
+    {
+      "ts": "2026-06-18T02:52:34",
+      "agent": "scheduler",
+      "event": "slot_started",
+      "iteration": 1,
+      "today_count": 1,
+      "limit": 10,
+      "write_article_duration_sec": 244.7
+    },
+    {
+      "ts": "2026-06-18T02:52:35",
+      "agent": "quality_gate",
+      "event": "passed",
+      "iteration": 1,
+      "blockers": [],
+      "warnings": [
+        "forced_pass_at_iter2: блокеры пропущены, статья идёт в TG-очередь с metrics_warning=true. Было: 4 блокеров — spam_risk; targeted_tokens_over_limit; author_markers_missing; too_few_short_sentences"
+      ],
+      "recommendations": [
+        "reduce_repetition: разбавить топ-5 частотных лемм местоимениями/перифразом — ['актив', 'решен', 'стран', 'оговорк', 'имуществ']",
+        "reduce_РФ: «РФ» × 3 → cap 2. Удалить из «ГК РФ»/«ГПК РФ» — просто «ГК»/«ГПК» (контекст однозначный). Один раз в первом упоминании можно полное название.",
+        "reduce_руб: «руб» × 1 → cap 0. Только полное «рублей»/«рубля». В контексте суммы единица иногда опускается: «долг 82 400» вместо «долг 82 400 рублей».",
+        "add_author_markers: добавить минимум 1 вставок «по нашему опыту» / «в нашей практике» / «мы считаем» / «мы видим». Это главный anti-AI маркер — без него text.ru показывает AI 7-19%.",
+        "add_short_sentences: добавить минимум 9 коротких предложений (≤5 слов). Главный anti-AI маркер: «Главное.», «Защита не включается.», «6 месяцев, иногда 8.». Разбивать длинные предложения на 2-3 коротких."
+      ]
+    }
+  ]
+}
