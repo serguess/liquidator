@@ -62,6 +62,11 @@ AUTO_UNPAUSE_SEC = int(os.getenv("AUTO_UNPAUSE_SEC", "1800"))
 # когда Anthropic API лежит / rate-limit.
 PREFLIGHT_PING_TIMEOUT_SEC = int(os.getenv("PREFLIGHT_PING_TIMEOUT_SEC", "45"))
 PREFLIGHT_ENABLED = os.getenv("PREFLIGHT_ENABLED", "true").lower() in ("1", "true", "yes")
+# GPT-режим (миграция с Anthropic): write-article идёт через migration/pipeline_run.py
+# (OpenAI/gpt-5-mini) вместо `claude -p`. Переключается ENV GPT_PIPELINE=true.
+# Вся обвязка (выбор темы, heartbeat, git commit/push, circuit breaker, ротация,
+# pending_batch-доставка) переиспользуется как есть. Откат = GPT_PIPELINE=false.
+GPT_PIPELINE = os.getenv("GPT_PIPELINE", "false").lower() in ("1", "true", "yes")
 GITHUB_REPO = os.getenv("GITHUB_REPO", "serguess/liquidator")
 GITHUB_BRANCH = os.getenv("GITHUB_BRANCH", "main")
 GIT_AUTHOR_NAME = os.getenv("GIT_AUTHOR_NAME", "Liquidator Scheduler")
@@ -1793,7 +1798,19 @@ def _preflight_claude_ping() -> tuple[bool, str]:
     Не считается failure для streak: rate-limit временный, восстанавливается
     сам через несколько часов; следующий тик timer-а (через 144 мин) попробует
     снова.
+
+    В GPT-режиме (GPT_PIPELINE) claude не используется — preflight проверяет
+    лишь наличие OPENAI_API_KEY (дёшево, без траты токенов на API-вызов).
     """
+    if GPT_PIPELINE:
+        key = (os.getenv("OPENAI_API_KEY") or "").strip()
+        if not key and (ROOT / ".env").exists():
+            for line in (ROOT / ".env").read_text(encoding="utf-8").splitlines():
+                if line.strip().startswith("OPENAI_API_KEY="):
+                    key = line.split("=", 1)[1].strip().strip('"').strip("'")
+                    break
+        return (bool(key), "" if key else "OPENAI_API_KEY не задан (GPT-режим)")
+
     cmd = ["claude", "--print", "--dangerously-skip-permissions", "ok?"]
     try:
         res = subprocess.run(
@@ -2440,7 +2457,15 @@ def run_one_article() -> dict:
                     remaining, category, topic.get("id"), topic_slug, topic_title[:80],
                 )
 
-                cmd = ["claude", "--print", "--dangerously-skip-permissions", claude_command]
+                if GPT_PIPELINE:
+                    # GPT-режим: статью пишет migration/pipeline_run.py (OpenAI),
+                    # в реальный slug (--prod-slug) → runner найдёт drafts/{slug}/,
+                    # прогонит quality_gate, закоммитит и запушит как обычно.
+                    cmd = [sys.executable, "-u", "migration/pipeline_run.py",
+                           "--slug", topic_slug, "--category", category,
+                           "--topic", topic_title, "--prod-slug"]
+                else:
+                    cmd = ["claude", "--print", "--dangerously-skip-permissions", claude_command]
                 HEARTBEAT_PATH.write_text(
                     f"{datetime.now().isoformat(timespec='seconds')} | started",
                     encoding="utf-8",
