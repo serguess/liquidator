@@ -2423,9 +2423,17 @@ def run_one_article() -> dict:
                         # валидные темы в drafts/_topic-map/{category}.json,
                         # rc=0 если добавил ≥1 → runner берёт свежую тему в этом
                         # же слоте (логика ниже не меняется).
-                        log.info("Темы для %s исчерпаны, запускаю GPT expand_topics_gpt", category)
-                        cmd = [sys.executable, "-u", "migration/expand_topics_gpt.py",
-                               "--category", category]
+                        if category == "news":
+                            # news: только web-верифицированный сбор (web_search +
+                            # проверка URL), иначе модель галлюцинирует событие и
+                            # фейковый источник (инцидент 17 июня: vsrf.ru/.../1234567).
+                            log.info("News-темы исчерпаны, запускаю GPT news_collect (web_search)")
+                            cmd = [sys.executable, "-u", "migration/news_collect_gpt.py",
+                                   "--count", "10"]
+                        else:
+                            log.info("Темы для %s исчерпаны, запускаю GPT expand_topics_gpt", category)
+                            cmd = [sys.executable, "-u", "migration/expand_topics_gpt.py",
+                                   "--category", category]
                     else:
                         log.info("Темы для %s исчерпаны, запускаю /expand-topics", category)
                         cmd = ["claude", "--print", "--dangerously-skip-permissions", claude_command]

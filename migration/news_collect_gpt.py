@@ -213,12 +213,45 @@ def normalize(raw: dict, new_id: str, taken_slugs: set[str], taken_kw: set[str])
     return topic, "ok"
 
 
+def verify_existing() -> int:
+    """Проверяет URL у всех активных news-тем; недоступные/фейковые → rejected.
+    Чистит галлюцинации из claude-эпохи (например vsrf.ru/.../doc/1234567),
+    которые проходят _is_news_topic_valid (там только проверка наличия полей)."""
+    if not NEWS_JSON.exists():
+        print("[news-verify] нет news.json")
+        return 0
+    data = json.loads(NEWS_JSON.read_text(encoding="utf-8"))
+    rejected = 0
+    for t in data.get("topics", []) or []:
+        if t.get("status") == "rejected":
+            continue
+        src = (t.get("primary_source") or "").strip()
+        if not src or not url_ok(src):
+            t["status"] = "rejected"
+            t["_rejected_reason"] = "url_unreachable_or_missing"
+            rejected += 1
+            print(f"   reject {t.get('id')} {t.get('slug')}: src={src[:60]}")
+    NEWS_JSON.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    print(f"[news-verify] помечено rejected: {rejected}")
+    return 0
+
+
 def main() -> int:
     ap = argparse.ArgumentParser(description="Еженедельный сбор news через web_search")
     ap.add_argument("--count", type=int, default=10)
     ap.add_argument("--model", default=DEFAULT_MODEL)
     ap.add_argument("--dry-run", action="store_true")
+    ap.add_argument("--verify-existing", action="store_true",
+                    help="проверить URL активных news-тем, недоступные → rejected (без сбора)")
     args = ap.parse_args()
+
+    if args.verify_existing:
+        return verify_existing()
+
+    # Нормальный сбор: сперва бракуем фейковые/мёртвые URL среди существующих
+    # тем (галлюцинации claude-эпохи), затем добираем свежие через web_search.
+    print("[news-gpt] проверка URL существующих тем...")
+    verify_existing()
 
     today = datetime.now().strftime("%Y-%m-%d")
     data = json.loads(NEWS_JSON.read_text(encoding="utf-8")) if NEWS_JSON.exists() else \
