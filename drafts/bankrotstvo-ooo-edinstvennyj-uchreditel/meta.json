@@ -1,0 +1,94 @@
+{
+  "slug": "bankrotstvo-ooo-edinstvennyj-uchreditel",
+  "category": "yur",
+  "title": "Банкротство ООО с единственным учредителем: нюансы",
+  "description": "Что важно знать при банкротстве ООО, если у компании один учредитель: ответственность директора и учредителя, порядок признания несостоятельности, возможные риски и способы минимизации последствий.",
+  "h1": "Банкротство ООО с единственным учредителем: ключевые нюансы и риски",
+  "lead": "Разбираем, какие риски для владельца единственной доли влечёт банкротство общества и какие практические шаги помогают снизить вероятность личной ответственности.",
+  "topic_action": "проверку рисков при банкротстве ООО",
+  "breadcrumb_current": "Банкротство ООО",
+  "og_image": "/assets/articles/bankrotstvo-ooo-edinstvennyj-uchreditel.jpg",
+  "main_keyword": "банкротство ООО с единственным учредителем",
+  "secondary_keywords": [
+    "банкротство общества с ограниченной ответственностью единственный учредитель",
+    "ответственность единственного учредителя при банкротстве",
+    "риск субсидиарной ответственности учредителя",
+    "ликвидация через банкротство ООО",
+    "взыскание с учредителя задолженности ООО"
+  ],
+  "internal_links": [],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_146436/",
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/"
+  ],
+  "faq": [
+    {
+      "question": "Можно ли привлечь единственного учредителя к ответственности за долги ООО, если есть доказательства вывода активов?",
+      "answer": "Да. Если суд установит, что операции были направлены на выведение активов или иными способами нарушали интересы кредиторов, учредителя или руководителя могут привлечь к личной (субсидиарной) ответственности и взыскать требования общества. Для конкретики по основаниям и процессуальному порядку см. нормы 127‑ФЗ и судебную практику."
+    },
+    {
+      "question": "Какие альтернативы возбуждению дела о банкротстве стоит рассмотреть до подачи в арбитраж?",
+      "answer": "Прежде всего переговоры и реструктуризация задолженности. Если кредитор готов к соглашению, это часто дешевле и быстрее, чем суд. Рекомендуется подготовить пакет документов для переговоров заранее."
+    },
+    {
+      "question": "Что проверяет суд при оценке заявлений о субсидиарной ответственности?",
+      "answer": "Суд анализирует цепочки платежей, договоры между аффилированными лицами, экономическую обоснованность сделок и соблюдение корпоративной формы. Отсутствие протоколов и документального подкрепления вызывает вопросы."
+    },
+    {
+      "question": "Какова роль конкурсного управляющего в распоряжении имуществом общества?",
+      "answer": "Управляющий собирает реестр активов, проводит оценку и при необходимости реализует имущество в интересах кредиторов. Его действия контролирует суд, однако порядок действий и распределение расходов зависят от типа процедуры банкротства и действующих норм."
+    },
+    {
+      "question": "Какие признаки в документации наиболее уязвимы в случае спора с кредиторами?",
+      "answer": "Отсутствие договоров с поставщиками, переводы на личные счета без встречных обязательств, сделки по ценам явно ниже рынка и отсутствие отчётности по крупным операциям."
+    },
+    {
+      "question": "Что делать учредителю перед получением претензий от кредиторов?",
+      "answer": "Зафиксировать корпоративные решения, привести в порядок договоры и платёжные документы, разделить счета и, при возможности, провести независимый аудит. Такая подготовка снижает риск претензий и улучшает позиции в переговорах."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Факты о лимите для приказного производства (до 500 000 руб.), пороге для возбуждения дела о банкротстве юрлица (около 2 000 000 руб.) и ориентировочной ставке госпошлины для организаций (порядка 100 000 руб.) сверены с research.json и приведены в облегченном/контекстном виде.",
+    "Утверждения о порядке привлечения к субсидиарной ответственности, конкретных размерах депозитов и деталях приостановления исполнительных производств в делах о банкротстве юрлиц оформлены через безопасные обтекаемые формулировки (research отмечал недостаток привязки к конкретным статьям - требуются дополнительные верификации при финализации).",
+    "Рекомендовано дальнейшее уточнение процессуальных деталей (статьи 127‑ФЗ и практика) юридической командой при подготовке окончательной версии."
+  ],
+  "keyword_density_main": 0.015,
+  "main_keyword_exact_count": 2,
+  "text_chars": 8120,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.1,
+  "local_spam_ngram3_repeat": 0.029,
+  "local_lexical_diversity": 0.638,
+  "local_ai_markers_density": 0.49,
+  "local_ai_markers_critical": 0,
+  "length_status": "too_long",
+  "length_kind": "default",
+  "local_ai_markers_total": 5,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 6,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "ready_for_review": true,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1781731773/articles/bankrotstvo-ooo-edinstvennyj-uchreditel-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1781731773/articles/bankrotstvo-ooo-edinstvennyj-uchreditel-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Editorial photograph of a polished marble slab foreground with a restrained cluster of business objects arranged for a legal-procedural narrative: a closed oxblood leather portfolio placed slightly off-center, a polished round brass company seal resting atop a stack of tied dossiers, a fountain pen on a brass stand, an antique pocket watch on a short chain stopped at mid-flow, and a small brass key ring with a single key; soft architectural background of blurred columned stone and distant warm daylight; camera at tabletop three-quarter angle; lighting soft natural daylight grazing the marble, subtle rim-light on brass surfaces, palette of warm cream, brass and oxblood leather, mood: sober, procedural, founder-facing guidance.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-06-17T21:29:34Z",
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 49,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 83,
+  "customer_risks": [
+    "уникальность чуть ниже 85% (~83%)",
+    "длина чуть больше лимита 8000 (8 120 знаков)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "targeted_tokens_over_limit: руб_сокращение=6(>≤0), 000руб_паттерн=6(>≤2)",
+    "anti_template_phrases: 1 вхождений (1 уникальных)"
+  ]
+}
