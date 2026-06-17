@@ -152,6 +152,15 @@ def _next_category() -> str:
 
 # ============ TOPIC SELECTION ============
 
+def _is_preview_slug(name: str) -> bool:
+    """Превью-копии batch-прогона миграции (drafts/{slug}-gpt) — НЕ настоящие
+    черновики. Их создаёт migration/batch_run.py только для preview-ссылок
+    заказчице по /p/{slug}-gpt. Scheduler не должен их трогать (orphan-rescue,
+    failed_qa-retry, published_index), иначе при batch на live-сервере они
+    подхватываются в main и уходят в очередь заказчице (инцидент 17 июня)."""
+    return name.endswith("-gpt")
+
+
 def _collect_used_slugs() -> set[str]:
     """
     Slug-и тем, которые уже взяты в работу.
@@ -871,7 +880,8 @@ def _find_failed_qa_for_retry(max_iterations: int = 3) -> str | None:
     """
     candidates: list[tuple[str, float]] = []  # (slug, mtime quality_gate.json)
     for slug_dir in DRAFTS_DIR.iterdir():
-        if not slug_dir.is_dir() or slug_dir.name.startswith("_"):
+        if (not slug_dir.is_dir() or slug_dir.name.startswith("_")
+                or _is_preview_slug(slug_dir.name)):
             continue
         qg_path = slug_dir / "quality_gate.json"
         if not qg_path.exists():
@@ -1189,7 +1199,7 @@ def _find_orphan_drafts() -> list[str]:
         # "{slug}/some/file.ext"
         parts = rest.split("/", 1)
         slug = parts[0]
-        if not slug or slug.startswith("_"):
+        if not slug or slug.startswith("_") or _is_preview_slug(slug):
             continue
 
         # Случай 1: ВСЯ папка drafts/{slug}/ untracked. Git выводит как
@@ -2339,7 +2349,19 @@ def run_one_article() -> dict:
             claude_command = f"/rewrite-article {retry_slug}"
             entry["mode"] = "rewrite"
             entry["retry_slug"] = retry_slug
-            cmd = ["claude", "--print", "--dangerously-skip-permissions", claude_command]
+            if GPT_PIPELINE:
+                # GPT-режим: «доработку» failed_qa-статьи делает повторный прогон
+                # migration/pipeline_run.py по тому же slug (--prod-slug перезапишет
+                # drafts/{slug}/), затем общий quality_gate ниже. Тему берём из meta.
+                rw_topic = (retry_meta.get("title") or retry_meta.get("h1")
+                            or retry_meta.get("main_keyword") or retry_slug)
+                log.info("Rewrite в GPT-режиме: pipeline_run --slug %s --category %s",
+                         retry_slug, category)
+                cmd = [sys.executable, "-u", "migration/pipeline_run.py",
+                       "--slug", retry_slug, "--category", category,
+                       "--topic", rw_topic, "--prod-slug"]
+            else:
+                cmd = ["claude", "--print", "--dangerously-skip-permissions", claude_command]
             HEARTBEAT_PATH.write_text(
                 f"{datetime.now().isoformat(timespec='seconds')} | started",
                 encoding="utf-8",
