@@ -94,14 +94,22 @@ def wait_for_lock_free(timeout_sec: int) -> bool:
     return True
 
 
+GPT_PIPELINE = os.getenv("GPT_PIPELINE", "false").lower() in ("1", "true", "yes")
+
+
 def run_expand_topics() -> int:
-    """Запускает claude /expand-topics news. Возвращает returncode."""
-    cmd = [
-        "claude",
-        "--print",
-        "--dangerously-skip-permissions",
-        "/expand-topics news",
-    ]
+    """Пополняет news-темы. В GPT-режиме (GPT_PIPELINE) — через web_search
+    (migration/news_collect_gpt.py, реально ищет свежие события + проверяет URL),
+    иначе старый путь claude /expand-topics news."""
+    if GPT_PIPELINE:
+        cmd = [sys.executable, "migration/news_collect_gpt.py", "--count", "10"]
+    else:
+        cmd = [
+            "claude",
+            "--print",
+            "--dangerously-skip-permissions",
+            "/expand-topics news",
+        ]
     _log(f"Запускаю: {' '.join(cmd)}")
     start = time.time()
     try:
@@ -120,7 +128,7 @@ def run_expand_topics() -> int:
         return -1
 
     duration = int(time.time() - start)
-    _log(f"claude finished rc={result.returncode} duration={duration}s "
+    _log(f"expand finished rc={result.returncode} duration={duration}s "
          f"stdout_chars={len(result.stdout or '')} stderr_chars={len(result.stderr or '')}")
 
     if result.returncode != 0:
