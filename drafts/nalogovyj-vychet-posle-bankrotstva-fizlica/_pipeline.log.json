@@ -2,8 +2,8 @@
   "slug": "nalogovyj-vychet-posle-bankrotstva-fizlica-gpt",
   "category": "fiz",
   "started_at": "2026-06-17T17:12:37",
-  "finished_at": null,
-  "total_duration_sec": null,
+  "finished_at": "2026-06-17T17:12:40",
+  "total_duration_sec": 3.0,
   "current_iteration": 1,
   "events": [
     {
@@ -27,6 +27,31 @@
       "recommendations": [
         "reduce_repetition: разбавить топ-5 частотных лемм местоимениями/перифразом — ['вычет', 'банкротств', 'доход', 'налогов', 'процедур']"
       ]
+    },
+    {
+      "ts": "2026-06-17T17:12:39",
+      "agent": "scheduler",
+      "event": "git_pushed",
+      "iteration": 1,
+      "branch": "main"
+    },
+    {
+      "ts": "2026-06-17T17:12:40",
+      "agent": "scheduler",
+      "event": "slot_finished",
+      "status": "ok",
+      "iteration": 1
     }
-  ]
+  ],
+  "final_status": "ok",
+  "metrics": {
+    "ai_detector": null,
+    "uniqueness": null,
+    "spam": null,
+    "text_chars": 6136
+  },
+  "git": {
+    "committed": true,
+    "pushed": true
+  }
 }

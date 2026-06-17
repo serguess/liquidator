@@ -5233,17 +5233,7 @@
       "batch_sent_at": "2026-06-06T10:00:25",
       "batch_fail_count": 0
     },
-    "proshchenie-dolga-pri-bankrotstve-yurlica-gpt": {
-      "category": "yur",
-      "title": "Прощение долга при банкротстве юрлица: налоги и риски",
-      "current_version": "2.0",
-      "pending_batch": false,
-      "first_seen_at": "2026-06-08T14:00:26",
-      "tg_chat_id": 583558720,
-      "tg_message_id": 1385,
-      "batch_sent_at": "2026-06-08T14:00:28"
-    },
-    "nalogovyj-vychet-posle-bankrotstva-fizlica-gpt": {
+    "nalogovyj-vychet-posle-bankrotstva-fizlica": {
       "category": "fiz",
       "title": "Налоговый вычет после банкротства: можно ли вернуть",
       "status": "pending_review",
@@ -5253,14 +5243,185 @@
       ],
       "tg_message_id": null,
       "tg_chat_id": null,
-      "first_seen_at": "2026-06-17T17:12:45",
-      "last_action_at": "2026-06-17T17:12:45",
+      "first_seen_at": "2026-06-17T19:12:47",
+      "last_action_at": "2026-06-17T19:12:47",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": false,
-      "pending_batch_at": "2026-06-17T17:12:45",
-      "_preview_dequeued": true
+      "pending_batch": true,
+      "pending_batch_at": "2026-06-17T19:12:47",
+      "_promoted_from_batch": true
+    },
+    "bankrotstvo-inostrannogo-grazhdanina-v-rossii": {
+      "category": "fiz",
+      "title": "Банкротство иностранного гражданина в России: порядок действий",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-06-17T19:12:47",
+      "last_action_at": "2026-06-17T19:12:47",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-06-17T19:12:47",
+      "_promoted_from_batch": true
+    },
+    "bankrotstvo-po-mikrozaymam-fizlica": {
+      "category": "fiz",
+      "title": "Как списать микрозаймы через банкротство физлица",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-06-17T19:12:47",
+      "last_action_at": "2026-06-17T19:12:47",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-06-17T19:12:47",
+      "_promoted_from_batch": true
+    },
+    "proshchenie-dolga-pri-bankrotstve-yurlica": {
+      "category": "yur",
+      "title": "Прощение долга при банкротстве юрлица: налоги и риски",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-06-17T19:12:47",
+      "last_action_at": "2026-06-17T19:12:47",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-06-17T19:12:47",
+      "_promoted_from_batch": true
+    },
+    "strakhovanie-otvetstvennosti-direktora-do-bankrotstvo": {
+      "category": "yur",
+      "title": "Страхование ответственности директора при банкротстве",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-06-17T19:12:47",
+      "last_action_at": "2026-06-17T19:12:47",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-06-17T19:12:47",
+      "_promoted_from_batch": true
+    },
+    "bankrotstvo-emitenta-obligacij": {
+      "category": "yur",
+      "title": "Банкротство эмитента облигаций: права держателей и порядок действий",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-06-17T19:12:47",
+      "last_action_at": "2026-06-17T19:12:47",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-06-17T19:12:47",
+      "_promoted_from_batch": true
+    },
+    "vosstanovlenie-sroka-predyavleniya-ispolnlista": {
+      "category": "vzysk",
+      "title": "Восстановление срока предъявления исполнительного листа",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-06-17T19:12:47",
+      "last_action_at": "2026-06-17T19:12:47",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-06-17T19:12:47",
+      "_promoted_from_batch": true
+    },
+    "alimenty-na-soderzhanie-byvshego-supruga": {
+      "category": "vzysk",
+      "title": "Алименты на содержание бывшего супруга: основания и расчет",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-06-17T19:12:47",
+      "last_action_at": "2026-06-17T19:12:47",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-06-17T19:12:47",
+      "_promoted_from_batch": true
+    },
+    "prodat-dolg-kollektoram-usloviya-i-cena": {
+      "category": "vzysk",
+      "title": "Когда выгодно продать долг коллекторам: цена и условия",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-06-17T19:12:47",
+      "last_action_at": "2026-06-17T19:12:47",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-06-17T19:12:47",
+      "_promoted_from_batch": true
+    },
+    "bankrotstvo-osuzhdennogo-fns-iski-pri-otbyvanii-nakazaniya": {
+      "category": "news",
+      "title": "ФНС подала иск о банкротстве осуждённого, отбывающего наказание",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-06-17T19:12:47",
+      "last_action_at": "2026-06-17T19:12:47",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-06-17T19:12:47",
+      "_promoted_from_batch": true
     }
   },
   "pending_actions": [],
