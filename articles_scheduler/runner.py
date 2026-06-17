@@ -2395,8 +2395,18 @@ def run_one_article() -> dict:
                     expanded_once = True
                     claude_command = f"/expand-topics {category}"
                     entry["mode"] = "expand_topics"
-                    log.info("Темы для %s исчерпаны, запускаю /expand-topics", category)
-                    cmd = ["claude", "--print", "--dangerously-skip-permissions", claude_command]
+                    if GPT_PIPELINE:
+                        # GPT-режим: темы генерит migration/expand_topics_gpt.py
+                        # (OpenAI) вместо `claude -p /expand-topics`. Дописывает
+                        # валидные темы в drafts/_topic-map/{category}.json,
+                        # rc=0 если добавил ≥1 → runner берёт свежую тему в этом
+                        # же слоте (логика ниже не меняется).
+                        log.info("Темы для %s исчерпаны, запускаю GPT expand_topics_gpt", category)
+                        cmd = [sys.executable, "-u", "migration/expand_topics_gpt.py",
+                               "--category", category]
+                    else:
+                        log.info("Темы для %s исчерпаны, запускаю /expand-topics", category)
+                        cmd = ["claude", "--print", "--dangerously-skip-permissions", claude_command]
                     HEARTBEAT_PATH.write_text(
                         f"{datetime.now().isoformat(timespec='seconds')} | started",
                         encoding="utf-8",
