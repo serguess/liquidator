@@ -38,8 +38,19 @@ NEWS_JSON = TOPIC_MAP / "news.json"
 
 DEFAULT_MODEL = "gpt-5-mini"
 NEWS_ZONES = ("vs_practice", "vs_plenum", "legislation", "moratorium", "initiative", "finance")
-SOURCES = "vsrf.ru, pravo.gov.ru, fedresurs.ru, consultant.ru, garant.ru, klerk.ru, pravo.ru"
+# Предпочитаем ДОСТУПНЫЕ источники (отдают 200, можно реально проверить контент).
+# vsrf.ru / nalog.gov.ru / pravo.gov.ru блокируют автопроверку (403) — те же
+# события есть на агрегаторах pravo.ru / klerk.ru / consultant.ru / garant.ru/news.
+SOURCES = ("pravo.ru, klerk.ru, consultant.ru/legalnews, garant.ru/news, "
+           "fedresurs.ru, rbc.ru, kommersant.ru")
 YEAR_RX = re.compile(r"\b(19|20)\d{2}\b")
+# Плейсхолдер-ID в URL (галлюцинации модели): .../12345/, /doc/1234567, /bill/987654.
+PLACEHOLDER_RX = re.compile(
+    r"/(?:12345|123456|1234567|12345678|987654|9876543|7890123|0000000|1111111|"
+    r"123123|111111)\b")
+# Релевантная лексика — страница должна реально быть про банкротство/долги.
+NEWS_KEYWORDS = ("банкрот", "несостоятельн", "долг", "взыскан", "кредитор",
+                 "арбитраж", "реструктуриз", "пристав")
 UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/124.0 Safari/537.36")
 
@@ -55,16 +66,22 @@ def dedash(s) -> str:
 
 
 def url_ok(url: str) -> bool:
-    """URL резолвится в реальную страницу. 2xx/3xx — ок; 401/403/405/429 —
-    страница есть, но бота блокируют (тоже считаем валидной); 404/сеть — нет."""
+    """СТРОГАЯ проверка (после инцидента 18 июня с фейком nalog.gov.ru/.../12345):
+    URL должен отдавать HTTP 200 С РЕАЛЬНЫМ релевантным контентом (≥2 банкротных
+    слова на странице). Отвергаем: плейсхолдер-ID, 403/404 (включая anti-bot
+    gov-сайты — их всё равно не верифицировать, событие берём с агрегатора),
+    soft-404 (200 без банкротной лексики = редирект на главную/заглушку)."""
     if not url or not url.startswith(("http://", "https://")):
+        return False
+    if PLACEHOLDER_RX.search(url):
         return False
     try:
         req = urllib.request.Request(url, method="GET", headers={"User-Agent": UA})
         with urllib.request.urlopen(req, timeout=15) as r:
-            return 200 <= getattr(r, "status", 200) < 400
-    except urllib.error.HTTPError as e:
-        return e.code in (401, 403, 405, 406, 429)
+            if not (200 <= getattr(r, "status", 200) < 300):
+                return False
+            body = r.read(60000).decode("utf-8", "replace").lower()
+        return sum(1 for k in NEWS_KEYWORDS if k in body) >= 2
     except Exception:
         return False
 

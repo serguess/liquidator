@@ -905,7 +905,9 @@
       "topic_action": "разблокировать счёт по 115-ФЗ",
       "event_date": "2026-05-21",
       "news_zone": "finance",
-      "primary_source": "https://www.fontanka.ru/2026/05/21/76432673/"
+      "primary_source": "https://www.fontanka.ru/2026/05/21/76432673/",
+      "status": "rejected",
+      "_rejected_reason": "url_unreachable_or_missing"
     },
     {
       "id": "news-31",
@@ -1394,7 +1396,9 @@
       "topic_action": "проверить включение налоговых требований",
       "event_date": "2026-06-05",
       "news_zone": "legislation",
-      "primary_source": "https://www.nalog.gov.ru/press/news/2026/06/05/12345/"
+      "primary_source": "https://www.nalog.gov.ru/press/news/2026/06/05/12345/",
+      "status": "rejected",
+      "_rejected_reason": "placeholder_url_403"
     },
     {
       "id": "news-46",
@@ -1654,7 +1658,9 @@
       "topic_action": "подготовить аналитический материал с комментариями экспертов",
       "event_date": "2026-05-22",
       "news_zone": "finance",
-      "primary_source": "https://www.klerk.ru/buh/news/692566/"
+      "primary_source": "https://www.klerk.ru/buh/news/692566/",
+      "status": "rejected",
+      "_rejected_reason": "url_unreachable_or_missing"
     },
     {
       "id": "news-54",
@@ -1685,7 +1691,9 @@
       "topic_action": "опубликовать разбор решения и практические выводы для кредиторов",
       "event_date": "2026-06-01",
       "news_zone": "vs_practice",
-      "primary_source": "https://www.garant.ru/products/ipo/prime/doc/414229679/"
+      "primary_source": "https://www.garant.ru/products/ipo/prime/doc/414229679/",
+      "status": "rejected",
+      "_rejected_reason": "url_unreachable_or_missing"
     },
     {
       "id": "news-55",
@@ -1716,7 +1724,9 @@
       "topic_action": "подготовить новостной обзор с выдержками из решения",
       "event_date": "2026-06-04",
       "news_zone": "vs_practice",
-      "primary_source": "https://www.garant.ru/products/ipo/prime/doc/414253359/"
+      "primary_source": "https://www.garant.ru/products/ipo/prime/doc/414253359/",
+      "status": "rejected",
+      "_rejected_reason": "url_unreachable_or_missing"
     },
     {
       "id": "news-56",
@@ -1747,7 +1757,9 @@
       "topic_action": "опубликовать краткий пересказ и практические выводы для участников процесса",
       "event_date": "2026-06-10",
       "news_zone": "vs_practice",
-      "primary_source": "https://base.garant.ru/38367126/"
+      "primary_source": "https://base.garant.ru/38367126/",
+      "status": "rejected",
+      "_rejected_reason": "url_unreachable_or_missing"
     }
   ]
 }
