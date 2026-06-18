@@ -3099,6 +3099,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "kak-podgotovit-dokumenty-dlya-bankrotstva-yurlica",
+      "category": "yur",
+      "title": "Как подготовить документы для банкротства юрлица: пошаговая инструкция",
+      "added_at": "2026-06-19T00:28:41.045491",
+      "char_count": 6302,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1781818115/articles/kak-podgotovit-dokumenty-dlya-bankrotstva-yurlica-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
