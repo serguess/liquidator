@@ -1,0 +1,34 @@
+{
+  "slug": "osporit-ispolnitelnoe-proizvodstvo-po-sudebnomu-aktivu",
+  "category": "vzysk",
+  "started_at": "2026-06-19T02:53:56",
+  "finished_at": null,
+  "total_duration_sec": null,
+  "current_iteration": 1,
+  "events": [
+    {
+      "ts": "2026-06-19T02:53:56",
+      "agent": "scheduler",
+      "event": "slot_started",
+      "iteration": 1,
+      "today_count": 1,
+      "limit": 10,
+      "write_article_duration_sec": 339.4
+    },
+    {
+      "ts": "2026-06-19T02:53:56",
+      "agent": "quality_gate",
+      "event": "passed",
+      "iteration": 1,
+      "blockers": [],
+      "warnings": [
+        "forced_pass_at_iter2: блокеры пропущены, статья идёт в TG-очередь с metrics_warning=true. Было: 2 блокеров — spam_risk; targeted_tokens_over_limit"
+      ],
+      "recommendations": [
+        "reduce_repetition: разбавить топ-5 частотных лемм местоимениями/перифразом — ['пристав', 'служб', 'подразделен', 'расч', 'банк']",
+        "reduce_ст: «ст. X» × 11 → cap 5. Писать «статья X» полным словом, либо описательно («по правилу о процентах», «норма об исковой давности»). Cap 3 юр-цитаты на статью, остальное — пересказом.",
+        "reduce_руб: «руб» × 1 → cap 0. Только полное «рублей»/«рубля». В контексте суммы единица иногда опускается: «долг 82 400» вместо «долг 82 400 рублей»."
+      ]
+    }
+  ]
+}

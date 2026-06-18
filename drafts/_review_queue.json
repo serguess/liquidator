@@ -3112,6 +3112,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "osporit-ispolnitelnoe-proizvodstvo-po-sudebnomu-aktivu",
+      "category": "vzysk",
+      "title": "Как оспорить исполнительное производство по судебному акту",
+      "added_at": "2026-06-19T02:53:56.389578",
+      "char_count": 7252,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1781826833/articles/osporit-ispolnitelnoe-proizvodstvo-po-sudebnomu-aktivu-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
