@@ -1,0 +1,101 @@
+{
+  "slug": "kak-provesti-restrukturizaciyu-dolgov-kompanii",
+  "category": "yur",
+  "title": "Реструктуризация долгов компании: пошаговая инструкция",
+  "description": "Практическое руководство для руководителей и юристов: когда нужна реструктуризация долга, какие способы доступны и какие документы готовить.",
+  "h1": "Как провести реструктуризацию долгов компании: пошаговая инструкция",
+  "lead": "Реструктуризация долгов компании помогает выиграть время и восстановить платёжеспособность при наличии реального плана и готовности ключевых контрагентов к диалогу.",
+  "topic_action": "реструктуризацию долгов компании",
+  "breadcrumb_current": "Реструктуризация долгов компании",
+  "og_image": "/assets/articles/kak-provesti-restrukturizaciyu-dolgov-kompanii.jpg",
+  "main_keyword": "реструктуризация долгов компании",
+  "secondary_keywords": [
+    "как реструктурировать долг компании",
+    "переговоры с кредиторами по долгам",
+    "план реструктуризации долга предприятия",
+    "рефинансирование корпоративного долга",
+    "внешнее управление реструктуризация",
+    "сроки и этапы реструктуризации долга",
+    "документы для реструктуризации задолженности",
+    "реструктуризация кредитов юридического лица",
+    "реструктуризация долгов ООО"
+  ],
+  "internal_links": [],
+  "external_links": [
+    "127-ФЗ (положения о процедурах банкротства: наблюдение, план финансового оздоровления/санция, внешнее управление, конкурсное производство) - текст законa (указать в статье как '127-ФЗ ст. ...')",
+    "Налоговый кодекс РФ (НК РФ) ст. 333.21 - положения о государственной пошлине при подаче заявления о банкротстве"
+  ],
+  "faq": [
+    {
+      "question": "Можно ли реструктурировать долг компании без обращения в арбитраж?",
+      "answer": "Да. Досудебные переговоры и рефинансирование - реальная опция, если есть готовность держателей требований к диалогу и есть план восстановления денежного потока."
+    },
+    {
+      "question": "Что делать, если ключевой держатель требований не соглашается на отсрочку?",
+      "answer": "Нужен анализ его мотивации - обеспечение, регуляторные ограничения или внутренние лимиты. Часто помогает альтернативное предложение: частичное погашение и новый график."
+    },
+    {
+      "question": "Как влияет возбуждение дела о банкротстве на исполнительные производства?",
+      "answer": "Возбуждение дела о банкротстве обычно приводит к приостановлению ряда исполнительных производств и даёт время для формирования и реализации проекта реструктуризации (см. ст. 213.11 127‑ФЗ)."
+    },
+    {
+      "question": "Какие документы нужны для подготовки предложения по реструктуризации?",
+      "answer": "Финансовая модель, список кредиторов с указанием обеспечения, отчёт по ликвидности и перечень активов. Формат и детали уточняет юридический советник или назначенный управляющий."
+    },
+    {
+      "question": "Сколько стоит инициировать банкротную процедуру против компании (ориентир)?",
+      "answer": "Если заявление подаёт кредитор‑организация, применима государственная пошлина около 100 000 руб. (НК РФ ст. 333.21); это ориентир - полный набор расходов включает депозит, вознаграждение управляющего и иные затраты."
+    },
+    {
+      "question": "Когда имеет смысл рассматривать внешнее управление?",
+      "answer": "Внешнее управление рассматривают, если исполнительные действия грозят распродажей активов, кредиторы не идут на уступки и нужна внешняя мера для сохранения бизнеса - это судебная процедура с назначением внешнего управляющего (127‑ФЗ)."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Юридические утверждения сверены с research.json от 2026-06-18. Ключевые факты: порог возбуждения дела для юрлиц - 2 000 000 руб. (ст. 6, ст. 33 127‑ФЗ), госпошлина для кредитора-юрлица - 100 000 руб. (НК РФ ст. 333.21), при возбуждении дела возможна приостановка исполнительных производств (ст. 213.11 127‑ФЗ).",
+    "Утверждения о депозитах для арбитражного управляющего обговорены обтекаемо: для юрлиц размеры зависят от процедуры и ст. 20.6 127‑ФЗ; фиксированная сумма 25 000 руб. относится только к физлицам и в текст не перенесена для юрлиц.",
+    "Все числовые ссылки имеют соответствующие записи в research.json с last_verified 2026-06-18 и legislation_status: active."
+  ],
+  "keyword_density_main": 0.003,
+  "main_keyword_exact_count": 3,
+  "text_chars": 5674,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.1,
+  "local_spam_ngram3_repeat": 0.02,
+  "local_lexical_diversity": 0.709,
+  "local_ai_markers_density": 0.69,
+  "local_ai_markers_critical": 0,
+  "length_status": "too_short",
+  "length_kind": "default",
+  "local_ai_markers_total": 5,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 3,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 42,
+  "predicted_ai_pct": 5,
+  "predicted_uniqueness_pct": 90,
+  "customer_risks": [
+    "длина меньше минимума 6000 (5 674 знаков)"
+  ],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1781761634/articles/kak-provesti-restrukturizaciyu-dolgov-kompanii-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1781761634/articles/kak-provesti-restrukturizaciyu-dolgov-kompanii-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Editorial close-up photograph of polished marble foreground with refined architectural background; slight three-quarter tabletop angle, eye-level. On the marble surface: a closed dark leather portfolio placed left-of-center, a neat stack of sealed unmarked dossiers tied with cord, a polished round brass seal beside a fountain pen on a silver pen rest, an antique brass pocket watch opened to reveal its face, and a small silver tray holding a folded white handkerchief. Lighting: soft natural daylight grazing the marble from upper left with gentle warm rim-light on brass accents. Palette: cool cream marble, deep leather, warm brass highlights. Mood: composed, procedural, meticulous corporate restructuring.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-06-18T05:47:15Z",
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "length_too_short: 5674 < 6000 (kind=default)",
+    "targeted_tokens_over_limit: руб_сокращение=2(>≤0)"
+  ],
+  "date_published": "2026-06-18",
+  "date_modified": "2026-06-18",
+  "ready_for_review": true,
+  "ready_at": "2026-06-18T05:47:20Z",
+  "publication_target": "telegram_review"
+}

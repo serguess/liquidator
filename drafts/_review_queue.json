@@ -3060,6 +3060,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "kak-provesti-restrukturizaciyu-dolgov-kompanii",
+      "category": "yur",
+      "title": "Реструктуризация долгов компании: пошаговая инструкция",
+      "added_at": "2026-06-18T08:47:20.737400",
+      "char_count": 5674,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1781761634/articles/kak-provesti-restrukturizaciyu-dolgov-kompanii-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
