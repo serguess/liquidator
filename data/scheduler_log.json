@@ -16386,5 +16386,62 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-06-18T08:47:22",
+    "category": "vzysk",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 8,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "vzysk-87",
+    "topic_slug": "ugolovnaya-otvetstvennost-dolzhnika-st-177-uk",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "finalize_safety_net": {
+      "ran": true,
+      "rc": 0
+    },
+    "status": "ok",
+    "slug": "ugolovnaya-otvetstvennost-dolzhnika-st-177-uk",
+    "duration_sec": 233.5,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "    15658    4319    19977   $0.0126\n7-publisher         gpt-5-mini         8733     599     9332   $0.0034\n------------------------------------------------------------------------------\nИТОГО                                102055   17127   119182   $0.0598\nПроекция на 10 статей/день × 30 дней (300 статей): ~35754K ток/мес, ~$17.9/мес\nНе учтено: 5-uniqueness (эмбеддинги, ~копейки), image_gen (fal.ai, не LLM).\nАртефакты: drafts/ugolovnaya-otvetstvennost-dolzhnika-st-177-uk/  | quality_gate exit=0",
+    "stderr_tail": "",
+    "tokens_by_model": {},
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7465
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]

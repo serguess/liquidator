@@ -1,0 +1,99 @@
+{
+  "slug": "neustoyka-po-gossontraktu-44-fz-vzyskanie",
+  "category": "vzysk",
+  "title": "Неустойка по госконтракту: взыскание по правилам 44‑ФЗ",
+  "description": "Порядок взыскания неустойки по госконтракту: кто может требовать, когда возможен судприказ, что учесть в претензии и как проходит исполнение через ФССП.",
+  "h1": "Неустойка по госконтракту (44‑ФЗ): как взыскать по правилам",
+  "lead": "Коротко - можно требовать неустойку при наличии оговорки в контракте и доказанной просрочки; выбор процедуры зависит от суммы, характера требования и правил контракта.",
+  "topic_action": "взыскание неустойки по госконтракту",
+  "breadcrumb_current": "Неустойка по госконтракту",
+  "og_image": "/assets/articles/neustoyka-po-gossontraktu-44-FZ-vzyskanie.jpg",
+  "main_keyword": "неустойка по госконтракту 44-ФЗ взыскание",
+  "secondary_keywords": [
+    "взыскание неустойки по госконтракту",
+    "претензия по неустойке 44‑ФЗ",
+    "порядок взыскания неустойки госконтракт",
+    "исковое заявление по неустойке",
+    "исполнительное производство по неустойке"
+  ],
+  "internal_links": [
+    "/articles/vzysk/kak-podat-isk-po-dogovoru-podryada",
+    "/articles/vzysk/prikaznoe-proizvodstvo-v-arbitrazhe",
+    "/articles/vzysk/ispolnitelnoe-proizvodstvo-chto-oznachaet"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_34661/0f0d6b2f3f6c1a8b1b9f9b2d9b2d4e2a/",
+    "https://www.consultant.ru/document/cons_doc_LAW_3957/1c6b8d5a2a3f2b9e4c8d1f6b3b7e9a0c/"
+  ],
+  "faq": [
+    {
+      "question": "Можно ли взыскать неустойку по госконтракту в приказном порядке при сумме 400 000 рублей?",
+      "answer": "Если предмет иска формально отвечает требованиям приказного производства и размер требования не превышает 500 000 руб., взыскание может быть рассмотрено в порядке судебного приказа (ст. 229.2 АПК РФ). Применимость этой процедуры зависит от содержания требования и условий контракта и требует отдельной проверки."
+    },
+    {
+      "question": "Что делать, если контракт требует обязательной претензионной процедуры, а претензия оформлена с нарушениями?",
+      "answer": "Сначала попытайтесь восстановить доказательную базу: сохраните переписку, направьте уточняющую претензию, если это допустимо по контракту, и зафиксируйте сроки. Нарушение претензионного порядка обычно ослабляет позицию, поэтому перед подачей иска имеет смысл проконсультироваться с юристом."
+    },
+    {
+      "question": "Сколько лет действует исковая давность по требованиям о неустойке по госконтракту?",
+      "answer": "Как правило, общий срок исковой давности по имущественным требованиям составляет три года. Для требований по госконтракту нужно сверять момент возникновения требования и текст контракта с нормами 44‑ФЗ и ГК РФ - в отдельных ситуациях сроки могут отличаться."
+    },
+    {
+      "question": "Какие удержания применяют приставы при исполнении решения о взыскании неустойки?",
+      "answer": "При исполнении решения приставы обычно удерживают не более 50% дохода должника после удержания НДФЛ; повышенный предел до 70% применяется только по основаниям, перечисленным в законе (например, алименты). Кроме того, начисляется исполнительский сбор - 7% от взыскиваемой суммы; до начала принудительных действий должнику даётся срок для добровольной оплаты."
+    },
+    {
+      "question": "Когда лучше идти в арбитраж в общем порядке, а не пытаться через приказной порядок?",
+      "answer": "Исковое производство предпочтительнее, если расчёт неустойки сложен, доказательства фрагментарны или есть высокий риск возражений. Приказ быстрее при формальном, недвусмысленном расчёте и небольшом размере требования, но ответчик может возразить и перевести спор в общее производство."
+    },
+    {
+      "question": "Можно ли взыскать неустойку с бюджета, если ответчик - государственный орган?",
+      "answer": "Иски к государственным и муниципальным заказчикам имеют особенности. Нужно проверить положения 44‑ФЗ и текст контракта на предмет специальных правил и исключений; в таких ситуациях чаще готовят иск в общем порядке с полным пакетом доказательств."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Факты о лимите приказного производства (500 000 руб., ст. 229.2 АПК РФ) проверены и сохранены в безопасной формулировке.",
+    "Сведения об удержаниях приставов (обычно не более 50% после НДФЛ; повышенный предел до 70% по отдельным основаниям) и исполнительском сборе (7%) подтверждены и оставлены в тексте в безопасной формулировке.",
+    "Утверждения о порядке претензионного урегулирования и методике расчёта неустойки заменены обтекаемыми формулировками из research.safe_phrasing: эти вопросы зависят от текста контракта и положений 44‑ФЗ и требуют проверки конкретного контракта.",
+    "Все факты с числовыми значениями присутствуют в research.json с last_verified не старше 6 месяцев для используемых положений; факты, помеченные needs_verification, представлены в тексте как рекомендуемые к проверке."
+  ],
+  "keyword_density_main": 0.012,
+  "main_keyword_exact_count": 2,
+  "text_chars": 7582,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.12,
+  "local_spam_ngram3_repeat": 0.027,
+  "local_lexical_diversity": 0.573,
+  "local_ai_markers_density": 0.62,
+  "local_ai_markers_critical": 0,
+  "length_status": "warn",
+  "length_kind": "default",
+  "local_ai_markers_total": 6,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 4,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "ready_for_review": true,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1781762114/articles/neustoyka-po-gossontraktu-44-fz-vzyskanie-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1781762114/articles/neustoyka-po-gossontraktu-44-fz-vzyskanie-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Low-key photograph of a dark wood-paneled private office nook with a single warm pool of light from a brass library lamp illuminating a leather-topped desk; foreground items arranged in the light: a polished brass round official seal set on a closed stack of unmarked dossiers, a closed law book with embossed gilt spine beside a capped fountain pen on a stand, reading glasses folded atop a narrow leather-bound diary, an antique pocket watch on a chain partially draped over the book edge. Camera: three-quarter angle, eye-level. Lighting: rich tungsten pool with deep ambient shadow. Mood: confidential, procedural enforcement, sober consequence.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-06-18T05:55:15Z",
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 60,
+  "predicted_ai_pct": 5,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность заметно выше 50% (~60%)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "spam_risk: 3 флагов (top10_sum>80 (=86), top10_share>0.115 (=0.12), lexical_diversity<0.58 (=0.573)), top-5: ['неустойк', 'требован', 'соглашен', 'расч', 'претенз']",
+    "targeted_tokens_over_limit: руб_сокращение=3(>≤0), 000руб_паттерн=4(>≤2)",
+    "too_few_short_sentences: 10 < 12"
+  ]
+}
