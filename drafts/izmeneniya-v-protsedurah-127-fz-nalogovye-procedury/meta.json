@@ -1,0 +1,100 @@
+{
+  "slug": "izmeneniya-v-protsedurah-127-fz-nalogovye-procedury",
+  "category": "news",
+  "title": "Уточнения по налоговым требованиям в процедурах 127‑ФЗ",
+  "description": "Кратко о новом уточнении в применении 127‑ФЗ: как теперь учитываются налоговые требования при ведении процедур банкротства, кто пострадает и какие шаги рекомендуются должникам и кредиторам.",
+  "h1": "Изменения в применении 127‑ФЗ: уточнения по налоговым требованиям",
+  "lead": "Коротко и по делу: что изменилось в учёте налоговых требований при процедурах по 127‑ФЗ, какие риски это создаёт для должников и кредиторов и что стоит проверить в первую очередь.",
+  "topic_action": "разбор налоговых требований по 127‑ФЗ",
+  "breadcrumb_current": "Уточнения по налоговым требованиям",
+  "og_image": "/assets/articles/izmeneniya-v-protsedurah-127-fz-nalogovye-procedury.jpg",
+  "main_keyword": "налоговые требования 127-ФЗ уточнения",
+  "secondary_keywords": [
+    "налоговые требования при банкротстве",
+    "127‑ФЗ налоговые требования",
+    "учет задолженности перед бюджетом в банкротстве",
+    "включение налоговых требований в реестр кредиторов",
+    "права налоговых органов при банкротстве",
+    "порядок удовлетворения требований налоговой службы"
+  ],
+  "internal_links": [],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/",
+    "https://bankrot.fedresurs.ru/"
+  ],
+  "faq": [
+    {
+      "question": "Нужно ли регистрироваться, чтобы увидеть требование ФНС в ЕФРСБ?",
+      "answer": "Нет. ЕФРСБ публичен: сведения о предъявленных требованиях и об их включении публикуются управляющим и становятся доступны после размещения."
+    },
+    {
+      "question": "Как быстро требование появится в реестре после подачи управляющему?",
+      "answer": "По изменениям 2024 года управляющий обязан опубликовать сведения в ЕФРСБ в течение пяти рабочих дней с момента получения требования."
+    },
+    {
+      "question": "Что произойдёт с действующим исполнительным производством по налогам после открытия банкротного дела?",
+      "answer": "Исполнительные меры действуют до приостановления или иного процессуального решения в деле о банкротстве; конкретный эффект зависит от решения суда и состояния исполнительного производства в каждом случае."
+    },
+    {
+      "question": "Можно ли оспорить сумму налоговой претензии в рамках конкурсного производства?",
+      "answer": "Можно. Оспаривание требует доказательств - расчётов, актов сверки и иных документов - и часто приводит к снижению суммы, но не к автоматическому исключению требования."
+    },
+    {
+      "question": "Повлияет ли публикация требований в ЕФРСБ на шансы получить новый кредит?",
+      "answer": "Публичная запись о требованиях может ухудшить переговорные позиции и повлиять на кредитный рейтинг - это зависит от контекста и размера требований."
+    },
+    {
+      "question": "Кто оплачивает публикации требований в ЕФРСБ - должник или управляющий?",
+      "answer": "Публикации выполняет управляющий при получении требования; вопросы расходов зависят от типа процедуры и практики - уточняйте при разборе конкретного дела."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Формулировки, прямо утверждающие процессуальные особенности участия налоговых органов, приведены в соответствии с безопасными формулировками research.safe_phrasing (f1) - там, где исходный draft мог говорить категорично, использовано обтекаемое утверждение о статусе налоговых органов как кредиторов.",
+    "Утверждение о сроке публикации в ЕФРСБ (пять рабочих дней) сохранено и основано на проверенном факте (f2) с last_verified=2026-06-18, legislation_status=active.",
+    "Уточнения о различии исполнительного производства и мер в банкротстве поданы в безопасной форме согласно f3.",
+    "Факты, отмеченные в research.fact_gaps (точная очередь удовлетворения и процессуальные детали взаимодействия ФНС/управляющего), в тексте вынесены как требующие проверки по конкретному делу и не преподнесены в категоричной форме."
+  ],
+  "keyword_density_main": null,
+  "main_keyword_exact_count": 0,
+  "text_chars": 7672,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.108,
+  "local_spam_ngram3_repeat": 0.034,
+  "local_lexical_diversity": 0.585,
+  "local_ai_markers_density": 0.72,
+  "local_ai_markers_critical": 0,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1781762344/articles/izmeneniya-v-protsedurah-127-fz-nalogovye-procedury-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1781762344/articles/izmeneniya-v-protsedurah-127-fz-nalogovye-procedury-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Studio close-up of a single iconic legal cluster on a clean smoky gradient background: a polished round brass company seal placed slightly off-center, a closed dark leather case folder with rounded corners positioned behind and to the left, and a small antique pocket watch on a delicate chain resting atop the folder; soft directional studio light from upper left creating gentle rim highlights and subtle shadow falloff, hyperrealistic product-photography detail, shallow depth of field, premium neutral palette of graphite, warm brass and oxblood accents, mood: precise regulatory clarification and measured authority.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-06-18T05:59:05Z",
+  "length_status": "too_long",
+  "length_kind": "news",
+  "local_ai_markers_total": 7,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 4,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 58,
+  "predicted_ai_pct": 5,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность заметно выше 50% (~58%)",
+    "длина значительно больше лимита 6800 (7 672 знаков)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "length_too_long: 7672 > 6800 (kind=news)",
+    "too_few_short_sentences: 7 < 12"
+  ],
+  "date_published": "2026-06-18",
+  "date_modified": "2026-06-18",
+  "ready_for_review": true,
+  "ready_at": "2026-06-18T05:59:07Z",
+  "publication_target": "telegram_review"
+}

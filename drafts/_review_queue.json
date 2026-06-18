@@ -3086,6 +3086,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "izmeneniya-v-protsedurah-127-fz-nalogovye-procedury",
+      "category": "news",
+      "title": "Уточнения по налоговым требованиям в процедурах 127‑ФЗ",
+      "added_at": "2026-06-18T08:59:07.314305",
+      "char_count": 7672,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1781762344/articles/izmeneniya-v-protsedurah-127-fz-nalogovye-procedury-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
