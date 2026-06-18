@@ -1,0 +1,98 @@
+{
+  "slug": "iski-konkyursnogo-upravlyayushchego-trethim-licam",
+  "category": "yur",
+  "title": "Иски конкурсного управляющего к третьим лицам: основания и порядок",
+  "description": "Когда конкурсный управляющий вправе предъявлять иски к третьим лицам, какие требования включать в иск, какую доказательную базу собирать и какие процессуальные особенности важно учитывать в арбитражном суде.",
+  "h1": "Иски конкурсного управляющего к третьим лицам: основания и порядок подачи",
+  "lead": "Разбираем, в каких ситуациях управляющий может обращаться в арбитраж с исками к третьим лицам, какие требования формулировать и какие доказательства подготовить - чтобы решить, стоит ли тратить ресурсы конкурсной массы на судебный спор.",
+  "topic_action": "предъявление исков к третьим лицам",
+  "breadcrumb_current": "Иски конкурсного управляющего",
+  "og_image": "/assets/articles/iski-konkyursnogo-upravlyayushchego-trethim-licam.jpg",
+  "main_keyword": "иски конкурсного управляющего к третьим лицам",
+  "secondary_keywords": [
+    "исковая давность по требованиям конкурсного управляющего",
+    "иск о вине третьего лица конкурсный управляющий",
+    "взыскание убытков с третьих лиц при банкротстве",
+    "порядок предъявления исков конкурсным управляющим",
+    "правовой статус третьих лиц при конкурсном производстве",
+    "доказательства в иске конкурсного управляющего",
+    "предъявление регрессных требований конкурсным управляющим",
+    "исковая форма иска конкурсный управляющий"
+  ],
+  "internal_links": [],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/",
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/c2c8c81ee8e4bd843286b08b10607f00ec6ae073/"
+  ],
+  "faq": [
+    {
+      "question": "В каких случаях управляющий может оспорить сделку контрагента?",
+      "answer": "Если операция привела к уменьшению имущественного объёма конкурсной массы и есть признаки предпочтения кредитору, притворности или иные признаки сомнительности; при этом нужны платежные документы и другие доказательства, подтверждающие связь операции с выводом активов."
+    },
+    {
+      "question": "Какие документы обычно нужны, чтобы доказать вывод средств?",
+      "answer": "Договоры, платёжные поручения, банковские выписки, акты приёма-передачи, отчётность и при необходимости - экспертные заключения по стоимости или бухгалтерским операциям."
+    },
+    {
+      "question": "Как исчисляется исковая давность по требованиям конкурсного управляющего?",
+      "answer": "Срок зависит от природы требования: по общим правилам ГК РФ применяются стандартные сроки, но для разных видов требований момент начала течения срока и возможные перерывы требуют отдельной проверки."
+    },
+    {
+      "question": "Что произойдёт, если ответчик не имеет имущества для исполнения решения?",
+      "answer": "Решение может быть вынесено, но исполнение затруднено; в таком случае рассматривают варианты взыскания с аффилированных лиц или иные пути возврата средств, но эффективность зависит от наличия ликвидных активов."
+    },
+    {
+      "question": "Куда включается взысканная по иску сумма после решения суда?",
+      "answer": "Взысканное включается в конкурсную массу и учитывается при формировании реестра требований кредиторов."
+    },
+    {
+      "question": "Когда имеет смысл отказаться от иска из‑за его нерентабельности?",
+      "answer": "Если ожидаемые расходы на экспертизы и судебные издержки превышают потенциальное взыскание либо ответчик не имеет активов, иск в большинстве случаев нерентабелен."
+    }
+  ],
+  "factcheck_passed": false,
+  "factcheck_notes": [
+    "Часть утверждений в тексте обобщённые и соответствуют safe_phrasing из research.json (управляющий действует в интересах конкурсной массы и вправе предъявлять иски; иски подаются в арбитраж в порядке, установленном 127‑ФЗ и АПК РФ; необходимость сбора договоров, платёжных документов, выписок и при необходимости экспертиз).",
+    "Требуется дополнительная верификация конкретных процессуальных оснований и формулировок для оспаривания сделок (в research.facts отмечены позиции с legislation_status: needs_verification - см. f2).",
+    "Нужна проверка конкретных правил и сроков исковой давности для разных видов требований конкурсной массы (f4 отмечен needs_verification).",
+    "Процессуальные аспекты включения регрессных требований и порядок их отражения в реестре требуют подтверждения (f6 отмечен needs_verification)."
+  ],
+  "keyword_density_main": 0.012,
+  "main_keyword_exact_count": 2,
+  "text_chars": 7547,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.124,
+  "local_spam_ngram3_repeat": 0.037,
+  "local_lexical_diversity": 0.562,
+  "local_ai_markers_density": 0.21,
+  "local_ai_markers_critical": 0,
+  "length_status": "warn",
+  "length_kind": "default",
+  "local_ai_markers_total": 2,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 2,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "ready_for_review": false,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1781757666/articles/iski-konkyursnogo-upravlyayushchego-trethim-licam-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1781757666/articles/iski-konkyursnogo-upravlyayushchego-trethim-licam-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Photograph of a private office interior with subdued low-key lighting, deep walnut paneling and an oxblood leather chair in the background; foreground a leather-topped desk with a closed thin laptop at slight angle, a leather-bound notebook with a fountain pen on a polished brass stand across it, a polished round brass seal resting on a small stack of unmarked folders, an antique pocket watch on a short chain beside a neat folded pair of reading glasses; camera three-quarter eye-level, warm tungsten pool light from a brass lamp creating contemplative shadows, palette: oxblood, walnut, brass, charcoal, mood: solemn deliberation and strategic legal action.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-06-18T04:41:07Z",
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 62,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность заметно выше 50% (~62%)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "spam_risk: 5 флагов (top1_count>12 (=17, лемма «масс»), top3_sum>30 (=42), top10_sum>80 (=90), top10_share>0.115 (=0.124), lexical_diversity<0.58 (=0.562)), top-5: ['масс', 'конкурсн', 'средств', 'част', 'имуществ']",
+    "targeted_tokens_over_limit: РФ_рудимент=3(>≤2)",
+    "too_few_short_sentences: 11 < 12"
+  ]
+}

@@ -16073,5 +16073,66 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-06-18T05:12:20",
+    "category": "fiz",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 3,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "fiz-101",
+    "topic_slug": "bankrotstvo-pri-dolgah-za-meditsinskie-uslugi-i-likbez-dolga",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "forced_pass_at_iter2: блокеры пропущены, статья идёт в TG-очередь с metrics_warning=true. Было: 4 блокеров — spam_risk; targeted_tokens_over_limit; author_markers_missing; anti_template_phrases"
+      ],
+      "recommendations": [
+        "reduce_repetition: разбавить топ-5 частотных лемм местоимениями/перифразом — ['требован', 'вред', 'клиник', 'возмещен', 'списан']",
+        "reduce_руб: «руб» × 2 → cap 0. Только полное «рублей»/«рубля». В контексте суммы единица иногда опускается: «долг 82 400» вместо «долг 82 400 рублей».",
+        "reduce_round_sums: «X 000 руб» × 3 → cap 2. Иллюстративные суммы — некруглые (82 400, 147 500). Статутные пороги (300 000, 500 000) — 1 раз в точной форме + дальше через дескриптор («эта планка», «новый минимум»).",
+        "add_author_markers: добавить минимум 2 вставок «по нашему опыту» / «в нашей практике» / «мы считаем» / «мы видим». Это главный anti-AI маркер — без него text.ru показывает AI 7-19%.",
+        "rewrite_unique: перифразировать дословные шаблонные фразы (см. .claude/style/anti-template-phrases.md, секция «Как перифразировать»). Примеры: «кому подходит банкротство» / «требования о возмещении вреда»"
+      ],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "bankrotstvo-pri-dolgah-za-meditsinskie-uslugi-i-likbez-dolga",
+    "duration_sec": 265.0,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "26    20958   $0.0125\n7-publisher         gpt-5-mini         8728     473     9201   $0.0031\n------------------------------------------------------------------------------\nИТОГО                                144834   21755   166589   $0.0797\nПроекция на 10 статей/день × 30 дней (300 статей): ~49976K ток/мес, ~$23.9/мес\nНе учтено: 5-uniqueness (эмбеддинги, ~копейки), image_gen (fal.ai, не LLM).\nАртефакты: drafts/bankrotstvo-pri-dolgah-za-meditsinskie-uslugi-i-likbez-dolga/  | quality_gate exit=0",
+    "stderr_tail": "",
+    "tokens_by_model": {},
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 6890
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]
