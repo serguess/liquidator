@@ -1,0 +1,100 @@
+{
+  "slug": "bankrotstvo-pri-dolgah-za-meditsinskie-uslugi-i-likbez-dolga",
+  "category": "fiz",
+  "title": "Банкротство при долгах за медицинские услуги: можно ли списать",
+  "description": "Можно ли списать долги за платные медицинские услуги через банкротство физлица: кто кредитор, какие долги не списываются, как влияют удержания приставов и какие документы проверить.",
+  "h1": "Банкротство при долгах за медицинские услуги: можно ли списать долг",
+  "lead": "Разбираем, какие долги медицинским учреждениям попадают в реестр кредиторов и какие ситуации исключают списание - чтобы вы знали, что проверять в документах.",
+  "topic_action": "списание долгов перед медицинским учреждением",
+  "breadcrumb_current": "Долги за медуслуги и банкротство",
+  "og_image": "/assets/articles/bankrotstvo-pri-dolgah-za-meditsinskie-uslugi-i-likbez-dolga.jpg",
+  "main_keyword": "банкротство при долгах за медицинские услуги",
+  "secondary_keywords": [
+    "долги за медицинские услуги списать",
+    "банкротство из-за долгов в больнице",
+    "как списать долг перед клиникой",
+    "медицинский долг судебный приказ",
+    "исключения при списании долгов"
+  ],
+  "internal_links": [],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/21328/",
+    "https://www.consultant.ru/document/cons_doc_LAW_2812/99/"
+  ],
+  "faq": [
+    {
+      "question": "Можно ли списать долг перед коммерческой клиникой через банкротство?",
+      "answer": "Да, если претензия оформлена как договорная задолженность - она обычно включается в реестр и может быть погашена по итогам конкурсной массы. Если же клиника требует возмещение ущерба здоровью, такое требование не подлежит списанию (п. 5 ст. 213.28 127‑ФЗ)."
+    },
+    {
+      "question": "Как понять, что требование клиники - возмещение вреда, а не обычный долг?",
+      "answer": "Посмотрите формулировку иска или исполнительного документа: слова «возмещение», «ущерб», «вред здоровью» указывают на требование о компенсации. При сомнении нужен разбор договора, актов и исковых формулировок."
+    },
+    {
+      "question": "До какого предела приставы могут удерживать зарплату по такому требованию?",
+      "answer": "Общий предел удержаний - до 50% дохода после НДФЛ. Удержание до 70% возможно только для искажённой категории требований, включая возмещение вреда здоровью (ст. 99 ФЗ‑229)."
+    },
+    {
+      "question": "Что делать, если удержали больше, чем положено?",
+      "answer": "Сначала запросите расчёт у работодателя или банка, затем подайте жалобу старшему судебному приставу подразделения; если нарушение не устранено - обжалуйте действия пристава в суде (ст. 123, 128 ФЗ‑229)."
+    },
+    {
+      "question": "Подойдёт ли судебный приказ для взыскания с клиники?",
+      "answer": "Да, если требование подтверждено документально и сумма не превышает 500 000 рублей - в арбитраже может быть применён судебный приказ (ст. 229.2 АПК РФ)."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Ключевые утверждения сверены с research.json (последняя проверка 2026-06-18).",
+    "Долги за платные медицинские услуги как правило включаются в реестр и могут быть списаны по ст. 213.28 127‑ФЗ (f1).",
+    "Требования о возмещении вреда здоровью не подлежат списанию (п. 5 ст. 213.28) - критическое исключение (f2).",
+    "Исполнительные удержания: общий предел 50% после НДФЛ; повышенный предел до 70% применяется только для ряда категорий, включая возмещение вреда здоровью (ФЗ‑229 ст. 99) (f4).",
+    "Судебный приказ в арбитраже возможен при сумме требования до 500 000 руб. (АПК РФ ст. 229.2) (f5).",
+    "Должник-физлицо при подаче заявления на собственное банкротство не уплачивает госпошлину; требуется депозит на вознаграждение финансового управляющего 25 000 руб. (f6)."
+  ],
+  "keyword_density_main": 0.012,
+  "main_keyword_exact_count": 2,
+  "text_chars": 6890,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.148,
+  "local_spam_ngram3_repeat": 0.05,
+  "local_lexical_diversity": 0.577,
+  "local_ai_markers_density": 0.34,
+  "local_ai_markers_critical": 0,
+  "length_status": "ok",
+  "length_kind": "default",
+  "local_ai_markers_total": 3,
+  "local_ai_markers_high": 1,
+  "local_own_voice_hits": 0,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 62,
+  "predicted_ai_pct": 11,
+  "predicted_uniqueness_pct": 78,
+  "customer_risks": [
+    "заспамленность заметно выше 50% (~62%)",
+    "AI-detector чуть выше 10% (~11%)",
+    "уникальность ниже 85% (~78%)"
+  ],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1781749002/articles/bankrotstvo-pri-dolgah-za-meditsinskie-uslugi-i-likbez-dolga-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1781749002/articles/bankrotstvo-pri-dolgah-za-meditsinskie-uslugi-i-likbez-dolga-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Editorial photograph of a contemporary workspace with natural materials — light oak desk and raw concrete backdrop, camera three-quarter at eye-level with shallow depth of field; on the desk arranged 5 objects: a sleek closed laptop slightly left of center, a leather-bound notebook with a fountain pen resting diagonally across its cover, a smartphone face-down beside the notebook, a white porcelain coffee cup on a saucer, and a ceramic water bottle to the right; background: floor-to-ceiling window with soft overcast city view blurred; lighting: bright cool daylight from window with warm interior fill; palette: pale oak, soft concrete grey, warm leather accents; mood: calm, practical, hopeful guidance for an individual facing medical debt.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-06-18T02:16:43Z",
+  "date_published": null,
+  "date_modified": null,
+  "ready_for_review": true,
+  "ready_at": null,
+  "publication_target": null,
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "spam_risk: 5 флагов (top1_count>12 (=14, лемма «требован»), top3_sum>30 (=38), top10_sum>80 (=96), top10_share>0.115 (=0.148), lexical_diversity<0.58 (=0.577)), top-5: ['требован', 'вред', 'клиник', 'возмещен', 'списан']",
+    "targeted_tokens_over_limit: руб_сокращение=2(>≤0), 000руб_паттерн=3(>≤2)",
+    "author_markers_missing: 0 < 2",
+    "anti_template_phrases: 3 вхождений (2 уникальных)"
+  ]
+}
