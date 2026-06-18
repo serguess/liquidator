@@ -3073,6 +3073,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "ugolovnaya-otvetstvennost-dolzhnika-st-177-uk",
+      "category": "vzysk",
+      "title": "Уклонение от уплаты (ст. 177 УК): уголовная ответственность",
+      "added_at": "2026-06-18T08:51:16.132305",
+      "char_count": 7465,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1781761870/articles/ugolovnaya-otvetstvennost-dolzhnika-st-177-uk-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
