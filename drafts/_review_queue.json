@@ -3047,6 +3047,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "ekologicheskie-obyazatelstva-bankrotstvo-yurlica",
+      "category": "yur",
+      "title": "Экологические обязательства при банкротстве юрлица: основные риски и порядок действий",
+      "added_at": "2026-06-18T08:40:40.458690",
+      "char_count": 7269,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1781761235/articles/ekologicheskie-obyazatelstva-bankrotstvo-yurlica-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
