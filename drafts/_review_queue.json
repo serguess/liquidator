@@ -3034,6 +3034,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "bankrotstvo-i-zarabotnaya-plata-chto-mogut-derzhat-pristavy",
+      "category": "fiz",
+      "title": "Что могут удерживать приставы из зарплаты при банкротстве",
+      "added_at": "2026-06-18T08:35:30.156505",
+      "char_count": 6743,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1781760927/articles/bankrotstvo-i-zarabotnaya-plata-chto-mogut-derzhat-pristavy-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
