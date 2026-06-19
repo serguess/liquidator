@@ -1,0 +1,96 @@
+{
+  "slug": "prava-kreditora-pri-ispolnenii-resheniya-posle-likvidacii-ooo",
+  "category": "vzysk",
+  "title": "Как взыскать долг с компании после ликвидации: порядок действий кредитора",
+  "description": "Пошаговая инструкция для кредитора: какие возможности есть после ликвидации ООО, как обнаружить имущество, привлечь к ответственности бывших лиц, оспорить сделки и обратиться в арбитраж и ФССП.",
+  "h1": "Как взыскать долг с компании после её ликвидации: права и алгоритм действий кредитора",
+  "lead": "Разбираем, что реально сделать кредитору после исключения компании из ЕГРЮЛ: от работы с ФССП до судов по возвращению активов и привлечению причастных лиц.",
+  "topic_action": "взыскание долга с ликвидированного ООО",
+  "breadcrumb_current": "Взыскание после ликвидации",
+  "og_image": "/assets/articles/prava-kreditora-pri-ispolnenii-resheniya-posle-likvidacii-ooo.jpg",
+  "main_keyword": "взыскать долг с компании после ликвидации",
+  "secondary_keywords": [
+    "взыскание долга с ликвидированного ООО",
+    "привлечение к субсидиарной ответственности после ликвидации",
+    "оспаривание сделок ликвидированной компании",
+    "исполнительное производство против ликвидированной компании",
+    "ответственность учредителей после ликвидации ООО"
+  ],
+  "internal_links": [],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/c48290d39215783e73f0899bb1026b14cb221eff/",
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/c2c8c81ee8e4bd843286b08b10607f00ec6ae073/"
+  ],
+  "faq": [
+    {
+      "question": "Можно ли подать заявление приставам, если компания уже исключена из ЕГРЮЛ?",
+      "answer": "Да. Наличие исполнительного листа позволяет приставам действовать: розыск имущества и запросы в банки остаются доступными инструментами."
+    },
+    {
+      "question": "При каких обстоятельствах имеет смысл требовать субсидиарную ответственность от бывшего директора?",
+      "answer": "Когда есть доказательства вывода активов или транзакции в пользу аффилиатов, подтверждённые документами и, желательно, экспертным заключением."
+    },
+    {
+      "question": "Как доказать, что сделки перед ликвидацией были направлены на вывод активов?",
+      "answer": "Нужны договора с заниженной ценой, совпадающие переводы и экспертное заключение о рыночной стоимости - эти материалы помогают связать сделки с ущербом кредиторам."
+    },
+    {
+      "question": "Что делать, если удержали социальные выплаты - можно ли их вернуть?",
+      "answer": "Сначала получите расчёт удержаний в банке или у работодателя, затем подайте жалобу старшему судебному приставу; при отказе обжалуйте действия приставов в суде."
+    },
+    {
+      "question": "Какие расходы ожидают кредитора при иске о субсидиарке и окупается ли это при небольшой сумме долга?",
+      "answer": "Расходы включают оплату экспертиз, услуги юристов и судебные издержки. При небольших суммах зачастую затраты превышают потенциальный возврат - нужна предварительная оценка окупаемости."
+    },
+    {
+      "question": "Есть ли практика восстановления записи в ЕГРЮЛ для продолжения исполнения решения?",
+      "answer": "Случаи единичны. В отдельных делах суды выносят решения, дающие процессуальные основания для дальнейшего исполнения, но это сложный путь, требующий отдельной правовой оценки и проверки правовых оснований."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все конкретные нормативные утверждения приведены в нейтральной форме и согласованы с research.safe_phrasings (исключены непроверенные формулировки).",
+    "Утверждение о лимите для судебного приказа оформлено согласно research.f1 (ст. 229.2 АПК РФ, last_verified 2026-06-19).",
+    "Ограничения удержаний и перечень защищённых выплат приведены согласно research.f2 и f3 (ФЗ-229, ст. 99 и ст. 101, last_verified 2026-06-19).",
+    "Формулировки о привлечении к субсидиарной ответственности и о возможности процессуальных мер в отношении записи в ЕГРЮЛ приведены в обтекаемой, безопасной форме в соответствии с research.safe_phrasings (f6, f7 отмечены как требующие верификации; текст не делает точных процессуальных обещаний).",
+    "Указанные рекомендации и порядок действий отражают общепринятую практику и не утверждают гарантированного результата (forbidden_claims соблюдены)."
+  ],
+  "keyword_density_main": 0.015,
+  "main_keyword_exact_count": 2,
+  "text_chars": 6491,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.109,
+  "local_spam_ngram3_repeat": 0.02,
+  "local_lexical_diversity": 0.623,
+  "local_ai_markers_density": 0.47,
+  "local_ai_markers_critical": 0,
+  "length_status": "warn",
+  "length_kind": "default",
+  "local_ai_markers_total": 4,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 1,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 49,
+  "predicted_ai_pct": 11,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "AI-detector чуть выше 10% (~11%)"
+  ],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1781848339/articles/prava-kreditora-pri-ispolnenii-resheniya-posle-likvidacii-ooo-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1781848339/articles/prava-kreditora-pri-ispolnenii-resheniya-posle-likvidacii-ooo-cover.jpg",
+  "ready_for_review": true,
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Editorial photograph of a contemporary conference room built with natural materials — light oak table and raw concrete backdrop, camera at three-quarter eye-level with shallow depth of field; on the table arranged deliberately to illustrate creditor action after liquidation: a sleek closed laptop angled left, a polished brass round seal placed near a small stack of tied unmarked dossiers, a leather-bound notebook opened to a blank spread with a fountain pen resting diagonally across it, a smartphone face-down beside the notebook, a white porcelain coffee cup at right; lighting: cool daylight from windows with warm interior fill, palette: oak, brass, leather; mood: focused procedural determination.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-06-19T05:52:20Z",
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "targeted_tokens_over_limit: руб_сокращение=1(>≤0)",
+    "author_markers_missing: 0 < 2",
+    "too_few_short_sentences: 4 < 12"
+  ]
+}
