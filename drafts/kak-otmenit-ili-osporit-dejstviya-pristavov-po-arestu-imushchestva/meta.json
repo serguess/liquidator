@@ -1,0 +1,104 @@
+{
+  "slug": "kak-otmenit-ili-osporit-dejstviya-pristavov-po-arestu-imushchestva",
+  "category": "vzysk",
+  "title": "Как оспорить или отменить действия приставов при аресте имущества",
+  "description": "Что делать, если приставы неправомерно арестовали имущество: основания для отмены ареста, куда жаловаться, сроки и порядок действий, чтобы вернуть вещи или снять арест.",
+  "h1": "Как оспорить или отменить действия приставов при неправомерном аресте имущества: пошаговая инструкция",
+  "lead": "Если приставы арестовали счёт или имущество неправомерно, действуйте быстро: запросите расчёт и постановление, подайте жалобу старшему судебному приставу и, при необходимости, обращайтесь в суд.",
+  "topic_action": "снятие ареста с имущества",
+  "breadcrumb_current": "Оспаривание ареста имущества",
+  "og_image": "/assets/articles/kak-otmenit-ili-osporit-dejstviya-pristavov-po-arestu-imushchestva.jpg",
+  "main_keyword": "как оспорить арест имущества приставами",
+  "secondary_keywords": [
+    "оспорить арест имущества",
+    "жалоба на действия пристава",
+    "как снять арест с имущества",
+    "арест имущества приставами незаконно",
+    "исковое заявление об отмене ареста",
+    "порядок обжалования действий судебного пристава",
+    "снятие ареста с квартиры",
+    "претензия судебному приставу"
+  ],
+  "internal_links": [],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_22583/",
+    "https://www.consultant.ru/document/cons_doc_LAW_34678/"
+  ],
+  "faq": [
+    {
+      "question": "Можно ли снять арест, если должника не уведомили надлежащим образом?",
+      "answer": "Да. Отсутствие надлежащего уведомления - процессуальное нарушение, которое можно указать в жалобе старшему судебному приставу подразделения и в иске в суд."
+    },
+    {
+      "question": "Что делать, если списали деньги с пенсии или соцвыплат?",
+      "answer": "Запросите расчёт у банка или работодателя. Если удержаны выплаты из перечня, перечисленного в ст. 101 ФЗ‑229, подавайте жалобу в подразделение приставов и при необходимости обращайтесь в суд."
+    },
+    {
+      "question": "Через какой срок обжалуют постановление о взыскании исполнительского сбора?",
+      "answer": "Постановление о взыскании исполнительского сбора можно обжаловать в суд в 10‑дневный срок с момента его получения."
+    },
+    {
+      "question": "Как подать заявление о сохранении прожиточного минимума на счёте?",
+      "answer": "Подаёте заявление в подразделение ФССП с указанием счёта и просьбой сохранить сумму, равную прожиточному минимуму; защита вступает в силу после подачи заявления."
+    },
+    {
+      "question": "Когда имеет смысл сразу обращаться в суд, а не ждать ответа от начальника подразделения?",
+      "answer": "Если списана крупная сумма, удержаны пенсии или соцвыплаты, либо служба не отвечает - стоит идти сразу в суд; при технических ошибках чаще помогает обращение к начальнику подразделения."
+    },
+    {
+      "question": "Какие доказательства помогут суду признать арест незаконным?",
+      "answer": "Копии постановления, расчёты списаний из банка или от работодателя, выписки по счёту, уведомления и заявление о сохранении прожиточного минимума."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все ключевые юридические утверждения сверены с research.json (ФЗ‑229 и процессуальными нормами).",
+    "Последовательность обжалования (жалоба старшему приставу → суд) подтверждена (ст. 123, ст. 128 ФЗ‑229).",
+    "Срок добровольного исполнения - 5 рабочих дней; исполнительский сбор при неисполнении проверен (ст. 30 ч.12; ст. 112 ФЗ‑229).",
+    "Предел удержания из доходов - 50% по общему правилу; повышение до 70% допускается только по четырём основаниям - указано с оговоркой (ст. 99 ФЗ‑229).",
+    "Перечень выплат, не подлежащих удержанию, сформулирован в соответствии со ст. 101 ФЗ‑229; сохранение прожиточного минимума - по заявлению (ст. 99 ч.5.1).",
+    "Запрещённые или спорные утверждения (гарантии возврата, автоматическая защита без заявления и т.п.) в тексте отсутствуют в соответствии с forbidden_claims."
+  ],
+  "keyword_density_main": 0.016,
+  "main_keyword_exact_count": 2,
+  "text_chars": 6299,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.137,
+  "local_spam_ngram3_repeat": 0.061,
+  "local_lexical_diversity": 0.574,
+  "local_ai_markers_density": 0.6,
+  "local_ai_markers_critical": 0,
+  "length_status": "warn",
+  "length_kind": "default",
+  "local_ai_markers_total": 5,
+  "local_ai_markers_high": 3,
+  "local_own_voice_hits": 1,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 62,
+  "predicted_ai_pct": 8,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность заметно выше 50% (~62%)"
+  ],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1781913144/articles/kak-otmenit-ili-osporit-dejstviya-pristavov-po-arestu-imushchestva-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1781913144/articles/kak-otmenit-ili-osporit-dejstviya-pristavov-po-arestu-imushchestva-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Minimalist top-down flat-lay on a clean light-grey surface: overhead camera directly above a sparse editorial arrangement of five objects — a closed leather portfolio with slightly worn edges positioned left of center, a single brass key on a small brass ring placed near the portfolio suggesting seized property, a polished round seal beside a neat tied stack of unmarked dossiers (implied case files), a classic fountain pen aligned parallel to the portfolio edge, and a smartphone face-down toward the top-right; lighting: soft even daylight with a subtle directional highlight from upper left casting gentle shadows; palette: cool greys, warm brass accents; mood: procedural challenge, quiet readiness to contest enforcement.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-06-19T23:52:25Z",
+  "date_published": null,
+  "date_modified": null,
+  "ready_for_review": true,
+  "ready_at": null,
+  "publication_target": null,
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "spam_risk: 3 флагов (top10_share>0.115 (=0.137), ngram3_repeat_share>0.055 (=0.061), lexical_diversity<0.58 (=0.574)), top-5: ['сумм', 'арест', 'постановлен', 'подразделен', 'пристав']",
+    "targeted_tokens_over_limit: ст_сокращение=6(>≤5), руб_сокращение=1(>≤0)",
+    "author_markers_missing: 1 < 2"
+  ]
+}
