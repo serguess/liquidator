@@ -17069,5 +17069,64 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-06-19T08:48:07",
+    "category": "vzysk",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 2,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "vzysk-91",
+    "topic_slug": "prava-kreditora-pri-ispolnenii-resheniya-posle-likvidacii-ooo",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "forced_pass_at_iter2: блокеры пропущены, статья идёт в TG-очередь с metrics_warning=true. Было: 3 блокеров — targeted_tokens_over_limit; author_markers_missing; too_few_short_sentences"
+      ],
+      "recommendations": [
+        "reduce_руб: «руб» × 1 → cap 0. Только полное «рублей»/«рубля». В контексте суммы единица иногда опускается: «долг 82 400» вместо «долг 82 400 рублей».",
+        "add_author_markers: добавить минимум 2 вставок «по нашему опыту» / «в нашей практике» / «мы считаем» / «мы видим». Это главный anti-AI маркер — без него text.ru показывает AI 7-19%.",
+        "add_short_sentences: добавить минимум 8 коротких предложений (≤5 слов). Главный anti-AI маркер: «Главное.», «Защита не включается.», «6 месяцев, иногда 8.». Разбивать длинные предложения на 2-3 коротких."
+      ],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "prava-kreditora-pri-ispolnenii-resheniya-posle-likvidacii-ooo",
+    "duration_sec": 258.4,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "9    19894   $0.0118\n7-publisher         gpt-5-mini         8729     520     9249   $0.0032\n------------------------------------------------------------------------------\nИТОГО                                144143   21067   165210   $0.0782\nПроекция на 10 статей/день × 30 дней (300 статей): ~49563K ток/мес, ~$23.5/мес\nНе учтено: 5-uniqueness (эмбеддинги, ~копейки), image_gen (fal.ai, не LLM).\nАртефакты: drafts/prava-kreditora-pri-ispolnenii-resheniya-posle-likvidacii-ooo/  | quality_gate exit=0",
+    "stderr_tail": "",
+    "tokens_by_model": {},
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 6491
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]

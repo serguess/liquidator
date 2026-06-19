@@ -1,0 +1,104 @@
+{
+  "slug": "verhovnyj-sud-razjasnil-peresmotr-bankrotstva",
+  "category": "news",
+  "title": "Верховный Суд дал разъяснение о пересмотре дел о банкротстве",
+  "description": "Разъяснение Верховного Суда о порядке пересмотра дел о банкротства: в каких случаях допустим пересмотр, что это меняет для должников и кредиторов и какие шаги стоит предпринять.",
+  "h1": "Как Верховный Суд разъяснил порядок пересмотра дел о банкротстве",
+  "lead": "Разъяснение Верховного Суда даёт судам ориентиры, в каких ситуациях допустим пересмотр решений по делам о банкротстве; это не автоматическая процедура удаления записей в реестре, а повод оценить шансы и выбрать процессуальный путь.",
+  "topic_action": "разбор пересмотра дела о банкротстве",
+  "breadcrumb_current": "Разъяснение ВС о пересмотре банкротства",
+  "og_image": "/assets/articles/verhovnyj-sud-razjasnil-peresmotr-bankrotstva.jpg",
+  "main_keyword": "пересмотр дел о банкротстве разъяснение Верховного Суда",
+  "secondary_keywords": [
+    "пересмотр дела о банкротстве Верховный Суд",
+    "пересмотр арбитражного решения по банкротству",
+    "возможность пересмотра банкротства по новым обстоятельствам",
+    "апелляция пересмотр банкротства",
+    "основы пересмотра дел о банкротстве"
+  ],
+  "intent": "informational",
+  "funnel_stage": "cold",
+  "article_type": "B",
+  "offer": "proverka-spisaniya",
+  "news_zone": "legislation",
+  "internal_links": [],
+  "external_links": [
+    "https://bankrot.fedresurs.ru/",
+    "https://www.consultant.ru/"
+  ],
+  "faq": [
+    {
+      "question": "Можно ли отменить запись о банкротстве в реестре без нового судебного акта?",
+      "answer": "Нет. Изменение записи в реестре обычно следует за судебным актом - нужен новый решение инстанции или регламент оператора реестра. Разъяснение ВС не отменяет эту практику."
+    },
+    {
+      "question": "Какие признаки новых доказательств делают пересмотр обоснованным?",
+      "answer": "Новые документы, которые были недоступны ранее и существенно влияют на установление фактов, а также доказательства, опровергающие ключевые выводы - такие признаки считаются значимыми."
+    },
+    {
+      "question": "На какой стадии лучше подавать жалобу: апелляция, кассация или надзор?",
+      "answer": "Зависит от характера ошибки и времени её обнаружения. Апелляция - при ошибках первой инстанции; кассация и надзор - при серьёзных правовых нарушениях. Оцените доказательства прежде чем выбирать путь."
+    },
+    {
+      "question": "Что произойдёт с требованиями кредиторов, если решение отменят?",
+      "answer": "Требования могут быть пересмотрены или исключены из списка кредиторов по новому решению инстанции. Конкретика зависит от текста акта и стадии производства."
+    },
+    {
+      "question": "Нарушение процессуальных правил - всегда ли основание для пересмотра?",
+      "answer": "Нет. Если нарушение не влияло на исход дела, инстанция скорее не сочтёт его достаточным для отмены решения."
+    },
+    {
+      "question": "Как соотносятся исполнительное производство и пересмотр дела о банкротстве?",
+      "answer": "Это разные правовые режимы. При банкротстве некоторые исполнительные производства приостанавливаются. Пересмотр банкротного решения не отменяет автоматически мер в исполнительном производстве - вопросы решаются по отдельным правилам."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Использована безопасная формулировка при упоминании разъяснения Верховного Суда (research.f1.safe_phrasing) - точная ссылка на текст разъяснения в локальном whitelist не предоставлена.",
+    "Обоснования для пересмотра (новые обстоятельства, существенные процессуальные нарушения, ошибки в применении права) приведены в обобщённой форме в соответствии с research.f2.safe_phrasing; конкретные пункты разъяснения не цитируются из‑за отсутствия официального URL.",
+    "Утверждения о последствиях отмены/пересмотра решения сведены к safe_phrasing (research.f3) - порядок внесения изменений в ЕФРСБ зависит от решения суда и регламента оператора реестра; если в разъяснении ВС есть конкретная инструкция по ЕФРСБ, её нужно добавить при наличии официальной публикации.",
+    "Пункт о разграничении исполнительного производства и банкротства подкреплен ссылкой на ст. 213.11 127‑ФЗ как общую безопасную формулировку (research.f4), источник в research отмечен active.",
+    "Требуется предоставить точную официальную публикацию разъяснения ВС РФ для возможности прямых цитат и ссылок на пункты документа (fact_gaps[0])."
+  ],
+  "keyword_density_main": null,
+  "main_keyword_exact_count": null,
+  "text_chars": 6300,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.129,
+  "local_spam_ngram3_repeat": 0.017,
+  "local_lexical_diversity": 0.588,
+  "local_ai_markers_density": 0.36,
+  "local_ai_markers_critical": 0,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1781848590/articles/verhovnyj-sud-razjasnil-peresmotr-bankrotstva-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1781848590/articles/verhovnyj-sud-razjasnil-peresmotr-bankrotstva-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Editorial photograph of a working desk in a modern business interior, slight overhead three-quarter angle; on the walnut desktop arranged editorially: a closed thin laptop with brushed aluminum lid, a neat leather folder with cord-tied edge, a polished round brass seal placed near the folder, a blank-spine notebook with a fountain pen resting diagonally across it, a pair of reading glasses folded beside a white porcelain coffee cup; background: blurred stone-and-wood feature wall with tall windows suggesting an institutional office; lighting: cool overcast window light balanced by subtle warm desk fill, materials: walnut, brass, leather, neutral editorial palette, mood: authoritative news-reporting about legal procedure.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-06-19T05:56:31Z",
+  "length_status": "ok",
+  "length_kind": "news",
+  "local_ai_markers_total": 3,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 1,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 60,
+  "predicted_ai_pct": 6,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность заметно выше 50% (~60%)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "spam_risk: 1 флагов (top10_share>0.115 (=0.129)), top-5: ['пересмотр', 'дела', 'доказательств', 'банкротств', 'реестр']",
+    "too_few_short_sentences: 5 < 12"
+  ],
+  "date_published": "2026-06-19",
+  "date_modified": "2026-06-19",
+  "ready_for_review": true,
+  "ready_at": "2026-06-19T05:56:36Z",
+  "publication_target": "telegram_review"
+}

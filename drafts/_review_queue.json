@@ -3164,6 +3164,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "verhovnyj-sud-razjasnil-peresmotr-bankrotstva",
+      "category": "news",
+      "title": "Верховный Суд дал разъяснение о пересмотре дел о банкротстве",
+      "added_at": "2026-06-19T08:56:36.421460",
+      "char_count": 6300,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1781848590/articles/verhovnyj-sud-razjasnil-peresmotr-bankrotstva-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
