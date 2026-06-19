@@ -1,0 +1,102 @@
+{
+  "slug": "bankrotstvo-pri-dolgah-pered-rodstvennikami-i-blizkimi-licami",
+  "category": "fiz",
+  "title": "Банкротство при долгах перед родственниками и близкими",
+  "description": "Как проходят процедуры банкротства, если должник должен родственникам и близким: особенности учета требований, риски оспаривания, порядок подачи заявления и советы юриста.",
+  "h1": "Банкротство при долгах перед родственниками и близкими: что делать и как защититься",
+  "lead": "Разбираем, как требования родственников учитываются в деле о банкротстве, какие доказательства спасают требование и как снизить риск оспаривания сделок между близкими.",
+  "topic_action": "проверку возможности списания долгов",
+  "breadcrumb_current": "Долги перед родственниками",
+  "og_image": "/assets/articles/bankrotstvo-pri-dolgah-pered-rodstvennikami-i-blizkimi-licami.jpg",
+  "main_keyword": "банкротство при долгах перед родственниками",
+  "secondary_keywords": [
+    "банкротство долги родственникам",
+    "как списать долг перед близкими через банкротство",
+    "оспаривание сделок с родственниками при банкротстве",
+    "требования кредиторов родственники",
+    "нереальные займы между родственниками при банкротстве",
+    "банкротство физлиц долги семье",
+    "порядок подачи заявления о банкротстве физлица",
+    "финансовый управляющий и требования родственников",
+    "влияние семейных займов на конкурсную массу"
+  ],
+  "internal_links": [],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/",
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/b919efeffaee7c5a42d9c3d755951599d9b55288/"
+  ],
+  "faq": [
+    {
+      "question": "Можно ли включить в реестр требование родственника, если есть только бумага?",
+      "answer": "Включение возможно, но одна лишь бумага обычно слабее. Банковские выписки, переписка и регулярные платежи повышают шансы. Сочетание письменного обязательства и операции по счёту работает надёжнее."
+    },
+    {
+      "question": "Какие доказательства чаще всего убеждают управляющего и суд в реальности займа?",
+      "answer": "Чаще всего - банковские выписки с перечислениями, поручения, сообщения о договорённости и регулярные поступления по графику. Договор или нотариальная расписка усиливают позицию."
+    },
+    {
+      "question": "Что произойдёт, если суд признает сделку недействительной?",
+      "answer": "При признании сделки недействительной имущество может быть возвращено в конкурсную массу, а связанные с ней требования исключены из списываемых долгов. При доказанном умыслe на выведение имущества возможны иные правовые последствия."
+    },
+    {
+      "question": "Как взаимодействовать с управляющим, чтобы сохранить право на взыскание?",
+      "answer": "Своевременно заявляйте требование в реестр, передавайте подтверждающие материалы, отвечайте на запросы и участвуйте в собраниях кредиторов. Письменная коммуникация полезна для доказательной базы."
+    },
+    {
+      "question": "Есть ли риск уголовного преследования за передачу имущества перед банкротством?",
+      "answer": "Если будет доказан умысел на вывод имущества с целью препятствовать взысканию, такие действия при определённой квалификации могут повлечь уголовную или административную ответственность. Это редкий, но серьёзный риск."
+    },
+    {
+      "question": "Можно ли вернуть долг после процедуры, если претензия не попала в реестр?",
+      "answer": "Варианты ограничены: если требование не заявлено или исключено, взыскание в процедуре банкротства становится невозможным. В отдельных случаях остаются гражданско‑правовые пути, но они сложны и зависят от конкретики."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Факты и рекомендации сверены с research.json; там, где в research отмечено 'needs_verification', использованы консервативные формулировки из safe_phrasing.",
+    "Ссылки на активные нормы (например, п. 4 ст. 213.28 127‑ФЗ о недобросовестном поведении) оставлены в обтекаемой форме и подтверждены ключевыми источниками research.key_sources.",
+    "В тексте исключены рискованные конкретики, по которым в research зафиксированы пробелы (fact_gaps)."
+  ],
+  "keyword_density_main": 0.01,
+  "main_keyword_exact_count": 2,
+  "text_chars": 7299,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.116,
+  "local_spam_ngram3_repeat": 0.016,
+  "local_lexical_diversity": 0.583,
+  "local_ai_markers_density": 0.43,
+  "local_ai_markers_critical": 0,
+  "length_status": "ok",
+  "length_kind": "default",
+  "local_ai_markers_total": 4,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 0,
+  "local_first_person_singular_hits": 0,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1781847552/articles/bankrotstvo-pri-dolgah-pered-rodstvennikami-i-blizkimi-licami-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1781847552/articles/bankrotstvo-pri-dolgah-pered-rodstvennikami-i-blizkimi-licami-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Editorial composition centering on time and personal consequence: a sand-filled brass hourglass mid-flow sits slightly left-of-center on a dark slate surface, next to a neat stack of three closed dossiers tied with coarse cord, a polished round brass seal resting on top of the upper dossier, and a classic fountain pen placed diagonally across the stack; camera tabletop three-quarter angle, shallow depth of field, background a deep charcoal stone with subtle backlight, lighting a warm gold rim on the brass and cool soft fill elsewhere, palette deep charcoal, oxblood accents, muted brass; mood: quiet passage of time, familial obligation, measured gravity.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-06-19T05:39:13Z",
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 60,
+  "predicted_ai_pct": 11,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность заметно выше 50% (~60%)",
+    "AI-detector чуть выше 10% (~11%)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "author_markers_missing: 0 < 2",
+    "too_few_short_sentences: 11 < 12"
+  ],
+  "date_published": "2026-06-19",
+  "date_modified": "2026-06-19",
+  "ready_for_review": true,
+  "ready_at": "2026-06-19T05:39:15Z",
+  "publication_target": "telegram_review"
+}

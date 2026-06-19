@@ -16815,5 +16815,67 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-06-19T08:30:15",
+    "category": "fiz",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 5,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "fiz-104",
+    "topic_slug": "bankrotstvo-dolzhnikov-s-nalichnymi-aktivami-kak-zashchitit-platyozh",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "forced_pass_at_iter2: блокеры пропущены, статья идёт в TG-очередь с metrics_warning=true. Было: 2 блокеров — spam_risk; ai_markers_critical"
+      ],
+      "recommendations": [
+        "reduce_repetition: разбавить топ-5 частотных лемм местоимениями/перифразом — ['сумм', 'передач', 'риск', 'деньг', 'средств']",
+        "fix_ai_markers: убрать критичные маркеры (длинные тире, эмодзи, англ. кавычки, чатбот-фразы)"
+      ],
+      "stderr_tail": ""
+    },
+    "finalize_safety_net": {
+      "ran": true,
+      "rc": 0
+    },
+    "status": "ok",
+    "slug": "bankrotstvo-dolzhnikov-s-nalichnymi-aktivami-kak-zashchitit-platyozh",
+    "duration_sec": 274.9,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "351   $0.0121\n7-publisher         gpt-5-mini         8726     852     9578   $0.0039\n------------------------------------------------------------------------------\nИТОГО                                142905   21165   164070   $0.0781\nПроекция на 10 статей/день × 30 дней (300 статей): ~49221K ток/мес, ~$23.4/мес\nНе учтено: 5-uniqueness (эмбеддинги, ~копейки), image_gen (fal.ai, не LLM).\nАртефакты: drafts/bankrotstvo-dolzhnikov-s-nalichnymi-aktivami-kak-zashchitit-platyozh/  | quality_gate exit=0",
+    "stderr_tail": "",
+    "tokens_by_model": {},
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 6623
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]

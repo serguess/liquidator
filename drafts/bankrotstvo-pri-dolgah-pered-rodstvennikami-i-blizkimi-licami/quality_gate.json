@@ -1,0 +1,268 @@
+{
+  "file": "/home/appuser/apps/liquidator/drafts/bankrotstvo-pri-dolgah-pered-rodstvennikami-i-blizkimi-licami/article.html",
+  "passed": true,
+  "hard_failed": false,
+  "blockers": [],
+  "warnings": [
+    "spam_soft_passed: ratio-флаги мягкие при iter=2, targeted_tokens чистые → пропускаем (spam ≈48-52% по прогнозу)",
+    "forced_pass_at_iter2: блокеры пропущены, статья идёт в TG-очередь с metrics_warning=true. Было: 2 блокеров — author_markers_missing; too_few_short_sentences"
+  ],
+  "autofix": {
+    "file": "/home/appuser/apps/liquidator/drafts/bankrotstvo-pri-dolgah-pered-rodstvennikami-i-blizkimi-licami/article.html",
+    "abbreviation_fixes": {},
+    "punctuation_fixes": 0,
+    "em_dash_fixes": 0,
+    "eng_quotes_fixes": 0,
+    "yo_fixes": 0,
+    "hyphen_fixes": 0,
+    "changed": false,
+    "bytes_before": 42069,
+    "bytes_after": 42069
+  },
+  "quality_checks": {
+    "file": "drafts/bankrotstvo-pri-dolgah-pered-rodstvennikami-i-blizkimi-licami/article.html",
+    "text_chars": 7299,
+    "length_status": "ok",
+    "length_kind": "default",
+    "passed": false,
+    "abbreviation_hits": [],
+    "punctuation_hits": [],
+    "hyphen_compound_hits": [],
+    "spam": {
+      "total_words": 690,
+      "unique_lemmas": 402,
+      "lexical_diversity": 0.583,
+      "top10_words": [
+        [
+          "требован",
+          10
+        ],
+        [
+          "кредитор",
+          10
+        ],
+        [
+          "расписк",
+          9
+        ],
+        [
+          "документ",
+          8
+        ],
+        [
+          "выписк",
+          8
+        ],
+        [
+          "обязательств",
+          7
+        ],
+        [
+          "риск",
+          7
+        ],
+        [
+          "оспариван",
+          7
+        ],
+        [
+          "доказательств",
+          7
+        ],
+        [
+          "банковск",
+          7
+        ]
+      ],
+      "top10_share": 0.116,
+      "top1_count": 10,
+      "top3_sum": 29,
+      "top10_sum": 80,
+      "ngram3_repeat_count": 11,
+      "ngram3_total": 688,
+      "ngram3_repeat_share": 0.016,
+      "risk_flags": [
+        "top10_share>0.115 (=0.116)"
+      ],
+      "word_warnings": []
+    },
+    "targeted_tokens": [
+      {
+        "token": "ст_сокращение",
+        "count": 0,
+        "limit": 5,
+        "over_limit": false,
+        "severity": "hard"
+      },
+      {
+        "token": "РФ_рудимент",
+        "count": 0,
+        "limit": 2,
+        "over_limit": false,
+        "severity": "hard"
+      },
+      {
+        "token": "руб_сокращение",
+        "count": 0,
+        "limit": 0,
+        "over_limit": false,
+        "severity": "hard"
+      },
+      {
+        "token": "ООО_бренд",
+        "count": 0,
+        "limit": 3,
+        "over_limit": false,
+        "severity": "hard"
+      },
+      {
+        "token": "000руб_паттерн",
+        "count": 0,
+        "limit": 2,
+        "over_limit": false,
+        "severity": "hard"
+      },
+      {
+        "token": "127фз_закон",
+        "count": 0,
+        "limit": 2,
+        "over_limit": false,
+        "severity": "soft"
+      },
+      {
+        "token": "213_артикул",
+        "count": 0,
+        "limit": 3,
+        "over_limit": false,
+        "severity": "soft"
+      },
+      {
+        "token": "ГПК_кодекс",
+        "count": 0,
+        "limit": 3,
+        "over_limit": false,
+        "severity": "soft"
+      },
+      {
+        "token": "ГК_кодекс",
+        "count": 0,
+        "limit": 3,
+        "over_limit": false,
+        "severity": "soft"
+      },
+      {
+        "token": "000_число",
+        "count": 0,
+        "limit": 8,
+        "over_limit": false,
+        "severity": "soft"
+      },
+      {
+        "token": "cta_формула_повтор",
+        "count": 1,
+        "limit": 1,
+        "over_limit": false,
+        "severity": "soft"
+      }
+    ],
+    "author_markers_count": 0,
+    "author_markers_min": 2
+  },
+  "ai_markers": {
+    "file": "drafts/bankrotstvo-pri-dolgah-pered-rodstvennikami-i-blizkimi-licami/article.html",
+    "text_chars": 9317,
+    "hits_total": 4,
+    "density_per_1000": 0.43,
+    "by_severity": {
+      "critical": 0,
+      "high": 0,
+      "medium": 1,
+      "low": 3
+    },
+    "own_voice_hits": 0,
+    "first_person_singular_hits": 0,
+    "hits": [
+      {
+        "name": "ИИ-лексика: «кроме того»",
+        "category": "ai-lexis",
+        "severity": "medium",
+        "match": " Кроме того,",
+        "position": 4827,
+        "context": "...стном поведении суд вправе отказать в списании обязательств. Кроме того, существуют обязательства, которые по общим правилам не спис..."
+      },
+      {
+        "name": "ИИ-лексика: «усиливать/способствовать (абстрактно)»",
+        "category": "ai-lexis",
+        "severity": "low",
+        "match": "усиливают",
+        "position": 7121,
+        "context": "... по оговоренному графику. Договор или нотариальная расписка усиливают позицию. Что произойдёт, если суд признает сделку недействи..."
+      },
+      {
+        "name": "ИИ-лексика: «взаимодействие/тонкости/нюансы (абстрактно)»",
+        "category": "ai-lexis",
+        "severity": "low",
+        "match": "Взаимодействие",
+        "position": 9124,
+        "context": "...ение law@pravo.shop Коммерческие предложения biz@pravo.shop Взаимодействие со СМИ pr@pravo.shop © 2018-2026 ООО «ЛИКВИДАТОР». Все прав..."
+      },
+      {
+        "name": "Канцелярит: «в рамках» (без нужды)",
+        "category": "clerical",
+        "severity": "low",
+        "match": "в рамках",
+        "position": 8736,
+        "context": "...ровождение на всех этапах. Надежность и законность Работаем в рамках ФЗ и действующего законодательства РФ. РЕКВИЗИТЫ ООО «ЛИКВИ..."
+      }
+    ]
+  },
+  "anti_template": {
+    "file": "drafts/bankrotstvo-pri-dolgah-pered-rodstvennikami-i-blizkimi-licami/article.html",
+    "text_chars": 7742,
+    "phrases_loaded": 138,
+    "passed": true,
+    "hits": []
+  },
+  "law_quotes": {
+    "total_chars": 0,
+    "limit": 600,
+    "samples": []
+  },
+  "rhythm": {
+    "file": "drafts/bankrotstvo-pri-dolgah-pered-rodstvennikami-i-blizkimi-licami/article.html",
+    "text_chars": 7742,
+    "sentences_total": 67,
+    "avg_sentence_len": 11.27,
+    "short_sentences_count": 11,
+    "short_sentences_share": 0.164,
+    "long_sentences_count": 3,
+    "parasite_count": 1,
+    "parasite_per_1000": 0.13,
+    "flags": []
+  },
+  "internal_links": {
+    "total_hrefs": 37,
+    "ok": 0,
+    "whitelisted": 21,
+    "external": 13,
+    "fixed": 0,
+    "errors": 0,
+    "changed": false,
+    "fix_details": [],
+    "error_details": []
+  },
+  "recommendations": [
+    "add_author_markers: добавить минимум 2 вставок «по нашему опыту» / «в нашей практике» / «мы считаем» / «мы видим». Это главный anti-AI маркер — без него text.ru показывает AI 7-19%.",
+    "add_short_sentences: добавить минимум 1 коротких предложений (≤5 слов). Главный anti-AI маркер: «Главное.», «Защита не включается.», «6 месяцев, иногда 8.». Разбивать длинные предложения на 2-3 коротких."
+  ],
+  "retry_count": 2,
+  "predicted_metrics": {
+    "spam_pct": 60,
+    "ai_pct": 11,
+    "uniqueness_pct": 87
+  },
+  "customer_risks": [
+    "заспамленность заметно выше 50% (~60%)",
+    "AI-detector чуть выше 10% (~11%)"
+  ]
+}

@@ -3151,6 +3151,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "bankrotstvo-pri-dolgah-pered-rodstvennikami-i-blizkimi-licami",
+      "category": "fiz",
+      "title": "Банкротство при долгах перед родственниками и близкими",
+      "added_at": "2026-06-19T08:39:15.821085",
+      "char_count": 7299,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1781847552/articles/bankrotstvo-pri-dolgah-pered-rodstvennikami-i-blizkimi-licami-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
