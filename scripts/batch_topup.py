@@ -154,13 +154,29 @@ def main() -> int:
     env["ARTICLES_PER_DAY"] = str(new_limit)
     _log(f"ARTICLES_PER_DAY bumped to {new_limit} для backup-подпроцессов")
 
-    success = 0
-    failed = 0
-    for cat in missing:
+    # Добиваем до 10 по РЕАЛЬНОЙ очереди, а не по rc слота. Раньше цикл шёл по
+    # фиксированному `missing` и считал слот успешным при rc=0 — но слот может
+    # вернуть rc=0 и при этом НЕ поставить статью в очередь (finalize_draft
+    # отбраковал по factcheck/qa). Тогда очередь оставалась короткой (инцидент
+    # 19 июня: вышло 9, фактчек завернул одну vzysk). Теперь после каждого слота
+    # пересчитываем get_missing() и продолжаем, пока очередь не укомплектована
+    # ИЛИ не упёрлись в cutoff/лимит попыток.
+    MAX_BACKUP_ATTEMPTS = len(missing) + 5  # запас на отбраковки, защита от вечного цикла
+    attempts = 0
+    while True:
+        missing_now = get_missing()
+        if not missing_now:
+            _log("OK — очередь укомплектована (10/10)")
+            break
+        if attempts >= MAX_BACKUP_ATTEMPTS:
+            _log(f"STOP — исчерпан лимит попыток ({MAX_BACKUP_ATTEMPTS}). "
+                 f"Не хватает: {missing_now}")
+            break
+
         rem = remaining_minutes_to_batch()
         if rem < CUTOFF_MIN_BEFORE_BATCH:
             _log(f"STOP — осталось {rem} мин до batch (cutoff={CUTOFF_MIN_BEFORE_BATCH}). "
-                 f"Не запускаю больше слотов.")
+                 f"Не хватает: {missing_now}")
             break
 
         _log(f"Жду освобождения lock'а (max {LOCK_WAIT_TIMEOUT_SEC}s)...")
@@ -168,19 +184,22 @@ def main() -> int:
             _log(f"STOP — lock не освободился за {LOCK_WAIT_TIMEOUT_SEC}s")
             break
 
-        _log(f"Запускаю backup-слот: {cat} (осталось {rem} мин до batch)")
+        cat = missing_now[0]  # самая приоритетная недостающая категория
+        attempts += 1
+        before = sum(count_pending().values())
+        _log(f"Backup-слот #{attempts}: {cat} (не хватает {len(missing_now)}, "
+             f"очередь {before}/10, осталось {rem} мин)")
         rc = run_backup_slot(cat, env)
-        if rc == 0:
-            success += 1
-            _log(f"  OK: {cat} (rc=0)")
+        after = sum(count_pending().values())
+        # Успех = статья РЕАЛЬНО встала в очередь (after>before), а не просто rc=0.
+        if after > before:
+            _log(f"  OK: {cat} → очередь {after}/10")
         else:
-            failed += 1
-            _log(f"  FAIL: {cat} (rc={rc})")
+            _log(f"  слот не дал статью (rc={rc}, очередь {after}/10) — "
+                 f"вероятно отбраковка factcheck/qa, пробую снова другой темой")
 
-    # Финальная проверка
-    final_pending = count_pending()
-    final_total = sum(final_pending.values())
-    _log(f"Итог: {success} ok, {failed} fail. Pending в очереди: {final_total}/10")
+    final_total = sum(count_pending().values())
+    _log(f"Итог: очередь {final_total}/10 за {attempts} попыток")
 
     return 0 if final_total >= 10 else 1
 
