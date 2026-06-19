@@ -16695,5 +16695,63 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-06-19T05:12:17",
+    "category": "fiz",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 3,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "fiz-103",
+    "topic_slug": "bankrotstvo-posle-razvoda-kak-vklyuchit-razdelenie-dolgov",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "forced_pass_at_iter2: блокеры пропущены, статья идёт в TG-очередь с metrics_warning=true. Было: 2 блокеров — spam_risk; too_few_short_sentences"
+      ],
+      "recommendations": [
+        "reduce_repetition: разбавить топ-5 частотных лемм местоимениями/перифразом — ['сторон', 'документ', 'требован', 'решен', 'доказательств']",
+        "add_short_sentences: добавить минимум 10 коротких предложений (≤5 слов). Главный anti-AI маркер: «Главное.», «Защита не включается.», «6 месяцев, иногда 8.». Разбивать длинные предложения на 2-3 коротких."
+      ],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "bankrotstvo-posle-razvoda-kak-vklyuchit-razdelenie-dolgov",
+    "duration_sec": 280.1,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": " 3786    20184   $0.0117\n7-publisher         gpt-5-mini         8729     970     9699   $0.0041\n------------------------------------------------------------------------------\nИТОГО                                144465   21493   165958   $0.0791\nПроекция на 10 статей/день × 30 дней (300 статей): ~49787K ток/мес, ~$23.7/мес\nНе учтено: 5-uniqueness (эмбеддинги, ~копейки), image_gen (fal.ai, не LLM).\nАртефакты: drafts/bankrotstvo-posle-razvoda-kak-vklyuchit-razdelenie-dolgov/  | quality_gate exit=0",
+    "stderr_tail": "",
+    "tokens_by_model": {},
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 6659
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]

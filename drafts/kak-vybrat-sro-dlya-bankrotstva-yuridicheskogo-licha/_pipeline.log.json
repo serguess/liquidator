@@ -1,0 +1,33 @@
+{
+  "slug": "kak-vybrat-sro-dlya-bankrotstva-yuridicheskogo-licha",
+  "category": "yur",
+  "started_at": "2026-06-19T07:40:52",
+  "finished_at": null,
+  "total_duration_sec": null,
+  "current_iteration": 1,
+  "events": [
+    {
+      "ts": "2026-06-19T07:40:52",
+      "agent": "scheduler",
+      "event": "slot_started",
+      "iteration": 1,
+      "today_count": 3,
+      "limit": 10,
+      "write_article_duration_sec": 270.4
+    },
+    {
+      "ts": "2026-06-19T07:40:52",
+      "agent": "quality_gate",
+      "event": "passed",
+      "iteration": 1,
+      "blockers": [],
+      "warnings": [
+        "forced_pass_at_iter2: блокеры пропущены, статья идёт в TG-очередь с metrics_warning=true. Было: 2 блокеров — author_markers_missing; too_few_short_sentences"
+      ],
+      "recommendations": [
+        "add_author_markers: добавить минимум 2 вставок «по нашему опыту» / «в нашей практике» / «мы считаем» / «мы видим». Это главный anti-AI маркер — без него text.ru показывает AI 7-19%.",
+        "add_short_sentences: добавить минимум 6 коротких предложений (≤5 слов). Главный anti-AI маркер: «Главное.», «Защита не включается.», «6 месяцев, иногда 8.». Разбивать длинные предложения на 2-3 коротких."
+      ]
+    }
+  ]
+}

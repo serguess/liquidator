@@ -3125,6 +3125,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "kak-vybrat-sro-dlya-bankrotstva-yuridicheskogo-licha",
+      "category": "yur",
+      "title": "Как выбрать СРО и арбитражного управляющего для банкротства юрлица",
+      "added_at": "2026-06-19T07:40:52.375221",
+      "char_count": 6675,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1781844045/articles/kak-vybrat-sro-dlya-bankrotstva-yuridicheskogo-licha-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

@@ -1,0 +1,91 @@
+{
+  "slug": "kak-vybrat-sro-dlya-bankrotstva-yuridicheskogo-licha",
+  "category": "yur",
+  "title": "Как выбрать СРО и арбитражного управляющего для банкротства юрлица",
+  "description": "Короткое практическое руководство: на что смотреть при выборе СРО и арбитражного управляющего для юридического лица - регламенты, репутация, договорные механизмы и верификация кандидатов.",
+  "h1": "Как выбрать СРО и арбитражного управляющего для банкротства юрлица: практическое руководство",
+  "lead": "Поясняем главные признаки надёжной СРО и управляющего, которые помогают снизить риск смены руководителя процедуры и лишних расходов.",
+  "topic_action": "выбор СРО и арбитражного управляющего",
+  "breadcrumb_current": "Выбор СРО и управляющего",
+  "og_image": "/assets/articles/kak-vybrat-sro-dlya-bankrotstva-yuridicheskogo-licha.jpg",
+  "main_keyword": "как выбрать СРО и арбитражного управляющего для юрлица",
+  "secondary_keywords": [
+    "выбор СРО для банкротства юрлица",
+    "как выбрать арбитражного управляющего",
+    "критерии выбора СРО",
+    "проверка арбитражного управляющего",
+    "договoр с управлeющим при банкротстве",
+    "конфликты интересов управляющего"
+  ],
+  "internal_links": [],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/",
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/2134/"
+  ],
+  "faq": [
+    {
+      "question": "Где проверить, что управляющий состоит в нужной СРО?",
+      "answer": "Проверяйте публичные списки членов СРО и при необходимости запрашивайте у организации официальное подтверждение членства; если открытых данных недостаточно - попросите у СРО письменное подтверждение."
+    },
+    {
+      "question": "Можно ли обязать управляющего иметь полис страхования ответственности?",
+      "answer": "В договоре можно закрепить требование о наличии полиса и попросить копию полиса для проверки, но обязательность и минимальные суммы покрытия зависят от регламента конкретной СРО - уточняйте у неё."
+    },
+    {
+      "question": "Что делать, если после назначения обнаружен конфликт интересов у управляющего?",
+      "answer": "Сообщите информации СРО и фиксируйте основания для ходатайства в суде; конфликт интересов (деловые или семейные связи с кредиторами) может быть основанием для отведения, но конкретные шаги зависят от обстоятельств дела."
+    },
+    {
+      "question": "Стоит ли выбирать управляющего по опыту в отрасли должника?",
+      "answer": "Да. Опыт работы с похожими активами (недвижимость, производство, ритейл) снижает риск ошибок в инвентаризации и реализации и помогает выстроить адекватную стратегию."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Проверены ключевые юридические утверждения по research.json. Факты, полностью подтверждённые (last_verified 2026-06-19, legislation_status active), сохранены с указанием нормы в safe_phrasing (например, требование указывать СРО в заявлении - ст. 213.4 п. 4 127‑ФЗ).",
+    "Утверждения по дисциплинарным взысканиям, страхованию профессиональной ответственности, процедурам отведения и деталям вознаграждения были сформулированы в обтекаемой форме согласно safe_phrasing из research.json (facts с пометкой needs_verification) - конкретные требования и суммы в тексте не указаны.",
+    "Рекомендованы ссылки на официальные ресурсы для проверки (внешние ссылки добавлены на общую страницу 127‑ФЗ в Consultant.ru)."
+  ],
+  "keyword_density_main": 0.015,
+  "main_keyword_exact_count": 2,
+  "text_chars": 6675,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.115,
+  "local_spam_ngram3_repeat": 0.028,
+  "local_lexical_diversity": 0.607,
+  "local_ai_markers_density": 0.23,
+  "local_ai_markers_critical": 0,
+  "length_status": "ok",
+  "length_kind": "default",
+  "local_ai_markers_total": 2,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 0,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1781844045/articles/kak-vybrat-sro-dlya-bankrotstva-yuridicheskogo-licha-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1781844045/articles/kak-vybrat-sro-dlya-bankrotstva-yuridicheskogo-licha-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Editorial photograph of a top-floor corner executive office overlooking a blurred city skyline at dusk; camera: three-quarter eye-level angle emphasizing a confident decision-making vantage. In the foreground on a walnut desk: a closed thin laptop with brushed aluminum lid, a sleek fountain pen resting diagonally across a closed leather notebook, a polished round company seal placed atop a neatly stacked leather folder, a smartphone face-down beside a white porcelain coffee cup, and a small framed succulent adding a quiet humanizing touch. Lighting: cool window light balanced with warm tungsten desk lamp glow. Materials: walnut, brushed metal, oxblood leather, polished brass accents. Mood: measured, advisory, executive-level selection.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-06-19T04:40:46Z",
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 53,
+  "predicted_ai_pct": 11,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность чуть выше 50% (~53%)",
+    "AI-detector чуть выше 10% (~11%)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "author_markers_missing: 0 < 2",
+    "too_few_short_sentences: 6 < 12"
+  ],
+  "date_published": "2026-06-19",
+  "date_modified": "2026-06-19",
+  "ready_for_review": true,
+  "ready_at": "2026-06-19T04:40:52Z",
+  "publication_target": "telegram_review"
+}
