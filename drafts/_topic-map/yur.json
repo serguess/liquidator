@@ -2819,7 +2819,11 @@
       "rationale": "Владельцы компаний часто ищут защиту активов. Практическая инструкция приводит к запросу юридической защиты и аудита.",
       "expected_length_chars": 7000,
       "client_notes": "",
-      "topic_action": "минимизация рисков учредителя"
+      "topic_action": "минимизация рисков учредителя",
+      "status": "rejected",
+      "rejected_at": "2026-06-19T08:39:20",
+      "rejected_reason": "cannibalization:preflight:cluster:yur-otvetstvennost-uchreditelya-ooo",
+      "rejected_by": "auto_skip_in_slot"
     },
     {
       "id": "yur-103",
