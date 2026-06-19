@@ -1,0 +1,99 @@
+{
+  "slug": "kak-vklyuchit-trebovanie-v-reestr-kreditorov-bez-oshibok",
+  "category": "vzysk",
+  "title": "Как включить требование в реестр кредиторов без ошибок",
+  "description": "Подробная инструкция для кредитора: какие документы собрать, как заполнить заявление, в какие сроки подавать требование и как исправить ошибки, чтобы включение прошло успешно.",
+  "h1": "Как правильно включить требование в реестр кредиторов: пошаговая инструкция",
+  "lead": "Чтобы включить требование в реестр кредиторов, соберите полный комплект подтверждений суммы и основания задолженности и заранее согласуйте формат подачи с лицом, ведущим конкурсную массу - это снижает риск оставления позиции без движения.",
+  "topic_action": "включение требования в реестр кредиторов",
+  "breadcrumb_current": "Включение требования в реестр кредиторов",
+  "og_image": "/assets/articles/kak-vklyuchit-trebovanie-v-reestr-kreditorov-bez-oshibok.jpg",
+  "main_keyword": "как включить требование в реестр кредиторов",
+  "secondary_keywords": [
+    "заявление о включении в реестр кредиторов",
+    "реестр требований кредиторов порядок",
+    "документы для включения в реестр кредиторов",
+    "как подать требование кредитора",
+    "сроки включения требования в реестр",
+    "исправление ошибок в реестре кредиторов",
+    "отказ во включении в реестр кредиторов",
+    "оспаривание исключения из реестра кредиторов"
+  ],
+  "internal_links": [],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/c2c8c81ee8e4bd843286b08b10607f00ec6ae073/",
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/c48290d39215783e73f0899bb1026b14cb221eff/"
+  ],
+  "faq": [
+    {
+      "question": "Можно ли дополнить требование после публикации реестра и как это сделать?",
+      "answer": "Да. Если вы заметили погрешность, направьте управляющему дополнительные доказательства и объяснения; управляющий вправе внести исправления в реестр на основании представленных сведений. При споре следующий шаг - обращение в арбитражный суд."
+    },
+    {
+      "question": "Какие данные чаще всего убеждают управляющего включить требование?",
+      "answer": "Банковские выписки, договоры и акты, детальный расчёт задолженности и документы по обеспечению (если есть). Чем яснее сопоставимы даты и суммы, тем проще администратору принять позицию."
+    },
+    {
+      "question": "Что делать, если управляющий отказал во включении - какие первые шаги?",
+      "answer": "Направьте обоснованную жалобу или заявление управляющему с дополнительными доказательствами. Если спор не урегулируется, обжалуйте решение в арбитражном суде с участием юриста."
+    },
+    {
+      "question": "Обязательно ли указывать реквизиты кредитора во всех экземплярах заявления?",
+      "answer": "Да, указывайте полные платёжные реквизиты и контактные данные. Неполные реквизиты часто становятся формальной причиной оставления требования без движения."
+    },
+    {
+      "question": "Чем отличается обеспеченное требование от необеспеченного в реестре?",
+      "answer": "Обеспеченное требование подтверждается документами о залоге или другом праве на имущество. Такие позиции получают преимущественную очередь при удовлетворении, поэтому важно приложить доказательства обеспечения."
+    },
+    {
+      "question": "Как оспорить исключение требования из реестра и куда обращаться в первую очередь?",
+      "answer": "Сначала подавайте жалобу управляющему с доказательствами; при отсутствии результата - обращайтесь в арбитражный суд для обжалования действий администратора дела. Конкретные процессуальные шаги и сроки уточняйте у специалиста."
+    }
+  ],
+  "factcheck_passed": false,
+  "factcheck_notes": [
+    "Проверка фактов: основные утверждения по составу пакета документов, форме подачи и типичным ошибкам совпадают с research.json (ст. 213.4 п. 3 127‑ФЗ и связанная практика) - использовано safe_phrasing из research.f1-f4.",
+    "Найдено замечание: в research.json факт f5 (порядок и процессуальные сроки обжалования действий конкурсного управляющего) отмечен как needs_verification и context_check_passed=false. В тексте сохранено осторожное обобщение ('сначала заявление/жалоба управляющему; при сохранении спора - обращение в арбитражный суд') и указана рекомендация уточнить точные процессуальные сроки у специалиста или в локальном регламенте.",
+    "До окончательной верификации процедурных сроков (fact f5) материал не может быть помечен как полностью прошедший фактчек - требуется дополнительная проверка research-источников или уточнение у юриста."
+  ],
+  "keyword_density_main": 0.015,
+  "main_keyword_exact_count": 2,
+  "text_chars": 8188,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.112,
+  "local_spam_ngram3_repeat": 0.044,
+  "local_lexical_diversity": 0.519,
+  "local_ai_markers_density": 0.19,
+  "local_ai_markers_critical": 0,
+  "length_status": "too_long",
+  "length_kind": "default",
+  "local_ai_markers_total": 2,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 3,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 60,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1781848079/articles/kak-vklyuchit-trebovanie-v-reestr-kreditorov-bez-oshibok-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1781848079/articles/kak-vklyuchit-trebovanie-v-reestr-kreditorov-bez-oshibok-cover.jpg",
+  "ready_for_review": false,
+  "ready_at": null,
+  "publication_target": null,
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Editorial photograph of a polished conference table with a deliberately minimal arrangement: a closed dark leather portfolio placed centrally with a fountain pen aligned neatly across its edge, a polished round seal beside the portfolio suggesting official stamping, a crystal water carafe with two empty glasses toward the near side, a single red leather chair-back positioned at the far end of the table; camera three-quarter from one corner, slight low-angle to emphasize the procedural focus; lighting cool overcast from floor-to-ceiling windows with a subtle warm pendant fill; palette: walnut, oxblood, brass accents; mood: meticulous, procedural, readiness to submit a creditor claim.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-06-19T05:48:00Z",
+  "customer_risks": [
+    "заспамленность заметно выше 50% (~60%)",
+    "длина чуть больше лимита 8000 (8 188 знаков)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "spam_risk: 2 флагов (top10_sum>80 (=86), lexical_diversity<0.58 (=0.519)), top-5: ['требован', 'реестр', 'кредитор', 'подач', 'расч']",
+    "too_few_short_sentences: 8 < 12"
+  ]
+}
