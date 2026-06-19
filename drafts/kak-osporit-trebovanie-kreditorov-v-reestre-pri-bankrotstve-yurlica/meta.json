@@ -1,0 +1,96 @@
+{
+  "slug": "kak-osporit-trebovanie-kreditorov-v-reestre-pri-bankrotstve-yurlica",
+  "category": "yur",
+  "title": "Как оспорить требование в реестре при банкротстве юрлица",
+  "description": "Пошаговое руководство для юрлица: как проверить требование кредитора в реестре, на какие основания подаётся возражение, какие доказательства приложить и как действовать в суде и у арбитражного управляющего.",
+  "h1": "Как оспорить требование кредитора в реестре при банкротстве юрлица: пошаговая инструкция",
+  "lead": "Если в реестр требований включена ошибочная или спорная сумма, нужно быстро собрать доказательства и формально возразить перед арбитражным управляющим - при необходимости обжаловать его решение в суде.",
+  "topic_action": "оспорить требование в реестре требований кредиторов",
+  "breadcrumb_current": "Оспаривание требования в реестре",
+  "og_image": "/assets/articles/kak-osporit-trebovanie-kreditorov-v-reestre-pri-bankrotstve-yurlica.jpg",
+  "main_keyword": "оспорить требование кредитора в реестре при банкротстве юрлица",
+  "secondary_keywords": [
+    "оспаривание требований кредиторов реестр юридического лица",
+    "как оспорить требование кредитора при банкротстве",
+    "возражение на требование кредитора в реестре",
+    "доказательства для опровержения долга",
+    "жалоба на включение требования в реестр"
+  ],
+  "internal_links": [],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/c2c8c81ee8e4bd843286b08b10607f00ec6ae073/",
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/b919efeffaee7c5a42d9c3d755951599d9b55288/"
+  ],
+  "faq": [
+    {
+      "question": "Что сначала: подавать возражение управляющему или готовить иск в арбитражный суд?",
+      "answer": "Сначала направьте возражение управляющему с полным пакетом подтверждений. Если решение неудовлетворительно - готовьте жалобу в суд; порядок зависит от локальной практики управляющего."
+    },
+    {
+      "question": "Какие документы чаще всего решают спор о включении требования в реестр?",
+      "answer": "Главные - договор, акт, платёжное поручение и выписка из банка. При спорных вопросах полезны экспертные заключения."
+    },
+    {
+      "question": "Можно ли заявить встречное требование и уменьшить претензию кредитора?",
+      "answer": "Да. Если есть подтверждённая встречная задолженность, её включение в реестр уменьшит чистую позицию кредитора и может изменить расчёты."
+    },
+    {
+      "question": "Что делать, если управляющий проигнорировал представленные доказательства?",
+      "answer": "Если управляющий не принял во внимание материалы, это решение можно обжаловать в арбитражном суде. Подготовьте полный комплект и при необходимости экспертные заключения."
+    },
+    {
+      "question": "Когда стоит отказаться от судебной борьбы по мелкому требованию?",
+      "answer": "Если ожидаемые расходы на экспертизы и суд выше потенциальной экономии, лучше отказаться: предварительная оценка экономической целесообразности поможет принять решение."
+    },
+    {
+      "question": "Как подготовить доказательства против поддельных актов и счетов?",
+      "answer": "Ищите первичные подтверждения - подписанные акты, платёжные поручения и банковские выписки. При необходимости закажите экспертизу подлинности и привяжите выводы к банковским данным."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все ключевые утверждения сверены с research.json (последняя верификация 2026-06-19).",
+    "Формирование реестра, порядок подачи возражений и возможность обжалования в суд - описаны в safe_phrasing research (факт f1, f3, f4).",
+    "Основания для оспаривания и перечень доказательств сформулированы в соответствии с research (f2, f5).",
+    "Отмечены фактгэпсы в research.json: процессуальные сроки и отдельные вопросы приостановления операций оставлены в обтекаемой форме (рекомендуется уточнить перед подачей)."
+  ],
+  "keyword_density_main": 0.018,
+  "main_keyword_exact_count": 2,
+  "text_chars": 6619,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.126,
+  "local_spam_ngram3_repeat": 0.042,
+  "local_lexical_diversity": 0.616,
+  "local_ai_markers_density": 0.23,
+  "local_ai_markers_critical": 0,
+  "length_status": "ok",
+  "length_kind": "default",
+  "local_ai_markers_total": 2,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 0,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 57,
+  "predicted_ai_pct": 11,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность выше 50% (~57%)",
+    "AI-detector чуть выше 10% (~11%)"
+  ],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1781847807/articles/kak-osporit-trebovanie-kreditorov-v-reestre-pri-bankrotstve-yurlica-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1781847807/articles/kak-osporit-trebovanie-kreditorov-v-reestre-pri-bankrotstve-yurlica-cover.jpg",
+  "ready_for_review": true,
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Exterior close-up photograph of carved stone columns and a worn marble staircase leading to heavy oak doors of an official building; camera low three-quarter angle emphasizing texture and authority. Foreground on the lowest step: a closed dark leather portfolio, a small neat stack of tied dossiers, a polished round company seal resting beside a fountain pen, and a pair of reading glasses folded on top of the top dossier. Lighting: cool morning daylight grazing the marble veining with soft shadow across the steps. Palette: cool grey-blue stone, warm brass accents. Mood: formal procedural gravity, challenge to an administrative claim awaiting resolution.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-06-19T05:43:28Z",
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "spam_risk: 3 флагов (top1_count>12 (=13, лемма «реестр»), top3_sum>30 (=31), top10_share>0.115 (=0.126)), top-5: ['реестр', 'кредитор', 'решен', 'материал', 'сумм']",
+    "author_markers_missing: 0 < 2",
+    "too_few_short_sentences: 6 < 12"
+  ]
+}
