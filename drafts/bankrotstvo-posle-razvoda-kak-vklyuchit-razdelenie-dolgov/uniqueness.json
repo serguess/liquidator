@@ -1,0 +1,22 @@
+{
+  "slug": "bankrotstvo-posle-razvoda-kak-vklyuchit-razdelenie-dolgov",
+  "article_id": 277,
+  "scores": {
+    "structure_overlap": 0.1,
+    "thesis_similarity": 0.037,
+    "cta_overlap": 0.029
+  },
+  "thresholds": {
+    "structure_overlap": 0.4,
+    "thesis_similarity": 0.3,
+    "cta_overlap": 0.2
+  },
+  "passed": true,
+  "peers_compared": 50,
+  "closest_peer": "snyatie-aresta-s-imushchestva-cherez-sud",
+  "similar_articles": [],
+  "conflicts": [],
+  "recommendation": "ok",
+  "stored_in_db": true,
+  "note": "Вектор статьи записан в data/embeddings.sqlite (published=0). После публикации агент 7 переключит флаг на 1."
+}

@@ -1,0 +1,99 @@
+{
+  "slug": "bankrotstvo-posle-razvoda-kak-vklyuchit-razdelenie-dolgov",
+  "category": "fiz",
+  "title": "Банкротство после развода: учёт разделённых долгов при банкротстве",
+  "description": "Что учитывать при банкротстве после развода: как отражается раздел долга, кто отвечает за совместные обязательства, какие доказательства нужны суду и как избежать ошибок в заявлении о банкротстве.",
+  "h1": "Банкротство после развода: как учесть разделённые долги при процедуре",
+  "lead": "Коротко - какие документы и доказательства снижают риск включения разделённого долга в ваше дело и почему важно получить подтверждение от кредитора.",
+  "topic_action": "проверку возможности списания долгов после развода",
+  "breadcrumb_current": "Раздел долгов после развода",
+  "og_image": "/assets/articles/bankrotstvo-posle-razvoda-kak-vklyuchit-razdelenie-dolgov.jpg",
+  "main_keyword": "банкротство после развода",
+  "secondary_keywords": [
+    "раздел долгов при разводе",
+    "банкротство после раздела имущества",
+    "совместные кредиты после развода",
+    "как доказать раздел долга в суде",
+    "ответственность за долг после расторжения брака",
+    "включение разделённого долга в конкурсную массу",
+    "доказательства раздела обязательств",
+    "банкротство и раздел долгов супругов",
+    "права кредиторов при разводе"
+  ],
+  "internal_links": [],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/",
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/b919efeffaee7c5a42d9c3d755951599d9b55288/"
+  ],
+  "faq": [
+    {
+      "question": "Можно ли полностью снять долг с меня, если суд распределил его на супругу?",
+      "answer": "Решение суда фиксирует внутреннюю обязанность между бывшими, но пока сторона по кредиту не изменила своё право письменно, она может требовать исполнение и с первоначального должника. Письменное подтверждение от требовательной стороны существенно изменит ситуацию."
+    },
+    {
+      "question": "Какие документы убедят управляющего, что долг платит другой супруг?",
+      "answer": "Нотариальное соглашение или решение суда в сочетании с платёжными поручениями, выписками и письмами от кредитной организации - это то, что обычно учитывают."
+    },
+    {
+      "question": "Стоит ли добиваться письменного согласия кредитной организации?",
+      "answer": "Да. Письменное согласие или уступка прав - самый надёжный способ изменить правовую привязку требования и исключить спор о включении в реестр."
+    },
+    {
+      "question": "Что делать, если приставы уже удерживают с зарплаты по общему кредиту?",
+      "answer": "Исполнительное производство действует независимо от развода; сначала оцените основания взыскания, проверьте документы и, при необходимости, обсудите с юристом варианты защиты минимальной суммы и взаимодействия с планируемой процедурой банкротства."
+    },
+    {
+      "question": "Можно ли включить в дело долг по устной договорённости?",
+      "answer": "Устные договорённости имеют слабую доказательную силу. Без документов риск включения требования остаётся высоким."
+    },
+    {
+      "question": "Как влияет нотариальное соглашение на решении в деле о банкротстве?",
+      "answer": "Нотариальный акт значительно укрепляет позицию заявителя, но в отсутствии согласия стороны, предъявляющей требование, его сила ограничена - по возможности сочетайте его с подтверждением от той стороны."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все ключевые утверждения сверены с research.json (research_date: 2026-06-19). Формулировки приведены к безопасной версии из research.safe_phrasing, где это требовалось.",
+    "Утверждение о включении в конкурсную массу привязано к ст. 213.25 и ст. 213.28 127‑ФЗ; приведены осторожные формулировки (требуется юридическая привязка долга к должнику на дату процедуры).",
+    "Позиция о том, что соглашение между бывшими супругами не освобождает от требований кредитора без его согласия, соответствует safe_phrasing (f1, f3, f5).",
+    "Рекомендации по доказательствам основаны на f4 и f8: нотариальные соглашения, судебные решения, выписки, платежи и письма кредитора - приоритетные документы."
+  ],
+  "keyword_density_main": 0.012,
+  "main_keyword_exact_count": 2,
+  "text_chars": 6659,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.152,
+  "local_spam_ngram3_repeat": 0.044,
+  "local_lexical_diversity": 0.544,
+  "local_ai_markers_density": 0.58,
+  "local_ai_markers_critical": 0,
+  "length_status": "ok",
+  "length_kind": "default",
+  "local_ai_markers_total": 5,
+  "local_ai_markers_high": 2,
+  "local_own_voice_hits": 2,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "ready_for_review": true,
+  "ready_at": null,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1781835411/articles/bankrotstvo-posle-razvoda-kak-vklyuchit-razdelenie-dolgov-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1781835411/articles/bankrotstvo-posle-razvoda-kak-vklyuchit-razdelenie-dolgov-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Wide cinematic photograph of a spacious official antechamber with high ceilings and tall windows, architecture dominating but center holds a long polished dark walnut table bearing a closed textured leather portfolio, a modest stack of closed dossiers tied with cord beside it, and a single tall-backed oxblood leather chair pulled slightly away from the table; camera symmetric three-quarter, eye-level to capture scale and intimacy; lighting late-afternoon golden window light casting long soft shadows across marble floor; materials walnut, oxblood leather, brass accents; palette warm cream, deep oxblood and neutral stone; mood sober, contemplative, focused on personal financial consequence and divided debts after divorce.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-06-19T02:16:52Z",
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 62,
+  "predicted_ai_pct": 5,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность заметно выше 50% (~62%)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "spam_risk: 5 флагов (top1_count>12 (=17, лемма «сторон»), top3_sum>30 (=39), top10_sum>80 (=93), top10_share>0.115 (=0.152), lexical_diversity<0.58 (=0.544)), top-5: ['сторон', 'документ', 'требован', 'решен', 'доказательств']",
+    "too_few_short_sentences: 2 < 12"
+  ]
+}
