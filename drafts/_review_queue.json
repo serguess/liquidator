@@ -3138,6 +3138,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "bankrotstvo-dolzhnikov-s-nalichnymi-aktivami-kak-zashchitit-platyozh",
+      "category": "fiz",
+      "title": "Банкротство с наличными активами: как защитить деньги",
+      "added_at": "2026-06-19T08:34:50.524347",
+      "char_count": 6623,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1781847285/articles/bankrotstvo-dolzhnikov-s-nalichnymi-aktivami-kak-zashchitit-platyozh-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

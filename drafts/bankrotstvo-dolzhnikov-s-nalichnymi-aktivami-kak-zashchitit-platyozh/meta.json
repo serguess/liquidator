@@ -1,0 +1,102 @@
+{
+  "slug": "bankrotstvo-dolzhnikov-s-nalichnymi-aktivami-kak-zashchitit-platyozh",
+  "category": "fiz",
+  "title": "Банкротство с наличными активами: как защитить деньги",
+  "description": "Что делать, если у должника есть наличные: как суд и арбитражный управляющий учитывают наличные средства, какие законные способы защиты возможны и какие риски грозят за попытки скрыть деньги.",
+  "h1": "Банкротство должника с наличными активами: как защитить деньги",
+  "lead": "Короткий ответ ниже: только факты и реальные варианты, которые имеет смысл обсуждать с юристом.",
+  "topic_action": "проверку защиты наличных при банкротстве",
+  "breadcrumb_current": "Наличность при банкротстве",
+  "og_image": "/assets/articles/bankrotstvo-dolzhnikov-s-nalichnymi-aktivami-kak-zashchitit-platyozh.jpg",
+  "main_keyword": "банкротство наличные активы",
+  "secondary_keywords": [
+    "наличные при банкротстве",
+    "как защитить наличные при банкротстве",
+    "изъятие наличных при банкротстве",
+    "учет наличных у должника",
+    "что делать если у должника наличные",
+    "банкротство физического лица наличные",
+    "скрытие активов при банкротстве",
+    "ответственность за сокрытие наличных"
+  ],
+  "internal_links": [],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/",
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/c2c8c81ee8e4bd843286b08b10607f00ec6ae073/"
+  ],
+  "faq": [
+    {
+      "question": "Можно ли сохранить часть наличных, задекларировав их в заявлении о банкротстве?",
+      "answer": "Декларация помогает. Если есть документы, подтверждающие происхождение денег, арбитраж чаще признаёт добросовестность. Сохранение части средств через ходатайство о прожиточном минимуме возможно, но решение инстанции индивидуально."
+    },
+    {
+      "question": "Что будет, если передать деньги третьему лицу незадолго до подачи заявления?",
+      "answer": "Такая передача может быть оспорена и возвращена в имущественную массу как преднамеренная операция. Без надлежащего оформления риск высок."
+    },
+    {
+      "question": "Какие документы обычно спасают от претензий к происхождению наличных?",
+      "answer": "Договоры займа с расписками, приходные ордера, акты приёма‑передачи, подтверждения продажи имущества, банковские выписки и налоговые документы. Чем больше подтверждений, тем лучше."
+    },
+    {
+      "question": "Сколько денег в \"наличности\" считается подозрительным для инстанции?",
+      "answer": "Однозначного порога в research нет. Суд оценивает соотношение суммы, источника и поведения заявителя. Большая неконсолидированная сумма без подтверждений привлекает внимание."
+    },
+    {
+      "question": "Какие последствия может повлечь сокрытие наличных при процедуре?",
+      "answer": "Помимо возврата средств в конкурсную массу, инстанция может отказать в списании долгов. В отдельных случаях возможна административная или уголовная ответственность - конкретные квалификации зависят от обстоятельств."
+    },
+    {
+      "question": "Что делать, если наличность нашли уже после признания банкротом?",
+      "answer": "Найденная сумма включается в имущественную массу и распределяется между кредиторами. Если вы считаете, что деньги не принадлежат заявителю, нужно быстро собрать доказательства и обсудить позицию с управляющим и юристом."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все ключевые юридические утверждения сверены с research.json. Факты о включении наличности в конкурсную массу, обязанностях по описи и инвентаризации, возможности сохранения прожиточного минимума и рисках сокрытия подтверждены (последняя верификация 2026-06-19, legislation_status: active).",
+    "Утверждение о возможности оспаривания передач третьим лицам сохранено в обтекаемой формулировке: research отмечает фактический пробел по точным look-back периодам и критериям оспаривания сделок (fact id f6 - needs_verification). Текст явно указывает, что периоды и критерии требуют проверки в конкретном деле.",
+    "В тексте не содержится гарантий 100% сохранности средств и не указаны конкретные номера уголовно-административных статей (research требует верификации для таких подробностей)."
+  ],
+  "keyword_density_main": 0.0015,
+  "main_keyword_exact_count": 1,
+  "text_chars": 6623,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.133,
+  "local_spam_ngram3_repeat": 0.019,
+  "local_lexical_diversity": 0.605,
+  "local_ai_markers_density": 0.59,
+  "local_ai_markers_critical": 1,
+  "length_status": "ok",
+  "length_kind": "default",
+  "local_ai_markers_total": 5,
+  "local_ai_markers_high": 1,
+  "local_own_voice_hits": 4,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1781847285/articles/bankrotstvo-dolzhnikov-s-nalichnymi-aktivami-kak-zashchitit-platyozh-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1781847285/articles/bankrotstvo-dolzhnikov-s-nalichnymi-aktivami-kak-zashchitit-platyozh-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Tight close-up editorial photograph suggesting recent human activity but with no people: a partially opened dark leather briefcase left on a polished walnut desk with several unmarked bundled banknotes peeking from beneath a stack of closed dossiers tied with cord, an uncapped fountain pen lying beside a small glass inkwell, a half-finished white coffee cup on a saucer with a faint lipstick-less ring, a chair pushed back from the desk and an unbuttoned suit jacket draped over its back; camera shallow depth-of-field three-quarter angle, warm directional side light, moody contemplative palette of walnut, oxblood, and brass, atmosphere: urgent asset-protection, cautious and confidential.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-06-19T05:34:46Z",
+  "predicted_spam_pct": 55,
+  "predicted_ai_pct": 35,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность выше 50% (~55%)",
+    "AI-detector значительно выше 10% (~35%)",
+    "найдены критические маркеры ИИ-стиля: Английские кавычки в тексте - могут поднять AI-detector text.ru"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "spam_risk: 4 флагов (top1_count>12 (=14, лемма «сумм»), top3_sum>30 (=36), top10_sum>80 (=84), top10_share>0.115 (=0.133)), top-5: ['сумм', 'передач', 'риск', 'деньг', 'средств']",
+    "ai_markers_critical: 1 (Английские кавычки в тексте)"
+  ],
+  "date_published": "2026-06-19",
+  "date_modified": "2026-06-19",
+  "ready_for_review": true,
+  "ready_at": "2026-06-19T05:34:50Z",
+  "publication_target": "telegram_review"
+}

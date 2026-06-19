@@ -1,0 +1,281 @@
+{
+  "file": "/home/appuser/apps/liquidator/drafts/bankrotstvo-dolzhnikov-s-nalichnymi-aktivami-kak-zashchitit-platyozh/article.html",
+  "passed": true,
+  "hard_failed": false,
+  "blockers": [],
+  "warnings": [
+    "forced_pass_at_iter2: блокеры пропущены, статья идёт в TG-очередь с metrics_warning=true. Было: 2 блокеров — spam_risk; ai_markers_critical"
+  ],
+  "autofix": {
+    "file": "/home/appuser/apps/liquidator/drafts/bankrotstvo-dolzhnikov-s-nalichnymi-aktivami-kak-zashchitit-platyozh/article.html",
+    "abbreviation_fixes": {},
+    "punctuation_fixes": 0,
+    "em_dash_fixes": 0,
+    "eng_quotes_fixes": 0,
+    "yo_fixes": 0,
+    "hyphen_fixes": 0,
+    "changed": false,
+    "bytes_before": 40371,
+    "bytes_after": 40371
+  },
+  "quality_checks": {
+    "file": "drafts/bankrotstvo-dolzhnikov-s-nalichnymi-aktivami-kak-zashchitit-platyozh/article.html",
+    "text_chars": 6623,
+    "length_status": "ok",
+    "length_kind": "default",
+    "passed": false,
+    "abbreviation_hits": [],
+    "punctuation_hits": [],
+    "hyphen_compound_hits": [],
+    "spam": {
+      "total_words": 631,
+      "unique_lemmas": 382,
+      "lexical_diversity": 0.605,
+      "top10_words": [
+        [
+          "сумм",
+          14
+        ],
+        [
+          "передач",
+          12
+        ],
+        [
+          "риск",
+          10
+        ],
+        [
+          "деньг",
+          8
+        ],
+        [
+          "средств",
+          8
+        ],
+        [
+          "проверк",
+          7
+        ],
+        [
+          "документ",
+          7
+        ],
+        [
+          "част",
+          6
+        ],
+        [
+          "масс",
+          6
+        ],
+        [
+          "имуществ",
+          6
+        ]
+      ],
+      "top10_share": 0.133,
+      "top1_count": 14,
+      "top3_sum": 36,
+      "top10_sum": 84,
+      "ngram3_repeat_count": 12,
+      "ngram3_total": 629,
+      "ngram3_repeat_share": 0.019,
+      "risk_flags": [
+        "top1_count>12 (=14, лемма «сумм»)",
+        "top3_sum>30 (=36)",
+        "top10_sum>80 (=84)",
+        "top10_share>0.115 (=0.133)"
+      ],
+      "word_warnings": [
+        "«сумм» ×14"
+      ]
+    },
+    "targeted_tokens": [
+      {
+        "token": "ст_сокращение",
+        "count": 1,
+        "limit": 5,
+        "over_limit": false,
+        "severity": "hard"
+      },
+      {
+        "token": "РФ_рудимент",
+        "count": 0,
+        "limit": 2,
+        "over_limit": false,
+        "severity": "hard"
+      },
+      {
+        "token": "руб_сокращение",
+        "count": 0,
+        "limit": 0,
+        "over_limit": false,
+        "severity": "hard"
+      },
+      {
+        "token": "ООО_бренд",
+        "count": 0,
+        "limit": 3,
+        "over_limit": false,
+        "severity": "hard"
+      },
+      {
+        "token": "000руб_паттерн",
+        "count": 0,
+        "limit": 2,
+        "over_limit": false,
+        "severity": "hard"
+      },
+      {
+        "token": "127фз_закон",
+        "count": 0,
+        "limit": 2,
+        "over_limit": false,
+        "severity": "soft"
+      },
+      {
+        "token": "213_артикул",
+        "count": 1,
+        "limit": 3,
+        "over_limit": false,
+        "severity": "soft"
+      },
+      {
+        "token": "ГПК_кодекс",
+        "count": 0,
+        "limit": 3,
+        "over_limit": false,
+        "severity": "soft"
+      },
+      {
+        "token": "ГК_кодекс",
+        "count": 0,
+        "limit": 3,
+        "over_limit": false,
+        "severity": "soft"
+      },
+      {
+        "token": "000_число",
+        "count": 0,
+        "limit": 8,
+        "over_limit": false,
+        "severity": "soft"
+      },
+      {
+        "token": "cta_формула_повтор",
+        "count": 1,
+        "limit": 1,
+        "over_limit": false,
+        "severity": "soft"
+      }
+    ],
+    "author_markers_count": 4,
+    "author_markers_min": 2
+  },
+  "ai_markers": {
+    "file": "drafts/bankrotstvo-dolzhnikov-s-nalichnymi-aktivami-kak-zashchitit-platyozh/article.html",
+    "text_chars": 8518,
+    "hits_total": 5,
+    "density_per_1000": 0.59,
+    "by_severity": {
+      "critical": 1,
+      "high": 1,
+      "medium": 1,
+      "low": 2
+    },
+    "own_voice_hits": 4,
+    "first_person_singular_hits": 0,
+    "hits": [
+      {
+        "name": "ИИ-лексика: «привлекать внимание»",
+        "category": "ai-lexis",
+        "severity": "medium",
+        "match": "привлекает внимание",
+        "position": 6815,
+        "context": "...вителя. Большая неконсолидированная сумма без подтверждений привлекает внимание. Какие последствия может повлечь сокрытие наличных при проц..."
+      },
+      {
+        "name": "ИИ-лексика: «взаимодействие/тонкости/нюансы (абстрактно)»",
+        "category": "ai-lexis",
+        "severity": "low",
+        "match": "Взаимодействие",
+        "position": 8325,
+        "context": "...ение law@pravo.shop Коммерческие предложения biz@pravo.shop Взаимодействие со СМИ pr@pravo.shop © 2018-2026 ООО «ЛИКВИДАТОР». Все прав..."
+      },
+      {
+        "name": "Английские кавычки в тексте",
+        "category": "quotes",
+        "severity": "critical",
+        "match": "\"н",
+        "position": 6608,
+        "context": "...менты. Чем больше подтверждений, тем лучше. Сколько денег в \"наличности\" считается подозрительным для инстанции? Однозначн..."
+      },
+      {
+        "name": "Канцелярит: «в рамках» (без нужды)",
+        "category": "clerical",
+        "severity": "low",
+        "match": "в рамках",
+        "position": 7937,
+        "context": "...ровождение на всех этапах. Надежность и законность Работаем в рамках ФЗ и действующего законодательства РФ. РЕКВИЗИТЫ ООО «ЛИКВИ..."
+      },
+      {
+        "name": "Канцелярит: «надлежащий/имеет место быть»",
+        "category": "clerical",
+        "severity": "high",
+        "match": "надлежащего",
+        "position": 6306,
+        "context": "...щена в имущественную массу как преднамеренная операция. Без надлежащего оформления риск высок. Какие документы обычно спасают от пр..."
+      }
+    ]
+  },
+  "anti_template": {
+    "file": "drafts/bankrotstvo-dolzhnikov-s-nalichnymi-aktivami-kak-zashchitit-platyozh/article.html",
+    "text_chars": 7049,
+    "phrases_loaded": 138,
+    "passed": true,
+    "hits": []
+  },
+  "law_quotes": {
+    "total_chars": 0,
+    "limit": 600,
+    "samples": []
+  },
+  "rhythm": {
+    "file": "drafts/bankrotstvo-dolzhnikov-s-nalichnymi-aktivami-kak-zashchitit-platyozh/article.html",
+    "text_chars": 7049,
+    "sentences_total": 87,
+    "avg_sentence_len": 7.95,
+    "short_sentences_count": 20,
+    "short_sentences_share": 0.23,
+    "long_sentences_count": 0,
+    "parasite_count": 1,
+    "parasite_per_1000": 0.14,
+    "flags": []
+  },
+  "internal_links": {
+    "total_hrefs": 37,
+    "ok": 0,
+    "whitelisted": 21,
+    "external": 13,
+    "fixed": 0,
+    "errors": 0,
+    "changed": false,
+    "fix_details": [],
+    "error_details": []
+  },
+  "recommendations": [
+    "reduce_repetition: разбавить топ-5 частотных лемм местоимениями/перифразом — ['сумм', 'передач', 'риск', 'деньг', 'средств']",
+    "fix_ai_markers: убрать критичные маркеры (длинные тире, эмодзи, англ. кавычки, чатбот-фразы)"
+  ],
+  "retry_count": 2,
+  "predicted_metrics": {
+    "spam_pct": 55,
+    "ai_pct": 35,
+    "uniqueness_pct": 87
+  },
+  "customer_risks": [
+    "заспамленность выше 50% (~55%)",
+    "AI-detector значительно выше 10% (~35%)",
+    "найдены критические маркеры ИИ-стиля: Английские кавычки в тексте - могут поднять AI-detector text.ru"
+  ]
+}
