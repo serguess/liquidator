@@ -3177,6 +3177,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "bankrotstvo-i-raschet-aktyvov-obyazannyh-k-realizacii",
+      "category": "fiz",
+      "title": "Как рассчитывается стоимость активов для реализации при банкротстве",
+      "added_at": "2026-06-20T05:16:31.525064",
+      "char_count": 7512,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1781921785/articles/bankrotstvo-i-raschet-aktyvov-obyazannyh-k-realizacii-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

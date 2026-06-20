@@ -1,0 +1,99 @@
+{
+  "slug": "bankrotstvo-i-raschet-aktyvov-obyazannyh-k-realizacii",
+  "category": "fiz",
+  "title": "Как рассчитывается стоимость активов для реализации при банкротстве",
+  "description": "Пошаговое руководство по оценке и расчету стоимости имущества должника для реализации в процедуре банкротства: кто проводит оценку, какие методы используются и как учитываются налоги и расходы.",
+  "h1": "Как рассчитывают стоимость активов, подлежащих реализации при банкротстве",
+  "lead": "Коротко: стоимость лота для торгов формирует отчёт об оценке, а итоговая выручка уменьшается на законные издержки - комиссия площадки, транспорт, хранение и вознаграждение управляющего, поэтому важно понимать, сколько действительно попадёт в конкурсную массу.",
+  "topic_action": "расчёт стоимости активов для реализации при банкротстве",
+  "breadcrumb_current": "Расчёт стоимости активов",
+  "og_image": "/assets/articles/bankrotstvo-i-raschet-aktyvov-obyazannyh-k-realizacii.jpg",
+  "main_keyword": "как рассчитывается стоимость активов для реализации при банкротстве",
+  "secondary_keywords": [
+    "оценка имущества при банкротстве",
+    "как оценить активы для продажи в банкротстве",
+    "методы оценки стоимости имущества должника",
+    "рыночная и ликвидационная стоимость при банкротстве",
+    "оценщик в деле о банкротстве",
+    "как учитываются долги при продаже имущества",
+    "порядок реализации имущества при банкротстве",
+    "стоимость недвижимости при банкротстве",
+    "оценка движимого имущества для реализации",
+    "расчет начальной цены реализации имущества"
+  ],
+  "internal_links": [],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/bf16e2063ccac5d2513801671ecef3ddb395cdf0/",
+    "https://www.consultant.ru/document/cons_doc_LAW_382961/"
+  ],
+  "faq": [
+    {
+      "question": "Кто назначает оценщика для реализации имущества в деле о банкротстве?",
+      "answer": "Оценку обычно инициирует финансовый управляющий; суд и участники процесса также вправе запросить проведение экспертизы (см. положения 127‑ФЗ и процессуальные нормы)."
+    },
+    {
+      "question": "Какие расходы сначала вычитают из выручки с торгов?",
+      "answer": "Сначала покрывают допустимые расходы: комиссия площадки, публикации, транспорт, хранение, вознаграждение управляющего (включая депозит 25 000 рублей и предусмотренную процентную часть). После этого остаток идёт в конкурсную массу."
+    },
+    {
+      "question": "Можно ли оспорить отчёт об оценке и на каком основании?",
+      "answer": "Да. Отчёт можно оспорить при ошибках в методике, неверных данных о сопоставимых сделках или нарушениях оформления; участники ходатайствуют о повторной экспертизе или представляют замечания суду."
+    },
+    {
+      "question": "Сколько времени обычно занимают торги по реализации имущества?",
+      "answer": "Сроки определяет суд и регламент площадки; в практике встречаются ориентиры порядка шести месяцев, но это приблизительная оценка и в каждом деле суд может установить иной период."
+    },
+    {
+      "question": "Как влияет статус единственного жилья на возможность и метод оценки?",
+      "answer": "Единственное жильё обычно защищено от взыскания (ст. 446 ГПК), но в исключительных случаях суд может разрешить продажу при обеспечении замещающим жильём и направлении разницы в конкурсную массу (Постановление КС РФ № 15‑П)."
+    },
+    {
+      "question": "От чего зависит формирование начальной цены на электронной площадке?",
+      "answer": "Начальную цену формируют по результатам отчёта об оценке и в соответствии с регламентом торговой площадки: важны выбранный метод оценки, наличие сопоставимых сделок, подготовка лота и правила понижения цены на конкретной площадке."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Основные утверждения сверены с research.json (последняя верификация 2026-06-20).",
+    "Инициирование реализации, состав конкурсной массы и права на исключение единственного жилья соответствуют safe_phrasing из research (ст. 213.24, ст. 213.25 127‑ФЗ; ст. 446 ГПК; Постановление КС РФ № 15‑П).",
+    "Упоминание депозита управляющего 25 000 руб. включено и подтверждено research (ст. 20.6 127‑ФЗ).",
+    "Указания о методах оценки и роли управляющего приведены в обтекаемой форме в соответствии с safe_phrasings: детали методик и правила конкретных площадок помечены как needs_verification в research и потому обобщены в тексте.",
+    "Запрещённые утверждения (гарантии цены, фиксированные сроки, устаревшие суммы) в тексте отсутствуют."
+  ],
+  "keyword_density_main": 0.012,
+  "main_keyword_exact_count": 2,
+  "text_chars": 7512,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.107,
+  "local_spam_ngram3_repeat": 0.03,
+  "local_lexical_diversity": 0.566,
+  "local_ai_markers_density": 0.42,
+  "local_ai_markers_critical": 0,
+  "length_status": "warn",
+  "length_kind": "default",
+  "local_ai_markers_total": 4,
+  "local_ai_markers_high": 1,
+  "local_own_voice_hits": 3,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 58,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность заметно выше 50% (~58%)"
+  ],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1781921785/articles/bankrotstvo-i-raschet-aktyvov-obyazannyh-k-realizacii-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1781921785/articles/bankrotstvo-i-raschet-aktyvov-obyazannyh-k-realizacii-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Studio close-up of a single iconic cluster on a clean smoky gradient background: a pair of polished brass scales of justice slightly off-center with one pan holding a small stack of vintage brass weights, beside them a neat pile of brass keys on a ring and a polished round company seal on a dark leather coaster, an antique pocket watch half-open showing no readable numerals lying next to a closed leather case folder; camera: tight tabletop level, three-quarter angle; lighting: soft directional studio light from upper-left with gentle rim highlights and deep but smooth shadow falloff; palette: charcoal, warm brass, oxblood leather; mood: precise measured valuation, objective appraisal.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-06-20T02:16:26Z",
+  "date_published": "2026-06-20",
+  "date_modified": "2026-06-20",
+  "ready_for_review": true,
+  "ready_at": "2026-06-20T02:16:31Z",
+  "publication_target": "telegram_review"
+}
