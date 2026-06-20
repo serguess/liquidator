@@ -3242,6 +3242,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "consultant-top-povorotnye-dela-analiz-dvizhenij-sudov",
+      "category": "news",
+      "title": "Три поворотных дела арбитражных округов: анализ и последствия",
+      "added_at": "2026-06-20T09:19:58.899428",
+      "char_count": 6897,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1781936395/articles/consultant-top-povorotnye-dela-analiz-dvizhenij-sudov-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
