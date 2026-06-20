@@ -1,0 +1,95 @@
+{
+  "slug": "kak-osporit-dejstviya-arbitrazhnogo-upravlyayuschego",
+  "category": "yur",
+  "title": "Как оспорить действия арбитражного управляющего",
+  "description": "Практическая инструкция: какие действия управляющего можно оспорить, в какой суд и какими документами обращаться, сроки и типичные аргументы для отмены решений управляющего.",
+  "h1": "Как оспорить действия арбитражного управляющего: пошаговые действия для юрлица",
+  "lead": "Коротко: оспаривать решения и распоряжения арбитражного управляющего следует в арбитражном суде - иском просят признать действие незаконным, вернуть имущество в конкурсную массу или взыскать убытки; параллельно уместна жалоба в СРО и ходатайство об обеспечительных мерах при риске утраты активов.",
+  "topic_action": "оспаривание действий арбитражного управляющего",
+  "breadcrumb_current": "Оспаривание действий управляющего",
+  "og_image": "/assets/articles/kak-osporit-dejstviya-arbitrazhnogo-upravlyayuschego.jpg",
+  "main_keyword": "оспорить действия арбитражного управляющего",
+  "secondary_keywords": [
+    "оспорить действия управляющего при банкротстве",
+    "жалоба на арбитражного управляющего",
+    "иск к арбитражному управляющему",
+    "как обжаловать решение арбитражного управляющего",
+    "порядок оспаривания действий финансового управляющего"
+  ],
+  "internal_links": [
+    "/articles/yur/poryadok-osporivaniya-sdelok-upravlyayushchego",
+    "/articles/yur/vklyuchenie-v-reestr-kreditornyh-trebovanij",
+    "/articles/yur/hododateli-obespechatelnye-meropriyatiya"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/c2c8c81ee8e4bd843286b08b10607f00ec6ae073/",
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/b919efeffaee7c5a42d9c3d755951599d9b55288/"
+  ],
+  "faq": [
+    {
+      "question": "Можно ли одновременно подать иск в суд и жалобу в СРО?",
+      "answer": "Да. Комбинация возможна и часто полезна: суд решает восстановительные меры, СРО - дисциплинарные. Жалоба в СРО не отменяет судебных требований."
+    },
+    {
+      "question": "Что делать, если управляющий реализовал имущество по заниженной цене?",
+      "answer": "Собрать договоры, акты, оценку и выписки; подать в суд заявление об оспаривании сделки или требование о взыскании убытков в пользу конкурсной массы."
+    },
+    {
+      "question": "Какие доказательства повышают шансы на отмену распоряжения?",
+      "answer": "Протоколы собраний кредиторов, документы о сделке, банковские выписки и независимая оценка стоимости имущества."
+    },
+    {
+      "question": "Какие меры можно просить у суда, чтобы не допустить утрату имущества?",
+      "answer": "Ходатайство о запрете на отчуждение конкретных активов или о приостановлении спорных операций до решения по делу."
+    },
+    {
+      "question": "Что грозит управляющему за нарушение обязанностей?",
+      "answer": "СРО может применить дисциплинарные меры; при наличии признаков правонарушения возможны административные или уголовные последствия по решению компетентных органов."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Ключевые утверждения о подсудности и способах оспаривания сверены с research.json: действия управляющего оспариваются в арбитражном суде (f1). Формулировки выдержаны в консервативной безопасной форме при отсутствии точных процессуальных ссылок.",
+    "Указание на возможность подачи жалобы в СРО сохранено в безопасной форме (f2). Поскольку у разных СРО регламенты различаются, текст не утверждает единые сроки рассмотрения жалоб СРО.",
+    "Положение о возможности оспаривать сделки и просить взыскания убытков приведено в общем виде (f3). Конкретные процессуальные сроки и давности в тексте не указаны в соответствии с fact_gaps.",
+    "Формулировки о мере защиты (приостановление операций, заменa управляющего, возмещение убытков) согласованы с f5: текст не гарантирует автоматического результата и указывает на необходимость доказательной базы.",
+    "Там, где research.json указывал 'needs_verification', использованы безопасные обтекаемые формулировки и ссылки на общий порядок, без точных процессуальных сроков."
+  ],
+  "keyword_density_main": 0.012,
+  "main_keyword_exact_count": 2,
+  "text_chars": 7141,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.125,
+  "local_spam_ngram3_repeat": 0.038,
+  "local_lexical_diversity": 0.576,
+  "local_ai_markers_density": 0.43,
+  "local_ai_markers_critical": 0,
+  "length_status": "ok",
+  "length_kind": "default",
+  "local_ai_markers_total": 4,
+  "local_ai_markers_high": 1,
+  "local_own_voice_hits": 3,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "ready_for_review": true,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1781934576/articles/kak-osporit-dejstviya-arbitrazhnogo-upravlyayuschego-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1781934576/articles/kak-osporit-dejstviya-arbitrazhnogo-upravlyayuschego-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Editorial photograph of a polished marble slab foreground holding a measured cluster of legal accoutrements: a closed dark leather portfolio slightly ajar with unmarked pages visible, a polished round brass seal placed beside it, a classic fountain pen on a leather pen rest, a small brass key ring with several aged keys, and an antique pocket watch stopped mid-flow. Camera: tabletop level, slight three-quarter angle. Lighting: soft natural daylight grazing the marble with subtle side shadows to evoke scrutiny and deliberate examination. Palette: warm cream marble, deep leather, aged brass highlights. Mood: focused, procedural challenge.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-06-20T05:49:37Z",
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 62,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность заметно выше 50% (~62%)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "spam_risk: 3 флагов (top10_sum>80 (=85), top10_share>0.115 (=0.125), lexical_diversity<0.58 (=0.576)), top-5: ['конкурсн', 'масс', 'оценк', 'имуществ', 'жалоб']",
+    "too_few_short_sentences: 5 < 12"
+  ]
+}
