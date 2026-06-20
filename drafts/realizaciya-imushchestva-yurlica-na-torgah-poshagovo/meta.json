@@ -1,0 +1,93 @@
+{
+  "slug": "realizaciya-imushchestva-yurlica-na-torgah-poshagovo",
+  "category": "yur",
+  "title": "Реализация имущества юрлица на торгах: пошаговый гид",
+  "description": "Как проходит реализация имущества юридического лица на торгах: от описи и оценки до проведения торгов и передачи лота. Практические ориентиры для должника и кредитора.",
+  "h1": "Реализация имущества юридического лица на торгах: пошаговый гид",
+  "lead": "Реализация имущества юрлица на торгах включает опись и оценку активов, формирование лотов, публикацию извещения на электронной площадке и проведение торгов; выручка распределяется в порядке, установленном для обеспеченных и необеспеченных требований.",
+  "topic_action": "снятие ареста с имущества",
+  "breadcrumb_current": "Реализация имущества на торгах",
+  "og_image": "/assets/articles/realizaciya-imushchestva-yurlica-na-torgah-poshagovo.jpg",
+  "main_keyword": "реализация имущества юридического лица на торгах",
+  "secondary_keywords": [
+    "торги по реализации имущества юрлица",
+    "продажа имущества юридического лица на торгах",
+    "порядок реализации имущества юридического лица",
+    "оценка имущества перед торгами",
+    "публикация извещения о торгах"
+  ],
+  "internal_links": [],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/",
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/c2c8c81ee8e4bd843286b08b10607f00ec6ae073/"
+  ],
+  "faq": [
+    {
+      "question": "Какие документы должны быть в пакете лота перед торгами?",
+      "answer": "Обычно: опись, отчёт оценщика, правоустанавливающие бумаги, сведения об обременениях и проект договора купли‑продажи."
+    },
+    {
+      "question": "Что происходит с выручкой от продажи залогового имущества?",
+      "answer": "Выручка сначала идёт на покрытие обеспеченного требования залогодержателя в пределах обеспечения; остаток распределяется между кредиторами по очереди в соответствии с правилами конкурсного производства."
+    },
+    {
+      "question": "Как и где публикуется извещение о продаже - можно ли посмотреть бумаги заранее?",
+      "answer": "Извещение размещают на электронной площадке. Как правило, участникам дают доступ к пакету документов до подачи заявок; порядок и сроки зависят от регламента площадки и решения суда или конкурсного управляющего."
+    },
+    {
+      "question": "Какие сроки обжалования результатов и на что обратить внимание в жалобе?",
+      "answer": "Сроки зависят от процедуры и регламента площадки. В жалобе указывают процессуальные нарушения: ошибки в описи, непризнанные обременения, недостоверные сведения о правах."
+    },
+    {
+      "question": "Как исполнительский сбор влияет на выплаты кредиторам?",
+      "answer": "При принудительном взыскании пристав начисляет исполнительский сбор в размере 7% от подлежащей взысканию суммы; сбор не начисляется, если требование исполнено в срок 5 рабочих дней, что уменьшает чистую сумму, доступную для распределения."
+    },
+    {
+      "question": "Что делать, если в описи обнаружены незаявленные права третьих лиц?",
+      "answer": "Собирать подтверждающие документы, уведомлять участников и при необходимости обращаться в суд для урегулирования статуса или уточнения прав."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Проверены ключевые факты из research.json. Факты о судебном приказе (лимит 500 000 руб.) и об исполнительском сборе (7% и правило об отсутствии сбора при добровольном исполнении в срок 5 рабочих дней) имеют статус active и дата last_verified 2026-06-20.",
+    "Утверждения о порядке введения процедуры реализации имущества и о порядке формирования начальной цены/публикации извещений были приведены в тексте в консервативной, безопасной формулировке из research.safe_phrasing, поскольку соответствующие пункты требовали дополнительной верификации.",
+    "Запрещённые утверждения (гарантии результата торгов, конкретные сроки реализации без ссылки на норму) исключены."
+  ],
+  "keyword_density_main": 0.012,
+  "main_keyword_exact_count": 2,
+  "text_chars": 6103,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.138,
+  "local_spam_ngram3_repeat": 0.033,
+  "local_lexical_diversity": 0.583,
+  "local_ai_markers_density": 0.37,
+  "local_ai_markers_critical": 0,
+  "length_status": "warn",
+  "length_kind": "default",
+  "local_ai_markers_total": 3,
+  "local_ai_markers_high": 1,
+  "local_own_voice_hits": 3,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "factcheck_warnings": [],
+  "ready_for_review": true,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1781930492/articles/realizaciya-imushchestva-yurlica-na-torgah-poshagovo-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1781930492/articles/realizaciya-imushchestva-yurlica-na-torgah-poshagovo-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Close-up architectural photograph emphasizing the veined polished marble foreground with a tight cluster of business accessories suggesting an impending auction: a closed dark leather portfolio placed slightly left-of-center, a polished round brass seal resting on a small leather blotter, a fountain pen angled across the portfolio's edge, an antique brass pocket watch opened to reveal its face and chain, and a small silver tray holding a neatly folded handkerchief; camera: tight crop, eye-level, shallow depth of field to blur the marble background architecture; lighting: soft diffused daylight grazing the marble with warm specular highlights on brass, palette: cool grey marble with warm brass accents, mood: formal, procedural, imminent sale.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-06-20T04:41:33Z",
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 60,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность заметно выше 50% (~60%)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "spam_risk: 2 флагов (top10_sum>80 (=83), top10_share>0.115 (=0.138)), top-5: ['торг', 'площадк', 'прав', 'оценк', 'пакет']"
+  ]
+}
