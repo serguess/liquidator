@@ -1,0 +1,100 @@
+{
+  "slug": "bankrotstvo-i-vozvrat-zalogovogo-imushchestva-prakticheskij-plan",
+  "category": "fiz",
+  "title": "Банкротство и возврат залогового имущества: план действий",
+  "description": "Пошаговая инструкция для должника: как действовать, чтобы вернуть залоговое имущество при процедуре банкротства, какие документы подготовить и как взаимодействовать с кредиторами и судебными органами.",
+  "h1": "Банкротство и возврат залогового имущества: практический план действий для должника",
+  "lead": "Коротко: возврат залогового имущества при банкротстве возможен, но успех зависит от оформления обеспечения, момента начала исполнительных действий и того, была ли уже реализация объекта.",
+  "topic_action": "возврат залогового имущества",
+  "breadcrumb_current": "Возврат залога",
+  "og_image": "/assets/articles/bankrotstvo-i-vozvrat-zalogovogo-imushchestva-prakticheskij-plan.jpg",
+  "main_keyword": "возврат залогового имущества при банкротстве",
+  "secondary_keywords": [
+    "как вернуть залог при банкротстве",
+    "заложенное имущество при банкротстве физического лица",
+    "порядок возврата залога кредитору",
+    "вещные права при банкротстве",
+    "алименты залогового имущества",
+    "подготовка документов для возврата залога",
+    "претензия кредитору возвращение залога",
+    "судебная практика возврат залогового имущества",
+    "реструктуризация и залог"
+  ],
+  "internal_links": [],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/",
+    "https://www.consultant.ru/document/cons_doc_LAW_382961/"
+  ],
+  "faq": [
+    {
+      "question": "Можно ли залогодержателю реализовать вещь самостоятельно после введения дела о несостоятельности?",
+      "answer": "Коротко: чаще нет. Если исполнительное производство начато до процедуры, самостоятельная реализация возможна. После введения процедуры распоряжение принадлежит управляющему и суду; нужно смотреть даты и документы."
+    },
+    {
+      "question": "Что делать, если обеспечение не зарегистрировано в ЕГРН - сохраняется ли приоритет?",
+      "answer": "Если регистрация отсутствует, приоритет слабее: регистрация даёт ясный титул и упрощает выделение предмета из конкурсной массы. Без записи придётся подтверждать права договором и фактическими обстоятельствами."
+    },
+    {
+      "question": "Как влияет наличие исполнительного производства на возврат вещи?",
+      "answer": "Исполнительное производство действует отдельно от банкротства; при введении процедуры оно в ряде случаев приостанавливается или прекращается. Позиция зависит от момента возбуждения и мер, предпринятых приставами."
+    },
+    {
+      "question": "Какие документы надо подготовить, чтобы заявить обеспеченное требование в деле?",
+      "answer": "Договор об обеспечении (залоговое соглашение), регистрационные записи (если есть), акты приёма‑передачи, оценка предмета, документы по исполнительным производствам. Соберите всё заранее и покажите специалисту."
+    },
+    {
+      "question": "Может ли суд распорядиться о продаже единственной квартиры должника?",
+      "answer": "В общем случае единственное жильё защищено от взыскания (ст. 446 ГПК). По позиции КС РФ (№ 15‑П/2021) этот иммунитет не абсолютен: при явной несоразмерности суд может разрешить продажу с предоставлением замещающего жилья и направлением разницы в конкурсную массу."
+    },
+    {
+      "question": "Что предпринять, если управляющий продал предмет с нарушением порядка?",
+      "answer": "Соберите доказательства нарушений (публикации, акты, оценку) и подайте жалобу в арбитражный суд с требованием пересмотра реализации. Рассмотрите также вариант выкупа предмета на торгах."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Ключевые утверждения сверены с research.json (2026-06-20). Указано: формирование конкурсной массы (f1, ст. 213.25 127‑ФЗ), исключения по ст. 446 ГПК и позиция КС РФ №15‑П/2021 по единственному жилью (f2), приостановление исполнительных производств (f4) и депозит 25 000 руб. на вознаграждение управляющего (f3).",
+    "Утверждения о преимуществах зарегистрированного обеспечения и необходимости проверки ЕГРН основаны на общих принципах и помечены как safe_phrasing в research (f6).",
+    "Факты, отмеченные в research как needs_verification (порядок реализации и точные сроки, f5 и детали по f6), не представлены в тексте как категоричные числовые сроки или однозначные процедуры; там используются осторожные формулировки и ссылки на проверку договора и практики."
+  ],
+  "keyword_density_main": 0.01,
+  "main_keyword_exact_count": 1,
+  "text_chars": 6734,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.126,
+  "local_spam_ngram3_repeat": 0.063,
+  "local_lexical_diversity": 0.587,
+  "local_ai_markers_density": 0.46,
+  "local_ai_markers_critical": 0,
+  "length_status": "ok",
+  "length_kind": "default",
+  "local_ai_markers_total": 4,
+  "local_ai_markers_high": 1,
+  "local_own_voice_hits": 3,
+  "local_first_person_singular_hits": 0,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1781933732/articles/bankrotstvo-i-vozvrat-zalogovogo-imushchestva-prakticheskij-plan-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1781933732/articles/bankrotstvo-i-vozvrat-zalogovogo-imushchestva-prakticheskij-plan-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Cinematic photograph of a private legal library reading desk — warm pool of brass green-glass lamp light on a polished walnut surface, a closed leather portfolio placed center-left, a neat stack of unmarked dossiers tied with cord to the right with a pair of reading glasses resting on top, a classic fountain pen laid diagonally across the portfolio, an antique pocket watch on a chain beside the dossiers, background: towering bookshelves with dark leather spines blurred into soft bokeh; camera: three-quarter desk-level, slight low-angle; lighting: warm tungsten lamp balanced by soft window haze; mood: methodical, reassuring, procedural guidance for reclaiming pledged property.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-06-20T05:35:33Z",
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 62,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность заметно выше 50% (~62%)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "spam_risk: 3 флагов (top3_sum>30 (=32), top10_share>0.115 (=0.126), ngram3_repeat_share>0.055 (=0.063)), top-5: ['обеспечен', 'производств', 'предмет', 'продаж', 'реализац']"
+  ],
+  "date_published": "2026-06-20",
+  "date_modified": "2026-06-20",
+  "ready_for_review": true,
+  "ready_at": "2026-06-20T05:35:36Z",
+  "publication_target": "telegram_review"
+}

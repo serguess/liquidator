@@ -3190,6 +3190,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "bankrotstvo-i-vozvrat-zalogovogo-imushchestva-prakticheskij-plan",
+      "category": "fiz",
+      "title": "Банкротство и возврат залогового имущества: план действий",
+      "added_at": "2026-06-20T08:35:36.677664",
+      "char_count": 6734,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1781933732/articles/bankrotstvo-i-vozvrat-zalogovogo-imushchestva-prakticheskij-plan-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
