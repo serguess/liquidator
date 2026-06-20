@@ -3057,7 +3057,11 @@
       "rationale": "Целевая аудитория: предприниматели или физлица с налоговыми долгами, ищущие сравнение опций; материал мотивирует на заказ аудита долгов и расчёта выгод.",
       "expected_length_chars": 7000,
       "client_notes": "",
-      "topic_action": "аудит налоговой задолженности и расчёт выгод"
+      "topic_action": "аудит налоговой задолженности и расчёт выгод",
+      "status": "rejected",
+      "rejected_at": "2026-06-20T08:35:41",
+      "rejected_reason": "cannibalization:preflight:cluster:fiz-bankruptcy-tax-debts",
+      "rejected_by": "auto_skip_in_slot"
     }
   ]
 }
