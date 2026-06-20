@@ -3203,6 +3203,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "bankrotstvo-pri-dolgah-po-faktoringu-i-cesii",
+      "category": "fiz",
+      "title": "Банкротство при долгах по факторингу и уступке требований",
+      "added_at": "2026-06-20T08:45:09.234195",
+      "char_count": 6935,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1781934305/articles/bankrotstvo-pri-dolgah-po-faktoringu-i-cesii-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
