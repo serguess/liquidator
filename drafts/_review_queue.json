@@ -3229,6 +3229,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "vozvrat-neosnovatelnyh-platezhey-i-vzyskanie-po-grazhdanskomu-pravu",
+      "category": "vzysk",
+      "title": "Возврат неосновательных платежей от контрагента: порядок",
+      "added_at": "2026-06-20T08:58:50.447675",
+      "char_count": 7291,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1781935128/articles/vozvrat-neosnovatelnyh-platezhey-i-vzyskanie-po-grazhdanskomu-pravu-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

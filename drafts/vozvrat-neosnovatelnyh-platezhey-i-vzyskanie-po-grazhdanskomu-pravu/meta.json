@@ -1,0 +1,96 @@
+{
+  "slug": "vozvrat-neosnovatelnyh-platezhey-i-vzyskanie-po-grazhdanskomu-pravu",
+  "category": "vzysk",
+  "title": "Возврат неосновательных платежей от контрагента: порядок",
+  "description": "Инструкция для бизнеса: как определить неосновательный платёж, какие документы собрать, как действовать досудебно, через банк и в суде, сроки исковой давности и риски.",
+  "h1": "Как вернуть неосновательные платежи от контрагента: порядок действий",
+  "lead": "Баланс показал списание, которого вы не ждали: счёт уменьшился, а в платёжном поручении - чужая позиция или двойная оплата; действовать нужно системно: собрать документы, обратиться в банк и направить претензию.",
+  "topic_action": "возврат неосновательных платежей",
+  "breadcrumb_current": "Возврат неосновательных платежей",
+  "og_image": "/assets/articles/vozvrat-neosnovatelnyh-platezhey-i-vzyskanie-po-grazhdanskomu-pravu.jpg",
+  "main_keyword": "возврат неосновательных платежей от контрагента",
+  "secondary_keywords": [
+    "взыскание неосновательных платежей",
+    "требование о возврате излишне перечисленных средств",
+    "как доказать неосновательный платеж",
+    "письменная претензия контрагенту",
+    "исковое заявление о взыскании неосновательного платежа",
+    "сроки исковой давности возврат денег",
+    "возврат платежа банковской транзакцией",
+    "возврат по ошибочному переводу контрагенту",
+    "порядок возврата аванса при ошибке",
+    "ответственность контрагента за удержание чужих средств"
+  ],
+  "internal_links": [],
+  "external_links": [
+    "https://www.consultant.ru/",
+    "https://www.garant.ru/"
+  ],
+  "faq": [
+    {
+      "question": "Можно ли вернуть ошибочный перевод без обращения в суд?",
+      "answer": "Часто - да, если платёжная система и получатель соглашаются. Сначала обращайтесь в платёжного оператора и направляйте претензию; без согласия получателя обычно нужен иск."
+    },
+    {
+      "question": "Что делать, если контрагент не отвечает на претензию?",
+      "answer": "Сохраняйте подтверждение отправки. Параллельно запросите у кредитной организации статус операции. Если реакции нет - готовьте иск и доказывайте факт передачи средств."
+    },
+    {
+      "question": "Подходит ли судебный приказ для взыскания переплаты до 500 000 рублей?",
+      "answer": "Да. При сумме до 500 000 руб. в арбитраже возможен судебный приказ (ст. 229.2 АПК РФ) - упрощённая процедура для очевидных денежных требований."
+    },
+    {
+      "question": "Как подтвердить и рассчитать проценты за пользование чужими средствами?",
+      "answer": "В иске указывают период с момента получения средств ответчиком до возврата и прикладывают расчёт. Метод расчёта и ставка требуют обоснования документами и практикой; в тексте статьи не указываем конкретную годовую ставку без ссылки на норму."
+    },
+    {
+      "question": "Что происходит после решения суда - как принудительно получить деньги?",
+      "answer": "После решения получают исполнительный документ и обращаются в ФССП. При принудительном исполнении может быть начислен исполнительский сбор (7% по общему правилу ФЗ-229), а исполнение зависит от наличия активов у ответчика."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Ключевые утверждения сверены с research.json (верификация 2026-06-20).",
+    "Общее правило неосновательного обогащения и обязанность вернуть сумму с процентами подтверждены (safe_phrasing использовано).",
+    "Рекомендация направить письменную претензию согласована с research (dосудебно).",
+    "Исковая давность указана в обтекаемой форме - конкретные сроки не приводились без ссылки на ст. ГК РФ (fact_gaps учтены).",
+    "Лимит для судебного приказа в арбитраже - до 500 000 руб. - соответствует research (ст. 229.2 АПК РФ).",
+    "Исполнительский сбор - описан как общий механизм (7%) согласно research; детали по минимальным суммам оставлены без конкретики."
+  ],
+  "keyword_density_main": 0.012,
+  "main_keyword_exact_count": 1,
+  "text_chars": 7291,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.112,
+  "local_spam_ngram3_repeat": 0.019,
+  "local_lexical_diversity": 0.585,
+  "local_ai_markers_density": 0.43,
+  "local_ai_markers_critical": 0,
+  "length_status": "ok",
+  "length_kind": "default",
+  "local_ai_markers_total": 4,
+  "local_ai_markers_high": 1,
+  "local_own_voice_hits": 4,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 58,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность заметно выше 50% (~58%)"
+  ],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1781935128/articles/vozvrat-neosnovatelnyh-platezhey-i-vzyskanie-po-grazhdanskomu-pravu-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1781935128/articles/vozvrat-neosnovatelnyh-platezhey-i-vzyskanie-po-grazhdanskomu-pravu-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Low-key photograph of a dark wood-paneled private office nook illuminated by a single warm brass library lamp casting a focused pool of light on a leather-topped desk; foreground carefully arranged evidence objects: a closed leather-bound diary with subtle wear, a stack of unmarked closed dossiers bound with cord, a polished brass round seal placed beside a fountain pen on a stand, reading glasses folded atop a slim closed law book with gilt-free spine, and an antique pocket watch on a short chain; camera three-quarter eye-level, shallow depth of field, deep ambient shadow around edges, palette oxblood, walnut, brass; mood: methodical evidentiary collection, quiet after-hours scrutiny.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-06-20T05:58:49Z",
+  "date_published": "2026-06-20",
+  "date_modified": "2026-06-20",
+  "ready_for_review": true,
+  "ready_at": "2026-06-20T05:58:50Z",
+  "publication_target": "telegram_review"
+}
