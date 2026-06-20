@@ -1,7 +1,7 @@
 {
   "category": "news",
   "category_label": "Новости",
-  "generated_at": "2026-06-17",
+  "generated_at": "2026-06-20",
   "topics": [
     {
       "id": "news-10",
@@ -1760,6 +1760,37 @@
       "primary_source": "https://base.garant.ru/38367126/",
       "status": "rejected",
       "_rejected_reason": "url_unreachable_or_missing"
+    },
+    {
+      "id": "news-57",
+      "slug": "fedresurs-ob-yavleny-torgi-po-imushchestvu-bankrota-na-efrsb",
+      "title": "Объявлены торги по имуществу банкрота в ЕФРСБ для продажи",
+      "title_length": 57,
+      "description": "В демо‑версии ЕФРСБ опубликованы объявления о торгах и лотах по продаже имущества должников: в списке: аукционы с датами размещения и статусами приемов заявок. Информация важна для участников торгов и кредиторов.",
+      "description_length": 212,
+      "h1": "В ЕФРСБ объявлены торги по имуществу должников-банкротов",
+      "main_keyword": "ЕФРСБ",
+      "main_keyword_density_target": "≤2.5%",
+      "secondary_keywords": [
+        "торги по имуществу",
+        "лот",
+        "реализация имущества",
+        "аукцион",
+        "конкурсные торги",
+        "публикация в реестре"
+      ],
+      "intent": "информационный",
+      "funnel_stage": "consideration",
+      "article_type": "news",
+      "offer": "raschet-stoimosti",
+      "frequency_estimate": 1500,
+      "rationale": "Скрин/карточка торгов на демо‑версии Fedresurs содержит реальные даты размещения лотов и статусы торгов, подтверждающие проведение торгов по имуществу банкротов.",
+      "expected_length_chars": 1600,
+      "client_notes": "",
+      "topic_action": "составить список открытых лотов и инструкции для потенциальных участников торгов",
+      "event_date": "2026-06-08",
+      "news_zone": "finance",
+      "primary_source": "https://test.fedresurs.ru/TradeList.aspx"
     }
   ]
 }
