@@ -3268,6 +3268,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "bankrotstvo-pri-zadolzhennosti-za-zhku-s-resheniem-suda",
+      "category": "fiz",
+      "title": "Банкротство при задолженности за ЖКУ с судебными решениями",
+      "added_at": "2026-06-21T02:53:53.490693",
+      "char_count": 7898,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1781999629/articles/bankrotstvo-pri-zadolzhennosti-za-zhku-s-resheniem-suda-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

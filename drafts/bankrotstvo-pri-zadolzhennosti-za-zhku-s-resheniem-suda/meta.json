@@ -1,0 +1,95 @@
+{
+  "slug": "bankrotstvo-pri-zadolzhennosti-za-zhku-s-resheniem-suda",
+  "category": "fiz",
+  "title": "Банкротство при задолженности за ЖКУ с судебными решениями",
+  "description": "Пошаговая инструкция для должников: можно ли объявить банкротство при долгах за коммуналку и исполнительных документах, как включить такие требования в процедуру, какие риски и сроки.",
+  "h1": "Банкротство при долгах за ЖКУ и наличии судебных решений: что делать должнику",
+  "lead": "Да - наличие исполнительного листа не мешает начать процедуру банкротства: после введения банкротных процедур взыскания приостанавливаются, а требования коммунальщиков при надлежащем заявлении включаются в реестр кредиторов.",
+  "topic_action": "проверить возможность списания задолженности за ЖКУ",
+  "breadcrumb_current": "Банкротство при долгах за ЖКУ",
+  "og_image": "/assets/articles/bankrotstvo-pri-zadolzhennosti-za-zhku-s-resheniem-suda.jpg",
+  "main_keyword": "банкротство при задолженности за ЖКУ с судебными решениями",
+  "secondary_keywords": [
+    "банкротство из-за коммунальных долгов",
+    "банкротство при исполнительном производстве за ЖКУ",
+    "как объявить банкротство с судебным решением по ЖКУ",
+    "включение требований коммунальщиков в дело о банкротстве",
+    "списание задолженности по коммунальным услугам"
+  ],
+  "internal_links": [],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/",
+    "https://www.consultant.ru/document/cons_doc_LAW_146436/"
+  ],
+  "faq": [
+    {
+      "question": "Можно ли начать процедуру, если по ЖКУ уже есть судебное решение и исполнительный лист?",
+      "answer": "Да. Наличие исполнительного листа не мешает подаче заявления о банкротстве. После введения процедур исполнительные производства приостанавливаются, а коммунальные требования включаются в реестр кредиторов при их надлежащем заявлении."
+    },
+    {
+      "question": "Остановит ли банкротство удержания приставов с зарплаты по коммунальным долгам?",
+      "answer": "После введения процедур исполнительные производства приостанавливаются. До этого момента приставы вправе удерживать до 50% от дохода после НДФЛ, поэтому важно учитывать момент приостановления взысканий."
+    },
+    {
+      "question": "Какие коммунальные долги точно не списываются в процедуре несостоятельности?",
+      "answer": "Законом есть исключения: алименты, возмещение вреда жизни и здоровью, текущие платежи и иные обязательства, указанные в ст. 213.28 127-ФЗ. Возможность списания зависит от характера обязательств и обстоятельств дела."
+    },
+    {
+      "question": "Сколько стоит подача заявления в суд: есть ли госпошлина и что такое депозит?",
+      "answer": "Госпошлина при подаче гражданином на собственное банкротство не взимается. Обязательный платёж - депозит на вознаграждение финансового управляющего в размере 25 000 руб.; суд может предоставить отсрочку по ходатайству."
+    },
+    {
+      "question": "Стоит ли до обращения в суд пытаться согласовать реструктуризацию с поставщиком услуг?",
+      "answer": "Да, если есть реальная возможность договориться - стоит пробовать. Иногда реструктуризация быстрее и дешевле, но переговоры не всегда останавливают активные исполнительные производства, поэтому полезно параллельно готовить документы для суда."
+    },
+    {
+      "question": "Что будет с единственным жильём, если по нему есть задолженность по ЖКУ?",
+      "answer": "Единственное пригодное для проживания жильё, как правило, исключается из конкурсной массы при соблюдении условий. Конкретный исход зависит от документов, даты приобретения, долей собственников и других обстоятельств."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все ключевые утверждения сверены с research.json (последняя верификация 2026-06-20).",
+    "Подтверждено: исполнительные производства приостанавливаются/прекращаются по правилам 127-ФЗ (ст. 213.11) - last_verified 2026-06-20, legislation_status: active.",
+    "Подтверждено: коммунальные требования включаются в реестр при надлежащем заявлении кредитора (ст. 213.28) - last_verified 2026-06-20, legislation_status: active.",
+    "Подтверждено: депозит на вознаграждение финансового управляющего - 25 000 руб.; это не госпошлина, суд может дать отсрочку (ст. 213.4, ст. 20.6) - last_verified 2026-06-20.",
+    "Подтверждено: льгота по госпошлине для должника-физлица действует с 08.09.2024 - last_verified 2026-06-20; запрещено указывать устаревшую величину 300 руб.",
+    "Подтверждено: ограничение удержаний по общему правилу - до 50% после НДФЛ; предел 70% не применяется к коммунальным долгам - last_verified 2026-06-20."
+  ],
+  "keyword_density_main": 0.012,
+  "main_keyword_exact_count": 2,
+  "text_chars": 7898,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.119,
+  "local_spam_ngram3_repeat": 0.054,
+  "local_lexical_diversity": 0.571,
+  "local_ai_markers_density": 0.7,
+  "local_ai_markers_critical": 0,
+  "length_status": "warn",
+  "length_kind": "default",
+  "local_ai_markers_total": 7,
+  "local_ai_markers_high": 4,
+  "local_own_voice_hits": 2,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1781999629/articles/bankrotstvo-pri-zadolzhennosti-za-zhku-s-resheniem-suda-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1781999629/articles/bankrotstvo-pri-zadolzhennosti-za-zhku-s-resheniem-suda-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Macro-style close-up photograph of metal and business objects arranged on a weathered stone slab, camera macro with very shallow depth of field isolating tactile detail: a small ring of brass apartment keys resting on a dark leather coaster, an antique brass padlock with a worn patina and short chain lying slightly behind, a polished round court seal pressed onto a closed waxed envelope, a fountain pen laid diagonally across a closed leather portfolio; lighting: directional contrast with sharp specular highlights on metal and soft fill on shadow side; palette: deep charcoal, warm brass, oxblood leather; mood: enforcement at the domestic threshold, legal consequence, urgent procedural weight.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-06-20T23:53:50Z",
+  "predicted_spam_pct": 62,
+  "predicted_ai_pct": 5,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность заметно выше 50% (~62%)"
+  ],
+  "date_published": "2026-06-21",
+  "date_modified": "2026-06-21",
+  "ready_for_review": true,
+  "ready_at": "2026-06-20T23:53:53Z",
+  "publication_target": "telegram_review"
+}

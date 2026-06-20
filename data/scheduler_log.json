@@ -18051,5 +18051,69 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-06-21T00:24:37",
+    "category": "vzysk",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "mode": "new",
+    "expanded_in_slot": true,
+    "topic_id": "vzysk-99",
+    "topic_slug": "kak-vzyskat-dolg-po-raspiske-cherez-sud-i-pristavov-bez-oshibok",
+    "auto_skipped": [
+      {
+        "slug": "kak-dobavit-trebovanie-v-reestr-kreditorov-bez-oshibok",
+        "reason": "cannibalization:preflight:kak-vklyuchit-trebovanie-v-reestr-kreditorov-bez-oshibok",
+        "duration_sec": 0
+      }
+    ],
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "forced_pass_at_iter2: блокеры пропущены, статья идёт в TG-очередь с metrics_warning=true. Было: 3 блокеров — spam_risk; targeted_tokens_over_limit; author_markers_missing"
+      ],
+      "recommendations": [
+        "reduce_repetition: разбавить топ-5 частотных лемм местоимениями/перифразом — ['расписк', 'сумм', 'приказ', 'документ', 'исполнен']",
+        "reduce_руб: «руб» × 2 → cap 0. Только полное «рублей»/«рубля». В контексте суммы единица иногда опускается: «долг 82 400» вместо «долг 82 400 рублей».",
+        "reduce_round_sums: «X 000 руб» × 3 → cap 2. Иллюстративные суммы — некруглые (82 400, 147 500). Статутные пороги (300 000, 500 000) — 1 раз в точной форме + дальше через дескриптор («эта планка», «новый минимум»).",
+        "add_author_markers: добавить минимум 2 вставок «по нашему опыту» / «в нашей практике» / «мы считаем» / «мы видим». Это главный anti-AI маркер — без него text.ru показывает AI 7-19%."
+      ],
+      "stderr_tail": ""
+    },
+    "finalize_safety_net": {
+      "ran": true,
+      "rc": 0
+    },
+    "status": "ok",
+    "slug": "kak-vzyskat-dolg-po-raspiske-cherez-sud-i-pristavov-bez-oshibok",
+    "duration_sec": 377.2,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "   21782   $0.0136\n7-publisher         gpt-5-mini         8725     599     9324   $0.0034\n------------------------------------------------------------------------------\nИТОГО                                145866   22391   168257   $0.0812\nПроекция на 10 статей/день × 30 дней (300 статей): ~50477K ток/мес, ~$24.4/мес\nНе учтено: 5-uniqueness (эмбеддинги, ~копейки), image_gen (fal.ai, не LLM).\nАртефакты: drafts/kak-vzyskat-dolg-po-raspiske-cherez-sud-i-pristavov-bez-oshibok/  | quality_gate exit=0",
+    "stderr_tail": "",
+    "tokens_by_model": {},
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 6364
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]
