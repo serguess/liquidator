@@ -154,29 +154,50 @@ def main() -> int:
     env["ARTICLES_PER_DAY"] = str(new_limit)
     _log(f"ARTICLES_PER_DAY bumped to {new_limit} для backup-подпроцессов")
 
-    # Добиваем до 10 по РЕАЛЬНОЙ очереди, а не по rc слота. Раньше цикл шёл по
-    # фиксированному `missing` и считал слот успешным при rc=0 — но слот может
-    # вернуть rc=0 и при этом НЕ поставить статью в очередь (finalize_draft
-    # отбраковал по factcheck/qa). Тогда очередь оставалась короткой (инцидент
-    # 19 июня: вышло 9, фактчек завернул одну vzysk). Теперь после каждого слота
-    # пересчитываем get_missing() и продолжаем, пока очередь не укомплектована
-    # ИЛИ не упёрлись в cutoff/лимит попыток.
-    MAX_BACKUP_ATTEMPTS = len(missing) + 5  # запас на отбраковки, защита от вечного цикла
+    # Добиваем очередь до 3/3/3/1 = 10. ДВА надёжных ориентира:
+    #   1) ПОТОЛОК по total (count_pending total растёт сразу, надёжен) — никогда
+    #      не запускаем слот, если в очереди уже >= 10. Без этого был перелив
+    #      (инцидент 20 июня: вышло 14 — крутили лишние слоты).
+    #   2) Какой категории не хватает — по СВОЕМУ счётчику `added` (по запрошенной
+    #      категории), а НЕ по count_pending()-категориям: у свежей статьи бот
+    #      проставляет `category` с задержкой, из-за чего get_missing «отставал»
+    #      и просил лишнее в уже укомплектованную категорию → перелив.
+    # Успех слота = рост total (надёжно); finalize-отбраковка (factcheck/qa) total
+    # не двигает → ретраим другой темой (так же чинит недобор 19 июня).
+    TARGET = dict(EXPECTED)                  # {fiz:3, yur:3, vzysk:3, news:1}
+    TARGET_TOTAL = sum(TARGET.values())      # 10
+    initial = count_pending()                # старые записи bot_state — надёжно
+    added = {c: 0 for c in TARGET}           # что МЫ успешно добавили в этом прогоне
+
+    def _have(c):
+        return initial.get(c, 0) + added[c]
+
+    def _missing_local():
+        out = []
+        for c in PRIORITY:
+            out += [c] * max(0, TARGET.get(c, 0) - _have(c))
+        return out
+
+    MAX_BACKUP_ATTEMPTS = sum(max(0, TARGET[c] - initial.get(c, 0)) for c in TARGET) + 5
     attempts = 0
     while True:
-        missing_now = get_missing()
+        cur_total = sum(count_pending().values())
+        missing_now = _missing_local()
+        if cur_total >= TARGET_TOTAL:
+            _log(f"OK — очередь укомплектована {cur_total}/{TARGET_TOTAL} (добавлено: {added})")
+            break
         if not missing_now:
-            _log("OK — очередь укомплектована (10/10)")
+            _log(f"OK — распределение собрано (очередь {cur_total}/{TARGET_TOTAL}, добавлено: {added})")
             break
         if attempts >= MAX_BACKUP_ATTEMPTS:
-            _log(f"STOP — исчерпан лимит попыток ({MAX_BACKUP_ATTEMPTS}). "
-                 f"Не хватает: {missing_now}")
+            _log(f"STOP — лимит попыток ({MAX_BACKUP_ATTEMPTS}), очередь {cur_total}/{TARGET_TOTAL}, "
+                 f"не хватает: {missing_now}")
             break
 
         rem = remaining_minutes_to_batch()
         if rem < CUTOFF_MIN_BEFORE_BATCH:
-            _log(f"STOP — осталось {rem} мин до batch (cutoff={CUTOFF_MIN_BEFORE_BATCH}). "
-                 f"Не хватает: {missing_now}")
+            _log(f"STOP — осталось {rem} мин до batch (cutoff={CUTOFF_MIN_BEFORE_BATCH}), "
+                 f"очередь {cur_total}/{TARGET_TOTAL}, не хватает: {missing_now}")
             break
 
         _log(f"Жду освобождения lock'а (max {LOCK_WAIT_TIMEOUT_SEC}s)...")
@@ -184,24 +205,26 @@ def main() -> int:
             _log(f"STOP — lock не освободился за {LOCK_WAIT_TIMEOUT_SEC}s")
             break
 
-        cat = missing_now[0]  # самая приоритетная недостающая категория
+        cat = missing_now[0]  # самая приоритетная недостающая категория (по нашему счёту)
         attempts += 1
-        before = sum(count_pending().values())
-        _log(f"Backup-слот #{attempts}: {cat} (не хватает {len(missing_now)}, "
-             f"очередь {before}/10, осталось {rem} мин)")
+        before = cur_total
+        _log(f"Backup-слот #{attempts}: {cat} (нужно ещё {len(missing_now)}, "
+             f"очередь {before}/{TARGET_TOTAL}, осталось {rem} мин)")
         rc = run_backup_slot(cat, env)
         after = sum(count_pending().values())
-        # Успех = статья РЕАЛЬНО встала в очередь (after>before), а не просто rc=0.
+        # Успех — по росту total (надёжно). Категорию засчитываем запрошенную
+        # (runner уважает --category); это обходит задержку category в bot_state.
         if after > before:
-            _log(f"  OK: {cat} → очередь {after}/10")
+            added[cat] += 1
+            _log(f"  OK: {cat} → {_have(cat)}/{TARGET[cat]} по категории, всего {after}/{TARGET_TOTAL}")
         else:
-            _log(f"  слот не дал статью (rc={rc}, очередь {after}/10) — "
-                 f"вероятно отбраковка factcheck/qa, пробую снова другой темой")
+            _log(f"  слот не дал статью (rc={rc}, очередь {after}/{TARGET_TOTAL}) — "
+                 f"отбраковка factcheck/qa, пробую другой темой")
 
     final_total = sum(count_pending().values())
-    _log(f"Итог: очередь {final_total}/10 за {attempts} попыток")
+    _log(f"Итог: очередь {final_total}/{TARGET_TOTAL} за {attempts} попыток")
 
-    return 0 if final_total >= 10 else 1
+    return 0 if final_total >= TARGET_TOTAL else 1
 
 
 if __name__ == "__main__":
