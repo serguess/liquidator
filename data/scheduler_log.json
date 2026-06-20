@@ -17742,5 +17742,62 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-06-20T08:54:21",
+    "category": "vzysk",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 4,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "vzysk-94",
+    "topic_slug": "vozvrat-neosnovatelnyh-platezhey-i-vzyskanie-po-grazhdanskomu-pravu",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "finalize_safety_net": {
+      "ran": true,
+      "rc": 0
+    },
+    "status": "ok",
+    "slug": "vozvrat-neosnovatelnyh-platezhey-i-vzyskanie-po-grazhdanskomu-pravu",
+    "duration_sec": 268.5,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "0813   $0.0126\n7-publisher         gpt-5-mini         8731     721     9452   $0.0036\n------------------------------------------------------------------------------\nИТОГО                                142788   21675   164463   $0.0790\nПроекция на 10 статей/день × 30 дней (300 статей): ~49338K ток/мес, ~$23.7/мес\nНе учтено: 5-uniqueness (эмбеддинги, ~копейки), image_gen (fal.ai, не LLM).\nАртефакты: drafts/vozvrat-neosnovatelnyh-platezhey-i-vzyskanie-po-grazhdanskomu-pravu/  | quality_gate exit=0",
+    "stderr_tail": "",
+    "tokens_by_model": {},
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7291
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]
