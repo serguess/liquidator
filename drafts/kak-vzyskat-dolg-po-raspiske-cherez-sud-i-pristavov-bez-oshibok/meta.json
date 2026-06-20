@@ -1,0 +1,111 @@
+{
+  "slug": "kak-vzyskat-dolg-po-raspiske-cherez-sud-i-pristavov-bez-oshibok",
+  "category": "vzysk",
+  "title": "Как взыскать долг по расписке через суд и приставов",
+  "description": "Пошаговая инструкция: как подготовить иск по расписке, собрать доказательства, получить решение суда и передать исполнительный лист приставам. Возможные ошибки и как их избежать.",
+  "h1": "Как взыскать долг по расписке через суд и приставов: пошаговая инструкция без ошибок",
+  "lead": "Если у вас есть расписка с подписью и датой, вы можете взыскать долг через суд и передать исполнительный лист приставам - правильная подготовка документов сокращает сроки и повышает шансы на успешное исполнение.",
+  "topic_action": "взыскание долга по расписке",
+  "breadcrumb_current": "Взыскание по расписке",
+  "og_image": "/assets/articles/kak-vzyskat-dolg-po-raspiske-cherez-sud-i-pristavov-bez-oshibok.jpg",
+  "main_keyword": "взыскать долг по расписке",
+  "secondary_keywords": [
+    "исковое заявление по расписке",
+    "расписка как доказательство долга",
+    "исполнительный лист приставам",
+    "взыскание долга через суд пошагово",
+    "как подать иск по расписке",
+    "действия судебного пристава-исполнителя",
+    "какие документы нужны для суда по расписке",
+    "срок исковой давности по расписке",
+    "признание расписки недействительной",
+    "как взыскать долг с должника без имущества"
+  ],
+  "internal_links": [
+    "/articles/vzysk/isk-po-raspiske",
+    "/articles/vzysk/ispolnitelnoe-proizvodstvo-osnovy",
+    "/articles/vzysk/kak-naiti-imushchestvo-dolzhnika"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/ab7c1c1a0b/",
+    "https://www.consultant.ru/document/cons_doc_LAW_9042/1f2e6c3a5b/"
+  ],
+  "faq": [
+    {
+      "question": "Можно ли подать заявление о судебном приказе, если ответчик живёт в другом регионе?",
+      "answer": "Да. Место жительства ответчика не мешает подаче судебного приказа при соблюдении правил подсудности и правильном указании реквизитов ответчика. Важно приложить доказательства передачи денег и корректно указать адрес для направления приказа."
+    },
+    {
+      "question": "Что делать, если расписка есть, но нет подтверждений перевода денег?",
+      "answer": "Собирайте иные доказательства передачи средств: показания свидетелей, переписку, чеки о снятии наличных или иные документы. Совокупность таких материалов может усилить позицию взыскателя в отсутствии банковской выписки."
+    },
+    {
+      "question": "Сколько времени даётся должнику на добровольное исполнение после возбуждения производства?",
+      "answer": "Должнику даётся пять рабочих дней на добровольное исполнение: если он исполнил требование в этот срок, исполнительский сбор не начисляется; при неисполнении сбор взыскивается в порядке, установленном законом."
+    },
+    {
+      "question": "Какие выплаты у должника нельзя арестовать по исполнительному производству?",
+      "answer": "Некоторые социальные выплаты защищены от удержаний: пособия по рождению и уходу за ребёнком до полутора лет, материнский капитал и ряд иных выплат, перечисленных в законе об исполнительном производстве (ст. 101 ФЗ‑229). В тексте статьи перечислены ключевые категории, для подробностей - ст. 101 ФЗ‑229."
+    },
+    {
+      "question": "Как обжаловать ошибочное списание средств приставом?",
+      "answer": "Сначала запросите расчёт удержания у банка или работодателя, подайте жалобу старшему судебному приставу подразделения; при отсутствии результата - обжалование действий пристава в суде. Фиксируйте все шаги письменно и сохраняйте документы."
+    },
+    {
+      "question": "До какого срока действует исковая давность по требованиям на основании расписки?",
+      "answer": "В большинстве случаев исковая давность по требованиям о взыскании задолженности составляет три года; начало течения и возможные основания для прерывания зависят от обстоятельств. Рекомендуется уточнять применимую редакцию гражданского законодательства для конкретного дела."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Ключевые факты проверены с research.json (версия от 2026-06-20).",
+    "Лимит для приказного производства в арбитраже: до 500 000 руб. - подтверждён (АПК РФ, ст. 229.2). Формулировка в тексте использует safe_phrasing.",
+    "Последовательность: иск/приказ → решение/приказ → исполнительный лист → направление в ФССП и мероприятия приставов - проверено и изложено с опорой на нормы об исполнительном производстве.",
+    "Пределы удержаний: не более 50% дохода после НДФЛ; до 70% - только по четырём основаниям - проверено (ФЗ‑229, ст. 99). В тексте сохранено оговорённое уточнение «после НДФЛ».",
+    "Срок добровольного исполнения 5 рабочих дней и исполнительский сбор (7% с минимумом для граждан) - проверено и использовано safe_phrasing (ФЗ‑229, ст. 30 ч.12; ст. 112).",
+    "Исковая давность: в research указано, что для некоторых ситуаций требуется дополнительная верификация; в тексте сохранена обтекаемая формулировка и рекомендация уточнять по ГК РФ."
+  ],
+  "keyword_density_main": 0.012,
+  "main_keyword_exact_count": 2,
+  "text_chars": 6364,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.138,
+  "local_spam_ngram3_repeat": 0.046,
+  "local_lexical_diversity": 0.593,
+  "local_ai_markers_density": 0.47,
+  "local_ai_markers_critical": 0,
+  "length_status": "warn",
+  "length_kind": "default",
+  "local_ai_markers_total": 4,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 0,
+  "local_first_person_singular_hits": 0,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1781991048/articles/kak-vzyskat-dolg-po-raspiske-cherez-sud-i-pristavov-bez-oshibok-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1781991048/articles/kak-vzyskat-dolg-po-raspiske-cherez-sud-i-pristavov-bez-oshibok-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Top-down flat-lay on a polished dark walnut desk, soft morning light casting a warm diagonal; carefully arranged items (pick 5): a wooden judge's gavel placed slightly off-center on its round sound block, a closed leather case folder with visible cord-bound edge, a thick stack of closed law books with embossed gilt spines and a small national emblem, a polished brass round seal beside the books, and a precision calculator with blank screen angled toward the lower-left; additional accents: a fountain pen aligned parallel to the folder edge and an antique pocket watch paused mid-flow near the top edge; editorial legal-magazine aesthetic, neutral palette with warm brass highlights, slight vignette, shallow depth of field.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-06-20T21:30:49Z",
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 57,
+  "predicted_ai_pct": 11,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность выше 50% (~57%)",
+    "AI-detector чуть выше 10% (~11%)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "spam_risk: 4 флагов (top1_count>12 (=14, лемма «расписк»), top3_sum>30 (=37), top10_sum>80 (=82), top10_share>0.115 (=0.138)), top-5: ['расписк', 'сумм', 'приказ', 'документ', 'исполнен']",
+    "targeted_tokens_over_limit: руб_сокращение=2(>≤0), 000руб_паттерн=3(>≤2)",
+    "author_markers_missing: 0 < 2"
+  ],
+  "date_published": "2026-06-21",
+  "date_modified": "2026-06-21",
+  "ready_for_review": true,
+  "ready_at": "2026-06-20T21:30:55Z",
+  "publication_target": "telegram_review"
+}

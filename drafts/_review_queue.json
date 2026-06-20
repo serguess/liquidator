@@ -3255,6 +3255,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "kak-vzyskat-dolg-po-raspiske-cherez-sud-i-pristavov-bez-oshibok",
+      "category": "vzysk",
+      "title": "Как взыскать долг по расписке через суд и приставов",
+      "added_at": "2026-06-21T00:30:55.129110",
+      "char_count": 6364,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1781991048/articles/kak-vzyskat-dolg-po-raspiske-cherez-sud-i-pristavov-bez-oshibok-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
