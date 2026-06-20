@@ -2576,7 +2576,11 @@
       "rationale": "Кредиторы ищут способы защитить свои права в конкуренции с другими кредиторами: статья продаёт услугу оценки и сопровождения включения/оспаривания.",
       "expected_length_chars": 7000,
       "client_notes": "",
-      "topic_action": "оспаривание требований в реестре"
+      "topic_action": "оспаривание требований в реестре",
+      "status": "rejected",
+      "rejected_at": "2026-06-20T08:58:55",
+      "rejected_reason": "cannibalization:preflight:kak-vklyuchit-trebovanie-v-reestr-kreditorov-bez-oshibok",
+      "rejected_by": "auto_skip_in_slot"
     },
     {
       "id": "vzysk-96",
