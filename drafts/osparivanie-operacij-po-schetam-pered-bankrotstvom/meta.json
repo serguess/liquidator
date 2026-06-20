@@ -1,0 +1,96 @@
+{
+  "slug": "osparivanie-operacij-po-schetam-pered-bankrotstvom",
+  "category": "fiz",
+  "title": "Оспорить операции по счетам перед банкротством",
+  "description": "Когда и какие переводы со счёта могут оспорить в деле о банкротстве физлица, какие доказательства собирать и как снизить риск претензий управляющего.",
+  "h1": "Оспаривание операций по счетам перед банкротством: что оспорить и как подготовиться",
+  "lead": "Рассказываем, какие переводы чаще всего привлекают внимание управляющего, какие документы помогут доказать экономическую цель операции и как снизить риск возврата средств в конкурсную массу.",
+  "topic_action": "проверку риска оспаривания операций",
+  "breadcrumb_current": "Оспаривание операций по счетам",
+  "og_image": "/assets/articles/osparivanie-operacij-po-schetam-pered-bankrotstvom.jpg",
+  "main_keyword": "оспаривание операций по счетам перед банкротством",
+  "secondary_keywords": [
+    "оспаривание сделок при банкротстве",
+    "оспорить переводы со счета перед банкротством",
+    "мнимые сделки банкротство",
+    "оспаривание платежей банкротство физлицо",
+    "как доказать добросовестность получателя"
+  ],
+  "internal_links": [],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/c2c8c81ee8e4bd843286b08b10607f00ec6ae073/",
+    "https://www.consultant.ru/document/cons_doc_LAW_146436/"
+  ],
+  "faq": [
+    {
+      "question": "Можно ли оспорить перечисление родственнику, если он был единственным получателем?",
+      "answer": "Да. Такое перечисление может привлечь внимание управляющего. Суд будет оценивать экономическое содержание операции и то, знал ли получатель о намерении должника уклониться от обязательств; наличие подтверждающих бумаг снижает риск претензии."
+    },
+    {
+      "question": "Какие бумаги помогут доказать, что операция имела экономическое содержание?",
+      "answer": "Банковские выписки, договор, акты выполненных работ или приёма‑передачи, счета и переписка с контрагентом. Чем полнее пакет подтверждений, тем легче опровергнуть претензии управляющего."
+    },
+    {
+      "question": "Что делает адресат, чтобы подтвердить добросовестность при иске управляющего?",
+      "answer": "Он собирает доказательства оказанных услуг или поставленных товаров: акты, отчёты, подтверждения исполнения встречных обязательств. Письменные пояснения и подтверждающие документы помогают показать добросовестность."
+    },
+    {
+      "question": "Что произойдёт, если суд признает сделку недействительной и потребует возврата средств?",
+      "answer": "Возвращённые суммы включат в конкурсную массу и будут распределены между кредиторами в порядке, установленном законом о банкротстве."
+    },
+    {
+      "question": "Когда стоит обращаться к юристу - до операции или после получения иска?",
+      "answer": "Рекомендуется обратиться до операции, особенно при крупных переводах: ранняя проверка снижает риск последующего оспаривания и помогает правильно оформить подтверждающие документы."
+    },
+    {
+      "question": "Какие операции обычно не привлекают внимания управляющего?",
+      "answer": "Регулярные расчёты по договорам при наличии первичных документов, зарплатные перечисления и коммунальные платежи с подтверждениями, как правило, вызывают меньше вопросов."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Ключевые юридические положения о праве финансового управляющего на оспаривание и включение имущества в конкурсную массу подтверждены в research.json (ст. 213.25 и ст. 213.28 127‑ФЗ), last_verified 2026-06-20.",
+    "Утверждение о том, что при подаче заявления о банкротстве самим гражданином госпошлина не взимается, и о необходимости депозита 25 000 руб. на вознаграждение управляющего подтверждены в research.json (НК РФ ст. 333.21, ред. ФЗ-259; п. ст. 213.4 127‑ФЗ), last_verified 2026-06-20.",
+    "Перечень оснований для оспаривания (мнимые сделки, предпочтительные платежи, сделки с заинтересованными лицами) использован в обобщённой форме в соответствии с safe_phrasing; детализированные ссылки на конкретные пункты и сроки в research.fact_gaps помечены как требующие дополнительной верификации.",
+    "Рекомендации по сбору доказательств согласованы с safe_phrasing: банковские выписки, договоры, первичные документы и переписка - ключевые материалы."
+  ],
+  "keyword_density_main": 0.011,
+  "main_keyword_exact_count": 1,
+  "text_chars": 6990,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.125,
+  "local_spam_ngram3_repeat": 0.044,
+  "local_lexical_diversity": 0.551,
+  "local_ai_markers_density": 0.77,
+  "local_ai_markers_critical": 0,
+  "length_status": "ok",
+  "length_kind": "default",
+  "local_ai_markers_total": 7,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 6,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 62,
+  "predicted_ai_pct": 5,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность заметно выше 50% (~62%)"
+  ],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1781934049/articles/osparivanie-operacij-po-schetam-pered-bankrotstvom-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1781934049/articles/osparivanie-operacij-po-schetam-pered-bankrotstvom-cover.jpg",
+  "ready_for_review": true,
+  "ready_at": null,
+  "publication_target": null,
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Photograph of a private office interior with subdued warm lamp light and deep shadow pools, three-quarter eye-level view of a leather-topped desk holding a closed matte laptop angled slightly left, a well-worn leather-bound notebook with a fountain pen resting on a pen stand, a small brass round seal beside a neat stack of unmarked bank statements folded inside a plain folder, and an antique pocket watch open to show flowing seconds; camera: slight low-angle to convey urgency, lighting: focused warm desk lamp with cool window rim-light, palette: oxblood, walnut, brass; mood: deliberate, evidence-oriented, urgent practical action.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-06-20T05:40:50Z",
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "spam_risk: 4 флагов (top3_sum>30 (=33), top10_sum>80 (=83), top10_share>0.115 (=0.125), lexical_diversity<0.58 (=0.551)), top-5: ['операц', 'риск', 'перечислен', 'подтвержден', 'договор']",
+    "too_few_short_sentences: 11 < 12"
+  ]
+}
