@@ -3216,6 +3216,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "dolgovye-obazatelstva-po-goskontraktam-kak-reshat-problemy",
+      "category": "yur",
+      "title": "Долговые обязательства по госконтрактам: как подрядчику решить проблему",
+      "added_at": "2026-06-20T08:54:20.147244",
+      "char_count": 6212,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1781934855/articles/dolgovye-obazatelstva-po-goskontraktam-kak-reshat-problemy-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

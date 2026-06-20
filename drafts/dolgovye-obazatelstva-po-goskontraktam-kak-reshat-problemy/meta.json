@@ -1,0 +1,105 @@
+{
+  "slug": "dolgovye-obazatelstva-po-goskontraktam-kak-reshat-problemy",
+  "category": "yur",
+  "title": "Долговые обязательства по госконтрактам: как подрядчику решить проблему",
+  "description": "Практическое руководство для подрядчиков: какие долги по госконтрактам возникают, как взаимодействовать с заказчиком и контролирующими органами, порядок оспаривания требований и варианты списания или реструктуризации задолженности.",
+  "h1": "Долговые обязательства по госконтрактам: как решать проблемы подрядчику",
+  "lead": "Понять основание претензии и выбрать маршрут - оспаривание, переговоры о реструктуризации или защита при исполнении решения; быстрая проверка документов зачастую экономит затраты и время.",
+  "topic_action": "проверку списания долгов",
+  "breadcrumb_current": "Долговые обязательства по госконтрактам",
+  "og_image": "/assets/articles/dolgovye-obazatelstva-po-goskontraktam-kak-reshat-problemy.jpg",
+  "main_keyword": "долговые обязательства по госконтрактам",
+  "secondary_keywords": [
+    "задолженность по госконтракту",
+    "взыскание долгов с подрядчика по госзаказу",
+    "как оспорить требование заказчика",
+    "ответственность подрядчика по госконтракту",
+    "реструктуризация долга подрядчика",
+    "списание долгов по госконтрактам",
+    "арбитраж при спорах по госконтрактам",
+    "порядок взаиморасчетов по госконтракту",
+    "меры по защите подрядчика по госзаказу"
+  ],
+  "internal_links": [],
+  "external_links": [
+    "https://www.consultant.ru/",
+    "https://www.garant.ru/"
+  ],
+  "faq": [
+    {
+      "question": "Можно ли добиваться взыскания через судебный приказ при сумме до 500 000 ₽?",
+      "answer": "Да. В арбитраже при простых денежных требованиях взыскание в упрощённой форме - через судебный приказ - возможно при сумме требования до 500 000 руб. (см. ст. 229.2 АПК РФ)."
+    },
+    {
+      "question": "Что делать, если пристав удерживает больше 50% зарплаты?",
+      "answer": "Запросите расчёт у банка и работодателя, подайте жалобу старшему судебному приставу и при необходимости обжалуйте действия пристава в суде. По общему правилу приставы удерживают не более 50% дохода после НДФЛ; повышение до 70% допускается лишь по четырём конкретным видам требований."
+    },
+    {
+      "question": "Как оспорить предъявление банковской гарантии?",
+      "answer": "Изучите текст гарантии и уведомления, проверьте соблюдение условий для её обращения; при формальных нарушениях обращайтесь к банку-гаранту и при необходимости - в суд. Часто успех зависит от точной формулировки уведомления и условий гарантии."
+    },
+    {
+      "question": "Нужно ли соблюдать претензионный порядок перед подачей иска в арбитраж?",
+      "answer": "Часто да: многие контракты содержат претензионный порядок, который стоит проверить в договоре. Несоблюдение такого порядка может осложнить процессуальную позицию, поэтому важно внимательно изучить условия контракта."
+    },
+    {
+      "question": "Приостанавливает ли банкротство исполнительное производство?",
+      "answer": "Введение процедуры банкротства приостанавливает или прекращает исполнительные производства в отношении должника, а требования включаются в реестр кредиторов и конкурсную массу в порядке 127‑ФЗ (ст. 213.11, ст. 213.25)."
+    },
+    {
+      "question": "Какие документы готовить при получении требования по госконтракту?",
+      "answer": "Собирайте акты приёма, акты сверки, договор и приложения, платёжные документы по авансам и выполненным этапам, переписку с заказчиком и текст банковской гарантии (если есть). Эти документы формируют вашу доказательную базу."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Проверены ключевые юридические утверждения по research.json от 2026-06-20.",
+    "Лимит для судебного приказа (до 500 000 руб., ст. 229.2 АПК РФ) - подтверждён (f1). Текст в статье приведён в безопасной формулировке.",
+    "Утверждение о пределе удержаний приставами (не более 50% после НДФЛ; повышение до 70% - по четырём категориям) - подтверждёнo (f2). Формулировка сохранена в безопасном виде.",
+    "Порядок действий при ошибочных списаниях (запрос расчёта, жалоба старшему приставу, обжалование в суде) - проверен (f3).",
+    "Влияние банкротства на исполнительное производство (приостановление/перевод требований в реестр кредиторов, ст. 213.11 и 213.25 127‑ФЗ) - подтверждёнo (f5).",
+    "Утверждения о специфике обращения обеспечения по 44‑ФЗ/223‑ФЗ и деталях по госконтрактам даны в обобщённой форме и помечены в research как требующие проверки для конкретных процедур; текст статьи использует безопасную, обобщённую формулировку в соответствии с research.safe_phrasings.",
+    "Запрещённые claim‑формулировки из research.forbidden_claims не использованы."
+  ],
+  "keyword_density_main": 0.011,
+  "main_keyword_exact_count": 2,
+  "text_chars": 6212,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.125,
+  "local_spam_ngram3_repeat": 0.047,
+  "local_lexical_diversity": 0.577,
+  "local_ai_markers_density": 0.25,
+  "local_ai_markers_critical": 0,
+  "length_status": "warn",
+  "length_kind": "default",
+  "local_ai_markers_total": 2,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 3,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1781934855/articles/dolgovye-obazatelstva-po-goskontraktam-kak-reshat-problemy-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1781934855/articles/dolgovye-obazatelstva-po-goskontraktam-kak-reshat-problemy-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Editorial composition centering on time and procedural urgency: a mid-flow brass hourglass as the hero, a neat stack of three closed dossiers tied with twine labeled as project files (no readable text) arranged slightly left, a polished round brass company seal and a closed dark leather portfolio stamped with blind embossing stacked beside them, an elegant fountain pen placed diagonally across the top dossier, subtle ledger-edge of a closed slim notebook peeking out; camera tabletop level, three-quarter angle, focused shallow depth with dramatic directional spot lighting creating deep charcoal background and gold rim-light on brass surfaces, palette deep charcoal, oxblood, brass, mood: time-sensitive contractual resolution.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-06-20T05:54:16Z",
+  "predicted_spam_pct": 62,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность заметно выше 50% (~62%)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "spam_risk: 2 флагов (top10_share>0.115 (=0.125), lexical_diversity<0.58 (=0.577)), top-5: ['гарант', 'решен', 'документ', 'исполнен', 'акты']",
+    "targeted_tokens_over_limit: руб_сокращение=1(>≤0), 213_артикул=4(>≤3)"
+  ],
+  "date_published": "2026-06-20",
+  "date_modified": "2026-06-20",
+  "ready_for_review": true,
+  "ready_at": "2026-06-20T05:54:20Z",
+  "publication_target": "telegram_review"
+}
