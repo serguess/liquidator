@@ -2997,7 +2997,11 @@
       "rationale": "Высокая частотность запросов по ЖКХ-долгам; статья направлена на тех, кто ищет оперативные способы защиты жилья и снятия арестов, что конвертируется в лид.",
       "expected_length_chars": 7000,
       "client_notes": "",
-      "topic_action": "снятие ареста и защита жилья от взыскания"
+      "topic_action": "снятие ареста и защита жилья от взыскания",
+      "status": "rejected",
+      "rejected_at": "2026-06-20T08:30:09",
+      "rejected_reason": "cannibalization:preflight:bankrotstvo-s-dolgami-po-zhkh",
+      "rejected_by": "auto_skip_in_slot"
     },
     {
       "id": "fiz-108",
