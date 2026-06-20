@@ -1,0 +1,22 @@
+{
+  "slug": "kak-vyigrat-ispolnitelnoe-proizvodstvo-pri-maloj-dokumentacii-kreditor",
+  "article_id": 297,
+  "scores": {
+    "structure_overlap": 0.0,
+    "thesis_similarity": 0.058,
+    "cta_overlap": 0.027
+  },
+  "thresholds": {
+    "structure_overlap": 0.4,
+    "thesis_similarity": 0.3,
+    "cta_overlap": 0.2
+  },
+  "passed": true,
+  "peers_compared": 49,
+  "closest_peer": "cessiya-ustupka-trebovaniya-prava-dolzhnika",
+  "similar_articles": [],
+  "conflicts": [],
+  "recommendation": "ok",
+  "stored_in_db": true,
+  "note": "Вектор статьи записан в data/embeddings.sqlite (published=0). После публикации агент 7 переключит флаг на 1."
+}

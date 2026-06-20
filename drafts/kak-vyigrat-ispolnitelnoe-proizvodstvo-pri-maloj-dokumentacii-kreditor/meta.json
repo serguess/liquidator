@@ -1,0 +1,97 @@
+{
+  "slug": "kak-vyigrat-ispolnitelnoe-proizvodstvo-pri-maloj-dokumentacii-kreditor",
+  "category": "vzysk",
+  "title": "Как выиграть исполнительное производство при малой документации",
+  "description": "Практическая инструкция для кредитора: какие документы достаточно предоставить, как собрать доказательства и какие процессуальные приёмы использовать при ограниченной доказательной базе.",
+  "h1": "Как выиграть исполнительное производство при небольшой документации: тактика для кредитора",
+  "lead": "Да - исполнение возможно даже при ограниченной документации: важно иметь исполнительный лист или судебный акт и параллельно собирать косвенные подтверждения - расписки, переписку и банковские выписки.",
+  "topic_action": "снятие ареста",
+  "breadcrumb_current": "Выиграть исполнительное производство",
+  "og_image": "/assets/articles/kak-vyigrat-ispolnitelnoe-proizvodstvo-pri-maloj-dokumentacii-kreditor.jpg",
+  "main_keyword": "как выиграть исполнительное производство при малой документации",
+  "secondary_keywords": [
+    "исполнительное производство при отсутствии документов",
+    "доказательства для судебных приставов",
+    "как доказать долг без договора",
+    "порядок действий взыскателя при малой документации",
+    "служба судебных приставов советы кредитору",
+    "исполнительный лист без подписи нотариуса",
+    "как работать с дебитором если нет полного пакета документов",
+    "взыскание долга по расписке и по переписке"
+  ],
+  "internal_links": [],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/c48290d39215783e73f0899bb1026b14cb221eff/",
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/c2c8c81ee8e4bd843286b08b10607f00ec6ae073/"
+  ],
+  "faq": [
+    {
+      "question": "Можно ли начать исполнительное производство при отсутствии договора, только по расписке?",
+      "answer": "Да. Исполнительное производство возможно при наличии исполнительного листа или решения суда. Расписка может усилить позицию, если она подтверждает обязательство и подкреплена иными доказательствами."
+    },
+    {
+      "question": "Какие доказательства приставы примут вместо оригинала договора?",
+      "answer": "Чаще всего принимают судебный акт, исполнительный лист, расписки, банковские выписки и акты сверки. Конкретный набор оценивается в каждом деле; все материалы лучше представить вместе."
+    },
+    {
+      "question": "Как быстро пристав может арестовать банковские счета по ходатайству взыскателя?",
+      "answer": "Сроки зависят от обоснованности ходатайства и регламента подразделения. При наличии доказательств риска вывода средств арест возможен оперативно, но разные виды запросов требуют разных оснований."
+    },
+    {
+      "question": "Что делать, если сняли деньги с защищённых выплат по ошибке?",
+      "answer": "Сначала запросите расчёт у банка или работодателя. Затем подайте жалобу старшему судебному приставу. При неустранении нарушения обращайтесь в суд (порядок обжалования предусмотрен ФЗ-229)."
+    },
+    {
+      "question": "Подойдёт ли приказное производство в арбитраже при сумме до 500 000 рублей?",
+      "answer": "Да. В арбитражном порядке приказное производство применимо, если сумма требования не превышает 500 000 руб. (ст. 229.2 АПК РФ). Если сумма больше - применяется иной порядок."
+    },
+    {
+      "question": "Какие шаги предпринять, если производство приостановлено из‑за отсутствия имущества?",
+      "answer": "Ищите новые следы активов: запросы по регистрах, выписки по счёту, сведения о ТС и недвижимости. При обнаружении активов подавайте заявление о возобновлении исполнительного производства."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Ключевые утверждения (лимит приказного производства 500 000 руб.; предел удержания 50% после НДФЛ; повышенный предел 70% - только по четырём категориям; перечень защищённых выплат по ст. 101 ФЗ-229; исполнительский сбор 7% минимум 1 000 руб.; срок добровольного исполнения - 5 рабочих дней) сверены с research.json от 2026-06-20 и оформлены в безопасной формулировке.",
+    "Утверждения о процессуальных запросах в банки/операторов и о компетенциях ФССП выдержаны в обтекаемой форме согласно выявленным фактам: research указывает на необходимость дополнительной проверки точных процессуальных норм и регламентов ФССП.",
+    "Запрещённые по research.claims формулировки (гарантия 100% исполнения и т.п.) в тексте удалены или смягчены; рекомендации даны как практическая тактика, а не гарантированный результат."
+  ],
+  "keyword_density_main": 0.018,
+  "main_keyword_exact_count": 2,
+  "text_chars": 7968,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.103,
+  "local_spam_ngram3_repeat": 0.046,
+  "local_lexical_diversity": 0.588,
+  "local_ai_markers_density": 0.5,
+  "local_ai_markers_critical": 0,
+  "length_status": "warn",
+  "length_kind": "default",
+  "local_ai_markers_total": 5,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 1,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 60,
+  "predicted_ai_pct": 8,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность заметно выше 50% (~60%)"
+  ],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1781935587/articles/kak-vyigrat-ispolnitelnoe-proizvodstvo-pri-maloj-dokumentacii-kreditor-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1781935587/articles/kak-vyigrat-ispolnitelnoe-proizvodstvo-pri-maloj-dokumentacii-kreditor-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Exterior photograph of a massive stone government building with dramatic textured façade; camera extreme low-angle up the limestone columns emphasizing chisel marks and geometric repetition. Foreground on the wide stone steps: a single closed leather portfolio angled against the base, a folded black umbrella lying beside it, and a modest bound stack of thin dossiers tied with cord, one dossier slightly worn and narrow to suggest sparse paperwork. Lighting: hard side-light revealing deep cast shadows across steps, cool grey-blue palette with a hint of warm rim light. Mood: institutional weight, quiet resilience — victory in enforcement despite minimal documentation.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-06-20T06:06:28Z",
+  "ready_for_review": true,
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "targeted_tokens_over_limit: руб_сокращение=3(>≤0), 000руб_паттерн=3(>≤2)",
+    "author_markers_missing: 1 < 2",
+    "too_few_short_sentences: 8 < 12"
+  ]
+}
