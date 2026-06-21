@@ -5934,22 +5934,31 @@
     "kak-obyasnit-sudebnye-rashody-i-trebovat-ih-vyplaty": {
       "category": "vzysk",
       "title": "Как взыскать судебные расходы с должника: доказательства и расчёт",
-      "status": "pending_review",
-      "current_version": "2.0",
+      "status": "published",
+      "current_version": "2.1",
       "versions": [
-        "2.0"
+        "2.0",
+        "2.1"
       ],
       "tg_message_id": 1445,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-06-19T11:16:28",
-      "last_action_at": "2026-06-19T11:16:28",
-      "edits_history": [],
+      "last_action_at": "2026-06-21T17:25:15",
+      "edits_history": [
+        {
+          "version": "2.1",
+          "edit_text": "в статье говорится про исполнительский сбор в размере 7 процентов - сейчас это 12 процентов. Внеси изменения со ссылкой на норму права",
+          "applied_at": "2026-06-21T17:24:26"
+        }
+      ],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/vzysk/kak-obyasnit-sudebnye-rashody-i-trebovat-ih-vyplaty",
       "pending_batch": false,
       "pending_batch_at": "2026-06-19T11:16:28",
       "_manual_fill_10": true,
-      "batch_sent_at": "2026-06-19T11:16:30"
+      "batch_sent_at": "2026-06-19T11:16:30",
+      "published_at": "2026-06-21T17:25:15",
+      "articles_path": "articles/vzysk/kak-obyasnit-sudebnye-rashody-i-trebovat-ih-vyplaty.html"
     },
     "prodazha-biznesa-pri-finansovyh-problemakh-pokupka-prodezh": {
       "category": "yur",
