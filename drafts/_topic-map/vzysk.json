@@ -2724,7 +2724,11 @@
       "rationale": "Кредиторы бизнеса ищут чёткую процедуру взыскания с юрлица; материал приводит к заказу юридического сопровождения и расчёта рисков.",
       "expected_length_chars": 7000,
       "client_notes": "",
-      "topic_action": "взыскание с ООО"
+      "topic_action": "взыскание с ООО",
+      "status": "rejected",
+      "rejected_at": "2026-06-21T07:36:14",
+      "rejected_reason": "cannibalization:preflight:vzyskanie-dolga-s-ooo-cherez-arbitrazh",
+      "rejected_by": "auto_skip_in_slot"
     },
     {
       "id": "vzysk-101",
