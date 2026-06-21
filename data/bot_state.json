@@ -5379,15 +5379,22 @@
       "category": "yur",
       "title": "Банкротство эмитента облигаций: права держателей и порядок действий",
       "status": "pending_review",
-      "current_version": "2.0",
+      "current_version": "2.1",
       "versions": [
-        "2.0"
+        "2.0",
+        "2.1"
       ],
       "tg_message_id": 1397,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-06-17T19:12:47",
-      "last_action_at": "2026-06-17T19:12:47",
-      "edits_history": [],
+      "last_action_at": "2026-06-21T16:49:49",
+      "edits_history": [
+        {
+          "version": "2.1",
+          "edit_text": "Ваш текст c высокой долей вероятности написан человеком, может содержать фрагменты, сгенерированные ИИ - вот что говорит сайт текст ру и оценивает 30 % текста, что это ИИ. Перепиши текст полностью так, как будто ты юрист компании и консультируешь человека, но от лица \"МЫ\"",
+          "applied_at": "2026-06-21T16:49:49"
+        }
+      ],
       "rejection_reason": null,
       "published_url": null,
       "pending_batch": false,
@@ -5398,7 +5405,7 @@
     "vosstanovlenie-sroka-predyavleniya-ispolnlista": {
       "category": "vzysk",
       "title": "Восстановление срока предъявления исполнительного листа",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -5406,14 +5413,16 @@
       "tg_message_id": 1399,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-06-17T19:12:47",
-      "last_action_at": "2026-06-17T19:12:47",
+      "last_action_at": "2026-06-21T16:53:09",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/vzysk/vosstanovlenie-sroka-predyavleniya-ispolnlista",
       "pending_batch": false,
       "pending_batch_at": "2026-06-17T19:12:47",
       "_promoted_from_batch": true,
-      "batch_sent_at": "2026-06-17T19:14:46"
+      "batch_sent_at": "2026-06-17T19:14:46",
+      "published_at": "2026-06-21T16:53:09",
+      "articles_path": "articles/vzysk/vosstanovlenie-sroka-predyavleniya-ispolnlista.html"
     },
     "alimenty-na-soderzhanie-byvshego-supruga": {
       "category": "vzysk",
