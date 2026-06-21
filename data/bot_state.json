@@ -5308,22 +5308,37 @@
     "proshchenie-dolga-pri-bankrotstve-yurlica": {
       "category": "yur",
       "title": "Прощение долга при банкротстве юрлица: налоги и риски",
-      "status": "pending_review",
-      "current_version": "2.0",
+      "status": "published",
+      "current_version": "2.2",
       "versions": [
-        "2.0"
+        "2.0",
+        "2.1",
+        "2.2"
       ],
       "tg_message_id": 1393,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-06-17T19:12:47",
-      "last_action_at": "2026-06-17T19:12:47",
-      "edits_history": [],
+      "last_action_at": "2026-06-21T16:39:06",
+      "edits_history": [
+        {
+          "version": "2.1",
+          "edit_text": "согласно сайту текст ру текст, который ты написал, с наибольшей долей вероятности (34 процента) сгенерирован с помощью ИИ. Перепиши текст так, чтобы он был больше похож на рассказ юриста - реального человека. Нужно, чтобы вероятность генерации текста ИИ было не более 10 процентов.",
+          "applied_at": "2026-06-21T16:33:04"
+        },
+        {
+          "version": "2.2",
+          "edit_text": "стало 23 процента. Перепиши еще раз ВЕСЬ текст так, будто ты человек юрист и тебе нужно объяснить тему обычному человеку на консультации",
+          "applied_at": "2026-06-21T16:37:10"
+        }
+      ],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/yur/proshchenie-dolga-pri-bankrotstve-yurlica",
       "pending_batch": false,
       "pending_batch_at": "2026-06-17T19:12:47",
       "_promoted_from_batch": true,
-      "batch_sent_at": "2026-06-17T19:14:40"
+      "batch_sent_at": "2026-06-17T19:14:40",
+      "published_at": "2026-06-21T16:39:06",
+      "articles_path": "articles/yur/proshchenie-dolga-pri-bankrotstve-yurlica.html"
     },
     "strakhovanie-otvetstvennosti-direktora-do-bankrotstvo": {
       "category": "yur",
