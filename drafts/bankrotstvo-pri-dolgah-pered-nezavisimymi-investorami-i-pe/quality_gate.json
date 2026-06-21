@@ -1,0 +1,270 @@
+{
+  "file": "/home/appuser/apps/liquidator/drafts/bankrotstvo-pri-dolgah-pered-nezavisimymi-investorami-i-pe/article.html",
+  "passed": true,
+  "hard_failed": false,
+  "blockers": [],
+  "warnings": [
+    "forced_pass_at_iter2: блокеры пропущены, статья идёт в TG-очередь с metrics_warning=true. Было: 4 блокеров — spam_risk; targeted_tokens_over_limit; anti_template_phrases; too_few_short_sentences"
+  ],
+  "autofix": {
+    "file": "/home/appuser/apps/liquidator/drafts/bankrotstvo-pri-dolgah-pered-nezavisimymi-investorami-i-pe/article.html",
+    "abbreviation_fixes": {},
+    "punctuation_fixes": 0,
+    "em_dash_fixes": 0,
+    "eng_quotes_fixes": 0,
+    "yo_fixes": 0,
+    "hyphen_fixes": 0,
+    "changed": false,
+    "bytes_before": 41684,
+    "bytes_after": 41684
+  },
+  "quality_checks": {
+    "file": "drafts/bankrotstvo-pri-dolgah-pered-nezavisimymi-investorami-i-pe/article.html",
+    "text_chars": 7267,
+    "length_status": "ok",
+    "length_kind": "default",
+    "passed": false,
+    "abbreviation_hits": [],
+    "punctuation_hits": [],
+    "hyphen_compound_hits": [],
+    "spam": {
+      "total_words": 673,
+      "unique_lemmas": 390,
+      "lexical_diversity": 0.579,
+      "top10_words": [
+        [
+          "документ",
+          10
+        ],
+        [
+          "требован",
+          9
+        ],
+        [
+          "прав",
+          8
+        ],
+        [
+          "проверк",
+          8
+        ],
+        [
+          "реструктуризац",
+          8
+        ],
+        [
+          "процедур",
+          8
+        ],
+        [
+          "кредитор",
+          7
+        ],
+        [
+          "част",
+          7
+        ],
+        [
+          "план",
+          7
+        ],
+        [
+          "доход",
+          7
+        ]
+      ],
+      "top10_share": 0.117,
+      "top1_count": 10,
+      "top3_sum": 27,
+      "top10_sum": 79,
+      "ngram3_repeat_count": 37,
+      "ngram3_total": 671,
+      "ngram3_repeat_share": 0.055,
+      "risk_flags": [
+        "top10_share>0.115 (=0.117)",
+        "lexical_diversity<0.58 (=0.579)"
+      ],
+      "word_warnings": []
+    },
+    "targeted_tokens": [
+      {
+        "token": "ст_сокращение",
+        "count": 0,
+        "limit": 5,
+        "over_limit": false,
+        "severity": "hard"
+      },
+      {
+        "token": "РФ_рудимент",
+        "count": 0,
+        "limit": 2,
+        "over_limit": false,
+        "severity": "hard"
+      },
+      {
+        "token": "руб_сокращение",
+        "count": 5,
+        "limit": 0,
+        "over_limit": true,
+        "severity": "hard"
+      },
+      {
+        "token": "ООО_бренд",
+        "count": 0,
+        "limit": 3,
+        "over_limit": false,
+        "severity": "hard"
+      },
+      {
+        "token": "000руб_паттерн",
+        "count": 5,
+        "limit": 2,
+        "over_limit": true,
+        "severity": "hard"
+      },
+      {
+        "token": "127фз_закон",
+        "count": 0,
+        "limit": 2,
+        "over_limit": false,
+        "severity": "soft"
+      },
+      {
+        "token": "213_артикул",
+        "count": 0,
+        "limit": 3,
+        "over_limit": false,
+        "severity": "soft"
+      },
+      {
+        "token": "ГПК_кодекс",
+        "count": 0,
+        "limit": 3,
+        "over_limit": false,
+        "severity": "soft"
+      },
+      {
+        "token": "ГК_кодекс",
+        "count": 0,
+        "limit": 3,
+        "over_limit": false,
+        "severity": "soft"
+      },
+      {
+        "token": "000_число",
+        "count": 5,
+        "limit": 8,
+        "over_limit": false,
+        "severity": "soft"
+      },
+      {
+        "token": "cta_формула_повтор",
+        "count": 1,
+        "limit": 1,
+        "over_limit": false,
+        "severity": "soft"
+      }
+    ],
+    "author_markers_count": 2,
+    "author_markers_min": 2
+  },
+  "ai_markers": {
+    "file": "drafts/bankrotstvo-pri-dolgah-pered-nezavisimymi-investorami-i-pe/article.html",
+    "text_chars": 9347,
+    "hits_total": 3,
+    "density_per_1000": 0.32,
+    "by_severity": {
+      "critical": 0,
+      "high": 0,
+      "medium": 0,
+      "low": 3
+    },
+    "own_voice_hits": 2,
+    "first_person_singular_hits": 0,
+    "hits": [
+      {
+        "name": "ИИ-лексика: «взаимодействие/тонкости/нюансы (абстрактно)»",
+        "category": "ai-lexis",
+        "severity": "low",
+        "match": "Взаимодействие",
+        "position": 9154,
+        "context": "...ение law@pravo.shop Коммерческие предложения biz@pravo.shop Взаимодействие со СМИ pr@pravo.shop © 2018-2026 ООО «ЛИКВИДАТОР». Все прав..."
+      },
+      {
+        "name": "Канцелярит: «в рамках» (без нужды)",
+        "category": "clerical",
+        "severity": "low",
+        "match": "в рамках",
+        "position": 6931,
+        "context": "...проверка ситуации. Можно ли договориться о реструктуризации в рамках плана (ст. 213.13)? Да, при наличии источника дохода и собл..."
+      },
+      {
+        "name": "Канцелярит: «в рамках» (без нужды)",
+        "category": "clerical",
+        "severity": "low",
+        "match": "в рамках",
+        "position": 8766,
+        "context": "...ровождение на всех этапах. Надежность и законность Работаем в рамках ФЗ и действующего законодательства РФ. РЕКВИЗИТЫ ООО «ЛИКВИ..."
+      }
+    ]
+  },
+  "anti_template": {
+    "file": "drafts/bankrotstvo-pri-dolgah-pered-nezavisimymi-investorami-i-pe/article.html",
+    "text_chars": 7678,
+    "phrases_loaded": 138,
+    "passed": false,
+    "hits": [
+      {
+        "phrase": "возмещение вреда жизни или здоровью",
+        "category": "ст. 213.28 — освобождение от обязательств",
+        "position": 2580,
+        "context": "...ется Закон прямо оставляет вне списания алименты, возмещение вреда жизни или здоровью, задолженность по зарплате и другие прямо перечис..."
+      }
+    ]
+  },
+  "law_quotes": {
+    "total_chars": 0,
+    "limit": 600,
+    "samples": []
+  },
+  "rhythm": {
+    "file": "drafts/bankrotstvo-pri-dolgah-pered-nezavisimymi-investorami-i-pe/article.html",
+    "text_chars": 7678,
+    "sentences_total": 59,
+    "avg_sentence_len": 12.47,
+    "short_sentences_count": 7,
+    "short_sentences_share": 0.119,
+    "long_sentences_count": 3,
+    "parasite_count": 2,
+    "parasite_per_1000": 0.26,
+    "flags": []
+  },
+  "internal_links": {
+    "total_hrefs": 37,
+    "ok": 0,
+    "whitelisted": 21,
+    "external": 13,
+    "fixed": 0,
+    "errors": 0,
+    "changed": false,
+    "fix_details": [],
+    "error_details": []
+  },
+  "recommendations": [
+    "reduce_repetition: разбавить топ-5 частотных лемм местоимениями/перифразом — ['документ', 'требован', 'прав', 'проверк', 'реструктуризац']",
+    "reduce_руб: «руб» × 5 → cap 0. Только полное «рублей»/«рубля». В контексте суммы единица иногда опускается: «долг 82 400» вместо «долг 82 400 рублей».",
+    "reduce_round_sums: «X 000 руб» × 5 → cap 2. Иллюстративные суммы — некруглые (82 400, 147 500). Статутные пороги (300 000, 500 000) — 1 раз в точной форме + дальше через дескриптор («эта планка», «новый минимум»).",
+    "rewrite_unique: перифразировать дословные шаблонные фразы (см. .claude/style/anti-template-phrases.md, секция «Как перифразировать»). Примеры: «возмещение вреда жизни или здоровью»",
+    "add_short_sentences: добавить минимум 5 коротких предложений (≤5 слов). Главный anti-AI маркер: «Главное.», «Защита не включается.», «6 месяцев, иногда 8.». Разбивать длинные предложения на 2-3 коротких."
+  ],
+  "retry_count": 2,
+  "predicted_metrics": {
+    "spam_pct": 62,
+    "ai_pct": 3,
+    "uniqueness_pct": 83
+  },
+  "customer_risks": [
+    "заспамленность заметно выше 50% (~62%)",
+    "уникальность чуть ниже 85% (~83%)"
+  ]
+}
