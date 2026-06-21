@@ -5723,7 +5723,7 @@
     "sud-otmenil-vzyskanie-bashkiravtodor-lic-scheta": {
       "category": "news",
       "title": "Отмена взыскания 1,1 млрд с лицевых счетов казначейского сопровождения",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -5731,15 +5731,17 @@
       "tg_message_id": 1425,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-06-18T09:39:42",
-      "last_action_at": "2026-06-18T10:00:43",
+      "last_action_at": "2026-06-21T17:08:13",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/news/sud-otmenil-vzyskanie-bashkiravtodor-lic-scheta",
       "pending_batch": false,
       "pending_batch_at": "2026-06-18T09:39:42",
       "_real_news_injected": true,
       "batch_sent_at": "2026-06-18T10:00:43",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-06-21T17:08:13",
+      "articles_path": "articles/news/sud-otmenil-vzyskanie-bashkiravtodor-lic-scheta.html"
     },
     "kak-podgotovit-dokumenty-dlya-bankrotstva-yurlica": {
       "category": "yur",
