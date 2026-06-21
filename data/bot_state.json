@@ -6069,7 +6069,7 @@
     "osparivanie-operacij-po-schetam-pered-bankrotstvom": {
       "category": "fiz",
       "title": "Оспорить операции по счетам перед банкротством",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -6077,14 +6077,16 @@
       "tg_message_id": 1457,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-06-20T08:41:33",
-      "last_action_at": "2026-06-20T10:00:42",
+      "last_action_at": "2026-06-21T17:36:42",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/fiz/osparivanie-operacij-po-schetam-pered-bankrotstvom",
       "pending_batch": false,
       "pending_batch_at": "2026-06-20T08:41:33",
       "batch_sent_at": "2026-06-20T10:00:42",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-06-21T17:36:42",
+      "articles_path": "articles/fiz/osparivanie-operacij-po-schetam-pered-bankrotstvom.html"
     },
     "bankrotstvo-pri-dolgah-po-faktoringu-i-cesii": {
       "category": "fiz",
