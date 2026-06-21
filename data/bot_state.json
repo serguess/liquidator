@@ -5469,7 +5469,7 @@
     "bankrotstvo-osuzhdennogo-fns-iski-pri-otbyvanii-nakazaniya": {
       "category": "news",
       "title": "ФНС подала иск о банкротстве осуждённого, отбывающего наказание",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -5477,14 +5477,16 @@
       "tg_message_id": 1405,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-06-17T19:12:47",
-      "last_action_at": "2026-06-17T19:12:47",
+      "last_action_at": "2026-06-21T16:55:32",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/news/bankrotstvo-osuzhdennogo-fns-iski-pri-otbyvanii-nakazaniya",
       "pending_batch": false,
       "pending_batch_at": "2026-06-17T19:12:47",
       "_promoted_from_batch": true,
-      "batch_sent_at": "2026-06-17T19:14:53"
+      "batch_sent_at": "2026-06-17T19:14:53",
+      "published_at": "2026-06-21T16:55:32",
+      "articles_path": "articles/news/bankrotstvo-osuzhdennogo-fns-iski-pri-otbyvanii-nakazaniya.html"
     },
     "opredelenie-vs-ob-osporenii-sdelok-bankrotstvo": {
       "category": "news",
