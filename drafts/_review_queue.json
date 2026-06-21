@@ -3307,6 +3307,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "rbc-regionalnoe-delo-apk-alekseevsky-vveli-nablyudenie",
+      "category": "news",
+      "title": "Наблюдение по тепличному комплексу в Башкирии: что произошло",
+      "added_at": "2026-06-21T08:59:36.550193",
+      "char_count": 6928,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779262340/articles/vzyskanie-sudebnyh-rashodov-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

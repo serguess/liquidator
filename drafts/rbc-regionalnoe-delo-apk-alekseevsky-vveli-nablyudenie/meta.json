@@ -1,0 +1,99 @@
+{
+  "slug": "rbc-regionalnoe-delo-apk-alekseevsky-vveli-nablyudenie",
+  "category": "news",
+  "title": "Наблюдение по тепличному комплексу в Башкирии: что произошло",
+  "description": "В Башкирии арбитражный суд ввёл процедуру наблюдения в отношении крупного тепличного комплекса. Что это значит для бизнеса, кредиторов и работников, какие ограничения вводятся и какие шаги ожидают компанию.",
+  "h1": "В Башкирии ввели наблюдение по делу крупного тепличного комплекса",
+  "lead": "Когда в компании внезапно объявляют об этом режиме, внутри растёт нервозность.",
+  "topic_action": "разбор влияния введённого наблюдения",
+  "breadcrumb_current": "Наблюдение по тепличному комплексу",
+  "og_image": "/assets/articles/rbc-regionalnoe-delo-apk-alekseevsky-vveli-nablyudenie.jpg",
+  "main_keyword": "наблюдение по делу тепличного комплекса башкирия",
+  "secondary_keywords": [
+    "наблюдение в арбитражном процессе",
+    "тепличный комплекс банкротство башкирия",
+    "введение наблюдения предприятие",
+    "что значит введено наблюдение",
+    "правовые последствия наблюдения",
+    "дело теплица арбитражный суд"
+  ],
+  "intent": "informational",
+  "funnel_stage": "cold",
+  "article_type": "B",
+  "offer": "proverka-spisaniya",
+  "internal_links": [],
+  "external_links": [
+    "https://bankrot.fedresurs.ru/",
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/"
+  ],
+  "faq": [
+    {
+      "question": "Можно ли ограничить расчёты с компанией после введения наблюдения?",
+      "answer": "Да. В период контроля суд и управляющий могут вводить ограничения на отдельные расчёты, чтобы сохранить активы и обеспечить равные условия для предъявления требований."
+    },
+    {
+      "question": "Кто оплачивает депозит и расходы, связанные с работой управляющего?",
+      "answer": "Депозит на вознаграждение управляющего обычно составляет 25 тысяч рублей; это платёж для обеспечения работы специалиста, а не госпошлина. Расходы по публикациям и иные затраты могут относиться к должнику и учитываться в реестре требований."
+    },
+    {
+      "question": "Что должны делать работники, чтобы заявить требования о зарплате?",
+      "answer": "Работники подают требования в реестр требований кредиторов через процесс дела о несостоятельности. Их данные и подтверждающие документы важны для включения в перечень претензий."
+    },
+    {
+      "question": "Как быстро суд назначает временного управляющего после подачи заявления?",
+      "answer": "Назначение обычно происходит на начальном этапе дела - сроки зависят от загруженности инстанции и полноты представленных материалов."
+    },
+    {
+      "question": "Чем реструктуризация отличается от реализации имущества после проверки?",
+      "answer": "Реструктуризация - попытка изменить условия обязательств и сохранить предприятие; реализация - продажа активов для расчёта с теми, кто заявил требования, что чаще приводит к закрытию бизнеса."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "f1-f4, f6: факты сверены с research и оформлены через safe_phrasing (последняя верификация 2026-06-21, legislation_status: active).",
+    "f5 (положение работников) в research отмечен needs_verification: в тексте использована нейтральная формулировка из safe_phrasing без ссылок на конкретные статьи.",
+    "Депозит 25 000 руб. указан согласно research.safe_phrasing (п. 3 ст. 20.6 127‑ФЗ) и отмечен как не являющийся госпошлиной."
+  ],
+  "keyword_density_main": null,
+  "main_keyword_exact_count": 1,
+  "text_chars": 6928,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.115,
+  "local_spam_ngram3_repeat": 0.015,
+  "local_lexical_diversity": 0.601,
+  "local_ai_markers_density": 0.57,
+  "local_ai_markers_critical": 0,
+  "length_status": "too_long",
+  "length_kind": "news",
+  "local_ai_markers_total": 5,
+  "local_ai_markers_high": 1,
+  "local_own_voice_hits": 3,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779262340/articles/vzyskanie-sudebnyh-rashodov-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779262340/articles/vzyskanie-sudebnyh-rashodov-cover.jpg",
+  "cover_uploaded_at": "2026-06-21T05:59:36Z",
+  "cover_fallback": true,
+  "cover_fallback_reason": "fal_generate_failed",
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 53,
+  "predicted_ai_pct": 5,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность чуть выше 50% (~53%)",
+    "длина чуть больше лимита 6800 (6 928 знаков)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "too_few_short_sentences: 2 < 12"
+  ],
+  "date_published": "2026-06-21",
+  "date_modified": "2026-06-21",
+  "ready_for_review": true,
+  "ready_at": "2026-06-21T05:59:36Z",
+  "publication_target": "telegram_review"
+}
