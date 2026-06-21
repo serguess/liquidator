@@ -5892,7 +5892,7 @@
     "prava-kreditora-pri-ispolnenii-resheniya-posle-likvidacii-ooo": {
       "category": "vzysk",
       "title": "Как взыскать долг с компании после ликвидации: порядок действий кредитора",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -5900,14 +5900,16 @@
       "tg_message_id": 1441,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-06-19T08:52:42",
-      "last_action_at": "2026-06-19T10:00:55",
+      "last_action_at": "2026-06-21T17:19:17",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/vzysk/prava-kreditora-pri-ispolnenii-resheniya-posle-likvidacii-ooo",
       "pending_batch": false,
       "pending_batch_at": "2026-06-19T08:52:42",
       "batch_sent_at": "2026-06-19T10:00:55",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-06-21T17:19:17",
+      "articles_path": "articles/vzysk/prava-kreditora-pri-ispolnenii-resheniya-posle-likvidacii-ooo.html"
     },
     "verhovnyj-sud-razjasnil-peresmotr-bankrotstva": {
       "category": "news",
