@@ -6155,7 +6155,7 @@
     "vozvrat-neosnovatelnyh-platezhey-i-vzyskanie-po-grazhdanskomu-pravu": {
       "category": "vzysk",
       "title": "Возврат неосновательных платежей от контрагента: порядок",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -6163,14 +6163,16 @@
       "tg_message_id": 1465,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-06-20T08:59:33",
-      "last_action_at": "2026-06-20T10:00:51",
+      "last_action_at": "2026-06-21T17:41:39",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/vzysk/vozvrat-neosnovatelnyh-platezhey-i-vzyskanie-po-grazhdanskomu-pravu",
       "pending_batch": false,
       "pending_batch_at": "2026-06-20T08:59:33",
       "batch_sent_at": "2026-06-20T10:00:51",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-06-21T17:41:39",
+      "articles_path": "articles/vzysk/vozvrat-neosnovatelnyh-platezhey-i-vzyskanie-po-grazhdanskomu-pravu.html"
     },
     "kak-obespechit-ispolnenie-resheniya-pri-nachale-ispolnitelnogo-proizvodstva": {
       "category": "vzysk",
