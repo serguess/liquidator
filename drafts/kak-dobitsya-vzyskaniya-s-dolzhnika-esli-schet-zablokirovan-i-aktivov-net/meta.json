@@ -1,0 +1,89 @@
+{
+  "slug": "kak-dobitsya-vzyskaniya-s-dolzhnika-esli-schet-zablokirovan-i-aktivov-net",
+  "category": "vzysk",
+  "title": "Как взыскать долг при заблокированном счете и отсутствии активов",
+  "description": "Что делать взыскателю, если счета должника заблокированы, активов нет или они недоступны: какие запросы, жалобы и розыскные меры действительно работают и какие ограничения нужно учитывать.",
+  "h1": "Как добиться взыскания долга, если у должника заблокированы счета и нет видимых активов",
+  "lead": "Практический план действий: какие запросы собрать, когда инициировать розыск и какие процессуальные инструменты применимы, если счета должника заблокированы, а активов не видно.",
+  "topic_action": "снятие ареста и реализацию мер по взысканию",
+  "breadcrumb_current": "Взыскание при заблокированных счетах",
+  "og_image": "/assets/articles/kak-dobitsya-vzyskaniya-s-dolzhnika-esli-schet-zablokirovan-i-aktivov-net.jpg",
+  "main_keyword": "как взыскать долг если у должника заблокированы счета и нет активов",
+  "secondary_keywords": [
+    "взыскание долга при заблокированных счетах",
+    "что делать если у должника нет активов",
+    "как исполнить решение суда если счет заблокирован",
+    "поиск скрытых активов должника",
+    "исполнительное производство заблокирован счет"
+  ],
+  "internal_links": [],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_10699/",
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/"
+  ],
+  "faq": [
+    {
+      "question": "Что первым делом проверить, если счёт должника заблокирован?",
+      "answer": "Попросите у ФССП сведения по исполнительному производству и у банка - детализацию движений по счёту. Эти документы показывают основания блокировки и последние операции."
+    },
+    {
+      "question": "Какие реестры помогут найти скрытые активы у должника?",
+      "answer": "ЕГРН для недвижимости, регистр транспортных средств для машин, базы юрлиц и налоговая информация по контрагентам. Сопоставление данных часто обнаруживает переводные цепочки и формальные собственников."
+    },
+    {
+      "question": "Можно ли требовать снятия ареста через суд и сколько это занимает?",
+      "answer": "Да. При спорных списаниях сначала подаётся жалоба к старшему приставу, при неэффективности - обращение в суд (ст. 123, 128 ФЗ‑229). Сроки зависят от сложности дела и загрузки инстанций."
+    },
+    {
+      "question": "Что делать, если пристав списал защищённые выплаты?",
+      "answer": "Потребуйте расчёт у банка или работодателя, затем подайте жалобу старшему приставу; при неэффективности - обращение в суд. Деньги, удержанные сверх допустимого, подлежат возврату при подтверждении нарушения (ст. 101, 123, 128 ФЗ‑229)."
+    },
+    {
+      "question": "Когда имеет смысл предъявлять требования к поручителю вместо должника?",
+      "answer": "Если у должника нет активов, а по договору есть поручитель, предъявление требований к нему может быть более эффективным - наличие поручителя существенно повышает шансы взыскания."
+    },
+    {
+      "question": "Какие признаки указывают на возможное мошенничество и передачу дела в полицию?",
+      "answer": "Частые переоформления имущества на третьих лиц, массовые переводы на аффилированные фирмы и фиктивные сделки. При наличии таких признаков материалы можно передать в правоохранительные органы для проверки."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Юридические утверждения, связанные с ФЗ‑229 (срок добровольного исполнения 5 рабочих дней, правила жалоб и возврата ошибочно списанных средств, перечень защищённых выплат и пределы удержаний) сверены с research.json (last_verified 2026-06-21). Использованы безопасные формулировки из safe_phrasings.",
+    "Утверждения о мерах взыскателя (запросы в реестры, розыск, иски к третьим лицам, передача материалов в правоохранительные органы) сформулированы в обтекаемой форме, соответствующей safe_phrasing для фактов, помеченных в research.json как требующие верификации.",
+    "Запрещённые гарантии и категоричные утверждения (например, обещание 100% взыскания) в тексте не содержатся."
+  ],
+  "keyword_density_main": 0.018,
+  "main_keyword_exact_count": 1,
+  "text_chars": 7999,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.09,
+  "local_spam_ngram3_repeat": 0.026,
+  "local_lexical_diversity": 0.601,
+  "local_ai_markers_density": 0.2,
+  "local_ai_markers_critical": 0,
+  "length_status": "warn",
+  "length_kind": "default",
+  "local_ai_markers_total": 2,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 5,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "ready_for_review": true,
+  "ready_at": null,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1782016903/articles/kak-dobitsya-vzyskaniya-s-dolzhnika-esli-schet-zablokirovan-i-aktivov-net-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1782016903/articles/kak-dobitsya-vzyskaniya-s-dolzhnika-esli-schet-zablokirovan-i-aktivov-net-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Editorial photograph of a contemporary workspace built with natural materials — light oak table by a large window, camera at three-quarter eye-level with shallow depth of field; on the desk arranged deliberately: a sleek closed laptop with brushed metal lid, a smartphone face-down beside it, a leather-bound notebook with a fountain pen laid diagonally across its cover, a polished brass round seal placed near a neat stack of blank, unmarked dossiers, and a ceramic water bottle to the side; background: soft overcast cityscape through glass, lighting cool daylight with a subtle warm fill, palette: oak, graphite, brass; mood: procedural, focused, restrained urgency.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-06-21T04:41:44Z",
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 53,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность чуть выше 50% (~53%)"
+  ]
+}
