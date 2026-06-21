@@ -5343,22 +5343,37 @@
     "strakhovanie-otvetstvennosti-direktora-do-bankrotstvo": {
       "category": "yur",
       "title": "Страхование ответственности директора при банкротстве",
-      "status": "pending_review",
-      "current_version": "2.0",
+      "status": "published",
+      "current_version": "2.2",
       "versions": [
-        "2.0"
+        "2.0",
+        "2.1",
+        "2.2"
       ],
       "tg_message_id": 1395,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-06-17T19:12:47",
-      "last_action_at": "2026-06-17T19:12:47",
-      "edits_history": [],
+      "last_action_at": "2026-06-21T16:46:00",
+      "edits_history": [
+        {
+          "version": "2.1",
+          "edit_text": "Что нужно сделать: \n- Переписать весь текст внутри тела статьи (контент в article__body  заголовки и блок Частые вопросы) в простой консультационный стиль от лица юриста компании (во множественном числе)  чтобы обычному человеку было понятно.\n- Заменил знаки длинного тире на дефисы там  где это касалось изменённого текста.\n• Задача сделать текст максимально похожим на человеческий, снизить детектор ИИ",
+          "applied_at": "2026-06-21T16:42:40"
+        },
+        {
+          "version": "2.2",
+          "edit_text": "Сайт текст ру считает, что 32 процента данного текста написано искусственным интеллектом. Это нам не подходит. Перепиши текст так, чтобы он был максимально похожим на человеческий.",
+          "applied_at": "2026-06-21T16:45:25"
+        }
+      ],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/yur/strakhovanie-otvetstvennosti-direktora-do-bankrotstvo",
       "pending_batch": false,
       "pending_batch_at": "2026-06-17T19:12:47",
       "_promoted_from_batch": true,
-      "batch_sent_at": "2026-06-17T19:14:42"
+      "batch_sent_at": "2026-06-17T19:14:42",
+      "published_at": "2026-06-21T16:46:00",
+      "articles_path": "articles/yur/strakhovanie-otvetstvennosti-direktora-do-bankrotstvo.html"
     },
     "bankrotstvo-emitenta-obligacij": {
       "category": "yur",
