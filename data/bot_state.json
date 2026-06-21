@@ -6347,7 +6347,7 @@
     "sperskaya-kontseptsiya-bankrotstva-dlya-sotrudnikov-korporacii": {
       "category": "fiz",
       "title": "Статус поручителя при банкротстве работодателя: права и риски",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -6355,14 +6355,16 @@
       "tg_message_id": 1483,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-06-21T08:34:39",
-      "last_action_at": "2026-06-21T10:00:47",
+      "last_action_at": "2026-06-21T17:52:49",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/fiz/sperskaya-kontseptsiya-bankrotstva-dlya-sotrudnikov-korporacii",
       "pending_batch": false,
       "pending_batch_at": "2026-06-21T08:34:39",
       "batch_sent_at": "2026-06-21T10:00:47",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-06-21T17:52:49",
+      "articles_path": "articles/fiz/sperskaya-kontseptsiya-bankrotstva-dlya-sotrudnikov-korporacii.html"
     },
     "bankrotstvo-posle-uzhestocheniya-115-fz-blokirovki-schetov": {
       "category": "fiz",
