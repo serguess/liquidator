@@ -18293,5 +18293,66 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-06-21T08:30:37",
+    "category": "fiz",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 1,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "fiz-113",
+    "topic_slug": "sperskaya-kontseptsiya-bankrotstva-dlya-sotrudnikov-korporacii",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "forced_pass_at_iter2: блокеры пропущены, статья идёт в TG-очередь с metrics_warning=true. Было: 1 блокеров — spam_risk"
+      ],
+      "recommendations": [
+        "reduce_repetition: разбавить топ-5 частотных лемм местоимениями/перифразом — ['взыскател', 'требован', 'гарант', 'поручительств', 'возмещен']"
+      ],
+      "stderr_tail": ""
+    },
+    "finalize_safety_net": {
+      "ran": true,
+      "rc": 0
+    },
+    "status": "ok",
+    "slug": "sperskaya-kontseptsiya-bankrotstva-dlya-sotrudnikov-korporacii",
+    "duration_sec": 240.1,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "    20637   $0.0126\n7-publisher         gpt-5-mini         8728     262     8990   $0.0027\n------------------------------------------------------------------------------\nИТОГО                                143256   21639   164895   $0.0791\nПроекция на 10 статей/день × 30 дней (300 статей): ~49468K ток/мес, ~$23.7/мес\nНе учтено: 5-uniqueness (эмбеддинги, ~копейки), image_gen (fal.ai, не LLM).\nАртефакты: drafts/sperskaya-kontseptsiya-bankrotstva-dlya-sotrudnikov-korporacii/  | quality_gate exit=0",
+    "stderr_tail": "643, in _raise_for_status\n    raise FalClientHTTPError(\nfal_client.client.FalClientHTTPError: User is locked. Reason: Exhausted balance. Top up your balance at fal.ai/dashboard/billing.\nfal.ai не вернул картинку, fallback на рандом из articles.json\nFallback-обложка для sperskaya-kontseptsiya-bankrotstva-dlya-sotrudnikov-korporacii: https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779159123/articles/bankrotstvo-invalida-lgoty-pensiya-cover.jpg (reason=fal_generate_failed)\n",
+    "tokens_by_model": {},
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7605
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]
