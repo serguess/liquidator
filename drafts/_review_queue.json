@@ -3281,6 +3281,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "sperskaya-kontseptsiya-bankrotstva-dlya-sotrudnikov-korporacii",
+      "category": "fiz",
+      "title": "Статус поручителя при банкротстве работодателя: права и риски",
+      "added_at": "2026-06-21T08:34:37.856095",
+      "char_count": 7605,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779159123/articles/bankrotstvo-invalida-lgoty-pensiya-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

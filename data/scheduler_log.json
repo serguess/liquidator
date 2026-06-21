@@ -18233,5 +18233,65 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-06-21T07:36:08",
+    "category": "vzysk",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 3,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "vzysk-101",
+    "topic_slug": "kak-dobitsya-vzyskaniya-s-dolzhnika-esli-schet-zablokirovan-i-aktivov-net",
+    "auto_skipped": [
+      {
+        "slug": "kak-obratitsya-v-sud-chtoby-vzyskat-dolg-s-ooo-poshagovaya-shema",
+        "reason": "cannibalization:preflight:vzyskanie-dolga-s-ooo-cherez-arbitrazh",
+        "duration_sec": 0
+      }
+    ],
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "kak-dobitsya-vzyskaniya-s-dolzhnika-esli-schet-zablokirovan-i-aktivov-net",
+    "duration_sec": 337.2,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": " $0.0136\n7-publisher         gpt-5-mini         8728     331     9059   $0.0028\n------------------------------------------------------------------------------\nИТОГО                                147270   22833   170103   $0.0825\nПроекция на 10 статей/день × 30 дней (300 статей): ~51030K ток/мес, ~$24.7/мес\nНе учтено: 5-uniqueness (эмбеддинги, ~копейки), image_gen (fal.ai, не LLM).\nАртефакты: drafts/kak-dobitsya-vzyskaniya-s-dolzhnika-esli-schet-zablokirovan-i-aktivov-net/  | quality_gate exit=0",
+    "stderr_tail": "",
+    "tokens_by_model": {},
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7999
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]
