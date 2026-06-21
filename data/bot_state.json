@@ -5176,7 +5176,7 @@
     "bank-podal-isk-po-kreditu-chto-delat": {
       "category": "vzysk",
       "title": "Банк подал иск по кредиту: тактика должника в суде",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -5184,14 +5184,16 @@
       "tg_message_id": 1379,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-06-05T10:46:31",
-      "last_action_at": "2026-06-06T10:00:21",
+      "last_action_at": "2026-06-21T16:19:30",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/vzysk/bank-podal-isk-po-kreditu-chto-delat",
       "pending_batch": false,
       "pending_batch_at": "2026-06-05T10:46:31",
       "batch_sent_at": "2026-06-06T10:00:21",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-06-21T16:19:30",
+      "articles_path": "articles/vzysk/bank-podal-isk-po-kreditu-chto-delat.html"
     },
     "lgoty-posobiya-posle-bankrotstva-fizlica": {
       "category": "fiz",
@@ -5432,10 +5434,949 @@
       "pending_batch_at": "2026-06-17T19:12:47",
       "_promoted_from_batch": true,
       "batch_sent_at": "2026-06-17T19:14:53"
+    },
+    "opredelenie-vs-ob-osporenii-sdelok-bankrotstvo": {
+      "category": "news",
+      "title": "Определение ВС: оспаривание сделок должника - ключевые выводы",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-06-17T19:45:09",
+      "last_action_at": "2026-06-17T19:45:09",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-06-17T19:45:09",
+      "_dequeued_fake_source": true
+    },
+    "bankrotstvo-pri-dolgah-po-raspiskam-i-neformalnym-zaymam": {
+      "category": "fiz",
+      "title": "Банкротство при долгах по распискам и неформальным займам",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 1407,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-06-17T22:06:10",
+      "last_action_at": "2026-06-18T10:00:23",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-06-17T22:06:10",
+      "batch_sent_at": "2026-06-18T10:00:23",
+      "batch_fail_count": 0
+    },
+    "bankrotstvo-ooo-edinstvennyj-uchreditel": {
+      "category": "yur",
+      "title": "Банкротство ООО с единственным учредителем: нюансы",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 1409,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-06-18T00:30:11",
+      "last_action_at": "2026-06-18T10:00:25",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-06-18T00:30:11",
+      "batch_sent_at": "2026-06-18T10:00:25",
+      "batch_fail_count": 0
+    },
+    "vzyskanie-dolga-s-inostrannogo-kontragenta": {
+      "category": "vzysk",
+      "title": "Взыскание долга с иностранного контрагентом: где судиться",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 1411,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-06-18T02:53:12",
+      "last_action_at": "2026-06-18T10:00:27",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-06-18T02:53:12",
+      "batch_sent_at": "2026-06-18T10:00:27",
+      "batch_fail_count": 0
+    },
+    "bankrotstvo-pri-dolgah-za-meditsinskie-uslugi-i-likbez-dolga": {
+      "category": "fiz",
+      "title": "Банкротство при долгах за медицинские услуги: можно ли списать",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 1413,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-06-18T05:17:23",
+      "last_action_at": "2026-06-18T10:00:30",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-06-18T05:17:23",
+      "batch_sent_at": "2026-06-18T10:00:30",
+      "batch_fail_count": 0
+    },
+    "bankrotstvo-i-zarabotnaya-plata-chto-mogut-derzhat-pristavy": {
+      "category": "fiz",
+      "title": "Что могут удерживать приставы из зарплаты при банкротстве",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 1415,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-06-18T08:36:24",
+      "last_action_at": "2026-06-18T10:00:32",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-06-18T08:36:24",
+      "batch_sent_at": "2026-06-18T10:00:32",
+      "batch_fail_count": 0
+    },
+    "ekologicheskie-obyazatelstva-bankrotstvo-yurlica": {
+      "category": "yur",
+      "title": "Экологические обязательства при банкротстве юрлица: основные риски и порядок действий",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 1417,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-06-18T08:41:25",
+      "last_action_at": "2026-06-18T10:00:34",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-06-18T08:41:25",
+      "batch_sent_at": "2026-06-18T10:00:34",
+      "batch_fail_count": 0
+    },
+    "kak-provesti-restrukturizaciyu-dolgov-kompanii": {
+      "category": "yur",
+      "title": "Реструктуризация долгов компании: пошаговая инструкция",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 1419,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-06-18T08:47:25",
+      "last_action_at": "2026-06-18T10:00:36",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-06-18T08:47:25",
+      "batch_sent_at": "2026-06-18T10:00:36",
+      "batch_fail_count": 0
+    },
+    "ugolovnaya-otvetstvennost-dolzhnika-st-177-uk": {
+      "category": "vzysk",
+      "title": "Уклонение от уплаты (ст. 177 УК): уголовная ответственность",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 1421,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-06-18T08:51:25",
+      "last_action_at": "2026-06-18T10:00:38",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-06-18T08:51:25",
+      "batch_sent_at": "2026-06-18T10:00:38",
+      "batch_fail_count": 0
+    },
+    "neustoyka-po-gossontraktu-44-fz-vzyskanie": {
+      "category": "vzysk",
+      "title": "Неустойка по госконтракту: взыскание по правилам 44‑ФЗ",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 1423,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-06-18T08:55:25",
+      "last_action_at": "2026-06-18T10:00:40",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-06-18T08:55:25",
+      "batch_sent_at": "2026-06-18T10:00:40",
+      "batch_fail_count": 0
+    },
+    "izmeneniya-v-protsedurah-127-fz-nalogovye-procedury": {
+      "category": "news",
+      "title": "Уточнения по налоговым требованиям в процедурах 127‑ФЗ",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-06-18T08:59:25",
+      "last_action_at": "2026-06-18T08:59:25",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-06-18T08:59:25",
+      "_dequeued_fake_source": true
+    },
+    "sud-otmenil-vzyskanie-bashkiravtodor-lic-scheta": {
+      "category": "news",
+      "title": "Отмена взыскания 1,1 млрд с лицевых счетов казначейского сопровождения",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 1425,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-06-18T09:39:42",
+      "last_action_at": "2026-06-18T10:00:43",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-06-18T09:39:42",
+      "_real_news_injected": true,
+      "batch_sent_at": "2026-06-18T10:00:43",
+      "batch_fail_count": 0
+    },
+    "kak-podgotovit-dokumenty-dlya-bankrotstva-yurlica": {
+      "category": "yur",
+      "title": "Как подготовить документы для банкротства юрлица: пошаговая инструкция",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 1427,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-06-19T00:29:31",
+      "last_action_at": "2026-06-19T10:00:40",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-06-19T00:29:31",
+      "batch_sent_at": "2026-06-19T10:00:40",
+      "batch_fail_count": 0
+    },
+    "osporit-ispolnitelnoe-proizvodstvo-po-sudebnomu-aktivu": {
+      "category": "vzysk",
+      "title": "Как оспорить исполнительное производство по судебному акту",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 1429,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-06-19T02:54:32",
+      "last_action_at": "2026-06-19T10:00:42",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-06-19T02:54:32",
+      "batch_sent_at": "2026-06-19T10:00:42",
+      "batch_fail_count": 0
+    },
+    "bankrotstvo-posle-razvoda-kak-vklyuchit-razdelenie-dolgov": {
+      "category": "fiz",
+      "title": "Банкротство после развода: учёт разделённых долгов при банкротстве",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 1431,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-06-19T05:17:40",
+      "last_action_at": "2026-06-19T10:00:44",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-06-19T05:17:40",
+      "batch_sent_at": "2026-06-19T10:00:44",
+      "batch_fail_count": 0
+    },
+    "kak-vybrat-sro-dlya-bankrotstva-yuridicheskogo-licha": {
+      "category": "yur",
+      "title": "Как выбрать СРО и арбитражного управляющего для банкротства юрлица",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 1433,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-06-19T07:41:41",
+      "last_action_at": "2026-06-19T10:00:47",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-06-19T07:41:41",
+      "batch_sent_at": "2026-06-19T10:00:47",
+      "batch_fail_count": 0
+    },
+    "bankrotstvo-dolzhnikov-s-nalichnymi-aktivami-kak-zashchitit-platyozh": {
+      "category": "fiz",
+      "title": "Банкротство с наличными активами: как защитить деньги",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 1435,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-06-19T08:35:41",
+      "last_action_at": "2026-06-19T10:00:49",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-06-19T08:35:41",
+      "batch_sent_at": "2026-06-19T10:00:49",
+      "batch_fail_count": 0
+    },
+    "bankrotstvo-pri-dolgah-pered-rodstvennikami-i-blizkimi-licami": {
+      "category": "fiz",
+      "title": "Банкротство при долгах перед родственниками и близкими",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 1437,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-06-19T08:39:41",
+      "last_action_at": "2026-06-19T10:00:51",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-06-19T08:39:41",
+      "batch_sent_at": "2026-06-19T10:00:51",
+      "batch_fail_count": 0
+    },
+    "kak-osporit-trebovanie-kreditorov-v-reestre-pri-bankrotstve-yurlica": {
+      "category": "yur",
+      "title": "Как оспорить требование в реестре при банкротстве юрлица",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 1439,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-06-19T08:43:41",
+      "last_action_at": "2026-06-19T10:00:53",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-06-19T08:43:42",
+      "batch_sent_at": "2026-06-19T10:00:53",
+      "batch_fail_count": 0
+    },
+    "prava-kreditora-pri-ispolnenii-resheniya-posle-likvidacii-ooo": {
+      "category": "vzysk",
+      "title": "Как взыскать долг с компании после ликвидации: порядок действий кредитора",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 1441,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-06-19T08:52:42",
+      "last_action_at": "2026-06-19T10:00:55",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-06-19T08:52:42",
+      "batch_sent_at": "2026-06-19T10:00:55",
+      "batch_fail_count": 0
+    },
+    "verhovnyj-sud-razjasnil-peresmotr-bankrotstva": {
+      "category": "news",
+      "title": "Верховный Суд дал разъяснение о пересмотре дел о банкротстве",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 1443,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-06-19T08:56:42",
+      "last_action_at": "2026-06-19T10:00:57",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-06-19T08:56:42",
+      "batch_sent_at": "2026-06-19T10:00:57",
+      "batch_fail_count": 0
+    },
+    "kak-obyasnit-sudebnye-rashody-i-trebovat-ih-vyplaty": {
+      "category": "vzysk",
+      "title": "Как взыскать судебные расходы с должника: доказательства и расчёт",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 1445,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-06-19T11:16:28",
+      "last_action_at": "2026-06-19T11:16:28",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-06-19T11:16:28",
+      "_manual_fill_10": true,
+      "batch_sent_at": "2026-06-19T11:16:30"
+    },
+    "prodazha-biznesa-pri-finansovyh-problemakh-pokupka-prodezh": {
+      "category": "yur",
+      "title": "Продажа бизнеса при финансовых проблемах: как подготовить сделку",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 1447,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-06-20T00:29:49",
+      "last_action_at": "2026-06-20T10:00:32",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-06-20T00:29:49",
+      "batch_sent_at": "2026-06-20T10:00:31",
+      "batch_fail_count": 0
+    },
+    "kak-otmenit-ili-osporit-dejstviya-pristavov-po-arestu-imushchestva": {
+      "category": "vzysk",
+      "title": "Как оспорить или отменить действия приставов при аресте имущества",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 1449,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-06-20T02:52:50",
+      "last_action_at": "2026-06-20T10:00:34",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-06-20T02:52:50",
+      "batch_sent_at": "2026-06-20T10:00:34",
+      "batch_fail_count": 0
+    },
+    "bankrotstvo-i-raschet-aktyvov-obyazannyh-k-realizacii": {
+      "category": "fiz",
+      "title": "Как рассчитывается стоимость активов для реализации при банкротстве",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 1451,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-06-20T05:17:32",
+      "last_action_at": "2026-06-20T10:00:36",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-06-20T05:17:32",
+      "batch_sent_at": "2026-06-20T10:00:36",
+      "batch_fail_count": 0
+    },
+    "realizaciya-imushchestva-yurlica-na-torgah-poshagovo": {
+      "category": "yur",
+      "title": "Реализация имущества юрлица на торгах: пошаговый гид",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 1453,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-06-20T07:42:33",
+      "last_action_at": "2026-06-20T10:00:38",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-06-20T07:42:33",
+      "batch_sent_at": "2026-06-20T10:00:38",
+      "batch_fail_count": 0
+    },
+    "bankrotstvo-i-vozvrat-zalogovogo-imushchestva-prakticheskij-plan": {
+      "category": "fiz",
+      "title": "Банкротство и возврат залогового имущества: план действий",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 1455,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-06-20T08:36:33",
+      "last_action_at": "2026-06-20T10:00:40",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-06-20T08:36:33",
+      "batch_sent_at": "2026-06-20T10:00:40",
+      "batch_fail_count": 0
+    },
+    "osparivanie-operacij-po-schetam-pered-bankrotstvom": {
+      "category": "fiz",
+      "title": "Оспорить операции по счетам перед банкротством",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 1457,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-06-20T08:41:33",
+      "last_action_at": "2026-06-20T10:00:42",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-06-20T08:41:33",
+      "batch_sent_at": "2026-06-20T10:00:42",
+      "batch_fail_count": 0
+    },
+    "bankrotstvo-pri-dolgah-po-faktoringu-i-cesii": {
+      "category": "fiz",
+      "title": "Банкротство при долгах по факторингу и уступке требований",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 1459,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-06-20T08:45:33",
+      "last_action_at": "2026-06-20T10:00:45",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-06-20T08:45:33",
+      "batch_sent_at": "2026-06-20T10:00:45",
+      "batch_fail_count": 0
+    },
+    "kak-osporit-dejstviya-arbitrazhnogo-upravlyayuschego": {
+      "category": "yur",
+      "title": "Как оспорить действия арбитражного управляющего",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 1461,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-06-20T08:50:33",
+      "last_action_at": "2026-06-20T10:00:47",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-06-20T08:50:33",
+      "batch_sent_at": "2026-06-20T10:00:47",
+      "batch_fail_count": 0
+    },
+    "dolgovye-obazatelstva-po-goskontraktam-kak-reshat-problemy": {
+      "category": "yur",
+      "title": "Долговые обязательства по госконтрактам: как подрядчику решить проблему",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 1463,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-06-20T08:54:33",
+      "last_action_at": "2026-06-20T10:00:49",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-06-20T08:54:33",
+      "batch_sent_at": "2026-06-20T10:00:49",
+      "batch_fail_count": 0
+    },
+    "vozvrat-neosnovatelnyh-platezhey-i-vzyskanie-po-grazhdanskomu-pravu": {
+      "category": "vzysk",
+      "title": "Возврат неосновательных платежей от контрагента: порядок",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 1465,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-06-20T08:59:33",
+      "last_action_at": "2026-06-20T10:00:51",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-06-20T08:59:33",
+      "batch_sent_at": "2026-06-20T10:00:51",
+      "batch_fail_count": 0
+    },
+    "kak-obespechit-ispolnenie-resheniya-pri-nachale-ispolnitelnogo-proizvodstva": {
+      "category": "vzysk",
+      "title": "Как обеспечить исполнение судебного решения при начале исполнения",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 1467,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-06-20T09:03:33",
+      "last_action_at": "2026-06-20T10:00:53",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-06-20T09:03:33",
+      "batch_sent_at": "2026-06-20T10:00:53",
+      "batch_fail_count": 0
+    },
+    "kak-vyigrat-ispolnitelnoe-proizvodstvo-pri-maloj-dokumentacii-kreditor": {
+      "category": "vzysk",
+      "title": "Как выиграть исполнительное производство при малой документации",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 1469,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-06-20T09:07:34",
+      "last_action_at": "2026-06-20T10:00:55",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-06-20T09:07:34",
+      "batch_sent_at": "2026-06-20T10:00:55",
+      "batch_fail_count": 0
+    },
+    "fedresurs-ob-yavleny-torgi-po-imushchestvu-bankrota-na-efrsb": {
+      "category": "news",
+      "title": "ЕФРСБ объявляет торги по имуществу банкрота - порядок и последствия",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 1471,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-06-20T09:15:34",
+      "last_action_at": "2026-06-20T10:00:57",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-06-20T09:15:34",
+      "batch_sent_at": "2026-06-20T10:00:57",
+      "batch_fail_count": 0
+    },
+    "consultant-top-povorotnye-dela-analiz-dvizhenij-sudov": {
+      "category": "news",
+      "title": "Три поворотных дела арбитражных округов: анализ и последствия",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 1473,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-06-20T09:20:34",
+      "last_action_at": "2026-06-20T10:01:00",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-06-20T09:20:34",
+      "batch_sent_at": "2026-06-20T10:01:00",
+      "batch_fail_count": 0
+    },
+    "kak-vzyskat-dolg-po-raspiske-cherez-sud-i-pristavov-bez-oshibok": {
+      "category": "vzysk",
+      "title": "Как взыскать долг по расписке через суд и приставов",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 1475,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-06-21T00:31:41",
+      "last_action_at": "2026-06-21T10:00:38",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-06-21T00:31:41",
+      "batch_sent_at": "2026-06-21T10:00:38",
+      "batch_fail_count": 0
+    },
+    "bankrotstvo-pri-zadolzhennosti-za-zhku-s-resheniem-suda": {
+      "category": "fiz",
+      "title": "Банкротство при задолженности за ЖКУ с судебными решениями",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 1477,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-06-21T02:54:42",
+      "last_action_at": "2026-06-21T10:00:40",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-06-21T02:54:42",
+      "batch_sent_at": "2026-06-21T10:00:40",
+      "batch_fail_count": 0
+    },
+    "kak-perevesti-kompaniyu-na-finansovoe-ozdorovlenie-bez-bankrotstva": {
+      "category": "yur",
+      "title": "Финансовое оздоровление компании без немедленного банкротства",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 1479,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-06-21T05:17:38",
+      "last_action_at": "2026-06-21T10:00:42",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-06-21T05:17:38",
+      "batch_sent_at": "2026-06-21T10:00:42",
+      "batch_fail_count": 0
+    },
+    "kak-dobitsya-vzyskaniya-s-dolzhnika-esli-schet-zablokirovan-i-aktivov-net": {
+      "category": "vzysk",
+      "title": "Как взыскать долг при заблокированном счете и отсутствии активов",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 1481,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-06-21T07:42:39",
+      "last_action_at": "2026-06-21T10:00:44",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-06-21T07:42:39",
+      "batch_sent_at": "2026-06-21T10:00:44",
+      "batch_fail_count": 0
+    },
+    "sperskaya-kontseptsiya-bankrotstva-dlya-sotrudnikov-korporacii": {
+      "category": "fiz",
+      "title": "Статус поручителя при банкротстве работодателя: права и риски",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 1483,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-06-21T08:34:39",
+      "last_action_at": "2026-06-21T10:00:47",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-06-21T08:34:39",
+      "batch_sent_at": "2026-06-21T10:00:47",
+      "batch_fail_count": 0
+    },
+    "bankrotstvo-posle-uzhestocheniya-115-fz-blokirovki-schetov": {
+      "category": "fiz",
+      "title": "Банкротство при блокировках по 115-ФЗ: что делать",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 1485,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-06-21T08:38:39",
+      "last_action_at": "2026-06-21T10:00:49",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-06-21T08:38:39",
+      "batch_sent_at": "2026-06-21T10:00:49",
+      "batch_fail_count": 0
+    },
+    "bankrotstvo-i-kreditnye-kanikuly-vozmozhnost-peregovorov-s-bankom": {
+      "category": "fiz",
+      "title": "Банкротство или кредитные каникулы: что выгоднее",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 1487,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-06-21T08:44:39",
+      "last_action_at": "2026-06-21T10:00:51",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-06-21T08:44:39",
+      "batch_sent_at": "2026-06-21T10:00:51",
+      "batch_fail_count": 0
+    },
+    "kak-organizovat-prodazhu-imushchestva-korporativnogo-cherez-torgi": {
+      "category": "yur",
+      "title": "Продажа имущества юрлица через торги: подготовка и риски",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 1489,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-06-21T08:49:40",
+      "last_action_at": "2026-06-21T10:00:53",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-06-21T08:49:40",
+      "batch_sent_at": "2026-06-21T10:00:53",
+      "batch_fail_count": 0
+    },
+    "risk-privlecheniya-subsidiarki-pri-reorganizacii-gruppy": {
+      "category": "yur",
+      "title": "Риски привлечения субсидиарной ответственности при реорганизации группы",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 1491,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-06-21T08:53:40",
+      "last_action_at": "2026-06-21T10:00:55",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-06-21T08:53:40",
+      "batch_sent_at": "2026-06-21T10:00:55",
+      "batch_fail_count": 0
+    },
+    "kak-obratitsya-k-pristavam-chtoby-priostanovit-nezakonnoe-vzyskanie": {
+      "category": "vzysk",
+      "title": "Как оспорить незаконные удержания у судебных приставов",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 1493,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-06-21T08:56:40",
+      "last_action_at": "2026-06-21T10:00:57",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-06-21T08:56:40",
+      "batch_sent_at": "2026-06-21T10:00:57",
+      "batch_fail_count": 0
+    },
+    "rbc-regionalnoe-delo-apk-alekseevsky-vveli-nablyudenie": {
+      "category": "news",
+      "title": "Наблюдение по тепличному комплексу в Башкирии: что произошло",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 1495,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-06-21T08:59:40",
+      "last_action_at": "2026-06-21T10:00:59",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-06-21T08:59:40",
+      "batch_sent_at": "2026-06-21T10:00:59",
+      "batch_fail_count": 0
     }
   },
   "pending_actions": [],
-  "last_batch_date": "2026-06-17",
-  "last_batch_count": 0,
-  "last_batch_at": "2026-06-17T10:00:40"
+  "last_batch_date": "2026-06-21",
+  "last_batch_count": 11,
+  "last_batch_at": "2026-06-21T10:00:59"
 }

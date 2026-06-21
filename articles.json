@@ -1,6 +1,19 @@
 {
-  "generated": "2026-06-06",
+  "generated": "2026-06-21",
   "articles": [
+    {
+      "slug": "bank-podal-isk-po-kreditu-chto-delat",
+      "cat": "vzysk",
+      "catLabel": "Взыскание задолженности",
+      "title": "Банк подал иск по кредиту: тактика должника в суде",
+      "desc": "Что делать, если банк подал исковое заявление по кредиту: как подать возражение, снизить неустойку, проверить срок давности и не проиграть суд.",
+      "date": "21 июня 2026",
+      "dateIso": "2026-06-21",
+      "read": "5 мин.",
+      "tone": "b",
+      "img": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1780645529/articles/bank-podal-isk-po-kreditu-chto-delat-cover.jpg",
+      "url": "articles/vzysk/bank-podal-isk-po-kreditu-chto-delat"
+    },
     {
       "slug": "auditor-buhgalter-subsidiarnaya-otvetstvennost",
       "cat": "yur",
