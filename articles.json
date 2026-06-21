@@ -2,6 +2,19 @@
   "generated": "2026-06-21",
   "articles": [
     {
+      "slug": "bankrotstvo-i-raschet-aktyvov-obyazannyh-k-realizacii",
+      "cat": "fiz",
+      "catLabel": "Банкротство физических лиц",
+      "title": "Как рассчитывается стоимость активов для реализации при банкротстве",
+      "desc": "Пошаговое руководство по оценке и расчету стоимости имущества должника для реализации в процедуре банкротства: кто проводит оценку, какие методы используются и как учитываются налоги и расходы.",
+      "date": "21 июня 2026",
+      "dateIso": "2026-06-21",
+      "read": "5 мин.",
+      "tone": "b",
+      "img": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1781921785/articles/bankrotstvo-i-raschet-aktyvov-obyazannyh-k-realizacii-cover.jpg",
+      "url": "articles/fiz/bankrotstvo-i-raschet-aktyvov-obyazannyh-k-realizacii"
+    },
+    {
       "slug": "prodazha-biznesa-pri-finansovyh-problemakh-pokupka-prodezh",
       "cat": "yur",
       "catLabel": "Банкротство юридических лиц",
