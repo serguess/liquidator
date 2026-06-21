@@ -5682,7 +5682,7 @@
     "neustoyka-po-gossontraktu-44-fz-vzyskanie": {
       "category": "vzysk",
       "title": "Неустойка по госконтракту: взыскание по правилам 44‑ФЗ",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -5690,14 +5690,16 @@
       "tg_message_id": 1423,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-06-18T08:55:25",
-      "last_action_at": "2026-06-18T10:00:40",
+      "last_action_at": "2026-06-21T17:06:45",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/vzysk/neustoyka-po-gossontraktu-44-fz-vzyskanie",
       "pending_batch": false,
       "pending_batch_at": "2026-06-18T08:55:25",
       "batch_sent_at": "2026-06-18T10:00:40",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-06-21T17:06:45",
+      "articles_path": "articles/vzysk/neustoyka-po-gossontraktu-44-fz-vzyskanie.html"
     },
     "izmeneniya-v-protsedurah-127-fz-nalogovye-procedury": {
       "category": "news",
