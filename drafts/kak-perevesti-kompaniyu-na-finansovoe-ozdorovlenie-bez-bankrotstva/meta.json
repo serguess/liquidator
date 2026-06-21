@@ -1,0 +1,90 @@
+{
+  "slug": "kak-perevesti-kompaniyu-na-finansovoe-ozdorovlenie-bez-bankrotstva",
+  "category": "yur",
+  "title": "Финансовое оздоровление компании без немедленного банкротства",
+  "description": "Инструкция для руководителя: когда запускать финансовое оздоровление, какие меры помогут отсрочить банкротство и как согласовать план с кредиторами.",
+  "h1": "Как перевести компанию на финансовое оздоровление без немедленного банкротства",
+  "lead": "Когда счёт пуст, сначала стабилизируйте кассу и подготовьте реальные предложения по выплатам - это сохраняет переговорную силу и даёт шанс договориться с кредиторами.",
+  "topic_action": "перевести компанию на финансовое оздоровление",
+  "breadcrumb_current": "Финансовое оздоровление компании",
+  "og_image": "/assets/articles/kak-perevesti-kompaniyu-na-finansovoe-ozdorovlenie-bez-bankrotstva.jpg",
+  "main_keyword": "перевести компанию на финансовое оздоровление без банкротства",
+  "secondary_keywords": [
+    "финансовое оздоровление организации",
+    "порядок финансового оздоровления предприятия",
+    "как избежать банкротства компании",
+    "реструктуризация долгов компании",
+    "соглашение с кредиторами о реструктуризации"
+  ],
+  "internal_links": [],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/c48290d39215783e73f0899bb1026b14cb221eff/",
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/c2c8c81ee8e4bd843286b08b10607f00ec6ae073/"
+  ],
+  "faq": [
+    {
+      "question": "Можно ли договариваться с одним крупным кредитором и ждать остальных?",
+      "answer": "Можно начать переговоры с одним крупным кредитором, но обычно этого недостаточно: если предложение не покрывает значительную долю требований, остальные стороны могут не поддержать реструктуризацию. Чаще эффективнее вести переговоры параллельно с несколькими ключевыми держателями требований."
+    },
+    {
+      "question": "Как исполнительные производства влияют на шансы договориться о реструктуризации?",
+      "answer": "Аресты счетов и начисленные исполнительские сборы уменьшают манёвренность компании и снижают готовность кредиторов идти на отсрочку: чем больше активных исполнительных производств, тем меньше стимулов у держателей требований откладывать исполнение."
+    },
+    {
+      "question": "Какие краткосрочные меры реально помогают до переговоров?",
+      "answer": "Ускорение дебиторской задолженности, отказ от неприбыльных контрактов, перенос части расходов и продажа ненужных активов быстро высвобождают кассу и повышают вероятность договорённости с кредиторами."
+    },
+    {
+      "question": "Что делать при требовании подачи на банкротство?",
+      "answer": "Срочно подготовьте финансовый план и альтернативные предложения. Если переговоры невозможны, проконсультируйтесь с юристом и готовьте защиту от возможного оспаривания сделок и других процессуальных рисков."
+    },
+    {
+      "question": "Чем добровольная реструктуризация отличается от судом контролируемого оздоровления?",
+      "answer": "Добровольная реструктуризация - это соглашения между сторонами без внешнего управления; судом контролируемая процедура даёт формальную защиту и утверждённый план, но требует больше документальной подготовки и соблюдения процессуальных требований."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Утверждения о взыскании по судебному приказу до 500 000 руб. согласованы с research.f1 (ст. 229.2 АПК РФ).",
+    "Утверждения о исполнительском сборе (7% и повышенные минимумы для организаций) согласованы с research.f6 (ФЗ-229 ст. 112); рекомендована проверка точных минимальных значений перед публикацией.",
+    "Упоминание ориентировочной планки ~2 000 000 руб. для порога возбуждения банкротства юридических лиц отражено в research.f3 и приведено как ориентир с рекомендацией проверки текущей редакции ст. 6 и 33 127‑ФЗ.",
+    "Формулировки о финансовом оздоровлении и роли добровольных соглашений использовали safe_phrasing из research (f4, f5); подробные процессуальные правила помечены как требующие дополнительной верификации."
+  ],
+  "keyword_density_main": 0.01,
+  "main_keyword_exact_count": 2,
+  "text_chars": 6328,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.102,
+  "local_spam_ngram3_repeat": 0.022,
+  "local_lexical_diversity": 0.673,
+  "local_ai_markers_density": 0.24,
+  "local_ai_markers_critical": 0,
+  "length_status": "warn",
+  "length_kind": "default",
+  "local_ai_markers_total": 2,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 1,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "ready_for_review": true,
+  "ready_at": "2026-06-21T00:00:00Z",
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1782008198/articles/kak-perevesti-kompaniyu-na-finansovoe-ozdorovlenie-bez-bankrotstva-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1782008198/articles/kak-perevesti-kompaniyu-na-finansovoe-ozdorovlenie-bez-bankrotstva-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Close-up cinematic photograph of legal and business implements arranged as if mid-process on a dark walnut tabletop: a neat stack of closed dossiers tied with cord center-left, a polished round corporate seal resting atop a folded restructuring agreement packet, a pair of closed law books with gilt-free spines stacked beneath an antique pocket watch, a sand-filled brass hourglass mid-flow to suggest measured time, and a small balanced brass scales of justice slightly to the right; camera tabletop level, three-quarter angle, soft directional sidelight from upper left casting elegant shadows, materials: brass, dark walnut, weathered leather, mood: deliberate procedural recovery and negotiated restructuring.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-06-21T02:16:39Z",
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 47,
+  "predicted_ai_pct": 6,
+  "predicted_uniqueness_pct": 90,
+  "customer_risks": [],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "targeted_tokens_over_limit: руб_сокращение=1(>≤0)",
+    "author_markers_missing: 1 < 2",
+    "too_few_short_sentences: 7 < 12"
+  ]
+}

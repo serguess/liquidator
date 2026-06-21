@@ -18115,5 +18115,64 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-06-21T02:48:18",
+    "category": "fiz",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 1,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "fiz-112",
+    "topic_slug": "bankrotstvo-pri-zadolzhennosti-za-zhku-s-resheniem-suda",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "spam_soft_passed: ratio-флаги мягкие при iter=2, targeted_tokens чистые → пропускаем (spam ≈48-52% по прогнозу)"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "finalize_safety_net": {
+      "ran": true,
+      "rc": 0
+    },
+    "status": "ok",
+    "slug": "bankrotstvo-pri-zadolzhennosti-za-zhku-s-resheniem-suda",
+    "duration_sec": 335.2,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "   4150    21408   $0.0126\n7-publisher         gpt-5-mini         8727     653     9380   $0.0035\n------------------------------------------------------------------------------\nИТОГО                                146976   23581   170557   $0.0839\nПроекция на 10 статей/день × 30 дней (300 статей): ~51167K ток/мес, ~$25.2/мес\nНе учтено: 5-uniqueness (эмбеддинги, ~копейки), image_gen (fal.ai, не LLM).\nАртефакты: drafts/bankrotstvo-pri-zadolzhennosti-za-zhku-s-resheniem-suda/  | quality_gate exit=0",
+    "stderr_tail": "",
+    "tokens_by_model": {},
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7898
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]
