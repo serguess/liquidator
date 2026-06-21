@@ -6411,7 +6411,7 @@
     "kak-organizovat-prodazhu-imushchestva-korporativnogo-cherez-torgi": {
       "category": "yur",
       "title": "Продажа имущества юрлица через торги: подготовка и риски",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -6419,14 +6419,16 @@
       "tg_message_id": 1489,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-06-21T08:49:40",
-      "last_action_at": "2026-06-21T10:00:53",
+      "last_action_at": "2026-06-21T17:55:22",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/yur/kak-organizovat-prodazhu-imushchestva-korporativnogo-cherez-torgi",
       "pending_batch": false,
       "pending_batch_at": "2026-06-21T08:49:40",
       "batch_sent_at": "2026-06-21T10:00:53",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-06-21T17:55:22",
+      "articles_path": "articles/yur/kak-organizovat-prodazhu-imushchestva-korporativnogo-cherez-torgi.html"
     },
     "risk-privlecheniya-subsidiarki-pri-reorganizacii-gruppy": {
       "category": "yur",
