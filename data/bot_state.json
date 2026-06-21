@@ -5594,7 +5594,7 @@
     "bankrotstvo-i-zarabotnaya-plata-chto-mogut-derzhat-pristavy": {
       "category": "fiz",
       "title": "Что могут удерживать приставы из зарплаты при банкротстве",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -5602,14 +5602,16 @@
       "tg_message_id": 1415,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-06-18T08:36:24",
-      "last_action_at": "2026-06-18T10:00:32",
+      "last_action_at": "2026-06-21T17:00:25",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/fiz/bankrotstvo-i-zarabotnaya-plata-chto-mogut-derzhat-pristavy",
       "pending_batch": false,
       "pending_batch_at": "2026-06-18T08:36:24",
       "batch_sent_at": "2026-06-18T10:00:32",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-06-21T17:00:25",
+      "articles_path": "articles/fiz/bankrotstvo-i-zarabotnaya-plata-chto-mogut-derzhat-pristavy.html"
     },
     "ekologicheskie-obyazatelstva-bankrotstvo-yurlica": {
       "category": "yur",
