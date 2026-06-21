@@ -5638,7 +5638,7 @@
     "kak-provesti-restrukturizaciyu-dolgov-kompanii": {
       "category": "yur",
       "title": "Реструктуризация долгов компании: пошаговая инструкция",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -5646,14 +5646,16 @@
       "tg_message_id": 1419,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-06-18T08:47:25",
-      "last_action_at": "2026-06-18T10:00:36",
+      "last_action_at": "2026-06-21T17:03:10",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/yur/kak-provesti-restrukturizaciyu-dolgov-kompanii",
       "pending_batch": false,
       "pending_batch_at": "2026-06-18T08:47:25",
       "batch_sent_at": "2026-06-18T10:00:36",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-06-21T17:03:10",
+      "articles_path": "articles/yur/kak-provesti-restrukturizaciyu-dolgov-kompanii.html"
     },
     "ugolovnaya-otvetstvennost-dolzhnika-st-177-uk": {
       "category": "vzysk",
