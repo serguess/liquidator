@@ -6241,7 +6241,7 @@
     "consultant-top-povorotnye-dela-analiz-dvizhenij-sudov": {
       "category": "news",
       "title": "Три поворотных дела арбитражных округов: анализ и последствия",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -6249,14 +6249,16 @@
       "tg_message_id": 1473,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-06-20T09:20:34",
-      "last_action_at": "2026-06-20T10:01:00",
+      "last_action_at": "2026-06-21T17:47:59",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/news/consultant-top-povorotnye-dela-analiz-dvizhenij-sudov",
       "pending_batch": false,
       "pending_batch_at": "2026-06-20T09:20:34",
       "batch_sent_at": "2026-06-20T10:01:00",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-06-21T17:47:59",
+      "articles_path": "articles/news/consultant-top-povorotnye-dela-analiz-dvizhenij-sudov.html"
     },
     "kak-vzyskat-dolg-po-raspiske-cherez-sud-i-pristavov-bez-oshibok": {
       "category": "vzysk",
