@@ -3294,6 +3294,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "risk-privlecheniya-subsidiarki-pri-reorganizacii-gruppy",
+      "category": "yur",
+      "title": "Риски привлечения субсидиарной ответственности при реорганизации группы",
+      "added_at": "2026-06-21T08:53:21.293407",
+      "char_count": 7908,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1778879061/articles/rashody-na-bankrotstvo-yurlica-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

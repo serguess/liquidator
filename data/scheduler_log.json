@@ -18473,5 +18473,68 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-06-21T08:43:50",
+    "category": "yur",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 4,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "expanded_in_slot": true,
+    "topic_id": "yur-110",
+    "topic_slug": "kak-organizovat-prodazhu-imushchestva-korporativnogo-cherez-torgi",
+    "auto_skipped": [
+      {
+        "slug": "pravo-kreditora-pri-bankrotstve-pokupatelya-po-goskontraktu",
+        "reason": "cannibalization:preflight:bankrotstvo-postavshchika-po-goskontraktu",
+        "duration_sec": 0
+      }
+    ],
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "spam_soft_passed: ratio-флаги мягкие при iter=2, targeted_tokens чистые → пропускаем (spam ≈48-52% по прогнозу)"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "kak-organizovat-prodazhu-imushchestva-korporativnogo-cherez-torgi",
+    "duration_sec": 330.4,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": " 21488   $0.0130\n7-publisher         gpt-5-mini         8727     456     9183   $0.0031\n------------------------------------------------------------------------------\nИТОГО                                144918   21188   166106   $0.0786\nПроекция на 10 статей/день × 30 дней (300 статей): ~49831K ток/мес, ~$23.6/мес\nНе учтено: 5-uniqueness (эмбеддинги, ~копейки), image_gen (fal.ai, не LLM).\nАртефакты: drafts/kak-organizovat-prodazhu-imushchestva-korporativnogo-cherez-torgi/  | quality_gate exit=0",
+    "stderr_tail": " 643, in _raise_for_status\n    raise FalClientHTTPError(\nfal_client.client.FalClientHTTPError: User is locked. Reason: Exhausted balance. Top up your balance at fal.ai/dashboard/billing.\nfal.ai не вернул картинку, fallback на рандом из articles.json\nFallback-обложка для kak-organizovat-prodazhu-imushchestva-korporativnogo-cherez-torgi: https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1778545939/articles/bankrotstvo-pri-poruchitelstve-cover.jpg (reason=fal_generate_failed)\n",
+    "tokens_by_model": {},
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7640
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]
