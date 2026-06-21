@@ -5242,7 +5242,7 @@
     "nalogovyj-vychet-posle-bankrotstva-fizlica": {
       "category": "fiz",
       "title": "Налоговый вычет после банкротства: можно ли вернуть",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -5250,14 +5250,16 @@
       "tg_message_id": 1389,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-06-17T19:12:47",
-      "last_action_at": "2026-06-17T19:12:47",
+      "last_action_at": "2026-06-21T16:27:14",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/fiz/nalogovyj-vychet-posle-bankrotstva-fizlica",
       "pending_batch": false,
       "pending_batch_at": "2026-06-17T19:12:47",
       "_promoted_from_batch": true,
-      "batch_sent_at": "2026-06-17T19:14:36"
+      "batch_sent_at": "2026-06-17T19:14:36",
+      "published_at": "2026-06-21T16:27:14",
+      "articles_path": "articles/fiz/nalogovyj-vychet-posle-bankrotstva-fizlica.html"
     },
     "bankrotstvo-inostrannogo-grazhdanina-v-rossii": {
       "category": "fiz",
