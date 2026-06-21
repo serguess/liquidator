@@ -5220,7 +5220,7 @@
     "beneficiarnyj-sobstvennik-subsidiarnaya-otvetstvennost": {
       "category": "yur",
       "title": "Субсидиарка бенефициара: как находят скрытого владельца",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -5228,14 +5228,16 @@
       "tg_message_id": 1383,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-06-05T15:51:34",
-      "last_action_at": "2026-06-06T10:00:25",
+      "last_action_at": "2026-06-21T16:22:28",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/yur/beneficiarnyj-sobstvennik-subsidiarnaya-otvetstvennost",
       "pending_batch": false,
       "pending_batch_at": "2026-06-05T15:51:34",
       "batch_sent_at": "2026-06-06T10:00:25",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-06-21T16:22:28",
+      "articles_path": "articles/yur/beneficiarnyj-sobstvennik-subsidiarnaya-otvetstvennost.html"
     },
     "nalogovyj-vychet-posle-bankrotstva-fizlica": {
       "category": "fiz",
