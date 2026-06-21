@@ -18354,5 +18354,65 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-06-21T08:34:39",
+    "category": "fiz",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 2,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "fiz-114",
+    "topic_slug": "bankrotstvo-posle-uzhestocheniya-115-fz-blokirovki-schetov",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "forced_pass_at_iter2: блокеры пропущены, статья идёт в TG-очередь с metrics_warning=true. Было: 3 блокеров — targeted_tokens_over_limit; author_markers_missing; too_few_short_sentences"
+      ],
+      "recommendations": [
+        "reduce_руб: «руб» × 2 → cap 0. Только полное «рублей»/«рубля». В контексте суммы единица иногда опускается: «долг 82 400» вместо «долг 82 400 рублей».",
+        "reduce_round_sums: «X 000 руб» × 4 → cap 2. Иллюстративные суммы — некруглые (82 400, 147 500). Статутные пороги (300 000, 500 000) — 1 раз в точной форме + дальше через дескриптор («эта планка», «новый минимум»).",
+        "add_author_markers: добавить минимум 1 вставок «по нашему опыту» / «в нашей практике» / «мы считаем» / «мы видим». Это главный anti-AI маркер — без него text.ru показывает AI 7-19%.",
+        "add_short_sentences: добавить минимум 3 коротких предложений (≤5 слов). Главный anti-AI маркер: «Главное.», «Защита не включается.», «6 месяцев, иногда 8.». Разбивать длинные предложения на 2-3 коротких."
+      ],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "bankrotstvo-posle-uzhestocheniya-115-fz-blokirovki-schetov",
+    "duration_sec": 233.5,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "4547    21589   $0.0134\n7-publisher         gpt-5-mini         8728     519     9247   $0.0032\n------------------------------------------------------------------------------\nИТОГО                                147934   23542   171476   $0.0841\nПроекция на 10 статей/день × 30 дней (300 статей): ~51442K ток/мес, ~$25.2/мес\nНе учтено: 5-uniqueness (эмбеддинги, ~копейки), image_gen (fal.ai, не LLM).\nАртефакты: drafts/bankrotstvo-posle-uzhestocheniya-115-fz-blokirovki-schetov/  | quality_gate exit=0",
+    "stderr_tail": "tus\n    raise FalClientHTTPError(\nfal_client.client.FalClientHTTPError: User is locked. Reason: Exhausted balance. Top up your balance at fal.ai/dashboard/billing.\nfal.ai не вернул картинку, fallback на рандом из articles.json\nFallback-обложка для bankrotstvo-posle-uzhestocheniya-115-fz-blokirovki-schetov: https://res.cloudinary.com/dmsaaiwkm/image/upload/c_fill,ar_191:100,g_center,f_auto,q_auto,w_1920/v1778464719/articles/udershanie-iz-zarplaty-pristavami-cover.jpg (reason=fal_generate_failed)\n",
+    "tokens_by_model": {},
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7224
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]
