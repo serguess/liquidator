@@ -5660,7 +5660,7 @@
     "ugolovnaya-otvetstvennost-dolzhnika-st-177-uk": {
       "category": "vzysk",
       "title": "Уклонение от уплаты (ст. 177 УК): уголовная ответственность",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -5668,14 +5668,16 @@
       "tg_message_id": 1421,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-06-18T08:51:25",
-      "last_action_at": "2026-06-18T10:00:38",
+      "last_action_at": "2026-06-21T17:05:01",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/vzysk/ugolovnaya-otvetstvennost-dolzhnika-st-177-uk",
       "pending_batch": false,
       "pending_batch_at": "2026-06-18T08:51:25",
       "batch_sent_at": "2026-06-18T10:00:38",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-06-21T17:05:01",
+      "articles_path": "articles/vzysk/ugolovnaya-otvetstvennost-dolzhnika-st-177-uk.html"
     },
     "neustoyka-po-gossontraktu-44-fz-vzyskanie": {
       "category": "vzysk",
