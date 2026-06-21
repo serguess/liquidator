@@ -6047,7 +6047,7 @@
     "bankrotstvo-i-vozvrat-zalogovogo-imushchestva-prakticheskij-plan": {
       "category": "fiz",
       "title": "Банкротство и возврат залогового имущества: план действий",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -6055,14 +6055,16 @@
       "tg_message_id": 1455,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-06-20T08:36:33",
-      "last_action_at": "2026-06-20T10:00:40",
+      "last_action_at": "2026-06-21T17:35:38",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/fiz/bankrotstvo-i-vozvrat-zalogovogo-imushchestva-prakticheskij-plan",
       "pending_batch": false,
       "pending_batch_at": "2026-06-20T08:36:33",
       "batch_sent_at": "2026-06-20T10:00:40",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-06-21T17:35:38",
+      "articles_path": "articles/fiz/bankrotstvo-i-vozvrat-zalogovogo-imushchestva-prakticheskij-plan.html"
     },
     "osparivanie-operacij-po-schetam-pered-bankrotstvom": {
       "category": "fiz",
