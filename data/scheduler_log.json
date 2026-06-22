@@ -19202,5 +19202,65 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-06-22T08:44:21",
+    "category": "yur",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 5,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "yur-114",
+    "topic_slug": "kak-postavit-i-zashhitit-trebovanie-v-reestr-kreditorov",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "forced_pass_at_iter2: блокеры пропущены, статья идёт в TG-очередь с metrics_warning=true. Было: 4 блокеров — spam_risk; targeted_tokens_over_limit; author_markers_missing; too_few_short_sentences"
+      ],
+      "recommendations": [
+        "reduce_repetition: разбавить топ-5 частотных лемм местоимениями/перифразом — ['требован', 'реестр', 'документ', 'сумм', 'подач']",
+        "reduce_руб: «руб» × 1 → cap 0. Только полное «рублей»/«рубля». В контексте суммы единица иногда опускается: «долг 82 400» вместо «долг 82 400 рублей».",
+        "add_author_markers: добавить минимум 2 вставок «по нашему опыту» / «в нашей практике» / «мы считаем» / «мы видим». Это главный anti-AI маркер — без него text.ru показывает AI 7-19%.",
+        "add_short_sentences: добавить минимум 8 коротких предложений (≤5 слов). Главный anti-AI маркер: «Главное.», «Защита не включается.», «6 месяцев, иногда 8.». Разбивать длинные предложения на 2-3 коротких."
+      ],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "kak-postavit-i-zashhitit-trebovanie-v-reestr-kreditorov",
+    "duration_sec": 183.7,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "   3843    20443   $0.0118\n7-publisher         gpt-5-mini         8728     329     9057   $0.0028\n------------------------------------------------------------------------------\nИТОГО                                143367   20235   163602   $0.0763\nПроекция на 10 статей/день × 30 дней (300 статей): ~49080K ток/мес, ~$22.9/мес\nНе учтено: 5-uniqueness (эмбеддинги, ~копейки), image_gen (fal.ai, не LLM).\nАртефакты: drafts/kak-postavit-i-zashhitit-trebovanie-v-reestr-kreditorov/  | quality_gate exit=0",
+    "stderr_tail": " line 643, in _raise_for_status\n    raise FalClientHTTPError(\nfal_client.client.FalClientHTTPError: User is locked. Reason: Exhausted balance. Top up your balance at fal.ai/dashboard/billing.\nfal.ai не вернул картинку, fallback на рандом из articles.json\nFallback-обложка для kak-postavit-i-zashhitit-trebovanie-v-reestr-kreditorov: https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1780619284/articles/vzyskanie-zadatka-v-dvojnom-razmere-cover.jpg (reason=fal_generate_failed)\n",
+    "tokens_by_model": {},
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 6279
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]
