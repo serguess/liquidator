@@ -19143,5 +19143,64 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-06-22T08:41:04",
+    "category": "yur",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 4,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "yur-113",
+    "topic_slug": "propiska-i-immigration-voprosy-pri-bankrotstve-yurlica-s-personalom",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "spam_soft_passed: ratio-флаги мягкие при iter=2, targeted_tokens чистые → пропускаем (spam ≈48-52% по прогнозу)"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "finalize_safety_net": {
+      "ran": true,
+      "rc": 1
+    },
+    "status": "ok",
+    "slug": "propiska-i-immigration-voprosy-pri-bankrotstve-yurlica-s-personalom",
+    "duration_sec": 193.5,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "1140   $0.0125\n7-publisher         gpt-5-mini         8727     535     9262   $0.0033\n------------------------------------------------------------------------------\nИТОГО                                145638   21881   167519   $0.0802\nПроекция на 10 статей/день × 30 дней (300 статей): ~50255K ток/мес, ~$24.1/мес\nНе учтено: 5-uniqueness (эмбеддинги, ~копейки), image_gen (fal.ai, не LLM).\nАртефакты: drafts/propiska-i-immigration-voprosy-pri-bankrotstve-yurlica-s-personalom/  | quality_gate exit=0",
+    "stderr_tail": "aise_for_status\n    raise FalClientHTTPError(\nfal_client.client.FalClientHTTPError: User is locked. Reason: Exhausted balance. Top up your balance at fal.ai/dashboard/billing.\nfal.ai не вернул картинку, fallback на рандом из articles.json\nFallback-обложка для propiska-i-immigration-voprosy-pri-bankrotstve-yurlica-s-personalom: https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1778781977/articles/mirovoe-soglashenie-bankrotstvo-fizlica-cover.jpg (reason=fal_generate_failed)\n",
+    "tokens_by_model": {},
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7764
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]
