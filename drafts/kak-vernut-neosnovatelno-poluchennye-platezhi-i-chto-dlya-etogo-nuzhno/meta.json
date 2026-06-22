@@ -1,0 +1,97 @@
+{
+  "slug": "kak-vernut-neosnovatelno-poluchennye-platezhi-i-chto-dlya-etogo-nuzhno",
+  "category": "vzysk",
+  "title": "Как вернуть неосновательное обогащение: пошагово",
+  "description": "Пошаговая инструкция: какие права есть у плательщика, как подготовить доказательства, куда обращаться - досудебно и через суд, образцы исков и сроки давности.",
+  "h1": "Как вернуть неосновательное обогащение: простой план действий для взыскания переплаты",
+  "lead": "Вы перевели лишние деньги и хотите их вернуть: в первом экране - краткий план действий, который чаще всего позволяет вернуть средства без суда.",
+  "topic_action": "взыскание неосновательного обогащения",
+  "breadcrumb_current": "Возврат переплаты",
+  "og_image": "/assets/articles/kak-vernut-neosnovatelno-poluchennye-platezhi-i-chto-dlya-etogo-nuzhno.jpg",
+  "main_keyword": "как вернуть неосновательное обогащение",
+  "secondary_keywords": [
+    "взыскание неосновательного обогащения",
+    "возврат переплаты поставщику",
+    "исковое заявление о взыскании переплаты",
+    "досудебная претензия возврат денег",
+    "срок исковой давности по неосновательному обогащению"
+  ],
+  "internal_links": [],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_5142/ (ГК РФ ст. 1102)",
+    "https://www.consultant.ru/document/cons_doc_LAW_34663/ (АПК РФ ст. 229.2)"
+  ],
+  "faq": [
+    {
+      "question": "До какого срока можно потребовать возврат ошибочного перечисления?",
+      "answer": "Иск предъявляют в течение трёх лет с момента, когда вы узнали или должны были узнать о перечислении. Это общий срок исковой давности по гражданским требованиям."
+    },
+    {
+      "question": "Обязательно ли направлять досудебную претензию перед подачей иска?",
+      "answer": "Не всегда обязательно, но досудебная претензия подтверждает попытку мирного урегулирования и часто ускоряет возврат. Включите в неё расчёт и копии платёжных документов."
+    },
+    {
+      "question": "Можно ли взыскать проценты за пользование чужими средствами?",
+      "answer": "Да, суд может взыскать проценты с даты перечисления до возврата, если вы заявите такое требование и приложите расчёт. Не указывайте фиксированную ставку без обоснования."
+    },
+    {
+      "question": "Когда подходит судебный приказ вместо обычного иска?",
+      "answer": "Судебный приказ в арбитраже удобен, если стороны - юридические лица и сумма до 500 000 руб.; процедура ускоренная, но требует чётких подтверждений и правильной подсудности."
+    },
+    {
+      "question": "Куда обращаться, если приставы ошибочно списали деньги по исполнительному листу?",
+      "answer": "Сначала подайте жалобу старшему приставу подразделения; если это не помогает - обращайтесь в суд. При ошибочном списании средства подлежат возврату по решению должностных лиц или суда."
+    },
+    {
+      "question": "Какие документы прикладывать к иску о возврате переплаты?",
+      "answer": "Минимум: платёжные поручения и банковские выписки, договоры или акты (если есть), претензия и ответы на неё, расчёт требуемой суммы. Все подтверждения оформите по датам и суммам."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Ключевые утверждения сверены с research.json: ст. 1102 ГК РФ (обязанность возврата), общий срок исковой давности - 3 года (ст. 196 ГК РФ), лимит для судебного приказа в арбитраже - до 500 000 руб. (ст. 229.2 АПК РФ), правила удержаний - до 50% после НДФЛ и до 70% по отдельным основаниям (ФЗ-229). Все указанные факты имеют last_verified 2026-06-22 и статус active.",
+    "В тексте избегаются гарантии результата и фиксированные ставки процентов; формулировки согласованы с safe_phrasing из research.json.",
+    "Требование о направлениях жалоб при ошибочном списании соответствует практическим рекомендациям в research.required_disclaimers и фактах по исполнительному производству."
+  ],
+  "keyword_density_main": 0.012,
+  "main_keyword_exact_count": 2,
+  "text_chars": 5963,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.126,
+  "local_spam_ngram3_repeat": 0.05,
+  "local_lexical_diversity": 0.612,
+  "local_ai_markers_density": 0.25,
+  "local_ai_markers_critical": 0,
+  "length_status": "too_short",
+  "length_kind": "default",
+  "local_ai_markers_total": 2,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 1,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "ready_for_review": true,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1778545939/articles/bankrotstvo-pri-poruchitelstve-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1778545939/articles/bankrotstvo-pri-poruchitelstve-cover.jpg",
+  "cover_uploaded_at": "2026-06-22T06:02:29Z",
+  "cover_fallback": true,
+  "cover_fallback_reason": "fal_generate_failed",
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 57,
+  "predicted_ai_pct": 6,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность выше 50% (~57%)",
+    "длина чуть меньше минимума 6000 (5 963 знаков)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "length_too_short: 5963 < 6000 (kind=default)",
+    "spam_risk: 1 флагов (top10_share>0.115 (=0.126)), top-5: ['претенз', 'сумм', 'документ', 'част', 'срок']",
+    "targeted_tokens_over_limit: руб_сокращение=3(>≤0), 000руб_паттерн=3(>≤2)",
+    "author_markers_missing: 1 < 2"
+  ]
+}
