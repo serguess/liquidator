@@ -3320,6 +3320,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "sud-prinjal-isk-o-bankrotstve-naftatrans-plus",
+      "category": "news",
+      "title": "Суд принял иск о банкротстве Нафтатранс плюс",
+      "added_at": "2026-06-22T07:42:46.356080",
+      "char_count": 6092,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779029058/articles/neispolnenie-resheniya-suda-posledstviya-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

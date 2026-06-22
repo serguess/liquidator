@@ -1,0 +1,107 @@
+{
+  "slug": "sud-prinjal-isk-o-bankrotstve-naftatrans-plus",
+  "category": "news",
+  "title": "Суд принял иск о банкротстве Нафтатранс плюс",
+  "description": "Арбитраж принял к производству иск о признании банкротом компании Нафтатранс плюс: кратко о причинах подачи и дальнейших этапах процесса для кредиторов и контрагентов.",
+  "h1": "Суд принял иск о банкротстве компании Нафтатранс плюс",
+  "lead": "Арбитраж открыл производство по делу о банкротстве - коротко объясняем, что меняется для кредиторов и контрагентов и какие первые шаги стоит сделать.",
+  "topic_action": "проверку списания долгов",
+  "breadcrumb_current": "Принятие иска о банкротстве",
+  "og_image": "/assets/articles/sud-prinjal-isk-o-bankrotstve-naftatrans-plus.jpg",
+  "main_keyword": "банкротство Нафтатранс плюс",
+  "secondary_keywords": [
+    "исковое заявление о банкротстве Нафтатранс плюс",
+    "арбитражное дело Нафтатранс плюс",
+    "принятие иска о банкротстве",
+    "реквизиты кредиторов Нафтатранс плюс",
+    "порядок процедур при банкротстве компании"
+  ],
+  "intent": "informational",
+  "funnel_stage": "cold",
+  "article_type": "B",
+  "offer": "proverka-spisaniya",
+  "internal_links": [
+    "/articles/yur/bankrotstvo-ooo-poshagovo-2026",
+    "/articles/vzysk/kak-otmenit-sudebnyj-prikaz",
+    "/articles/fiz/efrsb-kak-proverit-delo"
+  ],
+  "external_links": [
+    "https://bankrot.fedresurs.ru/",
+    "https://www.consultant.ru/document/cons_doc_LAW_127/"
+  ],
+  "faq": [
+    {
+      "question": "Что будет с исполнительными производствами против Нафтатранс плюс после открытия дела?",
+      "answer": "Как правило, исполнение приостанавливается и требования учитываются в деле о несостоятельности; дальнейшие выплаты определяет суд и управляющий, а детали публикуются в реестре."
+    },
+    {
+      "question": "Как кредитору проверить реквизиты дела и публикации о принятии иска?",
+      "answer": "Самый надёжный источник - карточка дела в ЕФРСБ (bankrot.fedresurs.ru). Там публикуют распоряжения управляющего и сроки для заявлений."
+    },
+    {
+      "question": "Какие первые документы нужно собрать, чтобы заявить требование в реестр?",
+      "answer": "Нужны договор, акт оказанных услуг или поставки, счёт и расчёт задолженности - всё, что подтверждает вашу претензию. Точные инструкции обычно публикует управляющий в карточке дела."
+    },
+    {
+      "question": "Оплачивает ли кто‑то работу управляющего - и кто вносит депозит?",
+      "answer": "В деле формируется депозит на оплату работы управляющего; в практике его размер часто около 25 000 рублей. Это не госпошлина, а обязательный платёж в процедуре банкротства."
+    },
+    {
+      "question": "Можно ли оспорить принятие иска или подать встречный иск?",
+      "answer": "Да, заинтересованная сторона вправе заявлять возражения и оспаривать процессуальные решения в порядке, установленном судом. Такие действия лучше обсуждать с юристом до подачи документов."
+    },
+    {
+      "question": "Сколько обычно занимает переход от наблюдения к конкурсному производству?",
+      "answer": "Сроки зависят от обстоятельств. В отдельных делах наблюдение может перейти в конкурсное производство за несколько месяцев, в других - процесс растягивается дольше; точный прогноз даёт суд по результатам проверок."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Проверены факты из research.json (f1-f6): все ключевые утверждения (открытие производства, публикации в ЕФРСБ, приостановление ИП, депозит управляющего ~25 000 руб., ориентир госпошлины для юрлица ~100 000 руб.) имеют last_verified 2026-06-22 и legislation_status: active.",
+    "Формулировки с конкретными суммами приведены с безопасной оговоркой как «в практике часто» или «ориентировочно», в соответствии с safe_phrasing в research.json.",
+    "Смешение режимов исполнительного производства и банкротства избегано: в тексте отдельно указано, что ФЗ-229 и 127-ФЗ регулируют разные процедуры."
+  ],
+  "keyword_density_main": null,
+  "main_keyword_exact_count": 1,
+  "text_chars": 6092,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.122,
+  "local_spam_ngram3_repeat": 0.045,
+  "local_lexical_diversity": 0.586,
+  "local_ai_markers_density": 0.62,
+  "local_ai_markers_critical": 0,
+  "length_status": "ok",
+  "length_kind": "news",
+  "local_ai_markers_total": 5,
+  "local_ai_markers_high": 2,
+  "local_own_voice_hits": 3,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 62,
+  "predicted_ai_pct": 5,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность заметно выше 50% (~62%)"
+  ],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779029058/articles/neispolnenie-resheniya-suda-posledstviya-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779029058/articles/neispolnenie-resheniya-suda-posledstviya-cover.jpg",
+  "cover_uploaded_at": "2026-06-22T04:42:44Z",
+  "cover_fallback": true,
+  "cover_fallback_reason": "fal_generate_failed",
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "spam_risk: 1 флагов (top10_share>0.115 (=0.122)), top-5: ['дела', 'процедур', 'производств', 'карточк', 'управляющег']",
+    "targeted_tokens_over_limit: 000руб_паттерн=3(>≤2)",
+    "too_few_short_sentences: 9 < 12"
+  ],
+  "date_published": "2026-06-22",
+  "date_modified": "2026-06-22",
+  "ready_for_review": true,
+  "ready_at": "2026-06-22T04:42:46Z",
+  "publication_target": "telegram_review"
+}

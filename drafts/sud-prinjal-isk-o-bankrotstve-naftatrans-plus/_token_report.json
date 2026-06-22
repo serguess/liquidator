@@ -1,0 +1,58 @@
+[
+  {
+    "prompt_tokens": 4858,
+    "completion_tokens": 681,
+    "total_tokens": 5539,
+    "seconds": 9.3,
+    "agent": "1-semantics",
+    "model": "gpt-5-mini"
+  },
+  {
+    "prompt_tokens": 15422,
+    "completion_tokens": 3653,
+    "total_tokens": 19075,
+    "seconds": 40.7,
+    "agent": "2-legal-research",
+    "model": "gpt-5-mini"
+  },
+  {
+    "prompt_tokens": 15821,
+    "completion_tokens": 4475,
+    "total_tokens": 20296,
+    "seconds": 52.3,
+    "agent": "3-architect",
+    "model": "gpt-5-mini"
+  },
+  {
+    "prompt_tokens": 34744,
+    "completion_tokens": 3230,
+    "total_tokens": 37974,
+    "seconds": 33.3,
+    "agent": "4-writer",
+    "model": "gpt-5-mini"
+  },
+  {
+    "prompt_tokens": 36522,
+    "completion_tokens": 1935,
+    "total_tokens": 38457,
+    "seconds": 22.3,
+    "agent": "4-writer(fix)",
+    "model": "gpt-5-mini"
+  },
+  {
+    "prompt_tokens": 15317,
+    "completion_tokens": 4044,
+    "total_tokens": 19361,
+    "seconds": 37.6,
+    "agent": "6-seo-editor",
+    "model": "gpt-5-mini"
+  },
+  {
+    "prompt_tokens": 8725,
+    "completion_tokens": 919,
+    "total_tokens": 9644,
+    "seconds": 8.4,
+    "agent": "7-publisher",
+    "model": "gpt-5-mini"
+  }
+]
