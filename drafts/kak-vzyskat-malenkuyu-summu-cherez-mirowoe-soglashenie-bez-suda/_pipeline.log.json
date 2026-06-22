@@ -1,0 +1,33 @@
+{
+  "slug": "kak-vzyskat-malenkuyu-summu-cherez-mirowoe-soglashenie-bez-suda",
+  "category": "vzysk",
+  "started_at": "2026-06-22T05:16:56",
+  "finished_at": null,
+  "total_duration_sec": null,
+  "current_iteration": 1,
+  "events": [
+    {
+      "ts": "2026-06-22T05:16:56",
+      "agent": "scheduler",
+      "event": "slot_started",
+      "iteration": 1,
+      "today_count": 2,
+      "limit": 10,
+      "write_article_duration_sec": 280.2
+    },
+    {
+      "ts": "2026-06-22T05:16:56",
+      "agent": "quality_gate",
+      "event": "passed",
+      "iteration": 1,
+      "blockers": [],
+      "warnings": [
+        "forced_pass_at_iter2: блокеры пропущены, статья идёт в TG-очередь с metrics_warning=true. Было: 2 блокеров — targeted_tokens_over_limit; author_markers_missing"
+      ],
+      "recommendations": [
+        "reduce_round_sums: «X 000 руб» × 3 → cap 2. Иллюстративные суммы — некруглые (82 400, 147 500). Статутные пороги (300 000, 500 000) — 1 раз в точной форме + дальше через дескриптор («эта планка», «новый минимум»).",
+        "add_author_markers: добавить минимум 1 вставок «по нашему опыту» / «в нашей практике» / «мы считаем» / «мы видим». Это главный anti-AI маркер — без него text.ru показывает AI 7-19%."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "kak-vzyskat-malenkuyu-summu-cherez-mirowoe-soglashenie-bez-suda",
+  "article_id": 313,
+  "scores": {
+    "structure_overlap": 0.0,
+    "thesis_similarity": 0.016,
+    "cta_overlap": 0.036
+  },
+  "thresholds": {
+    "structure_overlap": 0.4,
+    "thesis_similarity": 0.3,
+    "cta_overlap": 0.2
+  },
+  "passed": true,
+  "peers_compared": 49,
+  "closest_peer": "snyatie-aresta-s-imushchestva-cherez-sud",
+  "similar_articles": [],
+  "conflicts": [],
+  "recommendation": "ok",
+  "stored_in_db": true,
+  "note": "Вектор статьи записан в data/embeddings.sqlite (published=0). После публикации агент 7 переключит флаг на 1."
+}

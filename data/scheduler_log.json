@@ -18779,5 +18779,66 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-06-22T02:48:02",
+    "category": "yur",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 18,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "yur-112",
+    "topic_slug": "kak-oformit-mirovoe-soglashenie-pri-bankrotstve-yurlica",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "forced_pass_at_iter2: блокеры пропущены, статья идёт в TG-очередь с metrics_warning=true. Было: 1 блокеров — spam_risk"
+      ],
+      "recommendations": [
+        "reduce_repetition: разбавить топ-5 частотных лемм местоимениями/перифразом — ['реестр', 'участник', 'част', 'соглашен', 'требований']"
+      ],
+      "stderr_tail": ""
+    },
+    "finalize_safety_net": {
+      "ran": true,
+      "rc": 1
+    },
+    "status": "ok",
+    "slug": "kak-oformit-mirovoe-soglashenie-pri-bankrotstve-yurlica",
+    "duration_sec": 215.2,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "   3877    19322   $0.0116\n7-publisher         gpt-5-mini         8725     640     9365   $0.0035\n------------------------------------------------------------------------------\nИТОГО                                138007   19529   157536   $0.0736\nПроекция на 10 статей/день × 30 дней (300 статей): ~47260K ток/мес, ~$22.1/мес\nНе учтено: 5-uniqueness (эмбеддинги, ~копейки), image_gen (fal.ai, не LLM).\nАртефакты: drafts/kak-oformit-mirovoe-soglashenie-pri-bankrotstve-yurlica/  | quality_gate exit=0",
+    "stderr_tail": "_for_status\n    raise FalClientHTTPError(\nfal_client.client.FalClientHTTPError: User is locked. Reason: Exhausted balance. Top up your balance at fal.ai/dashboard/billing.\nfal.ai не вернул картинку, fallback на рандом из articles.json\nFallback-обложка для kak-oformit-mirovoe-soglashenie-pri-bankrotstve-yurlica: https://res.cloudinary.com/dmsaaiwkm/image/upload/c_fill,ar_191:100,g_center,f_auto,q_auto,w_1920/v1778425629/articles/kollektory-prava-i-zashchita-cover.jpg (reason=fal_generate_failed)\n",
+    "tokens_by_model": {},
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7330
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]
