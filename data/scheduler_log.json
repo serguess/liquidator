@@ -19021,5 +19021,66 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-06-22T08:33:53",
+    "category": "fiz",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 2,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "fiz-118",
+    "topic_slug": "preddogovornoe-bankrotstvo-i-pereustuplenie-trebovanij-chto-opasno",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "forced_pass_at_iter2: блокеры пропущены, статья идёт в TG-очередь с metrics_warning=true. Было: 1 блокеров — spam_risk"
+      ],
+      "recommendations": [
+        "reduce_repetition: разбавить топ-5 частотных лемм местоимениями/перифразом — ['передач', 'приобретател', 'прав', 'операц', 'риск']"
+      ],
+      "stderr_tail": ""
+    },
+    "finalize_safety_net": {
+      "ran": true,
+      "rc": 0
+    },
+    "status": "ok",
+    "slug": "preddogovornoe-bankrotstvo-i-pereustuplenie-trebovanij-chto-opasno",
+    "duration_sec": 188.6,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "20908   $0.0129\n7-publisher         gpt-5-mini         8729     778     9507   $0.0037\n------------------------------------------------------------------------------\nИТОГО                                143335   21300   164635   $0.0784\nПроекция на 10 статей/день × 30 дней (300 статей): ~49390K ток/мес, ~$23.5/мес\nНе учтено: 5-uniqueness (эмбеддинги, ~копейки), image_gen (fal.ai, не LLM).\nАртефакты: drafts/preddogovornoe-bankrotstvo-i-pereustuplenie-trebovanij-chto-opasno/  | quality_gate exit=0",
+    "stderr_tail": "tatus\n    raise FalClientHTTPError(\nfal_client.client.FalClientHTTPError: User is locked. Reason: Exhausted balance. Top up your balance at fal.ai/dashboard/billing.\nfal.ai не вернул картинку, fallback на рандом из articles.json\nFallback-обложка для preddogovornoe-bankrotstvo-i-pereustuplenie-trebovanij-chto-opasno: https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1780302007/articles/neustoyka-v-reestre-trebovanij-bankrotstvo-fizlica-cover.jpg (reason=fal_generate_failed)\n",
+    "tokens_by_model": {},
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7425
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]
