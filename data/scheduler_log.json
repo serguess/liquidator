@@ -19262,5 +19262,63 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-06-22T08:47:30",
+    "category": "yur",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 6,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "expanded_in_slot": true,
+    "topic_id": "yur-115",
+    "topic_slug": "bankrotstvo-docherney-kompanii-riski-i-pokrok",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "forced_pass_at_iter2: блокеры пропущены, статья идёт в TG-очередь с metrics_warning=true. Было: 1 блокеров — targeted_tokens_over_limit"
+      ],
+      "recommendations": [
+        "reduce_round_sums: «X 000 руб» × 3 → cap 2. Иллюстративные суммы — некруглые (82 400, 147 500). Статутные пороги (300 000, 500 000) — 1 раз в точной форме + дальше через дескриптор («эта планка», «новый минимум»)."
+      ],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "bankrotstvo-docherney-kompanii-riski-i-pokrok",
+    "duration_sec": 278.8,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "    16642    3795    20437   $0.0118\n7-publisher         gpt-5-mini         8727     473     9200   $0.0031\n------------------------------------------------------------------------------\nИТОГО                                105441   19107   124548   $0.0646\nПроекция на 10 статей/день × 30 дней (300 статей): ~37364K ток/мес, ~$19.4/мес\nНе учтено: 5-uniqueness (эмбеддинги, ~копейки), image_gen (fal.ai, не LLM).\nАртефакты: drafts/bankrotstvo-docherney-kompanii-riski-i-pokrok/  | quality_gate exit=0",
+    "stderr_tail": "ine 643, in _raise_for_status\n    raise FalClientHTTPError(\nfal_client.client.FalClientHTTPError: User is locked. Reason: Exhausted balance. Top up your balance at fal.ai/dashboard/billing.\nfal.ai не вернул картинку, fallback на рандом из articles.json\nFallback-обложка для bankrotstvo-docherney-kompanii-riski-i-pokrok: https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1780093814/articles/bankrotstvo-instrument-korporativnogo-konflikta-cover.jpg (reason=fal_generate_failed)\n",
+    "tokens_by_model": {},
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 6940
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]
