@@ -3346,6 +3346,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "riski-bankrotstva-ritejlera-desport",
+      "category": "news",
+      "title": "13 заявлений о банкротстве Desport: риски для кредиторов",
+      "added_at": "2026-06-23T01:03:44.585524",
+      "char_count": 7461,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1778520695/articles/cifrovoj-rubl-i-bankrotstvo-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
