@@ -3333,6 +3333,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "preddogovornoe-bankrotstvo-i-pereustuplenie-trebovanij-chto-opasno",
+      "category": "fiz",
+      "title": "Уступка требований перед банкротством: что опасно и как не ошибиться",
+      "added_at": "2026-06-22T08:37:01.859752",
+      "char_count": 7425,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1780302007/articles/neustoyka-v-reestre-trebovanij-bankrotstvo-fizlica-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
