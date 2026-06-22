@@ -18898,5 +18898,70 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-06-22T07:36:06",
+    "category": "news",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 20,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "news_sanitized": 3,
+    "expanded_in_slot": true,
+    "topic_id": "news-62",
+    "topic_slug": "sud-prinjal-isk-o-bankrotstve-naftatrans-plus",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "forced_pass_at_iter2: блокеры пропущены, статья идёт в TG-очередь с metrics_warning=true. Было: 3 блокеров — spam_risk; targeted_tokens_over_limit; too_few_short_sentences"
+      ],
+      "recommendations": [
+        "reduce_repetition: разбавить топ-5 частотных лемм местоимениями/перифразом — ['дела', 'процедур', 'производств', 'карточк', 'управляющег']",
+        "reduce_round_sums: «X 000 руб» × 3 → cap 2. Иллюстративные суммы — некруглые (82 400, 147 500). Статутные пороги (300 000, 500 000) — 1 раз в точной форме + дальше через дескриптор («эта планка», «новый минимум»).",
+        "add_short_sentences: добавить минимум 3 коротких предложений (≤5 слов). Главный anti-AI маркер: «Главное.», «Защита не включается.», «6 месяцев, иногда 8.». Разбивать длинные предложения на 2-3 коротких."
+      ],
+      "stderr_tail": ""
+    },
+    "finalize_safety_net": {
+      "ran": true,
+      "rc": 0
+    },
+    "status": "ok",
+    "slug": "sud-prinjal-isk-o-bankrotstve-naftatrans-plus",
+    "duration_sec": 399.7,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "    15317    4044    19361   $0.0119\n7-publisher         gpt-5-mini         8725     919     9644   $0.0040\n------------------------------------------------------------------------------\nИТОГО                                131409   18937   150346   $0.0707\nПроекция на 10 статей/день × 30 дней (300 статей): ~45103K ток/мес, ~$21.2/мес\nНе учтено: 5-uniqueness (эмбеддинги, ~копейки), image_gen (fal.ai, не LLM).\nАртефакты: drafts/sud-prinjal-isk-o-bankrotstve-naftatrans-plus/  | quality_gate exit=0",
+    "stderr_tail": ".py\", line 643, in _raise_for_status\n    raise FalClientHTTPError(\nfal_client.client.FalClientHTTPError: User is locked. Reason: Exhausted balance. Top up your balance at fal.ai/dashboard/billing.\nfal.ai не вернул картинку, fallback на рандом из articles.json\nFallback-обложка для sud-prinjal-isk-o-bankrotstve-naftatrans-plus: https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779029058/articles/neispolnenie-resheniya-suda-posledstviya-cover.jpg (reason=fal_generate_failed)\n",
+    "tokens_by_model": {},
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 6092
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]
