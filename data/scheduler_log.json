@@ -19874,5 +19874,79 @@
       }
     },
     "metrics": null
+  },
+  {
+    "timestamp": "2026-06-23T17:12:15",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets 7:40pm (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-23T19:36:10",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets 7:40pm (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-23T22:00:37",
+    "category": "yur",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 1,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "yur-119",
+    "topic_slug": "realizaciya-imushchestva-yurlica-prodat-cherez-torgi",
+    "status": "failed",
+    "slug": "realizaciya-imushchestva-yurlica-prodat-cherez-torgi",
+    "duration_sec": 1999.7,
+    "returncode": 1,
+    "rescued_after_failure": false,
+    "stdout_tail": "You've hit your limit · resets 3am (Europe/Moscow)",
+    "stderr_tail": "",
+    "tokens_by_model": {
+      "sonnet": {
+        "input_tokens": 1820,
+        "output_tokens": 1149,
+        "cache_creation_input_tokens": 370500,
+        "cache_read_input_tokens": 1805202,
+        "messages": 67
+      },
+      "opus": {
+        "input_tokens": 64,
+        "output_tokens": 479,
+        "cache_creation_input_tokens": 230951,
+        "cache_read_input_tokens": 2450189,
+        "messages": 34
+      },
+      "haiku": {
+        "input_tokens": 9,
+        "output_tokens": 8,
+        "cache_creation_input_tokens": 11756,
+        "cache_read_input_tokens": 7986,
+        "messages": 2
+      },
+      "<synthetic>": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "messages": 1
+      }
+    },
+    "metrics": null
   }
 ]
