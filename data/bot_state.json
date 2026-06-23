@@ -6715,20 +6715,24 @@
     "riski-bankrotstva-ritejlera-desport": {
       "category": "news",
       "title": "13 заявлений о банкротстве Desport: риски для кредиторов",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 1630,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-06-23T01:04:11",
-      "last_action_at": "2026-06-23T01:04:11",
+      "last_action_at": "2026-06-23T12:20:58",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-06-23T01:04:11"
+      "published_url": "https://pravo.shop/articles/news/riski-bankrotstva-ritejlera-desport",
+      "pending_batch": false,
+      "pending_batch_at": "2026-06-23T01:04:11",
+      "batch_sent_at": "2026-06-23T10:00:48",
+      "batch_fail_count": 0,
+      "published_at": "2026-06-23T12:20:58",
+      "articles_path": "articles/news/riski-bankrotstva-ritejlera-desport.html"
     },
     "bankrotstvo-samozanyatogo-s-nesovmeshchaniem-i-dolgami": {
       "category": "fiz",
@@ -6738,19 +6742,21 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 1632,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-06-23T08:15:47",
-      "last_action_at": "2026-06-23T08:15:47",
+      "last_action_at": "2026-06-23T10:00:50",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-06-23T08:15:47"
+      "pending_batch": false,
+      "pending_batch_at": "2026-06-23T08:15:47",
+      "batch_sent_at": "2026-06-23T10:00:50",
+      "batch_fail_count": 0
     }
   },
   "pending_actions": [],
-  "last_batch_date": "2026-06-22",
-  "last_batch_count": 11,
-  "last_batch_at": "2026-06-22T10:00:29"
+  "last_batch_date": "2026-06-23",
+  "last_batch_count": 2,
+  "last_batch_at": "2026-06-23T10:00:50"
 }
