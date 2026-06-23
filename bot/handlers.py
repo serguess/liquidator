@@ -216,7 +216,7 @@ async def on_voice_edit(message: Message, fsm: FSMContext):
     await _process_edit(message, fsm, edit_text=text)
 
 
-@router.message(EditFlow.waiting_for_edit_text, F.text)
+@router.message(EditFlow.waiting_for_edit_text, F.text & ~F.text.startswith("/"))
 async def on_text_edit(message: Message, fsm: FSMContext):
     if not _is_allowed(message):
         return
@@ -692,7 +692,7 @@ async def _run_edit_when_scheduler_free(
         await bot.session.close()
 
 
-@router.message(F.text, F.reply_to_message)
+@router.message(F.text, F.reply_to_message, ~F.text.startswith("/"))
 async def on_text_reply_fallback(message: Message, fsm: FSMContext):
     """Если FSM пуст (был редеплой), но юзер ответил reply'ем на наш prompt
     с маркером — восстанавливаем slug из текста parent message."""
@@ -841,10 +841,11 @@ def _format_plan(counts: dict, total: int) -> str:
 
 
 @router.message(Command("plan"))
-async def on_plan(message: Message):
+async def on_plan(message: Message, fsm: FSMContext):
     if not _is_allowed(message):
         await message.answer(messages.access_denied(), parse_mode="HTML")
         return
+    await fsm.clear()
     env = _read_env_raw()
     rotation = [c.strip() for c in env.get("ROTATION_ORDER", "").split(",") if c.strip()]
     counts = {c: rotation.count(c) for c, _ in _PLAN_CATS}
@@ -858,10 +859,11 @@ async def on_plan(message: Message):
 
 
 @router.message(Command("setplan"))
-async def on_setplan(message: Message):
+async def on_setplan(message: Message, fsm: FSMContext):
     if not _is_allowed(message):
         await message.answer(messages.access_denied(), parse_mode="HTML")
         return
+    await fsm.clear()
     args = (message.text or "").split()[1:]
     usage = (
         "❌ Формат: <code>/setplan физ юр взыск новости</code>\n"
