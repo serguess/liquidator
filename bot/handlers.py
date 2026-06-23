@@ -774,3 +774,139 @@ async def on_voice_reply_fallback(message: Message, fsm: FSMContext):
         return
     await message.answer(messages.voice_transcribed(text), parse_mode="HTML")
     await _run_edit(message, slug=slug, review=review, edit_text=text)
+
+
+# ============ Управление планом публикаций (количество и ротация по типам) ============
+# Заказчик меняет план прямо в боте:
+#   /plan                     - показать текущий план
+#   /setplan физ юр взыск новости   - задать, напр. /setplan 3 3 3 1
+# Меняет ARTICLES_PER_DAY и ROTATION_ORDER в .env. Scheduler читает .env каждый
+# слот (systemd EnvironmentFile), поэтому перезапуск НЕ нужен.
+_PLAN_CATS = [("fiz", "физ"), ("yur", "юр"), ("vzysk", "взыск"), ("news", "новости")]
+_PLAN_MAX_TOTAL = 10  # столько слотов генерации в сутки
+
+
+def _env_path() -> Path:
+    return Path(__file__).resolve().parents[1] / ".env"
+
+
+def _read_env_raw() -> dict:
+    data: dict[str, str] = {}
+    p = _env_path()
+    if p.exists():
+        for line in p.read_text(encoding="utf-8").splitlines():
+            m = re.match(r"^([A-Z_][A-Z0-9_]*)=(.*)$", line)
+            if m:
+                data[m.group(1)] = m.group(2)
+    return data
+
+
+def _write_env(updates: dict) -> None:
+    """Атомарно обновляет/добавляет ключи в .env, остальные строки сохраняет."""
+    p = _env_path()
+    lines = p.read_text(encoding="utf-8").splitlines() if p.exists() else []
+    seen = set()
+    out = []
+    for line in lines:
+        m = re.match(r"^([A-Z_][A-Z0-9_]*)=", line)
+        if m and m.group(1) in updates:
+            out.append(f"{m.group(1)}={updates[m.group(1)]}")
+            seen.add(m.group(1))
+        else:
+            out.append(line)
+    for k, v in updates.items():
+        if k not in seen:
+            out.append(f"{k}={v}")
+    tmp = p.parent / ".env.tmp"
+    tmp.write_text("\n".join(out) + "\n", encoding="utf-8")
+    tmp.replace(p)
+
+
+def _build_rotation(counts: dict) -> list:
+    """Round-robin: типы чередуются (новость не уходит в самый конец дня)."""
+    pools = dict(counts)
+    cats = [c for c, _ in _PLAN_CATS]
+    order = []
+    while any(pools.get(c, 0) > 0 for c in cats):
+        for c in cats:
+            if pools.get(c, 0) > 0:
+                order.append(c)
+                pools[c] -= 1
+    return order
+
+
+def _format_plan(counts: dict, total: int) -> str:
+    parts = [f"   • {category_label(c)}: <b>{counts.get(c, 0)}</b>" for c, _ in _PLAN_CATS]
+    return f"📊 <b>План публикаций: {total} статей/день</b>\n" + "\n".join(parts)
+
+
+@router.message(Command("plan"))
+async def on_plan(message: Message):
+    if not _is_allowed(message):
+        await message.answer(messages.access_denied(), parse_mode="HTML")
+        return
+    env = _read_env_raw()
+    rotation = [c.strip() for c in env.get("ROTATION_ORDER", "").split(",") if c.strip()]
+    counts = {c: rotation.count(c) for c, _ in _PLAN_CATS}
+    total = sum(counts.values())
+    await message.answer(
+        _format_plan(counts, total)
+        + "\n\nИзменить: <code>/setplan физ юр взыск новости</code>\n"
+        "Например: <code>/setplan 3 3 3 1</code>",
+        parse_mode="HTML",
+    )
+
+
+@router.message(Command("setplan"))
+async def on_setplan(message: Message):
+    if not _is_allowed(message):
+        await message.answer(messages.access_denied(), parse_mode="HTML")
+        return
+    args = (message.text or "").split()[1:]
+    usage = (
+        "❌ Формат: <code>/setplan физ юр взыск новости</code>\n"
+        "Например: <code>/setplan 3 3 3 1</code> — 3 физ, 3 юр, 3 взыск, 1 новость в день."
+    )
+    if len(args) != 4:
+        await message.answer(usage, parse_mode="HTML")
+        return
+    try:
+        nums = [int(x) for x in args]
+    except ValueError:
+        await message.answer(usage, parse_mode="HTML")
+        return
+    if any(n < 0 for n in nums):
+        await message.answer("❌ Числа не могут быть отрицательными.", parse_mode="HTML")
+        return
+    counts = {c: nums[i] for i, (c, _) in enumerate(_PLAN_CATS)}
+    total = sum(nums)
+    if total < 1:
+        await message.answer("❌ Нужна хотя бы 1 статья в день.", parse_mode="HTML")
+        return
+    if total > _PLAN_MAX_TOTAL:
+        await message.answer(
+            f"❌ Максимум {_PLAN_MAX_TOTAL} статей в день (столько слотов генерации). "
+            f"Вы запросили {total}.",
+            parse_mode="HTML",
+        )
+        return
+    rotation = _build_rotation(counts)
+    try:
+        _write_env({"ARTICLES_PER_DAY": str(total), "ROTATION_ORDER": ",".join(rotation)})
+    except Exception as exc:  # noqa: BLE001
+        log.exception("setplan: ошибка записи .env")
+        await message.answer(f"❌ Не удалось сохранить: {exc}", parse_mode="HTML")
+        return
+    log.info("setplan: %s by user=%s", counts,
+             message.from_user.id if message.from_user else "?")
+    warn = ""
+    if counts.get("news", 0) > 1:
+        warn = ("\n\n⚠️ Новостей больше 1/день: проверяемых свежих новостей в пуле "
+                "мало, в отдельные дни новостных статей может выйти меньше.")
+    await message.answer(
+        "✅ План обновлён.\n\n"
+        + _format_plan(counts, total)
+        + "\n\nПрименится со следующего слота генерации (перезапуск не нужен)."
+        + warn,
+        parse_mode="HTML",
+    )
