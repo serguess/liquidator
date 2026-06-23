@@ -3397,7 +3397,11 @@
       "rationale": "Высокий поисковый спрос у должников с долгами по распискам; статья отвечает на практические вопросы о доказательствах и ведёт к услуге проверки шансов на списание.",
       "expected_length_chars": 7000,
       "client_notes": "",
-      "topic_action": "оценить расписку и шансы включения требования в реестр"
+      "topic_action": "оценить расписку и шансы включения требования в реестр",
+      "status": "rejected",
+      "rejected_at": "2026-06-23T08:30:20",
+      "rejected_reason": "cannibalization:preflight:bankrotstvo-pri-dolgah-po-raspiskam-i-neformalnym-zaymam",
+      "rejected_by": "auto_skip_in_slot"
     },
     {
       "id": "fiz-122",
