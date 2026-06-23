@@ -3359,6 +3359,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "bankrotstvo-samozanyatogo-s-nesovmeshchaniem-i-dolgami",
+      "category": "fiz",
+      "title": "Банкротство самозанятого при частичной занятости",
+      "added_at": "2026-06-23T08:15:15.880584",
+      "char_count": 7818,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1778798242/articles/vneshnee-upravlenie-pri-bankrotstve-yurlica-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": false,
+        "hard_failed": false
+      }
     }
   ]
 }
