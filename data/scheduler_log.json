@@ -19740,5 +19740,139 @@
       }
     },
     "metrics": null
+  },
+  {
+    "timestamp": "2026-06-23T08:30:49",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets 12:30pm (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-23T08:30:51",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets 12:30pm (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-23T08:30:57",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets 12:30pm (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-23T08:30:59",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets 12:30pm (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-23T08:31:01",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets 12:30pm (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-23T08:31:03",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets 12:30pm (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-23T08:31:05",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets 12:30pm (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-23T08:31:07",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets 12:30pm (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-23T08:31:09",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets 12:30pm (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-23T08:31:11",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets 12:30pm (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-23T08:31:13",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets 12:30pm (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-23T08:31:15",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets 12:30pm (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-23T10:00:24",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets 12:30pm (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-23T12:24:08",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets 12:30pm (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-23T14:48:31",
+    "category": "yur",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 3,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "yur-118",
+    "topic_slug": "otvetstvennost-uchreditelya-pri-bankrotstve-kollegii",
+    "auto_skipped": [
+      {
+        "slug": "bankrotstvo-postavshchika-praktika-opasnye-sdelki",
+        "reason": "cannibalization:preflight:postavshchik-pri-bankrotstve-pokupatelya",
+        "duration_sec": 0
+      }
+    ],
+    "status": "failed",
+    "slug": "otvetstvennost-uchreditelya-pri-bankrotstve-kollegii",
+    "duration_sec": 1807.7,
+    "returncode": 1,
+    "rescued_after_failure": false,
+    "stdout_tail": "You've hit your limit · resets 7:40pm (Europe/Moscow)",
+    "stderr_tail": "",
+    "tokens_by_model": {
+      "sonnet": {
+        "input_tokens": 5379,
+        "output_tokens": 1825,
+        "cache_creation_input_tokens": 624058,
+        "cache_read_input_tokens": 4410910,
+        "messages": 100
+      },
+      "haiku": {
+        "input_tokens": 6,
+        "output_tokens": 8,
+        "cache_creation_input_tokens": 16046,
+        "cache_read_input_tokens": 0,
+        "messages": 2
+      },
+      "<synthetic>": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "messages": 1
+      }
+    },
+    "metrics": null
   }
 ]
