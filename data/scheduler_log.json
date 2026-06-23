@@ -19600,5 +19600,145 @@
     "timestamp": "2026-06-23T05:12:11",
     "status": "preflight_failed",
     "reason": "rate_limit: You've hit your limit · resets 5:20am (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-23T07:36:28",
+    "category": "fiz",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Created autostash: da186ff\nCurrent branch main is up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\nApplied autostash.\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 12,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "fiz-120",
+    "topic_slug": "bankrotstvo-samozanyatogo-s-nesovmeshchaniem-i-dolgami",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "Автофикс применил правки: сокращения=1, пунктуация=0",
+        "internal_links_autofixed: 7 ссылок (например /articles/fiz/bankrotstvo-i-zarabotnaya-plata-chto-mogut-derzhat-pristavy.html→/articles/fiz/bankrotstvo-i-zarabotnaya-plata-chto-mogut-derzhat-pristavy; /articles/fiz/dohody-vo-vremya-bankrotstva-fizlica.html→/articles/fiz/dohody-vo-vremya-bankrotstva-fizlica; /articles/fiz/vnesudebnoe-bankrotstvo-cherez-mfc-2026.html→/articles/fiz/vnesudebnoe-bankrotstvo-cherez-mfc-2026)",
+        "forced_pass_at_iter2: блокеры пропущены, статья идёт в TG-очередь с metrics_warning=true. Было: 1 блокеров — spam_risk"
+      ],
+      "recommendations": [
+        "reduce_repetition: разбавить топ-5 частотных лемм местоимениями/перифразом — ['доход', 'банкротств', 'сумм', 'рубл', 'источник']"
+      ],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "bankrotstvo-samozanyatogo-s-nesovmeshchaniem-i-dolgami",
+    "duration_sec": 2346.9,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "ew=true) |\n| **Обложка** | fallback (fal.ai баланс исчерпан) |\n| **Файл** | `drafts/bankrotstvo-samozanyatogo-s-nesovmeshchaniem-i-dolgami/article.html` |\n\n**Внимание:** fal.ai вернул 403 «Exhausted balance» — обложка взята как fallback из существующих статей. Пополните баланс на fal.ai/dashboard/billing для генерации новых обложек.\n\nSpam_risk остался мягким блокером (exit=0, hard_failed=false по логике May 8, 2026). Статья в очереди ревью — решение о публикации за заказчиком через Telegram-бот.",
+    "stderr_tail": "",
+    "tokens_by_model": {
+      "sonnet": {
+        "input_tokens": 840,
+        "output_tokens": 2041,
+        "cache_creation_input_tokens": 591714,
+        "cache_read_input_tokens": 4838664,
+        "messages": 120
+      },
+      "haiku": {
+        "input_tokens": 327,
+        "output_tokens": 92,
+        "cache_creation_input_tokens": 85876,
+        "cache_read_input_tokens": 159414,
+        "messages": 17
+      },
+      "opus": {
+        "input_tokens": 29,
+        "output_tokens": 272,
+        "cache_creation_input_tokens": 90103,
+        "cache_read_input_tokens": 442932,
+        "messages": 14
+      }
+    },
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7818
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
+  },
+  {
+    "timestamp": "2026-06-23T08:30:10",
+    "category": "fiz",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Created autostash: e364eb1\nCurrent branch main is up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\nApplied autostash.\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 14,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "fiz-122",
+    "topic_slug": "bankrotstvo-posle-prodazhi-doli-v-ooo-i-otvety-na-riski",
+    "auto_skipped": [
+      {
+        "slug": "bankrotstvo-pri-raspiske-i-neformalnyh-zajmah-bez-dokazatelstv",
+        "reason": "cannibalization:preflight:bankrotstvo-pri-dolgah-po-raspiskam-i-neformalnym-zaymam",
+        "duration_sec": 0
+      }
+    ],
+    "slug_mismatch": true,
+    "expected_slug": "bankrotstvo-posle-prodazhi-doli-v-ooo-i-otvety-na-riski",
+    "status": "failed",
+    "slug": null,
+    "duration_sec": 37.2,
+    "returncode": 1,
+    "rescued_after_failure": false,
+    "stdout_tail": "You've hit your limit · resets 12:30pm (Europe/Moscow)",
+    "stderr_tail": "",
+    "tokens_by_model": {
+      "sonnet": {
+        "input_tokens": 13,
+        "output_tokens": 79,
+        "cache_creation_input_tokens": 70274,
+        "cache_read_input_tokens": 64221,
+        "messages": 6
+      },
+      "<synthetic>": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "messages": 1
+      }
+    },
+    "metrics": null
   }
 ]

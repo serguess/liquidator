@@ -6491,10 +6491,266 @@
       "pending_batch_at": "2026-06-21T08:59:40",
       "batch_sent_at": "2026-06-21T10:00:59",
       "batch_fail_count": 0
+    },
+    "bankrotstvo-pri-dolgah-pered-nezavisimymi-investorami-i-pe": {
+      "category": "fiz",
+      "title": "Банкротство при долгах перед частными инвесторами и PE",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 1602,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-06-22T00:28:47",
+      "last_action_at": "2026-06-22T10:00:07",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-06-22T00:28:48",
+      "batch_sent_at": "2026-06-22T10:00:07",
+      "batch_fail_count": 0
+    },
+    "kak-vzyskat-malenkuyu-summu-cherez-mirowoe-soglashenie-bez-suda": {
+      "category": "vzysk",
+      "title": "Как взыскать небольшую сумму через мировое соглашение",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 1604,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-06-22T05:17:08",
+      "last_action_at": "2026-06-22T10:00:10",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-06-22T05:17:08",
+      "batch_sent_at": "2026-06-22T10:00:10",
+      "batch_fail_count": 0
+    },
+    "sud-prinjal-isk-o-bankrotstve-naftatrans-plus": {
+      "category": "news",
+      "title": "Суд принял иск о банкротстве Нафтатранс плюс",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 1606,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-06-22T07:43:09",
+      "last_action_at": "2026-06-22T10:00:12",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-06-22T07:43:09",
+      "batch_sent_at": "2026-06-22T10:00:12",
+      "batch_fail_count": 0
+    },
+    "bankrotstvo-i-uchastie-v-ipo-i-brokerskie-scheta": {
+      "category": "fiz",
+      "title": "Банкротство и брокерские счета: ценные бумаги физлица",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 1608,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-06-22T08:34:09",
+      "last_action_at": "2026-06-22T10:00:14",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-06-22T08:34:09",
+      "batch_sent_at": "2026-06-22T10:00:14",
+      "batch_fail_count": 0
+    },
+    "preddogovornoe-bankrotstvo-i-pereustuplenie-trebovanij-chto-opasno": {
+      "category": "fiz",
+      "title": "Уступка требований перед банкротством: что опасно и как не ошибиться",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 1610,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-06-22T08:37:09",
+      "last_action_at": "2026-06-22T10:00:16",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-06-22T08:37:09",
+      "batch_sent_at": "2026-06-22T10:00:16",
+      "batch_fail_count": 0
+    },
+    "bankrotstvo-cherez-mirovoe-soglashenie-bez-zaloga": {
+      "category": "fiz",
+      "title": "Банкротство через мировое соглашение без залога: план действий",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 1612,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-06-22T08:41:09",
+      "last_action_at": "2026-06-22T10:00:18",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-06-22T08:41:09",
+      "batch_sent_at": "2026-06-22T10:00:18",
+      "batch_fail_count": 0
+    },
+    "kak-postavit-i-zashhitit-trebovanie-v-reestr-kreditorov": {
+      "category": "yur",
+      "title": "Как поставить и защитить требование в реестре кредиторов юрлица",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 1614,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-06-22T08:48:09",
+      "last_action_at": "2026-06-22T10:00:21",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-06-22T08:48:09",
+      "batch_sent_at": "2026-06-22T10:00:21",
+      "batch_fail_count": 0
+    },
+    "bankrotstvo-docherney-kompanii-riski-i-pokrok": {
+      "category": "yur",
+      "title": "Банкротство дочерней компании: риски и пошагово",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 1616,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-06-22T08:53:09",
+      "last_action_at": "2026-06-22T10:00:23",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-06-22T08:53:09",
+      "batch_sent_at": "2026-06-22T10:00:23",
+      "batch_fail_count": 0
+    },
+    "kak-podgotovit-ooo-k-bankrotstvu-protsedury-i-dok": {
+      "category": "yur",
+      "title": "Как подготовить ООО к банкротству: чек‑лист процедур и документов",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 1618,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-06-22T08:58:09",
+      "last_action_at": "2026-06-22T10:00:25",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-06-22T08:58:10",
+      "batch_sent_at": "2026-06-22T10:00:25",
+      "batch_fail_count": 0
+    },
+    "kak-vernut-neosnovatelno-poluchennye-platezhi-i-chto-dlya-etogo-nuzhno": {
+      "category": "vzysk",
+      "title": "Как вернуть неосновательное обогащение: пошагово",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 1620,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-06-22T09:03:10",
+      "last_action_at": "2026-06-22T10:00:27",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-06-22T09:03:10",
+      "batch_sent_at": "2026-06-22T10:00:27",
+      "batch_fail_count": 0
+    },
+    "kak-organizovat-vzyskanie-ubytkov-s-rabotnika-cherez-trudovoj-sud-i-grazhdanskuju": {
+      "category": "vzysk",
+      "title": "Как взыскать убытки с работника: трудовой и гражданский порядок",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 1622,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-06-22T09:08:10",
+      "last_action_at": "2026-06-22T10:00:29",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-06-22T09:08:10",
+      "batch_sent_at": "2026-06-22T10:00:29",
+      "batch_fail_count": 0
+    },
+    "riski-bankrotstva-ritejlera-desport": {
+      "category": "news",
+      "title": "13 заявлений о банкротстве Desport: риски для кредиторов",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-06-23T01:04:11",
+      "last_action_at": "2026-06-23T01:04:11",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-06-23T01:04:11"
+    },
+    "bankrotstvo-samozanyatogo-s-nesovmeshchaniem-i-dolgami": {
+      "category": "fiz",
+      "title": "Банкротство самозанятого при частичной занятости",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-06-23T08:15:47",
+      "last_action_at": "2026-06-23T08:15:47",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-06-23T08:15:47"
     }
   },
   "pending_actions": [],
-  "last_batch_date": "2026-06-21",
+  "last_batch_date": "2026-06-22",
   "last_batch_count": 11,
-  "last_batch_at": "2026-06-21T10:00:59"
+  "last_batch_at": "2026-06-22T10:00:29"
 }
