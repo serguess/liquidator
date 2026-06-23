@@ -3247,7 +3247,11 @@
       "rationale": "Клиенты бизнеса ищут инструкции по защите денежных средств и претензий при банкротстве контрагентов: статья переводит в консультацию и заказ услуги по возврату средств.",
       "expected_length_chars": 7000,
       "client_notes": "",
-      "topic_action": "защита покупателя при банкротстве поставщика"
+      "topic_action": "защита покупателя при банкротстве поставщика",
+      "status": "rejected",
+      "rejected_at": "2026-06-23T14:48:41",
+      "rejected_reason": "cannibalization:preflight:postavshchik-pri-bankrotstve-pokupatelya",
+      "rejected_by": "auto_skip_in_slot"
     },
     {
       "id": "yur-118",
