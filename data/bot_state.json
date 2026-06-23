@@ -6737,7 +6737,7 @@
     "bankrotstvo-samozanyatogo-s-nesovmeshchaniem-i-dolgami": {
       "category": "fiz",
       "title": "Банкротство самозанятого при частичной занятости",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -6745,14 +6745,16 @@
       "tg_message_id": 1632,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-06-23T08:15:47",
-      "last_action_at": "2026-06-23T10:00:50",
+      "last_action_at": "2026-06-23T12:23:06",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/fiz/bankrotstvo-samozanyatogo-s-nesovmeshchaniem-i-dolgami",
       "pending_batch": false,
       "pending_batch_at": "2026-06-23T08:15:47",
       "batch_sent_at": "2026-06-23T10:00:50",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-06-23T12:23:06",
+      "articles_path": "articles/fiz/bankrotstvo-samozanyatogo-s-nesovmeshchaniem-i-dolgami.html"
     }
   },
   "pending_actions": [],

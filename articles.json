@@ -2,6 +2,19 @@
   "generated": "2026-06-23",
   "articles": [
     {
+      "slug": "bankrotstvo-samozanyatogo-s-nesovmeshchaniem-i-dolgami",
+      "cat": "fiz",
+      "catLabel": "Банкротство физических лиц",
+      "title": "Банкротство самозанятого при частичной занятости",
+      "desc": "Как самозанятому, который ещё и работает по трудовому договору, списать долги через банкротство. Что войдёт в конкурсную массу, как защитить зарплату и статус НПД.",
+      "date": "23 июня 2026",
+      "dateIso": "2026-06-23",
+      "read": "5 мин.",
+      "tone": "b",
+      "img": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1778798242/articles/vneshnee-upravlenie-pri-bankrotstve-yurlica-cover.jpg",
+      "url": "articles/fiz/bankrotstvo-samozanyatogo-s-nesovmeshchaniem-i-dolgami"
+    },
+    {
       "slug": "riski-bankrotstva-ritejlera-desport",
       "cat": "news",
       "catLabel": "Новости",
