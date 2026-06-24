@@ -783,11 +783,61 @@ async def on_voice_reply_fallback(message: Message, fsm: FSMContext):
 # Меняет ARTICLES_PER_DAY и ROTATION_ORDER в .env. Scheduler читает .env каждый
 # слот (systemd EnvironmentFile), поэтому перезапуск НЕ нужен.
 _PLAN_CATS = [("fiz", "физ"), ("yur", "юр"), ("vzysk", "взыск"), ("news", "новости")]
-_PLAN_MAX_TOTAL = 10  # столько слотов генерации в сутки
+_PLAN_MAX_TOTAL = 12  # максимум слотов в сутки (потолок /setplan)
+_TIMER_PATH = "/etc/systemd/system/liquidator-scheduler.timer"
+_TIMER_BASE_MINUTE = 24  # первый слот в 00:24 (как исторически)
 
 
 def _env_path() -> Path:
     return Path(__file__).resolve().parents[1] / ".env"
+
+
+def _generate_timer_points(n: int) -> list[str]:
+    """N равномерных OnCalendar-точек в сутках, старт 00:24."""
+    points = []
+    for i in range(n):
+        total_min = (_TIMER_BASE_MINUTE + round(i * 1440 / n)) % 1440
+        points.append(f"{total_min // 60:02d}:{total_min % 60:02d}:00")
+    return sorted(points)
+
+
+def _update_systemd_timer(n: int) -> tuple[bool, str]:
+    """Перезаписывает systemd timer с N равномерными точками и делает daemon-reload.
+
+    Использует `sudo tee` (appuser имеет passwordless sudo для systemctl).
+    Возвращает (ok, detail) — detail = список точек или текст ошибки.
+    """
+    import subprocess as _sp
+    points = _generate_timer_points(n)
+    interval_min = round(1440 / n)
+    content = "\n".join([
+        "[Unit]",
+        f"Description=Run Liquidator scheduler every {interval_min} min ({n} triggers/day)",
+        "",
+        "[Timer]",
+        *[f"OnCalendar=*-*-* {p}" for p in points],
+        "Persistent=false",
+        "",
+        "[Install]",
+        "WantedBy=timers.target",
+        "",
+    ])
+    try:
+        r = _sp.run(["sudo", "tee", _TIMER_PATH],
+                    input=content, capture_output=True, text=True, timeout=10)
+        if r.returncode != 0:
+            return False, f"tee: {r.stderr.strip()[:200]}"
+        r2 = _sp.run(["sudo", "systemctl", "daemon-reload"],
+                     capture_output=True, text=True, timeout=15)
+        if r2.returncode != 0:
+            return False, f"daemon-reload: {r2.stderr.strip()[:200]}"
+        r3 = _sp.run(["sudo", "systemctl", "restart", "liquidator-scheduler.timer"],
+                     capture_output=True, text=True, timeout=15)
+        if r3.returncode != 0:
+            return False, f"restart timer: {r3.stderr.strip()[:200]}"
+        return True, ", ".join(points)
+    except Exception as e:  # noqa: BLE001
+        return False, str(e)
 
 
 def _read_env_raw() -> dict:
@@ -899,6 +949,18 @@ async def on_setplan(message: Message, fsm: FSMContext):
         log.exception("setplan: ошибка записи .env")
         await message.answer(f"❌ Не удалось сохранить: {exc}", parse_mode="HTML")
         return
+
+    # Пересоздаём systemd timer: N равномерных точек в сутках (интервал = 24h/N).
+    timer_ok, timer_detail = _update_systemd_timer(total)
+    interval_min = round(1440 / total)
+    if timer_ok:
+        timer_msg = (f"\n\n🕐 Расписание слотов обновлено: {total} раз в день "
+                     f"(каждые ~{interval_min} мин).\nТочки: {timer_detail}")
+        log.info("setplan: timer обновлён (%d слотов, интервал ~%d мин)", total, interval_min)
+    else:
+        timer_msg = f"\n\n⚠️ Расписание слотов НЕ обновлено (осталось старое): {timer_detail}"
+        log.error("setplan: timer update failed: %s", timer_detail)
+
     log.info("setplan: %s by user=%s", counts,
              message.from_user.id if message.from_user else "?")
     warn = ""
@@ -908,7 +970,7 @@ async def on_setplan(message: Message, fsm: FSMContext):
     await message.answer(
         "✅ План обновлён.\n\n"
         + _format_plan(counts, total)
-        + "\n\nПрименится со следующего слота генерации (перезапуск не нужен)."
+        + timer_msg
         + warn,
         parse_mode="HTML",
     )
