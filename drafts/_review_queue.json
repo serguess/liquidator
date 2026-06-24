@@ -3398,6 +3398,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "sberbank-trebuet-bankrotstva-vladelca-diagonal",
+      "category": "news",
+      "title": "Сбербанк требует банкротства владельца Диагональ",
+      "added_at": "2026-06-25T00:54:08.013701",
+      "char_count": 8065,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1782338042/articles/sberbank-trebuet-bankrotstva-vladelca-diagonal-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
