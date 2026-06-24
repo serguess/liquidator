@@ -19948,5 +19948,65 @@
       }
     },
     "metrics": null
+  },
+  {
+    "timestamp": "2026-06-24T00:24:25",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets 3am (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-24T02:48:25",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets 3am (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-24T05:12:07",
+    "category": "yur",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 2,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "yur-120",
+    "topic_slug": "osparivanie-platezhej-i-operacij-pered-bankrotstvom",
+    "status": "failed",
+    "slug": "osparivanie-platezhej-i-operacij-pered-bankrotstvom",
+    "duration_sec": 95.1,
+    "returncode": 1,
+    "rescued_after_failure": false,
+    "stdout_tail": "You've hit your limit · resets 9am (Europe/Moscow)",
+    "stderr_tail": "",
+    "tokens_by_model": {
+      "sonnet": {
+        "input_tokens": 7478,
+        "output_tokens": 168,
+        "cache_creation_input_tokens": 114528,
+        "cache_read_input_tokens": 352257,
+        "messages": 19
+      },
+      "<synthetic>": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "messages": 1
+      }
+    },
+    "metrics": null
   }
 ]
