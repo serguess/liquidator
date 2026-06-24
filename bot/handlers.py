@@ -783,7 +783,6 @@ async def on_voice_reply_fallback(message: Message, fsm: FSMContext):
 # Меняет ARTICLES_PER_DAY и ROTATION_ORDER в .env. Scheduler читает .env каждый
 # слот (systemd EnvironmentFile), поэтому перезапуск НЕ нужен.
 _PLAN_CATS = [("fiz", "физ"), ("yur", "юр"), ("vzysk", "взыск"), ("news", "новости")]
-_PLAN_MAX_TOTAL = 12  # максимум слотов в сутки (потолок /setplan)
 _TIMER_PATH = "/etc/systemd/system/liquidator-scheduler.timer"
 _TIMER_BASE_MINUTE = 24  # первый слот в 00:24 (как исторически)
 
@@ -934,13 +933,6 @@ async def on_setplan(message: Message, fsm: FSMContext):
     total = sum(nums)
     if total < 1:
         await message.answer("❌ Нужна хотя бы 1 статья в день.", parse_mode="HTML")
-        return
-    if total > _PLAN_MAX_TOTAL:
-        await message.answer(
-            f"❌ Максимум {_PLAN_MAX_TOTAL} статей в день (столько слотов генерации). "
-            f"Вы запросили {total}.",
-            parse_mode="HTML",
-        )
         return
     rotation = _build_rotation(counts)
     try:
