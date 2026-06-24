@@ -67,6 +67,10 @@ PREFLIGHT_ENABLED = os.getenv("PREFLIGHT_ENABLED", "true").lower() in ("1", "tru
 # Вся обвязка (выбор темы, heartbeat, git commit/push, circuit breaker, ротация,
 # pending_batch-доставка) переиспользуется как есть. Откат = GPT_PIPELINE=false.
 GPT_PIPELINE = os.getenv("GPT_PIPELINE", "false").lower() in ("1", "true", "yes")
+# Claude-pipeline: write-article идёт через migration/pipeline_run_claude.py
+# (прямой Python-оркестратор, ~150-200K billable/статью vs 864K через Claude Code).
+# Включить: CLAUDE_PIPELINE=true в .env. Откат: CLAUDE_PIPELINE=false.
+CLAUDE_PIPELINE = os.getenv("CLAUDE_PIPELINE", "false").lower() in ("1", "true", "yes")
 GITHUB_REPO = os.getenv("GITHUB_REPO", "serguess/liquidator")
 GITHUB_BRANCH = os.getenv("GITHUB_BRANCH", "main")
 GIT_AUTHOR_NAME = os.getenv("GIT_AUTHOR_NAME", "Liquidator Scheduler")
@@ -2360,6 +2364,15 @@ def run_one_article() -> dict:
                 cmd = [sys.executable, "-u", "migration/pipeline_run.py",
                        "--slug", retry_slug, "--category", category,
                        "--topic", rw_topic, "--prod-slug"]
+            elif CLAUDE_PIPELINE:
+                # Claude-pipeline: rewrite через pipeline_run_claude.py (прямой оркестратор).
+                rw_topic = (retry_meta.get("title") or retry_meta.get("h1")
+                            or retry_meta.get("main_keyword") or retry_slug)
+                log.info("Rewrite в CLAUDE_PIPELINE: pipeline_run_claude --slug %s --category %s",
+                         retry_slug, category)
+                cmd = [sys.executable, "-u", "migration/pipeline_run_claude.py",
+                       "--slug", retry_slug, "--category", category,
+                       "--topic", rw_topic, "--prod-slug"]
             else:
                 cmd = ["claude", "--print", "--dangerously-skip-permissions", claude_command]
             HEARTBEAT_PATH.write_text(
@@ -2504,6 +2517,20 @@ def run_one_article() -> dict:
                     cmd = [sys.executable, "-u", "migration/pipeline_run.py",
                            "--slug", topic_slug, "--category", category,
                            "--topic", topic_title, "--prod-slug"]
+                elif CLAUDE_PIPELINE:
+                    # Claude-pipeline: статью пишет migration/pipeline_run_claude.py
+                    # (прямой Python-оркестратор без CC-налога, ~150-200K billable).
+                    # Все поля news-темы передаются явно из topic-map.
+                    cmd = [sys.executable, "-u", "migration/pipeline_run_claude.py",
+                           "--slug", topic_slug, "--category", category,
+                           "--topic", topic_title, "--prod-slug"]
+                    if category == "news":
+                        if topic.get("primary_source"):
+                            cmd += ["--primary-source", topic["primary_source"]]
+                        if topic.get("event_date"):
+                            cmd += ["--event-date", topic["event_date"]]
+                        if topic.get("news_zone"):
+                            cmd += ["--news-zone", topic["news_zone"]]
                 else:
                     cmd = ["claude", "--print", "--dangerously-skip-permissions", claude_command]
                 HEARTBEAT_PATH.write_text(
