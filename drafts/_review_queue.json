@@ -3372,6 +3372,19 @@
         "passed": false,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "voprosy-truda-pri-bankrotstve-rabotodatelya-instrukciya",
+      "category": "yur",
+      "title": "Права сотрудников при банкротстве работодателя",
+      "added_at": "2026-06-24T15:33:36.971454",
+      "char_count": 9774,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1778157914/articles/bankrotstvo-ooo-poshagovo-2026-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

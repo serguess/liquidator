@@ -20138,5 +20138,10 @@
       }
     },
     "metrics": null
+  },
+  {
+    "timestamp": "2026-06-24T12:24:30",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets 2:20pm (Europe/Moscow)"
   }
 ]

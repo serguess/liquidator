@@ -1,0 +1,261 @@
+{
+  "file": "/home/appuser/apps/liquidator/drafts/voprosy-truda-pri-bankrotstve-rabotodatelya-instrukciya/article.html",
+  "passed": true,
+  "hard_failed": false,
+  "blockers": [],
+  "warnings": [
+    "spam_soft_passed: ratio-флаги мягкие при iter=2, targeted_tokens чистые → пропускаем (spam ≈48-52% по прогнозу)",
+    "forced_pass_at_iter2: блокеры пропущены, статья идёт в TG-очередь с metrics_warning=true. Было: 1 блокеров — length_too_long"
+  ],
+  "autofix": {
+    "file": "/home/appuser/apps/liquidator/drafts/voprosy-truda-pri-bankrotstve-rabotodatelya-instrukciya/article.html",
+    "abbreviation_fixes": {},
+    "punctuation_fixes": 0,
+    "em_dash_fixes": 0,
+    "eng_quotes_fixes": 0,
+    "yo_fixes": 0,
+    "hyphen_fixes": 0,
+    "changed": false,
+    "bytes_before": 45768,
+    "bytes_after": 45768
+  },
+  "quality_checks": {
+    "file": "drafts/voprosy-truda-pri-bankrotstve-rabotodatelya-instrukciya/article.html",
+    "text_chars": 9774,
+    "length_status": "too_long",
+    "length_kind": "default",
+    "passed": false,
+    "abbreviation_hits": [],
+    "punctuation_hits": [],
+    "hyphen_compound_hits": [],
+    "spam": {
+      "total_words": 958,
+      "unique_lemmas": 529,
+      "lexical_diversity": 0.552,
+      "top10_words": [
+        [
+          "период",
+          12
+        ],
+        [
+          "деньг",
+          10
+        ],
+        [
+          "долг",
+          9
+        ],
+        [
+          "трудов",
+          9
+        ],
+        [
+          "групп",
+          9
+        ],
+        [
+          "реестр",
+          9
+        ],
+        [
+          "расчетн",
+          8
+        ],
+        [
+          "человек",
+          8
+        ],
+        [
+          "кредитор",
+          8
+        ],
+        [
+          "получ",
+          7
+        ]
+      ],
+      "top10_share": 0.093,
+      "top1_count": 12,
+      "top3_sum": 31,
+      "top10_sum": 89,
+      "ngram3_repeat_count": 30,
+      "ngram3_total": 956,
+      "ngram3_repeat_share": 0.031,
+      "risk_flags": [
+        "top3_sum>30 (=31)",
+        "top10_sum>80 (=89)",
+        "lexical_diversity<0.58 (=0.552)"
+      ],
+      "word_warnings": []
+    },
+    "targeted_tokens": [
+      {
+        "token": "ст_сокращение",
+        "count": 0,
+        "limit": 5,
+        "over_limit": false,
+        "severity": "hard"
+      },
+      {
+        "token": "РФ_рудимент",
+        "count": 0,
+        "limit": 2,
+        "over_limit": false,
+        "severity": "hard"
+      },
+      {
+        "token": "руб_сокращение",
+        "count": 0,
+        "limit": 0,
+        "over_limit": false,
+        "severity": "hard"
+      },
+      {
+        "token": "ООО_бренд",
+        "count": 0,
+        "limit": 3,
+        "over_limit": false,
+        "severity": "hard"
+      },
+      {
+        "token": "000руб_паттерн",
+        "count": 0,
+        "limit": 2,
+        "over_limit": false,
+        "severity": "hard"
+      },
+      {
+        "token": "127фз_закон",
+        "count": 0,
+        "limit": 2,
+        "over_limit": false,
+        "severity": "soft"
+      },
+      {
+        "token": "213_артикул",
+        "count": 0,
+        "limit": 3,
+        "over_limit": false,
+        "severity": "soft"
+      },
+      {
+        "token": "ГПК_кодекс",
+        "count": 0,
+        "limit": 3,
+        "over_limit": false,
+        "severity": "soft"
+      },
+      {
+        "token": "ГК_кодекс",
+        "count": 0,
+        "limit": 3,
+        "over_limit": false,
+        "severity": "soft"
+      },
+      {
+        "token": "000_число",
+        "count": 0,
+        "limit": 8,
+        "over_limit": false,
+        "severity": "soft"
+      },
+      {
+        "token": "cta_формула_повтор",
+        "count": 1,
+        "limit": 1,
+        "over_limit": false,
+        "severity": "soft"
+      }
+    ],
+    "author_markers_count": 3,
+    "author_markers_min": 2
+  },
+  "ai_markers": {
+    "file": "drafts/voprosy-truda-pri-bankrotstve-rabotodatelya-instrukciya/article.html",
+    "text_chars": 11282,
+    "hits_total": 3,
+    "density_per_1000": 0.27,
+    "by_severity": {
+      "critical": 0,
+      "high": 0,
+      "medium": 0,
+      "low": 3
+    },
+    "own_voice_hits": 3,
+    "first_person_singular_hits": 0,
+    "hits": [
+      {
+        "name": "ИИ-лексика: «взаимодействие/тонкости/нюансы (абстрактно)»",
+        "category": "ai-lexis",
+        "severity": "low",
+        "match": "Тонкость",
+        "position": 2663,
+        "context": "... свои претензии в реестр и стоят в очереди уже после людей. Тонкость: страховой стаж засчитывается отдельно, по правилам пенсион..."
+      },
+      {
+        "name": "ИИ-лексика: «взаимодействие/тонкости/нюансы (абстрактно)»",
+        "category": "ai-lexis",
+        "severity": "low",
+        "match": "Взаимодействие",
+        "position": 11089,
+        "context": "...ение law@pravo.shop Коммерческие предложения biz@pravo.shop Взаимодействие со СМИ pr@pravo.shop © 2018-2026 ООО «ЛИКВИДАТОР». Все прав..."
+      },
+      {
+        "name": "Канцелярит: «в рамках» (без нужды)",
+        "category": "clerical",
+        "severity": "low",
+        "match": "в рамках",
+        "position": 10701,
+        "context": "...ровождение на всех этапах. Надежность и законность Работаем в рамках ФЗ и действующего законодательства РФ. РЕКВИЗИТЫ ООО «ЛИКВИ..."
+      }
+    ]
+  },
+  "anti_template": {
+    "file": "drafts/voprosy-truda-pri-bankrotstve-rabotodatelya-instrukciya/article.html",
+    "text_chars": 9774,
+    "phrases_loaded": 138,
+    "passed": true,
+    "hits": []
+  },
+  "law_quotes": {
+    "total_chars": 0,
+    "limit": 600,
+    "samples": []
+  },
+  "rhythm": {
+    "file": "drafts/voprosy-truda-pri-bankrotstve-rabotodatelya-instrukciya/article.html",
+    "text_chars": 9774,
+    "sentences_total": 105,
+    "avg_sentence_len": 9.42,
+    "short_sentences_count": 27,
+    "short_sentences_share": 0.257,
+    "long_sentences_count": 1,
+    "parasite_count": 1,
+    "parasite_per_1000": 0.1,
+    "flags": []
+  },
+  "internal_links": {
+    "total_hrefs": 37,
+    "ok": 0,
+    "whitelisted": 21,
+    "external": 13,
+    "fixed": 0,
+    "errors": 0,
+    "changed": false,
+    "fix_details": [],
+    "error_details": []
+  },
+  "recommendations": [
+    "reduce_length: сократить до 6500-7500 знаков"
+  ],
+  "retry_count": 2,
+  "predicted_metrics": {
+    "spam_pct": 58,
+    "ai_pct": 3,
+    "uniqueness_pct": 87
+  },
+  "customer_risks": [
+    "заспамленность заметно выше 50% (~58%)",
+    "длина значительно больше лимита 8000 (9 774 знаков)"
+  ]
+}
