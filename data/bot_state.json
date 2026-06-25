@@ -6755,10 +6755,93 @@
       "batch_fail_count": 0,
       "published_at": "2026-06-23T12:23:06",
       "articles_path": "articles/fiz/bankrotstvo-samozanyatogo-s-nesovmeshchaniem-i-dolgami.html"
+    },
+    "voprosy-truda-pri-bankrotstve-rabotodatelya-instrukciya": {
+      "category": "yur",
+      "title": "Права сотрудников при банкротстве работодателя",
+      "status": "published",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 1642,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-06-24T15:34:30",
+      "last_action_at": "2026-06-25T11:28:00",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": "https://pravo.shop/articles/yur/voprosy-truda-pri-bankrotstve-rabotodatelya-instrukciya",
+      "pending_batch": false,
+      "pending_batch_at": "2026-06-24T15:34:30",
+      "batch_sent_at": "2026-06-25T10:00:27",
+      "batch_fail_count": 0,
+      "published_at": "2026-06-25T11:28:00",
+      "articles_path": "articles/yur/voprosy-truda-pri-bankrotstve-rabotodatelya-instrukciya.html"
+    },
+    "vzyskanie-dolga-s-fizicheskogo-lica-cherez-sud": {
+      "category": "vzysk",
+      "title": "Взыскание долга с физлица через суд: инструкция",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 1644,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-06-24T20:25:23",
+      "last_action_at": "2026-06-25T10:00:29",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-06-24T20:25:23",
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1780256050/articles/kreditnye-kanikuly-pered-bankrotstvom-fizlica-cover.jpg",
+      "batch_sent_at": "2026-06-25T10:00:29",
+      "batch_fail_count": 0
+    },
+    "sberbank-trebuet-bankrotstva-vladelca-diagonal": {
+      "category": "news",
+      "title": "Сбербанк требует банкротства владельца Диагональ",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 1646,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-06-25T00:54:26",
+      "last_action_at": "2026-06-25T10:00:32",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-06-25T00:54:26",
+      "batch_sent_at": "2026-06-25T10:00:32",
+      "batch_fail_count": 0
+    },
+    "rosprirodnadzor-isk-v-bankrotstve-ekostroj-don": {
+      "category": "news",
+      "title": "Иск Росприроднадзора в банкротстве Экострой Дон: что произошло",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 1648,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-06-25T05:43:27",
+      "last_action_at": "2026-06-25T10:00:34",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-06-25T05:43:27",
+      "batch_sent_at": "2026-06-25T10:00:34",
+      "batch_fail_count": 0
     }
   },
   "pending_actions": [],
-  "last_batch_date": "2026-06-24",
-  "last_batch_count": 0,
-  "last_batch_at": "2026-06-24T10:00:25"
+  "last_batch_date": "2026-06-25",
+  "last_batch_count": 4,
+  "last_batch_at": "2026-06-25T10:00:34"
 }

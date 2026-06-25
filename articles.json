@@ -1,6 +1,19 @@
 {
-  "generated": "2026-06-23",
+  "generated": "2026-06-25",
   "articles": [
+    {
+      "slug": "voprosy-truda-pri-bankrotstve-rabotodatelya-instrukciya",
+      "cat": "yur",
+      "catLabel": "Банкротство юридических лиц",
+      "title": "Права сотрудников при банкротстве работодателя",
+      "desc": "Как защищаются трудовые права при банкротстве компании, что с зарплатой, выходным пособием и пенсионными взносами. Инструкция.",
+      "date": "25 июня 2026",
+      "dateIso": "2026-06-25",
+      "read": "7 мин.",
+      "tone": "b",
+      "img": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1778157914/articles/bankrotstvo-ooo-poshagovo-2026-cover.jpg",
+      "url": "articles/yur/voprosy-truda-pri-bankrotstve-rabotodatelya-instrukciya"
+    },
     {
       "slug": "bankrotstvo-samozanyatogo-s-nesovmeshchaniem-i-dolgami",
       "cat": "fiz",
