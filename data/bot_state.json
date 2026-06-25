@@ -6817,22 +6817,31 @@
     "sberbank-trebuet-bankrotstva-vladelca-diagonal": {
       "category": "news",
       "title": "Сбербанк требует банкротства владельца Диагональ",
-      "status": "pending_review",
-      "current_version": "2.0",
+      "status": "published",
+      "current_version": "2.1",
       "versions": [
-        "2.0"
+        "2.0",
+        "2.1"
       ],
       "tg_message_id": 1646,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-06-25T00:54:26",
-      "last_action_at": "2026-06-25T10:00:32",
-      "edits_history": [],
+      "last_action_at": "2026-06-25T12:02:34",
+      "edits_history": [
+        {
+          "version": "2.1",
+          "edit_text": "банк вправе подать заявление о банкротстве без судебного решения, если его требование основано на кредитном договоре. Это прямо предусмотрено законом: абзац 2 пункта 2 статьи 7 Федерального закона «О несостоятельности (банкротстве)» даёт такое право кредитным организациям. Верховный суд подчёркивает: критерий — специальная правоспособность банка (он осуществляет банковские операции на основании лицензии Банка России). \n\nИсправь ошибку про то, что банку требуется судебное решение",
+          "applied_at": "2026-06-25T12:01:44"
+        }
+      ],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/news/sberbank-trebuet-bankrotstva-vladelca-diagonal",
       "pending_batch": false,
       "pending_batch_at": "2026-06-25T00:54:26",
       "batch_sent_at": "2026-06-25T10:00:32",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-06-25T12:02:34",
+      "articles_path": "articles/news/sberbank-trebuet-bankrotstva-vladelca-diagonal.html"
     },
     "rosprirodnadzor-isk-v-bankrotstve-ekostroj-don": {
       "category": "news",
