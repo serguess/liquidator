@@ -20471,5 +20471,47 @@
     "stderr_tail": "^^^^^^^^^^^^^^^^\n  File \"/home/appuser/apps/liquidator/migration/pipeline_run_claude.py\", line 215, in _run_claude_once\n    proc = subprocess.Popen(\n           ^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.11/subprocess.py\", line 1022, in __init__\n    self._execute_child(args, executable, preexec_fn, close_fds,\n  File \"/usr/lib/python3.11/subprocess.py\", line 1899, in _execute_child\n    raise child_exception_type(errno_num, err_msg, err_filename)\nOSError: [Errno 7] Argument list too long: 'claude'\n",
     "tokens_by_model": {},
     "metrics": null
+  },
+  {
+    "timestamp": "2026-06-25T19:36:37",
+    "category": "fiz",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 3,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "fiz-124",
+    "topic_slug": "bankrotstvo-i-avtomobil-v-processe-prodazhi-otsenka-riskov",
+    "auto_skipped": [
+      {
+        "slug": "bankrotstvo-pri-dolgah-za-zhkh-bez-reshenij-suda-strategiya",
+        "reason": "cannibalization:preflight:bankrotstvo-s-dolgami-po-zhkh",
+        "duration_sec": 0
+      }
+    ],
+    "status": "failed",
+    "slug": "bankrotstvo-i-avtomobil-v-processe-prodazhi-otsenka-riskov",
+    "duration_sec": 1543.6,
+    "returncode": 1,
+    "rescued_after_failure": false,
+    "stdout_tail": "=== 1-semantics (claude haiku) ===\n   ok: 1761 симв., usage in=20 out=16 cache_w=30534 cache_r=25520 billable=30570 ток, 15.3с\n=== 2-legal-research (claude haiku) ===\n   ok: 21229 симв., usage in=92 out=44 cache_w=243630 cache_r=293266 billable=243766 ток, 83.9с\n   [watchdog] hard timeout >480s на sonnet — попытка 1/3\n   [watchdog] hard timeout >480s на sonnet — попытка 2/3\n   ok: 18519 симв., billable=22 ток (model=sonnet)\n   [outline_validate] exit=1\n=== 4-writer (claude opus) ===",
+    "stderr_tail": "^^^^^^^^^^^^^^^^\n  File \"/home/appuser/apps/liquidator/migration/pipeline_run_claude.py\", line 215, in _run_claude_once\n    proc = subprocess.Popen(\n           ^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.11/subprocess.py\", line 1022, in __init__\n    self._execute_child(args, executable, preexec_fn, close_fds,\n  File \"/usr/lib/python3.11/subprocess.py\", line 1899, in _execute_child\n    raise child_exception_type(errno_num, err_msg, err_filename)\nOSError: [Errno 7] Argument list too long: 'claude'\n",
+    "tokens_by_model": {},
+    "metrics": null
   }
 ]
