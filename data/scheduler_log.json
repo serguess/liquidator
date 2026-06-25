@@ -20312,5 +20312,164 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-06-25T05:12:31",
+    "category": "news",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 2,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "news-65",
+    "topic_slug": "rosprirodnadzor-isk-v-bankrotstve-ekostroj-don",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "forced_pass_at_iter2: блокеры пропущены, статья идёт в TG-очередь с metrics_warning=true. Было: 1 блокеров — targeted_tokens_over_limit"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "finalize_safety_net": {
+      "ran": true,
+      "rc": 0
+    },
+    "status": "ok",
+    "slug": "rosprirodnadzor-isk-v-bankrotstve-ekostroj-don",
+    "duration_sec": 1851.0,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "126338\n6-seo-editor        haiku            20       8    61018     25520     61046\n7-publisher         haiku            46      22    76072    103112     76140\n------------------------------------------------------------------------------------------\nИТОГО                               190      87   466665    560249    466942\nBillable-токенов на статью: ~466K (cache_read 560K не считается в лимит подписки).\nАртефакты: drafts/rosprirodnadzor-isk-v-bankrotstve-ekostroj-don/  | quality_gate exit=0",
+    "stderr_tail": "",
+    "tokens_by_model": {},
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 6644
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
+  },
+  {
+    "timestamp": "2026-06-25T08:30:37",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets 10:40am (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-25T08:30:40",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets 10:40am (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-25T08:30:42",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets 10:40am (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-25T08:30:44",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets 10:40am (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-25T08:30:46",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets 10:40am (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-25T08:30:49",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets 10:40am (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-25T08:30:51",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets 10:40am (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-25T08:30:53",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets 10:40am (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-25T08:30:55",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets 10:40am (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-25T08:30:57",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets 10:40am (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-25T08:30:59",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets 10:40am (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-25T08:31:01",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets 10:40am (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-25T10:00:07",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets 10:40am (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-25T14:48:17",
+    "category": "fiz",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 2,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "fiz-122",
+    "topic_slug": "bankrotstvo-posle-prodazhi-doli-v-ooo-i-otvety-na-riski",
+    "status": "failed",
+    "slug": "bankrotstvo-posle-prodazhi-doli-v-ooo-i-otvety-na-riski",
+    "duration_sec": 429.1,
+    "returncode": 1,
+    "rescued_after_failure": false,
+    "stdout_tail": "=== 1-semantics (claude haiku) ===\n   ok: 1630 симв., usage in=20 out=16 cache_w=30502 cache_r=25520 billable=30538 ток, 19.1с\n=== 2-legal-research (claude haiku) ===\n   ok: 18416 симв., usage in=146 out=47 cache_w=207579 cache_r=685714 billable=207772 ток, 191.2с\n   ok: 17601 симв., billable=74422 ток (model=sonnet)\n   [outline_validate] exit=0\n=== 4-writer (claude opus) ===",
+    "stderr_tail": "^^^^^^^^^^^^^^^^\n  File \"/home/appuser/apps/liquidator/migration/pipeline_run_claude.py\", line 215, in _run_claude_once\n    proc = subprocess.Popen(\n           ^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.11/subprocess.py\", line 1022, in __init__\n    self._execute_child(args, executable, preexec_fn, close_fds,\n  File \"/usr/lib/python3.11/subprocess.py\", line 1899, in _execute_child\n    raise child_exception_type(errno_num, err_msg, err_filename)\nOSError: [Errno 7] Argument list too long: 'claude'\n",
+    "tokens_by_model": {},
+    "metrics": null
   }
 ]
