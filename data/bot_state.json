@@ -6781,23 +6781,38 @@
     "vzyskanie-dolga-s-fizicheskogo-lica-cherez-sud": {
       "category": "vzysk",
       "title": "Взыскание долга с физлица через суд: инструкция",
-      "status": "pending_review",
-      "current_version": "2.0",
+      "status": "published",
+      "current_version": "2.2",
       "versions": [
-        "2.0"
+        "2.0",
+        "2.1",
+        "2.2"
       ],
       "tg_message_id": 1644,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-06-24T20:25:23",
-      "last_action_at": "2026-06-25T10:00:29",
-      "edits_history": [],
+      "last_action_at": "2026-06-25T11:54:16",
+      "edits_history": [
+        {
+          "version": "2.1",
+          "edit_text": "в статье ошибка по размеру исполнительского сбора. сделай в соответствии со 112 статей фз об исполнительном производстве",
+          "applied_at": "2026-06-25T11:51:44"
+        },
+        {
+          "version": "2.2",
+          "edit_text": "вот важная информация: \nИсполнительский сбор устанавливается в размере двенадцати процентов от подлежащей взысканию суммы или стоимости взыскиваемого имущества, но не менее двух тысяч рублей с должника-гражданина или должника - индивидуального предпринимателя и двадцати тысяч рублей с должника-организации. В случае неисполнения исполнительного документа неимущественного характера исполнительский сбор с должника-гражданина или должника - индивидуального предпринимателя устанавливается в размере десяти тысяч рублей, с должника-организации - ста тысяч рублей.\n\nПриведи статью в соответствие с тем, что я написал",
+          "applied_at": "2026-06-25T11:53:19"
+        }
+      ],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/vzysk/vzyskanie-dolga-s-fizicheskogo-lica-cherez-sud",
       "pending_batch": false,
       "pending_batch_at": "2026-06-24T20:25:23",
       "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1780256050/articles/kreditnye-kanikuly-pered-bankrotstvom-fizlica-cover.jpg",
       "batch_sent_at": "2026-06-25T10:00:29",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-06-25T11:54:16",
+      "articles_path": "articles/vzysk/vzyskanie-dolga-s-fizicheskogo-lica-cherez-sud.html"
     },
     "sberbank-trebuet-bankrotstva-vladelca-diagonal": {
       "category": "news",
