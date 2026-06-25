@@ -3457,7 +3457,11 @@
       "rationale": "Частая практика: споры по ЖКХ без решений суда; статья отвечает на вопросы о доказательствах и даёт повод обратиться за проверкой шансов списания.",
       "expected_length_chars": 7000,
       "client_notes": "",
-      "topic_action": "оценить долги по ЖКХ и подготовить доказательства"
+      "topic_action": "оценить долги по ЖКХ и подготовить доказательства",
+      "status": "rejected",
+      "rejected_at": "2026-06-25T19:36:46",
+      "rejected_reason": "cannibalization:preflight:bankrotstvo-s-dolgami-po-zhkh",
+      "rejected_by": "auto_skip_in_slot"
     },
     {
       "id": "fiz-124",
