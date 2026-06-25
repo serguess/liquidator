@@ -154,8 +154,8 @@ class TargetedTokenHit:
 # Текущие пороги (8 мая 2026, под KPI ≤50% спама):
 # top10_share≤0.105, ngram3≤0.030, lex_diversity≥0.62.
 LENGTH_LIMITS = {
-    "default": {"min": 6000, "target_min": 6500, "target_max": 7500, "max": 8000},
-    "news": {"min": 4500, "target_min": 4500, "target_max": 6500, "max": 6800},
+    "default": {"min": 4500, "target_min": 5000, "target_max": 6000, "max": 6500},
+    "news": {"min": 3500, "target_min": 4000, "target_max": 5000, "max": 5500},
 }
 
 

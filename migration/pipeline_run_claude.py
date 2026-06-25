@@ -122,7 +122,7 @@ ADAPTER = (
 CLAUDE_BIN = os.getenv("CLAUDE_BIN", "claude")
 # Жёсткий потолок на шаг. 300с (5 мин) — если агент завис дольше, это зависание,
 # не долгая генерация. 3 retry × 300с = 15 мин макс на агент → слот в норме ≤45 мин.
-STEP_TIMEOUT_SEC = int(os.getenv("CLAUDE_STEP_TIMEOUT_SEC", "300"))
+STEP_TIMEOUT_SEC = int(os.getenv("CLAUDE_STEP_TIMEOUT_SEC", "480"))
 CLAUDE_RETRIES = int(os.getenv("CLAUDE_RETRIES", "3"))
 
 
