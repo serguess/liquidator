@@ -20763,5 +20763,41 @@
     "stderr_tail": "[ERR] rate_limit: put_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard\",\"cache_creation\":{\"ephemeral_1h_input_tokens\":0,\"ephemeral_5m_input_tokens\":0},\"inference_geo\":\"\",\"iterations\":[],\"speed\":\"standard\"},\"modelUsage\":{},\"permission_denials\":[],\"terminal_reason\":\"completed\",\"fast_mode_state\":\"off\",\"uuid\":\"308ba635-06be-4f89-bde2-61b90acd42cd\"}\n\n",
     "tokens_by_model": {},
     "metrics": null
+  },
+  {
+    "timestamp": "2026-06-26T19:36:33",
+    "category": "yur",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 11,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "expanded_in_slot": true,
+    "topic_id": "yur-124",
+    "topic_slug": "bankrotstvo-arendodatelya-prava-arendatora",
+    "status": "failed",
+    "slug": "bankrotstvo-arendodatelya-prava-arendatora",
+    "duration_sec": 1263.9,
+    "returncode": 1,
+    "rescued_after_failure": false,
+    "stdout_tail": "к, 22.8с\n=== 2-legal-research (claude haiku) ===\n   ok: 15417 симв., usage in=2770 out=68 cache_w=242085 cache_r=429104 billable=244923 ток, 67.9с\n   ok: 17327 симв., billable=71680 ток (model=sonnet)\n   [outline_validate] exit=1\n=== 4-writer (claude opus) ===\n   ok: 9765 симв., billable=131138 ток, 255.5с\n   [writer self-fix проход 2]\n   ok: billable=139814 ток\n=== 5-uniqueness (embed_compare) ===\n   passed=True scores={'structure_overlap': 0.0, 'thesis_similarity': 0.049, 'cta_overlap': 0.052}",
+    "stderr_tail": "[ERR] rate_limit: put_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard\",\"cache_creation\":{\"ephemeral_1h_input_tokens\":0,\"ephemeral_5m_input_tokens\":0},\"inference_geo\":\"\",\"iterations\":[],\"speed\":\"standard\"},\"modelUsage\":{},\"permission_denials\":[],\"terminal_reason\":\"completed\",\"fast_mode_state\":\"off\",\"uuid\":\"50f95f73-32f4-455a-ad85-d7a77465226c\"}\n\n",
+    "tokens_by_model": {},
+    "metrics": null
   }
 ]
