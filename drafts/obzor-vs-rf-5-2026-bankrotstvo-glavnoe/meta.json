@@ -1,0 +1,99 @@
+{
+  "slug": "obzor-vs-rf-5-2026-bankrotstvo-glavnoe",
+  "category": "news",
+  "title": "Обзор ВС РФ по банкротству: что главное знать должнику",
+  "description": "Что изменилось в судебной практике банкротства по последнему обзору ВС РФ. Важные решения для физ. и юр. лиц.",
+  "h1": "Обзор Верховного суда по практике банкротства: главные решения для должника",
+  "lead": "Судебная практика Верховного суда РФ определяет способ рассмотрения дел о банкротстве по всей стране - разберём пять ключевых позиций ВС, которые судьи применяют в своих решениях.",
+  "topic_action": "разбор вашего дела по практике ВС РФ",
+  "breadcrumb_current": "Обзор ВС РФ по банкротству",
+  "og_image": "/assets/articles/obzor-vs-rf-5-2026-bankrotstvo-glavnoe.jpg",
+  "main_keyword": "обзор верховного суда по банкротству",
+  "secondary_keywords": [
+    "практика верховного суда банкротство",
+    "новые решения суда по банкротству",
+    "судебная практика должник",
+    "арбитражная практика физических лиц",
+    "решения ВС РФ по 127-ФЗ",
+    "что должен знать должник о банкротстве"
+  ],
+  "intent": "informational",
+  "funnel_stage": "cold",
+  "article_type": "B",
+  "offer": "proverka-spisaniya",
+  "event_date": "2026-04-29",
+  "news_zone": "vs_practice",
+  "internal_links": [
+    "/articles/fiz/alimenty-pri-bankrotstve-fizlica",
+    "/articles/fiz/bankovskie-scheta-pri-bankrotstve"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/",
+    "https://bankrot.fedresurs.ru/"
+  ],
+  "faq": [
+    {
+      "question": "Обязательны ли постановления Пленума для арбитражных судов?",
+      "answer": "Да, обязательны. Они дают единое толкование 127-ФЗ, и судьи в любом регионе обязаны их применять. Это закреплено в первой норме того же акта о несостоятельности."
+    },
+    {
+      "question": "Сколько стоит подать заявление о банкротстве в суд в 2026 году?",
+      "answer": "Государственная пошлина для гражданина - ноль рублей с 8 сентября 2024 года. Обязательный депозитный платёж на работу финансового управляющего - 25 тысяч рублей, по ходатайству суд может отсрочить эту сумму."
+    },
+    {
+      "question": "При каких условиях доступна внесудебная процедура через МФЦ?",
+      "answer": "Долг - от 25 тысяч до миллиона рублей. Дополнительно: оконченное исполнительное производство, статус пенсионера, участника СВО, получателя детских пособий, либо исполнительное производство без исполнения более 7 лет."
+    },
+    {
+      "question": "Что произойдёт с алиментным долгом после завершения дела о несостоятельности?",
+      "answer": "Алименты остаются. Завершение процедуры на них не распространяется - это прямой пункт пятый 213.28-й нормы. То же касается долга по зарплате и возмещения вреда здоровью."
+    },
+    {
+      "question": "Куда обратиться, чтобы проверить сведения о своей процедуре онлайн?",
+      "answer": "Единый федеральный реестр сведений о банкротстве на bankrot.fedresurs.ru. С 1 января 2026 года это единственная официальная площадка - без регистрации, бесплатно, в любое время."
+    },
+    {
+      "question": "Можно ли не сообщать банку о пройденном банкротстве при оформлении нового кредита?",
+      "answer": "Нельзя. В течение 5 лет после завершения процедуры физлицо обязано раскрывать эту информацию по 213.30-й норме. Сведения всё равно есть в открытом реестре, банк их увидит сам, но обязанность сообщать самостоятельно остаётся за заявителем."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все юридические утверждения соответствуют facts из research.json",
+    "Дата введения льготы на госпошлину (8 сентября 2024) подтверждена в f4",
+    "Постановления Пленума ВС РФ (№ 35, 53, 4) и их назначение подтверждены в f1 и f9",
+    "Условия внесудебного банкротства из f3 и f23.2 проверены",
+    "ЕФРСБ как единый реестр с 1 января 2026 подтверждена в f7",
+    "Несписываемые долги по ст. 213.28 п. 5 подтверждены в f6",
+    "5-летнее обязательство о раскрытии информации подтверждено в f10"
+  ],
+  "textru_status": "local_only",
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1782447051/articles/obzor-vs-rf-5-2026-bankrotstvo-glavnoe-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1782447051/articles/obzor-vs-rf-5-2026-bankrotstvo-glavnoe-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Exterior photograph of a contemporary administrative building in rainy evening dusk viewed from street level. Glass façade reflects wet asphalt and distant amber lampposts glowing through the haze. Foreground: wet stone steps, oxidized brass plaque at the entrance, distant silhouettes with black umbrellas far away. Warm interior light glows through tall windows suggesting active judicial review and deliberation ongoing inside. Palette: cool blue-grey streets contrasting with warm amber window accents. Mood: contemporary institutional authority, official supervision, the persistent work of courts examining cases in real time.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-06-26T04:10:52Z",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "text_chars": 5703,
+  "length_status": "too_long",
+  "length_kind": "news",
+  "local_spam_top10_share": 0.11,
+  "local_spam_ngram3_repeat": 0.027,
+  "local_lexical_diversity": 0.692,
+  "local_ai_markers_density": 0.4,
+  "local_ai_markers_total": 3,
+  "local_ai_markers_critical": 0,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 2,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 47,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 90,
+  "customer_risks": [
+    "длина больше лимита 5500 (5 703 знаков)"
+  ]
+}

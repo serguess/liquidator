@@ -51,7 +51,7 @@
   ],
   "keyword_density_main": 0.0029,
   "main_keyword_exact_count": 1,
-  "text_chars": 7228,
+  "text_chars": 6173,
   "textru_status": "local_only",
   "textru_uniqueness": null,
   "textru_ai_detector": null,
@@ -66,10 +66,10 @@
   ],
   "length_status": "too_long",
   "length_kind": "news",
-  "local_spam_top10_share": 0.108,
-  "local_spam_ngram3_repeat": 0.015,
-  "local_lexical_diversity": 0.604,
-  "local_ai_markers_density": 0.22,
+  "local_spam_top10_share": 0.11,
+  "local_spam_ngram3_repeat": 0.018,
+  "local_lexical_diversity": 0.641,
+  "local_ai_markers_density": 0.25,
   "local_ai_markers_total": 2,
   "local_ai_markers_critical": 0,
   "local_ai_markers_high": 0,
@@ -77,13 +77,12 @@
   "local_first_person_singular_hits": 0,
   "quality_gate_passed": true,
   "quality_gate_blockers": [],
-  "quality_gate_retry_count": 5,
-  "predicted_spam_pct": 53,
+  "quality_gate_retry_count": 6,
+  "predicted_spam_pct": 49,
   "predicted_ai_pct": 3,
   "predicted_uniqueness_pct": 87,
   "customer_risks": [
-    "заспамленность чуть выше 50% (~53%)",
-    "длина больше лимита 6800 (7 228 знаков)"
+    "длина значительно больше лимита 5500 (6 173 знаков)"
   ],
   "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779798026/articles/rashody-bankrotstva-vzyskat-s-uchreditelya-cover.jpg",
   "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1779798026/articles/rashody-bankrotstva-vzyskat-s-uchreditelya-cover.jpg",
@@ -93,5 +92,9 @@
   "date_modified": "2026-05-26",
   "ready_for_review": true,
   "ready_at": "2026-05-26T12:20:28Z",
-  "publication_target": "telegram_review"
+  "publication_target": "telegram_review",
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "targeted_tokens_over_limit: руб_сокращение=4(>≤0)"
+  ]
 }

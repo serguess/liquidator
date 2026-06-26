@@ -6,38 +6,38 @@
   "warnings": [
     "Автофикс применил правки: сокращения=0, пунктуация=0",
     "internal_links_autofixed: 3 ссылок (например /articles/fiz/bankrotstvo-invalida-lgoty-pensiya.html→/articles/fiz/bankrotstvo-invalida-lgoty-pensiya; /articles/fiz/bankrotstvo-fizlica-pri-razvode.html→/articles/fiz/bankrotstvo-fizlica-pri-razvode; /articles/fiz/chto-nelzya-delat-pered-bankrotstvom-fizlica.html→/articles/fiz/chto-nelzya-delat-pered-bankrotstvom-fizlica)",
-    "forced_pass_at_iter2: блокеры пропущены, статья идёт в TG-очередь с metrics_warning=true. Было: 1 блокеров — spam_risk"
+    "length_soft_passed: 7770 > 6500 но ≤ 8500 и iteration=4 — пропускаем (приоритет spam/uniqueness/ai)",
+    "spam_soft_passed: ratio-флаги мягкие при iter=4, targeted_tokens чистые → пропускаем (spam ≈48-52% по прогнозу)"
   ],
   "autofix": {
     "file": "/home/appuser/apps/liquidator/drafts/avtomobil-pri-bankrotstve-fizlica/article.html",
     "abbreviation_fixes": {},
     "punctuation_fixes": 0,
-    "em_dash_fixes": 41,
+    "em_dash_fixes": 1,
     "eng_quotes_fixes": 0,
+    "yo_fixes": 33,
+    "hyphen_fixes": 0,
     "changed": true,
-    "bytes_before": 41334,
-    "bytes_after": 41254
+    "bytes_before": 41490,
+    "bytes_after": 41488
   },
   "quality_checks": {
     "file": "drafts/avtomobil-pri-bankrotstve-fizlica/article.html",
-    "text_chars": 7679,
-    "length_status": "warn",
+    "text_chars": 7770,
+    "length_status": "too_long",
     "length_kind": "default",
     "passed": false,
     "abbreviation_hits": [],
     "punctuation_hits": [],
+    "hyphen_compound_hits": [],
     "spam": {
-      "total_words": 717,
-      "unique_lemmas": 439,
-      "lexical_diversity": 0.612,
+      "total_words": 718,
+      "unique_lemmas": 444,
+      "lexical_diversity": 0.618,
       "top10_words": [
         [
-          "автомобил",
-          12
-        ],
-        [
-          "авто",
-          9
+          "транспорт",
+          13
         ],
         [
           "банкротств",
@@ -48,11 +48,11 @@
           8
         ],
         [
-          "машин",
-          7
+          "есть",
+          6
         ],
         [
-          "есть",
+          "имуществ",
           6
         ],
         [
@@ -70,17 +70,24 @@
         [
           "банк",
           6
+        ],
+        [
+          "управляющий",
+          5
         ]
       ],
-      "top10_share": 0.103,
-      "top1_count": 12,
+      "top10_share": 0.097,
+      "top1_count": 13,
       "top3_sum": 29,
-      "top10_sum": 74,
+      "top10_sum": 70,
       "ngram3_repeat_count": 34,
-      "ngram3_total": 715,
-      "ngram3_repeat_share": 0.048,
+      "ngram3_total": 716,
+      "ngram3_repeat_share": 0.047,
       "risk_flags": [
-        "ngram3_repeat_share>0.035 (=0.048)"
+        "top1_count>12 (=13, лемма «транспорт»)"
+      ],
+      "word_warnings": [
+        "«транспорт» ×13"
       ]
     },
     "targeted_tokens": [
@@ -167,7 +174,7 @@
   },
   "ai_markers": {
     "file": "drafts/avtomobil-pri-bankrotstve-fizlica/article.html",
-    "text_chars": 9552,
+    "text_chars": 9680,
     "hits_total": 2,
     "density_per_1000": 0.21,
     "by_severity": {
@@ -184,7 +191,7 @@
         "category": "ai-lexis",
         "severity": "low",
         "match": "Взаимодействие",
-        "position": 9359,
+        "position": 9487,
         "context": "...ение law@pravo.shop Коммерческие предложения biz@pravo.shop Взаимодействие со СМИ pr@pravo.shop © 2018-2026 ООО «ЛИКВИДАТОР». Все прав..."
       },
       {
@@ -192,14 +199,14 @@
         "category": "clerical",
         "severity": "low",
         "match": "в рамках",
-        "position": 8971,
-        "context": "...ровождение на всех этапах. Надёжность и законность Работаем в рамках ФЗ и действующего законодательства РФ. РЕКВИЗИТЫ ООО «ЛИКВИ..."
+        "position": 9099,
+        "context": "...ровождение на всех этапах. Надежность и законность Работаем в рамках ФЗ и действующего законодательства РФ. РЕКВИЗИТЫ ООО «ЛИКВИ..."
       }
     ]
   },
   "anti_template": {
     "file": "drafts/avtomobil-pri-bankrotstve-fizlica/article.html",
-    "text_chars": 7976,
+    "text_chars": 8104,
     "phrases_loaded": 138,
     "passed": true,
     "hits": []
@@ -211,14 +218,14 @@
   },
   "rhythm": {
     "file": "drafts/avtomobil-pri-bankrotstve-fizlica/article.html",
-    "text_chars": 7976,
+    "text_chars": 8104,
     "sentences_total": 107,
-    "avg_sentence_len": 7.21,
-    "short_sentences_count": 45,
-    "short_sentences_share": 0.421,
+    "avg_sentence_len": 7.24,
+    "short_sentences_count": 42,
+    "short_sentences_share": 0.393,
     "long_sentences_count": 0,
     "parasite_count": 1,
-    "parasite_per_1000": 0.13,
+    "parasite_per_1000": 0.12,
     "flags": []
   },
   "internal_links": {
@@ -251,16 +258,15 @@
     ],
     "error_details": []
   },
-  "recommendations": [
-    "reduce_repetition: разбавить топ-5 частотных лемм местоимениями/перифразом — ['автомобил', 'авто', 'банкротств', 'стать', 'машин']"
-  ],
-  "retry_count": 3,
+  "recommendations": [],
+  "retry_count": 4,
   "predicted_metrics": {
     "spam_pct": 55,
     "ai_pct": 3,
     "uniqueness_pct": 87
   },
   "customer_risks": [
-    "заспамленность выше 50% (~55%)"
+    "заспамленность выше 50% (~55%)",
+    "длина значительно больше лимита 6500 (7 770 знаков)"
   ]
 }

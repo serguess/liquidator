@@ -76,12 +76,12 @@
   "metrics_warning_blockers": [
     "spam_risk: 1 флагов (ngram3_repeat_share>0.035 (=0.048)), top-5: ['автомобил', 'авто', 'банкротств', 'стать', 'машин']"
   ],
-  "text_chars": 7679,
-  "length_status": "warn",
+  "text_chars": 7770,
+  "length_status": "too_long",
   "length_kind": "default",
-  "local_spam_top10_share": 0.103,
-  "local_spam_ngram3_repeat": 0.048,
-  "local_lexical_diversity": 0.612,
+  "local_spam_top10_share": 0.097,
+  "local_spam_ngram3_repeat": 0.047,
+  "local_lexical_diversity": 0.618,
   "local_ai_markers_density": 0.21,
   "local_ai_markers_total": 2,
   "local_ai_markers_critical": 0,
@@ -90,12 +90,13 @@
   "local_first_person_singular_hits": 0,
   "quality_gate_passed": true,
   "quality_gate_blockers": [],
-  "quality_gate_retry_count": 3,
+  "quality_gate_retry_count": 4,
   "predicted_spam_pct": 55,
   "predicted_ai_pct": 3,
   "predicted_uniqueness_pct": 87,
   "customer_risks": [
-    "заспамленность выше 50% (~55%)"
+    "заспамленность выше 50% (~55%)",
+    "длина значительно больше лимита 6500 (7 770 знаков)"
   ],
   "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779867435/articles/avtomobil-pri-bankrotstve-fizlica-cover.jpg",
   "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1779867435/articles/avtomobil-pri-bankrotstve-fizlica-cover.jpg",
