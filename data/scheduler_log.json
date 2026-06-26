@@ -20548,5 +20548,41 @@
     "stderr_tail": "^^^^^^^^^^^^^^^^\n  File \"/home/appuser/apps/liquidator/migration/pipeline_run_claude.py\", line 215, in _run_claude_once\n    proc = subprocess.Popen(\n           ^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.11/subprocess.py\", line 1022, in __init__\n    self._execute_child(args, executable, preexec_fn, close_fds,\n  File \"/usr/lib/python3.11/subprocess.py\", line 1899, in _execute_child\n    raise child_exception_type(errno_num, err_msg, err_filename)\nOSError: [Errno 7] Argument list too long: 'claude'\n",
     "tokens_by_model": {},
     "metrics": null
+  },
+  {
+    "timestamp": "2026-06-26T05:12:05",
+    "category": "fiz",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 2,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "expanded_in_slot": true,
+    "topic_id": "fiz-126",
+    "topic_slug": "bankrotstvo-dolshchika-po-ddu",
+    "status": "failed",
+    "slug": "bankrotstvo-dolshchika-po-ddu",
+    "duration_sec": 1032.6,
+    "returncode": 1,
+    "rescued_after_failure": false,
+    "stdout_tail": "=== 1-semantics (claude haiku) ===\n   ok: 1670 симв., usage in=20 out=12 cache_w=30412 cache_r=25520 billable=30444 ток, 21.4с\n=== 2-legal-research (claude haiku) ===\n   ok: 19723 симв., usage in=118 out=50 cache_w=130406 cache_r=588759 billable=130574 ток, 80.2с\n   ok: 17968 симв., billable=75572 ток (model=sonnet)\n   [outline_validate] exit=0\n=== 4-writer (claude opus) ===",
+    "stderr_tail": "^^^^^^^^^^^^^^^^\n  File \"/home/appuser/apps/liquidator/migration/pipeline_run_claude.py\", line 215, in _run_claude_once\n    proc = subprocess.Popen(\n           ^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.11/subprocess.py\", line 1022, in __init__\n    self._execute_child(args, executable, preexec_fn, close_fds,\n  File \"/usr/lib/python3.11/subprocess.py\", line 1899, in _execute_child\n    raise child_exception_type(errno_num, err_msg, err_filename)\nOSError: [Errno 7] Argument list too long: 'claude'\n",
+    "tokens_by_model": {},
+    "metrics": null
   }
 ]
