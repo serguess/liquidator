@@ -3,8 +3,8 @@
   "article_id": 330,
   "scores": {
     "structure_overlap": 0.0,
-    "thesis_similarity": 0.048,
-    "cta_overlap": 0.019
+    "thesis_similarity": 0.04,
+    "cta_overlap": 0.026
   },
   "thresholds": {
     "structure_overlap": 0.4,
@@ -13,7 +13,7 @@
   },
   "passed": true,
   "peers_compared": 50,
-  "closest_peer": "avtomobil-pri-bankrotstve-fizlica",
+  "closest_peer": "otkaz-ot-dogovora-pri-bankrotstve-statya-102",
   "similar_articles": [],
   "conflicts": [],
   "recommendation": "ok",

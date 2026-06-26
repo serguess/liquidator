@@ -1,108 +1,104 @@
 {
   "slug": "valyutnaya-ipoteka-bankrotstvo-fizlica",
   "category": "fiz",
-  "title": "Валютная ипотека при банкротстве физлица: защита жилья",
-  "description": "Разбираемся, как физлицу защитить жилую недвижимость при валютной ипотеке во время банкротства, какие права даёт закон и можно ли сохранить дом.",
+  "title": "Валютная ипотека при банкротстве: как защитить жильё",
+  "description": "Что будет с валютной ипотекой при банкротстве физлица, может ли банк отобрать квартиру, какие способы защиты жилья существуют и как правильно действовать.",
   "h1": "Валютная ипотека при банкротстве физлица: как защитить жильё",
-  "lead": "Разбираем, при каких условиях процедура несостоятельности останавливает взыскание по валютному займу, что происходит с заложенным жильём и когда остаток долга всё-таки списывают.",
-  "topic_action": "проверку ситуации с валютной ипотекой при банкротстве",
+  "lead": "Разбираем, когда залогодержатель вправе забрать заложенную квартиру, по какому курсу пересчитают валютный остаток и что реально даёт план реструктуризации.",
+  "topic_action": "проверку вариантов защиты жилья при банкротстве",
   "breadcrumb_current": "Валютная ипотека при банкротстве",
   "og_image": "/assets/articles/valyutnaya-ipoteka-bankrotstvo-fizlica.jpg",
   "main_keyword": "валютная ипотека при банкротстве физлица",
   "secondary_keywords": [
-    "валютная ипотека банкротство",
-    "защита жилья при банкротстве физлица",
-    "валютная ипотека швейцарский франк",
+    "что будет с ипотекой при банкротстве физлица",
+    "валютная ипотека и банкротство",
+    "защита жилья при банкротстве",
+    "может ли банк отобрать квартиру при банкротстве",
     "ипотека в иностранной валюте банкротство",
-    "сохранить дом при банкротстве",
-    "реструктуризация валютного долга",
-    "льготы по ипотеке при финансовых трудностях",
-    "судебная практика валютная ипотека",
-    "взыскание по валютной ипотеке",
-    "защита прав должника по ипотеке"
+    "как сохранить квартиру при банкротстве",
+    "ипотечный долг в валюте при несостоятельности",
+    "льготы для должников с ипотекой"
   ],
   "internal_links": [
     "/articles/fiz/bankrotstvo-fizlica-pri-razvode",
-    "/articles/fiz/bankovskie-scheta-pri-bankrotstve"
+    "/articles/fiz/bankrotstvo-pri-ipoteke-edinstvennoe-zhilye"
   ],
   "external_links": [
     "https://www.consultant.ru/document/cons_doc_LAW_5142/",
-    "https://www.consultant.ru/document/cons_doc_LAW_39331/",
-    "https://www.consultant.ru/document/cons_doc_LAW_382961/"
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/"
   ],
   "faq": [
     {
-      "question": "Что происходит с квартирой по валютной ипотеке, когда гражданин подаёт на банкротство?",
-      "answer": "Объект переходит в конкурсную массу как имущество, обременённое залогом. Финансовый управляющий выставляет его на торги, выручка идёт сначала залогодержателю, остаток - другим кредиторам по очередям."
+      "question": "Можно ли сохранить квартиру в валютной ипотеке через несостоятельность?",
+      "answer": "Да, но только через утверждённый план реструктуризации при стабильном доходе. При реализации имущества залоговый объект продаётся в любом случае - даже когда он у семьи единственный."
     },
     {
-      "question": "Можно ли остановить аукцион по продаже ипотечного жилья, подав заявление о несостоятельности?",
-      "answer": "Да. С момента введения процедуры исполнительные производства приостанавливаются. Торги, которые готовил пристав, не пройдут - продажа переедет в банкротное дело и пойдёт через управляющего."
+      "question": "Как рассчитывают долг, если кредит был оформлен в долларах или франках?",
+      "answer": "По официальному курсу ЦБ на дату введения дела. Цифра фиксируется один раз и пересмотру не подлежит, даже если потом валюта существенно упала."
     },
     {
-      "question": "Включаются ли курсовые убытки в реестр требований кредиторов?",
-      "answer": "Включаются целиком. Переоценка обязательства в валюте происхождения - не штраф и не пеня. Снизить или отменить эту часть арбитраж не вправе."
+      "question": "Что станет с остатком, если выручки от продажи не хватило?",
+      "answer": "По общему правилу остаток обнуляется. Исключение - доказанная недобросовестность заёмщика при получении кредита: фальшивые справки о зарплате, сокрытие иных обязательств."
     },
     {
-      "question": "При каком уровне дохода суд реально утвердит план реструктуризации по валютному ипотечному долгу?",
-      "answer": "Заработка должно хватать на прожиточный минимум семьи, обязательные удержания и сам ипотечный взнос - с запасом на возможный рост курса. Если доход нестабилен или близок к минимальной планке, план не утвердят."
+      "question": "Платит ли должник государственную пошлину?",
+      "answer": "Нет. С 8 сентября 2024 года гражданин при подаче заявления о собственной несостоятельности от пошлины освобождён (ст. 333.37 НК РФ после поправок ФЗ-176 от 12 июля 2024 года)."
     },
     {
-      "question": "Спишут ли остаток задолженности, если выручка от продажи недвижимости не покрыла всю сумму?",
-      "answer": "В большинстве случаев да - норма об освобождении от неудовлетворённых требований работает и для валютных займов. Условие - добросовестное поведение заёмщика на протяжении всей процедуры."
+      "question": "Когда суд откажет в списании остатка по валютному займу?",
+      "answer": "При недобросовестности на стадии получения кредита (фальшивые справки о зарплате, сокрытие других займов), сокрытии имущества во время дела, наличии непогашенной судимости за экономическое преступление."
     },
     {
-      "question": "Чем грозит банкротство, если ипотечная квартира явно избыточна по площади?",
-      "answer": "Суд может оценить недвижимость как роскошную и разрешить её продажу с предоставлением средств на скромное замещающее жильё в том же населённом пункте. Решение принимается по позиции Конституционного суда от апреля 2021 года."
+      "question": "Сколько длится реструктуризация при ипотечном залоге?",
+      "answer": "С одобрения собрания кредиторов - до пяти лет. Без их согласия, по решению арбитража - до трёх."
     }
   ],
   "factcheck_passed": true,
   "factcheck_notes": [
-    "Все факты сверены с research.json. Статусы: active для f1-f11. f12 имеет needs_verification (практика АС МО) - формулировка смягчена до буквы закона без ссылки на конкретные решения.",
-    "Термин 'наблюдение' в draft исправлен на 'процедура': для физлиц применяется ст. 213.11 127-ФЗ, термин 'наблюдение' относится к юридическим лицам и некорректен здесь.",
-    "ПМ 2026: 20 644 руб. (ФЗ-426 от 28.11.2025) - соответствует f9, last_verified 2026-06-26.",
-    "Вознаграждение управляющего: 25 000 руб. + 7% от выручки по ст. 20.6 п. 17 127-ФЗ - соответствует f8. Контекст применения корректен (процедура реализации).",
-    "Постановление КС № 15-П от 26.04.2021 о роскошном жилье - соответствует f2. Оговорка о неабсолютности иммунитета присутствует.",
-    "Освобождение от остатка по ст. 213.28 п. 3 127-ФЗ - соответствует f10. Условие добросовестности указано.",
-    "Условия реструктуризации (4 критерия, срок 5 лет) - соответствует f5, ст. 213.13 п. 1 127-ФЗ.",
-    "Внутренние ссылки исправлены: убрано расширение .html согласно требованиям формата.",
-    "Forbidden claims не нарушены: нет гарантий сохранения жилья, нет утверждений о льготах по валютным ипотекам, нет тезиса о снижении долга из-за курса."
+    "Все факты сверены с research.json. Статусы: active, last_verified 2026-06-26 для всех ключевых утверждений.",
+    "Залог не защищён ст. 446 ГПК РФ (абз. 3 ч. 1) - подтверждено f3; исполнительский иммунитет на заложенное жильё не распространяется.",
+    "Курс ЦБ РФ на дату введения процедуры - ст. 213.27 п. 2 127-ФЗ - подтверждено f5; контекст применения нормы корректен (процедура реализации/реструктуризации физлица).",
+    "Прожиточный минимум 20 644 руб. в 2026 году - подтверждено f7 (ст. 213.25 п. 3 127-ФЗ).",
+    "Реструктуризация 3-5 лет - ст. 213.13-213.14 127-ФЗ - подтверждено f4; условия утверждения плана (доход, отсутствие предыдущего банкротства 5 лет, графика 8 лет, судимости) переданы корректно.",
+    "Постановление КС РФ № 15-П от 26.04.2021 - неабсолютность иммунитета единственного жилья - подтверждено f2; оговорка об избыточной площади и замещающем жилье присутствует в тексте.",
+    "Госпошлина 0 руб. с 08.09.2024 - ФЗ-176 от 12.07.2024, ст. 333.37 НК РФ - подтверждено f9; устаревшее значение 300 руб. в тексте отсутствует.",
+    "f8 (срок реализации 6 мес.) имеет legislation_status: needs_verification - конкретный срок реализации в тексте не указан, использована safe_phrasing без цифры.",
+    "Forbidden claims: ни один из запрещённых тезисов (автоматическое сохранение жилья, полное списание, нейтральность курса) в тексте не присутствует."
   ],
-  "keyword_density_main": 0.017,
-  "main_keyword_exact_count": 2,
-  "text_chars": 8130,
+  "keyword_density_main": 0.011,
+  "main_keyword_exact_count": 1,
+  "text_chars": 8060,
   "textru_status": "local_only",
   "textru_uniqueness": null,
   "textru_ai_detector": null,
   "textru_spam": null,
-  "local_spam_top10_share": 0.09,
-  "local_spam_ngram3_repeat": 0.038,
-  "local_lexical_diversity": 0.639,
-  "local_ai_markers_density": 0.2,
+  "local_spam_top10_share": 0.098,
+  "local_spam_ngram3_repeat": 0.046,
+  "local_lexical_diversity": 0.626,
+  "local_ai_markers_density": 0.3,
   "local_ai_markers_critical": 0,
-  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1782459207/articles/valyutnaya-ipoteka-bankrotstvo-fizlica-cover.jpg",
-  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1782459207/articles/valyutnaya-ipoteka-bankrotstvo-fizlica-cover.jpg",
-  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Editorial photograph of a polished marble slab in warm cream tones, with foreground objects symbolizing property protection and domestic sanctuary. A brass key ring holding three keys sits at the left, denoting home ownership. A closed dark leather portfolio rests center-left, suggesting legal documents and contractual defense. A polished round seal reflects soft light nearby. An antique brass pocket watch lies partly open, its unreadable face marking the passage of procedural time. A small white porcelain coffee cup sits at right, evoking the warmth of family and home at stake. Soft architectural background: blurred marble columns and distant stone wall. Camera: tabletop eye-level, slight three-quarter angle. Lighting: natural soft daylight from upper left grazing the stone surface, revealing warm veining and texture. Palette: warm cream, cool grey shadow, brass accents. Mood: protective threshold between legal procedure and domestic sanctuary.\n\nscene_written template_id=28. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
-  "cover_uploaded_at": "2026-06-26T07:33:28Z",
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1782460608/articles/valyutnaya-ipoteka-bankrotstvo-fizlica-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1782460608/articles/valyutnaya-ipoteka-bankrotstvo-fizlica-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Editorial photograph of a polished dark walnut conference table with minimal strategic arrangement — closed oxblood leather portfolio, fountain pen aligned diagonal across its edge, water carafe with two empty crystal glasses, single tall red leather chair-back at the far end. Camera: symmetric down-the-table, eye-level. Background: city skyline in soft evening fog and rain through tall windows, blurred. Lighting: cool natural window light blended with warm pendant glow, refined shadows on walnut. Materials: walnut, oxblood leather, crystal, brushed brass. Palette: dark graphite, warm brass accents. Mood: serious deliberation over strategic choice to protect home during financial crisis. Premium legal editorial aesthetic.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-06-26T07:56:49Z",
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "targeted_tokens_over_limit: РФ_рудимент=3(>≤2), 127фз_закон=3(>≤2)"
+  ],
   "length_status": "too_long",
   "length_kind": "default",
-  "local_ai_markers_total": 2,
-  "local_ai_markers_high": 0,
+  "local_ai_markers_total": 3,
+  "local_ai_markers_high": 1,
   "local_own_voice_hits": 2,
   "local_first_person_singular_hits": 0,
   "quality_gate_passed": true,
   "quality_gate_blockers": [],
-  "quality_gate_retry_count": 2,
+  "quality_gate_retry_count": 3,
   "predicted_spam_pct": 51,
   "predicted_ai_pct": 3,
   "predicted_uniqueness_pct": 87,
   "customer_risks": [
     "заспамленность чуть выше 50% (~51%)",
-    "длина значительно больше лимита 6500 (8 130 знаков)"
-  ],
-  "date_published": "2026-06-26",
-  "date_modified": "2026-06-26",
-  "ready_for_review": true,
-  "ready_at": "2026-06-26T07:33:31Z",
-  "publication_target": "telegram_review"
+    "длина значительно больше лимита 6500 (8 060 знаков)"
+  ]
 }

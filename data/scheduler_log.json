@@ -20659,5 +20659,70 @@
     "timestamp": "2026-06-26T08:31:02",
     "status": "preflight_failed",
     "reason": "rate_limit: You've hit your limit · resets 10:10am (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-26T10:00:06",
+    "category": "fiz",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 4,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 3,
+        "found": [
+          "avtomobil-pri-bankrotstve-fizlica",
+          "obzor-vs-rf-5-2026-bankrotstvo-glavnoe",
+          "rashody-bankrotstva-vzyskat-s-uchreditelya"
+        ],
+        "pushed": true
+      }
+    },
+    "mode": "new",
+    "topic_id": "fiz-127",
+    "topic_slug": "valyutnaya-ipoteka-bankrotstvo-fizlica",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "length_soft_passed: 8130 > 6500 но ≤ 8500 и iteration=2 — пропускаем (приоритет spam/uniqueness/ai)"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "finalize_safety_net": {
+      "ran": true,
+      "rc": 0
+    },
+    "status": "ok",
+    "slug": "valyutnaya-ipoteka-bankrotstvo-fizlica",
+    "duration_sec": 2005.5,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "7451     73193\n6-seo-editor        sonnet            6      14        0     94556        20\n7-publisher         haiku            20      12    39296     25520     39328\n------------------------------------------------------------------------------------------\nИТОГО                                84      60   292210    299968    292354\nBillable-токенов на статью: ~292K (cache_read 299K не считается в лимит подписки).\nАртефакты: drafts/valyutnaya-ipoteka-bankrotstvo-fizlica/  | quality_gate exit=0",
+    "stderr_tail": "",
+    "tokens_by_model": {},
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 8130
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]
