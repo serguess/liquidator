@@ -20724,5 +20724,44 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-06-26T14:48:37",
+    "category": "yur",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 10,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 1,
+        "found": [
+          "valyutnaya-ipoteka-bankrotstvo-fizlica"
+        ],
+        "pushed": true
+      }
+    },
+    "mode": "new",
+    "topic_id": "yur-123",
+    "topic_slug": "mezhdunarodnoe-bankrotstvo-rossiyskih-kompanij-sovety",
+    "status": "failed",
+    "slug": "mezhdunarodnoe-bankrotstvo-rossiyskih-kompanij-sovety",
+    "duration_sec": 651.8,
+    "returncode": 1,
+    "rescued_after_failure": false,
+    "stdout_tail": "ок, 28.3с\n=== 2-legal-research (claude haiku) ===\n   ok: 18203 симв., usage in=82 out=35 cache_w=203318 cache_r=280936 billable=203435 ток, 148.5с\n   ok: 16863 симв., billable=72630 ток (model=sonnet)\n   [outline_validate] exit=1\n=== 4-writer (claude opus) ===\n   ok: 10588 симв., billable=131844 ток, 176.7с\n   [writer self-fix проход 2]\n   ok: billable=70203 ток\n=== 5-uniqueness (embed_compare) ===\n   passed=True scores={'structure_overlap': 0.0, 'thesis_similarity': 0.024, 'cta_overlap': 0.078}",
+    "stderr_tail": "[ERR] rate_limit: put_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard\",\"cache_creation\":{\"ephemeral_1h_input_tokens\":0,\"ephemeral_5m_input_tokens\":0},\"inference_geo\":\"\",\"iterations\":[],\"speed\":\"standard\"},\"modelUsage\":{},\"permission_denials\":[],\"terminal_reason\":\"completed\",\"fast_mode_state\":\"off\",\"uuid\":\"308ba635-06be-4f89-bde2-61b90acd42cd\"}\n\n",
+    "tokens_by_model": {},
+    "metrics": null
   }
 ]
