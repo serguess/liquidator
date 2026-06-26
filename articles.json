@@ -2,6 +2,19 @@
   "generated": "2026-06-26",
   "articles": [
     {
+      "slug": "valyutnyj-dolg-v-bankrotstve-na-kakuyu-datu",
+      "cat": "news",
+      "catLabel": "Новости",
+      "title": "Валютный долг в банкротстве: на какую дату курс ЦБ",
+      "desc": "ВС РФ разъяснил: курс валютного долга в реестре берётся на дату введения первой процедуры после наступления срока, а не на дату конкурсного производства.",
+      "date": "26 июня 2026",
+      "dateIso": "2026-06-26",
+      "read": "4 мин.",
+      "tone": "b",
+      "img": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1778157914/articles/bankrotstvo-ooo-poshagovo-2026-cover.jpg",
+      "url": "articles/news/valyutnyj-dolg-v-bankrotstve-na-kakuyu-datu"
+    },
+    {
       "slug": "rashody-bankrotstva-vzyskat-s-uchreditelya",
       "cat": "news",
       "catLabel": "Новости",

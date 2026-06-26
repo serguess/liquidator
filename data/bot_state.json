@@ -830,7 +830,7 @@
     "valyutnyj-dolg-v-bankrotstve-na-kakuyu-datu": {
       "category": "news",
       "title": "Валютный долг в банкротстве: на какую дату курс ЦБ",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -838,13 +838,15 @@
       "tg_message_id": 1676,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-13T21:49:55",
-      "last_action_at": "2026-05-13T21:49:55",
+      "last_action_at": "2026-06-26T13:56:30",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/news/valyutnyj-dolg-v-bankrotstve-na-kakuyu-datu",
       "pending_batch": false,
       "pending_batch_at": "2026-06-26T10:19:23",
-      "batch_sent_at": "2026-06-26T10:19:23"
+      "batch_sent_at": "2026-06-26T10:19:23",
+      "published_at": "2026-06-26T13:56:30",
+      "articles_path": "articles/news/valyutnyj-dolg-v-bankrotstve-na-kakuyu-datu.html"
     },
     "ogranichenie-kreditov-vysokaya-dolgovaya-nagruzka-mpl": {
       "category": "news",
