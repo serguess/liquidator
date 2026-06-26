@@ -552,7 +552,7 @@
     "porog-bankrotstva-yurlica-2-mln-rubley": {
       "category": "yur",
       "title": "Порог банкротства юрлица: долг от 2 млн рублей",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -560,13 +560,15 @@
       "tg_message_id": 1672,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-12T11:35:43",
-      "last_action_at": "2026-05-12T11:35:43",
+      "last_action_at": "2026-06-26T13:54:16",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/yur/porog-bankrotstva-yurlica-2-mln-rubley",
       "pending_batch": false,
       "pending_batch_at": "2026-06-26T10:19:18",
-      "batch_sent_at": "2026-06-26T10:19:18"
+      "batch_sent_at": "2026-06-26T10:19:18",
+      "published_at": "2026-06-26T13:54:16",
+      "articles_path": "articles/yur/porog-bankrotstva-yurlica-2-mln-rubley.html"
     },
     "vzyskanie-neustoyki-s-zastrojshchika": {
       "category": "vzysk",
