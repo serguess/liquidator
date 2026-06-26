@@ -1,6 +1,19 @@
 {
-  "generated": "2026-06-25",
+  "generated": "2026-06-26",
   "articles": [
+    {
+      "slug": "avtomobil-pri-bankrotstve-fizlica",
+      "cat": "fiz",
+      "catLabel": "Банкротство физических лиц",
+      "title": "Автомобиль при банкротстве физлица: продадут ли машину",
+      "desc": "Разбираем, когда машину продают на торгах при банкротстве, а когда суд может её оставить — инвалидность, работа, залог. Практика ВС РФ.",
+      "date": "26 июня 2026",
+      "dateIso": "2026-06-26",
+      "read": "5 мин.",
+      "tone": "b",
+      "img": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1779867435/articles/avtomobil-pri-bankrotstve-fizlica-cover.jpg",
+      "url": "articles/fiz/avtomobil-pri-bankrotstve-fizlica"
+    },
     {
       "slug": "rosprirodnadzor-isk-v-bankrotstve-ekostroj-don",
       "cat": "news",

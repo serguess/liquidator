@@ -557,13 +557,16 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": 414,
+      "tg_message_id": 1672,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-12T11:35:43",
       "last_action_at": "2026-05-12T11:35:43",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-06-26T10:19:18",
+      "batch_sent_at": "2026-06-26T10:19:18"
     },
     "vzyskanie-neustoyki-s-zastrojshchika": {
       "category": "vzysk",
@@ -830,13 +833,16 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": 509,
+      "tg_message_id": 1676,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-13T21:49:55",
       "last_action_at": "2026-05-13T21:49:55",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-06-26T10:19:23",
+      "batch_sent_at": "2026-06-26T10:19:23"
     },
     "ogranichenie-kreditov-vysokaya-dolgovaya-nagruzka-mpl": {
       "category": "news",
@@ -3055,7 +3061,7 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": 963,
+      "tg_message_id": 1674,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-26T15:21:18",
       "last_action_at": "2026-05-27T10:04:18",
@@ -3063,8 +3069,8 @@
       "rejection_reason": null,
       "published_url": null,
       "pending_batch": false,
-      "pending_batch_at": "2026-05-26T15:21:18",
-      "batch_sent_at": "2026-05-27T10:04:18",
+      "pending_batch_at": "2026-06-26T10:19:20",
+      "batch_sent_at": "2026-06-26T10:19:21",
       "batch_fail_count": 0
     },
     "pensiya-pri-bankrotstve-fizlica": {
@@ -3190,21 +3196,23 @@
     "avtomobil-pri-bankrotstve-fizlica": {
       "category": "fiz",
       "title": "Автомобиль при банкротстве физлица: продадут ли машину",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
       ],
-      "tg_message_id": 977,
+      "tg_message_id": 1670,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-27T10:38:25",
-      "last_action_at": "2026-05-27T10:38:25",
+      "last_action_at": "2026-06-26T13:53:33",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/fiz/avtomobil-pri-bankrotstve-fizlica",
       "pending_batch": false,
-      "pending_batch_at": "2026-05-27T10:38:25",
-      "batch_sent_at": "2026-05-27T11:34:56"
+      "pending_batch_at": "2026-06-26T10:19:16",
+      "batch_sent_at": "2026-06-26T10:19:16",
+      "published_at": "2026-06-26T13:53:33",
+      "articles_path": "articles/fiz/avtomobil-pri-bankrotstve-fizlica.html"
     },
     "otkaz-ot-dogovora-pri-bankrotstve-statya-102": {
       "category": "yur",
@@ -6864,10 +6872,28 @@
       "batch_fail_count": 0,
       "published_at": "2026-06-25T12:05:14",
       "articles_path": "articles/news/rosprirodnadzor-isk-v-bankrotstve-ekostroj-don.html"
+    },
+    "valyutnaya-ipoteka-bankrotstvo-fizlica": {
+      "category": "fiz",
+      "title": "Валютная ипотека при банкротстве физлица: защита жилья",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-06-26T10:34:26",
+      "last_action_at": "2026-06-26T10:34:26",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-06-26T10:34:26"
     }
   },
   "pending_actions": [],
-  "last_batch_date": "2026-06-25",
-  "last_batch_count": 4,
-  "last_batch_at": "2026-06-25T10:00:34"
+  "last_batch_date": "2026-06-26",
+  "last_batch_count": 0,
+  "last_batch_at": "2026-06-26T10:00:23"
 }
