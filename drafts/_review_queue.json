@@ -3424,6 +3424,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "valyutnaya-ipoteka-bankrotstvo-fizlica",
+      "category": "fiz",
+      "title": "Валютная ипотека при банкротстве физлица: защита жилья",
+      "added_at": "2026-06-26T10:33:31.951375",
+      "char_count": 8130,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1782459207/articles/valyutnaya-ipoteka-bankrotstvo-fizlica-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
