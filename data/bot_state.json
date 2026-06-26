@@ -3058,7 +3058,7 @@
     "rashody-bankrotstva-vzyskat-s-uchreditelya": {
       "category": "news",
       "title": "Расходы на банкротство - теперь с учредителя",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -3066,14 +3066,16 @@
       "tg_message_id": 1674,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-05-26T15:21:18",
-      "last_action_at": "2026-05-27T10:04:18",
+      "last_action_at": "2026-06-26T13:55:25",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/news/rashody-bankrotstva-vzyskat-s-uchreditelya",
       "pending_batch": false,
       "pending_batch_at": "2026-06-26T10:19:20",
       "batch_sent_at": "2026-06-26T10:19:21",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-06-26T13:55:25",
+      "articles_path": "articles/news/rashody-bankrotstva-vzyskat-s-uchreditelya.html"
     },
     "pensiya-pri-bankrotstve-fizlica": {
       "category": "fiz",
