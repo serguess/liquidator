@@ -2385,7 +2385,7 @@ def run_one_article() -> dict:
                    "--slug", resume_slug, "--category", category,
                    "--topic", rw_topic, "--prod-slug", "--from-stage", "6"]
             HEARTBEAT_PATH.write_text(
-                f"{datetime.now().isoformat(timespec=seconds)} | started",
+                f"{datetime.now().isoformat(timespec='seconds')} | started",
                 encoding="utf-8",
             )
             attempt_started = time.time()
