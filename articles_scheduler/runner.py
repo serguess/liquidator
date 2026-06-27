@@ -918,8 +918,9 @@ def _find_failed_qa_for_retry(max_iterations: int = 3) -> str | None:
 
 def _find_failed_pipeline_for_resume() -> tuple[str | None, str | None]:
     """
-    Проверяет последний entry в scheduler_log: если status=failed и
-    в drafts/{slug}/ есть draft.md но нет body.html - статья упала на stage 6+.
+    Ищет последний failed entry в scheduler_log (пропуская preflight_failed,
+    limit_reached и т.п.): если в drafts/{slug}/ есть draft.md но нет body.html,
+    статья упала на stage 6+ и её можно дописать.
     Возвращает (slug, category) для resume, или (None, None).
     """
     try:
@@ -928,19 +929,23 @@ def _find_failed_pipeline_for_resume() -> tuple[str | None, str | None]:
         return None, None
     if not slog:
         return None, None
-    last = slog[-1]
-    if last.get("status") != "failed":
+    for entry in reversed(slog):
+        status = entry.get("status")
+        if status == "ok":
+            return None, None
+        if status != "failed":
+            continue
+        slug = entry.get("slug")
+        if not slug:
+            continue
+        slug_dir = DRAFTS_DIR / slug
+        has_draft = (slug_dir / "draft.md").exists()
+        has_body = (slug_dir / "body.html").exists()
+        if has_draft and not has_body:
+            cat = entry.get("category") or "fiz"
+            log.info("Resume-кандидат: %s (cat=%s) - draft.md есть, body.html нет", slug, cat)
+            return slug, cat
         return None, None
-    slug = last.get("slug")
-    if not slug:
-        return None, None
-    slug_dir = DRAFTS_DIR / slug
-    has_draft = (slug_dir / "draft.md").exists()
-    has_body = (slug_dir / "body.html").exists()
-    if has_draft and not has_body:
-        cat = last.get("category") or "fiz"
-        log.info("Resume-кандидат: %s (cat=%s) - draft.md есть, body.html нет", slug, cat)
-        return slug, cat
     return None, None
 
 
