@@ -17,7 +17,7 @@ import subprocess
 import sys
 import threading
 import time
-from datetime import datetime, date
+from datetime import datetime, date, timedelta
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -112,45 +112,30 @@ VALID_CATEGORIES = {"fiz", "yur", "vzysk", "news"}
 
 
 def _next_category() -> str:
-    """Ротация без midnight-reset: индекс по кумулятивному числу ok-слотов
-    в истории (`scheduler_log.json`).
+    """Ротация с ежедневным сбросом в BATCH_DELIVERY_HOUR (по умолчанию 10:00).
 
-    Раньше считали `today_ok` по календарному дню (`date.today()`). Это давало
-    «сброс счётчика в 00:00» — первый слот нового дня всегда `ROTATION[0]`,
-    даже если 10-минутами ранее ok-слот уже был. При переходе через полночь
-    последовательность ломалась (повторы одной категории, нарушенное
-    распределение 3:3:3:1 за сутки).
+    Считаем ok-слоты только с последней границы 10:00. Первый слот после 10:00
+    всегда ROTATION[0]. /setplan применяется с начала следующего цикла.
 
-    С 13 мая 2026 (после Bug A фикса): считаем все ok-слоты в логе,
-    `idx = total_ok % len(ROTATION)`. При `len(ROTATION) == ARTICLES_PER_DAY`
-    один полный круг ротации = ровно `ARTICLES_PER_DAY` ok-слотов, поэтому
-    распределение 3:3:3:1 сходится за каждый цикл независимо от того, в
-    какое время суток он завершился. Это критично для готовящейся
-    batch-доставки в TG (10 статей разом в 10 утра — доставка не должна
-    влиять на счётчик ротации).
-
-    Failed/failed_qa/hang_heartbeat не сдвигают ротацию (статья не дошла в
-    TG-очередь — категория получает retry со следующей темой). Это
-    подтверждено заказчиком 13 мая: «если failed прислал статью — сдвигает,
-    если не прислал — не сдвигает». `status=ok` означает
-    `ready_for_review: true, добавлена в TG-очередь` (видно в stdout_tail
-    каждого ok-слота). `topics_expanded` тоже сдвигает — иначе застрянем
-    на одной категории при пустом topic-map.
-
-    Override через ENV FORCE_CATEGORY (например, `FORCE_CATEGORY=news` для
-    разовой публикации новости). Заказчик с 13 мая ручные FORCE-запуски
-    больше не использует, но override остаётся для аварийных случаев.
+    Failed/failed_qa/hang_heartbeat не сдвигают ротацию.
+    topics_expanded сдвигает (иначе застрянем на пустой категории).
+    Override через ENV FORCE_CATEGORY для аварийных случаев.
     """
     forced = (os.getenv("FORCE_CATEGORY") or "").strip().lower()
     if forced in VALID_CATEGORIES:
         return forced
     if not ROTATION:
         return "fiz"
-    total_ok = sum(
+    reset_hour = int(os.getenv("BATCH_DELIVERY_HOUR", "10"))
+    now = datetime.now()
+    reset_today = now.replace(hour=reset_hour, minute=0, second=0, microsecond=0)
+    cycle_start = (reset_today - timedelta(days=1) if now < reset_today else reset_today).isoformat(timespec="seconds")
+    cycle_ok = sum(
         1 for e in _read_log()
         if e.get("status") in ("ok", "topics_expanded")
+        and (e.get("timestamp") or "") >= cycle_start
     )
-    idx = total_ok % len(ROTATION)
+    idx = cycle_ok % len(ROTATION)
     return ROTATION[idx]
 
 
@@ -929,6 +914,34 @@ def _find_failed_qa_for_retry(max_iterations: int = 3) -> str | None:
     # Самая старая по mtime quality_gate (хвостовой принцип: не накапливать долги)
     candidates.sort(key=lambda x: x[1])
     return candidates[0][0]
+
+
+def _find_failed_pipeline_for_resume() -> tuple[str | None, str | None]:
+    """
+    Проверяет последний entry в scheduler_log: если status=failed и
+    в drafts/{slug}/ есть draft.md но нет body.html - статья упала на stage 6+.
+    Возвращает (slug, category) для resume, или (None, None).
+    """
+    try:
+        slog = json.loads(SCHEDULER_LOG_PATH.read_text(encoding="utf-8"))
+    except (FileNotFoundError, json.JSONDecodeError):
+        return None, None
+    if not slog:
+        return None, None
+    last = slog[-1]
+    if last.get("status") != "failed":
+        return None, None
+    slug = last.get("slug")
+    if not slug:
+        return None, None
+    slug_dir = DRAFTS_DIR / slug
+    has_draft = (slug_dir / "draft.md").exists()
+    has_body = (slug_dir / "body.html").exists()
+    if has_draft and not has_body:
+        cat = last.get("category") or "fiz"
+        log.info("Resume-кандидат: %s (cat=%s) - draft.md есть, body.html нет", slug, cat)
+        return slug, cat
+    return None, None
 
 
 def _refresh_published_index() -> None:
@@ -2257,6 +2270,9 @@ def run_one_article() -> dict:
     forced_cat = (os.getenv("FORCE_CATEGORY") or "").strip().lower()
     forced_cat = forced_cat if forced_cat in VALID_CATEGORIES else ""
 
+    # Resume: если предыдущий слот упал на stage 6+ (draft.md есть, body.html нет)
+    resume_slug, resume_cat = _find_failed_pipeline_for_resume()
+
     retry_slug = _find_failed_qa_for_retry(max_iterations=3)
     if retry_slug:
         retry_meta = _read_meta(retry_slug)
@@ -2270,7 +2286,11 @@ def run_one_article() -> dict:
         else:
             log.info("Найдена failed_qa статья для доработки: %s", retry_slug)
 
-    if retry_slug:
+    if resume_slug:
+        category = resume_cat
+        slot_mode = "resume"
+        log.info("Resume предыдущего слота: %s (cat=%s) - дописываем с stage 6", resume_slug, category)
+    elif retry_slug:
         # Категория берётся из meta.json статьи, а не из ротации
         category = retry_meta.get("category") or _next_category()
         slot_mode = "rewrite"
@@ -2349,7 +2369,28 @@ def run_one_article() -> dict:
             r.stderr += f"\n[scheduler] hit slot/article timeout after {int(elapsed)}s"
             return r
 
-        if slot_mode == "rewrite" and retry_slug:
+        if slot_mode == "resume" and resume_slug:
+            entry["mode"] = "resume"
+            entry["resume_slug"] = resume_slug
+            resume_meta = _read_meta(resume_slug)
+            rw_topic = (resume_meta.get("title") or resume_meta.get("h1")
+                        or resume_meta.get("main_keyword") or resume_slug)
+            log.info("Resume pipeline --from-stage 6: %s (cat=%s)", resume_slug, category)
+            cmd = [sys.executable, "-u", "migration/pipeline_run_claude.py",
+                   "--slug", resume_slug, "--category", category,
+                   "--topic", rw_topic, "--prod-slug", "--from-stage", "6"]
+            HEARTBEAT_PATH.write_text(
+                f"{datetime.now().isoformat(timespec=seconds)} | started",
+                encoding="utf-8",
+            )
+            attempt_started = time.time()
+            try:
+                result = _run_claude_with_heartbeat(
+                    cmd, timeout_sec=int(slot_deadline - time.time()),
+                )
+            except subprocess.TimeoutExpired as exc:
+                result = _synth_timeout_result(exc, time.time() - attempt_started)
+        elif slot_mode == "rewrite" and retry_slug:
             claude_command = f"/rewrite-article {retry_slug}"
             entry["mode"] = "rewrite"
             entry["retry_slug"] = retry_slug
@@ -2697,7 +2738,9 @@ def run_one_article() -> dict:
         # но вылететь на финале (например, hit limit на агенте 7 publisher).
         # Если папка готова и article.html существует — спасаем её, иначе
         # вся проделанная работа теряется при следующем редеплое.
-        if slot_mode == "rewrite" and retry_slug:
+        if slot_mode == "resume" and resume_slug:
+            slug = resume_slug
+        elif slot_mode == "rewrite" and retry_slug:
             slug = retry_slug
         else:
             # Передаём expected_slug из topic-map чтобы поймать случай когда

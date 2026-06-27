@@ -60,6 +60,7 @@ import argparse
 import json
 import os
 import subprocess
+import tempfile
 import sys
 import time
 from pathlib import Path
@@ -202,21 +203,30 @@ def _run_claude_once(model: str, system: str, user: str) -> tuple[int, str, floa
     стримит промежуточные события, молчит до конца). Поэтому только hard-timeout
     на ВЕСЬ шаг. Зависший агент убивается по STEP_TIMEOUT_SEC.
     """
+    # System prompt -> temp file (Linux MAX_ARG_STRLEN = 128KB, writer ~130KB)
+    sys_tmp = tempfile.NamedTemporaryFile(
+        mode="w", suffix=".txt", dir=str(ROOT), delete=False, encoding="utf-8",
+    )
+    sys_tmp.write(system)
+    sys_tmp.close()
     cmd = [
         CLAUDE_BIN, "--print",
         "--model", model,
         "--output-format", "stream-json", "--verbose",
-        "--append-system-prompt", system,
+        "--append-system-prompt-file", sys_tmp.name,
         "--dangerously-skip-permissions",
-        user,
     ]
     t0 = time.time()
     try:
         proc = subprocess.Popen(
-            cmd, cwd=str(ROOT), stdout=subprocess.PIPE, stderr=subprocess.STDOUT,
+            cmd, cwd=str(ROOT), stdin=subprocess.PIPE,
+            stdout=subprocess.PIPE, stderr=subprocess.STDOUT,
             text=True, encoding="utf-8", errors="replace", bufsize=1,
         )
+        proc.stdin.write(user)
+        proc.stdin.close()
     except FileNotFoundError:
+        os.unlink(sys_tmp.name)
         sys.exit(f"[ERR] claude binary не найден в PATH (CLAUDE_BIN={CLAUDE_BIN})")
 
     parts: list[str] = []
@@ -227,28 +237,37 @@ def _run_claude_once(model: str, system: str, user: str) -> tuple[int, str, floa
             proc.wait(timeout=10)
         except Exception:  # noqa: BLE001
             pass
+        try:
+            os.unlink(sys_tmp.name)
+        except OSError:
+            pass
         raise _Timeout(reason)
 
-    while True:
-        if proc.poll() is not None:
-            rest = proc.stdout.read()
-            if rest:
-                parts.append(rest)
-            break
-        try:
-            import select as _select
-            rlist, _, _ = _select.select([proc.stdout], [], [], 5.0)
-            if rlist:
+    try:
+        while True:
+            if proc.poll() is not None:
+                rest = proc.stdout.read()
+                if rest:
+                    parts.append(rest)
+                break
+            try:
+                import select as _select
+                rlist, _, _ = _select.select([proc.stdout], [], [], 5.0)
+                if rlist:
+                    line = proc.stdout.readline()
+                    if line:
+                        parts.append(line)
+            except (ImportError, OSError):
                 line = proc.stdout.readline()
                 if line:
                     parts.append(line)
-        except (ImportError, OSError):
-            # Windows: select не работает на pipes — читаем блокирующе
-            line = proc.stdout.readline()
-            if line:
-                parts.append(line)
-        if time.time() - t0 > STEP_TIMEOUT_SEC:
-            _kill(f"hard timeout >{STEP_TIMEOUT_SEC}s на {model}")
+            if time.time() - t0 > STEP_TIMEOUT_SEC:
+                _kill(f"hard timeout >{STEP_TIMEOUT_SEC}s на {model}")
+    finally:
+        try:
+            os.unlink(sys_tmp.name)
+        except OSError:
+            pass
 
     return proc.returncode, "".join(parts), time.time() - t0
 
@@ -356,6 +375,8 @@ def main() -> int:
     ap.add_argument("--news-zone", default="legislation")
     ap.add_argument("--prod-slug", action="store_true",
                     help="писать в drafts/{slug}/ (без _mig-) — для scheduler")
+    ap.add_argument("--from-stage", type=int, default=1,
+                    help="пропустить stages до N, читать артефакты из drafts/ (для resume)")
     args = ap.parse_args()
 
     cat = args.category
@@ -365,6 +386,12 @@ def main() -> int:
     workdir.mkdir(parents=True, exist_ok=True)
     usage_log: list[dict] = []
     sample = (DRAFTS / "edinyj-portal-bankrotstva-fedresurs") if cat == "news" else SAMPLE
+    from_stage = args.from_stage
+
+    if from_stage > 1:
+        print(f">>> RESUME from stage {from_stage}, reading existing artifacts", flush=True)
+        bd = json.loads(read(workdir / "brief.json"))
+        rd = json.loads(read(workdir / "research.json"))
 
     def step(name: str, system: str, user: str, json_mode_hint: bool = False,
              no_reasoning: bool = False) -> str:
@@ -387,130 +414,134 @@ def main() -> int:
               f"billable={usage['total_billable']} ток, {usage['seconds']}с")
         return content
 
-    # ---- 1. semantics → brief.json ----
-    sys1 = agent_prompt("1-semantics") + f"\n\n=== ОБРАЗЕЦ ФОРМАТА brief.json ===\n{read(sample/'brief.json')}"
-    news_hint = ""
-    if cat == "news":
-        news_hint = (
-            f"\nЭто NEWS-тема. ОБЯЗАТЕЛЬНО заполни в brief: event_date=\"{args.event_date}\", "
-            f"news_zone=\"{args.news_zone}\", primary_source=\"{args.primary_source}\". "
-            "Длина news 4500-6500 знаков. Фокус на конкретном событии/изменении, не общий гайд.")
-    usr1 = (f"category={cat}\nslug={real_slug}\nТема: {args.topic}{news_hint}\n\n"
-            f"Верни brief.json для этой темы (slug строго '{real_slug}'). "
-            "Каннибализацию и WebSearch пропусти. Только валидный JSON.")
-    # Агент 1 — rate_limit и topic-reject должны дойти до runner без перехвата.
-    # StepFailed здесь = нет смысла продолжать (нет brief → нет всего остального).
-    try:
-        brief = step("1-semantics", sys1, usr1, json_mode_hint=True)
-        bd = parse_json_safe(brief, "brief", workdir)
-    except StepFailed as e:
-        print(f"[ERR] 1-semantics failed: {e}", flush=True)
-        sys.exit(1)
-    bd["slug"] = real_slug; bd["category"] = cat
-    save(workdir, "brief.json", json.dumps(bd, ensure_ascii=False, indent=2))
+    if from_stage <= 5:
+        # ---- 1. semantics → brief.json ----
+        sys1 = agent_prompt("1-semantics") + f"\n\n=== ОБРАЗЕЦ ФОРМАТА brief.json ===\n{read(sample/'brief.json')}"
+        news_hint = ""
+        if cat == "news":
+            news_hint = (
+                f"\nЭто NEWS-тема. ОБЯЗАТЕЛЬНО заполни в brief: event_date=\"{args.event_date}\", "
+                f"news_zone=\"{args.news_zone}\", primary_source=\"{args.primary_source}\". "
+                "Длина news 4500-6500 знаков. Фокус на конкретном событии/изменении, не общий гайд.")
+        usr1 = (f"category={cat}\nslug={real_slug}\nТема: {args.topic}{news_hint}\n\n"
+                f"Верни brief.json для этой темы (slug строго '{real_slug}'). "
+                "Каннибализацию и WebSearch пропусти. Только валидный JSON.")
+        # Агент 1 — rate_limit и topic-reject должны дойти до runner без перехвата.
+        # StepFailed здесь = нет смысла продолжать (нет brief → нет всего остального).
+        try:
+            brief = step("1-semantics", sys1, usr1, json_mode_hint=True)
+            bd = parse_json_safe(brief, "brief", workdir)
+        except StepFailed as e:
+            print(f"[ERR] 1-semantics failed: {e}", flush=True)
+            sys.exit(1)
+        bd["slug"] = real_slug; bd["category"] = cat
+        save(workdir, "brief.json", json.dumps(bd, ensure_ascii=False, indent=2))
 
-    # ---- 2. legal-research → research.json ----
-    sys2 = (agent_prompt("2-legal-research")
-            + f"\n\n=== ИСТОЧНИК ПРАВДЫ ПО ФАКТАМ (legal-facts.md) ===\n{read(STYLE/'legal-facts.md')}"
-            + f"\n\n=== ОБРАЗЕЦ ФОРМАТА research.json ===\n{read(sample/'research.json')}")
-    usr2 = (f"brief.json:\n{json.dumps(bd, ensure_ascii=False)}\n\n"
-            "WebSearch отключён — используй знания + legal-facts.md. Верни research.json (валидный JSON).")
-    try:
-        research = step("2-legal-research", sys2, usr2, json_mode_hint=True)
-        rd = parse_json_safe(research, "research", workdir)
-    except StepFailed as e:
-        # Fallback: минимальный research чтобы architect/writer продолжили.
-        # Качество снизится, но статья выйдет и не сожжёт слот.
-        print(f"   [warn] legal-research failed ({e}) — minimal fallback", flush=True)
-        rd = {
-            "fallback": True,
-            "legal_basis": [],
-            "key_facts": [],
-            "main_keyword": bd.get("main_keyword", args.topic),
-            "category": cat,
-        }
-    save(workdir, "research.json", json.dumps(rd, ensure_ascii=False, indent=2))
+        # ---- 2. legal-research → research.json ----
+        sys2 = (agent_prompt("2-legal-research")
+                + f"\n\n=== ИСТОЧНИК ПРАВДЫ ПО ФАКТАМ (legal-facts.md) ===\n{read(STYLE/'legal-facts.md')}"
+                + f"\n\n=== ОБРАЗЕЦ ФОРМАТА research.json ===\n{read(sample/'research.json')}")
+        usr2 = (f"brief.json:\n{json.dumps(bd, ensure_ascii=False)}\n\n"
+                "WebSearch отключён — используй знания + legal-facts.md. Верни research.json (валидный JSON).")
+        try:
+            research = step("2-legal-research", sys2, usr2, json_mode_hint=True)
+            rd = parse_json_safe(research, "research", workdir)
+        except StepFailed as e:
+            # Fallback: минимальный research чтобы architect/writer продолжили.
+            # Качество снизится, но статья выйдет и не сожжёт слот.
+            print(f"   [warn] legal-research failed ({e}) — minimal fallback", flush=True)
+            rd = {
+                "fallback": True,
+                "legal_basis": [],
+                "key_facts": [],
+                "main_keyword": bd.get("main_keyword", args.topic),
+                "category": cat,
+            }
+        save(workdir, "research.json", json.dumps(rd, ensure_ascii=False, indent=2))
 
-    # ---- 3. architect → outline.json + детерминированная валидация ----
-    pub_index = read(ROOT / "data" / "published_index.json")[:6000]
-    sys3 = agent_prompt("3-architect") + f"\n\n=== ОБРАЗЕЦ ФОРМАТА outline.json ===\n{read(sample/'outline.json')}"
-    usr3 = (f"brief.json:\n{json.dumps(bd, ensure_ascii=False)}\n\n"
-            f"research.json:\n{json.dumps(rd, ensure_ascii=False)}\n\n"
-            f"published_index (для перелинковки, фрагмент):\n{pub_index}\n\n"
-            "Верни outline.json с topic_terms и лексическими зонами (валидный JSON).")
-    try:
-        # no_reasoning=True убирает вывод пошаговых рассуждений — главный драйвер
-        # зависания architect. sonnet первым, haiku fallback при timeout.
-        outline_raw, arch_usage, arch_model = _claude_chat_with_model_fallback(
-            primary_model=MODELS["3-architect"],
-            fallback_model="haiku",
-            system=ADAPTER + sys3 + "\n\nВерни СТРОГО валидный JSON-объект и больше ничего."
-                   + "\n\nВыведи финальный артефакт за ОДНУ генерацию. НЕ выводи в ответе "
-                   "пошаговые рассуждения, планирование вслух, черновые варианты и "
-                   "повторные самопроверки — только готовый результат.",
-            user=usr3,
-            agent_name="3-architect",
-        )
-        arch_usage["agent"] = "3-architect"; arch_usage["model"] = arch_model
-        usage_log.append(arch_usage)
-        print(f"   ok: {len(outline_raw)} симв., billable={arch_usage['total_billable']} ток "
-              f"(model={arch_model})")
-        od = parse_json_safe(_strip_fences(outline_raw), "outline", workdir)
-    except StepFailed as e:
-        print(f"[ERR] 3-architect failed на всех моделях: {e}", flush=True)
-        sys.exit(1)
-    save(workdir, "outline.json", json.dumps(od, ensure_ascii=False, indent=2))
-    rc, _ = run_py(["tools.outline_validate", f"drafts/{work_slug}/outline.json", "--fix"])
-    print(f"   [outline_validate] exit={rc}")
+        # ---- 3. architect → outline.json + детерминированная валидация ----
+        pub_index = read(ROOT / "data" / "published_index.json")[:6000]
+        sys3 = agent_prompt("3-architect") + f"\n\n=== ОБРАЗЕЦ ФОРМАТА outline.json ===\n{read(sample/'outline.json')}"
+        usr3 = (f"brief.json:\n{json.dumps(bd, ensure_ascii=False)}\n\n"
+                f"research.json:\n{json.dumps(rd, ensure_ascii=False)}\n\n"
+                f"published_index (для перелинковки, фрагмент):\n{pub_index}\n\n"
+                "Верни outline.json с topic_terms и лексическими зонами (валидный JSON).")
+        try:
+            # no_reasoning=True убирает вывод пошаговых рассуждений — главный драйвер
+            # зависания architect. sonnet первым, haiku fallback при timeout.
+            outline_raw, arch_usage, arch_model = _claude_chat_with_model_fallback(
+                primary_model=MODELS["3-architect"],
+                fallback_model="haiku",
+                system=ADAPTER + sys3 + "\n\nВерни СТРОГО валидный JSON-объект и больше ничего."
+                       + "\n\nВыведи финальный артефакт за ОДНУ генерацию. НЕ выводи в ответе "
+                       "пошаговые рассуждения, планирование вслух, черновые варианты и "
+                       "повторные самопроверки — только готовый результат.",
+                user=usr3,
+                agent_name="3-architect",
+            )
+            arch_usage["agent"] = "3-architect"; arch_usage["model"] = arch_model
+            usage_log.append(arch_usage)
+            print(f"   ok: {len(outline_raw)} симв., billable={arch_usage['total_billable']} ток "
+                  f"(model={arch_model})")
+            od = parse_json_safe(_strip_fences(outline_raw), "outline", workdir)
+        except StepFailed as e:
+            print(f"[ERR] 3-architect failed на всех моделях: {e}", flush=True)
+            sys.exit(1)
+        save(workdir, "outline.json", json.dumps(od, ensure_ascii=False, indent=2))
+        rc, _ = run_py(["tools.outline_validate", f"drafts/{work_slug}/outline.json", "--fix"])
+        print(f"   [outline_validate] exit={rc}")
 
-    # ---- 4. writer → draft.md ----
-    print(f"\n=== 4-writer (claude {MODELS['4-writer']}) ===", flush=True)
-    wsys = ADAPTER + W.build_system_prompt()
-    wuser = W.build_user_prompt(work_slug, cat)
-    try:
-        draft, wusage = claude_chat(MODELS["4-writer"], wsys, wuser)
-    except StepFailed as e:
-        print(f"[ERR] 4-writer failed: {e}", flush=True)
-        sys.exit(1)
-    wusage["agent"] = "4-writer"; wusage["model"] = MODELS["4-writer"]
-    usage_log.append(wusage)
-    save(workdir, "draft.md", draft)
-    print(f"   ok: {len(draft)} симв., billable={wusage['total_billable']} ток, {wusage['seconds']}с")
+        # ---- 4. writer → draft.md ----
+        print(f"\n=== 4-writer (claude {MODELS['4-writer']}) ===", flush=True)
+        wsys = ADAPTER + W.build_system_prompt()
+        wuser = W.build_user_prompt(work_slug, cat)
+        try:
+            draft, wusage = claude_chat(MODELS["4-writer"], wsys, wuser)
+        except StepFailed as e:
+            print(f"[ERR] 4-writer failed: {e}", flush=True)
+            sys.exit(1)
+        wusage["agent"] = "4-writer"; wusage["model"] = MODELS["4-writer"]
+        usage_log.append(wusage)
+        save(workdir, "draft.md", draft)
+        print(f"   ok: {len(draft)} симв., billable={wusage['total_billable']} ток, {wusage['seconds']}с")
 
-    # self-fix 1 проход (cap=2)
-    rep = W.run_quality_checks(workdir / "draft.md")
-    if rep:
-        m = W.extract(rep)
-        if not (m["pred_spam"] <= 50 and m["lex"] >= 0.62 and m["length_status"] == "ok"):
-            print("   [writer self-fix проход 2]")
-            fix_user = wuser + "\n\n" + W.build_feedback(m) + (
-                "\n\nВыше — твой предыдущий черновик НЕ дотянул по числам. Перепиши "
-                "точечно по списку и верни ПОЛНЫЙ обновлённый draft.md тем же форматом."
-                "\n\n=== ТВОЙ ПРЕДЫДУЩИЙ DRAFT ===\n" + draft)
-            try:
-                draft, wusage2 = claude_chat(MODELS["4-writer"], wsys, fix_user)
-            except StepFailed as e:
-                print(f"   [warn] writer self-fix failed ({e}) — оставляю первый черновик",
-                      flush=True)
-                wusage2 = None
-            if wusage2:
-                wusage2["agent"] = "4-writer(fix)"; wusage2["model"] = MODELS["4-writer"]
-                usage_log.append(wusage2)
-                save(workdir, "draft.md", draft)
-                print(f"   ok: billable={wusage2['total_billable']} ток")
+        # self-fix 1 проход (cap=2)
+        rep = W.run_quality_checks(workdir / "draft.md")
+        if rep:
+            m = W.extract(rep)
+            if not (m["pred_spam"] <= 50 and m["lex"] >= 0.62 and m["length_status"] == "ok"):
+                print("   [writer self-fix проход 2]")
+                fix_user = wuser + "\n\n" + W.build_feedback(m) + (
+                    "\n\nВыше — твой предыдущий черновик НЕ дотянул по числам. Перепиши "
+                    "точечно по списку и верни ПОЛНЫЙ обновлённый draft.md тем же форматом."
+                    "\n\n=== ТВОЙ ПРЕДЫДУЩИЙ DRAFT ===\n" + draft)
+                try:
+                    draft, wusage2 = claude_chat(MODELS["4-writer"], wsys, fix_user)
+                except StepFailed as e:
+                    print(f"   [warn] writer self-fix failed ({e}) — оставляю первый черновик",
+                          flush=True)
+                    wusage2 = None
+                if wusage2:
+                    wusage2["agent"] = "4-writer(fix)"; wusage2["model"] = MODELS["4-writer"]
+                    usage_log.append(wusage2)
+                    save(workdir, "draft.md", draft)
+                    print(f"   ok: billable={wusage2['total_billable']} ток")
 
-    # ---- 5. uniqueness (детерминированный) ----
-    print("\n=== 5-uniqueness (embed_compare) ===", flush=True)
-    rc5, out5 = run_py(["tools.embed_compare", work_slug])
-    if out5.strip() and "{" in out5:
-        uniq = _try_parse_json(out5[out5.find("{"):out5.rfind("}") + 1])
-        if uniq:
-            save(workdir, "uniqueness.json", json.dumps(uniq, ensure_ascii=False, indent=2))
-            print(f"   passed={uniq.get('passed')} scores={uniq.get('scores')}")
+        # ---- 5. uniqueness (детерминированный) ----
+        print("\n=== 5-uniqueness (embed_compare) ===", flush=True)
+        rc5, out5 = run_py(["tools.embed_compare", work_slug])
+        if out5.strip() and "{" in out5:
+            uniq = _try_parse_json(out5[out5.find("{"):out5.rfind("}") + 1])
+            if uniq:
+                save(workdir, "uniqueness.json", json.dumps(uniq, ensure_ascii=False, indent=2))
+                print(f"   passed={uniq.get('passed')} scores={uniq.get('scores')}")
+            else:
+                print(f"   [warn] uniqueness parse failed; tail: {out5[-200:]}")
         else:
-            print(f"   [warn] uniqueness parse failed; tail: {out5[-200:]}")
+            print(f"   [warn] embed_compare без JSON (rc={rc5})")
+
     else:
-        print(f"   [warn] embed_compare без JSON (rc={rc5})")
+        print("=== Stages 1-5 SKIPPED (resume) ===", flush=True)
 
     # ---- 6. seo-editor → body.html + meta.json ----
     sys6 = (agent_prompt("6-seo-editor")
