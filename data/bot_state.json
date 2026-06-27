@@ -6896,6 +6896,24 @@
       "published_url": null,
       "pending_batch": true,
       "pending_batch_at": "2026-06-26T10:34:26"
+    },
+    "subsidiarka-pri-isklyuchenii-iz-egryl": {
+      "category": "yur",
+      "title": "Субсидиарная ответственность при исключении ООО из ЕГРЮЛ",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-06-27T05:56:40",
+      "last_action_at": "2026-06-27T05:56:40",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-06-27T05:56:40"
     }
   },
   "pending_actions": [],
