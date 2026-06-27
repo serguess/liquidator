@@ -1,6 +1,19 @@
 {
-  "generated": "2026-06-26",
+  "generated": "2026-06-27",
   "articles": [
+    {
+      "slug": "valyutnaya-ipoteka-bankrotstvo-fizlica",
+      "cat": "fiz",
+      "catLabel": "Банкротство физических лиц",
+      "title": "Валютная ипотека при банкротстве: как защитить жильё",
+      "desc": "Что будет с валютной ипотекой при банкротстве физлица, может ли банк отобрать квартиру, какие способы защиты жилья существуют и как правильно действовать.",
+      "date": "27 июня 2026",
+      "dateIso": "2026-06-27",
+      "read": "5 мин.",
+      "tone": "b",
+      "img": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1782460608/articles/valyutnaya-ipoteka-bankrotstvo-fizlica-cover.jpg",
+      "url": "articles/fiz/valyutnaya-ipoteka-bankrotstvo-fizlica"
+    },
     {
       "slug": "valyutnyj-dolg-v-bankrotstve-na-kakuyu-datu",
       "cat": "news",

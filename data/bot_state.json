@@ -6882,20 +6882,24 @@
     "valyutnaya-ipoteka-bankrotstvo-fizlica": {
       "category": "fiz",
       "title": "Валютная ипотека при банкротстве физлица: защита жилья",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 1688,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-06-26T10:34:26",
-      "last_action_at": "2026-06-26T10:34:26",
+      "last_action_at": "2026-06-27T10:49:01",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-06-26T10:34:26"
+      "published_url": "https://pravo.shop/articles/fiz/valyutnaya-ipoteka-bankrotstvo-fizlica",
+      "pending_batch": false,
+      "pending_batch_at": "2026-06-26T10:34:26",
+      "batch_sent_at": "2026-06-27T10:00:40",
+      "batch_fail_count": 0,
+      "published_at": "2026-06-27T10:49:01",
+      "articles_path": "articles/fiz/valyutnaya-ipoteka-bankrotstvo-fizlica.html"
     },
     "subsidiarka-pri-isklyuchenii-iz-egryl": {
       "category": "yur",
@@ -6905,19 +6909,21 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 1690,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-06-27T05:56:40",
-      "last_action_at": "2026-06-27T05:56:40",
+      "last_action_at": "2026-06-27T10:00:42",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-06-27T05:56:40"
+      "pending_batch": false,
+      "pending_batch_at": "2026-06-27T05:56:40",
+      "batch_sent_at": "2026-06-27T10:00:42",
+      "batch_fail_count": 0
     }
   },
   "pending_actions": [],
-  "last_batch_date": "2026-06-26",
-  "last_batch_count": 0,
-  "last_batch_at": "2026-06-26T10:00:23"
+  "last_batch_date": "2026-06-27",
+  "last_batch_count": 2,
+  "last_batch_at": "2026-06-27T10:00:42"
 }
