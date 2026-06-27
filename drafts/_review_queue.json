@@ -3450,6 +3450,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "obrashchenie-vzyskaniya-na-edinstvennoe-zhilyo",
+      "category": "vzysk",
+      "title": "Обращение взыскания на единственное жилье должника",
+      "added_at": "2026-06-28T00:41:32.917143",
+      "char_count": 8127,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1782596489/articles/obrashchenie-vzyskaniya-na-edinstvennoe-zhilyo-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

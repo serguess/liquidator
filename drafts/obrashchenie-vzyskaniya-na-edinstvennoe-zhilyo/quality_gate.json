@@ -1,0 +1,269 @@
+{
+  "file": "/home/appuser/apps/liquidator/drafts/obrashchenie-vzyskaniya-na-edinstvennoe-zhilyo/article.html",
+  "passed": true,
+  "hard_failed": false,
+  "blockers": [],
+  "warnings": [
+    "length_soft_passed: 8127 > 6500 но ≤ 8500 и iteration=2 — пропускаем (приоритет spam/uniqueness/ai)",
+    "forced_pass_at_iter2: блокеры пропущены, статья идёт в TG-очередь с metrics_warning=true. Было: 2 блокеров — spam_risk; broken_internal_links"
+  ],
+  "autofix": {
+    "file": "/home/appuser/apps/liquidator/drafts/obrashchenie-vzyskaniya-na-edinstvennoe-zhilyo/article.html",
+    "abbreviation_fixes": {},
+    "punctuation_fixes": 0,
+    "em_dash_fixes": 0,
+    "eng_quotes_fixes": 0,
+    "yo_fixes": 0,
+    "hyphen_fixes": 0,
+    "changed": false,
+    "bytes_before": 43103,
+    "bytes_after": 43103
+  },
+  "quality_checks": {
+    "file": "drafts/obrashchenie-vzyskaniya-na-edinstvennoe-zhilyo/article.html",
+    "text_chars": 8127,
+    "length_status": "too_long",
+    "length_kind": "default",
+    "passed": false,
+    "abbreviation_hits": [],
+    "punctuation_hits": [],
+    "hyphen_compound_hits": [],
+    "spam": {
+      "total_words": 782,
+      "unique_lemmas": 476,
+      "lexical_diversity": 0.609,
+      "top10_words": [
+        [
+          "жиль",
+          16
+        ],
+        [
+          "семь",
+          12
+        ],
+        [
+          "долг",
+          10
+        ],
+        [
+          "пристав",
+          9
+        ],
+        [
+          "площад",
+          7
+        ],
+        [
+          "арест",
+          7
+        ],
+        [
+          "сбор",
+          7
+        ],
+        [
+          "сумм",
+          6
+        ],
+        [
+          "квартир",
+          6
+        ],
+        [
+          "работа",
+          6
+        ]
+      ],
+      "top10_share": 0.11,
+      "top1_count": 16,
+      "top3_sum": 38,
+      "top10_sum": 86,
+      "ngram3_repeat_count": 18,
+      "ngram3_total": 780,
+      "ngram3_repeat_share": 0.023,
+      "risk_flags": [
+        "top1_count>12 (=16, лемма «жиль»)",
+        "top3_sum>30 (=38)",
+        "top10_sum>80 (=86)"
+      ],
+      "word_warnings": [
+        "«жиль» ×16"
+      ]
+    },
+    "targeted_tokens": [
+      {
+        "token": "ст_сокращение",
+        "count": 3,
+        "limit": 5,
+        "over_limit": false,
+        "severity": "hard"
+      },
+      {
+        "token": "РФ_рудимент",
+        "count": 0,
+        "limit": 2,
+        "over_limit": false,
+        "severity": "hard"
+      },
+      {
+        "token": "руб_сокращение",
+        "count": 0,
+        "limit": 0,
+        "over_limit": false,
+        "severity": "hard"
+      },
+      {
+        "token": "ООО_бренд",
+        "count": 0,
+        "limit": 3,
+        "over_limit": false,
+        "severity": "hard"
+      },
+      {
+        "token": "000руб_паттерн",
+        "count": 0,
+        "limit": 2,
+        "over_limit": false,
+        "severity": "hard"
+      },
+      {
+        "token": "127фз_закон",
+        "count": 0,
+        "limit": 2,
+        "over_limit": false,
+        "severity": "soft"
+      },
+      {
+        "token": "213_артикул",
+        "count": 0,
+        "limit": 3,
+        "over_limit": false,
+        "severity": "soft"
+      },
+      {
+        "token": "ГПК_кодекс",
+        "count": 2,
+        "limit": 3,
+        "over_limit": false,
+        "severity": "soft"
+      },
+      {
+        "token": "ГК_кодекс",
+        "count": 0,
+        "limit": 3,
+        "over_limit": false,
+        "severity": "soft"
+      },
+      {
+        "token": "000_число",
+        "count": 0,
+        "limit": 8,
+        "over_limit": false,
+        "severity": "soft"
+      },
+      {
+        "token": "cta_формула_повтор",
+        "count": 1,
+        "limit": 1,
+        "over_limit": false,
+        "severity": "soft"
+      }
+    ],
+    "author_markers_count": 2,
+    "author_markers_min": 2
+  },
+  "ai_markers": {
+    "file": "drafts/obrashchenie-vzyskaniya-na-edinstvennoe-zhilyo/article.html",
+    "text_chars": 10035,
+    "hits_total": 2,
+    "density_per_1000": 0.2,
+    "by_severity": {
+      "critical": 0,
+      "high": 0,
+      "medium": 0,
+      "low": 2
+    },
+    "own_voice_hits": 2,
+    "first_person_singular_hits": 0,
+    "hits": [
+      {
+        "name": "ИИ-лексика: «взаимодействие/тонкости/нюансы (абстрактно)»",
+        "category": "ai-lexis",
+        "severity": "low",
+        "match": "Взаимодействие",
+        "position": 9842,
+        "context": "...ение law@pravo.shop Коммерческие предложения biz@pravo.shop Взаимодействие со СМИ pr@pravo.shop © 2018-2026 ООО «ЛИКВИДАТОР». Все прав..."
+      },
+      {
+        "name": "Канцелярит: «в рамках» (без нужды)",
+        "category": "clerical",
+        "severity": "low",
+        "match": "в рамках",
+        "position": 9454,
+        "context": "...ровождение на всех этапах. Надежность и законность Работаем в рамках ФЗ и действующего законодательства РФ. РЕКВИЗИТЫ ООО «ЛИКВИ..."
+      }
+    ]
+  },
+  "anti_template": {
+    "file": "drafts/obrashchenie-vzyskaniya-na-edinstvennoe-zhilyo/article.html",
+    "text_chars": 8495,
+    "phrases_loaded": 138,
+    "passed": true,
+    "hits": []
+  },
+  "law_quotes": {
+    "total_chars": 0,
+    "limit": 600,
+    "samples": []
+  },
+  "rhythm": {
+    "file": "drafts/obrashchenie-vzyskaniya-na-edinstvennoe-zhilyo/article.html",
+    "text_chars": 8495,
+    "sentences_total": 121,
+    "avg_sentence_len": 6.95,
+    "short_sentences_count": 41,
+    "short_sentences_share": 0.339,
+    "long_sentences_count": 0,
+    "parasite_count": 1,
+    "parasite_per_1000": 0.12,
+    "flags": []
+  },
+  "internal_links": {
+    "total_hrefs": 42,
+    "ok": 1,
+    "whitelisted": 21,
+    "external": 15,
+    "fixed": 0,
+    "errors": 2,
+    "changed": false,
+    "fix_details": [],
+    "error_details": [
+      {
+        "href": "/articles/vzysk/kak-otmenit-ili-osporit-dejstviya-pristavov-po-arestu-imushchestva",
+        "verdict": "error_unknown",
+        "fixed_href": null,
+        "reason": "slug 'kak-otmenit-ili-osporit-dejstviya-pristavov-po-arestu-imushchestva' не найден в категории 'vzysk' (есть: нигде)"
+      },
+      {
+        "href": "/articles/vzysk/kak-obratitsya-k-pristavam-chtoby-priostanovit-nezakonnoe-vzyskanie",
+        "verdict": "error_unknown",
+        "fixed_href": null,
+        "reason": "slug 'kak-obratitsya-k-pristavam-chtoby-priostanovit-nezakonnoe-vzyskanie' не найден в категории 'vzysk' (есть: нигде)"
+      }
+    ]
+  },
+  "recommendations": [
+    "reduce_repetition: разбавить топ-5 частотных лемм местоимениями/перифразом — ['жиль', 'семь', 'долг', 'пристав', 'площад']",
+    "fix_internal_links: заменить href на канонический /articles/{cat}/{slug} из published_index.json (см. .claude/style/editor-cheatsheet.md секция 6)"
+  ],
+  "retry_count": 2,
+  "predicted_metrics": {
+    "spam_pct": 53,
+    "ai_pct": 3,
+    "uniqueness_pct": 87
+  },
+  "customer_risks": [
+    "заспамленность чуть выше 50% (~53%)",
+    "длина значительно больше лимита 6500 (8 127 знаков)"
+  ]
+}

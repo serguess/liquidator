@@ -20890,5 +20890,131 @@
     "stderr_tail": "[ERR] rate_limit: put_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard\",\"cache_creation\":{\"ephemeral_1h_input_tokens\":0,\"ephemeral_5m_input_tokens\":0},\"inference_geo\":\"\",\"iterations\":[],\"speed\":\"standard\"},\"modelUsage\":{},\"permission_denials\":[],\"terminal_reason\":\"completed\",\"fast_mode_state\":\"off\",\"uuid\":\"63921f52-cf82-41f1-8bab-524c23f471a7\"}\n\n",
     "tokens_by_model": {},
     "metrics": null
+  },
+  {
+    "timestamp": "2026-06-27T08:30:07",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets 10:10am (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-27T08:30:09",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets 10:10am (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-27T08:30:11",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets 10:10am (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-27T08:30:13",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets 10:10am (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-27T08:30:15",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets 10:10am (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-27T08:30:17",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets 10:10am (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-27T08:30:19",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets 10:10am (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-27T08:30:21",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets 10:10am (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-27T08:30:23",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets 10:10am (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-27T08:30:25",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets 10:10am (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-27T08:30:27",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets 10:10am (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-27T08:30:29",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets 10:10am (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-27T08:30:31",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets 10:10am (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-27T10:00:07",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets 10:10am (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-27T14:48:31",
+    "category": "vzysk",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 1,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "resume",
+    "resume_slug": "obrashchenie-vzyskaniya-na-edinstvennoe-zhilyo",
+    "status": "exception",
+    "error": "name 'seconds' is not defined",
+    "duration_sec": 8.7
+  },
+  {
+    "timestamp": "2026-06-27T19:36:05",
+    "category": "vzysk",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 1,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "resume",
+    "resume_slug": "obrashchenie-vzyskaniya-na-edinstvennoe-zhilyo",
+    "status": "exception",
+    "error": "name 'seconds' is not defined",
+    "duration_sec": 6.5
   }
 ]

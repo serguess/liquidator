@@ -1,0 +1,112 @@
+{
+  "slug": "obrashchenie-vzyskaniya-na-edinstvennoe-zhilyo",
+  "category": "vzysk",
+  "title": "Обращение взыскания на единственное жилье должника",
+  "description": "Как работает взыскание на единственное жилье, какие ограничения есть для кредиторов, права должника при исполнительном производстве и способы защиты.",
+  "h1": "Обращение взыскания на единственное жильё должника: процедура и защита",
+  "lead": "Разбираем, когда закон защищает единственное жильё от продажи, в каких случаях защита не работает и какими инструментами реально удержать ситуацию.",
+  "topic_action": "снятие ареста с жилья",
+  "breadcrumb_current": "Взыскание на единственное жильё",
+  "og_image": "/assets/articles/obrashchenie-vzyskaniya-na-edinstvennoe-zhilyo.jpg",
+  "main_keyword": "обращение взыскания на единственное жилье должника",
+  "secondary_keywords": [
+    "взыскание на единственное жилье",
+    "может ли быть обращено взыскание на единственное жилье",
+    "защита единственного жилья от взыскания",
+    "исключение единственного жилья из имущества должника",
+    "взыскание на квартиру должника при исполнительном производстве",
+    "судебный приказ взыскание жилье",
+    "права должника при взыскании на жилье",
+    "как защитить единственное жилье от кредиторов",
+    "законодательство о защите единственного жилья"
+  ],
+  "internal_links": [
+    "/articles/fiz/valyutnaya-ipoteka-bankrotstvo-fizlica",
+    "/articles/vzysk/kak-obratitsya-k-pristavam-chtoby-priostanovit-nezakonnoe-vzyskanie",
+    "/articles/vzysk/kak-otmenit-ili-osporit-dejstviya-pristavov-po-arestu-imushchestva"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39570/",
+    "https://www.consultant.ru/document/cons_doc_LAW_383622/"
+  ],
+  "faq": [
+    {
+      "question": "Заберут ли квартиру при долге выше полумиллиона рублей?",
+      "answer": "Сумма долга на запрет не влияет. Защита единственного жилья включается одинаково - и при долге 200 тысяч, и при долге несколько миллионов. Решает не цифра, а наличие ипотеки и соотношение площади с нуждами семьи."
+    },
+    {
+      "question": "Что происходит с ипотечной квартирой при просрочке от трёх месяцев?",
+      "answer": "Банк получает право подать иск о взыскании задолженности и обращении на предмет залога. Суд выносит решение, недвижимость уходит на торги. Тот факт, что у заёмщика нет иного жилья, реализации не препятствует."
+    },
+    {
+      "question": "По каким признакам арбитраж может признать квартиру избыточной?",
+      "answer": "Учитывают численность семьи, возраст и здоровье членов, наличие инвалидов и пожилых, климат региона, стоимость и площадь. Единого норматива нет, всё оценивается в совокупности."
+    },
+    {
+      "question": "Сколько дней есть, чтобы избежать исполнительского сбора?",
+      "answer": "Пять рабочих дней с момента получения постановления о возбуждении. Уложились - сбор не начисляется. Просрочили хотя бы на день - стартует семь процентов от долга при нижней планке тысяча рублей для гражданина."
+    },
+    {
+      "question": "Нужно ли отдельно просить пристава не трогать прожиточный минимум?",
+      "answer": "Да, обязательно. Без письменного заявления в подразделение ФССП защищённый остаток не работает - спишется весь приход. Бумага подаётся один раз, на конкретный счёт."
+    },
+    {
+      "question": "Чем жалоба старшему приставу отличается от иска в суд?",
+      "answer": "Жалоба - досудебный шаг, рассматривает руководитель подразделения, проще и быстрее. Административный иск - судебная процедура с десятидневным сроком, более сильный инструмент, который может закончиться компенсацией ущерба от действий ФССП."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Базовая защита ст. 446 ГПК РФ (абз. 2 ч. 1) - legislation_status: active, last_verified: 2026-06-27. Контекст корректен: исполнительное производство, жильё не в залоге.",
+    "Постановление КС РФ № 15-П от 26.04.2021 (роскошное жильё - реализация с обязательным замещением) - active, last_verified: 2026-06-27. Оговорка о неабсолютности иммунитета присутствует, forbidden_claim не нарушен.",
+    "Исполнительский сбор: 7% от долга, минимум 1 000 руб. для граждан (ст. 112 ч. 3 ФЗ-229) - active, last_verified: 2026-06-27. Пример: долг 80 000 × 7% = 5 600 руб. - арифметически верно.",
+    "Прожиточный минимум 20 644 руб. для трудоспособного взрослого (2026) - подтверждён в research.json f10.",
+    "5 рабочих дней на добровольное исполнение (ст. 30 ч. 12 ФЗ-229) - active, last_verified: 2026-06-27.",
+    "10 дней на оспаривание исполнительского сбора (ст. 112 ч. 6-7 ФЗ-229) - active, last_verified: 2026-06-27. Снижение max на 25% или полная отмена при уважительных причинах - корректно.",
+    "Судебный приказ в арбитраже до 500 000 руб. (ст. 229.2 АПК РФ) - active, last_verified: 2026-06-27.",
+    "Исправлена фактическая ошибка draft: 'административный иск в районный арбитраж' → 'административный иск в районный суд' (КАС, суд общей юрисдикции, не арбитраж).",
+    "Прожиточный минимум не является автоматической защитой - требует заявления должника. Forbidden_claim о 'автоматической защите' не допущен."
+  ],
+  "keyword_density_main": 0.004,
+  "main_keyword_exact_count": 1,
+  "text_chars": 8127,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.11,
+  "local_spam_ngram3_repeat": 0.023,
+  "local_lexical_diversity": 0.609,
+  "local_ai_markers_density": 0.2,
+  "local_ai_markers_critical": 0,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1782596489/articles/obrashchenie-vzyskaniya-na-edinstvennoe-zhilyo-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1782596489/articles/obrashchenie-vzyskaniya-na-edinstvennoe-zhilyo-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Editorial photograph of a high-floor desk in a law enforcement office handling residential asset seizure matters. Foreground: closed thin laptop, fountain pen on a stand, leather notebook, polished round official seal, white coffee cup, water glass arranged on dark walnut. Background through floor-to-ceiling windows: blurred residential district with apartment buildings at dusk. Camera: shallow depth of field, three-quarter angle, eye-level. Lighting: cool daylight blended with cool tungsten interior, sharp directional shadows. Mood: solemn weight of judgment over residential assets.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-06-27T21:41:30Z",
+  "length_status": "too_long",
+  "length_kind": "default",
+  "local_ai_markers_total": 2,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 2,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 53,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность чуть выше 50% (~53%)",
+    "длина значительно больше лимита 6500 (8 127 знаков)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "spam_risk: 3 флагов (top1_count>12 (=16, лемма «жиль»), top3_sum>30 (=38), top10_sum>80 (=86)), top-5: ['жиль', 'семь', 'долг', 'пристав', 'площад']",
+    "broken_internal_links: 2 ссылок без соответствия в published_index (/articles/vzysk/kak-otmenit-ili-osporit-dejstviya-pristavov-po-arestu-imushchestva: slug 'kak-otmenit-ili-osporit-dejstviya-pristavov-po-arestu-imushchestva' не найден в категории 'vzysk' (есть: нигде); /articles/vzysk/kak-obratitsya-k-pristavam-chtoby-priostanovit-nezakonnoe-vzyskanie: slug 'kak-obratitsya-k-pristavam-chtoby-priostanovit-nezakonnoe-vzyskanie' не найден в категории 'vzysk' (есть: нигде))"
+  ],
+  "date_published": "2026-06-28",
+  "date_modified": "2026-06-28",
+  "ready_for_review": true,
+  "ready_at": "2026-06-27T21:41:32Z",
+  "publication_target": "telegram_review"
+}
