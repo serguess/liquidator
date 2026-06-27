@@ -6904,22 +6904,31 @@
     "subsidiarka-pri-isklyuchenii-iz-egryl": {
       "category": "yur",
       "title": "Субсидиарная ответственность при исключении ООО из ЕГРЮЛ",
-      "status": "pending_review",
-      "current_version": "2.0",
+      "status": "published",
+      "current_version": "2.1",
       "versions": [
-        "2.0"
+        "2.0",
+        "2.1"
       ],
       "tg_message_id": 1690,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-06-27T05:56:40",
-      "last_action_at": "2026-06-27T10:00:42",
-      "edits_history": [],
+      "last_action_at": "2026-06-27T10:51:51",
+      "edits_history": [
+        {
+          "version": "2.1",
+          "edit_text": "Дважды встречается фраза:\nПисьмо от взыскателя. «Верните долг компании». Бывший директор открывает - и видит свою фамилию. Хотя фирму закрыли три месяца назад: налоговая сама вычистила её из реестра за просроченную отчётность. Долг числился на юрлице. Платить требуют с него лично.\n\nПропиши ее только один раз в одном месте",
+          "applied_at": "2026-06-27T10:51:34"
+        }
+      ],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/yur/subsidiarka-pri-isklyuchenii-iz-egryl",
       "pending_batch": false,
       "pending_batch_at": "2026-06-27T05:56:40",
       "batch_sent_at": "2026-06-27T10:00:42",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-06-27T10:51:51",
+      "articles_path": "articles/yur/subsidiarka-pri-isklyuchenii-iz-egryl.html"
     }
   },
   "pending_actions": [],
