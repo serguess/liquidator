@@ -1,6 +1,19 @@
 {
-  "generated": "2026-06-27",
+  "generated": "2026-06-29",
   "articles": [
+    {
+      "slug": "obrashchenie-vzyskaniya-na-edinstvennoe-zhilyo",
+      "cat": "vzysk",
+      "catLabel": "Взыскание задолженности",
+      "title": "Обращение взыскания на единственное жилье должника",
+      "desc": "Как работает взыскание на единственное жилье, какие ограничения есть для кредиторов, права должника при исполнительном производстве и способы защиты.",
+      "date": "29 июня 2026",
+      "dateIso": "2026-06-29",
+      "read": "5 мин.",
+      "tone": "b",
+      "img": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1782596489/articles/obrashchenie-vzyskaniya-na-edinstvennoe-zhilyo-cover.jpg",
+      "url": "articles/vzysk/obrashchenie-vzyskaniya-na-edinstvennoe-zhilyo"
+    },
     {
       "slug": "subsidiarka-pri-isklyuchenii-iz-egryl",
       "cat": "yur",
