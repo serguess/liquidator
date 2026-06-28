@@ -21016,5 +21016,94 @@
     "status": "exception",
     "error": "name 'seconds' is not defined",
     "duration_sec": 6.5
+  },
+  {
+    "timestamp": "2026-06-28T00:24:37",
+    "category": "vzysk",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "mode": "resume",
+    "resume_slug": "obrashchenie-vzyskaniya-na-edinstvennoe-zhilyo",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "length_soft_passed: 8127 > 6500 но ≤ 8500 и iteration=2 — пропускаем (приоритет spam/uniqueness/ai)",
+        "forced_pass_at_iter2: блокеры пропущены, статья идёт в TG-очередь с metrics_warning=true. Было: 2 блокеров — spam_risk; broken_internal_links"
+      ],
+      "recommendations": [
+        "reduce_repetition: разбавить топ-5 частотных лемм местоимениями/перифразом — ['жиль', 'семь', 'долг', 'пристав', 'площад']",
+        "fix_internal_links: заменить href на канонический /articles/{cat}/{slug} из published_index.json (см. .claude/style/editor-cheatsheet.md секция 6)"
+      ],
+      "stderr_tail": ""
+    },
+    "finalize_safety_net": {
+      "ran": true,
+      "rc": 0
+    },
+    "status": "ok",
+    "slug": "obrashchenie-vzyskaniya-na-edinstvennoe-zhilyo",
+    "duration_sec": 1015.0,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "illable\n6-seo-editor        sonnet            6      16        0     93714        22\n7-publisher         haiku            36      12    54578     90232     54626\n------------------------------------------------------------------------------------------\nИТОГО                                42      28    54578    183946     54648\nBillable-токенов на статью: ~54K (cache_read 183K не считается в лимит подписки).\nАртефакты: drafts/obrashchenie-vzyskaniya-na-edinstvennoe-zhilyo/  | quality_gate exit=0",
+    "stderr_tail": "",
+    "tokens_by_model": {},
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 8127
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
+  },
+  {
+    "timestamp": "2026-06-28T05:12:11",
+    "category": "yur",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 1,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "yur-126",
+    "topic_slug": "nds-pri-bankrotstve-yuridicheskogo-lica",
+    "status": "failed",
+    "slug": "nds-pri-bankrotstve-yuridicheskogo-lica",
+    "duration_sec": 515.8,
+    "returncode": 1,
+    "rescued_after_failure": false,
+    "stdout_tail": "=== 1-semantics (claude haiku) ===\n   ok: 1647 симв., usage in=20 out=16 cache_w=30460 cache_r=25520 billable=30496 ток, 21.5с\n=== 2-legal-research (claude haiku) ===\n   ok: 17468 симв., usage in=104 out=46 cache_w=156742 cache_r=460536 billable=156892 ток, 78.0с\n   ok: 16456 симв., billable=73386 ток (model=sonnet)\n   [outline_validate] exit=1\n=== 4-writer (claude opus) ===",
+    "stderr_tail": "[ERR] rate_limit: put_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard\",\"cache_creation\":{\"ephemeral_1h_input_tokens\":0,\"ephemeral_5m_input_tokens\":0},\"inference_geo\":\"\",\"iterations\":[],\"speed\":\"standard\"},\"modelUsage\":{},\"permission_denials\":[],\"terminal_reason\":\"completed\",\"fast_mode_state\":\"off\",\"uuid\":\"bb04b5d2-25fe-4323-a97b-a7b8ee4f9fa2\"}\n\n",
+    "tokens_by_model": {},
+    "metrics": null
   }
 ]

@@ -6929,6 +6929,24 @@
       "batch_fail_count": 0,
       "published_at": "2026-06-27T10:51:51",
       "articles_path": "articles/yur/subsidiarka-pri-isklyuchenii-iz-egryl.html"
+    },
+    "obrashchenie-vzyskaniya-na-edinstvennoe-zhilyo": {
+      "category": "vzysk",
+      "title": "Обращение взыскания на единственное жилье должника",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-06-28T00:41:50",
+      "last_action_at": "2026-06-28T00:41:50",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-06-28T00:41:50"
     }
   },
   "pending_actions": [],
