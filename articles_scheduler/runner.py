@@ -109,6 +109,11 @@ def _today_ok_count() -> int:
 
 
 VALID_CATEGORIES = {"fiz", "yur", "vzysk", "news"}
+# Resume недописанных драфтов (упавших на stage 6+): окно поиска и
+# защита от нечинимого «ядовитого» драфта (max попыток на slug).
+RESUME_WINDOW_DAYS = int(os.getenv("RESUME_WINDOW_DAYS", "5"))
+RESUME_MAX_ATTEMPTS = int(os.getenv("RESUME_MAX_ATTEMPTS", "2"))
+
 
 
 def _next_category() -> str:
@@ -916,38 +921,96 @@ def _find_failed_qa_for_retry(max_iterations: int = 3) -> str | None:
     return candidates[0][0]
 
 
+def _resume_attempts_load() -> dict:
+    """Счётчик попыток resume по slug (poison-guard). Живёт в data/, а не в
+    drafts/{slug}/ — чтобы не попасть в git-коммит пайплайна."""
+    try:
+        return json.loads((DATA_DIR / "_resume_attempts.json").read_text(encoding="utf-8"))
+    except (FileNotFoundError, json.JSONDecodeError):
+        return {}
+
+
+def _resume_attempts_bump(slug: str) -> int:
+    data = _resume_attempts_load()
+    n = int(data.get(slug, 0)) + 1
+    data[slug] = n
+    try:
+        (DATA_DIR / "_resume_attempts.json").write_text(
+            json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
+    except OSError:
+        pass
+    return n
+
+
 def _find_failed_pipeline_for_resume() -> tuple[str | None, str | None]:
     """
-    Ищет последний failed entry в scheduler_log (пропуская preflight_failed,
-    limit_reached и т.п.): если в drafts/{slug}/ есть draft.md но нет body.html,
-    статья упала на stage 6+ и её можно дописать.
+    Сканирует drafts/ напрямую (НЕ scheduler_log) в поисках недописанной
+    статьи, упавшей на stage 6+: есть draft.md + brief.json + research.json,
+    но НЕТ article.html. Дописывается через pipeline_run_claude.py
+    --from-stage 6 (seo -> обложка -> inject -> gate). Дорогой opus-writer
+    НЕ вызывается (его draft.md уже на диске), поэтому лимит подписки
+    почти не тратится.
+
+    Старый детектор читал только последний failed-слот из scheduler_log и
+    упирался в первый же ok, из-за чего накопившийся хвост недописанных
+    (особенно упавшие на 4-writer по rate_limit, без slug в логе) терялся.
+
+    Окно: RESUME_WINDOW_DAYS дней по mtime draft.md (старьё игнорим).
+    Берём САМЫЙ СТАРЫЙ подходящий драфт — разгребаем хвост по FIFO.
+    Poison-guard: не больше RESUME_MAX_ATTEMPTS попыток на slug (счётчик в
+    data/_resume_attempts.json), иначе нечинимый драфт зацикливал бы каждый
+    слот. Превью/служебные (_mig, -gpt, начинающиеся с "_") пропускаем.
+
     Возвращает (slug, category) для resume, или (None, None).
     """
-    try:
-        slog = json.loads(SCHEDULER_LOG_PATH.read_text(encoding="utf-8"))
-    except (FileNotFoundError, json.JSONDecodeError):
+    if not DRAFTS_DIR.exists():
         return None, None
-    if not slog:
-        return None, None
-    for entry in reversed(slog):
-        status = entry.get("status")
-        if status == "ok":
-            return None, None
-        if status != "failed":
+    now = time.time()
+    window_sec = RESUME_WINDOW_DAYS * 86400
+    attempts = _resume_attempts_load()
+    candidates: list[tuple[float, str, str]] = []  # (mtime, slug, category)
+    for slug_dir in DRAFTS_DIR.iterdir():
+        if not slug_dir.is_dir():
             continue
-        slug = entry.get("slug")
-        if not slug:
+        slug = slug_dir.name
+        if slug.startswith("_") or _is_preview_slug(slug):
             continue
-        slug_dir = DRAFTS_DIR / slug
-        has_draft = (slug_dir / "draft.md").exists()
-        has_body = (slug_dir / "body.html").exists()
-        if has_draft and not has_body:
-            cat = entry.get("category") or "fiz"
-            log.info("Resume-кандидат: %s (cat=%s) - draft.md есть, body.html нет", slug, cat)
-            return slug, cat
+        draft = slug_dir / "draft.md"
+        if not draft.exists():
+            continue  # упал до writer-а — from-stage 6 неприменим
+        if (slug_dir / "article.html").exists():
+            continue  # уже финализирована
+        if not (slug_dir / "brief.json").exists() or not (slug_dir / "research.json").exists():
+            continue  # from-stage 6 читает brief/research с диска
+        if int(attempts.get(slug, 0)) >= RESUME_MAX_ATTEMPTS:
+            continue  # poison-guard: уже пробовали максимум раз
+        try:
+            mtime = draft.stat().st_mtime
+        except OSError:
+            continue
+        if now - mtime > window_sec:
+            continue  # вне окна 5 дней
+        cat = "fiz"
+        for src in ("brief.json", "meta.json"):
+            try:
+                d = json.loads((slug_dir / src).read_text(encoding="utf-8"))
+            except (OSError, json.JSONDecodeError):
+                continue
+            if d.get("category") in VALID_CATEGORIES:
+                cat = d["category"]
+                break
+        candidates.append((mtime, slug, cat))
+    if not candidates:
         return None, None
-    return None, None
-
+    candidates.sort(key=lambda x: x[0])  # старейший первым (FIFO)
+    _mtime, slug, cat = candidates[0]
+    n = _resume_attempts_bump(slug)
+    log.info(
+        "Resume-кандидат (disk-scan): %s (cat=%s, попытка %d/%d) — "
+        "draft.md есть, article.html нет, в окне %dд (всего кандидатов: %d)",
+        slug, cat, n, RESUME_MAX_ATTEMPTS, RESUME_WINDOW_DAYS, len(candidates),
+    )
+    return slug, cat
 
 def _refresh_published_index() -> None:
     """
