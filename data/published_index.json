@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-06-28T00:24:42",
-  "total": 331,
+  "generated_at": "2026-06-30T00:24:10",
+  "total": 332,
   "by_source": {
-    "published": 269,
+    "published": 270,
     "draft_approved": 1,
     "draft_pending": 56,
     "draft_local": 5
   },
   "by_category": {
-    "fiz": 99,
-    "vzysk": 96,
+    "vzysk": 97,
+    "news": 40,
     "yur": 96,
-    "news": 40
+    "fiz": 99
   },
   "articles": [
     {
@@ -3573,6 +3573,32 @@
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
       "char_count": 9887,
+      "published_at": null,
+      "tags": []
+    },
+    {
+      "slug": "obrashchenie-vzyskaniya-na-edinstvennoe-zhilyo",
+      "category": "vzysk",
+      "source": "published",
+      "url": "/articles/vzysk/obrashchenie-vzyskaniya-na-edinstvennoe-zhilyo.html",
+      "title": "Обращение взыскания на единственное жилье должника",
+      "h1": "Обращение взыскания на единственное жильё должника: процедура и защита",
+      "main_keyword": "Обращение взыскания на единственное жильё должника",
+      "secondary_keywords": [],
+      "intent": "",
+      "writer_route": "",
+      "h2_topics": [
+        "Могут ли продать единственную квартиру",
+        "Когда иммунитет работает",
+        "Что успевает пристав до квартиры",
+        "Инструменты должника",
+        "Когда запрет не работает",
+        "Что делать прямо сейчас",
+        "Частые вопросы об обращении взыскания на единственное жильё",
+        "Читайте также",
+        "ЗАПОЛНИТЬ ФОРМУ"
+      ],
+      "char_count": 10026,
       "published_at": null,
       "tags": []
     },

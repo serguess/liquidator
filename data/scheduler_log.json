@@ -21105,5 +21105,190 @@
     "stderr_tail": "[ERR] rate_limit: put_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard\",\"cache_creation\":{\"ephemeral_1h_input_tokens\":0,\"ephemeral_5m_input_tokens\":0},\"inference_geo\":\"\",\"iterations\":[],\"speed\":\"standard\"},\"modelUsage\":{},\"permission_denials\":[],\"terminal_reason\":\"completed\",\"fast_mode_state\":\"off\",\"uuid\":\"bb04b5d2-25fe-4323-a97b-a7b8ee4f9fa2\"}\n\n",
     "tokens_by_model": {},
     "metrics": null
+  },
+  {
+    "timestamp": "2026-06-28T08:30:08",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets Jun 29, 9pm (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-28T08:30:10",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets Jun 29, 9pm (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-28T08:30:12",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets Jun 29, 9pm (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-28T08:30:15",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets Jun 29, 9pm (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-28T08:30:17",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets Jun 29, 9pm (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-28T08:30:19",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets Jun 29, 9pm (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-28T08:30:21",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets Jun 29, 9pm (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-28T08:30:23",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets Jun 29, 9pm (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-28T08:30:25",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets Jun 29, 9pm (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-28T08:30:27",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets Jun 29, 9pm (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-28T08:30:29",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets Jun 29, 9pm (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-28T08:30:31",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets Jun 29, 9pm (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-28T08:30:32",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets Jun 29, 9pm (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-28T08:30:35",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets Jun 29, 9pm (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-28T10:00:37",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets Jun 29, 9pm (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-28T14:48:35",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets Jun 29, 9pm (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-28T19:36:19",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets Jun 29, 9pm (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-29T00:24:18",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets 9pm (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-29T05:12:37",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets 9pm (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-29T08:30:01",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets 9pm (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-29T08:30:04",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets 9pm (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-29T08:30:06",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets 9pm (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-29T08:30:07",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets 9pm (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-29T08:30:09",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets 9pm (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-29T08:30:11",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets 9pm (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-29T08:30:13",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets 9pm (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-29T08:30:15",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets 9pm (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-29T08:30:18",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets 9pm (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-29T08:30:20",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets 9pm (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-29T08:30:22",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets 9pm (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-29T08:30:24",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets 9pm (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-29T08:30:27",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets 9pm (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-29T08:30:29",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets 9pm (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-29T08:30:31",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets 9pm (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-29T10:00:37",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets 9pm (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-29T14:48:37",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets 9pm (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-06-29T19:36:02",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets 9pm (Europe/Moscow)"
   }
 ]

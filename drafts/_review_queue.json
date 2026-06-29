@@ -3463,6 +3463,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "mezhdunarodnoe-bankrotstvo-rossiyskih-kompanij-sovety",
+      "category": "yur",
+      "title": "Трансграничное банкротство компаний: защита активов",
+      "added_at": "2026-06-30T00:32:05.929997",
+      "char_count": 9096,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1782768722/articles/mezhdunarodnoe-bankrotstvo-rossiyskih-kompanij-sovety-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
