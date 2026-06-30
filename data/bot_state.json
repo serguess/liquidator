@@ -6955,7 +6955,7 @@
     "mezhdunarodnoe-bankrotstvo-rossiyskih-kompanij-sovety": {
       "category": "yur",
       "title": "Трансграничное банкротство компаний: защита активов",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -6963,14 +6963,16 @@
       "tg_message_id": 1704,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-06-30T00:32:31",
-      "last_action_at": "2026-06-30T10:00:23",
+      "last_action_at": "2026-06-30T23:46:58",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/yur/mezhdunarodnoe-bankrotstvo-rossiyskih-kompanij-sovety",
       "pending_batch": false,
       "pending_batch_at": "2026-06-30T00:32:31",
       "batch_sent_at": "2026-06-30T10:00:23",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-06-30T23:46:58",
+      "articles_path": "articles/yur/mezhdunarodnoe-bankrotstvo-rossiyskih-kompanij-sovety.html"
     },
     "bankrotstvo-arendodatelya-prava-arendatora": {
       "category": "yur",
@@ -7102,6 +7104,24 @@
       "published_url": null,
       "pending_batch": true,
       "pending_batch_at": "2026-06-30T16:14:29"
+    },
+    "obzor-praktiki-vs-po-bankrotstvu-grazhdan": {
+      "category": "news",
+      "title": "Практика ВС по банкротству граждан: 5 ключевых позиций",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-06-30T20:59:32",
+      "last_action_at": "2026-06-30T20:59:32",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-06-30T20:59:32"
     }
   },
   "pending_actions": [],
