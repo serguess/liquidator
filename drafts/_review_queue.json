@@ -3567,6 +3567,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "obzor-praktiki-vs-po-bankrotstvu-grazhdan",
+      "category": "news",
+      "title": "Практика ВС по банкротству граждан: 5 ключевых позиций",
+      "added_at": "2026-06-30T20:58:42.612988",
+      "char_count": 7195,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1782842317/articles/obzor-praktiki-vs-po-bankrotstvu-grazhdan-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
