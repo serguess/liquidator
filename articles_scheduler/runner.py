@@ -942,7 +942,7 @@ def _resume_attempts_bump(slug: str) -> int:
     return n
 
 
-def _find_failed_pipeline_for_resume() -> tuple[str | None, str | None]:
+def _find_failed_pipeline_for_resume(category: str | None = None) -> tuple[str | None, str | None]:
     """
     Сканирует drafts/ напрямую (НЕ scheduler_log) в поисках недописанной
     статьи, упавшей на stage 6+: есть draft.md + brief.json + research.json,
@@ -999,6 +999,8 @@ def _find_failed_pipeline_for_resume() -> tuple[str | None, str | None]:
             if d.get("category") in VALID_CATEGORIES:
                 cat = d["category"]
                 break
+        if category is not None and cat != category:
+            continue  # дописываем только в слоте своей категории
         candidates.append((mtime, slug, cat))
     if not candidates:
         return None, None
@@ -2338,32 +2340,37 @@ def run_one_article() -> dict:
     forced_cat = (os.getenv("FORCE_CATEGORY") or "").strip().lower()
     forced_cat = forced_cat if forced_cat in VALID_CATEGORIES else ""
 
-    # Resume: если предыдущий слот упал на stage 6+ (draft.md есть, body.html нет)
-    resume_slug, resume_cat = _find_failed_pipeline_for_resume()
+    # Категорию слота определяет РОТАЦИЯ (или FORCE_CATEGORY). Resume и retry
+    # НЕ перехватывают слот и НЕ меняют категорию — они лишь решают, писать
+    # ли новую тему этой категории или дописать уже существующий черновик
+    # ТОЙ ЖЕ категории. Так ротация fiz->yur->vzysk->news сохраняется:
+    # дописывание yur случается только в yur-слоте.
+    category = _next_category()  # _next_category уважает FORCE_CATEGORY
 
+    # Resume: незавершённый черновик ИМЕННО этой категории (draft.md есть,
+    # article.html нет) — дописываем его вместо новой темы (stage 6, без opus).
+    resume_slug, resume_cat = _find_failed_pipeline_for_resume(category=category)
+
+    # Retry failed_qa — тоже только в слоте своей категории.
     retry_slug = _find_failed_qa_for_retry(max_iterations=3)
     if retry_slug:
         retry_meta = _read_meta(retry_slug)
         retry_cat = retry_meta.get("category")
-        if forced_cat and retry_cat != forced_cat:
+        if retry_cat != category:
             log.info(
-                "failed_qa-статья %s (cat=%s) пропущена: FORCE_CATEGORY=%s — берём новую тему",
-                retry_slug, retry_cat, forced_cat,
+                "failed_qa-статья %s (cat=%s) пропущена: слот категории %s",
+                retry_slug, retry_cat, category,
             )
             retry_slug = None
         else:
             log.info("Найдена failed_qa статья для доработки: %s", retry_slug)
 
     if resume_slug:
-        category = resume_cat
         slot_mode = "resume"
-        log.info("Resume предыдущего слота: %s (cat=%s) - дописываем с stage 6", resume_slug, category)
+        log.info("Resume в %s-слоте: дописываем %s с stage 6", category, resume_slug)
     elif retry_slug:
-        # Категория берётся из meta.json статьи, а не из ротации
-        category = retry_meta.get("category") or _next_category()
         slot_mode = "rewrite"
     else:
-        category = _next_category()  # _next_category уважает FORCE_CATEGORY
         slot_mode = "new"
 
     log.info("Старт слота: mode=%s category=%s today_count=%d/%d",
