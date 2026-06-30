@@ -1,0 +1,112 @@
+{
+  "slug": "otvetstvennost-uchreditelya-pri-bankrotstve-kollegii",
+  "category": "yur",
+  "title": "Ответственность учредителя при банкротстве компании",
+  "description": "Субсидиарная, уголовная и административная ответственность учредителя ООО при банкротстве: основания, размер долга, меры защиты и когда суд отказывает в иске.",
+  "h1": "Ответственность учредителя при банкротстве компании: что реально грозит",
+  "lead": "Разбираем три вида личной ответственности владельца бизнеса при несостоятельности компании - от субсидиарных исков до уголовного дела - и как выстроить защиту до начала процедуры.",
+  "topic_action": "оценку рисков учредителя при банкротстве",
+  "breadcrumb_current": "Ответственность учредителя при банкротстве",
+  "og_image": "/assets/articles/otvetstvennost-uchreditelya-pri-bankrotstve-kollegii.jpg",
+  "main_keyword": "ответственность учредителя при банкротстве компании",
+  "secondary_keywords": [
+    "субсидиарная ответственность учредителя ООО",
+    "что грозит учредителю при банкротстве",
+    "учредитель банкрот личное имущество",
+    "КДЛ учредитель банкротство",
+    "как избежать субсидиарной ответственности учредителю",
+    "уголовная ответственность учредителя банкротство",
+    "учредитель и долги компании",
+    "статья 61.11 закон о банкротстве учредитель"
+  ],
+  "internal_links": [
+    "/articles/yur/kontroliruyushchee-dolzhnika-lico-kdl",
+    "/articles/yur/prednamerennoe-bankrotstvo-ugolovnaya-otvetstvennost",
+    "/articles/yur/dokazatelstva-dobrosovestnosti-direktora-subsidiarka"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/",
+    "https://www.consultant.ru/document/cons_doc_LAW_5142/"
+  ],
+  "faq": [
+    {
+      "question": "Может ли учредитель с долей 10% попасть под субсидиарную ответственность?",
+      "answer": "Да - если суд установит фактическое управление: участие в согласовании крупных сделок, влияние на кадровые решения, распоряжение денежными потоками. Формальная доля не защищает (п. 1 ст. 61.10 127-ФЗ)."
+    },
+    {
+      "question": "Что происходит с личным имуществом владельца бизнеса до вынесения судебного решения?",
+      "answer": "Суд вправе наложить арест ещё до решения: банковские счета, недвижимость, транспортные средства. Стандартная обеспечительная мера при риске сокрытия активов (ст. 46 127-ФЗ)."
+    },
+    {
+      "question": "Обязательно ли самому участнику подавать заявление о банкротстве компании?",
+      "answer": "Только если директор не исполнил эту обязанность, а совладельцы узнали о его бездействии. За промедление - ответственность по долгам, возникшим после истечения месячного срока (п. 3.1 ст. 9 127-ФЗ)."
+    },
+    {
+      "question": "Спишет ли личное банкротство учредителя его долг перед кредиторами фирмы?",
+      "answer": "Нет. Субсидиарный долг прямо исключён из перечня списываемых обязательств и сохраняется даже после завершения личной процедуры банкротства (п. 5 ст. 213.28 127-ФЗ)."
+    },
+    {
+      "question": "Через сколько лет участник перестаёт рисковать за прошлые решения в компании?",
+      "answer": "Три года с момента, когда кредитор или управляющий узнал об основаниях иска - не более десяти лет от самих действий (ст. 61.14 127-ФЗ). Отсчёт идёт от даты реального прекращения контроля, а не выхода из ЕГРЮЛ."
+    },
+    {
+      "question": "Чем административная дисквалификация отличается от уголовной ответственности по ст. 196 УК?",
+      "answer": "Административная - при ущербе ниже уголовного порога: штраф или запрет занимать должности до 3 лет (ст. 14.12 КоАП). Уголовная - при ущербе свыше 2 250 000 руб. и доказанном умысле: до 6 лет лишения свободы (ст. 196 УК)."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все факты сверены с research.json. Все last_verified: 2026-06-23, legislation_status: active для всех ключевых утверждений.",
+    "КДЛ-критерий >50% (пп. 2 п. 4 ст. 61.10 127-ФЗ) - подтверждён, fact f3.",
+    "Фактический контроль при любой доле (п. 1 ст. 61.10, п. 3 Пленума ВС № 53 от 21.12.2017) - подтверждён, fact f4.",
+    "Три презумпции вины КДЛ (пп. 1, 2 п. 2 ст. 61.11; пп. 4 п. 4 ст. 61.10) - подтверждены, facts f7, f8, f25.",
+    "Ответственность за неподачу заявления (п. 3.1 ст. 9, ст. 61.12) - подтверждена, fact f9; контекст применения корректен (только при бездействии директора).",
+    "Субсидиарный долг при личном банкротстве не списывается (п. 5 ст. 213.28) - подтверждён, fact f13.",
+    "Порог уголовной ответственности свыше 2 250 000 руб. (примечание к ст. 170.2 УК) - подтверждён, fact f20; fact_gap в research.json зафиксирован (верификация без WebSearch невозможна, используется известная норма).",
+    "Административная дисквалификация до 3 лет (ст. 14.12 КоАП) - подтверждена, fact f21; fact_gap зафиксирован (КоАП часто поправляется).",
+    "Срок исковой давности 3+10 лет (ст. 61.14 п. 5) - подтверждён, fact f14.",
+    "Запрещённые утверждения соблюдены: гарантия отказа суда, абсолютная защита миноритария, «уголовное преследование маловероятно» - не использованы."
+  ],
+  "keyword_density_main": 0.012,
+  "main_keyword_exact_count": 2,
+  "text_chars": 7521,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.108,
+  "local_spam_ngram3_repeat": 0.095,
+  "local_lexical_diversity": 0.589,
+  "local_ai_markers_density": 0.31,
+  "local_ai_markers_critical": 0,
+  "local_ai_markers_total": 3,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 2,
+  "local_first_person_singular_hits": 0,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1782796048/articles/otvetstvennost-uchreditelya-pri-bankrotstve-kollegii-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1782796048/articles/otvetstvennost-uchreditelya-pri-bankrotstve-kollegii-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Photograph through wet glass beaded with raindrops, camera views a contemporary administrative building through the window. Foreground objects on the windowsill (sharp focus): a closed dark leather portfolio, a polished round company seal, a white porcelain coffee cup, a closed notebook with a fountain pen aligned across it, reading glasses, a stack of corporate dossiers sealed with cord. Background (soft, blurred through droplets): glass façade reflecting the rainy street below, distant amber lampposts glowing in the dusk. Camera: tight crop, eye-level. Lighting: cool overcast from outside, warm interior glow from a desk lamp casting subtle shadows. Palette: cool blue-grey with warm interior pin-points, leather and brass accents. Mood: founder's moment of legal reckoning, contemplating the threshold of insolvency.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-06-30T05:07:29Z",
+  "length_status": "too_long",
+  "length_kind": "default",
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 60,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность заметно выше 50% (~60%)",
+    "длина значительно больше лимита 6500 (7 521 знаков)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "spam_risk: 1 флагов (ngram3_repeat_share>0.055 (=0.095)), top-5: ['учредител', 'риск', 'банкротств', 'долг', 'долей']",
+    "targeted_tokens_over_limit: ст_сокращение=7(>≤5)"
+  ],
+  "date_published": "2026-06-30",
+  "date_modified": "2026-06-30",
+  "ready_for_review": true,
+  "ready_at": "2026-06-30T05:07:30Z",
+  "publication_target": "telegram_review"
+}

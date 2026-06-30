@@ -3502,6 +3502,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "otvetstvennost-uchreditelya-pri-bankrotstve-kollegii",
+      "category": "yur",
+      "title": "Ответственность учредителя при банкротстве компании",
+      "added_at": "2026-06-30T08:07:30.480842",
+      "char_count": 7521,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1782796048/articles/otvetstvennost-uchreditelya-pri-bankrotstve-kollegii-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
