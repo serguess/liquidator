@@ -3515,6 +3515,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "realizaciya-imushchestva-yurlica-prodat-cherez-torgi",
+      "category": "yur",
+      "title": "Реализация имущества юрлица: как проходит и что учесть",
+      "added_at": "2026-06-30T08:23:00.195287",
+      "char_count": 7123,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1782796973/articles/realizaciya-imushchestva-yurlica-prodat-cherez-torgi-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
