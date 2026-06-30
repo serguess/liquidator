@@ -3541,6 +3541,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "ugolovnaya-otvetstvennost-za-prednamerennoe-bankrotstvo",
+      "category": "yur",
+      "title": "Признаки преднамеренного банкротства: статья 196 УК РФ",
+      "added_at": "2026-06-30T11:10:28.430661",
+      "char_count": 8435,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1782807025/articles/ugolovnaya-otvetstvennost-za-prednamerennoe-bankrotstvo-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
