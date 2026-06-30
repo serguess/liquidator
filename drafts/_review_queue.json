@@ -3489,6 +3489,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "darenie-imushchestva-pered-bankrotstvom",
+      "category": "fiz",
+      "title": "Дарение перед банкротством: риски и последствия",
+      "added_at": "2026-06-30T06:43:13.672375",
+      "char_count": 7514,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1782790991/articles/darenie-imushchestva-pered-bankrotstvom-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
