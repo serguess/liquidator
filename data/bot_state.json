@@ -6960,15 +6960,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 1704,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-06-30T00:32:31",
-      "last_action_at": "2026-06-30T00:32:31",
+      "last_action_at": "2026-06-30T10:00:23",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-06-30T00:32:31"
+      "pending_batch": false,
+      "pending_batch_at": "2026-06-30T00:32:31",
+      "batch_sent_at": "2026-06-30T10:00:23",
+      "batch_fail_count": 0
     },
     "bankrotstvo-arendodatelya-prava-arendatora": {
       "category": "yur",
@@ -6986,7 +6988,7 @@
       "rejection_reason": null,
       "published_url": null,
       "pending_batch": true,
-      "pending_batch_at": "2026-06-30T05:35:23"
+      "pending_batch_at": "2026-06-30T12:50:01"
     },
     "darenie-imushchestva-pered-bankrotstvom": {
       "category": "fiz",
@@ -6996,15 +6998,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 1706,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-06-30T06:43:24",
-      "last_action_at": "2026-06-30T06:43:24",
+      "last_action_at": "2026-06-30T10:00:25",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-06-30T06:43:24"
+      "pending_batch": false,
+      "pending_batch_at": "2026-06-30T06:43:24",
+      "batch_sent_at": "2026-06-30T10:00:25",
+      "batch_fail_count": 0
     },
     "otvetstvennost-uchreditelya-pri-bankrotstve-kollegii": {
       "category": "yur",
@@ -7021,12 +7025,87 @@
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-06-30T08:08:24",
+      "held_for_daily_release": true
+    },
+    "realizaciya-imushchestva-yurlica-prodat-cherez-torgi": {
+      "category": "yur",
+      "title": "Реализация имущества юрлица: как проходит и что учесть",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-06-30T08:23:25",
+      "last_action_at": "2026-06-30T08:23:25",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-06-30T08:23:25",
+      "held_for_daily_release": true
+    },
+    "bankrotstvo-ip-s-dolgami-po-zarplate": {
+      "category": "fiz",
+      "title": "Банкротство ИП: как закрыть долги перед работниками",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-06-30T11:02:26",
+      "last_action_at": "2026-06-30T11:02:26",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
       "pending_batch": true,
-      "pending_batch_at": "2026-06-30T08:08:24"
+      "pending_batch_at": "2026-06-30T11:02:26"
+    },
+    "ugolovnaya-otvetstvennost-za-prednamerennoe-bankrotstvo": {
+      "category": "yur",
+      "title": "Признаки преднамеренного банкротства: статья 196 УК РФ",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-06-30T11:11:26",
+      "last_action_at": "2026-06-30T11:11:26",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-06-30T11:11:26",
+      "held_for_daily_release": true
+    },
+    "bank-podal-v-sud-po-kreditnoj-karte-chto-delat": {
+      "category": "vzysk",
+      "title": "Банк подал в суд по кредитной карте: что делать",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-06-30T16:14:29",
+      "last_action_at": "2026-06-30T16:14:29",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-06-30T16:14:29"
     }
   },
   "pending_actions": [],
-  "last_batch_date": "2026-06-29",
-  "last_batch_count": 0,
-  "last_batch_at": "2026-06-29T10:00:20"
+  "last_batch_date": "2026-06-30",
+  "last_batch_count": 2,
+  "last_batch_at": "2026-06-30T10:00:25"
 }
