@@ -3528,6 +3528,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "bankrotstvo-ip-s-dolgami-po-zarplate",
+      "category": "fiz",
+      "title": "Банкротство ИП: как закрыть долги перед работниками",
+      "added_at": "2026-06-30T11:01:35.658929",
+      "char_count": 7937,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1782806493/articles/bankrotstvo-ip-s-dolgami-po-zarplate-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
