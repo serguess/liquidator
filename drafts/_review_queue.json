@@ -3554,6 +3554,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "bank-podal-v-sud-po-kreditnoj-karte-chto-delat",
+      "category": "vzysk",
+      "title": "Банк подал в суд по кредитной карте: что делать",
+      "added_at": "2026-06-30T16:14:12.596933",
+      "char_count": 8028,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1782825247/articles/bank-podal-v-sud-po-kreditnoj-karte-chto-delat-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

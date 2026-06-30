@@ -21746,5 +21746,66 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-06-30T11:01:37",
+    "category": "yur",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "From https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 5,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "resume",
+    "resume_slug": "ugolovnaya-otvetstvennost-za-prednamerennoe-bankrotstvo",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "length_soft_passed: 8435 > 6500 но ≤ 8500 и iteration=2 — пропускаем (приоритет spam/uniqueness/ai)",
+        "forced_pass_at_iter2: блокеры пропущены, статья идёт в TG-очередь с metrics_warning=true. Было: 1 блокеров — targeted_tokens_over_limit"
+      ],
+      "recommendations": [
+        "reduce_round_sums: «X 000 руб» × 4 → cap 2. Иллюстративные суммы — некруглые (82 400, 147 500). Статутные пороги (300 000, 500 000) — 1 раз в точной форме + дальше через дескриптор («эта планка», «новый минимум»)."
+      ],
+      "stderr_tail": ""
+    },
+    "finalize_safety_net": {
+      "ran": true,
+      "rc": 0
+    },
+    "status": "ok",
+    "slug": "ugolovnaya-otvetstvennost-za-prednamerennoe-bankrotstvo",
+    "duration_sec": 530.8,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "seo-editor        sonnet            6      16    77530     25156     77552\n7-publisher         haiku            62      26    74333    169278     74421\n------------------------------------------------------------------------------------------\nИТОГО                                68      42   151863    194434    151973\nBillable-токенов на статью: ~151K (cache_read 194K не считается в лимит подписки).\nАртефакты: drafts/ugolovnaya-otvetstvennost-za-prednamerennoe-bankrotstvo/  | quality_gate exit=0",
+    "stderr_tail": "",
+    "tokens_by_model": {},
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 8435
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]
