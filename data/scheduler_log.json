@@ -21906,5 +21906,128 @@
     "stderr_tail": "[ERR] rate_limit: put_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard\",\"cache_creation\":{\"ephemeral_1h_input_tokens\":0,\"ephemeral_5m_input_tokens\":0},\"inference_geo\":\"\",\"iterations\":[],\"speed\":\"standard\"},\"modelUsage\":{},\"permission_denials\":[],\"terminal_reason\":\"completed\",\"fast_mode_state\":\"off\",\"uuid\":\"a9e3e6b9-2b50-4b83-9176-a49b431f5fa0\"}\n\n",
     "tokens_by_model": {},
     "metrics": null
+  },
+  {
+    "timestamp": "2026-06-30T20:36:32",
+    "category": "news",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "From https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 8,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "resume",
+    "resume_slug": "obzor-praktiki-vs-po-bankrotstvu-grazhdan",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "length_soft_passed: 7195 > 5500 но ≤ 7500 и iteration=2 — пропускаем (приоритет spam/uniqueness/ai)",
+        "forced_pass_at_iter2: блокеры пропущены, статья идёт в TG-очередь с metrics_warning=true. Было: 3 блокеров — targeted_tokens_over_limit; broken_internal_links; too_few_short_sentences"
+      ],
+      "recommendations": [
+        "reduce_round_sums: «X 000 руб» × 6 → cap 2. Иллюстративные суммы — некруглые (82 400, 147 500). Статутные пороги (300 000, 500 000) — 1 раз в точной форме + дальше через дескриптор («эта планка», «новый минимум»).",
+        "fix_internal_links: заменить href на канонический /articles/{cat}/{slug} из published_index.json (см. .claude/style/editor-cheatsheet.md секция 6)",
+        "add_short_sentences: добавить минимум 4 коротких предложений (≤5 слов). Главный anti-AI маркер: «Главное.», «Защита не включается.», «6 месяцев, иногда 8.». Разбивать длинные предложения на 2-3 коротких."
+      ],
+      "stderr_tail": ""
+    },
+    "finalize_safety_net": {
+      "ran": true,
+      "rc": 0
+    },
+    "status": "ok",
+    "slug": "obzor-praktiki-vs-po-bankrotstvu-grazhdan",
+    "duration_sec": 1330.4,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "_r  billable\n6-seo-editor        sonnet            6      14        0     93458        20\n7-publisher         haiku            20      12    39206     25520     39238\n------------------------------------------------------------------------------------------\nИТОГО                                26      26    39206    118978     39258\nBillable-токенов на статью: ~39K (cache_read 118K не считается в лимит подписки).\nАртефакты: drafts/obzor-praktiki-vs-po-bankrotstvu-grazhdan/  | quality_gate exit=0",
+    "stderr_tail": "",
+    "tokens_by_model": {},
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7195
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
+  },
+  {
+    "timestamp": "2026-07-01T05:13:01",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets 9am (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-07-01T08:30:32",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets 9am (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-07-01T08:30:34",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets 9am (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-07-01T08:30:37",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets 9am (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-07-01T08:30:39",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets 9am (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-07-01T08:30:41",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets 9am (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-07-01T08:30:43",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets 9am (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-07-01T08:30:45",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets 9am (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-07-01T08:30:47",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets 9am (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-07-01T08:30:49",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets 9am (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-07-01T08:30:51",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets 9am (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-07-01T08:30:53",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets 9am (Europe/Moscow)"
   }
 ]

@@ -3580,6 +3580,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "ispolnitelskij-sbor-bankrotstvo-fizlica",
+      "category": "fiz",
+      "title": "Исполнительский сбор при банкротстве физлица",
+      "added_at": "2026-07-01T10:26:28.623803",
+      "char_count": 7796,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1782890783/articles/ispolnitelskij-sbor-bankrotstvo-fizlica-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
