@@ -1073,7 +1073,11 @@
       "topic_action": "подать жалобу на банк в Центробанк",
       "event_date": "2026-05-25",
       "news_zone": "finance",
-      "primary_source": "https://www.consultant.ru/legalnews/31577/"
+      "primary_source": "https://www.consultant.ru/legalnews/31577/",
+      "status": "rejected",
+      "rejected_at": "2026-07-01T04:00:01",
+      "rejected_reason": "event_too_old:37d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-36",
@@ -1303,7 +1307,11 @@
       "topic_action": "консультацию по банкротству должника в заключении",
       "event_date": "2026-05-28",
       "news_zone": "vs_practice",
-      "primary_source": "https://rapsinews.ru/judicial_news/20260528/311882559.html"
+      "primary_source": "https://rapsinews.ru/judicial_news/20260528/311882559.html",
+      "status": "rejected",
+      "rejected_at": "2026-07-01T04:00:01",
+      "rejected_reason": "event_too_old:34d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-43",
