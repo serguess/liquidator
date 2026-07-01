@@ -2150,7 +2150,11 @@
       "topic_action": "консультацию по влиянию ставки на ваш долг",
       "event_date": "2026-06-19",
       "news_zone": "finance",
-      "primary_source": "https://www.cbr.ru/press/keypr/"
+      "primary_source": "https://www.cbr.ru/press/keypr/",
+      "status": "rejected",
+      "rejected_at": "2026-07-02T00:24:30",
+      "rejected_reason": "cannibalization:preflight:stavka-cb-14-5-procent-aprel-2026-dolzhniki",
+      "rejected_by": "auto_skip_in_slot"
     },
     {
       "id": "news-69",
