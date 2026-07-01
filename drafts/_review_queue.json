@@ -3619,6 +3619,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "ugolovjnyj-arest-imushchestva-ne-snimaetsya-pri-bankrotstve",
+      "category": "news",
+      "title": "Уголовный арест имущества остаётся при банкротстве",
+      "added_at": "2026-07-02T00:42:48.234628",
+      "char_count": 5978,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1782942162/articles/ugolovjnyj-arest-imushchestva-ne-snimaetsya-pri-bankrotstve-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
