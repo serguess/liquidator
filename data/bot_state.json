@@ -7099,7 +7099,7 @@
     "bank-podal-v-sud-po-kreditnoj-karte-chto-delat": {
       "category": "vzysk",
       "title": "Банк подал в суд по кредитной карте: что делать",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -7107,14 +7107,16 @@
       "tg_message_id": 1716,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-06-30T16:14:29",
-      "last_action_at": "2026-07-01T10:00:10",
+      "last_action_at": "2026-07-01T15:22:36",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/vzysk/bank-podal-v-sud-po-kreditnoj-karte-chto-delat",
       "pending_batch": false,
       "pending_batch_at": "2026-06-30T16:14:29",
       "batch_sent_at": "2026-07-01T10:00:10",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-07-01T15:22:36",
+      "articles_path": "articles/vzysk/bank-podal-v-sud-po-kreditnoj-karte-chto-delat.html"
     },
     "obzor-praktiki-vs-po-bankrotstvu-grazhdan": {
       "category": "news",
