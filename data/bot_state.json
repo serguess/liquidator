@@ -6977,20 +6977,24 @@
     "bankrotstvo-arendodatelya-prava-arendatora": {
       "category": "yur",
       "title": "Банкротство арендодателя: права арендатора",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 1712,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-06-30T05:35:23",
-      "last_action_at": "2026-06-30T05:35:23",
+      "last_action_at": "2026-07-01T13:37:26",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-06-30T12:50:01"
+      "published_url": "https://pravo.shop/articles/yur/bankrotstvo-arendodatelya-prava-arendatora",
+      "pending_batch": false,
+      "pending_batch_at": "2026-06-30T12:50:01",
+      "batch_sent_at": "2026-07-01T10:00:06",
+      "batch_fail_count": 0,
+      "published_at": "2026-07-01T13:37:26",
+      "articles_path": "articles/yur/bankrotstvo-arendodatelya-prava-arendatora.html"
     },
     "darenie-imushchestva-pered-bankrotstvom": {
       "category": "fiz",
@@ -7029,9 +7033,8 @@
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": false,
-      "pending_batch_at": "2026-06-30T08:08:24",
-      "held_for_daily_release": true
+      "pending_batch": true,
+      "pending_batch_at": "2026-07-01T12:50:02"
     },
     "realizaciya-imushchestva-yurlica-prodat-cherez-torgi": {
       "category": "yur",
@@ -7060,15 +7063,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 1714,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-06-30T11:02:26",
-      "last_action_at": "2026-06-30T11:02:26",
+      "last_action_at": "2026-07-01T10:00:08",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-06-30T11:02:26"
+      "pending_batch": false,
+      "pending_batch_at": "2026-06-30T11:02:26",
+      "batch_sent_at": "2026-07-01T10:00:08",
+      "batch_fail_count": 0
     },
     "ugolovnaya-otvetstvennost-za-prednamerennoe-bankrotstvo": {
       "category": "yur",
@@ -7097,15 +7102,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 1716,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-06-30T16:14:29",
-      "last_action_at": "2026-06-30T16:14:29",
+      "last_action_at": "2026-07-01T10:00:10",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-06-30T16:14:29"
+      "pending_batch": false,
+      "pending_batch_at": "2026-06-30T16:14:29",
+      "batch_sent_at": "2026-07-01T10:00:10",
+      "batch_fail_count": 0
     },
     "obzor-praktiki-vs-po-bankrotstvu-grazhdan": {
       "category": "news",
@@ -7115,19 +7122,39 @@
       "versions": [
         "2.0"
       ],
+      "tg_message_id": 1718,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-06-30T20:59:32",
+      "last_action_at": "2026-07-01T10:00:13",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-06-30T20:59:32",
+      "batch_sent_at": "2026-07-01T10:00:13",
+      "batch_fail_count": 0
+    },
+    "ispolnitelskij-sbor-bankrotstvo-fizlica": {
+      "category": "fiz",
+      "title": "Исполнительский сбор при банкротстве физлица",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
       "tg_message_id": null,
       "tg_chat_id": null,
-      "first_seen_at": "2026-06-30T20:59:32",
-      "last_action_at": "2026-06-30T20:59:32",
+      "first_seen_at": "2026-07-01T10:27:08",
+      "last_action_at": "2026-07-01T10:27:08",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
       "pending_batch": true,
-      "pending_batch_at": "2026-06-30T20:59:32"
+      "pending_batch_at": "2026-07-01T10:27:08"
     }
   },
   "pending_actions": [],
-  "last_batch_date": "2026-06-30",
-  "last_batch_count": 2,
-  "last_batch_at": "2026-06-30T10:00:25"
+  "last_batch_date": "2026-07-01",
+  "last_batch_count": 4,
+  "last_batch_at": "2026-07-01T10:00:13"
 }

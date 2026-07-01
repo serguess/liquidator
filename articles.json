@@ -1,6 +1,19 @@
 {
-  "generated": "2026-06-30",
+  "generated": "2026-07-01",
   "articles": [
+    {
+      "slug": "bankrotstvo-arendodatelya-prava-arendatora",
+      "cat": "yur",
+      "catLabel": "Банкротство юридических лиц",
+      "title": "Банкротство арендодателя: права арендатора",
+      "desc": "Права арендатора при банкротстве собственника, может ли пользоваться имуществом, как защитить интересы в конкурсном производстве и получить компенсацию.",
+      "date": "1 июля 2026",
+      "dateIso": "2026-07-01",
+      "read": "6 мин.",
+      "tone": "b",
+      "img": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1782786891/articles/bankrotstvo-arendodatelya-prava-arendatora-cover.jpg",
+      "url": "articles/yur/bankrotstvo-arendodatelya-prava-arendatora"
+    },
     {
       "slug": "darenie-imushchestva-pered-bankrotstvom",
       "cat": "fiz",
