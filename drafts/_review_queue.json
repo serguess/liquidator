@@ -3593,6 +3593,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "ogranichenie-voditelya-za-dolgi-kak-snyat",
+      "category": "vzysk",
+      "title": "Ограничение прав водителя за долги: как снять запрет",
+      "added_at": "2026-07-01T15:31:29.114413",
+      "char_count": 8473,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1782909086/articles/ogranichenie-voditelya-za-dolgi-kak-snyat-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
