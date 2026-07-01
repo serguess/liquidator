@@ -2,6 +2,19 @@
   "generated": "2026-07-01",
   "articles": [
     {
+      "slug": "bankrotstvo-ip-s-dolgami-po-zarplate",
+      "cat": "fiz",
+      "catLabel": "Банкротство физических лиц",
+      "title": "Банкротство ИП: как закрыть долги перед работниками",
+      "desc": "Пошаговая инструкция по банкротству ИП с задолженностью перед сотрудниками. Как защитить себя, какие документы нужны, сроки и последствия для работников.",
+      "date": "1 июля 2026",
+      "dateIso": "2026-07-01",
+      "read": "5 мин.",
+      "tone": "b",
+      "img": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1782806493/articles/bankrotstvo-ip-s-dolgami-po-zarplate-cover.jpg",
+      "url": "articles/fiz/bankrotstvo-ip-s-dolgami-po-zarplate"
+    },
+    {
       "slug": "bankrotstvo-arendodatelya-prava-arendatora",
       "cat": "yur",
       "catLabel": "Банкротство юридических лиц",
