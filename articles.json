@@ -2,6 +2,19 @@
   "generated": "2026-07-01",
   "articles": [
     {
+      "slug": "obzor-praktiki-vs-po-bankrotstvu-grazhdan",
+      "cat": "news",
+      "catLabel": "Новости",
+      "title": "Практика ВС по банкротству граждан: 5 ключевых позиций",
+      "desc": "Верховный суд утвердил обзор практики по банкротству физлиц. Ключевые позиции судов по долгам, списанию имущества и процедурам - разбор документа ВС РФ.",
+      "date": "1 июля 2026",
+      "dateIso": "2026-07-01",
+      "read": "5 мин.",
+      "tone": "b",
+      "img": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1782842317/articles/obzor-praktiki-vs-po-bankrotstvu-grazhdan-cover.jpg",
+      "url": "articles/news/obzor-praktiki-vs-po-bankrotstvu-grazhdan"
+    },
+    {
       "slug": "bank-podal-v-sud-po-kreditnoj-karte-chto-delat",
       "cat": "vzysk",
       "catLabel": "Взыскание задолженности",
