@@ -1,0 +1,107 @@
+{
+  "slug": "vs-otkazal-spisanie-dolga-vinovnika-dtp",
+  "category": "news",
+  "title": "ВС отказал списать долг виновника ДТП через банкротство",
+  "description": "Верховный суд отказал в списании долга виновника ДТП. Что означает решение для должников с правонарушениями и как это влияет на возможность банкротства.",
+  "h1": "Верховный суд отказал в списании долга виновника ДТП через банкротство",
+  "lead": "Верховный суд в июне 2026 года подтвердил: долг за причинённый вред здоровью не списывается вместе с кредитами - требование п. 5 ст. 213.28 закона 127-ФЗ работает без исключений.",
+  "topic_action": "проверку возможности списания долгов через банкротство",
+  "breadcrumb_current": "ВС об отказе в списании долга за ДТП",
+  "og_image": "/assets/articles/vs-otkazal-spisanie-dolga-vinovnika-dtp.jpg",
+  "main_keyword": "верховный суд отказал списание долга виновника дтп",
+  "secondary_keywords": [
+    "отказ в списании долга при банкротстве",
+    "долг виновника дтп банкротство",
+    "верховный суд практика банкротства должника",
+    "списание долгов правонарушителей",
+    "банкротство граждан с правонарушениями",
+    "решение верховного суда об отказе в банкротстве"
+  ],
+  "intent": "informational",
+  "funnel_stage": "cold",
+  "article_type": "B",
+  "offer": "proverka-spisaniya",
+  "event_date": "2026-06-01",
+  "news_zone": "vs_practice",
+  "internal_links": [
+    "/articles/fiz/alimenty-pri-bankrotstve-fizlica"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/",
+    "https://www.consultant.ru/document/cons_doc_LAW_5142/"
+  ],
+  "faq": [
+    {
+      "question": "Спишется ли долг за ремонт машины, а не за здоровье?",
+      "answer": "Имущественный ущерб - ремонт автомобиля, эвакуация, аренда подменной машины - относится к обычным обязательствам и гаснет вместе с прочими при завершении процедуры. Несписываемой закон считает только компенсацию за повреждение здоровья и жизни."
+    },
+    {
+      "question": "Что происходит с требованием пострадавшего, если виновник уже прошёл банкротство?",
+      "answer": "Требование сохраняется в полном объёме. Решение о выплате продолжает действовать, пристав возобновляет исполнительное производство или ведёт его без перерыва. Пострадавшему не нужно повторно обращаться в суд или включаться в чужое дело."
+    },
+    {
+      "question": "Влияет ли размер долга за аварию на право подать заявление?",
+      "answer": "Нет. Порог обязательств для банкротства физлица считается по общей сумме всех долгов, а не по одному конкретному. Присуждённая выплата пострадавшему учитывается наравне с банковскими кредитами."
+    },
+    {
+      "question": "Как пострадавший узнаёт о банкротстве виновника?",
+      "answer": "Сведения о деле публикуются в ЕФРСБ. Финансовый управляющий обязан уведомить всех известных кредиторов. Активных действий в чужом деле для сохранения права требования не требуется."
+    },
+    {
+      "question": "Помогает ли банкротство виновнику ДТП, если долг за здоровье остаётся?",
+      "answer": "Помогает, если остальные обязательства составляют существенную часть нагрузки. Потребительские кредиты, займы, коммунальные долги, налоги списываются в общем порядке. Виновник выходит из процедуры без прежней банковской истории, но с сохранённой обязанностью выплачивать компенсацию пострадавшему."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "f1/f2: п. 5 ст. 213.28 127-ФЗ - last_verified 2026-07-01, legislation_status active, контекст применения корректен",
+    "f3: форма вины (умысел/неосторожность) - safe_phrasing применена, различие по вине не вводится",
+    "f4: очерёдность требований - третья группа, active",
+    "f5 (мировое соглашение) - legislation_status needs_verification; использована safe_phrasing: рассрочка/отсрочка возможна, полное освобождение невозможно; детали практики не детализированы",
+    "f6: исполнительное производство ФЗ-229 - active, ст. 99 и 446 ГПК применены корректно",
+    "Упоминание «Коммерсантъ» в FAQ убрано: с января 2026 года для физлиц-банкротов обязательна публикация только в ЕФРСБ (ФЗ-259 от 08.08.2024); оставлен только ЕФРСБ",
+    "Внутренняя ссылка /articles/fiz/alimenty-pri-bankrotstve-fizlica взята из draft - проверить наличие в published_index перед публикацией"
+  ],
+  "keyword_density_main": null,
+  "main_keyword_exact_count": null,
+  "text_chars": 6958,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.129,
+  "local_spam_ngram3_repeat": 0.027,
+  "local_lexical_diversity": 0.617,
+  "local_ai_markers_density": 0.23,
+  "local_ai_markers_critical": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1782924877/articles/vs-otkazal-spisanie-dolga-vinovnika-dtp-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1782924877/articles/vs-otkazal-spisanie-dolga-vinovnika-dtp-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Close-to-medium architectural photograph of a monumental stone courthouse or Supreme Court building, emphasizing texture and immutable authority. Camera angle: extreme low-angle gazing up imposing columns, emphasizing their architectural weight and permanence. Foreground detail: carved stone detail or emblem of justice (no readable text). Lighting: dramatic hard side-light from upper left, casting deep shadows across the limestone façade and architectural features, revealing every weathered chisel mark and the texture of age. Palette: warm golden sandstone contrasted with cool deep grey-blue shadows, suggesting judicial finality. Mood: weighty institutional decision, the permanence of authoritative judgment, immovable resolve.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-07-01T16:54:38Z",
+  "length_status": "too_long",
+  "length_kind": "news",
+  "local_ai_markers_total": 2,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 2,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 55,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность выше 50% (~55%)",
+    "длина значительно больше лимита 5500 (6 958 знаков)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "spam_risk: 4 флагов (top1_count>12 (=13, лемма «обязательств»), top3_sum>30 (=31), top10_sum>80 (=83), top10_share>0.115 (=0.129)), top-5: ['обязательств', 'выплат', 'долг', 'виновник', 'здоровь']",
+    "too_few_short_sentences: 10 < 12"
+  ],
+  "date_published": "2026-07-01",
+  "date_modified": "2026-07-01",
+  "ready_for_review": true,
+  "ready_at": "2026-07-01T16:54:42Z",
+  "publication_target": "telegram_review"
+}

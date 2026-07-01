@@ -3606,6 +3606,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "vs-otkazal-spisanie-dolga-vinovnika-dtp",
+      "category": "news",
+      "title": "ВС отказал списать долг виновника ДТП через банкротство",
+      "added_at": "2026-07-01T19:54:42.870479",
+      "char_count": 6958,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1782924877/articles/vs-otkazal-spisanie-dolga-vinovnika-dtp-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
