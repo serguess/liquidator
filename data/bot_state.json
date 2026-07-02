@@ -7157,6 +7157,96 @@
       "published_url": null,
       "pending_batch": true,
       "pending_batch_at": "2026-07-01T10:27:08"
+    },
+    "ogranichenie-voditelya-za-dolgi-kak-snyat": {
+      "category": "vzysk",
+      "title": "Ограничение прав водителя за долги: как снять запрет",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-07-01T15:32:11",
+      "last_action_at": "2026-07-01T15:32:11",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-07-01T15:32:11"
+    },
+    "vs-otkazal-spisanie-dolga-vinovnika-dtp": {
+      "category": "news",
+      "title": "ВС отказал списать долг виновника ДТП через банкротство",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-07-01T19:55:13",
+      "last_action_at": "2026-07-01T19:55:13",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-07-01T19:55:13"
+    },
+    "ugolovjnyj-arest-imushchestva-ne-snimaetsya-pri-bankrotstve": {
+      "category": "news",
+      "title": "Уголовный арест имущества остаётся при банкротстве",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-07-02T00:43:16",
+      "last_action_at": "2026-07-02T00:43:16",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-07-02T00:43:16"
+    },
+    "bankrotstvo-mnogodetnoj-semi": {
+      "category": "fiz",
+      "title": "Банкротство многодетной семьи: защита жилья и прав",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-07-02T05:52:41",
+      "last_action_at": "2026-07-02T05:52:41",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-07-02T05:52:41"
+    },
+    "iis-investicii-bankrotstvo-fizlica": {
+      "category": "fiz",
+      "title": "ИИС при банкротстве физлица: судьба счёта и имущества",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-07-02T08:48:18",
+      "last_action_at": "2026-07-02T08:48:18",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-07-02T08:48:18"
     }
   },
   "pending_actions": [],
