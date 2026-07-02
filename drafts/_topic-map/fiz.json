@@ -3764,7 +3764,11 @@
       "expected_length_chars": 6500,
       "topic_action": "банкротство при задолженности по алиментам",
       "title_length": 52,
-      "description_length": 150
+      "description_length": 150,
+      "status": "rejected",
+      "rejected_at": "2026-07-02T08:47:52",
+      "rejected_reason": "cannibalization:preflight:cluster:fiz-alimony-bankruptcy",
+      "rejected_by": "auto_skip_in_slot"
     },
     {
       "id": "fiz-135",
