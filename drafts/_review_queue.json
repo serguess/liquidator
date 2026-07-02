@@ -3645,6 +3645,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "iis-investicii-bankrotstvo-fizlica",
+      "category": "fiz",
+      "title": "ИИС при банкротстве физлица: судьба счёта и имущества",
+      "added_at": "2026-07-02T08:47:36.746287",
+      "char_count": 9217,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1782971252/articles/iis-investicii-bankrotstvo-fizlica-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

@@ -22279,5 +22279,73 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-07-02T05:12:18",
+    "category": "fiz",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 1,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "fiz-132",
+    "topic_slug": "bankrotstvo-mnogodetnoj-semi",
+    "auto_skipped": [
+      {
+        "slug": "edinstvennoe-zhilye-bez-ipoteki-bankrotstvo",
+        "reason": "cannibalization:preflight:sudebnaya-praktika-edinstvennoe-zhilye-2026",
+        "duration_sec": 0
+      }
+    ],
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "forced_pass_at_iter2: блокеры пропущены, статья идёт в TG-очередь с metrics_warning=true. Было: 1 блокеров — length_too_long"
+      ],
+      "recommendations": [
+        "reduce_length: сократить до 5000-6000 знаков"
+      ],
+      "stderr_tail": ""
+    },
+    "finalize_safety_net": {
+      "ran": true,
+      "rc": 0
+    },
+    "status": "ok",
+    "slug": "bankrotstvo-mnogodetnoj-semi",
+    "duration_sec": 2407.2,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "1966    124030     61980\n6-seo-editor        haiku            20      16    72684     25520     72720\n7-publisher         haiku            20      16    39404     25520     39440\n------------------------------------------------------------------------------------------\nИТОГО                              2854     130   595971    672706    598955\nBillable-токенов на статью: ~598K (cache_read 672K не считается в лимит подписки).\nАртефакты: drafts/bankrotstvo-mnogodetnoj-semi/  | quality_gate exit=0",
+    "stderr_tail": "",
+    "tokens_by_model": {},
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 8918
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]

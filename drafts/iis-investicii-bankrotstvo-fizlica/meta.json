@@ -1,0 +1,108 @@
+{
+  "slug": "iis-investicii-bankrotstvo-fizlica",
+  "category": "fiz",
+  "title": "ИИС при банкротстве физлица: судьба счёта и имущества",
+  "description": "Что происходит с ИИС, брокерским счётом и инвестициями при банкротстве физлица: судебная практика, защита имущества, исключения из конкурсной массы.",
+  "h1": "ИИС и инвестиции при банкротстве физлица: судьба счёта и имущества",
+  "lead": "Разбираем, что видит арбитраж в портфеле инвестора, куда уходят бумаги и налоговый возврат и почему процессуальный щит не защитит ИИС.",
+  "topic_action": "проверку инвестиционных активов перед банкротством",
+  "breadcrumb_current": "ИИС при банкротстве физлица",
+  "og_image": "/assets/articles/iis-investicii-bankrotstvo-fizlica.jpg",
+  "main_keyword": "ИИС при банкротстве физлица",
+  "secondary_keywords": [
+    "ИИС при банкротстве",
+    "брокерский счет при банкротстве физлица",
+    "инвестиции конкурсная масса",
+    "защита счета от взыскания при банкротстве",
+    "личный кабинет инвестора при банкротстве",
+    "льготы на ИИС при банкротстве",
+    "судьба депозитария при банкротстве",
+    "портфель ценных бумаг при банкротстве"
+  ],
+  "internal_links": [
+    "/articles/fiz/bankovskie-scheta-pri-bankrotstve",
+    "/articles/fiz/avtomobil-pri-bankrotstve-fizlica"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/",
+    "https://www.consultant.ru/document/cons_doc_LAW_5142/"
+  ],
+  "faq": [
+    {
+      "question": "Можно ли самому вывести деньги с ИИС до подачи заявления о банкротстве?",
+      "answer": "Технически возможно, но такие операции разбираются под лупой. Финансовый управляющий видит выписки минимум за три года и оспаривает подозрительные перечисления - особенно родственникам без встречной оплаты. Выведенные суммы возвращаются в опись, а само поведение читается как недобросовестное."
+    },
+    {
+      "question": "Что произойдёт с купонами, начисленными до введения процедуры, но выплаченными позже?",
+      "answer": "Однозначного правила нет. Суды опираются на условия выпуска бумаги, дату фиксации реестра владельцев и корпоративный акт эмитента. Часть таких поступлений уходит в общий котёл, часть остаётся за гражданином - зависит от конкретики. Разумно не расходовать эти суммы до согласования с финансовым управляющим."
+    },
+    {
+      "question": "Обязательно ли самостоятельно уведомлять брокера о начале банкротства?",
+      "answer": "Обязанность лежит на назначенном финансовом управляющем: он рассылает уведомления во все известные ему организации. На практике инвесторы сами извещают брокера быстрее - это сокращает задержки с блокировкой операций и снижает риск случайных списаний по регулярным поручениям."
+    },
+    {
+      "question": "Сколько времени занимает передача ценных бумаг финансовому управляющему после решения суда?",
+      "answer": "Единого срока в законе нет. По практике передача занимает от двух до шести недель: депозитарий требует заверенную копию судебного акта, реквизиты специального счёта, распорядительное письмо от управляющего. Крупные брокеры отрабатывают быстрее, у мелких депозитариев процесс растягивается."
+    },
+    {
+      "question": "Чем судьба ИИС отличается от обычного брокерского счёта при банкротстве?",
+      "answer": "По базовому механизму - ничем. Оба формата целиком идут в имущество гражданина, оба реализуются на торгах. Отличия в двух точках: возврат налога и льготная ставка - только у инвестиционного счёта. Обычный брокерский лишён этих привилегий изначально, поэтому и терять на процедуре нечего."
+    },
+    {
+      "question": "Какой налог удержат с продажи бумаг при реализации имущества?",
+      "answer": "Стандартные тринадцать процентов НДФЛ с положительной разницы между ценой продажи и ценой покупки. Льготный режим инвестиционного счёта, как правило, при процедуре слетает, оптимизация налога перестаёт работать. Сумма обязательства перед бюджетом ложится на гражданина по итогам года."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все факты сверены с research.json. Ключевые нормы: ст. 213.25 127-ФЗ (f1, f3, f5, f6, f10), ст. 446 ГПК (f5), ст. 38 ФЗ-39 (f7). last_verified: 2026-07-02 у всех фактов.",
+    "Факты f2, f4, f8, f9 имеют legislation_status: needs_verification - использованы safe_phrasing с оговорками о неоднородности практики. Запрещённые утверждения из forbidden_claims в тексте отсутствуют.",
+    "Возврат налога (тип А, f2, contested=true): использована двойная формулировка «часть арбитражей... другие суды...» без однозначного утверждения. Утверждение о защите вычета от взыскания отсутствует.",
+    "Льготная ставка (тип Б, f9): в тексте «как правило, слетает» и «тринадцать процентов» - соответствует safe_phrasing f9.",
+    "Ст. 38 ФЗ-39 «тридцать восьмая норма» корректна по f7.",
+    "Внутренние ссылки исправлены: удалено расширение .html согласно требованиям формата href.",
+    "Добавлены 2 внешних ссылки на КонсультантПлюс из research.key_sources: ст. 213.25 127-ФЗ и ст. 446 ГПК."
+  ],
+  "keyword_density_main": 0.015,
+  "main_keyword_exact_count": 2,
+  "text_chars": 9217,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.101,
+  "local_spam_ngram3_repeat": 0.023,
+  "local_lexical_diversity": 0.624,
+  "local_ai_markers_density": 0.27,
+  "local_ai_markers_critical": 0,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1782971252/articles/iis-investicii-bankrotstvo-fizlica-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1782971252/articles/iis-investicii-bankrotstvo-fizlica-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Photograph of a contemporary bright workspace with natural materials — light oak desk, raw concrete wall accent, linen-upholstered chair. Foreground: sleek closed laptop, smartphone face-down, leather-bound investment notebook with fountain pen, polished brass round seal symbolizing account protection, white porcelain coffee cup. Background: floor-to-ceiling windows opening onto city skyline in daylight. Camera: three-quarter angle, eye-level, shallow depth of field. Lighting: bright cool window light with warm pendant fill. Mood: focused investment professional, modern wealth preservation strategy, protected account status.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-07-02T05:47:34Z",
+  "length_status": "too_long",
+  "length_kind": "default",
+  "local_ai_markers_total": 3,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 5,
+  "local_first_person_singular_hits": 1,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 49,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "длина значительно больше лимита 6500 (9 217 знаков)",
+    "в тексте есть «я» вместо «мы» (1 мест) - нарушает фирменный голос"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "length_too_long: 9217 > 6500 (kind=default)",
+    "first_person_singular: 1 (должно быть 0)"
+  ],
+  "date_published": "2026-07-02",
+  "date_modified": "2026-07-02",
+  "ready_for_review": true,
+  "ready_at": "2026-07-02T05:47:36Z",
+  "publication_target": "telegram_review"
+}
