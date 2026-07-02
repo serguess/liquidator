@@ -3671,6 +3671,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "kompensaciya-za-zaderzhku-zarplaty-vzyskanie-st-236",
+      "category": "vzysk",
+      "title": "Взыскание компенсации за задержку зарплаты по ст. 236 ТК РФ",
+      "added_at": "2026-07-03T01:01:32.117034",
+      "char_count": 6971,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1783029689/articles/kompensaciya-za-zaderzhku-zarplaty-vzyskanie-st-236-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
