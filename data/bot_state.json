@@ -7181,7 +7181,7 @@
     "ogranichenie-voditelya-za-dolgi-kak-snyat": {
       "category": "vzysk",
       "title": "Ограничение прав водителя за долги: как снять запрет",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -7189,14 +7189,16 @@
       "tg_message_id": 1732,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-01T15:32:11",
-      "last_action_at": "2026-07-02T10:00:23",
+      "last_action_at": "2026-07-02T12:59:31",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/vzysk/ogranichenie-voditelya-za-dolgi-kak-snyat",
       "pending_batch": false,
       "pending_batch_at": "2026-07-01T15:32:11",
       "batch_sent_at": "2026-07-02T10:00:23",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-07-02T12:59:31",
+      "articles_path": "articles/vzysk/ogranichenie-voditelya-za-dolgi-kak-snyat.html"
     },
     "vs-otkazal-spisanie-dolga-vinovnika-dtp": {
       "category": "news",
