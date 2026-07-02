@@ -7021,20 +7021,24 @@
     "otvetstvennost-uchreditelya-pri-bankrotstve-kollegii": {
       "category": "yur",
       "title": "Ответственность учредителя при банкротстве компании",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 1728,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-06-30T08:08:24",
-      "last_action_at": "2026-06-30T08:08:24",
+      "last_action_at": "2026-07-02T12:50:51",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-07-01T12:50:02"
+      "published_url": "https://pravo.shop/articles/yur/otvetstvennost-uchreditelya-pri-bankrotstve-kollegii",
+      "pending_batch": false,
+      "pending_batch_at": "2026-07-01T12:50:02",
+      "batch_sent_at": "2026-07-02T10:00:18",
+      "batch_fail_count": 0,
+      "published_at": "2026-07-02T12:50:51",
+      "articles_path": "articles/yur/otvetstvennost-uchreditelya-pri-bankrotstve-kollegii.html"
     },
     "realizaciya-imushchestva-yurlica-prodat-cherez-torgi": {
       "category": "yur",
@@ -7051,9 +7055,8 @@
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": false,
-      "pending_batch_at": "2026-06-30T08:23:25",
-      "held_for_daily_release": true
+      "pending_batch": true,
+      "pending_batch_at": "2026-07-02T12:50:01"
     },
     "bankrotstvo-ip-s-dolgami-po-zarplate": {
       "category": "fiz",
@@ -7148,15 +7151,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 1730,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-01T10:27:08",
-      "last_action_at": "2026-07-01T10:27:08",
+      "last_action_at": "2026-07-02T10:00:20",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-07-01T10:27:08"
+      "pending_batch": false,
+      "pending_batch_at": "2026-07-01T10:27:08",
+      "batch_sent_at": "2026-07-02T10:00:20",
+      "batch_fail_count": 0
     },
     "ogranichenie-voditelya-za-dolgi-kak-snyat": {
       "category": "vzysk",
@@ -7166,15 +7171,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 1732,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-01T15:32:11",
-      "last_action_at": "2026-07-01T15:32:11",
+      "last_action_at": "2026-07-02T10:00:23",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-07-01T15:32:11"
+      "pending_batch": false,
+      "pending_batch_at": "2026-07-01T15:32:11",
+      "batch_sent_at": "2026-07-02T10:00:23",
+      "batch_fail_count": 0
     },
     "vs-otkazal-spisanie-dolga-vinovnika-dtp": {
       "category": "news",
@@ -7184,15 +7191,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 1734,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-01T19:55:13",
-      "last_action_at": "2026-07-01T19:55:13",
+      "last_action_at": "2026-07-02T10:00:25",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-07-01T19:55:13"
+      "pending_batch": false,
+      "pending_batch_at": "2026-07-01T19:55:13",
+      "batch_sent_at": "2026-07-02T10:00:25",
+      "batch_fail_count": 0
     },
     "ugolovjnyj-arest-imushchestva-ne-snimaetsya-pri-bankrotstve": {
       "category": "news",
@@ -7202,15 +7211,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 1736,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-02T00:43:16",
-      "last_action_at": "2026-07-02T00:43:16",
+      "last_action_at": "2026-07-02T10:00:27",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-07-02T00:43:16"
+      "pending_batch": false,
+      "pending_batch_at": "2026-07-02T00:43:16",
+      "batch_sent_at": "2026-07-02T10:00:27",
+      "batch_fail_count": 0
     },
     "bankrotstvo-mnogodetnoj-semi": {
       "category": "fiz",
@@ -7250,7 +7261,7 @@
     }
   },
   "pending_actions": [],
-  "last_batch_date": "2026-07-01",
-  "last_batch_count": 4,
-  "last_batch_at": "2026-07-01T10:00:13"
+  "last_batch_date": "2026-07-02",
+  "last_batch_count": 5,
+  "last_batch_at": "2026-07-02T10:00:27"
 }

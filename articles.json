@@ -1,6 +1,19 @@
 {
-  "generated": "2026-07-01",
+  "generated": "2026-07-02",
   "articles": [
+    {
+      "slug": "otvetstvennost-uchreditelya-pri-bankrotstve-kollegii",
+      "cat": "yur",
+      "catLabel": "Банкротство юридических лиц",
+      "title": "Ответственность учредителя при банкротстве компании",
+      "desc": "Субсидиарная, уголовная и административная ответственность учредителя ООО при банкротстве: основания, размер долга, меры защиты и когда суд отказывает в иске.",
+      "date": "2 июля 2026",
+      "dateIso": "2026-07-02",
+      "read": "5 мин.",
+      "tone": "b",
+      "img": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1782796048/articles/otvetstvennost-uchreditelya-pri-bankrotstve-kollegii-cover.jpg",
+      "url": "articles/yur/otvetstvennost-uchreditelya-pri-bankrotstve-kollegii"
+    },
     {
       "slug": "obzor-praktiki-vs-po-bankrotstvu-grazhdan",
       "cat": "news",
