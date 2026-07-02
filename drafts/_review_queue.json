@@ -3658,6 +3658,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "kredit-v-period-bankrotstva-fizlica",
+      "category": "fiz",
+      "title": "Кредит во время банкротства физлица: возможно ли это",
+      "added_at": "2026-07-02T15:17:26.569243",
+      "char_count": 7651,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1782994640/articles/kredit-v-period-bankrotstva-fizlica-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
