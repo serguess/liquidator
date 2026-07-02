@@ -22210,5 +22210,74 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-07-02T00:24:21",
+    "category": "news",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 7,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "news-70",
+    "topic_slug": "ugolovjnyj-arest-imushchestva-ne-snimaetsya-pri-bankrotstve",
+    "auto_skipped": [
+      {
+        "slug": "stavka-cb-14-25-iyun-dolzhniki-kredity",
+        "reason": "cannibalization:preflight:stavka-cb-14-5-procent-aprel-2026-dolzhniki",
+        "duration_sec": 0
+      }
+    ],
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "length_soft_passed: 5978 > 5500 но ≤ 7500 и iteration=2 — пропускаем (приоритет spam/uniqueness/ai)",
+        "forced_pass_at_iter2: блокеры пропущены, статья идёт в TG-очередь с metrics_warning=true. Было: 1 блокеров — targeted_tokens_over_limit"
+      ],
+      "recommendations": [
+        "reduce_РФ: «РФ» × 3 → cap 2. Удалить из «ГК РФ»/«ГПК РФ» — просто «ГК»/«ГПК» (контекст однозначный). Один раз в первом упоминании можно полное название."
+      ],
+      "stderr_tail": ""
+    },
+    "finalize_safety_net": {
+      "ran": true,
+      "rc": 0
+    },
+    "status": "ok",
+    "slug": "ugolovjnyj-arest-imushchestva-ne-snimaetsya-pri-bankrotstve",
+    "duration_sec": 1106.8,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "editor        sonnet            6      16    58166     25156     58188\n7-publisher         haiku            36      12    53920     90366     53968\n------------------------------------------------------------------------------------------\nИТОГО                               174     101   528575    568016    528850\nBillable-токенов на статью: ~528K (cache_read 568K не считается в лимит подписки).\nАртефакты: drafts/ugolovjnyj-arest-imushchestva-ne-snimaetsya-pri-bankrotstve/  | quality_gate exit=0",
+    "stderr_tail": "",
+    "tokens_by_model": {},
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 5978
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]

@@ -1,0 +1,112 @@
+{
+  "slug": "bankrotstvo-mnogodetnoj-semi",
+  "category": "fiz",
+  "title": "Банкротство многодетной семьи: защита жилья и прав",
+  "description": "Как многодетной семье подать на банкротство, какие льготы на жилье, как защитить детские выплаты и алименты от взыскания долгов.",
+  "h1": "Банкротство многодетной семьи: как защитить жилье и права детей",
+  "lead": "Разбираем, какой маршрут открыт в вашей ситуации, что реально стоит денег и какие три ошибки чаще всего срывают самостоятельную подачу.",
+  "topic_action": "разбор вариантов банкротства многодетной семьи",
+  "breadcrumb_current": "Банкротство многодетной семьи",
+  "og_image": "/assets/articles/bankrotstvo-mnogodetnoj-semi.jpg",
+  "main_keyword": "банкротство многодетной семьи",
+  "secondary_keywords": [
+    "банкротство многодетного отца",
+    "банкротство многодетной матери",
+    "защита жилья при банкротстве многодетной семьи",
+    "единственное жилье банкротство многодетной семьи",
+    "алименты и банкротство многодетного должника",
+    "социальные выплаты при банкротстве многодетной семьи",
+    "освобождение от долгов многодетного родителя",
+    "реструктуризация долга многодетной семьи",
+    "льготы при банкротстве для многодетных"
+  ],
+  "internal_links": [
+    "/articles/fiz/alimenty-pri-bankrotstve-fizlica",
+    "/articles/fiz/avtomobil-pri-bankrotstve-fizlica"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/",
+    "https://www.consultant.ru/document/cons_doc_LAW_146436/"
+  ],
+  "faq": [
+    {
+      "question": "Можно ли подать, если долг меньше полумиллиона?",
+      "answer": "Да. Через МФЦ - при сумме от 25 тысяч до миллиона рублей и выполнении условий статьи 223.2. В арбитраж тоже можно, но добровольно - при наличии признаков неплатёжеспособности."
+    },
+    {
+      "question": "Спишут ли алименты на детей?",
+      "answer": "Нет. Обязательства по содержанию малолетних не списываются никогда. Более того, алименты, поступающие на счёт заявителя, защищены от других кредиторов."
+    },
+    {
+      "question": "Что произойдёт с материнским капиталом?",
+      "answer": "Ничего. Сертификат и средства маткапитала не входят в конкурсную массу и не могут быть направлены на погашение обязательств. Программа продолжает работать в обычном режиме."
+    },
+    {
+      "question": "Какой прожиточный минимум оставят на каждого малолетнего в 2026 году?",
+      "answer": "На взрослого заявителя - 20 644 рубля (федеральный ПМ трудоспособного населения). На каждого иждивенца - ПМ в размере, установленном для региона проживания. Суммы складываются и ежемесячно выдаются на руки."
+    },
+    {
+      "question": "Обязательно ли привлекать финансового управляющего?",
+      "answer": "Только в арбитражном деле - его назначает суд из указанной СРО. Во внесудебном порядке через МФЦ управляющий не участвует: заявление принимает и ведёт сам центр."
+    },
+    {
+      "question": "До какого момента можно выбрать реструктуризацию вместо продажи?",
+      "answer": "План представляется в течение десяти дней после публикации сведений о введении реструктуризации. Право предложить его есть у самого родителя, у кредитора и у уполномоченного органа. Если план утверждён - реализация не начинается."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все факты сверены с research.json. Статус: active, last_verified 2026-07-02 (в пределах 6 месяцев).",
+    "МФЦ: 25 000 - 1 000 000 рублей, 6 месяцев, бесплатно (ст. 223.2 127-ФЗ, актуально с 03.11.2023).",
+    "Суд: от 500 000 рублей с просрочкой > 90 дней (обязанность) или меньшая сумма добровольно (ст. 213.3-213.4 127-ФЗ).",
+    "Госпошлина: 0 руб. с 08.09.2024 (ст. 333.37 НК РФ, ФЗ-176).",
+    "Депозит: 25 000 рублей обязательно (ст. 213.4 п. 4, ст. 20.6 п. 3 127-ФЗ).",
+    "Детские пособия, алименты, маткапитал защищены (ст. 101 ФЗ-229, ст. 213.25 127-ФЗ).",
+    "Единственное жилье защищено (ст. 446 ГПК); исключение при явно избыточной площади (КС РФ № 15-П от 26.04.2021).",
+    "ПМ 2026: 20 644 рубля на взрослого, плюс региональный ПМ на каждого иждивенца (ФЗ-426 от 28.11.2025).",
+    "Реструктуризация: до 5 лет с согласием кредиторов или до 3 лет без (ст. 213.13-213.14 127-ФЗ).",
+    "Не спишутся: алименты, вред здоровью, текущие платежи, субсидиарная ответственность (ст. 213.28 п. 5-6 127-ФЗ).",
+    "Ограничения: 5 лет сообщать о банкротстве, 5 лет не подавать повторно, 3 года запрет на должности в юрлицах, 10 лет запрет руководить банком (ст. 213.30 127-ФЗ).",
+    "Контекст применения корректен, нет путаницы процедур и норм."
+  ],
+  "keyword_density_main": 0.016,
+  "main_keyword_exact_count": 2,
+  "text_chars": 8918,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.094,
+  "local_spam_ngram3_repeat": 0.035,
+  "local_lexical_diversity": 0.646,
+  "local_ai_markers_density": 0.19,
+  "local_ai_markers_critical": 0,
+  "length_status": "too_long",
+  "length_kind": "default",
+  "local_ai_markers_total": 2,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 2,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 49,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "длина значительно больше лимита 6500 (8 918 знаков)"
+  ],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1782960740/articles/bankrotstvo-mnogodetnoj-semi-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1782960740/articles/bankrotstvo-mnogodetnoj-semi-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Editorial photograph of a polished dark walnut conference table with a deliberately minimal arrangement. Objects: a closed oxblood leather portfolio positioned slightly left of center, a fountain pen aligned parallel to its edge, and a crystal water carafe with two empty glasses. Background: the back of a single high-backed oxblood leather chair at the far end. Through floor-to-ceiling windows: soft rain and blurred city skyline in cool grey tones. Camera: symmetric down-the-table or three-quarter from one corner. Lighting: cool overcast daylight from windows, warm pendant glow casting soft shadows across the wood. Materials: walnut, oxblood leather, crystal. Mood: serious family negotiation protecting home and rights, contemplative gravitas.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-07-02T02:52:21Z",
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "length_too_long: 8918 > 6500 (kind=default)"
+  ],
+  "date_published": "2026-07-02",
+  "date_modified": "2026-07-02",
+  "ready_for_review": true,
+  "ready_at": "2026-07-02T02:52:25Z",
+  "publication_target": "telegram_review"
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "bankrotstvo-mnogodetnoj-semi",
+  "article_id": 341,
+  "scores": {
+    "structure_overlap": 0.0,
+    "thesis_similarity": 0.028,
+    "cta_overlap": 0.004
+  },
+  "thresholds": {
+    "structure_overlap": 0.4,
+    "thesis_similarity": 0.3,
+    "cta_overlap": 0.2
+  },
+  "passed": true,
+  "peers_compared": 50,
+  "closest_peer": "avtomobil-pri-bankrotstve-fizlica",
+  "similar_articles": [],
+  "conflicts": [],
+  "recommendation": "ok",
+  "stored_in_db": true,
+  "note": "Вектор статьи записан в data/embeddings.sqlite (published=0). После публикации агент 7 переключит флаг на 1."
+}

@@ -3632,6 +3632,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "bankrotstvo-mnogodetnoj-semi",
+      "category": "fiz",
+      "title": "Банкротство многодетной семьи: защита жилья и прав",
+      "added_at": "2026-07-02T05:52:25.675010",
+      "char_count": 8918,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1782960740/articles/bankrotstvo-mnogodetnoj-semi-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
