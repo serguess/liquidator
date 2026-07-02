@@ -28,6 +28,7 @@ from . import (
 )
 from .config import (
     BATCH_DELIVERY_HOUR,
+    BATCH_MAX_PER_DAY,
     BATCH_DELIVERY_INTERVAL_SEC,
     BATCH_DELIVERY_START_AT,
     BATCH_DELIVERY_TZ,
@@ -399,6 +400,12 @@ async def _batch_delivery_iteration(bot: Bot) -> None:
         # будем логировать «нет статей».
         state.set_last_batch_date(today_str, count=0)
         return
+
+    if BATCH_MAX_PER_DAY > 0 and len(slugs) > BATCH_MAX_PER_DAY:
+        deferred = slugs[BATCH_MAX_PER_DAY:]
+        slugs = slugs[:BATCH_MAX_PER_DAY]
+        log.info("Batch: лимит %d/день — %d статей переношу на завтра: %s",
+                 BATCH_MAX_PER_DAY, len(deferred), deferred)
 
     log.info("Batch-доставка %s: %d статей в очереди, начинаю рассылку",
              today_str, len(slugs))

@@ -101,6 +101,7 @@ BOT_WATCH_INTERVAL_SEC = _env_int("BOT_WATCH_INTERVAL", 60)
 # с 14 мая 10:00 копится → пт 15 мая 10:00 первый batch (10 статей за 24 часа).
 BATCH_DELIVERY_START_AT = _env_str("BATCH_DELIVERY_START_AT")  # пусто = batch выключен
 BATCH_DELIVERY_HOUR = _env_int("BATCH_DELIVERY_HOUR", 10)
+BATCH_MAX_PER_DAY = _env_int("BATCH_MAX_PER_DAY", 5)
 BATCH_DELIVERY_INTERVAL_SEC = _env_int("BATCH_DELIVERY_INTERVAL_SEC", 2)
 # Часовой пояс для расчёта «день» в batch-доставке (МСК = Europe/Moscow = UTC+3).
 BATCH_DELIVERY_TZ = _env_str("BATCH_DELIVERY_TZ", "Europe/Moscow")
