@@ -7321,7 +7321,7 @@
     "kompensaciya-za-zaderzhku-zarplaty-vzyskanie-st-236": {
       "category": "vzysk",
       "title": "Взыскание компенсации за задержку зарплаты по ст. 236 ТК РФ",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -7329,14 +7329,16 @@
       "tg_message_id": 1764,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-03T01:02:27",
-      "last_action_at": "2026-07-03T10:00:23",
+      "last_action_at": "2026-07-03T22:41:50",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/vzysk/kompensaciya-za-zaderzhku-zarplaty-vzyskanie-st-236",
       "pending_batch": false,
       "pending_batch_at": "2026-07-03T01:02:27",
       "batch_sent_at": "2026-07-03T10:00:23",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-07-03T22:41:50",
+      "articles_path": "articles/vzysk/kompensaciya-za-zaderzhku-zarplaty-vzyskanie-st-236.html"
     },
     "cb-ogranil-mkk-zajmy-predpisanie": {
       "category": "news",
