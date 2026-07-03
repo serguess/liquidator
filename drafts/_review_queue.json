@@ -3684,6 +3684,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "cb-ogranil-mkk-zajmy-predpisanie",
+      "category": "news",
+      "title": "ЦБ ограничил МКК: последствия для заёмщиков",
+      "added_at": "2026-07-03T05:24:54.947845",
+      "char_count": 6040,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1783045491/articles/cb-ogranil-mkk-zajmy-predpisanie-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
