@@ -7300,7 +7300,7 @@
     "kredit-v-period-bankrotstva-fizlica": {
       "category": "fiz",
       "title": "Кредит во время банкротства физлица: возможно ли это",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -7308,13 +7308,15 @@
       "tg_message_id": 1762,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-02T15:18:21",
-      "last_action_at": "2026-07-03T10:00:21",
+      "last_action_at": "2026-07-03T22:41:24",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/fiz/kredit-v-period-bankrotstva-fizlica",
       "pending_batch": true,
       "pending_batch_at": "2026-07-03T10:15:35",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-07-03T22:41:24",
+      "articles_path": "articles/fiz/kredit-v-period-bankrotstva-fizlica.html"
     },
     "kompensaciya-za-zaderzhku-zarplaty-vzyskanie-st-236": {
       "category": "vzysk",
