@@ -3697,6 +3697,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "eskrow-bankrotstvo-zastrojshchika-ddu",
+      "category": "yur",
+      "title": "Эскроу при банкротстве застройщика: права дольщиков",
+      "added_at": "2026-07-03T09:06:31.651375",
+      "char_count": 7366,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1783058786/articles/eskrow-bankrotstvo-zastrojshchika-ddu-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

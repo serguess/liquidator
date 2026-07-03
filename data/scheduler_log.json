@@ -22616,5 +22616,64 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-07-03T05:12:31",
+    "category": "news",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 6,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "news-71",
+    "topic_slug": "cb-ogranil-mkk-zajmy-predpisanie",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "length_soft_passed: 6040 > 5500 но ≤ 7500 и iteration=2 — пропускаем (приоритет spam/uniqueness/ai)"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "finalize_safety_net": {
+      "ran": true,
+      "rc": 0
+    },
+    "status": "ok",
+    "slug": "cb-ogranil-mkk-zajmy-predpisanie",
+    "duration_sec": 743.4,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "     17451     61408\n6-seo-editor        sonnet            6      16    59412     25156     59434\n7-publisher         haiku            20      10    39278     25520     39308\n------------------------------------------------------------------------------------------\nИТОГО                                78      67   313499    144323    313644\nBillable-токенов на статью: ~313K (cache_read 144K не считается в лимит подписки).\nАртефакты: drafts/cb-ogranil-mkk-zajmy-predpisanie/  | quality_gate exit=0",
+    "stderr_tail": "",
+    "tokens_by_model": {},
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 6040
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]

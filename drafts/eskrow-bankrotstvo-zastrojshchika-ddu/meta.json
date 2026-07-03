@@ -1,0 +1,110 @@
+{
+  "slug": "eskrow-bankrotstvo-zastrojshchika-ddu",
+  "category": "yur",
+  "title": "Эскроу при банкротстве застройщика: права дольщиков",
+  "description": "Как работают эскроу-счета, какие права есть у дольщиков при банкротстве застройщика, как защитить деньги.",
+  "h1": "Эскроу-счета при банкротстве застройщика: защита прав дольщиков",
+  "lead": "Разбираемся, защищены ли деньги в эскроу при банкротстве застройщика, что происходит с резервом и какие шаги не пропустить покупателю квартиры.",
+  "topic_action": "проверку прав при банкротстве застройщика",
+  "breadcrumb_current": "Эскроу при банкротстве застройщика",
+  "og_image": "/assets/articles/eskrow-bankrotstvo-zastrojshchika-ddu.jpg",
+  "main_keyword": "эскроу счета при банкротстве застройщика",
+  "secondary_keywords": [
+    "права дольщиков при банкротстве застройщика",
+    "эскроу-счет что это такое",
+    "защита денег дольщиков при банкротстве",
+    "дольщик что делать при банкротстве застройщика",
+    "возврат денег дольщику при банкротстве",
+    "счет эскроу застройщик",
+    "гарантия дольщиков при банкротстве",
+    "как отстоять права дольщика",
+    "банкротство застройщика и эскроу"
+  ],
+  "internal_links": [],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39991/",
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/",
+    "https://www.consultant.ru/document/cons_doc_LAW_8123/"
+  ],
+  "faq": [
+    {
+      "question": "Могут ли кредиторы забрать деньги при крахе девелопера?",
+      "answer": "Нет. По п. 1 ст. 15 214-ФЗ средства в условном хранении не входят в состав активов должника. Банк-эмитент их не передаёт и не смешивает с имуществом компании."
+    },
+    {
+      "question": "Что если строительная компания разорилась до сдачи дома?",
+      "answer": "Деньги остаются в резерве до решения арбитража. Финансовый управляющий выбирает один из двух путей - вернуть остаток держателю или направить его на достройку новым подрядчиком."
+    },
+    {
+      "question": "Нужно ли заявлять требование в реестр, если оплата на депонировании?",
+      "answer": "Да, обязательно. Возврат из резерва и включение в реестр - две разные процедуры. Заявление фиксирует остальные суммы: то, что вносилось помимо, неустойку, убытки."
+    },
+    {
+      "question": "Сколько занимает возврат при разорении девелопера?",
+      "answer": "Точные сроки не заданы. По нашему опыту разброс от нескольких месяцев до полутора-двух лет. Всё зависит от количества держателей, готовности объекта и скорости работы арбитража."
+    },
+    {
+      "question": "Чем достройка отличается от возврата денег?",
+      "answer": "При достройке средства уходят подрядчику как оплата работ, а покупатель в итоге получает жильё после регистрации права. При возврате - на реквизиты держателя приходит остаток. Что применить, определяет суд."
+    },
+    {
+      "question": "Как узнать, попали ли данные в реестр дольщиков?",
+      "answer": "Через личный кабинет на сайте Единой информационной системы. Проверка бесплатная, регистрация - по подтверждённой записи Госуслуг. Если данных нет, нужно обращаться к девелоперу и в контролирующий орган субъекта."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все факты сверены с research.json. legislation_status: active для всех норм. last_verified: 2026-07-03.",
+    "Ст. 15 п. 1 214-ФЗ: деньги в эскроу не входят в конкурсную массу - подтверждено (f2).",
+    "Ст. 15 п. 4 214-ФЗ: обязанность банка уведомить управляющего и держателей - подтверждено (f6).",
+    "Порог доступа девелопера 70% готовности - ст. 15 п. 2-3 214-ФЗ (f3). Оговорка о возможности иных цифр в ДДУ присутствует.",
+    "П. 1 ст. 10 214-ФЗ: право выбора (возврат или достройка) - подтверждено (f7).",
+    "П. 2 ст. 107 127-ФЗ: третья очередь требований потребителей - подтверждено (f4, f9).",
+    "Ст. 214.1 214-ФЗ: ЕИС учёта участников долевого строительства - подтверждено (f5).",
+    "Ст. 105 127-ФЗ: заявление о включении в реестр - подтверждено (f9, ст. 105-108 127-ФЗ).",
+    "Ст. 10 214-ФЗ: 30-дневный претензионный срок - подтверждено (f10).",
+    "Ст. 229.2 АПК РФ: судебный приказ до 500 000 руб. за 5 дней - подтверждено (f11).",
+    "Forbidden claims соблюдены: нет утверждений о 100% возврате без условий, немедленном возврате ФУ, ответственности банка за убытки, защите сумм вне эскроу."
+  ],
+  "keyword_density_main": 0.017,
+  "main_keyword_exact_count": 2,
+  "text_chars": 7366,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.111,
+  "local_spam_ngram3_repeat": 0.032,
+  "local_lexical_diversity": 0.603,
+  "local_ai_markers_density": 0.22,
+  "local_ai_markers_critical": 0,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1783058786/articles/eskrow-bankrotstvo-zastrojshchika-ddu-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1783058786/articles/eskrow-bankrotstvo-zastrojshchika-ddu-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Photograph through rain-beaded window glass at a contemporary financial building. Foreground objects on the windowsill in sharp focus: a closed laptop, a white porcelain coffee cup, a leather folder with escrow account documents, a fountain pen, reading glasses on legal contracts. Background soft and blurred through raindrops: modern glass building façade reflecting the wet street, distant amber lampposts. Camera tight crop at eye-level. Lighting cool grey overcast from outside, warm interior desk-lamp glow. Palette cool blue-grey rain tones with warm amber pin-points. Mood contemplative vigilance, security of buyer assets held in escrow.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-07-03T06:06:26Z",
+  "length_status": "too_long",
+  "length_kind": "default",
+  "local_ai_markers_total": 2,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 4,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 53,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность чуть выше 50% (~53%)",
+    "длина значительно больше лимита 6500 (7 366 знаков)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "targeted_tokens_over_limit: ст_сокращение=12(>≤5), 127фз_закон=4(>≤2)"
+  ],
+  "date_published": "2026-07-03",
+  "date_modified": "2026-07-03",
+  "ready_for_review": true,
+  "ready_at": "2026-07-03T06:06:31Z",
+  "publication_target": "telegram_review"
+}
