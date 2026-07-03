@@ -7279,6 +7279,78 @@
       "published_url": null,
       "pending_batch": true,
       "pending_batch_at": "2026-07-02T08:48:18"
+    },
+    "kredit-v-period-bankrotstva-fizlica": {
+      "category": "fiz",
+      "title": "Кредит во время банкротства физлица: возможно ли это",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-07-02T15:18:21",
+      "last_action_at": "2026-07-02T15:18:21",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-07-02T15:18:21"
+    },
+    "kompensaciya-za-zaderzhku-zarplaty-vzyskanie-st-236": {
+      "category": "vzysk",
+      "title": "Взыскание компенсации за задержку зарплаты по ст. 236 ТК РФ",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-07-03T01:02:27",
+      "last_action_at": "2026-07-03T01:02:27",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-07-03T01:02:27"
+    },
+    "cb-ogranil-mkk-zajmy-predpisanie": {
+      "category": "news",
+      "title": "ЦБ ограничил МКК: последствия для заёмщиков",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-07-03T05:25:15",
+      "last_action_at": "2026-07-03T05:25:15",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-07-03T05:25:15"
+    },
+    "eskrow-bankrotstvo-zastrojshchika-ddu": {
+      "category": "yur",
+      "title": "Эскроу при банкротстве застройщика: права дольщиков",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-07-03T09:07:17",
+      "last_action_at": "2026-07-03T09:07:17",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-07-03T09:07:17"
     }
   },
   "pending_actions": [],
