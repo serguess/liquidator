@@ -402,9 +402,29 @@ async def _batch_delivery_iteration(bot: Bot) -> None:
         return
 
     if BATCH_MAX_PER_DAY > 0 and len(slugs) > BATCH_MAX_PER_DAY:
-        deferred = slugs[BATCH_MAX_PER_DAY:]
-        slugs = slugs[:BATCH_MAX_PER_DAY]
-        log.info("Batch: лимит %d/день — %d статей переношу на завтра: %s",
+        import json as _json
+        def _cat(sl):
+            try:
+                return (_json.loads((DRAFTS_DIR / sl / "meta.json").read_text(encoding="utf-8"))
+                        .get("category") or "fiz")
+            except Exception:
+                return "fiz"
+        # Round-robin по категориям, чтобы свежие news не вытеснялись старыми
+        # fiz/yur. slugs уже отсортированы по first_seen (старые раньше).
+        by_cat = {}
+        for sl in slugs:
+            by_cat.setdefault(_cat(sl), []).append(sl)
+        picked, cats = [], list(by_cat)
+        while len(picked) < BATCH_MAX_PER_DAY and any(by_cat.values()):
+            for c in cats:
+                if by_cat[c]:
+                    picked.append(by_cat[c].pop(0))
+                    if len(picked) >= BATCH_MAX_PER_DAY:
+                        break
+        picked_set = set(picked)
+        deferred = [s for s in slugs if s not in picked_set]
+        slugs = [s for s in slugs if s in picked_set]
+        log.info("Batch: лимит %d/день (баланс по категориям) — переношу %d: %s",
                  BATCH_MAX_PER_DAY, len(deferred), deferred)
 
     log.info("Batch-доставка %s: %d статей в очереди, начинаю рассылку",
