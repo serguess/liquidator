@@ -1,0 +1,110 @@
+{
+  "slug": "prodazha-nedvizhimosti-pered-bankrotstvom-fizlica",
+  "category": "fiz",
+  "title": "Продажа квартиры перед банкротством: правила и риски",
+  "description": "Можно ли продать квартиру или дом перед банкротством, какие риски, как избежать оспаривания сделки, контроль управляющего и практика судов",
+  "h1": "Продажа квартиры или дома перед банкротством физлица: правила и риски",
+  "lead": "Разбираемся: за какой период финансовый управляющий вправе поднимать прежние продажи, что конкретно его насторожит и когда объект уже не откатится назад в опись.",
+  "topic_action": "оценку рисков сделки перед банкротством",
+  "breadcrumb_current": "Продажа квартиры перед банкротством",
+  "og_image": "/assets/articles/prodazha-nedvizhimosti-pered-bankrotstvom-fizlica.jpg",
+  "main_keyword": "продажа квартиры перед банкротством",
+  "secondary_keywords": [
+    "продажа дома при банкротстве физлица",
+    "можно ли продать квартиру перед банкротством",
+    "продажа имущества перед банкротством",
+    "как избежать подозрения в фиктивной продаже при банкротстве",
+    "арест имущества и продажа квартиры",
+    "опека над имуществом при банкротстве",
+    "конкурсное производство и продажа недвижимости",
+    "финансовый управляющий и продажа дома",
+    "контроль имущества при банкротстве",
+    "оспаривание сделки по банкротству"
+  ],
+  "internal_links": [
+    "/articles/fiz/avtomobil-pri-bankrotstve-fizlica"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/",
+    "https://www.consultant.ru/document/cons_doc_LAW_5142/"
+  ],
+  "faq": [
+    {
+      "question": "Можно ли переоформить квартиру после подачи заявления в арбитраж?",
+      "answer": "Только с письменного согласия финансового управляющего. Закон прямо запрещает гражданину самостоятельно отчуждать имущество с момента принятия судом заявления. Передача без согласования - основание признать её недействительной без обсуждения цены и мотивов."
+    },
+    {
+      "question": "Что произойдёт, если переоформить дом на родственника за месяц до похода в арбитраж?",
+      "answer": "Максимальный риск оспаривания. Работают оба основания сразу: короткий срок (годовой тест по цене) и близкий покупатель (признак умысла для трёхлетнего теста). Управляющий почти гарантированно попробует вернуть объект в опись."
+    },
+    {
+      "question": "Через сколько лет отчуждение перестаёт быть уязвимым?",
+      "answer": "Формально - через три года после даты принятия заявления, а не после подписания. Более ранние операции обычно за пределами полномочий управляющего. Но арбитраж может рассматривать длинные схемы, где передача была частью общего плана."
+    },
+    {
+      "question": "Обязательно ли раскрывать управляющему квартиру, проданную два года назад?",
+      "answer": "Да. Управляющий получает данные из ЕГРН и нотариальных архивов независимо от того, расскажет ли о них сам гражданин. Умолчание не спасает объект, но добавляет претензий - вплоть до отказа в списании долгов."
+    },
+    {
+      "question": "Защищает ли статус единственного жилья объект, который уже переоформлен?",
+      "answer": "Нет. Исполнительский иммунитет по статье 446 ГПК работает для имущества, которое числится за гражданином на дату признания банкротом. Переоформленная квартира под эту защиту не подпадает - она уже чужая."
+    },
+    {
+      "question": "В чём разница между пунктом 1 и пунктом 2 статьи 61.2 закона о банкротстве?",
+      "answer": "Первый пункт - год, объективный тест, достаточно неравноценной цены. Второй пункт - три года, но управляющему предстоит доказать умысел плюс осведомлённость покупателя. Годовой рубеж закрывает быстрые операции по бросовой цене, трёхлетний - продуманные схемы вывода активов."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все факты сверены с research.json. Статусы: active. last_verified: 2026-07-04 для всех ключевых утверждений.",
+    "П. 1 ст. 61.2 127-ФЗ (годовой рубеж, неравноценное встречное исполнение) - актуален, context_check_passed: true. Пример с 3 млн / 1 млн соответствует safe_phrasing из f1.",
+    "П. 2 ст. 61.2 127-ФЗ + ПП ВАС № 63 от 23.07.2009 (трёхлетний рубеж, умысел + осведомлённость контрагента) - актуален, контекст применения корректен (f2).",
+    "Ст. 213.25 п. 1 127-ФЗ (состав конкурсной массы) - актуален (f3).",
+    "Ст. 446 ч. 1 п. 1 ГПК (единственное жильё) + Постановление КС РФ № 15-П от 26.04.2021 - актуален, оговорка о неабсолютности иммунитета присутствует, запрет из forbidden_claims соблюдён (f4).",
+    "ПМ 2026: 20 644 руб. (ФЗ-426 от 28.11.2025) - верифицирован (f7).",
+    "Ст. 213.4 п. 2 127-ФЗ (запрет сделок без согласия управляющего с момента принятия заявления) - актуален (f8).",
+    "Ст. 213.30 127-ФЗ (последствия: 5 лет кредиты, 3 года органы управления, 10 лет банки) - актуален (f9).",
+    "Forbidden_claims не нарушены: 3-летний срок упомянут с оговоркой про совокупность обстоятельств; единственное жильё - с оговоркой КС № 15-П."
+  ],
+  "keyword_density_main": 0.005,
+  "main_keyword_exact_count": 1,
+  "text_chars": 8635,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.109,
+  "local_spam_ngram3_repeat": 0.022,
+  "local_lexical_diversity": 0.591,
+  "local_ai_markers_density": 0.19,
+  "local_ai_markers_critical": 0,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1783117068/articles/prodazha-nedvizhimosti-pered-bankrotstvom-fizlica-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1783117068/articles/prodazha-nedvizhimosti-pered-bankrotstvom-fizlica-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Low-key photograph of a dark wood-paneled interior — a private study or attorney's office at night. Single warm pool of light from a brass library lamp illuminates items on a leather-topped desk: an antique pocket watch on a chain, reading glasses resting on a closed law book with embossed gilt spine, a fountain pen aligned across a closed leather-bound portfolio, a polished brass round seal. Camera: three-quarter angle, eye-level. Lighting: dominant warm tungsten pool, deep ambient shadow throughout the paneled walls. Palette: oxblood leather, walnut, brass on near-black. Mood: strategic deliberation, weighing the consequence and legal limits of an impending decision.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-07-03T22:17:49Z",
+  "length_status": "too_long",
+  "length_kind": "default",
+  "local_ai_markers_total": 2,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 3,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 53,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность чуть выше 50% (~53%)",
+    "длина значительно больше лимита 6500 (8 635 знаков)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "length_too_long: 8635 > 6500 (kind=default)"
+  ],
+  "date_published": "2026-07-04",
+  "date_modified": "2026-07-04",
+  "ready_for_review": true,
+  "ready_at": "2026-07-03T22:17:51Z",
+  "publication_target": "telegram_review"
+}
