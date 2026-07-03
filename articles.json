@@ -1,6 +1,19 @@
 {
-  "generated": "2026-07-02",
+  "generated": "2026-07-03",
   "articles": [
+    {
+      "slug": "realizaciya-imushchestva-yurlica-prodat-cherez-torgi",
+      "cat": "yur",
+      "catLabel": "Банкротство юридических лиц",
+      "title": "Реализация имущества юрлица: как проходит и что учесть",
+      "desc": "Конкурсная масса юрлица, порядок торгов и очерёдность выплат кредиторам. Что важно директору и кредиторам до начала продажи активов при банкротстве.",
+      "date": "3 июля 2026",
+      "dateIso": "2026-07-03",
+      "read": "5 мин.",
+      "tone": "b",
+      "img": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1782796973/articles/realizaciya-imushchestva-yurlica-prodat-cherez-torgi-cover.jpg",
+      "url": "articles/yur/realizaciya-imushchestva-yurlica-prodat-cherez-torgi"
+    },
     {
       "slug": "ugolovjnyj-arest-imushchestva-ne-snimaetsya-pri-bankrotstve",
       "cat": "news",

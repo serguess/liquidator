@@ -7043,20 +7043,30 @@
     "realizaciya-imushchestva-yurlica-prodat-cherez-torgi": {
       "category": "yur",
       "title": "Реализация имущества юрлица: как проходит и что учесть",
-      "status": "pending_review",
-      "current_version": "2.0",
+      "status": "published",
+      "current_version": "2.1",
       "versions": [
-        "2.0"
+        "2.0",
+        "2.1"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 1756,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-06-30T08:23:25",
-      "last_action_at": "2026-06-30T08:23:25",
-      "edits_history": [],
+      "last_action_at": "2026-07-03T22:39:47",
+      "edits_history": [
+        {
+          "version": "2.1",
+          "edit_text": "ты сделал ссылки на другие статьи в виде кнопок. сделай в виде текста, не кнопок.",
+          "applied_at": "2026-07-03T22:39:31"
+        }
+      ],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/yur/realizaciya-imushchestva-yurlica-prodat-cherez-torgi",
       "pending_batch": true,
-      "pending_batch_at": "2026-07-02T12:50:01"
+      "pending_batch_at": "2026-07-03T10:15:35",
+      "batch_fail_count": 0,
+      "published_at": "2026-07-03T22:39:47",
+      "articles_path": "articles/yur/realizaciya-imushchestva-yurlica-prodat-cherez-torgi.html"
     },
     "bankrotstvo-ip-s-dolgami-po-zarplate": {
       "category": "fiz",
@@ -7095,9 +7105,8 @@
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": false,
-      "pending_batch_at": "2026-06-30T11:11:26",
-      "held_for_daily_release": true
+      "pending_batch": true,
+      "pending_batch_at": "2026-07-03T12:50:01"
     },
     "bank-podal-v-sud-po-kreditnoj-karte-chto-delat": {
       "category": "vzysk",
@@ -7252,15 +7261,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 1758,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-02T05:52:41",
-      "last_action_at": "2026-07-02T05:52:41",
+      "last_action_at": "2026-07-03T10:00:17",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-07-02T05:52:41"
+      "pending_batch": false,
+      "pending_batch_at": "2026-07-02T05:52:41",
+      "batch_sent_at": "2026-07-03T10:00:17",
+      "batch_fail_count": 0
     },
     "iis-investicii-bankrotstvo-fizlica": {
       "category": "fiz",
@@ -7270,15 +7281,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 1760,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-02T08:48:18",
-      "last_action_at": "2026-07-02T08:48:18",
+      "last_action_at": "2026-07-03T10:00:19",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-07-02T08:48:18"
+      "pending_batch": false,
+      "pending_batch_at": "2026-07-02T08:48:18",
+      "batch_sent_at": "2026-07-03T10:00:19",
+      "batch_fail_count": 0
     },
     "kredit-v-period-bankrotstva-fizlica": {
       "category": "fiz",
@@ -7288,15 +7301,16 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 1762,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-02T15:18:21",
-      "last_action_at": "2026-07-02T15:18:21",
+      "last_action_at": "2026-07-03T10:00:21",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
       "pending_batch": true,
-      "pending_batch_at": "2026-07-02T15:18:21"
+      "pending_batch_at": "2026-07-03T10:15:35",
+      "batch_fail_count": 0
     },
     "kompensaciya-za-zaderzhku-zarplaty-vzyskanie-st-236": {
       "category": "vzysk",
@@ -7306,15 +7320,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 1764,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-03T01:02:27",
-      "last_action_at": "2026-07-03T01:02:27",
+      "last_action_at": "2026-07-03T10:00:23",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-07-03T01:02:27"
+      "pending_batch": false,
+      "pending_batch_at": "2026-07-03T01:02:27",
+      "batch_sent_at": "2026-07-03T10:00:23",
+      "batch_fail_count": 0
     },
     "cb-ogranil-mkk-zajmy-predpisanie": {
       "category": "news",
@@ -7324,15 +7340,16 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 1768,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-03T05:25:15",
       "last_action_at": "2026-07-03T05:25:15",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-07-03T05:25:15"
+      "pending_batch": false,
+      "pending_batch_at": "2026-07-03T05:25:15",
+      "batch_sent_at": "2026-07-03T11:28:00"
     },
     "eskrow-bankrotstvo-zastrojshchika-ddu": {
       "category": "yur",
@@ -7354,7 +7371,7 @@
     }
   },
   "pending_actions": [],
-  "last_batch_date": "2026-07-02",
+  "last_batch_date": "2026-07-03",
   "last_batch_count": 5,
-  "last_batch_at": "2026-07-02T10:00:27"
+  "last_batch_at": "2026-07-03T10:00:23"
 }
