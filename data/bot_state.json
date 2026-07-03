@@ -7343,7 +7343,7 @@
     "cb-ogranil-mkk-zajmy-predpisanie": {
       "category": "news",
       "title": "ЦБ ограничил МКК: последствия для заёмщиков",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -7351,13 +7351,15 @@
       "tg_message_id": 1768,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-03T05:25:15",
-      "last_action_at": "2026-07-03T05:25:15",
+      "last_action_at": "2026-07-03T22:42:15",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/news/cb-ogranil-mkk-zajmy-predpisanie",
       "pending_batch": false,
       "pending_batch_at": "2026-07-03T05:25:15",
-      "batch_sent_at": "2026-07-03T11:28:00"
+      "batch_sent_at": "2026-07-03T11:28:00",
+      "published_at": "2026-07-03T22:42:15",
+      "articles_path": "articles/news/cb-ogranil-mkk-zajmy-predpisanie.html"
     },
     "eskrow-bankrotstvo-zastrojshchika-ddu": {
       "category": "yur",
