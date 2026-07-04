@@ -23032,5 +23032,66 @@
     "timestamp": "2026-07-04T10:00:00",
     "status": "preflight_failed",
     "reason": "rate_limit: You've hit your limit · resets 10:10am (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-07-04T10:56:59",
+    "category": "news",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "From https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 9,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "news-72",
+    "topic_slug": "ipotechnyje-kanikuly-rozhdenie-rebenka-novyj-zakon",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "forced_pass_at_iter2: блокеры пропущены, статья идёт в TG-очередь с metrics_warning=true. Было: 1 блокеров — broken_internal_links"
+      ],
+      "recommendations": [
+        "fix_internal_links: заменить href на канонический /articles/{cat}/{slug} из published_index.json (см. .claude/style/editor-cheatsheet.md секция 6)"
+      ],
+      "stderr_tail": ""
+    },
+    "finalize_safety_net": {
+      "ran": true,
+      "rc": 0
+    },
+    "status": "ok",
+    "slug": "ipotechnyje-kanikuly-rozhdenie-rebenka-novyj-zakon",
+    "duration_sec": 1504.2,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "30\n6-seo-editor        sonnet            6      16        0     83646        22\n7-publisher         haiku            20      12    39240     25520     39272\n------------------------------------------------------------------------------------------\nИТОГО                               148      96   419186    545966    419430\nBillable-токенов на статью: ~419K (cache_read 545K не считается в лимит подписки).\nАртефакты: drafts/ipotechnyje-kanikuly-rozhdenie-rebenka-novyj-zakon/  | quality_gate exit=0",
+    "stderr_tail": "",
+    "tokens_by_model": {},
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 5016
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]

@@ -3749,6 +3749,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "zajm-uchreditelya-pri-bankrotstve-subordinaciya",
+      "category": "yur",
+      "title": "Займы учредителя при банкротстве: субординированный долг",
+      "added_at": "2026-07-04T14:54:24.328519",
+      "char_count": 7610,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1783166059/articles/zajm-uchreditelya-pri-bankrotstve-subordinaciya-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
