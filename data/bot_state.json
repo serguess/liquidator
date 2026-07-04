@@ -7062,11 +7062,12 @@
       ],
       "rejection_reason": null,
       "published_url": "https://pravo.shop/articles/yur/realizaciya-imushchestva-yurlica-prodat-cherez-torgi",
-      "pending_batch": true,
+      "pending_batch": false,
       "pending_batch_at": "2026-07-03T10:15:35",
       "batch_fail_count": 0,
       "published_at": "2026-07-03T22:39:47",
-      "articles_path": "articles/yur/realizaciya-imushchestva-yurlica-prodat-cherez-torgi.html"
+      "articles_path": "articles/yur/realizaciya-imushchestva-yurlica-prodat-cherez-torgi.html",
+      "batch_sent_at": "2026-07-04T10:00:03"
     },
     "bankrotstvo-ip-s-dolgami-po-zarplate": {
       "category": "fiz",
@@ -7093,20 +7094,22 @@
     "ugolovnaya-otvetstvennost-za-prednamerennoe-bankrotstvo": {
       "category": "yur",
       "title": "Признаки преднамеренного банкротства: статья 196 УК РФ",
-      "status": "pending_review",
+      "status": "rejected",
       "current_version": "2.0",
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 1786,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-06-30T11:11:26",
-      "last_action_at": "2026-06-30T11:11:26",
+      "last_action_at": "2026-07-05T02:59:07",
       "edits_history": [],
-      "rejection_reason": null,
+      "rejection_reason": "данная статья уже была",
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-07-03T12:50:01"
+      "pending_batch": false,
+      "pending_batch_at": "2026-07-03T12:50:01",
+      "batch_sent_at": "2026-07-04T10:00:03",
+      "batch_fail_count": 0
     },
     "bank-podal-v-sud-po-kreditnoj-karte-chto-delat": {
       "category": "vzysk",
@@ -7312,11 +7315,12 @@
       "edits_history": [],
       "rejection_reason": null,
       "published_url": "https://pravo.shop/articles/fiz/kredit-v-period-bankrotstva-fizlica",
-      "pending_batch": true,
+      "pending_batch": false,
       "pending_batch_at": "2026-07-03T10:15:35",
       "batch_fail_count": 0,
       "published_at": "2026-07-03T22:41:24",
-      "articles_path": "articles/fiz/kredit-v-period-bankrotstva-fizlica.html"
+      "articles_path": "articles/fiz/kredit-v-period-bankrotstva-fizlica.html",
+      "batch_sent_at": "2026-07-04T10:00:05"
     },
     "kompensaciya-za-zaderzhku-zarplaty-vzyskanie-st-236": {
       "category": "vzysk",
@@ -7364,20 +7368,24 @@
     "eskrow-bankrotstvo-zastrojshchika-ddu": {
       "category": "yur",
       "title": "Эскроу при банкротстве застройщика: права дольщиков",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 1788,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-03T09:07:17",
-      "last_action_at": "2026-07-03T09:07:17",
+      "last_action_at": "2026-07-05T02:59:23",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-07-03T09:07:17"
+      "published_url": "https://pravo.shop/articles/yur/eskrow-bankrotstvo-zastrojshchika-ddu",
+      "pending_batch": false,
+      "pending_batch_at": "2026-07-03T09:07:17",
+      "batch_sent_at": "2026-07-04T10:00:05",
+      "batch_fail_count": 0,
+      "published_at": "2026-07-05T02:59:23",
+      "articles_path": "articles/yur/eskrow-bankrotstvo-zastrojshchika-ddu.html"
     },
     "prodazha-nedvizhimosti-pered-bankrotstvom-fizlica": {
       "category": "fiz",
@@ -7405,19 +7413,93 @@
       "versions": [
         "2.0"
       ],
+      "tg_message_id": 1790,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-07-04T05:42:03",
+      "last_action_at": "2026-07-04T10:00:07",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-07-04T05:42:03",
+      "batch_sent_at": "2026-07-04T10:00:07",
+      "batch_fail_count": 0
+    },
+    "ipotechnyje-kanikuly-rozhdenie-rebenka-novyj-zakon": {
+      "category": "news",
+      "title": "Ипотечные каникулы при рождении ребёнка: 18 месяцев",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
       "tg_message_id": null,
       "tg_chat_id": null,
-      "first_seen_at": "2026-07-04T05:42:03",
-      "last_action_at": "2026-07-04T05:42:03",
+      "first_seen_at": "2026-07-04T11:22:06",
+      "last_action_at": "2026-07-04T11:22:06",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
       "pending_batch": true,
-      "pending_batch_at": "2026-07-04T05:42:03"
+      "pending_batch_at": "2026-07-04T11:22:06"
+    },
+    "zajm-uchreditelya-pri-bankrotstve-subordinaciya": {
+      "category": "yur",
+      "title": "Займы учредителя при банкротстве: субординированный долг",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-07-04T14:55:08",
+      "last_action_at": "2026-07-04T14:55:08",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-07-04T14:55:08"
+    },
+    "tretejskij-sud-vzyskanie-dolga-preimushchestva-i-riski": {
+      "category": "vzysk",
+      "title": "Третейский суд для взыскания долга: плюсы и ограничения",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-07-04T20:16:11",
+      "last_action_at": "2026-07-04T20:16:11",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-07-04T20:16:11"
+    },
+    "zakon-174-fz-bankrotstvo-bankov-zavershenie-mer": {
+      "category": "news",
+      "title": "Изменения оснований завершения мер банкротства банков",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-07-05T00:38:14",
+      "last_action_at": "2026-07-05T00:38:14",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-07-05T00:38:14"
     }
   },
   "pending_actions": [],
-  "last_batch_date": "2026-07-03",
-  "last_batch_count": 5,
-  "last_batch_at": "2026-07-03T10:00:23"
+  "last_batch_date": "2026-07-04",
+  "last_batch_count": 3,
+  "last_batch_at": "2026-07-04T10:00:07"
 }

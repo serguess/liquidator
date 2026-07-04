@@ -1,6 +1,19 @@
 {
-  "generated": "2026-07-03",
+  "generated": "2026-07-05",
   "articles": [
+    {
+      "slug": "eskrow-bankrotstvo-zastrojshchika-ddu",
+      "cat": "yur",
+      "catLabel": "Банкротство юридических лиц",
+      "title": "Эскроу при банкротстве застройщика: права дольщиков",
+      "desc": "Как работают эскроу-счета, какие права есть у дольщиков при банкротстве застройщика, как защитить деньги.",
+      "date": "5 июля 2026",
+      "dateIso": "2026-07-05",
+      "read": "5 мин.",
+      "tone": "b",
+      "img": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1783058786/articles/eskrow-bankrotstvo-zastrojshchika-ddu-cover.jpg",
+      "url": "articles/yur/eskrow-bankrotstvo-zastrojshchika-ddu"
+    },
     {
       "slug": "cb-ogranil-mkk-zajmy-predpisanie",
       "cat": "news",
