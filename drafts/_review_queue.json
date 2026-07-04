@@ -3736,6 +3736,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "ipotechnyje-kanikuly-rozhdenie-rebenka-novyj-zakon",
+      "category": "news",
+      "title": "Ипотечные каникулы при рождении ребёнка: 18 месяцев",
+      "added_at": "2026-07-04T11:22:03.699866",
+      "char_count": 5016,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1783153319/articles/ipotechnyje-kanikuly-rozhdenie-rebenka-novyj-zakon-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
