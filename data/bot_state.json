@@ -7378,6 +7378,42 @@
       "published_url": null,
       "pending_batch": true,
       "pending_batch_at": "2026-07-03T09:07:17"
+    },
+    "prodazha-nedvizhimosti-pered-bankrotstvom-fizlica": {
+      "category": "fiz",
+      "title": "Продажа квартиры перед банкротством: правила и риски",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-07-04T01:18:44",
+      "last_action_at": "2026-07-04T01:18:44",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-07-04T01:18:44"
+    },
+    "vzyskanie-dolga-s-nesovershennoletnego-cherez-roditelej": {
+      "category": "vzysk",
+      "title": "Взыскание долга несовершеннолетнего через родителей",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-07-04T05:42:03",
+      "last_action_at": "2026-07-04T05:42:03",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-07-04T05:42:03"
     }
   },
   "pending_actions": [],
