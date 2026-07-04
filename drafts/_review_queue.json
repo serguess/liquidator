@@ -3762,6 +3762,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "tretejskij-sud-vzyskanie-dolga-preimushchestva-i-riski",
+      "category": "vzysk",
+      "title": "Третейский суд для взыскания долга: плюсы и ограничения",
+      "added_at": "2026-07-04T20:16:01.346032",
+      "char_count": 8317,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1783185358/articles/tretejskij-sud-vzyskanie-dolga-preimushchestva-i-riski-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
