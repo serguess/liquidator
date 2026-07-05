@@ -7498,6 +7498,60 @@
       "published_url": null,
       "pending_batch": true,
       "pending_batch_at": "2026-07-05T00:38:14"
+    },
+    "apellyaciya-otmenila-bankrotstvo-hotina-yugra": {
+      "category": "news",
+      "title": "Апелляция отменила банкротство владельца Югры",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-07-05T05:48:41",
+      "last_action_at": "2026-07-05T05:48:41",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-07-05T05:48:41"
+    },
+    "bankrotstvo-ip-s-ipotekoj": {
+      "category": "fiz",
+      "title": "Банкротство ИП с ипотекой: что происходит с кредитом",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-07-05T08:35:42",
+      "last_action_at": "2026-07-05T08:35:42",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-07-05T08:35:42"
+    },
+    "tekushchie-platezhi-pri-bankrotstve-fizlica": {
+      "category": "fiz",
+      "title": "Текущие платежи при банкротстве физлица: что это",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-07-05T08:53:42",
+      "last_action_at": "2026-07-05T08:53:42",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-07-05T08:53:42"
     }
   },
   "pending_actions": [],
