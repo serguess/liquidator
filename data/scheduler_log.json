@@ -23330,5 +23330,66 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-07-05T08:30:33",
+    "category": "fiz",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 16,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "resume",
+    "resume_slug": "bankrotstvo-ip-s-ipotekoj",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "length_soft_passed: 7449 > 6500 но ≤ 8500 и iteration=2 — пропускаем (приоритет spam/uniqueness/ai)",
+        "forced_pass_at_iter2: блокеры пропущены, статья идёт в TG-очередь с metrics_warning=true. Было: 1 блокеров — targeted_tokens_over_limit"
+      ],
+      "recommendations": [
+        "reduce_round_sums: «X 000 руб» × 3 → cap 2. Иллюстративные суммы — некруглые (82 400, 147 500). Статутные пороги (300 000, 500 000) — 1 раз в точной форме + дальше через дескриптор («эта планка», «новый минимум»)."
+      ],
+      "stderr_tail": ""
+    },
+    "finalize_safety_net": {
+      "ran": true,
+      "rc": 0
+    },
+    "status": "ok",
+    "slug": "bankrotstvo-ip-s-ipotekoj",
+    "duration_sec": 305.6,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": " cache_w   cache_r  billable\n6-seo-editor        sonnet            6      14    73174     25156     73194\n7-publisher         haiku            20      12    39290     25520     39322\n------------------------------------------------------------------------------------------\nИТОГО                                26      26   112464     50676    112516\nBillable-токенов на статью: ~112K (cache_read 50K не считается в лимит подписки).\nАртефакты: drafts/bankrotstvo-ip-s-ipotekoj/  | quality_gate exit=0",
+    "stderr_tail": "",
+    "tokens_by_model": {},
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7449
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]

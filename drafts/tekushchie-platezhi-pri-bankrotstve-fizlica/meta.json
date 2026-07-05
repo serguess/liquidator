@@ -1,0 +1,107 @@
+{
+  "slug": "tekushchie-platezhi-pri-bankrotstve-fizlica",
+  "category": "fiz",
+  "title": "Текущие платежи при банкротстве физлица: что это",
+  "description": "Что такое текущие платежи при банкротстве физлица, какие платежи включаются в текущие, как они повлияют на ваше имущество и долги.",
+  "h1": "Текущие платежи при банкротстве физлица: что это и как они влияют на процесс",
+  "lead": "Разбираем, какие расходы закрывает финансовый управляющий внутри дела, а какие остаются на должнике - и как текучка влияет на то, что достанется кредиторам.",
+  "topic_action": "проверку возможности списания долгов",
+  "breadcrumb_current": "Текущие платежи при банкротстве",
+  "og_image": "/assets/articles/tekushchie-platezhi-pri-bankrotstve-fizlica.jpg",
+  "main_keyword": "текущие платежи при банкротстве физлица",
+  "secondary_keywords": [
+    "текущие платежи физлица банкротство",
+    "какие платежи считаются текущими",
+    "платежи по текущим обязательствам",
+    "расходы на содержание имущества банкротство",
+    "коммунальные платежи при банкротстве",
+    "текущие платежи и реструктуризация долгов",
+    "питание и лечение при банкротстве",
+    "текущие расходы на семью"
+  ],
+  "internal_links": [
+    "/articles/fiz/bankovskie-scheta-pri-bankrotstve",
+    "/articles/fiz/alimenty-pri-bankrotstve-fizlica",
+    "/articles/fiz/avtomobil-pri-bankrotstve-fizlica"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/"
+  ],
+  "faq": [
+    {
+      "question": "Чем текущие платежи при банкротстве отличаются от долгов в реестре?",
+      "answer": "Реестровые - это старые обязательства до подачи заявления, гасятся по очерёдности из остатка выручки. Текущие возникают уже внутри дела, гасятся первыми и в реестр не включаются (ст. 213.29 127-ФЗ)."
+    },
+    {
+      "question": "Кто платит за квартиру, пока идёт реализация имущества?",
+      "answer": "Если жильё вошло в конкурсную массу - финансовый управляющий из выручки или дохода. Если это единственная квартира, защищённая ст. 446 ГПК, - сам гражданин из прожиточного минимума."
+    },
+    {
+      "question": "Что если управляющий не заплатил налог или коммуналку вовремя?",
+      "answer": "Начислят пени и штрафы, стоимость активов просядет, взыскателям достанется меньше. Они вправе пожаловаться в арбитраж и потребовать взыскать убытки с самого управляющего."
+    },
+    {
+      "question": "Алименты - это текущий платёж процедуры банкротства?",
+      "answer": "Нет. Это личное обязательство человека. Оно не списывается по итогу дела (ст. 213.28 п. 5 127-ФЗ) и платится из личных денег, а не из конкурсной массы."
+    },
+    {
+      "question": "Сколько остаётся на жизнь в месяц при банкротстве?",
+      "answer": "На 2026 год - 20 644 рубля на трудоспособного (ФЗ-426 от 28.11.2025). На каждого ребёнка или иждивенца выделяется дополнительно по региональному прожиточному минимуму."
+    },
+    {
+      "question": "Нужно ли платить ЖКХ при внесудебном банкротстве через МФЦ?",
+      "answer": "Да. МФЦ-процедура списывает только банковские долги (ст. 223.2 127-ФЗ). Имущество и все текущие расходы по нему остаются на должнике."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все факты сверены с research.json. Статусы: active. last_verified: 2026-07-05 для всех ключевых утверждений.",
+    "ПМ 2026: 20 644 руб. (ФЗ-426 от 28.11.2025) - верифицирован (f6).",
+    "Ст. 213.25 п. 1 - определение текущих платежей корректно (f1, f3).",
+    "Ст. 213.29 - приоритет текущих над реестровыми подтверждён (f2, f8).",
+    "Ст. 213.28 п. 5 - алименты и вред здоровью не списываются - верифицирован (f10).",
+    "Единственное жильё (ст. 446 ГПК) - текучка остаётся на должнике - верифицирован (f5).",
+    "МФЦ-банкротство (ст. 223.2) - управляющего нет, конкурсной массы нет - верифицирован (f9).",
+    "Ст. 213.18 п. 2 - текущие при реструктуризации обязательны - верифицирован (f4)."
+  ],
+  "keyword_density_main": 0.015,
+  "main_keyword_exact_count": 2,
+  "text_chars": 6957,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.112,
+  "local_spam_ngram3_repeat": 0.012,
+  "local_lexical_diversity": 0.626,
+  "local_ai_markers_density": 0.23,
+  "local_ai_markers_critical": 0,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1783230772/articles/tekushchie-platezhi-pri-bankrotstve-fizlica-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1783230772/articles/tekushchie-platezhi-pri-bankrotstve-fizlica-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Tight close-up of a critical financial moment on a polished walnut desk. Composition: an opened leather briefcase with papers fanning out representing payment obligations, a fountain pen lying uncapped next to a small brass inkwell, a half-finished white porcelain coffee cup beside a stack of closed dossiers tied with cord. Camera: shallow depth of field, three-quarter angle. Lighting: warm directional side-light from upper left casting elegant shadows that emphasize texture and the weight of financial responsibility. Materials: leather, walnut, brass, ceramic. Background: soft bokeh of office interior. Atmosphere: paused mid-process, just-stepped-away from reviewing current payment obligations. Mood: contemplative, the persistent weight of liabilities continuing through bankruptcy.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-07-05T05:52:53Z",
+  "length_status": "too_long",
+  "length_kind": "default",
+  "local_ai_markers_total": 2,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 3,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 49,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "длина больше лимита 6500 (6 957 знаков)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "targeted_tokens_over_limit: 213_артикул=5(>≤3)"
+  ],
+  "date_published": "2026-07-05",
+  "date_modified": "2026-07-05",
+  "ready_for_review": true,
+  "ready_at": "2026-07-05T05:52:57Z",
+  "publication_target": "telegram_review"
+}
