@@ -23275,5 +23275,60 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-07-05T05:12:21",
+    "category": "news",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 15,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "news-74",
+    "topic_slug": "apellyaciya-otmenila-bankrotstvo-hotina-yugra",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "length_soft_passed: 7343 > 5500 но ≤ 7500 и iteration=2 — пропускаем (приоритет spam/uniqueness/ai)"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "apellyaciya-otmenila-bankrotstvo-hotina-yugra",
+    "duration_sec": 2163.7,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "  21304\n6-seo-editor        haiku            20       8    60900     25520     60928\n7-publisher         haiku            68      20    59344    226714     59432\n------------------------------------------------------------------------------------------\nИТОГО                               212      74   398403    730126    398689\nBillable-токенов на статью: ~398K (cache_read 730K не считается в лимит подписки).\nАртефакты: drafts/apellyaciya-otmenila-bankrotstvo-hotina-yugra/  | quality_gate exit=0",
+    "stderr_tail": "",
+    "tokens_by_model": {},
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7343
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]

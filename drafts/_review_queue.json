@@ -3788,6 +3788,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "bankrotstvo-ip-s-ipotekoj",
+      "category": "fiz",
+      "title": "Банкротство ИП с ипотекой: что происходит с кредитом",
+      "added_at": "2026-07-05T08:35:39.113738",
+      "char_count": 7449,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1783229737/articles/bankrotstvo-ip-s-ipotekoj-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
