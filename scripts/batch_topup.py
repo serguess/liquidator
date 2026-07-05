@@ -32,10 +32,10 @@ ROOT = Path(__file__).resolve().parent.parent
 BOT_STATE = ROOT / "data" / "bot_state.json"
 LOCK_FILE = ROOT / "data" / ".scheduler.lock"
 
-# Целевое распределение: 3-3-3-1 = 10 статей
-EXPECTED = {"fiz": 3, "yur": 3, "vzysk": 3, "news": 1}
+# Целевое распределение: 1-1-1-2 = 5 статей (совпадает с ротацией fiz,yur,vzysk,news,news и BATCH_MAX_PER_DAY=5)
+EXPECTED = {"fiz": 1, "yur": 1, "vzysk": 1, "news": 2}
 # Приоритет при выборе категории для backup-слота (если несколько не хватает)
-PRIORITY = ["fiz", "yur", "vzysk", "news"]
+PRIORITY = ["news", "yur", "vzysk", "fiz"]
 
 # Час начала batch'а
 BATCH_HOUR = 10
