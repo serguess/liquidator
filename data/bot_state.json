@@ -7456,7 +7456,7 @@
     "zajm-uchreditelya-pri-bankrotstve-subordinaciya": {
       "category": "yur",
       "title": "Займы учредителя при банкротстве: субординированный долг",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -7464,14 +7464,16 @@
       "tg_message_id": 1803,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-04T14:55:08",
-      "last_action_at": "2026-07-05T10:00:45",
+      "last_action_at": "2026-07-05T19:53:24",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/yur/zajm-uchreditelya-pri-bankrotstve-subordinaciya",
       "pending_batch": false,
       "pending_batch_at": "2026-07-04T14:55:08",
       "batch_sent_at": "2026-07-05T10:00:45",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-07-05T19:53:24",
+      "articles_path": "articles/yur/zajm-uchreditelya-pri-bankrotstve-subordinaciya.html"
     },
     "tretejskij-sud-vzyskanie-dolga-preimushchestva-i-riski": {
       "category": "vzysk",
