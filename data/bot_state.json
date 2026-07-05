@@ -7390,20 +7390,24 @@
     "prodazha-nedvizhimosti-pered-bankrotstvom-fizlica": {
       "category": "fiz",
       "title": "Продажа квартиры перед банкротством: правила и риски",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 1799,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-04T01:18:44",
-      "last_action_at": "2026-07-04T01:18:44",
+      "last_action_at": "2026-07-05T19:52:24",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-07-04T01:18:44"
+      "published_url": "https://pravo.shop/articles/fiz/prodazha-nedvizhimosti-pered-bankrotstvom-fizlica",
+      "pending_batch": false,
+      "pending_batch_at": "2026-07-04T01:18:44",
+      "batch_sent_at": "2026-07-05T10:00:40",
+      "batch_fail_count": 0,
+      "published_at": "2026-07-05T19:52:24",
+      "articles_path": "articles/fiz/prodazha-nedvizhimosti-pered-bankrotstvom-fizlica.html"
     },
     "vzyskanie-dolga-s-nesovershennoletnego-cherez-roditelej": {
       "category": "vzysk",
@@ -7435,15 +7439,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 1801,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-04T11:22:06",
-      "last_action_at": "2026-07-04T11:22:06",
+      "last_action_at": "2026-07-05T10:00:43",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-07-04T11:22:06"
+      "pending_batch": false,
+      "pending_batch_at": "2026-07-04T11:22:06",
+      "batch_sent_at": "2026-07-05T10:00:43",
+      "batch_fail_count": 0
     },
     "zajm-uchreditelya-pri-bankrotstve-subordinaciya": {
       "category": "yur",
@@ -7453,15 +7459,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 1803,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-04T14:55:08",
-      "last_action_at": "2026-07-04T14:55:08",
+      "last_action_at": "2026-07-05T10:00:45",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-07-04T14:55:08"
+      "pending_batch": false,
+      "pending_batch_at": "2026-07-04T14:55:08",
+      "batch_sent_at": "2026-07-05T10:00:45",
+      "batch_fail_count": 0
     },
     "tretejskij-sud-vzyskanie-dolga-preimushchestva-i-riski": {
       "category": "vzysk",
@@ -7471,15 +7479,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 1805,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-04T20:16:11",
-      "last_action_at": "2026-07-04T20:16:11",
+      "last_action_at": "2026-07-05T10:00:47",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-07-04T20:16:11"
+      "pending_batch": false,
+      "pending_batch_at": "2026-07-04T20:16:11",
+      "batch_sent_at": "2026-07-05T10:00:47",
+      "batch_fail_count": 0
     },
     "zakon-174-fz-bankrotstvo-bankov-zavershenie-mer": {
       "category": "news",
@@ -7489,15 +7499,16 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 1809,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-05T00:38:14",
       "last_action_at": "2026-07-05T00:38:14",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-07-05T00:38:14"
+      "pending_batch": false,
+      "pending_batch_at": "2026-07-05T00:38:14",
+      "batch_sent_at": "2026-07-05T10:39:38"
     },
     "apellyaciya-otmenila-bankrotstvo-hotina-yugra": {
       "category": "news",
@@ -7525,15 +7536,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 1807,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-05T08:35:42",
-      "last_action_at": "2026-07-05T08:35:42",
+      "last_action_at": "2026-07-05T10:00:49",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-07-05T08:35:42"
+      "pending_batch": false,
+      "pending_batch_at": "2026-07-05T08:35:42",
+      "batch_sent_at": "2026-07-05T10:00:49",
+      "batch_fail_count": 0
     },
     "tekushchie-platezhi-pri-bankrotstve-fizlica": {
       "category": "fiz",
@@ -7552,10 +7565,28 @@
       "published_url": null,
       "pending_batch": true,
       "pending_batch_at": "2026-07-05T08:53:42"
+    },
+    "dolg-za-vred-zdorovyu-pri-bankrotstve": {
+      "category": "fiz",
+      "title": "Долг за вред здоровью и имуществу при банкротстве",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-07-05T15:32:46",
+      "last_action_at": "2026-07-05T15:32:46",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-07-05T15:32:46"
     }
   },
   "pending_actions": [],
-  "last_batch_date": "2026-07-04",
-  "last_batch_count": 3,
-  "last_batch_at": "2026-07-04T10:00:07"
+  "last_batch_date": "2026-07-05",
+  "last_batch_count": 5,
+  "last_batch_at": "2026-07-05T10:00:49"
 }
