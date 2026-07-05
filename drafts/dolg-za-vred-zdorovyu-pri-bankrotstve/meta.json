@@ -1,0 +1,102 @@
+{
+  "slug": "dolg-za-vred-zdorovyu-pri-bankrotstve",
+  "category": "fiz",
+  "title": "Долг за вред здоровью и имуществу при банкротстве",
+  "description": "Какие долги за причинённый вред можно списать при банкротстве физлица, какие нельзя, и как это повлияет на статус должника.",
+  "h1": "Долг за причинённый вред при банкротстве: что подлежит списанию",
+  "lead": "При банкротстве долги за вред здоровью остаются в полной силе - разбираем, какие суммы не списываются, как они взыскиваются и имеет ли смысл подавать заявление.",
+  "topic_action": "проверку возможности списания долгов",
+  "breadcrumb_current": "Долг за причинённый вред при банкротстве",
+  "og_image": "/assets/articles/dolg-za-vred-zdorovyu-pri-bankrotstve.jpg",
+  "main_keyword": "долг за причинённый вред банкротство",
+  "secondary_keywords": [
+    "вред здоровью и имуществу банкротство",
+    "списание долга за моральный вред",
+    "долги за причинённый вред не подлежат списанию",
+    "как списать долг за вред здоровью",
+    "страховка от вреда и банкротство",
+    "ответственность за причинённый вред физлица",
+    "взыскание вреда при банкротстве должника",
+    "материальный вред при банкротстве"
+  ],
+  "internal_links": [
+    "/articles/fiz/alimenty-pri-bankrotstve-fizlica.html"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/",
+    "https://www.consultant.ru/document/cons_doc_LAW_5142/"
+  ],
+  "faq": [
+    {
+      "question": "Можно ли списать через банкротство долг перед пострадавшим в ДТП?",
+      "answer": "Только материальную часть, не связанную со здоровьем: например, ремонт чужого автомобиля. Компенсация лечения, утраченного заработка и морального ущерба остаётся после завершения дела."
+    },
+    {
+      "question": "Что происходит с притязанием пострадавшего, если причинитель уже прошёл банкротство?",
+      "answer": "Оно сохраняется в полном объёме. Пострадавший продолжает взыскание из личного имущества должника через обычное исполнительное производство."
+    },
+    {
+      "question": "Чем ущерб имуществу отличается от ущерба здоровью при банкротстве?",
+      "answer": "Ущерб вещи - машина, техника, интерьер - списывается как обычный долг. Ущерб, вытекающий из травмы (лечение, реабилитация, потеря дохода), квалифицируется по 1084 и не списывается."
+    },
+    {
+      "question": "Обязательно ли подавать притязание в реестр, чтобы сохранить взыскание?",
+      "answer": "Не обязательно. Даже без включения в реестр обязанность не гаснет и позднее взыскивается через приставов. Но участие в реестре даёт шанс получить долю из конкурсной массы в приоритетном порядке."
+    },
+    {
+      "question": "Сколько времени есть у пострадавшего после закрытия дела?",
+      "answer": "Общая давность - три года по 196 гражданского кодекса. При банкротстве причинителя срок не гасит право на взыскание: оно остаётся действительным."
+    },
+    {
+      "question": "Защищает ли ОСАГО от личной ответственности сверх лимита?",
+      "answer": "Нет. Полис закрывает возмещение только до потолка, установленного договором. Разница сверх лимита - личный долг, который при банкротстве остаётся, если связан с травмой."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все факты сверены с research.json. Статусы: active. last_verified в пределах 6 месяцев для всех ключевых утверждений.",
+    "Ст. 213.28 п. 5 127-ФЗ - актуальна, last_verified 2026-07-05.",
+    "Ст. 223.12 п. 4 127-ФЗ - актуальна, last_verified 2026-07-05.",
+    "Ст. 1084 ГК РФ, ст. 1064 ГК РФ, ст. 213.27 п. 3 127-ФЗ - все верифицированы.",
+    "Страховое возмещение и личная ответственность - логика соответствует research.",
+    "Исковая давность 3 года - ст. 196 ГК РФ, актуальна."
+  ],
+  "keyword_density_main": 0.019,
+  "main_keyword_exact_count": 0,
+  "text_chars": 7334,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.128,
+  "local_spam_ngram3_repeat": 0.044,
+  "local_lexical_diversity": 0.621,
+  "local_ai_markers_density": 0.32,
+  "local_ai_markers_critical": 0,
+  "local_ai_markers_total": 3,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 2,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "ready_for_review": true,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1783254710/articles/dolg-za-vred-zdorovyu-pri-bankrotstve-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1783254710/articles/dolg-za-vred-zdorovyu-pri-bankrotstve-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Editorial photograph of a workspace adjacent to a window. Foreground: a desk with well-arranged items — a closed dark leather portfolio, fountain pen positioned across an open blank-spine notebook, reading glasses resting on closed documents, a polished brass desk lamp casting focused warm light over the surface. White porcelain coffee cup on saucer. Background through the glass: cityscape in rain or overcast daylight, distant evening lights softly blurred. Camera: three-quarter angle, eye-level. Lighting: cool window-driven daylight blended with warm desk lamp glow. Materials: walnut, dark leather, polished brass. Mood: focused analytical work, meticulous documentation and assessment of a personal injury claim.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-07-05T12:31:52Z",
+  "length_status": "too_long",
+  "length_kind": "default",
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 53,
+  "predicted_ai_pct": 6,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность чуть выше 50% (~53%)",
+    "длина значительно больше лимита 6500 (7 334 знаков)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "spam_risk: 3 флагов (top3_sum>30 (=32), top10_sum>80 (=88), top10_share>0.115 (=0.128)), top-5: ['долг', 'дела', 'ущерб', 'травм', 'человек']",
+    "author_markers_missing: 1 < 2"
+  ]
+}
