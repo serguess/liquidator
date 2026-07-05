@@ -7500,7 +7500,7 @@
     "zakon-174-fz-bankrotstvo-bankov-zavershenie-mer": {
       "category": "news",
       "title": "Изменения оснований завершения мер банкротства банков",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -7508,13 +7508,15 @@
       "tg_message_id": 1809,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-05T00:38:14",
-      "last_action_at": "2026-07-05T00:38:14",
+      "last_action_at": "2026-07-05T22:28:55",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/news/zakon-174-fz-bankrotstvo-bankov-zavershenie-mer",
       "pending_batch": false,
       "pending_batch_at": "2026-07-05T00:38:14",
-      "batch_sent_at": "2026-07-05T10:39:38"
+      "batch_sent_at": "2026-07-05T10:39:38",
+      "published_at": "2026-07-05T22:28:55",
+      "articles_path": "articles/news/zakon-174-fz-bankrotstvo-bankov-zavershenie-mer.html"
     },
     "apellyaciya-otmenila-bankrotstvo-hotina-yugra": {
       "category": "news",
