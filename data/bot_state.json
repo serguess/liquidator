@@ -7478,7 +7478,7 @@
     "tretejskij-sud-vzyskanie-dolga-preimushchestva-i-riski": {
       "category": "vzysk",
       "title": "Третейский суд для взыскания долга: плюсы и ограничения",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -7486,14 +7486,16 @@
       "tg_message_id": 1805,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-04T20:16:11",
-      "last_action_at": "2026-07-05T10:00:47",
+      "last_action_at": "2026-07-05T21:53:27",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/vzysk/tretejskij-sud-vzyskanie-dolga-preimushchestva-i-riski",
       "pending_batch": false,
       "pending_batch_at": "2026-07-04T20:16:11",
       "batch_sent_at": "2026-07-05T10:00:47",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-07-05T21:53:27",
+      "articles_path": "articles/vzysk/tretejskij-sud-vzyskanie-dolga-preimushchestva-i-riski.html"
     },
     "zakon-174-fz-bankrotstvo-bankov-zavershenie-mer": {
       "category": "news",
