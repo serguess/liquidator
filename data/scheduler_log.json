@@ -23213,5 +23213,67 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-07-05T00:24:28",
+    "category": "news",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 12,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "news-73",
+    "topic_slug": "zakon-174-fz-bankrotstvo-bankov-zavershenie-mer",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "length_soft_passed: 6688 > 5500 но ≤ 7500 и iteration=2 — пропускаем (приоритет spam/uniqueness/ai)",
+        "forced_pass_at_iter2: блокеры пропущены, статья идёт в TG-очередь с metrics_warning=true. Было: 1 блокеров — broken_internal_links"
+      ],
+      "recommendations": [
+        "fix_internal_links: заменить href на канонический /articles/{cat}/{slug} из published_index.json (см. .claude/style/editor-cheatsheet.md секция 6)"
+      ],
+      "stderr_tail": ""
+    },
+    "finalize_safety_net": {
+      "ran": true,
+      "rc": 0
+    },
+    "status": "ok",
+    "slug": "zakon-174-fz-bankrotstvo-bankov-zavershenie-mer",
+    "duration_sec": 774.4,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "43682\n6-seo-editor        sonnet            6      14    61722     25156     61742\n7-publisher         haiku            20      12    39252     25520     39284\n------------------------------------------------------------------------------------------\nИТОГО                               170     116   525478    559499    525764\nBillable-токенов на статью: ~525K (cache_read 559K не считается в лимит подписки).\nАртефакты: drafts/zakon-174-fz-bankrotstvo-bankov-zavershenie-mer/  | quality_gate exit=0",
+    "stderr_tail": "",
+    "tokens_by_model": {},
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 6688
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]
