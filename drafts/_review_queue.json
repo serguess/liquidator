@@ -3814,6 +3814,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "strakhovanie-arbitrazhnogo-upravlyayushchego",
+      "category": "yur",
+      "title": "Страхование арбитражного управляющего: требования и защита",
+      "added_at": "2026-07-06T00:47:48.527622",
+      "char_count": 7185,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1783288062/articles/strakhovanie-arbitrazhnogo-upravlyayushchego-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
