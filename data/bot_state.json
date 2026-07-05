@@ -7434,7 +7434,7 @@
     "ipotechnyje-kanikuly-rozhdenie-rebenka-novyj-zakon": {
       "category": "news",
       "title": "Ипотечные каникулы при рождении ребёнка: 18 месяцев",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -7442,14 +7442,16 @@
       "tg_message_id": 1801,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-04T11:22:06",
-      "last_action_at": "2026-07-05T10:00:43",
+      "last_action_at": "2026-07-05T19:53:00",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/news/ipotechnyje-kanikuly-rozhdenie-rebenka-novyj-zakon",
       "pending_batch": false,
       "pending_batch_at": "2026-07-04T11:22:06",
       "batch_sent_at": "2026-07-05T10:00:43",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-07-05T19:53:00",
+      "articles_path": "articles/news/ipotechnyje-kanikuly-rozhdenie-rebenka-novyj-zakon.html"
     },
     "zajm-uchreditelya-pri-bankrotstve-subordinaciya": {
       "category": "yur",
