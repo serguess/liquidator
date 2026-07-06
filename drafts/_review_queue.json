@@ -3879,6 +3879,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "sf-zakonoproekt-sanaciya-kompanii-vmesto-likvidacii",
+      "category": "news",
+      "title": "Санация компании вместо банкротства: инициатива СФ",
+      "added_at": "2026-07-07T00:48:48.419472",
+      "char_count": 5874,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1783374525/articles/sf-zakonoproekt-sanaciya-kompanii-vmesto-likvidacii-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
