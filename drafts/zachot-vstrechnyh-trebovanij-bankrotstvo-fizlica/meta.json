@@ -1,0 +1,105 @@
+{
+  "slug": "zachot-vstrechnyh-trebovanij-bankrotstvo-fizlica",
+  "category": "fiz",
+  "title": "Зачёт требований при банкротстве физлица",
+  "description": "Как работает зачёт взаимных требований при банкротстве физлица по закону 127-ФЗ. Какие требования допускают зачёт, порядок и ограничения.",
+  "h1": "Зачёт требований при банкротстве физлица: когда допустим",
+  "lead": "Разбираем четыре условия законного зачёта, кто вправе его заявить и какие категории долгов под абсолютным запретом.",
+  "topic_action": "проверку требований при банкротстве",
+  "breadcrumb_current": "Зачёт требований при банкротстве",
+  "og_image": "/assets/articles/zachot-vstrechnyh-trebovanij-bankrotstvo-fizlica.jpg",
+  "main_keyword": "зачёт требований при банкротстве физлица",
+  "secondary_keywords": [
+    "взаимные требования банкротство",
+    "зачёт требований 127-ФЗ",
+    "требования кредиторов при банкротстве",
+    "порядок зачёта требований",
+    "ограничения зачёта при банкротстве",
+    "зачёт задолженности банкротство физлица",
+    "взаимные платежи при банкротстве",
+    "статья 125 закона о банкротстве"
+  ],
+  "internal_links": [
+    "/articles/fiz/alimenty-pri-bankrotstve-fizlica"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/"
+  ],
+  "faq": [
+    {
+      "question": "Можно ли зачесть, если долг перед займодавцем возник до процедуры, а встречный - после?",
+      "answer": "Нет. Оба обязательства должны родиться до открытия дела о банкротстве. Обязательство должника, появившееся позже, относится к текущим платежам и в обмен не идёт."
+    },
+    {
+      "question": "Что делать, если займодавец заявил о зачёте, но завысил размер встречки?",
+      "answer": "Подайте возражение управляющему с расчётом фактической суммы и подтверждающими документами. Спор о размере встречного долга разбирается при утверждении списка."
+    },
+    {
+      "question": "Обязан ли финансовый управляющий сам инициировать взаимное погашение?",
+      "answer": "Нет, это его право. Задача клиента - передать ему документы и попросить в письменной форме рассмотреть возможность обмена."
+    },
+    {
+      "question": "Чем однородные обязательства отличаются от неоднородных?",
+      "answer": "Однородные - оба денежные. Неоднородные - когда одно денежное, а второе про имущество или услугу. Пример: 200 тысяч рублей против обязанности передать станок - обменять нельзя."
+    },
+    {
+      "question": "Меняется ли место кредитора в очереди после погашения?",
+      "answer": "Нет. Остаток претензии сохраняет ту же очередь, что имела до заявления."
+    },
+    {
+      "question": "До какого момента можно заявить о зачёте?",
+      "answer": "До утверждения списка. Оптимально - вместе с подачей претензии участника, чтобы не создавать процессуальных сложностей позже."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все факты сверены с research.json. Статусы: active. last_verified: 2026-07-06 для всех ключевых утверждений.",
+    "Ст. 125 127-ФЗ: зачёт допустим при однородности и наличии обоих долгов до открытия производства - f1, f5.",
+    "Запрет для алиментов и вреда здоровью (п. 2 ст. 125, ст. 213.28 п. 5-6) - f3. Контекст применения корректен.",
+    "Инициатор и срок: до утверждения реестра по ст. 105 127-ФЗ - f4.",
+    "Зачёт не меняет очередь: п. 3 ст. 125 127-ФЗ - f7.",
+    "Текущие платежи не зачитываются - f6.",
+    "Финансовый управляющий вправе, но не обязан инициировать зачёт - f4; forbidden_claims проверены, нарушений нет.",
+    "Внутренняя ссылка на alimenty-pri-bankrotstve-fizlica: .html-суффикс удалён, формат /articles/fiz/{slug}."
+  ],
+  "keyword_density_main": 0.005,
+  "main_keyword_exact_count": 1,
+  "text_chars": 6872,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.114,
+  "local_spam_ngram3_repeat": 0.006,
+  "local_lexical_diversity": 0.643,
+  "local_ai_markers_density": 0.23,
+  "local_ai_markers_critical": 0,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1783322577/articles/zachot-vstrechnyh-trebovanij-bankrotstvo-fizlica-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1783322577/articles/zachot-vstrechnyh-trebovanij-bankrotstvo-fizlica-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Macro close-up photograph emphasizing surface materials and tactile detail. Hero subject: polished brass scales-of-justice with both pans in perfect equilibrium, symbolizing mutual compensation of claims. Supporting objects: fountain pen across a closed dark portfolio, polished round brass seal pressed onto a cream envelope with warm amber wax. Background: weathered stone slab revealing natural texture. Camera: macro with very shallow depth of field isolating the subject. Lighting: directional contrast creating sharp specular highlights on brass, soft fill on shadow side. Palette: warm brass, charcoal grey stone, cream envelope details. Mood: legal precision, balanced mutual obligation, fair settlement.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-07-06T07:22:58Z",
+  "length_status": "too_long",
+  "length_kind": "default",
+  "local_ai_markers_total": 2,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 4,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 49,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "длина больше лимита 6500 (6 872 знаков)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "targeted_tokens_over_limit: 127фз_закон=4(>≤2)"
+  ],
+  "date_published": "2026-07-06",
+  "date_modified": "2026-07-06",
+  "ready_for_review": true,
+  "ready_at": "2026-07-06T07:23:00Z",
+  "publication_target": "telegram_review"
+}

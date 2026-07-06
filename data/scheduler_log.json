@@ -23642,5 +23642,64 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-07-06T05:12:08",
+    "category": "vzysk",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 8,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "vzysk-113",
+    "topic_slug": "vzyskanie-strahovogo-vozmeshcheniya-kasko-cherez-sud",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "length_soft_passed: 7100 > 6500 но ≤ 8500 и iteration=2 — пропускаем (приоритет spam/uniqueness/ai)"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "finalize_safety_net": {
+      "ran": true,
+      "rc": 0
+    },
+    "status": "ok",
+    "slug": "vzyskanie-strahovogo-vozmeshcheniya-kasko-cherez-sud",
+    "duration_sec": 2550.5,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "\n6-seo-editor        haiku            20      16    72058     25520     72094\n7-publisher         haiku            36      14    53610     90296     53660\n------------------------------------------------------------------------------------------\nИТОГО                               170      96   525731    550127    525997\nBillable-токенов на статью: ~525K (cache_read 550K не считается в лимит подписки).\nАртефакты: drafts/vzyskanie-strahovogo-vozmeshcheniya-kasko-cherez-sud/  | quality_gate exit=0",
+    "stderr_tail": "",
+    "tokens_by_model": {},
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7100
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]

@@ -3840,6 +3840,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "zachot-vstrechnyh-trebovanij-bankrotstvo-fizlica",
+      "category": "fiz",
+      "title": "Зачёт требований при банкротстве физлица",
+      "added_at": "2026-07-06T10:23:00.234338",
+      "char_count": 6872,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1783322577/articles/zachot-vstrechnyh-trebovanij-bankrotstvo-fizlica-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
