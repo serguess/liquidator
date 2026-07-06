@@ -3827,6 +3827,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "vzyskanie-strahovogo-vozmeshcheniya-kasko-cherez-sud",
+      "category": "vzysk",
+      "title": "Взыскание выплаты КАСКО через суд: порядок и сроки",
+      "added_at": "2026-07-06T05:54:38.767128",
+      "char_count": 7100,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1783306474/articles/vzyskanie-strahovogo-vozmeshcheniya-kasko-cherez-sud-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
