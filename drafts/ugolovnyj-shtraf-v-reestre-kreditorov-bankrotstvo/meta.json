@@ -1,0 +1,110 @@
+{
+  "slug": "ugolovnyj-shtraf-v-reestre-kreditorov-bankrotstvo",
+  "category": "yur",
+  "title": "Штраф в реестре кредиторов при банкротстве",
+  "description": "Как уголовный штраф взыскивается при банкротстве компании, в какой очереди, приоритет государства перед кредиторами.",
+  "h1": "Уголовный штраф при банкротстве компании: место в реестре кредиторов",
+  "lead": "Уголовный штраф по обвинительному приговору не даёт государству приоритета в реестре: он встаёт в третью очередь рядом с банками и поставщиками, а исчезнуть при ликвидации компании не может.",
+  "topic_action": "разбор позиции уголовного штрафа в реестре кредиторов",
+  "breadcrumb_current": "Уголовный штраф при банкротстве",
+  "og_image": "/assets/articles/ugolovnyj-shtraf-v-reestre-kreditorov-bankrotstvo.jpg",
+  "main_keyword": "уголовный штраф при банкротстве",
+  "secondary_keywords": [
+    "уголовный штраф юридического лица",
+    "штраф в реестре кредиторов",
+    "очередность взыскания штрафа при банкротстве",
+    "как взыскивается штраф при банкротстве компании",
+    "штраф в конкурсной массе",
+    "приоритет уголовного штрафа",
+    "государственное взыскание",
+    "взыскание штрафа через арбитражный суд",
+    "штраф при внешнем управлении"
+  ],
+  "internal_links": [
+    "/articles/yur/kak-osporit-dejstviya-arbitrazhnogo-upravlyayuschego",
+    "/articles/yur/kak-osporit-trebovanie-kreditorov-v-reestre-pri-bankrotstve-yurlica"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/",
+    "https://www.consultant.ru/document/cons_doc_LAW_71450/"
+  ],
+  "faq": [
+    {
+      "question": "Можно ли списать уголовный штраф при банкротстве юридического лица?",
+      "answer": "Нет. Мера по обвинительному приговору остаётся действующей после завершения всех процедур. Невыплаченная часть переходит в отдельное исполнительное производство по закону 229-ФЗ."
+    },
+    {
+      "question": "В какой очереди реестра стоит требование казны по штрафу?",
+      "answer": "В третьей, по статье 134 закона о банкротстве, пункт 2. Вместе с банками, поставщиками, коммерческими займами. Государственный статус приоритета не даёт."
+    },
+    {
+      "question": "Чем уголовное взыскание отличается от административного при распределении конкурсной массы?",
+      "answer": "Административная мера - вторая строка, уголовная - третья. При дефиците конкурсной массы вторая строка получает деньги раньше. Это единственное практическое различие в банкротном контексте."
+    },
+    {
+      "question": "Что будет, если казна не успела заявиться в реестр в срок?",
+      "answer": "Опоздавшее заявление включается за реестром и удовлетворяется только из остатка после расчёта с реестровыми кредиторами (статья 142, пункт 4). Право на взыскание не пропадает, но получить деньги из конкурсной массы уже сложно."
+    },
+    {
+      "question": "Обязан ли конкурсный управляющий уведомить казну о начале процедуры банкротства?",
+      "answer": "Да, это прямая обязанность по нормам 96 и 103 закона о банкротстве. Уклонение - основание для жалобы и личной ответственности вплоть до отстранения."
+    },
+    {
+      "question": "Как взыскать остаток штрафа, если конкурсной массы не хватило на полное погашение?",
+      "answer": "Через отдельное исполнительное производство по закону 229-ФЗ. Оно возбуждается казной в отношении имущества, выявленного после закрытия банкротного дела, включая имущество лиц с субсидиарной ответственностью."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все факты сверены с research.json. last_verified: 2026-07-06, legislation_status: active для всех 10 фактов.",
+    "Третья очередь по ст. 134 п. 2 127-ФЗ (f2) верифицирована, включена в текст.",
+    "Административный штраф - вторая очередь (f7) верифицирован.",
+    "Срок 2 месяца с публикации в ЕФРСБ по ст. 64 п. 2 127-ФЗ (f3) верифицирован.",
+    "Ссылки черновика на «ст. 127 НК РФ» и «ст. 28 УК РФ» исключены: safe_phrasing (f4) эти нормы не содержит; ст. 127 НК РФ регулирует непредставление сведений налоговому органу, ст. 28 УК РФ - невиновное причинение вреда. Несписание изложено через safe_phrasing f4 и ФЗ-229 ст. 6 п. 2.",
+    "Несписание и исполнительное производство по ФЗ-229 ст. 6 п. 2 (f4, f10) верифицированы.",
+    "Обязанности управляющего по ст. 96, 103 127-ФЗ (f5) верифицированы.",
+    "Включение за реестром при опоздании по ст. 142 п. 4 127-ФЗ (f3) верифицировано.",
+    "Права казны на информацию, участие в собрании и контроль расчётов (f9) отражены корректно."
+  ],
+  "keyword_density_main": 0.014,
+  "main_keyword_exact_count": 2,
+  "text_chars": 7430,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.109,
+  "local_spam_ngram3_repeat": 0.055,
+  "local_lexical_diversity": 0.581,
+  "local_ai_markers_density": 0.42,
+  "local_ai_markers_critical": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1783340137/articles/ugolovnyj-shtraf-v-reestre-kreditorov-bankrotstvo-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1783340137/articles/ugolovnyj-shtraf-v-reestre-kreditorov-bankrotstvo-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Wide cinematic photograph of a spacious official room — courthouse antechamber or notary's grand office. High ceilings, tall windows, marble floors, paneled walls. Center: a long polished table with a thick stack of creditor dossiers bound in cord, a polished round seal, a fountain pen on a brass stand, and a closed leather portfolio resting on the surface. Camera: symmetric, eye-level, slight low-angle to emphasize architectural scale. Lighting: late-afternoon golden window light casting long parallel shadows across the marble floor. Materials: walnut, polished brass, cream marble, deep leather. Mood: hushed administrative proceeding, the moment when creditor claims are verified and registered in the official register.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-07-06T12:15:38Z",
+  "length_status": "too_long",
+  "length_kind": "default",
+  "local_ai_markers_total": 4,
+  "local_ai_markers_high": 1,
+  "local_own_voice_hits": 4,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 60,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность заметно выше 50% (~60%)",
+    "длина значительно больше лимита 6500 (7 430 знаков)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "broken_internal_links: 2 ссылок без соответствия в published_index (/articles/yur/kak-osporit-dejstviya-arbitrazhnogo-upravlyayuschego: slug 'kak-osporit-dejstviya-arbitrazhnogo-upravlyayuschego' не найден в категории 'yur' (есть: нигде); /articles/yur/kak-osporit-trebovanie-kreditorov-v-reestre-pri-bankrotstve-yurlica: slug 'kak-osporit-trebovanie-kreditorov-v-reestre-pri-bankrotstve-yurlica' не найден в категории 'yur' (есть: нигде))"
+  ],
+  "date_published": "2026-07-06",
+  "date_modified": "2026-07-06",
+  "ready_for_review": true,
+  "ready_at": "2026-07-06T12:15:40Z",
+  "publication_target": "telegram_review"
+}

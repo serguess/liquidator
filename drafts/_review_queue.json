@@ -3853,6 +3853,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "ugolovnyj-shtraf-v-reestre-kreditorov-bankrotstvo",
+      "category": "yur",
+      "title": "Штраф в реестре кредиторов при банкротстве",
+      "added_at": "2026-07-06T15:15:40.254371",
+      "char_count": 7430,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1783340137/articles/ugolovnyj-shtraf-v-reestre-kreditorov-bankrotstvo-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
