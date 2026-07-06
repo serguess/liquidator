@@ -1,0 +1,106 @@
+{
+  "slug": "arest-akcij-i-cennyh-bumag-pri-vzykanii-dolga",
+  "category": "vzysk",
+  "title": "Арест акций и ценных бумаг при взыскании долга",
+  "description": "Как заморозить акции должника, порядок описания ценных бумаг, роль депозитариев, реализация портфеля через пристава и судебное взыскание.",
+  "h1": "Арест акций и ценных бумаг при взыскании долга: способы и порядок действий",
+  "lead": "Разбираем, как портфель становится активом для взыскания, почему он прозрачнее наличных, и как пристав превращает акции в деньги взыскателю.",
+  "topic_action": "взыскание через арест ценных бумаг",
+  "breadcrumb_current": "Арест ценных бумаг при взыскании",
+  "og_image": "/assets/articles/arest-akcij-i-cennyh-bumag-pri-vzykanii-dolga.jpg",
+  "main_keyword": "арест акций и ценных бумаг при взыскании долга",
+  "secondary_keywords": [
+    "арест акций у должника",
+    "блокировка ценных бумаг взыскание",
+    "как заморозить акции должника",
+    "арест портфеля ценных бумаг",
+    "взыскание через арест акций",
+    "исполнительное производство ценные бумаги",
+    "описание имущества акции",
+    "арест дивидендов",
+    "депозитарий арест ценных бумаг",
+    "реализация ценных бумаг при взыскании"
+  ],
+  "internal_links": [
+    "/articles/vzysk/kak-obratitsya-k-pristavam-chtoby-priostanovit-nezakonnoe-vzyskanie"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_76254/",
+    "https://www.consultant.ru/document/cons_doc_LAW_5142/"
+  ],
+  "faq": [
+    {
+      "question": "Можно ли заморозить акции до решения по делу?",
+      "answer": "Да. Взыскатель подаёт ходатайство об обеспечительной мере одновременно с иском (ст. 99 АПК, ст. 139-141 ГПК). Суд рассматривает его в день подачи без вызова ответчика. Условия - обоснование риска отчуждения и соразмерность запрета цене иска."
+    },
+    {
+      "question": "Что происходит с дивидендами после ареста?",
+      "answer": "Выплаты, начисленные после даты постановления, до владельца счёта не доходят. Хранитель удерживает деньги у себя либо перечисляет в счёт долга через службу. Основание - ст. 64 ФЗ-229."
+    },
+    {
+      "question": "Обязан ли брокер сообщить об акциях клиента?",
+      "answer": "Да. Правило прямое - ст. 78 ФЗ-229. Срок ответа - 5-10 дней с даты получения запроса. Отказ или заведомо ложные сведения влекут штраф по ст. 17 и уголовную ответственность руководителя по ст. 198-199 УК."
+    },
+    {
+      "question": "Какие ценные бумаги нельзя взыскать?",
+      "answer": "Обычные акции и облигации взыскиваются наравне с иным имуществом. Иммунитета для них ст. 446 ГПК не даёт. Единственное ограничение - контрольные пакеты стратегических компаний оборонки, энергетики, магистральных сетей по ФЗ-57."
+    },
+    {
+      "question": "Чем грозит продажа арестованных акций через третье лицо?",
+      "answer": "Уголовной ответственностью по ст. 315 УК за неисполнение судебного акта. Сделка признаётся недействительной по иску взыскателя, актив возвращается в опись. Родственник или знакомый, оформивший фиктивную покупку, тоже становится фигурантом уголовного дела."
+    },
+    {
+      "question": "Сколько занимает реализация котируемых акций на бирже?",
+      "answer": "Обычно 1-2 недели с момента передачи на торги. Голубые фишки и ОФЗ уходят за один торговый день. Для эмитентов второго-третьего эшелона возможны задержки до месяца из-за поиска покупателя по разумной цене."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все юр-утверждения проверены против research.json. Соответствие полное.",
+    "Все источники актуальны: last_verified 2026-07-06, legislation_status: 'active'.",
+    "Контекст применения норм корректен (ст. 76-82 описание, ст. 64-66 блокировка дивидендов, ст. 78 запрос информации, ст. 99 АПК / 139-141 ГПК обеспечительные меры, ст. 86-91 реализация, ст. 112 исполнительский сбор).",
+    "Использованы safe_phrasing из research.json, не нарушены forbidden_claims."
+  ],
+  "keyword_density_main": 0.018,
+  "main_keyword_exact_count": 2,
+  "text_chars": 7418,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.114,
+  "local_spam_ngram3_repeat": 0.037,
+  "local_lexical_diversity": 0.641,
+  "local_ai_markers_density": 0.32,
+  "local_ai_markers_critical": 0,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1783358031/articles/arest-akcij-i-cennyh-bumag-pri-vzykanii-dolga-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1783358031/articles/arest-akcij-i-cennyh-bumag-pri-vzykanii-dolga-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Wide symmetric photograph of an official corridor or grand financial hall — colonnaded marble-floored passage with brass sconces, paneled walls. Center of frame: brass scales of justice perfectly balanced on a marble pedestal, with a closed dark leather portfolio positioned on a small wooden table beside it, a polished round company seal resting on the portfolio edge. Camera: dead-center symmetric, eye-level, slight wide-angle pulling architectural lines into perspective. Lighting: cool natural daylight from above casting even illumination across the marble. Materials: marble, burnished brass, dark leather. Palette: cool whites and grays with gold trim accents. Mood: decisive financial enforcement, institutional gravity, judgment rendered.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-07-06T17:13:52Z",
+  "length_status": "too_long",
+  "length_kind": "default",
+  "local_ai_markers_total": 3,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 3,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 52,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность чуть выше 50% (~52%)",
+    "длина значительно больше лимита 6500 (7 418 знаков)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "spam_risk: 2 флагов (top1_count>12 (=13, лемма «счет»), top3_sum>30 (=32)), top-5: ['счет', 'портфел', 'акци', 'взыскател', 'брокер']",
+    "targeted_tokens_over_limit: ст_сокращение=23(>≤5), ГПК_кодекс=4(>≤3)"
+  ],
+  "date_published": "2026-07-06",
+  "date_modified": "2026-07-06",
+  "ready_for_review": true,
+  "ready_at": "2026-07-06T17:13:53Z",
+  "publication_target": "telegram_review"
+}

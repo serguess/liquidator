@@ -3866,6 +3866,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "arest-akcij-i-cennyh-bumag-pri-vzykanii-dolga",
+      "category": "vzysk",
+      "title": "Арест акций и ценных бумаг при взыскании долга",
+      "added_at": "2026-07-06T20:13:53.645479",
+      "char_count": 7418,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1783358031/articles/arest-akcij-i-cennyh-bumag-pri-vzykanii-dolga-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
