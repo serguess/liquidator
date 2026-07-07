@@ -3918,6 +3918,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "obespechenie-obyazatelstv-pri-bankrotstve-kontragenta",
+      "category": "yur",
+      "title": "Залог и поручительство при банкротстве контрагента",
+      "added_at": "2026-07-07T20:03:34.782652",
+      "char_count": 8630,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1783443811/articles/obespechenie-obyazatelstv-pri-bankrotstve-kontragenta-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

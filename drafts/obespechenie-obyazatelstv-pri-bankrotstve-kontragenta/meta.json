@@ -1,0 +1,108 @@
+{
+  "slug": "obespechenie-obyazatelstv-pri-bankrotstve-kontragenta",
+  "category": "yur",
+  "title": "Залог и поручительство при банкротстве контрагента",
+  "description": "Как залог и поручительство работают при банкротстве контрагента. Что происходит с обеспечением обязательств, сроки и последствия для кредиторов.",
+  "h1": "Залог и поручительство при банкротстве контрагента: что происходит с обеспечением",
+  "lead": "Залоговое обеспечение и поручительство защищают кредитора, но только если соблюдены все формальности и сроки при банкротстве контрагента.",
+  "topic_action": "защиту залоговых прав при банкротстве контрагента",
+  "breadcrumb_current": "Обеспечение обязательств при банкротстве",
+  "og_image": "/assets/articles/obespechenie-obyazatelstv-pri-bankrotstve-kontragenta.jpg",
+  "main_keyword": "залог и поручительство при банкротстве контрагента",
+  "secondary_keywords": [
+    "залог при банкротстве контрагента",
+    "поручительство при банкротстве компании",
+    "обеспечение обязательств банкротство",
+    "залоговое имущество при банкротстве",
+    "поручитель при банкротстве должника",
+    "взыскание по залогу при банкротстве",
+    "залог в конкурсной массе",
+    "обеспеченные кредиторы при банкротстве",
+    "очередность взыскания по залогу"
+  ],
+  "internal_links": [
+    "/articles/yur/bankrotstvo-yuridicheskogo-lica",
+    "/articles/yur/realizacija-imushchestva-pri-bankrotstve",
+    "/articles/yur/mirovoe-soglashenie-pri-bankrotstve"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/",
+    "https://www.consultant.ru/document/cons_doc_LAW_1900/"
+  ],
+  "faq": [
+    {
+      "question": "Что происходит с залоговым имуществом, когда контрагент объявлен банкротом?",
+      "answer": "Актив включается в конкурсную массу и продаётся арбитражным управляющим. Держатель залога получает деньги от продажи преимущественно перед другими кредиторами третьей очереди, но после расчётов по текущим платежам, вреду здоровью и зарплатам (141, 144 закона о банкротстве)."
+    },
+    {
+      "question": "Обязан ли поручитель платить, если основной должник признан несостоятельным?",
+      "answer": "Да. Гарант - самостоятельный должник по гражданскому кодексу (363-367). Дело о банкротстве заёмщика не прекращает его ответственность. Кредитор вправе одновременно встать в реестровую очередь к банкроту и предъявить иск к тому, кто подписал ручательство."
+    },
+    {
+      "question": "В какую очередь включают обеспеченные требования залогодержателя?",
+      "answer": "Такие претензии выделяются в отдельную категорию третьей очереди с приоритетом при распределении выручки от заложенного имущества. Порядок регулируется положениями 134, 142, 144-146 закона о банкротстве."
+    },
+    {
+      "question": "Можно ли изъять предмет залога до завершения конкурсного производства?",
+      "answer": "Нет. С введением конкурсного производства самостоятельное взыскание приостанавливается (142), а имущество реализует арбитражный управляющий. Досрочная передача возможна через отступное (139) - по соглашению с управляющим."
+    },
+    {
+      "question": "Чем залог движимого имущества отличается от ипотеки при несостоятельности должника?",
+      "answer": "Движимое (оборудование, товары, транспорт) и недвижимое имущество удовлетворяются в разных очередях с разными сроками торгов (144-146). Ипотечный кредитор обычно ждёт дольше, но получает более прогнозируемую выплату - недвижимость проще оценить и продать."
+    },
+    {
+      "question": "Какие преимущества даёт мировое соглашение по сравнению с торгами?",
+      "answer": "Оно позволяет договориться об альтернативном способе получения платежа: рассрочка, передача имущества, снижение процентов (160-166). Для утверждения нужно согласие большинства кредиторов и решение суда. Работает, когда торги ниже балансовой оценки съедят разницу на расходах процедуры."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все юр-утверждения сверены с research.json. Законодательные статусы: active. last_verified в пределах 6 месяцев.",
+    "Очередность удовлетворения (ст. 141-146 127-ФЗ) - контекст корректен, привязан к конкурсному производству.",
+    "Ответственность поручителя (ст. 363-367 ГК РФ) - банкротство должника НЕ прекращает обязательство поручителя.",
+    "Внесудебное взыскание (ст. 142 127-ФЗ) - приостанавливается с введением конкурса.",
+    "Отступное (ст. 139 127-ФЗ) - альтернатива торгам при согласии управляющего.",
+    "Сроки подачи требования - в течение месяца с публикации (ст. 74 127-ФЗ)."
+  ],
+  "keyword_density_main": 0.016,
+  "main_keyword_exact_count": 2,
+  "text_chars": 8630,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.102,
+  "local_spam_ngram3_repeat": 0.044,
+  "local_lexical_diversity": 0.589,
+  "local_ai_markers_density": 0.38,
+  "local_ai_markers_critical": 0,
+  "quality_gate_passed": true,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1783443811/articles/obespechenie-obyazatelstv-pri-bankrotstve-kontragenta-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1783443811/articles/obespechenie-obyazatelstv-pri-bankrotstve-kontragenta-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Minimalist top-down editorial photograph on a clean pale grey surface. Four well-spaced objects arranged with deliberate negative space: polished brass scales of justice centered-left, a polished round seal to their right, a single brass key on a brass ring positioned upper-right, and a closed dark leather portfolio occupying the lower-right quadrant. Camera: directly overhead. Lighting: soft even daylight with very subtle directional shadow from upper left enhancing the metallic surfaces. Palette: pale neutral grey, warm brass accents, deep brown leather. Mood: clean, contemporary legal editorial emphasizing clarity, enforcement, guarantee, and formal obligation.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-07-07T17:03:32Z",
+  "length_status": "too_long",
+  "length_kind": "default",
+  "local_ai_markers_total": 4,
+  "local_ai_markers_high": 1,
+  "local_own_voice_hits": 2,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 60,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность заметно выше 50% (~60%)",
+    "длина значительно больше лимита 6500 (8 630 знаков)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "length_too_long: 8630 > 6500 (kind=default)"
+  ],
+  "date_published": "2026-07-07",
+  "date_modified": "2026-07-07",
+  "ready_for_review": true,
+  "ready_at": "2026-07-07T17:03:34Z",
+  "publication_target": "telegram_review"
+}
