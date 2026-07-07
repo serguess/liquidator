@@ -24107,5 +24107,66 @@
     "stderr_tail": "",
     "tokens_by_model": {},
     "metrics": null
+  },
+  {
+    "timestamp": "2026-07-07T19:36:08",
+    "category": "yur",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 16,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "resume",
+    "resume_slug": "obespechenie-obyazatelstv-pri-bankrotstve-kontragenta",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "spam_soft_passed: ratio-флаги мягкие при iter=2, targeted_tokens чистые → пропускаем (spam ≈48-52% по прогнозу)",
+        "forced_pass_at_iter2: блокеры пропущены, статья идёт в TG-очередь с metrics_warning=true. Было: 1 блокеров — length_too_long"
+      ],
+      "recommendations": [
+        "reduce_length: сократить до 5000-6000 знаков"
+      ],
+      "stderr_tail": ""
+    },
+    "finalize_safety_net": {
+      "ran": true,
+      "rc": 0
+    },
+    "status": "ok",
+    "slug": "obespechenie-obyazatelstv-pri-bankrotstve-kontragenta",
+    "duration_sec": 1646.5,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "6-seo-editor        haiku            20       8    65916     25520     65944\n7-publisher         haiku            36      12    54218     90280     54266\n------------------------------------------------------------------------------------------\nИТОГО                                56      20   120134    115800    120210\nBillable-токенов на статью: ~120K (cache_read 115K не считается в лимит подписки).\nАртефакты: drafts/obespechenie-obyazatelstv-pri-bankrotstve-kontragenta/  | quality_gate exit=0",
+    "stderr_tail": "",
+    "tokens_by_model": {},
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 8630
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]
