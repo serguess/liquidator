@@ -1,0 +1,101 @@
+{
+  "slug": "besplatnaya-yurpomoshch-bankrotstvo-pensionerov-invalidov",
+  "category": "news",
+  "title": "ЛДПР: бесплатная юрпомощь при банкротстве для льготников",
+  "description": "Законодательная инициатива ЛДПР о бесплатной юридической помощи пенсионерам и инвалидам при процедуре банкротства: суть предложения и сроки рассмотрения.",
+  "h1": "ЛДПР предложила бесплатную юридическую помощь пенсионерам и инвалидам при банкротстве",
+  "lead": "Разбираем инициативу ЛДПР о бесплатной юрпомощи при несостоятельности: что уже работает для пенсионеров и инвалидов, а что пока только предложено.",
+  "topic_action": "проверку возможности списания долгов",
+  "breadcrumb_current": "Бесплатная юрпомощь при банкротстве",
+  "og_image": "/assets/articles/besplatnaya-yurpomoshch-bankrotstvo-pensionerov-invalidov.jpg",
+  "main_keyword": "бесплатная юрпомощь банкротство",
+  "secondary_keywords": [
+    "юридическая помощь пенсионерам при банкротстве",
+    "бесплатная помощь инвалидам банкротство",
+    "инициатива ЛДПР банкротство",
+    "льготы при банкротстве пенсионеров",
+    "государственная юридическая помощь должникам"
+  ],
+  "intent": "informational",
+  "funnel_stage": "cold",
+  "article_type": "B",
+  "offer": "proverka-spisaniya",
+  "event_date": "2026-06-16",
+  "news_zone": "initiative",
+  "internal_links": [
+    "/articles/fiz/alimenty-pri-bankrotstve-fizlica"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/"
+  ],
+  "faq": [
+    {
+      "question": "Что именно предлагает законопроект ЛДПР - разовую консультацию или сопровождение в суде?",
+      "answer": "Объём помощи в открытых публикациях не раскрыт. Из сообщения от 16 июня 2026 года ясно только направление: расширить действующую систему на дела о несостоятельности. Детали появятся, когда документ пройдёт первое чтение."
+    },
+    {
+      "question": "Нужно ли пенсионеру платить госпошлину при подаче заявления о банкротстве?",
+      "answer": "Нет. С 8 сентября 2024 года должник-гражданин освобождён от госпошлины (льгота по 333.37-й норме Налогового кодекса). Прежняя сумма 300 рублей утратила силу."
+    },
+    {
+      "question": "Каков официальный статус инициативы ЛДПР на сегодня?",
+      "answer": "На дату материала документ находится на рассмотрении, законом не является. Актуальный статус проверяют через систему обеспечения законодательной деятельности Госдумы."
+    },
+    {
+      "question": "Можно ли списать долги через МФЦ, если пенсия - единственный источник дохода?",
+      "answer": "Да, если исполнительное производство закрыто из-за отсутствия имущества более года и общий долг укладывается в диапазон от 25 тысяч до миллиона. Пенсия сама по себе доступу к МФЦ-пути не мешает."
+    },
+    {
+      "question": "Какие долги не спишутся даже после успешного завершения дела?",
+      "answer": "Алименты, вред жизни и здоровью, моральный вред, текущие платежи, невыплаченная зарплата и обязательства, связанные с личностью кредитора. Основание - п. 5 ст. 213.28 закона о несостоятельности."
+    },
+    {
+      "question": "Сколько стоит депозит финансового управляющего и кто его вносит?",
+      "answer": "Депозит - 25 000 рублей, вносит заявитель. По ходатайству арбитраж вправе отсрочить внесение до первого заседания. При внесудебном пути через МФЦ вознаграждение управляющего не платится."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "f1 (инициатива ЛДПР, needs_verification): safe_phrasing применена, тезис 'на рассмотрении, не закон' выдержан во всём тексте; forbidden_claims об автоматическом принятии и 100% покрытии расходов в тексте отсутствуют",
+    "f6 (инвалиды, needs_verification): использована обтекаемая формулировка без конкретизации региональных различий, соответствует safe_phrasing из research.json",
+    "Внутренняя ссылка alimenty-pri-bankrotstve-fizlica переведена из /blog/*.html в канонический формат /articles/fiz/ - требует проверки наличия в published_index.json перед публикацией",
+    "Два внешних перехода на consultant.ru/document/cons_doc_LAW_39331/ (ст. 20.6 и п. 5 ст. 213.28) - единственный верифицированный ConsultantPlus URL из research.key_sources"
+  ],
+  "keyword_density_main": null,
+  "main_keyword_exact_count": null,
+  "text_chars": 6883,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.1,
+  "local_spam_ngram3_repeat": 0.06,
+  "local_lexical_diversity": 0.644,
+  "local_ai_markers_density": 0.23,
+  "local_ai_markers_critical": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1783392366/articles/besplatnaya-yurpomoshch-bankrotstvo-pensionerov-invalidov-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1783392366/articles/besplatnaya-yurpomoshch-bankrotstvo-pensionerov-invalidov-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Low-angle cinematic photograph through a passage between two stone administrative buildings, featuring a covered colonnade with wet pavement reflecting the architecture above. Camera positioned along the passageway with vanishing point centered, light diffusing through fog at the far end. At the base of frame: a folded umbrella and a small closed leather briefcase. Lighting: warm amber glow from a distant lamppost softening the cool stone. Palette: cool grey-blue architectural tones with warm golden accent lighting. Mood: threshold toward assistance and resolution, the quiet moment of transition where help becomes accessible.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-07-07T02:46:07Z",
+  "length_status": "too_long",
+  "length_kind": "news",
+  "local_ai_markers_total": 2,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 2,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 51,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность чуть выше 50% (~51%)",
+    "длина значительно больше лимита 5500 (6 883 знаков)"
+  ],
+  "date_published": "2026-07-07",
+  "date_modified": "2026-07-07",
+  "ready_for_review": true,
+  "ready_at": "2026-07-07T02:46:12Z",
+  "publication_target": "telegram_review"
+}

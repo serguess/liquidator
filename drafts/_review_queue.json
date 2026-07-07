@@ -3892,6 +3892,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "besplatnaya-yurpomoshch-bankrotstvo-pensionerov-invalidov",
+      "category": "news",
+      "title": "ЛДПР: бесплатная юрпомощь при банкротстве для льготников",
+      "added_at": "2026-07-07T05:46:12.765807",
+      "char_count": 6883,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1783392366/articles/besplatnaya-yurpomoshch-bankrotstvo-pensionerov-invalidov-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
