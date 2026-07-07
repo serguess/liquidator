@@ -7526,15 +7526,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 1823,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-05T05:48:41",
-      "last_action_at": "2026-07-05T05:48:41",
+      "last_action_at": "2026-07-06T10:00:40",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-07-05T05:48:41"
+      "pending_batch": false,
+      "pending_batch_at": "2026-07-05T05:48:41",
+      "batch_sent_at": "2026-07-06T10:00:40",
+      "batch_fail_count": 0
     },
     "bankrotstvo-ip-s-ipotekoj": {
       "category": "fiz",
@@ -7566,15 +7568,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 1825,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-05T08:53:42",
-      "last_action_at": "2026-07-05T08:53:42",
+      "last_action_at": "2026-07-06T10:00:43",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-07-05T08:53:42"
+      "pending_batch": false,
+      "pending_batch_at": "2026-07-05T08:53:42",
+      "batch_sent_at": "2026-07-06T10:00:43",
+      "batch_fail_count": 0
     },
     "dolg-za-vred-zdorovyu-pri-bankrotstve": {
       "category": "fiz",
@@ -7584,19 +7588,179 @@
       "versions": [
         "2.0"
       ],
+      "tg_message_id": 1827,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-07-05T15:32:46",
+      "last_action_at": "2026-07-06T10:00:45",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-07-05T15:32:46",
+      "batch_sent_at": "2026-07-06T10:00:45",
+      "batch_fail_count": 0
+    },
+    "strakhovanie-arbitrazhnogo-upravlyayushchego": {
+      "category": "yur",
+      "title": "Страхование арбитражного управляющего: требования и защита",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 1829,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-07-06T00:47:51",
+      "last_action_at": "2026-07-06T10:00:47",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-07-06T00:47:51",
+      "batch_sent_at": "2026-07-06T10:00:47",
+      "batch_fail_count": 0
+    },
+    "vzyskanie-strahovogo-vozmeshcheniya-kasko-cherez-sud": {
+      "category": "vzysk",
+      "title": "Взыскание выплаты КАСКО через суд: порядок и сроки",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 1831,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-07-06T05:54:41",
+      "last_action_at": "2026-07-06T10:00:49",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-07-06T05:54:41",
+      "batch_sent_at": "2026-07-06T10:00:49",
+      "batch_fail_count": 0
+    },
+    "zachot-vstrechnyh-trebovanij-bankrotstvo-fizlica": {
+      "category": "fiz",
+      "title": "Зачёт требований при банкротстве физлица",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 1833,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-07-06T10:23:43",
+      "last_action_at": "2026-07-07T10:00:22",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-07-06T10:23:43",
+      "batch_sent_at": "2026-07-07T10:00:22",
+      "batch_fail_count": 0
+    },
+    "ugolovnyj-shtraf-v-reestre-kreditorov-bankrotstvo": {
+      "category": "yur",
+      "title": "Штраф в реестре кредиторов при банкротстве",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 1835,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-07-06T15:15:46",
+      "last_action_at": "2026-07-07T10:00:24",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-07-06T15:15:46",
+      "batch_sent_at": "2026-07-07T10:00:24",
+      "batch_fail_count": 0
+    },
+    "arest-akcij-i-cennyh-bumag-pri-vzykanii-dolga": {
+      "category": "vzysk",
+      "title": "Арест акций и ценных бумаг при взыскании долга",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 1837,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-07-06T20:14:49",
+      "last_action_at": "2026-07-07T10:00:27",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-07-06T20:14:49",
+      "batch_sent_at": "2026-07-07T10:00:27",
+      "batch_fail_count": 0
+    },
+    "sf-zakonoproekt-sanaciya-kompanii-vmesto-likvidacii": {
+      "category": "news",
+      "title": "Санация компании вместо банкротства: инициатива СФ",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 1839,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-07-07T00:48:51",
+      "last_action_at": "2026-07-07T10:00:29",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-07-07T00:48:51",
+      "batch_sent_at": "2026-07-07T10:00:29",
+      "batch_fail_count": 0
+    },
+    "besplatnaya-yurpomoshch-bankrotstvo-pensionerov-invalidov": {
+      "category": "news",
+      "title": "ЛДПР: бесплатная юрпомощь при банкротстве для льготников",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 1841,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-07-07T05:46:23",
+      "last_action_at": "2026-07-07T10:00:31",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-07-07T05:46:23",
+      "batch_sent_at": "2026-07-07T10:00:31",
+      "batch_fail_count": 0
+    },
+    "dokumenty-dlya-bankrotstva-fizlica-perechen": {
+      "category": "fiz",
+      "title": "Документы для банкротства физлица: полный перечень",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
       "tg_message_id": null,
       "tg_chat_id": null,
-      "first_seen_at": "2026-07-05T15:32:46",
-      "last_action_at": "2026-07-05T15:32:46",
+      "first_seen_at": "2026-07-07T10:34:25",
+      "last_action_at": "2026-07-07T10:34:25",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
       "pending_batch": true,
-      "pending_batch_at": "2026-07-05T15:32:46"
+      "pending_batch_at": "2026-07-07T10:34:25"
     }
   },
   "pending_actions": [],
-  "last_batch_date": "2026-07-05",
+  "last_batch_date": "2026-07-07",
   "last_batch_count": 5,
-  "last_batch_at": "2026-07-05T10:00:49"
+  "last_batch_at": "2026-07-07T10:00:31"
 }

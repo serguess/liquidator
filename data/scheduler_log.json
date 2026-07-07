@@ -24010,5 +24010,102 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-07-07T10:00:28",
+    "category": "fiz",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 14,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "fiz-143",
+    "topic_slug": "dokumenty-dlya-bankrotstva-fizlica-perechen",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "length_soft_passed: 7135 > 6500 но ≤ 8500 и iteration=2 — пропускаем (приоритет spam/uniqueness/ai)",
+        "forced_pass_at_iter2: блокеры пропущены, статья идёт в TG-очередь с metrics_warning=true. Было: 1 блокеров — targeted_tokens_over_limit"
+      ],
+      "recommendations": [
+        "reduce_ст: «ст. X» × 6 → cap 5. Писать «статья X» полным словом, либо описательно («по правилу о процентах», «норма об исковой давности»). Cap 3 юр-цитаты на статью, остальное — пересказом."
+      ],
+      "stderr_tail": ""
+    },
+    "finalize_safety_net": {
+      "ran": true,
+      "rc": 0
+    },
+    "status": "ok",
+    "slug": "dokumenty-dlya-bankrotstva-fizlica-perechen",
+    "duration_sec": 2003.8,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "    57470\n6-seo-editor        sonnet            6      14        0     95024        20\n7-publisher         haiku            20       8    39292     25520     39320\n------------------------------------------------------------------------------------------\nИТОГО                              2812     116   562820    591974    565748\nBillable-токенов на статью: ~565K (cache_read 591K не считается в лимит подписки).\nАртефакты: drafts/dokumenty-dlya-bankrotstva-fizlica-perechen/  | quality_gate exit=0",
+    "stderr_tail": "",
+    "tokens_by_model": {},
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7135
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
+  },
+  {
+    "timestamp": "2026-07-07T14:48:07",
+    "category": "yur",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 15,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "yur-131",
+    "topic_slug": "obespechenie-obyazatelstv-pri-bankrotstve-kontragenta",
+    "status": "failed",
+    "slug": "obespechenie-obyazatelstv-pri-bankrotstve-kontragenta",
+    "duration_sec": 2340.2,
+    "returncode": 1,
+    "rescued_after_failure": false,
+    "stdout_tail": "y': 0.028, 'cta_overlap': 0.055}\n   [watchdog] hard timeout >480s на sonnet — попытка 1/3\n   [watchdog] hard timeout >480s на sonnet — попытка 2/3\n   [watchdog] hard timeout >480s на sonnet — попытка 3/3\n   [warn] 6-seo-editor StepFailed на sonnet: claude: все 3 попыток исчерпаны. Последняя: hard timeout >480s на sonnet\n   [retry] 6-seo-editor: пробую fallback haiku\n   ok: 13890 симв., billable=65984 ток (model=haiku)\n[ERR] 6-seo-editor failed: seo вернул невалидный JSON. Сырьё в _FAILED_seo.txt",
+    "stderr_tail": "",
+    "tokens_by_model": {},
+    "metrics": null
   }
 ]
