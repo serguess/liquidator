@@ -3905,6 +3905,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "dokumenty-dlya-bankrotstva-fizlica-perechen",
+      "category": "fiz",
+      "title": "Документы для банкротства физлица: полный перечень",
+      "added_at": "2026-07-07T10:33:52.083122",
+      "char_count": 7135,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1783409628/articles/dokumenty-dlya-bankrotstva-fizlica-perechen-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

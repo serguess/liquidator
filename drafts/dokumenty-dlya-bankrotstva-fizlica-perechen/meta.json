@@ -1,0 +1,108 @@
+{
+  "slug": "dokumenty-dlya-bankrotstva-fizlica-perechen",
+  "category": "fiz",
+  "title": "Документы для банкротства физлица: полный перечень",
+  "description": "Полный список документов для подачи в суд при банкротстве физического лица. Что нужно подготовить и как оформить.",
+  "h1": "Какие документы нужны для банкротства физлица: полный перечень для суда",
+  "lead": "Разбираем каждую группу приложений, обязательных по ст. 213.4 127-ФЗ: что брать, в каком виде и за какой период, чтобы арбитраж принял обращение с первого захода.",
+  "topic_action": "проверку готовности документов для подачи на банкротство",
+  "breadcrumb_current": "Документы для банкротства физлица",
+  "og_image": "/assets/articles/dokumenty-dlya-bankrotstva-fizlica-perechen.jpg",
+  "main_keyword": "документы для банкротства физлица",
+  "secondary_keywords": [
+    "какие документы нужны для банкротства физлица",
+    "список документов для суда при банкротстве",
+    "документы для заявления о банкротстве",
+    "перечень документов для банкротства",
+    "документы о доходах и имуществе при банкротстве",
+    "справки для банкротства физического лица",
+    "как оформить документы для банкротства",
+    "требования к документам при банкротстве физлица",
+    "документы о долгах для суда"
+  ],
+  "internal_links": [
+    "/articles/fiz/alimenty-pri-bankrotstve-fizlica",
+    "/articles/fiz/avtomobil-pri-bankrotstve-fizlica",
+    "/articles/fiz/bankovskie-scheta-pri-bankrotstve",
+    "/articles/fiz/bankrotstvo-fizlica-dolya-v-ooo"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/",
+    "https://www.consultant.ru/document/cons_doc_LAW_5142/"
+  ],
+  "faq": [
+    {
+      "question": "Нужно ли нотариально заверять копии договоров?",
+      "answer": "Копии договоров идут без заверения. Нотариальное удостоверение требуется для официальных выписок из реестров, свидетельств ЗАГС, справок ведомств. Суд может запросить оригинал при сомнениях в подлинности."
+    },
+    {
+      "question": "За какой период запрашиваются отчёты по счетам и заработку?",
+      "answer": "Три года, отсчёт - до даты подачи обращения в арбитраж. Требование закреплено в ст. 213.4 п. 3 127-ФЗ. Меньший период часто становится основанием для оставления без движения."
+    },
+    {
+      "question": "Что делать, если банк не выдаёт архивный отчёт по закрытому счёту?",
+      "answer": "Направьте письменный запрос через отделение или личный кабинет. Отказ или молчание больше десяти дней - основание для жалобы в Центробанк. К обращению прилагаете копию запроса и подтверждение отправки - недостающее банк подаст по судебному определению."
+    },
+    {
+      "question": "Обязательна ли выписка из реестра предпринимателей, если ИП давно закрыт?",
+      "answer": "Да, обязательна - в архивном варианте с датой снятия с учёта. Закон не делает исключения для бывших предпринимателей."
+    },
+    {
+      "question": "Можно ли подать, если часть документов временно недоступна?",
+      "answer": "Технически - можно, но арбитраж почти наверняка оставит обращение без движения и назначит срок на восполнение. Разумнее собрать пакет полностью или ходатайствовать о получении сведений через суд одновременно с подачей."
+    },
+    {
+      "question": "Какие операции за три года суд обязывает раскрыть?",
+      "answer": "Всё, что дороже трёхсот тысяч рублей: недвижимость, ценные бумаги, транспорт, доли в компаниях, крупные займы. Цель - проверка на подозрительные сделки по ст. 61.2 127-ФЗ."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все факты сверены с research.json. Статусы: active. last_verified: 2026-07-07 для всех ключевых утверждений.",
+    "Перечень по ст. 213.4 п. 3 127-ФЗ воспроизведён корректно: паспорт, ИНН, СНИЛС, ЕГРИП не ранее 5 р.д. до подачи, реестр кредиторов, опись имущества, выписки из реестров, банковские отчёты за 3 года, доходы за 3 года, сделки свыше 300 тыс. руб. за 3 года, семейный статус, сведения об участии в юрлицах.",
+    "Порог для сделок 300 000 руб. и трёхлетний срок верифицированы (f9, f1, f8).",
+    "Выписка из ЕГРИП не ранее 5 рабочих дней до подачи - верифицирован (f7).",
+    "Оставление без движения по ст. 44 АПК при неполном пакете - верифицирован (f14).",
+    "Запрещённые утверждения из research.forbidden_claims в тексте отсутствуют."
+  ],
+  "keyword_density_main": 0.014,
+  "main_keyword_exact_count": 2,
+  "text_chars": 7135,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.113,
+  "local_spam_ngram3_repeat": 0.029,
+  "local_lexical_diversity": 0.641,
+  "local_ai_markers_density": 0.22,
+  "local_ai_markers_critical": 0,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1783409628/articles/dokumenty-dlya-bankrotstva-fizlica-perechen-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1783409628/articles/dokumenty-dlya-bankrotstva-fizlica-perechen-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Editorial photograph of a desk in a high-floor office overlooking the city. Foreground: closed thin laptop, smartphone face-down, a stack of document folders tied with cord, water glass, white coffee cup arranged on walnut surface. Background through floor-to-ceiling windows: blurred urban skyline at golden hour, distant lights soft and unfocused. Camera: shallow depth of field, three-quarter angle, eye-level. Lighting: cool window daylight blended with warm desk lamp tungsten. Materials: walnut, brushed steel, cream folders. Mood: individual methodically organizing personal legal documentation.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-07-07T07:33:49Z",
+  "length_status": "too_long",
+  "length_kind": "default",
+  "local_ai_markers_total": 2,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 3,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 49,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "длина значительно больше лимита 6500 (7 135 знаков)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "targeted_tokens_over_limit: ст_сокращение=6(>≤5), 127фз_закон=4(>≤2)"
+  ],
+  "date_published": "2026-07-07",
+  "date_modified": "2026-07-07",
+  "ready_for_review": true,
+  "ready_at": "2026-07-07T07:33:52Z",
+  "publication_target": "telegram_review"
+}
