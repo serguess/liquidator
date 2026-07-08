@@ -7653,7 +7653,7 @@
     "zachot-vstrechnyh-trebovanij-bankrotstvo-fizlica": {
       "category": "fiz",
       "title": "Зачёт требований при банкротстве физлица",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -7661,14 +7661,16 @@
       "tg_message_id": 1833,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-06T10:23:43",
-      "last_action_at": "2026-07-07T10:00:22",
+      "last_action_at": "2026-07-09T00:11:17",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/fiz/zachot-vstrechnyh-trebovanij-bankrotstvo-fizlica",
       "pending_batch": false,
       "pending_batch_at": "2026-07-06T10:23:43",
       "batch_sent_at": "2026-07-07T10:00:22",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-07-09T00:11:17",
+      "articles_path": "articles/fiz/zachot-vstrechnyh-trebovanij-bankrotstvo-fizlica.html"
     },
     "ugolovnyj-shtraf-v-reestre-kreditorov-bankrotstvo": {
       "category": "yur",
