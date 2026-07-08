@@ -7631,7 +7631,7 @@
     "vzyskanie-strahovogo-vozmeshcheniya-kasko-cherez-sud": {
       "category": "vzysk",
       "title": "Взыскание выплаты КАСКО через суд: порядок и сроки",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -7639,14 +7639,16 @@
       "tg_message_id": 1831,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-06T05:54:41",
-      "last_action_at": "2026-07-06T10:00:49",
+      "last_action_at": "2026-07-09T00:10:51",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/vzysk/vzyskanie-strahovogo-vozmeshcheniya-kasko-cherez-sud",
       "pending_batch": false,
       "pending_batch_at": "2026-07-06T05:54:41",
       "batch_sent_at": "2026-07-06T10:00:49",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-07-09T00:10:51",
+      "articles_path": "articles/vzysk/vzyskanie-strahovogo-vozmeshcheniya-kasko-cherez-sud.html"
     },
     "zachot-vstrechnyh-trebovanij-bankrotstvo-fizlica": {
       "category": "fiz",
