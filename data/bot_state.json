@@ -7763,7 +7763,7 @@
     "dokumenty-dlya-bankrotstva-fizlica-perechen": {
       "category": "fiz",
       "title": "Документы для банкротства физлица: полный перечень",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -7771,14 +7771,16 @@
       "tg_message_id": 1843,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-07T10:34:25",
-      "last_action_at": "2026-07-08T10:00:12",
+      "last_action_at": "2026-07-09T00:15:43",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/fiz/dokumenty-dlya-bankrotstva-fizlica-perechen",
       "pending_batch": false,
       "pending_batch_at": "2026-07-07T10:34:25",
       "batch_sent_at": "2026-07-08T10:00:12",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-07-09T00:15:43",
+      "articles_path": "articles/fiz/dokumenty-dlya-bankrotstva-fizlica-perechen.html"
     },
     "obespechenie-obyazatelstv-pri-bankrotstve-kontragenta": {
       "category": "yur",
