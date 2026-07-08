@@ -3996,6 +3996,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "vzyskanie-po-bankovskoy-garantii",
+      "category": "vzysk",
+      "title": "Взыскание по банковской гарантии: как получить выплату",
+      "added_at": "2026-07-09T01:10:33.516248",
+      "char_count": 8035,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1783548628/articles/vzyskanie-po-bankovskoy-garantii-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
