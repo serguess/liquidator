@@ -7675,7 +7675,7 @@
     "ugolovnyj-shtraf-v-reestre-kreditorov-bankrotstvo": {
       "category": "yur",
       "title": "Штраф в реестре кредиторов при банкротстве",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -7683,14 +7683,16 @@
       "tg_message_id": 1835,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-06T15:15:46",
-      "last_action_at": "2026-07-07T10:00:24",
+      "last_action_at": "2026-07-09T00:12:40",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/yur/ugolovnyj-shtraf-v-reestre-kreditorov-bankrotstvo",
       "pending_batch": false,
       "pending_batch_at": "2026-07-06T15:15:46",
       "batch_sent_at": "2026-07-07T10:00:24",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-07-09T00:12:40",
+      "articles_path": "articles/yur/ugolovnyj-shtraf-v-reestre-kreditorov-bankrotstvo.html"
     },
     "arest-akcij-i-cennyh-bumag-pri-vzykanii-dolga": {
       "category": "vzysk",
