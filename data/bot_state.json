@@ -7521,7 +7521,7 @@
     "apellyaciya-otmenila-bankrotstvo-hotina-yugra": {
       "category": "news",
       "title": "Апелляция отменила банкротство владельца Югры",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -7529,14 +7529,16 @@
       "tg_message_id": 1823,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-05T05:48:41",
-      "last_action_at": "2026-07-06T10:00:40",
+      "last_action_at": "2026-07-09T00:08:22",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/news/apellyaciya-otmenila-bankrotstvo-hotina-yugra",
       "pending_batch": false,
       "pending_batch_at": "2026-07-05T05:48:41",
       "batch_sent_at": "2026-07-06T10:00:40",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-07-09T00:08:22",
+      "articles_path": "articles/news/apellyaciya-otmenila-bankrotstvo-hotina-yugra.html"
     },
     "bankrotstvo-ip-s-ipotekoj": {
       "category": "fiz",
@@ -7748,15 +7750,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 1843,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-07T10:34:25",
-      "last_action_at": "2026-07-07T10:34:25",
+      "last_action_at": "2026-07-08T10:00:12",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-07-07T10:34:25"
+      "pending_batch": false,
+      "pending_batch_at": "2026-07-07T10:34:25",
+      "batch_sent_at": "2026-07-08T10:00:12",
+      "batch_fail_count": 0
     },
     "obespechenie-obyazatelstv-pri-bankrotstve-kontragenta": {
       "category": "yur",
@@ -7766,15 +7770,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 1845,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-07T20:04:31",
-      "last_action_at": "2026-07-07T20:04:31",
+      "last_action_at": "2026-07-08T10:00:14",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-07-07T20:04:31"
+      "pending_batch": false,
+      "pending_batch_at": "2026-07-07T20:04:31",
+      "batch_sent_at": "2026-07-08T10:00:14",
+      "batch_fail_count": 0
     },
     "vzyskanie-dolga-s-dolzhnika-za-rubezhom": {
       "category": "vzysk",
@@ -7784,15 +7790,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 1847,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-08T00:43:34",
-      "last_action_at": "2026-07-08T00:43:34",
+      "last_action_at": "2026-07-08T10:00:16",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-07-08T00:43:34"
+      "pending_batch": false,
+      "pending_batch_at": "2026-07-08T00:43:34",
+      "batch_sent_at": "2026-07-08T10:00:16",
+      "batch_fail_count": 0
     },
     "reforma-127-fz-dobankorotnaya-sanaciya-gossud": {
       "category": "news",
@@ -7802,15 +7810,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 1849,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-08T08:45:13",
-      "last_action_at": "2026-07-08T08:45:13",
+      "last_action_at": "2026-07-08T10:00:18",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-07-08T08:45:13"
+      "pending_batch": false,
+      "pending_batch_at": "2026-07-08T08:45:13",
+      "batch_sent_at": "2026-07-08T10:00:18",
+      "batch_fail_count": 0
     },
     "zakon-zashchita-zaemshchikov-telefonnoe-moshennichestvo": {
       "category": "news",
@@ -7820,19 +7830,57 @@
       "versions": [
         "2.0"
       ],
+      "tg_message_id": 1851,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-07-08T09:02:14",
+      "last_action_at": "2026-07-08T10:00:20",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-07-08T09:02:14",
+      "batch_sent_at": "2026-07-08T10:00:20",
+      "batch_fail_count": 0
+    },
+    "bankrotstvo-pri-lizinge-fizlica": {
+      "category": "fiz",
+      "title": "Банкротство при лизинге: что будет с автомобилем",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
       "tg_message_id": null,
       "tg_chat_id": null,
-      "first_seen_at": "2026-07-08T09:02:14",
-      "last_action_at": "2026-07-08T09:02:14",
+      "first_seen_at": "2026-07-08T15:27:18",
+      "last_action_at": "2026-07-08T15:27:18",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
       "pending_batch": true,
-      "pending_batch_at": "2026-07-08T09:02:14"
+      "pending_batch_at": "2026-07-08T15:27:18"
+    },
+    "dolya-ooo-pri-bankrotstve-uchreditelya": {
+      "category": "yur",
+      "title": "Как сохранить долю в ООО если учредитель банкротится",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-07-08T20:20:20",
+      "last_action_at": "2026-07-08T20:20:20",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-07-08T20:20:20"
     }
   },
   "pending_actions": [],
-  "last_batch_date": "2026-07-07",
+  "last_batch_date": "2026-07-08",
   "last_batch_count": 5,
-  "last_batch_at": "2026-07-07T10:00:31"
+  "last_batch_at": "2026-07-08T10:00:20"
 }

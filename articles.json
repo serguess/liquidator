@@ -1,6 +1,19 @@
 {
-  "generated": "2026-07-05",
+  "generated": "2026-07-09",
   "articles": [
+    {
+      "slug": "apellyaciya-otmenila-bankrotstvo-hotina-yugra",
+      "cat": "news",
+      "catLabel": "Новости",
+      "title": "Апелляция отменила банкротство владельца Югры",
+      "desc": "Судья отменил признание банкротом Сергея Хотина, владельца закрывшегося банка. Какая практика развивается в судах по делам о банкротстве руководителей.",
+      "date": "9 июля 2026",
+      "dateIso": "2026-07-09",
+      "read": "5 мин.",
+      "tone": "b",
+      "img": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1783219701/articles/apellyaciya-otmenila-bankrotstvo-hotina-yugra-cover.jpg",
+      "url": "articles/news/apellyaciya-otmenila-bankrotstvo-hotina-yugra"
+    },
     {
       "slug": "zakon-174-fz-bankrotstvo-bankov-zavershenie-mer",
       "cat": "news",
