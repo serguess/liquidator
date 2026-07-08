@@ -7565,7 +7565,7 @@
     "tekushchie-platezhi-pri-bankrotstve-fizlica": {
       "category": "fiz",
       "title": "Текущие платежи при банкротстве физлица: что это",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -7573,14 +7573,16 @@
       "tg_message_id": 1825,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-05T08:53:42",
-      "last_action_at": "2026-07-06T10:00:43",
+      "last_action_at": "2026-07-09T00:08:45",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/fiz/tekushchie-platezhi-pri-bankrotstve-fizlica",
       "pending_batch": false,
       "pending_batch_at": "2026-07-05T08:53:42",
       "batch_sent_at": "2026-07-06T10:00:43",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-07-09T00:08:45",
+      "articles_path": "articles/fiz/tekushchie-platezhi-pri-bankrotstve-fizlica.html"
     },
     "dolg-za-vred-zdorovyu-pri-bankrotstve": {
       "category": "fiz",
