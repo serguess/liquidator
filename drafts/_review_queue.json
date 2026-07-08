@@ -3957,6 +3957,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "zakon-zashchita-zaemshchikov-telefonnoe-moshennichestvo",
+      "category": "news",
+      "title": "Закон о защите заемщиков от телефонного мошенничества",
+      "added_at": "2026-07-08T09:01:56.453486",
+      "char_count": 5390,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1783490511/articles/zakon-zashchita-zaemshchikov-telefonnoe-moshennichestvo-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

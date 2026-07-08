@@ -24258,5 +24258,64 @@
     "stderr_tail": "[ERR] rate_limit: put_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard\",\"cache_creation\":{\"ephemeral_1h_input_tokens\":0,\"ephemeral_5m_input_tokens\":0},\"inference_geo\":\"\",\"iterations\":[],\"speed\":\"standard\"},\"modelUsage\":{},\"permission_denials\":[],\"terminal_reason\":\"completed\",\"fast_mode_state\":\"off\",\"uuid\":\"baf3651c-02eb-4e34-b8ac-5e9df0772077\"}\n\n",
     "tokens_by_model": {},
     "metrics": null
+  },
+  {
+    "timestamp": "2026-07-08T08:30:27",
+    "category": "news",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 1,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "news-79",
+    "topic_slug": "reforma-127-fz-dobankorotnaya-sanaciya-gossud",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "length_soft_passed: 5904 > 5500 но ≤ 7500 и iteration=2 — пропускаем (приоритет spam/uniqueness/ai)"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "finalize_safety_net": {
+      "ran": true,
+      "rc": 0
+    },
+    "status": "ok",
+    "slug": "reforma-127-fz-dobankorotnaya-sanaciya-gossud",
+    "duration_sec": 882.4,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": " 125724\n6-seo-editor        sonnet            6      16    58796     25156     58818\n7-publisher         haiku            20       8    39172     25520     39200\n------------------------------------------------------------------------------------------\nИТОГО                              4169      92   524375    569647    528636\nBillable-токенов на статью: ~528K (cache_read 569K не считается в лимит подписки).\nАртефакты: drafts/reforma-127-fz-dobankorotnaya-sanaciya-gossud/  | quality_gate exit=0",
+    "stderr_tail": "",
+    "tokens_by_model": {},
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 5904
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]
