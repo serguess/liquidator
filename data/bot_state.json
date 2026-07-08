@@ -7741,7 +7741,7 @@
     "besplatnaya-yurpomoshch-bankrotstvo-pensionerov-invalidov": {
       "category": "news",
       "title": "ЛДПР: бесплатная юрпомощь при банкротстве для льготников",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -7749,14 +7749,16 @@
       "tg_message_id": 1841,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-07T05:46:23",
-      "last_action_at": "2026-07-07T10:00:31",
+      "last_action_at": "2026-07-09T00:15:06",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/news/besplatnaya-yurpomoshch-bankrotstvo-pensionerov-invalidov",
       "pending_batch": false,
       "pending_batch_at": "2026-07-07T05:46:23",
       "batch_sent_at": "2026-07-07T10:00:31",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-07-09T00:15:06",
+      "articles_path": "articles/news/besplatnaya-yurpomoshch-bankrotstvo-pensionerov-invalidov.html"
     },
     "dokumenty-dlya-bankrotstva-fizlica-perechen": {
       "category": "fiz",
