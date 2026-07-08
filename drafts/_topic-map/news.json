@@ -1209,7 +1209,11 @@
       "topic_action": "проверить шансы на списание долга",
       "event_date": "2026-06-01",
       "news_zone": "vs_practice",
-      "primary_source": "https://pravo.ru/news/263969/"
+      "primary_source": "https://pravo.ru/news/263969/",
+      "status": "rejected",
+      "rejected_at": "2026-07-08T04:00:08",
+      "rejected_reason": "event_too_old:37d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-40",
@@ -2120,7 +2124,11 @@
       "topic_action": "cite-case",
       "event_date": "2026-06-01",
       "news_zone": "vs_practice",
-      "primary_source": "https://pravo.ru/news/263969/amp/"
+      "primary_source": "https://pravo.ru/news/263969/amp/",
+      "status": "rejected",
+      "rejected_at": "2026-07-08T04:00:08",
+      "rejected_reason": "event_too_old:37d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-68",
@@ -2184,7 +2192,11 @@
       "topic_action": "мировое соглашение в банкротстве",
       "event_date": "2026-06-01",
       "news_zone": "vs_practice",
-      "primary_source": "https://pravo.ru/news/263582/"
+      "primary_source": "https://pravo.ru/news/263582/",
+      "status": "rejected",
+      "rejected_at": "2026-07-08T04:00:08",
+      "rejected_reason": "event_too_old:37d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-70",
@@ -2214,7 +2226,11 @@
       "topic_action": "защиту имущества при аресте и банкротстве",
       "event_date": "2026-06-03",
       "news_zone": "vs_practice",
-      "primary_source": "https://pravo.ru/story/261074/"
+      "primary_source": "https://pravo.ru/story/261074/",
+      "status": "rejected",
+      "rejected_at": "2026-07-08T04:00:08",
+      "rejected_reason": "event_too_old:35d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-71",
@@ -2364,7 +2380,11 @@
       "topic_action": "защиту компании от банкротства при блокировке счёта",
       "event_date": "2026-06-02",
       "news_zone": "vs_practice",
-      "primary_source": "https://www.kommersant.ru/doc/8709075"
+      "primary_source": "https://www.kommersant.ru/doc/8709075",
+      "status": "rejected",
+      "rejected_at": "2026-07-08T04:00:08",
+      "rejected_reason": "event_too_old:36d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-76",
