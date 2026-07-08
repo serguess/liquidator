@@ -3970,6 +3970,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "bankrotstvo-pri-lizinge-fizlica",
+      "category": "fiz",
+      "title": "Банкротство при лизинге: что будет с автомобилем",
+      "added_at": "2026-07-08T15:26:37.036675",
+      "char_count": 8253,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1783513595/articles/bankrotstvo-pri-lizinge-fizlica-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
