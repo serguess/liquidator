@@ -7785,7 +7785,7 @@
     "obespechenie-obyazatelstv-pri-bankrotstve-kontragenta": {
       "category": "yur",
       "title": "Залог и поручительство при банкротстве контрагента",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -7793,14 +7793,16 @@
       "tg_message_id": 1845,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-07T20:04:31",
-      "last_action_at": "2026-07-08T10:00:14",
+      "last_action_at": "2026-07-09T00:16:52",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/yur/obespechenie-obyazatelstv-pri-bankrotstve-kontragenta",
       "pending_batch": false,
       "pending_batch_at": "2026-07-07T20:04:31",
       "batch_sent_at": "2026-07-08T10:00:14",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-07-09T00:16:52",
+      "articles_path": "articles/yur/obespechenie-obyazatelstv-pri-bankrotstve-kontragenta.html"
     },
     "vzyskanie-dolga-s-dolzhnika-za-rubezhom": {
       "category": "vzysk",
