@@ -7793,6 +7793,42 @@
       "published_url": null,
       "pending_batch": true,
       "pending_batch_at": "2026-07-08T00:43:34"
+    },
+    "reforma-127-fz-dobankorotnaya-sanaciya-gossud": {
+      "category": "news",
+      "title": "Реформа банкротства: добанкротная санация и новый АУ",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-07-08T08:45:13",
+      "last_action_at": "2026-07-08T08:45:13",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-07-08T08:45:13"
+    },
+    "zakon-zashchita-zaemshchikov-telefonnoe-moshennichestvo": {
+      "category": "news",
+      "title": "Закон о защите заемщиков от телефонного мошенничества",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-07-08T09:02:14",
+      "last_action_at": "2026-07-08T09:02:14",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-07-08T09:02:14"
     }
   },
   "pending_actions": [],
