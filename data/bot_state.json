@@ -7757,6 +7757,42 @@
       "published_url": null,
       "pending_batch": true,
       "pending_batch_at": "2026-07-07T10:34:25"
+    },
+    "obespechenie-obyazatelstv-pri-bankrotstve-kontragenta": {
+      "category": "yur",
+      "title": "Залог и поручительство при банкротстве контрагента",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-07-07T20:04:31",
+      "last_action_at": "2026-07-07T20:04:31",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-07-07T20:04:31"
+    },
+    "vzyskanie-dolga-s-dolzhnika-za-rubezhom": {
+      "category": "vzysk",
+      "title": "Взыскание долга с должника за рубежом",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-07-08T00:43:34",
+      "last_action_at": "2026-07-08T00:43:34",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-07-08T00:43:34"
     }
   },
   "pending_actions": [],
