@@ -2,6 +2,19 @@
   "generated": "2026-07-09",
   "articles": [
     {
+      "slug": "sf-zakonoproekt-sanaciya-kompanii-vmesto-likvidacii",
+      "cat": "news",
+      "catLabel": "Новости",
+      "title": "Санация компании вместо банкротства: инициатива СФ",
+      "desc": "Совет Федерации предложил новую процедуру санации юрлиц. Разбираемся, как она работает, чем отличается от банкротства и когда её можно применить.",
+      "date": "9 июля 2026",
+      "dateIso": "2026-07-09",
+      "read": "4 мин.",
+      "tone": "b",
+      "img": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1783374525/articles/sf-zakonoproekt-sanaciya-kompanii-vmesto-likvidacii-cover.jpg",
+      "url": "articles/news/sf-zakonoproekt-sanaciya-kompanii-vmesto-likvidacii"
+    },
+    {
       "slug": "arest-akcij-i-cennyh-bumag-pri-vzykanii-dolga",
       "cat": "vzysk",
       "catLabel": "Взыскание задолженности",
