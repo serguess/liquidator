@@ -3983,6 +3983,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "dolya-ooo-pri-bankrotstve-uchreditelya",
+      "category": "yur",
+      "title": "Как сохранить долю в ООО если учредитель банкротится",
+      "added_at": "2026-07-08T20:19:38.062529",
+      "char_count": 7770,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1783531175/articles/dolya-ooo-pri-bankrotstve-uchreditelya-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

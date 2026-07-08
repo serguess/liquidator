@@ -1,0 +1,107 @@
+{
+  "slug": "dolya-ooo-pri-bankrotstve-uchreditelya",
+  "category": "yur",
+  "title": "Как сохранить долю в ООО если учредитель банкротится",
+  "description": "Что происходит с долей в ООО при банкротстве учредителя, кто может забрать долю, как её защитить и что делать если вы учредитель или компаньон.",
+  "h1": "Доля в ООО при банкротстве учредителя: что происходит и как защитить интересы",
+  "lead": "Доля в ООО входит в конкурсную массу должника и может быть реализована на торгах. Соучредители имеют преимущественное право выкупа, но действовать нужно быстро.",
+  "topic_action": "защиту доли в ООО от кредиторов",
+  "breadcrumb_current": "Доля в ООО при банкротстве",
+  "og_image": "/assets/articles/dolya-ooo-pri-bankrotstve-uchreditelya.jpg",
+  "main_keyword": "доля в ООО при банкротстве учредителя",
+  "secondary_keywords": [
+    "что случается с долей в ООО при банкротстве учредителя",
+    "защита доли в ООО от кредиторов",
+    "может ли кредитор забрать долю в ООО",
+    "доля в обществе с ограниченной ответственностью при банкротстве",
+    "учредитель банкротится что делать соучредителю",
+    "как защитить долю в ООО",
+    "конкурсная масса должника доля в ООО"
+  ],
+  "internal_links": [
+    "/articles/yur/bankrotstvo-yuridicheskogo-lica",
+    "/articles/yur/kontrolliruyushchee-lico-subsidiar",
+    "/articles/yur/konkursnoe-proizvodstvo"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/",
+    "https://www.consultant.ru/document/cons_doc_LAW_5142/"
+  ],
+  "faq": [
+    {
+      "question": "Может ли кредитор учредителя стать участником ООО без согласия соучредителей?",
+      "answer": "Прямо - нет. Долю продают на открытых торгах, партнёрам дают преимущественное право выкупа. Если устав требует согласия собрания на переход посторонним, займодавцу без такого согласия войти не получится."
+    },
+    {
+      "question": "Что произойдёт с долей, если торги дважды не состоялись?",
+      "answer": "Куратор вправе предложить актив через публичное предложение с постепенным снижением цены (143). Списать или уничтожить нельзя: часть капитала остаётся в конкурсной массе до реализации или до особого решения суда."
+    },
+    {
+      "question": "Обязаны ли соучредители выкупать долю банкрота по преимущественному праву?",
+      "answer": "Нет. Это право, а не обязанность. Отказаться можно - тогда актив пойдёт на общий аукцион."
+    },
+    {
+      "question": "Какие долги учредителя могут быть переложены на ООО при его банкротстве?",
+      "answer": "По общему правилу - никакие. Фирма отвечает по своим обязательствам, физлицо - по своим. Исключение одно: если участник признан контролирующим лицом с доказанной виной (61.10, 61.11)."
+    },
+    {
+      "question": "Сколько времени занимает реализация доли в конкурсном производстве?",
+      "answer": "Обычно 6-12 месяцев с открытия конкурса. Сроки удлиняются из-за оспаривания цены, устава с ограничениями или необходимости второго аукциона."
+    },
+    {
+      "question": "Как уставные ограничения влияют на продажу доли конкурсным управляющим?",
+      "answer": "Специалист обязан их соблюдать. Требуется согласие собрания - его надо получить. Есть преимущественное право участников - предложить им первыми. Всё это удлиняет процесс, но не отменяет реализацию."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все факты сверены с research.json: используются safe_phrasing и утверждения из фактбазы",
+    "Все источники актуальны (last_verified 2026-07-08, legislation_status active)",
+    "Контекст применения норм корректен: ст. 134 о конкурсной массе, ст. 140-143 о реализации, ст. 93 ГК и ст. 21 ФЗ-14 о преимущественном праве",
+    "Запрещённые утверждения из forbidden_claims не использованы",
+    "Авторские вставки 'по нашему опыту' сохранены дословно",
+    "Упоминания статей закона даны текстом (не blockquote), в пределах 3 шт. в теле"
+  ],
+  "keyword_density_main": 0.019,
+  "main_keyword_exact_count": 2,
+  "text_chars": 7770,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.115,
+  "local_spam_ngram3_repeat": 0.041,
+  "local_lexical_diversity": 0.584,
+  "local_ai_markers_density": 0.21,
+  "local_ai_markers_critical": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1783531175/articles/dolya-ooo-pri-bankrotstve-uchreditelya-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1783531175/articles/dolya-ooo-pri-bankrotstve-uchreditelya-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Cinematic photograph of a private legal library or archive. Walls lined with closed dark leather-bound books with gilt embossing on spines, no readable titles. Foreground: a wooden reading desk with a brass green-glass library lamp, a polished round company seal, a closed oxblood leather portfolio holding shareholder documents, a fountain pen on a stand, an antique pocket watch on a chain, reading glasses resting on top of a stack of corporate dossiers tied with cord. Camera: low-angle looking up the shelves or three-quarter at desk level. Lighting: warm tungsten pools of light from the library lamp, deep shadows in book stacks, soft window haze. Palette: deep walnut, oxblood leather, polished brass. Mood: scholarly, protective, archival authority over company assets.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-07-08T17:19:36Z",
+  "length_status": "too_long",
+  "length_kind": "default",
+  "local_ai_markers_total": 2,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 3,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 60,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность заметно выше 50% (~60%)",
+    "длина значительно больше лимита 6500 (7 770 знаков)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "spam_risk: 2 флагов (top3_sum>30 (=34), top10_sum>80 (=85)), top-5: ['актив', 'партнер', 'аукцион', 'фирм', 'прав']",
+    "targeted_tokens_over_limit: 127фз_закон=6(>≤2)"
+  ],
+  "date_published": "2026-07-08",
+  "date_modified": "2026-07-08",
+  "ready_for_review": true,
+  "ready_at": "2026-07-08T17:19:38Z",
+  "publication_target": "telegram_review"
+}
