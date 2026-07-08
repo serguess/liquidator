@@ -7609,7 +7609,7 @@
     "strakhovanie-arbitrazhnogo-upravlyayushchego": {
       "category": "yur",
       "title": "Страхование арбитражного управляющего: требования и защита",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -7617,14 +7617,16 @@
       "tg_message_id": 1829,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-06T00:47:51",
-      "last_action_at": "2026-07-06T10:00:47",
+      "last_action_at": "2026-07-09T00:10:26",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/yur/strakhovanie-arbitrazhnogo-upravlyayushchego",
       "pending_batch": false,
       "pending_batch_at": "2026-07-06T00:47:51",
       "batch_sent_at": "2026-07-06T10:00:47",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-07-09T00:10:26",
+      "articles_path": "articles/yur/strakhovanie-arbitrazhnogo-upravlyayushchego.html"
     },
     "vzyskanie-strahovogo-vozmeshcheniya-kasko-cherez-sud": {
       "category": "vzysk",

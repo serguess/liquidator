@@ -2,6 +2,19 @@
   "generated": "2026-07-09",
   "articles": [
     {
+      "slug": "strakhovanie-arbitrazhnogo-upravlyayushchego",
+      "cat": "yur",
+      "catLabel": "Банкротство юридических лиц",
+      "title": "Страхование арбитражного управляющего: требования и защита",
+      "desc": "Как работает страхование АМ в банкротстве: обязательные требования, размеры покрытия, защита прав кредиторов и компетенции управляющего при исполнении функций.",
+      "date": "9 июля 2026",
+      "dateIso": "2026-07-09",
+      "read": "5 мин.",
+      "tone": "b",
+      "img": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1783288062/articles/strakhovanie-arbitrazhnogo-upravlyayushchego-cover.jpg",
+      "url": "articles/yur/strakhovanie-arbitrazhnogo-upravlyayushchego"
+    },
+    {
       "slug": "dolg-za-vred-zdorovyu-pri-bankrotstve",
       "cat": "fiz",
       "catLabel": "Банкротство физических лиц",
