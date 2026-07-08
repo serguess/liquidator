@@ -3944,6 +3944,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "reforma-127-fz-dobankorotnaya-sanaciya-gossud",
+      "category": "news",
+      "title": "Реформа банкротства: добанкротная санация и новый АУ",
+      "added_at": "2026-07-08T08:45:09.603044",
+      "char_count": 5904,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1783489507/articles/reforma-127-fz-dobankorotnaya-sanaciya-gossud-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

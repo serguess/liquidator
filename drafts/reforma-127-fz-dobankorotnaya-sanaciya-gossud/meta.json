@@ -1,0 +1,99 @@
+{
+  "slug": "reforma-127-fz-dobankorotnaya-sanaciya-gossud",
+  "category": "news",
+  "title": "Реформа банкротства: добанкротная санация и новый АУ",
+  "description": "Что готовит парламент: как законопроект о реформе 127-ФЗ повлияет на банкротство должников, что такое добанкротная санация и роль АУ",
+  "h1": "Законопроект о реформе банкротства: добанкротная санация и новый АУ",
+  "lead": "Минэкономразвития предложило механизм добанкротной санации - досудебный способ договориться с кредиторами до арбитража; документ пока не принят.",
+  "topic_action": "разбор реформы банкротства",
+  "breadcrumb_current": "Добанкротная санация и реформа АУ",
+  "og_image": "/assets/articles/reforma-127-fz-dobankorotnaya-sanaciya-gossud.jpg",
+  "main_keyword": "реформа 127-ФЗ банкротство",
+  "secondary_keywords": [
+    "законопроект о банкротстве",
+    "реформа процедуры банкротства",
+    "добанкротная санация должника",
+    "новые полномочия АУ",
+    "отмена банкротства через санацию",
+    "досудебное оздоровление"
+  ],
+  "intent": "informational",
+  "funnel_stage": "cold",
+  "article_type": "B",
+  "offer": "proverka-spisaniya",
+  "event_date": "2026-06-12",
+  "news_zone": "initiative",
+  "internal_links": [
+    "/articles/yur/bankrotstvo-ooo-poshagovo-2026",
+    "/articles/fiz/vnesudebnoe-bankrotstvo-cherez-mfc-2026"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/",
+    "https://pravo.ru/news/263311/"
+  ],
+  "faq": [
+    {
+      "question": "Чем добанкротная санация отличается от финансового оздоровления по 127-ФЗ?",
+      "answer": "Финансовое оздоровление - действующая судебная процедура, вводится арбитражем после подачи заявления. Добанкротная санация - досудебный инструмент, запускается до обращения в суд. Обе нацелены на восстановление, но включаются на разных этапах."
+    },
+    {
+      "question": "Обязана ли компания соглашаться на досудебную процедуру восстановления?",
+      "answer": "Нет. Законопроект описывает добровольный механизм. Заёмщик и заимодавцы вступают в диалог по обоюдному согласию. Никакого автоматического применения к отдельным должникам не предусмотрено."
+    },
+    {
+      "question": "Какие функции получит арбитражный управляющий?",
+      "answer": "Координация сторон, контроль за исполнением плана восстановления, оформление юридически значимых действий. Полный перечень закрепят в тексте поправок после доработки."
+    },
+    {
+      "question": "Может ли законопроект существенно измениться до принятия?",
+      "answer": "Да, и это ожидаемая история. Первое чтение обычно правит терминологию и структуру. Финальная редакция станет известна после третьего чтения и подписания. Материал построен на предложениях, которые ещё могут быть переписаны."
+    },
+    {
+      "question": "На каком этапе реформа затрагивает физических лиц с долгами?",
+      "answer": "Пока никак. Инициатива Минэкономразвития направлена на корпоративных заёмщиков. Отдельного механизма для граждан в текущей версии не описано."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все утверждения о добанкротной санации (f1-f3, f5, f7, f8) относятся к proposed-законопроекту; в тексте везде обтекаемые формулировки ('законопроект предусматривает', 'предлагает', 'пока не принят')",
+    "f4 (действующие процедуры 127-ФЗ) и f6 (полномочия АУ по ст. 19-21) - active, last_verified 2026-07-08, контекст применения корректен",
+    "Цифры '2-3 года' и '10-15%' из draft убраны как не верифицированные в research.json; заменены на 'тянется годами и покрывает лишь часть требований'",
+    "Запрещённые утверждения из forbidden_claims в финальном тексте отсутствуют"
+  ],
+  "keyword_density_main": null,
+  "main_keyword_exact_count": null,
+  "text_chars": 5904,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.103,
+  "local_spam_ngram3_repeat": 0.011,
+  "local_lexical_diversity": 0.694,
+  "local_ai_markers_density": 0.26,
+  "local_ai_markers_critical": 0,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1783489507/articles/reforma-127-fz-dobankorotnaya-sanaciya-gossud-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1783489507/articles/reforma-127-fz-dobankorotnaya-sanaciya-gossud-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Top-down flat-lay editorial photograph on a polished dark walnut desk. Soft golden morning light from a window casting a long warm diagonal across the surface. A stack of closed law books with embossed gilt spines and a small national emblem positioned left of center, a fountain pen aligned diagonally across a closed dark leather portfolio, a polished brass round official seal resting on the portfolio, a pair of reading glasses placed near the books, an antique pocket watch on a delicate chain, a white porcelain coffee cup on saucer in soft focus background. Premium legal-magazine editorial composition, neutral beige and graphite palette with warm gold accents from brass and morning light. Mood: official legislative review and procedural renewal.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-07-08T05:45:08Z",
+  "length_status": "too_long",
+  "length_kind": "news",
+  "local_ai_markers_total": 2,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 3,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 47,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 90,
+  "customer_risks": [
+    "длина больше лимита 5500 (5 904 знаков)"
+  ],
+  "date_published": "2026-07-08",
+  "date_modified": "2026-07-08",
+  "ready_for_review": true,
+  "ready_at": "2026-07-08T05:45:09Z",
+  "publication_target": "telegram_review"
+}
