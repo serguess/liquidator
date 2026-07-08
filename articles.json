@@ -2,6 +2,19 @@
   "generated": "2026-07-09",
   "articles": [
     {
+      "slug": "arest-akcij-i-cennyh-bumag-pri-vzykanii-dolga",
+      "cat": "vzysk",
+      "catLabel": "Взыскание задолженности",
+      "title": "Арест акций и ценных бумаг при взыскании долга",
+      "desc": "Как заморозить акции должника, порядок описания ценных бумаг, роль депозитариев, реализация портфеля через пристава и судебное взыскание.",
+      "date": "9 июля 2026",
+      "dateIso": "2026-07-09",
+      "read": "5 мин.",
+      "tone": "b",
+      "img": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1783358031/articles/arest-akcij-i-cennyh-bumag-pri-vzykanii-dolga-cover.jpg",
+      "url": "articles/vzysk/arest-akcij-i-cennyh-bumag-pri-vzykanii-dolga"
+    },
+    {
       "slug": "ugolovnyj-shtraf-v-reestre-kreditorov-bankrotstvo",
       "cat": "yur",
       "catLabel": "Банкротство юридических лиц",
