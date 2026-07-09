@@ -1,0 +1,105 @@
+{
+  "slug": "npf-pensionnye-nakopleniya-bankrotstvo-fizlica",
+  "category": "fiz",
+  "title": "НПФ при банкротстве физлица: защита накоплений",
+  "description": "Как влияет банкротство на накопления в НПФ, защищены ли пенсионные сбережения от взыскания, что говорит закон о добровольных пенсионных накоплениях.",
+  "h1": "НПФ и пенсионные накопления при банкротстве физлица: что происходит с накоплениями",
+  "lead": "Разбираем, как банкротство влияет на пенсионные накопления в НПФ, кто их защищает от кредиторов и в каких случаях возникают споры.",
+  "topic_action": "проверку защиты пенсионных накоплений при банкротстве",
+  "breadcrumb_current": "Накопления в НПФ при банкротстве",
+  "og_image": "/assets/articles/npf-pensionnye-nakopleniya-bankrotstvo-fizlica.jpg",
+  "main_keyword": "НПФ при банкротстве физлица",
+  "secondary_keywords": [
+    "пенсионные накопления при банкротстве",
+    "защита накоплений НПФ от взыскания",
+    "как банкротство влияет на пенсию",
+    "добровольные пенсионные накопления закон",
+    "конкурсная масса НПФ",
+    "индивидуальный пенсионный счёт при банкротстве",
+    "выкупная стоимость НПФ банкротство"
+  ],
+  "internal_links": [
+    "/articles/fiz/bankovskie-scheta-pri-bankrotstve"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/",
+    "https://www.consultant.ru/document/cons_doc_LAW_12087/",
+    "https://www.consultant.ru/document/cons_doc_LAW_23065/"
+  ],
+  "faq": [
+    {
+      "question": "Может ли финансовый управляющий потребовать деньги из НПФ?",
+      "answer": "Нет. Полномочия управляющего ограничены имуществом, которое попало в опись должника. Пенсионные накопления в НПФ в неё не входят."
+    },
+    {
+      "question": "Что происходит с пенсионным договором после объявления гражданина банкротом?",
+      "answer": "Соглашение продолжает работать. НПФ не вправе расторгнуть его в одностороннем порядке из-за банкротства клиента. Обслуживание счёта идёт в обычном режиме."
+    },
+    {
+      "question": "Защищены ли пенсионные выплаты из НПФ от удержания приставом?",
+      "answer": "Да. По ст. 101 закона об исполнительном производстве такие выплаты входят в перечень защищённых. Пристав не вправе списать их для погашения долгов."
+    },
+    {
+      "question": "Чем отличается защита сбережений в СФР от защиты в негосударственном фонде?",
+      "answer": "Государственные средства защищены через 424-ФЗ и 167-ФЗ - заморожены на лицевом счёте до выхода на пенсию. Добровольные взносы у частного оператора - через ст. 213.25 п. 3 127-ФЗ и расширительное толкование пенсионной формулировки ст. 446 ГПК РФ. Оба типа защищены, но по разным основаниям."
+    },
+    {
+      "question": "Можно ли самому досрочно вывести деньги из НПФ в ходе процедуры?",
+      "answer": "Как правило, нет. Досрочный вывод возможен только по основаниям, прописанным в договоре с НПФ: пенсионный возраст, инвалидность, тяжёлое заболевание. Попытка снять накопления перед подачей заявления может быть оспорена управляющим как подозрительная сделка."
+    },
+    {
+      "question": "Как банкротство отразится на пенсионных правах после завершения процедуры?",
+      "answer": "На права из НПФ - никак. Договор сохраняется, накопления остаются, право на будущие выплаты не теряется. Процедура списывает долги, но не отменяет пенсионных прав гражданина."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все ключевые факты сверены с research.json. last_verified: 2026-07-09, legislation_status: active по всем позициям.",
+    "Ст. 213.25 п. 3 127-ФЗ и ст. 446 ГПК РФ: прямого упоминания НПФ-накоплений в законе нет - текст отражает расширительное судебное толкование (f1, f2, contested:true). Оговорка сохранена в тексте.",
+    "Ст. 213.9 127-ФЗ (полномочия управляющего), ст. 101 ФЗ-229 (защита выплат), 75-ФЗ о НПФ, 424-ФЗ и 167-ФЗ о госнакоплениях - контекст применения норм корректен (f4, f5, f7, f8, contested:false).",
+    "Слово «полис» в черновике заменено на «договор» - НПФ работают по договору негосударственного пенсионного обеспечения, не по страховому полису.",
+    "Запрещённые утверждения из research.forbidden_claims отсутствуют: нет тезисов о включении накоплений в конкурсную массу, конфискации управляющим, автоматическом расторжении договора, удержании приставом или потере пенсионных прав."
+  ],
+  "keyword_density_main": 0.004,
+  "main_keyword_exact_count": 2,
+  "text_chars": 7229,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.148,
+  "local_spam_ngram3_repeat": 0.072,
+  "local_lexical_diversity": 0.516,
+  "local_ai_markers_density": 0.22,
+  "local_ai_markers_critical": 0,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1783632743/articles/npf-pensionnye-nakopleniya-bankrotstvo-fizlica-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1783632743/articles/npf-pensionnye-nakopleniya-bankrotstvo-fizlica-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Low-key photograph of a dark wood-paneled private office at night. A brass library lamp illuminates a leather-topped mahogany desk holding 4-6 items: an antique pocket watch on a gold chain symbolizing long-term savings, closed leather-bound law book with gilt spine, polished brass round seal representing institutional trust, fountain pen, reading glasses, and a small white porcelain cup. Background: deep walnut paneling and bookshelves fade to near-black shadow. Camera: three-quarter angle, eye-level. Lighting: dominant warm tungsten pool creating an intimate circle of protection, with deep ambient shadow elsewhere. Palette: oxblood, walnut, brass on charcoal. Mood: confidential deliberation over safeguarded personal assets.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-07-09T21:32:24Z",
+  "length_status": "too_long",
+  "length_kind": "default",
+  "local_ai_markers_total": 2,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 5,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 62,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность заметно выше 50% (~62%)",
+    "длина значительно больше лимита 6500 (7 229 знаков)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "spam_risk: 6 флагов (top1_count>12 (=15, лемма «пенсионн»), top3_sum>30 (=39), top10_sum>80 (=95), top10_share>0.115 (=0.148), ngram3_repeat_share>0.055 (=0.072), lexical_diversity<0.58 (=0.516)), top-5: ['пенсионн', 'счет', 'банкротств', 'защит', 'опис']",
+    "targeted_tokens_over_limit: ст_сокращение=9(>≤5), 213_артикул=4(>≤3)"
+  ],
+  "date_published": "2026-07-10",
+  "date_modified": "2026-07-10",
+  "ready_for_review": true,
+  "ready_at": "2026-07-09T21:32:29Z",
+  "publication_target": "telegram_review"
+}

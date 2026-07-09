@@ -24839,5 +24839,10 @@
       "spam": null,
       "text_chars": 5500
     }
+  },
+  {
+    "timestamp": "2026-07-09T19:36:37",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets 7:40pm (Europe/Moscow)"
   }
 ]
