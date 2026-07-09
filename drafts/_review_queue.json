@@ -4022,6 +4022,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "rost-prosrochki-potrebitelskie-kredity-statistika-cb",
+      "category": "news",
+      "title": "Просрочка кредитов физлиц растёт: статистика ЦБ",
+      "added_at": "2026-07-09T08:47:17.210888",
+      "char_count": 6663,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1783576031/articles/rost-prosrochki-potrebitelskie-kredity-statistika-cb-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

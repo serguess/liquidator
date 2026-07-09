@@ -1,0 +1,104 @@
+{
+  "slug": "rost-prosrochki-potrebitelskie-kredity-statistika-cb",
+  "category": "news",
+  "title": "Просрочка кредитов физлиц растёт: статистика ЦБ",
+  "description": "ЦБ опубликовал данные о росте просрочки по потребительским кредитам. Что это означает для заёмщиков и как это влияет на финансовую ситуацию.",
+  "h1": "Просрочка по потребительским кредитам выросла: данные ЦБ РФ",
+  "lead": "Регулятор фиксирует рост доли неоплаченных займов в розничных портфелях банков - разбираем, что стоит за цифрами и что делать заёмщику.",
+  "topic_action": "разбор вашей ситуации с просрочкой по кредиту",
+  "breadcrumb_current": "Просрочка по потребительским кредитам",
+  "og_image": "/assets/articles/rost-prosrochki-potrebitelskie-kredity-statistika-cb.jpg",
+  "main_keyword": "просрочка потребительских кредитов",
+  "secondary_keywords": [
+    "просрочка по кредитам физлиц",
+    "индекс просрочки ЦБ",
+    "статистика потребительских кредитов",
+    "рост просрочки кредитов",
+    "данные ЦБ кредиты",
+    "показатели банков России",
+    "просрочка кредита что делать",
+    "невозврат потребительского кредита"
+  ],
+  "intent": "informational",
+  "funnel_stage": "cold",
+  "article_type": "B",
+  "offer": "proverka-spisaniya",
+  "event_date": "2026-06-15",
+  "news_zone": "finance",
+  "internal_links": [
+    "/articles/fiz/vnesudebnoe-bankrotstvo-cherez-mfc",
+    "/articles/fiz/bankovskie-scheta-pri-bankrotstve-fizicheskogo-lica"
+  ],
+  "external_links": [
+    "https://www.cbr.ru/statistics/bank_sector/sors/",
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/"
+  ],
+  "faq": [
+    {
+      "question": "Через сколько дней задержки банк подаёт в суд?",
+      "answer": "Точного срока в законе нет. На практике кредитные организации выставляют требование о досрочном погашении на 60-90-й день, а иск подают спустя ещё месяц-два. Многое зависит от суммы, кредитной истории и внутренней политики банка."
+    },
+    {
+      "question": "Можно ли договориться о реструктуризации без юриста?",
+      "answer": "Можно. Заявление подаётся в свободной форме или на бланке банка, к нему прикладываются документы, подтверждающие ухудшение финансового положения. Юрист помогает, когда банк отказывает, но перспектива суда высока."
+    },
+    {
+      "question": "Что делать, если звонит взыскатель и требует немедленно погасить долг?",
+      "answer": "Уточнить основание требования, реквизиты договора уступки, запросить письменную позицию. Действия взыскателя ограничены 230-ФЗ: запрещены угрозы, звонки в неурочное время, давление на родственников. Нарушения обжалуются в ФССП и суде."
+    },
+    {
+      "question": "Спишет ли процедура несостоятельности потребительский займ полностью?",
+      "answer": "В большинстве случаев да - основанием служит завершение реализации имущества. Исключения касаются алиментов, компенсаций за вред здоровью и текущих налоговых платежей. Обычные потребительские обязательства в этот перечень не входят."
+    },
+    {
+      "question": "Какие обязательства не списываются даже после завершения процедуры?",
+      "answer": "Алименты, компенсация за вред жизни и здоровью, текущие платежи (налоги и сборы, начисленные во время дела), обязательства, неразрывно связанные с личностью получателя."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "f7 (макроэкономические факторы) имеет legislation_status: needs_verification - в тексте использована safe_phrasing без конкретных цифр, формулировки носят общий описательный характер",
+    "f5 (внесудебное банкротство): порог от 25 000 руб. верифицирован по ФЗ-474 от 04.11.2023, legislation_status: active",
+    "Запрещённые утверждения из forbidden_claims в тексте отсутствуют; прямо опровергнуты: заморозка счёта без суда и уголовное преследование за просрочку"
+  ],
+  "keyword_density_main": null,
+  "main_keyword_exact_count": null,
+  "text_chars": 6663,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.097,
+  "local_spam_ngram3_repeat": 0.025,
+  "local_lexical_diversity": 0.692,
+  "local_ai_markers_density": 0.35,
+  "local_ai_markers_critical": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1783576031/articles/rost-prosrochki-potrebitelskie-kredity-statistika-cb-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1783576031/articles/rost-prosrochki-potrebitelskie-kredity-statistika-cb-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Macro close-up photograph emphasizing surface materials and tactile detail. Subject: polished brass scales-of-justice pan positioned off-center, weathered antique brass padlock with deep patina, fountain pen aligned diagonally across a closed dark leather portfolio, brass keys scattered on the surface. Background: weathered charcoal stone slab with subtle financial ledger texture, or backlit clear glass with faint numeric reflections. Camera: macro, very shallow depth of field, isolating metallic subjects. Lighting: directional contrast — sharp specular highlights on brass emphasizing weight and texture, soft cool fill on shadow side. Palette: oxidized brass, deep charcoal, cool grey tones. Mood: financial constraint, locked access, mounting pressure.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-07-09T05:47:11Z",
+  "length_status": "too_long",
+  "length_kind": "news",
+  "local_ai_markers_total": 3,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 3,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 47,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 90,
+  "customer_risks": [
+    "длина значительно больше лимита 5500 (6 663 знаков)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "broken_internal_links: 2 ссылок без соответствия в published_index (/articles/fiz/vnesudebnoe-bankrotstvo-cherez-mfc: slug 'vnesudebnoe-bankrotstvo-cherez-mfc' не найден в категории 'fiz' (есть: нигде); /articles/fiz/bankovskie-scheta-pri-bankrotstve-fizicheskogo-lica: slug 'bankovskie-scheta-pri-bankrotstve-fizicheskogo-lica' не найден в категории 'fiz' (есть: нигде))"
+  ],
+  "date_published": "2026-07-09",
+  "date_modified": "2026-07-09",
+  "ready_for_review": true,
+  "ready_at": "2026-07-09T05:47:17Z",
+  "publication_target": "telegram_review"
+}
