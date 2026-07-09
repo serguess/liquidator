@@ -7878,15 +7878,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 1883,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-08T15:27:18",
-      "last_action_at": "2026-07-08T15:27:18",
+      "last_action_at": "2026-07-09T10:00:36",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-07-08T15:27:18"
+      "pending_batch": false,
+      "pending_batch_at": "2026-07-08T15:27:18",
+      "batch_sent_at": "2026-07-09T10:00:36",
+      "batch_fail_count": 0
     },
     "dolya-ooo-pri-bankrotstve-uchreditelya": {
       "category": "yur",
@@ -7896,15 +7898,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 1885,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-08T20:20:20",
-      "last_action_at": "2026-07-08T20:20:20",
+      "last_action_at": "2026-07-09T10:00:38",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-07-08T20:20:20"
+      "pending_batch": false,
+      "pending_batch_at": "2026-07-08T20:20:20",
+      "batch_sent_at": "2026-07-09T10:00:38",
+      "batch_fail_count": 0
     },
     "vzyskanie-po-bankovskoy-garantii": {
       "category": "vzysk",
@@ -7914,15 +7918,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 1887,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-09T01:11:23",
-      "last_action_at": "2026-07-09T01:11:23",
+      "last_action_at": "2026-07-09T10:00:40",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-07-09T01:11:23"
+      "pending_batch": false,
+      "pending_batch_at": "2026-07-09T01:11:23",
+      "batch_sent_at": "2026-07-09T10:00:40",
+      "batch_fail_count": 0
     },
     "cb-rezyume-obsuzhdeniya-stavki-iyun-prognoz": {
       "category": "news",
@@ -7932,15 +7938,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 1889,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-09T05:39:36",
-      "last_action_at": "2026-07-09T05:39:36",
+      "last_action_at": "2026-07-09T10:00:43",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-07-09T05:39:36"
+      "pending_batch": false,
+      "pending_batch_at": "2026-07-09T05:39:36",
+      "batch_sent_at": "2026-07-09T10:00:43",
+      "batch_fail_count": 0
     },
     "rost-prosrochki-potrebitelskie-kredity-statistika-cb": {
       "category": "news",
@@ -7950,19 +7958,21 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 1891,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-09T08:47:38",
-      "last_action_at": "2026-07-09T08:47:38",
+      "last_action_at": "2026-07-09T10:00:45",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-07-09T08:47:38"
+      "pending_batch": false,
+      "pending_batch_at": "2026-07-09T08:47:38",
+      "batch_sent_at": "2026-07-09T10:00:45",
+      "batch_fail_count": 0
     }
   },
   "pending_actions": [],
-  "last_batch_date": "2026-07-08",
+  "last_batch_date": "2026-07-09",
   "last_batch_count": 5,
-  "last_batch_at": "2026-07-08T10:00:20"
+  "last_batch_at": "2026-07-09T10:00:45"
 }

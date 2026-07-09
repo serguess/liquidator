@@ -24798,5 +24798,46 @@
     "stderr_tail": "[ERR] rate_limit: put_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard\",\"cache_creation\":{\"ephemeral_1h_input_tokens\":0,\"ephemeral_5m_input_tokens\":0},\"inference_geo\":\"\",\"iterations\":[],\"speed\":\"standard\"},\"modelUsage\":{},\"permission_denials\":[],\"terminal_reason\":\"completed\",\"fast_mode_state\":\"off\",\"uuid\":\"ccd48ae9-1ce2-4d2a-a8c4-37638dd848f1\"}\n\n",
     "tokens_by_model": {},
     "metrics": null
+  },
+  {
+    "timestamp": "2026-07-09T14:48:07",
+    "category": "fiz",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 26,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "expanded_in_slot": true,
+    "topic_id": "fiz-146",
+    "topic_slug": "npf-pensionnye-nakopleniya-bankrotstvo-fizlica",
+    "status": "failed",
+    "slug": "npf-pensionnye-nakopleniya-bankrotstvo-fizlica",
+    "duration_sec": 1744.3,
+    "returncode": 1,
+    "rescued_after_failure": false,
+    "stdout_tail": "billable=72856 ток, 168.0с\n   ok: 18681 симв., billable=69948 ток (model=sonnet)\n   [outline_validate] exit=1\n=== 4-writer (claude opus) ===\n   ok: 8307 симв., billable=131148 ток, 325.3с\n   [writer self-fix проход 2]\n   ok: billable=50160 ток\n=== 5-uniqueness (embed_compare) ===\n   passed=True scores={'structure_overlap': 0.0, 'thesis_similarity': 0.033, 'cta_overlap': 0.013}\n   ok: 12729 симв., billable=62428 ток (model=sonnet)\n   [pick_scene_template] exit=0\n=== 7-publisher (claude haiku) ===",
+    "stderr_tail": "[ERR] rate_limit: put_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard\",\"cache_creation\":{\"ephemeral_1h_input_tokens\":0,\"ephemeral_5m_input_tokens\":0},\"inference_geo\":\"\",\"iterations\":[],\"speed\":\"standard\"},\"modelUsage\":{},\"permission_denials\":[],\"terminal_reason\":\"completed\",\"fast_mode_state\":\"off\",\"uuid\":\"e9e8ab0d-b641-49c9-8744-60def23f3b3b\"}\n\n",
+    "tokens_by_model": {},
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 5500
+    }
   }
 ]
