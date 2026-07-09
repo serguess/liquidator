@@ -24666,5 +24666,102 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-07-09T08:30:06",
+    "category": "news",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 23,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "news-82",
+    "topic_slug": "rost-prosrochki-potrebitelskie-kredity-statistika-cb",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "length_soft_passed: 6663 > 5500 но ≤ 7500 и iteration=2 — пропускаем (приоритет spam/uniqueness/ai)",
+        "forced_pass_at_iter2: блокеры пропущены, статья идёт в TG-очередь с metrics_warning=true. Было: 1 блокеров — broken_internal_links"
+      ],
+      "recommendations": [
+        "fix_internal_links: заменить href на канонический /articles/{cat}/{slug} из published_index.json (см. .claude/style/editor-cheatsheet.md секция 6)"
+      ],
+      "stderr_tail": ""
+    },
+    "finalize_safety_net": {
+      "ran": true,
+      "rc": 0
+    },
+    "status": "ok",
+    "slug": "rost-prosrochki-potrebitelskie-kredity-statistika-cb",
+    "duration_sec": 1031.0,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "\n6-seo-editor        sonnet            6      16    62836     25156     62858\n7-publisher         haiku            20      10    39278     25520     39308\n------------------------------------------------------------------------------------------\nИТОГО                               140     101   419783    500668    420024\nBillable-токенов на статью: ~420K (cache_read 500K не считается в лимит подписки).\nАртефакты: drafts/rost-prosrochki-potrebitelskie-kredity-statistika-cb/  | quality_gate exit=0",
+    "stderr_tail": "",
+    "tokens_by_model": {},
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 6663
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
+  },
+  {
+    "timestamp": "2026-07-09T08:47:18",
+    "category": "news",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 24,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "news-83",
+    "topic_slug": "zashchita-doli-edinstvennogo-zhilya-ot-osparivaniya",
+    "status": "failed",
+    "slug": "zashchita-doli-edinstvennogo-zhilya-ot-osparivaniya",
+    "duration_sec": 2472.4,
+    "returncode": 1,
+    "rescued_after_failure": false,
+    "stdout_tail": "y': 0.679, 'cta_overlap': 0.442}\n   [watchdog] hard timeout >480s на sonnet — попытка 1/3\n   [watchdog] hard timeout >480s на sonnet — попытка 2/3\n   [watchdog] hard timeout >480s на sonnet — попытка 3/3\n   [warn] 6-seo-editor StepFailed на sonnet: claude: все 3 попыток исчерпаны. Последняя: hard timeout >480s на sonnet\n   [retry] 6-seo-editor: пробую fallback haiku\n   ok: 10731 симв., billable=63620 ток (model=haiku)\n[ERR] 6-seo-editor failed: seo вернул невалидный JSON. Сырьё в _FAILED_seo.txt",
+    "stderr_tail": "",
+    "tokens_by_model": {},
+    "metrics": null
   }
 ]

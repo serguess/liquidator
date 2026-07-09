@@ -7905,6 +7905,60 @@
       "published_url": null,
       "pending_batch": true,
       "pending_batch_at": "2026-07-08T20:20:20"
+    },
+    "vzyskanie-po-bankovskoy-garantii": {
+      "category": "vzysk",
+      "title": "Взыскание по банковской гарантии: как получить выплату",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-07-09T01:11:23",
+      "last_action_at": "2026-07-09T01:11:23",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-07-09T01:11:23"
+    },
+    "cb-rezyume-obsuzhdeniya-stavki-iyun-prognoz": {
+      "category": "news",
+      "title": "ЦБ объяснил снижение ставки: ориентиры и прогнозы",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-07-09T05:39:36",
+      "last_action_at": "2026-07-09T05:39:36",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-07-09T05:39:36"
+    },
+    "rost-prosrochki-potrebitelskie-kredity-statistika-cb": {
+      "category": "news",
+      "title": "Просрочка кредитов физлиц растёт: статистика ЦБ",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-07-09T08:47:38",
+      "last_action_at": "2026-07-09T08:47:38",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-07-09T08:47:38"
     }
   },
   "pending_actions": [],
