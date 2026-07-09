@@ -4009,6 +4009,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "cb-rezyume-obsuzhdeniya-stavki-iyun-prognoz",
+      "category": "news",
+      "title": "ЦБ объяснил снижение ставки: ориентиры и прогнозы",
+      "added_at": "2026-07-09T05:38:44.816108",
+      "char_count": 4897,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1783564723/articles/cb-rezyume-obsuzhdeniya-stavki-iyun-prognoz-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

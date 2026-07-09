@@ -1,0 +1,98 @@
+{
+  "slug": "cb-rezyume-obsuzhdeniya-stavki-iyun-prognoz",
+  "category": "news",
+  "title": "ЦБ объяснил снижение ставки: ориентиры и прогнозы",
+  "description": "Почему ЦБ снизил ключевую ставку, какие макроэкономические ориентиры назвали регуляторы и как изменения влияют на кредиты и способность должников платить",
+  "h1": "Решение ЦБ о снижении ставки: что сказали регуляторы и как это повлияет на долги",
+  "lead": "25 июня Совет директоров Центрального банка снизил ключевую ставку. Объясняем, как это решение доходит до банков, кому оно выгодно и что не меняется для должника.",
+  "topic_action": "консультацию по долгам с учётом решения ЦБ",
+  "breadcrumb_current": "Решение ЦБ о ставке",
+  "og_image": "/assets/articles/cb-rezyume-obsuzhdeniya-stavki-iyun-prognoz.jpg",
+  "main_keyword": "решение цб о ставке",
+  "secondary_keywords": [
+    "ключевая ставка цб",
+    "прогноз инфляции центробанка",
+    "денежно-кредитная политика",
+    "ставка по ипотеке",
+    "макроэкономический прогноз",
+    "монетарная политика россии",
+    "влияние ставок на кредиты"
+  ],
+  "intent": "informational",
+  "funnel_stage": "cold",
+  "article_type": "B",
+  "offer": "proverka-spisaniya",
+  "event_date": "2026-06-25",
+  "news_zone": "finance",
+  "internal_links": [],
+  "external_links": [
+    "https://cbr.ru/dkp/",
+    "https://cbr.ru/dkp/mp_dec/"
+  ],
+  "faq": [
+    {
+      "question": "Что снижение ключа означает для обычного заёмщика?",
+      "answer": "Для владельца ипотеки с плавающим процентом - меньший ежемесячный платёж через один-три месяца без заявлений. Для остальных - возможность рефинансирования на более выгодных условиях, но обращаться в банк придётся самостоятельно."
+    },
+    {
+      "question": "Через сколько месяцев банки пересматривают проценты по кредитам?",
+      "answer": "Типичная задержка - от одного до трёх месяцев. Сначала корректируют вклады. Потом линейки для новых заёмщиков. Затем предложения по рефинансированию. Действующие фиксированные договоры остаются нетронутыми."
+    },
+    {
+      "question": "Обязан ли банк снизить процент по моей ипотеке?",
+      "answer": "Нет. Коммерческие банки самостоятельны в ценообразовании и учитывают собственные риски и структуру пассивов. Автоматическое удешевление возможно лишь при плавающей формуле в договоре."
+    },
+    {
+      "question": "Какой уровень инфляции считается нормой для Центробанка?",
+      "answer": "Целевой ориентир - 4% в год. Выше - регулятор обычно ужесточает политику. Ниже - получает пространство для смягчения."
+    },
+    {
+      "question": "Можно ли рефинансировать заём сразу после решения регулятора?",
+      "answer": "Технически можно, но выгодные условия появляются в банках не в тот же день. Обычно между заседанием Совета директоров и пересмотром линеек проходит один-два месяца."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все утверждения соответствуют research.json и safe_phrasing",
+    "Запрещённые утверждения из forbidden_claims отсутствуют",
+    "Факты актуальны: last_verified не старше 2026-07-08, legislation_status active",
+    "Экономические механизмы описаны с необходимыми условиями и оговорками",
+    "Авторские вставки «по нашему опыту» и «мы советуем» сохранены как в draft"
+  ],
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.141,
+  "local_ai_markers_density": 0.3,
+  "quality_gate_passed": true,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1783564723/articles/cb-rezyume-obsuzhdeniya-stavki-iyun-prognoz-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1783564723/articles/cb-rezyume-obsuzhdeniya-stavki-iyun-prognoz-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Tight close-up of a desk surface just abandoned, shallow depth of field, three-quarter angle from above. Uncapped fountain pen lies beside a small brass inkwell, pages with faint financial notations fanning slightly outward, a stack of closed dossiers tied with cord positioned left, a half-finished white porcelain coffee cup on a saucer in soft bokeh mid-frame. Background blurred: the back of a leather chair pushed away from the workspace. Lighting: warm directional sidelight from upper left casting long elegant shadows across polished walnut desktop, late evening or early-morning hour in a financial newsroom or trading floor. Materials: walnut, leather, brass pen details. Mood: moments after a consequential monetary decision, analysis and commentary in progress, the analysts have just stepped away to file the story. Premium financial-news editorial aesthetic.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-07-09T02:38:44Z",
+  "text_chars": 4897,
+  "length_status": "ok",
+  "length_kind": "news",
+  "local_spam_ngram3_repeat": 0.034,
+  "local_lexical_diversity": 0.687,
+  "local_ai_markers_total": 2,
+  "local_ai_markers_critical": 0,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 2,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 49,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 90,
+  "customer_risks": [],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "spam_risk: 1 флагов (top10_share>0.115 (=0.141)), top-5: ['договор', 'банк', 'процент', 'месяц', 'решен']"
+  ],
+  "date_published": "2026-07-09",
+  "date_modified": "2026-07-09",
+  "ready_for_review": true,
+  "ready_at": "2026-07-09T02:38:44Z",
+  "publication_target": "telegram_review"
+}
