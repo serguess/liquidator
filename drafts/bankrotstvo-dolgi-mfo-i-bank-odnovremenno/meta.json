@@ -1,0 +1,111 @@
+{
+  "slug": "bankrotstvo-dolgi-mfo-i-bank-odnovremenno",
+  "category": "fiz",
+  "title": "Банкротство при долгах перед МФО и банком одновременно",
+  "description": "Как физлицу банкротиться, если долги у банка и МФО одновременно. Процедуры, риски и способ защиты имущества.",
+  "h1": "Банкротство физлица с долгами перед МФО и банком одновременно: как выйти",
+  "lead": "Разбираем, как МФО и банк делят очередь в реестре кредиторов, какой маршрут открыт в вашей ситуации и что реально грозит имуществу.",
+  "topic_action": "списание долгов перед МФО и банком",
+  "breadcrumb_current": "Банкротство с долгами МФО и банку",
+  "og_image": "/assets/articles/bankrotstvo-dolgi-mfo-i-bank-odnovremenno.jpg",
+  "main_keyword": "банкротство с долгами перед МФО и банком",
+  "secondary_keywords": [
+    "долги МФО и банку одновременно",
+    "микрокредит и банковский кредит банкротство",
+    "МФО в списке кредиторов",
+    "реструктуризация долгов МФО и банка",
+    "приоритет кредиторов МФО и банк",
+    "как списать долг МФО через банкротство",
+    "внесудебное банкротство МФО"
+  ],
+  "internal_links": [
+    "/articles/fiz/bankrotstvo-dolg-kreditnyj-kooperativ-kpk",
+    "/articles/fiz/bankovskie-scheta-pri-bankrotstve"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/",
+    "https://www.consultant.ru/document/cons_doc_LAW_5142/"
+  ],
+  "faq": [
+    {
+      "question": "Можно ли включить в одну процедуру задолженность и перед банком, и перед МФО?",
+      "answer": "Да. Обе организации попадают в один реестр требований. Отдельные дела заводить не нужно - процедура одна, реестр общий."
+    },
+    {
+      "question": "Что будет с судебным приказом и удержаниями пристава?",
+      "answer": "Приостанавливаются с момента введения процедуры (ст. 213.11 127-ФЗ). Пристав перестаёт списывать деньги со счёта и зарплаты. Требования МФО и банка управляющий переносит в реестр кредиторов."
+    },
+    {
+      "question": "Как залог автомобиля у МФО влияет на очерёдность?",
+      "answer": "Займодавец с залогом переходит в первую очередь (ст. 99 127-ФЗ). Машину продадут в приоритете, до 80% выручки уйдёт залогодержателю - раньше остальных участников реестра."
+    },
+    {
+      "question": "Когда я обязан сам подать заявление?",
+      "answer": "Когда обязательства перевалили за 500 000 рублей и просрочка хотя бы по одному из них - от трёх месяцев. Срок на подачу - 30 рабочих дней с момента, когда стало ясно: расплатиться не получится (ст. 213.4 127-ФЗ)."
+    },
+    {
+      "question": "Сколько стоит подача заявления в 2026 году?",
+      "answer": "Госпошлины для должника нет (с 8 сентября 2024 года, ст. 333.37 НК РФ). На счёт суда - 25 000 рублей депозита на вознаграждение управляющего. По ходатайству депозит можно отсрочить до первого заседания."
+    },
+    {
+      "question": "Перестанут ли начислять штрафы и пени?",
+      "answer": "Да. С момента введения процедуры начисление штрафов и пеней прекращается. Всё, что уже накопилось, фиксируется и уходит в реестр вместе с телом займа."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "МФО и банк в третьей очереди (ст. 99-104 127-ФЗ) - подтверждено f1, f6. legislation_status: active, last_verified: 2026-07-10.",
+    "Лимиты МФЦ: 25 000 - 1 000 000 руб. (ст. 223.2 127-ФЗ) - подтверждено f2. Поправка ФЗ-474 от 03.11.2023 учтена; устаревший лимит 500 000 руб. в тексте отсутствует.",
+    "Судебный приказ МФО по ст. 229.2 АПК до 500 000 руб. - f5, f11. Контекст корректен.",
+    "Госпошлина 0 руб. с 08.09.2024 (ст. 333.37 НК РФ, ред. ФЗ-176) - f15. Прежняя норма 300 руб. в тексте не упоминается.",
+    "Депозит 25 000 руб. на управляющего (ст. 213.4 п. 4 127-ФЗ) - f14. Отсрочка по ходатайству подтверждена.",
+    "Прожиточный минимум 20 644 руб. для трудоспособных в 2026 - f7. legislation_status: active.",
+    "Освобождение от долгов с исключениями (алименты, вред здоровью, текущие платежи, мошенничество) - f9. Ст. 213.28 п. 3-6. Контекст корректен.",
+    "Ограничения: 5 лет уведомление + 5 лет запрет на повторное банкротство + 3 года запрет должностей - f10. Ст. 213.30.",
+    "Приостановление исполнительных производств с момента введения процедуры - f12. Ст. 213.11.",
+    "Залоговое требование МФО - первая очередь, 80% выручки залогодержателю - f13. Ст. 99 п. 1 127-ФЗ.",
+    "Запрещённые утверждения из research.json не нарушены: иерархия МФО > банк не утверждается; 100% списание долгов не гарантировано; текущие платежи и алименты исключены."
+  ],
+  "keyword_density_main": 0.014,
+  "main_keyword_exact_count": 1,
+  "text_chars": 8204,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.085,
+  "local_spam_ngram3_repeat": 0.059,
+  "local_lexical_diversity": 0.597,
+  "local_ai_markers_density": 0.2,
+  "local_ai_markers_critical": 0,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1783685331/articles/bankrotstvo-dolgi-mfo-i-bank-odnovremenno-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1783685331/articles/bankrotstvo-dolgi-mfo-i-bank-odnovremenno-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Editorial photograph of a stone marble staircase inside an official administrative building, viewed from the base looking upward at ascending steps. Foreground: two sealed official envelopes and a closed dark leather portfolio with banking documents leaning against the marble column, a fountain pen positioned diagonally across the portfolio, a small brass seal resting on the lowest step. Railings: oxidized brass, deeply patinated. Staircase: weathered marble treads with a deep red carpet runner. Background: steps recede upward into soft architectural shadow, vaulted ceiling beyond. Lighting: cool daylight from high windows creates sharp shadow lines across each step, emphasizing vertical ascent. Materials: cool grey stone, warm brass patina, deep red fabric. Mood: multi-stage procedural escalation with strategic decision-making between competing financial creditors.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-07-10T12:08:52Z",
+  "length_status": "too_long",
+  "length_kind": "default",
+  "local_ai_markers_total": 2,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 2,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 55,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность выше 50% (~55%)",
+    "длина значительно больше лимита 6500 (8 204 знаков)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "spam_risk: 1 флагов (ngram3_repeat_share>0.055 (=0.059)), top-5: ['реестр', 'очеред', 'рубл', 'займ', 'просрочк']",
+    "targeted_tokens_over_limit: ст_сокращение=8(>≤5), 127фз_закон=5(>≤2)"
+  ],
+  "date_published": "2026-07-10",
+  "date_modified": "2026-07-10",
+  "ready_for_review": true,
+  "ready_at": "2026-07-10T12:08:55Z",
+  "publication_target": "telegram_review"
+}
