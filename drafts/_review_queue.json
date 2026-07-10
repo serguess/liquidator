@@ -4061,6 +4061,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "zashchita-doli-edinstvennogo-zhilya-ot-osparivaniya",
+      "category": "news",
+      "title": "Защита доли в единственном жилье от оспаривания",
+      "added_at": "2026-07-10T08:59:25.163122",
+      "char_count": 7504,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1783663159/articles/zashchita-doli-edinstvennogo-zhilya-ot-osparivaniya-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
