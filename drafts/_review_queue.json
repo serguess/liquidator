@@ -4048,6 +4048,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "proverka-kontragenta-na-risk-bankrotstva",
+      "category": "yur",
+      "title": "Проверка контрагента на риск банкротства: чек-лист",
+      "added_at": "2026-07-10T05:50:34.844203",
+      "char_count": 8119,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1783651832/articles/proverka-kontragenta-na-risk-bankrotstva-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
