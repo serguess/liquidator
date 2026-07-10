@@ -1,0 +1,108 @@
+{
+  "slug": "snizhennaya-cena-ne-delaet-sdelku-podozritelnoy-vs",
+  "category": "news",
+  "title": "ВС: сниженная цена не признак подозрительной сделки",
+  "description": "Верховный суд уточнил о сделках должника при банкротстве. Сниженная цена не основание оспаривания. Какие сделки считаются подозрительными и как защитить себя.",
+  "h1": "ВС РФ уточнил: сниженная цена не делает сделку должника подозрительной",
+  "lead": "1 июля 2026 года Верховный суд дал ориентир: не всякая покупка со скидкой у будущего банкрота автоматически становится подозрительной сделкой.",
+  "topic_action": "проверку рисков оспаривания сделки",
+  "breadcrumb_current": "Сниженная цена не признак подозрительной сделки",
+  "og_image": "/assets/articles/snizhennaya-cena-ne-delaet-sdelku-podozritelnoy-vs.jpg",
+  "main_keyword": "сниженная цена сделки должника",
+  "secondary_keywords": [
+    "оспаривание сделок должника при банкротстве",
+    "подозрительная сделка должника",
+    "определение Верховного суда",
+    "сделка по сниженной цене",
+    "защита от оспаривания сделок",
+    "арбитражный управляющий сделки должника",
+    "недостаточная цена сделки",
+    "критерии подозрительности сделок",
+    "сделка должника банкротство физлица",
+    "судебная практика оспаривание"
+  ],
+  "intent": "informational",
+  "funnel_stage": "cold",
+  "article_type": "B",
+  "offer": "proverka-spisaniya",
+  "event_date": "2026-07-01",
+  "news_zone": "vs_practice",
+  "internal_links": [
+    "/articles/fiz/avtomobil-pri-bankrotstve-fizlica",
+    "/articles/yur/dolya-ooo-pri-bankrotstve-uchreditelya"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/",
+    "https://rapsinews.ru/judicial_news/20260701/311995777.html"
+  ],
+  "faq": [
+    {
+      "question": "Может ли суд оспорить договор только из-за скидки при продаже квартиры?",
+      "answer": "Нет. Само по себе снижение цены при заключении договора не является основанием для признания его недействительным. Нужны либо объективная неравноценность обмена, либо доказанные умысел продавца и осведомлённость покупателя."
+    },
+    {
+      "question": "Чем неравноценность встречного исполнения отличается от сниженной цены?",
+      "answer": "Сниженная цена - маркетинговое или рыночное решение продавца. Неравноценность - объективное несоответствие рыночной стоимости актива и полученного эквивалента, которое устанавливается через оценку на дату соглашения."
+    },
+    {
+      "question": "Что обязан доказать арбитражный управляющий за трёхлетний период?",
+      "answer": "Три обстоятельства одновременно: намерение продавца причинить вред взыскателям, знание другой стороны об этом намерении и реальный ущерб имущественным правам кредиторов. Отсутствие любого элемента разрушает основание."
+    },
+    {
+      "question": "Какой ценовой разрыв суды считают существенной диспропорцией?",
+      "answer": "Устойчивый ориентир практики - 30-50 процентов и выше от справедливой рыночной стоимости. Показатель зависит от вида имущества и обстоятельств рынка, законом жёстко не закреплён."
+    },
+    {
+      "question": "Обязательно ли знать о банкротстве продавца, чтобы потерять купленное имущество?",
+      "answer": "Нет. В годичном окне достаточно объективной неравноценности - осведомлённость не проверяется. В трёхлетнем окне знание покупателя обязательно, и доказывать его должен управляющий."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "f4 (позиция ВС от 01.07.2026): source_url в research null, первоисточник - rapsinews.ru из brief.json; safe_phrasing применена, формулировка нейтральная",
+    "f5 (диапазон 30-50%): ориентир судебной практики, не закреплён в законе явно - в тексте содержится прямая оговорка об этом",
+    "Запрещённые утверждения из forbidden_claims в финальном тексте отсутствуют"
+  ],
+  "keyword_density_main": null,
+  "main_keyword_exact_count": null,
+  "text_chars": 6401,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.125,
+  "local_spam_ngram3_repeat": 0.039,
+  "local_lexical_diversity": 0.632,
+  "local_ai_markers_density": 0.24,
+  "local_ai_markers_critical": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1783664643/articles/snizhennaya-cena-ne-delaet-sdelku-podozritelnoy-vs-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1783664643/articles/snizhennaya-cena-ne-delaet-sdelku-podozritelnoy-vs-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Wide editorial photograph of a private executive office — high ceilings, tall windows with heavy drapes, walnut bookshelves lining the walls, oxblood leather chesterfield in corner. Large mahogany desk in foreground with: closed laptop, dark leather portfolio, fountain pen on polished brass stand, antique pocket watch on chain, and brass desk lamp casting warm light. Background through windows: city skyline at golden hour or cool evening light, softly blurred. Camera: three-quarter angle, slight low-angle emphasizing ceiling height and gravitas. Lighting: cool natural daylight from windows blended with warm tungsten desk lamp glow. Materials: walnut, oxblood leather, polished brass on neutral cream and graphite. Mood: senior counsel reviewing a landmark precedent.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-07-10T06:24:04Z",
+  "length_status": "too_long",
+  "length_kind": "news",
+  "local_ai_markers_total": 2,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 2,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 53,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность чуть выше 50% (~53%)",
+    "длина значительно больше лимита 5500 (6 401 знаков)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "spam_risk: 1 флагов (top10_share>0.115 (=0.125)), top-5: ['договор', 'покупател', 'рыночн', 'продавц', 'режим']",
+    "broken_internal_links: 1 ссылок без соответствия в published_index (/articles/yur/dolya-ooo-pri-bankrotstve-uchreditelya: slug 'dolya-ooo-pri-bankrotstve-uchreditelya' не найден в категории 'yur' (есть: нигде))"
+  ],
+  "date_published": "2026-07-10",
+  "date_modified": "2026-07-10",
+  "ready_for_review": true,
+  "ready_at": "2026-07-10T06:24:06Z",
+  "publication_target": "telegram_review"
+}

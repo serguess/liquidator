@@ -4074,6 +4074,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "snizhennaya-cena-ne-delaet-sdelku-podozritelnoy-vs",
+      "category": "news",
+      "title": "ВС: сниженная цена не признак подозрительной сделки",
+      "added_at": "2026-07-10T09:24:06.538383",
+      "char_count": 6401,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1783664643/articles/snizhennaya-cena-ne-delaet-sdelku-podozritelnoy-vs-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
