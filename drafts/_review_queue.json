@@ -4152,6 +4152,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "vzyskanie-dolga-s-sozaemshchika",
+      "category": "vzysk",
+      "title": "Взыскание долга с созаёмщика: право кредитора",
+      "added_at": "2026-07-12T00:39:07.378463",
+      "char_count": 8098,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1783805942/articles/vzyskanie-dolga-s-sozaemshchika-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
