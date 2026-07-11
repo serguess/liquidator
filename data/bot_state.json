@@ -7978,15 +7978,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 1893,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-10T00:32:47",
-      "last_action_at": "2026-07-10T00:32:47",
+      "last_action_at": "2026-07-10T10:03:39",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-07-10T00:32:47"
+      "pending_batch": false,
+      "pending_batch_at": "2026-07-10T00:32:47",
+      "batch_sent_at": "2026-07-10T10:03:39",
+      "batch_fail_count": 0
     },
     "proverka-kontragenta-na-risk-bankrotstva": {
       "category": "yur",
@@ -7996,15 +7998,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 1895,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-10T05:51:18",
-      "last_action_at": "2026-07-10T05:51:18",
+      "last_action_at": "2026-07-10T10:03:41",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-07-10T05:51:18"
+      "pending_batch": false,
+      "pending_batch_at": "2026-07-10T05:51:18",
+      "batch_sent_at": "2026-07-10T10:03:41",
+      "batch_fail_count": 0
     },
     "zashchita-doli-edinstvennogo-zhilya-ot-osparivaniya": {
       "category": "news",
@@ -8014,15 +8018,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 1897,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-10T08:59:40",
-      "last_action_at": "2026-07-10T08:59:40",
+      "last_action_at": "2026-07-10T10:03:43",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-07-10T08:59:40"
+      "pending_batch": false,
+      "pending_batch_at": "2026-07-10T08:59:40",
+      "batch_sent_at": "2026-07-10T10:03:43",
+      "batch_fail_count": 0
     },
     "snizhennaya-cena-ne-delaet-sdelku-podozritelnoy-vs": {
       "category": "news",
@@ -8032,19 +8038,57 @@
       "versions": [
         "2.0"
       ],
+      "tg_message_id": 1899,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-07-10T09:24:40",
+      "last_action_at": "2026-07-10T10:03:45",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-07-10T09:24:40",
+      "batch_sent_at": "2026-07-10T10:03:45",
+      "batch_fail_count": 0
+    },
+    "bankrotstvo-dolgi-mfo-i-bank-odnovremenno": {
+      "category": "fiz",
+      "title": "Банкротство при долгах перед МФО и банком одновременно",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
       "tg_message_id": null,
       "tg_chat_id": null,
-      "first_seen_at": "2026-07-10T09:24:40",
-      "last_action_at": "2026-07-10T09:24:40",
+      "first_seen_at": "2026-07-10T15:09:43",
+      "last_action_at": "2026-07-10T15:09:43",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
       "pending_batch": true,
-      "pending_batch_at": "2026-07-10T09:24:40"
+      "pending_batch_at": "2026-07-10T15:09:43"
+    },
+    "obyazannost-direktora-podat-zayavlenie-bankrotstvo": {
+      "category": "yur",
+      "title": "Обязанность директора подать заявление о банкротстве",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-07-11T00:46:48",
+      "last_action_at": "2026-07-11T00:46:48",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-07-11T00:46:48"
     }
   },
   "pending_actions": [],
-  "last_batch_date": "2026-07-09",
-  "last_batch_count": 5,
-  "last_batch_at": "2026-07-09T10:00:45"
+  "last_batch_date": "2026-07-10",
+  "last_batch_count": 4,
+  "last_batch_at": "2026-07-10T10:03:45"
 }
