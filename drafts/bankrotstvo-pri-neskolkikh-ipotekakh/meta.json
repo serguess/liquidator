@@ -1,0 +1,109 @@
+{
+  "slug": "bankrotstvo-pri-neskolkikh-ipotekakh",
+  "category": "fiz",
+  "title": "Банкротство при нескольких ипотеках: судьба имущества",
+  "description": "Что происходит с жильём при банкротстве физлица с несколькими ипотеками. Порядок реализации, очередность погашения долгов, права должника.",
+  "h1": "Банкротство при нескольких ипотеках: что будет с жильём и как защитить имущество",
+  "lead": "Разбираем, как распределяется выручка при двух ипотеках, можно ли сохранить хотя бы одну квартиру через реструктуризацию и что получат кредиторы после торгов.",
+  "topic_action": "проверку возможности списания долгов при ипотеке",
+  "breadcrumb_current": "Банкротство при нескольких ипотеках",
+  "og_image": "/assets/articles/bankrotstvo-pri-neskolkikh-ipotekakh.jpg",
+  "main_keyword": "банкротство при нескольких ипотеках",
+  "secondary_keywords": [
+    "несколько ипотек при банкротстве физлица",
+    "что будет с квартирой при банкротстве",
+    "реализация имущества при ипотеке",
+    "порядок погашения ипотечных долгов при банкротстве",
+    "защита жилья при банкротстве",
+    "судьба квартиры при банкротстве должника",
+    "ипотека и банкротство физического лица",
+    "конкурсная масса при ипотеке",
+    "продажа имущества в конкурсном производстве"
+  ],
+  "internal_links": [
+    "/articles/fiz/avtomobil-pri-bankrotstve-fizlica",
+    "/articles/fiz/bankovskie-scheta-pri-bankrotstve"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/",
+    "https://www.consultant.ru/document/cons_doc_LAW_382961/"
+  ],
+  "faq": [
+    {
+      "question": "Можно ли сохранить единственную ипотечную квартиру при банкротстве?",
+      "answer": "Единственный работающий путь - утвердить план реструктуризации, в котором ипотечные взносы идут полностью и без перебоев. Просрочка на плане - и объект возвращается на торги. Полной гарантии закон не даёт."
+    },
+    {
+      "question": "Что произойдёт со вторым залогодержателем, если выручки от продажи не хватит?",
+      "answer": "Второй кредитор получает деньги только из остатка после первого. Остатка нет - переходит в общую очередь и делит котёл с картами, микрофинансами и поручительствами. Приоритет по залогу теряется."
+    },
+    {
+      "question": "Сколько возьмёт финансовый управляющий из суммы от реализации жилья?",
+      "answer": "Фиксированная часть - 25 000 рублей за процедуру. Плюс 7% от выручки за реализованное имущество. Обе суммы вычитаются из денег торгов до расчётов с ипотечными кредиторами."
+    },
+    {
+      "question": "Обязательно ли продавать квартиру, если она полностью выплачена?",
+      "answer": "Да, любое имущество на дату признания банкротом попадает в конкурсную массу (ст. 213.25 п. 1 127-ФЗ). Без обременения выручка идёт всем кредиторам пропорционально их требованиям."
+    },
+    {
+      "question": "Спишут ли остаток по кредиту, если объект ушёл с торгов дешевле долга?",
+      "answer": "Может списать - по правилу о добросовестности. Условие: залогодержатель заявил требование в реестр и арбитраж не увидел признаков сокрытия имущества или ложных сведений."
+    },
+    {
+      "question": "Чем роскошное жильё отличается от обычного при проверке арбитражем?",
+      "answer": "Признаки роскоши - площадь и стоимость, явно превышающие разумные потребности семьи. Например, 400 квадратов на двоих или дом за 80 миллионов. Типовые двух- и трёхкомнатные квартиры под этот сценарий не подпадают."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все факты сверены с research.json. Большинство имеют last_verified: 2026-07-11, legislation_status: active.",
+    "f5 (ст. 91-92, торги): needs_verification. В тексте конкретные проценты не упоминаются - использована safe_phrasing 'повторные торги с более низким минимумом'. Безопасно.",
+    "f9 (ст. 213.24, срок процедуры): needs_verification. Конкретный срок 6 месяцев в тексте не фигурирует. Безопасно.",
+    "Вознаграждение управляющего 25 000 руб. + 7% (п. 17 ст. 20.6, п. 3 ст. 213.9 127-ФЗ) - контекст применения верный, привязан к процедуре реализации имущества.",
+    "Постановление КС РФ № 15-П от 26.04.2021 - оговорка о неабсолютности иммунитета присутствует. Forbidden claims соблюдены: нет обещания полного списания ипотечного долга, нет гарантии сохранения квартиры.",
+    "Ссылки на нормы 'норма X' заменены на 'ст. X' для снижения заспама по лемме 'норма'."
+  ],
+  "keyword_density_main": 0.015,
+  "main_keyword_exact_count": 2,
+  "text_chars": 8055,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.116,
+  "local_spam_ngram3_repeat": 0.024,
+  "local_lexical_diversity": 0.567,
+  "local_ai_markers_density": 0.2,
+  "local_ai_markers_critical": 0,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1783771813/articles/bankrotstvo-pri-neskolkikh-ipotekakh-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1783771813/articles/bankrotstvo-pri-neskolkikh-ipotekakh-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Photograph of a private office interior with low-key lighting. Materials: deep walnut paneling, oxblood leather chair with brass library lamp beside it, vintage brown leather chesterfield in corner. Desk in foreground: closed laptop positioned to one side, leather-bound notebook opened beside a fountain pen resting on a stand, polished brass round seal, antique pocket watch showing the hour. Background: soft-focused bookshelves with legal volumes OR dark window with city lights bokeh. Camera: three-quarter angle, eye-level. Lighting: single warm tungsten desk lamp casting focused illumination across desk, deep ambient shadows. Mood: solitary deliberation on property preservation amid multiple financial obligations, late-night strategic assessment of estate fate in bankruptcy circumstances.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-07-11T12:10:14Z",
+  "length_status": "too_long",
+  "length_kind": "default",
+  "local_ai_markers_total": 2,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 1,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 60,
+  "predicted_ai_pct": 6,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность заметно выше 50% (~60%)",
+    "длина значительно больше лимита 6500 (8 055 знаков)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "spam_risk: 4 флагов (top3_sum>30 (=32), top10_sum>80 (=89), top10_share>0.115 (=0.116), lexical_diversity<0.58 (=0.567)), top-5: ['кредитор', 'арбитраж', 'втор', 'объект', 'план']",
+    "targeted_tokens_over_limit: ст_сокращение=11(>≤5), 127фз_закон=6(>≤2), 213_артикул=7(>≤3)",
+    "author_markers_missing: 1 < 2"
+  ],
+  "date_published": "2026-07-11",
+  "date_modified": "2026-07-11",
+  "ready_for_review": true,
+  "ready_at": "2026-07-11T12:10:15Z",
+  "publication_target": "telegram_review"
+}
