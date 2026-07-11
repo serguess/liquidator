@@ -4139,6 +4139,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "realizaciya-zalogovogo-imushchestva-bankrotstvo",
+      "category": "yur",
+      "title": "Реализация залогового имущества при банкротстве компании",
+      "added_at": "2026-07-11T20:17:01.726282",
+      "char_count": 7760,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1783790215/articles/realizaciya-zalogovogo-imushchestva-bankrotstvo-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

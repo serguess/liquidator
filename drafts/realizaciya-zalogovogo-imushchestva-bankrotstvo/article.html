@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Реализация залогового имущества при банкротстве компании</title>
+  <meta name="description" content="Как происходит реализация залога в процедурах банкротства, какой приоритет у залоговых требований, сроки и последовательность продажи имущества." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://pravo.shop/articles/yur/realizaciya-zalogovogo-imushchestva-bankrotstvo" />
+
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="Реализация залогового имущества при банкротстве компании" />
+  <meta property="og:description" content="Как происходит реализация залога в процедурах банкротства, какой приоритет у залоговых требований, сроки и последовательность продажи имущества." />
+  <meta property="og:image" content="https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1783790215/articles/realizaciya-zalogovogo-imushchestva-bankrotstvo-cover.jpg" />
+  <meta property="og:url" content="https://pravo.shop/articles/yur/realizaciya-zalogovogo-imushchestva-bankrotstvo" />
+
+  <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16.png" />
+  <link rel="icon" type="image/svg+xml" href="/assets/logo.svg" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon-180.png" />
+  <link rel="manifest" href="/site.webmanifest" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Unbounded:wght@400;500;600;700;800&family=Manrope:wght@300;400;500;600;700&family=Onest:wght@400;500;600;700&family=Cormorant+Garamond:ital,wght@0,700;1,700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@400;500;600;700;800&family=Manrope:wght@300;400;500;600;700&family=Onest:wght@400;500;600;700&family=Cormorant+Garamond:ital,wght@0,700;1,700&display=swap" rel="stylesheet"></noscript>
+
+  <link rel="stylesheet" href="/styles.css?v=28" />
+
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Реализация залогового имущества при банкротстве компании",
+  "description": "Как происходит реализация залога в процедурах банкротства, какой приоритет у залоговых требований, сроки и последовательность продажи имущества.",
+  "image": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1783790215/articles/realizaciya-zalogovogo-imushchestva-bankrotstvo-cover.jpg",
+  "datePublished": "2026-07-11",
+  "dateModified": "2026-07-11",
+  "author": {
+    "@type": "Organization",
+    "name": "ООО «ЛИКВИДАТОР»",
+    "url": "https://pravo.shop/",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "/assets/logo.svg"
+    },
+    "description": "Юридическая компания: банкротство физических и юридических лиц, взыскание задолженности. Опыт более 10 лет, более 800 завершённых дел.",
+    "knowsAbout": [
+      "банкротство юридических лиц",
+      "127-ФЗ",
+      "ликвидация",
+      "субсидиарная ответственность"
+    ]
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "ООО «ЛИКВИДАТОР»",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "/assets/logo.svg"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://pravo.shop/articles/yur/realizaciya-zalogovogo-imushchestva-bankrotstvo"
+  },
+  "articleSection": "Юридические лица"
+}
+</script>
+
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Главная",
+      "item": "https://pravo.shop/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Юридические лица",
+      "item": "https://pravo.shop/category/all?cat=yur"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Реализация залогового имущества при банкротстве компании"
+    }
+  ]
+}
+</script>
+
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Какой процент выручки от продажи получает залогодержатель?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Обычный режим - 70 процентов. Банковский, покрывающий кредит организации, - 80. Ещё 10-20 идёт очередникам первой и второй ступени, 10 - на расходы производства."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Можно ли оставить заложенный актив за собой, если торги дважды не состоялись?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Да. Кредитор получает право забрать объект себе, зачтя стоимость в счёт долга. Если цена выше суммы - разницу нужно вернуть в общую массу в течение 10 дней."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Что будет с претензией, если пропущен срок включения в реестр?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Становится зареестровой. Привилегия теряется, само обременение как юридический факт сохраняется, но в деле о несостоятельности - нет. Погашение идёт после полного расчёта с реестровыми участниками."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Чем банковский режим отличается от обычного при распределении выручки?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Долей выручки: 80 против 70 процентов. И условием применения - повышенная ставка работает, только если объект оформлен под кредит организации. Обычный поставщик с ипотекой банковский процент не получит."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Сколько времени занимает продажа заложенного актива?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "От 3 месяцев для ликвидного движимого имущества до 12 и более для промышленной недвижимости. Конкретные сроки зависят от типа имущества и сложности дела."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Вправе ли управляющий оспорить обременение, оформленное до введения процедуры?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Да, при наличии оснований. Год до банкротства - при неравноценном встречном предоставлении. Три года - при доказанном намерении навредить взыскателям."
+      }
+    }
+  ]
+}
+</script>
+
+  <!-- Yandex.Metrika counter -->
+  <script type="text/javascript">
+      (function(m,e,t,r,i,k,a){
+          m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+          m[i].l=1*new Date();
+          for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+          k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)
+      })(window, document,'script','https://mc.yandex.ru/metrika/tag.js?id=109116085', 'ym');
+
+      ym(109116085, 'init', {ssr:true, webvisor:false, clickmap:true, ecommerce:"dataLayer", referrer: document.referrer, url: location.href, accurateTrackBounce:true, trackLinks:true});
+  </script>
+  <noscript><div><img src="https://mc.yandex.ru/watch/109116085" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+  <!-- /Yandex.Metrika counter -->
+</head>
+<body class="article-page">
+
+  <header class="header" id="header">
+  <div class="header__inner">
+    <button class="header__burger" id="headerBurger" type="button" aria-label="Меню" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="header__nav header__nav--left">
+      <a href="/#services">УСЛУГИ</a>
+      <a href="/#cases">КЕЙСЫ</a>
+    </nav>
+    <a href="/" class="header__brand">
+      <img src="/assets/logo.svg" alt="" class="header__logo" onerror="this.style.display='none'"/>
+      <span class="header__brand-text">ЛИКВИДАТОР</span>
+    </a>
+    <nav class="header__nav header__nav--right">
+      <a href="/#knowledge">БАЗА ЗНАНИЙ</a>
+      <a href="/#footer">КОНТАКТЫ</a>
+    </nav>
+  </div>
+  <div class="header__mobile-menu" id="headerMobileMenu" aria-hidden="true">
+    <a href="/#services" data-close>УСЛУГИ</a>
+    <a href="/#cases" data-close>КЕЙСЫ</a>
+    <a href="/#knowledge" data-close>БАЗА ЗНАНИЙ</a>
+    <a href="/#footer" data-close>КОНТАКТЫ</a>
+  </div>
+</header>
+
+  <main class="article">
+    <div class="article__container">
+      <nav class="article__breadcrumbs" aria-label="Хлебные крошки">
+  <a href="/">Главная</a>
+  <span class="article__bc-sep">/</span>
+  <a href="/category/all?cat=yur">Юридические лица</a>
+  <span class="article__bc-sep">/</span>
+  <span class="article__bc-current">Реализация залогового имущества при банкротстве компании</span>
+</nav>
+
+      <div class="article__head">
+  <span class="article__tag">Юридические лица</span>
+  <h1 class="article__title">Реализация залогового имущества при банкротстве компании: порядок и приоритеты</h1>
+  <p class="article__lead">Залоговый кредитор получает приоритет при реализации обремененного имущества в конкурсном производстве, но только при соблюдении процедурных требований. Разбираем приоритеты, сроки и три типичные ошибки, которые стоят залоговой привилегии.</p>
+  <div class="article__meta">
+    <span class="article__meta-item">
+      <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="3" y="5" width="18" height="16" rx="2" stroke="currentColor" stroke-width="1.6"/><path d="M3 9h18M8 3v4M16 3v4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+      11 июля 2026
+    </span>
+    <span class="article__meta-item">
+      <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.6"/><path d="M12 7v5l3 2" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+      5 минут чтения
+    </span>
+  </div>
+</div>
+
+      <div class="article__cover" style="background-image:url('https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1783790215/articles/realizaciya-zalogovogo-imushchestva-bankrotstvo-cover.jpg')"></div>
+
+      <article class="article__body">
+
+<p>Договор подписан два года назад. Оборудование стоит на балансе должника, ипотека - на цехе. Теперь заёмщик уходит в конкурсное производство, и в кабинете лежит определение арбитражного суда с фамилией управляющего. Вопрос простой: сколько денег вернётся и когда.</p>
+
+<p>Приоритет по обеспечению - не автоматическая гарантия. Доли выручки прописаны законом, сроки торгов сдвигаются, а привилегия теряется от одной неаккуратной формулировки в заявлении к реестру. По нашему опыту 4 из 10 обращений приходят уже после пропущенного срока: помочь можно лишь частично.</p>
+
+<button type="button" class="article__cta--hero" data-open-modal="contactsModal" data-source="article-realizaciya-zalogovogo-imushchestva-bankrotstvo-1">
+  <span>Получить бесплатную оценку: защиту интересов залогового кредитора при банкротстве →</span>
+</button>
+
+<h2>Что происходит с обременением при несостоятельности</h2>
+
+<p>Открытие конкурсной процедуры договор не отменяет. Ипотека или залог остаются, а вот механизм получения денег меняется полностью. Продажу ведёт арбитражный управляющий, а выручка распределяется по установленной формуле.</p>
+
+<p>Держателю обеспечения достаётся 70 процентов выручки при обычном режиме и 80 - при банковском. Ещё 20 или 10 идёт очередникам первой и второй ступени: работникам, взыскателям по алиментам и компенсациям за здоровье. Оставшиеся 10 - на судебные расходы и вознаграждение управляющего.</p>
+
+<p>Если продажа не покрыла всю сумму долга, недобранный остаток дописывается в реестр третьей очередью, но уже без привилегии. Главное условие: претензия подана в срок и с явной ссылкой на обременение. Без этой пометки суд впишет вас как обычного кредитора.</p>
+
+<h2>Как считается доля держателя обеспечения</h2>
+
+<p>Формула зависит от того, какой договор лежит в основе. Смешивать эти два режима - типовая ошибка, которая обходится в проценты дохода.</p>
+
+<h3>Обычный режим: 70/20/10</h3>
+
+<p>Поставщик берёт в обеспечение станочный парк. Компания-должник уходит в процедуру, актив продаётся. Из вырученной суммы поставщику поступают 70 процентов, 20 - зарплатникам и алиментщикам, 10 - на расходы производства.</p>
+
+<p>Если очередников первой и второй ступени нет, эти 20 процентов отходят держателю обеспечения. Уже не 70, а 90 процентов от суммы торгов.</p>
+
+<h3>Банковский режим: 80/10/10</h3>
+
+<p>Здесь повышенная доля - 80 процентов. Работает только при одном сценарии: ипотека или иная гарантия оформлена под кредит банка. Обычный поставщик, даже с ипотекой на здание должника, банковский процент не получит. В нашей практике это встречается постоянно: банк-держатель считает свою долю по повышенной ставке, поставщик из соседнего дела - по стандартной.</p>
+
+<p>Если сумма от продажи выше долга, излишек уходит в общую массу. Если ниже - разница фиксируется в реестре третьей очередью без привилегии.</p>
+
+<h2>Порядок публичных торгов</h2>
+
+<p>Реализация в конкурсной процедуре строится из четырёх последовательных этапов. Управляющий не может пропустить или сжать любой из них по своему усмотрению.</p>
+
+<h3>Этап 1. Независимая оценка</h3>
+
+<p>Управляющий привлекает оценщика со стороны. Тот определяет рыночную цену недвижимости, оборудования, транспорта. Начальная цена лота не может быть ниже полученной оценки. Если результат занижен, держатель обеспечения вправе его оспорить в арбитраже.</p>
+
+<h3>Этап 2. Единый комплекс или отдельные лоты</h3>
+
+<p>Сначала актив выставляется целиком, как предприятие или производственный объект. Если торги в таком формате не состоялись либо объединение экономически бессмысленно, управляющий разбивает актив на лоты.</p>
+
+<h3>Этап 3. Первые и повторные торги</h3>
+
+<p>Публикация обязательна в ЕФРСБ. Первые проводятся по стартовой цене оценки. Не состоялись - назначаются повторные, обычно с понижением. Формат открытый, любой участник рынка вправе подать заявку.</p>
+
+<h3>Этап 4. Право взять актив за себя</h3>
+
+<p>Дважды несостоявшиеся торги открывают кредитору особую опцию: оставить объект себе, зачтя стоимость в счёт своего долга. Нюанс: если стоимость выше суммы долга, разницу нужно перечислить в общую массу за 10 дней. Не перечислили - актив возвращается на торги.</p>
+
+<p>Сроки реализации не имеют жёсткого дедлайна. На практике: от 3 месяцев для ликвидной техники до 12 и дольше для промышленной недвижимости.</p>
+
+<button type="button" class="article__cta--hero" data-open-modal="contactsModal" data-source="article-realizaciya-zalogovogo-imushchestva-bankrotstvo-2">
+  <span>Узнать подробности и обсудить ситуацию →</span>
+</button>
+
+<h2>Кому статус даёт защиту, а кому - только видимость</h2>
+
+<p>Не каждая сторона договора одинаково защищена. Разберём три сценария из нашей практики.</p>
+
+<p><strong>Сильная позиция.</strong> Банк взял в ипотеку здание по адекватной оценке, включился в реестр в срок, в заявлении прямо указал: гарантия зафиксирована таким-то договором по такому-то объекту. Он получает 80 процентов выручки в приоритетном порядке. Если сумма не покрыла долг - остаток идёт третьей очередью в общее распределение.</p>
+
+<p><strong>Ограниченная защита.</strong> Актив обесценился: оборудование морально устарело, здание требует ремонта, оценка ниже суммы кредита. Кредитор получает свою долю, но она покрывает лишь часть задолженности. Разница уходит в третью очередь без гарантий получения.</p>
+
+<p><strong>Формальный статус без приоритета.</strong> Кредитор не указал в заявлении обеспеченный характер. Или указал, но не описал предмет - только реквизиты договора. Или пропустил срок подачи. В любом из этих случаев привилегия теряется, претензия становится обычной или зареестровой. Погашение - из того, что осталось после расчёта с реестровыми участниками. Ключевое правило: при подготовке заявления недостаточно упомянуть договор. Нужно прямо указать, что требование обеспечено, описать конкретный предмет и приложить документы.</p>
+
+<h2>Три обстоятельства, из-за которых привилегия уходит</h2>
+
+<p>Утрата приоритета - не редкая экзотика, а типовой сценарий. Мы советуем помнить о трёх основаниях, каждое работает независимо от остальных.</p>
+
+<h3>Пропуск реестрового срока</h3>
+
+<p>Опоздали с подачей - претензия становится зареестровой. Само обременение юридически сохраняется, но привилегия в деле о несостоятельности утрачивается. Практически: сначала полностью удовлетворяются реестровые кредиторы, а вы получаете деньги из того, что осталось. Часто не остаётся ничего.</p>
+
+<h3>Отсутствие явного указания на обеспеченный характер</h3>
+
+<p>Заявление подано, документы приложены, договор упомянут, а слов «обеспечено залогом» с описанием предмета нет. Суд включает такую претензию в третью очередь без привилегии. Формальной ссылки на реквизиты договора здесь недостаточно - нужна прямая формулировка.</p>
+
+<h3>Оспаривание как подозрительной сделки</h3>
+
+<p>Управляющий вправе обратиться в арбитраж с просьбой признать договор недействительным. Основания: обременение оформлено менее чем за 1 год до банкротства при неравноценном встречном предоставлении, или менее чем за 3 года при цели навредить взыскателям. Успешное оспаривание - актив возвращается в общую массу, а привилегия аннулируется. Особенно уязвимы гарантии, которыми покрыты долги перед аффилированными лицами накануне процедуры.</p>
+
+<button type="button" class="article__cta--hero" data-open-modal="contactsModal" data-source="article-realizaciya-zalogovogo-imushchestva-bankrotstvo-3">
+  <span>Оставить заявку на защиту интересов залогового кредитора при банкротстве →</span>
+</button>
+
+<div class="article__disclaimer">
+  Материал носит информационный характер и не является юридической консультацией. Использование возможно только со ссылкой на источник <a href="https://pravo.shop">pravo.shop</a>.
+</div>
+
+<h2>Частые вопросы о реализации залога при банкротстве компании</h2>
+
+<h3>Какой процент выручки от продажи получает залогодержатель?</h3>
+
+<p>Обычный режим - 70 процентов. Банковский, покрывающий кредит организации, - 80. Ещё 10-20 идёт очередникам первой и второй ступени, 10 - на расходы производства.</p>
+
+<h3>Можно ли оставить заложенный актив за собой, если торги дважды не состоялись?</h3>
+
+<p>Да. Кредитор получает право забрать объект себе, зачтя стоимость в счёт долга. Если цена выше суммы - разницу нужно вернуть в общую массу в течение 10 дней.</p>
+
+<h3>Что будет с претензией, если пропущен срок включения в реестр?</h3>
+
+<p>Становится зареестровой. Привилегия теряется, само обременение как юридический факт сохраняется, но в деле о несостоятельности - нет. Погашение идёт после полного расчёта с реестровыми участниками.</p>
+
+<h3>Чем банковский режим отличается от обычного при распределении выручки?</h3>
+
+<p>Долей выручки: 80 против 70 процентов. И условием применения - повышенная ставка работает, только если объект оформлен под кредит организации. Обычный поставщик с ипотекой банковский процент не получит.</p>
+
+<h3>Сколько времени занимает продажа заложенного актива?</h3>
+
+<p>От 3 месяцев для ликвидного движимого имущества до 12 и более для промышленной недвижимости. Конкретные сроки зависят от типа имущества и сложности дела.</p>
+
+<h3>Вправе ли управляющий оспорить обременение, оформленное до введения процедуры?</h3>
+
+<p>Да, при наличии оснований. Год до банкротства - при неравноценном встречном предоставлении. Три года - при доказанном намерении навредить взыскателям.</p>
+
+      </article>
+
+      <aside class="article__author article__author--company">
+  <div class="article__author-avatar article__author-avatar--logo" aria-hidden="true">
+    <img src="/assets/logo.svg" alt="" onerror="this.style.display='none'"/>
+  </div>
+  <div class="article__author-body">
+    <div class="article__author-name">ООО «ЛИКВИДАТОР»</div>
+    <div class="article__author-role">Компания по списанию и взысканию задолженности, опыт более 10 лет</div>
+    <p class="article__author-bio">Завершено более 800 дел о банкротстве. Списано более 1 млрд. рублей, взыскано более 500 млн. рублей. Бесплатная консультация в день обращения.</p>
+  </div>
+</aside>
+
+      <section class="article__related">
+  <h2 class="article__related-title">Читайте также</h2>
+  <div class="article__related-grid" id="relatedGrid" data-cat="yur" data-slug="realizaciya-zalogovogo-imushchestva-bankrotstvo" data-base="/"></div>
+</section>
+    </div>
+  </main>
+
+  <div class="contacts-modal" id="contactsModal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="leadModalTitle">
+  <div class="contacts-modal__backdrop" data-close-modal></div>
+  <div class="contacts-modal__dialog">
+    <div class="contacts__card">
+      <button class="contacts-modal__close" type="button" aria-label="Закрыть" data-close-modal>
+        <svg viewBox="0 0 24 24" fill="none"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      </button>
+      <img class="contacts__lion" src="/assets/logo.svg" alt="" aria-hidden="true"/>
+      <form class="contacts__form" id="leadForm" novalidate>
+        <h2 class="contacts__title">ЗАПОЛНИТЬ ФОРМУ</h2>
+        <p class="contacts__subtitle">Начнем с заявки</p>
+        <div class="contacts__field">
+          <input class="contacts__input" type="text" name="name" id="leadName" placeholder="Ваше имя" autocomplete="name" required/>
+        </div>
+        <div class="contacts__field">
+          <input class="contacts__input" type="tel" name="phone" id="leadPhone" placeholder="+7 (___) ___-__-__" autocomplete="tel" inputmode="tel" required/>
+        </div>
+        <input type="text" name="_hp" id="leadHp" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;top:-9999px;width:1px;height:1px;opacity:0;pointer-events:none;"/>
+        <label class="contacts__consent">
+          <input type="checkbox" id="leadConsent" class="contacts__consent-input"/>
+          <span class="contacts__checkmark" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M5 12l5 5 9-11" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </span>
+          <span class="contacts__consent-text">Согласен на обработку персональных данных</span>
+        </label>
+        <button class="contacts__submit" id="leadSubmit" type="submit"><span>ОСТАВИТЬ ЗАЯВКУ</span></button>
+        <p class="contacts__status" id="leadStatus" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </div>
+</div>
+
+  <footer class="footer" id="footer">
+  <div class="footer__bg" aria-hidden="true"></div>
+  <div class="footer__container">
+    <div class="footer__grid">
+      <div class="footer__brand">
+        <div class="footer__logo-row">
+          <div class="footer__logo">
+            <img src="/assets/logo.svg" alt="Ликвидатор" onerror="this.style.display='none'"/>
+          </div>
+          <span class="footer__brand-name">ЛИКВИДАТОР</span>
+        </div>
+        <p class="footer__tagline">Реальные дела. Реальные результаты.</p>
+        <p class="footer__descr">Помогаем физическим и юридическим лицам списать или вернуть долги и начать новую жизнь. Полное сопровождение на всех этапах.</p>
+        <div class="footer__badge">
+          <div class="footer__badge-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12 2l9 4v6c0 5.5-3.8 10.3-9 12-5.2-1.7-9-6.5-9-12V6l9-4z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/>
+              <path d="M8 12.5l2.8 2.8L16 10" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <div class="footer__badge-text">
+            <strong>Надёжность и законность</strong>
+            <span>Работаем в рамках ФЗ и действующего законодательства РФ.</span>
+          </div>
+        </div>
+      </div>
+      <div class="footer__col">
+        <h4 class="footer__col-title">РЕКВИЗИТЫ</h4>
+        <ul class="footer__list footer__list--plain">
+          <li>ООО «ЛИКВИДАТОР»</li>
+          <li>ИНН 6685155067</li>
+          <li>КПП 667101001</li>
+          <li>ОГРН 1186658079728</li>
+        </ul>
+        <a href="/payment" class="footer__pay" aria-label="Онлайн оплата">
+          <div class="footer__pay-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="3" y="6" width="18" height="12" rx="2" stroke="currentColor" stroke-width="1.7"/>
+              <path d="M3 10h18M7 15h4" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <div class="footer__pay-text">
+            <strong>Онлайн оплата</strong>
+            <span>Безопасная оплата услуг</span>
+          </div>
+          <svg class="footer__pay-arrow" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </a>
+      </div>
+      <div class="footer__col footer__col--contacts">
+        <h4 class="footer__col-title">КОНТАКТЫ</h4>
+        <ul class="footer__list">
+          <li>
+            <a href="tel:+78000000000" class="footer__contact">
+              <span class="footer__contact-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M5 4h4l2 5-3 2a12 12 0 0 0 5 5l2-3 5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/>
+                </svg>
+              </span>
+              <span class="footer__contact-text">
+                <strong>8 800 ХХХ-ХХ-ХХ</strong>
+                <span>Бесплатно по России</span>
+              </span>
+            </a>
+          </li>
+          <li>
+            <a href="mailto:info@pravo.shop" class="footer__contact">
+              <span class="footer__contact-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <rect x="3" y="5" width="18" height="14" rx="2" stroke="currentColor" stroke-width="1.7"/>
+                  <path d="M3 7l9 7 9-7" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/>
+                </svg>
+              </span>
+              <span class="footer__contact-text">
+                <strong>info@pravo.shop</strong>
+                <span>Электронная почта</span>
+              </span>
+            </a>
+          </li>
+          <li>
+            <a href="https://yandex.ru/maps/?text=%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0%2C%20%D1%83%D0%BB.%20%D0%94%D0%BE%D0%B1%D1%80%D0%BE%D0%BB%D1%8E%D0%B1%D0%BE%D0%B2%D0%B0%2C%203%20%D1%81%D1%82%D1%80.%201" target="_blank" rel="noopener" class="footer__contact">
+              <span class="footer__contact-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M12 22s8-7.5 8-13a8 8 0 1 0-16 0c0 5.5 8 13 8 13z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/>
+                  <circle cx="12" cy="9" r="3" stroke="currentColor" stroke-width="1.7"/>
+                </svg>
+              </span>
+              <span class="footer__contact-text">
+                <strong>г. Москва, ул. Добролюбова, 3 стр. 1</strong>
+                <span>Построить маршрут</span>
+              </span>
+            </a>
+          </li>
+        </ul>
+        <div class="footer__socials">
+          <a href="#" aria-label="WhatsApp" class="footer__social footer__social--wa">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M20.5 12a8.5 8.5 0 1 0-15.9 4.2L4 20l3.9-.6A8.5 8.5 0 0 0 20.5 12z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/>
+              <path d="M9 9c.3-.7.8-1 1.3-1 .7 0 1 .5 1.3 1.2.3.9-.3 1.4-.3 1.8.6 1.2 1.5 2 2.6 2.6.3 0 .9-.6 1.7-.3.8.3 1.3.7 1.3 1.4 0 .6-.3 1-1 1.3-1.8.9-6.5-2-7-5.1-.1-.5 0-1.4.1-1.9z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
+            </svg>
+          </a>
+          <a href="#" aria-label="Telegram" class="footer__social footer__social--tg">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M21 5L3 11l6 2 2 6 3-4 5 4 2-14z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/>
+            </svg>
+          </a>
+          <a href="#" aria-label="Max" class="footer__social footer__social--max">
+            <img src="/assets/Max_logo.svg" alt="Max" />
+          </a>
+        </div>
+      </div>
+      <div class="footer__col footer__col--business">
+        <h4 class="footer__col-title">ДЛЯ БИЗНЕСА</h4>
+        <ul class="footer__list footer__biz">
+          <li>
+            <span class="footer__biz-role">Юридическое сопровождение</span>
+            <a href="mailto:law@pravo.shop" class="footer__biz-mail">law@pravo.shop</a>
+          </li>
+          <li>
+            <span class="footer__biz-role">Коммерческие предложения</span>
+            <a href="mailto:biz@pravo.shop" class="footer__biz-mail">biz@pravo.shop</a>
+          </li>
+          <li>
+            <span class="footer__biz-role">Взаимодействие<br>со СМИ</span>
+            <a href="mailto:pr@pravo.shop" class="footer__biz-mail">pr@pravo.shop</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p class="footer__copy">© 2018-2026 ООО «ЛИКВИДАТОР». Все права защищены.</p>
+      <div class="footer__links">
+        <a href="/privacy">Политика персональных данных</a>
+        <a href="/terms">Пользовательское соглашение</a>
+      </div>
+      <p class="footer__disclaimer">
+        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M12 2l9 4v6c0 5.5-3.8 10.3-9 12-5.2-1.7-9-6.5-9-12V6l9-4z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
+        </svg>
+        <span>Информация на сайте не является публичной офертой.</span>
+      </p>
+    </div>
+  </div>
+</footer>
+
+  <script>
+(function loadRelated() {
+  const grid = document.getElementById('relatedGrid');
+  if (!grid) return;
+  const base = grid.dataset.base || '';
+  const cat = grid.dataset.cat;
+  const slug = grid.dataset.slug;
+  const isAbsoluteUrl = (s) => /^(https?:)?\/\//i.test(s || '');
+  fetch(base + 'articles.json', { cache: 'no-cache' })
+    .then(r => r.json())
+    .then(data => {
+      const same = data.articles.filter(a => a.cat === cat && a.slug !== slug).slice(0, 3);
+      const pool = same.length >= 3 ? same : same.concat(
+        data.articles.filter(a => a.slug !== slug && a.cat !== cat).slice(0, 3 - same.length)
+      );
+      if (!pool.length) { grid.style.display = 'none'; return; }
+      grid.innerHTML = pool.map(a => {
+        const imgUrl = isAbsoluteUrl(a.img) ? a.img : (base + a.img);
+        return `
+        <a class="related-card" href="${base}${a.url}" style="background-image:linear-gradient(180deg, rgba(10,13,18,0.1) 0%, rgba(10,13,18,0.85) 100%), url('${imgUrl}')">
+          <span class="related-card__tag">${a.catLabel}</span>
+          <h3 class="related-card__title">${a.title}</h3>
+          <div class="related-card__meta">${a.date} - ${a.read}</div>
+        </a>`;
+      }).join('');
+    })
+    .catch(() => { grid.style.display = 'none'; });
+})();
+</script>
+
+  <script src="/script.js?v=16"></script>
+
+</body>
+</html>
