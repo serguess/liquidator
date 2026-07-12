@@ -8115,7 +8115,7 @@
     "sudebnye-rashody-ne-tekushchie-platezhi-bankrotstvo": {
       "category": "news",
       "title": "Судебные расходы и текущие платежи в банкротстве",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -8123,14 +8123,16 @@
       "tg_message_id": 1905,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-11T08:56:21",
-      "last_action_at": "2026-07-11T10:00:24",
+      "last_action_at": "2026-07-12T16:03:11",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/news/sudebnye-rashody-ne-tekushchie-platezhi-bankrotstvo",
       "pending_batch": false,
       "pending_batch_at": "2026-07-11T08:56:21",
       "batch_sent_at": "2026-07-11T10:00:24",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-07-12T16:03:11",
+      "articles_path": "articles/news/sudebnye-rashody-ne-tekushchie-platezhi-bankrotstvo.html"
     },
     "bankrotstvo-pri-neskolkikh-ipotekakh": {
       "category": "fiz",

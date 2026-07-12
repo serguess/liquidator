@@ -2,6 +2,19 @@
   "generated": "2026-07-12",
   "articles": [
     {
+      "slug": "sudebnye-rashody-ne-tekushchie-platezhi-bankrotstvo",
+      "cat": "news",
+      "catLabel": "Новости",
+      "title": "Судебные расходы и текущие платежи в банкротстве",
+      "desc": "Постановление Верховного суда: судебные расходы не включаются в текущие платежи при банкротстве. Что это значит для должников и кредиторов?",
+      "date": "12 июля 2026",
+      "dateIso": "2026-07-12",
+      "read": "5 мин.",
+      "tone": "b",
+      "img": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1783749335/articles/sudebnye-rashody-ne-tekushchie-platezhi-bankrotstvo-cover.jpg",
+      "url": "articles/news/sudebnye-rashody-ne-tekushchie-platezhi-bankrotstvo"
+    },
+    {
       "slug": "obyazannost-direktora-podat-zayavlenie-bankrotstvo",
       "cat": "yur",
       "catLabel": "Банкротство юридических лиц",
