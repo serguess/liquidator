@@ -8071,7 +8071,7 @@
     "bankrotstvo-dolgi-mfo-i-bank-odnovremenno": {
       "category": "fiz",
       "title": "Банкротство при долгах перед МФО и банком одновременно",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -8079,14 +8079,16 @@
       "tg_message_id": 1901,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-10T15:09:43",
-      "last_action_at": "2026-07-11T10:00:19",
+      "last_action_at": "2026-07-12T16:01:11",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/fiz/bankrotstvo-dolgi-mfo-i-bank-odnovremenno",
       "pending_batch": false,
       "pending_batch_at": "2026-07-10T15:09:43",
       "batch_sent_at": "2026-07-11T10:00:19",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-07-12T16:01:11",
+      "articles_path": "articles/fiz/bankrotstvo-dolgi-mfo-i-bank-odnovremenno.html"
     },
     "obyazannost-direktora-podat-zayavlenie-bankrotstvo": {
       "category": "yur",
