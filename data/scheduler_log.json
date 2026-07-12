@@ -25865,5 +25865,66 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-07-12T19:36:08",
+    "category": "yur",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 61,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "yur-136",
+    "topic_slug": "subsidiarnaya-otvetstvennost-posle-zavershenia-bankrotstva",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "forced_pass_at_iter2: блокеры пропущены, статья идёт в TG-очередь с metrics_warning=true. Было: 1 блокеров — length_too_long"
+      ],
+      "recommendations": [
+        "reduce_length: сократить до 5000-6000 знаков"
+      ],
+      "stderr_tail": ""
+    },
+    "finalize_safety_net": {
+      "ran": true,
+      "rc": 0
+    },
+    "status": "ok",
+    "slug": "subsidiarnaya-otvetstvennost-posle-zavershenia-bankrotstva",
+    "duration_sec": 2629.8,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "-editor        haiku            20       8    69886     25520     69914\n7-publisher         haiku            20       8    39456     25520     39484\n------------------------------------------------------------------------------------------\nИТОГО                               232      85   768246    837478    768563\nBillable-токенов на статью: ~768K (cache_read 837K не считается в лимит подписки).\nАртефакты: drafts/subsidiarnaya-otvetstvennost-posle-zavershenia-bankrotstva/  | quality_gate exit=0",
+    "stderr_tail": "",
+    "tokens_by_model": {},
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 8985
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]
