@@ -4165,6 +4165,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "antikorrupcionnye-iski-vne-dela-bankrotstva-vs",
+      "category": "news",
+      "title": "Антикоррупционный иск вне дела банкротства: позиция ВС",
+      "added_at": "2026-07-12T05:20:04.723739",
+      "char_count": 6154,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1783822802/articles/antikorrupcionnye-iski-vne-dela-bankrotstva-vs-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
