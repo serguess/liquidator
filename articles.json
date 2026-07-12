@@ -2,6 +2,19 @@
   "generated": "2026-07-12",
   "articles": [
     {
+      "slug": "realizaciya-zalogovogo-imushchestva-bankrotstvo",
+      "cat": "yur",
+      "catLabel": "Банкротство юридических лиц",
+      "title": "Реализация залогового имущества при банкротстве компании",
+      "desc": "Как происходит реализация залога в процедурах банкротства, какой приоритет у залоговых требований, сроки и последовательность продажи имущества.",
+      "date": "12 июля 2026",
+      "dateIso": "2026-07-12",
+      "read": "5 мин.",
+      "tone": "b",
+      "img": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1783790215/articles/realizaciya-zalogovogo-imushchestva-bankrotstvo-cover.jpg",
+      "url": "articles/yur/realizaciya-zalogovogo-imushchestva-bankrotstvo"
+    },
+    {
       "slug": "bankrotstvo-pri-neskolkikh-ipotekakh",
       "cat": "fiz",
       "catLabel": "Банкротство физических лиц",
