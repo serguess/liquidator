@@ -7917,7 +7917,7 @@
     "vzyskanie-po-bankovskoy-garantii": {
       "category": "vzysk",
       "title": "Взыскание по банковской гарантии: как получить выплату",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -7925,14 +7925,16 @@
       "tg_message_id": 1887,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-09T01:11:23",
-      "last_action_at": "2026-07-09T10:00:40",
+      "last_action_at": "2026-07-12T15:50:32",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/vzysk/vzyskanie-po-bankovskoy-garantii",
       "pending_batch": false,
       "pending_batch_at": "2026-07-09T01:11:23",
       "batch_sent_at": "2026-07-09T10:00:40",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-07-12T15:50:32",
+      "articles_path": "articles/vzysk/vzyskanie-po-bankovskoy-garantii.html"
     },
     "cb-rezyume-obsuzhdeniya-stavki-iyun-prognoz": {
       "category": "news",
