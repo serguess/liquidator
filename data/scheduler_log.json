@@ -25801,5 +25801,10 @@
       "spam": null,
       "text_chars": 4750
     }
+  },
+  {
+    "timestamp": "2026-07-12T10:00:01",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets 10:10am (Europe/Moscow)"
   }
 ]

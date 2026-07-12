@@ -4191,6 +4191,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "prava-kvartirantov-pri-bankrotstve-arendodatelya",
+      "category": "fiz",
+      "title": "Права квартирантов при банкротстве арендодателя",
+      "added_at": "2026-07-12T15:17:59.057252",
+      "char_count": 7983,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1783858674/articles/prava-kvartirantov-pri-bankrotstve-arendodatelya-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
