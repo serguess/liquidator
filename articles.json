@@ -1,6 +1,19 @@
 {
-  "generated": "2026-07-09",
+  "generated": "2026-07-12",
   "articles": [
+    {
+      "slug": "bankrotstvo-pri-lizinge-fizlica",
+      "cat": "fiz",
+      "catLabel": "Банкротство физических лиц",
+      "title": "Банкротство при лизинге: что будет с автомобилем",
+      "desc": "Как лизинговая машина влияет на банкротство физлица, может ли кредитор забрать авто, стадии процедуры, последствия для неработающих и займов в МФО.",
+      "date": "12 июля 2026",
+      "dateIso": "2026-07-12",
+      "read": "6 мин.",
+      "tone": "b",
+      "img": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1783513595/articles/bankrotstvo-pri-lizinge-fizlica-cover.jpg",
+      "url": "articles/fiz/bankrotstvo-pri-lizinge-fizlica"
+    },
     {
       "slug": "zakon-zashchita-zaemshchikov-telefonnoe-moshennichestvo",
       "cat": "news",

@@ -7873,7 +7873,7 @@
     "bankrotstvo-pri-lizinge-fizlica": {
       "category": "fiz",
       "title": "Банкротство при лизинге: что будет с автомобилем",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -7881,14 +7881,16 @@
       "tg_message_id": 1883,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-08T15:27:18",
-      "last_action_at": "2026-07-09T10:00:36",
+      "last_action_at": "2026-07-12T15:49:16",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/fiz/bankrotstvo-pri-lizinge-fizlica",
       "pending_batch": false,
       "pending_batch_at": "2026-07-08T15:27:18",
       "batch_sent_at": "2026-07-09T10:00:36",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-07-12T15:49:16",
+      "articles_path": "articles/fiz/bankrotstvo-pri-lizinge-fizlica.html"
     },
     "dolya-ooo-pri-bankrotstve-uchreditelya": {
       "category": "yur",
@@ -8118,15 +8120,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 1907,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-11T15:10:25",
-      "last_action_at": "2026-07-11T15:10:25",
+      "last_action_at": "2026-07-12T10:00:24",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-07-11T15:10:25"
+      "pending_batch": false,
+      "pending_batch_at": "2026-07-11T15:10:25",
+      "batch_sent_at": "2026-07-12T10:00:24",
+      "batch_fail_count": 0
     },
     "realizaciya-zalogovogo-imushchestva-bankrotstvo": {
       "category": "yur",
@@ -8136,15 +8140,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 1909,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-11T20:17:28",
-      "last_action_at": "2026-07-11T20:17:28",
+      "last_action_at": "2026-07-12T10:00:26",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-07-11T20:17:28"
+      "pending_batch": false,
+      "pending_batch_at": "2026-07-11T20:17:28",
+      "batch_sent_at": "2026-07-12T10:00:26",
+      "batch_fail_count": 0
     },
     "vzyskanie-dolga-s-sozaemshchika": {
       "category": "vzysk",
@@ -8154,15 +8160,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 1911,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-12T00:39:30",
-      "last_action_at": "2026-07-12T00:39:30",
+      "last_action_at": "2026-07-12T10:00:28",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-07-12T00:39:30"
+      "pending_batch": false,
+      "pending_batch_at": "2026-07-12T00:39:30",
+      "batch_sent_at": "2026-07-12T10:00:28",
+      "batch_fail_count": 0
     },
     "antikorrupcionnye-iski-vne-dela-bankrotstva-vs": {
       "category": "news",
@@ -8172,15 +8180,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 1913,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-12T05:20:24",
-      "last_action_at": "2026-07-12T05:20:24",
+      "last_action_at": "2026-07-12T10:00:30",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-07-12T05:20:24"
+      "pending_batch": false,
+      "pending_batch_at": "2026-07-12T05:20:24",
+      "batch_sent_at": "2026-07-12T10:00:30",
+      "batch_fail_count": 0
     },
     "hotin-yugra-subsidiarka-173-mlrd-arbitrazh": {
       "category": "news",
@@ -8190,19 +8200,39 @@
       "versions": [
         "2.0"
       ],
+      "tg_message_id": 1915,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-07-12T08:55:26",
+      "last_action_at": "2026-07-12T10:00:33",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-07-12T08:55:26",
+      "batch_sent_at": "2026-07-12T10:00:33",
+      "batch_fail_count": 0
+    },
+    "prava-kvartirantov-pri-bankrotstve-arendodatelya": {
+      "category": "fiz",
+      "title": "Права квартирантов при банкротстве арендодателя",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
       "tg_message_id": null,
       "tg_chat_id": null,
-      "first_seen_at": "2026-07-12T08:55:26",
-      "last_action_at": "2026-07-12T08:55:26",
+      "first_seen_at": "2026-07-12T15:18:29",
+      "last_action_at": "2026-07-12T15:18:29",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
       "pending_batch": true,
-      "pending_batch_at": "2026-07-12T08:55:26"
+      "pending_batch_at": "2026-07-12T15:18:29"
     }
   },
   "pending_actions": [],
-  "last_batch_date": "2026-07-11",
-  "last_batch_count": 3,
-  "last_batch_at": "2026-07-11T10:00:24"
+  "last_batch_date": "2026-07-12",
+  "last_batch_count": 5,
+  "last_batch_at": "2026-07-12T10:00:33"
 }
