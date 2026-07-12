@@ -8058,15 +8058,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 1901,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-10T15:09:43",
-      "last_action_at": "2026-07-10T15:09:43",
+      "last_action_at": "2026-07-11T10:00:19",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-07-10T15:09:43"
+      "pending_batch": false,
+      "pending_batch_at": "2026-07-10T15:09:43",
+      "batch_sent_at": "2026-07-11T10:00:19",
+      "batch_fail_count": 0
     },
     "obyazannost-direktora-podat-zayavlenie-bankrotstvo": {
       "category": "yur",
@@ -8076,15 +8078,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 1903,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-11T00:46:48",
-      "last_action_at": "2026-07-11T00:46:48",
+      "last_action_at": "2026-07-11T10:00:21",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-07-11T00:46:48"
+      "pending_batch": false,
+      "pending_batch_at": "2026-07-11T00:46:48",
+      "batch_sent_at": "2026-07-11T10:00:21",
+      "batch_fail_count": 0
     },
     "sudebnye-rashody-ne-tekushchie-platezhi-bankrotstvo": {
       "category": "news",
@@ -8094,19 +8098,111 @@
       "versions": [
         "2.0"
       ],
+      "tg_message_id": 1905,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-07-11T08:56:21",
+      "last_action_at": "2026-07-11T10:00:24",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-07-11T08:56:21",
+      "batch_sent_at": "2026-07-11T10:00:24",
+      "batch_fail_count": 0
+    },
+    "bankrotstvo-pri-neskolkikh-ipotekakh": {
+      "category": "fiz",
+      "title": "Банкротство при нескольких ипотеках: судьба имущества",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
       "tg_message_id": null,
       "tg_chat_id": null,
-      "first_seen_at": "2026-07-11T08:56:21",
-      "last_action_at": "2026-07-11T08:56:21",
+      "first_seen_at": "2026-07-11T15:10:25",
+      "last_action_at": "2026-07-11T15:10:25",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
       "pending_batch": true,
-      "pending_batch_at": "2026-07-11T08:56:21"
+      "pending_batch_at": "2026-07-11T15:10:25"
+    },
+    "realizaciya-zalogovogo-imushchestva-bankrotstvo": {
+      "category": "yur",
+      "title": "Реализация залогового имущества при банкротстве компании",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-07-11T20:17:28",
+      "last_action_at": "2026-07-11T20:17:28",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-07-11T20:17:28"
+    },
+    "vzyskanie-dolga-s-sozaemshchika": {
+      "category": "vzysk",
+      "title": "Взыскание долга с созаёмщика: право кредитора",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-07-12T00:39:30",
+      "last_action_at": "2026-07-12T00:39:30",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-07-12T00:39:30"
+    },
+    "antikorrupcionnye-iski-vne-dela-bankrotstva-vs": {
+      "category": "news",
+      "title": "Антикоррупционный иск вне дела банкротства: позиция ВС",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-07-12T05:20:24",
+      "last_action_at": "2026-07-12T05:20:24",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-07-12T05:20:24"
+    },
+    "hotin-yugra-subsidiarka-173-mlrd-arbitrazh": {
+      "category": "news",
+      "title": "Менеджеры банка Югра привлечены к субсидиарке",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-07-12T08:55:26",
+      "last_action_at": "2026-07-12T08:55:26",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-07-12T08:55:26"
     }
   },
   "pending_actions": [],
-  "last_batch_date": "2026-07-10",
-  "last_batch_count": 4,
-  "last_batch_at": "2026-07-10T10:03:45"
+  "last_batch_date": "2026-07-11",
+  "last_batch_count": 3,
+  "last_batch_at": "2026-07-11T10:00:24"
 }
