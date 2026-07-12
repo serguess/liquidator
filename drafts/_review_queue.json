@@ -4178,6 +4178,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "hotin-yugra-subsidiarka-173-mlrd-arbitrazh",
+      "category": "news",
+      "title": "Менеджеры банка Югра привлечены к субсидиарке",
+      "added_at": "2026-07-12T08:54:37.313661",
+      "char_count": 7146,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1783835671/articles/hotin-yugra-subsidiarka-173-mlrd-arbitrazh-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

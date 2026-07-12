@@ -25641,5 +25641,66 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-07-12T05:12:03",
+    "category": "news",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 40,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "resume",
+    "resume_slug": "antikorrupcionnye-iski-vne-dela-bankrotstva-vs",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "length_soft_passed: 6154 > 5500 но ≤ 7500 и iteration=2 — пропускаем (приоритет spam/uniqueness/ai)",
+        "forced_pass_at_iter2: блокеры пропущены, статья идёт в TG-очередь с metrics_warning=true. Было: 1 блокеров — broken_internal_links"
+      ],
+      "recommendations": [
+        "fix_internal_links: заменить href на канонический /articles/{cat}/{slug} из published_index.json (см. .claude/style/editor-cheatsheet.md секция 6)"
+      ],
+      "stderr_tail": ""
+    },
+    "finalize_safety_net": {
+      "ran": true,
+      "rc": 0
+    },
+    "status": "ok",
+    "slug": "antikorrupcionnye-iski-vne-dela-bankrotstva-vs",
+    "duration_sec": 480.6,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "illable\n6-seo-editor        sonnet            6      16    57578     25156     57600\n7-publisher         haiku            20      10    75844         0     75874\n------------------------------------------------------------------------------------------\nИТОГО                                26      26   133422     25156    133474\nBillable-токенов на статью: ~133K (cache_read 25K не считается в лимит подписки).\nАртефакты: drafts/antikorrupcionnye-iski-vne-dela-bankrotstva-vs/  | quality_gate exit=0",
+    "stderr_tail": "",
+    "tokens_by_model": {},
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 6154
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]
