@@ -4204,6 +4204,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "subsidiarnaya-otvetstvennost-posle-zavershenia-bankrotstva",
+      "category": "yur",
+      "title": "Субсидиарная ответственность после завершения банкротства",
+      "added_at": "2026-07-12T20:19:58.357264",
+      "char_count": 8985,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1783876793/articles/subsidiarnaya-otvetstvennost-posle-zavershenia-bankrotstva-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
