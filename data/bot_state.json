@@ -7939,7 +7939,7 @@
     "cb-rezyume-obsuzhdeniya-stavki-iyun-prognoz": {
       "category": "news",
       "title": "ЦБ объяснил снижение ставки: ориентиры и прогнозы",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -7947,14 +7947,16 @@
       "tg_message_id": 1889,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-09T05:39:36",
-      "last_action_at": "2026-07-09T10:00:43",
+      "last_action_at": "2026-07-12T15:51:35",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/news/cb-rezyume-obsuzhdeniya-stavki-iyun-prognoz",
       "pending_batch": false,
       "pending_batch_at": "2026-07-09T05:39:36",
       "batch_sent_at": "2026-07-09T10:00:43",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-07-12T15:51:35",
+      "articles_path": "articles/news/cb-rezyume-obsuzhdeniya-stavki-iyun-prognoz.html"
     },
     "rost-prosrochki-potrebitelskie-kredity-statistika-cb": {
       "category": "news",
