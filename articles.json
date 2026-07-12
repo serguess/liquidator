@@ -2,6 +2,19 @@
   "generated": "2026-07-12",
   "articles": [
     {
+      "slug": "zashchita-doli-edinstvennogo-zhilya-ot-osparivaniya",
+      "cat": "news",
+      "catLabel": "Новости",
+      "title": "Защита доли в единственном жилье от оспаривания",
+      "desc": "Верховный суд защитил долю в единственном жилье от оспаривания при банкротстве. Как это решение влияет на права должников и взыскателей.",
+      "date": "12 июля 2026",
+      "dateIso": "2026-07-12",
+      "read": "5 мин.",
+      "tone": "b",
+      "img": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1783663159/articles/zashchita-doli-edinstvennogo-zhilya-ot-osparivaniya-cover.jpg",
+      "url": "articles/news/zashchita-doli-edinstvennogo-zhilya-ot-osparivaniya"
+    },
+    {
       "slug": "proverka-kontragenta-na-risk-bankrotstva",
       "cat": "yur",
       "catLabel": "Банкротство юридических лиц",
