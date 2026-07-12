@@ -7983,7 +7983,7 @@
     "npf-pensionnye-nakopleniya-bankrotstvo-fizlica": {
       "category": "fiz",
       "title": "НПФ при банкротстве физлица: защита накоплений",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -7991,14 +7991,16 @@
       "tg_message_id": 1893,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-10T00:32:47",
-      "last_action_at": "2026-07-10T10:03:39",
+      "last_action_at": "2026-07-12T15:53:50",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/fiz/npf-pensionnye-nakopleniya-bankrotstvo-fizlica",
       "pending_batch": false,
       "pending_batch_at": "2026-07-10T00:32:47",
       "batch_sent_at": "2026-07-10T10:03:39",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-07-12T15:53:50",
+      "articles_path": "articles/fiz/npf-pensionnye-nakopleniya-bankrotstvo-fizlica.html"
     },
     "proverka-kontragenta-na-risk-bankrotstva": {
       "category": "yur",
