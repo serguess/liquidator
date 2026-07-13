@@ -1,6 +1,19 @@
 {
-  "generated": "2026-07-12",
+  "generated": "2026-07-13",
   "articles": [
+    {
+      "slug": "prava-kvartirantov-pri-bankrotstve-arendodatelya",
+      "cat": "fiz",
+      "catLabel": "Банкротство физических лиц",
+      "title": "Права квартирантов при банкротстве арендодателя",
+      "desc": "Какие права у квартирантов при банкротстве арендодателя, как защитить жилище, вернуть залог и что делать дальше - разбор юридических аспектов.",
+      "date": "13 июля 2026",
+      "dateIso": "2026-07-13",
+      "read": "5 мин.",
+      "tone": "b",
+      "img": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1783858674/articles/prava-kvartirantov-pri-bankrotstve-arendodatelya-cover.jpg",
+      "url": "articles/fiz/prava-kvartirantov-pri-bankrotstve-arendodatelya"
+    },
     {
       "slug": "hotin-yugra-subsidiarka-173-mlrd-arbitrazh",
       "cat": "news",
