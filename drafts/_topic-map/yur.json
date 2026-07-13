@@ -3797,7 +3797,11 @@
       "frequency_estimate": "high",
       "rationale": "Тысячи кредиторов сталкиваются с ситуацией, когда должник ликвидирован через ЕГРЮЛ до погашения долга. Ст. 3.1 ФЗ об ООО и ст. 64.2 ГК позволяют взыскать долг с участников, но механизм мало известен. Тема отличается от субсидиарки в рамках банкротства.",
       "expected_length_chars": 7000,
-      "topic_action": "взыскание долга с учредителей ликвидированного ООО"
+      "topic_action": "взыскание долга с учредителей ликвидированного ООО",
+      "status": "rejected",
+      "rejected_at": "2026-07-14T00:24:31",
+      "rejected_reason": "cannibalization:preflight:cluster:vzysk-vzyskanie-dolga-s-ooo-arbitrazh",
+      "rejected_by": "auto_skip_in_slot"
     },
     {
       "id": "yur-138",
