@@ -2,6 +2,19 @@
   "generated": "2026-07-13",
   "articles": [
     {
+      "slug": "lichnaya-yavka-dolzhnika-bankrotstvo-iniciativa",
+      "cat": "news",
+      "catLabel": "Новости",
+      "title": "Личная явка при банкротстве: инициатива Сбербанка",
+      "desc": "Сбербанк предложил обязать граждан являться при банкротстве лично. Разбор инициативы, предполагаемые исключения и последствия для процедуры банкротства физических лиц.",
+      "date": "13 июля 2026",
+      "dateIso": "2026-07-13",
+      "read": "4 мин.",
+      "tone": "b",
+      "img": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1783909069/articles/lichnaya-yavka-dolzhnika-bankrotstvo-iniciativa-cover.jpg",
+      "url": "articles/news/lichnaya-yavka-dolzhnika-bankrotstvo-iniciativa"
+    },
+    {
       "slug": "vzyskanie-dolga-s-zakrytogo-ip",
       "cat": "vzysk",
       "catLabel": "Взыскание задолженности",
