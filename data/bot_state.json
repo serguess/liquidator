@@ -8252,19 +8252,119 @@
       "versions": [
         "2.0"
       ],
+      "tg_message_id": 1951,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-07-12T15:18:29",
+      "last_action_at": "2026-07-13T10:00:24",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-07-12T15:18:29",
+      "batch_sent_at": "2026-07-13T10:00:24",
+      "batch_fail_count": 0
+    },
+    "subsidiarnaya-otvetstvennost-posle-zavershenia-bankrotstva": {
+      "category": "yur",
+      "title": "Субсидиарная ответственность после завершения банкротства",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 1953,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-07-12T20:20:32",
+      "last_action_at": "2026-07-13T10:00:26",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-07-12T20:20:32",
+      "batch_sent_at": "2026-07-13T10:00:26",
+      "batch_fail_count": 0
+    },
+    "vzyskanie-dolga-s-zakrytogo-ip": {
+      "category": "vzysk",
+      "title": "Взыскание долга с закрытого ИП: порядок действий",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 1955,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-07-13T00:57:35",
+      "last_action_at": "2026-07-13T10:00:28",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-07-13T00:57:35",
+      "batch_sent_at": "2026-07-13T10:00:28",
+      "batch_fail_count": 0
+    },
+    "lichnaya-yavka-dolzhnika-bankrotstvo-iniciativa": {
+      "category": "news",
+      "title": "Личная явка при банкротстве: инициатива Сбербанка",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 1957,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-07-13T05:18:24",
+      "last_action_at": "2026-07-13T10:00:31",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-07-13T05:18:24",
+      "batch_sent_at": "2026-07-13T10:00:31",
+      "batch_fail_count": 0
+    },
+    "sud-sokratil-procentnoe-voznagrazhdenie-upravlyayushchego": {
+      "category": "news",
+      "title": "Суд сократил проценты управляющего в 15 раз",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 1959,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-07-13T08:53:26",
+      "last_action_at": "2026-07-13T10:00:33",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-07-13T08:53:26",
+      "batch_sent_at": "2026-07-13T10:00:33",
+      "batch_fail_count": 0
+    },
+    "wildberries-bankrotstvo-bakalchuk-vb-development": {
+      "category": "news",
+      "title": "Wildberries в банкротстве VB Development Бакальчука",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
       "tg_message_id": null,
       "tg_chat_id": null,
-      "first_seen_at": "2026-07-12T15:18:29",
-      "last_action_at": "2026-07-12T15:18:29",
+      "first_seen_at": "2026-07-13T09:11:26",
+      "last_action_at": "2026-07-13T09:11:26",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
       "pending_batch": true,
-      "pending_batch_at": "2026-07-12T15:18:29"
+      "pending_batch_at": "2026-07-13T09:11:26"
     }
   },
   "pending_actions": [],
-  "last_batch_date": "2026-07-12",
+  "last_batch_date": "2026-07-13",
   "last_batch_count": 5,
-  "last_batch_at": "2026-07-12T10:00:33"
+  "last_batch_at": "2026-07-13T10:00:33"
 }
