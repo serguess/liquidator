@@ -4243,6 +4243,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "sud-sokratil-procentnoe-voznagrazhdenie-upravlyayushchego",
+      "category": "news",
+      "title": "Суд сократил проценты управляющего в 15 раз",
+      "added_at": "2026-07-13T08:53:17.687521",
+      "char_count": 5547,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1783921994/articles/sud-sokratil-procentnoe-voznagrazhdenie-upravlyayushchego-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

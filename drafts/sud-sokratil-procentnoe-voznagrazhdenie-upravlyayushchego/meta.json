@@ -1,0 +1,97 @@
+{
+  "slug": "sud-sokratil-procentnoe-voznagrazhdenie-upravlyayushchego",
+  "category": "news",
+  "title": "Суд сократил проценты управляющего в 15 раз",
+  "description": "Решение арбитража о снижении вознаграждения управляющего за неправомерное бездействие при взыскании задолженности должника",
+  "h1": "Суд сократил проценты управляющего в 15 раз за бездействие",
+  "lead": "16 июня 2026 года арбитраж снизил процентное вознаграждение конкурсного управляющего в 15 раз - за доказанное бездействие при взыскании дебиторской задолженности.",
+  "topic_action": "оспаривание вознаграждения управляющего",
+  "breadcrumb_current": "Суд сократил проценты управляющего",
+  "og_image": "/assets/articles/sud-sokratil-procentnoe-voznagrazhdenie-upravlyayushchego.jpg",
+  "main_keyword": "суд сократил проценты управляющего",
+  "secondary_keywords": [
+    "снижение вознаграждения управляющего",
+    "проценты арбитражного управляющего",
+    "ответственность управляющего за бездействие",
+    "размер вознаграждения конкурсного управляющего",
+    "восстановление взысканий управляющим"
+  ],
+  "intent": "informational",
+  "funnel_stage": "cold",
+  "article_type": "B",
+  "offer": "proverka-spisaniya",
+  "event_date": "2026-06-16",
+  "news_zone": "vs_practice",
+  "internal_links": [
+    "/articles/news/antikorrupcionnye-iski-vne-dela-bankrotstva-vs"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/"
+  ],
+  "faq": [
+    {
+      "question": "Можно ли обнулить процентную часть полностью?",
+      "answer": "Теоретически да. При веской доказательной базе арбитр вправе исключить эту выплату до нуля. На практике чаще режут частично: в 15, 10 или 5 раз. Полное лишение требует особо грубых нарушений."
+    },
+    {
+      "question": "Чем аванс на счёт арбитража отличается от процентов?",
+      "answer": "Аванс - фиксированный платёж 25 000 рублей за сам факт ведения процедуры. Процентная часть - переменная, привязана к взысканному. Первую сумму конкурсник получает в любом случае. Вторую - только при результате."
+    },
+    {
+      "question": "Что считается неправомерным бездействием управляющего?",
+      "answer": "Пропуск давности по дебиторке, непринятые оспаривания сделок должника, отсутствие розыска активов, игнорирование очевидных источников поступлений в массу. Ключевое слово - доказанное."
+    },
+    {
+      "question": "Только кредитор вправе жаловаться на размер вознаграждения?",
+      "answer": "Нет. Оспорить размер вправе и сам должник. И арбитражный управляющий-предшественник, если считает, что преемник получил незаслуженную часть."
+    },
+    {
+      "question": "Сколько идёт рассмотрение жалобы на вознаграждение управляющего?",
+      "answer": "От двух-трёх месяцев до полугода. Зависит от загрузки арбитража и объёма доказательств. Заявителю разумно готовить документы с запасом - откладывать заседания приходится часто."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все факты актуальны: last_verified 2026-07-13, legislation_status active для f1-f7",
+    "Депозит 25 000 руб. подтверждён f4 (ст. 20.6 п. 3 127-ФЗ, не менялся с 2015 года)",
+    "Критерии снижения вознаграждения соответствуют f6: объём работы, результаты взыскания, сроки, жалобы кредиторов",
+    "Запрещённые утверждения из forbidden_claims отсутствуют в тексте",
+    "Конкретный номер дела не верифицирован (fact_gap f6) - формулировка в тексте оставлена без ссылки на реквизиты дела"
+  ],
+  "keyword_density_main": null,
+  "main_keyword_exact_count": null,
+  "text_chars": 5547,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.12,
+  "local_spam_ngram3_repeat": 0.011,
+  "local_lexical_diversity": 0.707,
+  "local_ai_markers_density": 0.27,
+  "local_ai_markers_critical": 0,
+  "local_ai_markers_total": 2,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 3,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1783921994/articles/sud-sokratil-procentnoe-voznagrazhdenie-upravlyayushchego-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1783921994/articles/sud-sokratil-procentnoe-voznagrazhdenie-upravlyayushchego-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Photograph of a contemporary conference room or shared workspace with natural materials — light oak desk, raw concrete walls, linen chairs, small potted succulents. Foreground: sleek closed laptop, leather-bound notebook with fountain pen resting across it, polished brass round company seal, white porcelain coffee cup on saucer. Background: bright windows framing a blurred cityscape at daytime. Camera: three-quarter angle, eye-level, shallow depth of field isolating business items. Lighting: bright cool natural daylight with subtle warm pendant fill. Mood: contemporary legal resolution, efficient professional decision-making.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-07-13T05:53:15Z",
+  "length_status": "too_long",
+  "length_kind": "news",
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 44,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 90,
+  "customer_risks": [
+    "длина чуть больше лимита 5500 (5 547 знаков)"
+  ],
+  "date_published": "2026-07-13",
+  "date_modified": "2026-07-13",
+  "ready_for_review": true,
+  "ready_at": "2026-07-13T05:53:17Z",
+  "publication_target": "telegram_review"
+}

@@ -25989,5 +25989,66 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-07-13T05:12:01",
+    "category": "news",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 63,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "resume",
+    "resume_slug": "lichnaya-yavka-dolzhnika-bankrotstvo-iniciativa",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "length_soft_passed: 6075 > 5500 но ≤ 7500 и iteration=2 — пропускаем (приоритет spam/uniqueness/ai)",
+        "forced_pass_at_iter2: блокеры пропущены, статья идёт в TG-очередь с metrics_warning=true. Было: 1 блокеров — broken_internal_links"
+      ],
+      "recommendations": [
+        "fix_internal_links: заменить href на канонический /articles/{cat}/{slug} из published_index.json (см. .claude/style/editor-cheatsheet.md секция 6)"
+      ],
+      "stderr_tail": ""
+    },
+    "finalize_safety_net": {
+      "ran": true,
+      "rc": 0
+    },
+    "status": "ok",
+    "slug": "lichnaya-yavka-dolzhnika-bankrotstvo-iniciativa",
+    "duration_sec": 350.3,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "llable\n6-seo-editor        sonnet            6      16    61846     25156     61868\n7-publisher         haiku            20       8    39258     25520     39286\n------------------------------------------------------------------------------------------\nИТОГО                                26      24   101104     50676    101154\nBillable-токенов на статью: ~101K (cache_read 50K не считается в лимит подписки).\nАртефакты: drafts/lichnaya-yavka-dolzhnika-bankrotstvo-iniciativa/  | quality_gate exit=0",
+    "stderr_tail": "",
+    "tokens_by_model": {},
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 6075
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]
