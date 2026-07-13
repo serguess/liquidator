@@ -8335,7 +8335,7 @@
     "sud-sokratil-procentnoe-voznagrazhdenie-upravlyayushchego": {
       "category": "news",
       "title": "Суд сократил проценты управляющего в 15 раз",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -8343,14 +8343,16 @@
       "tg_message_id": 1959,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-13T08:53:26",
-      "last_action_at": "2026-07-13T10:00:33",
+      "last_action_at": "2026-07-13T12:55:06",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/news/sud-sokratil-procentnoe-voznagrazhdenie-upravlyayushchego",
       "pending_batch": false,
       "pending_batch_at": "2026-07-13T08:53:26",
       "batch_sent_at": "2026-07-13T10:00:33",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-07-13T12:55:06",
+      "articles_path": "articles/news/sud-sokratil-procentnoe-voznagrazhdenie-upravlyayushchego.html"
     },
     "wildberries-bankrotstvo-bakalchuk-vb-development": {
       "category": "news",
