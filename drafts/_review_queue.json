@@ -4269,6 +4269,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "bankrotstvo-fizlica-valyutnyj-dolg",
+      "category": "fiz",
+      "title": "Банкротство физлица с валютным долгом: как взыскивают",
+      "added_at": "2026-07-13T15:30:55.683254",
+      "char_count": 7880,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1783945850/articles/bankrotstvo-fizlica-valyutnyj-dolg-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

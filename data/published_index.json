@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-07-13T08:53:23",
-  "total": 395,
+  "generated_at": "2026-07-13T14:48:27",
+  "total": 396,
   "by_source": {
-    "published": 327,
+    "published": 332,
     "draft_approved": 1,
-    "draft_pending": 60,
-    "draft_local": 7
+    "draft_pending": 57,
+    "draft_local": 6
   },
   "by_category": {
     "yur": 111,
     "fiz": 116,
-    "news": 60,
-    "vzysk": 108
+    "vzysk": 108,
+    "news": 61
   },
   "articles": [
     {
@@ -63,7 +63,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 9552,
+      "char_count": 9545,
       "published_at": null,
       "tags": []
     },
@@ -116,7 +116,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 9343,
+      "char_count": 9336,
       "published_at": null,
       "tags": []
     },
@@ -141,7 +141,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 10062,
+      "char_count": 10055,
       "published_at": null,
       "tags": []
     },
@@ -219,7 +219,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 8636,
+      "char_count": 8629,
       "published_at": null,
       "tags": []
     },
@@ -246,7 +246,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 9545,
+      "char_count": 9538,
       "published_at": null,
       "tags": []
     },
@@ -271,7 +271,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 8783,
+      "char_count": 8776,
       "published_at": null,
       "tags": []
     },
@@ -300,7 +300,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 8671,
+      "char_count": 8664,
       "published_at": null,
       "tags": []
     },
@@ -329,7 +329,7 @@
         "Частые вопросы о банкротстве иностранного гражданина в РФ",
         "Читайте также"
       ],
-      "char_count": 8977,
+      "char_count": 8970,
       "published_at": null,
       "tags": []
     },
@@ -380,7 +380,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 10113,
+      "char_count": 10106,
       "published_at": null,
       "tags": []
     },
@@ -405,7 +405,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 9318,
+      "char_count": 9311,
       "published_at": null,
       "tags": []
     },
@@ -430,7 +430,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 10670,
+      "char_count": 10663,
       "published_at": null,
       "tags": []
     },
@@ -508,7 +508,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 9387,
+      "char_count": 9380,
       "published_at": null,
       "tags": []
     },
@@ -563,7 +563,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 8574,
+      "char_count": 8567,
       "published_at": null,
       "tags": []
     },
@@ -616,7 +616,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 8960,
+      "char_count": 8953,
       "published_at": null,
       "tags": []
     },
@@ -669,7 +669,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 8873,
+      "char_count": 8866,
       "published_at": null,
       "tags": []
     },
@@ -720,7 +720,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 10156,
+      "char_count": 10149,
       "published_at": null,
       "tags": []
     },
@@ -772,7 +772,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 10000,
+      "char_count": 9993,
       "published_at": null,
       "tags": []
     },
@@ -875,7 +875,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 10009,
+      "char_count": 10002,
       "published_at": null,
       "tags": []
     },
@@ -951,7 +951,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 9916,
+      "char_count": 9909,
       "published_at": null,
       "tags": []
     },
@@ -1027,7 +1027,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 9402,
+      "char_count": 9395,
       "published_at": null,
       "tags": []
     },
@@ -1103,7 +1103,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 9340,
+      "char_count": 9333,
       "published_at": null,
       "tags": []
     },
@@ -1129,7 +1129,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 9961,
+      "char_count": 9954,
       "published_at": null,
       "tags": []
     },
@@ -1180,7 +1180,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 9042,
+      "char_count": 9035,
       "published_at": null,
       "tags": []
     },
@@ -1231,7 +1231,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 9273,
+      "char_count": 9266,
       "published_at": null,
       "tags": []
     },
@@ -1256,7 +1256,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 9702,
+      "char_count": 9695,
       "published_at": null,
       "tags": []
     },
@@ -1281,7 +1281,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 11183,
+      "char_count": 11176,
       "published_at": null,
       "tags": []
     },
@@ -1306,7 +1306,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 9679,
+      "char_count": 9672,
       "published_at": null,
       "tags": []
     },
@@ -1356,7 +1356,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 9823,
+      "char_count": 9816,
       "published_at": null,
       "tags": []
     },
@@ -1407,7 +1407,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 9897,
+      "char_count": 9890,
       "published_at": null,
       "tags": []
     },
@@ -1512,7 +1512,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 9550,
+      "char_count": 9543,
       "published_at": null,
       "tags": []
     },
@@ -1537,7 +1537,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 9392,
+      "char_count": 9385,
       "published_at": null,
       "tags": []
     },
@@ -1561,7 +1561,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 9378,
+      "char_count": 9371,
       "published_at": null,
       "tags": []
     },
@@ -1588,7 +1588,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 9293,
+      "char_count": 9286,
       "published_at": null,
       "tags": []
     },
@@ -1613,7 +1613,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 9447,
+      "char_count": 9440,
       "published_at": null,
       "tags": []
     },
@@ -1716,7 +1716,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 8201,
+      "char_count": 8194,
       "published_at": null,
       "tags": []
     },
@@ -1740,7 +1740,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 9574,
+      "char_count": 9567,
       "published_at": null,
       "tags": []
     },
@@ -1765,7 +1765,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 9809,
+      "char_count": 9802,
       "published_at": null,
       "tags": []
     },
@@ -1790,7 +1790,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 8927,
+      "char_count": 8920,
       "published_at": null,
       "tags": []
     },
@@ -1815,7 +1815,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 9177,
+      "char_count": 9170,
       "published_at": null,
       "tags": []
     },
@@ -1841,7 +1841,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 9659,
+      "char_count": 9652,
       "published_at": null,
       "tags": []
     },
@@ -1870,7 +1870,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 9039,
+      "char_count": 9032,
       "published_at": null,
       "tags": []
     },
@@ -1921,7 +1921,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 9624,
+      "char_count": 9617,
       "published_at": null,
       "tags": []
     },
@@ -1948,7 +1948,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 12753,
+      "char_count": 12746,
       "published_at": null,
       "tags": []
     },
@@ -1979,6 +1979,31 @@
       "tags": []
     },
     {
+      "slug": "prava-kvartirantov-pri-bankrotstve-arendodatelya",
+      "category": "fiz",
+      "source": "published",
+      "url": "/articles/fiz/prava-kvartirantov-pri-bankrotstve-arendodatelya.html",
+      "title": "Права квартирантов при банкротстве арендодателя",
+      "h1": "Права квартирантов при банкротстве арендодателя: защита и действия",
+      "main_keyword": "Права квартирантов при банкротстве арендодателя",
+      "secondary_keywords": [],
+      "intent": "",
+      "writer_route": "",
+      "h2_topics": [
+        "Что меняется в найме",
+        "Куда переводить платежи",
+        "Три опоры защиты жильца",
+        "Как вернуть депозит",
+        "Четыре реальных риска",
+        "Частые вопросы о правах квартирантов при банкротстве арендодателя",
+        "Читайте также",
+        "ЗАПОЛНИТЬ ФОРМУ"
+      ],
+      "char_count": 9852,
+      "published_at": null,
+      "tags": []
+    },
+    {
       "slug": "prekrashchenie-dela-bankrotstvo-fizlica",
       "category": "fiz",
       "source": "published",
@@ -1999,7 +2024,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 9972,
+      "char_count": 9965,
       "published_at": null,
       "tags": []
     },
@@ -2050,7 +2075,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 10616,
+      "char_count": 10609,
       "published_at": null,
       "tags": []
     },
@@ -2104,7 +2129,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 10038,
+      "char_count": 10031,
       "published_at": null,
       "tags": []
     },
@@ -2130,7 +2155,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 9980,
+      "char_count": 9973,
       "published_at": null,
       "tags": []
     },
@@ -2208,7 +2233,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 9773,
+      "char_count": 9766,
       "published_at": null,
       "tags": []
     },
@@ -2235,7 +2260,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 9604,
+      "char_count": 9597,
       "published_at": null,
       "tags": []
     },
@@ -2287,7 +2312,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 8744,
+      "char_count": 8737,
       "published_at": null,
       "tags": []
     },
@@ -2313,7 +2338,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 9943,
+      "char_count": 9936,
       "published_at": null,
       "tags": []
     },
@@ -2363,7 +2388,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 9468,
+      "char_count": 9461,
       "published_at": null,
       "tags": []
     },
@@ -2388,7 +2413,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 8721,
+      "char_count": 8714,
       "published_at": null,
       "tags": []
     },
@@ -2414,7 +2439,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 9030,
+      "char_count": 9023,
       "published_at": null,
       "tags": []
     },
@@ -2440,7 +2465,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 9400,
+      "char_count": 9393,
       "published_at": null,
       "tags": []
     },
@@ -2491,7 +2516,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 9379,
+      "char_count": 9372,
       "published_at": null,
       "tags": []
     },
@@ -2517,7 +2542,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 9229,
+      "char_count": 9222,
       "published_at": null,
       "tags": []
     },
@@ -2567,7 +2592,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 7947,
+      "char_count": 7940,
       "published_at": null,
       "tags": []
     },
@@ -2592,7 +2617,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 9368,
+      "char_count": 9361,
       "published_at": null,
       "tags": []
     },
@@ -2617,7 +2642,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 9618,
+      "char_count": 9611,
       "published_at": null,
       "tags": []
     },
@@ -2642,7 +2667,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 8881,
+      "char_count": 8874,
       "published_at": null,
       "tags": []
     },
@@ -2668,7 +2693,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 8365,
+      "char_count": 8358,
       "published_at": null,
       "tags": []
     },
@@ -2693,7 +2718,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 8871,
+      "char_count": 8864,
       "published_at": null,
       "tags": []
     },
@@ -2717,7 +2742,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 8648,
+      "char_count": 8641,
       "published_at": null,
       "tags": []
     },
@@ -2741,7 +2766,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 7807,
+      "char_count": 7800,
       "published_at": null,
       "tags": []
     },
@@ -2765,7 +2790,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 6704,
+      "char_count": 6697,
       "published_at": null,
       "tags": []
     },
@@ -2790,7 +2815,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 8982,
+      "char_count": 8975,
       "published_at": null,
       "tags": []
     },
@@ -2843,7 +2868,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 8789,
+      "char_count": 8782,
       "published_at": null,
       "tags": []
     },
@@ -2872,7 +2897,7 @@
         "Частые вопросы о торгах в ЕФРСБ",
         "Читайте также"
       ],
-      "char_count": 8815,
+      "char_count": 8808,
       "published_at": null,
       "tags": []
     },
@@ -2922,7 +2947,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 9037,
+      "char_count": 9030,
       "published_at": null,
       "tags": []
     },
@@ -2946,7 +2971,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 6854,
+      "char_count": 6847,
       "published_at": null,
       "tags": []
     },
@@ -2971,7 +2996,31 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 8834,
+      "char_count": 8827,
+      "published_at": null,
+      "tags": []
+    },
+    {
+      "slug": "lichnaya-yavka-dolzhnika-bankrotstvo-iniciativa",
+      "category": "news",
+      "source": "published",
+      "url": "/articles/news/lichnaya-yavka-dolzhnika-bankrotstvo-iniciativa.html",
+      "title": "Личная явка при банкротстве: инициатива Сбербанка",
+      "h1": "Личная явка должника при банкротстве: новая инициатива Сбербанка",
+      "main_keyword": "Личная явка должника при банкротстве",
+      "secondary_keywords": [],
+      "intent": "",
+      "writer_route": "",
+      "h2_topics": [
+        "Что именно предложил Сбербанк в июне 2026 года",
+        "Ст. 42 127-ФЗ: личное участие или доверенный представитель",
+        "Кого освободят от прихода в суд",
+        "Зачем нужна обязательная явка - и почему против неё возражают",
+        "Частые вопросы об инициативе",
+        "Читайте также",
+        "ЗАПОЛНИТЬ ФОРМУ"
+      ],
+      "char_count": 7905,
       "published_at": null,
       "tags": []
     },
@@ -2995,7 +3044,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 8232,
+      "char_count": 8225,
       "published_at": null,
       "tags": []
     },
@@ -3070,7 +3119,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 9163,
+      "char_count": 9156,
       "published_at": null,
       "tags": []
     },
@@ -3195,7 +3244,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 9236,
+      "char_count": 9229,
       "published_at": null,
       "tags": []
     },
@@ -3220,7 +3269,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 7716,
+      "char_count": 7709,
       "published_at": null,
       "tags": []
     },
@@ -3270,7 +3319,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 8240,
+      "char_count": 8233,
       "published_at": null,
       "tags": []
     },
@@ -3295,7 +3344,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 8569,
+      "char_count": 8562,
       "published_at": null,
       "tags": []
     },
@@ -3320,7 +3369,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 8464,
+      "char_count": 8457,
       "published_at": null,
       "tags": []
     },
@@ -3344,7 +3393,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 10360,
+      "char_count": 10353,
       "published_at": null,
       "tags": []
     },
@@ -3368,7 +3417,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 7762,
+      "char_count": 7755,
       "published_at": null,
       "tags": []
     },
@@ -3392,7 +3441,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 8566,
+      "char_count": 8559,
       "published_at": null,
       "tags": []
     },
@@ -3441,7 +3490,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 8225,
+      "char_count": 8218,
       "published_at": null,
       "tags": []
     },
@@ -3466,7 +3515,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 8091,
+      "char_count": 8084,
       "published_at": null,
       "tags": []
     },
@@ -3517,7 +3566,31 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 8633,
+      "char_count": 8626,
+      "published_at": null,
+      "tags": []
+    },
+    {
+      "slug": "sud-sokratil-procentnoe-voznagrazhdenie-upravlyayushchego",
+      "category": "news",
+      "source": "published",
+      "url": "/articles/news/sud-sokratil-procentnoe-voznagrazhdenie-upravlyayushchego.html",
+      "title": "Суд сократил проценты управляющего в 15 раз",
+      "h1": "Суд сократил проценты управляющего в 15 раз за бездействие",
+      "main_keyword": "Суд сократил проценты управляющего в 15 раз за бездействие",
+      "secondary_keywords": [],
+      "intent": "",
+      "writer_route": "",
+      "h2_topics": [
+        "Что решил арбитраж",
+        "Депозит и процентная часть",
+        "Четыре критерия судебной оценки",
+        "Как кредиторам действовать",
+        "Частые вопросы о вознаграждении управляющего",
+        "Читайте также",
+        "ЗАПОЛНИТЬ ФОРМУ"
+      ],
+      "char_count": 7320,
       "published_at": null,
       "tags": []
     },
@@ -3566,7 +3639,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 9062,
+      "char_count": 9055,
       "published_at": null,
       "tags": []
     },
@@ -3591,7 +3664,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 7892,
+      "char_count": 7885,
       "published_at": null,
       "tags": []
     },
@@ -3615,7 +3688,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 8450,
+      "char_count": 8443,
       "published_at": null,
       "tags": []
     },
@@ -3639,7 +3712,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 8936,
+      "char_count": 8929,
       "published_at": null,
       "tags": []
     },
@@ -3664,7 +3737,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 8827,
+      "char_count": 8820,
       "published_at": null,
       "tags": []
     },
@@ -3688,7 +3761,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 8605,
+      "char_count": 8598,
       "published_at": null,
       "tags": []
     },
@@ -3712,7 +3785,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 7215,
+      "char_count": 7208,
       "published_at": null,
       "tags": []
     },
@@ -3763,7 +3836,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 9339,
+      "char_count": 9332,
       "published_at": null,
       "tags": []
     },
@@ -3815,7 +3888,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 9785,
+      "char_count": 9778,
       "published_at": null,
       "tags": []
     },
@@ -3840,7 +3913,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 9233,
+      "char_count": 9226,
       "published_at": null,
       "tags": []
     },
@@ -3866,7 +3939,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 9473,
+      "char_count": 9466,
       "published_at": null,
       "tags": []
     },
@@ -3891,7 +3964,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 9878,
+      "char_count": 9871,
       "published_at": null,
       "tags": []
     },
@@ -3917,7 +3990,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 10281,
+      "char_count": 10274,
       "published_at": null,
       "tags": []
     },
@@ -3942,7 +4015,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 9609,
+      "char_count": 9602,
       "published_at": null,
       "tags": []
     },
@@ -4147,7 +4220,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 9949,
+      "char_count": 9942,
       "published_at": null,
       "tags": []
     },
@@ -4175,7 +4248,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 10064,
+      "char_count": 10057,
       "published_at": null,
       "tags": []
     },
@@ -4204,7 +4277,7 @@
         "Частые вопросы о взыскании судебных расходов",
         "Читайте также"
       ],
-      "char_count": 8580,
+      "char_count": 8573,
       "published_at": null,
       "tags": []
     },
@@ -4281,7 +4354,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 9865,
+      "char_count": 9858,
       "published_at": null,
       "tags": []
     },
@@ -4357,7 +4430,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 8801,
+      "char_count": 8794,
       "published_at": null,
       "tags": []
     },
@@ -4382,7 +4455,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 9638,
+      "char_count": 9631,
       "published_at": null,
       "tags": []
     },
@@ -4435,7 +4508,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 9488,
+      "char_count": 9481,
       "published_at": null,
       "tags": []
     },
@@ -4464,7 +4537,7 @@
         "Частые вопросы о взыскании неустойки по госконтрактам",
         "Читайте также"
       ],
-      "char_count": 9643,
+      "char_count": 9636,
       "published_at": null,
       "tags": []
     },
@@ -4517,7 +4590,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 10026,
+      "char_count": 10019,
       "published_at": null,
       "tags": []
     },
@@ -4543,7 +4616,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 10637,
+      "char_count": 10630,
       "published_at": null,
       "tags": []
     },
@@ -4568,7 +4641,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 10420,
+      "char_count": 10413,
       "published_at": null,
       "tags": []
     },
@@ -4622,7 +4695,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 9305,
+      "char_count": 9298,
       "published_at": null,
       "tags": []
     },
@@ -4675,7 +4748,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 8555,
+      "char_count": 8548,
       "published_at": null,
       "tags": []
     },
@@ -4701,7 +4774,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 9449,
+      "char_count": 9442,
       "published_at": null,
       "tags": []
     },
@@ -4730,7 +4803,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 8858,
+      "char_count": 8851,
       "published_at": null,
       "tags": []
     },
@@ -4807,7 +4880,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 9549,
+      "char_count": 9542,
       "published_at": null,
       "tags": []
     },
@@ -4833,7 +4906,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 9387,
+      "char_count": 9380,
       "published_at": null,
       "tags": []
     },
@@ -4910,7 +4983,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 9194,
+      "char_count": 9187,
       "published_at": null,
       "tags": []
     },
@@ -4936,7 +5009,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 9431,
+      "char_count": 9424,
       "published_at": null,
       "tags": []
     },
@@ -4986,7 +5059,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 10147,
+      "char_count": 10140,
       "published_at": null,
       "tags": []
     },
@@ -5037,7 +5110,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 9450,
+      "char_count": 9443,
       "published_at": null,
       "tags": []
     },
@@ -5063,7 +5136,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 9332,
+      "char_count": 9325,
       "published_at": null,
       "tags": []
     },
@@ -5118,7 +5191,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 8491,
+      "char_count": 8484,
       "published_at": null,
       "tags": []
     },
@@ -5145,7 +5218,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 9269,
+      "char_count": 9262,
       "published_at": null,
       "tags": []
     },
@@ -5196,7 +5269,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 10042,
+      "char_count": 10035,
       "published_at": null,
       "tags": []
     },
@@ -5248,7 +5321,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 9424,
+      "char_count": 9417,
       "published_at": null,
       "tags": []
     },
@@ -5274,7 +5347,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 9482,
+      "char_count": 9475,
       "published_at": null,
       "tags": []
     },
@@ -5301,7 +5374,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 10299,
+      "char_count": 10292,
       "published_at": null,
       "tags": []
     },
@@ -5327,7 +5400,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 10416,
+      "char_count": 10409,
       "published_at": null,
       "tags": []
     },
@@ -5353,7 +5426,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 10997,
+      "char_count": 10990,
       "published_at": null,
       "tags": []
     },
@@ -5378,7 +5451,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 10687,
+      "char_count": 10680,
       "published_at": null,
       "tags": []
     },
@@ -5405,7 +5478,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 9551,
+      "char_count": 9544,
       "published_at": null,
       "tags": []
     },
@@ -5483,7 +5556,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 10214,
+      "char_count": 10207,
       "published_at": null,
       "tags": []
     },
@@ -5560,7 +5633,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 9845,
+      "char_count": 9838,
       "published_at": null,
       "tags": []
     },
@@ -5585,7 +5658,32 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 9955,
+      "char_count": 9948,
+      "published_at": null,
+      "tags": []
+    },
+    {
+      "slug": "vzyskanie-dolga-s-zakrytogo-ip",
+      "category": "vzysk",
+      "source": "published",
+      "url": "/articles/vzysk/vzyskanie-dolga-s-zakrytogo-ip.html",
+      "title": "Взыскание долга с закрытого ИП: порядок действий",
+      "h1": "Взыскание долга с закрытого ИП: порядок действий для кредитора",
+      "main_keyword": "Взыскание долга с закрытого ИП",
+      "secondary_keywords": [],
+      "intent": "",
+      "writer_route": "",
+      "h2_topics": [
+        "Долг закрытого ИП: прямой ответ",
+        "Почему статус «бывший» не спасает",
+        "Приказ или иск: выбор инструмента",
+        "После суда: работа пристава",
+        "Где деньги получить сложно",
+        "Частые вопросы о взыскании долга с закрытого ИП",
+        "Читайте также",
+        "ЗАПОЛНИТЬ ФОРМУ"
+      ],
+      "char_count": 9250,
       "published_at": null,
       "tags": []
     },
@@ -5637,7 +5735,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 9483,
+      "char_count": 9476,
       "published_at": null,
       "tags": []
     },
@@ -5689,7 +5787,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 9678,
+      "char_count": 9671,
       "published_at": null,
       "tags": []
     },
@@ -5739,7 +5837,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 9961,
+      "char_count": 9954,
       "published_at": null,
       "tags": []
     },
@@ -5765,7 +5863,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 9567,
+      "char_count": 9560,
       "published_at": null,
       "tags": []
     },
@@ -5791,7 +5889,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 9592,
+      "char_count": 9585,
       "published_at": null,
       "tags": []
     },
@@ -5817,7 +5915,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 9048,
+      "char_count": 9041,
       "published_at": null,
       "tags": []
     },
@@ -5895,7 +5993,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 9452,
+      "char_count": 9445,
       "published_at": null,
       "tags": []
     },
@@ -5921,7 +6019,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 9946,
+      "char_count": 9939,
       "published_at": null,
       "tags": []
     },
@@ -5947,7 +6045,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 9569,
+      "char_count": 9562,
       "published_at": null,
       "tags": []
     },
@@ -5973,7 +6071,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 10007,
+      "char_count": 10000,
       "published_at": null,
       "tags": []
     },
@@ -6026,7 +6124,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 10027,
+      "char_count": 10020,
       "published_at": null,
       "tags": []
     },
@@ -6127,7 +6225,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 9634,
+      "char_count": 9627,
       "published_at": null,
       "tags": []
     },
@@ -6180,7 +6278,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 9841,
+      "char_count": 9834,
       "published_at": null,
       "tags": []
     },
@@ -6205,7 +6303,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 10360,
+      "char_count": 10353,
       "published_at": null,
       "tags": []
     },
@@ -6231,7 +6329,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 9401,
+      "char_count": 9394,
       "published_at": null,
       "tags": []
     },
@@ -6257,7 +6355,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 11436,
+      "char_count": 11429,
       "published_at": null,
       "tags": []
     },
@@ -6334,7 +6432,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 10154,
+      "char_count": 10147,
       "published_at": null,
       "tags": []
     },
@@ -6409,7 +6507,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 9658,
+      "char_count": 9651,
       "published_at": null,
       "tags": []
     },
@@ -6435,7 +6533,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 9380,
+      "char_count": 9373,
       "published_at": null,
       "tags": []
     },
@@ -6487,7 +6585,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 9873,
+      "char_count": 9866,
       "published_at": null,
       "tags": []
     },
@@ -6512,7 +6610,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 9271,
+      "char_count": 9264,
       "published_at": null,
       "tags": []
     },
@@ -6565,7 +6663,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 10200,
+      "char_count": 10193,
       "published_at": null,
       "tags": []
     },
@@ -6589,7 +6687,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 9178,
+      "char_count": 9171,
       "published_at": null,
       "tags": []
     },
@@ -6671,7 +6769,7 @@
         "Частые вопросы",
         "Читайте также"
       ],
-      "char_count": 8146,
+      "char_count": 8139,
       "published_at": null,
       "tags": []
     },
@@ -6696,7 +6794,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 9723,
+      "char_count": 9716,
       "published_at": null,
       "tags": []
     },
@@ -6724,7 +6822,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 9319,
+      "char_count": 9312,
       "published_at": null,
       "tags": []
     },
@@ -6749,7 +6847,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 9220,
+      "char_count": 9213,
       "published_at": null,
       "tags": []
     },
@@ -6775,7 +6873,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 9335,
+      "char_count": 9328,
       "published_at": null,
       "tags": []
     },
@@ -6801,7 +6899,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 9963,
+      "char_count": 9956,
       "published_at": null,
       "tags": []
     },
@@ -6827,7 +6925,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 9241,
+      "char_count": 9234,
       "published_at": null,
       "tags": []
     },
@@ -6856,7 +6954,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 9614,
+      "char_count": 9607,
       "published_at": null,
       "tags": []
     },
@@ -6907,7 +7005,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 8424,
+      "char_count": 8417,
       "published_at": null,
       "tags": []
     },
@@ -6934,7 +7032,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 7212,
+      "char_count": 7205,
       "published_at": null,
       "tags": []
     },
@@ -6986,7 +7084,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 9808,
+      "char_count": 9801,
       "published_at": null,
       "tags": []
     },
@@ -7012,7 +7110,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 10030,
+      "char_count": 10023,
       "published_at": null,
       "tags": []
     },
@@ -7037,7 +7135,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 9359,
+      "char_count": 9352,
       "published_at": null,
       "tags": []
     },
@@ -7143,7 +7241,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 9292,
+      "char_count": 9285,
       "published_at": null,
       "tags": []
     },
@@ -7168,7 +7266,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 11160,
+      "char_count": 11153,
       "published_at": null,
       "tags": []
     },
@@ -7193,7 +7291,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 9484,
+      "char_count": 9477,
       "published_at": null,
       "tags": []
     },
@@ -7219,7 +7317,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 9594,
+      "char_count": 9587,
       "published_at": null,
       "tags": []
     },
@@ -7272,7 +7370,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 10147,
+      "char_count": 10140,
       "published_at": null,
       "tags": []
     },
@@ -7297,7 +7395,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 10602,
+      "char_count": 10595,
       "published_at": null,
       "tags": []
     },
@@ -7350,7 +7448,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 10776,
+      "char_count": 10769,
       "published_at": null,
       "tags": []
     },
@@ -7427,7 +7525,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 9956,
+      "char_count": 9949,
       "published_at": null,
       "tags": []
     },
@@ -7452,7 +7550,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 9573,
+      "char_count": 9566,
       "published_at": null,
       "tags": []
     },
@@ -7477,7 +7575,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 10197,
+      "char_count": 10190,
       "published_at": null,
       "tags": []
     },
@@ -7503,7 +7601,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 9921,
+      "char_count": 9914,
       "published_at": null,
       "tags": []
     },
@@ -7634,7 +7732,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 8555,
+      "char_count": 8548,
       "published_at": null,
       "tags": []
     },
@@ -7661,7 +7759,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 9558,
+      "char_count": 9551,
       "published_at": null,
       "tags": []
     },
@@ -7688,7 +7786,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 7880,
+      "char_count": 7873,
       "published_at": null,
       "tags": []
     },
@@ -7713,7 +7811,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 10054,
+      "char_count": 10047,
       "published_at": null,
       "tags": []
     },
@@ -7764,7 +7862,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 8954,
+      "char_count": 8947,
       "published_at": null,
       "tags": []
     },
@@ -7789,7 +7887,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 9818,
+      "char_count": 9811,
       "published_at": null,
       "tags": []
     },
@@ -7815,7 +7913,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 10248,
+      "char_count": 10241,
       "published_at": null,
       "tags": []
     },
@@ -7844,7 +7942,7 @@
         "Частые ошибки при защите",
         "Финальный дожим"
       ],
-      "char_count": 9964,
+      "char_count": 9957,
       "published_at": null,
       "tags": []
     },
@@ -7870,7 +7968,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 9496,
+      "char_count": 9489,
       "published_at": null,
       "tags": []
     },
@@ -7897,7 +7995,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 9818,
+      "char_count": 9811,
       "published_at": null,
       "tags": []
     },
@@ -7922,7 +8020,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 9142,
+      "char_count": 9135,
       "published_at": null,
       "tags": []
     },
@@ -7951,7 +8049,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 8061,
+      "char_count": 8054,
       "published_at": null,
       "tags": []
     },
@@ -8002,7 +8100,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 9591,
+      "char_count": 9584,
       "published_at": null,
       "tags": []
     },
@@ -8052,7 +8150,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 10157,
+      "char_count": 10150,
       "published_at": null,
       "tags": []
     },
@@ -8083,6 +8181,31 @@
       "tags": []
     },
     {
+      "slug": "subsidiarnaya-otvetstvennost-posle-zavershenia-bankrotstva",
+      "category": "yur",
+      "source": "published",
+      "url": "/articles/yur/subsidiarnaya-otvetstvennost-posle-zavershenia-bankrotstva.html",
+      "title": "Субсидиарная ответственность после завершения банкротства",
+      "h1": "Субсидиарная ответственность после завершения банкротства компании: права и сроки",
+      "main_keyword": "Субсидиарная ответственность после завершения банкротства компании",
+      "secondary_keywords": [],
+      "intent": "",
+      "writer_route": "",
+      "h2_topics": [
+        "Возможно ли взыскание после закрытия дела",
+        "Кто попадает под удар",
+        "Четыре основания для иска",
+        "Механизм передачи права после конкурса",
+        "Как выстраивать защиту",
+        "Частые вопросы о субсидиарной ответственности",
+        "Читайте также",
+        "ЗАПОЛНИТЬ ФОРМУ"
+      ],
+      "char_count": 10563,
+      "published_at": null,
+      "tags": []
+    },
+    {
       "slug": "transgranichnoe-bankrotstvo-rossijskoj-kompanii",
       "category": "yur",
       "source": "published",
@@ -8104,7 +8227,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 9830,
+      "char_count": 9823,
       "published_at": null,
       "tags": []
     },
@@ -8129,7 +8252,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 10830,
+      "char_count": 10823,
       "published_at": null,
       "tags": []
     },
@@ -8154,7 +8277,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 9417,
+      "char_count": 9410,
       "published_at": null,
       "tags": []
     },
@@ -8257,7 +8380,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 11282,
+      "char_count": 11275,
       "published_at": null,
       "tags": []
     },
@@ -8282,7 +8405,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 9486,
+      "char_count": 9479,
       "published_at": null,
       "tags": []
     },
@@ -8333,7 +8456,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 9559,
+      "char_count": 9552,
       "published_at": null,
       "tags": []
     },
@@ -8359,7 +8482,7 @@
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 9594,
+      "char_count": 9587,
       "published_at": null,
       "tags": []
     },
@@ -8997,42 +9120,6 @@
       "tags": []
     },
     {
-      "slug": "prava-kvartirantov-pri-bankrotstve-arendodatelya",
-      "category": "fiz",
-      "source": "draft_pending",
-      "url": null,
-      "title": "Права квартирантов при банкротстве арендодателя",
-      "h1": "Права квартирантов при банкротстве арендодателя: защита и действия",
-      "main_keyword": "права квартирантов при банкротстве арендодателя",
-      "secondary_keywords": [
-        "права квартиранта если арендодатель объявил о банкротстве",
-        "защита жилищных прав при банкротстве собственника",
-        "возврат залога при банкротстве арендодателя",
-        "договор аренды квартиры при банкротстве владельца",
-        "что делать квартиранту если хозяин разорился",
-        "судебная защита прав квартирантов",
-        "переход прав и обязанностей по договору найма",
-        "выселение квартиранта при банкротстве",
-        "арендные платежи конкурсная масса",
-        "восстановление договора аренды в суде"
-      ],
-      "intent": "informational",
-      "writer_route": "",
-      "h2_topics": [
-        "Что меняется в найме",
-        "Куда переводить платежи",
-        "Три опоры защиты жильца",
-        "Как вернуть депозит",
-        "Четыре реальных риска",
-        "Частые вопросы о правах квартирантов при банкротстве арендодателя",
-        "Читайте также",
-        "ЗАПОЛНИТЬ ФОРМУ"
-      ],
-      "char_count": 7983,
-      "published_at": null,
-      "tags": []
-    },
-    {
       "slug": "preddogovornoe-bankrotstvo-i-pereustuplenie-trebovanij-chto-opasno",
       "category": "fiz",
       "source": "draft_pending",
@@ -9205,37 +9292,6 @@
       "tags": []
     },
     {
-      "slug": "lichnaya-yavka-dolzhnika-bankrotstvo-iniciativa",
-      "category": "news",
-      "source": "draft_pending",
-      "url": null,
-      "title": "Личная явка при банкротстве: инициатива Сбербанка",
-      "h1": "Личная явка должника при банкротстве: новая инициатива Сбербанка",
-      "main_keyword": "личная явка должника банкротство",
-      "secondary_keywords": [
-        "инициатива сбербанка банкротство",
-        "личная явка гражданина должника",
-        "обязательная явка при банкротстве",
-        "процедура банкротства личная явка",
-        "явка должника в суд",
-        "исключения личная явка"
-      ],
-      "intent": "informational",
-      "writer_route": "",
-      "h2_topics": [
-        "Что именно предложил Сбербанк в июне 2026 года",
-        "Ст. 42 127-ФЗ: личное участие или доверенный представитель",
-        "Кого освободят от прихода в суд",
-        "Зачем нужна обязательная явка - и почему против неё возражают",
-        "Частые вопросы об инициативе",
-        "Читайте также",
-        "ЗАПОЛНИТЬ ФОРМУ"
-      ],
-      "char_count": 6075,
-      "published_at": null,
-      "tags": []
-    },
-    {
       "slug": "opredelenie-vs-ob-osporenii-sdelok-bankrotstvo",
       "category": "news",
       "source": "draft_pending",
@@ -9365,6 +9421,38 @@
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
       "char_count": 6300,
+      "published_at": null,
+      "tags": []
+    },
+    {
+      "slug": "wildberries-bankrotstvo-bakalchuk-vb-development",
+      "category": "news",
+      "source": "draft_pending",
+      "url": null,
+      "title": "Wildberries в банкротстве VB Development Бакальчука",
+      "h1": "Wildberries вступила в дело о банкротстве структуры VB Development",
+      "main_keyword": "wildberries банкротство vb development",
+      "secondary_keywords": [
+        "банкротство vb development",
+        "владимир бакальчук структура",
+        "wildberries требования кредитора",
+        "банкротство дочерней компании",
+        "дело о несостоятельности vb development",
+        "арбитраж банкротство",
+        "требования в конкурсе кредиторов"
+      ],
+      "intent": "informational",
+      "writer_route": "",
+      "h2_topics": [
+        "Что зафиксировал арбитраж 19 июня",
+        "Что такое VB Development",
+        "Как кредитор входит в банкротное дело",
+        "Что это меняет для других участников",
+        "Частые вопросы о банкротстве VB Development",
+        "Читайте также",
+        "ЗАПОЛНИТЬ ФОРМУ"
+      ],
+      "char_count": 6459,
       "published_at": null,
       "tags": []
     },
@@ -9926,39 +10014,6 @@
       "tags": []
     },
     {
-      "slug": "vzyskanie-dolga-s-zakrytogo-ip",
-      "category": "vzysk",
-      "source": "draft_pending",
-      "url": null,
-      "title": "Взыскание долга с закрытого ИП: порядок действий",
-      "h1": "Взыскание долга с закрытого ИП: порядок действий для кредитора",
-      "main_keyword": "взыскание долга с закрытого ип",
-      "secondary_keywords": [
-        "взыскание задолженности после закрытия ип",
-        "можно ли взыскать долг закрытого ип",
-        "что делать если должник закрыл ип",
-        "взыскание долга у ликвидированного ип",
-        "ответственность закрытого ип перед кредиторами",
-        "взыскание на имущество закрытого ип",
-        "исполнительное производство закрытое ип"
-      ],
-      "intent": "informational",
-      "writer_route": "",
-      "h2_topics": [
-        "Долг закрытого ИП: прямой ответ",
-        "Почему статус «бывший» не спасает",
-        "Приказ или иск: выбор инструмента",
-        "После суда: работа пристава",
-        "Где деньги получить сложно",
-        "Частые вопросы о взыскании долга с закрытого ИП",
-        "Читайте также",
-        "ЗАПОЛНИТЬ ФОРМУ"
-      ],
-      "char_count": 7523,
-      "published_at": null,
-      "tags": []
-    },
-    {
       "slug": "bankrotstvo-akcionernogo-obshchestva-prava-akcionerov",
       "category": "yur",
       "source": "draft_pending",
@@ -10482,40 +10537,6 @@
       "tags": []
     },
     {
-      "slug": "subsidiarnaya-otvetstvennost-posle-zavershenia-bankrotstva",
-      "category": "yur",
-      "source": "draft_pending",
-      "url": null,
-      "title": "Субсидиарная ответственность после завершения банкротства",
-      "h1": "Субсидиарная ответственность после завершения банкротства компании: права и сроки",
-      "main_keyword": "субсидиарная ответственность после банкротства",
-      "secondary_keywords": [
-        "субсидиарная ответственность руководителя компании",
-        "ответственность собственников после банкротства",
-        "требования о взыскании убытков компании",
-        "иски конкурсного управляющего после банкротства",
-        "ответственность при ликвидации компании",
-        "сроки предъявления требований после завершения банкротства",
-        "защита от исков по субсидиарной ответственности",
-        "судебная практика по субсидиарной ответственности"
-      ],
-      "intent": "informational",
-      "writer_route": "",
-      "h2_topics": [
-        "Возможно ли взыскание после закрытия дела",
-        "Кто попадает под удар",
-        "Четыре основания для иска",
-        "Механизм передачи права после конкурса",
-        "Как выстраивать защиту",
-        "Частые вопросы о субсидиарной ответственности",
-        "Читайте также",
-        "ЗАПОЛНИТЬ ФОРМУ"
-      ],
-      "char_count": 8985,
-      "published_at": null,
-      "tags": []
-    },
-    {
       "slug": "tekushchie-platezhi-bankrotstvo-yurlica",
       "category": "yur",
       "source": "draft_pending",
@@ -10578,36 +10599,6 @@
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
       "char_count": 5945,
-      "published_at": null,
-      "tags": []
-    },
-    {
-      "slug": "sud-sokratil-procentnoe-voznagrazhdenie-upravlyayushchego",
-      "category": "news",
-      "source": "draft_local",
-      "url": null,
-      "title": "Суд сократил проценты управляющего в 15 раз",
-      "h1": "Суд сократил проценты управляющего в 15 раз за бездействие",
-      "main_keyword": "суд сократил проценты управляющего",
-      "secondary_keywords": [
-        "снижение вознаграждения управляющего",
-        "проценты арбитражного управляющего",
-        "ответственность управляющего за бездействие",
-        "размер вознаграждения конкурсного управляющего",
-        "восстановление взысканий управляющим"
-      ],
-      "intent": "informational",
-      "writer_route": "",
-      "h2_topics": [
-        "Что решил арбитраж",
-        "Депозит и процентная часть",
-        "Четыре критерия судебной оценки",
-        "Как кредиторам действовать",
-        "Частые вопросы о вознаграждении управляющего",
-        "Читайте также",
-        "ЗАПОЛНИТЬ ФОРМУ"
-      ],
-      "char_count": 5547,
       "published_at": null,
       "tags": []
     },
