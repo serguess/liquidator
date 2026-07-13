@@ -8291,7 +8291,7 @@
     "vzyskanie-dolga-s-zakrytogo-ip": {
       "category": "vzysk",
       "title": "Взыскание долга с закрытого ИП: порядок действий",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -8299,14 +8299,16 @@
       "tg_message_id": 1955,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-13T00:57:35",
-      "last_action_at": "2026-07-13T10:00:28",
+      "last_action_at": "2026-07-13T12:52:48",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/vzysk/vzyskanie-dolga-s-zakrytogo-ip",
       "pending_batch": false,
       "pending_batch_at": "2026-07-13T00:57:35",
       "batch_sent_at": "2026-07-13T10:00:28",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-07-13T12:52:48",
+      "articles_path": "articles/vzysk/vzyskanie-dolga-s-zakrytogo-ip.html"
     },
     "lichnaya-yavka-dolzhnika-bankrotstvo-iniciativa": {
       "category": "news",
