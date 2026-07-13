@@ -4230,6 +4230,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "lichnaya-yavka-dolzhnika-bankrotstvo-iniciativa",
+      "category": "news",
+      "title": "Личная явка при банкротстве: инициатива Сбербанка",
+      "added_at": "2026-07-13T05:17:52.358351",
+      "char_count": 6075,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1783909069/articles/lichnaya-yavka-dolzhnika-bankrotstvo-iniciativa-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
