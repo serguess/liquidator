@@ -26207,5 +26207,56 @@
     "stderr_tail": "[ERR] rate_limit: put_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard\",\"cache_creation\":{\"ephemeral_1h_input_tokens\":0,\"ephemeral_5m_input_tokens\":0},\"inference_geo\":\"\",\"iterations\":[],\"speed\":\"standard\"},\"modelUsage\":{},\"permission_denials\":[],\"terminal_reason\":\"completed\",\"fast_mode_state\":\"off\",\"uuid\":\"be788626-f62f-403b-a86a-62b49e42b21f\"}\n\n",
     "tokens_by_model": {},
     "metrics": null
+  },
+  {
+    "timestamp": "2026-07-13T14:48:21",
+    "category": "fiz",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "mode": "new",
+    "topic_id": "fiz-151",
+    "topic_slug": "bankrotstvo-fizlica-valyutnyj-dolg",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "length_soft_passed: 7880 > 6500 но ≤ 8500 и iteration=2 — пропускаем (приоритет spam/uniqueness/ai)"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "finalize_safety_net": {
+      "ran": true,
+      "rc": 0
+    },
+    "status": "ok",
+    "slug": "bankrotstvo-fizlica-valyutnyj-dolg",
+    "duration_sec": 2554.0,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "  123860     55434\n6-seo-editor        haiku            20       8    66112     25520     66140\n7-publisher         haiku            20       8    39266     25520     39294\n------------------------------------------------------------------------------------------\nИТОГО                              2826      65   602993    538418    605884\nBillable-токенов на статью: ~605K (cache_read 538K не считается в лимит подписки).\nАртефакты: drafts/bankrotstvo-fizlica-valyutnyj-dolg/  | quality_gate exit=0",
+    "stderr_tail": "",
+    "tokens_by_model": {},
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7880
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]

@@ -4282,6 +4282,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "bankrotstvo-otsutstvuyuschego-dolzhnika-yurlica",
+      "category": "yur",
+      "title": "Банкротство отсутствующего должника-юрлица: порядок и сроки",
+      "added_at": "2026-07-14T01:09:13.743038",
+      "char_count": 7215,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1783980551/articles/bankrotstvo-otsutstvuyuschego-dolzhnika-yurlica-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
