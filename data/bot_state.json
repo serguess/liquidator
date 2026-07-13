@@ -8269,7 +8269,7 @@
     "subsidiarnaya-otvetstvennost-posle-zavershenia-bankrotstva": {
       "category": "yur",
       "title": "Субсидиарная ответственность после завершения банкротства",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -8277,14 +8277,16 @@
       "tg_message_id": 1953,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-12T20:20:32",
-      "last_action_at": "2026-07-13T10:00:26",
+      "last_action_at": "2026-07-13T12:52:43",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/yur/subsidiarnaya-otvetstvennost-posle-zavershenia-bankrotstva",
       "pending_batch": false,
       "pending_batch_at": "2026-07-12T20:20:32",
       "batch_sent_at": "2026-07-13T10:00:26",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-07-13T12:52:43",
+      "articles_path": "articles/yur/subsidiarnaya-otvetstvennost-posle-zavershenia-bankrotstva.html"
     },
     "vzyskanie-dolga-s-zakrytogo-ip": {
       "category": "vzysk",
