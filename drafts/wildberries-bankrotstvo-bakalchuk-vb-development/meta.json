@@ -1,0 +1,107 @@
+{
+  "slug": "wildberries-bankrotstvo-bakalchuk-vb-development",
+  "category": "news",
+  "title": "Wildberries в банкротстве VB Development Бакальчука",
+  "description": "Wildberries подала требования в банкротство VB Development - структуры основателя. Что это значит для кредиторов и чем грозит маркетплейсу.",
+  "h1": "Wildberries вступила в дело о банкротстве структуры VB Development",
+  "lead": "Wildberries вступила в дело о несостоятельности VB Development как кредитор - не банкротится сама, а требует учёта своей суммы в чужом производстве.",
+  "topic_action": "консультацию по требованиям кредитора в банкротстве",
+  "breadcrumb_current": "Wildberries и VB Development",
+  "og_image": "/assets/articles/wildberries-bankrotstvo-bakalchuk-vb-development.jpg",
+  "main_keyword": "wildberries банкротство vb development",
+  "secondary_keywords": [
+    "банкротство vb development",
+    "владимир бакальчук структура",
+    "wildberries требования кредитора",
+    "банкротство дочерней компании",
+    "дело о несостоятельности vb development",
+    "арбитраж банкротство",
+    "требования в конкурсе кредиторов"
+  ],
+  "intent": "informational",
+  "funnel_stage": "cold",
+  "article_type": "B",
+  "offer": "proverka-spisaniya",
+  "event_date": "2026-06-19",
+  "news_zone": "finance",
+  "primary_source": "https://rapsinews.ru/judicial_news/20260619/311946274.html",
+  "internal_links": [
+    "/articles/yur/subsidiarnaya-otvetstvennost-posle-zavershenia-bankrotstva",
+    "/articles/news/hotin-yugra-subsidiarka-173-mlrd-arbitrazh",
+    "/articles/vzysk/vzyskanie-dolga-s-zakrytogo-ip"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/",
+    "https://bankrot.fedresurs.ru/"
+  ],
+  "faq": [
+    {
+      "question": "Значит ли, что Wildberries сама стала банкротом?",
+      "answer": "Нет. Площадка выступает взыскателем в чужом деле, а не должником. Wildberries предъявила денежное притязание к VB Development и требует учёта суммы в перечне участников - это стандартная защита имущественных прав."
+    },
+    {
+      "question": "Какие сроки у других контрагентов VB Development?",
+      "answer": "Тридцать календарных дней с даты публикации уведомления о введении наблюдения. После этого попадание в перечень ещё возможно, но право голоса на первом собрании кредиторов теряется."
+    },
+    {
+      "question": "Может ли Wildberries забрать всё имущество должника?",
+      "answer": "Нет. Распределение выручки от продажи активов идёт строго по установленной очерёдности. Ни один участник не забирает всё: залогодержатель получает 70 или 80 процентов от предмета залога, остальные суммы делятся между очередями."
+    },
+    {
+      "question": "Что с текущими поставками после наблюдения?",
+      "answer": "Товары и услуги, отгруженные VB Development после принятия арбитражем заявления, признаются текущими платежами. Они гасятся вне очереди реестровых долгов - раньше, чем начнётся распределение массы."
+    },
+    {
+      "question": "Обязательно ли платить 100 000 рублей госпошлины?",
+      "answer": "Только если сам подаёшь заявление о признании должника банкротом. Взыскатель, который просто входит в уже открытое производство и заявляет сумму в перечень требований, отдельную пошлину такого размера не платит - у него другая процедура включения."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все 10 фактов из research.json верифицированы: last_verified 2026-07-13, legislation_status active по каждому",
+    "f6 (госпошлина 100 000 руб.) - active, включён с точной ссылкой на ст. 333.21 НК РФ (ФЗ-176 от 12.07.2024); source_url в research отсутствует, поэтому гиперссылка не добавлена, только текстовое упоминание нормы",
+    "Запрещённые утверждения из forbidden_claims отсутствуют в тексте"
+  ],
+  "keyword_density_main": null,
+  "main_keyword_exact_count": null,
+  "text_chars": 6459,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.107,
+  "local_spam_ngram3_repeat": 0.047,
+  "local_lexical_diversity": 0.643,
+  "local_ai_markers_density": 0.24,
+  "local_ai_markers_critical": 0,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1783923036/articles/wildberries-bankrotstvo-bakalchuk-vb-development-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1783923036/articles/wildberries-bankrotstvo-bakalchuk-vb-development-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Close-up cinematic photograph of legal and administrative implements suggesting a major bankruptcy proceeding underway. On a dark walnut surface: brass scales of justice with empty pans (symbolizing competing creditor claims), a wooden judge's gavel resting on its sound block, a stack of thick closed dossiers bound tightly with cord (representing voluminous case files), a polished round corporate seal, an antique brass padlock with weathered chain (signifying asset control and seizure), and a sand-filled hourglass mid-flow (marking the procedural timeline). Camera: tabletop level, three-quarter angle from the left. Lighting: soft directional sidelight casting elegant dramatic shadows across brass and leather. Materials: oxidized brass, dark walnut, weathered leather bindings. Mood: high-stakes corporate insolvency, due process at scale, institutional gravitas.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-07-13T06:10:37Z",
+  "length_status": "too_long",
+  "length_kind": "news",
+  "local_ai_markers_total": 2,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 4,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 51,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность чуть выше 50% (~51%)",
+    "длина значительно больше лимита 5500 (6 459 знаков)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "targeted_tokens_over_limit: 127фз_закон=5(>≤2)",
+    "broken_internal_links: 2 ссылок без соответствия в published_index (/articles/yur/subsidiarnaya-otvetstvennost-posle-zavershenia-bankrotstva: slug 'subsidiarnaya-otvetstvennost-posle-zavershenia-bankrotstva' не найден в категории 'yur' (есть: нигде); /articles/vzysk/vzyskanie-dolga-s-zakrytogo-ip: slug 'vzyskanie-dolga-s-zakrytogo-ip' не найден в категории 'vzysk' (есть: нигде))"
+  ],
+  "date_published": "2026-07-13",
+  "date_modified": "2026-07-13",
+  "ready_for_review": true,
+  "ready_at": "2026-07-13T06:10:41Z",
+  "publication_target": "telegram_review"
+}

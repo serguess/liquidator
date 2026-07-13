@@ -4256,6 +4256,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "wildberries-bankrotstvo-bakalchuk-vb-development",
+      "category": "news",
+      "title": "Wildberries в банкротстве VB Development Бакальчука",
+      "added_at": "2026-07-13T09:10:41.557380",
+      "char_count": 6459,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1783923036/articles/wildberries-bankrotstvo-bakalchuk-vb-development-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
