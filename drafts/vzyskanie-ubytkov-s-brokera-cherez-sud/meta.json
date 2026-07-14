@@ -1,0 +1,99 @@
+{
+  "slug": "vzyskanie-ubytkov-s-brokera-cherez-sud",
+  "category": "vzysk",
+  "title": "Взыскание убытков с брокера через суд: права инвестора",
+  "description": "Как взыскать убытки с брокера: основания, судебный порядок, размер убытков и риски инвестора. Пошаговое юридическое руководство.",
+  "h1": "Как взыскать убытки с брокера через суд: полное руководство для инвестора",
+  "lead": "Закон даёт право требовать компенсации и прямых потерь, и упущенного дохода при доказанном нарушении договора об оказании брокером услуг.",
+  "topic_action": "взыскание убытков с брокера",
+  "breadcrumb_current": "Взыскание убытков с брокера",
+  "og_image": "/assets/articles/vzyskanie-ubytkov-s-brokera-cherez-sud.jpg",
+  "main_keyword": "взыскание убытков с брокера через суд",
+  "secondary_keywords": [
+    "взыскание убытков инвестора",
+    "права инвестора при убытках",
+    "судебное разбирательство с брокером",
+    "взыскание ущерба с брокерской компании",
+    "как подать иск на брокера",
+    "убытки от неправомерных действий брокера",
+    "гражданский иск к брокеру",
+    "компенсация за убытки инвестора",
+    "мошенничество брокера взыскание",
+    "страхование ответственности брокера"
+  ],
+  "internal_links": [],
+  "external_links": [],
+  "faq": [
+    {
+      "question": "Можно ли требовать возмещения при оговорке об ограничении ответственности?",
+      "answer": "Оговорка не отменяет ответственность за умысел и грубую неосторожность. Условие, полностью снимающее с посредника обязательства, суды признают ничтожным. Ограничение работает только в разумных пределах."
+    },
+    {
+      "question": "Что делать при задержке исполнения приказа?",
+      "answer": "Зафиксировать время нажатия кнопки и время исполнения ордера через историю операций. Разница в цене умножается на количество бумаг - это размер претензии. Приложить регламент с нормативом исполнения."
+    },
+    {
+      "question": "Обязательна ли претензия до обращения в арбитраж?",
+      "answer": "По закону не обязательна. Но письменное требование с суммой и сроком ответа помогает подтвердить добросовестность и может повлиять на распределение расходов."
+    },
+    {
+      "question": "Сколько идёт дело в первой инстанции?",
+      "answer": "Обычно 3-6 месяцев. При назначении экспертизы срок увеличивается на 1-3 месяца. Приказное производство короче - около двух недель без учёта возражений."
+    },
+    {
+      "question": "Какие бумаги подтверждают размер требования?",
+      "answer": "Выписки счёта, история ордеров, справки от посредника, расчёт эксперта. Без документального подтверждения размер судом не установится - слова к делу не подшиваются."
+    },
+    {
+      "question": "Почему могут отказать даже при явном нарушении?",
+      "answer": "Чаще всего - из-за недоказанной причинной связи, истёкшего трёхлетнего срока или отсутствия документов, подтверждающих размер претензии. Иногда - когда заявитель сам изменял поручения или соглашался на рискованную операцию письменно."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все факты в draft сверены с research.json. Статусы: active, last_verified: 2026-07-14 для всех ключевых утверждений.",
+    "Контекст применения норм корректен: ст. 15 ГК РФ (убытки), ст. 27 АПК РФ (арбитраж), ст. 229.2 АПК РФ (приказное производство), ст. 333.21 НК РФ (госпошлина), ст. 112 ФЗ-229 (исполнительский сбор).",
+    "Лимит гарантийного фонда (700 000 руб.) упоминается осторожно с оговоркой 'ориентировочно' и 'зависит от СРО', что соответствует needs_verification в research.json.",
+    "Внутренние ссылки: outline.internal_links_targets пуст, внешние ссылки не добавлены в body (требуют реальных URL КонсультантПлюс/Гарант)."
+  ],
+  "keyword_density_main": 0.021,
+  "main_keyword_exact_count": 2,
+  "text_chars": 8814,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.091,
+  "local_spam_ngram3_repeat": 0.02,
+  "local_lexical_diversity": 0.638,
+  "local_ai_markers_density": 0.19,
+  "local_ai_markers_critical": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1783997573/articles/vzyskanie-ubytkov-s-brokera-cherez-sud-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1783997573/articles/vzyskanie-ubytkov-s-brokera-cherez-sud-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Editorial photograph of a polished marble slab in the foreground holding a closed dark leather portfolio, a fountain pen, a polished brass round seal, an antique pocket watch on a chain, and a brass key ring arranged with editorial precision. Soft architectural background: blurred limestone columns and distant marble wall slightly out of focus. Camera: tabletop level, slight three-quarter angle. Lighting: natural soft daylight from upper left grazing the stone surface, revealing veins and texture. Palette: warm cream marble, cool grey shadow, brushed brass accents. Mood: timeless professional gravitas of an investor's rightful claim.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-07-14T02:52:54Z",
+  "length_status": "too_long",
+  "length_kind": "default",
+  "local_ai_markers_total": 2,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 2,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 49,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "длина значительно больше лимита 6500 (8 814 знаков)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "length_too_long: 8814 > 6500 (kind=default)"
+  ],
+  "date_published": "2026-07-14",
+  "date_modified": "2026-07-14",
+  "ready_for_review": true,
+  "ready_at": "2026-07-14T02:52:56Z",
+  "publication_target": "telegram_review"
+}
