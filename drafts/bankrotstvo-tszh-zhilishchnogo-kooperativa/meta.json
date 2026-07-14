@@ -1,0 +1,114 @@
+{
+  "slug": "bankrotstvo-tszh-zhilishchnogo-kooperativa",
+  "category": "yur",
+  "title": "Банкротство ТСЖ и кооператива: права жильцов",
+  "description": "Что происходит с жилым домом и взносами, если ТСЖ или кооператив объявили банкротство. Права и действия жильцов. Восстановление кровли и ремонт.",
+  "h1": "Банкротство ТСЖ и жилищного кооператива: защита прав жильцов",
+  "lead": "Жильё под защитой. Батареи не остынут. А вот сборы, ушедшие в кассу и не потраченные на дом, вернутся не в полном объёме и не всем.",
+  "topic_action": "защиту прав при банкротстве ТСЖ",
+  "breadcrumb_current": "Банкротство ТСЖ и кооператива",
+  "og_image": "/assets/articles/bankrotstvo-tszh-zhilishchnogo-kooperativa.jpg",
+  "main_keyword": "банкротство ТСЖ и кооператива",
+  "secondary_keywords": [
+    "ТСЖ банкротство права жильцов",
+    "жилищный кооператив банкротство",
+    "банкротство жилого комплекса ТСЖ",
+    "потеря взносов при банкротстве ТСЖ",
+    "имущество ТСЖ при банкротстве",
+    "ремонт дома ТСЖ в банкротстве",
+    "как защитить квартиру при банкротстве ТСЖ",
+    "конкурсная масса ТСЖ",
+    "реорганизация ТСЖ через банкротство"
+  ],
+  "internal_links": [
+    "/articles/yur/bankrotstvo-yurlica-poshagovo",
+    "/articles/yur/reeestr-trebovanij-kreditorov-bankrotstvo",
+    "/articles/yur/arbitrazhnyj-upravlyayushchij-funkcii-bankrotstvo",
+    "/articles/yur/sobraniye-kreditorov-bankrotstvo",
+    "/articles/yur/tekushchie-platezhi-v-bankrotstve",
+    "/articles/yur/imushchestvennyj-ihmun-pri-bankrotstve"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/",
+    "https://www.consultant.ru/document/cons_doc_LAW_5142/",
+    "https://www.consultant.ru/document/cons_doc_LAW_5205/"
+  ],
+  "faq": [
+    {
+      "question": "Могут ли забрать жильё при банкротстве домоуправления?",
+      "answer": "Нет. Жилые помещения находятся в собственности владельцев и в имущественную массу должника не включаются. Реализуется только то, что оформлено на само юрлицо, - оборудование, счета, общедомовое имущество."
+    },
+    {
+      "question": "Что происходит со светом и теплом, пока идёт дело?",
+      "answer": "Обслуживание не прерывается. Ресурсники получают деньги в приоритетном порядке - как текущие платежи первой очереди. Управляющий обязан гасить эти счета из оставшихся средств."
+    },
+    {
+      "question": "Нужно ли продолжать вносить платежи на содержание?",
+      "answer": "Да, обязательно. Обязанность собственника платить за содержание общего имущества не отменяется банкротством организации. Долги, накопленные во время процедуры, перейдут новому управлению вместе с правом их взыскать."
+    },
+    {
+      "question": "Сколько длится процедура и когда получится выбрать новое управление?",
+      "answer": "По нашей практике - от восьми месяцев до полутора лет. Наблюдение занимает около четырёх месяцев, реализация имущества - шесть-восемь, плюс ликвидация. Решение о новом управлении принимается собранием после завершения дела."
+    },
+    {
+      "question": "Чем несостоятельность кооператива отличается от банкротства товарищества?",
+      "answer": "Кооператив - собственник жилых помещений до момента выплаты пая членом. Если процедура открывается против такого кооператива, невыплаченные помещения формально остаются в его массе. Это главная развилка, требующая индивидуального разбора."
+    },
+    {
+      "question": "Куда подать требование о возврате сборов?",
+      "answer": "Требование адресуется управляющему по адресу, указанному в публикации ЕФРСБ. Пакет минимальный: квитанции, справка о ваших платежах, расчёт неиспользованных сумм. Срок - 30 календарных дней с даты публикации о наблюдении."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все ключевые юр-утверждения сверены с research.json. Статусы всех норм: active, legislation_status актуален.",
+    "Порог долга 2 млн рублей (ст. 33 п. 1 127-ФЗ) актуален с 31.05.2024 (ФЗ-107). Устаревший порог 300 000 рублей отмечен правильно как исторический.",
+    "Ссылки на 446 ГПК и 36 ЖК подтверждены (f12, f1). Правильно указано, что жилые помещения не входят в конкурсную массу.",
+    "Очередность требований (ст. 134-136 127-ФЗ) соответствует f11: текущие платежи 1-я очередь, жильцы 4-я очередь.",
+    "Обязанность управляющего сохранять дом (текущий ремонт, коммунальные услуги) соответствует f5 (ст. 37, 20.1 127-ФЗ).",
+    "Капитальный ремонт откладывается после завершения банкротства - соответствует f6.",
+    "Требования жильцов о возврате взносов включаются в реестр - соответствует f9 (ст. 71 127-ФЗ).",
+    "Нет утверждений из forbidden_claims. Сохранены все допустимые формулировки (safe_phrasing)."
+  ],
+  "keyword_density_main": 0.021,
+  "main_keyword_exact_count": 2,
+  "text_chars": 8383,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.092,
+  "local_spam_ngram3_repeat": 0.005,
+  "local_lexical_diversity": 0.658,
+  "local_ai_markers_density": 0.2,
+  "local_ai_markers_critical": 0,
+  "local_ai_markers_total": 2,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 3,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1784049387/articles/bankrotstvo-tszh-zhilishchnogo-kooperativa-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1784049387/articles/bankrotstvo-tszh-zhilishchnogo-kooperativa-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Photograph of an architectural in-between space — a passage between two residential stone buildings or a covered colonnade. Wet pavement reflects the architecture above. Camera: low-angle along the passageway with vanishing point centered, or diagonal three-quarter. Lighting: cool overcast or warm glow from a single distant lamppost with fog softening the far end. Optional minimal foreground items at the base of frame: a folded umbrella, a closed briefcase, and a single brass key on a ring resting on the damp stone. Palette: cool grey-blue with warm pin-points. Mood: transition between procedural stages, the quiet moment between residents' claims and cooperative resolution.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-07-14T17:16:28Z",
+  "length_status": "too_long",
+  "length_kind": "default",
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 47,
+  "predicted_ai_pct": 6,
+  "predicted_uniqueness_pct": 90,
+  "customer_risks": [
+    "длина значительно больше лимита 6500 (8 383 знаков)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "author_markers_missing: 1 < 2",
+    "broken_internal_links: 1 ссылок без соответствия в published_index (/articles/yur/bankrotstvo-pri-dolge-v-kreditnom-kooperative: slug 'bankrotstvo-pri-dolge-v-kreditnom-kooperative' не найден в категории 'yur' (есть: нигде))"
+  ],
+  "date_published": "2026-07-14",
+  "date_modified": "2026-07-14",
+  "ready_for_review": true,
+  "ready_at": "2026-07-14T17:16:30Z",
+  "publication_target": "telegram_review"
+}

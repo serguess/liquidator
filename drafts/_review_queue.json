@@ -4321,6 +4321,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "bankrotstvo-tszh-zhilishchnogo-kooperativa",
+      "category": "yur",
+      "title": "Банкротство ТСЖ и кооператива: права жильцов",
+      "added_at": "2026-07-14T20:16:30.891859",
+      "char_count": 8383,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1784049387/articles/bankrotstvo-tszh-zhilishchnogo-kooperativa-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
