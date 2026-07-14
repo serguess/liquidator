@@ -1,6 +1,19 @@
 {
-  "generated": "2026-07-13",
+  "generated": "2026-07-14",
   "articles": [
+    {
+      "slug": "wildberries-bankrotstvo-bakalchuk-vb-development",
+      "cat": "news",
+      "catLabel": "Новости",
+      "title": "Wildberries в банкротстве VB Development Бакальчука",
+      "desc": "Wildberries подала требования в банкротство VB Development - структуры основателя. Что это значит для кредиторов и чем грозит маркетплейсу.",
+      "date": "14 июля 2026",
+      "dateIso": "2026-07-14",
+      "read": "4 мин.",
+      "tone": "b",
+      "img": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1783923036/articles/wildberries-bankrotstvo-bakalchuk-vb-development-cover.jpg",
+      "url": "articles/news/wildberries-bankrotstvo-bakalchuk-vb-development"
+    },
     {
       "slug": "sud-sokratil-procentnoe-voznagrazhdenie-upravlyayushchego",
       "cat": "news",

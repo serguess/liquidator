@@ -8357,20 +8357,24 @@
     "wildberries-bankrotstvo-bakalchuk-vb-development": {
       "category": "news",
       "title": "Wildberries в банкротстве VB Development Бакальчука",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 1971,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-13T09:11:26",
-      "last_action_at": "2026-07-13T09:11:26",
+      "last_action_at": "2026-07-14T15:10:47",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-07-13T09:11:26"
+      "published_url": "https://pravo.shop/articles/news/wildberries-bankrotstvo-bakalchuk-vb-development",
+      "pending_batch": false,
+      "pending_batch_at": "2026-07-13T09:11:26",
+      "batch_sent_at": "2026-07-14T10:00:24",
+      "batch_fail_count": 0,
+      "published_at": "2026-07-14T15:10:47",
+      "articles_path": "articles/news/wildberries-bankrotstvo-bakalchuk-vb-development.html"
     },
     "bankrotstvo-fizlica-valyutnyj-dolg": {
       "category": "fiz",
@@ -8380,15 +8384,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 1973,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-13T15:31:30",
-      "last_action_at": "2026-07-13T15:31:30",
+      "last_action_at": "2026-07-14T10:00:26",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-07-13T15:31:30"
+      "pending_batch": false,
+      "pending_batch_at": "2026-07-13T15:31:30",
+      "batch_sent_at": "2026-07-14T10:00:26",
+      "batch_fail_count": 0
     },
     "bankrotstvo-otsutstvuyuschego-dolzhnika-yurlica": {
       "category": "yur",
@@ -8398,15 +8404,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 1975,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-14T01:09:35",
-      "last_action_at": "2026-07-14T01:09:35",
+      "last_action_at": "2026-07-14T10:00:29",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-07-14T01:09:35"
+      "pending_batch": false,
+      "pending_batch_at": "2026-07-14T01:09:35",
+      "batch_sent_at": "2026-07-14T10:00:29",
+      "batch_fail_count": 0
     },
     "vzyskanie-ubytkov-s-brokera-cherez-sud": {
       "category": "vzysk",
@@ -8416,19 +8424,39 @@
       "versions": [
         "2.0"
       ],
+      "tg_message_id": 1977,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-07-14T05:53:24",
+      "last_action_at": "2026-07-14T10:00:31",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-07-14T05:53:24",
+      "batch_sent_at": "2026-07-14T10:00:31",
+      "batch_fail_count": 0
+    },
+    "arest-zarplaty-pristavami-bankrotstvo": {
+      "category": "fiz",
+      "title": "Арест зарплаты приставами и защита через банкротство",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
       "tg_message_id": null,
       "tg_chat_id": null,
-      "first_seen_at": "2026-07-14T05:53:24",
-      "last_action_at": "2026-07-14T05:53:24",
+      "first_seen_at": "2026-07-14T15:09:29",
+      "last_action_at": "2026-07-14T15:09:29",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
       "pending_batch": true,
-      "pending_batch_at": "2026-07-14T05:53:24"
+      "pending_batch_at": "2026-07-14T15:09:29"
     }
   },
   "pending_actions": [],
-  "last_batch_date": "2026-07-13",
-  "last_batch_count": 5,
-  "last_batch_at": "2026-07-13T10:00:33"
+  "last_batch_date": "2026-07-14",
+  "last_batch_count": 4,
+  "last_batch_at": "2026-07-14T10:00:31"
 }
