@@ -1,0 +1,110 @@
+{
+  "slug": "arest-zarplaty-pristavami-bankrotstvo",
+  "category": "fiz",
+  "title": "Арест зарплаты приставами и защита через банкротство",
+  "description": "Банкротство физлица защищает от ареста зарплаты приставами. Какие удержания запрещены, как прерываются долги и когда доход снова становится полным.",
+  "h1": "Арест зарплаты приставами: как банкротство физлица помогает избежать удержаний",
+  "lead": "Разбираем, когда удержания из зарплаты законны, а когда превышают допустимый предел, и как дело о несостоятельности переводит расчёты с кредиторами в предсказуемый режим.",
+  "topic_action": "проверку возможности списания долгов",
+  "breadcrumb_current": "Арест зарплаты и банкротство",
+  "og_image": "/assets/articles/arest-zarplaty-pristavami-bankrotstvo.jpg",
+  "main_keyword": "арест зарплаты приставами банкротство",
+  "secondary_keywords": [
+    "защита зарплаты от ареста приставов",
+    "максимальный размер удержаний из зарплаты",
+    "запрещённые удержания из зарплаты",
+    "как остановить удержания из зарплаты",
+    "банкротство и зарплата",
+    "удержание из зарплаты при долгах",
+    "арест счёта и зарплаты физлица",
+    "прожиточный минимум зарплаты при взысканиях"
+  ],
+  "internal_links": [
+    "/articles/fiz/bankovskie-scheta-pri-bankrotstve",
+    "/articles/fiz/alimenty-pri-bankrotstve-fizlica"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_71450/",
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/"
+  ],
+  "faq": [
+    {
+      "question": "Можно ли остановить вычеты до начала банкротного дела?",
+      "answer": "Только двумя путями. Первый - рассрочка через суд: подача заявления, ссылка на материальное положение, решение остаётся за судьёй. Второй - подача на несостоятельность, после чего производства приставов приостанавливаются."
+    },
+    {
+      "question": "Что происходит с зарплатной картой в период реструктуризации?",
+      "answer": "Формально карта остаётся у гражданина, но операции по ней согласуются с планом. Бухгалтерия прекращает списания по прежним листам. Крупные траты, не заложенные в план, могут стать вопросом на очередном заседании."
+    },
+    {
+      "question": "Сколько денег оставляют из заработка при реализации имущества?",
+      "answer": "Ежемесячно выделяется прожиточный минимум трудоспособного - на 2026 год это 20 644 рублей на самого гражданина плюс отдельная сумма на каждого иждивенца. Остаток уходит в конкурсную массу."
+    },
+    {
+      "question": "Какие выплаты пристав не вправе трогать даже при активном листе?",
+      "answer": "Возмещения вреда здоровью, алименты, которые получает сам гражданин, командировочные, пособия по рождению и уходу до полутора лет, материнский капитал, гуманитарная помощь. Пособие по безработице сюда не входит и подлежит списанию в общем порядке."
+    },
+    {
+      "question": "Обязательно ли идти в арбитраж или допустима подача через МФЦ?",
+      "answer": "Внесудебный маршрут через МФЦ подходит при закрытых производствах приставов и обязательстве в определённом коридоре. Если лист активный и вычеты продолжаются - это признак судебного пути."
+    },
+    {
+      "question": "Чем рассрочка через суд отличается от банкротного дела для защиты дохода?",
+      "answer": "Рассрочка растягивает выплаты по одному конкретному обязательству, но взыскание сохраняется - просто в меньшем размере. Дело о несостоятельности объединяет всех взыскателей и защищает доход от параллельных вычетов, а по итогу большинство обязательств списывается."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все факты сверены с research.json. Статусы: active. last_verified 2026-07-14 для всех ключевых утверждений.",
+    "Предел 50% после НДФЛ (ст. 99 ч. 2 ФЗ-229) - корректно привязан к ФЗ-229, контекст верный.",
+    "70% только по четырём категориям (ст. 99 ч. 3 ФЗ-229) - корректно, запрещённый claim об универсальности 70% отсутствует.",
+    "ПМ 20 644 руб. (ФЗ-426 от 28.11.2025) - актуален, last_verified 2026-07-14.",
+    "Приостановление производств по ст. 213.11 127-ФЗ - корректно, оригинальная формулировка '213.11-я норма закона о банкротстве' исправлена на корректную отсылку.",
+    "Исполнительский сбор 7% (минимум 1000 руб.) по ст. 112 ФЗ-229 - корректно, контекст применения верен.",
+    "Условия реструктуризации по ст. 213.13 127-ФЗ - четыре условия переданы корректно.",
+    "Что не списывается: алименты, вред здоровью, моральный вред, субсидиарка (ст. 213.28 п. 5-6) - корректно.",
+    "Запрещённый claim 'прожиточный минимум защищён автоматически' отсутствует - требование подачи заявления сохранено.",
+    "Внутренние ссылки исправлены с /slug/ на /articles/fiz/slug (без trailing slash, без .html)."
+  ],
+  "keyword_density_main": 0.016,
+  "main_keyword_exact_count": 1,
+  "text_chars": 8288,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.109,
+  "local_spam_ngram3_repeat": 0.058,
+  "local_lexical_diversity": 0.603,
+  "local_ai_markers_density": 0.2,
+  "local_ai_markers_critical": 0,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1784030943/articles/arest-zarplaty-pristavami-bankrotstvo-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1784030943/articles/arest-zarplaty-pristavami-bankrotstvo-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Photograph of a grand stone staircase inside an official building, emphasizing ascent through procedural stages. Camera: low-angle from bottom looking up. Base and lower steps hold: a sealed envelope, a closed dark leather portfolio leaning against a column, an antique brass pocket watch, a brass key ring with multiple keys, a fountain pen, a folded umbrella on marble. Lighting: cool daylight shafts from high windows casting dramatic shadows on weathered marble. Materials: weathered marble, oxidized brass railings, deep red carpet runner. Mood: urgent procedural escalation toward legal protection from wage seizure and financial relief.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-07-14T12:09:04Z",
+  "length_status": "too_long",
+  "length_kind": "default",
+  "local_ai_markers_total": 2,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 2,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 55,
+  "predicted_ai_pct": 6,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность выше 50% (~55%)",
+    "длина значительно больше лимита 6500 (8 288 знаков)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "author_markers_missing: 1 < 2"
+  ],
+  "date_published": "2026-07-14",
+  "date_modified": "2026-07-14",
+  "ready_for_review": true,
+  "ready_at": "2026-07-14T12:09:06Z",
+  "publication_target": "telegram_review"
+}
