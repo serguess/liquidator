@@ -8371,6 +8371,60 @@
       "published_url": null,
       "pending_batch": true,
       "pending_batch_at": "2026-07-13T09:11:26"
+    },
+    "bankrotstvo-fizlica-valyutnyj-dolg": {
+      "category": "fiz",
+      "title": "Банкротство физлица с валютным долгом: как взыскивают",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-07-13T15:31:30",
+      "last_action_at": "2026-07-13T15:31:30",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-07-13T15:31:30"
+    },
+    "bankrotstvo-otsutstvuyuschego-dolzhnika-yurlica": {
+      "category": "yur",
+      "title": "Банкротство отсутствующего должника-юрлица: порядок и сроки",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-07-14T01:09:35",
+      "last_action_at": "2026-07-14T01:09:35",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-07-14T01:09:35"
+    },
+    "vzyskanie-ubytkov-s-brokera-cherez-sud": {
+      "category": "vzysk",
+      "title": "Взыскание убытков с брокера через суд: права инвестора",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-07-14T05:53:24",
+      "last_action_at": "2026-07-14T05:53:24",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-07-14T05:53:24"
     }
   },
   "pending_actions": [],
