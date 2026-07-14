@@ -4334,6 +4334,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "vzyskanie-dolga-po-dogovoru-lizinga",
+      "category": "vzysk",
+      "title": "Взыскание долга по лизингу: права лизингодателя",
+      "added_at": "2026-07-15T01:06:22.803139",
+      "char_count": 8508,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1784066779/articles/vzyskanie-dolga-po-dogovoru-lizinga-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
