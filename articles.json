@@ -2,6 +2,19 @@
   "generated": "2026-07-14",
   "articles": [
     {
+      "slug": "bankrotstvo-fizlica-valyutnyj-dolg",
+      "cat": "fiz",
+      "catLabel": "Банкротство физических лиц",
+      "title": "Банкротство физлица с валютным долгом: как взыскивают",
+      "desc": "Как пересчитывается валютный долг при банкротстве физлица, по какому курсу рассчитывают требования кредиторов, что нужно знать с долгом в евро, долларах, фунтах.",
+      "date": "14 июля 2026",
+      "dateIso": "2026-07-14",
+      "read": "5 мин.",
+      "tone": "b",
+      "img": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1783945850/articles/bankrotstvo-fizlica-valyutnyj-dolg-cover.jpg",
+      "url": "articles/fiz/bankrotstvo-fizlica-valyutnyj-dolg"
+    },
+    {
       "slug": "wildberries-bankrotstvo-bakalchuk-vb-development",
       "cat": "news",
       "catLabel": "Новости",
