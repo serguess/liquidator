@@ -8423,7 +8423,7 @@
     "vzyskanie-ubytkov-s-brokera-cherez-sud": {
       "category": "vzysk",
       "title": "Взыскание убытков с брокера через суд: права инвестора",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -8431,14 +8431,16 @@
       "tg_message_id": 1977,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-14T05:53:24",
-      "last_action_at": "2026-07-14T10:00:31",
+      "last_action_at": "2026-07-14T15:12:04",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/vzysk/vzyskanie-ubytkov-s-brokera-cherez-sud",
       "pending_batch": false,
       "pending_batch_at": "2026-07-14T05:53:24",
       "batch_sent_at": "2026-07-14T10:00:31",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-07-14T15:12:04",
+      "articles_path": "articles/vzysk/vzyskanie-ubytkov-s-brokera-cherez-sud.html"
     },
     "arest-zarplaty-pristavami-bankrotstvo": {
       "category": "fiz",
