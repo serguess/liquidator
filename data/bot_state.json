@@ -8450,15 +8450,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 1987,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-14T15:09:29",
-      "last_action_at": "2026-07-14T15:09:29",
+      "last_action_at": "2026-07-15T10:00:15",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-07-14T15:09:29"
+      "pending_batch": false,
+      "pending_batch_at": "2026-07-14T15:09:29",
+      "batch_sent_at": "2026-07-15T10:00:15",
+      "batch_fail_count": 0
     },
     "bankrotstvo-tszh-zhilishchnogo-kooperativa": {
       "category": "yur",
@@ -8468,15 +8470,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 1989,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-14T20:16:32",
-      "last_action_at": "2026-07-14T20:16:32",
+      "last_action_at": "2026-07-15T10:00:18",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-07-14T20:16:32"
+      "pending_batch": false,
+      "pending_batch_at": "2026-07-14T20:16:32",
+      "batch_sent_at": "2026-07-15T10:00:18",
+      "batch_fail_count": 0
     },
     "vzyskanie-dolga-po-dogovoru-lizinga": {
       "category": "vzysk",
@@ -8486,15 +8490,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 1991,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-15T01:06:35",
-      "last_action_at": "2026-07-15T01:06:35",
+      "last_action_at": "2026-07-15T10:00:20",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-07-15T01:06:35"
+      "pending_batch": false,
+      "pending_batch_at": "2026-07-15T01:06:35",
+      "batch_sent_at": "2026-07-15T10:00:20",
+      "batch_fail_count": 0
     },
     "vs-sdelki-zhilyo-bankrotstvo-dobrosovestnye-pokupateli": {
       "category": "news",
@@ -8504,19 +8510,21 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 1993,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-15T09:03:17",
-      "last_action_at": "2026-07-15T09:03:17",
+      "last_action_at": "2026-07-15T10:00:22",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-07-15T09:03:17"
+      "pending_batch": false,
+      "pending_batch_at": "2026-07-15T09:03:17",
+      "batch_sent_at": "2026-07-15T10:00:22",
+      "batch_fail_count": 0
     }
   },
   "pending_actions": [],
-  "last_batch_date": "2026-07-14",
+  "last_batch_date": "2026-07-15",
   "last_batch_count": 4,
-  "last_batch_at": "2026-07-14T10:00:31"
+  "last_batch_at": "2026-07-15T10:00:22"
 }
