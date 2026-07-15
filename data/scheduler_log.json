@@ -26857,5 +26857,102 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-07-15T19:36:21",
+    "category": "yur",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 5,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "yur-140",
+    "topic_slug": "moratorij-na-bankrotstvo-prava-dolzhnika-kreditora",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "length_soft_passed: 7734 > 6500 но ≤ 8500 и iteration=2 — пропускаем (приоритет spam/uniqueness/ai)",
+        "forced_pass_at_iter2: блокеры пропущены, статья идёт в TG-очередь с metrics_warning=true. Было: 1 блокеров — broken_internal_links"
+      ],
+      "recommendations": [
+        "fix_internal_links: заменить href на канонический /articles/{cat}/{slug} из published_index.json (см. .claude/style/editor-cheatsheet.md секция 6)"
+      ],
+      "stderr_tail": ""
+    },
+    "finalize_safety_net": {
+      "ran": true,
+      "rc": 0
+    },
+    "status": "ok",
+    "slug": "moratorij-na-bankrotstvo-prava-dolzhnika-kreditora",
+    "duration_sec": 1974.9,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "82\n6-seo-editor        sonnet            6      16        0     85840        22\n7-publisher         haiku            52      32    54964    156664     55048\n------------------------------------------------------------------------------------------\nИТОГО                               128     102   399462    477304    399692\nBillable-токенов на статью: ~399K (cache_read 477K не считается в лимит подписки).\nАртефакты: drafts/moratorij-na-bankrotstvo-prava-dolzhnika-kreditora/  | quality_gate exit=0",
+    "stderr_tail": "",
+    "tokens_by_model": {},
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7734
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
+  },
+  {
+    "timestamp": "2026-07-16T00:24:04",
+    "category": "vzysk",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 6,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "vzysk-121",
+    "topic_slug": "vzyskanie-dolga-po-agentskomu-dogovoru",
+    "status": "failed",
+    "slug": "vzyskanie-dolga-po-agentskomu-dogovoru",
+    "duration_sec": 499.6,
+    "returncode": 1,
+    "rescued_after_failure": false,
+    "stdout_tail": "=== 1-semantics (claude haiku) ===\n   ok: 1585 симв., usage in=20 out=10 cache_w=30400 cache_r=25520 billable=30430 ток, 21.6с\n=== 2-legal-research (claude haiku) ===\n   ok: 15839 симв., usage in=20 out=4 cache_w=72720 cache_r=25520 billable=72744 ток, 78.5с\n   ok: 17379 симв., billable=71868 ток (model=sonnet)\n   [outline_validate] exit=1\n=== 4-writer (claude opus) ===\n   ok: 9011 симв., billable=65583 ток, 79.7с\n   [writer self-fix проход 2]",
+    "stderr_tail": "[ERR] rate_limit: put_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard\",\"cache_creation\":{\"ephemeral_1h_input_tokens\":0,\"ephemeral_5m_input_tokens\":0},\"inference_geo\":\"\",\"iterations\":[],\"speed\":\"standard\"},\"modelUsage\":{},\"permission_denials\":[],\"terminal_reason\":\"completed\",\"fast_mode_state\":\"off\",\"uuid\":\"e45dac56-9a88-429e-8c00-4dc3ec59e0db\"}\n\n",
+    "tokens_by_model": {},
+    "metrics": null
   }
 ]

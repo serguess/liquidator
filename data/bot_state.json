@@ -8521,6 +8521,42 @@
       "pending_batch_at": "2026-07-15T09:03:17",
       "batch_sent_at": "2026-07-15T10:00:22",
       "batch_fail_count": 0
+    },
+    "zaschita-ot-moshennikov-pri-bankrotstve": {
+      "category": "fiz",
+      "title": "Защита от мошенников при банкротстве физлица",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-07-15T15:18:21",
+      "last_action_at": "2026-07-15T15:18:21",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-07-15T15:18:21"
+    },
+    "moratorij-na-bankrotstvo-prava-dolzhnika-kreditora": {
+      "category": "yur",
+      "title": "Мораторий на банкротство: права и обязанности",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-07-15T20:09:23",
+      "last_action_at": "2026-07-15T20:09:23",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-07-15T20:09:24"
     }
   },
   "pending_actions": [],
