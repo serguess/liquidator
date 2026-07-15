@@ -8495,6 +8495,24 @@
       "published_url": null,
       "pending_batch": true,
       "pending_batch_at": "2026-07-15T01:06:35"
+    },
+    "vs-sdelki-zhilyo-bankrotstvo-dobrosovestnye-pokupateli": {
+      "category": "news",
+      "title": "Жилищная сделка при банкротстве: как защитить себя",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-07-15T09:03:17",
+      "last_action_at": "2026-07-15T09:03:17",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-07-15T09:03:17"
     }
   },
   "pending_actions": [],
