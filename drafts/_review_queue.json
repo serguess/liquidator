@@ -4360,6 +4360,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "zaschita-ot-moshennikov-pri-bankrotstve",
+      "category": "fiz",
+      "title": "Защита от мошенников при банкротстве физлица",
+      "added_at": "2026-07-15T15:18:03.587699",
+      "char_count": 11068,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1784117879/articles/zaschita-ot-moshennikov-pri-bankrotstve-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

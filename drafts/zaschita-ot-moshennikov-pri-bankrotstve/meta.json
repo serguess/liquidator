@@ -1,0 +1,111 @@
+{
+  "slug": "zaschita-ot-moshennikov-pri-bankrotstve",
+  "category": "fiz",
+  "title": "Защита от мошенников при банкротстве физлица",
+  "description": "Типичные мошеннические схемы при банкротстве, как их распознать и избежать обмана. Признаки фальшивого управляющего, незаконные комиссии, поддельные документы.",
+  "h1": "Как защитить себя от мошенников при банкротстве физлица: распознаем схемы обмана",
+  "lead": "Мошенники атакуют должников в момент максимальной уязвимости - когда контролят счёт и грозят приставы. Разбираем пять явных маркеров аферы, четыре способа проверки управляющего и что делать, если уже отдали деньги.",
+  "topic_action": "проверку возможности списания долгов",
+  "breadcrumb_current": "Защита от мошенников при банкротстве",
+  "og_image": "/assets/articles/zaschita-ot-moshennikov-pri-bankrotstve.jpg",
+  "main_keyword": "мошенники при банкротстве физлица как распознать",
+  "secondary_keywords": [
+    "фальшивые арбитражные управляющие",
+    "мошеннические схемы банкротства",
+    "как избежать обмана при банкротстве",
+    "незаконные комиссии управляющего",
+    "поддельные документы банкротства",
+    "проверить управляющего при банкротстве",
+    "мошенники предлагают списать долги",
+    "как распознать лжеуправляющего"
+  ],
+  "internal_links": [
+    "/articles/fiz/alimenty-pri-bankrotstve-fizlica",
+    "/articles/fiz/bankovskie-scheta-pri-bankrotstve-fizlica",
+    "/articles/fiz/kak-podat-na-bankrotstvo-samostoyatelno",
+    "/articles/fiz/vnesudebnoe-bankrotstvo-cherez-mfc",
+    "/articles/fiz/skolko-stoit-bankrotstvo-fizicheskogo-lica"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/",
+    "https://bankrotstvo.fedresurs.ru",
+    "https://minjust.gov.ru"
+  ],
+  "faq": [
+    {
+      "question": "Можно ли проверить арбитражного управляющего до начала процедуры?",
+      "answer": "Проверить можно любого человека, который называет себя специалистом по банкротству. Заходите на bankrotstvo.fedresurs.ru или на портал Минюста, ищете по фамилии в реестре арбитражных специалистов. Если фамилии нет - это не управляющий, а самозванец. При этом «вашим» он становится только после определения арбитража."
+    },
+    {
+      "question": "Сколько по закону стоит банкротство физлица - и что входит в эту сумму?",
+      "answer": "По 127-ФЗ единственный обязательный платёж должника - 25 000 рублей в депозит арбитража на вознаграждение специалиста. Плюс расходы на публикации в реестре сведений и на объявления в «Коммерсанте» - несколько тысяч. Плюс 7% от реализованного имущества или от выплат кредиторам - но это уже не аванс, а расчёт по итогам. Никаких «взносов до суда» закон не предусматривает."
+    },
+    {
+      "question": "Что делать, если потребовали деньги ещё до судебного заседания?",
+      "answer": "Отказывать и не переводить. Просьба любых средств до возбуждения дела - вне закона и с высокой вероятностью афера. Если уже перевели - сохраняйте чек, переписку и подавайте заявление в полицию по норме о мошенничестве."
+    },
+    {
+      "question": "Какие долги не спишут даже после завершения процедуры?",
+      "answer": "Алименты, компенсации за вред жизни и здоровью, возмещение ущерба от преступления, субсидиарная ответственность, убытки от умышленных действий, текущие платежи процедуры. Кроме того, арбитраж вправе отказать в освобождении при недобросовестности - например, при сокрытии имущества."
+    },
+    {
+      "question": "Обязательно ли аферист представляется арбитражным управляющим?",
+      "answer": "Нет, чаще прикрываются нейтральными названиями: «юрист по банкротству», «специалист по списанию долгов», «представитель агентства». Формально это может быть даже правдой - юридические услуги оказывать никто не запрещал. Мошенничество начинается в момент, когда просят предоплату «до суда» или обещают гарантию."
+    },
+    {
+      "question": "Куда подать заявление на тех, кто выманил деньги под видом банкротства?",
+      "answer": "В полицию по норме о мошенничестве - основной адрес. Дополнительно: Роспотребнадзор (при договоре с фирмой), Прокуратура (при имитации госорганов), ФССП (при представлении приставом), Минюст (при ссылках на СРО). Онлайн-подача заявления доступна через Госуслуги."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все факты из draft.md сверены с research.json. Статусы всех ключевых фактов: active, last_verified в пределах 6 месяцев.",
+    "Основные утверждения: депозит 25 000 рублей в суд (ст. 20.6 п. 3 127-ФЗ), сроки процедуры 6-12 месяцев, невысвобождаемые требования (ст. 213.28 п. 5-6 127-ФЗ) актуальны и корректны.",
+    "Все запрещённые утверждения (обещание избежать суда, гарантированное списание всех долгов, авансы до суда) отсутствуют в тексте.",
+    "Внутренние ссылки включены согласно требованиям, внешние ссылки указывают на КонсультантПлюс, ЕФРСБ и Минюст."
+  ],
+  "keyword_density_main": 0.018,
+  "main_keyword_exact_count": 2,
+  "text_chars": 11068,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1784117879/articles/zaschita-ot-moshennikov-pri-bankrotstve-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1784117879/articles/zaschita-ot-moshennikov-pri-bankrotstve-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Editorial photograph of a lawyer's desk by a tall window with natural daylight. Camera at table-eye level, three-quarter angle. On the walnut desktop: a closed dark leather portfolio, a blank-spine notebook with a fountain pen aligned across it, a pair of reading glasses resting on an open page, an antique brass pocket watch showing indeterminate time, a white porcelain coffee cup on a saucer. Background through the tall window: blurred urban panorama at golden hour, soft bokeh. Materials: walnut, leather, brass, clear glass. Lighting: cool natural daylight from window plus warm interior ambient. Premium legal-magazine aesthetic, neutral beige-graphite palette. Mood: careful deliberation, vigilance against deception, attentive document review.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-07-15T12:18:00Z",
+  "length_status": "too_long",
+  "length_kind": "default",
+  "local_spam_top10_share": 0.098,
+  "local_spam_ngram3_repeat": 0.024,
+  "local_lexical_diversity": 0.59,
+  "local_ai_markers_density": 0.31,
+  "local_ai_markers_total": 4,
+  "local_ai_markers_critical": 0,
+  "local_ai_markers_high": 1,
+  "local_own_voice_hits": 3,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 53,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность чуть выше 50% (~53%)",
+    "длина значительно больше лимита 6500 (11 068 знаков)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "length_too_long: 11068 > 6500 (kind=default)",
+    "spam_risk: 3 флагов (top1_count>12 (=20, лемма «арбитраж»), top3_sum>30 (=44), top10_sum>80 (=101)), top-5: ['арбитраж', 'реестр', 'банкротств', 'заявлен', 'специалист']",
+    "targeted_tokens_over_limit: 000руб_паттерн=3(>≤2), 127фз_закон=3(>≤2)",
+    "broken_internal_links: 1 ссылок без соответствия в published_index (/articles/fiz/bankovskie-scheta-pri-bankrotstve-fizlica: slug 'bankovskie-scheta-pri-bankrotstve-fizlica' не найден в категории 'fiz' (есть: нигде))"
+  ],
+  "date_published": "2026-07-15",
+  "date_modified": "2026-07-15",
+  "ready_for_review": true,
+  "ready_at": "2026-07-15T12:18:03Z",
+  "publication_target": "telegram_review"
+}
