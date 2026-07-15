@@ -8459,6 +8459,42 @@
       "published_url": null,
       "pending_batch": true,
       "pending_batch_at": "2026-07-14T15:09:29"
+    },
+    "bankrotstvo-tszh-zhilishchnogo-kooperativa": {
+      "category": "yur",
+      "title": "Банкротство ТСЖ и кооператива: права жильцов",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-07-14T20:16:32",
+      "last_action_at": "2026-07-14T20:16:32",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-07-14T20:16:32"
+    },
+    "vzyskanie-dolga-po-dogovoru-lizinga": {
+      "category": "vzysk",
+      "title": "Взыскание долга по лизингу: права лизингодателя",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-07-15T01:06:35",
+      "last_action_at": "2026-07-15T01:06:35",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-07-15T01:06:35"
     }
   },
   "pending_actions": [],
