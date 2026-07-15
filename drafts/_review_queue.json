@@ -4347,6 +4347,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "vs-sdelki-zhilyo-bankrotstvo-dobrosovestnye-pokupateli",
+      "category": "news",
+      "title": "Жилищная сделка при банкротстве: как защитить себя",
+      "added_at": "2026-07-15T09:02:39.399778",
+      "char_count": 6847,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1784095354/articles/vs-sdelki-zhilyo-bankrotstvo-dobrosovestnye-pokupateli-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

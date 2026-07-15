@@ -1,0 +1,108 @@
+{
+  "slug": "vs-sdelki-zhilyo-bankrotstvo-dobrosovestnye-pokupateli",
+  "category": "news",
+  "title": "Жилищная сделка при банкротстве: как защитить себя",
+  "description": "Верховный суд разъяснил, когда жилищные сделки остаются в силе при банкротстве продавца. Права добросовестного покупателя и порядок защиты.",
+  "h1": "ВС разъяснил: когда жилищная сделка устоит при банкротстве",
+  "lead": "ВС РФ указал: жилищная сделка устоит при банкротстве продавца, если покупатель уплатил рыночную цену, не знал о финансовых проблемах и зарегистрировал право в ЕГРН.",
+  "topic_action": "защиту прав добросовестного покупателя жилья",
+  "breadcrumb_current": "Жилищные сделки при банкротстве",
+  "og_image": "/assets/articles/vs-sdelki-zhilyo-bankrotstvo-dobrosovestnye-pokupateli.jpg",
+  "main_keyword": "жилищная сделка при банкротстве добросовестный покупатель",
+  "secondary_keywords": [
+    "жилплощадь при банкротстве продавца",
+    "защита добросовестного покупателя жилья",
+    "судебная практика жилищные сделки",
+    "имущество должника при банкротстве",
+    "отмена сделки при банкротстве",
+    "право собственности на жилую площадь",
+    "ВС РФ жилищные отношения"
+  ],
+  "intent": "informational",
+  "funnel_stage": "cold",
+  "article_type": "B",
+  "offer": "proverka-spisaniya",
+  "event_date": "2026-07-01",
+  "news_zone": "vs_practice",
+  "internal_links": [
+    "/articles/fiz/bankrotstvo-fizicheskogo-lica",
+    "/articles/fiz/imushchestvo-pri-bankrotstve-fizlica"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/",
+    "https://www.consultant.ru/document/cons_doc_LAW_5142/"
+  ],
+  "faq": [
+    {
+      "question": "Можно ли потерять купленную квартиру, если продавец обанкротился?",
+      "answer": "Только через суд и только если управляющему удастся доказать, что покупка была безвозмездной, совершена с умыслом на причинение вреда кредиторам или что приобретатель знал о финансовых проблемах. При выполнении трёх условий - возмездность, добросовестность, регистрация - расторжение практически исключено."
+    },
+    {
+      "question": "За какой срок управляющий вправе оспорить договор купли-продажи жилья?",
+      "answer": "Возмездные сделки - в пределах трёх лет до конкурсного производства (ст. 31 п. 1 127-ФЗ). Безвозмездные - один год. Сам факт попадания в этот период автоматической отменой не является."
+    },
+    {
+      "question": "Чем дарение отличается от возмездной сделки при банкротстве продавца?",
+      "answer": "При дарении управляющему не нужно доказывать умысел - достаточно факта безвозмездной передачи в годичном окне. При возмездной покупке умысел вредить кредиторам ложится на плечи управляющего, и презумпция работает в пользу нового собственника."
+    },
+    {
+      "question": "Что считается доказательством добросовестности в арбитражном суде?",
+      "answer": "Выписка ЕГРН без обременений, проверка ЕФРСБ и базы ФССП на дату сделки, банковский расчёт или аккредитив вместо наличных, цена в пределах рыночной, немедленная регистрация в Росреестре. Совокупность этих следов трудно опровергнуть."
+    },
+    {
+      "question": "Распространяется ли защита ВС РФ на жильё, купленное в ипотеку?",
+      "answer": "Да, механизм тот же: важны возмездность, добросовестность и регистрация. Банк-залогодержатель дополнительно защищён своим требованием, а приобретатель - общими нормами закона о несостоятельности и кодекса."
+    },
+    {
+      "question": "Обязательно ли нанимать юриста, если управляющий прислал требование?",
+      "answer": "Не обязательно, но по нашим наблюдениям самостоятельная переписка с управляющим и попытки объяснить свою добросовестность «своими словами» чаще ухудшают позицию, чем помогают. Первую консультацию стоит получить сразу после письма."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "f7 (конкретный акт ВС РФ от 01.07.2026) содержит amendment_note о необходимости уточнения источника - в тексте использована обтекаемая формулировка о позиции ВС без реквизитов конкретного постановления",
+    "Все нормы (ст. 31 п. 1 и п. 2, ст. 32 п. 2 127-ФЗ; ст. 10, 223, 302 ГК РФ; ст. 61.2 127-ФЗ) верифицированы: last_verified 2026-07-15, legislation_status active, context_check_passed true",
+    "Запрещённые утверждения из forbidden_claims отсутствуют в тексте; формулировки «расторжение практически исключено» и «крайне сложно» соответствуют safe_phrasing",
+    "Внутренние ссылки добавлены без верификации через published_index.json - outline.json не предоставлен; quality_gate проверит наличие slug-ов"
+  ],
+  "keyword_density_main": null,
+  "main_keyword_exact_count": null,
+  "text_chars": 6847,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.096,
+  "local_spam_ngram3_repeat": 0.012,
+  "local_lexical_diversity": 0.646,
+  "local_ai_markers_density": 0.34,
+  "local_ai_markers_critical": 0,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1784095354/articles/vs-sdelki-zhilyo-bankrotstvo-dobrosovestnye-pokupateli-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1784095354/articles/vs-sdelki-zhilyo-bankrotstvo-dobrosovestnye-pokupateli-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Minimalist top-down flat-lay on a clean light-grey surface. Sparse arrangement with deliberate negative space: a single brass key on a brass ring positioned left of center, a closed dark leather portfolio aligned horizontally, a fountain pen placed diagonally across the portfolio's corner, and brass scales of justice resting to the right. Camera: directly overhead. Lighting: soft even daylight with very subtle directional shadow emphasizing textures and brass highlights. Materials: polished brass, dark leather, pale grey background. Palette: pale neutrals with warm brass accents. Mood: clean editorial, contemporary legal protection.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-07-15T06:02:35Z",
+  "length_status": "too_long",
+  "length_kind": "news",
+  "local_ai_markers_total": 3,
+  "local_ai_markers_high": 1,
+  "local_own_voice_hits": 2,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 49,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "длина значительно больше лимита 5500 (6 847 знаков)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "targeted_tokens_over_limit: ст_сокращение=7(>≤5), РФ_рудимент=3(>≤2), 127фз_закон=3(>≤2)"
+  ],
+  "date_published": "2026-07-15",
+  "date_modified": "2026-07-15",
+  "ready_for_review": true,
+  "ready_at": "2026-07-15T06:02:39Z",
+  "publication_target": "telegram_review"
+}
