@@ -4373,6 +4373,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "moratorij-na-bankrotstvo-prava-dolzhnika-kreditora",
+      "category": "yur",
+      "title": "Мораторий на банкротство: права и обязанности",
+      "added_at": "2026-07-15T20:09:16.585159",
+      "char_count": 7734,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1784135350/articles/moratorij-na-bankrotstvo-prava-dolzhnika-kreditora-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

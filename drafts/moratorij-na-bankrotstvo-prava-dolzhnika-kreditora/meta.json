@@ -1,0 +1,107 @@
+{
+  "slug": "moratorij-na-bankrotstvo-prava-dolzhnika-kreditora",
+  "category": "yur",
+  "title": "Мораторий на банкротство: права и обязанности",
+  "description": "Объясняем, что такое мораторий на банкротство юрлица, как он действует, какие права получает должник и кредиторы, сроки действия.",
+  "h1": "Мораторий на банкротство: права должника и кредитора",
+  "lead": "Разбираем, что получает должник и что сохраняет кредитор в период действия временного ограничения на возбуждение дел о банкротстве юрлиц.",
+  "topic_action": "консультацию юриста по мораторию на банкротство",
+  "breadcrumb_current": "Мораторий на банкротство",
+  "og_image": "/assets/articles/moratorij-na-bankrotstvo-prava-dolzhnika-kreditora.jpg",
+  "main_keyword": "мораторий на банкротство",
+  "secondary_keywords": [
+    "мораторий на банкротство юрлица",
+    "права должника при моратории",
+    "права кредиторов при моратории",
+    "взыскание долга при моратории",
+    "сроки действия защитного периода",
+    "приостановление производства по банкротству",
+    "льготный период для должника",
+    "защита компании от банкротства",
+    "мировое соглашение при банкротстве"
+  ],
+  "internal_links": [
+    "/articles/yur/kak-oformit-mirovoe-soglashenie-pri-bankrotstve-yurlica",
+    "/articles/yur/bankrotstvo-cherez-mirovoe-soglashenie-bez-zaloga",
+    "/articles/yur/kak-osporit-trebovanie-kreditorov-v-reestre-pri-bankrotstve-yurlica"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/",
+    "https://www.consultant.ru/document/cons_doc_LAW_37800/"
+  ],
+  "faq": [
+    {
+      "question": "Может ли контрагент взыскивать долг через приставов в период моратория?",
+      "answer": "Да. Исполнительное производство запретом не ограничено. Арест счетов, обращение на выручку, продажа имущества - всё в силе. Заблокирована только подача иска о банкротстве юрлица."
+    },
+    {
+      "question": "Сколько длится защитный период и можно ли его продлить?",
+      "answer": "Срок устанавливается конкретным правительственным актом - обычно от нескольких месяцев до года. Кабмин вправе продлить, если экономические или природные обстоятельства сохраняются. Автоматического продления нет: нужен отдельный документ."
+    },
+    {
+      "question": "Попадают ли банки и страховщики под запрет?",
+      "answer": "Как правило нет. Финансовый сектор регулируется Банком России, и его крах нельзя откладывать - под ударом клиенты и вкладчики. Точный перечень исключений содержится в самом акте."
+    },
+    {
+      "question": "Обязана ли компания платить налоги и зарплату, пока действует запрет?",
+      "answer": "Да. Мораторий касается только банкротной процедуры, не текущих обязательств. Налоги, взносы, зарплата, аренда, коммуналка платятся в обычном порядке. Задержка копит пени и создаёт основания для взыскания после отмены режима."
+    },
+    {
+      "question": "Что произойдёт с уже приостановленным делом после отмены моратория?",
+      "answer": "Оно возобновляется с той точки, где было остановлено. Суд назначает заседание, требования актуализируются, процедура идёт дальше по стадиям закона."
+    },
+    {
+      "question": "С какого момента запрет начинает действовать?",
+      "answer": "С даты вступления в силу правительственного акта - она указывается в самом документе. Обычно это дата официального опубликования плюс несколько дней. Обращения, поданные до этой даты, принимаются к производству; поданные после - возвращаются без рассмотрения."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все основные утверждения сверены с research.json. last_verified: 2026-07-15, legislation_status: active для f1-f5, f7-f8.",
+    "f6 (исключения для финансовых организаций): legislation_status: needs_verification - использована safe_phrasing «как правило не распространяется» без ссылки на конкретные нормы.",
+    "Ст. 9.1 127-ФЗ о запрете дивидендов отсутствует в research.json - ссылка на конкретную статью убрана, утверждение сформулировано как общее правило закона о банкротстве.",
+    "Ст. 30 229-ФЗ об исполнительном производстве отсутствует в research.json - ссылка на конкретную статью убрана, факт наличия механизмов взыскания сохранён (подтверждён f3).",
+    "Сумма 500 000 руб. для судебного приказа (ст. 229.2 АПК) в research.json не верифицирована - факт общеизвестен, не оспорен, оставлен без изменений."
+  ],
+  "keyword_density_main": 0.014,
+  "main_keyword_exact_count": 2,
+  "text_chars": 7734,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.092,
+  "local_spam_ngram3_repeat": 0.039,
+  "local_lexical_diversity": 0.619,
+  "local_ai_markers_density": 0.21,
+  "local_ai_markers_critical": 0,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1784135350/articles/moratorij-na-bankrotstvo-prava-dolzhnika-kreditora-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1784135350/articles/moratorij-na-bankrotstvo-prava-dolzhnika-kreditora-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Cinematic photograph of a private legal library or archive. Walls lined with closed dark leather-bound books with gilt embossing on spines (no readable titles). Foreground: a wooden reading desk with a brass green-glass library lamp, an antique pocket watch on a chain, a closed leather portfolio with embossed official seal, a fountain pen on a stand, reading glasses on top of a stack of dossiers tied with cord. Camera: low-angle looking up the shelves to emphasize institutional weight. Lighting: warm tungsten pools of light from desk lamp, deep shadows in book stacks. Mood: scholarly authority contemplating regulatory freeze and the weight of moratorium.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-07-15T17:09:13Z",
+  "length_status": "too_long",
+  "length_kind": "default",
+  "local_ai_markers_total": 2,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 3,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 55,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность выше 50% (~55%)",
+    "длина значительно больше лимита 6500 (7 734 знаков)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "broken_internal_links: 3 ссылок без соответствия в published_index (/articles/yur/kak-oformit-mirovoe-soglashenie-pri-bankrotstve-yurlica: slug 'kak-oformit-mirovoe-soglashenie-pri-bankrotstve-yurlica' не найден в категории 'yur' (есть: нигде); /articles/yur/kak-osporit-trebovanie-kreditorov-v-reestre-pri-bankrotstve-yurlica: slug 'kak-osporit-trebovanie-kreditorov-v-reestre-pri-bankrotstve-yurlica' не найден в категории 'yur' (есть: нигде); /articles/yur/bankrotstvo-cherez-mirovoe-soglashenie-bez-zaloga: slug 'bankrotstvo-cherez-mirovoe-soglashenie-bez-zaloga' не найден в категории 'yur' (есть: нигде))"
+  ],
+  "date_published": "2026-07-15",
+  "date_modified": "2026-07-15",
+  "ready_for_review": true,
+  "ready_at": "2026-07-15T17:09:16Z",
+  "publication_target": "telegram_review"
+}
