@@ -1643,7 +1643,11 @@
       "topic_action": "опубликовать новость и анализ практики",
       "event_date": "2026-06-11",
       "news_zone": "vs_practice",
-      "primary_source": "https://vsrf.ru/press_center/news/36000/"
+      "primary_source": "https://vsrf.ru/press_center/news/36000/",
+      "status": "rejected",
+      "rejected_at": "2026-07-15T04:00:10",
+      "rejected_reason": "event_too_old:34d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-53",
@@ -1806,7 +1810,11 @@
       "topic_action": "составить список открытых лотов и инструкции для потенциальных участников торгов",
       "event_date": "2026-06-08",
       "news_zone": "finance",
-      "primary_source": "https://test.fedresurs.ru/TradeList.aspx"
+      "primary_source": "https://test.fedresurs.ru/TradeList.aspx",
+      "status": "rejected",
+      "rejected_at": "2026-07-15T04:00:10",
+      "rejected_reason": "event_too_old:37d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-58",
@@ -1938,7 +1946,11 @@
       "topic_action": "publish_news",
       "event_date": "2026-06-09",
       "news_zone": "finance",
-      "primary_source": "https://ufa.rbc.ru/ufa/09/06/2026/6a28109b9a7947eb450881e2"
+      "primary_source": "https://ufa.rbc.ru/ufa/09/06/2026/6a28109b9a7947eb450881e2",
+      "status": "rejected",
+      "rejected_at": "2026-07-15T04:00:10",
+      "rejected_reason": "event_too_old:36d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-62",
@@ -1969,7 +1981,11 @@
       "topic_action": "write-brief",
       "event_date": "2026-06-09",
       "news_zone": "finance",
-      "primary_source": "https://www.kommersant.ru/doc/8728419"
+      "primary_source": "https://www.kommersant.ru/doc/8728419",
+      "status": "rejected",
+      "rejected_at": "2026-07-15T04:00:10",
+      "rejected_reason": "event_too_old:36d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-63",
@@ -2000,7 +2016,11 @@
       "topic_action": "monitor-reputation",
       "event_date": "2026-06-09",
       "news_zone": "finance",
-      "primary_source": "https://www.kommersant.ru/doc/8727710"
+      "primary_source": "https://www.kommersant.ru/doc/8727710",
+      "status": "rejected",
+      "rejected_at": "2026-07-15T04:00:10",
+      "rejected_reason": "event_too_old:36d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-64",
@@ -2031,7 +2051,11 @@
       "topic_action": "track-court-proceeding",
       "event_date": "2026-06-10",
       "news_zone": "finance",
-      "primary_source": "https://www.kommersant.ru/doc/8735960"
+      "primary_source": "https://www.kommersant.ru/doc/8735960",
+      "status": "rejected",
+      "rejected_at": "2026-07-15T04:00:10",
+      "rejected_reason": "event_too_old:35d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-65",
@@ -2062,7 +2086,11 @@
       "topic_action": "summarize-decision",
       "event_date": "2026-06-09",
       "news_zone": "finance",
-      "primary_source": "https://www.kommersant.ru/doc/8727785"
+      "primary_source": "https://www.kommersant.ru/doc/8727785",
+      "status": "rejected",
+      "rejected_at": "2026-07-15T04:00:10",
+      "rejected_reason": "event_too_old:36d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-66",
@@ -2260,7 +2288,11 @@
       "topic_action": "банкротство при долгах перед МФО",
       "event_date": "2026-06-09",
       "news_zone": "finance",
-      "primary_source": "https://www.cbr.ru/rbr/rbr_fr/"
+      "primary_source": "https://www.cbr.ru/rbr/rbr_fr/",
+      "status": "rejected",
+      "rejected_at": "2026-07-15T04:00:10",
+      "rejected_reason": "event_too_old:36d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-72",
@@ -2320,7 +2352,11 @@
       "topic_action": "консультацию по правам вкладчика при санации банка",
       "event_date": "2026-06-10",
       "news_zone": "legislation",
-      "primary_source": "https://www.garant.ru/hotlaw/federal/2126072/"
+      "primary_source": "https://www.garant.ru/hotlaw/federal/2126072/",
+      "status": "rejected",
+      "rejected_at": "2026-07-15T04:00:10",
+      "rejected_reason": "event_too_old:35d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-74",
@@ -2350,7 +2386,11 @@
       "topic_action": "консультацию по субсидиарной ответственности крупных должников",
       "event_date": "2026-06-10",
       "news_zone": "vs_practice",
-      "primary_source": "https://rapsinews.ru/judicial_news/20260610/311922155.html"
+      "primary_source": "https://rapsinews.ru/judicial_news/20260610/311922155.html",
+      "status": "rejected",
+      "rejected_at": "2026-07-15T04:00:10",
+      "rejected_reason": "event_too_old:35d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-75",
@@ -2414,7 +2454,11 @@
       "topic_action": "консультацию по реструктуризации компании без банкротства",
       "event_date": "2026-06-11",
       "news_zone": "initiative",
-      "primary_source": "https://ria.ru/20260611/dolzhniki-2098294251.html"
+      "primary_source": "https://ria.ru/20260611/dolzhniki-2098294251.html",
+      "status": "rejected",
+      "rejected_at": "2026-07-15T04:00:10",
+      "rejected_reason": "event_too_old:34d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-77",
@@ -2504,7 +2548,11 @@
       "topic_action": "консультацию по предстоящей реформе банкротства компании",
       "event_date": "2026-06-12",
       "news_zone": "initiative",
-      "primary_source": "https://pravo.ru/news/263311/"
+      "primary_source": "https://pravo.ru/news/263311/",
+      "status": "rejected",
+      "rejected_at": "2026-07-15T04:00:10",
+      "rejected_reason": "event_too_old:33d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-80",
@@ -2894,7 +2942,11 @@
       "topic_action": "консультацию по взысканию с иностранной компании",
       "event_date": "2026-06-11",
       "news_zone": "vs_practice",
-      "primary_source": "https://rapsinews.ru/judicial_news/20260611/311926751.html"
+      "primary_source": "https://rapsinews.ru/judicial_news/20260611/311926751.html",
+      "status": "rejected",
+      "rejected_at": "2026-07-15T04:00:10",
+      "rejected_reason": "event_too_old:34d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-93",
