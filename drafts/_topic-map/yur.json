@@ -3909,7 +3909,11 @@
       "frequency_estimate": "medium",
       "rationale": "Темы yur-23 и yur-105 описывают торги в банкротстве общо, но нет отдельной статьи о защите прав при нарушениях на торгах. Кредиторы, участники и должники регулярно оспаривают результаты, механизм — ФАС плюс арбитраж — сложный и не описан.",
       "expected_length_chars": 7000,
-      "topic_action": "обжалование торгов при банкротстве"
+      "topic_action": "обжалование торгов при банкротстве",
+      "status": "rejected",
+      "rejected_at": "2026-07-16T19:36:27",
+      "rejected_reason": "cannibalization:preflight:cluster:yur-torgi-bankrotstvo-yurlica",
+      "rejected_by": "auto_skip_in_slot"
     },
     {
       "id": "yur-142",
