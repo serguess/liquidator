@@ -8557,6 +8557,60 @@
       "published_url": null,
       "pending_batch": true,
       "pending_batch_at": "2026-07-15T20:09:24"
+    },
+    "vzyskanie-dolga-po-agentskomu-dogovoru": {
+      "category": "vzysk",
+      "title": "Взыскание долга по агентскому договору: способы и сроки",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-07-16T05:40:24",
+      "last_action_at": "2026-07-16T05:40:24",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-07-16T05:40:24"
+    },
+    "fns-bankrotstvo-fizlica-nalogovye-dolgi-kak-zashchititsya": {
+      "category": "news",
+      "title": "Налоговые долги при банкротстве: защита от ФНС",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-07-16T08:38:26",
+      "last_action_at": "2026-07-16T08:38:26",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-07-16T08:38:26"
+    },
+    "preimushchestvennoe-pravo-pokupki-bankrotstvo-otkaz-vs": {
+      "category": "news",
+      "title": "ВС отказал в преимущественной покупке при банкротстве",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-07-16T08:54:26",
+      "last_action_at": "2026-07-16T08:54:26",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-07-16T08:54:26"
     }
   },
   "pending_actions": [],

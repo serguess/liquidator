@@ -27069,5 +27069,104 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-07-16T08:37:53",
+    "category": "news",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 9,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "news-96",
+    "topic_slug": "preimushchestvennoe-pravo-pokupki-bankrotstvo-otkaz-vs",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "length_soft_passed: 6539 > 5500 но ≤ 7500 и iteration=2 — пропускаем (приоритет spam/uniqueness/ai)",
+        "forced_pass_at_iter2: блокеры пропущены, статья идёт в TG-очередь с metrics_warning=true. Было: 3 блокеров — targeted_tokens_over_limit; broken_internal_links; too_few_short_sentences"
+      ],
+      "recommendations": [
+        "reduce_ст: «ст. X» × 6 → cap 5. Писать «статья X» полным словом, либо описательно («по правилу о процентах», «норма об исковой давности»). Cap 3 юр-цитаты на статью, остальное — пересказом.",
+        "fix_internal_links: заменить href на канонический /articles/{cat}/{slug} из published_index.json (см. .claude/style/editor-cheatsheet.md секция 6)",
+        "add_short_sentences: добавить минимум 7 коротких предложений (≤5 слов). Главный anti-AI маркер: «Главное.», «Защита не включается.», «6 месяцев, иногда 8.». Разбивать длинные предложения на 2-3 коротких."
+      ],
+      "stderr_tail": ""
+    },
+    "finalize_safety_net": {
+      "ran": true,
+      "rc": 0
+    },
+    "status": "ok",
+    "slug": "preimushchestvennoe-pravo-pokupki-bankrotstvo-otkaz-vs",
+    "duration_sec": 989.2,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "-seo-editor        sonnet            6      16    60430     25156     60452\n7-publisher         haiku            36      12    53804     90286     53852\n------------------------------------------------------------------------------------------\nИТОГО                               168      73   471154    549995    471395\nBillable-токенов на статью: ~471K (cache_read 549K не считается в лимит подписки).\nАртефакты: drafts/preimushchestvennoe-pravo-pokupki-bankrotstvo-otkaz-vs/  | quality_gate exit=0",
+    "stderr_tail": "",
+    "tokens_by_model": {},
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 6539
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
+  },
+  {
+    "timestamp": "2026-07-16T08:54:25",
+    "category": "news",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 10,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "news-97",
+    "topic_slug": "antifraud-kreditnaya-istoriya-zaschita-zaemshhikov",
+    "status": "failed",
+    "slug": "antifraud-kreditnaya-istoriya-zaschita-zaemshhikov",
+    "duration_sec": 1127.1,
+    "returncode": 1,
+    "rescued_after_failure": false,
+    "stdout_tail": "8920 симв., usage in=3440 out=27 cache_w=135875 cache_r=270932 billable=139342 ток, 85.5с\n   ok: 12976 симв., billable=66682 ток (model=sonnet)\n   [outline_validate] exit=1\n=== 4-writer (claude opus) ===\n   ok: 8298 симв., billable=65045 ток, 71.0с\n   [writer self-fix проход 2]\n   ok: billable=48780 ток\n=== 5-uniqueness (embed_compare) ===\n   passed=False scores={'structure_overlap': 0.167, 'thesis_similarity': 0.671, 'cta_overlap': 0.558}\n   [watchdog] hard timeout >480s на sonnet — попытка 1/3",
+    "stderr_tail": "[ERR] rate_limit: put_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard\",\"cache_creation\":{\"ephemeral_1h_input_tokens\":0,\"ephemeral_5m_input_tokens\":0},\"inference_geo\":\"\",\"iterations\":[],\"speed\":\"standard\"},\"modelUsage\":{},\"permission_denials\":[],\"terminal_reason\":\"completed\",\"fast_mode_state\":\"off\",\"uuid\":\"c31b969c-3959-4992-b8c7-aa63721e0c07\"}\n\n",
+    "tokens_by_model": {},
+    "metrics": null
   }
 ]
