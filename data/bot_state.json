@@ -8530,15 +8530,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 1995,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-15T15:18:21",
-      "last_action_at": "2026-07-15T15:18:21",
+      "last_action_at": "2026-07-16T10:00:24",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-07-15T15:18:21"
+      "pending_batch": false,
+      "pending_batch_at": "2026-07-15T15:18:21",
+      "batch_sent_at": "2026-07-16T10:00:24",
+      "batch_fail_count": 0
     },
     "moratorij-na-bankrotstvo-prava-dolzhnika-kreditora": {
       "category": "yur",
@@ -8548,15 +8550,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 1997,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-15T20:09:23",
-      "last_action_at": "2026-07-15T20:09:23",
+      "last_action_at": "2026-07-16T10:00:26",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-07-15T20:09:24"
+      "pending_batch": false,
+      "pending_batch_at": "2026-07-15T20:09:24",
+      "batch_sent_at": "2026-07-16T10:00:26",
+      "batch_fail_count": 0
     },
     "vzyskanie-dolga-po-agentskomu-dogovoru": {
       "category": "vzysk",
@@ -8566,15 +8570,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 1999,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-16T05:40:24",
-      "last_action_at": "2026-07-16T05:40:24",
+      "last_action_at": "2026-07-16T10:00:29",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-07-16T05:40:24"
+      "pending_batch": false,
+      "pending_batch_at": "2026-07-16T05:40:24",
+      "batch_sent_at": "2026-07-16T10:00:29",
+      "batch_fail_count": 0
     },
     "fns-bankrotstvo-fizlica-nalogovye-dolgi-kak-zashchititsya": {
       "category": "news",
@@ -8584,15 +8590,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 2001,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-16T08:38:26",
-      "last_action_at": "2026-07-16T08:38:26",
+      "last_action_at": "2026-07-16T10:00:31",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-07-16T08:38:26"
+      "pending_batch": false,
+      "pending_batch_at": "2026-07-16T08:38:26",
+      "batch_sent_at": "2026-07-16T10:00:31",
+      "batch_fail_count": 0
     },
     "preimushchestvennoe-pravo-pokupki-bankrotstvo-otkaz-vs": {
       "category": "news",
@@ -8602,19 +8610,57 @@
       "versions": [
         "2.0"
       ],
+      "tg_message_id": 2003,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-07-16T08:54:26",
+      "last_action_at": "2026-07-16T10:00:33",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-07-16T08:54:26",
+      "batch_sent_at": "2026-07-16T10:00:33",
+      "batch_fail_count": 0
+    },
+    "zakrytie-ip-pered-bankrotstvom": {
+      "category": "fiz",
+      "title": "Закрыть ИП перед банкротством или после: как выбрать",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
       "tg_message_id": null,
       "tg_chat_id": null,
-      "first_seen_at": "2026-07-16T08:54:26",
-      "last_action_at": "2026-07-16T08:54:26",
+      "first_seen_at": "2026-07-16T15:32:30",
+      "last_action_at": "2026-07-16T15:32:30",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
       "pending_batch": true,
-      "pending_batch_at": "2026-07-16T08:54:26"
+      "pending_batch_at": "2026-07-16T15:32:30"
+    },
+    "bankrotstvo-lizingovoj-kompanii-prava-poluchatelya": {
+      "category": "yur",
+      "title": "Банкротство лизинговой компании: права лизингополучателя",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-07-16T20:13:33",
+      "last_action_at": "2026-07-16T20:13:33",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-07-16T20:13:33"
     }
   },
   "pending_actions": [],
-  "last_batch_date": "2026-07-15",
-  "last_batch_count": 4,
-  "last_batch_at": "2026-07-15T10:00:22"
+  "last_batch_date": "2026-07-16",
+  "last_batch_count": 5,
+  "last_batch_at": "2026-07-16T10:00:33"
 }
