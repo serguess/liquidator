@@ -27173,5 +27173,67 @@
     "timestamp": "2026-07-16T10:00:02",
     "status": "preflight_failed",
     "reason": "rate_limit: You've hit your limit · resets 1:30pm (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-07-16T14:48:21",
+    "category": "fiz",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 11,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "fiz-154",
+    "topic_slug": "zakrytie-ip-pered-bankrotstvom",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "spam_soft_passed: ratio-флаги мягкие при iter=2, targeted_tokens чистые → пропускаем (spam ≈48-52% по прогнозу)",
+        "forced_pass_at_iter2: блокеры пропущены, статья идёт в TG-очередь с metrics_warning=true. Было: 1 блокеров — length_too_long"
+      ],
+      "recommendations": [
+        "reduce_length: сократить до 5000-6000 знаков"
+      ],
+      "stderr_tail": ""
+    },
+    "finalize_safety_net": {
+      "ran": true,
+      "rc": 0
+    },
+    "status": "ok",
+    "slug": "zakrytie-ip-pered-bankrotstvom",
+    "duration_sec": 2628.2,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "81     61894     30488\n6-seo-editor        haiku            20       8    71342     25520     71370\n7-publisher         haiku            20      12    39216     25520     39248\n------------------------------------------------------------------------------------------\nИТОГО                               214      73   492277    868038    492564\nBillable-токенов на статью: ~492K (cache_read 868K не считается в лимит подписки).\nАртефакты: drafts/zakrytie-ip-pered-bankrotstvom/  | quality_gate exit=0",
+    "stderr_tail": "",
+    "tokens_by_model": {},
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 9355
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]

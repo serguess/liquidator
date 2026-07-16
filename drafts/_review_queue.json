@@ -4425,6 +4425,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "bankrotstvo-lizingovoj-kompanii-prava-poluchatelya",
+      "category": "yur",
+      "title": "Банкротство лизинговой компании: права лизингополучателя",
+      "added_at": "2026-07-16T20:13:30.429022",
+      "char_count": 6906,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1784222004/articles/bankrotstvo-lizingovoj-kompanii-prava-poluchatelya-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
