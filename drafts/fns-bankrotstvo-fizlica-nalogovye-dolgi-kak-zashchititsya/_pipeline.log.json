@@ -1,0 +1,48 @@
+{
+  "slug": "fns-bankrotstvo-fizlica-nalogovye-dolgi-kak-zashchititsya",
+  "category": "news",
+  "started_at": "2026-07-15T09:42:04",
+  "finished_at": "2026-07-15T09:42:04",
+  "total_duration_sec": 0.0,
+  "current_iteration": 1,
+  "events": [
+    {
+      "ts": "2026-07-15T09:42:04",
+      "agent": "scheduler",
+      "event": "slot_started",
+      "iteration": 1,
+      "today_count": 2,
+      "limit": 9,
+      "write_article_duration_sec": 2363.5
+    },
+    {
+      "ts": "2026-07-15T09:42:04",
+      "agent": "scheduler",
+      "event": "slot_finished",
+      "status": "failed",
+      "iteration": 1
+    },
+    {
+      "ts": "2026-07-16T08:37:52",
+      "agent": "scheduler",
+      "event": "slot_started",
+      "iteration": 1,
+      "category": "news",
+      "today_count": 1,
+      "limit": 9,
+      "write_article_duration_sec": 450.7
+    },
+    {
+      "ts": "2026-07-16T08:37:52",
+      "agent": "quality_gate",
+      "event": "passed",
+      "iteration": 1,
+      "blockers": [],
+      "warnings": [
+        "length_soft_passed: 7189 > 5500 но ≤ 7500 и iteration=2 — пропускаем (приоритет spam/uniqueness/ai)"
+      ],
+      "recommendations": []
+    }
+  ],
+  "final_status": "failed"
+}

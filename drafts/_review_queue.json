@@ -4386,6 +4386,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "fns-bankrotstvo-fizlica-nalogovye-dolgi-kak-zashchititsya",
+      "category": "news",
+      "title": "Налоговые долги при банкротстве: защита от ФНС",
+      "added_at": "2026-07-16T08:37:52.198703",
+      "char_count": 7189,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1784180266/articles/fns-bankrotstvo-fizlica-nalogovye-dolgi-kak-zashchititsya-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
