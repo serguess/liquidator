@@ -1,0 +1,109 @@
+{
+  "slug": "zakrytie-ip-pered-bankrotstvom",
+  "category": "fiz",
+  "title": "Закрыть ИП перед банкротством или после: как выбрать",
+  "description": "Когда закрывать ИП при банкротстве физлица: до или после, плюсы и минусы каждого варианта, последствия для долгов и имущества.",
+  "h1": "Закрыть ИП перед банкротством или после: что выбрать и как правильно",
+  "lead": "Разбираем, какой маршрут открыт в вашей ситуации, что реально стоит денег и какие три ошибки чаще всего срывают самостоятельную подачу.",
+  "topic_action": "разбор варианта списания долгов ИП",
+  "breadcrumb_current": "Закрытие ИП при банкротстве",
+  "og_image": "/assets/articles/zakrytie-ip-pered-bankrotstvom.jpg",
+  "main_keyword": "закрыть ИП перед банкротством",
+  "secondary_keywords": [
+    "прекращение деятельности ИП при банкротстве",
+    "закрыть ИП после банкротства",
+    "снятие с учёта ИП банкротство",
+    "ликвидация ИП физлица банкротство",
+    "последствия закрытия ИП при долгах",
+    "налоги при закрытии ИП банкрот",
+    "имущество ИП при банкротстве",
+    "закрытие ИП должника",
+    "прекращение активности ИП"
+  ],
+  "internal_links": [
+    "/articles/fiz/bankovskie-scheta-pri-bankrotstve",
+    "/articles/fiz/alimenty-pri-bankrotstve-fizlica",
+    "/articles/fiz/avtomobil-pri-bankrotstve-fizlica"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/",
+    "https://www.consultant.ru/document/cons_doc_LAW_122114/"
+  ],
+  "faq": [
+    {
+      "question": "Можно ли подать на банкротство, не закрывая ИП?",
+      "answer": "Да. Арбитраж и «Мои документы» принимают заявление от действующего предпринимателя. Статус закроется после завершения процедуры - по заявлению самого гражданина либо по решению судьи."
+    },
+    {
+      "question": "Что будет с бюджетным долгом, если сдать листок 16001 до обращения в суд?",
+      "answer": "Ничего волшебного. Сумма недоимки просто зафиксируется на дату снятия с учёта и уйдёт в реестр требований как несписываемая. Плюс - остановится начисление фиксированных взносов за периоды после закрытия."
+    },
+    {
+      "question": "Сколько стоит судебное банкротство предпринимателя в 2026 году?",
+      "answer": "Обязательный платёж - двадцать пять тысяч рублей на депозит суда, это вознаграждение управляющего. Госпошлины для гражданина-должника с 8 сентября 2024 года нет. Плюс - публикации в реестре сведений о банкротстве и почтовые расходы кредиторам, обычно восемь-пятнадцать тысяч."
+    },
+    {
+      "question": "Обязательно ли расплатиться с работниками до снятия предпринимателя с учёта?",
+      "answer": "Инспекция снимет с учёта и с задолженностью - формального препятствия нет. Но невыплаченная зарплата попадёт в реестр требований первой очереди и не спишется."
+    },
+    {
+      "question": "Какие ограничения остаются после завершения дела о несостоятельности?",
+      "answer": "Пять лет - уведомление кредиторов при займах, запрет на новое банкротство. Три года - нельзя быть директором. Пять лет - нельзя руководить страховой, НПФ, МФО. Десять лет - нельзя руководить банком."
+    },
+    {
+      "question": "Чем внесудебный путь через «Мои документы» отличается от арбитражного при активной деятельности?",
+      "answer": "Внесудебный путь бесплатный и длится ровно полгода, но требует окончания исполнительного производства и долга в вилке от двадцати пяти тысяч до миллиона. Активные поступления по бизнесу и появление нового имущества в этот период дело обрывают. Арбитраж дороже и дольше, зато справляется с любой суммой и работающим бизнесом."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все юридические утверждения проверены против research.json. Статусы: active. last_verified в пределах 6 месяцев для всех ключевых фактов.",
+    "Ключевые суммы и сроки: депозит 25 000 руб., прожиточный минимум 20 644 руб. (ФЗ-426 от 28.11.2025), период внесудебного банкротства 6 месяцев - все актуальны.",
+    "Внешние ссылки на КонсультантПлюс добавлены.",
+    "Ограничения после банкротства (3, 5, 10 лет) полностью соответствуют ст. 213.30 127-ФЗ.",
+    "Запрещённые долги (налоги, взносы, субсидиарная ответственность) отражены в соответствии с ст. 213.28 п. 5-6 127-ФЗ.",
+    "Авторские вставки «по нашему опыту», «мы видим», «мы советуем» сохранены в исходном виде.",
+    "Внутренние ссылки исправлены: удалены расширения .html для соответствия канонической структуре URL."
+  ],
+  "keyword_density_main": 0.019,
+  "main_keyword_exact_count": 2,
+  "text_chars": 9355,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.096,
+  "local_spam_ngram3_repeat": 0.043,
+  "local_lexical_diversity": 0.59,
+  "local_ai_markers_density": 0.18,
+  "local_ai_markers_critical": 0,
+  "local_ai_markers_total": 2,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 3,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1784205124/articles/zakrytie-ip-pered-bankrotstvom-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1784205124/articles/zakrytie-ip-pered-bankrotstvom-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Photograph of a massive ornate bronze-bound oak door of an official building — heavy brass studs set in solid timber, carved stone surround, weathered grey-white marble steps leading up to the threshold. Camera: slight low-angle to emphasize the monumentality of entry and decision. Foreground on the steps: a closed dark leather briefcase positioned left of center, a neat stack of sealed documents bound with red cord laid horizontally at the steps' base. Lighting: long evening shadows stretching across stone, warm golden hour glow revealing every grain of the weathered wood. Materials: oxidized bronze, cool marble, deep walnut, brass fixtures. Mood: threshold moment of critical choice between two paths.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-07-16T12:32:05Z",
+  "length_status": "too_long",
+  "length_kind": "default",
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 55,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность выше 50% (~55%)",
+    "длина значительно больше лимита 6500 (9 355 знаков)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "length_too_long: 9355 > 6500 (kind=default)"
+  ],
+  "date_published": "2026-07-16",
+  "date_modified": "2026-07-16",
+  "ready_for_review": true,
+  "ready_at": "2026-07-16T12:32:09Z",
+  "publication_target": "telegram_review"
+}

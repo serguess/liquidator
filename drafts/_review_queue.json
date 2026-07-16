@@ -4412,6 +4412,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "zakrytie-ip-pered-bankrotstvom",
+      "category": "fiz",
+      "title": "Закрыть ИП перед банкротством или после: как выбрать",
+      "added_at": "2026-07-16T15:32:09.906297",
+      "char_count": 9355,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1784205124/articles/zakrytie-ip-pered-bankrotstvom-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
