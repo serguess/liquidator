@@ -1,0 +1,31 @@
+{
+  "slug": "preimushchestvennoe-pravo-pokupki-bankrotstvo-otkaz-vs",
+  "article_id": 399,
+  "scores": {
+    "structure_overlap": 0.0,
+    "thesis_similarity": 0.701,
+    "cta_overlap": 0.429
+  },
+  "thresholds": {
+    "structure_overlap": 0.4,
+    "thesis_similarity": 0.3,
+    "cta_overlap": 0.2
+  },
+  "passed": false,
+  "peers_compared": 23,
+  "closest_peer": "obzor-vs-rf-5-2026-bankrotstvo-glavnoe",
+  "similar_articles": [
+    {
+      "slug": "obzor-vs-rf-5-2026-bankrotstvo-glavnoe",
+      "category": "news",
+      "similarity": 0.701
+    }
+  ],
+  "conflicts": [
+    "thesis_similarity: 0.701 (threshold: 0.3)",
+    "cta_overlap: 0.429 (threshold: 0.2)"
+  ],
+  "recommendation": "rewrite_with_angle:change-perspective (closest: obzor-vs-rf-5-2026-bankrotstvo-glavnoe)",
+  "stored_in_db": true,
+  "note": "Вектор статьи записан в data/embeddings.sqlite (published=0). После публикации агент 7 переключит флаг на 1."
+}

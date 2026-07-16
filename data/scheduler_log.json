@@ -27011,5 +27011,63 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-07-16T08:30:21",
+    "category": "news",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 8,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "resume",
+    "resume_slug": "fns-bankrotstvo-fizlica-nalogovye-dolgi-kak-zashchititsya",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "length_soft_passed: 7189 > 5500 но ≤ 7500 и iteration=2 — пропускаем (приоритет spam/uniqueness/ai)"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "finalize_safety_net": {
+      "ran": true,
+      "rc": 0
+    },
+    "status": "ok",
+    "slug": "fns-bankrotstvo-fizlica-nalogovye-dolgi-kak-zashchititsya",
+    "duration_sec": 450.7,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "eo-editor        sonnet            6      16    65330     25156     65352\n7-publisher         haiku            20      10    39178     25520     39208\n------------------------------------------------------------------------------------------\nИТОГО                                26      26   104508     50676    104560\nBillable-токенов на статью: ~104K (cache_read 50K не считается в лимит подписки).\nАртефакты: drafts/fns-bankrotstvo-fizlica-nalogovye-dolgi-kak-zashchititsya/  | quality_gate exit=0",
+    "stderr_tail": "",
+    "tokens_by_model": {},
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7189
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]

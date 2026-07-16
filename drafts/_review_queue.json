@@ -4399,6 +4399,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "preimushchestvennoe-pravo-pokupki-bankrotstvo-otkaz-vs",
+      "category": "news",
+      "title": "ВС отказал в преимущественной покупке при банкротстве",
+      "added_at": "2026-07-16T08:54:23.330905",
+      "char_count": 6539,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1784181257/articles/preimushchestvennoe-pravo-pokupki-bankrotstvo-otkaz-vs-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
