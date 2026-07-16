@@ -1,0 +1,97 @@
+{
+  "slug": "vzyskanie-dolga-po-agentskomu-dogovoru",
+  "category": "vzysk",
+  "title": "Взыскание долга по агентскому договору: способы и сроки",
+  "description": "Как принципалу взыскать долг агента: способы взыскания, сроки исковой давности, претензионный порядок, судебные издержки и мировое соглашение.",
+  "h1": "Взыскание долга по агентскому договору: права и способы взыскания для принципала",
+  "lead": "Разбираем, какие три способа взыскания работают в каждой ситуации и как не пропустить трёхлетний срок давности.",
+  "topic_action": "взыскание долга с агента",
+  "breadcrumb_current": "Взыскание по агентскому договору",
+  "og_image": "/assets/articles/vzyskanie-dolga-po-agentskomu-dogovoru.jpg",
+  "main_keyword": "взыскание долга по агентскому договору",
+  "secondary_keywords": [
+    "взыскание задолженности по агентскому договору",
+    "права принципала по агентскому договору",
+    "как взыскать долг от агента",
+    "претензия к агенту на взыскание",
+    "судебный иск по агентскому договору",
+    "ответственность агента за неисполнение",
+    "расторжение агентского договора с взысканием",
+    "исковой период по агентскому договору"
+  ],
+  "internal_links": [],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_5142/",
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/"
+  ],
+  "faq": [
+    {
+      "question": "Обязательна ли претензия перед подачей иска?",
+      "answer": "По общему правилу гражданского кодекса - нет. Но соглашение может её сделать обязательной, и для отдельных категорий споров она предусмотрена законом. Мы советуем направлять всегда: это дёшево, быстро и укрепляет позицию в деле."
+    },
+    {
+      "question": "Какие потери взыскиваются кроме основной суммы?",
+      "answer": "Реальный ущерб (прямые потери), упущенная выгода (недополученные доходы) и пеня - если она прописана в тексте соглашения. Основа - 15-я и 330-я нормы гражданского кодекса."
+    },
+    {
+      "question": "Сколько ждать решения арбитража?",
+      "answer": "Средний срок - от четырёх до восьми месяцев по первой инстанции, если ответчик активно возражает. При простом деле и явных доказательствах - быстрее. Апелляция добавит ещё три-четыре месяца."
+    },
+    {
+      "question": "У ответчика ничего нет - что тогда?",
+      "answer": "Приставы установят это официально. При отсутствии счетов и имущества производство приостановят. Взыскатель сохраняет право периодически возобновлять розыск. Иногда через год-два ситуация меняется."
+    },
+    {
+      "question": "Соглашение уже расторгнуто - можно ли взыскать?",
+      "answer": "Да. Прекращение отношений не аннулирует прошлые долги. Нужны доказательства: платёжки, отчёты, переписка, договоры с третьими лицами."
+    },
+    {
+      "question": "Когда мировая выгоднее победы в суде?",
+      "answer": "Когда у второй стороны сомнительная платёжеспособность, а вы получаете реальные деньги сейчас вместо гипотетической полной суммы через два года. Ещё - когда важно сохранить деловые контакты."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все юридические утверждения проверены против research.json и соответствуют safe_phrasing.",
+    "Статусы всех фактов: active, last_verified 2026-07-16 (в пределах 6 месяцев).",
+    "Ключевые сроки и нормы (3 года исковой давности, ст. 183-186 ГК РФ, ст. 196 ГК РФ) подтверждены источниками.",
+    "Запрещённые фразы и утверждения (forbidden_claims) не использованы.",
+    "Все required_disclaimers отражены в дисклеймере boilerplate."
+  ],
+  "keyword_density_main": null,
+  "main_keyword_exact_count": null,
+  "text_chars": 8326,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.106,
+  "local_spam_ngram3_repeat": 0.01,
+  "local_lexical_diversity": 0.668,
+  "local_ai_markers_density": 0.3,
+  "local_ai_markers_critical": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "ready_for_review": true,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1784169616/articles/vzyskanie-dolga-po-agentskomu-dogovoru-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1784169616/articles/vzyskanie-dolga-po-agentskomu-dogovoru-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Low-key photograph of a dark wood-paneled office interior lit by a single warm brass library lamp. On the leather-topped desk: a closed leather-bound contract diary positioned center-left, antique pocket watch on a chain laid across it emphasizing deadline urgency, polished brass round seal resting on the open pages of a closed law book with embossed gilt spine, fountain pen aligned parallel to the diary's edge, reading glasses placed to the side suggesting just-completed careful review. Background: deep walnut paneling, brass railings of a bookshelf barely visible in shadow. Camera: three-quarter angle, eye-level. Lighting: warm tungsten pool from lamp illuminating desk objects, deep ambient shadow filling the rest of frame. Palette: oxblood, walnut, aged brass on near-black. Mood: senior counsel weighing enforcement options after meticulous contract review.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-07-16T02:40:17Z",
+  "length_status": "too_long",
+  "length_kind": "default",
+  "local_ai_markers_total": 3,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 2,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 47,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 90,
+  "customer_risks": [
+    "длина значительно больше лимита 6500 (8 326 знаков)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "spam_risk: 3 флагов (top1_count>12 (=16, лемма «норм»), top3_sum>30 (=36), top10_sum>80 (=84)), top-5: ['норм', 'кодекс', 'посредник', 'соглашен', 'сумм']"
+  ]
+}
