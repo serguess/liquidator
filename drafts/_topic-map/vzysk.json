@@ -3337,7 +3337,11 @@
       "frequency_estimate": "high",
       "rationale": "Электронная подача исков стала нормой, но кредиторы часто не знают технических нюансов; статья закрывает практический запрос «как подать онлайн» и прогревает к консультации.",
       "expected_length_chars": 7000,
-      "topic_action": "подача иска о взыскании через интернет"
+      "topic_action": "подача иска о взыскании через интернет",
+      "status": "rejected",
+      "rejected_at": "2026-07-17T00:24:30",
+      "rejected_reason": "cannibalization:preflight:isk-o-vzyskanii-dolga-v-sud",
+      "rejected_by": "auto_skip_in_slot"
     },
     {
       "id": "vzysk-123",
