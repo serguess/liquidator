@@ -1,0 +1,22 @@
+{
+  "slug": "bankrotstvo-pri-ugolovnom-dele-direktora",
+  "article_id": 406,
+  "scores": {
+    "structure_overlap": 0.0,
+    "thesis_similarity": 0.061,
+    "cta_overlap": 0.076
+  },
+  "thresholds": {
+    "structure_overlap": 0.4,
+    "thesis_similarity": 0.3,
+    "cta_overlap": 0.2
+  },
+  "passed": true,
+  "peers_compared": 45,
+  "closest_peer": "otkaz-ot-dogovora-pri-bankrotstve-statya-102",
+  "similar_articles": [],
+  "conflicts": [],
+  "recommendation": "ok",
+  "stored_in_db": true,
+  "note": "Вектор статьи записан в data/embeddings.sqlite (published=0). После публикации агент 7 переключит флаг на 1."
+}
