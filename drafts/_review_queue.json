@@ -4438,6 +4438,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "vzyskanie-dolga-po-stroitelnomu-podryadu",
+      "category": "vzysk",
+      "title": "Взыскание долга по строительному подряду: гайд подрядчика",
+      "added_at": "2026-07-17T05:20:55.471303",
+      "char_count": 8636,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1784254851/articles/vzyskanie-dolga-po-stroitelnomu-podryadu-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

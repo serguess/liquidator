@@ -1,0 +1,113 @@
+{
+  "slug": "vzyskanie-dolga-po-stroitelnomu-podryadu",
+  "category": "vzysk",
+  "title": "Взыскание долга по строительному подряду: гайд подрядчика",
+  "description": "Как подрядчику взыскать долг застройщика: предварительные действия, исковые требования, порядок доказывания убытков и судебная практика.",
+  "h1": "Взыскание долга по строительному подряду: инструкция для подрядчика",
+  "lead": "Разбираем, как подрядчику вернуть деньги за закрытые работы - от обязательной претензии до ареста счетов застройщика.",
+  "topic_action": "взыскание долга по строительному подряду",
+  "breadcrumb_current": "Взыскание долга по строительному подряду",
+  "og_image": "/assets/articles/vzyskanie-dolga-po-stroitelnomu-podryadu.jpg",
+  "main_keyword": "взыскание долга по строительному подряду",
+  "secondary_keywords": [
+    "подрядчик взыскание задолженности",
+    "взыскание денег за строительные работы",
+    "иск к застройщику о взыскании денег",
+    "судебное разбирательство строительный подряд",
+    "взыскание неустойки за нарушение сроков",
+    "как подать в суд на застройщика",
+    "строительный спор взыскание убытков",
+    "претензия подрядчика застройщику",
+    "ответственность застройщика перед подрядчиком"
+  ],
+  "internal_links": [],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_5142/",
+    "https://www.consultant.ru/document/cons_doc_LAW_37800/",
+    "https://www.consultant.ru/document/cons_doc_LAW_71450/"
+  ],
+  "faq": [
+    {
+      "question": "Обязательна ли претензия перед иском?",
+      "answer": "Да. Без письменной претензии с подтверждением вручения арбитраж иск оставит без движения - это требование ст. 4 АПК РФ о досудебном порядке. Направляем заказным письмом с описью, срок ответа - от 10 до 30 дней."
+    },
+    {
+      "question": "Что входит в убытки при простое техники?",
+      "answer": "Арендная плата за оборудование, простаивавшее на объекте по вине заказчика. Компенсация экипажу или бригаде за простойные дни. Расходы на охрану и содержание техники в этот период. Каждый пункт подтверждается договором аренды и платёжными документами."
+    },
+    {
+      "question": "Может ли суд снизить пеню, если она прописана договором?",
+      "answer": "Может. По ст. 330.1 ГК РФ суд вправе уменьшить неустойку, если она явно несоразмерна реальному ущербу кредитора. Чтобы снизить этот риск, стоит подготовить смету реального ущерба - тогда снижения либо не будет, либо оно окажется небольшим."
+    },
+    {
+      "question": "Какие документы прикладываем к иску?",
+      "answer": "Договор подряда со всеми приложениями, подписанные акты по формам КС-2 и КС-3, банковские выписки, расчёт требований (долг, пеня, убытки, расходы), претензия и подтверждение её вручения, первичка по каждому пункту убытков. Фотографии объекта и справки о рыночных расценках добавят вес."
+    },
+    {
+      "question": "Сколько дней на добровольную оплату у застройщика?",
+      "answer": "После возбуждения исполнительного производства пристав даёт пять рабочих дней. Если платёж не поступил, начисляется исполнительский сбор и запускаются принудительные меры: арест счетов, имущества, удержание с выручки (ст. 112 ФЗ-229)."
+    },
+    {
+      "question": "Арбитраж или суд общей юрисдикции?",
+      "answer": "Между двумя коммерческими организациями - только арбитраж. Если стороной договора выступало физическое лицо без статуса предпринимателя, спор идёт в районный суд. Для строительных договоров между юридическими лицами вариант один - арбитраж по месту регистрации должника."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все факты сверены с research.json. Статусы: active. last_verified 2026-07-17 для всех ключевых утверждений.",
+    "Ст. 707 ГК РФ - обязанности заказчика по оплате работ - контекст корректен (f1).",
+    "Ст. 4 АПК РФ - обязательный досудебный порядок, претензия - контекст корректен (f5).",
+    "Ст. 393 ГК РФ - состав убытков (реальный ущерб и упущенная выгода) - контекст корректен (f2).",
+    "Ст. 330.1 ГК РФ - снижение пени судом при несоразмерности - контекст корректен (f3, f4).",
+    "Ст. 79 АПК РФ - судебная экспертиза объёма и качества работ - контекст корректен (f7).",
+    "Ст. 100 АПК РФ - возмещение судебных расходов проигравшей стороной - контекст корректен (f8).",
+    "Ст. 112 ФЗ-229 - исполнительский сбор 7%, мин. 10 000 руб. для юрлица - контекст корректен (f10).",
+    "Ст. 46 ФЗ-229 - закрытие производства при отсутствии имущества у должника - контекст корректен, косвенно из f9.",
+    "Пеня 0,5-2% в день - из research f3 safe_phrasing - корректно.",
+    "5 рабочих дней на добровольную оплату после возбуждения ИП - из research f9, f10 - корректно.",
+    "Стоимость экспертизы 50 000-300 000 руб. - авторская рыночная оценка, не юридическое утверждение о праве, оставлено."
+  ],
+  "keyword_density_main": 0.017,
+  "main_keyword_exact_count": 2,
+  "text_chars": 8636,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.098,
+  "local_spam_ngram3_repeat": 0.038,
+  "local_lexical_diversity": 0.617,
+  "local_ai_markers_density": 0.19,
+  "local_ai_markers_critical": 0,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1784254851/articles/vzyskanie-dolga-po-stroitelnomu-podryadu-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1784254851/articles/vzyskanie-dolga-po-stroitelnomu-podryadu-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Wide symmetric photograph down a long official marble corridor with colonnaded passage and brass wall sconces. Center: brass scales of justice on a marble pedestal, embodying contractual judgment and enforcement. Foreground: a wooden table with a closed leather portfolio and sealed envelope. Camera: dead-center symmetric, eye-level, slight wide-angle pulling perspective lines toward the scales. Lighting: cool natural daylight filtered from above through skylights. Palette: polished marble, cool gray architectural shadows, burnished brass details, muted gold trim. Mood: solemn judgment awaiting, decision threshold, contractual resolution.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-07-17T02:20:52Z",
+  "length_status": "too_long",
+  "length_kind": "default",
+  "local_ai_markers_total": 2,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 2,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 55,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность выше 50% (~55%)",
+    "длина значительно больше лимита 6500 (8 636 знаков)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "length_too_long: 8636 > 6500 (kind=default)",
+    "spam_risk: 2 флагов (top3_sum>30 (=32), top10_sum>80 (=83)), top-5: ['договор', 'арбитраж', 'работ', 'долг', 'убытк']",
+    "targeted_tokens_over_limit: ст_сокращение=9(>≤5), РФ_рудимент=8(>≤2), ГК_кодекс=4(>≤3)"
+  ],
+  "date_published": "2026-07-17",
+  "date_modified": "2026-07-17",
+  "ready_for_review": true,
+  "ready_at": "2026-07-17T02:20:55Z",
+  "publication_target": "telegram_review"
+}
