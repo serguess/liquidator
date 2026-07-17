@@ -4451,6 +4451,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "antifraud-kreditnaya-istoriya-zaschita-zaemshhikov",
+      "category": "news",
+      "title": "Кредитная история и мошенничество: защита заемщиков",
+      "added_at": "2026-07-17T08:57:53.817795",
+      "char_count": 6494,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1784267868/articles/antifraud-kreditnaya-istoriya-zaschita-zaemshhikov-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
