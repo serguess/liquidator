@@ -4464,6 +4464,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "apellyaciya-vvedenie-bankrotstva-portnyagin-otkaz-suda",
+      "category": "news",
+      "title": "Апелляция на банкротство: судебная практика и возражения",
+      "added_at": "2026-07-17T09:11:45.541991",
+      "char_count": 6631,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1784268702/articles/apellyaciya-vvedenie-bankrotstva-portnyagin-otkaz-suda-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
