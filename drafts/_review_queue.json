@@ -4490,6 +4490,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "novye-polnomochiya-sudebnyh-pristavov",
+      "category": "vzysk",
+      "title": "Новые полномочия судебных приставов: изменения",
+      "added_at": "2026-07-18T01:14:59.111468",
+      "char_count": 8523,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1784326494/articles/novye-polnomochiya-sudebnyh-pristavov-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

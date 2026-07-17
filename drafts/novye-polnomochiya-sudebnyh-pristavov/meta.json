@@ -1,0 +1,106 @@
+{
+  "slug": "novye-polnomochiya-sudebnyh-pristavov",
+  "category": "vzysk",
+  "title": "Новые полномочия судебных приставов: изменения",
+  "description": "Какие новые полномочия получили судебные приставы в 2025-2026: арест счетов, конфискация имущества, способы взыскания долгов и права должников.",
+  "h1": "Новые полномочия судебных приставов: что изменилось для должников и взыскателей",
+  "lead": "Разбираем, какой маршрут открыт в вашей ситуации, что реально стоит денег и какие три ошибки чаще всего срывают самостоятельную подачу.",
+  "topic_action": "снятие ареста с имущества",
+  "breadcrumb_current": "Полномочия судебных приставов",
+  "og_image": "/assets/articles/novye-polnomochiya-sudebnyh-pristavov.jpg",
+  "main_keyword": "новые полномочия судебных приставов",
+  "secondary_keywords": [
+    "полномочия судебных приставов",
+    "что могут судебные приставы",
+    "полномочия приставов по аресту имущества",
+    "судебный пристав права и обязанности",
+    "новые правила для судебных приставов",
+    "изменения в работе судебных приставов",
+    "арест счетов судебным приставом",
+    "конфискация имущества судебным приставом",
+    "закон о судебных приставах"
+  ],
+  "internal_links": [
+    "/articles/fiz/bankrotstvo-fizicheskogo-lica",
+    "/articles/vzysk/rassorochka-ispolneniya",
+    "/articles/fiz/zashchita-edinstvennogo-zhilya"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_14202/",
+    "https://www.garant.ru/products/ipo/prime/doc/12028578/"
+  ],
+  "faq": [
+    {
+      "question": "Может ли пристав наложить ограничение на единственную квартиру?",
+      "answer": "Запрет на регистрационные действия - да. Реализация единственного жилья, не находящегося в ипотеке, запрещена процессуальным кодексом. Ограничение - обеспечительная мера, а не изъятие: продать или подарить квартиру не выйдет, но жить в ней можно."
+    },
+    {
+      "question": "Что происходит с удержаниями, если исполнительных листов несколько?",
+      "answer": "Удержания суммируются, но общий потолок остаётся прежним. По обычным долгам - половина net-дохода, по спецкатегориям - до 70%. Пять взыскателей не значит, что заберут больше: очередь распределит выплаты между ними."
+    },
+    {
+      "question": "Сколько дней есть на добровольную оплату?",
+      "answer": "Пять рабочих дней с даты получения постановления о возбуждении. Не календарных. После этого срока начисляется исполнительский сбор."
+    },
+    {
+      "question": "Какие выплаты пристав не вправе списывать?",
+      "answer": "Компенсации за вред здоровью, пособия по рождению и уходу до 1,5 лет, маткапитал, пенсию по потере кормильца, командировочные, выплаты пострадавшим от терактов. Полный закрытый перечень - в 101-й норме закона об исполнительном производстве."
+    },
+    {
+      "question": "Можно ли оспорить исполнительский сбор?",
+      "answer": "Да. Жалоба подаётся в суд в течение 10 дней со дня постановления. Суд вправе снизить сумму на четверть или полностью освободить от неё - при наличии уважительных причин."
+    },
+    {
+      "question": "Чем обеспечительная мера отличается от конфискации?",
+      "answer": "Обеспечительная мера - временное ограничение распоряжения имуществом до погашения долга: право собственности сохраняется, реализация идёт с возвратом остатка. Конфискация - уголовно-правовая санкция, безвозмездное изъятие в пользу государства. В исполнительном производстве по гражданским долгам конфискация не применяется."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все ключевые факты проверены против research.json и соответствуют ФЗ-229 ст. 30, 80-82, 99, 101, 112, 123.",
+    "Защита прожиточного минимума требует заявления - правильно отражено в draft (ст. 99 ч. 5.1).",
+    "Четыре категории 70% удержания перечислены верно: алименты, вред здоровью, смерть кормильца, вред от преступления (ст. 99 ч. 3).",
+    "Конфискация ≠ арест - различие корректно объяснено (разница между уголовной санкцией и обеспечительной мерой).",
+    "Новые полномочия 2025-2026 (факт f10) требуют дальнейшей верификации - в draft упомянуты существующие полномочия, что достаточно для категории vzysk."
+  ],
+  "keyword_density_main": 0.018,
+  "main_keyword_exact_count": 2,
+  "text_chars": 8523,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.074,
+  "local_spam_ngram3_repeat": 0.027,
+  "local_lexical_diversity": 0.635,
+  "local_ai_markers_density": 0.29,
+  "local_ai_markers_critical": 0,
+  "local_ai_markers_total": 3,
+  "local_ai_markers_high": 1,
+  "local_own_voice_hits": 3,
+  "local_first_person_singular_hits": 0,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1784326494/articles/novye-polnomochiya-sudebnyh-pristavov-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1784326494/articles/novye-polnomochiya-sudebnyh-pristavov-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Editorial photograph of a polished marble or weathered stone slab in the foreground holding institutional objects — a closed dark leather portfolio, a polished round seal of judicial authority, a brass key ring symbolizing expanded enforcement powers, an antique brass pocket watch on a leather cord, a fountain pen positioned on the surface. Soft architectural background: blurred limestone columns or distant marble wall out of focus. Camera: tabletop level, slight three-quarter angle. Lighting: natural soft daylight grazing the stone surface, revealing veins and texture. Materials: marble, leather, weathered brass. Palette: warm cream, cool grey shadow, brass accents. Mood: official authority, expanded procedural power, institutional gravitas.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-07-17T22:14:55Z",
+  "length_status": "too_long",
+  "length_kind": "default",
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 49,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "длина значительно больше лимита 6500 (8 523 знаков)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "length_too_long: 8523 > 6500 (kind=default)"
+  ],
+  "date_published": "2026-07-18",
+  "date_modified": "2026-07-18",
+  "ready_for_review": true,
+  "ready_at": "2026-07-17T22:14:59Z",
+  "publication_target": "telegram_review"
+}

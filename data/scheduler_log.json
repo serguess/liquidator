@@ -27630,5 +27630,61 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-07-17T19:36:00",
+    "category": "yur",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 6,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "yur-143",
+    "topic_slug": "bankrotstvo-pri-ugolovnom-dele-direktora",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "length_soft_passed: 7392 > 6500 но ≤ 8500 и iteration=2 — пропускаем (приоритет spam/uniqueness/ai)",
+        "forced_pass_at_iter2: блокеры пропущены, статья идёт в TG-очередь с metrics_warning=true. Было: 1 блокеров — targeted_tokens_over_limit"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "bankrotstvo-pri-ugolovnom-dele-direktora",
+    "duration_sec": 2490.4,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "99     26930\n6-seo-editor        haiku            20       8    68512     25520     68540\n7-publisher         haiku            36      14    54112     90242     54162\n------------------------------------------------------------------------------------------\nИТОГО                               216     104   632335    695743    632655\nBillable-токенов на статью: ~632K (cache_read 695K не считается в лимит подписки).\nАртефакты: drafts/bankrotstvo-pri-ugolovnom-dele-direktora/  | quality_gate exit=0",
+    "stderr_tail": "",
+    "tokens_by_model": {},
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7392
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]
