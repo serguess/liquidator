@@ -8657,6 +8657,60 @@
       "published_url": null,
       "pending_batch": true,
       "pending_batch_at": "2026-07-16T20:13:33"
+    },
+    "vzyskanie-dolga-po-stroitelnomu-podryadu": {
+      "category": "vzysk",
+      "title": "Взыскание долга по строительному подряду: гайд подрядчика",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-07-17T05:21:09",
+      "last_action_at": "2026-07-17T05:21:09",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-07-17T05:21:09"
+    },
+    "antifraud-kreditnaya-istoriya-zaschita-zaemshhikov": {
+      "category": "news",
+      "title": "Кредитная история и мошенничество: защита заемщиков",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-07-17T08:58:11",
+      "last_action_at": "2026-07-17T08:58:11",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-07-17T08:58:11"
+    },
+    "apellyaciya-vvedenie-bankrotstva-portnyagin-otkaz-suda": {
+      "category": "news",
+      "title": "Апелляция на банкротство: судебная практика и возражения",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-07-17T09:12:11",
+      "last_action_at": "2026-07-17T09:12:11",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-07-17T09:12:11"
     }
   },
   "pending_actions": [],
