@@ -4477,6 +4477,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "dolg-po-arendam-fizlica-bankrotstvo",
+      "category": "fiz",
+      "title": "Банкротство при долге по аренде жилья и офиса",
+      "added_at": "2026-07-17T15:22:42.983211",
+      "char_count": 8677,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1784290959/articles/dolg-po-arendam-fizlica-bankrotstvo-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

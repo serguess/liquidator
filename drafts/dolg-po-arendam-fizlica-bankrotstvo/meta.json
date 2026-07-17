@@ -1,0 +1,108 @@
+{
+  "slug": "dolg-po-arendam-fizlica-bankrotstvo",
+  "category": "fiz",
+  "title": "Банкротство при долге по аренде жилья и офиса",
+  "description": "Как физлицу избежать потери жилья при долгах по аренде? Рассмотрим процедуру банкротства, условия, сроки и влияние арендодателя.",
+  "h1": "Банкротство физлица при долге по аренде: как спасти квартиру и офис",
+  "lead": "Разбираем, куда попадает арендный долг при банкротстве, когда замораживаются приставы и почему съёмное жильё не защищает так же, как собственное.",
+  "topic_action": "проверку возможности списания долгов по аренде",
+  "breadcrumb_current": "Банкротство при долге по аренде",
+  "og_image": "/assets/articles/dolg-po-arendam-fizlica-bankrotstvo.jpg",
+  "main_keyword": "долг по аренде банкротство",
+  "secondary_keywords": [
+    "долг по аренде квартиры банкротство",
+    "как получить помощь при долге по аренде",
+    "потеря квартиры из-за долга по аренде",
+    "выселение за долги по аренде",
+    "банкротство и долги перед арендодателем",
+    "спасение квартиры от выселения",
+    "процедура банкротства при долгах по аренде",
+    "помощь должнику при задолженности по аренде",
+    "как списать долг по аренде жилья"
+  ],
+  "internal_links": [
+    "/articles/fiz/bankrotstvo-dolgi-mfo-i-bank-odnovremenno",
+    "/articles/fiz/bankovskie-scheta-pri-bankrotstve"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/",
+    "https://www.consultant.ru/document/cons_doc_LAW_39570/"
+  ],
+  "faq": [
+    {
+      "question": "Спишут ли задолженность перед хозяином квартиры после завершения дела?",
+      "answer": "Да, при обычном сценарии остаток непогашенных требований уходит (ст. 213.28 п. 3 127-ФЗ). Исключение - если суд признает поведение должника недобросовестным: сокрытие активов, ложные сведения. Тогда обязательства сохранятся."
+    },
+    {
+      "question": "Может ли наймодатель выселить меня, пока идёт процедура банкротства?",
+      "answer": "Силой через приставов - нет, исполнительные действия заморожены (ст. 213.11 127-ФЗ). Но подать в районный суд иск о расторжении договора по ст. 619 ГК РФ он вправе, и этот иск ваша процедура не блокирует."
+    },
+    {
+      "question": "Что происходит с текущей квартплатой за съёмное жильё в ходе дела?",
+      "answer": "Она не списывается и не приостанавливается. Плата за месяцы после старта процедуры относится к текущим платежам (ст. 213.28 п. 5 127-ФЗ) и должна вноситься из вашего дохода отдельно."
+    },
+    {
+      "question": "Какую очередь занимает арендодатель среди других взыскателей при продаже имущества?",
+      "answer": "Пятую, последнюю (ст. 213.27 127-ФЗ). Раньше идут расходы на процедуру, зарплаты работникам, возмещение вреда здоровью и налоги. Владелец получает деньги только если после расчётов с ними что-то осталось."
+    },
+    {
+      "question": "До какого момента действует защита от принудительного выселения приставами?",
+      "answer": "До завершения дела либо до отдельного определения суда о возобновлении исполнительных действий. После окончания процедуры заморозка снимается."
+    },
+    {
+      "question": "Вправе ли ИП с долгом по аренде офиса пройти ту же процедуру банкротства?",
+      "answer": "Да, предприниматель уходит в банкротство по тем же правилам (ст. 213.4-213.5 127-ФЗ). Долг за офис включается в реестр кредиторов, оборудование и товарные остатки идут в общую массу для расчётов."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все ключевые утверждения сверены с research.json. legislation_status: active для фактов f1-f7, f9-f12.",
+    "f8 (расторжение договора аренды в период банкротства): legislation_status: needs_verification, contested: true. В тексте использована safe_phrasing из research: «хозяин вправе идти в районный суд с иском о расторжении по ст. 619 ГК РФ - этот иск ваша процедура не блокирует». Запрещённых утверждений из forbidden_claims нет.",
+    "ПМ 2026: 20 644 руб. (ФЗ-426 от 28.11.2025) - верифицирован, last_verified: 2026-07-17.",
+    "Очерёдность арендодателя: V очередь по ст. 213.27 127-ФЗ - корректно.",
+    "4 условия реструктуризации по ст. 213.13 п. 1 - перечислены корректно.",
+    "Пятилетний запрет по ст. 213.30 п. 2 - корректно.",
+    "Запрещённых утверждений из forbidden_claims в финальном тексте не обнаружено."
+  ],
+  "keyword_density_main": 0.016,
+  "main_keyword_exact_count": 2,
+  "text_chars": 8677,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.092,
+  "local_spam_ngram3_repeat": 0.024,
+  "local_lexical_diversity": 0.627,
+  "local_ai_markers_density": 0.28,
+  "local_ai_markers_critical": 0,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1784290959/articles/dolg-po-arendam-fizlica-bankrotstvo-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1784290959/articles/dolg-po-arendam-fizlica-bankrotstvo-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Exterior photograph of a stone administrative building in neoclassical architecture, frontal angle emphasizing tall columns. Cool grey-blue palette, overcast city light with optional light rain haloing street lamps. Weathered limestone facade, long architectural columns, brass administrative plaque on wall. At the base of wide stone steps: a closed dark leather briefcase suggesting business affairs in crisis, a folded black umbrella leaning against a pilaster, a bound stack of legal dossiers tied with cord resting on the top step. Atmosphere of official finality and weight, the moment a binding decision is rendered for loss of tenancy. Cinematic wide crop.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-07-17T12:22:40Z",
+  "length_status": "too_long",
+  "length_kind": "default",
+  "local_ai_markers_total": 3,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 3,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 49,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "длина значительно больше лимита 6500 (8 677 знаков)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "length_too_long: 8677 > 6500 (kind=default)",
+    "targeted_tokens_over_limit: ст_сокращение=7(>≤5), РФ_рудимент=4(>≤2), 127фз_закон=4(>≤2)"
+  ],
+  "date_published": "2026-07-17",
+  "date_modified": "2026-07-17",
+  "ready_for_review": true,
+  "ready_at": "2026-07-17T12:22:42Z",
+  "publication_target": "telegram_review"
+}
