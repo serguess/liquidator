@@ -27808,5 +27808,64 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-07-18T08:30:21",
+    "category": "news",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 9,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "news-100",
+    "topic_slug": "klyuchevaya-stavka-pauza-cb-dolgi-kak-vliyaet",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "length_soft_passed: 6429 > 5500 но ≤ 7500 и iteration=2 — пропускаем (приоритет spam/uniqueness/ai)"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "finalize_safety_net": {
+      "ran": true,
+      "rc": 0
+    },
+    "status": "ok",
+    "slug": "klyuchevaya-stavka-pauza-cb-dolgi-kak-vliyaet",
+    "duration_sec": 874.5,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "  21004\n6-seo-editor        sonnet            6      16    60282     25156     60304\n7-publisher         haiku            36      12    53590     90232     53638\n------------------------------------------------------------------------------------------\nИТОГО                              2402      89   468413    501396    470904\nBillable-токенов на статью: ~470K (cache_read 501K не считается в лимит подписки).\nАртефакты: drafts/klyuchevaya-stavka-pauza-cb-dolgi-kak-vliyaet/  | quality_gate exit=0",
+    "stderr_tail": "",
+    "tokens_by_model": {},
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 6429
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]
