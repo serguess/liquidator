@@ -4516,6 +4516,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "klyuchevaya-stavka-pauza-cb-dolgi-kak-vliyaet",
+      "category": "news",
+      "title": "Пауза ЦБ в снижении ставки: что для должников",
+      "added_at": "2026-07-18T08:44:56.036311",
+      "char_count": 6429,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1784353490/articles/klyuchevaya-stavka-pauza-cb-dolgi-kak-vliyaet-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
