@@ -8630,15 +8630,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 2005,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-16T15:32:30",
-      "last_action_at": "2026-07-16T15:32:30",
+      "last_action_at": "2026-07-17T10:00:09",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-07-16T15:32:30"
+      "pending_batch": false,
+      "pending_batch_at": "2026-07-16T15:32:30",
+      "batch_sent_at": "2026-07-17T10:00:09",
+      "batch_fail_count": 0
     },
     "bankrotstvo-lizingovoj-kompanii-prava-poluchatelya": {
       "category": "yur",
@@ -8648,15 +8650,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 2007,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-16T20:13:33",
-      "last_action_at": "2026-07-16T20:13:33",
+      "last_action_at": "2026-07-17T10:00:11",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-07-16T20:13:33"
+      "pending_batch": false,
+      "pending_batch_at": "2026-07-16T20:13:33",
+      "batch_sent_at": "2026-07-17T10:00:11",
+      "batch_fail_count": 0
     },
     "vzyskanie-dolga-po-stroitelnomu-podryadu": {
       "category": "vzysk",
@@ -8666,15 +8670,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 2009,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-17T05:21:09",
-      "last_action_at": "2026-07-17T05:21:09",
+      "last_action_at": "2026-07-17T10:00:14",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-07-17T05:21:09"
+      "pending_batch": false,
+      "pending_batch_at": "2026-07-17T05:21:09",
+      "batch_sent_at": "2026-07-17T10:00:14",
+      "batch_fail_count": 0
     },
     "antifraud-kreditnaya-istoriya-zaschita-zaemshhikov": {
       "category": "news",
@@ -8684,15 +8690,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 2011,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-17T08:58:11",
-      "last_action_at": "2026-07-17T08:58:11",
+      "last_action_at": "2026-07-17T10:00:16",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-07-17T08:58:11"
+      "pending_batch": false,
+      "pending_batch_at": "2026-07-17T08:58:11",
+      "batch_sent_at": "2026-07-17T10:00:16",
+      "batch_fail_count": 0
     },
     "apellyaciya-vvedenie-bankrotstva-portnyagin-otkaz-suda": {
       "category": "news",
@@ -8702,19 +8710,139 @@
       "versions": [
         "2.0"
       ],
+      "tg_message_id": 2013,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-07-17T09:12:11",
+      "last_action_at": "2026-07-17T10:00:18",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-07-17T09:12:11",
+      "batch_sent_at": "2026-07-17T10:00:18",
+      "batch_fail_count": 0
+    },
+    "dolg-po-arendam-fizlica-bankrotstvo": {
+      "category": "fiz",
+      "title": "Банкротство при долге по аренде жилья и офиса",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 2015,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-07-17T15:23:15",
+      "last_action_at": "2026-07-18T10:00:04",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-07-17T15:23:15",
+      "batch_sent_at": "2026-07-18T10:00:04",
+      "batch_fail_count": 0
+    },
+    "bankrotstvo-pri-ugolovnom-dele-direktora": {
+      "category": "yur",
+      "title": "Банкротство при уголовном деле: риски для директора",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 2017,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-07-17T20:18:17",
+      "last_action_at": "2026-07-18T10:00:06",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-07-17T20:18:17",
+      "batch_sent_at": "2026-07-18T10:00:06",
+      "batch_fail_count": 0
+    },
+    "novye-polnomochiya-sudebnyh-pristavov": {
+      "category": "vzysk",
+      "title": "Новые полномочия судебных приставов: изменения",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 2019,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-07-18T01:15:20",
+      "last_action_at": "2026-07-18T10:00:09",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-07-18T01:15:20",
+      "batch_sent_at": "2026-07-18T10:00:08",
+      "batch_fail_count": 0
+    },
+    "bankrotstvo-fizlica-fns-inic-prekrashcheniye-osnovaniya": {
+      "category": "news",
+      "title": "Основания прекращения банкротства ФНС: судебная практика",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 2021,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-07-18T05:20:04",
+      "last_action_at": "2026-07-18T10:00:11",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-07-18T05:20:04",
+      "batch_sent_at": "2026-07-18T10:00:11",
+      "batch_fail_count": 0
+    },
+    "klyuchevaya-stavka-pauza-cb-dolgi-kak-vliyaet": {
+      "category": "news",
+      "title": "Пауза ЦБ в снижении ставки: что для должников",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 2023,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-07-18T08:45:06",
+      "last_action_at": "2026-07-18T10:00:13",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-07-18T08:45:06",
+      "batch_sent_at": "2026-07-18T10:00:13",
+      "batch_fail_count": 0
+    },
+    "bankrotstvo-inostrannogo-dolzhnika-v-rossii-prekrashcheniye": {
+      "category": "news",
+      "title": "Суд прекратил банкротство иностранного должника",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
       "tg_message_id": null,
       "tg_chat_id": null,
-      "first_seen_at": "2026-07-17T09:12:11",
-      "last_action_at": "2026-07-17T09:12:11",
+      "first_seen_at": "2026-07-18T09:04:06",
+      "last_action_at": "2026-07-18T09:04:06",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
       "pending_batch": true,
-      "pending_batch_at": "2026-07-17T09:12:11"
+      "pending_batch_at": "2026-07-18T09:04:06"
     }
   },
   "pending_actions": [],
-  "last_batch_date": "2026-07-16",
+  "last_batch_date": "2026-07-18",
   "last_batch_count": 5,
-  "last_batch_at": "2026-07-16T10:00:33"
+  "last_batch_at": "2026-07-18T10:00:13"
 }
