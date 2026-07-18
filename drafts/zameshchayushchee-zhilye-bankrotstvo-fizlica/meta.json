@@ -1,0 +1,106 @@
+{
+  "slug": "zameshchayushchee-zhilye-bankrotstvo-fizlica",
+  "category": "fiz",
+  "title": "Замещающее жильё при банкротстве: права должника",
+  "description": "Узнайте о правах должника на замещающее жильё при банкротстве физлица, какое имущество защищено от конфискации, как сохранить крышу над головой.",
+  "h1": "Замещающее жилье при банкротстве физлица: права должника и порядок защиты",
+  "lead": "Разбираем, что реально защищено от взыскания, когда работает механизм замещающего жилья и какие три сценария создают риск для квартиры даже без ипотеки.",
+  "topic_action": "проверку защиты жилья при банкротстве",
+  "breadcrumb_current": "Замещающее жильё при банкротстве",
+  "og_image": "/assets/articles/zameshchayushchee-zhilye-bankrotstvo-fizlica.jpg",
+  "main_keyword": "замещающее жилье при банкротстве физлица",
+  "secondary_keywords": [
+    "право на замену жилья при банкротстве",
+    "замещающее жилье для должника",
+    "как сохранить жилье при банкротстве",
+    "неприкосновенное жилье при банкротстве",
+    "имущество не подлежит взысканию",
+    "право на жильё банкрота",
+    "сохранение имущества при банкротстве",
+    "жилищные права должника банкротства"
+  ],
+  "internal_links": [
+    "/articles/fiz/bankovskie-scheta-pri-bankrotstve",
+    "/articles/fiz/avtomobil-pri-bankrotstve-fizlica",
+    "/articles/fiz/alimenty-pri-bankrotstve-fizlica"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/"
+  ],
+  "faq": [
+    {
+      "question": "Могут ли продать единственную квартиру при банкротстве физлица?",
+      "answer": "В общем случае нет. Абзац второй части первой ст. 446 ГПК защищает жилое помещение от взыскания. Исключение по КС № 15-П: если актив явно избыточен, суд назначит продажу с покупкой замещающего."
+    },
+    {
+      "question": "Что такое замещающее жильё и при каких условиях суд его назначает?",
+      "answer": "Это более скромный вариант в том же населённом пункте, приобретаемый взамен реализуемой дорогой недвижимости. Условия: явная роскошность, несоразмерность стоимости долгу, инициатива управляющего или кредиторов, определение арбитражного суда."
+    },
+    {
+      "question": "Защищает ли закон квартиру, если в ней прописаны несовершеннолетние дети?",
+      "answer": "Наличие детей усиливает аргумент в пользу сохранения жилплощади и учитывается арбитражем. Но само по себе не гарантирует полную защиту, если недвижимость очевидно избыточна по метражу или стоимости."
+    },
+    {
+      "question": "Что произойдёт с квартирой в ипотеке при объявлении банкротства?",
+      "answer": "Ипотечное жильё входит в конкурсную массу независимо от единственности. Залогодержатель имеет приоритет и получает удовлетворение за счёт продажи объекта."
+    },
+    {
+      "question": "Обязательно ли переезжать в замещающее жильё в том же городе?",
+      "answer": "Да. КС РФ прямо указал: замена только в границах того же населённого пункта. Переезд в область или другой регион нормой не предусмотрен."
+    },
+    {
+      "question": "Можно ли оспорить решение суда о продаже единственного жилья?",
+      "answer": "Определение арбитражного суда обжалуется в апелляционном и кассационном порядке в общие процессуальные сроки. Основания - неверная оценка «роскошности», игнорирование состава проживающих, нарушение процедуры."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "ст. 446 ГПК: last_verified 2026-07-18, legislation_status active. Формулировка соответствует safe_phrasing f1.",
+    "КС № 15-П от 26.04.2021: last_verified 2026-07-18, active. Оговорка о неабсолютности иммунитета присутствует, forbidden_claim не нарушен.",
+    "ПМ 20 644 руб. (ФЗ-426 от 28.11.2025): last_verified 2026-07-18, active. Цифра верифицирована по f4.",
+    "ст. 213.25 п. 3 127-ФЗ: last_verified 2026-07-18, active. Конкурсная масса и исключения - f3.",
+    "f6 (защищённые выплаты): legislation_status needs_verification - использована safe_phrasing без расширенных утверждений.",
+    "Дефисные сцепки «банк-залогодержатель» расцеплены на «залогодержатель» по правилу editor-cheatsheet."
+  ],
+  "keyword_density_main": 0.016,
+  "main_keyword_exact_count": 2,
+  "text_chars": 7828,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.1,
+  "local_spam_ngram3_repeat": 0.036,
+  "local_lexical_diversity": 0.644,
+  "local_ai_markers_density": 0.41,
+  "local_ai_markers_critical": 0,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1784378001/articles/zameshchayushchee-zhilye-bankrotstvo-fizlica-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1784378001/articles/zameshchayushchee-zhilye-bankrotstvo-fizlica-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Low-key photograph of a dark wood-paneled interior — a housing-rights legal advisor's office at night. Single warm pool of light from a brass library lamp illuminates items on a leather-topped desk: a closed leather-bound diary, a fountain pen, an antique pocket watch on a chain, a polished brass round seal, reading glasses, and a closed law book with embossed gilt spine. Background: dark window with barely visible city lights bokeh far away. Camera: three-quarter angle, eye-level. Lighting: dominant warm tungsten pool, deep ambient shadow elsewhere. Palette: oxblood, walnut, brass on near-black. Mood: confidential, deliberative, weighing the displaced tenant's right to housing protection.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-07-18T12:33:22Z",
+  "length_status": "too_long",
+  "length_kind": "default",
+  "local_ai_markers_total": 4,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 3,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 51,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность чуть выше 50% (~51%)",
+    "длина значительно больше лимита 6500 (7 828 знаков)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "targeted_tokens_over_limit: ст_сокращение=6(>≤5), ГПК_кодекс=4(>≤3)"
+  ],
+  "date_published": "2026-07-18",
+  "date_modified": "2026-07-18",
+  "ready_for_review": true,
+  "ready_at": "2026-07-18T12:33:26Z",
+  "publication_target": "telegram_review"
+}

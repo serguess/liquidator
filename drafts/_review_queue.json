@@ -4542,6 +4542,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "zameshchayushchee-zhilye-bankrotstvo-fizlica",
+      "category": "fiz",
+      "title": "Замещающее жильё при банкротстве: права должника",
+      "added_at": "2026-07-18T15:33:26.485470",
+      "char_count": 7828,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1784378001/articles/zameshchayushchee-zhilye-bankrotstvo-fizlica-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
