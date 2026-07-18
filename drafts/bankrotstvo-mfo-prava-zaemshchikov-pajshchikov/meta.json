@@ -1,0 +1,113 @@
+{
+  "slug": "bankrotstvo-mfo-prava-zaemshchikov-pajshchikov",
+  "category": "yur",
+  "title": "Банкротство МФО: права заёмщиков и пайщиков",
+  "description": "Что происходит с долгами и вкладами при банкротстве МФО. Права заёмщиков и пайщиков, порядок взыскания, защита имущества.",
+  "h1": "Банкротство МФО: права заёмщиков и пайщиков при закрытии микрофинансовой организации",
+  "lead": "Разбираем, чем отзыв лицензии отличается от судебного банкротства, кто становится кредитором, а кто остаётся должником - и что конкретно делать в каждой из этих ролей.",
+  "topic_action": "защиту прав заёмщиков МФО",
+  "breadcrumb_current": "Банкротство МФО: права заёмщиков",
+  "og_image": "/assets/articles/bankrotstvo-mfo-prava-zaemshchikov-pajshchikov.jpg",
+  "main_keyword": "банкротство микрофинансовой организации права заёмщиков",
+  "secondary_keywords": [
+    "МФО лицензирование ЦБ РФ",
+    "что происходит с кредитами при закрытии МФО",
+    "защита прав заёмщиков МФО",
+    "пайщик микрофинансовой организации",
+    "вклады в МФО банкротство",
+    "административное прекращение МФО",
+    "конкурсное производство МФО",
+    "правила МФО ст. 3 ФЗ-360",
+    "исполнительное производство долг МФО",
+    "возврат займа при закрытии МФО"
+  ],
+  "internal_links": [
+    "/articles/yur/bankrotstvo-dolg-kreditnyj-kooperativ-kpk",
+    "/articles/yur/bankrotstvo-dolgi-mfo-i-bank-odnovremenno"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/",
+    "https://cbr.ru"
+  ],
+  "faq": [
+    {
+      "question": "Обязан ли получатель займа продолжать платить после отзыва лицензии?",
+      "answer": "Да. Отзыв лицензии - административное действие регулятора. Обязательство сохраняется полностью. Перестать платить - значит копить пени и штрафы."
+    },
+    {
+      "question": "Защищены ли вложения в микрофинансовую структуру системой АСВ?",
+      "answer": "Нет. По 177-ФЗ Агентство работает только с банковскими депозитами. Микрофинансовый займодавец статуса кредитной организации не имеет. При несостоятельности вкладчик получает выплаты только из конкурсной массы."
+    },
+    {
+      "question": "Сколько времени есть на включение в реестр требований?",
+      "answer": "Два месяца с даты официальной публикации сведений о введении процедуры. Опоздание почти всегда означает, что человек останется за реестром."
+    },
+    {
+      "question": "Что происходит с исполнительным производством, если пристав уже удерживает деньги?",
+      "answer": "Если речь про долг МФО к человеку, а сам он начал собственное банкротство - производство приостанавливается по ст. 213.11 закона о несостоятельности. Удержания прекращаются. Дальнейшая судьба долга решается в процедуре."
+    },
+    {
+      "question": "Можно ли оспорить судебный приказ, полученный до процедуры?",
+      "answer": "Можно, если не истёк срок. По правилам АПК возражения подаются в течение 10 дней с получения копии. После этого приказ вступает в силу."
+    },
+    {
+      "question": "Чем риск члена кооператива отличается от риска обычного вкладчика?",
+      "answer": "Член корпорации получает свою долю только в последнюю очередь - после расчётов со всеми кредиторами. Обычный вкладчик - третья очередь реестра, до него добираются чаще."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все факты сверены с research.json. Статусы: active. last_verified: 2026-07-19 для всех ключевых утверждений.",
+    "ФЗ-360 ст. 12-13: основания административного отзыва лицензии ЦБ РФ - актуальны, legislation_status: active. Разграничение с судебным банкротством корректно отражено (f3).",
+    "127-ФЗ ст. 33, 40: порядок инициирования банкротства в арбитраже - актуально, контекст применения корректен (f3).",
+    "127-ФЗ ст. 140: право управляющего списать долг при нецелесообразности взыскания - актуально, контекст применения корректен (f11). Оговорка об усмотрении управляющего присутствует.",
+    "127-ФЗ ст. 141: требования пайщиков кооператива удовлетворяются в последнюю очередь - актуально, привязано к банкротству кооператива (f6).",
+    "177-ФЗ: АСВ не покрывает вклады в МФО, не имеющую статуса кредитной организации - актуально (f5). Forbidden claim не нарушен.",
+    "АПК РФ ст. 229.2: судебный приказ при сумме до 500 000 руб. - актуально, legislation_status: active (f7).",
+    "127-ФЗ ст. 213.11: приостановление исполнительного производства при банкротстве заёмщика-физлица - актуально, контекст применения корректен (f8).",
+    "123-ФЗ: полномочия Финансового омбудсмена при нарушениях условий договора займа - актуально (f10). Оговорка об ограниченной роли при банкротстве МФО присутствует.",
+    "ГК РФ ст. 123.13, 123.14, 65.3: статус пайщика кооператива - актуально (f6). Убыток ограничен размером паи - корректно."
+  ],
+  "keyword_density_main": 0.017,
+  "main_keyword_exact_count": 1,
+  "text_chars": 8407,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.104,
+  "local_spam_ngram3_repeat": 0.035,
+  "local_lexical_diversity": 0.586,
+  "local_ai_markers_density": 0.29,
+  "local_ai_markers_critical": 0,
+  "local_ai_markers_total": 3,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 3,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1784411309/articles/bankrotstvo-mfo-prava-zaemshchikov-pajshchikov-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1784411309/articles/bankrotstvo-mfo-prava-zaemshchikov-pajshchikov-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Close-up architectural photograph of polished marble or carved limestone with a refined cluster of financial-sector accessories in the foreground. A closed leather portfolio rests on the stone surface, accompanied by an antique brass pocket watch suggesting time-bound claims and asset realization deadlines, a fountain pen symbolizing creditor filings and court decisions, and a polished round seal representing the microfinance organization's official standing. Camera: tight crop, eye-level or slight low-angle. Lighting: soft diffused daylight grazing the marble, revealing veining and grain. Palette: cool whites, warm cream, restrained brass accents. Mood: premium institutional procedure, weight of financial protection and due process in complex creditor disputes.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-07-18T21:48:30Z",
+  "length_status": "too_long",
+  "length_kind": "default",
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 58,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность заметно выше 50% (~58%)",
+    "длина значительно больше лимита 6500 (8 407 знаков)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "targeted_tokens_over_limit: ст_сокращение=11(>≤5)",
+    "broken_internal_links: 2 ссылок без соответствия в published_index (/articles/yur/bankrotstvo-dolg-kreditnyj-kooperativ-kpk: slug 'bankrotstvo-dolg-kreditnyj-kooperativ-kpk' не найден в категории 'yur' (есть: fiz); /articles/yur/bankrotstvo-dolgi-mfo-i-bank-odnovremenno: slug 'bankrotstvo-dolgi-mfo-i-bank-odnovremenno' не найден в категории 'yur' (есть: fiz))"
+  ],
+  "date_published": "2026-07-19",
+  "date_modified": "2026-07-19",
+  "ready_for_review": true,
+  "ready_at": "2026-07-18T21:48:30Z",
+  "publication_target": "telegram_review"
+}

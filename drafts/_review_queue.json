@@ -4555,6 +4555,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "bankrotstvo-mfo-prava-zaemshchikov-pajshchikov",
+      "category": "yur",
+      "title": "Банкротство МФО: права заёмщиков и пайщиков",
+      "added_at": "2026-07-19T00:48:30.814432",
+      "char_count": 8407,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1784411309/articles/bankrotstvo-mfo-prava-zaemshchikov-pajshchikov-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

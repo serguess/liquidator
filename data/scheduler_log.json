@@ -27958,5 +27958,68 @@
     "returncode": 1,
     "stdout_tail": "You've hit your limit · resets 1:30pm (Europe/Moscow)",
     "stderr_tail": ""
+  },
+  {
+    "timestamp": "2026-07-18T14:48:11",
+    "category": "fiz",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 12,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "expanded_in_slot": true,
+    "topic_id": "fiz-156",
+    "topic_slug": "zameshchayushchee-zhilye-bankrotstvo-fizlica",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "length_soft_passed: 7828 > 6500 но ≤ 8500 и iteration=2 — пропускаем (приоритет spam/uniqueness/ai)",
+        "forced_pass_at_iter2: блокеры пропущены, статья идёт в TG-очередь с metrics_warning=true. Было: 1 блокеров — targeted_tokens_over_limit"
+      ],
+      "recommendations": [
+        "reduce_ст: «ст. X» × 6 → cap 5. Писать «статья X» полным словом, либо описательно («по правилу о процентах», «норма об исковой давности»). Cap 3 юр-цитаты на статью, остальное — пересказом."
+      ],
+      "stderr_tail": ""
+    },
+    "finalize_safety_net": {
+      "ran": true,
+      "rc": 0
+    },
+    "status": "ok",
+    "slug": "zameshchayushchee-zhilye-bankrotstvo-fizlica",
+    "duration_sec": 2715.1,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "   24467\n6-seo-editor        sonnet            6       2        0     87996         8\n7-publisher         haiku            20       8    39230     25520     39258\n------------------------------------------------------------------------------------------\nИТОГО                               210      62   537896    864332    538168\nBillable-токенов на статью: ~538K (cache_read 864K не считается в лимит подписки).\nАртефакты: drafts/zameshchayushchee-zhilye-bankrotstvo-fizlica/  | quality_gate exit=0",
+    "stderr_tail": "",
+    "tokens_by_model": {},
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7828
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]
