@@ -8555,7 +8555,7 @@
     "moratorij-na-bankrotstvo-prava-dolzhnika-kreditora": {
       "category": "yur",
       "title": "Мораторий на банкротство: права и обязанности",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -8563,14 +8563,16 @@
       "tg_message_id": 1997,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-15T20:09:23",
-      "last_action_at": "2026-07-16T10:00:26",
+      "last_action_at": "2026-07-19T23:13:05",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/yur/moratorij-na-bankrotstvo-prava-dolzhnika-kreditora",
       "pending_batch": false,
       "pending_batch_at": "2026-07-15T20:09:24",
       "batch_sent_at": "2026-07-16T10:00:26",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-07-19T23:13:05",
+      "articles_path": "articles/yur/moratorij-na-bankrotstvo-prava-dolzhnika-kreditora.html"
     },
     "vzyskanie-dolga-po-agentskomu-dogovoru": {
       "category": "vzysk",
