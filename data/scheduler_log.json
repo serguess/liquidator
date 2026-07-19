@@ -28085,5 +28085,68 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-07-19T05:12:08",
+    "category": "vzysk",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 14,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "vzysk-125",
+    "topic_slug": "vzyskanie-ushcherba-s-vinovnika-pozhara",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "length_soft_passed: 7239 > 6500 но ≤ 8500 и iteration=2 — пропускаем (приоритет spam/uniqueness/ai)",
+        "forced_pass_at_iter2: блокеры пропущены, статья идёт в TG-очередь с metrics_warning=true. Было: 1 блокеров — targeted_tokens_over_limit"
+      ],
+      "recommendations": [
+        "reduce_ст: «ст. X» × 10 → cap 5. Писать «статья X» полным словом, либо описательно («по правилу о процентах», «норма об исковой давности»). Cap 3 юр-цитаты на статью, остальное — пересказом.",
+        "reduce_РФ: «РФ» × 9 → cap 2. Удалить из «ГК РФ»/«ГПК РФ» — просто «ГК»/«ГПК» (контекст однозначный). Один раз в первом упоминании можно полное название."
+      ],
+      "stderr_tail": ""
+    },
+    "finalize_safety_net": {
+      "ran": true,
+      "rc": 0
+    },
+    "status": "ok",
+    "slug": "vzyskanie-ushcherba-s-vinovnika-pozhara",
+    "duration_sec": 1166.2,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "846     47840\n6-seo-editor        sonnet            6       2    63062     25156     63070\n7-publisher         haiku            36      12    53638     90258     53686\n------------------------------------------------------------------------------------------\nИТОГО                               106      68   402691    332907    402865\nBillable-токенов на статью: ~402K (cache_read 332K не считается в лимит подписки).\nАртефакты: drafts/vzyskanie-ushcherba-s-vinovnika-pozhara/  | quality_gate exit=0",
+    "stderr_tail": "",
+    "tokens_by_model": {},
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7239
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]

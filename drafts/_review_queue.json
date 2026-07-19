@@ -4581,6 +4581,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "konkyursnoe-proizvodstvo-kompaniya-bez-aktivov",
+      "category": "news",
+      "title": "Конкурсное производство компании без имущества",
+      "added_at": "2026-07-19T08:49:10.833472",
+      "char_count": 5382,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1784440149/articles/konkyursnoe-proizvodstvo-kompaniya-bez-aktivov-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
