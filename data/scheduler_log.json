@@ -28148,5 +28148,102 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-07-19T08:30:21",
+    "category": "news",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 15,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "news-102",
+    "topic_slug": "konkyursnoe-proizvodstvo-kompaniya-bez-aktivov",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "forced_pass_at_iter2: блокеры пропущены, статья идёт в TG-очередь с metrics_warning=true. Было: 2 блокеров — spam_risk; targeted_tokens_over_limit"
+      ],
+      "recommendations": [
+        "reduce_repetition: разбавить топ-5 частотных лемм местоимениями/перифразом — ['арбитраж', 'конкурсн', 'банкротств', 'требован', 'директор']",
+        "reduce_ст: «ст. X» × 16 → cap 5. Писать «статья X» полным словом, либо описательно («по правилу о процентах», «норма об исковой давности»). Cap 3 юр-цитаты на статью, остальное — пересказом."
+      ],
+      "stderr_tail": ""
+    },
+    "finalize_safety_net": {
+      "ran": true,
+      "rc": 0
+    },
+    "status": "ok",
+    "slug": "konkyursnoe-proizvodstvo-kompaniya-bez-aktivov",
+    "duration_sec": 1129.3,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": " 22216\n6-seo-editor        sonnet            6       2    60998     25156     61006\n7-publisher         haiku            20       8    39200     25520     39228\n------------------------------------------------------------------------------------------\nИТОГО                               152      78   503240    440550    503470\nBillable-токенов на статью: ~503K (cache_read 440K не считается в лимит подписки).\nАртефакты: drafts/konkyursnoe-proizvodstvo-kompaniya-bez-aktivov/  | quality_gate exit=0",
+    "stderr_tail": "",
+    "tokens_by_model": {},
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 5382
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
+  },
+  {
+    "timestamp": "2026-07-19T08:49:12",
+    "category": "news",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 16,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "news-103",
+    "topic_slug": "zalog-bez-dogovora-bankrotstvo-kreditor-prioritet",
+    "status": "failed",
+    "slug": "zalog-bez-dogovora-bankrotstvo-kreditor-prioritet",
+    "duration_sec": 433.0,
+    "returncode": 1,
+    "rescued_after_failure": false,
+    "stdout_tail": "=== 1-semantics (claude haiku) ===\n   ok: 1537 симв., usage in=20 out=4 cache_w=30376 cache_r=25520 billable=30400 ток, 24.6с\n=== 2-legal-research (claude haiku) ===\n   ok: 9892 симв., usage in=2736 out=33 cache_w=160474 cache_r=240382 billable=163243 ток, 68.7с\n   ok: 13052 симв., billable=59654 ток (model=sonnet)\n   [outline_validate] exit=0\n=== 4-writer (claude opus) ===\n   ok: 6947 симв., billable=61221 ток, 63.9с\n   [writer self-fix проход 2]",
+    "stderr_tail": "[ERR] rate_limit: put_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard\",\"cache_creation\":{\"ephemeral_1h_input_tokens\":0,\"ephemeral_5m_input_tokens\":0},\"inference_geo\":\"\",\"iterations\":[],\"speed\":\"standard\"},\"modelUsage\":{},\"permission_denials\":[],\"terminal_reason\":\"completed\",\"fast_mode_state\":\"off\",\"uuid\":\"3abc2346-3568-4401-b62b-7bed63bf6f2b\"}\n\n",
+    "tokens_by_model": {},
+    "metrics": null
   }
 ]
