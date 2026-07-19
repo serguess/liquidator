@@ -2,6 +2,19 @@
   "generated": "2026-07-20",
   "articles": [
     {
+      "slug": "bankrotstvo-mfo-prava-zaemshchikov-pajshchikov",
+      "cat": "yur",
+      "catLabel": "Банкротство юридических лиц",
+      "title": "Банкротство МФО: права заёмщиков и пайщиков",
+      "desc": "Что происходит с долгами и вкладами при банкротстве МФО. Права заёмщиков и пайщиков, порядок взыскания, защита имущества.",
+      "date": "20 июля 2026",
+      "dateIso": "2026-07-20",
+      "read": "6 мин.",
+      "tone": "b",
+      "img": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1784411309/articles/bankrotstvo-mfo-prava-zaemshchikov-pajshchikov-cover.jpg",
+      "url": "articles/yur/bankrotstvo-mfo-prava-zaemshchikov-pajshchikov"
+    },
+    {
       "slug": "zameshchayushchee-zhilye-bankrotstvo-fizlica",
       "cat": "fiz",
       "catLabel": "Банкротство физических лиц",
