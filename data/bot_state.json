@@ -8819,7 +8819,7 @@
     "bankrotstvo-fizlica-fns-inic-prekrashcheniye-osnovaniya": {
       "category": "news",
       "title": "Основания прекращения банкротства ФНС: судебная практика",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -8827,14 +8827,16 @@
       "tg_message_id": 2021,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-18T05:20:04",
-      "last_action_at": "2026-07-18T10:00:11",
+      "last_action_at": "2026-07-20T00:09:58",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/news/bankrotstvo-fizlica-fns-inic-prekrashcheniye-osnovaniya",
       "pending_batch": false,
       "pending_batch_at": "2026-07-18T05:20:04",
       "batch_sent_at": "2026-07-18T10:00:11",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-07-20T00:09:58",
+      "articles_path": "articles/news/bankrotstvo-fizlica-fns-inic-prekrashcheniye-osnovaniya.html"
     },
     "klyuchevaya-stavka-pauza-cb-dolgi-kak-vliyaet": {
       "category": "news",
