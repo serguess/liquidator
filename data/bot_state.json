@@ -8731,7 +8731,7 @@
     "apellyaciya-vvedenie-bankrotstva-portnyagin-otkaz-suda": {
       "category": "news",
       "title": "Апелляция на банкротство: судебная практика и возражения",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -8739,14 +8739,16 @@
       "tg_message_id": 2013,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-17T09:12:11",
-      "last_action_at": "2026-07-17T10:00:18",
+      "last_action_at": "2026-07-20T00:08:13",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/news/apellyaciya-vvedenie-bankrotstva-portnyagin-otkaz-suda",
       "pending_batch": false,
       "pending_batch_at": "2026-07-17T09:12:11",
       "batch_sent_at": "2026-07-17T10:00:18",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-07-20T00:08:13",
+      "articles_path": "articles/news/apellyaciya-vvedenie-bankrotstva-portnyagin-otkaz-suda.html"
     },
     "dolg-po-arendam-fizlica-bankrotstvo": {
       "category": "fiz",
