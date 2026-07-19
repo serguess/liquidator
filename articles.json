@@ -1,6 +1,19 @@
 {
-  "generated": "2026-07-19",
+  "generated": "2026-07-20",
   "articles": [
+    {
+      "slug": "vzyskanie-dolga-po-agentskomu-dogovoru",
+      "cat": "vzysk",
+      "catLabel": "Взыскание задолженности",
+      "title": "Взыскание долга по агентскому договору: способы и сроки",
+      "desc": "Как принципалу взыскать долг агента: способы взыскания, сроки исковой давности, претензионный порядок, судебные издержки и мировое соглашение.",
+      "date": "20 июля 2026",
+      "dateIso": "2026-07-20",
+      "read": "6 мин.",
+      "tone": "b",
+      "img": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1784169616/articles/vzyskanie-dolga-po-agentskomu-dogovoru-cover.jpg",
+      "url": "articles/vzysk/vzyskanie-dolga-po-agentskomu-dogovoru"
+    },
     {
       "slug": "moratorij-na-bankrotstvo-prava-dolzhnika-kreditora",
       "cat": "yur",
