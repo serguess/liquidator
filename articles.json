@@ -2,6 +2,19 @@
   "generated": "2026-07-20",
   "articles": [
     {
+      "slug": "antifraud-kreditnaya-istoriya-zaschita-zaemshhikov",
+      "cat": "news",
+      "catLabel": "Новости",
+      "title": "Кредитная история и мошенничество: защита заемщиков",
+      "desc": "С 1 июля в кредитную историю включили защиту от мошенников. Как она работает, кому доступна и какие права получили заемщики - разберем в статье.",
+      "date": "20 июля 2026",
+      "dateIso": "2026-07-20",
+      "read": "4 мин.",
+      "tone": "b",
+      "img": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1784267868/articles/antifraud-kreditnaya-istoriya-zaschita-zaemshhikov-cover.jpg",
+      "url": "articles/news/antifraud-kreditnaya-istoriya-zaschita-zaemshhikov"
+    },
+    {
       "slug": "vzyskanie-dolga-po-stroitelnomu-podryadu",
       "cat": "vzysk",
       "catLabel": "Взыскание задолженности",
