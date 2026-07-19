@@ -2,6 +2,19 @@
   "generated": "2026-07-19",
   "articles": [
     {
+      "slug": "zaschita-ot-moshennikov-pri-bankrotstve",
+      "cat": "fiz",
+      "catLabel": "Банкротство физических лиц",
+      "title": "Защита от мошенников при банкротстве физлица",
+      "desc": "Типичные мошеннические схемы при банкротстве, как их распознать и избежать обмана. Признаки фальшивого управляющего, незаконные комиссии, поддельные документы.",
+      "date": "19 июля 2026",
+      "dateIso": "2026-07-19",
+      "read": "7 мин.",
+      "tone": "b",
+      "img": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1784117879/articles/zaschita-ot-moshennikov-pri-bankrotstve-cover.jpg",
+      "url": "articles/fiz/zaschita-ot-moshennikov-pri-bankrotstve"
+    },
+    {
       "slug": "vs-sdelki-zhilyo-bankrotstvo-dobrosovestnye-pokupateli",
       "cat": "news",
       "catLabel": "Новости",

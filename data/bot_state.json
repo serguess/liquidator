@@ -8533,7 +8533,7 @@
     "zaschita-ot-moshennikov-pri-bankrotstve": {
       "category": "fiz",
       "title": "Защита от мошенников при банкротстве физлица",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -8541,14 +8541,16 @@
       "tg_message_id": 1995,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-15T15:18:21",
-      "last_action_at": "2026-07-16T10:00:24",
+      "last_action_at": "2026-07-19T23:12:48",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/fiz/zaschita-ot-moshennikov-pri-bankrotstve",
       "pending_batch": false,
       "pending_batch_at": "2026-07-15T15:18:21",
       "batch_sent_at": "2026-07-16T10:00:24",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-07-19T23:12:48",
+      "articles_path": "articles/fiz/zaschita-ot-moshennikov-pri-bankrotstve.html"
     },
     "moratorij-na-bankrotstvo-prava-dolzhnika-kreditora": {
       "category": "yur",
