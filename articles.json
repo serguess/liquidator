@@ -1,6 +1,19 @@
 {
-  "generated": "2026-07-14",
+  "generated": "2026-07-19",
   "articles": [
+    {
+      "slug": "arest-zarplaty-pristavami-bankrotstvo",
+      "cat": "fiz",
+      "catLabel": "Банкротство физических лиц",
+      "title": "Арест зарплаты приставами и защита через банкротство",
+      "desc": "Банкротство физлица защищает от ареста зарплаты приставами. Какие удержания запрещены, как прерываются долги и когда доход снова становится полным.",
+      "date": "19 июля 2026",
+      "dateIso": "2026-07-19",
+      "read": "6 мин.",
+      "tone": "b",
+      "img": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1784030943/articles/arest-zarplaty-pristavami-bankrotstvo-cover.jpg",
+      "url": "articles/fiz/arest-zarplaty-pristavami-bankrotstvo"
+    },
     {
       "slug": "vzyskanie-ubytkov-s-brokera-cherez-sud",
       "cat": "vzysk",

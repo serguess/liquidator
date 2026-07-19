@@ -8445,7 +8445,7 @@
     "arest-zarplaty-pristavami-bankrotstvo": {
       "category": "fiz",
       "title": "Арест зарплаты приставами и защита через банкротство",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -8453,14 +8453,16 @@
       "tg_message_id": 1987,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-14T15:09:29",
-      "last_action_at": "2026-07-15T10:00:15",
+      "last_action_at": "2026-07-19T23:10:21",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/fiz/arest-zarplaty-pristavami-bankrotstvo",
       "pending_batch": false,
       "pending_batch_at": "2026-07-14T15:09:29",
       "batch_sent_at": "2026-07-15T10:00:15",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-07-19T23:10:21",
+      "articles_path": "articles/fiz/arest-zarplaty-pristavami-bankrotstvo.html"
     },
     "bankrotstvo-tszh-zhilishchnogo-kooperativa": {
       "category": "yur",
@@ -8830,15 +8832,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 2025,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-18T09:04:06",
-      "last_action_at": "2026-07-18T09:04:06",
+      "last_action_at": "2026-07-19T10:00:22",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-07-18T09:04:06"
+      "pending_batch": false,
+      "pending_batch_at": "2026-07-18T09:04:06",
+      "batch_sent_at": "2026-07-19T10:00:22",
+      "batch_fail_count": 0
     },
     "zameshchayushchee-zhilye-bankrotstvo-fizlica": {
       "category": "fiz",
@@ -8848,15 +8852,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 2027,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-18T15:34:10",
-      "last_action_at": "2026-07-18T15:34:10",
+      "last_action_at": "2026-07-19T10:00:24",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-07-18T15:34:10"
+      "pending_batch": false,
+      "pending_batch_at": "2026-07-18T15:34:10",
+      "batch_sent_at": "2026-07-19T10:00:24",
+      "batch_fail_count": 0
     },
     "bankrotstvo-mfo-prava-zaemshchikov-pajshchikov": {
       "category": "yur",
@@ -8866,15 +8872,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 2029,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-19T00:49:15",
-      "last_action_at": "2026-07-19T00:49:15",
+      "last_action_at": "2026-07-19T10:00:27",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-07-19T00:49:15"
+      "pending_batch": false,
+      "pending_batch_at": "2026-07-19T00:49:15",
+      "batch_sent_at": "2026-07-19T10:00:27",
+      "batch_fail_count": 0
     },
     "vzyskanie-ushcherba-s-vinovnika-pozhara": {
       "category": "vzysk",
@@ -8884,15 +8892,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 2031,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-19T05:32:22",
-      "last_action_at": "2026-07-19T05:32:22",
+      "last_action_at": "2026-07-19T10:00:29",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-07-19T05:32:22"
+      "pending_batch": false,
+      "pending_batch_at": "2026-07-19T05:32:22",
+      "batch_sent_at": "2026-07-19T10:00:29",
+      "batch_fail_count": 0
     },
     "konkyursnoe-proizvodstvo-kompaniya-bez-aktivov": {
       "category": "news",
@@ -8902,19 +8912,57 @@
       "versions": [
         "2.0"
       ],
+      "tg_message_id": 2033,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-07-19T08:49:24",
+      "last_action_at": "2026-07-19T10:00:31",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-07-19T08:49:24",
+      "batch_sent_at": "2026-07-19T10:00:31",
+      "batch_fail_count": 0
+    },
+    "bankrotstvo-fizlica-bez-yurista-riski": {
+      "category": "fiz",
+      "title": "Банкротство физлица без юриста: ошибки и риски",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
       "tg_message_id": null,
       "tg_chat_id": null,
-      "first_seen_at": "2026-07-19T08:49:24",
-      "last_action_at": "2026-07-19T08:49:24",
+      "first_seen_at": "2026-07-19T15:09:28",
+      "last_action_at": "2026-07-19T15:09:28",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
       "pending_batch": true,
-      "pending_batch_at": "2026-07-19T08:49:24"
+      "pending_batch_at": "2026-07-19T15:09:28"
+    },
+    "rnp-i-bankrotstvo-yurlica": {
+      "category": "yur",
+      "title": "РНП и банкротство юридического лица: последствия",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-07-19T20:12:31",
+      "last_action_at": "2026-07-19T20:12:31",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-07-19T20:12:31"
     }
   },
   "pending_actions": [],
-  "last_batch_date": "2026-07-18",
+  "last_batch_date": "2026-07-19",
   "last_batch_count": 5,
-  "last_batch_at": "2026-07-18T10:00:13"
+  "last_batch_at": "2026-07-19T10:00:31"
 }
