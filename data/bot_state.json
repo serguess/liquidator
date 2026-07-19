@@ -8775,7 +8775,7 @@
     "bankrotstvo-pri-ugolovnom-dele-direktora": {
       "category": "yur",
       "title": "Банкротство при уголовном деле: риски для директора",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -8783,14 +8783,16 @@
       "tg_message_id": 2017,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-17T20:18:17",
-      "last_action_at": "2026-07-18T10:00:06",
+      "last_action_at": "2026-07-20T00:08:23",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/yur/bankrotstvo-pri-ugolovnom-dele-direktora",
       "pending_batch": false,
       "pending_batch_at": "2026-07-17T20:18:17",
       "batch_sent_at": "2026-07-18T10:00:06",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-07-20T00:08:23",
+      "articles_path": "articles/yur/bankrotstvo-pri-ugolovnom-dele-direktora.html"
     },
     "novye-polnomochiya-sudebnyh-pristavov": {
       "category": "vzysk",
