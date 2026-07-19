@@ -8467,7 +8467,7 @@
     "bankrotstvo-tszh-zhilishchnogo-kooperativa": {
       "category": "yur",
       "title": "Банкротство ТСЖ и кооператива: права жильцов",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -8475,14 +8475,16 @@
       "tg_message_id": 1989,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-14T20:16:32",
-      "last_action_at": "2026-07-15T10:00:18",
+      "last_action_at": "2026-07-19T23:11:12",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/yur/bankrotstvo-tszh-zhilishchnogo-kooperativa",
       "pending_batch": false,
       "pending_batch_at": "2026-07-14T20:16:32",
       "batch_sent_at": "2026-07-15T10:00:18",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-07-19T23:11:12",
+      "articles_path": "articles/yur/bankrotstvo-tszh-zhilishchnogo-kooperativa.html"
     },
     "vzyskanie-dolga-po-dogovoru-lizinga": {
       "category": "vzysk",
