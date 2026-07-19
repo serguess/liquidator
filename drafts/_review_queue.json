@@ -4620,6 +4620,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "snizhenie-neustoyki-st-333-gk-rf",
+      "category": "vzysk",
+      "title": "Снижение неустойки по ст. 333 ГК РФ через суд",
+      "added_at": "2026-07-20T01:05:54.283058",
+      "char_count": 8472,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1784498749/articles/snizhenie-neustoyki-st-333-gk-rf-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
