@@ -1,0 +1,108 @@
+{
+  "slug": "vzyskanie-ushcherba-s-vinovnika-pozhara",
+  "category": "vzysk",
+  "title": "Взыскание ущерба с виновника пожара",
+  "description": "Как взыскать убыток от пожара в суде, какие документы нужны, сроки исковой давности и этапы судебного разбирательства по возмещению ущерба.",
+  "h1": "Взыскание ущерба с виновника пожара: как добиться компенсации",
+  "lead": "Разбираем, кто обязан возместить ущерб, по каким маршрутам получить деньги и какие три ошибки чаще всего срывают взыскание с виновника пожара.",
+  "topic_action": "взыскание ущерба с виновника пожара",
+  "breadcrumb_current": "Взыскание ущерба с виновника пожара",
+  "og_image": "/assets/articles/vzyskanie-ushcherba-s-vinovnika-pozhara.jpg",
+  "main_keyword": "взыскание ущерба с виновника пожара",
+  "secondary_keywords": [
+    "взыскание ущерба по пожару",
+    "как взыскать убыток от пожара",
+    "компенсация за пожар",
+    "ответственность за пожар",
+    "гражданско-правовая ответственность пожар",
+    "судебное взыскание ущерба",
+    "пожар чужого имущества компенсация",
+    "виновник пожара платит ущерб",
+    "исковое заявление о взыскании ущерба",
+    "возмещение убытков от пожара"
+  ],
+  "internal_links": [],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_9027/",
+    "https://www.consultant.ru/document/cons_doc_LAW_37800/"
+  ],
+  "faq": [
+    {
+      "question": "Можно ли получить деньги, если виновник - гражданин без работы и имущества?",
+      "answer": "Судебное решение получите, лист передадите приставу. Пусто у должника - производство закрывается по формальному основанию. Лист остаётся у вас: раз в три года можно предъявлять заново. Появится белая зарплата или наследство - удержания пойдут."
+    },
+    {
+      "question": "Обязательно ли делать независимую оценку до подачи иска?",
+      "answer": "Обязательного требования нет, но без цифр в исковом суд оставит документ без движения. Оценка от лицензированного специалиста плюс смета от подрядчика - минимальный пакет. При споре сторон дальше назначается судебная экспертиза."
+    },
+    {
+      "question": "Что будет, если ответчик отменит судебный приказ за 10 дней?",
+      "answer": "Приказ теряет силу. Переходим в исковое производство: тот же спор, но с заседаниями, доказательствами и заключениями экспертов. Госпошлину, уплаченную за приказ, зачтут в пошлину по иску."
+    },
+    {
+      "question": "Когда прерывается трёхлетний срок исковой давности?",
+      "answer": "Прерывает подача иска в суд и письменное признание долга виновником - расписка, соглашение о рассрочке, официальный ответ на претензию. После перерыва отсчёт начинается заново, а не продолжается с той же точки."
+    },
+    {
+      "question": "Какую часть убытка можно взыскать после выплаты страховой?",
+      "answer": "Разницу между реальным вредом и суммой, которую перечислил страховщик. Полис покрыл 800 000 рублей, а фактические потери - миллион двести: двести с причинителя. На выплаченную часть требование снижается по правилу перехода прав к страховщику."
+    },
+    {
+      "question": "В чём разница между районной и арбитражной инстанцией по такому делу?",
+      "answer": "Районный формат - когда виновник обычный гражданин. Арбитраж - когда обе стороны зарегистрированы как ИП или юрлицо и пожар связан с бизнесом. От выбора зависят пошлина, сроки и порядок обжалования."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все факты сверены с research.json. legislation_status: active, last_verified: 2026-07-19 для всех ключевых утверждений.",
+    "Ст. 1064 ГК РФ - основание ответственности корректно, контекст применения верен (f1).",
+    "Ст. 1082 ГК РФ - прямой ущерб и упущенная выгода, контекст корректен (f2).",
+    "Трёхлетний срок исковой давности по ст. 196 ГК РФ - актуален (f3, f9).",
+    "Судебный приказ до 500 000 руб. по ст. 229.2 АПК РФ - актуален, контекст применения верен (f4).",
+    "Судебная экспертиза по ст. 79 АПК РФ и ст. 64 ГПК РФ - актуально (f6).",
+    "Взыскание судебных расходов по ст. 88 АПК РФ и ст. 98 ГПК РФ - актуально (f7).",
+    "Снижение суммы взыскания по ч. 2 ст. 1064 ГК РФ - контекст корректен, умысел vs неосторожность разграничен (f10).",
+    "П. 4 ст. 46 ФЗ об исполнительном производстве (закрытие при отсутствии имущества) - общеизвестная норма, не противоречит фактбазе research.json.",
+    "Запрещённые утверждения из research.forbidden_claims в тексте отсутствуют."
+  ],
+  "keyword_density_main": 0.011,
+  "main_keyword_exact_count": 1,
+  "text_chars": 7239,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.085,
+  "local_spam_ngram3_repeat": 0.009,
+  "local_lexical_diversity": 0.678,
+  "local_ai_markers_density": 0.22,
+  "local_ai_markers_critical": 0,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1784428288/articles/vzyskanie-ushcherba-s-vinovnika-pozhara-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1784428288/articles/vzyskanie-ushcherba-s-vinovnika-pozhara-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Photograph of a weathered stone staircase inside a grand courthouse building. Camera: low-angle from the bottom of the stairs looking upward, emphasizing ascent through procedural stages. Foreground items positioned at the base and along the steps: a sealed cream envelope on the lowest step, a closed dark leather portfolio leaning against a marble column, polished brass scales of justice positioned mid-stairs, a fountain pen aligned diagonally across them, and a folded charcoal umbrella on the marble floor. Materials: weathered marble, oxidized brass railings, aged limestone. Lighting: cool daylight shafts cascading from high windows with dramatic warm side-light casting long procedural shadows. Palette: cool greys with warm brass highlights. Mood: deliberate ascent through damage assessment, escalation of legal procedure toward recovery and judicial remedy.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-07-19T02:31:30Z",
+  "length_status": "too_long",
+  "length_kind": "default",
+  "local_ai_markers_total": 2,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 3,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 48,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 90,
+  "customer_risks": [
+    "длина значительно больше лимита 6500 (7 239 знаков)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "targeted_tokens_over_limit: ст_сокращение=10(>≤5), РФ_рудимент=9(>≤2), ГК_кодекс=4(>≤3)"
+  ],
+  "date_published": "2026-07-19",
+  "date_modified": "2026-07-19",
+  "ready_for_review": true,
+  "ready_at": "2026-07-19T02:31:35Z",
+  "publication_target": "telegram_review"
+}

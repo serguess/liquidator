@@ -4568,6 +4568,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "vzyskanie-ushcherba-s-vinovnika-pozhara",
+      "category": "vzysk",
+      "title": "Взыскание ущерба с виновника пожара",
+      "added_at": "2026-07-19T05:31:35.242346",
+      "char_count": 7239,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1784428288/articles/vzyskanie-ushcherba-s-vinovnika-pozhara-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
