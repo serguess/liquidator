@@ -8797,7 +8797,7 @@
     "novye-polnomochiya-sudebnyh-pristavov": {
       "category": "vzysk",
       "title": "Новые полномочия судебных приставов: изменения",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -8805,14 +8805,16 @@
       "tg_message_id": 2019,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-18T01:15:20",
-      "last_action_at": "2026-07-18T10:00:09",
+      "last_action_at": "2026-07-20T00:08:56",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/vzysk/novye-polnomochiya-sudebnyh-pristavov",
       "pending_batch": false,
       "pending_batch_at": "2026-07-18T01:15:20",
       "batch_sent_at": "2026-07-18T10:00:08",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-07-20T00:08:56",
+      "articles_path": "articles/vzysk/novye-polnomochiya-sudebnyh-pristavov.html"
     },
     "bankrotstvo-fizlica-fns-inic-prekrashcheniye-osnovaniya": {
       "category": "news",
