@@ -1,0 +1,100 @@
+{
+  "slug": "rnp-i-bankrotstvo-yurlica",
+  "category": "yur",
+  "title": "РНП и банкротство юридического лица: последствия",
+  "description": "Узнайте, как попадание в Реестр недобросовестных поставщиков влияет на банкротство компании, какие последствия это несёт и как избежать проблем.",
+  "h1": "РНП и банкротство: как попадание в реестр влияет на компанию",
+  "lead": "Запись в реестре недобросовестных поставщиков и банкротное дело - два самостоятельных процесса, которые пересекаются в одной точке: неоплаченный долг перед ведомством.",
+  "topic_action": "анализ рисков РНП и банкротства для компании",
+  "breadcrumb_current": "РНП и банкротство юрлица",
+  "og_image": "/assets/articles/rnp-i-bankrotstvo-yurlica.jpg",
+  "main_keyword": "РНП и банкротство",
+  "secondary_keywords": [
+    "реестр недобросовестных поставщиков юридического лица",
+    "попадание в РНП последствия",
+    "банкротство после РНП",
+    "исключение из реестра недобросовестных поставщиков",
+    "как избежать РНП",
+    "РНП при банкротстве компании",
+    "недобросовестный поставщик банкротство",
+    "судебное разбирательство РНП"
+  ],
+  "internal_links": [],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/"
+  ],
+  "faq": [
+    {
+      "question": "Можно ли участвовать в коммерческих тендерах, пока компания числится в списке?",
+      "answer": "Да. Запрет распространяется только на закупки для бюджетных и муниципальных нужд по ФЗ-44. Частные торги, коммерческие тендеры, работа по прямым договорам с бизнесом - без ограничений."
+    },
+    {
+      "question": "Что происходит с требованием бюджетника при реализации имущества должника?",
+      "answer": "Оно включается в реестр кредиторов и удовлетворяется в общей очерёдности. Приоритета перед коммерческими кредиторами у бюджета нет."
+    },
+    {
+      "question": "Обязана ли компания объявить себя банкротом после попадания в реестр?",
+      "answer": "Нет. Сам факт записи не порождает обязанности инициировать несостоятельность. Обязанность руководителя подать заявление возникает только при появлении признаков неплатёжеспособности, независимо от статуса в ЕИС."
+    },
+    {
+      "question": "Сколько длится запись в реестре недобросовестных поставщиков?",
+      "answer": "Общий ориентир - фиксированный срок, установленный ФЗ-44. Конкретика зависит от характера нарушения и действий поставщика по устранению причин. Точные сроки лучше сверять в актуальной редакции закона о контрактной системе."
+    },
+    {
+      "question": "Какой минимальный долг нужен для подачи заявления о признании юридического лица несостоятельным?",
+      "answer": "Два миллиона рублей плюс просрочка исполнения свыше 90 дней. Порог действует с 29 мая 2024 года, до этой даты он составлял 300 тысяч рублей."
+    },
+    {
+      "question": "Может ли бюджетник первым подать в арбитражный суд на банкротство?",
+      "answer": "Да, при соблюдении трёх условий: подтверждённый долг от двух миллионов рублей, просрочка более квартала, вступивший в силу судебный акт о взыскании либо иное признанное требование."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все ключевые факты сверены с research.json. Утверждения с цифрами верифицированы по last_verified и legislation_status.",
+    "Порог банкротства юрлица: 2 млн руб. с 29.05.2024 (ФЗ-107 от 22.04.2024, f6, legislation_status: active, last_verified: 2026-07-19). Устаревший порог 300 тыс. в тексте сохранён только как исторический ориентир.",
+    "Просрочка 90 дней: подтверждено f6, active.",
+    "Запрет на госзакупки при записи в РНП: подтверждено f4, active.",
+    "Очерёдность ст. 134-142 при распределении выручки: подтверждено f10, active.",
+    "Факты f2 (основания включения), f3 (срок РНП), f8 (исключение) имеют legislation_status: needs_verification - применены safe_phrasing из research.json, конкретные сроки и статьи ФЗ-44 не называются; использованы обтекаемые формулировки.",
+    "Исправлено: утверждение из draft «примерно каждое третье дело» заменено на «часть таких дел» - верифицированного факта в research.json нет.",
+    "Запрещённые утверждения из research.forbidden_claims в тексте отсутствуют: нет утверждений о гарантированном ведении к банкротству, об обязанности объявить себя банкротом, о тождестве РНП и банкротства."
+  ],
+  "keyword_density_main": 0.015,
+  "main_keyword_exact_count": 2,
+  "text_chars": 7956,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.09,
+  "local_spam_ngram3_repeat": 0.039,
+  "local_lexical_diversity": 0.644,
+  "local_ai_markers_density": 0.2,
+  "local_ai_markers_critical": 0,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1784481087/articles/rnp-i-bankrotstvo-yurlica-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1784481087/articles/rnp-i-bankrotstvo-yurlica-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Minimalist top-down flat-lay on a clean pale-grey surface. Sparse arrangement of 3-4 well-spaced objects with generous negative space: a polished brass round company seal positioned left-center, a closed dark leather portfolio with a fountain pen aligned across its edge, a single closed law book with embossed gilt spine, and a single brass key on a ring resting in the lower-right area. Camera: directly overhead. Lighting: soft even daylight with subtle directional shadow defining object edges. Materials: walnut, polished brass, dark leather. Palette: pale neutrals, warm brass accents, deep brown leather. Mood: clean editorial, institutional consequences, contemporary legal magazine.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-07-19T17:11:28Z",
+  "length_status": "too_long",
+  "length_kind": "default",
+  "local_ai_markers_total": 2,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 3,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 51,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность чуть выше 50% (~51%)",
+    "длина значительно больше лимита 6500 (7 956 знаков)"
+  ],
+  "date_published": "2026-07-19",
+  "date_modified": "2026-07-19",
+  "ready_for_review": true,
+  "ready_at": "2026-07-19T17:11:30Z",
+  "publication_target": "telegram_review"
+}

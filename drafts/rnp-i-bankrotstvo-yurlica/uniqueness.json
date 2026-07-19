@@ -1,0 +1,22 @@
+{
+  "slug": "rnp-i-bankrotstvo-yurlica",
+  "article_id": 415,
+  "scores": {
+    "structure_overlap": 0.0,
+    "thesis_similarity": 0.037,
+    "cta_overlap": 0.052
+  },
+  "thresholds": {
+    "structure_overlap": 0.4,
+    "thesis_similarity": 0.3,
+    "cta_overlap": 0.2
+  },
+  "passed": true,
+  "peers_compared": 47,
+  "closest_peer": "bankrotstvo-banka-prava-klientov",
+  "similar_articles": [],
+  "conflicts": [],
+  "recommendation": "ok",
+  "stored_in_db": true,
+  "note": "Вектор статьи записан в data/embeddings.sqlite (published=0). После публикации агент 7 переключит флаг на 1."
+}

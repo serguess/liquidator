@@ -4607,6 +4607,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "rnp-i-bankrotstvo-yurlica",
+      "category": "yur",
+      "title": "РНП и банкротство юридического лица: последствия",
+      "added_at": "2026-07-19T20:11:30.504915",
+      "char_count": 7956,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1784481087/articles/rnp-i-bankrotstvo-yurlica-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
