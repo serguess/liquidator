@@ -8929,7 +8929,7 @@
     "vzyskanie-ushcherba-s-vinovnika-pozhara": {
       "category": "vzysk",
       "title": "Взыскание ущерба с виновника пожара",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -8937,14 +8937,16 @@
       "tg_message_id": 2031,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-19T05:32:22",
-      "last_action_at": "2026-07-19T10:00:29",
+      "last_action_at": "2026-07-20T00:11:10",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/vzysk/vzyskanie-ushcherba-s-vinovnika-pozhara",
       "pending_batch": false,
       "pending_batch_at": "2026-07-19T05:32:22",
       "batch_sent_at": "2026-07-19T10:00:29",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-07-20T00:11:10",
+      "articles_path": "articles/vzysk/vzyskanie-ushcherba-s-vinovnika-pozhara.html"
     },
     "konkyursnoe-proizvodstvo-kompaniya-bez-aktivov": {
       "category": "news",
