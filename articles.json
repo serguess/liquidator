@@ -2,6 +2,19 @@
   "generated": "2026-07-20",
   "articles": [
     {
+      "slug": "konkyursnoe-proizvodstvo-kompaniya-bez-aktivov",
+      "cat": "news",
+      "catLabel": "Новости",
+      "title": "Конкурсное производство компании без имущества",
+      "desc": "Судебная практика: когда открывается конкурсное производство для компании без активов, права кредиторов и ответственность руководителя.",
+      "date": "20 июля 2026",
+      "dateIso": "2026-07-20",
+      "read": "4 мин.",
+      "tone": "b",
+      "img": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1784440149/articles/konkyursnoe-proizvodstvo-kompaniya-bez-aktivov-cover.jpg",
+      "url": "articles/news/konkyursnoe-proizvodstvo-kompaniya-bez-aktivov"
+    },
+    {
       "slug": "vzyskanie-ushcherba-s-vinovnika-pozhara",
       "cat": "vzysk",
       "catLabel": "Взыскание задолженности",
