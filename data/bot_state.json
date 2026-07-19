@@ -8599,7 +8599,7 @@
     "fns-bankrotstvo-fizlica-nalogovye-dolgi-kak-zashchititsya": {
       "category": "news",
       "title": "Налоговые долги при банкротстве: защита от ФНС",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -8607,14 +8607,16 @@
       "tg_message_id": 2001,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-16T08:38:26",
-      "last_action_at": "2026-07-16T10:00:31",
+      "last_action_at": "2026-07-20T00:03:58",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/news/fns-bankrotstvo-fizlica-nalogovye-dolgi-kak-zashchititsya",
       "pending_batch": false,
       "pending_batch_at": "2026-07-16T08:38:26",
       "batch_sent_at": "2026-07-16T10:00:31",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-07-20T00:03:58",
+      "articles_path": "articles/news/fns-bankrotstvo-fizlica-nalogovye-dolgi-kak-zashchititsya.html"
     },
     "preimushchestvennoe-pravo-pokupki-bankrotstvo-otkaz-vs": {
       "category": "news",
