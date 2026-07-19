@@ -8753,7 +8753,7 @@
     "dolg-po-arendam-fizlica-bankrotstvo": {
       "category": "fiz",
       "title": "Банкротство при долге по аренде жилья и офиса",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -8761,14 +8761,16 @@
       "tg_message_id": 2015,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-17T15:23:15",
-      "last_action_at": "2026-07-18T10:00:04",
+      "last_action_at": "2026-07-20T00:08:18",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/fiz/dolg-po-arendam-fizlica-bankrotstvo",
       "pending_batch": false,
       "pending_batch_at": "2026-07-17T15:23:15",
       "batch_sent_at": "2026-07-18T10:00:04",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-07-20T00:08:18",
+      "articles_path": "articles/fiz/dolg-po-arendam-fizlica-bankrotstvo.html"
     },
     "bankrotstvo-pri-ugolovnom-dele-direktora": {
       "category": "yur",
