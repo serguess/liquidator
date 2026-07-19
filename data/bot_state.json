@@ -8643,7 +8643,7 @@
     "zakrytie-ip-pered-bankrotstvom": {
       "category": "fiz",
       "title": "Закрыть ИП перед банкротством или после: как выбрать",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -8651,14 +8651,16 @@
       "tg_message_id": 2005,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-16T15:32:30",
-      "last_action_at": "2026-07-17T10:00:09",
+      "last_action_at": "2026-07-20T00:06:51",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/fiz/zakrytie-ip-pered-bankrotstvom",
       "pending_batch": false,
       "pending_batch_at": "2026-07-16T15:32:30",
       "batch_sent_at": "2026-07-17T10:00:09",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-07-20T00:06:51",
+      "articles_path": "articles/fiz/zakrytie-ip-pered-bankrotstvom.html"
     },
     "bankrotstvo-lizingovoj-kompanii-prava-poluchatelya": {
       "category": "yur",
