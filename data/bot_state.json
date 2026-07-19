@@ -8665,7 +8665,7 @@
     "bankrotstvo-lizingovoj-kompanii-prava-poluchatelya": {
       "category": "yur",
       "title": "Банкротство лизинговой компании: права лизингополучателя",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -8673,14 +8673,16 @@
       "tg_message_id": 2007,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-16T20:13:33",
-      "last_action_at": "2026-07-17T10:00:11",
+      "last_action_at": "2026-07-20T00:06:57",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/yur/bankrotstvo-lizingovoj-kompanii-prava-poluchatelya",
       "pending_batch": false,
       "pending_batch_at": "2026-07-16T20:13:33",
       "batch_sent_at": "2026-07-17T10:00:11",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-07-20T00:06:57",
+      "articles_path": "articles/yur/bankrotstvo-lizingovoj-kompanii-prava-poluchatelya.html"
     },
     "vzyskanie-dolga-po-stroitelnomu-podryadu": {
       "category": "vzysk",
