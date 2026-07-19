@@ -8489,7 +8489,7 @@
     "vzyskanie-dolga-po-dogovoru-lizinga": {
       "category": "vzysk",
       "title": "Взыскание долга по лизингу: права лизингодателя",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -8497,14 +8497,16 @@
       "tg_message_id": 1991,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-15T01:06:35",
-      "last_action_at": "2026-07-15T10:00:20",
+      "last_action_at": "2026-07-19T23:11:26",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/vzysk/vzyskanie-dolga-po-dogovoru-lizinga",
       "pending_batch": false,
       "pending_batch_at": "2026-07-15T01:06:35",
       "batch_sent_at": "2026-07-15T10:00:20",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-07-19T23:11:26",
+      "articles_path": "articles/vzysk/vzyskanie-dolga-po-dogovoru-lizinga.html"
     },
     "vs-sdelki-zhilyo-bankrotstvo-dobrosovestnye-pokupateli": {
       "category": "news",
