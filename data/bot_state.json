@@ -8885,7 +8885,7 @@
     "zameshchayushchee-zhilye-bankrotstvo-fizlica": {
       "category": "fiz",
       "title": "Замещающее жильё при банкротстве: права должника",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -8893,14 +8893,16 @@
       "tg_message_id": 2027,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-18T15:34:10",
-      "last_action_at": "2026-07-19T10:00:24",
+      "last_action_at": "2026-07-20T00:11:03",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/fiz/zameshchayushchee-zhilye-bankrotstvo-fizlica",
       "pending_batch": false,
       "pending_batch_at": "2026-07-18T15:34:10",
       "batch_sent_at": "2026-07-19T10:00:24",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-07-20T00:11:03",
+      "articles_path": "articles/fiz/zameshchayushchee-zhilye-bankrotstvo-fizlica.html"
     },
     "bankrotstvo-mfo-prava-zaemshchikov-pajshchikov": {
       "category": "yur",
