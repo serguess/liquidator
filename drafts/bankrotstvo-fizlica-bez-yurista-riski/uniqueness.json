@@ -1,0 +1,22 @@
+{
+  "slug": "bankrotstvo-fizlica-bez-yurista-riski",
+  "article_id": 414,
+  "scores": {
+    "structure_overlap": 0.0,
+    "thesis_similarity": 0.037,
+    "cta_overlap": 0.046
+  },
+  "thresholds": {
+    "structure_overlap": 0.4,
+    "thesis_similarity": 0.3,
+    "cta_overlap": 0.2
+  },
+  "passed": true,
+  "peers_compared": 50,
+  "closest_peer": "dacha-garazh-zemelnyj-uchastok-bankrotstvo",
+  "similar_articles": [],
+  "conflicts": [],
+  "recommendation": "ok",
+  "stored_in_db": true,
+  "note": "Вектор статьи записан в data/embeddings.sqlite (published=0). После публикации агент 7 переключит флаг на 1."
+}

@@ -1,0 +1,108 @@
+{
+  "slug": "bankrotstvo-fizlica-bez-yurista-riski",
+  "category": "fiz",
+  "title": "Банкротство физлица без юриста: ошибки и риски",
+  "description": "Какие риски и ошибки ждут физлицо при самостоятельном банкротстве без адвоката. Типичные просчеты, финансовые потери и судебные издержки.",
+  "h1": "Банкротство физлица без юриста: риски и типичные ошибки при самостоятельной процедуре",
+  "lead": "Четыре промаха, встречающихся у самостоятельных заявителей чаще всего, - и разбор ситуаций, где обойтись без помощника действительно можно.",
+  "topic_action": "проверку возможности списания долгов",
+  "breadcrumb_current": "Банкротство без юриста: риски",
+  "og_image": "/assets/articles/bankrotstvo-fizlica-bez-yurista-riski.jpg",
+  "main_keyword": "банкротство физлица без юриста",
+  "secondary_keywords": [
+    "самостоятельное банкротство физлица ошибки",
+    "риски банкротства физлица",
+    "типичные ошибки при банкротстве",
+    "банкротство физлица без адвоката",
+    "судебные издержки при банкротстве",
+    "последствия ошибок в банкротстве",
+    "финансовый управляющий в процессе",
+    "что может пойти не так при банкротстве"
+  ],
+  "internal_links": [
+    "/articles/fiz/bankovskie-scheta-pri-bankrotstve",
+    "/articles/fiz/avtomobil-pri-bankrotstve-fizlica"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/",
+    "https://www.consultant.ru/document/cons_doc_LAW_19671/"
+  ],
+  "faq": [
+    {
+      "question": "Можно ли подать заявление о банкротстве без адвоката?",
+      "answer": "Да. Гражданин вправе прийти в арбитраж лично, без представителя. Обязательное представительство не требуется ни на одном этапе."
+    },
+    {
+      "question": "Что произойдёт, если суд оставит заявление без движения?",
+      "answer": "Арбитраж укажет, чего не хватает, и даст срок на устранение - обычно две недели. Успел донести бумаги - производство продолжится с исходной даты. Не успел - вернут, подавать придётся заново, с новым депозитом."
+    },
+    {
+      "question": "Обязательно ли платить госпошлину при банкротстве физлица?",
+      "answer": "Нет. С 8 сентября 2024 года должник-гражданин полностью освобождён от государственной пошлины по 333.37-й норме Налогового кодекса. Единственный обязательный взнос - 25 000 рублей на депозит арбитража для вознаграждения финансового управляющего."
+    },
+    {
+      "question": "Как выбрать саморегулируемую организацию при самостоятельной подаче?",
+      "answer": "Позвонить в две-три СРО и спросить прямо: берут ли дела физлиц в вашем регионе, есть ли свободный управляющий на новое производство. Если ответы уклончивые - искать дальше. Реестр СРО ведёт Росреестр, список открытый."
+    },
+    {
+      "question": "Сколько денег теряет гражданин при отклонении обращения?",
+      "answer": "Депозит 25 000 рублей, если он уже внесён и дело не открыли. Плюс 5 000-15 000 на переоформление справок и выписок. Плюс прирост долга за месяцы ожидания - при остатке около 700 000 рублей это ещё 30-40 000."
+    },
+    {
+      "question": "При каких условиях суд откажет в списании даже после завершения процедуры?",
+      "answer": "Если выявит недобросовестность: сокрытие имущества или счетов, передача активов родственникам перед подачей, ложные сведения в обращении, судимость за обман кредитной организации. Забытая по невнимательности карта или сделка тоже попадает сюда."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все факты сверены с research.json. Статусы: active. last_verified: 2026-07-19 для всех ключевых утверждений.",
+    "Госпошлина 0 руб. с 08.09.2024 (ФЗ-176 от 12.07.2024, НК РФ ст. 333.37) - актуально. Упоминание устаревшей ставки 300 руб. как «прежней» корректно.",
+    "Депозит 25 000 руб. (ст. 213.4 п. 4, ст. 20.6 п. 3 127-ФЗ) - актуально.",
+    "Прекращение дела при отсутствии кандидатуры управляющего - ст. 57 п. 5 127-ФЗ - актуально.",
+    "Отказ в освобождении при недобросовестности - ст. 213.28 п. 4 127-ФЗ - актуально.",
+    "Пошлина для кредитора-юрлица 100 000 руб. с 08.09.2024 (НК РФ ст. 333.21 подп. 4.1 п. 1) - актуально.",
+    "Расчёт прироста: 700 000 × 7% / 12 ≈ 4 083 руб./мес.; за 8 мес. ≈ 32 667 руб. - соответствует «30-40 000» в тексте.",
+    "Forbidden claims в тексте отсутствуют."
+  ],
+  "keyword_density_main": 0.018,
+  "main_keyword_exact_count": 2,
+  "text_chars": 8982,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.086,
+  "local_spam_ngram3_repeat": 0.012,
+  "local_lexical_diversity": 0.652,
+  "local_ai_markers_density": 0.28,
+  "local_ai_markers_critical": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1784462922/articles/bankrotstvo-fizlica-bez-yurista-riski-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1784462922/articles/bankrotstvo-fizlica-bez-yurista-riski-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Photograph of an architectural passage between two weathered stone administrative buildings, wet pavement reflecting the structure above. Camera: low-angle along the passageway, vanishing point centered. Lighting: cool overcast with distant warm lamppost glow, fog softens the far end. At the very base of frame: a small closed briefcase, a smartphone face-down on wet stone, scattered reading glasses, and a folded black umbrella leaning aside. Palette: cool grey-blue with warm pin-points. Mood: transition between procedural stages, vulnerability in the passage without guidance, the quiet moment where mistakes accumulate.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-07-19T12:08:43Z",
+  "length_status": "too_long",
+  "length_kind": "default",
+  "local_ai_markers_total": 3,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 2,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 47,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 90,
+  "customer_risks": [
+    "длина значительно больше лимита 6500 (8 982 знаков)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "length_too_long: 8982 > 6500 (kind=default)",
+    "targeted_tokens_over_limit: 000руб_паттерн=7(>≤2), 000_число=18(>≤8)"
+  ],
+  "date_published": "2026-07-19",
+  "date_modified": "2026-07-19",
+  "ready_for_review": true,
+  "ready_at": "2026-07-19T12:08:45Z",
+  "publication_target": "telegram_review"
+}

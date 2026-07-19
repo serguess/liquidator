@@ -4594,6 +4594,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "bankrotstvo-fizlica-bez-yurista-riski",
+      "category": "fiz",
+      "title": "Банкротство физлица без юриста: ошибки и риски",
+      "added_at": "2026-07-19T15:08:45.444777",
+      "char_count": 8982,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1784462922/articles/bankrotstvo-fizlica-bez-yurista-riski-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
