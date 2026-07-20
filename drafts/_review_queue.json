@@ -4633,6 +4633,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "zalog-bez-dogovora-bankrotstvo-kreditor-prioritet",
+      "category": "news",
+      "title": "Залог без договора: кредитор теряет приоритет",
+      "added_at": "2026-07-20T05:20:35.922295",
+      "char_count": 6529,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1784514032/articles/zalog-bez-dogovora-bankrotstvo-kreditor-prioritet-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
