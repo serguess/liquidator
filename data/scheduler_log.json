@@ -28554,5 +28554,99 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-07-20T09:07:23",
+    "category": "news",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 46,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "news-105",
+    "topic_slug": "ustupka-ddu-prioritet-dolshchika-bankrotstvo-zastrojshchika",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "length_soft_passed: 6108 > 5500 но ≤ 7500 и iteration=2 — пропускаем (приоритет spam/uniqueness/ai)"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "finalize_safety_net": {
+      "ran": true,
+      "rc": 0
+    },
+    "status": "ok",
+    "slug": "ustupka-ddu-prioritet-dolshchika-bankrotstvo-zastrojshchika",
+    "duration_sec": 1028.2,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "editor        sonnet            6      14    64702     25156     64722\n7-publisher         haiku            52      18    54218    156028     54288\n------------------------------------------------------------------------------------------\nИТОГО                               198     120   565363    677099    565681\nBillable-токенов на статью: ~565K (cache_read 677K не считается в лимит подписки).\nАртефакты: drafts/ustupka-ddu-prioritet-dolshchika-bankrotstvo-zastrojshchika/  | quality_gate exit=0",
+    "stderr_tail": "",
+    "tokens_by_model": {},
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 6108
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
+  },
+  {
+    "timestamp": "2026-07-20T10:00:11",
+    "category": "fiz",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 47,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "fiz-158",
+    "topic_slug": "zaym-ot-rabotodatelya-bankrotstvo-fizlica",
+    "status": "failed",
+    "slug": "zaym-ot-rabotodatelya-bankrotstvo-fizlica",
+    "duration_sec": 539.5,
+    "returncode": 1,
+    "rescued_after_failure": false,
+    "stdout_tail": "=== 1-semantics (claude haiku) ===\n   ok: 1521 симв., usage in=20 out=10 cache_w=30498 cache_r=25520 billable=30528 ток, 26.7с\n=== 2-legal-research (claude haiku) ===\n   ok: 15060 симв., usage in=88 out=30 cache_w=154958 cache_r=350036 billable=155076 ток, 77.3с\n   ok: 19086 симв., billable=71036 ток (model=sonnet)\n   [outline_validate] exit=0\n=== 4-writer (claude opus) ===",
+    "stderr_tail": "[ERR] rate_limit: put_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard\",\"cache_creation\":{\"ephemeral_1h_input_tokens\":0,\"ephemeral_5m_input_tokens\":0},\"inference_geo\":\"\",\"iterations\":[],\"speed\":\"standard\"},\"modelUsage\":{},\"permission_denials\":[],\"terminal_reason\":\"completed\",\"fast_mode_state\":\"off\",\"uuid\":\"ae89f22f-c213-4e7d-9611-e91acdc70fc8\"}\n\n",
+    "tokens_by_model": {},
+    "metrics": null
   }
 ]
