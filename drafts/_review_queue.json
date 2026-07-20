@@ -4685,6 +4685,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "prodazha-nedvizhimosti-pri-bankrotstve-yurlica",
+      "category": "yur",
+      "title": "Продажа недвижимости при банкротстве юрлица: торги",
+      "added_at": "2026-07-21T00:50:33.424419",
+      "char_count": 8228,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1784584229/articles/prodazha-nedvizhimosti-pri-bankrotstve-yurlica-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
