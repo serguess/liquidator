@@ -1,0 +1,30 @@
+{
+  "slug": "ustupka-ddu-prioritet-dolshchika-bankrotstvo-zastrojshchika",
+  "category": "news",
+  "started_at": "2026-07-20T09:24:31",
+  "finished_at": null,
+  "total_duration_sec": null,
+  "current_iteration": 1,
+  "events": [
+    {
+      "ts": "2026-07-20T09:24:31",
+      "agent": "scheduler",
+      "event": "slot_started",
+      "iteration": 1,
+      "today_count": 3,
+      "limit": 8,
+      "write_article_duration_sec": 1028.2
+    },
+    {
+      "ts": "2026-07-20T09:24:32",
+      "agent": "quality_gate",
+      "event": "passed",
+      "iteration": 1,
+      "blockers": [],
+      "warnings": [
+        "length_soft_passed: 6108 > 5500 но ≤ 7500 и iteration=2 — пропускаем (приоритет spam/uniqueness/ai)"
+      ],
+      "recommendations": []
+    }
+  ]
+}

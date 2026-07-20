@@ -28495,5 +28495,64 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-07-20T08:30:11",
+    "category": "news",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 45,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "news-104",
+    "topic_slug": "torgi-bankrotstvo-otmena-vozvrat-deneg-pokupatelyu",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "length_soft_passed: 7275 > 5500 но ≤ 7500 и iteration=2 — пропускаем (приоритет spam/uniqueness/ai)"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "finalize_safety_net": {
+      "ran": true,
+      "rc": 0
+    },
+    "status": "ok",
+    "slug": "torgi-bankrotstvo-otmena-vozvrat-deneg-pokupatelyu",
+    "duration_sec": 2230.0,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "21\n6-seo-editor        haiku            20       8    60448     25520     60476\n7-publisher         haiku            20       8    39256     25520     39284\n------------------------------------------------------------------------------------------\nИТОГО                               242      84   471692    855387    472018\nBillable-токенов на статью: ~472K (cache_read 855K не считается в лимит подписки).\nАртефакты: drafts/torgi-bankrotstvo-otmena-vozvrat-deneg-pokupatelyu/  | quality_gate exit=0",
+    "stderr_tail": "",
+    "tokens_by_model": {},
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7275
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]

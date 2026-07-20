@@ -1,0 +1,102 @@
+{
+  "slug": "ustupka-ddu-prioritet-dolshchika-bankrotstvo-zastrojshchika",
+  "category": "news",
+  "title": "Уступка ДДУ: приоритет дольщика при банкротстве",
+  "description": "Как уступка договора долевого участия защищает интересы дольщика при банкротстве застройщика: судебная практика и права кредиторов.",
+  "h1": "Уступка ДДУ даёт приоритет дольщику при банкротстве застройщика",
+  "lead": "Верховный суд подтвердил: переоформление ДДУ передаёт новому владельцу весь объём прав в реестре, но «приоритет» - не первая очередь.",
+  "topic_action": "разбор прав дольщика при банкротстве застройщика",
+  "breadcrumb_current": "Уступка ДДУ при банкротстве",
+  "og_image": "/assets/articles/ustupka-ddu-prioritet-dolshchika-bankrotstvo-zastrojshchika.jpg",
+  "main_keyword": "уступка дду банкротство застройщика",
+  "secondary_keywords": [
+    "приоритет дольщика при банкротстве",
+    "дду при банкротстве застройщика",
+    "права дольщика уступка договора",
+    "застройщик банкротство защита дольщика",
+    "очередность требований дольщика",
+    "долг перед дольщиком при банкротстве"
+  ],
+  "intent": "informational",
+  "funnel_stage": "cold",
+  "article_type": "B",
+  "offer": "proverka-spisaniya",
+  "event_date": "2026-06-30",
+  "news_zone": "vs_practice",
+  "internal_links": [],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/",
+    "https://vsrf.ru/press_center/news/36065/"
+  ],
+  "faq": [
+    {
+      "question": "Нужно ли согласие девелопера для переоформления ДДУ на другого?",
+      "answer": "Только если условие вписано в первоначальный документ. Общее правило гражданского кодекса - достаточно уведомления. Читайте раздел «Уступка требования» в вашем экземпляре."
+    },
+    {
+      "question": "Что будет с суммой, если стройка восстановит платёжеспособность?",
+      "answer": "Имущественное право живо и исполняется по обычным условиям. Купивший получает квартиру или деньги на согласованных ранее условиях. Восстановление не отменяет сделку."
+    },
+    {
+      "question": "В какую очередь встанет купивший по переданному документу?",
+      "answer": "В ту же, что и первый участник строительства. Переоформление не двигает позицию в реестре. Меняется фамилия - строка та же."
+    },
+    {
+      "question": "Можно ли оспорить сделку, совершённую за два года до заявления о несостоятельности?",
+      "answer": "Формально да - двухлетний период попадает в трёхлетнее окно нормы об оспаривании. Но управляющему нужно доказать умысел и осведомлённость покупателя. Добросовестная сделка по рыночной цене устоит."
+    },
+    {
+      "question": "Чем самостоятельное взыскание отличается от участия в банкротном деле?",
+      "answer": "До введения процедуры купивший действует один: претензия, иск, мировое с фирмой. После открытия конкурса - только через арбитраж и строго в порядке очереди по ст. 64 127-ФЗ."
+    },
+    {
+      "question": "Какие документы нужны для включения переданного долга в реестр?",
+      "answer": "Первоначальный документ, договор цессии с отметкой Росреестра (если исходный ДДУ был зарегистрирован), платёжки, доказательство уведомления фирмы, расчёт неустойки при её наличии."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "f5 (акты ВС РФ от 30.06.2026) - конкретные номера дел отсутствуют (fact_gaps[0]); в тексте использована safe_phrasing без номеров дел",
+    "f10 (статистика дивидендов) - needs_verification; конкретные проценты убраны, заменены на «значительно меньше внесённых сумм» согласно safe_phrasing",
+    "f7 (оспаривание по ст. 61.2) - contested; в тексте safe_phrasing с оговоркой «в большинстве случаев»",
+    "f6 (преимущества уступки) - contested; обтекаемая формулировка без конкретных процентов",
+    "Числовой срок «двухмесячный» убран из текста - не верифицирован в research.json; оставлено «срок заявления в реестр»",
+    "Forbidden claims отсутствуют в финальном тексте"
+  ],
+  "keyword_density_main": null,
+  "main_keyword_exact_count": null,
+  "text_chars": 6108,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.105,
+  "local_spam_ngram3_repeat": 0.025,
+  "local_lexical_diversity": 0.671,
+  "local_ai_markers_density": 0.25,
+  "local_ai_markers_critical": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1784528665/articles/ustupka-ddu-prioritet-dolshchika-bankrotstvo-zastrojshchika-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1784528665/articles/ustupka-ddu-prioritet-dolshchika-bankrotstvo-zastrojshchika-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Cinematic photograph of a private legal archive and research library. Walls lined with closed dark leather-bound law books with gilt embossed spines revealing jurisprudential depth. Foreground: a wooden reading desk illuminated by warm brass green-glass library lamp, a closed dark portfolio holding case materials, a stack of unmarked dossiers tied with cord, a fountain pen positioned as if mid-annotation, reading glasses resting atop the dossier stack, an antique pocket watch on a fine chain suggesting the extended timeline of contract review, a polished brass round seal symbolizing the developer entity. Camera: low-angle looking up the book shelves to emphasize authority and legal precedent, OR three-quarter desk view. Lighting: warm tungsten pools illuminating work surfaces, deep shadows in book stacks, soft diffused window glow. Mood: scholarly deliberation, thorough legal examination of contractual priorities.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-07-20T06:24:26Z",
+  "length_status": "too_long",
+  "length_kind": "news",
+  "local_ai_markers_total": 2,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 3,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 47,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 90,
+  "customer_risks": [
+    "длина значительно больше лимита 5500 (6 108 знаков)"
+  ],
+  "date_published": "2026-07-20",
+  "date_modified": "2026-07-20",
+  "ready_for_review": true,
+  "ready_at": "2026-07-20T06:24:32Z",
+  "publication_target": "telegram_review"
+}
