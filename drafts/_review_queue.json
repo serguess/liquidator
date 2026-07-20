@@ -4672,6 +4672,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "izbytochnoe-zhilye-pri-bankrotstve-kriterii",
+      "category": "fiz",
+      "title": "Избыточное жилье при банкротстве: критерии и защита",
+      "added_at": "2026-07-20T15:43:50.711875",
+      "char_count": 8471,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1784551426/articles/izbytochnoe-zhilye-pri-bankrotstve-kriterii-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

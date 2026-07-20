@@ -1,0 +1,106 @@
+{
+  "slug": "izbytochnoe-zhilye-pri-bankrotstve-kriterii",
+  "category": "fiz",
+  "title": "Избыточное жилье при банкротстве: критерии и защита",
+  "description": "Разбираемся, как определяется избыточное имущество, какое жилье подлежит реализации, а какое сохраняется при банкротстве физлица по закону.",
+  "h1": "Избыточное жилье при банкротстве физлица: критерии определения и защиты",
+  "lead": "С 2021 года жилье уже не абсолютно защищено: если оно явно велико и дорогое, суд вправе потребовать его продажи с предоставлением более скромного варианта в том же городе. Разбираем критерии, при которых жилье попадает под продажу, как оспорить включение в опись и что защищает имущество от реализации.",
+  "topic_action": "проверку защиты жилья при банкротстве",
+  "breadcrumb_current": "Критерии и защита жилья при банкротстве",
+  "og_image": "/assets/articles/izbytochnoe-zhilye-pri-bankrotstve-kriterii.jpg",
+  "main_keyword": "избыточное жилье при банкротстве",
+  "secondary_keywords": [
+    "критерии избыточного имущества при банкротстве физлица",
+    "второе жилье при банкротстве",
+    "квартира и дом при банкротстве физлица",
+    "что считается избыточным имуществом",
+    "сохранение жилья при банкротстве",
+    "минимальное жилое помещение закон",
+    "имущество должника при банкротстве",
+    "реализация жилья при банкротстве",
+    "защита жилища при банкротстве"
+  ],
+  "internal_links": [
+    "/articles/fiz/avtomobil-pri-bankrotstve-fizlica.html"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_5142/c3e00b26a65289f4ab16e12f6c09e85a3e7a4af9/",
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/b919efeffaee7c5a42d9c3d755951599d9b55288/",
+    "https://www.consultant.ru/document/cons_doc_LAW_382961/"
+  ],
+  "faq": [
+    {
+      "question": "Можно ли продать единственную квартиру при банкротстве?",
+      "answer": "Как правило - нет. Защищает 446-я норма процессуального кодекса. Исключений два: жильё в залоге по ипотеке или явно избыточное по метражу, качеству и стоимости - тогда работает механизм Конституционного суда с предоставлением замены."
+    },
+    {
+      "question": "Что считается избыточной площадью по российскому праву?",
+      "answer": "Точного порога закон не даёт. Ориентир для арбитража - 18 квадратов на человека плюс совокупность признаков: стоимость объекта, отделка, число комнат, состав домочадцев. Решение принимает суд в конкретном деле."
+    },
+    {
+      "question": "Распространяется ли защита процессуального кодекса на ипотечную недвижимость?",
+      "answer": "Нет. Предмет залога прямо исключён из-под иммунитета. Даже если это единственное помещение, залоговый банк вправе требовать реализации и получает приоритет над обычными кредиторами."
+    },
+    {
+      "question": "Что произойдёт с дачей или загородным домом должника?",
+      "answer": "Второй объект включается в опись и уходит на торги. Специального иммунитета для дачи закон о банкротстве не предусматривает. Исключение возможно через ходатайство, если продажа не даст ощутимого погашения."
+    },
+    {
+      "question": "До какого момента можно оспорить состав конкурсной массы?",
+      "answer": "Определение обжалуется в апелляционном порядке в течение месяца с даты вынесения. Дополнительно доступна жалоба на действия финансового управляющего."
+    },
+    {
+      "question": "Защищает ли переоформление жилья на родственника от массы?",
+      "answer": "Не защищает. Сделки за три года до подачи заявления управляющий вправе оспорить как подозрительные - особенно если цена занижена или покупатель заинтересованное лицо. Возврат объекта в массу плюс подозрения в недобросовестности - типичный результат."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все юридические утверждения сверены с research.json.",
+    "Ст. 446 ГПК РФ (защита единственного жилья): active, last_verified 2026-07-20.",
+    "Постановление КС РФ № 15-П от 26.04.2021: контекст корректен, условия для продажи избыточного жилья с предоставлением замены.",
+    "Прожиточный минимум 2026: 20 644 руб. (ФЗ-426 от 28.11.2025) - актуально.",
+    "Критерии избыточности (18 кв.м/чел., стоимость, отделка) - соответствуют КС РФ и судебной практике.",
+    "Второе жилье подлежит реализации: ст. 213.25 127-ФЗ, no специального иммунитета.",
+    "Ипотека: исключение из иммунитета (ст. 446 ГПК абз. 2).",
+    "Обжалование: 1 месяц в апелляционном порядке - правильно.",
+    "Запрет переоформления за 3 года: соответствует механизму оспаривания подозрительных сделок (ст. 61.2 127-ФЗ)."
+  ],
+  "keyword_density_main": 0.021,
+  "main_keyword_exact_count": 3,
+  "text_chars": 8471,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.104,
+  "local_spam_ngram3_repeat": 0.03,
+  "local_lexical_diversity": 0.61,
+  "local_ai_markers_density": 0.19,
+  "local_ai_markers_critical": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1784551426/articles/izbytochnoe-zhilye-pri-bankrotstve-kriterii-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1784551426/articles/izbytochnoe-zhilye-pri-bankrotstve-kriterii-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Photograph of a private office interior with low-key subdued lighting. Deep walnut paneling, oxblood leather chesterfield. Desk in foreground: closed laptop, leather-bound notebook, fountain pen on brass round seal, antique pocket watch on chain, brass library lamp. Background: blurred bookshelves, city lights through dark window. Camera: three-quarter, eye-level. Lighting: warm tungsten desk lamp, deep ambient shadow. Materials: walnut, oxblood leather, brass. Mood: solitary deliberation over property protection during bankruptcy.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-07-20T12:43:47Z",
+  "length_status": "too_long",
+  "length_kind": "default",
+  "local_ai_markers_total": 2,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 3,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 53,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность чуть выше 50% (~53%)",
+    "длина значительно больше лимита 6500 (8 471 знаков)"
+  ],
+  "date_published": "2026-07-20",
+  "date_modified": "2026-07-20",
+  "ready_for_review": true,
+  "ready_at": "2026-07-20T12:43:50Z",
+  "publication_target": "telegram_review"
+}
