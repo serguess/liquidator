@@ -4724,6 +4724,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "raspredelenie-sredstv-pri-bankrotstve-fizlica",
+      "category": "fiz",
+      "title": "Распределение средств при банкротстве физлица",
+      "added_at": "2026-07-21T15:28:14.451929",
+      "char_count": 8938,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1784636888/articles/raspredelenie-sredstv-pri-bankrotstve-fizlica-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
