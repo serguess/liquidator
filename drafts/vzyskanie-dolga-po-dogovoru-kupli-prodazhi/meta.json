@@ -1,0 +1,110 @@
+{
+  "slug": "vzyskanie-dolga-po-dogovoru-kupli-prodazhi",
+  "category": "vzysk",
+  "title": "Как взыскать долг по договору купли-продажи",
+  "description": "Порядок взыскания задолженности по договору купли-продажи через судебный приказ или исковое производство. Сроки давности, размер госпошлины, документы.",
+  "h1": "Как взыскать долг по договору купли-продажи: судебный приказ и исковое производство",
+  "lead": "Разбираем, какой маршрут открыт в вашей ситуации, что реально стоит денег и какие ошибки чаще всего затягивают возврат средств.",
+  "topic_action": "взыскание долга по договору купли-продажи",
+  "breadcrumb_current": "Взыскание по договору купли-продажи",
+  "og_image": "/assets/articles/vzyskanie-dolga-po-dogovoru-kupli-prodazhi.jpg",
+  "main_keyword": "как взыскать долг по договору купли-продажи",
+  "secondary_keywords": [
+    "судебный приказ на взыскание долга",
+    "исковое производство по взысканию долга",
+    "взыскание задолженности по договору",
+    "как подать иск на должника",
+    "сроки давности по договору купли-продажи",
+    "размер госпошлины при взыскании",
+    "взыскание с физического лица по договору",
+    "взыскание с юридического лица по договору"
+  ],
+  "internal_links": [
+    "/articles/vzysk/arest-zarplaty-pristavami-bankrotstvo"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_37800/",
+    "https://www.consultant.ru/document/cons_doc_LAW_5142/",
+    "https://www.consultant.ru/document/cons_doc_LAW_28165/"
+  ],
+  "faq": [
+    {
+      "question": "Сколько занимает выдача судебного приказа?",
+      "answer": "Обычно 10-15 рабочих дней от подачи заявления до готового документа. Заседания нет. Если оппонент пришлёт возражение в десятидневный срок, ускоренная процедура прекращается - дело перейдёт в исковое."
+    },
+    {
+      "question": "Что делать при возражении второй стороны?",
+      "answer": "Готовить полноценный иск. Возражение автоматически перекрывает короткий путь - независимо от аргументов должника. Бумаги, собранные под первый заход, используем без переделки."
+    },
+    {
+      "question": "До какого момента можно требовать деньги, если оплаты нет уже несколько лет?",
+      "answer": "Три года с момента, когда стало очевидно: оплаты не будет (ст. 196 ГК). Если оппонент признавал долг письменно - расчёт по акту сверки, ответ на претензию - отсчёт начинается заново с даты признания."
+    },
+    {
+      "question": "Обязательна ли претензия перед обращением в суд?",
+      "answer": "Да. В арбитраже - жёсткое условие принятия иска. В районной инстанции - тоже. Без претензии заявление оставят без движения."
+    },
+    {
+      "question": "Можно ли взыскать неустойку и убытки помимо основного долга?",
+      "answer": "Можно, но только через полноценный процесс. Ускоренный формат такие требования не покроет: инстанции нужно исследовать расчёт. В иск включаем всё сразу - основной долг, неустойку по договору, убытки, пошлину."
+    },
+    {
+      "question": "Как быть, если у неплательщика ни доходов, ни имущества?",
+      "answer": "Пристав приостановит производство и вернёт лист. Он сохраняет силу - в течение трёх лет с даты возврата его можно предъявить повторно. Параллельно стоит проверять статус контрагента в реестре сведений о банкротстве: стартует процедура - требование быстро заявляется в реестр кредиторов."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все факты сверены с research.json. Статусы active для всех ключевых утверждений, кроме f9 (упрощённое производство - needs_verification).",
+    "Лимит судебного приказа 500 000 руб. по ст. 229.2 АПК - актуален, last_verified 2026-07-22.",
+    "Срок исковой давности 3 года по ст. 196 ГК, начало течения по ст. 200 ГК - актуально, контекст корректен.",
+    "Шкала госпошлин по ст. 333.21 НК: все четыре ступени соответствуют f3. Цифры в тексте верны.",
+    "Удержание из зарплаты: 50% после НДФЛ, пример 43 500 от 87 000 - верно (f12). Запрет на 70% по обычным долгам соблюдён, forbidden_claims не нарушен.",
+    "Прожиточный минимум: не сохраняется автоматически, нужно заявление по ст. 99 ч. 5.1 ФЗ-229 - соответствует f12 и forbidden_claims.",
+    "Исполнительский сбор 7%, минимум 1 000 руб./10 000 руб. по ст. 112 ФЗ-229 - верно (f11). 5 рабочих дней на добровольное исполнение - верно.",
+    "Упрощённое производство (f9, needs_verification): в тексте использована обтекаемая формулировка «лучше уточнить в самой инстанции» - fallback соблюдён.",
+    "Мировое соглашение: ст. 173 ГПК, ст. 135 АПК - верно (f6). Формулировка про силу исполнительного листа корректна.",
+    "Внутренняя ссылка /articles/vzysk/arest-zarplaty-pristavami-bankrotstvo: исправлена с .html (было в draft) на формат без расширения. Наличие slug в published_index.json подлежит проверке quality_gate."
+  ],
+  "keyword_density_main": 0.016,
+  "main_keyword_exact_count": 2,
+  "text_chars": 8030,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.096,
+  "local_spam_ngram3_repeat": 0.029,
+  "local_lexical_diversity": 0.639,
+  "local_ai_markers_density": 0.2,
+  "local_ai_markers_critical": 0,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1784670426/articles/vzyskanie-dolga-po-dogovoru-kupli-prodazhi-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1784670426/articles/vzyskanie-dolga-po-dogovoru-kupli-prodazhi-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Top-down flat-lay editorial photograph on a polished dark walnut desk. Soft golden morning light from a window casting a long warm diagonal across the surface. On the desktop: a closed leather case folder, wooden judge's gavel on its sound block, a fountain pen positioned along the folder's edge, a polished brass round seal, reading glasses, a calculator, and an antique pocket watch on a chain. Arranged with editorial composition. Premium legal-magazine aesthetic, neutral beige and graphite palette with warm gold accents.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-07-21T21:47:08Z",
+  "length_status": "too_long",
+  "length_kind": "default",
+  "local_ai_markers_total": 2,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 3,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 49,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "длина значительно больше лимита 6500 (8 030 знаков)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "targeted_tokens_over_limit: ст_сокращение=16(>≤5)",
+    "broken_internal_links: 1 ссылок без соответствия в published_index (/articles/vzysk/arest-zarplaty-pristavami-bankrotstvo: slug 'arest-zarplaty-pristavami-bankrotstvo' не найден в категории 'vzysk' (есть: fiz))"
+  ],
+  "date_published": "2026-07-22",
+  "date_modified": "2026-07-22",
+  "ready_for_review": true,
+  "ready_at": "2026-07-21T21:47:12Z",
+  "publication_target": "telegram_review"
+}
