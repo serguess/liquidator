@@ -1,0 +1,106 @@
+{
+  "slug": "bankrotstvo-kpk-prava-pajshchikov",
+  "category": "yur",
+  "title": "Банкротство КПК: права пайщиков и возврат вкладов",
+  "description": "Что происходит при банкротстве кредитного кооператива, какие права имеют пайщики, как вернуть деньги и в каком порядке выплачивают средства.",
+  "h1": "Банкротство кредитного кооператива (КПК): как пайщику вернуть сбережения и защитить права",
+  "lead": "Разбираем, какой статус имеет вкладчик при банкротстве КПК, в какой очереди выплачивают средства и как защитить свои права через реестр требований.",
+  "topic_action": "проверку прав пайщика при банкротстве КПК",
+  "breadcrumb_current": "Банкротство кредитного кооператива",
+  "og_image": "/assets/articles/bankrotstvo-kpk-prava-pajshchikov.jpg",
+  "main_keyword": "банкротство кпк права пайщиков",
+  "secondary_keywords": [
+    "банкротство кредитного кооператива",
+    "как вернуть деньги из кпк при банкротстве",
+    "права пайщиков при банкротстве кпк",
+    "возврат вкладов пайщиков",
+    "очередность выплат при банкротстве кооператива",
+    "защита прав пайщиков кпк",
+    "куда обратиться если кпк обанкротилась",
+    "судебное взыскание средств из кпк",
+    "конкурсный управляющий кооператив"
+  ],
+  "internal_links": [
+    "/articles/yur/bankrotstvo-dolg-kreditnyj-kooperativ-kpk",
+    "/articles/yur/mirovoye-soglashenie-pri-bankrotstve"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_26763/",
+    "https://www.consultant.ru/document/cons_doc_LAW_5142/"
+  ],
+  "faq": [
+    {
+      "question": "Попадают ли вклады в КПК под систему страхования вкладов АСВ?",
+      "answer": "Нет. Механизм АСВ работает для банковских депозитов, а на кооперативные вклады не распространяется. Гарантийного фонда для возврата средств законом не предусмотрено."
+    },
+    {
+      "question": "Сколько времени занимает процедура от начала до выплат?",
+      "answer": "Обычно от года до трёх лет. Наблюдение - до полугода, внешнее управление - до двух лет, конкурсное производство - минимум полгода, но чаще дольше. При большом объёме имущества и сети филиалов сроки растягиваются."
+    },
+    {
+      "question": "Можно ли подать позицию в реестр, если 30-дневный срок уже пропущен?",
+      "answer": "Можно, но с оговоркой. Опоздавшее заявление переводят «за реестр» - выплата пойдёт только из остатка после полного погашения реестра. Восстановление срока допустимо через арбитраж при уважительной причине."
+    },
+    {
+      "question": "Что делать, если управляющий отказал во включении в реестр?",
+      "answer": "Отказ обжалуется в арбитраж, ведущий дело. Параллельно можно направить дисциплинарную жалобу в СРО и уведомить Банк России. При признаках хищения - заявление в полицию."
+    },
+    {
+      "question": "Чем договор личных сбережений отличается от паевого взноса?",
+      "answer": "Договор - позиция заимодавца, четвёртая ступень. Пай - позиция участника, требования за пределами реестра, после всех. Один документ даёт шанс на пропорциональную выплату, второй в подавляющем большинстве случаев - нет."
+    },
+    {
+      "question": "Вправе ли держатель пая потребовать уголовного преследования руководителей?",
+      "answer": "Обратиться в полицию или прокуратуру можно. Возбуждение дела - прерогатива следствия, оно возможно при признаках преднамеренного банкротства или мошенничества с активами."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все юридические утверждения сверены с research.json. Статусы legislation_status: active, last_verified в пределах 6 месяцев (2026-07-21).",
+    "Четыре ступени очерёдности (возмещение вреда, зарплата, налоги, прочие кредиторы, пайщики) соответствуют ст. 134-140 127-ФЗ.",
+    "Сроки процедур совпадают: наблюдение до 6 месяцев, внешнее управление до 2 лет, конкурс от 6+ месяцев (ст. 73-74 127-ФЗ).",
+    "Срок подачи требований 30 дней (ст. 106 127-ФЗ) и возможность «за реестр» уточнены (ст. 107-108 127-ФЗ).",
+    "Судебный приказ до 500 000 руб. - ст. 229.2 АПК РФ.",
+    "Отсутствие АСВ-страхования для КПК подтверждено (только банковский инструмент).",
+    "Двойной статус пайщика (участник + кредитор) соответствует ст. 6 и ст. 140 127-ФЗ, Закон РФ № 4015-1.",
+    "Запрещённые формулировки отсутствуют (нет гарантий 100% возврата, преимущества паёв перед зарплатой, отмены платежей судом)."
+  ],
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1784654640/articles/bankrotstvo-kpk-prava-pajshchikov-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1784654640/articles/bankrotstvo-kpk-prava-pajshchikov-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Exterior photograph of a stone administrative or government building in classical neoclassical architecture. Camera angle: three-quarter low-angle looking up the columns. Cool grey-blue tonal palette, soft diffused city light, optional rain or fog haloing ornamental lampposts. Long architectural columns, oxidized brass plaque on wall with no readable text, wide stone steps. Foreground items at frame base: closed dark leather briefcase representing shareholder documentation, folded black umbrella symbolizing investor protection, bound stack of dossiers tied with cord depicting collective shareholder claims. Mood: authority, weight of formal procedure, collective shareholder vindication and depositor-rights protection. Wide cinematic crop, no people.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-07-21T17:24:01Z",
+  "text_chars": 8197,
+  "length_status": "too_long",
+  "length_kind": "default",
+  "local_spam_top10_share": 0.107,
+  "local_spam_ngram3_repeat": 0.025,
+  "local_lexical_diversity": 0.62,
+  "local_ai_markers_density": 0.2,
+  "local_ai_markers_total": 2,
+  "local_ai_markers_critical": 0,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 2,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 49,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "длина значительно больше лимита 6500 (8 197 знаков)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "broken_internal_links: 1 ссылок без соответствия в published_index (/articles/yur/bankrotstvo-dolg-kreditnyj-kooperativ-kpk: slug 'bankrotstvo-dolg-kreditnyj-kooperativ-kpk' не найден в категории 'yur' (есть: fiz))"
+  ],
+  "date_published": "2026-07-21",
+  "date_modified": "2026-07-21",
+  "ready_for_review": true,
+  "ready_at": "2026-07-21T17:24:02Z",
+  "publication_target": "telegram_review"
+}

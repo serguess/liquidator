@@ -4737,6 +4737,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "bankrotstvo-kpk-prava-pajshchikov",
+      "category": "yur",
+      "title": "Банкротство КПК: права пайщиков и возврат вкладов",
+      "added_at": "2026-07-21T20:24:02.062477",
+      "char_count": 8197,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1784654640/articles/bankrotstvo-kpk-prava-pajshchikov-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
