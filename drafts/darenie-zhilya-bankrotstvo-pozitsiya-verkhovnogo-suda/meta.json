@@ -1,0 +1,105 @@
+{
+  "slug": "darenie-zhilya-bankrotstvo-pozitsiya-verkhovnogo-suda",
+  "category": "news",
+  "title": "Дарение жилья при банкротстве: позиция ВС",
+  "description": "Верховный суд уточнил, может ли должник дарить жилье при банкротстве. Какие подарки считаются виной, и что грозит за сокрытие активов.",
+  "h1": "Дарение жилья при банкротстве физлица: что сказал Верховный суд",
+  "lead": "Верховный суд в июле 2026 года повторно обозначил позицию: дарение жилья в предбанкротный период не защищает актив, а создаёт риски для обеих сторон.",
+  "topic_action": "проверку рисков дарения при банкротстве",
+  "breadcrumb_current": "Дарение жилья: позиция ВС",
+  "og_image": "/assets/articles/darenie-zhilya-bankrotstvo-pozitsiya-verkhovnogo-suda.jpg",
+  "main_keyword": "дарение жилья при банкротстве",
+  "secondary_keywords": [
+    "дарение имущества банкротство",
+    "признание дарения недействительным",
+    "банкротство физлица виновное",
+    "сокрытие активов должником",
+    "позиция верховного суда банкротство",
+    "дарение имущества перед банкротством",
+    "арбитражный управляющий дарение",
+    "требование кредиторов имущество"
+  ],
+  "intent": "informational",
+  "funnel_stage": "warm",
+  "article_type": "B",
+  "offer": "proverka-spisaniya",
+  "event_date": "2026-07-07",
+  "news_zone": "vs_practice",
+  "internal_links": [
+    "/articles/fiz/izbytochnoe-zhilye-pri-bankrotstve-kriterii"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/",
+    "https://vsrf.ru/press_center/news/36079/"
+  ],
+  "faq": [
+    {
+      "question": "Может ли финансовый управляющий оспорить договор, подписанный за несколько лет до банкротства?",
+      "answer": "Да, если с момента открытия дела прошло не более трёх лет. Отсчёт срока идёт от определения арбитража, а не от даты подписания у нотариуса."
+    },
+    {
+      "question": "Что произойдёт с квартирой, если передачу признают недействительной?",
+      "answer": "Объект возвращается в конкурсную массу и продаётся с торгов. Вырученные деньги распределяются между взыскателями в порядке очередности."
+    },
+    {
+      "question": "Обязан ли одаряемый возвращать актив, если уже вложил деньги в ремонт?",
+      "answer": "Обязан. Расходы на ремонт не отменяют возврат. Компенсировать вложения можно только отдельным иском, и результат не гарантирован."
+    },
+    {
+      "question": "Чем дарение отличается от продажи по рыночной цене при риске оспаривания?",
+      "answer": "Возмездная продажа с реальной оплатой оспаривается сложнее: у покупателя есть встречный эквивалент, у одаряемого - нет. Но и рыночная сделка при заниженной цене или расчёте наличными попадает под проверку."
+    },
+    {
+      "question": "Распространяется ли исключение для единственного жилья на случаи оспаривания подарка?",
+      "answer": "Автоматически - нет. Правило 446 процессуального кодекса действует в исполнительном производстве. При несостоятельности иммунитет для единственного помещения арбитраж применяет отдельным решением, и его применение к квартире, полученной по спорной уступке, - предмет отдельного спора."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "f8 (небольшие дарения в рамках нормального уровня жизни) помечен contested/needs_verification - в тексте использована safe_phrasing без конкретных порогов: 'сопоставима с обычным уровнем жизни семьи'",
+    "f6 (позиция ВС РФ) без конкретного постановления - использована обобщённая safe_phrasing; ссылка на vsrf.ru/press_center/news/36079/ добавлена как внешняя",
+    "Запрещённые утверждения из forbidden_claims отсутствуют в тексте",
+    "Внутренняя ссылка исходного draft (/blog/avtomobil-pri-bankrotstve-fizlica.html) заменена на /articles/fiz/izbytochnoe-zhilye-pri-bankrotstve-kriterii с исправленным форматом и релевантным анкором",
+    "Дисклеймер из тела draft ('Материал даёт общий обзор...') удалён - войдёт через BP:DISCLAIMER из required_disclaimers[0]"
+  ],
+  "keyword_density_main": null,
+  "main_keyword_exact_count": null,
+  "text_chars": 6119,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.101,
+  "local_spam_ngram3_repeat": 0.031,
+  "local_lexical_diversity": 0.674,
+  "local_ai_markers_density": 0.25,
+  "local_ai_markers_critical": 0,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1784612941/articles/darenie-zhilya-bankrotstvo-pozitsiya-verkhovnogo-suda-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1784612941/articles/darenie-zhilya-bankrotstvo-pozitsiya-verkhovnogo-suda-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Low-key photograph of a dark wood-paneled interior — a senior partner's office at night. Single warm pool of light from a brass library lamp illuminates objects on a leather-topped desk: a closed law book with embossed gilt spine, fountain pen, antique pocket watch on a chain, polished brass round seal, and reading glasses. Camera: three-quarter angle, eye-level. Lighting: dominant warm tungsten pool, deep ambient shadow elsewhere. Palette: oxblood, walnut, brass on near-black. Mood: deliberative review of complex case law and judicial precedent.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-07-21T05:49:02Z",
+  "length_status": "too_long",
+  "length_kind": "news",
+  "local_ai_markers_total": 2,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 3,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 47,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 90,
+  "customer_risks": [
+    "длина значительно больше лимита 5500 (6 119 знаков)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "broken_internal_links: 1 ссылок без соответствия в published_index (/articles/fiz/izbytochnoe-zhilye-pri-bankrotstve-kriterii: slug 'izbytochnoe-zhilye-pri-bankrotstve-kriterii' не найден в категории 'fiz' (есть: нигде))"
+  ],
+  "date_published": "2026-07-21",
+  "date_modified": "2026-07-21",
+  "ready_for_review": true,
+  "ready_at": "2026-07-21T05:49:06Z",
+  "publication_target": "telegram_review"
+}

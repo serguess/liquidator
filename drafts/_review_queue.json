@@ -4711,6 +4711,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "darenie-zhilya-bankrotstvo-pozitsiya-verkhovnogo-suda",
+      "category": "news",
+      "title": "Дарение жилья при банкротстве: позиция ВС",
+      "added_at": "2026-07-21T08:49:06.503821",
+      "char_count": 6119,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1784612941/articles/darenie-zhilya-bankrotstvo-pozitsiya-verkhovnogo-suda-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
