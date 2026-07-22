@@ -1845,7 +1845,11 @@
       "topic_action": "publish_news",
       "event_date": "2026-06-17",
       "news_zone": "vs_practice",
-      "primary_source": "https://www.consultant.ru/legalnews/31830/"
+      "primary_source": "https://www.consultant.ru/legalnews/31830/",
+      "status": "rejected",
+      "rejected_at": "2026-07-22T04:00:21",
+      "rejected_reason": "event_too_old:35d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-59",
@@ -2121,7 +2125,11 @@
       "topic_action": "produce-explainer",
       "event_date": "2026-06-18",
       "news_zone": "vs_practice",
-      "primary_source": "https://pravo.ru/story/259484/"
+      "primary_source": "https://pravo.ru/story/259484/",
+      "status": "rejected",
+      "rejected_at": "2026-07-22T04:00:21",
+      "rejected_reason": "event_too_old:34d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-67",
@@ -2488,7 +2496,11 @@
       "topic_action": "проверить право на льготное банкротство",
       "event_date": "2026-06-16",
       "news_zone": "initiative",
-      "primary_source": "https://www.audit-it.ru/news/finance/1134913.html"
+      "primary_source": "https://www.audit-it.ru/news/finance/1134913.html",
+      "status": "rejected",
+      "rejected_at": "2026-07-22T04:00:21",
+      "rejected_reason": "event_too_old:36d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-78",
@@ -2642,7 +2654,11 @@
       "topic_action": "проверить шансы на списание просроченного долга",
       "event_date": "2026-06-15",
       "news_zone": "finance",
-      "primary_source": "https://www.cbr.ru/statistics/bank_sector/sors/"
+      "primary_source": "https://www.cbr.ru/statistics/bank_sector/sors/",
+      "status": "rejected",
+      "rejected_at": "2026-07-22T04:00:21",
+      "rejected_reason": "event_too_old:37d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-83",
@@ -2882,7 +2898,11 @@
       "topic_action": "жалобу на завышенное вознаграждение арбитражного управляющего",
       "event_date": "2026-06-16",
       "news_zone": "vs_practice",
-      "primary_source": "https://rapsinews.ru/judicial_news/20260616/311933825.html"
+      "primary_source": "https://rapsinews.ru/judicial_news/20260616/311933825.html",
+      "status": "rejected",
+      "rejected_at": "2026-07-22T04:00:21",
+      "rejected_reason": "event_too_old:36d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-91",
@@ -2912,7 +2932,11 @@
       "topic_action": "консультацию по корпоративному банкротству",
       "event_date": "2026-06-19",
       "news_zone": "finance",
-      "primary_source": "https://rapsinews.ru/judicial_news/20260619/311946274.html"
+      "primary_source": "https://rapsinews.ru/judicial_news/20260619/311946274.html",
+      "status": "rejected",
+      "rejected_at": "2026-07-22T04:00:21",
+      "rejected_reason": "event_too_old:33d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-92",
@@ -3216,7 +3240,11 @@
       "topic_action": "консультацию по банкротству иностранного должника",
       "event_date": "2026-06-18",
       "news_zone": "vs_practice",
-      "primary_source": "https://www.rapsinews.ru/judicial_news/20260618/311943240.html"
+      "primary_source": "https://www.rapsinews.ru/judicial_news/20260618/311943240.html",
+      "status": "rejected",
+      "rejected_at": "2026-07-22T04:00:21",
+      "rejected_reason": "event_too_old:34d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-102",
@@ -3276,7 +3304,11 @@
       "news_zone": "vs_practice",
       "primary_source": "https://vsrf.ru/press_center/news/36050/",
       "title_length": 49,
-      "description_length": 174
+      "description_length": 174,
+      "status": "rejected",
+      "rejected_at": "2026-07-22T04:00:21",
+      "rejected_reason": "event_too_old:33d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-104",
