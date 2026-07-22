@@ -4776,6 +4776,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "voznagrazhdeniye-upravlyayushchego-novye-stavki-bankrotstvo",
+      "category": "news",
+      "title": "Вознаграждение управляющего: новые ставки в банкротстве",
+      "added_at": "2026-07-22T08:54:08.027853",
+      "char_count": 7075,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1784699644/articles/voznagrazhdeniye-upravlyayushchego-novye-stavki-bankrotstvo-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

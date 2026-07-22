@@ -1,0 +1,108 @@
+{
+  "slug": "voznagrazhdeniye-upravlyayushchego-novye-stavki-bankrotstvo",
+  "category": "news",
+  "title": "Вознаграждение управляющего: новые ставки в банкротстве",
+  "description": "Как устроена система оплаты арбитражного управляющего по 127-ФЗ, кто утверждает итоговую сумму и почему назначенец заинтересован в максимизации выручки.",
+  "h1": "Вознаграждение управляющего в банкротстве: новые ставки",
+  "lead": "При банкротстве физлица депозит 25 000 рублей вносится до первого заседания, при несостоятельности компании управляющий работает на процент от выручки торгов - обе схемы закреплены в 127-ФЗ.",
+  "topic_action": "разбор вознаграждения управляющего в банкротстве",
+  "breadcrumb_current": "Вознаграждение управляющего: новые ставки",
+  "og_image": "/assets/articles/voznagrazhdeniye-upravlyayushchego-novye-stavki-bankrotstvo.jpg",
+  "main_keyword": "вознаграждение управляющего банкротство новые ставки",
+  "secondary_keywords": [
+    "размер вознаграждения арбитражного управляющего",
+    "ставки управляющего в банкротстве",
+    "компенсация управляющему за работу",
+    "вознаграждение конкурсного управляющего",
+    "новые размеры вознаграждения",
+    "стоимость услуг управляющего"
+  ],
+  "intent": "informational",
+  "funnel_stage": "cold",
+  "article_type": "B",
+  "offer": "proverka-spisaniya",
+  "event_date": "2026-07-10",
+  "news_zone": "legislation",
+  "internal_links": [
+    "/articles/fiz/raspredelenie-sredstv-pri-bankrotstve-fizlica",
+    "/articles/yur/bankrotstvo-ooo-poshagovo-2026"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/"
+  ],
+  "faq": [
+    {
+      "question": "Можно ли снизить оплату голосованием на собрании?",
+      "answer": "Кредиторы вправе утвердить любую цифру внутри законодательного коридора, в том числе ближе к нижней границе. Опуститься ниже минимума собрание не может: закон этот предел защищает."
+    },
+    {
+      "question": "Что становится с депозитом 25 000 после прекращения дела?",
+      "answer": "Автоматического возврата нет. Средства уходят финансовому управляющему за уже проделанную работу - пропорционально пройденной стадии. Остаток при полной остановке до первого заседания может вернуться должнику через отдельное ходатайство."
+    },
+    {
+      "question": "Чем оплата финансового управляющего отличается от конкурсного?",
+      "answer": "Финансовый работает в делах граждан и получает базовую часть из депозита плюс процент от торгов. Конкурсный ведёт компанию и работает только на долю от выручки - никакого стартового взноса компания не платит."
+    },
+    {
+      "question": "Обязательна ли переменная часть, если имущество не нашли?",
+      "answer": "Нет. Процент считается от реально поступивших денег. Ноль поступлений - ноль процентов. Базовую ставку финансовому управляющему при этом заплатят из внесённого депозита."
+    },
+    {
+      "question": "Когда цифру ставит арбитраж, а не собрание?",
+      "answer": "Кредиторы разошлись во мнениях либо кто-то из них подал возражение против решения собрания - вопрос уходит судье. Он изучает объём работы, доводы сторон, состояние массы и выносит определение с конкретной суммой."
+    },
+    {
+      "question": "В какую очередь включён платёж управляющему?",
+      "answer": "После расходов на ведение дела и после текущих обязательств должника, возникших уже после введения процедуры. До первой и второй очереди этот платёж не дотягивается."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "f7 (точные процентные ставки) имеет legislation_status: needs_verification - конкретные проценты в тексте не упоминаются, использована обтекаемая формулировка (фиксированная часть + процент от выручки); содержание статьи факту не противоречит",
+    "Ссылка из draft /blog/bankovskie-scheta-pri-bankrotstve.html (неверный формат, отсутствует в published_index) заменена на внутреннюю ссылку /articles/fiz/raspredelenie-sredstv-pri-bankrotstve-fizlica с корректным форматом",
+    "Внутренние ссылки raspredelenie-sredstv-pri-bankrotstve-fizlica и bankrotstvo-ooo-poshagovo-2026 подтверждены по git history; published_index.json не передан в промпт, финальную верификацию проведёт quality_gate",
+    "Запрещённые утверждения из forbidden_claims в тексте отсутствуют",
+    "category=news: год в title и h1 отсутствует - проверка пройдена"
+  ],
+  "keyword_density_main": null,
+  "main_keyword_exact_count": null,
+  "text_chars": 7075,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.102,
+  "local_spam_ngram3_repeat": 0.015,
+  "local_lexical_diversity": 0.608,
+  "local_ai_markers_density": 0.23,
+  "local_ai_markers_critical": 0,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1784699644/articles/voznagrazhdeniye-upravlyayushchego-novye-stavki-bankrotstvo-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1784699644/articles/voznagrazhdeniye-upravlyayushchego-novye-stavki-bankrotstvo-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Wide symmetric photograph down a long official corridor or grand hall — marble-floored gallery with colonnaded passages and brass sconces lining the walls. Center of frame: a brass scales of justice standing in perfect balance on a marble pedestal, representing the newly regulated benchmarks for bankruptcy administrator compensation. Camera: dead-center symmetric, eye-level, slight wide-angle perspective pulling into the vanishing point. Lighting: cool natural daylight from skylights above. Palette: cool whites, polished marble, warm brass. Mood: institutional authority, equilibrium, ceremonial.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-07-22T05:54:05Z",
+  "length_status": "too_long",
+  "length_kind": "news",
+  "local_ai_markers_total": 2,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 2,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 53,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность чуть выше 50% (~53%)",
+    "длина значительно больше лимита 5500 (7 075 знаков)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "broken_internal_links: 1 ссылок без соответствия в published_index (/articles/fiz/raspredelenie-sredstv-pri-bankrotstve-fizlica: slug 'raspredelenie-sredstv-pri-bankrotstve-fizlica' не найден в категории 'fiz' (есть: нигде))"
+  ],
+  "date_published": "2026-07-22",
+  "date_modified": "2026-07-22",
+  "ready_for_review": true,
+  "ready_at": "2026-07-22T05:54:08Z",
+  "publication_target": "telegram_review"
+}
