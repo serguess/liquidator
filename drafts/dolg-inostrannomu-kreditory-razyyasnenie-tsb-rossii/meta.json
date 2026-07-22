@@ -1,0 +1,99 @@
+{
+  "slug": "dolg-inostrannomu-kreditory-razyyasnenie-tsb-rossii",
+  "category": "news",
+  "title": "Долг иностранному кредитору: разъяснение ЦБ РФ",
+  "description": "Как платить долг иностранному кредитору: что уточнил ЦБ РФ в июле 2026, как пройти валютный контроль и что делать при отказе банка.",
+  "h1": "Долг иностранному кредитору: что изменилось в разъяснении ЦБ РФ",
+  "lead": "4 июля Центробанк опубликовал разъяснение о порядке платежей иностранным кредиторам - рассказываем, кого оно касается и как пройти валютный контроль без задержек.",
+  "topic_action": "консультацию по платежу иностранному кредитору",
+  "breadcrumb_current": "Долг иностранному кредитору: разъяснение ЦБ",
+  "og_image": "/assets/articles/dolg-inostrannomu-kreditory-razyyasnenie-tsb-rossii.jpg",
+  "main_keyword": "долг иностранному кредитору",
+  "secondary_keywords": [
+    "ограничения платежей иностранцам",
+    "как платить долг иностранцу",
+    "резидент России задолженность иностранцу",
+    "разъяснение центрального банка",
+    "валютный контроль платежи за границу",
+    "погашение долга иностранному контрагенту"
+  ],
+  "intent": "informational",
+  "funnel_stage": "cold",
+  "article_type": "C",
+  "offer": "proverka-spisaniya",
+  "event_date": "2026-07-04",
+  "news_zone": "finance",
+  "internal_links": [],
+  "external_links": [
+    "https://cbr.ru/press/event/?id=21089",
+    "https://www.consultant.ru/document/cons_doc_LAW_12328/"
+  ],
+  "faq": [
+    {
+      "question": "Можно ли не платить, сославшись на санкции?",
+      "answer": "Нельзя. Санкционный режим не аннулирует обязательства резидента перед зарубежным лицом. Меняется только маршрут исполнения - канал платежа, набор бумаг, сроки."
+    },
+    {
+      "question": "Что делать, если банк заблокировал перевод?",
+      "answer": "Сразу запросить письменное объяснение причины. Устранить замечание и подать поручение повторно. При отказе из-за санкционного статуса - обратиться в комплаенс-подразделение или к юристу по валютному контролю."
+    },
+    {
+      "question": "Нужно ли уведомлять регулятора о переводе?",
+      "answer": "Отдельного уведомления клиент не подаёт. Валютный контроль ведёт обслуживающая кредитная организация. Она же передаёт данные надзорному органу по стандартному учёту операций."
+    },
+    {
+      "question": "Разъяснение от июля касается граждан или только бизнеса?",
+      "answer": "Обеих категорий. Порядок расчётов с иностранными кредиторами един для физических лиц, ИП и компаний. Различается только состав пакета бумаг, требуемого при переводе."
+    },
+    {
+      "question": "Какая бумага подтверждает право на валютный перевод?",
+      "answer": "Основной документ - договор, из которого возникло обязательство. К нему прикладываются реквизиты получателя и, при необходимости, справка о происхождении средств. Точный перечень уточняется в обслуживающей кредитной организации."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "f3 (разъяснение ЦБ от 04.07.2026) помечен contested и context_check_passed: false - фразы 'запретов не вводит', 'описал единый порядок' удалены; применена safe_phrasing: 'уточнил порядок проведения платежей с учётом действующего валютного регулирования'",
+    "f4 (ограничения на платежи) needs_verification - использована safe_phrasing без конкретных цифр и лимитов",
+    "f5 (перечень документов) needs_verification - примерный перечень с оговоркой 'уточнить в банке'",
+    "f6 (санкционный статус) needs_verification - применена safe_phrasing: 'кредитная организация обязана проверить статус получателя'",
+    "Forbidden claim 'долг иностранному кредитору можно не платить из-за санкций' прямо опровергнут в тексте и FAQ",
+    "Три тезиса из раздела 'Что уточнил регулятор': первый переформулирован как общий принцип ФЗ-117 (f1 active), не как утверждение о содержании неверифицированного разъяснения",
+    "URL КонсультантПлюс для ФЗ-117 добавлен по типовому формату (в research.key_sources конкретный URL отсутствовал)"
+  ],
+  "keyword_density_main": null,
+  "main_keyword_exact_count": null,
+  "text_chars": 5858,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.112,
+  "local_spam_ngram3_repeat": 0.021,
+  "local_lexical_diversity": 0.676,
+  "local_ai_markers_density": 0.26,
+  "local_ai_markers_critical": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1784700762/articles/dolg-inostrannomu-kreditory-razyyasnenie-tsb-rossii-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1784700762/articles/dolg-inostrannomu-kreditory-razyyasnenie-tsb-rossii-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Tight editorial close-up of a workspace after urgent recent activity. Open dark leather briefcase with papers fanning across the walnut desktop, fountain pen uncapped beside a small brass inkwell, tall stack of closed regulatory dossiers tied with cord positioned at center, half-finished cup of coffee steaming beside them. Closed modern laptop with brushed-metal lid rests nearby. Background: office chair pushed back from desk, warm directional window light from upper left casting sharp editorial shadows. Materials: walnut, oxblood leather, brass. Mood: high-stakes international financial decision-making, regulatory clarification just concluded, correspondence and documentation mid-review.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-07-22T06:12:43Z",
+  "length_status": "too_long",
+  "length_kind": "news",
+  "local_ai_markers_total": 2,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 2,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 47,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 90,
+  "customer_risks": [
+    "длина больше лимита 5500 (5 858 знаков)"
+  ],
+  "date_published": "2026-07-22",
+  "date_modified": "2026-07-22",
+  "ready_for_review": true,
+  "ready_at": "2026-07-22T06:12:48Z",
+  "publication_target": "telegram_review"
+}

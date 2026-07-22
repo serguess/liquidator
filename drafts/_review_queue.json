@@ -4789,6 +4789,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "dolg-inostrannomu-kreditory-razyyasnenie-tsb-rossii",
+      "category": "news",
+      "title": "Долг иностранному кредитору: разъяснение ЦБ РФ",
+      "added_at": "2026-07-22T09:12:48.787525",
+      "char_count": 5858,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1784700762/articles/dolg-inostrannomu-kreditory-razyyasnenie-tsb-rossii-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
