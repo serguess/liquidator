@@ -8995,7 +8995,7 @@
     "rnp-i-bankrotstvo-yurlica": {
       "category": "yur",
       "title": "РНП и банкротство юридического лица: последствия",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -9003,14 +9003,16 @@
       "tg_message_id": 2085,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-19T20:12:31",
-      "last_action_at": "2026-07-20T10:00:27",
+      "last_action_at": "2026-07-22T23:07:36",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/yur/rnp-i-bankrotstvo-yurlica",
       "pending_batch": false,
       "pending_batch_at": "2026-07-19T20:12:31",
       "batch_sent_at": "2026-07-20T10:00:27",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-07-22T23:07:36",
+      "articles_path": "articles/yur/rnp-i-bankrotstvo-yurlica.html"
     },
     "snizhenie-neustoyki-st-333-gk-rf": {
       "category": "vzysk",
