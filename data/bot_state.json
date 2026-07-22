@@ -9127,7 +9127,7 @@
     "prodazha-nedvizhimosti-pri-bankrotstve-yurlica": {
       "category": "yur",
       "title": "Продажа недвижимости при банкротстве юрлица: торги",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -9135,14 +9135,16 @@
       "tg_message_id": 2097,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-21T00:50:35",
-      "last_action_at": "2026-07-21T10:00:29",
+      "last_action_at": "2026-07-22T23:12:25",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/yur/prodazha-nedvizhimosti-pri-bankrotstve-yurlica",
       "pending_batch": false,
       "pending_batch_at": "2026-07-21T00:50:35",
       "batch_sent_at": "2026-07-21T10:00:29",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-07-22T23:12:25",
+      "articles_path": "articles/yur/prodazha-nedvizhimosti-pri-bankrotstve-yurlica.html"
     },
     "vzyskanie-ushcherba-s-upravlyayushchej-kompanii-zhkh": {
       "category": "vzysk",
