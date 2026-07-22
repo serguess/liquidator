@@ -1,0 +1,116 @@
+{
+  "slug": "izmeneniya-v-bankrotstve-fizlica-novye-pravila",
+  "category": "fiz",
+  "title": "Изменения в банкротстве физлиц: новые правила",
+  "description": "Разбираемся с актуальными изменениями в процедурах банкротства физических лиц: новые сроки, требования, льготы и как они влияют на вашу ситуацию.",
+  "h1": "Изменения в банкротстве физических лиц: новые правила и сроки",
+  "lead": "Разбираем три ключевых поправки - лимит МФЦ, новые основания и отмену пошлины - и объясняем, кому они открыли вход в процедуру.",
+  "topic_action": "проверку возможности списания долгов",
+  "breadcrumb_current": "Изменения в банкротстве физлиц",
+  "og_image": "/assets/articles/izmeneniya-v-bankrotstve-fizlica-novye-pravila.jpg",
+  "main_keyword": "изменения в банкротстве физлиц",
+  "secondary_keywords": [
+    "новые правила банкротства физлица",
+    "изменения в процедурах банкротства",
+    "банкротство физлица 2026 новые сроки",
+    "реформа банкротства физических лиц",
+    "как банкротство физлица изменилось",
+    "новые требования к банкротству физлица",
+    "льготы при банкротстве физического лица",
+    "ограничения при банкротстве физлица",
+    "статус должника при банкротстве физлица"
+  ],
+  "internal_links": [
+    "/articles/fiz/alimenty-pri-bankrotstve-fizlica",
+    "/articles/fiz/bankovskie-scheta-pri-bankrotstve",
+    "/articles/vzysk/arest-zarplaty-pristavami-bankrotstvo"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/",
+    "https://www.consultant.ru/document/cons_doc_LAW_5142/"
+  ],
+  "faq": [
+    {
+      "question": "Можно ли теперь списать долг до миллиона через МФЦ бесплатно?",
+      "answer": "Да, если выполнено одно из четырёх оснований - закрытое приставом производство, статус пенсионера или участника СВО с долгом от года, получатель детских пособий в такой же ситуации либо старый исполнительный лист. Сама сумма считается без пеней и процентов за просрочку."
+    },
+    {
+      "question": "Когда отменили пошлину при подаче в арбитраж?",
+      "answer": "С 8 сентября 2024-го (ФЗ-176 от 12.07.2024). Заявитель больше не платит сбор - льгота прописана в норме о судебных сборах Налогового кодекса. Депозит 25 000 рублей на вознаграждение специалиста при этом остался и пошлиной не является."
+    },
+    {
+      "question": "Распространяются ли новые основания на пенсионеров?",
+      "answer": "Да. По второму основанию внесудебного пути пенсионеру достаточно, чтобы документ был выдан больше года назад и оставался неисполнен. Закрытия производства ждать не нужно. То же самое действует для участников специальной военной операции."
+    },
+    {
+      "question": "Сколько денег ежемесячно оставит управляющий в 2026-м?",
+      "answer": "На заявителя - 20 644 рубля (прожиточный минимум трудоспособного, ФЗ-426 от 28.11.2025). Плюс отдельная сумма на каждого иждивенца по региональным нормативам."
+    },
+    {
+      "question": "Могут ли продать единственную квартиру?",
+      "answer": "Стандартное жильё - нет, действует гражданский иммунитет по ст. 446 ГК РФ. Но по разъяснению Конституционного суда 2021-го суд вправе реализовать явно избыточную недвижимость и купить взамен скромное жильё в том же городе, направив разницу в счёт погашения. Практика встречается редко."
+    },
+    {
+      "question": "Какие долги не спишут после успешного завершения?",
+      "answer": "Алименты, вред жизни и здоровью, моральный вред, зарплатные долги работникам, субсидиарная ответственность бывшего руководителя, убытки от умышленных действий, а также текущие платежи по ходу дела. Эти строки остаются к оплате."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все факты сверены с research.json. last_verified 2026-07-23, статусы active/amended.",
+    "МФЦ лимит 25 000 - 1 000 000 руб. (ФЗ-474 от 04.08.2023, в силу с 04.11.2023) - f3 ✓",
+    "Отмена пошлины с 08.09.2024 (ФЗ-176 от 12.07.2024) - f1 ✓. Устаревшая ставка 300 руб. присутствует только как историческая справка, не как действующая.",
+    "Депозит 25 000 руб. (ст. 20.6 п. 3, ст. 213.4 п. 4 127-ФЗ) - f2 ✓",
+    "Четыре основания МФЦ-банкротства (ст. 223.2 п. 1 пп. 1-4) - f5 ✓. Формулировка о пенсионерах и получателях пособий приведена в соответствие с safe_phrasing (документ неисполнен более 1 года).",
+    "Порог обязательности в суд: 500 000 руб., 30 рабочих дней (ст. 213.4 п. 1) - f6 ✓",
+    "7% от выручки реализации (ст. 20.6 п. 17) - f7 ✓, контекст реализации имущества верен",
+    "ПМ 2026: 20 644 руб. (ФЗ-426 от 28.11.2025) - f12 ✓",
+    "КС РФ №15-П от 26.04.2021 - оговорка о неабсолютности иммунитета присутствует - f8 ✓",
+    "Несписываемые долги (ст. 213.28 п. 5-6) - f10 ✓",
+    "Ограничения после банкротства (ст. 213.30) - f11 ✓",
+    "Срок реализации (f14, legislation_status=needs_verification): формулировка «как правило до полугода» консервативна, принята."
+  ],
+  "keyword_density_main": 0.009,
+  "main_keyword_exact_count": 2,
+  "text_chars": 9999,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.08,
+  "local_spam_ngram3_repeat": 0.043,
+  "local_lexical_diversity": 0.6,
+  "local_ai_markers_density": 0.17,
+  "local_ai_markers_critical": 0,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1784756666/articles/izmeneniya-v-bankrotstve-fizlica-novye-pravila-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1784756666/articles/izmeneniya-v-bankrotstve-fizlica-novye-pravila-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Photograph of a stone or marble staircase in an official building symbolizing procedural transformation. Low-angle ascending view from the base, or symmetric perspective down a long arched corridor with tall windows. Foreground: a sealed official envelope on a marble step, a closed leather portfolio leaning against a stone column, a folded umbrella on the marble floor. Materials: weathered pale marble, oxidized brass railings, deep red carpet runner. Lighting: cool directional daylight from high windows with warm side-light sculpting marble texture. Palette: cool whites and greys, warm brass accents. Mood: passage through reformed procedural stages toward updated bankruptcy law for individuals.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-07-22T21:44:27Z",
+  "length_status": "too_long",
+  "length_kind": "default",
+  "local_ai_markers_total": 2,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 2,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 55,
+  "predicted_ai_pct": 6,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность выше 50% (~55%)",
+    "длина значительно больше лимита 6500 (9 999 знаков)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "length_too_long: 9999 > 6500 (kind=default)",
+    "author_markers_missing: 1 < 2",
+    "broken_internal_links: 1 ссылок без соответствия в published_index (/articles/vzysk/arest-zarplaty-pristavami-bankrotstvo: slug 'arest-zarplaty-pristavami-bankrotstvo' не найден в категории 'vzysk' (есть: fiz))"
+  ],
+  "date_published": "2026-07-23",
+  "date_modified": "2026-07-23",
+  "ready_for_review": true,
+  "ready_at": "2026-07-22T21:44:31Z",
+  "publication_target": "telegram_review"
+}

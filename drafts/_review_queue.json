@@ -4802,6 +4802,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "izmeneniya-v-bankrotstve-fizlica-novye-pravila",
+      "category": "fiz",
+      "title": "Изменения в банкротстве физлиц: новые правила",
+      "added_at": "2026-07-23T00:44:31.255108",
+      "char_count": 9999,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1784756666/articles/izmeneniya-v-bankrotstve-fizlica-novye-pravila-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
