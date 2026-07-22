@@ -2,6 +2,19 @@
   "generated": "2026-07-22",
   "articles": [
     {
+      "slug": "bankrotstvo-kpk-prava-pajshchikov",
+      "cat": "yur",
+      "catLabel": "Банкротство юридических лиц",
+      "title": "Банкротство КПК: права пайщиков и возврат вкладов",
+      "desc": "Что происходит при банкротстве кредитного кооператива, какие права имеют пайщики, как вернуть деньги и в каком порядке выплачивают средства.",
+      "date": "22 июля 2026",
+      "dateIso": "2026-07-22",
+      "read": "5 мин.",
+      "tone": "b",
+      "img": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1784654640/articles/bankrotstvo-kpk-prava-pajshchikov-cover.jpg",
+      "url": "articles/yur/bankrotstvo-kpk-prava-pajshchikov"
+    },
+    {
       "slug": "raspredelenie-sredstv-pri-bankrotstve-fizlica",
       "cat": "fiz",
       "catLabel": "Банкротство физических лиц",

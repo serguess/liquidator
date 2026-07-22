@@ -9215,7 +9215,7 @@
     "bankrotstvo-kpk-prava-pajshchikov": {
       "category": "yur",
       "title": "Банкротство КПК: права пайщиков и возврат вкладов",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -9223,14 +9223,16 @@
       "tg_message_id": 2105,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-21T20:24:33",
-      "last_action_at": "2026-07-22T10:00:27",
+      "last_action_at": "2026-07-22T23:12:44",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/yur/bankrotstvo-kpk-prava-pajshchikov",
       "pending_batch": false,
       "pending_batch_at": "2026-07-21T20:24:33",
       "batch_sent_at": "2026-07-22T10:00:27",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-07-22T23:12:44",
+      "articles_path": "articles/yur/bankrotstvo-kpk-prava-pajshchikov.html"
     },
     "vzyskanie-dolga-po-dogovoru-kupli-prodazhi": {
       "category": "vzysk",
