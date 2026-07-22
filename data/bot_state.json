@@ -9039,7 +9039,7 @@
     "zalog-bez-dogovora-bankrotstvo-kreditor-prioritet": {
       "category": "news",
       "title": "Залог без договора: кредитор теряет приоритет",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -9047,14 +9047,16 @@
       "tg_message_id": 2089,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-20T05:21:24",
-      "last_action_at": "2026-07-20T10:00:31",
+      "last_action_at": "2026-07-22T23:07:58",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/news/zalog-bez-dogovora-bankrotstvo-kreditor-prioritet",
       "pending_batch": false,
       "pending_batch_at": "2026-07-20T05:21:24",
       "batch_sent_at": "2026-07-20T10:00:31",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-07-22T23:07:58",
+      "articles_path": "articles/news/zalog-bez-dogovora-bankrotstvo-kreditor-prioritet.html"
     },
     "torgi-bankrotstvo-otmena-vozvrat-deneg-pokupatelyu": {
       "category": "news",
