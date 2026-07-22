@@ -9078,15 +9078,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 2093,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-20T09:25:27",
-      "last_action_at": "2026-07-20T09:25:27",
+      "last_action_at": "2026-07-21T10:00:24",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-07-20T09:25:27"
+      "pending_batch": false,
+      "pending_batch_at": "2026-07-20T09:25:27",
+      "batch_sent_at": "2026-07-21T10:00:24",
+      "batch_fail_count": 0
     },
     "izbytochnoe-zhilye-pri-bankrotstve-kriterii": {
       "category": "fiz",
@@ -9096,15 +9098,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 2095,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-20T15:44:30",
-      "last_action_at": "2026-07-20T15:44:30",
+      "last_action_at": "2026-07-21T10:00:27",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-07-20T15:44:30"
+      "pending_batch": false,
+      "pending_batch_at": "2026-07-20T15:44:30",
+      "batch_sent_at": "2026-07-21T10:00:27",
+      "batch_fail_count": 0
     },
     "prodazha-nedvizhimosti-pri-bankrotstve-yurlica": {
       "category": "yur",
@@ -9114,15 +9118,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 2097,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-21T00:50:35",
-      "last_action_at": "2026-07-21T00:50:35",
+      "last_action_at": "2026-07-21T10:00:29",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-07-21T00:50:35"
+      "pending_batch": false,
+      "pending_batch_at": "2026-07-21T00:50:35",
+      "batch_sent_at": "2026-07-21T10:00:29",
+      "batch_fail_count": 0
     },
     "vzyskanie-ushcherba-s-upravlyayushchej-kompanii-zhkh": {
       "category": "vzysk",
@@ -9132,15 +9138,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 2099,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-21T05:39:24",
-      "last_action_at": "2026-07-21T05:39:24",
+      "last_action_at": "2026-07-21T10:00:31",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-07-21T05:39:24"
+      "pending_batch": false,
+      "pending_batch_at": "2026-07-21T05:39:24",
+      "batch_sent_at": "2026-07-21T10:00:31",
+      "batch_fail_count": 0
     },
     "darenie-zhilya-bankrotstvo-pozitsiya-verkhovnogo-suda": {
       "category": "news",
@@ -9150,19 +9158,139 @@
       "versions": [
         "2.0"
       ],
+      "tg_message_id": 2101,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-07-21T08:49:26",
+      "last_action_at": "2026-07-21T10:00:33",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-07-21T08:49:26",
+      "batch_sent_at": "2026-07-21T10:00:33",
+      "batch_fail_count": 0
+    },
+    "raspredelenie-sredstv-pri-bankrotstve-fizlica": {
+      "category": "fiz",
+      "title": "Распределение средств при банкротстве физлица",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 2103,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-07-21T15:28:30",
+      "last_action_at": "2026-07-22T10:00:25",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-07-21T15:28:30",
+      "batch_sent_at": "2026-07-22T10:00:25",
+      "batch_fail_count": 0
+    },
+    "bankrotstvo-kpk-prava-pajshchikov": {
+      "category": "yur",
+      "title": "Банкротство КПК: права пайщиков и возврат вкладов",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 2105,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-07-21T20:24:33",
+      "last_action_at": "2026-07-22T10:00:27",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-07-21T20:24:33",
+      "batch_sent_at": "2026-07-22T10:00:27",
+      "batch_fail_count": 0
+    },
+    "vzyskanie-dolga-po-dogovoru-kupli-prodazhi": {
+      "category": "vzysk",
+      "title": "Как взыскать долг по договору купли-продажи",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 2107,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-07-22T00:47:35",
+      "last_action_at": "2026-07-22T10:00:29",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-07-22T00:47:35",
+      "batch_sent_at": "2026-07-22T10:00:29",
+      "batch_fail_count": 0
+    },
+    "zakon-reabilitatsiya-yurlits-bankrotstvo-prinyat": {
+      "category": "news",
+      "title": "Реабилитация юрлиц при банкротстве: новый закон",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 2109,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-07-22T05:42:25",
+      "last_action_at": "2026-07-22T10:00:32",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-07-22T05:42:25",
+      "batch_sent_at": "2026-07-22T10:00:32",
+      "batch_fail_count": 0
+    },
+    "voznagrazhdeniye-upravlyayushchego-novye-stavki-bankrotstvo": {
+      "category": "news",
+      "title": "Вознаграждение управляющего: новые ставки в банкротстве",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 2111,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-07-22T08:54:27",
+      "last_action_at": "2026-07-22T10:00:34",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-07-22T08:54:27",
+      "batch_sent_at": "2026-07-22T10:00:34",
+      "batch_fail_count": 0
+    },
+    "dolg-inostrannomu-kreditory-razyyasnenie-tsb-rossii": {
+      "category": "news",
+      "title": "Долг иностранному кредитору: разъяснение ЦБ РФ",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
       "tg_message_id": null,
       "tg_chat_id": null,
-      "first_seen_at": "2026-07-21T08:49:26",
-      "last_action_at": "2026-07-21T08:49:26",
+      "first_seen_at": "2026-07-22T09:13:28",
+      "last_action_at": "2026-07-22T09:13:28",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
       "pending_batch": true,
-      "pending_batch_at": "2026-07-21T08:49:26"
+      "pending_batch_at": "2026-07-22T09:13:28"
     }
   },
   "pending_actions": [],
-  "last_batch_date": "2026-07-20",
+  "last_batch_date": "2026-07-22",
   "last_batch_count": 5,
-  "last_batch_at": "2026-07-20T10:00:33"
+  "last_batch_at": "2026-07-22T10:00:34"
 }

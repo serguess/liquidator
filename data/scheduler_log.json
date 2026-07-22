@@ -29238,5 +29238,106 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-07-22T08:54:09",
+    "category": "news",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 2,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "news-109",
+    "topic_slug": "dolg-inostrannomu-kreditory-razyyasnenie-tsb-rossii",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "length_soft_passed: 5858 > 5500 но ≤ 7500 и iteration=2 — пропускаем (приоритет spam/uniqueness/ai)"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "finalize_safety_net": {
+      "ran": true,
+      "rc": 0
+    },
+    "status": "ok",
+    "slug": "dolg-inostrannomu-kreditory-razyyasnenie-tsb-rossii",
+    "duration_sec": 1118.7,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "0\n6-seo-editor        sonnet            6      16    58936     25156     58958\n7-publisher         haiku            20      10    39244     25520     39274\n------------------------------------------------------------------------------------------\nИТОГО                                96      66   415234    285624    415396\nBillable-токенов на статью: ~415K (cache_read 285K не считается в лимит подписки).\nАртефакты: drafts/dolg-inostrannomu-kreditory-razyyasnenie-tsb-rossii/  | quality_gate exit=0",
+    "stderr_tail": "",
+    "tokens_by_model": {},
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 5858
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
+  },
+  {
+    "timestamp": "2026-07-22T10:00:21",
+    "category": "fiz",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 3,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "fiz-162",
+    "topic_slug": "bankrotstvo-pri-dogovore-renty",
+    "auto_skipped": [
+      {
+        "slug": "tekushchie-alimenty-pri-bankrotstve-fizlica",
+        "reason": "cannibalization:preflight:cluster:fiz-alimony-bankruptcy",
+        "duration_sec": 0
+      }
+    ],
+    "status": "failed",
+    "slug": "bankrotstvo-pri-dogovore-renty",
+    "duration_sec": 618.4,
+    "returncode": 1,
+    "rescued_after_failure": false,
+    "stdout_tail": "=== 1-semantics (claude haiku) ===\n   ok: 1369 симв., usage in=20 out=10 cache_w=30480 cache_r=25520 billable=30510 ток, 24.9с\n=== 2-legal-research (claude haiku) ===\n   ok: 19215 симв., usage in=82 out=29 cache_w=187631 cache_r=264662 billable=187742 ток, 110.2с\n   ok: 18598 симв., billable=74636 ток (model=sonnet)\n   [outline_validate] exit=1\n=== 4-writer (claude opus) ===",
+    "stderr_tail": "[ERR] rate_limit: put_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard\",\"cache_creation\":{\"ephemeral_1h_input_tokens\":0,\"ephemeral_5m_input_tokens\":0},\"inference_geo\":\"\",\"iterations\":[],\"speed\":\"standard\"},\"modelUsage\":{},\"permission_denials\":[],\"terminal_reason\":\"completed\",\"fast_mode_state\":\"off\",\"uuid\":\"3bc5d837-c7e4-420d-973e-4dc454049d41\"}\n\n",
+    "tokens_by_model": {},
+    "metrics": null
   }
 ]
