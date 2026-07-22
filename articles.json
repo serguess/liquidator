@@ -1,6 +1,19 @@
 {
-  "generated": "2026-07-20",
+  "generated": "2026-07-22",
   "articles": [
+    {
+      "slug": "bankrotstvo-fizlica-bez-yurista-riski",
+      "cat": "fiz",
+      "catLabel": "Банкротство физических лиц",
+      "title": "Банкротство физлица без юриста: ошибки и риски",
+      "desc": "Какие риски и ошибки ждут физлицо при самостоятельном банкротстве без адвоката. Типичные просчеты, финансовые потери и судебные издержки.",
+      "date": "22 июля 2026",
+      "dateIso": "2026-07-22",
+      "read": "6 мин.",
+      "tone": "b",
+      "img": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1784462922/articles/bankrotstvo-fizlica-bez-yurista-riski-cover.jpg",
+      "url": "articles/fiz/bankrotstvo-fizlica-bez-yurista-riski"
+    },
     {
       "slug": "konkyursnoe-proizvodstvo-kompaniya-bez-aktivov",
       "cat": "news",
