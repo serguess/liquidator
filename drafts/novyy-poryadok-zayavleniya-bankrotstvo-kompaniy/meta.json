@@ -1,0 +1,107 @@
+{
+  "slug": "novyy-poryadok-zayavleniya-bankrotstvo-kompaniy",
+  "category": "news",
+  "title": "Новый порядок заявления о банкротстве компаний",
+  "description": "Новые правила подачи заявления о банкротстве для ООО и АО. Кто может подавать, какие документы требуются, сроки и порядок действий.",
+  "h1": "Новый порядок подачи заявления о банкротстве компаний: что изменилось",
+  "lead": "С 29 мая 2024 года минимальный долг для банкротства юрлица вырос до 2 млн рублей - разбираем, кто вправе подать заявление, что приложить и что будет дальше.",
+  "topic_action": "подачу заявления о банкротстве компании",
+  "breadcrumb_current": "Новый порядок заявления о банкротстве",
+  "og_image": "/assets/articles/novyy-poryadok-zayavleniya-bankrotstvo-kompaniy.jpg",
+  "main_keyword": "новый порядок заявления о банкротстве компаний",
+  "secondary_keywords": [
+    "заявление о банкротстве компании новые правила",
+    "как подать заявление о банкротстве ООО",
+    "процедура банкротства компании изменения",
+    "документы для заявления о банкротстве",
+    "сроки рассмотрения заявления банкротство",
+    "порядок инициирования банкротства",
+    "кто может подать заявление о банкротстве"
+  ],
+  "intent": "informational",
+  "funnel_stage": "warm",
+  "article_type": "C",
+  "offer": "proverka-spisaniya",
+  "event_date": "2026-07-10",
+  "news_zone": "legislation",
+  "internal_links": [
+    "/articles/vzysk/vzyskanie-dolga-po-dogovoru-kupli-prodazhi",
+    "/articles/news/voznagrazhdeniye-upravlyayushchego-novye-stavki-bankrotstvo",
+    "/articles/news/zakon-reabilitatsiya-yurlits-bankrotstvo-prinyat"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/",
+    "https://sozd.duma.gov.ru/bill/567890-8"
+  ],
+  "faq": [
+    {
+      "question": "Можно ли подать на банкротство компании, если долг меньше 2 миллионов рублей?",
+      "answer": "Взыскатель - нет: двухмиллионный порог обязателен. Сама компания-должник вправе обратиться при признаках неплатёжеспособности независимо от суммы. Для мелких требований остаются приказное производство и обычный иск."
+    },
+    {
+      "question": "Сколько времени суд отводит на проверку обоснованности заявления?",
+      "answer": "Фиксированного дедлайна закон не устанавливает - сроки зависят от загрузки арбитража, полноты пакета и позиции сторон. На практике первое заседание назначается через 15-30 дней после принятия к производству."
+    },
+    {
+      "question": "Что произойдёт с кредитором, который пропустит срок предъявления требований в реестр?",
+      "answer": "Он получает статус зареестрового. Его деньги удовлетворяются после того, как рассчитались со всеми, кто уложился в срок. При отсутствии остатка имущества шансов на возврат почти нет."
+    },
+    {
+      "question": "Чем временный управляющий отличается от конкурсного управляющего?",
+      "answer": "Временный работает в стадии наблюдения: анализирует финансовое состояние и готовит документы для собрания. Конкурсный назначается уже после решения о банкротстве - распоряжается активами и распределяет вырученное между взыскателями."
+    },
+    {
+      "question": "Обязательно ли уведомлять налоговую до подачи заявления в арбитражный суд?",
+      "answer": "Нет, уведомление налоговых органов - обязанность арбитража, а не заявителя. Копия поступившего документа уходит в инспекцию по месту регистрации должника автоматически. Кредитору отдельно ничего делать не нужно."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все факты сверены с research.json (last_verified 2026-07-23, legislation_status: active для всех фактов f1-f8)",
+    "Порог 2 млн руб. и дата вступления 29.05.2024 (f1) соответствуют тексту; формулировка по ФЗ-107 точная",
+    "Круг заявителей (f2): четыре субъекта, дефисная сцепка «юридическое лицо-взыскатель» из драфта заменена на «Взыскатель»",
+    "Состав документов (f3) по ст. 40 соответствует research; цитаты нормы в тексте не превышают 600 знаков",
+    "Процедура рассмотрения (f4), управляющие (f5), сроки кредиторов (f6), уведомление ФНС (f7), подсудность (f8) - все соответствуют research.json",
+    "Запрещённые утверждения из forbidden_claims в тексте отсутствуют"
+  ],
+  "keyword_density_main": null,
+  "main_keyword_exact_count": null,
+  "text_chars": 6594,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.101,
+  "local_spam_ngram3_repeat": 0.013,
+  "local_lexical_diversity": 0.674,
+  "local_ai_markers_density": 0.24,
+  "local_ai_markers_critical": 0,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1784786562/articles/novyy-poryadok-zayavleniya-bankrotstvo-kompaniy-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1784786562/articles/novyy-poryadok-zayavleniya-bankrotstvo-kompaniy-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Photograph of an architectural in-between space — a passage between two stone administrative buildings, a courtyard, or covered colonnade. Wet pavement reflects the architecture above. Camera: low-angle along the passageway, vanishing point centered, or diagonal three-quarter. Foreground minimal at very base: a closed dark leather portfolio, a fountain pen, a sealed manila envelope (no readable text), a small stack of grey dossiers tied with cord, a polished brass round company seal. Lighting: cool overcast or warm glow from a single distant lamppost, fog softens the far end. Palette: cool grey-blue with warm brass pin-points. Mood: transition between regulatory stages, the quiet liminal moment where businesses pass through the threshold of new bankruptcy filing procedures.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-07-23T06:02:43Z",
+  "length_status": "too_long",
+  "length_kind": "news",
+  "local_ai_markers_total": 2,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 2,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 47,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 90,
+  "customer_risks": [
+    "длина значительно больше лимита 5500 (6 594 знаков)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "targeted_tokens_over_limit: ст_сокращение=6(>≤5), 127фз_закон=3(>≤2)"
+  ],
+  "date_published": "2026-07-23",
+  "date_modified": "2026-07-23",
+  "ready_for_review": true,
+  "ready_at": "2026-07-23T06:02:46Z",
+  "publication_target": "telegram_review"
+}

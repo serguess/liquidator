@@ -29412,5 +29412,65 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-07-23T05:12:00",
+    "category": "yur",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 17,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "yur-148",
+    "topic_slug": "bankovskaya-garantiya-pri-bankrotstve-yurlica",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "length_soft_passed: 7361 > 6500 но ≤ 8500 и iteration=2 — пропускаем (приоритет spam/uniqueness/ai)",
+        "spam_soft_passed: ratio-флаги мягкие при iter=2, targeted_tokens чистые → пропускаем (spam ≈48-52% по прогнозу)"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "finalize_safety_net": {
+      "ran": true,
+      "rc": 0
+    },
+    "status": "ok",
+    "slug": "bankovskaya-garantiya-pri-bankrotstve-yurlica",
+    "duration_sec": 1528.2,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "  49974\n6-seo-editor        sonnet            6      16    64818     25156     64840\n7-publisher         haiku            20       8    39270     25520     39298\n------------------------------------------------------------------------------------------\nИТОГО                               166      85   585414    574313    585665\nBillable-токенов на статью: ~585K (cache_read 574K не считается в лимит подписки).\nАртефакты: drafts/bankovskaya-garantiya-pri-bankrotstve-yurlica/  | quality_gate exit=0",
+    "stderr_tail": "",
+    "tokens_by_model": {},
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7361
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]

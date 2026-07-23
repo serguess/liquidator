@@ -4828,6 +4828,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "novyy-poryadok-zayavleniya-bankrotstvo-kompaniy",
+      "category": "news",
+      "title": "Новый порядок заявления о банкротстве компаний",
+      "added_at": "2026-07-23T09:02:46.294778",
+      "char_count": 6594,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1784786562/articles/novyy-poryadok-zayavleniya-bankrotstvo-kompaniy-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
