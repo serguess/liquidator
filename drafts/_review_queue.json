@@ -4854,6 +4854,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "osparivanie-ocenki-imushchestva-bankrotstvo",
+      "category": "yur",
+      "title": "Как оспорить оценку имущества при банкротстве компании",
+      "added_at": "2026-07-23T20:17:59.511321",
+      "char_count": 8228,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1784827077/articles/osparivanie-ocenki-imushchestva-bankrotstvo-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

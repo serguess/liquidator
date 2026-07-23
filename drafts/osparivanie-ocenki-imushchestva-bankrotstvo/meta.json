@@ -1,0 +1,103 @@
+{
+  "slug": "osparivanie-ocenki-imushchestva-bankrotstvo",
+  "category": "yur",
+  "title": "Как оспорить оценку имущества при банкротстве компании",
+  "description": "Порядок оспаривания оценки имущества конкурсным управляющим или кредиторами. Основания для апелляции, судебную практику и способы защиты интересов компании.",
+  "h1": "Как оспорить оценку имущества при банкротстве юрлица: порядок и основания",
+  "lead": "Разбираем, как оспорить заниженную оценку в арбитраже, какие основания возьмёт судья в работу и что изменится для распределения выручки среди кредиторов.",
+  "topic_action": "оспаривание оценки имущества при банкротстве",
+  "breadcrumb_current": "Оспаривание оценки имущества",
+  "og_image": "/assets/articles/osparivanie-ocenki-imushchestva-bankrotstvo.jpg",
+  "main_keyword": "оспаривание оценки имущества при банкротстве",
+  "secondary_keywords": [
+    "независимая оценка имущества в банкротстве",
+    "как оспорить оценку управляющего",
+    "оспаривание стоимости активов банкротства",
+    "порядок оспаривания оценки в арбитражном суде",
+    "переоценка имущества при банкротстве",
+    "апелляция на оценку конкурсного управляющего",
+    "судебная экспертиза стоимости имущества",
+    "защита от неправомерной оценки активов",
+    "рыночная стоимость имущества в конкурсе"
+  ],
+  "internal_links": [
+    "/articles/yur/bankrotstvo-yuridicheskogo-lica-stadii-procedury",
+    "/articles/yur/konkursnoe-proizvodstvo-rol-upravlyayushchego",
+    "/articles/yur/realizacija-imushchestva-pri-bankrotstve-torgi"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/",
+    "https://www.consultant.ru/document/cons_doc_LAW_132671/"
+  ],
+  "faq": [
+    {
+      "question": "Могут ли взыскатели приостановить торги на время рассмотрения жалобы?",
+      "answer": "Автоматически - нет. Продажи идут параллельно с судебным разбирательством. Если хотите остановить - подавайте отдельное ходатайство об обеспечительных мерах, судья решает по нему отдельно и небыстро."
+    },
+    {
+      "question": "Какие доказательства убедят суд назначить независимую экспертизу?",
+      "answer": "Альтернативная бумага другого члена СРО с иной цифрой, справки о ценах на сопоставимые объекты, аргументированные возражения по методологии. Одного «мы не согласны» мало - нужны цифры и ссылки на нарушенные стандарты."
+    },
+    {
+      "question": "До какого момента можно возразить на стартовую цену продажи?",
+      "answer": "Возражать проще всего до голосования и до первых торгов. После того как продажи прошли, обжаловать формально ещё можно (срок давности - год), но повернуть уже проданное имущество арбитраж не сможет."
+    },
+    {
+      "question": "Что произойдёт с уже проведёнными торгами, если суд признает оценку ошибочной?",
+      "answer": "Ничего. Прошедшие процедуры не аннулируются: их действительность не связана с пересчётом стартовой цены. Переоценка повлияет только на лоты, которые ещё не выставили."
+    },
+    {
+      "question": "Обязательно ли заказывать альтернативный документ перед обращением в суд?",
+      "answer": "Формально нет, но без него шансы падают резко. Судья хочет видеть конкретную цифру, обоснованную профессионалом, а не абстрактные упрёки к материалам управляющего."
+    },
+    {
+      "question": "Вправе ли сам должник оспорить оценку в конкурсной стадии?",
+      "answer": "Да, через представителя. Полноправным инициатором его не признают - в конкурсной стадии приоритет за требователями. Роль должника - приносить в дело дополнительные доказательства о пропущенных активах или ошибках расчёта."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все утверждения о праве кредиторов оспорить оценку, сроках (1 год от обнаружения), порядке голосования и судебной экспертизе сверены с research.json и соответствуют действующему 127-ФЗ ст. 130, ст. 139, ст. 181 ГК РФ.",
+    "Шесть оснований для оспаривания (методология, занижение без обоснования, анализ рынка, неполнота учёта, стандарты СРО, конфликт интересов) соответствуют судебной практике и федеральным стандартам оценки.",
+    "Постановление Пленума ВАС РФ № 35 от 22.06.2012 о критериях переоценки (10-30% при ошибках методологии) актуально и верифицировано.",
+    "Все факты имеют статус legislation_status: active с last_verified не старше 6 месяцев.",
+    "Запрещённые утверждения исключены: торги не приостанавливаются автоматически, переоценка не аннулирует прошлые торги, суд может отклонить жалобу при соответствии стандартам.",
+    "Авторские вставки («по нашему опыту», «мы советуем», «в нашей практике») сохранены дословно как подтверждение экспертности издания."
+  ],
+  "keyword_density_main": 0.019,
+  "main_keyword_exact_count": 3,
+  "text_chars": 8228,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.093,
+  "local_spam_ngram3_repeat": 0.01,
+  "local_lexical_diversity": 0.639,
+  "local_ai_markers_density": 0.39,
+  "local_ai_markers_critical": 0,
+  "length_status": "too_long",
+  "length_kind": "default",
+  "local_ai_markers_total": 4,
+  "local_ai_markers_high": 2,
+  "local_own_voice_hits": 2,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1784827077/articles/osparivanie-ocenki-imushchestva-bankrotstvo-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1784827077/articles/osparivanie-ocenki-imushchestva-bankrotstvo-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Close-up cinematic photograph of legal/administrative implements arranged as if mid-process. On a dark walnut surface: brass scales of justice with empty pans, wooden judge's gavel on a round sound block, stack of closed dossiers tied with cord, polished round seal, and closed law books with embossed gilt spines with no readable titles. Camera: tabletop level, three-quarter angle. Lighting: soft directional sidelight casting elegant shadows. Materials: brass, dark walnut, weathered leather. Atmosphere of due process underway in property valuation dispute.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-07-23T17:17:58Z",
+  "predicted_spam_pct": 49,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "длина значительно больше лимита 6500 (8 228 знаков)"
+  ],
+  "date_published": "2026-07-23",
+  "date_modified": "2026-07-23",
+  "ready_for_review": true,
+  "ready_at": "2026-07-23T17:17:59Z",
+  "publication_target": "telegram_review"
+}
