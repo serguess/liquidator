@@ -9317,6 +9317,60 @@
       "published_url": null,
       "pending_batch": true,
       "pending_batch_at": "2026-07-22T09:13:28"
+    },
+    "izmeneniya-v-bankrotstve-fizlica-novye-pravila": {
+      "category": "fiz",
+      "title": "Изменения в банкротстве физлиц: новые правила",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-07-23T00:44:36",
+      "last_action_at": "2026-07-23T00:44:36",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-07-23T00:44:36"
+    },
+    "bankovskaya-garantiya-pri-bankrotstve-yurlica": {
+      "category": "yur",
+      "title": "Банковская гарантия при банкротстве: права бенефициара",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-07-23T05:38:17",
+      "last_action_at": "2026-07-23T05:38:17",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-07-23T05:38:17"
+    },
+    "novyy-poryadok-zayavleniya-bankrotstvo-kompaniy": {
+      "category": "news",
+      "title": "Новый порядок заявления о банкротстве компаний",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-07-23T09:03:19",
+      "last_action_at": "2026-07-23T09:03:19",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-07-23T09:03:19"
     }
   },
   "pending_actions": [],
