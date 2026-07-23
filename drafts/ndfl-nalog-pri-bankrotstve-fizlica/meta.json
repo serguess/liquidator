@@ -1,0 +1,111 @@
+{
+  "slug": "ndfl-nalog-pri-bankrotstve-fizlica",
+  "category": "fiz",
+  "title": "НДФЛ при банкротстве физлица: налоговые последствия",
+  "description": "Как банкротство физлица влияет на налоговые обязательства. Освобождение от НДФЛ, налоговые последствия, практика и правила 2025-2026.",
+  "h1": "НДФЛ при банкротстве физлица: налоговые последствия и освобождение от налогов",
+  "lead": "Разбираем, что происходит с долгами перед бюджетом при банкротстве гражданина: какие налоговые требования не списываются, как ведёт себя НДФЛ с зарплаты и выручки от продажи имущества и чего ожидать от ФНС после завершения процедуры.",
+  "topic_action": "разбор налоговых последствий банкротства",
+  "breadcrumb_current": "НДФЛ при банкротстве физлица",
+  "og_image": "/assets/articles/ndfl-nalog-pri-bankrotstve-fizlica.jpg",
+  "main_keyword": "НДФЛ при банкротстве физлица",
+  "secondary_keywords": [
+    "налоговые последствия банкротства физлица",
+    "освобождение от НДФЛ при банкротстве",
+    "налоговые обязательства физлица при банкротстве",
+    "налоги после банкротства",
+    "уплата НДФЛ при банкротстве",
+    "налоговые льготы банкротство физлица",
+    "НДФЛ от продажи имущества при банкротстве",
+    "налоговый вычет банкротство",
+    "инвентаризация имущества налоги"
+  ],
+  "internal_links": [
+    "/articles/fiz/bankovskie-scheta-pri-bankrotstve",
+    "/articles/fiz/avtomobil-pri-bankrotstve-fizlica",
+    "/articles/fiz/alimenty-pri-bankrotstve-fizlica"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/",
+    "https://www.consultant.ru/document/cons_doc_LAW_146436/"
+  ],
+  "faq": [
+    {
+      "question": "Спишут ли долг перед ФНС при завершении банкротства физлица?",
+      "answer": "Нет. Требования казны выведены из перечня освобождаемых обязательств пятым пунктом ст. 213.28 127-ФЗ. Часть, покрытая выручкой, считается погашенной; остаток продолжает числиться за гражданином и взыскивается через исполнительное производство."
+    },
+    {
+      "question": "Какой НДФЛ удерживается из зарплаты банкрота и кто это делает?",
+      "answer": "Работодатель удерживает 13% при каждом начислении. Управляющий с этим налогом не работает - его задача сохранить прожиточный минимум и передать остаток в конкурсную массу."
+    },
+    {
+      "question": "Что происходит с налогами ИП, если он банкротится как физлицо?",
+      "answer": "Предпринимательство при реализации имущества закрывается. Долги по НДС, упрощёнке или общей системе идут в третью очередь. Убытки предыдущих периодов не переносятся - на физлицо после закрытия предпринимательства их применить нельзя."
+    },
+    {
+      "question": "Может ли прощение кредитором долга создать новое налоговое обязательство?",
+      "answer": "Может, если прощение происходит вне арбитражного дела - например, в ходе досудебной реструктуризации. Тогда прощённая сумма квалифицируется как доход и облагается по повышенной ставке 35%. Внутри банкротного производства правило не применяется."
+    },
+    {
+      "question": "Сохраняются ли детские вычеты по НДФЛ во время банкротства?",
+      "answer": "Сохраняются полностью. 1 400 рублей на первого и второго ребёнка, 3 000 - на третьего, 12 000 - при инвалидности I-II группы. Работодатель применяет их при расчёте заработка так же, как до подачи заявления."
+    },
+    {
+      "question": "Когда ФНС вправе включить свои требования в реестр кредиторов?",
+      "answer": "С момента введения процедуры реализации. Инспекция подаёт заявление в арбитраж на общих основаниях. При необходимости проводит проверку истории за три-шесть лет и включает найденные недоимки с пенями в тот же реестр."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все факты сверены с research.json. Статусы: active для f1-f10. f11 (налоговые проверки при банкротстве) имеет needs_verification - в тексте использована safe_phrasing без гарантий сроков и конкретных регламентов.",
+    "Очерёдность требований по ст. 213.27 п. 4 127-ФЗ: I - вред жизни/здоровью, II - труд, III - бюджет (НДФЛ, взносы, пени, штрафы), IV - прочие кредиторы. Контекст применения корректен - процедура реализации имущества физлица.",
+    "Несписываемость налогов и штрафов по п. 5 ст. 213.28 127-ФЗ подтверждена (legislation_status: active, last_verified: 2026-07-23). Forbidden claim об освобождении от всех налогов в тексте отсутствует.",
+    "ПМ 2026: 20 644 руб. для трудоспособных (ФЗ-426 от 28.11.2025) - верифицирован (f5).",
+    "Стандартные вычеты 1 400 / 3 000 / 12 000 руб. соответствуют ст. 218 п. 1 НК РФ (f7, last_verified: 2026-07-23).",
+    "Налог 35% на прощённый долг вне процедуры по ст. 12.1 НК РФ - соответствует f9. Оговорка о неприменимости внутри арбитражного дела присутствует.",
+    "Закрытие ИП при введении реализации имущества и невозможность переноса убытков на физлицо - соответствуют f6 и f8.",
+    "Функция налогового агента у финансового управляющего отсутствует - соответствует f3 (safe_phrasing)."
+  ],
+  "keyword_density_main": 0.007,
+  "main_keyword_exact_count": 1,
+  "text_chars": 8195,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.096,
+  "local_spam_ngram3_repeat": 0.023,
+  "local_lexical_diversity": 0.594,
+  "local_ai_markers_density": 0.2,
+  "local_ai_markers_critical": 0,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1784808796/articles/ndfl-nalog-pri-bankrotstve-fizlica-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1784808796/articles/ndfl-nalog-pri-bankrotstve-fizlica-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Editorial photograph of a working desk in a modern business interior. Camera: slight overhead three-quarter angle. On the walnut desktop: scientific calculator positioned prominently center-left, closed thin laptop, blank-spine notebook with fountain pen aligned across it, reading glasses, polished round seal, white porcelain coffee cup. Materials: walnut top, brushed steel, leather inlay. Background: stone-and-wood feature wall or city skyline through tall windows, blurred. Lighting: directional warm light from upper left casting sharp shadows on calculation tools. Mood: focused financial calculation and careful tax assessment. Premium business aesthetic, neutral palette with warm brass and steel accents.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-07-23T12:13:17Z",
+  "length_status": "too_long",
+  "length_kind": "default",
+  "local_ai_markers_total": 2,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 3,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 53,
+  "predicted_ai_pct": 6,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность чуть выше 50% (~53%)",
+    "длина значительно больше лимита 6500 (8 195 знаков)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "targeted_tokens_over_limit: 213_артикул=4(>≤3)",
+    "author_markers_missing: 1 < 2"
+  ],
+  "date_published": "2026-07-23",
+  "date_modified": "2026-07-23",
+  "ready_for_review": true,
+  "ready_at": "2026-07-23T12:13:21Z",
+  "publication_target": "telegram_review"
+}
