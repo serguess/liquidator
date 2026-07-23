@@ -4815,6 +4815,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "bankovskaya-garantiya-pri-bankrotstve-yurlica",
+      "category": "yur",
+      "title": "Банковская гарантия при банкротстве: права бенефициара",
+      "added_at": "2026-07-23T05:37:29.032889",
+      "char_count": 7361,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1784774247/articles/bankovskaya-garantiya-pri-bankrotstve-yurlica-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

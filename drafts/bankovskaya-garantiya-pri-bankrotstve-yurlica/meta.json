@@ -1,0 +1,103 @@
+{
+  "slug": "bankovskaya-garantiya-pri-bankrotstve-yurlica",
+  "category": "yur",
+  "title": "Банковская гарантия при банкротстве: права бенефициара",
+  "description": "Как защищены права бенефициара по банковской гарантии при банкротстве должника. Что происходит с гарантией при процедурах банкротства, сроки и судебная практика.",
+  "h1": "Банковская гарантия при банкротстве юридического лица: права бенефициара",
+  "lead": "Разбираем, что происходит с правом бенефициара при банкротстве гаранта, как войти в реестр кредиторов и не пропустить критический срок.",
+  "topic_action": "защиту прав бенефициара по банковской гарантии",
+  "breadcrumb_current": "Банковская гарантия при банкротстве",
+  "og_image": "/assets/articles/bankovskaya-garantiya-pri-bankrotstve-yurlica.jpg",
+  "main_keyword": "банковская гарантия при банкротстве",
+  "secondary_keywords": [
+    "права бенефициара при банкротстве",
+    "банковская гарантия в процедуре банкротства",
+    "может ли бенефициар получить выплату при банкротстве гаранта",
+    "защита гарантии при банкротстве должника",
+    "взыскание по банковской гарантии",
+    "судебная практика по гарантиям и банкротству",
+    "конкурсная масса гарантия"
+  ],
+  "internal_links": [
+    "/articles/yur/bankrotstvo-kpk-prava-pajshchikov",
+    "/articles/vzysk/vzyskanie-dolga-po-dogovoru-kupli-prodazhi"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/",
+    "https://www.consultant.ru/document/cons_doc_LAW_5142/",
+    "https://www.consultant.ru/document/cons_doc_LAW_132671/"
+  ],
+  "faq": [
+    {
+      "question": "Может ли бенефициар получить выплату, если банк-гарант признан банкротом?",
+      "answer": "Право на выплату сохраняется, но реализуется только через включение в реестр кредиторов. Автоматически деньги не поступят - подать заявление и подтвердить условия обязан сам получатель."
+    },
+    {
+      "question": "Чем банковская гарантия отличается от поручительства при банкротстве?",
+      "answer": "Поручитель отвечает вместо основного должника, если тот не платит. Банк платит по гарантии независимо от того, платит ли принципал. Если не платит гарант - это его несостоятельность, и в конкурсное производство входит именно требование по гарантии."
+    },
+    {
+      "question": "В какой срок нужно подать заявление в реестр?",
+      "answer": "В срок, установленный определением суда о введении конкурсного производства, - он публикуется в ЕФРСБ. Как правило, тридцать дней с даты публикации. Отслеживать её - задача самого кредитора, уведомлений не приходит (ст. 71-72 127-ФЗ)."
+    },
+    {
+      "question": "Сколько реально выплатят при недостаточности массы?",
+      "answer": "Строго пропорционально доле очереди в остатке. По третьей очереди практика показывает 10-30 процентов, но конкретика зависит от портфеля активов должника и числа заявленных притязаний."
+    },
+    {
+      "question": "Что происходит, если обанкротился принципал, а не банк?",
+      "answer": "Ровно то, ради чего гарантию оформляли. Именно этот сценарий активирует выплату. Банкротство принципала - основание предъявить требование гаранту в общем порядке."
+    },
+    {
+      "question": "Нужен ли отдельный иск или достаточно включения в реестр?",
+      "answer": "Отдельный иск не требуется. Претензия рассматривается арбитражем в рамках дела о несостоятельности. Заявление подаётся управляющему и суду по установленной форме."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все факты сверены с research.json. Статусы: active. last_verified: 2026-07-23 для всех ключевых утверждений.",
+    "Исправлено: 'тридцать рабочих дней' заменено на 'тридцать дней' - 127-ФЗ ст. 71 оперирует календарными днями, конкретный срок устанавливается определением суда.",
+    "Исправлено: ссылка '63-я норма' (условные требования) не подтверждена в research.json - заменена на обтекаемую формулировку без номера.",
+    "Исправлено: '131-я норма гражданского кодекса' - ст. 131 ГК РФ регулирует государственную регистрацию недвижимости, а не независимость гарантии (фактически ст. 370 ГК РФ). В тексте заменено на 'по ГК РФ' без конкретного номера. Рекомендуется верификация агентом 2.",
+    "7% вознаграждение управляющего подтверждено research.json f8 (ст. 20.6 п. 17 127-ФЗ).",
+    "ПП ВАС РФ № 35 от 22.06.2012, п. 18-22 подтверждено research.json f7.",
+    "Запрещённые утверждения из forbidden_claims в тексте отсутствуют.",
+    "Прямых цитат закона в теле нет, лимит 600 знаков не превышен."
+  ],
+  "keyword_density_main": 0.018,
+  "main_keyword_exact_count": 2,
+  "text_chars": 7361,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.109,
+  "local_spam_ngram3_repeat": 0.012,
+  "local_lexical_diversity": 0.65,
+  "local_ai_markers_density": 0.32,
+  "local_ai_markers_critical": 0,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1784774247/articles/bankovskaya-garantiya-pri-bankrotstve-yurlica-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1784774247/articles/bankovskaya-garantiya-pri-bankrotstve-yurlica-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Close-up architectural photograph of polished marble surface with business accessories arranged deliberately in the foreground. Camera: tight crop, eye-level or slight low-angle to emphasize texture. Foreground items: closed dark leather portfolio, polished round brass company seal positioned prominently, fountain pen aligned across the portfolio's edge, antique brass pocket watch on an oxidized chain. Lighting: soft diffused daylight from upper left grazing the marble, revealing subtle veining and grain. Palette: cool whites and grays of stone, warm cream undertones, burnished brass, rich leather brown. Mood: refined institutional, legal guarantee and financial security.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-07-23T02:37:28Z",
+  "length_status": "too_long",
+  "length_kind": "default",
+  "local_ai_markers_total": 3,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 3,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 47,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 90,
+  "customer_risks": [
+    "длина значительно больше лимита 6500 (7 361 знаков)"
+  ],
+  "date_published": "2026-07-23",
+  "date_modified": "2026-07-23",
+  "ready_for_review": true,
+  "ready_at": "2026-07-23T02:37:29Z",
+  "publication_target": "telegram_review"
+}
