@@ -4867,6 +4867,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "dolzhnik-skryvaet-imushchestvo-ot-pristavov",
+      "category": "vzysk",
+      "title": "Скрытие имущества от приставов: наказание и как это доказать",
+      "added_at": "2026-07-24T00:47:15.364723",
+      "char_count": 8275,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1784843230/articles/dolzhnik-skryvaet-imushchestvo-ot-pristavov-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

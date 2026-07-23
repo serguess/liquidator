@@ -1,0 +1,279 @@
+{
+  "file": "/home/appuser/apps/liquidator/drafts/dolzhnik-skryvaet-imushchestvo-ot-pristavov/article.html",
+  "passed": true,
+  "hard_failed": false,
+  "blockers": [],
+  "warnings": [
+    "length_soft_passed: 8275 > 6500 но ≤ 8500 и iteration=2 — пропускаем (приоритет spam/uniqueness/ai)",
+    "forced_pass_at_iter2: блокеры пропущены, статья идёт в TG-очередь с metrics_warning=true. Было: 3 блокеров — targeted_tokens_over_limit; anti_template_phrases; broken_internal_links"
+  ],
+  "autofix": {
+    "file": "/home/appuser/apps/liquidator/drafts/dolzhnik-skryvaet-imushchestvo-ot-pristavov/article.html",
+    "abbreviation_fixes": {},
+    "punctuation_fixes": 0,
+    "em_dash_fixes": 0,
+    "eng_quotes_fixes": 0,
+    "yo_fixes": 0,
+    "hyphen_fixes": 0,
+    "changed": false,
+    "bytes_before": 42653,
+    "bytes_after": 42653
+  },
+  "quality_checks": {
+    "file": "drafts/dolzhnik-skryvaet-imushchestvo-ot-pristavov/article.html",
+    "text_chars": 8275,
+    "length_status": "too_long",
+    "length_kind": "default",
+    "passed": false,
+    "abbreviation_hits": [],
+    "punctuation_hits": [],
+    "hyphen_compound_hits": [],
+    "spam": {
+      "total_words": 757,
+      "unique_lemmas": 515,
+      "lexical_diversity": 0.68,
+      "top10_words": [
+        [
+          "счет",
+          9
+        ],
+        [
+          "запрос",
+          7
+        ],
+        [
+          "состав",
+          7
+        ],
+        [
+          "актив",
+          7
+        ],
+        [
+          "гражданин",
+          7
+        ],
+        [
+          "банк",
+          6
+        ],
+        [
+          "взыскател",
+          5
+        ],
+        [
+          "производств",
+          5
+        ],
+        [
+          "тысяч",
+          5
+        ],
+        [
+          "срок",
+          5
+        ]
+      ],
+      "top10_share": 0.083,
+      "top1_count": 9,
+      "top3_sum": 23,
+      "top10_sum": 63,
+      "ngram3_repeat_count": 12,
+      "ngram3_total": 755,
+      "ngram3_repeat_share": 0.016,
+      "risk_flags": [],
+      "word_warnings": []
+    },
+    "targeted_tokens": [
+      {
+        "token": "ст_сокращение",
+        "count": 19,
+        "limit": 5,
+        "over_limit": true,
+        "severity": "hard"
+      },
+      {
+        "token": "РФ_рудимент",
+        "count": 1,
+        "limit": 2,
+        "over_limit": false,
+        "severity": "hard"
+      },
+      {
+        "token": "руб_сокращение",
+        "count": 0,
+        "limit": 0,
+        "over_limit": false,
+        "severity": "hard"
+      },
+      {
+        "token": "ООО_бренд",
+        "count": 0,
+        "limit": 3,
+        "over_limit": false,
+        "severity": "hard"
+      },
+      {
+        "token": "000руб_паттерн",
+        "count": 0,
+        "limit": 2,
+        "over_limit": false,
+        "severity": "hard"
+      },
+      {
+        "token": "127фз_закон",
+        "count": 0,
+        "limit": 2,
+        "over_limit": false,
+        "severity": "soft"
+      },
+      {
+        "token": "213_артикул",
+        "count": 0,
+        "limit": 3,
+        "over_limit": false,
+        "severity": "soft"
+      },
+      {
+        "token": "ГПК_кодекс",
+        "count": 0,
+        "limit": 3,
+        "over_limit": false,
+        "severity": "soft"
+      },
+      {
+        "token": "ГК_кодекс",
+        "count": 2,
+        "limit": 3,
+        "over_limit": false,
+        "severity": "soft"
+      },
+      {
+        "token": "000_число",
+        "count": 0,
+        "limit": 8,
+        "over_limit": false,
+        "severity": "soft"
+      },
+      {
+        "token": "cta_формула_повтор",
+        "count": 1,
+        "limit": 1,
+        "over_limit": false,
+        "severity": "soft"
+      }
+    ],
+    "author_markers_count": 2,
+    "author_markers_min": 2
+  },
+  "ai_markers": {
+    "file": "drafts/dolzhnik-skryvaet-imushchestvo-ot-pristavov/article.html",
+    "text_chars": 10151,
+    "hits_total": 3,
+    "density_per_1000": 0.3,
+    "by_severity": {
+      "critical": 0,
+      "high": 0,
+      "medium": 1,
+      "low": 2
+    },
+    "own_voice_hits": 3,
+    "first_person_singular_hits": 0,
+    "hits": [
+      {
+        "name": "ИИ-лексика: «в контексте»",
+        "category": "ai-lexis",
+        "severity": "medium",
+        "match": "в контексте",
+        "position": 5333,
+        "context": "...ез месяц забрал обратно». Про ст. 307 УК (ложные показания) в контексте опроса - вопрос дискуссионный. Формально это про уголовный ..."
+      },
+      {
+        "name": "ИИ-лексика: «взаимодействие/тонкости/нюансы (абстрактно)»",
+        "category": "ai-lexis",
+        "severity": "low",
+        "match": "Взаимодействие",
+        "position": 9958,
+        "context": "...ение law@pravo.shop Коммерческие предложения biz@pravo.shop Взаимодействие со СМИ pr@pravo.shop © 2018-2026 ООО «ЛИКВИДАТОР». Все прав..."
+      },
+      {
+        "name": "Канцелярит: «в рамках» (без нужды)",
+        "category": "clerical",
+        "severity": "low",
+        "match": "в рамках",
+        "position": 9577,
+        "context": "...ровождение на всех этапах. Надежность и законность Работаем в рамках ФЗ и действующего законодательства РФ. РЕКВИЗИТЫ ООО «ЛИКВИ..."
+      }
+    ]
+  },
+  "anti_template": {
+    "file": "drafts/dolzhnik-skryvaet-imushchestvo-ot-pristavov/article.html",
+    "text_chars": 8596,
+    "phrases_loaded": 138,
+    "passed": false,
+    "hits": [
+      {
+        "phrase": "уклонение от погашения кредиторской задолженности",
+        "category": "ст. 213.28 — освобождение от обязательств",
+        "position": 4451,
+        "context": "...ждают. Работают три состава: ст. 177 УК (злостное уклонение от погашения кредиторской задолженности), ст. 195 и 196 УК - неправомерные действия и пре..."
+      }
+    ]
+  },
+  "law_quotes": {
+    "total_chars": 0,
+    "limit": 600,
+    "samples": []
+  },
+  "rhythm": {
+    "file": "drafts/dolzhnik-skryvaet-imushchestvo-ot-pristavov/article.html",
+    "text_chars": 8596,
+    "sentences_total": 95,
+    "avg_sentence_len": 8.67,
+    "short_sentences_count": 17,
+    "short_sentences_share": 0.179,
+    "long_sentences_count": 0,
+    "parasite_count": 1,
+    "parasite_per_1000": 0.12,
+    "flags": []
+  },
+  "internal_links": {
+    "total_hrefs": 40,
+    "ok": 0,
+    "whitelisted": 21,
+    "external": 17,
+    "fixed": 0,
+    "errors": 2,
+    "changed": false,
+    "fix_details": [],
+    "error_details": [
+      {
+        "href": "/articles/vzysk/arest-zarplaty-pristavami-bankrotstvo",
+        "verdict": "error_unknown",
+        "fixed_href": null,
+        "reason": "slug 'arest-zarplaty-pristavami-bankrotstvo' не найден в категории 'vzysk' (есть: fiz)"
+      },
+      {
+        "href": "/articles/vzysk/bankovskie-scheta-pri-bankrotstve",
+        "verdict": "error_unknown",
+        "fixed_href": null,
+        "reason": "slug 'bankovskie-scheta-pri-bankrotstve' не найден в категории 'vzysk' (есть: fiz)"
+      }
+    ]
+  },
+  "recommendations": [
+    "reduce_ст: «ст. X» × 19 → cap 5. Писать «статья X» полным словом, либо описательно («по правилу о процентах», «норма об исковой давности»). Cap 3 юр-цитаты на статью, остальное — пересказом.",
+    "rewrite_unique: перифразировать дословные шаблонные фразы (см. .claude/style/anti-template-phrases.md, секция «Как перифразировать»). Примеры: «уклонение от погашения кредиторской задолженности»",
+    "fix_internal_links: заменить href на канонический /articles/{cat}/{slug} из published_index.json (см. .claude/style/editor-cheatsheet.md секция 6)"
+  ],
+  "retry_count": 2,
+  "predicted_metrics": {
+    "spam_pct": 48,
+    "ai_pct": 3,
+    "uniqueness_pct": 83
+  },
+  "customer_risks": [
+    "уникальность чуть ниже 85% (~83%)",
+    "длина значительно больше лимита 6500 (8 275 знаков)"
+  ]
+}

@@ -29661,5 +29661,64 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-07-23T19:36:15",
+    "category": "yur",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 21,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "yur-149",
+    "topic_slug": "osparivanie-ocenki-imushchestva-bankrotstvo",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "length_soft_passed: 8228 > 6500 но ≤ 8500 и iteration=2 — пропускаем (приоритет spam/uniqueness/ai)"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "finalize_safety_net": {
+      "ran": true,
+      "rc": 0
+    },
+    "status": "ok",
+    "slug": "osparivanie-ocenki-imushchestva-bankrotstvo",
+    "duration_sec": 2504.3,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "    56034\n6-seo-editor        haiku            20       8    69170     25520     69198\n7-publisher         haiku            20       8    39222     25520     39250\n------------------------------------------------------------------------------------------\nИТОГО                               182      95   532640    611379    532917\nBillable-токенов на статью: ~532K (cache_read 611K не считается в лимит подписки).\nАртефакты: drafts/osparivanie-ocenki-imushchestva-bankrotstvo/  | quality_gate exit=0",
+    "stderr_tail": "",
+    "tokens_by_model": {},
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 8228
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]

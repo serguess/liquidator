@@ -1,0 +1,111 @@
+{
+  "slug": "dolzhnik-skryvaet-imushchestvo-ot-pristavov",
+  "category": "vzysk",
+  "title": "Скрытие имущества от приставов: наказание и как это доказать",
+  "description": "Чем грозит скрытие имущества от приставов. Уголовное и административное наказание, штрафы. Как доказать скрытие активов. Ответственность должника.",
+  "h1": "Должник скрывает имущество от приставов: последствия и ответственность",
+  "lead": "Разбираем, как ФССП находит скрытые активы через запросы в реестры и банки, чем рискует должник - от штрафа до уголовного дела - и что делать взыскателю, если он подозревает вывод.",
+  "topic_action": "снятие ареста и разбор ситуации с приставом",
+  "breadcrumb_current": "Скрытие имущества от приставов",
+  "og_image": "/assets/articles/dolzhnik-skryvaet-imushchestvo-ot-pristavov.jpg",
+  "main_keyword": "должник скрывает имущество от приставов",
+  "secondary_keywords": [
+    "скрытие имущества от приставов",
+    "ответственность за скрытие имущества",
+    "как найти скрытое имущество должника",
+    "штраф за скрытие имущества",
+    "преступление скрытие имущества должника",
+    "наказание за сокрытие активов",
+    "уголовная ответственность за скрытие средств",
+    "фальсификация декларации имущества при банкротстве"
+  ],
+  "internal_links": [
+    "/articles/vzysk/arest-zarplaty-pristavami-bankrotstvo",
+    "/articles/vzysk/bankovskie-scheta-pri-bankrotstve"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_71038/",
+    "https://www.consultant.ru/document/cons_doc_LAW_34661/"
+  ],
+  "faq": [
+    {
+      "question": "Что считается скрытием и как это доказывают?",
+      "answer": "Неполные или недостоверные сведения либо молчание о существующих счетах, недвижимости, транспорте и доходах после требования. Доказательства собирают по итогам запросов в банки и реестры: расхождение между объяснениями гражданина и данными ФНС, Росреестра, ГИБДД и есть основной аргумент."
+    },
+    {
+      "question": "Возбудят ли уголовное дело за продажу машины перед взысканием?",
+      "answer": "Могут, если доказан умысел и значительный размер. Просто продажа - не преступление; продажа за символическую цену родственнику накануне возбуждения - уже повод для проверки по ст. 177 или 195 УК и оспаривания сделки в суде."
+    },
+    {
+      "question": "Сколько уходит на проверку банков и реестров?",
+      "answer": "Госорган отвечает в срок до пяти рабочих дней. На практике полный круг запросов занимает от двух недель до полутора месяцев - в зависимости от загрузки подразделения."
+    },
+    {
+      "question": "Могут ли повторно открыть дело, если активы всплыли после закрытия?",
+      "answer": "Да. Если исполнительный документ ещё действует по срокам предъявления, взыскатель вправе повторно предъявить его. Обнаружение ранее скрытых вещей - типовое основание для возобновления работы по делу."
+    },
+    {
+      "question": "Как подать жалобу на бездействие?",
+      "answer": "Первая инстанция - старший судебный пристав подразделения (ст. 123 ФЗ-229). Жалоба письменная, с указанием, какие запросы не сделаны и какие сведения не проверены. Срок ответа - до тридцати дней. Дальше - в суд общей юрисдикции (ст. 128)."
+    },
+    {
+      "question": "Нужно ли доказывать умысел для административной ответственности?",
+      "answer": "Для административного состава по ст. 17.14 и 17.19 КоАП умысел доказывать не требуется - достаточно факта непредоставления сведений по требованию. Для уголовной ответственности умысел обязателен: без него дело не возбудят, даже если сокрытие подтверждено документально."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все ключевые факты сверены с research.json, last_verified 2026-07-24.",
+    "Ст. 69-70 ФЗ-229 (обязанность раскрытия): active, context_check_passed=true. Используется корректно.",
+    "Ст. 177, 195, 196 УК (уголовная ответственность): needs_verification, contested. Применена safe_phrasing без конкретных размеров наказаний; три обязательных условия (умысел, значительный размер, конкретные действия) указаны корректно.",
+    "Ст. 17.14, 17.19 КоАП (административная ответственность): needs_verification. Применена safe_phrasing без конкретных цифр; указано что суммы пересматривались в 2024-2025.",
+    "Ст. 112 ФЗ-229 (исполнительский сбор 7%, минимум 1000 руб.): active, context_check_passed=true. Контекст применения корректен.",
+    "Ст. 71 ФЗ-229 (розыск активов через запросы, 5 рабочих дней): active, context_check_passed=true. Используется корректно.",
+    "Ст. 123, 128 ФЗ-229 (жалоба, 15-30 дней): active, context_check_passed=true. В тексте «от десяти до тридцати дней» - покрывает диапазон safe_phrasing.",
+    "Ст. 307 УК (ложные показания): needs_verification, contested. Применимость к исполнительному производству оставлена как дискуссионная - осторожная формулировка из safe_phrasing f8.",
+    "Forbidden claims соблюдены: скрытие не гарантирует уголовное преследование (явно указано), пристав не всегда находит активы (ограничения описаны в отдельном H3), смешение банкротства и исполнительного производства в тексте отсутствует."
+  ],
+  "keyword_density_main": 0.012,
+  "main_keyword_exact_count": 2,
+  "text_chars": 8275,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.083,
+  "local_spam_ngram3_repeat": 0.016,
+  "local_lexical_diversity": 0.68,
+  "local_ai_markers_density": 0.3,
+  "local_ai_markers_critical": 0,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1784843230/articles/dolzhnik-skryvaet-imushchestvo-ot-pristavov-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1784843230/articles/dolzhnik-skryvaet-imushchestvo-ot-pristavov-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Exterior photograph of a contemporary administrative building at street level during heavy rain and dense fog. Glass façade reflects the wet pavement; soft amber lampposts glow through the haze, illuminating wet stone steps. Distant silhouettes of figures with black umbrellas move through the scene (faceless, far away, obscured by weather). Oxidized brass plaque on the entry pillar subtly visible. Camera: low-angle, angled across the wet surface or reflecting in puddle. Palette: cool blue-grey with warm amber pin-points. Lighting: diffuse daylight filtered through rain and fog, street lamps providing warm contrast. Mood: contemporary urban legal confrontation, concealment against administrative oversight, hidden assets evading institutional reach.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-07-23T21:47:11Z",
+  "length_status": "too_long",
+  "length_kind": "default",
+  "local_ai_markers_total": 3,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 3,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 48,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 83,
+  "customer_risks": [
+    "уникальность чуть ниже 85% (~83%)",
+    "длина значительно больше лимита 6500 (8 275 знаков)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "targeted_tokens_over_limit: ст_сокращение=19(>≤5)",
+    "anti_template_phrases: 1 вхождений (1 уникальных)",
+    "broken_internal_links: 2 ссылок без соответствия в published_index (/articles/vzysk/arest-zarplaty-pristavami-bankrotstvo: slug 'arest-zarplaty-pristavami-bankrotstvo' не найден в категории 'vzysk' (есть: fiz); /articles/vzysk/bankovskie-scheta-pri-bankrotstve: slug 'bankovskie-scheta-pri-bankrotstve' не найден в категории 'vzysk' (есть: fiz))"
+  ],
+  "date_published": "2026-07-24",
+  "date_modified": "2026-07-24",
+  "ready_for_review": true,
+  "ready_at": "2026-07-23T21:47:15Z",
+  "publication_target": "telegram_review"
+}
