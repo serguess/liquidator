@@ -1,0 +1,105 @@
+{
+  "slug": "bankrotstvo-kompanii-aktivy-prevyshayut-dolgi-otmena",
+  "category": "news",
+  "title": "ВС: активы больше долгов - банкротство отменяется",
+  "description": "Верховный суд пояснил: компанию нельзя признать банкротом, если её активы превышают задолженность. Что это значит для должников и кредиторов.",
+  "h1": "Решение Верховного суда: компанию нельзя банкротить, если активы больше долгов",
+  "lead": "В июле 2026 года Верховный суд подтвердил: компанию нельзя признать несостоятельной, если её активы превышают обязательства перед кредиторами.",
+  "topic_action": "консультацию по банкротству компании",
+  "breadcrumb_current": "Активы больше долгов: решение ВС",
+  "og_image": "/assets/articles/bankrotstvo-kompanii-aktivy-prevyshayut-dolgi-otmena.jpg",
+  "main_keyword": "банкротство компании активы больше долгов",
+  "secondary_keywords": [
+    "активы превышают задолженность банкротство",
+    "компания не может быть банкротом активы",
+    "практика верховного суда банкротство",
+    "имущество больше долгов",
+    "когда компания не банкротится",
+    "решение ВС банкротство компании",
+    "активы и пассивы компании"
+  ],
+  "intent": "informational",
+  "funnel_stage": "warm",
+  "article_type": "B",
+  "offer": "proverka-spisaniya",
+  "event_date": "2026-07-15",
+  "news_zone": "vs_practice",
+  "internal_links": [
+    "/articles/yur/osparivanie-ocenki-imushchestva-bankrotstvo",
+    "/articles/vzysk/dolzhnik-skryvaet-imushchestvo-ot-pristavov",
+    "/articles/yur/bankrotstvo-cherez-mirovoe-soglashenie-bez-zaloga"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/",
+    "https://rapsinews.ru/judicial_analyst/20260715/312034981.html"
+  ],
+  "faq": [
+    {
+      "question": "Может ли заявитель оспорить оценку и всё же добиться открытия процедуры?",
+      "answer": "Да. Он вправе заказать свою экспертизу или ходатайствовать о судебной. Если новая оценка покажет более низкую стоимость имущества компании, арбитраж будет исходить уже из неё."
+    },
+    {
+      "question": "Чем балансовая стоимость отличается от рыночной для арбитража?",
+      "answer": "Балансовая - это учётная цифра, часто искажённая амортизацией и переоценками. Рыночная - реальная цена продажи сегодня. Арбитраж ориентируется на вторую: именно она покажет, хватит ли ресурсов на расчёт с кредиторами."
+    },
+    {
+      "question": "Что происходит с долгом при отказе в признании фирмы несостоятельной?",
+      "answer": "Обязательство никуда не исчезает. Взыскатель идёт стандартным путём: исполнительный лист, приставы, обращение на счета. Остаются варианты мирового соглашения и реструктуризации графика платежей."
+    },
+    {
+      "question": "Обязательно ли привлекать независимого оценщика?",
+      "answer": "Формально закон не требует отчёт к моменту подачи возражения. Но без него сравнение активов и обязательств выглядит голословным. Рекомендуем готовить документ заранее - это основа, на которую смотрит арбитраж."
+    },
+    {
+      "question": "Работает ли позиция, когда заявление подаёт сам должник?",
+      "answer": "Ситуация симметричная. Если у компании активов больше, чем долгов, признаков несостоятельности нет - и оснований для собственного обращения тоже нет. Положительный баланс арбитраж отклонит."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "f4 (позиция ВС июль 2026) - конкретный номер определения не установлен; в тексте используется формулировка «сложившаяся практика», указана ссылка на РАПСИ от 15 июля 2026 как первичный источник (fact_gap.fallback_used)",
+    "f1, f6 (ст. 6 127-ФЗ) - legislation_status: active, last_verified: 2026-07-24; критерий «неспособность удовлетворить требования кредиторов» применён корректно, не смешивается с другими процедурами",
+    "f5 (ст. 110-112 127-ФЗ, рыночная оценка) - legislation_status: active; упомянут как «110-112-я норма закона» без прямой цитаты, контекст применения верен",
+    "Запрещённые утверждения из forbidden_claims отсутствуют: не утверждается автоматический запрет банкротства; оговорка об оспоримости оценки и скрытых обязательствах явно присутствует в тексте"
+  ],
+  "keyword_density_main": null,
+  "main_keyword_exact_count": null,
+  "text_chars": 6453,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.111,
+  "local_spam_ngram3_repeat": 0.016,
+  "local_lexical_diversity": 0.662,
+  "local_ai_markers_density": 0.24,
+  "local_ai_markers_critical": 0,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1784872386/articles/bankrotstvo-kompanii-aktivy-prevyshayut-dolgi-otmena-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1784872386/articles/bankrotstvo-kompanii-aktivy-prevyshayut-dolgi-otmena-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Photograph through rain-streaked glass of a contemporary financial building, viewed from inside a workspace. Window beaded with raindrops frames the urban district beyond. Foreground on the windowsill in sharp focus: a closed thin laptop, a white porcelain coffee cup on saucer, a leather notebook with fountain pen resting across it, reading glasses positioned nearby as if recently set down. Background through raindrops: glass building façade reflecting wet street and distant amber glowing lampposts. Camera: eye-level, tight through wet glass. Lighting: cool overcast daylight from outside merging with warm interior glow from desk lamp, creating bright highlights on workspace surfaces. Palette: cool blue-grey rain and glass with warm cream and brass accents. Mood: financial clarity and relief — assets reconciled, thorough accounting complete, resolution amid storm.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-07-24T05:53:07Z",
+  "length_status": "too_long",
+  "length_kind": "news",
+  "local_ai_markers_total": 2,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 3,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 47,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 90,
+  "customer_risks": [
+    "длина значительно больше лимита 5500 (6 453 знаков)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "broken_internal_links: 3 ссылок без соответствия в published_index (/articles/yur/osparivanie-ocenki-imushchestva-bankrotstvo: slug 'osparivanie-ocenki-imushchestva-bankrotstvo' не найден в категории 'yur' (есть: нигде); /articles/vzysk/dolzhnik-skryvaet-imushchestvo-ot-pristavov: slug 'dolzhnik-skryvaet-imushchestvo-ot-pristavov' не найден в категории 'vzysk' (есть: нигде); /articles/yur/bankrotstvo-cherez-mirovoe-soglashenie-bez-zaloga: slug 'bankrotstvo-cherez-mirovoe-soglashenie-bez-zaloga' не найден в категории 'yur' (есть: нигде))"
+  ],
+  "date_published": "2026-07-24",
+  "date_modified": "2026-07-24",
+  "ready_for_review": true,
+  "ready_at": "2026-07-24T05:53:08Z",
+  "publication_target": "telegram_review"
+}

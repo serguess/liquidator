@@ -4893,6 +4893,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "bankrotstvo-kompanii-aktivy-prevyshayut-dolgi-otmena",
+      "category": "news",
+      "title": "ВС: активы больше долгов - банкротство отменяется",
+      "added_at": "2026-07-24T08:53:08.765112",
+      "char_count": 6453,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1784872386/articles/bankrotstvo-kompanii-aktivy-prevyshayut-dolgi-otmena-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
