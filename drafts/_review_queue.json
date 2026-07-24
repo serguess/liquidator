@@ -4880,6 +4880,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "saldirovanie-trebovanij-bankrotstvo-zakonno",
+      "category": "news",
+      "title": "Сальдирование требований в банкротстве: судебная практика",
+      "added_at": "2026-07-24T05:27:02.918747",
+      "char_count": 7349,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1784860016/articles/saldirovanie-trebovanij-bankrotstvo-zakonno-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

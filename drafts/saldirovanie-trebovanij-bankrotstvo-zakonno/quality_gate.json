@@ -1,0 +1,275 @@
+{
+  "file": "/home/appuser/apps/liquidator/drafts/saldirovanie-trebovanij-bankrotstvo-zakonno/article.html",
+  "passed": true,
+  "hard_failed": false,
+  "blockers": [],
+  "warnings": [
+    "length_soft_passed: 7349 > 5500 но ≤ 7500 и iteration=2 — пропускаем (приоритет spam/uniqueness/ai)",
+    "forced_pass_at_iter2: блокеры пропущены, статья идёт в TG-очередь с metrics_warning=true. Было: 1 блокеров — spam_risk"
+  ],
+  "autofix": {
+    "file": "/home/appuser/apps/liquidator/drafts/saldirovanie-trebovanij-bankrotstvo-zakonno/article.html",
+    "abbreviation_fixes": {},
+    "punctuation_fixes": 0,
+    "em_dash_fixes": 0,
+    "eng_quotes_fixes": 0,
+    "yo_fixes": 0,
+    "hyphen_fixes": 0,
+    "changed": false,
+    "bytes_before": 41176,
+    "bytes_after": 41176
+  },
+  "quality_checks": {
+    "file": "drafts/saldirovanie-trebovanij-bankrotstvo-zakonno/article.html",
+    "text_chars": 7349,
+    "length_status": "too_long",
+    "length_kind": "news",
+    "passed": false,
+    "abbreviation_hits": [],
+    "punctuation_hits": [],
+    "hyphen_compound_hits": [],
+    "spam": {
+      "total_words": 704,
+      "unique_lemmas": 410,
+      "lexical_diversity": 0.582,
+      "top10_words": [
+        [
+          "кредитор",
+          9
+        ],
+        [
+          "банкротств",
+          8
+        ],
+        [
+          "взаимк",
+          8
+        ],
+        [
+          "гражданск",
+          8
+        ],
+        [
+          "кодекс",
+          8
+        ],
+        [
+          "обязательств",
+          8
+        ],
+        [
+          "заявлен",
+          7
+        ],
+        [
+          "стад",
+          7
+        ],
+        [
+          "банкротн",
+          7
+        ],
+        [
+          "норм",
+          7
+        ]
+      ],
+      "top10_share": 0.109,
+      "top1_count": 9,
+      "top3_sum": 25,
+      "top10_sum": 77,
+      "ngram3_repeat_count": 47,
+      "ngram3_total": 702,
+      "ngram3_repeat_share": 0.067,
+      "risk_flags": [
+        "ngram3_repeat_share>0.055 (=0.067)"
+      ],
+      "word_warnings": []
+    },
+    "targeted_tokens": [
+      {
+        "token": "ст_сокращение",
+        "count": 3,
+        "limit": 5,
+        "over_limit": false,
+        "severity": "hard"
+      },
+      {
+        "token": "РФ_рудимент",
+        "count": 1,
+        "limit": 2,
+        "over_limit": false,
+        "severity": "hard"
+      },
+      {
+        "token": "руб_сокращение",
+        "count": 0,
+        "limit": 0,
+        "over_limit": false,
+        "severity": "hard"
+      },
+      {
+        "token": "ООО_бренд",
+        "count": 0,
+        "limit": 3,
+        "over_limit": false,
+        "severity": "hard"
+      },
+      {
+        "token": "000руб_паттерн",
+        "count": 0,
+        "limit": 2,
+        "over_limit": false,
+        "severity": "hard"
+      },
+      {
+        "token": "127фз_закон",
+        "count": 1,
+        "limit": 2,
+        "over_limit": false,
+        "severity": "soft"
+      },
+      {
+        "token": "213_артикул",
+        "count": 0,
+        "limit": 3,
+        "over_limit": false,
+        "severity": "soft"
+      },
+      {
+        "token": "ГПК_кодекс",
+        "count": 0,
+        "limit": 3,
+        "over_limit": false,
+        "severity": "soft"
+      },
+      {
+        "token": "ГК_кодекс",
+        "count": 2,
+        "limit": 3,
+        "over_limit": false,
+        "severity": "soft"
+      },
+      {
+        "token": "000_число",
+        "count": 0,
+        "limit": 8,
+        "over_limit": false,
+        "severity": "soft"
+      },
+      {
+        "token": "cta_формула_повтор",
+        "count": 1,
+        "limit": 1,
+        "over_limit": false,
+        "severity": "soft"
+      }
+    ],
+    "author_markers_count": 1,
+    "author_markers_min": 2
+  },
+  "ai_markers": {
+    "file": "drafts/saldirovanie-trebovanij-bankrotstvo-zakonno/article.html",
+    "text_chars": 9205,
+    "hits_total": 5,
+    "density_per_1000": 0.54,
+    "by_severity": {
+      "critical": 0,
+      "high": 0,
+      "medium": 0,
+      "low": 5
+    },
+    "own_voice_hits": 1,
+    "first_person_singular_hits": 0,
+    "hits": [
+      {
+        "name": "ИИ-лексика: «взаимодействие/тонкости/нюансы (абстрактно)»",
+        "category": "ai-lexis",
+        "severity": "low",
+        "match": "тонкость",
+        "position": 3185,
+        "context": "...ы, одностороннее заявление о взаимке юридически чисто. Есть тонкость: даже здесь управляющий позднее может оспорить операцию как..."
+      },
+      {
+        "name": "ИИ-лексика: «взаимодействие/тонкости/нюансы (абстрактно)»",
+        "category": "ai-lexis",
+        "severity": "low",
+        "match": "Взаимодействие",
+        "position": 9012,
+        "context": "...ение law@pravo.shop Коммерческие предложения biz@pravo.shop Взаимодействие со СМИ pr@pravo.shop © 2018-2026 ООО «ЛИКВИДАТОР». Все прав..."
+      },
+      {
+        "name": "Канцелярит: «в рамках» (без нужды)",
+        "category": "clerical",
+        "severity": "low",
+        "match": "в рамках",
+        "position": 1289,
+        "context": "...режим 127-ФЗ: погашение встречных претензий возможно только в рамках конкурсной массы и с обязательным соблюдением очередности. ..."
+      },
+      {
+        "name": "Канцелярит: «в рамках» (без нужды)",
+        "category": "clerical",
+        "severity": "low",
+        "match": "в рамках",
+        "position": 3608,
+        "context": "...ных претензий возможно только в пределах конкурсной массы и в рамках очередности, установленной ст. 134-136 закона о банкротстве..."
+      },
+      {
+        "name": "Канцелярит: «в рамках» (без нужды)",
+        "category": "clerical",
+        "severity": "low",
+        "match": "в рамках",
+        "position": 8631,
+        "context": "...ровождение на всех этапах. Надежность и законность Работаем в рамках ФЗ и действующего законодательства РФ. РЕКВИЗИТЫ ООО «ЛИКВИ..."
+      }
+    ]
+  },
+  "anti_template": {
+    "file": "drafts/saldirovanie-trebovanij-bankrotstvo-zakonno/article.html",
+    "text_chars": 7740,
+    "phrases_loaded": 138,
+    "passed": true,
+    "hits": []
+  },
+  "law_quotes": {
+    "total_chars": 0,
+    "limit": 600,
+    "samples": []
+  },
+  "rhythm": {
+    "file": "drafts/saldirovanie-trebovanij-bankrotstvo-zakonno/article.html",
+    "text_chars": 7740,
+    "sentences_total": 87,
+    "avg_sentence_len": 8.79,
+    "short_sentences_count": 23,
+    "short_sentences_share": 0.264,
+    "long_sentences_count": 0,
+    "parasite_count": 3,
+    "parasite_per_1000": 0.39,
+    "flags": []
+  },
+  "internal_links": {
+    "total_hrefs": 39,
+    "ok": 1,
+    "whitelisted": 21,
+    "external": 17,
+    "fixed": 0,
+    "errors": 0,
+    "changed": false,
+    "fix_details": [],
+    "error_details": []
+  },
+  "recommendations": [
+    "reduce_repetition: разбавить топ-5 частотных лемм местоимениями/перифразом — ['кредитор', 'банкротств', 'взаимк', 'гражданск', 'кодекс']"
+  ],
+  "retry_count": 2,
+  "predicted_metrics": {
+    "spam_pct": 60,
+    "ai_pct": 8,
+    "uniqueness_pct": 87
+  },
+  "customer_risks": [
+    "заспамленность заметно выше 50% (~60%)",
+    "длина значительно больше лимита 5500 (7 349 знаков)"
+  ]
+}

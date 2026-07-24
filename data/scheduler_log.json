@@ -29720,5 +29720,69 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-07-24T00:24:21",
+    "category": "vzysk",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 22,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "vzysk-129",
+    "topic_slug": "dolzhnik-skryvaet-imushchestvo-ot-pristavov",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "length_soft_passed: 8275 > 6500 но ≤ 8500 и iteration=2 — пропускаем (приоритет spam/uniqueness/ai)",
+        "forced_pass_at_iter2: блокеры пропущены, статья идёт в TG-очередь с metrics_warning=true. Было: 3 блокеров — targeted_tokens_over_limit; anti_template_phrases; broken_internal_links"
+      ],
+      "recommendations": [
+        "reduce_ст: «ст. X» × 19 → cap 5. Писать «статья X» полным словом, либо описательно («по правилу о процентах», «норма об исковой давности»). Cap 3 юр-цитаты на статью, остальное — пересказом.",
+        "rewrite_unique: перифразировать дословные шаблонные фразы (см. .claude/style/anti-template-phrases.md, секция «Как перифразировать»). Примеры: «уклонение от погашения кредиторской задолженности»",
+        "fix_internal_links: заменить href на канонический /articles/{cat}/{slug} из published_index.json (см. .claude/style/editor-cheatsheet.md секция 6)"
+      ],
+      "stderr_tail": ""
+    },
+    "finalize_safety_net": {
+      "ran": true,
+      "rc": 0
+    },
+    "status": "ok",
+    "slug": "dolzhnik-skryvaet-imushchestvo-ot-pristavov",
+    "duration_sec": 1373.6,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "    53038\n6-seo-editor        sonnet            6      16    66778     25156     66800\n7-publisher         haiku            20       8    39222     25520     39250\n------------------------------------------------------------------------------------------\nИТОГО                                90      78   402262    268115    402430\nBillable-токенов на статью: ~402K (cache_read 268K не считается в лимит подписки).\nАртефакты: drafts/dolzhnik-skryvaet-imushchestvo-ot-pristavov/  | quality_gate exit=0",
+    "stderr_tail": "",
+    "tokens_by_model": {},
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 8275
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]

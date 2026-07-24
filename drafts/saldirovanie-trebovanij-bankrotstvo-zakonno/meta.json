@@ -1,0 +1,108 @@
+{
+  "slug": "saldirovanie-trebovanij-bankrotstvo-zakonno",
+  "category": "news",
+  "title": "Сальдирование требований в банкротстве: судебная практика",
+  "description": "Когда кредитор может применить зачёт требований при банкротстве должника. Разбор ограничений сальдирования и судебной практики.",
+  "h1": "Сальдирование и зачёт требований в банкротстве: когда это законно",
+  "lead": "Всё решает стадия дела: до введения конкурса действует общий порядок ГК, после - специальный режим 127-ФЗ.",
+  "topic_action": "консультацию по зачёту требований в банкротстве",
+  "breadcrumb_current": "Сальдирование в банкротстве",
+  "og_image": "/assets/articles/saldirovanie-trebovanij-bankrotstvo-zakonno.jpg",
+  "main_keyword": "сальдирование требований банкротство",
+  "secondary_keywords": [
+    "зачёт требований в банкротстве",
+    "когда законно сальдирование",
+    "сальдирование при банкротстве должника",
+    "взаимные требования кредитора и должника",
+    "статья 410 ГК взаимные требования",
+    "сальдирование в конкурсном производстве",
+    "ограничения на зачёт в банкротстве"
+  ],
+  "intent": "informational",
+  "funnel_stage": "cold",
+  "article_type": "B",
+  "offer": "proverka-spisaniya",
+  "event_date": "2026-07-17",
+  "news_zone": "vs_practice",
+  "internal_links": [
+    "/articles/fiz/alimenty-pri-bankrotstve-fizlica"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_9995/",
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/"
+  ],
+  "faq": [
+    {
+      "question": "Можно ли применить зачёт до того, как суд введёт конкурсное производство?",
+      "answer": "Да, на этом отрезке действует общая норма гражданского кодекса о зачёте. Достаточно одностороннего заявления партнёру при однородности предметов и наступивших сроках. Риск оспаривания как сделки с предпочтением остаётся - если операция прошла в подозрительный период до открытия дела."
+    },
+    {
+      "question": "Что происходит с претензией кредитора после её включения в реестр?",
+      "answer": "Она встаёт в свою очередь по ст. 134-136 закона о банкротстве. С этого момента отдельное одностороннее прекращение обязательства невозможно - только через процедурные правила специального закона и в пределах конкурсной массы."
+    },
+    {
+      "question": "Какие долги нельзя закрыть встречкой ни при каких обстоятельствах?",
+      "answer": "Текущие платежи, алименты, компенсация вреда жизни и здоровью, моральный ущерб от преступления. Плюс любые обязательства, где предметы неоднородны - денежное против передачи вещи или услуги."
+    },
+    {
+      "question": "Чем сальдирование отличается от обычного зачёта?",
+      "answer": "Сальдирование опирается на единый расчёт между сторонами встречных договоров: вывод итоговой суммы, а не одностороннее прекращение. Стандартный зачёт по гражданскому кодексу - действие одной стороны. В банкротной практике эта разница влияет на квалификацию: сальдо часто удаётся защитить от оспаривания там, где обычная взаимка признаётся сделкой с предпочтением."
+    },
+    {
+      "question": "Обязательно ли подтверждать право на зачёт в арбитражном суде?",
+      "answer": "Если дело о несостоятельности возбуждено - да. Верховный суд требует полного обоснования: расчёты, акты сверки, документы о сроках. Заявление без пакета арбитраж отклонит."
+    },
+    {
+      "question": "Распространяются ли ограничения на реструктуризацию долгов гражданина?",
+      "answer": "Нет. При реструктуризации применяется общее правило гражданского кодекса. Специальный режим ликвидационной фазы к этой процедуре не подключается, потому что цель у неё восстановительная."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "f9 (зачёт по иностранному праву) помечен needs_verification и contested - использована safe_phrasing из research.json: 'Суды применяют общие правила специального режима, но единого разъяснения Верховного суда пока нет'",
+    "Все остальные факты: last_verified 2026-07-23, legislation_status active, context_check_passed true",
+    "Запрещённые утверждения из forbidden_claims отсутствуют в тексте",
+    "Внутренняя ссылка /blog/alimenty-pri-bankrotstve-fizlica/ исправлена на /articles/fiz/alimenty-pri-bankrotstve-fizlica (приведена к формату /articles/{category}/{slug})"
+  ],
+  "keyword_density_main": null,
+  "main_keyword_exact_count": null,
+  "text_chars": 7349,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.109,
+  "local_spam_ngram3_repeat": 0.067,
+  "local_lexical_diversity": 0.582,
+  "local_ai_markers_density": 0.54,
+  "local_ai_markers_critical": 0,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1784860016/articles/saldirovanie-trebovanij-bankrotstvo-zakonno-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1784860016/articles/saldirovanie-trebovanij-bankrotstvo-zakonno-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Close-up architectural photograph of weathered stone columns, polished marble staircase treads, and carved arches inside a courthouse or judicial administrative building. Camera: low-angle looking up the columns, or diagonal across worn marble surfaces. Foreground detail: a closed dark leather portfolio resting on a marble step, adding subtle reference to case documentation without dominating the frame. Materials: weathered limestone, polished grey marble with veining detail, oxidized brass architectural elements, cast-iron railings. Lighting: cool morning daylight filtering through high windows, or warm golden-hour glow revealing marble grain and stone texture. Palette: cool grey-white marble, warm sandstone undertones, weathered brass. Mood: weight of precedent, judicial authority, established legal tradition and settled jurisprudence.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-07-24T02:26:57Z",
+  "length_status": "too_long",
+  "length_kind": "news",
+  "local_ai_markers_total": 5,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 1,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 60,
+  "predicted_ai_pct": 8,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность заметно выше 50% (~60%)",
+    "длина значительно больше лимита 5500 (7 349 знаков)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "spam_risk: 1 флагов (ngram3_repeat_share>0.055 (=0.067)), top-5: ['кредитор', 'банкротств', 'взаимк', 'гражданск', 'кодекс']"
+  ],
+  "date_published": "2026-07-24",
+  "date_modified": "2026-07-24",
+  "ready_for_review": true,
+  "ready_at": "2026-07-24T02:27:02Z",
+  "publication_target": "telegram_review"
+}
