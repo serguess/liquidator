@@ -4906,6 +4906,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "bankrotstvo-fizlica-s-dejstvuyushchim-ip",
+      "category": "fiz",
+      "title": "Банкротство физлица с ИП: порядок и риски",
+      "added_at": "2026-07-24T14:56:46.684630",
+      "char_count": 7481,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1784894205/articles/bankrotstvo-fizlica-s-dejstvuyushchim-ip-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

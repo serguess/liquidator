@@ -1,0 +1,108 @@
+{
+  "slug": "bankrotstvo-fizlica-s-dejstvuyushchim-ip",
+  "category": "fiz",
+  "title": "Банкротство физлица с ИП: порядок и риски",
+  "description": "Как объявить себя банкротом, если у вас есть действующее ИП. Порядок процедуры, что входит в конкурсную массу, риски для бизнеса и ограничения после завершения.",
+  "h1": "Банкротство физлица с действующим ИП: порядок, последствия и риски",
+  "lead": "Разбираем, что происходит с регистрацией ИП, конкурсной массой и доходами предпринимателя в ходе банкротства физлица.",
+  "topic_action": "проверку ситуации с долгами при действующем ИП",
+  "breadcrumb_current": "Банкротство физлица с ИП",
+  "og_image": "/assets/articles/bankrotstvo-fizlica-s-dejstvuyushchim-ip.jpg",
+  "main_keyword": "банкротство физлица с ип",
+  "secondary_keywords": [
+    "физлицо банкротство и ип",
+    "что будет с ип если банкротство физлица",
+    "действующее ип и банкротство собственника",
+    "порядок банкротства ип физлица",
+    "можно ли подать на банкротство если есть ип",
+    "последствия банкротства физлица для ип",
+    "долги физлица и ип раздельно",
+    "реорганизация ип при банкротстве собственника"
+  ],
+  "internal_links": [
+    "/articles/fiz/alimenty-pri-bankrotstve-fizlica",
+    "/articles/fiz/bankovskie-scheta-pri-bankrotstve"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_5142/",
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/"
+  ],
+  "faq": [
+    {
+      "question": "Закроется ли предпринимательство автоматически после решения арбитража?",
+      "answer": "Нет. Регистрация в ЕГРИП сохраняется, если вы сами не подадите заявление о прекращении. Автоматической ликвидации закон не предусматривает даже после признания банкротом."
+    },
+    {
+      "question": "Могут ли взыскатели бизнес-долгов добраться до квартиры?",
+      "answer": "Могут - если она не единственная. По гражданскому кодексу человек отвечает по обязательствам предпринимательства всей своей собственностью, кроме объектов из перечня ст. 446 ГПК РФ."
+    },
+    {
+      "question": "Как доход от микробизнеса влияет на план платежей?",
+      "answer": "Он полностью учитывается. Из совокупного потока выделяется прожиточный минимум на вас и иждивенцев, разумные траты на ведение дела, а остаток идёт заимодавцам по утверждённому графику."
+    },
+    {
+      "question": "Что будет с лицензией на медицинскую практику?",
+      "answer": "Возможно переоформление или подтверждение соответствия квалификационным требованиям. Единого правила нет: каждое лицензирующее ведомство решает по своему регламенту. Обратитесь туда до подачи заявления."
+    },
+    {
+      "question": "Нужно ли снимать ЕГРИП с учёта перед подачей на внесудебное списание?",
+      "answer": "Формально нет. Но живой доход от предпринимательства почти всегда становится причиной отказа МФЦ. Инспектор откажет, если увидит, что взыскивать ещё есть с чего."
+    },
+    {
+      "question": "Какие операции управляющий может отменить?",
+      "answer": "Любые крупные за три года: продажу активов по заниженной цене, дарение родственникам, переуступку контрактов дружественным лицам. Основание - ст. 61.2 127-ФЗ."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все факты сверены с research.json, legislation_status: active, last_verified: 2026-07-24 для всех ключевых утверждений.",
+    "ПМ 20 644 руб. (ФЗ-426 от 28.11.2025) - верифицирован (f3).",
+    "Диапазон МФЦ 25 000-1 000 000 руб., поправки ФЗ-474 от 04.11.2023 - актуален (f10).",
+    "ст. 23 ГК РФ: физлицо отвечает по долгам ИП всем имуществом - корректный контекст применения, forbidden claim об обратном в тексте отсутствует (f1, f13).",
+    "Конкурсная масса: оборудование, оформленное на физлицо, входит как личная собственность - не противоречит f2, который говорит об имущественном обособлении в ЕГРИП, а не о физических активах.",
+    "Запрет 3 года на руководство по ст. 213.30 п. 3 127-ФЗ - корректно применён (f4, f7).",
+    "Алименты и страховые взносы не списываются - ст. 213.28 п. 5 127-ФЗ, верно (f11, f12).",
+    "Forbidden claims в тексте отсутствуют: нет утверждений об автоматическом закрытии ИП, недоступности взыскания по личным долгам или автосохранении лицензии."
+  ],
+  "keyword_density_main": 0.015,
+  "main_keyword_exact_count": 2,
+  "text_chars": 7481,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.11,
+  "local_spam_ngram3_repeat": 0.036,
+  "local_lexical_diversity": 0.628,
+  "local_ai_markers_density": 0.43,
+  "local_ai_markers_critical": 0,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1784894205/articles/bankrotstvo-fizlica-s-dejstvuyushchim-ip-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1784894205/articles/bankrotstvo-fizlica-s-dejstvuyushchim-ip-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Photograph of a massive ornate entrance to an official judicial building — bronze-bound oak doors with intricate brass studs, carved stone surround with judicial emblems, wide marble steps. Foreground: a closed leather briefcase, a stack of bound legal dossiers tied with cord, a folded umbrella leaned against the doorframe, a polished brass company seal. Camera: dead-on symmetric view of the doorway with slight low-angle to emphasize the threshold. Lighting: cool morning light with long shadows across stone, dramatic side-light revealing wood grain and metal patina. Materials: weathered oak, aged brass, polished marble. Mood: formal entry into a decisive legal process, the threshold before transformation.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-07-24T11:56:46Z",
+  "length_status": "too_long",
+  "length_kind": "default",
+  "local_ai_markers_total": 4,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 2,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 51,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность чуть выше 50% (~51%)",
+    "длина значительно больше лимита 6500 (7 481 знаков)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "targeted_tokens_over_limit: ст_сокращение=6(>≤5)"
+  ],
+  "date_published": "2026-07-24",
+  "date_modified": "2026-07-24",
+  "ready_for_review": true,
+  "ready_at": "2026-07-24T11:56:46Z",
+  "publication_target": "telegram_review"
+}
