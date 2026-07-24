@@ -29907,5 +29907,99 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-07-24T08:53:10",
+    "category": "news",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 25,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "news-113",
+    "topic_slug": "voznagrazdenie-upravlyayushchego-frt-zastrojshchik",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "length_soft_passed: 5569 > 5500 но ≤ 7500 и iteration=2 — пропускаем (приоритет spam/uniqueness/ai)"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "finalize_safety_net": {
+      "ran": true,
+      "rc": 1
+    },
+    "status": "ok",
+    "slug": "voznagrazdenie-upravlyayushchego-frt-zastrojshchik",
+    "duration_sec": 2262.5,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "19\n6-seo-editor        haiku            20       8    59444     25520     59472\n7-publisher         haiku            68      24    54894    222846     54986\n------------------------------------------------------------------------------------------\nИТОГО                               212      82   513394    668606    513688\nBillable-токенов на статью: ~513K (cache_read 668K не считается в лимит подписки).\nАртефакты: drafts/voznagrazdenie-upravlyayushchego-frt-zastrojshchik/  | quality_gate exit=0",
+    "stderr_tail": "",
+    "tokens_by_model": {},
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 5569
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
+  },
+  {
+    "timestamp": "2026-07-24T10:00:09",
+    "category": "fiz",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 26,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "fiz-165",
+    "topic_slug": "bankrotstvo-fizlica-s-dejstvuyushchim-ip",
+    "status": "failed",
+    "slug": "bankrotstvo-fizlica-s-dejstvuyushchim-ip",
+    "duration_sec": 703.5,
+    "returncode": 1,
+    "rescued_after_failure": false,
+    "stdout_tail": "=== 1-semantics (claude haiku) ===\n   ok: 1432 симв., usage in=20 out=10 cache_w=30482 cache_r=25520 billable=30512 ток, 29.4с\n=== 2-legal-research (claude haiku) ===\n   ok: 22043 симв., usage in=106 out=37 cache_w=220847 cache_r=418541 billable=220990 ток, 119.2с\n   ok: 19027 симв., billable=77872 ток (model=sonnet)\n   [outline_validate] exit=0\n=== 4-writer (claude opus) ===\n   ok: 8391 симв., billable=140154 ток, 206.7с\n   [writer self-fix проход 2]",
+    "stderr_tail": "[ERR] rate_limit: put_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard\",\"cache_creation\":{\"ephemeral_1h_input_tokens\":0,\"ephemeral_5m_input_tokens\":0},\"inference_geo\":\"\",\"iterations\":[],\"speed\":\"standard\"},\"modelUsage\":{},\"permission_denials\":[],\"terminal_reason\":\"completed\",\"fast_mode_state\":\"off\",\"uuid\":\"16b952e3-89a8-4ea1-b866-818f72ce94d6\"}\n\n",
+    "tokens_by_model": {},
+    "metrics": null
   }
 ]

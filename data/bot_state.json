@@ -9308,15 +9308,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 2143,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-22T09:13:28",
-      "last_action_at": "2026-07-22T09:13:28",
+      "last_action_at": "2026-07-23T10:00:17",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-07-22T09:13:28"
+      "pending_batch": false,
+      "pending_batch_at": "2026-07-22T09:13:28",
+      "batch_sent_at": "2026-07-23T10:00:17",
+      "batch_fail_count": 0
     },
     "izmeneniya-v-bankrotstve-fizlica-novye-pravila": {
       "category": "fiz",
@@ -9326,15 +9328,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 2145,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-23T00:44:36",
-      "last_action_at": "2026-07-23T00:44:36",
+      "last_action_at": "2026-07-23T10:00:19",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-07-23T00:44:36"
+      "pending_batch": false,
+      "pending_batch_at": "2026-07-23T00:44:36",
+      "batch_sent_at": "2026-07-23T10:00:19",
+      "batch_fail_count": 0
     },
     "bankovskaya-garantiya-pri-bankrotstve-yurlica": {
       "category": "yur",
@@ -9344,15 +9348,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 2147,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-23T05:38:17",
-      "last_action_at": "2026-07-23T05:38:17",
+      "last_action_at": "2026-07-23T10:00:21",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-07-23T05:38:17"
+      "pending_batch": false,
+      "pending_batch_at": "2026-07-23T05:38:17",
+      "batch_sent_at": "2026-07-23T10:00:21",
+      "batch_fail_count": 0
     },
     "novyy-poryadok-zayavleniya-bankrotstvo-kompaniy": {
       "category": "news",
@@ -9362,19 +9368,121 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 2149,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-23T09:03:19",
-      "last_action_at": "2026-07-23T09:03:19",
+      "last_action_at": "2026-07-23T10:00:23",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-07-23T09:03:19"
+      "pending_batch": false,
+      "pending_batch_at": "2026-07-23T09:03:19",
+      "batch_sent_at": "2026-07-23T10:00:23",
+      "batch_fail_count": 0
+    },
+    "ndfl-nalog-pri-bankrotstve-fizlica": {
+      "category": "fiz",
+      "title": "НДФЛ при банкротстве физлица: налоговые последствия",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 2151,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-07-23T15:14:23",
+      "last_action_at": "2026-07-24T10:00:04",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-07-23T15:14:23",
+      "batch_sent_at": "2026-07-24T10:00:04",
+      "batch_fail_count": 0
+    },
+    "osparivanie-ocenki-imushchestva-bankrotstvo": {
+      "category": "yur",
+      "title": "Как оспорить оценку имущества при банкротстве компании",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 2153,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-07-23T20:18:26",
+      "last_action_at": "2026-07-24T10:00:06",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-07-23T20:18:26",
+      "batch_sent_at": "2026-07-24T10:00:06",
+      "batch_fail_count": 0
+    },
+    "dolzhnik-skryvaet-imushchestvo-ot-pristavov": {
+      "category": "vzysk",
+      "title": "Скрытие имущества от приставов: наказание и как это доказать",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 2155,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-07-24T00:47:28",
+      "last_action_at": "2026-07-24T10:00:09",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-07-24T00:47:28",
+      "batch_sent_at": "2026-07-24T10:00:09",
+      "batch_fail_count": 0
+    },
+    "saldirovanie-trebovanij-bankrotstvo-zakonno": {
+      "category": "news",
+      "title": "Сальдирование требований в банкротстве: судебная практика",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 2157,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-07-24T05:27:04",
+      "last_action_at": "2026-07-24T10:00:11",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-07-24T05:27:04",
+      "batch_sent_at": "2026-07-24T10:00:11",
+      "batch_fail_count": 0
+    },
+    "bankrotstvo-kompanii-aktivy-prevyshayut-dolgi-otmena": {
+      "category": "news",
+      "title": "ВС: активы больше долгов - банкротство отменяется",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 2159,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-07-24T08:54:06",
+      "last_action_at": "2026-07-24T10:00:13",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-07-24T08:54:06",
+      "batch_sent_at": "2026-07-24T10:00:13",
+      "batch_fail_count": 0
     }
   },
   "pending_actions": [],
-  "last_batch_date": "2026-07-22",
+  "last_batch_date": "2026-07-24",
   "last_batch_count": 5,
-  "last_batch_at": "2026-07-22T10:00:34"
+  "last_batch_at": "2026-07-24T10:00:13"
 }
