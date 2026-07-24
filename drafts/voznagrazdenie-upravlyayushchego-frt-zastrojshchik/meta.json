@@ -1,0 +1,92 @@
+{
+  "slug": "voznagrazdenie-upravlyayushchego-frt-zastrojshchik",
+  "category": "news",
+  "title": "Управляющий и вознаграждение: выплата Фонда защиты дольщиков",
+  "description": "Судебная практика о праве управляющего на проценты при возмещении убытков Фондом защиты дольщиков. Кто получит вознаграждение и на каких условиях.",
+  "h1": "Вознаграждение управляющего: может ли он получить проценты при возмещении из ФРТ",
+  "lead": "Верховный суд 9 июля 2026 года разобрал вопрос о праве управляющего многоквартирным домом получать вознаграждение при возмещении убытков Фондом защиты дольщиков и дал ответ, который важно понять до подачи иска.",
+  "topic_action": "анализ прав управляющего на выплату из ФРТ",
+  "breadcrumb_current": "Вознаграждение управляющего при компенсации из ФРТ",
+  "og_image": "/assets/articles/voznagrazdenie-upravlyayushchego-frt-zastrojshchik.jpg",
+  "main_keyword": "вознаграждение управляющего фонд",
+  "secondary_keywords": [
+    "фонд защиты дольщиков возмещение убытков",
+    "право управляющего на проценты при компенсации",
+    "судебная практика управляющего жилищного комплекса",
+    "выплата из фонда защиты дольщиков кому идёт",
+    "вознаграждение управляющего при возмещении ущерба",
+    "судебное решение о вознаграждении управляющего"
+  ],
+  "intent": "informational",
+  "funnel_stage": "warm",
+  "article_type": "B",
+  "offer": "proverka-spisaniya",
+  "event_date": "2026-07-09",
+  "news_zone": "vs_practice",
+  "internal_links": [],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_25640/",
+    "https://www.consultant.ru/document/cons_doc_LAW_5142/",
+    "https://www.consultant.ru/document/cons_doc_LAW_16602/"
+  ],
+  "faq": [
+    {
+      "question": "Может ли управляющий претендовать на часть выплаты без статуса дольщика?",
+      "answer": "Может, но не автоматически. Придётся доказать причинную связь между затратами и срывом обязательств застройщика, подтвердить расчёт первичкой и обосновать требование в суде."
+    },
+    {
+      "question": "Чем вознаграждение отличается от права дольщика на компенсацию?",
+      "answer": "Плата за эксплуатацию регулируется соглашением с жильцами и вносится по тарифу. Сумма покупателю - целевая, за неисполнение ДДУ. Это два разных денежных потока с разной правовой природой."
+    },
+    {
+      "question": "Какие документы нужны для включения затрат в убытки?",
+      "answer": "Действующее соглашение об эксплуатации, акты работ, счета, платёжные поручения, ведомости начислений и оплат. Расчёт с обоснованием каждой строки. Без первички суды заявления не удовлетворяют."
+    },
+    {
+      "question": "Что будет с долгом перед управляющим при банкротстве застройщика?",
+      "answer": "Задолженность включается в реестр требований кредиторов на общих основаниях. Очерёдность определяется процедурой. Автоматической привязки к возвращённым покупателю средствам у такого требования нет."
+    },
+    {
+      "question": "Распространяется ли решение ВС на другие споры?",
+      "answer": "Позиция кассации формирует ориентир для нижестоящих инстанций. Единого Постановления Пленума нет, поэтому суды при разборе схожих ситуаций опираются на неё с оглядкой на обстоятельства конкретного спора."
+    }
+  ],
+  "factcheck_passed": false,
+  "factcheck_notes": [
+    "f6 (конкретное решение ВС РФ от 9 июля 2026 о праве управляющего) помечен как contested: true и needs_verification в research.json",
+    "f4 (право управляющего на вознаграждение при возмещении из ФРТ) также contested: true. Практика разнородна.",
+    "research.json содержит fact_gaps: требуется анализ конкретных судебных решений ВС РФ 2025-2026. Единого Постановления Пленума ВС РФ не существует.",
+    "Рекомендуется вернуть на агента 2 для верификации конкретного судебного источника решения от 9 июля 2026 перед публикацией."
+  ],
+  "keyword_density_main": null,
+  "main_keyword_exact_count": null,
+  "text_chars": 5569,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.105,
+  "local_spam_ngram3_repeat": 0.034,
+  "local_lexical_diversity": 0.646,
+  "local_ai_markers_density": 0.27,
+  "local_ai_markers_critical": 0,
+  "length_status": "too_long",
+  "length_kind": "news",
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1784874648/articles/voznagrazdenie-upravlyayushchego-frt-zastrojshchik-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1784874648/articles/voznagrazdenie-upravlyayushchego-frt-zastrojshchik-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Minimalist top-down flat-lay on a clean light-grey polished surface. Sparse arrangement of 4 well-spaced objects with deliberate negative space: a polished brass round seal representing the Property Owners Protection Fund, a closed oxblood leather portfolio lying at a slight angle, a fine fountain pen aligned parallel to the portfolio's edge, and a smartphone face-down at the far edge of the frame. Camera: directly overhead. Lighting: soft even daylight with very subtle directional shadow emphasizing object edges. Palette: pale neutrals, polished brass, warm leather tones. Mood: clean contemporary legal editorial, news-clarity aesthetic.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-07-24T06:30:49Z",
+  "local_ai_markers_total": 2,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 2,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 49,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "длина чуть больше лимита 5500 (5 569 знаков)"
+  ]
+}
