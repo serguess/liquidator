@@ -30062,5 +30062,64 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-07-25T00:24:11",
+    "category": "yur",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 28,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "yur-150",
+    "topic_slug": "vyhod-uchastnika-ooo-pered-bankrotstvom",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "length_soft_passed: 7187 > 6500 но ≤ 8500 и iteration=2 — пропускаем (приоритет spam/uniqueness/ai)"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "finalize_safety_net": {
+      "ran": true,
+      "rc": 0
+    },
+    "status": "ok",
+    "slug": "vyhod-uchastnika-ooo-pered-bankrotstvom",
+    "duration_sec": 2228.5,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "818     52178\n6-seo-editor        sonnet            6      16        0     91604        22\n7-publisher         haiku            20       8    39206     25520     39234\n------------------------------------------------------------------------------------------\nИТОГО                               174     103   551731    695898    552008\nBillable-токенов на статью: ~552K (cache_read 695K не считается в лимит подписки).\nАртефакты: drafts/vyhod-uchastnika-ooo-pered-bankrotstvom/  | quality_gate exit=0",
+    "stderr_tail": "",
+    "tokens_by_model": {},
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7187
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]
