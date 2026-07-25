@@ -1,0 +1,106 @@
+{
+  "slug": "pokupatel-imushchestva-na-torgah-bankrotstvo",
+  "category": "yur",
+  "title": "Права покупателя имущества на торгах банкротства",
+  "description": "Правовой статус покупателя при участии в торгах имущества банкрота. Обязательства, риски, защита интересов, процедура оплаты и получения имущества.",
+  "h1": "Права покупателя имущества на торгах при банкротстве юридического лица",
+  "lead": "Разберём, какие права закон о банкротстве даёт участнику аукциона имущества, какие обязательства он берёт на себя, и как избежать потери 15-20% первоначальной выгоды от покупки.",
+  "topic_action": "участие в торгах имущества банкрота",
+  "breadcrumb_current": "Права покупателя на торгах",
+  "og_image": "/assets/articles/pokupatel-imushchestva-na-torgah-bankrotstvo.jpg",
+  "main_keyword": "права покупателя на торгах банкротства",
+  "secondary_keywords": [
+    "покупатель имущества банкрота",
+    "торги при банкротстве юридического лица",
+    "правовой статус покупателя в торгах",
+    "риски покупателя на торгах банкротства",
+    "обязательства покупателя при банкротстве",
+    "защита интересов покупателя на торгах",
+    "процедура оплаты имущества на торгах",
+    "ответственность покупателя за имущество банкрота"
+  ],
+  "internal_links": [
+    "/articles/yur/bankrotstvo-yurlica-poshagovo",
+    "/articles/yur/konkursnaya-massa-i-realizacija-imushchestva",
+    "/articles/yur/konkursnyj-upravlyayushchij-polnomochiya"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/c48290d39215783e73f0899bb1026b14cb221eff/",
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/c2c8c81ee8e4bd843286b08b10607f00ec6ae073/"
+  ],
+  "faq": [
+    {
+      "question": "Можно ли участвовать без статуса ИП или юрлица?",
+      "answer": "Да. Обычный гражданин допущен наравне с организациями. Понадобятся паспорт, ИНН, электронная подпись для площадки и деньги на обеспечительный взнос."
+    },
+    {
+      "question": "Что будет со взносом, если победитель не платит?",
+      "answer": "Договор расторгают, назначают повторный аукцион, а взнос удерживают в размере убытков - разница цен плюс расходы на новую публикацию. При крупной просадке цены можно потерять всю сумму обеспечения."
+    },
+    {
+      "question": "Обязательно ли осматривать объект до подачи заявки?",
+      "answer": "Закон не обязывает, но и не поможет, если после передачи вы обнаружите износ или недокомплект. Осмотр - единственная защита от правила «как есть»."
+    },
+    {
+      "question": "Сколько времени даётся на полную оплату?",
+      "answer": "Срок прописан в условиях конкретных торгов. Стандартный диапазон - 10-30 календарных дней с даты подписания акта передачи. Точная дата фиксируется в договоре."
+    },
+    {
+      "question": "Чем электронные торги отличаются от очных с точки зрения прав?",
+      "answer": "Правовые последствия одинаковые. Различие только техническое: ставки делаются через личный кабинет, взнос уходит на реквизиты площадки, договор подписывается усиленной квалифицированной подписью."
+    },
+    {
+      "question": "Защищён ли покупатель, если объект принадлежал третьим лицам?",
+      "answer": "Да, при одном условии - вы действовали добросовестно, без сговора с управляющим, должником или кредиторами. Тогда виндикационный иск постороннего собственника вам не грозит, кроме редких случаев доказанного хищения."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все юридические утверждения сверены с research.json. Статус всех норм: active.",
+    "Ст. 89 127-ФЗ (last_verified: 2026-07-25) - допуск граждан и организаций к торгам подтвержден.",
+    "Ст. 90 127-ФЗ - 25% депозит, условия возврата и засчитывание в счёт оплаты соответствуют safe_phrasing.",
+    "Ст. 91 127-ФЗ - передача имущества после полной оплаты, сроки 10-30 дней подтверждены.",
+    "Ст. 88 127-ФЗ - 20 календарных дней для публикации уведомления о торгах актуально.",
+    "Ст. 92.1 127-ФЗ - электронные торги на специализированных площадках согласованы с research.",
+    "Ст. 99 127-ФЗ - имущество передаётся свободным от залогов и арестов, гарантий качества нет.",
+    "Ст. 460 ГК РФ - 10-дневный срок для уведомления о скрытых дефектах после передачи подтвержден.",
+    "Ст. 132 127-ФЗ - добросовестный покупатель защищен от виндикации третьих лиц.",
+    "Все контексты применения норм корректны, без привязки к неправильным процедурам."
+  ],
+  "keyword_density_main": 0.019,
+  "main_keyword_exact_count": 2,
+  "text_chars": 7820,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.095,
+  "local_spam_ngram3_repeat": 0.028,
+  "local_lexical_diversity": 0.641,
+  "local_ai_markers_density": 0.21,
+  "local_ai_markers_critical": 0,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1784999707/articles/pokupatel-imushchestva-na-torgah-bankrotstvo-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1784999707/articles/pokupatel-imushchestva-na-torgah-bankrotstvo-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Editorial composition centering on the auction acquisition procedure. Key objects at tabletop level: a sand-filled brass hourglass mid-flow representing strict submission deadlines, a stack of closed auction dossiers and buyer participation documents tied with cord, a polished round seal denoting the legal transfer of ownership, a fountain pen positioned over an execution line as if formalizing the purchase contract. Background: dark weathered stone slab or deep charcoal void with subtle backlight. Camera: three-quarter angle or straight-on, tabletop level. Lighting: focused directional spot creating dramatic shadow, gold rim-light accenting brass and seal surfaces. Palette: deep charcoal, brass, oxblood leather. Mood: solemn deliberation, the precise moment when the buyer's acquisition is documented and rights are legally crystallized.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-07-25T17:15:09Z",
+  "length_status": "too_long",
+  "length_kind": "default",
+  "local_ai_markers_total": 2,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 2,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 49,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "длина значительно больше лимита 6500 (7 820 знаков)"
+  ],
+  "date_published": "2026-07-25",
+  "date_modified": "2026-07-25",
+  "ready_for_review": true,
+  "ready_at": "2026-07-25T17:15:11Z",
+  "publication_target": "telegram_review"
+}

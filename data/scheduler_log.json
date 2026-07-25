@@ -30316,5 +30316,68 @@
     "timestamp": "2026-07-25T10:00:21",
     "status": "preflight_failed",
     "reason": "rate_limit: You've hit your limit · resets 10:20am (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-07-25T14:48:03",
+    "category": "fiz",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 32,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "expanded_in_slot": true,
+    "topic_id": "fiz-166",
+    "topic_slug": "dolg-za-kapitalnyj-remont-bankrotstvo-fizlica",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "spam_soft_passed: ratio-флаги мягкие при iter=2, targeted_tokens чистые → пропускаем (spam ≈48-52% по прогнозу)",
+        "forced_pass_at_iter2: блокеры пропущены, статья идёт в TG-очередь с metrics_warning=true. Было: 1 блокеров — length_too_long"
+      ],
+      "recommendations": [
+        "reduce_length: сократить до 5000-6000 знаков"
+      ],
+      "stderr_tail": ""
+    },
+    "finalize_safety_net": {
+      "ran": true,
+      "rc": 0
+    },
+    "status": "ok",
+    "slug": "dolg-za-kapitalnyj-remont-bankrotstvo-fizlica",
+    "duration_sec": 2477.4,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "  55442\n6-seo-editor        sonnet            6      16        0     93530        22\n7-publisher         haiku            46      16    76461    102994     76523\n------------------------------------------------------------------------------------------\nИТОГО                              2446     124   546327    870178    548897\nBillable-токенов на статью: ~548K (cache_read 870K не считается в лимит подписки).\nАртефакты: drafts/dolg-za-kapitalnyj-remont-bankrotstvo-fizlica/  | quality_gate exit=0",
+    "stderr_tail": "",
+    "tokens_by_model": {},
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 9201
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]
