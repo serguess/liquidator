@@ -30121,5 +30121,68 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-07-25T05:12:02",
+    "category": "vzysk",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 29,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "vzysk-130",
+    "topic_slug": "vzyskanie-dolga-po-dogovoru-cessii",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "forced_pass_at_iter2: блокеры пропущены, статья идёт в TG-очередь с metrics_warning=true. Было: 3 блокеров — length_too_long; spam_risk; targeted_tokens_over_limit"
+      ],
+      "recommendations": [
+        "reduce_length: сократить до 5000-6000 знаков",
+        "reduce_repetition: разбавить топ-5 частотных лемм местоимениями/перифразом — ['обязательств', 'контрагент', 'бумаг', 'сумм', 'цедент']",
+        "reduce_ст: «ст. X» × 12 → cap 5. Писать «статья X» полным словом, либо описательно («по правилу о процентах», «норма об исковой давности»). Cap 3 юр-цитаты на статью, остальное — пересказом."
+      ],
+      "stderr_tail": ""
+    },
+    "finalize_safety_net": {
+      "ran": true,
+      "rc": 0
+    },
+    "status": "ok",
+    "slug": "vzyskanie-dolga-po-dogovoru-cessii",
+    "duration_sec": 1994.1,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "   61911     25993\n6-seo-editor        sonnet            6      16        0     92828        22\n7-publisher         haiku            20       4    39222     25520     39246\n------------------------------------------------------------------------------------------\nИТОГО                              4145      88   461410    572980    465643\nBillable-токенов на статью: ~465K (cache_read 572K не считается в лимит подписки).\nАртефакты: drafts/vzyskanie-dolga-po-dogovoru-cessii/  | quality_gate exit=0",
+    "stderr_tail": "",
+    "tokens_by_model": {},
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 8562
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]

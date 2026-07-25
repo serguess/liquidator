@@ -4945,6 +4945,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "kollektory-rekord-vykup-dolgov-mfo",
+      "category": "news",
+      "title": "Коллекторы рекордно скупают долги МФО: что это означает",
+      "added_at": "2026-07-25T08:46:44.763568",
+      "char_count": 7658,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1784958398/articles/kollektory-rekord-vykup-dolgov-mfo-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

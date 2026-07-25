@@ -1,0 +1,109 @@
+{
+  "slug": "kollektory-rekord-vykup-dolgov-mfo",
+  "category": "news",
+  "title": "Коллекторы рекордно скупают долги МФО: что это означает",
+  "description": "Коллекторы установили рекорд по выкупу долгов МФО до 48,2 млрд рублей. Разбираемся, что означает рост скупки и как это влияет на должников МФО.",
+  "h1": "Коллекторы установили рекорд по выкупу долгов МФО: что это означает для должников",
+  "lead": "По данным за июль 2026 года, агентства скупили портфели микрозаймов на 48,2 млрд рублей - рекорд рынка за всё время наблюдений: разбираем, что это означает для человека с просроченным займом МФО.",
+  "topic_action": "разбор ситуации с долгом МФО",
+  "breadcrumb_current": "Коллекторы и долги МФО",
+  "og_image": "/assets/articles/kollektory-rekord-vykup-dolgov-mfo.jpg",
+  "main_keyword": "выкуп долгов мфо",
+  "secondary_keywords": [
+    "коллекторы мфо",
+    "скупка долгов мфо",
+    "микрофинансовые организации долги",
+    "рост выкупа долгов",
+    "коллекторские агентства",
+    "долги перед мфо"
+  ],
+  "intent": "commercial",
+  "funnel_stage": "warm",
+  "article_type": "B",
+  "offer": "proverka-spisaniya",
+  "event_date": "2026-07-08",
+  "news_zone": "finance",
+  "internal_links": [
+    "/articles/vzysk/arest-zarplaty-pristavami-bankrotstvo",
+    "/articles/mfo/bankrotstvo-dolgi-mfo-i-bank-odnovremenno"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_5142/",
+    "https://www.consultant.ru/document/cons_doc_LAW_71450/"
+  ],
+  "faq": [
+    {
+      "question": "Обязан ли платить агентству по той же ставке, что микрокредитор начислял изначально?",
+      "answer": "Нет. При уступке фиксируется сумма на дату сделки. Ни повысить старые проценты, ни начислить новые сверх зафиксированных новый держатель не вправе."
+    },
+    {
+      "question": "Что делать, если требуют деньги, но отказываются показывать документы на право взыскания?",
+      "answer": "Не платить. Направить письменное требование о предоставлении копии договора уступки и подтверждения полномочий. Без этих документов исполнять требование юридически необоснованно."
+    },
+    {
+      "question": "Можно ли оспорить судебный приказ, если 10-дневный срок пропущен?",
+      "answer": "Можно ходатайствовать о восстановлении срока, если пропуск случился по уважительной причине - болезнь, командировка, ошибка в адресе доставки. Решение принимает тот же суд."
+    },
+    {
+      "question": "Сколько процентов зарплаты может удерживать взыскатель через пристава?",
+      "answer": "До половины дохода после уплаты НДФЛ. Повышенная планка в 70% на такие требования не распространяется - она действует для алиментов на детей, возмещения вреда здоровью и ущерба от преступлений."
+    },
+    {
+      "question": "Как узнать, что долг перепродали другому агентству?",
+      "answer": "Из письменного уведомления по адресу регистрации либо из первого контакта с новым держателем. До получения уведомления любой платёж исходному займодавцу считается законным."
+    },
+    {
+      "question": "Чем банкротство помогает, если требование уже у нового кредитора?",
+      "answer": "Уступленное требование включается в реестр как обычное - агентство становится рядовым кредитором. При завершении процедуры обязательство списывается наравне с остальными долгами."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "f5 (МФО как основной источник портфелей) имеет legislation_status: needs_verification - использована safe_phrasing без конкретных цифр рынка, описательные формулировки о невозвратности",
+    "Цифра 48,2 млрд руб. атрибутирована первичному источнику (investfuture.ru) прямо в тексте, не утверждается как внутренний верифицированный факт",
+    "Внутренняя ссылка /articles/mfo/bankrotstvo-dolgi-mfo-i-bank-odnovremenno - категория mfo нестандартная (ожидаются fiz/yur/vzysk/news), требует проверки slug в published_index.json перед публикацией",
+    "Ссылка на АПК ст. 229.1-229.2 (f8) потенциально некорректна для споров с физлицами (их рассматривают суды общей юрисдикции по ГПК) - в теле статьи кодекс не назван, использована нейтральная формулировка о приказном производстве",
+    "Copyright © ООО «ЛИКВИДАТОР» удалён из body.html - добавляется шаблонизатором"
+  ],
+  "keyword_density_main": null,
+  "main_keyword_exact_count": null,
+  "text_chars": 7658,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.087,
+  "local_spam_ngram3_repeat": 0.025,
+  "local_lexical_diversity": 0.659,
+  "local_ai_markers_density": 0.21,
+  "local_ai_markers_critical": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1784958398/articles/kollektory-rekord-vykup-dolgov-mfo-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1784958398/articles/kollektory-rekord-vykup-dolgov-mfo-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Tight close-up editorial photograph of recent commercial activity with absolutely no people, hands, or faces visible. On a polished walnut desktop: an opened leather briefcase positioned slightly left of center with contract papers fanning out (no readable text), a stack of closed dossiers tied with cord representing acquired MFO debts, an uncapped fountain pen lying diagonally across the stack, and a half-finished white porcelain coffee cup beside the briefcase. Background soft, blurred walnut grain. Camera: shallow depth of field, three-quarter angle. Lighting: warm directional sidelight from upper left creating elegant shadows on leather and paper edges. Materials: cognac leather, polished walnut, brushed brass pen. Mood: transactional momentum, commercial urgency, pause between acquisitions.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-07-25T05:46:39Z",
+  "length_status": "too_long",
+  "length_kind": "news",
+  "local_ai_markers_total": 2,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 2,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 47,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 90,
+  "customer_risks": [
+    "длина значительно больше лимита 5500 (7 658 знаков)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "length_too_long: 7658 > 5500 (kind=news)",
+    "broken_internal_links: 2 ссылок без соответствия в published_index (/articles/vzysk/arest-zarplaty-pristavami-bankrotstvo: slug 'arest-zarplaty-pristavami-bankrotstvo' не найден в категории 'vzysk' (есть: fiz); /articles/mfo/bankrotstvo-dolgi-mfo-i-bank-odnovremenno: category 'mfo' не в ['fiz', 'news', 'vzysk', 'yur'])"
+  ],
+  "date_published": "2026-07-25",
+  "date_modified": "2026-07-25",
+  "ready_for_review": true,
+  "ready_at": "2026-07-25T05:46:44Z",
+  "publication_target": "telegram_review"
+}
