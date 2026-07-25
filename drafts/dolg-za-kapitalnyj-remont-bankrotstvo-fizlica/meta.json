@@ -1,0 +1,110 @@
+{
+  "slug": "dolg-za-kapitalnyj-remont-bankrotstvo-fizlica",
+  "category": "fiz",
+  "title": "Долг за капремонт при банкротстве физлица",
+  "description": "Узнайте, списывается ли долг за капитальный ремонт квартиры при банкротстве физлица, какова очередность погашения и что будет с имуществом.",
+  "h1": "Долг за капитальный ремонт при банкротстве физлица: как это влияет на процедуру",
+  "lead": "Плановые взносы в жилищный фонд банкротство не снимает - разбираем, что именно остаётся обязательством и когда дело всё равно выгодно запустить.",
+  "topic_action": "проверку возможности списания долгов",
+  "breadcrumb_current": "Долг за капремонт при банкротстве",
+  "og_image": "/assets/articles/dolg-za-kapitalnyj-remont-bankrotstvo-fizlica.jpg",
+  "main_keyword": "долг за капитальный ремонт при банкротстве",
+  "secondary_keywords": [
+    "капремонт и банкротство физлица",
+    "освобождение от долга капремонта",
+    "задолженность за капремонт при банкротстве",
+    "очередность взыскания долга капремонта",
+    "имущество при банкротстве капремонт",
+    "реализация квартиры с долгом капремонта",
+    "дом с долгом за капремонтом",
+    "строительная смета и банкротство"
+  ],
+  "internal_links": [
+    "/articles/fiz/avtomobil-pri-bankrotstve-fizlica",
+    "/articles/fiz/alimenty-pri-bankrotstve-fizlica"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/",
+    "https://www.consultant.ru/document/cons_doc_LAW_5142/"
+  ],
+  "faq": [
+    {
+      "question": "Спишут ли взносы в жилищный фонд после успешного завершения банкротства?",
+      "answer": "Плановые ежемесячные отчисления в целевой фонд не освобождаются. Даже после завершения процедуры они остаются обязательством перед управляющей организацией. Взыскивать их можно на общих основаниях - через суд и приставов."
+    },
+    {
+      "question": "Что происходит с долгом, если управляющая уже получила исполнительный лист?",
+      "answer": "С момента введения банкротства действующее исполнительное производство приостанавливается (ст. 213.11 127-ФЗ). Требование переносится в реестр кредиторов и участвует в общем распределении массы. Пристав снимает арест, удержания с карты прекращаются."
+    },
+    {
+      "question": "Может ли управляющая компания забрать единственную квартиру за неуплату взносов?",
+      "answer": "Нет, единственное жильё защищено законом (ст. 446 ГПК). Исключение - постановление КС РФ № 15-П от 2021 года про явно избыточное жильё. Но там речь о нескольких миллионах общей задолженности и очень крупной квартире."
+    },
+    {
+      "question": "Как накопленный долг за капремонт влияет на очередь выплат другим кредиторам?",
+      "answer": "Если суд квалифицирует его как имущественное требование, оно встаёт в общую четвёртую очередь наравне с потребительскими кредитами. Если как текущий взнос - гасится в первой очереди перед налогами и зарплатами работникам."
+    },
+    {
+      "question": "Нужно ли включать задолженность перед управляющей в заявление о банкротстве?",
+      "answer": "Обязательно. Сокрытие любых сумм от финансового управляющего суд оценивает как недобросовестное поведение. Это самостоятельное основание для отказа в освобождении от всех обязательств - включая кредиты и микрозаймы."
+    },
+    {
+      "question": "Переходит ли накопленный долг за капремонт к покупателю при продаже квартиры?",
+      "answer": "По общему правилу автоматически не переходит. Порядок регулирует ст. 158 жилищного кодекса и условия конкретного договора купли-продажи. Практика различается по регионам - вопрос лучше проговорить с юристом при подготовке сделки."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все факты сверены с research.json. legislation_status: active. last_verified: 2026-07-25 для всех ключевых утверждений.",
+    "Взносы в фонд капремонта как исключение из освобождения: соответствует f3/f9 (ст. 213.28 п. 5 127-ФЗ). Формулировка корректна.",
+    "Долг за выполненные работы как имущественное требование: соответствует f6/f9. Оговорка о спорности и зависимости от договора с УК сохранена в тексте.",
+    "Очерёдность распределения: соответствует f5 (ст. 213.33 127-ФЗ). Четвёртая очередь для имущественного требования - корректно.",
+    "Единственное жильё: ст. 446 ГПК + КС РФ № 15-П от 26.04.2021 (f4). Контекст исключения («явно избыточное жильё») изложен корректно.",
+    "Исполнительное производство и мораторий: ст. 213.11 п. 1 127-ФЗ (f8). Сумма исполнительского сбора (7%, минимум 1000 руб.) верифицирована.",
+    "Депозит 25 000 руб. и 7% вознаграждения финуправляющего - стандартные нормы 127-ФЗ (ст. 20.6, ст. 213.4); в research явно не указаны, но контекст применения корректен.",
+    "Пеня по ч. 14.1 ст. 155 ЖК РФ: действующая норма, изложена корректно. Key_sources research включает ЖК РФ.",
+    "Ст. 158 ЖК РФ (переход долга при продаже): стандартная норма, изложена с оговоркой о неоднородности практики - безопасная формулировка.",
+    "Forbidden_claims в тексте отсутствуют: нет утверждений об автоматическом списании капремонта и нет обещаний полного избавления от долга перед УК."
+  ],
+  "keyword_density_main": 0.014,
+  "main_keyword_exact_count": 2,
+  "text_chars": 9201,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.098,
+  "local_spam_ngram3_repeat": 0.028,
+  "local_lexical_diversity": 0.588,
+  "local_ai_markers_density": 0.18,
+  "local_ai_markers_critical": 0,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1784982555/articles/dolg-za-kapitalnyj-remont-bankrotstvo-fizlica-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1784982555/articles/dolg-za-kapitalnyj-remont-bankrotstvo-fizlica-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Close-to-medium architectural photograph of a massive stone residential building emphasizing textural detail and the permanence of its façade. Camera: extreme low-angle up the stonework or diagonal across the façade showing geometric repetition and weathered surfaces. Foreground: worn stone foundation edge with visible patina revealing years of use. Lighting: hard directional side-light revealing every chisel mark, maintenance traces, and natural weathering patterns in limestone. Palette: warm golden sandstone with cool grey shadow accents and hints of lichen in stone cracks. Mood: weight of financial obligation, permanence of property ownership and repair responsibility.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-07-25T12:29:18Z",
+  "length_status": "too_long",
+  "length_kind": "default",
+  "local_ai_markers_total": 2,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 2,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 58,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность заметно выше 50% (~58%)",
+    "длина значительно больше лимита 6500 (9 201 знаков)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "length_too_long: 9201 > 6500 (kind=default)"
+  ],
+  "date_published": "2026-07-25",
+  "date_modified": "2026-07-25",
+  "ready_for_review": true,
+  "ready_at": "2026-07-25T12:29:21Z",
+  "publication_target": "telegram_review"
+}

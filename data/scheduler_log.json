@@ -30286,5 +30286,35 @@
       "spam": null,
       "text_chars": 5080
     }
+  },
+  {
+    "timestamp": "2026-07-25T09:04:01",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets 10:20am (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-07-25T09:04:03",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets 10:20am (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-07-25T09:04:05",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets 10:20am (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-07-25T09:04:07",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets 10:20am (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-07-25T09:04:09",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets 10:20am (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-07-25T10:00:21",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets 10:20am (Europe/Moscow)"
   }
 ]
