@@ -9479,6 +9479,78 @@
       "pending_batch_at": "2026-07-24T08:54:06",
       "batch_sent_at": "2026-07-24T10:00:13",
       "batch_fail_count": 0
+    },
+    "bankrotstvo-fizlica-s-dejstvuyushchim-ip": {
+      "category": "fiz",
+      "title": "Банкротство физлица с ИП: порядок и риски",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-07-24T14:57:10",
+      "last_action_at": "2026-07-24T14:57:10",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-07-24T14:57:10"
+    },
+    "vyhod-uchastnika-ooo-pered-bankrotstvom": {
+      "category": "yur",
+      "title": "Выход из ООО перед банкротством: последствия",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-07-25T01:02:16",
+      "last_action_at": "2026-07-25T01:02:16",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-07-25T01:02:16"
+    },
+    "vzyskanie-dolga-po-dogovoru-cessii": {
+      "category": "vzysk",
+      "title": "Взыскание долга по договору цессии - права нового кредитора",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-07-25T05:46:09",
+      "last_action_at": "2026-07-25T05:46:09",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-07-25T05:46:09"
+    },
+    "kollektory-rekord-vykup-dolgov-mfo": {
+      "category": "news",
+      "title": "Коллекторы рекордно скупают долги МФО: что это означает",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-07-25T08:47:11",
+      "last_action_at": "2026-07-25T08:47:11",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-07-25T08:47:11"
     }
   },
   "pending_actions": [],
