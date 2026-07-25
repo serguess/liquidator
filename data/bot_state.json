@@ -9488,15 +9488,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 2161,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-24T14:57:10",
-      "last_action_at": "2026-07-24T14:57:10",
+      "last_action_at": "2026-07-25T10:00:09",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-07-24T14:57:10"
+      "pending_batch": false,
+      "pending_batch_at": "2026-07-24T14:57:10",
+      "batch_sent_at": "2026-07-25T10:00:09",
+      "batch_fail_count": 0
     },
     "vyhod-uchastnika-ooo-pered-bankrotstvom": {
       "category": "yur",
@@ -9506,15 +9508,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 2163,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-25T01:02:16",
-      "last_action_at": "2026-07-25T01:02:16",
+      "last_action_at": "2026-07-25T10:00:11",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-07-25T01:02:16"
+      "pending_batch": false,
+      "pending_batch_at": "2026-07-25T01:02:16",
+      "batch_sent_at": "2026-07-25T10:00:11",
+      "batch_fail_count": 0
     },
     "vzyskanie-dolga-po-dogovoru-cessii": {
       "category": "vzysk",
@@ -9524,15 +9528,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 2165,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-25T05:46:09",
-      "last_action_at": "2026-07-25T05:46:09",
+      "last_action_at": "2026-07-25T10:00:13",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-07-25T05:46:09"
+      "pending_batch": false,
+      "pending_batch_at": "2026-07-25T05:46:09",
+      "batch_sent_at": "2026-07-25T10:00:13",
+      "batch_fail_count": 0
     },
     "kollektory-rekord-vykup-dolgov-mfo": {
       "category": "news",
@@ -9542,19 +9548,57 @@
       "versions": [
         "2.0"
       ],
+      "tg_message_id": 2167,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-07-25T08:47:11",
+      "last_action_at": "2026-07-25T10:00:15",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-07-25T08:47:11",
+      "batch_sent_at": "2026-07-25T10:00:15",
+      "batch_fail_count": 0
+    },
+    "dolg-za-kapitalnyj-remont-bankrotstvo-fizlica": {
+      "category": "fiz",
+      "title": "Долг за капремонт при банкротстве физлица",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
       "tg_message_id": null,
       "tg_chat_id": null,
-      "first_seen_at": "2026-07-25T08:47:11",
-      "last_action_at": "2026-07-25T08:47:11",
+      "first_seen_at": "2026-07-25T15:30:15",
+      "last_action_at": "2026-07-25T15:30:15",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
       "pending_batch": true,
-      "pending_batch_at": "2026-07-25T08:47:11"
+      "pending_batch_at": "2026-07-25T15:30:15"
+    },
+    "pokupatel-imushchestva-na-torgah-bankrotstvo": {
+      "category": "yur",
+      "title": "Права покупателя имущества на торгах банкротства",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-07-25T20:15:17",
+      "last_action_at": "2026-07-25T20:15:17",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-07-25T20:15:17"
     }
   },
   "pending_actions": [],
-  "last_batch_date": "2026-07-24",
-  "last_batch_count": 5,
-  "last_batch_at": "2026-07-24T10:00:13"
+  "last_batch_date": "2026-07-25",
+  "last_batch_count": 4,
+  "last_batch_at": "2026-07-25T10:00:15"
 }
