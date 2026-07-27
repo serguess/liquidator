@@ -4984,6 +4984,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "kto-platit-finansovomu-upravlyayushchemu-bankrotstvo",
+      "category": "fiz",
+      "title": "Кто платит финансовому управляющему при банкротстве",
+      "added_at": "2026-07-28T01:03:56.127062",
+      "char_count": 7912,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1785189831/articles/kto-platit-finansovomu-upravlyayushchemu-bankrotstvo-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
