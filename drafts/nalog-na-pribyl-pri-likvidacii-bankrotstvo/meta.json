@@ -1,0 +1,106 @@
+{
+  "slug": "nalog-na-pribyl-pri-likvidacii-bankrotstvo",
+  "category": "yur",
+  "title": "Налог на прибыль при ликвидации компании через банкротство",
+  "description": "Разберём, кто платит налог на прибыль при ликвидации компании через банкротство, как считается база, что достаётся кредиторам и почему бюджет впереди.",
+  "h1": "Налог на прибыль при ликвидации компании через банкротство: что платит должник",
+  "lead": "Объясняем механику без прикрас: кто подписывает декларации, откуда берётся база и почему конкурсной массы иногда не хватает даже на первую строку очереди.",
+  "topic_action": "разбор налогов при ликвидации компании через банкротство",
+  "breadcrumb_current": "Налоги при ликвидации через банкротство",
+  "og_image": "/assets/articles/nalog-na-pribyl-pri-likvidacii-bankrotstvo.jpg",
+  "main_keyword": "налог на прибыль при ликвидации компании через банкротство",
+  "secondary_keywords": [
+    "налоговые последствия банкротства юридического лица",
+    "кто платит налог при ликвидации компании",
+    "налог на доходы при реализации имущества должника",
+    "налоговая база при банкротстве",
+    "обязательства должника по налогам при ликвидации",
+    "НДС и налог на прибыль при банкротстве",
+    "налоги кредиторов при ликвидации компании",
+    "льготы по налогам при банкротстве юридического лица"
+  ],
+  "internal_links": [],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/",
+    "https://www.consultant.ru/document/cons_doc_LAW_146436/"
+  ],
+  "faq": [
+    {
+      "question": "Кто фактически платит налог на прибыль при банкротстве?",
+      "answer": "Плательщиком остаётся сама компания. Арбитражный управляющий действует от её имени, подписывает декларации и распоряжается счётом, но начисление идёт на юридическое лицо. Кредиторы не платят ничего."
+    },
+    {
+      "question": "Можно ли уменьшить базу за счёт накопленной амортизации?",
+      "answer": "Да, амортизация уже вычтена из остаточной стоимости. База считается как цена продажи минус остаточная по данным учёта. Основание - ст. 252, 253 и 312-314 НК РФ."
+    },
+    {
+      "question": "Что если выручки от продажи активов не хватает на покрытие долга перед ФНС?",
+      "answer": "Долг перед казной не гасится полностью, но и не переходит на управляющего или собственников автоматически. Оставшаяся часть списывается ФНС как безнадёжная после исключения фирмы из реестра."
+    },
+    {
+      "question": "Платят ли кредиторы с денег из конкурсной массы?",
+      "answer": "Нет, это возврат ранее выданных средств, а не доход. Основание - п. 8 ст. 251 НК РФ. Исключение - прощённая часть требования в мировом соглашении: её признают доходом по ст. 41 НК РФ."
+    },
+    {
+      "question": "В какие сроки арбитражный управляющий подаёт декларацию за должника-банкрота?",
+      "answer": "По общему правилу - не позднее 28 календарных дней после окончания квартала для авансов и 28 марта - для годовой. Основание - ст. 80 НК РФ. За просрочку идёт штраф из конкурсной массы."
+    },
+    {
+      "question": "Действуют ли льготы на реализацию имущества в конкурсном производстве?",
+      "answer": "Специальных послаблений именно «за банкротство» законом не предусмотрено. Применяются общие ставки и режимы: 20 процентов по прибыли, 20 процентов по добавленной стоимости для большинства активов."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все факты сверены с research.json. last_verified: 2026-07-29, legislation_status: active по всем ключевым утверждениям.",
+    "Очередность по ст. 134 127-ФЗ: налоги - первая очередь текущих - подтверждено f2, f6.",
+    "Кредиторы не платят с конкурсной массы: п. 8 ст. 251 НК РФ - подтверждено f9.",
+    "НДС по ставке 20% при реализации по ст. 164 НК РФ - подтверждено f4.",
+    "Срок декларации - 28 дней после квартала / 28 марта для годовой, ст. 80 НК РФ - подтверждено f11.",
+    "Ст. 266 НК РФ по банковским резервам отсутствует в research.json, но является действующей общей нормой НК - контекст применения корректен, оставлена в тексте.",
+    "Ст. 137 127-ФЗ (третья очередь реестровых требований) - общеизвестная действующая норма, оставлена в тексте.",
+    "Внутренние ссылки не добавлены: published_index.json недоступен в headless-режиме; необходима ручная проверка при финализации.",
+    "Заголовок H2 «Что не спишется и что осложнит блок при ликвидации» - слово «блок» в оригинале выглядит как опечатка, исправлено на «расчёты»."
+  ],
+  "keyword_density_main": 0.012,
+  "main_keyword_exact_count": 1,
+  "text_chars": 8361,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.098,
+  "local_spam_ngram3_repeat": 0.03,
+  "local_lexical_diversity": 0.624,
+  "local_ai_markers_density": 0.19,
+  "local_ai_markers_critical": 0,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1785275600/articles/nalog-na-pribyl-pri-likvidacii-bankrotstvo-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1785275600/articles/nalog-na-pribyl-pri-likvidacii-bankrotstvo-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Photograph through wet glass — the camera views a contemporary financial building through a window beaded with raindrops. Foreground objects on the windowsill or nearby surface (sharp focus): a closed thin laptop, a scientific calculator with blank screen, a closed leather portfolio, a leather notebook with fountain pen laid across it, reading glasses, a white porcelain coffee cup on saucer. Background (soft, blurred through droplets): glass façade reflecting the rainy street, distant amber lampposts. Camera: tight crop, eye-level. Lighting: cool overcast from outside, warm interior glow from desk lamp. Palette: cool blue-grey with warm interior pin-points. Mood: contemplative financial analysis, tax computation underway.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-07-28T21:53:21Z",
+  "length_status": "too_long",
+  "length_kind": "default",
+  "local_ai_markers_total": 2,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 1,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 50,
+  "predicted_ai_pct": 6,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "длина значительно больше лимита 6500 (8 361 знаков)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "targeted_tokens_over_limit: ст_сокращение=14(>≤5), РФ_рудимент=11(>≤2)",
+    "author_markers_missing: 1 < 2"
+  ],
+  "date_published": "2026-07-29",
+  "date_modified": "2026-07-29",
+  "ready_for_review": true,
+  "ready_at": "2026-07-28T21:53:26Z",
+  "publication_target": "telegram_review"
+}

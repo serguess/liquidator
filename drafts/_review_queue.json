@@ -5049,6 +5049,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "nalog-na-pribyl-pri-likvidacii-bankrotstvo",
+      "category": "yur",
+      "title": "Налог на прибыль при ликвидации компании через банкротство",
+      "added_at": "2026-07-29T00:53:26.356235",
+      "char_count": 8361,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1785275600/articles/nalog-na-pribyl-pri-likvidacii-bankrotstvo-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
