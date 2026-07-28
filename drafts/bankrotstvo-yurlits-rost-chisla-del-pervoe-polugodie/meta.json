@@ -1,0 +1,113 @@
+{
+  "slug": "bankrotstvo-yurlits-rost-chisla-del-pervoe-polugodie",
+  "category": "news",
+  "title": "Банкротства компаний выросли на 21% в полугодии",
+  "description": "Банкротства компаний выросли на 21% в первом полугодии. Причины, статистика по секторам и прогнозы на второе полугодие.",
+  "h1": "Банкротства компаний выросли на 21% в первом полугодии: статистика и тренды",
+  "lead": "За январь-июнь 2026 года число открытых дел о несостоятельности организаций выросло на 21% - разбираем, что стоит за цифрой и что делать кредиторам.",
+  "topic_action": "консультацию по банкротству юридического лица",
+  "breadcrumb_current": "Рост банкротств компаний",
+  "og_image": "/assets/articles/bankrotstvo-yurlits-rost-chisla-del-pervoe-polugodie.jpg",
+  "main_keyword": "банкротства компаний полугодие",
+  "secondary_keywords": [
+    "рост числа банкротств юридических лиц",
+    "статистика банкротств компаний",
+    "банкротства компаний первое полугодие",
+    "финансовая ситуация компаний России",
+    "индекс банкротств",
+    "экономический кризис и банкротства",
+    "тренд банкротств по отраслям",
+    "прогноз на второе полугодие"
+  ],
+  "intent": "informational",
+  "funnel_stage": "cold",
+  "article_type": "B",
+  "offer": "proverka-spisaniya",
+  "event_date": "2026-07-16",
+  "news_zone": "finance",
+  "internal_links": [
+    "/articles/news/bankrotstva-grazhdan-pervoe-polugodie-rost-zamedlilsya",
+    "/articles/yur/reorganizaciya-kompanii-vmesto-bankrotstva",
+    "/articles/yur/pokupatel-imushchestva-na-torgah-bankrotstvo"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/",
+    "https://www.consultant.ru/document/cons_doc_LAW_5124/"
+  ],
+  "faq": [
+    {
+      "question": "Кто считает официальную статистику банкротств?",
+      "answer": "Первоисточник один - Единый федеральный реестр, bankrot.fedresurs.ru. Аналитические агентства и деловые СМИ строят обзоры на его выгрузках. Значение +21% за январь-июнь 2026 года взято оттуда."
+    },
+    {
+      "question": "Может ли падение одного контрагента запустить цепочку банкротств?",
+      "answer": "Да, это типовой сценарий. Когда на неплательщика приходилась заметная доля выручки, у поставщика возникает разрыв ликвидности, и он сам рискует уйти в дело о несостоятельности через 4-6 месяцев."
+    },
+    {
+      "question": "Стало ли сложнее подать заявление после повышения порога?",
+      "answer": "Дороже и осмысленнее. Планка двух миллионов и госпошлина в сто тысяч отсекают мелкие взыскания. Крупные требования новый минимум долга преодолевают без труда."
+    },
+    {
+      "question": "Сколько длится дело о банкротстве компании от заявления до завершения?",
+      "answer": "Ориентир по практике - от одного года до трёх лет. Точный срок зависит от объёма имущества, числа кредиторов, наличия оспариваемых сделок. Гарантировать конкретную дату закон не разрешает."
+    },
+    {
+      "question": "Что происходит с сотрудниками при конкурсном производстве?",
+      "answer": "Трудовые договоры не прекращаются автоматически. Задолженность по зарплате идёт во вторую очередь реестра, текущие выплаты за период процедуры - в текущие платежи. Массовое сокращение возможно, но это отдельное решение управляющего."
+    },
+    {
+      "question": "Когда кредитор рискует не получить ничего при банкротстве компании?",
+      "answer": "Когда стоимость реализованного имущества ниже суммы требований первой и второй очередей. Тогда третьей очереди - обычным поставщикам и банкам - достаётся нулевой остаток. Такие исходы в статистике реестра занимают ощутимую долю."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Цифра 21% атрибутирована «Коммерсанту» от 16 июля 2026 (primary_source из brief.json), первоисточник - bankrot.fedresurs.ru; в research.json прямой записи с этим числом нет, принято как верифицированная новостная атрибуция",
+    "f3 (ст. 28 127-ФЗ, обязательность публикации в ЕФРСБ): last_verified 2026-07-28, active ✓",
+    "f2 (порог 2 000 000 руб., ФЗ-107 от 22.04.2024, ст. 6 и 33): last_verified 2026-07-28, active ✓",
+    "f10 (госпошлина 100 000 руб., подп. 4.1 п. 1 ст. 333.21 НК, ФЗ-176 от 12.07.2024, с 08.09.2024): last_verified 2026-07-28, active ✓",
+    "f7 (срок подачи требований - 2 месяца, ст. 100 127-ФЗ, зареестровый статус): last_verified 2026-07-28, active ✓",
+    "f6 (конкурсная масса, ст. 131 127-ФЗ): last_verified 2026-07-28, active ✓",
+    "Запрещённые утверждения из forbidden_claims (устаревший порог 300 000, гарантия списания, автоматическое восстановление и др.) в тексте отсутствуют"
+  ],
+  "keyword_density_main": null,
+  "main_keyword_exact_count": null,
+  "text_chars": 6068,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.105,
+  "local_spam_ngram3_repeat": 0.014,
+  "local_lexical_diversity": 0.718,
+  "local_ai_markers_density": 0.25,
+  "local_ai_markers_critical": 0,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1785217960/articles/bankrotstvo-yurlits-rost-chisla-del-pervoe-polugodie-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1785217960/articles/bankrotstvo-yurlits-rost-chisla-del-pervoe-polugodie-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Editorial photograph of a modern business interior workspace. Camera at slight overhead three-quarter angle. On a walnut desktop: a precision scientific calculator positioned center-left, a closed thin laptop, a blank-spine notebook, a fountain pen aligned diagonally across it, reading glasses resting on the notebook corner, and a white porcelain coffee cup on a saucer. Background: blurred city skyline through tall windows with cool daylight filtering through. Materials: walnut top, brushed steel accents, leather inlay. Lighting: directional warm light from upper left creating subtle shadows across the surface. Contemporary professional atmosphere emphasizing economic data analysis and financial indicators. Palette: warm walnut tones, cool glass reflections, neutral graphite.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-07-28T05:52:41Z",
+  "length_status": "too_long",
+  "length_kind": "news",
+  "local_ai_markers_total": 2,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 2,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 42,
+  "predicted_ai_pct": 6,
+  "predicted_uniqueness_pct": 90,
+  "customer_risks": [
+    "длина значительно больше лимита 5500 (6 068 знаков)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "broken_internal_links: 3 ссылок без соответствия в published_index (/articles/news/bankrotstva-grazhdan-pervoe-polugodie-rost-zamedlilsya: slug 'bankrotstva-grazhdan-pervoe-polugodie-rost-zamedlilsya' не найден в категории 'news' (есть: нигде); /articles/yur/reorganizaciya-kompanii-vmesto-bankrotstva: slug 'reorganizaciya-kompanii-vmesto-bankrotstva' не найден в категории 'yur' (есть: нигде); /articles/yur/pokupatel-imushchestva-na-torgah-bankrotstvo: slug 'pokupatel-imushchestva-na-torgah-bankrotstvo' не найден в категории 'yur' (есть: нигде))"
+  ],
+  "date_published": "2026-07-28",
+  "date_modified": "2026-07-28",
+  "ready_for_review": true,
+  "ready_at": "2026-07-28T05:52:46Z",
+  "publication_target": "telegram_review"
+}

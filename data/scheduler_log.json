@@ -30736,5 +30736,63 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-07-28T08:30:06",
+    "category": "news",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 37,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "resume",
+    "resume_slug": "bankrotstva-grazhdan-pervoe-polugodie-rost-zamedlilsya",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "length_soft_passed: 6641 > 5500 но ≤ 7500 и iteration=2 — пропускаем (приоритет spam/uniqueness/ai)"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "finalize_safety_net": {
+      "ran": true,
+      "rc": 0
+    },
+    "status": "ok",
+    "slug": "bankrotstva-grazhdan-pervoe-polugodie-rost-zamedlilsya",
+    "duration_sec": 471.3,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "6-seo-editor        sonnet            6      16    64078     25156     64100\n7-publisher         haiku            20       8    39220     25520     39248\n------------------------------------------------------------------------------------------\nИТОГО                                26      24   103298     50676    103348\nBillable-токенов на статью: ~103K (cache_read 50K не считается в лимит подписки).\nАртефакты: drafts/bankrotstva-grazhdan-pervoe-polugodie-rost-zamedlilsya/  | quality_gate exit=0",
+    "stderr_tail": "",
+    "tokens_by_model": {},
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 6641
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]
