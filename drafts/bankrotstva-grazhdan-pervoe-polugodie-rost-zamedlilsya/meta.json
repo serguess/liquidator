@@ -1,0 +1,103 @@
+{
+  "slug": "bankrotstva-grazhdan-pervoe-polugodie-rost-zamedlilsya",
+  "category": "news",
+  "title": "Банкротства граждан замедлились до 7% за полугодие",
+  "description": "Статистика по банкротствам физ. лиц: темпы роста упали до 7% в первой половине года. Какие факторы влияют на кредитную нагрузку граждан.",
+  "h1": "Банкротства граждан: рост замедлился до 7% за полугодие",
+  "lead": "Темпы роста банкротств физических лиц упали до 7% в первом полугодии - объясняем, почему это не означает облегчения для конкретного должника.",
+  "topic_action": "проверку возможности списания долгов",
+  "breadcrumb_current": "Рост банкротств граждан замедлился",
+  "og_image": "/assets/articles/bankrotstva-grazhdan-pervoe-polugodie-rost-zamedlilsya.jpg",
+  "main_keyword": "банкротства граждан полугодие",
+  "secondary_keywords": [
+    "статистика банкротств граждан",
+    "темпы роста банкротств",
+    "кредитная задолженность граждан",
+    "долговая нагрузка физических лиц",
+    "внесудебное банкротство"
+  ],
+  "intent": "informational",
+  "funnel_stage": "cold",
+  "article_type": "B",
+  "offer": "proverka-spisaniya",
+  "event_date": "2026-07-16",
+  "news_zone": "finance",
+  "internal_links": [
+    "/articles/fiz/alimenty-pri-bankrotstve-fizlica"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/",
+    "https://bankrot.fedresurs.ru/"
+  ],
+  "faq": [
+    {
+      "question": "Стоит ли считать замедление роста хорошим сигналом для экономики?",
+      "answer": "Это неоднозначный индикатор. С одной стороны, реже фиксируются случаи неплатёжеспособности. С другой, тот же эффект даёт ужесточение скоринга: люди не банкротятся, потому что новых займов им попросту не выдали."
+    },
+    {
+      "question": "Что видно в ЕФРСБ, если проверить своё дело?",
+      "answer": "По ФИО или ИНН откроется карточка со списком опубликованных сообщений: введение процедуры, назначение управляющего, собрание кредиторов, завершение. Данные обновляются в реальном времени, доступ бесплатный."
+    },
+    {
+      "question": "Сколько длится внесудебная процедура через МФЦ?",
+      "answer": "Шесть месяцев с момента включения записи в реестр. Срок закреплён в статье 223.2 закона о несостоятельности и не сокращается по желанию сторон."
+    },
+    {
+      "question": "Обязательно ли платить государственную пошлину?",
+      "answer": "Нет. С 8 сентября 2024 года гражданин при подаче собственного заявления полностью освобождён от неё - льгота в статье 333.37 Налогового кодекса. Депозит на вознаграждение управляющего (25 тысяч рублей) - другой платёж."
+    },
+    {
+      "question": "Какие обязательства не спишут даже после завершения дела?",
+      "answer": "Алименты, возмещение за причинённый жизни и здоровью вред, зарплата и выходные пособия перед бывшими работниками, текущие платежи периода процедуры, а также требования из умышленных нарушений закона со стороны заявителя."
+    },
+    {
+      "question": "Чем реструктуризация отличается от реализации имущества?",
+      "answer": "Реструктуризация - это утверждённый судом график рассрочки долга, обычно на срок до трёх лет; активы при этом остаются у гражданина. Реализация имущества - продажа активов через торги с распределением выручки между кредиторами; после её окончания оставшийся долг списывается."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "f9 (статистика 7% роста, needs_verification): атрибутировано к «Известиям» со ссылкой на открытые данные ЕФРСБ - форма корректна для новостной статьи",
+    "f10 (причины банкротств, needs_verification): использована safe_phrasing, конкретные цифры причин не приводятся",
+    "Исторические данные о темпах роста 2021-2022 годов отсутствуют в research.json - заменены описательной формулировкой «исчислялся десятками процентов» без конкретных процентов",
+    "Ссылка на алиментный долг исправлена: /articles/alimenty-pri-bankrotstve-fizlica.html → /articles/fiz/alimenty-pri-bankrotstve-fizlica (убрано .html, добавлена категория fiz)",
+    "Запрещённые утверждения из forbidden_claims в тексте отсутствуют",
+    "Все факты с цифрами верифицированы: last_verified 2026-07-25, legislation_status active (f3, f5, f6, f7, f8) или amended с корректной формулировкой (f7)"
+  ],
+  "keyword_density_main": null,
+  "main_keyword_exact_count": null,
+  "text_chars": 6641,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.091,
+  "local_spam_ngram3_repeat": 0.019,
+  "local_lexical_diversity": 0.704,
+  "local_ai_markers_density": 0.24,
+  "local_ai_markers_critical": 0,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1785217072/articles/bankrotstva-grazhdan-pervoe-polugodie-rost-zamedlilsya-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1785217072/articles/bankrotstva-grazhdan-pervoe-polugodie-rost-zamedlilsya-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Exterior photograph of a contemporary administrative or business building in evening dusk or soft rain. Glass façade reflects wet street with soft amber lamppost glows creating luminous patches through mist. Camera positioned at street level with slight low-angle perspective across wet pavement showing reflected lights and building silhouette. Foreground: wet stone steps leading to entrance with oxidized brass plaque on entry pillar, catching warm lamplight. Optional distant silhouettes with black umbrellas far in background, completely faceless. Palette: cool blue-grey wet tones with warm amber pin-point lights. Lighting: overcast evening mixed with warm street lamps casting gentle shadows on wet surfaces. Mood: contemporary urban financial landscape, modern regulatory climate, timely news and economic trends.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-07-28T05:37:52Z",
+  "length_status": "too_long",
+  "length_kind": "news",
+  "local_ai_markers_total": 2,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 3,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 42,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 90,
+  "customer_risks": [
+    "длина значительно больше лимита 5500 (6 641 знаков)"
+  ],
+  "date_published": "2026-07-28",
+  "date_modified": "2026-07-28",
+  "ready_for_review": true,
+  "ready_at": "2026-07-28T05:37:57Z",
+  "publication_target": "telegram_review"
+}

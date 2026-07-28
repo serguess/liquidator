@@ -1,0 +1,41 @@
+{
+  "slug": "bankrotstva-grazhdan-pervoe-polugodie-rost-zamedlilsya",
+  "category": "news",
+  "h1": "Банкротства граждан: рост замедлился до 7% за полугодие",
+  "title": "Банкротства граждан замедлились до 7% за полугодие",
+  "description": "Статистика по банкротствам физ. лиц: темпы роста упали до 7% в первой половине года. Какие факторы влияют на кредитную нагрузку граждан.",
+  "main_keyword": "банкротства граждан полугодие",
+  "frequency_estimate": null,
+  "frequency_main": null,
+  "frequency_secondary": null,
+  "frequency_total": null,
+  "frequency_checked_at": null,
+  "frequency_region": 225,
+  "secondary_keywords": [
+    "статистика банкротств граждан",
+    "темпы роста банкротств",
+    "кредитная задолженность граждан",
+    "мировые соглашения при банкротстве",
+    "долговая нагрузка физических лиц"
+  ],
+  "lsi": [
+    "внесудебное банкротство",
+    "процедура банкротства граждан",
+    "задолженность перед кредиторами",
+    "реструктуризация задолженности",
+    "процент одобренных банкротств",
+    "физические лица должники",
+    "арбитражные управляющие",
+    "отчет о банкротствах",
+    "кредитный рынок",
+    "финансовая грамотность должника"
+  ],
+  "intent": "informational",
+  "funnel_stage": "cold",
+  "article_type": "B",
+  "offer": "proverka-spisaniya",
+  "cannibalization_check": "ok",
+  "event_date": "2026-07-16",
+  "news_zone": "finance",
+  "primary_source": "https://iz.ru/2133315/2026-07-16/rost-kolichestva-bankrotstv-rossiian-rezko-zamedlilsia"
+}
