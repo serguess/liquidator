@@ -4997,6 +4997,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "reorganizaciya-kompanii-vmesto-bankrotstva",
+      "category": "yur",
+      "title": "Реорганизация компании вместо банкротства: альтернативы",
+      "added_at": "2026-07-28T05:41:01.644883",
+      "char_count": 7410,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1785206455/articles/reorganizaciya-kompanii-vmesto-bankrotstva-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
