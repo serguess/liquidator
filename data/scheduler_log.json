@@ -30794,5 +30794,102 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-07-28T08:38:00",
+    "category": "news",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 38,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "news-116",
+    "topic_slug": "bankrotstvo-yurlits-rost-chisla-del-pervoe-polugodie",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "length_soft_passed: 6068 > 5500 но ≤ 7500 и iteration=2 — пропускаем (приоритет spam/uniqueness/ai)",
+        "forced_pass_at_iter2: блокеры пропущены, статья идёт в TG-очередь с metrics_warning=true. Было: 1 блокеров — broken_internal_links"
+      ],
+      "recommendations": [
+        "fix_internal_links: заменить href на канонический /articles/{cat}/{slug} из published_index.json (см. .claude/style/editor-cheatsheet.md секция 6)"
+      ],
+      "stderr_tail": ""
+    },
+    "finalize_safety_net": {
+      "ran": true,
+      "rc": 0
+    },
+    "status": "ok",
+    "slug": "bankrotstvo-yurlits-rost-chisla-del-pervoe-polugodie",
+    "duration_sec": 886.0,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "\n6-seo-editor        sonnet            6      16    63824     25156     63846\n7-publisher         haiku            36      20    53736     90264     53792\n------------------------------------------------------------------------------------------\nИТОГО                               190      93   505236    713597    505519\nBillable-токенов на статью: ~505K (cache_read 713K не считается в лимит подписки).\nАртефакты: drafts/bankrotstvo-yurlits-rost-chisla-del-pervoe-polugodie/  | quality_gate exit=0",
+    "stderr_tail": "",
+    "tokens_by_model": {},
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 6068
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
+  },
+  {
+    "timestamp": "2026-07-28T08:52:47",
+    "category": "news",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 39,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "news-117",
+    "topic_slug": "nbki-rekord-vydachi-kreditov-vtoroy-kvartal",
+    "status": "failed",
+    "slug": "nbki-rekord-vydachi-kreditov-vtoroy-kvartal",
+    "duration_sec": 377.0,
+    "returncode": 1,
+    "rescued_after_failure": false,
+    "stdout_tail": "=== 1-semantics (claude haiku) ===\n   ok: 1418 симв., usage in=20 out=4 cache_w=30480 cache_r=25520 billable=30504 ток, 21.6с\n=== 2-legal-research (claude haiku) ===\n   ok: 4971 симв., usage in=62 out=23 cache_w=119605 cache_r=232680 billable=119690 ток, 73.3с\n   ok: 11277 симв., billable=56380 ток (model=sonnet)\n   [outline_validate] exit=1\n=== 4-writer (claude opus) ===\n   ok: 7555 симв., billable=59057 ток, 69.5с\n   [writer self-fix проход 2]",
+    "stderr_tail": "[ERR] rate_limit: put_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard\",\"cache_creation\":{\"ephemeral_1h_input_tokens\":0,\"ephemeral_5m_input_tokens\":0},\"inference_geo\":\"\",\"iterations\":[],\"speed\":\"standard\"},\"modelUsage\":{},\"permission_denials\":[],\"terminal_reason\":\"completed\",\"fast_mode_state\":\"off\",\"uuid\":\"42189d67-70e7-4dad-8365-2403c986766b\"}\n\n",
+    "tokens_by_model": {},
+    "metrics": null
   }
 ]

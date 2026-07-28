@@ -9568,15 +9568,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 2169,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-25T15:30:15",
-      "last_action_at": "2026-07-25T15:30:15",
+      "last_action_at": "2026-07-26T10:00:24",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-07-25T15:30:15"
+      "pending_batch": false,
+      "pending_batch_at": "2026-07-25T15:30:15",
+      "batch_sent_at": "2026-07-26T10:00:24",
+      "batch_fail_count": 0
     },
     "pokupatel-imushchestva-na-torgah-bankrotstvo": {
       "category": "yur",
@@ -9586,19 +9588,93 @@
       "versions": [
         "2.0"
       ],
+      "tg_message_id": 2171,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-07-25T20:15:17",
+      "last_action_at": "2026-07-26T10:00:26",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-07-25T20:15:17",
+      "batch_sent_at": "2026-07-26T10:00:26",
+      "batch_fail_count": 0
+    },
+    "kto-platit-finansovomu-upravlyayushchemu-bankrotstvo": {
+      "category": "fiz",
+      "title": "Кто платит финансовому управляющему при банкротстве",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
       "tg_message_id": null,
       "tg_chat_id": null,
-      "first_seen_at": "2026-07-25T20:15:17",
-      "last_action_at": "2026-07-25T20:15:17",
+      "first_seen_at": "2026-07-28T01:04:34",
+      "last_action_at": "2026-07-28T01:04:34",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
       "pending_batch": true,
-      "pending_batch_at": "2026-07-25T20:15:17"
+      "pending_batch_at": "2026-07-28T01:04:35"
+    },
+    "reorganizaciya-kompanii-vmesto-bankrotstva": {
+      "category": "yur",
+      "title": "Реорганизация компании вместо банкротства: альтернативы",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-07-28T05:41:24",
+      "last_action_at": "2026-07-28T05:41:24",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-07-28T05:41:24"
+    },
+    "bankrotstva-grazhdan-pervoe-polugodie-rost-zamedlilsya": {
+      "category": "news",
+      "title": "Банкротства граждан замедлились до 7% за полугодие",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-07-28T08:38:26",
+      "last_action_at": "2026-07-28T08:38:26",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-07-28T08:38:26"
+    },
+    "bankrotstvo-yurlits-rost-chisla-del-pervoe-polugodie": {
+      "category": "news",
+      "title": "Банкротства компаний выросли на 21% в полугодии",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-07-28T08:53:26",
+      "last_action_at": "2026-07-28T08:53:26",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-07-28T08:53:26"
     }
   },
   "pending_actions": [],
-  "last_batch_date": "2026-07-25",
-  "last_batch_count": 4,
-  "last_batch_at": "2026-07-25T10:00:15"
+  "last_batch_date": "2026-07-27",
+  "last_batch_count": 0,
+  "last_batch_at": "2026-07-27T10:00:23"
 }
