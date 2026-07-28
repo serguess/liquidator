@@ -1,0 +1,97 @@
+{
+  "slug": "bankrotstvo-fizlica-dolg-rassrochka-bnpl",
+  "category": "fiz",
+  "title": "Банкротство при долге по рассрочке и BNPL-сервисам",
+  "description": "Как долги по рассрочке, маркетплейсам и BNPL-сервисам влияют на банкротство физлица, будут ли они списаны и что произойдет со счётом при судебном приказе.",
+  "h1": "Банкротство физлица при долге по рассрочке и BNPL-сервисам: что с долгом?",
+  "lead": "Разбираем, что случится с этими платежами, если открывать дело о списании долгов.",
+  "topic_action": "проверку возможности списания долга по рассрочке",
+  "breadcrumb_current": "Банкротство при рассрочке",
+  "og_image": "/assets/articles/bankrotstvo-fizlica-dolg-rassrochka-bnpl.jpg",
+  "main_keyword": "банкротство при долге по рассрочке",
+  "secondary_keywords": [
+    "рассрочка при банкротстве физлица",
+    "что происходит с долгом по рассрочке при банкротстве",
+    "BNPL-сервисы и банкротство",
+    "Яндекс.Маркет плюс банкротство",
+    "Озон рассрочка банкротство физлица",
+    "долг перед маркетплейсом при банкротстве",
+    "списание долга по рассрочке",
+    "кредит в рассрочку и банкротство",
+    "как банкротство влияет на рассрочку"
+  ],
+  "internal_links": [],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/"
+  ],
+  "faq": [
+    {
+      "question": "Спишут ли долг, если взыскатель не успел подать требование в реестр?",
+      "answer": "Да. Требования, не заявленные в срок процедуры, считаются погашенными после её завершения. Взыскатель самого права не теряет, но реализовать его больше не сможет."
+    },
+    {
+      "question": "Что происходит с BNPL-долгом при реализации имущества?",
+      "answer": "Он включается в реестр как обычное требование третьей очерёдности. Из вырученных денег площадка получает свою долю пропорционально размеру задолженности. Остаток гасится через списание."
+    },
+    {
+      "question": "Может ли маркетплейс из-за дела заблокировать личный аккаунт?",
+      "answer": "Аккаунт - это гражданско-правовые отношения площадки с покупателем. Банкротное право такого последствия не прописывает. На практике площадки иногда сами закрывают кабинет по внутренним правилам - оспаривать нужно в суде общей юрисдикции."
+    },
+    {
+      "question": "До какой суммы взыскатель получит судебный приказ без слушаний?",
+      "answer": "До полумиллиона рублей. Свыше этой планки нужно полноценное исковое производство с заседанием и вызовом сторон."
+    },
+    {
+      "question": "Обязательно ли включать все рассрочки в список кредиторов?",
+      "answer": "Да, все. Скрытие даже одного скромного платёжного графика - готовое основание для отказа в освобождении от обязательств по недобросовестности."
+    },
+    {
+      "question": "Куда деваются штрафы и пени по просроченному графику?",
+      "answer": "Идут в тело требования вместе с основной задолженностью. Если процедура завершается списанием - уходят с ним. Если реструктуризацией - гасятся по утверждённому плану."
+    },
+    {
+      "question": "Сколько лет нельзя оформить кредит, не сообщив о банкротстве?",
+      "answer": "Пять лет с даты завершения. Молчание карается: банк вправе потребовать досрочный возврат при обнаружении, а суд - признать сделку недействительной."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все факты сверены с research.json. Все утверждения соответствуют safe_phrasing из research и содержат ссылки на актуальные нормы 127-ФЗ, ФЗ-229, ГК РФ и закона о защите прав потребителей. Лимит судебного приказа 500 тыс. руб., исполнительский сбор 7% минимум 1 тыс. руб., удержание до 50% зарплаты, ограничения после банкротства 5 лет - все актуальны на 2026 год."
+  ],
+  "keyword_density_main": 0.021,
+  "main_keyword_exact_count": 2,
+  "text_chars": 7329,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.1,
+  "local_spam_ngram3_repeat": 0.011,
+  "local_lexical_diversity": 0.677,
+  "local_ai_markers_density": 0.22,
+  "local_ai_markers_critical": 0,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1785242062/articles/bankrotstvo-fizlica-dolg-rassrochka-bnpl-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1785242062/articles/bankrotstvo-fizlica-dolg-rassrochka-bnpl-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Editorial photograph of a corner of a desk in a high-floor office overlooking the city. Foreground: a smartphone face-down on the walnut surface, a closed thin laptop in matte graphite, a sleek fountain pen aligned on a leather notebook, a white porcelain coffee cup, and a water glass. Background through floor-to-ceiling windows: blurred urban skyline at dusk, distant city lights casting a cool blue-grey tone. Camera: shallow depth of field, three-quarter angle, eye-level. Lighting: cool ambient daylight from outside blended with warm interior tungsten from a desk lamp. Materials: walnut desk, dark glass, polished steel. Mood: consumer financial contemplation at day's end.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-07-28T12:34:23Z",
+  "length_status": "too_long",
+  "length_kind": "default",
+  "local_ai_markers_total": 2,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 4,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 47,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 90,
+  "customer_risks": [
+    "длина значительно больше лимита 6500 (7 329 знаков)"
+  ],
+  "date_published": "2026-07-28",
+  "date_modified": "2026-07-28",
+  "ready_for_review": true,
+  "ready_at": "2026-07-28T12:34:25Z",
+  "publication_target": "telegram_review"
+}

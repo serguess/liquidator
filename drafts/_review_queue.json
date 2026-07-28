@@ -5036,6 +5036,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "bankrotstvo-fizlica-dolg-rassrochka-bnpl",
+      "category": "fiz",
+      "title": "Банкротство при долге по рассрочке и BNPL-сервисам",
+      "added_at": "2026-07-28T15:34:25.651252",
+      "char_count": 7329,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1785242062/articles/bankrotstvo-fizlica-dolg-rassrochka-bnpl-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
