@@ -2,6 +2,19 @@
   "generated": "2026-07-30",
   "articles": [
     {
+      "slug": "nbki-rekord-vydachi-kreditov-vtoroy-kvartal",
+      "cat": "news",
+      "catLabel": "Новости",
+      "title": "НБКИ: рекорд выдачи кредитов во втором квартале",
+      "desc": "НБКИ опубликовала данные о выдаче кредитов во втором квартале: рекордные 3,52 млн кредитов. Анализ роста кредитования.",
+      "date": "30 июля 2026",
+      "dateIso": "2026-07-30",
+      "read": "5 мин.",
+      "tone": "b",
+      "img": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1785303385/articles/nbki-rekord-vydachi-kreditov-vtoroy-kvartal-cover.jpg",
+      "url": "articles/news/nbki-rekord-vydachi-kreditov-vtoroy-kvartal"
+    },
+    {
       "slug": "nalog-na-pribyl-pri-likvidacii-bankrotstvo",
       "cat": "yur",
       "catLabel": "Банкротство юридических лиц",
