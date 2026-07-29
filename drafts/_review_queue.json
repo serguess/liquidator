@@ -5101,6 +5101,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "bankrotstvo-po-iniciative-fns-zashchita-direktora",
+      "category": "yur",
+      "title": "Банкротство по инициативе ФНС: защита директора",
+      "added_at": "2026-07-29T20:30:09.375498",
+      "char_count": 7820,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1785346207/articles/bankrotstvo-po-iniciative-fns-zashchita-direktora-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

@@ -31265,5 +31265,65 @@
     "timestamp": "2026-07-29T10:00:21",
     "status": "preflight_failed",
     "reason": "rate_limit: You've hit your limit · resets 1:30pm (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-07-29T14:48:04",
+    "category": "fiz",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 1,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "fiz-169",
+    "topic_slug": "socialnyj-kontrakt-pri-bankrotstve-fizlica",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "length_soft_passed: 7643 > 6500 но ≤ 8500 и iteration=2 — пропускаем (приоритет spam/uniqueness/ai)",
+        "spam_soft_passed: ratio-флаги мягкие при iter=2, targeted_tokens чистые → пропускаем (spam ≈48-52% по прогнозу)"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "finalize_safety_net": {
+      "ran": true,
+      "rc": 0
+    },
+    "status": "ok",
+    "slug": "socialnyj-kontrakt-pri-bankrotstve-fizlica",
+    "duration_sec": 2331.1,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "     51832\n6-seo-editor        haiku            20       8    65860     25520     65888\n7-publisher         haiku            20       8    39250     25520     39278\n------------------------------------------------------------------------------------------\nИТОГО                               164      76   486279    544107    486519\nBillable-токенов на статью: ~486K (cache_read 544K не считается в лимит подписки).\nАртефакты: drafts/socialnyj-kontrakt-pri-bankrotstve-fizlica/  | quality_gate exit=0",
+    "stderr_tail": "",
+    "tokens_by_model": {},
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7643
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]

@@ -1,0 +1,102 @@
+{
+  "slug": "bankrotstvo-po-iniciative-fns-zashchita-direktora",
+  "category": "yur",
+  "title": "Банкротство по инициативе ФНС: защита директора",
+  "description": "Причины и порядок инициирования банкротства ФНС. Права директора. Как защитить личное имущество и счета от ареста. Когда нужен адвокат.",
+  "h1": "Банкротство по инициативе ФНС: как защитить директора и имущество компании",
+  "lead": "Разбираем, как защитить личное имущество директора при банкротстве компании и когда эта защита может не сработать.",
+  "topic_action": "защиту директора при банкротстве компании",
+  "breadcrumb_current": "Банкротство по инициативе ФНС",
+  "og_image": "/assets/articles/bankrotstvo-po-iniciative-fns-zashchita-direktora.jpg",
+  "main_keyword": "банкротство по инициативе фнс защита директора",
+  "secondary_keywords": [
+    "защита директора от банкротства",
+    "банкротство компании по инициативе налоговой",
+    "арест счетов директора при банкротстве",
+    "личное имущество директора при банкротстве",
+    "ответственность директора за долги компании",
+    "как защитить имущество директора",
+    "процедура банкротства по требованию фнс",
+    "уголовная ответственность директора за долги",
+    "выход из директоров при банкротстве",
+    "реорганизация компании вместо банкротства"
+  ],
+  "internal_links": [
+    "/articles/yur/bankrotstvo-yurlica",
+    "/articles/yur/konkursnyi-upravlyayushchii",
+    "/articles/yur/mirovoe-soglashenie-bankrotstvo"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/",
+    "https://www.consultant.ru/document/cons_doc_LAW_5142/"
+  ],
+  "faq": [
+    {
+      "question": "Может ли налоговая арестовать личный счёт руководителя?",
+      "answer": "Нет. Зарплатные счета управленца защищены 446-й нормой процессуального кодекса. Если арест наложен ошибочно (перепутали корпоративный счёт и зарплатный), он снимается через отдельное обращение."
+    },
+    {
+      "question": "Какая недоимка даёт право подать заявление?",
+      "answer": "От 100 000 рублей при просрочке свыше 90 дней. Оба условия должны выполниться одновременно, иначе оснований для обращения нет."
+    },
+    {
+      "question": "Сохраняет ли руководитель полномочия после наблюдения?",
+      "answer": "На этой стадии полномочия сохраняются, но крупные сделки согласовываются с временным управляющим. С введением конкурсного производства управленец отстраняется полностью."
+    },
+    {
+      "question": "Что произойдёт при одобрении мирового соглашения?",
+      "answer": "При поддержке большинства голосов на собрании и утверждении инстанцией производство прекращается. Организация продолжает работу на условиях, зафиксированных в документе."
+    },
+    {
+      "question": "Когда специалист вправе подать иск о личной ответственности?",
+      "answer": "С даты открытия конкурсного производства и в течение всего срока процедуры. Оспорить сделки, повлёкшие убытки, можно за три года до подачи заявления."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все факты сверены с research.json. Статусы: active. last_verified = 2026-07-29 для всех ключевых утверждений.",
+    "ст. 7 п. 2 127-ФЗ: недоимка 100 000 руб. + просрочка 90 дней - актуально.",
+    "ст. 34, 43, 69-71 127-ФЗ: положения о конкурсной массе и полномочиях директора - актуально.",
+    "ст. 446 ГПК: иммунитет личного имущества физлица - актуально.",
+    "ст. 61.1 44-ФЗ: субсидиарная ответственность контролирующего лица - актуально.",
+    "ст. 199 УК РФ: уголовная ответственность за налоговые преступления (требует умышленности) - актуально.",
+    "ст. 150-151 127-ФЗ: мировое соглашение при банкротстве - актуально.",
+    "Контекст применения норм корректен - нет путаницы между процедурами и категориями должников."
+  ],
+  "keyword_density_main": 0.017,
+  "main_keyword_exact_count": 2,
+  "text_chars": 7820,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.109,
+  "local_spam_ngram3_repeat": 0.016,
+  "local_lexical_diversity": 0.649,
+  "local_ai_markers_density": 0.21,
+  "local_ai_markers_critical": 0,
+  "local_ai_markers_total": 2,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 4,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "predicted_spam_pct": 49,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1785346207/articles/bankrotstvo-po-iniciative-fns-zashchita-direktora-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1785346207/articles/bankrotstvo-po-iniciative-fns-zashchita-direktora-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Close-up architectural photograph of stone columns, marble staircase treads, and heavy arched doors of a courthouse or administrative building. Camera: low-angle looking upward along weathered column fluting, emphasizing institutional authority and procedural gravity. A closed dark leather portfolio rests on a polished marble step in the foreground, symbolizing legal documentation and formal proceedings under administrative scrutiny. Materials: weathered limestone, polished marble with subtle grain detail, oxidized brass architectural fixtures, cast-iron balustrade. Lighting: cool morning daylight grazing the stone surfaces, casting deep shadows in architectural recesses to emphasize weight and consequence. Palette: cool grey-blue stone with restrained warm brass accents. Mood: fortified institutional authority, the monumental weight of administrative procedure and director's legal defense.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-07-29T17:30:08Z",
+  "length_status": "too_long",
+  "length_kind": "default",
+  "quality_gate_retry_count": 2,
+  "customer_risks": [
+    "длина значительно больше лимита 6500 (7 820 знаков)"
+  ],
+  "date_published": "2026-07-29",
+  "date_modified": "2026-07-29",
+  "ready_for_review": true,
+  "ready_at": "2026-07-29T17:30:09Z",
+  "publication_target": "telegram_review"
+}
