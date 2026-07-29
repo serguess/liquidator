@@ -2,6 +2,19 @@
   "generated": "2026-07-30",
   "articles": [
     {
+      "slug": "osparivanie-ocenki-imushchestva-bankrotstvo",
+      "cat": "yur",
+      "catLabel": "Банкротство юридических лиц",
+      "title": "Как оспорить оценку имущества при банкротстве компании",
+      "desc": "Порядок оспаривания оценки имущества конкурсным управляющим или кредиторами. Основания для апелляции, судебную практику и способы защиты интересов компании.",
+      "date": "30 июля 2026",
+      "dateIso": "2026-07-30",
+      "read": "5 мин.",
+      "tone": "b",
+      "img": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1784827077/articles/osparivanie-ocenki-imushchestva-bankrotstvo-cover.jpg",
+      "url": "articles/yur/osparivanie-ocenki-imushchestva-bankrotstvo"
+    },
+    {
       "slug": "ndfl-nalog-pri-bankrotstve-fizlica",
       "cat": "fiz",
       "catLabel": "Банкротство физических лиц",
