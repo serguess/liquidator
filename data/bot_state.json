@@ -9389,7 +9389,7 @@
     "ndfl-nalog-pri-bankrotstve-fizlica": {
       "category": "fiz",
       "title": "НДФЛ при банкротстве физлица: налоговые последствия",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -9397,14 +9397,16 @@
       "tg_message_id": 2151,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-23T15:14:23",
-      "last_action_at": "2026-07-24T10:00:04",
+      "last_action_at": "2026-07-30T02:33:07",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/fiz/ndfl-nalog-pri-bankrotstve-fizlica",
       "pending_batch": false,
       "pending_batch_at": "2026-07-23T15:14:23",
       "batch_sent_at": "2026-07-24T10:00:04",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-07-30T02:33:07",
+      "articles_path": "articles/fiz/ndfl-nalog-pri-bankrotstve-fizlica.html"
     },
     "osparivanie-ocenki-imushchestva-bankrotstvo": {
       "category": "yur",

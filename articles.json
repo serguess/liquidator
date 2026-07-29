@@ -2,6 +2,19 @@
   "generated": "2026-07-30",
   "articles": [
     {
+      "slug": "ndfl-nalog-pri-bankrotstve-fizlica",
+      "cat": "fiz",
+      "catLabel": "Банкротство физических лиц",
+      "title": "НДФЛ при банкротстве физлица: налоговые последствия",
+      "desc": "Как банкротство физлица влияет на налоговые обязательства. Освобождение от НДФЛ, налоговые последствия, практика и правила 2025-2026.",
+      "date": "30 июля 2026",
+      "dateIso": "2026-07-30",
+      "read": "5 мин.",
+      "tone": "b",
+      "img": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1784808796/articles/ndfl-nalog-pri-bankrotstve-fizlica-cover.jpg",
+      "url": "articles/fiz/ndfl-nalog-pri-bankrotstve-fizlica"
+    },
+    {
       "slug": "bankovskaya-garantiya-pri-bankrotstve-yurlica",
       "cat": "yur",
       "catLabel": "Банкротство юридических лиц",
