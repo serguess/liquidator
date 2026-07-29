@@ -5062,6 +5062,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "nbki-rekord-vydachi-kreditov-vtoroy-kvartal",
+      "category": "news",
+      "title": "НБКИ: рекорд выдачи кредитов во втором квартале",
+      "added_at": "2026-07-29T08:36:28.585153",
+      "char_count": 7042,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1785303385/articles/nbki-rekord-vydachi-kreditov-vtoroy-kvartal-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
