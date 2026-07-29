@@ -3816,7 +3816,11 @@
       "topic_action": "включиться в реестр требований кредиторов",
       "event_date": "2026-07-21",
       "news_zone": "vs_practice",
-      "primary_source": "https://pravo.ru/news/264884/"
+      "primary_source": "https://pravo.ru/news/264884/",
+      "status": "rejected",
+      "rejected_at": "2026-07-29T08:57:19",
+      "rejected_reason": "cannibalization:preflight:bankrotstvo-po-zayavleniyu-kreditora-fizlica",
+      "rejected_by": "auto_skip_in_slot"
     },
     {
       "id": "news-120",
