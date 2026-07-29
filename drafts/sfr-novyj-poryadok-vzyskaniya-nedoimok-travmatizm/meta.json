@@ -1,0 +1,115 @@
+{
+  "slug": "sfr-novyj-poryadok-vzyskaniya-nedoimok-travmatizm",
+  "category": "news",
+  "title": "СФР обновил порядок взыскания недоимок травматизма",
+  "description": "Что изменилось в процедуре взыскания недоимок по травматизму, как это влияет на работодателей и страховщиков - актуальные требования СФР.",
+  "h1": "СФР обновил порядок взыскания недоимок по травматизму",
+  "lead": "С 10 июля 2026 года Социальный фонд уведомляет работодателей о недоимке по взносам на травматизм тремя каналами одновременно - ускорилась и передача данных приставам.",
+  "topic_action": "защиту от взыскания СФР по страховым взносам",
+  "breadcrumb_current": "СФР: взыскание недоимок по травматизму",
+  "og_image": "/assets/articles/sfr-novyj-poryadok-vzyskaniya-nedoimok-travmatizm.jpg",
+  "main_keyword": "СФР порядок взыскания недоимок травматизм",
+  "secondary_keywords": [
+    "взыскание недоимок СФР травматизм",
+    "как СФР взыскивает недоимки по социальным взносам",
+    "алгоритм взыскания задолженности по травматизму",
+    "когда СФР может взыскать недоимку",
+    "как оспорить решение СФР о взыскании",
+    "сроки взыскания социальных взносов",
+    "ответственность за недоимку по травматизму",
+    "уведомление о взыскании от СФР"
+  ],
+  "intent": "informational",
+  "funnel_stage": "warm",
+  "article_type": "B",
+  "offer": "snyatie-aresta",
+  "event_date": "2026-07-10",
+  "news_zone": "legislation",
+  "primary_source": "https://www.klerk.ru/buh/news/699317/",
+  "internal_links": [
+    "/articles/vzysk/kak-otmenit-sudebnyj-prikaz",
+    "/articles/vzysk/dolzhnik-skryvaet-imushchestvo-ot-pristavov"
+  ],
+  "external_links": [
+    "https://lk.sfr.gov.ru/",
+    "https://www.consultant.ru/document/cons_doc_LAW_5142/",
+    "https://www.klerk.ru/buh/news/699317/"
+  ],
+  "faq": [
+    {
+      "question": "Что будет с расчётным счётом, если не заплатить в срок?",
+      "answer": "Автоматически ничего не произойдёт. Ограничение операций в банке возникает только по судебному приказу или исполнительному листу. Между извещением и заморозкой денег проходит от двух недель до нескольких месяцев."
+    },
+    {
+      "question": "Можно ли отменить судебный приказ после его вынесения?",
+      "answer": "Да. С момента получения копии у плательщика есть 10 дней на письменные возражения в арбитраж. Причину указывать не обязательно. Документ отменят, но само требование о взносах никуда не денется - страховщик подаст обычный иск."
+    },
+    {
+      "question": "Сколько лет ведомство вправе предъявить требование?",
+      "answer": "Общий отсчёт - 3 года с момента возникновения обязанности по уплате. В отдельных случаях - до 10 лет. За рамками этих окон взыскание невозможно."
+    },
+    {
+      "question": "Чем жалоба отличается от иска в арбитраж?",
+      "answer": "Жалоба - досудебный маршрут, идёт вышестоящему руководству страховщика, дешевле и быстрее. Иск - процесс в арбитражном суде о признании решения незаконным, с госпошлиной и заседаниями. Инструменты допустимо совмещать."
+    },
+    {
+      "question": "Обязательно ли получать бумажное извещение?",
+      "answer": "После июльской правки уведомление приходит одновременно по почте, в личном кабинете lk.sfr.gov.ru и на электронный ящик организации. Плательщик считается уведомлённым по любому из каналов, ссылаться на «не пришло письмо» стало сложнее."
+    },
+    {
+      "question": "Каков размер санкции за первое нарушение?",
+      "answer": "20% от суммы недоимки при обычной неосторожности. Повышенная ставка 40% - при умысле либо повторе того же нарушения в течение года. Плюс пени - 1/300 ключевой ставки за каждый день просрочки."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "f8 (обновление СФР 10.07.2026): legislation_status=needs_verification, contested=true - в лиде и первом абзаце сохранена оговорка «по данным klerk.ru», конкретный номер приказа не утверждается; использована safe_phrasing из research.json",
+    "f3 (500 000 руб., ст. 229.2 АПК РФ): verified, last_verified=2026-07-29, active - факт использован точно",
+    "f5 (пени 1/300 ключевой ставки, штраф 20/40%, ст. 122 НК РФ): verified, last_verified=2026-07-29, active",
+    "f6 (приостановление операций только по судебному акту, ст. 76 НК РФ; ст. 95-96 ФЗ-229): verified - запрещённое утверждение «страховщик сам заморозил счёт» прямо опровергнуто в тексте",
+    "f4 (3 года / до 10 лет, ст. 78-79 НК РФ): verified, last_verified=2026-07-29, active",
+    "f7 (10 дней на отмену приказа, ст. 229.7 АПК): verified, last_verified=2026-07-29, active",
+    "Все запрещённые утверждения из forbidden_claims отсутствуют в тексте"
+  ],
+  "keyword_density_main": null,
+  "main_keyword_exact_count": null,
+  "text_chars": 6500,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.099,
+  "local_spam_ngram3_repeat": 0.03,
+  "local_lexical_diversity": 0.647,
+  "local_ai_markers_density": 0.24,
+  "local_ai_markers_critical": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1785304625/articles/sfr-novyj-poryadok-vzyskaniya-nedoimok-travmatizm-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1785304625/articles/sfr-novyj-poryadok-vzyskaniya-nedoimok-travmatizm-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Editorial photograph of a polished marble or weathered stone administrative surface holding carefully arranged business objects — a closed dark leather portfolio positioned left of center, a polished brass round seal of an official authority catching light, an antique brass pocket watch on a chain, a fountain pen resting across papers, a brass key ring, and a white porcelain cup at the edge. Soft institutional background: blurred classical columns and distant limestone architectural detail, gently out of focus. Camera: tabletop level, straight-on composition. Lighting: natural overcast daylight grazing the marble surface, revealing fine texture and veining. Palette: warm cream stone, cool grey shadow, restrained brass accents, deep leather tones. Mood: formal administrative procedure, official regulatory update, timeless institutional authority.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-07-29T05:57:06Z",
+  "length_status": "too_long",
+  "length_kind": "news",
+  "local_ai_markers_total": 2,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 2,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 49,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "длина значительно больше лимита 5500 (6 500 знаков)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "targeted_tokens_over_limit: РФ_рудимент=4(>≤2)",
+    "broken_internal_links: 1 ссылок без соответствия в published_index (/articles/vzysk/dolzhnik-skryvaet-imushchestvo-ot-pristavov: slug 'dolzhnik-skryvaet-imushchestvo-ot-pristavov' не найден в категории 'vzysk' (есть: нигде))"
+  ],
+  "date_published": "2026-07-29",
+  "date_modified": "2026-07-29",
+  "ready_for_review": true,
+  "ready_at": "2026-07-29T05:57:09Z",
+  "publication_target": "telegram_review"
+}

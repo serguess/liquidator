@@ -5075,6 +5075,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "sfr-novyj-poryadok-vzyskaniya-nedoimok-travmatizm",
+      "category": "news",
+      "title": "СФР обновил порядок взыскания недоимок травматизма",
+      "added_at": "2026-07-29T08:57:09.753177",
+      "char_count": 6500,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1785304625/articles/sfr-novyj-poryadok-vzyskaniya-nedoimok-travmatizm-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
