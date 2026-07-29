@@ -9565,7 +9565,7 @@
     "kollektory-rekord-vykup-dolgov-mfo": {
       "category": "news",
       "title": "Коллекторы рекордно скупают долги МФО: что это означает",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -9573,14 +9573,16 @@
       "tg_message_id": 2167,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-25T08:47:11",
-      "last_action_at": "2026-07-25T10:00:15",
+      "last_action_at": "2026-07-30T02:36:46",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/news/kollektory-rekord-vykup-dolgov-mfo",
       "pending_batch": false,
       "pending_batch_at": "2026-07-25T08:47:11",
       "batch_sent_at": "2026-07-25T10:00:15",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-07-30T02:36:46",
+      "articles_path": "articles/news/kollektory-rekord-vykup-dolgov-mfo.html"
     },
     "dolg-za-kapitalnyj-remont-bankrotstvo-fizlica": {
       "category": "fiz",
