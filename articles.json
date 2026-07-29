@@ -2,6 +2,19 @@
   "generated": "2026-07-30",
   "articles": [
     {
+      "slug": "bankrotstva-grazhdan-pervoe-polugodie-rost-zamedlilsya",
+      "cat": "news",
+      "catLabel": "Новости",
+      "title": "Банкротства граждан замедлились до 7% за полугодие",
+      "desc": "Статистика по банкротствам физ. лиц: темпы роста упали до 7% в первой половине года. Какие факторы влияют на кредитную нагрузку граждан.",
+      "date": "30 июля 2026",
+      "dateIso": "2026-07-30",
+      "read": "4 мин.",
+      "tone": "b",
+      "img": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1785217072/articles/bankrotstva-grazhdan-pervoe-polugodie-rost-zamedlilsya-cover.jpg",
+      "url": "articles/news/bankrotstva-grazhdan-pervoe-polugodie-rost-zamedlilsya"
+    },
+    {
       "slug": "reorganizaciya-kompanii-vmesto-bankrotstva",
       "cat": "yur",
       "catLabel": "Банкротство юридических лиц",

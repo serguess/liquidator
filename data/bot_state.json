@@ -9673,7 +9673,7 @@
     "bankrotstva-grazhdan-pervoe-polugodie-rost-zamedlilsya": {
       "category": "news",
       "title": "Банкротства граждан замедлились до 7% за полугодие",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -9681,14 +9681,16 @@
       "tg_message_id": 2177,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-28T08:38:26",
-      "last_action_at": "2026-07-28T10:00:28",
+      "last_action_at": "2026-07-30T02:40:29",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/news/bankrotstva-grazhdan-pervoe-polugodie-rost-zamedlilsya",
       "pending_batch": false,
       "pending_batch_at": "2026-07-28T08:38:26",
       "batch_sent_at": "2026-07-28T10:00:28",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-07-30T02:40:29",
+      "articles_path": "articles/news/bankrotstva-grazhdan-pervoe-polugodie-rost-zamedlilsya.html"
     },
     "bankrotstvo-yurlits-rost-chisla-del-pervoe-polugodie": {
       "category": "news",
