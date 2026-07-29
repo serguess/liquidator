@@ -9303,7 +9303,7 @@
     "dolg-inostrannomu-kreditory-razyyasnenie-tsb-rossii": {
       "category": "news",
       "title": "Долг иностранному кредитору: разъяснение ЦБ РФ",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -9311,14 +9311,16 @@
       "tg_message_id": 2143,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-22T09:13:28",
-      "last_action_at": "2026-07-23T10:00:17",
+      "last_action_at": "2026-07-30T02:30:50",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/news/dolg-inostrannomu-kreditory-razyyasnenie-tsb-rossii",
       "pending_batch": false,
       "pending_batch_at": "2026-07-22T09:13:28",
       "batch_sent_at": "2026-07-23T10:00:17",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-07-30T02:30:50",
+      "articles_path": "articles/news/dolg-inostrannomu-kreditory-razyyasnenie-tsb-rossii.html"
     },
     "izmeneniya-v-bankrotstve-fizlica-novye-pravila": {
       "category": "fiz",

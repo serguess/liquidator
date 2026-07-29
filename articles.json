@@ -1,6 +1,19 @@
 {
-  "generated": "2026-07-22",
+  "generated": "2026-07-30",
   "articles": [
+    {
+      "slug": "dolg-inostrannomu-kreditory-razyyasnenie-tsb-rossii",
+      "cat": "news",
+      "catLabel": "Новости",
+      "title": "Долг иностранному кредитору: разъяснение ЦБ РФ",
+      "desc": "Как платить долг иностранному кредитору: что уточнил ЦБ РФ в июле 2026, как пройти валютный контроль и что делать при отказе банка.",
+      "date": "30 июля 2026",
+      "dateIso": "2026-07-30",
+      "read": "4 мин.",
+      "tone": "b",
+      "img": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1784700762/articles/dolg-inostrannomu-kreditory-razyyasnenie-tsb-rossii-cover.jpg",
+      "url": "articles/news/dolg-inostrannomu-kreditory-razyyasnenie-tsb-rossii"
+    },
     {
       "slug": "voznagrazhdeniye-upravlyayushchego-novye-stavki-bankrotstvo",
       "cat": "news",
