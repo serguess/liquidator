@@ -9608,15 +9608,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 2173,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-28T01:04:34",
-      "last_action_at": "2026-07-28T01:04:34",
+      "last_action_at": "2026-07-28T10:00:24",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-07-28T01:04:35"
+      "pending_batch": false,
+      "pending_batch_at": "2026-07-28T01:04:35",
+      "batch_sent_at": "2026-07-28T10:00:24",
+      "batch_fail_count": 0
     },
     "reorganizaciya-kompanii-vmesto-bankrotstva": {
       "category": "yur",
@@ -9626,15 +9628,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 2175,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-28T05:41:24",
-      "last_action_at": "2026-07-28T05:41:24",
+      "last_action_at": "2026-07-28T10:00:26",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-07-28T05:41:24"
+      "pending_batch": false,
+      "pending_batch_at": "2026-07-28T05:41:24",
+      "batch_sent_at": "2026-07-28T10:00:26",
+      "batch_fail_count": 0
     },
     "bankrotstva-grazhdan-pervoe-polugodie-rost-zamedlilsya": {
       "category": "news",
@@ -9644,15 +9648,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 2177,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-28T08:38:26",
-      "last_action_at": "2026-07-28T08:38:26",
+      "last_action_at": "2026-07-28T10:00:28",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-07-28T08:38:26"
+      "pending_batch": false,
+      "pending_batch_at": "2026-07-28T08:38:26",
+      "batch_sent_at": "2026-07-28T10:00:28",
+      "batch_fail_count": 0
     },
     "bankrotstvo-yurlits-rost-chisla-del-pervoe-polugodie": {
       "category": "news",
@@ -9662,19 +9668,57 @@
       "versions": [
         "2.0"
       ],
+      "tg_message_id": 2179,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-07-28T08:53:26",
+      "last_action_at": "2026-07-28T10:00:31",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-07-28T08:53:26",
+      "batch_sent_at": "2026-07-28T10:00:31",
+      "batch_fail_count": 0
+    },
+    "bankrotstvo-fizlica-dolg-rassrochka-bnpl": {
+      "category": "fiz",
+      "title": "Банкротство при долге по рассрочке и BNPL-сервисам",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
       "tg_message_id": null,
       "tg_chat_id": null,
-      "first_seen_at": "2026-07-28T08:53:26",
-      "last_action_at": "2026-07-28T08:53:26",
+      "first_seen_at": "2026-07-28T15:34:30",
+      "last_action_at": "2026-07-28T15:34:30",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
       "pending_batch": true,
-      "pending_batch_at": "2026-07-28T08:53:26"
+      "pending_batch_at": "2026-07-28T15:34:30"
+    },
+    "nalog-na-pribyl-pri-likvidacii-bankrotstvo": {
+      "category": "yur",
+      "title": "Налог на прибыль при ликвидации компании через банкротство",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-07-29T00:53:36",
+      "last_action_at": "2026-07-29T00:53:36",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-07-29T00:53:36"
     }
   },
   "pending_actions": [],
-  "last_batch_date": "2026-07-27",
-  "last_batch_count": 0,
-  "last_batch_at": "2026-07-27T10:00:23"
+  "last_batch_date": "2026-07-28",
+  "last_batch_count": 4,
+  "last_batch_at": "2026-07-28T10:00:31"
 }
