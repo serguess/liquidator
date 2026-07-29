@@ -9347,7 +9347,7 @@
     "bankovskaya-garantiya-pri-bankrotstve-yurlica": {
       "category": "yur",
       "title": "Банковская гарантия при банкротстве: права бенефициара",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -9355,14 +9355,16 @@
       "tg_message_id": 2147,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-23T05:38:17",
-      "last_action_at": "2026-07-23T10:00:21",
+      "last_action_at": "2026-07-30T02:31:40",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/yur/bankovskaya-garantiya-pri-bankrotstve-yurlica",
       "pending_batch": false,
       "pending_batch_at": "2026-07-23T05:38:17",
       "batch_sent_at": "2026-07-23T10:00:21",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-07-30T02:31:40",
+      "articles_path": "articles/yur/bankovskaya-garantiya-pri-bankrotstve-yurlica.html"
     },
     "novyy-poryadok-zayavleniya-bankrotstvo-kompaniy": {
       "category": "news",
