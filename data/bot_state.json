@@ -9455,7 +9455,7 @@
     "saldirovanie-trebovanij-bankrotstvo-zakonno": {
       "category": "news",
       "title": "Сальдирование требований в банкротстве: судебная практика",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -9463,14 +9463,16 @@
       "tg_message_id": 2157,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-24T05:27:04",
-      "last_action_at": "2026-07-24T10:00:11",
+      "last_action_at": "2026-07-30T02:35:13",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/news/saldirovanie-trebovanij-bankrotstvo-zakonno",
       "pending_batch": false,
       "pending_batch_at": "2026-07-24T05:27:04",
       "batch_sent_at": "2026-07-24T10:00:11",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-07-30T02:35:13",
+      "articles_path": "articles/news/saldirovanie-trebovanij-bankrotstvo-zakonno.html"
     },
     "bankrotstvo-kompanii-aktivy-prevyshayut-dolgi-otmena": {
       "category": "news",
