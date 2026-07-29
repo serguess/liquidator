@@ -9739,7 +9739,7 @@
     "nalog-na-pribyl-pri-likvidacii-bankrotstvo": {
       "category": "yur",
       "title": "Налог на прибыль при ликвидации компании через банкротство",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -9747,14 +9747,16 @@
       "tg_message_id": 2183,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-29T00:53:36",
-      "last_action_at": "2026-07-29T10:00:22",
+      "last_action_at": "2026-07-30T02:41:53",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/yur/nalog-na-pribyl-pri-likvidacii-bankrotstvo",
       "pending_batch": false,
       "pending_batch_at": "2026-07-29T00:53:36",
       "batch_sent_at": "2026-07-29T10:00:22",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-07-30T02:41:53",
+      "articles_path": "articles/yur/nalog-na-pribyl-pri-likvidacii-bankrotstvo.html"
     },
     "nbki-rekord-vydachi-kreditov-vtoroy-kvartal": {
       "category": "news",
