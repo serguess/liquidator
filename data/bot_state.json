@@ -9499,7 +9499,7 @@
     "bankrotstvo-fizlica-s-dejstvuyushchim-ip": {
       "category": "fiz",
       "title": "Банкротство физлица с ИП: порядок и риски",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -9507,14 +9507,16 @@
       "tg_message_id": 2161,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-24T14:57:10",
-      "last_action_at": "2026-07-25T10:00:09",
+      "last_action_at": "2026-07-30T02:35:44",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/fiz/bankrotstvo-fizlica-s-dejstvuyushchim-ip",
       "pending_batch": false,
       "pending_batch_at": "2026-07-24T14:57:10",
       "batch_sent_at": "2026-07-25T10:00:09",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-07-30T02:35:44",
+      "articles_path": "articles/fiz/bankrotstvo-fizlica-s-dejstvuyushchim-ip.html"
     },
     "vyhod-uchastnika-ooo-pered-bankrotstvom": {
       "category": "yur",

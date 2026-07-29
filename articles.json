@@ -2,6 +2,19 @@
   "generated": "2026-07-30",
   "articles": [
     {
+      "slug": "bankrotstvo-fizlica-s-dejstvuyushchim-ip",
+      "cat": "fiz",
+      "catLabel": "Банкротство физических лиц",
+      "title": "Банкротство физлица с ИП: порядок и риски",
+      "desc": "Как объявить себя банкротом, если у вас есть действующее ИП. Порядок процедуры, что входит в конкурсную массу, риски для бизнеса и ограничения после завершения.",
+      "date": "30 июля 2026",
+      "dateIso": "2026-07-30",
+      "read": "5 мин.",
+      "tone": "b",
+      "img": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1784894205/articles/bankrotstvo-fizlica-s-dejstvuyushchim-ip-cover.jpg",
+      "url": "articles/fiz/bankrotstvo-fizlica-s-dejstvuyushchim-ip"
+    },
+    {
       "slug": "bankrotstvo-kompanii-aktivy-prevyshayut-dolgi-otmena",
       "cat": "news",
       "catLabel": "Новости",
