@@ -9715,6 +9715,42 @@
       "published_url": null,
       "pending_batch": true,
       "pending_batch_at": "2026-07-29T00:53:36"
+    },
+    "nbki-rekord-vydachi-kreditov-vtoroy-kvartal": {
+      "category": "news",
+      "title": "НБКИ: рекорд выдачи кредитов во втором квартале",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-07-29T08:37:22",
+      "last_action_at": "2026-07-29T08:37:22",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-07-29T08:37:22"
+    },
+    "sfr-novyj-poryadok-vzyskaniya-nedoimok-travmatizm": {
+      "category": "news",
+      "title": "СФР обновил порядок взыскания недоимок травматизма",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-07-29T08:57:22",
+      "last_action_at": "2026-07-29T08:57:22",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-07-29T08:57:22"
     }
   },
   "pending_actions": [],
