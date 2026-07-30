@@ -3880,7 +3880,11 @@
       "topic_action": "реструктуризацию долга при новой ставке",
       "event_date": "2026-07-25",
       "news_zone": "finance",
-      "primary_source": "https://cbr.ru/press/pr/"
+      "primary_source": "https://cbr.ru/press/pr/",
+      "status": "rejected",
+      "rejected_at": "2026-07-30T08:38:22",
+      "rejected_reason": "cannibalization:preflight:stavka-cb-14-5-procent-aprel-2026-dolzhniki",
+      "rejected_by": "auto_skip_in_slot"
     },
     {
       "id": "news-122",
