@@ -5140,6 +5140,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "gosposobiya-pri-bankrotstve-fizlica",
+      "category": "fiz",
+      "title": "Детские выплаты при банкротстве: что заберут, что оставят",
+      "added_at": "2026-07-30T15:10:48.149748",
+      "char_count": 7790,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1785413443/articles/gosposobiya-pri-bankrotstve-fizlica-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
