@@ -5127,6 +5127,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "dolzhnik-ne-smog-ostanovit-bankrotstvo-otkaz-suda",
+      "category": "news",
+      "title": "Отмена банкротства: когда суд отказывает",
+      "added_at": "2026-07-30T08:38:10.511368",
+      "char_count": 6345,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1785389888/articles/dolzhnik-ne-smog-ostanovit-bankrotstvo-otkaz-suda-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
