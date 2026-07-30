@@ -5114,6 +5114,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "vzyskanie-dolga-po-dogovoru-komissii",
+      "category": "vzysk",
+      "title": "Взыскание долга по договору комиссии: инструкция",
+      "added_at": "2026-07-30T05:34:50.126587",
+      "char_count": 7681,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1785378886/articles/vzyskanie-dolga-po-dogovoru-komissii-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
