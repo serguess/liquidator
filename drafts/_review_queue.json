@@ -5166,6 +5166,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "vzyskanie-kriptovalyuty-cherez-sud",
+      "category": "vzysk",
+      "title": "Взыскание криптовалюты через суд: пошаговая практика",
+      "added_at": "2026-07-31T01:01:08.445246",
+      "char_count": 8812,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1785448866/articles/vzyskanie-kriptovalyuty-cherez-sud-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

@@ -1,0 +1,111 @@
+{
+  "slug": "vzyskanie-kriptovalyuty-cherez-sud",
+  "category": "vzysk",
+  "title": "Взыскание криптовалюты через суд: пошаговая практика",
+  "description": "Как взыскать криптовалюту через суд: подсудность, сложности с идентификацией адресов, практика арбитражных судов и способы реализации цифровых активов.",
+  "h1": "Взыскание криптовалюты через суд: практика и процедура",
+  "lead": "Разбираем, как установить принадлежность крипто-адреса, добиться ареста активов и довести взыскание до реальных денег - несмотря на анонимность блокчейна и отсутствие специального закона.",
+  "topic_action": "взыскание криптовалюты",
+  "breadcrumb_current": "Взыскание криптовалюты",
+  "og_image": "/assets/articles/vzyskanie-kriptovalyuty-cherez-sud.jpg",
+  "main_keyword": "взыскание криптовалюты через суд",
+  "secondary_keywords": [
+    "как взыскать криптовалюту в суде",
+    "взыскание цифровых активов через арбитраж",
+    "кто определяет адрес крипто кошелька ответчика",
+    "судебное решение о взыскании криптовалюты",
+    "реализация криптовалюты при взыскании",
+    "судебный приказ на взыскание биткоина",
+    "как взыскать эфир через суд",
+    "практика взыскания крипто в России",
+    "трудности и сроки взыскания криптовалюты"
+  ],
+  "internal_links": [
+    "/articles/fiz/bankovskie-scheta-pri-bankrotstve",
+    "/articles/vzysk/arest-zarplaty-pristavami-bankrotstvo"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_5142/",
+    "https://www.consultant.ru/document/cons_doc_LAW_71800/"
+  ],
+  "faq": [
+    {
+      "question": "Можно ли взыскать биткоин через судебный приказ, не подавая полноценный иск?",
+      "answer": "Формально - да, если рублёвая оценка требования на день обращения не превышает полумиллиона (ст. 229.2 АПК). Практически приказ работает только при бесспорной ситуации: должник признаёт долг и принадлежность кошелька. При первом возражении приказ отменяется, придётся идти обычным исковым порядком."
+    },
+    {
+      "question": "Что делать, если должник отказывается раскрыть адрес своего кошелька?",
+      "answer": "Заявлять суду ходатайство об истребовании сведений и о применении мер ответственности за уклонение. Параллельно собирать косвенные доказательства через биржи и запросы к платёжным сервисам. Затем - ходатайство о судебно-технической экспертизе."
+    },
+    {
+      "question": "Сколько длится полный процесс взыскания криптовалюты - от иска до денег?",
+      "answer": "Типовой сценарий - от года до двух. Разбирательство в первой инстанции занимает 3-6 месяцев, исполнительное производство - от 3 месяцев до года. Экспертиза, обжалование, работа через иностранных посредников добавляют ещё 6-12 месяцев к каждому этапу."
+    },
+    {
+      "question": "Обязан ли должник передать приватные ключи по решению суда?",
+      "answer": "Да. Обязанность вытекает из общего правила о раскрытии доказательств и о содействии исполнению судебного акта. За неисполнение суд применяет штраф, а при умышленном сокрытии активов - материалы уходят в правоохранительные органы."
+    },
+    {
+      "question": "Как взыскать криптовалюту, если аккаунт зарегистрирован на иностранной платформе?",
+      "answer": "Через запрос взаимной правовой помощи по 102-ФЗ от 17.06.2011. Запрос идёт через МИД в компетентный орган иностранного государства. Работает только со странами, с которыми у России есть действующий договор по гражданским делам. Сроки - от года."
+    },
+    {
+      "question": "Чем доказывается принадлежность адреса в блокчейне конкретному лицу?",
+      "answer": "Совокупностью данных: история переводов с известных счетов ответчика, выписки с бирж, где регистрация шла по его документам, переписка, IP-логи, показания третьих лиц. Финальный аргумент обычно даёт заключение судебной экспертизы, где эксперт связывает публичный ключ с личностью через кластерный анализ транзакций."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все факты сверены с research.json, last_verified 2026-07-31 по всем ключевым фактам.",
+    "f1: криптовалюта как иное имущество по ст. 128 ГК РФ - active.",
+    "f2: подсудность по АПК ст. 35 / ГПК ст. 118-120 - active.",
+    "f3: судебный приказ до 500 000 руб. (ст. 229.2 АПК) - active; в тексте «полумиллиона» - корректно.",
+    "f7: исполнительский сбор 7%, мин. 1 000 руб. (физлица) / 10 000 руб. (юрлица); 5 рабочих дней на добровольное исполнение (ст. 30 ч. 12 ФЗ-229) - active.",
+    "f9: 102-ФЗ от 17.06.2011 о правовой помощи - active.",
+    "f10: отсутствие специального закона о криптовалюте - active (2026-07-31).",
+    "f5, f6, f15 имеют статус needs_verification - использованы консервативные safe_phrasing; гарантии исхода не утверждаются.",
+    "f13: судебная практика contested - отражено как «практика ещё разнородна» без утверждения об исходе; forbidden_claims не нарушены.",
+    "Запрещённые утверждения из forbidden_claims в тексте отсутствуют: нет гарантий взыскания, нет утверждения об анонимности крипто, нет обязанности иностранных бирж подчиняться российским судам."
+  ],
+  "keyword_density_main": 0.017,
+  "main_keyword_exact_count": 2,
+  "text_chars": 8812,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.09,
+  "local_spam_ngram3_repeat": 0.007,
+  "local_lexical_diversity": 0.629,
+  "local_ai_markers_density": 0.28,
+  "local_ai_markers_critical": 0,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1785448866/articles/vzyskanie-kriptovalyuty-cherez-sud-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1785448866/articles/vzyskanie-kriptovalyuty-cherez-sud-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Exterior photograph of a stone neoclassical government building with tall columns and pilasters under cool grey-blue light. Soft diffused daylight with optional fog halos around distant lampposts. Camera: three-quarter angle or frontal view over wide stone steps. Foreground at frame base: closed leather briefcase, smartphone face-down representing digital asset custody, bound stack of court documents tied with cord, brass seal of judicial authority, antique brass pocket watch suggesting procedural deadlines. Brass plaque on wall unreadable. Atmosphere: weight and gravity of formal court procedure, judicial authority, finality of decision. No people. Wide cinematic crop.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-07-30T22:01:06Z",
+  "length_status": "too_long",
+  "length_kind": "default",
+  "local_ai_markers_total": 3,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 3,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 49,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "длина значительно больше лимита 6500 (8 812 знаков)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "length_too_long: 8812 > 6500 (kind=default)",
+    "broken_internal_links: 1 ссылок без соответствия в published_index (/articles/vzysk/arest-zarplaty-pristavami-bankrotstvo: slug 'arest-zarplaty-pristavami-bankrotstvo' не найден в категории 'vzysk' (есть: fiz))"
+  ],
+  "date_published": "2026-07-31",
+  "date_modified": "2026-07-31",
+  "ready_for_review": true,
+  "ready_at": "2026-07-30T22:01:08Z",
+  "publication_target": "telegram_review"
+}
