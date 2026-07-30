@@ -9805,20 +9805,24 @@
     "socialnyj-kontrakt-pri-bankrotstve-fizlica": {
       "category": "fiz",
       "title": "Социальный контракт при банкротстве физлица: получение и помощь",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 2232,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-29T15:27:26",
-      "last_action_at": "2026-07-29T15:27:26",
+      "last_action_at": "2026-07-31T02:23:23",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-07-29T15:27:26"
+      "published_url": "https://pravo.shop/articles/fiz/socialnyj-kontrakt-pri-bankrotstve-fizlica",
+      "pending_batch": false,
+      "pending_batch_at": "2026-07-29T15:27:26",
+      "batch_sent_at": "2026-07-30T10:00:03",
+      "batch_fail_count": 0,
+      "published_at": "2026-07-31T02:23:23",
+      "articles_path": "articles/fiz/socialnyj-kontrakt-pri-bankrotstve-fizlica.html"
     },
     "bankrotstvo-po-iniciative-fns-zashchita-direktora": {
       "category": "yur",
@@ -9828,15 +9832,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 2234,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-29T20:30:29",
-      "last_action_at": "2026-07-29T20:30:29",
+      "last_action_at": "2026-07-30T10:00:06",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-07-29T20:30:29"
+      "pending_batch": false,
+      "pending_batch_at": "2026-07-29T20:30:29",
+      "batch_sent_at": "2026-07-30T10:00:06",
+      "batch_fail_count": 0
     },
     "vzyskanie-dolga-po-dogovoru-komissii": {
       "category": "vzysk",
@@ -9846,15 +9852,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 2236,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-30T05:35:04",
-      "last_action_at": "2026-07-30T05:35:04",
+      "last_action_at": "2026-07-30T10:00:08",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-07-30T05:35:04"
+      "pending_batch": false,
+      "pending_batch_at": "2026-07-30T05:35:04",
+      "batch_sent_at": "2026-07-30T10:00:08",
+      "batch_fail_count": 0
     },
     "dolzhnik-ne-smog-ostanovit-bankrotstvo-otkaz-suda": {
       "category": "news",
@@ -9864,19 +9872,75 @@
       "versions": [
         "2.0"
       ],
+      "tg_message_id": 2238,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-07-30T08:39:05",
+      "last_action_at": "2026-07-30T10:00:10",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-07-30T08:39:06",
+      "batch_sent_at": "2026-07-30T10:00:10",
+      "batch_fail_count": 0
+    },
+    "gosposobiya-pri-bankrotstve-fizlica": {
+      "category": "fiz",
+      "title": "Детские выплаты при банкротстве: что заберут, что оставят",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
       "tg_message_id": null,
       "tg_chat_id": null,
-      "first_seen_at": "2026-07-30T08:39:05",
-      "last_action_at": "2026-07-30T08:39:05",
+      "first_seen_at": "2026-07-30T15:11:09",
+      "last_action_at": "2026-07-30T15:11:09",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
       "pending_batch": true,
-      "pending_batch_at": "2026-07-30T08:39:06"
+      "pending_batch_at": "2026-07-30T15:11:09"
+    },
+    "sdelki-direktora-pered-bankrotstvom-riski-osparivaniya": {
+      "category": "yur",
+      "title": "Какие сделки директора оспорят при банкротстве юрлица",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-07-30T20:17:13",
+      "last_action_at": "2026-07-30T20:17:13",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-07-30T20:17:13"
+    },
+    "vzyskanie-kriptovalyuty-cherez-sud": {
+      "category": "vzysk",
+      "title": "Взыскание криптовалюты через суд: пошаговая практика",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-07-31T01:01:15",
+      "last_action_at": "2026-07-31T01:01:15",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-07-31T01:01:15"
     }
   },
   "pending_actions": [],
-  "last_batch_date": "2026-07-29",
+  "last_batch_date": "2026-07-30",
   "last_batch_count": 4,
-  "last_batch_at": "2026-07-29T10:00:26"
+  "last_batch_at": "2026-07-30T10:00:10"
 }
