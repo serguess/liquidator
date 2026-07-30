@@ -5153,6 +5153,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "sdelki-direktora-pered-bankrotstvom-riski-osparivaniya",
+      "category": "yur",
+      "title": "Какие сделки директора оспорят при банкротстве юрлица",
+      "added_at": "2026-07-30T20:16:32.420992",
+      "char_count": 7560,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1785431789/articles/sdelki-direktora-pered-bankrotstvom-riski-osparivaniya-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

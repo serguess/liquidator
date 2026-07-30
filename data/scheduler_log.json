@@ -31639,5 +31639,64 @@
     "timestamp": "2026-07-30T10:00:04",
     "status": "preflight_failed",
     "reason": "rate_limit: You've hit your limit · resets 10:10am (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-07-30T14:48:00",
+    "category": "fiz",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 2,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "fiz-170",
+    "topic_slug": "gosposobiya-pri-bankrotstve-fizlica",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "length_soft_passed: 7790 > 6500 но ≤ 8500 и iteration=2 — пропускаем (приоритет spam/uniqueness/ai)"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "finalize_safety_net": {
+      "ran": true,
+      "rc": 0
+    },
+    "status": "ok",
+    "slug": "gosposobiya-pri-bankrotstve-fizlica",
+    "duration_sec": 1367.3,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": " 123832     59836\n6-seo-editor        sonnet            6      16    70750     25156     70772\n7-publisher         haiku            20       8    39246     25520     39274\n------------------------------------------------------------------------------------------\nИТОГО                              4141      89   569298    554393    573528\nBillable-токенов на статью: ~573K (cache_read 554K не считается в лимит подписки).\nАртефакты: drafts/gosposobiya-pri-bankrotstve-fizlica/  | quality_gate exit=0",
+    "stderr_tail": "",
+    "tokens_by_model": {},
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7790
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]
