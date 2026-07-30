@@ -9871,7 +9871,7 @@
     "dolzhnik-ne-smog-ostanovit-bankrotstvo-otkaz-suda": {
       "category": "news",
       "title": "Отмена банкротства: когда суд отказывает",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -9879,14 +9879,16 @@
       "tg_message_id": 2238,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-30T08:39:05",
-      "last_action_at": "2026-07-30T10:00:10",
+      "last_action_at": "2026-07-31T02:24:41",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/news/dolzhnik-ne-smog-ostanovit-bankrotstvo-otkaz-suda",
       "pending_batch": false,
       "pending_batch_at": "2026-07-30T08:39:06",
       "batch_sent_at": "2026-07-30T10:00:10",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-07-31T02:24:41",
+      "articles_path": "articles/news/dolzhnik-ne-smog-ostanovit-bankrotstvo-otkaz-suda.html"
     },
     "gosposobiya-pri-bankrotstve-fizlica": {
       "category": "fiz",
