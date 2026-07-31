@@ -9915,7 +9915,7 @@
     "sdelki-direktora-pered-bankrotstvom-riski-osparivaniya": {
       "category": "yur",
       "title": "Какие сделки директора оспорят при банкротстве юрлица",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -9923,14 +9923,16 @@
       "tg_message_id": 2250,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-30T20:17:13",
-      "last_action_at": "2026-07-31T10:00:26",
+      "last_action_at": "2026-08-01T01:21:48",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/yur/sdelki-direktora-pered-bankrotstvom-riski-osparivaniya",
       "pending_batch": false,
       "pending_batch_at": "2026-07-30T20:17:13",
       "batch_sent_at": "2026-07-31T10:00:26",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-08-01T01:21:48",
+      "articles_path": "articles/yur/sdelki-direktora-pered-bankrotstvom-riski-osparivaniya.html"
     },
     "vzyskanie-kriptovalyuty-cherez-sud": {
       "category": "vzysk",
