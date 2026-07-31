@@ -9959,7 +9959,7 @@
     "prava-zalogodatelya-pri-bankrotstve-kreditora-vs": {
       "category": "news",
       "title": "Залогодатель при банкротстве кредитора: решение ВС",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -9967,14 +9967,16 @@
       "tg_message_id": 2254,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-31T05:21:24",
-      "last_action_at": "2026-07-31T10:00:31",
+      "last_action_at": "2026-08-01T01:24:44",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/news/prava-zalogodatelya-pri-bankrotstve-kreditora-vs",
       "pending_batch": false,
       "pending_batch_at": "2026-07-31T05:21:24",
       "batch_sent_at": "2026-07-31T10:00:31",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-08-01T01:24:44",
+      "articles_path": "articles/news/prava-zalogodatelya-pri-bankrotstve-kreditora-vs.html"
     },
     "fns-iniciiruet-bankrotstvo-kompanij-23-procenta": {
       "category": "news",
