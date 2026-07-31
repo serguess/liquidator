@@ -9937,7 +9937,7 @@
     "vzyskanie-kriptovalyuty-cherez-sud": {
       "category": "vzysk",
       "title": "Взыскание криптовалюты через суд: пошаговая практика",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -9945,14 +9945,16 @@
       "tg_message_id": 2252,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-31T01:01:15",
-      "last_action_at": "2026-07-31T10:00:29",
+      "last_action_at": "2026-08-01T01:23:13",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/vzysk/vzyskanie-kriptovalyuty-cherez-sud",
       "pending_batch": false,
       "pending_batch_at": "2026-07-31T01:01:15",
       "batch_sent_at": "2026-07-31T10:00:29",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-08-01T01:23:13",
+      "articles_path": "articles/vzysk/vzyskanie-kriptovalyuty-cherez-sud.html"
     },
     "prava-zalogodatelya-pri-bankrotstve-kreditora-vs": {
       "category": "news",
