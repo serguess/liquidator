@@ -5218,6 +5218,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "bankrotstvo-arendator-net-sobstvennogo-zhilya",
+      "category": "fiz",
+      "title": "Банкротство арендатора без собственного жилья",
+      "added_at": "2026-07-31T15:09:15.016818",
+      "char_count": 8244,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1785499751/articles/bankrotstvo-arendator-net-sobstvennogo-zhilya-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
