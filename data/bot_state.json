@@ -9898,15 +9898,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 2248,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-30T15:11:09",
-      "last_action_at": "2026-07-30T15:11:09",
+      "last_action_at": "2026-07-31T10:00:24",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-07-30T15:11:09"
+      "pending_batch": false,
+      "pending_batch_at": "2026-07-30T15:11:09",
+      "batch_sent_at": "2026-07-31T10:00:24",
+      "batch_fail_count": 0
     },
     "sdelki-direktora-pered-bankrotstvom-riski-osparivaniya": {
       "category": "yur",
@@ -9916,15 +9918,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 2250,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-30T20:17:13",
-      "last_action_at": "2026-07-30T20:17:13",
+      "last_action_at": "2026-07-31T10:00:26",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-07-30T20:17:13"
+      "pending_batch": false,
+      "pending_batch_at": "2026-07-30T20:17:13",
+      "batch_sent_at": "2026-07-31T10:00:26",
+      "batch_fail_count": 0
     },
     "vzyskanie-kriptovalyuty-cherez-sud": {
       "category": "vzysk",
@@ -9934,19 +9938,79 @@
       "versions": [
         "2.0"
       ],
+      "tg_message_id": 2252,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-07-31T01:01:15",
+      "last_action_at": "2026-07-31T10:00:29",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-07-31T01:01:15",
+      "batch_sent_at": "2026-07-31T10:00:29",
+      "batch_fail_count": 0
+    },
+    "prava-zalogodatelya-pri-bankrotstve-kreditora-vs": {
+      "category": "news",
+      "title": "Залогодатель при банкротстве кредитора: решение ВС",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 2254,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-07-31T05:21:24",
+      "last_action_at": "2026-07-31T10:00:31",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-07-31T05:21:24",
+      "batch_sent_at": "2026-07-31T10:00:31",
+      "batch_fail_count": 0
+    },
+    "fns-iniciiruet-bankrotstvo-kompanij-23-procenta": {
+      "category": "news",
+      "title": "ФНС инициирует банкротство: статистика по компаниям",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 2256,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-07-31T08:56:26",
+      "last_action_at": "2026-07-31T10:00:33",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-07-31T08:56:26",
+      "batch_sent_at": "2026-07-31T10:00:33",
+      "batch_fail_count": 0
+    },
+    "cb-mpl-tretiy-kvartal-novye-limity-kredity": {
+      "category": "news",
+      "title": "Новые МПЛ ЦБ: лимиты кредитов на третий квартал",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
       "tg_message_id": null,
       "tg_chat_id": null,
-      "first_seen_at": "2026-07-31T01:01:15",
-      "last_action_at": "2026-07-31T01:01:15",
+      "first_seen_at": "2026-07-31T09:29:27",
+      "last_action_at": "2026-07-31T09:29:27",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
       "pending_batch": true,
-      "pending_batch_at": "2026-07-31T01:01:15"
+      "pending_batch_at": "2026-07-31T09:29:27"
     }
   },
   "pending_actions": [],
-  "last_batch_date": "2026-07-30",
-  "last_batch_count": 4,
-  "last_batch_at": "2026-07-30T10:00:10"
+  "last_batch_date": "2026-07-31",
+  "last_batch_count": 5,
+  "last_batch_at": "2026-07-31T10:00:33"
 }
