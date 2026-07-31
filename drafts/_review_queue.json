@@ -5179,6 +5179,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "prava-zalogodatelya-pri-bankrotstve-kreditora-vs",
+      "category": "news",
+      "title": "Залогодатель при банкротстве кредитора: решение ВС",
+      "added_at": "2026-07-31T05:21:06.366494",
+      "char_count": 6219,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1785464460/articles/prava-zalogodatelya-pri-bankrotstve-kreditora-vs-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
