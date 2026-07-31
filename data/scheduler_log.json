@@ -31884,5 +31884,65 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-07-31T08:30:02",
+    "category": "news",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 10,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "news-123",
+    "topic_slug": "fns-iniciiruet-bankrotstvo-kompanij-23-procenta",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "length_soft_passed: 6478 > 5500 но ≤ 7500 и iteration=2 — пропускаем (приоритет spam/uniqueness/ai)",
+        "forced_pass_at_iter2: блокеры пропущены, статья идёт в TG-очередь с metrics_warning=true. Было: 1 блокеров — targeted_tokens_over_limit"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "finalize_safety_net": {
+      "ran": true,
+      "rc": 0
+    },
+    "status": "ok",
+    "slug": "fns-iniciiruet-bankrotstvo-kompanij-23-procenta",
+    "duration_sec": 1525.5,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "45536\n6-seo-editor        sonnet            6      16        0     87000        22\n7-publisher         haiku            36      14    53872     90302     53922\n------------------------------------------------------------------------------------------\nИТОГО                              3552      96   466081    778304    469729\nBillable-токенов на статью: ~469K (cache_read 778K не считается в лимит подписки).\nАртефакты: drafts/fns-iniciiruet-bankrotstvo-kompanij-23-procenta/  | quality_gate exit=0",
+    "stderr_tail": "",
+    "tokens_by_model": {},
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 6478
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]

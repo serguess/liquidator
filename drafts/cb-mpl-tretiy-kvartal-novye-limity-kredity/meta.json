@@ -1,0 +1,117 @@
+{
+  "slug": "cb-mpl-tretiy-kvartal-novye-limity-kredity",
+  "category": "news",
+  "title": "Новые МПЛ ЦБ: лимиты кредитов на третий квартал",
+  "description": "Как изменились МПЛ ЦБ с 1 июля: какие группы заёмщиков лишились доступа к кредитам и что делать должникам при ужесточении лимитов.",
+  "h1": "МПЛ в третьем квартале: как изменятся лимиты по кредитам",
+  "lead": "С 1 июля регулятор пересмотрел верхние пределы процентов - кредитные организации сразу переложили новые правила в скоринг, и заявки части граждан начали отклоняться автоматически.",
+  "topic_action": "разбор вашей ситуации с кредитами",
+  "breadcrumb_current": "МПЛ ЦБ: лимиты третьего квартала",
+  "og_image": "/assets/articles/cb-mpl-tretiy-kvartal-novye-limity-kredity.jpg",
+  "main_keyword": "мпл цб максимальная процентная ставка",
+  "secondary_keywords": [
+    "лимиты кредитов цб",
+    "новые ограничения кредитования",
+    "как ужесточили кредиты",
+    "максимальная процентная ставка кредит",
+    "кому закроют кредит цб",
+    "третий квартал кредитные лимиты"
+  ],
+  "lsi": [
+    "процентная ставка по кредиту",
+    "кредитная политика банков",
+    "макропруденциальные меры",
+    "регулирование кредитного рынка",
+    "ставки по потребительским кредитам",
+    "ипотечные кредиты лимиты",
+    "льготные кредиты",
+    "ЦБ РФ макропруденциальная политика",
+    "влияние МПЛ на должников",
+    "кому можно получить кредит"
+  ],
+  "intent": "informational",
+  "funnel_stage": "warm",
+  "article_type": "B",
+  "offer": "raschet-stoimosti",
+  "event_date": "2026-07-01",
+  "news_zone": "finance",
+  "primary_source": "https://cbr.ru/press/pr/",
+  "cannibalization_check": "ok",
+  "internal_links": [
+    "/articles/vzysk/kak-obratitsya-k-pristavam-chtoby-priostanovit-nezakonnoe-vzyskanie",
+    "/articles/fiz/bankrotstvo-cherez-mirovoe-soglashenie-bez-zaloga"
+  ],
+  "external_links": [
+    "https://www.cbr.ru/press/pr/",
+    "https://www.cbr.ru/statistics/mpl/"
+  ],
+  "faq": [
+    {
+      "question": "Распространяются ли новые лимиты ЦБ на уже выданные кредиты?",
+      "answer": "Нет. Обновлённые пределы касаются только договоров, которые подписываются после вступления решения в силу. Действующая ипотека, кредитка или потребительский заём продолжают работать по прежним условиям."
+    },
+    {
+      "question": "Что делать, если банк отказал из-за ужесточения ставок?",
+      "answer": "Обратиться к другому кредитору - единого запрета на выдачу гражданину со стороны ЦБ не существует. Модели скоринга у всех разные, отказ в одном месте не означает отказ везде. Если проблема системная - смотреть на кредитную историю и уровень долговой нагрузки."
+    },
+    {
+      "question": "Как часто ЦБ пересматривает кредитные лимиты?",
+      "answer": "Четыре раза в год. Решения вступают в силу с 1 января, 1 апреля, 1 июля и 1 октября. Между этими датами возможны внеплановые изменения при резком движении инфляции или ключевой ставки."
+    },
+    {
+      "question": "Где посмотреть актуальные данные по лимитам на сайте Центрального банка?",
+      "answer": "Раздел cbr.ru/statistics/mpl. Там публикуются коридоры по каждой категории займов и даты вступления в действие. Удобнее заходить в первую неделю квартала, когда обновление уже загружено."
+    },
+    {
+      "question": "Влияют ли новые лимиты на условия уже одобренных кредитных карт?",
+      "answer": "Нет. Одобренный лимит и процент по карте не пересматриваются вслед за решением ЦБ. Изменения могут коснуться новых продуктов, если клиент придёт за увеличением лимита или оформит вторую карту."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "f4 (влияние на рефинансирование при исполнительном производстве): legislation_status needs_verification - использована обтекаемая формулировка «по общему правилу», соответствующая safe_phrasing из research.json",
+    "Конкретные ставки МПЛ за Q3 2026 недоступны (fact_gaps в research.json) - текст описывает механизм без конкретных цифр, что корректно",
+    "Запрещённые утверждения из forbidden_claims отсутствуют: оговорено отсутствие единого чёрного списка, non-retroactivity прописана явно",
+    "Внутренние ссылки требуют верификации по published_index.json перед финализацией"
+  ],
+  "keyword_density_main": null,
+  "main_keyword_exact_count": null,
+  "text_chars": 7373,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.083,
+  "local_spam_ngram3_repeat": 0.022,
+  "local_lexical_diversity": 0.689,
+  "local_ai_markers_density": 0.22,
+  "local_ai_markers_critical": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "customer_risks": [
+    "длина значительно больше лимита 5500 (7 373 знаков)"
+  ],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1785479308/articles/cb-mpl-tretiy-kvartal-novye-limity-kredity-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1785479308/articles/cb-mpl-tretiy-kvartal-novye-limity-kredity-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Close-up cinematic photograph of financial regulation implements arranged as if mid-process. On a polished dark walnut surface: a precision scientific calculator displaying neutral screen, a polished brass round seal resting on a stack of 3-4 closed dossiers tied with cord, an antique brass pocket watch on a delicate chain, brass scales of justice with empty pans positioned as if awaiting balancing. Camera: tabletop level, three-quarter angle. Lighting: soft directional sidelight from upper left casting elegant shadows. Materials: polished brass, dark walnut, weathered leather, burnished steel. Palette: warm brass and walnut tones on cool shadow. Mood: regulatory decision framework, crediting limits established.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-07-31T06:28:28Z",
+  "length_status": "too_long",
+  "length_kind": "news",
+  "local_ai_markers_total": 2,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 2,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 47,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 90,
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "broken_internal_links: 2 ссылок без соответствия в published_index (/articles/vzysk/kak-obratitsya-k-pristavam-chtoby-priostanovit-nezakonnoe-vzyskanie: slug 'kak-obratitsya-k-pristavam-chtoby-priostanovit-nezakonnoe-vzyskanie' не найден в категории 'vzysk' (есть: нигде); /articles/fiz/bankrotstvo-cherez-mirovoe-soglashenie-bez-zaloga: slug 'bankrotstvo-cherez-mirovoe-soglashenie-bez-zaloga' не найден в категории 'fiz' (есть: нигде))"
+  ],
+  "date_published": "2026-07-31",
+  "date_modified": "2026-07-31",
+  "ready_for_review": true,
+  "ready_at": "2026-07-31T06:28:33Z",
+  "publication_target": "telegram_review"
+}
