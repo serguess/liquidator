@@ -1,0 +1,107 @@
+{
+  "slug": "prinuditelnaya-likvidaciya-yurlica-po-isk-fns",
+  "category": "yur",
+  "title": "Защита от ликвидации юрлица по иску ФНС",
+  "description": "Как защитить юрлицо от принудительной ликвидации по иску ФНС. Варианты защиты, оспаривание иска, права компании в суде, обжалование решения.",
+  "h1": "Защита от принудительной ликвидации юрлица по иску ФНС: способы и права компании",
+  "lead": "Паниковать рано. У бизнеса есть рабочие рычаги: разбить каждый довод налоговиков бумагами, поправить упущенное прямо во время процесса, а если первая инстанция уходит не туда - идти выше.",
+  "topic_action": "защиту компании от принудительной ликвидации",
+  "breadcrumb_current": "Защита от принудительной ликвидации",
+  "og_image": "/assets/articles/prinuditelnaya-likvidaciya-yurlica-po-isk-fns.jpg",
+  "main_keyword": "защита от принудительной ликвидации юрлица по иску фнс",
+  "secondary_keywords": [
+    "ликвидация юрлица по решению суда",
+    "оспаривание иска фнс о ликвидации",
+    "принудительная ликвидация компании",
+    "как избежать ликвидации юрлица",
+    "защита интересов юрлица при ликвидации",
+    "иск фнс о ликвидации юридического лица",
+    "процедура ликвидации юрлица по иску",
+    "обжалование решения о ликвидации",
+    "судебный процесс о ликвидации юрлица",
+    "защита от принудительной ликвидации"
+  ],
+  "internal_links": [],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_5142/"
+  ],
+  "faq": [
+    {
+      "question": "За какие нарушения инспекция чаще всего идёт в суд?",
+      "answer": "Три типовых основания: систематическое неисполнение налоговых обязанностей вместе с «нулёвками», работа без обязательной лицензии, занятие запрещённой деятельностью. Иногда добавляется отсутствие организации по юридическому адресу."
+    },
+    {
+      "question": "Сколько дней на отзыв после получения иска?",
+      "answer": "От десяти до пятнадцати, точный срок арбитр устанавливает в определении о принятии заявления (ст. 44-50 АПК). Отсчёт идёт с даты получения копии иска, не с даты его отправки."
+    },
+    {
+      "question": "Можно ли остановить процесс, погасив долг во время разбирательства?",
+      "answer": "Да, приём рабочий. При устранении оснований в ходе слушаний ответчик подаёт ходатайство и подтверждающие бумаги. Арбитр вправе отложить заседание или прекратить производство, если исходные претензии отпали."
+    },
+    {
+      "question": "Что происходит со счетами и имуществом в первые тридцать-сорок пять дней?",
+      "answer": "После вступления решения в силу регистрирующий орган вносит запись о прекращении в реестр. До этого момента юрлицо ещё существует и может закрыть счета, рассчитаться с контрагентами, передать бумаги в архив. Это окно для организованного завершения дел."
+    },
+    {
+      "question": "Обязательно ли брать адвоката для заседания?",
+      "answer": "Формально нет - представлять бизнес вправе директор или учредитель. Но арбитражный процесс требует знания процедурных норм. По нашему опыту участие профильного юриста снижает риск ошибок и повышает шансы на прекращение производства."
+    },
+    {
+      "question": "Восстанавливается ли организация автоматически после отмены решения?",
+      "answer": "Нет. Даже если вышестоящий арбитр отменил вердикт, запись в реестре аннулируется на основании отдельного судебного акта. Это отдельное процессуальное действие, которое инициирует ответчик или его представитель."
+    },
+    {
+      "question": "Что применяется при грубых процессуальных нарушениях - кассация или надзор?",
+      "answer": "Кассационная жалоба - универсальный инструмент для проверки применения закона. Надзор через Президиум ВС включается только в исключительных ситуациях с принципиальными правовыми ошибками. Начинают всегда с кассации."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все юридические утверждения сверены с research.json",
+    "Сроки (30 дней апелляция, 60 дней кассация) подтверждены АПК РФ ст. 259-295",
+    "Основания ликвидации по ст. 61 ГК РФ актуальны, статус active, last_verified не старше 6 месяцев",
+    "Контекст применения норм корректен, нет путаницы между процедурами",
+    "Нет противоречий с forbidden_claims из research.json"
+  ],
+  "keyword_density_main": 0.018,
+  "main_keyword_exact_count": 2,
+  "text_chars": 8545,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.072,
+  "local_spam_ngram3_repeat": 0.03,
+  "local_lexical_diversity": 0.64,
+  "local_ai_markers_density": 0.19,
+  "local_ai_markers_total": 2,
+  "local_ai_markers_critical": 0,
+  "local_own_voice_hits": 4,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 49,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "длина значительно больше лимита 6500 (8 545 знаков)"
+  ],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1785535394/articles/prinuditelnaya-likvidaciya-yurlica-po-isk-fns-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1785535394/articles/prinuditelnaya-likvidaciya-yurlica-po-isk-fns-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Close-to-medium architectural photograph of a massive stone government building, emphasizing texture and geometric form. Camera: low-angle up the columns and diagonally across the limestone facade revealing depth and shadow. Lighting: hard side-light from late afternoon casting deep shadows that reveal every chisel mark and architectural detail. In foreground at base of frame: subtle detail of worn stone steps with a closed leather portfolio—symbol of corporate legal defense against state authority. Palette: warm golden sandstone with cool deep shadow, weathered moss and patina. Mood: weight, permanence, immutable institutional authority.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-07-31T22:03:15Z",
+  "length_status": "too_long",
+  "length_kind": "default",
+  "local_ai_markers_high": 0,
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "length_too_long: 8545 > 6500 (kind=default)",
+    "targeted_tokens_over_limit: ст_сокращение=10(>≤5)"
+  ],
+  "date_published": "2026-08-01",
+  "date_modified": "2026-08-01",
+  "ready_for_review": true,
+  "ready_at": "2026-07-31T22:03:21Z",
+  "publication_target": "telegram_review"
+}
