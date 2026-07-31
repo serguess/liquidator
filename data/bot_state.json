@@ -9893,7 +9893,7 @@
     "gosposobiya-pri-bankrotstve-fizlica": {
       "category": "fiz",
       "title": "Детские выплаты при банкротстве: что заберут, что оставят",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -9901,14 +9901,16 @@
       "tg_message_id": 2248,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-30T15:11:09",
-      "last_action_at": "2026-07-31T10:00:24",
+      "last_action_at": "2026-08-01T01:21:29",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/fiz/gosposobiya-pri-bankrotstve-fizlica",
       "pending_batch": false,
       "pending_batch_at": "2026-07-30T15:11:09",
       "batch_sent_at": "2026-07-31T10:00:24",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-08-01T01:21:29",
+      "articles_path": "articles/fiz/gosposobiya-pri-bankrotstve-fizlica.html"
     },
     "sdelki-direktora-pered-bankrotstvom-riski-osparivaniya": {
       "category": "yur",
@@ -10007,6 +10009,42 @@
       "published_url": null,
       "pending_batch": true,
       "pending_batch_at": "2026-07-31T09:29:27"
+    },
+    "bankrotstvo-arendator-net-sobstvennogo-zhilya": {
+      "category": "fiz",
+      "title": "Банкротство арендатора без собственного жилья",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-07-31T15:09:30",
+      "last_action_at": "2026-07-31T15:09:30",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-07-31T15:09:30"
+    },
+    "prinuditelnaya-likvidaciya-yurlica-po-isk-fns": {
+      "category": "yur",
+      "title": "Защита от ликвидации юрлица по иску ФНС",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-08-01T01:03:36",
+      "last_action_at": "2026-08-01T01:03:36",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-08-01T01:03:36"
     }
   },
   "pending_actions": [],
