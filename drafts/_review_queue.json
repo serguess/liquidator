@@ -5192,6 +5192,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "fns-iniciiruet-bankrotstvo-kompanij-23-procenta",
+      "category": "news",
+      "title": "ФНС инициирует банкротство: статистика по компаниям",
+      "added_at": "2026-07-31T08:55:28.307845",
+      "char_count": 6478,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1785477326/articles/fns-iniciiruet-bankrotstvo-kompanij-23-procenta-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

@@ -1,0 +1,106 @@
+{
+  "slug": "fns-iniciiruet-bankrotstvo-kompanij-23-procenta",
+  "category": "news",
+  "title": "ФНС инициирует банкротство: статистика по компаниям",
+  "description": "ФНС инициирует каждое пятое банкротство. Что это означает, какие права у должника и как происходит процедура банкротства по инициативе налоговой.",
+  "h1": "ФНС инициирует банкротство компании: статистика и права должника",
+  "lead": "По данным 2026 года налоговая инициирует около 23% дел о банкротстве юридических лиц - разбираем, при каком долге это возможно и что делать директору.",
+  "topic_action": "консультацию по банкротству от ФНС",
+  "breadcrumb_current": "ФНС инициирует банкротство: статистика",
+  "og_image": "/assets/articles/fns-iniciiruet-bankrotstvo-kompanij-23-procenta.jpg",
+  "main_keyword": "фнс инициирует банкротство",
+  "secondary_keywords": [
+    "банкротство по инициативе фнс",
+    "инициирование банкротства налоговой",
+    "статистика банкротств компаний",
+    "налоговое банкротство",
+    "арбитражный суд фнс",
+    "права должника при банкротстве",
+    "процедура банкротства по инициативе"
+  ],
+  "intent": "informational",
+  "funnel_stage": "cold",
+  "article_type": "B",
+  "offer": "proverka-spisaniya",
+  "event_date": "2026-07-16",
+  "news_zone": "finance",
+  "internal_links": [
+    "/articles/yur/bankrotstvo-po-iniciative-fns-zashchita-direktora",
+    "/articles/news/dolzhnik-ne-smog-ostanovit-bankrotstvo-otkaz-suda"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/",
+    "https://iz.ru/2133249/2026-07-16/fns-initciirovala-bankrotstvo-pochti-v-23-sluchaev-v-2026-m"
+  ],
+  "faq": [
+    {
+      "question": "Может ли ФНС подать на банкротство при долге меньше двух миллионов рублей?",
+      "answer": "Нет. Порог два миллиона обязателен - он закреплён в 127-ФЗ. Если бюджетные притязания ниже, инспекция взыскивает через приставов, но в арбитраж по банкротному основанию идти не вправе."
+    },
+    {
+      "question": "Что происходит с директором, если налоговая инициировала банкротство компании?",
+      "answer": "Автоматически - ничего. Руководитель сохраняет полномочия на стадии наблюдения, но крупные сделки согласовывает управляющий. Отдельно может возникнуть спор о субсидиарной ответственности - самостоятельный процесс с обязанностью доказать вину директора."
+    },
+    {
+      "question": "Сколько времени занимает процедура от подачи заявления до ликвидации?",
+      "answer": "Единого срока нет. Наблюдение обычно занимает несколько месяцев, конкурсное производство - от полугода до полутора-двух лет и дольше, если много активов или споры по реестру. Администрирование при бюджетной недоимке встречается редко."
+    },
+    {
+      "question": "Зачем налоговая идёт в арбитраж, если долг можно взыскать через пристава?",
+      "answer": "Приставский путь работает, пока у фирмы есть деньги и имущество на счетах. Когда счета пусты, а активы размыты, бюджет добирает своё через банкротное производство: там оспариваются сделки последних трёх лет и разбирается ответственность контролирующих лиц."
+    },
+    {
+      "question": "Чем банкротство по требованию налоговой отличается от банкротства по заявлению банка?",
+      "answer": "С точки зрения прав кредитора - почти ничем. И банк, и уполномоченный орган по бюджету действуют по одному банкротному закону и не обязаны получать предварительное судебное решение. Разница в природе требования: у банка это кредитный договор, у инспекции - решение по проверке и уведомление о взыскании."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "f7 (статистика 23%) помечен contested - в тексте сохранён явный caveat об источнике (iz.ru) и отсутствии официальной сводки ВС/ЕФРСБ; используется safe_phrasing",
+    "f2 (порог 2 млн руб, ст. 6 и 33 127-ФЗ, ред. ФЗ-107) верифицирован, last_verified 2026-07-31, legislation_status active",
+    "f3 (госпошлина 100 тыс руб, ст. 333.21 НК, ред. ФЗ-176) верифицирован, last_verified 2026-07-31, legislation_status active",
+    "f6 (субсидиарная ответственность ст. 61.10-61.14) верифицирован, legislation_status active",
+    "Запрещённые утверждения из forbidden_claims отсутствуют в тексте",
+    "Ссылки на нормы в теле сокращены до 4 вхождений для снижения заспамленности лемм статья/норма"
+  ],
+  "keyword_density_main": null,
+  "main_keyword_exact_count": null,
+  "text_chars": 6478,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.107,
+  "local_spam_ngram3_repeat": 0.02,
+  "local_lexical_diversity": 0.664,
+  "local_ai_markers_density": 0.36,
+  "local_ai_markers_critical": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1785477326/articles/fns-iniciiruet-bankrotstvo-kompanij-23-procenta-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1785477326/articles/fns-iniciiruet-bankrotstvo-kompanij-23-procenta-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Studio close-up of brass scales of justice with empty balanced pans, a polished round company seal, and an antique brass padlock with chain arranged as a tight cluster against a clean neutral background — dark stone slab or matte graphite seamless. Soft directional studio light from upper left creates gentle shadow falloff, emphasizing the metallic textures and depth. No environmental context. Hyperrealistic detail with premium product-photography polish. Palette: aged brass, polished steel, charcoal stone. Mood: institutional authority, procedural gravity, forced liquidation.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-07-31T05:55:27Z",
+  "length_status": "too_long",
+  "length_kind": "news",
+  "local_ai_markers_total": 3,
+  "local_ai_markers_high": 1,
+  "local_own_voice_hits": 2,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 47,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 90,
+  "customer_risks": [
+    "длина значительно больше лимита 5500 (6 478 знаков)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "targeted_tokens_over_limit: 127фз_закон=4(>≤2)"
+  ],
+  "date_published": "2026-07-31",
+  "date_modified": "2026-07-31",
+  "ready_for_review": true,
+  "ready_at": "2026-07-31T05:55:28Z",
+  "publication_target": "telegram_review"
+}
