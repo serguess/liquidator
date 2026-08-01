@@ -5244,6 +5244,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "izmenenie-razmera-alimentov-cherez-sud",
+      "category": "vzysk",
+      "title": "Изменение размера алиментов через суд",
+      "added_at": "2026-08-01T05:37:40.503821",
+      "char_count": 7742,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1785551858/articles/izmenenie-razmera-alimentov-cherez-sud-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
