@@ -10008,15 +10008,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 2268,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-31T09:29:27",
-      "last_action_at": "2026-07-31T09:29:27",
+      "last_action_at": "2026-08-01T10:00:17",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-07-31T09:29:27"
+      "pending_batch": false,
+      "pending_batch_at": "2026-07-31T09:29:27",
+      "batch_sent_at": "2026-08-01T10:00:17",
+      "batch_fail_count": 0
     },
     "bankrotstvo-arendator-net-sobstvennogo-zhilya": {
       "category": "fiz",
@@ -10026,15 +10028,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 2270,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-31T15:09:30",
-      "last_action_at": "2026-07-31T15:09:30",
+      "last_action_at": "2026-08-01T10:00:19",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-07-31T15:09:30"
+      "pending_batch": false,
+      "pending_batch_at": "2026-07-31T15:09:30",
+      "batch_sent_at": "2026-08-01T10:00:19",
+      "batch_fail_count": 0
     },
     "prinuditelnaya-likvidaciya-yurlica-po-isk-fns": {
       "category": "yur",
@@ -10044,15 +10048,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 2272,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-08-01T01:03:36",
-      "last_action_at": "2026-08-01T01:03:36",
+      "last_action_at": "2026-08-01T10:00:22",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-08-01T01:03:36"
+      "pending_batch": false,
+      "pending_batch_at": "2026-08-01T01:03:36",
+      "batch_sent_at": "2026-08-01T10:00:22",
+      "batch_fail_count": 0
     },
     "izmenenie-razmera-alimentov-cherez-sud": {
       "category": "vzysk",
@@ -10062,15 +10068,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 2274,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-08-01T05:38:17",
-      "last_action_at": "2026-08-01T05:38:17",
+      "last_action_at": "2026-08-01T10:00:24",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-08-01T05:38:17"
+      "pending_batch": false,
+      "pending_batch_at": "2026-08-01T05:38:17",
+      "batch_sent_at": "2026-08-01T10:00:24",
+      "batch_fail_count": 0
     },
     "restrukturizaciya-dolgov-bankrotstvo-rost-planov": {
       "category": "news",
@@ -10080,19 +10088,57 @@
       "versions": [
         "2.0"
       ],
+      "tg_message_id": 2276,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-08-01T08:49:19",
+      "last_action_at": "2026-08-01T10:00:26",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-08-01T08:49:19",
+      "batch_sent_at": "2026-08-01T10:00:26",
+      "batch_fail_count": 0
+    },
+    "bankrotstvo-fizlica-posledstviya-dlya-rodstvennikov": {
+      "category": "fiz",
+      "title": "Банкротство физлица: последствия для родственников и семьи",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
       "tg_message_id": null,
       "tg_chat_id": null,
-      "first_seen_at": "2026-08-01T08:49:19",
-      "last_action_at": "2026-08-01T08:49:19",
+      "first_seen_at": "2026-08-01T15:29:24",
+      "last_action_at": "2026-08-01T15:29:24",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
       "pending_batch": true,
-      "pending_batch_at": "2026-08-01T08:49:19"
+      "pending_batch_at": "2026-08-01T15:29:24"
+    },
+    "bankrotstvo-kompanii-pri-sankciyah-inostrannye-dolgi": {
+      "category": "yur",
+      "title": "Банкротство компании под санкциями: иностранные долги",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-08-01T20:09:26",
+      "last_action_at": "2026-08-01T20:09:26",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-08-01T20:09:26"
     }
   },
   "pending_actions": [],
-  "last_batch_date": "2026-07-31",
+  "last_batch_date": "2026-08-01",
   "last_batch_count": 5,
-  "last_batch_at": "2026-07-31T10:00:33"
+  "last_batch_at": "2026-08-01T10:00:26"
 }
