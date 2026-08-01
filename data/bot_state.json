@@ -10053,6 +10053,42 @@
       "published_url": null,
       "pending_batch": true,
       "pending_batch_at": "2026-08-01T01:03:36"
+    },
+    "izmenenie-razmera-alimentov-cherez-sud": {
+      "category": "vzysk",
+      "title": "Изменение размера алиментов через суд",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-08-01T05:38:17",
+      "last_action_at": "2026-08-01T05:38:17",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-08-01T05:38:17"
+    },
+    "restrukturizaciya-dolgov-bankrotstvo-rost-planov": {
+      "category": "news",
+      "title": "Суды всё чаще одобряют реструктуризацию долгов",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-08-01T08:49:19",
+      "last_action_at": "2026-08-01T08:49:19",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-08-01T08:49:19"
     }
   },
   "pending_actions": [],

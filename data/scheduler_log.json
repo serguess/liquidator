@@ -32226,5 +32226,109 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-08-01T08:30:21",
+    "category": "news",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 21,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "news-125",
+    "topic_slug": "restrukturizaciya-dolgov-bankrotstvo-rost-planov",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "length_soft_passed: 7287 > 5500 но ≤ 7500 и iteration=2 — пропускаем (приоритет spam/uniqueness/ai)",
+        "forced_pass_at_iter2: блокеры пропущены, статья идёт в TG-очередь с metrics_warning=true. Было: 1 блокеров — broken_internal_links"
+      ],
+      "recommendations": [
+        "fix_internal_links: заменить href на канонический /articles/{cat}/{slug} из published_index.json (см. .claude/style/editor-cheatsheet.md секция 6)"
+      ],
+      "stderr_tail": ""
+    },
+    "finalize_safety_net": {
+      "ran": true,
+      "rc": 0
+    },
+    "status": "ok",
+    "slug": "restrukturizaciya-dolgov-bankrotstvo-rost-planov",
+    "duration_sec": 1123.9,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "4871\n6-seo-editor        sonnet            6      14    65042     25156     65062\n7-publisher         haiku            20       8    39254     25520     39282\n------------------------------------------------------------------------------------------\nИТОГО                               170      80   462935    564209    463185\nBillable-токенов на статью: ~463K (cache_read 564K не считается в лимит подписки).\nАртефакты: drafts/restrukturizaciya-dolgov-bankrotstvo-rost-planov/  | quality_gate exit=0",
+    "stderr_tail": "",
+    "tokens_by_model": {},
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7287
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
+  },
+  {
+    "timestamp": "2026-08-01T08:49:07",
+    "category": "news",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 22,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "news-127",
+    "topic_slug": "iskovaya-davnost-dolgi-bankrotstvo-razyyasneniye-vs",
+    "auto_skipped": [
+      {
+        "slug": "vnesudebnoye-bankrotstvo-mfc-rost-polugodie",
+        "reason": "cannibalization:preflight:vnesudebnoe-bankrotstvo-cherez-mfc-2026",
+        "duration_sec": 0
+      }
+    ],
+    "status": "failed",
+    "slug": "iskovaya-davnost-dolgi-bankrotstvo-razyyasneniye-vs",
+    "duration_sec": 354.7,
+    "returncode": 1,
+    "rescued_after_failure": false,
+    "stdout_tail": "=== 1-semantics (claude haiku) ===\n   ok: 1554 симв., usage in=20 out=4 cache_w=30506 cache_r=25520 billable=30530 ток, 25.3с\n=== 2-legal-research (claude haiku) ===\n   ok: 15221 симв., usage in=124 out=46 cache_w=209010 cache_r=436862 billable=209180 ток, 79.5с\n   ok: 14131 симв., billable=63424 ток (model=sonnet)\n   [outline_validate] exit=0\n=== 4-writer (claude opus) ===",
+    "stderr_tail": "[ERR] rate_limit: put_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard\",\"cache_creation\":{\"ephemeral_1h_input_tokens\":0,\"ephemeral_5m_input_tokens\":0},\"inference_geo\":\"\",\"iterations\":[],\"speed\":\"standard\"},\"modelUsage\":{},\"permission_denials\":[],\"terminal_reason\":\"completed\",\"fast_mode_state\":\"off\",\"uuid\":\"2c9340e3-70d1-4dcf-993f-ee5d1b228e3c\"}\n\n",
+    "tokens_by_model": {},
+    "metrics": null
   }
 ]
