@@ -4034,7 +4034,11 @@
       "topic_action": "проверить, подходит ли МФЦ-банкротство",
       "event_date": "2026-07-16",
       "news_zone": "finance",
-      "primary_source": "https://fedresurs.ru/news/"
+      "primary_source": "https://fedresurs.ru/news/",
+      "status": "rejected",
+      "rejected_at": "2026-08-01T08:49:14",
+      "rejected_reason": "cannibalization:preflight:vnesudebnoe-bankrotstvo-cherez-mfc-2026",
+      "rejected_by": "auto_skip_in_slot"
     },
     {
       "id": "news-127",
