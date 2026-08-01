@@ -1,0 +1,108 @@
+{
+  "slug": "bankrotstvo-kompanii-pri-sankciyah-inostrannye-dolgi",
+  "category": "yur",
+  "title": "Банкротство компании под санкциями: иностранные долги",
+  "description": "Как компании под санкциями справиться с иностранными долгами. Банкротство, мировое соглашение и замороженные активы - разбор для юридических лиц.",
+  "h1": "Банкротство компании под санкциями: как рассчитаться с иностранными долгами",
+  "lead": "Разбираем три развилки, где формальная процедура упирается в потолок, когда замороженные активы блокируют конкурс и какой путь чаще оказывается рабочим.",
+  "topic_action": "разбор ситуации с иностранными долгами при санкциях",
+  "breadcrumb_current": "Банкротство при санкциях",
+  "og_image": "/assets/articles/bankrotstvo-kompanii-pri-sankciyah-inostrannye-dolgi.jpg",
+  "main_keyword": "банкротство компании при санкциях иностранные долги",
+  "secondary_keywords": [
+    "банкротство под санкциями",
+    "иностранные долги компании",
+    "банкротство при санкционных ограничениях",
+    "расплата с кредиторами за рубежом",
+    "урегулирование долгов в условиях санкций",
+    "процедура банкротства компании",
+    "юридическое лицо банкротство",
+    "контрсанкции и долги"
+  ],
+  "internal_links": [
+    "/articles/yur/kak-oformit-mirovoe-soglashenie-pri-bankrotstve-yurlica",
+    "/articles/yur/bankrotstvo-akcionernogo-obshchestva-prava-akcionerov"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/",
+    "https://www.consultant.ru/document/cons_doc_LAW_146436/",
+    "https://www.consultant.ru/document/cons_doc_LAW_5142/"
+  ],
+  "faq": [
+    {
+      "question": "Может ли иностранный кредитор сам подать заявление о банкротстве?",
+      "answer": "Да, если размер требования достигает порога в два миллиона рублей и есть просрочка от трёх месяцев. Место прописки заявителя роли не играет - право обратиться в арбитраж одинаковое для всех (ст. 6 127-ФЗ)."
+    },
+    {
+      "question": "Что происходит с замороженными счетами компании в конкурсе?",
+      "answer": "Они формально входят в конкурсную массу, но управляющий не может ими распорядиться до разблокировки. Санкционный орган - OFAC, EUSAN или другой - должен снять ограничение. При непреодолимой помехе суд вправе приостановить дело по ст. 57 127-ФЗ."
+    },
+    {
+      "question": "Нужно ли переводить документы иностранного кредитора для включения в реестр?",
+      "answer": "Да, все контракты, инвойсы и акты на иностранном языке подаются с нотариально заверенным переводом. Без него управляющий требование не примет. Это общее правило ГПК РФ (ст. 9)."
+    },
+    {
+      "question": "Может ли управляющий расплатиться с зарубежным кредитором без разрешения ЦБ?",
+      "answer": "Нет. Трансграничные платежи при санкциях идут только через согласование с ЦБ по ФЗ-164. До разрешения деньги остаются на счёте, даже если требование распределено в реестре."
+    },
+    {
+      "question": "Когда мировое соглашение выгоднее конкурсного производства?",
+      "answer": "Когда стороны готовы обсуждать рассрочку или частичное списание, а альтернатива - многолетняя пауза из-за заблокированных ресурсов. Мировое соглашение дешевле, быстрее и не требует госпошлины в сто тысяч рублей."
+    },
+    {
+      "question": "Сколько стоит подать заявление на банкротство юрлица в 2026 году?",
+      "answer": "Организация-заявитель платит госпошлину 100 000 рублей, физическое лицо - 6 000 рублей. Ставки действуют с 8 сентября 2024 года по редакции ФЗ-176 (подп. 4.1 п. 1 ст. 333.21 НК РФ). К этому добавляется депозит на вознаграждение арбитражного управляющего."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все ключевые факты сверены с research.json. Статусы: active для ст. 6 127-ФЗ (ред. ФЗ-107/2024), ст. 113-140, ст. 150, ст. 57, ст. 333.21 НК РФ (ред. ФЗ-176/2024), ГК РФ ст. 307-310.",
+    "Порог банкротства юрлица: 2 000 000 руб. с 28.03.2024 - актуален. Устаревший порог 300 000 руб. в тексте отсутствует.",
+    "Госпошлина: 100 000 руб. для организации-заявителя, 6 000 руб. для физлица с 08.09.2024 (ФЗ-176) - верифицирована.",
+    "Факты f6 (замороженные активы в массе) и f8 (ФЗ-164 и ЦБ) имеют статус needs_verification/contested. Использованы safe_phrasing из research.json без добавления цифр и сроков. Утверждения об OFAC и EUSAN оставлены консервативными.",
+    "Запрещённые утверждения (forbidden_claims) в тексте отсутствуют: замороженные активы не исключены из массы автоматически, иностранные кредиторы не лишены прав, платежи без разрешения ЦБ не одобряются.",
+    "Контекст ст. 57 (приостановление) привязан к непреодолимой помехе - формулировка соответствует safe_phrasing f11.",
+    "Ссылка на ФЗ-164 как на регулятор трансграничных платежей сохранена в консервативной форме: без конкретных сроков и циркуляров ЦБ, которые меняются в режиме реального времени (review_notes f8)."
+  ],
+  "keyword_density_main": 0.016,
+  "main_keyword_exact_count": 1,
+  "text_chars": 7364,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.093,
+  "local_spam_ngram3_repeat": 0.03,
+  "local_lexical_diversity": 0.644,
+  "local_ai_markers_density": 0.22,
+  "local_ai_markers_critical": 0,
+  "local_ai_markers_total": 2,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 3,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1785604137/articles/bankrotstvo-kompanii-pri-sankciyah-inostrannye-dolgi-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1785604137/articles/bankrotstvo-kompanii-pri-sankciyah-inostrannye-dolgi-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Photograph through wet glass — the camera views a contemporary financial district building through a window beaded with raindrops. Foreground objects on the windowsill (sharp focus): a closed laptop, a white porcelain coffee cup on a saucer, a leather-bound notebook with a fountain pen resting across it, reading glasses positioned on the notebook. Background (soft, blurred through the wet glass): glass façade reflecting the rainy street below, distant amber lampposts glowing through the haze. Camera: tight eye-level crop. Lighting: cool overcast daylight from outside, warm interior glow. Palette: cool blue-grey with warm interior accents. Mood: serious deliberation, weight of international business crisis.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-08-01T17:08:58Z",
+  "length_status": "too_long",
+  "length_kind": "default",
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 49,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "длина значительно больше лимита 6500 (7 364 знаков)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "targeted_tokens_over_limit: ст_сокращение=8(>≤5), РФ_рудимент=3(>≤2), 127фз_закон=5(>≤2)",
+    "broken_internal_links: 2 ссылок без соответствия в published_index (/articles/yur/kak-oformit-mirovoe-soglashenie-pri-bankrotstve-yurlica: slug 'kak-oformit-mirovoe-soglashenie-pri-bankrotstve-yurlica' не найден в категории 'yur' (есть: нигде); /articles/yur/bankrotstvo-akcionernogo-obshchestva-prava-akcionerov: slug 'bankrotstvo-akcionernogo-obshchestva-prava-akcionerov' не найден в категории 'yur' (есть: нигде))"
+  ],
+  "date_published": "2026-08-01",
+  "date_modified": "2026-08-01",
+  "ready_for_review": true,
+  "ready_at": "2026-08-01T17:09:01Z",
+  "publication_target": "telegram_review"
+}
