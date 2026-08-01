@@ -5257,6 +5257,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "restrukturizaciya-dolgov-bankrotstvo-rost-planov",
+      "category": "news",
+      "title": "Суды всё чаще одобряют реструктуризацию долгов",
+      "added_at": "2026-08-01T08:49:05.496474",
+      "char_count": 7287,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1785563340/articles/restrukturizaciya-dolgov-bankrotstvo-rost-planov-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
