@@ -10025,7 +10025,7 @@
     "bankrotstvo-arendator-net-sobstvennogo-zhilya": {
       "category": "fiz",
       "title": "Банкротство арендатора без собственного жилья",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -10033,14 +10033,16 @@
       "tg_message_id": 2270,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-31T15:09:30",
-      "last_action_at": "2026-08-01T10:00:19",
+      "last_action_at": "2026-08-03T18:27:37",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/fiz/bankrotstvo-arendator-net-sobstvennogo-zhilya",
       "pending_batch": false,
       "pending_batch_at": "2026-07-31T15:09:30",
       "batch_sent_at": "2026-08-01T10:00:19",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-08-03T18:27:37",
+      "articles_path": "articles/fiz/bankrotstvo-arendator-net-sobstvennogo-zhilya.html"
     },
     "prinuditelnaya-likvidaciya-yurlica-po-isk-fns": {
       "category": "yur",
