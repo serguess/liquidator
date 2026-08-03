@@ -1,6 +1,19 @@
 {
-  "generated": "2026-08-01",
+  "generated": "2026-08-03",
   "articles": [
+    {
+      "slug": "cb-mpl-tretiy-kvartal-novye-limity-kredity",
+      "cat": "news",
+      "catLabel": "Новости",
+      "title": "Новые МПЛ ЦБ: лимиты кредитов на третий квартал",
+      "desc": "Как изменились МПЛ ЦБ с 1 июля: какие группы заёмщиков лишились доступа к кредитам и что делать должникам при ужесточении лимитов.",
+      "date": "3 августа 2026",
+      "dateIso": "2026-08-03",
+      "read": "5 мин.",
+      "tone": "b",
+      "img": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1785479308/articles/cb-mpl-tretiy-kvartal-novye-limity-kredity-cover.jpg",
+      "url": "articles/news/cb-mpl-tretiy-kvartal-novye-limity-kredity"
+    },
     {
       "slug": "fns-iniciiruet-bankrotstvo-kompanij-23-procenta",
       "cat": "news",

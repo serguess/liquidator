@@ -10003,7 +10003,7 @@
     "cb-mpl-tretiy-kvartal-novye-limity-kredity": {
       "category": "news",
       "title": "Новые МПЛ ЦБ: лимиты кредитов на третий квартал",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -10011,14 +10011,16 @@
       "tg_message_id": 2268,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-07-31T09:29:27",
-      "last_action_at": "2026-08-01T10:00:17",
+      "last_action_at": "2026-08-03T18:19:55",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/news/cb-mpl-tretiy-kvartal-novye-limity-kredity",
       "pending_batch": false,
       "pending_batch_at": "2026-07-31T09:29:27",
       "batch_sent_at": "2026-08-01T10:00:17",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-08-03T18:19:55",
+      "articles_path": "articles/news/cb-mpl-tretiy-kvartal-novye-limity-kredity.html"
     },
     "bankrotstvo-arendator-net-sobstvennogo-zhilya": {
       "category": "fiz",
@@ -10108,15 +10110,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 2278,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-08-01T15:29:24",
-      "last_action_at": "2026-08-01T15:29:24",
+      "last_action_at": "2026-08-02T10:00:08",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-08-01T15:29:24"
+      "pending_batch": false,
+      "pending_batch_at": "2026-08-01T15:29:24",
+      "batch_sent_at": "2026-08-02T10:00:08",
+      "batch_fail_count": 0
     },
     "bankrotstvo-kompanii-pri-sankciyah-inostrannye-dolgi": {
       "category": "yur",
@@ -10126,19 +10130,21 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 2280,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-08-01T20:09:26",
-      "last_action_at": "2026-08-01T20:09:26",
+      "last_action_at": "2026-08-02T10:00:10",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-08-01T20:09:26"
+      "pending_batch": false,
+      "pending_batch_at": "2026-08-01T20:09:26",
+      "batch_sent_at": "2026-08-02T10:00:10",
+      "batch_fail_count": 0
     }
   },
   "pending_actions": [],
-  "last_batch_date": "2026-08-01",
-  "last_batch_count": 5,
-  "last_batch_at": "2026-08-01T10:00:26"
+  "last_batch_date": "2026-08-03",
+  "last_batch_count": 0,
+  "last_batch_at": "2026-08-03T10:00:24"
 }
