@@ -1,0 +1,108 @@
+{
+  "slug": "poluchenie-alimentov-s-bankrota",
+  "category": "fiz",
+  "title": "Алименты с банкрота при банкротстве физического лица",
+  "description": "Имеет ли право кредитор на алименты при банкротстве должника? Как получить выплаты из конкурсной массы и очередность платежей.",
+  "h1": "Получение алиментов с банкрота: приоритет в процедуре банкротства физлица",
+  "lead": "Содержание ребёнка не списывается при банкротстве плательщика и имеет наивысший приоритет в распределении средств - но автоматически деньги не поступят, нужно встать в реестр кредиторов в течение 30 дней с публикации в ЕФРСБ.",
+  "topic_action": "получение алиментов при банкротстве должника",
+  "breadcrumb_current": "Алименты при банкротстве должника",
+  "og_image": "/assets/articles/poluchenie-alimentov-s-bankrota.jpg",
+  "main_keyword": "алименты с банкрота",
+  "secondary_keywords": [
+    "алименты если должник банкрот",
+    "как получить алименты при банкротстве должника",
+    "приоритет алиментов при банкротстве физлица",
+    "алименты в процедуре банкротства гражданина",
+    "очередность выплат алименты банкротство",
+    "исполнительное производство алименты банкротство",
+    "взыскание алиментов с банкрота",
+    "требования кредиторов при банкротстве алименты"
+  ],
+  "internal_links": [
+    "/articles/fiz/vnesudebnoe-bankrotstvo-cherez-mfc",
+    "/articles/fiz/restrukturizaciya-dolgov-bankrotstvo",
+    "/articles/vzysk/priostanovlenie-ispolnitelnogo-proizvodstva-bankkrotstvo",
+    "/articles/vzysk/izmenenie-razmera-alimentov-cherez-sud"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/",
+    "https://www.consultant.ru/document/cons_doc_LAW_5142/"
+  ],
+  "faq": [
+    {
+      "question": "Можно ли получить содержание ребёнка, если плательщик прошёл банкротство через МФЦ?",
+      "answer": "В ходе самой МФЦ-схемы - нет. Там нет управляющего и продажи активов. Но после её завершения обязательство сохраняется. Работу с приставом можно продолжать по имеющемуся исполнительному листу или судебному приказу."
+    },
+    {
+      "question": "Что произойдёт с долгом, если пропустил окно подачи в реестр?",
+      "answer": "Долг не исчезает. Заявка попадёт в разряд «за реестром» и удовлетворится лишь после всех реестровых кредиторов - обычно денег до неё не доходит. Однако само право требовать периодических платежей сохраняется бессрочно."
+    },
+    {
+      "question": "Сколько стоит работа управляющего и кто платит?",
+      "answer": "Фиксированная часть - 25 000 рублей за процедуру. Плюс семь процентов от вырученных от продажи активов средств. Всё оплачивается из имущественного фонда до распределения между кредиторами."
+    },
+    {
+      "question": "Обязан ли банкрот продолжать платить содержание ребёнка после завершения дела?",
+      "answer": "Да, безоговорочно. Освобождение от прежних обязательств по итогам реализации на детские выплаты не распространяется. Обязанность сохраняется до совершеннолетия ребёнка или иных оснований прекращения."
+    },
+    {
+      "question": "Каков размер защищённой суммы для должника в 2026 году?",
+      "answer": "Прожиточный минимум трудоспособного жителя страны - 20 644 рублей ежемесячно (ФЗ-426 от 28.11.2025). Плюс аналогичная сумма на каждого иждивенца в семье плательщика. Это гарантированная часть дохода, которую нельзя изъять."
+    },
+    {
+      "question": "Может ли управляющий оспорить включение долга по детскому содержанию в реестр?",
+      "answer": "Формально да. Специалист вправе возразить, если сомневается в размере или основании. Спор решает арбитраж. Но если заявка подкреплена исполнительным документом и корректным расчётом, оспаривание маловероятно."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Фактчек пройден. Все юр-утверждения сверены с research.json (факты f1-f15).",
+    "Актуальность: все источники с last_verified от 2026-08-04, legislation_status=active.",
+    "Запрещённые утверждения исключены (не содержится попыток списания алиментов, гарантий 100% выплаты и т.д.).",
+    "Прожиточный минимум 20 644 руб. (ФЗ-426 от 28.11.2025) - актуален для 2026 года.",
+    "Внутренние ссылки добавлены; рекомендуется проверить существование target-slug-ов в published_index.json.",
+    "Плотность главного ключа 'алименты с банкрота' ≈ 1.8% (в пределах нормы ≤ 2.5%)."
+  ],
+  "keyword_density_main": 0.018,
+  "main_keyword_exact_count": 2,
+  "text_chars": 7760,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.108,
+  "local_spam_ngram3_repeat": 0.034,
+  "local_lexical_diversity": 0.581,
+  "local_ai_markers_density": 0.2,
+  "local_ai_markers_critical": 0,
+  "quality_gate_passed": true,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1785794934/articles/poluchenie-alimentov-s-bankrota-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1785794934/articles/poluchenie-alimentov-s-bankrota-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Wide cinematic photograph of a large official courtroom or family court antechamber. Architecture dominates: high ceilings, tall windows filtering late-afternoon golden light, marble or stone floors, paneled walls. Center of frame: an empty wooden judge's bench with a polished gavel resting on its round sound block, beside it a tall-backed leather chair, and a closed dark portfolio on a side table. Camera: symmetric, eye-level. Lighting: late-afternoon golden window light casting long parallel shadows across the stone floor. Materials: polished walnut, marble, oxidized brass details. Mood: hushed, ceremonial, the solemn weight of an obligation that persists despite financial hardship.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-08-03T22:08:55Z",
+  "length_status": "too_long",
+  "length_kind": "default",
+  "local_ai_markers_total": 2,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 3,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 58,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность заметно выше 50% (~58%)",
+    "длина значительно больше лимита 6500 (7 760 знаков)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "broken_internal_links: 3 ссылок без соответствия в published_index (/articles/fiz/vnesudebnoe-bankrotstvo-cherez-mfc: slug 'vnesudebnoe-bankrotstvo-cherez-mfc' не найден в категории 'fiz' (есть: нигде); /articles/vzysk/priostanovlenie-ispolnitelnogo-proizvodstva-bankkrotstvo: slug 'priostanovlenie-ispolnitelnogo-proizvodstva-bankkrotstvo' не найден в категории 'vzysk' (есть: нигде); /articles/fiz/restrukturizaciya-dolgov-bankrotstvo: slug 'restrukturizaciya-dolgov-bankrotstvo' не найден в категории 'fiz' (есть: нигде))"
+  ],
+  "date_published": "2026-08-04",
+  "date_modified": "2026-08-04",
+  "ready_for_review": true,
+  "ready_at": "2026-08-03T22:08:59Z",
+  "publication_target": "telegram_review"
+}

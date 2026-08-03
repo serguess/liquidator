@@ -5296,6 +5296,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "poluchenie-alimentov-s-bankrota",
+      "category": "fiz",
+      "title": "Алименты с банкрота при банкротстве физического лица",
+      "added_at": "2026-08-04T01:08:59.630793",
+      "char_count": 7760,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1785794934/articles/poluchenie-alimentov-s-bankrota-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
