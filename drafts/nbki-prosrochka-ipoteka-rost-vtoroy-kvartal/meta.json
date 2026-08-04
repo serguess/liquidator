@@ -1,0 +1,107 @@
+{
+  "slug": "nbki-prosrochka-ipoteka-rost-vtoroy-kvartal",
+  "category": "news",
+  "title": "Просрочка ипотеки выросла: данные НБКИ",
+  "description": "Какая просрочка по ипотеке в России, почему она растёт, что показывают данные НБКИ за второй квартал - анализ рынка для должников.",
+  "h1": "Просрочка по ипотеке выросла: что показывают данные НБКИ",
+  "lead": "НБКИ фиксирует устойчивый рост нарушений платёжной дисциплины по жилищным займам - разбираем категории задержки, причины и варианты действий до суда.",
+  "topic_action": "разбор ситуации с просрочкой по ипотеке",
+  "breadcrumb_current": "Просрочка ипотеки: данные НБКИ",
+  "og_image": "/assets/articles/nbki-prosrochka-ipoteka-rost-vtoroy-kvartal.jpg",
+  "main_keyword": "просрочка ипотеки",
+  "secondary_keywords": [
+    "рост просрочек ипотеке",
+    "данные нбки ипотека",
+    "статистика ипотеки",
+    "должники ипотеке россия",
+    "риск неплатежа ипотека",
+    "кредитная история ипотека",
+    "ипотечный кредит просрочка",
+    "макроэкономика ипотека"
+  ],
+  "intent": "informational",
+  "funnel_stage": "cold",
+  "article_type": "B",
+  "offer": "proverka-spisaniya",
+  "event_date": "2026-07-15",
+  "news_zone": "finance",
+  "internal_links": [
+    "/articles/news/restrukturizaciya-dolgov-bankrotstvo-rost-planov",
+    "/articles/fiz/bankrotstvo-fizlica-posledstviya-dlya-rodstvennikov"
+  ],
+  "external_links": [
+    "https://nbki.ru/company/news/",
+    "https://nbki.ru/"
+  ],
+  "faq": [
+    {
+      "question": "Можно ли договориться с банком до суда при первой задержке платежа?",
+      "answer": "Да, и это самый разумный сценарий. Заимодавцу выгоднее сохранить обслуживание долга, а не тратить месяцы на суд. Обращение в первые 30 дней с просьбой о рассрочке или кредитных каникулах чаще всего заканчивается официальным соглашением о новых условиях."
+    },
+    {
+      "question": "Что означают три месяца просрочки по ипотечному договору?",
+      "answer": "Переход в категорию сомнительной задолженности. Кредитор получает право требовать досрочного возврата всей суммы и готовит документы для суда. На этом этапе позиция плательщика в переговорах уже слабая, но возможности для мирового урегулирования остаются."
+    },
+    {
+      "question": "Как задержка ипотечного взноса отражается в кредитной истории?",
+      "answer": "Любое нарушение графика фиксируется в истории плательщика. Запись сохраняется семь лет с момента последнего изменения. Даже разовая техническая задержка снижает скоринг, а длительные нарушения делают получение новых займов практически невозможным."
+    },
+    {
+      "question": "Обязательно ли банк обратится в суд при долге свыше 90 дней?",
+      "answer": "Не обязательно. У кредитора есть право, а не обязанность инициировать взыскание. Часто заимодавцы сначала предлагают продать залог с их участием без судебной процедуры - это быстрее и дешевле. Судебный сценарий выбирают, когда переговоры полностью зашли в тупик."
+    },
+    {
+      "question": "Чем ипотечная задолженность отличается от просрочки по потребительскому кредиту?",
+      "answer": "Ключевое отличие - наличие залога. По потребительскому займу взыскание идёт из зарплаты и общего имущества, по ипотечному - обращается на квартиру, служащую предметом залога. Это делает риск утраты жилья реальным даже при полностью добросовестной финансовой картине."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Утверждение 'четвёртый отчётный период подряд' из draft убрано: конкретные квартальные данные НБКИ за Q2 2026 не верифицированы в research.json (fact_gaps) - применена safe_phrasing 'устойчивый рост нарушений'",
+    "f6 (макроэкономические факторы) имеет legislation_status: needs_verification - использована safe_phrasing без привязки к конкретным условиям Q2 2026",
+    "Ссылки ст. 206-213 ФЗ-102 из draft сведены к одному текстовому упоминанию ФЗ-102 без дублирования (лимит 2-3 внешних ссылок соблюдён)",
+    "Forbidden_claims проверены - все отсутствуют в тексте",
+    "Дефисная сцепка 'квартиру-обеспечение' из draft расцеплена: заменена на 'квартиру, служащую предметом залога'",
+    "Внутренние ссылки выбраны по статьям со статусом publish в git log: restrukturizaciya-dolgov-bankrotstvo-rost-planov (news) и bankrotstvo-fizlica-posledstviya-dlya-rodstvennikov (fiz)"
+  ],
+  "keyword_density_main": null,
+  "main_keyword_exact_count": null,
+  "text_chars": 7504,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.094,
+  "local_spam_ngram3_repeat": 0.019,
+  "local_lexical_diversity": 0.669,
+  "local_ai_markers_density": 0.21,
+  "local_ai_markers_critical": 0,
+  "local_ai_markers_total": 2,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 3,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1785823606/articles/nbki-prosrochka-ipoteka-rost-vtoroy-kvartal-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1785823606/articles/nbki-prosrochka-ipoteka-rost-vtoroy-kvartal-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Editorial photograph of a workspace adjacent to a window. On a walnut desk: a closed slim laptop positioned slightly left of center, a smartphone face-down, a precision calculator, a brass desk lamp, reading glasses, a white porcelain coffee cup on a saucer, and a blank-spine notebook with fountain pen. Background through floor-to-ceiling glass: blurred cityscape in twilight with evening lights softly bokeh, hints of rain streaking the panes. Camera: three-quarter angle, eye-level. Lighting: cool daylight from outside blended with warm interior tungsten from the desk lamp creating contemplative professional glow. Materials: walnut, leather, brushed brass. Mood: financial data analysis, contemporary research, late-evening documentation of market crisis. Premium business editorial aesthetic.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-08-04T06:06:47Z",
+  "length_status": "too_long",
+  "length_kind": "news",
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 47,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 90,
+  "customer_risks": [
+    "длина значительно больше лимита 5500 (7 504 знаков)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "length_too_long: 7504 > 5500 (kind=news)"
+  ],
+  "date_published": "2026-08-04",
+  "date_modified": "2026-08-04",
+  "ready_for_review": true,
+  "ready_at": "2026-08-04T06:06:49Z",
+  "publication_target": "telegram_review"
+}
