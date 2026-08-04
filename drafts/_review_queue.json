@@ -5309,6 +5309,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "vzyskanie-ubytkov-s-konkursnogo-upravlyayushchego",
+      "category": "yur",
+      "title": "Взыскание убытков с конкурсного управляющего: порядок и судебная практика",
+      "added_at": "2026-08-04T05:54:23.165954",
+      "char_count": 7421,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1785812058/articles/vzyskanie-ubytkov-s-konkursnogo-upravlyayushchego-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

@@ -1,0 +1,108 @@
+{
+  "slug": "vzyskanie-ubytkov-s-konkursnogo-upravlyayushchego",
+  "category": "yur",
+  "title": "Взыскание убытков с конкурсного управляющего: порядок и судебная практика",
+  "description": "Как взыскать убытки с конкурсного управляющего через суд: условия ответственности, подсудность, сроки исков и судебная практика арбитражных судов.",
+  "h1": "Взыскание убытков с конкурсного управляющего в суде: практика и условия",
+  "lead": "Оборудование ушло за треть балансовой цены. Кто ответит рублём, куда идти и что доказывать в разбирательстве?",
+  "topic_action": "взыскание убытков с конкурсного управляющего",
+  "breadcrumb_current": "Взыскание убытков с управляющего",
+  "og_image": "/assets/articles/vzyskanie-ubytkov-s-konkursnogo-upravlyayushchego.jpg",
+  "main_keyword": "взыскание убытков с конкурсного управляющего",
+  "secondary_keywords": [
+    "иск к конкурсному управляющему",
+    "ответственность конкурсного управляющего",
+    "взыскание убытков с управляющего банкротством",
+    "судебная практика взыскания убытков",
+    "убытки от деятельности управляющего",
+    "исковое производство против управляющего",
+    "размер убытков при банкротстве",
+    "условия ответственности управляющего",
+    "взыскание убытков компанией при банкротстве"
+  ],
+  "internal_links": [
+    "/articles/yur/kak-osporit-dejstviya-arbitrazhnogo-upravlyayushchego",
+    "/articles/yur/iski-konkyursnogo-upravlyayushchego-trethim-licam",
+    "/articles/yur/kak-osporit-trebovanie-kreditorov-v-reestre-pri-bankrotstve-yurlica"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/",
+    "https://www.consultant.ru/document/cons_doc_LAW_5142/"
+  ],
+  "faq": [
+    {
+      "question": "Кто вправе обратиться за возмещением?",
+      "answer": "Должник, правопреемники, любой кредитор - в том числе не включённый в реестр, - кредиторский комитет, собрание, иные заинтересованные лица. Формального перечня нет: инстанция оценивает материальный интерес."
+    },
+    {
+      "question": "Достаточно ли факта потерь без вины ответчика?",
+      "answer": "Нет. Нужны все четыре элемента: отступление от обязанностей, прямая связь, посчитанный имущественный вред и вина. При договорной ответственности вина презюмируется, при деликтной её обосновывает истец."
+    },
+    {
+      "question": "Можно ли подать после завершения дела о банкротстве?",
+      "answer": "Да. Оставшийся период трёхлетнего окна продолжает течь после закрытия процедуры. Обращение уходит либо в тот же процесс, либо отдельным производством по месту нахождения бывшей компании."
+    },
+    {
+      "question": "А если у ответчика нет имущества для выплаты?",
+      "answer": "Проверяется страховой полис - его наличие обязательно, лимит определяет СРО. В пределах покрытия платит страховщик. Свыше - остаётся имущественная ответственность самого управляющего, включая механизмы принудительного исполнения."
+    },
+    {
+      "question": "Чем требование о возмещении отличается от жалобы на действия?",
+      "answer": "Жалоба фиксирует промах и может привести к отстранению от процедуры. Требование о возмещении переводит проступок в денежную плоскость. Часто жалоба идёт первой - она формирует доказательственную базу для последующего денежного обращения."
+    },
+    {
+      "question": "До какого момента сохраняется право на обращение?",
+      "answer": "Три года со дня, когда истец узнал о промахе и об ответственном лице. Отдельные основания могут иметь специальные сроки, но общий - трёхлетний."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все юридические утверждения сверены с research.json. Законодательство актуально (статус 'active', last_verified в пределах 6 месяцев).",
+    "Ст. 61, 62, 63, 64 127-ФЗ - основания ответственности управляющего - цитированы корректно.",
+    "Трёхлетний срок по ст. 196 ГК РФ подтвержден research.",
+    "Реальный вред и упущенная выгода по ст. 393 ГК РФ корректно отражены.",
+    "Страховое покрытие по ст. 20.1 127-ФЗ описано точно.",
+    "Четыре условия взыскания убытков полностью соответствуют research.json."
+  ],
+  "keyword_density_main": 0.019,
+  "main_keyword_exact_count": 2,
+  "text_chars": 7421,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.081,
+  "local_spam_ngram3_repeat": 0.066,
+  "local_lexical_diversity": 0.643,
+  "local_ai_markers_density": 0.33,
+  "local_ai_markers_critical": 0,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1785812058/articles/vzyskanie-ubytkov-s-konkursnogo-upravlyayushchego-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1785812058/articles/vzyskanie-ubytkov-s-konkursnogo-upravlyayushchego-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Editorial photograph of a polished conference table set for serious deliberation, dark walnut top with minimal arrangement. Foreground objects positioned with formal precision: a closed thick leather portfolio containing case materials and court documents, a quality fountain pen resting parallel to the portfolio's edge suggesting signed judgments, a water carafe with empty glasses indicating concluded proceedings, a single oxblood leather chair-back visible at the far end commanding the space. Camera angle: symmetric shot down the length of the table emphasizing gravitational weight. Background: floor-to-ceiling windows opening onto a city skyline in cool overcast light or evening rain. Lighting: cool natural daylight from windows layered with warm accent from pendant lamp above. Materials: polished walnut, rich leather, clear glass. Mood: the serious moment before or after a grave legal decision, judicial weight.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-08-04T02:54:19Z",
+  "length_status": "too_long",
+  "length_kind": "default",
+  "local_ai_markers_total": 3,
+  "local_ai_markers_high": 1,
+  "local_own_voice_hits": 2,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 51,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность чуть выше 50% (~51%)",
+    "длина значительно больше лимита 6500 (7 421 знаков)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "spam_risk: 1 флагов (ngram3_repeat_share>0.055 (=0.066)), top-5: ['управляющег', 'либо', 'потер', 'истец', 'собран']"
+  ],
+  "date_published": "2026-08-04",
+  "date_modified": "2026-08-04",
+  "ready_for_review": true,
+  "ready_at": "2026-08-04T02:54:23Z",
+  "publication_target": "telegram_review"
+}
