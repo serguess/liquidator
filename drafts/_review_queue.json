@@ -5361,6 +5361,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "mfo-podala-v-sud-chto-delat",
+      "category": "vzysk",
+      "title": "МФО подала в суд: действия должника при иске",
+      "added_at": "2026-08-05T00:48:53.117813",
+      "char_count": 8199,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1785880127/articles/mfo-podala-v-sud-chto-delat-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
