@@ -10153,6 +10153,60 @@
       "batch_fail_count": 0,
       "published_at": "2026-08-03T18:29:34",
       "articles_path": "articles/yur/bankrotstvo-kompanii-pri-sankciyah-inostrannye-dolgi.html"
+    },
+    "poluchenie-alimentov-s-bankrota": {
+      "category": "fiz",
+      "title": "Алименты с банкрота при банкротстве физического лица",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-08-04T01:09:36",
+      "last_action_at": "2026-08-04T01:09:36",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-08-04T01:09:36"
+    },
+    "vzyskanie-ubytkov-s-konkursnogo-upravlyayushchego": {
+      "category": "yur",
+      "title": "Взыскание убытков с конкурсного управляющего: порядок и судебная практика",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-08-04T05:55:17",
+      "last_action_at": "2026-08-04T05:55:17",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-08-04T05:55:17"
+    },
+    "nbki-prosrochka-ipoteka-rost-vtoroy-kvartal": {
+      "category": "news",
+      "title": "Просрочка ипотеки выросла: данные НБКИ",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-08-04T09:07:19",
+      "last_action_at": "2026-08-04T09:07:19",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-08-04T09:07:19"
     }
   },
   "pending_actions": [],
