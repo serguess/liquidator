@@ -1,0 +1,243 @@
+{
+  "file": "/home/appuser/apps/liquidator/drafts/kredity-za-tri-dnya-dolgi-ne-spishut-bankrotstvo/article.html",
+  "passed": true,
+  "hard_failed": false,
+  "blockers": [],
+  "warnings": [
+    "forced_pass_at_iter2: блокеры пропущены, статья идёт в TG-очередь с metrics_warning=true. Было: 1 блокеров — targeted_tokens_over_limit"
+  ],
+  "autofix": {
+    "file": "/home/appuser/apps/liquidator/drafts/kredity-za-tri-dnya-dolgi-ne-spishut-bankrotstvo/article.html",
+    "abbreviation_fixes": {},
+    "punctuation_fixes": 0,
+    "em_dash_fixes": 0,
+    "eng_quotes_fixes": 0,
+    "yo_fixes": 0,
+    "hyphen_fixes": 0,
+    "changed": false,
+    "bytes_before": 36774,
+    "bytes_after": 36774
+  },
+  "quality_checks": {
+    "file": "drafts/kredity-za-tri-dnya-dolgi-ne-spishut-bankrotstvo/article.html",
+    "text_chars": 5402,
+    "length_status": "warn",
+    "length_kind": "news",
+    "passed": true,
+    "abbreviation_hits": [],
+    "punctuation_hits": [],
+    "hyphen_compound_hits": [],
+    "spam": {
+      "total_words": 515,
+      "unique_lemmas": 360,
+      "lexical_diversity": 0.699,
+      "top10_words": [
+        [
+          "арбитраж",
+          8
+        ],
+        [
+          "освобожден",
+          6
+        ],
+        [
+          "займ",
+          5
+        ],
+        [
+          "процедур",
+          5
+        ],
+        [
+          "платеж",
+          5
+        ],
+        [
+          "обязательств",
+          5
+        ],
+        [
+          "умыс",
+          5
+        ],
+        [
+          "отдельн",
+          5
+        ],
+        [
+          "риск",
+          5
+        ],
+        [
+          "заемщик",
+          4
+        ]
+      ],
+      "top10_share": 0.103,
+      "top1_count": 8,
+      "top3_sum": 19,
+      "top10_sum": 53,
+      "ngram3_repeat_count": 14,
+      "ngram3_total": 513,
+      "ngram3_repeat_share": 0.027,
+      "risk_flags": [],
+      "word_warnings": []
+    },
+    "targeted_tokens": [
+      {
+        "token": "ст_сокращение",
+        "count": 3,
+        "limit": 5,
+        "over_limit": false,
+        "severity": "hard"
+      },
+      {
+        "token": "РФ_рудимент",
+        "count": 0,
+        "limit": 2,
+        "over_limit": false,
+        "severity": "hard"
+      },
+      {
+        "token": "руб_сокращение",
+        "count": 0,
+        "limit": 0,
+        "over_limit": false,
+        "severity": "hard"
+      },
+      {
+        "token": "ООО_бренд",
+        "count": 0,
+        "limit": 3,
+        "over_limit": false,
+        "severity": "hard"
+      },
+      {
+        "token": "000руб_паттерн",
+        "count": 0,
+        "limit": 2,
+        "over_limit": false,
+        "severity": "hard"
+      },
+      {
+        "token": "127фз_закон",
+        "count": 3,
+        "limit": 2,
+        "over_limit": true,
+        "severity": "soft"
+      },
+      {
+        "token": "213_артикул",
+        "count": 3,
+        "limit": 3,
+        "over_limit": false,
+        "severity": "soft"
+      },
+      {
+        "token": "ГПК_кодекс",
+        "count": 0,
+        "limit": 3,
+        "over_limit": false,
+        "severity": "soft"
+      },
+      {
+        "token": "ГК_кодекс",
+        "count": 0,
+        "limit": 3,
+        "over_limit": false,
+        "severity": "soft"
+      },
+      {
+        "token": "000_число",
+        "count": 0,
+        "limit": 8,
+        "over_limit": false,
+        "severity": "soft"
+      },
+      {
+        "token": "cta_формула_повтор",
+        "count": 1,
+        "limit": 1,
+        "over_limit": false,
+        "severity": "soft"
+      }
+    ],
+    "author_markers_count": 2,
+    "author_markers_min": 2
+  },
+  "ai_markers": {
+    "file": "drafts/kredity-za-tri-dnya-dolgi-ne-spishut-bankrotstvo/article.html",
+    "text_chars": 7280,
+    "hits_total": 2,
+    "density_per_1000": 0.27,
+    "by_severity": {
+      "critical": 0,
+      "high": 0,
+      "medium": 0,
+      "low": 2
+    },
+    "own_voice_hits": 2,
+    "first_person_singular_hits": 0,
+    "hits": [
+      {
+        "name": "ИИ-лексика: «взаимодействие/тонкости/нюансы (абстрактно)»",
+        "category": "ai-lexis",
+        "severity": "low",
+        "match": "Взаимодействие",
+        "position": 7087,
+        "context": "...ение law@pravo.shop Коммерческие предложения biz@pravo.shop Взаимодействие со СМИ pr@pravo.shop © 2018-2026 ООО «ЛИКВИДАТОР». Все прав..."
+      },
+      {
+        "name": "Канцелярит: «в рамках» (без нужды)",
+        "category": "clerical",
+        "severity": "low",
+        "match": "в рамках",
+        "position": 6706,
+        "context": "...ровождение на всех этапах. Надежность и законность Работаем в рамках ФЗ и действующего законодательства РФ. РЕКВИЗИТЫ ООО «ЛИКВИ..."
+      }
+    ]
+  },
+  "anti_template": {
+    "file": "drafts/kredity-za-tri-dnya-dolgi-ne-spishut-bankrotstvo/article.html",
+    "text_chars": 5750,
+    "phrases_loaded": 138,
+    "passed": true,
+    "hits": []
+  },
+  "law_quotes": {
+    "total_chars": 0,
+    "limit": 600,
+    "samples": []
+  },
+  "rhythm": {
+    "file": "drafts/kredity-za-tri-dnya-dolgi-ne-spishut-bankrotstvo/article.html",
+    "text_chars": 5750,
+    "sentences_total": 64,
+    "avg_sentence_len": 8.91,
+    "short_sentences_count": 20,
+    "short_sentences_share": 0.312,
+    "long_sentences_count": 2,
+    "parasite_count": 1,
+    "parasite_per_1000": 0.17,
+    "flags": []
+  },
+  "internal_links": {
+    "total_hrefs": 38,
+    "ok": 0,
+    "whitelisted": 21,
+    "external": 17,
+    "fixed": 0,
+    "errors": 0,
+    "changed": false,
+    "fix_details": [],
+    "error_details": []
+  },
+  "recommendations": [],
+  "retry_count": 2,
+  "predicted_metrics": {
+    "spam_pct": 47,
+    "ai_pct": 3,
+    "uniqueness_pct": 90
+  },
+  "customer_risks": []
+}

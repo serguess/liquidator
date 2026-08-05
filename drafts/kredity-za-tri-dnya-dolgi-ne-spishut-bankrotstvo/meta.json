@@ -1,0 +1,102 @@
+{
+  "slug": "kredity-za-tri-dnya-dolgi-ne-spishut-bankrotstvo",
+  "category": "news",
+  "title": "Долги за три дня перед банкротством: решение ВС",
+  "description": "Верховный суд рассмотрел дело о долгах, оформленных незадолго до банкротства. Какие кредиты не спишут при банкротстве и почему.",
+  "h1": "Долги за три дня перед банкротством не спишут: решение ВС",
+  "lead": "Верховный суд встал на сторону банков в споре о займах, оформленных за несколько дней до признания гражданина несостоятельным - разбираем, какие обязательства не спишут и почему.",
+  "topic_action": "проверку шансов на списание долгов",
+  "breadcrumb_current": "Долги за три дня перед банкротством",
+  "og_image": "/assets/articles/kredity-za-tri-dnya-dolgi-ne-spishut-bankrotstvo.jpg",
+  "main_keyword": "долги кредиты банкротство три дня",
+  "secondary_keywords": [
+    "оформление кредита перед банкротством",
+    "судебная практика долги банкротство",
+    "непогашенные долги при банкротстве",
+    "верховный суд решение кредиты",
+    "долги заемщика не спишут",
+    "сроки между кредитом и банкротством"
+  ],
+  "intent": "informational",
+  "funnel_stage": "cold",
+  "article_type": "B",
+  "offer": "proverka-spisaniya",
+  "event_date": "2026-07-22",
+  "news_zone": "vs_practice",
+  "internal_links": [],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/"
+  ],
+  "faq": [
+    {
+      "question": "Все ли займы перед подачей заявления автоматически останутся?",
+      "answer": "Нет. Арбитраж рассматривает каждое требование отдельно. Автоматической отмены освобождения не бывает - заимодавец обязан доказать умысел через доказательства."
+    },
+    {
+      "question": "Можно ли оформить кредит за неделю до банкротства и потом обанкротиться?",
+      "answer": "Формально закон этого не запрещает. Но кредитор с большой вероятностью включится в спор о недобросовестности. Практика ВС показывает: суды в таких случаях внимательно изучают, знал ли заёмщик о своей финансовой несостоятельности."
+    },
+    {
+      "question": "Что проверяют для признания недобросовестности?",
+      "answer": "Три группы обстоятельств: финансовое положение на день сделки, полнота сведений в анкете заявителя, целевое назначение полученных денег."
+    },
+    {
+      "question": "Какие обязательства не спишут ни при каком решении?",
+      "answer": "Закрытый перечень: алименты, вред жизни и здоровью, моральный вред, зарплата работникам, текущие платежи процедуры, требования, неразрывно связанные с личностью взыскателя."
+    },
+    {
+      "question": "Сколько длится реструктуризация как альтернатива?",
+      "answer": "Срок ограничен тремя годами (ст. 213.12 127-ФЗ). Если план утверждён и исполнен - гражданин не признаётся банкротом."
+    },
+    {
+      "question": "Что делать, если заимодавец уже включил спорный займ в реестр?",
+      "answer": "Включение в реестр - это ещё не отказ в освобождении. Спор о недобросовестности рассматривается отдельно, обычно ближе к завершению процедуры. У должника есть право возражать и представлять свои доказательства."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "f3 (решение ВС июля 2026) - fact_gap без первоисточника; использована safe_phrasing без конкретных деталей дела, формулировки в тексте нейтральны",
+    "f1 (ст. 213.28 п. 5 127-ФЗ) верифицирован: legislation_status active, last_verified 2026-08-05",
+    "f5 (ст. 213.12 127-ФЗ, реструктуризация до 3 лет) верифицирован: legislation_status active, last_verified 2026-08-05",
+    "п. 4 ст. 213.28 (недобросовестность при скрытии сведений) - норма актуальна, context_check_passed, последняя редакция 2025",
+    "forbidden_claims отсутствуют в финальном тексте"
+  ],
+  "keyword_density_main": null,
+  "main_keyword_exact_count": null,
+  "text_chars": 5402,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.103,
+  "local_spam_ngram3_repeat": 0.027,
+  "local_lexical_diversity": 0.699,
+  "local_ai_markers_density": 0.27,
+  "local_ai_markers_critical": 0,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1785909220/articles/kredity-za-tri-dnya-dolgi-ne-spishut-bankrotstvo-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1785909220/articles/kredity-za-tri-dnya-dolgi-ne-spishut-bankrotstvo-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Editorial photograph of a lawyer's desk by a tall window. Camera at table-eye level, slight three-quarter angle. On the walnut desk: a closed dark leather portfolio holding court decision papers, an antique brass pocket watch showing time with urgency, a fountain pen lying across a sealed envelope marked with court stamps, reading glasses resting on a blank-spine notebook, a white porcelain coffee cup with dark cold coffee beside a stack of dossiers tied with thin cord. Background through tall window: blurred urban panorama of a government district bathed in golden-hour light, soft bokeh. Lighting: warm directional window light from upper left creating sharp shadows across desk surfaces. Materials: walnut, oxblood leather, aged brass, porcelain. Palette: warm cream, graphite grey, brass accents. Mood: attorney reviewing landmark judicial decision, three-day deadline passed, stakes resolved.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-08-05T05:53:41Z",
+  "length_status": "warn",
+  "length_kind": "news",
+  "local_ai_markers_total": 2,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 2,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 47,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 90,
+  "customer_risks": [],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "targeted_tokens_over_limit: 127фз_закон=3(>≤2)"
+  ],
+  "date_published": "2026-08-05",
+  "date_modified": "2026-08-05",
+  "ready_for_review": true,
+  "ready_at": "2026-08-05T05:53:42Z",
+  "publication_target": "telegram_review"
+}

@@ -5374,6 +5374,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "kredity-za-tri-dnya-dolgi-ne-spishut-bankrotstvo",
+      "category": "news",
+      "title": "Долги за три дня перед банкротством: решение ВС",
+      "added_at": "2026-08-05T08:53:42.854505",
+      "char_count": 5402,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1785909220/articles/kredity-za-tri-dnya-dolgi-ne-spishut-bankrotstvo-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
