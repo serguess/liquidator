@@ -5387,6 +5387,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "investor-zastrojshchika-bez-dogovora-bankrotstvo",
+      "category": "news",
+      "title": "Защита инвесторов без договора при банкротстве",
+      "added_at": "2026-08-05T09:10:09.913024",
+      "char_count": 7736,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1785910203/articles/investor-zastrojshchika-bez-dogovora-bankrotstvo-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

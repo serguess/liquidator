@@ -1,0 +1,108 @@
+{
+  "slug": "investor-zastrojshchika-bez-dogovora-bankrotstvo",
+  "category": "news",
+  "title": "Защита инвесторов без договора при банкротстве",
+  "description": "Решение Верховного суда по защите инвесторов, вложивших в строительство без договора. Как действовать при банкротстве застройщика.",
+  "h1": "Верховный суд защитил инвесторов без договора при банкротстве застройщика",
+  "lead": "С июля 2026 года у инвесторов без оформленного договора появился ориентир от Верховного суда: вложение в стройку можно защитить через конкурсное производство при наличии платёжных следов.",
+  "topic_action": "защиту прав инвестора при банкротстве застройщика",
+  "breadcrumb_current": "Инвесторы без договора при банкротстве",
+  "og_image": "/assets/articles/investor-zastrojshchika-bez-dogovora-bankrotstvo.jpg",
+  "main_keyword": "инвесторы без договора при банкротстве",
+  "secondary_keywords": [
+    "верховный суд решение застройщик инвесторы",
+    "как вернуть инвестиции без договора",
+    "банкротство строительной компании инвесторы",
+    "защита кредиторов при банкротстве застройщика",
+    "практика верховного суда банкротство",
+    "инвестиции в строительство при банкротстве"
+  ],
+  "intent": "informational",
+  "funnel_stage": "cold",
+  "article_type": "B",
+  "offer": "proverka-spisaniya",
+  "event_date": "2026-07-13",
+  "news_zone": "vs_practice",
+  "internal_links": [
+    "/articles/yur/bankrotstvo-torgovoj-kompanii-prava-postavshchikov",
+    "/articles/yur/iski-konkyursnogo-upravlyayushchego-trethim-licam",
+    "/articles/yur/kak-osporit-dejstviya-arbitrazhnogo-upravlyayuschego",
+    "/articles/yur/bankrotstvo-cherez-mirovoe-soglashenie-bez-zaloga"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/",
+    "https://www.pgplaw.ru/analytics-and-brochures/bankruptcy-must-read/bankruptcy-digest-22-07-26/"
+  ],
+  "faq": [
+    {
+      "question": "Нужен ли договор, чтобы стать кредитором застройщика-банкрота?",
+      "answer": "Формальный договор подряда не обязателен. По июльской позиции ВС достаточно доказать фактическую передачу денег строительной компании и её использование на объект. Без платёжных следов задача усложняется многократно."
+    },
+    {
+      "question": "Какие документы подтверждают вложение денег в строительство без договора?",
+      "answer": "Банковские выписки, квитанции к приходным ордерам, расписки от уполномоченных лиц, переписка о платежах и объекте, акты сверки. Комбинация двух-трёх независимых доказательств работает надёжнее, чем одна расписка."
+    },
+    {
+      "question": "Сколько реально получают вкладчики из активов при банкротстве строительной компании?",
+      "answer": "Гарантированного процента нет. В большинстве дел граждане получают лишь частичное возмещение или не получают ничего - активы уходят на приоритетные требования."
+    },
+    {
+      "question": "Что делать, если конкурсный управляющий отклонил моё требование?",
+      "answer": "Возражение управляющего не финал. Спор рассматривает арбитражный суд, ведущий дело о несостоятельности. Готовьте платёжные документы, переписку и при необходимости ходатайствуйте о судебной экспертизе бухгалтерии."
+    },
+    {
+      "question": "Можно ли взыскать убытки с директора строительной фирмы, когда активов в процедуре нет?",
+      "answer": "Да, отдельным иском по гражданскому праву или через субсидиарную ответственность (ст. 61.11 127-ФЗ). Оба варианта требуют доказывания вины конкретных лиц и реальны при наличии у ответчика имущества."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "f1 и f5 (позиция ВС 13.07.2026) имеют legislation_status: needs_verification - в тексте применена safe_phrasing «По информации ВС РФ (июль 2026)» с осторожной формулировкой «может быть признано», без гарантий результата",
+    "Цифра «5-10%» из draft удалена как неверифицированная (отсутствует в research.json, указана в fact_gaps) - заменена обтекаемой формулировкой «лишь долю от вложенного, нередко незначительную»",
+    "Forbidden claims не нарушены: текст не обещает полное возмещение, не называет решение ВС автоматической защитой всех инвесторов",
+    "Ст. 61.11 применена корректно - в контексте субсидиарной ответственности контролирующих должника лиц",
+    "Ссылки на нормы 64, 134, 150, 153 127-ФЗ - legislation_status: active, last_verified: 2026-08-05"
+  ],
+  "keyword_density_main": null,
+  "main_keyword_exact_count": 2,
+  "text_chars": 7736,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.081,
+  "local_spam_ngram3_repeat": 0.02,
+  "local_lexical_diversity": 0.654,
+  "local_ai_markers_density": 0.21,
+  "local_ai_markers_critical": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1785910203/articles/investor-zastrojshchika-bez-dogovora-bankrotstvo-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1785910203/articles/investor-zastrojshchika-bez-dogovora-bankrotstvo-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Close-up architectural photograph emphasizing the texture of polished marble or carved stonework, with business accessories arranged in the foreground. Camera: tight crop, eye-level or slight low-angle. Foreground composition: closed leather portfolio, antique brass pocket watch on a chain, fountain pen aligned across the portfolio, polished round company seal. Background: marble surface and subtle shadow. Lighting: soft diffused daylight grazing the stone, revealing veining and texture. Palette: cool whites, warm cream, restrained brass. Mood: refined, institutional, the grave responsibility of investor protection without written agreement.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-08-05T06:10:04Z",
+  "length_status": "too_long",
+  "length_kind": "news",
+  "local_ai_markers_total": 2,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 2,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 47,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 90,
+  "customer_risks": [
+    "длина значительно больше лимита 5500 (7 736 знаков)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "length_too_long: 7736 > 5500 (kind=news)",
+    "targeted_tokens_over_limit: 127фз_закон=5(>≤2)",
+    "broken_internal_links: 4 ссылок без соответствия в published_index (/articles/yur/bankrotstvo-cherez-mirovoe-soglashenie-bez-zaloga: slug 'bankrotstvo-cherez-mirovoe-soglashenie-bez-zaloga' не найден в категории 'yur' (есть: нигде); /articles/yur/bankrotstvo-torgovoj-kompanii-prava-postavshchikov: slug 'bankrotstvo-torgovoj-kompanii-prava-postavshchikov' не найден в категории 'yur' (есть: нигде); /articles/yur/kak-osporit-dejstviya-arbitrazhnogo-upravlyayuschego: slug 'kak-osporit-dejstviya-arbitrazhnogo-upravlyayuschego' не найден в категории 'yur' (есть: нигде))"
+  ],
+  "date_published": "2026-08-05",
+  "date_modified": "2026-08-05",
+  "ready_for_review": true,
+  "ready_at": "2026-08-05T06:10:09Z",
+  "publication_target": "telegram_review"
+}

@@ -33081,5 +33081,56 @@
     "timestamp": "2026-08-05T05:12:04",
     "status": "preflight_failed",
     "reason": "rate_limit: You've hit your limit · resets 5:40am (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-08-05T08:30:21",
+    "category": "news",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "mode": "new",
+    "topic_id": "news-131",
+    "topic_slug": "kredity-za-tri-dnya-dolgi-ne-spishut-bankrotstvo",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "forced_pass_at_iter2: блокеры пропущены, статья идёт в TG-очередь с metrics_warning=true. Было: 1 блокеров — targeted_tokens_over_limit"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "finalize_safety_net": {
+      "ran": true,
+      "rc": 0
+    },
+    "status": "ok",
+    "slug": "kredity-za-tri-dnya-dolgi-ne-spishut-bankrotstvo",
+    "duration_sec": 1401.3,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "0070\n6-seo-editor        sonnet            6      14    59884     25156     59904\n7-publisher         haiku            20       4    39166     25520     39190\n------------------------------------------------------------------------------------------\nИТОГО                               136      74   565230    293392    565440\nBillable-токенов на статью: ~565K (cache_read 293K не считается в лимит подписки).\nАртефакты: drafts/kredity-za-tri-dnya-dolgi-ne-spishut-bankrotstvo/  | quality_gate exit=0",
+    "stderr_tail": "",
+    "tokens_by_model": {},
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 5402
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]
