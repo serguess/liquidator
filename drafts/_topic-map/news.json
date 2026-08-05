@@ -2704,7 +2704,11 @@
       "topic_action": "проверить риск оспаривания сделок с жильём",
       "event_date": "2026-07-01",
       "news_zone": "vs_practice",
-      "primary_source": "https://rapsinews.ru/judicial_news/20260701/311996333.html"
+      "primary_source": "https://rapsinews.ru/judicial_news/20260701/311996333.html",
+      "status": "rejected",
+      "rejected_at": "2026-08-05T04:00:01",
+      "rejected_reason": "event_too_old:35d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-84",
@@ -2734,7 +2738,11 @@
       "topic_action": "проверить риск оспаривания сделки с имуществом",
       "event_date": "2026-07-01",
       "news_zone": "vs_practice",
-      "primary_source": "https://rapsinews.ru/judicial_news/20260701/311995777.html"
+      "primary_source": "https://rapsinews.ru/judicial_news/20260701/311995777.html",
+      "status": "rejected",
+      "rejected_at": "2026-08-05T04:00:01",
+      "rejected_reason": "event_too_old:35d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-85",
@@ -2794,7 +2802,11 @@
       "topic_action": "консультацию по включению расходов в реестр",
       "event_date": "2026-06-29",
       "news_zone": "vs_practice",
-      "primary_source": "https://rapsinews.ru/judicial_analyst/20260629/311985239.html"
+      "primary_source": "https://rapsinews.ru/judicial_analyst/20260629/311985239.html",
+      "status": "rejected",
+      "rejected_at": "2026-08-05T04:00:01",
+      "rejected_reason": "event_too_old:37d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-87",
@@ -2824,7 +2836,11 @@
       "topic_action": "консультацию по антикоррупционным рискам при банкротстве",
       "event_date": "2026-07-02",
       "news_zone": "vs_practice",
-      "primary_source": "https://rapsinews.ru/judicial_news/20260702/311997489.html"
+      "primary_source": "https://rapsinews.ru/judicial_news/20260702/311997489.html",
+      "status": "rejected",
+      "rejected_at": "2026-08-05T04:00:01",
+      "rejected_reason": "event_too_old:34d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-88",
@@ -2854,7 +2870,11 @@
       "topic_action": "консультацию по субсидиарной ответственности руководителя",
       "event_date": "2026-07-03",
       "news_zone": "vs_practice",
-      "primary_source": "https://rapsinews.ru/judicial_news/20260703/312006816.html"
+      "primary_source": "https://rapsinews.ru/judicial_news/20260703/312006816.html",
+      "status": "rejected",
+      "rejected_at": "2026-08-05T04:00:01",
+      "rejected_reason": "event_too_old:33d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-89",
@@ -3050,7 +3070,11 @@
       "topic_action": "проверку сделки с недвижимостью",
       "event_date": "2026-07-01",
       "news_zone": "vs_practice",
-      "primary_source": "https://rapsinews.ru/judicial_analyst/20260701/311997211.html"
+      "primary_source": "https://rapsinews.ru/judicial_analyst/20260701/311997211.html",
+      "status": "rejected",
+      "rejected_at": "2026-08-05T04:00:01",
+      "rejected_reason": "event_too_old:35d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-95",
@@ -3144,7 +3168,11 @@
       "topic_action": "проверку кредитной истории и защиту от долгов",
       "event_date": "2026-07-01",
       "news_zone": "legislation",
-      "primary_source": "https://www.consultant.ru/legalnews/31848/"
+      "primary_source": "https://www.consultant.ru/legalnews/31848/",
+      "status": "rejected",
+      "rejected_at": "2026-08-05T04:00:01",
+      "rejected_reason": "event_too_old:35d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-98",
@@ -3396,7 +3424,11 @@
       "news_zone": "vs_practice",
       "primary_source": "https://vsrf.ru/press_center/news/36065/",
       "title_length": 63,
-      "description_length": 213
+      "description_length": 213,
+      "status": "rejected",
+      "rejected_at": "2026-08-05T04:00:01",
+      "rejected_reason": "event_too_old:36d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-106",
@@ -3516,7 +3548,11 @@
       "news_zone": "finance",
       "primary_source": "https://cbr.ru/press/event/?id=21089",
       "title_length": 53,
-      "description_length": 199
+      "description_length": 199,
+      "status": "rejected",
+      "rejected_at": "2026-08-05T04:00:01",
+      "rejected_reason": "event_too_old:32d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-110",
@@ -3974,7 +4010,11 @@
       "topic_action": "реструктуризацию долгов при отказе в рефинансировании",
       "event_date": "2026-07-01",
       "news_zone": "finance",
-      "primary_source": "https://cbr.ru/press/pr/"
+      "primary_source": "https://cbr.ru/press/pr/",
+      "status": "rejected",
+      "rejected_at": "2026-08-05T04:00:01",
+      "rejected_reason": "event_too_old:35d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-125",
@@ -4158,7 +4198,11 @@
       "topic_action": "консультацию по актуальной практике банкротства",
       "event_date": "2026-07-01",
       "news_zone": "vs_plenum",
-      "primary_source": "https://vsrf.ru/documents/own/"
+      "primary_source": "https://vsrf.ru/documents/own/",
+      "status": "rejected",
+      "rejected_at": "2026-08-05T04:00:01",
+      "rejected_reason": "event_too_old:35d",
+      "rejected_by": "news_sanitizer"
     }
   ]
 }
