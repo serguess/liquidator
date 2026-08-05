@@ -10162,15 +10162,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 2296,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-08-04T01:09:36",
-      "last_action_at": "2026-08-04T01:09:36",
+      "last_action_at": "2026-08-04T10:00:16",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-08-04T01:09:36"
+      "pending_batch": false,
+      "pending_batch_at": "2026-08-04T01:09:36",
+      "batch_sent_at": "2026-08-04T10:00:16",
+      "batch_fail_count": 0
     },
     "vzyskanie-ubytkov-s-konkursnogo-upravlyayushchego": {
       "category": "yur",
@@ -10180,15 +10182,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 2298,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-08-04T05:55:17",
-      "last_action_at": "2026-08-04T05:55:17",
+      "last_action_at": "2026-08-04T10:00:19",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-08-04T05:55:17"
+      "pending_batch": false,
+      "pending_batch_at": "2026-08-04T05:55:17",
+      "batch_sent_at": "2026-08-04T10:00:19",
+      "batch_fail_count": 0
     },
     "nbki-prosrochka-ipoteka-rost-vtoroy-kvartal": {
       "category": "news",
@@ -10198,19 +10202,111 @@
       "versions": [
         "2.0"
       ],
+      "tg_message_id": 2300,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-08-04T09:07:19",
+      "last_action_at": "2026-08-04T10:00:21",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-08-04T09:07:19",
+      "batch_sent_at": "2026-08-04T10:00:21",
+      "batch_fail_count": 0
+    },
+    "kak-uskorit-bankrotstvo-fizlica": {
+      "category": "fiz",
+      "title": "Как ускорить банкротство физлица: способы и сроки",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
       "tg_message_id": null,
       "tg_chat_id": null,
-      "first_seen_at": "2026-08-04T09:07:19",
-      "last_action_at": "2026-08-04T09:07:19",
+      "first_seen_at": "2026-08-04T15:22:23",
+      "last_action_at": "2026-08-04T15:22:23",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
       "pending_batch": true,
-      "pending_batch_at": "2026-08-04T09:07:19"
+      "pending_batch_at": "2026-08-04T15:22:23"
+    },
+    "bankrotstvo-torgovoj-kompanii-prava-postavshchikov": {
+      "category": "yur",
+      "title": "Защита прав поставщика при банкротстве компании",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-08-04T19:57:26",
+      "last_action_at": "2026-08-04T19:57:26",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-08-04T19:57:26"
+    },
+    "mfo-podala-v-sud-chto-delat": {
+      "category": "vzysk",
+      "title": "МФО подала в суд: действия должника при иске",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-08-05T00:49:29",
+      "last_action_at": "2026-08-05T00:49:29",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-08-05T00:49:29"
+    },
+    "kredity-za-tri-dnya-dolgi-ne-spishut-bankrotstvo": {
+      "category": "news",
+      "title": "Долги за три дня перед банкротством: решение ВС",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-08-05T08:54:08",
+      "last_action_at": "2026-08-05T08:54:08",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-08-05T08:54:08"
+    },
+    "investor-zastrojshchika-bez-dogovora-bankrotstvo": {
+      "category": "news",
+      "title": "Защита инвесторов без договора при банкротстве",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-08-05T09:11:08",
+      "last_action_at": "2026-08-05T09:11:08",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-08-05T09:11:08"
     }
   },
   "pending_actions": [],
-  "last_batch_date": "2026-08-03",
-  "last_batch_count": 0,
-  "last_batch_at": "2026-08-03T10:00:24"
+  "last_batch_date": "2026-08-04",
+  "last_batch_count": 3,
+  "last_batch_at": "2026-08-04T10:00:21"
 }
