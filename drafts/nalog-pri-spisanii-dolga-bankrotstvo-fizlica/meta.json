@@ -1,0 +1,104 @@
+{
+  "slug": "nalog-pri-spisanii-dolga-bankrotstvo-fizlica",
+  "category": "fiz",
+  "title": "Налоговые последствия банкротства: НДФЛ при списании долга",
+  "description": "Нужно ли платить налог при банкротстве физлица, если долги списаны. Налоговые правила, льготы и что грозит за неуплату НДФЛ.",
+  "h1": "Налог при банкротстве физлица: платить ли НДФЛ со списанного долга",
+  "lead": "На практике всё иначе: по итогам судебного дела должник ничего в бюджет не платит - это прямая льгота Кодекса. Но у правила есть границы, а недоимка перед самой ФНС в них не попадает.",
+  "topic_action": "консультацию по налогам при банкротстве",
+  "breadcrumb_current": "НДФЛ при банкротстве физлица",
+  "og_image": "/assets/articles/nalog-pri-spisanii-dolga-bankrotstvo-fizlica.jpg",
+  "main_keyword": "налог при банкротстве физлица",
+  "secondary_keywords": [
+    "НДФЛ при списании долга",
+    "налоговые последствия банкротства",
+    "налог на прощенный долг физическому лицу",
+    "облагается ли списанный долг НДФЛ",
+    "налоговые льготы при банкротстве",
+    "кто платит налог на списанный долг",
+    "налог перед налоговой при банкротстве"
+  ],
+  "internal_links": [
+    "/articles/fiz/alimenty-pri-bankrotstve-fizlica"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_9019/",
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/"
+  ],
+  "faq": [
+    {
+      "question": "Нужно ли подавать декларацию после завершения дела?",
+      "answer": "Специальная декларация по факту списания не подаётся. Обычные декларации по НДФЛ - например, при продаже имущества - сдаются в общем порядке."
+    },
+    {
+      "question": "Что будет с долгом перед ФНС после закрытия дела?",
+      "answer": "Он остаётся. Закон о несостоятельности относит требования инспекции к несписываемым. Взыскание может продолжить пристав через исполнительное производство."
+    },
+    {
+      "question": "Распространяется ли льгота 217-й статьи НК на займ в МФО?",
+      "answer": "Норма говорит про кредитную организацию - банк с лицензией. Микрофинансовая компания под это определение не подпадает. Внутри банкротного дела вопрос закрывает определение арбитража. Вне разбирательства - лучше уточнить позицию инспекции."
+    },
+    {
+      "question": "Может ли ФНС начать проверку в период банкротного дела?",
+      "answer": "Да, полномочие даёт статья 86 НК. Управляющий обязан содействовать. Возможные доначисления по итогам списанию не подлежат."
+    },
+    {
+      "question": "Сколько составит НДФЛ, если льгота Кодекса всё же не применяется?",
+      "answer": "При прощении хвоста сверх миллионного порога вне суда ставка - 35% на превышение. При судебном банкротстве такой ситуации не возникает."
+    },
+    {
+      "question": "Когда банк обязан уведомить инспекцию о прощении долга физлицу?",
+      "answer": "Кредитная организация направляет сведения о прекращённых требованиях при подаче собственной отчётности. Гражданин самостоятельно уведомления не подаёт."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все факты сверены с research.json. Все ключевые утверждения: last_verified 2026-08-05, legislation_status active.",
+    "Льгота ст. 217 п. 5 НК: порог 1 млн руб. по основному долгу без процентов и штрафов - верифицирован (f1, f5).",
+    "Несписываемость налоговых долгов ФНС: ст. 213.28 п. 6 127-ФЗ - верифицирован (f3).",
+    "Текущие платежи приоритетнее реестровых кредиторов: ст. 5 п. 1, ст. 213.27 п. 1 127-ФЗ - верифицирован (f4).",
+    "Право ФНС на проверку в период банкротства: ст. 86 НК РФ - верифицирован (f8).",
+    "f6 (МФО и льгота) имеет статус needs_verification - использована консервативная safe_phrasing: требует консультации с ФНС. Формулировка в тексте и FAQ смягчена относительно черновика.",
+    "Ставка 35% при прощении сверх порога вне суда - верифицирована (f5). При судебном банкротстве налоговое событие не возникает - отражено корректно.",
+    "Налоговый вычет кредитора (ст. 265-266 НК) - верифицирован (f2). Контекст корректен: это расход кредитора, не должника.",
+    "Дефисная сцепка «кредитор-компания» из черновика исправлена на «компания, списавшая...» по правилу расцепки субъектов.",
+    "Внутренняя ссылка alimenty-pri-bankrotstve-fizlica: убрано расширение .html, формат приведён к /articles/fiz/{slug}."
+  ],
+  "keyword_density_main": 0.017,
+  "main_keyword_exact_count": 2,
+  "text_chars": 7624,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.12,
+  "local_spam_ngram3_repeat": 0.03,
+  "local_lexical_diversity": 0.584,
+  "local_ai_markers_density": 0.31,
+  "local_ai_markers_critical": 0,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1785965444/articles/nalog-pri-spisanii-dolga-bankrotstvo-fizlica-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1785965444/articles/nalog-pri-spisanii-dolga-bankrotstvo-fizlica-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Close-up cinematic photograph of tax and legal implements arranged on a dark walnut surface. Hero objects: brass scales of justice with empty pans symbolizing balanced tax obligations, a stack of closed dossiers tied with cord representing tax documentation and declarations, a sand-filled brass hourglass mid-flow indicating calculation periods and deadlines, a polished round seal suggesting certified tax decision, closed law books with embossed gilt spines depicting tax legislation. Camera: tabletop level, three-quarter angle. Lighting: soft directional sidelight casting elegant shadows. Materials: brass, dark walnut, weathered leather. Atmosphere of careful financial calculation and tax obligation settlement.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-08-05T21:30:45Z",
+  "length_status": "too_long",
+  "length_kind": "default",
+  "local_ai_markers_total": 3,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 2,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 60,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность заметно выше 50% (~60%)",
+    "длина значительно больше лимита 6500 (7 624 знаков)"
+  ],
+  "date_published": "2026-08-06",
+  "date_modified": "2026-08-06",
+  "ready_for_review": true,
+  "ready_at": "2026-08-05T21:30:48Z",
+  "publication_target": "telegram_review"
+}

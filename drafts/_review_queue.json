@@ -5400,6 +5400,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "nalog-pri-spisanii-dolga-bankrotstvo-fizlica",
+      "category": "fiz",
+      "title": "Налоговые последствия банкротства: НДФЛ при списании долга",
+      "added_at": "2026-08-06T00:30:48.854749",
+      "char_count": 7624,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1785965444/articles/nalog-pri-spisanii-dolga-bankrotstvo-fizlica-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
