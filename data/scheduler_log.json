@@ -33529,5 +33529,68 @@
     "timestamp": "2026-08-06T10:00:12",
     "status": "preflight_failed",
     "reason": "rate_limit: You've hit your limit · resets 10:20am (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-08-06T14:48:09",
+    "category": "fiz",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 8,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "fiz-177",
+    "topic_slug": "bankrotstvo-fizlica-nuzno-li-uvedomit-rabotodatelya",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "length_soft_passed: 8405 > 6500 но ≤ 8500 и iteration=2 — пропускаем (приоритет spam/uniqueness/ai)",
+        "spam_soft_passed: ratio-флаги мягкие при iter=2, targeted_tokens чистые → пропускаем (spam ≈48-52% по прогнозу)",
+        "forced_pass_at_iter2: блокеры пропущены, статья идёт в TG-очередь с metrics_warning=true. Было: 1 блокеров — broken_internal_links"
+      ],
+      "recommendations": [
+        "fix_internal_links: заменить href на канонический /articles/{cat}/{slug} из published_index.json (см. .claude/style/editor-cheatsheet.md секция 6)"
+      ],
+      "stderr_tail": ""
+    },
+    "finalize_safety_net": {
+      "ran": true,
+      "rc": 0
+    },
+    "status": "ok",
+    "slug": "bankrotstvo-fizlica-nuzno-li-uvedomit-rabotodatelya",
+    "duration_sec": 1348.8,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "\n6-seo-editor        sonnet            6      14    91566         0     91586\n7-publisher         haiku            36      12    54316     90202     54364\n------------------------------------------------------------------------------------------\nИТОГО                               246     118   673991   1019821    674355\nBillable-токенов на статью: ~674K (cache_read 1019K не считается в лимит подписки).\nАртефакты: drafts/bankrotstvo-fizlica-nuzno-li-uvedomit-rabotodatelya/  | quality_gate exit=0",
+    "stderr_tail": "",
+    "tokens_by_model": {},
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 8405
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]
