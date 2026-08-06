@@ -10313,6 +10313,60 @@
       "pending_batch_at": "2026-08-05T09:11:08",
       "batch_sent_at": "2026-08-05T10:00:14",
       "batch_fail_count": 0
+    },
+    "nalog-pri-spisanii-dolga-bankrotstvo-fizlica": {
+      "category": "fiz",
+      "title": "Налоговые последствия банкротства: НДФЛ при списании долга",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-08-06T00:31:17",
+      "last_action_at": "2026-08-06T00:31:17",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-08-06T00:31:17"
+    },
+    "bankrotstvo-kompanii-inostrannyj-uchreditel": {
+      "category": "yur",
+      "title": "Банкротство ООО с иностранным учредителем: особенности",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-08-06T05:31:24",
+      "last_action_at": "2026-08-06T05:31:24",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-08-06T05:31:25"
+    },
+    "kollektory-rekord-cena-bankovskikh-dolgov": {
+      "category": "news",
+      "title": "Рекорд цен на долги: что ждёт должников",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-08-06T08:54:26",
+      "last_action_at": "2026-08-06T08:54:26",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-08-06T08:54:26"
     }
   },
   "pending_actions": [],
