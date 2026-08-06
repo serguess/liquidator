@@ -1,0 +1,108 @@
+{
+  "slug": "kollektory-rekord-cena-bankovskikh-dolgov",
+  "category": "news",
+  "title": "Рекорд цен на долги: что ждёт должников",
+  "description": "Цены на просроченные банковские долги достигли максимума. Что это означает для должников, как влияет на коллекторские действия и какие риски возникают.",
+  "h1": "Рекорд цен на просроченные долги: что ждёт должников и коллекторов",
+  "lead": "Цены на портфели просроченных требований обновили рекорд - разбираем, что это значит для заёмщика и как вести себя, если долг уже перешёл к коллектору.",
+  "topic_action": "защиту от коллекторов",
+  "breadcrumb_current": "Рекорд цен на просроченные долги",
+  "og_image": "/assets/articles/kollektory-rekord-cena-bankovskikh-dolgov.jpg",
+  "main_keyword": "рекорд цены банковских долгов",
+  "secondary_keywords": [
+    "стоимость просроченных долгов",
+    "цена долгов на торгах",
+    "коллекторские агентства рынок",
+    "вторичный рынок банковских долгов",
+    "банковские активы продажа",
+    "что такое просроченный долг"
+  ],
+  "intent": "informational",
+  "funnel_stage": "cold",
+  "article_type": "B",
+  "offer": "proverka-spisaniya",
+  "event_date": "2026-08-05",
+  "news_zone": "finance",
+  "internal_links": [
+    "/articles/vzysk/arest-zarplaty-pristavami-bankrotstvo"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_5142/",
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/"
+  ],
+  "faq": [
+    {
+      "question": "Могут ли взыскатели звонить чаще, если купили долг дороже?",
+      "answer": "Нет. Один разговор в трое суток, только в будни с девяти до двадцати одного. Цена сделки на график не влияет."
+    },
+    {
+      "question": "Обязан ли банк предупредить меня о продаже долга?",
+      "answer": "Уведомить - да, спрашивать согласия - нет. Правило статьи 382 ГК РФ допускает уступку без разрешения заёмщика. До момента извещения человек вправе платить прежнему кредитору."
+    },
+    {
+      "question": "До какого предела удерживают из зарплаты?",
+      "answer": "Не более половины дохода после НДФЛ по обычным потребительским обязательствам. Планка семьдесят процентов - только для алиментов детям, вреда здоровью, потери кормильца, ущерба от преступления."
+    },
+    {
+      "question": "Куда жаловаться, если агентство угрожает или звонит ночью?",
+      "answer": "В Банк России и в прокуратуру. Обе процедуры бесплатны. К обращению прикладываются записи разговоров, детализация звонков и переписка."
+    },
+    {
+      "question": "Спасёт ли банкротство от активного взыскания?",
+      "answer": "Приостановит исполнительные производства сразу после введения процедуры. Само требование переходит в реестр кредиторов и гасится из конкурсной массы. Полное списание возможно по итогу дела, но не в первый день."
+    },
+    {
+      "question": "Что будет, если организация не числится в реестре?",
+      "answer": "Взыскивать долги как профессиональный участник рынка ей запрещено. Любые действия по возврату - основание для жалобы в надзор и правоохранительные органы. Платить такой конторе не нужно."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "f9 (динамика цен на вторичном рынке) имеет legislation_status: needs_verification - использована safe_phrasing без конкретных цифр рынка",
+    "Ссылка на АПК РФ ст. 229.2 некорректна для долгов физлиц (применяется ГПК, СОЮ) - откатил к safe_phrasing из f10: описание без указания кодекса",
+    "Формулировка «267-я редакция» (ФЗ-267 как «профильный закон») исправлена: назван ФЗ-405 с поправками 2019 года - точное разграничение основного закона и поправок",
+    "Блок «Шаг 1/2/3» переименован в содержательные H3 без нумерации (запрещённый паттерн «Шаги»)",
+    "Внутренняя ссылка arest-zarplaty-pristavami-bankrotstvo приведена без .html в формате /articles/vzysk/{slug}",
+    "Запрещённые утверждения из forbidden_claims отсутствуют в тексте"
+  ],
+  "keyword_density_main": null,
+  "main_keyword_exact_count": null,
+  "text_chars": 6504,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.092,
+  "local_spam_ngram3_repeat": 0.016,
+  "local_lexical_diversity": 0.658,
+  "local_ai_markers_density": 0.36,
+  "local_ai_markers_critical": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1785995636/articles/kollektory-rekord-cena-bankovskikh-dolgov-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1785995636/articles/kollektory-rekord-cena-bankovskikh-dolgov-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Wide editorial photograph of a private executive office — high ceilings, tall windows with heavy drapes, walnut bookshelves lining the walls, an oxblood leather chesterfield, a large mahogany desk in the foreground holding a closed laptop, leather portfolio, brass desk lamp, fountain pen on a stand, antique pocket watch, and white porcelain cup. Background through windows: city skyline in fog, golden hour glow, or blue evening light suggesting market close. Camera: three-quarter angle, slight low-angle to emphasize ceiling. Lighting: cool window light blended with warm tungsten desk lamp, casting analytical shadows. Materials: walnut, oxblood leather, brass. Mood: senior analyst tracking market shifts, contemplating rising debt valuations.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-08-06T05:53:57Z",
+  "length_status": "too_long",
+  "length_kind": "news",
+  "local_ai_markers_total": 3,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 3,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 47,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 90,
+  "customer_risks": [
+    "длина значительно больше лимита 5500 (6 504 знаков)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "broken_internal_links: 1 ссылок без соответствия в published_index (/articles/vzysk/arest-zarplaty-pristavami-bankrotstvo: slug 'arest-zarplaty-pristavami-bankrotstvo' не найден в категории 'vzysk' (есть: fiz))"
+  ],
+  "date_published": "2026-08-06",
+  "date_modified": "2026-08-06",
+  "ready_for_review": true,
+  "ready_at": "2026-08-06T05:54:02Z",
+  "publication_target": "telegram_review"
+}
