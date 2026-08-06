@@ -5465,6 +5465,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "vzyskanie-dolga-s-marketplejsa",
+      "category": "vzysk",
+      "title": "Взыскание долга с маркетплейса: Wildberries, Ozon",
+      "added_at": "2026-08-07T01:03:04.147035",
+      "char_count": 9746,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1786053781/articles/vzyskanie-dolga-s-marketplejsa-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

@@ -33592,5 +33592,69 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-08-06T19:36:10",
+    "category": "yur",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 9,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "yur-161",
+    "topic_slug": "kredity-kompanii-pri-bankrotstve-chto-proishodit",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "spam_soft_passed: ratio-флаги мягкие при iter=2, targeted_tokens чистые → пропускаем (spam ≈48-52% по прогнозу)",
+        "forced_pass_at_iter2: блокеры пропущены, статья идёт в TG-очередь с metrics_warning=true. Было: 3 блокеров — length_too_long; first_person_singular; broken_internal_links"
+      ],
+      "recommendations": [
+        "reduce_length: сократить до 5000-6000 знаков",
+        "fix_voice: заменить «я» на «мы» (по нашему опыту, мы видим)",
+        "fix_internal_links: заменить href на канонический /articles/{cat}/{slug} из published_index.json (см. .claude/style/editor-cheatsheet.md секция 6)"
+      ],
+      "stderr_tail": ""
+    },
+    "finalize_safety_net": {
+      "ran": true,
+      "rc": 0
+    },
+    "status": "ok",
+    "slug": "kredity-kompanii-pri-bankrotstve-chto-proishodit",
+    "duration_sec": 2161.8,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "7965\n6-seo-editor        sonnet            6      14        0     97162        20\n7-publisher         haiku            20       8    36048     39548     36076\n------------------------------------------------------------------------------------------\nИТОГО                               170      86   544647    726240    544903\nBillable-токенов на статью: ~544K (cache_read 726K не считается в лимит подписки).\nАртефакты: drafts/kredity-kompanii-pri-bankrotstve-chto-proishodit/  | quality_gate exit=0",
+    "stderr_tail": "",
+    "tokens_by_model": {},
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 9385
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]

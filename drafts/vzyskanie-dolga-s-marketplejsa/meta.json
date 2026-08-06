@@ -1,0 +1,115 @@
+{
+  "slug": "vzyskanie-dolga-s-marketplejsa",
+  "category": "vzysk",
+  "title": "Взыскание долга с маркетплейса: Wildberries, Ozon",
+  "description": "Как взыскать долг с маркетплейса: способы взыскания денег через суд, судебный приказ, претензия продавцу. Процедура на примере Wildberries и Ozon.",
+  "h1": "Взыскание долга с маркетплейса: способы взыскания у Wildberries и Ozon",
+  "lead": "Выручка за прошлую неделю не пришла на расчётный счёт. Оператор поддержки отвечает шаблонами про «внутреннюю проверку». Или наоборот: покупатель отменил заказ, а деньги зависли где-то в личном кабинете. Знакомая история для тех, кто торгует на Wildberries и Ozon либо просто заказал у них дорогой товар. Спор с крупной торговой площадкой пугает, но по сути это обычный конфликт с юридическим лицом, который решается претензией и обращением в арбитраж.",
+  "topic_action": "взыскание долга с маркетплейса",
+  "breadcrumb_current": "Взыскание долга с маркетплейса",
+  "og_image": "/assets/articles/vzyskanie-dolga-s-marketplejsa.jpg",
+  "main_keyword": "взыскание долга с маркетплейса",
+  "secondary_keywords": [
+    "как взыскать деньги с Wildberries",
+    "взыскание задолженности на Ozon",
+    "судебный приказ к маркетплейсу",
+    "претензия продавцу маркетплейса",
+    "возврат денег от маркетплейса через суд",
+    "взыскание неполученного товара",
+    "процедура взыскания в маркетплейсе",
+    "защита прав покупателя"
+  ],
+  "internal_links": [
+    "/articles/vzysk/sudebnyj-prikas-kak-podat-zayavlenie",
+    "/articles/vzysk/ispolnitelnoe-proizvodstvo-protiv-ooo",
+    "/articles/fiz/zaschita-prav-pokupatelya-v-magazine",
+    "/articles/vzysk/apelciya-na-reshenie-arbitrazhnogo-suda"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39570/",
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/",
+    "https://www.consultant.ru/document/cons_doc_LAW_118-FZ/"
+  ],
+  "faq": [
+    {
+      "question": "Можно ли взыскать деньги с Wildberries без обращения в суд?",
+      "answer": "Да, если платформа согласится удовлетворить претензию добровольно. Направьте письменное требование ценным письмом с описью на юридический адрес компании, укажите сумму, основание и разумный срок ответа. При отказе или молчании идёте в арбитраж."
+    },
+    {
+      "question": "До какой суммы работает судебный приказ к маркетплейсу?",
+      "answer": "До пятисот тысяч рублей включительно - таков лимит приказного производства в арбитраже (ст. 229.2 АПК). Требование должно быть денежным и бесспорным. При возражении должника документ отменяется, спор рассматривается в исковом порядке."
+    },
+    {
+      "question": "Что произойдёт, если Ozon не исполнит решение суда добровольно?",
+      "answer": "Получаете исполнительный лист и передаёте его в подразделение ФССП. Пристав даёт должнику пять рабочих суток на добровольную оплату, затем начисляет исполнительский сбор семь процентов (минимум десять тысяч рублей для юрлица) и применяет принудительные меры: арест счетов, обращение взыскания на имущество."
+    },
+    {
+      "question": "Обязательно ли нанимать адвоката для взыскания задолженности с платформы?",
+      "answer": "Формально нет - представлять свои интересы в арбитраже можно самостоятельно. Практически по спорам с крупными агрегаторами лучше привлечь юриста: их юротделы отработали типовые возражения, и одна пропущенная процессуальная тонкость может стоить исхода."
+    },
+    {
+      "question": "Какие документы подтвердят долг маркетплейса перед продавцом?",
+      "answer": "Договор оферты, отчёты о продажах и удержаниях, акты сверки взаиморасчётов, банковские выписки о поступлениях, переписка со службой поддержки, скриншоты из внутренней системы площадки."
+    },
+    {
+      "question": "Сколько в среднем занимает полное взыскание через арбитражный суд?",
+      "answer": "От трёх до пяти месяцев при беспроблемном сценарии. При апелляции и кассации срок растягивается до года и больше."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все основные факты сверены с research.json",
+    "Пятисоттысячный лимит судебного приказа (ст. 229.2 АПК) подтверждён в f1",
+    "Претензионный порядок и его значение подтверждены в f2",
+    "Маркетплейс как надлежащий ответчик подтверждён в f3",
+    "Подсудность: Москва для Wildberries и Ozon подтверждена в f4",
+    "Исполнительское производство и 5-дневный срок подтверждены в f5",
+    "Исполнительский сбор 7% (минимум 10 тыс. для юрлица) подтверждён в f6",
+    "Сроки судебного разбирательства подтверждены в f8",
+    "Упрощённое производство при сумме до 100 тыс. подтверждено в f9",
+    "Апелляция 30 дней, кассация 60 дней подтверждены в f10",
+    "Проценты и неустойка подтверждены в f11",
+    "Судебные расходы подтверждены в f12"
+  ],
+  "keyword_density_main": 0.022,
+  "main_keyword_exact_count": 2,
+  "text_chars": 9746,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.087,
+  "local_spam_ngram3_repeat": 0.025,
+  "local_lexical_diversity": 0.615,
+  "local_ai_markers_density": 0.42,
+  "local_ai_markers_critical": 0,
+  "local_ai_markers_total": 5,
+  "local_ai_markers_high": 2,
+  "local_own_voice_hits": 3,
+  "local_first_person_singular_hits": 0,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1786053781/articles/vzyskanie-dolga-s-marketplejsa-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1786053781/articles/vzyskanie-dolga-s-marketplejsa-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Wide-angle photograph of a grand symmetric interior — a marble-floored courthouse central hall with strong architectural lines leading into the frame. Dead-center composition: a long polished walnut table holding a sealed bound court judgment document, a closed dark leather portfolio, a polished round brass company seal, a stack of filed dossiers tied with cord, and an antique brass balance scale. Background: tall marble columns and soaring architecture, cool daylight from skylights illuminating the institutional space. Camera: dead-center symmetric, eye-level, slight wide-angle perspective. Lighting: cool natural daylight from skylights and high windows creating even noble illumination. Palette: cool whites, polished brass, deep walnut on marble, neutral stone. Mood: institutional authority, legal enforcement, marketplace accountability.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-08-06T22:03:02Z",
+  "length_status": "too_long",
+  "length_kind": "default",
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 53,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность чуть выше 50% (~53%)",
+    "длина значительно больше лимита 6500 (9 746 знаков)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "length_too_long: 9746 > 6500 (kind=default)"
+  ],
+  "date_published": "2026-08-07",
+  "date_modified": "2026-08-07",
+  "ready_for_review": true,
+  "ready_at": "2026-08-06T22:03:04Z",
+  "publication_target": "telegram_review"
+}
