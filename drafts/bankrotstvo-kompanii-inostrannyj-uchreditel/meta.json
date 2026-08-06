@@ -1,0 +1,111 @@
+{
+  "slug": "bankrotstvo-kompanii-inostrannyj-uchreditel",
+  "category": "yur",
+  "title": "Банкротство ООО с иностранным учредителем: особенности",
+  "description": "Как проходит банкротство ООО с иностранным учредителем, правовые особенности, уведомление иностранца, налоги с ликвидационной выплаты и валютный контроль.",
+  "h1": "Банкротство ООО с иностранным учредителем: процедура и особенности",
+  "lead": "Разбираем три особенности, которые возникают при иностранном учредителе в российской процедуре: уведомление за рубежом, налог с ликвидационной выплаты и валютный контроль при репатриации.",
+  "topic_action": "сопровождение банкротства ООО с иностранным учредителем",
+  "breadcrumb_current": "Банкротство с иностранным учредителем",
+  "og_image": "/assets/articles/bankrotstvo-kompanii-inostrannyj-uchreditel.jpg",
+  "main_keyword": "банкротство компании с иностранным учредителем",
+  "secondary_keywords": [
+    "банкротство ООО с иностранным владельцем",
+    "иностранный учредитель и банкротство",
+    "банкротство компании иностранца",
+    "ООО иностранного гражданина банкротство",
+    "особенности банкротства при иностранном инвесторе",
+    "уведомление иностранца о банкротстве ООО",
+    "налоги при банкротстве компании иностранца",
+    "иностранный инвестор и ликвидация ООО",
+    "банкротство ООО с иностранным бенефициаром",
+    "трансграничное банкротство компании"
+  ],
+  "internal_links": [],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/",
+    "https://www.nalog.gov.ru/rn77/related_activities/sofio_new/"
+  ],
+  "faq": [
+    {
+      "question": "Применяется ли российский закон, если единственный владелец фирмы - иностранец?",
+      "answer": "Да, полностью. Российское юрлицо подчиняется 127-ФЗ независимо от национальности своих участников. Определяющий признак - место регистрации бизнеса в России, а не паспорт бенефициара (ст. 1 п. 1 127-ФЗ)."
+    },
+    {
+      "question": "Что будет с выплатой, если нерезидент не подал справку о налоговом резидентстве?",
+      "answer": "Удержат базовые 15 процентов по ст. 310 НК. Пониженный процент по соглашению об избежании двойного налогообложения не применяется задним числом - справка нужна до перечисления средств."
+    },
+    {
+      "question": "Обязательно ли извещать иностранного совладельца об открытии дела о банкротстве?",
+      "answer": "Обязательно. Извещение идёт по адресу в ЕГРЮЛ, а если такого адреса нет - заказной почтой с уведомлением или через консульские каналы по ст. 22 АПК. Без надлежащего оповещения определения по делу можно оспорить."
+    },
+    {
+      "question": "Сколько времени займёт процедура до перечисления остатков нерезиденту?",
+      "answer": "Конкурсная фаза идёт до года по ст. 138 закона о несостоятельности. Распределение оставшихся активов добавляет обычно ещё несколько месяцев. Итоговый срок зависит от количества заявителей требований, сложности имущества и наличия споров."
+    },
+    {
+      "question": "Можно ли избежать двойного налога при ликвидации, если совладелец из Германии или Китая?",
+      "answer": "С обеими странами соглашение об избежании двойного налогообложения работает. Пониженный процент по нему применяется, если до перечисления инвестор передаёт агенту справку о резидентстве от местной фискальной службы. Актуальные ставки - на nalog.gov.ru."
+    },
+    {
+      "question": "Можно ли перевести ликвидационную выплату сразу на зарубежный счёт?",
+      "answer": "Технически да, но операция проходит контроль по 173-му закону. Банк потребует решение ликвидационной комиссии, свидетельство об участии, подтверждение источника средств. С марта 2022 года действуют дополнительные ограничения по операциям нерезидентов - согласовывать перевод нужно с обслуживающим банком заранее."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все факты сверены с research.json. last_verified 2026-08-06 для всех ключевых утверждений, legislation_status: active (кроме f8 - needs_verification, использована обтекаемая формулировка без гарантий).",
+    "Ст. 1 п. 1 127-ФЗ о применимости к российским юрлицам независимо от гражданства учредителей - контекст корректен (f1).",
+    "Ст. 53-54 127-ФЗ о трансграничном банкротстве - контекст корректен, формулировка «вправе, а не обязан» соответствует safe_phrasing (f2).",
+    "Ст. 22 АПК об уведомлении через консульские каналы - контекст корректен (f3).",
+    "Ст. 309-310 НК, ставка 15% для иностранной организации - активна с ФЗ-284 от 29.09.2019, контекст корректен (f4).",
+    "ФЗ-173 валютный контроль - активен, оговорка о дополнительных ограничениях с марта 2022 присутствует в тексте (f5).",
+    "Ст. 61-64 ГК права иностранного учредителя в ликвидационной комиссии - контекст корректен (f6).",
+    "Ст. 104 127-ФЗ очерёдность, учредители в последней очереди - контекст корректен (f7).",
+    "СИДН ставки 5-10%, обязательность справки о резидентстве до перечисления - контекст корректен, запрещённый клейм «СИДН применяется автоматически» отсутствует (f10).",
+    "Внутренние ссылки не добавлены: published_index.json недоступен для верификации в режиме headless - требуется ручная проверка перед финализацией."
+  ],
+  "keyword_density_main": 0.009,
+  "main_keyword_exact_count": 1,
+  "text_chars": 9373,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.096,
+  "local_spam_ngram3_repeat": 0.043,
+  "local_lexical_diversity": 0.616,
+  "local_ai_markers_density": 0.26,
+  "local_ai_markers_critical": 0,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1785983464/articles/bankrotstvo-kompanii-inostrannyj-uchreditel-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1785983464/articles/bankrotstvo-kompanii-inostrannyj-uchreditel-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Photograph of a massive ornate entrance to an official building — bronze-bound oak door, brass studs, carved stone surround, marble steps. In the foreground: a closed dark leather briefcase positioned on the steps suggesting international business arrival, a stack of bound corporate documents tied with cord, a polished brass company seal resting on top, an antique fountain pen placed diagonally across the documents. Camera: dead-on symmetric or slight low-angle emphasizing the formal threshold. Lighting: cool morning light or warm golden-hour shadows crossing the stone, revealing the patina of brass fittings. Materials: weathered bronze, grey marble, dark leather, brass. Palette: deep tones with warm brass accents. Mood: formal gateway to a complex international bankruptcy procedure, beginning of significant legal proceedings.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-08-06T02:31:05Z",
+  "length_status": "too_long",
+  "length_kind": "default",
+  "local_ai_markers_total": 3,
+  "local_ai_markers_high": 1,
+  "local_own_voice_hits": 3,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 55,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность выше 50% (~55%)",
+    "длина значительно больше лимита 6500 (9 373 знаков)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "length_too_long: 9373 > 6500 (kind=default)",
+    "spam_risk: 2 флагов (top3_sum>30 (=31), top10_sum>80 (=83)), top-5: ['инвестор', 'закон', 'процент', 'нерезидент', 'стран']",
+    "targeted_tokens_over_limit: ст_сокращение=15(>≤5), ГК_кодекс=4(>≤3)"
+  ],
+  "date_published": "2026-08-06",
+  "date_modified": "2026-08-06",
+  "ready_for_review": true,
+  "ready_at": "2026-08-06T02:31:10Z",
+  "publication_target": "telegram_review"
+}
