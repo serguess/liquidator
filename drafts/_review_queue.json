@@ -5439,6 +5439,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "bankrotstvo-fizlica-nuzno-li-uvedomit-rabotodatelya",
+      "category": "fiz",
+      "title": "Банкротство и работа: обязаны ли уведомить работодателя",
+      "added_at": "2026-08-06T15:10:38.698114",
+      "char_count": 8405,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1786018234/articles/bankrotstvo-fizlica-nuzno-li-uvedomit-rabotodatelya-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
