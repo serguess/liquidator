@@ -5491,6 +5491,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "reforma-bankrotstvo-zakon-podpisan-sroki",
+      "category": "news",
+      "title": "Реформа закона о банкротстве: сроки и изменения",
+      "added_at": "2026-08-07T09:10:17.525662",
+      "char_count": 7386,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1786083014/articles/reforma-bankrotstvo-zakon-podpisan-sroki-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
