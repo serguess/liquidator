@@ -5517,6 +5517,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "sudebnye-dela-kompanii-pri-bankrotstve",
+      "category": "yur",
+      "title": "Судебные дела компании при банкротстве: что происходит",
+      "added_at": "2026-08-07T20:11:41.442954",
+      "char_count": 8170,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1786122696/articles/sudebnye-dela-kompanii-pri-bankrotstve-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
