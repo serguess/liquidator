@@ -5530,6 +5530,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "otkaz-strakhovshchika-v-vyplate-kak-vzyskat",
+      "category": "vzysk",
+      "title": "Как взыскать отказ страховщика в выплате",
+      "added_at": "2026-08-08T01:05:25.418157",
+      "char_count": 8706,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1786140319/articles/otkaz-strakhovshchika-v-vyplate-kak-vzyskat-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
