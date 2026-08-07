@@ -5478,6 +5478,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "porog-aresta-imushchestva-10000-sovfed",
+      "category": "news",
+      "title": "Порог ареста имущества повышен до 10 000 рублей",
+      "added_at": "2026-08-07T05:41:47.852545",
+      "char_count": 8104,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1786070503/articles/porog-aresta-imushchestva-10000-sovfed-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
