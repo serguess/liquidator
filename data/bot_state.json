@@ -10382,15 +10382,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 2318,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-08-06T15:11:30",
-      "last_action_at": "2026-08-06T15:11:30",
+      "last_action_at": "2026-08-07T10:00:05",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-08-06T15:11:30"
+      "pending_batch": false,
+      "pending_batch_at": "2026-08-06T15:11:30",
+      "batch_sent_at": "2026-08-07T10:00:05",
+      "batch_fail_count": 0
     },
     "kredity-kompanii-pri-bankrotstve-chto-proishodit": {
       "category": "yur",
@@ -10400,15 +10402,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 2320,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-08-06T20:12:34",
-      "last_action_at": "2026-08-06T20:12:34",
+      "last_action_at": "2026-08-07T10:00:07",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-08-06T20:12:34"
+      "pending_batch": false,
+      "pending_batch_at": "2026-08-06T20:12:34",
+      "batch_sent_at": "2026-08-07T10:00:07",
+      "batch_fail_count": 0
     },
     "vzyskanie-dolga-s-marketplejsa": {
       "category": "vzysk",
@@ -10418,15 +10422,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 2322,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-08-07T01:03:37",
-      "last_action_at": "2026-08-07T01:03:37",
+      "last_action_at": "2026-08-07T10:00:10",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-08-07T01:03:37"
+      "pending_batch": false,
+      "pending_batch_at": "2026-08-07T01:03:37",
+      "batch_sent_at": "2026-08-07T10:00:10",
+      "batch_fail_count": 0
     },
     "porog-aresta-imushchestva-10000-sovfed": {
       "category": "news",
@@ -10436,15 +10442,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 2324,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-08-07T05:42:05",
-      "last_action_at": "2026-08-07T05:42:05",
+      "last_action_at": "2026-08-07T10:00:12",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-08-07T05:42:05"
+      "pending_batch": false,
+      "pending_batch_at": "2026-08-07T05:42:05",
+      "batch_sent_at": "2026-08-07T10:00:12",
+      "batch_fail_count": 0
     },
     "reforma-bankrotstvo-zakon-podpisan-sroki": {
       "category": "news",
@@ -10454,19 +10462,93 @@
       "versions": [
         "2.0"
       ],
+      "tg_message_id": 2326,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-08-07T09:11:07",
+      "last_action_at": "2026-08-07T10:00:14",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-08-07T09:11:07",
+      "batch_sent_at": "2026-08-07T10:00:14",
+      "batch_fail_count": 0
+    },
+    "bankrotstvo-fizlica-bez-propiski": {
+      "category": "fiz",
+      "title": "Банкротство физлица без прописки: в какой суд подать",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
       "tg_message_id": null,
       "tg_chat_id": null,
-      "first_seen_at": "2026-08-07T09:11:07",
-      "last_action_at": "2026-08-07T09:11:07",
+      "first_seen_at": "2026-08-07T15:15:11",
+      "last_action_at": "2026-08-07T15:15:11",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
       "pending_batch": true,
-      "pending_batch_at": "2026-08-07T09:11:07"
+      "pending_batch_at": "2026-08-07T15:15:11"
+    },
+    "sudebnye-dela-kompanii-pri-bankrotstve": {
+      "category": "yur",
+      "title": "Судебные дела компании при банкротстве: что происходит",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-08-07T20:12:15",
+      "last_action_at": "2026-08-07T20:12:15",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-08-07T20:12:15"
+    },
+    "otkaz-strakhovshchika-v-vyplate-kak-vzyskat": {
+      "category": "vzysk",
+      "title": "Как взыскать отказ страховщика в выплате",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-08-08T01:06:18",
+      "last_action_at": "2026-08-08T01:06:18",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-08-08T01:06:18"
+    },
+    "stavka-cb-14-procentov-pereraschyot-dolga-peni": {
+      "category": "news",
+      "title": "Ставка ЦБ 14%: как пересчитать долг и пени",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-08-08T06:01:04",
+      "last_action_at": "2026-08-08T06:01:04",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-08-08T06:01:04"
     }
   },
   "pending_actions": [],
-  "last_batch_date": "2026-08-06",
-  "last_batch_count": 3,
-  "last_batch_at": "2026-08-06T10:00:29"
+  "last_batch_date": "2026-08-07",
+  "last_batch_count": 5,
+  "last_batch_at": "2026-08-07T10:00:14"
 }
