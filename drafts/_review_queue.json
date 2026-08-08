@@ -5543,6 +5543,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "stavka-cb-14-procentov-pereraschyot-dolga-peni",
+      "category": "news",
+      "title": "Ставка ЦБ 14%: как пересчитать долг и пени",
+      "added_at": "2026-08-08T06:00:53.539903",
+      "char_count": 7215,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1786158048/articles/stavka-cb-14-procentov-pereraschyot-dolga-peni-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

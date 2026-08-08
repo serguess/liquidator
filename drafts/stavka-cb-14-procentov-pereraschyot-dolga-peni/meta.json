@@ -1,0 +1,112 @@
+{
+  "slug": "stavka-cb-14-procentov-pereraschyot-dolga-peni",
+  "category": "news",
+  "title": "Ставка ЦБ 14%: как пересчитать долг и пени",
+  "description": "Ставка ЦБ снижена до 14% с 24 июля 2026. Как пересчитать пени, проверить правильность расчётов и что делать, если взыскание уже началось.",
+  "h1": "Как пересчитать долг и пени при снижении ставки Центробанка до 14%",
+  "lead": "С 24 июля 2026 ключевая ставка снижена до 14% годовых: разбираем, как это меняет расчёт пеней и что делать, если взыскание уже идёт.",
+  "topic_action": "пересчёт пеней при ставке ЦБ 14%",
+  "breadcrumb_current": "Пени при ставке ЦБ 14%",
+  "og_image": "/assets/articles/stavka-cb-14-procentov-pereraschyot-dolga-peni.jpg",
+  "main_keyword": "ставка цб 14 процентов",
+  "secondary_keywords": [
+    "как пересчитать долг при снижении ставки",
+    "пени при ставке цб 14 процентов",
+    "пересчет пеней по новой ставке",
+    "снижение ставки цб влияние на долг",
+    "ключевая ставка цб 14",
+    "как считается пеня при ставке цб",
+    "размер пеней при взыскании долга",
+    "исполнительское производство ставка цб"
+  ],
+  "intent": "informational",
+  "funnel_stage": "warm",
+  "article_type": "C",
+  "offer": "proverka-spisaniya",
+  "event_date": "2026-07-24",
+  "news_zone": "finance",
+  "internal_links": [
+    "/articles/vzysk/kak-obratitsya-k-pristavam-chtoby-priostanovit-nezakonnoe-vzyskanie",
+    "/articles/vzysk/kak-otmenit-sudebnyj-prikaz"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_8038/",
+    "https://www.consultant.ru/document/cons_doc_LAW_34141/"
+  ],
+  "faq": [
+    {
+      "question": "Пересчитает ли банк проценты по кредиту при снижении ставки до 14%?",
+      "answer": "Проценты по кредитному договору к движению ЦБ напрямую не привязаны - там своя цифра, зафиксированная в договоре. Меняются только начисления по просроченным денежным долгам, где применяется правило гражданского кодекса."
+    },
+    {
+      "question": "Как самостоятельно проверить правильность начисленных пеней?",
+      "answer": "Возьмите сумму долга, помножьте на годовую величину в долях (для 14 это 0,14), разделите на 360 и помножьте на количество дней задержки. Расхождение в пределах пары рублей - округление, крупная разница - повод запросить обоснование."
+    },
+    {
+      "question": "Можно ли оспорить в суде взыскания, накопленные по более высокой ставке?",
+      "answer": "Оспорить исходный расчёт нельзя - тогда действовал прежний уровень, и он был законным. Просить о снижении уже начисленных сумм можно по ст. 37 ФЗ-229, если есть уважительные причины и тяжёлое материальное положение."
+    },
+    {
+      "question": "Что делать, если кредитор продолжает применять прежний расчёт после 24 июля?",
+      "answer": "Направьте письменное возражение с собственным расчётом по 14 годовым. Если реакции нет - оспаривайте требование в суде. Если взыскание дошло до судебного приказа, его можно попробовать отменить в установленные сроки."
+    },
+    {
+      "question": "Обязан ли суд снизить взыскания при снижении ставки ЦБ?",
+      "answer": "Нет, такой обязанности у суда нет. Дискреция принадлежит судье: он оценивает материальное положение должника и весомость всех доводов. Движение ключевой ставки - только один из аргументов, сам по себе он не решает исход."
+    },
+    {
+      "question": "Распространяется ли формула 1/360 на штрафы, установленные договором?",
+      "answer": "Нет. Формула из гражданского кодекса применяется только когда в соглашении размер ответственности не оговорён. Есть в договоре фиксированный размер - работает он, независимо от движения ЦБ."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "f1 (снижение ставки до 14% с 24.07.2026) верифицирован: legislation_status active, last_verified 2026-08-08",
+    "f2 (формула 1/360 по ст. 395 ГК РФ) верифицирован, норма действующая",
+    "f3 (автоматический пересчёт прошлых пеней невозможен, только через суд по ст. 37 ФЗ-229) - текст корректно отражает safe_phrasing",
+    "f4 (пример: 100 000 × 0,14 / 360 × 30 ≈ 1 167 руб.) сохранён дословно",
+    "f8 (пеня - форма неустойки по ст. 330 ГК РФ) подтверждён; гиперссылка в теле добавлена на КонсультантПлюс",
+    "f9 (договорная пеня приоритетна; суд снижает чрезмерную по ст. 333 ГК) - текст корректен, цифра '10 годовых' из amendment_note f9",
+    "Запрещённые утверждения из forbidden_claims в тексте отсутствуют"
+  ],
+  "keyword_density_main": 0.007,
+  "main_keyword_exact_count": 2,
+  "text_chars": 7215,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.104,
+  "local_spam_ngram3_repeat": 0.006,
+  "local_lexical_diversity": 0.65,
+  "local_ai_markers_density": 0.44,
+  "local_ai_markers_critical": 0,
+  "local_ai_markers_total": 4,
+  "local_ai_markers_high": 1,
+  "local_own_voice_hits": 4,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1786158048/articles/stavka-cb-14-procentov-pereraschyot-dolga-peni-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1786158048/articles/stavka-cb-14-procentov-pereraschyot-dolga-peni-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Cinematic photograph of a private financial library or archive. Walls lined with closed dark leather-bound reference books with gilt embossing on spines. Foreground: a wooden reading desk with a brass green-glass library lamp, a closed leather portfolio holding loan documents, an antique brass pocket watch on a thin chain mid-frame symbolizing interest-accrual periods, a fountain pen positioned across unmarked dossiers, reading glasses resting on top. Camera: three-quarter angle at desk level, slight upward tilt to emphasize book-lined walls. Lighting: warm tungsten pools from the desk lamp, deep shadows in book stacks, soft contemporary daylight hinting at financial deliberation. Materials: walnut, leather, aged brass, paper. Mood: scholarly authority meets contemporary financial calculation.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-08-08T03:00:49Z",
+  "length_status": "too_long",
+  "length_kind": "news",
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 47,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 90,
+  "customer_risks": [
+    "длина значительно больше лимита 5500 (7 215 знаков)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "broken_internal_links: 1 ссылок без соответствия в published_index (/articles/vzysk/kak-obratitsya-k-pristavam-chtoby-priostanovit-nezakonnoe-vzyskanie: slug 'kak-obratitsya-k-pristavam-chtoby-priostanovit-nezakonnoe-vzyskanie' не найден в категории 'vzysk' (есть: нигде))"
+  ],
+  "date_published": "2026-08-08",
+  "date_modified": "2026-08-08",
+  "ready_for_review": true,
+  "ready_at": "2026-08-08T03:00:53Z",
+  "publication_target": "telegram_review"
+}
