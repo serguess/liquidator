@@ -1,0 +1,109 @@
+{
+  "slug": "lichnye-veshchi-mebel-pri-bankrotstve-fizlica",
+  "category": "fiz",
+  "title": "Личные вещи и мебель при банкротстве физлица",
+  "description": "Какое имущество не входит в конкурсную массу при банкротстве: список защищённых вещей, мебель, одежда, документы, медикаменты и предметы быта.",
+  "h1": "Личные вещи и мебель при банкротстве физлица: что не заберут",
+  "lead": "Разбираемся, какие вещи закон гарантированно оставляет семье в процедуре реализации, где проходит граница роскоши и как оспорить опись, если финансовый управляющий включил лишнее.",
+  "topic_action": "консультацию по защите имущества при банкротстве",
+  "breadcrumb_current": "Личные вещи при банкротстве",
+  "og_image": "/assets/articles/lichnye-veshchi-mebel-pri-bankrotstve-fizlica.jpg",
+  "main_keyword": "личные вещи и мебель при банкротстве физлица",
+  "secondary_keywords": [
+    "что не забирают при банкротстве физлица",
+    "конкурсная масса имущество",
+    "защита личного имущества при банкротстве",
+    "предметы первой необходимости банкротство",
+    "имущество не входящее в конкурсную массу",
+    "мебель и вещи при банкротстве",
+    "одежда и обувь при банкротстве",
+    "предметы домашнего обихода",
+    "документы при банкротстве",
+    "семейные реликвии банкротство"
+  ],
+  "internal_links": [
+    "/articles/fiz/avtomobil-pri-bankrotstve-fizlica",
+    "/articles/fiz/bankovskie-scheta-pri-bankrotstve"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_5142/",
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/"
+  ],
+  "faq": [
+    {
+      "question": "Может ли управляющий прийти домой и переписать всё подряд?",
+      "answer": "Нет. Финансовый управляющий вправе провести опись, но обязан исключать защищённые категории по ст. 446 ГПК РФ. На практике визит с описью происходит редко - чаще идёт запрос по реестрам и получение сведений от самого должника."
+    },
+    {
+      "question": "Ноутбук для удалённой работы - оставят?",
+      "answer": "Оставят, если это основной инструмент заработка. Рекомендуем заранее приложить трудовой договор или договор оказания услуг. Второй ноутбук «на всякий случай» уже под вопросом."
+    },
+    {
+      "question": "Обручальное кольцо и семейные украшения продадут?",
+      "answer": "Обручальное кольцо и обычные украшения повседневного ношения защищены. Дорогие фамильные драгоценности с высокой рыночной ценой могут уйти на торги - каждый случай оценивается индивидуально."
+    },
+    {
+      "question": "Как обжаловать включение вещи в опись?",
+      "answer": "Подать ходатайство об исключении в арбитраж, ведущий дело. Основание - несоответствие вещи критериям ст. 446 ГПК РФ. Возразить можно до старта торгов."
+    },
+    {
+      "question": "Единственная квартира в ипотеке - защищена?",
+      "answer": "Нет. Ипотечное жильё выпадает из общей защиты и продаётся с зачётом требований залогодержателя. Это самое частое разочарование клиентов на первой консультации."
+    },
+    {
+      "question": "Сколько денег остаётся на жизнь во время банкротства?",
+      "answer": "В 2026 году - федеральный прожиточный минимум трудоспособного взрослого, 20 644 рубля, плюс аналогичная сумма на каждого иждивенца. Планка пересчитывается ежегодно."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все факты сверены с research.json. Статусы: active. last_verified 2026-08-11 для всех ключевых утверждений.",
+    "ПМ 20 644 руб. на 2026 год (ФЗ-426 от 28.11.2025) - верифицирован; оговорка об ежегодной индексации сохранена в тексте.",
+    "Постановление КС РФ № 15-П от 26.04.2021 - cited в research f4, f7, f12 как active, context_check_passed: true.",
+    "ГК РФ ст. 336 (залог): черновик писал 'ГК 336' - исправлено до 'ГК РФ ст. 336'.",
+    "Ходатайство об исключении: черновик ссылался на '131-й пункт закона о несостоятельности' - исправлено на 'ст. 131 п. 2 127-ФЗ' согласно research f15.",
+    "213.25-й источник уточнён как 'ст. 213.25 п. 3 127-ФЗ'; '213.28-я норма' - исправлено на 'ст. 213.28 127-ФЗ'.",
+    "f12 помечен contested: практика по семейным реликвиям неоднородна; в тексте явно указано 'практика неоднородная' - формулировка корректна.",
+    "Запрещённое утверждение 'жильё в любом случае защищено' не использовано: оговорки про ипотеку и роскошь присутствуют в разделах."
+  ],
+  "keyword_density_main": 0.011,
+  "main_keyword_exact_count": 1,
+  "text_chars": 7506,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.076,
+  "local_spam_ngram3_repeat": 0.008,
+  "local_lexical_diversity": 0.682,
+  "local_ai_markers_density": 0.21,
+  "local_ai_markers_critical": 0,
+  "local_ai_markers_total": 2,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 3,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1786398315/articles/lichnye-veshchi-mebel-pri-bankrotstve-fizlica-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1786398315/articles/lichnye-veshchi-mebel-pri-bankrotstve-fizlica-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Close-to-medium architectural photograph of a massive stone government building, focusing on textures, geometric repetition, and dramatic light. Camera: extreme low-angle up the columns, OR diagonal across the limestone façade, OR partial framing showing only a doorway with carved emblem (no readable inscriptions). Lighting: hard side-light revealing every chisel mark, deep cast shadows from architectural features. Palette: warm sandstone, cool grey shadow, hint of moss in cracks. Mood: the weight and permanence of legal protection for essential family property.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-08-10T21:45:16Z",
+  "length_status": "too_long",
+  "length_kind": "default",
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 47,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 90,
+  "customer_risks": [
+    "длина значительно больше лимита 6500 (7 506 знаков)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "targeted_tokens_over_limit: ст_сокращение=7(>≤5), РФ_рудимент=4(>≤2), 127фз_закон=3(>≤2)"
+  ],
+  "date_published": "2026-08-11",
+  "date_modified": "2026-08-11",
+  "ready_for_review": true,
+  "ready_at": "2026-08-10T21:45:17Z",
+  "publication_target": "telegram_review"
+}
