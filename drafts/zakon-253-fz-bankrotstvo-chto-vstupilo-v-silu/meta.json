@@ -1,0 +1,109 @@
+{
+  "slug": "zakon-253-fz-bankrotstvo-chto-vstupilo-v-silu",
+  "category": "news",
+  "title": "Закон о банкротстве 253-ФЗ: главные изменения",
+  "description": "Что изменилось в процедурах банкротства с вступлением закона 253-ФЗ. Какие новые правила применяются к физлицам и компаниям.",
+  "h1": "Закон о банкротстве: какие изменения вступили в силу",
+  "lead": "Федеральный закон № 253-ФЗ от 26 июля 2026 года вступил в силу - разбираем, кого затрагивают изменения и что делать тем, чья процедура уже идёт.",
+  "topic_action": "разбор изменений по закону 253-ФЗ",
+  "breadcrumb_current": "Закон о банкротстве 253-ФЗ",
+  "og_image": "/assets/articles/zakon-253-fz-bankrotstvo-chto-vstupilo-v-silu.jpg",
+  "main_keyword": "закон 253-ФЗ банкротство",
+  "secondary_keywords": [
+    "новый закон о банкротстве",
+    "изменения в процедуре банкротства",
+    "банкротство физлица новые правила",
+    "процедура банкротства компании",
+    "упрощение процедуры банкротства",
+    "закон о банкротстве вступил",
+    "как влияет новый закон на должников"
+  ],
+  "intent": "informational",
+  "funnel_stage": "cold",
+  "article_type": "B",
+  "offer": "proverka-spisaniya",
+  "event_date": "2026-07-26",
+  "news_zone": "legislation",
+  "internal_links": [
+    "/articles/vzysk/arest-zarplaty-pristavami-bankrotstvo",
+    "/articles/fiz/bankovskie-scheta-pri-bankrotstve"
+  ],
+  "external_links": [
+    "https://pravo.gov.ru",
+    "https://www.consultant.ru/document/cons_doc_LAW_540359/"
+  ],
+  "faq": [
+    {
+      "question": "С какого числа применяются свежие нормы?",
+      "answer": "С 26 июля 2026 года. В эту дату акт был опубликован и вступил в силу. Если в самом тексте предусмотрены отдельные пункты с отложенной датой, это указано в заключительных статьях."
+    },
+    {
+      "question": "Распространяются ли коррективы на уже начатые дела?",
+      "answer": "По общему правилу обратной силы не имеет - к отношениям, возникшим до 26 июля, применяется прежняя редакция. Исключения бывают, они закрепляются переходными положениями. Ответ по конкретному делу зависит от того, на какой стадии оно находится."
+    },
+    {
+      "question": "Где размещён официальный текст без платной подписки?",
+      "answer": "На официальном интернет-портале правовой информации pravo.gov.ru. Там опубликована подписанная редакция - справочно-правовые базы обновляют текст с задержкой в несколько дней."
+    },
+    {
+      "question": "Нужно ли переподавать заявление, если оно подано до вступления в силу?",
+      "answer": "Автоматической необходимости нет. Если суд уже принял заявление к производству, дело идёт по правилам, действовавшим на дату подачи. Отдельные процессуальные моменты могут потребовать уточнений - об этом сообщит либо суд, либо арбитражный управляющий."
+    },
+    {
+      "question": "Затрагивает ли документ внесудебное банкротство через МФЦ?",
+      "answer": "Внесудебная дорожка через многофункциональные центры регулируется отдельными нормами. Затрагивают ли их принятые правки - определяется по полному тексту. По нашему опыту в этой части кодекса за 2024-2025 годы уже было несколько уточнений."
+    },
+    {
+      "question": "Чем 253-ФЗ отличается от ФЗ-227 и ФЗ-311?",
+      "answer": "Все три акта правят один и тот же базовый кодекс, но каждый закрывает свои темы. ФЗ-227 и ФЗ-311 касались, среди прочего, вознаграждения арбитражных управляющих и упрощения внесудебной дорожки. Что именно уточняет свежий документ - будет ясно после разбора его текста практикующими юристами."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "f1 (дата вступления в силу 26.07.2026, legislation_status: active) - подтверждено, точная дата использована в тексте",
+    "f2 (применение к физлицам и юрлицам, legislation_status: needs_verification) - использована safe_phrasing без детализации конкретных поправок; запрещённые утверждения из forbidden_claims в тексте отсутствуют",
+    "external_links: pravo.gov.ru добавлен как первоисточник (упомянут в draft); consultant.ru взят из brief.json primary_source - research.key_sources не содержал URL-адресов",
+    "internal_links: расширение .html удалено, формат /articles/{category}/{slug} соблюдён; наличие slug-ов в published_index.json проверит quality_gate"
+  ],
+  "keyword_density_main": null,
+  "main_keyword_exact_count": null,
+  "text_chars": 6638,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.099,
+  "local_spam_ngram3_repeat": 0.037,
+  "local_lexical_diversity": 0.646,
+  "local_ai_markers_density": 0.36,
+  "local_ai_markers_critical": 0,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1786426703/articles/zakon-253-fz-bankrotstvo-chto-vstupilo-v-silu-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1786426703/articles/zakon-253-fz-bankrotstvo-chto-vstupilo-v-silu-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Wide symmetric photograph down a grand official corridor with high colonnaded ceiling, marble flooring, and paneled walls with brass sconces evenly spaced. At the dead-center of the frame, a marble pedestal holds a polished brass scales of justice with perfectly balanced empty pans, emphasizing equilibrium and institutional authority. Camera: dead-center symmetric, eye-level, slight wide-angle pulling architectural lines into perspective. Lighting: cool natural daylight filtering from skylights above, creating soft even illumination across marble surfaces. Palette: cool whites, polished marble grey, subtle brass gold trim, deep walnut paneling accents. Mood: ceremonial, institutional weight, momentous legal precedent.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-08-11T05:38:23Z",
+  "length_status": "too_long",
+  "length_kind": "news",
+  "local_ai_markers_total": 3,
+  "local_ai_markers_high": 1,
+  "local_own_voice_hits": 3,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 51,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность чуть выше 50% (~51%)",
+    "длина значительно больше лимита 5500 (6 638 знаков)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "broken_internal_links: 1 ссылок без соответствия в published_index (/articles/vzysk/arest-zarplaty-pristavami-bankrotstvo: slug 'arest-zarplaty-pristavami-bankrotstvo' не найден в категории 'vzysk' (есть: fiz))"
+  ],
+  "date_published": "2026-08-11",
+  "date_modified": "2026-08-11",
+  "ready_for_review": true,
+  "ready_at": "2026-08-11T05:38:24Z",
+  "publication_target": "telegram_review"
+}

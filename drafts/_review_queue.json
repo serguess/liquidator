@@ -5582,6 +5582,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "zakon-253-fz-bankrotstvo-chto-vstupilo-v-silu",
+      "category": "news",
+      "title": "Закон о банкротстве 253-ФЗ: главные изменения",
+      "added_at": "2026-08-11T08:38:24.854857",
+      "char_count": 6638,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1786426703/articles/zakon-253-fz-bankrotstvo-chto-vstupilo-v-silu-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
