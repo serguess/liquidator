@@ -4507,7 +4507,11 @@
       "frequency_estimate": "medium",
       "rationale": "Принятый закон о реабилитации юрлиц (2026) создаёт свежий запрос от бизнеса, желающего сохранить компанию. Закрывает возражение «хочу не банкротиться, а спасти бизнес». Дополняет reorganizaciya-kompanii-vmesto-bankrotstva новым правовым инструментом.",
       "expected_length_chars": 7000,
-      "topic_action": "санация вместо банкротства"
+      "topic_action": "санация вместо банкротства",
+      "status": "rejected",
+      "rejected_at": "2026-08-11T05:12:21",
+      "rejected_reason": "cannibalization:preflight:sf-zakonoproekt-sanaciya-kompanii-vmesto-likvidacii",
+      "rejected_by": "auto_skip_in_slot"
     }
   ]
 }
