@@ -1,0 +1,103 @@
+{
+  "slug": "bankrotstvo-direktora-i-kompanii-odnovremenno",
+  "category": "yur",
+  "title": "Банкротство директора и ООО одновременно",
+  "description": "Как распределяются долги при одновременном банкротстве директора и компании, какие очерёдности удовлетворения требований кредиторов и особенности процедуры.",
+  "h1": "Банкротство директора и ООО одновременно: как делить долги между ними",
+  "lead": "Разберём, как делятся два пула ценностей, кто ведёт каждое из дел и в каком единственном сценарии директор всё-таки отвечает своей квартирой, машиной и счетами.",
+  "topic_action": "разбор ситуации с банкротством директора и ООО",
+  "breadcrumb_current": "Банкротство директора и компании одновременно",
+  "og_image": "/assets/articles/bankrotstvo-direktora-i-kompanii-odnovremenno.jpg",
+  "main_keyword": "банкротство директора и компании одновременно",
+  "secondary_keywords": [
+    "одновременное банкротство директора и ООО",
+    "личные долги директора при банкротстве компании",
+    "раздельное банкротство директора и компании",
+    "ответственность директора при банкротстве ООО",
+    "имущество директора при банкротстве компании",
+    "очередность погашения долгов",
+    "долги компании и долги директора",
+    "конкурсная масса директора и компании",
+    "как защитить имущество директора"
+  ],
+  "internal_links": [
+    "/articles/fiz/alimenty-pri-bankrotstve-fizlica"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/",
+    "https://www.consultant.ru/document/cons_doc_LAW_5142/"
+  ],
+  "faq": [
+    {
+      "question": "Можно ли взять одного финансового управляющего сразу для обеих процедур?",
+      "answer": "Нет. Юрлицу назначают конкурсного, гражданину - финансового. Это разные фигуры с разными обязанностями и разной подотчётностью суду. Одного специалиста на два дела закон не предусматривает."
+    },
+    {
+      "question": "Что происходит с зарплатой руководителя, пока фирма проходит конкурсное производство?",
+      "answer": "Зарплата, начисленная до открытия конкурса, входит в первую очередь требований к организации и выплачивается из её пула ценностей. Начисления после введения процедуры - уже текущие платежи, они гасятся вне общей очереди."
+    },
+    {
+      "question": "Сколько месяцев занимает реализация при параллельных делах?",
+      "answer": "Обычно шесть месяцев на каждое. Арбитраж вправе продлить любую из процедур. Если у гражданина утверждён план реструктуризации - до пяти лет."
+    },
+    {
+      "question": "Обязан ли руководитель банкротиться, если ООО уже признано несостоятельным?",
+      "answer": "Нет. Закрытие фирмы не порождает обязанности первого лица подавать личное заявление. Такая обязанность возникает у гражданина при собственных долгах свыше 500 тысяч рублей и просрочке от трёх месяцев."
+    },
+    {
+      "question": "Какие требования не прощаются по итогам личной процедуры?",
+      "answer": "Алименты, компенсации за вред жизни и здоровью, текущие платежи внутри дела, ущерб от преступления, а также субсидиарные претензии взыскателей бизнеса."
+    },
+    {
+      "question": "Вправе ли кредиторы ООО предъявить претензии к личным активам руководителя напрямую?",
+      "answer": "Только через субсидиарку и только при доказанном контроле и вине по ГК и закону о банкротстве. Прямое взыскание с личной собственности первого лица «в обход» этого механизма закон не допускает."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все основные факты сверены с research.json. Численные данные актуальны (20 644 рубля в 2026 году, 5 лет, 6 месяцев), статусы активные, last_verified в пределах 6 месяцев.",
+    "Запрещённые утверждения из forbidden_claims отсутствуют в draft.",
+    "Все нормы закона применены в корректном контексте (не путаются процедуры, стороны, категории)."
+  ],
+  "keyword_density_main": 0.022,
+  "main_keyword_exact_count": 1,
+  "text_chars": 7128,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1786468982/articles/bankrotstvo-direktora-i-kompanii-odnovremenno-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1786468982/articles/bankrotstvo-direktora-i-kompanii-odnovremenno-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Editorial photograph of a workspace adjacent to a tall window. Foreground: a walnut desk with carefully arranged items — a closed dark leather portfolio containing corporate documents, a fountain pen aligned parallel to it, a smartphone face-down suggesting suppressed communications, polished brass desk lamp casting focused light, reading glasses resting on a closed laptop with brushed aluminum lid, a white porcelain coffee cup suggesting prolonged deliberation, and a blank-spine leather notebook with a pen ready for strategic notes. Background through the glass: blurred city skyline in cool evening tones, soft rain on distant rooftops. Camera: three-quarter angle, eye-level. Lighting: cool window daylight blended with warm tungsten lamp glow, creating contemplative shadow depth. Materials: walnut, leather, brass on neutral palette. Mood: director facing dual burden of personal and corporate bankruptcy procedures, weighing interconnected consequences.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-08-11T17:23:03Z",
+  "length_status": "too_long",
+  "length_kind": "default",
+  "local_spam_top10_share": 0.129,
+  "local_spam_ngram3_repeat": 0.009,
+  "local_lexical_diversity": 0.621,
+  "local_ai_markers_density": 0.22,
+  "local_ai_markers_total": 2,
+  "local_ai_markers_critical": 0,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 2,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 51,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность чуть выше 50% (~51%)",
+    "длина значительно больше лимита 6500 (7 128 знаков)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "spam_risk: 4 флагов (top1_count>12 (=14, лемма «лица»), top3_sum>30 (=34), top10_sum>80 (=88), top10_share>0.115 (=0.129)), top-5: ['лица', 'перв', 'гражданин', 'юридическ', 'актив']"
+  ],
+  "date_published": "2026-08-11",
+  "date_modified": "2026-08-11",
+  "ready_for_review": true,
+  "ready_at": "2026-08-11T17:23:04Z",
+  "publication_target": "telegram_review"
+}
