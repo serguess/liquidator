@@ -10482,15 +10482,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 2328,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-08-07T15:15:11",
-      "last_action_at": "2026-08-07T15:15:11",
+      "last_action_at": "2026-08-08T10:00:04",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-08-07T15:15:11"
+      "pending_batch": false,
+      "pending_batch_at": "2026-08-07T15:15:11",
+      "batch_sent_at": "2026-08-08T10:00:04",
+      "batch_fail_count": 0
     },
     "sudebnye-dela-kompanii-pri-bankrotstve": {
       "category": "yur",
@@ -10500,15 +10502,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 2330,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-08-07T20:12:15",
-      "last_action_at": "2026-08-07T20:12:15",
+      "last_action_at": "2026-08-08T10:00:06",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-08-07T20:12:15"
+      "pending_batch": false,
+      "pending_batch_at": "2026-08-07T20:12:15",
+      "batch_sent_at": "2026-08-08T10:00:06",
+      "batch_fail_count": 0
     },
     "otkaz-strakhovshchika-v-vyplate-kak-vzyskat": {
       "category": "vzysk",
@@ -10518,15 +10522,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 2332,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-08-08T01:06:18",
-      "last_action_at": "2026-08-08T01:06:18",
+      "last_action_at": "2026-08-08T10:00:08",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-08-08T01:06:18"
+      "pending_batch": false,
+      "pending_batch_at": "2026-08-08T01:06:18",
+      "batch_sent_at": "2026-08-08T10:00:08",
+      "batch_fail_count": 0
     },
     "stavka-cb-14-procentov-pereraschyot-dolga-peni": {
       "category": "news",
@@ -10536,19 +10542,75 @@
       "versions": [
         "2.0"
       ],
+      "tg_message_id": 2334,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-08-08T06:01:04",
+      "last_action_at": "2026-08-08T10:00:11",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-08-08T06:01:04",
+      "batch_sent_at": "2026-08-08T10:00:11",
+      "batch_fail_count": 0
+    },
+    "lichnye-veshchi-mebel-pri-bankrotstve-fizlica": {
+      "category": "fiz",
+      "title": "Личные вещи и мебель при банкротстве физлица",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
       "tg_message_id": null,
       "tg_chat_id": null,
-      "first_seen_at": "2026-08-08T06:01:04",
-      "last_action_at": "2026-08-08T06:01:04",
+      "first_seen_at": "2026-08-11T00:45:36",
+      "last_action_at": "2026-08-11T00:45:36",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
       "pending_batch": true,
-      "pending_batch_at": "2026-08-08T06:01:04"
+      "pending_batch_at": "2026-08-11T00:45:36"
+    },
+    "dividendy-pered-bankrotstvom-ooo-osparivanie": {
+      "category": "yur",
+      "title": "Дивиденды перед банкротством ООО: оспаривание и защита",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-08-11T05:36:24",
+      "last_action_at": "2026-08-11T05:36:24",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-08-11T05:36:24"
+    },
+    "zakon-253-fz-bankrotstvo-chto-vstupilo-v-silu": {
+      "category": "news",
+      "title": "Закон о банкротстве 253-ФЗ: главные изменения",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-08-11T08:39:26",
+      "last_action_at": "2026-08-11T08:39:26",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-08-11T08:39:26"
     }
   },
   "pending_actions": [],
-  "last_batch_date": "2026-08-07",
-  "last_batch_count": 5,
-  "last_batch_at": "2026-08-07T10:00:14"
+  "last_batch_date": "2026-08-10",
+  "last_batch_count": 0,
+  "last_batch_at": "2026-08-10T10:00:24"
 }

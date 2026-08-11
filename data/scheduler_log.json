@@ -34493,5 +34493,101 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-08-11T08:30:17",
+    "category": "news",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 1,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "resume",
+    "resume_slug": "zakon-253-fz-bankrotstvo-chto-vstupilo-v-silu",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "length_soft_passed: 6638 > 5500 но ≤ 7500 и iteration=2 — пропускаем (приоритет spam/uniqueness/ai)",
+        "forced_pass_at_iter2: блокеры пропущены, статья идёт в TG-очередь с metrics_warning=true. Было: 1 блокеров — broken_internal_links"
+      ],
+      "recommendations": [
+        "fix_internal_links: заменить href на канонический /articles/{cat}/{slug} из published_index.json (см. .claude/style/editor-cheatsheet.md секция 6)"
+      ],
+      "stderr_tail": ""
+    },
+    "finalize_safety_net": {
+      "ran": true,
+      "rc": 0
+    },
+    "status": "ok",
+    "slug": "zakon-253-fz-bankrotstvo-chto-vstupilo-v-silu",
+    "duration_sec": 486.8,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": " billable\n6-seo-editor        sonnet            6      14    79928         0     79948\n7-publisher         haiku            20      10    75644         0     75674\n------------------------------------------------------------------------------------------\nИТОГО                                26      24   155572         0    155622\nBillable-токенов на статью: ~155K (cache_read 0K не считается в лимит подписки).\nАртефакты: drafts/zakon-253-fz-bankrotstvo-chto-vstupilo-v-silu/  | quality_gate exit=0",
+    "stderr_tail": "",
+    "tokens_by_model": {},
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 6638
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
+  },
+  {
+    "timestamp": "2026-08-11T08:38:26",
+    "category": "news",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 2,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "news-139",
+    "topic_slug": "dosudebnaya-sanaciya-253-fz-kak-spasti-biznes",
+    "status": "failed",
+    "slug": "dosudebnaya-sanaciya-253-fz-kak-spasti-biznes",
+    "duration_sec": 905.5,
+    "returncode": 1,
+    "rescued_after_failure": false,
+    "stdout_tail": ", 34.3с\n=== 2-legal-research (claude haiku) ===\n   ok: 24401 симв., usage in=3512 out=43 cache_w=148534 cache_r=821299 billable=152089 ток, 118.9с\n   ok: 14511 симв., billable=66670 ток (model=sonnet)\n   [outline_validate] exit=0\n=== 4-writer (claude opus) ===\n   ok: 9678 симв., billable=85316 ток, 76.6с\n   [writer self-fix проход 2]\n   ok: billable=51112 ток\n=== 5-uniqueness (embed_compare) ===\n   passed=False scores={'structure_overlap': 0.167, 'thesis_similarity': 0.795, 'cta_overlap': 0.538}",
+    "stderr_tail": "[ERR] rate_limit: put_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard\",\"cache_creation\":{\"ephemeral_1h_input_tokens\":0,\"ephemeral_5m_input_tokens\":0},\"inference_geo\":\"\",\"iterations\":[],\"speed\":\"standard\"},\"modelUsage\":{},\"permission_denials\":[],\"terminal_reason\":\"completed\",\"fast_mode_state\":\"off\",\"uuid\":\"e79bc3ff-decb-4237-9795-7ab2d3e05593\"}\n\n",
+    "tokens_by_model": {},
+    "metrics": null
   }
 ]
