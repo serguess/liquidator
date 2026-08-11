@@ -1,0 +1,108 @@
+{
+  "slug": "dve-kvartiry-pri-bankrotstve-kakuyu-sohranyat",
+  "category": "fiz",
+  "title": "Две квартиры при банкротстве: какую оставят должнику",
+  "description": "Узнайте, как реализуется имущество при банкротстве физлица, может ли должник оставить одну квартиру и какие права защищает закон о банкротстве.",
+  "h1": "Две квартиры при банкротстве: какую оставят должнику и как защитить жилье",
+  "lead": "При двух квартирах суд оставит одну как единственное жилье, а вторую направит на аукцион. Узнаем, по каким критериям выбирается защищённое жильё и когда даже единственное помещение может быть продано.",
+  "topic_action": "защиту жилья при банкротстве",
+  "breadcrumb_current": "Две квартиры при банкротстве",
+  "og_image": "/assets/articles/dve-kvartiry-pri-bankrotstve-kakuyu-sohranyat.jpg",
+  "main_keyword": "две квартиры при банкротстве какую оставят",
+  "secondary_keywords": [
+    "имущество должника при банкротстве",
+    "реализация имущества при банкротстве физлица",
+    "защита жилья от конкурсных кредиторов",
+    "единственное жилье при банкротстве",
+    "неделимое имущество при банкротстве",
+    "льготы на жилье при банкротстве физлица",
+    "как сохранить квартиру при банкротстве",
+    "имущество освобожденное от реализации",
+    "раздел имущества при банкротстве"
+  ],
+  "internal_links": [
+    "/articles/fiz/avtomobil-pri-bankrotstve-fizlica",
+    "/articles/fiz/alimenty-pri-bankrotstve-fizlica"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/c2c8c81ee8e4bd843286b08b10607f00ec6ae073/",
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/c48290d39215783e73f0899bb1026b14cb221eff/"
+  ],
+  "faq": [
+    {
+      "question": "Можно ли при банкротстве сохранить оба объекта жилья?",
+      "answer": "Нет. По правилу об очередности имущественного взыскания единственным признаётся только одно помещение, второе идёт в реализацию."
+    },
+    {
+      "question": "Что будет с ипотечной недвижимостью, если есть вторая незалоговая квартира?",
+      "answer": "Ипотечная жилплощадь уходит на торги по требованию банка-залогодержателя вне зависимости от того, есть у семьи другая крыша над головой. Незалоговая при этом остаётся, если она признана единственным пригодным помещением."
+    },
+    {
+      "question": "Как суд выбирает, какое жилое помещение признать единственным?",
+      "answer": "По совокупности данных: постоянная регистрация заявителя и семьи, фактическое проживание, состав иждивенцев, пригодность к постоянному проживанию, отсутствие залога. Формальная прописка без реального быта позицию не спасает."
+    },
+    {
+      "question": "Сколько месяцев займёт аукцион по второй недвижимости?",
+      "answer": "Ориентир - 6 месяцев с даты введения реализации. Суд вправе продлить срок при объективных основаниях. По нашей практике реалистичный диапазон - от 6 до 12 месяцев."
+    },
+    {
+      "question": "Спишут ли долги, если вырученных денег от продажи не хватило?",
+      "answer": "Да, оставшиеся обязательства списываются по правилу об освобождении добросовестного заявителя. Исключения - алименты, возмещение вреда жизни и здоровью, текущие платежи процедуры. И жёсткий стоп-фактор: если гражданин прятал имущество или обманывал управляющего, в списании откажут."
+    },
+    {
+      "question": "Разрешит ли суд продать роскошное жильё, числящееся единственным?",
+      "answer": "Может разрешить со ссылкой на постановление КС № 15-П от 26 апреля 2021 года. Механика такая: объект продают, из выручки покупают семье скромное замещающее в том же городе, разницу отдают кредиторам."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все факты сверены с research.json. Статусы: active. last_verified в пределах 6 месяцев для всех ключевых утверждений.",
+    "Ст. 213.25 п. 1, 3 о составе конкурсной массы и единственном жилье - актуальны (ред. 2025).",
+    "Ст. 446 ГПК РФ абз. 2 о защите от взыскания - актуальна.",
+    "ФЗ-426 от 28.11.2025 о прожиточном минимуме 20 644 руб. на 2026 - верифицирован.",
+    "Постановление КС РФ № 15-П от 26.04.2021 о неабсолютности иммунитета - присутствует с корректными оговорками.",
+    "Ст. 213.24 о сроках реализации (6 месяцев) - актуальна.",
+    "Ст. 213.28 п. 3, 5-6 о списании долгов и исключениях - актуальны."
+  ],
+  "keyword_density_main": 0.018,
+  "main_keyword_exact_count": 2,
+  "text_chars": 8384,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.093,
+  "local_spam_ngram3_repeat": 0.047,
+  "local_lexical_diversity": 0.609,
+  "local_ai_markers_density": 0.29,
+  "local_ai_markers_critical": 0,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1786451236/articles/dve-kvartiry-pri-bankrotstve-kakuyu-sohranyat-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1786451236/articles/dve-kvartiry-pri-bankrotstve-kakuyu-sohranyat-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Close-up architectural photograph of polished marble surface, emphasizing refined texture and subtle grain. Foreground: a closed dark leather portfolio, an antique brass pocket watch, a fountain pen, and a polished round official seal arranged on the stone. Camera: tight crop, eye-level. Lighting: soft diffused daylight grazing the marble, revealing veining. Palette: cool whites, warm cream, restrained brass. Mood: refined institutional authority, property protection.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-08-11T12:27:16Z",
+  "length_status": "too_long",
+  "length_kind": "default",
+  "local_ai_markers_total": 3,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 4,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 55,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность выше 50% (~55%)",
+    "длина значительно больше лимита 6500 (8 384 знаков)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "targeted_tokens_over_limit: 213_артикул=4(>≤3)"
+  ],
+  "date_published": "2026-08-11",
+  "date_modified": "2026-08-11",
+  "ready_for_review": true,
+  "ready_at": "2026-08-11T12:27:17Z",
+  "publication_target": "telegram_review"
+}

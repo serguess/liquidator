@@ -5595,6 +5595,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "dve-kvartiry-pri-bankrotstve-kakuyu-sohranyat",
+      "category": "fiz",
+      "title": "Две квартиры при банкротстве: какую оставят должнику",
+      "added_at": "2026-08-11T15:27:17.680643",
+      "char_count": 8384,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1786451236/articles/dve-kvartiry-pri-bankrotstve-kakuyu-sohranyat-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

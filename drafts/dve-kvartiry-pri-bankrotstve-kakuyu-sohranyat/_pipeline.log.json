@@ -1,0 +1,31 @@
+{
+  "slug": "dve-kvartiry-pri-bankrotstve-kakuyu-sohranyat",
+  "category": "fiz",
+  "started_at": "2026-08-11T15:27:17",
+  "finished_at": null,
+  "total_duration_sec": null,
+  "current_iteration": 1,
+  "events": [
+    {
+      "ts": "2026-08-11T15:27:17",
+      "agent": "scheduler",
+      "event": "slot_started",
+      "iteration": 1,
+      "today_count": 3,
+      "limit": 5,
+      "write_article_duration_sec": 2336.0
+    },
+    {
+      "ts": "2026-08-11T15:27:17",
+      "agent": "quality_gate",
+      "event": "passed",
+      "iteration": 1,
+      "blockers": [],
+      "warnings": [
+        "length_soft_passed: 8384 > 6500 но ≤ 8500 и iteration=2 — пропускаем (приоритет spam/uniqueness/ai)",
+        "forced_pass_at_iter2: блокеры пропущены, статья идёт в TG-очередь с metrics_warning=true. Было: 1 блокеров — targeted_tokens_over_limit"
+      ],
+      "recommendations": []
+    }
+  ]
+}
