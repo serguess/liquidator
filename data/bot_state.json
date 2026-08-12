@@ -10649,6 +10649,42 @@
       "published_url": null,
       "pending_batch": true,
       "pending_batch_at": "2026-08-11T20:23:34"
+    },
+    "vyselenie-arendatora-dolzhnika-cherez-sud": {
+      "category": "vzysk",
+      "title": "Выселение арендатора-должника через суд: пошагово",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-08-12T05:41:17",
+      "last_action_at": "2026-08-12T05:41:17",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-08-12T05:41:17"
+    },
+    "dosudebnaya-sanaciya-253-fz-kak-spasti-biznes": {
+      "category": "news",
+      "title": "ФЗ-253: досудебная санация компании - инструкция",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-08-12T08:37:19",
+      "last_action_at": "2026-08-12T08:37:19",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-08-12T08:37:19"
     }
   },
   "pending_actions": [],
