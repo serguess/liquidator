@@ -35045,5 +35045,68 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-08-12T14:48:02",
+    "category": "yur",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 4,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "yur-166",
+    "topic_slug": "nalogovaya-proverka-i-bankrotstvo-yurlica",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "forced_pass_at_iter2: блокеры пропущены, статья идёт в TG-очередь с metrics_warning=true. Было: 4 блокеров — length_too_long; spam_risk; targeted_tokens_over_limit; broken_internal_links"
+      ],
+      "recommendations": [
+        "reduce_length: сократить до 5000-6000 знаков",
+        "reduce_repetition: разбавить топ-5 частотных лемм местоимениями/перифразом — ['стать', 'ведомств', 'недоимк', 'заявител', 'месяц']",
+        "fix_internal_links: заменить href на канонический /articles/{cat}/{slug} из published_index.json (см. .claude/style/editor-cheatsheet.md секция 6)"
+      ],
+      "stderr_tail": ""
+    },
+    "finalize_safety_net": {
+      "ran": true,
+      "rc": 0
+    },
+    "status": "ok",
+    "slug": "nalogovaya-proverka-i-bankrotstvo-yurlica",
+    "duration_sec": 2281.3,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "3     26059\n6-seo-editor        haiku            20       8    66554     39548     66582\n7-publisher         haiku            20      12    36012     39548     36044\n------------------------------------------------------------------------------------------\nИТОГО                               202      93   632871    756904    633166\nBillable-токенов на статью: ~633K (cache_read 756K не считается в лимит подписки).\nАртефакты: drafts/nalogovaya-proverka-i-bankrotstvo-yurlica/  | quality_gate exit=0",
+    "stderr_tail": "",
+    "tokens_by_model": {},
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 8725
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]

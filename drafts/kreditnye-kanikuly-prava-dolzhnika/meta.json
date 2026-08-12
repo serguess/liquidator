@@ -1,0 +1,104 @@
+{
+  "slug": "kreditnye-kanikuly-prava-dolzhnika",
+  "category": "vzysk",
+  "title": "Кредитные каникулы и права должника при взыскании",
+  "description": "Кредитные каникулы при взыскании задолженности: какие права есть у должника, как защитить себя, сроки приостановления платежей и процедура обращения.",
+  "h1": "Кредитные каникулы при взыскании: какие права имеет должник",
+  "lead": "Закон 229-ФЗ даёт заёмщику лимит на удержание, сохранение прожиточного порога, иммунитет детских выплат и возможность попросить паузу у судьи.",
+  "topic_action": "защиту прав должника при взыскании",
+  "breadcrumb_current": "Кредитные каникулы при взыскании",
+  "og_image": "/assets/articles/kreditnye-kanikuly-prava-dolzhnika.jpg",
+  "main_keyword": "кредитные каникулы права должника при взыскании",
+  "secondary_keywords": [
+    "кредитные каникулы при взыскании задолженности",
+    "права должника во время взыскания",
+    "защита должника при исполнительном производстве",
+    "отсрочка платежей по долгу взыскание",
+    "приостановление платежей по кредиту",
+    "мораторий на взыскание долга",
+    "защита прав должника закон",
+    "исполнительное производство каникулы платежей",
+    "как защитить себя от взыскания"
+  ],
+  "internal_links": [
+    "/articles/vzysk/ispolnitelnyj-process-prava-dolzhnika",
+    "/articles/vzysk/zashchita-imushchestva-pri-vziskanii"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/",
+    "https://www.consultant.ru/document/cons_doc_LAW_34154/"
+  ],
+  "faq": [
+    {
+      "question": "Сколько денег пристав вправе удерживать из зарплаты по закону?",
+      "answer": "Не более половины суммы после НДФЛ по общему правилу. До 70% - лишь по алиментам на несовершеннолетних детей, вреду здоровью, смерти кормильца и ущербу от преступления. По кредитам и коммуналке всегда базовый лимит."
+    },
+    {
+      "question": "Можно ли защитить прожиточный минимум, если производство уже открыто?",
+      "answer": "Да, в любой момент. Пишете ходатайство в подразделение ФССП по месту ведения дела, прикладываете справку о доходах и реквизиты счёта. С даты получения обращения пристав оставляет на карте 20 644 рублей (норма 2026 года), удержание считается с остатка."
+    },
+    {
+      "question": "Что происходит, если пристав списал деньги с детского пособия?",
+      "answer": "Такое списание незаконно - детские пособия входят в перечень защищённых выплат. Порядок: банковская выписка на руки, обращение к старшему приставу подразделения, при отказе - иск в арбитраж. Деньги подлежат возврату."
+    },
+    {
+      "question": "Обязательно ли суд одобрит рассрочку исполнения судебного решения?",
+      "answer": "Нет, это возможность обратиться, а не гарантия. Арбитр учитывает материальное положение заёмщика и интересы кредитора. Шансы выше при полном пакете: справки о доходах, иждивенцах, болезни, готовности гасить долг частями."
+    },
+    {
+      "question": "До какого срока можно обжаловать исполнительский сбор?",
+      "answer": "Десять дней с момента получения постановления. Инстанция вправе снизить санкцию до четверти или полностью освободить при доказанной уважительной причине - форс-мажоре, тяжёлой болезни, объективной невозможности исполнения в пятидневный срок."
+    },
+    {
+      "question": "Защищена ли единственная квартира от продажи за долги по кредиту?",
+      "answer": "Да, если она не в ипотеке. Исключение введено Постановлением КС № 15-П от 26.04.2021: суд может продать явно избыточную по площади и стоимости квартиру с предоставлением замещающего жилья. Ипотечная - не защищена в принципе."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все юр-утверждения сверены с research.json (last_verified=2026-08-12, legislation_status=active).",
+    "Пределы удержания: 50% чистого после НДФЛ (ст. 99 ч. 2 ФЗ-229), 70% только для алиментов/вреда/смерти кормильца/преступления (ст. 99 ч. 3).",
+    "Прожиточный минимум 2026: 20 644 руб. (ФЗ-426 от 28.11.2025), защищается по заявлению (ст. 99 ч. 5.1 ФЗ-229).",
+    "Защищённые выплаты (ст. 101): детские пособия, матcapital, пенсия по потере кормильца, командировочные; пособие по безработице - исключение.",
+    "Исполнительский сбор: 12% от суммы (минимум 2000 руб.), начисляется при неисполнении в 5-дневный срок, оспаривается в течение 10 дней (ст. 112 ФЗ-229).",
+    "Единственное жилье защищено (ст. 446 ГПК РФ) с исключением: явно избыточное может быть продано судом (Постановление КС РФ № 15-П от 26.04.2021).",
+    "Авторские вставки сохранены: «по нашему опыту», «мы видим», «по нашей практике»."
+  ],
+  "keyword_density_main": 0.018,
+  "main_keyword_exact_count": 3,
+  "text_chars": 8277,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.094,
+  "local_spam_ngram3_repeat": 0.058,
+  "local_lexical_diversity": 0.572,
+  "local_ai_markers_density": 0.3,
+  "local_ai_markers_critical": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "predicted_spam_pct": 60,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1786554974/articles/kreditnye-kanikuly-prava-dolzhnika-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1786554974/articles/kreditnye-kanikuly-prava-dolzhnika-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Tight close-up of a desk in a moment of pause. An open leather briefcase displays legal dossiers partially fanned outward. A fountain pen lies uncapped beside a small brass inkwell. A half-finished cup of coffee cools on a white saucer. To the side in soft-focus: an unbuttoned suit jacket draped over a pushed-back wooden chair. Camera angle: three-quarter, shallow depth of field isolating fine details. Lighting: warm directional from upper left, casting precise shadows across the desktop. Materials: cognac leather, aged brass, warm walnut grain, white porcelain. Palette: warm amber and brass tones on neutral background. Mood: pause within the enforcement process, the debtor's momentary reprieve during creditor claims proceedings.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-08-12T17:16:15Z",
+  "length_status": "too_long",
+  "length_kind": "default",
+  "local_ai_markers_total": 3,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 3,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_retry_count": 2,
+  "customer_risks": [
+    "заспамленность заметно выше 50% (~60%)",
+    "длина значительно больше лимита 6500 (8 277 знаков)"
+  ],
+  "date_published": "2026-08-12",
+  "date_modified": "2026-08-12",
+  "ready_for_review": true,
+  "ready_at": "2026-08-12T17:16:16Z",
+  "publication_target": "telegram_review"
+}

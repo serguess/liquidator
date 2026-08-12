@@ -1,0 +1,36 @@
+{
+  "slug": "kreditnye-kanikuly-prava-dolzhnika",
+  "article_id": 492,
+  "scores": {
+    "structure_overlap": 0.0,
+    "thesis_similarity": 0.335,
+    "cta_overlap": 0.233
+  },
+  "thresholds": {
+    "structure_overlap": 0.4,
+    "thesis_similarity": 0.3,
+    "cta_overlap": 0.2
+  },
+  "passed": false,
+  "peers_compared": 50,
+  "closest_peer": "cessiya-ustupka-trebovaniya-prava-dolzhnika",
+  "similar_articles": [
+    {
+      "slug": "rashody-bankrotstva-vzyskat-s-uchreditelya",
+      "category": "news",
+      "similarity": 0.255
+    },
+    {
+      "slug": "cessiya-ustupka-trebovaniya-prava-dolzhnika",
+      "category": "vzysk",
+      "similarity": 0.335
+    }
+  ],
+  "conflicts": [
+    "thesis_similarity: 0.335 (threshold: 0.3)",
+    "cta_overlap: 0.233 (threshold: 0.2)"
+  ],
+  "recommendation": "rewrite_with_angle:change-perspective (closest: cessiya-ustupka-trebovaniya-prava-dolzhnika)",
+  "stored_in_db": true,
+  "note": "Вектор статьи записан в data/embeddings.sqlite (published=0). После публикации агент 7 переключит флаг на 1."
+}

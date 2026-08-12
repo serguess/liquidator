@@ -5673,6 +5673,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "kreditnye-kanikuly-prava-dolzhnika",
+      "category": "vzysk",
+      "title": "Кредитные каникулы и права должника при взыскании",
+      "added_at": "2026-08-12T20:16:16.811538",
+      "char_count": 8277,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1786554974/articles/kreditnye-kanikuly-prava-dolzhnika-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
