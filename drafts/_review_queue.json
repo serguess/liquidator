@@ -5660,6 +5660,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "nalogovaya-proverka-i-bankrotstvo-yurlica",
+      "category": "yur",
+      "title": "Налоговая проверка и банкротство юрлица: защита интересов",
+      "added_at": "2026-08-12T15:26:04.305090",
+      "char_count": 8725,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1786537559/articles/nalogovaya-proverka-i-bankrotstvo-yurlica-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

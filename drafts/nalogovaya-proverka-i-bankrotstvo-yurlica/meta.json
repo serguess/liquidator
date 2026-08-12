@@ -1,0 +1,111 @@
+{
+  "slug": "nalogovaya-proverka-i-bankrotstvo-yurlica",
+  "category": "yur",
+  "title": "Налоговая проверка и банкротство юрлица: защита интересов",
+  "description": "Как налоговая проверка влияет на процедуру банкротства компании. Риски для учредителей, сроки проведения, порядок взыскания задолженности перед ФНС, правовая защита.",
+  "h1": "Налоговая проверка при банкротстве компании: риски и защита интересов",
+  "lead": "Открытое дело не закрывает фискальный контроль. Разбираем, как ФНС действует в процедуре банкротства, когда рискуют учредители и директор, и как оспорить претензии через управляющего.",
+  "topic_action": "защиту от налоговых претензий ФНС при банкротстве",
+  "breadcrumb_current": "Налоговая проверка при банкротстве",
+  "og_image": "/assets/articles/nalogovaya-proverka-i-bankrotstvo-yurlica.jpg",
+  "main_keyword": "налоговая проверка при банкротстве компании",
+  "secondary_keywords": [
+    "налоговая проверка банкротство юрлица",
+    "риски налоговой проверки при банкротстве",
+    "задолженность перед ФНС и банкротство",
+    "защита от налоговых претензий при банкротстве",
+    "сроки налоговой проверки в процедуре банкротства",
+    "ответственность учредителя за налоги при банкротстве",
+    "арест счетов и налоговая проверка",
+    "оспаривание налоговых претензий в процедуре банкротства",
+    "налоговые штрафы и банкротство компании"
+  ],
+  "internal_links": [
+    "/articles/yur/konkursnoe-proizvodstvo",
+    "/articles/yur/kak-zakryt-ooo-s-dolgami",
+    "/articles/yur/osparivanie-trebovaniy-v-arbitrazhe",
+    "/articles/yur/bankrotstvo-ooo-poshagovo-2026"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/",
+    "https://www.consultant.ru/document/cons_doc_LAW_5142/"
+  ],
+  "faq": [
+    {
+      "question": "Может ли фискальный орган подать заявление о несостоятельности без судебного решения о взыскании?",
+      "answer": "Да, вправе. По абзацу 3 пункта 2 седьмой статьи 127-ФЗ уполномоченный орган подаёт заявление напрямую в арбитраж, если недоимка с пенями и штрафами достигла двух миллионов рублей, а просрочка длится дольше трёх месяцев. Порог поднят ФЗ-107 от 11 июня 2024 года с прежних 300 тысяч рублей."
+    },
+    {
+      "question": "Сколько длится выездная проверка внутри процедуры несостоятельности?",
+      "answer": "Стандартно - до двух лет по 87-й статье НК. При обнаружении признаков преднамеренного банкротства или налогового преступления суд по ходатайству ведомства продлевает срок. Камеральная укладывается в три месяца с даты подачи декларации."
+    },
+    {
+      "question": "Что происходит с пенями после введения наблюдения?",
+      "answer": "Пени по недоимке, возникшей до наблюдения, перестают начисляться с момента открытия дела (71-я статья НК). Штрафы за прошлые нарушения тоже замораживаются. По текущим платежам, возникшим уже после наблюдения, начисления идут в общем порядке."
+    },
+    {
+      "question": "Вправе ли собственник напрямую общаться с инспекторами по долгам общества?",
+      "answer": "Нет. С момента открытия конкурсного производства интересы должника представляет назначенный судом специалист (81-я статья 127-ФЗ). Любые устные или письменные договорённости в обход управляющего юридически не признаются и на реестр не влияют."
+    },
+    {
+      "question": "Какой срок отведён на оспаривание акта в арбитраже?",
+      "answer": "Три месяца с даты получения акта. Основание - 229.5 статья АПК. Разбирательство идёт в ускоренном порядке, обычно завершается за 30 дней."
+    },
+    {
+      "question": "Чем налоговое требование в реестре отличается от обычного кредиторского?",
+      "answer": "По очерёдности - ничем. Претензия ведомства учитывается наравне с долгами перед банками, поставщиками и подрядчиками (108-109 статьи 127-ФЗ). Приоритета у бюджета перед прочими заявителями нет. Различие лишь в подтверждении: инспекция прикладывает решение о взыскании и акт, тогда как коммерческие заявители - договор и первичку."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все ключевые утверждения сверены с research.json (f1-f12)",
+    "Статус всех норм: active, last_verified: 2026-08-12",
+    "Контексты применения: ст. 62, 63, 71 НК, 127-ФЗ ст. 7, 81, 108-109 корректны",
+    "Запрещённые утверждения (forbidden_claims) не допущены",
+    "Дополнительно: внешние ссылки на КонсультантПлюс (research.key_sources), внутренние ссылки на логически связанные статьи"
+  ],
+  "keyword_density_main": 0.019,
+  "main_keyword_exact_count": 2,
+  "text_chars": 8725,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.108,
+  "local_spam_ngram3_repeat": 0.047,
+  "local_lexical_diversity": 0.594,
+  "local_ai_markers_density": 0.19,
+  "local_ai_markers_critical": 0,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1786537559/articles/nalogovaya-proverka-i-bankrotstvo-yurlica-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1786537559/articles/nalogovaya-proverka-i-bankrotstvo-yurlica-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Top-down flat-lay editorial photograph on a polished dark walnut desk. Soft golden morning light from a window casting a long warm diagonal across the surface. Arranged in editorial composition: closed oxblood leather case folder positioned upper-left, a stack of three closed law books with embossed gilt spines and a small national emblem, a precision calculator with blank display center-frame, a polished brass round company seal, a fountain pen aligned with the folder edge, reading glasses resting on a small white porcelain coffee cup on saucer. Premium legal-magazine aesthetic, neutral beige and graphite palette with warm gold accents, emphasizing the formality and administrative weight of tax compliance and corporate dissolution proceedings.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-08-12T12:26:00Z",
+  "length_status": "too_long",
+  "length_kind": "default",
+  "local_ai_markers_total": 2,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 4,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 55,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность выше 50% (~55%)",
+    "длина значительно больше лимита 6500 (8 725 знаков)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "length_too_long: 8725 > 6500 (kind=default)",
+    "spam_risk: 3 флагов (top1_count>12 (=17, лемма «стать»), top3_sum>30 (=37), top10_sum>80 (=88)), top-5: ['стать', 'ведомств', 'недоимк', 'заявител', 'месяц']",
+    "targeted_tokens_over_limit: 127фз_закон=10(>≤2)",
+    "broken_internal_links: 3 ссылок без соответствия в published_index (/articles/yur/reestr-kreditorov: slug 'reestr-kreditorov' не найден в категории 'yur' (есть: нигде); /articles/yur/konkursnoe-proizvodstvo: slug 'konkursnoe-proizvodstvo' не найден в категории 'yur' (есть: нигде); /articles/yur/osparivanie-trebovaniy-v-arbitrazhe: slug 'osparivanie-trebovaniy-v-arbitrazhe' не найден в категории 'yur' (есть: нигде))"
+  ],
+  "date_published": "2026-08-12",
+  "date_modified": "2026-08-12",
+  "ready_for_review": true,
+  "ready_at": "2026-08-12T12:26:04Z",
+  "publication_target": "telegram_review"
+}

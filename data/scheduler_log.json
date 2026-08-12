@@ -34984,5 +34984,66 @@
     "timestamp": "2026-08-12T08:44:34",
     "status": "preflight_failed",
     "reason": "rate_limit: You've hit your limit · resets 9am (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-08-12T10:00:10",
+    "category": "fiz",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 3,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "fiz-181",
+    "topic_slug": "uvolili-vo-vremya-bankrotstva-fizlica",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "forced_pass_at_iter2: блокеры пропущены, статья идёт в TG-очередь с metrics_warning=true. Было: 1 блокеров — length_too_long"
+      ],
+      "recommendations": [
+        "reduce_length: сократить до 5000-6000 знаков"
+      ],
+      "stderr_tail": ""
+    },
+    "finalize_safety_net": {
+      "ran": true,
+      "rc": 0
+    },
+    "status": "ok",
+    "slug": "uvolili-vo-vremya-bankrotstva-fizlica",
+    "duration_sec": 1943.9,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "63901     24487\n6-seo-editor        sonnet            6      14        0     91888        20\n7-publisher         haiku            20       8    36194     39548     36222\n------------------------------------------------------------------------------------------\nИТОГО                               146      82   505482    533009    505710\nBillable-токенов на статью: ~505K (cache_read 533K не считается в лимит подписки).\nАртефакты: drafts/uvolili-vo-vremya-bankrotstva-fizlica/  | quality_gate exit=0",
+    "stderr_tail": "",
+    "tokens_by_model": {},
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 8703
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]
