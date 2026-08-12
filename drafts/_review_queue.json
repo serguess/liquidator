@@ -5647,6 +5647,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "uvolili-vo-vremya-bankrotstva-fizlica",
+      "category": "fiz",
+      "title": "Потеряли работу при банкротстве: действия физлица",
+      "added_at": "2026-08-12T10:32:34.573354",
+      "char_count": 8703,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1786519950/articles/uvolili-vo-vremya-bankrotstva-fizlica-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

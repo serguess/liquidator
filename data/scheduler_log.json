@@ -34959,5 +34959,30 @@
     "stderr_tail": "[ERR] rate_limit: put_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard\",\"cache_creation\":{\"ephemeral_1h_input_tokens\":0,\"ephemeral_5m_input_tokens\":0},\"inference_geo\":\"\",\"iterations\":[],\"speed\":\"standard\"},\"modelUsage\":{},\"permission_denials\":[],\"terminal_reason\":\"completed\",\"fast_mode_state\":\"off\",\"uuid\":\"9c30168c-d759-4948-9a3e-a500a1d89b83\"}\n\n",
     "tokens_by_model": {},
     "metrics": null
+  },
+  {
+    "timestamp": "2026-08-12T08:44:26",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets 9am (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-08-12T08:44:28",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets 9am (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-08-12T08:44:30",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets 9am (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-08-12T08:44:32",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets 9am (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-08-12T08:44:34",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets 9am (Europe/Moscow)"
   }
 ]
