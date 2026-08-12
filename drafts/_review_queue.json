@@ -5686,6 +5686,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "krizisnyj-upravlyayushchij-253-fz-bankrotstvo",
+      "category": "news",
+      "title": "Кризисный управляющий при банкротстве: роль и функции",
+      "added_at": "2026-08-13T01:02:54.557060",
+      "char_count": 7471,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1786572169/articles/krizisnyj-upravlyayushchij-253-fz-bankrotstvo-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
