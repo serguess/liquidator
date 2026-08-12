@@ -5634,6 +5634,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "dosudebnaya-sanaciya-253-fz-kak-spasti-biznes",
+      "category": "news",
+      "title": "ФЗ-253: досудебная санация компании - инструкция",
+      "added_at": "2026-08-12T08:36:57.739576",
+      "char_count": 6638,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1786513012/articles/dosudebnaya-sanaciya-253-fz-kak-spasti-biznes-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

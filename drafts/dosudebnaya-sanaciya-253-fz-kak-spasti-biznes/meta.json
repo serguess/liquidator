@@ -1,0 +1,111 @@
+{
+  "slug": "dosudebnaya-sanaciya-253-fz-kak-spasti-biznes",
+  "category": "news",
+  "title": "ФЗ-253: досудебная санация компании - инструкция",
+  "description": "Что такое досудебная санация по ФЗ-253, кто может получить статус санируемого должника, процедура, сроки, условия - пошаговая инструкция для директора.",
+  "h1": "ФЗ-253 о досудебной санации: как спасти компанию от банкротства",
+  "lead": "Разбираем новый механизм из главы XII 127-ФЗ, введённый с 1 сентября 2024 года: кому доступна досудебная санация, как работает мораторий на взыскание и что ждёт компанию при неудаче.",
+  "topic_action": "досудебную санацию компании по ФЗ-253",
+  "breadcrumb_current": "Досудебная санация по ФЗ-253",
+  "og_image": "/assets/articles/dosudebnaya-sanaciya-253-fz-kak-spasti-biznes.jpg",
+  "main_keyword": "досудебная санация ФЗ-253",
+  "secondary_keywords": [
+    "как получить статус санируемого должника",
+    "процедура досудебной санации",
+    "условия досудебной санации",
+    "сроки досудебной санации",
+    "ФЗ-253 внесудебная санация",
+    "требования к санируемому должнику",
+    "как спасти компанию от банкротства",
+    "альтернатива банкротству для ООО"
+  ],
+  "intent": "informational",
+  "funnel_stage": "cold",
+  "article_type": "C",
+  "offer": "proverka-spisaniya",
+  "event_date": "2024-07-26",
+  "news_zone": "legislation",
+  "internal_links": [
+    "/articles/yur/bankrotstvo-ooo-poshagovo-2026",
+    "/articles/yur/bankrotstvo-direktora-i-kompanii-odnovremenno"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/",
+    "https://www.consultant.ru/document/cons_doc_LAW_540359/"
+  ],
+  "faq": [
+    {
+      "question": "Можно ли начать процедуру, если компания уже не платит поставщикам?",
+      "answer": "Да, просрочка - одно из типичных оснований. Главное - соответствовать условиям главы XII: хотя бы один заимодавец с требованием от 100 тысяч рублей и подходящая организационно-правовая форма."
+    },
+    {
+      "question": "Что происходит с текущими судебными исками во время моратория?",
+      "answer": "По 305-й новые иски подавать нельзя. Уже возбуждённые дела приостанавливаются на период процедуры. При успешном завершении иски прекращаются определением суда."
+    },
+    {
+      "question": "Обязательно ли нанимать арбитражного управляющего?",
+      "answer": "Нет, это принципиальное отличие от судебных процедур. Стороны действуют самостоятельно. Управленец появляется, только если суд назначит временного администратора."
+    },
+    {
+      "question": "Сколько длится процесс, если кредиторы отклоняют план?",
+      "answer": "Базовый срок - 3 месяца. Если план не утверждён на собрании, процедура завершается без результата. Дальше - либо новый круг переговоров, либо переход в судебное банкротство."
+    },
+    {
+      "question": "Чем рискует директор при переходе в судебное банкротство?",
+      "answer": "Главный риск - субсидиарная ответственность по долгам фирмы. При установленной вине руководства в доведении до несостоятельности требования кредиторов обратят на личное имущество директора и учредителей."
+    },
+    {
+      "question": "Распространяется ли мораторий на требования ФНС?",
+      "answer": "Общее правило - мораторий охватывает взыскания через приставов и суды. У налоговых требований свои особенности учёта. Проверять применимость защиты лучше на конкретных суммах вместе с юристом."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "f4 (мин. размер требований 100 тыс. руб.) имеет legislation_status needs_verification - использована safe_phrasing с оговоркой 'лучше свериться в актуальной редакции закона'",
+    "f8 (срок до 12 месяцев) имеет legislation_status needs_verification - использована safe_phrasing 'максимум до 12 месяцев в сумме'",
+    "Цифра '40% долга' из draft удалена как неподтверждённая в research.json - заменена на 'значительную часть долга'",
+    "event_date исправлена с '2026-07-26' (опечатка в brief) на '2024-07-26' (дата подписания ФЗ-253)",
+    "Все forbidden_claims отсутствуют в итоговом тексте",
+    "Внутренние ссылки на bankrotstvo-ooo-poshagovo-2026 и bankrotstvo-direktora-i-kompanii-odnovremenno добавлены; статус по published_index не верифицирован в headless-режиме"
+  ],
+  "keyword_density_main": null,
+  "main_keyword_exact_count": null,
+  "text_chars": 6638,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.09,
+  "local_spam_ngram3_repeat": 0.036,
+  "local_lexical_diversity": 0.656,
+  "local_ai_markers_density": 0.24,
+  "local_ai_markers_critical": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1786513012/articles/dosudebnaya-sanaciya-253-fz-kak-spasti-biznes-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1786513012/articles/dosudebnaya-sanaciya-253-fz-kak-spasti-biznes-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Wide editorial photograph of a private executive office — high ceilings, tall windows with heavy drapes, walnut bookshelves lining the walls, an oxblood leather chesterfield, a large mahogany desk in the foreground holding a closed thin laptop, a dark leather portfolio with documents, a brass desk lamp casting warm light, a fountain pen positioned on a brass stand, an antique pocket watch on a chain, a white porcelain cup on a saucer. Background through windows: city skyline at golden hour or evening blue. Camera: three-quarter angle, slight low-angle to emphasize the high ceiling and gravity of decision. Lighting: cool window light blended with warm tungsten desk lamp. Materials: walnut, brass, oxblood leather. Mood: senior executive weighing strategic corporate decision, the deliberation of company preservation through pre-trial restructuring.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-08-12T05:36:53Z",
+  "length_status": "too_long",
+  "length_kind": "news",
+  "local_ai_markers_total": 2,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 3,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 49,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 90,
+  "customer_risks": [
+    "длина значительно больше лимита 5500 (6 638 знаков)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "broken_internal_links: 1 ссылок без соответствия в published_index (/articles/yur/bankrotstvo-direktora-i-kompanii-odnovremenno: slug 'bankrotstvo-direktora-i-kompanii-odnovremenno' не найден в категории 'yur' (есть: нигде))"
+  ],
+  "date_published": "2026-08-12",
+  "date_modified": "2026-08-12",
+  "ready_for_review": true,
+  "ready_at": "2026-08-12T05:36:57Z",
+  "publication_target": "telegram_review"
+}
