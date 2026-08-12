@@ -3512,7 +3512,11 @@
       "news_zone": "legislation",
       "primary_source": "https://sozd.duma.gov.ru/bill/567890-8",
       "title_length": 53,
-      "description_length": 187
+      "description_length": 187,
+      "status": "rejected",
+      "rejected_at": "2026-08-12T04:00:13",
+      "rejected_reason": "event_too_old:33d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-108",
@@ -3542,7 +3546,11 @@
       "news_zone": "legislation",
       "primary_source": "https://sozd.duma.gov.ru/bill/567890-8",
       "title_length": 55,
-      "description_length": 198
+      "description_length": 198,
+      "status": "rejected",
+      "rejected_at": "2026-08-12T04:00:13",
+      "rejected_reason": "event_too_old:33d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-109",
@@ -3606,7 +3614,11 @@
       "news_zone": "legislation",
       "primary_source": "https://sozd.duma.gov.ru/bill/567890-8",
       "title_length": 57,
-      "description_length": 211
+      "description_length": 211,
+      "status": "rejected",
+      "rejected_at": "2026-08-12T04:00:13",
+      "rejected_reason": "event_too_old:33d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-111",
@@ -3696,7 +3708,11 @@
       "topic_action": "консультацию по правам в банкротстве застройщика",
       "event_date": "2026-07-09",
       "news_zone": "vs_practice",
-      "primary_source": "https://pravo.ru/news/264654/"
+      "primary_source": "https://pravo.ru/news/264654/",
+      "status": "rejected",
+      "rejected_at": "2026-08-12T04:00:13",
+      "rejected_reason": "event_too_old:34d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-114",
@@ -3850,7 +3866,11 @@
       "topic_action": "защитить счёт компании от блокировки по долгу СФР",
       "event_date": "2026-07-10",
       "news_zone": "legislation",
-      "primary_source": "https://www.klerk.ru/buh/news/699317/"
+      "primary_source": "https://www.klerk.ru/buh/news/699317/",
+      "status": "rejected",
+      "rejected_at": "2026-08-12T04:00:13",
+      "rejected_reason": "event_too_old:33d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-119",
@@ -4136,7 +4156,11 @@
       "topic_action": "проверить, не пропущен ли срок давности по вашему долгу",
       "event_date": "2026-07-11",
       "news_zone": "vs_practice",
-      "primary_source": "https://vsrf.ru/press_center/news/"
+      "primary_source": "https://vsrf.ru/press_center/news/",
+      "status": "rejected",
+      "rejected_at": "2026-08-12T04:00:13",
+      "rejected_reason": "event_too_old:32d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-128",
@@ -4196,7 +4220,11 @@
       "topic_action": "анализ возможности санации вместо банкротства",
       "event_date": "2026-07-09",
       "news_zone": "initiative",
-      "primary_source": "https://minjust.gov.ru/ru/events/50600/"
+      "primary_source": "https://minjust.gov.ru/ru/events/50600/",
+      "status": "rejected",
+      "rejected_at": "2026-08-12T04:00:13",
+      "rejected_reason": "event_too_old:34d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-130",
