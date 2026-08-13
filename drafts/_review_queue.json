@@ -5751,6 +5751,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "cb-zasedaniye-sentyabr-stavka-prognoz-dolzhniki",
+      "category": "news",
+      "title": "Прогноз ЦБ по ставкам до сентября: помощь должникам",
+      "added_at": "2026-08-14T00:59:13.077956",
+      "char_count": 6444,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1786658350/articles/cb-zasedaniye-sentyabr-stavka-prognoz-dolzhniki-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

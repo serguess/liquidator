@@ -1,0 +1,98 @@
+{
+  "slug": "cb-zasedaniye-sentyabr-stavka-prognoz-dolzhniki",
+  "category": "news",
+  "title": "Прогноз ЦБ по ставкам до сентября: помощь должникам",
+  "description": "Решение ЦБ по ключевой ставке, ожидаемое повышение, влияние на кредиты и долги должников - разбираем прогнозы.",
+  "h1": "ЦБ повышает ставку до сентября: что это значит для должников",
+  "lead": "Ежемесячный взнос по ипотеке пересчитан. На четыре с половиной тысячи больше. В ленте новостей - заголовок про новое заседание совета директоров регулятора.",
+  "topic_action": "разбор влияния ставки ЦБ на ваши долги",
+  "breadcrumb_current": "ЦБ и ставки должникам",
+  "main_keyword": "ставка цб сентябрь",
+  "secondary_keywords": [
+    "прогноз ставки цб",
+    "ключевая ставка сентябрь должники",
+    "влияние повышения ставки на кредиты",
+    "что делать должнику при росте ставки",
+    "цб повышает ставку долги",
+    "облегчение для должников от цб",
+    "рефинансирование кредита при росте ставок"
+  ],
+  "intent": "informational",
+  "funnel_stage": "cold",
+  "article_type": "B",
+  "offer": "proverka-spisaniya",
+  "news_zone": "finance",
+  "event_date": "2026-07-24",
+  "og_image": "/assets/articles/cb-zasedaniye-sentyabr-stavka-prognoz-dolzhniki.jpg",
+  "internal_links": [],
+  "external_links": [
+    "https://www.cbr.ru/press/keypr/",
+    "https://www.cbr.ru/complaints/",
+    "https://ahml.ru/"
+  ],
+  "faq": [
+    {
+      "question": "Что произойдёт с ипотечным платежом, если ставка ЦБ вырастет?",
+      "answer": "Всё зависит от типа тарифа в вашем соглашении. При закреплённой формуле сумма не сдвинется - график защищён. При переменной привязке пересчёт произойдёт по новой формуле, обычно в течение месяца после решения регулятора."
+    },
+    {
+      "question": "Плавающая или фиксированная - как найти тип ставки в своём договоре?",
+      "answer": "Смотрите раздел «Индивидуальные условия» на первых страницах. Там прямая формулировка: «фиксированная» или «переменная». Дублирующая карточка обычно доступна в личном кабинете - раздел «Мои продукты»."
+    },
+    {
+      "question": "Можно ли рефинансировать заём, если уже есть просрочки?",
+      "answer": "Крупные игроки крайне неохотно берут проблемных заёмщиков. Активная просрочка резко снижает шансы одобрения. Лучше сначала закрыть текущую задолженность у своего кредитора, дождаться обновления кредитной истории и только потом идти к другим с заявкой."
+    },
+    {
+      "question": "Куда жаловаться, если банк неправильно начислил проценты?",
+      "answer": "Сначала письменная претензия в саму организацию с требованием расчёта. При отказе или молчании - жалоба через регулятора на портале cbr.ru/complaints/. Услуга бесплатная. Ответ приходит в срок до 30 дней."
+    },
+    {
+      "question": "Почему ЦБ повышает ставку и когда она начнёт снижаться?",
+      "answer": "Регулятор поднимает базовый индикатор для сдерживания инфляции - это его прямой мандат по ценовой стабильности. Прогноз снижения зависит от инфляционных данных и внешних факторов. Точные сроки заранее не объявляются - решения принимаются от заседания к заседанию."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все основные факты (f1, f2, f3, f4, f6) используются в соответствии с safe_phrasing из research.json, last_verified 2026-08-14",
+    "Программы помощи (f5) упомянуты обтекаемо через АИЖК без конкретных гарантий, legislation_status: needs_verification учтён",
+    "Все forbidden_claims отсутствуют в тексте",
+    "Авторские формулировки «по нашему опыту», «по нашей практике» сохранены как есть"
+  ],
+  "keyword_density_main": null,
+  "main_keyword_exact_count": null,
+  "text_chars": 6444,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1786658350/articles/cb-zasedaniye-sentyabr-stavka-prognoz-dolzhniki-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1786658350/articles/cb-zasedaniye-sentyabr-stavka-prognoz-dolzhniki-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Close-to-medium architectural photograph of a massive stone government building (Central Bank façade or similar financial regulator), focusing on textures, geometric repetition, and dramatic light. Camera: extreme low-angle up the columns OR diagonal across the limestone. Lighting: hard side-light revealing every chisel mark, deep cast shadows. Foreground at base: polished brass coins in small stacks, an hourglass mid-flow suggesting time and rate changes, or sealed financial documents on weathered stone. Palette: warm sandstone, cool grey shadow, hint of moss in cracks. Mood: institutional monetary authority, the weight of regulatory decisions that affect debtors' futures, immutable financial power.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-08-13T21:59:11Z",
+  "length_status": "too_long",
+  "length_kind": "news",
+  "local_spam_top10_share": 0.103,
+  "local_spam_ngram3_repeat": 0.026,
+  "local_lexical_diversity": 0.706,
+  "local_ai_markers_density": 0.36,
+  "local_ai_markers_total": 3,
+  "local_ai_markers_critical": 0,
+  "local_ai_markers_high": 1,
+  "local_own_voice_hits": 2,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 42,
+  "predicted_ai_pct": 6,
+  "predicted_uniqueness_pct": 90,
+  "customer_risks": [
+    "длина значительно больше лимита 5500 (6 444 знаков)"
+  ],
+  "date_published": "2026-08-14",
+  "date_modified": "2026-08-14",
+  "ready_for_review": true,
+  "ready_at": "2026-08-13T21:59:13Z",
+  "publication_target": "telegram_review"
+}
