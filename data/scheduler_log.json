@@ -35350,5 +35350,69 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-08-13T14:48:10",
+    "category": "yur",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 9,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "yur-167",
+    "topic_slug": "faktoring-i-bankrotstvo-dolzhnika-prava-faktora",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "length_soft_passed: 7968 > 6500 но ≤ 8500 и iteration=2 — пропускаем (приоритет spam/uniqueness/ai)",
+        "forced_pass_at_iter2: блокеры пропущены, статья идёт в TG-очередь с metrics_warning=true. Было: 3 блокеров — spam_risk; targeted_tokens_over_limit; broken_internal_links"
+      ],
+      "recommendations": [
+        "reduce_repetition: разбавить топ-5 частотных лемм местоимениями/перифразом — ['залог', 'реестр', 'позиц', 'банкротств', 'клиент']",
+        "reduce_ст: «ст. X» × 9 → cap 5. Писать «статья X» полным словом, либо описательно («по правилу о процентах», «норма об исковой давности»). Cap 3 юр-цитаты на статью, остальное — пересказом.",
+        "fix_internal_links: заменить href на канонический /articles/{cat}/{slug} из published_index.json (см. .claude/style/editor-cheatsheet.md секция 6)"
+      ],
+      "stderr_tail": ""
+    },
+    "finalize_safety_net": {
+      "ran": true,
+      "rc": 0
+    },
+    "status": "ok",
+    "slug": "faktoring-i-bankrotstvo-dolzhnika-prava-faktora",
+    "duration_sec": 1191.1,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "25406\n6-seo-editor        sonnet            6      14    64534     28278     64554\n7-publisher         haiku            20       8    36302     39548     36330\n------------------------------------------------------------------------------------------\nИТОГО                               134      72   512360    482470    512566\nBillable-токенов на статью: ~512K (cache_read 482K не считается в лимит подписки).\nАртефакты: drafts/faktoring-i-bankrotstvo-dolzhnika-prava-faktora/  | quality_gate exit=0",
+    "stderr_tail": "",
+    "tokens_by_model": {},
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7968
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]

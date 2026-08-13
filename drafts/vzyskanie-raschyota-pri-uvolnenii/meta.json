@@ -1,0 +1,105 @@
+{
+  "slug": "vzyskanie-raschyota-pri-uvolnenii",
+  "category": "vzysk",
+  "title": "Взыскание расчёта при увольнении: как добиться выплаты",
+  "description": "Пошаговая инструкция: как взыскать задолженность работодателя по расчёту при увольнении, куда обратиться, через суд или инспекцию труда.",
+  "h1": "Взыскание расчёта при увольнении: как добиться выплаты от работодателя",
+  "lead": "Разбираем три маршрута взыскания, какой документ ускоряет оплату и что делать, если работодатель затягивает расчёт даже после письменного требования.",
+  "topic_action": "взыскание расчёта при увольнении",
+  "breadcrumb_current": "Взыскание расчёта при увольнении",
+  "og_image": "/assets/articles/vzyskanie-raschyota-pri-uvolnenii.jpg",
+  "main_keyword": "взыскание расчёта при увольнении",
+  "secondary_keywords": [
+    "как взыскать расчёт при увольнении",
+    "взыскание зарплаты при увольнении",
+    "задолженность работодателя по расчёту",
+    "невыплаченная зарплата при увольнении",
+    "как подать жалобу на работодателя за расчёт",
+    "взыскание премий и бонусов при увольнении",
+    "инспекция труда взыскание расчёта",
+    "судебное взыскание расчёта от работодателя"
+  ],
+  "internal_links": [
+    "/articles/vzysk/arest-zarplaty-pristavami-bankrotstvo"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_34683/",
+    "https://www.consultant.ru/document/cons_doc_LAW_71300/"
+  ],
+  "faq": [
+    {
+      "question": "Можно ли получить деньги без суда - только через инспекцию труда?",
+      "answer": "Иногда да. Инспектор выдаёт нанимателю предписание с конкретным сроком, и часть фирм исполняет добровольно, чтобы не получить административный штраф. Но сама инспекция денег не переводит: если предписание проигнорировано, дальше только мировой участок."
+    },
+    {
+      "question": "Сколько процентов начисляется за каждый день задержки?",
+      "answer": "1/150 ключевой ставки ЦБ от невыплаченного за каждый календарный день просрочки, включая выходные. Пеня возникает по закону автоматически, её не нужно отдельно оговаривать в договоре."
+    },
+    {
+      "question": "До какого момента можно обратиться с требованием о невыплаченной зарплате?",
+      "answer": "Один год со дня, когда деньги должны были прийти. По истечении суд вправе отказать в иске при возражении ответчика. Если период пропущен по уважительной причине - можно ходатайствовать о восстановлении."
+    },
+    {
+      "question": "Что входит в расчёт при увольнении по собственному желанию?",
+      "answer": "Оклад за отработанные дни, компенсация за неиспользованные дни отпуска, начисленные премии по положению об оплате труда, иные выплаты по трудовому договору. Основание ухода на состав выплат не влияет."
+    },
+    {
+      "question": "Чем судебный приказ отличается от обычного иска?",
+      "answer": "Приказ выдаётся без заседания и вызова сторон - за две-три недели против нескольких месяцев обычного дела. Условие: бесспорная задолженность, подтверждённая бумагами. При возражении ответчика акт отменяется, дело идёт как обычный иск."
+    },
+    {
+      "question": "Обязательно ли направлять претензию до подачи иска?",
+      "answer": "Нет, трудовой кодекс не требует претензионного порядка по зарплатным спорам. Но письменное требование полезно: оно фиксирует дату для начисления пени и иногда мотивирует оплатить добровольно, минуя суд."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все факты сверены с research.json. Большинство имеют legislation_status: active, last_verified: 2026-08-13.",
+    "Конкретный диапазон суммы морального вреда «3-15 тыс. руб.» из draft.md отсутствует в research.json (f9 не содержит числового диапазона) - заменён безопасной формулировкой «размер суд определяет по конкретным обстоятельствам дела».",
+    "f3 и f7 (судебный приказ, лимит ГПК РФ) имеют legislation_status: needs_verification; draft.md не использует конкретный денежный порог, формулировки соответствуют safe_phrasing из research.json.",
+    "Утверждение о «второй очереди кредиторов при банкротстве» (ст. 134 ФЗ-127) отсутствует в research.json, но соответствует действующей редакции закона; оставлено с осторожной формулировкой «попадают во вторую очередь... но получить всё удаётся не всегда».",
+    "Внутренняя ссылка /articles/vzysk/arest-zarplaty-pristavami-bankrotstvo перенесена из draft.md, суффикс .html удалён согласно стандарту URL. Верификация по published_index.json не проводилась в headless-режиме.",
+    "Внешние ссылки добавлены на КонсультантПлюс: ТК РФ (ст. 236) и ФЗ-229 (ст. 112). research.key_sources пуст - использованы стандартные URL документов на consultant.ru."
+  ],
+  "keyword_density_main": 0.014,
+  "main_keyword_exact_count": 2,
+  "text_chars": 8443,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.076,
+  "local_spam_ngram3_repeat": 0.016,
+  "local_lexical_diversity": 0.638,
+  "local_ai_markers_density": 0.19,
+  "local_ai_markers_critical": 0,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1786640157/articles/vzyskanie-raschyota-pri-uvolnenii-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1786640157/articles/vzyskanie-raschyota-pri-uvolnenii-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Photograph of a private office interior with low-key atmospheric lighting. Materials: deep walnut paneling, oxblood leather chesterfield in the corner, antique brass library lamp. Desk in foreground holds employment-settlement items: a closed dark leather portfolio containing severance documents, fountain pen on a brass stand, antique pocket watch on its chain, precision scientific calculator positioned beside the portfolio, reading glasses folded atop a closed leather-bound employment agreement, neat stack of banknotes. Background: blurred bookshelves or dark window with soft bokeh city lights. Camera: three-quarter angle, eye-level perspective. Lighting: warm tungsten desk lamp casting focused pools of light with deep ambient shadows. Mood: solitary determination in calculating and pursuing one's rightful wage claim.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-08-13T16:55:58Z",
+  "length_status": "too_long",
+  "length_kind": "default",
+  "local_ai_markers_total": 2,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 2,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 49,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "длина значительно больше лимита 6500 (8 443 знаков)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "targeted_tokens_over_limit: ст_сокращение=7(>≤5), РФ_рудимент=5(>≤2)",
+    "broken_internal_links: 1 ссылок без соответствия в published_index (/articles/vzysk/arest-zarplaty-pristavami-bankrotstvo: slug 'arest-zarplaty-pristavami-bankrotstvo' не найден в категории 'vzysk' (есть: fiz))"
+  ],
+  "date_published": "2026-08-13",
+  "date_modified": "2026-08-13",
+  "ready_for_review": true,
+  "ready_at": "2026-08-13T16:56:03Z",
+  "publication_target": "telegram_review"
+}
