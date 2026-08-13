@@ -5712,6 +5712,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "imushchestvo-na-rebenke-pri-bankrotstve-roditelya",
+      "category": "fiz",
+      "title": "Имущество на ребёнке при банкротстве родителей: защита",
+      "added_at": "2026-08-13T10:27:26.952374",
+      "char_count": 8772,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1786606043/articles/imushchestvo-na-rebenke-pri-bankrotstve-roditelya-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
