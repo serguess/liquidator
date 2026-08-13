@@ -5725,6 +5725,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "faktoring-i-bankrotstvo-dolzhnika-prava-faktora",
+      "category": "yur",
+      "title": "Факторинг при банкротстве должника: права фактора",
+      "added_at": "2026-08-13T15:08:02.056002",
+      "char_count": 7968,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1786622879/articles/faktoring-i-bankrotstvo-dolzhnika-prava-faktora-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

@@ -1,0 +1,111 @@
+{
+  "slug": "faktoring-i-bankrotstvo-dolzhnika-prava-faktora",
+  "category": "yur",
+  "title": "Факторинг при банкротстве должника: права фактора",
+  "description": "Как факторинговая компания защищает свои права при банкротстве должника. Очередность требований, конкурсная масса, способы взыскания. Судебная практика.",
+  "h1": "Факторинг при банкротстве должника: права и риски фактора",
+  "lead": "Разбираем, как статус залогового кредитора влияет на выплату, в какие сроки нужно войти в реестр и какие инструменты реально работают для защиты требований фактора.",
+  "topic_action": "защиту прав фактора при банкротстве должника",
+  "breadcrumb_current": "Факторинг при банкротстве",
+  "og_image": "/assets/articles/faktoring-i-bankrotstvo-dolzhnika-prava-faktora.jpg",
+  "main_keyword": "факторинг при банкротстве должника",
+  "secondary_keywords": [
+    "права фактора при банкротстве",
+    "факторинг и конкурсная масса",
+    "очередность требований фактора",
+    "факторинговое соглашение банкротство",
+    "защита прав факторинговой компании",
+    "взыскание по факторингу арбитражный суд",
+    "требования фактора кредиторы",
+    "судебная практика факторинг",
+    "финансовый управляющий фактор"
+  ],
+  "internal_links": [
+    "/articles/yur/nalogovaya-proverka-i-bankrotstvo-yurlica",
+    "/articles/news/krizisnyj-upravlyayushchij-253-fz-bankrotstvo"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/",
+    "https://www.consultant.ru/document/cons_doc_LAW_5142/"
+  ],
+  "faq": [
+    {
+      "question": "Как узнать о старте банкротства партнёра?",
+      "answer": "Официальный канал - единый федресурс сведений о несостоятельности (ЕФРСБ). Публикация появляется в первые 10 рабочих дней после введения наблюдения. Дополнительно - карточка дела на «Электронном правосудии» и коммерческие мониторинги (Casebook, Kad.arbitr)."
+    },
+    {
+      "question": "Что будет, если пропустить срок подачи в реестр?",
+      "answer": "Позиция уйдёт за реестр. Выплата по ней возможна только после полного расчёта со всеми вовремя заявленными кредиторами. При типичной нехватке активов это ноль."
+    },
+    {
+      "question": "Обязательно ли регистрировать залог и где?",
+      "answer": "Да. Движимое имущество - в нотариальном реестре уведомлений о залоге. Недвижимость - в ЕГРН. Без регистрации приоритет при банкротстве теряется."
+    },
+    {
+      "question": "Может ли управляющий оспорить сумму долга?",
+      "answer": "Может, в течение двух месяцев с момента включения позиции в реестр через арбитраж, где ведётся дело. Основания - расхождение с первичными документами, ошибки в расчёте, аффилированность сторон."
+    },
+    {
+      "question": "Как делится выручка от продажи заложенного имущества?",
+      "answer": "Залоговый кредитор получает выплату в приоритетном порядке из выручки от реализации предмета залога. Остаток идёт в резерв под первую и вторую очередь и на судебные расходы, затем - в общий пул."
+    },
+    {
+      "question": "Чем регресс отличается от безрегрессной схемы при банкротстве клиента?",
+      "answer": "При регрессной схеме финансовая организация вправе вернуться к цеденту, если конечный покупатель не заплатил. При деле цедента этот возврат превращается в обычную позицию в реестре. Безрегрессная схема таких прав не даёт - весь риск на финансовой организации."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Статус фактора как кредитора (ст. 34 127-ФЗ) - research f2, last_verified 2026-08-13, legislation_status active.",
+    "Очередность требований (ст. 64 127-ФЗ) - research f3, active. Конкретные проценты 70/20/10 удалены: в research safe_phrasing они отсутствуют, верифицированная формулировка - приоритетный порядок из выручки залога.",
+    "Срок подачи в реестр 30 дней (ст. 61 127-ФЗ) - research f6, active.",
+    "Двухмесячный срок оспаривания управляющим (ст. 62 127-ФЗ) - research f7, active.",
+    "Постановление Пленума ВС РФ № 62 от 21.11.2017 - research f9, needs_verification. Safe_phrasing использована без конкретных дел 2025-2026.",
+    "Суброгированные права (ГК РФ ст. 382-390) - research f8, needs_verification. Оговорка о проверке актуальной практики 2025-2026 сохранена в тексте.",
+    "Запрещённые утверждения (гарантия получения требования, автоматический приоритет) - не использованы.",
+    "Внутренние ссылки на /articles/yur/nalogovaya-proverka-i-bankrotstvo-yurlica и /articles/news/krizisnyj-upravlyayushchij-253-fz-bankrotstvo - требуют верификации через published_index.json перед публикацией."
+  ],
+  "keyword_density_main": 0.007,
+  "main_keyword_exact_count": 2,
+  "text_chars": 7968,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.119,
+  "local_spam_ngram3_repeat": 0.044,
+  "local_lexical_diversity": 0.603,
+  "local_ai_markers_density": 0.71,
+  "local_ai_markers_critical": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1786622879/articles/faktoring-i-bankrotstvo-dolzhnika-prava-faktora-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1786622879/articles/faktoring-i-bankrotstvo-dolzhnika-prava-faktora-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Photograph through wet glass beaded with raindrops — the camera views a contemporary financial building facade through a window. Foreground on the windowsill (sharp focus): a closed thin laptop with brushed aluminum case, a white porcelain coffee cup on a saucer, a closed leather contract folder, a fountain pen aligned across it, reading glasses resting beside. Background (soft, blurred through droplets): modern reflective glass facade of a financial services office building, distant amber street lamps glowing through mist. Camera: tight crop, eye-level. Lighting: cool overcast daylight from outside blending with warm interior desk lamp glow. Palette: cool blue-grey with warm interior pin-points. Mood: serious contemplative work, high-stakes financial analysis.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-08-13T12:08:00Z",
+  "length_status": "too_long",
+  "length_kind": "default",
+  "local_ai_markers_total": 7,
+  "local_ai_markers_high": 2,
+  "local_own_voice_hits": 4,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 57,
+  "predicted_ai_pct": 5,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность выше 50% (~57%)",
+    "длина значительно больше лимита 6500 (7 968 знаков)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "spam_risk: 4 флагов (top1_count>12 (=14, лемма «залог»), top3_sum>30 (=36), top10_sum>80 (=90), top10_share>0.115 (=0.119)), top-5: ['залог', 'реестр', 'позиц', 'банкротств', 'клиент']",
+    "targeted_tokens_over_limit: ст_сокращение=9(>≤5), 127фз_закон=7(>≤2)",
+    "broken_internal_links: 2 ссылок без соответствия в published_index (/articles/news/krizisnyj-upravlyayushchij-253-fz-bankrotstvo: slug 'krizisnyj-upravlyayushchij-253-fz-bankrotstvo' не найден в категории 'news' (есть: нигде); /articles/yur/nalogovaya-proverka-i-bankrotstvo-yurlica: slug 'nalogovaya-proverka-i-bankrotstvo-yurlica' не найден в категории 'yur' (есть: нигде))"
+  ],
+  "date_published": "2026-08-13",
+  "date_modified": "2026-08-13",
+  "ready_for_review": true,
+  "ready_at": "2026-08-13T12:08:02Z",
+  "publication_target": "telegram_review"
+}
