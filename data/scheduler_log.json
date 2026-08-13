@@ -35168,5 +35168,64 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-08-13T00:24:21",
+    "category": "news",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 6,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "news-141",
+    "topic_slug": "krizisnyj-upravlyayushchij-253-fz-bankrotstvo",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "length_soft_passed: 7471 > 5500 но ≤ 7500 и iteration=2 — пропускаем (приоритет spam/uniqueness/ai)"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "finalize_safety_net": {
+      "ran": true,
+      "rc": 0
+    },
+    "status": "ok",
+    "slug": "krizisnyj-upravlyayushchij-253-fz-bankrotstvo",
+    "duration_sec": 2312.9,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "  66365\n6-seo-editor        haiku            20       8    61346     39548     61374\n7-publisher         haiku            20       8    36248     39548     36276\n------------------------------------------------------------------------------------------\nИТОГО                               194      58   635563    603997    635815\nBillable-токенов на статью: ~635K (cache_read 603K не считается в лимит подписки).\nАртефакты: drafts/krizisnyj-upravlyayushchij-253-fz-bankrotstvo/  | quality_gate exit=0",
+    "stderr_tail": "",
+    "tokens_by_model": {},
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7471
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]

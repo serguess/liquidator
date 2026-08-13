@@ -1,0 +1,110 @@
+{
+  "slug": "reforma-bankrotstva-253-fz-izmeneniya-dlya-kreditorov",
+  "category": "news",
+  "title": "Реформа банкротства: новые права и обязанности кредиторов",
+  "description": "Что изменилось в процедурах банкротства по 253-ФЗ для кредиторов: новые сроки, требования к уведомлению, взыскание и приоритизация претензий.",
+  "h1": "Реформа банкротства 253-ФЗ: какие права получили кредиторы",
+  "lead": "С 26 июля 2026 года 253-ФЗ расширил права кредиторов: чёткий порядок уведомлений, широкие полномочия собраний и усиленный контроль над куратором процедуры.",
+  "topic_action": "консультацию по правам кредитора в процедуре банкротства",
+  "breadcrumb_current": "Реформа банкротства 253-ФЗ",
+  "og_image": "/assets/articles/reforma-bankrotstva-253-fz-izmeneniya-dlya-kreditorov.jpg",
+  "main_keyword": "реформа банкротства 253-ФЗ кредиторы",
+  "secondary_keywords": [
+    "изменения в банкротстве для кредиторов",
+    "новое в процедуре банкротства физлица",
+    "право кредитора на взыскание по новому закону",
+    "сроки подачи требований кредитора",
+    "уведомление кредиторов о банкротстве",
+    "приоритет требований кредиторов",
+    "арбитражный управляющий и кредиторы",
+    "собрание кредиторов новые правила"
+  ],
+  "intent": "informational",
+  "funnel_stage": "cold",
+  "article_type": "B",
+  "offer": "proverka-spisaniya",
+  "event_date": "2026-07-26",
+  "news_zone": "legislation",
+  "internal_links": [
+    "/articles/news/krizisnyj-upravlyayushchij-253-fz-bankrotstvo",
+    "/articles/yur/nalogovaya-proverka-i-bankrotstvo-yurlica",
+    "/articles/vzysk/kreditnye-kanikuly-prava-dolzhnika"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_540359/",
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/"
+  ],
+  "faq": [
+    {
+      "question": "Как кредитору узнать о начале банкротства должника?",
+      "answer": "Информация об открытии производства публикуется на bankrot.fedresurs.ru - бесплатно, без регистрации. Дополнительно назначенное судом лицо направляет уведомления известным ему взыскателям. С ФЗ-227 от 8 августа 2024 года «Коммерсантъ» перестал быть обязательным каналом публикации."
+    },
+    {
+      "question": "Что произойдёт с требованием, поданным после истечения установленного срока?",
+      "answer": "Претензия за реестром удовлетворяется только после расчёта с реестровыми - на практике денег на это почти никогда не хватает. Восстановить срок можно, если пропуск связан с уважительной причиной (например, взыскателя не уведомили). Решение принимает арбитражный суд."
+    },
+    {
+      "question": "Сколько голосов нужно для принятия решения на собрании кредиторов?",
+      "answer": "Решение проходит, если «за» проголосовали держатели требований, чьи суммы вместе превышают половину всех признанных реестровых претензий. По отдельным вопросам закон повышает планку."
+    },
+    {
+      "question": "Вправе ли кредитор потребовать замены арбитражного управляющего?",
+      "answer": "Да. Вопрос ставится на собрании и решается голосованием. Также претензии к действиям куратора можно обжаловать в арбитражный суд. Обычно замена инициируется, если куратор бездействует, срывает сроки или явно действует в интересах должника."
+    },
+    {
+      "question": "Чем залоговый кредитор отличается от обычного при распределении конкурсной массы?",
+      "answer": "Держатель требования с залогом получает выплаты преимущественно из стоимости заложенного имущества. Обычный ждёт своей очереди. Если после реализации залога долг закрыт не полностью, остаток уходит в общий реестр наравне с рядовыми."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "f9 (сроки 60 дней) имеет legislation_status: needs_verification - использована safe_phrasing 'как правило, шестьдесят дней' без привязки к конкретной статье ФЗ-253",
+    "f10 (приоритет требований по ФЗ-253) имеет needs_verification - в тексте описаны базовые приоритеты по ст. 134 127-ФЗ без уточнений ФЗ-253",
+    "Запрещённые утверждения из forbidden_claims отсутствуют в тексте",
+    "Все ссылки на нормы 127-ФЗ верифицированы (last_verified 2026-08-13, legislation_status: active)",
+    "Статистика 'около четверти' по третьей очереди - корпоративная, не нормативная",
+    "Внутренние ссылки из недавно коммиченных драфтов - quality_gate проверит наличие в published_index.json"
+  ],
+  "keyword_density_main": null,
+  "main_keyword_exact_count": null,
+  "text_chars": 7541,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.109,
+  "local_spam_ngram3_repeat": 0.048,
+  "local_lexical_diversity": 0.635,
+  "local_ai_markers_density": 0.32,
+  "local_ai_markers_critical": 0,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1786588100/articles/reforma-bankrotstva-253-fz-izmeneniya-dlya-kreditorov-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1786588100/articles/reforma-bankrotstva-253-fz-izmeneniya-dlya-kreditorov-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Photograph of a massive ornate brass-bound oak door to an official government building — threshold of regulatory change. Marble steps, carved stone surround. Foreground: stack of bound documents tied with cord, closed dark leather briefcase, polished round brass seal, fountain pen resting on official envelope. Camera: slight low-angle emphasizing the ascending steps. Lighting: cool morning light with long shadows crossing stone. Mood: formal passage into new regulatory era, entry into reformed procedural framework.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-08-13T02:28:21Z",
+  "length_status": "too_long",
+  "length_kind": "news",
+  "local_ai_markers_total": 3,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 2,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 51,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность чуть выше 50% (~51%)",
+    "длина значительно больше лимита 5500 (7 541 знаков)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "length_too_long: 7541 > 5500 (kind=news)",
+    "broken_internal_links: 3 ссылок без соответствия в published_index (/articles/news/krizisnyj-upravlyayushchij-253-fz-bankrotstvo: slug 'krizisnyj-upravlyayushchij-253-fz-bankrotstvo' не найден в категории 'news' (есть: нигде); /articles/yur/nalogovaya-proverka-i-bankrotstvo-yurlica: slug 'nalogovaya-proverka-i-bankrotstvo-yurlica' не найден в категории 'yur' (есть: нигде); /articles/vzysk/kreditnye-kanikuly-prava-dolzhnika: slug 'kreditnye-kanikuly-prava-dolzhnika' не найден в категории 'vzysk' (есть: нигде))"
+  ],
+  "date_published": "2026-08-13",
+  "date_modified": "2026-08-13",
+  "ready_for_review": true,
+  "ready_at": "2026-08-13T02:28:22Z",
+  "publication_target": "telegram_review"
+}

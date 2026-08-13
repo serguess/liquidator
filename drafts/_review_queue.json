@@ -5699,6 +5699,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "reforma-bankrotstva-253-fz-izmeneniya-dlya-kreditorov",
+      "category": "news",
+      "title": "Реформа банкротства: новые права и обязанности кредиторов",
+      "added_at": "2026-08-13T05:28:22.237308",
+      "char_count": 7541,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1786588100/articles/reforma-bankrotstva-253-fz-izmeneniya-dlya-kreditorov-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
