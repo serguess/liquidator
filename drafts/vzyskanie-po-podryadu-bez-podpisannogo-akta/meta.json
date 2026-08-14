@@ -1,0 +1,106 @@
+{
+  "slug": "vzyskanie-po-podryadu-bez-podpisannogo-akta",
+  "category": "vzysk",
+  "title": "Взыскание по подряду без акта работ: пошаговая инструкция",
+  "description": "Как взыскать деньги подрядчику, если работы не оформили актом. Доказательства, судебный иск, сроки, риски и практика арбитражей.",
+  "h1": "Взыскание денег по подряду без подписанного акта работ: судебный процесс и доказательства",
+  "lead": "Разбираем маршрут: чем подтвердить факт исполнения, куда подавать бумаги, за какой срок и что реально осложняет процесс.",
+  "topic_action": "взыскание задолженности по договору подряда",
+  "breadcrumb_current": "Взыскание по подряду без акта",
+  "og_image": "/assets/articles/vzyskanie-po-podryadu-bez-podpisannogo-akta.jpg",
+  "main_keyword": "взыскание по подряду без акта работ",
+  "secondary_keywords": [
+    "взыскание задолженности по подряду",
+    "подрядные работы без акта приемки",
+    "исковое заявление о взыскании по подряду",
+    "доказательства выполнения работ без акта",
+    "взыскание в арбитражном суде",
+    "договор подряда без приемки-передачи",
+    "оплата работ подрядчиком",
+    "взыскание денежных средств при отсутствии акта",
+    "судебная практика взыскания подряда",
+    "ответственность подрядчика за невыполнение"
+  ],
+  "internal_links": [
+    "/articles/vzysk/vzyskanie-cherez-arbitrazh",
+    "/articles/vzysk/ispolnitelnoye-proizvodstvo",
+    "/articles/vzysk/dosudebnoe-uregulirovanie"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_5142/",
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/"
+  ],
+  "faq": [
+    {
+      "question": "Можно ли взыскать деньги, если договор заключался только в устной форме?",
+      "answer": "Реально, но сложнее. Устная договорённость допустима между гражданами при цене до десяти тысяч (норма 702 гражданского кодекса), в остальных случаях требуется письменная форма. Однако даже при отсутствии бумаги суд может признать отношения фактически сложившимися - через переписку, платежи, показания очевидцев."
+    },
+    {
+      "question": "Что делать, если заказчик уклоняется от подписания акта?",
+      "answer": "Направить односторонний бланк заказными письмами с описью вложения и указанием разумного срока на возражения (обычно 5-10 рабочих дней). Молчание в этот период суд трактует в пользу подрядчика - как отсутствие обоснованных претензий к результату."
+    },
+    {
+      "question": "Сколько занимает рассмотрение дела в арбитражном суде?",
+      "answer": "Приказной формат - две-четыре недели. Упрощённое производство - около двух месяцев. Обычный иск в первой инстанции - от четырёх до шести месяцев, при апелляции - до года и дольше."
+    },
+    {
+      "question": "Обязательно ли направлять претензию до подачи иска?",
+      "answer": "Да. По норме 4 АПК досудебное урегулирование - обязательное условие для арбитражных споров. Срок ожидания ответа - 30 календарных дней. Пропуск шага означает возврат заявления без рассмотрения."
+    },
+    {
+      "question": "Какие материалы суд считает достаточными при отсутствии приёмки?",
+      "answer": "Оценивается совокупность (правило 65 АПК). Как правило убеждает связка из переписки, платёжки о частичной оплате, снимков объекта с датой и одного-двух свидетелей. Отдельный носитель редко работает в одиночку."
+    },
+    {
+      "question": "До какого момента подрядчик вправе обратиться с требованием об оплате?",
+      "answer": "В течение трёх лет с даты, когда узнал о просрочке платежа (норма 196 гражданского кодекса). После окончания этого периода ответчик может заявить о пропуске давности - и суд откажет в иске."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все ключевые утверждения сверены с research.json. Статусы: active. last_verified: 2026-08-14.",
+    "Основные норы: ст. 753, 702, 449, 196 ГК РФ; ст. 34, 229.2, 227, 125, 65 АПК РФ; ст. 30, 112 ФЗ-229 - все актуальны.",
+    "Запрещённые утверждения (forbidden_claims) в тексте отсутствуют.",
+    "Авторские оценки ('по нашему опыту', 'мы видим') сохранены как признак экспертного голоса."
+  ],
+  "keyword_density_main": 0.019,
+  "main_keyword_exact_count": 2,
+  "text_chars": 8733,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.09,
+  "local_spam_ngram3_repeat": 0.024,
+  "local_lexical_diversity": 0.635,
+  "local_ai_markers_density": 0.19,
+  "local_ai_markers_critical": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1786727807/articles/vzyskanie-po-podryadu-bez-podpisannogo-akta-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1786727807/articles/vzyskanie-po-podryadu-bez-podpisannogo-akta-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Low-key editorial photograph of a senior counsel's private office at night. Dark wood-paneled walls, leather-topped desk illuminated by a single warm brass library lamp casting a focused pool of light. On the desk arranged for deliberation: a closed law book with embossed gilt spine, a closed leather-bound diary with case notes, an antique brass pocket watch on a chain representing statute-of-limitation deadlines, a polished brass round seal for official correspondence, a fountain pen positioned mid-signature, and reading glasses. Camera: three-quarter angle, eye-level. Lighting: dominant warm tungsten pool on desk, deep ambient shadow elsewhere. Palette: oxblood, walnut, brass on near-black. Mood: confidential, deliberative, meticulous evidence assembly.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-08-14T17:16:48Z",
+  "length_status": "too_long",
+  "length_kind": "default",
+  "local_ai_markers_total": 2,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 3,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 49,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "длина значительно больше лимита 6500 (8 733 знаков)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "length_too_long: 8733 > 6500 (kind=default)"
+  ],
+  "date_published": "2026-08-14",
+  "date_modified": "2026-08-14",
+  "ready_for_review": true,
+  "ready_at": "2026-08-14T17:16:51Z",
+  "publication_target": "telegram_review"
+}

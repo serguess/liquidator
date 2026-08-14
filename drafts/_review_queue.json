@@ -5803,6 +5803,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "vzyskanie-po-podryadu-bez-podpisannogo-akta",
+      "category": "vzysk",
+      "title": "Взыскание по подряду без акта работ: пошаговая инструкция",
+      "added_at": "2026-08-14T20:16:51.385400",
+      "char_count": 8733,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1786727807/articles/vzyskanie-po-podryadu-bez-podpisannogo-akta-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
