@@ -5764,6 +5764,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "cb-mpl-chetvertyj-kvartal-ogranicheniya",
+      "category": "news",
+      "title": "МПЛ ЦБ: новые ограничения на ипотеку и их последствия",
+      "added_at": "2026-08-14T05:35:28.478031",
+      "char_count": 6552,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1786674924/articles/cb-mpl-chetvertyj-kvartal-ogranicheniya-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

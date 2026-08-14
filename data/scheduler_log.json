@@ -35478,5 +35478,64 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-08-14T00:24:02",
+    "category": "news",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 11,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "news-146",
+    "topic_slug": "cb-zasedaniye-sentyabr-stavka-prognoz-dolzhniki",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "length_soft_passed: 6444 > 5500 но ≤ 7500 и iteration=2 — пропускаем (приоритет spam/uniqueness/ai)"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "finalize_safety_net": {
+      "ran": true,
+      "rc": 0
+    },
+    "status": "ok",
+    "slug": "cb-zasedaniye-sentyabr-stavka-prognoz-dolzhniki",
+    "duration_sec": 2110.0,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "18717\n6-seo-editor        haiku            20       8    56738     39548     56766\n7-publisher         haiku            20      16    36322     39548     36358\n------------------------------------------------------------------------------------------\nИТОГО                               140      69   458954    416954    459163\nBillable-токенов на статью: ~459K (cache_read 416K не считается в лимит подписки).\nАртефакты: drafts/cb-zasedaniye-sentyabr-stavka-prognoz-dolzhniki/  | quality_gate exit=0",
+    "stderr_tail": "",
+    "tokens_by_model": {},
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 6444
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]
