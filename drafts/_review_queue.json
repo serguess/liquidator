@@ -5777,6 +5777,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "bank-bankrot-chto-budet-s-kreditom-zaemshchika",
+      "category": "fiz",
+      "title": "Что будет с кредитом, если банк обанкротился",
+      "added_at": "2026-08-14T10:29:02.587009",
+      "char_count": 7695,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1786692539/articles/bank-bankrot-chto-budet-s-kreditom-zaemshchika-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
