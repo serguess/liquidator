@@ -5816,6 +5816,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "nbki-kreditnye-karty-snizhenie-vydach-statistika",
+      "category": "news",
+      "title": "Выдача кредитных карт падает: статистика НБКИ",
+      "added_at": "2026-08-15T00:39:56.399051",
+      "char_count": 6649,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1786743593/articles/nbki-kreditnye-karty-snizhenie-vydach-statistika-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

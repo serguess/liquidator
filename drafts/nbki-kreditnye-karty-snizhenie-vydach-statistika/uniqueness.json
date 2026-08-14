@@ -1,0 +1,35 @@
+{
+  "slug": "nbki-kreditnye-karty-snizhenie-vydach-statistika",
+  "article_id": 503,
+  "scores": {
+    "structure_overlap": 0.0,
+    "thesis_similarity": 0.302,
+    "cta_overlap": 0.0
+  },
+  "thresholds": {
+    "structure_overlap": 0.4,
+    "thesis_similarity": 0.3,
+    "cta_overlap": 0.2
+  },
+  "passed": false,
+  "peers_compared": 23,
+  "closest_peer": "poruchitelstvo-direktora-za-dolgi-kompanii-bankrotstvo",
+  "similar_articles": [
+    {
+      "slug": "poruchitelstvo-direktora-za-dolgi-kompanii-bankrotstvo",
+      "category": "yur",
+      "similarity": 0.302
+    },
+    {
+      "slug": "kreditor-propustil-srok-bankrotstvo-otkaz-v-peresmotre",
+      "category": "news",
+      "similarity": 0.265
+    }
+  ],
+  "conflicts": [
+    "thesis_similarity: 0.302 (threshold: 0.3)"
+  ],
+  "recommendation": "rewrite_with_angle:change-perspective (closest: poruchitelstvo-direktora-za-dolgi-kompanii-bankrotstvo)",
+  "stored_in_db": true,
+  "note": "Вектор статьи записан в data/embeddings.sqlite (published=0). После публикации агент 7 переключит флаг на 1."
+}
