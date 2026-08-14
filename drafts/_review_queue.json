@@ -5790,6 +5790,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "bankrotstvo-ooo-dolgi-neskolkim-bankam",
+      "category": "yur",
+      "title": "Банкротство ООО при долгах нескольким банкам",
+      "added_at": "2026-08-14T15:27:53.364153",
+      "char_count": 9998,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1786710468/articles/bankrotstvo-ooo-dolgi-neskolkim-bankam-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

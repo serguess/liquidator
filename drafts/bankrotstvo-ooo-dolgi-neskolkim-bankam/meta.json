@@ -1,0 +1,113 @@
+{
+  "slug": "bankrotstvo-ooo-dolgi-neskolkim-bankam",
+  "category": "yur",
+  "title": "Банкротство ООО при долгах нескольким банкам",
+  "description": "Как стратегически подойти к банкротству ООО с несколькими кредиторами. Разбираем очерёдность погашения, права кредиторов и варианты спасения бизнеса.",
+  "h1": "Банкротство ООО при долгах нескольким банкам: как защитить бизнес",
+  "lead": "Три банка на другой линии, у каждого - просроченный кредит. Первый уже прислал претензию, второй молчит, третий назначил встречу «для сверки». Пока директор ищет, с кого начать разговор, любой из троих вправе первым нажать спусковой крючок и подать в арбитраж.",
+  "topic_action": "анализ ситуации с долгами ООО перед банками",
+  "breadcrumb_current": "Банкротство ООО с долгами перед банками",
+  "og_image": "/assets/articles/bankrotstvo-ooo-dolgi-neskolkim-bankam.jpg",
+  "main_keyword": "банкротство ООО при долгах нескольким банкам",
+  "secondary_keywords": [
+    "банкротство ООО долги кредиторам",
+    "банкротство организации при множественных долгах",
+    "как объявить банкротство ООО с долгами",
+    "очерёдность погашения долгов при банкротстве",
+    "судебное банкротство ООО процесс",
+    "внесудебное банкротство ООО",
+    "банкротство ООО стратегия спасения",
+    "права кредиторов при банкротстве ООО",
+    "реорганизация или банкротство ООО",
+    "процедура банкротства компании"
+  ],
+  "internal_links": [
+    "/articles/yur/vnesudebnoe-bankrotstvo-ooo",
+    "/articles/yur/likvidaciya-ooo-s-dolgami",
+    "/articles/yur/mirs-soglashenie-pri-bankrotstve"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/",
+    "https://www.consultant.ru/document/cons_doc_LAW_5142/"
+  ],
+  "faq": [
+    {
+      "question": "Может ли один банк инициировать процесс, если другие кредиторы против?",
+      "answer": "Да. При долге от 2 миллионов рублей и просрочке больше 3 месяцев согласие остальных не требуется. Мнение других участников реестра учитывается позже - на собрании, при голосовании за процедуру."
+    },
+    {
+      "question": "Что происходит с залоговым имуществом при нескольких банках-кредиторах?",
+      "answer": "Каждый залогодержатель реализует свой объект отдельно от общей массы. При нескольких обременениях на одну вещь действует хронология регистрации: старший гасится из выручки первым, младший - из остатка. Если денег хватило только на старший залог, младший переходит в шестую очередь как необеспеченный участник реестра с недостающими деньгами."
+    },
+    {
+      "question": "Какой размер долга даёт банку право подать на банкротство ООО?",
+      "answer": "С 1 июля 2024 года - от 2 миллионов рублей при просрочке более 3 месяцев. Прежний ориентир в 300 тысяч отменён поправкой ФЗ-107 от 21 июня 2024 года. Ссылки на старую планку в интернете встречаются часто, но для новых дел они уже неверны."
+    },
+    {
+      "question": "До какой стадии можно заключить мировое соглашение?",
+      "answer": "С момента введения наблюдения и вплоть до завершения конкурсного производства. Нужны голоса большинства по сумме требований и утверждение арбитражем. После утверждения дело прекращается, компания продолжает работу по условиям договора."
+    },
+    {
+      "question": "Чем лично рискует директор при финансовой несостоятельности?",
+      "answer": "Полномочиями (их забирает управляющий) и потенциальной субсидиарной ответственностью. Если доказано, что действия или бездействие руководителя привели к финансовой несостоятельности, долги могут взыскать с его личного имущества. Это отдельный судебный спор внутри дела."
+    },
+    {
+      "question": "Сколько времени занимает полная процедура?",
+      "answer": "Обычно от 12 до 24 месяцев с момента подачи первого заявления. Наблюдение - до 2 месяцев с продлением до 3, внешнее оздоровление - до 18 с продлением до 24, торги и распределение занимают от полугода. При небольших активах и согласии участников реестра процесс проходит быстрее нормативных максимумов."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все юр-утверждения сверены с research.json. Все факты - active status с last_verified в пределах 6 месяцев.",
+    "Порог банкротства: 2 млн руб. с 01.07.2024 (ФЗ-107) - актуален, прежний порог 300 тыс. отменён.",
+    "Прямое обращение банков в арбитраж (ст. 7 п. 2 абз. 2) без судебного решения - подтверждено research.",
+    "Очерёдность кредиторов (очередь 6 для необеспеченных банков) - соответствует ст. 134-137 127-ФЗ.",
+    "Залоговая иерархия (старший залог первым, младший из остатка) - ст. 131-133 127-ФЗ.",
+    "Внешнее управление (до 18/24 месяцев) как альтернатива торгам - ст. 70-108 127-ФЗ.",
+    "Мировое соглашение (требует большинства голосов по сумме, судебное утверждение) - ст. 160-170 127-ФЗ.",
+    "Сроки процедур (12-24 месяца от подачи до завершения) - согласуются с ст. 31-47 127-ФЗ.",
+    "Субсидиарная ответственность директора/контролирующего лица - ст. 61.1, ст. 61.10 127-ФЗ.",
+    "Налоговый орган имеет упрощённый порядок подачи (п. 2.1 ст. 7, ФЗ-474 от 04.08.2023) - актуально."
+  ],
+  "keyword_density_main": 0.019,
+  "main_keyword_exact_count": 2,
+  "text_chars": 9998,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.095,
+  "local_lexical_diversity": 0.596,
+  "local_ai_markers_density": 0.17,
+  "local_ai_markers_critical": 0,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1786710468/articles/bankrotstvo-ooo-dolgi-neskolkim-bankam-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1786710468/articles/bankrotstvo-ooo-dolgi-neskolkim-bankam-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Wide symmetric photograph down a long official corridor of a financial institution or courthouse — colonnaded passage with polished marble floors, paneled walls with brass sconces. Center of frame: a marble pedestal holding brass scales of justice with balanced empty pans, flanked by two closed dark leather portfolios positioned symmetrically left and right. Camera: dead-center symmetric, eye-level, slight wide-angle pulling the architectural lines into perspective. Lighting: cool natural daylight from skylights or tall windows above, creating subtle dramatic contrast. Palette: cool whites and polished greys with muted brass accents. Mood: ceremonial, gravitas of financial decision-making, institutional authority.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-08-14T12:27:49Z",
+  "length_status": "too_long",
+  "length_kind": "default",
+  "local_spam_ngram3_repeat": 0.038,
+  "local_ai_markers_total": 2,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 3,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 55,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность выше 50% (~55%)",
+    "длина значительно больше лимита 6500 (9 998 знаков)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "length_too_long: 9998 > 6500 (kind=default)"
+  ],
+  "date_published": "2026-08-14",
+  "date_modified": "2026-08-14",
+  "ready_for_review": true,
+  "ready_at": "2026-08-14T12:27:53Z",
+  "publication_target": "telegram_review"
+}
