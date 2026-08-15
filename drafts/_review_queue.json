@@ -5829,6 +5829,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "fssp-alimenty-vzyskanie-statistika-polugodie",
+      "category": "news",
+      "title": "Статистика ФССП по взысканию алиментов: +17% за полгода",
+      "added_at": "2026-08-15T05:27:46.952937",
+      "char_count": 7336,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1786760860/articles/fssp-alimenty-vzyskanie-statistika-polugodie-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
