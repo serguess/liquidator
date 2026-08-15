@@ -1,0 +1,107 @@
+{
+  "slug": "bankrotstvo-chlena-zhilishchnogo-kooperativa",
+  "category": "fiz",
+  "title": "Банкротство члена ЖСК: пай и квартира",
+  "description": "Что происходит с паем и квартирой в жилищном кооперативе при банкротстве члена. Может ли суд изъять квартиру, риски для должника.",
+  "h1": "Банкротство члена ЖСК: что будет с паем и квартирой",
+  "lead": "Разбираем, когда иммунитет единственного жилища защищает пай в кооперативе, а когда квартира всё же уходит - три сценария с разным исходом.",
+  "topic_action": "оценку рисков для квартиры в ЖСК",
+  "breadcrumb_current": "Банкротство члена ЖСК",
+  "og_image": "/assets/articles/bankrotstvo-chlena-zhilishchnogo-kooperativa.jpg",
+  "main_keyword": "банкротство члена жилищного кооператива",
+  "secondary_keywords": [
+    "пай жилищного кооператива при банкротстве",
+    "банкротство ЖСК члена",
+    "квартира в кооперативе при банкротстве",
+    "может ли суд изъять квартиру в кооперативе",
+    "имущество в жилищном кооперативе при банкротстве",
+    "защита квартиры в кооперативе от взысканий",
+    "пай члена кооператива",
+    "жилищно-строительный кооператив пайщик",
+    "права члена ЖСК при банкротстве"
+  ],
+  "internal_links": [],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/",
+    "https://www.consultant.ru/document/cons_doc_LAW_5142/"
+  ],
+  "faq": [
+    {
+      "question": "Можно ли сохранить квартиру, если это единственное жильё семьи?",
+      "answer": "Да, при двух условиях: помещение не в залоге и семья реально в нём проживает. Работает иммунитет статьи 446 ГПК. Даже если пай выплачен не полностью, судья чаще оставляет жилище за семьёй, когда других вариантов нет."
+    },
+    {
+      "question": "Что будет с текущими взносами после процедуры?",
+      "answer": "Придётся платить как обычно. Закон прямо указывает: текущие платежи на содержание дома не входят в реестр и не списываются. Всё, что копилось после принятия заявления, взыщут в обычном порядке."
+    },
+    {
+      "question": "Вправе ли ЖСК исключить пайщика из членов во время дела?",
+      "answer": "Формально да - по решению общего собрания, если взносы не вносились в установленные сроки (статья 112 закона о ЖСК). Автоматически при возбуждении процедуры это не происходит. Часто правление ждёт завершения и обсуждает рассрочку."
+    },
+    {
+      "question": "Сколько из доходов остаётся, пока идёт реализация?",
+      "answer": "В 2026 году - 20 644 рублей ежемесячно на трудоспособного человека (ФЗ-426 от 28 ноября 2025 года). На каждого иждивенца сумма увеличивается. Остальной доход управляющий направляет в реестр."
+    },
+    {
+      "question": "Отличается ли банкротство пайщика от обычного гражданина?",
+      "answer": "Отличается двумя моментами. Первое - статус объекта: до полной выплаты пая это не собственность, а имущественное право. Второе - обязательства перед кооперативом делятся на реестровые (просрочка до заявления) и текущие (не списываются никогда)."
+    },
+    {
+      "question": "Защищает ли процедура квартиру, если банк взял её в залог?",
+      "answer": "Нет. Иммунитет единственного жилища при ипотеке не работает - прямая оговорка статьи 446 ГПК. Залогодержатель вправе требовать реализации через торги, приоритет из вырученных денег - его. Процедура помогает списать другие обязательства, но не удержать жильё."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все факты сверены с research.json. Статусы: active для f1-f9, needs_verification для f10 (спорная судебная практика по статусу членства - в тексте обозначено как спорная зона, без категоричных утверждений).",
+    "Иммунитет единственного жилья (ст. 446 ГПК, абз. 2 ч. 1) - f2, legislation_status: active, last_verified 2026-08-16. Оговорка о неабсолютности иммунитета по КС РФ № 15-П присутствует в тексте (сценарий В, роскошное жильё).",
+    "Конкурсная масса (ст. 213.25 127-ФЗ) - f3, контекст применения корректен: пай входит как имущественное право, квартира при иммунитете не продаётся.",
+    "Несписываемые текущие платежи (ст. 213.28 п. 5 127-ФЗ) - f4, f8, legislation_status: active. В тексте чётко разделены реестровые (списываются) и текущие (нет).",
+    "Исключение из членства (ст. 112 Закона № 1498-I) - f5, контекст применения корректен: только по решению собрания, не автоматически.",
+    "Прожиточный минимум 20 644 руб. на 2026 год (ФЗ-426 от 28.11.2025) - f7, last_verified 2026-08-16, legislation_status: active.",
+    "Ипотечный залог: иммунитет 446-й ГПК не действует - f9, прямая оговорка абз. 2 ч. 1 ст. 446 ГПК, контекст корректен.",
+    "Спорный вопрос по f10 (членство в конкурсной массе) в тексте отражён как спорная зона без прецедентного разъяснения ВС - forbidden_claims не нарушены."
+  ],
+  "keyword_density_main": 0.011,
+  "main_keyword_exact_count": 0,
+  "text_chars": 7487,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.108,
+  "local_spam_ngram3_repeat": 0.037,
+  "local_lexical_diversity": 0.573,
+  "local_ai_markers_density": 0.32,
+  "local_ai_markers_critical": 0,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1786830320/articles/bankrotstvo-chlena-zhilishchnogo-kooperativa-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1786830320/articles/bankrotstvo-chlena-zhilishchnogo-kooperativa-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Wide editorial photograph of a private executive office — high ceilings, tall windows with heavy drapes, walnut bookshelves lining the walls, an oxblood leather chesterfield, a large mahogany desk in the foreground holding a closed leather portfolio, a brass desk lamp, a fountain pen on a stand, an antique pocket watch on a chain, a white porcelain coffee cup. Background through windows: city skyline in fog, golden hour, or blue evening. Camera: three-quarter angle, slight low-angle to emphasize ceiling. Lighting: cool window light + warm tungsten desk lamp. Mood: senior decision-maker, gravity of consequence.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-08-15T21:45:21Z",
+  "length_status": "too_long",
+  "length_kind": "default",
+  "local_ai_markers_total": 3,
+  "local_ai_markers_high": 1,
+  "local_own_voice_hits": 2,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 60,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность заметно выше 50% (~60%)",
+    "длина значительно больше лимита 6500 (7 487 знаков)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "spam_risk: 1 флагов (lexical_diversity<0.58 (=0.573)), top-5: ['стать', 'прав', 'кооператив', 'взнос', 'семь']",
+    "targeted_tokens_over_limit: ГПК_кодекс=5(>≤3)"
+  ],
+  "date_published": "2026-08-16",
+  "date_modified": "2026-08-16",
+  "ready_for_review": true,
+  "ready_at": "2026-08-15T21:45:23Z",
+  "publication_target": "telegram_review"
+}

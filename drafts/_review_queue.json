@@ -5842,6 +5842,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "bankrotstvo-chlena-zhilishchnogo-kooperativa",
+      "category": "fiz",
+      "title": "Банкротство члена ЖСК: пай и квартира",
+      "added_at": "2026-08-16T00:45:23.741628",
+      "char_count": 7487,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1786830320/articles/bankrotstvo-chlena-zhilishchnogo-kooperativa-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
