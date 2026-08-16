@@ -10622,15 +10622,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 2342,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-08-11T15:27:31",
-      "last_action_at": "2026-08-11T15:27:31",
+      "last_action_at": "2026-08-12T10:00:17",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-08-11T15:27:31"
+      "pending_batch": false,
+      "pending_batch_at": "2026-08-11T15:27:31",
+      "batch_sent_at": "2026-08-12T10:00:17",
+      "batch_fail_count": 0
     },
     "bankrotstvo-direktora-i-kompanii-odnovremenno": {
       "category": "yur",
@@ -10640,15 +10642,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 2344,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-08-11T20:23:34",
-      "last_action_at": "2026-08-11T20:23:34",
+      "last_action_at": "2026-08-12T10:00:19",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-08-11T20:23:34"
+      "pending_batch": false,
+      "pending_batch_at": "2026-08-11T20:23:34",
+      "batch_sent_at": "2026-08-12T10:00:19",
+      "batch_fail_count": 0
     },
     "vyselenie-arendatora-dolzhnika-cherez-sud": {
       "category": "vzysk",
@@ -10658,15 +10662,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 2346,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-08-12T05:41:17",
-      "last_action_at": "2026-08-12T05:41:17",
+      "last_action_at": "2026-08-12T10:00:22",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-08-12T05:41:17"
+      "pending_batch": false,
+      "pending_batch_at": "2026-08-12T05:41:17",
+      "batch_sent_at": "2026-08-12T10:00:22",
+      "batch_fail_count": 0
     },
     "dosudebnaya-sanaciya-253-fz-kak-spasti-biznes": {
       "category": "news",
@@ -10676,19 +10682,376 @@
       "versions": [
         "2.0"
       ],
+      "tg_message_id": 2348,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-08-12T08:37:19",
+      "last_action_at": "2026-08-12T10:00:24",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-08-12T08:37:19",
+      "batch_sent_at": "2026-08-12T10:00:24",
+      "batch_fail_count": 0
+    },
+    "uvolili-vo-vremya-bankrotstva-fizlica": {
+      "category": "fiz",
+      "title": "Потеряли работу при банкротстве: действия физлица",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 2350,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-08-12T10:33:20",
+      "last_action_at": "2026-08-13T10:00:08",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-08-12T10:33:20",
+      "batch_sent_at": "2026-08-13T10:00:08",
+      "batch_fail_count": 0
+    },
+    "nalogovaya-proverka-i-bankrotstvo-yurlica": {
+      "category": "yur",
+      "title": "Налоговая проверка и банкротство юрлица: защита интересов",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 2352,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-08-12T15:26:23",
+      "last_action_at": "2026-08-13T10:00:11",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-08-12T15:26:23",
+      "batch_sent_at": "2026-08-13T10:00:11",
+      "batch_fail_count": 0
+    },
+    "kreditnye-kanikuly-prava-dolzhnika": {
+      "category": "vzysk",
+      "title": "Кредитные каникулы и права должника при взыскании",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 2354,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-08-12T20:16:26",
+      "last_action_at": "2026-08-13T10:00:13",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-08-12T20:16:26",
+      "batch_sent_at": "2026-08-13T10:00:13",
+      "batch_fail_count": 0
+    },
+    "krizisnyj-upravlyayushchij-253-fz-bankrotstvo": {
+      "category": "news",
+      "title": "Кризисный управляющий при банкротстве: роль и функции",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 2356,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-08-13T01:03:29",
+      "last_action_at": "2026-08-13T10:00:15",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-08-13T01:03:29",
+      "batch_sent_at": "2026-08-13T10:00:15",
+      "batch_fail_count": 0
+    },
+    "reforma-bankrotstva-253-fz-izmeneniya-dlya-kreditorov": {
+      "category": "news",
+      "title": "Реформа банкротства: новые права и обязанности кредиторов",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 2358,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-08-13T05:29:09",
+      "last_action_at": "2026-08-13T10:00:17",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-08-13T05:29:09",
+      "batch_sent_at": "2026-08-13T10:00:17",
+      "batch_fail_count": 0
+    },
+    "imushchestvo-na-rebenke-pri-bankrotstve-roditelya": {
+      "category": "fiz",
+      "title": "Имущество на ребёнке при банкротстве родителей: защита",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 2360,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-08-13T10:28:12",
+      "last_action_at": "2026-08-14T10:00:14",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-08-13T10:28:12",
+      "batch_sent_at": "2026-08-14T10:00:13",
+      "batch_fail_count": 0
+    },
+    "faktoring-i-bankrotstvo-dolzhnika-prava-faktora": {
+      "category": "yur",
+      "title": "Факторинг при банкротстве должника: права фактора",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 2362,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-08-13T15:08:15",
+      "last_action_at": "2026-08-14T10:00:16",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-08-13T15:08:15",
+      "batch_sent_at": "2026-08-14T10:00:16",
+      "batch_fail_count": 0
+    },
+    "vzyskanie-raschyota-pri-uvolnenii": {
+      "category": "vzysk",
+      "title": "Взыскание расчёта при увольнении: как добиться выплаты",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 2364,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-08-13T19:56:18",
+      "last_action_at": "2026-08-14T10:00:18",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-08-13T19:56:18",
+      "batch_sent_at": "2026-08-14T10:00:18",
+      "batch_fail_count": 0
+    },
+    "cb-zasedaniye-sentyabr-stavka-prognoz-dolzhniki": {
+      "category": "news",
+      "title": "Прогноз ЦБ по ставкам до сентября: помощь должникам",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 2366,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-08-14T00:59:22",
+      "last_action_at": "2026-08-14T10:00:20",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-08-14T00:59:22",
+      "batch_sent_at": "2026-08-14T10:00:20",
+      "batch_fail_count": 0
+    },
+    "cb-mpl-chetvertyj-kvartal-ogranicheniya": {
+      "category": "news",
+      "title": "МПЛ ЦБ: новые ограничения на ипотеку и их последствия",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 2368,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-08-14T05:36:14",
+      "last_action_at": "2026-08-14T10:00:22",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-08-14T05:36:14",
+      "batch_sent_at": "2026-08-14T10:00:22",
+      "batch_fail_count": 0
+    },
+    "bank-bankrot-chto-budet-s-kreditom-zaemshchika": {
+      "category": "fiz",
+      "title": "Что будет с кредитом, если банк обанкротился",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 2370,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-08-14T10:29:17",
+      "last_action_at": "2026-08-16T10:00:21",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-08-14T10:29:17",
+      "batch_fail_count": 0,
+      "batch_sent_at": "2026-08-16T10:00:21"
+    },
+    "bankrotstvo-ooo-dolgi-neskolkim-bankam": {
+      "category": "yur",
+      "title": "Банкротство ООО при долгах нескольким банкам",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 2372,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-08-14T15:28:20",
+      "last_action_at": "2026-08-16T10:00:23",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-08-14T15:28:20",
+      "batch_fail_count": 0,
+      "batch_sent_at": "2026-08-16T10:00:23"
+    },
+    "vzyskanie-po-podryadu-bez-podpisannogo-akta": {
+      "category": "vzysk",
+      "title": "Взыскание по подряду без акта работ: пошаговая инструкция",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 2374,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-08-14T20:17:23",
+      "last_action_at": "2026-08-16T10:00:25",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-08-14T20:17:23",
+      "batch_fail_count": 0,
+      "batch_sent_at": "2026-08-16T10:00:25"
+    },
+    "nbki-kreditnye-karty-snizhenie-vydach-statistika": {
+      "category": "news",
+      "title": "Выдача кредитных карт падает: статистика НБКИ",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 2376,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-08-15T00:40:26",
+      "last_action_at": "2026-08-16T10:00:27",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-08-15T00:40:26",
+      "batch_fail_count": 0,
+      "batch_sent_at": "2026-08-16T10:00:27"
+    },
+    "fssp-alimenty-vzyskanie-statistika-polugodie": {
+      "category": "news",
+      "title": "Статистика ФССП по взысканию алиментов: +17% за полгода",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
       "tg_message_id": null,
       "tg_chat_id": null,
-      "first_seen_at": "2026-08-12T08:37:19",
-      "last_action_at": "2026-08-12T08:37:19",
+      "first_seen_at": "2026-08-15T05:28:16",
+      "last_action_at": "2026-08-15T10:00:24",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
       "pending_batch": true,
-      "pending_batch_at": "2026-08-12T08:37:19"
+      "pending_batch_at": "2026-08-15T05:28:16",
+      "batch_fail_count": 1
+    },
+    "bankrotstvo-chlena-zhilishchnogo-kooperativa": {
+      "category": "fiz",
+      "title": "Банкротство члена ЖСК: пай и квартира",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 2378,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-08-16T00:45:28",
+      "last_action_at": "2026-08-16T10:00:29",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-08-16T00:45:28",
+      "batch_sent_at": "2026-08-16T10:00:29",
+      "batch_fail_count": 0
+    },
+    "ogranicheniya-direktora-v-nablyudenii-bankrotstvo": {
+      "category": "yur",
+      "title": "Ограничения директора в период наблюдения при банкротстве",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-08-16T05:31:21",
+      "last_action_at": "2026-08-16T05:31:21",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-08-16T05:31:21"
+    },
+    "bank-otkazal-v-restrukturizacii-chto-delat-bankrotstvo": {
+      "category": "fiz",
+      "title": "Банк отказал в реструктуризации: выход через банкротство",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-08-16T10:53:24",
+      "last_action_at": "2026-08-16T10:53:24",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-08-16T10:53:24"
     }
   },
   "pending_actions": [],
-  "last_batch_date": "2026-08-11",
-  "last_batch_count": 3,
-  "last_batch_at": "2026-08-11T10:00:28"
+  "last_batch_date": "2026-08-16",
+  "last_batch_count": 5,
+  "last_batch_at": "2026-08-16T10:00:29"
 }
