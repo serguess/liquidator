@@ -35979,5 +35979,68 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-08-16T05:12:07",
+    "category": "yur",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 19,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "yur-169",
+    "topic_slug": "ogranicheniya-direktora-v-nablyudenii-bankrotstvo",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "forced_pass_at_iter2: блокеры пропущены, статья идёт в TG-очередь с metrics_warning=true. Было: 3 блокеров — length_too_long; targeted_tokens_over_limit; broken_internal_links"
+      ],
+      "recommendations": [
+        "reduce_length: сократить до 5000-6000 знаков",
+        "reduce_ООО: «ООО» × 6 → cap 3. В авторском тексте «юридическое лицо» / «компания» / «организация». «ООО» только в конкретных кейсах из research.json.",
+        "fix_internal_links: заменить href на канонический /articles/{cat}/{slug} из published_index.json (см. .claude/style/editor-cheatsheet.md секция 6)"
+      ],
+      "stderr_tail": ""
+    },
+    "finalize_safety_net": {
+      "ran": true,
+      "rc": 0
+    },
+    "status": "ok",
+    "slug": "ogranicheniya-direktora-v-nablyudenii-bankrotstvo",
+    "duration_sec": 1125.1,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "30\n6-seo-editor        sonnet            6      14    61914     28278     61934\n7-publisher         haiku            20       8    36292     39548     36320\n------------------------------------------------------------------------------------------\nИТОГО                               226     117   637243   1016538    637586\nBillable-токенов на статью: ~637K (cache_read 1016K не считается в лимит подписки).\nАртефакты: drafts/ogranicheniya-direktora-v-nablyudenii-bankrotstvo/  | quality_gate exit=0",
+    "stderr_tail": "",
+    "tokens_by_model": {},
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 8545
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]

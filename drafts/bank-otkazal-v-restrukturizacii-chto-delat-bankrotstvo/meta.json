@@ -1,0 +1,111 @@
+{
+  "slug": "bank-otkazal-v-restrukturizacii-chto-delat-bankrotstvo",
+  "category": "fiz",
+  "title": "Банк отказал в реструктуризации: выход через банкротство",
+  "description": "Что делать, если банк отказал в реструктуризации долга. Когда банкротство - выход из ситуации, условия и процедура признания несостоятельности.",
+  "h1": "Банк отказал в реструктуризации: когда выход - банкротство",
+  "lead": "При отказе банка в реструктуризации доступны четыре пути: судебное изменение договора, рефинансирование, мировое соглашение или признание себя банкротом.",
+  "topic_action": "оценку ситуации по банкротству",
+  "breadcrumb_current": "Отказ банка в реструктуризации",
+  "og_image": "/assets/articles/bank-otkazal-v-restrukturizacii-chto-delat-bankrotstvo.jpg",
+  "main_keyword": "банк отказал в реструктуризации что делать",
+  "secondary_keywords": [
+    "отказ банка в реструктуризации долга",
+    "реструктуризация кредита отказ",
+    "что делать если отказали в реструктуризации",
+    "банкротство после отказа в реструктуризации",
+    "как получить реструктуризацию кредита",
+    "процедура реструктуризации долга",
+    "альтернатива реструктуризации",
+    "банкротство физического лица выход",
+    "признание несостоятельности физлица",
+    "освобождение от долгов банку"
+  ],
+  "internal_links": [
+    "/articles/fiz/bankovskie-scheta-pri-bankrotstve",
+    "/articles/fiz/alimenty-pri-bankrotstve-fizlica",
+    "/articles/fiz/avtomobil-pri-bankrotstve-fizlica"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_5142/",
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/",
+    "https://www.consultant.ru/document/cons_doc_LAW_39744/"
+  ],
+  "faq": [
+    {
+      "question": "Может ли займодавец подать заявление без предварительного судебного решения?",
+      "answer": "Да. Кредитная организация направляет документы напрямую, если требование основано на кредитном договоре. Промежуточное взыскание через мировой или районный участок не требуется. Условие - долг от полумиллиона и просрочка от трёх месяцев."
+    },
+    {
+      "question": "Сколько стоит подать заявление в 2026 году?",
+      "answer": "Государственная пошлина для гражданина - ноль рублей с 8 сентября 2024 года (льгота по НК). Обязательный платёж - депозит на вознаграждение управляющего 25 000 рублей за одну процедуру. По ходатайству судья вправе дать отсрочку до первого заседания."
+    },
+    {
+      "question": "Что из собственности остаётся у должника при реализации?",
+      "answer": "Единственное жильё вне залога, предметы обихода, одежда, продукты, инструменты для работы. Из дохода ежемесячно исключается прожиточный минимум (20 644 рублей в 2026 году на взрослого), плюс защищённая планка на каждого иждивенца."
+    },
+    {
+      "question": "Спишут ли ипотечный остаток, если банк отказал в пересмотре?",
+      "answer": "Обязательство спишется, но залоговая квартира уйдёт в реализацию - иммунитет единственного жилья при ипотеке не действует. Разница между ценой продажи и остатком распределяется по общим правилам. Про автомобиль при банкротстве - в отдельной статье."
+    },
+    {
+      "question": "Чем мировое соглашение отличается от судебного плана погашения?",
+      "answer": "Мировое - двусторонняя договорённость вне процедуры, займодавец должен согласиться. План погашения - этап внутри дела о признании физлица финансово несостоятельным, требуется стабильный доход. Первое - переговоры, второе - процессуальный инструмент."
+    },
+    {
+      "question": "Обязательно ли ждать три месяца просрочки перед подачей?",
+      "answer": "Нет. Трёхмесячный срок и планка полумиллиона - критерии для кредитора. Сам гражданин вправе обратиться при любой сумме и в любой момент, если появились признаки неплатёжеспособности. Ожидание не поможет - обязательства продолжат расти."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все юридические утверждения сверены с research.json. Статусы: active. last_verified не старше 6 месяцев.",
+    "Сумма депозита 25 000 руб. актуальна (ст. 20.6 п. 3, п. 17 127-ФЗ).",
+    "Госпошлина 0 руб. действует с 08.09.2024 (ФЗ-176 от 12.07.2024, ст. 333.37 НК РФ).",
+    "Прожиточный минимум 20 644 руб. на 2026 год (ФЗ от 28.11.2025 № 426-ФЗ).",
+    "Постановление КС РФ № 15-П от 26.04.2021 приводится с оговоркой о неабсолютности иммунитета единственного жилья.",
+    "Установленные ограничения после банкротства (ст. 213.30) представлены полностью и верно."
+  ],
+  "keyword_density_main": null,
+  "main_keyword_exact_count": 0,
+  "text_chars": 8618,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.082,
+  "local_spam_ngram3_repeat": 0.045,
+  "local_lexical_diversity": 0.64,
+  "local_ai_markers_density": 0.19,
+  "local_ai_markers_critical": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1786866772/articles/bank-otkazal-v-restrukturizacii-chto-delat-bankrotstvo-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1786866772/articles/bank-otkazal-v-restrukturizacii-chto-delat-bankrotstvo-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Street-level exterior photograph of a contemporary banking facade in heavy rain and evening dusk. Camera angled slightly upward, with a puddle in the immediate foreground reflecting the illuminated glass doors upside-down. Distant silhouettes of solitary pedestrians with black umbrellas (faceless, far away) retreating from the entrance. Wet polished stone steps, oxidized brass plaque on the pillar with no readable text. Soft amber lampposts glow warmly through dense rain and fog. Palette: cool blue-grey wet cityscape with warm amber accent lights. Mood: finality and institutional refusal—the cold moment when the doors close against the applicant.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-08-16T07:52:53Z",
+  "length_status": "too_long",
+  "length_kind": "default",
+  "local_ai_markers_total": 2,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 2,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 51,
+  "predicted_ai_pct": 6,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность чуть выше 50% (~51%)",
+    "длина значительно больше лимита 6500 (8 618 знаков)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "length_too_long: 8618 > 6500 (kind=default)",
+    "author_markers_missing: 1 < 2"
+  ],
+  "date_published": "2026-08-16",
+  "date_modified": "2026-08-16",
+  "ready_for_review": true,
+  "ready_at": "2026-08-16T07:52:57Z",
+  "publication_target": "telegram_review"
+}

@@ -5868,6 +5868,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "bank-otkazal-v-restrukturizacii-chto-delat-bankrotstvo",
+      "category": "fiz",
+      "title": "Банк отказал в реструктуризации: выход через банкротство",
+      "added_at": "2026-08-16T10:52:57.868507",
+      "char_count": 8618,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1786866772/articles/bank-otkazal-v-restrukturizacii-chto-delat-bankrotstvo-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
