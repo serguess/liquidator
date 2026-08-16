@@ -5855,6 +5855,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "ogranicheniya-direktora-v-nablyudenii-bankrotstvo",
+      "category": "yur",
+      "title": "Ограничения директора в период наблюдения при банкротстве",
+      "added_at": "2026-08-16T05:30:52.800420",
+      "char_count": 8545,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1786847446/articles/ogranicheniya-direktora-v-nablyudenii-bankrotstvo-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
