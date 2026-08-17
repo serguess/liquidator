@@ -1,0 +1,114 @@
+{
+  "slug": "bankrotstvo-pri-potere-raboty-fizlica",
+  "category": "fiz",
+  "title": "Банкротство при потере работы: пошаговая инструкция",
+  "description": "Как подать на банкротство, если потеряли работу и не можете платить по кредитам. Пошаговая инструкция, документы, сроки и варианты освобождения от долгов.",
+  "h1": "Банкротство физлица при потере работы: как пройти процедуру пошагово",
+  "lead": "Разбираем, когда уволенный вправе идти в арбитраж без минимального порога долга, почему МФЦ закрыт при безработице, сколько стоит подача и что реально спишется.",
+  "topic_action": "проверку возможности списания долгов",
+  "breadcrumb_current": "Банкротство при потере работы",
+  "og_image": "/assets/articles/bankrotstvo-pri-potere-raboty-fizlica.jpg",
+  "main_keyword": "банкротство при потере работы физлица",
+  "secondary_keywords": [
+    "как подать на банкротство при потере работы",
+    "банкротство физлица пошагово",
+    "потеря работы кредиты как освободиться",
+    "процедура банкротства физического лица",
+    "документы для банкротства физлица",
+    "судебное банкротство физлица",
+    "внесудебное банкротство при долгах",
+    "как освободиться от долгов если нет работы",
+    "реструктуризация долгов физлица",
+    "финансовый управляющий для банкротства"
+  ],
+  "internal_links": [
+    "/articles/fiz/arest-zarplaty-pristavami-bankrotstvo",
+    "/articles/fiz/bankovskie-scheta-pri-bankrotstve",
+    "/articles/fiz/alimenty-pri-bankrotstve-fizlica"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/"
+  ],
+  "faq": [
+    {
+      "question": "Можно ли подать заявление сразу после увольнения, до появления просрочки?",
+      "answer": "Да. Пункт 2 ст. 213.4 127-ФЗ допускает обращение при признаках неплатёжеспособности, а не по факту наступивших задержек. Суду понадобятся доказательства: расчёт бюджета, отсутствие сбережений, минимум одно неисполненное требование."
+    },
+    {
+      "question": "Что происходит с пособием по безработице во время процедуры банкротства?",
+      "answer": "Пособие поступает на счёт под управлением финансового управляющего. Ежемесячно выделяется прожиточный минимум (20 644 руб. в 2026 году), остаток направляется в имущественный массив - так же, как зарплата."
+    },
+    {
+      "question": "Обязательно ли иметь имущество, чтобы суд принял заявление?",
+      "answer": "Нет. При отсутствии активов дело ведётся в обычном порядке - это «банкротство без имущества». Итог тот же: освобождение от долгов, если суд не найдёт признаков недобросовестности."
+    },
+    {
+      "question": "Сколько длится процедура, если нет ни работы, ни активов?",
+      "answer": "Ориентир для несложного дела - 6-9 месяцев: 1-3 кредитора, чистая история сделок. Если кредиторы оспаривают прошлые продажи или ищут скрытые счета, сроки растягиваются до 12-15 месяцев."
+    },
+    {
+      "question": "Какие долги не спишутся даже после завершения банкротства?",
+      "answer": "Не списываются: алименты, компенсации за вред здоровью и смерть кормильца, текущие коммунальные платежи после признания банкротом, зарплатные долги перед работниками, ущерб из умысла или грубой неосторожности (ст. 213.28 п. 5-6 127-ФЗ)."
+    },
+    {
+      "question": "Нужно ли сообщать управляющему о новом трудоустройстве?",
+      "answer": "Да, и немедленно. Управляющий видит все банковские поступления - скрыть факт не получится. Часть зарплаты сверх прожиточного минимума пойдёт на расчёты с кредиторами."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все факты сверены с research.json. Статусы: active, last_verified: 2026-08-18 для всех ключевых утверждений.",
+    "Ст. 213.4 п. 2: право подать без лимита долга при признаках неплатёжеспособности - подтверждено f1.",
+    "Ст. 213.4 п. 1: обязанность при долге ≥500 000 руб. и просрочке >90 дней, срок 30 рабочих дней - подтверждено f2.",
+    "МФЦ (ст. 223.2): 4 основания, потеря работы не входит - подтверждено f3.",
+    "Реструктуризация требует дохода (ст. 213.13 п. 1) - подтверждено f4.",
+    "Госпошлина 0 руб. с 08.09.2024 (ФЗ-176, ст. 333.37 НК РФ) - подтверждено f8. Устаревшая ставка 300 руб. в тексте отсутствует.",
+    "Депозит 25 000 руб. (ст. 213.4 п. 4, ст. 20.6 п. 3) - подтверждено f9.",
+    "ПМ 2026: 20 644 руб. (ФЗ-426 от 28.11.2025) - подтверждено f7.",
+    "Пособие по безработице не защищено от включения в имущественный массив (ст. 101 ФЗ-229) - подтверждено f14.",
+    "Ограничения после завершения: 3/5/10 лет (ст. 213.30 п. 3) - подтверждено f13.",
+    "7% вознаграждения управляющего с выручки - норма ст. 20.6 п. 17 127-ФЗ, не зафиксирована отдельным фактом в research.json, но не противоречит исследованию; формулировка «только при реализации имущества» корректна.",
+    "Постановление КС РФ №15-П от 26.04.2021 о роскошном жилье - оговорка о неабсолютности иммунитета присутствует корректно.",
+    "Запрещённые формулировки из forbidden_claims: гарантия списания - отсутствует; МФЦ при потере работы доступно - опровергнуто; госпошлина 300 руб. - отсутствует; пособие защищено - опровергнуто."
+  ],
+  "keyword_density_main": 0.015,
+  "main_keyword_exact_count": 2,
+  "text_chars": 8410,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.091,
+  "local_spam_ngram3_repeat": 0.021,
+  "local_lexical_diversity": 0.667,
+  "local_ai_markers_density": 0.19,
+  "local_ai_markers_critical": 0,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1787004027/articles/bankrotstvo-pri-potere-raboty-fizlica-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1787004027/articles/bankrotstvo-pri-potere-raboty-fizlica-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Editorial photograph of a working desk in a modern business interior. Camera: slight overhead three-quarter angle. On the walnut desktop: a closed thin laptop suggesting lost employment, a leather folder with bankruptcy documentation, a blank-spine notebook for step-by-step planning, a fountain pen positioned ready for signing official forms, reading glasses resting on an open legal page, a white porcelain coffee cup on a saucer indicating long deliberation. Materials: walnut top, brushed steel, leather inlay. Background: stone-and-wood feature wall or city skyline through tall windows, softly blurred. Lighting: directional warm light from upper left creating soft shadows that emphasize careful decision-making. Palette: warm walnut, neutral cream, subtle brass accents. Mood: determined recovery, taking control after job loss through methodical process.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-08-17T22:00:29Z",
+  "length_status": "too_long",
+  "length_kind": "default",
+  "local_ai_markers_total": 2,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 3,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 47,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 90,
+  "customer_risks": [
+    "длина значительно больше лимита 6500 (8 410 знаков)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "targeted_tokens_over_limit: 127фз_закон=3(>≤2)"
+  ],
+  "date_published": "2026-08-18",
+  "date_modified": "2026-08-18",
+  "ready_for_review": true,
+  "ready_at": "2026-08-17T22:00:33Z",
+  "publication_target": "telegram_review"
+}

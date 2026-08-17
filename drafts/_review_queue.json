@@ -5881,6 +5881,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "bankrotstvo-pri-potere-raboty-fizlica",
+      "category": "fiz",
+      "title": "Банкротство при потере работы: пошаговая инструкция",
+      "added_at": "2026-08-18T01:00:33.856026",
+      "char_count": 8410,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1787004027/articles/bankrotstvo-pri-potere-raboty-fizlica-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
