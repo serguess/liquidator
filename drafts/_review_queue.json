@@ -5920,6 +5920,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "subsidiarka-pri-likvidacii-ooo-direktora",
+      "category": "yur",
+      "title": "Субсидиарная ответственность директора при ликвидации ООО",
+      "added_at": "2026-08-18T20:21:10.803295",
+      "char_count": 9686,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1787073664/articles/subsidiarka-pri-likvidacii-ooo-direktora-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

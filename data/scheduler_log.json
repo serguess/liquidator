@@ -36439,5 +36439,64 @@
     "timestamp": "2026-08-18T10:00:06",
     "status": "preflight_failed",
     "reason": "rate_limit: You've hit your limit · resets 1:30pm (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-08-18T14:48:06",
+    "category": "fiz",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 26,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "fiz-187",
+    "topic_slug": "proverka-dolzhnika-na-bankrotstvo-efrsb",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "length_soft_passed: 7133 > 6500 но ≤ 8500 и iteration=2 — пропускаем (приоритет spam/uniqueness/ai)"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "finalize_safety_net": {
+      "ran": true,
+      "rc": 0
+    },
+    "status": "ok",
+    "slug": "proverka-dolzhnika-na-bankrotstvo-efrsb",
+    "duration_sec": 2437.1,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "786     50850\n6-seo-editor        haiku            20       8    65150     39548     65178\n7-publisher         haiku            20       8    36180     39548     36208\n------------------------------------------------------------------------------------------\nИТОГО                               172      77   687583    544472    687832\nBillable-токенов на статью: ~687K (cache_read 544K не считается в лимит подписки).\nАртефакты: drafts/proverka-dolzhnika-na-bankrotstvo-efrsb/  | quality_gate exit=0",
+    "stderr_tail": "",
+    "tokens_by_model": {},
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7133
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]
