@@ -5894,6 +5894,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "cb-rezyume-iyulskogo-zasedaniya-stavka",
+      "category": "news",
+      "title": "Резюме июльского заседания ЦБ и аргументы за снижение",
+      "added_at": "2026-08-18T08:48:30.959124",
+      "char_count": 6108,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1787032109/articles/cb-rezyume-iyulskogo-zasedaniya-stavka-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
