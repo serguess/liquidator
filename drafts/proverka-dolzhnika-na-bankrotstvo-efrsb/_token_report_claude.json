@@ -1,0 +1,88 @@
+{
+  "agents": [
+    {
+      "input": 20,
+      "output": 10,
+      "cache_creation": 66950,
+      "cache_read": 0,
+      "total_billable": 66980,
+      "seconds": 19.8,
+      "attempts": 1,
+      "agent": "1-semantics",
+      "model": "haiku"
+    },
+    {
+      "input": 82,
+      "output": 33,
+      "cache_creation": 196615,
+      "cache_read": 337590,
+      "total_billable": 196730,
+      "seconds": 98.0,
+      "attempts": 1,
+      "agent": "2-legal-research",
+      "model": "haiku"
+    },
+    {
+      "input": 6,
+      "output": 14,
+      "cache_creation": 100726,
+      "cache_read": 0,
+      "total_billable": 100746,
+      "seconds": 350.3,
+      "attempts": 1,
+      "agent": "3-architect",
+      "model": "sonnet"
+    },
+    {
+      "input": 12,
+      "output": 2,
+      "cache_creation": 171126,
+      "cache_read": 0,
+      "total_billable": 171140,
+      "seconds": 208.6,
+      "attempts": 1,
+      "agent": "4-writer",
+      "model": "opus"
+    },
+    {
+      "input": 12,
+      "output": 2,
+      "cache_creation": 50836,
+      "cache_read": 127786,
+      "total_billable": 50850,
+      "seconds": 101.3,
+      "attempts": 1,
+      "agent": "4-writer(fix)",
+      "model": "opus"
+    },
+    {
+      "input": 20,
+      "output": 8,
+      "cache_creation": 65150,
+      "cache_read": 39548,
+      "total_billable": 65178,
+      "seconds": 140.0,
+      "attempts": 1,
+      "agent": "6-seo-editor",
+      "model": "haiku"
+    },
+    {
+      "input": 20,
+      "output": 8,
+      "cache_creation": 36180,
+      "cache_read": 39548,
+      "total_billable": 36208,
+      "seconds": 47.1,
+      "attempts": 1,
+      "agent": "7-publisher",
+      "model": "haiku"
+    }
+  ],
+  "totals": {
+    "input": 172,
+    "output": 77,
+    "cache_creation": 687583,
+    "cache_read": 544472,
+    "total_billable": 687832
+  }
+}

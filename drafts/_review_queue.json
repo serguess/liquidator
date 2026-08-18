@@ -5907,6 +5907,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "proverka-dolzhnika-na-bankrotstvo-efrsb",
+      "category": "fiz",
+      "title": "Как проверить физлицо на банкротство по ЕФРСБ",
+      "added_at": "2026-08-18T15:28:43.477842",
+      "char_count": 7133,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1787056120/articles/proverka-dolzhnika-na-bankrotstvo-efrsb-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

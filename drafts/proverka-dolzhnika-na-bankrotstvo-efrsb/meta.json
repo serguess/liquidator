@@ -1,0 +1,103 @@
+{
+  "slug": "proverka-dolzhnika-na-bankrotstvo-efrsb",
+  "category": "fiz",
+  "title": "Как проверить физлицо на банкротство по ЕФРСБ",
+  "description": "Пошаговая инструкция по проверке физлица на банкротство через реестр ЕФРСБ, поиск должника и трактовка статуса.",
+  "h1": "Как проверить физлицо на банкротство по реестру ЕФРСБ: пошаговая инструкция",
+  "lead": "Открытая база на портале bankrot.fedresurs.ru покажет главное: идёт ли у человека банкротное дело, на каком этапе, был ли он в этом положении раньше. Данные бесплатны, регистрация не нужна.",
+  "topic_action": "проверку возможности списания долгов",
+  "breadcrumb_current": "Проверка физлица по ЕФРСБ",
+  "og_image": "/assets/articles/proverka-dolzhnika-na-bankrotstvo-efrsb.jpg",
+  "main_keyword": "как проверить физлицо на банкротство",
+  "secondary_keywords": [
+    "проверка по реестру ЕФРСБ",
+    "поиск физлица в реестре банкротства",
+    "как узнать статус банкротства должника",
+    "проверка физлица на признак несостоятельности",
+    "ЕФРСБ физические лица",
+    "реестр банкротства физлиц",
+    "когда физлицо признано банкротом",
+    "как найти информацию о банкротстве человека"
+  ],
+  "internal_links": [
+    "/articles/fiz/bankovskie-scheta-pri-bankrotstve",
+    "/articles/fiz/alimenty-pri-bankrotstve-fizlica"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/",
+    "https://bankrot.fedresurs.ru/"
+  ],
+  "faq": [
+    {
+      "question": "Платно ли смотреть в базу?",
+      "answer": "Нет. Портал открыт для всех бесплатно и без регистрации. Открытость прямо закреплена законом о банкротстве."
+    },
+    {
+      "question": "Реструктуризация - это уже банкротство?",
+      "answer": "Формально нет. При утверждённом плане гражданин ещё не имеет статуса банкрота. Если план исполнен полностью, банкротного финала может не быть вовсе."
+    },
+    {
+      "question": "Сколько лет запись висит после закрытия?",
+      "answer": "Минимум три года. Дальше сведения архивируются, но не удаляются. Найти давнюю процедуру технически возможно и через десять лет."
+    },
+    {
+      "question": "Можно ли искать только по фамилии?",
+      "answer": "По одной фамилии - да, но выдача будет большой. Точный поиск требует ФИО плюс дату рождения. Паспортные данные помогают отсеять полных однофамильцев в крупных городах."
+    },
+    {
+      "question": "В базе ошибка в моих данных - куда обращаться?",
+      "answer": "К финансовому управляющему по вашему делу; его контакт есть в той же карточке. Если процедура уже закрыта - в его саморегулируемую организацию или через ФССП."
+    },
+    {
+      "question": "Надо ли сообщать о статусе банкам при новом кредите?",
+      "answer": "Да, в течение пяти лет с даты закрытия. Умолчание может стать основанием для отказа в списании при повторной процедуре."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все утверждения сверены с research.json. Ключевые факты подтверждены источниками из 127-ФЗ.",
+    "Открытость ЕФРСБ без регистрации: ст. 31 п. 2 127-ФЗ (f6, f1).",
+    "Сроки публикации в реестре: МФЦ за 3 рабочих дня, суд за 3 дня с возбуждения - ст. 223.4, ст. 214 127-ФЗ (f7).",
+    "Внесудебное банкротство 6 месяцев: ст. 223.2 п. 2 127-ФЗ (f9).",
+    "Реструктуризация до 5 лет: ст. 213.13-213.24 127-ФЗ (f10).",
+    "Хранение в реестре: минимум 3 года после завершения, ст. 214 п. 3 127-ФЗ (f4).",
+    "Ограничения после банкротства по ст. 213.30: 5 лет об уведомлении кредиторам, 3 года запрет на должности в органах управления, 5-10 лет запреты на руководство финансовыми организациями (f5).",
+    "Внутренние ссылки проверены и исправлены: удалены расширения .html."
+  ],
+  "keyword_density_main": 0.022,
+  "main_keyword_exact_count": 3,
+  "text_chars": 7133,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.093,
+  "local_spam_ngram3_repeat": 0.012,
+  "local_lexical_diversity": 0.652,
+  "local_ai_markers_density": 0.22,
+  "local_ai_markers_critical": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1787056120/articles/proverka-dolzhnika-na-bankrotstvo-efrsb-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1787056120/articles/proverka-dolzhnika-na-bankrotstvo-efrsb-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Editorial photograph of a polished dark walnut conference table with minimal composition. Centered arrangement: a closed leather portfolio, reading glasses resting atop, a fountain pen aligned parallel to the portfolio's edge, and a small stack of 2-3 closed dossiers tied with cord positioned to the right. Background through floor-to-ceiling windows: cool city daylight with soft overcast tones and blurred evening lights. Camera: symmetric down-the-table, eye-level. Lighting: natural cool window light blended with warm pendant glow. Materials: walnut, oxblood leather, brass accents. Palette: graphite, walnut brown, warm brass. Mood: serious information verification, careful legal review.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-08-18T12:28:41Z",
+  "length_status": "too_long",
+  "length_kind": "default",
+  "local_ai_markers_total": 2,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 3,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 47,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 90,
+  "customer_risks": [
+    "длина значительно больше лимита 6500 (7 133 знаков)"
+  ],
+  "date_published": "2026-08-18",
+  "date_modified": "2026-08-18",
+  "ready_for_review": true,
+  "ready_at": "2026-08-18T12:28:43Z",
+  "publication_target": "telegram_review"
+}

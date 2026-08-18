@@ -1,0 +1,24 @@
+{
+  "slug": "proverka-dolzhnika-na-bankrotstvo-efrsb",
+  "article_id": 511,
+  "scores": {
+    "structure_overlap": 0.0,
+    "thesis_similarity": 0.149,
+    "cta_overlap": 0.476
+  },
+  "thresholds": {
+    "structure_overlap": 0.4,
+    "thesis_similarity": 0.3,
+    "cta_overlap": 0.2
+  },
+  "passed": false,
+  "peers_compared": 50,
+  "closest_peer": "snyatie-aresta-s-imushchestva-cherez-sud",
+  "similar_articles": [],
+  "conflicts": [
+    "cta_overlap: 0.476 (threshold: 0.2)"
+  ],
+  "recommendation": "rewrite_with_angle:change-perspective (closest: snyatie-aresta-s-imushchestva-cherez-sud)",
+  "stored_in_db": true,
+  "note": "Вектор статьи записан в data/embeddings.sqlite (published=0). После публикации агент 7 переключит флаг на 1."
+}
