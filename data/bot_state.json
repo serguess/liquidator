@@ -10982,16 +10982,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 2380,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-08-15T05:28:16",
-      "last_action_at": "2026-08-15T10:00:24",
+      "last_action_at": "2026-08-17T10:00:10",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
+      "pending_batch": false,
       "pending_batch_at": "2026-08-15T05:28:16",
-      "batch_fail_count": 1
+      "batch_fail_count": 0,
+      "batch_sent_at": "2026-08-17T10:00:10"
     },
     "bankrotstvo-chlena-zhilishchnogo-kooperativa": {
       "category": "fiz",
@@ -11021,15 +11022,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 2382,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-08-16T05:31:21",
-      "last_action_at": "2026-08-16T05:31:21",
+      "last_action_at": "2026-08-17T10:00:13",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-08-16T05:31:21"
+      "pending_batch": false,
+      "pending_batch_at": "2026-08-16T05:31:21",
+      "batch_sent_at": "2026-08-17T10:00:13",
+      "batch_fail_count": 0
     },
     "bank-otkazal-v-restrukturizacii-chto-delat-bankrotstvo": {
       "category": "fiz",
@@ -11039,19 +11042,39 @@
       "versions": [
         "2.0"
       ],
+      "tg_message_id": 2384,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-08-16T10:53:24",
+      "last_action_at": "2026-08-17T10:00:15",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-08-16T10:53:24",
+      "batch_sent_at": "2026-08-17T10:00:15",
+      "batch_fail_count": 0
+    },
+    "bankrotstvo-pri-potere-raboty-fizlica": {
+      "category": "fiz",
+      "title": "Банкротство при потере работы: пошаговая инструкция",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
       "tg_message_id": null,
       "tg_chat_id": null,
-      "first_seen_at": "2026-08-16T10:53:24",
-      "last_action_at": "2026-08-16T10:53:24",
+      "first_seen_at": "2026-08-18T01:01:24",
+      "last_action_at": "2026-08-18T01:01:24",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
       "pending_batch": true,
-      "pending_batch_at": "2026-08-16T10:53:24"
+      "pending_batch_at": "2026-08-18T01:01:24"
     }
   },
   "pending_actions": [],
-  "last_batch_date": "2026-08-16",
-  "last_batch_count": 5,
-  "last_batch_at": "2026-08-16T10:00:29"
+  "last_batch_date": "2026-08-17",
+  "last_batch_count": 3,
+  "last_batch_at": "2026-08-17T10:00:15"
 }
