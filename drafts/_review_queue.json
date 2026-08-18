@@ -5933,6 +5933,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "vzyskanie-ushcherba-ot-moshennikov-cherez-sud",
+      "category": "vzysk",
+      "title": "Взыскание ущерба от мошенников через суд",
+      "added_at": "2026-08-19T01:02:56.530192",
+      "char_count": 7457,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1787090574/articles/vzyskanie-ushcherba-ot-moshennikov-cherez-sud-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
