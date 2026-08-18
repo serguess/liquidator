@@ -11071,6 +11071,24 @@
       "published_url": null,
       "pending_batch": true,
       "pending_batch_at": "2026-08-18T01:01:24"
+    },
+    "cb-rezyume-iyulskogo-zasedaniya-stavka": {
+      "category": "news",
+      "title": "Резюме июльского заседания ЦБ и аргументы за снижение",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-08-18T08:49:11",
+      "last_action_at": "2026-08-18T08:49:11",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-08-18T08:49:11"
     }
   },
   "pending_actions": [],

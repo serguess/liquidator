@@ -36300,5 +36300,104 @@
     "stderr_tail": "[ERR] rate_limit: put_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard\",\"cache_creation\":{\"ephemeral_1h_input_tokens\":0,\"ephemeral_5m_input_tokens\":0},\"inference_geo\":\"\",\"iterations\":[],\"speed\":\"standard\"},\"modelUsage\":{},\"permission_denials\":[],\"terminal_reason\":\"completed\",\"fast_mode_state\":\"off\",\"uuid\":\"628bb20b-5e45-43c2-8870-ca5aa79d57f3\"}\n\n",
     "tokens_by_model": {},
     "metrics": null
+  },
+  {
+    "timestamp": "2026-08-18T08:30:08",
+    "category": "news",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 24,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "news-150",
+    "topic_slug": "cb-rezyume-iyulskogo-zasedaniya-stavka",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "length_soft_passed: 6108 > 5500 но ≤ 7500 и iteration=2 — пропускаем (приоритет spam/uniqueness/ai)"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "finalize_safety_net": {
+      "ran": true,
+      "rc": 0
+    },
+    "status": "ok",
+    "slug": "cb-rezyume-iyulskogo-zasedaniya-stavka",
+    "duration_sec": 1102.5,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "7856     33464\n6-seo-editor        sonnet            6       4    51744     28278     51754\n7-publisher         haiku            20      12    36236     39548     36268\n------------------------------------------------------------------------------------------\nИТОГО                                90      42   405703    235230    405835\nBillable-токенов на статью: ~405K (cache_read 235K не считается в лимит подписки).\nАртефакты: drafts/cb-rezyume-iyulskogo-zasedaniya-stavka/  | quality_gate exit=0",
+    "stderr_tail": "",
+    "tokens_by_model": {},
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 6108
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
+  },
+  {
+    "timestamp": "2026-08-18T08:48:32",
+    "category": "news",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 25,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "news-151",
+    "topic_slug": "tpp-bankrotstvo-sellery-marketplace-bpla",
+    "status": "failed",
+    "slug": "tpp-bankrotstvo-sellery-marketplace-bpla",
+    "duration_sec": 1497.1,
+    "returncode": 1,
+    "rescued_after_failure": false,
+    "stdout_tail": "e=59564 ток (model=sonnet)\n   [outline_validate] exit=1\n=== 4-writer (claude opus) ===\n   ok: 8191 симв., billable=61839 ток, 72.6с\n   [writer self-fix проход 2]\n   ok: billable=42112 ток\n=== 5-uniqueness (embed_compare) ===\n   passed=True scores={'structure_overlap': 0.167, 'thesis_similarity': 0.293, 'cta_overlap': 0.105}\n   [watchdog] hard timeout >480s на sonnet — попытка 1/3\n   ok: 12130 симв., billable=22 ток (model=sonnet)\n   [pick_scene_template] exit=0\n=== 7-publisher (claude haiku) ===",
+    "stderr_tail": "[ERR] rate_limit: put_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard\",\"cache_creation\":{\"ephemeral_1h_input_tokens\":0,\"ephemeral_5m_input_tokens\":0},\"inference_geo\":\"\",\"iterations\":[],\"speed\":\"standard\"},\"modelUsage\":{},\"permission_denials\":[],\"terminal_reason\":\"completed\",\"fast_mode_state\":\"off\",\"uuid\":\"f3c92090-9d0f-42f2-8f0c-3dc7311418ff\"}\n\n",
+    "tokens_by_model": {},
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 5250
+    }
   }
 ]
