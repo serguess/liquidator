@@ -5959,6 +5959,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "vs-rf-torgoplivost-dolzhnika-otkaz-v-spisanii",
+      "category": "news",
+      "title": "ВС РФ: поспешность при банкротстве лишает права на списание",
+      "added_at": "2026-08-19T08:58:20.067212",
+      "char_count": 8334,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1787119097/articles/vs-rf-torgoplivost-dolzhnika-otkaz-v-spisanii-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

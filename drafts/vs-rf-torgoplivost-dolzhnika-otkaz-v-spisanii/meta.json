@@ -1,0 +1,107 @@
+{
+  "slug": "vs-rf-torgoplivost-dolzhnika-otkaz-v-spisanii",
+  "category": "news",
+  "title": "ВС РФ: поспешность при банкротстве лишает права на списание",
+  "description": "Верховный суд пояснил, когда должник может лишиться права на полное списание долга при банкротстве. Анализ судебной практики и рекомендации.",
+  "h1": "Как поспешливость при банкротстве лишает права на списание долга",
+  "lead": "Верховный суд РФ последовательно подтверждает: списание долгов при банкротстве - результат оценки добросовестности гражданина, а не автоматическое следствие завершения процедуры.",
+  "topic_action": "проверку шансов на списание долга",
+  "breadcrumb_current": "Поспешность должника и отказ в списании",
+  "og_image": "/assets/articles/vs-rf-torgoplivost-dolzhnika-otkaz-v-spisanii.jpg",
+  "main_keyword": "верховный суд отказ в списании долга при банкротстве",
+  "secondary_keywords": [
+    "отказ в списании долга при банкротстве",
+    "когда должник не может списать долг",
+    "судебная практика банкротства физлица",
+    "условия полного списания долга",
+    "поспешность при банкротстве",
+    "требования арбитражного управляющего",
+    "план реструктуризации долга"
+  ],
+  "intent": "informational",
+  "funnel_stage": "cold",
+  "article_type": "B",
+  "offer": "proverka-spisaniya",
+  "event_date": "2026-07-29",
+  "news_zone": "vs_practice",
+  "internal_links": [
+    "/articles/fiz/alimenty-pri-bankrotstve-fizlica",
+    "/articles/fiz/bankovskie-scheta-pri-bankrotstve"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/",
+    "https://www.pgplaw.ru/analytics-and-brochures/bankruptcy-must-read/"
+  ],
+  "faq": [
+    {
+      "question": "Что конкретно считается поспешностью при подаче заявления о банкротстве?",
+      "answer": "Закон термин «поспешность» не использует. Суды оценивают связь между быстрой подачей и предшествующими действиями: если за 2-3 месяца до заявления заёмщик выводил активы, переоформлял имущество на близких или снимал крупные суммы - совокупность этих фактов может быть квалифицирована как признак недобросовестности."
+    },
+    {
+      "question": "Можно ли получить полное освобождение от долгов, если заявление подано быстро?",
+      "answer": "Да, сама по себе быстрая подача не блокирует освобождение. Судебная практика смотрит на совокупность обстоятельств: что происходило с имуществом накануне, насколько полно раскрыты активы, как гражданин взаимодействовал с управляющим. Если по этим точкам вопросов нет - скорость подачи роли не играет."
+    },
+    {
+      "question": "Какие активы гражданин обязан указать - и что будет, если что-то пропустить?",
+      "answer": "Указывать нужно всё: недвижимость (в том числе оформленную не на заявителя, но фактически используемую), транспорт, доли в компаниях, банковские и брокерские счета, криптоактивы, зарубежное имущество, источники доходов. Пропуск при последующем обнаружении квалифицируется как сокрытие и может привести к ограничению или отказу в освобождении."
+    },
+    {
+      "question": "До какого момента суд вправе оценивать добросовестность заявителя?",
+      "answer": "До вынесения определения о завершении реализации имущества. Если после завершения дела вскрываются факты мошенничества - фальшивые документы, скрытые зарубежные счета - кредиторы могут обратиться за пересмотром по общим процедурам оспаривания. Такой шаг возможен, но требует веских оснований."
+    },
+    {
+      "question": "Чем частичное освобождение от долга отличается от полного?",
+      "answer": "При полном гаснут все реестровые требования кроме исключений: алименты, вред здоровью, моральный вред, текущие платежи, зарплатные долги. При частичном арбитраж исключает из освобождения требования тех кредиторов, перед которыми выявлена недобросовестность, - например, обманутый через фальшивую справку о доходах банк."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "f4 (поспешность как судебная оценка) - contested, legislation_status: needs_verification; формулировка «летом 2026 года ещё раз напомнил» заменена на safe_phrasing «в своих определениях последовательно подтверждает»",
+    "f8 (позиция ВС РФ) - needs_verification; конкретный судебный акт июля 2026 по fact_gaps не верифицирован, в тексте использована нейтральная формулировка без датировки",
+    "ст. 213.32 (трёхлетнее окно оспаривания) не имеет прямого source в research.json - факт соответствует действующей норме 127-ФЗ, оставлен как есть",
+    "Все запрещённые утверждения из forbidden_claims отсутствуют в тексте",
+    "Внутренние ссылки alimenty-pri-bankrotstve-fizlica и bankovskie-scheta-pri-bankrotstve: суффикс .html убран; наличие slug в published_index.json не верифицировано при headless-вызове"
+  ],
+  "keyword_density_main": null,
+  "main_keyword_exact_count": null,
+  "text_chars": 8334,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.107,
+  "local_spam_ngram3_repeat": 0.015,
+  "local_lexical_diversity": 0.634,
+  "local_ai_markers_density": 0.29,
+  "local_ai_markers_critical": 0,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1787119097/articles/vs-rf-torgoplivost-dolzhnika-otkaz-v-spisanii-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1787119097/articles/vs-rf-torgoplivost-dolzhnika-otkaz-v-spisanii-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Editorial photograph of a workspace adjacent to a window in a legal office. Foreground: a desk with well-arranged items including a closed dark leather portfolio, a fountain pen positioned across a closed blank-spine notebook, reading glasses resting on top of the notebook, a white porcelain coffee cup on a saucer, and a brass desk lamp casting focused light. Background through tall windows: cityscape in cool overcast conditions, blurred distant buildings, grey skies suggesting afternoon deliberation. Camera: three-quarter angle at eye-level. Lighting: window-driven cool daylight creating sharp shadows on the desk surface, warm brass lamp accent highlighting the portfolio corner. Materials: dark walnut desk, burnished leather, brushed brass. Mood: solemn focus, meticulous procedural analysis, weight of judicial consequence.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-08-19T05:58:18Z",
+  "length_status": "too_long",
+  "length_kind": "news",
+  "local_ai_markers_total": 3,
+  "local_ai_markers_high": 1,
+  "local_own_voice_hits": 3,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 49,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "длина значительно больше лимита 5500 (8 334 знаков)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "length_too_long: 8334 > 5500 (kind=news)",
+    "spam_risk: 2 флагов (top3_sum>30 (=31), top10_sum>80 (=83)), top-5: ['подач', 'счет', 'заявлен', 'имуществ', 'котор']",
+    "targeted_tokens_over_limit: 127фз_закон=6(>≤2), 213_артикул=4(>≤3)"
+  ],
+  "date_published": "2026-08-19",
+  "date_modified": "2026-08-19",
+  "ready_for_review": true,
+  "ready_at": "2026-08-19T05:58:20Z",
+  "publication_target": "telegram_review"
+}
