@@ -3214,7 +3214,11 @@
       "topic_action": "стратегию защиты при банкротстве",
       "event_date": "2026-07-13",
       "news_zone": "vs_practice",
-      "primary_source": "https://rapsinews.ru/judicial_news/20260713/312030377.html"
+      "primary_source": "https://rapsinews.ru/judicial_news/20260713/312030377.html",
+      "status": "rejected",
+      "rejected_at": "2026-08-19T04:00:21",
+      "rejected_reason": "event_too_old:37d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-99",
@@ -3244,7 +3248,11 @@
       "topic_action": "выход из банкротства по иску ФНС",
       "event_date": "2026-07-13",
       "news_zone": "vs_practice",
-      "primary_source": "https://rapsinews.ru/judicial_news/20260713/312029431.html"
+      "primary_source": "https://rapsinews.ru/judicial_news/20260713/312029431.html",
+      "status": "rejected",
+      "rejected_at": "2026-08-19T04:00:21",
+      "rejected_reason": "event_too_old:37d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-100",
@@ -3648,7 +3656,11 @@
       "topic_action": "консультацию по защите требований в банкротстве",
       "event_date": "2026-07-17",
       "news_zone": "vs_practice",
-      "primary_source": "https://rapsinews.ru/judicial_analyst/20260717/312042404.html"
+      "primary_source": "https://rapsinews.ru/judicial_analyst/20260717/312042404.html",
+      "status": "rejected",
+      "rejected_at": "2026-08-19T04:00:21",
+      "rejected_reason": "event_too_old:33d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-112",
@@ -3678,7 +3690,11 @@
       "topic_action": "защиту компании от неправомерного банкротства",
       "event_date": "2026-07-15",
       "news_zone": "vs_practice",
-      "primary_source": "https://rapsinews.ru/judicial_analyst/20260715/312034981.html"
+      "primary_source": "https://rapsinews.ru/judicial_analyst/20260715/312034981.html",
+      "status": "rejected",
+      "rejected_at": "2026-08-19T04:00:21",
+      "rejected_reason": "event_too_old:35d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-113",
@@ -3776,7 +3792,11 @@
       "topic_action": "проверить шансы на банкротство",
       "event_date": "2026-07-16",
       "news_zone": "finance",
-      "primary_source": "https://iz.ru/2133315/2026-07-16/rost-kolichestva-bankrotstv-rossiian-rezko-zamedlilsia"
+      "primary_source": "https://iz.ru/2133315/2026-07-16/rost-kolichestva-bankrotstv-rossiian-rezko-zamedlilsia",
+      "status": "rejected",
+      "rejected_at": "2026-08-19T04:00:21",
+      "rejected_reason": "event_too_old:34d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-116",
@@ -3806,7 +3826,11 @@
       "topic_action": "консультацию по банкротству или реструктуризации компании",
       "event_date": "2026-07-16",
       "news_zone": "finance",
-      "primary_source": "https://www.kommersant.ru/doc/8815909"
+      "primary_source": "https://www.kommersant.ru/doc/8815909",
+      "status": "rejected",
+      "rejected_at": "2026-08-19T04:00:21",
+      "rejected_reason": "event_too_old:34d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-117",
@@ -3836,7 +3860,11 @@
       "topic_action": "проверить уровень долговой нагрузки",
       "event_date": "2026-07-13",
       "news_zone": "finance",
-      "primary_source": "https://nbki.ru/company/news/nbki_v_iyune_2026_goda_grazhdanam_bylo_vydano_3_52_mln_kreditov/"
+      "primary_source": "https://nbki.ru/company/news/nbki_v_iyune_2026_goda_grazhdanam_bylo_vydano_3_52_mln_kreditov/",
+      "status": "rejected",
+      "rejected_at": "2026-08-19T04:00:21",
+      "rejected_reason": "event_too_old:37d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-118",
@@ -3934,7 +3962,11 @@
       "topic_action": "стратегию выхода из банкротства",
       "event_date": "2026-07-15",
       "news_zone": "vs_practice",
-      "primary_source": "https://pravo.ru/news/264760/"
+      "primary_source": "https://pravo.ru/news/264760/",
+      "status": "rejected",
+      "rejected_at": "2026-08-19T04:00:21",
+      "rejected_reason": "event_too_old:35d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-121",
@@ -4028,7 +4060,11 @@
       "topic_action": "защиту от банкротства по иску налоговой",
       "event_date": "2026-07-16",
       "news_zone": "finance",
-      "primary_source": "https://iz.ru/2133249/2026-07-16/fns-initciirovala-bankrotstvo-pochti-v-23-sluchaev-v-2026-m"
+      "primary_source": "https://iz.ru/2133249/2026-07-16/fns-initciirovala-bankrotstvo-pochti-v-23-sluchaev-v-2026-m",
+      "status": "rejected",
+      "rejected_at": "2026-08-19T04:00:21",
+      "rejected_reason": "event_too_old:34d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-124",
@@ -4092,7 +4128,11 @@
       "topic_action": "план реструктуризации долгов в банкротстве",
       "event_date": "2026-07-16",
       "news_zone": "vs_practice",
-      "primary_source": "https://fedresurs.ru/news/"
+      "primary_source": "https://fedresurs.ru/news/",
+      "status": "rejected",
+      "rejected_at": "2026-08-19T04:00:21",
+      "rejected_reason": "event_too_old:34d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-126",
@@ -4190,7 +4230,11 @@
       "topic_action": "реструктуризацию или банкротство с ипотекой",
       "event_date": "2026-07-15",
       "news_zone": "finance",
-      "primary_source": "https://nbki.ru/company/news/"
+      "primary_source": "https://nbki.ru/company/news/",
+      "status": "rejected",
+      "rejected_at": "2026-08-19T04:00:21",
+      "rejected_reason": "event_too_old:35d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-129",
@@ -4318,7 +4362,11 @@
       "topic_action": "включить требование в реестр кредиторов застройщика",
       "event_date": "2026-07-13",
       "news_zone": "vs_practice",
-      "primary_source": "https://www.pgplaw.ru/analytics-and-brochures/bankruptcy-must-read/bankruptcy-digest-22-07-26/"
+      "primary_source": "https://www.pgplaw.ru/analytics-and-brochures/bankruptcy-must-read/bankruptcy-digest-22-07-26/",
+      "status": "rejected",
+      "rejected_at": "2026-08-19T04:00:21",
+      "rejected_reason": "event_too_old:37d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-133",
@@ -4686,7 +4734,11 @@
       "topic_action": "включение в реестр кредиторов при банкротстве застройщика",
       "event_date": "2026-07-13",
       "news_zone": "vs_practice",
-      "primary_source": "https://www.pgplaw.ru/analytics-and-brochures/bankruptcy-must-read/bankruptcy-digest-22-07-26/"
+      "primary_source": "https://www.pgplaw.ru/analytics-and-brochures/bankruptcy-must-read/bankruptcy-digest-22-07-26/",
+      "status": "rejected",
+      "rejected_at": "2026-08-19T04:00:21",
+      "rejected_reason": "event_too_old:37d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-145",
@@ -4926,7 +4978,11 @@
       "news_zone": "vs_practice",
       "primary_source": "https://www.pgplaw.ru/analytics-and-brochures/bankruptcy-must-read/",
       "title_length": 57,
-      "description_length": 139
+      "description_length": 139,
+      "status": "rejected",
+      "rejected_at": "2026-08-19T04:00:21",
+      "rejected_reason": "event_too_old:35d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-153",
