@@ -11062,15 +11062,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 2386,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-08-18T01:01:24",
-      "last_action_at": "2026-08-18T01:01:24",
+      "last_action_at": "2026-08-18T10:00:09",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-08-18T01:01:24"
+      "pending_batch": false,
+      "pending_batch_at": "2026-08-18T01:01:24",
+      "batch_sent_at": "2026-08-18T10:00:09",
+      "batch_fail_count": 0
     },
     "cb-rezyume-iyulskogo-zasedaniya-stavka": {
       "category": "news",
@@ -11080,19 +11082,139 @@
       "versions": [
         "2.0"
       ],
+      "tg_message_id": 2388,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-08-18T08:49:11",
+      "last_action_at": "2026-08-18T10:00:11",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-08-18T08:49:11",
+      "batch_sent_at": "2026-08-18T10:00:11",
+      "batch_fail_count": 0
+    },
+    "proverka-dolzhnika-na-bankrotstvo-efrsb": {
+      "category": "fiz",
+      "title": "Как проверить физлицо на банкротство по ЕФРСБ",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 2390,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-08-18T15:29:16",
+      "last_action_at": "2026-08-19T10:00:26",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-08-18T15:29:16",
+      "batch_sent_at": "2026-08-19T10:00:26",
+      "batch_fail_count": 0
+    },
+    "subsidiarka-pri-likvidacii-ooo-direktora": {
+      "category": "yur",
+      "title": "Субсидиарная ответственность директора при ликвидации ООО",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 2392,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-08-18T20:21:19",
+      "last_action_at": "2026-08-19T10:00:28",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-08-18T20:21:20",
+      "batch_sent_at": "2026-08-19T10:00:28",
+      "batch_fail_count": 0
+    },
+    "vzyskanie-ushcherba-ot-moshennikov-cherez-sud": {
+      "category": "vzysk",
+      "title": "Взыскание ущерба от мошенников через суд",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 2394,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-08-19T01:03:23",
+      "last_action_at": "2026-08-19T10:00:30",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-08-19T01:03:23",
+      "batch_sent_at": "2026-08-19T10:00:30",
+      "batch_fail_count": 0
+    },
+    "tpp-bankrotstvo-sellery-marketplace-bpla": {
+      "category": "news",
+      "title": "ТПП упростит банкротство для sellery маркетплейсов",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 2396,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-08-19T05:37:26",
+      "last_action_at": "2026-08-19T10:00:32",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-08-19T05:37:26",
+      "batch_sent_at": "2026-08-19T10:00:32",
+      "batch_fail_count": 0
+    },
+    "vs-rf-torgoplivost-dolzhnika-otkaz-v-spisanii": {
+      "category": "news",
+      "title": "ВС РФ: поспешность при банкротстве лишает права на списание",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 2398,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-08-19T08:58:28",
+      "last_action_at": "2026-08-19T10:00:35",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-08-19T08:58:28",
+      "batch_sent_at": "2026-08-19T10:00:35",
+      "batch_fail_count": 0
+    },
+    "fns-taktika-kreditora-bankrotstvo-pozicii": {
+      "category": "news",
+      "title": "ФНС кредитор в банкротстве: практика Верховного суда",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
       "tg_message_id": null,
       "tg_chat_id": null,
-      "first_seen_at": "2026-08-18T08:49:11",
-      "last_action_at": "2026-08-18T08:49:11",
+      "first_seen_at": "2026-08-19T09:15:28",
+      "last_action_at": "2026-08-19T09:15:28",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
       "pending_batch": true,
-      "pending_batch_at": "2026-08-18T08:49:11"
+      "pending_batch_at": "2026-08-19T09:15:28"
     }
   },
   "pending_actions": [],
-  "last_batch_date": "2026-08-17",
-  "last_batch_count": 3,
-  "last_batch_at": "2026-08-17T10:00:15"
+  "last_batch_date": "2026-08-19",
+  "last_batch_count": 5,
+  "last_batch_at": "2026-08-19T10:00:35"
 }
