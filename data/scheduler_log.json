@@ -36560,5 +36560,64 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-08-19T00:24:07",
+    "category": "vzysk",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 28,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "vzysk-144",
+    "topic_slug": "vzyskanie-ushcherba-ot-moshennikov-cherez-sud",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "length_soft_passed: 7457 > 6500 но ≤ 8500 и iteration=2 — пропускаем (приоритет spam/uniqueness/ai)"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "finalize_safety_net": {
+      "ran": true,
+      "rc": 0
+    },
+    "status": "ok",
+    "slug": "vzyskanie-ushcherba-ot-moshennikov-cherez-sud",
+    "duration_sec": 2328.8,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "  46496\n6-seo-editor        haiku            20       8    61962     39548     61990\n7-publisher         haiku            20       8    36210     39548     36238\n------------------------------------------------------------------------------------------\nИТОГО                              2390      89   584826    415160    587305\nBillable-токенов на статью: ~587K (cache_read 415K не считается в лимит подписки).\nАртефакты: drafts/vzyskanie-ushcherba-ot-moshennikov-cherez-sud/  | quality_gate exit=0",
+    "stderr_tail": "",
+    "tokens_by_model": {},
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7457
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]

@@ -5946,6 +5946,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "tpp-bankrotstvo-sellery-marketplace-bpla",
+      "category": "news",
+      "title": "ТПП упростит банкротство для sellery маркетплейсов",
+      "added_at": "2026-08-19T05:36:37.842450",
+      "char_count": 6737,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1787106991/articles/tpp-bankrotstvo-sellery-marketplace-bpla-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
