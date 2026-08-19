@@ -5985,6 +5985,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "bankrotstvo-dolgi-strahovye-vznosy-sfr",
+      "category": "fiz",
+      "title": "Долги по страховым взносам СФР: банкротство и списание",
+      "added_at": "2026-08-19T15:08:10.160195",
+      "char_count": 8504,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1787141285/articles/bankrotstvo-dolgi-strahovye-vznosy-sfr-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

@@ -1,0 +1,24 @@
+{
+  "slug": "bankrotstvo-dolgi-strahovye-vznosy-sfr",
+  "article_id": 516,
+  "scores": {
+    "structure_overlap": 0.0,
+    "thesis_similarity": 0.101,
+    "cta_overlap": 0.423
+  },
+  "thresholds": {
+    "structure_overlap": 0.4,
+    "thesis_similarity": 0.3,
+    "cta_overlap": 0.2
+  },
+  "passed": false,
+  "peers_compared": 50,
+  "closest_peer": "cessiya-ustupka-trebovaniya-prava-dolzhnika",
+  "similar_articles": [],
+  "conflicts": [
+    "cta_overlap: 0.423 (threshold: 0.2)"
+  ],
+  "recommendation": "rewrite_with_angle:change-perspective (closest: cessiya-ustupka-trebovaniya-prava-dolzhnika)",
+  "stored_in_db": true,
+  "note": "Вектор статьи записан в data/embeddings.sqlite (published=0). После публикации агент 7 переключит флаг на 1."
+}

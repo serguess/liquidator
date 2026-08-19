@@ -1,0 +1,111 @@
+{
+  "slug": "bankrotstvo-dolgi-strahovye-vznosy-sfr",
+  "category": "fiz",
+  "title": "Долги по страховым взносам СФР: банкротство и списание",
+  "description": "Как физлицо может списать долги перед СФР через банкротство, условия списания взносов, что произойдёт с имуществом и как пройти процедуру в арбитражном суде.",
+  "h1": "Долги по страховым взносам в СФР: банкротство и списание задолженности",
+  "lead": "Разбираем, спишутся ли долги ИП перед СФР при банкротстве, как выбрать маршрут через МФЦ или арбитраж и что именно уйдёт в ноль после завершения процедуры.",
+  "topic_action": "списание долгов по страховым взносам СФР",
+  "breadcrumb_current": "Долги по взносам СФР и банкротство",
+  "og_image": "/assets/articles/bankrotstvo-dolgi-strahovye-vznosy-sfr.jpg",
+  "main_keyword": "долги по страховым взносам в СФР и банкротство",
+  "secondary_keywords": [
+    "страховые взносы СФР физлица",
+    "задолженность перед СФР что делать",
+    "как списать страховые взносы",
+    "банкротство физлица долги СФР",
+    "налоговые и страховые долги при банкротстве",
+    "задолженность перед Социальным фондом",
+    "списание страховых взносов физлица",
+    "внесудебное банкротство и страховые взносы"
+  ],
+  "internal_links": [
+    "/articles/fiz/bankovskie-scheta-pri-bankrotstve",
+    "/articles/fiz/alimenty-pri-bankrotstve-fizlica"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/b919efeffaee7c5a42d9c3d755951599d9b55288/",
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/c48290d39215783e73f0899bb1026b14cb221eff/"
+  ],
+  "faq": [
+    {
+      "question": "Обязан ли обычный наёмный работник платить взносы в СФР напрямую?",
+      "answer": "Нет. За сотрудника по трудовому договору отчисления делает работодатель - это его обязанность по тридцать четвёртой статье Налогового кодекса. Личного счёта у гражданина не возникает даже после увольнения."
+    },
+    {
+      "question": "Что произойдёт с задолженностью ИП, если у него совсем нет имущества?",
+      "answer": "Отсутствие имущества - типичное основание для внесудебного пути через МФЦ. Если пристав закрыл производство из-за пустых счетов, можно подавать заявление сразу, без арбитража и депозита."
+    },
+    {
+      "question": "До какого размера ИП может обратиться в МФЦ без суда?",
+      "answer": "Диапазон - от двадцати пяти тысяч до миллиона рублей. Ниже - внесудебный путь недоступен, выше - только арбитраж. Изменения работают с 3 ноября 2023 года."
+    },
+    {
+      "question": "Может ли Социальный фонд сам инициировать банкротство должника?",
+      "answer": "Да. Фонд относится к уполномоченным органам и вправе подать заявление напрямую. Судебное решение о взыскании перед этим не требуется - достаточно установленной недоимки."
+    },
+    {
+      "question": "Какие обязательства не спишут даже после завершения процедуры?",
+      "answer": "Алименты, возмещение вреда жизни и здоровью, моральный вред, субсидиарная ответственность и текущие коммунальные платежи периода самой процедуры."
+    },
+    {
+      "question": "Нужно ли платить госпошлину при подаче заявления в арбитраж в 2026 году?",
+      "answer": "Должник-гражданин госпошлину не платит - льгота действует с 8 сентября 2024 года. Заплатить нужно только депозит финансовому управляющему - двадцать пять тысяч рублей за процедуру."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все факты сверены с research.json. Все ключевые утверждения имеют last_verified: 2026-08-19, legislation_status: active.",
+    "Обязанность ИП по взносам в СФР (ст. 34 НК РФ, ФЗ-213 от 15.12.2001) - верифицирован (f1, f11).",
+    "Диапазон МФЦ 25 000-1 000 000 руб., изменения с 03.11.2023 (ФЗ-474) - верифицирован (f2, f4).",
+    "Четыре основания ст. 223.2 для МФЦ - верифицированы (f4).",
+    "Списание долга перед СФР по ст. 213.28 п. 3 - верифицирован (f3).",
+    "Госпошлина 0 руб. с 08.09.2024 (ФЗ-176 от 12.07.2024, ст. 333.37 НК) - верифицирована (f5).",
+    "Депозит 25 000 руб. на финансового управляющего - верифицирован (f5).",
+    "Прожиточный минимум 2026: 20 644 руб. (ФЗ-426 от 28.11.2025) - верифицирован (f7).",
+    "Последствия банкротства: 5/3/10 лет ограничений (ст. 213.30) - верифицированы (f10).",
+    "f9 имеет legislation_status needs_verification: в тексте использована только консервативная формулировка из safe_phrasing - требования СФР удовлетворяются наравне с прочими кредиторами."
+  ],
+  "keyword_density_main": 0.015,
+  "main_keyword_exact_count": 1,
+  "text_chars": 8504,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.09,
+  "local_spam_ngram3_repeat": 0.048,
+  "local_lexical_diversity": 0.626,
+  "local_ai_markers_density": 0.29,
+  "local_ai_markers_critical": 0,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1787141285/articles/bankrotstvo-dolgi-strahovye-vznosy-sfr-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1787141285/articles/bankrotstvo-dolgi-strahovye-vznosy-sfr-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Editorial photograph of a high-floor executive office with a focus on the corner of a polished walnut desk. Foreground: a closed thin laptop, a sleek pen, a leather-bound notebook, a smartphone face-down, a polished round company seal, and a white porcelain coffee cup. Background through floor-to-ceiling windows: blurred urban skyline at evening dusk with distant office lights glowing through low fog. Camera: shallow depth of field, three-quarter angle, eye-level. Lighting: cool ambient daylight from windows blended with warm interior tungsten from a desk lamp. Materials: walnut desktop, dark glass partition, polished steel frame.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-08-19T12:08:06Z",
+  "length_status": "too_long",
+  "length_kind": "default",
+  "local_ai_markers_total": 3,
+  "local_ai_markers_high": 1,
+  "local_own_voice_hits": 2,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 51,
+  "predicted_ai_pct": 6,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность чуть выше 50% (~51%)",
+    "длина значительно больше лимита 6500 (8 504 знаков)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "length_too_long: 8504 > 6500 (kind=default)",
+    "author_markers_missing: 1 < 2"
+  ],
+  "date_published": "2026-08-19",
+  "date_modified": "2026-08-19",
+  "ready_for_review": true,
+  "ready_at": "2026-08-19T12:08:10Z",
+  "publication_target": "telegram_review"
+}
