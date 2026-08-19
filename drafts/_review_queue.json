@@ -5972,6 +5972,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "fns-taktika-kreditora-bankrotstvo-pozicii",
+      "category": "news",
+      "title": "ФНС кредитор в банкротстве: практика Верховного суда",
+      "added_at": "2026-08-19T09:15:10.139265",
+      "char_count": 7925,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1787120108/articles/fns-taktika-kreditora-bankrotstvo-pozicii-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

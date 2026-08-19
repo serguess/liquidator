@@ -1,0 +1,42 @@
+{
+  "slug": "fns-taktika-kreditora-bankrotstvo-pozicii",
+  "category": "news",
+  "h1": "ФНС как кредитор в банкротстве: новая судебная практика",
+  "title": "ФНС кредитор в банкротстве: практика Верховного суда",
+  "description": "Как ФНС использует права кредитора в банкротстве. Актуальная судебная практика ВС, новые тактики налоговиков и защита должников от требований.",
+  "main_keyword": "фнс кредитор банкротство",
+  "frequency_estimate": null,
+  "frequency_main": null,
+  "frequency_secondary": null,
+  "frequency_total": null,
+  "frequency_checked_at": null,
+  "frequency_region": 225,
+  "secondary_keywords": [
+    "требования фнс в банкротстве",
+    "налоги при банкротстве физлица",
+    "налоговые претензии должника",
+    "взыскание налогов через суд",
+    "приоритет требований фнс",
+    "налоговая задолженность компании"
+  ],
+  "lsi": [
+    "арбитражный управляющий и фнс",
+    "требования кредиторов",
+    "налоговое взыскание",
+    "налоговая задолженность",
+    "очередность погашения долгов",
+    "состав требований фнс",
+    "защита от налоговых требований",
+    "решения верховного суда",
+    "судебная практика по налогам",
+    "банкротство должника и налоги"
+  ],
+  "intent": "informational",
+  "funnel_stage": "warm",
+  "article_type": "B",
+  "offer": "proverka-spisaniya",
+  "cannibalization_check": "ok",
+  "event_date": "2026-07-22",
+  "news_zone": "vs_practice",
+  "primary_source": "https://www.pgplaw.ru/analytics-and-brochures/bankruptcy-must-read/"
+}
