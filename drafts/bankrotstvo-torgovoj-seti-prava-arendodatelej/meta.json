@@ -1,0 +1,111 @@
+{
+  "slug": "bankrotstvo-torgovoj-seti-prava-arendodatelej",
+  "category": "yur",
+  "title": "Банкротство торговой сети: права арендодателя",
+  "description": "Защита интересов арендодателя при банкротстве торговой сети: статус арендного обязательства, взыскание задолженности, условия расторжения договора, очередность требований кредиторов.",
+  "h1": "Банкротство торговой сети: какие права есть у арендодателя торговых площадей",
+  "lead": "Ритейлер-арендатор подал на банкротство. Полгода не платит за квадратные метры. Из ЕФРСБ пришла публикация - и стало непонятно, что делать. Пускать ли дальше в торговый зал, стоит ли менять замки, реально ли вернуть накопленный арендный долг.",
+  "topic_action": "консультацию по правам арендодателя при банкротстве торговой сети",
+  "breadcrumb_current": "Права арендодателя при банкротстве",
+  "og_image": "/assets/articles/bankrotstvo-torgovoj-seti-prava-arendodatelej.jpg",
+  "main_keyword": "права арендодателя при банкротстве торговой сети",
+  "secondary_keywords": [
+    "статус арендного договора при банкротстве",
+    "взыскание арендной задолженности от торговой сети",
+    "очередность требований арендодателя",
+    "расторжение арендного договора при банкротстве",
+    "возмещение убытков арендодателя",
+    "залог при аренде торговых площадей",
+    "обеспечение интересов арендодателя",
+    "реестр требований кредиторов",
+    "ответственность собственника торговой сети"
+  ],
+  "internal_links": [
+    "/articles/yur/bankrotstvo-ooo-etapy-i-dlitelnost",
+    "/articles/yur/konkursnyj-upravlyayushchij-polnomochiya",
+    "/articles/yur/reestrovyj-dolg-pri-bankrotstve",
+    "/articles/yur/mirovoe-soglashenie-v-bankrotstve"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/",
+    "https://www.garant.ru/document/institution/12127657/"
+  ],
+  "faq": [
+    {
+      "question": "Что происходит с арендой, если сеть подаёт на банкротство?",
+      "answer": "Соглашение продолжает действовать. Автоматически оно не расторгается. Прекращение возможно по инициативе управляющего при обременительности условий (ст. 64 127-ФЗ) или по соглашению сторон."
+    },
+    {
+      "question": "Сколько времени есть у арендодателя, чтобы включиться в реестр?",
+      "answer": "Как правило, два месяца с даты публикации сведений о возбуждении дела в ЕФРСБ. Точный срок устанавливает арбитраж. Пропуск - исключение из реестра."
+    },
+    {
+      "question": "Может ли арендодатель самостоятельно расторгнуть аренду в ходе банкротства?",
+      "answer": "Может, но по общим гражданским основаниям: существенное нарушение, длительная неоплата, использование объекта не по назначению. Сама несостоятельность арендатора основанием для одностороннего отказа не является."
+    },
+    {
+      "question": "Получит ли владелец помещения деньги, если конкурсной массы не хватит?",
+      "answer": "Может получить частично или не получить ничего. Пятая очередь удовлетворяется в последнюю очередь. Реалистично рассчитывать на 5-15% от заявленной суммы в среднем деле, а иногда и на ноль."
+    },
+    {
+      "question": "Влияет ли залог арендуемого объекта на шансы взыскания?",
+      "answer": "На саму претензию к арендатору - нет, взыскание идёт из его имущества. Но если у сети заложены товарные запасы или оборудование, находящиеся у вас на квадратных метрах, залогодержатель заберёт эти активы первым, и до пятой очереди мало что дойдёт."
+    },
+    {
+      "question": "Стоит ли голосовать за план реструктуризации на собрании кредиторов?",
+      "answer": "Смотрите на условия. Если план даёт реальную рассрочку с сохранением аренды и живыми платежами - обычно выгоднее, чем сразу ликвидация с нулевой выплатой. Если план косметический и лишь оттягивает конец - разумнее голосовать против."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все факты сверены с research.json. Все законодательные ссылки актуальны (статус active, last_verified 2026-08-20).",
+    "Утверждение о пятой очередности (ст. 138 127-ФЗ) подтверждено research.",
+    "Право управляющего расторгнуть договор (ст. 64 127-ФЗ) подтверждено fact f5.",
+    "Сроки заявления требования (обычно 2 месяца) соответствуют ст. 49, 61 127-ФЗ, fact f3.",
+    "Пример с суммой 483 200 рублей соответствует ст. 229.2 АПК РФ, fact f11.",
+    "Запрещённые формулировки из forbidden_claims исключены."
+  ],
+  "keyword_density_main": 0.021,
+  "main_keyword_exact_count": 0,
+  "text_chars": 9455,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.093,
+  "local_spam_ngram3_repeat": 0.02,
+  "local_lexical_diversity": 0.611,
+  "local_ai_markers_density": 0.26,
+  "local_ai_markers_critical": 0,
+  "length_status": "too_long",
+  "length_kind": "default",
+  "local_ai_markers_total": 3,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 2,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 53,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1787176964/articles/bankrotstvo-torgovoj-seti-prava-arendodatelej-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1787176964/articles/bankrotstvo-torgovoj-seti-prava-arendodatelej-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Exterior photograph of a stone administrative or neoclassical building. Camera angle: frontal, emphasizing grand entrance with long architectural columns and pilasters. Cool grey-blue tonal palette, soft diffused city light with optional rain or fog haloing lampposts. Brass plaque on wall, wide stone steps. Foreground items at the base of frame: a closed dark leather briefcase, a bound stack of dossiers tied with cord, a large brass key on a tarnished ring. Folded black umbrella leaning against stone. Atmosphere of authority, weight, formal procedure, landlord-tenant property dispute. Wide cinematic composition.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-08-19T22:02:44Z",
+  "customer_risks": [
+    "заспамленность чуть выше 50% (~53%)",
+    "длина значительно больше лимита 6500 (9 455 знаков)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "length_too_long: 9455 > 6500 (kind=default)",
+    "spam_risk: 1 флагов (top10_sum>80 (=83)), top-5: ['очеред', 'реестр', 'сумм', 'кредитор', 'сети']",
+    "targeted_tokens_over_limit: ст_сокращение=12(>≤5), 127фз_закон=10(>≤2)"
+  ],
+  "date_published": "2026-08-20",
+  "date_modified": "2026-08-20",
+  "ready_for_review": true,
+  "ready_at": "2026-08-19T22:02:47Z",
+  "publication_target": "telegram_review"
+}

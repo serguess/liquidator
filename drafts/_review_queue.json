@@ -5998,6 +5998,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "bankrotstvo-torgovoj-seti-prava-arendodatelej",
+      "category": "yur",
+      "title": "Банкротство торговой сети: права арендодателя",
+      "added_at": "2026-08-20T01:02:47.075116",
+      "char_count": 9455,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1787176964/articles/bankrotstvo-torgovoj-seti-prava-arendodatelej-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
