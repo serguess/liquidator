@@ -6050,6 +6050,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "bankrotstvo-medicinskoj-kliniki",
+      "category": "yur",
+      "title": "Банкротство медицинской организации (клиники): процедура",
+      "added_at": "2026-08-20T20:21:01.290220",
+      "char_count": 8855,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1787246456/articles/bankrotstvo-medicinskoj-kliniki-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
