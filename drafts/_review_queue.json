@@ -6024,6 +6024,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "antikrizisnyj-upravlyayushchij-reestr-253-fz",
+      "category": "news",
+      "title": "Реестр антикризисных управляющих 253-ФЗ",
+      "added_at": "2026-08-20T09:07:53.060887",
+      "char_count": 6731,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1787206067/articles/antikrizisnyj-upravlyayushchij-reestr-253-fz-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
