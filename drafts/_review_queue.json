@@ -6037,6 +6037,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "bankrotstvo-pri-neskolkikh-ispolnitelnykh-listakh",
+      "category": "fiz",
+      "title": "Банкротство при множестве исполнительных листов: решение",
+      "added_at": "2026-08-20T15:06:54.261325",
+      "char_count": 9191,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1787227609/articles/bankrotstvo-pri-neskolkikh-ispolnitelnykh-listakh-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
