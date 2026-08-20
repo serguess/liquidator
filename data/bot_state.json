@@ -11211,6 +11211,78 @@
       "published_url": null,
       "pending_batch": true,
       "pending_batch_at": "2026-08-19T09:15:28"
+    },
+    "bankrotstvo-dolgi-strahovye-vznosy-sfr": {
+      "category": "fiz",
+      "title": "Долги по страховым взносам СФР: банкротство и списание",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-08-19T15:08:33",
+      "last_action_at": "2026-08-19T15:08:33",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-08-19T15:08:33"
+    },
+    "bankrotstvo-torgovoj-seti-prava-arendodatelej": {
+      "category": "yur",
+      "title": "Банкротство торговой сети: права арендодателя",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-08-20T01:03:40",
+      "last_action_at": "2026-08-20T01:03:40",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-08-20T01:03:40"
+    },
+    "narushenie-mirovogo-soglasheniya-ispolnitelnyj-list": {
+      "category": "vzysk",
+      "title": "Исполнительный лист при нарушении мирового соглашения",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-08-20T05:31:25",
+      "last_action_at": "2026-08-20T05:31:25",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-08-20T05:31:25"
+    },
+    "antikrizisnyj-upravlyayushchij-reestr-253-fz": {
+      "category": "news",
+      "title": "Реестр антикризисных управляющих 253-ФЗ",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-08-20T09:08:28",
+      "last_action_at": "2026-08-20T09:08:28",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-08-20T09:08:28"
     }
   },
   "pending_actions": [],
