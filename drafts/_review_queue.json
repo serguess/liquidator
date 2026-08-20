@@ -6011,6 +6011,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "narushenie-mirovogo-soglasheniya-ispolnitelnyj-list",
+      "category": "vzysk",
+      "title": "Исполнительный лист при нарушении мирового соглашения",
+      "added_at": "2026-08-20T05:30:24.908976",
+      "char_count": 8530,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1787193022/articles/narushenie-mirovogo-soglasheniya-ispolnitelnyj-list-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

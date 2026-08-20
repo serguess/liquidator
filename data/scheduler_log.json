@@ -36895,5 +36895,68 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-08-20T00:24:08",
+    "category": "yur",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 5,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "yur-173",
+    "topic_slug": "bankrotstvo-torgovoj-seti-prava-arendodatelej",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "forced_pass_at_iter2: блокеры пропущены, статья идёт в TG-очередь с metrics_warning=true. Было: 3 блокеров — length_too_long; spam_risk; targeted_tokens_over_limit"
+      ],
+      "recommendations": [
+        "reduce_length: сократить до 5000-6000 знаков",
+        "reduce_repetition: разбавить топ-5 частотных лемм местоимениями/перифразом — ['очеред', 'реестр', 'сумм', 'кредитор', 'сети']",
+        "reduce_ст: «ст. X» × 12 → cap 5. Писать «статья X» полным словом, либо описательно («по правилу о процентах», «норма об исковой давности»). Cap 3 юр-цитаты на статью, остальное — пересказом."
+      ],
+      "stderr_tail": ""
+    },
+    "finalize_safety_net": {
+      "ran": true,
+      "rc": 0
+    },
+    "status": "ok",
+    "slug": "bankrotstvo-torgovoj-seti-prava-arendodatelej",
+    "duration_sec": 2318.6,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "  25004\n6-seo-editor        haiku            20       8    64650     39548     64678\n7-publisher         haiku            20       8    36246     39548     36274\n------------------------------------------------------------------------------------------\nИТОГО                              2374      69   533720    331650    536163\nBillable-токенов на статью: ~536K (cache_read 331K не считается в лимит подписки).\nАртефакты: drafts/bankrotstvo-torgovoj-seti-prava-arendodatelej/  | quality_gate exit=0",
+    "stderr_tail": "",
+    "tokens_by_model": {},
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 9455
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]
