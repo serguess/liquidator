@@ -10531,7 +10531,7 @@
     "sudebnye-dela-kompanii-pri-bankrotstve": {
       "category": "yur",
       "title": "Судебные дела компании при банкротстве: что происходит",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -10539,14 +10539,16 @@
       "tg_message_id": 2330,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-08-07T20:12:15",
-      "last_action_at": "2026-08-08T10:00:06",
+      "last_action_at": "2026-08-21T23:23:07",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/yur/sudebnye-dela-kompanii-pri-bankrotstve",
       "pending_batch": false,
       "pending_batch_at": "2026-08-07T20:12:15",
       "batch_sent_at": "2026-08-08T10:00:06",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-08-21T23:23:07",
+      "articles_path": "articles/yur/sudebnye-dela-kompanii-pri-bankrotstve.html"
     },
     "otkaz-strakhovshchika-v-vyplate-kak-vzyskat": {
       "category": "vzysk",

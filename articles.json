@@ -2,6 +2,19 @@
   "generated": "2026-08-21",
   "articles": [
     {
+      "slug": "sudebnye-dela-kompanii-pri-bankrotstve",
+      "cat": "yur",
+      "catLabel": "Банкротство юридических лиц",
+      "title": "Судебные дела компании при банкротстве: что происходит",
+      "desc": "Как приостановить судебные разбирательства при банкротстве компании, какие иски подают кредиторы, ответственность должника перед судом.",
+      "date": "21 августа 2026",
+      "dateIso": "2026-08-21",
+      "read": "5 мин.",
+      "tone": "b",
+      "img": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1786122696/articles/sudebnye-dela-kompanii-pri-bankrotstve-cover.jpg",
+      "url": "articles/yur/sudebnye-dela-kompanii-pri-bankrotstve"
+    },
+    {
       "slug": "bankrotstvo-fizlica-bez-propiski",
       "cat": "fiz",
       "catLabel": "Банкротство физических лиц",
