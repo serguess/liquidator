@@ -10509,7 +10509,7 @@
     "bankrotstvo-fizlica-bez-propiski": {
       "category": "fiz",
       "title": "Банкротство физлица без прописки: в какой суд подать",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -10517,14 +10517,16 @@
       "tg_message_id": 2328,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-08-07T15:15:11",
-      "last_action_at": "2026-08-08T10:00:04",
+      "last_action_at": "2026-08-21T23:22:00",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/fiz/bankrotstvo-fizlica-bez-propiski",
       "pending_batch": false,
       "pending_batch_at": "2026-08-07T15:15:11",
       "batch_sent_at": "2026-08-08T10:00:04",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-08-21T23:22:00",
+      "articles_path": "articles/fiz/bankrotstvo-fizlica-bez-propiski.html"
     },
     "sudebnye-dela-kompanii-pri-bankrotstve": {
       "category": "yur",
