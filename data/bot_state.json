@@ -10487,7 +10487,7 @@
     "reforma-bankrotstvo-zakon-podpisan-sroki": {
       "category": "news",
       "title": "Реформа закона о банкротстве: сроки и изменения",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -10495,14 +10495,16 @@
       "tg_message_id": 2326,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-08-07T09:11:07",
-      "last_action_at": "2026-08-07T10:00:14",
+      "last_action_at": "2026-08-21T23:21:37",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/news/reforma-bankrotstvo-zakon-podpisan-sroki",
       "pending_batch": false,
       "pending_batch_at": "2026-08-07T09:11:07",
       "batch_sent_at": "2026-08-07T10:00:14",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-08-21T23:21:37",
+      "articles_path": "articles/news/reforma-bankrotstvo-zakon-podpisan-sroki.html"
     },
     "bankrotstvo-fizlica-bez-propiski": {
       "category": "fiz",
