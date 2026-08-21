@@ -1,0 +1,35 @@
+{
+  "slug": "bankrotstvo-transportnoj-kompanii",
+  "article_id": 527,
+  "scores": {
+    "structure_overlap": 0.0,
+    "thesis_similarity": 0.36,
+    "cta_overlap": 0.146
+  },
+  "thresholds": {
+    "structure_overlap": 0.4,
+    "thesis_similarity": 0.3,
+    "cta_overlap": 0.2
+  },
+  "passed": false,
+  "peers_compared": 47,
+  "closest_peer": "otkaz-ot-dogovora-pri-bankrotstve-statya-102",
+  "similar_articles": [
+    {
+      "slug": "bankrotstvo-banka-prava-klientov",
+      "category": "yur",
+      "similarity": 0.311
+    },
+    {
+      "slug": "otkaz-ot-dogovora-pri-bankrotstve-statya-102",
+      "category": "yur",
+      "similarity": 0.36
+    }
+  ],
+  "conflicts": [
+    "thesis_similarity: 0.360 (threshold: 0.3)"
+  ],
+  "recommendation": "rewrite_with_angle:change-perspective (closest: otkaz-ot-dogovora-pri-bankrotstve-statya-102)",
+  "stored_in_db": true,
+  "note": "Вектор статьи записан в data/embeddings.sqlite (published=0). После публикации агент 7 переключит флаг на 1."
+}

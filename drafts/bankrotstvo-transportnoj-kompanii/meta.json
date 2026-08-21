@@ -1,0 +1,102 @@
+{
+  "slug": "bankrotstvo-transportnoj-kompanii",
+  "category": "yur",
+  "title": "Банкротство транспортной компании: защита активов",
+  "description": "Процедура банкротства транспортной компании: как защитить автопарк и имущество, рассчитаться с долгами, избежать управляющего.",
+  "h1": "Банкротство транспортной компании: как защитить активы и рассчитаться с долгами",
+  "lead": "Топливо в долг третий рейс подряд. Лизинговая забрала два тягача с площадки под Подольском. Бухгалтер молча кладёт на стол выписку - на счёте минус, у налоговой блокировка. По нашему опыту именно с такой картинки начинается разговор о несостоятельности перевозчика: не с высокой теории, а с рейса, который завтра некому оплатить.",
+  "topic_action": "консультацию по банкротству транспортной компании",
+  "breadcrumb_current": "Банкротство транспортной компании",
+  "og_image": "/assets/articles/bankrotstvo-transportnoj-kompanii.jpg",
+  "main_keyword": "банкротство транспортной компании",
+  "secondary_keywords": [
+    "банкротство автотранспортной компании",
+    "защита активов при банкротстве компании",
+    "банкротство логистической компании",
+    "долги транспортной компании",
+    "реструктуризация долгов перевозчика",
+    "финансовое оздоровление транспортной компании",
+    "банкротство ООО перевозчика",
+    "конкурсный управляющий автопарк",
+    "процедура банкротства юридического лица"
+  ],
+  "internal_links": [],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/",
+    "https://www.consultant.ru/document/cons_doc_LAW_161313/"
+  ],
+  "faq": [
+    {
+      "question": "Можно ли договориться о рассрочке без процедуры?",
+      "answer": "Да. Реструктуризация задолженности возможна и вне арбитража - прямыми переговорами с банком, лизингодателем, топливным оператором. Но как только один из займодавцев подал заявление, коллективная реструктуризация уходит внутрь процесса и оформляется мировым соглашением."
+    },
+    {
+      "question": "Что с водителями и офисными сотрудниками при конкурсе?",
+      "answer": "Трудовые договоры не расторгаются автоматически. Задолженность по зарплате идёт во вторую очередь и выплачивается прежде требований займодавцев. Управляющий вправе сокращать штат по общим основаниям Трудового кодекса с соблюдением сроков и выплат."
+    },
+    {
+      "question": "Чем внешнее управление отличается от конкурса?",
+      "answer": "Внешнее направлено на восстановление платёжеспособности - фирма продолжает возить, долги реструктурируются, руководство переходит к внешнему управляющему. Конкурс - на реализацию имущества и расчёты с реестром. Первое даёт шанс сохранить бизнес, второе завершает его существование."
+    },
+    {
+      "question": "До какого момента займодавец может встать в реестр?",
+      "answer": "Два месяца с даты публикации о введении наблюдения в «Коммерсанте» и на ЕФРСБ. Опоздавшие получают зареестровый статус и претендуют на остаток средств в последнюю очередь."
+    },
+    {
+      "question": "Отвечает ли директор личным имуществом за долги фирмы?",
+      "answer": "По общему правилу - нет. Но при доказанной причинной связи между его действиями и обвалом бизнеса арбитраж привлекает к субсидиарной ответственности. Автомобиль, квартира сверх единственного жилья, счета - всё это идёт в счёт долга компании."
+    },
+    {
+      "question": "Сколько стоит подать заявление в 2026 году?",
+      "answer": "Госпошлина - сто тысяч рублей (подп. 4.1 п. 1 333.21 НК РФ). Отдельно обязательный платёж - двадцать пять тысяч на депозит суда для вознаграждения управляющего. По ходатайству депозит откладывают до первого заседания."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все юридические утверждения сверены с research.json. Пороговое значение 2 млн руб., просрочка 3+ месяца актуально (ст. 6, 33 127-ФЗ в ред. ФЗ-107 от 22.04.2024).",
+    "Госпошлина 100 000 руб. с 08.09.2024 актуально (ст. 333.21 НК РФ в ред. ФЗ-176 от 12.07.2024).",
+    "Процедуры банкротства: наблюдение 1-3 мес., внешнее управление до 2 лет, конкурс до 3 лет соответствуют ст. 27-34, 64-90, 91-124 127-ФЗ.",
+    "Вознаграждение управляющего: временный 30 тыс., внешний 45 тыс., конкурсный 30 тыс. + 7% соответствует ст. 20.6 127-ФЗ.",
+    "Субсидиарная ответственность директора: срок 3 года с банкротства, не позже 10 лет с действия соответствует ст. 61.10-61.14 127-ФЗ."
+  ],
+  "keyword_density_main": 0.009,
+  "main_keyword_exact_count": 1,
+  "text_chars": 8581,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.085,
+  "local_spam_ngram3_repeat": 0.017,
+  "local_lexical_diversity": 0.642,
+  "local_ai_markers_density": 0.19,
+  "local_ai_markers_critical": 0,
+  "local_ai_markers_total": 2,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 3,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "length_status": "too_long",
+  "length_kind": "default",
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1787349797/articles/bankrotstvo-transportnoj-kompanii-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1787349797/articles/bankrotstvo-transportnoj-kompanii-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Editorial composition centered on corporate asset protection during bankruptcy. Hero objects: a sand-filled brass hourglass mid-flow, a stack of closed corporate dossiers tied with cord, a polished round company seal, a fountain pen on a brass stand, a set of brass keys on a leather pad (asset custody emphasis), positioned on dark weathered slate. Camera: three-quarter angle at tabletop level. Lighting: focused directional spot creating dramatic shadow, gold rim-light on brass surfaces. Palette: deep charcoal, warm brass, oxblood leather accents. Mood: meticulous asset audit, time-constrained corporate protection strategy.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-08-21T22:03:18Z",
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 49,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "длина значительно больше лимита 6500 (8 581 знаков)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "length_too_long: 8581 > 6500 (kind=default)"
+  ],
+  "date_published": "2026-08-22",
+  "date_modified": "2026-08-22",
+  "ready_for_review": true,
+  "ready_at": "2026-08-21T22:03:22Z",
+  "publication_target": "telegram_review"
+}

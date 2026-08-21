@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-08-21T14:48:07",
-  "total": 541,
+  "generated_at": "2026-08-22T00:24:29",
+  "total": 542,
   "by_source": {
-    "published": 412,
+    "published": 474,
     "draft_approved": 1,
-    "draft_pending": 121,
+    "draft_pending": 60,
     "draft_local": 7
   },
   "by_category": {
     "news": 114,
-    "vzysk": 132,
     "yur": 144,
-    "fiz": 151
+    "fiz": 152,
+    "vzysk": 132
   },
   "articles": [
     {
@@ -93,6 +93,55 @@
       "tags": []
     },
     {
+      "slug": "bank-bankrot-chto-budet-s-kreditom-zaemshchika",
+      "category": "fiz",
+      "source": "published",
+      "url": "/articles/fiz/bank-bankrot-chto-budet-s-kreditom-zaemshchika.html",
+      "title": "Что будет с кредитом, если банк обанкротился",
+      "h1": "Что делать с кредитом, если банк обанкротился: права заёмщика",
+      "main_keyword": "Что делать с кредитом, если банк обанкротился",
+      "secondary_keywords": [],
+      "intent": "",
+      "writer_route": "",
+      "h2_topics": [
+        "Что будет с кредитом при банкротстве банка - коротко",
+        "АСВ защищает вклады, а не займы",
+        "Куда уходит ваш долг при ликвидации",
+        "Три сценария для заёмщика",
+        "Частые вопросы о кредите при банкротстве банка",
+        "Читайте также",
+        "ЗАПОЛНИТЬ ФОРМУ"
+      ],
+      "char_count": 9662,
+      "published_at": null,
+      "tags": []
+    },
+    {
+      "slug": "bank-otkazal-v-restrukturizacii-chto-delat-bankrotstvo",
+      "category": "fiz",
+      "source": "published",
+      "url": "/articles/fiz/bank-otkazal-v-restrukturizacii-chto-delat-bankrotstvo.html",
+      "title": "Банк отказал в реструктуризации: выход через банкротство",
+      "h1": "Банк отказал в реструктуризации: когда выход - банкротство",
+      "main_keyword": "Банк отказал в реструктуризации",
+      "secondary_keywords": [],
+      "intent": "",
+      "writer_route": "",
+      "h2_topics": [
+        "Что делать после отказа: коротко",
+        "Почему займодавец вправе сказать «нет»",
+        "Четыре пути после того, как банк отказал",
+        "Кому подходит эта дорога после отказа",
+        "Что уйдёт, что останется",
+        "Частые вопросы об отказе банка и банкротстве гражданина",
+        "Читайте также",
+        "ЗАПОЛНИТЬ ФОРМУ"
+      ],
+      "char_count": 10478,
+      "published_at": null,
+      "tags": []
+    },
+    {
       "slug": "bankovskie-scheta-pri-bankrotstve",
       "category": "fiz",
       "source": "published",
@@ -145,6 +194,31 @@
       "tags": []
     },
     {
+      "slug": "bankrotstvo-chlena-zhilishchnogo-kooperativa",
+      "category": "fiz",
+      "source": "published",
+      "url": "/articles/fiz/bankrotstvo-chlena-zhilishchnogo-kooperativa.html",
+      "title": "Банкротство члена ЖСК: пай и квартира",
+      "h1": "Банкротство члена ЖСК: что будет с паем и квартирой",
+      "main_keyword": "Банкротство члена ЖСК",
+      "secondary_keywords": [],
+      "intent": "",
+      "writer_route": "",
+      "h2_topics": [
+        "Пай и квартира - коротко",
+        "Паевое право - ещё не собственность",
+        "Три сценария для квартиры",
+        "Кому подходит выход через списание",
+        "Что останется после дела",
+        "Частые вопросы о банкротстве пайщика ЖСК",
+        "Читайте также",
+        "ЗАПОЛНИТЬ ФОРМУ"
+      ],
+      "char_count": 9301,
+      "published_at": null,
+      "tags": []
+    },
+    {
       "slug": "bankrotstvo-dolg-kreditnyj-kooperativ-kpk",
       "category": "fiz",
       "source": "published",
@@ -192,6 +266,56 @@
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
       "char_count": 10055,
+      "published_at": null,
+      "tags": []
+    },
+    {
+      "slug": "bankrotstvo-dolgi-strahovye-vznosy-sfr",
+      "category": "fiz",
+      "source": "published",
+      "url": "/articles/fiz/bankrotstvo-dolgi-strahovye-vznosy-sfr.html",
+      "title": "Долги по страховым взносам СФР: банкротство и списание",
+      "h1": "Долги по страховым взносам в СФР: банкротство и списание задолженности",
+      "main_keyword": "Долги по страховым взносам в СФР",
+      "secondary_keywords": [],
+      "intent": "",
+      "writer_route": "",
+      "h2_topics": [
+        "Прямой ответ по недоимке перед фондом",
+        "Кто копит недоимку перед Социальным фондом",
+        "МФЦ или арбитраж: два маршрута",
+        "Кому выгодно, а кому не поможет",
+        "Что уйдёт в ноль, а что останется",
+        "Частые вопросы о банкротстве при долгах по страховым взносам",
+        "Читайте также",
+        "ЗАПОЛНИТЬ ФОРМУ"
+      ],
+      "char_count": 10426,
+      "published_at": null,
+      "tags": []
+    },
+    {
+      "slug": "bankrotstvo-fizlica-bez-propiski",
+      "category": "fiz",
+      "source": "published",
+      "url": "/articles/fiz/bankrotstvo-fizlica-bez-propiski.html",
+      "title": "Банкротство физлица без прописки: в какой суд подать",
+      "h1": "Банкротство физлица без прописки: в какой суд подавать",
+      "main_keyword": "Банкротство физлица без прописки",
+      "secondary_keywords": [],
+      "intent": "",
+      "writer_route": "",
+      "h2_topics": [
+        "Куда идти без постоянной прописки - кратко",
+        "Как определяют подсудность без штампа",
+        "МФЦ: адрес прописки не спрашивают",
+        "Что подтвердит фактический адрес проживания",
+        "Что будет, если ошиблись адресом подачи",
+        "Частые вопросы о банкротстве физлица без постоянного адреса",
+        "Читайте также",
+        "ЗАПОЛНИТЬ ФОРМУ"
+      ],
+      "char_count": 10598,
       "published_at": null,
       "tags": []
     },
@@ -268,6 +392,31 @@
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
       "char_count": 9668,
+      "published_at": null,
+      "tags": []
+    },
+    {
+      "slug": "bankrotstvo-fizlica-nuzno-li-uvedomit-rabotodatelya",
+      "category": "fiz",
+      "source": "published",
+      "url": "/articles/fiz/bankrotstvo-fizlica-nuzno-li-uvedomit-rabotodatelya.html",
+      "title": "Банкротство и работа: обязаны ли уведомить работодателя",
+      "h1": "Нужно ли сообщать работодателю о банкротстве физического лица: права и обязанности",
+      "main_keyword": "Нужно ли сообщать работодателю о банкротстве физического лица",
+      "secondary_keywords": [],
+      "intent": "",
+      "writer_route": "",
+      "h2_topics": [
+        "Обязаны ли докладывать нанимателю",
+        "Сколько уходит с заработка",
+        "Что вправе и не вправе наниматель",
+        "Кому это критично",
+        "Три запрета после закрытия дела",
+        "Частые вопросы о занятости и банкротстве",
+        "Читайте также",
+        "ЗАПОЛНИТЬ ФОРМУ"
+      ],
+      "char_count": 9953,
       "published_at": null,
       "tags": []
     },
@@ -953,6 +1102,31 @@
       "tags": []
     },
     {
+      "slug": "bankrotstvo-pri-neskolkikh-ispolnitelnykh-listakh",
+      "category": "fiz",
+      "source": "published",
+      "url": "/articles/fiz/bankrotstvo-pri-neskolkikh-ispolnitelnykh-listakh.html",
+      "title": "Банкротство при множестве исполнительных листов: решение",
+      "h1": "Банкротство при множестве исполнительных листов: как защитить себя от взысканий",
+      "main_keyword": "Банкротство при множестве исполнительных листов",
+      "secondary_keywords": [],
+      "intent": "",
+      "writer_route": "",
+      "h2_topics": [
+        "Что даёт процедура несостоятельности - коротко",
+        "Чем множество бумаг хуже одной",
+        "Как одно определение суда останавливает всех кредиторов",
+        "МФЦ или арбитражный суд: какой маршрут открыт",
+        "Что не спишут после завершения",
+        "Частые вопросы о банкротстве при нескольких исполнительных листах",
+        "Читайте также",
+        "ЗАПОЛНИТЬ ФОРМУ"
+      ],
+      "char_count": 11080,
+      "published_at": null,
+      "tags": []
+    },
+    {
       "slug": "bankrotstvo-pri-poruchitelstve",
       "category": "fiz",
       "source": "published",
@@ -974,6 +1148,31 @@
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
       "char_count": 9624,
+      "published_at": null,
+      "tags": []
+    },
+    {
+      "slug": "bankrotstvo-pri-potere-raboty-fizlica",
+      "category": "fiz",
+      "source": "published",
+      "url": "/articles/fiz/bankrotstvo-pri-potere-raboty-fizlica.html",
+      "title": "Банкротство при потере работы: пошаговая инструкция",
+      "h1": "Банкротство физлица при потере работы: как пройти процедуру пошагово",
+      "main_keyword": "Банкротство физлица при потере работы",
+      "secondary_keywords": [],
+      "intent": "",
+      "writer_route": "",
+      "h2_topics": [
+        "Когда должник вправе идти в суд",
+        "МФЦ здесь не поможет",
+        "Депозит и пакет бумаг",
+        "Реализация вместо рассрочки",
+        "Списание долгов и запреты",
+        "Частые вопросы о банкротстве при потере работы",
+        "Читайте также",
+        "ЗАПОЛНИТЬ ФОРМУ"
+      ],
+      "char_count": 10297,
       "published_at": null,
       "tags": []
     },
@@ -1463,6 +1662,31 @@
       "tags": []
     },
     {
+      "slug": "dve-kvartiry-pri-bankrotstve-kakuyu-sohranyat",
+      "category": "fiz",
+      "source": "published",
+      "url": "/articles/fiz/dve-kvartiry-pri-bankrotstve-kakuyu-sohranyat.html",
+      "title": "Две квартиры при банкротстве: какую оставят должнику",
+      "h1": "Две квартиры при банкротстве: какую оставят должнику и как защитить жилье",
+      "main_keyword": "Две квартиры при банкротстве",
+      "secondary_keywords": [],
+      "intent": "",
+      "writer_route": "",
+      "h2_topics": [
+        "Одна остаётся, вторая уходит с торгов",
+        "По каким признакам выбирают защищённый объект",
+        "Ипотека и роскошь: когда защита не срабатывает",
+        "Что происходит с деньгами и сроками",
+        "Кому такая ситуация выгодна, а кому - тревожная",
+        "Ответы на шесть вопросов о жилье при несостоятельности",
+        "Читайте также",
+        "ЗАПОЛНИТЬ ФОРМУ"
+      ],
+      "char_count": 10319,
+      "published_at": null,
+      "tags": []
+    },
+    {
       "slug": "fiktivnoe-bankrotstvo-fizlica-posledstviya",
       "category": "fiz",
       "source": "published",
@@ -1534,6 +1758,31 @@
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
       "char_count": 11176,
+      "published_at": null,
+      "tags": []
+    },
+    {
+      "slug": "imushchestvo-na-rebenke-pri-bankrotstve-roditelya",
+      "category": "fiz",
+      "source": "published",
+      "url": "/articles/fiz/imushchestvo-na-rebenke-pri-bankrotstve-roditelya.html",
+      "title": "Имущество на ребёнке при банкротстве родителей: защита",
+      "h1": "Имущество на ребёнке при банкротстве родителей: как защитить детские вещи и сбережения",
+      "main_keyword": "Имущество на ребёнке при банкротстве родителей",
+      "secondary_keywords": [],
+      "intent": "",
+      "writer_route": "",
+      "h2_topics": [
+        "Коротко: где щит работает",
+        "Вклад, доля, наследство - что уцелеет",
+        "Когда управляющий вправе отменить подарок",
+        "Где щит работает, а где нет",
+        "Серые зоны",
+        "Частые вопросы об имуществе ребёнка при банкротстве",
+        "Читайте также",
+        "ЗАПОЛНИТЬ ФОРМУ"
+      ],
+      "char_count": 10554,
       "published_at": null,
       "tags": []
     },
@@ -1684,6 +1933,31 @@
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
       "char_count": 9654,
+      "published_at": null,
+      "tags": []
+    },
+    {
+      "slug": "kak-uskorit-bankrotstvo-fizlica",
+      "category": "fiz",
+      "source": "published",
+      "url": "/articles/fiz/kak-uskorit-bankrotstvo-fizlica.html",
+      "title": "Как ускорить банкротство физлица: способы и сроки",
+      "h1": "Как ускорить банкротство физлица: реальные способы сократить сроки",
+      "main_keyword": "Как ускорить банкротство физлица",
+      "secondary_keywords": [],
+      "intent": "",
+      "writer_route": "",
+      "h2_topics": [
+        "Коротко о сроках: полгода или 3,5 года",
+        "Внесудебный путь через МФЦ",
+        "Арбитраж: что реально ускоряет дело",
+        "Диагностика: какой путь ваш",
+        "Что тормозит процесс",
+        "Частые вопросы об ускорении банкротства физлица",
+        "Читайте также",
+        "ЗАПОЛНИТЬ ФОРМУ"
+      ],
+      "char_count": 9946,
       "published_at": null,
       "tags": []
     },
@@ -1945,6 +2219,32 @@
       "tags": []
     },
     {
+      "slug": "lichnye-veshchi-mebel-pri-bankrotstve-fizlica",
+      "category": "fiz",
+      "source": "published",
+      "url": "/articles/fiz/lichnye-veshchi-mebel-pri-bankrotstve-fizlica.html",
+      "title": "Личные вещи и мебель при банкротстве физлица",
+      "h1": "Личные вещи и мебель при банкротстве физлица: что не заберут",
+      "main_keyword": "Личные вещи и мебель при банкротстве физлица",
+      "secondary_keywords": [],
+      "intent": "",
+      "writer_route": "",
+      "h2_topics": [
+        "Что закон точно не отдаст",
+        "Одежда, мебель, быт",
+        "Где начинается роскошь",
+        "Сколько денег остаётся ежемесячно",
+        "Что всё-таки заберут",
+        "Итог для решения",
+        "Частые вопросы о вещах и мебели при списании долгов",
+        "Читайте также",
+        "ЗАПОЛНИТЬ ФОРМУ"
+      ],
+      "char_count": 9333,
+      "published_at": null,
+      "tags": []
+    },
+    {
       "slug": "materinskij-kapital-pri-bankrotstve",
       "category": "fiz",
       "source": "published",
@@ -2019,6 +2319,31 @@
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
       "char_count": 9587,
+      "published_at": null,
+      "tags": []
+    },
+    {
+      "slug": "nalog-pri-spisanii-dolga-bankrotstvo-fizlica",
+      "category": "fiz",
+      "source": "published",
+      "url": "/articles/fiz/nalog-pri-spisanii-dolga-bankrotstvo-fizlica.html",
+      "title": "Налоговые последствия банкротства: НДФЛ при списании долга",
+      "h1": "Налог при банкротстве физлица: платить ли НДФЛ со списанного долга",
+      "main_keyword": "Налог при банкротстве физлица",
+      "secondary_keywords": [],
+      "intent": "",
+      "writer_route": "",
+      "h2_topics": [
+        "НДФЛ при банкротстве: главное коротко",
+        "Три условия работы льготы",
+        "Требования ФНС: что не исчезает после дела",
+        "Три сценария - три разных исхода",
+        "Риски, которые важно знать заранее",
+        "Частые вопросы о налогах при банкротстве физлица",
+        "Читайте также",
+        "ЗАПОЛНИТЬ ФОРМУ"
+      ],
+      "char_count": 9488,
       "published_at": null,
       "tags": []
     },
@@ -2331,6 +2656,31 @@
       "tags": []
     },
     {
+      "slug": "poluchenie-alimentov-s-bankrota",
+      "category": "fiz",
+      "source": "published",
+      "url": "/articles/fiz/poluchenie-alimentov-s-bankrota.html",
+      "title": "Алименты с банкрота при банкротстве физического лица",
+      "h1": "Получение алиментов с банкрота: приоритет в процедуре банкротства физлица",
+      "main_keyword": "Получение алиментов с банкрота",
+      "secondary_keywords": [],
+      "intent": "",
+      "writer_route": "",
+      "h2_topics": [
+        "Первая очередь без списания",
+        "МФЦ или арбитраж",
+        "Как встать в реестр",
+        "Две схемы выплат",
+        "Три угрозы для получателя",
+        "Частые вопросы о получении алиментов при банкротстве должника",
+        "Читайте также",
+        "ЗАПОЛНИТЬ ФОРМУ"
+      ],
+      "char_count": 9752,
+      "published_at": null,
+      "tags": []
+    },
+    {
       "slug": "prava-kvartirantov-pri-bankrotstve-arendodatelya",
       "category": "fiz",
       "source": "published",
@@ -2428,6 +2778,31 @@
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
       "char_count": 10609,
+      "published_at": null,
+      "tags": []
+    },
+    {
+      "slug": "proverka-dolzhnika-na-bankrotstvo-efrsb",
+      "category": "fiz",
+      "source": "published",
+      "url": "/articles/fiz/proverka-dolzhnika-na-bankrotstvo-efrsb.html",
+      "title": "Как проверить физлицо на банкротство по ЕФРСБ",
+      "h1": "Как проверить физлицо на банкротство по реестру ЕФРСБ: пошаговая инструкция",
+      "main_keyword": "Как проверить физлицо на банкротство по реестру ЕФРСБ",
+      "secondary_keywords": [],
+      "intent": "",
+      "writer_route": "",
+      "h2_topics": [
+        "Пошагово через официальный портал",
+        "Что хранит база о каждом физлице",
+        "Пять статусов и что за ними стоит",
+        "Кому нужна открытая база должников",
+        "Срок хранения и выписка",
+        "Частые вопросы",
+        "Читайте также",
+        "ЗАПОЛНИТЬ ФОРМУ"
+      ],
+      "char_count": 8934,
       "published_at": null,
       "tags": []
     },
@@ -2715,6 +3090,31 @@
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
       "char_count": 8737,
+      "published_at": null,
+      "tags": []
+    },
+    {
+      "slug": "uvolili-vo-vremya-bankrotstva-fizlica",
+      "category": "fiz",
+      "source": "published",
+      "url": "/articles/fiz/uvolili-vo-vremya-bankrotstva-fizlica.html",
+      "title": "Потеряли работу при банкротстве: действия физлица",
+      "h1": "Потеряли работу во время банкротства: права должника и что делать",
+      "main_keyword": "Потеряли работу во время банкротства",
+      "secondary_keywords": [],
+      "intent": "",
+      "writer_route": "",
+      "h2_topics": [
+        "Банкротство без работы: коротко о главном",
+        "Что происходит с планом реструктуризации при потере дохода",
+        "Сколько остаётся на руках: пособие, минимум и матпомощь",
+        "Кому переход в реализацию выгоден, а кому придётся срочно трудоустраиваться",
+        "Три ошибки, которые лишат вас освобождения от долгов",
+        "Частые вопросы о процедуре при отсутствии занятости",
+        "Читайте также",
+        "ЗАПОЛНИТЬ ФОРМУ"
+      ],
+      "char_count": 10626,
       "published_at": null,
       "tags": []
     },
@@ -3053,6 +3453,30 @@
       "tags": []
     },
     {
+      "slug": "253-fz-perehodnye-polozheniya-dela-bankrotstvo",
+      "category": "news",
+      "source": "published",
+      "url": "/articles/news/253-fz-perehodnye-polozheniya-dela-bankrotstvo.html",
+      "title": "ФЗ-253 переходные положения банкротства",
+      "h1": "ФЗ-253: переходные положения для дел о банкротстве - что изменилось",
+      "main_keyword": "ФЗ-253",
+      "secondary_keywords": [],
+      "intent": "",
+      "writer_route": "",
+      "h2_topics": [
+        "Суть реформы в четырёх тезисах",
+        "Процессуальные и материальные предписания",
+        "Производства, открытые до реформы",
+        "Управляющие, кредиторы, должники",
+        "Частые вопросы о переходных положениях ФЗ-253",
+        "Читайте также",
+        "ЗАПОЛНИТЬ ФОРМУ"
+      ],
+      "char_count": 8594,
+      "published_at": null,
+      "tags": []
+    },
+    {
       "slug": "antifraud-kreditnaya-istoriya-zaschita-zaemshhikov",
       "category": "news",
       "source": "published",
@@ -3097,6 +3521,30 @@
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
       "char_count": 7940,
+      "published_at": null,
+      "tags": []
+    },
+    {
+      "slug": "antikrizisnyj-upravlyayushchij-reestr-253-fz",
+      "category": "news",
+      "source": "published",
+      "url": "/articles/news/antikrizisnyj-upravlyayushchij-reestr-253-fz.html",
+      "title": "Реестр антикризисных управляющих 253-ФЗ",
+      "h1": "Реестр антикризисных управляющих по 253-ФЗ: как работает и кого туда включают",
+      "main_keyword": "Реестр антикризисных управляющих по 253-ФЗ",
+      "secondary_keywords": [],
+      "intent": "",
+      "writer_route": "",
+      "h2_topics": [
+        "Правовая основа реестра антикризисных управляющих",
+        "Четыре условия, чтобы попасть в список",
+        "Кому закроют дорогу в реестр",
+        "Как суд выбирает роль для одного специалиста",
+        "Частые вопросы",
+        "Читайте также",
+        "ЗАПОЛНИТЬ ФОРМУ"
+      ],
+      "char_count": 8691,
       "published_at": null,
       "tags": []
     },
@@ -3396,6 +3844,30 @@
       "tags": []
     },
     {
+      "slug": "cb-mpl-chetvertyj-kvartal-ogranicheniya",
+      "category": "news",
+      "source": "published",
+      "url": "/articles/news/cb-mpl-chetvertyj-kvartal-ogranicheniya.html",
+      "title": "МПЛ ЦБ: новые ограничения на ипотеку и их последствия",
+      "h1": "МПЛ от ЦБ: как новые ограничения повлияют на заёмщиков и ипотеку",
+      "main_keyword": "МПЛ от ЦБ",
+      "secondary_keywords": [],
+      "intent": "",
+      "writer_route": "",
+      "h2_topics": [
+        "Зачем регулятор ограничивает выдачи",
+        "Как считают ЛТВ и ДТИ",
+        "Кого заденет, а кого нет",
+        "Три мифа, которые ходят по чатам",
+        "Частые вопросы о новых МПЛ на ипотеку",
+        "Читайте также",
+        "ЗАПОЛНИТЬ ФОРМУ"
+      ],
+      "char_count": 8370,
+      "published_at": null,
+      "tags": []
+    },
+    {
       "slug": "cb-mpl-tretiy-kvartal-novye-limity-kredity",
       "category": "news",
       "source": "published",
@@ -3440,6 +3912,30 @@
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
       "char_count": 7800,
+      "published_at": null,
+      "tags": []
+    },
+    {
+      "slug": "cb-rezyume-iyulskogo-zasedaniya-stavka",
+      "category": "news",
+      "source": "published",
+      "url": "/articles/news/cb-rezyume-iyulskogo-zasedaniya-stavka.html",
+      "title": "Резюме июльского заседания ЦБ и аргументы за снижение",
+      "h1": "Резюме июльского заседания ЦБ: аргументы за снижение ставки",
+      "main_keyword": "Резюме июльского заседания ЦБ",
+      "secondary_keywords": [],
+      "intent": "",
+      "writer_route": "",
+      "h2_topics": [
+        "Что решил ЦБ в июле 2026",
+        "Три аргумента комитета за смягчение",
+        "Как сигнал доходит до кредитов",
+        "Почему кредитор вправе не идти следом",
+        "Частые вопросы о июльском решении ЦБ",
+        "Читайте также",
+        "ЗАПОЛНИТЬ ФОРМУ"
+      ],
+      "char_count": 7879,
       "published_at": null,
       "tags": []
     },
@@ -3489,6 +3985,30 @@
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
       "char_count": 8975,
+      "published_at": null,
+      "tags": []
+    },
+    {
+      "slug": "cb-zasedaniye-sentyabr-stavka-prognoz-dolzhniki",
+      "category": "news",
+      "source": "published",
+      "url": "/articles/news/cb-zasedaniye-sentyabr-stavka-prognoz-dolzhniki.html",
+      "title": "Прогноз ЦБ по ставкам до сентября: помощь должникам",
+      "h1": "ЦБ повышает ставку до сентября: что это значит для должников",
+      "main_keyword": "ЦБ повышает ставку до сентября",
+      "secondary_keywords": [],
+      "intent": "",
+      "writer_route": "",
+      "h2_topics": [
+        "Как решение ЦБ передаётся в ваш кредит",
+        "Плавающая или фиксированная - у кого вырастет платёж",
+        "Что делать заёмщику при подорожании займов",
+        "Кому опасаться, а кому спать спокойно",
+        "Часто задаваемые вопросы о ставке ЦБ и долгах",
+        "Читайте также",
+        "ЗАПОЛНИТЬ ФОРМУ"
+      ],
+      "char_count": 8233,
       "published_at": null,
       "tags": []
     },
@@ -3619,6 +4139,31 @@
       "tags": []
     },
     {
+      "slug": "dosudebnaya-sanaciya-253-fz-kak-spasti-biznes",
+      "category": "news",
+      "source": "published",
+      "url": "/articles/news/dosudebnaya-sanaciya-253-fz-kak-spasti-biznes.html",
+      "title": "ФЗ-253: досудебная санация компании - инструкция",
+      "h1": "ФЗ-253 о досудебной санации: как спасти компанию от банкротства",
+      "main_keyword": "ФЗ-253 о досудебной санации",
+      "secondary_keywords": [],
+      "intent": "",
+      "writer_route": "",
+      "h2_topics": [
+        "Суть нового механизма",
+        "Каким компаниям открыт доступ",
+        "План оздоровления и голосование кредиторов",
+        "Мораторий на взыскание",
+        "Чем рискует компания при неудаче",
+        "Частые вопросы о досудебной санации по ФЗ-253",
+        "Читайте также",
+        "ЗАПОЛНИТЬ ФОРМУ"
+      ],
+      "char_count": 8463,
+      "published_at": null,
+      "tags": []
+    },
+    {
       "slug": "fedresurs-ob-yavleny-torgi-po-imushchestvu-bankrota-na-efrsb",
       "category": "news",
       "source": "published",
@@ -3722,6 +4267,55 @@
       "tags": []
     },
     {
+      "slug": "fns-taktika-kreditora-bankrotstvo-pozicii",
+      "category": "news",
+      "source": "published",
+      "url": "/articles/news/fns-taktika-kreditora-bankrotstvo-pozicii.html",
+      "title": "ФНС кредитор в банкротстве: практика Верховного суда",
+      "h1": "ФНС как кредитор в банкротстве: новая судебная практика",
+      "main_keyword": "ФНС как кредитор в банкротстве",
+      "secondary_keywords": [],
+      "intent": "",
+      "writer_route": "",
+      "h2_topics": [
+        "ФНС в банкротстве: позиция закона и судебной практики",
+        "Какие права даёт налоговому органу статус кредитора",
+        "Упрощённый порядок: почему налоговая служба подаёт заявление быстрее банка",
+        "Что делать, если ведомство предъявило завышенную сумму",
+        "Физлица и компании: что меняет позиция ведомства для каждого",
+        "Частые вопросы о роли ФНС в банкротстве",
+        "Читайте также",
+        "ЗАПОЛНИТЬ ФОРМУ"
+      ],
+      "char_count": 9853,
+      "published_at": null,
+      "tags": []
+    },
+    {
+      "slug": "fssp-alimenty-vzyskanie-statistika-polugodie",
+      "category": "news",
+      "source": "published",
+      "url": "/articles/news/fssp-alimenty-vzyskanie-statistika-polugodie.html",
+      "title": "Статистика ФССП по взысканию алиментов: +17% за полгода",
+      "h1": "ФССП: взыскание алиментов выросло на 17% за полгода",
+      "main_keyword": "ФССП",
+      "secondary_keywords": [],
+      "intent": "",
+      "writer_route": "",
+      "h2_topics": [
+        "Что означает прирост на 17%",
+        "Сколько вправе снять пристав и за какой срок",
+        "Какие доходы защищены от принудительного списания",
+        "Почему банкротство физлица не помогает",
+        "Частые вопросы об алиментах и взыскании",
+        "Читайте также",
+        "ЗАПОЛНИТЬ ФОРМУ"
+      ],
+      "char_count": 9147,
+      "published_at": null,
+      "tags": []
+    },
+    {
       "slug": "hotin-yugra-subsidiarka-173-mlrd-arbitrazh",
       "category": "news",
       "source": "published",
@@ -3742,6 +4336,31 @@
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
       "char_count": 9030,
+      "published_at": null,
+      "tags": []
+    },
+    {
+      "slug": "investor-zastrojshchika-bez-dogovora-bankrotstvo",
+      "category": "news",
+      "source": "published",
+      "url": "/articles/news/investor-zastrojshchika-bez-dogovora-bankrotstvo.html",
+      "title": "Защита инвесторов без договора при банкротстве",
+      "h1": "Верховный суд защитил инвесторов без договора при банкротстве застройщика",
+      "main_keyword": "Верховный суд защитил инвесторов без договора при банкротстве застройщика",
+      "secondary_keywords": [],
+      "intent": "",
+      "writer_route": "",
+      "h2_topics": [
+        "Что решил Верховный суд в июле 2026 года",
+        "Как попасть в реестр требований кредиторов без договора",
+        "Очерёдность выплат: почему вкладчики часто получают ноль",
+        "Кому позиция Верховного суда реально помогает",
+        "Когда стоит идти к директорам",
+        "Частые вопросы инвесторов без договора при банкротстве застройщика",
+        "Читайте также",
+        "ЗАПОЛНИТЬ ФОРМУ"
+      ],
+      "char_count": 9709,
       "published_at": null,
       "tags": []
     },
@@ -3790,6 +4409,30 @@
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
       "char_count": 8211,
+      "published_at": null,
+      "tags": []
+    },
+    {
+      "slug": "kollektory-rekord-cena-bankovskikh-dolgov",
+      "category": "news",
+      "source": "published",
+      "url": "/articles/news/kollektory-rekord-cena-bankovskikh-dolgov.html",
+      "title": "Рекорд цен на долги: что ждёт должников",
+      "h1": "Рекорд цен на просроченные долги: что ждёт должников и коллекторов",
+      "main_keyword": "Рекорд цен на просроченные долги",
+      "secondary_keywords": [],
+      "intent": "",
+      "writer_route": "",
+      "h2_topics": [
+        "Почему вторичный рынок долгов обновил ценовой рекорд",
+        "Цессия: как право требования переходит к новому кредитору",
+        "Запреты и разрешённые методы: что закон говорит взыскателю",
+        "Как защититься: от жалобы в ЦБ до процедуры несостоятельности",
+        "Частые вопросы о рекорде цен и действиях коллекторов",
+        "Читайте также",
+        "ЗАПОЛНИТЬ ФОРМУ"
+      ],
+      "char_count": 8309,
       "published_at": null,
       "tags": []
     },
@@ -3868,6 +4511,55 @@
       "tags": []
     },
     {
+      "slug": "kredity-za-tri-dnya-dolgi-ne-spishut-bankrotstvo",
+      "category": "news",
+      "source": "published",
+      "url": "/articles/news/kredity-za-tri-dnya-dolgi-ne-spishut-bankrotstvo.html",
+      "title": "Долги за три дня перед банкротством: решение ВС",
+      "h1": "Долги за три дня перед банкротством не спишут: решение ВС",
+      "main_keyword": "Долги за три дня перед банкротством не спишут",
+      "secondary_keywords": [],
+      "intent": "",
+      "writer_route": "",
+      "h2_topics": [
+        "Позиция ВС по свежим займам",
+        "Как арбитраж ищет умысел",
+        "Что не спишут никогда",
+        "Кто в зоне риска",
+        "Что важно запомнить",
+        "Частые вопросы о займах перед банкротством",
+        "Читайте также",
+        "ЗАПОЛНИТЬ ФОРМУ"
+      ],
+      "char_count": 7280,
+      "published_at": null,
+      "tags": []
+    },
+    {
+      "slug": "krizisnyj-upravlyayushchij-253-fz-bankrotstvo",
+      "category": "news",
+      "source": "published",
+      "url": "/articles/news/krizisnyj-upravlyayushchij-253-fz-bankrotstvo.html",
+      "title": "Кризисный управляющий при банкротстве: роль и функции",
+      "h1": "Кризисный управляющий в реформе банкротства: кто назначает и какие полномочия",
+      "main_keyword": "Кризисный управляющий в реформе банкротства",
+      "secondary_keywords": [],
+      "intent": "",
+      "writer_route": "",
+      "h2_topics": [
+        "Кризисный управляющий: кто это и для чего нужен",
+        "Чем новая должность отличается от арбитражного управляющего",
+        "Какие действия разрешены - и что требует согласования",
+        "Как вводится реабилитационная процедура и чем может завершиться",
+        "Частые вопросы о кризисном управляющем по 253-ФЗ",
+        "Читайте также",
+        "ЗАПОЛНИТЬ ФОРМУ"
+      ],
+      "char_count": 9448,
+      "published_at": null,
+      "tags": []
+    },
+    {
       "slug": "lichnaya-yavka-dolzhnika-bankrotstvo-iniciativa",
       "category": "news",
       "source": "published",
@@ -3937,6 +4629,55 @@
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
       "char_count": 8691,
+      "published_at": null,
+      "tags": []
+    },
+    {
+      "slug": "nbki-kreditnye-karty-snizhenie-vydach-statistika",
+      "category": "news",
+      "source": "published",
+      "url": "/articles/news/nbki-kreditnye-karty-snizhenie-vydach-statistika.html",
+      "title": "Выдача кредитных карт падает: статистика НБКИ",
+      "h1": "Выдача кредитных карт падает третий месяц подряд: анализ данных НБКИ",
+      "main_keyword": "Выдача кредитных карт падает третий месяц подряд",
+      "secondary_keywords": [],
+      "intent": "",
+      "writer_route": "",
+      "h2_topics": [
+        "Что происходит с выдачей коротко",
+        "Почему бюро фиксирует падение",
+        "Три фактора, которые тянут вниз",
+        "Кому ужесточение ударит сильнее",
+        "Когда ждать разворота",
+        "Частые вопросы о снижении выдачи кредитных карт",
+        "Читайте также",
+        "ЗАПОЛНИТЬ ФОРМУ"
+      ],
+      "char_count": 8549,
+      "published_at": null,
+      "tags": []
+    },
+    {
+      "slug": "nbki-prosrochka-ipoteka-rost-vtoroy-kvartal",
+      "category": "news",
+      "source": "published",
+      "url": "/articles/news/nbki-prosrochka-ipoteka-rost-vtoroy-kvartal.html",
+      "title": "Просрочка ипотеки выросла: данные НБКИ",
+      "h1": "Просрочка по ипотеке выросла: что показывают данные НБКИ",
+      "main_keyword": "Просрочка по ипотеке выросла",
+      "secondary_keywords": [],
+      "intent": "",
+      "writer_route": "",
+      "h2_topics": [
+        "Какие данные НБКИ публикует по ипотечному рынку",
+        "Когда задержка платежа становится серьёзной проблемой",
+        "Три причины, по которым ипотечные взносы становятся непосильными",
+        "Реструктуризация и права заёмщика: как действовать до суда",
+        "Частые вопросы о просрочке ипотеки и данных НБКИ",
+        "Читайте также",
+        "ЗАПОЛНИТЬ ФОРМУ"
+      ],
+      "char_count": 9309,
       "published_at": null,
       "tags": []
     },
@@ -4116,6 +4857,30 @@
       "tags": []
     },
     {
+      "slug": "porog-aresta-imushchestva-10000-sovfed",
+      "category": "news",
+      "source": "published",
+      "url": "/articles/news/porog-aresta-imushchestva-10000-sovfed.html",
+      "title": "Порог ареста имущества повышен до 10 000 рублей",
+      "h1": "Порог ареста имущества: долг менее 10 000 рублей теперь защищён запретом",
+      "main_keyword": "Порог ареста имущества",
+      "secondary_keywords": [],
+      "intent": "",
+      "writer_route": "",
+      "h2_topics": [
+        "Что Совфед одобрил 31 июля: суть инициативы",
+        "Пристав вправе взыскать при любой сумме",
+        "Ст. 446 ГПК и другие нормы: что уже нельзя у вас забрать",
+        "Кому поможет новый лимит - и что предпринять уже сейчас",
+        "Частые вопросы",
+        "Читайте также",
+        "ЗАПОЛНИТЬ ФОРМУ"
+      ],
+      "char_count": 10112,
+      "published_at": null,
+      "tags": []
+    },
+    {
       "slug": "prava-zalogodatelya-pri-bankrotstve-kreditora-vs",
       "category": "news",
       "source": "published",
@@ -4211,6 +4976,54 @@
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
       "char_count": 7709,
+      "published_at": null,
+      "tags": []
+    },
+    {
+      "slug": "reforma-bankrotstva-253-fz-izmeneniya-dlya-kreditorov",
+      "category": "news",
+      "source": "published",
+      "url": "/articles/news/reforma-bankrotstva-253-fz-izmeneniya-dlya-kreditorov.html",
+      "title": "Реформа банкротства: новые права и обязанности кредиторов",
+      "h1": "Реформа банкротства 253-ФЗ: какие права получили кредиторы",
+      "main_keyword": "Реформа банкротства 253-ФЗ",
+      "secondary_keywords": [],
+      "intent": "",
+      "writer_route": "",
+      "h2_topics": [
+        "Что изменил 253-ФЗ для участников производства по новому закону",
+        "Какие права закон закрепляет за кредитором в процедуре",
+        "Чьи претензии погашаются первыми при распределении средств должника",
+        "Как действовать после публикации о банкротстве в ЕФРСБ",
+        "Частые вопросы о правах кредиторов после реформы банкротства",
+        "Читайте также",
+        "ЗАПОЛНИТЬ ФОРМУ"
+      ],
+      "char_count": 9363,
+      "published_at": null,
+      "tags": []
+    },
+    {
+      "slug": "reforma-bankrotstvo-zakon-podpisan-sroki",
+      "category": "news",
+      "source": "published",
+      "url": "/articles/news/reforma-bankrotstvo-zakon-podpisan-sroki.html",
+      "title": "Реформа закона о банкротстве: сроки и изменения",
+      "h1": "Реформа закона о банкротстве юрлиц: что изменилось и когда вступит в силу",
+      "main_keyword": "Реформа закона о банкротстве юрлиц",
+      "secondary_keywords": [],
+      "intent": "",
+      "writer_route": "",
+      "h2_topics": [
+        "Что подписали 26 июля и кого это касается",
+        "Что менялось в 127-ФЗ с 2020 по 2025 год",
+        "Как арбитраж ведёт банкротное дело юрлица",
+        "Три угла: руководитель, кредитор, управляющий",
+        "Частые вопросы",
+        "Читайте также",
+        "ЗАПОЛНИТЬ ФОРМУ"
+      ],
+      "char_count": 9247,
       "published_at": null,
       "tags": []
     },
@@ -4559,6 +5372,31 @@
       "tags": []
     },
     {
+      "slug": "stavka-cb-14-procentov-pereraschyot-dolga-peni",
+      "category": "news",
+      "source": "published",
+      "url": "/articles/news/stavka-cb-14-procentov-pereraschyot-dolga-peni.html",
+      "title": "Ставка ЦБ 14%: как пересчитать долг и пени",
+      "h1": "Как пересчитать долг и пени при снижении ставки Центробанка до 14%",
+      "main_keyword": "Как пересчитать долг и пени при снижении ставки Центробанка до 14%",
+      "secondary_keywords": [],
+      "intent": "",
+      "writer_route": "",
+      "h2_topics": [
+        "Три итога от снижения ставки",
+        "Формула 1/360 и живой пример",
+        "С 24 июля 2026: что меняется само",
+        "Что предпринять, если взыскание уже началось",
+        "Когда договорная санкция заменяет расчёт по ЦБ",
+        "Частые вопросы о пересчёте пеней при ставке ЦБ 14%",
+        "Читайте также",
+        "ЗАПОЛНИТЬ ФОРМУ"
+      ],
+      "char_count": 9133,
+      "published_at": null,
+      "tags": []
+    },
+    {
       "slug": "sud-otmenil-vzyskanie-bashkiravtodor-lic-scheta",
       "category": "news",
       "source": "published",
@@ -4678,6 +5516,30 @@
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
       "char_count": 9180,
+      "published_at": null,
+      "tags": []
+    },
+    {
+      "slug": "tpp-bankrotstvo-sellery-marketplace-bpla",
+      "category": "news",
+      "source": "published",
+      "url": "/articles/news/tpp-bankrotstvo-sellery-marketplace-bpla.html",
+      "title": "ТПП упростит банкротство для sellery маркетплейсов",
+      "h1": "ТПП предложила упростить банкротство для пострадавших sellery маркетплейсов",
+      "main_keyword": "ТПП предложила упростить банкротство для пострадавших sellery маркетплейсов",
+      "secondary_keywords": [],
+      "intent": "",
+      "writer_route": "",
+      "h2_topics": [
+        "Что предложила палата",
+        "Как устроено списание долгов у ИП сейчас",
+        "Кому предложение поможет",
+        "Какие ограничения не снимет даже упрощение",
+        "Частые вопросы о банкротстве продавцов маркетплейсов",
+        "Читайте также",
+        "ЗАПОЛНИТЬ ФОРМУ"
+      ],
+      "char_count": 8621,
       "published_at": null,
       "tags": []
     },
@@ -4830,6 +5692,54 @@
       "tags": []
     },
     {
+      "slug": "vs-rf-bankrotstvo-droppera-procenty-postradavshim",
+      "category": "news",
+      "source": "published",
+      "url": "/articles/news/vs-rf-bankrotstvo-droppera-procenty-postradavshim.html",
+      "title": "Мошенник-банкрот: жертва получит проценты. Практика ВС",
+      "h1": "Банкротство мошенника не лишает жертву процентов: разъяснение Верховного суда",
+      "main_keyword": "Банкротство мошенника не лишает жертву процентов",
+      "secondary_keywords": [],
+      "intent": "",
+      "writer_route": "",
+      "h2_topics": [
+        "ВС снял старую неопределённость",
+        "Как пострадавший становится кредитором",
+        "Как считают надбавку по статье 395",
+        "Что реально получит пострадавший",
+        "Частые вопросы о банкротстве мошенника и правах жертвы",
+        "Читайте также",
+        "ЗАПОЛНИТЬ ФОРМУ"
+      ],
+      "char_count": 7246,
+      "published_at": null,
+      "tags": []
+    },
+    {
+      "slug": "vs-rf-torgoplivost-dolzhnika-otkaz-v-spisanii",
+      "category": "news",
+      "source": "published",
+      "url": "/articles/news/vs-rf-torgoplivost-dolzhnika-otkaz-v-spisanii.html",
+      "title": "ВС РФ: поспешность при банкротстве лишает права на списание",
+      "h1": "Как поспешливость при банкротстве лишает права на списание долга",
+      "main_keyword": "Как поспешливость при банкротстве лишает права на списание долга",
+      "secondary_keywords": [],
+      "intent": "",
+      "writer_route": "",
+      "h2_topics": [
+        "Что разъяснил ВС РФ: суть позиции",
+        "Какое поведение суд трактует против должника",
+        "За чем следит финансовый управляющий",
+        "Кто рискует потерять чистый лист",
+        "Частые вопросы о добросовестности при банкротстве физлица",
+        "Читайте также",
+        "ЗАПОЛНИТЬ ФОРМУ"
+      ],
+      "char_count": 10227,
+      "published_at": null,
+      "tags": []
+    },
+    {
       "slug": "vs-sdelki-zhilyo-bankrotstvo-dobrosovestnye-pokupateli",
       "category": "news",
       "source": "published",
@@ -4898,6 +5808,30 @@
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
       "char_count": 8598,
+      "published_at": null,
+      "tags": []
+    },
+    {
+      "slug": "zakon-253-fz-bankrotstvo-chto-vstupilo-v-silu",
+      "category": "news",
+      "source": "published",
+      "url": "/articles/news/zakon-253-fz-bankrotstvo-chto-vstupilo-v-silu.html",
+      "title": "Закон о банкротстве 253-ФЗ: главные изменения",
+      "h1": "Закон о банкротстве: какие изменения вступили в силу",
+      "main_keyword": "Закон о банкротстве",
+      "secondary_keywords": [],
+      "intent": "",
+      "writer_route": "",
+      "h2_topics": [
+        "26 июля 2026: свежий документ в реестре",
+        "Физлица и компании: под кого попадает",
+        "С какой даты нормы учитываются в судах",
+        "Что уточнить прямо сейчас",
+        "Частые вопросы о 253-ФЗ",
+        "Читайте также",
+        "ЗАПОЛНИТЬ ФОРМУ"
+      ],
+      "char_count": 8413,
       "published_at": null,
       "tags": []
     },
@@ -5693,6 +6627,81 @@
       "tags": []
     },
     {
+      "slug": "kreditnye-kanikuly-prava-dolzhnika",
+      "category": "vzysk",
+      "source": "published",
+      "url": "/articles/vzysk/kreditnye-kanikuly-prava-dolzhnika.html",
+      "title": "Кредитные каникулы и права должника при взыскании",
+      "h1": "Кредитные каникулы при взыскании: какие права имеет должник",
+      "main_keyword": "Кредитные каникулы при взыскании",
+      "secondary_keywords": [],
+      "intent": "",
+      "writer_route": "",
+      "h2_topics": [
+        "Пять прав, о которых редко знают",
+        "Сколько может забирать пристав",
+        "Когда можно попросить паузу",
+        "Что закон не отдаёт кредитору",
+        "Пристав нарушил закон - куда жаловаться",
+        "Частые вопросы о правах при взыскании задолженности",
+        "Читайте также",
+        "ЗАПОЛНИТЬ ФОРМУ"
+      ],
+      "char_count": 10163,
+      "published_at": null,
+      "tags": []
+    },
+    {
+      "slug": "mfo-podala-v-sud-chto-delat",
+      "category": "vzysk",
+      "source": "published",
+      "url": "/articles/vzysk/mfo-podala-v-sud-chto-delat.html",
+      "title": "МФО подала в суд: действия должника при иске",
+      "h1": "МФО подала в суд по займу: что делать должнику",
+      "main_keyword": "МФО подала в суд по займу",
+      "secondary_keywords": [],
+      "intent": "",
+      "writer_route": "",
+      "h2_topics": [
+        "МФО подала в суд - первые шаги должника",
+        "Судебное предписание или иск",
+        "Отзыв на требование займодавца",
+        "Пристав пришёл: как защитить заработок",
+        "Что усугубит положение",
+        "Частые вопросы о займе и взыскании МФО",
+        "Читайте также",
+        "ЗАПОЛНИТЬ ФОРМУ"
+      ],
+      "char_count": 10082,
+      "published_at": null,
+      "tags": []
+    },
+    {
+      "slug": "narushenie-mirovogo-soglasheniya-ispolnitelnyj-list",
+      "category": "vzysk",
+      "source": "published",
+      "url": "/articles/vzysk/narushenie-mirovogo-soglasheniya-ispolnitelnyj-list.html",
+      "title": "Исполнительный лист при нарушении мирового соглашения",
+      "h1": "Как получить исполнительный лист при нарушении мирового соглашения",
+      "main_keyword": "Как получить исполнительный лист при нарушении мирового соглашения",
+      "secondary_keywords": [],
+      "intent": "",
+      "writer_route": "",
+      "h2_topics": [
+        "Что происходит при нарушении - коротко",
+        "Почему повторный иск не нужен",
+        "Какие документы подать и как получить лист",
+        "Что делает пристав в первую неделю",
+        "Когда взыскатель рискует не получить деньги",
+        "Частые вопросы о взыскании по мировому соглашению",
+        "Читайте также",
+        "ЗАПОЛНИТЬ ФОРМУ"
+      ],
+      "char_count": 10573,
+      "published_at": null,
+      "tags": []
+    },
+    {
       "slug": "neispolnenie-resheniya-suda-posledstviya",
       "category": "vzysk",
       "source": "published",
@@ -5959,6 +6968,31 @@
       "tags": []
     },
     {
+      "slug": "otkaz-strakhovshchika-v-vyplate-kak-vzyskat",
+      "category": "vzysk",
+      "source": "published",
+      "url": "/articles/vzysk/otkaz-strakhovshchika-v-vyplate-kak-vzyskat.html",
+      "title": "Как взыскать отказ страховщика в выплате",
+      "h1": "Как взыскать отказ страховщика в выплате через суд",
+      "main_keyword": "Как взыскать отказ страховщика в выплате через суд",
+      "secondary_keywords": [],
+      "intent": "",
+      "writer_route": "",
+      "h2_topics": [
+        "Реально ли отсудить деньги у страховой",
+        "Когда позиция компании нарушает закон",
+        "Исковое заявление: куда идти и что приложить",
+        "Что присуждают сверх основной суммы",
+        "Приказ или иск: какой путь выбрать",
+        "Частые вопросы о взыскании отказа страховщика",
+        "Читайте также",
+        "ЗАПОЛНИТЬ ФОРМУ"
+      ],
+      "char_count": 10553,
+      "published_at": null,
+      "tags": []
+    },
+    {
       "slug": "povorot-ispolneniya-otmena-resheniya",
       "category": "vzysk",
       "source": "published",
@@ -6034,6 +7068,32 @@
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
       "char_count": 9442,
+      "published_at": null,
+      "tags": []
+    },
+    {
+      "slug": "pristavy-spisali-pensiyu-chto-delat",
+      "category": "vzysk",
+      "source": "published",
+      "url": "/articles/vzysk/pristavy-spisali-pensiyu-chto-delat.html",
+      "title": "Приставы списали пенсию: как вернуть деньги",
+      "h1": "Приставы списали пенсию: как законно вернуть деньги должнику",
+      "main_keyword": "Приставы списали пенсию",
+      "secondary_keywords": [],
+      "intent": "",
+      "writer_route": "",
+      "h2_topics": [
+        "Что проверить первым делом",
+        "Какие деньги трогать нельзя",
+        "Сколько вправе забрать из пенсии",
+        "Куда идти и как вернуть",
+        "Кому реально поможет, а кому нет",
+        "Финальная мысль",
+        "Частые вопросы о взыскании из пенсии",
+        "Читайте также",
+        "ЗАПОЛНИТЬ ФОРМУ"
+      ],
+      "char_count": 11113,
       "published_at": null,
       "tags": []
     },
@@ -6507,6 +7567,31 @@
       "tags": []
     },
     {
+      "slug": "vyselenie-arendatora-dolzhnika-cherez-sud",
+      "category": "vzysk",
+      "source": "published",
+      "url": "/articles/vzysk/vyselenie-arendatora-dolzhnika-cherez-sud.html",
+      "title": "Выселение арендатора-должника через суд: пошагово",
+      "h1": "Как выселить арендатора с долгами через суд: пошаговая инструкция",
+      "main_keyword": "Как выселить арендатора с долгами через суд",
+      "secondary_keywords": [],
+      "intent": "",
+      "writer_route": "",
+      "h2_topics": [
+        "Как выселить арендатора с долгами - коротко",
+        "Арбитраж или районный суд - куда подавать",
+        "Что должно быть в исковом заявлении о выселении",
+        "Сколько времени займёт суд и во что обойдётся",
+        "Приставы и принудительное освобождение помещения",
+        "Частые вопросы о выселении арендатора через суд",
+        "Читайте также",
+        "ЗАПОЛНИТЬ ФОРМУ"
+      ],
+      "char_count": 10501,
+      "published_at": null,
+      "tags": []
+    },
+    {
       "slug": "vzyskanie-alimentov-cherez-pristavov",
       "category": "vzysk",
       "source": "published",
@@ -6945,6 +8030,31 @@
       "tags": []
     },
     {
+      "slug": "vzyskanie-dolga-s-marketplejsa",
+      "category": "vzysk",
+      "source": "published",
+      "url": "/articles/vzysk/vzyskanie-dolga-s-marketplejsa.html",
+      "title": "Взыскание долга с маркетплейса: Wildberries, Ozon",
+      "h1": "Взыскание долга с маркетплейса: способы взыскания у Wildberries и Ozon",
+      "main_keyword": "Взыскание долга с маркетплейса",
+      "secondary_keywords": [],
+      "intent": "",
+      "writer_route": "",
+      "h2_topics": [
+        "Три способа вернуть деньги: коротко",
+        "Кого привлекать: платформу или продавца",
+        "Претензия, приказ, иск - чем отличаются",
+        "Кому какой инструмент подходит",
+        "Что может затянуть получение денег",
+        "Частые вопросы о взыскании долга с маркетплейса",
+        "Читайте также",
+        "ЗАПОЛНИТЬ ФОРМУ"
+      ],
+      "char_count": 11934,
+      "published_at": null,
+      "tags": []
+    },
+    {
       "slug": "vzyskanie-dolga-s-naslednikov-dolzhnika",
       "category": "vzysk",
       "source": "published",
@@ -7302,6 +8412,31 @@
       "tags": []
     },
     {
+      "slug": "vzyskanie-po-podryadu-bez-podpisannogo-akta",
+      "category": "vzysk",
+      "source": "published",
+      "url": "/articles/vzysk/vzyskanie-po-podryadu-bez-podpisannogo-akta.html",
+      "title": "Взыскание по подряду без акта работ: пошаговая инструкция",
+      "h1": "Взыскание денег по подряду без подписанного акта работ: судебный процесс и доказательства",
+      "main_keyword": "Взыскание денег по подряду без подписанного акта работ",
+      "secondary_keywords": [],
+      "intent": "",
+      "writer_route": "",
+      "h2_topics": [
+        "Взыскание без акта: что говорит закон",
+        "Чем заменить акт: что принимает суд",
+        "Судебный приказ или исковое заявление: какой маршрут выбрать",
+        "Когда у подрядчика позиция сильная, а когда - минимальная",
+        "Что может осложнить взыскание: риски и сроки",
+        "Частые вопросы о взыскании по подряду без акта",
+        "Читайте также",
+        "ЗАПОЛНИТЬ ФОРМУ"
+      ],
+      "char_count": 10638,
+      "published_at": null,
+      "tags": []
+    },
+    {
       "slug": "vzyskanie-po-vekselyu-sudebnyj-poryadok",
       "category": "vzysk",
       "source": "published",
@@ -7324,6 +8459,31 @@
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
       "char_count": 9560,
+      "published_at": null,
+      "tags": []
+    },
+    {
+      "slug": "vzyskanie-raschyota-pri-uvolnenii",
+      "category": "vzysk",
+      "source": "published",
+      "url": "/articles/vzysk/vzyskanie-raschyota-pri-uvolnenii.html",
+      "title": "Взыскание расчёта при увольнении: как добиться выплаты",
+      "h1": "Взыскание расчёта при увольнении: как добиться выплаты от работодателя",
+      "main_keyword": "Взыскание расчёта при увольнении",
+      "secondary_keywords": [],
+      "intent": "",
+      "writer_route": "",
+      "h2_topics": [
+        "Что делать, когда наниматель тянет с выплатой",
+        "Из чего складывается долг и пеня",
+        "Инспекция труда или суд: какой маршрут выбрать",
+        "Кто вправе потребовать и когда срок ещё не упущен",
+        "Почему пристав не всегда помогает",
+        "Частые вопросы о невыплате при расторжении трудового договора",
+        "Читайте также",
+        "ЗАПОЛНИТЬ ФОРМУ"
+      ],
+      "char_count": 10310,
       "published_at": null,
       "tags": []
     },
@@ -7479,6 +8639,31 @@
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
       "char_count": 9445,
+      "published_at": null,
+      "tags": []
+    },
+    {
+      "slug": "vzyskanie-ushcherba-ot-moshennikov-cherez-sud",
+      "category": "vzysk",
+      "source": "published",
+      "url": "/articles/vzysk/vzyskanie-ushcherba-ot-moshennikov-cherez-sud.html",
+      "title": "Взыскание ущерба от мошенников через суд",
+      "h1": "Как взыскать ущерб от мошенников через суд: пошаговая инструкция",
+      "main_keyword": "Как взыскать ущерб от мошенников через суд",
+      "secondary_keywords": [],
+      "intent": "",
+      "writer_route": "",
+      "h2_topics": [
+        "Реально ли вернуть деньги от мошенника через суд - кратко",
+        "Какие документы и доказательства собрать до подачи в суд",
+        "Приказ или полноценный иск: что подходит в вашей ситуации",
+        "Что делать с исполнительным листом: пристав и меры принуждения",
+        "Когда деньги получить не удастся - и на что смотреть заранее",
+        "Частые вопросы о возмещении ущерба от мошенников",
+        "Читайте также",
+        "ЗАПОЛНИТЬ ФОРМУ"
+      ],
+      "char_count": 9490,
       "published_at": null,
       "tags": []
     },
@@ -7868,6 +9053,31 @@
       "tags": []
     },
     {
+      "slug": "bankrotstvo-direktora-i-kompanii-odnovremenno",
+      "category": "yur",
+      "source": "published",
+      "url": "/articles/yur/bankrotstvo-direktora-i-kompanii-odnovremenno.html",
+      "title": "Банкротство директора и ООО одновременно",
+      "h1": "Банкротство директора и ООО одновременно: как делить долги между ними",
+      "main_keyword": "Банкротство директора и ООО одновременно",
+      "secondary_keywords": [],
+      "intent": "",
+      "writer_route": "",
+      "h2_topics": [
+        "Что меняется при параллельных делах",
+        "Два независимых производства",
+        "Как распределяются выплаты",
+        "Когда личное под ударом",
+        "Стоит ли запускать оба дела",
+        "Частые вопросы",
+        "Читайте также",
+        "ЗАПОЛНИТЬ ФОРМУ"
+      ],
+      "char_count": 8998,
+      "published_at": null,
+      "tags": []
+    },
+    {
       "slug": "bankrotstvo-gup-i-mup",
       "category": "yur",
       "source": "published",
@@ -7916,6 +9126,31 @@
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
       "char_count": 11429,
+      "published_at": null,
+      "tags": []
+    },
+    {
+      "slug": "bankrotstvo-kompanii-inostrannyj-uchreditel",
+      "category": "yur",
+      "source": "published",
+      "url": "/articles/yur/bankrotstvo-kompanii-inostrannyj-uchreditel.html",
+      "title": "Банкротство ООО с иностранным учредителем: особенности",
+      "h1": "Банкротство ООО с иностранным учредителем: процедура и особенности",
+      "main_keyword": "Банкротство ООО с иностранным учредителем",
+      "secondary_keywords": [],
+      "intent": "",
+      "writer_route": "",
+      "h2_topics": [
+        "Российский закон работает - точка",
+        "Стандартные этапы плюс трансграничный слой",
+        "Иностранный владелец доли в очереди - когда и сколько",
+        "Налог с ликвидационной выплаты и валютный фильтр",
+        "Когда процедура оправдана и четыре типичных промаха",
+        "Частые вопросы о банкротстве ООО с иностранным учредителем",
+        "Читайте также",
+        "ЗАПОЛНИТЬ ФОРМУ"
+      ],
+      "char_count": 11365,
       "published_at": null,
       "tags": []
     },
@@ -8021,6 +9256,31 @@
       "tags": []
     },
     {
+      "slug": "bankrotstvo-medicinskoj-kliniki",
+      "category": "yur",
+      "source": "published",
+      "url": "/articles/yur/bankrotstvo-medicinskoj-kliniki.html",
+      "title": "Банкротство медицинской организации (клиники): процедура",
+      "h1": "Банкротство медицинской организации: особенности процедуры для клиник",
+      "main_keyword": "Банкротство медицинской организации",
+      "secondary_keywords": [],
+      "intent": "",
+      "writer_route": "",
+      "h2_topics": [
+        "Несостоятельность медорганизации: чем отличается от закрытия",
+        "Порог долга и право обратиться в арбитраж",
+        "Три отраслевые специфики медицинского дела",
+        "Кто получит деньги первым при конкурсной распродаже",
+        "Реструктуризация: когда есть шанс сохранить приём",
+        "Частые вопросы о несостоятельности медучреждений",
+        "Читайте также",
+        "ЗАПОЛНИТЬ ФОРМУ"
+      ],
+      "char_count": 10785,
+      "published_at": null,
+      "tags": []
+    },
+    {
       "slug": "bankrotstvo-mfo-prava-zaemshchikov-pajshchikov",
       "category": "yur",
       "source": "published",
@@ -8068,6 +9328,31 @@
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
       "char_count": 8820,
+      "published_at": null,
+      "tags": []
+    },
+    {
+      "slug": "bankrotstvo-ooo-dolgi-neskolkim-bankam",
+      "category": "yur",
+      "source": "published",
+      "url": "/articles/yur/bankrotstvo-ooo-dolgi-neskolkim-bankam.html",
+      "title": "Банкротство ООО при долгах нескольким банкам",
+      "h1": "Банкротство ООО при долгах нескольким банкам: как защитить бизнес",
+      "main_keyword": "Банкротство ООО при долгах нескольким банкам",
+      "secondary_keywords": [],
+      "intent": "",
+      "writer_route": "",
+      "h2_topics": [
+        "Может ли банк подать на банкротство",
+        "Когда один долг запускает цепную реакцию",
+        "В какую очередь попадают банки и при чём тут залог",
+        "Три варианта сохранить бизнес до торгов",
+        "Личные риски директора",
+        "Частые вопросы о банкротстве ООО с несколькими кредиторами",
+        "Читайте также",
+        "ЗАПОЛНИТЬ ФОРМУ"
+      ],
+      "char_count": 11972,
       "published_at": null,
       "tags": []
     },
@@ -8301,6 +9586,56 @@
       "tags": []
     },
     {
+      "slug": "bankrotstvo-torgovoj-kompanii-prava-postavshchikov",
+      "category": "yur",
+      "source": "published",
+      "url": "/articles/yur/bankrotstvo-torgovoj-kompanii-prava-postavshchikov.html",
+      "title": "Защита прав поставщика при банкротстве компании",
+      "h1": "Банкротство торговой компании: как защитить права поставщика и взыскать задолженность",
+      "main_keyword": "Банкротство торговой компании",
+      "secondary_keywords": [],
+      "intent": "",
+      "writer_route": "",
+      "h2_topics": [
+        "Место в очереди коротко",
+        "Четвёртая ступень и реальный процент",
+        "Как войти в реестр",
+        "Когда партию забирают обратно",
+        "Судебный приказ до открытия дела",
+        "Частые вопросы о правах поставщика при банкротстве",
+        "Читайте также",
+        "ЗАПОЛНИТЬ ФОРМУ"
+      ],
+      "char_count": 9991,
+      "published_at": null,
+      "tags": []
+    },
+    {
+      "slug": "bankrotstvo-torgovoj-seti-prava-arendodatelej",
+      "category": "yur",
+      "source": "published",
+      "url": "/articles/yur/bankrotstvo-torgovoj-seti-prava-arendodatelej.html",
+      "title": "Банкротство торговой сети: права арендодателя",
+      "h1": "Банкротство торговой сети: какие права есть у арендодателя торговых площадей",
+      "main_keyword": "Банкротство торговой сети",
+      "secondary_keywords": [],
+      "intent": "",
+      "writer_route": "",
+      "h2_topics": [
+        "Кем становится арендодатель в деле о несостоятельности",
+        "Пятая очередь и логика распределения денег",
+        "Расторжение аренды управляющим",
+        "Реестр: куда идти и в какой срок",
+        "Залог помещения и пустая конкурсная масса",
+        "Частые вопросы о правах кредитора-владельца торговых площадей",
+        "Читайте также",
+        "ЗАПОЛНИТЬ ФОРМУ"
+      ],
+      "char_count": 11452,
+      "published_at": null,
+      "tags": []
+    },
+    {
       "slug": "bankrotstvo-tszh-zhilishchnogo-kooperativa",
       "category": "yur",
       "source": "published",
@@ -8449,6 +9784,31 @@
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
       "char_count": 9171,
+      "published_at": null,
+      "tags": []
+    },
+    {
+      "slug": "dividendy-pered-bankrotstvom-ooo-osparivanie",
+      "category": "yur",
+      "source": "published",
+      "url": "/articles/yur/dividendy-pered-bankrotstvom-ooo-osparivanie.html",
+      "title": "Дивиденды перед банкротством ООО: оспаривание и защита",
+      "h1": "Дивиденды перед банкротством ООО: риск оспаривания и защита имущества",
+      "main_keyword": "Дивиденды перед банкротством ООО",
+      "secondary_keywords": [],
+      "intent": "",
+      "writer_route": "",
+      "h2_topics": [
+        "Могут ли оспорить выплату - коротко",
+        "Два основания и разные сроки",
+        "Удвоение и очерёдность",
+        "Кому из совладельцев риск выше",
+        "Как снизить риск и защититься после иска",
+        "Частые вопросы об оспаривании дивидендов при банкротстве",
+        "Читайте также",
+        "ЗАПОЛНИТЬ ФОРМУ"
+      ],
+      "char_count": 10459,
       "published_at": null,
       "tags": []
     },
@@ -8609,6 +9969,30 @@
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
       "char_count": 9213,
+      "published_at": null,
+      "tags": []
+    },
+    {
+      "slug": "faktoring-i-bankrotstvo-dolzhnika-prava-faktora",
+      "category": "yur",
+      "source": "published",
+      "url": "/articles/yur/faktoring-i-bankrotstvo-dolzhnika-prava-faktora.html",
+      "title": "Факторинг при банкротстве должника: права фактора",
+      "h1": "Факторинг при банкротстве должника: права и риски фактора",
+      "main_keyword": "Факторинг при банкротстве должника",
+      "secondary_keywords": [],
+      "intent": "",
+      "writer_route": "",
+      "h2_topics": [
+        "Статус фактора после введения процедуры",
+        "Залог против общей очереди",
+        "Подача позиции в реестр",
+        "Четыре рабочих инструмента защиты",
+        "Частые вопросы о факторинге при банкротстве должника",
+        "Читайте также",
+        "ЗАПОЛНИТЬ ФОРМУ"
+      ],
+      "char_count": 9783,
       "published_at": null,
       "tags": []
     },
@@ -8953,6 +10337,31 @@
       "tags": []
     },
     {
+      "slug": "kredity-kompanii-pri-bankrotstve-chto-proishodit",
+      "category": "yur",
+      "source": "published",
+      "url": "/articles/yur/kredity-kompanii-pri-bankrotstve-chto-proishodit.html",
+      "title": "Что происходит с кредитами компании при банкротстве",
+      "h1": "Что происходит с кредитами компании при банкротстве: порядок погашения",
+      "main_keyword": "Что происходит с кредитами компании при банкротстве",
+      "secondary_keywords": [],
+      "intent": "",
+      "writer_route": "",
+      "h2_topics": [
+        "Погашаются ли все банковские займы",
+        "Кто стоит первым в очереди",
+        "Залог: формула 70 на 20 на 10",
+        "Что уходит на торги",
+        "Три узких места: реестр, поручитель, порог",
+        "Частые вопросы о кредитах компании при банкротстве",
+        "Читайте также",
+        "ЗАПОЛНИТЬ ФОРМУ"
+      ],
+      "char_count": 11276,
+      "published_at": null,
+      "tags": []
+    },
+    {
       "slug": "leasing-pri-bankrotstve-dolzhnika",
       "category": "yur",
       "source": "published",
@@ -9104,6 +10513,31 @@
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
       "char_count": 10296,
+      "published_at": null,
+      "tags": []
+    },
+    {
+      "slug": "nalogovaya-proverka-i-bankrotstvo-yurlica",
+      "category": "yur",
+      "source": "published",
+      "url": "/articles/yur/nalogovaya-proverka-i-bankrotstvo-yurlica.html",
+      "title": "Налоговая проверка и банкротство юрлица: защита интересов",
+      "h1": "Налоговая проверка при банкротстве компании: риски и защита интересов",
+      "main_keyword": "Налоговая проверка при банкротстве компании",
+      "secondary_keywords": [],
+      "intent": "",
+      "writer_route": "",
+      "h2_topics": [
+        "Налоговая задолженность и процедура: что важно знать",
+        "Когда ФНС становится кредитором, а не взыскателем",
+        "Документы должника: кто теперь говорит с инспекцией",
+        "Отвечает ли учредитель личным имуществом за налоги компании",
+        "Как оспорить претензии фискального ведомства в процедуре",
+        "Частые вопросы о налоговой проверке при банкротстве",
+        "Читайте также",
+        "ЗАПОЛНИТЬ ФОРМУ"
+      ],
+      "char_count": 10697,
       "published_at": null,
       "tags": []
     },
@@ -9261,6 +10695,31 @@
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
       "char_count": 10769,
+      "published_at": null,
+      "tags": []
+    },
+    {
+      "slug": "ogranicheniya-direktora-v-nablyudenii-bankrotstvo",
+      "category": "yur",
+      "source": "published",
+      "url": "/articles/yur/ogranicheniya-direktora-v-nablyudenii-bankrotstvo.html",
+      "title": "Ограничения директора в период наблюдения при банкротстве",
+      "h1": "Ограничения директора при банкротстве: права и запреты в период наблюдения",
+      "main_keyword": "Ограничения директора при банкротстве",
+      "secondary_keywords": [],
+      "intent": "",
+      "writer_route": "",
+      "h2_topics": [
+        "Кто фактически рулит компанией на первой стадии",
+        "Что разрешено без согласований",
+        "Четыре операции только через собрание",
+        "Обязанности перед куратором и снятие с должности",
+        "Личная ответственность за промахи первой стадии",
+        "Частые вопросы о полномочиях руководителя при банкротстве ООО",
+        "Читайте также",
+        "ЗАПОЛНИТЬ ФОРМУ"
+      ],
+      "char_count": 10389,
       "published_at": null,
       "tags": []
     },
@@ -10116,6 +11575,31 @@
       "tags": []
     },
     {
+      "slug": "subsidiarka-pri-likvidacii-ooo-direktora",
+      "category": "yur",
+      "source": "published",
+      "url": "/articles/yur/subsidiarka-pri-likvidacii-ooo-direktora.html",
+      "title": "Субсидиарная ответственность директора при ликвидации ООО",
+      "h1": "Субсидиарная ответственность директора при ликвидации ООО: риски и защита",
+      "main_keyword": "Субсидиарная ответственность директора при ликвидации ООО",
+      "secondary_keywords": [],
+      "intent": "",
+      "writer_route": "",
+      "h2_topics": [
+        "Когда личное имущество попадает под взыскание",
+        "За какие нарушения привлекают",
+        "Кто попадает под определение КДЛ",
+        "Как доказать добросовестность",
+        "Уголовная статья, арест активов и давность",
+        "Частые вопросы о субсидиарке при ликвидации ООО",
+        "Читайте также",
+        "ЗАПОЛНИТЬ ФОРМУ"
+      ],
+      "char_count": 11557,
+      "published_at": null,
+      "tags": []
+    },
+    {
       "slug": "subsidiarka-za-neperedachu-dokumentov-bankrotstvo",
       "category": "yur",
       "source": "published",
@@ -10163,6 +11647,31 @@
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
       "char_count": 10563,
+      "published_at": null,
+      "tags": []
+    },
+    {
+      "slug": "sudebnye-dela-kompanii-pri-bankrotstve",
+      "category": "yur",
+      "source": "published",
+      "url": "/articles/yur/sudebnye-dela-kompanii-pri-bankrotstve.html",
+      "title": "Судебные дела компании при банкротстве: что происходит",
+      "h1": "Судебные дела компании при банкротстве: все, что нужно знать",
+      "main_keyword": "Судебные дела компании при банкротстве",
+      "secondary_keywords": [],
+      "intent": "",
+      "writer_route": "",
+      "h2_topics": [
+        "Что происходит с делами, когда открывается процедура несостоятельности",
+        "Приостановление без ходатайств и заявлений",
+        "Иски конкурсного управляющего: за что и на сколько лет назад",
+        "Личный иск против руководителя: когда прилетает субсидиарка",
+        "Кто платит за процедуру и куда идут расходы в ходе дела",
+        "Частые вопросы о претензиях кредиторов и исках управляющего",
+        "Читайте также",
+        "ЗАПОЛНИТЬ ФОРМУ"
+      ],
+      "char_count": 10088,
       "published_at": null,
       "tags": []
     },
@@ -10422,6 +11931,32 @@
       "tags": []
     },
     {
+      "slug": "vzyskanie-ubytkov-s-konkursnogo-upravlyayushchego",
+      "category": "yur",
+      "source": "published",
+      "url": "/articles/yur/vzyskanie-ubytkov-s-konkursnogo-upravlyayushchego.html",
+      "title": "Взыскание убытков с конкурсного управляющего: порядок и судебная практика",
+      "h1": "Взыскание убытков с конкурсного управляющего в суде: практика и условия",
+      "main_keyword": "Взыскание убытков с конкурсного управляющего в суде",
+      "secondary_keywords": [],
+      "intent": "",
+      "writer_route": "",
+      "h2_topics": [
+        "Когда суд действительно взыщет",
+        "Промахи под личный риск",
+        "Кто подаёт и куда обращаться",
+        "Четыре условия и доказательная база",
+        "Трёхлетний срок и роль страховки",
+        "Что учесть перед подачей",
+        "Частые вопросы о взыскании убытков с конкурсного управляющего",
+        "Читайте также",
+        "ЗАПОЛНИТЬ ФОРМУ"
+      ],
+      "char_count": 9216,
+      "published_at": null,
+      "tags": []
+    },
+    {
       "slug": "zajm-uchreditelya-pri-bankrotstve-subordinaciya",
       "category": "yur",
       "source": "published",
@@ -10582,76 +12117,6 @@
       "tags": []
     },
     {
-      "slug": "bank-bankrot-chto-budet-s-kreditom-zaemshchika",
-      "category": "fiz",
-      "source": "draft_pending",
-      "url": null,
-      "title": "Что будет с кредитом, если банк обанкротился",
-      "h1": "Что делать с кредитом, если банк обанкротился: права заёмщика",
-      "main_keyword": "если банк обанкротился кредит",
-      "secondary_keywords": [
-        "что будет с кредитом если банк обанкротился",
-        "банк обанкротился что делать заёмщику",
-        "кредит при банкротстве банка",
-        "кто платит кредит при банкротстве банка",
-        "права заёмщика при банкротстве банка",
-        "ликвидация банка и кредиты",
-        "страховое возмещение вкладов АСВ",
-        "агентство по страхованию вкладов",
-        "зачёт требований при банкротстве банка"
-      ],
-      "intent": "informational",
-      "writer_route": "",
-      "h2_topics": [
-        "Что будет с кредитом при банкротстве банка - коротко",
-        "АСВ защищает вклады, а не займы",
-        "Куда уходит ваш долг при ликвидации",
-        "Три сценария для заёмщика",
-        "Частые вопросы о кредите при банкротстве банка",
-        "Читайте также",
-        "ЗАПОЛНИТЬ ФОРМУ"
-      ],
-      "char_count": 7695,
-      "published_at": null,
-      "tags": []
-    },
-    {
-      "slug": "bank-otkazal-v-restrukturizacii-chto-delat-bankrotstvo",
-      "category": "fiz",
-      "source": "draft_pending",
-      "url": null,
-      "title": "Банк отказал в реструктуризации: выход через банкротство",
-      "h1": "Банк отказал в реструктуризации: когда выход - банкротство",
-      "main_keyword": "банк отказал в реструктуризации что делать",
-      "secondary_keywords": [
-        "отказ банка в реструктуризации долга",
-        "реструктуризация кредита отказ",
-        "что делать если отказали в реструктуризации",
-        "банкротство после отказа в реструктуризации",
-        "как получить реструктуризацию кредита",
-        "процедура реструктуризации долга",
-        "альтернатива реструктуризации",
-        "банкротство физического лица выход",
-        "признание несостоятельности физлица",
-        "освобождение от долгов банку"
-      ],
-      "intent": "informational",
-      "writer_route": "",
-      "h2_topics": [
-        "Что делать после отказа: коротко",
-        "Почему займодавец вправе сказать «нет»",
-        "Четыре пути после того, как банк отказал",
-        "Кому подходит эта дорога после отказа",
-        "Что уйдёт, что останется",
-        "Частые вопросы об отказе банка и банкротстве гражданина",
-        "Читайте также",
-        "ЗАПОЛНИТЬ ФОРМУ"
-      ],
-      "char_count": 8618,
-      "published_at": null,
-      "tags": []
-    },
-    {
       "slug": "bankrotstvo-bezrabotnogo-fizlica",
       "category": "fiz",
       "source": "draft_pending",
@@ -10718,75 +12183,6 @@
       "tags": []
     },
     {
-      "slug": "bankrotstvo-chlena-zhilishchnogo-kooperativa",
-      "category": "fiz",
-      "source": "draft_pending",
-      "url": null,
-      "title": "Банкротство члена ЖСК: пай и квартира",
-      "h1": "Банкротство члена ЖСК: что будет с паем и квартирой",
-      "main_keyword": "банкротство члена жилищного кооператива",
-      "secondary_keywords": [
-        "пай жилищного кооператива при банкротстве",
-        "банкротство ЖСК члена",
-        "квартира в кооперативе при банкротстве",
-        "может ли суд изъять квартиру в кооперативе",
-        "имущество в жилищном кооперативе при банкротстве",
-        "защита квартиры в кооперативе от взысканий",
-        "пай члена кооператива",
-        "жилищно-строительный кооператив пайщик",
-        "права члена ЖСК при банкротстве"
-      ],
-      "intent": "informational",
-      "writer_route": "",
-      "h2_topics": [
-        "Пай и квартира - коротко",
-        "Паевое право - ещё не собственность",
-        "Три сценария для квартиры",
-        "Кому подходит выход через списание",
-        "Что останется после дела",
-        "Частые вопросы о банкротстве пайщика ЖСК",
-        "Читайте также",
-        "ЗАПОЛНИТЬ ФОРМУ"
-      ],
-      "char_count": 7487,
-      "published_at": null,
-      "tags": []
-    },
-    {
-      "slug": "bankrotstvo-dolgi-strahovye-vznosy-sfr",
-      "category": "fiz",
-      "source": "draft_pending",
-      "url": null,
-      "title": "Долги по страховым взносам СФР: банкротство и списание",
-      "h1": "Долги по страховым взносам в СФР: банкротство и списание задолженности",
-      "main_keyword": "долги по страховым взносам в СФР и банкротство",
-      "secondary_keywords": [
-        "страховые взносы СФР физлица",
-        "задолженность перед СФР что делать",
-        "как списать страховые взносы",
-        "банкротство физлица долги СФР",
-        "налоговые и страховые долги при банкротстве",
-        "задолженность перед Социальным фондом",
-        "списание страховых взносов физлица",
-        "внесудебное банкротство и страховые взносы"
-      ],
-      "intent": "informational",
-      "writer_route": "",
-      "h2_topics": [
-        "Прямой ответ по недоимке перед фондом",
-        "Кто копит недоимку перед Социальным фондом",
-        "МФЦ или арбитраж: два маршрута",
-        "Кому выгодно, а кому не поможет",
-        "Что уйдёт в ноль, а что останется",
-        "Частые вопросы о банкротстве при долгах по страховым взносам",
-        "Читайте также",
-        "ЗАПОЛНИТЬ ФОРМУ"
-      ],
-      "char_count": 8504,
-      "published_at": null,
-      "tags": []
-    },
-    {
       "slug": "bankrotstvo-dolzhnikov-s-nalichnymi-aktivami-kak-zashchitit-platyozh",
       "category": "fiz",
       "source": "draft_pending",
@@ -10817,76 +12213,6 @@
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
       "char_count": 6623,
-      "published_at": null,
-      "tags": []
-    },
-    {
-      "slug": "bankrotstvo-fizlica-bez-propiski",
-      "category": "fiz",
-      "source": "draft_pending",
-      "url": null,
-      "title": "Банкротство физлица без прописки: в какой суд подать",
-      "h1": "Банкротство физлица без прописки: в какой суд подавать",
-      "main_keyword": "в какой суд подать банкротство физлицу без прописки",
-      "secondary_keywords": [
-        "банкротство физлица в арбитражном суде",
-        "банкротство физлица в суде общей юрисдикции",
-        "подать на банкротство без места жительства",
-        "суд для банкротства физлица",
-        "банкротство если нет постоянной прописки",
-        "как выбрать суд для банкротства",
-        "где подать на банкротство физлицу",
-        "внесудебное банкротство в МФЦ",
-        "арбитражный суд или суд общей юрисдикции для банкротства"
-      ],
-      "intent": "informational",
-      "writer_route": "",
-      "h2_topics": [
-        "Куда идти без постоянной прописки - кратко",
-        "Как определяют подсудность без штампа",
-        "МФЦ: адрес прописки не спрашивают",
-        "Что подтвердит фактический адрес проживания",
-        "Что будет, если ошиблись адресом подачи",
-        "Частые вопросы о банкротстве физлица без постоянного адреса",
-        "Читайте также",
-        "ЗАПОЛНИТЬ ФОРМУ"
-      ],
-      "char_count": 8672,
-      "published_at": null,
-      "tags": []
-    },
-    {
-      "slug": "bankrotstvo-fizlica-nuzno-li-uvedomit-rabotodatelya",
-      "category": "fiz",
-      "source": "draft_pending",
-      "url": null,
-      "title": "Банкротство и работа: обязаны ли уведомить работодателя",
-      "h1": "Нужно ли сообщать работодателю о банкротстве физического лица: права и обязанности",
-      "main_keyword": "нужно ли сообщать работодателю о банкротстве",
-      "secondary_keywords": [
-        "банкротство физлица и работодатель",
-        "увольнение при банкротстве физлица",
-        "право на работу при банкротстве",
-        "зарплата при банкротстве физлица",
-        "работник банкрот права",
-        "работодатель кредитор при банкротстве",
-        "взыскание с зарплаты при банкротстве",
-        "банкротство физлица и трудовой договор",
-        "арест зарплаты при процедуре банкротства"
-      ],
-      "intent": "informational",
-      "writer_route": "",
-      "h2_topics": [
-        "Обязаны ли докладывать нанимателю",
-        "Сколько уходит с заработка",
-        "Что вправе и не вправе наниматель",
-        "Кому это критично",
-        "Три запрета после закрытия дела",
-        "Частые вопросы о занятости и банкротстве",
-        "Читайте также",
-        "ЗАПОЛНИТЬ ФОРМУ"
-      ],
-      "char_count": 8405,
       "published_at": null,
       "tags": []
     },
@@ -11110,78 +12436,6 @@
       "tags": []
     },
     {
-      "slug": "bankrotstvo-pri-neskolkikh-ispolnitelnykh-listakh",
-      "category": "fiz",
-      "source": "draft_pending",
-      "url": null,
-      "title": "Банкротство при множестве исполнительных листов: решение",
-      "h1": "Банкротство при множестве исполнительных листов: как защитить себя от взысканий",
-      "main_keyword": "банкротство при множестве исполнительных листов",
-      "secondary_keywords": [
-        "банкротство при исполнительных листах",
-        "что делать если много исполнительных листов",
-        "банкротство физлица исполнительное производство",
-        "как остановить приставов исполнительный лист",
-        "защита от множественных взысканий",
-        "реструктуризация долгов исполнительные листы",
-        "блокировка счета банкротство",
-        "внесудебное банкротство при долгах приставам",
-        "избежать взыскания через банкротство",
-        "многочисленные долги решение"
-      ],
-      "intent": "informational",
-      "writer_route": "",
-      "h2_topics": [
-        "Что даёт процедура несостоятельности - коротко",
-        "Чем множество бумаг хуже одной",
-        "Как одно определение суда останавливает всех кредиторов",
-        "МФЦ или арбитражный суд: какой маршрут открыт",
-        "Что не спишут после завершения",
-        "Частые вопросы о банкротстве при нескольких исполнительных листах",
-        "Читайте также",
-        "ЗАПОЛНИТЬ ФОРМУ"
-      ],
-      "char_count": 9191,
-      "published_at": null,
-      "tags": []
-    },
-    {
-      "slug": "bankrotstvo-pri-potere-raboty-fizlica",
-      "category": "fiz",
-      "source": "draft_pending",
-      "url": null,
-      "title": "Банкротство при потере работы: пошаговая инструкция",
-      "h1": "Банкротство физлица при потере работы: как пройти процедуру пошагово",
-      "main_keyword": "банкротство при потере работы физлица",
-      "secondary_keywords": [
-        "как подать на банкротство при потере работы",
-        "банкротство физлица пошагово",
-        "потеря работы кредиты как освободиться",
-        "процедура банкротства физического лица",
-        "документы для банкротства физлица",
-        "судебное банкротство физлица",
-        "внесудебное банкротство при долгах",
-        "как освободиться от долгов если нет работы",
-        "реструктуризация долгов физлица",
-        "финансовый управляющий для банкротства"
-      ],
-      "intent": "informational",
-      "writer_route": "",
-      "h2_topics": [
-        "Когда должник вправе идти в суд",
-        "МФЦ здесь не поможет",
-        "Депозит и пакет бумаг",
-        "Реализация вместо рассрочки",
-        "Списание долгов и запреты",
-        "Частые вопросы о банкротстве при потере работы",
-        "Читайте также",
-        "ЗАПОЛНИТЬ ФОРМУ"
-      ],
-      "char_count": 8410,
-      "published_at": null,
-      "tags": []
-    },
-    {
       "slug": "bankrotstvo-voennosluzhaschego",
       "category": "fiz",
       "source": "draft_pending",
@@ -11251,178 +12505,38 @@
       "tags": []
     },
     {
-      "slug": "dve-kvartiry-pri-bankrotstve-kakuyu-sohranyat",
+      "slug": "mirovoe-soglashenie-ipoteka-bankrotstvo-fizlica",
       "category": "fiz",
       "source": "draft_pending",
       "url": null,
-      "title": "Две квартиры при банкротстве: какую оставят должнику",
-      "h1": "Две квартиры при банкротстве: какую оставят должнику и как защитить жилье",
-      "main_keyword": "две квартиры при банкротстве какую оставят",
+      "title": "Мировое соглашение по ипотеке: как договориться с банком",
+      "h1": "Мировое соглашение с банком по ипотеке: как спасти жильё без банкротства",
+      "main_keyword": "мировое соглашение с банком по ипотеке",
       "secondary_keywords": [
-        "имущество должника при банкротстве",
-        "реализация имущества при банкротстве физлица",
-        "защита жилья от конкурсных кредиторов",
-        "единственное жилье при банкротстве",
-        "неделимое имущество при банкротстве",
-        "льготы на жилье при банкротстве физлица",
-        "как сохранить квартиру при банкротстве",
-        "имущество освобожденное от реализации",
-        "раздел имущества при банкротстве"
+        "мировое соглашение физлица с банком",
+        "как договориться с банком об ипотеке",
+        "реструктуризация ипотечного кредита",
+        "условия мирового соглашения по ипотеке",
+        "сохранить квартиру при банкротстве физлица",
+        "переоформление ипотеки без продажи жилья",
+        "альтернатива банкротству при долгах по ипотеке",
+        "помощь при неплатежах по ипотеке",
+        "рефинансирование ипотеки вместо банкротства",
+        "договор о пересмотре условий ипотеки"
       ],
       "intent": "informational",
       "writer_route": "",
       "h2_topics": [
-        "Одна остаётся, вторая уходит с торгов",
-        "По каким признакам выбирают защищённый объект",
-        "Ипотека и роскошь: когда защита не срабатывает",
-        "Что происходит с деньгами и сроками",
-        "Кому такая ситуация выгодна, а кому - тревожная",
-        "Ответы на шесть вопросов о жилье при несостоятельности",
+        "Мировое соглашение по ипотеке: что это и работает ли",
+        "Шесть ситуаций, когда залогодержатель идёт навстречу",
+        "Пять условий, которые реально включают в договор",
+        "Для кого договорённость - выход, а для кого тупик",
+        "Три риска, о которых умалчивают",
+        "Частые вопросы о договорённостях с банком по ипотеке",
         "Читайте также",
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
-      "char_count": 8384,
-      "published_at": null,
-      "tags": []
-    },
-    {
-      "slug": "imushchestvo-na-rebenke-pri-bankrotstve-roditelya",
-      "category": "fiz",
-      "source": "draft_pending",
-      "url": null,
-      "title": "Имущество на ребёнке при банкротстве родителей: защита",
-      "h1": "Имущество на ребёнке при банкротстве родителей: как защитить детские вещи и сбережения",
-      "main_keyword": "имущество на ребенке при банкротстве родителя",
-      "secondary_keywords": [
-        "имущество ребенка при банкротстве родителя",
-        "защита детского имущества от кредиторов",
-        "счета на ребенка при банкротстве родителя",
-        "подарки ребенку и банкротство родителя",
-        "доля квартиры на ребенке и банкротство",
-        "наследство ребенка при банкротстве родителя",
-        "семейное имущество при банкротстве",
-        "опека над имуществом ребенка",
-        "как защитить деньги ребенка от взыскания"
-      ],
-      "intent": "informational",
-      "writer_route": "",
-      "h2_topics": [
-        "Коротко: где щит работает",
-        "Вклад, доля, наследство - что уцелеет",
-        "Когда управляющий вправе отменить подарок",
-        "Где щит работает, а где нет",
-        "Серые зоны",
-        "Частые вопросы об имуществе ребёнка при банкротстве",
-        "Читайте также",
-        "ЗАПОЛНИТЬ ФОРМУ"
-      ],
-      "char_count": 8772,
-      "published_at": null,
-      "tags": []
-    },
-    {
-      "slug": "kak-uskorit-bankrotstvo-fizlica",
-      "category": "fiz",
-      "source": "draft_pending",
-      "url": null,
-      "title": "Как ускорить банкротство физлица: способы и сроки",
-      "h1": "Как ускорить банкротство физлица: реальные способы сократить сроки",
-      "main_keyword": "как ускорить банкротство физлица",
-      "secondary_keywords": [
-        "сроки банкротства физлица",
-        "как быстро признать себя банкротом",
-        "ускорение процедуры банкротства",
-        "сокращение сроков банкротства",
-        "внесудебное банкротство сроки",
-        "судебное банкротство как долго",
-        "минимальный срок банкротства физлица",
-        "что замедляет процедуру банкротства",
-        "этапы банкротства физлица по срокам",
-        "условия для быстрого банкротства"
-      ],
-      "intent": "informational",
-      "writer_route": "",
-      "h2_topics": [
-        "Коротко о сроках: полгода или 3,5 года",
-        "Внесудебный путь через МФЦ",
-        "Арбитраж: что реально ускоряет дело",
-        "Диагностика: какой путь ваш",
-        "Что тормозит процесс",
-        "Частые вопросы об ускорении банкротства физлица",
-        "Читайте также",
-        "ЗАПОЛНИТЬ ФОРМУ"
-      ],
-      "char_count": 8051,
-      "published_at": null,
-      "tags": []
-    },
-    {
-      "slug": "lichnye-veshchi-mebel-pri-bankrotstve-fizlica",
-      "category": "fiz",
-      "source": "draft_pending",
-      "url": null,
-      "title": "Личные вещи и мебель при банкротстве физлица",
-      "h1": "Личные вещи и мебель при банкротстве физлица: что не заберут",
-      "main_keyword": "личные вещи и мебель при банкротстве физлица",
-      "secondary_keywords": [
-        "что не забирают при банкротстве физлица",
-        "конкурсная масса имущество",
-        "защита личного имущества при банкротстве",
-        "предметы первой необходимости банкротство",
-        "имущество не входящее в конкурсную массу",
-        "мебель и вещи при банкротстве",
-        "одежда и обувь при банкротстве",
-        "предметы домашнего обихода",
-        "документы при банкротстве",
-        "семейные реликвии банкротство"
-      ],
-      "intent": "informational",
-      "writer_route": "",
-      "h2_topics": [
-        "Что закон точно не отдаст",
-        "Одежда, мебель, быт",
-        "Где начинается роскошь",
-        "Сколько денег остаётся ежемесячно",
-        "Что всё-таки заберут",
-        "Итог для решения",
-        "Частые вопросы о вещах и мебели при списании долгов",
-        "Читайте также",
-        "ЗАПОЛНИТЬ ФОРМУ"
-      ],
-      "char_count": 7506,
-      "published_at": null,
-      "tags": []
-    },
-    {
-      "slug": "nalog-pri-spisanii-dolga-bankrotstvo-fizlica",
-      "category": "fiz",
-      "source": "draft_pending",
-      "url": null,
-      "title": "Налоговые последствия банкротства: НДФЛ при списании долга",
-      "h1": "Налог при банкротстве физлица: платить ли НДФЛ со списанного долга",
-      "main_keyword": "налог при банкротстве физлица",
-      "secondary_keywords": [
-        "НДФЛ при списании долга",
-        "налоговые последствия банкротства",
-        "налог на прощенный долг физическому лицу",
-        "облагается ли списанный долг НДФЛ",
-        "налоговые льготы при банкротстве",
-        "кто платит налог на списанный долг",
-        "налог перед налоговой при банкротстве"
-      ],
-      "intent": "informational",
-      "writer_route": "",
-      "h2_topics": [
-        "НДФЛ при банкротстве: главное коротко",
-        "Три условия работы льготы",
-        "Требования ФНС: что не исчезает после дела",
-        "Три сценария - три разных исхода",
-        "Риски, которые важно знать заранее",
-        "Частые вопросы о налогах при банкротстве физлица",
-        "Читайте также",
-        "ЗАПОЛНИТЬ ФОРМУ"
-      ],
-      "char_count": 7624,
+      "char_count": 8145,
       "published_at": null,
       "tags": []
     },
@@ -11529,40 +12643,6 @@
       "tags": []
     },
     {
-      "slug": "poluchenie-alimentov-s-bankrota",
-      "category": "fiz",
-      "source": "draft_pending",
-      "url": null,
-      "title": "Алименты с банкрота при банкротстве физического лица",
-      "h1": "Получение алиментов с банкрота: приоритет в процедуре банкротства физлица",
-      "main_keyword": "алименты с банкрота",
-      "secondary_keywords": [
-        "алименты если должник банкрот",
-        "как получить алименты при банкротстве должника",
-        "приоритет алиментов при банкротстве физлица",
-        "алименты в процедуре банкротства гражданина",
-        "очередность выплат алименты банкротство",
-        "исполнительное производство алименты банкротство",
-        "взыскание алиментов с банкрота",
-        "требования кредиторов при банкротстве алименты"
-      ],
-      "intent": "informational",
-      "writer_route": "",
-      "h2_topics": [
-        "Первая очередь без списания",
-        "МФЦ или арбитраж",
-        "Как встать в реестр",
-        "Две схемы выплат",
-        "Три угрозы для получателя",
-        "Частые вопросы о получении алиментов при банкротстве должника",
-        "Читайте также",
-        "ЗАПОЛНИТЬ ФОРМУ"
-      ],
-      "char_count": 7760,
-      "published_at": null,
-      "tags": []
-    },
-    {
       "slug": "povtornoe-bankrotstvo-fizlica-sroki-usloviya",
       "category": "fiz",
       "source": "draft_pending",
@@ -11635,40 +12715,6 @@
       "tags": []
     },
     {
-      "slug": "proverka-dolzhnika-na-bankrotstvo-efrsb",
-      "category": "fiz",
-      "source": "draft_pending",
-      "url": null,
-      "title": "Как проверить физлицо на банкротство по ЕФРСБ",
-      "h1": "Как проверить физлицо на банкротство по реестру ЕФРСБ: пошаговая инструкция",
-      "main_keyword": "как проверить физлицо на банкротство",
-      "secondary_keywords": [
-        "проверка по реестру ЕФРСБ",
-        "поиск физлица в реестре банкротства",
-        "как узнать статус банкротства должника",
-        "проверка физлица на признак несостоятельности",
-        "ЕФРСБ физические лица",
-        "реестр банкротства физлиц",
-        "когда физлицо признано банкротом",
-        "как найти информацию о банкротстве человека"
-      ],
-      "intent": "informational",
-      "writer_route": "",
-      "h2_topics": [
-        "Пошагово через официальный портал",
-        "Что хранит база о каждом физлице",
-        "Пять статусов и что за ними стоит",
-        "Кому нужна открытая база должников",
-        "Срок хранения и выписка",
-        "Частые вопросы",
-        "Читайте также",
-        "ЗАПОЛНИТЬ ФОРМУ"
-      ],
-      "char_count": 7133,
-      "published_at": null,
-      "tags": []
-    },
-    {
       "slug": "roskoshnoe-zhilyo-pri-bankrotstve",
       "category": "fiz",
       "source": "draft_pending",
@@ -11703,237 +12749,6 @@
       "tags": []
     },
     {
-      "slug": "uvolili-vo-vremya-bankrotstva-fizlica",
-      "category": "fiz",
-      "source": "draft_pending",
-      "url": null,
-      "title": "Потеряли работу при банкротстве: действия физлица",
-      "h1": "Потеряли работу во время банкротства: права должника и что делать",
-      "main_keyword": "потеря работы во время банкротства физлица",
-      "secondary_keywords": [
-        "уволили во время банкротства что делать",
-        "потеря работы при банкротстве",
-        "банкротство и безработица",
-        "права должника при потере работы",
-        "доход во время процедуры банкротства",
-        "изменение финансовой ситуации при банкротстве",
-        "реструктуризация долгов при безработице",
-        "пособие по безработице при банкротстве",
-        "документы о доходе для банкротства",
-        "материальная помощь при банкротстве"
-      ],
-      "intent": "informational",
-      "writer_route": "",
-      "h2_topics": [
-        "Банкротство без работы: коротко о главном",
-        "Что происходит с планом реструктуризации при потере дохода",
-        "Сколько остаётся на руках: пособие, минимум и матпомощь",
-        "Кому переход в реализацию выгоден, а кому придётся срочно трудоустраиваться",
-        "Три ошибки, которые лишат вас освобождения от долгов",
-        "Частые вопросы о процедуре при отсутствии занятости",
-        "Читайте также",
-        "ЗАПОЛНИТЬ ФОРМУ"
-      ],
-      "char_count": 8703,
-      "published_at": null,
-      "tags": []
-    },
-    {
-      "slug": "253-fz-perehodnye-polozheniya-dela-bankrotstvo",
-      "category": "news",
-      "source": "draft_pending",
-      "url": null,
-      "title": "ФЗ-253 переходные положения банкротства",
-      "h1": "ФЗ-253: переходные положения для дел о банкротстве - что изменилось",
-      "main_keyword": "ФЗ-253 переходные положения банкротство",
-      "secondary_keywords": [
-        "переходные положения ФЗ-253",
-        "как применяется ФЗ-253 к текущим делам",
-        "ФЗ-253 вступление в силу",
-        "127-ФЗ и ФЗ-253 изменения",
-        "когда начинают действовать новые требования",
-        "ФЗ-253 статья переходные положения",
-        "применение закона к старым делам банкротства",
-        "дела начатые до вступления в силу",
-        "актуальные требования к банкротству"
-      ],
-      "intent": "informational",
-      "writer_route": "",
-      "h2_topics": [
-        "Суть реформы в четырёх тезисах",
-        "Процессуальные и материальные предписания",
-        "Производства, открытые до реформы",
-        "Управляющие, кредиторы, должники",
-        "Частые вопросы о переходных положениях ФЗ-253",
-        "Читайте также",
-        "ЗАПОЛНИТЬ ФОРМУ"
-      ],
-      "char_count": 6710,
-      "published_at": null,
-      "tags": []
-    },
-    {
-      "slug": "antikrizisnyj-upravlyayushchij-reestr-253-fz",
-      "category": "news",
-      "source": "draft_pending",
-      "url": null,
-      "title": "Реестр антикризисных управляющих 253-ФЗ",
-      "h1": "Реестр антикризисных управляющих по 253-ФЗ: как работает и кого туда включают",
-      "main_keyword": "реестр антикризисных управляющих 253-фз",
-      "secondary_keywords": [
-        "регистрация в реестре антикризисных управляющих",
-        "квалификационные требования антикризисного управляющего",
-        "требования к управляющему по 253-фз",
-        "проверка квалификации управляющего",
-        "внесение в реестр ау",
-        "как стать антикризисным управляющим"
-      ],
-      "intent": "informational",
-      "writer_route": "",
-      "h2_topics": [
-        "Правовая основа реестра антикризисных управляющих",
-        "Четыре условия, чтобы попасть в список",
-        "Кому закроют дорогу в реестр",
-        "Как суд выбирает роль для одного специалиста",
-        "Частые вопросы",
-        "Читайте также",
-        "ЗАПОЛНИТЬ ФОРМУ"
-      ],
-      "char_count": 6731,
-      "published_at": null,
-      "tags": []
-    },
-    {
-      "slug": "cb-mpl-chetvertyj-kvartal-ogranicheniya",
-      "category": "news",
-      "source": "draft_pending",
-      "url": null,
-      "title": "МПЛ ЦБ: новые ограничения на ипотеку и их последствия",
-      "h1": "МПЛ от ЦБ: как новые ограничения повлияют на заёмщиков и ипотеку",
-      "main_keyword": "МПЛ ЦБ ипотека",
-      "secondary_keywords": [
-        "макропруденциальные ограничения ипотека",
-        "новые правила ипотеки четвёртый квартал",
-        "коэффициент ЛТВ ЦБ",
-        "коэффициент ДТИ ограничения",
-        "первоначальный взнос при ипотеке",
-        "как изменились условия ипотеки",
-        "размер кредита при МПЛ",
-        "процентная ставка ипотека ЦБ"
-      ],
-      "intent": "informational",
-      "writer_route": "",
-      "h2_topics": [
-        "Зачем регулятор ограничивает выдачи",
-        "Как считают ЛТВ и ДТИ",
-        "Кого заденет, а кого нет",
-        "Три мифа, которые ходят по чатам",
-        "Частые вопросы о новых МПЛ на ипотеку",
-        "Читайте также",
-        "ЗАПОЛНИТЬ ФОРМУ"
-      ],
-      "char_count": 6552,
-      "published_at": null,
-      "tags": []
-    },
-    {
-      "slug": "cb-rezyume-iyulskogo-zasedaniya-stavka",
-      "category": "news",
-      "source": "draft_pending",
-      "url": null,
-      "title": "Резюме июльского заседания ЦБ и аргументы за снижение",
-      "h1": "Резюме июльского заседания ЦБ: аргументы за снижение ставки",
-      "main_keyword": "резюме июльского заседания цб",
-      "secondary_keywords": [
-        "ключевая ставка цб",
-        "снижение ставки в июле",
-        "решение центрального банка",
-        "аргументы цб снижения",
-        "кредитный комитет",
-        "прогноз ставок"
-      ],
-      "intent": "commercial",
-      "writer_route": "",
-      "h2_topics": [
-        "Что решил ЦБ в июле 2026",
-        "Три аргумента комитета за смягчение",
-        "Как сигнал доходит до кредитов",
-        "Почему кредитор вправе не идти следом",
-        "Частые вопросы о июльском решении ЦБ",
-        "Читайте также",
-        "ЗАПОЛНИТЬ ФОРМУ"
-      ],
-      "char_count": 6108,
-      "published_at": null,
-      "tags": []
-    },
-    {
-      "slug": "cb-zasedaniye-sentyabr-stavka-prognoz-dolzhniki",
-      "category": "news",
-      "source": "draft_pending",
-      "url": null,
-      "title": "Прогноз ЦБ по ставкам до сентября: помощь должникам",
-      "h1": "ЦБ повышает ставку до сентября: что это значит для должников",
-      "main_keyword": "ставка цб сентябрь",
-      "secondary_keywords": [
-        "прогноз ставки цб",
-        "ключевая ставка сентябрь должники",
-        "влияние повышения ставки на кредиты",
-        "что делать должнику при росте ставки",
-        "цб повышает ставку долги",
-        "облегчение для должников от цб",
-        "рефинансирование кредита при росте ставок"
-      ],
-      "intent": "informational",
-      "writer_route": "",
-      "h2_topics": [
-        "Как решение ЦБ передаётся в ваш кредит",
-        "Плавающая или фиксированная - у кого вырастет платёж",
-        "Что делать заёмщику при подорожании займов",
-        "Кому опасаться, а кому спать спокойно",
-        "Часто задаваемые вопросы о ставке ЦБ и долгах",
-        "Читайте также",
-        "ЗАПОЛНИТЬ ФОРМУ"
-      ],
-      "char_count": 6444,
-      "published_at": null,
-      "tags": []
-    },
-    {
-      "slug": "dosudebnaya-sanaciya-253-fz-kak-spasti-biznes",
-      "category": "news",
-      "source": "draft_pending",
-      "url": null,
-      "title": "ФЗ-253: досудебная санация компании - инструкция",
-      "h1": "ФЗ-253 о досудебной санации: как спасти компанию от банкротства",
-      "main_keyword": "досудебная санация ФЗ-253",
-      "secondary_keywords": [
-        "как получить статус санируемого должника",
-        "процедура досудебной санации",
-        "условия досудебной санации",
-        "сроки досудебной санации",
-        "ФЗ-253 внесудебная санация",
-        "требования к санируемому должнику",
-        "как спасти компанию от банкротства",
-        "альтернатива банкротству для ООО"
-      ],
-      "intent": "informational",
-      "writer_route": "",
-      "h2_topics": [
-        "Суть нового механизма",
-        "Каким компаниям открыт доступ",
-        "План оздоровления и голосование кредиторов",
-        "Мораторий на взыскание",
-        "Чем рискует компания при неудаче",
-        "Частые вопросы о досудебной санации по ФЗ-253",
-        "Читайте также",
-        "ЗАПОЛНИТЬ ФОРМУ"
-      ],
-      "char_count": 6638,
-      "published_at": null,
-      "tags": []
-    },
-    {
       "slug": "edinyj-portal-bankrotstva-fedresurs",
       "category": "news",
       "source": "draft_pending",
@@ -11961,102 +12776,6 @@
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
       "char_count": 6296,
-      "published_at": null,
-      "tags": []
-    },
-    {
-      "slug": "fns-taktika-kreditora-bankrotstvo-pozicii",
-      "category": "news",
-      "source": "draft_pending",
-      "url": null,
-      "title": "ФНС кредитор в банкротстве: практика Верховного суда",
-      "h1": "ФНС как кредитор в банкротстве: новая судебная практика",
-      "main_keyword": "фнс кредитор банкротство",
-      "secondary_keywords": [
-        "требования фнс в банкротстве",
-        "налоги при банкротстве физлица",
-        "налоговые претензии должника",
-        "взыскание налогов через суд",
-        "приоритет требований фнс",
-        "налоговая задолженность компании"
-      ],
-      "intent": "informational",
-      "writer_route": "",
-      "h2_topics": [
-        "ФНС в банкротстве: позиция закона и судебной практики",
-        "Какие права даёт налоговому органу статус кредитора",
-        "Упрощённый порядок: почему налоговая служба подаёт заявление быстрее банка",
-        "Что делать, если ведомство предъявило завышенную сумму",
-        "Физлица и компании: что меняет позиция ведомства для каждого",
-        "Частые вопросы о роли ФНС в банкротстве",
-        "Читайте также",
-        "ЗАПОЛНИТЬ ФОРМУ"
-      ],
-      "char_count": 7925,
-      "published_at": null,
-      "tags": []
-    },
-    {
-      "slug": "fssp-alimenty-vzyskanie-statistika-polugodie",
-      "category": "news",
-      "source": "draft_pending",
-      "url": null,
-      "title": "Статистика ФССП по взысканию алиментов: +17% за полгода",
-      "h1": "ФССП: взыскание алиментов выросло на 17% за полгода",
-      "main_keyword": "взыскание алиментов ФССП",
-      "secondary_keywords": [
-        "статистика ФССП алименты",
-        "взыскание алиментов в России",
-        "должники по алиментам",
-        "исполнительное производство алименты",
-        "арест счетов алименты",
-        "служба судебных приставов статистика",
-        "задолженность по алиментам"
-      ],
-      "intent": "informational",
-      "writer_route": "",
-      "h2_topics": [
-        "Что означает прирост на 17%",
-        "Сколько вправе снять пристав и за какой срок",
-        "Какие доходы защищены от принудительного списания",
-        "Почему банкротство физлица не помогает",
-        "Частые вопросы об алиментах и взыскании",
-        "Читайте также",
-        "ЗАПОЛНИТЬ ФОРМУ"
-      ],
-      "char_count": 7336,
-      "published_at": null,
-      "tags": []
-    },
-    {
-      "slug": "investor-zastrojshchika-bez-dogovora-bankrotstvo",
-      "category": "news",
-      "source": "draft_pending",
-      "url": null,
-      "title": "Защита инвесторов без договора при банкротстве",
-      "h1": "Верховный суд защитил инвесторов без договора при банкротстве застройщика",
-      "main_keyword": "инвесторы без договора при банкротстве",
-      "secondary_keywords": [
-        "верховный суд решение застройщик инвесторы",
-        "как вернуть инвестиции без договора",
-        "банкротство строительной компании инвесторы",
-        "защита кредиторов при банкротстве застройщика",
-        "практика верховного суда банкротство",
-        "инвестиции в строительство при банкротстве"
-      ],
-      "intent": "informational",
-      "writer_route": "",
-      "h2_topics": [
-        "Что решил Верховный суд в июле 2026 года",
-        "Как попасть в реестр требований кредиторов без договора",
-        "Очерёдность выплат: почему вкладчики часто получают ноль",
-        "Кому позиция Верховного суда реально помогает",
-        "Когда стоит идти к директорам",
-        "Частые вопросы инвесторов без договора при банкротстве застройщика",
-        "Читайте также",
-        "ЗАПОЛНИТЬ ФОРМУ"
-      ],
-      "char_count": 7736,
       "published_at": null,
       "tags": []
     },
@@ -12130,134 +12849,6 @@
       "tags": []
     },
     {
-      "slug": "kollektory-rekord-cena-bankovskikh-dolgov",
-      "category": "news",
-      "source": "draft_pending",
-      "url": null,
-      "title": "Рекорд цен на долги: что ждёт должников",
-      "h1": "Рекорд цен на просроченные долги: что ждёт должников и коллекторов",
-      "main_keyword": "рекорд цены банковских долгов",
-      "secondary_keywords": [
-        "стоимость просроченных долгов",
-        "цена долгов на торгах",
-        "коллекторские агентства рынок",
-        "вторичный рынок банковских долгов",
-        "банковские активы продажа",
-        "что такое просроченный долг"
-      ],
-      "intent": "informational",
-      "writer_route": "",
-      "h2_topics": [
-        "Почему вторичный рынок долгов обновил ценовой рекорд",
-        "Цессия: как право требования переходит к новому кредитору",
-        "Запреты и разрешённые методы: что закон говорит взыскателю",
-        "Как защититься: от жалобы в ЦБ до процедуры несостоятельности",
-        "Частые вопросы о рекорде цен и действиях коллекторов",
-        "Читайте также",
-        "ЗАПОЛНИТЬ ФОРМУ"
-      ],
-      "char_count": 6504,
-      "published_at": null,
-      "tags": []
-    },
-    {
-      "slug": "kredity-za-tri-dnya-dolgi-ne-spishut-bankrotstvo",
-      "category": "news",
-      "source": "draft_pending",
-      "url": null,
-      "title": "Долги за три дня перед банкротством: решение ВС",
-      "h1": "Долги за три дня перед банкротством не спишут: решение ВС",
-      "main_keyword": "долги кредиты банкротство три дня",
-      "secondary_keywords": [
-        "оформление кредита перед банкротством",
-        "судебная практика долги банкротство",
-        "непогашенные долги при банкротстве",
-        "верховный суд решение кредиты",
-        "долги заемщика не спишут",
-        "сроки между кредитом и банкротством"
-      ],
-      "intent": "informational",
-      "writer_route": "",
-      "h2_topics": [
-        "Позиция ВС по свежим займам",
-        "Как арбитраж ищет умысел",
-        "Что не спишут никогда",
-        "Кто в зоне риска",
-        "Что важно запомнить",
-        "Частые вопросы о займах перед банкротством",
-        "Читайте также",
-        "ЗАПОЛНИТЬ ФОРМУ"
-      ],
-      "char_count": 5402,
-      "published_at": null,
-      "tags": []
-    },
-    {
-      "slug": "krizisnyj-upravlyayushchij-253-fz-bankrotstvo",
-      "category": "news",
-      "source": "draft_pending",
-      "url": null,
-      "title": "Кризисный управляющий при банкротстве: роль и функции",
-      "h1": "Кризисный управляющий в реформе банкротства: кто назначает и какие полномочия",
-      "main_keyword": "кризисный управляющий",
-      "secondary_keywords": [
-        "реабилитационная процедура кризисный управляющий",
-        "должность кризисного управляющего",
-        "полномочия кризисного управляющего",
-        "введение кризисного управляющего",
-        "кризисный управляющий 253-фз",
-        "финансовое оздоровление предприятия"
-      ],
-      "intent": "informational",
-      "writer_route": "",
-      "h2_topics": [
-        "Кризисный управляющий: кто это и для чего нужен",
-        "Чем новая должность отличается от арбитражного управляющего",
-        "Какие действия разрешены - и что требует согласования",
-        "Как вводится реабилитационная процедура и чем может завершиться",
-        "Частые вопросы о кризисном управляющем по 253-ФЗ",
-        "Читайте также",
-        "ЗАПОЛНИТЬ ФОРМУ"
-      ],
-      "char_count": 7471,
-      "published_at": null,
-      "tags": []
-    },
-    {
-      "slug": "nbki-kreditnye-karty-snizhenie-vydach-statistika",
-      "category": "news",
-      "source": "draft_pending",
-      "url": null,
-      "title": "Выдача кредитных карт падает: статистика НБКИ",
-      "h1": "Выдача кредитных карт падает третий месяц подряд: анализ данных НБКИ",
-      "main_keyword": "выдача кредитных карт статистика",
-      "secondary_keywords": [
-        "кредитные карты выдача падает",
-        "НБКИ статистика кредитных карт",
-        "сокращение выдачи кредитных карт",
-        "падение объёма кредитных карт",
-        "рынок кредитных карт России",
-        "НБКИ кредитные карты",
-        "объём выдачи кредитных карт",
-        "потребительское кредитование падает"
-      ],
-      "intent": "informational",
-      "writer_route": "",
-      "h2_topics": [
-        "Что происходит с выдачей коротко",
-        "Почему бюро фиксирует падение",
-        "Три фактора, которые тянут вниз",
-        "Кому ужесточение ударит сильнее",
-        "Когда ждать разворота",
-        "Частые вопросы о снижении выдачи кредитных карт",
-        "Читайте также",
-        "ЗАПОЛНИТЬ ФОРМУ"
-      ],
-      "char_count": 6649,
-      "published_at": null,
-      "tags": []
-    },
-    {
       "slug": "nbki-otkazy-po-kreditam-77-procentov-iyul",
       "category": "news",
       "source": "draft_pending",
@@ -12287,39 +12878,6 @@
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
       "char_count": 5221,
-      "published_at": null,
-      "tags": []
-    },
-    {
-      "slug": "nbki-prosrochka-ipoteka-rost-vtoroy-kvartal",
-      "category": "news",
-      "source": "draft_pending",
-      "url": null,
-      "title": "Просрочка ипотеки выросла: данные НБКИ",
-      "h1": "Просрочка по ипотеке выросла: что показывают данные НБКИ",
-      "main_keyword": "просрочка ипотеки",
-      "secondary_keywords": [
-        "рост просрочек ипотеке",
-        "данные нбки ипотека",
-        "статистика ипотеки",
-        "должники ипотеке россия",
-        "риск неплатежа ипотека",
-        "кредитная история ипотека",
-        "ипотечный кредит просрочка",
-        "макроэкономика ипотека"
-      ],
-      "intent": "informational",
-      "writer_route": "",
-      "h2_topics": [
-        "Какие данные НБКИ публикует по ипотечному рынку",
-        "Когда задержка платежа становится серьёзной проблемой",
-        "Три причины, по которым ипотечные взносы становятся непосильными",
-        "Реструктуризация и права заёмщика: как действовать до суда",
-        "Частые вопросы о просрочке ипотеки и данных НБКИ",
-        "Читайте также",
-        "ЗАПОЛНИТЬ ФОРМУ"
-      ],
-      "char_count": 7504,
       "published_at": null,
       "tags": []
     },
@@ -12391,39 +12949,6 @@
       "tags": []
     },
     {
-      "slug": "porog-aresta-imushchestva-10000-sovfed",
-      "category": "news",
-      "source": "draft_pending",
-      "url": null,
-      "title": "Порог ареста имущества повышен до 10 000 рублей",
-      "h1": "Порог ареста имущества: долг менее 10 000 рублей теперь защищён запретом",
-      "main_keyword": "порог ареста имущества 10000",
-      "secondary_keywords": [
-        "долг до 10000 рублей арест запрет",
-        "повышение порога долга исполнительное производство",
-        "минимальный размер долга для ареста",
-        "защита имущества должника",
-        "совфед инициатива арест имущества",
-        "арест при малом долге",
-        "исполнительный лист долг менее 10000",
-        "федеральные приставы порог долга"
-      ],
-      "intent": "informational",
-      "writer_route": "",
-      "h2_topics": [
-        "Что Совфед одобрил 31 июля: суть инициативы",
-        "Пристав вправе взыскать при любой сумме",
-        "Ст. 446 ГПК и другие нормы: что уже нельзя у вас забрать",
-        "Кому поможет новый лимит - и что предпринять уже сейчас",
-        "Частые вопросы",
-        "Читайте также",
-        "ЗАПОЛНИТЬ ФОРМУ"
-      ],
-      "char_count": 8104,
-      "published_at": null,
-      "tags": []
-    },
-    {
       "slug": "rbc-regionalnoe-delo-apk-alekseevsky-vveli-nablyudenie",
       "category": "news",
       "source": "draft_pending",
@@ -12453,105 +12978,6 @@
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
       "char_count": 6928,
-      "published_at": null,
-      "tags": []
-    },
-    {
-      "slug": "reforma-bankrotstva-253-fz-izmeneniya-dlya-kreditorov",
-      "category": "news",
-      "source": "draft_pending",
-      "url": null,
-      "title": "Реформа банкротства: новые права и обязанности кредиторов",
-      "h1": "Реформа банкротства 253-ФЗ: какие права получили кредиторы",
-      "main_keyword": "реформа банкротства 253-ФЗ кредиторы",
-      "secondary_keywords": [
-        "изменения в банкротстве для кредиторов",
-        "новое в процедуре банкротства физлица",
-        "право кредитора на взыскание по новому закону",
-        "сроки подачи требований кредитора",
-        "уведомление кредиторов о банкротстве",
-        "приоритет требований кредиторов",
-        "арбитражный управляющий и кредиторы",
-        "собрание кредиторов новые правила"
-      ],
-      "intent": "informational",
-      "writer_route": "",
-      "h2_topics": [
-        "Что изменил 253-ФЗ для участников производства по новому закону",
-        "Какие права закон закрепляет за кредитором в процедуре",
-        "Чьи претензии погашаются первыми при распределении средств должника",
-        "Как действовать после публикации о банкротстве в ЕФРСБ",
-        "Частые вопросы о правах кредиторов после реформы банкротства",
-        "Читайте также",
-        "ЗАПОЛНИТЬ ФОРМУ"
-      ],
-      "char_count": 7541,
-      "published_at": null,
-      "tags": []
-    },
-    {
-      "slug": "reforma-bankrotstvo-zakon-podpisan-sroki",
-      "category": "news",
-      "source": "draft_pending",
-      "url": null,
-      "title": "Реформа закона о банкротстве: сроки и изменения",
-      "h1": "Реформа закона о банкротстве юрлиц: что изменилось и когда вступит в силу",
-      "main_keyword": "реформа закона о банкротстве",
-      "secondary_keywords": [
-        "сроки вступления в силу закона о банкротстве",
-        "новые правила банкротства юрлиц",
-        "изменения в 127-ФЗ",
-        "реформа процедуры банкротства",
-        "как изменился закон о банкротстве",
-        "когда вступит в силу новый закон",
-        "влияние реформы на должников"
-      ],
-      "intent": "informational",
-      "writer_route": "",
-      "h2_topics": [
-        "Что подписали 26 июля и кого это касается",
-        "Что менялось в 127-ФЗ с 2020 по 2025 год",
-        "Как арбитраж ведёт банкротное дело юрлица",
-        "Три угла: руководитель, кредитор, управляющий",
-        "Частые вопросы",
-        "Читайте также",
-        "ЗАПОЛНИТЬ ФОРМУ"
-      ],
-      "char_count": 7386,
-      "published_at": null,
-      "tags": []
-    },
-    {
-      "slug": "stavka-cb-14-procentov-pereraschyot-dolga-peni",
-      "category": "news",
-      "source": "draft_pending",
-      "url": null,
-      "title": "Ставка ЦБ 14%: как пересчитать долг и пени",
-      "h1": "Как пересчитать долг и пени при снижении ставки Центробанка до 14%",
-      "main_keyword": "ставка цб 14 процентов",
-      "secondary_keywords": [
-        "как пересчитать долг при снижении ставки",
-        "пени при ставке цб 14 процентов",
-        "пересчет пеней по новой ставке",
-        "снижение ставки цб влияние на долг",
-        "ключевая ставка цб 14",
-        "как считается пеня при ставке цб",
-        "размер пеней при взыскании долга",
-        "исполнительское производство ставка цб"
-      ],
-      "intent": "informational",
-      "writer_route": "",
-      "h2_topics": [
-        "Три итога от снижения ставки",
-        "Формула 1/360 и живой пример",
-        "С 24 июля 2026: что меняется само",
-        "Что предпринять, если взыскание уже началось",
-        "Когда договорная санкция заменяет расчёт по ЦБ",
-        "Частые вопросы о пересчёте пеней при ставке ЦБ 14%",
-        "Читайте также",
-        "ЗАПОЛНИТЬ ФОРМУ"
-      ],
-      "char_count": 7215,
       "published_at": null,
       "tags": []
     },
@@ -12589,39 +13015,6 @@
       "tags": []
     },
     {
-      "slug": "tpp-bankrotstvo-sellery-marketplace-bpla",
-      "category": "news",
-      "source": "draft_pending",
-      "url": null,
-      "title": "ТПП упростит банкротство для sellery маркетплейсов",
-      "h1": "ТПП предложила упростить банкротство для пострадавших sellery маркетплейсов",
-      "main_keyword": "упрощение банкротства sellery маркетплейса",
-      "secondary_keywords": [
-        "банкротство продавцов маркетплейса",
-        "упрощенная процедура банкротства ип",
-        "инициатива ТПП маркетплейсы",
-        "поддержка sellery пострадавших",
-        "торговая палата банкротство",
-        "маркетплейсы убытки помощь",
-        "упрощение процедуры банкротства",
-        "банкротство маркетплейса бпла"
-      ],
-      "intent": "informational",
-      "writer_route": "",
-      "h2_topics": [
-        "Что предложила палата",
-        "Как устроено списание долгов у ИП сейчас",
-        "Кому предложение поможет",
-        "Какие ограничения не снимет даже упрощение",
-        "Частые вопросы о банкротстве продавцов маркетплейсов",
-        "Читайте также",
-        "ЗАПОЛНИТЬ ФОРМУ"
-      ],
-      "char_count": 6737,
-      "published_at": null,
-      "tags": []
-    },
-    {
       "slug": "verhovnyj-sud-razjasnil-peresmotr-bankrotstva",
       "category": "news",
       "source": "draft_pending",
@@ -12650,102 +13043,6 @@
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
       "char_count": 6300,
-      "published_at": null,
-      "tags": []
-    },
-    {
-      "slug": "vs-rf-bankrotstvo-droppera-procenty-postradavshim",
-      "category": "news",
-      "source": "draft_pending",
-      "url": null,
-      "title": "Мошенник-банкрот: жертва получит проценты. Практика ВС",
-      "h1": "Банкротство мошенника не лишает жертву процентов: разъяснение Верховного суда",
-      "main_keyword": "банкротство мошенника проценты жертве",
-      "secondary_keywords": [
-        "взыскание процентов при банкротстве",
-        "может ли жертва получить проценты банкрот",
-        "проценты на сумму долга судебное взыскание",
-        "защита прав жертвы мошенника банкротство",
-        "взыскание процентов по искам кредитора",
-        "банкротство должника жертве",
-        "проценты пользование деньгами при банкротстве"
-      ],
-      "intent": "informational",
-      "writer_route": "",
-      "h2_topics": [
-        "ВС снял старую неопределённость",
-        "Как пострадавший становится кредитором",
-        "Как считают надбавку по статье 395",
-        "Что реально получит пострадавший",
-        "Частые вопросы о банкротстве мошенника и правах жертвы",
-        "Читайте также",
-        "ЗАПОЛНИТЬ ФОРМУ"
-      ],
-      "char_count": 5466,
-      "published_at": null,
-      "tags": []
-    },
-    {
-      "slug": "vs-rf-torgoplivost-dolzhnika-otkaz-v-spisanii",
-      "category": "news",
-      "source": "draft_pending",
-      "url": null,
-      "title": "ВС РФ: поспешность при банкротстве лишает права на списание",
-      "h1": "Как поспешливость при банкротстве лишает права на списание долга",
-      "main_keyword": "верховный суд отказ в списании долга при банкротстве",
-      "secondary_keywords": [
-        "отказ в списании долга при банкротстве",
-        "когда должник не может списать долг",
-        "судебная практика банкротства физлица",
-        "условия полного списания долга",
-        "поспешность при банкротстве",
-        "требования арбитражного управляющего",
-        "план реструктуризации долга"
-      ],
-      "intent": "informational",
-      "writer_route": "",
-      "h2_topics": [
-        "Что разъяснил ВС РФ: суть позиции",
-        "Какое поведение суд трактует против должника",
-        "За чем следит финансовый управляющий",
-        "Кто рискует потерять чистый лист",
-        "Частые вопросы о добросовестности при банкротстве физлица",
-        "Читайте также",
-        "ЗАПОЛНИТЬ ФОРМУ"
-      ],
-      "char_count": 8334,
-      "published_at": null,
-      "tags": []
-    },
-    {
-      "slug": "zakon-253-fz-bankrotstvo-chto-vstupilo-v-silu",
-      "category": "news",
-      "source": "draft_pending",
-      "url": null,
-      "title": "Закон о банкротстве 253-ФЗ: главные изменения",
-      "h1": "Закон о банкротстве: какие изменения вступили в силу",
-      "main_keyword": "закон 253-ФЗ банкротство",
-      "secondary_keywords": [
-        "новый закон о банкротстве",
-        "изменения в процедуре банкротства",
-        "банкротство физлица новые правила",
-        "процедура банкротства компании",
-        "упрощение процедуры банкротства",
-        "закон о банкротстве вступил",
-        "как влияет новый закон на должников"
-      ],
-      "intent": "informational",
-      "writer_route": "",
-      "h2_topics": [
-        "26 июля 2026: свежий документ в реестре",
-        "Физлица и компании: под кого попадает",
-        "С какой даты нормы учитываются в судах",
-        "Что уточнить прямо сейчас",
-        "Частые вопросы о 253-ФЗ",
-        "Читайте также",
-        "ЗАПОЛНИТЬ ФОРМУ"
-      ],
-      "char_count": 6638,
       "published_at": null,
       "tags": []
     },
@@ -13037,41 +13334,6 @@
       "tags": []
     },
     {
-      "slug": "kreditnye-kanikuly-prava-dolzhnika",
-      "category": "vzysk",
-      "source": "draft_pending",
-      "url": null,
-      "title": "Кредитные каникулы и права должника при взыскании",
-      "h1": "Кредитные каникулы при взыскании: какие права имеет должник",
-      "main_keyword": "кредитные каникулы права должника при взыскании",
-      "secondary_keywords": [
-        "кредитные каникулы при взыскании задолженности",
-        "права должника во время взыскания",
-        "защита должника при исполнительном производстве",
-        "отсрочка платежей по долгу взыскание",
-        "приостановление платежей по кредиту",
-        "мораторий на взыскание долга",
-        "защита прав должника закон",
-        "исполнительное производство каникулы платежей",
-        "как защитить себя от взыскания"
-      ],
-      "intent": "informational",
-      "writer_route": "",
-      "h2_topics": [
-        "Пять прав, о которых редко знают",
-        "Сколько может забирать пристав",
-        "Когда можно попросить паузу",
-        "Что закон не отдаёт кредитору",
-        "Пристав нарушил закон - куда жаловаться",
-        "Частые вопросы о правах при взыскании задолженности",
-        "Читайте также",
-        "ЗАПОЛНИТЬ ФОРМУ"
-      ],
-      "char_count": 8277,
-      "published_at": null,
-      "tags": []
-    },
-    {
       "slug": "mediaciya-pri-vzyskanii-dolga",
       "category": "vzysk",
       "source": "draft_pending",
@@ -13108,42 +13370,6 @@
       "tags": []
     },
     {
-      "slug": "mfo-podala-v-sud-chto-delat",
-      "category": "vzysk",
-      "source": "draft_pending",
-      "url": null,
-      "title": "МФО подала в суд: действия должника при иске",
-      "h1": "МФО подала в суд по займу: что делать должнику",
-      "main_keyword": "МФО подала в суд что делать",
-      "secondary_keywords": [
-        "МФО подала в суд по займу",
-        "что делать если МФО судится",
-        "судебный иск МФО должнику",
-        "как обжаловать решение суда МФО",
-        "защита прав должника от МФО",
-        "судебный приказ МФО",
-        "возражение на судебный приказ",
-        "исполнительный лист МФО",
-        "взыскание МФО в суде",
-        "судебные издержки МФО"
-      ],
-      "intent": "informational",
-      "writer_route": "",
-      "h2_topics": [
-        "МФО подала в суд - первые шаги должника",
-        "Судебное предписание или иск",
-        "Отзыв на требование займодавца",
-        "Пристав пришёл: как защитить заработок",
-        "Что усугубит положение",
-        "Частые вопросы о займе и взыскании МФО",
-        "Читайте также",
-        "ЗАПОЛНИТЬ ФОРМУ"
-      ],
-      "char_count": 8199,
-      "published_at": null,
-      "tags": []
-    },
-    {
       "slug": "mirovoe-soglashenie-v-ispolnitelnom-proizvodstve",
       "category": "vzysk",
       "source": "draft_pending",
@@ -13174,113 +13400,6 @@
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
       "char_count": 7470,
-      "published_at": null,
-      "tags": []
-    },
-    {
-      "slug": "narushenie-mirovogo-soglasheniya-ispolnitelnyj-list",
-      "category": "vzysk",
-      "source": "draft_pending",
-      "url": null,
-      "title": "Исполнительный лист при нарушении мирового соглашения",
-      "h1": "Как получить исполнительный лист при нарушении мирового соглашения",
-      "main_keyword": "получить исполнительный лист при нарушении мирового соглашения",
-      "secondary_keywords": [
-        "исполнительный лист за нарушение мирового соглашения",
-        "мировое соглашение должник не платит",
-        "как взыскать деньги после мирового соглашения",
-        "исполнительное производство по мировому соглашению",
-        "кредитор нарушено мировое соглашение",
-        "санкции за нарушение мирового соглашения",
-        "неустойка при нарушении мирового соглашения",
-        "взыскание по мировому соглашению"
-      ],
-      "intent": "commercial",
-      "writer_route": "",
-      "h2_topics": [
-        "Что происходит при нарушении - коротко",
-        "Почему повторный иск не нужен",
-        "Какие документы подать и как получить лист",
-        "Что делает пристав в первую неделю",
-        "Когда взыскатель рискует не получить деньги",
-        "Частые вопросы о взыскании по мировому соглашению",
-        "Читайте также",
-        "ЗАПОЛНИТЬ ФОРМУ"
-      ],
-      "char_count": 8530,
-      "published_at": null,
-      "tags": []
-    },
-    {
-      "slug": "otkaz-strakhovshchika-v-vyplate-kak-vzyskat",
-      "category": "vzysk",
-      "source": "draft_pending",
-      "url": null,
-      "title": "Как взыскать отказ страховщика в выплате",
-      "h1": "Как взыскать отказ страховщика в выплате через суд",
-      "main_keyword": "как взыскать отказ страховщика в выплате",
-      "secondary_keywords": [
-        "взыскание отказа страховой компании",
-        "судебное взыскание против страховщика",
-        "как взыскать страховку через суд",
-        "иск к страховой компании отказ в выплате",
-        "возврат страховой выплаты через суд",
-        "исковое заявление страховщику",
-        "судебная практика отказ страховщика",
-        "взыскание убытков от страховщика",
-        "ОСАГО отказ в выплате как взыскать",
-        "судебный приказ против страховщика"
-      ],
-      "intent": "commercial",
-      "writer_route": "",
-      "h2_topics": [
-        "Реально ли отсудить деньги у страховой",
-        "Когда позиция компании нарушает закон",
-        "Исковое заявление: куда идти и что приложить",
-        "Что присуждают сверх основной суммы",
-        "Приказ или иск: какой путь выбрать",
-        "Частые вопросы о взыскании отказа страховщика",
-        "Читайте также",
-        "ЗАПОЛНИТЬ ФОРМУ"
-      ],
-      "char_count": 8706,
-      "published_at": null,
-      "tags": []
-    },
-    {
-      "slug": "pristavy-spisali-pensiyu-chto-delat",
-      "category": "vzysk",
-      "source": "draft_pending",
-      "url": null,
-      "title": "Приставы списали пенсию: как вернуть деньги",
-      "h1": "Приставы списали пенсию: как законно вернуть деньги должнику",
-      "main_keyword": "приставы списали пенсию",
-      "secondary_keywords": [
-        "как вернуть пенсию если приставы списали",
-        "приставы списывают пенсию законно ли",
-        "защита пенсии от взысканий",
-        "куда пожаловаться на приставов за пенсию",
-        "какие пенсии защищены от взыскания",
-        "обжалование решения приставов",
-        "льготная пенсия приставы не трогают",
-        "списание пенсии судебным приказом",
-        "жалоба в прокуратуру на приставов",
-        "возврат списанной пенсии"
-      ],
-      "intent": "informational",
-      "writer_route": "",
-      "h2_topics": [
-        "Что проверить первым делом",
-        "Какие деньги трогать нельзя",
-        "Сколько вправе забрать из пенсии",
-        "Куда идти и как вернуть",
-        "Кому реально поможет, а кому нет",
-        "Финальная мысль",
-        "Частые вопросы о взыскании из пенсии",
-        "Читайте также",
-        "ЗАПОЛНИТЬ ФОРМУ"
-      ],
-      "char_count": 9254,
       "published_at": null,
       "tags": []
     },
@@ -13385,41 +13504,6 @@
       "tags": []
     },
     {
-      "slug": "vyselenie-arendatora-dolzhnika-cherez-sud",
-      "category": "vzysk",
-      "source": "draft_pending",
-      "url": null,
-      "title": "Выселение арендатора-должника через суд: пошагово",
-      "h1": "Как выселить арендатора с долгами через суд: пошаговая инструкция",
-      "main_keyword": "выселение арендатора должника через суд",
-      "secondary_keywords": [
-        "как выселить арендатора с долгами",
-        "исковое заявление о выселении арендатора",
-        "расторжение договора аренды через суд",
-        "выселение за задолженность по аренде",
-        "порядок выселения должника",
-        "судебный процесс выселения",
-        "исполнительное производство выселение",
-        "сроки выселения арендатора",
-        "взыскание задолженности арендатора"
-      ],
-      "intent": "commercial",
-      "writer_route": "",
-      "h2_topics": [
-        "Как выселить арендатора с долгами - коротко",
-        "Арбитраж или районный суд - куда подавать",
-        "Что должно быть в исковом заявлении о выселении",
-        "Сколько времени займёт суд и во что обойдётся",
-        "Приставы и принудительное освобождение помещения",
-        "Частые вопросы о выселении арендатора через суд",
-        "Читайте также",
-        "ЗАПОЛНИТЬ ФОРМУ"
-      ],
-      "char_count": 8572,
-      "published_at": null,
-      "tags": []
-    },
-    {
       "slug": "vzyskanie-dolga-po-dogovoru-arendy",
       "category": "vzysk",
       "source": "draft_pending",
@@ -13520,144 +13604,6 @@
       "tags": []
     },
     {
-      "slug": "vzyskanie-dolga-s-marketplejsa",
-      "category": "vzysk",
-      "source": "draft_pending",
-      "url": null,
-      "title": "Взыскание долга с маркетплейса: Wildberries, Ozon",
-      "h1": "Взыскание долга с маркетплейса: способы взыскания у Wildberries и Ozon",
-      "main_keyword": "взыскание долга с маркетплейса",
-      "secondary_keywords": [
-        "как взыскать деньги с Wildberries",
-        "взыскание задолженности на Ozon",
-        "судебный приказ к маркетплейсу",
-        "претензия продавцу маркетплейса",
-        "возврат денег от маркетплейса через суд",
-        "взыскание неполученного товара",
-        "процедура взыскания в маркетплейсе",
-        "защита прав покупателя"
-      ],
-      "intent": "informational",
-      "writer_route": "",
-      "h2_topics": [
-        "Три способа вернуть деньги: коротко",
-        "Кого привлекать: платформу или продавца",
-        "Претензия, приказ, иск - чем отличаются",
-        "Кому какой инструмент подходит",
-        "Что может затянуть получение денег",
-        "Частые вопросы о взыскании долга с маркетплейса",
-        "Читайте также",
-        "ЗАПОЛНИТЬ ФОРМУ"
-      ],
-      "char_count": 9746,
-      "published_at": null,
-      "tags": []
-    },
-    {
-      "slug": "vzyskanie-po-podryadu-bez-podpisannogo-akta",
-      "category": "vzysk",
-      "source": "draft_pending",
-      "url": null,
-      "title": "Взыскание по подряду без акта работ: пошаговая инструкция",
-      "h1": "Взыскание денег по подряду без подписанного акта работ: судебный процесс и доказательства",
-      "main_keyword": "взыскание по подряду без акта работ",
-      "secondary_keywords": [
-        "взыскание задолженности по подряду",
-        "подрядные работы без акта приемки",
-        "исковое заявление о взыскании по подряду",
-        "доказательства выполнения работ без акта",
-        "взыскание в арбитражном суде",
-        "договор подряда без приемки-передачи",
-        "оплата работ подрядчиком",
-        "взыскание денежных средств при отсутствии акта",
-        "судебная практика взыскания подряда",
-        "ответственность подрядчика за невыполнение"
-      ],
-      "intent": "commercial",
-      "writer_route": "",
-      "h2_topics": [
-        "Взыскание без акта: что говорит закон",
-        "Чем заменить акт: что принимает суд",
-        "Судебный приказ или исковое заявление: какой маршрут выбрать",
-        "Когда у подрядчика позиция сильная, а когда - минимальная",
-        "Что может осложнить взыскание: риски и сроки",
-        "Частые вопросы о взыскании по подряду без акта",
-        "Читайте также",
-        "ЗАПОЛНИТЬ ФОРМУ"
-      ],
-      "char_count": 8733,
-      "published_at": null,
-      "tags": []
-    },
-    {
-      "slug": "vzyskanie-raschyota-pri-uvolnenii",
-      "category": "vzysk",
-      "source": "draft_pending",
-      "url": null,
-      "title": "Взыскание расчёта при увольнении: как добиться выплаты",
-      "h1": "Взыскание расчёта при увольнении: как добиться выплаты от работодателя",
-      "main_keyword": "взыскание расчёта при увольнении",
-      "secondary_keywords": [
-        "как взыскать расчёт при увольнении",
-        "взыскание зарплаты при увольнении",
-        "задолженность работодателя по расчёту",
-        "невыплаченная зарплата при увольнении",
-        "как подать жалобу на работодателя за расчёт",
-        "взыскание премий и бонусов при увольнении",
-        "инспекция труда взыскание расчёта",
-        "судебное взыскание расчёта от работодателя"
-      ],
-      "intent": "commercial",
-      "writer_route": "",
-      "h2_topics": [
-        "Что делать, когда наниматель тянет с выплатой",
-        "Из чего складывается долг и пеня",
-        "Инспекция труда или суд: какой маршрут выбрать",
-        "Кто вправе потребовать и когда срок ещё не упущен",
-        "Почему пристав не всегда помогает",
-        "Частые вопросы о невыплате при расторжении трудового договора",
-        "Читайте также",
-        "ЗАПОЛНИТЬ ФОРМУ"
-      ],
-      "char_count": 8443,
-      "published_at": null,
-      "tags": []
-    },
-    {
-      "slug": "vzyskanie-ushcherba-ot-moshennikov-cherez-sud",
-      "category": "vzysk",
-      "source": "draft_pending",
-      "url": null,
-      "title": "Взыскание ущерба от мошенников через суд",
-      "h1": "Как взыскать ущерб от мошенников через суд: пошаговая инструкция",
-      "main_keyword": "взыскание ущерба от мошенников через суд",
-      "secondary_keywords": [
-        "как вернуть деньги от мошенников",
-        "взыскание убытков через суд",
-        "исковое заявление о взыскании ущерба",
-        "доказательства мошенничества",
-        "взыскание денег у мошенника",
-        "судебный иск против мошенника",
-        "возврат денег после мошенничества",
-        "исполнительное производство взыскание"
-      ],
-      "intent": "informational",
-      "writer_route": "",
-      "h2_topics": [
-        "Реально ли вернуть деньги от мошенника через суд - кратко",
-        "Какие документы и доказательства собрать до подачи в суд",
-        "Приказ или полноценный иск: что подходит в вашей ситуации",
-        "Что делать с исполнительным листом: пристав и меры принуждения",
-        "Когда деньги получить не удастся - и на что смотреть заранее",
-        "Частые вопросы о возмещении ущерба от мошенников",
-        "Читайте также",
-        "ЗАПОЛНИТЬ ФОРМУ"
-      ],
-      "char_count": 7457,
-      "published_at": null,
-      "tags": []
-    },
-    {
       "slug": "bankrotstvo-akcionernogo-obshchestva-prava-akcionerov",
       "category": "yur",
       "source": "draft_pending",
@@ -13722,41 +13668,6 @@
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
       "char_count": 7620,
-      "published_at": null,
-      "tags": []
-    },
-    {
-      "slug": "bankrotstvo-direktora-i-kompanii-odnovremenno",
-      "category": "yur",
-      "source": "draft_pending",
-      "url": null,
-      "title": "Банкротство директора и ООО одновременно",
-      "h1": "Банкротство директора и ООО одновременно: как делить долги между ними",
-      "main_keyword": "банкротство директора и компании одновременно",
-      "secondary_keywords": [
-        "одновременное банкротство директора и ООО",
-        "личные долги директора при банкротстве компании",
-        "раздельное банкротство директора и компании",
-        "ответственность директора при банкротстве ООО",
-        "имущество директора при банкротстве компании",
-        "очередность погашения долгов",
-        "долги компании и долги директора",
-        "конкурсная масса директора и компании",
-        "как защитить имущество директора"
-      ],
-      "intent": "informational",
-      "writer_route": "",
-      "h2_topics": [
-        "Что меняется при параллельных делах",
-        "Два независимых производства",
-        "Как распределяются выплаты",
-        "Когда личное под ударом",
-        "Стоит ли запускать оба дела",
-        "Частые вопросы",
-        "Читайте также",
-        "ЗАПОЛНИТЬ ФОРМУ"
-      ],
-      "char_count": 7128,
       "published_at": null,
       "tags": []
     },
@@ -13835,114 +13746,6 @@
       "tags": []
     },
     {
-      "slug": "bankrotstvo-kompanii-inostrannyj-uchreditel",
-      "category": "yur",
-      "source": "draft_pending",
-      "url": null,
-      "title": "Банкротство ООО с иностранным учредителем: особенности",
-      "h1": "Банкротство ООО с иностранным учредителем: процедура и особенности",
-      "main_keyword": "банкротство компании с иностранным учредителем",
-      "secondary_keywords": [
-        "банкротство ООО с иностранным владельцем",
-        "иностранный учредитель и банкротство",
-        "банкротство компании иностранца",
-        "ООО иностранного гражданина банкротство",
-        "особенности банкротства при иностранном инвесторе",
-        "уведомление иностранца о банкротстве ООО",
-        "налоги при банкротстве компании иностранца",
-        "иностранный инвестор и ликвидация ООО",
-        "банкротство ООО с иностранным бенефициаром",
-        "трансграничное банкротство компании"
-      ],
-      "intent": "informational",
-      "writer_route": "",
-      "h2_topics": [
-        "Российский закон работает - точка",
-        "Стандартные этапы плюс трансграничный слой",
-        "Иностранный владелец доли в очереди - когда и сколько",
-        "Налог с ликвидационной выплаты и валютный фильтр",
-        "Когда процедура оправдана и четыре типичных промаха",
-        "Частые вопросы о банкротстве ООО с иностранным учредителем",
-        "Читайте также",
-        "ЗАПОЛНИТЬ ФОРМУ"
-      ],
-      "char_count": 9373,
-      "published_at": null,
-      "tags": []
-    },
-    {
-      "slug": "bankrotstvo-medicinskoj-kliniki",
-      "category": "yur",
-      "source": "draft_pending",
-      "url": null,
-      "title": "Банкротство медицинской организации (клиники): процедура",
-      "h1": "Банкротство медицинской организации: особенности процедуры для клиник",
-      "main_keyword": "банкротство медицинской организации",
-      "secondary_keywords": [
-        "банкротство медицинской клиники",
-        "процедура банкротства медицинского учреждения",
-        "права пациентов при банкротстве клиники",
-        "сохранение медицинских документов при банкротстве",
-        "взаимодействие с СМО при банкротстве медклиники",
-        "банкротство частной медицинской организации",
-        "лицензия на медицинскую деятельность при банкротстве",
-        "ликвидация медицинского учреждения",
-        "имущество клиники при банкротстве",
-        "должники медицинской организации"
-      ],
-      "intent": "informational",
-      "writer_route": "",
-      "h2_topics": [
-        "Несостоятельность медорганизации: чем отличается от закрытия",
-        "Порог долга и право обратиться в арбитраж",
-        "Три отраслевые специфики медицинского дела",
-        "Кто получит деньги первым при конкурсной распродаже",
-        "Реструктуризация: когда есть шанс сохранить приём",
-        "Частые вопросы о несостоятельности медучреждений",
-        "Читайте также",
-        "ЗАПОЛНИТЬ ФОРМУ"
-      ],
-      "char_count": 8855,
-      "published_at": null,
-      "tags": []
-    },
-    {
-      "slug": "bankrotstvo-ooo-dolgi-neskolkim-bankam",
-      "category": "yur",
-      "source": "draft_pending",
-      "url": null,
-      "title": "Банкротство ООО при долгах нескольким банкам",
-      "h1": "Банкротство ООО при долгах нескольким банкам: как защитить бизнес",
-      "main_keyword": "банкротство ООО при долгах нескольким банкам",
-      "secondary_keywords": [
-        "банкротство ООО долги кредиторам",
-        "банкротство организации при множественных долгах",
-        "как объявить банкротство ООО с долгами",
-        "очерёдность погашения долгов при банкротстве",
-        "судебное банкротство ООО процесс",
-        "внесудебное банкротство ООО",
-        "банкротство ООО стратегия спасения",
-        "права кредиторов при банкротстве ООО",
-        "реорганизация или банкротство ООО",
-        "процедура банкротства компании"
-      ],
-      "intent": "informational",
-      "writer_route": "",
-      "h2_topics": [
-        "Может ли банк подать на банкротство",
-        "Когда один долг запускает цепную реакцию",
-        "В какую очередь попадают банки и при чём тут залог",
-        "Три варианта сохранить бизнес до торгов",
-        "Личные риски директора",
-        "Частые вопросы о банкротстве ООО с несколькими кредиторами",
-        "Читайте также",
-        "ЗАПОЛНИТЬ ФОРМУ"
-      ],
-      "char_count": 9998,
-      "published_at": null,
-      "tags": []
-    },
-    {
       "slug": "bankrotstvo-strahovoj-kompanii-prava-strahovatelej",
       "category": "yur",
       "source": "draft_pending",
@@ -13974,145 +13777,6 @@
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
       "char_count": 7609,
-      "published_at": null,
-      "tags": []
-    },
-    {
-      "slug": "bankrotstvo-torgovoj-kompanii-prava-postavshchikov",
-      "category": "yur",
-      "source": "draft_pending",
-      "url": null,
-      "title": "Защита прав поставщика при банкротстве компании",
-      "h1": "Банкротство торговой компании: как защитить права поставщика и взыскать задолженность",
-      "main_keyword": "права поставщика при банкротстве торговой компании",
-      "secondary_keywords": [
-        "поставщик при банкротстве компании как защитить права",
-        "возврат товара при банкротстве контрагента",
-        "поставщик кредитор в реестре требований",
-        "взыскание задолженности при банкротстве",
-        "неоплаченный счет перед банкротящейся компанией",
-        "приоритет кредиторов поставщик",
-        "требование в реестр требований при банкротстве",
-        "сроки рассмотрения требований кредиторов"
-      ],
-      "intent": "informational",
-      "writer_route": "",
-      "h2_topics": [
-        "Место в очереди коротко",
-        "Четвёртая ступень и реальный процент",
-        "Как войти в реестр",
-        "Когда партию забирают обратно",
-        "Судебный приказ до открытия дела",
-        "Частые вопросы о правах поставщика при банкротстве",
-        "Читайте также",
-        "ЗАПОЛНИТЬ ФОРМУ"
-      ],
-      "char_count": 8099,
-      "published_at": null,
-      "tags": []
-    },
-    {
-      "slug": "bankrotstvo-torgovoj-seti-prava-arendodatelej",
-      "category": "yur",
-      "source": "draft_pending",
-      "url": null,
-      "title": "Банкротство торговой сети: права арендодателя",
-      "h1": "Банкротство торговой сети: какие права есть у арендодателя торговых площадей",
-      "main_keyword": "права арендодателя при банкротстве торговой сети",
-      "secondary_keywords": [
-        "статус арендного договора при банкротстве",
-        "взыскание арендной задолженности от торговой сети",
-        "очередность требований арендодателя",
-        "расторжение арендного договора при банкротстве",
-        "возмещение убытков арендодателя",
-        "залог при аренде торговых площадей",
-        "обеспечение интересов арендодателя",
-        "реестр требований кредиторов",
-        "ответственность собственника торговой сети"
-      ],
-      "intent": "informational",
-      "writer_route": "",
-      "h2_topics": [
-        "Кем становится арендодатель в деле о несостоятельности",
-        "Пятая очередь и логика распределения денег",
-        "Расторжение аренды управляющим",
-        "Реестр: куда идти и в какой срок",
-        "Залог помещения и пустая конкурсная масса",
-        "Частые вопросы о правах кредитора-владельца торговых площадей",
-        "Читайте также",
-        "ЗАПОЛНИТЬ ФОРМУ"
-      ],
-      "char_count": 9455,
-      "published_at": null,
-      "tags": []
-    },
-    {
-      "slug": "dividendy-pered-bankrotstvom-ooo-osparivanie",
-      "category": "yur",
-      "source": "draft_pending",
-      "url": null,
-      "title": "Дивиденды перед банкротством ООО: оспаривание и защита",
-      "h1": "Дивиденды перед банкротством ООО: риск оспаривания и защита имущества",
-      "main_keyword": "дивиденды перед банкротством ООО оспаривание",
-      "secondary_keywords": [
-        "оспаривание дивидендов при банкротстве",
-        "выплата дивидендов перед банкротством ООО",
-        "недействительность дивидендов банкротство",
-        "сомнительные сделки дивиденды",
-        "ст. 61.2 ФЗ-127 оспаривание",
-        "возврат дивидендов конкурсному управляющему",
-        "сроки оспаривания дивидендов",
-        "защита дивидендов акционеров",
-        "преимущественная выплата кредиторам",
-        "риски выплаты дивидендов перед банкротством"
-      ],
-      "intent": "commercial",
-      "writer_route": "",
-      "h2_topics": [
-        "Могут ли оспорить выплату - коротко",
-        "Два основания и разные сроки",
-        "Удвоение и очерёдность",
-        "Кому из совладельцев риск выше",
-        "Как снизить риск и защититься после иска",
-        "Частые вопросы об оспаривании дивидендов при банкротстве",
-        "Читайте также",
-        "ЗАПОЛНИТЬ ФОРМУ"
-      ],
-      "char_count": 8616,
-      "published_at": null,
-      "tags": []
-    },
-    {
-      "slug": "faktoring-i-bankrotstvo-dolzhnika-prava-faktora",
-      "category": "yur",
-      "source": "draft_pending",
-      "url": null,
-      "title": "Факторинг при банкротстве должника: права фактора",
-      "h1": "Факторинг при банкротстве должника: права и риски фактора",
-      "main_keyword": "факторинг при банкротстве должника",
-      "secondary_keywords": [
-        "права фактора при банкротстве",
-        "факторинг и конкурсная масса",
-        "очередность требований фактора",
-        "факторинговое соглашение банкротство",
-        "защита прав факторинговой компании",
-        "взыскание по факторингу арбитражный суд",
-        "требования фактора кредиторы",
-        "судебная практика факторинг",
-        "финансовый управляющий фактор"
-      ],
-      "intent": "informational",
-      "writer_route": "",
-      "h2_topics": [
-        "Статус фактора после введения процедуры",
-        "Залог против общей очереди",
-        "Подача позиции в реестр",
-        "Четыре рабочих инструмента защиты",
-        "Частые вопросы о факторинге при банкротстве должника",
-        "Читайте также",
-        "ЗАПОЛНИТЬ ФОРМУ"
-      ],
-      "char_count": 7968,
       "published_at": null,
       "tags": []
     },
@@ -14325,42 +13989,6 @@
       "tags": []
     },
     {
-      "slug": "kredity-kompanii-pri-bankrotstve-chto-proishodit",
-      "category": "yur",
-      "source": "draft_pending",
-      "url": null,
-      "title": "Что происходит с кредитами компании при банкротстве",
-      "h1": "Что происходит с кредитами компании при банкротстве: порядок погашения",
-      "main_keyword": "кредиты компании при банкротстве",
-      "secondary_keywords": [
-        "очередность погашения кредитов при банкротстве",
-        "приоритетные кредиты при банкротстве",
-        "погашение долгов компании при банкротстве",
-        "кредиторы при банкротстве компании",
-        "конкурсная масса и кредиты",
-        "реализация имущества при банкротстве",
-        "порядок удовлетворения требований кредиторов",
-        "обеспеченные и необеспеченные кредиты",
-        "арбитражный управляющий и кредиты",
-        "мировое соглашение при кредитах"
-      ],
-      "intent": "informational",
-      "writer_route": "",
-      "h2_topics": [
-        "Погашаются ли все банковские займы",
-        "Кто стоит первым в очереди",
-        "Залог: формула 70 на 20 на 10",
-        "Что уходит на торги",
-        "Три узких места: реестр, поручитель, порог",
-        "Частые вопросы о кредитах компании при банкротстве",
-        "Читайте также",
-        "ЗАПОЛНИТЬ ФОРМУ"
-      ],
-      "char_count": 9385,
-      "published_at": null,
-      "tags": []
-    },
-    {
       "slug": "kriptovalyuta-cifrovye-aktivy-pri-bankrotstve",
       "category": "yur",
       "source": "draft_pending",
@@ -14391,75 +14019,6 @@
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
       "char_count": 8609,
-      "published_at": null,
-      "tags": []
-    },
-    {
-      "slug": "nalogovaya-proverka-i-bankrotstvo-yurlica",
-      "category": "yur",
-      "source": "draft_pending",
-      "url": null,
-      "title": "Налоговая проверка и банкротство юрлица: защита интересов",
-      "h1": "Налоговая проверка при банкротстве компании: риски и защита интересов",
-      "main_keyword": "налоговая проверка при банкротстве компании",
-      "secondary_keywords": [
-        "налоговая проверка банкротство юрлица",
-        "риски налоговой проверки при банкротстве",
-        "задолженность перед ФНС и банкротство",
-        "защита от налоговых претензий при банкротстве",
-        "сроки налоговой проверки в процедуре банкротства",
-        "ответственность учредителя за налоги при банкротстве",
-        "арест счетов и налоговая проверка",
-        "оспаривание налоговых претензий в процедуре банкротства",
-        "налоговые штрафы и банкротство компании"
-      ],
-      "intent": "informational",
-      "writer_route": "",
-      "h2_topics": [
-        "Налоговая задолженность и процедура: что важно знать",
-        "Когда ФНС становится кредитором, а не взыскателем",
-        "Документы должника: кто теперь говорит с инспекцией",
-        "Отвечает ли учредитель личным имуществом за налоги компании",
-        "Как оспорить претензии фискального ведомства в процедуре",
-        "Частые вопросы о налоговой проверке при банкротстве",
-        "Читайте также",
-        "ЗАПОЛНИТЬ ФОРМУ"
-      ],
-      "char_count": 8725,
-      "published_at": null,
-      "tags": []
-    },
-    {
-      "slug": "ogranicheniya-direktora-v-nablyudenii-bankrotstvo",
-      "category": "yur",
-      "source": "draft_pending",
-      "url": null,
-      "title": "Ограничения директора в период наблюдения при банкротстве",
-      "h1": "Ограничения директора при банкротстве: права и запреты в период наблюдения",
-      "main_keyword": "ограничения директора в период наблюдения при банкротстве",
-      "secondary_keywords": [
-        "ограничения директора при банкротстве компании",
-        "что не может делать директор при банкротстве",
-        "права директора в период наблюдения",
-        "директор во время процедуры банкротства",
-        "полномочия директора при банкротстве ООО",
-        "ограничения при внешнем управлении",
-        "директор на этапе наблюдения",
-        "условия для директора в банкротстве"
-      ],
-      "intent": "informational",
-      "writer_route": "",
-      "h2_topics": [
-        "Кто фактически рулит компанией на первой стадии",
-        "Что разрешено без согласований",
-        "Четыре операции только через собрание",
-        "Обязанности перед куратором и снятие с должности",
-        "Личная ответственность за промахи первой стадии",
-        "Частые вопросы о полномочиях руководителя при банкротстве ООО",
-        "Читайте также",
-        "ЗАПОЛНИТЬ ФОРМУ"
-      ],
-      "char_count": 8545,
       "published_at": null,
       "tags": []
     },
@@ -14602,76 +14161,6 @@
       "tags": []
     },
     {
-      "slug": "subsidiarka-pri-likvidacii-ooo-direktora",
-      "category": "yur",
-      "source": "draft_pending",
-      "url": null,
-      "title": "Субсидиарная ответственность директора при ликвидации ООО",
-      "h1": "Субсидиарная ответственность директора при ликвидации ООО: риски и защита",
-      "main_keyword": "субсидиарная ответственность директора при ликвидации ООО",
-      "secondary_keywords": [
-        "субсидиарка при ликвидации компании",
-        "ответственность директора при закрытии ООО",
-        "субсидиарная ответственность учредителя",
-        "когда директор несет субсидиарную ответственность",
-        "защита от субсидиарной ответственности",
-        "риски директора при ликвидации ООО",
-        "субсидиарка директора за долги компании",
-        "когда не наступает субсидиарная ответственность"
-      ],
-      "intent": "informational",
-      "writer_route": "",
-      "h2_topics": [
-        "Когда личное имущество попадает под взыскание",
-        "За какие нарушения привлекают",
-        "Кто попадает под определение КДЛ",
-        "Как доказать добросовестность",
-        "Уголовная статья, арест активов и давность",
-        "Частые вопросы о субсидиарке при ликвидации ООО",
-        "Читайте также",
-        "ЗАПОЛНИТЬ ФОРМУ"
-      ],
-      "char_count": 9686,
-      "published_at": null,
-      "tags": []
-    },
-    {
-      "slug": "sudebnye-dela-kompanii-pri-bankrotstve",
-      "category": "yur",
-      "source": "draft_pending",
-      "url": null,
-      "title": "Судебные дела компании при банкротстве: что происходит",
-      "h1": "Судебные дела компании при банкротстве: все, что нужно знать",
-      "main_keyword": "судебные дела компании при банкротстве",
-      "secondary_keywords": [
-        "судебные споры при банкротстве компании",
-        "текущие судебные разбирательства при банкротстве",
-        "как приостановить судебное дело при банкротстве",
-        "судебные дела конкурсного управляющего",
-        "заявление о приостановлении производства по делу",
-        "ответственность компании перед судом при банкротстве",
-        "взыскание ущерба при банкротстве компании",
-        "судебный приказ при банкротстве",
-        "исковое производство при банкротстве",
-        "апелляция при банкротстве компании"
-      ],
-      "intent": "informational",
-      "writer_route": "",
-      "h2_topics": [
-        "Что происходит с делами, когда открывается процедура несостоятельности",
-        "Приостановление без ходатайств и заявлений",
-        "Иски конкурсного управляющего: за что и на сколько лет назад",
-        "Личный иск против руководителя: когда прилетает субсидиарка",
-        "Кто платит за процедуру и куда идут расходы в ходе дела",
-        "Частые вопросы о претензиях кредиторов и исках управляющего",
-        "Читайте также",
-        "ЗАПОЛНИТЬ ФОРМУ"
-      ],
-      "char_count": 8170,
-      "published_at": null,
-      "tags": []
-    },
-    {
       "slug": "tekushchie-platezhi-bankrotstvo-yurlica",
       "category": "yur",
       "source": "draft_pending",
@@ -14701,42 +14190,6 @@
         "ЗАПОЛНИТЬ ФОРМУ"
       ],
       "char_count": 7436,
-      "published_at": null,
-      "tags": []
-    },
-    {
-      "slug": "vzyskanie-ubytkov-s-konkursnogo-upravlyayushchego",
-      "category": "yur",
-      "source": "draft_pending",
-      "url": null,
-      "title": "Взыскание убытков с конкурсного управляющего: порядок и судебная практика",
-      "h1": "Взыскание убытков с конкурсного управляющего в суде: практика и условия",
-      "main_keyword": "взыскание убытков с конкурсного управляющего",
-      "secondary_keywords": [
-        "иск к конкурсному управляющему",
-        "ответственность конкурсного управляющего",
-        "взыскание убытков с управляющего банкротством",
-        "судебная практика взыскания убытков",
-        "убытки от деятельности управляющего",
-        "исковое производство против управляющего",
-        "размер убытков при банкротстве",
-        "условия ответственности управляющего",
-        "взыскание убытков компанией при банкротстве"
-      ],
-      "intent": "informational",
-      "writer_route": "",
-      "h2_topics": [
-        "Когда суд действительно взыщет",
-        "Промахи под личный риск",
-        "Кто подаёт и куда обращаться",
-        "Четыре условия и доказательная база",
-        "Трёхлетний срок и роль страховки",
-        "Что учесть перед подачей",
-        "Частые вопросы о взыскании убытков с конкурсного управляющего",
-        "Читайте также",
-        "ЗАПОЛНИТЬ ФОРМУ"
-      ],
-      "char_count": 7421,
       "published_at": null,
       "tags": []
     },
