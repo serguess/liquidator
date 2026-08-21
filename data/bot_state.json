@@ -10707,7 +10707,7 @@
     "vyselenie-arendatora-dolzhnika-cherez-sud": {
       "category": "vzysk",
       "title": "Выселение арендатора-должника через суд: пошагово",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -10715,14 +10715,16 @@
       "tg_message_id": 2346,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-08-12T05:41:17",
-      "last_action_at": "2026-08-12T10:00:22",
+      "last_action_at": "2026-08-21T23:29:30",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/vzysk/vyselenie-arendatora-dolzhnika-cherez-sud",
       "pending_batch": false,
       "pending_batch_at": "2026-08-12T05:41:17",
       "batch_sent_at": "2026-08-12T10:00:22",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-08-21T23:29:30",
+      "articles_path": "articles/vzysk/vyselenie-arendatora-dolzhnika-cherez-sud.html"
     },
     "dosudebnaya-sanaciya-253-fz-kak-spasti-biznes": {
       "category": "news",
