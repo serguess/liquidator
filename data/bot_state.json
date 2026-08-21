@@ -10993,7 +10993,7 @@
     "bankrotstvo-ooo-dolgi-neskolkim-bankam": {
       "category": "yur",
       "title": "Банкротство ООО при долгах нескольким банкам",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -11001,14 +11001,16 @@
       "tg_message_id": 2372,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-08-14T15:28:20",
-      "last_action_at": "2026-08-16T10:00:23",
+      "last_action_at": "2026-08-21T23:36:51",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/yur/bankrotstvo-ooo-dolgi-neskolkim-bankam",
       "pending_batch": false,
       "pending_batch_at": "2026-08-14T15:28:20",
       "batch_fail_count": 0,
-      "batch_sent_at": "2026-08-16T10:00:23"
+      "batch_sent_at": "2026-08-16T10:00:23",
+      "published_at": "2026-08-21T23:36:51",
+      "articles_path": "articles/yur/bankrotstvo-ooo-dolgi-neskolkim-bankam.html"
     },
     "vzyskanie-po-podryadu-bez-podpisannogo-akta": {
       "category": "vzysk",
