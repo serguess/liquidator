@@ -11499,7 +11499,7 @@
     "vs-rf-bankrotstvo-droppera-procenty-postradavshim": {
       "category": "news",
       "title": "Мошенник-банкрот: жертва получит проценты. Практика ВС",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -11507,14 +11507,16 @@
       "tg_message_id": 2418,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-08-21T08:46:12",
-      "last_action_at": "2026-08-21T10:00:19",
+      "last_action_at": "2026-08-21T23:42:42",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/news/vs-rf-bankrotstvo-droppera-procenty-postradavshim",
       "pending_batch": false,
       "pending_batch_at": "2026-08-21T08:46:12",
       "batch_sent_at": "2026-08-21T10:00:19",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-08-21T23:42:42",
+      "articles_path": "articles/news/vs-rf-bankrotstvo-droppera-procenty-postradavshim.html"
     },
     "nbki-otkazy-po-kreditam-77-procentov-iyul": {
       "category": "news",
