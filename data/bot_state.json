@@ -10179,7 +10179,7 @@
     "vzyskanie-ubytkov-s-konkursnogo-upravlyayushchego": {
       "category": "yur",
       "title": "Взыскание убытков с конкурсного управляющего: порядок и судебная практика",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -10187,14 +10187,16 @@
       "tg_message_id": 2298,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-08-04T05:55:17",
-      "last_action_at": "2026-08-04T10:00:19",
+      "last_action_at": "2026-08-21T23:13:59",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/yur/vzyskanie-ubytkov-s-konkursnogo-upravlyayushchego",
       "pending_batch": false,
       "pending_batch_at": "2026-08-04T05:55:17",
       "batch_sent_at": "2026-08-04T10:00:19",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-08-21T23:13:59",
+      "articles_path": "articles/yur/vzyskanie-ubytkov-s-konkursnogo-upravlyayushchego.html"
     },
     "nbki-prosrochka-ipoteka-rost-vtoroy-kvartal": {
       "category": "news",
