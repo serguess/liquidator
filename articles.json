@@ -2,6 +2,19 @@
   "generated": "2026-08-21",
   "articles": [
     {
+      "slug": "porog-aresta-imushchestva-10000-sovfed",
+      "cat": "news",
+      "catLabel": "Новости",
+      "title": "Порог ареста имущества повышен до 10 000 рублей",
+      "desc": "Совфед поддержал запрет на арест имущества должников при долге менее 10 000 рублей. Что это означает для должника и кредитора.",
+      "date": "21 августа 2026",
+      "dateIso": "2026-08-21",
+      "read": "5 мин.",
+      "tone": "b",
+      "img": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1786070503/articles/porog-aresta-imushchestva-10000-sovfed-cover.jpg",
+      "url": "articles/news/porog-aresta-imushchestva-10000-sovfed"
+    },
+    {
       "slug": "vzyskanie-dolga-s-marketplejsa",
       "cat": "vzysk",
       "catLabel": "Взыскание задолженности",
