@@ -10949,7 +10949,7 @@
     "cb-mpl-chetvertyj-kvartal-ogranicheniya": {
       "category": "news",
       "title": "МПЛ ЦБ: новые ограничения на ипотеку и их последствия",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -10957,14 +10957,16 @@
       "tg_message_id": 2368,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-08-14T05:36:14",
-      "last_action_at": "2026-08-14T10:00:22",
+      "last_action_at": "2026-08-21T23:35:56",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/news/cb-mpl-chetvertyj-kvartal-ogranicheniya",
       "pending_batch": false,
       "pending_batch_at": "2026-08-14T05:36:14",
       "batch_sent_at": "2026-08-14T10:00:22",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-08-21T23:35:56",
+      "articles_path": "articles/news/cb-mpl-chetvertyj-kvartal-ogranicheniya.html"
     },
     "bank-bankrot-chto-budet-s-kreditom-zaemshchika": {
       "category": "fiz",
