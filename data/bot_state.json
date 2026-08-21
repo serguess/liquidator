@@ -10817,7 +10817,7 @@
     "krizisnyj-upravlyayushchij-253-fz-bankrotstvo": {
       "category": "news",
       "title": "Кризисный управляющий при банкротстве: роль и функции",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -10825,14 +10825,16 @@
       "tg_message_id": 2356,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-08-13T01:03:29",
-      "last_action_at": "2026-08-13T10:00:15",
+      "last_action_at": "2026-08-21T23:31:01",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/news/krizisnyj-upravlyayushchij-253-fz-bankrotstvo",
       "pending_batch": false,
       "pending_batch_at": "2026-08-13T01:03:29",
       "batch_sent_at": "2026-08-13T10:00:15",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-08-21T23:31:01",
+      "articles_path": "articles/news/krizisnyj-upravlyayushchij-253-fz-bankrotstvo.html"
     },
     "reforma-bankrotstva-253-fz-izmeneniya-dlya-kreditorov": {
       "category": "news",
