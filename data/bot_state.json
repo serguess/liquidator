@@ -11279,7 +11279,7 @@
     "vs-rf-torgoplivost-dolzhnika-otkaz-v-spisanii": {
       "category": "news",
       "title": "ВС РФ: поспешность при банкротстве лишает права на списание",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -11287,14 +11287,16 @@
       "tg_message_id": 2398,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-08-19T08:58:28",
-      "last_action_at": "2026-08-19T10:00:35",
+      "last_action_at": "2026-08-21T23:40:55",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/news/vs-rf-torgoplivost-dolzhnika-otkaz-v-spisanii",
       "pending_batch": false,
       "pending_batch_at": "2026-08-19T08:58:28",
       "batch_sent_at": "2026-08-19T10:00:35",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-08-21T23:40:55",
+      "articles_path": "articles/news/vs-rf-torgoplivost-dolzhnika-otkaz-v-spisanii.html"
     },
     "fns-taktika-kreditora-bankrotstvo-pozicii": {
       "category": "news",
