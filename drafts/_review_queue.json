@@ -6115,6 +6115,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "mirovoe-soglashenie-ipoteka-bankrotstvo-fizlica",
+      "category": "fiz",
+      "title": "Мировое соглашение по ипотеке: как договориться с банком",
+      "added_at": "2026-08-21T15:27:18.939852",
+      "char_count": 8145,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1787315232/articles/mirovoe-soglashenie-ipoteka-bankrotstvo-fizlica-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

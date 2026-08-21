@@ -1,0 +1,102 @@
+{
+  "slug": "mirovoe-soglashenie-ipoteka-bankrotstvo-fizlica",
+  "category": "fiz",
+  "title": "Мировое соглашение по ипотеке: как договориться с банком",
+  "description": "Как физлицу договориться с банком по ипотеке: условия мирового соглашения, преимущества перед банкротством, пошагово как оформить переговоры и реструктуризацию.",
+  "h1": "Мировое соглашение с банком по ипотеке: как спасти жильё без банкротства",
+  "lead": "Разбираем, как договориться с банком по ипотеке через мировое соглашение: условия, которые согласится предложить кредитор, как вести переговоры и почему это может быть лучше, чем банкротство.",
+  "topic_action": "переговоры с банком по ипотеке",
+  "breadcrumb_current": "Мировое соглашение по ипотеке",
+  "og_image": "/assets/articles/mirovoe-soglashenie-ipoteka-bankrotstvo-fizlica.jpg",
+  "main_keyword": "мировое соглашение с банком по ипотеке",
+  "secondary_keywords": [
+    "мировое соглашение физлица с банком",
+    "как договориться с банком об ипотеке",
+    "реструктуризация ипотечного кредита",
+    "условия мирового соглашения по ипотеке",
+    "сохранить квартиру при банкротстве физлица",
+    "переоформление ипотеки без продажи жилья",
+    "альтернатива банкротству при долгах по ипотеке",
+    "помощь при неплатежах по ипотеке",
+    "рефинансирование ипотеки вместо банкротства",
+    "договор о пересмотре условий ипотеки"
+  ],
+  "internal_links": [
+    "/articles/fiz/vnesudebnoe-bankrotstvo-cherez-mfc",
+    "/articles/fiz/bankrotstvo-fizicheskogo-lica",
+    "/articles/fiz/skolko-stoit-bankrotstvo-fizicheskogo-lica"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_5142/",
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/"
+  ],
+  "faq": [
+    {
+      "question": "Может ли залогодержатель отказать без объяснения причин?",
+      "answer": "Да. Договор о новых условиях - добровольный. Закон не обязывает кредитора мотивировать отказ или вообще отвечать на претензию заёмщика."
+    },
+    {
+      "question": "Обязательно ли удостоверять договор об изменении ипотеки у нотариуса?",
+      "answer": "Нет. Достаточно простой письменной формы дополнительного соглашения. Нотариат по желанию сторон - усиливает исполнимость, но необязателен."
+    },
+    {
+      "question": "Что происходит с кредитной историей после оформления рассрочки?",
+      "answer": "Запись о просрочках остаётся. Обязательство отражается как урегулированное или исполняемое по новому графику. Полностью очистить историю переговорной договорённостью нельзя."
+    },
+    {
+      "question": "Чем это отличается от реструктуризации в процедуре несостоятельности?",
+      "answer": "Разные механизмы. Судебная реструктуризация требует дохода, отсутствия судимостей и процедуры за последние восемь лет. Переговорная договорённость таких фильтров не имеет и заключается до суда."
+    },
+    {
+      "question": "Нужно ли регистрировать изменённые условия в Росреестре?",
+      "answer": "Само дополнительное соглашение регистрировать не требуется. Но если меняется предмет залога, срок или сумма основного обязательства - изменения в закладную вносятся в реестр. Уточняется по конкретному случаю."
+    },
+    {
+      "question": "Сколько занимают переговоры о пересмотре условий ипотечного кредита?",
+      "answer": "По практике - от 3 до 6 месяцев с момента претензии до подписания документа. Ответ на первое обращение обычно приходит в течение 14-30 дней."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все ключевые факты сверены с research.json. Статусы: active, last_verified: 2026-08-21 (в пределах 6 месяцев).",
+    "Нормы: ст. 39, 173 ГПК РФ (мировое соглашение), ст. 162, 435 ГК РФ (письменная форма), ст. 150 127-ФЗ (мировое соглашение в банкротстве), ст. 213.13 127-ФЗ (реструктуризация), ст. 446 ГПК РФ, ст. 213.25 127-ФЗ (единственное жилье), ст. 177 ГПК РФ (исполнение соглашения), Постановление КС РФ № 15-П от 26.04.2021 - все актуальны.",
+    "Упомянутые условия (рассрочка, снижение ставки, прощение пеней, сроки 3-6 месяцев) соответствуют safe_phrasing из research.json.",
+    "Запрещённые утверждения (forbidden_claims) избегнуты: не сказано, что банк всегда согласится; не утверждается, что долг удалится из истории; корректно отличено от реструктуризации при банкротстве."
+  ],
+  "keyword_density_main": 0.019,
+  "main_keyword_exact_count": 2,
+  "text_chars": 8145,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.098,
+  "local_spam_ngram3_repeat": 0.005,
+  "local_lexical_diversity": 0.645,
+  "local_ai_markers_density": 0.4,
+  "local_ai_markers_critical": 0,
+  "quality_gate_passed": true,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1787315232/articles/mirovoe-soglashenie-ipoteka-bankrotstvo-fizlica-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1787315232/articles/mirovoe-soglashenie-ipoteka-bankrotstvo-fizlica-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Wide symmetric photograph down a long official corridor with marble floor and brass sconces, paneled walls with soft diffused light. Center of frame: a small wooden negotiation table holding a closed dark leather portfolio with documents, a polished fountain pen, two white porcelain coffee cups on saucers positioned on opposite sides symbolizing the bank and borrower, a polished brass round company seal, and a closed notebook. Camera: dead-center symmetric, eye-level. Lighting: cool natural daylight from above, warm even ambient from brass sconces. Palette: cool whites, polished marble, subtle brass and leather accents. Mood: ceremonial resolution, moment of agreement, settlement achieved.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-08-21T12:27:13Z",
+  "length_status": "too_long",
+  "length_kind": "default",
+  "local_ai_markers_total": 4,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 2,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 49,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "длина значительно больше лимита 6500 (8 145 знаков)"
+  ],
+  "date_published": "2026-08-21",
+  "date_modified": "2026-08-21",
+  "ready_for_review": true,
+  "ready_at": "2026-08-21T12:27:18Z",
+  "publication_target": "telegram_review"
+}
