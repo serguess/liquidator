@@ -37432,5 +37432,101 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-08-21T08:46:07",
+    "category": "news",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 14,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "news-158",
+    "topic_slug": "nbki-otkazy-po-kreditam-77-procentov-iyul",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "forced_pass_at_iter2: блокеры пропущены, статья идёт в TG-очередь с metrics_warning=true. Было: 1 блокеров — broken_internal_links"
+      ],
+      "recommendations": [
+        "fix_internal_links: заменить href на канонический /articles/{cat}/{slug} из published_index.json (см. .claude/style/editor-cheatsheet.md секция 6)"
+      ],
+      "stderr_tail": ""
+    },
+    "finalize_safety_net": {
+      "ran": true,
+      "rc": 0
+    },
+    "status": "ok",
+    "slug": "nbki-otkazy-po-kreditam-77-procentov-iyul",
+    "duration_sec": 1067.3,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "0    122578\n6-seo-editor        sonnet            6      14    58522     28278     58542\n7-publisher         haiku            20       8    36312     39548     36340\n------------------------------------------------------------------------------------------\nИТОГО                               254      83   446502    723743    446839\nBillable-токенов на статью: ~446K (cache_read 723K не считается в лимит подписки).\nАртефакты: drafts/nbki-otkazy-po-kreditam-77-procentov-iyul/  | quality_gate exit=0",
+    "stderr_tail": "",
+    "tokens_by_model": {},
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 5221
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
+  },
+  {
+    "timestamp": "2026-08-21T10:00:06",
+    "category": "fiz",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 15,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "fiz-191",
+    "topic_slug": "bankrotstvo-pri-sudimosti-ugolovnyj-shtraf",
+    "status": "failed",
+    "slug": "bankrotstvo-pri-sudimosti-ugolovnyj-shtraf",
+    "duration_sec": 413.6,
+    "returncode": 1,
+    "rescued_after_failure": false,
+    "stdout_tail": "=== 1-semantics (claude haiku) ===\n   ok: 1586 симв., usage in=20 out=8 cache_w=27542 cache_r=39548 billable=27570 ток, 24.2с\n=== 2-legal-research (claude haiku) ===\n   ok: 16021 симв., usage in=86 out=20 cache_w=126672 cache_r=485283 billable=126778 ток, 83.0с\n   ok: 17775 симв., billable=97470 ток (model=sonnet)\n   [outline_validate] exit=1\n=== 4-writer (claude opus) ===",
+    "stderr_tail": "[ERR] rate_limit: put_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard\",\"cache_creation\":{\"ephemeral_1h_input_tokens\":0,\"ephemeral_5m_input_tokens\":0},\"inference_geo\":\"\",\"iterations\":[],\"speed\":\"standard\"},\"modelUsage\":{},\"permission_denials\":[],\"terminal_reason\":\"completed\",\"fast_mode_state\":\"off\",\"uuid\":\"62d3f9a4-b708-430e-b310-c88ae4107956\"}\n\n",
+    "tokens_by_model": {},
+    "metrics": null
   }
 ]

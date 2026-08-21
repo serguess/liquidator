@@ -11202,15 +11202,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 2400,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-08-19T09:15:28",
-      "last_action_at": "2026-08-19T09:15:28",
+      "last_action_at": "2026-08-20T10:00:25",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-08-19T09:15:28"
+      "pending_batch": false,
+      "pending_batch_at": "2026-08-19T09:15:28",
+      "batch_sent_at": "2026-08-20T10:00:25",
+      "batch_fail_count": 0
     },
     "bankrotstvo-dolgi-strahovye-vznosy-sfr": {
       "category": "fiz",
@@ -11220,15 +11222,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 2402,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-08-19T15:08:33",
-      "last_action_at": "2026-08-19T15:08:33",
+      "last_action_at": "2026-08-20T10:00:27",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-08-19T15:08:33"
+      "pending_batch": false,
+      "pending_batch_at": "2026-08-19T15:08:33",
+      "batch_sent_at": "2026-08-20T10:00:27",
+      "batch_fail_count": 0
     },
     "bankrotstvo-torgovoj-seti-prava-arendodatelej": {
       "category": "yur",
@@ -11238,15 +11242,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 2404,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-08-20T01:03:40",
-      "last_action_at": "2026-08-20T01:03:40",
+      "last_action_at": "2026-08-20T10:00:29",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-08-20T01:03:40"
+      "pending_batch": false,
+      "pending_batch_at": "2026-08-20T01:03:40",
+      "batch_sent_at": "2026-08-20T10:00:29",
+      "batch_fail_count": 0
     },
     "narushenie-mirovogo-soglasheniya-ispolnitelnyj-list": {
       "category": "vzysk",
@@ -11256,15 +11262,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 2406,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-08-20T05:31:25",
-      "last_action_at": "2026-08-20T05:31:25",
+      "last_action_at": "2026-08-20T10:00:31",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-08-20T05:31:25"
+      "pending_batch": false,
+      "pending_batch_at": "2026-08-20T05:31:25",
+      "batch_sent_at": "2026-08-20T10:00:31",
+      "batch_fail_count": 0
     },
     "antikrizisnyj-upravlyayushchij-reestr-253-fz": {
       "category": "news",
@@ -11274,19 +11282,139 @@
       "versions": [
         "2.0"
       ],
+      "tg_message_id": 2408,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-08-20T09:08:28",
+      "last_action_at": "2026-08-20T10:00:33",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-08-20T09:08:28",
+      "batch_sent_at": "2026-08-20T10:00:33",
+      "batch_fail_count": 0
+    },
+    "bankrotstvo-pri-neskolkikh-ispolnitelnykh-listakh": {
+      "category": "fiz",
+      "title": "Банкротство при множестве исполнительных листов: решение",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 2410,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-08-20T15:07:32",
+      "last_action_at": "2026-08-21T10:00:10",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-08-20T15:07:32",
+      "batch_sent_at": "2026-08-21T10:00:09",
+      "batch_fail_count": 0
+    },
+    "bankrotstvo-medicinskoj-kliniki": {
+      "category": "yur",
+      "title": "Банкротство медицинской организации (клиники): процедура",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 2412,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-08-20T20:21:35",
+      "last_action_at": "2026-08-21T10:00:12",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-08-20T20:21:35",
+      "batch_sent_at": "2026-08-21T10:00:12",
+      "batch_fail_count": 0
+    },
+    "pristavy-spisali-pensiyu-chto-delat": {
+      "category": "vzysk",
+      "title": "Приставы списали пенсию: как вернуть деньги",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 2414,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-08-21T00:52:39",
+      "last_action_at": "2026-08-21T10:00:14",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-08-21T00:52:39",
+      "batch_sent_at": "2026-08-21T10:00:14",
+      "batch_fail_count": 0
+    },
+    "253-fz-perehodnye-polozheniya-dela-bankrotstvo": {
+      "category": "news",
+      "title": "ФЗ-253 переходные положения банкротства",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 2416,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-08-21T05:19:10",
+      "last_action_at": "2026-08-21T10:00:16",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-08-21T05:19:10",
+      "batch_sent_at": "2026-08-21T10:00:16",
+      "batch_fail_count": 0
+    },
+    "vs-rf-bankrotstvo-droppera-procenty-postradavshim": {
+      "category": "news",
+      "title": "Мошенник-банкрот: жертва получит проценты. Практика ВС",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 2418,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-08-21T08:46:12",
+      "last_action_at": "2026-08-21T10:00:19",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-08-21T08:46:12",
+      "batch_sent_at": "2026-08-21T10:00:19",
+      "batch_fail_count": 0
+    },
+    "nbki-otkazy-po-kreditam-77-procentov-iyul": {
+      "category": "news",
+      "title": "Отказы по кредитам: 77% по данным НБКИ",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
       "tg_message_id": null,
       "tg_chat_id": null,
-      "first_seen_at": "2026-08-20T09:08:28",
-      "last_action_at": "2026-08-20T09:08:28",
+      "first_seen_at": "2026-08-21T09:04:12",
+      "last_action_at": "2026-08-21T09:04:12",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
       "pending_batch": true,
-      "pending_batch_at": "2026-08-20T09:08:28"
+      "pending_batch_at": "2026-08-21T09:04:12"
     }
   },
   "pending_actions": [],
-  "last_batch_date": "2026-08-19",
+  "last_batch_date": "2026-08-21",
   "last_batch_count": 5,
-  "last_batch_at": "2026-08-19T10:00:35"
+  "last_batch_at": "2026-08-21T10:00:19"
 }
