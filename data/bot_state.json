@@ -10773,7 +10773,7 @@
     "nalogovaya-proverka-i-bankrotstvo-yurlica": {
       "category": "yur",
       "title": "Налоговая проверка и банкротство юрлица: защита интересов",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -10781,14 +10781,16 @@
       "tg_message_id": 2352,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-08-12T15:26:23",
-      "last_action_at": "2026-08-13T10:00:11",
+      "last_action_at": "2026-08-21T23:30:39",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/yur/nalogovaya-proverka-i-bankrotstvo-yurlica",
       "pending_batch": false,
       "pending_batch_at": "2026-08-12T15:26:23",
       "batch_sent_at": "2026-08-13T10:00:11",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-08-21T23:30:39",
+      "articles_path": "articles/yur/nalogovaya-proverka-i-bankrotstvo-yurlica.html"
     },
     "kreditnye-kanikuly-prava-dolzhnika": {
       "category": "vzysk",
