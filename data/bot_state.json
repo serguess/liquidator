@@ -11301,7 +11301,7 @@
     "fns-taktika-kreditora-bankrotstvo-pozicii": {
       "category": "news",
       "title": "ФНС кредитор в банкротстве: практика Верховного суда",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -11309,14 +11309,16 @@
       "tg_message_id": 2400,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-08-19T09:15:28",
-      "last_action_at": "2026-08-20T10:00:25",
+      "last_action_at": "2026-08-21T23:41:00",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/news/fns-taktika-kreditora-bankrotstvo-pozicii",
       "pending_batch": false,
       "pending_batch_at": "2026-08-19T09:15:28",
       "batch_sent_at": "2026-08-20T10:00:25",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-08-21T23:41:00",
+      "articles_path": "articles/news/fns-taktika-kreditora-bankrotstvo-pozicii.html"
     },
     "bankrotstvo-dolgi-strahovye-vznosy-sfr": {
       "category": "fiz",
