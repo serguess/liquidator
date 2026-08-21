@@ -10729,7 +10729,7 @@
     "dosudebnaya-sanaciya-253-fz-kak-spasti-biznes": {
       "category": "news",
       "title": "ФЗ-253: досудебная санация компании - инструкция",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -10737,14 +10737,16 @@
       "tg_message_id": 2348,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-08-12T08:37:19",
-      "last_action_at": "2026-08-12T10:00:24",
+      "last_action_at": "2026-08-21T23:29:50",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/news/dosudebnaya-sanaciya-253-fz-kak-spasti-biznes",
       "pending_batch": false,
       "pending_batch_at": "2026-08-12T08:37:19",
       "batch_sent_at": "2026-08-12T10:00:24",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-08-21T23:29:50",
+      "articles_path": "articles/news/dosudebnaya-sanaciya-253-fz-kak-spasti-biznes.html"
     },
     "uvolili-vo-vremya-bankrotstva-fizlica": {
       "category": "fiz",
