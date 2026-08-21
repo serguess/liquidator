@@ -11037,7 +11037,7 @@
     "nbki-kreditnye-karty-snizhenie-vydach-statistika": {
       "category": "news",
       "title": "Выдача кредитных карт падает: статистика НБКИ",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -11045,14 +11045,16 @@
       "tg_message_id": 2376,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-08-15T00:40:26",
-      "last_action_at": "2026-08-16T10:00:27",
+      "last_action_at": "2026-08-21T23:36:57",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/news/nbki-kreditnye-karty-snizhenie-vydach-statistika",
       "pending_batch": false,
       "pending_batch_at": "2026-08-15T00:40:26",
       "batch_fail_count": 0,
-      "batch_sent_at": "2026-08-16T10:00:27"
+      "batch_sent_at": "2026-08-16T10:00:27",
+      "published_at": "2026-08-21T23:36:57",
+      "articles_path": "articles/news/nbki-kreditnye-karty-snizhenie-vydach-statistika.html"
     },
     "fssp-alimenty-vzyskanie-statistika-polugodie": {
       "category": "news",
