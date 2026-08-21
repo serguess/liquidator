@@ -10245,7 +10245,7 @@
     "bankrotstvo-torgovoj-kompanii-prava-postavshchikov": {
       "category": "yur",
       "title": "Защита прав поставщика при банкротстве компании",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -10253,14 +10253,16 @@
       "tg_message_id": 2304,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-08-04T19:57:26",
-      "last_action_at": "2026-08-05T10:00:08",
+      "last_action_at": "2026-08-21T23:15:47",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/yur/bankrotstvo-torgovoj-kompanii-prava-postavshchikov",
       "pending_batch": false,
       "pending_batch_at": "2026-08-04T19:57:26",
       "batch_sent_at": "2026-08-05T10:00:08",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-08-21T23:15:47",
+      "articles_path": "articles/yur/bankrotstvo-torgovoj-kompanii-prava-postavshchikov.html"
     },
     "mfo-podala-v-sud-chto-delat": {
       "category": "vzysk",
