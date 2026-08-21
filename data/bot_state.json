@@ -10399,7 +10399,7 @@
     "bankrotstvo-fizlica-nuzno-li-uvedomit-rabotodatelya": {
       "category": "fiz",
       "title": "Банкротство и работа: обязаны ли уведомить работодателя",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -10407,14 +10407,16 @@
       "tg_message_id": 2318,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-08-06T15:11:30",
-      "last_action_at": "2026-08-07T10:00:05",
+      "last_action_at": "2026-08-21T23:19:12",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/fiz/bankrotstvo-fizlica-nuzno-li-uvedomit-rabotodatelya",
       "pending_batch": false,
       "pending_batch_at": "2026-08-06T15:11:30",
       "batch_sent_at": "2026-08-07T10:00:05",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-08-21T23:19:12",
+      "articles_path": "articles/fiz/bankrotstvo-fizlica-nuzno-li-uvedomit-rabotodatelya.html"
     },
     "kredity-kompanii-pri-bankrotstve-chto-proishodit": {
       "category": "yur",
