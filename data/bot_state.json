@@ -11103,7 +11103,7 @@
     "ogranicheniya-direktora-v-nablyudenii-bankrotstvo": {
       "category": "yur",
       "title": "Ограничения директора в период наблюдения при банкротстве",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -11111,14 +11111,16 @@
       "tg_message_id": 2382,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-08-16T05:31:21",
-      "last_action_at": "2026-08-17T10:00:13",
+      "last_action_at": "2026-08-21T23:37:09",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/yur/ogranicheniya-direktora-v-nablyudenii-bankrotstvo",
       "pending_batch": false,
       "pending_batch_at": "2026-08-16T05:31:21",
       "batch_sent_at": "2026-08-17T10:00:13",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-08-21T23:37:09",
+      "articles_path": "articles/yur/ogranicheniya-direktora-v-nablyudenii-bankrotstvo.html"
     },
     "bank-otkazal-v-restrukturizacii-chto-delat-bankrotstvo": {
       "category": "fiz",
