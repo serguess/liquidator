@@ -10311,7 +10311,7 @@
     "investor-zastrojshchika-bez-dogovora-bankrotstvo": {
       "category": "news",
       "title": "Защита инвесторов без договора при банкротстве",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -10319,14 +10319,16 @@
       "tg_message_id": 2310,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-08-05T09:11:08",
-      "last_action_at": "2026-08-05T10:00:14",
+      "last_action_at": "2026-08-21T23:17:21",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/news/investor-zastrojshchika-bez-dogovora-bankrotstvo",
       "pending_batch": false,
       "pending_batch_at": "2026-08-05T09:11:08",
       "batch_sent_at": "2026-08-05T10:00:14",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-08-21T23:17:21",
+      "articles_path": "articles/news/investor-zastrojshchika-bez-dogovora-bankrotstvo.html"
     },
     "nalog-pri-spisanii-dolga-bankrotstvo-fizlica": {
       "category": "fiz",
