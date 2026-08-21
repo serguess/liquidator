@@ -11323,7 +11323,7 @@
     "bankrotstvo-dolgi-strahovye-vznosy-sfr": {
       "category": "fiz",
       "title": "Долги по страховым взносам СФР: банкротство и списание",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -11331,14 +11331,16 @@
       "tg_message_id": 2402,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-08-19T15:08:33",
-      "last_action_at": "2026-08-20T10:00:27",
+      "last_action_at": "2026-08-21T23:41:03",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/fiz/bankrotstvo-dolgi-strahovye-vznosy-sfr",
       "pending_batch": false,
       "pending_batch_at": "2026-08-19T15:08:33",
       "batch_sent_at": "2026-08-20T10:00:27",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-08-21T23:41:03",
+      "articles_path": "articles/fiz/bankrotstvo-dolgi-strahovye-vznosy-sfr.html"
     },
     "bankrotstvo-torgovoj-seti-prava-arendodatelej": {
       "category": "yur",
