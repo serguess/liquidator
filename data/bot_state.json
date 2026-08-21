@@ -10157,7 +10157,7 @@
     "poluchenie-alimentov-s-bankrota": {
       "category": "fiz",
       "title": "Алименты с банкрота при банкротстве физического лица",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -10165,14 +10165,16 @@
       "tg_message_id": 2296,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-08-04T01:09:36",
-      "last_action_at": "2026-08-04T10:00:16",
+      "last_action_at": "2026-08-21T23:13:31",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/fiz/poluchenie-alimentov-s-bankrota",
       "pending_batch": false,
       "pending_batch_at": "2026-08-04T01:09:36",
       "batch_sent_at": "2026-08-04T10:00:16",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-08-21T23:13:31",
+      "articles_path": "articles/fiz/poluchenie-alimentov-s-bankrota.html"
     },
     "vzyskanie-ubytkov-s-konkursnogo-upravlyayushchego": {
       "category": "yur",
@@ -11411,6 +11413,24 @@
       "published_url": null,
       "pending_batch": true,
       "pending_batch_at": "2026-08-21T09:04:12"
+    },
+    "mirovoe-soglashenie-ipoteka-bankrotstvo-fizlica": {
+      "category": "fiz",
+      "title": "Мировое соглашение по ипотеке: как договориться с банком",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-08-21T15:28:16",
+      "last_action_at": "2026-08-21T15:28:16",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-08-21T15:28:16"
     }
   },
   "pending_actions": [],
