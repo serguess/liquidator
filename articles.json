@@ -2,6 +2,19 @@
   "generated": "2026-08-21",
   "articles": [
     {
+      "slug": "bank-bankrot-chto-budet-s-kreditom-zaemshchika",
+      "cat": "fiz",
+      "catLabel": "Банкротство физических лиц",
+      "title": "Что будет с кредитом, если банк обанкротился",
+      "desc": "Рассказываем, как защищены заёмщики при банкротстве банка, какие права они имеют, как работает система гарантий и что делать, если банк ликвидирован.",
+      "date": "21 августа 2026",
+      "dateIso": "2026-08-21",
+      "read": "5 мин.",
+      "tone": "b",
+      "img": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1786692539/articles/bank-bankrot-chto-budet-s-kreditom-zaemshchika-cover.jpg",
+      "url": "articles/fiz/bank-bankrot-chto-budet-s-kreditom-zaemshchika"
+    },
+    {
       "slug": "cb-mpl-chetvertyj-kvartal-ogranicheniya",
       "cat": "news",
       "catLabel": "Новости",

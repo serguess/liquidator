@@ -10971,7 +10971,7 @@
     "bank-bankrot-chto-budet-s-kreditom-zaemshchika": {
       "category": "fiz",
       "title": "Что будет с кредитом, если банк обанкротился",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -10979,14 +10979,16 @@
       "tg_message_id": 2370,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-08-14T10:29:17",
-      "last_action_at": "2026-08-16T10:00:21",
+      "last_action_at": "2026-08-21T23:36:47",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/fiz/bank-bankrot-chto-budet-s-kreditom-zaemshchika",
       "pending_batch": false,
       "pending_batch_at": "2026-08-14T10:29:17",
       "batch_fail_count": 0,
-      "batch_sent_at": "2026-08-16T10:00:21"
+      "batch_sent_at": "2026-08-16T10:00:21",
+      "published_at": "2026-08-21T23:36:47",
+      "articles_path": "articles/fiz/bank-bankrot-chto-budet-s-kreditom-zaemshchika.html"
     },
     "bankrotstvo-ooo-dolgi-neskolkim-bankam": {
       "category": "yur",
