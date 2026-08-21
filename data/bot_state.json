@@ -11169,7 +11169,7 @@
     "cb-rezyume-iyulskogo-zasedaniya-stavka": {
       "category": "news",
       "title": "Резюме июльского заседания ЦБ и аргументы за снижение",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -11177,14 +11177,16 @@
       "tg_message_id": 2388,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-08-18T08:49:11",
-      "last_action_at": "2026-08-18T10:00:11",
+      "last_action_at": "2026-08-21T23:37:18",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/news/cb-rezyume-iyulskogo-zasedaniya-stavka",
       "pending_batch": false,
       "pending_batch_at": "2026-08-18T08:49:11",
       "batch_sent_at": "2026-08-18T10:00:11",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-08-21T23:37:18",
+      "articles_path": "articles/news/cb-rezyume-iyulskogo-zasedaniya-stavka.html"
     },
     "proverka-dolzhnika-na-bankrotstvo-efrsb": {
       "category": "fiz",
