@@ -6089,6 +6089,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "vs-rf-bankrotstvo-droppera-procenty-postradavshim",
+      "category": "news",
+      "title": "Мошенник-банкрот: жертва получит проценты. Практика ВС",
+      "added_at": "2026-08-21T08:46:05.172063",
+      "char_count": 5466,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1787291162/articles/vs-rf-bankrotstvo-droppera-procenty-postradavshim-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

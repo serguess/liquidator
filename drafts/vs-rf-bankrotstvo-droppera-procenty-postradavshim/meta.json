@@ -1,0 +1,104 @@
+{
+  "slug": "vs-rf-bankrotstvo-droppera-procenty-postradavshim",
+  "category": "news",
+  "title": "Мошенник-банкрот: жертва получит проценты. Практика ВС",
+  "description": "Верховный суд разъяснил: если мошенник признан банкротом, жертва может получить не только основную сумму долга, но и проценты за пользование её деньгами.",
+  "h1": "Банкротство мошенника не лишает жертву процентов: разъяснение Верховного суда",
+  "lead": "С 13 августа 2026 года Верховный суд закрыл вопрос: банкротство должника-мошенника не лишает жертву права на проценты за пользование её деньгами.",
+  "topic_action": "защиту ваших прав как жертвы мошенника при банкротстве",
+  "breadcrumb_current": "Банкротство мошенника: проценты жертве",
+  "og_image": "/assets/articles/vs-rf-bankrotstvo-droppera-procenty-postradavshim.jpg",
+  "main_keyword": "банкротство мошенника проценты жертве",
+  "secondary_keywords": [
+    "взыскание процентов при банкротстве",
+    "может ли жертва получить проценты банкрот",
+    "проценты на сумму долга судебное взыскание",
+    "защита прав жертвы мошенника банкротство",
+    "взыскание процентов по искам кредитора",
+    "банкротство должника жертве",
+    "проценты пользование деньгами при банкротстве"
+  ],
+  "intent": "informational",
+  "funnel_stage": "cold",
+  "article_type": "B",
+  "offer": "proverka-spisaniya",
+  "event_date": "2026-08-13",
+  "news_zone": "vs_practice",
+  "internal_links": [
+    "/articles/fiz/alimenty-pri-bankrotstve-fizlica"
+  ],
+  "external_links": [
+    "https://vsrf.ru/press_center/news/36251/",
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/"
+  ],
+  "faq": [
+    {
+      "question": "Обязательно ли иметь приговор, чтобы включить надбавку в реестр?",
+      "answer": "Не всегда. Подходит и вступившее в силу решение арбитражного или районного суда по гражданскому иску о взыскании убытков от мошеннических действий. Без судебного акта, подтверждающего сумму и период пользования, арбитраж откажет."
+    },
+    {
+      "question": "Сколько процентов в год вправе потребовать пострадавший?",
+      "answer": "Размер привязан к ключевой ставке Центробанка. Она меняется, поэтому за разные месяцы применяется своя цифра. Если стороны заключали договор с иными условиями - учитываются они."
+    },
+    {
+      "question": "Когда подавать заявление в арбитраж?",
+      "answer": "Стандартный срок - 30 дней с даты публикации сообщения о начале процедуры в едином федеральном реестре. Пропуск не лишает права, но переводит требование за реестр - на практике это почти обнуляет шансы на выплату."
+    },
+    {
+      "question": "Что будет с требованием, если у афериста нет имущества?",
+      "answer": "Оно всё равно вносится в реестр. Просто конкурсная масса не покроет заявленную сумму - целиком или частично. Право сохраняется, деньги - нет."
+    },
+    {
+      "question": "Разъяснение ВС распространяется на юридические лица?",
+      "answer": "Позиция сформулирована общим образом - про право кредитора. Применима и к гражданам, и к организациям, пострадавшим от аферы. Отдельного изъятия для одной из категорий пресс-релиз не содержит."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все факты подтверждены research.json, last_verified 2026-08-21, legislation_status: active по всем нормам",
+    "Нормы: ст. 395 ГК РФ (f2/f6), ст. 71 127-ФЗ (f3), ст. 134 127-ФЗ (f5) - контекст применения корректен, нормы не перепутаны",
+    "Позиция ВС от 13.08.2026 (f4) верифицирована, source: vsrf.ru/press_center/news/36251/",
+    "Пример расчёта (500к × 21% × 1 год = 105к) соответствует safe_phrasing f6; ставка подана как иллюстрация, не гарантия",
+    "Все forbidden_claims отсутствуют в тексте",
+    "H3-заголовки «Первый/Второй/Третий шаг» переименованы - устранён паттерн запрещённых блоков «Шаги»",
+    "Суффикс .html удалён из внутренней ссылки: /articles/fiz/alimenty-pri-bankrotstve-fizlica"
+  ],
+  "keyword_density_main": null,
+  "main_keyword_exact_count": null,
+  "text_chars": 5466,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.139,
+  "local_spam_ngram3_repeat": 0.026,
+  "local_lexical_diversity": 0.652,
+  "local_ai_markers_density": 0.28,
+  "local_ai_markers_critical": 0,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1787291162/articles/vs-rf-bankrotstvo-droppera-procenty-postradavshim-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1787291162/articles/vs-rf-bankrotstvo-droppera-procenty-postradavshim-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Photograph of a contemporary conference room or workspace built with natural materials — light oak, raw concrete, linen-upholstered chairs, indoor plants in raw clay pots. Foreground: sleek closed laptop, leather-bound notebook with a fountain pen aligned across its cover, polished brass round seal positioned as a focal point symbolizing judicial authority, white porcelain coffee cup on a coaster. Background: floor-to-ceiling windows opening onto cityscape in bright daylight or soft evening glow. Camera: three-quarter angle, eye-level, shallow depth of field. Lighting: bright cool daylight with optional warm pendant fill from above. Mood: contemporary professional space where precedent-setting legal victory is being realized.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-08-21T05:46:03Z",
+  "length_status": "warn",
+  "length_kind": "news",
+  "local_ai_markers_total": 2,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 2,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 49,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 90,
+  "customer_risks": [],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "spam_risk: 1 флагов (top10_share>0.115 (=0.139)), top-5: ['реестр', 'аферист', 'прав', 'жертв', 'банкротств']"
+  ],
+  "date_published": "2026-08-21",
+  "date_modified": "2026-08-21",
+  "ready_for_review": true,
+  "ready_at": "2026-08-21T05:46:05Z",
+  "publication_target": "telegram_review"
+}
