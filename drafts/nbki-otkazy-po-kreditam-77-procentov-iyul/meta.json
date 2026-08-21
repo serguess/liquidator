@@ -1,0 +1,103 @@
+{
+  "slug": "nbki-otkazy-po-kreditam-77-procentov-iyul",
+  "category": "news",
+  "title": "Отказы по кредитам: 77% по данным НБКИ",
+  "description": "Почему банки отказывают 77% заёмщиков. Анализ данных НБКИ за июль: причины роста отказов, кого отклоняют, прогноз для заёмщиков и микрофинансов.",
+  "h1": "Отказы по кредитам 77%: что означают данные НБКИ за июль",
+  "lead": "По данным НБКИ за июль 2026 года, доля отказов по розничным кредитам достигла 77,2% - почти четыре заявки из пяти получают отрицательный ответ.",
+  "topic_action": "проверку вариантов списания долгов",
+  "breadcrumb_current": "Отказы по кредитам: данные НБКИ",
+  "og_image": "/assets/articles/nbki-otkazy-po-kreditam-77-procentov-iyul.jpg",
+  "main_keyword": "отказы по кредитам нбки",
+  "secondary_keywords": [
+    "отказы банков по кредитам",
+    "почему банки отказывают в кредите",
+    "процент отказов по кредитам",
+    "статистика отказов кредитам",
+    "кредиты высокие отказы",
+    "альтернатива при отказе банка",
+    "микрофинансовые организации",
+    "кредитный скоринг банка"
+  ],
+  "intent": "informational",
+  "funnel_stage": "cold",
+  "article_type": "B",
+  "offer": "proverka-spisaniya",
+  "event_date": "2026-08-11",
+  "news_zone": "finance",
+  "internal_links": [
+    "/articles/fiz/bankrotstvo-pri-neskolkikh-ispolnitelnykh-listakh"
+  ],
+  "external_links": [
+    "https://nbki.ru/company/news/nbki_v_iyule_2026_goda_dolya_otkazov_po_zayavkam_na_vse_roznichnye_kredity_sostavila_77_2_/"
+  ],
+  "faq": [
+    {
+      "question": "Можно ли официально узнать причину отказа в банке?",
+      "answer": "Формально банк не обязан раскрывать причину. Многие крупные игроки в личном кабинете указывают общий код: «низкий скоринг» или «недостаточный доход». Развёрнутого разбора не дают - методики закрыты."
+    },
+    {
+      "question": "Сколько кредитных запросов подряд не навредят рейтингу заёмщика?",
+      "answer": "Ориентир простой: не больше одной-двух анкет в месяц. Каждая заявка фиксируется в досье и слегка снижает балл. Пять отказов подряд за неделю - минус несколько десятков пунктов рейтинга сразу."
+    },
+    {
+      "question": "Чем МФО отличается от банка при плохой кредитной истории?",
+      "answer": "Микрофинансист смотрит на паспорт и подтверждённый доход. Историю запрашивает не всегда, к негативным записям относится мягче. Цена этой мягкости - дневная ставка в разы выше банковской."
+    },
+    {
+      "question": "Как долго просрочки хранятся в бюро кредитных историй?",
+      "answer": "По действующим правилам записи в досье хранятся семь лет с момента последнего изменения. Судебные акты и решения приставов - столько же. Повлиять на факт нельзя - только гасить долг и накапливать положительные строки поверх."
+    },
+    {
+      "question": "Когда выгоднее запросить выписку из НБКИ - до подачи заявки или после отказа?",
+      "answer": "Лучше до. Так вы заранее увидите слабые места и не потратите бесплатный годовой запрос впустую. После отказа выписка тоже полезна, но одна попытка в год уже использована - следующая будет платной."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "f3 (скоринг), f4 (причины отказов), f8 (улучшение рейтинга) имеют legislation_status: needs_verification - это банковская практика, не прямые нормы закона; использованы safe_phrasing без привязки к конкретным статьям",
+    "f9 (тенденция ужесточения) needs_verification - формулировка описательная, без количественных прогнозов",
+    "Все запрещённые утверждения из forbidden_claims отсутствуют в тексте: МФО подана с явным предупреждением о ставках; быстрое улучшение рейтинга не обещается",
+    "ФЗ-218 и ФЗ-151 верифицированы с last_verified 2026-08-21, legislation_status: active",
+    "КонсультантПлюс-ссылки отсутствуют в research.key_sources - внешняя ссылка ограничена первоисточником НБКИ",
+    "Раздел «Три шага после отказа» переработан: H2 и H3 переименованы для устранения запрещённого формата «Шаг X», содержание сохранено без изменений"
+  ],
+  "keyword_density_main": null,
+  "main_keyword_exact_count": null,
+  "text_chars": 5221,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.113,
+  "local_spam_ngram3_repeat": 0.026,
+  "local_lexical_diversity": 0.715,
+  "local_ai_markers_density": 0.43,
+  "local_ai_markers_critical": 0,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1787292232/articles/nbki-otkazy-po-kreditam-77-procentov-iyul-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1787292232/articles/nbki-otkazy-po-kreditam-77-procentov-iyul-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Editorial photograph of a financial analyst's desk by a tall window. Camera at table-eye level, slight three-quarter angle. On the walnut desktop: a closed laptop, a blank-spine notebook with fountain pen resting across it, reading glasses, a polished brass desk lamp, and a white porcelain coffee cup. Background through the tall window: blurred urban skyline or financial district lights at dusk, soft bokeh. Lighting from window — cool overcast daylight balanced with warm tungsten desk lamp glow. Materials: walnut, leather, brass. Mood: market analysis, data-driven review. Premium business magazine aesthetic, neutral beige-graphite palette with warm brass accents.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-08-21T06:03:53Z",
+  "length_status": "warn",
+  "length_kind": "news",
+  "local_ai_markers_total": 3,
+  "local_ai_markers_high": 1,
+  "local_own_voice_hits": 2,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 42,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 90,
+  "customer_risks": [],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "broken_internal_links: 1 ссылок без соответствия в published_index (/articles/fiz/bankrotstvo-pri-neskolkikh-ispolnitelnykh-listakh: slug 'bankrotstvo-pri-neskolkikh-ispolnitelnykh-listakh' не найден в категории 'fiz' (есть: нигде))"
+  ],
+  "date_published": "2026-08-21",
+  "date_modified": "2026-08-21",
+  "ready_for_review": true,
+  "ready_at": "2026-08-21T06:03:54Z",
+  "publication_target": "telegram_review"
+}
