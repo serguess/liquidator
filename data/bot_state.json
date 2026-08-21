@@ -11191,7 +11191,7 @@
     "proverka-dolzhnika-na-bankrotstvo-efrsb": {
       "category": "fiz",
       "title": "Как проверить физлицо на банкротство по ЕФРСБ",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -11199,14 +11199,16 @@
       "tg_message_id": 2390,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-08-18T15:29:16",
-      "last_action_at": "2026-08-19T10:00:26",
+      "last_action_at": "2026-08-21T23:38:30",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/fiz/proverka-dolzhnika-na-bankrotstvo-efrsb",
       "pending_batch": false,
       "pending_batch_at": "2026-08-18T15:29:16",
       "batch_sent_at": "2026-08-19T10:00:26",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-08-21T23:38:30",
+      "articles_path": "articles/fiz/proverka-dolzhnika-na-bankrotstvo-efrsb.html"
     },
     "subsidiarka-pri-likvidacii-ooo-direktora": {
       "category": "yur",
