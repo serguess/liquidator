@@ -6076,6 +6076,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "253-fz-perehodnye-polozheniya-dela-bankrotstvo",
+      "category": "news",
+      "title": "ФЗ-253 переходные положения банкротства",
+      "added_at": "2026-08-21T05:18:38.554769",
+      "char_count": 6710,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1787278713/articles/253-fz-perehodnye-polozheniya-dela-bankrotstvo-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
