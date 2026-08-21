@@ -10575,7 +10575,7 @@
     "stavka-cb-14-procentov-pereraschyot-dolga-peni": {
       "category": "news",
       "title": "Ставка ЦБ 14%: как пересчитать долг и пени",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -10583,14 +10583,16 @@
       "tg_message_id": 2334,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-08-08T06:01:04",
-      "last_action_at": "2026-08-08T10:00:11",
+      "last_action_at": "2026-08-21T23:23:14",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/news/stavka-cb-14-procentov-pereraschyot-dolga-peni",
       "pending_batch": false,
       "pending_batch_at": "2026-08-08T06:01:04",
       "batch_sent_at": "2026-08-08T10:00:11",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-08-21T23:23:14",
+      "articles_path": "articles/news/stavka-cb-14-procentov-pereraschyot-dolga-peni.html"
     },
     "lichnye-veshchi-mebel-pri-bankrotstve-fizlica": {
       "category": "fiz",
