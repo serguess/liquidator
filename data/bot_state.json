@@ -11389,7 +11389,7 @@
     "antikrizisnyj-upravlyayushchij-reestr-253-fz": {
       "category": "news",
       "title": "Реестр антикризисных управляющих 253-ФЗ",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -11397,14 +11397,16 @@
       "tg_message_id": 2408,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-08-20T09:08:28",
-      "last_action_at": "2026-08-20T10:00:33",
+      "last_action_at": "2026-08-21T23:42:18",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/news/antikrizisnyj-upravlyayushchij-reestr-253-fz",
       "pending_batch": false,
       "pending_batch_at": "2026-08-20T09:08:28",
       "batch_sent_at": "2026-08-20T10:00:33",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-08-21T23:42:18",
+      "articles_path": "articles/news/antikrizisnyj-upravlyayushchij-reestr-253-fz.html"
     },
     "bankrotstvo-pri-neskolkikh-ispolnitelnykh-listakh": {
       "category": "fiz",
