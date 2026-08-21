@@ -2,6 +2,19 @@
   "generated": "2026-08-21",
   "articles": [
     {
+      "slug": "kollektory-rekord-cena-bankovskikh-dolgov",
+      "cat": "news",
+      "catLabel": "Новости",
+      "title": "Рекорд цен на долги: что ждёт должников",
+      "desc": "Цены на просроченные банковские долги достигли максимума. Что это означает для должников, как влияет на коллекторские действия и какие риски возникают.",
+      "date": "21 августа 2026",
+      "dateIso": "2026-08-21",
+      "read": "4 мин.",
+      "tone": "b",
+      "img": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1785995636/articles/kollektory-rekord-cena-bankovskikh-dolgov-cover.jpg",
+      "url": "articles/news/kollektory-rekord-cena-bankovskikh-dolgov"
+    },
+    {
       "slug": "bankrotstvo-kompanii-inostrannyj-uchreditel",
       "cat": "yur",
       "catLabel": "Банкротство юридических лиц",
