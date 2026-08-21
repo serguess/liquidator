@@ -10861,7 +10861,7 @@
     "imushchestvo-na-rebenke-pri-bankrotstve-roditelya": {
       "category": "fiz",
       "title": "Имущество на ребёнке при банкротстве родителей: защита",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -10869,14 +10869,16 @@
       "tg_message_id": 2360,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-08-13T10:28:12",
-      "last_action_at": "2026-08-14T10:00:14",
+      "last_action_at": "2026-08-21T23:34:41",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/fiz/imushchestvo-na-rebenke-pri-bankrotstve-roditelya",
       "pending_batch": false,
       "pending_batch_at": "2026-08-13T10:28:12",
       "batch_sent_at": "2026-08-14T10:00:13",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-08-21T23:34:41",
+      "articles_path": "articles/fiz/imushchestvo-na-rebenke-pri-bankrotstve-roditelya.html"
     },
     "faktoring-i-bankrotstvo-dolzhnika-prava-faktora": {
       "category": "yur",
