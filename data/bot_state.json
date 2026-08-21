@@ -11411,7 +11411,7 @@
     "bankrotstvo-pri-neskolkikh-ispolnitelnykh-listakh": {
       "category": "fiz",
       "title": "Банкротство при множестве исполнительных листов: решение",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -11419,14 +11419,16 @@
       "tg_message_id": 2410,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-08-20T15:07:32",
-      "last_action_at": "2026-08-21T10:00:10",
+      "last_action_at": "2026-08-21T23:42:22",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/fiz/bankrotstvo-pri-neskolkikh-ispolnitelnykh-listakh",
       "pending_batch": false,
       "pending_batch_at": "2026-08-20T15:07:32",
       "batch_sent_at": "2026-08-21T10:00:09",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-08-21T23:42:22",
+      "articles_path": "articles/fiz/bankrotstvo-pri-neskolkikh-ispolnitelnykh-listakh.html"
     },
     "bankrotstvo-medicinskoj-kliniki": {
       "category": "yur",
