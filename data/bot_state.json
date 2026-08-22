@@ -11565,7 +11565,7 @@
     "bankrotstvo-transportnoj-kompanii": {
       "category": "yur",
       "title": "Банкротство транспортной компании: защита активов",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -11573,14 +11573,16 @@
       "tg_message_id": 2548,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-08-22T01:04:23",
-      "last_action_at": "2026-08-22T10:00:14",
+      "last_action_at": "2026-08-22T12:55:26",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/yur/bankrotstvo-transportnoj-kompanii",
       "pending_batch": false,
       "pending_batch_at": "2026-08-22T01:04:23",
       "batch_sent_at": "2026-08-22T10:00:14",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-08-22T12:55:26",
+      "articles_path": "articles/yur/bankrotstvo-transportnoj-kompanii.html"
     },
     "arest-avtomobilya-dolzhnika-pristavami": {
       "category": "vzysk",
