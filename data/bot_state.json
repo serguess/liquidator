@@ -11609,7 +11609,7 @@
     "nbki-samozapret-na-kredity-792-tysyach-iyul": {
       "category": "news",
       "title": "Самозапреты НБКИ в июле: 792 тыс. россиян закрыли кредиты",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -11617,14 +11617,16 @@
       "tg_message_id": 2552,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-08-22T08:52:11",
-      "last_action_at": "2026-08-22T10:00:18",
+      "last_action_at": "2026-08-22T12:55:48",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/news/nbki-samozapret-na-kredity-792-tysyach-iyul",
       "pending_batch": false,
       "pending_batch_at": "2026-08-22T08:52:11",
       "batch_sent_at": "2026-08-22T10:00:18",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-08-22T12:55:48",
+      "articles_path": "articles/news/nbki-samozapret-na-kredity-792-tysyach-iyul.html"
     }
   },
   "pending_actions": [],
