@@ -11521,20 +11521,24 @@
     "nbki-otkazy-po-kreditam-77-procentov-iyul": {
       "category": "news",
       "title": "Отказы по кредитам: 77% по данным НБКИ",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 2544,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-08-21T09:04:12",
-      "last_action_at": "2026-08-21T09:04:12",
+      "last_action_at": "2026-08-22T12:54:52",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-08-21T09:04:12"
+      "published_url": "https://pravo.shop/articles/news/nbki-otkazy-po-kreditam-77-procentov-iyul",
+      "pending_batch": false,
+      "pending_batch_at": "2026-08-21T09:04:12",
+      "batch_sent_at": "2026-08-22T10:00:09",
+      "batch_fail_count": 0,
+      "published_at": "2026-08-22T12:54:52",
+      "articles_path": "articles/news/nbki-otkazy-po-kreditam-77-procentov-iyul.html"
     },
     "mirovoe-soglashenie-ipoteka-bankrotstvo-fizlica": {
       "category": "fiz",
@@ -11544,15 +11548,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 2546,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-08-21T15:28:16",
-      "last_action_at": "2026-08-21T15:28:16",
+      "last_action_at": "2026-08-22T10:00:11",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-08-21T15:28:16"
+      "pending_batch": false,
+      "pending_batch_at": "2026-08-21T15:28:16",
+      "batch_sent_at": "2026-08-22T10:00:11",
+      "batch_fail_count": 0
     },
     "bankrotstvo-transportnoj-kompanii": {
       "category": "yur",
@@ -11562,15 +11568,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 2548,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-08-22T01:04:23",
-      "last_action_at": "2026-08-22T01:04:23",
+      "last_action_at": "2026-08-22T10:00:14",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-08-22T01:04:23"
+      "pending_batch": false,
+      "pending_batch_at": "2026-08-22T01:04:23",
+      "batch_sent_at": "2026-08-22T10:00:14",
+      "batch_fail_count": 0
     },
     "arest-avtomobilya-dolzhnika-pristavami": {
       "category": "vzysk",
@@ -11580,15 +11588,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 2550,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-08-22T05:58:09",
-      "last_action_at": "2026-08-22T05:58:09",
+      "last_action_at": "2026-08-22T10:00:16",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-08-22T05:58:09"
+      "pending_batch": false,
+      "pending_batch_at": "2026-08-22T05:58:09",
+      "batch_sent_at": "2026-08-22T10:00:16",
+      "batch_fail_count": 0
     },
     "nbki-samozapret-na-kredity-792-tysyach-iyul": {
       "category": "news",
@@ -11598,19 +11608,21 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 2552,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-08-22T08:52:11",
-      "last_action_at": "2026-08-22T08:52:11",
+      "last_action_at": "2026-08-22T10:00:18",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-08-22T08:52:11"
+      "pending_batch": false,
+      "pending_batch_at": "2026-08-22T08:52:11",
+      "batch_sent_at": "2026-08-22T10:00:18",
+      "batch_fail_count": 0
     }
   },
   "pending_actions": [],
-  "last_batch_date": "2026-08-21",
+  "last_batch_date": "2026-08-22",
   "last_batch_count": 5,
-  "last_batch_at": "2026-08-21T10:00:19"
+  "last_batch_at": "2026-08-22T10:00:18"
 }
