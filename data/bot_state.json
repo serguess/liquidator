@@ -11587,7 +11587,7 @@
     "arest-avtomobilya-dolzhnika-pristavami": {
       "category": "vzysk",
       "title": "Арест автомобиля должника: что делать и как обжаловать",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -11595,14 +11595,16 @@
       "tg_message_id": 2550,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-08-22T05:58:09",
-      "last_action_at": "2026-08-22T10:00:16",
+      "last_action_at": "2026-08-22T12:55:30",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/vzysk/arest-avtomobilya-dolzhnika-pristavami",
       "pending_batch": false,
       "pending_batch_at": "2026-08-22T05:58:09",
       "batch_sent_at": "2026-08-22T10:00:16",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-08-22T12:55:30",
+      "articles_path": "articles/vzysk/arest-avtomobilya-dolzhnika-pristavami.html"
     },
     "nbki-samozapret-na-kredity-792-tysyach-iyul": {
       "category": "news",
