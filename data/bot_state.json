@@ -11553,6 +11553,60 @@
       "published_url": null,
       "pending_batch": true,
       "pending_batch_at": "2026-08-21T15:28:16"
+    },
+    "bankrotstvo-transportnoj-kompanii": {
+      "category": "yur",
+      "title": "Банкротство транспортной компании: защита активов",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-08-22T01:04:23",
+      "last_action_at": "2026-08-22T01:04:23",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-08-22T01:04:23"
+    },
+    "arest-avtomobilya-dolzhnika-pristavami": {
+      "category": "vzysk",
+      "title": "Арест автомобиля должника: что делать и как обжаловать",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-08-22T05:58:09",
+      "last_action_at": "2026-08-22T05:58:09",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-08-22T05:58:09"
+    },
+    "nbki-samozapret-na-kredity-792-tysyach-iyul": {
+      "category": "news",
+      "title": "Самозапреты НБКИ в июле: 792 тыс. россиян закрыли кредиты",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-08-22T08:52:11",
+      "last_action_at": "2026-08-22T08:52:11",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-08-22T08:52:11"
     }
   },
   "pending_actions": [],

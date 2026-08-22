@@ -37711,5 +37711,99 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-08-22T08:30:01",
+    "category": "news",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 81,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "news-159",
+    "topic_slug": "nbki-samozapret-na-kredity-792-tysyach-iyul",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "length_soft_passed: 6090 > 5500 но ≤ 7500 и iteration=2 — пропускаем (приоритет spam/uniqueness/ai)"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "finalize_safety_net": {
+      "ran": true,
+      "rc": 0
+    },
+    "status": "ok",
+    "slug": "nbki-samozapret-na-kredity-792-tysyach-iyul",
+    "duration_sec": 1272.5,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "    20922\n6-seo-editor        sonnet            6       4        0     88502        10\n7-publisher         haiku            20      12    36312     39548     36344\n------------------------------------------------------------------------------------------\nИТОГО                               126      86   386090    449787    386302\nBillable-токенов на статью: ~386K (cache_read 449K не считается в лимит подписки).\nАртефакты: drafts/nbki-samozapret-na-kredity-792-tysyach-iyul/  | quality_gate exit=0",
+    "stderr_tail": "",
+    "tokens_by_model": {},
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 6090
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
+  },
+  {
+    "timestamp": "2026-08-22T08:51:16",
+    "category": "news",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 82,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "news-160",
+    "topic_slug": "cb-stavka-deflyaciya-prognoz-sentyabr",
+    "status": "failed",
+    "slug": "cb-stavka-deflyaciya-prognoz-sentyabr",
+    "duration_sec": 479.0,
+    "returncode": 1,
+    "rescued_after_failure": false,
+    "stdout_tail": "27522 ток, 33.7с\n=== 2-legal-research (claude haiku) ===\n   ok: 9367 симв., usage in=20 out=10 cache_w=58752 cache_r=39548 billable=58782 ток, 75.5с\n   ok: 12089 симв., billable=56494 ток (model=sonnet)\n   [outline_validate] exit=1\n=== 4-writer (claude opus) ===\n   ok: 8141 симв., billable=59248 ток, 66.3с\n   [writer self-fix проход 2]\n   ok: billable=36728 ток\n=== 5-uniqueness (embed_compare) ===\n   passed=False scores={'structure_overlap': 0.0, 'thesis_similarity': 0.311, 'cta_overlap': 0.085}",
+    "stderr_tail": "[ERR] rate_limit: put_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard\",\"cache_creation\":{\"ephemeral_1h_input_tokens\":0,\"ephemeral_5m_input_tokens\":0},\"inference_geo\":\"\",\"iterations\":[],\"speed\":\"standard\"},\"modelUsage\":{},\"permission_denials\":[],\"terminal_reason\":\"completed\",\"fast_mode_state\":\"off\",\"uuid\":\"da9852c7-506a-47ac-8b15-d42c49d02d98\"}\n\n",
+    "tokens_by_model": {},
+    "metrics": null
   }
 ]
