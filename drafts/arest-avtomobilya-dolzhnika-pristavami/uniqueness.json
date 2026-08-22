@@ -1,0 +1,24 @@
+{
+  "slug": "arest-avtomobilya-dolzhnika-pristavami",
+  "article_id": 528,
+  "scores": {
+    "structure_overlap": 0.0,
+    "thesis_similarity": 0.232,
+    "cta_overlap": 0.575
+  },
+  "thresholds": {
+    "structure_overlap": 0.4,
+    "thesis_similarity": 0.3,
+    "cta_overlap": 0.2
+  },
+  "passed": false,
+  "peers_compared": 49,
+  "closest_peer": "vzyskanie-dolga-po-dogovoru-arendy",
+  "similar_articles": [],
+  "conflicts": [
+    "cta_overlap: 0.575 (threshold: 0.2)"
+  ],
+  "recommendation": "rewrite_with_angle:change-perspective (closest: vzyskanie-dolga-po-dogovoru-arendy)",
+  "stored_in_db": true,
+  "note": "Вектор статьи записан в data/embeddings.sqlite (published=0). После публикации агент 7 переключит флаг на 1."
+}

@@ -6141,6 +6141,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "arest-avtomobilya-dolzhnika-pristavami",
+      "category": "vzysk",
+      "title": "Арест автомобиля должника: что делать и как обжаловать",
+      "added_at": "2026-08-22T05:57:23.928268",
+      "char_count": 8672,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1787367441/articles/arest-avtomobilya-dolzhnika-pristavami-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
