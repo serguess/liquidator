@@ -4030,7 +4030,11 @@
       "topic_action": "защиту залогового имущества при банкротстве кредитора",
       "event_date": "2026-07-24",
       "news_zone": "vs_practice",
-      "primary_source": "https://vsrf.ru/press_center/news/36221/"
+      "primary_source": "https://vsrf.ru/press_center/news/36221/",
+      "status": "rejected",
+      "rejected_at": "2026-08-26T04:00:00",
+      "rejected_reason": "event_too_old:33d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-123",
@@ -4332,7 +4336,11 @@
       "topic_action": "проверить шансы на списание долгов при банкротстве",
       "event_date": "2026-07-22",
       "news_zone": "vs_practice",
-      "primary_source": "https://lenta.ru/news/2026/08/03/verhovnyy-sud-vstal-na-storonu-bankov-v-spore-o-bankrotstve-zaemschika/"
+      "primary_source": "https://lenta.ru/news/2026/08/03/verhovnyy-sud-vstal-na-storonu-bankov-v-spore-o-bankrotstve-zaemschika/",
+      "status": "rejected",
+      "rejected_at": "2026-08-26T04:00:00",
+      "rejected_reason": "event_too_old:35d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-132",
@@ -4396,7 +4404,11 @@
       "topic_action": "консультацию по банкротству застройщика",
       "event_date": "2026-07-20",
       "news_zone": "vs_practice",
-      "primary_source": "https://www.pgplaw.ru/analytics-and-brochures/bankruptcy-must-read/bankruptcy-digest-29-07-26/"
+      "primary_source": "https://www.pgplaw.ru/analytics-and-brochures/bankruptcy-must-read/bankruptcy-digest-29-07-26/",
+      "status": "rejected",
+      "rejected_at": "2026-08-26T04:00:00",
+      "rejected_reason": "event_too_old:37d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-134",
@@ -4486,7 +4498,11 @@
       "topic_action": "консультацию по реформе банкротства для вашей компании",
       "event_date": "2026-07-26",
       "news_zone": "legislation",
-      "primary_source": "https://ria.ru/20260726/putin-2107123666.html"
+      "primary_source": "https://ria.ru/20260726/putin-2107123666.html",
+      "status": "rejected",
+      "rejected_at": "2026-08-26T04:00:00",
+      "rejected_reason": "event_too_old:31d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-137",
@@ -4516,7 +4532,11 @@
       "topic_action": "расчёт долга при новой ставке ЦБ",
       "event_date": "2026-07-24",
       "news_zone": "finance",
-      "primary_source": "https://www.cbr.ru/press/keypr/"
+      "primary_source": "https://www.cbr.ru/press/keypr/",
+      "status": "rejected",
+      "rejected_at": "2026-08-26T04:00:00",
+      "rejected_reason": "event_too_old:33d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-138",
@@ -4546,7 +4566,11 @@
       "topic_action": "проверку как реформа влияет на ваш случай",
       "event_date": "2026-07-26",
       "news_zone": "legislation",
-      "primary_source": "https://www.consultant.ru/document/cons_doc_LAW_540359/"
+      "primary_source": "https://www.consultant.ru/document/cons_doc_LAW_540359/",
+      "status": "rejected",
+      "rejected_at": "2026-08-26T04:00:00",
+      "rejected_reason": "event_too_old:31d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-139",
@@ -4576,7 +4600,11 @@
       "topic_action": "консультацию по досудебной санации бизнеса",
       "event_date": "2026-07-26",
       "news_zone": "legislation",
-      "primary_source": "https://www.consultant.ru/document/cons_doc_LAW_540359/"
+      "primary_source": "https://www.consultant.ru/document/cons_doc_LAW_540359/",
+      "status": "rejected",
+      "rejected_at": "2026-08-26T04:00:00",
+      "rejected_reason": "event_too_old:31d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-140",
@@ -4606,7 +4634,11 @@
       "topic_action": "реструктуризацию долгов вашей компании",
       "event_date": "2026-07-26",
       "news_zone": "legislation",
-      "primary_source": "https://www.consultant.ru/document/cons_doc_LAW_540359/"
+      "primary_source": "https://www.consultant.ru/document/cons_doc_LAW_540359/",
+      "status": "rejected",
+      "rejected_at": "2026-08-26T04:00:00",
+      "rejected_reason": "event_too_old:31d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-141",
@@ -4636,7 +4668,11 @@
       "topic_action": "консультацию по реформе закона о банкротстве",
       "event_date": "2026-07-26",
       "news_zone": "legislation",
-      "primary_source": "https://www.consultant.ru/document/cons_doc_LAW_540359/"
+      "primary_source": "https://www.consultant.ru/document/cons_doc_LAW_540359/",
+      "status": "rejected",
+      "rejected_at": "2026-08-26T04:00:00",
+      "rejected_reason": "event_too_old:31d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-142",
@@ -4768,7 +4804,11 @@
       "topic_action": "консультацию по защите прав кредитора при банкротстве",
       "event_date": "2026-07-26",
       "news_zone": "legislation",
-      "primary_source": "https://www.consultant.ru/document/cons_doc_LAW_540359/"
+      "primary_source": "https://www.consultant.ru/document/cons_doc_LAW_540359/",
+      "status": "rejected",
+      "rejected_at": "2026-08-26T04:00:00",
+      "rejected_reason": "event_too_old:31d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-146",
@@ -4798,7 +4838,11 @@
       "topic_action": "расчёт выгоды от рефинансирования при текущей ставке",
       "event_date": "2026-07-24",
       "news_zone": "finance",
-      "primary_source": "https://www.cbr.ru/press/keypr/"
+      "primary_source": "https://www.cbr.ru/press/keypr/",
+      "status": "rejected",
+      "rejected_at": "2026-08-26T04:00:00",
+      "rejected_reason": "event_too_old:33d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-147",
@@ -4858,7 +4902,11 @@
       "news_zone": "finance",
       "primary_source": "https://nbki.ru/company/news/",
       "title_length": 54,
-      "description_length": 150
+      "description_length": 150,
+      "status": "rejected",
+      "rejected_at": "2026-08-26T04:00:00",
+      "rejected_reason": "event_too_old:37d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-149",
@@ -5042,7 +5090,11 @@
       "news_zone": "vs_practice",
       "primary_source": "https://www.pgplaw.ru/analytics-and-brochures/bankruptcy-must-read/",
       "title_length": 58,
-      "description_length": 149
+      "description_length": 149,
+      "status": "rejected",
+      "rejected_at": "2026-08-26T04:00:00",
+      "rejected_reason": "event_too_old:35d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-155",
@@ -5072,7 +5124,11 @@
       "news_zone": "legislation",
       "primary_source": "https://rg.ru/documents/2026/07/31/fz253-dok.html",
       "title_length": 56,
-      "description_length": 149
+      "description_length": 149,
+      "status": "rejected",
+      "rejected_at": "2026-08-26T04:00:00",
+      "rejected_reason": "event_too_old:31d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-156",
@@ -5102,7 +5158,11 @@
       "news_zone": "legislation",
       "primary_source": "https://rg.ru/documents/2026/07/31/fz253-dok.html",
       "title_length": 58,
-      "description_length": 151
+      "description_length": 151,
+      "status": "rejected",
+      "rejected_at": "2026-08-26T04:00:00",
+      "rejected_reason": "event_too_old:31d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-157",
