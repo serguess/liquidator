@@ -6180,6 +6180,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "bankrotstvo-kfh-fermerskoe-hozyajstvo",
+      "category": "yur",
+      "title": "Банкротство КФХ: порядок и требования к процедуре",
+      "added_at": "2026-08-29T20:16:11.385002",
+      "char_count": 9267,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1788023769/articles/bankrotstvo-kfh-fermerskoe-hozyajstvo-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
