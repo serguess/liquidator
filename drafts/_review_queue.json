@@ -6167,6 +6167,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "bankrotstvo-rassrochka-ot-zastrojshchika",
+      "category": "fiz",
+      "title": "Банкротство при покупке квартиры в рассрочку",
+      "added_at": "2026-08-29T15:28:25.737481",
+      "char_count": 8561,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1788006504/articles/bankrotstvo-rassrochka-ot-zastrojshchika-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
