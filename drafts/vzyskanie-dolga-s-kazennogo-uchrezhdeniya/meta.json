@@ -1,0 +1,105 @@
+{
+  "slug": "vzyskanie-dolga-s-kazennogo-uchrezhdeniya",
+  "category": "vzysk",
+  "title": "Как взыскать долг с казённого учреждения через арбитраж",
+  "description": "Подробная инструкция по взысканию долга с казённого учреждения через арбитражный суд: процедура, документы, сроки, особенности взыскания с бюджетных организаций.",
+  "h1": "Как взыскать долг с казённого учреждения через арбитражный суд: пошаговая инструкция",
+  "lead": "Разбираем три маршрута взыскания (приказное производство, исковое производство, взыскание с казны) и реальные сроки получения денег в условиях бюджетного процесса.",
+  "topic_action": "взыскание долга с казённого учреждения",
+  "breadcrumb_current": "Взыскание с казённого учреждения",
+  "og_image": "/assets/articles/vzyskanie-dolga-s-kazennogo-uchrezhdeniya.jpg",
+  "main_keyword": "как взыскать долг с казённого учреждения",
+  "secondary_keywords": [
+    "взыскание долга с казённого учреждения",
+    "как взыскать с казённого учреждения через арбитраж",
+    "взыскание у казённого учреждения",
+    "арбитражный иск к казённому учреждению",
+    "исковое заявление против казённого учреждения",
+    "взыскание долга у бюджетного учреждения",
+    "особенности взыскания с казённых учреждений",
+    "как привлечь казённое учреждение к суду"
+  ],
+  "internal_links": [
+    "/articles/vzysk/sudebnyj-prikaz-dlya-vzyskaniya-dolgov",
+    "/articles/vzysk/ispolnitelnyj-list-pristavov"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/",
+    "https://www.consultant.ru/document/cons_doc_LAW_1082/"
+  ],
+  "faq": [
+    {
+      "question": "Обязательно ли направлять претензию перед подачей иска?",
+      "answer": "Только если это прописано в контракте или установлено законом (148-я АПК). По поставкам для госнужд, соглашениям аренды и подряда чаще всего обязательно. По убыткам вне контракта - обычно нет. Проверьте раздел о досудебном порядке в тексте самого договора."
+    },
+    {
+      "question": "Можно ли получить судебный приказ вместо полноценного иска?",
+      "answer": "Да, при требовании до полумиллиона и наличии бесспорных документов - контракта, актов, платёжек. Приказ выносится без заседания за 10 дней. Получатель вправе подать возражения без объяснения причин, тогда придётся заходить через обычный иск."
+    },
+    {
+      "question": "Что происходит, если у казённого учреждения нет денег на счёте?",
+      "answer": "Взыскание перенаправляется на казну соответствующего уровня - федеральную, региональную или муниципальную. Механизм работает через казначейство и часто требует отдельного судебного акта. Практика по округам различается."
+    },
+    {
+      "question": "Сколько стоит подать иск: как рассчитать государственную пошлину?",
+      "answer": "По 333.21-й НК - 4% от цены заявления, минимум полторы тысячи, максимум - сто шестьдесят тысяч. Например, при долге восемьсот тысяч - пошлина 32 тысячи. При победе взыскивается с проигравшей стороны."
+    },
+    {
+      "question": "Через какой период реально получить деньги после победы?",
+      "answer": "От четырёх до девяти месяцев от решения до фактического поступления. Само рассмотрение занимает 60-90 дней, потом вступление в силу, направление листа, работа казначейства и ожидание бюджетного транша. Точный период зависит от региона и загрузки распорядителя средств."
+    },
+    {
+      "question": "Начисляется ли исполнительский сбор при взыскании с государственной организации?",
+      "answer": "Да, на общих основаниях - 7% от взысканной суммы, минимум 10 000 рублей для организации-должника. Учреждение платит его из бюджетных средств сверх основного долга, если не уложилось в добровольный 5-дневный срок."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все основные факты сверены с research.json. Статусы: active. last_verified в пределах 6 месяцев для ключевых утверждений.",
+    "Контекст применения норм корректен: ст. 27 АПК - подсудность, ст. 229.2 АПК - судебный приказ до 500 тыс., ст. 152 АПК - сроки 60-90 дней, ст. 333.21 НК - пошлина 4%, ст. 112 ФЗ-229 - исполнительский сбор 7%.",
+    "Упоминание Федерального казначейства (гл. 24.1 БК) верно для взыскания с казённых учреждений.",
+    "Запрещённые утверждения (гарантия успеха, абсолютный иммунитет, приказ при любой сумме) отсутствуют в тексте."
+  ],
+  "keyword_density_main": 0.019,
+  "main_keyword_exact_count": 3,
+  "text_chars": 8773,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.103,
+  "local_spam_ngram3_repeat": 0.027,
+  "local_lexical_diversity": 0.598,
+  "local_ai_markers_density": 0.28,
+  "local_ai_markers_critical": 0,
+  "local_ai_markers_total": 3,
+  "local_ai_markers_high": 1,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1788041560/articles/vzyskanie-dolga-s-kazennogo-uchrezhdeniya-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1788041560/articles/vzyskanie-dolga-s-kazennogo-uchrezhdeniya-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Close-up architectural photograph of polished marble or fine stone surface with carefully arranged business accessories in the foreground, emphasizing institutional texture and detail. Camera: tight three-quarter angle, eye-level or slight low-angle. Foreground items: closed dark leather portfolio representing the case file, polished brass round state seal symbolizing the government institution defendant, antique brass pocket watch on a chain suggesting statute of limitations and time-critical procedure, fountain pen positioned across the portfolio edge, small silver tray. Background: subtle marble veining or stone texture, soft institutional grey tones. Lighting: soft diffused daylight grazing the stone at an angle, creating elegant shadows. Palette: cool whites, warm cream, restrained brass accents and deep leather. Mood: precision, institutional authority, legal formality in government accountability proceedings.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-08-29T22:12:41Z",
+  "length_status": "too_long",
+  "length_kind": "default",
+  "local_own_voice_hits": 3,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 53,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность чуть выше 50% (~53%)",
+    "длина значительно больше лимита 6500 (8 773 знаков)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "length_too_long: 8773 > 6500 (kind=default)",
+    "too_few_short_sentences: 11 < 12"
+  ],
+  "date_published": "2026-08-30",
+  "date_modified": "2026-08-30",
+  "ready_for_review": true,
+  "ready_at": "2026-08-29T22:12:44Z",
+  "publication_target": "telegram_review"
+}
