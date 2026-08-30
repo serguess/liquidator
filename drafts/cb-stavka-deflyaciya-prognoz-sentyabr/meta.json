@@ -1,0 +1,101 @@
+{
+  "slug": "cb-stavka-deflyaciya-prognoz-sentyabr",
+  "category": "news",
+  "title": "Дефляция и прогноз ставки: аналитики ждут снижения",
+  "description": "Дефляция в августе подтолкнула аналитиков к прогнозу снижения ставки ЦБ. Что это значит для кредитов и как должникам подготовиться.",
+  "h1": "Дефляция в августе: прогноз на снижение ставки до 13,5%",
+  "lead": "Августовская дефляция легла в основу свежих прогнозов рынка о смягчении денежно-кредитной политики - разбираем, что это значит для заёмщиков и почему ждать не стоит.",
+  "topic_action": "консультацию по кредитной нагрузке",
+  "breadcrumb_current": "Дефляция и прогноз ставки ЦБ",
+  "og_image": "/assets/articles/cb-stavka-deflyaciya-prognoz-sentyabr.jpg",
+  "main_keyword": "дефляция снижение ставки август",
+  "secondary_keywords": [
+    "прогноз ставки рефинансирования",
+    "дефляция август",
+    "монетарная политика",
+    "снижение ставки цб",
+    "влияние ставки на кредиты",
+    "как дефляция влияет на должников",
+    "прогноз инфляции август",
+    "средневзвешенная ставка"
+  ],
+  "intent": "informational",
+  "funnel_stage": "cold",
+  "article_type": "B",
+  "offer": "raschet-stoimosti",
+  "event_date": "2026-08-13",
+  "news_zone": "finance",
+  "internal_links": [
+    "/articles/fiz/bank-otkazal-v-restrukturizacii-chto-delat-bankrotstvo"
+  ],
+  "external_links": [
+    "https://www.cbr.ru/press/keypr/",
+    "https://www.cbr.ru/hd_base/KeyRate/"
+  ],
+  "faq": [
+    {
+      "question": "Чем дефляция отличается от инфляции и почему это важно заёмщику?",
+      "answer": "Инфляция - рост общего уровня цен, дефляция - его снижение. Для должника с фиксированным платежом это означает, что реальная тяжесть выплат уменьшается: та же сумма в рублях покупает больше товаров. Эффект скромный и работает при условии, что доходы не падают одновременно."
+    },
+    {
+      "question": "Обязан ли кредитор снизить процент по моему займу при смягчении политики регулятора?",
+      "answer": "Нет, такой обязанности нет. Пересмотр условий действующего соглашения - коммерческое решение, а не требование закона. По новым выдачам условия отреагируют быстрее, по действующим - как правило, только через рефинансирование."
+    },
+    {
+      "question": "У меня фиксированный процент по ипотеке - что изменится при решении регулятора?",
+      "answer": "Прямо на ваш платёж - ничего. Фиксированный процент закреплён в соглашении до конца срока. Косвенно рыночная ситуация может стать поводом для рефинансирования, если новые предложения окажутся выгоднее."
+    },
+    {
+      "question": "Когда ЦБ объявит итоговое решение по ключевому ориентиру?",
+      "answer": "Заседания Совета директоров проходят по заранее опубликованному графику. Информация о датах и итогах публикуется на официальном сайте Центрального банка. Прогнозы аналитиков о сентябрьском смягчении - предположения, а не подтверждённая дата."
+    },
+    {
+      "question": "Что делать с долгом прямо сейчас, пока итоги заседания не объявлены?",
+      "answer": "Разобрать займ и график платежей, зафиксировать сумму долга с учётом всех начислений, оценить наличие просрочек. При росте задолженности имеет смысл обсудить варианты - от переговоров до процедуры банкротства - не привязывая решение к макроэкономическим ожиданиям."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "f1 (дефляция в августе) имеет legislation_status: needs_verification - в тексте использована safe_phrasing: обтекаемо 'зафиксировал регулятор', без конкретного процента снижения",
+    "f6 (прогноз снижения ставки) помечен contested - в лиде явно сформулировано как 'гипотеза аналитиков', запрещённых утверждений из forbidden_claims нет",
+    "h1 содержит цифру 13,5% из brief.json агента 1; в research.json конкретный процент отсутствует (fact_gap); сохранено, т.к. фрейм 'прогноз' не нарушает forbidden_claims и цифра пришла из семантики агента 1",
+    "Внутренняя ссылка переформатирована из /blog/bank-otkazal-v-restrukturizacii-chto-delat-bankrotstvo.html в /articles/fiz/bank-otkazal-v-restrukturizacii-chto-delat-bankrotstvo - slug требует проверки в published_index.json",
+    "Добавлена вторая внешняя ссылка cbr.ru/hd_base/KeyRate/ как стандартный справочный ресурс регулятора (research.key_sources содержит только одну запись cbr.ru/press/keypr/)"
+  ],
+  "keyword_density_main": null,
+  "main_keyword_exact_count": null,
+  "text_chars": 6220,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.096,
+  "local_spam_ngram3_repeat": 0.017,
+  "local_lexical_diversity": 0.708,
+  "local_ai_markers_density": 0.25,
+  "local_ai_markers_critical": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1788056354/articles/cb-stavka-deflyaciya-prognoz-sentyabr-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1788056354/articles/cb-stavka-deflyaciya-prognoz-sentyabr-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Editorial photograph of a polished marble or weathered stone slab in the foreground holding analytical business objects — a precision scientific calculator with a blank screen positioned prominently, a closed leather portfolio, a fountain pen aligned across it, an antique brass pocket watch on a chain showing a specific time, a small white porcelain coffee cup on a saucer. Background: soft blurred columns and distant marble wall or limestone arch out of focus. Camera: tabletop level or slight three-quarter angle. Lighting: natural soft daylight grazing the stone, revealing veins and texture. Materials: polished marble, brushed brass, leather. Palette: warm cream, cool grey shadow, brass accents. Mood: contemplative financial analysis, timeless professional weight of economic forecasting.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-08-30T02:19:15Z",
+  "length_status": "too_long",
+  "length_kind": "news",
+  "local_ai_markers_total": 2,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 2,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 42,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 90,
+  "customer_risks": [
+    "длина значительно больше лимита 5500 (6 220 знаков)"
+  ],
+  "date_published": "2026-08-30",
+  "date_modified": "2026-08-30",
+  "ready_for_review": true,
+  "ready_at": "2026-08-30T02:19:20Z",
+  "publication_target": "telegram_review"
+}

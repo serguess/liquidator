@@ -6206,6 +6206,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "cb-stavka-deflyaciya-prognoz-sentyabr",
+      "category": "news",
+      "title": "Дефляция и прогноз ставки: аналитики ждут снижения",
+      "added_at": "2026-08-30T05:19:20.210380",
+      "char_count": 6220,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1788056354/articles/cb-stavka-deflyaciya-prognoz-sentyabr-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
