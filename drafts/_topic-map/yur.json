@@ -4889,7 +4889,11 @@
       "frequency_estimate": "medium",
       "rationale": "253-ФЗ заменил наблюдение реструктуризацией — принципиальное изменение, которое ещё не осмыслено большинством юристов и директоров. Статья-разбор закрывает запросы на понимание нового порядка.",
       "expected_length_chars": 7000,
-      "topic_action": "реструктуризация по 253-ФЗ"
+      "topic_action": "реструктуризация по 253-ФЗ",
+      "status": "rejected",
+      "rejected_at": "2026-08-30T19:36:18",
+      "rejected_reason": "cannibalization:preflight:restrukturizaciya-dolgov-bankrotstvo-rost-planov",
+      "rejected_by": "auto_skip_in_slot"
     },
     {
       "id": "yur-178",
