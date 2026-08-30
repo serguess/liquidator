@@ -6258,6 +6258,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "prava-poruchitelya-pri-vzykanii-bankom",
+      "category": "vzysk",
+      "title": "Права поручителя при взыскании долга банком",
+      "added_at": "2026-08-31T00:42:56.400539",
+      "char_count": 8739,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1788126171/articles/prava-poruchitelya-pri-vzykanii-bankom-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

@@ -1,0 +1,112 @@
+{
+  "slug": "prava-poruchitelya-pri-vzykanii-bankom",
+  "category": "vzysk",
+  "title": "Права поручителя при взыскании долга банком",
+  "description": "Разбираемся, какие права есть у поручителя при взыскании долга банком, как оспорить требования и защитить себя в исполнительном производстве.",
+  "h1": "Права поручителя при взыскании долга банком: как защитить себя",
+  "lead": "Долг чужой, а требование - к вам. Разбираем права поручителя при взыскании банком: от возражений в суде до защиты доходов и имущества на стадии приставов.",
+  "topic_action": "защиту прав поручителя",
+  "breadcrumb_current": "Права поручителя при взыскании",
+  "og_image": "/assets/articles/prava-poruchitelya-pri-vzykanii-bankom.jpg",
+  "main_keyword": "права поручителя при взыскании банком",
+  "secondary_keywords": [
+    "поручитель и взыскание долга",
+    "ответственность поручителя перед банком",
+    "как оспорить взыскание с поручителя",
+    "защита прав поручителя при исполнительном производстве",
+    "взыскание долга с поручителя в арбитраже",
+    "когда поручитель может отказать в платеже",
+    "исполнительный лист в отношении поручителя",
+    "порядок взыскания по договору поручительства",
+    "имущество поручителя при взыскании"
+  ],
+  "internal_links": [
+    "/articles/vzysk/arest-zarplaty-pristavami-bankrotstvo"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_5142/"
+  ],
+  "faq": [
+    {
+      "question": "Обязан ли кредитор сначала взыскать долг с заёмщика, а потом идти к поручителю?",
+      "answer": "Нет, если в договоре поручительства солидарная ответственность - это стандарт по ст. 363 ГК РФ. Иск можно подать сразу к поручителю или к обоим одновременно. Обязанность соблюсти очередь появляется только при субсидиарном варианте, и он должен быть прямо прописан в договоре словом «субсидиарная»."
+    },
+    {
+      "question": "До какого предела удерживают из зарплаты поручителя?",
+      "answer": "Не более 50% суммы после вычета НДФЛ (ст. 99 ч. 2 ФЗ-229). При начислении 82 400 руб. после налога остаётся 71 688 - максимальное удержание около 35 844 руб. Повышенные 70% применяются только по алиментам, компенсации вреда здоровью и ущербу от преступления - к кредитным долгам не относится."
+    },
+    {
+      "question": "Что делать, если с момента просрочки прошло больше трёх лет?",
+      "answer": "Заявить в заседании об истечении исковой давности (ст. 196 ГК РФ). Суд не применяет её автоматически - нужно письменное ходатайство от вашей стороны. Если кредитор не докажет уважительных причин пропуска срока - требование признают погашенным."
+    },
+    {
+      "question": "Могут ли забрать единственную квартиру поручителя?",
+      "answer": "Нет, если она не в ипотеке. Единственное пригодное для проживания жильё защищено иммунитетом от взыскания (ст. 446 ГПК). Ипотечная квартира этой защиты лишена - её могут выставить на торги."
+    },
+    {
+      "question": "Прекращается ли поручительство, если банк изменил условия кредита без согласия поручителя?",
+      "answer": "В части изменённых параметров - да. При повышении ставки, продлении срока или пересмотре графика без письменного согласия поручитель вправе требовать освобождения от ответственности за изменённую часть (ст. 367 п. 1 ГК РФ). В изначальных параметрах обязательство сохраняется."
+    },
+    {
+      "question": "Какую сумму банк может взыскать с поручителя через приказ без заседания?",
+      "answer": "До 500 000 рублей - через судебный приказ за 5-7 дней без судебного разбирательства (ст. 229.2 АПК РФ). Свыше этой суммы нужен полноценный иск. На возражение по приказу даётся 10 дней с момента получения копии."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все факты сверены с research.json. last_verified: 2026-08-31, legislation_status: active для всех норм.",
+    "Солидарная ответственность по ст. 363 ГК РФ - стандарт банковского поручительства (f2, f3). Контекст применения корректен.",
+    "Субсидиарная ответственность (ст. 365 п. 1 ГК РФ): обязанность предварительного требования к должнику верифицирована (f12).",
+    "Судебный приказ: порог 500 000 руб. и срок 5-7 дней (ст. 229.2 АПК РФ) - верифицирован f5.",
+    "Исполнительский сбор: 7% от суммы взыскания, минимум 1 000 руб. (ст. 112 ч. 3 ФЗ-229), оспаривание в 10 дней - верифицирован f8.",
+    "Удержание из зарплаты: не более 50% после НДФЛ (ст. 99 ч. 2 ФЗ-229) - верифицирован f7. Числовой пример 82 400 → 71 688 → 35 844 арифметически корректен.",
+    "Срок давности: 3 года с момента первой просрочки (ст. 196 ГК РФ). Автоматическое неприменение - верифицирован f11.",
+    "Ст. 367 п. 1 ГК РФ - прекращение поручительства при изменении условий без согласия - верифицирован f10.",
+    "Ст. 446 ГПК - иммунитет единственного жилья, не в ипотеке - верифицирован f9.",
+    "Ст. 362 ГК РФ - обязательная письменная форма; отсутствие = незаключённость - верифицирован f1.",
+    "Ст. 365 п. 2 ГК РФ - публичные возражения поручителя допустимы, личные возражения должника - нет - верифицирован f4.",
+    "Forbidden claims проверены: ни одно недопустимое утверждение в тексте не присутствует."
+  ],
+  "keyword_density_main": 0.012,
+  "main_keyword_exact_count": 2,
+  "text_chars": 8739,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.086,
+  "local_spam_ngram3_repeat": 0.015,
+  "local_lexical_diversity": 0.624,
+  "local_ai_markers_density": 0.19,
+  "local_ai_markers_critical": 0,
+  "local_ai_markers_total": 2,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 3,
+  "local_first_person_singular_hits": 0,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1788126171/articles/prava-poruchitelya-pri-vzykanii-bankom-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1788126171/articles/prava-poruchitelya-pri-vzykanii-bankom-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Photograph of a contemporary conference room or shared workspace built with natural materials — light oak, raw concrete, linen-upholstered chairs, indoor plants in raw clay pots. Foreground on the light oak surface: sleek closed laptop, leather-bound notebook with fountain pen resting across it, polished brass round seal, smartphone face-down. Background: floor-to-ceiling windows opening onto cityscape, daylight or evening light. Camera: three-quarter angle, eye-level, shallow DOF. Lighting: bright cool daylight. Mood: contemporary professional, representing a guarantor's legal documentation and responsibility during debt collection proceedings.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-08-30T21:42:52Z",
+  "length_status": "too_long",
+  "length_kind": "default",
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 50,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "длина значительно больше лимита 6500 (8 739 знаков)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "length_too_long: 8739 > 6500 (kind=default)",
+    "targeted_tokens_over_limit: ст_сокращение=16(>≤5), РФ_рудимент=9(>≤2), ГК_кодекс=8(>≤3)",
+    "broken_internal_links: 1 ссылок без соответствия в published_index (/articles/vzysk/arest-zarplaty-pristavami-bankrotstvo: slug 'arest-zarplaty-pristavami-bankrotstvo' не найден в категории 'vzysk' (есть: fiz))"
+  ],
+  "date_published": "2026-08-31",
+  "date_modified": "2026-08-31",
+  "ready_for_review": true,
+  "ready_at": "2026-08-30T21:42:56Z",
+  "publication_target": "telegram_review"
+}
