@@ -11653,7 +11653,7 @@
     "bankrotstvo-kfh-fermerskoe-hozyajstvo": {
       "category": "yur",
       "title": "Банкротство КФХ: порядок и требования к процедуре",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -11661,14 +11661,16 @@
       "tg_message_id": 2566,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-08-29T20:16:17",
-      "last_action_at": "2026-08-30T10:00:11",
+      "last_action_at": "2026-08-30T15:16:37",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/yur/bankrotstvo-kfh-fermerskoe-hozyajstvo",
       "pending_batch": false,
       "pending_batch_at": "2026-08-29T20:16:17",
       "batch_sent_at": "2026-08-30T10:00:11",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-08-30T15:16:37",
+      "articles_path": "articles/yur/bankrotstvo-kfh-fermerskoe-hozyajstvo.html"
     },
     "vzyskanie-dolga-s-kazennogo-uchrezhdeniya": {
       "category": "vzysk",
