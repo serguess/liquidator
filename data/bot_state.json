@@ -11675,7 +11675,7 @@
     "vzyskanie-dolga-s-kazennogo-uchrezhdeniya": {
       "category": "vzysk",
       "title": "Как взыскать долг с казённого учреждения через арбитраж",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -11683,14 +11683,16 @@
       "tg_message_id": 2568,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-08-30T01:13:21",
-      "last_action_at": "2026-08-30T10:00:14",
+      "last_action_at": "2026-08-30T15:17:01",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/vzysk/vzyskanie-dolga-s-kazennogo-uchrezhdeniya",
       "pending_batch": false,
       "pending_batch_at": "2026-08-30T01:13:21",
       "batch_sent_at": "2026-08-30T10:00:14",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-08-30T15:17:01",
+      "articles_path": "articles/vzysk/vzyskanie-dolga-s-kazennogo-uchrezhdeniya.html"
     },
     "cb-stavka-deflyaciya-prognoz-sentyabr": {
       "category": "news",
