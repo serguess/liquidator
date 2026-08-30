@@ -6232,6 +6232,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "alimenty-roditelyam-bankrotstvo-fizlica",
+      "category": "fiz",
+      "title": "Алименты нетрудоспособным родителям при банкротстве",
+      "added_at": "2026-08-30T15:12:19.769293",
+      "char_count": 7691,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1788091934/articles/alimenty-roditelyam-bankrotstvo-fizlica-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
