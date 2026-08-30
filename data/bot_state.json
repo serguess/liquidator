@@ -11697,7 +11697,7 @@
     "cb-stavka-deflyaciya-prognoz-sentyabr": {
       "category": "news",
       "title": "Дефляция и прогноз ставки: аналитики ждут снижения",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -11705,14 +11705,16 @@
       "tg_message_id": 2570,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-08-30T05:20:09",
-      "last_action_at": "2026-08-30T10:00:16",
+      "last_action_at": "2026-08-30T15:17:16",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/news/cb-stavka-deflyaciya-prognoz-sentyabr",
       "pending_batch": false,
       "pending_batch_at": "2026-08-30T05:20:09",
       "batch_sent_at": "2026-08-30T10:00:16",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-08-30T15:17:16",
+      "articles_path": "articles/news/cb-stavka-deflyaciya-prognoz-sentyabr.html"
     },
     "cb-rezervy-po-kreditam-bankrotov-metodika": {
       "category": "news",
