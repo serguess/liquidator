@@ -11631,20 +11631,24 @@
     "bankrotstvo-rassrochka-ot-zastrojshchika": {
       "category": "fiz",
       "title": "Банкротство при покупке квартиры в рассрочку",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 2564,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-08-29T15:29:14",
-      "last_action_at": "2026-08-29T15:29:14",
+      "last_action_at": "2026-08-30T15:16:13",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-08-29T15:29:14"
+      "published_url": "https://pravo.shop/articles/fiz/bankrotstvo-rassrochka-ot-zastrojshchika",
+      "pending_batch": false,
+      "pending_batch_at": "2026-08-29T15:29:14",
+      "batch_sent_at": "2026-08-30T10:00:09",
+      "batch_fail_count": 0,
+      "published_at": "2026-08-30T15:16:13",
+      "articles_path": "articles/fiz/bankrotstvo-rassrochka-ot-zastrojshchika.html"
     },
     "bankrotstvo-kfh-fermerskoe-hozyajstvo": {
       "category": "yur",
@@ -11654,15 +11658,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 2566,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-08-29T20:16:17",
-      "last_action_at": "2026-08-29T20:16:17",
+      "last_action_at": "2026-08-30T10:00:11",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-08-29T20:16:17"
+      "pending_batch": false,
+      "pending_batch_at": "2026-08-29T20:16:17",
+      "batch_sent_at": "2026-08-30T10:00:11",
+      "batch_fail_count": 0
     },
     "vzyskanie-dolga-s-kazennogo-uchrezhdeniya": {
       "category": "vzysk",
@@ -11672,15 +11678,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 2568,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-08-30T01:13:21",
-      "last_action_at": "2026-08-30T01:13:21",
+      "last_action_at": "2026-08-30T10:00:14",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-08-30T01:13:21"
+      "pending_batch": false,
+      "pending_batch_at": "2026-08-30T01:13:21",
+      "batch_sent_at": "2026-08-30T10:00:14",
+      "batch_fail_count": 0
     },
     "cb-stavka-deflyaciya-prognoz-sentyabr": {
       "category": "news",
@@ -11690,15 +11698,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 2570,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-08-30T05:20:09",
-      "last_action_at": "2026-08-30T05:20:09",
+      "last_action_at": "2026-08-30T10:00:16",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-08-30T05:20:09"
+      "pending_batch": false,
+      "pending_batch_at": "2026-08-30T05:20:09",
+      "batch_sent_at": "2026-08-30T10:00:16",
+      "batch_fail_count": 0
     },
     "cb-rezervy-po-kreditam-bankrotov-metodika": {
       "category": "news",
@@ -11708,19 +11718,39 @@
       "versions": [
         "2.0"
       ],
+      "tg_message_id": 2572,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-08-30T08:44:11",
+      "last_action_at": "2026-08-30T10:00:18",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-08-30T08:44:11",
+      "batch_sent_at": "2026-08-30T10:00:18",
+      "batch_fail_count": 0
+    },
+    "alimenty-roditelyam-bankrotstvo-fizlica": {
+      "category": "fiz",
+      "title": "Алименты нетрудоспособным родителям при банкротстве",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
       "tg_message_id": null,
       "tg_chat_id": null,
-      "first_seen_at": "2026-08-30T08:44:11",
-      "last_action_at": "2026-08-30T08:44:11",
+      "first_seen_at": "2026-08-30T15:13:16",
+      "last_action_at": "2026-08-30T15:13:16",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
       "pending_batch": true,
-      "pending_batch_at": "2026-08-30T08:44:11"
+      "pending_batch_at": "2026-08-30T15:13:16"
     }
   },
   "pending_actions": [],
-  "last_batch_date": "2026-08-29",
-  "last_batch_count": 0,
-  "last_batch_at": "2026-08-29T10:00:07"
+  "last_batch_date": "2026-08-30",
+  "last_batch_count": 5,
+  "last_batch_at": "2026-08-30T10:00:18"
 }
