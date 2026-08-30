@@ -11719,22 +11719,37 @@
     "cb-rezervy-po-kreditam-bankrotov-metodika": {
       "category": "news",
       "title": "ЦБ изменил расчёт резервов банкротов",
-      "status": "pending_review",
-      "current_version": "2.0",
+      "status": "published",
+      "current_version": "2.2",
       "versions": [
-        "2.0"
+        "2.0",
+        "2.1",
+        "2.2"
       ],
       "tg_message_id": 2572,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-08-30T08:44:11",
-      "last_action_at": "2026-08-30T10:00:18",
-      "edits_history": [],
+      "last_action_at": "2026-08-30T15:22:22",
+      "edits_history": [
+        {
+          "version": "2.1",
+          "edit_text": "Неверная ссылка на Положении № 814-П - нужно сделать верную. \nКнопки, по которым предлагаешь оставить заявку: назови просто \"оставить заявку на консультацию\"",
+          "applied_at": "2026-08-30T15:20:48"
+        },
+        {
+          "version": "2.2",
+          "edit_text": "правильная ссылка на положение 814-П: https://www.consultant.ru/document/cons_doc_LAW_449072/",
+          "applied_at": "2026-08-30T15:22:01"
+        }
+      ],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/news/cb-rezervy-po-kreditam-bankrotov-metodika",
       "pending_batch": false,
       "pending_batch_at": "2026-08-30T08:44:11",
       "batch_sent_at": "2026-08-30T10:00:18",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-08-30T15:22:22",
+      "articles_path": "articles/news/cb-rezervy-po-kreditam-bankrotov-metodika.html"
     },
     "alimenty-roditelyam-bankrotstvo-fizlica": {
       "category": "fiz",

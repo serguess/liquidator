@@ -2,6 +2,19 @@
   "generated": "2026-08-30",
   "articles": [
     {
+      "slug": "cb-rezervy-po-kreditam-bankrotov-metodika",
+      "cat": "news",
+      "catLabel": "Новости",
+      "title": "ЦБ изменил расчёт резервов банкротов",
+      "desc": "Центробанк изменил методику резервирования по кредитам компаний-банкротов. Как это повлияет на капитал банков и что изменится в расчётах.",
+      "date": "30 августа 2026",
+      "dateIso": "2026-08-30",
+      "read": "4 мин.",
+      "tone": "b",
+      "img": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1788068631/articles/cb-rezervy-po-kreditam-bankrotov-metodika-cover.jpg",
+      "url": "articles/news/cb-rezervy-po-kreditam-bankrotov-metodika"
+    },
+    {
       "slug": "cb-stavka-deflyaciya-prognoz-sentyabr",
       "cat": "news",
       "catLabel": "Новости",
