@@ -1,0 +1,97 @@
+{
+  "slug": "cb-rezervy-po-kreditam-bankrotov-metodika",
+  "category": "news",
+  "title": "ЦБ изменил расчёт резервов банкротов",
+  "description": "Центробанк изменил методику резервирования по кредитам компаний-банкротов. Как это повлияет на капитал банков и что изменится в расчётах.",
+  "h1": "ЦБ изменит методику расчёта резервов по кредитам компаний-банкротов",
+  "lead": "В августе 2026 года Центробанк пересмотрел подходы к оценке потерь по ссудам компаний в процедуре несостоятельности - разбираем, что изменилось и кого зацепит сильнее.",
+  "topic_action": "разбор изменений методики резервирования ЦБ",
+  "breadcrumb_current": "Резервы по кредитам банкротов",
+  "og_image": "/assets/articles/cb-rezervy-po-kreditam-bankrotov-metodika.jpg",
+  "main_keyword": "резервы по кредитам банкротов",
+  "secondary_keywords": [
+    "методика резервирования центробанка",
+    "резервы на возможные потери кредиты",
+    "расчет резервов компании-банкроты",
+    "положение ЦБ резервирование",
+    "влияние на капитал банков",
+    "кредиты должникам в банкротстве",
+    "норматив резервирования ЦБ"
+  ],
+  "intent": "informational",
+  "funnel_stage": "warm",
+  "article_type": "B",
+  "offer": "raschet-stoimosti",
+  "event_date": "2026-08-03",
+  "news_zone": "finance",
+  "internal_links": [
+    "/articles/yur/bankrotstvo-ooo-poshagovo-2026"
+  ],
+  "external_links": [
+    "https://www.interfax.ru/business/1107219",
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/"
+  ],
+  "faq": [
+    {
+      "question": "Что такое резервы и зачем их создавать?",
+      "answer": "Это отчисления, которые финансовая структура откладывает под потенциальные невозвраты. Если заёмщик перестаёт платить, потери покрываются за счёт ранее сформированного фонда, а не текущей прибыли квартала."
+    },
+    {
+      "question": "Надо ли доначислить сразу после введения процедуры несостоятельности?",
+      "answer": "Да, переклассификация оформляется, как правило, в том же отчётном периоде, в котором арбитраж принял заявление. Затягивать опасно - надзор увидит расхождение и выпишет предписание."
+    },
+    {
+      "question": "Почему регулятор обновил правила именно для ссуд компаний в банкротстве?",
+      "answer": "Точные мотивы Центробанк раскроет в пояснительной записке к документу. По практике последних лет орган реагирует на статистику дефолтов: если возвраты по банкротным ссудам стабильно ниже прогноза, ставки отчислений повышают."
+    },
+    {
+      "question": "Как рост отчислений отражается на ценах для остальных заёмщиков?",
+      "answer": "Косвенно, через давление на прибыль. Коммерческий кредитор, потерявший доходность на одном сегменте, обычно компенсирует её надбавкой к цене денег для менее рисковых клиентов. Эффект разворачивается за квартал-два."
+    },
+    {
+      "question": "Можно ли оспорить пересадку займа в более рискованную корзину?",
+      "answer": "Внутри организации - да, через комитет по управлению рисками, если есть доказательства платёжеспособности заёмщика. Спорить с надзором сложнее: там нужна аргументация с расчётами и подтверждающими документами."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "f3 (коэффициенты резервирования): legislation_status=needs_verification - использована safe_phrasing, цифры 0/20/50/80/100% оставлены с явным указанием «минимум»",
+    "f6 (августовские изменения): needs_verification - конкретные параметры новых коэффициентов не заявлены, использована обтекаемая формулировка",
+    "Срок переклассификации в draft («окно жёсткое - до конца периода») смягчён до «как правило, в том же отчётном периоде» согласно safe_phrasing f4, которая указывает на зависимость от политики банка и ЦБ",
+    "Forbidden_claims не использованы в тексте"
+  ],
+  "keyword_density_main": null,
+  "main_keyword_exact_count": null,
+  "text_chars": 5365,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.089,
+  "local_spam_ngram3_repeat": 0.027,
+  "local_lexical_diversity": 0.728,
+  "local_ai_markers_density": 0.28,
+  "local_ai_markers_critical": 0,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1788068631/articles/cb-rezervy-po-kreditam-bankrotov-metodika-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1788068631/articles/cb-rezervy-po-kreditam-bankrotov-metodika-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Editorial photograph of a high-floor executive office corner, contemporary business setting. Foreground: a polished dark walnut desk displaying a closed thin silver laptop, a polished brass round seal of a financial regulator, a leather-bound notebook, a sleek fountain pen, a smartphone face-down with blurred notifications, a white porcelain coffee cup on a saucer. Materials: walnut, brushed steel, polished brass, leather. Background through floor-to-ceiling windows: expansive blurred urban financial district skyline at dusk with distant building lights bokeh. Camera: shallow depth of field, three-quarter angle at eye level. Lighting: cool ambient daylight from windows blended with warm interior tungsten desk glow. Mood: contemporary regulatory authority, financial decision-making, market-moving change.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-08-30T05:43:52Z",
+  "length_status": "warn",
+  "length_kind": "news",
+  "local_ai_markers_total": 2,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 2,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 42,
+  "predicted_ai_pct": 6,
+  "predicted_uniqueness_pct": 90,
+  "customer_risks": [],
+  "date_published": "2026-08-30",
+  "date_modified": "2026-08-30",
+  "ready_for_review": true,
+  "ready_at": "2026-08-30T05:43:57Z",
+  "publication_target": "telegram_review"
+}

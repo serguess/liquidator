@@ -6219,6 +6219,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "cb-rezervy-po-kreditam-bankrotov-metodika",
+      "category": "news",
+      "title": "ЦБ изменил расчёт резервов банкротов",
+      "added_at": "2026-08-30T08:43:57.603205",
+      "char_count": 5365,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1788068631/articles/cb-rezervy-po-kreditam-bankrotov-metodika-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
