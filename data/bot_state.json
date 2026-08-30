@@ -11627,10 +11627,100 @@
       "batch_fail_count": 0,
       "published_at": "2026-08-22T12:55:48",
       "articles_path": "articles/news/nbki-samozapret-na-kredity-792-tysyach-iyul.html"
+    },
+    "bankrotstvo-rassrochka-ot-zastrojshchika": {
+      "category": "fiz",
+      "title": "Банкротство при покупке квартиры в рассрочку",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-08-29T15:29:14",
+      "last_action_at": "2026-08-29T15:29:14",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-08-29T15:29:14"
+    },
+    "bankrotstvo-kfh-fermerskoe-hozyajstvo": {
+      "category": "yur",
+      "title": "Банкротство КФХ: порядок и требования к процедуре",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-08-29T20:16:17",
+      "last_action_at": "2026-08-29T20:16:17",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-08-29T20:16:17"
+    },
+    "vzyskanie-dolga-s-kazennogo-uchrezhdeniya": {
+      "category": "vzysk",
+      "title": "Как взыскать долг с казённого учреждения через арбитраж",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-08-30T01:13:21",
+      "last_action_at": "2026-08-30T01:13:21",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-08-30T01:13:21"
+    },
+    "cb-stavka-deflyaciya-prognoz-sentyabr": {
+      "category": "news",
+      "title": "Дефляция и прогноз ставки: аналитики ждут снижения",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-08-30T05:20:09",
+      "last_action_at": "2026-08-30T05:20:09",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-08-30T05:20:09"
+    },
+    "cb-rezervy-po-kreditam-bankrotov-metodika": {
+      "category": "news",
+      "title": "ЦБ изменил расчёт резервов банкротов",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-08-30T08:44:11",
+      "last_action_at": "2026-08-30T08:44:11",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-08-30T08:44:11"
     }
   },
   "pending_actions": [],
-  "last_batch_date": "2026-08-22",
-  "last_batch_count": 5,
-  "last_batch_at": "2026-08-22T10:00:18"
+  "last_batch_date": "2026-08-29",
+  "last_batch_count": 0,
+  "last_batch_at": "2026-08-29T10:00:07"
 }

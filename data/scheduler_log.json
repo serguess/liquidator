@@ -38572,5 +38572,99 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-08-30T08:30:04",
+    "category": "news",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 4,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "news-161",
+    "topic_slug": "cb-rezervy-po-kreditam-bankrotov-metodika",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "finalize_safety_net": {
+      "ran": true,
+      "rc": 0
+    },
+    "status": "ok",
+    "slug": "cb-rezervy-po-kreditam-bankrotov-metodika",
+    "duration_sec": 833.1,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "0    159862\n6-seo-editor        sonnet            6      14    56928     28278     56948\n7-publisher         haiku            20       8    36292     39548     36320\n------------------------------------------------------------------------------------------\nИТОГО                               130      69   565329    265038    565528\nBillable-токенов на статью: ~565K (cache_read 265K не считается в лимит подписки).\nАртефакты: drafts/cb-rezervy-po-kreditam-bankrotov-metodika/  | quality_gate exit=0",
+    "stderr_tail": "",
+    "tokens_by_model": {},
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 5365
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
+  },
+  {
+    "timestamp": "2026-08-30T08:44:00",
+    "category": "news",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 5,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "news_sanitized": 3,
+    "expanded_in_slot": true,
+    "topic_id": "news-162",
+    "topic_slug": "ipotechnaya-zadolzhennost-rossiyane-rost-dolzhniki",
+    "status": "failed",
+    "slug": "ipotechnaya-zadolzhennost-rossiyane-rost-dolzhniki",
+    "duration_sec": 1039.3,
+    "returncode": 1,
+    "rescued_after_failure": false,
+    "stdout_tail": "=== 1-semantics (claude haiku) ===\n   ok: 1444 симв., usage in=20 out=4 cache_w=27528 cache_r=39548 billable=27552 ток, 33.0с\n=== 2-legal-research (claude haiku) ===\n   ok: 17111 симв., usage in=92 out=24 cache_w=198470 cache_r=335894 billable=198586 ток, 88.4с",
+    "stderr_tail": "[ERR] rate_limit: put_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard\",\"cache_creation\":{\"ephemeral_1h_input_tokens\":0,\"ephemeral_5m_input_tokens\":0},\"inference_geo\":\"\",\"iterations\":[],\"speed\":\"standard\"},\"modelUsage\":{},\"permission_denials\":[],\"terminal_reason\":\"completed\",\"fast_mode_state\":\"off\",\"uuid\":\"2d317901-26de-45e7-b053-502eec66f95e\"}\n\n",
+    "tokens_by_model": {},
+    "metrics": null
   }
 ]
