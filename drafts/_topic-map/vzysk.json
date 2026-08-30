@@ -4070,7 +4070,11 @@
       "frequency_estimate": "high",
       "rationale": "Дебиторская задолженность — критическая боль малого и среднего бизнеса. Тема охватывает весь путь B2B-клиента: от запроса «как взыскать» до обращения к юристу за сопровождением дела.",
       "expected_length_chars": 7000,
-      "topic_action": "взыскание дебиторской задолженности"
+      "topic_action": "взыскание дебиторской задолженности",
+      "status": "rejected",
+      "rejected_at": "2026-08-31T00:24:13",
+      "rejected_reason": "cannibalization:preflight:cluster:vzysk-debitorka-algorithm",
+      "rejected_by": "auto_skip_in_slot"
     },
     {
       "id": "vzysk-150",
