@@ -1,0 +1,109 @@
+{
+  "slug": "osparivanie-mirovogo-soglasheniya-bankrotstvo-yurlica",
+  "category": "yur",
+  "title": "Как оспорить мировое соглашение при банкротстве юрлица",
+  "description": "На каких основаниях можно оспорить мировое соглашение при банкротстве компании, кто вправе подать заявление и что происходит с делом после отмены.",
+  "h1": "Оспаривание мирового соглашения при банкротстве юридического лица: основания и порядок",
+  "lead": "Оспоримое с трёхлетним окном и ничтожное без срока давности: разбираем, когда закон позволяет аннулировать утверждённое судом соглашение и что происходит с делом компании после отмены.",
+  "topic_action": "оспаривание мирового соглашения",
+  "breadcrumb_current": "Оспаривание мирового соглашения",
+  "og_image": "/assets/articles/osparivanie-mirovogo-soglasheniya-bankrotstvo-yurlica.jpg",
+  "main_keyword": "оспаривание мирового соглашения при банкротстве",
+  "secondary_keywords": [
+    "мировое соглашение при банкротстве юрлица",
+    "основания для оспаривания мирового соглашения",
+    "порядок оспаривания мирового соглашения",
+    "как оспорить договор в банкротстве",
+    "судебный порядок оспаривания соглашения",
+    "мировое соглашение недействительно",
+    "требования к мировому соглашению",
+    "обжалование мирового соглашения"
+  ],
+  "internal_links": [
+    "/articles/yur/kak-oformit-mirovoe-soglashenie-pri-bankrotstve-yurlica",
+    "/articles/yur/kak-osporit-dejstviya-arbitrazhnogo-upravlyayuschego",
+    "/articles/yur/kak-osporit-trebovanie-kreditorov-v-reestre-pri-bankrotstve-yurlica"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/"
+  ],
+  "faq": [
+    {
+      "question": "Можно ли оспорить мировое соглашение, если за него проголосовало большинство кредиторов?",
+      "answer": "Да. Большинство голосов - лишь одно из условий действительности. Если нарушены требования ст. 179 127-ФЗ (сговор, введение в заблуждение, процедурные дефекты), арбитраж отменит соглашение даже при формально собранном кворуме."
+    },
+    {
+      "question": "Что происходит с банкротством юрлица после признания мирового соглашения недействительным?",
+      "answer": "Дело возвращается на стадию, предшествующую утверждению соглашения. Конкурсный управляющий продолжает работу, реестр восстанавливается в прежней редакции. Требования кредиторов восстанавливаются за вычетом уже полученного по соглашению."
+    },
+    {
+      "question": "Может ли конкурсный управляющий подать заявление без согласия собрания кредиторов?",
+      "answer": "Да, по ст. 93 п. 4 127-ФЗ. При наличии доказательств нарушений управляющий вправе действовать самостоятельно - особенно если собрание контролируют лица, заинтересованные в сохранении спорного соглашения."
+    },
+    {
+      "question": "Как долго рассматривается заявление об оспаривании мирового соглашения?",
+      "answer": "От четырёх месяцев до полутора лет. Срок зависит от сложности дела, числа сторон и необходимости экспертиз. Стороны нередко проходят апелляционную и кассационную инстанции."
+    },
+    {
+      "question": "Куда подаётся заявление об оспаривании мирового соглашения?",
+      "answer": "В арбитражный суд первой инстанции, который рассматривал дело о банкротстве. Подача в суд общей юрисдикции или сразу в апелляцию невозможна - такое обращение вернут без рассмотрения."
+    },
+    {
+      "question": "Действует ли трёхлетний срок на ничтожное мировое соглашение?",
+      "answer": "Нет. Три года - только для оспоримого (ст. 180 п. 3 127-ФЗ). Ничтожное соглашение не имеет юридической силы с момента подписания, и подать заявление о применении последствий можно в любое время, когда появились доказательства нарушения запрета ст. 178 127-ФЗ."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все факты сверены с research.json. Статусы: active. last_verified: 2026-08-30 для всех ключевых утверждений.",
+    "Ст. 180 п. 3 127-ФЗ: трёхлетний срок для оспоримого - подтверждён (f6). Срок объективный, не восстанавливается.",
+    "Ст. 178 127-ФЗ: основания ничтожности - подтверждены (f5, f12). Ничтожное недействительно без судебного решения; формальное подтверждение через арбитраж берут на практике.",
+    "Ст. 179 127-ФЗ: основания оспоримости (нарушение кворума, сговор, непредоставление информации, процедурные дефекты) - подтверждены (f4, f10).",
+    "Ст. 160 127-ФЗ: кворум - большинство по числу и по сумме требований - подтверждён (f2).",
+    "Ст. 93 п. 4 127-ФЗ: самостоятельные полномочия управляющего при наличии доказательств - подтверждены (f11).",
+    "Последствия отмены: требования восстанавливаются за вычетом выплаченного - соответствует safe_phrasing f9 и forbidden_claims (полное восстановление без учёта исполнения - запрещено). Формулировка в тексте корректна.",
+    "Процентные оценки (70% случаев, 60-80%/5-8%) представлены как наблюдения практики, не как юридические факты - forbidden_claims не нарушены."
+  ],
+  "keyword_density_main": 0.016,
+  "main_keyword_exact_count": 2,
+  "text_chars": 8444,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.102,
+  "local_spam_ngram3_repeat": 0.01,
+  "local_lexical_diversity": 0.622,
+  "local_ai_markers_density": 0.19,
+  "local_ai_markers_critical": 0,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1788109421/articles/osparivanie-mirovogo-soglasheniya-bankrotstvo-yurlica-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1788109421/articles/osparivanie-mirovogo-soglasheniya-bankrotstvo-yurlica-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Low-key photograph of a dark wood-paneled senior counsel's office at night. Single warm pool of light from a brass library lamp illuminates a leather-topped mahogany desk holding a closed dark leather portfolio with sealed envelope, fountain pen positioned at angle, antique brass pocket watch on a chain, polished brass company seal, reading glasses resting on a closed law book with embossed gilt spine, and a stack of dossiers tied with cord. Camera three-quarter angle, eye-level. Dominant warm tungsten glow with deep ambient shadows elsewhere. Palette: oxblood leather, walnut wood, burnished brass on near-black. Mood: senior counsel in late-night deliberation weighing the strategic decision to challenge contested settlement terms.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-08-30T17:03:43Z",
+  "length_status": "too_long",
+  "length_kind": "default",
+  "local_ai_markers_total": 2,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 3,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 49,
+  "predicted_ai_pct": 6,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "длина значительно больше лимита 6500 (8 444 знаков)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "targeted_tokens_over_limit: ст_сокращение=14(>≤5), 127фз_закон=13(>≤2)",
+    "author_markers_missing: 1 < 2",
+    "broken_internal_links: 2 ссылок без соответствия в published_index (/articles/yur/kak-oformit-mirovoe-soglashenie-pri-bankrotstve-yurlica: slug 'kak-oformit-mirovoe-soglashenie-pri-bankrotstve-yurlica' не найден в категории 'yur' (есть: нигде); /articles/yur/kak-osporit-dejstviya-arbitrazhnogo-upravlyayuschego: slug 'kak-osporit-dejstviya-arbitrazhnogo-upravlyayuschego' не найден в категории 'yur' (есть: нигде))"
+  ],
+  "date_published": "2026-08-30",
+  "date_modified": "2026-08-30",
+  "ready_for_review": true,
+  "ready_at": "2026-08-30T17:03:45Z",
+  "publication_target": "telegram_review"
+}
