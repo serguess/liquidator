@@ -1,0 +1,106 @@
+{
+  "slug": "cb-stavka-sentyabrskoe-zasedaniye-prognoz",
+  "category": "news",
+  "title": "Ставка ЦБ в сентябре: прогноз изменений для кредитов",
+  "description": "Сентябрьское заседание ЦБ: какую ставку ожидать, как решение повлияет на кредиты и ипотеку. Прогноз экспертов для заёмщиков.",
+  "h1": "Что ЦБ решит на сентябрьском заседании: прогноз для заёмщиков",
+  "lead": "Разбираем, что влияет на решение совета директоров ЦБ и как любое из возможных решений отразится на кредитных платежах новых и действующих заёмщиков.",
+  "topic_action": "расчёт условий кредита после решения ЦБ",
+  "breadcrumb_current": "Ставка ЦБ в сентябре",
+  "og_image": "/assets/articles/cb-stavka-sentyabrskoe-zasedaniye-prognoz.jpg",
+  "main_keyword": "ставка ЦБ сентябре",
+  "secondary_keywords": [
+    "решение ЦБ сентябрь",
+    "ключевая ставка сентябрь",
+    "ипотека при повышении ставки",
+    "кредитная ставка повышение",
+    "прогноз ставок ЦБ",
+    "монетарная политика сентябрь",
+    "заёмщик и ставка",
+    "ставка рефинансирования"
+  ],
+  "intent": "informational",
+  "funnel_stage": "cold",
+  "article_type": "B",
+  "offer": "raschet-stoimosti",
+  "event_date": "2026-08-26",
+  "news_zone": "finance",
+  "internal_links": [
+    "/articles/fiz/vnesudebnoe-bankrotstvo-cherez-mfc-2026",
+    "/articles/news/cb-rezervy-po-kreditam-bankrotov-metodika"
+  ],
+  "external_links": [
+    "https://cbr.ru/",
+    "https://www.vbr.ru/"
+  ],
+  "faq": [
+    {
+      "question": "Как часто ЦБ проводит плановые заседания в году?",
+      "answer": "Совет директоров собирается одиннадцать раз за календарный год. График публикуется заранее на официальном сайте cbr.ru, и любой заёмщик может свериться с датой перед крупным финансовым шагом."
+    },
+    {
+      "question": "Что происходит с ипотечными выплатами при повышении ставки ЦБ?",
+      "answer": "Действующая ипотека с фиксированным процентом не пересматривается: условия договора работают до финала срока. Новые программы для будущих покупателей жилья, как правило, становятся дороже, но масштаб и скорость подъёма зависят от политики каждой организации."
+    },
+    {
+      "question": "Пересмотрит ли банк условия действующего кредита вслед за решением?",
+      "answer": "Если процент в договоре фиксированный - нет, менять его в одностороннем порядке нельзя. Если формула плавающая и привязана к ключевому уровню, ежемесячный взнос поменяется автоматически. Читайте пункт про порядок расчёта процентов в договоре."
+    },
+    {
+      "question": "Где найти официальный пресс-релиз после заседания совета директоров?",
+      "answer": "На сайте cbr.ru в разделе, посвящённом решениям по денежно-кредитной политике. Пресс-релиз, среднесрочный прогноз и комментарий председателя выходят в день голосования."
+    },
+    {
+      "question": "Чем ключевая ставка отличается от ставки рефинансирования?",
+      "answer": "С 2016 года эти показатели приравнены: ставка рефинансирования формально существует для отдельных расчётов (неустойка, налоговые пени), но её значение равно ключевому. Оперативным инструментом монетарной политики выступает именно ключевая планка."
+    },
+    {
+      "question": "Стоит ли брать ипотеку до сентябрьского заседания ЦБ?",
+      "answer": "Универсального ответа нет. Мы советуем оценивать не одну дату, а комплекс факторов: собственную финансовую подушку, срок одобрения предложения, готовность объекта. Разговор с независимым специалистом помогает не гадать, а считать."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все факты f1-f4 из research.json верифицированы: last_verified 2026-08-31, legislation_status active",
+    "Запрещённые утверждения из forbidden_claims отсутствуют: нет гарантий по ставке, нет тезиса о мгновенной или одинаковой передаче по всем банкам",
+    "Факт о 11 заседаниях в год (f4) подтверждён, формулировка соответствует safe_phrasing",
+    "Факт о приравнивании ставки рефинансирования к ключевой с 2016 года отсутствует в research.json - использован как общеизвестный исторический факт; сформулирован без утверждений о будущих значениях",
+    "Внутренняя ссылка /articles/news/cb-rezervy-po-kreditam-bankrotov-metodika подтверждена как опубликованная (коммит publish в git log); ссылка /articles/fiz/vnesudebnoe-bankrotstvo-cherez-mfc-2026 - фигурирует в published_index в образце meta.json, считается активной"
+  ],
+  "keyword_density_main": null,
+  "main_keyword_exact_count": null,
+  "text_chars": 6346,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.096,
+  "local_spam_ngram3_repeat": 0.007,
+  "local_lexical_diversity": 0.695,
+  "local_ai_markers_density": 0.37,
+  "local_ai_markers_critical": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1788143968/articles/cb-stavka-sentyabrskoe-zasedaniye-prognoz-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1788143968/articles/cb-stavka-sentyabrskoe-zasedaniye-prognoz-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Editorial photograph of a financial analyst's desk by a tall window with contemporary aesthetic. Camera at table-eye level, slight three-quarter angle. On the walnut desktop: a closed thin modern laptop, a blank-spine leather notebook positioned open with a fountain pen resting across its pages, reading glasses beside the notebook, a polished brass desk lamp casting warm directional light, and a white porcelain coffee cup on a saucer to the right. Background through the window: blurred urban financial district skyline with soft overcast daylight creating muted bokeh. Lighting: cool natural daylight from window blended with warm tungsten from desk lamp. Materials: walnut, leather, brushed brass, polished porcelain. Premium contemporary financial-magazine aesthetic, neutral beige-graphite-brass palette. Mood: focused market analysis and forecast deliberation.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-08-31T02:39:29Z",
+  "length_status": "too_long",
+  "length_kind": "news",
+  "local_ai_markers_total": 3,
+  "local_ai_markers_high": 1,
+  "local_own_voice_hits": 3,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 47,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 90,
+  "customer_risks": [
+    "длина значительно больше лимита 5500 (6 346 знаков)"
+  ],
+  "date_published": "2026-08-31",
+  "date_modified": "2026-08-31",
+  "ready_for_review": true,
+  "ready_at": "2026-08-31T02:39:30Z",
+  "publication_target": "telegram_review"
+}

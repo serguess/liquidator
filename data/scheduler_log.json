@@ -38805,5 +38805,76 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-08-31T00:24:05",
+    "category": "vzysk",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 1,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "vzysk-150",
+    "topic_slug": "prava-poruchitelya-pri-vzykanii-bankom",
+    "auto_skipped": [
+      {
+        "slug": "debitorskaya-zadolzhennost-vzyskanie-arbitrazh",
+        "reason": "cannibalization:preflight:cluster:vzysk-debitorka-algorithm",
+        "duration_sec": 0
+      }
+    ],
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "forced_pass_at_iter2: блокеры пропущены, статья идёт в TG-очередь с metrics_warning=true. Было: 3 блокеров — length_too_long; targeted_tokens_over_limit; broken_internal_links"
+      ],
+      "recommendations": [
+        "reduce_length: сократить до 5000-6000 знаков",
+        "reduce_ст: «ст. X» × 16 → cap 5. Писать «статья X» полным словом, либо описательно («по правилу о процентах», «норма об исковой давности»). Cap 3 юр-цитаты на статью, остальное — пересказом.",
+        "reduce_РФ: «РФ» × 9 → cap 2. Удалить из «ГК РФ»/«ГПК РФ» — просто «ГК»/«ГПК» (контекст однозначный). Один раз в первом упоминании можно полное название.",
+        "fix_internal_links: заменить href на канонический /articles/{cat}/{slug} из published_index.json (см. .claude/style/editor-cheatsheet.md секция 6)"
+      ],
+      "stderr_tail": ""
+    },
+    "finalize_safety_net": {
+      "ran": true,
+      "rc": 0
+    },
+    "status": "ok",
+    "slug": "prava-poruchitelya-pri-vzykanii-bankom",
+    "duration_sec": 1130.3,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "4039     26744\n6-seo-editor        sonnet            6      14    66218     28278     66238\n7-publisher         haiku            20      10    36416     39548     36446\n------------------------------------------------------------------------------------------\nИТОГО                               150      79   524509    612276    524738\nBillable-токенов на статью: ~524K (cache_read 612K не считается в лимит подписки).\nАртефакты: drafts/prava-poruchitelya-pri-vzykanii-bankom/  | quality_gate exit=0",
+    "stderr_tail": "",
+    "tokens_by_model": {},
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 8739
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]

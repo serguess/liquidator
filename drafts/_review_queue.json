@@ -6271,6 +6271,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "cb-stavka-sentyabrskoe-zasedaniye-prognoz",
+      "category": "news",
+      "title": "Ставка ЦБ в сентябре: прогноз изменений для кредитов",
+      "added_at": "2026-08-31T05:39:30.084962",
+      "char_count": 6346,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1788143968/articles/cb-stavka-sentyabrskoe-zasedaniye-prognoz-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
