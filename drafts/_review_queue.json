@@ -6310,6 +6310,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "posledstviya-bankrotstva-dlya-trudoustrojstva",
+      "category": "fiz",
+      "title": "Последствия банкротства для трудоустройства физлица: запреты",
+      "added_at": "2026-08-31T15:17:00.633701",
+      "char_count": 9850,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1788178616/articles/posledstviya-bankrotstva-dlya-trudoustrojstva-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
