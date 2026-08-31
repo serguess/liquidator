@@ -11798,7 +11798,7 @@
     "prava-poruchitelya-pri-vzykanii-bankom": {
       "category": "vzysk",
       "title": "Права поручителя при взыскании долга банком",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -11806,14 +11806,16 @@
       "tg_message_id": 2597,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-08-31T00:43:22",
-      "last_action_at": "2026-08-31T10:00:08",
+      "last_action_at": "2026-08-31T18:24:38",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/vzysk/prava-poruchitelya-pri-vzykanii-bankom",
       "pending_batch": false,
       "pending_batch_at": "2026-08-31T00:43:22",
       "batch_sent_at": "2026-08-31T10:00:08",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-08-31T18:24:38",
+      "articles_path": "articles/vzysk/prava-poruchitelya-pri-vzykanii-bankom.html"
     },
     "cb-stavka-sentyabrskoe-zasedaniye-prognoz": {
       "category": "news",
