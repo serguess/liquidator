@@ -11842,7 +11842,7 @@
     "bankrotstvo-obzor-praktiki-vs-garant-avgust": {
       "category": "news",
       "title": "ВС по банкротству: судебная практика и позиции",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -11850,14 +11850,16 @@
       "tg_message_id": 2601,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-08-31T09:10:06",
-      "last_action_at": "2026-08-31T10:00:13",
+      "last_action_at": "2026-08-31T18:25:41",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/news/bankrotstvo-obzor-praktiki-vs-garant-avgust",
       "pending_batch": false,
       "pending_batch_at": "2026-08-31T09:10:06",
       "batch_sent_at": "2026-08-31T10:00:13",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-08-31T18:25:41",
+      "articles_path": "articles/news/bankrotstvo-obzor-praktiki-vs-garant-avgust.html"
     },
     "psk-znacheniya-chetvertyj-kvartal-cb-kredity": {
       "category": "news",
