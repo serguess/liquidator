@@ -11759,19 +11759,119 @@
       "versions": [
         "2.0"
       ],
+      "tg_message_id": 2593,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-08-30T15:13:16",
+      "last_action_at": "2026-08-31T10:00:03",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-08-30T15:13:16",
+      "batch_sent_at": "2026-08-31T10:00:03",
+      "batch_fail_count": 0
+    },
+    "osparivanie-mirovogo-soglasheniya-bankrotstvo-yurlica": {
+      "category": "yur",
+      "title": "Как оспорить мировое соглашение при банкротстве юрлица",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 2595,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-08-30T20:04:19",
+      "last_action_at": "2026-08-31T10:00:06",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-08-30T20:04:19",
+      "batch_sent_at": "2026-08-31T10:00:06",
+      "batch_fail_count": 0
+    },
+    "prava-poruchitelya-pri-vzykanii-bankom": {
+      "category": "vzysk",
+      "title": "Права поручителя при взыскании долга банком",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 2597,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-08-31T00:43:22",
+      "last_action_at": "2026-08-31T10:00:08",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-08-31T00:43:22",
+      "batch_sent_at": "2026-08-31T10:00:08",
+      "batch_fail_count": 0
+    },
+    "cb-stavka-sentyabrskoe-zasedaniye-prognoz": {
+      "category": "news",
+      "title": "Ставка ЦБ в сентябре: прогноз изменений для кредитов",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 2599,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-08-31T05:40:04",
+      "last_action_at": "2026-08-31T10:00:10",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-08-31T05:40:04",
+      "batch_sent_at": "2026-08-31T10:00:10",
+      "batch_fail_count": 0
+    },
+    "bankrotstvo-obzor-praktiki-vs-garant-avgust": {
+      "category": "news",
+      "title": "ВС по банкротству: судебная практика и позиции",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 2601,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-08-31T09:10:06",
+      "last_action_at": "2026-08-31T10:00:13",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-08-31T09:10:06",
+      "batch_sent_at": "2026-08-31T10:00:13",
+      "batch_fail_count": 0
+    },
+    "psk-znacheniya-chetvertyj-kvartal-cb-kredity": {
+      "category": "news",
+      "title": "ЦБ обновил максимальные ставки по кредитам на Q4",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
       "tg_message_id": null,
       "tg_chat_id": null,
-      "first_seen_at": "2026-08-30T15:13:16",
-      "last_action_at": "2026-08-30T15:13:16",
+      "first_seen_at": "2026-08-31T09:46:06",
+      "last_action_at": "2026-08-31T09:46:06",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
       "pending_batch": true,
-      "pending_batch_at": "2026-08-30T15:13:16"
+      "pending_batch_at": "2026-08-31T09:46:06"
     }
   },
   "pending_actions": [],
-  "last_batch_date": "2026-08-30",
+  "last_batch_date": "2026-08-31",
   "last_batch_count": 5,
-  "last_batch_at": "2026-08-30T10:00:18"
+  "last_batch_at": "2026-08-31T10:00:13"
 }
