@@ -1,6 +1,19 @@
 {
-  "generated": "2026-08-30",
+  "generated": "2026-08-31",
   "articles": [
+    {
+      "slug": "alimenty-roditelyam-bankrotstvo-fizlica",
+      "cat": "fiz",
+      "catLabel": "Банкротство физических лиц",
+      "title": "Алименты нетрудоспособным родителям при банкротстве",
+      "desc": "Как насчитываются и взыскиваются алименты родителям при банкротстве физлица, что происходит с выплатами, порядок расчёта и приоритет выплат.",
+      "date": "31 августа 2026",
+      "dateIso": "2026-08-31",
+      "read": "5 мин.",
+      "tone": "b",
+      "img": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1788091934/articles/alimenty-roditelyam-bankrotstvo-fizlica-cover.jpg",
+      "url": "articles/fiz/alimenty-roditelyam-bankrotstvo-fizlica"
+    },
     {
       "slug": "cb-rezervy-po-kreditam-bankrotov-metodika",
       "cat": "news",
