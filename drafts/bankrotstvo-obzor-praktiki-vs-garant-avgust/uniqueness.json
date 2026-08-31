@@ -1,0 +1,28 @@
+{
+  "slug": "bankrotstvo-obzor-praktiki-vs-garant-avgust",
+  "article_id": 539,
+  "scores": {
+    "structure_overlap": 0.0,
+    "thesis_similarity": 0.261,
+    "cta_overlap": 0.111
+  },
+  "thresholds": {
+    "structure_overlap": 0.4,
+    "thesis_similarity": 0.3,
+    "cta_overlap": 0.2
+  },
+  "passed": true,
+  "peers_compared": 23,
+  "closest_peer": "kreditor-propustil-srok-bankrotstvo-otkaz-v-peresmotre",
+  "similar_articles": [
+    {
+      "slug": "kreditor-propustil-srok-bankrotstvo-otkaz-v-peresmotre",
+      "category": "news",
+      "similarity": 0.261
+    }
+  ],
+  "conflicts": [],
+  "recommendation": "ok",
+  "stored_in_db": true,
+  "note": "Вектор статьи записан в data/embeddings.sqlite (published=0). После публикации агент 7 переключит флаг на 1."
+}

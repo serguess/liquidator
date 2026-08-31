@@ -6284,6 +6284,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "bankrotstvo-obzor-praktiki-vs-garant-avgust",
+      "category": "news",
+      "title": "ВС по банкротству: судебная практика и позиции",
+      "added_at": "2026-08-31T09:09:56.278376",
+      "char_count": 7260,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1788156593/articles/bankrotstvo-obzor-praktiki-vs-garant-avgust-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
