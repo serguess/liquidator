@@ -2,6 +2,19 @@
   "generated": "2026-08-31",
   "articles": [
     {
+      "slug": "cb-stavka-sentyabrskoe-zasedaniye-prognoz",
+      "cat": "news",
+      "catLabel": "Новости",
+      "title": "Ставка ЦБ в сентябре: прогноз изменений для кредитов",
+      "desc": "Сентябрьское заседание ЦБ: какую ставку ожидать, как решение повлияет на кредиты и ипотеку. Прогноз экспертов для заёмщиков.",
+      "date": "31 августа 2026",
+      "dateIso": "2026-08-31",
+      "read": "4 мин.",
+      "tone": "b",
+      "img": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1788143968/articles/cb-stavka-sentyabrskoe-zasedaniye-prognoz-cover.jpg",
+      "url": "articles/news/cb-stavka-sentyabrskoe-zasedaniye-prognoz"
+    },
+    {
       "slug": "prava-poruchitelya-pri-vzykanii-bankom",
       "cat": "vzysk",
       "catLabel": "Взыскание задолженности",

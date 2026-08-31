@@ -11820,7 +11820,7 @@
     "cb-stavka-sentyabrskoe-zasedaniye-prognoz": {
       "category": "news",
       "title": "Ставка ЦБ в сентябре: прогноз изменений для кредитов",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -11828,14 +11828,16 @@
       "tg_message_id": 2599,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-08-31T05:40:04",
-      "last_action_at": "2026-08-31T10:00:10",
+      "last_action_at": "2026-08-31T18:25:01",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/news/cb-stavka-sentyabrskoe-zasedaniye-prognoz",
       "pending_batch": false,
       "pending_batch_at": "2026-08-31T05:40:04",
       "batch_sent_at": "2026-08-31T10:00:10",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-08-31T18:25:01",
+      "articles_path": "articles/news/cb-stavka-sentyabrskoe-zasedaniye-prognoz.html"
     },
     "bankrotstvo-obzor-praktiki-vs-garant-avgust": {
       "category": "news",
