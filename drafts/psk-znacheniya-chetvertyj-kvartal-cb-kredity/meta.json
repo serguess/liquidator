@@ -1,0 +1,101 @@
+{
+  "slug": "psk-znacheniya-chetvertyj-kvartal-cb-kredity",
+  "category": "news",
+  "title": "ЦБ обновил максимальные ставки по кредитам на Q4",
+  "description": "ЦБ установил новые максимальные ставки по кредитам на четвёртый квартал 2026. Изменения в пределах для ипотеки и потребительских кредитов.",
+  "h1": "Максимальные ставки по кредитам на четвёртый квартал: обновление ЦБ",
+  "lead": "Пятнадцатого августа 2026 года Центробанк опубликовал свежие максимальные ставки по потребительским кредитам на четвёртый квартал - банк не имеет права предложить условия дороже нового потолка.",
+  "topic_action": "расчёт полной стоимости кредита",
+  "breadcrumb_current": "Максимальные ставки Q4 2026",
+  "og_image": "/assets/articles/psk-znacheniya-chetvertyj-kvartal-cb-kredity.jpg",
+  "main_keyword": "максимальные ставки по кредитам цб",
+  "secondary_keywords": [
+    "пск четвёртый квартал",
+    "максимальная ставка по кредиту",
+    "пределы кредитования цб",
+    "максимальные ставки потребительский кредит",
+    "ставки кредита на q4"
+  ],
+  "intent": "informational",
+  "funnel_stage": "cold",
+  "article_type": "B",
+  "offer": "raschet-stoimosti",
+  "event_date": "2026-08-15",
+  "news_zone": "finance",
+  "internal_links": [],
+  "external_links": [
+    "https://www.cbr.ru/statistics/bank_sector/psk/",
+    "https://www.consultant.ru/document/cons_doc_LAW_153099/",
+    "https://www.consultant.ru/document/cons_doc_LAW_52203/"
+  ],
+  "faq": [
+    {
+      "question": "Чем ПСК отличается от процентной ставки, указанной в рекламе банка?",
+      "answer": "Рекламный процент - это только плата за пользование деньгами. Полная стоимость собирает вместе процент, комиссии и обязательные страховки, поэтому итог обычно заметно выше баннерной цифры. Сравнивать предложения корректно только по показателю ПСК."
+    },
+    {
+      "question": "Обязан ли банк указывать полную стоимость кредита в договоре?",
+      "answer": "Да, это прямая обязанность по 6-й статье ФЗ-353. Значение печатается на первой странице соглашения крупным шрифтом в правом верхнем углу, в чёрной рамке. Отсутствие такой рамки или мелкий шрифт - формальное нарушение."
+    },
+    {
+      "question": "Что делать, если банк предложил заём с ПСК выше максимума ЦБ?",
+      "answer": "Такой документ подписывать не стоит. Если он уже подписан, у клиента есть основание для жалобы в надзор и для оспаривания завышенных условий. Мы советуем сначала письменно запросить у банка расчёт полной стоимости и только потом идти в интернет-приёмную."
+    },
+    {
+      "question": "Распространяются ли лимиты на ипотечные займы?",
+      "answer": "Да, ипотека - отдельная категория с собственным потолком. Он ниже, чем по беззалоговым продуктам, потому что риск покрыт залогом недвижимости. Программы с господдержкой тоже вписаны в общую систему ограничений."
+    },
+    {
+      "question": "Где найти актуальные максимальные значения ПСК на четвёртый квартал 2026?",
+      "answer": "На официальном сайте: cbr.ru/statistics/bank_sector/psk/. Раздел обновляется в даты публикации новых предельных значений - на четвёртый квартал это 15 августа 2026 года. Другие источники могут отставать, ориентируйтесь на первоисточник."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "f1 (ФЗ-353 от 21.12.2013) - active, контекст применения к ПСК верен",
+    "f2 (Периодичность обновления ЦБ) - active, дата актуализации 15.08.2026 совпадает с текстом",
+    "f3 (Категории кредитов с отдельными потолками) - active, описаны все основные категории",
+    "f4 (ПСК определение как полная стоимость) - active, определение в статье соответствует safe_phrasing",
+    "f5 (Обязательность соблюдения максимальных ставок) - active, норма применяется к банкам корректно",
+    "f6 (Актуальные ставки на сайте ЦБ) - active, ссылка на cbr.ru/statistics/bank_sector/psk/ указана корректно",
+    "Запрещённые утверждения из forbidden_claims отсутствуют в тексте"
+  ],
+  "text_chars": 7619,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.092,
+  "local_spam_ngram3_repeat": 0.02,
+  "local_lexical_diversity": 0.636,
+  "local_ai_markers_density": 0.21,
+  "local_ai_markers_critical": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1788158715/articles/psk-znacheniya-chetvertyj-kvartal-cb-kredity-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1788158715/articles/psk-znacheniya-chetvertyj-kvartal-cb-kredity-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Photograph of a stone staircase inside an official financial institution, viewed from low-angle looking upward. Foreground at base of frame: a sealed envelope with polished brass round seal resting on a marble step, a closed dark leather portfolio leaning against an ornate stone column, an antique brass pocket watch positioned on weathered marble. Lighting: cool daylight from tall arched windows casting sharp shadows across steps and oxidized brass railings. Materials: weathered marble, oxidized brass, deep burgundy carpet runner ascending. Mood: institutional authority, financial regulation, quarterly policy shift, procedural escalation.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-08-31T06:45:16Z",
+  "length_status": "too_long",
+  "length_kind": "news",
+  "local_ai_markers_total": 2,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 2,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 49,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "длина значительно больше лимита 5500 (7 619 знаков)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "length_too_long: 7619 > 5500 (kind=news)"
+  ],
+  "date_published": "2026-08-31",
+  "date_modified": "2026-08-31",
+  "ready_for_review": true,
+  "ready_at": "2026-08-31T06:45:18Z",
+  "publication_target": "telegram_review"
+}
