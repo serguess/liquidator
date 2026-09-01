@@ -39362,5 +39362,10 @@
     "returncode": 1,
     "stdout_tail": "You've hit your limit · resets 10:20am (Europe/Moscow)",
     "stderr_tail": ""
+  },
+  {
+    "timestamp": "2026-09-01T10:00:06",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets 10:20am (Europe/Moscow)"
   }
 ]

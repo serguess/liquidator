@@ -1,0 +1,109 @@
+{
+  "slug": "bankrotstvo-studenta-bez-imushchestva",
+  "category": "fiz",
+  "title": "Банкротство студента: спишут ли долги без работы",
+  "description": "Может ли студент подать на банкротство, если нет работы и имущества. Какие долги спишут и какие нет, условия и процедура для студентов.",
+  "h1": "Может ли студент объявить себя банкротом: что спишут без работы и имущества",
+  "lead": "Разбираем, какой маршрут открыт в вашей ситуации, что реально стоит денег и какие три ошибки чаще всего срывают самостоятельную подачу.",
+  "topic_action": "банкротство студента",
+  "breadcrumb_current": "Банкротство студента",
+  "og_image": "/assets/articles/bankrotstvo-studenta-bez-imushchestva.jpg",
+  "main_keyword": "банкротство студента",
+  "secondary_keywords": [
+    "банкротство студента без имущества",
+    "может ли студент объявить себя банкротом",
+    "спишут ли долги студенту без работы",
+    "студент без доходов и имущества",
+    "какие долги спишут при банкротстве",
+    "образовательный кредит банкротство",
+    "условия банкротства для студента",
+    "банкротство с нулевым доходом",
+    "процедура банкротства физлица"
+  ],
+  "internal_links": [
+    "/articles/fiz/bank-otkazal-v-restrukturizacii-chto-delat-bankrotstvo.html",
+    "/articles/fiz/alimenty-pri-bankrotstve-fizlica.html"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/"
+  ],
+  "faq": [
+    {
+      "question": "Можно ли подать на банкротство, если долг меньше 500 000 рублей?",
+      "answer": "Да. Полмиллиона - это порог для случаев, когда в суд идёт кредитор. При самостоятельной подаче размер задолженности значения не имеет, важны признаки неплатёжеспособности."
+    },
+    {
+      "question": "Что будет с делом, если финуправляющий не найдёт никакого имущества?",
+      "answer": "Управляющий зафиксирует отсутствие активов в отчёте, судья завершит процедуру реализации. Обязательства перед взыскателями всё равно прекратятся - пустая масса не мешает списанию."
+    },
+    {
+      "question": "Обязательно ли вносить депозит до первого заседания или можно просить отсрочку?",
+      "answer": "Можно и нужно просить, если денег нет. Ходатайство об отсрочке подаётся вместе с заявлением - судья, как правило, откладывает платёж до первого слушания."
+    },
+    {
+      "question": "Спишут ли образовательный кредит вместе с остальными обязательствами?",
+      "answer": "Спишут. Он подпадает под общее правило освобождения от долгов, никаких привилегий для кредитора-займодавца закон не предусматривает. Уходит наравне с потребительским."
+    },
+    {
+      "question": "Сколько лет нельзя занимать руководящие должности после завершения дела?",
+      "answer": "Три года - запрет на позиции в органах управления любых юрлиц. Десять лет - на руководство банком или иной кредитной организацией."
+    },
+    {
+      "question": "Чем внесудебная процедура через МФЦ отличается от судебной для учащегося без работы?",
+      "answer": "МФЦ - бесплатно и за полгода, но нужен подтверждённый исполнительный документ и общая задолженность в коридоре от двадцати пяти тысяч до миллиона рублей. Судебная - дольше и требует депозит двадцать пять тысяч рублей на управляющего, но подходит при любых суммах и без исполнительного документа."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все юридические факты проверены против research.json. Статусы: active. last_verified в пределах 6 месяцев для ключевых утверждений.",
+    "Государственная пошлина: 0 руб. с 8 сентября 2024 года (ФЗ-176) - верифицировано.",
+    "Депозит финансового управляющего: 25 000 руб. за каждую процедуру (ст. 20.6 п. 3 127-ФЗ) - верифицировано.",
+    "Лимиты МФЦ: 25 000 - 1 000 000 руб. (ст. 223.2 п. 1 127-ФЗ, ред. от 09.04.2026) - верифицировано.",
+    "Сроки внесудебной процедуры: 1 день на проверку МФЦ, 3 дня на передачу в ЕФРСБ, 6 месяцев на расмотрение - верифицировано.",
+    "Реструктуризация требует наличие официального источника дохода (ст. 213.13 п. 1) - верифицировано.",
+    "Ограничения после банкротства: 3 года (органы управления юрлиц), 10 лет (кредитные организации) (ст. 213.30 127-ФЗ) - верифицировано.",
+    "Списываемые долги: образовательные кредиты, потребительские кредиты, микрозаймы, задолженность по ЖКХ (ст. 213.28 п. 3) - верифицировано.",
+    "Не списываются: алименты, вред жизни и здоровью, текущие коммунальные платежи после подачи заявления (ст. 213.28 п. 5-6) - верифицировано.",
+    "Все норм.акты в тексте ссылаются на действующие редакции 127-ФЗ от 26.10.2002."
+  ],
+  "keyword_density_main": 0.019,
+  "main_keyword_exact_count": 3,
+  "text_chars": 9086,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.08,
+  "local_spam_ngram3_repeat": 0.021,
+  "local_lexical_diversity": 0.657,
+  "local_ai_markers_density": 0.18,
+  "local_ai_markers_critical": 0,
+  "length_status": "too_long",
+  "length_kind": "default",
+  "local_ai_markers_total": 2,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 2,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 47,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 90,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1788266253/articles/bankrotstvo-studenta-bez-imushchestva-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1788266253/articles/bankrotstvo-studenta-bez-imushchestva-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Photograph of a private office interior with subdued warm tungsten lighting evoking focused deliberation. Deep walnut desk in foreground holds: a closed laptop, a leather-bound notebook, a fountain pen on a brass stand, a polished brass round seal, an antique pocket watch — symbols of careful consideration and time pressure. A brass library lamp casts focused directional light across the surface while deep ambient shadow envelops the frame. Vintage oxblood leather chesterfield visible in corner. Background: blurred bookshelves or dark window with distant city lights in bokeh. Camera: three-quarter angle, eye-level. Lighting: single warm tungsten pool, deep atmospheric shadow. Mood: solitary deliberation before difficult decision.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-09-01T12:37:34Z",
+  "customer_risks": [
+    "длина значительно больше лимита 6500 (9 086 знаков)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "length_too_long: 9086 > 6500 (kind=default)"
+  ],
+  "date_published": "2026-09-01",
+  "date_modified": "2026-09-01",
+  "ready_for_review": true,
+  "ready_at": "2026-09-01T12:37:36Z",
+  "publication_target": "telegram_review"
+}

@@ -6349,6 +6349,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "bankrotstvo-studenta-bez-imushchestva",
+      "category": "fiz",
+      "title": "Банкротство студента: спишут ли долги без работы",
+      "added_at": "2026-09-01T15:37:36.205695",
+      "char_count": 9086,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1788266253/articles/bankrotstvo-studenta-bez-imushchestva-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
