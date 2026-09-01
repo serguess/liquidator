@@ -39441,5 +39441,64 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-09-01T19:36:08",
+    "category": "yur",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 1,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "yur-180",
+    "topic_slug": "sro-otvetstvennost-pri-bankrotstve-chlena",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "length_soft_passed: 8098 > 6500 но ≤ 8500 и iteration=2 — пропускаем (приоритет spam/uniqueness/ai)"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "finalize_safety_net": {
+      "ran": true,
+      "rc": 0
+    },
+    "status": "ok",
+    "slug": "sro-otvetstvennost-pri-bankrotstve-chlena",
+    "duration_sec": 2503.8,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "6     51214\n6-seo-editor        haiku            20       8    66378     39548     66406\n7-publisher         haiku            20      10    36372     39548     36402\n------------------------------------------------------------------------------------------\nИТОГО                               176      97   639809    565130    640082\nBillable-токенов на статью: ~640K (cache_read 565K не считается в лимит подписки).\nАртефакты: drafts/sro-otvetstvennost-pri-bankrotstve-chlena/  | quality_gate exit=0",
+    "stderr_tail": "",
+    "tokens_by_model": {},
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 8098
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]
