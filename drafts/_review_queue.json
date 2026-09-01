@@ -6362,6 +6362,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "sro-otvetstvennost-pri-bankrotstve-chlena",
+      "category": "yur",
+      "title": "Ответственность СРО за управляющего при банкротстве",
+      "added_at": "2026-09-01T20:17:51.979093",
+      "char_count": 8098,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1788283066/articles/sro-otvetstvennost-pri-bankrotstve-chlena-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

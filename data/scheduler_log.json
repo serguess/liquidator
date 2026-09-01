@@ -39367,5 +39367,79 @@
     "timestamp": "2026-09-01T10:00:06",
     "status": "preflight_failed",
     "reason": "rate_limit: You've hit your limit · resets 10:20am (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-09-01T14:48:07",
+    "category": "fiz",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 15,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "expanded_in_slot": true,
+    "topic_id": "fiz-198",
+    "topic_slug": "bankrotstvo-studenta-bez-imushchestva",
+    "auto_skipped": [
+      {
+        "slug": "bankrotstvo-zalogodatelya-za-dolgi-tretego-lica",
+        "reason": "cannibalization:preflight:zalog-kvartiry-bankrotstvo-fizlica",
+        "duration_sec": 0
+      },
+      {
+        "slug": "bankrotstvo-fizlica-dolg-inostrannomu-kreditory",
+        "reason": "cannibalization:preflight:dolg-inostrannomu-kreditory-razyyasnenie-tsb-rossii",
+        "duration_sec": 0
+      }
+    ],
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "forced_pass_at_iter2: блокеры пропущены, статья идёт в TG-очередь с metrics_warning=true. Было: 1 блокеров — length_too_long"
+      ],
+      "recommendations": [
+        "reduce_length: сократить до 5000-6000 знаков"
+      ],
+      "stderr_tail": ""
+    },
+    "finalize_safety_net": {
+      "ran": true,
+      "rc": 0
+    },
+    "status": "ok",
+    "slug": "bankrotstvo-studenta-bez-imushchestva",
+    "duration_sec": 2968.9,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "28044     56584\n6-seo-editor        haiku            20       8    70162     39548     70190\n7-publisher         haiku            78      24    93192    296726     93294\n------------------------------------------------------------------------------------------\nИТОГО                               240     117   674271    932188    674628\nBillable-токенов на статью: ~674K (cache_read 932K не считается в лимит подписки).\nАртефакты: drafts/bankrotstvo-studenta-bez-imushchestva/  | quality_gate exit=0",
+    "stderr_tail": "",
+    "tokens_by_model": {},
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 9086
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]
