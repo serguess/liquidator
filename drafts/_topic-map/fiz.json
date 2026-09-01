@@ -5481,7 +5481,11 @@
       "frequency_estimate": "low",
       "rationale": "В условиях санкций 2022-2025 многие россияне имеют долги перед иностранными банками и компаниями. ВС РФ в 2024 установил критерии юрисдикции. Тема слабо освещена — конкурентная ниша для экспертной статьи.",
       "expected_length_chars": 6500,
-      "topic_action": "банкротство при иностранных долгах"
+      "topic_action": "банкротство при иностранных долгах",
+      "status": "rejected",
+      "rejected_at": "2026-09-01T14:56:23",
+      "rejected_reason": "cannibalization:preflight:dolg-inostrannomu-kreditory-razyyasnenie-tsb-rossii",
+      "rejected_by": "auto_skip_in_slot"
     },
     {
       "id": "fiz-198",
