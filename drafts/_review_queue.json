@@ -6336,6 +6336,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "fedresurs-bankrotstva-iyul-statistika-dinamika",
+      "category": "news",
+      "title": "Банкротства компаний в июле: рост и статистика",
+      "added_at": "2026-09-01T09:00:21.733677",
+      "char_count": 6147,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1788242418/articles/fedresurs-bankrotstva-iyul-statistika-dinamika-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
