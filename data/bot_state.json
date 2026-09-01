@@ -11896,6 +11896,60 @@
       "published_url": null,
       "pending_batch": true,
       "pending_batch_at": "2026-08-31T15:17:10"
+    },
+    "vykup-trebovanij-kreditora-bankrotstvo": {
+      "category": "yur",
+      "title": "Выкуп требований кредиторов при банкротстве",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-09-01T01:03:16",
+      "last_action_at": "2026-09-01T01:03:16",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-09-01T01:03:16"
+    },
+    "zapret-registracionnyh-dejstvij-pri-vzykanii": {
+      "category": "vzysk",
+      "title": "Запрет на регистрационные действия при взыскании: как снять",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-09-01T05:51:15",
+      "last_action_at": "2026-09-01T05:51:15",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-09-01T05:51:15"
+    },
+    "fedresurs-bankrotstva-iyul-statistika-dinamika": {
+      "category": "news",
+      "title": "Банкротства компаний в июле: рост и статистика",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-09-01T09:01:17",
+      "last_action_at": "2026-09-01T09:01:17",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-09-01T09:01:17"
     }
   },
   "pending_actions": [],
