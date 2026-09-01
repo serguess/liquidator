@@ -2,6 +2,19 @@
   "generated": "2026-09-01",
   "articles": [
     {
+      "slug": "zapret-registracionnyh-dejstvij-pri-vzykanii",
+      "cat": "vzysk",
+      "catLabel": "Взыскание задолженности",
+      "title": "Запрет на регистрационные действия при взыскании: как снять",
+      "desc": "Что такое запрет на регистрационные действия при взыскании, как его наложить, снять или оспорить. Способы проверки запретов в базе ФССП и защиты прав должника.",
+      "date": "1 сентября 2026",
+      "dateIso": "2026-09-01",
+      "read": "6 мин.",
+      "tone": "b",
+      "img": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1788231017/articles/zapret-registracionnyh-dejstvij-pri-vzykanii-cover.jpg",
+      "url": "articles/vzysk/zapret-registracionnyh-dejstvij-pri-vzykanii"
+    },
+    {
       "slug": "vykup-trebovanij-kreditora-bankrotstvo",
       "cat": "yur",
       "catLabel": "Банкротство юридических лиц",

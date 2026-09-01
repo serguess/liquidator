@@ -11930,7 +11930,7 @@
     "zapret-registracionnyh-dejstvij-pri-vzykanii": {
       "category": "vzysk",
       "title": "Запрет на регистрационные действия при взыскании: как снять",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -11938,14 +11938,16 @@
       "tg_message_id": 2619,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-09-01T05:51:15",
-      "last_action_at": "2026-09-01T10:00:22",
+      "last_action_at": "2026-09-01T20:50:46",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/vzysk/zapret-registracionnyh-dejstvij-pri-vzykanii",
       "pending_batch": false,
       "pending_batch_at": "2026-09-01T05:51:15",
       "batch_sent_at": "2026-09-01T10:00:22",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-09-01T20:50:46",
+      "articles_path": "articles/vzysk/zapret-registracionnyh-dejstvij-pri-vzykanii.html"
     },
     "fedresurs-bankrotstva-iyul-statistika-dinamika": {
       "category": "news",
