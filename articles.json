@@ -1,6 +1,19 @@
 {
-  "generated": "2026-08-31",
+  "generated": "2026-09-01",
   "articles": [
+    {
+      "slug": "psk-znacheniya-chetvertyj-kvartal-cb-kredity",
+      "cat": "news",
+      "catLabel": "Новости",
+      "title": "ЦБ обновил максимальные ставки по кредитам на Q4",
+      "desc": "ЦБ установил новые максимальные ставки по кредитам на четвёртый квартал 2026. Изменения в пределах для ипотеки и потребительских кредитов.",
+      "date": "1 сентября 2026",
+      "dateIso": "2026-09-01",
+      "read": "5 мин.",
+      "tone": "b",
+      "img": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1788158715/articles/psk-znacheniya-chetvertyj-kvartal-cb-kredity-cover.jpg",
+      "url": "articles/news/psk-znacheniya-chetvertyj-kvartal-cb-kredity"
+    },
     {
       "slug": "bankrotstvo-obzor-praktiki-vs-garant-avgust",
       "cat": "news",

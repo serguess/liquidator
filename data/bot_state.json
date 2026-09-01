@@ -11864,20 +11864,24 @@
     "psk-znacheniya-chetvertyj-kvartal-cb-kredity": {
       "category": "news",
       "title": "ЦБ обновил максимальные ставки по кредитам на Q4",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 2613,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-08-31T09:46:06",
-      "last_action_at": "2026-08-31T09:46:06",
+      "last_action_at": "2026-09-01T20:48:50",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-08-31T09:46:06"
+      "published_url": "https://pravo.shop/articles/news/psk-znacheniya-chetvertyj-kvartal-cb-kredity",
+      "pending_batch": false,
+      "pending_batch_at": "2026-08-31T09:46:06",
+      "batch_sent_at": "2026-09-01T10:00:15",
+      "batch_fail_count": 0,
+      "published_at": "2026-09-01T20:48:50",
+      "articles_path": "articles/news/psk-znacheniya-chetvertyj-kvartal-cb-kredity.html"
     },
     "posledstviya-bankrotstva-dlya-trudoustrojstva": {
       "category": "fiz",
@@ -11887,15 +11891,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 2615,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-08-31T15:17:10",
-      "last_action_at": "2026-08-31T15:17:10",
+      "last_action_at": "2026-09-01T10:00:17",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-08-31T15:17:10"
+      "pending_batch": false,
+      "pending_batch_at": "2026-08-31T15:17:10",
+      "batch_sent_at": "2026-09-01T10:00:17",
+      "batch_fail_count": 0
     },
     "vykup-trebovanij-kreditora-bankrotstvo": {
       "category": "yur",
@@ -11905,15 +11911,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 2617,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-09-01T01:03:16",
-      "last_action_at": "2026-09-01T01:03:16",
+      "last_action_at": "2026-09-01T10:00:20",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-09-01T01:03:16"
+      "pending_batch": false,
+      "pending_batch_at": "2026-09-01T01:03:16",
+      "batch_sent_at": "2026-09-01T10:00:20",
+      "batch_fail_count": 0
     },
     "zapret-registracionnyh-dejstvij-pri-vzykanii": {
       "category": "vzysk",
@@ -11923,15 +11931,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 2619,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-09-01T05:51:15",
-      "last_action_at": "2026-09-01T05:51:15",
+      "last_action_at": "2026-09-01T10:00:22",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-09-01T05:51:15"
+      "pending_batch": false,
+      "pending_batch_at": "2026-09-01T05:51:15",
+      "batch_sent_at": "2026-09-01T10:00:22",
+      "batch_fail_count": 0
     },
     "fedresurs-bankrotstva-iyul-statistika-dinamika": {
       "category": "news",
@@ -11941,19 +11951,57 @@
       "versions": [
         "2.0"
       ],
+      "tg_message_id": 2621,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-09-01T09:01:17",
+      "last_action_at": "2026-09-01T10:00:24",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-09-01T09:01:17",
+      "batch_sent_at": "2026-09-01T10:00:24",
+      "batch_fail_count": 0
+    },
+    "bankrotstvo-studenta-bez-imushchestva": {
+      "category": "fiz",
+      "title": "Банкротство студента: спишут ли долги без работы",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
       "tg_message_id": null,
       "tg_chat_id": null,
-      "first_seen_at": "2026-09-01T09:01:17",
-      "last_action_at": "2026-09-01T09:01:17",
+      "first_seen_at": "2026-09-01T15:38:21",
+      "last_action_at": "2026-09-01T15:38:21",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
       "pending_batch": true,
-      "pending_batch_at": "2026-09-01T09:01:17"
+      "pending_batch_at": "2026-09-01T15:38:21"
+    },
+    "sro-otvetstvennost-pri-bankrotstve-chlena": {
+      "category": "yur",
+      "title": "Ответственность СРО за управляющего при банкротстве",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-09-01T20:18:24",
+      "last_action_at": "2026-09-01T20:18:24",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-09-01T20:18:24"
     }
   },
   "pending_actions": [],
-  "last_batch_date": "2026-08-31",
+  "last_batch_date": "2026-09-01",
   "last_batch_count": 5,
-  "last_batch_at": "2026-08-31T10:00:13"
+  "last_batch_at": "2026-09-01T10:00:24"
 }
