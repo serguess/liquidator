@@ -11952,7 +11952,7 @@
     "fedresurs-bankrotstva-iyul-statistika-dinamika": {
       "category": "news",
       "title": "Банкротства компаний в июле: рост и статистика",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -11960,14 +11960,16 @@
       "tg_message_id": 2621,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-09-01T09:01:17",
-      "last_action_at": "2026-09-01T10:00:24",
+      "last_action_at": "2026-09-01T20:51:29",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/news/fedresurs-bankrotstva-iyul-statistika-dinamika",
       "pending_batch": false,
       "pending_batch_at": "2026-09-01T09:01:17",
       "batch_sent_at": "2026-09-01T10:00:24",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-09-01T20:51:29",
+      "articles_path": "articles/news/fedresurs-bankrotstva-iyul-statistika-dinamika.html"
     },
     "bankrotstvo-studenta-bez-imushchestva": {
       "category": "fiz",

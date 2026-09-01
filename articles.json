@@ -2,6 +2,19 @@
   "generated": "2026-09-01",
   "articles": [
     {
+      "slug": "fedresurs-bankrotstva-iyul-statistika-dinamika",
+      "cat": "news",
+      "catLabel": "Новости",
+      "title": "Банкротства компаний в июле: рост и статистика",
+      "desc": "Анализ данных Федресурса за июль: рост банкротств компаний, изменения порога 2024 года и права кредиторов в реестре.",
+      "date": "1 сентября 2026",
+      "dateIso": "2026-09-01",
+      "read": "4 мин.",
+      "tone": "b",
+      "img": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1788242418/articles/fedresurs-bankrotstva-iyul-statistika-dinamika-cover.jpg",
+      "url": "articles/news/fedresurs-bankrotstva-iyul-statistika-dinamika"
+    },
+    {
       "slug": "zapret-registracionnyh-dejstvij-pri-vzykanii",
       "cat": "vzysk",
       "catLabel": "Взыскание задолженности",
