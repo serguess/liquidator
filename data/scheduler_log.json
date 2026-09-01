@@ -39152,5 +39152,61 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-09-01T00:24:06",
+    "category": "yur",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 11,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "yur-179",
+    "topic_slug": "vykup-trebovanij-kreditora-bankrotstvo",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "length_soft_passed: 8340 > 6500 но ≤ 8500 и iteration=2 — пропускаем (приоритет spam/uniqueness/ai)",
+        "spam_soft_passed: ratio-флаги мягкие при iter=2, targeted_tokens чистые → пропускаем (spam ≈48-52% по прогнозу)"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "status": "ok",
+    "slug": "vykup-trebovanij-kreditora-bankrotstvo",
+    "duration_sec": 2330.6,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "3968     25646\n6-seo-editor        haiku            20       8    66258     39548     66286\n7-publisher         haiku            20       8    36312     39548     36340\n------------------------------------------------------------------------------------------\nИТОГО                               160      73   577106    481214    577339\nBillable-токенов на статью: ~577K (cache_read 481K не считается в лимит подписки).\nАртефакты: drafts/vykup-trebovanij-kreditora-bankrotstvo/  | quality_gate exit=0",
+    "stderr_tail": "",
+    "tokens_by_model": {},
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 8340
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]

@@ -6323,6 +6323,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "zapret-registracionnyh-dejstvij-pri-vzykanii",
+      "category": "vzysk",
+      "title": "Запрет на регистрационные действия при взыскании: как снять",
+      "added_at": "2026-09-01T05:50:19.405539",
+      "char_count": 9302,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1788231017/articles/zapret-registracionnyh-dejstvij-pri-vzykanii-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

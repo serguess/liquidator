@@ -1,0 +1,110 @@
+{
+  "slug": "zapret-registracionnyh-dejstvij-pri-vzykanii",
+  "category": "vzysk",
+  "title": "Запрет на регистрационные действия при взыскании: как снять",
+  "description": "Что такое запрет на регистрационные действия при взыскании, как его наложить, снять или оспорить. Способы проверки запретов в базе ФССП и защиты прав должника.",
+  "h1": "Запрет на регистрационные действия при взыскании долга: как снять и защитить свои права",
+  "lead": "Разберём, что именно блокирует такая мера, как найти её по своему имени в базе службы и какими законными путями снимается блокировка регистрации.",
+  "topic_action": "снятие запрета на регистрационные действия",
+  "breadcrumb_current": "Запрет на регистрационные действия",
+  "og_image": "/assets/articles/zapret-registracionnyh-dejstvij-pri-vzykanii.jpg",
+  "main_keyword": "запрет на регистрационные действия при взыскании",
+  "secondary_keywords": [
+    "запрет регистрации имущества судебный пристав",
+    "как снять запрет на регистрационные действия",
+    "временный запрет регистрационных действий",
+    "запрет продажи имущества при взыскании",
+    "банк данных запрещённых действий ФССП",
+    "заявление о снятии запрета регистрационных действий",
+    "реквизиты судебного пристава для запрета",
+    "период действия запрета регистрации"
+  ],
+  "internal_links": [
+    "/articles/vzysk/ostanavlivanie-ispolnitelno-proizvodstva",
+    "/articles/vzysk/osparivanie-dejstvij-pristavov",
+    "/articles/vzysk/aryst-imushchestva-pri-vzykanii"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_8206/",
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/"
+  ],
+  "faq": [
+    {
+      "question": "Можно ли продать квартиру, если на неё наложена мера?",
+      "answer": "Технически - нет. Договор купли-продажи подписать можно, но Росреестр откажет в регистрации перехода права. Покупатель не получит свидетельство, а вы - деньги. Сначала снимайте блокировку, потом выходите на сделку."
+    },
+    {
+      "question": "Сколько времени занимает снятие после погашения долга?",
+      "answer": "Ведущий производство обязан отменить меру за 3 рабочих дня с момента, как получил доказательства оплаты. Дальше идёт передача уведомления в реестр - ещё 5-10 рабочих дней. Ускоряет процесс справка об отмене на руки, с которой вы приходите в Росреестр сами."
+    },
+    {
+      "question": "Что происходит с ограничением при закрытии производства?",
+      "answer": "Долг закрыт полностью - мера снимается автоматически. Если производство прекращено по другим основаниям, а недоимка осталась - запись сохраняется. По практике службы через три года такие записи считаются устаревшими и снимаются по заявлению собственника."
+    },
+    {
+      "question": "Обязательно ли идти в суд, чтобы оспорить незаконное постановление?",
+      "answer": "Нет. Сначала обязательный досудебный шаг - жалоба старшему в подразделении ФССП за 10 дней. Только если он отказал или промолчал - идёте в районный суд с административным иском. Пропуск досудебной ступени судья не одобрит."
+    },
+    {
+      "question": "Распространяется ли мера на банковские счета и зарплату?",
+      "answer": "Нет. Она касается только собственности, которая зарегистрирована в государственных реестрах. Для счёта и зарплаты выносятся отдельные постановления - об аресте счёта и удержании из доходов. Это три разных документа с разными правовыми основаниями."
+    },
+    {
+      "question": "Могут ли наложить ограничение на единственную квартиру?",
+      "answer": "От продажи с торгов такое жильё защищено 446-й нормой процессуального кодекса. Но саму запись о запрете переоформления пристав технически внести может - прямого запрета в 65-й норме нет. Практика противоречивая, и в конкретной ситуации это повод для отдельного оспаривания."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все факты сверены с research.json. Статусы: active. last_verified = 2026-09-01 для всех ключевых утверждений.",
+    "Запрет на регистрационные действия определен согласно ст. 65-66 ФЗ-118 (проверка соответствия пройдена).",
+    "Виды имущества под запрет: недвижимость, доли в ООО, ценные бумаги - актуально, единственное жилье защищено.",
+    "Сроки отмены: 3 рабочих дня после исполнения - ст. 65 п. 2-3 ФЗ-118 (active).",
+    "Отличие от ареста (ст. 64 vs ст. 65) корректно описано: разные правовые основания и последствия.",
+    "Оспаривание: жалоба старшему приставу (ст. 123, 10 дней) + суд (ст. 128) - процедура верна.",
+    "Трёхлетний период прекращения запретов при закрытии производства - соответствует практике ФССП.",
+    "Проверка через eismo.fssp.gov.ru, ЕГРН, брокеров, ЕГРЮЛ - все четыре канала описаны верно.",
+    "Уточнение: запрет НЕ касается банковских счетов и зарплаты (отдельные постановления) - верно.",
+    "Исполнительский сбор 7% (минимум 1000 руб. физлица, 10000 руб. организации) - ст. 112 ФЗ-118, актуально."
+  ],
+  "keyword_density_main": 0.017,
+  "main_keyword_exact_count": 8,
+  "text_chars": 9302,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.09,
+  "local_spam_ngram3_repeat": 0.016,
+  "local_lexical_diversity": 0.631,
+  "local_ai_markers_density": 0.45,
+  "local_ai_markers_critical": 0,
+  "local_ai_markers_total": 5,
+  "local_ai_markers_high": 2,
+  "local_own_voice_hits": 3,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1788231017/articles/zapret-registracionnyh-dejstvij-pri-vzykanii-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1788231017/articles/zapret-registracionnyh-dejstvij-pri-vzykanii-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Wide symmetric photograph down a long official corridor with marble-floored grand hall and colonnaded passage. Center of frame: brass scales of justice positioned on a marble pedestal, one pan slightly lower as if weighing judicial consequence. Foreground base of the pedestal: a polished brass padlock with weathered patina and chain, a closed dark leather portfolio placed at an angle, a fountain pen crossing the padlock's chain. Background: deep paneled walls with brass sconces, soft cool daylight from high windows illuminating architectural lines leading into perspective. Camera: dead-center symmetric, eye-level, slight wide-angle pulling perspective lines. Lighting: cool natural daylight from above creating subtle shadows on marble veining. Palette: cool whites, polished grey marble, brass accents, deep wood trim. Mood: ceremonial, decision-pending, weighing legal consequence and property access rights.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-09-01T02:50:18Z",
+  "length_status": "too_long",
+  "length_kind": "default",
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 49,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "длина значительно больше лимита 6500 (9 302 знаков)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "length_too_long: 9302 > 6500 (kind=default)"
+  ],
+  "date_published": "2026-09-01",
+  "date_modified": "2026-09-01",
+  "ready_for_review": true,
+  "ready_at": "2026-09-01T02:50:19Z",
+  "publication_target": "telegram_review"
+}
