@@ -12040,7 +12040,7 @@
     "plenuma-vs-razjasneniya-obyazatelny-dlya-sudov-bankrotstvo": {
       "category": "news",
       "title": "Пленум ВС: позиции теперь обязательны для судов",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -12048,14 +12048,16 @@
       "tg_message_id": 2639,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-09-02T08:47:13",
-      "last_action_at": "2026-09-02T10:00:17",
+      "last_action_at": "2026-09-02T23:46:17",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/news/plenuma-vs-razjasneniya-obyazatelny-dlya-sudov-bankrotstvo",
       "pending_batch": false,
       "pending_batch_at": "2026-09-02T08:47:13",
       "batch_sent_at": "2026-09-02T10:00:17",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-09-02T23:46:17",
+      "articles_path": "articles/news/plenuma-vs-razjasneniya-obyazatelny-dlya-sudov-bankrotstvo.html"
     },
     "banki-mfo-otchetnost-fssp-vzyskanie-dolgov-2026": {
       "category": "news",
