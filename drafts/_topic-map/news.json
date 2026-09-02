@@ -4468,7 +4468,11 @@
       "topic_action": "защититься от ареста имущества приставами",
       "event_date": "2026-07-31",
       "news_zone": "initiative",
-      "primary_source": "https://www.rzn.info/news/2026/7/31/v-sovfede-podderzhali-povyshenie-poroga-dolga-dlya-aresta-imushestva-350339.html"
+      "primary_source": "https://www.rzn.info/news/2026/7/31/v-sovfede-podderzhali-povyshenie-poroga-dolga-dlya-aresta-imushestva-350339.html",
+      "status": "rejected",
+      "rejected_at": "2026-09-02T04:00:06",
+      "rejected_reason": "event_too_old:33d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-136",
@@ -5414,7 +5418,11 @@
       "topic_action": "консультацию по актуальной практике банкротства",
       "event_date": "2026-08-01",
       "news_zone": "vs_practice",
-      "primary_source": "https://www.garant.ru/ia/opinion/author/radzivil/1985668/"
+      "primary_source": "https://www.garant.ru/ia/opinion/author/radzivil/1985668/",
+      "status": "rejected",
+      "rejected_at": "2026-09-02T04:00:06",
+      "rejected_reason": "event_too_old:32d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-165",
