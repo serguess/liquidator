@@ -6401,6 +6401,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "banki-mfo-otchetnost-fssp-vzyskanie-dolgov-2026",
+      "category": "news",
+      "title": "Отчетность банков и МФО перед ФССП о взыскании долгов",
+      "added_at": "2026-09-02T09:05:02.240900",
+      "char_count": 6574,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1788329098/articles/banki-mfo-otchetnost-fssp-vzyskanie-dolgov-2026-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

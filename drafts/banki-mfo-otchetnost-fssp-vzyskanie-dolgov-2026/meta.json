@@ -1,0 +1,101 @@
+{
+  "slug": "banki-mfo-otchetnost-fssp-vzyskanie-dolgov-2026",
+  "category": "news",
+  "title": "Отчетность банков и МФО перед ФССП о взыскании долгов",
+  "description": "С 1 сентября 2026 года банки и МФО должны передавать информацию о взыскании долгов в ФССП. Что меняется для кредиторов и должников - новые требования.",
+  "h1": "Банки и МФО обязаны отчитываться перед ФССП о взыскании долгов",
+  "lead": "С 1 сентября 2026 года кредитные и микрофинансовые организации обязаны регулярно раскрывать перед Федеральной службой судебных приставов данные о своей работе по возврату задолженности.",
+  "topic_action": "консультацию по новым правилам взыскания долгов",
+  "breadcrumb_current": "Отчётность банков и МФО перед ФССП",
+  "og_image": "/assets/articles/banki-mfo-otchetnost-fssp-vzyskanie-dolgov-2026.jpg",
+  "main_keyword": "отчетность банков фссп о взыскании",
+  "secondary_keywords": [
+    "отчетность фссп взыскание",
+    "банки отчитываются фссп о долгах",
+    "мфо отчетность перед фссп",
+    "взыскание долгов отчетность",
+    "федеральная служба судебных приставов",
+    "кредиторы отчитываются фссп"
+  ],
+  "intent": "informational",
+  "funnel_stage": "cold",
+  "article_type": "B",
+  "offer": "proverka-spisaniya",
+  "event_date": "2026-09-01",
+  "news_zone": "finance",
+  "internal_links": [
+    "/articles/fiz/arest-zarplaty-pristavami-bankrotstvo"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_71450/",
+    "https://www.consultant.ru/document/cons_doc_LAW_195017/",
+    "https://iz.ru/2158004/2026-08-31/banki-i-mfo-budut-otchityvatsia-pered-pristavami-o-vzyskanii-dolgov-s-1-sentiabria"
+  ],
+  "faq": [
+    {
+      "question": "Распространяется ли требование на коллекторские агентства?",
+      "answer": "Пока однозначного ответа нет. Первоисточник называет только кредитные и микрофинансовые компании. Про профессиональных взыскателей и покупателей задолженности вопрос открыт до публикации полного текста приказа."
+    },
+    {
+      "question": "Что именно уходит в отчёт банков и МФО перед ФССП?",
+      "answer": "Сведения о работе по взысканию: сколько удалось получить, какими способами взыскали, за какой срок, чем закончился каждый эпизод. Точный формуляр устанавливается техническими документами ведомства."
+    },
+    {
+      "question": "Чем грозит игнор новых правил самой организации?",
+      "answer": "Административной ответственностью и внеплановыми проверками со стороны надзорного ведомства и финансового регулятора. Конкретные штрафные санкции пока не опубликованы и требуют уточнения по подзаконным актам."
+    },
+    {
+      "question": "Может ли гражданин запросить данные об отчётности своего взыскателя?",
+      "answer": "Прямого механизма личного кабинета с отчётами пока не описано. Право обратиться в территориальное подразделение с жалобой на действия кредитора существовало и раньше - оно сохраняется в полном объёме."
+    },
+    {
+      "question": "Как новые требования соотносятся с правами должника по закону об исполнительном производстве?",
+      "answer": "Никак не сужают их. Возможность обжаловать действия взыскателя старшему приставу или в суд работает так же, как до 1 сентября. Отчётность добавляет доказательную базу, а не убирает существующие права."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все факты (f1-f8) имеют legislation_status: needs_verification и context_check_passed: false - в тексте использованы safe_phrasings с явными оговорками ('ждёт уточнения', 'требует уточнения по официальным документам ФССП'); статья не утверждает, что требование полностью верифицировано",
+    "Запрещённые утверждения из forbidden_claims отсутствуют в тексте: нет тезисов об автоматическом списании долгов, прекращении взыскания или гарантиях защиты прав",
+    "Первичный источник - iz.ru от 31.08.2026; официальный текст приказа ФССП на момент написания не опубликован; все числа и формуляры описаны как требующие уточнения по подзаконным актам",
+    "Внутренняя ссылка /articles/fiz/arest-zarplaty-pristavami-bankrotstvo - категория fiz указана предположительно, требует проверки по published_index.json",
+    "Ст. 123 и 128 ФЗ-229 упоминаются как действующий механизм обжалования - соответствует safe_phrasing f6; оба вхождения объединены в одну гиперссылку на КонсультантПлюс, итого 2 внешние ссылки на правовые базы",
+    "ФЗ-230 упомянут в историческом сравнении без точных цифровых утверждений - соответствует safe_phrasings, forbidden_claims не нарушены"
+  ],
+  "keyword_density_main": null,
+  "main_keyword_exact_count": null,
+  "text_chars": 6574,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.099,
+  "local_spam_ngram3_repeat": 0.026,
+  "local_lexical_diversity": 0.674,
+  "local_ai_markers_density": 0.24,
+  "local_ai_markers_critical": 0,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1788329098/articles/banki-mfo-otchetnost-fssp-vzyskanie-dolgov-2026-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1788329098/articles/banki-mfo-otchetnost-fssp-vzyskanie-dolgov-2026-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Editorial composition centering on official debt collection reporting and institutional time-bound procedure. Hero objects: a sand-filled brass hourglass mid-flow symbolizing reporting deadlines, a stack of 3-4 closed dossiers tied with cord representing bank and MFO compliance reports, a polished round seal of an official authority, a fountain pen. Background: dark slate, weathered stone slab, or completely black void with subtle backlight. Camera: three-quarter angle at tabletop level. Lighting: focused directional spot creating dramatic shadow, gold rim-light on brass surfaces. Palette: deep charcoal, brass, oxblood leather accents. Mood: passage of institutional time, deliberation and due process.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-09-02T06:04:58Z",
+  "length_status": "too_long",
+  "length_kind": "news",
+  "local_ai_markers_total": 2,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 2,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 47,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 90,
+  "customer_risks": [
+    "длина значительно больше лимита 5500 (6 574 знаков)"
+  ],
+  "date_published": "2026-09-02",
+  "date_modified": "2026-09-02",
+  "ready_for_review": true,
+  "ready_at": "2026-09-02T06:05:02Z",
+  "publication_target": "telegram_review"
+}
