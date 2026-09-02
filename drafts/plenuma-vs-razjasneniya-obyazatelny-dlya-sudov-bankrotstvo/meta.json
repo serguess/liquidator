@@ -1,0 +1,106 @@
+{
+  "slug": "plenuma-vs-razjasneniya-obyazatelny-dlya-sudov-bankrotstvo",
+  "category": "news",
+  "title": "Пленум ВС: позиции теперь обязательны для судов",
+  "description": "Закон о руководящем характере позиций Пленума ВС применительно к банкротству физических и юридических лиц. Как это влияет на судебные решения.",
+  "h1": "Позиции Пленума ВС теперь обязательны для судов при банкротстве",
+  "lead": "С августа 2026 года суды обязаны применять позиции Пленума Верховного Суда при рассмотрении дел о банкротстве и обосновывать каждое отступление от них в тексте решения.",
+  "topic_action": "разбор изменений Пленума ВС по банкротству",
+  "breadcrumb_current": "Позиции Пленума ВС обязательны для судов",
+  "og_image": "/assets/articles/plenuma-vs-razjasneniya-obyazatelny-dlya-sudov-bankrotstvo.jpg",
+  "main_keyword": "пленум верховного суда банкротство",
+  "secondary_keywords": [
+    "позиции пленума вс обязательны судам",
+    "руководящий характер пленума верховного суда",
+    "новый закон о пленуме верховного суда",
+    "как суды применяют позиции пленума вс",
+    "пленум вс по банкротству физических лиц",
+    "судебная практика пленум верховного суда",
+    "арбитражные суды и пленум вс",
+    "обязательное применение разъяснений пленума"
+  ],
+  "intent": "informational",
+  "funnel_stage": "cold",
+  "article_type": "B",
+  "offer": "proverka-spisaniya",
+  "event_date": "2026-08-04",
+  "news_zone": "legislation",
+  "internal_links": [
+    "/articles/fiz/alimenty-pri-bankrotstve-fizlica",
+    "/articles/vzysk/arest-zarplaty-pristavami-bankrotstvo"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_28399/",
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/"
+  ],
+  "faq": [
+    {
+      "question": "Чем поправки августа изменили статус разъяснений для судов?",
+      "answer": "Раньше позиции высшей инстанции по несостоятельности носили рекомендательный характер. Теперь они обязательны для судов при рассмотрении соответствующих дел. Отступление возможно, но требует развёрнутого обоснования в тексте решения."
+    },
+    {
+      "question": "Обязан ли суд следовать позиции высшего суда, если она расходится с нормой федерального акта?",
+      "answer": "Нет. При противоречии между толкованием и прямой нормой применяется норма. Позиции высшего суда объясняют, как понимать неоднозначные формулировки, но не могут подменить положения профильного документа."
+    },
+    {
+      "question": "Распространяются ли новые правила на дела, уже находящиеся в производстве?",
+      "answer": "Порядок применения к текущим спорам определяют переходные положения. Точный сценарий требует сверки по официальному тексту на consultant.ru или pravo.gov.ru. Ретроактивной отмены ранее вынесенных решений не предусмотрено."
+    },
+    {
+      "question": "Может ли судья отступить от позиции при особых обстоятельствах?",
+      "answer": "Да, если конкретное дело содержит обстоятельства, не охватываемые руководящим актом. Отступление должно быть мотивировано прямо в решении - с указанием, чем именно ситуация отличается от той, что описана в разъяснении."
+    },
+    {
+      "question": "Какое постановление наиболее важно при банкротстве юрлица?",
+      "answer": "Одним из ключевых остаётся Постановление Пленума ВС РФ от 21.12.2017 № 53 по вопросам применения профильных норм. Оно применяется с учётом новых требований об обязательном характере позиций."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "f5, f6, f7, f8, f9 имеют legislation_status: needs_verification - точные реквизиты закона августа 2026 не верифицированы; в тексте использована safe_phrasing без номера ФЗ: 'в соответствии с законом от августа 2026', 'поправки, которые подписаны четвёртого августа'",
+    "f1 (ст. 126 Конституции) и f2 (ПП ВС от 21.12.2017 № 53) верифицированы, legislation_status: active",
+    "Исправлена фактическая неточность: 'профильный кодекс' заменено на 'профильный закон' (127-ФЗ является федеральным законом, не кодексом)",
+    "Запрещённые утверждения из forbidden_claims в тексте отсутствуют",
+    "Ретроактивность явно опровергнута в тексте ('Ретроактивной отмены ранее вынесенных решений не предусмотрено')"
+  ],
+  "keyword_density_main": null,
+  "main_keyword_exact_count": null,
+  "text_chars": 6237,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.096,
+  "local_spam_ngram3_repeat": 0.016,
+  "local_lexical_diversity": 0.665,
+  "local_ai_markers_density": 0.25,
+  "local_ai_markers_critical": 0,
+  "local_ai_markers_total": 2,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 3,
+  "local_first_person_singular_hits": 0,
+  "length_status": "too_long",
+  "length_kind": "news",
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1788328000/articles/plenuma-vs-razjasneniya-obyazatelny-dlya-sudov-bankrotstvo-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1788328000/articles/plenuma-vs-razjasneniya-obyazatelny-dlya-sudov-bankrotstvo-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Close-up architectural photograph of polished marble stonework with institutional character, foreground objects suggesting judicial authority. Arrangement: polished round seal of the Supreme Court positioned center-left, a closed leather portfolio bearing official court documents, an antique brass pocket watch on a chain symbolizing enduring legal precedent, a fountain pen laid diagonally across the seal as if signing a landmark decision. Camera: tight crop, eye-level, shallow depth of field isolating objects. Lighting: soft institutional daylight grazing marble surface, warm side-light revealing stone texture and burnished brass patina. Palette: cool marble whites, restrained brass gold, deep oxblood leather. Mood: judicial finality, authoritative precedent, institutional gravitas.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-09-02T05:46:41Z",
+  "predicted_spam_pct": 47,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 90,
+  "customer_risks": [
+    "длина значительно больше лимита 5500 (6 237 знаков)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "broken_internal_links: 1 ссылок без соответствия в published_index (/articles/vzysk/arest-zarplaty-pristavami-bankrotstvo: slug 'arest-zarplaty-pristavami-bankrotstvo' не найден в категории 'vzysk' (есть: fiz))"
+  ],
+  "date_published": "2026-09-02",
+  "date_modified": "2026-09-02",
+  "ready_for_review": true,
+  "ready_at": "2026-09-02T05:46:43Z",
+  "publication_target": "telegram_review"
+}
