@@ -1,0 +1,109 @@
+{
+  "slug": "bankrotstvo-restorannogo-biznesa",
+  "category": "yur",
+  "title": "Банкротство ресторана: процедура и защита владельца",
+  "description": "Полное руководство по банкротству ресторана: признаки банкротства, процедура, права владельца, обязательства и способы защиты бизнеса перед процедурой.",
+  "h1": "Банкротство ресторана: как защитить бизнес и минимизировать убытки",
+  "lead": "Банкротство ресторана - рабочая процедура по 127-ФЗ, а не «чёрная метка».",
+  "topic_action": "банкротство ресторанного бизнеса",
+  "breadcrumb_current": "Банкротство ресторана",
+  "main_keyword": "банкротство ресторана",
+  "secondary_keywords": [
+    "банкротство ресторанного бизнеса",
+    "как объявить банкротство ресторан",
+    "ликвидация ресторана через банкротство",
+    "банкротство кафе и ресторана",
+    "защита владельца ресторана при банкротстве",
+    "долги ресторана перед поставщиками",
+    "конкурсное производство ресторана",
+    "внесудебное банкротство юридического лица",
+    "имущество ресторана при банкротстве"
+  ],
+  "internal_links": [
+    "/articles/yur/mirovoe-soglashenie-pri-bankrotstve",
+    "/articles/yur/finansovoe-ozdorovlenie"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/",
+    "https://www.consultant.ru/document/cons_doc_LAW_132671/"
+  ],
+  "og_image": "/assets/articles/bankrotstvo-restorannogo-biznesa.jpg",
+  "faq": [
+    {
+      "question": "Можно ли остановить банкротство, если заявитель уже подал в суд?",
+      "answer": "Да. До первого заседания по существу должник вправе погасить требование истца или предложить мировое соглашение с другими включёнными в реестр. Также реально ходатайствовать о переходе в финансовое оздоровление вместо наблюдения - при готовом плане и поддержке большинства голосов."
+    },
+    {
+      "question": "Что происходит с действующим договором аренды помещения во время процедуры?",
+      "answer": "Договор не прекращается автоматически. Арендодатель включается в реестр по неоплаченной аренде, а текущие платежи за период дела относятся к текущим - они гасятся вне очереди из поступлений массы. Собственник помещения может расторгнуть договор через арбитраж, если условиями это предусмотрено, но приставов уже не будет - взыскание идёт только через управленца."
+    },
+    {
+      "question": "Сколько стоит добровольно обратиться в арбитраж о признании ресторана банкротом?",
+      "answer": "Депозит на содержание временного управляющего - двадцать пять тысяч рублей. Госпошлина для должника-организации ниже кредиторской и зависит от статуса. Плюс расходы на публикации в ЕФРСБ и услуги юриста, если ведёте дело не самостоятельно."
+    },
+    {
+      "question": "Какие долги не погашаются даже после продажи всех активов?",
+      "answer": "После завершения конкурса и исключения фирмы из ЕГРЮЛ непогашенные требования взыскателей считаются погашенными - юридического лица больше нет. Но долги, взысканные лично с директора или учредителя по субсидиарке, банкротству компании не подчиняются - они остаются за гражданином до полной оплаты или его собственного личного банкротства."
+    },
+    {
+      "question": "Вправе ли директор подписывать новые договоры после введения наблюдения?",
+      "answer": "Может, но с ограничениями. Крупные сделки, залог имущества, выдача займов, реорганизация - только с письменного согласия временного управляющего. Обычная операционка - закупка продуктов, оплата коммуналки, выплата заработка персоналу - идёт в штатном режиме."
+    },
+    {
+      "question": "Обязан ли поставщик письменно заявить требование или суд включит его автоматически?",
+      "answer": "Только письменное заявление в арбитражный суд с приложением документов, подтверждающих долг: договоры, накладные, акты сверки. Двухмесячный срок отсчитывается от публикации сообщения управляющего. Автоматически ничего не включается - даже если поставщик много лет возил продукты и это всем известно."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все факты о банкротстве юридических лиц сверены с research.json и актуальны",
+    "Порог 2 млн рублей действует с 12.07.2024 (ФЗ-107 от 29.06.2024), last_verified 2026-09-02",
+    "Четыре процедуры (наблюдение до 7 месяцев, финансовое оздоровление до 2 лет, внешнее управление до 3-5 лет, конкурсное производство) верны (ст. 27-30 127-ФЗ)",
+    "Вознаграждение управляющего: фиксированная часть 25 000 руб. + 7-10% выручки при реализации активов (ст. 20.6 п. 17 127-ФЗ)",
+    "Госпошлина 100 000 рублей для кредитора-организации (ст. 333.21 НК РФ, ред. ФЗ-176 от 12.07.2024)",
+    "Очередность платежей: вред жизни/здоровью, зарплата сотрудников, налоги и взносы, прочие кредиторы (ст. 134 127-ФЗ) - соответствует draft",
+    "Остановка исполнительных производств с момента возбуждения дела (ст. 86 п. 1 127-ФЗ) - верно",
+    "Ответственность директора по ст. 196 УК РФ за преднамеренное банкротство актуальна"
+  ],
+  "keyword_density_main": 0.017,
+  "main_keyword_exact_count": 2,
+  "text_chars": 9521,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1788370104/articles/bankrotstvo-restorannogo-biznesa-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1788370104/articles/bankrotstvo-restorannogo-biznesa-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Editorial photograph of a restaurant owner's workspace by a tall window. Foreground: a desk holding carefully arranged items conveying strategic deliberation – a closed dark leather portfolio representing business documents and liabilities, a fountain pen resting on a closed notebook, reading glasses suggesting financial review, a brass desk lamp providing warm ambient glow, a white porcelain coffee cup on a saucer indicating evening work sessions, a smartphone face-down. Background through the glass: blurred urban skyline in evening light or gentle rain. Camera: three-quarter angle, eye-level. Lighting: cool daylight from window blended with warm interior tungsten. Materials: walnut, leather, brass. Mood: restaurant proprietor weighing difficult decisions about business closure, asset protection, and personal financial survival.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-09-02T17:28:25Z",
+  "length_status": "too_long",
+  "length_kind": "default",
+  "local_spam_top10_share": 0.085,
+  "local_spam_ngram3_repeat": 0.018,
+  "local_lexical_diversity": 0.645,
+  "local_ai_markers_density": 0.18,
+  "local_ai_markers_total": 2,
+  "local_ai_markers_critical": 0,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 3,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 49,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "длина значительно больше лимита 6500 (9 521 знаков)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "length_too_long: 9521 > 6500 (kind=default)",
+    "broken_internal_links: 4 ссылок без соответствия в published_index (/articles/yur/mirovoe-soglashenie-pri-bankrotstve: slug 'mirovoe-soglashenie-pri-bankrotstve' не найден в категории 'yur' (есть: нигде); /articles/yur/mirovoe-soglashenie-pri-bankrotstve: slug 'mirovoe-soglashenie-pri-bankrotstve' не найден в категории 'yur' (есть: нигде); /articles/yur/mirovoe-soglashenie-pri-bankrotstve: slug 'mirovoe-soglashenie-pri-bankrotstve' не найден в категории 'yur' (есть: нигде))"
+  ],
+  "date_published": "2026-09-02",
+  "date_modified": "2026-09-02",
+  "ready_for_review": true,
+  "ready_at": "2026-09-02T17:28:27Z",
+  "publication_target": "telegram_review"
+}

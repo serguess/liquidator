@@ -39747,5 +39747,65 @@
     "timestamp": "2026-09-02T10:00:21",
     "status": "preflight_failed",
     "reason": "rate_limit: You've hit your limit · resets 1:30pm (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-09-02T14:48:06",
+    "category": "fiz",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 4,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "fiz-199",
+    "topic_slug": "bankrotstvo-dolg-porcha-imushchestva-sosedom",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "length_soft_passed: 8361 > 6500 но ≤ 8500 и iteration=2 — пропускаем (приоритет spam/uniqueness/ai)",
+        "spam_soft_passed: ratio-флаги мягкие при iter=2, targeted_tokens чистые → пропускаем (spam ≈48-52% по прогнозу)"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "finalize_safety_net": {
+      "ran": true,
+      "rc": 0
+    },
+    "status": "ok",
+    "slug": "bankrotstvo-dolg-porcha-imushchestva-sosedom",
+    "duration_sec": 2293.1,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "   47340\n6-seo-editor        sonnet            6      14        0     89756        20\n7-publisher         haiku            20      10    36240     39548     36270\n------------------------------------------------------------------------------------------\nИТОГО                               170     105   574338    670375    574613\nBillable-токенов на статью: ~574K (cache_read 670K не считается в лимит подписки).\nАртефакты: drafts/bankrotstvo-dolg-porcha-imushchestva-sosedom/  | quality_gate exit=0",
+    "stderr_tail": "",
+    "tokens_by_model": {},
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 8361
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]

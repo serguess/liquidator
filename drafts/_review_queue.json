@@ -6427,6 +6427,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "bankrotstvo-restorannogo-biznesa",
+      "category": "yur",
+      "title": "Банкротство ресторана: процедура и защита владельца",
+      "added_at": "2026-09-02T20:28:27.304990",
+      "char_count": 9521,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1788370104/articles/bankrotstvo-restorannogo-biznesa-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
