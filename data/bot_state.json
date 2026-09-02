@@ -11974,20 +11974,24 @@
     "bankrotstvo-studenta-bez-imushchestva": {
       "category": "fiz",
       "title": "Банкротство студента: спишут ли долги без работы",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 2633,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-09-01T15:38:21",
-      "last_action_at": "2026-09-01T15:38:21",
+      "last_action_at": "2026-09-02T23:43:45",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-09-01T15:38:21"
+      "published_url": "https://pravo.shop/articles/fiz/bankrotstvo-studenta-bez-imushchestva",
+      "pending_batch": false,
+      "pending_batch_at": "2026-09-01T15:38:21",
+      "batch_sent_at": "2026-09-02T10:00:10",
+      "batch_fail_count": 0,
+      "published_at": "2026-09-02T23:43:45",
+      "articles_path": "articles/fiz/bankrotstvo-studenta-bez-imushchestva.html"
     },
     "sro-otvetstvennost-pri-bankrotstve-chlena": {
       "category": "yur",
@@ -11997,15 +12001,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 2635,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-09-01T20:18:24",
-      "last_action_at": "2026-09-01T20:18:24",
+      "last_action_at": "2026-09-02T10:00:12",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-09-01T20:18:24"
+      "pending_batch": false,
+      "pending_batch_at": "2026-09-01T20:18:24",
+      "batch_sent_at": "2026-09-02T10:00:12",
+      "batch_fail_count": 0
     },
     "propushchen-srok-davnosti-chto-delat-kreditor": {
       "category": "vzysk",
@@ -12015,15 +12021,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 2637,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-09-02T01:03:28",
-      "last_action_at": "2026-09-02T01:03:28",
+      "last_action_at": "2026-09-02T10:00:15",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-09-02T01:03:28"
+      "pending_batch": false,
+      "pending_batch_at": "2026-09-02T01:03:28",
+      "batch_sent_at": "2026-09-02T10:00:15",
+      "batch_fail_count": 0
     },
     "plenuma-vs-razjasneniya-obyazatelny-dlya-sudov-bankrotstvo": {
       "category": "news",
@@ -12033,15 +12041,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 2639,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-09-02T08:47:13",
-      "last_action_at": "2026-09-02T08:47:13",
+      "last_action_at": "2026-09-02T10:00:17",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-09-02T08:47:13"
+      "pending_batch": false,
+      "pending_batch_at": "2026-09-02T08:47:13",
+      "batch_sent_at": "2026-09-02T10:00:17",
+      "batch_fail_count": 0
     },
     "banki-mfo-otchetnost-fssp-vzyskanie-dolgov-2026": {
       "category": "news",
@@ -12051,19 +12061,57 @@
       "versions": [
         "2.0"
       ],
+      "tg_message_id": 2641,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-09-02T09:05:13",
+      "last_action_at": "2026-09-02T10:00:19",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-09-02T09:05:13",
+      "batch_sent_at": "2026-09-02T10:00:19",
+      "batch_fail_count": 0
+    },
+    "bankrotstvo-dolg-porcha-imushchestva-sosedom": {
+      "category": "fiz",
+      "title": "Долг за порчу имущества при банкротстве",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
       "tg_message_id": null,
       "tg_chat_id": null,
-      "first_seen_at": "2026-09-02T09:05:13",
-      "last_action_at": "2026-09-02T09:05:13",
+      "first_seen_at": "2026-09-02T15:27:17",
+      "last_action_at": "2026-09-02T15:27:17",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
       "pending_batch": true,
-      "pending_batch_at": "2026-09-02T09:05:13"
+      "pending_batch_at": "2026-09-02T15:27:17"
+    },
+    "bankrotstvo-restorannogo-biznesa": {
+      "category": "yur",
+      "title": "Банкротство ресторана: процедура и защита владельца",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-09-02T20:29:20",
+      "last_action_at": "2026-09-02T20:29:20",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-09-02T20:29:20"
     }
   },
   "pending_actions": [],
-  "last_batch_date": "2026-09-01",
+  "last_batch_date": "2026-09-02",
   "last_batch_count": 5,
-  "last_batch_at": "2026-09-01T10:00:24"
+  "last_batch_at": "2026-09-02T10:00:19"
 }
