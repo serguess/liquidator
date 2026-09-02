@@ -12062,7 +12062,7 @@
     "banki-mfo-otchetnost-fssp-vzyskanie-dolgov-2026": {
       "category": "news",
       "title": "Отчетность банков и МФО перед ФССП о взыскании долгов",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -12070,14 +12070,16 @@
       "tg_message_id": 2641,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-09-02T09:05:13",
-      "last_action_at": "2026-09-02T10:00:19",
+      "last_action_at": "2026-09-02T23:46:22",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/news/banki-mfo-otchetnost-fssp-vzyskanie-dolgov-2026",
       "pending_batch": false,
       "pending_batch_at": "2026-09-02T09:05:13",
       "batch_sent_at": "2026-09-02T10:00:19",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-09-02T23:46:22",
+      "articles_path": "articles/news/banki-mfo-otchetnost-fssp-vzyskanie-dolgov-2026.html"
     },
     "bankrotstvo-dolg-porcha-imushchestva-sosedom": {
       "category": "fiz",
