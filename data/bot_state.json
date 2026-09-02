@@ -12006,6 +12006,24 @@
       "published_url": null,
       "pending_batch": true,
       "pending_batch_at": "2026-09-01T20:18:24"
+    },
+    "propushchen-srok-davnosti-chto-delat-kreditor": {
+      "category": "vzysk",
+      "title": "Исковая давность истекла: действия кредитора",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-09-02T01:03:28",
+      "last_action_at": "2026-09-02T01:03:28",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-09-02T01:03:28"
     }
   },
   "pending_actions": [],

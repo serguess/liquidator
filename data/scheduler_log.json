@@ -39500,5 +39500,91 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-09-02T00:24:06",
+    "category": "vzysk",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 7,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "vzysk-152",
+    "topic_slug": "propushchen-srok-davnosti-chto-delat-kreditor",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "length_soft_passed: 8175 > 6500 но ≤ 8500 и iteration=2 — пропускаем (приоритет spam/uniqueness/ai)"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "finalize_safety_net": {
+      "ran": true,
+      "rc": 0
+    },
+    "status": "ok",
+    "slug": "propushchen-srok-davnosti-chto-delat-kreditor",
+    "duration_sec": 2320.5,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "  45638\n6-seo-editor        haiku            20       8    61824     39548     61852\n7-publisher         haiku            20       8    36300     39548     36328\n------------------------------------------------------------------------------------------\nИТОГО                               174      78   618987    582582    619239\nBillable-токенов на статью: ~619K (cache_read 582K не считается в лимит подписки).\nАртефакты: drafts/propushchen-srok-davnosti-chto-delat-kreditor/  | quality_gate exit=0",
+    "stderr_tail": "",
+    "tokens_by_model": {},
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 8175
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
+  },
+  {
+    "timestamp": "2026-09-02T05:12:07",
+    "category": "news",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "mode": "new",
+    "topic_id": "news-167",
+    "topic_slug": "ispolnitelskij-sbor-11-procentov-229-fz-izmeneniya",
+    "status": "failed",
+    "slug": "ispolnitelskij-sbor-11-procentov-229-fz-izmeneniya",
+    "duration_sec": 323.2,
+    "returncode": 1,
+    "rescued_after_failure": false,
+    "stdout_tail": "=== 1-semantics (claude haiku) ===\n   ok: 1525 симв., usage in=20 out=10 cache_w=67052 cache_r=0 billable=67082 ток, 18.9с\n=== 2-legal-research (claude haiku) ===\n   ok: 13244 симв., usage in=82 out=14 cache_w=152564 cache_r=300218 billable=152660 ток, 78.3с\n   ok: 12756 симв., billable=87606 ток (model=sonnet)\n   [outline_validate] exit=0\n=== 4-writer (claude opus) ===",
+    "stderr_tail": "[ERR] rate_limit: put_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard\",\"cache_creation\":{\"ephemeral_1h_input_tokens\":0,\"ephemeral_5m_input_tokens\":0},\"inference_geo\":\"\",\"iterations\":[],\"speed\":\"standard\"},\"modelUsage\":{},\"permission_denials\":[],\"terminal_reason\":\"completed\",\"fast_mode_state\":\"off\",\"uuid\":\"95c70f3d-a2fd-4874-a280-4e4b5fc093d5\"}\n\n",
+    "tokens_by_model": {},
+    "metrics": null
   }
 ]
