@@ -6466,6 +6466,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "bankrotstvo-pri-parallelnykh-sudebnyh-delah",
+      "category": "fiz",
+      "title": "Банкротство при параллельных судебных делах",
+      "added_at": "2026-09-03T15:25:38.107192",
+      "char_count": 8514,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1788438332/articles/bankrotstvo-pri-parallelnykh-sudebnyh-delah-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

@@ -1,0 +1,108 @@
+{
+  "slug": "bankrotstvo-pri-parallelnykh-sudebnyh-delah",
+  "category": "fiz",
+  "title": "Банкротство при параллельных судебных делах",
+  "description": "Как подать на банкротство если одновременно идут другие судебные дела, какие споры влияют на процедуру и как их разрешать во время банкротства физлица.",
+  "h1": "Банкротство при параллельных судебных делах: как они влияют на процедуру",
+  "lead": "Банкротство не аннулирует параллельные споры, но перекраивает правила игры: одни встанут на паузу автоматом, другие потянутся прежним ходом, третьи перейдут в общую очередь кредиторов.",
+  "topic_action": "разбор ситуации с банкротством при параллельных делах",
+  "breadcrumb_current": "Параллельные судебные дела при банкротстве",
+  "og_image": "/assets/articles/bankrotstvo-pri-parallelnykh-sudebnyh-delah.jpg",
+  "main_keyword": "банкротство при параллельных судебных делах",
+  "secondary_keywords": [
+    "банкротство если идёт суд",
+    "параллельные судебные дела при банкротстве",
+    "влияние исков на банкротство физлица",
+    "какие судебные дела блокируют банкротство",
+    "рассмотрение дел при банкротстве физлица",
+    "отмена решения суда при банкротстве",
+    "взыскание долгов и банкротство одновременно",
+    "приостановление судебного дела при банкротстве"
+  ],
+  "internal_links": [
+    "/articles/vzysk/arest-zarplaty-pristavami-bankrotstvo"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/",
+    "https://www.consultant.ru/document/cons_doc_LAW_4009/"
+  ],
+  "faq": [
+    {
+      "question": "Приостановится ли гражданский иск против должника, если тот подал на банкротство?",
+      "answer": "Как правило, нет. Автоматическая пауза работает только для взысканий через приставов. Гражданские тяжбы (о разделе, о праве собственности, о репутации) идут своим порядком, если управляющий не попросит отложения и арбитраж не согласится."
+    },
+    {
+      "question": "Что станет с требованием кредитора, которое ещё не подтверждено вердиктом?",
+      "answer": "Оно включается в реестр на основании имеющихся бумаг - договора, актов сверки, переписки. Вступившее решение необязательно. Управляющий вправе возражать, если сумма кажется завышенной или основание шатким."
+    },
+    {
+      "question": "Может ли финансовый управляющий оспорить решение по параллельному делу?",
+      "answer": "Только через надзорное производство и только по основаниям арбитражного кодекса: ошибка применения права, вновь открывшиеся обстоятельства, ущерб конкурсной массе. Сам факт несостоятельности поводом для отмены не служит."
+    },
+    {
+      "question": "Куда взыскатель заявляет право на компенсацию расходов при банкротстве должника?",
+      "answer": "В тот же реестр, что и основной долг. Основание - ст. 102 АПК РФ. Траты (гонорар адвоката, госпошлина, экспертиза) подтверждаются документами и встают в общую очередь."
+    },
+    {
+      "question": "Сколько времени есть у взыскателя, чтобы включиться в очередь?",
+      "answer": "Два месяца с даты публикации сообщения об открытии дела в ЕФРСБ. Пропуск означает выпадение из основной очереди и, как правило, отсутствие выплат из конкурсной массы."
+    },
+    {
+      "question": "Как рассматривается апелляция, если ответчик признан банкротом?",
+      "answer": "Обычно апелляционная инстанция ведёт разбирательство своим ходом. Если результат прямо влияет на конкурсную массу, инстанция и арбитраж могут скоординировать сроки. Практика зависит от конкретного судьи."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все ключевые факты сверены с research.json. Статусы active по f1, f2, f3, f5, f9, f10.",
+    "Ст. 213.11 п. 1 127-ФЗ: приостановление исполнительных производств - active, last_verified 2026-09-03.",
+    "Гражданские иски (f6): contested. В тексте использована консервативная формулировка «как правило, нет» без гарантий.",
+    "Апелляция при банкротстве (f8): needs_verification + contested. Формулировка «обычно», «иногда координируют», «практика зависит от судьи».",
+    "Судебные расходы по ст. 102 АПК РФ (f10): active, last_verified 2026-09-03.",
+    "Надзорный пересмотр по ст. 391 АПК РФ (f9): active, last_verified 2026-09-03.",
+    "Запрещённые утверждения отсутствуют: автоматическая отмена параллельных дел не утверждается, разграничение исполнительных производств и гражданских исков корректное."
+  ],
+  "keyword_density_main": 0.007,
+  "main_keyword_exact_count": 1,
+  "text_chars": 8514,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.096,
+  "local_spam_ngram3_repeat": 0.043,
+  "local_lexical_diversity": 0.622,
+  "local_ai_markers_density": 0.19,
+  "local_ai_markers_critical": 0,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1788438332/articles/bankrotstvo-pri-parallelnykh-sudebnyh-delah-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1788438332/articles/bankrotstvo-pri-parallelnykh-sudebnyh-delah-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Editorial photograph of a polished marble stone slab in the foreground holding multiple business objects arranged to suggest concurrent legal proceedings: two closed leather portfolios side by side, an antique brass pocket watch on a chain, a fountain pen positioned across one portfolio, a polished round seal, and a brass key ring. Soft architectural background: blurred marble columns and limestone arch out of focus. Camera: tabletop level with slight three-quarter angle. Lighting: natural soft daylight grazing the stone surface, revealing marble veins and texture. Palette: warm cream, cool grey shadow, warm brass accents. Mood: timeless professional deliberation managing multiple concurrent cases.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-09-03T12:25:33Z",
+  "length_status": "too_long",
+  "length_kind": "default",
+  "local_ai_markers_total": 2,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 2,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 51,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность чуть выше 50% (~51%)",
+    "длина значительно больше лимита 6500 (8 514 знаков)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "length_too_long: 8514 > 6500 (kind=default)",
+    "targeted_tokens_over_limit: РФ_рудимент=3(>≤2)",
+    "broken_internal_links: 1 ссылок без соответствия в published_index (/articles/vzysk/arest-zarplaty-pristavami-bankrotstvo: slug 'arest-zarplaty-pristavami-bankrotstvo' не найден в категории 'vzysk' (есть: fiz))"
+  ],
+  "date_published": "2026-09-03",
+  "date_modified": "2026-09-03",
+  "ready_for_review": true,
+  "ready_at": "2026-09-03T12:25:38Z",
+  "publication_target": "telegram_review"
+}
