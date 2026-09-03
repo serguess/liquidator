@@ -6479,6 +6479,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "alimenty-rebyonku-invalidu-razmer-vzyskanie",
+      "category": "vzysk",
+      "title": "Алименты на ребёнка-инвалида: размер и взыскание",
+      "added_at": "2026-09-04T00:53:30.192051",
+      "char_count": 8306,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1788472404/articles/alimenty-rebyonku-invalidu-razmer-vzyskanie-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

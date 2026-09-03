@@ -1,0 +1,108 @@
+{
+  "slug": "alimenty-rebyonku-invalidu-razmer-vzyskanie",
+  "category": "vzysk",
+  "title": "Алименты на ребёнка-инвалида: размер и взыскание",
+  "description": "Размер алиментов на ребёнка с инвалидностью, как взыскать через суд, исполнение приказа. Порядок действий и ответственность за неуплату.",
+  "h1": "Алименты на ребёнка с инвалидностью: размер и взыскание через суд",
+  "lead": "Разбираем два вида выплат - долевую и фиксированную, выбор между приказом и иском и три уровня давления на неплательщика.",
+  "topic_action": "взыскание алиментов на ребёнка с инвалидностью",
+  "breadcrumb_current": "Алименты на ребёнка с инвалидностью",
+  "og_image": "/assets/articles/alimenty-rebyonku-invalidu-razmer-vzyskanie.jpg",
+  "main_keyword": "алименты на ребёнка с инвалидностью",
+  "secondary_keywords": [
+    "размер алиментов на ребёнка инвалида",
+    "взыскание алиментов через суд",
+    "алименты на инвалида с детства",
+    "увеличение алиментов на инвалида",
+    "исполнение решения об алиментах",
+    "судебный приказ об алиментах",
+    "алименты если родитель не работает",
+    "взыскание задолженности по алиментам",
+    "уголовная ответственность за неуплату алиментов"
+  ],
+  "internal_links": [
+    "/articles/fiz/alimenty-pri-bankrotstve-fizlica"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_8982/",
+    "https://www.consultant.ru/document/cons_doc_LAW_71450/"
+  ],
+  "faq": [
+    {
+      "question": "Какой размер назначают при первой группе инвалидности?",
+      "answer": "Отдельной автоматической прибавки за группу закон не предусматривает. Судья исходит из базовой доли (25% на одного от заработка плательщика), а к ней при подтверждённых расходах на лечение, реабилитацию, уход добавляет твёрдую сумму. Итог зависит от чеков и реальных потребностей."
+    },
+    {
+      "question": "Можно ли взыскать деньги на протезирование отдельно?",
+      "answer": "Да. Дополнительное содержание подаётся как отдельный иск в любой момент - при появлении новых крупных расходов на протез, операцию, спецоборудование. Основное решение при этом продолжает действовать."
+    },
+    {
+      "question": "Что делать, если плательщик официально не работает?",
+      "answer": "Приказное производство отпадает. Подаётся иск с требованием о твёрдой денежной сумме, привязанной к прожиточному минимуму в регионе проживания ребёнка. Судья вправе запросить справки из ФНС, банков, сведения об имуществе."
+    },
+    {
+      "question": "До какого возраста получает содержание?",
+      "answer": "Ограничения по возрасту нет. Совершеннолетний нетрудоспособный сын или дочь вправе требовать выплат от обоих взрослых всё время, пока сохраняются нетрудоспособность и нуждаемость."
+    },
+    {
+      "question": "Сколько ждать вынесения приказа?",
+      "answer": "Пять дней с момента подачи заявления, без вызова сторон. Ещё десять дней даётся должнику на возражение. Поступило - приказ отменяется, дело переходит в исковое производство."
+    },
+    {
+      "question": "Чем рискует плательщик за четыре месяца молчания?",
+      "answer": "Штраф до 200 тысяч, обязательные работы, арест либо лишение свободы до года. Плюс сохраняется вся долговая пирамида: сама задолженность, пеня 0,33% в день, семипроцентный сбор пристава, ограничения на выезд и на управление автомобилем."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все факты сверены с research.json. Статусы active, last_verified 2026-09-04 для всех фактов.",
+    "Долевые размеры 25%/33%/50% по ст. 81 СК РФ - верифицированы (f1). Оговорка о праве суда отступить сохранена в тексте.",
+    "Дополнительные выплаты в твёрдой форме по ст. 86 СК РФ - верифицированы (f2). Контекст: недостаточность основных алиментов для ребёнка-инвалида, корректен.",
+    "Алименты совершеннолетнему нетрудоспособному по ст. 85 СК РФ - верифицированы (f13). Условия нетрудоспособности и нуждаемости присутствуют.",
+    "Судебный приказ: 5 дней без заседания, ст. 121-122 ГПК РФ - верифицирован (f3). Десять дней на возражение - ст. 128 ГПК РФ, не опровергается research, стандартная норма.",
+    "Пеня 0,33% в день, лимит 50% по ст. 115 СК РФ - верифицированы (f7). Формулировка совпадает с safe_phrasing.",
+    "Исполнительский сбор 7%, минимум 1 000 руб. для граждан по ст. 112 ФЗ-229 - применён claim (f6). В цитате research указано 2 000 руб. (общая норма), однако claim и safe_phrasing явно разграничивают: для граждан 1 000 руб. Использована цифра из claim/safe_phrasing.",
+    "Удержание до 70% дохода по ст. 99 ч. 3 ФЗ-229 - верифицировано (f5). Оговорка о максимальном характере сохранена.",
+    "Уголовная ответственность: 4 месяца, штраф до 200 тыс. руб., обязательные работы, арест, лишение свободы до года - ст. 157 УК РФ, верифицировано (f8). Критерий злостного уклонения присутствует.",
+    "ПМ 2026: 20 644 руб. (ФЗ-426 от 28.11.2025) - верифицирован (f10).",
+    "Прожиточный минимум на счёте: только по заявлению должника, не автоматически - оговорка сохранена (f10, ст. 99 ч. 5.1 ФЗ-229).",
+    "Изменение размера по ст. 119 СК РФ - верифицировано (f12).",
+    "Долг по алиментам не списывается при банкротстве гражданина - ст. 213.28 127-ФЗ, согласуется с правовой позицией, forbidden_claims не нарушены."
+  ],
+  "keyword_density_main": 0.015,
+  "main_keyword_exact_count": 2,
+  "text_chars": 8306,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.081,
+  "local_spam_ngram3_repeat": 0.023,
+  "local_lexical_diversity": 0.63,
+  "local_ai_markers_density": 0.2,
+  "local_ai_markers_critical": 0,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1788472404/articles/alimenty-rebyonku-invalidu-razmer-vzyskanie-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1788472404/articles/alimenty-rebyonku-invalidu-razmer-vzyskanie-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Close-to-medium architectural photograph of a massive stone government courthouse building, focusing on weathered limestone textures, geometric repetition of columns, and dramatic light. Camera angle: extreme low-angle up the columns, or partial framing showing the carved doorway with institutional emblem. Optional small foreground items at the base of frame: brass scales of justice resting on a stone step, closed leather portfolio, polished round court seal. Lighting: hard side-light revealing every chisel mark and architectural detail, deep cast shadows from columns emphasizing weight and permanence. Palette: warm sandstone, cool grey shadow with weathered patina. Mood: immutable authority of state protection, solemnity of parental obligation enforced by law.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-09-03T21:53:25Z",
+  "length_status": "too_long",
+  "length_kind": "default",
+  "local_ai_markers_total": 2,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 2,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 49,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "длина значительно больше лимита 6500 (8 306 знаков)"
+  ],
+  "date_published": "2026-09-04",
+  "date_modified": "2026-09-04",
+  "ready_for_review": true,
+  "ready_at": "2026-09-03T21:53:30Z",
+  "publication_target": "telegram_review"
+}
