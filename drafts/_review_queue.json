@@ -6440,6 +6440,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "vzyskanie-oplaty-bez-pismennogo-dogovora",
+      "category": "vzysk",
+      "title": "Взыскание оплаты за работу без письменного договора",
+      "added_at": "2026-09-03T05:41:32.405125",
+      "char_count": 8685,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1788403289/articles/vzyskanie-oplaty-bez-pismennogo-dogovora-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
