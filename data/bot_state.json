@@ -12150,7 +12150,7 @@
     "ipotechnaya-prosrochka-rekord-tsb-august-2026": {
       "category": "news",
       "title": "Просрочка по ипотеке: как защитить себя должнику",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -12158,14 +12158,16 @@
       "tg_message_id": 2659,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-09-03T08:46:07",
-      "last_action_at": "2026-09-03T10:00:12",
+      "last_action_at": "2026-09-04T00:20:43",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/news/ipotechnaya-prosrochka-rekord-tsb-august-2026",
       "pending_batch": false,
       "pending_batch_at": "2026-09-03T08:46:07",
       "batch_sent_at": "2026-09-03T10:00:12",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-09-04T00:20:43",
+      "articles_path": "articles/news/ipotechnaya-prosrochka-rekord-tsb-august-2026.html"
     },
     "bankrotstvo-pri-parallelnykh-sudebnyh-delah": {
       "category": "fiz",
