@@ -12128,7 +12128,7 @@
     "vzyskanie-oplaty-bez-pismennogo-dogovora": {
       "category": "vzysk",
       "title": "Взыскание оплаты за работу без письменного договора",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -12136,14 +12136,16 @@
       "tg_message_id": 2657,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-09-03T05:42:05",
-      "last_action_at": "2026-09-03T10:00:09",
+      "last_action_at": "2026-09-04T00:20:41",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/vzysk/vzyskanie-oplaty-bez-pismennogo-dogovora",
       "pending_batch": false,
       "pending_batch_at": "2026-09-03T05:42:05",
       "batch_sent_at": "2026-09-03T10:00:09",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-09-04T00:20:41",
+      "articles_path": "articles/vzysk/vzyskanie-oplaty-bez-pismennogo-dogovora.html"
     },
     "ipotechnaya-prosrochka-rekord-tsb-august-2026": {
       "category": "news",
