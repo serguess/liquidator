@@ -1,6 +1,19 @@
 {
-  "generated": "2026-09-02",
+  "generated": "2026-09-04",
   "articles": [
+    {
+      "slug": "bankrotstvo-dolg-porcha-imushchestva-sosedom",
+      "cat": "fiz",
+      "catLabel": "Банкротство физических лиц",
+      "title": "Долг за порчу имущества при банкротстве",
+      "desc": "Разбираемся, будет ли долг за порчу имущества соседу списан при банкротстве физлица или придётся платить из имущества.",
+      "date": "4 сентября 2026",
+      "dateIso": "2026-09-04",
+      "read": "6 мин.",
+      "tone": "b",
+      "img": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1788351975/articles/bankrotstvo-dolg-porcha-imushchestva-sosedom-cover.jpg",
+      "url": "articles/fiz/bankrotstvo-dolg-porcha-imushchestva-sosedom"
+    },
     {
       "slug": "banki-mfo-otchetnost-fssp-vzyskanie-dolgov-2026",
       "cat": "news",

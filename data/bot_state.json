@@ -12084,20 +12084,24 @@
     "bankrotstvo-dolg-porcha-imushchestva-sosedom": {
       "category": "fiz",
       "title": "Долг за порчу имущества при банкротстве",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 2653,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-09-02T15:27:17",
-      "last_action_at": "2026-09-02T15:27:17",
+      "last_action_at": "2026-09-04T00:20:34",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-09-02T15:27:17"
+      "published_url": "https://pravo.shop/articles/fiz/bankrotstvo-dolg-porcha-imushchestva-sosedom",
+      "pending_batch": false,
+      "pending_batch_at": "2026-09-02T15:27:17",
+      "batch_sent_at": "2026-09-03T10:00:04",
+      "batch_fail_count": 0,
+      "published_at": "2026-09-04T00:20:34",
+      "articles_path": "articles/fiz/bankrotstvo-dolg-porcha-imushchestva-sosedom.html"
     },
     "bankrotstvo-restorannogo-biznesa": {
       "category": "yur",
@@ -12107,15 +12111,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 2655,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-09-02T20:29:20",
-      "last_action_at": "2026-09-02T20:29:20",
+      "last_action_at": "2026-09-03T10:00:07",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-09-02T20:29:20"
+      "pending_batch": false,
+      "pending_batch_at": "2026-09-02T20:29:20",
+      "batch_sent_at": "2026-09-03T10:00:07",
+      "batch_fail_count": 0
     },
     "vzyskanie-oplaty-bez-pismennogo-dogovora": {
       "category": "vzysk",
@@ -12125,15 +12131,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 2657,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-09-03T05:42:05",
-      "last_action_at": "2026-09-03T05:42:05",
+      "last_action_at": "2026-09-03T10:00:09",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-09-03T05:42:05"
+      "pending_batch": false,
+      "pending_batch_at": "2026-09-03T05:42:05",
+      "batch_sent_at": "2026-09-03T10:00:09",
+      "batch_fail_count": 0
     },
     "ipotechnaya-prosrochka-rekord-tsb-august-2026": {
       "category": "news",
@@ -12143,19 +12151,57 @@
       "versions": [
         "2.0"
       ],
+      "tg_message_id": 2659,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-09-03T08:46:07",
+      "last_action_at": "2026-09-03T10:00:12",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-09-03T08:46:07",
+      "batch_sent_at": "2026-09-03T10:00:12",
+      "batch_fail_count": 0
+    },
+    "bankrotstvo-pri-parallelnykh-sudebnyh-delah": {
+      "category": "fiz",
+      "title": "Банкротство при параллельных судебных делах",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
       "tg_message_id": null,
       "tg_chat_id": null,
-      "first_seen_at": "2026-09-03T08:46:07",
-      "last_action_at": "2026-09-03T08:46:07",
+      "first_seen_at": "2026-09-03T15:26:11",
+      "last_action_at": "2026-09-03T15:26:11",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
       "pending_batch": true,
-      "pending_batch_at": "2026-09-03T08:46:07"
+      "pending_batch_at": "2026-09-03T15:26:11"
+    },
+    "bankrotstvo-npf-prava-zastrahovannyh": {
+      "category": "yur",
+      "title": "Банкротство НПФ: защита пенсионных накоплений",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-09-03T20:14:15",
+      "last_action_at": "2026-09-03T20:14:15",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-09-03T20:14:15"
     }
   },
   "pending_actions": [],
-  "last_batch_date": "2026-09-02",
-  "last_batch_count": 5,
-  "last_batch_at": "2026-09-02T10:00:19"
+  "last_batch_date": "2026-09-03",
+  "last_batch_count": 4,
+  "last_batch_at": "2026-09-03T10:00:12"
 }
