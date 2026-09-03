@@ -1,0 +1,112 @@
+{
+  "slug": "ipotechnaya-prosrochka-rekord-tsb-august-2026",
+  "category": "news",
+  "title": "Просрочка по ипотеке: как защитить себя должнику",
+  "description": "Просрочка по ипотеке превысила 252 млрд руб: какие риски ждут должников, что грозит при неуплате, как защитить себя и что делать при невозможности платить.",
+  "h1": "Просрочка по ипотеке: риски для должников и варианты защиты",
+  "lead": "По данным ЦБ на 31 августа 2026 года просроченный долг по ипотеке в стране достиг 252 млрд рублей - разбираем, что реально грозит должнику при неуплате и какие инструменты защиты есть по закону.",
+  "topic_action": "защиту при просрочке по ипотеке",
+  "breadcrumb_current": "Просрочка по ипотеке",
+  "og_image": "/assets/articles/ipotechnaya-prosrochka-rekord-tsb-august-2026.jpg",
+  "main_keyword": "просрочка по ипотеке",
+  "secondary_keywords": [
+    "ипотечная задолженность",
+    "что делать если просрочка ипотеки",
+    "последствия просрочки по ипотеке",
+    "должник по ипотеке защита",
+    "реструктуризация ипотечного кредита",
+    "кредит под залог защита должника"
+  ],
+  "intent": "informational",
+  "funnel_stage": "warm",
+  "article_type": "A",
+  "offer": "snyatie-aresta",
+  "event_date": "2026-08-31",
+  "news_zone": "finance",
+  "internal_links": [
+    "/articles/vzysk/arest-zarplaty-pristavami-bankrotstvo"
+  ],
+  "external_links": [
+    "https://www.cbr.ru/statistics/bank_sector/sors/"
+  ],
+  "faq": [
+    {
+      "question": "Может ли банк забрать ипотечную квартиру через два месяца неуплаты?",
+      "answer": "Нет, не через два месяца. После 60-90 дней просрочки залогодержатель получает право потребовать всю сумму досрочно и подать иск. Судебное разбирательство и последующие торги занимают ещё несколько месяцев - в среднем от полугода. Быстрого изъятия закон не предусматривает."
+    },
+    {
+      "question": "Сколько вправе удержать пристав из зарплаты при долге по жилищному кредиту?",
+      "answer": "Не более половины дохода после НДФЛ (ст. 99 ч. 2 ФЗ-229). По заявлению должника на счёте сохраняется прожиточный минимум. По отдельным требованиям порог поднимается до 70 процентов, но ипотечные долги в этот перечень не входят."
+    },
+    {
+      "question": "Обязан ли банк одобрить реструктуризацию, если я прошу об этом первым?",
+      "answer": "Обязан рассмотреть обращение, но не обязан согласиться. Решение зависит от документов, подтверждающих ухудшение материального положения, и от политики конкретной финансовой организации. При отказе имеет смысл рассмотреть ходатайство о рассрочке через суд."
+    },
+    {
+      "question": "Как действует страховка жизни, если платить по ипотеке стало нечем?",
+      "answer": "Полис срабатывает только при страховом случае из договора: смерть заёмщика, установление инвалидности определённой группы, тяжёлое заболевание из перечня. Просто невозможность платить страховым случаем не считается. Стоит запросить у страховщика письменное разъяснение по вашей ситуации."
+    },
+    {
+      "question": "Чем ходатайство о рассрочке через суд отличается от банковской отсрочки?",
+      "answer": "Банковская отсрочка - добровольная договорённость с кредитором, оформляется допсоглашением. Ходатайство о рассрочке по ст. 37 ФЗ-229 подаётся уже в рамках исполнительного производства. Решает суд с учётом положения и интересов взыскателя."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "f1 (ст. 330 ГК РФ - досрочное требование при просрочке): статус active, last_verified 2026-09-03, контекст корректен",
+    "f2 (ст. 446 ГПК РФ - защита единственного жилья): статус active, last_verified 2026-09-03; в тексте корректно разграничена защита от пристава и возможность судебного взыскания залога - forbidden_claim не нарушен",
+    "f3 (ст. 99 ч. 2 и ч. 5.1 ФЗ-229 - 50% удержание и прожиточный минимум): статус active, last_verified 2026-09-03",
+    "f4 (ст. 112 ч. 3 ФЗ-229 - исполнительский сбор 7%, минимум 1000 руб): статус active, last_verified 2026-09-03",
+    "f5 (ст. 37 ФЗ-229 - рассрочка/отсрочка через суд): статус active",
+    "f6 (ст. 349 ГК РФ, ст. 87-88 ФЗ об ипотеке - обращение взыскания на залог): статус active",
+    "f7 (страхование жизни и имущества): safe_phrasing применена - погашение только при страховом случае из перечня",
+    "f8 (ст. 15 ЗоЗПП - компенсация морального вреда): статус active",
+    "f9 (льготы для участников СВО и пенсионеров): формулировка обтекаемая, без конкретных цифр, отсылка к МФЦ и банку",
+    "Запрещённые утверждения из forbidden_claims отсутствуют в тексте",
+    "Исправлено: 'по заявлению заявителя' заменено на 'по заявлению должника' для соответствия safe_phrasing из research.json",
+    "Удалены: префиксы 'Шаг N.' из заголовков H3 (запрещённый паттерн пошаговых инструкций)",
+    "Удалены: префиксы 'Способ N.' из H3 блока инструментов защиты - оставлены описательные названия"
+  ],
+  "keyword_density_main": null,
+  "main_keyword_exact_count": null,
+  "text_chars": 7887,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.085,
+  "local_spam_ngram3_repeat": 0.025,
+  "local_lexical_diversity": 0.668,
+  "local_ai_markers_density": 0.31,
+  "local_ai_markers_critical": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1788414316/articles/ipotechnaya-prosrochka-rekord-tsb-august-2026-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1788414316/articles/ipotechnaya-prosrochka-rekord-tsb-august-2026-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Photograph through rain-streaked glass at a modern banking building. Foreground on a workspace surface: a closed laptop, a white porcelain coffee cup, an open leather notebook with a fountain pen across its pages, reading glasses on a closed legal document, an antique brass pocket watch. Background through raindrops: contemporary bank glass façade reflecting the wet street, distant amber lampposts. Camera: tight eye-level crop. Lighting: cool grey daylight outside, warm interior amber desk-lamp glow. Palette: cool blue-grey with warm amber pin-points. Mood: contemporary financial stress, late-day decision-making, mortgage defense urgency.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-09-03T05:45:17Z",
+  "length_status": "too_long",
+  "length_kind": "news",
+  "local_ai_markers_total": 3,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 3,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 47,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 90,
+  "customer_risks": [
+    "длина значительно больше лимита 5500 (7 887 знаков)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "length_too_long: 7887 > 5500 (kind=news)",
+    "targeted_tokens_over_limit: ст_сокращение=13(>≤5), РФ_рудимент=4(>≤2)",
+    "broken_internal_links: 1 ссылок без соответствия в published_index (/articles/vzysk/arest-zarplaty-pristavami-bankrotstvo: slug 'arest-zarplaty-pristavami-bankrotstvo' не найден в категории 'vzysk' (есть: fiz))"
+  ],
+  "date_published": "2026-09-03",
+  "date_modified": "2026-09-03",
+  "ready_for_review": true,
+  "ready_at": "2026-09-03T05:45:22Z",
+  "publication_target": "telegram_review"
+}

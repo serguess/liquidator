@@ -6453,6 +6453,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "ipotechnaya-prosrochka-rekord-tsb-august-2026",
+      "category": "news",
+      "title": "Просрочка по ипотеке: как защитить себя должнику",
+      "added_at": "2026-09-03T08:45:22.319882",
+      "char_count": 7887,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1788414316/articles/ipotechnaya-prosrochka-rekord-tsb-august-2026-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

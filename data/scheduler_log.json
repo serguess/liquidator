@@ -39904,5 +39904,67 @@
     "stderr_tail": "[ERR] rate_limit: put_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard\",\"cache_creation\":{\"ephemeral_1h_input_tokens\":0,\"ephemeral_5m_input_tokens\":0},\"inference_geo\":\"\",\"iterations\":[],\"speed\":\"standard\"},\"modelUsage\":{},\"permission_denials\":[],\"terminal_reason\":\"completed\",\"fast_mode_state\":\"off\",\"uuid\":\"94644120-3849-4e27-987f-f79c2c05c1c3\"}\n\n",
     "tokens_by_model": {},
     "metrics": null
+  },
+  {
+    "timestamp": "2026-09-03T05:12:04",
+    "category": "vzysk",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 12,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "resume",
+    "resume_slug": "vzyskanie-oplaty-bez-pismennogo-dogovora",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "forced_pass_at_iter2: блокеры пропущены, статья идёт в TG-очередь с metrics_warning=true. Было: 2 блокеров — length_too_long; targeted_tokens_over_limit"
+      ],
+      "recommendations": [
+        "reduce_length: сократить до 5000-6000 знаков",
+        "reduce_ст: «ст. X» × 20 → cap 5. Писать «статья X» полным словом, либо описательно («по правилу о процентах», «норма об исковой давности»). Cap 3 юр-цитаты на статью, остальное — пересказом.",
+        "reduce_round_sums: «X 000 руб» × 7 → cap 2. Иллюстративные суммы — некруглые (82 400, 147 500). Статутные пороги (300 000, 500 000) — 1 раз в точной форме + дальше через дескриптор («эта планка», «новый минимум»)."
+      ],
+      "stderr_tail": ""
+    },
+    "finalize_safety_net": {
+      "ran": true,
+      "rc": 0
+    },
+    "status": "ok",
+    "slug": "vzyskanie-oplaty-bez-pismennogo-dogovora",
+    "duration_sec": 1767.7,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "e_r  billable\n6-seo-editor        haiku            20       8   106010         0    106038\n7-publisher         haiku            20       8    36302     39548     36330\n------------------------------------------------------------------------------------------\nИТОГО                                40      16   142312     39548    142368\nBillable-токенов на статью: ~142K (cache_read 39K не считается в лимит подписки).\nАртефакты: drafts/vzyskanie-oplaty-bez-pismennogo-dogovora/  | quality_gate exit=0",
+    "stderr_tail": "",
+    "tokens_by_model": {},
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 8685
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]
