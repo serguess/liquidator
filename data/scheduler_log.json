@@ -40141,5 +40141,68 @@
     "timestamp": "2026-09-03T10:00:04",
     "status": "preflight_failed",
     "reason": "rate_limit: You've hit your limit · resets 10:10am (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-09-03T14:48:06",
+    "category": "fiz",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 2,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "fiz-200",
+    "topic_slug": "bankrotstvo-pri-parallelnykh-sudebnyh-delah",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "forced_pass_at_iter2: блокеры пропущены, статья идёт в TG-очередь с metrics_warning=true. Было: 3 блокеров — length_too_long; targeted_tokens_over_limit; broken_internal_links"
+      ],
+      "recommendations": [
+        "reduce_length: сократить до 5000-6000 знаков",
+        "reduce_РФ: «РФ» × 3 → cap 2. Удалить из «ГК РФ»/«ГПК РФ» — просто «ГК»/«ГПК» (контекст однозначный). Один раз в первом упоминании можно полное название.",
+        "fix_internal_links: заменить href на канонический /articles/{cat}/{slug} из published_index.json (см. .claude/style/editor-cheatsheet.md секция 6)"
+      ],
+      "stderr_tail": ""
+    },
+    "finalize_safety_net": {
+      "ran": true,
+      "rc": 0
+    },
+    "status": "ok",
+    "slug": "bankrotstvo-pri-parallelnykh-sudebnyh-delah",
+    "duration_sec": 2251.4,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "    24258\n6-seo-editor        sonnet            6      14        0     91724        20\n7-publisher         haiku            20       8    36304     39548     36332\n------------------------------------------------------------------------------------------\nИТОГО                               166      98   560191    669183    560455\nBillable-токенов на статью: ~560K (cache_read 669K не считается в лимит подписки).\nАртефакты: drafts/bankrotstvo-pri-parallelnykh-sudebnyh-delah/  | quality_gate exit=0",
+    "stderr_tail": "",
+    "tokens_by_model": {},
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 8514
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]

@@ -1,0 +1,106 @@
+{
+  "slug": "bankrotstvo-npf-prava-zastrahovannyh",
+  "category": "yur",
+  "title": "Банкротство НПФ: защита пенсионных накоплений",
+  "description": "Как защищены пенсионные накопления при банкротстве НПФ, система гарантирования и порядок возврата средств.",
+  "h1": "Банкротство НПФ: что происходит с пенсионными накоплениями застрахованных",
+  "lead": "Разбираем, какой маршрут открыт в вашей ситуации, что реально стоит денег и какие три ошибки чаще всего срывают процесс гарантирования.",
+  "topic_action": "консультацию по защите пенсионных накоплений",
+  "breadcrumb_current": "Защита накоплений при банкротстве НПФ",
+  "og_image": "/assets/articles/bankrotstvo-npf-prava-zastrahovannyh.jpg",
+  "main_keyword": "банкротство НПФ",
+  "secondary_keywords": [
+    "НПФ банкротство",
+    "защита накоплений при банкротстве НПФ",
+    "система гарантирования пенсионных накоплений",
+    "возврат накоплений при банкротстве",
+    "страховка пенсионных накоплений",
+    "куда деваются накопления при банкротстве",
+    "СВО система гарантирования НПФ"
+  ],
+  "internal_links": [
+    "/articles/yur/bank-bankrot-chto-budet-s-kreditom-zaemshchika.html",
+    "/articles/yur/bankrotstvo-akcionernogo-obshchestva-prava-akcionerov.html",
+    "/articles/fiz/bankrotstvo-pensionera.html"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39327/",
+    "https://www.consultant.ru/document/cons_doc_LAW_34152/",
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/"
+  ],
+  "faq": [
+    {
+      "question": "Можно ли потерять все пенсионные средства при банкротстве управляющего?",
+      "answer": "Полностью - нет. Гарантия покрывает остаток счёта на дату отзыва лицензии в пределах 1 400 000 рублей. Если накоплено больше - разница идёт в общий порядок требований к юридическому лицу."
+    },
+    {
+      "question": "Что с инвестиционным доходом, если лицензию отозвали?",
+      "answer": "Возмещается только остаток на день страхового события. Ожидаемый или потенциальный доход - нет. Это прямое следствие природы гарантии."
+    },
+    {
+      "question": "Сколько ждать выплату от агентства?",
+      "answer": "Ориентировочно до ста календарных дней. Точный срок устанавливают нормативные акты АСВ по конкретному делу."
+    },
+    {
+      "question": "Распространяется ли защита на иностранных граждан с ВНЖ?",
+      "answer": "Да. Гарантия охватывает застрахованных лиц с постоянным видом на жительство в РФ, а также граждан за границей."
+    },
+    {
+      "question": "Обязательно ли выбирать новый НПФ?",
+      "answer": "Нет. Если заявление не подано в срок - накопления автоматически уходят в ПФР. Право выбора сохраняется, но пассивная позиция ведёт к переводу в государственную систему."
+    },
+    {
+      "question": "Что делать наследникам, если застрахованный умер до выплаты?",
+      "answer": "Право требования переходит к ним пропорционально долям в наследстве. Обращение в АСВ подаётся от имени наследника с приложением свидетельства о праве на наследство."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все факты сверены с research.json. Статусы: active. last_verified = 2026-09-03 (сегодня).",
+    "Гарантийная сумма 1 400 000 руб. актуальна с 01.01.2026 (ФЗ-200 от 20.07.2025).",
+    "Порог банкротства юрлиц 2 млн руб. актуален с 29.05.2024 (ФЗ-107).",
+    "Инвестиционные риски НПФ освещены корректно: гарантия покрывает остаток, но не убытки от инвестирования.",
+    "Механизм гарантирования через АСВ и переводов в другой НПФ или ПФР описан точно.",
+    "Запрещённые утверждения отсутствуют: не сказано, что гарантия компенсирует убытки, не пообещано мгновенную выплату."
+  ],
+  "keyword_density_main": 0.008,
+  "main_keyword_exact_count": 2,
+  "text_chars": 8074,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.106,
+  "local_spam_ngram3_repeat": 0.027,
+  "local_lexical_diversity": 0.629,
+  "local_ai_markers_density": 0.3,
+  "local_ai_markers_critical": 0,
+  "length_status": "too_long",
+  "length_kind": "default",
+  "local_ai_markers_total": 3,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 2,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 49,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "длина значительно больше лимита 6500 (8 074 знаков)"
+  ],
+  "date_published": "2026-09-03",
+  "date_modified": "2026-09-03",
+  "ready_for_review": true,
+  "ready_at": "2026-09-03T00:00:00Z",
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1788455640/articles/bankrotstvo-npf-prava-zastrahovannyh-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1788455640/articles/bankrotstvo-npf-prava-zastrahovannyh-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Photograph of a narrow architectural passage between two stone administrative buildings, wet pavement reflecting the facades above. Camera: low-angle along the passageway, vanishing point centered. At the base of frame: a small closed dark briefcase, an antique brass pocket watch on a chain, a stack of closed cream dossiers tied with cord, a fountain pen aligned perpendicular. Lighting: cool overcast daylight with a single warm glow from a distant lamppost, fog softens the far end. Palette: cool grey-blue wet stone, warm brass and gold accents. Mood: transition between procedural stages, the protective moment between institutional collapse and security of preserved savings.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-09-03T17:14:01Z",
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "targeted_tokens_over_limit: 000руб_паттерн=3(>≤2)",
+    "broken_internal_links: 2 ссылок без соответствия в published_index (/articles/yur/bank-bankrot-chto-budet-s-kreditom-zaemshchika.html: slug 'bank-bankrot-chto-budet-s-kreditom-zaemshchika' не найден в категории 'yur' (есть: fiz); /articles/yur/bankrotstvo-akcionernogo-obshchestva-prava-akcionerov.html: slug 'bankrotstvo-akcionernogo-obshchestva-prava-akcionerov' не найден в категории 'yur' (есть: нигде))"
+  ]
+}

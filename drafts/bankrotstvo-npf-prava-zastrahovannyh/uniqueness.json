@@ -1,0 +1,30 @@
+{
+  "slug": "bankrotstvo-npf-prava-zastrahovannyh",
+  "article_id": 554,
+  "scores": {
+    "structure_overlap": 0.0,
+    "thesis_similarity": 0.305,
+    "cta_overlap": 0.199
+  },
+  "thresholds": {
+    "structure_overlap": 0.4,
+    "thesis_similarity": 0.3,
+    "cta_overlap": 0.2
+  },
+  "passed": false,
+  "peers_compared": 47,
+  "closest_peer": "bankrotstvo-banka-prava-klientov",
+  "similar_articles": [
+    {
+      "slug": "bankrotstvo-banka-prava-klientov",
+      "category": "yur",
+      "similarity": 0.305
+    }
+  ],
+  "conflicts": [
+    "thesis_similarity: 0.305 (threshold: 0.3)"
+  ],
+  "recommendation": "rewrite_with_angle:change-perspective (closest: bankrotstvo-banka-prava-klientov)",
+  "stored_in_db": true,
+  "note": "Вектор статьи записан в data/embeddings.sqlite (published=0). После публикации агент 7 переключит флаг на 1."
+}
