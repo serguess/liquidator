@@ -5662,7 +5662,11 @@
       "topic_action": "оформление ипотечных каникул",
       "event_date": "2026-08-28",
       "news_zone": "moratorium",
-      "primary_source": "https://pravo.gov.ru/"
+      "primary_source": "https://pravo.gov.ru/",
+      "status": "rejected",
+      "rejected_at": "2026-09-03T08:45:32",
+      "rejected_reason": "cannibalization:preflight:ipotechnyje-kanikuly-rozhdenie-rebenka-novyj-zakon",
+      "rejected_by": "auto_skip_in_slot"
     },
     {
       "id": "news-173",
