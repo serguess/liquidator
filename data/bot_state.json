@@ -12177,15 +12177,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 2669,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-09-03T15:26:11",
-      "last_action_at": "2026-09-03T15:26:11",
+      "last_action_at": "2026-09-04T10:00:05",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-09-03T15:26:11"
+      "pending_batch": false,
+      "pending_batch_at": "2026-09-03T15:26:11",
+      "batch_sent_at": "2026-09-04T10:00:05",
+      "batch_fail_count": 0
     },
     "bankrotstvo-npf-prava-zastrahovannyh": {
       "category": "yur",
@@ -12195,15 +12197,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 2671,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-09-03T20:14:15",
-      "last_action_at": "2026-09-03T20:14:15",
+      "last_action_at": "2026-09-04T10:00:07",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-09-03T20:14:15"
+      "pending_batch": false,
+      "pending_batch_at": "2026-09-03T20:14:15",
+      "batch_sent_at": "2026-09-04T10:00:07",
+      "batch_fail_count": 0
     },
     "alimenty-rebyonku-invalidu-razmer-vzyskanie": {
       "category": "vzysk",
@@ -12213,15 +12217,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 2673,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-09-04T00:54:18",
-      "last_action_at": "2026-09-04T00:54:18",
+      "last_action_at": "2026-09-04T10:00:10",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-09-04T00:54:18"
+      "pending_batch": false,
+      "pending_batch_at": "2026-09-04T00:54:18",
+      "batch_sent_at": "2026-09-04T10:00:10",
+      "batch_fail_count": 0
     },
     "nbki-prosrochka-potrebitelskie-kredity-iyul-rost": {
       "category": "news",
@@ -12231,19 +12237,57 @@
       "versions": [
         "2.0"
       ],
+      "tg_message_id": 2675,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-09-04T05:20:05",
+      "last_action_at": "2026-09-04T10:00:12",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-09-04T05:20:05",
+      "batch_sent_at": "2026-09-04T10:00:12",
+      "batch_fail_count": 0
+    },
+    "restrukturizaciya-dolgov-fizlica-prodlenie-sroka": {
+      "category": "fiz",
+      "title": "Реструктуризация долгов физлица: новые правила на 5-7 лет",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
       "tg_message_id": null,
       "tg_chat_id": null,
-      "first_seen_at": "2026-09-04T05:20:05",
-      "last_action_at": "2026-09-04T05:20:05",
+      "first_seen_at": "2026-09-04T15:28:12",
+      "last_action_at": "2026-09-04T15:28:12",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
       "pending_batch": true,
-      "pending_batch_at": "2026-09-04T05:20:05"
+      "pending_batch_at": "2026-09-04T15:28:12"
+    },
+    "bankrotstvo-energosbytovoj-kompanii": {
+      "category": "yur",
+      "title": "Банкротство энергокомпании: права потребителей",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-09-04T20:05:15",
+      "last_action_at": "2026-09-04T20:05:15",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-09-04T20:05:15"
     }
   },
   "pending_actions": [],
-  "last_batch_date": "2026-09-03",
+  "last_batch_date": "2026-09-04",
   "last_batch_count": 4,
-  "last_batch_at": "2026-09-03T10:00:12"
+  "last_batch_at": "2026-09-04T10:00:12"
 }
