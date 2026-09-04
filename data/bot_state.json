@@ -12204,6 +12204,42 @@
       "published_url": null,
       "pending_batch": true,
       "pending_batch_at": "2026-09-03T20:14:15"
+    },
+    "alimenty-rebyonku-invalidu-razmer-vzyskanie": {
+      "category": "vzysk",
+      "title": "Алименты на ребёнка-инвалида: размер и взыскание",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-09-04T00:54:18",
+      "last_action_at": "2026-09-04T00:54:18",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-09-04T00:54:18"
+    },
+    "nbki-prosrochka-potrebitelskie-kredity-iyul-rost": {
+      "category": "news",
+      "title": "Просрочка потребкредитов летом: рост по данным НБКИ",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-09-04T05:20:05",
+      "last_action_at": "2026-09-04T05:20:05",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-09-04T05:20:05"
     }
   },
   "pending_actions": [],

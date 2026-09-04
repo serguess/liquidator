@@ -40322,5 +40322,103 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-09-04T05:12:21",
+    "category": "news",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 9,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "resume",
+    "resume_slug": "nbki-prosrochka-potrebitelskie-kredity-iyul-rost",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "length_soft_passed: 7160 > 5500 но ≤ 7500 и iteration=2 — пропускаем (приоритет spam/uniqueness/ai)",
+        "forced_pass_at_iter2: блокеры пропущены, статья идёт в TG-очередь с metrics_warning=true. Было: 1 блокеров — broken_internal_links"
+      ],
+      "recommendations": [
+        "fix_internal_links: заменить href на канонический /articles/{cat}/{slug} из published_index.json (см. .claude/style/editor-cheatsheet.md секция 6)"
+      ],
+      "stderr_tail": ""
+    },
+    "finalize_safety_net": {
+      "ran": true,
+      "rc": 0
+    },
+    "status": "ok",
+    "slug": "nbki-prosrochka-potrebitelskie-kredity-iyul-rost",
+    "duration_sec": 431.4,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "llable\n6-seo-editor        sonnet            6       4    89292         0     89302\n7-publisher         haiku            20      10    75846         0     75876\n------------------------------------------------------------------------------------------\nИТОГО                                26      14   165138         0    165178\nBillable-токенов на статью: ~165K (cache_read 0K не считается в лимит подписки).\nАртефакты: drafts/nbki-prosrochka-potrebitelskie-kredity-iyul-rost/  | quality_gate exit=0",
+    "stderr_tail": "",
+    "tokens_by_model": {},
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7160
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
+  },
+  {
+    "timestamp": "2026-09-04T08:30:16",
+    "category": "news",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 10,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "news_sanitized": 3,
+    "expanded_in_slot": true,
+    "topic_id": "news-174",
+    "topic_slug": "invalidy-veterany-kompensatsiya-tsr-zapret-vzyskaniya",
+    "status": "failed",
+    "slug": "invalidy-veterany-kompensatsiya-tsr-zapret-vzyskaniya",
+    "duration_sec": 1860.7,
+    "returncode": 1,
+    "rescued_after_failure": false,
+    "stdout_tail": "=== 1-semantics (claude haiku) ===\n   ok: 1533 симв., usage in=20 out=4 cache_w=67036 cache_r=0 billable=67060 ток, 23.8с\n=== 2-legal-research (claude haiku) ===\n   ok: 12500 симв., usage in=108 out=22 cache_w=199494 cache_r=457130 billable=199624 ток, 79.9с\n   ok: 12373 симв., billable=87050 ток (model=sonnet)\n   [outline_validate] exit=1\n=== 4-writer (claude opus) ===",
+    "stderr_tail": "[ERR] rate_limit: put_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard\",\"cache_creation\":{\"ephemeral_1h_input_tokens\":0,\"ephemeral_5m_input_tokens\":0},\"inference_geo\":\"\",\"iterations\":[],\"speed\":\"standard\"},\"modelUsage\":{},\"permission_denials\":[],\"terminal_reason\":\"completed\",\"fast_mode_state\":\"off\",\"uuid\":\"752d63e0-aff4-452f-8506-c28becfedf74\"}\n\n",
+    "tokens_by_model": {},
+    "metrics": null
   }
 ]
