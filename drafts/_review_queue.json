@@ -6505,6 +6505,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "restrukturizaciya-dolgov-fizlica-prodlenie-sroka",
+      "category": "fiz",
+      "title": "Реструктуризация долгов физлица: новые правила на 5-7 лет",
+      "added_at": "2026-09-04T15:27:16.016209",
+      "char_count": 9516,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1788524832/articles/restrukturizaciya-dolgov-fizlica-prodlenie-sroka-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
