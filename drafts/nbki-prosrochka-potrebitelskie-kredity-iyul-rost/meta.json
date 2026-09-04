@@ -1,0 +1,108 @@
+{
+  "slug": "nbki-prosrochka-potrebitelskie-kredity-iyul-rost",
+  "category": "news",
+  "title": "Просрочка потребкредитов летом: рост по данным НБКИ",
+  "description": "Что показали данные НБКИ о просрочках по потребительским кредитам летом? Анализ статистики, причины роста и влияние на рынок кредитования.",
+  "h1": "Просрочка по потребкредитам выросла за лето: статистика НБКИ и последствия для должников",
+  "lead": "Августовская сводка НБКИ подтвердила рост просрочек по потребкредитам: разбираем причины, последствия и что делать, если платёж уже пропущен.",
+  "topic_action": "разбор ситуации с просрочкой по кредиту",
+  "breadcrumb_current": "Просрочка по потребкредитам НБКИ",
+  "og_image": "/assets/articles/nbki-prosrochka-potrebitelskie-kredity-iyul-rost.jpg",
+  "main_keyword": "просрочка потребительских кредитов",
+  "secondary_keywords": [
+    "статистика потребкредитов НБКИ",
+    "рост просрочек кредиты",
+    "потребительские кредиты просрочка",
+    "НБКИ данные о кредитах",
+    "должники потребительские кредиты",
+    "кредитный рынок статистика"
+  ],
+  "intent": "informational",
+  "funnel_stage": "cold",
+  "article_type": "B",
+  "offer": "proverka-spisaniya",
+  "event_date": "2026-08-22",
+  "news_zone": "finance",
+  "internal_links": [
+    "/articles/vzysk/arest-zarplaty-pristavami-bankrotstvo",
+    "/articles/fiz/bank-otkazal-v-restrukturizacii-chto-delat-bankrotstvo"
+  ],
+  "external_links": [
+    "https://nbki.ru/company/news/",
+    "https://nbki.ru/"
+  ],
+  "faq": [
+    {
+      "question": "Что делать, если просрочка уже появилась в кредитной истории?",
+      "answer": "Погасите долг как можно скорее и запросите справку об отсутствии претензий. Сама запись останется, но статус изменится на «погашено» - это влияет на решения будущих кредиторов иначе, чем открытая задержка."
+    },
+    {
+      "question": "Через сколько дней сведения о задержке платежа уходят в НБКИ?",
+      "answer": "Единого срока нет: сведения отправляются пакетами, обычно от 3 до 10 рабочих дней после пропуска. Если платёж проведён на следующий день после срока - в большинстве случаев запись всё равно уйдёт."
+    },
+    {
+      "question": "Могут ли приставы удерживать больше половины зарплаты за просроченный кредит?",
+      "answer": "По потребкредитам - нет. Общий предел удержаний после НДФЛ - 50% дохода. Повышенная планка до 70% действует только по алиментам на детей, возмещению вреда здоровью, смерти кормильца и ущербу от преступления."
+    },
+    {
+      "question": "Когда долг по потребкредиту передают коллекторам?",
+      "answer": "Обычно через 150 дней задержки, но конкретный порог определяется внутренней политикой кредитора. Некоторые уступают уже на 90-м дне, другие держат портфель до полугода."
+    },
+    {
+      "question": "Обязательно ли банкротство, чтобы избавиться от задолженности по потребкредиту?",
+      "answer": "Нет. Это крайняя мера при большой сумме и отсутствии активов. При долге до 200-300 тысяч чаще эффективнее договориться о реструктуризации или дождаться истечения срока исковой давности (три года по общему правилу)."
+    },
+    {
+      "question": "Как бесплатно проверить свою кредитную историю в НБКИ?",
+      "answer": "Через личный кабинет на сайте бюро (nbki.ru) с подтверждением через Госуслуги. Первый отчёт в календарном году - бесплатно. Второй и последующие - платно, стоимость невысокая."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "f4 (статистика НБКИ за лето 2026): needs_verification - конкретные цифры прироста не приводятся, использована safe_phrasing: «число граждан с задержками по потребкредитам выросло»",
+    "f3 (сроки хранения данных в КИ): contested - использована обтекаемая формулировка «несколько лет влияния на рейтинг», без конкретного числа лет",
+    "f7 (исполнительский сбор 7%, минимум 1000 руб; удержание до 50% дохода): verified, legislation_status active",
+    "Запрещённые утверждения из forbidden_claims в тексте отсутствуют",
+    "Депозит 25 000 руб. на вознаграждение управляющего: общеизвестный факт (ст. 20.6 127-ФЗ), в research.json явно не зафиксирован, но не противоречит фактической базе"
+  ],
+  "keyword_density_main": null,
+  "main_keyword_exact_count": null,
+  "text_chars": 7160,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.077,
+  "local_spam_ngram3_repeat": 0.006,
+  "local_lexical_diversity": 0.723,
+  "local_ai_markers_density": 0.44,
+  "local_ai_markers_critical": 0,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1788488366/articles/nbki-prosrochka-potrebitelskie-kredity-iyul-rost-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1788488366/articles/nbki-prosrochka-potrebitelskie-kredity-iyul-rost-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Top-down flat-lay editorial photograph on a polished dark walnut desk. Soft golden morning light from a window casting a long warm diagonal across the surface. Arranged with careful spacing: a precision scientific calculator, a closed dark leather portfolio, an antique brass pocket watch, a white porcelain coffee cup on saucer, reading glasses resting atop a closed financial statement folder, a fountain pen lying across closed paperwork. Premium legal-magazine aesthetic, neutral beige and graphite palette with warm gold accents and subtle cool blue undertones suggesting financial concern and due diligence.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-09-04T02:19:28Z",
+  "length_status": "too_long",
+  "length_kind": "news",
+  "local_ai_markers_total": 4,
+  "local_ai_markers_high": 1,
+  "local_own_voice_hits": 2,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 42,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 90,
+  "customer_risks": [
+    "длина значительно больше лимита 5500 (7 160 знаков)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "broken_internal_links: 1 ссылок без соответствия в published_index (/articles/vzysk/arest-zarplaty-pristavami-bankrotstvo: slug 'arest-zarplaty-pristavami-bankrotstvo' не найден в категории 'vzysk' (есть: fiz))"
+  ],
+  "date_published": "2026-09-04",
+  "date_modified": "2026-09-04",
+  "ready_for_review": true,
+  "ready_at": "2026-09-04T02:19:33Z",
+  "publication_target": "telegram_review"
+}

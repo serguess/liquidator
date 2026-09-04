@@ -6492,6 +6492,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "nbki-prosrochka-potrebitelskie-kredity-iyul-rost",
+      "category": "news",
+      "title": "Просрочка потребкредитов летом: рост по данным НБКИ",
+      "added_at": "2026-09-04T05:19:33.056132",
+      "char_count": 7160,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1788488366/articles/nbki-prosrochka-potrebitelskie-kredity-iyul-rost-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
