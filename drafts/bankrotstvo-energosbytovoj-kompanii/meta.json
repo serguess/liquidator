@@ -1,0 +1,111 @@
+{
+  "slug": "bankrotstvo-energosbytovoj-kompanii",
+  "category": "yur",
+  "title": "Банкротство энергокомпании: права потребителей",
+  "description": "Что происходит с задолженностью потребителей при банкротстве энергосбытовой компании, какие права защищены, куда жаловаться.",
+  "h1": "Банкротство энергосбытовой компании: как это влияет на права потребителей",
+  "lead": "Разбираем, что происходит с авансами и поставкой при банкротстве энергосбыта, как войти в реестр кредиторов и когда незаконное отключение можно оспорить.",
+  "topic_action": "защиту прав потребителей при банкротстве энергокомпании",
+  "breadcrumb_current": "Банкротство энергосбытовой компании",
+  "og_image": "/assets/articles/bankrotstvo-energosbytovoj-kompanii.jpg",
+  "main_keyword": "банкротство энергосбытовой компании",
+  "secondary_keywords": [
+    "энергосбытовая компания банкротство",
+    "банкротство энергетической компании",
+    "права потребителей при банкротстве",
+    "задолженность перед энергокомпанией",
+    "восстановление поставки электроэнергии",
+    "возврат денег потребителям энергии",
+    "конкурсный управляющий энергокомпания",
+    "задолженность энергокомпании перед потребителями"
+  ],
+  "internal_links": [
+    "/articles/yur/bank-bankrot-chto-budet-s-kreditom-zaemshchika"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/",
+    "https://www.consultant.ru/document/cons_doc_LAW_40737/"
+  ],
+  "faq": [
+    {
+      "question": "Могут ли отключить электричество, пока энергосбыт банкротится?",
+      "answer": "Могут, если арбитражник признает договор убыточным. Отключение социально значимых объектов и жилых домов оспаривается в арбитражном суде на основании ст. 128 127-ФЗ."
+    },
+    {
+      "question": "Куда подавать требование о возврате аванса и до какого срока?",
+      "answer": "Требование подаётся в арбитражный суд, ведущий дело, до даты закрытия реестра. Дата объявляется в ЕФРСБ. Обычно у кредитора один-два месяца после публикации."
+    },
+    {
+      "question": "Чем абонент отличается от кредитора первой очереди?",
+      "answer": "Первая линия - это пострадавшие от вреда здоровью. Абонент с авансом - четвёртая. Деньги ему выплачиваются только после расчётов с первыми тремя, включая работников и бюджет."
+    },
+    {
+      "question": "Что будет, если пропустить срок подачи требования?",
+      "answer": "Требование не рассматривается, даже если средства в массе останутся. Закон прямо это устанавливает - опоздавших не восстанавливают (ст. 65 127-ФЗ)."
+    },
+    {
+      "question": "Обязан ли арбитражный управляющий предоставить выписку по лицевому счёту?",
+      "answer": "Да, обязан на основании ст. 99-100 127-ФЗ. Отказ обжалуется через арбитраж, суд рассматривает жалобу в ускоренном порядке."
+    },
+    {
+      "question": "Сколько лет длится процедура до выплат?",
+      "answer": "От года до трёх, изредка дольше. Наблюдение - до двух месяцев, конкурсное производство - от полугода (ст. 91, 127, 154 127-ФЗ)."
+    },
+    {
+      "question": "Что делать, если управляющий бездействует?",
+      "answer": "Жалоба в арбитраж и обращение в СРО, где состоит арбитражный управляющий. Одновременно можно поставить вопрос о его отстранении на собрании кредиторов."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все факты сверены с research.json. legislation_status: active, last_verified: 2026-09-04 для всех утверждений.",
+    "Очерёдность (4 линии для реестровых требований): соответствует f3, safe_phrasing. Авансы и переплата - 4-я очередь после вреда здоровью, работников и бюджета.",
+    "Право управляющего отказаться от убыточного договора - подтверждено f5 (ст. 70 127-ФЗ), контекст корректен.",
+    "ФЗ-35 ст. 30-31 (обязанность поставлять энергию) - подтверждена f10, legislation_status active.",
+    "Типичный возврат 5-20% - из safe_phrasing f8. Forbidden_claims не нарушены: нет гарантии полного возврата, нет утверждения о невозможности отключения.",
+    "Сроки наблюдения 1-2 месяца, конкурсного производства от полугода до 1-3 лет - соответствуют f13 (ст. 91, 127, 154 127-ФЗ).",
+    "Обязанность управляющего выдавать документы по расчётам - подтверждена f11 (ст. 99-100 127-ФЗ).",
+    "Право жалобы на управляющего - подтверждено f12 (ст. 128 127-ФЗ).",
+    "Голос на собрании кредиторов пропорционально сумме требования - подтверждён f7 (ст. 79-80 127-ФЗ)."
+  ],
+  "keyword_density_main": 0.013,
+  "main_keyword_exact_count": 1,
+  "text_chars": 7565,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.113,
+  "local_spam_ngram3_repeat": 0.008,
+  "local_lexical_diversity": 0.649,
+  "local_ai_markers_density": 0.21,
+  "local_ai_markers_critical": 0,
+  "local_ai_markers_total": 2,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 2,
+  "local_first_person_singular_hits": 0,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1788541475/articles/bankrotstvo-energosbytovoj-kompanii-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1788541475/articles/bankrotstvo-energosbytovoj-kompanii-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Photograph of a massive ornate door to an official administrative building — bronze-bound oak with brass studs, carved stone surround, marble steps. Camera dead-on symmetric with slight low-angle. Foreground: a closed leather briefcase on the marble steps, a stack of bound documents tied with cord leaning against the doorframe, a polished round company seal resting on the documents, a heavy brass key ring, a folded black umbrella. Lighting: long evening shadows crossing stone, cool institutional glow. Mood: threshold of formal corporate proceedings, entry into official bankruptcy process.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-09-04T17:04:36Z",
+  "length_status": "too_long",
+  "length_kind": "default",
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 49,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "длина значительно больше лимита 6500 (7 565 знаков)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "broken_internal_links: 1 ссылок без соответствия в published_index (/articles/yur/bank-bankrot-chto-budet-s-kreditom-zaemshchika: slug 'bank-bankrot-chto-budet-s-kreditom-zaemshchika' не найден в категории 'yur' (есть: fiz))"
+  ],
+  "date_published": "2026-09-04",
+  "date_modified": "2026-09-04",
+  "ready_for_review": true,
+  "ready_at": "2026-09-04T17:04:42Z",
+  "publication_target": "telegram_review"
+}
