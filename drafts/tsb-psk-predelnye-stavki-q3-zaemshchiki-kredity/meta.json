@@ -1,0 +1,101 @@
+{
+  "slug": "tsb-psk-predelnye-stavki-q3-zaemshchiki-kredity",
+  "category": "news",
+  "title": "Предельные ставки по кредитам: новые лимиты ЦБ",
+  "description": "Центральный банк утвердил новые предельные ставки по потребительским кредитам на Q3. Что это означает для заемщиков и как влияет на платежи.",
+  "h1": "Предельные ставки по кредитам от Центрального банка: как это влияет на заемщиков",
+  "lead": "С 14 августа 2026 года действуют предельные ставки ЦБ по потребительским кредитам на третий квартал - разбираем, как лимиты PSK влияют на платёж и что делать, если займодавец вышел за рамки.",
+  "topic_action": "проверку условий вашего кредита",
+  "breadcrumb_current": "Предельные ставки ЦБ Q3 2026",
+  "og_image": "/assets/articles/tsb-psk-predelnye-stavki-q3-zaemshchiki-kredity.jpg",
+  "main_keyword": "предельные ставки по кредитам",
+  "secondary_keywords": [
+    "ЦБ ставки по кредитам",
+    "максимальная ставка потребительский кредит",
+    "PSK лимиты",
+    "потолок по кредитам",
+    "размер платежей по кредитам",
+    "кредит условия ЦБ"
+  ],
+  "intent": "informational",
+  "funnel_stage": "cold",
+  "article_type": "B",
+  "offer": "raschet-stoimosti",
+  "event_date": "2026-08-14",
+  "news_zone": "finance",
+  "internal_links": [],
+  "external_links": [
+    "https://www.cbr.ru/statistics/bank_sector/psk/",
+    "http://www.kremlin.ru/acts/bank/38653"
+  ],
+  "faq": [
+    {
+      "question": "Можно ли получить деньги в долг выше предельной ставки?",
+      "answer": "Формально займодавец может подписать бумаги с более высокой ценой, но требовать по ним платежи выше лимита он не вправе. При обращении потребителя обязан пересчитать график и вернуть излишек. Запрета выдавать нет - есть обязанность пересчёта."
+    },
+    {
+      "question": "Что входит в PSK, а что из расчёта исключается?",
+      "answer": "Включаются проценты по сделке, все комиссии, сборы и страховки, если они привязаны к займу. Исключаются штрафы и пени за просрочку. Именно совокупная цифра сверяется с потолком."
+    },
+    {
+      "question": "Где взять актуальные данные по предельным ставкам?",
+      "answer": "Официальный источник - страница cbr.ru/statistics/bank_sector/psk/. Данные за Q3 2026 выложены 14 августа. Файлы обновляются в начале каждого квартала."
+    },
+    {
+      "question": "Как действовать, если займодавец вышел за допустимый максимум?",
+      "answer": "Сначала письменная претензия с расчётом. При отказе - жалоба в Банк России через интернет-приёмную. Если ответа нет или он не устраивает - иск в районный суд по месту жительства."
+    },
+    {
+      "question": "Распространяется ли ограничение на МФО и ломбарды?",
+      "answer": "Да, единые правила действуют для всех: банков, микрофинансовых компаний, ломбардов, кредитных кооперативов, финтех-организаций. Форма займодавца значения не имеет."
+    },
+    {
+      "question": "Почему размер лимитов меняется каждый квартал?",
+      "answer": "Планка пересматривается с учётом инфляции, значения ключевой ставки, состояния рынка и уровня просрочки. Экономические условия меняются - меняются и допустимые границы. Механизм заложен ещё в 2014 году."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все факты верифицированы против research.json (f1-f9); legislation_status: active, last_verified: 2026-09-05 по всем позициям",
+    "Запрещённые утверждения из forbidden_claims в тексте отсутствуют: сделка не объявляется недействительной, автоматической компенсации нет, запрета выдачи нет - везде корректные формулировки",
+    "Срок ответа '30 дней' на претензию не специфицирован в research.json; стандартная практика по ГК РФ, безопасная формулировка",
+    "Формулировка draft '6-й норме закона' заменена на юридически стандартную 'статье 6 закона' с гиперссылкой на kremlin.ru (f1)",
+    "Внутренние ссылки не добавлены: нет доступа к published_index.json для верификации slug-ов; требуется ручная проверка перед публикацией"
+  ],
+  "keyword_density_main": null,
+  "main_keyword_exact_count": null,
+  "text_chars": 6471,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.091,
+  "local_spam_ngram3_repeat": 0.038,
+  "local_lexical_diversity": 0.668,
+  "local_ai_markers_density": 0.24,
+  "local_ai_markers_critical": 0,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1788587259/articles/tsb-psk-predelnye-stavki-q3-zaemshchiki-kredity-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1788587259/articles/tsb-psk-predelnye-stavki-q3-zaemshchiki-kredity-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Editorial photograph of a financial regulator's desk by a tall window. Camera at table-eye level, slight three-quarter angle. On the walnut desk: a closed thin laptop with brushed aluminum lid, a fountain pen aligned on a stack of closed official documents, reading glasses resting on a blank-spine regulatory folder, a polished brass desk lamp casting warm directional light, a white porcelain coffee cup on a saucer, a closed dark leather portfolio. Background through the window: blurred urban financial district at dusk with distant city lights bokeh. Lighting from window: cool evening ambient light blended with warm tungsten desk lamp glow. Materials: walnut, leather, brass. Premium financial-regulatory aesthetic, neutral beige-graphite palette with warm brass accents. Mood: contemporary financial decision-making, rate-setting authority.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-09-05T05:47:40Z",
+  "length_status": "too_long",
+  "length_kind": "news",
+  "local_ai_markers_total": 2,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 3,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 49,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 90,
+  "customer_risks": [
+    "длина значительно больше лимита 5500 (6 471 знаков)"
+  ],
+  "date_published": "2026-09-05",
+  "date_modified": "2026-09-05",
+  "ready_for_review": true,
+  "ready_at": "2026-09-05T05:47:41Z",
+  "publication_target": "telegram_review"
+}

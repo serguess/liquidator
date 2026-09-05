@@ -6531,6 +6531,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "tsb-psk-predelnye-stavki-q3-zaemshchiki-kredity",
+      "category": "news",
+      "title": "Предельные ставки по кредитам: новые лимиты ЦБ",
+      "added_at": "2026-09-05T08:47:41.264956",
+      "char_count": 6471,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1788587259/articles/tsb-psk-predelnye-stavki-q3-zaemshchiki-kredity-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
