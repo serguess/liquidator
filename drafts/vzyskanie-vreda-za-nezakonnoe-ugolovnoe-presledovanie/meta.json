@@ -1,0 +1,102 @@
+{
+  "slug": "vzyskanie-vreda-za-nezakonnoe-ugolovnoe-presledovanie",
+  "category": "vzysk",
+  "title": "Взыскание вреда за незаконное уголовное преследование",
+  "description": "Как получить компенсацию вреда за незаконное уголовное преследование, какие документы нужны и как подать иск в суд. Размеры компенсации и сроки.",
+  "h1": "Взыскание вреда за незаконное уголовное преследование: порядок и размер компенсации",
+  "lead": "Разбираем, какой маршрут открыт в вашей ситуации, что реально стоит денег и какие три ошибки чаще всего срывают попытку взыскания.",
+  "topic_action": "взыскание компенсации за незаконное уголовное преследование",
+  "breadcrumb_current": "Взыскание вреда за незаконное преследование",
+  "og_image": "/assets/articles/vzyskanie-vreda-za-nezakonnoe-ugolovnoe-presledovanie.jpg",
+  "main_keyword": "взыскание вреда за незаконное уголовное преследование",
+  "secondary_keywords": [
+    "компенсация вреда за незаконное уголовное преследование",
+    "иск о взыскании вреда за уголовное преследование",
+    "размер компенсации незаконное уголовное преследование",
+    "порядок взыскания вреда за уголовное преследование",
+    "документы для взыскания вреда за преследование",
+    "как подать иск за незаконное преследование",
+    "сроки взыскания компенсации вреда",
+    "размер убытков за незаконное преследование"
+  ],
+  "internal_links": [],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_5142/",
+    "https://www.consultant.ru/document/cons_doc_LAW_34481/"
+  ],
+  "faq": [
+    {
+      "question": "Можно ли получить выплату, если дело прекращено по нереабилитирующим основаниям?",
+      "answer": "Нет. Амнистия, истечение давности, деятельное раскаяние - к казне претензий не открывают. Правило 1070 работает только при реабилитирующем закрытии или оправдательном акте."
+    },
+    {
+      "question": "Чем требование в уголовном деле отличается от отдельного гражданского иска?",
+      "answer": "В основном процессе судья разрешает вопрос при вынесении приговора или определения - без госпошлины и отдельного разбирательства. Гражданский иск подаётся позже, в районный суд, с полным пакетом документов и расчётом."
+    },
+    {
+      "question": "Сколько стоит подать иск о возмещении ущерба к государству?",
+      "answer": "По искам о возмещении вреда, причинённого органами при уголовном преследовании, госпошлина за истца не взимается. Расходы возникают только на подготовку документов и работу представителя."
+    },
+    {
+      "question": "До какого срока нужно обратиться в суд после прекращения уголовного дела?",
+      "answer": "Три года с даты вступления в силу оправдательного акта или постановления о завершении дела. При уважительных причинах суд может восстановить срок."
+    },
+    {
+      "question": "Что произойдёт, если неправильно указать ответчика в исковом заявлении?",
+      "answer": "Заявление возвращают либо отказывают в принятии. В лучшем случае суд предлагает уточнить надлежащего ответчика - и дело откладывается на месяцы."
+    },
+    {
+      "question": "Включаются ли в расчёт расходы на адвоката в уголовном деле?",
+      "answer": "Да, это имущественная часть возмещения. Основание - договор с защитником, квитанции об оплате, акт выполненных работ. Без первичных документов сумма ужимается."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все юридические утверждения сверены с research.json, статусы: active, last_verified 2026-09-05.",
+    "ст. 1070 ГК РФ - основание для компенсации вреда государственными органами, актуальна.",
+    "ст. 133 УПК РФ - процедура возмещения в уголовном деле, актуальна.",
+    "ст. 1101 ГК РФ - компенсация морального вреда независимо от имущественного, актуальна.",
+    "Постановление Пленума ВС РФ № 31 от 13.12.2012 (п. 22-23) - учёт серьёзных нарушений при определении размера, актуально.",
+    "Запрещённые базовые утверждения (forbidden_claims) - контролировано: 'амнистия, давность, раскаяние - претензий не открывают' явно указано в статье.",
+    "Размеры компенсации (5-300 тыс. руб.) - ориентировочно по практике без переоценки точности.",
+    "Внутренние ссылки оставлены пустыми для последующей верификации по published_index.json. Будут добавлены после проверки доступных статей."
+  ],
+  "keyword_density_main": 0.018,
+  "main_keyword_exact_count": 2,
+  "text_chars": 8036,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.083,
+  "local_spam_ngram3_repeat": 0.047,
+  "local_lexical_diversity": 0.655,
+  "local_ai_markers_density": 0.3,
+  "local_ai_markers_critical": 0,
+  "length_status": "too_long",
+  "length_kind": "default",
+  "local_ai_markers_total": 3,
+  "local_ai_markers_high": 1,
+  "local_own_voice_hits": 3,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 49,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 90,
+  "customer_risks": [
+    "длина значительно больше лимита 6500 (8 036 знаков)"
+  ],
+  "ready_for_review": true,
+  "date_published": null,
+  "date_modified": null,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1788576019/articles/vzyskanie-vreda-za-nezakonnoe-ugolovnoe-presledovanie-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1788576019/articles/vzyskanie-vreda-za-nezakonnoe-ugolovnoe-presledovanie-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Exterior photograph of a contemporary justice building in heavy rain and dense fog. Brutalist concrete and glass façade reflects the wet street and scattered amber lampposts glowing through the haze, creating an atmosphere of obscured institutional power. Camera: street-level, slight low-angle emphasizing the building's formidable authority. Foreground: wet stone entrance steps, distant silhouette of a solitary figure with umbrella ascending toward the entrance (faceless, far background), oxidized brass institutional plaque on the entry pillar. Palette: cool blue-grey dominant, warm amber point-lights, deep charcoal shadows. Mood: institutional gravity and somber determination, the long climb through legal channels toward truth, vindication and restoration of justice.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-09-05T02:40:19Z",
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "targeted_tokens_over_limit: ГК_кодекс=4(>≤3)"
+  ]
+}

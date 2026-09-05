@@ -1,0 +1,33 @@
+{
+  "agents": [
+    {
+      "input": 20,
+      "output": 8,
+      "cache_creation": 105354,
+      "cache_read": 0,
+      "total_billable": 105382,
+      "seconds": 197.8,
+      "attempts": 1,
+      "agent": "6-seo-editor",
+      "model": "haiku"
+    },
+    {
+      "input": 20,
+      "output": 12,
+      "cache_creation": 36208,
+      "cache_read": 39548,
+      "total_billable": 36240,
+      "seconds": 27.3,
+      "attempts": 1,
+      "agent": "7-publisher",
+      "model": "haiku"
+    }
+  ],
+  "totals": {
+    "input": 40,
+    "output": 20,
+    "cache_creation": 141562,
+    "cache_read": 39548,
+    "total_billable": 141622
+  }
+}
