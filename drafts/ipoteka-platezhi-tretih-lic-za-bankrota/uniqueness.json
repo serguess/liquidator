@@ -1,0 +1,24 @@
+{
+  "slug": "ipoteka-platezhi-tretih-lic-za-bankrota",
+  "article_id": 561,
+  "scores": {
+    "structure_overlap": 0.0,
+    "thesis_similarity": 0.127,
+    "cta_overlap": 0.278
+  },
+  "thresholds": {
+    "structure_overlap": 0.4,
+    "thesis_similarity": 0.3,
+    "cta_overlap": 0.2
+  },
+  "passed": false,
+  "peers_compared": 50,
+  "closest_peer": "rashody-bankrotstva-vzyskat-s-uchreditelya",
+  "similar_articles": [],
+  "conflicts": [
+    "cta_overlap: 0.278 (threshold: 0.2)"
+  ],
+  "recommendation": "rewrite_with_angle:change-perspective (closest: rashody-bankrotstva-vzyskat-s-uchreditelya)",
+  "stored_in_db": true,
+  "note": "Вектор статьи записан в data/embeddings.sqlite (published=0). После публикации агент 7 переключит флаг на 1."
+}

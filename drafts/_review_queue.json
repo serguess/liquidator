@@ -6544,6 +6544,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "ipoteka-platezhi-tretih-lic-za-bankrota",
+      "category": "fiz",
+      "title": "Ипотека при банкротстве: платежи третьего лица",
+      "added_at": "2026-09-05T15:28:18.854899",
+      "char_count": 9572,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1788611293/articles/ipoteka-platezhi-tretih-lic-za-bankrota-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

@@ -1,0 +1,109 @@
+{
+  "slug": "ipoteka-platezhi-tretih-lic-za-bankrota",
+  "category": "fiz",
+  "title": "Ипотека при банкротстве: платежи третьего лица",
+  "description": "Разбираемся, может ли третье лицо платить ипотеку за должника, какие это имеет последствия при банкротстве и как это влияет на процедуру.",
+  "h1": "Ипотека при банкротстве: может ли третье лицо платить за должника",
+  "lead": "Муж кладёт восемьдесят тысяч на ипотечный счёт жены. Через неделю она подаёт на банкротство. В голове один вопрос: этот перевод уйдёт в счёт жилья или его сгребёт финансовый управляющий? Ситуация типовая.",
+  "topic_action": "консультацию по ипотеке при банкротстве",
+  "breadcrumb_current": "Ипотека при банкротстве",
+  "og_image": "/assets/articles/ipoteka-platezhi-tretih-lic-za-bankrota.jpg",
+  "main_keyword": "ипотека при банкротстве третьего лица",
+  "secondary_keywords": [
+    "кто может платить ипотеку за должника",
+    "платежи третьего лица за ипотеку при банкротстве",
+    "ипотека на имущество банкрота",
+    "залоговое имущество при банкротстве физлица",
+    "может ли муж платить за жену ипотеку",
+    "третьи лица в процессе банкротства",
+    "платежи по ипотеке в период банкротства",
+    "залог и банкротство должника",
+    "имущество в залоге при личном банкротстве",
+    "ипотека при процедуре реструктуризации"
+  ],
+  "internal_links": [
+    "/articles/fiz/avtomobil-pri-bankrotstve-fizlica"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/",
+    "https://www.consultant.ru/document/cons_doc_LAW_5142/"
+  ],
+  "faq": [
+    {
+      "question": "Может ли муж платить ипотеку за жену, если она проходит банкротство?",
+      "answer": "Да, супруг вправе вносить взносы добровольно. Залогодержатель засчитает их как погашение долга жены. Отдельного обязательства мужа перед кредитной организацией не возникнет - если он не был поручителем по этому договору."
+    },
+    {
+      "question": "Что происходит с квартирой, если родственник частично гасил кредит до подачи заявления?",
+      "answer": "Объект всё равно уходит в конкурсную массу и подлежит продаже, если суд ввёл реализацию. Внесённые ранее суммы просто уменьшили остаток - теперь залогодержателю причитается меньше из выручки."
+    },
+    {
+      "question": "Защищено ли единственное жильё в ипотеке от продажи?",
+      "answer": "Нет. Норма 446 процессуального кодекса прямо исключает залоговое имущество из защиты. Если квартира оформлена под ипотеку, она может быть реализована при банкротстве владельца - даже когда это его единственная жилплощадь."
+    },
+    {
+      "question": "Сколько получит залогодержатель из продажи заложенной квартиры?",
+      "answer": "До полной суммы своих требований: основное тело плюс проценты плюс судебные издержки. Если выручки хватает - долг закрывается целиком. Если нет - получает столько, сколько принесла продажа, а незакрытая часть попадает в общий реестр."
+    },
+    {
+      "question": "Может ли финансовый управляющий запретить третьему лицу вносить взносы?",
+      "answer": "Нет. Распорядитель процедуры не контролирует чужие переводы в пользу залогодержателя. Такие суммы не входят в конкурсную массу и на его вознаграждение не влияют."
+    },
+    {
+      "question": "Чем реструктуризация отличается от реализации для ипотечного заёмщика?",
+      "answer": "Радикально. При реструктуризации утверждается график - если он выполняется, квартира остаётся у заёмщика. При реализации объект продаётся с торгов, а вырученные средства распределяются между участниками реестра. Первый сценарий сохраняет жильё, второй закрывает вопрос через продажу."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все юридические утверждения сверены с research.json. Статусы: active. last_verified в пределах 6 месяцев.",
+    "ст. 446 ГПК: исключение залогового имущества из иммунитета единственного жилья подтверждено формулировкой нормы",
+    "ст. 213.25-213.27 127-ФЗ: приоритет залогодержателя при реализации имущества актуален",
+    "ПМ 2026: 20 644 руб. (ФЗ-426 от 28.11.2025)",
+    "Добровольные платежи третьего лица: НЕ входят в конкурсную массу (подтверждено research safe_phrasing)"
+  ],
+  "keyword_density_main": 0.011,
+  "main_keyword_exact_count": 0,
+  "text_chars": 9572,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.106,
+  "local_spam_ngram3_repeat": 0.012,
+  "local_lexical_diversity": 0.574,
+  "local_ai_markers_density": 0.17,
+  "local_ai_markers_critical": 0,
+  "local_ai_markers_total": 2,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 2,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 58,
+  "predicted_ai_pct": 6,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность заметно выше 50% (~58%)",
+    "длина значительно больше лимита 6500 (9 572 знаков)"
+  ],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1788611293/articles/ipoteka-platezhi-tretih-lic-za-bankrota-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1788611293/articles/ipoteka-platezhi-tretih-lic-za-bankrota-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Photograph of a contemporary workspace with natural materials — light oak desk, raw concrete accent wall, linen-upholstered ergonomic chair, potted indoor plant in clay pot. Foreground on the desk: sleek closed laptop positioned upper-left, leather-bound financial notebook with fountain pen aligned across it, smartphone face-down center-right showing banking app, polished brass round seal resting on a stack of mortgage documents, white porcelain coffee cup on saucer. Background through floor-to-ceiling windows: residential streetscape with visible buildings and residential neighborhoods, bright cool daylight or soft golden evening glow. Camera: three-quarter angle, eye-level, shallow depth of field. Lighting: bright cool daylight from windows with optional warm pendant fill. Mood: contemporary financial stewardship, homeowner's assured strategic decision under third-party support.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-09-05T12:28:13Z",
+  "length_status": "too_long",
+  "length_kind": "default",
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "length_too_long: 9572 > 6500 (kind=default)",
+    "spam_risk: 4 флагов (top1_count>12 (=16, лемма «залогодержател»), top3_sum>30 (=39), top10_sum>80 (=98), lexical_diversity<0.58 (=0.574)), top-5: ['залогодержател', 'сумм', 'процедур', 'банкротств', 'квартир']",
+    "targeted_tokens_over_limit: 213_артикул=5(>≤3)",
+    "author_markers_missing: 1 < 2"
+  ],
+  "date_published": "2026-09-05",
+  "date_modified": "2026-09-05",
+  "ready_for_review": true,
+  "ready_at": "2026-09-05T12:28:18Z",
+  "publication_target": "telegram_review"
+}
