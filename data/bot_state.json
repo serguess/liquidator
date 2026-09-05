@@ -12284,6 +12284,42 @@
       "published_url": null,
       "pending_batch": true,
       "pending_batch_at": "2026-09-04T20:05:15"
+    },
+    "vzyskanie-vreda-za-nezakonnoe-ugolovnoe-presledovanie": {
+      "category": "vzysk",
+      "title": "Взыскание вреда за незаконное уголовное преследование",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-09-05T05:41:03",
+      "last_action_at": "2026-09-05T05:41:03",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-09-05T05:41:03"
+    },
+    "tsb-psk-predelnye-stavki-q3-zaemshchiki-kredity": {
+      "category": "news",
+      "title": "Предельные ставки по кредитам: новые лимиты ЦБ",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-09-05T08:48:06",
+      "last_action_at": "2026-09-05T08:48:06",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-09-05T08:48:06"
     }
   },
   "pending_actions": [],
