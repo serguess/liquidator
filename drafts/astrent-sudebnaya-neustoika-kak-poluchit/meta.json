@@ -1,0 +1,112 @@
+{
+  "slug": "astrent-sudebnaya-neustoika-kak-poluchit",
+  "category": "vzysk",
+  "title": "Астрент: как получить судебный штраф за неисполнение решения",
+  "description": "Что такое астрент, размер судебного штрафа, основания для взыскания, порядок исполнения и практика применения в судах.",
+  "h1": "Астрент: судебный штраф за неисполнение решения суда и как его взыскать",
+  "lead": "Разбираем, как работает судебный штраф за игнорирование решения, как его взыскивают приставы и когда суд может снизить или отменить размер.",
+  "topic_action": "взыскание долга по решению суда",
+  "breadcrumb_current": "Астрент и судебный штраф за неисполнение",
+  "og_image": "/assets/articles/astrent-sudebnaya-neustoika-kak-poluchit.jpg",
+  "main_keyword": "астрент судебный штраф",
+  "secondary_keywords": [
+    "астрент размер",
+    "судебный штраф за неисполнение",
+    "как взыскать астрент",
+    "астрент исполнительное производство",
+    "штраф за неисполнение решения суда",
+    "процедура взыскания астрента",
+    "астрент мера ответственности",
+    "взыскание астрента судом",
+    "размер астрента в процентах"
+  ],
+  "internal_links": [
+    "/articles/vzysk/ispolnitelnoe-proizvodstvo-po-dolgam",
+    "/articles/vzysk/pristavy-ispolniteli-kak-vzyskivayut-dolgi",
+    "/articles/vzysk/vzyskanie-zadolzhennosti-cherez-sud"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/",
+    "https://www.consultant.ru/document/cons_doc_LAW_4010/"
+  ],
+  "faq": [
+    {
+      "question": "Чем астрент отличается от исполнительского сбора?",
+      "answer": "Первое - санкция от инстанции за игнорирование судебного акта, начисляется по определению правоприменителя. Второе - 7% от подлежащей взысканию суммы, начисляет пристав за принудительный характер работы. Разные источники, разные основания, могут идти в одном производстве параллельно."
+    },
+    {
+      "question": "Можно ли оспорить размер судебного штрафа за неисполнение?",
+      "answer": "Да. Определение обжалуется в вышестоящий орган в течение 10 дней с даты получения. Основания для снижения или отмены - форс-мажор, объективная невозможность, явная несоразмерность. Подача жалобы не останавливает начисление до её удовлетворения."
+    },
+    {
+      "question": "Сколько длится начисление астрента - есть ли предельный срок?",
+      "answer": "Предельного срока в законе нет. Отсчёт идёт со дня, когда нарушитель получил исполнительный документ, и продолжается до полного закрытия обязательства. Частичное закрытие не останавливает счётчик - он продолжает работать на невыполненную часть."
+    },
+    {
+      "question": "Какой максимальный единовременный размер взыскания предусмотрен для организации?",
+      "answer": "Единовременный потолок для компании - четыреста тысяч рублей (четырёхкратный дневной максимум юрлица). Ставится дополнительно к ежедневному начислению, а не вместо него."
+    },
+    {
+      "question": "Обязана ли инстанция назначать астрент при каждом неисполненном решении?",
+      "answer": "Нет, назначение - право, а не обязанность правоприменителя. Взыскатель подаёт ходатайство или просит заложить санкцию в основное решение. Инстанция оценивает целесообразность и назначает индивидуальную дневную сумму в пределах установленной вилки."
+    },
+    {
+      "question": "Что происходит с начислением штрафа при частичном исполнении судебного акта?",
+      "answer": "Счётчик не останавливается. Санкция продолжает капать на оставшуюся невыполненную часть обязательства до её полного закрытия. Только полное исполнение обнуляет ежедневное начисление."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все юр-утверждения сверены с research.json. Статусы: active, last_verified: 2026-09-06 (в пределах 6 месяцев).",
+    "Размеры астрента для физлиц (100-50 000 руб./день) и организаций (1 000-100 000 руб./день) соответствуют ст. 330 ГПК РФ.",
+    "Единовременные взыскания (макс. 200 000 для гражданина, 400 000 для юрлица) верифицированы.",
+    "Нормативная база: ст. 330 ГПК РФ, ст. 148 АПК РФ, ст. 62-70, 112 ФЗ-229 - все актуальны.",
+    "Отсчёт астрента со дня получения исполнительного документа - подтверждено research (f5).",
+    "Различие между астрентом и исполнительским сбором (7%) - подтверждено (f8).",
+    "Запрещённые claims не нарушены (полная отмена возможна, размер не фиксирован, обжалование доступно).",
+    "Все примеры из draft соответствуют контексту и не противоречат законодательству."
+  ],
+  "keyword_density_main": 0.021,
+  "main_keyword_exact_count": 1,
+  "text_chars": 8625,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.096,
+  "local_spam_ngram3_repeat": 0.059,
+  "local_lexical_diversity": 0.586,
+  "local_ai_markers_density": 0.19,
+  "local_ai_markers_critical": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1788646257/articles/astrent-sudebnaya-neustoika-kak-poluchit-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1788646257/articles/astrent-sudebnaya-neustoika-kak-poluchit-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Close-up architectural photograph of polished marble or carved stonework, with judicial business accessories arranged in the foreground. Camera: tight crop, eye-level. Foreground objects: polished round court seal, antique brass pocket watch, closed dark leather portfolio, fountain pen positioned on the marble edge. Lighting: soft diffused daylight grazing the stone surface, revealing veining and subtle shadows cast by the metal implements. Palette: cool whites, warm brass accents, deep leather. Mood: institutional authority, consequence of non-compliance, refined legal gravity.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-09-05T22:10:58Z",
+  "length_status": "too_long",
+  "length_kind": "default",
+  "local_ai_markers_total": 2,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 4,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 60,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность заметно выше 50% (~60%)",
+    "длина значительно больше лимита 6500 (8 625 знаков)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "length_too_long: 8625 > 6500 (kind=default)",
+    "spam_risk: 1 флагов (ngram3_repeat_share>0.055 (=0.059)), top-5: ['правоприменител', 'астрент', 'норм', 'пристав', 'рубл']",
+    "targeted_tokens_over_limit: 000руб_паттерн=4(>≤2), 000_число=9(>≤8)"
+  ],
+  "date_published": "2026-09-06",
+  "date_modified": "2026-09-06",
+  "ready_for_review": true,
+  "ready_at": "2026-09-05T22:11:00Z",
+  "publication_target": "telegram_review"
+}

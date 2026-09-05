@@ -6557,6 +6557,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "astrent-sudebnaya-neustoika-kak-poluchit",
+      "category": "vzysk",
+      "title": "Астрент: как получить судебный штраф за неисполнение решения",
+      "added_at": "2026-09-06T01:11:00.721827",
+      "char_count": 8625,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1788646257/articles/astrent-sudebnaya-neustoika-kak-poluchit-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
