@@ -5647,7 +5647,11 @@
       "frequency_estimate": "medium",
       "rationale": "Многие прошедшие внесудебное банкротство в 2020-2021 не знают, что уже в 2025-2026 снова имеют право на процедуру через МФЦ. Тема закрывает конкретный вопрос и ведёт к проверке условий.",
       "expected_length_chars": 6000,
-      "topic_action": "повторное банкротство через МФЦ"
+      "topic_action": "повторное банкротство через МФЦ",
+      "status": "rejected",
+      "rejected_at": "2026-09-06T14:48:13",
+      "rejected_reason": "cannibalization:preflight:vnesudebnoe-bankrotstvo-cherez-mfc-2026",
+      "rejected_by": "auto_skip_in_slot"
     },
     {
       "id": "fiz-204",
