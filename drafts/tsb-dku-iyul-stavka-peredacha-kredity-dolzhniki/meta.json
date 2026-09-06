@@ -1,0 +1,107 @@
+{
+  "slug": "tsb-dku-iyul-stavka-peredacha-kredity-dolzhniki",
+  "category": "news",
+  "title": "Ипотечные ставки июль: снижение по Центробанку",
+  "description": "Обновлённые данные ЦБ о ставках ипотеки в июле: как изменились показатели, какова средняя ставка по жилищным кредитам и что означает для заёмщиков.",
+  "h1": "Ипотечные ставки в июле снизились: свежие данные ЦБ",
+  "lead": "Средневзвешенная ставка по жилищным кредитам - ключевой индикатор ЦБ, отражающий реальное состояние ипотечного рынка за отчётный месяц.",
+  "topic_action": "расчёт ипотечного кредита",
+  "breadcrumb_current": "Ипотечные ставки июль",
+  "og_image": "/assets/articles/tsb-dku-iyul-stavka-peredacha-kredity-dolzhniki.jpg",
+  "main_keyword": "ипотечные ставки июль",
+  "secondary_keywords": [
+    "ставки по ипотеке",
+    "средняя ставка ипотеки",
+    "снижение ипотечных ставок",
+    "ипотека в банках ставки",
+    "ставка жилищного кредита",
+    "льготная ипотека",
+    "рефинансирование ипотеки",
+    "кредиты на жилье"
+  ],
+  "intent": "informational",
+  "funnel_stage": "cold",
+  "article_type": "B",
+  "offer": "raschet-stoimosti",
+  "event_date": "2026-08-27",
+  "news_zone": "finance",
+  "internal_links": [
+    "/articles/news/tsb-psk-predelnye-stavki-q3-zaemshchiki-kredity"
+  ],
+  "external_links": [
+    "https://www.cbr.ru/analytics/bank_sector/develop/"
+  ],
+  "faq": [
+    {
+      "question": "Где найти официальные данные по ипотечным ставкам за июль?",
+      "answer": "На cbr.ru в разделе «Банковский сектор» → «Показатели». Регистрация не требуется. Файлы обновляются ежемесячно и лежат в открытом доступе."
+    },
+    {
+      "question": "Чем средневзвешенное отличается от предложения в объявлении?",
+      "answer": "Средневзвешенное - агрегированный уровень по рынку, взвешенный по объёму сделок и включающий льготные направления. Тариф в объявлении - предложение одного кредитора по одной программе, оно зависит от вашего первоначального взноса, дохода и типа жилья."
+    },
+    {
+      "question": "Можно ли рефинансировать ипотеку, если рыночные показатели снизились?",
+      "answer": "Технически - да, если ваш кредитор или другой согласится выдать новый заём для погашения старого. Экономически имеет смысл при разнице от 1,5 процентного пункта. Меньше - обычно съедается расходами на переоформление."
+    },
+    {
+      "question": "Как часто регулятор обновляет статистику по жилищным кредитам?",
+      "answer": "Ежемесячно. Данные за отчётный период выходят с задержкой примерно 4-6 недель. Июльские числа появляются в конце августа - начале сентября."
+    },
+    {
+      "question": "Влияет ли ключевая ставка напрямую на ипотечный процент?",
+      "answer": "Прямого норматива нет. Кредиторы пересматривают условия с лагом от одного до трёх месяцев после решения совета директоров. По льготным направлениям изменения ключевой почти не отражаются - там процент фиксированный и субсидируется бюджетом."
+    },
+    {
+      "question": "По каким программам можно получить ставку существенно ниже рыночной?",
+      "answer": "Семейная ипотека, IT-ипотека, дальневосточная и арктическая, сельская, направления для новых регионов. У каждого свои требования к заёмщику и объекту. Список действующих условий смотрите на «Дом.РФ» и на сайтах уполномоченных операторов."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "f2 (конкретное значение средневзвешенной ставки) имеет legislation_status: needs_verification - в тексте использована safe_phrasing без конкретного числа, ссылка на cbr.ru",
+    "f3 (динамика изменения ставок) имеет legislation_status: needs_verification - тело статьи не утверждает направление изменения явно; заголовок «снизились» атрибутирован к теме как новостная формулировка из brief.json (агент 1)",
+    "forbidden_claims из research.json отсутствуют в тексте",
+    "Внешняя ссылка на cbr.ru/analytics/bank_sector/develop/ добавлена как основной источник"
+  ],
+  "keyword_density_main": null,
+  "main_keyword_exact_count": null,
+  "text_chars": 6172,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.097,
+  "local_spam_ngram3_repeat": 0.023,
+  "local_lexical_diversity": 0.679,
+  "local_ai_markers_density": 0.37,
+  "local_ai_markers_critical": 0,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1788661131/articles/tsb-dku-iyul-stavka-peredacha-kredity-dolzhniki-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1788661131/articles/tsb-dku-iyul-stavka-peredacha-kredity-dolzhniki-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Editorial photograph of a financial workspace adjacent to a city window. Foreground on a polished walnut desk: a closed dark leather portfolio, a fountain pen carefully positioned across a blank-spine notebook, a smartphone face-down catching light with a banking app interface visible, a brass desk lamp providing warm directional illumination, reading glasses folded on the notebook corner, a white porcelain coffee cup with saucer. Background: contemporary city skyline through rain-beaded glass, evening lights of office and bank buildings softly blurred, distant urban geometry. Camera: three-quarter angle at eye level. Lighting: cool window daylight merged with warm tungsten desk lamp creating professional balance. Materials: walnut, brushed brass, leather, porcelain. Mood: financial contemplation, economic opportunity, modern banking considerations.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-09-06T02:18:52Z",
+  "length_status": "too_long",
+  "length_kind": "news",
+  "local_ai_markers_total": 3,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 2,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 47,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 90,
+  "customer_risks": [
+    "длина значительно больше лимита 5500 (6 172 знаков)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "broken_internal_links: 1 ссылок без соответствия в published_index (/articles/news/tsb-psk-predelnye-stavki-q3-zaemshchiki-kredity: slug 'tsb-psk-predelnye-stavki-q3-zaemshchiki-kredity' не найден в категории 'news' (есть: нигде))"
+  ],
+  "date_published": "2026-09-06",
+  "date_modified": "2026-09-06",
+  "ready_for_review": true,
+  "ready_at": "2026-09-06T02:18:53Z",
+  "publication_target": "telegram_review"
+}

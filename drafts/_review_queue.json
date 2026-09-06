@@ -6570,6 +6570,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "tsb-dku-iyul-stavka-peredacha-kredity-dolzhniki",
+      "category": "news",
+      "title": "Ипотечные ставки июль: снижение по Центробанку",
+      "added_at": "2026-09-06T05:18:53.140975",
+      "char_count": 6172,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1788661131/articles/tsb-dku-iyul-stavka-peredacha-kredity-dolzhniki-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

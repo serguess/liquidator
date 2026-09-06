@@ -1,0 +1,22 @@
+{
+  "slug": "tsb-dku-iyul-stavka-peredacha-kredity-dolzhniki",
+  "article_id": 560,
+  "scores": {
+    "structure_overlap": 0.167,
+    "thesis_similarity": 0.182,
+    "cta_overlap": 0.028
+  },
+  "thresholds": {
+    "structure_overlap": 0.4,
+    "thesis_similarity": 0.3,
+    "cta_overlap": 0.2
+  },
+  "passed": true,
+  "peers_compared": 23,
+  "closest_peer": "pensiya-pri-bankrotstve-fizlica",
+  "similar_articles": [],
+  "conflicts": [],
+  "recommendation": "ok",
+  "stored_in_db": true,
+  "note": "Вектор статьи записан в data/embeddings.sqlite (published=0). После публикации агент 7 переключит флаг на 1."
+}
