@@ -12257,15 +12257,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 2677,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-09-04T15:28:12",
-      "last_action_at": "2026-09-04T15:28:12",
+      "last_action_at": "2026-09-05T10:00:03",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-09-04T15:28:12"
+      "pending_batch": false,
+      "pending_batch_at": "2026-09-04T15:28:12",
+      "batch_sent_at": "2026-09-05T10:00:03",
+      "batch_fail_count": 0
     },
     "bankrotstvo-energosbytovoj-kompanii": {
       "category": "yur",
@@ -12275,15 +12277,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 2679,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-09-04T20:05:15",
-      "last_action_at": "2026-09-04T20:05:15",
+      "last_action_at": "2026-09-05T10:00:06",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-09-04T20:05:15"
+      "pending_batch": false,
+      "pending_batch_at": "2026-09-04T20:05:15",
+      "batch_sent_at": "2026-09-05T10:00:06",
+      "batch_fail_count": 0
     },
     "vzyskanie-vreda-za-nezakonnoe-ugolovnoe-presledovanie": {
       "category": "vzysk",
@@ -12293,15 +12297,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 2681,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-09-05T05:41:03",
-      "last_action_at": "2026-09-05T05:41:03",
+      "last_action_at": "2026-09-05T10:00:08",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-09-05T05:41:03"
+      "pending_batch": false,
+      "pending_batch_at": "2026-09-05T05:41:03",
+      "batch_sent_at": "2026-09-05T10:00:08",
+      "batch_fail_count": 0
     },
     "tsb-psk-predelnye-stavki-q3-zaemshchiki-kredity": {
       "category": "news",
@@ -12311,19 +12317,111 @@
       "versions": [
         "2.0"
       ],
+      "tg_message_id": 2683,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-09-05T08:48:06",
+      "last_action_at": "2026-09-05T10:00:10",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-09-05T08:48:06",
+      "batch_sent_at": "2026-09-05T10:00:10",
+      "batch_fail_count": 0
+    },
+    "ipoteka-platezhi-tretih-lic-za-bankrota": {
+      "category": "fiz",
+      "title": "Ипотека при банкротстве: платежи третьего лица",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
       "tg_message_id": null,
       "tg_chat_id": null,
-      "first_seen_at": "2026-09-05T08:48:06",
-      "last_action_at": "2026-09-05T08:48:06",
+      "first_seen_at": "2026-09-05T15:29:10",
+      "last_action_at": "2026-09-05T15:29:10",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
       "pending_batch": true,
-      "pending_batch_at": "2026-09-05T08:48:06"
+      "pending_batch_at": "2026-09-05T15:29:10"
+    },
+    "bankrotstvo-obrazovatelnoy-organizacii": {
+      "category": "yur",
+      "title": "Банкротство образовательной организации: риски директора",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-09-05T20:26:14",
+      "last_action_at": "2026-09-05T20:26:14",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-09-05T20:26:14"
+    },
+    "astrent-sudebnaya-neustoika-kak-poluchit": {
+      "category": "vzysk",
+      "title": "Астрент: как получить судебный штраф за неисполнение решения",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-09-06T01:11:17",
+      "last_action_at": "2026-09-06T01:11:17",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-09-06T01:11:17"
+    },
+    "tsb-dku-iyul-stavka-peredacha-kredity-dolzhniki": {
+      "category": "news",
+      "title": "Ипотечные ставки июль: снижение по Центробанку",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-09-06T05:19:24",
+      "last_action_at": "2026-09-06T05:19:24",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-09-06T05:19:24"
+    },
+    "rabotodatel-ispolnitelnyj-list-vzyskannaya-summa": {
+      "category": "news",
+      "title": "Работодатель обязан сообщить приставу о взысканной сумме",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-09-06T08:46:27",
+      "last_action_at": "2026-09-06T08:46:27",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-09-06T08:46:27"
     }
   },
   "pending_actions": [],
-  "last_batch_date": "2026-09-04",
+  "last_batch_date": "2026-09-05",
   "last_batch_count": 4,
-  "last_batch_at": "2026-09-04T10:00:12"
+  "last_batch_at": "2026-09-05T10:00:10"
 }
