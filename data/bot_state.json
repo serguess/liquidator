@@ -12216,7 +12216,7 @@
     "alimenty-rebyonku-invalidu-razmer-vzyskanie": {
       "category": "vzysk",
       "title": "Алименты на ребёнка-инвалида: размер и взыскание",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -12224,14 +12224,16 @@
       "tg_message_id": 2673,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-09-04T00:54:18",
-      "last_action_at": "2026-09-04T10:00:10",
+      "last_action_at": "2026-09-07T00:22:10",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/vzysk/alimenty-rebyonku-invalidu-razmer-vzyskanie",
       "pending_batch": false,
       "pending_batch_at": "2026-09-04T00:54:18",
       "batch_sent_at": "2026-09-04T10:00:10",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-09-07T00:22:10",
+      "articles_path": "articles/vzysk/alimenty-rebyonku-invalidu-razmer-vzyskanie.html"
     },
     "nbki-prosrochka-potrebitelskie-kredity-iyul-rost": {
       "category": "news",
