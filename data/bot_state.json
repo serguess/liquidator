@@ -12326,7 +12326,7 @@
     "tsb-psk-predelnye-stavki-q3-zaemshchiki-kredity": {
       "category": "news",
       "title": "Предельные ставки по кредитам: новые лимиты ЦБ",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -12334,14 +12334,16 @@
       "tg_message_id": 2683,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-09-05T08:48:06",
-      "last_action_at": "2026-09-05T10:00:10",
+      "last_action_at": "2026-09-07T00:22:25",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/news/tsb-psk-predelnye-stavki-q3-zaemshchiki-kredity",
       "pending_batch": false,
       "pending_batch_at": "2026-09-05T08:48:06",
       "batch_sent_at": "2026-09-05T10:00:10",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-09-07T00:22:25",
+      "articles_path": "articles/news/tsb-psk-predelnye-stavki-q3-zaemshchiki-kredity.html"
     },
     "ipoteka-platezhi-tretih-lic-za-bankrota": {
       "category": "fiz",
