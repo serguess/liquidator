@@ -1,0 +1,111 @@
+{
+  "slug": "rabotodatel-ispolnitelnyj-list-vzyskannaya-summa",
+  "category": "news",
+  "title": "Работодатель обязан сообщить приставу о взысканной сумме",
+  "description": "Новое требование к работодателям при исполнении судебного приказа: как информировать судебного пристава о взысканной сумме, штрафы за нарушение",
+  "h1": "Работодатель теперь обязан сообщить приставу о взысканной сумме",
+  "lead": "С 1 сентября 2026 года работодатель обязан письменно сообщать судебному приставу о каждой взысканной из зарплаты сумме - платёжки для отчёта больше недостаточно.",
+  "topic_action": "консультацию по удержанию из зарплаты",
+  "breadcrumb_current": "Работодатель обязан уведомить пристава",
+  "og_image": "/assets/articles/rabotodatel-ispolnitelnyj-list-vzyskannaya-summa.jpg",
+  "main_keyword": "работодатель обязан сообщить приставу взысканную сумму",
+  "secondary_keywords": [
+    "исполнительный лист работодатель",
+    "взыскание зарплаты приставом",
+    "судебный пристав информирует работодателя",
+    "обязанности работодателя при судебном приказе",
+    "отчёт работодателя о взысканной сумме",
+    "удержание из зарплаты по исполнительному листу"
+  ],
+  "intent": "informational",
+  "funnel_stage": "cold",
+  "article_type": "C",
+  "offer": "snyatie-aresta",
+  "event_date": "2026-09-01",
+  "news_zone": "legislation",
+  "internal_links": [
+    "/articles/vzysk/kak-otmenit-sudebnyj-prikaz",
+    "/articles/vzysk/kak-obratitsya-k-pristavam-chtoby-priostanovit-nezakonnoe-vzyskanie"
+  ],
+  "external_links": [
+    "https://www.garant.ru/hotlaw/federal/2069674/",
+    "https://www.consultant.ru/document/cons_doc_LAW_71450/"
+  ],
+  "faq": [
+    {
+      "question": "С какого числа обязательно письменное уведомление о каждом вычете?",
+      "answer": "С 1 сентября 2026 года. Правило закреплено в части 2 статьи 101 закона об исполнительном производстве (ФЗ-229)."
+    },
+    {
+      "question": "Что именно нужно указать в отчёте для ФССП?",
+      "answer": "Пять полей: размер снятой суммы, дата вычета из зарплаты, дата перечисления в службу, ФИО и реквизиты сотрудника, номер исполнительного документа."
+    },
+    {
+      "question": "Грозит ли штраф, если письмо отправлено позже даты перечисления?",
+      "answer": "Да. Просрочка бумаги - самостоятельное нарушение, даже если сами деньги ушли вовремя. Организации грозит исполнительский сбор (7% от суммы долга, не менее 10 000 руб.) и санкция до миллиона рублей."
+    },
+    {
+      "question": "Какой максимальный процент разрешено снять с зарплаты по обычному долгу?",
+      "answer": "Половина дохода после НДФЛ. Повышенный порог в 70% - только для алиментов на детей, возмещения вреда здоровью, смерти кормильца и ущерба от преступления (ст. 99 ч. 3 ФЗ-229)."
+    },
+    {
+      "question": "Могут ли приставы взыскивать из социальных пособий или материнского капитала?",
+      "answer": "Нет. Эти выплаты полностью защищены законом (ст. 101 ФЗ-229). К защищённым также относятся алименты, получаемые самим сотрудником, командировочные и компенсации пострадавшим от катастроф."
+    },
+    {
+      "question": "Как защитить прожиточный минимум при удержаниях из зарплаты?",
+      "answer": "Подать заявление в отдел ФССП. Автоматически защита не срабатывает: до подачи бумаги вычет идёт по общему правилу - до 50 или 70 процентов от дохода после НДФЛ."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "f10 (новое требование с 01.09.2026, ст. 101 ч. 2 ФЗ-229) - legislation_status: active, last_verified: 2026-09-06, источник garant.ru/hotlaw/federal/2069674 подтверждён",
+    "f3/f4 (лимиты удержания 50%/70%, ст. 99 ч. 2-3 ФЗ-229) - верифицированы, контекст применения корректен: 70% только для четырёх категорий",
+    "f5 (защищённые выплаты, ст. 101 ФЗ-229) - перечень совпадает с research.json, формулировки из safe_phrasing сохранены",
+    "f6 (прожиточный минимум, ст. 99 ч. 5.1) - норма действует с 2022, last_verified: 2026-09-06, актуальна",
+    "f7 (исполнительский сбор 7%, 5 рабочих дней, ст. 112 ч. 3 ФЗ-229) - подтверждено, цифры совпадают с research",
+    "f9 (штрафы ст. 85, ст. 17 ФЗ-229; ст. 1070 ГК РФ) - подтверждено; номера статей в тексте убраны до описательных формулировок согласно лимиту 2-3 внешних ссылок",
+    "Запрещённые утверждения из forbidden_claims в тексте отсутствуют"
+  ],
+  "keyword_density_main": null,
+  "main_keyword_exact_count": null,
+  "text_chars": 5960,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.122,
+  "local_spam_ngram3_repeat": 0.059,
+  "local_lexical_diversity": 0.603,
+  "local_ai_markers_density": 0.25,
+  "local_ai_markers_critical": 0,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1788673530/articles/rabotodatel-ispolnitelnyj-list-vzyskannaya-summa-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1788673530/articles/rabotodatel-ispolnitelnyj-list-vzyskannaya-summa-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Editorial photograph of a high-floor executive office desk. Foreground: closed thin laptop, smartphone face-down, polished round company seal, leather notebook, white coffee cup on walnut desktop. Background through tall windows: blurred city skyline at evening dusk with distant lights fading into fog. Camera: shallow depth of field, three-quarter angle at eye-level. Lighting: cool ambient daylight blended with warm tungsten desk lamp. Materials: walnut, polished steel, brass accents. Mood: contemporary corporate obligation, business-hour urgency.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-09-06T05:45:31Z",
+  "length_status": "too_long",
+  "length_kind": "news",
+  "local_ai_markers_total": 2,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 3,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 57,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность выше 50% (~57%)",
+    "длина больше лимита 5500 (5 960 знаков)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "spam_risk: 2 флагов (top10_share>0.115 (=0.122), ngram3_repeat_share>0.055 (=0.059)), top-5: ['сотрудник', 'отдел', 'зарплат', 'закон', 'вычет']"
+  ],
+  "date_published": "2026-09-06",
+  "date_modified": "2026-09-06",
+  "ready_for_review": true,
+  "ready_at": "2026-09-06T05:45:33Z",
+  "publication_target": "telegram_review"
+}

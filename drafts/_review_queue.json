@@ -6583,6 +6583,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "rabotodatel-ispolnitelnyj-list-vzyskannaya-summa",
+      "category": "news",
+      "title": "Работодатель обязан сообщить приставу о взысканной сумме",
+      "added_at": "2026-09-06T08:45:33.690073",
+      "char_count": 5960,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1788673530/articles/rabotodatel-ispolnitelnyj-list-vzyskannaya-summa-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
