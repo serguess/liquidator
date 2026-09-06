@@ -12304,7 +12304,7 @@
     "vzyskanie-vreda-za-nezakonnoe-ugolovnoe-presledovanie": {
       "category": "vzysk",
       "title": "Взыскание вреда за незаконное уголовное преследование",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -12312,14 +12312,16 @@
       "tg_message_id": 2681,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-09-05T05:41:03",
-      "last_action_at": "2026-09-05T10:00:08",
+      "last_action_at": "2026-09-07T00:22:23",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/vzysk/vzyskanie-vreda-za-nezakonnoe-ugolovnoe-presledovanie",
       "pending_batch": false,
       "pending_batch_at": "2026-09-05T05:41:03",
       "batch_sent_at": "2026-09-05T10:00:08",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-09-07T00:22:23",
+      "articles_path": "articles/vzysk/vzyskanie-vreda-za-nezakonnoe-ugolovnoe-presledovanie.html"
     },
     "tsb-psk-predelnye-stavki-q3-zaemshchiki-kredity": {
       "category": "news",
