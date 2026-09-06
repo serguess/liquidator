@@ -12370,7 +12370,7 @@
     "bankrotstvo-obrazovatelnoy-organizacii": {
       "category": "yur",
       "title": "Банкротство образовательной организации: риски директора",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -12378,14 +12378,16 @@
       "tg_message_id": 2687,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-09-05T20:26:14",
-      "last_action_at": "2026-09-06T10:00:27",
+      "last_action_at": "2026-09-07T00:22:30",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/yur/bankrotstvo-obrazovatelnoy-organizacii",
       "pending_batch": false,
       "pending_batch_at": "2026-09-05T20:26:14",
       "batch_sent_at": "2026-09-06T10:00:27",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-09-07T00:22:30",
+      "articles_path": "articles/yur/bankrotstvo-obrazovatelnoy-organizacii.html"
     },
     "astrent-sudebnaya-neustoika-kak-poluchit": {
       "category": "vzysk",
