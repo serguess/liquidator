@@ -12172,7 +12172,7 @@
     "bankrotstvo-pri-parallelnykh-sudebnyh-delah": {
       "category": "fiz",
       "title": "Банкротство при параллельных судебных делах",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -12180,14 +12180,16 @@
       "tg_message_id": 2669,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-09-03T15:26:11",
-      "last_action_at": "2026-09-04T10:00:05",
+      "last_action_at": "2026-09-07T00:22:04",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/fiz/bankrotstvo-pri-parallelnykh-sudebnyh-delah",
       "pending_batch": false,
       "pending_batch_at": "2026-09-03T15:26:11",
       "batch_sent_at": "2026-09-04T10:00:05",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-09-07T00:22:04",
+      "articles_path": "articles/fiz/bankrotstvo-pri-parallelnykh-sudebnyh-delah.html"
     },
     "bankrotstvo-npf-prava-zastrahovannyh": {
       "category": "yur",
