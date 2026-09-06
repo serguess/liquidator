@@ -41131,5 +41131,52 @@
     "returncode": 1,
     "stdout_tail": "You've hit your limit · resets 1:30pm (Europe/Moscow)",
     "stderr_tail": ""
+  },
+  {
+    "timestamp": "2026-09-06T10:00:11",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets 1:30pm (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-09-06T14:48:03",
+    "category": "fiz",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 13,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "fiz-204",
+    "topic_slug": "priznanie-inostrannogo-bankrotstva-v-rossii",
+    "auto_skipped": [
+      {
+        "slug": "povtornoe-vnesudebnoe-bankrotstvo-mfc-cherez-5-let",
+        "reason": "cannibalization:preflight:vnesudebnoe-bankrotstvo-cherez-mfc-2026",
+        "duration_sec": 0
+      }
+    ],
+    "status": "failed",
+    "slug": "priznanie-inostrannogo-bankrotstva-v-rossii",
+    "duration_sec": 482.0,
+    "returncode": 1,
+    "rescued_after_failure": false,
+    "stdout_tail": "=== 1-semantics (claude haiku) ===\n   ok: 1656 симв., usage in=20 out=10 cache_w=67116 cache_r=0 billable=67146 ток, 22.6с\n=== 2-legal-research (claude haiku) ===\n   ok: 18998 симв., usage in=92 out=36 cache_w=220742 cache_r=341472 billable=220870 ток, 79.1с\n   ok: 17240 симв., billable=99082 ток (model=sonnet)\n   [outline_validate] exit=0\n=== 4-writer (claude opus) ===\n   ok: 11709 симв., billable=84161 ток, 92.3с\n   [writer self-fix проход 2]",
+    "stderr_tail": "[ERR] rate_limit: put_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard\",\"cache_creation\":{\"ephemeral_1h_input_tokens\":0,\"ephemeral_5m_input_tokens\":0},\"inference_geo\":\"\",\"iterations\":[],\"speed\":\"standard\"},\"modelUsage\":{},\"permission_denials\":[],\"terminal_reason\":\"completed\",\"fast_mode_state\":\"off\",\"uuid\":\"318406f7-9c5d-4abe-b472-27d2d997c474\"}\n\n",
+    "tokens_by_model": {},
+    "metrics": null
   }
 ]

@@ -12337,15 +12337,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 2685,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-09-05T15:29:10",
-      "last_action_at": "2026-09-05T15:29:10",
+      "last_action_at": "2026-09-06T10:00:24",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-09-05T15:29:10"
+      "pending_batch": false,
+      "pending_batch_at": "2026-09-05T15:29:10",
+      "batch_sent_at": "2026-09-06T10:00:24",
+      "batch_fail_count": 0
     },
     "bankrotstvo-obrazovatelnoy-organizacii": {
       "category": "yur",
@@ -12355,15 +12357,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 2687,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-09-05T20:26:14",
-      "last_action_at": "2026-09-05T20:26:14",
+      "last_action_at": "2026-09-06T10:00:27",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-09-05T20:26:14"
+      "pending_batch": false,
+      "pending_batch_at": "2026-09-05T20:26:14",
+      "batch_sent_at": "2026-09-06T10:00:27",
+      "batch_fail_count": 0
     },
     "astrent-sudebnaya-neustoika-kak-poluchit": {
       "category": "vzysk",
@@ -12373,15 +12377,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 2689,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-09-06T01:11:17",
-      "last_action_at": "2026-09-06T01:11:17",
+      "last_action_at": "2026-09-06T10:00:29",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-09-06T01:11:17"
+      "pending_batch": false,
+      "pending_batch_at": "2026-09-06T01:11:17",
+      "batch_sent_at": "2026-09-06T10:00:29",
+      "batch_fail_count": 0
     },
     "tsb-dku-iyul-stavka-peredacha-kredity-dolzhniki": {
       "category": "news",
@@ -12391,15 +12397,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 2691,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-09-06T05:19:24",
-      "last_action_at": "2026-09-06T05:19:24",
+      "last_action_at": "2026-09-06T10:00:31",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-09-06T05:19:24"
+      "pending_batch": false,
+      "pending_batch_at": "2026-09-06T05:19:24",
+      "batch_sent_at": "2026-09-06T10:00:31",
+      "batch_fail_count": 0
     },
     "rabotodatel-ispolnitelnyj-list-vzyskannaya-summa": {
       "category": "news",
@@ -12409,19 +12417,21 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 2693,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-09-06T08:46:27",
-      "last_action_at": "2026-09-06T08:46:27",
+      "last_action_at": "2026-09-06T10:00:33",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-09-06T08:46:27"
+      "pending_batch": false,
+      "pending_batch_at": "2026-09-06T08:46:27",
+      "batch_sent_at": "2026-09-06T10:00:33",
+      "batch_fail_count": 0
     }
   },
   "pending_actions": [],
-  "last_batch_date": "2026-09-05",
-  "last_batch_count": 4,
-  "last_batch_at": "2026-09-05T10:00:10"
+  "last_batch_date": "2026-09-06",
+  "last_batch_count": 5,
+  "last_batch_at": "2026-09-06T10:00:33"
 }
