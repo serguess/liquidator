@@ -12392,7 +12392,7 @@
     "astrent-sudebnaya-neustoika-kak-poluchit": {
       "category": "vzysk",
       "title": "Астрент: как получить судебный штраф за неисполнение решения",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -12400,14 +12400,16 @@
       "tg_message_id": 2689,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-09-06T01:11:17",
-      "last_action_at": "2026-09-06T10:00:29",
+      "last_action_at": "2026-09-07T00:22:33",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/vzysk/astrent-sudebnaya-neustoika-kak-poluchit",
       "pending_batch": false,
       "pending_batch_at": "2026-09-06T01:11:17",
       "batch_sent_at": "2026-09-06T10:00:29",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-09-07T00:22:33",
+      "articles_path": "articles/vzysk/astrent-sudebnaya-neustoika-kak-poluchit.html"
     },
     "tsb-dku-iyul-stavka-peredacha-kredity-dolzhniki": {
       "category": "news",
