@@ -12282,7 +12282,7 @@
     "bankrotstvo-energosbytovoj-kompanii": {
       "category": "yur",
       "title": "Банкротство энергокомпании: права потребителей",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -12290,14 +12290,16 @@
       "tg_message_id": 2679,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-09-04T20:05:15",
-      "last_action_at": "2026-09-05T10:00:06",
+      "last_action_at": "2026-09-07T00:22:20",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/yur/bankrotstvo-energosbytovoj-kompanii",
       "pending_batch": false,
       "pending_batch_at": "2026-09-04T20:05:15",
       "batch_sent_at": "2026-09-05T10:00:06",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-09-07T00:22:20",
+      "articles_path": "articles/yur/bankrotstvo-energosbytovoj-kompanii.html"
     },
     "vzyskanie-vreda-za-nezakonnoe-ugolovnoe-presledovanie": {
       "category": "vzysk",
