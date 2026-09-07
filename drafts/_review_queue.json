@@ -6596,6 +6596,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "priznanie-inostrannogo-bankrotstva-v-rossii",
+      "category": "fiz",
+      "title": "Признание иностранного банкротства в России",
+      "added_at": "2026-09-08T00:53:23.201577",
+      "char_count": 10712,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1788818000/articles/priznanie-inostrannogo-bankrotstva-v-rossii-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
