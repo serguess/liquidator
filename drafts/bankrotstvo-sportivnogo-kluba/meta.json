@@ -1,0 +1,102 @@
+{
+  "slug": "bankrotstvo-sportivnogo-kluba",
+  "category": "yur",
+  "title": "Банкротство спортивного клуба: что происходит с участниками",
+  "description": "Как происходит банкротство спортивного клуба, какие права есть у участников, членов и инвесторов, какие долги списываются и как вернуть взносы.",
+  "h1": "Банкротство спортивного клуба: права участников и процедура",
+  "lead": "При банкротстве спортивного клуба участники, члены и инвесторы получают взносы в последнюю очередь - после налогов, зарплаты и банковских долгов.",
+  "topic_action": "проверку прав при банкротстве спортивного клуба",
+  "breadcrumb_current": "Банкротство спортивного клуба",
+  "og_image": "/assets/articles/bankrotstvo-sportivnogo-kluba.jpg",
+  "main_keyword": "банкротство спортивного клуба",
+  "secondary_keywords": [
+    "банкротство спортивного клуба участники",
+    "что происходит с членами спортивного клуба при банкротстве",
+    "возврат взносов спортивный клуб банкротство",
+    "долги спортивного клуба при банкротстве",
+    "права инвесторов спортивного клуба",
+    "конкурсный управляющий спортивный клуб",
+    "имущество спортивного клуба при банкротстве",
+    "спортивные активы банкротство",
+    "членские взносы спортивный клуб",
+    "кредиторы спортивного клуба"
+  ],
+  "internal_links": [],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/",
+    "https://www.consultant.ru/document/cons_doc_LAW_5142/"
+  ],
+  "faq": [
+    {
+      "question": "При каком размере долга клуб могут признать банкротом?",
+      "answer": "От двух миллионов задолженности перед займодавцами и просрочки от трёх месяцев (закон о банкротстве в редакции ФЗ-107 от апреля 2024). До мая 2024 планка была триста тысяч - её подняли, чтобы отсечь мелкие дела."
+    },
+    {
+      "question": "Что происходит с контрактами игроков?",
+      "answer": "Распорядитель может разорвать их как убыточные либо передать новому владельцу вместе с клубным пакетом. Атлет либо получает свободу, либо продолжает выступать за нового собственника."
+    },
+    {
+      "question": "Вернут ли годовой абонемент?",
+      "answer": "По закону - в четвёртой очереди после погашения долгов перед пострадавшими, работниками и ФНС. На практике деньги до этого уровня почти никогда не доходят. Заявить требование стоит, но рассчитывать на возврат мы не советуем."
+    },
+    {
+      "question": "Могут ли учредители заблокировать продажу зданий?",
+      "answer": "Нет. С момента открытия конкурсного производства собственники теряют право распоряжаться активами - все полномочия у назначенца арбитража."
+    },
+    {
+      "question": "Сколько длится процедура?",
+      "answer": "От полугода. Обычный диапазон - от шести до восемнадцати месяцев. Арбитраж может продлить срок, если торги затягиваются или всплывают новые активы."
+    },
+    {
+      "question": "Чем вкладчик с займом отличается от рядового члена клуба?",
+      "answer": "Оба стоят на четвёртом уровне, но у займодавца обычно крупнее сумма и есть договор с точной цифрой долга. Абонент подтверждает свой взнос платёжкой и офертой. Юридически - один и тот же ряд, практически - у крупного вкладчика шансы получить хоть что-то немного выше."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все факты в draft.md сверены с research.json. Статусы: active. last_verified в пределах 6 месяцев (2026-09-08).",
+    "Порог долга 2 млн руб. с 29.05.2024 - актуален (ФЗ-107 от 22.04.2024).",
+    "Госпошлина 100 тыс. руб. с 08.09.2024 - актуальна (ф. ст. 333.21 НК РФ, ред. ФЗ-176 от 12.07.2024).",
+    "Вознаграждение управляющего 30 тыс. руб./месяц плюс процент от выручки - верифицировано (ст. 20.6 п. 3 127-ФЗ).",
+    "Очередность требований (1-я вред здоровью, 2-я зарплата, 3-я налоги, 4-я прочие, 5-я учредители) - актуальна (ст. 134-135 127-ФЗ).",
+    "Срок реестра 2 месяца с публикации - верифицирован (ст. 142 127-ФЗ).",
+    "Спортивная лицензия входит в конкурсную массу - подтверждено (ст. 44 ФЗ-329 от 04.12.2007).",
+    "Срок процедуры 6-18 месяцев - соответствует ст. 160 127-ФЗ."
+  ],
+  "keyword_density_main": 0.019,
+  "main_keyword_exact_count": 3,
+  "text_chars": 7919,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.106,
+  "local_spam_ngram3_repeat": 0.018,
+  "local_lexical_diversity": 0.625,
+  "local_ai_markers_density": 0.21,
+  "local_ai_markers_critical": 0,
+  "quality_gate_passed": true,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1788835967/articles/bankrotstvo-sportivnogo-kluba-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1788835967/articles/bankrotstvo-sportivnogo-kluba-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Cinematic photograph of a private legal library study. Walls lined with closed dark leather-bound books with gilt embossing on spines. Foreground: a wooden mahogany desk with a brass green-glass library lamp illuminating a closed dark leather portfolio positioned against a stack of unmarked organizational dossiers tied with cord, a fountain pen placed diagonally across the portfolio, an antique pocket watch on its chain resting beside the stack, reading glasses atop a bound volume. Camera: low-angle looking up the shelves emphasizing accumulated institutional knowledge and legal weight, OR three-quarter angle at desk level. Lighting: warm tungsten glow from the library lamp casting deep elegant shadows across the dossiers, rich ambient shadow in the book-lined walls, soft diffused daylight through a distant window. Materials: dark mahogany, leather bindings, oxidized brass, cream and charcoal tones. Mood: scholarly deliberation, the gravity of organizational scrutiny and stakeholder accountability.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-09-08T02:52:48Z",
+  "length_status": "too_long",
+  "length_kind": "default",
+  "local_ai_markers_total": 2,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 2,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 49,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "длина значительно больше лимита 6500 (7 919 знаков)"
+  ],
+  "date_published": "2026-09-08",
+  "date_modified": "2026-09-08",
+  "ready_for_review": true,
+  "ready_at": "2026-09-08T02:52:51Z",
+  "publication_target": "telegram_review"
+}

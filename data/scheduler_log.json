@@ -41258,5 +41258,68 @@
     "timestamp": "2026-09-07T19:36:02",
     "status": "preflight_failed",
     "reason": "rate_limit: You've hit your limit · resets 9pm (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-09-08T00:24:21",
+    "category": "fiz",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 14,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "resume",
+    "resume_slug": "priznanie-inostrannogo-bankrotstva-v-rossii",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "forced_pass_at_iter2: блокеры пропущены, статья идёт в TG-очередь с metrics_warning=true. Было: 4 блокеров — length_too_long; spam_risk; targeted_tokens_over_limit; broken_internal_links"
+      ],
+      "recommendations": [
+        "reduce_length: сократить до 5000-6000 знаков",
+        "reduce_repetition: разбавить топ-5 частотных лемм местоимениями/перифразом — ['норм', 'должник', 'банкротств', 'актив', 'закон']",
+        "reduce_ООО: «ООО» × 4 → cap 3. В авторском тексте «юридическое лицо» / «компания» / «организация». «ООО» только в конкретных кейсах из research.json.",
+        "fix_internal_links: заменить href на канонический /articles/{cat}/{slug} из published_index.json (см. .claude/style/editor-cheatsheet.md секция 6)"
+      ],
+      "stderr_tail": ""
+    },
+    "finalize_safety_net": {
+      "ran": true,
+      "rc": 0
+    },
+    "status": "ok",
+    "slug": "priznanie-inostrannogo-bankrotstva-v-rossii",
+    "duration_sec": 1741.5,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "  billable\n6-seo-editor        haiku            20      16   105748         0    105784\n7-publisher         haiku            20       8    36316     39548     36344\n------------------------------------------------------------------------------------------\nИТОГО                                40      24   142064     39548    142128\nBillable-токенов на статью: ~142K (cache_read 39K не считается в лимит подписки).\nАртефакты: drafts/priznanie-inostrannogo-bankrotstva-v-rossii/  | quality_gate exit=0",
+    "stderr_tail": "",
+    "tokens_by_model": {},
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 10712
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]
