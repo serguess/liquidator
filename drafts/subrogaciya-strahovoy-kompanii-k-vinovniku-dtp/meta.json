@@ -1,0 +1,104 @@
+{
+  "slug": "subrogaciya-strahovoy-kompanii-k-vinovniku-dtp",
+  "category": "vzysk",
+  "title": "Суброгация при ДТП: права и защита виновника",
+  "description": "Что такое суброгация страховой компании. Кто платит при суброгации. Сроки исков. Как защитить себя от необоснованных требований по суброгации при ДТП.",
+  "h1": "Суброгация страховой компании при ДТП: защита прав виновника",
+  "lead": "Страховая заплатила своему клиенту и пришла к водителю за деньгами - сумму часто удаётся сильно уменьшить или снять целиком, если знать, куда смотреть.",
+  "topic_action": "защиту от суброгационного иска",
+  "breadcrumb_current": "Суброгация при ДТП",
+  "og_image": "/assets/articles/subrogaciya-strahovoy-kompanii-k-vinovniku-dtp.jpg",
+  "main_keyword": "суброгация при дтп",
+  "secondary_keywords": [
+    "суброгация страховой компании",
+    "суброгация страховой компании к виновнику",
+    "что такое суброгация в страховании",
+    "суброгация виновника дтп",
+    "как защитить себя от суброгации",
+    "суброгация и убытки дтп",
+    "право суброгации страховщика",
+    "исковой период суброгации"
+  ],
+  "internal_links": [],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_5142/"
+  ],
+  "faq": [
+    {
+      "question": "Чем суброгация отличается от регресса?",
+      "answer": "Суброгация - переход к компании того же права требования, которое было у пострадавшего к виновнику. Регресс - самостоятельное новое требование страховщика к своему же клиенту при нарушении условий полиса. Механизмы разные, путать их не нужно."
+    },
+    {
+      "question": "Могут ли требовать больше, чем реально выплатили клиенту?",
+      "answer": "Нет. Цифра ограничена размером реальной выплаты по ст. 965 ГК РФ. Прибыль, накладные расходы страховщика, зарплата экспертов, франшиза в счёт не входят."
+    },
+    {
+      "question": "Через сколько лет право подать иск истекает?",
+      "answer": "Общий срок - три года со дня выплаты (ст. 196 ГК РФ). Предельный потолок - десять лет со дня самой аварии. На практике почти всё укладывается в первые три года."
+    },
+    {
+      "question": "Как смешанная вина влияет на размер платежа?",
+      "answer": "Пропорционально доле. Если пострадавший виноват на 30 процентов, компания получит только 70% выплаченной суммы. Долю устанавливает судья по протоколу ГИБДД, показаниям очевидцев, фотографиям, экспертизе. Правило - ст. 1083 ГК РФ."
+    },
+    {
+      "question": "Когда суброгация вообще не применяется?",
+      "answer": "Медицинское страхование жизни и здоровья - ст. 964 ГК РФ прямо исключает суброгацию. Также она не применяется, если договор запрещает переход прав требования; если пострадавший добровольно согласовал с виновником меньшую цифру; если иск предъявлен позже трёх лет и ответчик заявил о пропуске срока."
+    },
+    {
+      "question": "Какие документы помогут оспорить завышенную сумму?",
+      "answer": "Протокол ГИБДД и схема происшествия, фотографии повреждений и места аварии, показания очевидцев, независимая экспертиза автомобиля с альтернативным расчётом. Чем полнее пакет и чем раньше он собран - тем сильнее позиция ответчика."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все факты сверены с research.json. Статусы: active. last_verified: 2026-09-09 для всех ключевых утверждений.",
+    "Ст. 965 ГК РФ: суброгация - переход прав требования к страховщику в пределах выплаченной суммы. Контекст применения корректен (f1, f4).",
+    "Ст. 196 ГК РФ: 3-летний срок исковой давности, отсчёт со дня выплаты клиенту. Предельный срок 10 лет по ст. 181 ГК РФ. Корректно (f3).",
+    "Ст. 1083 ГК РФ: смешанная вина снижает требование пропорционально. Контекст применения корректен (f6, f9).",
+    "Ст. 964 ГК РФ: медицинское страхование жизни и здоровья - суброгация не применяется. Корректно (f6).",
+    "Размер требования: ограничен реальной выплатой, франшиза и накладные расходы не включаются. Соответствует ст. 965 ГК РФ (f4).",
+    "Формулировки по близким родственникам даны осторожно ('в ряде судебных дел'), без категоричного утверждения - соответствует safe_phrasing (f6).",
+    "Запрещённые утверждения из forbidden_claims в тексте отсутствуют."
+  ],
+  "keyword_density_main": 0.011,
+  "main_keyword_exact_count": 3,
+  "text_chars": 8566,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.089,
+  "local_spam_ngram3_repeat": 0.029,
+  "local_lexical_diversity": 0.621,
+  "local_ai_markers_density": 0.29,
+  "local_ai_markers_critical": 0,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1788904676/articles/subrogaciya-strahovoy-kompanii-k-vinovniku-dtp-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1788904676/articles/subrogaciya-strahovoy-kompanii-k-vinovniku-dtp-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Photograph of a stone or marble staircase ascending inside an official building's corridor. Camera: low-angle from the bottom looking up, emphasizing the procedural ascent through architectural lines. Foreground items carefully arranged at the base of frame: a sealed official envelope on a marble step, a closed dark leather portfolio leaning against a stone column, a stack of bound case dossiers tied with cord, a brass round seal resting on the topmost dossier, a fountain pen aligned beside the envelope, an antique brass padlock on the lower step suggesting legal protection and constraint of rights. Background: weathered marble walls with oxidized brass railings, distant archway fading into soft shadow. Lighting: cool daylight from high corridor windows casting dramatic shadows along the ascending steps. Materials: weathered marble, oxidized brass, dark leather accents. Mood: procedural ascent through subrogate legal challenges and multi-stage remedies for the defendant's protection.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-09-08T21:57:57Z",
+  "length_status": "too_long",
+  "length_kind": "default",
+  "local_ai_markers_total": 3,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 3,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 50,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "длина значительно больше лимита 6500 (8 566 знаков)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "length_too_long: 8566 > 6500 (kind=default)",
+    "targeted_tokens_over_limit: ст_сокращение=10(>≤5), РФ_рудимент=10(>≤2), ГК_кодекс=10(>≤3)"
+  ],
+  "date_published": "2026-09-09",
+  "date_modified": "2026-09-09",
+  "ready_for_review": true,
+  "ready_at": "2026-09-08T21:57:59Z",
+  "publication_target": "telegram_review"
+}

@@ -6648,6 +6648,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "subrogaciya-strahovoy-kompanii-k-vinovniku-dtp",
+      "category": "vzysk",
+      "title": "Суброгация при ДТП: права и защита виновника",
+      "added_at": "2026-09-09T00:57:59.624224",
+      "char_count": 8566,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1788904676/articles/subrogaciya-strahovoy-kompanii-k-vinovniku-dtp-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
