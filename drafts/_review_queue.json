@@ -6622,6 +6622,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "stipendiya-vzyskanie-pri-bankrotstve-fizlica",
+      "category": "fiz",
+      "title": "Стипендия при банкротстве физлица: может ли быть удержана",
+      "added_at": "2026-09-08T15:13:07.408501",
+      "char_count": 9867,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1788869582/articles/stipendiya-vzyskanie-pri-bankrotstve-fizlica-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
