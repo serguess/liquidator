@@ -1,0 +1,107 @@
+{
+  "slug": "bankrotstvo-mediakompanii-smi",
+  "category": "yur",
+  "title": "Банкротство медиакомпании: судьба лицензии и прав",
+  "description": "Разбираемся, что происходит с лицензией и авторскими правами при банкротстве редакции, какие обязательства переходят новому владельцу и как это влияет на работу медиа.",
+  "h1": "Банкротство медиакомпании: что происходит с лицензией и авторскими правами",
+  "lead": "Разбираем, что происходит с авторскими правами контента, лицензией на вещание и трудовыми обязательствами при банкротстве редакции.",
+  "topic_action": "разбор ситуации при банкротстве медиакомпании",
+  "breadcrumb_current": "Банкротство медиакомпании",
+  "og_image": "/assets/articles/bankrotstvo-mediakompanii-smi.jpg",
+  "main_keyword": "банкротство медиакомпании лицензия",
+  "secondary_keywords": [
+    "медиакомпания банкротство вещание",
+    "лицензия на вещание при банкротстве",
+    "авторские права при банкротстве медиа",
+    "интеллектуальная собственность при банкротстве",
+    "лицензионные права при банкротстве юрлица",
+    "судьба контента при банкротстве редакции",
+    "авторские договоры в конкурсном производстве",
+    "имущество медиакомпании реализация",
+    "кредиторы медиа при банкротстве"
+  ],
+  "internal_links": [
+    "/articles/yur/bankrotstvo-aoao",
+    "/articles/yur/avtorskie-prava-v-konkursnoy-masse",
+    "/articles/yur/realizacija-imushchestva-pri-bankrotstve"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/",
+    "https://www.consultant.ru/document/cons_doc_LAW_5142/",
+    "https://www.consultant.ru/document/cons_doc_LAW_2124/"
+  ],
+  "faq": [
+    {
+      "question": "Что происходит с лицензией на эфир, если редакция признана банкротом?",
+      "answer": "Она аннулируется. Свидетельство выдаётся конкретному юрлицу и не переходит вместе с имуществом. Покупатель студии получает оборудование, но эфир оформляет заново через Роскомнадзор."
+    },
+    {
+      "question": "Можно ли купить на торгах только часть библиотеки публикаций?",
+      "answer": "Да, если управляющий сформировал лоты. Часто выделяют отдельно фотобанк, отдельно видеорепортажи, отдельно тексты. Форма продажи прописывается в положении об организации торгов."
+    },
+    {
+      "question": "Сохраняет ли корреспондент авторство своих статей при процедуре?",
+      "answer": "Да. Имя под текстом и защита от искажения принадлежат автору всегда - это личные неимущественные права. Меняется только собственник исключительной лицензии на использование."
+    },
+    {
+      "question": "Какое место в очереди кредиторов занимает долг по зарплате?",
+      "answer": "Первое. Требования сотрудников об оплате труда закрываются раньше, чем требования банков, поставщиков и налоговой."
+    },
+    {
+      "question": "До какого момента действуют трудовые договоры при смене владельца?",
+      "answer": "Два месяца со дня перехода имущества. После этого работодатель может расторгнуть договоры, но обязан выплатить компенсацию - два среднемесячных заработка."
+    },
+    {
+      "question": "Обязан ли новый собственник сохранять название и логотип издания?",
+      "answer": "Нет. Товарный знак и бренд продаются как отдельный актив. Покупатель может выпускать публикации под новым именем или продолжить прежнее - решение за ним, а не за прежней редакцией."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все юридические утверждения сверены с research.json. Фактчек прошёл успешно.",
+    "Все ключевые нормы актуальны (legislation_status: 'active', last_verified 2026-09-08).",
+    "Контекст применения норм корректен: лицензия (f4), авторские права (f2, f3, f5, f6), трудовые обязательства (f7, f8).",
+    "Моральные права авторов (ст. 1266 ГК) указаны верно как неотчуждаемые.",
+    "Приоритет зарплаты в очереди кредиторов (ст. 134 127-ФЗ) подтверждён в f8."
+  ],
+  "keyword_density_main": 0.018,
+  "main_keyword_exact_count": 2,
+  "text_chars": 9490,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.083,
+  "local_spam_ngram3_repeat": 0.02,
+  "local_lexical_diversity": 0.642,
+  "local_ai_markers_density": 0.35,
+  "local_ai_markers_critical": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1788887822/articles/bankrotstvo-mediakompanii-smi-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1788887822/articles/bankrotstvo-mediakompanii-smi-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Editorial composition centering on media company bankruptcy and time-critical procedures. Hero objects arranged on tabletop: sand-filled brass hourglass mid-flow representing urgent deadline for license transfer, stack of 3-4 closed dossiers bound with cord containing media licensing files and corporate documentation, polished round brass seal representing the broadcasting license authority, fountain pen positioned across the topmost dossier. Background: dark slate or weathered stone slab with subtle backlight. Camera: three-quarter angle, tabletop level. Lighting: focused directional spot creating dramatic shadow, gold rim-light on brass surfaces. Palette: deep charcoal, warm brass tones, oxblood leather accents. Mood: passage of critical corporate time, weight of decision, deliberation under deadline.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-09-08T17:17:03Z",
+  "length_status": "too_long",
+  "length_kind": "default",
+  "local_ai_markers_total": 4,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 4,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 49,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "длина значительно больше лимита 6500 (9 490 знаков)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "length_too_long: 9490 > 6500 (kind=default)"
+  ],
+  "date_published": "2026-09-08",
+  "date_modified": "2026-09-08",
+  "ready_for_review": true,
+  "ready_at": "2026-09-08T17:17:06Z",
+  "publication_target": "telegram_review"
+}

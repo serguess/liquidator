@@ -6635,6 +6635,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "bankrotstvo-mediakompanii-smi",
+      "category": "yur",
+      "title": "Банкротство медиакомпании: судьба лицензии и прав",
+      "added_at": "2026-09-08T20:17:06.941063",
+      "char_count": 9490,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1788887822/articles/bankrotstvo-mediakompanii-smi-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
