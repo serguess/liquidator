@@ -12524,7 +12524,7 @@
     "bankrotstvo-mediakompanii-smi": {
       "category": "yur",
       "title": "Банкротство медиакомпании: судьба лицензии и прав",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -12532,14 +12532,16 @@
       "tg_message_id": 2727,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-09-08T20:17:35",
-      "last_action_at": "2026-09-09T10:00:07",
+      "last_action_at": "2026-09-09T17:24:46",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/yur/bankrotstvo-mediakompanii-smi",
       "pending_batch": false,
       "pending_batch_at": "2026-09-08T20:17:35",
       "batch_sent_at": "2026-09-09T10:00:06",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-09-09T17:24:46",
+      "articles_path": "articles/yur/bankrotstvo-mediakompanii-smi.html"
     },
     "subrogaciya-strahovoy-kompanii-k-vinovniku-dtp": {
       "category": "vzysk",
