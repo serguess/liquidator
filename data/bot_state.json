@@ -12503,15 +12503,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 2725,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-09-08T15:13:32",
-      "last_action_at": "2026-09-08T15:13:32",
+      "last_action_at": "2026-09-09T10:00:04",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-09-08T15:13:32"
+      "pending_batch": false,
+      "pending_batch_at": "2026-09-08T15:13:32",
+      "batch_sent_at": "2026-09-09T10:00:04",
+      "batch_fail_count": 0
     },
     "bankrotstvo-mediakompanii-smi": {
       "category": "yur",
@@ -12521,15 +12523,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 2727,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-09-08T20:17:35",
-      "last_action_at": "2026-09-08T20:17:35",
+      "last_action_at": "2026-09-09T10:00:07",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-09-08T20:17:35"
+      "pending_batch": false,
+      "pending_batch_at": "2026-09-08T20:17:35",
+      "batch_sent_at": "2026-09-09T10:00:06",
+      "batch_fail_count": 0
     },
     "subrogaciya-strahovoy-kompanii-k-vinovniku-dtp": {
       "category": "vzysk",
@@ -12539,19 +12543,21 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 2729,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-09-09T00:58:39",
-      "last_action_at": "2026-09-09T00:58:39",
+      "last_action_at": "2026-09-09T10:00:09",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-09-09T00:58:39"
+      "pending_batch": false,
+      "pending_batch_at": "2026-09-09T00:58:39",
+      "batch_sent_at": "2026-09-09T10:00:09",
+      "batch_fail_count": 0
     }
   },
   "pending_actions": [],
-  "last_batch_date": "2026-09-08",
-  "last_batch_count": 2,
-  "last_batch_at": "2026-09-08T10:00:27"
+  "last_batch_date": "2026-09-09",
+  "last_batch_count": 3,
+  "last_batch_at": "2026-09-09T10:00:09"
 }
