@@ -4438,7 +4438,11 @@
       "topic_action": "проверить задолженность и способы урегулирования",
       "event_date": "2026-08-05",
       "news_zone": "finance",
-      "primary_source": "https://www.vedomosti.ru/finance/articles/2026/08/05/1218879-tsena-bankovskih-dolgov-postavila-rekord"
+      "primary_source": "https://www.vedomosti.ru/finance/articles/2026/08/05/1218879-tsena-bankovskih-dolgov-postavila-rekord",
+      "status": "rejected",
+      "rejected_at": "2026-09-09T04:00:01",
+      "rejected_reason": "event_too_old:35d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-135",
@@ -4978,7 +4982,11 @@
       "news_zone": "finance",
       "primary_source": "https://www.cbr.ru/press/keypr/",
       "title_length": 52,
-      "description_length": 143
+      "description_length": 143,
+      "status": "rejected",
+      "rejected_at": "2026-09-09T04:00:01",
+      "rejected_reason": "event_too_old:34d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-151",
@@ -5008,7 +5016,11 @@
       "news_zone": "initiative",
       "primary_source": "https://tpprf.ru/ru/news/",
       "title_length": 56,
-      "description_length": 152
+      "description_length": 152,
+      "status": "rejected",
+      "rejected_at": "2026-09-09T04:00:01",
+      "rejected_reason": "event_too_old:33d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-152",
