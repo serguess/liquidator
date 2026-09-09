@@ -1,6 +1,19 @@
 {
-  "generated": "2026-09-07",
+  "generated": "2026-09-09",
   "articles": [
+    {
+      "slug": "priznanie-inostrannogo-bankrotstva-v-rossii",
+      "cat": "fiz",
+      "catLabel": "Банкротство физических лиц",
+      "title": "Признание иностранного банкротства в России",
+      "desc": "Как признать иностранное банкротство в России, какие документы нужны и что это означает для кредиторов. Справочник по процедуре.",
+      "date": "9 сентября 2026",
+      "dateIso": "2026-09-09",
+      "read": "7 мин.",
+      "tone": "b",
+      "img": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1788818000/articles/priznanie-inostrannogo-bankrotstva-v-rossii-cover.jpg",
+      "url": "articles/fiz/priznanie-inostrannogo-bankrotstva-v-rossii"
+    },
     {
       "slug": "rabotodatel-ispolnitelnyj-list-vzyskannaya-summa",
       "cat": "news",

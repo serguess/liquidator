@@ -12458,7 +12458,7 @@
     "priznanie-inostrannogo-bankrotstva-v-rossii": {
       "category": "fiz",
       "title": "Признание иностранного банкротства в России",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -12466,14 +12466,16 @@
       "tg_message_id": 2721,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-09-08T00:53:39",
-      "last_action_at": "2026-09-08T10:00:25",
+      "last_action_at": "2026-09-09T17:23:07",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/fiz/priznanie-inostrannogo-bankrotstva-v-rossii",
       "pending_batch": false,
       "pending_batch_at": "2026-09-08T00:53:39",
       "batch_sent_at": "2026-09-08T10:00:25",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-09-09T17:23:07",
+      "articles_path": "articles/fiz/priznanie-inostrannogo-bankrotstva-v-rossii.html"
     },
     "bankrotstvo-sportivnogo-kluba": {
       "category": "yur",
