@@ -6661,6 +6661,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "bankrotstvo-pri-zaloge-pts-mfo",
+      "category": "fiz",
+      "title": "Банкротство при залоге ПТС в МФО: что будет с авто",
+      "added_at": "2026-09-10T00:49:02.146338",
+      "char_count": 8091,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1788990537/articles/bankrotstvo-pri-zaloge-pts-mfo-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

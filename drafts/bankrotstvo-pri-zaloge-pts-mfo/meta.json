@@ -1,0 +1,108 @@
+{
+  "slug": "bankrotstvo-pri-zaloge-pts-mfo",
+  "category": "fiz",
+  "title": "Банкротство при залоге ПТС в МФО: что будет с авто",
+  "description": "Рассказываем, что произойдет с автомобилем в залоге у МФО при банкротстве физлица, может ли суд отобрать машину и как защитить её.",
+  "h1": "Что будет с машиной в залоге при банкротстве физлица: права и риски",
+  "lead": "Разбираем, что произойдёт с автомобилем в залоге у МФО при банкротстве: когда реализацию можно остановить, кто получает деньги первым и почему хвост непокрытого долга всё равно спишется.",
+  "topic_action": "проверку ситуации с залогом при банкротстве",
+  "breadcrumb_current": "Банкротство при залоге ПТС в МФО",
+  "og_image": "/assets/articles/bankrotstvo-pri-zaloge-pts-mfo.jpg",
+  "main_keyword": "банкротство при залоге ПТС в МФО",
+  "secondary_keywords": [
+    "что будет с машиной если банкротство",
+    "залог ПТС в МФО при банкротстве",
+    "машина в залоге банкротство физлица",
+    "защита залога при банкротстве",
+    "ПТС как залог банкротство",
+    "МФО залог автомобиля",
+    "может ли быть продана машина в залоге",
+    "конкурсная масса залог",
+    "реализация залогового имущества",
+    "банкротство долг перед МФО"
+  ],
+  "internal_links": [
+    "/articles/fiz/avtomobil-pri-bankrotstve-fizlica"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/",
+    "https://www.consultant.ru/document/cons_doc_LAW_5142/"
+  ],
+  "faq": [
+    {
+      "question": "Что происходит с заложенной машиной сразу после подачи заявления?",
+      "answer": "Ничего резкого. Она остаётся у вас до момента, когда арбитраж введёт процедуру реализации и специалист начнёт готовить актив к торгам. Обычно от подачи до передачи транспорта на площадку проходит два-четыре месяца."
+    },
+    {
+      "question": "Может ли займодавец забрать машину напрямую, минуя торги?",
+      "answer": "Нет. Микрофинансовая контора не имеет права самостоятельно забирать предмет залога у гражданина-банкрота. Продажа идёт только через специалиста и только по правилам закона о банкротстве."
+    },
+    {
+      "question": "Получит ли должник деньги, если долг больше стоимости машины?",
+      "answer": "Нет. Вся выручка после вычета издержек уйдёт займодавцу, и всё равно не покроет требование полностью. Непокрытый хвост спишется при завершении дела - это и есть ваша основная выгода."
+    },
+    {
+      "question": "Сколько времени занимает продажа залогового транспорта?",
+      "answer": "От трёх до шести месяцев с момента введения реализации. Оценка - около трёх недель, публикация о торгах - месяц, сами торги - две-три недели. Если первые не состоялись, назначаются повторные со снижением цены."
+    },
+    {
+      "question": "Обязан ли поручитель платить после признания заёмщика банкротом?",
+      "answer": "Да. Списание работает только для основного заёмщика. Поручитель отвечает перед займодавцем в полном объёме независимо от исхода вашего дела."
+    },
+    {
+      "question": "Когда арбитраж разрешает исключить транспорт из торгов?",
+      "answer": "Только если его цена мизерна и расходы на продажу больше возможной выручки. Практика: старые машины с большим пробегом и техническими проблемами - редкий, но реальный кейс."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все факты сверены с research.json. Статусы: active. last_verified: 2026-09-09 для всех ключевых утверждений.",
+    "ст. 446 ГПК: автомобиль не входит в защищённое имущество - соответствует f2, контекст корректен.",
+    "ст. 213.25 127-ФЗ: автомобиль в конкурсной массе, залогодержатель приоритетен - соответствует f1 (ст. 213.25, ст. 30, 64 ФЗ-229).",
+    "30-дневный срок для заявления требования - соответствует f5 (ст. 128, 142 127-ФЗ).",
+    "Приостановление параллельного иска - соответствует f6 (ст. 213.11, 110 127-ФЗ).",
+    "ПМ 2026: 20 644 руб. (ФЗ-426 от 28.11.2025) - верифицирован (f4). Защищает только доходы, не имущество - оговорка присутствует.",
+    "Исключение из торгов при превышении издержек над выручкой - соответствует f7 (ст. 213.25 п. 2 127-ФЗ).",
+    "Оспаривание оценки через реестр - соответствует f8 (ст. 149, 171 127-ФЗ).",
+    "Поручитель остаётся обязанным - соответствует f9 (ст. 213.28 п. 5 127-ФЗ).",
+    "Депозит 25 000 руб. и ограничения после банкротства (5 лет/3 года) - стандартные нормы ст. 20.6, 213.30 127-ФЗ, не противоречат research.",
+    "Forbidden claims проверены: нет утверждений о прямом праве МФО забрать авто без суда, о защите единственного автомобиля как имущества, о полном погашении требования МФО, об освобождении поручителя при банкротстве должника."
+  ],
+  "keyword_density_main": 0.012,
+  "main_keyword_exact_count": 2,
+  "text_chars": 8091,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.109,
+  "local_spam_ngram3_repeat": 0.01,
+  "local_lexical_diversity": 0.609,
+  "local_ai_markers_density": 0.3,
+  "local_ai_markers_critical": 0,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1788990537/articles/bankrotstvo-pri-zaloge-pts-mfo-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1788990537/articles/bankrotstvo-pri-zaloge-pts-mfo-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Wide symmetric photograph down a long official marble-floored corridor with colonnaded passage and brass sconces. Center of frame: brass scales of justice on a marble pedestal, perfectly balanced. Foreground floor detail: a single brass car key on leather keyring left of center, a sealed white envelope right of center, a closed dark leather folder positioned between them, arranged in subtle symmetry leading upward to the scales. Camera: dead-center symmetric, eye-level, slight wide-angle perspective. Lighting: cool natural daylight from skylights above, revealing marble veining and casting soft elongated shadows across the floor. Palette: polished marble whites and cool grays accented with warm brass. Mood: ceremonial, momentous decision-pending, tension between asset preservation and financial obligation.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-09-09T21:48:58Z",
+  "length_status": "too_long",
+  "length_kind": "default",
+  "local_ai_markers_total": 3,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 1,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 53,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность чуть выше 50% (~53%)",
+    "длина значительно больше лимита 6500 (8 091 знаков)"
+  ],
+  "date_published": "2026-09-10",
+  "date_modified": "2026-09-10",
+  "ready_for_review": true,
+  "ready_at": "2026-09-09T21:49:02Z",
+  "publication_target": "telegram_review"
+}

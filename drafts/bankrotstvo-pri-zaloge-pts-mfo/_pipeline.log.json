@@ -1,0 +1,49 @@
+{
+  "slug": "bankrotstvo-pri-zaloge-pts-mfo",
+  "category": "fiz",
+  "started_at": "2026-09-09T15:26:16",
+  "finished_at": "2026-09-09T15:26:17",
+  "total_duration_sec": 1.0,
+  "current_iteration": 1,
+  "events": [
+    {
+      "ts": "2026-09-09T15:26:16",
+      "agent": "scheduler",
+      "event": "slot_started",
+      "iteration": 1,
+      "today_count": 1,
+      "limit": 5,
+      "write_article_duration_sec": 2284.6
+    },
+    {
+      "ts": "2026-09-09T15:26:17",
+      "agent": "scheduler",
+      "event": "slot_finished",
+      "status": "failed",
+      "iteration": 1
+    },
+    {
+      "ts": "2026-09-10T00:49:01",
+      "agent": "scheduler",
+      "event": "slot_started",
+      "iteration": 1,
+      "category": "fiz",
+      "today_count": 0,
+      "limit": 5,
+      "write_article_duration_sec": 1494.2
+    },
+    {
+      "ts": "2026-09-10T00:49:02",
+      "agent": "quality_gate",
+      "event": "passed",
+      "iteration": 1,
+      "blockers": [],
+      "warnings": [
+        "length_soft_passed: 8091 > 6500 но ≤ 8500 и iteration=2 — пропускаем (приоритет spam/uniqueness/ai)",
+        "spam_soft_passed: ratio-флаги мягкие при iter=2, targeted_tokens чистые → пропускаем (spam ≈48-52% по прогнозу)"
+      ],
+      "recommendations": []
+    }
+  ],
+  "final_status": "failed"
+}
