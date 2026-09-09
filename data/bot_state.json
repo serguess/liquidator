@@ -12463,15 +12463,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 2721,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-09-08T00:53:39",
-      "last_action_at": "2026-09-08T00:53:39",
+      "last_action_at": "2026-09-08T10:00:25",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-09-08T00:53:39"
+      "pending_batch": false,
+      "pending_batch_at": "2026-09-08T00:53:39",
+      "batch_sent_at": "2026-09-08T10:00:25",
+      "batch_fail_count": 0
     },
     "bankrotstvo-sportivnogo-kluba": {
       "category": "yur",
@@ -12481,19 +12483,75 @@
       "versions": [
         "2.0"
       ],
+      "tg_message_id": 2723,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-09-08T05:53:25",
+      "last_action_at": "2026-09-08T10:00:27",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-09-08T05:53:25",
+      "batch_sent_at": "2026-09-08T10:00:27",
+      "batch_fail_count": 0
+    },
+    "stipendiya-vzyskanie-pri-bankrotstve-fizlica": {
+      "category": "fiz",
+      "title": "Стипендия при банкротстве физлица: может ли быть удержана",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
       "tg_message_id": null,
       "tg_chat_id": null,
-      "first_seen_at": "2026-09-08T05:53:25",
-      "last_action_at": "2026-09-08T05:53:25",
+      "first_seen_at": "2026-09-08T15:13:32",
+      "last_action_at": "2026-09-08T15:13:32",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
       "pending_batch": true,
-      "pending_batch_at": "2026-09-08T05:53:25"
+      "pending_batch_at": "2026-09-08T15:13:32"
+    },
+    "bankrotstvo-mediakompanii-smi": {
+      "category": "yur",
+      "title": "Банкротство медиакомпании: судьба лицензии и прав",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-09-08T20:17:35",
+      "last_action_at": "2026-09-08T20:17:35",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-09-08T20:17:35"
+    },
+    "subrogaciya-strahovoy-kompanii-k-vinovniku-dtp": {
+      "category": "vzysk",
+      "title": "Суброгация при ДТП: права и защита виновника",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-09-09T00:58:39",
+      "last_action_at": "2026-09-09T00:58:39",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-09-09T00:58:39"
     }
   },
   "pending_actions": [],
-  "last_batch_date": "2026-09-07",
-  "last_batch_count": 0,
-  "last_batch_at": "2026-09-07T10:00:24"
+  "last_batch_date": "2026-09-08",
+  "last_batch_count": 2,
+  "last_batch_at": "2026-09-08T10:00:27"
 }
