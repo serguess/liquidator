@@ -1,0 +1,111 @@
+{
+  "slug": "neskolko-zalogoderzhateley-bankrotstvo",
+  "category": "yur",
+  "title": "Приоритет залогодержателей при банкротстве: очередность",
+  "description": "Как распределяются требования при нескольких залогодержателях, очередность выплат, права первого залогодержателя и последующих при банкротстве компании.",
+  "h1": "Несколько залогодержателей при банкротстве юридического лица: приоритеты и права",
+  "lead": "Разбираем, как работает старшинство обременений при конкуренции нескольких займодавцев на один актив, как делится выручка от торгов и что нужно сделать, чтобы не потерять приоритет при банкротстве должника.",
+  "topic_action": "анализ прав залогодержателей при банкротстве",
+  "breadcrumb_current": "Несколько залогодержателей при банкротстве",
+  "og_image": "/assets/articles/neskolko-zalogoderzhateley-bankrotstvo.jpg",
+  "main_keyword": "залогодержатели при банкротстве приоритет",
+  "secondary_keywords": [
+    "несколько залогодержателей банкротство",
+    "приоритет залогодержателей",
+    "первый залогодержатель при банкротстве",
+    "очередность выплат залогодержателям",
+    "залог при банкротстве юридического лица",
+    "права залогодержателя в конкурсе",
+    "конкурсная масса залогодержатели",
+    "очередность кредиторов залоговые требования"
+  ],
+  "internal_links": [
+    "/articles/yur/bankrotstvo-ooo-poshagovo-2026",
+    "/articles/yur/kak-osporit-dejstviya-arbitrazhnogo-upravlyayuschego"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/",
+    "https://www.consultant.ru/document/cons_doc_LAW_5142/"
+  ],
+  "faq": [
+    {
+      "question": "Что происходит с требованием второго займодавца, если выручки не хватило даже на первого?",
+      "answer": "Из стоимости обременённого объекта - ничего. Неудовлетворённая часть переходит в общий конкурс как требование третьей ступени, наравне с поставщиками и подрядчиками должника."
+    },
+    {
+      "question": "Можно ли изменить очерёдность после введения конкурсного производства?",
+      "answer": "Нет. Приоритет фиксируется на дату регистрации обременения и после возбуждения дела о несостоятельности не пересматривается ни соглашением сторон, ни решением собрания."
+    },
+    {
+      "question": "Нужно ли подавать заявление, если ипотека уже в ЕГРН?",
+      "answer": "Да, обязательно. Запись в ЕГРН подтверждает само право, но не заменяет включение в реестр требований по делу о банкротстве. Без своевременной подачи документов обеспеченный займодавец рискует остаться без выручки."
+    },
+    {
+      "question": "Отличается ли приоритет по ипотеке на здание от обременения оборудования?",
+      "answer": "Механика приоритета одинакова - работает старшинство по дате регистрации. Разница только в базе: недвижимость - ЕГРН, движимость - нотариальный реестр уведомлений. Принцип «первый по регистрации - первый по выплате» общий."
+    },
+    {
+      "question": "Вправе ли обеспеченный займодавец сам продать заложенный объект при банкротстве должника?",
+      "answer": "Нет. Продажа идёт только через торги, которые организует конкурсный управляющий. Самостоятельная реализация вне процедуры недопустима, за исключением случаев письменного соглашения с управляющим."
+    },
+    {
+      "question": "Получат ли обеспеченные займодавцы деньги раньше налоговой службы?",
+      "answer": "Да, при распределении выручки от продажи предмета обеспечения. Санкции и пени ФНС стоят ниже в очереди. Исключение - обязательные удержания, связанные напрямую со сделкой."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все факты сверены с research.json. legislation_status: active, last_verified: 2026-09-10 для всех ключевых утверждений.",
+    "Старшинство по дате регистрации (ст. 342 ГК, f3) - контекст корректен, привязан к нескольким обременениям на одно имущество.",
+    "Ст. 138 127-ФЗ (преимущество перед другими кредиторами, f2) - контекст корректен.",
+    "Ст. 138 п. 2 127-ФЗ (недостаточность выручки для младших, f5) - контекст корректен, формулировка безопасная.",
+    "Нормы 86, 105 127-ФЗ (обязательная подача в реестр, f8) - контекст корректен.",
+    "Нормы 128-132 127-ФЗ (реализация через торги конкурсным управляющим, f9) - контекст корректен.",
+    "Ст. 22 ФЗ-14 (залог доли в ООО через нотариуса, f11) - контекст корректен.",
+    "Нормы 334-392 ГК (требования к оформлению залога, f13) - контекст корректен.",
+    "Налоговые санкции и пени без приоритета перед займодавцами (f12) - контекст корректен, оговорка об удержаниях по сделке сохранена.",
+    "Запрещённые утверждения из research.forbidden_claims в тексте отсутствуют: самостоятельная реализация вне процедуры прямо запрещена в тексте; равенство долей и гарантии для младших не утверждаются."
+  ],
+  "keyword_density_main": 0.016,
+  "main_keyword_exact_count": 2,
+  "text_chars": 9223,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.092,
+  "local_spam_ngram3_repeat": 0.014,
+  "local_lexical_diversity": 0.559,
+  "local_ai_markers_density": 0.18,
+  "local_ai_markers_critical": 0,
+  "local_ai_markers_total": 2,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 3,
+  "local_first_person_singular_hits": 0,
+  "length_status": "too_long",
+  "length_kind": "default",
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1789008363/articles/neskolko-zalogoderzhateley-bankrotstvo-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1789008363/articles/neskolko-zalogoderzhateley-bankrotstvo-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Close-up architectural photograph of marble staircase treads, stone arches, and tall windows of a courthouse building. Low-angle camera perspective looking up the staircase, emphasizing ascent and hierarchy. Lighting: cool morning daylight illuminating marble veining, cast-iron balustrade with oxidized brass catching warm highlights. Foreground: minimal arrangement on marble steps — a single brass car key on leather keyring positioned left-center, a sealed white envelope right-center, a closed dark leather portfolio leaning against an arch base. Materials: weathered limestone, polished marble, oxidized brass railings. Mood: formal procedural passage, weight of legal precedent in priority ranking and asset allocation. Three-quarter angle emphasizing architectural authority.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-09-10T02:46:04Z",
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 58,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность заметно выше 50% (~58%)",
+    "длина значительно больше лимита 6500 (9 223 знаков)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "length_too_long: 9223 > 6500 (kind=default)",
+    "broken_internal_links: 1 ссылок без соответствия в published_index (/articles/yur/kak-osporit-dejstviya-arbitrazhnogo-upravlyayuschego: slug 'kak-osporit-dejstviya-arbitrazhnogo-upravlyayuschego' не найден в категории 'yur' (есть: нигде))"
+  ],
+  "date_published": "2026-09-10",
+  "date_modified": "2026-09-10",
+  "ready_for_review": true,
+  "ready_at": "2026-09-10T02:46:09Z",
+  "publication_target": "telegram_review"
+}

@@ -6674,6 +6674,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "neskolko-zalogoderzhateley-bankrotstvo",
+      "category": "yur",
+      "title": "Приоритет залогодержателей при банкротстве: очередность",
+      "added_at": "2026-09-10T05:46:09.415615",
+      "char_count": 9223,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1789008363/articles/neskolko-zalogoderzhateley-bankrotstvo-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
