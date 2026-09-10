@@ -12612,7 +12612,7 @@
     "nbki-samozapret-avgust-665-tysyach-dinamika": {
       "category": "news",
       "title": "Самозапрет на кредит: 665 тыс. граждан в августе",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -12620,14 +12620,16 @@
       "tg_message_id": 2745,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-09-10T08:38:11",
-      "last_action_at": "2026-09-10T10:00:13",
+      "last_action_at": "2026-09-10T23:57:51",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/news/nbki-samozapret-avgust-665-tysyach-dinamika",
       "pending_batch": false,
       "pending_batch_at": "2026-09-10T08:38:11",
       "batch_sent_at": "2026-09-10T10:00:13",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-09-10T23:57:51",
+      "articles_path": "articles/news/nbki-samozapret-avgust-665-tysyach-dinamika.html"
     },
     "bankrotstvo-ispolnitelnaya-nadpis-notarius": {
       "category": "fiz",
