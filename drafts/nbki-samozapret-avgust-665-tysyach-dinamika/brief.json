@@ -1,0 +1,43 @@
+{
+  "slug": "nbki-samozapret-avgust-665-tysyach-dinamika",
+  "category": "news",
+  "h1": "Самозапрет на кредит: 665 тысяч граждан использовали функцию по данным НБКИ",
+  "title": "Самозапрет на кредит: 665 тыс. граждан в августе",
+  "description": "Свежие данные НБКИ: 665 тысяч граждан воспользовались самозапретом на новый кредит в августе. Что это такое и как работает функция.",
+  "main_keyword": "самозапрет на кредит",
+  "frequency_estimate": null,
+  "frequency_main": null,
+  "frequency_secondary": null,
+  "frequency_total": null,
+  "frequency_checked_at": null,
+  "frequency_region": 225,
+  "secondary_keywords": [
+    "самозапрет НБКИ",
+    "как использовать самозапрет на кредит",
+    "статистика кредитов НБКИ",
+    "защита от кредитов",
+    "саморегуляция кредитных продуктов",
+    "НБКИ функции",
+    "самозащита должника",
+    "динамика кредитования в августе"
+  ],
+  "lsi": [
+    "бюро кредитных историй",
+    "микрокредиты",
+    "переодолженность",
+    "кредитный рейтинг",
+    "запрет на кредит",
+    "финансовая защита",
+    "долговая нагрузка",
+    "новые кредиты",
+    "инструменты защиты должника"
+  ],
+  "intent": "informational",
+  "funnel_stage": "cold",
+  "article_type": "B",
+  "offer": "proverka-spisaniya",
+  "cannibalization_check": "ok",
+  "event_date": "2026-09-07",
+  "news_zone": "finance",
+  "primary_source": "https://nbki.ru/company/news/"
+}
