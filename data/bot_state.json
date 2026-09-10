@@ -12564,6 +12564,60 @@
       "batch_fail_count": 0,
       "published_at": "2026-09-09T17:24:51",
       "articles_path": "articles/vzysk/subrogaciya-strahovoy-kompanii-k-vinovniku-dtp.html"
+    },
+    "bankrotstvo-pri-zaloge-pts-mfo": {
+      "category": "fiz",
+      "title": "Банкротство при залоге ПТС в МФО: что будет с авто",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-09-10T00:49:18",
+      "last_action_at": "2026-09-10T00:49:18",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-09-10T00:49:18"
+    },
+    "neskolko-zalogoderzhateley-bankrotstvo": {
+      "category": "yur",
+      "title": "Приоритет залогодержателей при банкротстве: очередность",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-09-10T05:47:09",
+      "last_action_at": "2026-09-10T05:47:09",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-09-10T05:47:09"
+    },
+    "nbki-samozapret-avgust-665-tysyach-dinamika": {
+      "category": "news",
+      "title": "Самозапрет на кредит: 665 тыс. граждан в августе",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-09-10T08:38:11",
+      "last_action_at": "2026-09-10T08:38:11",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-09-10T08:38:11"
     }
   },
   "pending_actions": [],
