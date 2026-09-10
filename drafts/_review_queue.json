@@ -6713,6 +6713,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "bankrotstvo-brokera-depozitariya-prava-klientov",
+      "category": "yur",
+      "title": "Права инвесторов при банкротстве брокера и депозитария",
+      "added_at": "2026-09-10T20:09:30.728476",
+      "char_count": 8730,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1789060166/articles/bankrotstvo-brokera-depozitariya-prava-klientov-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
