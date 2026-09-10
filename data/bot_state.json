@@ -12568,20 +12568,24 @@
     "bankrotstvo-pri-zaloge-pts-mfo": {
       "category": "fiz",
       "title": "Банкротство при залоге ПТС в МФО: что будет с авто",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 2741,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-09-10T00:49:18",
-      "last_action_at": "2026-09-10T00:49:18",
+      "last_action_at": "2026-09-10T23:57:41",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-09-10T00:49:18"
+      "published_url": "https://pravo.shop/articles/fiz/bankrotstvo-pri-zaloge-pts-mfo",
+      "pending_batch": false,
+      "pending_batch_at": "2026-09-10T00:49:18",
+      "batch_sent_at": "2026-09-10T10:00:09",
+      "batch_fail_count": 0,
+      "published_at": "2026-09-10T23:57:41",
+      "articles_path": "articles/fiz/bankrotstvo-pri-zaloge-pts-mfo.html"
     },
     "neskolko-zalogoderzhateley-bankrotstvo": {
       "category": "yur",
@@ -12591,15 +12595,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 2743,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-09-10T05:47:09",
-      "last_action_at": "2026-09-10T05:47:09",
+      "last_action_at": "2026-09-10T10:00:11",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-09-10T05:47:09"
+      "pending_batch": false,
+      "pending_batch_at": "2026-09-10T05:47:09",
+      "batch_sent_at": "2026-09-10T10:00:11",
+      "batch_fail_count": 0
     },
     "nbki-samozapret-avgust-665-tysyach-dinamika": {
       "category": "news",
@@ -12609,19 +12615,57 @@
       "versions": [
         "2.0"
       ],
+      "tg_message_id": 2745,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-09-10T08:38:11",
+      "last_action_at": "2026-09-10T10:00:13",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-09-10T08:38:11",
+      "batch_sent_at": "2026-09-10T10:00:13",
+      "batch_fail_count": 0
+    },
+    "bankrotstvo-ispolnitelnaya-nadpis-notarius": {
+      "category": "fiz",
+      "title": "Исполнительная надпись нотариуса и банкротство",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
       "tg_message_id": null,
       "tg_chat_id": null,
-      "first_seen_at": "2026-09-10T08:38:11",
-      "last_action_at": "2026-09-10T08:38:11",
+      "first_seen_at": "2026-09-10T15:06:16",
+      "last_action_at": "2026-09-10T15:06:16",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
       "pending_batch": true,
-      "pending_batch_at": "2026-09-10T08:38:11"
+      "pending_batch_at": "2026-09-10T15:06:16"
+    },
+    "bankrotstvo-brokera-depozitariya-prava-klientov": {
+      "category": "yur",
+      "title": "Права инвесторов при банкротстве брокера и депозитария",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-09-10T20:10:19",
+      "last_action_at": "2026-09-10T20:10:19",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-09-10T20:10:19"
     }
   },
   "pending_actions": [],
-  "last_batch_date": "2026-09-09",
+  "last_batch_date": "2026-09-10",
   "last_batch_count": 3,
-  "last_batch_at": "2026-09-09T10:00:09"
+  "last_batch_at": "2026-09-10T10:00:13"
 }

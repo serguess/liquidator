@@ -1,6 +1,19 @@
 {
-  "generated": "2026-09-09",
+  "generated": "2026-09-10",
   "articles": [
+    {
+      "slug": "bankrotstvo-pri-zaloge-pts-mfo",
+      "cat": "fiz",
+      "catLabel": "Банкротство физических лиц",
+      "title": "Банкротство при залоге ПТС в МФО: что будет с авто",
+      "desc": "Рассказываем, что произойдет с автомобилем в залоге у МФО при банкротстве физлица, может ли суд отобрать машину и как защитить её.",
+      "date": "10 сентября 2026",
+      "dateIso": "2026-09-10",
+      "read": "5 мин.",
+      "tone": "b",
+      "img": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1788990537/articles/bankrotstvo-pri-zaloge-pts-mfo-cover.jpg",
+      "url": "articles/fiz/bankrotstvo-pri-zaloge-pts-mfo"
+    },
     {
       "slug": "subrogaciya-strahovoy-kompanii-k-vinovniku-dtp",
       "cat": "vzysk",
