@@ -12666,6 +12666,24 @@
       "published_url": null,
       "pending_batch": true,
       "pending_batch_at": "2026-09-10T20:10:19"
+    },
+    "vzyskanie-nevyplachennyh-dividendov-s-ooo": {
+      "category": "vzysk",
+      "title": "Взыскание дивидендов с ООО: как получить через суд",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-09-11T05:43:14",
+      "last_action_at": "2026-09-11T05:43:14",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-09-11T05:43:14"
     }
   },
   "pending_actions": [],

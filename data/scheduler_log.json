@@ -42242,5 +42242,98 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-09-11T08:30:00",
+    "category": "news",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 19,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "resume",
+    "resume_slug": "socialnyj-kontrakt-dolg-bankrotstvo-kassaciya-spisanie",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "length_soft_passed: 7347 > 5500 но ≤ 7500 и iteration=2 — пропускаем (приоритет spam/uniqueness/ai)"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "finalize_safety_net": {
+      "ran": true,
+      "rc": 0
+    },
+    "status": "ok",
+    "slug": "socialnyj-kontrakt-dolg-bankrotstvo-kassaciya-spisanie",
+    "duration_sec": 436.5,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "\n6-seo-editor        sonnet            6       4    86488         0     86498\n7-publisher         haiku            20      12    75796         0     75828\n------------------------------------------------------------------------------------------\nИТОГО                                26      16   162284         0    162326\nBillable-токенов на статью: ~162K (cache_read 0K не считается в лимит подписки).\nАртефакты: drafts/socialnyj-kontrakt-dolg-bankrotstvo-kassaciya-spisanie/  | quality_gate exit=0",
+    "stderr_tail": "",
+    "tokens_by_model": {},
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7347
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
+  },
+  {
+    "timestamp": "2026-09-11T08:37:19",
+    "category": "news",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 20,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "news-180",
+    "topic_slug": "razdel-imushchestva-pered-bankrotstvom-kassaciya-zapret",
+    "status": "failed",
+    "slug": "razdel-imushchestva-pered-bankrotstvom-kassaciya-zapret",
+    "duration_sec": 39.7,
+    "returncode": 1,
+    "rescued_after_failure": false,
+    "stdout_tail": "=== 1-semantics (claude haiku) ===\n   ok: 1613 симв., usage in=20 out=10 cache_w=27484 cache_r=39548 billable=27514 ток, 19.4с\n=== 2-legal-research (claude haiku) ===",
+    "stderr_tail": "[ERR] rate_limit: essage\"}],\"speed\":\"standard\"},\"modelUsage\":{\"claude-haiku-4-5-20251001\":{\"inputTokens\":1029,\"outputTokens\":513,\"cacheReadInputTokens\":19774,\"cacheCreationInputTokens\":29389,\"webSearchRequests\":0,\"costUSD\":0.042307649999999995,\"contextWindow\":200000,\"maxOutputTokens\":32000}},\"permission_denials\":[],\"terminal_reason\":\"completed\",\"fast_mode_state\":\"off\",\"uuid\":\"8ec6b145-3214-4fef-9702-5362e535affb\"}\n\n",
+    "tokens_by_model": {},
+    "metrics": null
   }
 ]
