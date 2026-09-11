@@ -42335,5 +42335,75 @@
     "stderr_tail": "[ERR] rate_limit: essage\"}],\"speed\":\"standard\"},\"modelUsage\":{\"claude-haiku-4-5-20251001\":{\"inputTokens\":1029,\"outputTokens\":513,\"cacheReadInputTokens\":19774,\"cacheCreationInputTokens\":29389,\"webSearchRequests\":0,\"costUSD\":0.042307649999999995,\"contextWindow\":200000,\"maxOutputTokens\":32000}},\"permission_denials\":[],\"terminal_reason\":\"completed\",\"fast_mode_state\":\"off\",\"uuid\":\"8ec6b145-3214-4fef-9702-5362e535affb\"}\n\n",
     "tokens_by_model": {},
     "metrics": null
+  },
+  {
+    "timestamp": "2026-09-11T08:38:00",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets 10:10am (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-09-11T08:38:02",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets 10:10am (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-09-11T08:38:04",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets 10:10am (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-09-11T08:38:06",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets 10:10am (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-09-11T08:38:08",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets 10:10am (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-09-11T10:00:21",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets 10:10am (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-09-11T14:48:14",
+    "category": "fiz",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 21,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "fiz-208",
+    "topic_slug": "bankrotstvo-fizlica-dolg-tsj-uk",
+    "status": "failed",
+    "slug": "bankrotstvo-fizlica-dolg-tsj-uk",
+    "duration_sec": 2447.5,
+    "returncode": 1,
+    "rescued_after_failure": false,
+    "stdout_tail": "esis_similarity': 0.201, 'cta_overlap': 0.0}\n   [watchdog] hard timeout >480s на sonnet — попытка 1/3\n   [watchdog] hard timeout >480s на sonnet — попытка 2/3\n   [watchdog] hard timeout >480s на sonnet — попытка 3/3\n   [warn] 6-seo-editor StepFailed на sonnet: claude: все 3 попыток исчерпаны. Последняя: hard timeout >480s на sonnet\n   [retry] 6-seo-editor: пробую fallback haiku\n   ok: 14883 симв., billable=68652 ток (model=haiku)\n   [pick_scene_template] exit=0\n=== 7-publisher (claude haiku) ===",
+    "stderr_tail": "[ERR] rate_limit: put_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard\",\"cache_creation\":{\"ephemeral_1h_input_tokens\":0,\"ephemeral_5m_input_tokens\":0},\"inference_geo\":\"\",\"iterations\":[],\"speed\":\"standard\"},\"modelUsage\":{},\"permission_denials\":[],\"terminal_reason\":\"completed\",\"fast_mode_state\":\"off\",\"uuid\":\"03dc4298-e49d-4805-95e3-51c9906685e5\"}\n\n",
+    "tokens_by_model": {},
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 8432
+    }
   }
 ]
