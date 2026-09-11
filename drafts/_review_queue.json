@@ -6726,6 +6726,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "vzyskanie-nevyplachennyh-dividendov-s-ooo",
+      "category": "vzysk",
+      "title": "Взыскание дивидендов с ООО: как получить через суд",
+      "added_at": "2026-09-11T05:42:49.207155",
+      "char_count": 7903,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1789094563/articles/vzyskanie-nevyplachennyh-dividendov-s-ooo-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
