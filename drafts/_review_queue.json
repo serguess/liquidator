@@ -6739,6 +6739,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "socialnyj-kontrakt-dolg-bankrotstvo-kassaciya-spisanie",
+      "category": "news",
+      "title": "Долг социального контракта при банкротстве: кассация",
+      "added_at": "2026-09-11T08:37:17.097105",
+      "char_count": 7347,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1789105033/articles/socialnyj-kontrakt-dolg-bankrotstvo-kassaciya-spisanie-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
