@@ -6752,6 +6752,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "bankrotstvo-fizlica-dolg-tsj-uk",
+      "category": "fiz",
+      "title": "Банкротство физлица при долге ТСЖ или УК",
+      "added_at": "2026-09-12T00:51:28.283857",
+      "char_count": 9278,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1789163482/articles/bankrotstvo-fizlica-dolg-tsj-uk-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
