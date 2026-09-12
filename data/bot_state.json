@@ -12656,7 +12656,7 @@
     "bankrotstvo-brokera-depozitariya-prava-klientov": {
       "category": "yur",
       "title": "Права инвесторов при банкротстве брокера и депозитария",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -12664,14 +12664,16 @@
       "tg_message_id": 2755,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-09-10T20:10:19",
-      "last_action_at": "2026-09-11T10:00:16",
+      "last_action_at": "2026-09-12T17:24:03",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/yur/bankrotstvo-brokera-depozitariya-prava-klientov",
       "pending_batch": false,
       "pending_batch_at": "2026-09-10T20:10:19",
       "batch_sent_at": "2026-09-11T10:00:16",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-09-12T17:24:03",
+      "articles_path": "articles/yur/bankrotstvo-brokera-depozitariya-prava-klientov.html"
     },
     "vzyskanie-nevyplachennyh-dividendov-s-ooo": {
       "category": "vzysk",
