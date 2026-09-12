@@ -1,6 +1,19 @@
 {
-  "generated": "2026-09-10",
+  "generated": "2026-09-12",
   "articles": [
+    {
+      "slug": "bankrotstvo-ispolnitelnaya-nadpis-notarius",
+      "cat": "fiz",
+      "catLabel": "Банкротство физических лиц",
+      "title": "Исполнительная надпись нотариуса и банкротство",
+      "desc": "Как исполнительная надпись нотариуса влияет на процедуру банкротства физлица: взыскание долгов, прерывание сроков, защита должника в суде.",
+      "date": "12 сентября 2026",
+      "dateIso": "2026-09-12",
+      "read": "5 мин.",
+      "tone": "b",
+      "img": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1789041938/articles/bankrotstvo-ispolnitelnaya-nadpis-notarius-cover.jpg",
+      "url": "articles/fiz/bankrotstvo-ispolnitelnaya-nadpis-notarius"
+    },
     {
       "slug": "nbki-samozapret-avgust-665-tysyach-dinamika",
       "cat": "news",
