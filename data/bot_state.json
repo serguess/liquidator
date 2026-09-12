@@ -12719,15 +12719,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 2761,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-09-12T00:52:28",
-      "last_action_at": "2026-09-12T00:52:28",
+      "last_action_at": "2026-09-12T10:00:07",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-09-12T00:52:28"
+      "pending_batch": false,
+      "pending_batch_at": "2026-09-12T00:52:28",
+      "batch_sent_at": "2026-09-12T10:00:07",
+      "batch_fail_count": 0
     },
     "bankrotstvo-po-trebovaniyu-rabotnikov-zarplata": {
       "category": "yur",
@@ -12737,19 +12739,21 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 2763,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-09-12T05:52:07",
-      "last_action_at": "2026-09-12T05:52:07",
+      "last_action_at": "2026-09-12T10:00:09",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-09-12T05:52:07"
+      "pending_batch": false,
+      "pending_batch_at": "2026-09-12T05:52:07",
+      "batch_sent_at": "2026-09-12T10:00:09",
+      "batch_fail_count": 0
     }
   },
   "pending_actions": [],
-  "last_batch_date": "2026-09-11",
-  "last_batch_count": 4,
-  "last_batch_at": "2026-09-11T10:00:20"
+  "last_batch_date": "2026-09-12",
+  "last_batch_count": 2,
+  "last_batch_at": "2026-09-12T10:00:09"
 }

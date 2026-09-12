@@ -42566,5 +42566,87 @@
     "stderr_tail": "[ERR] rate_limit: ns\":28626},\"type\":\"message\"}],\"speed\":\"standard\"},\"modelUsage\":{\"claude-sonnet-4-6\":{\"inputTokens\":3,\"outputTokens\":32000,\"cacheReadInputTokens\":14139,\"cacheCreationInputTokens\":28626,\"webSearchRequests\":0,\"costUSD\":0.5915982,\"contextWindow\":200000,\"maxOutputTokens\":32000}},\"permission_denials\":[],\"terminal_reason\":\"completed\",\"fast_mode_state\":\"off\",\"uuid\":\"8672e2b8-e350-48c2-8977-6e038dafaa5d\"}\n\n",
     "tokens_by_model": {},
     "metrics": null
+  },
+  {
+    "timestamp": "2026-09-12T08:45:52",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets 10:20am (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-09-12T08:45:54",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets 10:20am (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-09-12T08:45:56",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets 10:20am (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-09-12T08:45:58",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets 10:20am (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-09-12T08:46:00",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets 10:20am (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-09-12T08:46:03",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets 10:20am (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-09-12T08:46:05",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets 10:20am (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-09-12T10:00:21",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets 10:20am (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-09-12T14:48:03",
+    "category": "fiz",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 25,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "fiz-210",
+    "topic_slug": "bankrotstvo-grazhdanskij-brak-sovmestnyj-dolg",
+    "auto_skipped": [
+      {
+        "slug": "kak-uznat-chto-podali-na-bankrotstvo",
+        "reason": "cannibalization:preflight:bankrotstvo-po-zayavleniyu-kreditora-fizlica",
+        "duration_sec": 0
+      }
+    ],
+    "status": "failed",
+    "slug": "bankrotstvo-grazhdanskij-brak-sovmestnyj-dolg",
+    "duration_sec": 535.7,
+    "returncode": 1,
+    "rescued_after_failure": false,
+    "stdout_tail": "=== 1-semantics (claude haiku) ===\n   ok: 1661 симв., usage in=20 out=16 cache_w=67060 cache_r=0 billable=67096 ток, 19.6с\n=== 2-legal-research (claude haiku) ===\n   ok: 23428 симв., usage in=82 out=31 cache_w=194766 cache_r=337386 billable=194879 ток, 107.1с\n   ok: 19057 симв., billable=102212 ток (model=sonnet)\n   [outline_validate] exit=0\n=== 4-writer (claude opus) ===",
+    "stderr_tail": "[ERR] rate_limit: put_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard\",\"cache_creation\":{\"ephemeral_1h_input_tokens\":0,\"ephemeral_5m_input_tokens\":0},\"inference_geo\":\"\",\"iterations\":[],\"speed\":\"standard\"},\"modelUsage\":{},\"permission_denials\":[],\"terminal_reason\":\"completed\",\"fast_mode_state\":\"off\",\"uuid\":\"77188cd3-7d16-42ad-83d3-d4b50e334cce\"}\n\n",
+    "tokens_by_model": {},
+    "metrics": null
   }
 ]
