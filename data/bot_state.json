@@ -12678,7 +12678,7 @@
     "vzyskanie-nevyplachennyh-dividendov-s-ooo": {
       "category": "vzysk",
       "title": "Взыскание дивидендов с ООО: как получить через суд",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -12686,14 +12686,16 @@
       "tg_message_id": 2757,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-09-11T05:43:14",
-      "last_action_at": "2026-09-11T10:00:18",
+      "last_action_at": "2026-09-12T17:24:08",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/vzysk/vzyskanie-nevyplachennyh-dividendov-s-ooo",
       "pending_batch": false,
       "pending_batch_at": "2026-09-11T05:43:14",
       "batch_sent_at": "2026-09-11T10:00:18",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-09-12T17:24:08",
+      "articles_path": "articles/vzysk/vzyskanie-nevyplachennyh-dividendov-s-ooo.html"
     },
     "socialnyj-kontrakt-dolg-bankrotstvo-kassaciya-spisanie": {
       "category": "news",
