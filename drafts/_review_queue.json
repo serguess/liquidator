@@ -6765,6 +6765,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "bankrotstvo-po-trebovaniyu-rabotnikov-zarplata",
+      "category": "yur",
+      "title": "Банкротство работодателя по требованию работников за зарплату",
+      "added_at": "2026-09-12T05:51:31.702627",
+      "char_count": 8571,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1789181489/articles/bankrotstvo-po-trebovaniyu-rabotnikov-zarplata-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

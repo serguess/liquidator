@@ -1,0 +1,105 @@
+{
+  "slug": "bankrotstvo-po-trebovaniyu-rabotnikov-zarplata",
+  "category": "yur",
+  "title": "Банкротство работодателя по требованию работников за зарплату",
+  "description": "Как работникам подать иск о банкротстве работодателя по задолженности по зарплате. Условия, документы, сроки, действия арбитражного управляющего и взыскание задолженности.",
+  "h1": "Банкротство работодателя по заявлению работников: пошаговая инструкция",
+  "lead": "По нашему опыту, к этому шагу приходят те, у кого просрочка тянется от 4 месяцев и попытки договориться исчерпаны.",
+  "topic_action": "взыскание задолженности по зарплате через банкротство работодателя",
+  "breadcrumb_current": "Банкротство по требованию работников",
+  "og_image": "/assets/articles/bankrotstvo-po-trebovaniyu-rabotnikov-zarplata.jpg",
+  "main_keyword": "банкротство работодателя по требованию работников",
+  "secondary_keywords": [
+    "как подать на банкротство работодателя работнику",
+    "банкротство компании по требованию работников за зарплату",
+    "задолженность по заработной плате и банкротство",
+    "работник истец в банкротстве работодателя",
+    "банкротство при невыплате зарплаты",
+    "арбитражный суд банкротство работодателя",
+    "задолженность перед работниками"
+  ],
+  "internal_links": [],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/",
+    "https://www.consultant.ru/document/cons_doc_LAW_34683/",
+    "https://www.consultant.ru/document/cons_doc_LAW_146436/",
+    "https://bankrot.fedresurs.ru/"
+  ],
+  "faq": [
+    {
+      "question": "Можно ли подать, если мой личный долг меньше двух миллионов?",
+      "answer": "Да, если суммарные обязательства фирмы перед всеми контрагентами превышают эту планку. Личная сумма одного заявителя значения не имеет - учитывается совокупность. Обычно к обращению присоединяются другие пострадавшие или прикладывается перечень известных кредиторов."
+    },
+    {
+      "question": "Что входит в притязание при несостоятельности компании?",
+      "answer": "Невыплаченная зарплата за весь период просрочки, компенсация за неиспользованный отпуск, выходное пособие при увольнении. Штрафные санкции, моральный вред и убытки за нарушение условий трудового договора туда не включаются - взыскиваются отдельным иском."
+    },
+    {
+      "question": "Куда подавать заявление - в ГИТ или арбитраж?",
+      "answer": "Только в арбитраж по месту регистрации организации. ГИТ рассматривает трудовые нарушения и штрафует, но не признаёт компании банкротами. Районный суд ведёт индивидуальные трудовые споры о взыскании зарплаты - это отдельный трек."
+    },
+    {
+      "question": "Сколько времени займёт всё производство?",
+      "answer": "От подачи обращения до первого заседания - один-три месяца. От признания банкротом до фактических выплат персоналу - от нескольких месяцев до года и более. Конкретные сроки зависят от объёма активов и того, оспаривает ли должник действия управляющего."
+    },
+    {
+      "question": "Нужен ли исполнительный лист перед обращением в арбитраж?",
+      "answer": "Не обязательно. Достаточно доказать признаки неплатёжеспособности - просрочку более 90 дней и совокупный долг свыше двухмиллионного порога. Ранее выигранные трудовые споры усиливают позицию, но формальным условием не являются."
+    },
+    {
+      "question": "Может ли профсоюз подать единое заявление от нескольких сотрудников?",
+      "answer": "Да, по 15-й норме трудового кодекса профсоюз представляет интересы группы и вправе выступить единым заявителем. Это снижает расходы каждого участника на подготовку бумаг и сопровождение дела."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все ключевые факты проверены против research.json",
+    "Порог 2 000 000 рублей - актуален (ст. 6 п. 1 127-ФЗ, действует с 8 сентября 2024 года)",
+    "Работник как кредитор - верно (ст. 33 п. 1 127-ФЗ)",
+    "I очередь для требований работников - верно (ст. 64 п. 1 127-ФЗ)",
+    "Подведомственность арбитражу - верно (ст. 27 п. 1 127-ФЗ)",
+    "Состав требования работника - верно (зарплата, выходное пособие, компенсация за отпуск)",
+    "Запрещённые утверждения не нарушены"
+  ],
+  "keyword_density_main": 0.021,
+  "main_keyword_exact_count": 0,
+  "text_chars": 8571,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.081,
+  "local_spam_ngram3_repeat": 0.044,
+  "local_lexical_diversity": 0.606,
+  "local_ai_markers_density": 0.29,
+  "local_ai_markers_critical": 0,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1789181489/articles/bankrotstvo-po-trebovaniyu-rabotnikov-zarplata-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1789181489/articles/bankrotstvo-po-trebovaniyu-rabotnikov-zarplata-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Editorial photograph of a polished dark walnut conference table with minimal arrangement. On the surface: a closed leather portfolio, fountain pen aligned parallel to the portfolio's edge, water carafe with two empty glasses, single red leather chair-back at the far end. Camera: symmetric down-the-table or three-quarter from one corner. Background through floor-to-ceiling windows: rain, sunset, or fog over a city. Lighting: cool overcast from windows and warm pendant glow, with deep contemplative shadows. Mood: serious negotiation at impasse, unresolved employment conflict.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-09-12T02:51:30Z",
+  "length_status": "too_long",
+  "length_kind": "default",
+  "local_ai_markers_total": 3,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 3,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 55,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность выше 50% (~55%)",
+    "длина значительно больше лимита 6500 (8 571 знаков)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "length_too_long: 8571 > 6500 (kind=default)"
+  ],
+  "date_published": "2026-09-12",
+  "date_modified": "2026-09-12",
+  "ready_for_review": true,
+  "ready_at": "2026-09-12T02:51:31Z",
+  "publication_target": "telegram_review"
+}
