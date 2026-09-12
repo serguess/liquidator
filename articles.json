@@ -2,6 +2,19 @@
   "generated": "2026-09-12",
   "articles": [
     {
+      "slug": "socialnyj-kontrakt-dolg-bankrotstvo-kassaciya-spisanie",
+      "cat": "news",
+      "catLabel": "Новости",
+      "title": "Долг социального контракта при банкротстве: кассация",
+      "desc": "Кассационное решение суда о списании долга по социальному контракту при банкротстве физического лица.",
+      "date": "12 сентября 2026",
+      "dateIso": "2026-09-12",
+      "read": "5 мин.",
+      "tone": "b",
+      "img": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1789105033/articles/socialnyj-kontrakt-dolg-bankrotstvo-kassaciya-spisanie-cover.jpg",
+      "url": "articles/news/socialnyj-kontrakt-dolg-bankrotstvo-kassaciya-spisanie"
+    },
+    {
       "slug": "vzyskanie-nevyplachennyh-dividendov-s-ooo",
       "cat": "vzysk",
       "catLabel": "Взыскание задолженности",
