@@ -42470,5 +42470,101 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-09-12T05:12:01",
+    "category": "yur",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 23,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "yur-189",
+    "topic_slug": "bankrotstvo-po-trebovaniyu-rabotnikov-zarplata",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "forced_pass_at_iter2: блокеры пропущены, статья идёт в TG-очередь с metrics_warning=true. Было: 1 блокеров — length_too_long"
+      ],
+      "recommendations": [
+        "reduce_length: сократить до 5000-6000 знаков"
+      ],
+      "stderr_tail": ""
+    },
+    "finalize_safety_net": {
+      "ran": true,
+      "rc": 0
+    },
+    "status": "ok",
+    "slug": "bankrotstvo-po-trebovaniyu-rabotnikov-zarplata",
+    "duration_sec": 2369.6,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": " 25580\n6-seo-editor        haiku            20       4    65322     39548     65346\n7-publisher         haiku            20      12    36236     39548     36268\n------------------------------------------------------------------------------------------\nИТОГО                                98      48   448859    182565    449005\nBillable-токенов на статью: ~449K (cache_read 182K не считается в лимит подписки).\nАртефакты: drafts/bankrotstvo-po-trebovaniyu-rabotnikov-zarplata/  | quality_gate exit=0",
+    "stderr_tail": "",
+    "tokens_by_model": {},
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 8571
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
+  },
+  {
+    "timestamp": "2026-09-12T08:30:21",
+    "category": "news",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 24,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "news-181",
+    "topic_slug": "zhsk-kvartira-bankrotstvo-paevoj-vznos-vs-dokazatelstvo",
+    "status": "failed",
+    "slug": "zhsk-kvartira-bankrotstvo-paevoj-vznos-vs-dokazatelstvo",
+    "duration_sec": 929.3,
+    "returncode": 1,
+    "rescued_after_failure": false,
+    "stdout_tail": "ток, 19.6с\n=== 2-legal-research (claude haiku) ===\n   ok: 12147 симв., usage in=66 out=32 cache_w=168804 cache_r=197218 billable=168902 ток, 62.9с\n   ok: 12452 симв., billable=86960 ток (model=sonnet)\n   [outline_validate] exit=0\n=== 4-writer (claude opus) ===\n   ok: 7815 симв., billable=160204 ток, 149.3с\n   [writer self-fix проход 2]\n   ok: billable=39156 ток\n=== 5-uniqueness (embed_compare) ===\n   passed=True scores={'structure_overlap': 0.167, 'thesis_similarity': 0.209, 'cta_overlap': 0.18}",
+    "stderr_tail": "[ERR] rate_limit: ns\":28626},\"type\":\"message\"}],\"speed\":\"standard\"},\"modelUsage\":{\"claude-sonnet-4-6\":{\"inputTokens\":3,\"outputTokens\":32000,\"cacheReadInputTokens\":14139,\"cacheCreationInputTokens\":28626,\"webSearchRequests\":0,\"costUSD\":0.5915982,\"contextWindow\":200000,\"maxOutputTokens\":32000}},\"permission_denials\":[],\"terminal_reason\":\"completed\",\"fast_mode_state\":\"off\",\"uuid\":\"8672e2b8-e350-48c2-8977-6e038dafaa5d\"}\n\n",
+    "tokens_by_model": {},
+    "metrics": null
   }
 ]

@@ -12710,6 +12710,42 @@
       "pending_batch_at": "2026-09-11T08:38:16",
       "batch_sent_at": "2026-09-11T10:00:20",
       "batch_fail_count": 0
+    },
+    "bankrotstvo-fizlica-dolg-tsj-uk": {
+      "category": "fiz",
+      "title": "Банкротство физлица при долге ТСЖ или УК",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-09-12T00:52:28",
+      "last_action_at": "2026-09-12T00:52:28",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-09-12T00:52:28"
+    },
+    "bankrotstvo-po-trebovaniyu-rabotnikov-zarplata": {
+      "category": "yur",
+      "title": "Банкротство работодателя по требованию работников за зарплату",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-09-12T05:52:07",
+      "last_action_at": "2026-09-12T05:52:07",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-09-12T05:52:07"
     }
   },
   "pending_actions": [],
