@@ -6778,6 +6778,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "protsenty-peni-zamorazhivayutsya-pri-bankrotstve",
+      "category": "fiz",
+      "title": "Замораживаются ли проценты при банкротстве физлица",
+      "added_at": "2026-09-15T00:43:04.740626",
+      "char_count": 7418,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1789422181/articles/protsenty-peni-zamorazhivayutsya-pri-bankrotstve-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
