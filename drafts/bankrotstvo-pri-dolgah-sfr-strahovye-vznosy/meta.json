@@ -1,0 +1,109 @@
+{
+  "slug": "bankrotstvo-pri-dolgah-sfr-strahovye-vznosy",
+  "category": "yur",
+  "title": "Банкротство юрлица при долгах перед СФР: как снизить риски",
+  "description": "Долги перед СФР при банкротстве юрлица: вторая очередь реестра, риски субсидиарки и уголовки для директора, как оспорить завышенные начисления.",
+  "h1": "Банкротство юрлица при долгах перед СФР: риски директора и минимизация убытков",
+  "lead": "Разбираем, какое место занимают требования СФР в реестре, когда директор рискует личным имуществом и как выстроить переговоры до того, как дело дойдёт до арбитража.",
+  "topic_action": "проверку рисков при долгах перед СФР",
+  "breadcrumb_current": "Долги перед СФР при банкротстве юрлица",
+  "og_image": "/assets/articles/bankrotstvo-pri-dolgah-sfr-strahovye-vznosy.jpg",
+  "main_keyword": "банкротство при долгах перед СФР",
+  "secondary_keywords": [
+    "страховые взносы при банкротстве юрлица",
+    "долги перед СФР банкротство",
+    "риски директора при долгах СФР",
+    "взносы в СФР банкротство компании",
+    "взыскание страховых взносов при банкротстве",
+    "реструктуризация долгов СФР",
+    "ответственность директора за долги СФР",
+    "требования СФР в конкурсном производстве"
+  ],
+  "internal_links": [
+    "/articles/yur/bankrotstvo-po-trebovaniyu-rabotnikov-zarplata"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/"
+  ],
+  "faq": [
+    {
+      "question": "Можно ли избежать уголовной ответственности, если компания не платила взносы из-за отсутствия денег на счёте?",
+      "answer": "Само по себе отсутствие средств не исключает состава по ст. 199.1 УК. Следствие смотрит, куда шли деньги в спорный период: если компания платила поставщикам и учредителям, но не в СФР - это трактуется как умышленный выбор. Снять риск может только своевременная уплата или письменное обращение о рассрочке до достижения порога в 900 тысяч рублей."
+    },
+    {
+      "question": "Что происходит с долгом перед СФР, если активов компании не хватает для погашения второй очереди?",
+      "answer": "Непогашенный остаток не исчезает вместе с ликвидацией юрлица. Ведомство вправе предъявить его руководителю в порядке субсидиарной ответственности (ст. 95-96 ФЗ-14 об ООО). Взыскание идёт с личного имущества управленца."
+    },
+    {
+      "question": "Вправе ли конкурсный управляющий оспорить завышенные пени, начисленные ведомством?",
+      "answer": "Да, закон о несостоятельности это прямо допускает. Возражение подаётся в арбитраж, ведущий дело. Основанием могут быть неучтённые платежи, ошибки в расчёте базы, задвоение периодов."
+    },
+    {
+      "question": "Обязательно ли подавать на банкротство при наличии долгов по страховым взносам?",
+      "answer": "Само наличие недоимки - ещё не основание. Заявление становится обязательным, когда суммарные обязательства превышают активы и просрочка длится более трёх месяцев. Опоздание с подачей само по себе - основание для субсидиарки первого лица."
+    },
+    {
+      "question": "Сколько времени есть у директора, чтобы договориться со страховщиком до подачи иска?",
+      "answer": "По общей практике - около 10 дней с момента получения требования об уплате. Это добровольный срок, указанный в самой претензии. После него материалы уходят на приказ или в исковое производство."
+    },
+    {
+      "question": "Распространяется ли субсидиарная ответственность на учредителей компании, а не только на директора?",
+      "answer": "Да, к ней могут привлечь любых контролирующих лиц: учредителя с долей от 50%, фактического бенефициара, теневого управленца, члена совета директоров, участвовавшего в убыточных решениях. Формальный статус «просто учредителя» защитой не служит."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все факты сверены с research.json. legislation_status: active для всех. last_verified: 2026-09-15.",
+    "Очерёдность СФР (вторая очередь, ст. 134-135 127-ФЗ) - контекст корректен (f2).",
+    "Уголовная ответственность: порог 900 тыс. руб. за три периода, штраф до 3 млн или до 3 лет - соответствует f5 (ст. 199.1 УК).",
+    "Ставки взносов: 22% / 0,3-8,5% / 5,1% - соответствует f3 (НК РФ ст. 241-242).",
+    "Субсидиарка: ст. 95-96 ФЗ-14, ст. 3-4 ФЗ-208 - соответствует f4.",
+    "Мировое соглашение: ст. 150 127-ФЗ, только с судебным одобрением - соответствует f7. Устные договорённости без силы - корректно.",
+    "Срок добровольного погашения 10 дней - соответствует f6.",
+    "Срок уплаты до 15-го числа следующего месяца - соответствует f10 (НК РФ).",
+    "Возражение по ст. 61-62 127-ФЗ - соответствует f9. Термин «финансовый управляющий» из research.json исправлен на «конкурсный управляющий» (точный термин для банкротства юрлиц).",
+    "Ссылка на ст. 24-35 127-ФЗ убрана из текста - эти статьи регулируют требования к арбитражным управляющим, а не процедуру реструктуризации; заменено нейтральным «план реструктуризации».",
+    "Запрещённые утверждения не нарушены: требования СФР не представлены как списываемые, мировое соглашение - только с судебным одобрением.",
+    "Внутренние ссылки: проверка published_index.json недоступна в headless-режиме; quality_gate проверит при сборке."
+  ],
+  "keyword_density_main": 0.008,
+  "main_keyword_exact_count": 1,
+  "text_chars": 8201,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.09,
+  "local_spam_ngram3_repeat": 0.008,
+  "local_lexical_diversity": 0.66,
+  "local_ai_markers_density": 0.19,
+  "local_ai_markers_critical": 0,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1789440006/articles/bankrotstvo-pri-dolgah-sfr-strahovye-vznosy-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1789440006/articles/bankrotstvo-pri-dolgah-sfr-strahovye-vznosy-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Editorial photograph of a workspace adjacent to a window. Foreground: a desk with closed leather portfolio, blank-spine notebook, fountain pen, reading glasses, and white porcelain coffee cup arranged in thoughtful composition. Background through the glass: cityscape in rain, evening lights blurred, or neutral overcast skyline. Camera: three-quarter angle, eye-level. Lighting: window-driven cool daylight blended with warm interior desk lamp glow, emphasizing strategic analysis. Materials: walnut, leather, brass. Mood: focused professional deliberation regarding financial risk mitigation.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-09-15T02:40:07Z",
+  "length_status": "too_long",
+  "length_kind": "default",
+  "local_ai_markers_total": 2,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 3,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 47,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 90,
+  "customer_risks": [
+    "длина значительно больше лимита 6500 (8 201 знаков)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "targeted_tokens_over_limit: ст_сокращение=7(>≤5), ООО_бренд=5(>≤3)"
+  ],
+  "date_published": "2026-09-15",
+  "date_modified": "2026-09-15",
+  "ready_for_review": true,
+  "ready_at": "2026-09-15T02:40:09Z",
+  "publication_target": "telegram_review"
+}

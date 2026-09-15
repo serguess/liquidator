@@ -6791,6 +6791,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "bankrotstvo-pri-dolgah-sfr-strahovye-vznosy",
+      "category": "yur",
+      "title": "Банкротство юрлица при долгах перед СФР: как снизить риски",
+      "added_at": "2026-09-15T05:40:09.712857",
+      "char_count": 8201,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1789440006/articles/bankrotstvo-pri-dolgah-sfr-strahovye-vznosy-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
