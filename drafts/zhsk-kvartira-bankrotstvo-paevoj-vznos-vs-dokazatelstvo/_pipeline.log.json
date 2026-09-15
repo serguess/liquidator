@@ -1,0 +1,53 @@
+{
+  "slug": "zhsk-kvartira-bankrotstvo-paevoj-vznos-vs-dokazatelstvo",
+  "category": "news",
+  "started_at": "2026-09-12T08:45:50",
+  "finished_at": "2026-09-12T08:45:50",
+  "total_duration_sec": 0.0,
+  "current_iteration": 1,
+  "events": [
+    {
+      "ts": "2026-09-12T08:45:50",
+      "agent": "scheduler",
+      "event": "slot_started",
+      "iteration": 1,
+      "today_count": 2,
+      "limit": 10,
+      "write_article_duration_sec": 929.3
+    },
+    {
+      "ts": "2026-09-12T08:45:50",
+      "agent": "scheduler",
+      "event": "slot_finished",
+      "status": "failed",
+      "iteration": 1
+    },
+    {
+      "ts": "2026-09-15T08:36:49",
+      "agent": "scheduler",
+      "event": "slot_started",
+      "iteration": 1,
+      "category": "news",
+      "today_count": 2,
+      "limit": 10,
+      "write_article_duration_sec": 391.2
+    },
+    {
+      "ts": "2026-09-15T08:36:49",
+      "agent": "quality_gate",
+      "event": "passed",
+      "iteration": 1,
+      "blockers": [],
+      "warnings": [
+        "length_soft_passed: 6693 > 5500 но ≤ 7500 и iteration=2 — пропускаем (приоритет spam/uniqueness/ai)",
+        "forced_pass_at_iter2: блокеры пропущены, статья идёт в TG-очередь с metrics_warning=true. Было: 2 блокеров — targeted_tokens_over_limit; broken_internal_links"
+      ],
+      "recommendations": [
+        "reduce_ст: «ст. X» × 6 → cap 5. Писать «статья X» полным словом, либо описательно («по правилу о процентах», «норма об исковой давности»). Cap 3 юр-цитаты на статью, остальное — пересказом.",
+        "reduce_РФ: «РФ» × 4 → cap 2. Удалить из «ГК РФ»/«ГПК РФ» — просто «ГК»/«ГПК» (контекст однозначный). Один раз в первом упоминании можно полное название.",
+        "fix_internal_links: заменить href на канонический /articles/{cat}/{slug} из published_index.json (см. .claude/style/editor-cheatsheet.md секция 6)"
+      ]
+    }
+  ],
+  "final_status": "failed"
+}
