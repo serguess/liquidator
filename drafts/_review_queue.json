@@ -6817,6 +6817,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "bankrotstvo-fizlica-dolg-lombardu",
+      "category": "fiz",
+      "title": "Долг ломбарду при банкротстве физлица: разбор по закону",
+      "added_at": "2026-09-15T15:04:44.773320",
+      "char_count": 9124,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1789473879/articles/bankrotstvo-fizlica-dolg-lombardu-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

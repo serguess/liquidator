@@ -1,0 +1,108 @@
+{
+  "slug": "bankrotstvo-fizlica-dolg-lombardu",
+  "category": "fiz",
+  "title": "Долг ломбарду при банкротстве физлица: разбор по закону",
+  "description": "Что происходит с залогом в ломбарде при банкротстве. Как погашаются долги перед ломбардом, права должника и риски реализации имущества.",
+  "h1": "Долг ломбарду при банкротстве физлица: что происходит с залогом",
+  "lead": "Разбираем, что происходит с залогом в судебном банкротстве, почему через МФЦ залогодержатель остаётся вне игры и когда остаток обязательства всё-таки не спишется.",
+  "topic_action": "разбор долга ломбарду при банкротстве",
+  "breadcrumb_current": "Долг ломбарду при банкротстве",
+  "og_image": "/assets/articles/bankrotstvo-fizlica-dolg-lombardu.jpg",
+  "main_keyword": "долг ломбарду при банкротстве физлица",
+  "secondary_keywords": [
+    "залог в ломбарде банкротство физлица",
+    "что происходит с залогом при банкротстве",
+    "долг ломбарду освобождение от долга",
+    "залог банкротство физлица",
+    "ломбард долги банкротство",
+    "реализация залога при банкротстве",
+    "ломбардный залог"
+  ],
+  "internal_links": [
+    "/articles/fiz/avtomobil-pri-bankrotstve-fizlica",
+    "/articles/fiz/alimenty-pri-bankrotstve-fizlica"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/"
+  ],
+  "faq": [
+    {
+      "question": "Спишется ли долг, если залог продан дешевле суммы обязательства?",
+      "answer": "Да, при добросовестном поведении гражданина. Оставшаяся часть встаёт в реестр третьей очереди по 213.26 п. 2 и гасится из общей массы. Если денег на её погашение нет - остаток списывается по 213.28 п. 3."
+    },
+    {
+      "question": "Что произойдёт с вещью через МФЦ?",
+      "answer": "В упрощённом маршруте по 223.2 нет реализации активов и нет арбитражника. Залогодержатель в нём не участвует, его обязательство остаётся после завершения и может быть взыскано через приставов."
+    },
+    {
+      "question": "Вправе ли оператор продать обеспечение до начала дела?",
+      "answer": "Да, до подачи заявления в арбитраж ломбардные правила работают в полном объёме. После введения судебной процедуры такие действия останавливаются по ст. 213.11 127-ФЗ."
+    },
+    {
+      "question": "Сколько получит залогодержатель от продажи - всю сумму или только часть?",
+      "answer": "Оператор получает выручку от продажи именно этой вещи в первую очередь. Если выручка больше долга - разница уходит в общую массу. Если меньше - недостача становится дефицитом и встаёт в реестр наравне с прочими взыскателями."
+    },
+    {
+      "question": "Можно ли исключить ювелирные украшения из конкурсной массы?",
+      "answer": "Как правило, нет. Ювелирка не входит в защищённый перечень ст. 446 ГПК и подлежит реализации. Исключение - только предметы ежедневного обихода; обручальное кольцо в скромном исполнении суды иногда защищают, инвестиционные украшения - нет."
+    },
+    {
+      "question": "Грозит ли отказ в списании, если скрыть заложенный предмет при подаче?",
+      "answer": "Да. По 213.28 п. 4 127-ФЗ суд отказывает в освобождении от обязательств при сокрытии активов или ложных сведениях. Забрать вещь у оператора без ведома арбитражника после введения дела - тот же самый риск."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все факты сверены с research.json. legislation_status: active, last_verified: 2026-09-15 для всех ключевых утверждений.",
+    "213.25 п. 1 и п. 3 - включение залога в конкурсную массу и исключения по 446 ГПК - контекст процедуры реализации корректен.",
+    "213.26 п. 1 - приоритет залогодержателя из выручки от продажи именно залогового имущества; п. 2 - дефицит в реестр третьей очереди - применены верно.",
+    "ПМ 2026: 20 644 руб. (426-ФЗ от 28.11.2025) - верифицирован по f5, last_verified 2026-09-15.",
+    "213.11 - приостановление исполнительных производств - применён корректно, только для судебного маршрута.",
+    "223.2 и 223.6 - внесудебное банкротство и сохранение требования залогодержателя после завершения - применены корректно.",
+    "213.28 п. 4 - отказ при недобросовестности - оговорка присутствует; forbidden_claims в тексте отсутствуют."
+  ],
+  "keyword_density_main": 0.012,
+  "main_keyword_exact_count": 2,
+  "text_chars": 9124,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.106,
+  "local_spam_ngram3_repeat": 0.028,
+  "local_lexical_diversity": 0.573,
+  "local_ai_markers_density": 0.18,
+  "local_ai_markers_critical": 0,
+  "quality_gate_passed": true,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1789473879/articles/bankrotstvo-fizlica-dolg-lombardu-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1789473879/articles/bankrotstvo-fizlica-dolg-lombardu-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Editorial photograph of a corner of a desk in a high-floor executive office overlooking the city. Foreground on walnut desktop: a polished round company seal resting on a closed leather notebook, a sleek fountain pen positioned beside them, a closed thin laptop, a white porcelain coffee cup. Background through tall windows: blurred urban skyline at dusk with distant amber lights and evening haze. Camera: shallow depth of field, three-quarter angle, eye-level. Lighting: cool ambient daylight blended with warm tungsten desk lamp glow. Materials: walnut, dark glass, polished brass, cream porcelain. Mood: careful deliberation of contractual rights and obligations, weight of legal consequence.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-09-15T12:04:40Z",
+  "length_status": "too_long",
+  "length_kind": "default",
+  "local_ai_markers_total": 2,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 3,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 58,
+  "predicted_ai_pct": 6,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность заметно выше 50% (~58%)",
+    "длина значительно больше лимита 6500 (9 124 знаков)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "length_too_long: 9124 > 6500 (kind=default)",
+    "spam_risk: 3 флагов (top3_sum>30 (=32), top10_sum>80 (=88), lexical_diversity<0.58 (=0.573)), top-5: ['залогодержател', 'обязательств', 'масс', 'долг', 'банкротств']",
+    "targeted_tokens_over_limit: 127фз_закон=3(>≤2), 213_артикул=12(>≤3)",
+    "author_markers_missing: 1 < 2"
+  ],
+  "date_published": "2026-09-15",
+  "date_modified": "2026-09-15",
+  "ready_for_review": true,
+  "ready_at": "2026-09-15T12:04:44Z",
+  "publication_target": "telegram_review"
+}
