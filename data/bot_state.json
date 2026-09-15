@@ -12771,15 +12771,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 2777,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-09-15T00:43:22",
-      "last_action_at": "2026-09-15T00:43:22",
+      "last_action_at": "2026-09-15T10:00:25",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-09-15T00:43:22"
+      "pending_batch": false,
+      "pending_batch_at": "2026-09-15T00:43:22",
+      "batch_sent_at": "2026-09-15T10:00:25",
+      "batch_fail_count": 0
     },
     "bankrotstvo-pri-dolgah-sfr-strahovye-vznosy": {
       "category": "yur",
@@ -12789,15 +12791,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 2779,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-09-15T05:40:25",
-      "last_action_at": "2026-09-15T05:40:25",
+      "last_action_at": "2026-09-15T10:00:27",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-09-15T05:40:25"
+      "pending_batch": false,
+      "pending_batch_at": "2026-09-15T05:40:25",
+      "batch_sent_at": "2026-09-15T10:00:27",
+      "batch_fail_count": 0
     },
     "zhsk-kvartira-bankrotstvo-paevoj-vznos-vs-dokazatelstvo": {
       "category": "news",
@@ -12807,19 +12811,39 @@
       "versions": [
         "2.0"
       ],
+      "tg_message_id": 2781,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-09-15T08:37:27",
+      "last_action_at": "2026-09-15T10:00:29",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-09-15T08:37:27",
+      "batch_sent_at": "2026-09-15T10:00:29",
+      "batch_fail_count": 0
+    },
+    "bankrotstvo-fizlica-dolg-lombardu": {
+      "category": "fiz",
+      "title": "Долг ломбарду при банкротстве физлица: разбор по закону",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
       "tg_message_id": null,
       "tg_chat_id": null,
-      "first_seen_at": "2026-09-15T08:37:27",
-      "last_action_at": "2026-09-15T08:37:27",
+      "first_seen_at": "2026-09-15T15:05:31",
+      "last_action_at": "2026-09-15T15:05:31",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
       "pending_batch": true,
-      "pending_batch_at": "2026-09-15T08:37:27"
+      "pending_batch_at": "2026-09-15T15:05:31"
     }
   },
   "pending_actions": [],
-  "last_batch_date": "2026-09-14",
-  "last_batch_count": 0,
-  "last_batch_at": "2026-09-14T10:00:08"
+  "last_batch_date": "2026-09-15",
+  "last_batch_count": 3,
+  "last_batch_at": "2026-09-15T10:00:29"
 }
