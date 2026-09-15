@@ -12762,10 +12762,64 @@
       "batch_fail_count": 0,
       "published_at": "2026-09-12T17:24:19",
       "articles_path": "articles/yur/bankrotstvo-po-trebovaniyu-rabotnikov-zarplata.html"
+    },
+    "protsenty-peni-zamorazhivayutsya-pri-bankrotstve": {
+      "category": "fiz",
+      "title": "Замораживаются ли проценты при банкротстве физлица",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-09-15T00:43:22",
+      "last_action_at": "2026-09-15T00:43:22",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-09-15T00:43:22"
+    },
+    "bankrotstvo-pri-dolgah-sfr-strahovye-vznosy": {
+      "category": "yur",
+      "title": "Банкротство юрлица при долгах перед СФР: как снизить риски",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-09-15T05:40:25",
+      "last_action_at": "2026-09-15T05:40:25",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-09-15T05:40:25"
+    },
+    "zhsk-kvartira-bankrotstvo-paevoj-vznos-vs-dokazatelstvo": {
+      "category": "news",
+      "title": "ЖСК и банкротство: ВС о защите квартиры и пае",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-09-15T08:37:27",
+      "last_action_at": "2026-09-15T08:37:27",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-09-15T08:37:27"
     }
   },
   "pending_actions": [],
-  "last_batch_date": "2026-09-12",
-  "last_batch_count": 2,
-  "last_batch_at": "2026-09-12T10:00:09"
+  "last_batch_date": "2026-09-14",
+  "last_batch_count": 0,
+  "last_batch_at": "2026-09-14T10:00:08"
 }
