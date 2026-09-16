@@ -12831,19 +12831,39 @@
       "versions": [
         "2.0"
       ],
+      "tg_message_id": 2783,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-09-15T15:05:31",
+      "last_action_at": "2026-09-16T10:00:16",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-09-15T15:05:31",
+      "batch_sent_at": "2026-09-16T10:00:16",
+      "batch_fail_count": 0
+    },
+    "bankrotstvo-neskolko-poruchitelstv": {
+      "category": "fiz",
+      "title": "Банкротство при нескольких поручительствах: что происходит",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
       "tg_message_id": null,
       "tg_chat_id": null,
-      "first_seen_at": "2026-09-15T15:05:31",
-      "last_action_at": "2026-09-15T15:05:31",
+      "first_seen_at": "2026-09-16T10:34:20",
+      "last_action_at": "2026-09-16T10:34:20",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
       "pending_batch": true,
-      "pending_batch_at": "2026-09-15T15:05:31"
+      "pending_batch_at": "2026-09-16T10:34:20"
     }
   },
   "pending_actions": [],
-  "last_batch_date": "2026-09-15",
-  "last_batch_count": 3,
-  "last_batch_at": "2026-09-15T10:00:29"
+  "last_batch_date": "2026-09-16",
+  "last_batch_count": 1,
+  "last_batch_at": "2026-09-16T10:00:16"
 }
