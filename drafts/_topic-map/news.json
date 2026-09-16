@@ -5220,7 +5220,11 @@
       "topic_action": "консультацию о взыскании через банкротство виновника",
       "event_date": "2026-08-13",
       "news_zone": "vs_practice",
-      "primary_source": "https://vsrf.ru/press_center/news/36251/"
+      "primary_source": "https://vsrf.ru/press_center/news/36251/",
+      "status": "rejected",
+      "rejected_at": "2026-09-16T04:00:11",
+      "rejected_reason": "event_too_old:34d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-158",
@@ -5250,7 +5254,11 @@
       "topic_action": "консультацию по альтернативам при отказе в кредите",
       "event_date": "2026-08-11",
       "news_zone": "finance",
-      "primary_source": "https://nbki.ru/company/news/nbki_v_iyule_2026_goda_dolya_otkazov_po_zayavkam_na_vse_roznichnye_kredity_sostavila_77_2_/"
+      "primary_source": "https://nbki.ru/company/news/nbki_v_iyule_2026_goda_dolya_otkazov_po_zayavkam_na_vse_roznichnye_kredity_sostavila_77_2_/",
+      "status": "rejected",
+      "rejected_at": "2026-09-16T04:00:11",
+      "rejected_reason": "event_too_old:36d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-159",
@@ -5280,7 +5288,11 @@
       "topic_action": "защиту от мошеннического кредитования",
       "event_date": "2026-08-10",
       "news_zone": "finance",
-      "primary_source": "https://nbki.ru/company/news/nbki_v_iyule_2026_goda_grazhdane_ustanovili_792_1_tys_samozapretov_na_privlechenie_kreditov_/"
+      "primary_source": "https://nbki.ru/company/news/nbki_v_iyule_2026_goda_grazhdane_ustanovili_792_1_tys_samozapretov_na_privlechenie_kreditov_/",
+      "status": "rejected",
+      "rejected_at": "2026-09-16T04:00:11",
+      "rejected_reason": "event_too_old:37d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-160",
@@ -5310,7 +5322,11 @@
       "topic_action": "расчёт долга при изменении ключевой ставки",
       "event_date": "2026-08-13",
       "news_zone": "finance",
-      "primary_source": "https://www.cbr.ru/press/keypr/"
+      "primary_source": "https://www.cbr.ru/press/keypr/",
+      "status": "rejected",
+      "rejected_at": "2026-09-16T04:00:11",
+      "rejected_reason": "event_too_old:34d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-161",
@@ -5468,7 +5484,11 @@
       "topic_action": "проверить законность ставки по вашему кредиту",
       "event_date": "2026-08-15",
       "news_zone": "finance",
-      "primary_source": "https://www.cbr.ru/statistics/bank_sector/psk/"
+      "primary_source": "https://www.cbr.ru/statistics/bank_sector/psk/",
+      "status": "rejected",
+      "rejected_at": "2026-09-16T04:00:11",
+      "rejected_reason": "event_too_old:32d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-166",
@@ -5498,7 +5518,11 @@
       "topic_action": "консультацию кредитора по банкротству должника",
       "event_date": "2026-08-15",
       "news_zone": "finance",
-      "primary_source": "https://fedresurs.ru/news/"
+      "primary_source": "https://fedresurs.ru/news/",
+      "status": "rejected",
+      "rejected_at": "2026-09-16T04:00:11",
+      "rejected_reason": "event_too_old:32d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-167",
@@ -5780,7 +5804,11 @@
       "topic_action": "проверку законности ставки по кредиту",
       "event_date": "2026-08-14",
       "news_zone": "finance",
-      "primary_source": "https://www.cbr.ru/statistics/bank_sector/psk/"
+      "primary_source": "https://www.cbr.ru/statistics/bank_sector/psk/",
+      "status": "rejected",
+      "rejected_at": "2026-09-16T04:00:11",
+      "rejected_reason": "event_too_old:33d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-176",
