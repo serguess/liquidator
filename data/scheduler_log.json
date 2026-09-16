@@ -43331,5 +43331,40 @@
     "stderr_tail": "[ERR] rate_limit: put_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard\",\"cache_creation\":{\"ephemeral_1h_input_tokens\":0,\"ephemeral_5m_input_tokens\":0},\"inference_geo\":\"\",\"iterations\":[],\"speed\":\"standard\"},\"modelUsage\":{},\"permission_denials\":[],\"terminal_reason\":\"completed\",\"fast_mode_state\":\"off\",\"uuid\":\"b86509d5-e395-4b3f-a565-23430b2ad996\"}\n\n",
     "tokens_by_model": {},
     "metrics": null
+  },
+  {
+    "timestamp": "2026-09-16T19:36:01",
+    "category": "yur",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 3,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "yur-192",
+    "topic_slug": "bankrotstvo-koncessionnogo-soglasheniya",
+    "status": "failed",
+    "slug": "bankrotstvo-koncessionnogo-soglasheniya",
+    "duration_sec": 1594.1,
+    "returncode": 1,
+    "rescued_after_failure": false,
+    "stdout_tail": "56918 billable=229564 ток, 86.2с\n   ok: 18145 симв., billable=105814 ток (model=sonnet)\n   [outline_validate] exit=0\n=== 4-writer (claude opus) ===\n   ok: 10513 симв., billable=88486 ток, 82.1с\n   [writer self-fix проход 2]\n   ok: billable=29485 ток\n=== 5-uniqueness (embed_compare) ===\n   passed=False scores={'structure_overlap': 0.0, 'thesis_similarity': 0.351, 'cta_overlap': 0.077}\n   [watchdog] hard timeout >480s на sonnet — попытка 1/3\n   [watchdog] hard timeout >480s на sonnet — попытка 2/3",
+    "stderr_tail": "[ERR] rate_limit: put_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard\",\"cache_creation\":{\"ephemeral_1h_input_tokens\":0,\"ephemeral_5m_input_tokens\":0},\"inference_geo\":\"\",\"iterations\":[],\"speed\":\"standard\"},\"modelUsage\":{},\"permission_denials\":[],\"terminal_reason\":\"completed\",\"fast_mode_state\":\"off\",\"uuid\":\"0b344c2b-3936-4bca-934a-7f757c4aa978\"}\n\n",
+    "tokens_by_model": {},
+    "metrics": null
   }
 ]
