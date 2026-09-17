@@ -43371,5 +43371,69 @@
     "timestamp": "2026-09-17T00:24:21",
     "status": "preflight_failed",
     "reason": "rate_limit: You've hit your limit · resets 12:30am (Europe/Moscow)"
+  },
+  {
+    "timestamp": "2026-09-17T05:12:08",
+    "category": "yur",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 4,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "resume",
+    "resume_slug": "bankrotstvo-koncessionnogo-soglasheniya",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "forced_pass_at_iter2: блокеры пропущены, статья идёт в TG-очередь с metrics_warning=true. Было: 5 блокеров — length_too_long; spam_risk; targeted_tokens_over_limit; anti_template_phrases; broken_internal_links"
+      ],
+      "recommendations": [
+        "reduce_length: сократить до 5000-6000 знаков",
+        "reduce_repetition: разбавить топ-5 частотных лемм местоимениями/перифразом — ['сторон', 'банкротств', 'проект', 'банк', 'закон']",
+        "reduce_ст: «ст. X» × 17 → cap 5. Писать «статья X» полным словом, либо описательно («по правилу о процентах», «норма об исковой давности»). Cap 3 юр-цитаты на статью, остальное — пересказом.",
+        "rewrite_unique: перифразировать дословные шаблонные фразы (см. .claude/style/anti-template-phrases.md, секция «Как перифразировать»). Примеры: «возмещение вреда жизни или здоровью»",
+        "fix_internal_links: заменить href на канонический /articles/{cat}/{slug} из published_index.json (см. .claude/style/editor-cheatsheet.md секция 6)"
+      ],
+      "stderr_tail": ""
+    },
+    "finalize_safety_net": {
+      "ran": true,
+      "rc": 0
+    },
+    "status": "ok",
+    "slug": "bankrotstvo-koncessionnogo-soglasheniya",
+    "duration_sec": 417.5,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "che_r  billable\n6-seo-editor        sonnet            6      14    99760         0     99780\n7-publisher         haiku            20      16    75706         0     75742\n------------------------------------------------------------------------------------------\nИТОГО                                26      30   175466         0    175522\nBillable-токенов на статью: ~175K (cache_read 0K не считается в лимит подписки).\nАртефакты: drafts/bankrotstvo-koncessionnogo-soglasheniya/  | quality_gate exit=0",
+    "stderr_tail": "",
+    "tokens_by_model": {},
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 9514
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]

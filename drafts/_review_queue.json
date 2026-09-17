@@ -6856,6 +6856,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "cifrovoj-rubl-obyazatelnyj-dolzhniki-vzyskanie-izmeneniya",
+      "category": "news",
+      "title": "Цифровой рубль обязателен: что изменилось для должников",
+      "added_at": "2026-09-17T08:47:22.773491",
+      "char_count": 6707,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1789624036/articles/cifrovoj-rubl-obyazatelnyj-dolzhniki-vzyskanie-izmeneniya-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
