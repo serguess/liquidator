@@ -12860,6 +12860,42 @@
       "published_url": null,
       "pending_batch": true,
       "pending_batch_at": "2026-09-16T10:34:20"
+    },
+    "bankrotstvo-koncessionnogo-soglasheniya": {
+      "category": "yur",
+      "title": "Банкротство концессионера: что будет с контрактом",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-09-17T05:20:04",
+      "last_action_at": "2026-09-17T05:20:04",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-09-17T05:20:04"
+    },
+    "cifrovoj-rubl-obyazatelnyj-dolzhniki-vzyskanie-izmeneniya": {
+      "category": "news",
+      "title": "Цифровой рубль обязателен: что изменилось для должников",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-09-17T08:48:07",
+      "last_action_at": "2026-09-17T08:48:07",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-09-17T08:48:07"
     }
   },
   "pending_actions": [],
