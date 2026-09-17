@@ -6869,6 +6869,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "bankrotstvo-esli-est-ispolnitelnyj-list",
+      "category": "fiz",
+      "title": "Банкротство при исполнительном листе: права должника",
+      "added_at": "2026-09-18T00:52:31.524773",
+      "char_count": 8543,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1789681948/articles/bankrotstvo-esli-est-ispolnitelnyj-list-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
