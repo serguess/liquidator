@@ -6843,6 +6843,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "bankrotstvo-koncessionnogo-soglasheniya",
+      "category": "yur",
+      "title": "Банкротство концессионера: что будет с контрактом",
+      "added_at": "2026-09-17T05:19:06.185657",
+      "char_count": 9514,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1789611543/articles/bankrotstvo-koncessionnogo-soglasheniya-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
