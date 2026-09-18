@@ -12832,7 +12832,7 @@
     "bankrotstvo-fizlica-dolg-lombardu": {
       "category": "fiz",
       "title": "Долг ломбарду при банкротстве физлица: разбор по закону",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -12840,14 +12840,16 @@
       "tg_message_id": 2783,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-09-15T15:05:31",
-      "last_action_at": "2026-09-16T10:00:16",
+      "last_action_at": "2026-09-18T14:53:19",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/fiz/bankrotstvo-fizlica-dolg-lombardu",
       "pending_batch": false,
       "pending_batch_at": "2026-09-15T15:05:31",
       "batch_sent_at": "2026-09-16T10:00:16",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-09-18T14:53:19",
+      "articles_path": "articles/fiz/bankrotstvo-fizlica-dolg-lombardu.html"
     },
     "bankrotstvo-neskolko-poruchitelstv": {
       "category": "fiz",
