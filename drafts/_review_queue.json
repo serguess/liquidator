@@ -6895,6 +6895,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "nbki-avtokredity-otkazy-iyul-dolzhniki-restrukturizaciya",
+      "category": "news",
+      "title": "Отказы по автокредитам 67%: реструктуризация долга",
+      "added_at": "2026-09-18T09:00:12.968026",
+      "char_count": 7934,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1789711209/articles/nbki-avtokredity-otkazy-iyul-dolzhniki-restrukturizaciya-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

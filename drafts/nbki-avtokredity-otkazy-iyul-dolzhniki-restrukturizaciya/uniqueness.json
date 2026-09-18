@@ -1,0 +1,24 @@
+{
+  "slug": "nbki-avtokredity-otkazy-iyul-dolzhniki-restrukturizaciya",
+  "article_id": 586,
+  "scores": {
+    "structure_overlap": 0.0,
+    "thesis_similarity": 0.164,
+    "cta_overlap": 0.255
+  },
+  "thresholds": {
+    "structure_overlap": 0.4,
+    "thesis_similarity": 0.3,
+    "cta_overlap": 0.2
+  },
+  "passed": false,
+  "peers_compared": 21,
+  "closest_peer": "cessiya-ustupka-trebovaniya-prava-dolzhnika",
+  "similar_articles": [],
+  "conflicts": [
+    "cta_overlap: 0.255 (threshold: 0.2)"
+  ],
+  "recommendation": "rewrite_with_angle:change-perspective (closest: cessiya-ustupka-trebovaniya-prava-dolzhnika)",
+  "stored_in_db": true,
+  "note": "Вектор статьи записан в data/embeddings.sqlite (published=0). После публикации агент 7 переключит флаг на 1."
+}
