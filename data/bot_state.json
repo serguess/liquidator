@@ -12854,7 +12854,7 @@
     "bankrotstvo-neskolko-poruchitelstv": {
       "category": "fiz",
       "title": "Банкротство при нескольких поручительствах: что происходит",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -12862,14 +12862,16 @@
       "tg_message_id": 2785,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-09-16T10:34:20",
-      "last_action_at": "2026-09-17T10:00:04",
+      "last_action_at": "2026-09-18T14:53:22",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/fiz/bankrotstvo-neskolko-poruchitelstv",
       "pending_batch": false,
       "pending_batch_at": "2026-09-16T10:34:20",
       "batch_sent_at": "2026-09-17T10:00:04",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-09-18T14:53:22",
+      "articles_path": "articles/fiz/bankrotstvo-neskolko-poruchitelstv.html"
     },
     "bankrotstvo-koncessionnogo-soglasheniya": {
       "category": "yur",
