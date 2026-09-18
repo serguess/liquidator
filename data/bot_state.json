@@ -12920,7 +12920,7 @@
     "bankrotstvo-esli-est-ispolnitelnyj-list": {
       "category": "fiz",
       "title": "Банкротство при исполнительном листе: права должника",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -12928,14 +12928,16 @@
       "tg_message_id": 2791,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-09-18T00:53:19",
-      "last_action_at": "2026-09-18T10:00:04",
+      "last_action_at": "2026-09-18T14:53:34",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/fiz/bankrotstvo-esli-est-ispolnitelnyj-list",
       "pending_batch": false,
       "pending_batch_at": "2026-09-18T00:53:19",
       "batch_sent_at": "2026-09-18T10:00:04",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-09-18T14:53:34",
+      "articles_path": "articles/fiz/bankrotstvo-esli-est-ispolnitelnyj-list.html"
     },
     "narushenie-ocherednosti-platezhej-bankrotstvo": {
       "category": "yur",
