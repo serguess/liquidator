@@ -1,0 +1,112 @@
+{
+  "slug": "bankrotstvo-pri-lizinge-avtomobilya",
+  "category": "fiz",
+  "title": "Банкротство при лизинге автомобиля: что теряет должник",
+  "description": "Лизинговый автомобиль при банкротстве: теряет ли должник машину, может ли она быть реализована, сохраняется ли договор. Правовые последствия.",
+  "h1": "Банкротство при лизинге автомобиля: что происходит с машиной и правами должника",
+  "lead": "Разбираем, почему лизинговое авто всё равно уходит на торги, может ли арендодатель забрать ключи сам и что случится с непокрытым долгом после завершения процедуры.",
+  "topic_action": "консультацию по лизинговому авто при банкротстве",
+  "breadcrumb_current": "Лизинг и банкротство",
+  "og_image": "/assets/articles/bankrotstvo-pri-lizinge-avtomobilya.jpg",
+  "main_keyword": "банкротство при лизинге автомобиля",
+  "secondary_keywords": [
+    "лизинговый автомобиль банкротство физлица",
+    "что происходит с лизингом при банкротстве",
+    "теряет ли должник лизинговую машину",
+    "может ли лизинговая компания забрать машину при банкротстве",
+    "реализация имущества банкротство лизинг",
+    "банкротство и финансовая аренда автомобиля",
+    "судебная практика лизинг банкротство",
+    "защита прав лизингополучателя при несостоятельности",
+    "обеспеченные долги при банкротстве",
+    "остаток задолженности по лизингу"
+  ],
+  "internal_links": [
+    "/articles/fiz/avtomobil-pri-bankrotstve-fizlica",
+    "/articles/fiz/bankrotstvo-esli-est-ispolnitelnyj-list"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/",
+    "https://www.consultant.ru/document/cons_doc_LAW_1646/"
+  ],
+  "faq": [
+    {
+      "question": "Может ли арендодатель забрать машину сам?",
+      "answer": "Нет. С момента введения реализации распоряжаться имуществом вправе только финансовый управляющий. Самовольный отбор транспорта - нарушение процедуры со штрафными последствиями. Собственнику предмета лизинга нужно либо ждать аукциона, либо идти в арбитраж с ходатайством."
+    },
+    {
+      "question": "Что происходит с ежемесячными платежами?",
+      "answer": "Решение принимает управляющий. Если платежи выгодны имущественной массе (авто зарабатывает больше расходов) - график сохраняется. Если убыточны - управляющий ходатайствует об отказе от договора по аналогии со ст. 61 127-ФЗ."
+    },
+    {
+      "question": "Спишется ли остаток долга по лизингу?",
+      "answer": "Да, по общему правилу. Непокрытая часть требования финансовой компании освобождается вместе с прочими долгами. Исключение - недобросовестное поведение: сокрытие активов, ложь, поддельные документы. Тогда суд отказывает в освобождении (ст. 213.28 п. 4 127-ФЗ)."
+    },
+    {
+      "question": "Сколько получит арендодатель от продажи авто?",
+      "answer": "Всю сумму продажи в пределах своего требования - как обеспеченный кредитор с залоговым приоритетом (ст. 71 127-ФЗ). Если авто ушло дороже долга - остаток идёт в имущественную массу. Если дешевле - разница становится обычным требованием без приоритета."
+    },
+    {
+      "question": "Реально ли сохранить авто, если оно нужно для заработка?",
+      "answer": "Теоретически - через ходатайство по ст. 446 ГПК об исключении орудий труда. На практике исход неоднородный: залоговый статус арендодателя часто перевешивает. Готовых гарантий нет, всё решает конкретный судья."
+    },
+    {
+      "question": "Чем лизинг отличается от автокредита при банкротстве?",
+      "answer": "При автокредите заёмщик - собственник авто, банк держит залог. При финансовой аренде собственник до выкупа - лизинговая компания. Различие юридическое, но экономический результат при несостоятельности близкий: транспорт уходит на торги, залогодержатель получает выручку первым, непокрытая часть списывается."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все ключевые факты сверены с research.json. legislation_status: active для f1-f3, f6-f11; needs_verification для f4 (ст. 446 ГПК) и f5 (ст. 61 по аналогии) - использованы safe_phrasing с обтекаемыми формулировками.",
+    "ст. 213.25 п. 1 127-ФЗ: конкурсная масса при реализации - актуален, last_verified 2026-09-18 (f3).",
+    "ст. 71 п. 1 127-ФЗ: приоритет обеспеченного кредитора - актуален, last_verified 2026-09-18 (f2).",
+    "ст. 64 п. 1 127-ФЗ: управление конкурсной массой финуправляющим - актуален, last_verified 2026-09-18 (f8).",
+    "ст. 61 127-ФЗ по аналогии к физлицам: needs_verification, в тексте оговорка «по аналогии» (f5).",
+    "ст. 446 ГПК: contested, использована safe_phrasing «на практике исход неоднородный» (f4).",
+    "ст. 213.28 п. 3 127-ФЗ: освобождение от обязательств - актуален, last_verified 2026-09-18 (f9).",
+    "ПМ 2026: 20 644 руб. (ФЗ-426 от 28.11.2025) - верифицирован, last_verified 2026-09-18 (f11).",
+    "Запрет самовольного изъятия машины лизингодателем - соответствует forbidden_claims и safe_phrasing из research (f8)."
+  ],
+  "keyword_density_main": 0.014,
+  "main_keyword_exact_count": 1,
+  "text_chars": 8323,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.111,
+  "local_spam_ngram3_repeat": 0.029,
+  "local_lexical_diversity": 0.598,
+  "local_ai_markers_density": 0.2,
+  "local_ai_markers_critical": 0,
+  "local_ai_markers_total": 2,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 3,
+  "local_first_person_singular_hits": 0,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1789767678/articles/bankrotstvo-pri-lizinge-avtomobilya-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1789767678/articles/bankrotstvo-pri-lizinge-avtomobilya-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Tight close-up of a desk surface suggesting crisis mid-process, no people in frame. Camera: shallow depth of field, three-quarter angle from eye level. Central arrangement: a set of car keys with leather fob lying on dark walnut desk edge (left foreground), a closed leather briefcase with contract papers fanning partially from its edge (no readable text), a fountain pen lying uncapped beside a brass inkwell, a half-finished white porcelain coffee cup on a saucer, and a stack of sealed manila dossiers tied with cord. Background: an unbuttoned suit jacket draped over a wooden chair back seen from behind (upper right, soft focus). Lighting: warm directional tungsten from upper left, casting long dramatic shadows. Materials: walnut, oxblood leather, brushed brass. Mood: paused, resigned, just-stepped-away in the face of loss.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-09-18T21:41:19Z",
+  "length_status": "too_long",
+  "length_kind": "default",
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 53,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность чуть выше 50% (~53%)",
+    "длина значительно больше лимита 6500 (8 323 знаков)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "spam_risk: 3 флагов (top1_count>12 (=13, лемма «авто»), top3_sum>30 (=32), top10_sum>80 (=85)), top-5: ['авто', 'управляющий', 'долг', 'масс', 'банкротств']",
+    "targeted_tokens_over_limit: ст_сокращение=15(>≤5), 127фз_закон=10(>≤2)"
+  ],
+  "date_published": "2026-09-19",
+  "date_modified": "2026-09-19",
+  "ready_for_review": true,
+  "ready_at": "2026-09-18T21:41:20Z",
+  "publication_target": "telegram_review"
+}
