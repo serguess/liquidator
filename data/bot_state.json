@@ -12942,7 +12942,7 @@
     "narushenie-ocherednosti-platezhej-bankrotstvo": {
       "category": "yur",
       "title": "Очередность платежей при банкротстве юридического лица",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -12950,14 +12950,16 @@
       "tg_message_id": 2793,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-09-18T05:38:05",
-      "last_action_at": "2026-09-18T10:00:07",
+      "last_action_at": "2026-09-18T14:53:37",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/yur/narushenie-ocherednosti-platezhej-bankrotstvo",
       "pending_batch": false,
       "pending_batch_at": "2026-09-18T05:38:05",
       "batch_sent_at": "2026-09-18T10:00:07",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-09-18T14:53:37",
+      "articles_path": "articles/yur/narushenie-ocherednosti-platezhej-bankrotstvo.html"
     },
     "nbki-avtokredity-otkazy-iyul-dolzhniki-restrukturizaciya": {
       "category": "news",

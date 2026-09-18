@@ -2,6 +2,19 @@
   "generated": "2026-09-18",
   "articles": [
     {
+      "slug": "narushenie-ocherednosti-platezhej-bankrotstvo",
+      "cat": "yur",
+      "catLabel": "Банкротство юридических лиц",
+      "title": "Очередность платежей при банкротстве юридического лица",
+      "desc": "Порядок и очередность погашения требований кредиторов при банкротстве юрлица. Какие требования погашаются в первую очередь в конкурсном производстве.",
+      "date": "18 сентября 2026",
+      "dateIso": "2026-09-18",
+      "read": "5 мин.",
+      "tone": "b",
+      "img": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1789699076/articles/narushenie-ocherednosti-platezhej-bankrotstvo-cover.jpg",
+      "url": "articles/yur/narushenie-ocherednosti-platezhej-bankrotstvo"
+    },
+    {
       "slug": "bankrotstvo-esli-est-ispolnitelnyj-list",
       "cat": "fiz",
       "catLabel": "Банкротство физических лиц",
