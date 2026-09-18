@@ -1,0 +1,100 @@
+{
+  "slug": "narushenie-ocherednosti-platezhej-bankrotstvo",
+  "category": "yur",
+  "title": "Очередность платежей при банкротстве юридического лица",
+  "description": "Порядок и очередность погашения требований кредиторов при банкротстве юрлица. Какие требования погашаются в первую очередь в конкурсном производстве.",
+  "h1": "Очередность платежей при банкротстве юридического лица: порядок погашения требований",
+  "lead": "Разбираем, как имущество должника делится между кредиторами по четырём разрядам, что значит залоговое требование и почему дата возникновения долга определяет всё.",
+  "topic_action": "анализ очерёдности требований при банкротстве юрлица",
+  "breadcrumb_current": "Очередность платежей при банкротстве",
+  "og_image": "/assets/articles/narushenie-ocherednosti-platezhej-bankrotstvo.jpg",
+  "main_keyword": "очередность платежей при банкротстве",
+  "secondary_keywords": [
+    "порядок погашения требований банкротстве",
+    "очередность требований кредиторов",
+    "требования в конкурсном производстве",
+    "приоритет требований банкротство",
+    "залоговое требование банкротство",
+    "требования работников при банкротстве",
+    "требования бюджета банкротство"
+  ],
+  "internal_links": [
+    "/articles/yur/iski-konkyursnogo-upravlyayushchego-trethim-licam",
+    "/articles/yur/kak-oformit-mirovoe-soglashenie-pri-bankrotstve-yurlica",
+    "/articles/yur/bankrotstvo-akcionernogo-obshchestva-prava-akcionerov"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/"
+  ],
+  "faq": [
+    {
+      "question": "Что происходит с долгами четвёртой очереди, если денег в массе не осталось?",
+      "answer": "По завершении конкурсного производства такие обязательства списываются в силу закона. Юрлицо ликвидируется, взыскивать становится не с кого. Исключение - если позднее откроются основания для привлечения контролирующих лиц к субсидиарной ответственности."
+    },
+    {
+      "question": "Может ли залоговый кредитор одновременно участвовать в общей очерёдности?",
+      "answer": "Да, но только в части, которая не покрылась залогом. Если стоимости заложенного имущества не хватило для полного расчёта, остаток превращается в обычное требование соответствующего разряда и делит конкурсную массу с прочими взыскателями (ст. 65 127-ФЗ)."
+    },
+    {
+      "question": "Когда зарплата оказывается текущим платежом, а не первой очередью?",
+      "answer": "Если долг возник после даты открытия конкурсного производства - например, сотрудник продолжал работать в период ликвидации. Такие суммы платятся вне реестра как текущие обязательства и обгоняют старые долги первого разряда (ст. 67 127-ФЗ)."
+    },
+    {
+      "question": "Чем грозит кредитору пропуск срока подачи заявления о включении в реестр?",
+      "answer": "Опоздавший фактически выбывает из распределения. Даже при бесспорной сумме и полном пакете документов позиция без определения арбитража не будет учтена при выплатах. Восстановить срок можно только через суд при наличии уважительных причин."
+    },
+    {
+      "question": "Обязательно ли государству подавать отдельное заявление о включении в реестр?",
+      "answer": "Да. Уполномоченные органы - ФНС, СФР - заявляют свои требования наравне с прочими кредиторами через тот же реестр. Автоматического включения по факту наличия недоимки закон не предусматривает (ст. 101 127-ФЗ)."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все факты сверены с research.json. legislation_status: active, last_verified: 2026-09-18 для всех норм.",
+    "Четыре очереди по ст. 64 127-ФЗ - корректно (f1-f5). Пропорциональный раздел при нехватке массы по ст. 64, 148 127-ФЗ - корректно (f10). Расчёт 66,7% математически верен (40 из 60 млн).",
+    "Залоговые кредиторы по ст. 65 127-ФЗ - корректно (f6). Пример 200/240/130 млн соответствует механизму: остаток уходит в реестр четвёртым разрядом.",
+    "Текущие платежи по ст. 64, 67 127-ФЗ - корректно (f7). Водораздел по дате открытия конкурса.",
+    "СФР упомянут вместо ПФР+ФСС - актуально для 2026 года (объединение действует с 2023).",
+    "Forbidden_claims в тексте отсутствуют."
+  ],
+  "keyword_density_main": 0.012,
+  "main_keyword_exact_count": 2,
+  "text_chars": 7979,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.105,
+  "local_spam_ngram3_repeat": 0.021,
+  "local_lexical_diversity": 0.632,
+  "local_ai_markers_density": 0.2,
+  "local_ai_markers_critical": 0,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1789699076/articles/narushenie-ocherednosti-platezhej-bankrotstvo-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1789699076/articles/narushenie-ocherednosti-platezhej-bankrotstvo-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Editorial photograph of a working desk in a modern business interior. Camera: slight overhead three-quarter angle. On the dark walnut desktop: a precision scientific calculator with blank screen slightly left of center, a closed dark leather folder with a fountain pen aligned across it, a polished brass round company seal on a small square of black ink pad, a blank-spine leather-bound notebook, a closed thin laptop with brushed aluminum lid. Background: stone-and-wood feature wall with soft skyline bokeh through tall windows. Lighting: directional warm light from upper left creating deliberate shadows that emphasize the objects' hierarchy. Materials: walnut, brushed steel, leather, brass. Mood: financial deliberation, careful prioritization of creditor claims, order of payment distribution.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-09-18T02:37:57Z",
+  "length_status": "too_long",
+  "length_kind": "default",
+  "local_ai_markers_total": 2,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 3,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 49,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "длина значительно больше лимита 6500 (7 979 знаков)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "broken_internal_links: 2 ссылок без соответствия в published_index (/articles/yur/iski-konkyursnogo-upravlyayushchego-trethim-licam: slug 'iski-konkyursnogo-upravlyayushchego-trethim-licam' не найден в категории 'yur' (есть: нигде); /articles/yur/bankrotstvo-akcionernogo-obshchestva-prava-akcionerov: slug 'bankrotstvo-akcionernogo-obshchestva-prava-akcionerov' не найден в категории 'yur' (есть: нигде))"
+  ],
+  "date_published": "2026-09-18",
+  "date_modified": "2026-09-18",
+  "ready_for_review": true,
+  "ready_at": "2026-09-18T02:37:58Z",
+  "publication_target": "telegram_review"
+}

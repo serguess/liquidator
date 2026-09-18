@@ -6882,6 +6882,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "narushenie-ocherednosti-platezhej-bankrotstvo",
+      "category": "yur",
+      "title": "Очередность платежей при банкротстве юридического лица",
+      "added_at": "2026-09-18T05:37:58.664487",
+      "char_count": 7979,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1789699076/articles/narushenie-ocherednosti-platezhej-bankrotstvo-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
