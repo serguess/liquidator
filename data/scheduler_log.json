@@ -43739,5 +43739,107 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-09-18T08:30:21",
+    "category": "news",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 10,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "resume",
+    "resume_slug": "nbki-avtokredity-otkazy-iyul-dolzhniki-restrukturizaciya",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "forced_pass_at_iter2: блокеры пропущены, статья идёт в TG-очередь с metrics_warning=true. Было: 1 блокеров — length_too_long"
+      ],
+      "recommendations": [
+        "reduce_length: сократить до 4000-5000 знаков"
+      ],
+      "stderr_tail": ""
+    },
+    "finalize_safety_net": {
+      "ran": true,
+      "rc": 0
+    },
+    "status": "ok",
+    "slug": "nbki-avtokredity-otkazy-iyul-dolzhniki-restrukturizaciya",
+    "duration_sec": 1791.4,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "eo-editor        haiku            20       8   100384         0    100412\n7-publisher         haiku            62      23    71442    213996     71527\n------------------------------------------------------------------------------------------\nИТОГО                                82      31   171826    213996    171939\nBillable-токенов на статью: ~171K (cache_read 213K не считается в лимит подписки).\nАртефакты: drafts/nbki-avtokredity-otkazy-iyul-dolzhniki-restrukturizaciya/  | quality_gate exit=0",
+    "stderr_tail": "",
+    "tokens_by_model": {},
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7934
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
+  },
+  {
+    "timestamp": "2026-09-18T09:00:15",
+    "category": "news",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 11,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "news-185",
+    "topic_slug": "nbki-avgust-otkazy-kredity-rekord-antirekord",
+    "auto_skipped": [
+      {
+        "slug": "cb-stavka-sokhranilas-pauza-snizheniya-dolzhniki",
+        "reason": "cannibalization:preflight:klyuchevaya-stavka-pauza-cb-dolgi-kak-vliyaet",
+        "duration_sec": 0
+      }
+    ],
+    "status": "failed",
+    "slug": "nbki-avgust-otkazy-kredity-rekord-antirekord",
+    "duration_sec": 465.9,
+    "returncode": 1,
+    "rescued_after_failure": false,
+    "stdout_tail": "=== 1-semantics (claude haiku) ===\n   ok: 1452 симв., usage in=20 out=4 cache_w=27576 cache_r=39548 billable=27600 ток, 42.8с\n=== 2-legal-research (claude haiku) ===\n   ok: 12356 симв., usage in=20 out=10 cache_w=58830 cache_r=39548 billable=58860 ток, 107.4с\n   ok: 12167 симв., billable=58578 ток (model=sonnet)\n   [outline_validate] exit=0\n=== 4-writer (claude opus) ===",
+    "stderr_tail": "[ERR] rate_limit: put_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard\",\"cache_creation\":{\"ephemeral_1h_input_tokens\":0,\"ephemeral_5m_input_tokens\":0},\"inference_geo\":\"\",\"iterations\":[],\"speed\":\"standard\"},\"modelUsage\":{},\"permission_denials\":[],\"terminal_reason\":\"completed\",\"fast_mode_state\":\"off\",\"uuid\":\"99e36fef-a95e-4ecd-a0a3-20bb69926c71\"}\n\n",
+    "tokens_by_model": {},
+    "metrics": null
   }
 ]
