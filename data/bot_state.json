@@ -12788,7 +12788,7 @@
     "bankrotstvo-pri-dolgah-sfr-strahovye-vznosy": {
       "category": "yur",
       "title": "Банкротство юрлица при долгах перед СФР: как снизить риски",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -12796,14 +12796,16 @@
       "tg_message_id": 2779,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-09-15T05:40:25",
-      "last_action_at": "2026-09-15T10:00:27",
+      "last_action_at": "2026-09-18T14:53:10",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/yur/bankrotstvo-pri-dolgah-sfr-strahovye-vznosy",
       "pending_batch": false,
       "pending_batch_at": "2026-09-15T05:40:25",
       "batch_sent_at": "2026-09-15T10:00:27",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-09-18T14:53:10",
+      "articles_path": "articles/yur/bankrotstvo-pri-dolgah-sfr-strahovye-vznosy.html"
     },
     "zhsk-kvartira-bankrotstvo-paevoj-vznos-vs-dokazatelstvo": {
       "category": "news",
