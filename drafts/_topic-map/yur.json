@@ -5383,7 +5383,11 @@
       "frequency_estimate": "medium",
       "rationale": "Обзор ВС РФ ноябрь 2025 приравнял брошенную компанию к ликвидированной и ужесточил внебанкротную субсидиарку. Растущая категория дел — кредиторам выгоднее взыскивать напрямую с директора, не открывая дорогостоящее банкротство.",
       "expected_length_chars": 7000,
-      "topic_action": "субсидиарную ответственность директора"
+      "topic_action": "субсидиарную ответственность директора",
+      "status": "rejected",
+      "rejected_at": "2026-09-19T05:22:06",
+      "rejected_reason": "cannibalization:preflight:subsidiarka-direktora-kak-zashchititsya",
+      "rejected_by": "auto_skip_in_slot"
     },
     {
       "id": "yur-196",
