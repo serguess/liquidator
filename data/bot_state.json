@@ -12982,6 +12982,24 @@
       "batch_fail_count": 0,
       "published_at": "2026-09-18T14:53:39",
       "articles_path": "articles/news/nbki-avtokredity-otkazy-iyul-dolzhniki-restrukturizaciya.html"
+    },
+    "bankrotstvo-pri-lizinge-avtomobilya": {
+      "category": "fiz",
+      "title": "Банкротство при лизинге автомобиля: что теряет должник",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-09-19T00:42:19",
+      "last_action_at": "2026-09-19T00:42:19",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-09-19T00:42:19"
     }
   },
   "pending_actions": [],
