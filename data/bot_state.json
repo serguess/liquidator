@@ -12991,19 +12991,21 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 2817,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-09-19T00:42:19",
-      "last_action_at": "2026-09-19T00:42:19",
+      "last_action_at": "2026-09-19T10:00:08",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-09-19T00:42:19"
+      "pending_batch": false,
+      "pending_batch_at": "2026-09-19T00:42:19",
+      "batch_sent_at": "2026-09-19T10:00:08",
+      "batch_fail_count": 0
     }
   },
   "pending_actions": [],
-  "last_batch_date": "2026-09-18",
-  "last_batch_count": 3,
-  "last_batch_at": "2026-09-18T10:00:09"
+  "last_batch_date": "2026-09-19",
+  "last_batch_count": 1,
+  "last_batch_at": "2026-09-19T10:00:08"
 }
