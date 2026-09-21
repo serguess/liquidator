@@ -6921,6 +6921,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "bankrotstvo-kredit-oformlen-moshennikami",
+      "category": "fiz",
+      "title": "Мошеннический кредит и банкротство физлица",
+      "added_at": "2026-09-22T00:53:22.081751",
+      "char_count": 9249,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1790027595/articles/bankrotstvo-kredit-oformlen-moshennikami-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

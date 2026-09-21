@@ -1,0 +1,103 @@
+{
+  "slug": "bankrotstvo-kredit-oformlen-moshennikami",
+  "category": "fiz",
+  "title": "Мошеннический кредит и банкротство физлица",
+  "description": "Что делать если кредит оформлен мошенниками на ваше имя. Способы защиты и списания чужого долга через суд и банкротство.",
+  "h1": "Мошеннический кредит и банкротство: как списать долг, оформленный без вашего согласия",
+  "lead": "Разбираем параллельные маршруты защиты: оспаривание договора в суде и остановка взысканий через банкротство.",
+  "topic_action": "оспаривание мошеннического кредита",
+  "main_keyword": "мошеннический кредит банкротство",
+  "secondary_keywords": [
+    "как расторгнуть кредит если оформлен без согласия",
+    "мошеннический кредит на чужое имя",
+    "как признать кредит мошенническим",
+    "восстановление прав при мошенничестве с кредитом",
+    "как отменить чужой кредит",
+    "защита от мошенничества с кредитом",
+    "кредит оформлен на другого человека",
+    "как оспорить договор кредита",
+    "банкротство при мошеннических долгах"
+  ],
+  "og_image": "/assets/articles/bankrotstvo-kredit-oformlen-moshennikami.jpg",
+  "breadcrumb_current": "Мошеннический кредит",
+  "internal_links": [
+    "/articles/fiz/bank-otkazal-v-restrukturizacii-chto-delat-bankrotstvo",
+    "/articles/fiz/arest-zarplaty-pristavami-bankrotstvo"
+  ],
+  "external_links": [],
+  "faq": [
+    {
+      "question": "Можно ли не платить, пока идёт судебный спор?",
+      "answer": "Формально обязательство сохраняется до решения суда, и займодавец вправе начислять проценты и штрафы. Мы рекомендуем депонировать спорные суммы на отдельном счёте - это защитит от обвинения в уклонении и одновременно сохранит средства."
+    },
+    {
+      "question": "Что делать, если банк передал чужой заём коллекторам?",
+      "answer": "Направьте им письменное уведомление о споре с копиями заявления в полицию и искового обращения в суд. Взыскатель, знающий о судебном оспаривании обязательства, обязан приостановить активные действия - иначе рискует штрафом от ФССП."
+    },
+    {
+      "question": "Какие документы нужны для подачи иска?",
+      "answer": "Копия спорной бумаги, справка из бюро кредитных историй, детализация звонков за спорный период, талон-уведомление о принятии заявления в полиции, свидетельства о вашем местонахождении на дату выдачи займа. Дополнительно - образцы вашего автографа для экспертизы."
+    },
+    {
+      "question": "Сколько стоит почерковедческая экспертиза?",
+      "answer": "От 15 до 40 тысяч рублей в зависимости от региона и объёма исследуемого материала. При выигрыше суд взыскивает эти расходы с проигравшей стороны - фактически ответчик возвращает вам полную сумму."
+    },
+    {
+      "question": "Обязательно ли уголовное дело для признания сделки недействительной?",
+      "answer": "Нет, гражданский суд рассматривает спор самостоятельно. Приговор усиливает позицию как обязательное доказательство, но его отсутствие не блокирует иск - хватит собственных доказательств фальсификации или обмана."
+    },
+    {
+      "question": "Действует ли трёхлетняя давность на кредит с фальшивой подписью?",
+      "answer": "Нет. Ничтожные сделки (а фальшивый автограф - именно такой случай) оспариваются без ограничения по времени. Можно поднять вопрос о недействительности хоть спустя десять лет после выдачи займа."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все факты сверены с research.json. Статусы: active. last_verified в пределах 6 месяцев для всех ключевых утверждений.",
+    "Сроки исковой давности: 3 года (ст. 199 ГК РФ) - актуально, ничтожные сделки без ограничения.",
+    "Ставки и суммы: почерковедческая экспертиза 15-40 тыс. рублей - соответствует типичным расценкам.",
+    "Портал 213.11 и 213.28 п. 5 127-ФЗ - контекст применения корректен, различие между потерпевшим и преступником соблюдено.",
+    "Внешние ссылки КонсультантПлюс/Гарант отсутствуют в draft - рекомендуется добавить при финальном редактировании."
+  ],
+  "keyword_density_main": 0.015,
+  "main_keyword_exact_count": 2,
+  "text_chars": 9249,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.079,
+  "local_spam_ngram3_repeat": 0.012,
+  "local_lexical_diversity": 0.651,
+  "local_ai_markers_density": 0.54,
+  "local_ai_markers_critical": 0,
+  "local_ai_markers_total": 6,
+  "local_ai_markers_high": 1,
+  "local_own_voice_hits": 2,
+  "local_first_person_singular_hits": 0,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1790027595/articles/bankrotstvo-kredit-oformlen-moshennikami-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1790027595/articles/bankrotstvo-kredit-oformlen-moshennikami-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Close-to-medium architectural photograph of a massive stone government building, focusing on texture and dramatic light. Camera: extreme low-angle up the columns OR diagonal across the limestone façade. In the immediate foreground on stone steps: a closed dark leather briefcase, a stack of bound dossiers tied with cord, a folded umbrella leaned against the weathered doorframe. Lighting: hard dramatic side-light casting deep shadows from architectural features. Palette: warm aged sandstone, cool grey shadow, moss-tinged cracks. Mood: weight, permanence, the gravity of institutional authority and legal consequence.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-09-21T21:53:16Z",
+  "length_status": "too_long",
+  "length_kind": "default",
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 47,
+  "predicted_ai_pct": 5,
+  "predicted_uniqueness_pct": 90,
+  "customer_risks": [
+    "длина значительно больше лимита 6500 (9 249 знаков)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "length_too_long: 9249 > 6500 (kind=default)",
+    "targeted_tokens_over_limit: ГК_кодекс=5(>≤3)"
+  ],
+  "date_published": "2026-09-22",
+  "date_modified": "2026-09-22",
+  "ready_for_review": true,
+  "ready_at": "2026-09-21T21:53:22Z",
+  "publication_target": "telegram_review"
+}
