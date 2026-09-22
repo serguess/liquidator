@@ -13040,6 +13040,24 @@
       "published_url": null,
       "pending_batch": true,
       "pending_batch_at": "2026-09-22T05:19:24"
+    },
+    "cb-standart-rassrochki-zastrojshchika-dolshchik": {
+      "category": "news",
+      "title": "Стандарт рассрочки застройщика ЦБ: риски покупателя",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-09-22T09:08:27",
+      "last_action_at": "2026-09-22T09:08:27",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-09-22T09:08:27"
     }
   },
   "pending_actions": [],

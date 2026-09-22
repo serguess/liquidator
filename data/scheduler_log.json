@@ -44402,5 +44402,99 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-09-22T08:30:03",
+    "category": "news",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 5,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "news-186",
+    "topic_slug": "cb-standart-rassrochki-zastrojshchika-dolshchik",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "length_soft_passed: 7483 > 5500 но ≤ 7500 и iteration=2 — пропускаем (приоритет spam/uniqueness/ai)"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "finalize_safety_net": {
+      "ran": true,
+      "rc": 0
+    },
+    "status": "ok",
+    "slug": "cb-standart-rassrochki-zastrojshchika-dolshchik",
+    "duration_sec": 2258.9,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "21971\n6-seo-editor        haiku            20       8    60592     39548     60620\n7-publisher         haiku            20      12    36232     39548     36264\n------------------------------------------------------------------------------------------\nИТОГО                               158      85   485669    470685    485912\nBillable-токенов на статью: ~485K (cache_read 470K не считается в лимит подписки).\nАртефакты: drafts/cb-standart-rassrochki-zastrojshchika-dolshchik/  | quality_gate exit=0",
+    "stderr_tail": "",
+    "tokens_by_model": {},
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7483
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
+  },
+  {
+    "timestamp": "2026-09-22T09:07:45",
+    "category": "news",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 6,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "news-187",
+    "topic_slug": "cb-ipoteka-izhs-uzhestochenie-pdn-zaemshchiki",
+    "status": "failed",
+    "slug": "cb-ipoteka-izhs-uzhestochenie-pdn-zaemshchiki",
+    "duration_sec": 317.3,
+    "returncode": 1,
+    "rescued_after_failure": false,
+    "stdout_tail": "=== 1-semantics (claude haiku) ===\n   ok: 1589 симв., usage in=20 out=12 cache_w=27568 cache_r=39548 billable=27600 ток, 27.4с\n=== 2-legal-research (claude haiku) ===\n   ok: 13414 симв., usage in=62 out=16 cache_w=91399 cache_r=258732 billable=91477 ток, 68.6с\n   ok: 12491 симв., billable=59676 ток (model=sonnet)\n   [outline_validate] exit=0\n=== 4-writer (claude opus) ===",
+    "stderr_tail": "[ERR] rate_limit: put_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard\",\"cache_creation\":{\"ephemeral_1h_input_tokens\":0,\"ephemeral_5m_input_tokens\":0},\"inference_geo\":\"\",\"iterations\":[],\"speed\":\"standard\"},\"modelUsage\":{},\"permission_denials\":[],\"terminal_reason\":\"completed\",\"fast_mode_state\":\"off\",\"uuid\":\"308a1642-2b48-4039-af55-0e256408e976\"}\n\n",
+    "tokens_by_model": {},
+    "metrics": null
   }
 ]
