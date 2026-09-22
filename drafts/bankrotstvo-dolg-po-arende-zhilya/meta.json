@@ -1,0 +1,108 @@
+{
+  "slug": "bankrotstvo-dolg-po-arende-zhilya",
+  "category": "fiz",
+  "title": "Банкротство арендатора: что с долгом по аренде",
+  "description": "Как влияет банкротство физлица на долг по аренде жилья, какие права есть у арендодателя и арендатора, и как защитить свои интересы в суде.",
+  "h1": "Что с долгом по аренде при банкротстве: права и обязательства арендатора",
+  "lead": "Разбираем, что спишется из арендного долга при банкротстве физлица, каковы права арендодателя в реестре кредиторов и когда пропущенный 60-дневный срок стоит потерянных денег.",
+  "topic_action": "разбор ситуации с долгом по аренде при банкротстве",
+  "breadcrumb_current": "Долг по аренде при банкротстве",
+  "og_image": "/assets/articles/bankrotstvo-dolg-po-arende-zhilya.jpg",
+  "main_keyword": "банкротство арендатора долг по аренде",
+  "secondary_keywords": [
+    "долг по аренде квартиры при банкротстве",
+    "что происходит с договором аренды при банкротстве",
+    "права арендодателя при банкротстве арендатора",
+    "может ли арендодатель требовать оплату после банкротства",
+    "расторжение договора аренды при банкротстве",
+    "долг по коммунальным платежам при банкротстве",
+    "как защитить интересы при банкротстве арендатора"
+  ],
+  "internal_links": [
+    "/articles/fiz/arest-zarplaty-pristavami-bankrotstvo",
+    "/articles/fiz/alimenty-pri-bankrotstve-fizlica"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/",
+    "https://www.consultant.ru/document/cons_doc_LAW_5142/"
+  ],
+  "faq": [
+    {
+      "question": "Спишется ли задолженность за жильё, если нанимателя признали банкротом?",
+      "answer": "Частично. Просроченная сумма, накопленная до старта дела, включается в реестр и гасится из конкурсной массы, если там что-то есть. Свежие платежи, начисленные после введения процедуры, не списываются - это правило п. 5 ст. 213.28 127-ФЗ."
+    },
+    {
+      "question": "Что происходит с наймом, если управляющий решил, что он убыточен?",
+      "answer": "Управляющий вправе отказаться от исполнения по п. 3 ст. 213.22 127-ФЗ. Нужно решение суда или согласие собрания кредиторов. Собственника уведомляют в срок, прописанный в контракте, - обычно 15-30 дней."
+    },
+    {
+      "question": "Сколько дней у хозяина квартиры на подачу требования?",
+      "answer": "60 календарных дней с момента публикации сведений о банкротстве в ЕФРСБ. Пропуск срока лишает возможности получить деньги из конкурсной массы наравне с другими кредиторами."
+    },
+    {
+      "question": "Можно ли выселить нанимателя только за то, что он банкрот?",
+      "answer": "Нет. Ст. 610 ГК РФ запрещает односторонний отказ от договора без основания. Признание несостоятельным таким основанием не является. Основание для расторжения - именно неоплата или иное нарушение условий."
+    },
+    {
+      "question": "Обязательно ли платить коммуналку во время процедуры?",
+      "answer": "Да. Все начисления, возникшие после введения дела, относятся к текущим платежам и не прощаются при завершении (п. 5 ст. 213.28 127-ФЗ). Управляющий обязан их гасить в приоритете, если найм продолжается."
+    },
+    {
+      "question": "Чем мировое соглашение выгоднее судебного расторжения?",
+      "answer": "Гибкими условиями и скоростью. Стороны сами определяют график, размер выплат и судьбу сделки. Судебное расторжение - длительная процедура с ограниченными вариантами. Мировое утверждает арбитраж, после чего оно приравнивается к исполнительному документу (ст. 160-164 127-ФЗ)."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все утверждения сверены с research.json. Статусы: active. last_verified: 2026-09-22 для всех ключевых фактов.",
+    "Текущие платежи не списываются (п. 5 ст. 213.28 127-ФЗ) - контекст применения корректен (f1).",
+    "Отказ финуправа от исполнения (п. 3 ст. 213.22 127-ФЗ) - процедура уведомления описана верно (f3).",
+    "Запрет одностороннего расторжения (ст. 610 ГК РФ) - банкротство как не-основание подтверждено (f4).",
+    "ПМ 2026: 20 644 руб. (ФЗ-426 от 28.11.2025) - верифицирован (f7).",
+    "Срок подачи в реестр: 60 дней с публикации в ЕФРСБ - формулировка корректна (f10).",
+    "Мировое соглашение (ст. 160-164 127-ФЗ) - контекст применения верен (f12).",
+    "Forbidden claims: нарушений не обнаружено."
+  ],
+  "keyword_density_main": 0.014,
+  "main_keyword_exact_count": 1,
+  "text_chars": 9042,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.093,
+  "local_spam_ngram3_repeat": 0.028,
+  "local_lexical_diversity": 0.622,
+  "local_ai_markers_density": 0.18,
+  "local_ai_markers_critical": 0,
+  "local_ai_markers_total": 2,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 3,
+  "local_first_person_singular_hits": 0,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1790113277/articles/bankrotstvo-dolg-po-arende-zhilya-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1790113277/articles/bankrotstvo-dolg-po-arende-zhilya-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Wide-angle editorial photograph of a grand symmetric courthouse or administrative hall interior with polished marble flooring and strong architectural lines leading into the frame. Dead-center composition: a marble pedestal or long polished table holding a sealed leather portfolio, a polished brass round official seal, a brass key ring with three keys, an antique brass pocket watch positioned to the side, and a closed sealed document folder. Soft cool natural daylight streams from tall skylights and large windows illuminating the marble surfaces with subtle shadows. Camera position: dead-center symmetric, eye-level, slight wide-angle. Materials: polished marble, deep walnut trim, burnished brass. Palette: cool whites, pale cream marble, warm brass accents on cool grey shadows. Mood: institutional gravity, formal judicial process, official resolution of matters.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-09-22T21:41:18Z",
+  "length_status": "too_long",
+  "length_kind": "default",
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 49,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "длина значительно больше лимита 6500 (9 042 знаков)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "length_too_long: 9042 > 6500 (kind=default)",
+    "spam_risk: 1 флагов (top10_sum>80 (=81)), top-5: ['собственник', 'сумм', 'банкротств', 'дела', 'процедур']",
+    "targeted_tokens_over_limit: ст_сокращение=10(>≤5), РФ_рудимент=6(>≤2), 127фз_закон=3(>≤2)"
+  ],
+  "date_published": "2026-09-23",
+  "date_modified": "2026-09-23",
+  "ready_for_review": true,
+  "ready_at": "2026-09-22T21:41:22Z",
+  "publication_target": "telegram_review"
+}

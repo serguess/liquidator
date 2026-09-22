@@ -44571,5 +44571,10 @@
       "spam": null,
       "text_chars": 6180
     }
+  },
+  {
+    "timestamp": "2026-09-22T19:36:10",
+    "status": "preflight_failed",
+    "reason": "rate_limit: You've hit your limit · resets 7:40pm (Europe/Moscow)"
   }
 ]
