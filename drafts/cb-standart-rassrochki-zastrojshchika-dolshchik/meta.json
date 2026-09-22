@@ -1,0 +1,102 @@
+{
+  "slug": "cb-standart-rassrochki-zastrojshchika-dolshchik",
+  "category": "news",
+  "title": "Стандарт рассрочки застройщика ЦБ: риски покупателя",
+  "description": "Что изменилось в правилах рассрочки от застройщика после введения стандартов ЦБ, как это повлияет на цену жилья и права покупателя - разбор для должников.",
+  "h1": "Стандарт рассрочки от застройщика: новые правила ЦБ и защита покупателя",
+  "lead": "15 сентября 2026 года Центробанк заявил о требованиях к раскрытию информации о рассрочке от застройщика, чтобы защитить покупателей от скрытых условий и переплат.",
+  "topic_action": "расчёт условий рассрочки от застройщика",
+  "breadcrumb_current": "Рассрочка от застройщика",
+  "og_image": "/assets/articles/cb-standart-rassrochki-zastrojshchika-dolshchik.jpg",
+  "main_keyword": "стандарт рассрочки от застройщика",
+  "secondary_keywords": [
+    "рассрочка от застройщика новые правила",
+    "ЦБ вводит стандарты рассрочки",
+    "защита покупателя при рассрочке",
+    "рассрочка застройщика риски",
+    "как получить рассрочку от застройщика",
+    "стоимость рассрочки от застройщика",
+    "ипотека или рассрочка от застройщика",
+    "условия рассрочки жилого дома"
+  ],
+  "internal_links": [
+    "/articles/fiz/bankrotstvo-fizlica-i-dolgi",
+    "/articles/yur/zashchita-prav-priobretatelya-zhilya"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_19781/",
+    "https://www.consultant.ru/document/cons_doc_LAW_45481/",
+    "https://cbr.ru/"
+  ],
+  "faq": [
+    {
+      "question": "Что обязан раскрыть застройщик до подписания соглашения?",
+      "answer": "Полную стоимость с учётом любых надбавок, точный график взносов, размер пеней и штрафов, основания для одностороннего расторжения. Это требование 10-й нормы 2300-1 о защите потребителей. Ориентиры регулятора добавляют формат раскрытия - табличный, наглядный."
+    },
+    {
+      "question": "Можно ли передумать в первые две недели?",
+      "answer": "Только если сделка юридически оформлена как потребительский кредит с процентами. Тогда работает 8-я норма 353-ФЗ: четырнадцать дней на отказ без штрафов. Простую отсрочку по купле-продаже так расторгнуть нельзя."
+    },
+    {
+      "question": "Чем покупка жилья в рассрочку отличается от ипотеки?",
+      "answer": "При ипотеке квартира в залоге у банка до последнего взноса. Здесь жильё сразу оформлено на приобретателя, залога нет. Долг взыскивается через суд и приставов, а не быстрой продажей заложенной недвижимости."
+    },
+    {
+      "question": "Какую пеню начислят при задержке очередного взноса?",
+      "answer": "Размер определяет соглашение сторон. Диапазон обычно от 0,1 до 0,5% за каждый день. Суд по 333-й норме кодекса может снизить сумму, если она непропорциональна убыткам продавца."
+    },
+    {
+      "question": "Распространяются ли новые требования ЦБ на ранее заключённые соглашения?",
+      "answer": "По общему правилу нет. Регуляторные акты действуют с момента официальной публикации и на будущие сделки. Ретроактивное распространение на прежние документы маловероятно."
+    },
+    {
+      "question": "Когда суд снижает размер неустойки?",
+      "answer": "Когда клиент подаёт заявление о применении 333-й нормы и доказывает несоразмерность санкции реальным потерям продавца. Учитывается фактический ущерб компании, срок просрочки, поведение сторон. Типичное снижение - в два-три раза."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все основные факты (f1-f8) соответствуют research.json и обоснованы нормативными актами",
+    "Новые стандарты ЦБ (f9) описаны в соответствии с safe_phrasing без конкретного Положения",
+    "Влияние на цену (f10) описано как потенциальное, в соответствии с safe_phrasing",
+    "Нет запрещённых утверждений из forbidden_claims",
+    "Три формы рассрочки и право отказа на 14 дней подтверждены (f1, f3, f8)",
+    "Судебная практика по квалификации по сущности сделки упомянута корректно (f5)"
+  ],
+  "keyword_density_main": null,
+  "main_keyword_exact_count": null,
+  "text_chars": 7483,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.092,
+  "local_spam_ngram3_repeat": 0.025,
+  "local_lexical_diversity": 0.632,
+  "local_ai_markers_density": 0.21,
+  "local_ai_markers_critical": 0,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1790057258/articles/cb-standart-rassrochki-zastrojshchika-dolshchik-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1790057258/articles/cb-standart-rassrochki-zastrojshchika-dolshchik-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Editorial photograph of a modern financial advisor's desk by a tall window. Camera at table-eye level, slight three-quarter angle. On the walnut surface: a closed leather portfolio, a fountain pen aligned parallel to its edge ready for signature, reading glasses positioned to the side, a closed slim silver laptop representing digital financial platforms, and a white porcelain coffee cup on a saucer. Background through the window: blurred contemporary urban skyline with office buildings in soft bokeh, warm golden hour or cool overcast light. Lighting from the window creates a mix of cool daylight and subtle warm interior accents. Materials: walnut, leather, brushed steel, polished brass. Premium financial-legal aesthetic, neutral beige and graphite palette with subtle brass warmth. Mood: deliberate financial decision-making, careful review of investment commitment and payment terms.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-09-22T06:07:39Z",
+  "length_status": "too_long",
+  "length_kind": "news",
+  "local_ai_markers_total": 2,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 4,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 49,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "длина значительно больше лимита 5500 (7 483 знаков)"
+  ],
+  "date_published": "2026-09-22",
+  "date_modified": "2026-09-22",
+  "ready_for_review": true,
+  "ready_at": "2026-09-22T06:07:42Z",
+  "publication_target": "telegram_review"
+}
