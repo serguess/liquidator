@@ -12986,7 +12986,7 @@
     "bankrotstvo-pri-lizinge-avtomobilya": {
       "category": "fiz",
       "title": "Банкротство при лизинге автомобиля: что теряет должник",
-      "status": "pending_review",
+      "status": "published",
       "current_version": "2.0",
       "versions": [
         "2.0"
@@ -12994,18 +12994,56 @@
       "tg_message_id": 2817,
       "tg_chat_id": 583558720,
       "first_seen_at": "2026-09-19T00:42:19",
-      "last_action_at": "2026-09-19T10:00:08",
+      "last_action_at": "2026-09-22T08:18:26",
       "edits_history": [],
       "rejection_reason": null,
-      "published_url": null,
+      "published_url": "https://pravo.shop/articles/fiz/bankrotstvo-pri-lizinge-avtomobilya",
       "pending_batch": false,
       "pending_batch_at": "2026-09-19T00:42:19",
       "batch_sent_at": "2026-09-19T10:00:08",
-      "batch_fail_count": 0
+      "batch_fail_count": 0,
+      "published_at": "2026-09-22T08:18:26",
+      "articles_path": "articles/fiz/bankrotstvo-pri-lizinge-avtomobilya.html"
+    },
+    "bankrotstvo-kredit-oformlen-moshennikami": {
+      "category": "fiz",
+      "title": "Мошеннический кредит и банкротство физлица",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-09-22T00:53:39",
+      "last_action_at": "2026-09-22T00:53:39",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-09-22T00:53:39"
+    },
+    "subsidiarka-neskolkih-kdl-solidarno-dolevo": {
+      "category": "yur",
+      "title": "Субсидиарная ответственность нескольких КДЛ: солидарные доли",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": null,
+      "tg_chat_id": null,
+      "first_seen_at": "2026-09-22T05:19:24",
+      "last_action_at": "2026-09-22T05:19:24",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": true,
+      "pending_batch_at": "2026-09-22T05:19:24"
     }
   },
   "pending_actions": [],
-  "last_batch_date": "2026-09-19",
-  "last_batch_count": 1,
-  "last_batch_at": "2026-09-19T10:00:08"
+  "last_batch_date": "2026-09-21",
+  "last_batch_count": 0,
+  "last_batch_at": "2026-09-21T10:00:24"
 }
