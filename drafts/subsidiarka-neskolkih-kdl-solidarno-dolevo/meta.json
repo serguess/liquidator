@@ -1,0 +1,111 @@
+{
+  "slug": "subsidiarka-neskolkih-kdl-solidarno-dolevo",
+  "category": "yur",
+  "title": "Субсидиарная ответственность нескольких КДЛ: солидарные доли",
+  "description": "Как делится субсидиарная ответственность между несколькими контролирующими должника лицами, солидарно или в долях, порядок взыскания и судебная практика.",
+  "h1": "Субсидиарная ответственность нескольких контролирующих должника лиц: как она делится и в каких долях",
+  "lead": "Разбираем, как работает солидарная субсидиарка при нескольких контролёрах, когда возможно разделение долга и что делать тому, кто заплатил за всех.",
+  "topic_action": "проверку рисков субсидиарной ответственности",
+  "breadcrumb_current": "Субсидиарная ответственность нескольких КДЛ",
+  "og_image": "/assets/articles/subsidiarka-neskolkih-kdl-solidarno-dolevo.jpg",
+  "main_keyword": "субсидиарная ответственность нескольких контролирующих должника лиц",
+  "secondary_keywords": [
+    "субсидиарная ответственность КДЛ",
+    "контролирующие должника лица",
+    "солидарная субсидиарная ответственность",
+    "как делится субсидиарная ответственность",
+    "субсидиарная ответственность несколько лиц",
+    "солидарное взыскание субсидиарной ответственности",
+    "разделение субсидиарной ответственности в долях",
+    "судебная практика субсидиарная ответственность",
+    "взыскание задолженности с контролирующих лиц"
+  ],
+  "internal_links": [
+    "/articles/yur/subsidiarka-direktora-kak-zashchititsya"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/",
+    "https://www.consultant.ru/document/cons_doc_LAW_5142/"
+  ],
+  "faq": [
+    {
+      "question": "Делится ли долг между КДЛ поровну?",
+      "answer": "Нет. Судья не разделяет непогашенные требования на равные куски при вынесении основного акта. Каждый фигурант отвечает целиком - на всю сумму. Разделение возможно только позже, в отдельном регрессном споре."
+    },
+    {
+      "question": "Что если один из КДЛ доказал добросовестность?",
+      "answer": "Он освобождается от привлечения по п. 10 ст. 61.11. Остальные при этом продолжают нести солидарную ответственность в полном объёме требований (Пленум ВС № 53, п. 18). Долговое бремя оставшихся не уменьшается."
+    },
+    {
+      "question": "Сколько лет отводится кредитору на иск против КДЛ?",
+      "answer": "Три года с момента, когда управомоченное лицо узнало об основаниях против именно этого фигуранта (п. 5 ст. 61.14). Объективный пресекательный срок - десять лет с момента совершения противоправных действий. Для каждого соучастника сроки считаются отдельно."
+    },
+    {
+      "question": "Вправе ли кредитор потребовать весь долг с одного КДЛ?",
+      "answer": "Да. Смысл солидарности как раз в этом: кредитор выбирает, к кому предъявить полное требование - к одному, к нескольким или ко всем сразу (ст. 61.14 127-ФЗ). Часто выбирают самого платёжеспособного."
+    },
+    {
+      "question": "Как работает регрессное требование?",
+      "answer": "Тот, кто заплатил больше своей справедливой части, вправе требовать возмещения от остальных по ст. 323 ГК РФ. Иск подаётся отдельно, после завершения конкурсного производства. По умолчанию доли равные, но судья учитывает степень вины и продолжительность контроля каждого."
+    },
+    {
+      "question": "Обязательно ли предъявлять иск ко всем контролёрам одновременно?",
+      "answer": "Нет. Управляющий вправе идти против них последовательно: сначала один, после частичного взыскания - следующий. Судья в рамках одного банкротного дела нередко объединяет производства, если заявления поданы параллельно."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все юридические утверждения сверены с research.json. Статусы: active, last_verified: 2026-09-19.",
+    "Солидарная ответственность (п. 1 ст. 61.11 127-ФЗ) - корректно, f2 подтверждает.",
+    "Круг КДЛ (ст. 61.10 п. 1, пп. 1 и 2 п. 4, п. 5) - корректно, f1 подтверждает.",
+    "Регресс по ст. 323 ГК РФ - корректно, f4 подтверждает.",
+    "Порядок взыскания (ст. 61.14 п. 1-2, ст. 61.17) - корректно, f3 и f10 подтверждают.",
+    "Обеспечительные меры (ст. 46 127-ФЗ, ст. 90-91 АПК) - корректно, f8 подтверждает.",
+    "Исковая давность (п. 5 ст. 61.14) - корректно, f7 подтверждает.",
+    "Business judgment rule (п. 10 ст. 61.11, ПП ВС № 53 п. 18) - корректно, f9 подтверждает.",
+    "Запрещённые утверждения о делении долга поровну на этапе основного производства отсутствуют."
+  ],
+  "keyword_density_main": 0.012,
+  "main_keyword_exact_count": 1,
+  "text_chars": 8554,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.083,
+  "local_spam_ngram3_repeat": 0.059,
+  "local_lexical_diversity": 0.594,
+  "local_ai_markers_density": 0.48,
+  "local_ai_markers_critical": 0,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1790043536/articles/subsidiarka-neskolkih-kdl-solidarno-dolevo-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1790043536/articles/subsidiarka-neskolkih-kdl-solidarno-dolevo-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Close-up architectural photograph of stone columns and marble staircase treads in a grand courthouse interior, with multiple parallel archways emphasizing proportional geometry and distributed responsibility. Camera angle: low-angle looking up the columns, or diagonal across worn marble treads. Foreground at base of frame: a stack of closed dossiers tied with cord representing multiple defendants or respondents, and a polished round brass seal symbolizing institutional legal authority. Lighting: cool morning daylight or warm golden-hour glow on marble veining, casting dramatic shadows that emphasize architectural weight. Materials: weathered limestone, polished marble with visible veining, oxidized brass railings and seal, deep leather bindings. Mood: institutional gravitas, shared accountability, deliberation on consequence.\n\nscene_written template_id=5. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-09-22T02:18:57Z",
+  "length_status": "too_long",
+  "length_kind": "default",
+  "local_ai_markers_total": 5,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 3,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 56,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность выше 50% (~56%)",
+    "длина значительно больше лимита 6500 (8 554 знаков)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "length_too_long: 8554 > 6500 (kind=default)",
+    "spam_risk: 1 флагов (ngram3_repeat_share>0.055 (=0.059)), top-5: ['фигурант', 'част', 'судь', 'отдельн', 'закон']",
+    "targeted_tokens_over_limit: ст_сокращение=17(>≤5), РФ_рудимент=3(>≤2)"
+  ],
+  "date_published": "2026-09-22",
+  "date_modified": "2026-09-22",
+  "ready_for_review": true,
+  "ready_at": "2026-09-22T02:18:59Z",
+  "publication_target": "telegram_review"
+}
