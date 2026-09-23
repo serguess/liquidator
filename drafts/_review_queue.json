@@ -6986,6 +6986,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "mayatnikovye-torgi-bankrotstvo-krupnye-aktivy",
+      "category": "news",
+      "title": "Маятниковые торги при банкротстве: новый механизм",
+      "added_at": "2026-09-23T09:04:10.025636",
+      "char_count": 7013,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1790143445/articles/mayatnikovye-torgi-bankrotstvo-krupnye-aktivy-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

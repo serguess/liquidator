@@ -44639,5 +44639,58 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-09-23T05:12:02",
+    "category": "yur",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "mode": "new",
+    "topic_id": "yur-197",
+    "topic_slug": "droblenie-biznesa-bankrotstvo-subsidiarka-riski",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "forced_pass_at_iter2: блокеры пропущены, статья идёт в TG-очередь с metrics_warning=true. Было: 1 блокеров — length_too_long"
+      ],
+      "recommendations": [
+        "reduce_length: сократить до 5000-6000 знаков"
+      ],
+      "stderr_tail": ""
+    },
+    "finalize_safety_net": {
+      "ran": true,
+      "rc": 0
+    },
+    "status": "ok",
+    "slug": "droblenie-biznesa-bankrotstvo-subsidiarka-riski",
+    "duration_sec": 2382.9,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "59526\n6-seo-editor        haiku            20       8    72256     39548     72284\n7-publisher         haiku            20       8    36220     39548     36248\n------------------------------------------------------------------------------------------\nИТОГО                               166      77   658804    544196    659047\nBillable-токенов на статью: ~659K (cache_read 544K не считается в лимит подписки).\nАртефакты: drafts/droblenie-biznesa-bankrotstvo-subsidiarka-riski/  | quality_gate exit=0",
+    "stderr_tail": "",
+    "tokens_by_model": {},
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 8602
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]
