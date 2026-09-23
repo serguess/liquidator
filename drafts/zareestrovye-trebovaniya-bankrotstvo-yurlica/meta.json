@@ -1,0 +1,115 @@
+{
+  "slug": "zareestrovye-trebovaniya-bankrotstvo-yurlica",
+  "category": "yur",
+  "title": "Зареестровые требования при банкротстве юрлица: порядок и сроки",
+  "description": "Подробно о том, как и когда кредиторы могут подать требования в реестр при банкротстве компании: порядок учёта, сроки, требования к документам.",
+  "h1": "Зареестровые требования кредиторов при банкротстве юридического лица: полное руководство",
+  "lead": "Разберём, чем зареестровые требования отличаются от реестровых, когда закрывается реестр кредиторов, какие документы нужны и что делать при возражении конкурсного управляющего.",
+  "topic_action": "защиту требований кредитора при банкротстве юрлица",
+  "breadcrumb_current": "Зареестровые требования при банкротстве юрлица",
+  "og_image": "/assets/articles/zareestrovye-trebovaniya-bankrotstvo-yurlica.jpg",
+  "main_keyword": "зареестровые требования при банкротстве юрлица",
+  "secondary_keywords": [
+    "требования кредиторов при банкротстве",
+    "реестр требований кредиторов банкротство",
+    "как подать требование в реестр банкротства",
+    "требования включённые в реестр",
+    "банкротство реестр кредиторов",
+    "порядок регистрации требований кредиторов",
+    "сроки подачи требований при банкротстве",
+    "требования к оформлению требования кредитора",
+    "верификация требований кредиторов",
+    "очередность требований при банкротстве"
+  ],
+  "internal_links": [
+    "/articles/yur/iski-konkyursnogo-upravlyayushchego-trethim-licam",
+    "/articles/yur/kak-oformit-mirovoe-soglashenie-pri-bankrotstve-yurlica"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/",
+    "https://bankrot.fedresurs.ru/"
+  ],
+  "faq": [
+    {
+      "question": "Можно ли перевести опоздавший долг в основной реестр, если появились новые документы?",
+      "answer": "Нет. После того как реестр закрыт, никакие дополнительные бумаги не переводят долг обратно. Обжаловать сам факт закрытия можно, но это отдельная процедура с крайне низкими шансами на успех."
+    },
+    {
+      "question": "Что получат опоздавшие кредиторы при дефиците конкурсной массы?",
+      "answer": "Ничего. Сначала полностью гасятся четыре очереди основного реестра, и только с остатков идут расчёты с опоздавшими. Если денег не хватает даже реестровым кредиторам - зареестровым достаётся ноль."
+    },
+    {
+      "question": "Сколько времени управляющий рассматривает поданное требование?",
+      "answer": "Жёсткого срока нет, обычно проверка занимает от двух недель до месяца. Если данных не хватает, управляющий вправе запросить уточнения - на ответ у кредитора пять дней."
+    },
+    {
+      "question": "Вправе ли налоговая инспекция предъявиться после закрытия реестра?",
+      "answer": "Да, но на общих условиях: требование налоговой тоже станет зареестровым. Никаких привилегий у госорганов на этой стадии нет - только внутри своей третьей очереди, куда они уже не попали."
+    },
+    {
+      "question": "Чем текущий платёж отличается от зареестрового по очерёдности?",
+      "answer": "Текущий платёж возник после возбуждения дела и гасится вне всякой очереди - раньше даже зарплатной первой. Зареестровый возник до банкротства, но был предъявлен с опозданием, поэтому идёт после всех четырёх основных очередей."
+    },
+    {
+      "question": "До какого момента можно обжаловать возражение управляющего в арбитраж?",
+      "answer": "Тридцать дней с даты получения уведомления об отказе (ст. 127 п. 1 127-ФЗ). Дальше срок восстанавливается только по уважительным причинам, доказать которые сложно."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все факты сверены с research.json. Legislation_status: active для всех ключевых утверждений. last_verified: 2026-09-23.",
+    "Срок при конкурсном производстве - 2 месяца с публикации в «Коммерсанте» (ст. 142 п. 1, ст. 128 п. 1 127-ФЗ) - подтверждён f1, f3, f11.",
+    "Срок при наблюдении - 30 дней (ст. 71 п. 1 127-ФЗ) - подтверждён f2.",
+    "Отсчёт от газеты «Коммерсантъ», не от ЕФРСБ - подтверждён f12.",
+    "Содержание требования по ст. 71 п. 2 - наименование кредитора, адрес управляющего, сумма, основание - подтверждено f5.",
+    "Нотариальное удостоверение копий (ст. 71 п. 3) - подтверждено f5, f14.",
+    "Текущие платежи вне очереди (ст. 134 п. 1) - подтверждено f9.",
+    "Четыре реестровые очереди (ст. 134 п. 2-7) - подтверждено f10.",
+    "Возражение управляющего (ст. 124 п. 2) и 30 дней на обжалование (ст. 127 п. 1) - подтверждено f7, f8.",
+    "Fact f13 (needs_verification) в тексте статьи не использован."
+  ],
+  "keyword_density_main": 0.017,
+  "main_keyword_exact_count": 2,
+  "text_chars": 8115,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.129,
+  "local_spam_ngram3_repeat": 0.033,
+  "local_lexical_diversity": 0.624,
+  "local_ai_markers_density": 0.3,
+  "local_ai_markers_critical": 0,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1790182985/articles/zareestrovye-trebovaniya-bankrotstvo-yurlica-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1790182985/articles/zareestrovye-trebovaniya-bankrotstvo-yurlica-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Macro close-up photograph emphasizing surface materials and tactile detail. Central subject: polished round seal pressed onto a closed envelope with wax, symbolizing official claim registration in bankruptcy proceedings. Supporting objects on weathered stone slab: antique brass keys, closed dark leather portfolio, fountain pen laid across. Camera: macro, very shallow depth of field isolating the sealed envelope. Lighting: directional side-light creating sharp specular highlights on brass seal and red wax impression, soft shadow fill on stone texture. Palette: warm brass tones, deep charcoal stone, oxblood-red wax, leather brown. Mood: formal legal documentation, official registry procedure, document sealing and filing.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-09-23T17:03:06Z",
+  "length_status": "too_long",
+  "length_kind": "default",
+  "local_ai_markers_total": 3,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 5,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 51,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность чуть выше 50% (~51%)",
+    "длина значительно больше лимита 6500 (8 115 знаков)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "spam_risk: 4 флагов (top1_count>12 (=16, лемма «кредитор»), top3_sum>30 (=42), top10_sum>80 (=99), top10_share>0.115 (=0.129)), top-5: ['кредитор', 'реестр', 'очеред', 'банкротств', 'требован']",
+    "targeted_tokens_over_limit: ст_сокращение=10(>≤5), 127фз_закон=9(>≤2)",
+    "broken_internal_links: 2 ссылок без соответствия в published_index (/articles/yur/kak-oformit-mirovoe-soglashenie-pri-bankrotstve-yurlica: slug 'kak-oformit-mirovoe-soglashenie-pri-bankrotstve-yurlica' не найден в категории 'yur' (есть: нигде); /articles/yur/iski-konkyursnogo-upravlyayushchego-trethim-licam: slug 'iski-konkyursnogo-upravlyayushchego-trethim-licam' не найден в категории 'yur' (есть: нигде))",
+    "too_few_short_sentences: 10 < 12"
+  ],
+  "date_published": "2026-09-23",
+  "date_modified": "2026-09-23",
+  "ready_for_review": true,
+  "ready_at": "2026-09-23T17:03:10Z",
+  "publication_target": "telegram_review"
+}

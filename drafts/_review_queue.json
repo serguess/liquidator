@@ -7012,6 +7012,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "zareestrovye-trebovaniya-bankrotstvo-yurlica",
+      "category": "yur",
+      "title": "Зареестровые требования при банкротстве юрлица: порядок и сроки",
+      "added_at": "2026-09-23T20:03:10.635327",
+      "char_count": 8115,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1790182985/articles/zareestrovye-trebovaniya-bankrotstvo-yurlica-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
