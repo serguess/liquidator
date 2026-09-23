@@ -1,0 +1,107 @@
+{
+  "slug": "bankrotstvo-lgornaya-ipoteka-semejnaya-it",
+  "category": "fiz",
+  "title": "Банкротство и льготная ипотека: сохранится ли ставка",
+  "description": "Что происходит с льготной ипотекой при банкротстве физлица: сохранится ли ставка, можно ли сохранить квартиру и какие последствия",
+  "h1": "Банкротство при льготной ипотеке: сохранится ли ставка и что будет с кредитом",
+  "lead": "Разбираем, что происходит с льготной ставкой и ипотечной квартирой при банкротстве, в чём разница между торгами и реструктуризацией и при каких условиях жильё реально сохранить.",
+  "topic_action": "сохранение квартиры при банкротстве",
+  "breadcrumb_current": "Банкротство при льготной ипотеке",
+  "og_image": "/assets/articles/bankrotstvo-lgornaya-ipoteka-semejnaya-it.jpg",
+  "main_keyword": "банкротство при льготной ипотеке",
+  "secondary_keywords": [
+    "сохранится ли ставка при банкротстве",
+    "льготная ипотека и банкротство физлица",
+    "что происходит с ипотекой при банкротстве",
+    "льготная ставка и процедура банкротства",
+    "банкротство как сохранить квартиру по ипотеке",
+    "семейная ипотека и банкротство",
+    "государственная поддержка ипотеки при банкротстве",
+    "погашение ипотеки в процессе банкротства"
+  ],
+  "internal_links": [
+    "/articles/fiz/bankrotstvo-pri-ipoteke-edinstvennoe-zhilye",
+    "/articles/fiz/kak-podat-na-bankrotstvo-samostoyatelno"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/",
+    "https://www.consultant.ru/document/cons_doc_LAW_5142/"
+  ],
+  "faq": [
+    {
+      "question": "Что происходит с льготной ставкой по семейной программе при банкротстве?",
+      "answer": "Как правило, сниженный процент теряется: условие о платёжной дисциплине в договоре нарушается, кредитор вправе перевести заём на стандартный тариф. Точная формулировка - в разделе договора об изменении условий кредитования."
+    },
+    {
+      "question": "Обязан ли залогодержатель согласиться на реструктуризацию?",
+      "answer": "Нет. Он голосует на собрании кредиторов и вправе возразить. Если требование не может быть полностью погашено за срок графика - возражение почти гарантировано. Тогда арбитраж переходит к продаже залога."
+    },
+    {
+      "question": "Можно ли сохранить единственное жильё, если оно куплено в ипотеку?",
+      "answer": "Иммунитет ст. 446 ГПК на заложенное помещение не работает. Сохранить квадратные метры реально только через утверждённый план реструктуризации с согласием держателя обременения."
+    },
+    {
+      "question": "Сколько длится реализация заложенной недвижимости?",
+      "answer": "В среднем шесть месяцев с момента признания гражданина банкротом. Срок продлевается по ходатайству залогодержателя, если торги переносятся или требуется дополнительная оценка."
+    },
+    {
+      "question": "Какие долги не спишутся даже после продажи?",
+      "answer": "Текущие платежи по этому же кредиту, задолженности по алиментам, возмещение вреда здоровью, требования, возникшие из недобросовестного поведения должника. Полный перечень - в ст. 213.28 закона о несостоятельности."
+    },
+    {
+      "question": "Учитывает ли арбитраж интересы детей при утверждении графика?",
+      "answer": "Да, это один из факторов при рассмотрении плана. Гарантии сохранения жилого помещения это не даёт, но аргумент в мотивировочной части определения весомый - особенно в паре с подтверждённым доходом семьи."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "f1 (ст. 213.25 127-ФЗ, конкурсная масса): active, last_verified 2026-09-23 - подтверждено, использована норма корректно.",
+    "f2 (ст. 446 ГПК, иммунитет залогового жилья): active, last_verified 2026-09-23 - сформулировано корректно: залоговое жильё иммунитетом не защищено.",
+    "f4 (ст. 138 127-ФЗ, приоритет 70-80%): active, last_verified 2026-09-23 - цифры сохранены, amendment_note учтён (применяется по аналогии к физлицам).",
+    "f5 (п. 5 ст. 213.28, текущие платежи не списываются): active, last_verified 2026-09-23 - подтверждено.",
+    "f6 (ст. 213.13-213.14, реструктуризация до 5 лет): active, last_verified 2026-09-23 - подтверждено, норма применена корректно к процедуре реструктуризации физлица.",
+    "f7 (льготная ставка, needs_verification): конкретная цифра «на 4-8 пунктов выше» из draft удалена - в research.json отсутствует верифицированный источник. Использован safe_phrasing: «вправе пересчитать заём по стандартному тарифу».",
+    "f8 (семейная ипотека, needs_verification): context_check_passed: false. Использован safe_phrasing: условие о платёжной дисциплине нарушается при банкротстве. Прямого норматива нет, формулировка обтекаемая.",
+    "f10 (ст. 213.24 п. 2, срок 6 месяцев): active, last_verified 2026-09-23 - подтверждено."
+  ],
+  "keyword_density_main": 0.012,
+  "main_keyword_exact_count": 2,
+  "text_chars": 8265,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.098,
+  "local_spam_ngram3_repeat": 0.016,
+  "local_lexical_diversity": 0.634,
+  "local_ai_markers_density": 0.2,
+  "local_ai_markers_critical": 0,
+  "local_ai_markers_total": 2,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 3,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1790166450/articles/bankrotstvo-lgornaya-ipoteka-semejnaya-it-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1790166450/articles/bankrotstvo-lgornaya-ipoteka-semejnaya-it-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Minimalist top-down flat-lay on a clean light-grey polished walnut surface. Four well-spaced objects with deliberate negative space: a single brass key on a brass ring positioned center-left, a closed oxblood leather portfolio top-center, a polished round company seal top-right, a smartphone face-down bottom-right. Camera: directly overhead. Lighting: soft even daylight, very subtle directional shadow. Palette: pale neutrals, warm brass accents, deep burgundy leather. Mood: clean editorial, contemporary legal magazine, themes of homeownership protection amid financial transition.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-09-23T12:27:31Z",
+  "length_status": "too_long",
+  "length_kind": "default",
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 49,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "длина значительно больше лимита 6500 (8 265 знаков)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "targeted_tokens_over_limit: ст_сокращение=13(>≤5), 127фз_закон=4(>≤2), 213_артикул=10(>≤3)"
+  ],
+  "date_published": "2026-09-23",
+  "date_modified": "2026-09-23",
+  "ready_for_review": true,
+  "ready_at": "2026-09-23T12:27:33Z",
+  "publication_target": "telegram_review"
+}
