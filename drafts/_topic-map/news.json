@@ -5744,7 +5744,11 @@
       "topic_action": "консультацию при просрочке по кредиту",
       "event_date": "2026-08-22",
       "news_zone": "finance",
-      "primary_source": "https://nbki.ru/company/news/"
+      "primary_source": "https://nbki.ru/company/news/",
+      "status": "rejected",
+      "rejected_at": "2026-09-23T04:00:06",
+      "rejected_reason": "event_too_old:32d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-174",
@@ -6048,7 +6052,11 @@
       "topic_action": "реструктуризация долга",
       "event_date": "2026-08-21",
       "news_zone": "finance",
-      "primary_source": "https://nbki.ru/company/news/?SECTION_ID=2635"
+      "primary_source": "https://nbki.ru/company/news/?SECTION_ID=2635",
+      "status": "rejected",
+      "rejected_at": "2026-09-23T04:00:06",
+      "rejected_reason": "event_too_old:33d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-184",
