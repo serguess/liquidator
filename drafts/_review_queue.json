@@ -7025,6 +7025,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "kak-osporit-raschet-dolga-v-sude-kontrraschet",
+      "category": "vzysk",
+      "title": "Как оспорить расчёт долга в суде: контррасчёт",
+      "added_at": "2026-09-24T00:59:21.868894",
+      "char_count": 7600,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1790200756/articles/kak-osporit-raschet-dolga-v-sude-kontrraschet-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

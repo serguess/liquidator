@@ -1,0 +1,115 @@
+{
+  "slug": "kak-osporit-raschet-dolga-v-sude-kontrraschet",
+  "category": "vzysk",
+  "title": "Как оспорить расчёт долга в суде: контррасчёт",
+  "description": "Узнайте, как оспорить расчёт долга в суде через контррасчёт. Правовые основания, образец возражения, судебная практика и риски для должника.",
+  "h1": "Как оспорить расчёт долга в суде: правовые основания и практика контррасчётов",
+  "lead": "Разбираем, как составить контррасчёт, когда он сработает и какие три инструмента - взаимозачёт, экспертиза и давность - снижают сумму иска независимо от арифметики.",
+  "topic_action": "проверку расчёта кредитора",
+  "breadcrumb_current": "Оспаривание расчёта долга в суде",
+  "og_image": "/assets/articles/kak-osporit-raschet-dolga-v-sude-kontrraschet.jpg",
+  "main_keyword": "как оспорить расчёт долга в суде",
+  "secondary_keywords": [
+    "оспорить расчёт долга контррасчёт",
+    "возражение против расчёта кредитора",
+    "как подать контррасчёт в суде",
+    "образец возражения на расчёт",
+    "судебная практика оспорения расчётов",
+    "перерасчёт долга по иску",
+    "методика расчёта задолженности",
+    "доказательства неправильного расчёта",
+    "взаимозачёт долгов"
+  ],
+  "internal_links": [
+    "/articles/vzysk/kak-obratitsya-k-pristavam-chtoby-priostanovit-nezakonnoe-vzyskanie",
+    "/articles/fiz/bankrotstvo-pri-dolgah-po-raspiskam-i-neformalnym-zaymam"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39570/",
+    "https://www.consultant.ru/document/cons_doc_LAW_5142/"
+  ],
+  "faq": [
+    {
+      "question": "Можно ли подать контррасчёт после решения суда?",
+      "answer": "По существу нет. После вступления решения в силу оспаривание идёт через апелляцию или кассацию, где новую арифметику не заявляют без уважительной причины."
+    },
+    {
+      "question": "Что делать, если истец не учёл частичные платежи?",
+      "answer": "Собрать платёжные поручения, банковские выписки или расходные ордера за спорный период. В возражении показать строку истца, сумму фактического перечисления и итоговую разницу."
+    },
+    {
+      "question": "Нужна ли госпошлина при подаче контррасчёта?",
+      "answer": "За возражение с контррасчётом - нет. За встречный иск - да, по ст. 333.21 НК соразмерно сумме встречных требований. Возражение защищается от иска, встречный иск - самостоятельное требование к истцу."
+    },
+    {
+      "question": "Когда назначается экспертиза расчётов?",
+      "answer": "Когда методика спорная и разобрать её без специальных знаний нельзя. Ходатайство подаёт заинтересованная сторона. Оплату несёт инициатор, но по итогам расходы могут быть возложены на проигравшего."
+    },
+    {
+      "question": "До какого момента подаётся возражение в арбитраже?",
+      "answer": "Тридцать дней с момента получения копии иска - общее правило. Суд вправе назначить свой срок. При уважительных причинах пропуска подаётся ходатайство о принятии позже."
+    },
+    {
+      "question": "Какие документы лучше всего доказывают ошибку кредитора?",
+      "answer": "Договор, акты выполненных работ и сдачи-приёмки, счета, платёжные поручения с отметкой банка, расходные ордера. Именно они разбивают методику расчёта."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все факты сверены с research.json. Статус: active, last_verified: 2026-09-24 для всех ключевых утверждений.",
+    "ст. 148 ГПК / ст. 110 АПК (f1): применение корректно - ст. 148 регулирует возражения ответчика при подготовке дела, ст. 110 АПК - отзыв на иск в арбитраже.",
+    "Сроки (f2): 3 дня по ГПК ст. 149 и 30 дней по АПК ст. 110 - точны.",
+    "ст. 56 ГПК - бремя доказывания (f3): контекст корректен.",
+    "ст. 79 ГПК (экспертиза) и ст. 67 ГПК (суд не связан заключением) (f4): упомянуты верно.",
+    "ст. 410 ГК (взаимозачёт) (f5): условия применения - денежные требования, определённый размер, наступивший срок - переданы точно.",
+    "ст. 196 ГК (3 года) и ст. 199 ГК (заявление о пропуске давности) (f6): верифицированы.",
+    "ст. 181 ГПК (арифметические ошибки суд предлагает исправить) (f7): применение корректно.",
+    "ст. 333.21 НК (госпошлина по встречному иску) (f8): упомянута только для встречного иска, не для возражения - соответствует safe_phrasing и forbidden_claims.",
+    "ст. 98 ГПК (судебные расходы) (f9): контекст корректен.",
+    "Статистика «семь-восемь из десяти» подана как «по нашей практике» - не является абсолютным утверждением, не нарушает forbidden_claims.",
+    "ВНИМАНИЕ: внутренние ссылки /articles/vzysk/kak-obratitsya-k-pristavam-chtoby-priostanovit-nezakonnoe-vzyskanie и /articles/fiz/bankrotstvo-pri-dolgah-po-raspiskam-i-neformalnym-zaymam требуют верификации по published_index.json - quality_gate проверит при сборке article.html."
+  ],
+  "keyword_density_main": 0.015,
+  "main_keyword_exact_count": 2,
+  "text_chars": 7600,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.109,
+  "local_spam_ngram3_repeat": 0.022,
+  "local_lexical_diversity": 0.645,
+  "local_ai_markers_density": 0.32,
+  "local_ai_markers_critical": 0,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1790200756/articles/kak-osporit-raschet-dolga-v-sude-kontrraschet-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1790200756/articles/kak-osporit-raschet-dolga-v-sude-kontrraschet-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Close-up architectural photograph of polished marble slab emphasizing fine veining and texture, with a small cluster of business accessories in tight foreground composition. Camera: eye-level, tight crop. Foreground items: a closed dark leather portfolio positioned slightly left, an antique brass pocket watch with chain, a fountain pen aligned parallel to the portfolio edge, and a polished round institutional seal. Lighting: soft diffused daylight grazing the marble, revealing veining detail and casting subtle shadow under items. Palette: cool white marble, warm cream tones, restrained brass accents. Mood: refined, institutional, serious legal deliberation.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-09-23T21:59:18Z",
+  "length_status": "too_long",
+  "length_kind": "default",
+  "local_ai_markers_total": 3,
+  "local_ai_markers_high": 1,
+  "local_own_voice_hits": 2,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 49,
+  "predicted_ai_pct": 6,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "длина значительно больше лимита 6500 (7 600 знаков)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "spam_risk: 1 флагов (top3_sum>30 (=31)), top-5: ['договор', 'сумм', 'ответчик', 'возражен', 'истц']",
+    "targeted_tokens_over_limit: ст_сокращение=13(>≤5), ГПК_кодекс=7(>≤3), ГК_кодекс=4(>≤3)",
+    "author_markers_missing: 1 < 2",
+    "broken_internal_links: 2 ссылок без соответствия в published_index (/articles/vzysk/kak-obratitsya-k-pristavam-chtoby-priostanovit-nezakonnoe-vzyskanie: slug 'kak-obratitsya-k-pristavam-chtoby-priostanovit-nezakonnoe-vzyskanie' не найден в категории 'vzysk' (есть: нигде); /articles/fiz/bankrotstvo-pri-dolgah-po-raspiskam-i-neformalnym-zaymam: slug 'bankrotstvo-pri-dolgah-po-raspiskam-i-neformalnym-zaymam' не найден в категории 'fiz' (есть: нигде))"
+  ],
+  "date_published": "2026-09-24",
+  "date_modified": "2026-09-24",
+  "ready_for_review": true,
+  "ready_at": "2026-09-23T21:59:21Z",
+  "publication_target": "telegram_review"
+}
