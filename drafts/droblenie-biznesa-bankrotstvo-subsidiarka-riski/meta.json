@@ -1,0 +1,101 @@
+{
+  "slug": "droblenie-biznesa-bankrotstvo-subsidiarka-riski",
+  "category": "yur",
+  "title": "Дробление бизнеса при банкротстве: риски субсидиарки",
+  "description": "Как дробление активов при банкротстве влечёт субсидиарную ответственность. Риски для акционеров, способы защиты и что грозит за фиктивное банкротство.",
+  "h1": "Дробление бизнеса при банкротстве: риски субсидиарной ответственности и защита",
+  "lead": "Разбираем, что происходит с выведенными активами и почему попытка спрятать имущество перед банкротством компании грозит личной ответственностью собственника.",
+  "topic_action": "консультацию по рискам субсидиарной ответственности",
+  "breadcrumb_current": "Дробление бизнеса при банкротстве",
+  "og_image": "/assets/articles/droblenie-biznesa-bankrotstvo-subsidiarka-riski.jpg",
+  "main_keyword": "дробление бизнеса при банкротстве",
+  "secondary_keywords": [
+    "субсидиарка при банкротстве",
+    "ответственность дочерней компании при банкротстве",
+    "риски субсидиарной ответственности",
+    "дочерняя компания банкротство",
+    "дробление активов при банкротстве",
+    "уход от банкротства через дробление",
+    "фиктивное банкротство дробление",
+    "ответственность акционера при банкротстве",
+    "трансферт активов при банкротстве"
+  ],
+  "internal_links": [],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/"
+  ],
+  "faq": [
+    {
+      "question": "Можно ли оспорить сделку, совершённую 4 года назад, если управляющий только сейчас узнал о ней?",
+      "answer": "Да, если не истёк объективный десятилетний срок, а трёхлетняя исковая давность отсчитывается с момента, когда управляющий узнал о фактах. Четыре года - не приговор."
+    },
+    {
+      "question": "Что считается «существенной выгодой» для признания третьего лица контролирующим?",
+      "answer": "Приобретение имущества, услуг, информации, устранение конкурента на рынке. Оценивается относительно масштабов деятельности должника: одна и та же сумма для оптовика и для микропредприятия трактуется по-разному."
+    },
+    {
+      "question": "Защищает ли личное банкротство директора от субсидиарных требований кредиторов компании?",
+      "answer": "Нет. Требования о возмещении убытков по субсидиарке не прекращаются при завершении банкротства гражданина. Личное банкротство от такого долга не освобождает."
+    },
+    {
+      "question": "Когда номинальный директор вправе рассчитывать на снижение доли взыскания?",
+      "answer": "Если раскроет реального контролёра и представит доказательства, подтверждающие эту роль. Ответственность остаётся солидарной, но размер могут пересмотреть. Полное снятие не предусмотрено."
+    },
+    {
+      "question": "Чем отличается неравноценная продажа доли от её дарения при оспаривании сделки?",
+      "answer": "Оба варианта попадают в годичное окно без доказывания умысла. Дарение - крайний случай неравноценности: встречного исполнения нет. Продажа по номиналу проверяется через оценку рыночной стоимости."
+    },
+    {
+      "question": "До какого момента управляющий вправе подать иск о привлечении КДЛ к ответственности?",
+      "answer": "В течение трёх лет с момента, когда он узнал или должен был узнать об основаниях. Максимум - десять лет с момента совершения противоправных действий. Первый срок восстановим при уважительных причинах, второй - нет."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все факты сверены с research.json. Статусы: active. last_verified в пределах 6 месяцев для всех ключевых утверждений.",
+    "Нормативная база (ст. 61, 61.2, 61.10, 61.11, 61.14 127-ФЗ) актуальна.",
+    "Уголовные нормы (ст. 176, 177 УК РФ) в действии, пороги ущерба (250 млн руб. для преднамеренного банкротства) верны.",
+    "Постановление Пленума ВС РФ № 53 от 21.12.2017 актуально и применяется в судебной практике.",
+    "Ссылки на ФЗ-402 (закон о бухгалтерском учёте) верны."
+  ],
+  "keyword_density_main": 0.022,
+  "main_keyword_exact_count": 3,
+  "text_chars": 8602,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.077,
+  "local_spam_ngram3_repeat": 0.02,
+  "local_lexical_diversity": 0.675,
+  "local_ai_markers_density": 0.28,
+  "local_ai_markers_critical": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1790131902/articles/droblenie-biznesa-bankrotstvo-subsidiarka-riski-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1790131902/articles/droblenie-biznesa-bankrotstvo-subsidiarka-riski-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Wide editorial photograph of a private executive office — high ceilings, tall windows with heavy drapes, walnut bookshelves lining the walls, an oxblood leather chesterfield, a large mahogany desk in the foreground holding a closed dark leather portfolio positioned left-center, a stack of three closed dossiers tied with cord arranged diagonally suggesting separation and structural division, a polished round company seal resting on one folder, an antique brass pocket watch on a chain, a fountain pen on a polished brass stand, a white porcelain coffee cup. Background through windows: blurred city skyline at golden hour. Camera: three-quarter angle, slight low-angle to emphasize ceiling height and executive gravity. Lighting: cool window light blended with warm tungsten desk lamp glow, casting strategic shadows across the divided organizational structure. Materials: walnut, oxblood leather, brass, cream. Mood: senior decision-maker weighing consequential risks of business restructuring and subsidiary liability.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-09-23T02:51:42Z",
+  "length_status": "too_long",
+  "length_kind": "default",
+  "local_ai_markers_total": 3,
+  "local_ai_markers_high": 1,
+  "local_own_voice_hits": 2,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 47,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 90,
+  "customer_risks": [
+    "длина значительно больше лимита 6500 (8 602 знаков)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "length_too_long: 8602 > 6500 (kind=default)"
+  ],
+  "date_published": "2026-09-23",
+  "date_modified": "2026-09-23",
+  "ready_for_review": true,
+  "ready_at": "2026-09-23T02:51:45Z",
+  "publication_target": "telegram_review"
+}

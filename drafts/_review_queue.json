@@ -6973,6 +6973,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "droblenie-biznesa-bankrotstvo-subsidiarka-riski",
+      "category": "yur",
+      "title": "Дробление бизнеса при банкротстве: риски субсидиарки",
+      "added_at": "2026-09-23T05:51:45.250065",
+      "char_count": 8602,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1790131902/articles/droblenie-biznesa-bankrotstvo-subsidiarka-riski-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
