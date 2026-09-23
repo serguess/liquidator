@@ -44692,5 +44692,108 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-09-23T08:30:16",
+    "category": "news",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 1,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "news-188",
+    "topic_slug": "mayatnikovye-torgi-bankrotstvo-krupnye-aktivy",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "length_soft_passed: 7013 > 5500 но ≤ 7500 и iteration=2 — пропускаем (приоритет spam/uniqueness/ai)",
+        "forced_pass_at_iter2: блокеры пропущены, статья идёт в TG-очередь с metrics_warning=true. Было: 2 блокеров — spam_risk; broken_internal_links"
+      ],
+      "recommendations": [
+        "reduce_repetition: разбавить топ-5 частотных лемм местоимениями/перифразом — ['кредитор', 'перв', 'покупател', 'отметк', 'заявк']",
+        "fix_internal_links: заменить href на канонический /articles/{cat}/{slug} из published_index.json (см. .claude/style/editor-cheatsheet.md секция 6)"
+      ],
+      "stderr_tail": ""
+    },
+    "finalize_safety_net": {
+      "ran": true,
+      "rc": 0
+    },
+    "status": "ok",
+    "slug": "mayatnikovye-torgi-bankrotstvo-krupnye-aktivy",
+    "duration_sec": 2033.3,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "  21487\n6-seo-editor        haiku            20       8    61628     39548     61656\n7-publisher         haiku            20      10    36194     39548     36224\n------------------------------------------------------------------------------------------\nИТОГО                               176      83   527099    577704    527358\nBillable-токенов на статью: ~527K (cache_read 577K не считается в лимит подписки).\nАртефакты: drafts/mayatnikovye-torgi-bankrotstvo-krupnye-aktivy/  | quality_gate exit=0",
+    "stderr_tail": "",
+    "tokens_by_model": {},
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7013
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
+  },
+  {
+    "timestamp": "2026-09-23T09:04:12",
+    "category": "news",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 2,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "news-189",
+    "topic_slug": "ipotechnye-kanikuly-18-mesyacev-semya-s-detmi",
+    "status": "failed",
+    "slug": "ipotechnye-kanikuly-18-mesyacev-semya-s-detmi",
+    "duration_sec": 1532.9,
+    "returncode": 1,
+    "rescued_after_failure": false,
+    "stdout_tail": "e=57640 ток (model=sonnet)\n   [outline_validate] exit=0\n=== 4-writer (claude opus) ===\n   ok: 8463 симв., billable=60146 ток, 68.8с\n   [writer self-fix проход 2]\n   ok: billable=38682 ток\n=== 5-uniqueness (embed_compare) ===\n   passed=True scores={'structure_overlap': 0.167, 'thesis_similarity': 0.136, 'cta_overlap': 0.193}\n   [watchdog] hard timeout >480s на sonnet — попытка 1/3\n   ok: 12611 симв., billable=22 ток (model=sonnet)\n   [pick_scene_template] exit=0\n=== 7-publisher (claude haiku) ===",
+    "stderr_tail": "[ERR] rate_limit: put_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard\",\"cache_creation\":{\"ephemeral_1h_input_tokens\":0,\"ephemeral_5m_input_tokens\":0},\"inference_geo\":\"\",\"iterations\":[],\"speed\":\"standard\"},\"modelUsage\":{},\"permission_denials\":[],\"terminal_reason\":\"completed\",\"fast_mode_state\":\"off\",\"uuid\":\"e3abc6b1-98fe-4d82-847b-71525ab72f13\"}\n\n",
+    "tokens_by_model": {},
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 4950
+    }
   }
 ]
