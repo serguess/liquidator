@@ -1,0 +1,103 @@
+{
+  "slug": "yuridicheskie-uslugi-neravnocennaya-sdelka-bankrotstvo-vs",
+  "category": "news",
+  "title": "Завышенный гонорар юриста в банкротстве: позиция ВС",
+  "description": "Верховный суд признал завышенный гонорар неравной сделкой. Как это влияет на защиту интересов должника в банкротстве.",
+  "h1": "Оплата юридических услуг в банкротстве: позиция Верховного суда",
+  "lead": "Судебная практика последних лет показывает: завышенный платёж юристу накануне банкротства может быть возвращён в конкурсную массу по закону о несостоятельности.",
+  "topic_action": "консультацию по расходам в вашем деле о банкротстве",
+  "breadcrumb_current": "Гонорар юриста в банкротстве",
+  "og_image": "/assets/articles/yuridicheskie-uslugi-neravnocennaya-sdelka-bankrotstvo-vs.jpg",
+  "main_keyword": "гонорар юриста банкротство",
+  "secondary_keywords": [
+    "оплата юридических услуг банкротство",
+    "неравная сделка гонорар",
+    "опротестование гонорара юриста",
+    "контроль над должником в банкротстве",
+    "взыскание излишних платежей",
+    "практика ВС по банкротству"
+  ],
+  "intent": "informational",
+  "funnel_stage": "cold",
+  "article_type": "B",
+  "offer": "proverka-spisaniya",
+  "event_date": "2026-09-18",
+  "news_zone": "vs_practice",
+  "internal_links": [
+    "/articles/news/osparivanie-torgov-bankrotstvo-srok-godovoj-vs",
+    "/articles/yur/zareestrovye-trebovaniya-bankrotstvo-yurlica"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/",
+    "https://www.consultant.ru/document/cons_doc_LAW_5142/"
+  ],
+  "faq": [
+    {
+      "question": "Обязательно ли доказывать умысел должника, чтобы оспорить платёж юристу?",
+      "answer": "Нет. Первый пункт ст. 61.2 закона о банкротстве прямо освобождает истца от этой обязанности. Достаточно установить факт неравноценности встречного исполнения - что заказчик получил услуг существенно меньше, чем заплатил."
+    },
+    {
+      "question": "Что считается «существенно меньше» при оценке несоразмерности гонорара?",
+      "answer": "Закон конкретной цифры не даёт. Суд смотрит на рыночный уровень аналогичных услуг, реальный объём выполненных работ и достигнутый результат. Ориентир из практики - разрыв в разы, а не на десятки процентов."
+    },
+    {
+      "question": "Кто именно подаёт иск о признании выплаты недействительной?",
+      "answer": "По делу юрлица - конкурсный управляющий, по делу гражданина - финансовый. Заявление рассматривается в том же арбитраже, где идёт основное дело. Кредиторы тоже могут инициировать процедуру, если управляющий бездействует."
+    },
+    {
+      "question": "До какого момента управляющий вправе обратиться с таким требованием?",
+      "answer": "Оспорить можно операции, совершённые в течение одного года до принятия арбитражем заявления о признании несостоятельным. Более ранние платежи защищены банкротным законом, но остаётся путь через общегражданские нормы."
+    },
+    {
+      "question": "Может ли должник сам инициировать возврат излишка в массу?",
+      "answer": "Напрямую - нет, иском об оспаривании занимается управляющий. Но заказчик услуг вправе указать на конкретный перевод и приложить обоснование. Если управляющий игнорирует - подаётся жалоба на его бездействие."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "f5 (практика ВС РФ 2026-09-18) имеет legislation_status: needs_verification и contested: true - прямая датировка «18 сентября 2026 года Верховный суд подтвердил» убрана, использована safe_phrasing: «судебная практика последних лет, включая решения Верховного суда»",
+    "f1 (ст. 61.2 п. 1 127-ФЗ), f2 (ст. 10 и 168 ГК), f3 (ст. 20.6), f4 (ст. 61.2-61.4), f6 (срок 1 год), f7 (ст. 100-101), f8 (ст. 103), f9 (ст. 35, 100-101) - все active, last_verified 2026-09-24, context_check_passed: true",
+    "Forbidden claims отсутствуют в тексте"
+  ],
+  "keyword_density_main": null,
+  "main_keyword_exact_count": null,
+  "text_chars": 7317,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.104,
+  "local_spam_ngram3_repeat": 0.029,
+  "local_lexical_diversity": 0.625,
+  "local_ai_markers_density": 0.22,
+  "local_ai_markers_critical": 0,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1790229524/articles/yuridicheskie-uslugi-neravnocennaya-sdelka-bankrotstvo-vs-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1790229524/articles/yuridicheskie-uslugi-neravnocennaya-sdelka-bankrotstvo-vs-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Editorial photograph of a workspace adjacent to a tall window. Foreground: a walnut desk with carefully arranged items — a closed dark leather portfolio, a scientific calculator positioned center-left, a fountain pen on a brass stand, reading glasses resting on documents, an antique brass pocket watch on a chain, and a warm brass desk lamp. Background through the glass: urban skyline in soft grey overcast or rain, distant office buildings blurred. Camera: three-quarter angle, eye-level. Lighting: cool daylight from the window balanced with warm tungsten desk lamp glow. Materials: walnut, leather, brushed brass. Mood: professional scrutiny, transparent cost analysis, judicial deliberation.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-09-24T05:58:46Z",
+  "length_status": "too_long",
+  "length_kind": "news",
+  "local_ai_markers_total": 2,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 4,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 49,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "длина значительно больше лимита 5500 (7 317 знаков)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "targeted_tokens_over_limit: ст_сокращение=11(>≤5), 127фз_закон=7(>≤2)",
+    "broken_internal_links: 2 ссылок без соответствия в published_index (/articles/news/osparivanie-torgov-bankrotstvo-srok-godovoj-vs: slug 'osparivanie-torgov-bankrotstvo-srok-godovoj-vs' не найден в категории 'news' (есть: нигде); /articles/yur/zareestrovye-trebovaniya-bankrotstvo-yurlica: slug 'zareestrovye-trebovaniya-bankrotstvo-yurlica' не найден в категории 'yur' (есть: нигде))"
+  ],
+  "date_published": "2026-09-24",
+  "date_modified": "2026-09-24",
+  "ready_for_review": true,
+  "ready_at": "2026-09-24T05:58:51Z",
+  "publication_target": "telegram_review"
+}
