@@ -1,0 +1,103 @@
+{
+  "slug": "ipotechnye-kanikuly-18-mesyacev-semya-s-detmi",
+  "category": "news",
+  "title": "Ипотечные каникулы: условия и сроки для семей",
+  "description": "Ипотечные каникулы до 18 месяцев: кто имеет право, какие документы нужны, как подать заявку, условия для семей с детьми и одиноких родителей.",
+  "h1": "Ипотечные каникулы до 18 месяцев: кто может воспользоваться и как",
+  "lead": "Закон даёт семьям с детьми право официально взять паузу по ипотечным платежам - без просрочки и без ущерба для кредитной истории.",
+  "topic_action": "оформление ипотечных каникул",
+  "breadcrumb_current": "Ипотечные каникулы для семей",
+  "og_image": "/assets/articles/ipotechnye-kanikuly-18-mesyacev-semya-s-detmi.jpg",
+  "main_keyword": "ипотечные каникулы",
+  "secondary_keywords": [
+    "ипотечные каникулы 18 месяцев",
+    "каникулы по ипотеке условия",
+    "ипотека отсрочка платежа семья",
+    "льготы по ипотеке с детьми",
+    "как получить ипотечные каникулы",
+    "отсрочка ипотечного платежа"
+  ],
+  "intent": "informational",
+  "funnel_stage": "warm",
+  "article_type": "C",
+  "offer": "proverka-spisaniya",
+  "event_date": "2026-09-01",
+  "news_zone": "legislation",
+  "internal_links": [
+    "/articles/fiz/bank-otkazal-v-restrukturizacii-chto-delat-bankrotstvo"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/legalnews/32264/"
+  ],
+  "faq": [
+    {
+      "question": "Можно ли получить ипотечные каникулы повторно по тому же кредитному договору?",
+      "answer": "Повторное обращение по одному и тому же жилищному кредиту законом ограничено. Условия и промежуток между обращениями периодически уточняются, поэтому конкретику лучше сверить с актуальной редакцией и со своим займодавцем."
+    },
+    {
+      "question": "Что происходит с процентами во время отсрочки - они замораживаются?",
+      "answer": "Нет. Проценты продолжают начисляться в обычном порядке. Из-за этого итоговая переплата становится больше, чем была бы без паузы. Это не списание долга, а перенос его во времени."
+    },
+    {
+      "question": "Обязан ли кредитор одобрить заявление, если все документы поданы?",
+      "answer": "Автоматического одобрения нет. Обращение рассматривается по существу: проверяется соответствие ситуации основаниям, а кредита - установленному размеру. Полный пакет резко повышает шансы, но не гарантирует положительный ответ."
+    },
+    {
+      "question": "Сколько времени рассматривается запрос на паузу по ипотеке?",
+      "answer": "Ориентировочно 5-10 рабочих дней. У крупных финансовых организаций есть внутренние регламенты, где срок жёстко закреплён, у небольших он плавает. Точный дедлайн уточните при подаче."
+    },
+    {
+      "question": "Распространяется ли программа на ипотеку с государственной поддержкой?",
+      "answer": "По общему правилу да, льготные ипотечные продукты не выведены из-под действия закона о каникулах. Но у отдельных программ бывают свои особенности - в семейной, IT-ипотеке или сельской. Условия сверяются с договором и правилами конкретной программы."
+    },
+    {
+      "question": "Куда жаловаться, если отказ пришёл без объяснения причин?",
+      "answer": "Первый шаг - письменное обращение к самому займодавцу с требованием обосновать отказ. Дальше - жалоба в Центральный банк через интернет-приёмную и обращение к финансовому уполномоченному. Если суммы серьёзные и отказ явно немотивированный - готовят иск в суд."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "f1 (ФЗ-177): legislation_status needs_verification - применена safe_phrasing 'ФЗ-177 от 03.07.2019 и последующие поправки' с указанием на необходимость сверки актуальной редакции",
+    "f2 (срок 18 мес.): needs_verification - использована safe_phrasing 'по общему правилу... доходит до 18 месяцев'; конкретный срок отдан на договор",
+    "f3 (основания): needs_verification - формулировка 'к типичным причинам, как правило, относятся' с рекомендацией уточнить перечень у займодавца",
+    "f4 (лимит кредита): needs_verification - без конкретных цифр: 'не должен превышать определённого размера', рекомендация сверить с законодателем",
+    "f5 (документы): needs_verification - типичные примеры с оговоркой о вариативности между банками",
+    "Запрещённые утверждения из forbidden_claims отсутствуют: долг явно не аннулируется, автоматическое одобрение явно исключено"
+  ],
+  "keyword_density_main": null,
+  "main_keyword_exact_count": null,
+  "text_chars": 7001,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.104,
+  "local_spam_ngram3_repeat": 0.008,
+  "local_lexical_diversity": 0.641,
+  "local_ai_markers_density": 0.23,
+  "local_ai_markers_critical": 0,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1790216379/articles/ipotechnye-kanikuly-18-mesyacev-semya-s-detmi-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1790216379/articles/ipotechnye-kanikuly-18-mesyacev-semya-s-detmi-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Photograph of a private office interior with low-key lighting. Materials: deep walnut paneling, oxblood leather chair, brass library lamp, vintage brown leather chesterfield in corner. Desk in foreground holds 5 items: a closed folder with mortgage documents, an antique brass pocket watch, a single brass house key on a dark leather coaster, a fountain pen on a polished stand, a smartphone face-down. Background: blurred bookshelves OR a dark window with city lights bokeh. Camera: three-quarter, eye-level. Lighting: single warm tungsten desk lamp, deep ambient shadow. Mood: family deliberation on financial decision.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-09-24T02:19:40Z",
+  "length_status": "too_long",
+  "length_kind": "news",
+  "local_ai_markers_total": 2,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 3,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 49,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "длина значительно больше лимита 5500 (7 001 знаков)"
+  ],
+  "date_published": "2026-09-24",
+  "date_modified": "2026-09-24",
+  "ready_for_review": true,
+  "ready_at": "2026-09-24T02:19:41Z",
+  "publication_target": "telegram_review"
+}

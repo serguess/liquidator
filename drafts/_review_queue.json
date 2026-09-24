@@ -7038,6 +7038,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "ipotechnye-kanikuly-18-mesyacev-semya-s-detmi",
+      "category": "news",
+      "title": "Ипотечные каникулы: условия и сроки для семей",
+      "added_at": "2026-09-24T05:19:41.890715",
+      "char_count": 7001,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1790216379/articles/ipotechnye-kanikuly-18-mesyacev-semya-s-detmi-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
