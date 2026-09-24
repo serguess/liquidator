@@ -45207,5 +45207,65 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-09-24T10:00:05",
+    "category": "fiz",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 9,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "fiz-220",
+    "topic_slug": "bankrotstvo-neskolko-zalogov-odno-imushchestvo",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "length_soft_passed: 8111 > 6500 но ≤ 8500 и iteration=2 — пропускаем (приоритет spam/uniqueness/ai)",
+        "spam_soft_passed: ratio-флаги мягкие при iter=2, targeted_tokens чистые → пропускаем (spam ≈48-52% по прогнозу)"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "finalize_safety_net": {
+      "ran": true,
+      "rc": 0
+    },
+    "status": "ok",
+    "slug": "bankrotstvo-neskolko-zalogov-odno-imushchestvo",
+    "duration_sec": 1559.1,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": " 24910\n6-seo-editor        sonnet            6      16        0     92482        22\n7-publisher         haiku            20       4    36340     39548     36364\n------------------------------------------------------------------------------------------\nИТОГО                               162      83   515142    665326    515387\nBillable-токенов на статью: ~515K (cache_read 665K не считается в лимит подписки).\nАртефакты: drafts/bankrotstvo-neskolko-zalogov-odno-imushchestvo/  | quality_gate exit=0",
+    "stderr_tail": "",
+    "tokens_by_model": {},
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 8111
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]

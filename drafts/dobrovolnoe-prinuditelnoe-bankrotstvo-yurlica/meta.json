@@ -1,0 +1,107 @@
+{
+  "slug": "dobrovolnoe-prinuditelnoe-bankrotstvo-yurlica",
+  "category": "yur",
+  "title": "Добровольное банкротство vs принудительное: отличия",
+  "description": "Чем отличается добровольное банкротство от принудительного: сроки, стоимость, результат, риски и как выбрать стратегию для компании",
+  "h1": "Добровольное и принудительное банкротство юридического лица: ключевые отличия и выход",
+  "lead": "Разбираем, чем два пути в арбитраж отличаются по стоимости, срокам и личному риску директора - и почему выбор маршрута важно сделать раньше, чем это сделает кредитор.",
+  "topic_action": "банкротство юридического лица",
+  "breadcrumb_current": "Добровольное vs принудительное банкротство",
+  "og_image": "/assets/articles/dobrovolnoe-prinuditelnoe-bankrotstvo-yurlica.jpg",
+  "main_keyword": "добровольное и принудительное банкротство юридического лица",
+  "secondary_keywords": [
+    "добровольное банкротство юридического лица",
+    "принудительное банкротство компании",
+    "отличия добровольного и принудительного банкротства",
+    "банкротство по инициативе должника",
+    "банкротство по требованию кредитора",
+    "когда выбрать добровольное банкротство",
+    "процедура добровольного банкротства юрлица",
+    "сроки банкротства добровольного и принудительного"
+  ],
+  "internal_links": [
+    "/articles/yur/iski-konkyursnogo-upravlyayushchego-trethim-licam",
+    "/articles/yur/droblenie-biznesa-bankrotstvo-subsidiarka-riski"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/"
+  ],
+  "faq": [
+    {
+      "question": "Обязан ли директор подать на банкротство сам?",
+      "answer": "Да, если появились признаки неплатёжеспособности - нехватка имущества, остановка расчётов. Срок обращения в арбитраж - 30 дней (ст. 9 127-ФЗ). Иначе руководитель отвечает лично по долгам, возникшим после этой даты."
+    },
+    {
+      "question": "Чем грозит принудительное банкротство по иску налоговой?",
+      "answer": "Утратой контроля с момента введения наблюдения, отстранением от должности при недобросовестном поведении и риском субсидиарной ответственности по долгам перед бюджетом. Пороговая сумма для иска ФНС - два миллиона рублей и трёхмесячная просрочка."
+    },
+    {
+      "question": "Сколько платит организация-заявитель за подачу на банкротство?",
+      "answer": "Сто тысяч рублей - с 8 сентября 2024 года (поправки в НК РФ, закон № 176-ФЗ). До этой даты пошлина составляла шесть тысяч. Физлицо-взыскатель платит десять тысяч."
+    },
+    {
+      "question": "Можно ли заключить мировое после начала конкурсного производства?",
+      "answer": "Да. Мировое допускается на любой стадии до определения о завершении конкурсного этапа (ст. 150 127-ФЗ). Условие - одобрение собранием кредиторов и утверждение арбитражным судом."
+    },
+    {
+      "question": "Какие сделки управляющий вправе оспорить?",
+      "answer": "Совершённые за три года до возбуждения дела: продажи ниже рыночной стоимости, дарения, перевод активов на аффилированные структуры. Основания - ст. 61 и 103 127-ФЗ. Признанные недействительными активы возвращаются в конкурсную массу."
+    },
+    {
+      "question": "До какого момента внешнее управление сохраняет компанию?",
+      "answer": "Максимум два года. Вводится, если собрание кредиторов увидело шанс на восстановление через реструктуризацию или продажу непрофильных активов. При неудаче суд переходит к конкурсному производству."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все факты сверены с research.json. Статусы: active для всех ключевых утверждений (last_verified 2026-09-25).",
+    "Порог возбуждения: 2 млн руб. с 27.07.2023 (ФЗ-107 от 14.07.2023), микропредприятия - 300 тыс. Актуален.",
+    "Госпошлина должника: 6 000 руб. (НК РФ ст. 333.21 подп. 4 п. 1) - не менялась при реформе 2024.",
+    "Госпошлина кредитора-юрлица: 100 000 руб. с 08.09.2024 (ФЗ-176 от 12.07.2024). Физлица - 10 000 руб. (подп. 4.2). Верифицировано.",
+    "Оспаривание сделок: 3-летний период (ст. 61 и 103 127-ФЗ). Контекст применения корректен.",
+    "Мировое соглашение: на любой стадии до завершения конкурсного (ст. 150 127-ФЗ). Запрещённое утверждение об ограничении только начальным этапом в тексте отсутствует.",
+    "f19 (субсидиарка, contested=true, needs_verification): прямые ссылки на ст. 3 и 56.1 удалены из тела. Применена обтекаемая формулировка из safe_phrasing - только перечисление недобросовестных действий без номеров статей.",
+    "Ст. 9 127-ФЗ (30-дневный срок) не входит в research.json, но является общеизвестной нормой. Контекст корректен."
+  ],
+  "keyword_density_main": 0.015,
+  "main_keyword_exact_count": 1,
+  "text_chars": 8419,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.101,
+  "local_spam_ngram3_repeat": 0.051,
+  "local_lexical_diversity": 0.598,
+  "local_ai_markers_density": 0.19,
+  "local_ai_markers_critical": 0,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1790286084/articles/dobrovolnoe-prinuditelnoe-bankrotstvo-yurlica-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1790286084/articles/dobrovolnoe-prinuditelnoe-bankrotstvo-yurlica-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Прочитаю cover-scenes.md для template 26 из встроенного каталога и адаптирую сценарий.\n\nTemplate 26 — \"Stone staircase or interior architectural passage\" — это про \"ascent through procedural stages, escalation\". Идеально для статьи про выбор между двумя путями банкротства (добровольное vs принудительное).\n\n**Центральная мысль статьи:** Директор выбирает между контролируемым маршрутом (добровольное) и навязанным (принудительное) — это выбор, влияющий на сроки, стоимость и личный риск. Как восхождение по двум разным лестницам.\n\n**Выбранные предметы из pool (5):**\n- closed dark leather portfolio (документы к подаче — решение сделано)\n- sealed envelope (заявление в арбитраж)\n- antique pocket watch (сроки — ключевой дифференциатор между двумя путями)\n- fountain pen on brass stand (подпись приказа/решения)\n- polished round company seal (компания на этом перекрёстке)\n\n**Scene-строка:**\n\nPhotograph of a stone staircase inside an official administrative building with a long arched marble corridor. Camera positioned low-angle from the base of the stairs looking upward, emphasizing ascent. Foreground on the marble floor: a closed dark leather portfolio, a sealed formal envelope leaning against the lowest step, an antique brass pocket watch, a fountain pen on a small brass stand, and a polished round corporate seal. Background: weathered marble walls and oxidized brass railings creating two paths upward through arched passages. Lighting: shafts of cool daylight streaming from high institutional windows, casting long shadows across the stone revealing the grain and texture. Materials: aged marble, brass railings, deep red carpet runner on the stairs. Mood: critical fork in procedural pathway, moment of strategic choice between two escalating procedures.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-09-24T21:41:25Z",
+  "length_status": "too_long",
+  "length_kind": "default",
+  "local_ai_markers_total": 2,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 4,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 55,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность выше 50% (~55%)",
+    "длина значительно больше лимита 6500 (8 419 знаков)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "targeted_tokens_over_limit: ст_сокращение=12(>≤5)"
+  ],
+  "date_published": "2026-09-25",
+  "date_modified": "2026-09-25",
+  "ready_for_review": true,
+  "ready_at": "2026-09-24T21:41:29Z",
+  "publication_target": "telegram_review"
+}
