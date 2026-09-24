@@ -1,0 +1,110 @@
+{
+  "slug": "osparivanie-torgov-bankrotstvo-srok-godovoj-vs",
+  "category": "news",
+  "title": "Оспаривание торгов при банкротстве: сроки ВС",
+  "description": "Верховный суд уточнил сроки для оспаривания результатов торгов при банкротстве. Что нужно знать управляющему и кредиторам.",
+  "h1": "Оспаривание торгов при банкротстве: позиция Верховного суда о сроках",
+  "lead": "30-дневный процессуальный дедлайн на обжалование итогов аукциона в деле о несостоятельности не подменяется исковой давностью - разбираем последствия для кредиторов, управляющего и участников торгов.",
+  "topic_action": "оспаривание торгов при банкротстве",
+  "breadcrumb_current": "Оспаривание торгов при банкротстве",
+  "og_image": "/assets/articles/osparivanie-torgov-bankrotstvo-srok-godovoj-vs.jpg",
+  "main_keyword": "оспаривание торгов при банкротстве сроки",
+  "secondary_keywords": [
+    "оспаривание результатов торгов банкротство",
+    "сроки оспаривания торгов 127-фз",
+    "позиция верховного суда торги банкротство",
+    "обжалование торгов имущества банкрота",
+    "преимущественное право покупки"
+  ],
+  "intent": "informational",
+  "funnel_stage": "cold",
+  "article_type": "B",
+  "offer": "proverka-spisaniya",
+  "event_date": "2026-09-17",
+  "news_zone": "vs_practice",
+  "internal_links": [
+    "/articles/yur/bankrotstvo-ooo-poshagovo-2026",
+    "/articles/fiz/vnesudebnoe-bankrotstvo-cherez-mfc-2026"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_37800/",
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/"
+  ],
+  "faq": [
+    {
+      "question": "Можно ли восстановить пропущенный 30-дневный срок обжалования?",
+      "answer": "Арбитраж вправе это сделать при уважительных причинах: болезнь, форс-мажор, доказанное сокрытие информации организатором. Ссылка на незнание о нарушении к уважительным причинам, как правило, не относится."
+    },
+    {
+      "question": "Что происходит с имуществом банкрота во время рассмотрения жалобы?",
+      "answer": "Автоматической приостановки перехода собственности нет. При необходимости арбитраж по ходатайству заявителя может ввести обеспечительные меры, но это отдельное процессуальное действие."
+    },
+    {
+      "question": "Чем апелляция на аукцион отличается от иска о недействительности сделки?",
+      "answer": "Обжалование по ст. 227.1 АПК РФ - процессуальный механизм внутри банкротного дела с месячным окном. Иск по ст. 449 ГК РФ - самостоятельное производство с иными доказательственными стандартами."
+    },
+    {
+      "question": "Обязательно ли участвовать в торгах, чтобы потом их оспорить?",
+      "answer": "Нет. Круг заявителей определён ст. 143 закона о банкротстве и включает управляющего, кредиторов и собрание кредиторов, а не только участников самого аукциона."
+    },
+    {
+      "question": "Какую роль играет собрание кредиторов при обжаловании результатов?",
+      "answer": "Собрание вправе принять решение о подаче жалобы от имени сообщества кредиторов. Такое решение усиливает позицию и снимает вопросы о полномочиях заявителя."
+    },
+    {
+      "question": "Нужна ли юридическая помощь для подачи жалобы на итоги аукциона?",
+      "answer": "Обстоятельства каждого дела уникальны, доказательственная база формируется индивидуально. Рекомендуется консультация со специалистом по банкротству или адвокатом."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "f5 (позиция ВС РФ сентябрь 2026): legislation_status=needs_verification, contested=true - конкретные утверждения о сентябрьском акте ВС заменены на safe_phrasing «Судебная практика последовательно подтверждает...»",
+    "f1 (ст. 227.1 АПК РФ, 30 дней): active, last_verified 2026-09-24 - использована safe_phrasing из research ✓",
+    "f2 (ст. 143 127-ФЗ, круг лиц): active, last_verified 2026-09-24 ✓",
+    "f3 (основания оспаривания): active, last_verified 2026-09-24 ✓",
+    "f4 (порядок, гл. 39 АПК): active, last_verified 2026-09-24 ✓",
+    "Статистика «60% удовлетворённых жалоб» отсутствует в research.json - заменена на «большинство удовлетворённых жалоб»",
+    "Запрещённые утверждения из forbidden_claims отсутствуют в тексте"
+  ],
+  "keyword_density_main": null,
+  "main_keyword_exact_count": null,
+  "text_chars": 7221,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.106,
+  "local_spam_ngram3_repeat": 0.025,
+  "local_lexical_diversity": 0.653,
+  "local_ai_markers_density": 0.44,
+  "local_ai_markers_critical": 0,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1790228695/articles/osparivanie-torgov-bankrotstvo-srok-godovoj-vs-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1790228695/articles/osparivanie-torgov-bankrotstvo-srok-godovoj-vs-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Exterior photograph of a contemporary administrative building with glass facade in heavy rain and fog at dusk. Wet stone steps and pavement reflect the building and glowing amber lampposts creating mirror effects. Camera positioned at street level with slight low angle. Foreground: distant silhouettes of pedestrians with black umbrellas (faceless, blurred background), wet entry steps, oxidized brass plaque on the pillar. Cool blue-grey palette with warm amber accents and long procedural shadows. Mood: contemporary urban legal drama—the gravity of contested auction proceedings and Supreme Court deadlines.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-09-24T05:44:56Z",
+  "length_status": "too_long",
+  "length_kind": "news",
+  "local_ai_markers_total": 4,
+  "local_ai_markers_high": 1,
+  "local_own_voice_hits": 3,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 47,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 90,
+  "customer_risks": [
+    "длина значительно больше лимита 5500 (7 221 знаков)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "spam_risk: 1 флагов (top3_sum>30 (=31)), top-5: ['заявител', 'аукцион', 'нарушен', 'банкротств', 'утвержден']",
+    "targeted_tokens_over_limit: ст_сокращение=6(>≤5), РФ_рудимент=5(>≤2)"
+  ],
+  "date_published": "2026-09-24",
+  "date_modified": "2026-09-24",
+  "ready_for_review": true,
+  "ready_at": "2026-09-24T05:45:00Z",
+  "publication_target": "telegram_review"
+}
