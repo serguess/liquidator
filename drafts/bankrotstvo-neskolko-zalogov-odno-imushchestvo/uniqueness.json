@@ -1,0 +1,22 @@
+{
+  "slug": "bankrotstvo-neskolko-zalogov-odno-imushchestvo",
+  "article_id": 602,
+  "scores": {
+    "structure_overlap": 0.0,
+    "thesis_similarity": 0.173,
+    "cta_overlap": 0.096
+  },
+  "thresholds": {
+    "structure_overlap": 0.4,
+    "thesis_similarity": 0.3,
+    "cta_overlap": 0.2
+  },
+  "passed": true,
+  "peers_compared": 50,
+  "closest_peer": "rashody-bankrotstva-vzyskat-s-uchreditelya",
+  "similar_articles": [],
+  "conflicts": [],
+  "recommendation": "ok",
+  "stored_in_db": true,
+  "note": "Вектор статьи записан в data/embeddings.sqlite (published=0). После публикации агент 7 переключит флаг на 1."
+}

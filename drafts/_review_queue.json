@@ -7077,6 +7077,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "bankrotstvo-neskolko-zalogov-odno-imushchestvo",
+      "category": "fiz",
+      "title": "Приоритет залогов в банкротстве физлица",
+      "added_at": "2026-09-24T10:26:05.172692",
+      "char_count": 8111,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1790234762/articles/bankrotstvo-neskolko-zalogov-odno-imushchestvo-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

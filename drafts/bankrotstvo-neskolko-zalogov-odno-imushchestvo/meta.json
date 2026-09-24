@@ -1,0 +1,105 @@
+{
+  "slug": "bankrotstvo-neskolko-zalogov-odno-imushchestvo",
+  "category": "fiz",
+  "title": "Приоритет залогов в банкротстве физлица",
+  "description": "Очередность залогов при банкротстве физлица: кто взыскивается первым, что получит второй залогодержатель и как распределяется выручка от торгов.",
+  "h1": "Приоритет залогов при банкротстве физлица: какой залог взыскивается первым",
+  "lead": "Разбираем, кто получит выручку от торгов, если на одно имущество несколько обременений, и что реально достаётся второму залогодержателю.",
+  "topic_action": "проверку позиции залога при банкротстве",
+  "breadcrumb_current": "Приоритет залогов при банкротстве",
+  "og_image": "/assets/articles/bankrotstvo-neskolko-zalogov-odno-imushchestvo.jpg",
+  "main_keyword": "приоритет залогов при банкротстве физлица",
+  "secondary_keywords": [
+    "залоги один предмет банкротство",
+    "какой залог взыскивается первым",
+    "очередность залогодержателей",
+    "конкурирующие залоги при банкротстве",
+    "приоритет ипотеки и иных залогов",
+    "залогодержатели в конкурсном производстве",
+    "реализация залога при банкротстве физлица",
+    "очередь залогодержателей"
+  ],
+  "internal_links": [
+    "/articles/fiz/avtomobil-pri-bankrotstve-fizlica"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/",
+    "https://www.consultant.ru/document/cons_doc_LAW_5142/"
+  ],
+  "faq": [
+    {
+      "question": "Что происходит с обременением, если должник признан несостоятельным?",
+      "answer": "Оно сохраняет силу и приоритет. Норма 64 банкротного закона прямо это фиксирует: открытие процедуры не отменяет права держателя на преимущественное удовлетворение. Меняется только форма реализации - через торги в рамках процедуры."
+    },
+    {
+      "question": "Можно ли оспорить приоритет первого держателя в арбитражном суде?",
+      "answer": "Само правило по дате записи оспорить нельзя - это арифметика. Оспорить можно саму регистрацию: если запись внесена с нарушением или сделка признана недействительной по 61.2 или 61.3, приоритет пересчитывается."
+    },
+    {
+      "question": "Сколько получит следующий залогодержатель, если выручки от продажи не хватает на оба долга?",
+      "answer": "Только остаток после расходов торгов и погашения первого. Нет остатка - ноль по обеспеченной линии. Непогашенная часть переходит в общий реестр как необеспеченный долг."
+    },
+    {
+      "question": "Куда направляется страховое возмещение, если предмет обеспечения уничтожен до торгов?",
+      "answer": "Выплата идёт держателю обременения по договору страхования, а не в общий котёл процедуры. Управляющий не вправе перенаправить страховку в общую массу."
+    },
+    {
+      "question": "Вправе ли финуправляющий изменить очерёдность держателей по своему усмотрению?",
+      "answer": "Нет. Управляющий соблюдает последовательность по датам записей и обязан распределить выручку по установленной схеме. Отступление - основание для жалобы в арбитражный суд и для отстранения управляющего."
+    },
+    {
+      "question": "Чем регистрация ипотеки в ЕГРН отличается от учёта залога машины у нотариуса?",
+      "answer": "ЕГРН ведёт Росреестр и фиксирует обременения на объекты недвижимости по 218-ФЗ. Реестр уведомлений о залоге движимости ведут нотариусы. Правовая логика одинаковая - приоритет по дате записи, но базы разные."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все факты сверены с research.json. Статусы: active. last_verified: 2026-09-24 для всех ключевых утверждений.",
+    "Приоритет по дате регистрации (ст. 353 ГК РФ, f2) - контекст применения корректен, привязан к очерёдности залогов.",
+    "Сохранение залогового права при банкротстве (ст. 64-65 127-ФЗ, f1) - формулировка соответствует safe_phrasing, context_check_passed: true.",
+    "Распределение выручки (ст. 64-65 127-ФЗ, ст. 349-350 ГК, f3) - схема четырёх ступеней верна, цифры в сценариях А и Б арифметически корректны.",
+    "Право первого залогодержателя на взыскание вне конкурса (ст. 64 ч. 1 п. 1 127-ФЗ, f4) - контекст корректен.",
+    "Участие второго залогодержателя как обычного кредитора при нехватке выручки (ст. 65 127-ФЗ, ст. 213.25, f5, f6) - подтверждено сценарием Б.",
+    "Страховое возмещение идёт держателю, а не в конкурсную массу (ст. 64-65 127-ФЗ, ст. 935-938 ГК, f12) - запрещённое утверждение отсутствует.",
+    "Право голоса на собрании кредиторов (ст. 65 127-ФЗ, f10) - формулировка соответствует safe_phrasing.",
+    "Раздел V.1 127-ФЗ как правовая основа взыскания (f7) - подтверждено, amendment_note учтён.",
+    "Реестр движимого имущества - нотариусы (f8, ст. 358 ГК) - формулировка 'реестр уведомлений' корректна."
+  ],
+  "keyword_density_main": 0.007,
+  "main_keyword_exact_count": 1,
+  "text_chars": 8111,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.118,
+  "local_spam_ngram3_repeat": 0.028,
+  "local_lexical_diversity": 0.571,
+  "local_ai_markers_density": 0.3,
+  "local_ai_markers_critical": 0,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1790234762/articles/bankrotstvo-neskolko-zalogov-odno-imushchestvo-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1790234762/articles/bankrotstvo-neskolko-zalogov-odno-imushchestvo-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Close-to-medium architectural photograph of a massive stone government building, focusing on textures, geometric repetition, and dramatic light. In the immediate foreground at the base of the frame: a polished brass scales of justice resting on the lowest stone step, slightly off-center to the left, and a closed leather portfolio with a polished brass round seal positioned on its cover. Camera angle: extreme low-angle from the base of the steps looking up the columns. Lighting: hard dramatic side-light revealing every chisel mark and texture, deep cast shadows from architectural features. Palette: warm sandstone, cool grey shadow, oxidized brass accents, hint of moss in weathered cracks. Mood: weight, permanence, immutable institutional authority governing creditor hierarchy and asset prioritization.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-09-24T07:26:03Z",
+  "length_status": "too_long",
+  "length_kind": "default",
+  "local_ai_markers_total": 3,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 3,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 60,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность заметно выше 50% (~60%)",
+    "длина значительно больше лимита 6500 (8 111 знаков)"
+  ],
+  "date_published": "2026-09-24",
+  "date_modified": "2026-09-24",
+  "ready_for_review": true,
+  "ready_at": "2026-09-24T07:26:05Z",
+  "publication_target": "telegram_review"
+}
