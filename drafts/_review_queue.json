@@ -7142,6 +7142,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "bankrotstvo-nezaregistrirovannoe-imushchestvo",
+      "category": "fiz",
+      "title": "Незарегистрированное имущество в банкротстве физлица",
+      "added_at": "2026-09-25T19:59:44.598876",
+      "char_count": 7645,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1790355581/articles/bankrotstvo-nezaregistrirovannoe-imushchestvo-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

@@ -1,0 +1,109 @@
+{
+  "slug": "bankrotstvo-nezaregistrirovannoe-imushchestvo",
+  "category": "fiz",
+  "title": "Незарегистрированное имущество в банкротстве физлица",
+  "description": "Как незарегистрированное имущество учитывается в банкротстве физлица. Автомобиль без ПТС, дом без ЕГРН, земля без кадастра - риски и защита.",
+  "h1": "Незарегистрированное имущество в банкротстве физлица: как оно учитывается и защищается",
+  "lead": "Разбираем, что происходит с автомобилем без ПТС, домом без ЕГРН и землёй без кадастра в процедуре банкротства - и почему умолчать об этом опаснее, чем раскрыть.",
+  "topic_action": "разбор ситуации с незарегистрированным имуществом",
+  "breadcrumb_current": "Незарегистрированное имущество при банкротстве",
+  "og_image": "/assets/articles/bankrotstvo-nezaregistrirovannoe-imushchestvo.jpg",
+  "main_keyword": "незарегистрированное имущество в банкротстве физлица",
+  "secondary_keywords": [
+    "имущество без регистрации банкротство",
+    "неоформленный автомобиль в банкротстве",
+    "дом без кадастра банкротство",
+    "земельный участок без регистрации банкротство",
+    "имущество без документов и финансовый управляющий",
+    "как защитить незарегистрированное имущество",
+    "конфискация неоформленного имущества",
+    "признание прав на имущество без документов",
+    "неоформленная сделка в банкротстве физлица"
+  ],
+  "internal_links": [
+    "/articles/fiz/avtomobil-pri-bankrotstve-fizlica"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/",
+    "https://www.consultant.ru/document/cons_doc_LAW_5142/"
+  ],
+  "faq": [
+    {
+      "question": "Входит ли в конкурсную массу автомобиль без ПТС и регистрации в ГИБДД?",
+      "answer": "Да, входит. Закон о банкротстве включает в массу всё имущество гражданина без оговорок про регистрацию. Управляющий выставит машину на торги, только цена будет ниже рыночной."
+    },
+    {
+      "question": "Что будет с домом без ЕГРН, если человек живёт в нём с семьёй?",
+      "answer": "Иммунитет единственного жилья автоматически не срабатывает: право сначала нужно установить в суде. После признания защита от реализации применяется, если дом действительно единственный пригодный для проживания и не в залоге."
+    },
+    {
+      "question": "Чем грозит сокрытие незарегистрированного имущества?",
+      "answer": "Три последствия сразу: отказ в освобождении от долгов, уголовная ответственность по ст. 195 УК до шести лет, риск утраты актива через признание его бесхозным."
+    },
+    {
+      "question": "Можно ли оформить права после введения процедуры?",
+      "answer": "Технически можно, но сложнее. Признание собственности через суд, кадастровые работы и регистрация занимают от нескольких месяцев до двух лет."
+    },
+    {
+      "question": "Защищён ли незарегистрированный дом иммунитетом единственного жилья?",
+      "answer": "Не автоматически. Пока строение не оформлено через реестр или судебное решение, защита не работает - актив в спорной зоне."
+    },
+    {
+      "question": "Когда объект признают бесхозным?",
+      "answer": "Когда нет документального подтверждения основания владения (договора, акта передачи, свидетелей, чеков). Собственник не установлен - вещь уходит в казну."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все ключевые факты сверены с research.json, last_verified: 2026-09-25.",
+    "Ст. 213.25 п. 1 127-ФЗ - конкурсная масса включает всё имущество без оговорок о регистрации (f1, active).",
+    "Ст. 213.28 п. 4 127-ФЗ - отказ в освобождении при ложных сведениях (f4, active).",
+    "Ст. 195 УК РФ - сокрытие имущества при банкротстве, до 6 лет (f4, active).",
+    "Ст. 446 ГПК / ст. 213.25 п. 3 - иммунитет единственного жилья работает только при признанном праве собственности (f5, active).",
+    "Ст. 234 ГК РФ - приобретательная давность: 10 лет для недвижимости, 5 лет для движимого (f8, active).",
+    "Ст. 226 ГК РФ - признание бесхозным при отсутствии доказательств владения (f9, active).",
+    "Сроки регистрации 3-12 мес., расходы 50-200 тыс. руб. - использован safe_phrasing из f7 (needs_verification).",
+    "Автомобиль без ПТС: процедура получения ПТС перед торгами - safe_phrasing из f6 (needs_verification).",
+    "Все forbidden_claims отсутствуют в тексте. Утверждение об автоматической защите незарегистрированного дома иммунитетом прямо опровергнуто."
+  ],
+  "keyword_density_main": 0.016,
+  "main_keyword_exact_count": 2,
+  "text_chars": 7645,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.098,
+  "local_spam_ngram3_repeat": 0.008,
+  "local_lexical_diversity": 0.666,
+  "local_ai_markers_density": 0.21,
+  "local_ai_markers_critical": 0,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1790355581/articles/bankrotstvo-nezaregistrirovannoe-imushchestvo-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1790355581/articles/bankrotstvo-nezaregistrirovannoe-imushchestvo-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Editorial photograph of a working desk in a modern business interior. Camera: slight overhead three-quarter angle. On the walnut desktop: a scientific calculator positioned left of center, a closed thin laptop to its right, a leather folder with pages fanned slightly, a polished round seal, reading glasses aligned across the folder, a fountain pen on a stand. Materials: walnut, brushed steel, leather. Background: stone-and-wood feature wall with soft diffused cityscape through tall windows, blurred. Lighting: warm directional light from upper left casting subtle shadows. Mood: methodical documentation of concealed assets.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-09-25T16:59:42Z",
+  "length_status": "too_long",
+  "length_kind": "default",
+  "local_ai_markers_total": 2,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 3,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 47,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 90,
+  "customer_risks": [
+    "длина значительно больше лимита 6500 (7 645 знаков)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "targeted_tokens_over_limit: ст_сокращение=7(>≤5), РФ_рудимент=3(>≤2)"
+  ],
+  "date_published": "2026-09-25",
+  "date_modified": "2026-09-25",
+  "ready_for_review": true,
+  "ready_at": "2026-09-25T16:59:44Z",
+  "publication_target": "telegram_review"
+}
