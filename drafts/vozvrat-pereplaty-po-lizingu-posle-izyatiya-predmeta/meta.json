@@ -1,0 +1,106 @@
+{
+  "slug": "vozvrat-pereplaty-po-lizingu-posle-izyatiya-predmeta",
+  "category": "vzysk",
+  "title": "Возврат переплаты по лизингу после изъятия: как вернуть",
+  "description": "Как вернуть переплату по лизингу после изъятия предмета: права лизингополучателя, расчёт сумм, порядок взыскания, способы возврата и обжалования отказа.",
+  "h1": "Как вернуть переплату по лизингу после изъятия предмета: права и способы взыскания",
+  "lead": "Разбираем пошагово: как рассчитать переплату, подать претензию лизингодателю и, если отказ, взыскать в суде через судебный приказ или исковое производство.",
+  "topic_action": "возврат переплаты по лизингу",
+  "breadcrumb_current": "Возврат переплаты после изъятия",
+  "main_keyword": "как вернуть переплату по лизингу после изъятия",
+  "secondary_keywords": [
+    "возврат денег по лизингу",
+    "переплата по лизингу после расторжения",
+    "взыскание переплаты лизингополучателем",
+    "досрочное расторжение лизинга возврат денег",
+    "как рассчитать переплату по лизингу",
+    "иск о возврате переплаты по лизингу",
+    "взыскание неустойки за незаконное изъятие",
+    "права лизингополучателя при изъятии",
+    "перерасчет платежей при досрочном расторжении"
+  ],
+  "internal_links": [
+    "/articles/vzysk/dosudebnyy-poryadok-vzyskaniya-dolga",
+    "/articles/vzysk/sudebnyy-prikas-kak-podati",
+    "/articles/vzysk/ispolnitelnyy-list-pristavy",
+    "/articles/vzysk/apellyacionnaya-zhaloba-na-reshenie-suda"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_5142/",
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/"
+  ],
+  "faq": [
+    {
+      "question": "Обязан ли лизингодатель возвращать переплату без решения суда?",
+      "answer": "Да, обязан. Требование возникает из закона и договора, судебное решение только подтверждает его. Отказ или молчание - основание для претензии, а затем и для иска."
+    },
+    {
+      "question": "Сколько дней у лизинговой компании на возврат остатка после продажи предмета?",
+      "answer": "30 календарных дней с момента реализации имущества. Основание - ст. 669 гражданского кодекса. Просрочка запускает проценты за каждый день задержки."
+    },
+    {
+      "question": "Что произойдёт, если предмет лизинга продали ниже рыночной цены?",
+      "answer": "Заказывайте независимую оценку на день изъятия. Разница между рыночной и продажной ценой увеличивает ваш возврат - суды принимают заключение оценщика как доказательство."
+    },
+    {
+      "question": "Можно ли взыскать проценты за каждый день задержки возврата переплаты?",
+      "answer": "Да, через 395-ю норму кодекса. Начало отсчёта - день, когда истёк срок добровольного возврата. Ставка - ключевая ЦБ за соответствующие периоды."
+    },
+    {
+      "question": "Чем судебный приказ отличается от обычного иска при взыскании переплаты?",
+      "answer": "Приказ - до полумиллиона, без заседания, за пять-десять дней. Иск - без потолка суммы, с заседаниями, от трёх месяцев. Возражение ответчика превращает приказ в исковое."
+    },
+    {
+      "question": "До какого момента действует трёхлетний срок на подачу иска?",
+      "answer": "Отсчёт - с даты, когда вы узнали о нарушении права: обычно с истечения месячного окна на возврат или с даты письменного отказа. Пропуск даёт ответчику право просить об отказе."
+    },
+    {
+      "question": "Что включить в претензию, чтобы суд принял её как надлежащее досудебное обращение?",
+      "answer": "Реквизиты соглашения, опись платежей с датами и суммами, методику расчёта, точное денежное требование, срок ответа и предупреждение о процентах. Отправка - заказным письмом с описью вложения."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все ключевые факты сверены с research.json: ст. 669, 395, 229.2 ГК/АПК, ст. 112 ФЗ-229, ст. 196 ГК.",
+    "Все нормы имеют статус active и last_verified: 2026-09-25 (актуальны).",
+    "Контекст применения норм корректен: 30 дней возврата, 7% исполнительский сбор, 3-летняя давность, 30 дней апелляция.",
+    "Запрещённые утверждения (forbidden_claims) отсутствуют: переплата возвращается не автоматически, судебный приказ не гарантирует 100%, амортизация вычитается законно."
+  ],
+  "keyword_density_main": 0.018,
+  "main_keyword_exact_count": 2,
+  "text_chars": 7581,
+  "og_image": "/assets/articles/vozvrat-pereplaty-po-lizingu-posle-izyatiya-predmeta.jpg",
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.093,
+  "local_spam_ngram3_repeat": 0.022,
+  "local_lexical_diversity": 0.643,
+  "local_ai_markers_density": 0.31,
+  "local_ai_markers_critical": 0,
+  "local_ai_markers_total": 3,
+  "local_ai_markers_high": 1,
+  "local_own_voice_hits": 2,
+  "local_first_person_singular_hits": 0,
+  "length_status": "too_long",
+  "length_kind": "default",
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 49,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "длина значительно больше лимита 6500 (7 581 знаков)"
+  ],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1790304593/articles/vozvrat-pereplaty-po-lizingu-posle-izyatiya-predmeta-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1790304593/articles/vozvrat-pereplaty-po-lizingu-posle-izyatiya-predmeta-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Close-up cinematic photograph of legal attributes arranged on a dark slate surface as if mid-process. Hero objects: brass scales of justice perfectly balanced, wooden judge's gavel on its round sound block, stack of three closed dossiers tied with cord, polished round official seal, antique brass padlock with chain lying open, sand-filled hourglass mid-flow, fountain pen. Camera at tabletop level, three-quarter angle with shallow depth of field. Lighting: soft directional sidelight from upper left casting elegant shadows with warm brass rim-light on metal surfaces. Materials: oxidized brass, dark walnut, weathered leather. Palette: deep charcoal, warm brass accents, cool grey. Mood: judicial authority restoring financial equilibrium through lawful enforcement, assets returning to rightful owner.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-09-25T02:49:54Z",
+  "date_published": "2026-09-25",
+  "date_modified": "2026-09-25",
+  "ready_for_review": true,
+  "ready_at": "2026-09-25T02:50:00Z",
+  "publication_target": "telegram_review"
+}

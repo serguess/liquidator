@@ -1,0 +1,24 @@
+{
+  "slug": "vozvrat-pereplaty-po-lizingu-posle-izyatiya-predmeta",
+  "article_id": 604,
+  "scores": {
+    "structure_overlap": 0.0,
+    "thesis_similarity": 0.0,
+    "cta_overlap": 0.378
+  },
+  "thresholds": {
+    "structure_overlap": 0.4,
+    "thesis_similarity": 0.3,
+    "cta_overlap": 0.2
+  },
+  "passed": false,
+  "peers_compared": 49,
+  "closest_peer": null,
+  "similar_articles": [],
+  "conflicts": [
+    "cta_overlap: 0.378 (threshold: 0.2)"
+  ],
+  "recommendation": "rewrite_with_angle:change-perspective (closest: None)",
+  "stored_in_db": true,
+  "note": "Вектор статьи записан в data/embeddings.sqlite (published=0). После публикации агент 7 переключит флаг на 1."
+}

@@ -7103,6 +7103,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "vozvrat-pereplaty-po-lizingu-posle-izyatiya-predmeta",
+      "category": "vzysk",
+      "title": "Возврат переплаты по лизингу после изъятия: как вернуть",
+      "added_at": "2026-09-25T05:50:00.105930",
+      "char_count": 7581,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1790304593/articles/vozvrat-pereplaty-po-lizingu-posle-izyatiya-predmeta-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
