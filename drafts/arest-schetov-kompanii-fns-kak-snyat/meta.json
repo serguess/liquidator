@@ -1,0 +1,104 @@
+{
+  "slug": "arest-schetov-kompanii-fns-kak-snyat",
+  "category": "yur",
+  "title": "Как снять арест со счетов компании ФНС: пошагово",
+  "description": "Как разблокировать счета компании, если их заморозила ФНС. Способы снятия ареста, документы и сроки разблокировки счетов.",
+  "h1": "Как снять арест со счетов компании, наложенный ФНС: способы и порядок разблокировки",
+  "lead": "Утро понедельника. Бухгалтер звонит: перевод поставщику не проходит. Банк отвечает про приостановление операций. Через час выясняется - акт ФНС по 76-й налогового кодекса. Долг перед бюджетом закрыт не полностью, расчётные счета обездвижены до полного погашения. Зарплата встала. Аванс подрядчику - тоже. У действующей организации это первые сутки паники.",
+  "topic_action": "снятие ареста со счетов компании",
+  "breadcrumb_current": "Снятие ареста со счетов ФНС",
+  "og_image": "/assets/articles/arest-schetov-kompanii-fns-kak-snyat.jpg",
+  "main_keyword": "как снять арест со счетов компании",
+  "secondary_keywords": [
+    "разблокировка счетов компании ФНС",
+    "как снять арест со счета юридического лица",
+    "блокировка счета фирмы налоговой",
+    "порядок разблокировки счетов при аресте",
+    "снять арест со счета компании через суд",
+    "ФНС заморозила счет что делать",
+    "арест счета по налогам компании",
+    "разблокировать счет компании при задолженности"
+  ],
+  "internal_links": [
+    "/articles/yur/bankrotstvo-yurlica-poshagovo",
+    "/articles/yur/ispolnitelnoe-proizvodstvo-pristavom",
+    "/articles/yur/nalogovaya-zadolzhennost-yurlica"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/",
+    "https://www.consultant.ru/document/cons_doc_LAW_36061/"
+  ],
+  "faq": [
+    {
+      "question": "Сколько дней у банка на разблокировку после отмены?",
+      "answer": "Обслуживающий банк обязан возобновить операции в день получения нового документа. Задержка - основание для жалобы в ЦБ и требования компенсации потерь."
+    },
+    {
+      "question": "Можно ли платить зарплату при замороженном счёте?",
+      "answer": "Да. Платежи по зарплате приоритетнее налоговых требований - их проводят в рамках общей очерёдности списания (855 ГК). На практике для этого приносят в отделение платёжку с копией ведомости."
+    },
+    {
+      "question": "Что делать, если в требовании указана неверная сумма?",
+      "answer": "Подавать возражения с расчётом и первичными документами. Параллельно - жалобу в вышестоящее УФНС по 139-й НК. Ошибочная сумма - типовое основание для отмены."
+    },
+    {
+      "question": "Обязательно ли исчерпать досудебный порядок перед арбитражем?",
+      "answer": "По актам налоговиков досудебный этап предусмотрен налоговым законодательством. Пропуск порядка - причина оставить заявление без движения. Жалоба в УФНС нужна до похода в арбитраж."
+    },
+    {
+      "question": "Помогает ли одобренная рассрочка снять уже действующий арест?",
+      "answer": "Да. При заключении договора о рассрочке служба обязана отменить блокировку операций - это прямое требование 64-65 НК."
+    },
+    {
+      "question": "Можно ли взыскать убытки, если арест окажется незаконным?",
+      "answer": "Да, по 15-й ГК. Возмещаются доказанные потери: неустойки контрагентам, упущенная выручка, комиссии по обслуживанию. Иск - в арбитраж, срок - три года."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все юр-утверждения сверены с research.json. Статусы: active, last_verified в пределах 6 месяцев.",
+    "Ст. 76 НК РФ о приостановлении операций - актуальна (active, last_verified 2026-09-26).",
+    "Сроки: 60 дней на требование (ст. 69), 10 дней на обжалование (ст. 108 АПК) - актуальны.",
+    "Отсрочка до 6 мес., рассрочка до 5 лет (ст. 64-65) - актуальны.",
+    "Жалоба в вышестоящий орган 30 дней (ст. 139) - актуальна.",
+    "Возмещение убытков по ст. 15 ГК, исковая давность 3 года - актуально.",
+    "Нет запрещённых утверждений из forbidden_claims.",
+    "Контекст применения норм корректен - не путаются процедуры, стороны, категории."
+  ],
+  "keyword_density_main": 0.022,
+  "main_keyword_exact_count": 0,
+  "text_chars": 6591,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.093,
+  "local_spam_ngram3_repeat": 0.018,
+  "local_lexical_diversity": 0.669,
+  "local_ai_markers_density": 0.58,
+  "local_ai_markers_critical": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1790373823/articles/arest-schetov-kompanii-fns-kak-snyat-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1790373823/articles/arest-schetov-kompanii-fns-kak-snyat-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Top-down flat-lay editorial photograph on a polished dark walnut desk. Soft golden morning light from a window casting a long warm diagonal across the surface. On the desk: closed leather portfolio folder, fountain pen aligned across it, a polished brass round company seal, a stack of closed law books with embossed gilt spines, a scientific calculator displaying no numbers, an antique brass pocket watch mid-dial, reading glasses resting on a sealed envelope. Arrange with precise editorial composition suggesting rigorous financial and legal procedure. Premium legal-magazine aesthetic, neutral beige and graphite palette with warm brass accents conveying corporate authority and procedural diligence.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-09-25T22:03:44Z",
+  "length_status": "too_long",
+  "length_kind": "default",
+  "local_ai_markers_total": 5,
+  "local_ai_markers_high": 1,
+  "local_own_voice_hits": 2,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 47,
+  "predicted_ai_pct": 5,
+  "predicted_uniqueness_pct": 90,
+  "customer_risks": [
+    "длина чуть больше лимита 6500 (6 591 знаков)"
+  ],
+  "date_published": "2026-09-26",
+  "date_modified": "2026-09-26",
+  "ready_for_review": true,
+  "ready_at": "2026-09-25T22:03:45Z",
+  "publication_target": "telegram_review"
+}
