@@ -45329,5 +45329,64 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-09-25T05:12:21",
+    "category": "vzysk",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 11,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "vzysk-161",
+    "topic_slug": "vozvrat-pereplaty-po-lizingu-posle-izyatiya-predmeta",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "length_soft_passed: 7581 > 6500 но ≤ 8500 и iteration=2 — пропускаем (приоритет spam/uniqueness/ai)"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "finalize_safety_net": {
+      "ran": true,
+      "rc": 0
+    },
+    "status": "ok",
+    "slug": "vozvrat-pereplaty-po-lizingu-posle-izyatiya-predmeta",
+    "duration_sec": 2258.5,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "\n6-seo-editor        haiku            20       8    62172     39548     62200\n7-publisher         haiku            20       8    36350     39548     36378\n------------------------------------------------------------------------------------------\nИТОГО                               220     107   620655    905929    620982\nBillable-токенов на статью: ~620K (cache_read 905K не считается в лимит подписки).\nАртефакты: drafts/vozvrat-pereplaty-po-lizingu-posle-izyatiya-predmeta/  | quality_gate exit=0",
+    "stderr_tail": "",
+    "tokens_by_model": {},
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7581
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]

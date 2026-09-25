@@ -7116,6 +7116,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "fssp-vzyskanie-yurlits-rost-46-procentov",
+      "category": "news",
+      "title": "Взыскание с юридических лиц выросло: отчёт ФССП",
+      "added_at": "2026-09-25T08:46:05.983139",
+      "char_count": 7440,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1790315163/articles/fssp-vzyskanie-yurlits-rost-46-procentov-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
