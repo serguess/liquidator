@@ -1,0 +1,102 @@
+{
+  "slug": "nbki-vydacha-potrebkreditov-avg-2026",
+  "category": "news",
+  "title": "НБКИ: потребительские кредиты упали в августе",
+  "description": "Данные НБКИ за август: выдача потребительских кредитов упала до 1 трлн рублей. Анализ рынка для заёмщиков и кредиторов.",
+  "h1": "Потребительское кредитование: данные НБКИ за август",
+  "lead": "По данным НБКИ, объём выдачи потребительских ссуд в августе оказался около 1 триллиона рублей - разбираем, что это означает для тех, кто уже платит по нескольким займам.",
+  "topic_action": "проверку возможности списания долгов по кредитам",
+  "breadcrumb_current": "Данные НБКИ за август",
+  "og_image": "/assets/articles/nbki-vydacha-potrebkreditov-avg-2026.jpg",
+  "main_keyword": "нбки потребительские кредиты август",
+  "secondary_keywords": [
+    "объём потребительского кредитования",
+    "выдача кредитов физическим лицам",
+    "потребительское кредитование август",
+    "данные по кредитованию нбки",
+    "рынок потребительских кредитов",
+    "кредитование население август"
+  ],
+  "intent": "informational",
+  "funnel_stage": "cold",
+  "article_type": "B",
+  "offer": "proverka-spisaniya",
+  "event_date": "2026-09-10",
+  "news_zone": "finance",
+  "internal_links": [
+    "/articles/fiz/bank-otkazal-v-restrukturizacii-chto-delat-bankrotstvo",
+    "/articles/fiz/arest-zarplaty-pristavami-bankrotstvo"
+  ],
+  "external_links": [
+    "https://nbki.ru/company/news/",
+    "https://www.cbr.ru/"
+  ],
+  "faq": [
+    {
+      "question": "Что такое НБКИ и чем оно отличается от кредитора?",
+      "answer": "Это Национальное бюро кредитных историй - аккредитованная регулятором организация, которая собирает сведения о займах граждан и компаний. Деньги бюро не выдаёт и в одобрении не участвует. Оно хранит историю и предоставляет её кредиторам и самому человеку."
+    },
+    {
+      "question": "Включает ли статистика бюро данные по МФО и кооперативам?",
+      "answer": "Да, в основном. Отчёт аккумулирует сведения от коммерческих банков, микрофинансовых организаций и кредитных кооперативов, которые передают данные. Ломбарды и займы между физлицами по распискам обычно не попадают."
+    },
+    {
+      "question": "Почему кредитование снижается при высокой ключевой ставке?",
+      "answer": "Ключевая ставка напрямую влияет на стоимость денег для финансовых организаций, а значит - на процент по ссудам. Дорогой заём отпугивает часть желающих, скоринг становится жёстче. Итог - меньше одобрений и меньше выдачи."
+    },
+    {
+      "question": "Как охлаждение рынка влияет на шансы одобрения нового займа?",
+      "answer": "Шансы снижаются, особенно у людей с уже открытыми обязательствами. Кредиторы внимательнее смотрят на показатель долговой нагрузки и охотнее отказывают тем, у кого совокупные платежи приближаются к половине дохода."
+    },
+    {
+      "question": "Каким гражданам сложнее всего получить одобрение сейчас?",
+      "answer": "Тем, у кого несколько открытых договоров, была просрочка за последние два года или неподтверждённый доход. Также сложнее самозанятым без длинной истории поступлений и людям, недавно сменившим работу."
+    },
+    {
+      "question": "Можно ли законно избавиться от долгов, если платежи стали неподъёмными?",
+      "answer": "Да, если ситуация подходит под условия закона о несостоятельности. Списание проходит через суд или через МФЦ - в зависимости от суммы и наличия имущества. Универсального ответа нет: подойдёт ли процедура именно вам, решается по конкретному расчёту."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "f3 (объём августа 2026 ~1 трлн руб.) имеет legislation_status: needs_verification и context_check_passed: false - использована safe_phrasing 'около 1 триллиона рублей' с атрибуцией к публикации НБКИ; прямых количественных заявлений без оговорки в тексте нет",
+    "Запрещённые утверждения из forbidden_claims отсутствуют: бюро нигде не названо кредитором, снижение выдачи не приравнивается к рецессии или списанию долгов",
+    "Внутренние ссылки bank-otkazal-v-restrukturizacii-chto-delat-bankrotstvo и arest-zarplaty-pristavami-bankrotstvo указаны с категорией fiz - требуется верификация в published_index.json перед финализацией"
+  ],
+  "keyword_density_main": null,
+  "main_keyword_exact_count": null,
+  "text_chars": 6783,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.094,
+  "local_spam_ngram3_repeat": 0.012,
+  "local_lexical_diversity": 0.67,
+  "local_ai_markers_density": 0.23,
+  "local_ai_markers_critical": 0,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1790316594/articles/nbki-vydacha-potrebkreditov-avg-2026-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1790316594/articles/nbki-vydacha-potrebkreditov-avg-2026-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Wide editorial photograph of a private executive office — high ceilings, tall windows with heavy drapes, walnut bookshelves lining the walls, an oxblood leather chesterfield, a large mahogany desk in the foreground holding a closed laptop, a precision scientific calculator, a brass desk lamp, a fountain pen on a stand, an antique pocket watch, a stack of bank statements tied with cord, and scattered polished brass coins. Background through windows: blurred city skyline at grey dusk. Camera: three-quarter angle, slight low-angle to emphasize ceiling height. Lighting: cool window light blended with warm tungsten desk lamp glow. Palette: walnut, oxblood, brass. Mood: financial decision-maker reviewing credit market decline.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-09-25T06:09:55Z",
+  "length_status": "too_long",
+  "length_kind": "news",
+  "local_ai_markers_total": 2,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 2,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 47,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 90,
+  "customer_risks": [
+    "длина значительно больше лимита 5500 (6 783 знаков)"
+  ],
+  "date_published": "2026-09-25",
+  "date_modified": "2026-09-25",
+  "ready_for_review": true,
+  "ready_at": "2026-09-25T06:09:56Z",
+  "publication_target": "telegram_review"
+}

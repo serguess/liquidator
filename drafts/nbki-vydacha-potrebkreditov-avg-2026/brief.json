@@ -1,0 +1,40 @@
+{
+  "slug": "nbki-vydacha-potrebkreditov-avg-2026",
+  "category": "news",
+  "h1": "Потребительское кредитование: данные НБКИ за август",
+  "title": "НБКИ: потребительские кредиты упали в августе",
+  "description": "Данные НБКИ за август: выдача потребительских кредитов упала до 1 трлн рублей. Анализ рынка для заёмщиков и кредиторов.",
+  "main_keyword": "нбки потребительские кредиты август",
+  "frequency_estimate": null,
+  "frequency_main": null,
+  "frequency_secondary": null,
+  "frequency_total": null,
+  "frequency_checked_at": null,
+  "frequency_region": 225,
+  "secondary_keywords": [
+    "объём потребительского кредитования",
+    "выдача кредитов физическим лицам",
+    "потребительское кредитование август",
+    "данные по кредитованию нбки",
+    "рынок потребительских кредитов",
+    "кредитование население август"
+  ],
+  "lsi": [
+    "бюро кредитных историй",
+    "статистика выдачи кредитов",
+    "потребительский кредит",
+    "задолженность по кредитам",
+    "физические лица кредитование",
+    "кредитный рынок России",
+    "микрофинансирование",
+    "ставки по кредитам"
+  ],
+  "intent": "informational",
+  "funnel_stage": "cold",
+  "article_type": "B",
+  "offer": "proverka-spisaniya",
+  "cannibalization_check": "ok",
+  "event_date": "2026-09-10",
+  "news_zone": "finance",
+  "primary_source": "https://nbki.ru/company/news/"
+}
