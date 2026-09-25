@@ -13073,15 +13073,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 2827,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-09-23T00:41:38",
-      "last_action_at": "2026-09-23T00:41:38",
+      "last_action_at": "2026-09-23T10:00:10",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-09-23T00:41:38"
+      "pending_batch": false,
+      "pending_batch_at": "2026-09-23T00:41:38",
+      "batch_sent_at": "2026-09-23T10:00:10",
+      "batch_fail_count": 0
     },
     "droblenie-biznesa-bankrotstvo-subsidiarka-riski": {
       "category": "yur",
@@ -13091,15 +13093,17 @@
       "versions": [
         "2.0"
       ],
-      "tg_message_id": null,
-      "tg_chat_id": null,
+      "tg_message_id": 2829,
+      "tg_chat_id": 583558720,
       "first_seen_at": "2026-09-23T05:52:10",
-      "last_action_at": "2026-09-23T05:52:10",
+      "last_action_at": "2026-09-23T10:00:12",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
-      "pending_batch": true,
-      "pending_batch_at": "2026-09-23T05:52:10"
+      "pending_batch": false,
+      "pending_batch_at": "2026-09-23T05:52:10",
+      "batch_sent_at": "2026-09-23T10:00:12",
+      "batch_fail_count": 0
     },
     "mayatnikovye-torgi-bankrotstvo-krupnye-aktivy": {
       "category": "news",
@@ -13109,19 +13113,239 @@
       "versions": [
         "2.0"
       ],
+      "tg_message_id": 2831,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-09-23T09:04:12",
+      "last_action_at": "2026-09-23T10:00:14",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-09-23T09:04:12",
+      "batch_sent_at": "2026-09-23T10:00:14",
+      "batch_fail_count": 0
+    },
+    "bankrotstvo-lgornaya-ipoteka-semejnaya-it": {
+      "category": "fiz",
+      "title": "Банкротство и льготная ипотека: сохранится ли ставка",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 2833,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-09-23T15:28:18",
+      "last_action_at": "2026-09-24T10:00:04",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-09-23T15:28:18",
+      "batch_sent_at": "2026-09-24T10:00:04",
+      "batch_fail_count": 0
+    },
+    "zareestrovye-trebovaniya-bankrotstvo-yurlica": {
+      "category": "yur",
+      "title": "Зареестровые требования при банкротстве юрлица: порядок и сроки",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 2835,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-09-23T20:03:21",
+      "last_action_at": "2026-09-24T10:00:06",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-09-23T20:03:21",
+      "batch_sent_at": "2026-09-24T10:00:06",
+      "batch_fail_count": 0
+    },
+    "kak-osporit-raschet-dolga-v-sude-kontrraschet": {
+      "category": "vzysk",
+      "title": "Как оспорить расчёт долга в суде: контррасчёт",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 2837,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-09-24T00:59:25",
+      "last_action_at": "2026-09-24T10:00:09",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-09-24T00:59:25",
+      "batch_sent_at": "2026-09-24T10:00:09",
+      "batch_fail_count": 0
+    },
+    "ipotechnye-kanikuly-18-mesyacev-semya-s-detmi": {
+      "category": "news",
+      "title": "Ипотечные каникулы: условия и сроки для семей",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 2839,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-09-24T05:20:04",
+      "last_action_at": "2026-09-24T10:00:11",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-09-24T05:20:04",
+      "batch_sent_at": "2026-09-24T10:00:11",
+      "batch_fail_count": 0
+    },
+    "osparivanie-torgov-bankrotstvo-srok-godovoj-vs": {
+      "category": "news",
+      "title": "Оспаривание торгов при банкротстве: сроки ВС",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 2841,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-09-24T08:45:07",
+      "last_action_at": "2026-09-24T10:00:13",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-09-24T08:45:07",
+      "batch_sent_at": "2026-09-24T10:00:13",
+      "batch_fail_count": 0
+    },
+    "yuridicheskie-uslugi-neravnocennaya-sdelka-bankrotstvo-vs": {
+      "category": "news",
+      "title": "Завышенный гонорар юриста в банкротстве: позиция ВС",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 2843,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-09-24T08:59:07",
+      "last_action_at": "2026-09-25T10:00:08",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-09-24T08:59:07",
+      "batch_sent_at": "2026-09-25T10:00:08",
+      "batch_fail_count": 0
+    },
+    "bankrotstvo-neskolko-zalogov-odno-imushchestvo": {
+      "category": "fiz",
+      "title": "Приоритет залогов в банкротстве физлица",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 2845,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-09-24T10:26:08",
+      "last_action_at": "2026-09-25T10:00:10",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-09-24T10:26:08",
+      "batch_sent_at": "2026-09-25T10:00:10",
+      "batch_fail_count": 0
+    },
+    "dobrovolnoe-prinuditelnoe-bankrotstvo-yurlica": {
+      "category": "yur",
+      "title": "Добровольное банкротство vs принудительное: отличия",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 2847,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-09-25T00:42:19",
+      "last_action_at": "2026-09-25T10:00:12",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-09-25T00:42:19",
+      "batch_sent_at": "2026-09-25T10:00:12",
+      "batch_fail_count": 0
+    },
+    "vozvrat-pereplaty-po-lizingu-posle-izyatiya-predmeta": {
+      "category": "vzysk",
+      "title": "Возврат переплаты по лизингу после изъятия: как вернуть",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 2849,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-09-25T05:50:08",
+      "last_action_at": "2026-09-25T10:00:15",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-09-25T05:50:08",
+      "batch_sent_at": "2026-09-25T10:00:15",
+      "batch_fail_count": 0
+    },
+    "fssp-vzyskanie-yurlits-rost-46-procentov": {
+      "category": "news",
+      "title": "Взыскание с юридических лиц выросло: отчёт ФССП",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 2851,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-09-25T08:46:11",
+      "last_action_at": "2026-09-25T10:00:17",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-09-25T08:46:11",
+      "batch_sent_at": "2026-09-25T10:00:17",
+      "batch_fail_count": 0
+    },
+    "nbki-vydacha-potrebkreditov-avg-2026": {
+      "category": "news",
+      "title": "НБКИ: потребительские кредиты упали в августе",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
       "tg_message_id": null,
       "tg_chat_id": null,
-      "first_seen_at": "2026-09-23T09:04:12",
-      "last_action_at": "2026-09-23T09:04:12",
+      "first_seen_at": "2026-09-25T09:10:11",
+      "last_action_at": "2026-09-25T09:10:11",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
       "pending_batch": true,
-      "pending_batch_at": "2026-09-23T09:04:12"
+      "pending_batch_at": "2026-09-25T09:10:11"
     }
   },
   "pending_actions": [],
-  "last_batch_date": "2026-09-22",
-  "last_batch_count": 3,
-  "last_batch_at": "2026-09-22T10:00:29"
+  "last_batch_date": "2026-09-25",
+  "last_batch_count": 5,
+  "last_batch_at": "2026-09-25T10:00:17"
 }
