@@ -7220,6 +7220,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "zalog-tretego-lica-bankrotstvo-dolzhnika",
+      "category": "yur",
+      "title": "Залог третьего лица при банкротстве должника",
+      "added_at": "2026-09-27T01:02:30.480207",
+      "char_count": 7954,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1790460149/articles/zalog-tretego-lica-bankrotstvo-dolzhnika-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

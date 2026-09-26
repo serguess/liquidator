@@ -1,0 +1,100 @@
+{
+  "slug": "zalog-tretego-lica-bankrotstvo-dolzhnika",
+  "category": "yur",
+  "title": "Залог третьего лица при банкротстве должника",
+  "description": "Объясняем права залогодателя при банкротстве должника: входит ли имущество третьего лица в конкурсную массу, влияет ли банкротство на залог и как защитить интересы.",
+  "h1": "Залог третьего лица при банкротстве основного должника: права и защита",
+  "lead": "Имущество третьего лица не входит в конкурсную массу основного должника и остаётся защищённым - но только при условии, что залогодатель не контролирует должника. Рассказываем, как работает процедура и где основные риски.",
+  "topic_action": "защиту прав залогодателя при банкротстве",
+  "breadcrumb_current": "Залог третьего лица при банкротстве",
+  "og_image": "/assets/articles/zalog-tretego-lica-bankrotstvo-dolzhnika.jpg",
+  "main_keyword": "залог третьего лица при банкротстве должника",
+  "secondary_keywords": [
+    "права залогодателя при банкротстве",
+    "имущество третьего лица в конкурсной массе",
+    "защита залога в банкротстве",
+    "взыскание по залогу при банкротстве",
+    "поручитель при банкротстве должника",
+    "сохранение залога в процедуре банкротства",
+    "залогодатель при банкротстве основного должника",
+    "залоговое право при несостоятельности"
+  ],
+  "internal_links": [
+    "/articles/yur/konkursnoe-proizvodstvo-dlya-yuridicheskogo-lica",
+    "/articles/yur/kak-zaschitit-prava-kreditora-v-bankrotstve",
+    "/articles/yur/vedenie-bankrotstva-yuridicheskogo-lica"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/",
+    "https://www.consultant.ru/document/cons_doc_LAW_5142/"
+  ],
+  "faq": [
+    {
+      "question": "Могут ли забрать заложенную квартиру без согласия её владельца?",
+      "answer": "Держатель обращает взыскание на предмет по договору и закону - отдельное согласие собственника на этом этапе не требуется. Но управляющий обязан уведомить владельца о торгах, а тот вправе оспорить условия реализации в арбитраже."
+    },
+    {
+      "question": "Что будет с залогом, если кредитор пропустил срок реестра?",
+      "answer": "Взыскание по чужой вещи не отменяется - оно идёт по гражданскому кодексу. Но требование к самому должнику по незалоговой части падает в зареестровый статус. Практически это означает: денег после реализации основных активов уже почти не остаётся."
+    },
+    {
+      "question": "Чем ответственность залогодателя отличается от ответственности поручителя?",
+      "answer": "Собственник отвечает только заложенной вещью - его личное имущество вне зоны риска. Поручитель отвечает солидарно и всем своим - зарплатой, счетами, недвижимостью. Разница огромная."
+    },
+    {
+      "question": "Нужно ли регистрировать движимое имущество в РЗДИ?",
+      "answer": "Регистрация не обязательна - право возникает по договору. Но запись в реестре фиксирует очерёдность держателя. Без неё при конкуренции с другим требователем можно оказаться вторым в строю, хотя договор подписан раньше."
+    },
+    {
+      "question": "Когда собственник рискует потерять вещь даже без обращения взыскания?",
+      "answer": "Основной сценарий - привлечение к субсидиарке, если он одновременно контролировал должника. Тогда потери идут по всем активам, а не только по заложенной вещи. Второй вариант - продажа в конкурсе при недостатке средств на погашение расходов процедуры."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все ключевые утверждения (ст. 34, 141, 138, 352 ГК РФ; ст. 363, 368 ГК РФ; ст. 61.10-61.11, 61.14 127-ФЗ) сверены с research.json и имеют статус 'active' с last_verified от 2026-09-27.",
+    "Контекст применения норм корректен: распределение выручки 70/20/10 (80/20/10 для банковского залога) относится к ст. 138 127-ФЗ и применяется к залоговому имуществу третьего лица.",
+    "Описание трёх способов обращения взыскания соответствует ст. 349 ГК РФ, ст. 229.2 АПК РФ.",
+    "Различие между залогом, поручительством и гарантией описано в соответствии с safe_phrasing из research.json (f7, f8).",
+    "Субсидиарная ответственность залогодателя корректно привязана к контролю над должником (ст. 61.10-61.11 127-ФЗ); залог сам по себе не является основанием для субсидиарки.",
+    "Регистрация залога недвижимости в ЕГРН и движимости в РЗДИ описана в соответствии с ст. 131 ГК РФ, ФЗ-218, ФЗ-173.",
+    "Прекращение залога описано в соответствии со ст. 352 ГК РФ."
+  ],
+  "keyword_density_main": 0.016,
+  "main_keyword_exact_count": 3,
+  "text_chars": 7954,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.109,
+  "local_spam_ngram3_repeat": 0.029,
+  "local_lexical_diversity": 0.597,
+  "local_ai_markers_density": 0.3,
+  "local_ai_markers_critical": 0,
+  "local_ai_markers_total": 3,
+  "local_ai_markers_high": 1,
+  "local_own_voice_hits": 3,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1790460149/articles/zalog-tretego-lica-bankrotstvo-dolzhnika-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1790460149/articles/zalog-tretego-lica-bankrotstvo-dolzhnika-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Close-up architectural photograph of polished marble surface. Foreground arrangement: closed dark leather portfolio, fountain pen positioned for signature, polished brass round seal of guarantor authority, antique brass pocket watch marking the passage of obligation. Background: blurred marble architectural detail. Camera: tight crop, eye-level. Lighting: soft diffused daylight grazing stone, revealing texture and veining. Palette: cool whites, warm cream, restrained brass. Mood: refined institutional prestige, the weight of third-party guarantee and legal obligation.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-09-26T22:02:29Z",
+  "length_status": "too_long",
+  "length_kind": "default",
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 53,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность чуть выше 50% (~53%)",
+    "длина значительно больше лимита 6500 (7 954 знаков)"
+  ],
+  "date_published": "2026-09-27",
+  "date_modified": "2026-09-27",
+  "ready_for_review": true,
+  "ready_at": "2026-09-26T22:02:30Z",
+  "publication_target": "telegram_review"
+}
