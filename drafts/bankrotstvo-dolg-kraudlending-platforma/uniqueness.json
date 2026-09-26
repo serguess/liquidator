@@ -1,0 +1,28 @@
+{
+  "slug": "bankrotstvo-dolg-kraudlending-platforma",
+  "article_id": 612,
+  "scores": {
+    "structure_overlap": 0.0,
+    "thesis_similarity": 0.266,
+    "cta_overlap": 0.0
+  },
+  "thresholds": {
+    "structure_overlap": 0.4,
+    "thesis_similarity": 0.3,
+    "cta_overlap": 0.2
+  },
+  "passed": true,
+  "peers_compared": 50,
+  "closest_peer": "dacha-garazh-zemelnyj-uchastok-bankrotstvo",
+  "similar_articles": [
+    {
+      "slug": "dacha-garazh-zemelnyj-uchastok-bankrotstvo",
+      "category": "fiz",
+      "similarity": 0.266
+    }
+  ],
+  "conflicts": [],
+  "recommendation": "ok",
+  "stored_in_db": true,
+  "note": "Вектор статьи записан в data/embeddings.sqlite (published=0). После публикации агент 7 переключит флаг на 1."
+}

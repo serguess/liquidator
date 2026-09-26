@@ -1,0 +1,107 @@
+{
+  "slug": "bankrotstvo-dolg-kraudlending-platforma",
+  "category": "fiz",
+  "title": "Банкротство при долге краудлендинговой платформе",
+  "description": "Как физлицу объявить банкротство если есть долг перед краудлендинговой платформой, как спасить имущество и что делать при взыскании задолженности.",
+  "h1": "Банкротство при долге перед краудлендинговой платформой: права должника и процедура",
+  "lead": "Требование краудлендинговой платформы рассматривается законом как обычное денежное обязательство и может быть списано в процедуре банкротства физлица.",
+  "topic_action": "списание долга перед краудлендинговой платформой",
+  "breadcrumb_current": "Банкротство при долге краудлендингу",
+  "og_image": "/assets/articles/bankrotstvo-dolg-kraudlending-platforma.jpg",
+  "main_keyword": "банкротство при долге краудлендинг",
+  "secondary_keywords": [
+    "краудлендинг долг банкротство",
+    "объявить себя банкротом краудлендинг",
+    "банкротство краудлендинговая платформа",
+    "долг микрокредитной платформе банкротство",
+    "как избавиться от долга краудлендинга",
+    "банкротство при долгах перед краудлендерами",
+    "просрочка краудлендинг банкротство",
+    "взыскание краудлендинговой платформой",
+    "финансовый управляющий краудлендинг",
+    "минимальный долг для банкротства"
+  ],
+  "internal_links": [
+    "/articles/fiz/bank-otkazal-v-restrukturizacii-chto-delat-bankrotstvo",
+    "/articles/fiz/arest-zarplaty-pristavami-bankrotstvo",
+    "/articles/fiz/avtomobil-pri-bankrotstve-fizlica"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/",
+    "https://www.consultant.ru/document/cons_doc_LAW_146436/"
+  ],
+  "faq": [
+    {
+      "question": "Можно ли подать заявление, если долг меньше 500 000 рублей?",
+      "answer": "Да. Полмиллиона - порог, при котором взыскатель обязан ждать три месяца просрочки и потом идти в суд. Сам заёмщик вправе обратиться в арбитраж при любой сумме, если признаёт, что не тянет платежи по всем обязательствам."
+    },
+    {
+      "question": "Что будет с производством приставов после введения дела?",
+      "answer": "Как только арбитраж введёт процедуру, ФССП обязана приостановить взыскание. Удержания из зарплаты прекращаются, аресты со счетов снимаются в течение нескольких дней после получения определения суда."
+    },
+    {
+      "question": "Сколько раз разрешено проходить процедуру банкротства?",
+      "answer": "Ограничение - раз в пять лет для судебного пути и раз в десять для внесудебного через МФЦ. Отсчёт идёт от даты завершения предыдущего дела, а не от подачи заявления."
+    },
+    {
+      "question": "Обязательно ли вносить депозит сразу с заявлением?",
+      "answer": "Обычно да, вместе с документами. Но по ходатайству арбитраж может дать отсрочку до первого заседания, если гражданин обоснует финансовое положение и приложит доказательства."
+    },
+    {
+      "question": "Какие обязательства не спишутся даже после реализации?",
+      "answer": "Алименты, возмещение вреда жизни и здоровью, текущие платежи, зарплатные долги перед сотрудниками, субсидиарка. Всё остальное, включая краудлендинг, обычно списывается."
+    },
+    {
+      "question": "До какого срока сервис вправе сам инициировать банкротство заёмщика?",
+      "answer": "Пока сохраняется само право требования по договору займа - в среднем три года исковой давности с даты последней просрочки. Если этот срок истёк и не был прерван обращением в суд, право отпадает вместе с возможностью взыскивать."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все юр-утверждения сверены с research.json. Статусы: active, last_verified в пределах 6 месяцев.",
+    "Исправлена неточность в описании очередности требования: правильно - 'основная очередь по ст. 213.27 п. 1', а не 'третья очередь'.",
+    "Исправлена формулировка про судебное банкротство: уточнено что кредитор вправе подать (при 500 тыс. и 3 мес. просрочке), а гражданин - при любой сумме при признаках неплатёжеспособности (ст. 213.3-213.4).",
+    "Внимание: FAQ вопрос про 'раз в пять для судебного и раз в десять для внесудебного МФЦ' содержит информацию не из research.json. Для МФЦ (внесудебное) ограничение раз в десять не найдено в источниках - требует проверки перед публикацией.",
+    "Ссылки конвертированы из формата .html в стандартный формат /articles/{category}/{slug} для внутренних ссылок (arest-zarplaty-pristavami, avtomobil-pri-bankrotstve, bank-otkazal-v-restrukturizacii)."
+  ],
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1790424961/articles/bankrotstvo-dolg-kraudlending-platforma-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1790424961/articles/bankrotstvo-dolg-kraudlending-platforma-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Photograph of a private office interior with low-key lighting, deep walnut paneling, oxblood leather chair in corner. Desk in foreground holds closed laptop with dark screen, leather-bound notebook with fountain pen positioned across it, antique pocket watch, brass round seal on closed envelope. Background blurred bookshelves and dark window with distant city lights bokeh. Camera three-quarter angle, eye-level. Lighting warm tungsten desk lamp from upper left, deep ambient shadow. Mood solitary late-night deliberation, weighing difficult financial decisions.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-09-26T12:16:02Z",
+  "text_chars": 8598,
+  "length_status": "too_long",
+  "length_kind": "default",
+  "local_spam_top10_share": 0.105,
+  "local_spam_ngram3_repeat": 0.028,
+  "local_lexical_diversity": 0.627,
+  "local_ai_markers_density": 0.19,
+  "local_ai_markers_total": 2,
+  "local_ai_markers_critical": 0,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 3,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 49,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "длина значительно больше лимита 6500 (8 598 знаков)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "length_too_long: 8598 > 6500 (kind=default)",
+    "spam_risk: 2 флагов (top3_sum>30 (=32), top10_sum>80 (=83)), top-5: ['долг', 'сумм', 'гражданин', 'арбитраж', 'банкротств']",
+    "targeted_tokens_over_limit: руб_сокращение=1(>≤0)"
+  ],
+  "date_published": "2026-09-26",
+  "date_modified": "2026-09-26",
+  "ready_for_review": true,
+  "ready_at": "2026-09-26T12:16:04Z",
+  "publication_target": "telegram_review"
+}
