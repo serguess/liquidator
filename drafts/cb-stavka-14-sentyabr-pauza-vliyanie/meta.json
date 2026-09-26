@@ -1,0 +1,108 @@
+{
+  "slug": "cb-stavka-14-sentyabr-pauza-vliyanie",
+  "category": "news",
+  "title": "ЦБ сохранил ставку 14%: пауза и влияние на кредиты",
+  "description": "ЦБ оставил ключевую ставку на уровне 14%. Что значит пауза в политике, как она влияет на кредиты, ипотеку и депозиты физлиц и компаний.",
+  "h1": "ЦБ сохранил ставку 14%: что значит пауза в политике и как это влияет на кредиты",
+  "lead": "11 сентября 2026 года Банк России третье заседание подряд сохранил ключевую ставку на уровне 14% - разбираем, что это означает для заёмщиков, вкладчиков и компаний.",
+  "topic_action": "расчёт долговой нагрузки",
+  "breadcrumb_current": "ЦБ сохранил ставку 14%",
+  "og_image": "/assets/articles/cb-stavka-14-sentyabr-pauza-vliyanie.jpg",
+  "main_keyword": "ставка центрального банка 14%",
+  "secondary_keywords": [
+    "ключевая ставка центрального банка",
+    "влияние ставки на кредиты",
+    "пауза в политике ЦБ",
+    "как ставка влияет на ипотеку",
+    "депозиты при ставке 14%",
+    "политика центрального банка",
+    "кредитная ставка для бизнеса"
+  ],
+  "intent": "informational",
+  "funnel_stage": "cold",
+  "article_type": "B",
+  "offer": "raschet-stoimosti",
+  "event_date": "2026-09-11",
+  "news_zone": "finance",
+  "internal_links": [
+    "/articles/news/restrukturizaciya-dolga-253-fz-kreditory-novye-prava",
+    "/articles/yur/arest-schetov-kompanii-fns-kak-snyat"
+  ],
+  "external_links": [
+    "https://www.cbr.ru/hd_base/keyrate/"
+  ],
+  "faq": [
+    {
+      "question": "Почему регулятор не снизил уровень в сентябре 2026 года?",
+      "answer": "Решение объясняется желанием оценить накопленный эффект прежних шагов и убедиться, что замедление цен устойчиво. Разовое снижение показателей не считается достаточным сигналом для разворота курса."
+    },
+    {
+      "question": "Как долго может продолжаться пауза?",
+      "answer": "Точных сроков нет. Пауза длится до появления устойчивого тренда - обычно от нескольких месяцев до года. Каждое заседание совета директоров - потенциальная точка разворота."
+    },
+    {
+      "question": "Что произойдёт с ипотекой при снижении ставки?",
+      "answer": "Ипотечные предложения станут дешевле, но не сразу. Банки пересматривают условия с задержкой в несколько месяцев. Программы с господдержкой отреагируют медленнее рыночных."
+    },
+    {
+      "question": "Влияет ли решение регулятора на уже открытые вклады?",
+      "answer": "Условия по действующему депозиту фиксируются на весь срок договора. Новое решение регулятора коснётся только продуктов, которые вкладчик откроет после дня публикации."
+    },
+    {
+      "question": "Когда бизнес почувствует удешевление корпоративных займов?",
+      "answer": "Задержка обычно составляет от трёх до шести месяцев после первого снижения. Крупные заёмщики договариваются о пересмотре условий быстрее, малый бизнес - в последнюю очередь."
+    },
+    {
+      "question": "Означает ли пауза, что инфляция уже на целевом уровне?",
+      "answer": "Нет. Пауза говорит только о том, что регулятор считает текущий уровень достаточным для продолжения работы. Оценка целевого показателя публикуется в отдельных материалах Банка России."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "f4 (ипотека 12-14%) имеет legislation_status: needs_verification - использована safe_phrasing «как правило, в коридоре 12-14%»",
+    "f5 (потребкредиты 12-20%) имеет legislation_status: needs_verification - использована safe_phrasing «от 12 до 20% годовых»",
+    "f6 (депозиты 7-13%) имеет legislation_status: needs_verification - использована safe_phrasing «от 7 до 13 процентов»",
+    "Диапазон корпоративных ставок 15-18% из draft не подтверждён research.json (f10 не содержит конкретных цифр) - заменён обтекаемой формулировкой без числового диапазона",
+    "Запрещённые утверждения из forbidden_claims отсутствуют в тексте"
+  ],
+  "keyword_density_main": null,
+  "main_keyword_exact_count": null,
+  "text_chars": 5569,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.096,
+  "local_spam_ngram3_repeat": 0.004,
+  "local_lexical_diversity": 0.718,
+  "local_ai_markers_density": 0.27,
+  "local_ai_markers_critical": 0,
+  "length_status": "too_long",
+  "length_kind": "news",
+  "local_ai_markers_total": 2,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 3,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1790402470/articles/cb-stavka-14-sentyabr-pauza-vliyanie-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1790402470/articles/cb-stavka-14-sentyabr-pauza-vliyanie-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Wide-angle photograph of a grand symmetric marble-floored bank lobby interior with strong architectural lines converging toward the center. A marble pedestal in the center frame holds a sealed bound document representing the Central Bank's monetary policy decision. Polished brass railings flank the pedestal. Strong architectural columns and a coffered ceiling recede symmetrically into soft bokeh. Camera: dead-center symmetric, eye-level, slight wide-angle emphasizing depth and grandeur. Lighting: cool natural daylight from skylights illuminating marble surfaces with pristine clarity. Palette: cool whites, polished brass, deep walnut wood details. Mood: institutional authority, monumental financial decision, ceremonial solemnity.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-09-26T06:01:11Z",
+  "predicted_spam_pct": 42,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 90,
+  "customer_risks": [
+    "длина чуть больше лимита 5500 (5 569 знаков)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "broken_internal_links: 2 ссылок без соответствия в published_index (/articles/yur/arest-schetov-kompanii-fns-kak-snyat: slug 'arest-schetov-kompanii-fns-kak-snyat' не найден в категории 'yur' (есть: нигде); /articles/news/restrukturizaciya-dolga-253-fz-kreditory-novye-prava: slug 'restrukturizaciya-dolga-253-fz-kreditory-novye-prava' не найден в категории 'news' (есть: нигде))"
+  ],
+  "date_published": "2026-09-26",
+  "date_modified": "2026-09-26",
+  "ready_for_review": true,
+  "ready_at": "2026-09-26T06:01:13Z",
+  "publication_target": "telegram_review"
+}
