@@ -1,0 +1,30 @@
+{
+  "slug": "restrukturizaciya-dolga-253-fz-kreditory-novye-prava",
+  "category": "news",
+  "started_at": "2026-09-26T08:43:22",
+  "finished_at": null,
+  "total_duration_sec": null,
+  "current_iteration": 1,
+  "events": [
+    {
+      "ts": "2026-09-26T08:43:22",
+      "agent": "scheduler",
+      "event": "slot_started",
+      "iteration": 1,
+      "today_count": 2,
+      "limit": 8,
+      "write_article_duration_sec": 793.0
+    },
+    {
+      "ts": "2026-09-26T08:43:23",
+      "agent": "quality_gate",
+      "event": "passed",
+      "iteration": 1,
+      "blockers": [],
+      "warnings": [
+        "length_soft_passed: 7448 > 5500 но ≤ 7500 и iteration=2 — пропускаем (приоритет spam/uniqueness/ai)"
+      ],
+      "recommendations": []
+    }
+  ]
+}

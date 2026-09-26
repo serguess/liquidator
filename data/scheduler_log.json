@@ -45703,5 +45703,66 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-09-26T05:12:05",
+    "category": "vzysk",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 18,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "vzysk-162",
+    "topic_slug": "ispolnenie-inostrannogo-resheniya-suda-v-rossii",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "forced_pass_at_iter2: блокеры пропущены, статья идёт в TG-очередь с metrics_warning=true. Было: 1 блокеров — length_too_long"
+      ],
+      "recommendations": [
+        "reduce_length: сократить до 5000-6000 знаков"
+      ],
+      "stderr_tail": ""
+    },
+    "finalize_safety_net": {
+      "ran": true,
+      "rc": 0
+    },
+    "status": "ok",
+    "slug": "ispolnenie-inostrannogo-resheniya-suda-v-rossii",
+    "duration_sec": 2623.2,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "48666\n6-seo-editor        haiku            20       8    64404     39548     64432\n7-publisher         haiku            20      12    36210     39548     36242\n------------------------------------------------------------------------------------------\nИТОГО                               166      77   579673    530836    579916\nBillable-токенов на статью: ~579K (cache_read 530K не считается в лимит подписки).\nАртефакты: drafts/ispolnenie-inostrannogo-resheniya-suda-v-rossii/  | quality_gate exit=0",
+    "stderr_tail": "",
+    "tokens_by_model": {},
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 9533
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]

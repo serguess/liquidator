@@ -7181,6 +7181,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "restrukturizaciya-dolga-253-fz-kreditory-novye-prava",
+      "category": "news",
+      "title": "Реструктуризация долга по 253-ФЗ: новые права кредиторов",
+      "added_at": "2026-09-26T08:43:23.122396",
+      "char_count": 7448,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1790401401/articles/restrukturizaciya-dolga-253-fz-kreditory-novye-prava-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

@@ -1,0 +1,105 @@
+{
+  "slug": "restrukturizaciya-dolga-253-fz-kreditory-novye-prava",
+  "category": "news",
+  "title": "Реструктуризация долга по 253-ФЗ: новые права кредиторов",
+  "description": "Как изменились права кредиторов при реструктуризации долга после принятия поправок к 253-ФЗ: голосование, требования, защита интересов.",
+  "h1": "Реструктуризация долга при банкротстве: какие права получили кредиторы по 253-ФЗ",
+  "lead": "С 1 сентября 2026 года поправки к 253-ФЗ уточнили права займодавцев при голосовании, обжаловании решений собрания и дистанционном участии в процедуре.",
+  "topic_action": "консультацию по реструктуризации долга",
+  "breadcrumb_current": "Права кредиторов по 253-ФЗ",
+  "og_image": "/assets/articles/restrukturizaciya-dolga-253-fz-kreditory-novye-prava.jpg",
+  "main_keyword": "реструктуризация долга 253-фз",
+  "secondary_keywords": [
+    "права кредиторов при реструктуризации",
+    "федеральный закон 253-фз поправки",
+    "реструктуризация долга банкротство",
+    "план реструктуризации долга",
+    "голосование кредиторов реструктуризация",
+    "требования кредиторов реструктуризация",
+    "новые права кредиторов 253-фз",
+    "защита интересов кредиторов"
+  ],
+  "intent": "informational",
+  "funnel_stage": "warm",
+  "article_type": "B",
+  "offer": "proverka-spisaniya",
+  "event_date": "2026-09-01",
+  "news_zone": "legislation",
+  "internal_links": [
+    "/articles/fiz/bank-otkazal-v-restrukturizacii-chto-delat-bankrotstvo"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_540359/",
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/"
+  ],
+  "faq": [
+    {
+      "question": "Что изменилось в правах кредиторов по 253-ФЗ с сентября 2026 года?",
+      "answer": "Уточнён порядок обжалования вердиктов общего сбора и добавлена возможность заочного и дистанционного участия. Также аккуратнее прописан состав обязательных пунктов сводного документа."
+    },
+    {
+      "question": "Можно ли оспорить план реструктуризации, если займодавец с ним не согласен?",
+      "answer": "Да. Если требования участника не учли или условия ущемляют его позицию, вердикт обжалуется в суде. Порядок подачи и сроки определяются процессуальными нормами."
+    },
+    {
+      "question": "Сколько голосов нужно для принятия соглашения о реструктуризации?",
+      "answer": "Соглашение одобряется большинством голосов держателей требований, посчитанных по размеру задолженности перед гражданином. Точный порог рекомендуем сверять с текущей редакцией 253-ФЗ, поскольку параметр менялся."
+    },
+    {
+      "question": "Как защитить своё требование, если гражданин перестал вносить платежи?",
+      "answer": "Финансовый кредитор вправе обратиться в суд с иском о взыскании либо потребовать расторжения соглашения. Основание - нарушение утверждённого графика. Дополнительный путь - обжалование самого вердикта, если при его принятии были допущены нарушения."
+    },
+    {
+      "question": "Обязательно ли лично участвовать в собрании кредиторов?",
+      "answer": "Нет. Поправки прямо разрешили заочное и дистанционное участие. Бюллетень направляется заранее, либо кредитор подключается онлайн."
+    },
+    {
+      "question": "Чем реструктуризация по 253-ФЗ отличается от банкротства физлица?",
+      "answer": "253-ФЗ - это добровольная перестройка графика по жилищному займу без введения несостоятельности. Банкротство физлица идёт по 127-ФЗ через арбитраж и затрагивает все обязательства. Разные основания, разные последствия, разный круг участников."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "f1 (253-ФЗ правовая основа) верифицирован: legislation_status active, last_verified 2026-09-26",
+    "f2 contested - точные пороги голосования не указаны; использована safe_phrasing 'большинство голосов держателей требований по размеру сумм'",
+    "f2, f4-f8 имеют legislation_status needs_verification - везде применены safe_phrasing из research.json; конкретные пороги и ссылки на пункты закона не приводятся",
+    "Forbidden claims не обнаружены",
+    "Внутренняя ссылка bank-otkazal-v-restrukturizacii-chto-delat-bankrotstvo перенесена из draft; суффикс .html удалён согласно формату /articles/{cat}/{slug}; проверка published_index.json в headless-режиме недоступна"
+  ],
+  "keyword_density_main": null,
+  "main_keyword_exact_count": null,
+  "text_chars": 7448,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.099,
+  "local_spam_ngram3_repeat": 0.017,
+  "local_lexical_diversity": 0.639,
+  "local_ai_markers_density": 0.21,
+  "local_ai_markers_critical": 0,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1790401401/articles/restrukturizaciya-dolga-253-fz-kreditory-novye-prava-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1790401401/articles/restrukturizaciya-dolga-253-fz-kreditory-novye-prava-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Editorial photograph of a corner of a high-floor executive office overlooking the city. Foreground on a polished walnut desk: a closed thin laptop, a leather-bound notebook with fountain pen resting across it, a polished round company seal on a sealed envelope, a smartphone placed face-down, a white porcelain coffee cup on a saucer. Camera positioned at eye-level with shallow depth of field, three-quarter angle. Background through floor-to-ceiling windows: blurred metropolitan skyline at dusk with distant warm lights and evening haze. Lighting: cool ambient daylight from expansive windows balanced with warm tungsten desk lamp glow. Materials: polished walnut, brushed steel, leather. Mood: executive decision-making and creditor authority regarding financial restructuring rights.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-09-26T05:43:22Z",
+  "length_status": "too_long",
+  "length_kind": "news",
+  "local_ai_markers_total": 2,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 3,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 49,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "длина значительно больше лимита 5500 (7 448 знаков)"
+  ],
+  "date_published": "2026-09-26",
+  "date_modified": "2026-09-26",
+  "ready_for_review": true,
+  "ready_at": "2026-09-26T05:43:23Z",
+  "publication_target": "telegram_review"
+}
