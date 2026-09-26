@@ -45823,5 +45823,107 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-09-26T08:43:25",
+    "category": "news",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 20,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "news-195",
+    "topic_slug": "cb-stavka-14-sentyabr-pauza-vliyanie",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "length_soft_passed: 5569 > 5500 но ≤ 7500 и iteration=2 — пропускаем (приоритет spam/uniqueness/ai)",
+        "forced_pass_at_iter2: блокеры пропущены, статья идёт в TG-очередь с metrics_warning=true. Было: 1 блокеров — broken_internal_links"
+      ],
+      "recommendations": [
+        "fix_internal_links: заменить href на канонический /articles/{cat}/{slug} из published_index.json (см. .claude/style/editor-cheatsheet.md секция 6)"
+      ],
+      "stderr_tail": ""
+    },
+    "finalize_safety_net": {
+      "ran": true,
+      "rc": 0
+    },
+    "status": "ok",
+    "slug": "cb-stavka-14-sentyabr-pauza-vliyanie",
+    "duration_sec": 1067.7,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": " 38680    124164\n6-seo-editor        sonnet            6      16    59256     28278     59278\n7-publisher         haiku            20      12    36288     39548     36320\n------------------------------------------------------------------------------------------\nИТОГО                               150      83   415606    581468    415839\nBillable-токенов на статью: ~415K (cache_read 581K не считается в лимит подписки).\nАртефакты: drafts/cb-stavka-14-sentyabr-pauza-vliyanie/  | quality_gate exit=0",
+    "stderr_tail": "",
+    "tokens_by_model": {},
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 5569
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
+  },
+  {
+    "timestamp": "2026-09-26T10:00:10",
+    "category": "fiz",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 21,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "fiz-224",
+    "topic_slug": "bankrotstvo-dolg-kraudlending-platforma",
+    "status": "failed",
+    "slug": "bankrotstvo-dolg-kraudlending-platforma",
+    "duration_sec": 2169.3,
+    "returncode": 1,
+    "rescued_after_failure": false,
+    "stdout_tail": "\n=== 4-writer (claude opus) ===\n   ok: 9798 симв., billable=172840 ток, 311.5с\n   [writer self-fix проход 2]\n   ok: billable=26897 ток\n=== 5-uniqueness (embed_compare) ===\n   passed=True scores={'structure_overlap': 0.0, 'thesis_similarity': 0.266, 'cta_overlap': 0.0}\n   [watchdog] hard timeout >480s на sonnet — попытка 1/3\n   [watchdog] hard timeout >480s на sonnet — попытка 2/3\n   ok: 14504 симв., billable=22 ток (model=sonnet)\n   [pick_scene_template] exit=0\n=== 7-publisher (claude haiku) ===",
+    "stderr_tail": "[ERR] rate_limit: put_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard\",\"cache_creation\":{\"ephemeral_1h_input_tokens\":0,\"ephemeral_5m_input_tokens\":0},\"inference_geo\":\"\",\"iterations\":[],\"speed\":\"standard\"},\"modelUsage\":{},\"permission_denials\":[],\"terminal_reason\":\"completed\",\"fast_mode_state\":\"off\",\"uuid\":\"005cbfbb-e116-4c25-99cd-d63d9d45db8c\"}\n\n",
+    "tokens_by_model": {},
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 6050
+    }
   }
 ]
