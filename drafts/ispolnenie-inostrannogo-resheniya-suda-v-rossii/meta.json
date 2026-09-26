@@ -1,0 +1,110 @@
+{
+  "slug": "ispolnenie-inostrannogo-resheniya-suda-v-rossii",
+  "category": "vzysk",
+  "title": "Исполнение иностранного судебного решения в России",
+  "description": "Как исполнить иностранное решение суда в России: признание, регистрация, порядок взыскания имущества должника через ФССП.",
+  "h1": "Исполнение иностранного решения суда в России: процедура и требования",
+  "lead": "Разбираем, как признать иностранное судебное решение в России и взыскать по нему имущество должника через ФССП: от подачи заявления до исполнения судебного акта.",
+  "topic_action": "взыскание по иностранному решению суда",
+  "breadcrumb_current": "Исполнение иностранного решения суда",
+  "og_image": "/assets/articles/ispolnenie-inostrannogo-resheniya-suda-v-rossii.jpg",
+  "main_keyword": "исполнение иностранного решения суда в России",
+  "secondary_keywords": [
+    "признание иностранного судебного решения в России",
+    "порядок исполнения иностранного решения",
+    "взыскание по иностранному судебному решению",
+    "как признать иностранное решение суда",
+    "исполнение решения иностранного суда ФССП",
+    "судебное решение иностранного государства",
+    "взыскание имущества по иностранному решению",
+    "компетентный суд для признания иностранного решения",
+    "Нью-йоркская конвенция исполнение решений"
+  ],
+  "internal_links": [
+    "/articles/vzysk/взыскание-по-судебному-resheniu",
+    "/articles/vzysk/взыскание-zadolzhennosti-fssp",
+    "/articles/fiz/bankrotstvo-inostrantsa",
+    "/articles/yur/priznanie-arbitrazhnogo-resheniya-v-rossii"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_34154/",
+    "https://www.consultant.ru/document/cons_doc_LAW_122444/"
+  ],
+  "faq": [
+    {
+      "question": "Обязательно ли признавать иностранное решение перед обращением в ФССП?",
+      "answer": "Да. Служба не примет бумагу иностранной юрисдикции напрямую. Сначала - вердикт российской коллегии или районного суда о допуске, затем передача копии в ФССП. Без первого шага исполнительное производство не возбуждается."
+    },
+    {
+      "question": "Чем арбитражное решение отличается от судебного при подаче в России?",
+      "answer": "Арбитражное вынесено третейским институтом по контракту с арбитражной оговоркой. Признаётся по Нью-йоркской конвенции 1958 года, оснований для возврата шесть, все узкие. Судебное вынесено государственным судом иностранного государства. Признаётся по общей процедуре 241-245-х норм кодекса, проверка глубже."
+    },
+    {
+      "question": "Какие бумаги нужно перевести и как заверить перевод?",
+      "answer": "Переводу подлежат: сам вынесенный акт, справка о вступлении в силу, доказательства извещения ответчика. Заверение нотариальное - нотариус удостоверяет подпись переводчика. Для стран Гаагской конвенции 1961 года на оригинал дополнительно ставится апостиль."
+    },
+    {
+      "question": "Может ли должник остановить взыскание после положительного вердикта?",
+      "answer": "Обычная жалоба в кассацию исполнение не останавливает. Чтобы приостановить, должнику нужно отдельно ходатайствовать об отсрочке и получить самостоятельный судебный акт. До этого исполнитель работает в штатном режиме."
+    },
+    {
+      "question": "Как долго взыскатель вправе предъявлять признанный акт к исполнению?",
+      "answer": "Общий срок предъявления - три года с момента вступления вердикта о допуске в силу. Он прерывается предъявлением, частичным погашением, возвратом материалов взыскателю. После перерыва отсчёт начинается заново."
+    },
+    {
+      "question": "Что делать, если российская коллегия отказала в допуске?",
+      "answer": "Обжаловать возврат в кассационном порядке - тридцать дней с момента вынесения. Параллельно анализ причины: если проблема в пакете (перевод, апостиль, извещение), пересобрать и подать повторно. Если основание - публичный порядок, повторная подача с тем же составом требований результата не даст."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все юридические утверждения проверены против research.json. Статус всех норм: active, last_verified: 2026-09-26",
+    "Компетентность суда (ст. 241 АПК РФ для коммерческих споров, ст. 408 ГПК РФ для гражданских) объяснена корректно",
+    "Требования к пакету документов (ст. 242 АПК РФ): оригинал/копия, перевод, справка о вступлении в силу, доказательства уведомления - все упомянуты",
+    "Шесть оснований для отказа (ст. 243 АПК РФ) приведены полностью и с корректным контекстом",
+    "Процедура регистрации в ФССП (ст. 244 АПК РФ, ФЗ-229 ст. 3, 30, 46) описана верно",
+    "Различие между судебными и арбитражными решениями (Нью-йоркская конвенция 1958 г., ст. 239 АПК РФ) объяснено правильно",
+    "Запрещённые материалы отсутствуют: нет гарантий 100% взыскания, нет упоминания об автоматическом исполнении"
+  ],
+  "keyword_density_main": 0.022,
+  "main_keyword_exact_count": 2,
+  "text_chars": 9533,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.089,
+  "local_spam_ngram3_repeat": 0.036,
+  "local_lexical_diversity": 0.61,
+  "local_ai_markers_density": 0.52,
+  "local_ai_markers_critical": 0,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1790391342/articles/ispolnenie-inostrannogo-resheniya-suda-v-rossii-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1790391342/articles/ispolnenie-inostrannogo-resheniya-suda-v-rossii-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Tight close-up photograph of legal proceedings paused mid-examination with no people visible. An opened dark leather briefcase with official papers fanning out—foreign court decisions and international enforcement documents—occupies the foreground. A fountain pen lies uncapped beside scattered pages. A stack of closed dossiers tied with cord rests center-frame, a polished brass round seal positioned atop them. Reading glasses rest on an international legal document. A half-finished porcelain coffee cup with cooling liquid sits to the right. Camera: shallow depth of field, three-quarter angle from above. Lighting: warm directional sidelight casting elegant shadows across the documents. Atmosphere: contemplative pause between procedural stages, moment of cross-border legal recognition in progress.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-09-26T02:55:43Z",
+  "length_status": "too_long",
+  "length_kind": "default",
+  "local_ai_markers_total": 6,
+  "local_ai_markers_high": 3,
+  "local_own_voice_hits": 3,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 55,
+  "predicted_ai_pct": 5,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность выше 50% (~55%)",
+    "длина значительно больше лимита 6500 (9 533 знаков)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "length_too_long: 9533 > 6500 (kind=default)"
+  ],
+  "date_published": "2026-09-26",
+  "date_modified": "2026-09-26",
+  "ready_for_review": true,
+  "ready_at": "2026-09-26T02:55:48Z",
+  "publication_target": "telegram_review"
+}

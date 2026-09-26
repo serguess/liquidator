@@ -45644,5 +45644,64 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-09-26T00:24:21",
+    "category": "yur",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 17,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "yur-200",
+    "topic_slug": "arest-schetov-kompanii-fns-kak-snyat",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "length_soft_passed: 6591 > 6500 но ≤ 8500 и iteration=2 — пропускаем (приоритет spam/uniqueness/ai)"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "finalize_safety_net": {
+      "ran": true,
+      "rc": 0
+    },
+    "status": "ok",
+    "slug": "arest-schetov-kompanii-fns-kak-snyat",
+    "duration_sec": 2363.7,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "127818     45984\n6-seo-editor        haiku            20       8    62094     39548     62122\n7-publisher         haiku            20       8    36220     39548     36248\n------------------------------------------------------------------------------------------\nИТОГО                               172     105   670741    544182    671018\nBillable-токенов на статью: ~671K (cache_read 544K не считается в лимит подписки).\nАртефакты: drafts/arest-schetov-kompanii-fns-kak-snyat/  | quality_gate exit=0",
+    "stderr_tail": "",
+    "tokens_by_model": {},
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 6591
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]
