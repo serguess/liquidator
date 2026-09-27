@@ -1,0 +1,99 @@
+{
+  "slug": "nbki-srednij-kredit-180-tysyach-bankrotstvo-risk",
+  "category": "news",
+  "title": "Средний кредит в августе: статистика НБКИ",
+  "description": "Как выросли размеры среднего потребительского кредита по данным НБКИ - анализ тренда, влияние на должников и что это означает для кредитного рынка.",
+  "h1": "НБКИ: как изменился размер среднего потребительского кредита",
+  "lead": "Национальное бюро кредитных историй фиксирует устойчивый рост среднего потребительского кредита - разбираем, что стоит за трендом и какие риски он несёт для заёмщиков.",
+  "topic_action": "оценку рисков по потребительскому кредиту",
+  "breadcrumb_current": "Статистика НБКИ по среднему кредиту",
+  "og_image": "/assets/articles/nbki-srednij-kredit-180-tysyach-bankrotstvo-risk.jpg",
+  "main_keyword": "средний потребительский кредит август",
+  "secondary_keywords": [
+    "НБКИ статистика кредитов",
+    "размер потребительского кредита",
+    "средний кредит в России",
+    "потребительское кредитование",
+    "тренд кредитного рынка",
+    "влияние кредитов на банкротство"
+  ],
+  "intent": "informational",
+  "funnel_stage": "cold",
+  "article_type": "B",
+  "offer": "proverka-spisaniya",
+  "event_date": "2026-09-12",
+  "news_zone": "finance",
+  "internal_links": [
+    "/articles/fiz/arest-zarplaty-pristavami-bankrotstvo",
+    "/articles/fiz/bank-otkazal-v-restrukturizacii-chto-delat-bankrotstvo"
+  ],
+  "external_links": [
+    "https://nbki.ru/company/news/",
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/"
+  ],
+  "faq": [
+    {
+      "question": "Что означает рост среднего кредита для тех, у кого уже есть действующий заём?",
+      "answer": "Ничего напрямую - условия конкретного договора не пересматриваются. Косвенно тренд говорит о том, что новые обязательства населения растут быстрее номинальных доходов. Если планируете рефинансирование, ставки и суммы будут отличаться от тех, что были при первом обращении."
+    },
+    {
+      "question": "Обязательно ли банкротиться при крупной задолженности по потребительскому кредиту?",
+      "answer": "Нет. Признание несостоятельности - право гражданина, а не обязанность. Обращаться в арбитраж имеет смысл, когда объективной возможности платить нет, а сумма обязательств от полумиллиона рублей. При меньших цифрах чаще работают другие инструменты - реструктуризация, продажа непрофильных активов, переговоры с взыскателем."
+    },
+    {
+      "question": "Насколько статистике НБКИ по кредитному рынку можно доверять?",
+      "answer": "Бюро - крупнейший оператор данных в стране, получает сведения напрямую от участников рынка. Это ретроспективная статистика, а не прогноз. Она показывает, что уже произошло, но не гарантирует сохранения тенденции."
+    },
+    {
+      "question": "До какого размера долга суд вправе списать кредитные обязательства физлица?",
+      "answer": "Верхней планки в законе нет. Гражданин с задолженностью от полумиллиона рублей и невозможностью её обслуживать вправе просить арбитраж о признании несостоятельности. Списываются практически все требования, кроме алиментов, возмещения вреда здоровью и части других личных обязательств."
+    },
+    {
+      "question": "Чем просроченный кредит опасен помимо штрафов и пени?",
+      "answer": "После трёх месяцев без платежа кредитор передаёт дело на принудительное взыскание. Дальше - удержания из зарплаты приставами до половины дохода, арест счетов, ограничение выезда за границу. Кредитная история портится на много лет вперёд, новое обращение за деньгами становится почти невозможным."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "f2 (тренд роста среднего кредита) имеет legislation_status: needs_verification - конкретных цифр (180 тыс.) в research.json нет, в тексте использована обтекаемая формулировка без конкретных сумм",
+    "Ссылка на ст. 213.2 в основном тексте заменена на нейтральную формулировку 'в законе о банкротстве'; в FAQ ссылка на конкретную норму убрана аналогично",
+    "Запрещённые утверждения из forbidden_claims в тексте отсутствуют",
+    "Внутренние ссылки переведены в канонический формат /articles/fiz/ без .html; категория выбрана по семантике slug-ов, требует проверки по published_index.json"
+  ],
+  "keyword_density_main": null,
+  "main_keyword_exact_count": null,
+  "text_chars": 6473,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.09,
+  "local_spam_ngram3_repeat": 0.01,
+  "local_lexical_diversity": 0.702,
+  "local_ai_markers_density": 0.24,
+  "local_ai_markers_critical": 0,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1790487739/articles/nbki-srednij-kredit-180-tysyach-bankrotstvo-risk-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1790487739/articles/nbki-srednij-kredit-180-tysyach-bankrotstvo-risk-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Minimalist top-down flat-lay editorial photograph on a clean light-grey polished walnut surface. Sparse arrangement with deliberate negative space: smartphone face-down positioned slightly left of center displaying financial data, polished brass scales of justice centered symbolizing financial balance, closed dark leather portfolio on the right, fountain pen aligned parallel to the portfolio edge. Camera: directly overhead. Lighting: soft even daylight, very subtle directional shadow. Palette: pale neutrals, warm brass accents. Mood: clean editorial, contemporary financial news aesthetic with emphasis on precision and market data.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-09-27T05:42:20Z",
+  "length_status": "too_long",
+  "length_kind": "news",
+  "local_ai_markers_total": 2,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 3,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 42,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 90,
+  "customer_risks": [
+    "длина значительно больше лимита 5500 (6 473 знаков)"
+  ],
+  "date_published": "2026-09-27",
+  "date_modified": "2026-09-27",
+  "ready_for_review": true,
+  "ready_at": "2026-09-27T05:42:24Z",
+  "publication_target": "telegram_review"
+}

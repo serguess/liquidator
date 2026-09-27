@@ -7246,6 +7246,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "nbki-srednij-kredit-180-tysyach-bankrotstvo-risk",
+      "category": "news",
+      "title": "Средний кредит в августе: статистика НБКИ",
+      "added_at": "2026-09-27T08:42:24.746729",
+      "char_count": 6473,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1790487739/articles/nbki-srednij-kredit-180-tysyach-bankrotstvo-risk-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

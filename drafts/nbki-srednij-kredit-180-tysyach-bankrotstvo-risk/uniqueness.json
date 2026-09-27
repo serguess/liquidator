@@ -1,0 +1,24 @@
+{
+  "slug": "nbki-srednij-kredit-180-tysyach-bankrotstvo-risk",
+  "article_id": 615,
+  "scores": {
+    "structure_overlap": 0.167,
+    "thesis_similarity": 0.176,
+    "cta_overlap": 0.306
+  },
+  "thresholds": {
+    "structure_overlap": 0.4,
+    "thesis_similarity": 0.3,
+    "cta_overlap": 0.2
+  },
+  "passed": false,
+  "peers_compared": 23,
+  "closest_peer": "poruchitelstvo-direktora-za-dolgi-kompanii-bankrotstvo",
+  "similar_articles": [],
+  "conflicts": [
+    "cta_overlap: 0.306 (threshold: 0.2)"
+  ],
+  "recommendation": "rewrite_with_angle:change-perspective (closest: poruchitelstvo-direktora-za-dolgi-kompanii-bankrotstvo)",
+  "stored_in_db": true,
+  "note": "Вектор статьи записан в data/embeddings.sqlite (published=0). После публикации агент 7 переключит флаг на 1."
+}

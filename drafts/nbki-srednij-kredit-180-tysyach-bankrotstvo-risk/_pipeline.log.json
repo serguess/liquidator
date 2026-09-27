@@ -1,0 +1,30 @@
+{
+  "slug": "nbki-srednij-kredit-180-tysyach-bankrotstvo-risk",
+  "category": "news",
+  "started_at": "2026-09-27T08:42:24",
+  "finished_at": null,
+  "total_duration_sec": null,
+  "current_iteration": 1,
+  "events": [
+    {
+      "ts": "2026-09-27T08:42:24",
+      "agent": "scheduler",
+      "event": "slot_started",
+      "iteration": 1,
+      "today_count": 2,
+      "limit": 8,
+      "write_article_duration_sec": 744.3
+    },
+    {
+      "ts": "2026-09-27T08:42:24",
+      "agent": "quality_gate",
+      "event": "passed",
+      "iteration": 1,
+      "blockers": [],
+      "warnings": [
+        "length_soft_passed: 6473 > 5500 но ≤ 7500 и iteration=2 — пропускаем (приоритет spam/uniqueness/ai)"
+      ],
+      "recommendations": []
+    }
+  ]
+}
