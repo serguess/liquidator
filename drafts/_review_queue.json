@@ -7259,6 +7259,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "dosudebnoye-ozdorovlenie-253-fz-pervye-nedeli",
+      "category": "news",
+      "title": "Досудебное оздоровление: инструкция по 453-ФЗ",
+      "added_at": "2026-09-27T08:59:30.057193",
+      "char_count": 6853,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1790488765/articles/dosudebnoye-ozdorovlenie-253-fz-pervye-nedeli-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

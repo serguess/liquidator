@@ -1,0 +1,103 @@
+{
+  "slug": "dosudebnoye-ozdorovlenie-253-fz-pervye-nedeli",
+  "category": "news",
+  "title": "Досудебное оздоровление: инструкция по 453-ФЗ",
+  "description": "Досудебное оздоровление компании по 453-ФЗ: что это, как начать процедуру, сроки, требования, первые шаги должника.",
+  "h1": "Досудебное оздоровление по 453-ФЗ: как начать процедуру",
+  "lead": "С 1 декабря 2023 года у должников появился переговорный механизм - диалог с кредиторами под защитой моратория до возбуждения арбитражного дела.",
+  "topic_action": "досудебное оздоровление компании по 453-ФЗ",
+  "breadcrumb_current": "Досудебное оздоровление по 453-ФЗ",
+  "og_image": "/assets/articles/dosudebnoye-ozdorovlenie-253-fz-pervye-nedeli.jpg",
+  "main_keyword": "досудебное оздоровление 453-фз",
+  "secondary_keywords": [
+    "внесудебное оздоровление компании",
+    "процедура оздоровления 453-ФЗ",
+    "как начать оздоровление",
+    "план финансового оздоровления",
+    "досудебное урегулирование долгов",
+    "альтернатива банкротству"
+  ],
+  "intent": "informational",
+  "funnel_stage": "warm",
+  "article_type": "C",
+  "offer": "proverka-spisaniya",
+  "event_date": "2026-09-01",
+  "news_zone": "legislation",
+  "internal_links": [
+    "/articles/yur/dobrovolnoe-prinuditelnoe-bankrotstvo-yurlica",
+    "/articles/yur/bankrotstvo-ooo-poshagovo-2026"
+  ],
+  "external_links": [
+    "https://base.garant.ru/414653012/",
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/"
+  ],
+  "faq": [
+    {
+      "question": "Можно ли начать, если один крупный кредитор категорически против?",
+      "answer": "Формально да: заявление подаётся при признаках несостоятельности, согласия всех участников для старта не требуется. Но программу утверждает большинство по сумме, и если против выступает держатель более половины требований, план не примут."
+    },
+    {
+      "question": "Что происходит с имуществом, если план не согласуют?",
+      "answer": "Мораторий снимается. Займодавцы возвращают исполнительные листы приставам, дело о банкротстве переходит в арбитраж. Активы попадают в конкурсную массу по общим правилам, продажа идёт через торги."
+    },
+    {
+      "question": "Обязательно ли привлекать специалиста по оздоровлению?",
+      "answer": "По духу закона - да, посредник помогает выстроить конструктивный диалог и подготовить документ, приемлемый для сторон. Формально стороны могут договариваться напрямую, но без специалиста риск сорвать переговоры выше в разы."
+    },
+    {
+      "question": "До какого момента действует мораторий на взыскание?",
+      "answer": "До завершения работы: либо утверждения плана и его исполнения, либо прекращения без утверждения. Максимально - девять месяцев с момента регистрации заявления в реестре."
+    },
+    {
+      "question": "Чем это отличается от мирового соглашения в деле о банкротстве?",
+      "answer": "Мировое соглашение подписывается уже внутри арбитражного дела, после ввода наблюдения или на других этапах. Диалог по 453-ФЗ идёт до суда и не требует возбуждения банкротства. Это разные стадии и разные правовые режимы."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Номер закона исправлен с 253-ФЗ на 453-ФЗ: brief.json содержал опечатку; research.json подтверждает Федеральный закон от 27.11.2023 N 453-ФЗ, legislation_status: active, last_verified: 2026-09-27",
+    "Все числовые факты верифицированы: срок 6 мес. (f8), продление до 9 мес. (f8), порог 50%+ по сумме (f7), мораторий ст. 18 (f6) - last_verified: 2026-09-27, legislation_status: active",
+    "Запрещённые утверждения из forbidden_claims отсутствуют: полное списание долгов не упоминается, мораторий описан как неабсолютный, добровольность подчёркнута",
+    "Внутренние ссылки на dobrovolnoe-prinuditelnoe-bankrotstvo-yurlica и bankrotstvo-ooo-poshagovo-2026 требуют проверки по published_index.json перед финализацией"
+  ],
+  "keyword_density_main": null,
+  "main_keyword_exact_count": null,
+  "text_chars": 6853,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.109,
+  "local_spam_ngram3_repeat": 0.006,
+  "local_lexical_diversity": 0.647,
+  "local_ai_markers_density": 0.23,
+  "local_ai_markers_critical": 0,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1790488765/articles/dosudebnoye-ozdorovlenie-253-fz-pervye-nedeli-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1790488765/articles/dosudebnoye-ozdorovlenie-253-fz-pervye-nedeli-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Photograph of a grand entrance to an official government building — massive bronze-bound oak doors with ornate brass studs, carved limestone surround, wide marble steps. Camera positioned dead-center symmetric, slight low-angle revealing architectural proportions. Foreground on the steps: a closed dark leather briefcase, a stack of bound legal documents tied with silk cord, a polished round company seal, a fountain pen resting on the top dossier. Lighting: long golden-hour shadows streaking across the stone, warm side-light emphasizing texture of wood and aged brass. Materials: weathered oak, oxidized brass, grey limestone, leather binding. Mood: threshold moment — formal entry into structured pre-trial financial recovery process under law 253-FZ.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-09-27T05:59:26Z",
+  "length_status": "too_long",
+  "length_kind": "news",
+  "local_ai_markers_total": 2,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 2,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 49,
+  "predicted_ai_pct": 6,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "длина значительно больше лимита 5500 (6 853 знаков)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "broken_internal_links: 1 ссылок без соответствия в published_index (/articles/yur/dobrovolnoe-prinuditelnoe-bankrotstvo-yurlica: slug 'dobrovolnoe-prinuditelnoe-bankrotstvo-yurlica' не найден в категории 'yur' (есть: нигде))"
+  ],
+  "date_published": "2026-09-27",
+  "date_modified": "2026-09-27",
+  "ready_for_review": true,
+  "ready_at": "2026-09-27T05:59:30Z",
+  "publication_target": "telegram_review"
+}
