@@ -13433,19 +13433,119 @@
       "versions": [
         "2.0"
       ],
+      "tg_message_id": 2863,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-09-26T09:02:09",
+      "last_action_at": "2026-09-27T10:00:06",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-09-26T09:02:09",
+      "batch_sent_at": "2026-09-27T10:00:06",
+      "batch_fail_count": 0
+    },
+    "bankrotstvo-dolg-kraudlending-platforma": {
+      "category": "fiz",
+      "title": "Банкротство при долге краудлендинговой платформе",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 2865,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-09-26T15:16:13",
+      "last_action_at": "2026-09-27T10:00:08",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-09-26T15:16:13",
+      "batch_sent_at": "2026-09-27T10:00:08",
+      "batch_fail_count": 0
+    },
+    "zalog-tretego-lica-bankrotstvo-dolzhnika": {
+      "category": "yur",
+      "title": "Залог третьего лица при банкротстве должника",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 2867,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-09-27T01:03:21",
+      "last_action_at": "2026-09-27T10:00:10",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-09-27T01:03:21",
+      "batch_sent_at": "2026-09-27T10:00:10",
+      "batch_fail_count": 0
+    },
+    "vzyskanie-vreda-za-vrachebnyj-oshibku-nekachestvennoe-lechenie": {
+      "category": "vzysk",
+      "title": "Взыскание вреда за врачебную ошибку и некачественное лечение",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 2869,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-09-27T05:52:06",
+      "last_action_at": "2026-09-27T10:00:12",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-09-27T05:52:06",
+      "batch_sent_at": "2026-09-27T10:00:12",
+      "batch_fail_count": 0
+    },
+    "nbki-srednij-kredit-180-tysyach-bankrotstvo-risk": {
+      "category": "news",
+      "title": "Средний кредит в августе: статистика НБКИ",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
+      "tg_message_id": 2871,
+      "tg_chat_id": 583558720,
+      "first_seen_at": "2026-09-27T08:43:08",
+      "last_action_at": "2026-09-27T10:00:15",
+      "edits_history": [],
+      "rejection_reason": null,
+      "published_url": null,
+      "pending_batch": false,
+      "pending_batch_at": "2026-09-27T08:43:08",
+      "batch_sent_at": "2026-09-27T10:00:15",
+      "batch_fail_count": 0
+    },
+    "dosudebnoye-ozdorovlenie-253-fz-pervye-nedeli": {
+      "category": "news",
+      "title": "Досудебное оздоровление: инструкция по 453-ФЗ",
+      "status": "pending_review",
+      "current_version": "2.0",
+      "versions": [
+        "2.0"
+      ],
       "tg_message_id": null,
       "tg_chat_id": null,
-      "first_seen_at": "2026-09-26T09:02:09",
-      "last_action_at": "2026-09-26T09:02:09",
+      "first_seen_at": "2026-09-27T09:00:08",
+      "last_action_at": "2026-09-27T09:00:08",
       "edits_history": [],
       "rejection_reason": null,
       "published_url": null,
       "pending_batch": true,
-      "pending_batch_at": "2026-09-26T09:02:09"
+      "pending_batch_at": "2026-09-27T09:00:08"
     }
   },
   "pending_actions": [],
-  "last_batch_date": "2026-09-26",
+  "last_batch_date": "2026-09-27",
   "last_batch_count": 5,
-  "last_batch_at": "2026-09-26T10:00:15"
+  "last_batch_at": "2026-09-27T10:00:15"
 }
