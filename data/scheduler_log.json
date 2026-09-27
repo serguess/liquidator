@@ -45987,5 +45987,65 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-09-27T00:24:02",
+    "category": "yur",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 23,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "yur-201",
+    "topic_slug": "zalog-tretego-lica-bankrotstvo-dolzhnika",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "length_soft_passed: 7954 > 6500 но ≤ 8500 и iteration=2 — пропускаем (приоритет spam/uniqueness/ai)",
+        "spam_soft_passed: ratio-флаги мягкие при iter=2, targeted_tokens чистые → пропускаем (spam ≈48-52% по прогнозу)"
+      ],
+      "recommendations": [],
+      "stderr_tail": ""
+    },
+    "finalize_safety_net": {
+      "ran": true,
+      "rc": 0
+    },
+    "status": "ok",
+    "slug": "zalog-tretego-lica-bankrotstvo-dolzhnika",
+    "duration_sec": 2307.9,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "68     55604\n6-seo-editor        haiku            20       8    68468     39548     68496\n7-publisher         haiku            20      10    36258     39548     36288\n------------------------------------------------------------------------------------------\nИТОГО                               192     101   681860    694482    682153\nBillable-токенов на статью: ~682K (cache_read 694K не считается в лимит подписки).\nАртефакты: drafts/zalog-tretego-lica-bankrotstvo-dolzhnika/  | quality_gate exit=0",
+    "stderr_tail": "",
+    "tokens_by_model": {},
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 7954
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
   }
 ]

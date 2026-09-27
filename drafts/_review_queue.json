@@ -7233,6 +7233,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "vzyskanie-vreda-za-vrachebnyj-oshibku-nekachestvennoe-lechenie",
+      "category": "vzysk",
+      "title": "Взыскание вреда за врачебную ошибку и некачественное лечение",
+      "added_at": "2026-09-27T05:51:34.912732",
+      "char_count": 8194,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1790477493/articles/vzyskanie-vreda-za-vrachebnyj-oshibku-nekachestvennoe-lechenie-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }

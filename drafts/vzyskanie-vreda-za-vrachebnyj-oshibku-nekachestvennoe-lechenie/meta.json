@@ -1,0 +1,104 @@
+{
+  "slug": "vzyskanie-vreda-za-vrachebnyj-oshibku-nekachestvennoe-lechenie",
+  "category": "vzysk",
+  "title": "Взыскание вреда за врачебную ошибку и некачественное лечение",
+  "description": "Порядок взыскания вреда за врачебную ошибку: как доказать ошибку врача, размер компенсации, куда обратиться, сроки исковой давности.",
+  "h1": "Взыскание вреда за врачебную ошибку: как доказать ошибку и получить компенсацию",
+  "lead": "Операция прошла - осложнения остались. Повторное лечение оплачивает сам пациент. Кто-то теряет работу, кто-то получает группу инвалидности. Закон разрешает переложить эти потери на клинику: имущественные затраты и моральные страдания подлежат возмещению (ст. 1084 ГК).",
+  "topic_action": "взыскание компенсации за врачебную ошибку",
+  "breadcrumb_current": "Взыскание вреда за врачебную ошибку",
+  "og_image": "/assets/articles/vzyskanie-vreda-za-vrachebnyj-oshibku-nekachestvennoe-lechenie.jpg",
+  "main_keyword": "взыскание вреда за врачебную ошибку",
+  "secondary_keywords": [
+    "как взыскать вред за врачебную ошибку",
+    "взыскание убытков за некачественное лечение",
+    "компенсация за врачебную ошибку",
+    "как доказать врачебную ошибку",
+    "размер компенсации за врачебную ошибку",
+    "исковая давность по вреду здоровью",
+    "порядок взыскания вреда здоровью",
+    "добровольная компенсация врачебной ошибки",
+    "экспертиза при врачебной ошибке",
+    "куда обратиться при врачебной ошибке"
+  ],
+  "internal_links": [
+    "/articles/vzysk/poryadok-iskovogo-proizvodstva-v-suде",
+    "/articles/vzysk/dokazyvanie-v-grajdanskom-processe",
+    "/articles/fiz/kompensacija-moralnogo-vreda-praktika-sudov"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_5142/",
+    "https://www.garant.ru/products/ipo/prime/doc/12191567/"
+  ],
+  "faq": [
+    {
+      "question": "Можно ли взыскать компенсацию, если в медкарте нет отметки об ошибке",
+      "answer": "Отсутствие прямой записи «допущена ошибка» - норма, никто её сам себе не напишет. Промах устанавливает судебно-медицинская экспертиза по совокупности документов: анализам, назначениям, дневникам наблюдения, протоколам операций."
+    },
+    {
+      "question": "Сколько времени занимает рассмотрение иска о вреде здоровью",
+      "answer": "По закону два месяца, реально - от полугода до года с учётом экспертизы. Апелляция добавит ещё два-три месяца."
+    },
+    {
+      "question": "Обязательно ли сначала направлять претензию перед иском",
+      "answer": "Нет. По делам о вреде здоровью досудебный порядок не обязателен - право, а не обязанность. Обратиться в инстанцию можно сразу."
+    },
+    {
+      "question": "Что произойдёт, если экспертиза не подтвердит связь с лечением",
+      "answer": "Скорее всего, в требовании откажут. Заключение о том, что вред вызван не действиями медиков, а иными факторами, - главный аргумент защиты. Оспорить его можно повторной либо комиссионной оценкой, но это сложно."
+    },
+    {
+      "question": "До какого момента сохраняется право на взыскание",
+      "answer": "Три года со дня, когда пациент узнал о вреде и его причине. Отсчёт не от даты операции."
+    },
+    {
+      "question": "Чем частная клиника отличается от государственной больницы по ответственности",
+      "answer": "Правовая база одна и та же: обе несят гражданскую ответственность как работодатели. Разница в практике - частные центры чаще идют на досудебные переговоры, чтобы избежать репутационных потерь. Государственные учреждения почти всегда доводят дело до заседания."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все утверждения о законодательстве сверены с research.json. Ключевые нормы: ст. 1084-1093 ГК РФ (вред здоровью и исковая давность), ст. 79 ГПК РФ (судебная экспертиза), ст. 37 ФЗ-323 (стандарты медпомощи), ст. 1068 ГК РФ (ответственность работодателя).",
+    "Все факты имеют last_verified=2026-09-27 и legislation_status=active.",
+    "Контекст применения норм корректен: сроки, ответственность, условия взыскания соответствуют законодательству и не содержат смешивания процедур.",
+    "Исковая давность 3 года - отсчёт от дня выявления вреда (ст. 1093 ГК РФ), подтверждено в research.",
+    "Моральный вред описан без фиксированных сумм (ст. 1100-1101 ГК РФ) - размер определяет суд в каждом случае.",
+    "Судебно-медицинская экспертиза как ключевой инструмент доказывания соответствует ст. 79 ГПК РФ и практике дел о вреде здоровью."
+  ],
+  "keyword_density_main": 0.016,
+  "main_keyword_exact_count": 2,
+  "text_chars": 8194,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.077,
+  "local_spam_ngram3_repeat": 0.02,
+  "local_lexical_diversity": 0.689,
+  "local_ai_markers_density": 0.2,
+  "local_ai_markers_critical": 0,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1790477493/articles/vzyskanie-vreda-za-vrachebnyj-oshibku-nekachestvennoe-lechenie-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1790477493/articles/vzyskanie-vreda-za-vrachebnyj-oshibku-nekachestvennoe-lechenie-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Wide cinematic photograph of a spacious courthouse chamber or official hearing room. Architecture dominates: high ceilings with recessed lighting, tall windows with cream drapery, polished marble flooring, light wood-paneled walls. Center of frame: a wooden judge's bench with gavel resting on its sound block, beside it a stack of closed dark dossiers tied with cord containing medical expertise reports and patient records. Foreground table holds a closed leather portfolio. Camera: symmetric low-angle emphasizing ceiling height and solemnity. Lighting: late-afternoon golden window light casting long parallel shadows across the marble floor. Palette: cream, warm marble tones, deep brown wood, brushed brass accents. Mood: hushed, high-stakes medical malpractice judgment pending.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-09-27T02:51:33Z",
+  "length_status": "too_long",
+  "length_kind": "default",
+  "local_ai_markers_total": 2,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 2,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 47,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 90,
+  "customer_risks": [
+    "длина значительно больше лимита 6500 (8 194 знаков)"
+  ],
+  "date_published": "2026-09-27",
+  "date_modified": "2026-09-27",
+  "ready_for_review": true,
+  "ready_at": "2026-09-27T02:51:34Z",
+  "publication_target": "telegram_review"
+}
