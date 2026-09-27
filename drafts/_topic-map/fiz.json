@@ -6253,7 +6253,11 @@
       "frequency_estimate": "medium",
       "rationale": "Задолженность по имущественному налогу — частая причина накопленных долгов у пожилых и малоимущих. Люди не знают, что этот налоговый долг спишется при банкротстве.",
       "expected_length_chars": 5500,
-      "topic_action": "банкротство при долге по налогу на имущество"
+      "topic_action": "банкротство при долге по налогу на имущество",
+      "status": "rejected",
+      "rejected_at": "2026-09-27T10:00:11",
+      "rejected_reason": "cannibalization:preflight:nalog-pri-spisanii-dolga-bankrotstvo-fizlica",
+      "rejected_by": "auto_skip_in_slot"
     }
   ]
 }
