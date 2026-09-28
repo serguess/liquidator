@@ -6311,7 +6311,11 @@
       "frequency_estimate": "medium",
       "rationale": "Часто кредиторы накладывают обеспечительный арест на единственную квартиру ещё до начала банкротства, чтобы лишить должника иммунитета. Должники паникуют — тема даёт пошаговые действия и прямо ведёт к услуге снятия ареста.",
       "expected_length_chars": 7000,
-      "topic_action": "снятие ареста с единственного жилья"
+      "topic_action": "снятие ареста с единственного жилья",
+      "status": "rejected",
+      "rejected_at": "2026-09-29T00:24:28",
+      "rejected_reason": "cannibalization:preflight:sudebnaya-praktika-edinstvennoe-zhilye-2026",
+      "rejected_by": "auto_skip_in_slot"
     },
     {
       "id": "fiz-228",
