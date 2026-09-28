@@ -1,0 +1,108 @@
+{
+  "slug": "notarialnyj-zaem-fizlico-bankrotstvo",
+  "category": "fiz",
+  "title": "Нотариальный заём физлица: спишется ли при банкротстве",
+  "description": "Разберёмся, спишется ли нотариальный долг при банкротстве физлица, какие особенности есть, что влияет на решение суда.",
+  "h1": "Нотариальный заём и банкротство физлица: спишется ли долг",
+  "lead": "Разбираем, что реально означает нотариальное удостоверение при банкротстве и почему заверенный заём списывается на общих основаниях.",
+  "topic_action": "проверку возможности списания нотариального займа",
+  "breadcrumb_current": "Нотариальный заём при банкротстве",
+  "og_image": "/assets/articles/notarialnyj-zaem-fizlico-bankrotstvo.jpg",
+  "main_keyword": "нотариальный заём физлица банкротство",
+  "secondary_keywords": [
+    "нотариальный долг при банкротстве",
+    "спишется ли нотариальный заём",
+    "нотариальный заём физлица",
+    "долг по расписке нотариальный",
+    "как избежать долга по нотариальному займу",
+    "нотариальное соглашение о займе",
+    "взыскание нотариального долга",
+    "банкротство физлица долги по займам",
+    "как не платить нотариальный долг"
+  ],
+  "internal_links": [
+    "/articles/fiz/alimenty-pri-bankrotstve-fizlica"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/",
+    "https://www.consultant.ru/document/cons_doc_LAW_5142/"
+  ],
+  "faq": [
+    {
+      "question": "Можно ли подать на банкротство, если единственное обязательство - нотариальный заём?",
+      "answer": "Полумиллионный порог обязательного банкротства учитывает все требования вместе. Если единственная сумма займа с процентами превышает планку, а платить нечем - обязанность обратиться в арбитраж возникает по общим правилам. При меньшей сумме подача остаётся правом при признаках неплатёжеспособности."
+    },
+    {
+      "question": "Что если займодавец не успел заявить требование в реестр?",
+      "answer": "Обязательство перед ним всё равно погашается по итогам дела. Правило о завершении процедуры распространяется на всех известных держателей требований независимо от того, попали ли они в перечень к сроку."
+    },
+    {
+      "question": "Даёт ли нотариальное удостоверение приоритет при выплатах?",
+      "answer": "Нет. Такое требование распределяется в третьей очереди наравне с банковским кредитом и просрочкой за коммуналку. Приоритет получают только текущие платежи и группы, прямо указанные в законе о банкротстве."
+    },
+    {
+      "question": "Сколько платит заявитель при нотариально оформленном обязательстве?",
+      "answer": "Депозит на вознаграждение управляющего. Пошлина при собственной подаче не взимается с сентября 2024 года. Тип и количество требований на размер взноса не влияют."
+    },
+    {
+      "question": "Может ли близкий человек как займодавец получить деньги обратно?",
+      "answer": "Только если у заявителя есть активы или средства для выплат из конкурсной массы. Родственные отношения при распределении не учитываются - право требования у брата или подруги оценивается так же, как у постороннего."
+    },
+    {
+      "question": "Обязательно ли банкротство, если сумма займа превысила полмиллиона?",
+      "answer": "Обязательно при двух условиях: суммарные обязательства перешли полумиллионную планку, и заявитель понимает, что расчёт с одним держателем требования ведёт к невозможности заплатить остальным. Тогда на обращение в арбитраж есть 30 рабочих дней."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все факты сверены с research.json; legislation_status: active, last_verified: 2026-09-29 для всех ключевых утверждений.",
+    "Нотариальный заём спишется по ст. 213.28 п. 3 127-ФЗ - подтверждено (f3). Четыре несписываемые категории (алименты, вред здоровью, зарплата работникам, текущие платежи) указаны верно (f4).",
+    "Третья очередь по ст. 213.27 п. 1 127-ФЗ - подтверждено (f2). Нотариальное удостоверение не создаёт приоритета - подтверждено (f2).",
+    "Депозит 25 000 руб., пошлина 0 с сентября 2024 г. - подтверждено (f10). Госпошлина 300 руб. в тексте отсутствует.",
+    "Порог 500 000 руб. и 30 рабочих дней по ст. 213.4 п. 1 127-ФЗ - подтверждено (f9).",
+    "Срок давности 3 года по ст. 196 ГК РФ - подтверждено (f6). Нотариальная форма срок не меняет - подтверждено (f6).",
+    "Запрещённые утверждения из forbidden_claims в тексте отсутствуют. Функция нотариуса описана корректно (f1): только подлинность подписей, не гарантия возврата.",
+    "Ссылка на алименты исправлена: удалено .html в href, URL приведён к формату /articles/fiz/slug."
+  ],
+  "keyword_density_main": 0.014,
+  "main_keyword_exact_count": 1,
+  "text_chars": 8146,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "local_spam_top10_share": 0.115,
+  "local_spam_ngram3_repeat": 0.013,
+  "local_lexical_diversity": 0.626,
+  "local_ai_markers_density": 0.2,
+  "local_ai_markers_critical": 0,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1790632703/articles/notarialnyj-zaem-fizlico-bankrotstvo-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1790632703/articles/notarialnyj-zaem-fizlico-bankrotstvo-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Close-up architectural photograph of stone columns and marble staircase treads within a courthouse or notary office building. Camera angle: low-angle looking upward along the columns, or symmetrical front-on across worn marble veining. Foreground detail on a marble step: a closed notarized document envelope bearing a red wax seal, antique brass keys on a ring. Lighting: cool morning daylight grazing the limestone revealing fine grain, or warm golden-hour glow accentuating marble texture. Materials: weathered limestone, polished marble, oxidized brass details, cast-iron balustrade. Minimal optional item: folded umbrella leaned against column base. Mood: formal institutional authority, weight of written obligation, heritage of legally binding contract.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-09-28T21:58:24Z",
+  "length_status": "too_long",
+  "length_kind": "default",
+  "local_ai_markers_total": 2,
+  "local_ai_markers_high": 0,
+  "local_own_voice_hits": 3,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_passed": true,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 49,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "длина значительно больше лимита 6500 (8 146 знаков)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "spam_risk: 3 флагов (top1_count>12 (=13, лемма «обязательств»), top3_sum>30 (=36), top10_sum>80 (=87)), top-5: ['обязательств', 'требован', 'заявител', 'арбитраж', 'подач']",
+    "targeted_tokens_over_limit: 127фз_закон=3(>≤2)"
+  ],
+  "date_published": "2026-09-29",
+  "date_modified": "2026-09-29",
+  "ready_for_review": true,
+  "ready_at": "2026-09-28T21:58:26Z",
+  "publication_target": "telegram_review"
+}

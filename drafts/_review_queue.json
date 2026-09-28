@@ -7272,6 +7272,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "notarialnyj-zaem-fizlico-bankrotstvo",
+      "category": "fiz",
+      "title": "Нотариальный заём физлица: спишется ли при банкротстве",
+      "added_at": "2026-09-29T00:58:26.776503",
+      "char_count": 8146,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1790632703/articles/notarialnyj-zaem-fizlico-bankrotstvo-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
