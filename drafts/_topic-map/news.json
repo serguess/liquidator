@@ -5390,7 +5390,11 @@
       "topic_action": "консультацию по банкротству или реструктуризации ипотеки",
       "event_date": "2026-08-28",
       "news_zone": "finance",
-      "primary_source": "https://www.vedomosti.ru/finance/news/2026/08/28/1224511-zadolzhennost-rossiyan"
+      "primary_source": "https://www.vedomosti.ru/finance/news/2026/08/28/1224511-zadolzhennost-rossiyan",
+      "status": "rejected",
+      "rejected_at": "2026-09-29T08:43:13",
+      "rejected_reason": "event_too_old:32d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-163",
@@ -5420,7 +5424,11 @@
       "topic_action": "расчёт влияния ставки на ваш долг",
       "event_date": "2026-08-26",
       "news_zone": "finance",
-      "primary_source": "https://www.vbr.ru/novosti/banki/2026/08/26/cto-cb-sdelaet-s-klucevoi-stavkoi/"
+      "primary_source": "https://www.vbr.ru/novosti/banki/2026/08/26/cto-cb-sdelaet-s-klucevoi-stavkoi/",
+      "status": "rejected",
+      "rejected_at": "2026-09-29T08:43:13",
+      "rejected_reason": "event_too_old:34d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-164",
@@ -5650,7 +5658,11 @@
       "topic_action": "консультацию по ускорению процедуры банкротства",
       "event_date": "2026-08-26",
       "news_zone": "vs_practice",
-      "primary_source": "https://vsrf.ru/press_center/mass_media/34821/"
+      "primary_source": "https://vsrf.ru/press_center/mass_media/34821/",
+      "status": "rejected",
+      "rejected_at": "2026-09-29T08:43:13",
+      "rejected_reason": "event_too_old:34d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-171",
@@ -5842,7 +5854,11 @@
       "topic_action": "консультацию по реструктуризации долга",
       "event_date": "2026-08-27",
       "news_zone": "finance",
-      "primary_source": "https://www.cbr.ru/analytics/bank_sector/develop/"
+      "primary_source": "https://www.cbr.ru/analytics/bank_sector/develop/",
+      "status": "rejected",
+      "rejected_at": "2026-09-29T08:43:13",
+      "rejected_reason": "event_too_old:33d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-177",
@@ -5962,7 +5978,11 @@
       "topic_action": "оспаривание сделок должника",
       "event_date": "2026-08-28",
       "news_zone": "vs_practice",
-      "primary_source": "https://rapsinews.ru/judicial_news/20260828/312142470.html"
+      "primary_source": "https://rapsinews.ru/judicial_news/20260828/312142470.html",
+      "status": "rejected",
+      "rejected_at": "2026-09-29T08:43:13",
+      "rejected_reason": "event_too_old:32d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-181",
@@ -5992,7 +6012,11 @@
       "topic_action": "защита квартиры при банкротстве",
       "event_date": "2026-08-27",
       "news_zone": "vs_practice",
-      "primary_source": "https://rapsinews.ru/judicial_analyst/20260827/312136361.html"
+      "primary_source": "https://rapsinews.ru/judicial_analyst/20260827/312136361.html",
+      "status": "rejected",
+      "rejected_at": "2026-09-29T08:43:13",
+      "rejected_reason": "event_too_old:33d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-182",
@@ -6481,6 +6505,186 @@
       "event_date": "2026-09-01",
       "news_zone": "legislation",
       "primary_source": "https://base.garant.ru/414653012/"
+    },
+    {
+      "id": "news-198",
+      "slug": "sotskontrakt-dolg-bankrotstvo-reestr-kassaciya",
+      "title": "Долг по соцконтракту при банкротстве: что решила кассация",
+      "title_length": 58,
+      "description": "Кассационный суд признал долг по социальному контракту подлежащим включению в реестр кредиторов при банкротстве. Что это значит для должников с господдержкой.",
+      "description_length": 160,
+      "h1": "Долг по социальному контракту при банкротстве: позиция суда",
+      "main_keyword": "долг по социальному контракту при банкротстве",
+      "main_keyword_density_target": "≤2.5%",
+      "secondary_keywords": [
+        "социальный контракт долг банкротство реестр",
+        "включение требований реестр банкротство",
+        "долг государству банкротство физлица",
+        "кассационный суд банкротство должник",
+        "господдержка долг списание банкротство",
+        "реестр кредиторов банкротство физлица"
+      ],
+      "intent": "problem-aware",
+      "funnel_stage": "decision",
+      "article_type": "case-study",
+      "offer": "proverka-spisaniya",
+      "frequency_estimate": "low",
+      "rationale": "Кассационный суд подтвердил 4 сентября 2026: долг по соцконтракту при банкротстве включается в реестр требований кредиторов, не взыскивается отдельно после завершения процедуры. Важно для малоимущих должников, получавших господдержку по соцконтракту.",
+      "expected_length_chars": 6000,
+      "topic_action": "проверку долга по соцконтракту при банкротстве",
+      "event_date": "2026-09-04",
+      "news_zone": "vs_practice",
+      "primary_source": "https://www.rapsinews.ru/judicial_news/20260904/312166404.html"
+    },
+    {
+      "id": "news-199",
+      "slug": "moratorij-bankrotstvo-agrarii-minselhoz-sezon",
+      "title": "Минсельхоз предлагает защитить аграриев от банкротства",
+      "title_length": 55,
+      "description": "Минсельхоз прорабатывает временный мораторий на банкротство сельхозпредприятий до конца уборочного сезона. Что это значит для аграриев с долгами.",
+      "description_length": 144,
+      "h1": "Мораторий на банкротство аграриев: что предлагает Минсельхоз",
+      "main_keyword": "мораторий банкротство сельхозпроизводителей",
+      "main_keyword_density_target": "≤2.5%",
+      "secondary_keywords": [
+        "мораторий банкротство аграрии Минсельхоз",
+        "банкротство сельхозпредприятия долги",
+        "мораторий на банкротство сезон уборка",
+        "защита аграриев от взыскания долгов",
+        "долги сельхозкомпании реструктуризация",
+        "банкротство агробизнес меры поддержки"
+      ],
+      "intent": "informational",
+      "funnel_stage": "awareness",
+      "article_type": "law-explanation",
+      "offer": "raschet-stoimosti",
+      "frequency_estimate": "low",
+      "rationale": "4 сентября 2026 Минсельхоз заявил о проработке временного моратория на банкротство сельхозпредприятий до конца уборочного сезона из-за проблем с экспортом зерна. Тема актуальна для агробизнеса с долгами: мораторий блокирует принудительное банкротство и даёт время на урегулирование.",
+      "expected_length_chars": 5500,
+      "topic_action": "консультацию по долгам агробизнеса",
+      "event_date": "2026-09-04",
+      "news_zone": "moratorium",
+      "primary_source": "https://www.vedomosti.ru/business/news/2026/09/04/1226443-moratorii-na-bankrotstvo"
+    },
+    {
+      "id": "news-200",
+      "slug": "banki-mfo-svedeniya-pristavam-dolzhniki",
+      "title": "Банки и МФО отчитываются перед приставами: что изменилось",
+      "title_length": 58,
+      "description": "С 1 сентября банки и МФО обязаны передавать в ФССП электронные сведения о взыскании долгов. Как это меняет процедуру взыскания и что ждёт должников.",
+      "description_length": 149,
+      "h1": "Новые обязанности банков и МФО перед ФССП: последствия для должников",
+      "main_keyword": "банки МФО сведения ФССП взыскание долгов",
+      "main_keyword_density_target": "≤2.5%",
+      "secondary_keywords": [
+        "мфо банки отчётность фссп приставы",
+        "электронные сведения взыскание долг",
+        "фссп контроль мфо банки должник",
+        "взыскание долгов приставы изменения",
+        "должник банк мфо пристав уведомление",
+        "новые правила взыскания долгов банк"
+      ],
+      "intent": "informational",
+      "funnel_stage": "awareness",
+      "article_type": "law-explanation",
+      "offer": "snyatie-aresta",
+      "frequency_estimate": "medium",
+      "rationale": "С 1 сентября 2026 банки и МФО обязаны передавать в ФССП электронные сведения о работе по взысканию долгов. Повышает прозрачность системы взыскания и информированность должников о действиях кредиторов. Гид: что изменилось и как это затрагивает людей с просрочкой.",
+      "expected_length_chars": 5500,
+      "topic_action": "консультацию по взысканию долгов",
+      "event_date": "2026-09-01",
+      "news_zone": "legislation",
+      "primary_source": "https://iz.ru/2158004/2026-08-31/banki-i-mfo-budut-otchityvatsia-pered-pristavami-o-vzyskanii-dolgov-s-1-sentiabria"
+    },
+    {
+      "id": "news-201",
+      "slug": "fns-bankrotstvo-statistika-kreditory-nul-vozvrat",
+      "title": "Кредиторы при банкротстве получают ноль: данные ФНС",
+      "title_length": 52,
+      "description": "ФНС раскрыла статистику: у половины банкротств нулевое погашение, средний возврат — 18,9%, процедура длится 1265 дней. Почему ведомство выступает за досудебную реструктуризацию.",
+      "description_length": 177,
+      "h1": "Сколько кредиторы реально получают при банкротстве компании",
+      "main_keyword": "сколько получают кредиторы при банкротстве компании",
+      "main_keyword_density_target": "≤2.5%",
+      "secondary_keywords": [
+        "фнс статистика банкротство компании реестр",
+        "нулевое погашение банкротство кредитор",
+        "средний возврат долга банкротство процент",
+        "длительность процедуры банкротства дни",
+        "реструктуризация вместо банкротства фнс",
+        "кредитор требование банкротство сколько получит"
+      ],
+      "intent": "commercial",
+      "funnel_stage": "consideration",
+      "article_type": "law-explanation",
+      "offer": "raschet-stoimosti",
+      "frequency_estimate": "medium",
+      "rationale": "21 сентября 2026 замруководителя ФНС назвал банкротство «ампутацией» и раскрыл: у 50% банкротств нулевое погашение, средний возврат — 18,9%, лишь 0,25% компаний восстанавливают платёжеспособность, процедура длится в среднем 1265 дней. ФНС открыто лоббирует досудебную реструктуризацию — статья объясняет, когда это выгоднее кредиторам и должникам.",
+      "expected_length_chars": 6500,
+      "topic_action": "расчёт шансов кредитора при банкротстве",
+      "event_date": "2026-09-21",
+      "news_zone": "finance",
+      "primary_source": "https://www.vedomosti.ru/economics/articles/2026/09/21/1230490-v-fns-sravnili"
+    },
+    {
+      "id": "news-202",
+      "slug": "bankrotstvo-zastrojshchikov-rost-41-protsent-dolshchiki",
+      "title": "Банкротства застройщиков выросли: что делать дольщику",
+      "title_length": 54,
+      "description": "Число дел о банкротстве строительных компаний выросло на 41% год к году. Пошаговый гид для дольщика: как защитить права, попасть в реестр и получить компенсацию.",
+      "description_length": 162,
+      "h1": "Рост банкротств застройщиков на 41%: как защитить права дольщика",
+      "main_keyword": "банкротство застройщика рост что делать дольщику",
+      "main_keyword_density_target": "≤2.5%",
+      "secondary_keywords": [
+        "банкротство застройщика дольщик права",
+        "рост банкротств строительных компаний статистика",
+        "реестр дольщиков банкротство застройщика",
+        "что делать если застройщик банкрот",
+        "компенсация дольщику при банкротстве",
+        "банкротство строительная компания долг дольщик"
+      ],
+      "intent": "problem-aware",
+      "funnel_stage": "decision",
+      "article_type": "step-by-step",
+      "offer": "proverka-spisaniya",
+      "frequency_estimate": "medium",
+      "rationale": "По данным «Контур.Фокус» от 25 сентября 2026, число дел о банкротстве строительных компаний выросло с 1089 до 1454 (+33% за три месяца, +41% год к году). Ввод жилья сократился на 14%. Практический гид для дольщиков: что делать прямо сейчас, чтобы не остаться без квартиры и денег.",
+      "expected_length_chars": 7000,
+      "topic_action": "защиту прав дольщика при банкротстве застройщика",
+      "event_date": "2026-09-25",
+      "news_zone": "finance",
+      "primary_source": "https://www.kommersant.ru/doc/8974843"
+    },
+    {
+      "id": "news-203",
+      "slug": "odobryaemost-kreditov-15-protsent-refinansirovanie-dolgov",
+      "title": "Одобряемость кредитов выросла до 15%: шанс рефинансировать",
+      "title_length": 59,
+      "description": "По данным маркетплейса «Сравни», одобряемость потребкредитов выросла до 15% против 6% год назад. Когда использовать улучшение условий для рефинансирования проблемных долгов.",
+      "description_length": 173,
+      "h1": "Банки чаще одобряют кредиты: стоит ли рефинансировать долги сейчас",
+      "main_keyword": "одобряемость кредитов рефинансирование долгов",
+      "main_keyword_density_target": "≤2.5%",
+      "secondary_keywords": [
+        "одобряемость кредита банк рост статистика",
+        "рефинансирование кредита при просрочке",
+        "переоформить долг новые условия кредит",
+        "одобрение кредита при плохой кредитной истории",
+        "рефинансирование проблемных долгов банк",
+        "шанс получить кредит рефинансирование"
+      ],
+      "intent": "solution-aware",
+      "funnel_stage": "consideration",
+      "article_type": "comparison",
+      "offer": "raschet-stoimosti",
+      "frequency_estimate": "medium",
+      "rationale": "По данным маркетплейса «Сравни» от 24 сентября 2026, одобряемость потребкредитов выросла до 15% против 6% год назад. Практический разбор: когда использовать улучшение рыночных условий для рефинансирования проблемных долгов до старта процедуры банкротства.",
+      "expected_length_chars": 6000,
+      "topic_action": "рефинансирование долгов при выросшей одобряемости",
+      "event_date": "2026-09-24",
+      "news_zone": "finance",
+      "primary_source": "https://lenta.ru/news/2026/09/24/v-rossii-rezko-vyrosla-odobryaemost-kreditov/"
     }
   ]
 }
