@@ -46443,5 +46443,104 @@
       "committed": true,
       "pushed": true
     }
+  },
+  {
+    "timestamp": "2026-09-29T05:12:10",
+    "category": "yur",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 1,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "topic_id": "yur-202",
+    "topic_slug": "publichnoe-predlozhenie-bankrotstvo-yurlica",
+    "quality_gate": {
+      "ran": true,
+      "exit_code": 0,
+      "passed": true,
+      "blockers": [],
+      "warnings": [
+        "forced_pass_at_iter2: блокеры пропущены, статья идёт в TG-очередь с metrics_warning=true. Было: 2 блокеров — length_too_long; broken_internal_links"
+      ],
+      "recommendations": [
+        "reduce_length: сократить до 5000-6000 знаков",
+        "fix_internal_links: заменить href на канонический /articles/{cat}/{slug} из published_index.json (см. .claude/style/editor-cheatsheet.md секция 6)"
+      ],
+      "stderr_tail": ""
+    },
+    "finalize_safety_net": {
+      "ran": true,
+      "rc": 0
+    },
+    "status": "ok",
+    "slug": "publichnoe-predlozhenie-bankrotstvo-yurlica",
+    "duration_sec": 2473.4,
+    "returncode": 0,
+    "rescued_after_failure": false,
+    "stdout_tail": "   26991\n6-seo-editor        haiku            20       8    69324     39548     69352\n7-publisher         haiku            20       8    36310     39548     36338\n------------------------------------------------------------------------------------------\nИТОГО                               322     120   686978   1795650    687420\nBillable-токенов на статью: ~687K (cache_read 1795K не считается в лимит подписки).\nАртефакты: drafts/publichnoe-predlozhenie-bankrotstvo-yurlica/  | quality_gate exit=0",
+    "stderr_tail": "",
+    "tokens_by_model": {},
+    "metrics": {
+      "ai_detector": null,
+      "uniqueness": null,
+      "spam": null,
+      "text_chars": 8638
+    },
+    "git": {
+      "committed": true,
+      "pushed": true
+    }
+  },
+  {
+    "timestamp": "2026-09-29T08:30:07",
+    "category": "news",
+    "git_branch_check": {
+      "ok": true,
+      "was_detached": false,
+      "branch": "main"
+    },
+    "git_pull": {
+      "ok": true,
+      "stdout_tail": "Already up to date.\n",
+      "stderr_tail": "fatal: unable to get credential storage lock in 1000 ms: Read-only file system\nFrom https://github.com/serguess/liquidator\n * branch            main       -> FETCH_HEAD\n",
+      "strategy": "rebase+autostash"
+    },
+    "catchup_pending": {
+      "checked": true,
+      "pending": 2,
+      "pushed": true,
+      "orphan_rescue": {
+        "rescued": 0
+      }
+    },
+    "mode": "new",
+    "news_sanitized": 6,
+    "expanded_in_slot": true,
+    "topic_id": "news-198",
+    "topic_slug": "sotskontrakt-dolg-bankrotstvo-reestr-kassaciya",
+    "status": "failed",
+    "slug": "sotskontrakt-dolg-bankrotstvo-reestr-kassaciya",
+    "duration_sec": 1720.6,
+    "returncode": 1,
+    "rescued_after_failure": false,
+    "stdout_tail": "  ok: 9987 симв., usage in=20 out=10 cache_w=58802 cache_r=39548 billable=58832 ток, 72.9с\n   ok: 12125 симв., billable=84800 ток (model=sonnet)\n   [outline_validate] exit=0\n=== 4-writer (claude opus) ===\n   ok: 7232 симв., billable=78463 ток, 65.9с\n   [writer self-fix проход 2]\n   ok: billable=35352 ток\n=== 5-uniqueness (embed_compare) ===\n   passed=True scores={'structure_overlap': 0.167, 'thesis_similarity': 0.167, 'cta_overlap': 0.149}\n   [watchdog] hard timeout >480s на sonnet — попытка 1/3",
+    "stderr_tail": "[ERR] rate_limit: put_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard\",\"cache_creation\":{\"ephemeral_1h_input_tokens\":0,\"ephemeral_5m_input_tokens\":0},\"inference_geo\":\"\",\"iterations\":[],\"speed\":\"standard\"},\"modelUsage\":{},\"permission_denials\":[],\"terminal_reason\":\"completed\",\"fast_mode_state\":\"off\",\"uuid\":\"b10b9f14-0257-40df-9ed6-b48dd11d3dec\"}\n\n",
+    "tokens_by_model": {},
+    "metrics": null
   }
 ]
