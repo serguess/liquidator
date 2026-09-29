@@ -1,0 +1,108 @@
+{
+  "slug": "publichnoe-predlozhenie-bankrotstvo-yurlica",
+  "category": "yur",
+  "title": "Как купить имущество при банкротстве компании",
+  "description": "Пошаговое руководство по участию в торгах имущества юридического лица: подача заявки, внесение депозита, получение доступа к лотам, завершение сделки.",
+  "h1": "Как купить имущество компании на публичных торгах при банкротстве",
+  "lead": "Разбираем, как устроена трёхступенчатая продажа имущества, что готовить для участия в торгах и какие подводные камни проверять перед подачей заявки.",
+  "topic_action": "покупку имущества банкрота на торгах",
+  "breadcrumb_current": "Покупка имущества при банкротстве",
+  "og_image": "/assets/articles/publichnoe-predlozhenie-bankrotstvo-yurlica.jpg",
+  "main_keyword": "публичное предложение при банкротстве",
+  "secondary_keywords": [
+    "как купить имущество при банкротстве",
+    "торги имущества компании",
+    "реализация имущества при банкротстве",
+    "аукцион имущества юридического лица",
+    "как участвовать в торгах банкротства",
+    "начальная цена имущества торги",
+    "депозит участника торгов",
+    "конкурсная масса имущество",
+    "финансовый управляющий реализация",
+    "период публичного предложения банкротство"
+  ],
+  "internal_links": [
+    "/articles/yur/bankrotstvo-yurlica",
+    "/articles/yur/zaloga-pri-bankrotstve-yurlica",
+    "/articles/yur/konkursnaya-massa-raspredelenie"
+  ],
+  "external_links": [
+    "https://www.consultant.ru/document/cons_doc_LAW_39331/",
+    "https://bankrot.fedresurs.ru/"
+  ],
+  "faq": [
+    {
+      "question": "Можно ли участвовать, если лот ещё не перешёл к публичному предложению?",
+      "answer": "Да. Регистрация на площадке и подача заявки доступны на любой ступени. Механика различается: на аукционе повышаете ставку вверх, на публичном предложении указываете сумму не ниже действующего уровня периода."
+    },
+    {
+      "question": "Что происходит с задатком, если победитель отказался выкупать лот?",
+      "answer": "Задаток остаётся в конкурсной массе и идёт на погашение требований кредиторов. Лот возвращается на площадку, объявление публикуется заново. Возврат обеспечительного взноса при отказе победителя законом не предусмотрен."
+    },
+    {
+      "question": "Сколько времени проходит от победы до получения объекта на руки?",
+      "answer": "Обычно от одного до трёх месяцев. Договор подписывается в течение десяти рабочих дней. Оплата - тридцать-шестьдесят дней. Далее передаточный акт и регистрация права: для недвижимости это ещё пара недель через Росреестр."
+    },
+    {
+      "question": "Обязательно ли приезжать на осмотр лично?",
+      "answer": "Юридически - нет. Фактически - крайне желательно. Фото не показывают износ узлов, скрытые дефекты, реальную комплектацию. По нашему опыту потери от неосмотренных лотов часто перекрывают экономию на цене."
+    },
+    {
+      "question": "Переходят ли долги компании-банкрота на нового собственника её активов?",
+      "answer": "Нет. Приобретатель платит согласованную стоимость и получает предмет сделки чистым от прежних требований к продавцу. Обязательства обанкротившейся организации закрываются в рамках дела о несостоятельности."
+    },
+    {
+      "question": "Как узнать, на каком этапе находится реализация конкретной компании?",
+      "answer": "Через карточку должника в едином реестре банкротства. Там видны все опубликованные объявления, ступень, текущий период публичного предложения, стартовая и действующая суммы, ссылка на площадку. Дублирующие сведения - в газете «Коммерсантъ»."
+    }
+  ],
+  "factcheck_passed": true,
+  "factcheck_notes": [
+    "Все факты сверены с research.json. Все источники имеют статус active или amended с актуальной информацией на 2026-09-29.",
+    "Шести месячный срок на первые торги подтверждён (ст. 110 п. 2 127-ФЗ в редакции ФЗ-337 от 27.11.2023).",
+    "Размеры депозита (5-10%), шагов снижения цены (5-10%), минимальной цены (40-50%) соответствуют данным из research.",
+    "Приоритеты при распределении выручки (70-80% залоговому кредитору) подтверждены ст. 138 127-ФЗ."
+  ],
+  "keyword_density_main": 0.019,
+  "main_keyword_exact_count": 4,
+  "text_chars": 8638,
+  "textru_status": "local_only",
+  "textru_uniqueness": null,
+  "textru_ai_detector": null,
+  "textru_spam": null,
+  "quality_gate_passed": true,
+  "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1790650400/articles/publichnoe-predlozhenie-bankrotstvo-yurlica-cover.jpg",
+  "cover_url_master": "https://res.cloudinary.com/dmsaaiwkm/image/upload/v1790650400/articles/publichnoe-predlozhenie-bankrotstvo-yurlica-cover.jpg",
+  "image_prompt": "Photorealistic editorial magazine photograph, premium legal and business aesthetic, neutral palette with restrained warm accents, cinematic detail, shallow depth of field. Scene: Exterior photograph of a contemporary administrative or business building in heavy rain and evening dusk. Glass façade reflects the wet street and soft amber lampposts glowing through dense haze (no readable signage). Camera: street-level with slight low-angle, OR positioned to capture the building reflected upside-down in a rain puddle on pavement. Foreground: oxidized brass plaque on entry pillar (no readable text), wet stone steps, distant silhouettes of pedestrians with black umbrellas (faceless, far away). Palette: cool blue-grey tones with warm amber pin-points. Lighting: wet street-level reflection creating layered visual depth. Mood: contemporary urban legal/financial drama — examining a significant business transaction opportunity amidst institutional architecture.. Strict requirements: completely wordless composition with absolutely no text, no inscriptions, no readable letters anywhere in the frame, no titles on books (only embossed decorative gilt patterns and emblems are allowed), no labels, no logos, no watermarks, no street signs, no banners. No people, no faces, no hands (distant blurred silhouettes with umbrellas in rainy outdoor scenes are acceptable only when the scene description explicitly mentions them). Lower right area of the frame kept smooth, softly lit and empty for external logo placement. 16:9 horizontal aspect ratio.",
+  "cover_uploaded_at": "2026-09-29T02:53:21Z",
+  "length_status": "too_long",
+  "length_kind": "default",
+  "local_spam_top10_share": 0.084,
+  "local_spam_ngram3_repeat": 0.038,
+  "local_lexical_diversity": 0.628,
+  "local_ai_markers_density": 0.38,
+  "local_ai_markers_total": 4,
+  "local_ai_markers_critical": 0,
+  "local_ai_markers_high": 1,
+  "local_own_voice_hits": 3,
+  "local_first_person_singular_hits": 0,
+  "quality_gate_blockers": [],
+  "quality_gate_retry_count": 2,
+  "predicted_spam_pct": 51,
+  "predicted_ai_pct": 3,
+  "predicted_uniqueness_pct": 87,
+  "customer_risks": [
+    "заспамленность чуть выше 50% (~51%)",
+    "длина значительно больше лимита 6500 (8 638 знаков)"
+  ],
+  "metrics_warning": true,
+  "metrics_warning_blockers": [
+    "length_too_long: 8638 > 6500 (kind=default)",
+    "broken_internal_links: 1 ссылок без соответствия в published_index (/articles/yur/zaloga-pri-bankrotstve-yurlica: slug 'zaloga-pri-bankrotstve-yurlica' не найден в категории 'yur' (есть: нигде))"
+  ],
+  "date_published": "2026-09-29",
+  "date_modified": "2026-09-29",
+  "ready_for_review": true,
+  "ready_at": "2026-09-29T02:53:23Z",
+  "publication_target": "telegram_review"
+}

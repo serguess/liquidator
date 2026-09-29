@@ -7285,6 +7285,19 @@
         "passed": true,
         "hard_failed": false
       }
+    },
+    {
+      "slug": "publichnoe-predlozhenie-bankrotstvo-yurlica",
+      "category": "yur",
+      "title": "Как купить имущество при банкротстве компании",
+      "added_at": "2026-09-29T05:53:23.633694",
+      "char_count": 8638,
+      "cover_url": "https://res.cloudinary.com/dmsaaiwkm/image/upload/f_auto,q_auto,w_1920/v1790650400/articles/publichnoe-predlozhenie-bankrotstvo-yurlica-cover.jpg",
+      "status": "ready_for_review",
+      "quality_gate": {
+        "passed": true,
+        "hard_failed": false
+      }
     }
   ]
 }
