@@ -5628,7 +5628,11 @@
       "topic_action": "консультацию по взысканию банком вашего долга",
       "event_date": "2026-08-31",
       "news_zone": "finance",
-      "primary_source": "https://iz.ru/2158004/2026-08-31/banki-i-mfo-budut-otchityvatsia-pered-pristavami-o-vzyskanii-dolgov-s-1-sentiabria"
+      "primary_source": "https://iz.ru/2158004/2026-08-31/banki-i-mfo-budut-otchityvatsia-pered-pristavami-o-vzyskanii-dolgov-s-1-sentiabria",
+      "status": "rejected",
+      "rejected_at": "2026-10-07T04:00:09",
+      "rejected_reason": "event_too_old:37d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-170",
@@ -5692,7 +5696,11 @@
       "topic_action": "консультацию при просрочке по ипотеке",
       "event_date": "2026-08-31",
       "news_zone": "finance",
-      "primary_source": "https://www.cbr.ru/statistics/bank_sector/sors/"
+      "primary_source": "https://www.cbr.ru/statistics/bank_sector/sors/",
+      "status": "rejected",
+      "rejected_at": "2026-10-07T04:00:09",
+      "rejected_reason": "event_too_old:37d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-172",
@@ -5790,7 +5798,11 @@
       "topic_action": "консультацию по защите компенсаций от взыскания",
       "event_date": "2026-09-01",
       "news_zone": "legislation",
-      "primary_source": "https://www.garant.ru/hotlaw/federal/2069674/"
+      "primary_source": "https://www.garant.ru/hotlaw/federal/2069674/",
+      "status": "rejected",
+      "rejected_at": "2026-10-07T04:00:09",
+      "rejected_reason": "event_too_old:36d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-175",
@@ -5888,7 +5900,11 @@
       "topic_action": "консультацию по законности удержаний из зарплаты",
       "event_date": "2026-09-01",
       "news_zone": "legislation",
-      "primary_source": "https://www.garant.ru/hotlaw/federal/2069674/"
+      "primary_source": "https://www.garant.ru/hotlaw/federal/2069674/",
+      "status": "rejected",
+      "rejected_at": "2026-10-07T04:00:09",
+      "rejected_reason": "event_too_old:36d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-178",
@@ -5948,7 +5964,11 @@
       "topic_action": "списание долга при банкротстве",
       "event_date": "2026-09-04",
       "news_zone": "vs_practice",
-      "primary_source": "https://www.rapsinews.ru/judicial_news/20260904/312166404.html"
+      "primary_source": "https://www.rapsinews.ru/judicial_news/20260904/312166404.html",
+      "status": "rejected",
+      "rejected_at": "2026-10-07T04:00:09",
+      "rejected_reason": "event_too_old:33d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-180",
@@ -6046,7 +6066,11 @@
       "topic_action": "снятие ареста со счёта",
       "event_date": "2026-09-01",
       "news_zone": "legislation",
-      "primary_source": "https://cbr.ru/press/event/?id=25772"
+      "primary_source": "https://cbr.ru/press/event/?id=25772",
+      "status": "rejected",
+      "rejected_at": "2026-10-07T04:00:09",
+      "rejected_reason": "event_too_old:36d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-183",
@@ -6234,7 +6258,11 @@
       "topic_action": "консультацию по продаже активов банкрота",
       "event_date": "2026-09-01",
       "news_zone": "legislation",
-      "primary_source": "https://base.garant.ru/414653012/"
+      "primary_source": "https://base.garant.ru/414653012/",
+      "status": "rejected",
+      "rejected_at": "2026-10-07T04:00:09",
+      "rejected_reason": "event_too_old:36d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-189",
@@ -6264,7 +6292,11 @@
       "topic_action": "оформить ипотечные каникулы",
       "event_date": "2026-09-01",
       "news_zone": "legislation",
-      "primary_source": "https://www.consultant.ru/legalnews/32264/"
+      "primary_source": "https://www.consultant.ru/legalnews/32264/",
+      "status": "rejected",
+      "rejected_at": "2026-10-07T04:00:09",
+      "rejected_reason": "event_too_old:36d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-190",
@@ -6414,7 +6446,11 @@
       "topic_action": "защиту прав кредитора при реструктуризации",
       "event_date": "2026-09-01",
       "news_zone": "legislation",
-      "primary_source": "https://www.consultant.ru/document/cons_doc_LAW_540359/"
+      "primary_source": "https://www.consultant.ru/document/cons_doc_LAW_540359/",
+      "status": "rejected",
+      "rejected_at": "2026-10-07T04:00:09",
+      "rejected_reason": "event_too_old:36d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-195",
@@ -6504,7 +6540,11 @@
       "topic_action": "досудебное оздоровление бизнеса",
       "event_date": "2026-09-01",
       "news_zone": "legislation",
-      "primary_source": "https://base.garant.ru/414653012/"
+      "primary_source": "https://base.garant.ru/414653012/",
+      "status": "rejected",
+      "rejected_at": "2026-10-07T04:00:09",
+      "rejected_reason": "event_too_old:36d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-198",
@@ -6534,7 +6574,11 @@
       "topic_action": "проверку долга по соцконтракту при банкротстве",
       "event_date": "2026-09-04",
       "news_zone": "vs_practice",
-      "primary_source": "https://www.rapsinews.ru/judicial_news/20260904/312166404.html"
+      "primary_source": "https://www.rapsinews.ru/judicial_news/20260904/312166404.html",
+      "status": "rejected",
+      "rejected_at": "2026-10-07T04:00:09",
+      "rejected_reason": "event_too_old:33d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-199",
@@ -6564,7 +6608,11 @@
       "topic_action": "консультацию по долгам агробизнеса",
       "event_date": "2026-09-04",
       "news_zone": "moratorium",
-      "primary_source": "https://www.vedomosti.ru/business/news/2026/09/04/1226443-moratorii-na-bankrotstvo"
+      "primary_source": "https://www.vedomosti.ru/business/news/2026/09/04/1226443-moratorii-na-bankrotstvo",
+      "status": "rejected",
+      "rejected_at": "2026-10-07T04:00:09",
+      "rejected_reason": "event_too_old:33d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-200",
@@ -6594,7 +6642,11 @@
       "topic_action": "консультацию по взысканию долгов",
       "event_date": "2026-09-01",
       "news_zone": "legislation",
-      "primary_source": "https://iz.ru/2158004/2026-08-31/banki-i-mfo-budut-otchityvatsia-pered-pristavami-o-vzyskanii-dolgov-s-1-sentiabria"
+      "primary_source": "https://iz.ru/2158004/2026-08-31/banki-i-mfo-budut-otchityvatsia-pered-pristavami-o-vzyskanii-dolgov-s-1-sentiabria",
+      "status": "rejected",
+      "rejected_at": "2026-10-07T04:00:09",
+      "rejected_reason": "event_too_old:36d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-201",
