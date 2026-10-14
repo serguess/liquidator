@@ -5934,7 +5934,11 @@
       "topic_action": "самозапрет на кредит",
       "event_date": "2026-09-07",
       "news_zone": "finance",
-      "primary_source": "https://nbki.ru/company/news/"
+      "primary_source": "https://nbki.ru/company/news/",
+      "status": "rejected",
+      "rejected_at": "2026-10-14T04:00:21",
+      "rejected_reason": "event_too_old:37d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-179",
@@ -6168,7 +6172,11 @@
       "event_date": "2026-09-09",
       "news_zone": "finance",
       "primary_source": "https://lenta.ru/news/2026/09/10/rossiyanam-stali-chasche-otkazyvat-v-kreditah/",
-      "description_length": 144
+      "description_length": 144,
+      "status": "rejected",
+      "rejected_at": "2026-10-14T04:00:21",
+      "rejected_reason": "event_too_old:35d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-186",
@@ -6416,7 +6424,11 @@
       "topic_action": "расчёт долговой нагрузки и шансов на кредит",
       "event_date": "2026-09-10",
       "news_zone": "finance",
-      "primary_source": "https://nbki.ru/company/news/"
+      "primary_source": "https://nbki.ru/company/news/",
+      "status": "rejected",
+      "rejected_at": "2026-10-14T04:00:21",
+      "rejected_reason": "event_too_old:34d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-194",
@@ -6480,7 +6492,11 @@
       "topic_action": "расчёт долга при текущей ставке",
       "event_date": "2026-09-11",
       "news_zone": "finance",
-      "primary_source": "https://www.cbr.ru/hd_base/keyrate/"
+      "primary_source": "https://www.cbr.ru/hd_base/keyrate/",
+      "status": "rejected",
+      "rejected_at": "2026-10-14T04:00:21",
+      "rejected_reason": "event_too_old:33d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-196",
@@ -6510,7 +6526,11 @@
       "topic_action": "проверку возможности списания кредита",
       "event_date": "2026-09-12",
       "news_zone": "finance",
-      "primary_source": "https://nbki.ru/company/news/"
+      "primary_source": "https://nbki.ru/company/news/",
+      "status": "rejected",
+      "rejected_at": "2026-10-14T04:00:21",
+      "rejected_reason": "event_too_old:32d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-197",
