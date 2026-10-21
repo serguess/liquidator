@@ -6206,7 +6206,11 @@
       "event_date": "2026-09-15",
       "news_zone": "initiative",
       "primary_source": "https://tvspb.ru/news/2026/09/15/czb-ogranichit-rassrochki-ot-zastrojshhikov-i-uzhestochit-ipoteku-na-izhs",
-      "description_length": 151
+      "description_length": 151,
+      "status": "rejected",
+      "rejected_at": "2026-10-21T04:00:21",
+      "rejected_reason": "event_too_old:36d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-187",
@@ -6236,7 +6240,11 @@
       "event_date": "2026-09-15",
       "news_zone": "initiative",
       "primary_source": "https://tvspb.ru/news/2026/09/15/czb-ogranichit-rassrochki-ot-zastrojshhikov-i-uzhestochit-ipoteku-na-izhs",
-      "description_length": 148
+      "description_length": 148,
+      "status": "rejected",
+      "rejected_at": "2026-10-21T04:00:21",
+      "rejected_reason": "event_too_old:36d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-188",
@@ -6334,7 +6342,11 @@
       "topic_action": "оспаривание торгов в банкротстве",
       "event_date": "2026-09-17",
       "news_zone": "vs_practice",
-      "primary_source": "https://ilias73.wordpress.com/2026/09/20/%d0%be%d1%81%d0%bf%d0%b0%d1%80%d0%b8%d0%b2%d0%b0%d0%bd%d0%b8%d0%b5-%d1%82%d0%be%d1%80%d0%b3%d0%be%d0%b2-%d0%b2-%d0%b1%d0%b0%d0%bd%d0%ba%d1%80%d0%be%d1%82%d1%81%d1%82%d0%b2%d0%b5-3-%d1%81%d0%b2/"
+      "primary_source": "https://ilias73.wordpress.com/2026/09/20/%d0%be%d1%81%d0%bf%d0%b0%d1%80%d0%b8%d0%b2%d0%b0%d0%bd%d0%b8%d0%b5-%d1%82%d0%be%d1%80%d0%b3%d0%be%d0%b2-%d0%b2-%d0%b1%d0%b0%d0%bd%d0%ba%d1%80%d0%be%d1%82%d1%81%d1%82%d0%b2%d0%b5-3-%d1%81%d0%b2/",
+      "status": "rejected",
+      "rejected_at": "2026-10-21T04:00:21",
+      "rejected_reason": "event_too_old:34d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-191",
@@ -6364,7 +6376,11 @@
       "topic_action": "проверку сделок должника перед банкротством",
       "event_date": "2026-09-18",
       "news_zone": "vs_practice",
-      "primary_source": "https://ilias73.wordpress.com/2026/09/18/%d0%bd%d0%b5%d1%80%d0%b0%d0%b2%d0%bd%d0%be%d1%86%d0%b5%d0%bd%d0%bd%d1%8b%d0%b5-%d1%8e%d1%80%d0%b8%d0%b4%d0%b8%d1%87%d0%b5%d1%81%d0%ba%d0%b8%d0%b5-%d1%83%d1%81%d0%bb%d1%83%d0%b3%d0%b8-%d0%b2-%d0%b1/"
+      "primary_source": "https://ilias73.wordpress.com/2026/09/18/%d0%bd%d0%b5%d1%80%d0%b0%d0%b2%d0%bd%d0%be%d1%86%d0%b5%d0%bd%d0%bd%d1%8b%d0%b5-%d1%8e%d1%80%d0%b8%d0%b4%d0%b8%d1%87%d0%b5%d1%81%d0%ba%d0%b8%d0%b5-%d1%83%d1%81%d0%bb%d1%83%d0%b3%d0%b8-%d0%b2-%d0%b1/",
+      "status": "rejected",
+      "rejected_at": "2026-10-21T04:00:21",
+      "rejected_reason": "event_too_old:33d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-192",
