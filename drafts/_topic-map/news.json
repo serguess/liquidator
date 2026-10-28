@@ -6410,7 +6410,11 @@
       "topic_action": "взыскание долга с компании через ФССП",
       "event_date": "2026-09-22",
       "news_zone": "finance",
-      "primary_source": "https://www.klerk.ru/buh/news/709769/"
+      "primary_source": "https://www.klerk.ru/buh/news/709769/",
+      "status": "rejected",
+      "rejected_at": "2026-10-28T04:00:17",
+      "rejected_reason": "event_too_old:36d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-193",
@@ -6712,7 +6716,11 @@
       "topic_action": "расчёт шансов кредитора при банкротстве",
       "event_date": "2026-09-21",
       "news_zone": "finance",
-      "primary_source": "https://www.vedomosti.ru/economics/articles/2026/09/21/1230490-v-fns-sravnili"
+      "primary_source": "https://www.vedomosti.ru/economics/articles/2026/09/21/1230490-v-fns-sravnili",
+      "status": "rejected",
+      "rejected_at": "2026-10-28T04:00:17",
+      "rejected_reason": "event_too_old:37d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-202",
@@ -6742,7 +6750,11 @@
       "topic_action": "защиту прав дольщика при банкротстве застройщика",
       "event_date": "2026-09-25",
       "news_zone": "finance",
-      "primary_source": "https://www.kommersant.ru/doc/8974843"
+      "primary_source": "https://www.kommersant.ru/doc/8974843",
+      "status": "rejected",
+      "rejected_at": "2026-10-28T04:00:17",
+      "rejected_reason": "event_too_old:33d",
+      "rejected_by": "news_sanitizer"
     },
     {
       "id": "news-203",
@@ -6772,7 +6784,11 @@
       "topic_action": "рефинансирование долгов при выросшей одобряемости",
       "event_date": "2026-09-24",
       "news_zone": "finance",
-      "primary_source": "https://lenta.ru/news/2026/09/24/v-rossii-rezko-vyrosla-odobryaemost-kreditov/"
+      "primary_source": "https://lenta.ru/news/2026/09/24/v-rossii-rezko-vyrosla-odobryaemost-kreditov/",
+      "status": "rejected",
+      "rejected_at": "2026-10-28T04:00:17",
+      "rejected_reason": "event_too_old:34d",
+      "rejected_by": "news_sanitizer"
     }
   ]
 }
